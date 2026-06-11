@@ -1,0 +1,428 @@
+<!--
+  朝刊テック — AWS + IT ニュース まとめアプリ プロトタイプ
+  サンプルデータで動く体験デモ。実データ取得・通知配信は未接続（ステップ2）。
+-->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&display=swap');
+
+  :root{
+    --ink:#16183D;          /* app chrome / 濃紺インク */
+    --paper:#FBFAF6;        /* 読み面 */
+    --card:#FFFFFF;
+    --text:#1A1B2E;
+    --muted:#71748A;
+    --hair:#ECEAE2;
+    --sun1:#FF6A3D;         /* 朝焼けアクセント */
+    --sun2:#FFB14A;
+    --aws-bg:#E9F0FF; --aws-fg:#2952E3;
+    --ai-bg:#EFEAFF;  --ai-fg:#6B45E0;
+    --sec-bg:#E7F6EF; --sec-fg:#1E9466;
+    --new:#FF513A;
+    --display:'Outfit', system-ui, -apple-system, sans-serif;
+    --jp:'Hiragino Kaku Gothic ProN','Hiragino Sans','Noto Sans JP', system-ui, sans-serif;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{margin:0; padding:0;}
+  body{
+    background:
+      radial-gradient(1200px 600px at 50% -10%, #2a2d63 0%, #14152f 55%, #0e0f24 100%);
+    min-height:100vh; display:flex; align-items:center; justify-content:center;
+    font-family:var(--jp); color:var(--text);
+    padding:24px 12px;
+  }
+
+  /* ===== 端末フレーム ===== */
+  .phone{
+    width:390px; max-width:100%; height:800px; max-height:92vh;
+    background:var(--paper); border-radius:42px; overflow:hidden; position:relative;
+    box-shadow:0 40px 90px rgba(0,0,0,.55), 0 0 0 11px #0b0c1c, 0 0 0 13px #2b2d52;
+    display:flex; flex-direction:column;
+  }
+  .statusbar{
+    height:46px; flex:0 0 46px; background:var(--ink); color:#fff;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:0 22px; font-family:var(--display); font-weight:600; font-size:13px;
+    letter-spacing:.3px;
+  }
+  .statusbar .dots{display:flex; gap:5px; align-items:center;}
+  .statusbar .dots span{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.55);}
+  .statusbar .bat{width:22px;height:11px;border:1.5px solid rgba(255,255,255,.7);border-radius:3px;position:relative;}
+  .statusbar .bat::after{content:"";position:absolute;right:-4px;top:3px;width:2px;height:5px;background:rgba(255,255,255,.7);border-radius:1px;}
+  .statusbar .bat i{position:absolute;inset:1.5px;width:70%;background:#7CF29C;border-radius:1px;display:block;}
+
+  /* ===== ヘッダー ===== */
+  .appbar{
+    flex:0 0 auto; background:var(--ink); color:#fff; padding:6px 20px 16px;
+  }
+  .appbar .brand{display:flex; align-items:center; gap:9px;}
+  .appbar .mark{
+    width:26px;height:26px;border-radius:8px;
+    background:linear-gradient(135deg,var(--sun2),var(--sun1));
+    display:flex;align-items:center;justify-content:center;font-size:15px;
+  }
+  .appbar .name{font-family:var(--display); font-weight:800; font-size:19px; letter-spacing:.2px;}
+  .appbar .name small{font-weight:500; opacity:.6; font-size:11px; margin-left:6px; letter-spacing:1px;}
+
+  /* ===== スクロール領域 ===== */
+  .screen{flex:1 1 auto; overflow-y:auto; -webkit-overflow-scrolling:touch; position:relative;}
+  .screen::-webkit-scrollbar{display:none;}
+  .view{display:none; padding:0 0 30px;}
+  .view.active{display:block; animation:fade .25s ease;}
+  @keyframes fade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+  /* ===== 興味チップ ===== */
+  .chips{display:flex; gap:8px; overflow-x:auto; padding:14px 16px 10px; scrollbar-width:none;}
+  .chips::-webkit-scrollbar{display:none;}
+  .chip{
+    flex:0 0 auto; border:1.5px solid var(--hair); background:#fff; color:var(--muted);
+    padding:8px 14px; border-radius:999px; font-size:13px; font-weight:600; cursor:pointer;
+    transition:.18s; white-space:nowrap; font-family:var(--jp);
+  }
+  .chip.on{background:var(--ink); color:#fff; border-color:var(--ink);}
+  .chip .x{opacity:.55; margin-left:3px;}
+
+  .seclabel{
+    font-family:var(--display); font-weight:700; font-size:12px; letter-spacing:1.5px;
+    color:var(--muted); text-transform:uppercase; padding:6px 18px 2px;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .seclabel b{color:var(--sun1);}
+
+  /* ===== 記事カード ===== */
+  .feed{padding:6px 14px 0;}
+  .card{
+    background:var(--card); border:1px solid var(--hair); border-radius:18px;
+    padding:15px 16px 14px; margin:0 0 12px; cursor:pointer; transition:.18s;
+    position:relative; overflow:hidden;
+  }
+  .card:active{transform:scale(.985);}
+  .card .meta{display:flex; align-items:center; gap:8px; margin-bottom:9px;}
+  .src{
+    font-size:11px; font-weight:700; padding:3px 8px; border-radius:7px; letter-spacing:.3px;
+    font-family:var(--display);
+  }
+  .src.aws{background:var(--aws-bg); color:var(--aws-fg);}
+  .src.news{background:#FFF1E8; color:#D2622B;}
+  .src.dev{background:#EAF3FF; color:#2C73C9;}
+  .time{font-size:11px; color:var(--muted); margin-left:auto; font-family:var(--display); font-weight:500;}
+  .new{font-size:10px; font-weight:800; color:#fff; background:var(--new); padding:2px 7px; border-radius:6px; font-family:var(--display); letter-spacing:.5px;}
+  .card h3{margin:0 0 8px; font-size:15.5px; line-height:1.42; font-weight:700; letter-spacing:.1px;}
+  .card p{margin:0 0 11px; font-size:12.5px; line-height:1.6; color:var(--muted);}
+  .tags{display:flex; gap:6px; flex-wrap:wrap; align-items:center;}
+  .tag{font-size:10.5px; font-weight:700; padding:3px 8px; border-radius:6px; font-family:var(--jp);}
+  .tag.ai{background:var(--ai-bg); color:var(--ai-fg);}
+  .tag.aws{background:var(--aws-bg); color:var(--aws-fg);}
+  .tag.sec{background:var(--sec-bg); color:var(--sec-fg);}
+  .tag.gen{background:#F1F0F4; color:#6A6D80;}
+  .why{
+    margin-left:auto; font-size:10.5px; color:var(--sun1); font-weight:700;
+    display:flex; align-items:center; gap:4px; font-family:var(--jp);
+  }
+  .why::before{content:"●"; font-size:6px;}
+
+  /* ===== まとめ（署名要素） ===== */
+  .digest-hero{
+    background:linear-gradient(160deg, #FF6A3D 0%, #FF8E3C 45%, #FFB14A 100%);
+    color:#fff; padding:26px 22px 30px; position:relative; overflow:hidden;
+  }
+  .digest-hero::after{
+    content:""; position:absolute; right:-40px; top:-50px; width:170px; height:170px;
+    background:radial-gradient(circle, rgba(255,255,255,.35), transparent 70%); border-radius:50%;
+  }
+  .digest-hero .sun{
+    position:absolute; right:24px; top:22px; width:46px; height:46px; border-radius:50%;
+    background:#FFF3D6; box-shadow:0 0 0 8px rgba(255,255,255,.18), 0 0 40px rgba(255,243,214,.8);
+  }
+  .digest-hero .day{font-family:var(--display); font-weight:600; font-size:12px; letter-spacing:2px; opacity:.9;}
+  .digest-hero h2{font-family:var(--display); font-weight:800; font-size:27px; margin:7px 0 4px; letter-spacing:.3px;}
+  .digest-hero .lead{font-size:12.5px; line-height:1.6; opacity:.95; max-width:84%; margin-top:8px;}
+  .digest-hero .count{
+    display:inline-flex; gap:14px; margin-top:16px; font-family:var(--display);
+  }
+  .digest-hero .count b{display:block; font-size:21px; font-weight:800; line-height:1;}
+  .digest-hero .count span{font-size:10px; opacity:.85; letter-spacing:.5px;}
+
+  .theme{padding:20px 18px 2px;}
+  .theme .th-h{display:flex; align-items:baseline; gap:9px; margin-bottom:9px;}
+  .theme .th-n{font-family:var(--display); font-weight:800; font-size:13px; color:#fff; background:var(--ink); width:23px; height:23px; border-radius:7px; display:flex; align-items:center; justify-content:center; flex:0 0 auto;}
+  .theme .th-t{font-size:15.5px; font-weight:800; letter-spacing:.2px;}
+  .theme .th-sum{font-size:12.5px; line-height:1.7; color:#4A4D63; background:#fff; border:1px solid var(--hair); border-left:3px solid var(--sun1); border-radius:0 12px 12px 0; padding:12px 14px; margin-bottom:11px;}
+  .mini{display:flex; gap:10px; padding:9px 2px; border-top:1px solid var(--hair); cursor:pointer;}
+  .mini .mdot{width:7px;height:7px;border-radius:50%;margin-top:6px;flex:0 0 auto;}
+  .mini .mdot.aws{background:var(--aws-fg);} .mini .mdot.news{background:#D2622B;} .mini .mdot.dev{background:#2C73C9;}
+  .mini .mt{font-size:13px; line-height:1.45; font-weight:600;}
+  .mini .ms{font-size:10.5px; color:var(--muted); margin-top:3px; font-family:var(--display); font-weight:500;}
+
+  /* ===== 通知 ===== */
+  .notif{display:flex; gap:12px; padding:15px 18px; border-bottom:1px solid var(--hair); cursor:pointer;}
+  .notif:active{background:#fff;}
+  .notif .ni{width:38px;height:38px;border-radius:12px;flex:0 0 auto;display:flex;align-items:center;justify-content:center;font-size:18px;}
+  .notif .ni.ai{background:var(--ai-bg);} .notif .ni.aws{background:var(--aws-bg);} .notif .ni.sec{background:var(--sec-bg);}
+  .notif .nb h4{margin:0 0 3px; font-size:13.5px; font-weight:700;}
+  .notif .nb h4 em{font-style:normal; color:var(--sun1);}
+  .notif .nb p{margin:0; font-size:12px; color:var(--muted); line-height:1.5;}
+  .notif .nt{font-size:10px; color:var(--muted); margin-top:5px; font-family:var(--display); font-weight:600; letter-spacing:.5px;}
+  .notif.unread{background:#FFFBF4;}
+  .notif.unread .nb h4::after{content:""; display:inline-block; width:7px;height:7px;background:var(--new);border-radius:50%;margin-left:6px;vertical-align:middle;}
+
+  /* ===== 設定 ===== */
+  .set-sec{padding:18px 18px 4px;}
+  .set-sec .h{font-family:var(--display); font-weight:700; font-size:11px; letter-spacing:1.5px; color:var(--muted); text-transform:uppercase; margin-bottom:10px;}
+  .row{display:flex; align-items:center; gap:12px; background:#fff; border:1px solid var(--hair); border-radius:14px; padding:13px 15px; margin-bottom:9px;}
+  .row .lbl{font-size:13.5px; font-weight:600;}
+  .row .sub{font-size:11px; color:var(--muted); margin-top:2px;}
+  .row .ico{width:30px;height:30px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:15px;flex:0 0 auto;background:#F4F3EF;}
+  .toggle{margin-left:auto; width:46px; height:27px; border-radius:999px; background:#DAD8D0; position:relative; cursor:pointer; transition:.2s; flex:0 0 auto;}
+  .toggle::after{content:""; position:absolute; top:3px; left:3px; width:21px; height:21px; border-radius:50%; background:#fff; transition:.2s; box-shadow:0 1px 3px rgba(0,0,0,.2);}
+  .toggle.on{background:var(--sun1);}
+  .toggle.on::after{left:22px;}
+  .timepick{margin-left:auto; font-family:var(--display); font-weight:700; font-size:15px; color:var(--ink); background:#F4F3EF; padding:6px 12px; border-radius:9px;}
+
+  .demo-note{
+    margin:14px 16px 4px; background:#FFF6E9; border:1px dashed #F0C48A; border-radius:13px;
+    padding:12px 14px; font-size:11.5px; line-height:1.6; color:#9A6B25;
+  }
+  .demo-note b{color:#C9791A;}
+
+  /* ===== ボトムタブ ===== */
+  .tabbar{
+    flex:0 0 auto; background:#fff; border-top:1px solid var(--hair);
+    display:flex; padding:8px 6px calc(8px + env(safe-area-inset-bottom));
+  }
+  .tab{flex:1; background:none; border:none; padding:6px 0 4px; cursor:pointer; display:flex; flex-direction:column; align-items:center; gap:3px; color:var(--muted); font-family:var(--jp);}
+  .tab svg{width:23px; height:23px; stroke-width:2; transition:.18s;}
+  .tab span{font-size:10px; font-weight:700; letter-spacing:.3px;}
+  .tab.on{color:var(--sun1);}
+  .tab .badge{position:absolute; margin:-4px 0 0 13px; background:var(--new); color:#fff; font-size:9px; font-weight:800; min-width:15px; height:15px; border-radius:8px; display:flex; align-items:center; justify-content:center; font-family:var(--display); padding:0 3px;}
+
+  .empty{text-align:center; padding:60px 30px; color:var(--muted);}
+  .empty .e-ico{font-size:34px; margin-bottom:10px;}
+  .empty p{font-size:13px; line-height:1.6;}
+</style>
+
+<div class="phone">
+  <div class="statusbar">
+    <span>7:02</span>
+    <div class="dots"><span></span><span></span><span></span>
+      <div class="bat"><i></i></div>
+    </div>
+  </div>
+
+  <div class="appbar">
+    <div class="brand">
+      <div class="mark">🌅</div>
+      <div class="name">朝刊テック<small>MORNING BRIEF</small></div>
+    </div>
+  </div>
+
+  <div class="screen">
+
+    <!-- ===== ホーム ===== -->
+    <section class="view active" id="v-home">
+      <div class="chips" id="chips"></div>
+      <div class="seclabel">あなた向けの新着 <b id="feedcount"></b></div>
+      <div class="feed" id="feed"></div>
+    </section>
+
+    <!-- ===== まとめ ===== -->
+    <section class="view" id="v-digest">
+      <div class="digest-hero">
+        <div class="sun"></div>
+        <div class="day">2026 . 06 . 11｜THURSDAY</div>
+        <h2>今朝のまとめ</h2>
+        <div class="lead">おはようございます。昨日からの IT・AWS ニュース 12 件を、あなたの興味にもとづいて 3 つのトピックに整理しました。</div>
+        <div class="count">
+          <div><b>12</b><span>新着記事</span></div>
+          <div><b>3</b><span>トピック</span></div>
+          <div><b>2</b><span>要チェック</span></div>
+        </div>
+      </div>
+
+      <div class="theme">
+        <div class="th-h"><div class="th-n">1</div><div class="th-t">生成AI / Bedrock</div></div>
+        <div class="th-sum">Amazon Bedrock の新コンソール（Bedrock Mantle）が東京リージョンで利用可能に。OpenAI 互換 API に対応し、複数モデルの比較から PoC まで一気通貫に。御社の検証記事ネタとして鮮度が高い領域です。</div>
+        <div class="mini"><div class="mdot aws"></div><div><div class="mt">Bedrock の新コンソール、OpenAI／Anthropic 互換 API 向けに最適化</div><div class="ms">AWS Blog ・ 1時間前</div></div></div>
+        <div class="mini"><div class="mdot dev"></div><div><div class="mt">Bedrock Mantle を実際に触ってみた — 3モデル比較レポート</div><div class="ms">DevelopersIO ・ 3時間前</div></div></div>
+      </div>
+
+      <div class="theme">
+        <div class="th-h"><div class="th-n">2</div><div class="th-t">クラウド / インフラ</div></div>
+        <div class="th-sum">OpenSearch Serverless の次世代版が GA。アイドル時に課金停止する scale-to-zero で最大 60% のコスト削減。RAG のコストを抑えたい御社の切り口で記事に展開できます。</div>
+        <div class="mini"><div class="mdot aws"></div><div><div class="mt">OpenSearch Serverless 次世代版が一般提供開始、コスト最大60%減</div><div class="ms">AWS What's New ・ 5時間前</div></div></div>
+        <div class="mini"><div class="mdot news"></div><div><div class="mt">国内企業のクラウド移行、生成AI需要で再加速</div><div class="ms">日経クロステック ・ 昨日</div></div></div>
+      </div>
+
+      <div class="theme">
+        <div class="th-h"><div class="th-n">3</div><div class="th-t">セキュリティ</div></div>
+        <div class="th-sum">GuardDuty が S3 の継続的バックアップにマルウェアスキャンを追加。ランサムウェア対策の文脈で、中小企業の御社に刺さりやすいトピックです。</div>
+        <div class="mini"><div class="mdot aws"></div><div><div class="mt">GuardDuty、S3バックアップへのマルウェアスキャンに対応</div><div class="ms">AWS What's New ・ 昨日</div></div></div>
+      </div>
+      <div class="demo-note"><b>これは試作（デモ）です。</b>このまとめは、毎朝この形で自動生成されるイメージを示すサンプルです。実際の自動生成・配信は、裏側の仕組み（ステップ2）を作ると動くようになります。</div>
+    </section>
+
+    <!-- ===== 通知 ===== -->
+    <section class="view" id="v-notif">
+      <div class="seclabel" style="padding-top:14px;">通知</div>
+      <div class="notif unread"><div class="ni ai">🤖</div><div class="nb"><h4>興味「<em>生成AI</em>」に新着</h4><p>Bedrock の新コンソールに関する記事を2件届けました。</p><div class="nt">7:00</div></div></div>
+      <div class="notif unread"><div class="ni aws">📢</div><div class="nb"><h4>今朝のまとめが <em>できました</em></h4><p>12件のニュースを3トピックに整理。タップして読む</p><div class="nt">7:00</div></div></div>
+      <div class="notif"><div class="ni sec">🛡️</div><div class="nb"><h4>興味「セキュリティ」に新着</h4><p>GuardDuty のマルウェアスキャン対応が発表されました。</p><div class="nt">昨日 18:24</div></div></div>
+      <div class="notif"><div class="ni aws">☁️</div><div class="nb"><h4>フォロー中「AWS What's New」</h4><p>OpenSearch Serverless 次世代版が一般提供開始。</p><div class="nt">昨日 14:10</div></div></div>
+      <div class="demo-note"><b>これは試作（デモ）です。</b>実際のプッシュ通知には、新着を監視して送る裏側の仕組みが必要です。</div>
+    </section>
+
+    <!-- ===== 設定 ===== -->
+    <section class="view" id="v-set">
+      <div class="set-sec">
+        <div class="h">毎朝のまとめ</div>
+        <div class="row"><div class="ico">📅</div><div><div class="lbl">まとめを毎朝つくる</div><div class="sub">指定した時刻に自動でまとめを生成</div></div><div class="toggle on" data-toggle></div></div>
+        <div class="row"><div class="ico">⏰</div><div><div class="lbl">配信する時刻</div><div class="sub">この時間にまとめと通知を届く</div></div><div class="timepick">7:00</div></div>
+      </div>
+
+      <div class="set-sec">
+        <div class="h">通知する興味トピック</div>
+        <div class="row"><div class="ico">🤖</div><div><div class="lbl">生成AI / Bedrock</div></div><div class="toggle on" data-toggle></div></div>
+        <div class="row"><div class="ico">☁️</div><div><div class="lbl">クラウド / インフラ</div></div><div class="toggle on" data-toggle></div></div>
+        <div class="row"><div class="ico">🛡️</div><div><div class="lbl">セキュリティ</div></div><div class="toggle on" data-toggle></div></div>
+        <div class="row"><div class="ico">📊</div><div><div class="lbl">データ分析</div></div><div class="toggle" data-toggle></div></div>
+      </div>
+
+      <div class="set-sec">
+        <div class="h">ニュースの取得元</div>
+        <div class="row"><div class="ico">📢</div><div><div class="lbl">AWS What's New</div><div class="sub">新機能・新サービスの速報</div></div><div class="toggle on" data-toggle></div></div>
+        <div class="row"><div class="ico">✍️</div><div><div class="lbl">AWS 公式ブログ（日本語）</div></div><div class="toggle on" data-toggle></div></div>
+        <div class="row"><div class="ico">💻</div><div><div class="lbl">DevelopersIO</div></div><div class="toggle on" data-toggle></div></div>
+        <div class="row"><div class="ico">📰</div><div><div class="lbl">日経クロステック</div><div class="sub">一部は有料会員向け</div></div><div class="toggle on" data-toggle></div></div>
+        <div class="row"><div class="ico">💡</div><div><div class="lbl">Publickey</div></div><div class="toggle" data-toggle></div></div>
+        <div class="row"><div class="ico">➕</div><div><div class="lbl">サイトを追加</div><div class="sub">RSS があるサイトを自由に追加</div></div><div class="timepick">追加</div></div>
+      </div>
+      <div class="demo-note"><b>これは試作（デモ）です。</b>取得元・トピックの選択 → ホームを通じて毎朝まとめる、という流れを体験できます。実データ接続は次のステップです。</div>
+    </section>
+
+  </div>
+
+  <div class="tabbar">
+    <button class="tab on" data-tab="home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 11l9-8 9 8M5 10v10h14V10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>ホーム</span>
+    </button>
+    <button class="tab" data-tab="digest">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 3a6 6 0 016 6c0 4-6 12-6 12S6 13 6 9a6 6 0 016-6z" stroke-linecap="round" stroke-linejoin="round" style="display:none"/><path d="M4 6h16M4 12h16M4 18h10" stroke-linecap="round"/></svg>
+      <span>まとめ</span>
+    </button>
+    <button class="tab" data-tab="notif">
+      <span class="badge">2</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 8a6 6 0 10-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 01-3.4 0" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>通知</span>
+    </button>
+    <button class="tab" data-tab="set">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 00.3 1.8l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.6 1.6 0 00-2.7.6 1.6 1.6 0 01-3.2 0 1.6 1.6 0 00-2.7-.6l-.1.1A2 2 0 113.6 17l.1-.1a1.6 1.6 0 00-1.3-2.7 1.6 1.6 0 010-3.2 1.6 1.6 0 001.3-2.7l-.1-.1A2 2 0 117 3.6l.1.1a1.6 1.6 0 002.7-1.3 1.6 1.6 0 013.2 0A1.6 1.6 0 0017 3.7l.1-.1A2 2 0 1120.4 7l-.1.1a1.6 1.6 0 00.3 2.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>設定</span>
+    </button>
+  </div>
+</div>
+
+<script>
+  // ===== サンプルデータ =====
+  const interests = [
+    {id:'ai',   label:'生成AI'},
+    {id:'cloud',label:'クラウド'},
+    {id:'sec',  label:'セキュリティ'},
+    {id:'data', label:'データ分析'},
+    {id:'dev',  label:'開発ツール'},
+  ];
+  const active = new Set(['ai','cloud','sec']); // 初期で選択中
+
+  const articles = [
+    {src:'aws', srcLabel:'AWS Blog', time:'1時間前', isNew:true,
+     title:'Anthropic / OpenAI 互換 API 向けに最適化、Bedrock の新コンソールを試す',
+     desc:'bedrock-mantle エンドポイント向けに刷新。モデル比較から本番移行まで、一つの流れで。',
+     tags:[['ai','生成AI'],['aws','Bedrock']], why:'生成AI', topics:['ai']},
+    {src:'dev', srcLabel:'DevelopersIO', time:'3時間前', isNew:true,
+     title:'Bedrock Mantle コンソールで3モデル比較し、OpenAI SDK 連携までやってみた',
+     desc:'Claude Opus 4.8 / GPT OSS 120B / DeepSeek V3.2 を実際に呼び出して検証。',
+     tags:[['ai','生成AI'],['gen','やってみた']], why:'生成AI', topics:['ai','dev']},
+    {src:'aws', srcLabel:"What's New", time:'5時間前', isNew:true,
+     title:'OpenSearch Serverless 次世代版が一般提供開始、コスト最大60%削減',
+     desc:'アイドル時に課金停止する scale-to-zero に対応。RAG のベクトル検索基盤に。',
+     tags:[['cloud','クラウド'],['aws','OpenSearch']], why:'クラウド', topics:['cloud','ai']},
+    {src:'aws', srcLabel:"What's New", time:'昨日', isNew:false,
+     title:'GuardDuty、S3 の継続的バックアップへのマルウェアスキャンに対応',
+     desc:'バックアップ全体から安全な復元時点を特定。ランサムウェア対策に有効。',
+     tags:[['sec','セキュリティ'],['aws','GuardDuty']], why:'セキュリティ', topics:['sec','cloud']},
+    {src:'news', srcLabel:'日経クロステック', time:'昨日', isNew:false,
+     title:'国内企業のクラウド移行、生成AI需要を背景に再加速',
+     desc:'オンプレ脱却と生成AI活用がセットで進む動き。中堅・中小にも広がる。',
+     tags:[['cloud','クラウド'],['gen','業界動向']], why:'クラウド', topics:['cloud']},
+    {src:'dev', srcLabel:'Publickey', time:'昨日', isNew:false,
+     title:'主要クラウドのAIエージェント開発ツール、2026年の最新動向まとめ',
+     desc:'各社のコーディングエージェント連携が広がる。比較記事の好機。',
+     tags:[['dev','開発ツール'],['ai','生成AI']], why:'開発ツール', topics:['dev','ai']},
+    {src:'news', srcLabel:'日経クロステック', time:'2日前', isNew:false,
+     title:'データ分析基盤の内製化、中小企業でも現実的な選択肢に',
+     desc:'マネージドサービスの低価格化で、小さなチームでも運用可能に。',
+     tags:[['data','データ分析'],['gen','業界動向']], why:'データ分析', topics:['data']},
+  ];
+
+  // ===== チップ描画 =====
+  const chipsEl = document.getElementById('chips');
+  function renderChips(){
+    chipsEl.innerHTML = '';
+    interests.forEach(it=>{
+      const b = document.createElement('button');
+      b.className = 'chip' + (active.has(it.id)?' on':'');
+      b.innerHTML = (active.has(it.id)?'':'＋ ') + it.label + (active.has(it.id)?' <span class="x">×</span>':'');
+      b.onclick = ()=>{ active.has(it.id)?active.delete(it.id):active.add(it.id); renderChips(); renderFeed(); };
+      chipsEl.appendChild(b);
+    });
+  }
+
+  // ===== フィード描画（興味で絞り込み） =====
+  const feedEl = document.getElementById('feed');
+  const feedCount = document.getElementById('feedcount');
+  function renderFeed(){
+    const list = active.size===0
+      ? articles
+      : articles.filter(a => a.topics.some(t => active.has(t)));
+    feedCount.textContent = list.length + '件';
+    if(list.length===0){
+      feedEl.innerHTML = '<div class="empty"><div class="e-ico">🔍</div><p>選んだ興味に合う新着はまだありません。<br>上のトピックを増やしてみてください。</p></div>';
+      return;
+    }
+    feedEl.innerHTML = list.map(a=>`
+      <article class="card">
+        <div class="meta">
+          <span class="src ${a.src}">${a.srcLabel}</span>
+          ${a.isNew?'<span class="new">NEW</span>':''}
+          <span class="time">${a.time}</span>
+        </div>
+        <h3>${a.title}</h3>
+        <p>${a.desc}</p>
+        <div class="tags">
+          ${a.tags.map(t=>`<span class="tag ${t[0]}">${t[1]}</span>`).join('')}
+          <span class="why">興味: ${a.why}</span>
+        </div>
+      </article>`).join('');
+  }
+
+  // ===== タブ切替 =====
+  const views = {home:'v-home', digest:'v-digest', notif:'v-notif', set:'v-set'};
+  document.querySelectorAll('.tab').forEach(tab=>{
+    tab.onclick = ()=>{
+      document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
+      tab.classList.add('on');
+      Object.values(views).forEach(id=>document.getElementById(id).classList.remove('active'));
+      document.getElementById(views[tab.dataset.tab]).classList.add('active');
+      document.querySelector('.screen').scrollTop = 0;
+    };
+  });
+
+  // ===== トグル =====
+  document.querySelectorAll('[data-toggle]').forEach(t=>{
+    t.onclick = ()=> t.classList.toggle('on');
+  });
+
+  renderChips();
+  renderFeed();
+</script>
