@@ -4,6 +4,13 @@
 > これにより、チャット（セッション）が変わっても「いつ・何を変えたか」が追えるようにする。
 > 記入フォーマット: `- YYYY-MM-DD: 変更内容（対象ファイル）`
 
+## 2026-06-13（追記）
+- **不具合修正（Discord通知が 403 Forbidden で送れない）**: Secret登録済みでも通知が届かない原因は、`urllib` の既定
+  User-Agent（`Python-urllib/3.x`）を Discord（Cloudflare）が機械的にブロックするため。`notify.py` の送信ヘッダに
+  独自の User-Agent（`MorningTechBot/1.0`）を明示して回避。HTTPエラー時はDiscordの応答本文の先頭も表示するよう改善。
+  （Actions実行ログ `通知の送信に失敗しました: HTTP Error 403: Forbidden` で特定。なお同ログで、前日修正の
+  「自動更新→Pages再デプロイ連鎖」が正しく動作しサイトに反映されることも確認済み。）
+
 ## 2026-06-13
 - **不具合修正（毎朝の自動更新がサイトに反映されない）**: `morning.yml` の自動コミットは `GITHUB_TOKEN` による push のため、
   GitHubの仕様（無限ループ防止）で `deploy-pages` の `on: push` が**発火しない**ことが判明（6/12朝の自動更新はリポジトリに

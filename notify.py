@@ -24,6 +24,7 @@ import datetime
 import json
 import os
 import sys
+import urllib.error
 import urllib.request
 
 import summarize
@@ -92,7 +93,13 @@ def _post(url, payload):
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
     req = urllib.request.Request(
         url, data=data,
-        headers={"Content-Type": "application/json; charset=utf-8"},
+        headers={
+            "Content-Type": "application/json; charset=utf-8",
+            # 重要: urllib の既定 User-Agent (Python-urllib/3.x) は
+            # Discord(Cloudflare)に機械的にブロックされ 403 Forbidden になる。
+            # アプリ名を明示的に名乗ることで回避する。
+            "User-Agent": "MorningTechBot/1.0 (+https://github.com/shiba199/morning-tech)",
+        },
         method="POST",
     )
     with urllib.request.urlopen(req, timeout=15) as resp:
@@ -126,6 +133,15 @@ def send_digest(digest, dry_run=False):
             print("通知を送信しました（Discord）。")
             return "sent"
         print("通知の送信に失敗しました（webhookの応答が異常）。")
+        return "error"
+    except urllib.error.HTTPError as e:
+        # 原因調査のため、Discordが返したエラー本文の先頭も合わせて表示する
+        detail = ""
+        try:
+            detail = " " + e.read().decode("utf-8", "replace")[:200]
+        except Exception:  # noqa: BLE001
+            pass
+        print(f"通知の送信に失敗しました: HTTP {e.code} {e.reason}{detail}")
         return "error"
     except Exception as e:  # noqa: BLE001  ネットワーク等の失敗で更新全体を止めない
         print(f"通知の送信に失敗しました: {e}")
