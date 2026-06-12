@@ -1,15 +1,16 @@
-name: morning-update   # 朝刊テック: 毎朝の自動更新（取得→分類→スナップショット）
+name: morning-update   # 朝刊テック: 毎朝の自動更新（取得→分類→スナップショット→Pages再デプロイ）
 
 on:
   schedule:
-    # cron は UTC。7:00 JST = 前日 22:00 UTC。
-    # GitHub Actions の cron は混雑時に数分〜数十分遅れることがある（仕様上の制約）。
-    - cron: "0 22 * * *"
+    # cron は UTC。21:47 UTC = 6:47 JST（7:00の通知目標から逆算して少し前に開始）。
+    # 「毎時0分ちょうど」は混雑で遅延・スキップされやすいため、半端な分にずらすのが定石。
+    # それでも GitHub の schedule は厳密な時刻保証がなく、数分〜数十分遅れることがある。
+    - cron: "47 21 * * *"
   workflow_dispatch: {}   # 手動実行も可能にする（Actions画面の "Run workflow"）
 
-# 生成物(articles.db / web/data/*.json)をリポジトリに push し直すための書き込み権限
 permissions:
-  contents: write
+  contents: write   # 生成物(articles.db / web/data/*.json)を push し直すため
+  actions: write    # 更新後に deploy-pages ワークフローを起動するため
 
 jobs:
   update:
@@ -35,13 +36,26 @@ jobs:
         run: python update.py
 
       - name: 変更があればコミットして保存
+        id: commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add articles.db web/data
           if git diff --cached --quiet; then
             echo "更新なし（新着記事なし）。コミットしません。"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore: 毎朝の自動更新 ($(date -u '+%Y-%m-%d %H:%M UTC'))"
             git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # 重要: GITHUB_TOKEN での push は、GitHubの仕様（無限ループ防止）により
+      # 他のワークフロー（deploy-pages の on: push）を「起動しない」。
+      # そのため、ここから workflow_dispatch で deploy-pages を明示的に起動する
+      # （workflow_dispatch / repository_dispatch はこの制限の例外として起動できる）。
+      - name: Pages を再デプロイ（サイトに今朝のデータを反映）
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main

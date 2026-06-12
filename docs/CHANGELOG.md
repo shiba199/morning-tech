@@ -4,6 +4,26 @@
 > これにより、チャット（セッション）が変わっても「いつ・何を変えたか」が追えるようにする。
 > 記入フォーマット: `- YYYY-MM-DD: 変更内容（対象ファイル）`
 
+## 2026-06-13
+- **不具合修正（毎朝の自動更新がサイトに反映されない）**: `morning.yml` の自動コミットは `GITHUB_TOKEN` による push のため、
+  GitHubの仕様（無限ループ防止）で `deploy-pages` の `on: push` が**発火しない**ことが判明（6/12朝の自動更新はリポジトリに
+  コミットされたが、Pagesは初回デプロイのままだった）。対策として、`morning.yml` の最後に `gh workflow run pages.yml` で
+  deploy-pages を明示起動するステップを追加（`workflow_dispatch` は GITHUB_TOKEN でも起動できる例外）。`permissions: actions: write` を追加。
+- **cron時刻の変更**: `0 22 * * *`（7:00 JST）→ `47 21 * * *`（6:47 JST開始）。毎時0分は混雑で遅延・スキップが起きやすいため
+  半端な分にずらす定石を適用（6/13朝はcron実行自体がスキップされていた）。7:00までに通知が届くことを目標に前倒し。
+- **通知タブを実装**（「準備中」を解消）: `web/index.html` の通知タブに、まとめ生成（「今朝のまとめができました」）と
+  トピック別新着（「興味◯◯に新着」）の通知一覧を実データから自動生成して表示。未読バッジ（タブ上の件数）と既読管理
+  （localStorage）付き。通知タップで該当タブへ移動。
+- **設定画面の「配信する時刻」を実態に合わせ修正**: 7:00固定のモック表示だった箇所を「毎朝6:47開始（遅延あり）。変更は
+  morning.yml の cron を編集」という正直な説明に変更。トグルが表示のみである旨も明記（設定の永続化は発展課題のまま）。
+- **Service Worker のキャッシュ版を v2 に**: 土台（index.html）はキャッシュ優先のため、版を上げないと既存PWAに変更が届かない。
+
+## 2026-06-12（本番公開）
+- **MVPを本番公開**。GitHub DesktopでローカルをGit化＆初期コミット → 公開リポジトリ `shiba199/morning-tech` に push。
+  GitHub Pages（Source=GitHub Actions）を有効化し `deploy-pages` 成功 → ライブURL `https://shiba199.github.io/morning-tech/` 稼働。
+  iPhone Safari からホーム画面追加でPWA起動を確認。Pagesは無料プランの制約で private 不可のため public に変更（コードに機密なし／
+  Discord webhook は Secrets 管理のため非公開のまま）。Discord通知Secretの登録は任意の残タスク。
+
 ## 2026-06-12
 - **ステップ8（PWA化）を実装**（GitHub Pages公開は利用者の手作業として残す）。**MVP（ステップ1〜8）完成**:
   - `web/manifest.json`（アプリ名・standalone起動・theme color）、`web/sw.js`（Service Worker：土台はキャッシュ優先でオフライン起動、

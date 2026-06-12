@@ -9,7 +9,9 @@
   iOSのPWAでは、ホーム画面に追加したアプリからの起動時に Service Worker が有効になる。
 */
 
-const CACHE = 'morning-tech-v1';
+// 注意: index.html 等の「土台」を変更したら、このバージョンを上げること。
+// （土台はキャッシュ優先のため、上げないと既存ユーザーに変更が届かない）
+const CACHE = 'morning-tech-v2';
 
 // オフラインでも起動できるよう最初にキャッシュしておく土台ファイル
 const APP_SHELL = [

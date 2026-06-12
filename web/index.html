@@ -186,10 +186,23 @@
     flex:0 0 auto; background:#fff; border-top:1px solid var(--hair);
     display:flex; padding:8px 6px calc(8px + env(safe-area-inset-bottom));
   }
-  .tab{flex:1; background:none; border:none; padding:6px 0 4px; cursor:pointer; display:flex; flex-direction:column; align-items:center; gap:3px; color:var(--muted); font-family:var(--jp);}
+  .tab{flex:1; background:none; border:none; padding:6px 0 4px; cursor:pointer; display:flex; flex-direction:column; align-items:center; gap:3px; color:var(--muted); font-family:var(--jp); position:relative;}
   .tab svg{width:23px; height:23px; stroke-width:2; transition:.18s;}
   .tab span{font-size:10px; font-weight:700; letter-spacing:.3px;}
   .tab.on{color:var(--sun1);}
+  .tab .badge{position:absolute; top:2px; left:calc(50% + 6px); background:var(--new); color:#fff; font-size:9px; font-weight:800; min-width:15px; height:15px; border-radius:8px; display:flex; align-items:center; justify-content:center; font-family:var(--display); padding:0 3px;}
+
+  /* ===== 通知 ===== */
+  .notif{display:flex; gap:12px; padding:15px 18px; border-bottom:1px solid var(--hair); cursor:pointer; text-decoration:none; color:inherit;}
+  .notif:active{background:#fff;}
+  .notif .ni{width:38px;height:38px;border-radius:12px;flex:0 0 auto;display:flex;align-items:center;justify-content:center;font-size:18px;background:#F4F3EF;}
+  .notif .ni.ai{background:var(--ai-bg);} .notif .ni.aws{background:var(--aws-bg);} .notif .ni.sec{background:var(--sec-bg);}
+  .notif .nb h4{margin:0 0 3px; font-size:13.5px; font-weight:700;}
+  .notif .nb h4 em{font-style:normal; color:var(--sun1);}
+  .notif .nb p{margin:0; font-size:12px; color:var(--muted); line-height:1.5;}
+  .notif .nt{font-size:10px; color:var(--muted); margin-top:5px; font-family:var(--display); font-weight:600; letter-spacing:.5px;}
+  .notif.unread{background:#FFFBF4;}
+  .notif.unread .nb h4::after{content:""; display:inline-block; width:7px;height:7px;background:var(--new);border-radius:50%;margin-left:6px;vertical-align:middle;}
 
   .empty{text-align:center; padding:60px 30px; color:var(--muted);}
   .empty .e-ico{font-size:34px; margin-bottom:10px;}
@@ -225,17 +238,20 @@
       <div id="digest"></div>
     </section>
 
-    <!-- ===== 通知（ステップ7で実装） ===== -->
+    <!-- ===== 通知（まとめ生成・トピック別新着から自動生成） ===== -->
     <section class="view" id="v-notif">
-      <div class="demo-note" style="margin-top:18px;"><b>準備中（ステップ7）。</b>新着・まとめ完成の通知はこれから実装します。</div>
+      <div class="seclabel" style="padding-top:14px;">通知</div>
+      <div id="notifs"></div>
+      <div class="demo-note"><b>アプリ内の通知一覧です。</b>スマホへのプッシュ通知（ロック画面に出る通知）は Discord 連携で受け取れます。
+        本物のWeb Push（このアプリ自身のアイコンで通知）は発展課題です。</div>
     </section>
 
     <!-- ===== 設定 ===== -->
     <section class="view" id="v-set">
       <div class="set-sec">
         <div class="h">毎朝のまとめ</div>
-        <div class="row"><div class="ico">📅</div><div><div class="lbl">まとめを毎朝つくる</div><div class="sub">指定した時刻に自動でまとめを生成（ステップ5/6）</div></div><div class="toggle on" data-toggle></div></div>
-        <div class="row"><div class="ico">⏰</div><div><div class="lbl">配信する時刻</div><div class="sub">この時間にまとめと通知を届ける</div></div><div class="timepick">7:00</div></div>
+        <div class="row"><div class="ico">📅</div><div><div class="lbl">まとめを毎朝つくる</div><div class="sub">GitHub Actions が毎朝自動で取得・分類・まとめ生成</div></div><div class="toggle on" data-toggle></div></div>
+        <div class="row"><div class="ico">⏰</div><div><div class="lbl">配信する時刻</div><div class="sub">毎朝 6:47 開始（混雑により遅れあり）。変更はリポジトリの<br>.github/workflows/morning.yml の cron を編集</div></div><div class="timepick">~7:00</div></div>
       </div>
 
       <div class="set-sec">
@@ -247,7 +263,7 @@
         <div class="h">ニュースの取得元</div>
         <div id="set-sources"></div>
       </div>
-      <div class="demo-note"><b>取得元・トピックは実データ由来です。</b>オンオフの保存とまとめ自動生成は次のステップ（5〜6）で接続します。</div>
+      <div class="demo-note"><b>取得元・トピックは実データ由来です。</b>トグルのオンオフの保存（設定の永続化）は発展課題で、現在は表示のみです。</div>
     </section>
 
   </div>
@@ -262,6 +278,7 @@
       <span>まとめ</span>
     </button>
     <button class="tab" data-tab="notif">
+      <span class="badge" id="notif-badge" style="display:none"></span>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 8a6 6 0 10-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 01-3.4 0" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <span>通知</span>
     </button>
@@ -276,7 +293,12 @@
   // ===== 状態 =====
   let TOPICS = [];          // [{id,label}]   /api/topics
   let ARTICLES = [];        // 整形済み記事    /api/articles
+  let DIGEST = null;        // 今朝のまとめ    /api/digest
   const active = new Set(); // 選択中の興味トピックID
+
+  // トピックID → アイコン／通知タイルの色クラス
+  const TOPIC_ICO = {ai:'🤖', cloud:'☁️', sec:'🛡️', data:'📊', dev:'🧰'};
+  const TOPIC_NI  = {ai:'ai', cloud:'aws', sec:'sec', data:'', dev:''};
 
   // ===== ユーティリティ =====
   // HTMLエスケープ（タイトル等にタグが混じっても安全に表示する）
@@ -406,12 +428,72 @@
     el.innerHTML = html;
   }
 
+  // ===== 通知: まとめ生成・トピック別新着から組み立てる =====
+  const SEEN_KEY = 'mtNotifSeen';
+  function getSeen(){ try{ return localStorage.getItem(SEEN_KEY) || ''; }catch(e){ return ''; } }
+  function setSeen(v){ try{ localStorage.setItem(SEEN_KEY, v); }catch(e){ /* プライベートモード等 */ } }
+
+  function buildNotifications(){
+    const items = [];
+    if(DIGEST && DIGEST.groups && DIGEST.groups.length){
+      // まとめ完成の通知
+      items.push({
+        time: DIGEST.generated_at || '',
+        ico: '📢', cls: 'aws', tab: 'digest',
+        title: '今朝のまとめが <em>できました</em>',
+        body: `${DIGEST.total}件のニュースを${DIGEST.topic_count}トピックに整理しました。タップして読む。`,
+      });
+      // トピックごとの新着通知
+      DIGEST.groups.forEach(g=>{
+        const latest = (g.articles && g.articles[0]) || null;
+        if(!latest) return;
+        const more = g.articles.length > 1 ? ` ほか ${g.articles.length}件` : '';
+        items.push({
+          time: latest.published || DIGEST.generated_at || '',
+          ico: TOPIC_ICO[g.id] || '🏷️', cls: TOPIC_NI[g.id] || '', tab: 'home',
+          title: `興味「<em>${esc(g.label)}</em>」に新着`,
+          body: `「${esc(latest.title)}」${more}`,
+        });
+      });
+    }
+    items.sort((a,b)=> String(b.time).localeCompare(String(a.time)));
+    return items;
+  }
+
+  function setBadge(n){
+    const b = document.getElementById('notif-badge');
+    if(n > 0){ b.textContent = n; b.style.display = 'flex'; }
+    else { b.style.display = 'none'; }
+  }
+
+  function renderNotifs(){
+    const el = document.getElementById('notifs');
+    const items = buildNotifications();
+    if(items.length === 0){
+      el.innerHTML = '<div class="empty"><div class="e-ico">🔕</div><p>まだ通知はありません。<br>毎朝の自動更新後にここへ届きます。</p></div>';
+      setBadge(0);
+      return;
+    }
+    const seen = getSeen();
+    let unread = 0;
+    el.innerHTML = items.map(n=>{
+      const isUnread = !seen || String(n.time) > seen;
+      if(isUnread) unread++;
+      return `
+        <div class="notif${isUnread?' unread':''}" data-go="${esc(n.tab)}">
+          <div class="ni ${esc(n.cls)}">${n.ico}</div>
+          <div class="nb"><h4>${n.title}</h4><p>${n.body}</p><div class="nt">${esc(relTime(n.time))}</div></div>
+        </div>`;
+    }).join('');
+    el.querySelectorAll('[data-go]').forEach(d=>{ d.onclick = ()=> switchTab(d.dataset.go); });
+    setBadge(unread);
+  }
+
   // ===== 設定: トピック／取得元の一覧（実データから描画） =====
   function renderSettings(sources){
-    const topicIco = {ai:'🤖', cloud:'☁️', sec:'🛡️', data:'📊', dev:'🧰'};
     document.getElementById('set-topics').innerHTML = TOPICS.map(t=>`
       <div class="row">
-        <div class="ico">${topicIco[t.id]||'🏷️'}</div>
+        <div class="ico">${TOPIC_ICO[t.id]||'🏷️'}</div>
         <div><div class="lbl">${esc(t.label)}</div></div>
         <div class="toggle on" data-toggle></div>
       </div>`).join('');
@@ -434,14 +516,22 @@
 
   // ===== タブ切替 =====
   const views = {home:'v-home', digest:'v-digest', notif:'v-notif', set:'v-set'};
+  function switchTab(name){
+    if(!views[name]) return;
+    document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('on', t.dataset.tab===name));
+    Object.values(views).forEach(id=>document.getElementById(id).classList.remove('active'));
+    document.getElementById(views[name]).classList.add('active');
+    document.querySelector('.screen').scrollTop = 0;
+    if(name === 'notif'){
+      // 通知タブを開いたら、その時点までを既読にしてバッジを消す
+      // （未読のハイライトは今回の表示では残し、次回から消える）
+      const items = buildNotifications();
+      if(items.length) setSeen(String(items[0].time));
+      setBadge(0);
+    }
+  }
   document.querySelectorAll('.tab').forEach(tab=>{
-    tab.onclick = ()=>{
-      document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
-      tab.classList.add('on');
-      Object.values(views).forEach(id=>document.getElementById(id).classList.remove('active'));
-      document.getElementById(views[tab.dataset.tab]).classList.add('active');
-      document.querySelector('.screen').scrollTop = 0;
-    };
+    tab.onclick = ()=> switchTab(tab.dataset.tab);
   });
 
   // APIサーバー(app.py)が居れば /api/* を、居なければ静的JSON(./data/*)を読む。
@@ -470,9 +560,12 @@
       // 初期は全トピックを選択状態にする（全件表示から始める）
       TOPICS.forEach(t=> active.add(t.id));
 
+      DIGEST = dJson;
+
       renderChips();
       renderFeed();
       renderDigest(dJson);
+      renderNotifs();
       renderSettings(sJson.sources || []);
     }catch(e){
       feedEl.innerHTML = '<div class="empty"><div class="e-ico">⚠️</div><p>データの読み込みに失敗しました。<br>app.py が起動しているか確認してください。</p></div>';

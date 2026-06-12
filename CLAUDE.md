@@ -42,6 +42,18 @@
 
 ## 現在の進捗
 
+> **2026-06-12: MVP（ステップ1〜8）本番公開済み。** GitHub Desktop でローカルをGit化＆初期コミット → `shiba199/morning-tech`
+> として公開（public）リポジトリに push 済み。GitHub Pages 有効化（Source=GitHub Actions）→ `deploy-pages` 成功で
+> **ライブURL `https://shiba199.github.io/morning-tech/`** が稼働。iPhoneのSafariからホーム画面追加でPWA起動を確認。
+> 残タスク（任意）: Discord通知のSecret `DISCORD_WEBHOOK_URL` 登録（未確認なら、Discordでwebhook作成→Settings>Secrets>Actions）。
+> 発展課題: 本物のWeb Push／英語記事の翻訳／既読・ブックマーク／設定の永続化／要約のLLM化（Claude API）。
+>
+> **2026-06-13 不具合修正**: ①自動更新コミット（GITHub_TOKEN）では Pages が再デプロイされないGitHub仕様に対応
+> （morning.yml から `gh workflow run pages.yml` で明示起動・`actions: write` 追加）。②cron を `47 21 * * *`（6:47 JST）に変更
+> （毎時0分は遅延・スキップされやすい。6/13朝はスキップ発生）。③通知タブを実データで実装（まとめ完成＋トピック別新着、
+> 未読バッジ・localStorage既読管理）。④設定の「配信する時刻」を実態表記に修正（cron編集で変更する旨を明記）。
+> ⑤sw.js のキャッシュ版を v2 に（土台変更時は版を上げないと既存PWAに反映されない）。
+
 - **ステップ1 完了**: `fetch_feeds.py`（日本語フィード3つ＝AWS日本語ブログ・DevelopersIO・Publickey から
   最新記事のタイトル・リンク・日付・取得元を取得しコンソール表示）。動作確認済み。
 - **ステップ2 完了**: `db.py`（SQLite保存。`link` を UNIQUE キーにして `INSERT OR IGNORE` で重複登録を防止）。
@@ -113,9 +125,12 @@ iOSは「HTTPSで配信されたサイト」でないとPWAとして正しく動
 2. GitHubで空リポジトリを作成（例 `morning-tech`、privateでよい）。
 3. リモート登録して push: `git remote add origin <作ったリポジトリのURL>` → `git branch -M main` → `git push -u origin main`
 4. GitHubの **Actions** タブで `morning-update` を開き、`Run workflow` で手動実行して動作確認。
-5. 以後は毎朝 7:00 JST 前後（UTC基準のため遅延あり）に自動実行され、`articles.db` と `web/data/*.json` が更新コミットされる。
+5. 以後は毎朝 6:47 JST 開始（GitHubの混雑により数分〜数十分遅延あり）で自動実行され、`articles.db` と `web/data/*.json` が更新コミットされる。
 - 補足: ワークフローは `permissions: contents: write` で標準の `GITHUB_TOKEN` を使って push する（追加のシークレット不要）。
-- 配信時刻を変えたい場合は `.github/workflows/morning.yml` の cron を編集（UTC表記。例 22:00 UTC = 翌7:00 JST）。
+- 補足2: GITHUB_TOKEN の push では他ワークフローが発火しない（GitHubの仕様）ため、morning.yml の最後に
+  `gh workflow run pages.yml` で Pages 再デプロイを明示起動している（`permissions: actions: write` が必要）。
+- 配信時刻を変えたい場合は `.github/workflows/morning.yml` の cron を編集（UTC表記。例 21:47 UTC = 翌6:47 JST。
+  毎時0分ちょうどは混雑で遅延・スキップされやすいため、半端な分を推奨）。
 
 ## Webアプリの起動
 
