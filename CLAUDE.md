@@ -123,7 +123,9 @@ iOSは「HTTPSで配信されたサイト」でないとPWAとして正しく動
 3. `deploy-pages` ワークフローが走り、公開URL（例 `https://<ユーザー名>.github.io/<リポジトリ名>/`）が発行される。
 4. iPhoneの **Safari** でそのURLを開く → 共有ボタン → **「ホーム画面に追加」** → 「朝刊テック」アイコンで起動できる。
 5. 毎朝の自動更新（morning-update）が push するたびに Pages も再デプロイされ、最新のまとめが反映される。
-- アイコンを変えたいとき: `tools/make_icons.py` を編集して再実行（`web/icons/` を再生成）。
+- アイコンを変えたいとき: `tools/icon.svg`（ベクター素材）を編集して `tools/render_icons.py` を実行（`web/icons/` を再生成）。
+  レンダリングはEdgeで1024pxに描画→Pillowで各サイズに縮小（PillowはローカルのアイコンツールのみでActions/実行環境には不要）。
+  デザインは「ネットワーク・ドーン」＝紺の夜明け空＋情報源をつなぐシアンのネットワーク＋地平線から昇る太陽。
 - 補足: ローカルの `app.py` でもPWAファイルは配信されるが、`http://localhost` 以外のHTTPだとiOSはインストール不可。確認用途は Pages を使う。
 
 ## Discord通知のセットアップ（ステップ7・利用者の手作業）

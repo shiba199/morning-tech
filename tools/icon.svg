@@ -1,0 +1,47 @@
+<!-- 朝刊テック アプリアイコン（案3 ネットワーク・ドーン）のソース。
+     これを tools/render_icons.py で web/icons/*.png に書き出す。デザイン変更時はここを編集して再実行。
+     全面塗り（角丸なし）＝iOS/Androidが自動で角丸マスクをかける前提。 -->
+<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#23265A"/>
+      <stop offset="1" stop-color="#111228"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#FF5A33"/>
+      <stop offset="0.5" stop-color="#FF8E3A"/>
+      <stop offset="1" stop-color="#FFC74C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.95" r="0.9">
+      <stop offset="0" stop-color="#FFB04A" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFB04A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 夜明けの空（紺グラデ）＋地平線付近の暖かい光 -->
+  <rect width="220" height="220" fill="url(#navy)"/>
+  <rect x="0" y="95" width="220" height="125" fill="url(#glow)"/>
+
+  <!-- 情報源をつなぐネットワーク（線→点） -->
+  <g stroke="#4CE6D6" stroke-width="2.4" opacity="0.6" stroke-linecap="round">
+    <line x1="58" y1="74" x2="110" y2="52"/>
+    <line x1="110" y1="52" x2="162" y2="76"/>
+    <line x1="58" y1="74" x2="86" y2="104"/>
+    <line x1="162" y1="76" x2="140" y2="106"/>
+    <line x1="86" y1="104" x2="140" y2="106"/>
+    <line x1="86" y1="104" x2="110" y2="130"/>
+    <line x1="140" y1="106" x2="110" y2="130"/>
+  </g>
+  <g fill="#5DEAD9">
+    <circle cx="58" cy="74" r="6"/>
+    <circle cx="110" cy="52" r="7"/>
+    <circle cx="162" cy="76" r="6"/>
+    <circle cx="86" cy="104" r="5"/>
+    <circle cx="140" cy="106" r="5"/>
+  </g>
+
+  <!-- 地平線から昇る太陽 -->
+  <path d="M74 152 A36 36 0 0 1 146 152 Z" fill="url(#sun)"/>
+  <circle cx="110" cy="130" r="7" fill="#FFC74C"/>
+  <rect x="32" y="152" width="156" height="3" rx="1.5" fill="#FFE0A8" opacity="0.85"/>
+</svg>

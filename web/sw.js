@@ -11,7 +11,7 @@
 
 // 注意: index.html 等の「土台」を変更したら、このバージョンを上げること。
 // （土台はキャッシュ優先のため、上げないと既存ユーザーに変更が届かない）
-const CACHE = 'morning-tech-v7';
+const CACHE = 'morning-tech-v8';
 
 // オフラインでも起動できるよう最初にキャッシュしておく土台ファイル
 const APP_SHELL = [
