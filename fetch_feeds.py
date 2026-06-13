@@ -42,8 +42,10 @@ FEEDS_CONFIG_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "web", "data", "feeds.json"
 )
 
-# 1フィードあたり表示する最大件数
+# 1フィードあたり、毎回チェックする最新記事の件数（この中から24時間以内のものを採用）
 MAX_PER_FEED = 5
+# 取り込む記事の鮮度（公開からの経過時間）の上限。これより前の記事は取得しない。
+FRESH_HOURS = 24
 
 
 def load_feed_config():
@@ -123,18 +125,33 @@ def fetch_feed(feed):
         print("  ⚠ 記事が0件でした（URLや配信状況を確認してください）")
         return []
 
+    # 公開日時が24時間以内のものだけを採用する基準時刻。
+    # RSSの公開日時(published_parsed)はUTCのnaive datetimeなので、比較もUTCのnaiveで行う。
+    cutoff = (datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
+              - datetime.timedelta(hours=FRESH_HOURS))
+
     articles = []
+    skipped_old = 0
     for entry in parsed.entries[:MAX_PER_FEED]:
+        published = parse_published(entry)
+        # 公開日時が分かっていて、24時間より前のものは除外する
+        # （日時不明の記事は判定できないので、取りこぼさないよう採用する）
+        if published is not None and published < cutoff:
+            skipped_old += 1
+            continue
         articles.append({
             "source":    feed["name"],
             "title":     entry.get("title", "（タイトルなし）"),
             "link":      entry.get("link", ""),
-            "published": parse_published(entry),
+            "published": published,
             # ステップ5「今朝のまとめ（抽出型）」の素材になるRSS概要文。
             # HTMLタグが混じることがあるため、整形は summarize.py 側で行う（ここでは生のまま保存）。
             "summary":   entry.get("summary", "") or entry.get("description", ""),
         })
-    print(f"  → {len(articles)} 件取得")
+    msg = f"  → {len(articles)} 件取得（24時間以内）"
+    if skipped_old:
+        msg += f" / 24時間より前の {skipped_old} 件は除外"
+    print(msg)
     return articles
 
 
