@@ -62,7 +62,8 @@ def _ensure_columns(conn):
         summary … ステップ5で追加
     """
     cols = [row["name"] for row in conn.execute("PRAGMA table_info(articles)")]
-    for name in ("topics", "summary"):
+    # topics=ステップ3 / summary=ステップ5 / translated=翻訳処理済みフラグ(NULL=未処理,'1'=処理済み)
+    for name in ("topics", "summary", "translated"):
         if name not in cols:
             conn.execute(f"ALTER TABLE articles ADD COLUMN {name} TEXT")
     conn.commit()
@@ -156,6 +157,35 @@ def get_articles_for_classification(only_unclassified=True):
         sql += " ORDER BY (published IS NULL), published DESC, id DESC"
         rows = conn.execute(sql).fetchall()
         return [dict(r) for r in rows]
+    finally:
+        conn.close()
+
+
+def get_untranslated():
+    """まだ翻訳処理をしていない記事（translated が NULL）を返す。"""
+    conn = get_connection()
+    try:
+        rows = conn.execute(
+            "SELECT link, title, summary FROM articles WHERE translated IS NULL"
+        ).fetchall()
+        return [dict(r) for r in rows]
+    finally:
+        conn.close()
+
+
+def mark_translated(link, title, summary):
+    """記事の title/summary を（必要なら翻訳後の文に）更新し、翻訳処理済みにする。
+
+    英語記事は日本語に訳した文、日本語記事は元のままを渡す。いずれも translated='1' にして
+    次回以降は再処理しない（＝同じ記事を毎回翻訳しにいかないようにする）。
+    """
+    conn = get_connection()
+    try:
+        conn.execute(
+            "UPDATE articles SET title = ?, summary = ?, translated = '1' WHERE link = ?",
+            (title, summary, link),
+        )
+        conn.commit()
     finally:
         conn.close()
 

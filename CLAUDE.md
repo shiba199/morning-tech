@@ -170,3 +170,6 @@ iOSは「HTTPSで配信されたサイト」でないとPWAとして正しく動
   `get_effective_feeds()`/`get_active_feeds()` で統合する。アプリの設定画面から追加・削除・オンオフでき、保存は GitHub連携（トークン）経由。
 - 興味トピックはコードに一覧データとして持つ（トピックのオンオフ保存は今後対応）。
 - LLMでの要約・分類はステップ5以降（Anthropic API / Claude）。
+- 英語記事は `translate.py`（Google翻訳の無料エンドポイント・キー不要）で日本語化してから保存・表示する。
+  `update.py` の翻訳ステップ（取得→翻訳→分類）が、未処理（`translated` 列が NULL）の記事のうち英語のものだけ翻訳する。
+  入口は `translate.translate()` の1関数で、将来 Claude API に差し替え可能。AWS公式は英語版「AWS News Blog」を採用。

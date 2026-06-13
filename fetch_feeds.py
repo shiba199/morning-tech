@@ -30,9 +30,10 @@ if hasattr(sys.stdout, "reconfigure"):
 # 利用者がアプリの設定画面から追加したサイトは web/data/feeds.json に保存され、
 # get_effective_feeds() でこの初期サイトと統合される（オンオフもそこで管理する）。
 BUILTIN_FEEDS = [
-    {"name": "AWS 公式ブログ（日本語）", "url": "https://aws.amazon.com/jp/blogs/news/feed/"},
-    {"name": "DevelopersIO",            "url": "https://dev.classmethod.jp/feed/"},
-    {"name": "Publickey",               "url": "https://www.publickey1.jp/atom.xml"},
+    # AWS公式ブログは英語版（一次情報が速い）を採用し、表示時に日本語へ自動翻訳する（update.py の翻訳ステップ）
+    {"name": "AWS News Blog（英語）", "url": "https://aws.amazon.com/blogs/aws/feed/"},
+    {"name": "DevelopersIO",          "url": "https://dev.classmethod.jp/feed/"},
+    {"name": "Publickey",             "url": "https://www.publickey1.jp/atom.xml"},
 ]
 # 後方互換: 既存コードが参照する FEEDS は初期サイトを指すエイリアス
 FEEDS = BUILTIN_FEEDS

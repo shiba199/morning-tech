@@ -30,6 +30,7 @@ import fetch_feeds
 import notify        # ステップ7: Discord通知
 import schedule_gate # 配信時刻の判定（アプリで選んだ時刻に通知する）
 import summarize
+import translate     # 英語記事の日本語翻訳（無料・キー不要）
 
 # Windowsコンソール(cp932)対策
 if hasattr(sys.stdout, "reconfigure"):
@@ -46,6 +47,29 @@ def step_fetch_and_save():
     new_count, skipped = db.save_articles(all_articles)
     print(f"[取得] {len(all_articles)} 件取得 / 新規 {new_count} 件 ・ 既存 {skipped} 件")
     return new_count
+
+
+def step_translate():
+    """英語記事のタイトル・概要を日本語に翻訳してDBへ書き戻す。
+
+    まだ翻訳処理していない記事だけを対象にする（translated が NULL）。英語のものは
+    翻訳し、日本語のものはそのまま。いずれも処理済みにして、同じ記事を毎回翻訳しにいかない。
+    """
+    targets = db.get_untranslated()
+    translated_count = 0
+    for a in targets:
+        title = a.get("title") or ""
+        summary = a.get("summary") or ""
+        if title and not translate.has_japanese(title):
+            # タイトルが英語の記事だけ翻訳（概要も英語なら翻訳）
+            new_title = translate.translate(title)
+            new_summary = translate.translate(summary) if (summary and not translate.has_japanese(summary)) else summary
+            db.mark_translated(a["link"], new_title, new_summary)
+            translated_count += 1
+        else:
+            # 日本語記事は処理済みフラグだけ立てる（翻訳しない）
+            db.mark_translated(a["link"], title, summary)
+    print(f"[翻訳] 対象 {len(targets)} 件中 英語 {translated_count} 件を日本語化")
 
 
 def step_classify():
@@ -106,6 +130,7 @@ def main():
 
     db.init_db()
     step_fetch_and_save()
+    step_translate()   # 分類より前に翻訳（日本語タイトルで分類できるように）
     step_classify()
     digest = summarize.build_digest(hours=24)
     step_write_snapshots(digest)
