@@ -13,6 +13,8 @@
 """
 
 import datetime
+import json
+import os
 import sys
 
 import feedparser
@@ -24,16 +26,75 @@ import db  # ステップ2: SQLite保存モジュール
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-# --- 取得元（仕様書セクション5の日本語フィード3つ） ---
-# 取得元はコードに一覧データとして管理する（あとで設定画面でオンオフできるようにする）
-FEEDS = [
+# --- 取得元（仕様書セクション5の日本語フィード3つ。これは「初期サイト」＝コード内の既定） ---
+# 利用者がアプリの設定画面から追加したサイトは web/data/feeds.json に保存され、
+# get_effective_feeds() でこの初期サイトと統合される（オンオフもそこで管理する）。
+BUILTIN_FEEDS = [
     {"name": "AWS 公式ブログ（日本語）", "url": "https://aws.amazon.com/jp/blogs/news/feed/"},
     {"name": "DevelopersIO",            "url": "https://dev.classmethod.jp/feed/"},
     {"name": "Publickey",               "url": "https://www.publickey1.jp/atom.xml"},
 ]
+# 後方互換: 既存コードが参照する FEEDS は初期サイトを指すエイリアス
+FEEDS = BUILTIN_FEEDS
+
+# 利用者が追加・オンオフした取得元の設定ファイル（アプリが GitHub API 経由で更新する）
+FEEDS_CONFIG_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "web", "data", "feeds.json"
+)
 
 # 1フィードあたり表示する最大件数
 MAX_PER_FEED = 5
+
+
+def load_feed_config():
+    """利用者の取得元設定（追加サイト・無効化リスト）を読む。無ければ空。
+
+    形: {"custom": [{"name","url"}, ...], "disabled": ["url", ...]}
+    """
+    try:
+        with open(FEEDS_CONFIG_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {"custom": [], "disabled": []}
+    custom = data.get("custom") or []
+    disabled = data.get("disabled") or []
+    # 形の正規化（name/url を持つものだけ採用）
+    custom = [{"name": c.get("name", c.get("url", "")), "url": c.get("url", "")}
+              for c in custom if c.get("url")]
+    return {"custom": custom, "disabled": list(disabled)}
+
+
+def get_effective_feeds():
+    """初期サイト＋利用者追加サイトを統合した一覧を返す（表示・設定用）。
+
+    各要素: {"name","url","builtin"(初期サイトか),"enabled"(有効か)}
+    URL重複は最初の1件を採用する。
+    """
+    cfg = load_feed_config()
+    disabled = set(cfg["disabled"])
+    result = []
+    seen = set()
+    for f in BUILTIN_FEEDS:
+        url = f["url"]
+        if url in seen:
+            continue
+        seen.add(url)
+        result.append({"name": f["name"], "url": url,
+                       "builtin": True, "enabled": url not in disabled})
+    for f in cfg["custom"]:
+        url = f["url"]
+        if url in seen:
+            continue
+        seen.add(url)
+        result.append({"name": f["name"], "url": url,
+                       "builtin": False, "enabled": url not in disabled})
+    return result
+
+
+def get_active_feeds():
+    """実際に取得しにいく（有効な）取得元だけを {name,url} で返す。"""
+    return [{"name": f["name"], "url": f["url"]}
+            for f in get_effective_feeds() if f["enabled"]]
 
 
 def parse_published(entry):
@@ -79,7 +140,7 @@ def fetch_feed(feed):
 
 def main():
     all_articles = []
-    for feed in FEEDS:
+    for feed in get_active_feeds():
         all_articles.extend(fetch_feed(feed))
 
     # 新しい順に並べ替え（日付不明は末尾）

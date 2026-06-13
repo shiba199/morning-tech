@@ -4,6 +4,18 @@
 > これにより、チャット（セッション）が変わっても「いつ・何を変えたか」が追えるようにする。
 > 記入フォーマット: `- YYYY-MM-DD: 変更内容（対象ファイル）`
 
+## 2026-06-14（追記2）
+- **新機能: ニュース取得元をアプリから追加・削除・オンオフできるように**（仕様書セクション5「設定でオンオフ」を実装）:
+  - `fetch_feeds.py`: 初期サイトを `BUILTIN_FEEDS`（`FEEDS` は後方互換エイリアス）に整理し、利用者設定 `web/data/feeds.json`
+    （`{custom:[{name,url}], disabled:[url]}`）と統合する `get_effective_feeds()` / `get_active_feeds()` を追加。URL重複は排除。
+  - `update.py`・`fetch_feeds.main()` は `get_active_feeds()`（有効な取得元のみ）を使うように変更。`app.py` の `get_sources_payload()` は
+    `builtin`/`enabled` フラグ付きの統合一覧を返すように変更（`web/data/sources.json` も同形に更新）。
+  - フロント（`web/index.html`）の設定「ニュースの取得元」を編集UIに刷新: 各サイトにオン/オフのトグル、追加サイトには✕削除、
+    下部に「サイト名＋RSSのURL＋追加」フォーム。変更は GitHub Contents API で `web/data/feeds.json` を更新（時刻保存と同じトークンを共用）。
+    GitHub保存処理を `ghPutJson()` に共通化。URL形式チェック・重複チェック・失敗時ロールバックつき。SWキャッシュ v7。
+  - 反映タイミング: 保存後、次の自動更新（最大30分後）から新しい取得元で記事を集める。`web/data/feeds.json` 初期ファイル（空）を追加。
+  - **未了の手作業（利用者）**: 追加・オンオフの保存には既存の「GitHub連携（トークン）」が必要（時刻変更と共通）。
+
 ## 2026-06-14
 - **新機能: 配信時刻をアプリの設定画面から変更できるように**（YAML編集不要）。発展課題「設定の永続化」に着手。
   - `schedule_gate.py` を新設。アプリで選んだ時刻（`web/data/settings.json` の `send_time`／`enabled`）を読み、

@@ -179,6 +179,11 @@
   .timeinput{margin-left:auto; font-family:var(--display); font-weight:700; font-size:16px; color:var(--ink); background:#F4F3EF; border:1px solid var(--hair); padding:6px 10px; border-radius:9px;}
   .tokeninput{display:block; width:100%; margin:8px 0 0; font-family:var(--jp); font-size:14px; color:var(--text); background:#fff; border:1.5px solid var(--hair); padding:11px 12px; border-radius:11px;}
   .tokeninput:focus{outline:none; border-color:var(--sun1);}
+  .srctag{color:var(--sun1); font-size:10px; font-weight:700; margin-left:5px;}
+  .srcdel{flex:0 0 auto; width:26px; height:26px; border-radius:8px; border:1px solid var(--hair); background:#fff; color:var(--muted); font-size:13px; cursor:pointer; line-height:1;}
+  .srcdel:active{transform:scale(.94);}
+  .addfeed{margin-top:10px; border-top:1px dashed var(--hair); padding-top:12px;}
+  .addfeed .savebtn{margin-top:9px;}
   .savebtn{display:block; width:calc(100% - 0px); margin:4px 0 0; background:var(--ink); color:#fff; border:none; border-radius:12px; padding:12px; font-size:13.5px; font-weight:700; font-family:var(--jp); cursor:pointer;}
   .savebtn:active{transform:scale(.99);}
   .savebtn.ghbtn{background:#fff; color:var(--ink); border:1.5px solid var(--hair);}
@@ -289,15 +294,27 @@
       </div>
 
       <div class="set-sec">
-        <div class="h">通知する興味トピック</div>
-        <div id="set-topics"></div>
+        <div class="h">ニュースの取得元</div>
+        <div id="set-sources"></div>
+        <div class="addfeed">
+          <input type="text" id="feed-name" class="tokeninput" placeholder="サイト名（例: AWS What's New）"
+                 autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" />
+          <input type="url" id="feed-url" class="tokeninput" placeholder="RSSのURL（https://… で始まる）"
+                 autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" inputmode="url" />
+          <button id="feed-add" class="savebtn">＋ このサイトを追加</button>
+          <div id="src-msg" class="setmsg"></div>
+        </div>
+        <div class="demo-note" style="margin-top:8px;">
+          RSS/AtomのURLを登録すると、次の自動更新からそのサイトの記事も集めます。トグルで一時停止、✕で削除（初期サイトは✕なし＝停止のみ）。<br>
+          ※ 追加・変更の保存には上の「GitHub連携」が必要です。多くのブログはトップURLの末尾に <b>/feed/</b> を付けるとRSSになります。
+        </div>
       </div>
 
       <div class="set-sec">
-        <div class="h">ニュースの取得元</div>
-        <div id="set-sources"></div>
+        <div class="h">通知する興味トピック</div>
+        <div id="set-topics"></div>
+        <div class="demo-note" style="margin-top:4px;">トピックの表示は実データ由来です（オンオフ保存は今後対応）。</div>
       </div>
-      <div class="demo-note"><b>取得元・トピックは実データ由来です。</b>トグルのオンオフの保存（設定の永続化）は発展課題で、現在は表示のみです。</div>
     </section>
 
   </div>
@@ -328,6 +345,7 @@
   let TOPICS = [];          // [{id,label}]   /api/topics
   let ARTICLES = [];        // 整形済み記事    /api/articles
   let DIGEST = null;        // 今朝のまとめ    /api/digest
+  let SOURCES = [];         // 取得元 [{name,url,builtin,enabled}]  /api/sources
   const active = new Set(); // 選択中の興味トピックID
 
   // トピックID → アイコン／通知タイルの色クラス
@@ -523,7 +541,7 @@
     setBadge(unread);
   }
 
-  // ===== 設定: トピック／取得元の一覧（実データから描画） =====
+  // ===== 設定: トピック一覧（表示のみ） =====
   function renderSettings(sources){
     document.getElementById('set-topics').innerHTML = TOPICS.map(t=>`
       <div class="row">
@@ -531,21 +549,89 @@
         <div><div class="lbl">${esc(t.label)}</div></div>
         <div class="toggle on" data-toggle></div>
       </div>`).join('');
-
-    document.getElementById('set-sources').innerHTML = sources.map(s=>`
-      <div class="row">
-        <div class="ico">📰</div>
-        <div><div class="lbl">${esc(s.name)}</div><div class="sub url">${esc(s.url)}</div></div>
-        <div class="toggle on" data-toggle></div>
-      </div>`).join('');
-
-    bindToggles();
-  }
-
-  function bindToggles(){
-    document.querySelectorAll('[data-toggle]').forEach(t=>{
+    document.querySelectorAll('#set-topics [data-toggle]').forEach(t=>{
       t.onclick = ()=> t.classList.toggle('on');
     });
+
+    // 取得元は編集可能なリストとして別管理（追加・削除・オンオフ）
+    SOURCES = (sources || []).map(s=>({
+      name: s.name, url: s.url,
+      builtin: s.builtin !== false,   // 旗が無い古いデータは初期サイト扱い
+      enabled: s.enabled !== false,
+    }));
+    renderSources();
+  }
+
+  // ===== 設定: 取得元の編集（追加・削除・オンオフ） =====
+  function setSrcMsg(text, cls){ const el=document.getElementById('src-msg'); if(el){ el.textContent=text; el.className='setmsg'+(cls?(' '+cls):''); } }
+
+  function renderSources(){
+    const el = document.getElementById('set-sources');
+    el.innerHTML = SOURCES.map((s, i)=>`
+      <div class="row">
+        <div class="ico">📰</div>
+        <div><div class="lbl">${esc(s.name)}${s.builtin ? '' : ' <span class="srctag">追加</span>'}</div><div class="sub url">${esc(s.url)}</div></div>
+        ${s.builtin ? '' : `<button class="srcdel" data-del="${i}" title="削除">✕</button>`}
+        <div class="toggle ${s.enabled?'on':''}" data-srctoggle="${i}"></div>
+      </div>`).join('');
+
+    el.querySelectorAll('[data-srctoggle]').forEach(t=>{
+      t.onclick = ()=> toggleSource(parseInt(t.dataset.srctoggle, 10));
+    });
+    el.querySelectorAll('[data-del]').forEach(b=>{
+      b.onclick = ()=> deleteSource(parseInt(b.dataset.del, 10));
+    });
+  }
+
+  // 取得元の現在状態を feeds.json の形（custom / disabled）に変換
+  function feedsConfigFromSources(){
+    return {
+      custom: SOURCES.filter(s=>!s.builtin).map(s=>({ name: s.name, url: s.url })),
+      disabled: SOURCES.filter(s=>!s.enabled).map(s=>s.url),
+    };
+  }
+
+  async function saveSources(okMsg){
+    if(!ghToken()){ setSrcMsg('保存にはGitHub連携が必要です（このページ上部の「GitHub連携」）。', 'err'); return false; }
+    setSrcMsg('保存中…', '');
+    const ok = await ghPutJson('web/data/feeds.json', feedsConfigFromSources(), '取得元の設定を更新');
+    setSrcMsg(ok ? okMsg : '保存に失敗しました（トークンの権限・有効期限を確認）。', ok?'ok':'err');
+    return ok;
+  }
+
+  async function toggleSource(i){
+    const s = SOURCES[i]; if(!s) return;
+    if(!ghToken()){ setSrcMsg('保存にはGitHub連携が必要です。', 'err'); return; }
+    s.enabled = !s.enabled;
+    renderSources();
+    const ok = await saveSources(`「${s.name}」を${s.enabled?'オン':'オフ'}にしました。次の自動更新から反映されます。`);
+    if(!ok){ s.enabled = !s.enabled; renderSources(); }  // 失敗したら戻す
+  }
+
+  async function deleteSource(i){
+    const s = SOURCES[i]; if(!s || s.builtin) return;
+    if(!confirm(`「${s.name}」を取得元から削除しますか？`)) return;
+    const removed = SOURCES.splice(i, 1)[0];
+    renderSources();
+    const ok = await saveSources(`「${removed.name}」を削除しました。`);
+    if(!ok){ SOURCES.splice(i, 0, removed); renderSources(); }  // 失敗したら戻す
+  }
+
+  async function addFeed(){
+    if(!ghToken()){ setSrcMsg('追加にはGitHub連携が必要です（このページ上部）。', 'err'); return; }
+    const urlEl = document.getElementById('feed-url');
+    const nameEl = document.getElementById('feed-name');
+    let url = (urlEl.value || '').trim();
+    let name = (nameEl.value || '').trim();
+    if(!/^https?:\/\/.+\..+/.test(url)){ setSrcMsg('RSSのURLを http(s):// から正しく入力してください。', 'err'); return; }
+    if(SOURCES.some(s=> s.url === url)){ setSrcMsg('そのURLはすでに登録されています。', 'err'); return; }
+    if(!name){ try{ name = new URL(url).hostname; }catch(e){ name = url; } }  // 名前未入力ならドメインを使う
+    const entry = { name, url, builtin:false, enabled:true };
+    SOURCES.push(entry);
+    renderSources();
+    const ok = await saveSources(`「${name}」を追加しました。次の自動更新（最大30分後）から記事を集めます。`);
+    if(ok){ urlEl.value=''; nameEl.value=''; }
+    else { SOURCES.pop(); renderSources(); }  // 失敗したら戻す
   }
 
   // ===== 設定: 配信時刻の変更（GitHubへ保存） =====
@@ -610,40 +696,41 @@
     }catch(e){ /* 初回などで未生成でも既定値のままでOK */ }
   }
 
-  async function saveTime(){
+  // GitHubのファイルをJSONで作成/更新する共通処理（設定時刻・取得元の保存で共用）。
+  // 成功なら true。失敗時の詳細は呼び出し側のメッセージで案内する。
+  async function ghPutJson(path, obj, message){
     const token = ghToken();
-    if(!token){ setMsg('先に「GitHubと連携する」で合鍵を登録してください。', 'err'); return; }
+    if(!token) return false;
+    try{
+      const api = `https://api.github.com/repos/${GH.owner}/${GH.repo}/contents/${path}`;
+      let sha;  // 既存ファイルの sha（更新に必要。無ければ新規作成）
+      const getRes = await fetch(api + '?ref=main', { headers: ghHeaders(token) });
+      if(getRes.ok){ sha = (await getRes.json()).sha; }
+      const payload = { message, content: b64utf8(JSON.stringify(obj, null, 2) + '\n'), branch: 'main' };
+      if(sha) payload.sha = sha;
+      const putRes = await fetch(api, { method:'PUT', headers: ghHeaders(token), body: JSON.stringify(payload) });
+      return putRes.ok;
+    }catch(e){ return false; }
+  }
+
+  async function saveTime(){
+    if(!ghToken()){ setMsg('先に「GitHubと連携する」で合鍵を登録してください。', 'err'); return; }
     const time = document.getElementById('send-time').value || '06:47';
     const enabled = document.getElementById('notify-toggle').classList.contains('on');
     const btn = document.getElementById('save-time');
     btn.disabled = true; setMsg('保存中…', '');
-    try{
-      const api = `https://api.github.com/repos/${GH.owner}/${GH.repo}/contents/${GH.path}`;
-      // 既存ファイルの sha を取得（更新には必要。無ければ新規作成）
-      let sha;
-      const getRes = await fetch(api + '?ref=main', { headers: ghHeaders(token) });
-      if(getRes.ok){ sha = (await getRes.json()).sha; }
-      const payload = {
-        message: `chore: 配信時刻を ${time} に変更（通知=${enabled?'オン':'オフ'}）`,
-        content: b64utf8(JSON.stringify({ send_time: time, enabled }, null, 2) + '\n'),
-        branch: 'main',
-      };
-      if(sha) payload.sha = sha;
-      const putRes = await fetch(api, { method:'PUT', headers: ghHeaders(token), body: JSON.stringify(payload) });
-      if(putRes.ok){
-        setMsg(`保存しました。明日以降、${time} 以降の最初の自動実行で${enabled?'通知します':'通知は止まります'}。`, 'ok');
-      } else {
-        const e = await putRes.json().catch(()=>({}));
-        const hint = putRes.status===401||putRes.status===403 ? '（トークンの権限・有効期限を確認。Contents=Read and write が必要）' : '';
-        setMsg(`保存に失敗: ${e.message||putRes.status} ${hint}`, 'err');
-      }
-    }catch(e){ setMsg('保存に失敗: ' + e.message, 'err'); }
-    finally{ btn.disabled = false; }
+    const ok = await ghPutJson('web/data/settings.json', { send_time: time, enabled },
+      `chore: 配信時刻を ${time} に変更（通知=${enabled?'オン':'オフ'}）`);
+    setMsg(ok
+      ? `保存しました。明日以降、${time} 以降の最初の自動実行で${enabled?'通知します':'通知は止まります'}。`
+      : '保存に失敗しました（トークンの権限・有効期限を確認。Contents=Read and write が必要）。', ok?'ok':'err');
+    btn.disabled = false;
   }
 
   function initSettingsControls(){
     document.getElementById('notify-toggle').onclick = function(){ this.classList.toggle('on'); };
     document.getElementById('save-time').onclick = saveTime;
+    document.getElementById('feed-add').onclick = addFeed;
     document.getElementById('gh-open').onclick = openTokenPage;
     document.getElementById('gh-save-token').onclick = saveToken;
     document.getElementById('gh-disconnect').onclick = disconnectGitHub;

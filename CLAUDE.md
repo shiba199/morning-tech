@@ -166,5 +166,7 @@ iOSは「HTTPSで配信されたサイト」でないとPWAとして正しく動
 - 環境: Windows / PowerShell。Python仮想環境は `.venv`。
 - 実行例: `.venv\Scripts\python.exe fetch_feeds.py`
 - RSS取得は必ずサーバー側（バックエンド）で行う（ブラウザ直叩きはCORSでブロックされる）。
-- 取得元・興味トピックはコードに一覧データとして持ち、設定でオンオフできるようにする。
+- 取得元は `fetch_feeds.BUILTIN_FEEDS`（初期サイト）＋ `web/data/feeds.json`（利用者がアプリから追加・無効化）を
+  `get_effective_feeds()`/`get_active_feeds()` で統合する。アプリの設定画面から追加・削除・オンオフでき、保存は GitHub連携（トークン）経由。
+- 興味トピックはコードに一覧データとして持つ（トピックのオンオフ保存は今後対応）。
 - LLMでの要約・分類はステップ5以降（Anthropic API / Claude）。

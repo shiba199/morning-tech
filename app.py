@@ -88,8 +88,12 @@ def get_topics_payload():
 
 
 def get_sources_payload():
-    """ニュース取得元一覧。設定画面で使う（オンオフは将来対応）。"""
-    return [{"name": f["name"], "url": f["url"]} for f in fetch_feeds.FEEDS]
+    """ニュース取得元一覧（初期サイト＋利用者追加）。設定画面の追加・オンオフで使う。
+
+    各要素に builtin（初期サイトか）・enabled（有効か）を含める。
+    """
+    return [{"name": f["name"], "url": f["url"], "builtin": f["builtin"], "enabled": f["enabled"]}
+            for f in fetch_feeds.get_effective_feeds()]
 
 
 class Handler(BaseHTTPRequestHandler):

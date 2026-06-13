@@ -41,7 +41,7 @@ DATA_DIR = os.path.join(app.WEB_DIR, "data")
 def step_fetch_and_save():
     """ステップ1+2: 全フィードを取得してDBへ保存する。"""
     all_articles = []
-    for feed in fetch_feeds.FEEDS:
+    for feed in fetch_feeds.get_active_feeds():
         all_articles.extend(fetch_feeds.fetch_feed(feed))
     new_count, skipped = db.save_articles(all_articles)
     print(f"[取得] {len(all_articles)} 件取得 / 新規 {new_count} 件 ・ 既存 {skipped} 件")
