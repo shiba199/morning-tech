@@ -1,122 +1,94 @@
 {
-  "generated_at": "2026-06-12T23:03:43",
+  "generated_at": "2026-06-13T16:53:58",
   "window_hours": 24,
-  "total": 12,
+  "total": 6,
   "topic_count": 4,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が3件。Amazon BedrockでGemma 4 31Bが利用可能になりました。bedrock-mantleエンドポイント経由のOpenAI互換APIで接続し、日本語の技術記事を要約させて、出力品質や指定遵守の傾向を確認しました。",
+      "summary": "生成AIの新着が2件。Claude CodeのOTelログをCloudWatchダッシュボードで可視化してみた",
       "articles": [
+        {
+          "title": "Claude CodeのOTelログをCloudWatchダッシュボードで可視化してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-otel-cloudwatch-dashboard-weekly-slack-digest/",
+          "source": "DevelopersIO",
+          "published": "2026-06-13T09:16:54",
+          "excerpt": "Claude CodeのOTelログをCloudWatchダッシュボードで可視化してみた"
+        },
         {
           "title": "Amazon BedrockでGemma 4 31Bが利用可能になったので、日本語要約力を試してみた",
           "link": "https://dev.classmethod.jp/articles/gemma-4-31b-bedrock-mantle-japanese-summarization/",
           "source": "DevelopersIO",
           "published": "2026-06-12T18:14:54",
           "excerpt": "Amazon BedrockでGemma 4 31Bが利用可能になりました。bedrock-mantleエンドポイント経由のOpenAI互換APIで接続し、日本語の技術記事を要約させて、出力品質や指定遵守の傾向を確認しました。"
-        },
-        {
-          "title": "Claude Code v2.1.173〜v2.1.175 の主要アップデート",
-          "link": "https://dev.classmethod.jp/articles/20260612-cc-updates-v2-1-175/",
-          "source": "DevelopersIO",
-          "published": "2026-06-12T10:13:59",
-          "excerpt": "Claude Code v2.1.173〜v2.1.175（2026-06-11〜06-12）のアップデートをまとめてご紹介します。モデルガバナンス強化や安定性修正など、16件の変更内容をお届けします。"
-        },
-        {
-          "title": "実践企業に学ぶ生成 AI 導入の勘所 〜眠るデータを企業価値に変える〜 – AWS Local Executive Roadshow 広島編（#5/8）開催レポート",
-          "link": "https://aws.amazon.com/jp/blogs/news/local_executive_roadshow_5/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-06-12T04:38:33",
-          "excerpt": "こんにちは。Amazon Web Services Japan のソリューションアーキテクト、田中 里絵 です […]"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が3件。Amazon Aurora PostgreSQL-Compatible EditionがPostgreSQL 18（18.3）に対応しました。…",
+      "summary": "クラウドの新着が3件。EventBridge Connection (Private) とAPI Gateway REST API + VPC Link v2の2パターンで、Step FunctionsからVPC内Internal ALBをLambda中継なしで…",
       "articles": [
         {
-          "title": "Aurora PostgreSQL 18.3がリリースされたのでPostgreSQL 18の新機能を試してみた",
-          "link": "https://dev.classmethod.jp/articles/aurora-postgresql-18-3-new-features/",
+          "title": "VPCの中にEventBridge Connectionで入ってみた — Step FunctionsからVPC内ALBをLambdaなしでリクエスト",
+          "link": "https://dev.classmethod.jp/articles/eventbridge-connection-private-sfn-vpc-alb/",
           "source": "DevelopersIO",
-          "published": "2026-06-12T09:29:20",
-          "excerpt": "Amazon Aurora PostgreSQL-Compatible EditionがPostgreSQL 18（18.3）に対応しました。…"
+          "published": "2026-06-13T15:06:10",
+          "excerpt": "EventBridge Connection (Private) とAPI Gateway REST API + VPC Link v2の2パターンで、Step FunctionsからVPC内Internal ALBをLambda中継なしで…"
         },
         {
-          "title": "Oracle から Amazon Aurora DSQL へのデータ移行",
-          "link": "https://aws.amazon.com/jp/blogs/news/migrating-data-from-oracle-to-amazon-aurora-dsql/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-06-12T08:55:44",
-          "excerpt": "AWS DMS、Amazon S3、AWS Glue、AWS Step Functions を使って、Oracle から Amazon Aurora DSQL へデータを移行する手順を解説します。…"
+          "title": "CloudFront マルチテナントディストリビューションを Terraform で構築してみた",
+          "link": "https://dev.classmethod.jp/articles/cloudfront-multidistribution-terraform/",
+          "source": "DevelopersIO",
+          "published": "2026-06-13T14:26:00",
+          "excerpt": "CloudFront マルチテナントディストリビューションを Terraform で構築してみた"
         },
         {
-          "title": "現在利用可能: AWS Graviton5 プロセッサを搭載した Amazon EC2 M9g および M9gd インスタンス",
-          "link": "https://aws.amazon.com/jp/blogs/news/now-available-amazon-ec2-m9g-and-m9gd-instances-powered-by-new-aws-graviton5-processors/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-06-12T00:52:48",
-          "excerpt": "AWS Graviton プロセッサは世代を重ねるごとに着実に進化を遂げ、イテレーションを経るごとに、コンピュ […]"
+          "title": "【Security Hub CSPM修復手順】 [RDS.43] RDS DB プロキシの接続には TLS 暗号化が必要です",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-rds-43/",
+          "source": "DevelopersIO",
+          "published": "2026-06-13T13:27:31",
+          "excerpt": "デフォルトで暗号化が有効ではないので、特段理由がなければ有効化しましょう"
         }
       ]
     },
     {
-      "id": "data",
-      "label": "データ分析",
-      "summary": "データ分析の新着が1件。MLX Whisperのv3-turbo 8bit量子化モデルを使った音声文字起こしの実装方法を試したので、その過程で見つけたコツを共有します。",
+      "id": "sec",
+      "label": "セキュリティ",
+      "summary": "セキュリティの新着が1件。デフォルトで暗号化が有効ではないので、特段理由がなければ有効化しましょう",
       "articles": [
         {
-          "title": "MLX Whisperのv3-turboの8bit量子化モデルを動かしてみる",
-          "link": "https://dev.classmethod.jp/articles/trial-mlx-whisper-v3-turbo-asr-8bit/",
+          "title": "【Security Hub CSPM修復手順】 [RDS.43] RDS DB プロキシの接続には TLS 暗号化が必要です",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-rds-43/",
           "source": "DevelopersIO",
-          "published": "2026-06-12T09:25:17",
-          "excerpt": "MLX Whisperのv3-turbo 8bit量子化モデルを使った音声文字起こしの実装方法を試したので、その過程で見つけたコツを共有します。"
+          "published": "2026-06-13T13:27:31",
+          "excerpt": "デフォルトで暗号化が有効ではないので、特段理由がなければ有効化しましょう"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が2件。AWS Workload Credentials ProviderのCertificate Management機能を使い、ACMエクスポート可能パブリック証明書をEC2上のApache / Nginxに自動配置する構成を検証しました。…",
+      "summary": "開発ツールの新着が1件。CloudFront マルチテナントディストリビューションを Terraform で構築してみた",
       "articles": [
         {
-          "title": "AWS Workload Credentials ProviderでACMエクスポート可能証明書のデプロイを自動化してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-workload-credentials-provider-acm-deploy/",
+          "title": "CloudFront マルチテナントディストリビューションを Terraform で構築してみた",
+          "link": "https://dev.classmethod.jp/articles/cloudfront-multidistribution-terraform/",
           "source": "DevelopersIO",
-          "published": "2026-06-12T13:23:08",
-          "excerpt": "AWS Workload Credentials ProviderのCertificate Management機能を使い、ACMエクスポート可能パブリック証明書をEC2上のApache / Nginxに自動配置する構成を検証しました。…"
-        },
-        {
-          "title": "経済産業省 GENIAC 基盤モデル開発支援事業 (第4期) における採択事業者への支援を開始",
-          "link": "https://aws.amazon.com/jp/blogs/news/geniac-cycle4-kick-off/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-06-12T09:09:27",
-          "excerpt": "2026年6月4日、経済産業省と国立研究開発法人新エネルギー・産業技術総合開発機構 (NEDO) が実施する […]"
+          "published": "2026-06-13T14:26:00",
+          "excerpt": "CloudFront マルチテナントディストリビューションを Terraform で構築してみた"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Kiro Web の Build with Spec で Spec 作成から PR・レビュー対応まで試してみた",
-      "link": "https://dev.classmethod.jp/articles/kiro-web-build-with-spec-workflow/",
+      "title": "Foundation Modelsのマルチモーダル機能で画像解析してみた",
+      "link": "https://dev.classmethod.jp/articles/foundation-models-multimodal-image-analysis/",
       "source": "DevelopersIO",
-      "published": "2026-06-12T16:26:06",
-      "excerpt": "Kiro Web に追加された Build with Spec を使い、ブラウザー上で Spec 作成・実装・PR 作成・レビュー対応まで進める開発ワークフローを検証しました。…"
-    },
-    {
-      "title": "Unitree Go2 EDUで障害物を避けてみた",
-      "link": "https://dev.classmethod.jp/articles/go2-patrol-costmap/",
-      "source": "DevelopersIO",
-      "published": "2026-06-12T10:21:58",
-      "excerpt": "Unitree Go2 EDUで障害物を避けてみた"
-    },
-    {
-      "title": "フィジカルAIで創薬が変わる  Self-Driving Labのご紹介 | AWS Summit 2026 Healthcare & Life Sciences ブース",
-      "link": "https://aws.amazon.com/jp/blogs/news/%E3%83%95%E3%82%A3%E3%82%B8%E3%82%AB%E3%83%ABai%E3%81%A7%E5%89%B5%E8%96%AC%E3%81%8C%E5%A4%89%E3%82%8F%E3%82%8B-self-driving-lab%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B-aws-summit-2026-healthcare/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-06-12T01:57:49",
-      "excerpt": "国内最大規模の学習型 IT カンファレンスである AWS Summit Japan が、2026 年 6 月 […]"
+      "published": "2026-06-13T12:55:19",
+      "excerpt": "Foundation Modelsのマルチモーダル機能で画像解析してみた"
     }
   ]
 }
