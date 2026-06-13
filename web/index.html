@@ -182,6 +182,8 @@
   .toggle.on::after{left:22px;}
   .timepick{margin-left:auto; font-family:var(--display); font-weight:700; font-size:15px; color:var(--ink); background:#F4F3EF; padding:6px 12px; border-radius:9px;}
   .timeinput{margin-left:auto; font-family:var(--display); font-weight:700; font-size:16px; color:var(--ink); background:#F4F3EF; border:1px solid var(--hair); padding:6px 10px; border-radius:9px;}
+  .tokeninput{display:block; width:100%; margin:8px 0 0; font-family:var(--jp); font-size:14px; color:var(--text); background:#fff; border:1.5px solid var(--hair); padding:11px 12px; border-radius:11px;}
+  .tokeninput:focus{outline:none; border-color:var(--sun1);}
   .savebtn{display:block; width:calc(100% - 0px); margin:4px 0 0; background:var(--ink); color:#fff; border:none; border-radius:12px; padding:12px; font-size:13.5px; font-weight:700; font-family:var(--jp); cursor:pointer;}
   .savebtn:active{transform:scale(.99);}
   .savebtn.ghbtn{background:#fff; color:var(--ink); border:1.5px solid var(--hair);}
@@ -277,9 +279,25 @@
       <div class="set-sec">
         <div class="h">GitHub 連携（時刻の保存に必要）</div>
         <div id="gh-status" class="ghstatus"></div>
-        <button id="gh-connect" class="savebtn ghbtn">GitHubと連携する</button>
-        <div class="demo-note" style="margin-top:8px;">時刻の変更をサーバーに保存するには、GitHubの「合鍵（トークン）」を一度だけ登録します。
-          合鍵は<b>この端末のブラウザ内だけ</b>に保存され、外部に送られません。作り方は「連携する」ボタンから案内します。</div>
+
+        <!-- 未連携のとき表示する入力エリア -->
+        <div id="gh-connect-area">
+          <button id="gh-open" class="savebtn ghbtn">① トークン作成ページを開く</button>
+          <input type="text" id="gh-token-input" class="tokeninput" placeholder="② ここにトークンを貼り付け"
+                 autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" inputmode="text" />
+          <button id="gh-save-token" class="savebtn">③ 連携する</button>
+        </div>
+
+        <!-- 連携済みのとき表示する解除ボタン -->
+        <button id="gh-disconnect" class="savebtn ghbtn" style="display:none">連携を解除する</button>
+
+        <div class="demo-note" style="margin-top:8px;">
+          <b>トークン作成ページでの設定：</b><br>
+          ・Repository access →「Only select repositories」で <b>morning-tech</b> を選ぶ<br>
+          ・Permissions →「Contents」を <b>Read and write</b> に<br>
+          ・一番下の <b>Generate token</b> → 出てきた文字列をコピー → 上の②に貼り付け<br>
+          ※ 合鍵は<b>この端末のブラウザ内だけ</b>に保存され、外部には送られません。
+        </div>
       </div>
 
       <div class="set-sec">
@@ -558,35 +576,39 @@
 
   function renderGhStatus(){
     const wrap = document.getElementById('gh-status');
-    const btn = document.getElementById('gh-connect');
+    const area = document.getElementById('gh-connect-area');
+    const disc = document.getElementById('gh-disconnect');
     if(ghToken()){
       wrap.className = 'ghstatus on';
       wrap.innerHTML = `<span class="dot"></span>連携済み（${esc(GH.owner)}/${esc(GH.repo)}）`;
-      btn.textContent = '連携を解除する';
+      area.style.display = 'none';
+      disc.style.display = 'block';
     } else {
       wrap.className = 'ghstatus';
       wrap.innerHTML = `<span class="dot"></span>未連携（時刻を保存するには連携が必要です）`;
-      btn.textContent = 'GitHubと連携する';
+      area.style.display = 'block';
+      disc.style.display = 'none';
     }
   }
 
-  function connectGitHub(){
-    if(ghToken()){
-      if(confirm('GitHub連携を解除しますか？（この端末から合鍵を削除します）')){ setGhToken(''); renderGhStatus(); setMsg('連携を解除しました。', ''); }
-      return;
-    }
-    alert('GitHubの「合鍵（トークン）」を作成します。\n\n'
-      + '1) このあと開くページで、Repository access は「Only select repositories」→ ' + GH.repo + ' を選択\n'
-      + '2) Permissions の「Contents」を「Read and write」に設定\n'
-      + '3) 一番下の Generate token を押し、表示された文字列をコピー\n'
-      + '4) この後の入力欄に貼り付け\n\n'
-      + '※ 合鍵はこの端末のブラウザ内だけに保存され、外部には送られません。');
+  function openTokenPage(){
     window.open('https://github.com/settings/personal-access-tokens/new', '_blank');
-    const t = prompt('コピーしたトークンを貼り付けてください（github_pat_... または ghp_...）');
-    if(!t) return;
-    setGhToken(t.trim());
+  }
+
+  function saveToken(){
+    const input = document.getElementById('gh-token-input');
+    const t = (input.value || '').trim();
+    if(!t){ setMsg('トークンが入力されていません。②の欄に貼り付けてください。', 'err'); return; }
+    setGhToken(t);
+    input.value = '';
     renderGhStatus();
     setMsg('連携しました。時刻を選んで「この時刻で保存」を押してください。', 'ok');
+  }
+
+  function disconnectGitHub(){
+    if(confirm('GitHub連携を解除しますか？（この端末から合鍵を削除します）')){
+      setGhToken(''); renderGhStatus(); setMsg('連携を解除しました。', '');
+    }
   }
 
   async function loadSettingsUI(){
@@ -634,7 +656,9 @@
   function initSettingsControls(){
     document.getElementById('notify-toggle').onclick = function(){ this.classList.toggle('on'); };
     document.getElementById('save-time').onclick = saveTime;
-    document.getElementById('gh-connect').onclick = connectGitHub;
+    document.getElementById('gh-open').onclick = openTokenPage;
+    document.getElementById('gh-save-token').onclick = saveToken;
+    document.getElementById('gh-disconnect').onclick = disconnectGitHub;
     renderGhStatus();
     loadSettingsUI();
   }
