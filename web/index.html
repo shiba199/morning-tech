@@ -181,6 +181,16 @@
   .toggle.on{background:var(--sun1);}
   .toggle.on::after{left:22px;}
   .timepick{margin-left:auto; font-family:var(--display); font-weight:700; font-size:15px; color:var(--ink); background:#F4F3EF; padding:6px 12px; border-radius:9px;}
+  .timeinput{margin-left:auto; font-family:var(--display); font-weight:700; font-size:16px; color:var(--ink); background:#F4F3EF; border:1px solid var(--hair); padding:6px 10px; border-radius:9px;}
+  .savebtn{display:block; width:calc(100% - 0px); margin:4px 0 0; background:var(--ink); color:#fff; border:none; border-radius:12px; padding:12px; font-size:13.5px; font-weight:700; font-family:var(--jp); cursor:pointer;}
+  .savebtn:active{transform:scale(.99);}
+  .savebtn.ghbtn{background:#fff; color:var(--ink); border:1.5px solid var(--hair);}
+  .savebtn:disabled{opacity:.5; cursor:default;}
+  .setmsg{font-size:12px; line-height:1.6; margin:8px 2px 0; min-height:1px;}
+  .setmsg.ok{color:var(--sec-fg);} .setmsg.err{color:#C0392B;}
+  .ghstatus{font-size:12.5px; color:var(--muted); margin-bottom:8px; display:flex; align-items:center; gap:7px;}
+  .ghstatus .dot{width:8px;height:8px;border-radius:50%;background:#CBD0D8;flex:0 0 auto;}
+  .ghstatus.on .dot{background:var(--sec-fg);}
 
   .tabbar{
     flex:0 0 auto; background:#fff; border-top:1px solid var(--hair);
@@ -250,8 +260,26 @@
     <section class="view" id="v-set">
       <div class="set-sec">
         <div class="h">毎朝のまとめ</div>
-        <div class="row"><div class="ico">📅</div><div><div class="lbl">まとめを毎朝つくる</div><div class="sub">GitHub Actions が毎朝自動で取得・分類・まとめ生成</div></div><div class="toggle on" data-toggle></div></div>
-        <div class="row"><div class="ico">⏰</div><div><div class="lbl">配信する時刻</div><div class="sub">毎朝 6:47 開始（混雑により遅れあり）。変更はリポジトリの<br>.github/workflows/morning.yml の cron を編集</div></div><div class="timepick">~7:00</div></div>
+        <div class="row">
+          <div class="ico">⏰</div>
+          <div><div class="lbl">配信する時刻</div><div class="sub">この時刻以降の最初の自動実行で通知（混雑で数分〜30分の遅れあり）</div></div>
+          <input type="time" id="send-time" class="timeinput" value="06:47" />
+        </div>
+        <button id="save-time" class="savebtn">この時刻で保存</button>
+        <div id="time-msg" class="setmsg"></div>
+        <div class="row" style="margin-top:9px;">
+          <div class="ico">🔔</div>
+          <div><div class="lbl">毎朝の通知</div><div class="sub">オフにすると通知を止める（サイトの更新は続く）</div></div>
+          <div class="toggle on" id="notify-toggle"></div>
+        </div>
+      </div>
+
+      <div class="set-sec">
+        <div class="h">GitHub 連携（時刻の保存に必要）</div>
+        <div id="gh-status" class="ghstatus"></div>
+        <button id="gh-connect" class="savebtn ghbtn">GitHubと連携する</button>
+        <div class="demo-note" style="margin-top:8px;">時刻の変更をサーバーに保存するには、GitHubの「合鍵（トークン）」を一度だけ登録します。
+          合鍵は<b>この端末のブラウザ内だけ</b>に保存され、外部に送られません。作り方は「連携する」ボタンから案内します。</div>
       </div>
 
       <div class="set-sec">
@@ -514,6 +542,103 @@
     });
   }
 
+  // ===== 設定: 配信時刻の変更（GitHubへ保存） =====
+  // 自分のリポジトリの場所を、サイトのURLから推測する（例 shiba199.github.io/morning-tech/）
+  const GH = {
+    owner: (location.hostname.endsWith('.github.io') ? location.hostname.split('.')[0] : 'shiba199'),
+    repo: (location.pathname.split('/').filter(Boolean)[0] || 'morning-tech'),
+    path: 'web/data/settings.json',
+    tokenKey: 'mtGhToken',
+  };
+  function ghToken(){ try{ return localStorage.getItem(GH.tokenKey) || ''; }catch(e){ return ''; } }
+  function setGhToken(t){ try{ t ? localStorage.setItem(GH.tokenKey, t) : localStorage.removeItem(GH.tokenKey); }catch(e){} }
+  function ghHeaders(token){ return { 'Authorization':'Bearer '+token, 'Accept':'application/vnd.github+json', 'Content-Type':'application/json' }; }
+  function b64utf8(str){ return btoa(unescape(encodeURIComponent(str))); }
+  function setMsg(text, cls){ const el=document.getElementById('time-msg'); el.textContent=text; el.className='setmsg'+(cls?(' '+cls):''); }
+
+  function renderGhStatus(){
+    const wrap = document.getElementById('gh-status');
+    const btn = document.getElementById('gh-connect');
+    if(ghToken()){
+      wrap.className = 'ghstatus on';
+      wrap.innerHTML = `<span class="dot"></span>連携済み（${esc(GH.owner)}/${esc(GH.repo)}）`;
+      btn.textContent = '連携を解除する';
+    } else {
+      wrap.className = 'ghstatus';
+      wrap.innerHTML = `<span class="dot"></span>未連携（時刻を保存するには連携が必要です）`;
+      btn.textContent = 'GitHubと連携する';
+    }
+  }
+
+  function connectGitHub(){
+    if(ghToken()){
+      if(confirm('GitHub連携を解除しますか？（この端末から合鍵を削除します）')){ setGhToken(''); renderGhStatus(); setMsg('連携を解除しました。', ''); }
+      return;
+    }
+    alert('GitHubの「合鍵（トークン）」を作成します。\n\n'
+      + '1) このあと開くページで、Repository access は「Only select repositories」→ ' + GH.repo + ' を選択\n'
+      + '2) Permissions の「Contents」を「Read and write」に設定\n'
+      + '3) 一番下の Generate token を押し、表示された文字列をコピー\n'
+      + '4) この後の入力欄に貼り付け\n\n'
+      + '※ 合鍵はこの端末のブラウザ内だけに保存され、外部には送られません。');
+    window.open('https://github.com/settings/personal-access-tokens/new', '_blank');
+    const t = prompt('コピーしたトークンを貼り付けてください（github_pat_... または ghp_...）');
+    if(!t) return;
+    setGhToken(t.trim());
+    renderGhStatus();
+    setMsg('連携しました。時刻を選んで「この時刻で保存」を押してください。', 'ok');
+  }
+
+  async function loadSettingsUI(){
+    try{
+      const r = await fetch('./data/settings.json', {cache:'no-store'});
+      if(r.ok){
+        const s = await r.json();
+        if(s.send_time) document.getElementById('send-time').value = s.send_time;
+        document.getElementById('notify-toggle').classList.toggle('on', s.enabled !== false);
+      }
+    }catch(e){ /* 初回などで未生成でも既定値のままでOK */ }
+  }
+
+  async function saveTime(){
+    const token = ghToken();
+    if(!token){ setMsg('先に「GitHubと連携する」で合鍵を登録してください。', 'err'); return; }
+    const time = document.getElementById('send-time').value || '06:47';
+    const enabled = document.getElementById('notify-toggle').classList.contains('on');
+    const btn = document.getElementById('save-time');
+    btn.disabled = true; setMsg('保存中…', '');
+    try{
+      const api = `https://api.github.com/repos/${GH.owner}/${GH.repo}/contents/${GH.path}`;
+      // 既存ファイルの sha を取得（更新には必要。無ければ新規作成）
+      let sha;
+      const getRes = await fetch(api + '?ref=main', { headers: ghHeaders(token) });
+      if(getRes.ok){ sha = (await getRes.json()).sha; }
+      const payload = {
+        message: `chore: 配信時刻を ${time} に変更（通知=${enabled?'オン':'オフ'}）`,
+        content: b64utf8(JSON.stringify({ send_time: time, enabled }, null, 2) + '\n'),
+        branch: 'main',
+      };
+      if(sha) payload.sha = sha;
+      const putRes = await fetch(api, { method:'PUT', headers: ghHeaders(token), body: JSON.stringify(payload) });
+      if(putRes.ok){
+        setMsg(`保存しました。明日以降、${time} 以降の最初の自動実行で${enabled?'通知します':'通知は止まります'}。`, 'ok');
+      } else {
+        const e = await putRes.json().catch(()=>({}));
+        const hint = putRes.status===401||putRes.status===403 ? '（トークンの権限・有効期限を確認。Contents=Read and write が必要）' : '';
+        setMsg(`保存に失敗: ${e.message||putRes.status} ${hint}`, 'err');
+      }
+    }catch(e){ setMsg('保存に失敗: ' + e.message, 'err'); }
+    finally{ btn.disabled = false; }
+  }
+
+  function initSettingsControls(){
+    document.getElementById('notify-toggle').onclick = function(){ this.classList.toggle('on'); };
+    document.getElementById('save-time').onclick = saveTime;
+    document.getElementById('gh-connect').onclick = connectGitHub;
+    renderGhStatus();
+    loadSettingsUI();
+  }
+
   // ===== タブ切替 =====
   const views = {home:'v-home', digest:'v-digest', notif:'v-notif', set:'v-set'};
   function switchTab(name){
@@ -567,6 +692,7 @@
       renderDigest(dJson);
       renderNotifs();
       renderSettings(sJson.sources || []);
+      initSettingsControls();
     }catch(e){
       feedEl.innerHTML = '<div class="empty"><div class="e-ico">⚠️</div><p>データの読み込みに失敗しました。<br>app.py が起動しているか確認してください。</p></div>';
       console.error(e);

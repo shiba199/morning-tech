@@ -4,6 +4,19 @@
 > これにより、チャット（セッション）が変わっても「いつ・何を変えたか」が追えるようにする。
 > 記入フォーマット: `- YYYY-MM-DD: 変更内容（対象ファイル）`
 
+## 2026-06-14
+- **新機能: 配信時刻をアプリの設定画面から変更できるように**（YAML編集不要）。発展課題「設定の永続化」に着手。
+  - `schedule_gate.py` を新設。アプリで選んだ時刻（`web/data/settings.json` の `send_time`／`enabled`）を読み、
+    「設定時刻を過ぎていて今日まだ送っていなければ送る」＝1日1回・キャッチアップ方式で判定。重複送信は `web/data/notify_state.json` で防止。
+    時刻はJST(UTC+9)で扱う。`web/data/settings.json` を新設（既定 06:47）。
+  - `morning.yml` の cron を `*/30 * * * *`（30分おき）に変更。実通知時刻は settings.json で決まるためYAML編集が不要に。
+    手動実行(workflow_dispatch)時は `--force` を渡して時刻判定を飛ばし必ず送信。`concurrency` で実行重複を防止、push前に `git pull --rebase`。
+  - `update.py`: スナップショット生成後に `schedule_gate` の判定で通知。送信を試みた日は notify_state に記録。
+  - フロント（`web/index.html`）の設定画面に、時刻ピッカー＋「この時刻で保存」＋通知オン/オフ＋「GitHub連携」を追加。
+    保存時はGitHub Contents APIで `web/data/settings.json` を直接更新（リポジトリ場所はサイトURLから推測）。
+    認証は利用者が作成する fine-grained PAT（Contents: Read and write）を localStorage に保存（端末内のみ）。SWキャッシュを v3 に。
+  - **未了の手作業（利用者）**: アプリの設定→「GitHubと連携する」からトークンを1回登録すれば、以後スマホだけで時刻変更可。
+
 ## 2026-06-13（追記）
 - **不具合修正（Discord通知が 403 Forbidden で送れない）**: Secret登録済みでも通知が届かない原因は、`urllib` の既定
   User-Agent（`Python-urllib/3.x`）を Discord（Cloudflare）が機械的にブロックするため。`notify.py` の送信ヘッダに

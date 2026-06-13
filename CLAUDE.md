@@ -53,6 +53,23 @@
 > （毎時0分は遅延・スキップされやすい。6/13朝はスキップ発生）。③通知タブを実データで実装（まとめ完成＋トピック別新着、
 > 未読バッジ・localStorage既読管理）。④設定の「配信する時刻」を実態表記に修正（cron編集で変更する旨を明記）。
 > ⑤sw.js のキャッシュ版を v2 に（土台変更時は版を上げないと既存PWAに反映されない）。
+>
+> **2026-06-14 新機能（配信時刻をアプリから変更）**: `schedule_gate.py` が `web/data/settings.json`（send_time/enabled）を読み、
+> 「設定時刻を過ぎ・本日未送信なら送る」判定（notify_state.json で重複防止・JST基準）。cron は `*/30 * * * *` に変更し
+> 実時刻は settings.json で決定（手動実行は `--force` で必ず送信）。設定画面に時刻ピッカー＋GitHub連携を追加し、保存時は
+> Contents API で settings.json を更新。認証は利用者の fine-grained PAT（Contents:Read and write）を localStorage 保存（端末内のみ）。
+> SWキャッシュ v3。**利用者の手作業**: 設定→「GitHubと連携する」でトークンを1回登録（手順は下記「配信時刻の変更（アプリ）」）。
+
+## 配信時刻の変更（アプリから・利用者の手作業）
+
+アプリの**設定タブ**で時刻を選んで保存すると、`web/data/settings.json` が更新され、次回以降その時刻で通知される。
+初回だけ「合鍵（トークン）」の登録が必要（GitHubへ保存するため）。
+1. アプリの**設定 → 「GitHubと連携する」**をタップ。
+2. 開いたGitHubのページで: Repository access=「Only select repositories」→ `morning-tech` を選択／Permissions の **Contents を「Read and write」**／Generate token。
+3. 表示された文字列（`github_pat_...`）をコピーし、アプリの入力欄に貼り付け。合鍵は**その端末のブラウザ内だけ**に保存される。
+4. 以後は時刻ピッカーで選び「この時刻で保存」を押すだけ。通知のオン/オフも同様に保存される。
+- 精度: 自動実行は30分おき＋GitHubの遅延があるため「設定時刻〜+30分程度」で届く。厳密な定刻は仕様上不可。
+- トークンを使いたくない場合は、従来どおり `.github/workflows/morning.yml` の cron 直接編集でも変更可（変換表をファイル内に記載）。
 
 - **ステップ1 完了**: `fetch_feeds.py`（日本語フィード3つ＝AWS日本語ブログ・DevelopersIO・Publickey から
   最新記事のタイトル・リンク・日付・取得元を取得しコンソール表示）。動作確認済み。

@@ -1,38 +1,26 @@
-name: morning-update   # 朝刊テック: 毎朝の自動更新（取得→分類→スナップショット→Pages再デプロイ）
+name: morning-update   # 朝刊テック: 自動更新（取得→分類→スナップショット→時刻判定で通知→Pages再デプロイ）
 
 on:
   schedule:
-    # ┌──────────────────────────────────────────────────────────────────┐
-    # │ ★通知の時刻をここで変えられます★  下の "cron:" の値を書き換えるだけ。  │
-    # └──────────────────────────────────────────────────────────────────┘
+    # 30分おきに実行する。実際に「通知を送る時刻」は、アプリの設定画面で選んだ時刻
+    # （web/data/settings.json の send_time）を update.py が読んで判定する。
+    #   → 「設定時刻を過ぎていて、今日まだ送っていなければ送る」方式（1日1回）。
+    #   → これにより、アプリ側で時刻を自由に変えられる（YAMLの編集は不要）。
     #
-    # 書き方:  "分 時 * * *"   ← 時刻は UTC（世界標準時）で書く。日本時間(JST)から9を引く。
-    #
-    #  ┌── 通知したいJST時刻 ──┬── cron に書く値 ──┐
-    #  │   6:00              │  "0 21 * * *"     │
-    #  │   6:47（現在）       │  "47 21 * * *"    │
-    #  │   7:00              │  "0 22 * * *"     │
-    #  │   7:30              │  "30 22 * * *"    │
-    #  │   8:00              │  "0 23 * * *"     │
-    #  │   9:00              │  "0 0  * * *"     │
-    #  │  12:00（昼）        │  "0 3  * * *"     │
-    #  │  21:00（夜）        │  "0 12 * * *"     │
-    #  └─────────────────────┴───────────────────┘
-    #  計算式: UTCの時 = (JSTの時 - 9 + 24) ÷ 24 の余り。 分はJSTと同じ。
-    #
-    # 1日に複数回 通知したいときは "- cron:" の行を増やすだけ（新着がある時だけ届く）:
-    #     - cron: "0 22 * * *"   # 朝7:00 JST
-    #     - cron: "0 3  * * *"   # 昼12:00 JST
-    #     - cron: "0 9  * * *"   # 夕18:00 JST
-    #
-    # 注意: GitHub の自動実行は時刻ぴったりを保証せず、混雑時は数分〜数十分遅れます
-    #       （GitHub側の仕様。確実に即時で試したいときは下の "Run workflow" を使う）。
-    - cron: "47 21 * * *"   # ← 現在: 6:47 JST
-  workflow_dispatch: {}   # 手動実行も可能にする（Actions画面の "Run workflow"）
+    # 補足: 30分おきの実行でサイトのニュースも日中つど最新化される（おまけ）。
+    #       GitHubの自動実行は時刻ぴったりを保証せず数分〜遅延あり（仕様）。
+    #       通知の精度はおおむね「設定時刻〜+30分」になる。
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}   # 手動実行（"Run workflow"）。手動時は時刻判定を飛ばして必ず通知する。
 
 permissions:
   contents: write   # 生成物(articles.db / web/data/*.json)を push し直すため
   actions: write    # 更新後に deploy-pages ワークフローを起動するため
+
+# 同時実行を1つに（30分おきの実行が重なって push 衝突しないように）
+concurrency:
+  group: morning-update
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -49,13 +37,14 @@ jobs:
       - name: 依存パッケージをインストール
         run: pip install -r requirements.txt
 
-      - name: 取得→分類→スナップショット生成→通知
+      - name: 取得→分類→スナップショット生成→（時刻判定で）通知
         env:
           # Discord通知用。GitHubの Settings > Secrets and variables > Actions に
           # DISCORD_WEBHOOK_URL を登録すると、ここで環境変数として渡る。
           # 未登録なら通知はスキップされる（更新自体は止まらない）。
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python update.py
+        # 手動実行(workflow_dispatch)のときだけ --force を付けて、時刻に関係なく必ず通知する
+        run: python update.py ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
 
       - name: 変更があればコミットして保存
         id: commit
@@ -64,10 +53,12 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add articles.db web/data
           if git diff --cached --quiet; then
-            echo "更新なし（新着記事なし）。コミットしません。"
+            echo "更新なし。コミットしません。"
             echo "pushed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "chore: 毎朝の自動更新 ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git commit -m "chore: 自動更新 ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            # アプリからの設定変更コミットと衝突しても落ちないよう、rebaseで取り込んでから push
+            git pull --rebase origin main || true
             git push
             echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
@@ -76,7 +67,7 @@ jobs:
       # 他のワークフロー（deploy-pages の on: push）を「起動しない」。
       # そのため、ここから workflow_dispatch で deploy-pages を明示的に起動する
       # （workflow_dispatch / repository_dispatch はこの制限の例外として起動できる）。
-      - name: Pages を再デプロイ（サイトに今朝のデータを反映）
+      - name: Pages を再デプロイ（サイトに最新データを反映）
         if: steps.commit.outputs.pushed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}

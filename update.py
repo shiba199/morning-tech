@@ -28,6 +28,7 @@ import classify
 import db
 import fetch_feeds
 import notify        # ステップ7: Discord通知
+import schedule_gate # 配信時刻の判定（アプリで選んだ時刻に通知する）
 import summarize
 
 # Windowsコンソール(cp932)対策
@@ -57,14 +58,14 @@ def step_classify():
     return len(targets)
 
 
-def step_write_snapshots():
+def step_write_snapshots(digest):
     """フロント用の静的JSONを web/data に書き出す（app.py と同じ形状）。"""
     os.makedirs(DATA_DIR, exist_ok=True)
     snapshots = {
         "articles.json": {"articles": app.get_articles_payload()},
         "topics.json":   {"topics": app.get_topics_payload()},
         "sources.json":  {"sources": app.get_sources_payload()},
-        "digest.json":   summarize.build_digest(hours=24),
+        "digest.json":   digest,
     }
     for name, obj in snapshots.items():
         path = os.path.join(DATA_DIR, name)
@@ -73,19 +74,42 @@ def step_write_snapshots():
     print(f"[出力] 静的スナップショットを書き出し: {', '.join(snapshots.keys())} → {DATA_DIR}")
 
 
+def step_notify(digest, force=False):
+    """配信時刻の判定にもとづいてDiscord通知を送る。
+
+    アプリの設定画面で選んだ時刻（web/data/settings.json）を schedule_gate が読み、
+    「設定時刻を過ぎていて、今日まだ送っていなければ送る」と判定する。
+    force=True（手動実行）のときは判定を飛ばして必ず送る。
+    """
+    # 設定ファイルが無ければ既定値で作成しておく（初回・アプリ未設定時の保険）
+    schedule_gate.load_settings()
+
+    now = schedule_gate.now_jst()
+    do_send, reason = schedule_gate.should_notify(force=force, now=now)
+    print(f"[通知判定] {reason}")
+    if not do_send:
+        return
+
+    result = notify.send_digest(digest)
+    # 送信を実際に試みた日は「本日通知済み」として記録し、重複送信を防ぐ
+    # （URL未設定で送れなかった場合は記録せず、登録後の次回実行で送れるようにする）
+    if result in ("sent", "skipped-empty"):
+        schedule_gate.mark_notified(now.date().isoformat())
+
+
 def main():
+    force = "--force" in sys.argv
+
     print("=" * 60)
-    print("朝刊テック 自動更新を開始します")
+    print(f"朝刊テック 自動更新を開始します{'（--force 手動実行）' if force else ''}")
     print("=" * 60)
 
     db.init_db()
     step_fetch_and_save()
     step_classify()
-    step_write_snapshots()
-
-    # ステップ7: 「今朝のまとめ」をDiscordに通知（DISCORD_WEBHOOK_URL 未設定ならスキップ）
     digest = summarize.build_digest(hours=24)
-    notify.send_digest(digest)
+    step_write_snapshots(digest)
+    step_notify(digest, force=force)
 
     total = db.count_articles()
     print(f"\n完了。DB総件数: {total} 件")
