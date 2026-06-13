@@ -175,6 +175,10 @@
   .row{display:flex; align-items:center; gap:12px; background:#fff; border:1px solid var(--hair); border-radius:14px; padding:13px 15px; margin-bottom:9px;}
   .row .lbl{font-size:13.5px; font-weight:600;}
   .row .sub{font-size:11px; color:var(--muted); margin-top:2px;}
+  /* 中央のテキスト列は残り幅いっぱいに広げつつ、はみ出さないよう縮めるようにする */
+  .row > div:nth-child(2){flex:1 1 auto; min-width:0;}
+  /* 長いURL等は1行で省略（…）して、右のトグルが枠外に押し出されないようにする */
+  .row .sub.url{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
   .row .ico{width:30px;height:30px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:15px;flex:0 0 auto;background:#F4F3EF;}
   .toggle{margin-left:auto; width:46px; height:27px; border-radius:999px; background:#DAD8D0; position:relative; cursor:pointer; transition:.2s; flex:0 0 auto;}
   .toggle::after{content:""; position:absolute; top:3px; left:3px; width:21px; height:21px; border-radius:50%; background:#fff; transition:.2s; box-shadow:0 1px 3px rgba(0,0,0,.2);}
@@ -547,7 +551,7 @@
     document.getElementById('set-sources').innerHTML = sources.map(s=>`
       <div class="row">
         <div class="ico">📰</div>
-        <div><div class="lbl">${esc(s.name)}</div><div class="sub">${esc(s.url)}</div></div>
+        <div><div class="lbl">${esc(s.name)}</div><div class="sub url">${esc(s.url)}</div></div>
         <div class="toggle on" data-toggle></div>
       </div>`).join('');
 
