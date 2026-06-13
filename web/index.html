@@ -39,33 +39,24 @@
   *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
   html,body{margin:0; padding:0;}
   body{
-    background:
-      radial-gradient(1200px 600px at 50% -10%, #2a2d63 0%, #14152f 55%, #0e0f24 100%);
-    min-height:100vh; display:flex; align-items:center; justify-content:center;
+    background:var(--ink);   /* 端の余白（PC等）の色。アプリ本体は paper */
+    min-height:100vh;
     font-family:var(--jp); color:var(--text);
-    padding:24px 12px;
   }
 
+  /* 実機いっぱいに表示するアプリ本体（スマホ枠モックは廃止） */
   .phone{
-    width:390px; max-width:100%; height:800px; max-height:92vh;
-    background:var(--paper); border-radius:42px; overflow:hidden; position:relative;
-    box-shadow:0 40px 90px rgba(0,0,0,.55), 0 0 0 11px #0b0c1c, 0 0 0 13px #2b2d52;
+    width:100%; max-width:560px; margin:0 auto;
+    height:100vh; height:100dvh;
+    background:var(--paper); overflow:hidden; position:relative;
     display:flex; flex-direction:column;
   }
-  .statusbar{
-    height:46px; flex:0 0 46px; background:var(--ink); color:#fff;
-    display:flex; align-items:center; justify-content:space-between;
-    padding:0 22px; font-family:var(--display); font-weight:600; font-size:13px;
-    letter-spacing:.3px;
-  }
-  .statusbar .dots{display:flex; gap:5px; align-items:center;}
-  .statusbar .dots span{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.55);}
-  .statusbar .bat{width:22px;height:11px;border:1.5px solid rgba(255,255,255,.7);border-radius:3px;position:relative;}
-  .statusbar .bat::after{content:"";position:absolute;right:-4px;top:3px;width:2px;height:5px;background:rgba(255,255,255,.7);border-radius:1px;}
-  .statusbar .bat i{position:absolute;inset:1.5px;width:70%;background:#7CF29C;border-radius:1px;display:block;}
 
   .appbar{
-    flex:0 0 auto; background:var(--ink); color:#fff; padding:6px 20px 16px;
+    flex:0 0 auto; background:var(--ink); color:#fff;
+    padding:6px 20px 16px;
+    /* iOSのノッチ/ステータスバー下に本文が潜らないよう、上部に安全領域分の余白 */
+    padding-top:calc(8px + env(safe-area-inset-top));
   }
   .appbar .brand{display:flex; align-items:center; gap:9px;}
   .appbar .mark{
@@ -226,13 +217,6 @@
 </style>
 
 <div class="phone">
-  <div class="statusbar">
-    <span>7:02</span>
-    <div class="dots"><span></span><span></span><span></span>
-      <div class="bat"><i></i></div>
-    </div>
-  </div>
-
   <div class="appbar">
     <div class="brand">
       <div class="mark">🌅</div>
