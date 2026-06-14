@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-14T18:07:12",
+  "generated_at": "2026-06-14T20:03:10",
   "window_hours": 24,
-  "total": 55,
+  "total": 56,
   "topic_count": 4,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。Kiro CLIのAI-DLCを使い、Security Hubコントロールを題材にした脆弱版・修正版のEC2 CloudFormationテンプレートを生成しました。…",
+      "summary": "クラウドの新着が10件。背景 RailsアプリをAWS EC2上で運用していたところ、ある日突然アプリが停止しました。…",
       "articles": [
+        {
+          "title": "AWS CloudWatchでEC2のディスク容量監視を設定してみた",
+          "link": "https://qiita.com/katsu-ya/items/ffccd5b2e7a6cd495b88",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-14T20:00:34",
+          "excerpt": "背景 RailsアプリをAWS EC2上で運用していたところ、ある日突然アプリが停止しました。…"
+        },
         {
           "title": "KiroのAI-DLCで、あえて脆弱なEC2環境のCloudFormationテンプレートを生成・検証してみた",
           "link": "https://dev.classmethod.jp/articles/kiro-aidlc-weak-ec2-cloudformation/",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-14T13:33:38",
           "excerpt": "事象 EC2（Windows）のリストア後、以下のエラーが出て対象のインスタンスにリモートデスクトップ接続することができませんでした。…"
-        },
-        {
-          "title": "【AWS】ノンインフラ出身者がインフラの深淵に挑む：今週の地雷と復盤（Compute & Storage編）",
-          "link": "https://zenn.dev/leo_zhou_cloud/articles/aws-saa-mixed-001",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-14T12:11:52",
-          "excerpt": "インフラ初心者が今週踏み抜いたAWSの地雷まとめ 今週、AWS SAAの設計シナリオに挑戦する中で、実務でも致命傷になりかねない重要な仕様の勘違い（地雷）を踏み抜きました。…"
         }
       ]
     },
@@ -91,7 +91,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。Kiro CLIのAI-DLCを使い、Security Hubコントロールを題材にした脆弱版・修正版のEC2 CloudFormationテンプレートを生成しました。…",
+      "summary": "開発ツールの新着が4件。Kiro CLIのAI-DLCを使い、Security Hubコントロールを題材にした脆弱版・修正版のEC2 CloudFormationテンプレートを生成しました。…",
       "articles": [
         {
           "title": "KiroのAI-DLCで、あえて脆弱なEC2環境のCloudFormationテンプレートを生成・検証してみた",
@@ -126,6 +126,20 @@
   ],
   "uncategorized": [
     {
+      "title": "カオスネット",
+      "link": "https://tumbleweed.nu/r/lm-3/uv/amber.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-14T19:14:21",
+      "excerpt": "記事の URL: https://tumbleweed.nu/r/lm-3/uv/amber.html コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "ローマは陥落したが誰も気づかなかった",
+      "link": "https://friedkielbasa.substack.com/p/rome-fell-and-nobody-noticed",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-14T18:29:13",
+      "excerpt": "記事の URL: https://friedkielbasa.substack.com/p/rome-fell-and-nobody-noticed コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
       "title": "HN を表示: Kage – オフラインで表示できるように、あらゆる Web サイトを単一のバイナリにシャドウします。",
       "link": "https://github.com/tamnd/kage",
       "source": "Hacker News（英語）",
@@ -138,20 +152,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-06-14T17:02:16",
       "excerpt": "記事の URL: https://dir.dillo-browser.org/ コメント URL: https://news.ycombinator.com/item?id=48529645 ポイント: 13 コメント数: 0"
-    },
-    {
-      "title": "Google cloudの権限関連をAWSと比較してみた",
-      "link": "https://qiita.com/hikaru0506/items/dd59e6efa24ecb61e17f",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-14T16:41:29",
-      "excerpt": "GCP と AWS で比較する IAM とポリシー継承の仕組み 前回の記事（リソース階層編）で、GCP の Organization → Folder → Project → リソース が AWS の Organization → OU →…"
-    },
-    {
-      "title": "AI 企業が上場を目指して競う中、他に誰がこれに参加するでしょうか?",
-      "link": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-06-14T16:38:09",
-      "excerpt": "スタートアップ企業は「SpaceXのIPOの波に乗ろう」としている。"
     }
   ]
 }
