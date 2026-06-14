@@ -30,10 +30,25 @@ if hasattr(sys.stdout, "reconfigure"):
 # 利用者がアプリの設定画面から追加したサイトは web/data/feeds.json に保存され、
 # get_effective_feeds() でこの初期サイトと統合される（オンオフもそこで管理する）。
 BUILTIN_FEEDS = [
-    # AWS公式ブログは英語版（一次情報が速い）を採用し、表示時に日本語へ自動翻訳する（update.py の翻訳ステップ）
-    {"name": "AWS News Blog（英語）", "url": "https://aws.amazon.com/blogs/aws/feed/"},
+    # --- 1. AWS 一次情報（最優先・速報）。英語は表示時に日本語へ自動翻訳（update.py の翻訳ステップ） ---
+    {"name": "AWS What's New（英語）", "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/"},
+    {"name": "AWS News Blog（英語）",  "url": "https://aws.amazon.com/blogs/aws/feed/"},
+    {"name": "AWS 公式ブログ（日本語）", "url": "https://aws.amazon.com/jp/blogs/news/feed/"},
+    # --- 2. AWS技術コミュニティ（やってみた系） ---
     {"name": "DevelopersIO",          "url": "https://dev.classmethod.jp/feed/"},
+    {"name": "Qiita AWSタグ",          "url": "https://qiita.com/tags/aws/feed"},
+    {"name": "Zenn AWSトピック",       "url": "https://zenn.dev/topics/aws/feed"},
+    # --- 3. 日本のIT業界メディア（文脈・経営視点） ---
     {"name": "Publickey",             "url": "https://www.publickey1.jp/atom.xml"},
+    {"name": "ITmedia NEWS",          "url": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml"},
+    {"name": "ITmedia エンタープライズ", "url": "https://rss.itmedia.co.jp/rss/2.0/enterprise.xml"},
+    {"name": "@IT",                   "url": "https://rss.itmedia.co.jp/rss/2.0/ait.xml"},
+    # --- 4. 海外の速報・深掘り（英語→自動翻訳） ---
+    {"name": "The Register（英語）",   "url": "https://www.theregister.com/headlines.atom"},
+    {"name": "TechCrunch（英語）",     "url": "https://techcrunch.com/feed/"},
+    {"name": "Ars Technica（英語）",   "url": "https://feeds.arstechnica.com/arstechnica/index"},
+    {"name": "InfoQ（英語）",          "url": "https://feed.infoq.com/"},
+    {"name": "Hacker News（英語）",    "url": "https://hnrss.org/frontpage"},
 ]
 # 後方互換: 既存コードが参照する FEEDS は初期サイトを指すエイリアス
 FEEDS = BUILTIN_FEEDS

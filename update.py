@@ -57,19 +57,29 @@ def step_translate():
     """
     targets = db.get_untranslated()
     translated_count = 0
+    failed = 0
     for a in targets:
         title = a.get("title") or ""
         summary = a.get("summary") or ""
         if title and not translate.has_japanese(title):
-            # タイトルが英語の記事だけ翻訳（概要も英語なら翻訳）
+            # タイトルが英語の記事だけ翻訳
             new_title = translate.translate(title)
-            new_summary = translate.translate(summary) if (summary and not translate.has_japanese(summary)) else summary
-            db.mark_translated(a["link"], new_title, new_summary)
-            translated_count += 1
+            if translate.has_japanese(new_title):
+                # 翻訳成功（日本語になった）→ 概要も英語なら訳して、処理済みにする
+                new_summary = translate.translate(summary) if (summary and not translate.has_japanese(summary)) else summary
+                db.mark_translated(a["link"], new_title, new_summary)
+                translated_count += 1
+            else:
+                # 翻訳失敗（レート制限等で日本語にならなかった）→ 処理済みにせず次回再試行。
+                # それまでは英語のまま表示される（記事は消えない）。
+                failed += 1
         else:
-            # 日本語記事は処理済みフラグだけ立てる（翻訳しない）
+            # 日本語記事は翻訳せず、処理済みフラグだけ立てる
             db.mark_translated(a["link"], title, summary)
-    print(f"[翻訳] 対象 {len(targets)} 件中 英語 {translated_count} 件を日本語化")
+    msg = f"[翻訳] 対象 {len(targets)} 件中 英語 {translated_count} 件を日本語化"
+    if failed:
+        msg += f" / {failed} 件は翻訳失敗（次回再試行）"
+    print(msg)
 
 
 def step_classify():

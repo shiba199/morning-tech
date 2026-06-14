@@ -4,6 +4,16 @@
 > これにより、チャット（セッション）が変わっても「いつ・何を変えたか」が追えるようにする。
 > 記入フォーマット: `- YYYY-MM-DD: 変更内容（対象ファイル）`
 
+## 2026-06-14（追記6）
+- **取得元を3→15サイトに拡充**（利用者のキュレーション済みリストから、RSSが有効なものを追加）。`BUILTIN_FEEDS` を更新:
+  - AWS一次情報: AWS What's New（英）、AWS News Blog（英）、AWS公式ブログ（日）
+  - AWS技術コミュニティ: DevelopersIO、Qiita AWSタグ、Zenn AWSトピック
+  - 日本IT業界: Publickey、ITmedia NEWS、ITmedia エンタープライズ、@IT
+  - 海外（英→自動翻訳）: The Register、TechCrunch、Ars Technica、InfoQ、Hacker News
+  - 除外: クラウドWatch（指定URLが404）、日経クロステック（全文RSSなし）。`web/data/sources.json` も15件に更新。
+- **翻訳の堅牢化**: 英語タイトルの翻訳が失敗（レート制限等で日本語化されなかった）場合は処理済みにせず次回再試行する方式に変更
+  （英語サイト増加に伴う一時的失敗で、英語のまま固定されるのを防ぐ）。`update.py` の翻訳ステップを改修。
+
 ## 2026-06-14（追記5）
 - **アプリアイコンを刷新**（案3「ネットワーク・ドーン」）: 紺の夜明け空＋情報源をつなぐシアンのネットワーク＋地平線から
   昇る太陽。ベクター素材 `tools/icon.svg` を新設し、`tools/render_icons.py`（Edgeで1024px描画→Pillowで縮小）で
