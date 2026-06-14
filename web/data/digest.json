@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-14T21:48:27",
+  "generated_at": "2026-06-14T22:58:33",
   "window_hours": 24,
-  "total": 63,
-  "topic_count": 4,
+  "total": 80,
+  "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が9件。記事の URL: https://github.com/nex-agi/Nex-N2/issues/4 コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が11件。記事の URL: https://www.verysane.ai/p/did-anthropic-ask-for-this コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "Anthropic がこれを要求しましたか?",
+          "link": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-14T22:23:05",
+          "excerpt": "記事の URL: https://www.verysane.ai/p/did-anthropic-ask-for-this コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "Claude Fable 5が早速脱獄される　ある研究者が検証結果を公開",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/15/news029.html",
+          "source": "@IT",
+          "published": "2026-06-14T22:00:00",
+          "excerpt": "Mythosの一般利用を想定して改善されたAnthropicの新モデル「Claude Fable 5」に対し、研究者が複数の手法を組み合わせて検証し、ガードレールを突破したと報告した。一体どのような手法を使ったのか。"
+        },
         {
           "title": "リオデジャネイロの「自家製」LLMは既存のモデルを統合したものとみられる",
           "link": "https://github.com/nex-agi/Nex-N2/issues/4",
@@ -22,28 +36,21 @@
           "source": "Publickey",
           "published": "2026-06-14T15:23:43",
           "excerpt": "調査会社のガートナーは、エンタープライズ市場におけるAIコーディングエージェント市場が、拡大と競争再編の新たな段階に突入したとし、それに関する予想を発表しました。AIによる支援を用いたコーディング作業は、当初はVisual Studio .…"
-        },
-        {
-          "title": "2026/06/15以降に料金体系が変更されたClaudeをどう使うか考えてみた",
-          "link": "https://dev.classmethod.jp/articles/claude-2026-pricing-reform-bucket-system/",
-          "source": "DevelopersIO",
-          "published": "2026-06-14T15:20:14",
-          "excerpt": "2026/06/15以降に料金体系が変更されたClaudeをどう使うか考えてみた"
-        },
-        {
-          "title": "[アップデート] Amazon SageMaker Data Agent が業務用語からのデータ発見が可能になったので実際に試してみた",
-          "link": "https://dev.classmethod.jp/articles/20260609-amazon-sagemaker-data-agent-bdc/",
-          "source": "DevelopersIO",
-          "published": "2026-06-14T14:09:54",
-          "excerpt": "Amazon SageMaker Data Agent がビジネスコンテキストを活用できるようになり、技術的なテーブル名ではなく業務用語からのデータ発見が可能になりました。実際に試してみたので、その検証結果をお伝えします。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。はじめに AWS Summitに向けてデジタル名刺を作成するため、Amazon Route 53を利用してドメイン取得を行いました。具体的な操作手順については以下の記事を参考にさせていただきました。…",
+      "summary": "クラウドの新着が15件。ECC移行の停滞やAI活用の遅れなど、日本企業が直面するプロジェクト長期化の壁をどう打破するのか。SAPジャパンの新社長に就任した堀川嘉朗氏が、生成AIのインパクトや「自律型エンタープライズ」がもたらすスピード変革の全貌を語る。",
       "articles": [
+        {
+          "title": "「ECC移行もAI活用もスピードが鍵」　SAPジャパン新社長の堀川氏に聞く",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2606/15/news019.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-06-14T22:00:00",
+          "excerpt": "ECC移行の停滞やAI活用の遅れなど、日本企業が直面するプロジェクト長期化の壁をどう打破するのか。SAPジャパンの新社長に就任した堀川嘉朗氏が、生成AIのインパクトや「自律型エンタープライズ」がもたらすスピード変革の全貌を語る。"
+        },
         {
           "title": "【AWS】Route 53ではじめてのドメイン取得！HTTPS化の裏側で起こっていることを整理した",
           "link": "https://qiita.com/usanchuu/items/f75d7cdc6a261f250295",
@@ -64,21 +71,28 @@
           "source": "DevelopersIO",
           "published": "2026-06-14T13:58:44",
           "excerpt": "Kiro CLIのAI-DLCを使い、Security Hubコントロールを題材にした脆弱版・修正版のEC2 CloudFormationテンプレートを生成しました。…"
-        },
-        {
-          "title": "Gemma 4 31B + S3 Vectors + AgentCore で低コストな RAG を構築してみた",
-          "link": "https://dev.classmethod.jp/articles/gemma4-s3vectors-agentcore-rag/",
-          "source": "DevelopersIO",
-          "published": "2026-06-14T13:41:48",
-          "excerpt": "安価なGemma 4 31BとS3 Vectorsを組み合わせて RAGの構成をAgentCoreで作ってみました！安いっていいよね。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が1件。Security Command Center の IaC スキャン結果を GitHub Actions Summary に集計するステップを追加してみた",
+      "summary": "セキュリティの新着が3件。はじめに この記事の要点は次の 3 点です。…",
       "articles": [
+        {
+          "title": "Security Hub CSPM が PASSED でも検出されない外部公開 - IAM Access Analyzer との境界線と死角",
+          "link": "https://zenn.dev/infrajp/articles/cspm-vs-access-analyzer",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-14T10:47:01",
+          "excerpt": "はじめに この記事の要点は次の 3 点です。…"
+        },
+        {
+          "title": "AWS IAMアクセスキー有効期限をLambda+CloudFormationで自動通知する",
+          "link": "https://zenn.dev/ops_note/articles/iam-accesskey-expiry-lambda-cfn",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-14T10:42:16",
+          "excerpt": "はじめに IAMアクセスキー、90日ごとにローテーションしてますか？「期限が近づいてたの気づかなかった」「気づいたら失効してた」という経験、インフラ担当なら一度はあると思います。…"
+        },
         {
           "title": "Security Command Center の IaC スキャン結果を GitHub Actions Summary に集計するステップを追加してみた",
           "link": "https://dev.classmethod.jp/articles/gcp-scc-iac-scan-result-job-summary/",
@@ -89,9 +103,23 @@
       ]
     },
     {
+      "id": "data",
+      "label": "データ分析",
+      "summary": "データ分析の新着が1件。BitLockerは本当に安全か。Windows Defenderの機能を悪用し、暗号化ドライブへのアクセスを可能にする新たなPoCが公開された。さらに発見までに要した時間はわずか4時間だったという。",
+      "articles": [
+        {
+          "title": "BitLockerに“裏口”発見　わずか4時間で見つかった回避手法が波紋",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/15/news037.html",
+          "source": "@IT",
+          "published": "2026-06-14T22:30:00",
+          "excerpt": "BitLockerは本当に安全か。Windows Defenderの機能を悪用し、暗号化ドライブへのアクセスを可能にする新たなPoCが公開された。さらに発見までに要した時間はわずか4時間だったという。"
+        }
+      ]
+    },
+    {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が4件。Kiro CLIのAI-DLCを使い、Security Hubコントロールを題材にした脆弱版・修正版のEC2 CloudFormationテンプレートを生成しました。…",
+      "summary": "開発ツールの新着が5件。Kiro CLIのAI-DLCを使い、Security Hubコントロールを題材にした脆弱版・修正版のEC2 CloudFormationテンプレートを生成しました。…",
       "articles": [
         {
           "title": "KiroのAI-DLCで、あえて脆弱なEC2環境のCloudFormationテンプレートを生成・検証してみた",
@@ -108,50 +136,50 @@
           "excerpt": "はじめに 現在、AWSを学習中で、その一環でLambdaを使った個人開発をしています。以下記事で「給与明細表示アプリ」のバックエンド開発について記載してます！https://zenn.…"
         },
         {
+          "title": "AWS IAMアクセスキー有効期限をLambda+CloudFormationで自動通知する",
+          "link": "https://zenn.dev/ops_note/articles/iam-accesskey-expiry-lambda-cfn",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-14T10:42:16",
+          "excerpt": "はじめに IAMアクセスキー、90日ごとにローテーションしてますか？「期限が近づいてたの気づかなかった」「気づいたら失効してた」という経験、インフラ担当なら一度はあると思います。…"
+        },
+        {
           "title": "【まなびクエスト開発日記】ECS（Fargate）でDjangoをAWSにデプロイした",
           "link": "https://zenn.dev/naokisatoojiyan/articles/manabi-quest-aws-deploy2",
           "source": "Zenn AWSトピック",
           "published": "2026-06-14T07:14:17",
           "excerpt": "はじめに 前回の記事でRDS（PostgreSQL）を作成しました。今回はいよいよECS（Fargate）を使ってDjangoのDockerコンテナをAWSにデプロイします。…"
-        },
-        {
-          "title": "Security Command Center の IaC スキャン結果を GitHub Actions Summary に集計するステップを追加してみた",
-          "link": "https://dev.classmethod.jp/articles/gcp-scc-iac-scan-result-job-summary/",
-          "source": "DevelopersIO",
-          "published": "2026-06-14T02:20:11",
-          "excerpt": "Security Command Center の IaC スキャン結果を GitHub Actions Summary に集計するステップを追加してみた"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Zinnia: Rust で書かれたモジュール式の 64 ビット Unix 風のカーネル",
-      "link": "https://zinnia-os.org/",
+      "title": "「Fable 5」停止から2日、MicrosoftのナデラCEOがXに「エコシステムなきフロンティアは不安定」と投稿",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/15/news055.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-06-14T22:21:00",
+      "excerpt": "Anthropicの「Claude Fable 5」が米政府の輸出管理指令により全世界で停止されてから2日後、MicrosoftのナデラCEOがXに「エコシステムなきフロンティアは不安定」と題した論考を投稿した。…"
+    },
+    {
+      "title": "なぜクロードはア○ホールになってしまったのでしょうか？",
+      "link": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
       "source": "Hacker News（英語）",
-      "published": "2026-06-14T21:04:46",
-      "excerpt": "記事の URL: https://zinnia-os.org/ コメント URL: https://news.ycombinator.com/item?id=48532705 ポイント: 15 コメント数: 0"
+      "published": "2026-06-14T22:04:01",
+      "excerpt": "記事の URL: https://bramcohen.com/p/why-is-claude-turning-into-an-asshole コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "[アップデート] AWS Elastic Beanstalk コンソールから CloudWatch Logs のログイベントを直接閲覧できるようになりました",
-      "link": "https://dev.classmethod.jp/articles/elastic-beanstalk-cloudwatch-logs/",
-      "source": "DevelopersIO",
-      "published": "2026-06-14T20:22:16",
-      "excerpt": "[アップデート] AWS Elastic Beanstalk コンソールから CloudWatch Logs のログイベントを直接閲覧できるようになりました"
+      "title": "SMBCグループ、AI時代に向けIT環境再構築へ　日本総研とNECが提携",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2606/11/news131.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-06-14T22:00:00",
+      "excerpt": "日本総合研究所とNECが包括的業務提携を締結した。SMBCグループが新中期経営計画で掲げる「ITトランスフォーメーション」の実現を図る。レガシーシステムの刷新やAI活用に、両社はどのように取り組むのか。"
     },
     {
-      "title": "英国、16歳未満の子供向けソーシャルメディアを禁止する可能性",
-      "link": "https://techcrunch.com/2026/06/14/uk-may-ban-social-media-for-children-under-16/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-06-14T20:17:00",
-      "excerpt": "英国はオーストラリアに倣い、青少年向けの広範なソーシャルメディアの禁止を進めているようだ。"
-    },
-    {
-      "title": "Vibe コーダー vs. ソフトウェア エンジニア",
-      "link": "https://yusufaytas.com/vibe-coder-vs-software-engineer",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-14T20:12:42",
-      "excerpt": "記事の URL: https://yusufaytas.com/vibe-coder-vs-software-engineer コメント URL: https://news.ycombinator.com/item?…"
+      "title": "50％が無許可で公開AIに業務内容を入力するも、“勝手にAIを使う同僚”を許さない日本",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2606/15/news032.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-06-14T22:00:00",
+      "excerpt": "PagerDutyは、シャドーAI利用調査で職場のAI利用が社内規定整備を上回り、許可外利用や公開AIへの機密情報入力が広がる実態を示した。利用者の多くが私生活でAIを使い始めていることや、規定運用の不公平感が隠れた利用を招いている。"
     }
   ]
 }
