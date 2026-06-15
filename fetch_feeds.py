@@ -43,11 +43,16 @@ BUILTIN_FEEDS = [
     {"name": "ITmedia NEWS",          "url": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml"},
     {"name": "ITmedia エンタープライズ", "url": "https://rss.itmedia.co.jp/rss/2.0/enterprise.xml"},
     {"name": "@IT",                   "url": "https://rss.itmedia.co.jp/rss/2.0/ait.xml"},
-    # --- 4. 海外の速報・深掘り（英語→自動翻訳） ---
+    {"name": "CodeZine",              "url": "https://codezine.jp/rss/new/index.xml"},
+    {"name": "gihyo.jp 開発",          "url": "https://gihyo.jp/dev/feed/rss2"},
+    {"name": "InfoQ（日本語）",        "url": "https://feed.infoq.com/jp/"},
+    {"name": "はてなブックマーク（テクノロジー）", "url": "https://b.hatena.ne.jp/hotentry/it.rss"},
+    # --- 4. 企業テックブログ横断まとめ（Google/Microsoft/メルカリ等を集約・ブログのネタ探しに最適） ---
+    {"name": "企業テックブログまとめ", "url": "https://yamadashy.github.io/tech-blog-rss-feed/feeds/rss.xml"},
+    # --- 5. 海外の速報・深掘り（英語→自動翻訳） ---
     {"name": "The Register（英語）",   "url": "https://www.theregister.com/headlines.atom"},
     {"name": "TechCrunch（英語）",     "url": "https://techcrunch.com/feed/"},
     {"name": "Ars Technica（英語）",   "url": "https://feeds.arstechnica.com/arstechnica/index"},
-    {"name": "InfoQ（英語）",          "url": "https://feed.infoq.com/"},
     {"name": "Hacker News（英語）",    "url": "https://hnrss.org/frontpage"},
 ]
 # 後方互換: 既存コードが参照する FEEDS は初期サイトを指すエイリアス
