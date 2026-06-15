@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-06-15T20:21:24",
+  "generated_at": "2026-06-15T22:32:48",
   "window_hours": 24,
-  "total": 168,
+  "total": 178,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が32件。AWS FinOps Agent がパブリックプレビューで提供開始されたのでセットアップして使ってみました。…",
+      "summary": "生成AIの新着が35件。企業における生成AIの利用は、PoCから本番運用のフェーズへと移りつつある。マルチモデル化やAIエージェント活用によって複雑化する運用に、企業はどう向き合うべきか。Datadogの調査レポートを基に、新たな運用管理の視点を考える。",
       "articles": [
         {
-          "title": "AWS FinOps Agent (プレビュー)使ってみた",
-          "link": "https://qiita.com/sagochiko/items/ec5691e150e084d5d443",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-15T16:12:43",
-          "excerpt": "AWS FinOps Agent がパブリックプレビューで提供開始されたのでセットアップして使ってみました。…"
+          "title": "「ClaudeとGeminiの躍進」も「AIエージェントの波」も、来たる“IT運用の変化”の序章に過ぎない？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/16/news019.html",
+          "source": "@IT",
+          "published": "2026-06-15T22:00:00",
+          "excerpt": "企業における生成AIの利用は、PoCから本番運用のフェーズへと移りつつある。マルチモデル化やAIエージェント活用によって複雑化する運用に、企業はどう向き合うべきか。Datadogの調査レポートを基に、新たな運用管理の視点を考える。"
         },
         {
-          "title": "AWS DevOps Agent はカスタム SRE エージェントと MCP/A2A プロトコルで拡張されます",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-custom-agents/",
+          "title": "「なぜ動くか分からないコードが多過ぎ」　生成AI一般化でレビュワーの9割が直面する負担増の実態",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/16/news041.html",
+          "source": "@IT",
+          "published": "2026-06-15T22:00:00",
+          "excerpt": "キッカケクリエイションが行ったAI生成コードのレビュワー負担に関する調査で、担当ITエンジニアの約9割が負担増を実感し、「AIに書かせた人がコードを説明できない」といった問題を経験していることが分かった。"
+        },
+        {
+          "title": "研究者によると、脱獄ではなく単に「このコードを修正してください」というプロンプトが表示されただけで、連邦当局は寓話5に激怒したとのこと",
+          "link": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
+          "source": "The Register（英語）",
+          "published": "2026-06-15T21:07:26",
+          "excerpt": "実際に研究論文を読んだある人物によると、"
+        },
+        {
+          "title": "Amazon Bedrock AgentCore Memory が、長期メモリの厳密に一貫したメタデータをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata",
           "source": "AWS What's New（英語）",
-          "published": "2026-06-15T15:47:00",
-          "excerpt": "AWS DevOps Agent は、カスタム SRE エージェント、独自のサブエージェント、MCP および A2A プロトコルを介したヘッドレス アクセスをサポートするようになりました。…"
-        },
-        {
-          "title": "Stack Overflow、AIエージェント同士が掲示板で技術情報を共有する「Stack Overflow for Agents」ベータ公開",
-          "link": "https://www.publickey1.jp/blog/26/stack_overflowaistack_overflow_for_agents.html",
-          "source": "Publickey",
-          "published": "2026-06-15T15:46:43",
-          "excerpt": "Stack Overflowは、AIエージェント同士がオープンな掲示板の上で技術的な解決策などの情報を共有する新サービス「Stack Overflow for Agents」をベータ版として提供開始したことを明らかにしました。What i.…"
-        },
-        {
-          "title": "サイバーセキュリティ退役軍人が、Anthropic の最も強力なモデルに対する「危険な」米国政府の禁止に抗議",
-          "link": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-06-15T15:29:51",
-          "excerpt": "数十人のサイバーセキュリティ専門家で構成するグループは、この命令によりサイバーセキュリティ擁護者のソフトウェアや製品を保護する能力が制限されると主張し、アンスロピック社のモデル「ファブル」と「ミトス」に対する輸出管理規制を解除するようホワイ…"
+          "published": "2026-06-15T20:00:00",
+          "excerpt": "Amazon Bedrock AgentCore Memory は、短期記憶から有用な情報を抽出し、長期記憶レコードとして保存します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。Lambda Managed Instances（LMI）に追加されたPropagateTags機能を使い、キャパシティプロバイダーのExplicitTagsに指定したユーザー定義タグが、新規作成されるEC2・EBS・ENIに自動伝播される…",
+      "summary": "クラウドの新着が16件。S3 の暗号化を SSE-S3 から SSE-KMS に変えた途端、署名付き URL がエラーを返すようになった。そんな経験はありませんか？私はあります。…",
       "articles": [
+        {
+          "title": "S3 署名付きURL × SSE-KMS でエラーになるハマりどころまとめ",
+          "link": "https://qiita.com/sassssan68/items/9f37fac0f4e2210deb0c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-15T22:00:58",
+          "excerpt": "S3 の暗号化を SSE-S3 から SSE-KMS に変えた途端、署名付き URL がエラーを返すようになった。そんな経験はありませんか？私はあります。…"
+        },
         {
           "title": "Lambda Managed InstancesでPropagateTagsがサポートされたので、EC2/EBS/ENIへのタグ自動伝播を試してみた",
           "link": "https://dev.classmethod.jp/articles/lambda-managed-instances-propagate-tags/",
@@ -64,56 +71,56 @@
           "source": "AWS What's New（英語）",
           "published": "2026-06-15T17:00:00",
           "excerpt": "Amazon Elastic Container Service (Amazon ECS) エクスプレス モードが AWS GovCloud (米国東部) および AWS GovCloud (米国西部) リージョンで利用できるようになりまし…"
-        },
-        {
-          "title": "KMS で詰まった2つの実体験【別環境スナップショット移行 / キーポリシー】",
-          "link": "https://zenn.dev/hisan_aws/articles/6df257767dfe23",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-15T16:16:25",
-          "excerpt": "AWS の KMS を運用していて実際に詰まった2つのポイントを、技術的に整理する記事です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。AMDが民生用CPUからTSMEを取り除いたのは、意図的な秘密裏の動きのようだ。",
+      "summary": "セキュリティの新着が17件。S3 の暗号化を SSE-S3 から SSE-KMS に変えた途端、署名付き URL がエラーを返すようになった。そんな経験はありませんか？私はあります。…",
       "articles": [
         {
-          "title": "AMDがコンシューマー向けCPUからメモリ暗号を削除したことでユーザーが不満の声を上げた",
-          "link": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-06-15T17:55:46",
-          "excerpt": "AMDが民生用CPUからTSMEを取り除いたのは、意図的な秘密裏の動きのようだ。"
+          "title": "S3 署名付きURL × SSE-KMS でエラーになるハマりどころまとめ",
+          "link": "https://qiita.com/sassssan68/items/9f37fac0f4e2210deb0c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-15T22:00:58",
+          "excerpt": "S3 の暗号化を SSE-S3 から SSE-KMS に変えた途端、署名付き URL がエラーを返すようになった。そんな経験はありませんか？私はあります。…"
         },
         {
-          "title": "Amazon Route 53 リゾルバー DNS ファイアウォールがパロアルトネットワークの高度な DNS セキュリティ (プレビュー) をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-resolver-dns/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-06-15T17:06:00",
-          "excerpt": "アマゾン ウェブ サービスは、Amazon Route 53 リゾルバー DNS ファイアウォール上のパロアルトネットワークス (PANW) アドバンスト DNS セキュリティのプレビューを発表しました。…"
+          "title": "OutlookとWordにリモートコード実行脆弱性　深刻度は「緊急」",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/16/news029.html",
+          "source": "@IT",
+          "published": "2026-06-15T22:00:00",
+          "excerpt": "Microsoftは、OutlookとWordの脆弱性CVE-2026-45456を公開した。Officeの型混同により、未認証の攻撃者がローカルでコード実行可能となる。脆弱性を悪用した攻撃の難易度も低いため、注意してほしい。"
         },
         {
-          "title": "KMS で詰まった2つの実体験【別環境スナップショット移行 / キーポリシー】",
-          "link": "https://zenn.dev/hisan_aws/articles/6df257767dfe23",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-15T16:16:25",
-          "excerpt": "AWS の KMS を運用していて実際に詰まった2つのポイントを、技術的に整理する記事です。…"
+          "title": "セキュリティ担当者を追い詰める「努力と不安のジレンマ」　認知バイアスから解き明かす",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2606/16/news003.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-06-15T22:00:00",
+          "excerpt": "サイバーセキュリティの現場で生じる「努力と不安のジレンマ」。その背景には、人間の防衛本能が引き起こす認知バイアスがある。現役CISOが、組織を思考停止に陥らせる心理的メカニズムを解説し、現場を疲弊させない解決策を示す。"
         },
         {
-          "title": "サイバーセキュリティ退役軍人が、Anthropic の最も強力なモデルに対する「危険な」米国政府の禁止に抗議",
-          "link": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-06-15T15:29:51",
-          "excerpt": "数十人のサイバーセキュリティ専門家で構成するグループは、この命令によりサイバーセキュリティ擁護者のソフトウェアや製品を保護する能力が制限されると主張し、アンスロピック社のモデル「ファブル」と「ミトス」に対する輸出管理規制を解除するようホワイ…"
+          "title": "Microsoftが6月の月例パッチを公開　BitLockerやExchangeにゼロデイ脆弱性",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2606/16/news020.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-06-15T22:00:00",
+          "excerpt": "Microsoftが2026年6月の月例セキュリティ更新プログラムを公開した。WindowsやOffice、Azureなど広範囲な製品が対象で、悪用確認済みのゼロデイ脆弱性などが修正された。同社は早急な適用を呼びかけている。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。Orbio は、Dawn Capital 主導のシリーズ A ラウンドで 2,100 万ドルを発表しました。",
+      "summary": "データ分析の新着が5件。Microsoftが2026年6月の月例セキュリティ更新プログラムを公開した。WindowsやOffice、Azureなど広範囲な製品が対象で、悪用確認済みのゼロデイ脆弱性などが修正された。同社は早急な適用を呼びかけている。",
       "articles": [
+        {
+          "title": "Microsoftが6月の月例パッチを公開　BitLockerやExchangeにゼロデイ脆弱性",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2606/16/news020.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-06-15T22:00:00",
+          "excerpt": "Microsoftが2026年6月の月例セキュリティ更新プログラムを公開した。WindowsやOffice、Azureなど広範囲な製品が対象で、悪用確認済みのゼロデイ脆弱性などが修正された。同社は早急な適用を呼びかけている。"
+        },
         {
           "title": "Orbio が最前線の従業員の採用と新人研修を自動化するために 2,100 万ドルを調達",
           "link": "https://techcrunch.com/2026/06/14/orbio-raises-21-million-to-automate-hiring-and-onboarding-for-frontline-workers/",
@@ -134,13 +141,6 @@
           "source": "DevelopersIO",
           "published": "2026-06-14T23:47:44",
           "excerpt": "【アップデート】Cloud Billingでマルチプロジェクトアクセス（Multi-project access to cost views）がPreviewでリリースされました"
-        },
-        {
-          "title": "AWS学習7日目：RDS・DynamoDB",
-          "link": "https://zenn.dev/zono731/articles/912dbaa95e7a1a",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-14T23:44:59",
-          "excerpt": "今日のテーマ AWS学習7日目は、アプリケーションで重要になる データベース について学びました。今日は、アプリケーションの中で扱うデータを保存・検索する仕組みとして、RDSとDynamoDBを確認しました。…"
         }
       ]
     },
@@ -175,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "英国、16歳未満の子供に対するソーシャルメディアを禁止、夜間外出禁止令の可能性も",
-      "link": "https://arstechnica.com/tech-policy/2026/06/uk-to-ban-social-media-for-kids-under-16-may-impose-overnight-curfews/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-06-15T20:14:04",
-      "excerpt": "批評家は、禁止措置は子供たちをよりリスクの高い代替手段に誘導しており、VPN を使えば克服できると主張している。"
+      "title": "Amazon Quick の Cost Explorer 料金明細を使用タイプごとに確認して、どの機能がどう課金されるのか整理してみた",
+      "link": "https://dev.classmethod.jp/articles/amazon-quick-pricing-202606/",
+      "source": "DevelopersIO",
+      "published": "2026-06-15T22:04:11",
+      "excerpt": "Amazon Quick の Cost Explorer 料金明細を使用タイプごとに確認して、どの機能がどう課金されるのか整理してみた"
     },
     {
-      "title": "チップメーカーNVIDIA、2021年以来初の債券取引で250億ドル以上の調達を目指す",
-      "link": "https://arstechnica.com/ai/2026/06/chipmaker-nvidia-seeks-to-raise-over-25b-in-first-bond-deal-since-2021/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-06-15T19:07:02",
-      "excerpt": "債券売却は、借り入れが急増する中、AIセクターへの更なるエクスポージャーを求める投資家の意欲を試すことになる。"
+      "title": "【50％オフ】夏の超ビッグセールで技術書がKindleで50％オフ！ 翔泳社の本を対象に7/13まで",
+      "link": "https://codezine.jp/article/detail/24451",
+      "source": "CodeZine",
+      "published": "2026-06-15T22:00:00",
+      "excerpt": "【50％オフ】夏の超ビッグセールで技術書がKindleで50％オフ！ 翔泳社の本を対象に7/13まで"
     },
     {
-      "title": "中国のロケットがスターリンク星座の近くで危険なほど破壊される",
-      "link": "https://arstechnica.com/space/2026/06/a-chinese-rocket-breaks-apart-dangerously-close-to-the-starlink-constellation/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-06-15T18:55:41",
-      "excerpt": "ロケットの破損により、おそらく 100 ～ 150 個の新たな宇宙ゴミが生成されたと考えられます。"
+      "title": "実はものすごく難しいデジタル社会の「本人確認」　パスキーとマイナンバーカードの狙いは？",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2606/16/news028.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-06-15T22:00:00",
+      "excerpt": "現実だけでなく、インターネットの世界でも「本人確認」が難しくなっています。従来はパスワードによる本人確認が主流でしたが、現在はどうでしょうか。これまでの対策が変化した原因と、最新の本人確認手法を解説します。"
     },
     {
-      "title": "アラスカサーバー",
-      "link": "https://serialport.org/blog/the-alaska-server/",
+      "title": "私がまったく知らない人にメールを送信する理由",
+      "link": "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/",
       "source": "Hacker News（英語）",
-      "published": "2026-06-15T18:37:27",
-      "excerpt": "記事の URL: https://serialport.org/blog/the-alaska-server/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-06-15T21:57:10",
+      "excerpt": "記事の URL: https://www.goodinternetmagazine.com/why-i-email-complete-strangers/ コメント URL: https://news.ycombinator.…"
     }
   ]
 }
