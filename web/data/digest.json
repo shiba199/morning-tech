@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-15T16:53:13",
+  "generated_at": "2026-06-15T20:21:24",
   "window_hours": 24,
-  "total": 153,
+  "total": 168,
   "topic_count": 5,
   "groups": [
     {
@@ -42,70 +42,70 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。本記事について 2026年度の自動運転AIチャレンジが始まりました。推奨環境としてはUbuntu 22.04とGPU (NVIDIA or Intel内蔵GPU) が求められています。…",
+      "summary": "クラウドの新着が17件。Lambda Managed Instances（LMI）に追加されたPropagateTags機能を使い、キャパシティプロバイダーのExplicitTagsに指定したユーザー定義タグが、新規作成されるEC2・EBS・ENIに自動伝播される…",
       "articles": [
         {
-          "title": "ブラウザで始める自動運転AIチャレンジ（AWS EC2 + Amazon DCV）",
-          "link": "https://qiita.com/iwatake2222/items/05ea4adf9c9d19e02662",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-15T15:13:35",
-          "excerpt": "本記事について 2026年度の自動運転AIチャレンジが始まりました。推奨環境としてはUbuntu 22.04とGPU (NVIDIA or Intel内蔵GPU) が求められています。…"
+          "title": "Lambda Managed InstancesでPropagateTagsがサポートされたので、EC2/EBS/ENIへのタグ自動伝播を試してみた",
+          "link": "https://dev.classmethod.jp/articles/lambda-managed-instances-propagate-tags/",
+          "source": "DevelopersIO",
+          "published": "2026-06-15T19:43:29",
+          "excerpt": "Lambda Managed Instances（LMI）に追加されたPropagateTags機能を使い、キャパシティプロバイダーのExplicitTagsに指定したユーザー定義タグが、新規作成されるEC2・EBS・ENIに自動伝播される…"
         },
         {
-          "title": "k8s CronJob + SNS + Lambdaで作る疎結合な監視バッチ構成",
-          "link": "https://zenn.dev/tonbi_attack/articles/d13a1c09768a55",
+          "title": "Amazon Route 53 リゾルバー DNS ファイアウォールがパロアルトネットワークの高度な DNS セキュリティ (プレビュー) をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-resolver-dns/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-06-15T17:06:00",
+          "excerpt": "アマゾン ウェブ サービスは、Amazon Route 53 リゾルバー DNS ファイアウォール上のパロアルトネットワークス (PANW) アドバンスト DNS セキュリティのプレビューを発表しました。…"
+        },
+        {
+          "title": "Amazon ECS Express Mode が AWS GovCloud (米国) リージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-express-mode-govcloud/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-06-15T17:00:00",
+          "excerpt": "Amazon Elastic Container Service (Amazon ECS) エクスプレス モードが AWS GovCloud (米国東部) および AWS GovCloud (米国西部) リージョンで利用できるようになりまし…"
+        },
+        {
+          "title": "KMS で詰まった2つの実体験【別環境スナップショット移行 / キーポリシー】",
+          "link": "https://zenn.dev/hisan_aws/articles/6df257767dfe23",
           "source": "Zenn AWSトピック",
-          "published": "2026-06-15T11:59:26",
-          "excerpt": "はじめに この記事では、サーバーのディスク使用率を定期監視してSlackへ通知するアラート機能を実装したときの構成と、設計上の判断を整理します。最終的な構成は次のとおりです。…"
-        },
-        {
-          "title": "AWS App Runner 新規受付停止後の PHP / FrankenPHP 移行先比較",
-          "link": "https://qiita.com/hc_terashima/items/4b3b4b4625ad01e3222d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-15T10:20:53",
-          "excerpt": "AWS App Runner 新規受付停止後の PHP / FrankenPHP 移行先比較 TL;DR AWS App Runner は既存顧客向けには継続利用できるが、新規顧客受付停止と新機能追加停止により、長期運用では移行先検討が必要…"
-        },
-        {
-          "title": "AWS WAFのマネージドルールを「いきなりBlock」しないーCountモード×ラベルマッチで段階移行する",
-          "link": "https://zenn.dev/wistixsub/articles/aws-waf-managed-count-label",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-15T10:20:33",
-          "excerpt": "はじめに 先日、ある案件の構築中環境で「WAFにリクエストがブロックされてしまう」事象の調査を担当する機会がありました。原因を追っていくと、AWSマネージドルールのうちの1つが正規のリクエストを誤検知していた、というオチでした。…"
+          "published": "2026-06-15T16:16:25",
+          "excerpt": "AWS の KMS を運用していて実際に詰まった2つのポイントを、技術的に整理する記事です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。数十人のサイバーセキュリティ専門家で構成するグループは、この命令によりサイバーセキュリティ擁護者のソフトウェアや製品を保護する能力が制限されると主張し、アンスロピック社のモデル「ファブル」と「ミトス」に対する輸出管理規制を解除するようホワイ…",
+      "summary": "セキュリティの新着が12件。AMDが民生用CPUからTSMEを取り除いたのは、意図的な秘密裏の動きのようだ。",
       "articles": [
+        {
+          "title": "AMDがコンシューマー向けCPUからメモリ暗号を削除したことでユーザーが不満の声を上げた",
+          "link": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-06-15T17:55:46",
+          "excerpt": "AMDが民生用CPUからTSMEを取り除いたのは、意図的な秘密裏の動きのようだ。"
+        },
+        {
+          "title": "Amazon Route 53 リゾルバー DNS ファイアウォールがパロアルトネットワークの高度な DNS セキュリティ (プレビュー) をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-resolver-dns/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-06-15T17:06:00",
+          "excerpt": "アマゾン ウェブ サービスは、Amazon Route 53 リゾルバー DNS ファイアウォール上のパロアルトネットワークス (PANW) アドバンスト DNS セキュリティのプレビューを発表しました。…"
+        },
+        {
+          "title": "KMS で詰まった2つの実体験【別環境スナップショット移行 / キーポリシー】",
+          "link": "https://zenn.dev/hisan_aws/articles/6df257767dfe23",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-15T16:16:25",
+          "excerpt": "AWS の KMS を運用していて実際に詰まった2つのポイントを、技術的に整理する記事です。…"
+        },
         {
           "title": "サイバーセキュリティ退役軍人が、Anthropic の最も強力なモデルに対する「危険な」米国政府の禁止に抗議",
           "link": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
           "source": "TechCrunch（英語）",
           "published": "2026-06-15T15:29:51",
           "excerpt": "数十人のサイバーセキュリティ専門家で構成するグループは、この命令によりサイバーセキュリティ擁護者のソフトウェアや製品を保護する能力が制限されると主張し、アンスロピック社のモデル「ファブル」と「ミトス」に対する輸出管理規制を解除するようホワイ…"
-        },
-        {
-          "title": "ランサムウェアからバックアップを守るawsのWORMという機能を知ったので覚書",
-          "link": "https://zenn.dev/secula/articles/c55c3778644c8e",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-15T11:37:14",
-          "excerpt": "下記の記事を読んでいてWARM機能が気になったので概要レベルですが情報を調べてまとめてみました。WORM： 一度保存したバックアップデータを、誰であっても（管理者でも）一定期間は上書き・削除できないようにロックする。…"
-        },
-        {
-          "title": "AWS WAFのマネージドルールを「いきなりBlock」しないーCountモード×ラベルマッチで段階移行する",
-          "link": "https://zenn.dev/wistixsub/articles/aws-waf-managed-count-label",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-15T10:20:33",
-          "excerpt": "はじめに 先日、ある案件の構築中環境で「WAFにリクエストがブロックされてしまう」事象の調査を担当する機会がありました。原因を追っていくと、AWSマネージドルールのうちの1つが正規のリクエストを誤検知していた、というオチでした。…"
-        },
-        {
-          "title": "Amazon Connectの認証方式",
-          "link": "https://qiita.com/kamayan57/items/7152ad94d667a50c9c8b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-15T10:14:12",
-          "excerpt": "Amazon Connectを利用する時に、いくつかの認証方法が利用できます。認証方式を選ぶポイントと共に、解説していきます。…"
         }
       ]
     },
@@ -175,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "米国のデータセンター法が失効し、サイトに代わりの者がいないため、連邦当局は居眠りをしている",
-      "link": "https://www.theregister.com/public-sector/2026/06/15/feds-snooze-as-us-datacenter-law-set-to-lapse-with-no-replacement-in-site/5255679",
-      "source": "The Register（英語）",
-      "published": "2026-06-15T16:47:00",
-      "excerpt": "2023 年の連邦データセンター強化法 (FDCEA) はセキュリティと持続可能性を含む標準を対象としています"
+      "title": "英国、16歳未満の子供に対するソーシャルメディアを禁止、夜間外出禁止令の可能性も",
+      "link": "https://arstechnica.com/tech-policy/2026/06/uk-to-ban-social-media-for-kids-under-16-may-impose-overnight-curfews/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-06-15T20:14:04",
+      "excerpt": "批評家は、禁止措置は子供たちをよりリスクの高い代替手段に誘導しており、VPN を使えば克服できると主張している。"
     },
     {
-      "title": "Y2Kバグが戻ってきた！デンマークの開発者が古い BSD ビルドの時機を逸した欠陥を発見",
-      "link": "https://www.theregister.com/offbeat/2026/06/15/the-y2k-bug-is-back-danish-dev-digs-up-untimely-flaw-in-old-bsd-build/5255645",
-      "source": "The Register（英語）",
-      "published": "2026-06-15T16:30:00",
-      "excerpt": "26 年遅れですが、まだ PDP-11/70 を実行し、短波計時放送に依存していない限り、脅威はありません"
+      "title": "チップメーカーNVIDIA、2021年以来初の債券取引で250億ドル以上の調達を目指す",
+      "link": "https://arstechnica.com/ai/2026/06/chipmaker-nvidia-seeks-to-raise-over-25b-in-first-bond-deal-since-2021/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-06-15T19:07:02",
+      "excerpt": "債券売却は、借り入れが急増する中、AIセクターへの更なるエクスポージャーを求める投資家の意欲を試すことになる。"
     },
     {
-      "title": "NASA経営陣は一言欲しいが理由は語らない",
-      "link": "https://www.theregister.com/science/2026/06/15/nasa-management-wants-a-word-and-wont-say-why/5255702",
-      "source": "The Register（英語）",
-      "published": "2026-06-15T16:15:00",
-      "excerpt": "ミステリーカレンダーイベントは、確かにアルテミス III 乗組員に選ばれたかどうかを知る方法の 1 つです。"
+      "title": "中国のロケットがスターリンク星座の近くで危険なほど破壊される",
+      "link": "https://arstechnica.com/space/2026/06/a-chinese-rocket-breaks-apart-dangerously-close-to-the-starlink-constellation/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-06-15T18:55:41",
+      "excerpt": "ロケットの破損により、おそらく 100 ～ 150 個の新たな宇宙ゴミが生成されたと考えられます。"
     },
     {
-      "title": "Red Hat、Canonical shindig で Ubuntu に裏側のブートを提供",
-      "link": "https://www.theregister.com/software/2026/06/15/red-hat-gives-ubuntu-a-bootc-up-the-backside-at-canonical-shindig/5255608",
-      "source": "The Register（英語）",
-      "published": "2026-06-15T15:54:00",
-      "excerpt": "ブータブルコンテナのピッチでは、使い慣れた OCI ツールを使用してディストリビューションを管理する方法を示しています"
+      "title": "アラスカサーバー",
+      "link": "https://serialport.org/blog/the-alaska-server/",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-15T18:37:27",
+      "excerpt": "記事の URL: https://serialport.org/blog/the-alaska-server/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
