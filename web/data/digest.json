@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-16T19:27:08",
+  "generated_at": "2026-06-16T21:59:45",
   "window_hours": 24,
-  "total": 207,
+  "total": 209,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が39件。GitLabは6月10日にロンドンで開催したイベント「GitLab Transcend」で、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」を発表しました。GitLabやGitHubが提供する.…",
+      "summary": "生成AIの新着が37件。次世代AI「Claude Mythos」の登場と、その一般公開版「Claude Fable 5」のリリースが、サイバーセキュリティの前提を根底から覆した。…",
       "articles": [
+        {
+          "title": "脆弱性修正の猶予は「125日から0.5日」へ激減。セーフガード付き「Claude Fable 5」と最上位「Mythos」がもたらす激震",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/17/news014.html",
+          "source": "@IT",
+          "published": "2026-06-16T20:00:00",
+          "excerpt": "次世代AI「Claude Mythos」の登場と、その一般公開版「Claude Fable 5」のリリースが、サイバーセキュリティの前提を根底から覆した。…"
+        },
+        {
+          "title": "生成AI×自動運転で注目のTesla・Waymo・NVIDIA　各社が目指す「フィジカルAI」は何が違うのか",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/17/news007.html",
+          "source": "@IT",
+          "published": "2026-06-16T20:00:00",
+          "excerpt": "日本政府が戦略的強化分野に掲げる「フィジカルAI」――その社会実装の最前線の一つが自動運転システムだ。熾烈な開発競争が繰り広げられている中、生成AIの進化は各社の競争にどのような変化をもたらしているのか。…"
+        },
         {
           "title": "GitLab、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」発表。最大で50倍高速かつ半分のトークンで利用可能に",
           "link": "https://www.publickey1.jp/blog/26/gitlabaigitproject_switch50.html",
@@ -22,28 +36,21 @@
           "source": "TechCrunch（英語）",
           "published": "2026-06-16T18:00:00",
           "excerpt": "Google は Android 17 と Wear OS 7 をリリースし、新しいマルチタスク機能、ペアレンタル コントロール、セキュリティ ツール、スマートウォッチのアップグレードを導入しました。…"
-        },
-        {
-          "title": "GPT‑NL: オランダの主権言語モデル",
-          "link": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-16T17:54:02",
-          "excerpt": "記事の URL: https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "AI エージェントのタコ アーキテクチャ",
-          "link": "https://blog.goodman.dev/blog/octopus-agent-architecture/",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-16T17:24:45",
-          "excerpt": "記事の URL: https://blog.goodman.dev/blog/octopus-agent-architecture/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が25件。AWS Lambda Response Streaming で「待たせない」レスポンスを作る Qiita 投稿用ドラフト ｜ ポートフォリオ / スキル知識まとめ タグ: AWS, AWSLambda, サーバーレス, Serverless…",
+      "summary": "クラウドの新着が25件。2026年6月30日がAmazon Linux 2のEOL。筆者は金融系Webサービスのインフラ移行を担当し、AL2 → AL2023 と MySQL 5.7 → 8 を同時に進めた。…",
       "articles": [
+        {
+          "title": "Amazon Linux 2 → Amazon Linux 2023 移行の実践ガイド（MySQL 8 同時移行あり）",
+          "link": "https://qiita.com/vcmacky/items/5f9f6aaaeaa3933a8d28",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-16T20:41:24",
+          "excerpt": "2026年6月30日がAmazon Linux 2のEOL。筆者は金融系Webサービスのインフラ移行を担当し、AL2 → AL2023 と MySQL 5.7 → 8 を同時に進めた。…"
+        },
         {
           "title": "AWS Lambda Response Streaming で「待たせない」レスポンスを作る 〜 Function URL × ffmpeg ストリーミングプロキシ実装",
           "link": "https://qiita.com/ujunja/items/096962ed4a8f694707d5",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-16T13:45:45",
           "excerpt": "1.…"
-        },
-        {
-          "title": "ECS の外部イメージ依存をやめた話",
-          "link": "https://zenn.dev/azunyan/articles/0dfab949e3dffa",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-16T12:27:41",
-          "excerpt": "はじめに 🌱 以前、EC2 上の WordPress を ECS に移行した話 という記事を書きました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。SearchLeak のエクスプロイトは、LLM セキュリティに対する業界のアプローチが何度も失敗する理由を示しています。",
+      "summary": "セキュリティの新着が14件。次世代AI「Claude Mythos」の登場と、その一般公開版「Claude Fable 5」のリリースが、サイバーセキュリティの前提を根底から覆した。…",
       "articles": [
+        {
+          "title": "脆弱性修正の猶予は「125日から0.5日」へ激減。セーフガード付き「Claude Fable 5」と最上位「Mythos」がもたらす激震",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/17/news014.html",
+          "source": "@IT",
+          "published": "2026-06-16T20:00:00",
+          "excerpt": "次世代AI「Claude Mythos」の登場と、その一般公開版「Claude Fable 5」のリリースが、サイバーセキュリティの前提を根底から覆した。…"
+        },
         {
           "title": "Copilot の重大な脆弱性により、ハッカーが 2FA コードをユーザーから封印できるようになりました",
           "link": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
@@ -99,21 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-06-16T09:35:12",
           "excerpt": "xAIのGrok 4.3がAmazon Bedrockで利用可能になりました。…"
-        },
-        {
-          "title": "SBGとOpenAI、AIで脆弱性診断「Patching as a Service」提供　まずは日本の重要インフラ向けに",
-          "link": "https://www.itmedia.co.jp/news/articles/2606/16/news115.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-06-16T09:05:00",
-          "excerpt": "ソフトバンクグループと米OpenAIは6月16日、OpenAIのAI技術を活用して企業の脆弱性診断から修復方針の策定、実装の提案までを支援する法人向けサイバーセキュリティ対策ソリューション「Patching as a Service」の提供…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Amazon Redshift は、AWS Graviton プロセッサを搭載した RG インスタンス の一般提供を、アフリカ (ケープタウン)、アジアパシフィック (バンコク)、メキシコの 3 つの追加 AWS リージョンに拡大します。…",
+      "summary": "データ分析の新着が5件。ある喫茶店のシュークリームの重さを例に、ベイズ統計で「平均」や「ばらつき」をどう推定するのか、さらに基準値と違いがあるかどうかをどう確かめるのかを解説します。『社会人1年生から学ぶ、やさしいデータ分析』ベイズ統計編の第3回です。",
       "articles": [
+        {
+          "title": "【Pythonで学ぶデータ分析】母平均と母標準偏差をベイズ推定する ～ シュークリームの重さは100gと異なるか？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/17/news001.html",
+          "source": "@IT",
+          "published": "2026-06-16T20:00:00",
+          "excerpt": "ある喫茶店のシュークリームの重さを例に、ベイズ統計で「平均」や「ばらつき」をどう推定するのか、さらに基準値と違いがあるかどうかをどう確かめるのかを解説します。『社会人1年生から学ぶ、やさしいデータ分析』ベイズ統計編の第3回です。"
+        },
         {
           "title": "AWS Graviton を搭載した Amazon Redshift RG インスタンスが追加のリージョンで利用可能になりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-rg-instances-3-additional-regions/",
@@ -134,13 +141,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-06-16T00:07:24",
           "excerpt": "今日のテーマ AWS学習8日目は、前回学んだDynamoDBを実際に触りました。具体的にはDynamoDBでテーブルを作成し、itemを追加・確認・削除する流れを体験しました。…"
-        },
-        {
-          "title": "Microsoftが6月の月例パッチを公開　BitLockerやExchangeにゼロデイ脆弱性",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2606/16/news020.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-06-15T22:00:00",
-          "excerpt": "Microsoftが2026年6月の月例セキュリティ更新プログラムを公開した。WindowsやOffice、Azureなど広範囲な製品が対象で、悪用確認済みのゼロデイ脆弱性などが修正された。同社は早急な適用を呼びかけている。"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "AI とブレイン コンピューター インターフェイスにより、言葉を話せない ALS 患者がフルタイムで働けるようになります",
-      "link": "https://www.theregister.com/science/2026/06/16/ai-and-brain-computer-interface-allow-speechless-als-patient-to-work-a-full-time-job/5256492",
-      "source": "The Register（英語）",
-      "published": "2026-06-16T18:44:12",
-      "excerpt": "このハードウェアは新しいものではありませんが、カリフォルニア大学デービス校の研究チームが開発した、ALS 患者の脳活動を 92% の精度で文章に変換する機械学習を利用した方法は、"
+      "title": "重要データはどこにある？Microsoft PurviewとAWS Macieで始めるDSPM実践入門",
+      "link": "https://qiita.com/BrainDirection/items/357bb0f7aa22daf8c777",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-16T21:58:55",
+      "excerpt": "はじめに クラウド・SaaS・生成AIの普及で、機密データは社内サーバの中だけにとどまらなくなりました。…"
     },
     {
-      "title": "未知の攻撃者によってばら撒かれたフォーティネット サンドボックスの 3 つの重大なバグ",
-      "link": "https://www.theregister.com/security/2026/06/16/three-critical-fortinet-sandbox-bugs-splattered-by-unknown-attackers/5256461",
-      "source": "The Register（英語）",
-      "published": "2026-06-16T18:27:12",
-      "excerpt": "すべてにパッチがあるため、必ず修正バージョンにアップグレードしてください"
+      "title": "【AWS】Gateway Load Balancerってなに？AWS公式ドキュメントのみを参照して整理してみた",
+      "link": "https://qiita.com/shihopower/items/7c2df0be151b1fead65e",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-16T21:15:36",
+      "excerpt": "どーも！shihopowerです！今回はGateway Load Balancer（GWLB）についてお話します。AWS SAPの対策をしていると、このサービスが選択肢に登場してきました。…"
     },
     {
-      "title": "クアルコムは、スマートフォンに代わるあらゆるものの内部のチップになりたいと考えており、その目標に向けて 2 つの製品を発表したばかりです",
-      "link": "https://techcrunch.com/2026/06/16/qualcomm-wants-to-be-the-chip-inside-whatever-replaces-your-smartphone-and-it-just-announced-two-products-toward-that-end/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-06-16T18:22:24",
-      "excerpt": "クアルコムの最高経営責任者（CEO）クリスティアーノ・アモン氏は火曜日、同社が宝飾品、カメラ付きイヤホン、ピン、時計など40種類以上のAIウェアラブルデバイスの開発に取り組んでいると述べた。…"
+      "title": "TaskLink 本番環境の監視・ログ管理構成",
+      "link": "https://qiita.com/katsu-ya/items/c3e27f50267696120729",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-16T20:41:56",
+      "excerpt": "TaskLinkの本番環境では、AWS CloudWatch Agent、CloudWatch Logs、Amazon SNSを利用し、サーバー監視・ログ管理・障害通知を実装しています。…"
     },
     {
-      "title": "Amazon CloudWatch が OpenTelemetry メトリクスをネイティブサポート（GA）— OTLP 直接送信と PromQL を試してみた",
-      "link": "https://dev.classmethod.jp/articles/cloudwatch-otel-metrics-ga-otlp-promql/",
-      "source": "DevelopersIO",
-      "published": "2026-06-16T18:17:09",
-      "excerpt": "Amazon CloudWatch が OpenTelemetry メトリクスのネイティブサポートを GA しました。…"
+      "title": "GrapheneOS が Android 17 に移植され、正式リリースが近日中に開始されます",
+      "link": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-16T20:34:35",
+      "excerpt": "記事の URL: https://discuss.grapheneos.…"
     }
   ]
 }
