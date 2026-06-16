@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-06-15T22:32:48",
+  "generated_at": "2026-06-16T00:22:37",
   "window_hours": 24,
-  "total": 178,
+  "total": 188,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。企業における生成AIの利用は、PoCから本番運用のフェーズへと移りつつある。マルチモデル化やAIエージェント活用によって複雑化する運用に、企業はどう向き合うべきか。Datadogの調査レポートを基に、新たな運用管理の視点を考える。",
+      "summary": "生成AIの新着が38件。claude-mem v13.5以降のテレメトリとオプトアウト方法を整理する",
       "articles": [
         {
-          "title": "「ClaudeとGeminiの躍進」も「AIエージェントの波」も、来たる“IT運用の変化”の序章に過ぎない？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/16/news019.html",
-          "source": "@IT",
-          "published": "2026-06-15T22:00:00",
-          "excerpt": "企業における生成AIの利用は、PoCから本番運用のフェーズへと移りつつある。マルチモデル化やAIエージェント活用によって複雑化する運用に、企業はどう向き合うべきか。Datadogの調査レポートを基に、新たな運用管理の視点を考える。"
+          "title": "claude-mem v13.5以降のテレメトリとオプトアウト方法を整理する",
+          "link": "https://dev.classmethod.jp/articles/claude-mem-telemetry-opt-out/",
+          "source": "DevelopersIO",
+          "published": "2026-06-16T00:00:10",
+          "excerpt": "claude-mem v13.5以降のテレメトリとオプトアウト方法を整理する"
         },
         {
-          "title": "「なぜ動くか分からないコードが多過ぎ」　生成AI一般化でレビュワーの9割が直面する負担増の実態",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/16/news041.html",
-          "source": "@IT",
-          "published": "2026-06-15T22:00:00",
-          "excerpt": "キッカケクリエイションが行ったAI生成コードのレビュワー負担に関する調査で、担当ITエンジニアの約9割が負担増を実感し、「AIに書かせた人がコードを説明できない」といった問題を経験していることが分かった。"
+          "title": "Bedrock Mantle の一部モデルでメトリクスが出ないので CloudTrail のデータイベントで補ってみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-mantle-metrics-cloudtrail-data-events/",
+          "source": "DevelopersIO",
+          "published": "2026-06-15T23:37:39",
+          "excerpt": "Bedrock Mantle の一部モデルでメトリクスが出ないので CloudTrail のデータイベントで補ってみた"
         },
         {
-          "title": "研究者によると、脱獄ではなく単に「このコードを修正してください」というプロンプトが表示されただけで、連邦当局は寓話5に激怒したとのこと",
-          "link": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
-          "source": "The Register（英語）",
-          "published": "2026-06-15T21:07:26",
-          "excerpt": "実際に研究論文を読んだある人物によると、"
+          "title": "[アップデート] AgentCore Memory の長期記憶で Strictly Consistent メタデータを使ってみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-memory-strictly-consistent-metadata/",
+          "source": "DevelopersIO",
+          "published": "2026-06-15T23:37:21",
+          "excerpt": "AgentCore Memory に追加された Strictly Consistent メタデータを実装してみました。アプリケーションが制御すべき値を、LLM の推論を介さずに直接指定できる新機能です。"
         },
         {
-          "title": "Amazon Bedrock AgentCore Memory が、長期メモリの厳密に一貫したメタデータをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata",
-          "source": "AWS What's New（英語）",
-          "published": "2026-06-15T20:00:00",
-          "excerpt": "Amazon Bedrock AgentCore Memory は、短期記憶から有用な情報を抽出し、長期記憶レコードとして保存します。…"
+          "title": "Google、リアルタイムの音声翻訳モデル「Gemini 3.5 Live Translate」リリース",
+          "link": "https://codezine.jp/article/detail/24549",
+          "source": "CodeZine",
+          "published": "2026-06-15T23:00:00",
+          "excerpt": "Google、リアルタイムの音声翻訳モデル「Gemini 3.5 Live Translate」リリース"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。S3 の暗号化を SSE-S3 から SSE-KMS に変えた途端、署名付き URL がエラーを返すようになった。そんな経験はありませんか？私はあります。…",
+      "summary": "クラウドの新着が20件。はじめに 2026 年 6 月 3 日、AWS は Amazon ECS Managed Instances に対して AWS Trainium および AWS Inferentia のサポートを発表しました。…",
       "articles": [
         {
-          "title": "S3 署名付きURL × SSE-KMS でエラーになるハマりどころまとめ",
-          "link": "https://qiita.com/sassssan68/items/9f37fac0f4e2210deb0c",
+          "title": "Amazon ECS Managed Instances が AWS Trainium / Inferentia に対応",
+          "link": "https://qiita.com/Haruki-N/items/81b98db2db87685fae8d",
           "source": "Qiita AWSタグ",
-          "published": "2026-06-15T22:00:58",
-          "excerpt": "S3 の暗号化を SSE-S3 から SSE-KMS に変えた途端、署名付き URL がエラーを返すようになった。そんな経験はありませんか？私はあります。…"
+          "published": "2026-06-15T23:45:38",
+          "excerpt": "はじめに 2026 年 6 月 3 日、AWS は Amazon ECS Managed Instances に対して AWS Trainium および AWS Inferentia のサポートを発表しました。…"
         },
         {
-          "title": "Lambda Managed InstancesでPropagateTagsがサポートされたので、EC2/EBS/ENIへのタグ自動伝播を試してみた",
-          "link": "https://dev.classmethod.jp/articles/lambda-managed-instances-propagate-tags/",
-          "source": "DevelopersIO",
-          "published": "2026-06-15T19:43:29",
-          "excerpt": "Lambda Managed Instances（LMI）に追加されたPropagateTags機能を使い、キャパシティプロバイダーのExplicitTagsに指定したユーザー定義タグが、新規作成されるEC2・EBS・ENIに自動伝播される…"
+          "title": "作ったはずのターゲットグループが「転送先」に出てこない話【ALB / VPC】",
+          "link": "https://qiita.com/80-cloud/items/893794cdcdfa0e7ef258",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-15T23:38:08",
+          "excerpt": "はじめに EC2 で動かしている Spring Boot アプリの前に、ロードバランサー（ALB）を立てようとしていました。手順どおりにターゲットグループを作って、いよいよ ALB のリスナー設定…。…"
         },
         {
-          "title": "Amazon Route 53 リゾルバー DNS ファイアウォールがパロアルトネットワークの高度な DNS セキュリティ (プレビュー) をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-resolver-dns/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-06-15T17:06:00",
-          "excerpt": "アマゾン ウェブ サービスは、Amazon Route 53 リゾルバー DNS ファイアウォール上のパロアルトネットワークス (PANW) アドバンスト DNS セキュリティのプレビューを発表しました。…"
+          "title": "C++ (WinHTTP) で AWS S3 の署名付きURLを取得してファイルダウンロードする",
+          "link": "https://qiita.com/Tom-Panasonic/items/c136832697f37cb9af12",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-15T23:24:20",
+          "excerpt": "👋 はじめに こんにちは。今回の記事ですが、Windowsアプリのセルフアップデート機能を作るにあたって、S3に置いた更新パッケージをセキュアに取得する仕組みが必要になりました。ポイントは次の3つです。…"
         },
         {
-          "title": "Amazon ECS Express Mode が AWS GovCloud (米国) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-express-mode-govcloud/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-06-15T17:00:00",
-          "excerpt": "Amazon Elastic Container Service (Amazon ECS) エクスプレス モードが AWS GovCloud (米国東部) および AWS GovCloud (米国西部) リージョンで利用できるようになりまし…"
+          "title": "AIが生成したAWSインフラは本番環境で使えない？　「AWS MCP Server」はどう役立つのか",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/16/news049.html",
+          "source": "@IT",
+          "published": "2026-06-15T23:00:00",
+          "excerpt": "AWSは、AIエージェントとコーディングアシスタントがAWSの全サービスに認証付きでセキュアにアクセスできるMCPサーバ「AWS MCP Server」の一般提供を開始した。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。S3 の暗号化を SSE-S3 から SSE-KMS に変えた途端、署名付き URL がエラーを返すようになった。そんな経験はありませんか？私はあります。…",
+      "summary": "セキュリティの新着が19件。はじめに どーも、bubobuboです。バイブコーディングが急速に広まっています。私自身もプライベートでClaude CodeやCodexを使っていると、ちょっとしたツールや試作アプリを作る効率が大きく変わったことを実感しています。…",
       "articles": [
+        {
+          "title": "AI生成コードはどこまで安全か：バイブコーディングで作ったポイント交換アプリを診断してみた | ラック・セキュリティごった煮ブログ",
+          "link": "https://devblog.lac.co.jp/entry/20260616",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-15T23:16:34",
+          "excerpt": "はじめに どーも、bubobuboです。バイブコーディングが急速に広まっています。私自身もプライベートでClaude CodeやCodexを使っていると、ちょっとしたツールや試作アプリを作る効率が大きく変わったことを実感しています。…"
+        },
+        {
+          "title": "NGINX 単体で宣言的認可を完結させる Cedar モジュールを作った | 弁護士ドットコム株式会社 Creators’ blog",
+          "link": "https://creators.bengo4.com/entry/2026/06/16/080000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-15T23:00:00",
+          "excerpt": "NGINX のエッジで、外部プロセスやネットワークホップなしに、属性ベースの認可（ABAC）を宣言的なポリシーで書けるようにする。それが nginx-auth-cedar という OSS 動的モジュールだ。…"
+        },
         {
           "title": "S3 署名付きURL × SSE-KMS でエラーになるハマりどころまとめ",
           "link": "https://qiita.com/sassssan68/items/9f37fac0f4e2210deb0c",
@@ -92,27 +106,13 @@
           "source": "@IT",
           "published": "2026-06-15T22:00:00",
           "excerpt": "Microsoftは、OutlookとWordの脆弱性CVE-2026-45456を公開した。Officeの型混同により、未認証の攻撃者がローカルでコード実行可能となる。脆弱性を悪用した攻撃の難易度も低いため、注意してほしい。"
-        },
-        {
-          "title": "セキュリティ担当者を追い詰める「努力と不安のジレンマ」　認知バイアスから解き明かす",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2606/16/news003.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-06-15T22:00:00",
-          "excerpt": "サイバーセキュリティの現場で生じる「努力と不安のジレンマ」。その背景には、人間の防衛本能が引き起こす認知バイアスがある。現役CISOが、組織を思考停止に陥らせる心理的メカニズムを解説し、現場を疲弊させない解決策を示す。"
-        },
-        {
-          "title": "Microsoftが6月の月例パッチを公開　BitLockerやExchangeにゼロデイ脆弱性",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2606/16/news020.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-06-15T22:00:00",
-          "excerpt": "Microsoftが2026年6月の月例セキュリティ更新プログラムを公開した。WindowsやOffice、Azureなど広範囲な製品が対象で、悪用確認済みのゼロデイ脆弱性などが修正された。同社は早急な適用を呼びかけている。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。Microsoftが2026年6月の月例セキュリティ更新プログラムを公開した。WindowsやOffice、Azureなど広範囲な製品が対象で、悪用確認済みのゼロデイ脆弱性などが修正された。同社は早急な適用を呼びかけている。",
+      "summary": "データ分析の新着が2件。Microsoftが2026年6月の月例セキュリティ更新プログラムを公開した。WindowsやOffice、Azureなど広範囲な製品が対象で、悪用確認済みのゼロデイ脆弱性などが修正された。同社は早急な適用を呼びかけている。",
       "articles": [
         {
           "title": "Microsoftが6月の月例パッチを公開　BitLockerやExchangeにゼロデイ脆弱性",
@@ -127,28 +127,21 @@
           "source": "TechCrunch（英語）",
           "published": "2026-06-15T04:01:00",
           "excerpt": "Orbio は、Dawn Capital 主導のシリーズ A ラウンドで 2,100 万ドルを発表しました。"
-        },
-        {
-          "title": "Iceberg × Glue Data Catalogのスキーマ変更履歴をaws glue get-table-versionsで確認する",
-          "link": "https://zenn.dev/penginpenguin/articles/2c0509ffa42d46",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-14T23:58:10",
-          "excerpt": "はじめに AWS Community Builderのぺんぎん（@jitepengin）です。最近、AWSでApache Icebergを使ったレイクハウスを構築することも増えてきたと思います。…"
-        },
-        {
-          "title": "【アップデート】Cloud Billingでマルチプロジェクトアクセス（Multi-project access to cost views）がPreviewでリリースされました",
-          "link": "https://dev.classmethod.jp/articles/cloud-billing-multi-project-access-to-cost-views-preview/",
-          "source": "DevelopersIO",
-          "published": "2026-06-14T23:47:44",
-          "excerpt": "【アップデート】Cloud Billingでマルチプロジェクトアクセス（Multi-project access to cost views）がPreviewでリリースされました"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が3件。GitHub Copilot code review、組織的な設定と排除機能を強化",
+      "summary": "開発ツールの新着が4件。macOS の Colima で AWS CDK の Python Lambda レイヤーをバンドリングする際に遭遇した権限エラーと出力検証エラーについて、その原因と解決方法を紹介します。",
       "articles": [
+        {
+          "title": "Colima + sshfs 環境で AWS CDK の Python レイヤーバンドリングが失敗する2つの原因と virtiofs での解決策",
+          "link": "https://dev.classmethod.jp/articles/colima-virtiofs-cdk-python-layer-bundling/",
+          "source": "DevelopersIO",
+          "published": "2026-06-15T23:52:01",
+          "excerpt": "macOS の Colima で AWS CDK の Python Lambda レイヤーをバンドリングする際に遭遇した権限エラーと出力検証エラーについて、その原因と解決方法を紹介します。"
+        },
         {
           "title": "GitHub Copilot code review、組織的な設定と排除機能を強化",
           "link": "https://codezine.jp/article/detail/24546",
@@ -175,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Amazon Quick の Cost Explorer 料金明細を使用タイプごとに確認して、どの機能がどう課金されるのか整理してみた",
-      "link": "https://dev.classmethod.jp/articles/amazon-quick-pricing-202606/",
-      "source": "DevelopersIO",
-      "published": "2026-06-15T22:04:11",
-      "excerpt": "Amazon Quick の Cost Explorer 料金明細を使用タイプごとに確認して、どの機能がどう課金されるのか整理してみた"
+      "title": "文系26卒の新入社員研修振り返り",
+      "link": "https://qiita.com/yuna_i/items/6405e2ade0081b49c5bd",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-16T00:07:56",
+      "excerpt": "はじめに 私は今年の4月に入社し、IT業界への第一歩を踏み出しました。大学ではメディア系の学科に所属していましたが、プログラミング経験やITに関するスキルはほとんどありません。…"
     },
     {
-      "title": "【50％オフ】夏の超ビッグセールで技術書がKindleで50％オフ！ 翔泳社の本を対象に7/13まで",
-      "link": "https://codezine.jp/article/detail/24451",
-      "source": "CodeZine",
-      "published": "2026-06-15T22:00:00",
-      "excerpt": "【50％オフ】夏の超ビッグセールで技術書がKindleで50％オフ！ 翔泳社の本を対象に7/13まで"
+      "title": "スタンフォード大学の卒業式でサンダー・ピチャイ氏、GoogleのイスラエルとICEの提携を巡りブーイングとストライキに直面",
+      "link": "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-15T23:51:44",
+      "excerpt": "AI は再び大学卒業抗議活動の中心となっている。今回は Google の防衛契約における AI の使用に対するものである。"
     },
     {
-      "title": "実はものすごく難しいデジタル社会の「本人確認」　パスキーとマイナンバーカードの狙いは？",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2606/16/news028.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-06-15T22:00:00",
-      "excerpt": "現実だけでなく、インターネットの世界でも「本人確認」が難しくなっています。従来はパスワードによる本人確認が主流でしたが、現在はどうでしょうか。これまでの対策が変化した原因と、最新の本人確認手法を解説します。"
+      "title": "欧州の商業宇宙企業の重要な使命が再び白紙に",
+      "link": "https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-06-15T23:40:38",
+      "excerpt": "イザール・エアロスペース社は資金的には困らないが、飛行経験という価値が著しく欠けている。"
     },
     {
-      "title": "私がまったく知らない人にメールを送信する理由",
-      "link": "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-15T21:57:10",
-      "excerpt": "記事の URL: https://www.goodinternetmagazine.com/why-i-email-complete-strangers/ コメント URL: https://news.ycombinator.…"
+      "title": "控えめな提案: すべてを再フォーマットして、AI にとってより使いやすい文書にする",
+      "link": "https://www.theregister.com/ai-and-ml/2026/06/16/a-modest-proposal-reformat-everything-to-make-documents-more-palatable-to-ai/5255938",
+      "source": "The Register（英語）",
+      "published": "2026-06-15T23:23:21",
+      "excerpt": "どうしたの、ドクラン？"
     }
   ]
 }
