@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-06-16T10:52:15",
+  "generated_at": "2026-06-16T15:48:36",
   "window_hours": 24,
-  "total": 208,
+  "total": 211,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。チャットボットは依然として世界中で最も人気のある AI アシスタントであり、月間ユーザー数は 11 億人を超え、次いでジェミニが 6 億 6,200 万人、クロードが 2 億 4,500 万人となっています。",
+      "summary": "生成AIの新着が35件。GitLabは6月10日にロンドンで開催したイベント「GitLab Transcend」で、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」を発表しました。GitLabやGitHubが提供する.…",
       "articles": [
         {
-          "title": "ChatGPTの市場シェアが初めて50%を下回る",
-          "link": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-06-16T10:30:00",
-          "excerpt": "チャットボットは依然として世界中で最も人気のある AI アシスタントであり、月間ユーザー数は 11 億人を超え、次いでジェミニが 6 億 6,200 万人、クロードが 2 億 4,500 万人となっています。"
+          "title": "GitLab、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」発表。最大で50倍高速かつ半分のトークンで利用可能に",
+          "link": "https://www.publickey1.jp/blog/26/gitlabaigitproject_switch50.html",
+          "source": "Publickey",
+          "published": "2026-06-16T18:05:15",
+          "excerpt": "GitLabは6月10日にロンドンで開催したイベント「GitLab Transcend」で、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」を発表しました。GitLabやGitHubが提供する.…"
         },
         {
-          "title": "Amazon BedrockでxAIのGrok 4.3が利用可能になったのでIAM認証で試してみた",
-          "link": "https://dev.classmethod.jp/articles/grok-4-3-amazon-bedrock-mantle-iam/",
-          "source": "DevelopersIO",
-          "published": "2026-06-16T09:35:12",
-          "excerpt": "xAIのGrok 4.3がAmazon Bedrockで利用可能になりました。…"
-        },
-        {
-          "title": "SBGとOpenAI、AIで脆弱性診断「Patching as a Service」提供　まずは日本の重要インフラ向けに",
-          "link": "https://www.itmedia.co.jp/news/articles/2606/16/news115.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-06-16T09:05:00",
-          "excerpt": "ソフトバンクグループと米OpenAIは6月16日、OpenAIのAI技術を活用して企業の脆弱性診断から修復方針の策定、実装の提案までを支援する法人向けサイバーセキュリティ対策ソリューション「Patching as a Service」の提供…"
-        },
-        {
-          "title": "AWS Security Agentのペネトレーションテストとデザインレビューを検証する",
-          "link": "https://qiita.com/infra365/items/416f162fb3e0e231b961",
+          "title": "Bedrock Knowledge Base (S3 Vectors vs Neptune Analytics) の比較",
+          "link": "https://qiita.com/mksamba/items/e52e12a7ca12b852798d",
           "source": "Qiita AWSタグ",
-          "published": "2026-06-16T08:56:30",
-          "excerpt": "概要 AWS Security Agentは、開発ライフサイクル全体を通じてアプリケーションのセキュリティを強化するためのサービスです。…"
+          "published": "2026-06-16T13:45:45",
+          "excerpt": "1.…"
+        },
+        {
+          "title": "AWS パートナーセントラルのエージェントは、すべての取引で共同販売を加速するようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/accelerate-co-selling-with-agents/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-06-16T13:00:00",
+          "excerpt": "本日より、AWS Partner Central エージェントは、あらゆる共同販売の機会をリアルタイムで評価し、AWS のエンゲージメントを促進し、取引の進行を加速する推奨事項を提示します。…"
+        },
+        {
+          "title": "「Claude Code Meetup Japan #6」にて「Claude Code の Sandbox機能を Anthropic Sandbox Runtime (srt) で試そう！」というテーマで登壇しました！ #ClaudeCodeMeetup",
+          "link": "https://dev.classmethod.jp/articles/lets-play-anthropic-sandbox-runtime/",
+          "source": "DevelopersIO",
+          "published": "2026-06-16T12:00:31",
+          "excerpt": "「Claude Code Meetup Japan #6」にて「Claude Code の Sandbox機能を Anthropic Sandbox Runtime (srt) で試そう！」というテーマで登壇しました！…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が26件。S3バケット間コピー4手法の速度比較：PutObject vs CopyObject vs AWS CLI vs S3 Batch Operations 対象読者 S3バケット間の大量ファイルコピーについて実測値に興味がある S3 Batc…",
+      "summary": "クラウドの新着が29件。AWS Lambda Response Streaming で「待たせない」レスポンスを作る Qiita 投稿用ドラフト ｜ ポートフォリオ / スキル知識まとめ タグ: AWS, AWSLambda, サーバーレス, Serverless…",
       "articles": [
         {
-          "title": "10数万件のS3コピーに何分かかる？4手法で計測した",
-          "link": "https://qiita.com/shrimpTail/items/68191d614d745488fbcc",
+          "title": "AWS Lambda Response Streaming で「待たせない」レスポンスを作る 〜 Function URL × ffmpeg ストリーミングプロキシ実装",
+          "link": "https://qiita.com/ujunja/items/096962ed4a8f694707d5",
           "source": "Qiita AWSタグ",
-          "published": "2026-06-16T10:42:18",
-          "excerpt": "S3バケット間コピー4手法の速度比較：PutObject vs CopyObject vs AWS CLI vs S3 Batch Operations 対象読者 S3バケット間の大量ファイルコピーについて実測値に興味がある S3 Batc…"
+          "published": "2026-06-16T14:35:19",
+          "excerpt": "AWS Lambda Response Streaming で「待たせない」レスポンスを作る Qiita 投稿用ドラフト ｜ ポートフォリオ / スキル知識まとめ タグ: AWS, AWSLambda, サーバーレス, Serverless…"
         },
         {
-          "title": "SBGとOpenAI、AIで脆弱性診断「Patching as a Service」提供　まずは日本の重要インフラ向けに",
-          "link": "https://www.itmedia.co.jp/news/articles/2606/16/news115.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-06-16T09:05:00",
-          "excerpt": "ソフトバンクグループと米OpenAIは6月16日、OpenAIのAI技術を活用して企業の脆弱性診断から修復方針の策定、実装の提案までを支援する法人向けサイバーセキュリティ対策ソリューション「Patching as a Service」の提供…"
+          "title": "次世代インフラストラクチャによって高度な機能を実現する Amazon Cognito",
+          "link": "https://aws.amazon.com/jp/blogs/news/amazon-cognito-unlocks-advanced-capabilities-with-next-generation-infrastructure/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-06-16T13:51:58",
+          "excerpt": "本ブログは 2026 年 6 月 4 日に公開された Blog “Amazon Cognito u […]"
         },
         {
-          "title": "オンプレミス環境からEntra-Only IDでAzure Filesを利用してみる | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/2026/06/16/180000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-16T09:00:00",
-          "excerpt": "はじめに こんにちは、エーピーコミュニケーションズ ACS事業部の内田です。先日、「Entra-Only IDでAVDのProfile Containerを構成する」という内容の記事を書きました。techblog.ap-com.co.…"
+          "title": "Bedrock Knowledge Base (S3 Vectors vs Neptune Analytics) の比較",
+          "link": "https://qiita.com/mksamba/items/e52e12a7ca12b852798d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-16T13:45:45",
+          "excerpt": "1.…"
         },
         {
-          "title": "RDS のDBパスワードに「自動で鍵を掛け替える」仕組みを入れた話 — フルマネージドローテーション実践と落とし穴",
-          "link": "https://zenn.dev/justinji_metal/articles/7fb026d39d30ff",
+          "title": "ECS の外部イメージ依存をやめた話",
+          "link": "https://zenn.dev/azunyan/articles/0dfab949e3dffa",
           "source": "Zenn AWSトピック",
-          "published": "2026-06-16T07:37:46",
-          "excerpt": "背景 PCI-DSS 8.6.3(DB 認証情報は 12 か月以内にローテーション必須)に対応するため、ずっと誰も触っていなかった箇所に目をつけました。RDS の master パスワードです。…"
+          "published": "2026-06-16T12:27:41",
+          "excerpt": "はじめに 🌱 以前、EC2 上の WordPress を ECS に移行した話 という記事を書きました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。こんにちは、SCSKの山田です。連日のように報道されるランサムウェア被害。多くの企業が多層防御を固める一方で、攻撃の質もかつてとは比較にならないほど高度化しています。私たちSCSKは、数多くのITインフラを支える立場 […]…",
+      "summary": "セキュリティの新着が17件。SearchLeak のエクスプロイトは、LLM セキュリティに対する業界のアプローチが何度も失敗する理由を示しています。",
       "articles": [
+        {
+          "title": "Copilot の重大な脆弱性により、ハッカーが 2FA コードをユーザーから封印できるようになりました",
+          "link": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-06-16T11:15:46",
+          "excerpt": "SearchLeak のエクスプロイトは、LLM セキュリティに対する業界のアプローチが何度も失敗する理由を示しています。"
+        },
         {
           "title": "【SCSK徹底解説】「バックアップがあるから安心」はもう古い。ランサムウェア時代に「Rubrik」が実現する「絶対に消せない」バックアップの新常識。 | TechHarmony",
           "link": "https://blog.usize-tech.com/rubrik-ransomware-prevention/",
@@ -99,13 +106,6 @@
           "source": "ITmedia NEWS",
           "published": "2026-06-16T09:05:00",
           "excerpt": "ソフトバンクグループと米OpenAIは6月16日、OpenAIのAI技術を活用して企業の脆弱性診断から修復方針の策定、実装の提案までを支援する法人向けサイバーセキュリティ対策ソリューション「Patching as a Service」の提供…"
-        },
-        {
-          "title": "AWS Security Agentのペネトレーションテストとデザインレビューを検証する",
-          "link": "https://qiita.com/infra365/items/416f162fb3e0e231b961",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-16T08:56:30",
-          "excerpt": "概要 AWS Security Agentは、開発ライフサイクル全体を通じてアプリケーションのセキュリティを強化するためのサービスです。…"
         }
       ]
     },
@@ -140,67 +140,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。GitHub Copilot CLI のローカルサンドボックスを試してみた",
+      "summary": "開発ツールの新着が9件。GitLabは6月10日にロンドンで開催したイベント「GitLab Transcend」で、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」を発表しました。GitLabやGitHubが提供する.…",
       "articles": [
+        {
+          "title": "GitLab、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」発表。最大で50倍高速かつ半分のトークンで利用可能に",
+          "link": "https://www.publickey1.jp/blog/26/gitlabaigitproject_switch50.html",
+          "source": "Publickey",
+          "published": "2026-06-16T18:05:15",
+          "excerpt": "GitLabは6月10日にロンドンで開催したイベント「GitLab Transcend」で、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」を発表しました。GitLabやGitHubが提供する.…"
+        },
+        {
+          "title": "CloudFormationで必要な時だけRegional NAT Gatewayを作成する",
+          "link": "https://qiita.com/nanagi512/items/fa60b3df6ecce9bd48d8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-16T14:39:05",
+          "excerpt": "AWSでプライベートサブネットを利用していると、 OSアップデート パッケージインストール 外部リポジトリアクセス 一時的なインターネット通信 などのためにNAT Gatewayが必要になることがあります。…"
+        },
+        {
+          "title": "AWS / Azure / GCP 横断で考えるIaCスタック管理のベストプラクティス",
+          "link": "https://qiita.com/similarmetal/items/c7b8e77bf13cd71342df",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-16T13:26:50",
+          "excerpt": "IaC で「何を1つのスタック（＝デプロイ / state の単位）に閉じ込めるか」は、ツールが変わっても通用する設計判断です。…"
+        },
         {
           "title": "GitHub Copilot CLI のローカルサンドボックスを試してみた",
           "link": "https://dev.classmethod.jp/articles/shoma-trying-github-copilot-cli-local-sandbox/",
           "source": "DevelopersIO",
           "published": "2026-06-16T10:00:48",
           "excerpt": "GitHub Copilot CLI のローカルサンドボックスを試してみた"
-        },
-        {
-          "title": "祝・waitlist廃止！GitHub Copilot app クイックスタート ～VS Code + GitHub Copilot ユーザーの視点を添えて～ | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/2026/06/16/180000_1",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-16T09:00:00",
-          "excerpt": "はじめに GitHub Copilotの提供形態を整理する GitHub Copilot appの概要 インストールとアカウント認証 動作要件 手順 主要機能の紹介 Sessions：エージェントセッションの操作 セッションを開始する Qu…"
-        },
-        {
-          "title": "GitLab、企業でのエージェント活用を支援する4つの新機能を発表",
-          "link": "https://codezine.jp/article/detail/24554",
-          "source": "CodeZine",
-          "published": "2026-06-16T02:30:00",
-          "excerpt": "GitLab、企業でのエージェント活用を支援する4つの新機能を発表"
-        },
-        {
-          "title": "AWS / Azure / GCP 横断で考えるIaCスタック管理のベストプラクティス",
-          "link": "https://zenn.dev/similarmetal/articles/688a81e9ec4b68",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-16T02:27:05",
-          "excerpt": "IaC で「何を1つのスタック（＝デプロイ / state の単位）に閉じ込めるか」は、ツールが変わっても通用する設計判断です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS SAA 合格体験記",
-      "link": "https://qiita.com/Yhanda_Engineer/items/1a4d13ca160980b45a34",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-16T10:32:04",
-      "excerpt": "はじめに 新人SREエンジニアの AWS SAA（Solutions Architect Associate）合格体験記 です。実際に受験したリアルな感想を、これから受ける人向けにまとめていきます。…"
+      "title": "決済スタートアップの Flutterwave がリップルの支援を受けて評価額 32 億ドルに達する",
+      "link": "https://techcrunch.com/2026/06/16/payments-startup-flutterwave-hits-3-2b-valuation-backed-by-ripple/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-16T15:35:39",
+      "excerpt": "アフリカの決済インフラ企業フラッターウェーブは新たな評価額を打ち出し、ブロックチェーン企業リップルを投資家兼パートナーとして迎え入れた。"
     },
     {
-      "title": "キャピタは公務員年金制度修正の期限を過ぎて航行しようとしている",
-      "link": "https://www.theregister.com/public-sector/2026/06/16/capita-is-about-to-sail-past-deadline-to-fix-civil-service-pensions-scheme/5256022",
-      "source": "The Register（英語）",
-      "published": "2026-06-16T10:22:51",
-      "excerpt": "組合は、ポータルのメルトダウンと苦情の増加を受けて、アウトソーシング会社は6月30日の目標を達成できないと発表"
+      "title": "CJEU: ソーシャルネットワークはアルゴリズムによって変更されたフィードの「発行者」である",
+      "link": "https://bsky.app/profile/stevepeers.bsky.social/post/3mofdspytds2l",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-16T15:30:26",
+      "excerpt": "記事の URL: https://bsky.app/profile/stevepeers.bsky.social/post/3mofdspytds2l コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "アルマトイで開催される ZTE Day 2026 では、カザフスタンのインテリジェントテレコムの未来を形作るイノベーションを紹介",
-      "link": "https://www.theregister.com/networks/2026/06/16/zte-day-2026-in-almaty-showcases-innovations-shaping-kazakhstans-intelligent-telecom-future/5256016",
-      "source": "The Register（英語）",
-      "published": "2026-06-16T10:18:45",
-      "excerpt": "パートナーコンテンツ: 次世代の接続性とスーパーコンピューティングソリューションでカザフスタンの「デジタル化とAIの年」を強化"
+      "title": "Nami開発日記 #01 - アウトプットが続く世界は「仕組み」で作れるか？BOTで検証してみる",
+      "link": "https://zenn.dev/ogazon/articles/001-nami-dev",
+      "source": "Zenn AWSトピック",
+      "published": "2026-06-16T15:18:36",
+      "excerpt": "はじめに 記事を書いていると、たまーにこう思うことがあります。「これ、誰かの役に立ったのかな？」 ページビューは見えても、誰に届いたか・どこが良かったかは見えづらい。いいねが0でも100人に読まれてるかもしれないし、1人かもしれない。…"
     },
     {
-      "title": "出力結果を読み込むのがしんどい…そんな時はhtmlを活用してみよう",
-      "link": "https://dev.classmethod.jp/articles/Claude_markdown_html/",
-      "source": "DevelopersIO",
-      "published": "2026-06-16T10:12:09",
-      "excerpt": "出力結果を読み込むのがしんどい…そんな時はhtmlを活用してみよう"
+      "title": "Google Chromeの次のアップデートで人気の広告ブロッカーが廃止される",
+      "link": "https://tech.slashdot.org/story/26/06/15/205219/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-16T15:05:09",
+      "excerpt": "記事の URL: https://tech.slashdot.…"
     }
   ]
 }
