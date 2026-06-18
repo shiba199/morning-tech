@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-18T16:21:36",
+  "generated_at": "2026-06-18T18:39:53",
   "window_hours": 24,
-  "total": 215,
+  "total": 208,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。記事の URL: https://llm-wiki.net/ コメント URL: https://news.ycombinator.com/item?id=48586811 ポイント: 12 コメント数: 3",
+      "summary": "生成AIの新着が34件。記事の URL: https://llm-wiki.net/ コメント URL: https://news.ycombinator.com/item?id=48586811 ポイント: 12 コメント数: 3",
       "articles": [
         {
           "title": "Show HN: LLM を使用したコーディング ハーネスのパフォーマンスが 10 倍向上 - wiki",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。AKS はじめに Kubernetesのネットワークってどう違うの？…",
+      "summary": "クラウドの新着が16件。記事の URL: https://rednafi.com/misc/chezmoi/ コメント URL: https://news.ycombinator.com/item?id=48588413 ポイント: 20 コメント数: 15",
       "articles": [
+        {
+          "title": "GNU Stow から Chezmoi への移行",
+          "link": "https://rednafi.com/misc/chezmoi/",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-18T17:09:53",
+          "excerpt": "記事の URL: https://rednafi.com/misc/chezmoi/ コメント URL: https://news.ycombinator.com/item?id=48588413 ポイント: 20 コメント数: 15"
+        },
         {
           "title": "VMとロードバランサを使ってたインフラ系エンジニアが、AKSのネットワークに入門したら | APC 技術ブログ",
           "link": "https://techblog.ap-com.co.jp/entry/2026/06/18/180000",
@@ -64,20 +71,13 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-06-18T07:24:36",
           "excerpt": "2026 年 6 月 16 日、Amazon Simple Storage Service (Amazon S […]"
-        },
-        {
-          "title": "EKSアップグレードを「型化」する",
-          "link": "https://zenn.dev/coconala/articles/efficient-eks-upgrade",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-18T06:54:23",
-          "excerpt": "Amazon EKS（Elastic Kubernetes Service）を運用していると、避けて通ることができないことが定期的なバージョンアップです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が19件。2026年にGoogle Workspaceへ追加されたDBSC（GA/既定有効）、AI control center、Workspace MCPサーバ、監査ログ拡張、Calendar向けDLP、iOS MDM強化を一次情報で整理。…",
+      "summary": "セキュリティの新着が18件。2026年にGoogle Workspaceへ追加されたDBSC（GA/既定有効）、AI control center、Workspace MCPサーバ、監査ログ拡張、Calendar向けDLP、iOS MDM強化を一次情報で整理。…",
       "articles": [
         {
           "title": "Google Workspace 2026年下期セキュリティ設定見直しガイド｜DBSC・AI control center・監査ログ拡張を「管理コンソールの棚卸し」に落とす | CloudNative BLOGs",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。GitHub CLI 2.94.0でIssue types、sub-issues、依存関係がCLIから扱えるようになりました。チーム運用や自動化をさらに効率化できるこのアップデートについて、実際の使い方と活用シーンを整理します。",
+      "summary": "開発ツールの新着が16件。GitHub CLI 2.94.0でIssue types、sub-issues、依存関係がCLIから扱えるようになりました。チーム運用や自動化をさらに効率化できるこのアップデートについて、実際の使い方と活用シーンを整理します。",
       "articles": [
         {
           "title": "GitHub CLI 2.94.0でgh issueコマンドからIssue typeやsub-issues,依存関係などが扱えるようになりました",
@@ -171,43 +171,43 @@
           "excerpt": "はじめに AWS CDK の TypeScript プロジェクトを作るとき、npm install -g aws-cdk はしたくありませんでした。グローバル環境に何が入ったのかわからなくなるのを避けたかったためです。…"
         },
         {
-          "title": "【AWS】Managed Knowledge BasesでチャンクサイズをCLIで指定する",
-          "link": "https://qiita.com/kikuziro/items/f5a9743b14f83431580f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-18T12:24:12",
-          "excerpt": "TL;DR（先に結論） マネージドナレッジベース（type: MANAGED）をマネジメントコンソールで作ると、チャンクは「固定サイズ 300トークン / 20%オーバーラップ」となり変更できない AWS CLI から作り直すと、FIXED…"
+          "title": "TerraformからAWSへの権限の渡し方を整理して実際の構築してみた件",
+          "link": "https://zenn.dev/takuta_shiro/articles/aws-terraform-auth-methods",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-18T13:16:22",
+          "excerpt": "TerraformからAWSへの権限の渡し方を整理と手順公開 どうも、拓田です。TerraformでAWSを操作する際、「どうやってAWSに認証するか」の方法が複数あってわかりにくかったので整理しました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Apple、ブラジルで新たな競争相手にApp Storeを開放",
-      "link": "https://techcrunch.com/2026/06/18/apple-opens-up-app-store-to-new-competition-in-brazil/",
+      "title": "AmazonはAIチップを販売することでNvidiaにもっと直接的に挑戦したいと考えている",
+      "link": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
       "source": "TechCrunch（英語）",
-      "published": "2026-06-18T15:48:08",
-      "excerpt": "iPhoneアプリ配布に対するAppleの支配力は、もう一つの主要市場であるブラジルでも緩みつつある。"
+      "published": "2026-06-18T18:22:13",
+      "excerpt": "AWSは自社のチップを他のデータセンターに販売する交渉を行っている。CEOのアンディ・ジャシー氏は、これは同社にとって500億ドルのチャンスとなると述べた。…"
     },
     {
-      "title": "毎日の地理ゲーム、MapTap が私の新しい Wordle です",
-      "link": "https://techcrunch.com/2026/06/18/maptap-a-daily-geography-game-is-my-new-wordle/",
+      "title": "リビアンのオーナー、自動運転機能に関する虚偽約束で訴訟を起こす",
+      "link": "https://techcrunch.com/2026/06/18/rivian-owners-sue-over-false-promises-on-self-driving-features/",
       "source": "TechCrunch（英語）",
-      "published": "2026-06-18T15:47:39",
-      "excerpt": "MapTap は、プレイすると賢くなった気分になれる電話ゲームです。"
+      "published": "2026-06-18T18:00:33",
+      "excerpt": "集団訴訟の原告らは、リビアンが第一世代のR1車両にハンズフリー運転を導入すると長年にわたり虚偽の約束をしていたと主張している。"
     },
     {
-      "title": "NASAのペイロードがロケット業界から商用火星探査機に搭載され、まだ軌道に到達していない",
-      "link": "https://www.theregister.com/science/2026/06/18/nasa-payload-to-ride-commercial-mars-orbiter-from-rocket-biz-yet-to-reach-orbit/5258341",
-      "source": "The Register（英語）",
-      "published": "2026-06-18T15:25:15",
-      "excerpt": "Relativity Space が Terran R を軌道に乗せることができると仮定すると、Aeolus ミッションはより優れた火星の気象モデルを約束します"
+      "title": "Mivo の新しいアプリは、利用時間の管理に配慮したアプローチを採用しています",
+      "link": "https://techcrunch.com/2026/06/18/mivos-new-app-takes-a-mindful-approach-to-managing-screen-time/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-18T18:00:00",
+      "excerpt": "ソーシャルメディアでのドゥームスクロールは非常に一般的な問題であり、常に時間を忘れる無限ループのように感じることがあります。…"
     },
     {
-      "title": "ZTE と広東省中国電信がクロスベンダー IP ネットワーク シミュレーションのパイロットを推進し、インテリジェントなネットワーク運用への道を開く",
-      "link": "https://www.theregister.com/networks/2026/06/18/zte-and-china-telecom-guangdong-advance-crossvendor-ip-network-simulation-pilots-paving-the-way-for-intelligent-network-operations/5258361",
-      "source": "The Register（英語）",
-      "published": "2026-06-18T15:21:55",
-      "excerpt": "パートナーコンテンツ: 95% を超えるデジタルツインの忠実度およびマルチベンダーのコラボレーションを活用して、ネットワーク変更のリスクを排除し、エラーゼロの O&M を達成します。"
+      "title": "AI データセンターに政府が義務付けたグリッドへの高速レーンが設置されたばかり",
+      "link": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-18T17:49:23",
+      "excerpt": "FERCは送電網事業者に対し、データセンターに相互接続用の高速レーンを提供するよう指示したが、電力供給不足には対処できなかった。"
     }
   ]
 }
