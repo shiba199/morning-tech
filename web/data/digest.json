@@ -1,119 +1,133 @@
 {
-  "generated_at": "2026-06-18T05:11:52",
+  "generated_at": "2026-06-18T09:50:38",
   "window_hours": 24,
-  "total": 222,
+  "total": 225,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が48件。Google、MicrosoftなどAIエージェントに関連する複数のベンダーは2026年6月17日、AIエージェントが利用するMCPサーバー、エージェントスキル、ACP、APIなどのリソースを公開、検索、検証するためのオープンな仕様「Age…",
+      "summary": "生成AIの新着が46件。Amazon SageMaker Studio で Training Plan による GPU キャパシティ予約が使えるようになりました",
       "articles": [
         {
-          "title": "エージェントリソース検索のためのオープンな標準仕様「Agentic Resource Discovery」発表",
-          "link": "https://gihyo.jp/article/2026/06/agentic-resource-discovery?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-06-18T03:57:00",
-          "excerpt": "Google、MicrosoftなどAIエージェントに関連する複数のベンダーは2026年6月17日、AIエージェントが利用するMCPサーバー、エージェントスキル、ACP、APIなどのリソースを公開、検索、検証するためのオープンな仕様「Age…"
-        },
-        {
-          "title": "インフラ担当者がAWS Security AgentのCDKコードレビューを試してみた",
-          "link": "https://qiita.com/shimitaro/items/48b20dfdf797376978cf",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-18T03:11:59",
-          "excerpt": "はじめに 2026年3月31日、AWS Security Agent のペネトレーションテスト機能が GA になりました（設計レビュー・コードレビューはプレビュー）。「セキュリティの自動化」と聞くと、アプリ開発チームの話に聞こえがちです。…"
-        },
-        {
-          "title": "Agent Toolkit for AWSにSecret Safety Skillが追加、シークレットがどう安全に扱えるか確かめてみた",
-          "link": "https://dev.classmethod.jp/articles/agent-toolkit-aws-secret-safety-skill/",
+          "title": "Amazon SageMaker Studio で Training Plan による GPU キャパシティ予約が使えるようになりました",
+          "link": "https://dev.classmethod.jp/articles/amazon-sagemaker-studio-training-plan-gpu-capacity-reservation/",
           "source": "DevelopersIO",
-          "published": "2026-06-18T03:03:52",
-          "excerpt": "Agent Toolkit for AWSのaws-coreプラグインに追加されたsecret safety skillをClaude Codeで試しました。…"
+          "published": "2026-06-18T09:32:59",
+          "excerpt": "Amazon SageMaker Studio で Training Plan による GPU キャパシティ予約が使えるようになりました"
         },
         {
-          "title": "これまでにないソフトウェアの構築: Agentic AI と Kiro",
-          "link": "https://dev.classmethod.jp/articles/aws-summit-building-software-agentic-ai-kiro-2026-th/",
+          "title": "[アップデート] AWS Security Agent に脅威モデリング機能が追加され、設計ドキュメントやソースコードから STRIDE ベースの脅威分析を自動生成できるようになりました",
+          "link": "https://dev.classmethod.jp/articles/aws-security-agent-threat-modeling/",
           "source": "DevelopersIO",
-          "published": "2026-06-18T02:49:39",
-          "excerpt": "AWS Summit バンコク ที่แนะนำ Kiro — Agentic AI IDE サポートAWS ที่ชูแนวคิด 仕様駆動開発 พร้อมฟีเจอร์ エージェントフック、ステアリングファイル、プロパティベースのテスト…"
+          "published": "2026-06-18T08:15:06",
+          "excerpt": "[アップデート] AWS Security Agent に脅威モデリング機能が追加され、設計ドキュメントやソースコードから STRIDE ベースの脅威分析を自動生成できるようになりました"
+        },
+        {
+          "title": "Microsoft公式の論文「エージェントAI時代のプラットフォームエンジニアリング」を解説する | APC 技術ブログ",
+          "link": "https://techblog.ap-com.co.jp/entry/2026/06/18/170000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-18T08:00:00",
+          "excerpt": "Agentic AIがもたらすインフラ構築プロセスの激変 今後は常に最新バージョンのAPIをエージェントが直接読み込む IaCは「抽象化の道具」から「単なる出力フォーマット」へ格下げされる 変更の記録としてのIaC パイプラインやツール操作…"
+        },
+        {
+          "title": "LegalOn Technologiesで7ヶ月インターンした話 — 読み順が崩れる官報PDFをLLMで構造化した | LegalOn Technologies Engineering Blog",
+          "link": "https://tech.legalforce.co.jp/entry/structuring-kanpo-pdf-with-llm",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-18T07:53:42",
+          "excerpt": "はじめに LegalOn Technologiesで2025年12月から2026年6月までの約7ヶ月間、SWE（Software Engineer）としてインターンをしていた tsukune です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。はじめに S3 にファイルを配置する Web アプリを運用していて、「特定ユーザーが大量に置いたファイルを S3 から直接消したい」という場面に遭遇しました。…",
+      "summary": "クラウドの新着が19件。Cloud Run と AWS Fargate を比較する（コンテナ実行基盤編） GCP×AWS 比較シリーズ第5弾。…",
       "articles": [
+        {
+          "title": "サーバーレスコンピューティングの比較",
+          "link": "https://qiita.com/hikaru0506/items/aa08059bdcc7497eeb8c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-18T08:54:58",
+          "excerpt": "Cloud Run と AWS Fargate を比較する（コンテナ実行基盤編） GCP×AWS 比較シリーズ第5弾。…"
+        },
+        {
+          "title": "Amazon S3 アノテーション: クエリ可能かつリッチなコンテキストをオブジェクトに直接アタッチ",
+          "link": "https://aws.amazon.com/jp/blogs/news/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-06-18T07:24:36",
+          "excerpt": "2026 年 6 月 16 日、Amazon Simple Storage Service (Amazon S […]"
+        },
+        {
+          "title": "EKSアップグレードを「型化」する",
+          "link": "https://zenn.dev/coconala/articles/efficient-eks-upgrade",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-18T06:54:23",
+          "excerpt": "Amazon EKS（Elastic Kubernetes Service）を運用していると、避けて通ることができないことが定期的なバージョンアップです。…"
+        },
         {
           "title": "S3で大量ファイルを削除する前に知っておきたいスロットリング（503 Slow Down）の話",
           "link": "https://qiita.com/shun123/items/adbecbf4f380ccd79fa1",
           "source": "Qiita AWSタグ",
           "published": "2026-06-18T04:41:41",
           "excerpt": "はじめに S3 にファイルを配置する Web アプリを運用していて、「特定ユーザーが大量に置いたファイルを S3 から直接消したい」という場面に遭遇しました。…"
-        },
-        {
-          "title": "RubyKaigi 2026 — Falcon への移行で発生した問題を調査してみた | Techouse Developers Blog",
-          "link": "https://developers.techouse.com/entry/RubyKaigi-2026-ioquatix-day2",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-18T03:59:21",
-          "excerpt": "本記事では、RubyKaigi 2026 2日目の発表 Surviving Black Friday: 329 billion requests with Falcon!の内容を深掘りします。…"
-        },
-        {
-          "title": "インフラ担当者がAWS Security AgentのCDKコードレビューを試してみた",
-          "link": "https://qiita.com/shimitaro/items/48b20dfdf797376978cf",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-18T03:11:59",
-          "excerpt": "はじめに 2026年3月31日、AWS Security Agent のペネトレーションテスト機能が GA になりました（設計レビュー・コードレビューはプレビュー）。「セキュリティの自動化」と聞くと、アプリ開発チームの話に聞こえがちです。…"
-        },
-        {
-          "title": "Amazon S3、豊富なメタデータをアノテーションする新機能を提供開始",
-          "link": "https://codezine.jp/article/detail/24590",
-          "source": "CodeZine",
-          "published": "2026-06-18T02:30:00",
-          "excerpt": "Amazon S3、豊富なメタデータをアノテーションする新機能を提供開始"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。はじめに 2026年3月31日、AWS Security Agent のペネトレーションテスト機能が GA になりました（設計レビュー・コードレビューはプレビュー）。「セキュリティの自動化」と聞くと、アプリ開発チームの話に聞こえがちです。…",
+      "summary": "セキュリティの新着が19件。スキャナーは現在、Cloudflare社のAPI Shield顧客向けにオープンベータとして利用可能である。結果は、既存のポスチャーの検出結果と並んで、Cloudflare社のSecurity Insightsダッシュボードに表示される。…",
       "articles": [
         {
-          "title": "インフラ担当者がAWS Security AgentのCDKコードレビューを試してみた",
-          "link": "https://qiita.com/shimitaro/items/48b20dfdf797376978cf",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-18T03:11:59",
-          "excerpt": "はじめに 2026年3月31日、AWS Security Agent のペネトレーションテスト機能が GA になりました（設計レビュー・コードレビューはプレビュー）。「セキュリティの自動化」と聞くと、アプリ開発チームの話に聞こえがちです。…"
+          "title": "Cloudflare社は、自社のエッジにアクティブなAPI脆弱性スキャンを追加",
+          "link": "https://www.infoq.com/jp/news/2026/06/cloudflare-api-vulnerability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ（日本語）",
+          "published": "2026-06-18T08:30:00",
+          "excerpt": "スキャナーは現在、Cloudflare社のAPI Shield顧客向けにオープンベータとして利用可能である。結果は、既存のポスチャーの検出結果と並んで、Cloudflare社のSecurity Insightsダッシュボードに表示される。…"
         },
         {
-          "title": "【RDS x KMS x Secrets Manager】構成をAWS CDKでコード化する",
-          "link": "https://qiita.com/jyas-protein/items/a948ae83b3d3eb8c0dc2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-18T02:28:06",
-          "excerpt": "はじめに 今回は、前回の記事でAWSコンソール上で手動で設定した、（RDS x KMS x Secrets Manager）構成を、AWS CDKを使ってコード化してみました（既存のCDKコードを編集しています） 実装順に関連記事を公開して…"
-        },
-        {
-          "title": "AWS Continuum のご紹介: マシンスピードで実現するセキュリティ",
-          "link": "https://aws.amazon.com/jp/blogs/news/introducing-aws-continuum-security-at-machine-speed/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-06-18T00:15:23",
-          "excerpt": "コードの脆弱性に対応する AWS Continuum を発表します。テレメトリ収集とダッシュボード監視に頼る従来の運用モデルから、テレメトリ、コンテキスト、推論、アクションへと至る新しいアプローチへ移行します。…"
-        },
-        {
-          "title": "AIが脆弱性を掘り起こし過ぎる時代へ　FIRSTがCVE予測を6万6000件に上方修正",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/18/news047.html",
+          "title": "「上限500万円、費用が半分に」　東京都が中小企業のセキュリティ対策助成金の申請を受け付け",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/18/news058.html",
           "source": "@IT",
-          "published": "2026-06-17T22:30:00",
-          "excerpt": "脆弱性の急増は、防御側にとって本当に悪いニュースなのか。FIRSTの最新予測によると、AIの進化によって脆弱性の発見件数は想定を大きく上回るペースで増加している。一方で、企業が優先対応すべき脆弱性の数は大きく変わっていないという。"
+          "published": "2026-06-18T08:25:00",
+          "excerpt": "東京都と東京都中小企業振興公社が都内の中小企業などを対象とした「サイバーセキュリティ対策促進助成金」について、令和8年度の申請を受け付ける。"
+        },
+        {
+          "title": "[アップデート] AWS Security Agent に脅威モデリング機能が追加され、設計ドキュメントやソースコードから STRIDE ベースの脅威分析を自動生成できるようになりました",
+          "link": "https://dev.classmethod.jp/articles/aws-security-agent-threat-modeling/",
+          "source": "DevelopersIO",
+          "published": "2026-06-18T08:15:06",
+          "excerpt": "[アップデート] AWS Security Agent に脅威モデリング機能が追加され、設計ドキュメントやソースコードから STRIDE ベースの脅威分析を自動生成できるようになりました"
+        },
+        {
+          "title": "IAM Access Analyzer のポリシー生成で発生する権限不足エラーを検証してみた",
+          "link": "https://dev.classmethod.jp/articles/iam-access-analyzer-policy-generation-permission-error/",
+          "source": "DevelopersIO",
+          "published": "2026-06-18T08:11:36",
+          "excerpt": "IAM Access Analyzer のポリシー生成で発生する権限不足エラーを検証。S3 バケット、CloudTrail、IAM サービス最終アクセス情報の権限不足や対象イベントなしの場合の表示内容と、原因の切り分けポイントを紹介します。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。大規模なデータ量を運用するうえで、運用面での重要な課題に直面します。Similarweb では Apache […]",
+      "summary": "データ分析の新着が5件。2025 年 3 月に Amazon OpenSearch Service による検索ワークショップ（日本語版）のご紹介 という記事を公開し、OpenSearch の基本概念から AI を活用した検索までを学べる日本語ワークショップをご案内…",
       "articles": [
+        {
+          "title": "Amazon OpenSearch Service による「EC サイト検索ワークショップ」と「Observability Stack ワークショップ」のご紹介",
+          "link": "https://aws.amazon.com/jp/blogs/news/introducing-amazon-opensearch-service-ec-search-observability-workshops-jp/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-06-18T08:35:26",
+          "excerpt": "2025 年 3 月に Amazon OpenSearch Service による検索ワークショップ（日本語版）のご紹介 という記事を公開し、OpenSearch の基本概念から AI を活用した検索までを学べる日本語ワークショップをご案内…"
+        },
+        {
+          "title": "AWS学習10日目：EventBridge × Lambda × DynamoDB",
+          "link": "https://zenn.dev/zono731/articles/bd458ebd941f61",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-18T03:00:10",
+          "excerpt": "今日のテーマ AWS学習10日目は、これまで個別に学んできたAWSサービスを組み合わせました。今回作った構成は、次のとおりです。…"
+        },
         {
           "title": "Similarweb の HBase から Amazon DynamoDB への移行",
           "link": "https://aws.amazon.com/jp/blogs/news/similarwebs-migration-from-hbase-to-amazon-dynamodb/",
@@ -127,20 +141,13 @@
           "source": "AWS What's New（英語）",
           "published": "2026-06-17T19:15:00",
           "excerpt": "AWS Glue インタラクティブ セッションで Apache Spark Connect がサポートされるようになりました。…"
-        },
-        {
-          "title": "Agentic Commerce: Big C の AI!",
-          "link": "https://dev.classmethod.jp/articles/awssummitbangkok2026_ind103/",
-          "source": "DevelopersIO",
-          "published": "2026-06-17T10:10:12",
-          "excerpt": "人工知能 — AI จะช่วยเลือกสินค้า แนะนำ และสั่งซื้อให้คุณเลย 24 ชั่วโมง 「エージェントコマース」 AWS ビッグ C พิสูจน์แล้วว่าจริง!"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。1.はじめに続きをみる…",
+      "summary": "開発ツールの新着が12件。1.はじめに続きをみる…",
       "articles": [
         {
           "title": "【テックブログ】チーム開発×GitHub Copilot ─ AIが変えるシステム開発の未来 | テックブログ",
@@ -175,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "なぜ猫はキーボードに乗るのか→そうだ、デスク用の猫ベッドがあれば",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/18/news094.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-06-18T04:24:00",
-      "excerpt": "「そこが一番居心地がいいからではなく、一番近くにいたい場所だから」"
+      "title": "ストレージサービスの比較",
+      "link": "https://qiita.com/hikaru0506/items/5371ee90ec551546522c",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-18T09:39:10",
+      "excerpt": "AWS と GCP の主要ストレージサービスを比較してみた（S3 / Cloud Storage ほか） GCP×AWS 比較シリーズ第7弾。今回は ストレージ全体 を俯瞰する。…"
     },
     {
-      "title": "アンチパターンへの取り組み AI 駆動開発ライフサイクル (AI-DLC): AWS サミット バンコク 2026",
-      "link": "https://dev.classmethod.jp/articles/aws-ai-dlc-anti-patterns-2026-th/",
-      "source": "DevelopersIO",
-      "published": "2026-06-18T04:09:33",
-      "excerpt": "セッション DVT304 AWS サミット バンコク 2026 アンチパターン AI เข้ามาช่วยพัฒนาซอฟต์แวร์ AI 駆動開発ライフサイクル (AI-DLC) と AXONS UI テスト テスト Kiro 自動化…"
+      "title": "OracleのFusion Middlewareサポートスケジュールは予想よりも厳しい",
+      "link": "https://www.theregister.com/software/2026/06/18/oracle-support-timelines-for-fusion-middleware-tighter-than-expected/5257698",
+      "source": "The Register（英語）",
+      "published": "2026-06-18T09:15:00",
+      "excerpt": "Big Red は 2027 年以降の「市場主導型サポート」に関する不気味な言及を削除 - しかし、AIX ユーザーには朗報です"
     },
     {
-      "title": "SteamOS Linux 3.8 が安定版としてリリースされました",
-      "link": "https://store.steampowered.com/news/app/1675200/view/697641379212298072",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-18T04:05:06",
-      "excerpt": "記事の URL: https://store.steampowered.com/news/app/1675200/view/697641379212298072 コメント URL: https://news.ycombinator.…"
-    },
-    {
-      "title": "AIを“人減らしの道具”にされないために　導入側も知るべき「自律型ビジネス」の本当の意味",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/18/news050.html",
+      "title": "Googleの新世代PC「Googlebook」、学校で普及したChromebookと何が違う？",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/18/news059.html",
       "source": "@IT",
-      "published": "2026-06-18T04:00:00",
-      "excerpt": "AIを活用した「自律型ビジネス」に取り組む企業の約8割が人員を削減したものの、ROIとの明確な相関は見られなかった。Gartnerによると、そもそも自律型ビジネスの目的は人員削減ではない。その本来の目的とは。"
+      "published": "2026-06-18T09:15:00",
+      "excerpt": "Googleは、Geminiを中核に据えた新しいノートPCカテゴリー「Googlebook」を発表した。これまで同社が提供してきたChromebookとは異なる位置付けで打ち出されている。"
+    },
+    {
+      "title": "図面へのAI活用について整理してみた：既存図面活用編",
+      "link": "https://dev.classmethod.jp/articles/ai-for-existing-drawings/",
+      "source": "DevelopersIO",
+      "published": "2026-06-18T09:13:11",
+      "excerpt": "製造業や建設業で使われる図面には、寸法や材料、記号など業務に必要な情報が詰まっています。生成AIやVLMの発展により、こうした図面情報を自動で読み取り、業務で使えるデータに構造化する取り組みが進んできました。…"
     }
   ]
 }
