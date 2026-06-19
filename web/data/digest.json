@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-19T11:58:19",
+  "generated_at": "2026-06-19T14:58:24",
   "window_hours": 24,
-  "total": 200,
+  "total": 201,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が32件。こんにちは。エンジニアの大橋です。今回は、Salesforce の生成AI機能（Data 360 + Prompt Template）を使った RAG システムの設計について、実案件での設計判断をベースに共有したいと思います。…",
+      "summary": "生成AIの新着が31件。otelHeadersHelper を使って Claude Code の OTLP 認証トークンを Keychain に保管する",
       "articles": [
+        {
+          "title": "otelHeadersHelper を使って Claude Code の OTLP 認証トークンを Keychain に保管する",
+          "link": "https://dev.classmethod.jp/articles/claude-code-otel-token-keychain/",
+          "source": "DevelopersIO",
+          "published": "2026-06-19T14:27:38",
+          "excerpt": "otelHeadersHelper を使って Claude Code の OTLP 認証トークンを Keychain に保管する"
+        },
+        {
+          "title": "Vercel がオープンソース エージェント フレームワークをデビュー前に、Passport でシャドウ AI の修正を試みる",
+          "link": "https://www.theregister.com/devops/2026/06/19/vercel-debuts-eve-open-source-agent-framework-tries-to-fix-shadow-ai-with-passport/5258726",
+          "source": "The Register（英語）",
+          "published": "2026-06-19T12:35:00",
+          "excerpt": "Vercel 経由で AWS を間接的に使用する場合のコストプレミアムは、コンピューティング リソースのより効率的な使用により軽減される、と CTO は主張"
+        },
         {
           "title": "Salesforce 生成AI + RAG：2案件を Flow と Apex に分けた判断とは | フレクトのクラウドblog",
           "link": "https://cloud.flect.co.jp/entry/2026/06/19/190000",
@@ -22,28 +36,28 @@
           "source": "企業テックブログまとめ",
           "published": "2026-06-19T10:00:00",
           "excerpt": "はじめに ※この記事は「エムティーアイ Blog Summer 2026」の 6/19 の記事です。こんにちは。テクノロジー本部の田中です。以前からエージェントアプリ自作に興味があってやっていたことを改めてまとめました。…"
-        },
-        {
-          "title": "OpenAI・ElevenLabs・Geminiを使い比べてわかった、AI音声生成の”本質的な違い” |  | One Tech Blog",
-          "link": "https://tech.gmogshd.com/ai-tts-comparison/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-19T09:01:31",
-          "excerpt": "はじめに：音声に注目した理由 今日は植松です。2025年の初め頃から、音声AIに強い関心を持ち始めました。…"
-        },
-        {
-          "title": "【開催報告】通信事業者向けカスタム AI エージェントワークショップ開催しました！ ( 2026 年 4 月 23 日 )  – ネットワーク開発・運用を AI エージェントで変える",
-          "link": "https://aws.amazon.com/jp/blogs/news/telco-dev-ai-agent-workshop/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-06-19T08:12:54",
-          "excerpt": "はじめに 通信業界の主要 MNO 4 社（NTTドコモ、KDDI、ソフトバンク、楽天モバイル）に NTT、ソニ […]"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。はじめまして。ソリューションアーキテクトの川田と申します。先日 Red Hat に入社し、現在はパートナー様へのプリセールス活動を行なっております。前職では、仮想マシンを中心とした仮想化ソフトウェアの技術提案に携わっていました。…",
+      "summary": "クラウドの新着が14件。これを単独の創設者と非常に大規模なシードラウンドを持つスタートアップと呼ぶが、次に何が起こるかはそれほど明確ではない。",
       "articles": [
+        {
+          "title": "Allbirds の新しい AI ビジネスの CEO は計画を立てているが、従業員がいない",
+          "link": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-06-19T13:00:00",
+          "excerpt": "これを単独の創設者と非常に大規模なシードラウンドを持つスタートアップと呼ぶが、次に何が起こるかはそれほど明確ではない。"
+        },
+        {
+          "title": "Google Chat Bot の回答をリッチテキスト化したら、Cards V2 の HTML 制約と向き合うことになった話",
+          "link": "https://dev.classmethod.jp/articles/google-chat-bot-cardsv2-rich-text-formatting/",
+          "source": "DevelopersIO",
+          "published": "2026-06-19T12:52:41",
+          "excerpt": "Google Chat Bot の RAG 回答を Cards V2 でリッチテキスト表示するため、mistune カスタムレンダラーで Markdown を制限 HTML サブセットに変換する手法を解説します。…"
+        },
         {
           "title": "仮想マシンのエンジニアがコンテナ、Kubernetes、OpenShift を学び始めて得た気付き | 赤帽エンジニアブログ",
           "link": "https://rheb.hatenablog.com/entry/2026/06/19/151334",
@@ -57,28 +71,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-06-19T05:12:25",
           "excerpt": "今日のテーマ AWS学習11日目は、外部からAWS内部の処理を呼び出す入口となる API Gateway を学びました。10日目までは、EventBridgeをきっかけにLambdaを実行する自動処理を作っていました。…"
-        },
-        {
-          "title": "失敗を受け入れる技術: サーバーレス アーキテクチャ (AWS Summit バンコク) 2026)",
-          "link": "https://dev.classmethod.jp/articles/art-of-embracing-failures-serverless-aws-summit-bangkok-2026-th/",
-          "source": "DevelopersIO",
-          "published": "2026-06-19T05:07:38",
-          "excerpt": "สรุป セッション「サーバーレス アーキテクチャにおける失敗を受け入れる技術」 AWS サミット バンコク 2026 ว่าด้วยการทำความเข้าใจ再試行、タイムアウト、サービス制限、サーバーレス、回復力音声 AI エージェ…"
-        },
-        {
-          "title": "Project “Myna”: Speech To Text for Ubuntu、Ubuntu 26.10（Stonking）の開発; dbus-brokerへのマイグレーション",
-          "link": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202606/19?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-06-19T01:44:00",
-          "excerpt": "Stonking以降のUbuntuで提供される、Speech To Text（音声入力）プロジェクトが開始されました。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。東北大学は6月17日、4月に明らかになった同大学サーバへの不正アクセスについて続報を発表した。…",
+      "summary": "セキュリティの新着が7件。otelHeadersHelper を使って Claude Code の OTLP 認証トークンを Keychain に保管する",
       "articles": [
+        {
+          "title": "otelHeadersHelper を使って Claude Code の OTLP 認証トークンを Keychain に保管する",
+          "link": "https://dev.classmethod.jp/articles/claude-code-otel-token-keychain/",
+          "source": "DevelopersIO",
+          "published": "2026-06-19T14:27:38",
+          "excerpt": "otelHeadersHelper を使って Claude Code の OTLP 認証トークンを Keychain に保管する"
+        },
         {
           "title": "東北大、4月の不正アクセスに続報　連絡取れない元入院患者・治験医師に申し出呼びかけ",
           "link": "https://www.itmedia.co.jp/news/articles/2606/19/news092.html",
@@ -99,21 +106,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-19T00:34:11",
           "excerpt": "はじめに VPC の中に RDS（データベース）を「パブリックアクセスなし」で作りました。さっそく手元の Mac から接続を試したところ——タイムアウト。うんともすんとも言いません。…"
-        },
-        {
-          "title": "Microsoft、暗号通貨を盗む新しい軽量バックドアを発見",
-          "link": "https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-06-18T23:28:52",
-          "excerpt": "Crypto Clipper は USB 経由で拡散し、Tor 経由で通信します。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。今日のテーマ AWS学習11日目は、外部からAWS内部の処理を呼び出す入口となる API Gateway を学びました。10日目までは、EventBridgeをきっかけにLambdaを実行する自動処理を作っていました。…",
+      "summary": "データ分析の新着が3件。これを単独の創設者と非常に大規模なシードラウンドを持つスタートアップと呼ぶが、次に何が起こるかはそれほど明確ではない。",
       "articles": [
+        {
+          "title": "Allbirds の新しい AI ビジネスの CEO は計画を立てているが、従業員がいない",
+          "link": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-06-19T13:00:00",
+          "excerpt": "これを単独の創設者と非常に大規模なシードラウンドを持つスタートアップと呼ぶが、次に何が起こるかはそれほど明確ではない。"
+        },
         {
           "title": "AWS学習11日目：API Gateway × Lambda × DynamoDB",
           "link": "https://zenn.dev/zono731/articles/ef0c026a6229a3",
@@ -133,8 +140,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。GitHub Copilot Chatで自動モデル選択機能が全ユーザーに提供開始",
+      "summary": "開発ツールの新着が12件。アップデートしたら一発解決する系のお話です",
       "articles": [
+        {
+          "title": "aws login で CDK をデプロイしたら「no credentials have been configured」になったので回避策をまとめてみた",
+          "link": "https://dev.classmethod.jp/articles/aws-login-cdk-no-credentials-configured/",
+          "source": "DevelopersIO",
+          "published": "2026-06-19T13:06:16",
+          "excerpt": "アップデートしたら一発解決する系のお話です"
+        },
+        {
+          "title": "httplib2 のスレッドセーフティ問題を修正した話 — google-api-python-client の罠",
+          "link": "https://dev.classmethod.jp/articles/google-chat-bot-httplib2-thread-safety/",
+          "source": "DevelopersIO",
+          "published": "2026-06-19T13:06:02",
+          "excerpt": "google-api-python-client でシングルトン service をマルチスレッドで共有したら、httplib2 の TCP/SSL 接続が壊れて SSLError が多発。…"
+        },
         {
           "title": "GitHub Copilot Chatで自動モデル選択機能が全ユーザーに提供開始",
           "link": "https://codezine.jp/article/detail/24605",
@@ -148,52 +169,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-06-19T05:52:23",
           "excerpt": "村中（@wage790）です。関西のCDK勢です。先日、CDK（TypeScript）でインフラ基盤をゼロから構築するプロジェクトを担当させていただきました（2026年2月〜5月）。…"
-        },
-        {
-          "title": "AWS CDK で Cognito を SES 連携させる",
-          "link": "https://zenn.dev/tenkei/articles/ec004e582c90d0",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-19T05:31:57",
-          "excerpt": "はじめに Amazon Cognito User Pool は、サインアップ確認やパスワード再設定などの認証メールを標準で送ってくれます。…"
-        },
-        {
-          "title": "GitHub Copilot向け「Agent finder」提供開始",
-          "link": "https://codezine.jp/article/detail/24604",
-          "source": "CodeZine",
-          "published": "2026-06-19T04:00:00",
-          "excerpt": "GitHub Copilot向け「Agent finder」提供開始"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "moomoo証券に3カ月の一部業務停止命令、NISA対象外を「対象」と虚偽説明　金融庁",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/19/news137.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-06-19T11:30:00",
-      "excerpt": "金融庁と関東財務局は6月19日、moomoo証券に対し、6月19日から9月18日まで新規口座開設の勧誘・受付業務を停止する命令などの行政処分を出した。…"
+      "title": "Bcachefs は新しい「パフォーマンス リリース」で実験的ステータスを終了します",
+      "link": "https://www.theregister.com/software/2026/06/19/bcachefs-exits-experimental-status-in-new-performance-release/5258801",
+      "source": "The Register（英語）",
+      "published": "2026-06-19T14:47:00",
+      "excerpt": "Rustは増えるが、AIスロップの問題も増える"
     },
     {
-      "title": "地球温暖化がサンゴを脅かす中、科学者たちは熱を吸収できるサンゴ礁を探している",
-      "link": "https://arstechnica.com/science/2026/06/as-global-warming-threatens-corals-scientists-search-for-reefs-that-can-take-the-heat/",
+      "title": "ロボタクシーが高速道路建設区域の標識を見逃し続けたため、ウェイモがブレーキを踏む",
+      "link": "https://www.theregister.com/offbeat/2026/06/19/waymo-hits-the-brakes-after-robotaxis-keep-missing-the-signs-for-freeway-construction-zones/5258951",
+      "source": "The Register（英語）",
+      "published": "2026-06-19T14:03:00",
+      "excerpt": "通行止め警報を無視したり、通行止めを示すコーン間を走行したりして約4,000台がリコール"
+    },
+    {
+      "title": "17万の英単語のうちいくつ知っていますか?",
+      "link": "https://vocabowl-870366514258.us-west1.run.app/",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-19T13:51:36",
+      "excerpt": "記事の URL: https://vocabowl-870366514258.us-west1.run.app/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "ロケットレポート: ブルー・オリジン発射台で再構築が始まる。相対性理論は火星をターゲットにしています",
+      "link": "https://arstechnica.com/space/2026/06/rocket-report-rebuild-begins-at-blue-origin-launch-pad-relativity-targets-mars/",
       "source": "Ars Technica（英語）",
-      "published": "2026-06-19T11:15:11",
-      "excerpt": "研究者らは、こうしたサンゴの拠点が、さらに劣化したサンゴ礁の再生息に役立つ可能性があると述べている。"
-    },
-    {
-      "title": "英国のプライバシー監視機関、「判断が不十分」と認めたため辞任",
-      "link": "https://www.theregister.com/security/2026/06/19/britains-privacy-watchdog-quits-after-poor-judgment-admission/5258926",
-      "source": "The Register（英語）",
-      "published": "2026-06-19T11:14:34",
-      "excerpt": "ジョン・エドワーズ氏、不適切なユーモアの試みを含む行為の捜査を受けて自身の立場が「維持できなくなった」と語る"
-    },
-    {
-      "title": "権利団体、内務省の亡命希望者向けAI年齢推測ツールは偏っていて不正確だと決めつける",
-      "link": "https://www.theregister.com/security/2026/06/19/rights-groups-brand-home-offices-ai-age-guesser-for-asylum-seekers-as-biased-and-inaccurate/5258892",
-      "source": "The Register（英語）",
-      "published": "2026-06-19T11:02:46",
-      "excerpt": "活動家らは、テクノロジーは使用が計画されている境界で子供と大人を確実に区別することができないと主張している"
+      "published": "2026-06-19T13:36:53",
+      "excerpt": "フランスの打ち上げスタートアップが、明らかに商標の問題のため、ロケットの名前を廃止しようとしている。"
     }
   ]
 }
