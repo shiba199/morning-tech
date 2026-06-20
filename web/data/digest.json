@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-20T03:28:49",
+  "generated_at": "2026-06-20T07:12:26",
   "window_hours": 24,
-  "total": 140,
+  "total": 117,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。はじめに 以前、DevOps Agent のハンズオン記事を書いて Web アプリ上での操作を試しました。…",
+      "summary": "生成AIの新着が13件。はじめに 以前、DevOps Agent のハンズオン記事を書いて Web アプリ上での操作を試しました。…",
       "articles": [
         {
           "title": "【Strands Agents】AWS DevOps Agent を Strands のツールとして組み込んでみた",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。Amazon RDS for Db2 で IBM Db2 12.1 がサポートされました。…",
+      "summary": "クラウドの新着が9件。はじめに Aurora PostgreSQL でクラスターを立てるたびに「あれ、最初に何を確認するんだっけ」「このパラメータはクラスター側？インスタンス側？」と毎回ググっている人向けの 逆引き＋コピペチートシート です。…",
       "articles": [
+        {
+          "title": "【2026年版】Aurora PostgreSQL 実践チートシート ― クラスター作成直後にやる確認SQL・スキーマ設計・接続・設定まとめ",
+          "link": "https://qiita.com/similarmetal/items/83e33b56a873dc465d18",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-20T05:16:18",
+          "excerpt": "はじめに Aurora PostgreSQL でクラスターを立てるたびに「あれ、最初に何を確認するんだっけ」「このパラメータはクラスター側？インスタンス側？」と毎回ググっている人向けの 逆引き＋コピペチートシート です。…"
+        },
         {
           "title": "Amazon RDS for Db2 12.1 の提供開始と Community Edition の追加",
           "link": "https://aws.amazon.com/jp/blogs/news/announcing-amazon-rds-for-db2-12-1-with-additional-community-edition/",
@@ -64,20 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-19T22:51:36",
           "excerpt": "こんにちは、タカサオです！先日 AWS から「AWS DevOps Agent」という、インシデントを自動で調査してくれるエージェント型のサービスが出ました。…"
-        },
-        {
-          "title": "メーリングリスト移行時の「万が一」に備えて、Amazon SESとAWS Lambdaでサーバーレスなメール転送システムを作った話",
-          "link": "https://qiita.com/takumiida1/items/694865f0fb43ec601b0d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-19T16:26:52",
-          "excerpt": "Summary メーリングリスト（以下、ML）を旧アドレスから新アドレスへ移行した際、旧ML宛てに届いたメールを新MLへ自動転送するサーバーレス構成を Amazon SES・AWS Lambda（と Amazon S3）で構築した メールの…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。過去 30 年間、サイバーセキュリティ関連のソフトウェアの流れを阻止することは効果がないことが証明されています。なぜそれが Anthropic のサイバーセキュリティ モデル Mythos と併用できるのかは不明です。",
+      "summary": "セキュリティの新着が3件。過去 30 年間、サイバーセキュリティ関連のソフトウェアの流れを阻止することは効果がないことが証明されています。なぜそれが Anthropic のサイバーセキュリティ モデル Mythos と併用できるのかは不明です。",
       "articles": [
         {
           "title": "暗号化、スパイウェア、そして今の通説: サイバー輸出管理が機能しない理由は歴史が示しています",
@@ -99,21 +99,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-06-19T09:57:16",
           "excerpt": "0.はじめに 駆け出しエンジニアとしての備忘録としてこの記事を書いています！！未熟な理解のところも多いと思いますのでご容赦願います。今回は学習として、画像アップロード処理から公開までの流れをどのように詳細に設計していくかを考えていきました。…"
-        },
-        {
-          "title": "東北大、4月の不正アクセスに続報　連絡取れない元入院患者・治験医師に申し出呼びかけ",
-          "link": "https://www.itmedia.co.jp/news/articles/2606/19/news092.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-06-19T04:00:00",
-          "excerpt": "東北大学は6月17日、4月に明らかになった同大学サーバへの不正アクセスについて続報を発表した。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。はじめに 2026 年 6 月 4 日、AWS は Amazon EKS Capabilities に対して、CloudWatch Vended Logs によるログ配信サポートを発表しました。…",
+      "summary": "データ分析の新着が3件。Summary DynamoDBのオンデマンドキャパシティは、「直近ピークの2倍超を30分以内に超えた場合」と「特定パーティションへのアクセス集中（ホットパーティション）」の2つの要因でスロットルが発生しやすい 全く同じキー構成のGSIをオ…",
       "articles": [
+        {
+          "title": "DynamoDBのオンデマンドキャパシティがスロットリングしないように負荷分散した話",
+          "link": "https://qiita.com/takumiida1/items/c79061ef59a6159a8f05",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-20T03:59:20",
+          "excerpt": "Summary DynamoDBのオンデマンドキャパシティは、「直近ピークの2倍超を30分以内に超えた場合」と「特定パーティションへのアクセス集中（ホットパーティション）」の2つの要因でスロットルが発生しやすい 全く同じキー構成のGSIをオ…"
+        },
         {
           "title": "Amazon EKS Capabilities が Amazon CloudWatch Vended Logs に対応",
           "link": "https://qiita.com/Haruki-N/items/f0de6005ce4e75c1d5af",
@@ -127,80 +127,73 @@
           "source": "TechCrunch（英語）",
           "published": "2026-06-19T13:00:00",
           "excerpt": "これを単独の創設者と非常に大規模なシードラウンドを持つスタートアップと呼ぶが、次に何が起こるかはそれほど明確ではない。"
-        },
-        {
-          "title": "AWS学習11日目：API Gateway × Lambda × DynamoDB",
-          "link": "https://zenn.dev/zono731/articles/ef0c026a6229a3",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-19T05:12:25",
-          "excerpt": "今日のテーマ AWS学習11日目は、外部からAWS内部の処理を呼び出す入口となる API Gateway を学びました。10日目までは、EventBridgeをきっかけにLambdaを実行する自動処理を作っていました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。はじめにGitHub Copilotの従量課金については、これまで2本の記事を書いてきました。https://zenn.…",
+      "summary": "開発ツールの新着が13件。はじめに 今年で 46 歳になるインフラエンジニアが IaC を ZERO から学ぶ為に、 私物の Surface 上に環境を構築した記録です。…",
       "articles": [
         {
-          "title": "GitHub Copilotのクレジット消費がユーザー単位でAPI取得可能に：監視を自動化する ai_credits_used の使い方 | ヘッドウォータースのフィード",
-          "link": "https://zenn.dev/headwaters/articles/github-copilot-ai-credits-usage-metrics-2026",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-20T00:00:06",
-          "excerpt": "はじめにGitHub Copilotの従量課金については、これまで2本の記事を書いてきました。https://zenn.…"
-        },
-        {
-          "title": "Codex CLI 0.140.0 で追加された /usage でトークン使用量をターミナルから確認する",
-          "link": "https://dev.classmethod.jp/articles/codex-cli-usage-token-activity/",
-          "source": "DevelopersIO",
-          "published": "2026-06-20T00:00:05",
-          "excerpt": "Codex CLI 0.140.0 で追加された /usage でトークン使用量をターミナルから確認する"
-        },
-        {
-          "title": "TerraformでRDSが作れない。原因は無料利用枠の上限だった話",
-          "link": "https://qiita.com/80-cloud/items/d3d33949fafade4712eb",
+          "title": "45 歳の最下級戦士が WSL2 で IaC 環境を構築してみた",
+          "link": "https://qiita.com/BakuonKozo/items/8d47807142d7225868d9",
           "source": "Qiita AWSタグ",
-          "published": "2026-06-19T23:57:31",
-          "excerpt": "はじめに Terraform で RDS を作ろうとして terraform apply したら、いきなり止まりました。ネットワークやサブネットグループまでは作成されたのに、RDS 本体だけがエラーです。…"
+          "published": "2026-06-20T07:09:38",
+          "excerpt": "はじめに 今年で 46 歳になるインフラエンジニアが IaC を ZERO から学ぶ為に、 私物の Surface 上に環境を構築した記録です。…"
         },
         {
-          "title": "「若手はLinuxを学べ」「CLIで問題特定はもう古くなる」　AI時代に再定義されるエンジニアの基礎と現場の常識",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/20/news007.html",
-          "source": "@IT",
-          "published": "2026-06-19T23:00:00",
-          "excerpt": "＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。"
+          "title": "GitHub Copilot、新規個人プランの申込受付を再開",
+          "link": "https://codezine.jp/article/detail/24598",
+          "source": "CodeZine",
+          "published": "2026-06-20T06:00:00",
+          "excerpt": "GitHub Copilot、新規個人プランの申込受付を再開"
+        },
+        {
+          "title": "踏み台サーバー経由の2ホップデプロイをNode.js（ssh2）で完全自動化してみた",
+          "link": "https://dev.classmethod.jp/articles/ssh2-bastion-2hop-deploy-automation/",
+          "source": "DevelopersIO",
+          "published": "2026-06-20T04:24:48",
+          "excerpt": "インターネット接続なし・踏み台経由必須という制約のある閉域ネットワーク環境へのデプロイを、Node.jsのssh2ライブラリで完全自動化しました。…"
+        },
+        {
+          "title": "GitHub CopilotのOpus 4.6モデル、6月29日に廃止へ",
+          "link": "https://codezine.jp/article/detail/24626",
+          "source": "CodeZine",
+          "published": "2026-06-20T03:00:00",
+          "excerpt": "GitHub CopilotのOpus 4.6モデル、6月29日に廃止へ"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS SAMでFn::ForEachを使う",
-      "link": "https://qiita.com/a_b_/items/84a3031e31fcc50f44e6",
+      "title": "統合ツールチェーン Vite+ を試してみた",
+      "link": "https://dev.classmethod.jp/articles/vite-plus-unified-toolchain-tried/",
+      "source": "DevelopersIO",
+      "published": "2026-06-20T06:52:45",
+      "excerpt": "v-tokyo Meetup で話題になった Vite+ という統合ツールチェーンに魅了されて、実際に触ってみました。本記事では、新規プロジェクトの作成から各種コマンドの動作確認まで、Vite+ の使い心地をまとめます。"
+    },
+    {
+      "title": "Amazon CloudWatch Syntheticsの新機能マルチロケーションカナリアを試してみた",
+      "link": "https://dev.classmethod.jp/articles/cloudwatch-synthetics-multilocation-canary-cli/",
+      "source": "DevelopersIO",
+      "published": "2026-06-20T06:04:02",
+      "excerpt": "Amazon CloudWatch Syntheticsがマルチロケーションカナリアをサポートしました。プライマリリージョン1か所からレプリカの作成・実行結果確認・削除までを一元管理できます。…"
+    },
+    {
+      "title": "Amazon Cognito × Google Workspace で SAML ログインを構築する手順",
+      "link": "https://qiita.com/swallows/items/9e1f6a32fbd4d8d48597",
       "source": "Qiita AWSタグ",
-      "published": "2026-06-20T01:43:53",
-      "excerpt": "はじめに AWS SAMにて、AWS CloudFormation Language Extensionsがサポートされるようになったとのことです。試しに、Lambdaを複数作ってみました。概要 SAM CLI v1.…"
+      "published": "2026-06-20T05:45:16",
+      "excerpt": "はじめに 「CognitoでSAML連携して」と言われて、何から手を付けていいかわからない——。Amazon Cognito と Google Workspace（GWS）の SAML 連携を一から構築した際の手順をまとめたものです。…"
     },
     {
-      "title": "独裁者を養う方法",
-      "link": "https://www.theguardian.com/film/2026/jun/09/how-to-feed-a-dictator-film",
+      "title": "ウェブサイトをファビコンに保存しました",
+      "link": "https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/",
       "source": "Hacker News（英語）",
-      "published": "2026-06-20T01:16:56",
-      "excerpt": "記事の URL: https://www.theguardian.com/film/2026/jun/09/how-to-feed-a-dictator-film コメント URL: https://news.ycombinator.…"
-    },
-    {
-      "title": "彼は無料のビデオプレーヤーをスムーズに実行できるようにしました。今、彼はロボットに対してそれを行っています。",
-      "link": "https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-06-20T00:47:44",
-      "excerpt": "フランスの連続起業家であり、オープンソースの伝説的存在であるジャンバティスト・ケンプ氏は、リモートデバイスをリアルタイムで制御するインフラストラクチャ層である Kyber を構築しています。"
-    },
-    {
-      "title": "おい、n00b、私たちはタスクを完了するためにあなたを雇ったわけではない",
-      "link": "https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-20T00:11:07",
-      "excerpt": "記事の URL: https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete コメント URL: https://news.ycombinator.…"
+      "published": "2026-06-20T05:33:59",
+      "excerpt": "記事の URL: https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
