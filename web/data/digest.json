@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-06-20T07:12:26",
+  "generated_at": "2026-06-20T10:16:43",
   "window_hours": 24,
-  "total": 117,
+  "total": 110,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が13件。はじめに 以前、DevOps Agent のハンズオン記事を書いて Web アプリ上での操作を試しました。…",
+      "summary": "生成AIの新着が12件。AWS Blocks の Agent Block で AI チャット機能を実装し、ローカルモックから Bedrock 応答へアプリケーションコードの追加変更なしに切り替わる動作を確認しました。プロジェクトルートの AGENTS.…",
       "articles": [
         {
-          "title": "【Strands Agents】AWS DevOps Agent を Strands のツールとして組み込んでみた",
-          "link": "https://qiita.com/ryu-ki/items/c5dfe22c21cb1c52df69",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-19T23:29:18",
-          "excerpt": "はじめに 以前、DevOps Agent のハンズオン記事を書いて Web アプリ上での操作を試しました。…"
-        },
-        {
-          "title": "AWS DevOps Agent で EKS の障害を自動調査させてみた",
-          "link": "https://qiita.com/daitak/items/e8696d07a5102df6ad9c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-19T22:51:36",
-          "excerpt": "こんにちは、タカサオです！先日 AWS から「AWS DevOps Agent」という、インシデントを自動で調査してくれるエージェント型のサービスが出ました。…"
-        },
-        {
-          "title": "[アップデート] Kiro Web にオートメーション機能が追加され定期タスクをリモートエージェントでスケジュール実行できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/kiro-web-automations/",
+          "title": "AWS Blocks の AGENTS.md で Kiro にチャットアプリを作らせてみた",
+          "link": "https://dev.classmethod.jp/articles/aws-blocks-agents-md-kiro-chat-app/",
           "source": "DevelopersIO",
-          "published": "2026-06-19T21:21:07",
-          "excerpt": "[アップデート] Kiro Web にオートメーション機能が追加され定期タスクをリモートエージェントでスケジュール実行できるようになりました"
+          "published": "2026-06-20T09:32:15",
+          "excerpt": "AWS Blocks の Agent Block で AI チャット機能を実装し、ローカルモックから Bedrock 応答へアプリケーションコードの追加変更なしに切り替わる動作を確認しました。プロジェクトルートの AGENTS.…"
         },
         {
-          "title": "エアギャップを使用して AI エージェントと NPM インストールからシークレットを非表示にする",
-          "link": "https://sauleau.com/notes/airgap-security-for-the-modern-ai-age.html",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-19T20:24:59",
-          "excerpt": "記事の URL: https://sauleau.com/notes/airgap-security-for-the-modern-ai-age.html コメント URL: https://news.ycombinator.…"
+          "title": "LiteLLMからAmazon Bedrock MantleのGemma4とおしゃべりしてみた",
+          "link": "https://qiita.com/takumiida1/items/7a21de34611fca8a1e38",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-20T08:30:19",
+          "excerpt": "Summary LiteLLM の公式ドキュメントに Amazon Bedrock Mantle × Gemma 4 の設定例がなかったので、実際に動かした設定を共有する。…"
+        },
+        {
+          "title": "Claude Desktop の Cowork を Amazon Bedrock 経由で Windows にセットアップ",
+          "link": "https://zenn.dev/aws_japan/articles/claude-cowork-on-bedrock-windows-setup",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-20T07:44:06",
+          "excerpt": "はじめに こんにちは！AWS でソリューションアーキテクトをしている齋藤 拓巳です。Claude Desktop は、Anthropic が提供するデスクトップアプリケーションです。…"
+        },
+        {
+          "title": "GitHub Agentic Workflows を試してみた 〜毎朝のAWS変更をコスト影響つきでSlack通知する〜",
+          "link": "https://zenn.dev/dehio3/articles/github-agentic-workflows-tried",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-20T02:48:26",
+          "excerpt": "はじめに GitHub Agentic Workflows（gh-aw）——Markdown に書いた自然言語の指示を AI エージェントが実行する GitHub Actions ワークフローを生成する仕組み——の存在自体は、以前から知って…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。はじめに Aurora PostgreSQL でクラスターを立てるたびに「あれ、最初に何を確認するんだっけ」「このパラメータはクラスター側？インスタンス側？」と毎回ググっている人向けの 逆引き＋コピペチートシート です。…",
+      "summary": "クラウドの新着が9件。はじめに 案件でECS、EFS、RDSを利用した構成を見る機会がありました。最初は、 EFSにファイルがあるなら、RDSはいらないのでは？ECSはどうやってRDSの情報を取得しているの？なぜ環境変数を使うの？といった疑問を持っていました。…",
       "articles": [
+        {
+          "title": "ECS＋EFS＋RDS構成はなぜ必要なのか？実務で学んだ役割分担を整理してみた",
+          "link": "https://qiita.com/2001kei/items/05a6568a4cfa9cabd05c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-20T09:28:21",
+          "excerpt": "はじめに 案件でECS、EFS、RDSを利用した構成を見る機会がありました。最初は、 EFSにファイルがあるなら、RDSはいらないのでは？ECSはどうやってRDSの情報を取得しているの？なぜ環境変数を使うの？といった疑問を持っていました。…"
+        },
         {
           "title": "【2026年版】Aurora PostgreSQL 実践チートシート ― クラスター作成直後にやる確認SQL・スキーマ設計・接続・設定まとめ",
           "link": "https://qiita.com/similarmetal/items/83e33b56a873dc465d18",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-19T23:57:31",
           "excerpt": "はじめに Terraform で RDS を作ろうとして terraform apply したら、いきなり止まりました。ネットワークやサブネットグループまでは作成されたのに、RDS 本体だけがエラーです。…"
-        },
-        {
-          "title": "AWS DevOps Agent で EKS の障害を自動調査させてみた",
-          "link": "https://qiita.com/daitak/items/e8696d07a5102df6ad9c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-19T22:51:36",
-          "excerpt": "こんにちは、タカサオです！先日 AWS から「AWS DevOps Agent」という、インシデントを自動で調査してくれるエージェント型のサービスが出ました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が3件。過去 30 年間、サイバーセキュリティ関連のソフトウェアの流れを阻止することは効果がないことが証明されています。なぜそれが Anthropic のサイバーセキュリティ モデル Mythos と併用できるのかは不明です。",
+      "summary": "セキュリティの新着が3件。はじめに 2026年6月15日、AWS は AWS WAF に「AI トラフィック収益化（AI traffic monetization）」機能 を追加したことを発表しました。…",
       "articles": [
+        {
+          "title": "AWS WAF が「AIボットへの課金」機能を追加 — HTTP 402 と x402 で実現するコンテンツ収益化",
+          "link": "https://zenn.dev/awesome_kou/articles/aws-waf-ai-traffic-monetization",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-20T05:47:28",
+          "excerpt": "はじめに 2026年6月15日、AWS は AWS WAF に「AI トラフィック収益化（AI traffic monetization）」機能 を追加したことを発表しました。…"
+        },
         {
           "title": "暗号化、スパイウェア、そして今の通説: サイバー輸出管理が機能しない理由は歴史が示しています",
           "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
@@ -92,13 +99,6 @@
           "source": "DevelopersIO",
           "published": "2026-06-19T14:27:38",
           "excerpt": "otelHeadersHelper を使って Claude Code の OTLP 認証トークンを Keychain に保管する"
-        },
-        {
-          "title": "Presigned URLで画像アップロードを設計したら セキュリティの多層防御が見えてきた",
-          "link": "https://zenn.dev/digeon/articles/presigned-url-s3-security",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-19T09:57:16",
-          "excerpt": "0.はじめに 駆け出しエンジニアとしての備忘録としてこの記事を書いています！！未熟な理解のところも多いと思いますのでご容赦願います。今回は学習として、画像アップロード処理から公開までの流れをどのように詳細に設計していくかを考えていきました。…"
         }
       ]
     },
@@ -168,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "統合ツールチェーン Vite+ を試してみた",
-      "link": "https://dev.classmethod.jp/articles/vite-plus-unified-toolchain-tried/",
-      "source": "DevelopersIO",
-      "published": "2026-06-20T06:52:45",
-      "excerpt": "v-tokyo Meetup で話題になった Vite+ という統合ツールチェーンに魅了されて、実際に触ってみました。本記事では、新規プロジェクトの作成から各種コマンドの動作確認まで、Vite+ の使い心地をまとめます。"
-    },
-    {
-      "title": "Amazon CloudWatch Syntheticsの新機能マルチロケーションカナリアを試してみた",
-      "link": "https://dev.classmethod.jp/articles/cloudwatch-synthetics-multilocation-canary-cli/",
-      "source": "DevelopersIO",
-      "published": "2026-06-20T06:04:02",
-      "excerpt": "Amazon CloudWatch Syntheticsがマルチロケーションカナリアをサポートしました。プライマリリージョン1か所からレプリカの作成・実行結果確認・削除までを一元管理できます。…"
-    },
-    {
-      "title": "Amazon Cognito × Google Workspace で SAML ログインを構築する手順",
-      "link": "https://qiita.com/swallows/items/9e1f6a32fbd4d8d48597",
+      "title": "AIペルソナに“仮想アンケート”を答えてもらう ― 市場調査SaaS「PerSearch」をリリースしました",
+      "link": "https://qiita.com/kw_robo/items/f019b819db29a1916e74",
       "source": "Qiita AWSタグ",
-      "published": "2026-06-20T05:45:16",
-      "excerpt": "はじめに 「CognitoでSAML連携して」と言われて、何から手を付けていいかわからない——。Amazon Cognito と Google Workspace（GWS）の SAML 連携を一から構築した際の手順をまとめたものです。…"
+      "published": "2026-06-20T09:27:58",
+      "excerpt": "設問を作るだけで、AIの仮想ペルソナが属性に沿ってアンケートに答えてくれる市場調査SaaS PerSearch（ペルサーチ） をリリースしました。実調査の前に、安く・速く・何度でも仮説検証できます。…"
     },
     {
-      "title": "ウェブサイトをファビコンに保存しました",
-      "link": "https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-20T05:33:59",
-      "excerpt": "記事の URL: https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "NVIDIA OpenShell に Codex を閉じ込めて動かしてみた",
+      "link": "https://dev.classmethod.jp/articles/codex-openshell-mac-sandbox/",
+      "source": "DevelopersIO",
+      "published": "2026-06-20T09:25:58",
+      "excerpt": "NVIDIA OpenShell に Codex を閉じ込めて動かしてみた"
+    },
+    {
+      "title": "Google Vids、Veoで長尺動画作成と複数同時生成に対応",
+      "link": "https://codezine.jp/article/detail/24608",
+      "source": "CodeZine",
+      "published": "2026-06-20T09:00:00",
+      "excerpt": "Google Vids、Veoで長尺動画作成と複数同時生成に対応"
+    },
+    {
+      "title": "AWS と Google Cloud の監視・運用サービスを比較してみた",
+      "link": "https://qiita.com/hikaru0506/items/6f3f957f7f2be436d74c",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-20T08:44:12",
+      "excerpt": "AWS と GCP の監視・運用サービスを比較してみた（CloudWatch / Cloud Monitoring ほか） GCP×AWS 比較シリーズ第10弾（最終回）。今回は 監視・運用（オブザーバビリティ） を俯瞰する。…"
     }
   ]
 }
