@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-19T23:58:41",
+  "generated_at": "2026-06-20T03:28:49",
   "window_hours": 24,
-  "total": 170,
+  "total": 140,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が27件。はじめに 以前、DevOps Agent のハンズオン記事を書いて Web アプリ上での操作を試しました。…",
+      "summary": "生成AIの新着が22件。はじめに 以前、DevOps Agent のハンズオン記事を書いて Web アプリ上での操作を試しました。…",
       "articles": [
         {
           "title": "【Strands Agents】AWS DevOps Agent を Strands のツールとして組み込んでみた",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。はじめに Terraform で RDS を作ろうとして terraform apply したら、いきなり止まりました。ネットワークやサブネットグループまでは作成されたのに、RDS 本体だけがエラーです。…",
+      "summary": "クラウドの新着が11件。Amazon RDS for Db2 で IBM Db2 12.1 がサポートされました。…",
       "articles": [
+        {
+          "title": "Amazon RDS for Db2 12.1 の提供開始と Community Edition の追加",
+          "link": "https://aws.amazon.com/jp/blogs/news/announcing-amazon-rds-for-db2-12-1-with-additional-community-edition/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-06-20T01:36:33",
+          "excerpt": "Amazon RDS for Db2 で IBM Db2 12.1 がサポートされました。…"
+        },
         {
           "title": "TerraformでRDSが作れない。原因は無料利用枠の上限だった話",
           "link": "https://qiita.com/80-cloud/items/d3d33949fafade4712eb",
@@ -64,20 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-19T16:26:52",
           "excerpt": "Summary メーリングリスト（以下、ML）を旧アドレスから新アドレスへ移行した際、旧ML宛てに届いたメールを新MLへ自動転送するサーバーレス構成を Amazon SES・AWS Lambda（と Amazon S3）で構築した メールの…"
-        },
-        {
-          "title": "Amazon EKS Capabilities が Amazon CloudWatch Vended Logs に対応",
-          "link": "https://qiita.com/Haruki-N/items/f0de6005ce4e75c1d5af",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-19T16:07:05",
-          "excerpt": "はじめに 2026 年 6 月 4 日、AWS は Amazon EKS Capabilities に対して、CloudWatch Vended Logs によるログ配信サポートを発表しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。過去 30 年間、サイバーセキュリティ関連のソフトウェアの流れを阻止することは効果がないことが証明されています。なぜそれが Anthropic のサイバーセキュリティ モデル Mythos と併用できるのかは不明です。",
+      "summary": "セキュリティの新着が4件。過去 30 年間、サイバーセキュリティ関連のソフトウェアの流れを阻止することは効果がないことが証明されています。なぜそれが Anthropic のサイバーセキュリティ モデル Mythos と併用できるのかは不明です。",
       "articles": [
         {
           "title": "暗号化、スパイウェア、そして今の通説: サイバー輸出管理が機能しない理由は歴史が示しています",
@@ -140,8 +140,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。はじめに Terraform で RDS を作ろうとして terraform apply したら、いきなり止まりました。ネットワークやサブネットグループまでは作成されたのに、RDS 本体だけがエラーです。…",
+      "summary": "開発ツールの新着が13件。はじめにGitHub Copilotの従量課金については、これまで2本の記事を書いてきました。https://zenn.…",
       "articles": [
+        {
+          "title": "GitHub Copilotのクレジット消費がユーザー単位でAPI取得可能に：監視を自動化する ai_credits_used の使い方 | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/github-copilot-ai-credits-usage-metrics-2026",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-20T00:00:06",
+          "excerpt": "はじめにGitHub Copilotの従量課金については、これまで2本の記事を書いてきました。https://zenn.…"
+        },
+        {
+          "title": "Codex CLI 0.140.0 で追加された /usage でトークン使用量をターミナルから確認する",
+          "link": "https://dev.classmethod.jp/articles/codex-cli-usage-token-activity/",
+          "source": "DevelopersIO",
+          "published": "2026-06-20T00:00:05",
+          "excerpt": "Codex CLI 0.140.0 で追加された /usage でトークン使用量をターミナルから確認する"
+        },
         {
           "title": "TerraformでRDSが作れない。原因は無料利用枠の上限だった話",
           "link": "https://qiita.com/80-cloud/items/d3d33949fafade4712eb",
@@ -155,52 +169,38 @@
           "source": "@IT",
           "published": "2026-06-19T23:00:00",
           "excerpt": "＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。"
-        },
-        {
-          "title": "AWS Blocksとは何者か。Amplify・App Studioとの違いと、それぞれが目指すもの",
-          "link": "https://zenn.dev/genda_jp/articles/8122f1cd49754c",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-19T22:02:47",
-          "excerpt": "2026年6月16日、AWSは AWS Blocks をパブリックプレビューとして発表しました。TypeScriptでバックエンドを書くと、そのコードがそのままAWS上のインフラになる、オープンソースのフレームワークです。…"
-        },
-        {
-          "title": "【AWS】CDKのgrantメソッドで権限を簡単に設定する",
-          "link": "https://qiita.com/ooki/items/7fbd94ab780b9bb198af",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-19T15:00:52",
-          "excerpt": "はじめに CDKではgrantメソッドを利用することで、リソースに必要なアクセス許可を簡単に定義することができます。個人的にCloudFormationでリソースを作成する際は、リソースの権限周りの設定にかなり時間を要していました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "イラン、ホルムズ海峡を航行する船舶に保険を義務付け、手数料もかかる可能性がある",
-      "link": "https://www.lloydslist.com/LL1157571/Iran-imposes-mandatory-insurance-on-ships-transiting-Strait-of-Hormuz-with-fees-likely-to-follow",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-19T23:32:03",
-      "excerpt": "記事の URL: https://www.lloydslist.…"
+      "title": "AWS SAMでFn::ForEachを使う",
+      "link": "https://qiita.com/a_b_/items/84a3031e31fcc50f44e6",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-20T01:43:53",
+      "excerpt": "はじめに AWS SAMにて、AWS CloudFormation Language Extensionsがサポートされるようになったとのことです。試しに、Lambdaを複数作ってみました。概要 SAM CLI v1.…"
     },
     {
-      "title": "新たな高級コンパクト、LUMIX「L10」は画作り自在なスナップカメラだった　明るいズームやメカっぽい操作感も好感",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/20/news022.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-06-19T23:29:00",
-      "excerpt": "パナソニックから「LUMIX25周年記念モデル」として、全く新しい高級コンパクトカメラが誕生した。四角いトラディショナルなボディを持つ「DC-L10」だ。"
+      "title": "独裁者を養う方法",
+      "link": "https://www.theguardian.com/film/2026/jun/09/how-to-feed-a-dictator-film",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-20T01:16:56",
+      "excerpt": "記事の URL: https://www.theguardian.com/film/2026/jun/09/how-to-feed-a-dictator-film コメント URL: https://news.ycombinator.…"
     },
     {
-      "title": "アメリカ人は退職後の貯蓄に対するスペースXの影響に不安を表明",
-      "link": "https://www.theguardian.com/science/2026/jun/19/spacex-retirement-savings-elon-musk",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-19T22:45:20",
-      "excerpt": "記事の URL: https://www.theguardian.com/science/2026/jun/19/spacex-retirement- Savings-elon-musk コメント URL: https://news.…"
+      "title": "彼は無料のビデオプレーヤーをスムーズに実行できるようにしました。今、彼はロボットに対してそれを行っています。",
+      "link": "https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-20T00:47:44",
+      "excerpt": "フランスの連続起業家であり、オープンソースの伝説的存在であるジャンバティスト・ケンプ氏は、リモートデバイスをリアルタイムで制御するインフラストラクチャ層である Kyber を構築しています。"
     },
     {
-      "title": "群がる鳥や魚の群れはどのように動くのでしょうか？",
-      "link": "https://www.nyu.edu/about/news-publications/news/2026/june/how-do-flocking-birds-and-schools-of-fish-move--new-research-off.html",
+      "title": "おい、n00b、私たちはタスクを完了するためにあなたを雇ったわけではない",
+      "link": "https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete",
       "source": "Hacker News（英語）",
-      "published": "2026-06-19T22:37:30",
-      "excerpt": "記事の URL: https://www.nyu.…"
+      "published": "2026-06-20T00:11:07",
+      "excerpt": "記事の URL: https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete コメント URL: https://news.ycombinator.…"
     }
   ]
 }
