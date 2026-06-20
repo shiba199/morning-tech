@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-20T17:52:01",
+  "generated_at": "2026-06-20T19:07:56",
   "window_hours": 24,
-  "total": 106,
+  "total": 110,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が15件。Codex CLI 0.140.0 で追加された `/import` コマンドを実際に試してみました。Claude Code の設定・スキル・チャット履歴を Codex CLI へ取り込む仕組みと、実装から見えた挙動の詳細をお伝えします。",
+      "summary": "生成AIの新着が14件。Codex CLI 0.140.0 で追加された `/import` コマンドを実際に試してみました。Claude Code の設定・スキル・チャット履歴を Codex CLI へ取り込む仕組みと、実装から見えた挙動の詳細をお伝えします。",
       "articles": [
         {
           "title": "Codex CLI 0.140.0で追加された /import で Claude Code の設定とチャット履歴を取り込んでみた",
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。はじめに 2026 年 6 月 10 日、AWS は Amazon ECS Managed Daemons に対して、pidMode / ipcMode によるプロセス可視性・IPC 共有のサポートを発表しました。…",
+      "summary": "クラウドの新着が11件。全体 localの場合 localstackを利用する Storage構造体を作成する s3のclientなどをfieldに持つ ポイント timeout retryは入れる 外部通信の場合は基本入れる マイクロサービスの内部通信でもやる…",
       "articles": [
+        {
+          "title": "Go S3 で画像アップロード実装",
+          "link": "https://zenn.dev/engineer_reborn/articles/fb6b77875866e2",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-20T16:05:18",
+          "excerpt": "全体 localの場合 localstackを利用する Storage構造体を作成する s3のclientなどをfieldに持つ ポイント timeout retryは入れる 外部通信の場合は基本入れる マイクロサービスの内部通信でもやる…"
+        },
+        {
+          "title": "Security Hub S3.9 を機械的に全適用するとログがループする ― CloudTrail.1 有効環境の落とし穴",
+          "link": "https://zenn.dev/muzzledskr/articles/securityhub-s3-9-cloudtrail",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-20T16:02:41",
+          "excerpt": "この記事の立ち位置 Security Hub の「基礎セキュリティのベストプラクティス（FSBP）」を潰していくとき、各コントロールの修復手順そのものは、AWS 公式ドキュメントや DevelopersIO にまとまっている。S3.…"
+        },
         {
           "title": "Amazon ECS マネージドデーモンがタスク間の可視性と通信をサポート",
           "link": "https://qiita.com/Haruki-N/items/c23e6a86ae23752aaed5",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-20T15:05:34",
           "excerpt": "この記事のゴール 1枚のHTMLファイルを、URLを知っている人だけが見られる形でネットに公開したい。でもコストはかけたくないし、閲覧期間も自分で設定したい、そしてせっかくなのでAWSの勉強もしたい。…"
-        },
-        {
-          "title": "VPC Flow Logsでタグ情報やネクストホップ情報が取得可能に",
-          "link": "https://qiita.com/infra365/items/81174c2b05df0cfbaf59",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-20T10:23:06",
-          "excerpt": "概要 VPC Flow Logsで新しいフィールドがサポートされました。…"
-        },
-        {
-          "title": "ECS＋EFS＋RDS構成はなぜ必要なのか？実務で学んだ役割分担を整理してみた",
-          "link": "https://qiita.com/2001kei/items/05a6568a4cfa9cabd05c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-20T09:28:21",
-          "excerpt": "はじめに 案件でECS、EFS、RDSを利用した構成を見る機会がありました。最初は、 EFSにファイルがあるなら、RDSはいらないのでは？ECSはどうやってRDSの情報を取得しているの？なぜ環境変数を使うの？といった疑問を持っていました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。こんにちは！AWS Summit Japan 2026がいよいよ来週に迫ってきましたね。今回は少し前に行われたAWS Summit NYCで発表された、AWS Security Agentの脅威モデリング機能について触ってみました。…",
+      "summary": "セキュリティの新着が7件。この記事の立ち位置 Security Hub の「基礎セキュリティのベストプラクティス（FSBP）」を潰していくとき、各コントロールの修復手順そのものは、AWS 公式ドキュメントや DevelopersIO にまとまっている。S3.…",
       "articles": [
+        {
+          "title": "Security Hub S3.9 を機械的に全適用するとログがループする ― CloudTrail.1 有効環境の落とし穴",
+          "link": "https://zenn.dev/muzzledskr/articles/securityhub-s3-9-cloudtrail",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-20T16:02:41",
+          "excerpt": "この記事の立ち位置 Security Hub の「基礎セキュリティのベストプラクティス（FSBP）」を潰していくとき、各コントロールの修復手順そのものは、AWS 公式ドキュメントや DevelopersIO にまとまっている。S3.…"
+        },
         {
           "title": "AWS Security Agentの脅威モデリング機能を試してみた",
           "link": "https://qiita.com/takahash_3/items/1954f50759905b18e46b",
@@ -99,13 +106,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-06-20T12:00:57",
           "excerpt": "概要 先日SCSの試験を受験し、無事合格することができました。その勉強の中でもよく出てきたKMSのキーポリシーについての内容。…"
-        },
-        {
-          "title": "Docker outside of Docker (DooD) のセキュリティリスク：なぜ「ソケット共有」は危険なのか",
-          "link": "https://dev.classmethod.jp/articles/risk-of-dood/",
-          "source": "DevelopersIO",
-          "published": "2026-06-20T11:49:19",
-          "excerpt": "Docker outside of Docker (DooD) のセキュリティリスク：なぜ「ソケット共有」は危険なのか"
         }
       ]
     },
@@ -126,8 +126,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。Codex CLI 0.140.0 で追加された `/import` コマンドを実際に試してみました。Claude Code の設定・スキル・チャット履歴を Codex CLI へ取り込む仕組みと、実装から見えた挙動の詳細をお伝えします。",
+      "summary": "開発ツールの新着が14件。Github にいくつかのプロジェクトがあります。バイブコーダーやボットからスパム PR やリクエストを大量に受け取ります。ほとんどは自分のプロフィールを宣伝するためです。星も明らかに誇張されています。…",
       "articles": [
+        {
+          "title": "HN に質問: GitHub 上のスパムが原因で、プロジェクトをどのプラットフォームに移動できますか?",
+          "link": "https://news.ycombinator.com/item?id=48611303",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-20T17:52:07",
+          "excerpt": "Github にいくつかのプロジェクトがあります。バイブコーダーやボットからスパム PR やリクエストを大量に受け取ります。ほとんどは自分のプロフィールを宣伝するためです。星も明らかに誇張されています。…"
+        },
         {
           "title": "Codex CLI 0.140.0で追加された /import で Claude Code の設定とチャット履歴を取り込んでみた",
           "link": "https://dev.classmethod.jp/articles/codex-cli-import-from-claude-code/",
@@ -136,57 +143,50 @@
           "excerpt": "Codex CLI 0.140.0 で追加された `/import` コマンドを実際に試してみました。Claude Code の設定・スキル・チャット履歴を Codex CLI へ取り込む仕組みと、実装から見えた挙動の詳細をお伝えします。"
         },
         {
+          "title": "【Terraform】EventBridge SchedulerでLambda関数にペイロードを渡す",
+          "link": "https://zenn.dev/aminevsky/articles/168c0335ffaa3d",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-20T13:27:19",
+          "excerpt": "EventBridge Scheduler で Lambda 関数を呼び出す際、ペイロードを渡すことができる。簡単に設定できるが、Terraform で書かれた例がすぐに見つけられなかったので、備忘として書いておく。…"
+        },
+        {
           "title": "フロント、フルスタック、AWS？もう迷わない個人開発のデプロイ先ロードマップ",
           "link": "https://zenn.dev/nekoninjin/articles/0330baa8f56c5d",
           "source": "Zenn AWSトピック",
           "published": "2026-06-20T10:00:05",
           "excerpt": "自己紹介 はじめまして、猫にんじんです。Webアプリケーションエンジニアをしています。最近はClaudeにコードを書いてもらい、自分はレビューとデプロイボタンを押すだけの人（たまに猫）になりつつあります。…"
-        },
-        {
-          "title": "45 歳の最下級戦士が WSL2 で IaC 環境を構築してみた",
-          "link": "https://qiita.com/BakuonKozo/items/8d47807142d7225868d9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-20T07:09:38",
-          "excerpt": "はじめに 今年で 46 歳になるインフラエンジニアが IaC を ZERO から学ぶ為に、 私物の Surface 上に環境を構築した記録です。…"
-        },
-        {
-          "title": "GitHub Copilot、新規個人プランの申込受付を再開",
-          "link": "https://codezine.jp/article/detail/24598",
-          "source": "CodeZine",
-          "published": "2026-06-20T06:00:00",
-          "excerpt": "GitHub Copilot、新規個人プランの申込受付を再開"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "ファウンダーズ・ファンド、人道的に殺された魚に対する異常な賭け",
+      "link": "https://techcrunch.com/2026/06/20/founders-funds-outlier-bet-on-humanely-killed-fish/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-20T18:26:02",
+      "excerpt": "シンケイは魚を素早く人道的に殺すため、冷蔵庫ほどの大きさのロボット「ポセイドン」を作った。"
+    },
+    {
+      "title": "代理店がベストセラー作家の本を盗み、AIを利用して自社の本として再発売",
+      "link": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-20T18:05:31",
+      "excerpt": "記事の URL: https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/ コメント URL: https://news.ycombinator.…"
+    },
+    {
+      "title": "体の一部を再生する能力は哺乳類では眠っており、失われているわけではない",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260617032207.htm",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-20T17:27:36",
+      "excerpt": "記事の URL: https://www.sciencedaily.com/releases/2026/06/260617032207.htm コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
       "title": "UHF X11: VisionOS および Apple Vision Pro 用に構築された X11",
       "link": "https://www.lispm.net/apps/uhf-x11/",
       "source": "Hacker News（英語）",
       "published": "2026-06-20T17:04:24",
       "excerpt": "記事の URL: https://www.lispm.net/apps/uhf-x11/ コメント URL: https://news.ycombinator.com/item?id=48610853 ポイント: 11 コメント数: 3"
-    },
-    {
-      "title": "SMPTE はその標準に自由にアクセスできるようにします",
-      "link": "https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-20T17:01:36",
-      "excerpt": "記事の URL: https://www.smpte.…"
-    },
-    {
-      "title": "Ember、アクセシビリティを中心に構築したネイティブ iOS ハッカー ニュース リーダー",
-      "link": "https://github.com/DatanoiseTV/ember-hackernews",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-20T17:00:38",
-      "excerpt": "記事の URL: https://github.com/DatanoiseTV/ember-hackernews コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "ノーベル賞受賞者のジョン・ジャンパー氏がディープマインドを離れ、ライバルのアンスロピック社に移籍",
-      "link": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-06-20T16:39:57",
-      "excerpt": "Google DeepMind を去る有名人は Jumper 氏だけではない。"
     }
   ]
 }
