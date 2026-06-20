@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T14:37:58",
+  "generated_at": "2026-06-20T16:10:28",
   "window_hours": 24,
   "total": 105,
   "topic_count": 5,
@@ -7,8 +7,15 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が14件。こんにちは！AWS Summit Japan 2026がいよいよ来週に迫ってきましたね。今回は少し前に行われたAWS Summit NYCで発表された、AWS Security Agentの脅威モデリング機能について触ってみました。…",
+      "summary": "生成AIの新着が15件。Codex CLI 0.140.0 で追加された `/import` コマンドを実際に試してみました。Claude Code の設定・スキル・チャット履歴を Codex CLI へ取り込む仕組みと、実装から見えた挙動の詳細をお伝えします。",
       "articles": [
+        {
+          "title": "Codex CLI 0.140.0で追加された /import で Claude Code の設定とチャット履歴を取り込んでみた",
+          "link": "https://dev.classmethod.jp/articles/codex-cli-import-from-claude-code/",
+          "source": "DevelopersIO",
+          "published": "2026-06-20T15:31:50",
+          "excerpt": "Codex CLI 0.140.0 で追加された `/import` コマンドを実際に試してみました。Claude Code の設定・スキル・チャット履歴を Codex CLI へ取り込む仕組みと、実装から見えた挙動の詳細をお伝えします。"
+        },
         {
           "title": "AWS Security Agentの脅威モデリング機能を試してみた",
           "link": "https://qiita.com/takahash_3/items/1954f50759905b18e46b",
@@ -29,21 +36,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-20T10:17:02",
           "excerpt": "結論 AgentCore GatewayのWebSearchツールに言語フィルターパラメータは存在しません ターゲットの内部は SDK_UNKNOWN_MEMBER: connector（AWSマネージドコネクター）で設定変更不可です 後フ…"
-        },
-        {
-          "title": "AWS Blocks の AGENTS.md で Kiro にチャットアプリを作らせてみた",
-          "link": "https://dev.classmethod.jp/articles/aws-blocks-agents-md-kiro-chat-app/",
-          "source": "DevelopersIO",
-          "published": "2026-06-20T09:32:15",
-          "excerpt": "AWS Blocks の Agent Block で AI チャット機能を実装し、ローカルモックから Bedrock 応答へアプリケーションコードの追加変更なしに切り替わる動作を確認しました。プロジェクトルートの AGENTS.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。概要 VPC Flow Logsで新しいフィールドがサポートされました。…",
+      "summary": "クラウドの新着が9件。はじめに 2026 年 6 月 10 日、AWS は Amazon ECS Managed Daemons に対して、pidMode / ipcMode によるプロセス可視性・IPC 共有のサポートを発表しました。…",
       "articles": [
+        {
+          "title": "Amazon ECS マネージドデーモンがタスク間の可視性と通信をサポート",
+          "link": "https://qiita.com/Haruki-N/items/c23e6a86ae23752aaed5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-20T15:30:35",
+          "excerpt": "はじめに 2026 年 6 月 10 日、AWS は Amazon ECS Managed Daemons に対して、pidMode / ipcMode によるプロセス可視性・IPC 共有のサポートを発表しました。…"
+        },
+        {
+          "title": "「リンクを知っている人だけ」にHTMLを公開する 〜S3 + CloudFront 署名付きURLを初学者向けにやさしく解説（料金つき）〜",
+          "link": "https://qiita.com/tomoxxx/items/97047ddd39883d8f54e8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-20T15:05:34",
+          "excerpt": "この記事のゴール 1枚のHTMLファイルを、URLを知っている人だけが見られる形でネットに公開したい。でもコストはかけたくないし、閲覧期間も自分で設定したい、そしてせっかくなのでAWSの勉強もしたい。…"
+        },
         {
           "title": "VPC Flow Logsでタグ情報やネクストホップ情報が取得可能に",
           "link": "https://qiita.com/infra365/items/81174c2b05df0cfbaf59",
@@ -57,27 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-20T09:28:21",
           "excerpt": "はじめに 案件でECS、EFS、RDSを利用した構成を見る機会がありました。最初は、 EFSにファイルがあるなら、RDSはいらないのでは？ECSはどうやってRDSの情報を取得しているの？なぜ環境変数を使うの？といった疑問を持っていました。…"
-        },
-        {
-          "title": "【2026年版】Aurora PostgreSQL 実践チートシート ― クラスター作成直後にやる確認SQL・スキーマ設計・接続・設定まとめ",
-          "link": "https://qiita.com/similarmetal/items/83e33b56a873dc465d18",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-20T05:16:18",
-          "excerpt": "はじめに Aurora PostgreSQL でクラスターを立てるたびに「あれ、最初に何を確認するんだっけ」「このパラメータはクラスター側？インスタンス側？」と毎回ググっている人向けの 逆引き＋コピペチートシート です。…"
-        },
-        {
-          "title": "Amazon RDS for Db2 12.1 の提供開始と Community Edition の追加",
-          "link": "https://aws.amazon.com/jp/blogs/news/announcing-amazon-rds-for-db2-12-1-with-additional-community-edition/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-06-20T01:36:33",
-          "excerpt": "Amazon RDS for Db2 で IBM Db2 12.1 がサポートされました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。こんにちは！AWS Summit Japan 2026がいよいよ来週に迫ってきましたね。今回は少し前に行われたAWS Summit NYCで発表された、AWS Security Agentの脅威モデリング機能について触ってみました。…",
+      "summary": "セキュリティの新着が6件。こんにちは！AWS Summit Japan 2026がいよいよ来週に迫ってきましたね。今回は少し前に行われたAWS Summit NYCで発表された、AWS Security Agentの脅威モデリング機能について触ってみました。…",
       "articles": [
         {
           "title": "AWS Security Agentの脅威モデリング機能を試してみた",
@@ -94,25 +94,25 @@
           "excerpt": "「CTFから学ぶAWSセキュリティ」というタイトルでJAWS-UG福岡#26にLT登壇しました #jawsugfuk #jawsug"
         },
         {
+          "title": "KMSキーポリシーの考え方を整理する（root・IAM委任・クロスアカウント）",
+          "link": "https://zenn.dev/yuuyass/articles/126c82556a1a74",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-20T12:00:57",
+          "excerpt": "概要 先日SCSの試験を受験し、無事合格することができました。その勉強の中でもよく出てきたKMSのキーポリシーについての内容。…"
+        },
+        {
           "title": "Docker outside of Docker (DooD) のセキュリティリスク：なぜ「ソケット共有」は危険なのか",
           "link": "https://dev.classmethod.jp/articles/risk-of-dood/",
           "source": "DevelopersIO",
           "published": "2026-06-20T11:49:19",
           "excerpt": "Docker outside of Docker (DooD) のセキュリティリスク：なぜ「ソケット共有」は危険なのか"
-        },
-        {
-          "title": "AWS WAF が「AIボットへの課金」機能を追加 — HTTP 402 と x402 で実現するコンテンツ収益化",
-          "link": "https://zenn.dev/awesome_kou/articles/aws-waf-ai-traffic-monetization",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-20T05:47:28",
-          "excerpt": "はじめに 2026年6月15日、AWS は AWS WAF に「AI トラフィック収益化（AI traffic monetization）」機能 を追加したことを発表しました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。Summary DynamoDBのオンデマンドキャパシティは、「直近ピークの2倍超を30分以内に超えた場合」と「特定パーティションへのアクセス集中（ホットパーティション）」の2つの要因でスロットルが発生しやすい 全く同じキー構成のGSIをオ…",
+      "summary": "データ分析の新着が1件。Summary DynamoDBのオンデマンドキャパシティは、「直近ピークの2倍超を30分以内に超えた場合」と「特定パーティションへのアクセス集中（ホットパーティション）」の2つの要因でスロットルが発生しやすい 全く同じキー構成のGSIをオ…",
       "articles": [
         {
           "title": "DynamoDBのオンデマンドキャパシティがスロットリングしないように負荷分散した話",
@@ -120,21 +120,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-20T03:59:20",
           "excerpt": "Summary DynamoDBのオンデマンドキャパシティは、「直近ピークの2倍超を30分以内に超えた場合」と「特定パーティションへのアクセス集中（ホットパーティション）」の2つの要因でスロットルが発生しやすい 全く同じキー構成のGSIをオ…"
-        },
-        {
-          "title": "Amazon EKS Capabilities が Amazon CloudWatch Vended Logs に対応",
-          "link": "https://qiita.com/Haruki-N/items/f0de6005ce4e75c1d5af",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-19T16:07:05",
-          "excerpt": "はじめに 2026 年 6 月 4 日、AWS は Amazon EKS Capabilities に対して、CloudWatch Vended Logs によるログ配信サポートを発表しました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。はじめに 今年で 46 歳になるインフラエンジニアが IaC を ZERO から学ぶ為に、 私物の Surface 上に環境を構築した記録です。…",
+      "summary": "開発ツールの新着が12件。Codex CLI 0.140.0 で追加された `/import` コマンドを実際に試してみました。Claude Code の設定・スキル・チャット履歴を Codex CLI へ取り込む仕組みと、実装から見えた挙動の詳細をお伝えします。",
       "articles": [
+        {
+          "title": "Codex CLI 0.140.0で追加された /import で Claude Code の設定とチャット履歴を取り込んでみた",
+          "link": "https://dev.classmethod.jp/articles/codex-cli-import-from-claude-code/",
+          "source": "DevelopersIO",
+          "published": "2026-06-20T15:31:50",
+          "excerpt": "Codex CLI 0.140.0 で追加された `/import` コマンドを実際に試してみました。Claude Code の設定・スキル・チャット履歴を Codex CLI へ取り込む仕組みと、実装から見えた挙動の詳細をお伝えします。"
+        },
+        {
+          "title": "フロント、フルスタック、AWS？もう迷わない個人開発のデプロイ先ロードマップ",
+          "link": "https://zenn.dev/nekoninjin/articles/0330baa8f56c5d",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-20T10:00:05",
+          "excerpt": "自己紹介 はじめまして、猫にんじんです。Webアプリケーションエンジニアをしています。最近はClaudeにコードを書いてもらい、自分はレビューとデプロイボタンを押すだけの人（たまに猫）になりつつあります。…"
+        },
         {
           "title": "45 歳の最下級戦士が WSL2 で IaC 環境を構築してみた",
           "link": "https://qiita.com/BakuonKozo/items/8d47807142d7225868d9",
@@ -148,52 +155,38 @@
           "source": "CodeZine",
           "published": "2026-06-20T06:00:00",
           "excerpt": "GitHub Copilot、新規個人プランの申込受付を再開"
-        },
-        {
-          "title": "踏み台サーバー経由の2ホップデプロイをNode.js（ssh2）で完全自動化してみた",
-          "link": "https://dev.classmethod.jp/articles/ssh2-bastion-2hop-deploy-automation/",
-          "source": "DevelopersIO",
-          "published": "2026-06-20T04:24:48",
-          "excerpt": "インターネット接続なし・踏み台経由必須という制約のある閉域ネットワーク環境へのデプロイを、Node.jsのssh2ライブラリで完全自動化しました。…"
-        },
-        {
-          "title": "GitHub CopilotのOpus 4.6モデル、6月29日に廃止へ",
-          "link": "https://codezine.jp/article/detail/24626",
-          "source": "CodeZine",
-          "published": "2026-06-20T03:00:00",
-          "excerpt": "GitHub CopilotのOpus 4.6モデル、6月29日に廃止へ"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Amazon が「人間参加型」AI ガバナンスを嫌う理由",
-      "link": "https://www.theregister.com/security/2026/06/20/why-amazon-hates-human-in-the-loop-ai-governance/5258639",
-      "source": "The Register（英語）",
-      "published": "2026-06-20T14:25:00",
-      "excerpt": "副社長エリック・ブランドワインは、実際のところ、人間はそれほど優れているわけではないと説明する"
-    },
-    {
-      "title": "【2026年6月受験】AWS Certified Generative AI Developer - Professional (AIP-C01) 合格体験記",
-      "link": "https://qiita.com/T-Saki/items/5723d82afab7c6d2edd4",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-20T14:24:35",
-      "excerpt": "この度、AWS Certified Generative AI Developer - Professional (AIP-C01)を受験し、 無事に合格することができました。この記事では受験のきっかけや利用した教材等について記載します。…"
-    },
-    {
-      "title": "リトアニアの新興企業がシャヘド型ドローンを検知するオープンソースネットワークを立ち上げる",
-      "link": "https://www.lrt.lt/en/news-in-english/19/2965205/lithuanian-startup-launches-open-source-network-to-detect-shahed-type-drones",
+      "title": "ビッグテックが英国で不安を煽っている。なぜ？",
+      "link": "https://www.ft.com/content/0f3e33d2-0b9e-481d-a911-245d8cc01a9c",
       "source": "Hacker News（英語）",
-      "published": "2026-06-20T11:58:32",
-      "excerpt": "記事の URL: https://www.lrt.…"
+      "published": "2026-06-20T15:42:35",
+      "excerpt": "記事の URL: https://www.ft.com/content/0f3e33d2-0b9e-481d-a911-245d8cc01a9c コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "いろいろなサービスや媒体に散らばる会議議事録データを Snowflake の中だけで完結させたい | Fusic 技術ブログのフィード",
-      "link": "https://zenn.dev/fusic/articles/0020-snowflake-ai-meeting-pipeline",
-      "source": "企業テックブログまとめ",
-      "published": "2026-06-20T11:53:20",
-      "excerpt": "はじめにこんにちは、Fusicの岡山です。Snowflake1人アドベントカレンダー20日目です。後10日！！！ちなみに7月からはSnowflake以外のテーマで毎日投稿が確定しています。やばすぎる。…"
+      "title": "知っておく価値のある iOS 27 のすべての新機能",
+      "link": "https://techcrunch.com/2026/06/20/every-new-ios-27-feature-thats-worth-knowing-about/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-20T15:00:00",
+      "excerpt": "Apple の新しい Siri AI や Apple Intelligence のアップグレードほど派手ではありませんが、iOS 27 には注目に値する追加機能がまだたくさんあります。"
+    },
+    {
+      "title": "カーゴガイガー",
+      "link": "https://github.com/geiger-rs/cargo-geiger",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-20T14:52:59",
+      "excerpt": "記事の URL: https://github.com/geiger-rs/cargo-geiger コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "米国の科学者ジョン・ジャンパー氏がGoogle DeepMindを退職し、人類学へ",
+      "link": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19/",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-20T14:32:15",
+      "excerpt": "記事の URL: https://www.reuters.…"
     }
   ]
 }
