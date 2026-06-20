@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-20T19:07:56",
+  "generated_at": "2026-06-20T20:46:38",
   "window_hours": 24,
-  "total": 110,
+  "total": 114,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が14件。Codex CLI 0.140.0 で追加された `/import` コマンドを実際に試してみました。Claude Code の設定・スキル・チャット履歴を Codex CLI へ取り込む仕組みと、実装から見えた挙動の詳細をお伝えします。",
+      "summary": "生成AIの新着が12件。Codex CLI 0.140.0 で追加された `/import` コマンドを実際に試してみました。Claude Code の設定・スキル・チャット履歴を Codex CLI へ取り込む仕組みと、実装から見えた挙動の詳細をお伝えします。",
       "articles": [
         {
           "title": "Codex CLI 0.140.0で追加された /import で Claude Code の設定とチャット履歴を取り込んでみた",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。この記事の立ち位置 Security Hub の「基礎セキュリティのベストプラクティス（FSBP）」を潰していくとき、各コントロールの修復手順そのものは、AWS 公式ドキュメントや DevelopersIO にまとまっている。S3.…",
+      "summary": "セキュリティの新着が8件。記事の URL: https://www.tomshardware.…",
       "articles": [
+        {
+          "title": "AMDは7月のBIOSアップデートを通じてRyzen 9000 CPUのメモリ暗号化を復活させる予定",
+          "link": "https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-20T19:19:06",
+          "excerpt": "記事の URL: https://www.tomshardware.…"
+        },
         {
           "title": "Security Hub S3.9 を機械的に全適用するとログがループする ― CloudTrail.1 有効環境の落とし穴",
           "link": "https://zenn.dev/muzzledskr/articles/securityhub-s3-9-cloudtrail",
@@ -99,21 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-06-20T13:57:50",
           "excerpt": "「CTFから学ぶAWSセキュリティ」というタイトルでJAWS-UG福岡#26にLT登壇しました #jawsugfuk #jawsug"
-        },
-        {
-          "title": "KMSキーポリシーの考え方を整理する（root・IAM委任・クロスアカウント）",
-          "link": "https://zenn.dev/yuuyass/articles/126c82556a1a74",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-20T12:00:57",
-          "excerpt": "概要 先日SCSの試験を受験し、無事合格することができました。その勉強の中でもよく出てきたKMSのキーポリシーについての内容。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が1件。Summary DynamoDBのオンデマンドキャパシティは、「直近ピークの2倍超を30分以内に超えた場合」と「特定パーティションへのアクセス集中（ホットパーティション）」の2つの要因でスロットルが発生しやすい 全く同じキー構成のGSIをオ…",
+      "summary": "データ分析の新着が2件。記事の URL: https://www.tomshardware.…",
       "articles": [
+        {
+          "title": "AMDは7月のBIOSアップデートを通じてRyzen 9000 CPUのメモリ暗号化を復活させる予定",
+          "link": "https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-20T19:19:06",
+          "excerpt": "記事の URL: https://www.tomshardware.…"
+        },
         {
           "title": "DynamoDBのオンデマンドキャパシティがスロットリングしないように負荷分散した話",
           "link": "https://qiita.com/takumiida1/items/c79061ef59a6159a8f05",
@@ -126,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。Github にいくつかのプロジェクトがあります。バイブコーダーやボットからスパム PR やリクエストを大量に受け取ります。ほとんどは自分のプロフィールを宣伝するためです。星も明らかに誇張されています。…",
+      "summary": "開発ツールの新着が15件。記事の URL: https://github.com/overflowy/make-look-scanned コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "HN を表示: PDF をスキャンしたように見せます (CLI または WASM 経由のブラウザーで)",
+          "link": "https://github.com/overflowy/make-look-scanned",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-20T18:17:58",
+          "excerpt": "記事の URL: https://github.com/overflowy/make-look-scanned コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "HN に質問: GitHub 上のスパムが原因で、プロジェクトをどのプラットフォームに移動できますか?",
           "link": "https://news.ycombinator.com/item?id=48611303",
@@ -148,45 +162,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-06-20T13:27:19",
           "excerpt": "EventBridge Scheduler で Lambda 関数を呼び出す際、ペイロードを渡すことができる。簡単に設定できるが、Terraform で書かれた例がすぐに見つけられなかったので、備忘として書いておく。…"
-        },
-        {
-          "title": "フロント、フルスタック、AWS？もう迷わない個人開発のデプロイ先ロードマップ",
-          "link": "https://zenn.dev/nekoninjin/articles/0330baa8f56c5d",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-20T10:00:05",
-          "excerpt": "自己紹介 はじめまして、猫にんじんです。Webアプリケーションエンジニアをしています。最近はClaudeにコードを書いてもらい、自分はレビューとデプロイボタンを押すだけの人（たまに猫）になりつつあります。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ファウンダーズ・ファンド、人道的に殺された魚に対する異常な賭け",
-      "link": "https://techcrunch.com/2026/06/20/founders-funds-outlier-bet-on-humanely-killed-fish/",
+      "title": "AWS CloudWatchのディスク使用率アラーム発報からEBS拡張で解消するまで",
+      "link": "https://qiita.com/katsu-ya/items/1bab416c33e54f011194",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-20T20:44:53",
+      "excerpt": "はじめに Railsアプリ「TaskLink」をAWS上で運用していたところ、CloudWatchからディスク使用率超過のアラームメールが届きました。…"
+    },
+    {
+      "title": "Signal のメレディス・ウィテカー氏は、AI チャットボットは「友達ではない」ということを覚えておいてほしいと述べています。",
+      "link": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
       "source": "TechCrunch（英語）",
-      "published": "2026-06-20T18:26:02",
-      "excerpt": "シンケイは魚を素早く人道的に殺すため、冷蔵庫ほどの大きさのロボット「ポセイドン」を作った。"
+      "published": "2026-06-20T20:32:29",
+      "excerpt": "「彼らはあなたの友達ではありません。彼らは意識を持った存在ではありません。彼らは感覚を持った対話者ではありません。」"
     },
     {
-      "title": "代理店がベストセラー作家の本を盗み、AIを利用して自社の本として再発売",
-      "link": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-20T18:05:31",
-      "excerpt": "記事の URL: https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/ コメント URL: https://news.ycombinator.…"
+      "title": "In the Weights は、新しい AI 中心のバニティ検索です",
+      "link": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-20T19:41:11",
+      "excerpt": "それで...あなたのイン・ザ・ウェイトのスコアは何ですか?"
     },
     {
-      "title": "体の一部を再生する能力は哺乳類では眠っており、失われているわけではない",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260617032207.htm",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-20T17:27:36",
-      "excerpt": "記事の URL: https://www.sciencedaily.com/releases/2026/06/260617032207.htm コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "UHF X11: VisionOS および Apple Vision Pro 用に構築された X11",
-      "link": "https://www.lispm.net/apps/uhf-x11/",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-20T17:04:24",
-      "excerpt": "記事の URL: https://www.lispm.net/apps/uhf-x11/ コメント URL: https://news.ycombinator.com/item?id=48610853 ポイント: 11 コメント数: 3"
+      "title": "[個人メモ]AWS Summit Japan 2026 参加準備まとめ",
+      "link": "https://qiita.com/s_moriyama/items/e301ebdf1c733cf83473",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-20T19:37:19",
+      "excerpt": "はじめに 今回は技術検証記事でも、ポエム記事でもなく、ほぼ私のメモ書きような記事です。（ API の取得に専念しているためです ） 今年は転職したこともあり、AWS Summit Japan 2026 に全日参加できます！…"
     }
   ]
 }
