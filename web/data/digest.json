@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-21T10:24:48",
+  "generated_at": "2026-06-21T12:23:10",
   "window_hours": 24,
-  "total": 114,
+  "total": 121,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が13件。生成 AI で書類審査を行う AWS ソリューション「RAPID」をデプロイして使ってみた",
+      "summary": "生成AIの新着が17件。Amazon Bedrock Managed Knowledge Baseをたくさん触ってブログを書いてみました！",
       "articles": [
+        {
+          "title": "Amazon Bedrock Managed Knowledge Base を触ってみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-managed-knowledge-base-retrieve-agentic-retrieval/",
+          "source": "DevelopersIO",
+          "published": "2026-06-21T11:26:49",
+          "excerpt": "Amazon Bedrock Managed Knowledge Baseをたくさん触ってブログを書いてみました！"
+        },
+        {
+          "title": "AI-DLC Workflows v2がプレビューリリースされたのでKiro CLI / Claude Code / Codex CLIにインストールしてみた",
+          "link": "https://dev.classmethod.jp/articles/aidlc-workflows-v2-install-kiro-claude-codex/",
+          "source": "DevelopersIO",
+          "published": "2026-06-21T10:42:52",
+          "excerpt": "AI-DLC Workflows v2が2026-06-18にプレビューリリースされました。TypeScriptによるネイティブ実装へ全面刷新され、決定論的エンジンや状態管理が加わっています。…"
+        },
         {
           "title": "生成 AI で書類審査を行う AWS ソリューション「RAPID」をデプロイして使ってみた",
           "link": "https://dev.classmethod.jp/articles/try-rapid-document-review-on-aws/",
@@ -22,27 +36,13 @@
           "source": "ITmedia NEWS",
           "published": "2026-06-21T06:43:00",
           "excerpt": "Google DeepMindで「AlphaFold」の開発を主導し、デミス・ハサビスCEOと共にノーベル化学賞を受賞したジョン・ジャンパー氏が、Anthropicに移ると自身のXで明らかにした。…"
-        },
-        {
-          "title": "【Datadog】Pup CLI ＋ Claude Code で モニター情報をレポート化してみた | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/dd-pup-cli01",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-21T06:37:53",
-          "excerpt": "APIキー不要！DatadogのPup CLIを用いたモニターデータの全件取得とMarkdownレポート化の仕組みを解説。"
-        },
-        {
-          "title": "AWSのPhysical AI Scaffolding Kit (PASK)を試す② — HyperPodでNVIDIA Isaac GR00Tをファインチューニング",
-          "link": "https://dev.classmethod.jp/articles/aws-pask-hyperpod-nvidia-isaac-gr00t-finetuning/",
-          "source": "DevelopersIO",
-          "published": "2026-06-21T04:44:07",
-          "excerpt": "AWSのPhysical AI Scaffolding Kit (PASK)を試す② — HyperPodでNVIDIA Isaac GR00Tをファインチューニング"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。はじめに AWSの2つのVPCをつなぎたくなったとき、自分は最初「VPNを張ればいいのかな」と考えていました。オンプレとAWSをつなぐときにVPNを使った記憶があったので、その延長で手が動いたんです。でも、これはかなり遠回りでした。…",
+      "summary": "クラウドの新着が15件。はじめに AWSの2つのVPCをつなぎたくなったとき、自分は最初「VPNを張ればいいのかな」と考えていました。オンプレとAWSをつなぐときにVPNを使った記憶があったので、その延長で手が動いたんです。でも、これはかなり遠回りでした。…",
       "articles": [
         {
           "title": "【AWS】VPC PeeringとVPNの違いを、実際にCIDRが丸かぶりでハマりながら整理してみた",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。Canonical、Mythosをはじめとする最新のAIに対応したUbuntuのセキュリティ対策を発表",
+      "summary": "セキュリティの新着が9件。Canonical、Mythosをはじめとする最新のAIに対応したUbuntuのセキュリティ対策を発表",
       "articles": [
         {
           "title": "Canonical、Mythosをはじめとする最新のAIに対応したUbuntuのセキュリティ対策を発表",
@@ -126,67 +126,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。生成 AI で書類審査を行う AWS ソリューション「RAPID」をデプロイして使ってみた",
+      "summary": "開発ツールの新着が15件。はじめに CloudFormation のテンプレート（YAML）を書いていたら、文法的に正しいはずの行がエディタで赤や黄色になりました。表示に従って直すと、今度は別の行が赤くなる…の繰り返しで、迷いました。…",
       "articles": [
+        {
+          "title": "cfn-lint は緑、でもエディタは赤かった話【CloudFormation】",
+          "link": "https://qiita.com/80-cloud/items/9c008a1535c119b89a49",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-21T11:48:27",
+          "excerpt": "はじめに CloudFormation のテンプレート（YAML）を書いていたら、文法的に正しいはずの行がエディタで赤や黄色になりました。表示に従って直すと、今度は別の行が赤くなる…の繰り返しで、迷いました。…"
+        },
+        {
+          "title": "GitHub Copilot SDK が GA！TypeScript で カスタムツールを動かして料金体系も調べてみた",
+          "link": "https://dev.classmethod.jp/articles/shoma-github-copilot-sdk-ga-typescript-hello-world-to-custom-tools-pricing/",
+          "source": "DevelopersIO",
+          "published": "2026-06-21T11:33:56",
+          "excerpt": "GitHub Copilot SDK が GA！TypeScript で カスタムツールを動かして料金体系も調べてみた"
+        },
+        {
+          "title": "AI-DLC Workflows v2がプレビューリリースされたのでKiro CLI / Claude Code / Codex CLIにインストールしてみた",
+          "link": "https://dev.classmethod.jp/articles/aidlc-workflows-v2-install-kiro-claude-codex/",
+          "source": "DevelopersIO",
+          "published": "2026-06-21T10:42:52",
+          "excerpt": "AI-DLC Workflows v2が2026-06-18にプレビューリリースされました。TypeScriptによるネイティブ実装へ全面刷新され、決定論的エンジンや状態管理が加わっています。…"
+        },
         {
           "title": "生成 AI で書類審査を行う AWS ソリューション「RAPID」をデプロイして使ってみた",
           "link": "https://dev.classmethod.jp/articles/try-rapid-document-review-on-aws/",
           "source": "DevelopersIO",
           "published": "2026-06-21T08:31:22",
           "excerpt": "生成 AI で書類審査を行う AWS ソリューション「RAPID」をデプロイして使ってみた"
-        },
-        {
-          "title": "【Datadog】Pup CLI ＋ Claude Code で モニター情報をレポート化してみた | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/dd-pup-cli01",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-21T06:37:53",
-          "excerpt": "APIキー不要！DatadogのPup CLIを用いたモニターデータの全件取得とMarkdownレポート化の仕組みを解説。"
-        },
-        {
-          "title": "GitHub CLIにリモートリポジトリのファイル閲覧機能が追加",
-          "link": "https://codezine.jp/article/detail/24610",
-          "source": "CodeZine",
-          "published": "2026-06-21T06:00:00",
-          "excerpt": "GitHub CLIにリモートリポジトリのファイル閲覧機能が追加"
-        },
-        {
-          "title": "Kiro CLI v3.0.0がやってくる！",
-          "link": "https://qiita.com/kamogashira/items/a3a06fafce2343c4bb6c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-21T03:16:50",
-          "excerpt": "はじめに 本記事では、Kiro CLI v2.8.0 で先行公開された Kiro CLI v3（Early Access）の仕様駆動開発（Spec-driven development）を紹介します。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【AWS Blocks 入門】AWSのIfCツール「AWS Blocks」を体験してみた！",
-      "link": "https://qiita.com/yosuke-suzuki/items/aaac7afe22edf08d8d7d",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-21T09:27:12",
-      "excerpt": "はじめに 2026年6月16日、AWSから AWS Blocks がパブリックプレビューとして発表されました。AWS Blocksは、フルスタックアプリケーション向けのオープンソースのバックエンド開発フレームワークです。…"
+      "title": "Windows の AWS Deadline Cloud Worker でジョブが同じエラーで 3 回拒否された話",
+      "link": "https://dev.classmethod.jp/articles/aws-deadline-cloud-windows-worker-agent-user/",
+      "source": "DevelopersIO",
+      "published": "2026-06-21T12:00:06",
+      "excerpt": "Windows の AWS Deadline Cloud Worker で WORKER_AGENT_USER モードのジョブを動かそうとしたところ、同じエラーメッセージのまま 3 段階に渡って拒否されました。…"
     },
     {
-      "title": "Google、IPv6 の 50% を達成",
-      "link": "https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/",
+      "title": "史上最も偉大な鳥の名前100選",
+      "link": "https://birdhistory.substack.com/p/the-100-greatest-bird-names-of-all",
       "source": "Hacker News（英語）",
-      "published": "2026-06-21T08:21:22",
-      "excerpt": "記事の URL: https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-06-21T11:50:37",
+      "excerpt": "記事の URL: https://birdhistory.substack.com/p/the-100-greatest-bird-names-of-all コメント URL: https://news.ycombinator.…"
     },
     {
-      "title": "APL で書かれた 3D ボクセル ゲーム エンジン",
-      "link": "https://github.com/namgyaaal/avoxelgame",
+      "title": "幾何代​​数に対する訴訟",
+      "link": "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html",
       "source": "Hacker News（英語）",
-      "published": "2026-06-21T08:04:54",
-      "excerpt": "記事の URL: https://github.com/namgyaaal/avoxelgame コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-06-21T11:06:55",
+      "excerpt": "記事の URL: https://alexkritchevsky.com/2024/02/28/geometric-algebra.html コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "PrivateLinkとResource Gatewayで既存IPv4環境を変更せずにIPv6環境へ接続する",
-      "link": "https://qiita.com/infra365/items/94c359afab6508e2c657",
+      "title": "個人開発でコーディングAIに振り回されないために、自分用テンプレートを作った話",
+      "link": "https://qiita.com/jus1730/items/d9947f7f0bc80d3daf23",
       "source": "Qiita AWSタグ",
-      "published": "2026-06-21T06:39:51",
-      "excerpt": "概要 既存VPCのIPv4環境を変更せずに、IPv6環境のVPCと通信したい場合の構成パターンを検証します。…"
+      "published": "2026-06-21T11:01:10",
+      "excerpt": "はじめに 2026年上半期、自分の個人開発の進め方は大きく変わりました。きっかけは、自分用の開発テンプレート（Amplify Gen 2 x Kiro）を作ったことです。…"
     }
   ]
 }
