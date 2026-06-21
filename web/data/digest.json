@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-20T23:06:32",
+  "generated_at": "2026-06-21T01:45:01",
   "window_hours": 24,
-  "total": 112,
+  "total": 118,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が12件。記事の URL: https://www.phoronix.com/news/systemd-261 コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が14件。gpt-image-1とDALL-E 3の違いから、Autoregressive（自己回帰）モデルとDiffusion（拡散）モデルの本質的な差異を解説。…",
       "articles": [
+        {
+          "title": "画像生成AIのアーキテクチャ対決：Autoregressive vs Diffusion — 2026年の勝者は？",
+          "link": "https://dev.classmethod.jp/articles/autoregressive-vs-diffusion-image-generation-2026/",
+          "source": "DevelopersIO",
+          "published": "2026-06-21T01:30:29",
+          "excerpt": "gpt-image-1とDALL-E 3の違いから、Autoregressive（自己回帰）モデルとDiffusion（拡散）モデルの本質的な差異を解説。…"
+        },
+        {
+          "title": "Amazon SageMaker HyperPod が efa-only ネットワークインターフェイスをサポートしたので試してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-sagemaker-hyperpod-efa-only/",
+          "source": "DevelopersIO",
+          "published": "2026-06-20T23:47:45",
+          "excerpt": "Amazon SageMaker HyperPod が efa-only ネットワークインターフェイスをサポートしたので試してみた"
+        },
         {
           "title": "Systemd 261 は systemd-sysinstall、IMDSD、および storagectl とともにリリースされました",
           "link": "https://www.phoronix.com/news/systemd-261",
@@ -17,33 +31,26 @@
           "excerpt": "記事の URL: https://www.phoronix.com/news/systemd-261 コメント URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "Codex CLI 0.140.0で追加された /import で Claude Code の設定とチャット履歴を取り込んでみた",
-          "link": "https://dev.classmethod.jp/articles/codex-cli-import-from-claude-code/",
-          "source": "DevelopersIO",
-          "published": "2026-06-20T15:31:50",
-          "excerpt": "Codex CLI 0.140.0 で追加された `/import` コマンドを実際に試してみました。Claude Code の設定・スキル・チャット履歴を Codex CLI へ取り込む仕組みと、実装から見えた挙動の詳細をお伝えします。"
-        },
-        {
-          "title": "Claude Code と Codex を使い比べて見えた設計思想の違い",
-          "link": "https://zenn.dev/tark_ann/articles/e8b09c6db73bfb",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-06-20T14:55:45",
-          "excerpt": "この記事は、今まで Claude Code 1本でやってきていたエンジニアが、Opus 4.7 の体験が悪く、Codex に浮気してみて気づいたことのまとめである。…"
-        },
-        {
-          "title": "AWS Security Agentの脅威モデリング機能を試してみた",
-          "link": "https://qiita.com/takahash_3/items/1954f50759905b18e46b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-20T14:15:50",
-          "excerpt": "こんにちは！AWS Summit Japan 2026がいよいよ来週に迫ってきましたね。今回は少し前に行われたAWS Summit NYCで発表された、AWS Security Agentの脅威モデリング機能について触ってみました。…"
+          "title": "AWS WAFが呼び戻した402 Payment Requiredとエージェント経済の決済レイヤー",
+          "link": "https://zenn.dev/genda_jp/articles/e15ae8faed0474",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-20T21:13:46",
+          "excerpt": "AWS WAFにAI traffic monetizationという機能が追加されました。サイトやAPIにアクセスしてくるAIボットに対して、コンテンツの利用料を課金できる機能です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。全体 localの場合 localstackを利用する Storage構造体を作成する s3のclientなどをfieldに持つ ポイント timeout retryは入れる 外部通信の場合は基本入れる マイクロサービスの内部通信でもやる…",
+      "summary": "クラウドの新着が9件。はじめに 2026 年 6 月 11 日、AWS は Amazon EKS ローカルクラスターについて、EC2 インスタンスストアから起動する AWS Outposts ラックへの対応を発表しました。…",
       "articles": [
+        {
+          "title": "Amazon EKS が Amazon EC2 インスタンスストアを使用する AWS Outposts 上のローカルクラスターをサポート",
+          "link": "https://qiita.com/Haruki-N/items/6492168bda94a8ecf522",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-21T01:40:56",
+          "excerpt": "はじめに 2026 年 6 月 11 日、AWS は Amazon EKS ローカルクラスターについて、EC2 インスタンスストアから起動する AWS Outposts ラックへの対応を発表しました。…"
+        },
         {
           "title": "Go S3 で画像アップロード実装",
           "link": "https://zenn.dev/engineer_reborn/articles/fb6b77875866e2",
@@ -64,48 +71,41 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-20T15:30:35",
           "excerpt": "はじめに 2026 年 6 月 10 日、AWS は Amazon ECS Managed Daemons に対して、pidMode / ipcMode によるプロセス可視性・IPC 共有のサポートを発表しました。…"
-        },
-        {
-          "title": "「リンクを知っている人だけ」にHTMLを公開する 〜S3 + CloudFront 署名付きURLを初学者向けにやさしく解説（料金つき）〜",
-          "link": "https://qiita.com/tomoxxx/items/97047ddd39883d8f54e8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-20T15:05:34",
-          "excerpt": "この記事のゴール 1枚のHTMLファイルを、URLを知っている人だけが見られる形でネットに公開したい。でもコストはかけたくないし、閲覧期間も自分で設定したい、そしてせっかくなのでAWSの勉強もしたい。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。記事の URL: https://www.tomshardware.…",
+      "summary": "セキュリティの新着が10件。ロールの権限を1つも変えずに「誰が成り代われるか」が広がる差分がある 信頼ポリシー（assume_role_policy）の Principal 拡大は、ロールに紐づく権限を1行も変えないまま「誰がそのロールになれるか」を広げる。…",
       "articles": [
+        {
+          "title": "IAM 信頼ポリシーの Principal 拡大を検知する — クロスアカウント越境を apply 前と実行時に防ぐ設計",
+          "link": "https://zenn.dev/ojt/articles/iam-trust-policy-principal-expansion-detection",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-21T01:42:00",
+          "excerpt": "ロールの権限を1つも変えずに「誰が成り代われるか」が広がる差分がある 信頼ポリシー（assume_role_policy）の Principal 拡大は、ロールに紐づく権限を1行も変えないまま「誰がそのロールになれるか」を広げる。…"
+        },
+        {
+          "title": "【認証編】Cognitoのお作法に逆らって、「登録だけ先・認証は後」を通した話",
+          "link": "https://zenn.dev/shomitei/articles/alumni-spa-05-auth",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-21T01:16:51",
+          "excerpt": "はじめに 2026年2月、2025年度卒業生向けに仮登録パスを急遽リリースし、URLを展開しました。でも、リリースから数週間。登録者数は4〜5名だった、という話から始まります。母校の卒業生はおおよそ400名います。…"
+        },
+        {
+          "title": "AWS WAFが呼び戻した402 Payment Requiredとエージェント経済の決済レイヤー",
+          "link": "https://zenn.dev/genda_jp/articles/e15ae8faed0474",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-20T21:13:46",
+          "excerpt": "AWS WAFにAI traffic monetizationという機能が追加されました。サイトやAPIにアクセスしてくるAIボットに対して、コンテンツの利用料を課金できる機能です。…"
+        },
         {
           "title": "AMDは7月のBIOSアップデートを通じてRyzen 9000 CPUのメモリ暗号化を復活させる予定",
           "link": "https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback",
           "source": "Hacker News（英語）",
           "published": "2026-06-20T19:19:06",
           "excerpt": "記事の URL: https://www.tomshardware.…"
-        },
-        {
-          "title": "Security Hub S3.9 を機械的に全適用するとログがループする ― CloudTrail.1 有効環境の落とし穴",
-          "link": "https://zenn.dev/muzzledskr/articles/securityhub-s3-9-cloudtrail",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-20T16:02:41",
-          "excerpt": "この記事の立ち位置 Security Hub の「基礎セキュリティのベストプラクティス（FSBP）」を潰していくとき、各コントロールの修復手順そのものは、AWS 公式ドキュメントや DevelopersIO にまとまっている。S3.…"
-        },
-        {
-          "title": "AWS Security Agentの脅威モデリング機能を試してみた",
-          "link": "https://qiita.com/takahash_3/items/1954f50759905b18e46b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-20T14:15:50",
-          "excerpt": "こんにちは！AWS Summit Japan 2026がいよいよ来週に迫ってきましたね。今回は少し前に行われたAWS Summit NYCで発表された、AWS Security Agentの脅威モデリング機能について触ってみました。…"
-        },
-        {
-          "title": "「CTFから学ぶAWSセキュリティ」というタイトルでJAWS-UG福岡#26にLT登壇しました #jawsugfuk #jawsug",
-          "link": "https://dev.classmethod.jp/articles/jawsugfuk-26-lt5/",
-          "source": "DevelopersIO",
-          "published": "2026-06-20T13:57:50",
-          "excerpt": "「CTFから学ぶAWSセキュリティ」というタイトルでJAWS-UG福岡#26にLT登壇しました #jawsugfuk #jawsug"
         }
       ]
     },
@@ -133,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。記事の URL: https://github.com/overflowy/make-look-scanned コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が11件。AWSをブラウザ上で操作する以外の方法でCLI以外に、CloudFormation、AWS CDK、AWS SDKといった似たような名前のツールがいくつかあります。…",
       "articles": [
+        {
+          "title": "【AWS】なんとなくややこしいCloudFormation、CDK、SDKの違い + Terraform",
+          "link": "https://qiita.com/qtarouuuu/items/ffffc6c42f9ba569f59e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-21T01:06:25",
+          "excerpt": "AWSをブラウザ上で操作する以外の方法でCLI以外に、CloudFormation、AWS CDK、AWS SDKといった似たような名前のツールがいくつかあります。…"
+        },
         {
           "title": "HN を表示: PDF をスキャンしたように見せます (CLI または WASM 経由のブラウザーで)",
           "link": "https://github.com/overflowy/make-look-scanned",
@@ -155,45 +162,38 @@
           "source": "DevelopersIO",
           "published": "2026-06-20T15:31:50",
           "excerpt": "Codex CLI 0.140.0 で追加された `/import` コマンドを実際に試してみました。Claude Code の設定・スキル・チャット履歴を Codex CLI へ取り込む仕組みと、実装から見えた挙動の詳細をお伝えします。"
-        },
-        {
-          "title": "【Terraform】EventBridge SchedulerでLambda関数にペイロードを渡す",
-          "link": "https://zenn.dev/aminevsky/articles/168c0335ffaa3d",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-20T13:27:19",
-          "excerpt": "EventBridge Scheduler で Lambda 関数を呼び出す際、ペイロードを渡すことができる。簡単に設定できるが、Terraform で書かれた例がすぐに見つけられなかったので、備忘として書いておく。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "世界を支配しようとしているエリート狂人の陰謀団が存在することが判明",
-      "link": "https://www.esquire.com/news-politics/politics/a71619211/peter-thiel-dialog-club-wired-report/",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-20T22:50:43",
-      "excerpt": "記事の URL: https://www.esquire.…"
+      "title": "Next.js + FastAPI を nginx サブパスで配信するときに踏んだ3つの落とし穴 — trailingSlash・ルーティング分離・MuleSoftのSSEバッファリング",
+      "link": "https://dev.classmethod.jp/articles/nextjs-fastapi-nginx-subpath-routing-pitfalls/",
+      "source": "DevelopersIO",
+      "published": "2026-06-21T01:00:10",
+      "excerpt": "Next.…"
     },
     {
-      "title": "2022 年以前の書籍",
-      "link": "https://notes.lorenzogravina.com/musings/pre-2022-books",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-20T22:36:23",
-      "excerpt": "記事の URL: https://notes.lorenzogravina.com/musings/pre-2022-books コメント URL: https://news.ycombinator.com/item?…"
+      "title": "Googleマップで閉業になった中華店に来たら、看板出てたので店主に声をかけて着席…しかし店主はずっとライターカチカチし続けるだけ→近所の人から告げられた事実がこれ",
+      "link": "https://togetter.com/li/2711775",
+      "source": "はてなブックマーク（テクノロジー）",
+      "published": "2026-06-21T00:57:41",
+      "excerpt": "真人＠階段巡りツイッター @kaidanmeguri グーグルマップで閉業になった中華店に確認にきたら看板出てて店主に声をかけて着席。しかし店主がずっとライターをカチカチし続けてるだけで進まない。…"
     },
     {
-      "title": "CloudTrail の管理イベントにおけるイベント種類の識別について",
-      "link": "https://qiita.com/hijiri0404/items/8feddc8d09095a7fd172",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-20T22:15:13",
-      "excerpt": "AWS CloudTrail には eventType というフィールドがあり、記録されたイベントの種類を分類する。…"
+      "title": "「邪魔にならないようにしなければならなかった」：配達ロボットに対する反発",
+      "link": "https://www.bbc.com/news/articles/c0rygp005wjo",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-21T00:12:49",
+      "excerpt": "記事の URL: https://www.bbc.com/news/articles/c0rygp005wjo コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "自動操縦モードのテスラがテキサスの住宅に衝突、女性死亡",
-      "link": "https://abcnews.com/US/tesla-allegedly-autopilot-mode-crashes-texas-house-woman/story?id=134062374",
+      "title": "プロジェクトのフェッチ: フェーズ 2",
+      "link": "https://www.anthropic.com/research/project-fetch-phase-two",
       "source": "Hacker News（英語）",
-      "published": "2026-06-20T22:14:15",
-      "excerpt": "記事の URL: https://abcnews.com/US/tesla-allegedly-autopilot-mode-crashes-texas-house-women/story?…"
+      "published": "2026-06-21T00:00:25",
+      "excerpt": "記事の URL: https://www.anthropic.com/research/project-fetch-phase-two コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
