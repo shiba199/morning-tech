@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-06-21T20:09:40",
+  "generated_at": "2026-06-21T21:49:39",
   "window_hours": 24,
-  "total": 116,
+  "total": 119,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。Equity の新しいエピソードでは、Anthropic に対する政権の最近の動きの実際の原因と、これが AI エコシステムに何を意味するかについて議論しました。",
+      "summary": "生成AIの新着が23件。はじめに 2026/6/17のAWS Summit New York Cityで、AWS Security Agent 脅威モデリング機能のパブリックプレビュー版公開が発表されました。…",
       "articles": [
+        {
+          "title": "AWS Security Agent といっしょに脅威モデリングをやってみよう",
+          "link": "https://qiita.com/amarelo_n24/items/997a8fb958e14291ce94",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-21T21:08:49",
+          "excerpt": "はじめに 2026/6/17のAWS Summit New York Cityで、AWS Security Agent 脅威モデリング機能のパブリックプレビュー版公開が発表されました。…"
+        },
         {
           "title": "トランプ政権がAnthropicを取り締まったとき、誰が得をするのでしょうか?",
           "link": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
@@ -29,13 +36,6 @@
           "source": "Publickey",
           "published": "2026-06-21T15:24:42",
           "excerpt": "Amazon Web Services（AWS）は、AIエージェントがコードリポジトリを継続的に自動スキャンし、サポートが終了したライブラリやフレームワークなどを始めとする技術的負債を検出し、優先順位をつけて報告あるいは修正のためのプルリク…"
-        },
-        {
-          "title": "[アップデート] Amazon OpenSearch Serverless NextGen × Amazon Bedrock (Claude) で自然言語を検索 DSL に変換する Agentic Search を試してみた",
-          "link": "https://dev.classmethod.jp/articles/20260621-amazon-opensearch-serverless-agentic-search/",
-          "source": "DevelopersIO",
-          "published": "2026-06-21T14:37:43",
-          "excerpt": "Amazon OpenSearch Serverless で自然言語検索（Agentic Search）が利用できるようになったので、東京リージョンで実際に構築して、Claude Sonnet 4.…"
         }
       ]
     },
@@ -77,8 +77,22 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。Amazon Web Services（AWS）は、コードをスキャンするだけでなく、インフラ構成やアクセス許可、ネットワークトポロジーそしてビジネス上の優先事項やドキュメントなどの非構造化データなどをコンテキストとして活用し、システムの脆弱…",
+      "summary": "セキュリティの新着が7件。はじめに 2026/6/17のAWS Summit New York Cityで、AWS Security Agent 脅威モデリング機能のパブリックプレビュー版公開が発表されました。…",
       "articles": [
+        {
+          "title": "AWS Security Agent といっしょに脅威モデリングをやってみよう",
+          "link": "https://qiita.com/amarelo_n24/items/997a8fb958e14291ce94",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-21T21:08:49",
+          "excerpt": "はじめに 2026/6/17のAWS Summit New York Cityで、AWS Security Agent 脅威モデリング機能のパブリックプレビュー版公開が発表されました。…"
+        },
+        {
+          "title": "「セキュリティのアレ」の3人が事例から導く、サプライチェーン攻撃対策の楔",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/22/news008.html",
+          "source": "@IT",
+          "published": "2026-06-21T20:00:00",
+          "excerpt": "2026年5月29日、「ITmedia Security Week 2026 春」で、パネルディスカッション「信頼の境界線に打つ楔」が行われた。"
+        },
         {
           "title": "AWS、コードだけでなくインフラ構成とビジネスコンテキストも理解した上で脆弱性を推論する「AWS Contiuum」発表。特定のAIモデルに依存せず",
           "link": "https://www.publickey1.jp/blog/26/awsaws_contiuumai.html",
@@ -92,28 +106,21 @@
           "source": "CodeZine",
           "published": "2026-06-21T09:00:00",
           "excerpt": "Canonical、Mythosをはじめとする最新のAIに対応したUbuntuのセキュリティ対策を発表"
-        },
-        {
-          "title": "【Security Hub修復手順】[ECS.21] ECS タスク定義では、Windowsコンテナ定義で管理者以外のユーザーを設定する必要があります",
-          "link": "https://dev.classmethod.jp/articles/2026-06-21-securityhub-fsbp-remediation-ecs-21/",
-          "source": "DevelopersIO",
-          "published": "2026-06-21T07:14:56",
-          "excerpt": "【Security Hub修復手順】[ECS.21] ECS タスク定義では、Windowsコンテナ定義で管理者以外のユーザーを設定する必要があります"
-        },
-        {
-          "title": "IAM 信頼ポリシーの Principal 拡大を検知する — クロスアカウント越境を apply 前と実行時に防ぐ設計",
-          "link": "https://zenn.dev/ojt/articles/iam-trust-policy-principal-expansion-detection",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-21T01:42:00",
-          "excerpt": "ロールの権限を1つも変えずに「誰が成り代われるか」が広がる差分がある 信頼ポリシー（assume_role_policy）の Principal 拡大は、ロールに紐づく権限を1行も変えないまま「誰がそのロールになれるか」を広げる。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。TechCrunch Mobility へようこそ。交通の未来に関するニュースと洞察の中心ハブです。",
+      "summary": "データ分析の新着が3件。AI活用が進む中、データベースへの関心が高まっている。そうした中、オープンソースの高速OLAPデータベースとして利用実績を増やしているのがClickHouseだ。マツダがデータ分析の取り組みを紹介した。",
       "articles": [
+        {
+          "title": "マツダはなぜデータ分析基盤にClickHouseを使うのか――データをためるより「取り出す」こそ問題だった",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/22/news013.html",
+          "source": "@IT",
+          "published": "2026-06-21T20:00:00",
+          "excerpt": "AI活用が進む中、データベースへの関心が高まっている。そうした中、オープンソースの高速OLAPデータベースとして利用実績を増やしているのがClickHouseだ。マツダがデータ分析の取り組みを紹介した。"
+        },
         {
           "title": "TechCrunch Mobility: 新しいロボタクシーのスコアカードは中国の優位性を示す",
           "link": "https://techcrunch.com/2026/06/21/techcrunch-mobility-a-new-robotaxi-scorecard-shows-chinas-dominance/",
@@ -133,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。こんにちは。とむです。せっかくAWS AIPを取得したのに、AWSのAIサービスを全く触ったことない！…",
+      "summary": "開発ツールの新着が15件。AI活用が進む中、データベースへの関心が高まっている。そうした中、オープンソースの高速OLAPデータベースとして利用実績を増やしているのがClickHouseだ。マツダがデータ分析の取り組みを紹介した。",
       "articles": [
+        {
+          "title": "マツダはなぜデータ分析基盤にClickHouseを使うのか――データをためるより「取り出す」こそ問題だった",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/22/news013.html",
+          "source": "@IT",
+          "published": "2026-06-21T20:00:00",
+          "excerpt": "AI活用が進む中、データベースへの関心が高まっている。そうした中、オープンソースの高速OLAPデータベースとして利用実績を増やしているのがClickHouseだ。マツダがデータ分析の取り組みを紹介した。"
+        },
         {
           "title": "Bedrock AgentCoreにClaude Agent SDKをデプロイしてみよう！",
           "link": "https://zenn.dev/tom1414/articles/4a5b47d074fa2f",
@@ -155,45 +169,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-06-21T11:50:38",
           "excerpt": "はじめに Terraformで、ロジックを持たない最小限のプレースホルダーエージェント(受け取ったpayloadをそのまま返すだけのecho実装)をAmazon Bedrock AgentCore Runtimeにデプロイし、それをLamb…"
-        },
-        {
-          "title": "cfn-lint は緑、でもエディタは赤かった話【CloudFormation】",
-          "link": "https://qiita.com/80-cloud/items/9c008a1535c119b89a49",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-21T11:48:27",
-          "excerpt": "はじめに CloudFormation のテンプレート（YAML）を書いていたら、文法的に正しいはずの行がエディタで赤や黄色になりました。表示に従って直すと、今度は別の行が赤くなる…の繰り返しで、迷いました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "HN を表示: CleverCrow: お気に入りのプロジェクトにトークンを与えます",
-      "link": "https://clevercrow.io",
+      "title": "AI ネイティブ組織の構造",
+      "link": "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org",
       "source": "Hacker News（英語）",
-      "published": "2026-06-21T19:06:07",
-      "excerpt": "皆さん、こんにちは。ザック:wave:です。私は誤った AI プル リクエストの問題について考えており、考えられる解決策をフィードバックのために提供しようと考えました。…"
+      "published": "2026-06-21T21:34:19",
+      "excerpt": "記事の URL: https://ajeygore.in/content/the-anatomy-of-an-ai-native-org コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "個人 Web サイト向けの JSON-LD の説明",
-      "link": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
+      "title": "Apertus – ソブリン AI のオープン基盤モデル",
+      "link": "https://apertvs.ai/",
       "source": "Hacker News（英語）",
-      "published": "2026-06-21T18:51:47",
-      "excerpt": "記事の URL: https://hawksley.dev/blog/json-ld-explained-for-personal-websites/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-06-21T21:29:43",
+      "excerpt": "記事の URL: https://apertvs.ai/ コメント URL: https://news.ycombinator.com/item?id=48622778 ポイント: 5 コメント数: 0"
     },
     {
-      "title": "ユービーアイソフトの共同創設者クロード・ギルモ氏が飛行機事故で死亡",
-      "link": "https://techcrunch.com/2026/06/21/ubisoft-co-founder-claude-guillemot-dies-in-plane-crash/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-06-21T18:34:31",
-      "excerpt": "4人の兄弟とともにユービーアイソフトを設立したクロード・ギルモ氏が69歳で死去した。"
+      "title": "NSA長官、Mythosが数時間で「ほぼすべて」の機密システムに侵入したと発言",
+      "link": "https://bankwatch.ca/2026/06/21/nsa-chief-says-mythos-breached-almost-all-classified-systems-in-hours/",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-21T21:15:56",
+      "excerpt": "記事の URL: https://bankwatch.…"
     },
     {
-      "title": "トランプ政権の石炭投資は違反を繰り返すプラントを支援",
-      "link": "https://arstechnica.com/science/2026/06/trump-admins-coal-investments-assist-plants-with-repeated-violations/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-06-21T17:49:35",
-      "excerpt": "少なくとも 3 つの石炭火力発電所が環境規制に違反しているとして繰り返し指摘されている。"
+      "title": "すべては対数です",
+      "link": "https://alexkritchevsky.com/2026/05/25/everything-is-logarithms.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-21T21:10:32",
+      "excerpt": "記事の URL: https://alexkritchevsky.com/2026/05/25/everything-is-logarithms.html コメント URL: https://news.ycombinator.…"
     }
   ]
 }
