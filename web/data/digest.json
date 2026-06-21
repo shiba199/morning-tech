@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-21T01:45:01",
+  "generated_at": "2026-06-21T06:42:16",
   "window_hours": 24,
-  "total": 118,
+  "total": 121,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が14件。gpt-image-1とDALL-E 3の違いから、Autoregressive（自己回帰）モデルとDiffusion（拡散）モデルの本質的な差異を解説。…",
+      "summary": "生成AIの新着が15件。AWSのPhysical AI Scaffolding Kit (PASK)を試す② — HyperPodでNVIDIA Isaac GR00Tをファインチューニング",
       "articles": [
+        {
+          "title": "AWSのPhysical AI Scaffolding Kit (PASK)を試す② — HyperPodでNVIDIA Isaac GR00Tをファインチューニング",
+          "link": "https://dev.classmethod.jp/articles/aws-pask-hyperpod-nvidia-isaac-gr00t-finetuning/",
+          "source": "DevelopersIO",
+          "published": "2026-06-21T04:44:07",
+          "excerpt": "AWSのPhysical AI Scaffolding Kit (PASK)を試す② — HyperPodでNVIDIA Isaac GR00Tをファインチューニング"
+        },
+        {
+          "title": "信頼性の高いエージェント AI システムの構築",
+          "link": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-21T04:28:39",
+          "excerpt": "記事の URL: https://martinfowler.com/articles/reliable-llm-bayer.html コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "画像生成AIのアーキテクチャ対決：Autoregressive vs Diffusion — 2026年の勝者は？",
           "link": "https://dev.classmethod.jp/articles/autoregressive-vs-diffusion-image-generation-2026/",
@@ -22,28 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-06-20T23:47:45",
           "excerpt": "Amazon SageMaker HyperPod が efa-only ネットワークインターフェイスをサポートしたので試してみた"
-        },
-        {
-          "title": "Systemd 261 は systemd-sysinstall、IMDSD、および storagectl とともにリリースされました",
-          "link": "https://www.phoronix.com/news/systemd-261",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-20T21:50:42",
-          "excerpt": "記事の URL: https://www.phoronix.com/news/systemd-261 コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "AWS WAFが呼び戻した402 Payment Requiredとエージェント経済の決済レイヤー",
-          "link": "https://zenn.dev/genda_jp/articles/e15ae8faed0474",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-20T21:13:46",
-          "excerpt": "AWS WAFにAI traffic monetizationという機能が追加されました。サイトやAPIにアクセスしてくるAIボットに対して、コンテンツの利用料を課金できる機能です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。はじめに 2026 年 6 月 11 日、AWS は Amazon EKS ローカルクラスターについて、EC2 インスタンスストアから起動する AWS Outposts ラックへの対応を発表しました。…",
+      "summary": "クラウドの新着が9件。CloudFront定額プランへの移行時に既存Web ACLを引き継げるか検証してみた",
       "articles": [
+        {
+          "title": "CloudFront定額プランへの移行時に既存Web ACLを引き継げるか検証してみた",
+          "link": "https://dev.classmethod.jp/articles/2026-06-21-cloudfront-flat-rate-plan-existing-webacl-migration/",
+          "source": "DevelopersIO",
+          "published": "2026-06-21T06:17:37",
+          "excerpt": "CloudFront定額プランへの移行時に既存Web ACLを引き継げるか検証してみた"
+        },
         {
           "title": "Amazon EKS が Amazon EC2 インスタンスストアを使用する AWS Outposts 上のローカルクラスターをサポート",
           "link": "https://qiita.com/Haruki-N/items/6492168bda94a8ecf522",
@@ -64,20 +71,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-06-20T16:02:41",
           "excerpt": "この記事の立ち位置 Security Hub の「基礎セキュリティのベストプラクティス（FSBP）」を潰していくとき、各コントロールの修復手順そのものは、AWS 公式ドキュメントや DevelopersIO にまとまっている。S3.…"
-        },
-        {
-          "title": "Amazon ECS マネージドデーモンがタスク間の可視性と通信をサポート",
-          "link": "https://qiita.com/Haruki-N/items/c23e6a86ae23752aaed5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-20T15:30:35",
-          "excerpt": "はじめに 2026 年 6 月 10 日、AWS は Amazon ECS Managed Daemons に対して、pidMode / ipcMode によるプロセス可視性・IPC 共有のサポートを発表しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。ロールの権限を1つも変えずに「誰が成り代われるか」が広がる差分がある 信頼ポリシー（assume_role_policy）の Principal 拡大は、ロールに紐づく権限を1行も変えないまま「誰がそのロールになれるか」を広げる。…",
+      "summary": "セキュリティの新着が9件。ロールの権限を1つも変えずに「誰が成り代われるか」が広がる差分がある 信頼ポリシー（assume_role_policy）の Principal 拡大は、ロールに紐づく権限を1行も変えないまま「誰がそのロールになれるか」を広げる。…",
       "articles": [
         {
           "title": "IAM 信頼ポリシーの Principal 拡大を検知する — クロスアカウント越境を apply 前と実行時に防ぐ設計",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。記事の URL: https://www.tomshardware.…",
+      "summary": "データ分析の新着が1件。記事の URL: https://www.tomshardware.…",
       "articles": [
         {
           "title": "AMDは7月のBIOSアップデートを通じてRyzen 9000 CPUのメモリ暗号化を復活させる予定",
@@ -120,80 +120,73 @@
           "source": "Hacker News（英語）",
           "published": "2026-06-20T19:19:06",
           "excerpt": "記事の URL: https://www.tomshardware.…"
-        },
-        {
-          "title": "DynamoDBのオンデマンドキャパシティがスロットリングしないように負荷分散した話",
-          "link": "https://qiita.com/takumiida1/items/c79061ef59a6159a8f05",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-20T03:59:20",
-          "excerpt": "Summary DynamoDBのオンデマンドキャパシティは、「直近ピークの2倍超を30分以内に超えた場合」と「特定パーティションへのアクセス集中（ホットパーティション）」の2つの要因でスロットルが発生しやすい 全く同じキー構成のGSIをオ…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。AWSをブラウザ上で操作する以外の方法でCLI以外に、CloudFormation、AWS CDK、AWS SDKといった似たような名前のツールがいくつかあります。…",
+      "summary": "開発ツールの新着が11件。GitHub CLIにリモートリポジトリのファイル閲覧機能が追加",
       "articles": [
         {
-          "title": "【AWS】なんとなくややこしいCloudFormation、CDK、SDKの違い + Terraform",
-          "link": "https://qiita.com/qtarouuuu/items/ffffc6c42f9ba569f59e",
+          "title": "GitHub CLIにリモートリポジトリのファイル閲覧機能が追加",
+          "link": "https://codezine.jp/article/detail/24610",
+          "source": "CodeZine",
+          "published": "2026-06-21T06:00:00",
+          "excerpt": "GitHub CLIにリモートリポジトリのファイル閲覧機能が追加"
+        },
+        {
+          "title": "Kiro CLI v3.0.0がやってくる！",
+          "link": "https://qiita.com/kamogashira/items/a3a06fafce2343c4bb6c",
           "source": "Qiita AWSタグ",
-          "published": "2026-06-21T01:06:25",
-          "excerpt": "AWSをブラウザ上で操作する以外の方法でCLI以外に、CloudFormation、AWS CDK、AWS SDKといった似たような名前のツールがいくつかあります。…"
+          "published": "2026-06-21T03:16:50",
+          "excerpt": "はじめに 本記事では、Kiro CLI v2.8.0 で先行公開された Kiro CLI v3（Early Access）の仕様駆動開発（Spec-driven development）を紹介します。…"
         },
         {
-          "title": "HN を表示: PDF をスキャンしたように見せます (CLI または WASM 経由のブラウザーで)",
-          "link": "https://github.com/overflowy/make-look-scanned",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-20T18:17:58",
-          "excerpt": "記事の URL: https://github.com/overflowy/make-look-scanned コメント URL: https://news.ycombinator.com/item?…"
+          "title": "GitHub、Copilotで作成したプルリクエストに開発者を記載へ",
+          "link": "https://codezine.jp/article/detail/24627",
+          "source": "CodeZine",
+          "published": "2026-06-21T03:00:00",
+          "excerpt": "GitHub、Copilotで作成したプルリクエストに開発者を記載へ"
         },
         {
-          "title": "HN に質問: GitHub 上のスパムが原因で、プロジェクトをどのプラットフォームに移動できますか?",
-          "link": "https://news.ycombinator.com/item?id=48611303",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-20T17:52:07",
-          "excerpt": "Github にいくつかのプロジェクトがあります。バイブコーダーやボットからスパム PR やリクエストを大量に受け取ります。ほとんどは自分のプロフィールを宣伝するためです。星も明らかに誇張されています。…"
-        },
-        {
-          "title": "Codex CLI 0.140.0で追加された /import で Claude Code の設定とチャット履歴を取り込んでみた",
-          "link": "https://dev.classmethod.jp/articles/codex-cli-import-from-claude-code/",
+          "title": "ClipboardItem + Blobでリッチテキストをコピーする実装と、HTTP環境の罠",
+          "link": "https://dev.classmethod.jp/articles/clipboard-blob-rich-text-http-fallback/",
           "source": "DevelopersIO",
-          "published": "2026-06-20T15:31:50",
-          "excerpt": "Codex CLI 0.140.0 で追加された `/import` コマンドを実際に試してみました。Claude Code の設定・スキル・チャット履歴を Codex CLI へ取り込む仕組みと、実装から見えた挙動の詳細をお伝えします。"
+          "published": "2026-06-21T02:00:21",
+          "excerpt": "ClipboardItemとBlobを使ってtext/htmlとtext/plainを同時にクリップボードに書き込むリッチテキストコピーの実装方法と、HTTP環境でnavigator.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Next.js + FastAPI を nginx サブパスで配信するときに踏んだ3つの落とし穴 — trailingSlash・ルーティング分離・MuleSoftのSSEバッファリング",
-      "link": "https://dev.classmethod.jp/articles/nextjs-fastapi-nginx-subpath-routing-pitfalls/",
+      "title": "PrivateLinkとResource Gatewayで既存IPv4環境を変更せずにIPv6環境へ接続する",
+      "link": "https://qiita.com/infra365/items/94c359afab6508e2c657",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-21T06:39:51",
+      "excerpt": "概要 既存VPCのIPv4環境を変更せずに、IPv6環境のVPCと通信したい場合の構成パターンを検証します。…"
+    },
+    {
+      "title": "【AWS】同一アカウントとクロスアカウントでのポリシー評価の違い",
+      "link": "https://qiita.com/swallows/items/9376e56b12f3521954df",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-21T06:38:50",
+      "excerpt": "はじめに AWS でアクセス制御を設計するとき、「アクセス元（IAM ポリシー）」と「アクセス先（リソースベースポリシー）」のどちらに許可を書けばよいか迷うことがあります。…"
+    },
+    {
+      "title": "AI の 10 万のなぜ",
+      "link": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-21T05:45:21",
+      "excerpt": "記事の URL: https://lcamtuf.substack.com/p/the-100000-whys-of-ai コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "TypeScript プロジェクトに ESLint・Prettier・cspell を 1 つずつ入れて挙動を確かめてみた",
+      "link": "https://dev.classmethod.jp/articles/shoma-setup-eslint-prettier-cspell-one-by-one-in-typescript-project/",
       "source": "DevelopersIO",
-      "published": "2026-06-21T01:00:10",
-      "excerpt": "Next.…"
-    },
-    {
-      "title": "Googleマップで閉業になった中華店に来たら、看板出てたので店主に声をかけて着席…しかし店主はずっとライターカチカチし続けるだけ→近所の人から告げられた事実がこれ",
-      "link": "https://togetter.com/li/2711775",
-      "source": "はてなブックマーク（テクノロジー）",
-      "published": "2026-06-21T00:57:41",
-      "excerpt": "真人＠階段巡りツイッター @kaidanmeguri グーグルマップで閉業になった中華店に確認にきたら看板出てて店主に声をかけて着席。しかし店主がずっとライターをカチカチし続けてるだけで進まない。…"
-    },
-    {
-      "title": "「邪魔にならないようにしなければならなかった」：配達ロボットに対する反発",
-      "link": "https://www.bbc.com/news/articles/c0rygp005wjo",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-21T00:12:49",
-      "excerpt": "記事の URL: https://www.bbc.com/news/articles/c0rygp005wjo コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "プロジェクトのフェッチ: フェーズ 2",
-      "link": "https://www.anthropic.com/research/project-fetch-phase-two",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-21T00:00:25",
-      "excerpt": "記事の URL: https://www.anthropic.com/research/project-fetch-phase-two コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-06-21T05:20:16",
+      "excerpt": "TypeScript プロジェクトに ESLint・Prettier・cspell を 1 つずつ入れて挙動を確かめてみた"
     }
   ]
 }
