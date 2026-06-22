@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-06-22T19:53:15",
+  "generated_at": "2026-06-22T21:54:59",
   "window_hours": 24,
-  "total": 168,
+  "total": 177,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が40件。はじめに はい、皆さん大好き RAG。今回 Amazon Bedrock に managed Knowledge Base という選択肢が加わりました。…",
+      "summary": "生成AIの新着が39件。IoT やコネクテッドデバイスの普及により、製造業の製品はハードウェア単体からソフトウェアで価値を提供する「ス […]",
       "articles": [
+        {
+          "title": "Accelerating Smart Product SDLC with AI Agent Workshop のご紹介",
+          "link": "https://aws.amazon.com/jp/blogs/news/smart-products-ai-sdlc/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-06-22T21:34:45",
+          "excerpt": "IoT やコネクテッドデバイスの普及により、製造業の製品はハードウェア単体からソフトウェアで価値を提供する「ス […]"
+        },
         {
           "title": "Amazon Bedrock managed Knowledge Base が登場したので Bedrock AgentCore Gateway から呼び出してみた",
           "link": "https://qiita.com/leomarokun/items/5a74b975f99652a6d1a8",
@@ -29,21 +36,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-06-22T14:54:59",
           "excerpt": "記事の URL: https://github.com/0xroylee/ponytrail コメント URL: https://news.ycombinator.com/item?id=48631043 ポイント: 20 コメント数: 8"
-        },
-        {
-          "title": "AWS ウィークリーまとめ: NY サミットの要約、ハノイのローカルゾーン、Bedrock の Grok 4.3、値下げなど (2026 年 6 月 22 日)",
-          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/",
-          "source": "AWS News Blog（英語）",
-          "published": "2026-06-22T14:46:17",
-          "excerpt": "先週、ニューヨーク市の AWS サミットには、最新のクラウドと AI イノベーションを紹介する無料の 1 日イベントに何千人もの顧客、パートナー、ビルダーが集まりました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が7件。AWSが新しいOSSのBlocksを発表しました。Blocksって何？ってのはすでに色んな方が発信されているのでそちらをご確認ください、 https://www.google.com/search?…",
+      "summary": "クラウドの新着が8件。CloudFormationでS3バケットを作る最小構成と、初学者がつまずきやすい設定 はじめに CloudFormationを学び始めると、まず最初に作成するAWSリソースの1つがAmazon S3ではないでしょうか。…",
       "articles": [
+        {
+          "title": "CloudFormationでS3バケットを作る最小構成と、初学者がつまずきやすい設定",
+          "link": "https://qiita.com/suzunari900261/items/50d855e40d665f6061e1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-22T21:26:29",
+          "excerpt": "CloudFormationでS3バケットを作る最小構成と、初学者がつまずきやすい設定 はじめに CloudFormationを学び始めると、まず最初に作成するAWSリソースの1つがAmazon S3ではないでしょうか。…"
+        },
         {
           "title": "Next.jsとAI SDKで作ったAIアプリが何も気にせずAWSのサーバーレス環境にデプロイできるようになったぞ～Blocks最高～",
           "link": "https://qiita.com/moritalous/items/05b43a518b6ee86d977c",
@@ -64,55 +71,48 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-22T05:08:33",
           "excerpt": "はじめに Terraformの学習として、AWS上にwebサーバー環境を構築しました。今回の構成では以下の要素をTerraformで作成しています。…"
-        },
-        {
-          "title": "クロスリージョンをやめた意思決定 — 移行先はリリース安全性で選ぶ",
-          "link": "https://zenn.dev/fixu/articles/cross-region-to-colocated-migration-decision",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-22T04:18:51",
-          "excerpt": "はじめに 大阪リージョンに新しいマイクロサービス環境を構築しました。compute は大阪、DB は東京。9つのサービスをデプロイし、ステージング環境も整備し、本番切替の準備を進めていました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。AWS IAM Identity Center は、IAM Identity Center インスタンスで設定できる AWS アカウントとアプリケーションの数に対して個別のクォータをサポートするようになりました。…",
+      "summary": "セキュリティの新着が7件。[アップデート] AWS IAM Identity Center で AWS アカウントとアプリケーションのクォータが個別管理されるようになりました",
       "articles": [
+        {
+          "title": "[アップデート] AWS IAM Identity Center で AWS アカウントとアプリケーションのクォータが個別管理されるようになりました",
+          "link": "https://dev.classmethod.jp/articles/aws-identity-center-separate-quotas/",
+          "source": "DevelopersIO",
+          "published": "2026-06-22T21:30:21",
+          "excerpt": "[アップデート] AWS IAM Identity Center で AWS アカウントとアプリケーションのクォータが個別管理されるようになりました"
+        },
+        {
+          "title": "「数百人」のKlueハッキング被害者の間でセキュリティショップが登場",
+          "link": "https://www.theregister.com/cyber-crime/2026/06/22/security-shops-among-the-hundreds-of-klue-hack-victims/5259743",
+          "source": "The Register（英語）",
+          "published": "2026-06-22T19:50:54",
+          "excerpt": "さらに別の恐喝集団 Icarus が Salesforce にリンクされた統合を悪用"
+        },
+        {
+          "title": "ユーザーの抗議を受けて、AMDはコンシューマCPUのメモリ暗号化を復活させた",
+          "link": "https://arstechnica.com/security/2026/06/following-user-outcry-amd-reinstates-memory-encryption-in-consumer-cpus/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-06-22T19:16:52",
+          "excerpt": "批評家らはこの動きを、より高価なチップに誘導するための陰険な方法だとみなした。"
+        },
         {
           "title": "AWS IAM Identity Center が AWS アカウントとアプリケーションの個別のクォータをサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-identity-center-separate-quotas/",
           "source": "AWS What's New（英語）",
           "published": "2026-06-22T16:07:00",
           "excerpt": "AWS IAM Identity Center は、IAM Identity Center インスタンスで設定できる AWS アカウントとアプリケーションの数に対して個別のクォータをサポートするようになりました。…"
-        },
-        {
-          "title": "GitHub Actions OIDC活用術：AWS/GCP認証の仕組みと実践",
-          "link": "https://zenn.dev/fd_ai_teacher/articles/tech-20260620040730-1",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-22T11:03:19",
-          "excerpt": "GitHub Actions OIDC活用術：AWS/GCP認証の仕組みと実践 CI/CDパイプラインにおいて、GitHub ActionsからAWSやGCPといったクラウドプロバイダーへの認証は避けて通れない課題です。…"
-        },
-        {
-          "title": "Security Hub の大量アラートのトリアージをAI Agent Skillで仕組み化した話",
-          "link": "https://zenn.dev/peoplex_blog/articles/fa8919d34c3fea",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-22T06:30:07",
-          "excerpt": "はじめに AWSでのセキュリティ対策としてAWS Security Hubを有効にしている会社も多いかと思います。…"
-        },
-        {
-          "title": "日立製作所、システム脆弱性対応の優先度を事業影響基準で自動判断する手法を開発",
-          "link": "https://codezine.jp/article/detail/24611",
-          "source": "CodeZine",
-          "published": "2026-06-22T01:00:00",
-          "excerpt": "日立製作所、システム脆弱性対応の優先度を事業影響基準で自動判断する手法を開発"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。AWS Glue Data Catalog に新しく追加されたセマンティック検索機能を試してみました。テーブルにビジネスコンテキストを付与して「意味」でデータを探せるようになったこの機能、実際の設定手順と検索精度について詳しく解説します。",
+      "summary": "データ分析の新着が5件。AWS Glue Data Catalog に新しく追加されたセマンティック検索機能を試してみました。テーブルにビジネスコンテキストを付与して「意味」でデータを探せるようになったこの機能、実際の設定手順と検索精度について詳しく解説します。",
       "articles": [
         {
           "title": "[アップデート] AWS Glue Data Catalog がビジネスコンテキストとセマンティック検索をサポートしたので試してみました（プレビュー）",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。記事の URL: https://oak.space/blog コメント URL: https://news.ycombinator.com/item?id=48631726 ポイント: 16 コメント数: 7",
+      "summary": "開発ツールの新着が13件。CloudFormationでS3バケットを作る最小構成と、初学者がつまずきやすい設定 はじめに CloudFormationを学び始めると、まず最初に作成するAWSリソースの1つがAmazon S3ではないでしょうか。…",
       "articles": [
+        {
+          "title": "CloudFormationでS3バケットを作る最小構成と、初学者がつまずきやすい設定",
+          "link": "https://qiita.com/suzunari900261/items/50d855e40d665f6061e1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-22T21:26:29",
+          "excerpt": "CloudFormationでS3バケットを作る最小構成と、初学者がつまずきやすい設定 はじめに CloudFormationを学び始めると、まず最初に作成するAWSリソースの1つがAmazon S3ではないでしょうか。…"
+        },
         {
           "title": "Git は永遠です。とにかくオークを作っています",
           "link": "https://oak.space/blog",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-22T14:32:43",
           "excerpt": "AIのコーディングのエージェント（Claude Code・Cursor・Copilot など）に、terraform や gcloud、aws のようなクラウドの道具を任せている人に向けた記事です。…"
-        },
-        {
-          "title": "GitHub CLI 2.94.0でgh discussionからDiscussionsの読み書き、gh skillでAgent Skillsの一覧表示ができるようになりました",
-          "link": "https://dev.classmethod.jp/articles/github-cli-294-discussions-skills/",
-          "source": "DevelopersIO",
-          "published": "2026-06-22T13:22:18",
-          "excerpt": "GitHub CLI 2.94.0に追加された`gh discussion`と`gh skill`の新機能を試してみました。DiscussionsをCLIから読み書きでき、AIエージェントの調査範囲が広がります。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "アップルとテスラへの大手技術サプライヤーであるタタ・エレクトロニクスがデータ侵害を認める",
-      "link": "https://techcrunch.com/2026/06/22/tata-electronics-a-major-tech-supplier-to-apple-and-tesla-confirms-data-breach/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-06-22T19:25:00",
-      "excerpt": "この事件は、タタ・エレクトロニクスが世界的な技術サプライチェーンにおける役割を拡大する中で起こった。"
+      "title": "Kyber (YC W23) がエンジニアリング責任者を募集中",
+      "link": "https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-22T21:00:51",
+      "excerpt": "記事の URL: https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering コメント URL: https://news.…"
     },
     {
-      "title": "Valve の Steam Machine は 6 月 29 日に 1,049 ドルで出荷されますが、おそらくまだ購入できないでしょう",
-      "link": "https://arstechnica.com/gaming/2026/06/valves-steam-machine-ships-june-29-for-1049-but-you-probably-wont-be-able-to-buy-one-yet/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-06-22T19:02:45",
-      "excerpt": "Valve は、エクスペリエンスを「イライラを減らし、より公平に」するためにランダム化された購入キューを使用していると述べています。"
+      "title": "AIの世界は「ループ状」になりつつある",
+      "link": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-22T20:53:11",
+      "excerpt": "このループは、エージェントの群れがバックグラウンドで無限に継続的に動作することを許可することで、エージェント AI をさらに一歩進めます。"
     },
     {
-      "title": "Appleチップのパッチ不可能な新たな欠陥がiPhoneの脱獄への扉を開く",
-      "link": "https://techcrunch.com/2026/06/22/a-new-unpatchable-flaw-in-apple-chips-opens-the-door-to-an-iphone-jailbreak/",
+      "title": "マイクロソフトとシェブロンは、米国最大のガス燃料データセンター プロジェクトの 1 つを計画しています",
+      "link": "https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/",
       "source": "TechCrunch（英語）",
-      "published": "2026-06-22T18:50:24",
-      "excerpt": "欧州の攻撃的サイバーセキュリティ企業パラダイムシフトは、ハッカーが古いiPhoneのロックを解除して侵入する扉を開く欠陥とそれを悪用する手法の詳細を発表した。"
+      "published": "2026-06-22T20:37:19",
+      "excerpt": "マイクロソフトはシェブロンと 20 年間の電力購入契約を結び、新しい天然ガス発電所からの数十年間の炭素排出量を固定しました。"
     },
     {
-      "title": "Google DeepMind、A24契約でハリウッドにおけるAIの将来に7,500万ドルを賭ける",
-      "link": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-06-22T18:49:44",
-      "excerpt": "Google DeepMind と A24 は、AI 映画制作ツールを構築するために提携しています。"
+      "title": "テキサス州がマイクロソフトの大規模データセンターをなげなわ - そして20年間のガスタービン排出量",
+      "link": "https://www.theregister.com/on-prem/2026/06/22/texas-lassoes-massive-microsoft-datacenter-and-20-years-of-gas-turbine-emissions/5259764",
+      "source": "The Register（英語）",
+      "published": "2026-06-22T20:31:10",
+      "excerpt": "ビットバーンが街にやってくると、空気は茶色に変わります…テキサスの中心部の奥深く"
     }
   ]
 }
