@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-06-22T16:25:50",
+  "generated_at": "2026-06-22T19:53:15",
   "window_hours": 24,
-  "total": 156,
+  "total": 168,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が39件。TypeScript の型推論つきバリデーションライブラリ Zod を使ってみた",
+      "summary": "生成AIの新着が40件。はじめに はい、皆さん大好き RAG。今回 Amazon Bedrock に managed Knowledge Base という選択肢が加わりました。…",
       "articles": [
+        {
+          "title": "Amazon Bedrock managed Knowledge Base が登場したので Bedrock AgentCore Gateway から呼び出してみた",
+          "link": "https://qiita.com/leomarokun/items/5a74b975f99652a6d1a8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-22T18:21:54",
+          "excerpt": "はじめに はい、皆さん大好き RAG。今回 Amazon Bedrock に managed Knowledge Base という選択肢が加わりました。…"
+        },
         {
           "title": "TypeScript の型推論つきバリデーションライブラリ Zod を使ってみた",
           "link": "https://dev.classmethod.jp/articles/shoma-try-zod-typescript-type-inference-validation-library/",
@@ -29,13 +36,6 @@
           "source": "AWS News Blog（英語）",
           "published": "2026-06-22T14:46:17",
           "excerpt": "先週、ニューヨーク市の AWS サミットには、最新のクラウドと AI イノベーションを紹介する無料の 1 日イベントに何千人もの顧客、パートナー、ビルダーが集まりました。…"
-        },
-        {
-          "title": "AIエージェントにterraform/gcloudを任せたら、本番もバックアップも一緒に消える——10万人の学習基盤が消えた実例と、ローカルで止める方法",
-          "link": "https://qiita.com/yurukusa/items/30de2d0278cfb55ea365",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-22T14:32:43",
-          "excerpt": "AIのコーディングのエージェント（Claude Code・Cursor・Copilot など）に、terraform や gcloud、aws のようなクラウドの道具を任せている人に向けた記事です。…"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。GitHub Actions OIDC活用術：AWS/GCP認証の仕組みと実践 CI/CDパイプラインにおいて、GitHub ActionsからAWSやGCPといったクラウドプロバイダーへの認証は避けて通れない課題です。…",
+      "summary": "セキュリティの新着が7件。AWS IAM Identity Center は、IAM Identity Center インスタンスで設定できる AWS アカウントとアプリケーションの数に対して個別のクォータをサポートするようになりました。…",
       "articles": [
+        {
+          "title": "AWS IAM Identity Center が AWS アカウントとアプリケーションの個別のクォータをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-identity-center-separate-quotas/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-06-22T16:07:00",
+          "excerpt": "AWS IAM Identity Center は、IAM Identity Center インスタンスで設定できる AWS アカウントとアプリケーションの数に対して個別のクォータをサポートするようになりました。…"
+        },
         {
           "title": "GitHub Actions OIDC活用術：AWS/GCP認証の仕組みと実践",
           "link": "https://zenn.dev/fd_ai_teacher/articles/tech-20260620040730-1",
@@ -99,13 +106,6 @@
           "source": "CodeZine",
           "published": "2026-06-22T01:00:00",
           "excerpt": "日立製作所、システム脆弱性対応の優先度を事業影響基準で自動判断する手法を開発"
-        },
-        {
-          "title": "AWS Security Agent といっしょに脅威モデリングをやってみよう",
-          "link": "https://qiita.com/amarelo_n24/items/997a8fb958e14291ce94",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-21T21:08:49",
-          "excerpt": "はじめに 2026/6/17のAWS Summit New York Cityで、AWS Security Agent 脅威モデリング機能のパブリックプレビュー版公開が発表されました。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "アプリエンジニアのためのAWS Blocksハンズオン",
-      "link": "https://zenn.dev/ppgm/books/aws-blocks-mini-support-desk",
-      "source": "Zenn AWSトピック",
-      "published": "2026-06-22T15:26:02",
-      "excerpt": "AWS Blocks を使って、Cognito 認証・Database・FileBucket・Observability・AsyncJob・CronJob・EmailClient・CDK layer（SQS / Step Functions…"
-    },
-    {
-      "title": "Lucid、今年2度目となる大規模な人員削減で1,500人の従業員を一時解雇",
-      "link": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-06-22T15:22:46",
-      "excerpt": "人員削減と人員削減は「会社を簡素化する」計画の一環だとCEOは語る。"
-    },
-    {
-      "title": "MetaがインドのCRED創設者クナル・シャー氏を起用し、WhatsAppが新責任者を獲得、スタートアップに9億ドル投資",
-      "link": "https://techcrunch.com/2026/06/22/whatsapp-gets-new-chief-as-meta-taps-indias-cred-founder-kunal-shah-and-invests-900m-in-startup/",
+      "title": "アップルとテスラへの大手技術サプライヤーであるタタ・エレクトロニクスがデータ侵害を認める",
+      "link": "https://techcrunch.com/2026/06/22/tata-electronics-a-major-tech-supplier-to-apple-and-tesla-confirms-data-breach/",
       "source": "TechCrunch（英語）",
-      "published": "2026-06-22T15:21:42",
-      "excerpt": "WhatsAppには新しい上司が就任し、ウィル・キャスカート氏はメタ社の新しい役職に異動する一方、シャー氏はインドのフィンテック大手CREDのCEOを辞任し、キャスカート氏の後任となる。"
+      "published": "2026-06-22T19:25:00",
+      "excerpt": "この事件は、タタ・エレクトロニクスが世界的な技術サプライチェーンにおける役割を拡大する中で起こった。"
     },
     {
-      "title": "宇宙での米軍演習はほとんど誰も気付かないうちに開始された",
-      "link": "https://arstechnica.com/space/2026/06/a-us-military-exercise-in-space-got-underway-with-barely-anyone-noticing/",
+      "title": "Valve の Steam Machine は 6 月 29 日に 1,049 ドルで出荷されますが、おそらくまだ購入できないでしょう",
+      "link": "https://arstechnica.com/gaming/2026/06/valves-steam-machine-ships-june-29-for-1049-but-you-probably-wont-be-able-to-buy-one-yet/",
       "source": "Ars Technica（英語）",
-      "published": "2026-06-22T15:18:23",
-      "excerpt": "宇宙軍は、新しい衛星の配備にかかる時間を、数年から数週間、数日、あるいは数時間に短縮したいと考えています。"
+      "published": "2026-06-22T19:02:45",
+      "excerpt": "Valve は、エクスペリエンスを「イライラを減らし、より公平に」するためにランダム化された購入キューを使用していると述べています。"
+    },
+    {
+      "title": "Appleチップのパッチ不可能な新たな欠陥がiPhoneの脱獄への扉を開く",
+      "link": "https://techcrunch.com/2026/06/22/a-new-unpatchable-flaw-in-apple-chips-opens-the-door-to-an-iphone-jailbreak/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-22T18:50:24",
+      "excerpt": "欧州の攻撃的サイバーセキュリティ企業パラダイムシフトは、ハッカーが古いiPhoneのロックを解除して侵入する扉を開く欠陥とそれを悪用する手法の詳細を発表した。"
+    },
+    {
+      "title": "Google DeepMind、A24契約でハリウッドにおけるAIの将来に7,500万ドルを賭ける",
+      "link": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-22T18:49:44",
+      "excerpt": "Google DeepMind と A24 は、AI 映画制作ツールを構築するために提携しています。"
     }
   ]
 }
