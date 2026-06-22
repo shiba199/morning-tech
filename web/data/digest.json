@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-21T22:58:48",
+  "generated_at": "2026-06-22T00:10:24",
   "window_hours": 24,
-  "total": 121,
+  "total": 132,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が25件。Anthropicの最新AIモデルに突如課された輸出規制が波紋を広げている。政権側は安全保障上の懸念を理由に挙げるが、セキュリティやAI分野の専門家は、その判断を支える根拠が十分に示されていないと反発している。問題視された能力とは何か。",
+      "summary": "生成AIの新着が27件。確かにトランプ政権は、Anthropic のあらゆる動きを黙認しないことをいじめているだけのようで、そのために苦しむことになるのはサイバーセキュリティ コミュニティです。",
       "articles": [
+        {
+          "title": "Anthropic の Mythos の混乱はさらに複雑になるばかり",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/22/anthropics-mythos-mess-just-keeps-getting-more-complicated/5258577",
+          "source": "The Register（英語）",
+          "published": "2026-06-21T23:00:00",
+          "excerpt": "確かにトランプ政権は、Anthropic のあらゆる動きを黙認しないことをいじめているだけのようで、そのために苦しむことになるのはサイバーセキュリティ コミュニティです。"
+        },
+        {
+          "title": "Anthropicへの500万ドル間接出資を解消、広告事業のイオレ　軸足移すAIデータセンター事業に資金投入",
+          "link": "https://www.itmedia.co.jp/news/articles/2606/19/news138.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-06-21T23:00:00",
+          "excerpt": "イオレは6月19日、3月に決めた米Anthropicへの間接出資を解消し、出資金500万ドル（約7億9355万円）全額の返還を受けると発表した。返還資金は自社で開発を進めるAIDCへの投資に充てる。"
+        },
         {
           "title": "「危険なAI」の証拠はあったのか？　Anthropic「Fable 5」規制に広がる疑問の声",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/22/news026.html",
@@ -22,28 +36,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-21T22:26:47",
           "excerpt": "5分で読める · AIシステムアーキテクトが毎日厳選 注力分野: AIコーディング自動化 · エンタープライズAgent基盤 · モデル情勢の変化 1.…"
-        },
-        {
-          "title": "Claudeをかたる攻撃がアジア太平洋地域で多発　偽広告から不正コード実行へ",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2606/19/news051.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-06-21T22:00:00",
-          "excerpt": "Trend Microは、Google広告を悪用したマルバタイジング攻撃を分析した。攻撃者はAI関連開発ツールを装う偽ページへ誘導後、Claudeの共有チャット機能も悪用し、認証情報窃取型マルウェア配布を図っている。…"
-        },
-        {
-          "title": "AWS Security Agent といっしょに脅威モデリングをやってみよう",
-          "link": "https://qiita.com/amarelo_n24/items/997a8fb958e14291ce94",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-21T21:08:49",
-          "excerpt": "はじめに 2026/6/17のAWS Summit New York Cityで、AWS Security Agent 脅威モデリング機能のパブリックプレビュー版公開が発表されました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。Amazon Web Services（AWS）は、コードをスキャンするだけでなく、インフラ構成やアクセス許可、ネットワークトポロジーそしてビジネス上の優先事項やドキュメントなどの非構造化データなどをコンテキストとして活用し、システムの脆弱…",
+      "summary": "クラウドの新着が16件。Red Hat のソリューションアーキテクトの瀬戸です。最近のAIはすごいですよね。毎月のように新しいモデルが発表され、毎日のように新しい驚きがあります。(再) 前回の AIを使ってJBoss EAP 6.…",
       "articles": [
+        {
+          "title": "AIを使ってSpring-BootアプリケーションをJSF on JBoss EAPに移行する | 赤帽エンジニアブログ",
+          "link": "https://rheb.hatenablog.com/entry/2026/06/22/081116",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-21T23:11:16",
+          "excerpt": "Red Hat のソリューションアーキテクトの瀬戸です。最近のAIはすごいですよね。毎月のように新しいモデルが発表され、毎日のように新しい驚きがあります。(再) 前回の AIを使ってJBoss EAP 6.…"
+        },
         {
           "title": "AWS、コードだけでなくインフラ構成とビジネスコンテキストも理解した上で脆弱性を推論する「AWS Contiuum」発表。特定のAIモデルに依存せず",
           "link": "https://www.publickey1.jp/blog/26/awsaws_contiuumai.html",
@@ -64,20 +71,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-06-21T14:18:56",
           "excerpt": "こんにちは。今回は識別AI「YOLOv8」をLambdaで動かし、API経由で物体検出を実施します。…"
-        },
-        {
-          "title": "【AWS】ノンインフラ出身者がインフラの深淵に挑む：今週の地雷と復盤（Compute, DB & Network編）",
-          "link": "https://zenn.dev/leo_zhou_cloud/articles/aws-saa-mixed-002",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-21T12:24:14",
-          "excerpt": "インフラ初心者が今週踏み抜いたAWSの地雷まとめ 今週、AWS SAAの設計シナリオに挑戦する中で、実務でも致命傷になりかねない重要な仕様の勘違い（地雷）を複数踏み抜きました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。はじめに 2026/6/17のAWS Summit New York Cityで、AWS Security Agent 脅威モデリング機能のパブリックプレビュー版公開が発表されました。…",
+      "summary": "セキュリティの新着が8件。はじめに 2026/6/17のAWS Summit New York Cityで、AWS Security Agent 脅威モデリング機能のパブリックプレビュー版公開が発表されました。…",
       "articles": [
         {
           "title": "AWS Security Agent といっしょに脅威モデリングをやってみよう",
@@ -85,6 +85,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-21T21:08:49",
           "excerpt": "はじめに 2026/6/17のAWS Summit New York Cityで、AWS Security Agent 脅威モデリング機能のパブリックプレビュー版公開が発表されました。…"
+        },
+        {
+          "title": "MCPの認証をIdP経由にして「個別OAuth野良化」を止める｜Enterprise-Managed Authorization（EMA / Okta Cross App Access）で作るAIエージェント認可の一元統制 2026/06 | CloudNative BLOGs",
+          "link": "https://blog.cloudnative.co.jp/articles/mcp-enterprise-managed-authorization-xaa-id-jag-2026/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-21T20:50:00",
+          "excerpt": "MCPの認可拡張Enterprise-Managed Authorization（EMA／Okta Cross App Access）を実務目線で解説します。…"
         },
         {
           "title": "「セキュリティのアレ」の3人が事例から導く、サプライチェーン攻撃対策の楔",
@@ -99,21 +106,21 @@
           "source": "Publickey",
           "published": "2026-06-21T15:26:18",
           "excerpt": "Amazon Web Services（AWS）は、コードをスキャンするだけでなく、インフラ構成やアクセス許可、ネットワークトポロジーそしてビジネス上の優先事項やドキュメントなどの非構造化データなどをコンテキストとして活用し、システムの脆弱…"
-        },
-        {
-          "title": "Canonical、Mythosをはじめとする最新のAIに対応したUbuntuのセキュリティ対策を発表",
-          "link": "https://codezine.jp/article/detail/24612",
-          "source": "CodeZine",
-          "published": "2026-06-21T09:00:00",
-          "excerpt": "Canonical、Mythosをはじめとする最新のAIに対応したUbuntuのセキュリティ対策を発表"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。BigQuery のマネージド AI 関数が続々と GA となり、ラインナップが充実してきました。今回は、現在提供されている AI 関数を 4 つのカテゴリに整理し、各カテゴリから 1 つずつ実際に試してみました。",
+      "summary": "データ分析の新着が5件。はじめに 機械学習モデルを学習するときに、必ずと言ってよいほど出てくる重要テーマが overfitting（過学習） と underfitting（未学習） です。モデルは、ただ訓練データに対して高い精度を出せばよいわけではありません。…",
       "articles": [
+        {
+          "title": "【簡単AWS MLA】【初心者向け】Day 2：過学習と未学習を整理する — overfitting / underfitting / bias / variance",
+          "link": "https://qiita.com/MetaYuan/items/4a219bdbf2a05c9bb0ac",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-22T00:06:16",
+          "excerpt": "はじめに 機械学習モデルを学習するときに、必ずと言ってよいほど出てくる重要テーマが overfitting（過学習） と underfitting（未学習） です。モデルは、ただ訓練データに対して高い精度を出せばよいわけではありません。…"
+        },
         {
           "title": "BigQuery の AI 関数を自分なりに整理してみた",
           "link": "https://dev.classmethod.jp/articles/bigquery-ai-functions-overview/",
@@ -134,13 +141,6 @@
           "source": "TechCrunch（英語）",
           "published": "2026-06-21T16:05:00",
           "excerpt": "TechCrunch Mobility へようこそ。交通の未来に関するニュースと洞察の中心ハブです。"
-        },
-        {
-          "title": "[アップデート] Amazon OpenSearch Serverless NextGen × Amazon Bedrock (Claude) で自然言語を検索 DSL に変換する Agentic Search を試してみた",
-          "link": "https://dev.classmethod.jp/articles/20260621-amazon-opensearch-serverless-agentic-search/",
-          "source": "DevelopersIO",
-          "published": "2026-06-21T14:37:43",
-          "excerpt": "Amazon OpenSearch Serverless で自然言語検索（Agentic Search）が利用できるようになったので、東京リージョンで実際に構築して、Claude Sonnet 4.…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "ITエンジニア注目トレンドを総まとめ！週間ニュースランキングTOP10【6/12～6/18】",
-      "link": "https://codezine.jp/article/detail/24623",
+      "title": "【Datadog】AWS 全冠エンジニアが Datadog 認定 3 試験に合格しました 〜勉強法と対策まとめ〜 | APC 技術ブログ",
+      "link": "https://techblog.ap-com.co.jp/entry/datadog-certification-three-fundamentals-passed",
+      "source": "企業テックブログまとめ",
+      "published": "2026-06-21T23:20:03",
+      "excerpt": "Datadog Fundamentals、Log Management Fundamentals、APM amp; Distributed Tracing Fundamentals の3試験に合格しました。…"
+    },
+    {
+      "title": "AWS Summit New York 2026で発表された新機能をまとめて紹介",
+      "link": "https://codezine.jp/article/detail/24628",
       "source": "CodeZine",
-      "published": "2026-06-21T22:00:00",
-      "excerpt": "毎日更新されるITエンジニア向け関連の最新ニュースから、注目を集めたトピックスを紹介する本ランキング。今回は2026年6月12日～6月18日までの人気ランキングを発表します。"
+      "published": "2026-06-21T23:00:00",
+      "excerpt": "AWS Summit New York 2026で発表された新機能をまとめて紹介"
     },
     {
-      "title": "DMARC未対応ではメールが届かない？　Cloudflareが無料化で狙う“最後の障壁”",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/22/news023.html",
+      "title": "「AI作りもOpsが本質？」データサイエンティスト協会委員・アイシア=ソリッド氏が語るAI開発の未来",
+      "link": "https://codezine.jp/article/detail/24462",
+      "source": "CodeZine",
+      "published": "2026-06-21T23:00:00",
+      "excerpt": "ChatGPTの登場やRAGの普及によって技術的ボトルネックが次々と突破される現代のAIシステム開発において、プロトタイプから実運用の移行時に立ちはだかる「評価」のプロセスは、多くのエンジニアを悩ませる極めて厄介な問題だ。…"
+    },
+    {
+      "title": "シャドーAI対策「7割が未着手」　「AIは全て禁止」は限界　IT部門が採るべき一手とは？　Gartner提言",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/22/news036.html",
       "source": "@IT",
-      "published": "2026-06-21T22:00:00",
-      "excerpt": "GoogleやMicrosoftなど主要メール事業者による認証要件の強化で、DMARCは「推奨設定」から事実上の必須要件へと変わりつつある。しかし多くの企業は運用の複雑さを理由に強制適用に踏み切れていない。…"
-    },
-    {
-      "title": "AIに頼ると技術が落ちる？　医師・エンジニアたちの懸念、検証結果は……Natureも警鐘",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/22/news041.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-06-21T22:00:00",
-      "excerpt": "AIツールが職場に普及するにつれて、専門家たちが長年培ってきたスキルが衰えてしまうのではないかという懸念が広がっている。"
-    },
-    {
-      "title": "ニューヨークで家賃徴収がダウン – その理由は誰も分からない",
-      "link": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-21T21:54:34",
-      "excerpt": "記事の URL: https://www.politico.…"
+      "published": "2026-06-21T23:00:00",
+      "excerpt": "生成AIの爆発的な普及に伴い、企業のITガバナンスは新たな局面に直面している。情報システム部門が抱えてきた旧来のシャドーSaaSといった問題に、個人契約のAIツールやローカルLLMなど幾つものリスクが積み重なった「難局」を迎えているためだ。…"
     }
   ]
 }
