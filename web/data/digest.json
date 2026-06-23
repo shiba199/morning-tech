@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-06-23T14:23:14",
+  "generated_at": "2026-06-23T16:46:15",
   "window_hours": 24,
-  "total": 223,
+  "total": 225,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が48件。ストックホルムを拠点とするスタートアップ Fika Jobs は、AI 面接エージェントと短い形式のビデオ プロフィールを組み合わせたビデオ ファーストの採用プラットフォームを構築しており、LinkedIn と TikTok を組み合わせた…",
+      "summary": "生成AIの新着が48件。はじめに 2026年6月16日に発表された Web Search on Amazon Bedrock AgentCore はフルマネージドな Web 検索ツールです。…",
       "articles": [
+        {
+          "title": "Bedrock AgentCore に Web Search (Web 検索) が追加されたので試してみた",
+          "link": "https://qiita.com/leomarokun/items/47adb2c1b4e1e56fa0ce",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-23T15:27:47",
+          "excerpt": "はじめに 2026年6月16日に発表された Web Search on Amazon Bedrock AgentCore はフルマネージドな Web 検索ツールです。…"
+        },
+        {
+          "title": "AWS Storage Gatewayについての学習ログ",
+          "link": "https://qiita.com/keitakei777/items/9022e330b49bf695391f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-23T14:50:24",
+          "excerpt": "こんばんは。AWSのStorage Gatewayというサービスがあり、「S3やEFSがあるのに何に使うの？」と思っていました。…"
+        },
+        {
+          "title": "【Tableau】ダッシュボード拡張機能でTableau MCPを使った生成AIエージェントを作成してみた",
+          "link": "https://qiita.com/HideakiYamamoto-Chasoso/items/df8f323846692b1f658b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-23T14:35:13",
+          "excerpt": "注意 この記事は2026年6月中旬時点の実装内容です。当時は公式のTableau MCPリモートサーバーが未公開だったため、リモートMCPサーバーではなく、stdio接続でTableau MCPを利用しています。…"
+        },
         {
           "title": "Fika Jobs は、AI エージェントが候補者と面接するビデオファーストの採用プラットフォームを構築するために 400 万ドルを調達",
           "link": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
           "source": "TechCrunch（英語）",
           "published": "2026-06-23T13:00:00",
           "excerpt": "ストックホルムを拠点とするスタートアップ Fika Jobs は、AI 面接エージェントと短い形式のビデオ プロフィールを組み合わせたビデオ ファーストの採用プラットフォームを構築しており、LinkedIn と TikTok を組み合わせた…"
-        },
-        {
-          "title": "【Amplify×AgentCore】社内版AWSサポートアプリを作った話",
-          "link": "https://qiita.com/sorasorasss/items/e729f82bb28f938d9d95",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-23T11:41:07",
-          "excerpt": "はじめに 私は普段、AWSの基盤設計およびCDKを使った構築を担当しています。業務では他部署のメンバーからAWSに関する技術相談を受けることがあるのですが、最近は以下のような相談を耳にすることが増えてきました。…"
-        },
-        {
-          "title": "メルカリ、ChatGPT上で商品検索から出品準備まで可能に　「Apps in ChatGPT」に公式アプリ",
-          "link": "https://www.itmedia.co.jp/news/articles/2606/23/news134.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-06-23T11:09:00",
-          "excerpt": "メルカリは6月23日、米OpenAIの「Apps in ChatGPT」で、フリマアプリ「メルカリ」の公式アプリの提供を始めたと発表した。「ChatGPT」と会話しながら、メルカリの商品を探せるほか、出品時の説明文の下書きも作れる。"
-        },
-        {
-          "title": "逆転の呪い: 「A は B」で訓練された LLM は「B は A」を学習できない",
-          "link": "https://arxiv.org/abs/2309.12288",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-23T11:07:05",
-          "excerpt": "記事の URL: https://arxiv.org/abs/2309.12288 コメント URL: https://news.ycombinator.com/item?id=48643184 ポイント: 3 コメント数: 0"
         }
       ]
     },
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が19件。記事の URL: https://www.404media.…",
+      "summary": "セキュリティの新着が18件。記事の URL: https://www.404media.…",
       "articles": [
         {
           "title": "MSG、顔認証に反対する活動家に関する文書を作成",
@@ -122,6 +122,13 @@
           "excerpt": "はじめ DynamoDBにて、JSON文字列をそのままString型で格納するケースのとき（設計の是非はさておき）、serde_dynamoではString型のフィールドにJSONが入っている場合、そのままではネストしたStructへのDe…"
         },
         {
+          "title": "Big Red の AI への大きな賭けのさなか、Oracle の 21,000 人の雇用が消滅",
+          "link": "https://www.theregister.com/databases/2026/06/23/21000-oracle-jobs-vanish-amid-big-reds-big-bets-on-ai/5260086",
+          "source": "The Register（英語）",
+          "published": "2026-06-23T14:12:15",
+          "excerpt": "年次報告書によると、同社はデータセンターの拡張に数十億ドルをつぎ込み、従業員数が年間16万2,000人から14万1,000人に減少したことが明らかになった"
+        },
+        {
           "title": "Ribbie は、リアルタイムの野球統計をアーケードのようなピクセル アートの放送に変えます",
           "link": "https://techcrunch.com/2026/06/23/ribbie-turns-real-time-baseball-stats-into-arcade-like-pixel-art-broadcasts/",
           "source": "TechCrunch（英語）",
@@ -134,20 +141,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-06-23T09:16:17",
           "excerpt": "分析屋のSです。皆さんはBigQueryのテキスト生成AI関数についてご存じでしょうか？続きをみる"
-        },
-        {
-          "title": "RAG: コンセプトから Bedrock + OpenSearch Serverless での構築まで | Monstarlab's Engineering Blog",
-          "link": "https://engineering.monstar-lab.com/jp/post/2026/06/23/RAG-From-Concepts-to-a-Bedrock-and-OpenSearch-Serverless-Build",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-23T09:00:00",
-          "excerpt": "RAG: コンセプトから Bedrock + OpenSearch Serverless での構築まで | Monstarlab's Engineering Blog"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が18件。なぜIaCが必要なのか、実務で理解した話 はじめに 最近では CloudFormation や Terraform などの IaC（Infrastructure as Code）が広く利用されています。…",
+      "summary": "開発ツールの新着が15件。なぜIaCが必要なのか、実務で理解した話 はじめに 最近では CloudFormation や Terraform などの IaC（Infrastructure as Code）が広く利用されています。…",
       "articles": [
         {
           "title": "なぜIaCが必要なのか、実務で理解した話",
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "宇宙軍、記録的な速さのロケットラボ打ち上げを受けて軌道戦争へ（ふり）",
+      "link": "https://www.theregister.com/offbeat/2026/06/23/space-force-goes-to-pretend-orbital-war-following-record-fast-rocket-lab-launch/5260277",
+      "source": "The Register（英語）",
+      "published": "2026-06-23T16:23:00",
+      "excerpt": "命令を受けてから 17 時間も経たないうちに、ロケット ラボは真のアノマリーのジャッカル衛星との近距離演習のためにパイオニアを軌道に投入しました。"
+    },
+    {
+      "title": "O2 が英国の 2G スイッチオフに加わり、2029 年夏に開始予定",
+      "link": "https://www.theregister.com/networks/2026/06/23/o2-joins-uk-2g-switch-off-with-summer-2029-start-date/5260297",
+      "source": "The Register（英語）",
+      "published": "2026-06-23T15:56:00",
+      "excerpt": "それは古い電話だけではありません – 多くのスマート メーターやテレケア アラームには依然として古代のテクノロジーが使用されています"
+    },
+    {
       "title": "TypeScriptコンパイラをGo言語に移植することで10倍速にしたTypeScript 7.0リリース候補版が登場",
       "link": "https://www.publickey1.jp/blog/26/typescriptgo10typescript_70.html",
       "source": "Publickey",
@@ -189,25 +203,11 @@
       "excerpt": "マイクロソフトは、TypeScriptをGo言語に移植した最初のバージョンとなる「TypeScript 7.0」リリース候補版のリリースを発表しました。TypeScript 7's Release Candidate is now...…"
     },
     {
-      "title": "Meta、自社ブランドで新しくて安価なスマートグラスをデビュー",
-      "link": "https://techcrunch.com/2026/06/23/meta-debuts-new-cheaper-smart-glasses-under-its-own-brand/",
+      "title": "パスワードマネージャーメーカーLastPassは、ハッカーがKlue侵害中にカスタマーサポートケースのデータを盗んだと発表",
+      "link": "https://techcrunch.com/2026/06/23/password-manager-maker-lastpass-says-hackers-stole-customer-support-case-data-during-klue-breach/",
       "source": "TechCrunch（英語）",
-      "published": "2026-06-23T14:11:23",
-      "excerpt": "このスマートグラスは、さまざまな色とレンズの組み合わせで、今日からいくつかの国で利用可能になります。"
-    },
-    {
-      "title": "【.NET/クラウド】OOM Killer ！Try-Catchをすり抜ける「完全なる無言のクラッシュ」の正体と非同期ロガーの罠",
-      "link": "https://qiita.com/futayubi5656/items/91d2fd9a5c7a0733c542",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-23T14:10:02",
-      "excerpt": "【.NET/クラウド】Try-Catchをすり抜ける「完全なる無言のクラッシュ」の正体と非同期ロガーの罠 ローカルPCでは爆速で動作するバッチ処理が、クラウド上のSTG環境や本番環境にデプロイした途端、処理の途中で不定期に消滅する。…"
-    },
-    {
-      "title": "AWS Configは「変更監視ツール」だけでないの？っていう学習ログ",
-      "link": "https://qiita.com/keitakei777/items/5933b5af05affd51318c",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-23T14:09:02",
-      "excerpt": "こんばんは。AWS Configについて「リソースの設定変更履歴を記録するサービス」という説明をよく見かけます。ただ、実際にはそれだけではなく、「設定が正しい状態かどうかを継続的にチェックするサービス」としても利用できます。…"
+      "published": "2026-06-23T15:12:37",
+      "excerpt": "これは、パスワード マネージャーの技術パートナーの 1 つが最近侵害されたことに続き、近年 LastPass の顧客に影響を与える 2 回目のデータ侵害です。"
     }
   ]
 }
