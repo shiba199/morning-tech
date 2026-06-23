@@ -1,147 +1,154 @@
 {
-  "generated_at": "2026-06-23T01:27:50",
+  "generated_at": "2026-06-23T05:38:07",
   "window_hours": 24,
-  "total": 190,
+  "total": 189,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が39件。Claude Code の v2.1.185 〜 v2.1.186（2026-06-20 〜 2026-06-22）のアップデートをまとめてご紹介します。…",
+      "summary": "生成AIの新着が39件。Claude Codeの通信に自前ゲートウェイを挟む ― WASI 0.3とWACによる実装",
       "articles": [
         {
-          "title": "Claude Code v2.1.184〜v2.1.186 の主要アップデート",
-          "link": "https://dev.classmethod.jp/articles/20260623-cc-updates-v2-1-186/",
+          "title": "Claude Codeの通信に自前ゲートウェイを挟む ― WASI 0.3とWACによる実装",
+          "link": "https://dev.classmethod.jp/articles/claude-code-wasm-gateway-wasi/",
           "source": "DevelopersIO",
-          "published": "2026-06-23T01:13:24",
-          "excerpt": "Claude Code の v2.1.185 〜 v2.1.186（2026-06-20 〜 2026-06-22）のアップデートをまとめてご紹介します。…"
+          "published": "2026-06-23T05:28:21",
+          "excerpt": "Claude Codeの通信に自前ゲートウェイを挟む ― WASI 0.3とWACによる実装"
         },
         {
-          "title": "Google、「Google Sheets」のGemini機能で日本語など28言語をサポート",
-          "link": "https://codezine.jp/article/detail/24637",
+          "title": "AWS DevOps エージェントで、本番前にコード変更を評価するためのリリース管理機能が追加 (プレビュー)",
+          "link": "https://aws.amazon.com/jp/blogs/news/aws-devops-agent-adds-release-management-capabilities-to-assess-code-changes-before-production-preview/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-06-23T04:44:51",
+          "excerpt": "2026 年 6 月 17 日、プレビューで提供が開始となった AWS DevOps エージェントに新しいリリ […]"
+        },
+        {
+          "title": "AWS資格の勉強だけではもったいないので、ChatGPTをシニアエンジニアにして学習サイトをAWS上に構築してみた",
+          "link": "https://qiita.com/vincentmango_wen/items/8a085f619b909a20b850",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-23T04:03:17",
+          "excerpt": "AWS資格の勉強だけではもったいないので、ChatGPTをシニアエンジニアにして学習サイトをAWS上に構築してみた AWS の Cloud Practitioner（CLF-C02）を勉強していて、二つの不満があった。…"
+        },
+        {
+          "title": "Google、Gemini向け「Interactions API」を一般提供開始し主要APIとして利用",
+          "link": "https://codezine.jp/article/detail/24645",
           "source": "CodeZine",
-          "published": "2026-06-23T01:00:00",
-          "excerpt": "Google、「Google Sheets」のGemini機能で日本語など28言語をサポート"
-        },
-        {
-          "title": "OpenAI、オープンソースのバグの発見とパッチ適用を支援する新しい取り組みを開始",
-          "link": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-06-23T00:11:31",
-          "excerpt": "OpenAI は、オープンソース ソフトウェア コミュニティのセキュリティ問題に取り組もうとしています。"
-        },
-        {
-          "title": "Amazon BedrockのLLM呼び出しコストをApplication inference profileでAI機能別に可視化する | カミナシ エンジニアブログ",
-          "link": "https://kaminashi-developer.hatenablog.jp/entry/2026/06/23/application-inference-profile",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-22T23:00:00",
-          "excerpt": "はじめに カミナシでエンジニアリングマネージャーをしている、すずけん（@szk3）です。…"
+          "published": "2026-06-23T04:00:00",
+          "excerpt": "Google、Gemini向け「Interactions API」を一般提供開始し主要APIとして利用"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。Aurora のカスタムエンドポイントがフェイルオーバー時にどう動作するか、Serverless v2 の 3 台構成で 8 パターンを徹底検証しました。設定の落とし穴と本番運用のチェックリストをまとめます。",
+      "summary": "クラウドの新着が15件。FirecrackerのMiroVMを自分で管理・利用する機能AWS Lambda MicroVMsがリリースされました。…",
       "articles": [
         {
-          "title": "Aurora カスタムエンドポイントはフェイルオーバーでどう変化する？Serverless v2 で 6 パターン(+派生 2)を検証してみた",
-          "link": "https://dev.classmethod.jp/articles/aurora-custom-endpoint-failover-behavior/",
+          "title": "【アップデート】信頼できないコードをサンドボックス環境で検証するためのAWS Lambda MicroVMsが利用可能になりました",
+          "link": "https://dev.classmethod.jp/articles/aws-lambda-introduces-microvms/",
           "source": "DevelopersIO",
-          "published": "2026-06-23T01:00:11",
-          "excerpt": "Aurora のカスタムエンドポイントがフェイルオーバー時にどう動作するか、Serverless v2 の 3 台構成で 8 パターンを徹底検証しました。設定の落とし穴と本番運用のチェックリストをまとめます。"
+          "published": "2026-06-23T05:27:30",
+          "excerpt": "FirecrackerのMiroVMを自分で管理・利用する機能AWS Lambda MicroVMsがリリースされました。…"
         },
         {
-          "title": "AWS Lambda MicroVMsを試す",
-          "link": "https://qiita.com/Kanahiro/items/94a5140d82b54d1f7463",
+          "title": "トランプ大統領、耐量子暗号（PQC）移行を義務付ける大統領令に署名　2030年末期限",
+          "link": "https://www.itmedia.co.jp/news/articles/2606/23/news103.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-06-23T05:08:00",
+          "excerpt": "米連邦政府は、量子コンピュータによる暗号解読の脅威に備え、耐量子計算機暗号（PQC）への移行期限を明示した大統領令にトランプ大統領が署名したと発表した。2030年末までの移行を各省庁に求める。…"
+        },
+        {
+          "title": "Lambda MicroVMsのSHELL_INGRESSでブラウザーからシェルアクセスを試してみた",
+          "link": "https://dev.classmethod.jp/articles/lambda-microvms-shell-ingress-browser-webshell/",
+          "source": "DevelopersIO",
+          "published": "2026-06-23T04:58:33",
+          "excerpt": "Lambda MicroVMsのSHELL_INGRESS機能を使い、ブラウザーからMicroVM内のシェルをインタラクティブに操作してみました。WebSocketの接続仕様を確認し、xterm.jsベースのWebShellを構築しました。…"
+        },
+        {
+          "title": "AWS CDKとTerraformで書き比べてみた - Lambda × S3 署名URLアップロードAPI編",
+          "link": "https://qiita.com/sugumura/items/69028815af846493ec79",
           "source": "Qiita AWSタグ",
-          "published": "2026-06-23T00:36:26",
-          "excerpt": "AWS Lambda MicroVMs AIエージェントの文脈で、isolatedでありながらステートを長い期間保持したい、というニーズに応えるものとして紹介されているように読める HTTPをしゃべるコンテナイメージが動かせるようなものとし…"
-        },
-        {
-          "title": "完全なライフサイクル制御で分離されたサンドボックスを実行: AWS Lambda が MicroVM を導入",
-          "link": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
-          "source": "AWS News Blog（英語）",
-          "published": "2026-06-22T22:40:07",
-          "excerpt": "AWS は、新しいサーバーレス コンピューティング プリミティブである AWS Lambda MicroVM を開始します。セッション間でカーネルやリソースを共有しない、VM レベルの分離されたサンドボックス。…"
-        },
-        {
-          "title": "S3の主なアクションまとめ",
-          "link": "https://qiita.com/dannha/items/8c21979d0aaa544bc18b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-22T22:29:10",
-          "excerpt": "はじめに S3の主なアクション一覧をまとめます。1.オブジェクト操作（一番よく使う） アクション 内容 s3:PutObject アップロード s3:GetObject ダウンロード s3:DeleteObject 削除 s3:HeadO.…"
+          "published": "2026-06-23T04:53:12",
+          "excerpt": "この記事を書いた背景 ソーイでは自社・受託プロダクトでは1案件で複数のAWSサービスをまとめて管理する場面が日常になってきました。手順書による構成管理はヒューマンエラーが発生しやすいため、IaCによる構成管理ツールの導入を検討しています。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。GuardDuty findings の調査に時間を取られたことはありませんか？「GuardDuty Investigation」は、AI が脅威の判定・根拠・推奨アクションを自動で出力してくれる待望の機能です。",
+      "summary": "セキュリティの新着が14件。米連邦政府は、量子コンピュータによる暗号解読の脅威に備え、耐量子計算機暗号（PQC）への移行期限を明示した大統領令にトランプ大統領が署名したと発表した。2030年末までの移行を各省庁に求める。…",
       "articles": [
+        {
+          "title": "トランプ大統領、耐量子暗号（PQC）移行を義務付ける大統領令に署名　2030年末期限",
+          "link": "https://www.itmedia.co.jp/news/articles/2606/23/news103.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-06-23T05:08:00",
+          "excerpt": "米連邦政府は、量子コンピュータによる暗号解読の脅威に備え、耐量子計算機暗号（PQC）への移行期限を明示した大統領令にトランプ大統領が署名したと発表した。2030年末までの移行を各省庁に求める。…"
+        },
+        {
+          "title": "「不完全な実装でも多要素認証よりマシ」　パスキーの“よくある懸念”に英国NCSCが回答",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/23/news056.html",
+          "source": "@IT",
+          "published": "2026-06-23T04:00:00",
+          "excerpt": "英国のNCSCは、サービスがパスキーをサポートする場合はパスキーを、サポートしない場合は2段階認証を推奨する方針を表明し、個人利用における従来のユーザー認証情報とFIDO2認証情報のセキュリティ特性を比較する論文も公開した。"
+        },
+        {
+          "title": "OpenAI、セキュリティ戦略「Daybreak」を拡張 ―Codex Securityプラグイン、GPT-5.5-Cyberを更新しOSSなど重要インフラの脆弱性にも対応へ",
+          "link": "https://gihyo.jp/article/2026/06/openai-daybreak-update?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-06-23T02:30:00",
+          "excerpt": "OpenAIは2026年6月22日、AIを使ったセキュリティ対応戦略「OpenAI Daybreak」の拡張を発表した。"
+        },
         {
           "title": "[アップデート]Amazon GuardDuty の AI 調査機能「GuardDuty Investigation」がプレビューになりました",
           "link": "https://dev.classmethod.jp/articles/guardduty-investigation-preview-trial/",
           "source": "DevelopersIO",
           "published": "2026-06-23T00:41:46",
           "excerpt": "GuardDuty findings の調査に時間を取られたことはありませんか？「GuardDuty Investigation」は、AI が脅威の判定・根拠・推奨アクションを自動で出力してくれる待望の機能です。"
-        },
-        {
-          "title": "Appleも修正できない脆弱性のPoCコード公開　2018～2020年世代のiPhoneに残る設計上の課題",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/23/news058.html",
-          "source": "@IT",
-          "published": "2026-06-22T22:30:00",
-          "excerpt": "AppleのA12、A13チップを搭載したiPhoneやiPadで、起動時の信頼基盤を揺るがす新たなBootROMエクスプロイト「usbliter8」の実証コードが公開された。…"
-        },
-        {
-          "title": "「年収1.5倍で引き抜かれました」　せっかく育てたセキュリティ人材を失う企業の盲点",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2606/23/news005.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-06-22T22:00:00",
-          "excerpt": "AIの台頭や世間の関心の高まりによってサイバーセキュリティ現場の負担が増している。しかし、真の危機は深刻な人材枯渇にある。育てた人材が年収1.5倍で引き抜かれるという過酷な現実を前に、経営者が見落としがちなリスクを現役CISOが示す。"
-        },
-        {
-          "title": "生成AIの進化で変わる脆弱性対策　CISA新指針と「SCS評価制度」から探るパッチ適用方針",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2606/23/news022.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-06-22T22:00:00",
-          "excerpt": "生成AIの進化によって「脆弱性対策」の難易度が急上昇しています。従来は数カ月ごとの定期メンテナンスでパッチを当てるのが主流でしたが、現在はどうでしょうか。これまでの対策が通用しなくなった原因と、CISAやIPAが示す防御戦略を解説します。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。AWS Glue Data Catalog に新しく追加されたセマンティック検索機能を試してみました。テーブルにビジネスコンテキストを付与して「意味」でデータを探せるようになったこの機能、実際の設定手順と検索精度について詳しく解説します。",
+      "summary": "データ分析の新着が2件。米FBIが、住宅や病院、電力会社などを屋内に再現したサイバー捜査の訓練施設「Kinetic Cyber Range」を運用している。約2000平方メートルの偽の町で、2025年2月の開設以降1400人超を訓練してきた。…",
       "articles": [
+        {
+          "title": "FBIが作った「偽の町」　病院もデータセンターもまるで本物　約2000平米の巨大空間でサイバー捜査を訓練",
+          "link": "https://www.itmedia.co.jp/news/articles/2606/23/news094.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-06-23T05:00:00",
+          "excerpt": "米FBIが、住宅や病院、電力会社などを屋内に再現したサイバー捜査の訓練施設「Kinetic Cyber Range」を運用している。約2000平方メートルの偽の町で、2025年2月の開設以降1400人超を訓練してきた。…"
+        },
         {
           "title": "[アップデート] AWS Glue Data Catalog がビジネスコンテキストとセマンティック検索をサポートしたので試してみました（プレビュー）",
           "link": "https://dev.classmethod.jp/articles/20260622-glue-data-catalog-business-context/",
           "source": "DevelopersIO",
           "published": "2026-06-22T14:31:15",
           "excerpt": "AWS Glue Data Catalog に新しく追加されたセマンティック検索機能を試してみました。テーブルにビジネスコンテキストを付与して「意味」でデータを探せるようになったこの機能、実際の設定手順と検索精度について詳しく解説します。"
-        },
-        {
-          "title": "BIM データの要件定義から IDS を自動生成する: 生成 AI と AgentCore で実現するパラレル IDS ビルダー",
-          "link": "https://aws.amazon.com/jp/blogs/news/parallel-ids-builder-with-amazon-bedrock-agentcore-and-aws-step-functions/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-06-22T05:12:51",
-          "excerpt": "建設業界で進む BIM 活用では、「必要なデータが揃っているか」を定義・検証することの難しさが課題になっています。…"
-        },
-        {
-          "title": "BIM データを生成 AI で活用する: IFC を RDF グラフに変換し Amazon Neptune で問い合わせるアーキテクチャ",
-          "link": "https://aws.amazon.com/jp/blogs/news/bim-graph-on-amazon-neptune-with-text-to-sparql/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-06-22T05:10:08",
-          "excerpt": "建設業界で導入が進む BIM には、建物の豊富なデータが蓄積されています。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。はじめに こんにちは！CDK が好きな社会人二年目のエンジニアです。2026 年 6 月 16 日、AWS から AWS Blocks がパブリックプレビューとして発表されました。…",
+      "summary": "開発ツールの新着が16件。この記事を書いた背景 ソーイでは自社・受託プロダクトでは1案件で複数のAWSサービスをまとめて管理する場面が日常になってきました。手順書による構成管理はヒューマンエラーが発生しやすいため、IaCによる構成管理ツールの導入を検討しています。…",
       "articles": [
+        {
+          "title": "AWS CDKとTerraformで書き比べてみた - Lambda × S3 署名URLアップロードAPI編",
+          "link": "https://qiita.com/sugumura/items/69028815af846493ec79",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-23T04:53:12",
+          "excerpt": "この記事を書いた背景 ソーイでは自社・受託プロダクトでは1案件で複数のAWSサービスをまとめて管理する場面が日常になってきました。手順書による構成管理はヒューマンエラーが発生しやすいため、IaCによる構成管理ツールの導入を検討しています。…"
+        },
+        {
+          "title": "GitHubとAWS Lambdaで始める体験型CI/CD入門ワークショップを公開しました",
+          "link": "https://dev.classmethod.jp/articles/aws-lambda-cicd-workshop-github-actions/",
+          "source": "DevelopersIO",
+          "published": "2026-06-23T03:39:06",
+          "excerpt": "GitHubとAWS Lambdaで始める体験型CI/CD入門ワークショップを公開しました"
+        },
         {
           "title": "3つの特徴で理解する AWS Blocks 〜IFC・Conditional Exports・CDKの拡張〜",
           "link": "https://qiita.com/kawaaaas/items/1e24fe0f934ec339ce78",
@@ -150,57 +157,43 @@
           "excerpt": "はじめに こんにちは！CDK が好きな社会人二年目のエンジニアです。2026 年 6 月 16 日、AWS から AWS Blocks がパブリックプレビューとして発表されました。…"
         },
         {
-          "title": "CloudFormationでS3バケットを作る最小構成と、初学者がつまずきやすい設定",
-          "link": "https://qiita.com/suzunari900261/items/50d855e40d665f6061e1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-22T21:26:29",
-          "excerpt": "CloudFormationでS3バケットを作る最小構成と、初学者がつまずきやすい設定 はじめに CloudFormationを学び始めると、まず最初に作成するAWSリソースの1つがAmazon S3ではないでしょうか。…"
-        },
-        {
-          "title": "LG スマート TV アプリのほぼ半数に住宅用プロキシ SDK が含まれています",
-          "link": "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-22T20:48:30",
-          "excerpt": "記事の URL: https://spur.us/blog/smart-tv-apps-residential-proxy-sdks コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Git は永遠です。とにかくオークを作っています",
-          "link": "https://oak.space/blog",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-22T15:37:48",
-          "excerpt": "記事の URL: https://oak.space/blog コメント URL: https://news.ycombinator.com/item?id=48631726 ポイント: 16 コメント数: 7"
+          "title": "このオープンソース CLI を使用して、古い AI オーバーライド アドバイスを嗅ぎ分けます",
+          "link": "https://www.theregister.com/security/2026/06/23/sniff-out-stale-ai-override-advice-with-this-open-source-cli/5259853",
+          "source": "The Register（英語）",
+          "published": "2026-06-23T00:17:13",
+          "excerpt": "パッケージの依存関係により、発見して撲滅することが非常に困難な脆弱性が生じる可能性があります"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ALBの仕組みを「なんとなく」で3年過ごしてきたエンジニアが整理したこと",
-      "link": "https://qiita.com/handson-lab/items/d1f0f49137d516b60d45",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-23T00:19:35",
-      "excerpt": "はじめに 「ALBの前にEC2が2台あって、トラフィックを分散してくれる」——これが3年間の私のALB理解でした。使えていました。設定もできていた。でも「ヘルスチェックの仕組みを説明してください」「スティッキーセッションとは何ですか？…"
+      "title": "AWS Transform – 継続的モダナイズ (プレビュー) で、技術的負債を自律的にプロアクティブに削減",
+      "link": "https://aws.amazon.com/jp/blogs/news/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-06-23T05:31:27",
+      "excerpt": "2026 年 6 月 17 日、AWS Transform の新機能である AWS Transform – 継 […]"
     },
     {
-      "title": "第273回　MySQL Group ReplicationのFlow Control統計コンポーネント",
-      "link": "https://gihyo.jp/article/2026/06/mysql-rcn0273?utm_source=feed",
-      "source": "gihyo.jp 開発",
-      "published": "2026-06-23T00:04:00",
-      "excerpt": "MySQL 9.1以降、Group Replicationのフロー制御統計を取得できるコンポーネント「Group Replication Flow Control Statistics Component」が提供されています。"
+      "title": "【登壇資料】「ツールを入れても解決しない？データ活用の現場に共通する課題とデータマネジメントの必要性と基本」というタイトルで登壇しました",
+      "link": "https://dev.classmethod.jp/articles/data-management-basics-webinar/",
+      "source": "DevelopersIO",
+      "published": "2026-06-23T05:12:01",
+      "excerpt": "【登壇資料】「ツールを入れても解決しない？データ活用の現場に共通する課題とデータマネジメントの必要性と基本」というタイトルで登壇しました"
     },
     {
-      "title": "【デブサミ夏まで残り3週間！】イオン、サグリ、Fairy Devices……3社のCTOが描く未来",
-      "link": "https://codezine.jp/article/detail/24639",
-      "source": "CodeZine",
-      "published": "2026-06-23T00:00:00",
-      "excerpt": "【デブサミ夏まで残り3週間！】イオン、サグリ、Fairy Devices……3社のCTOが描く未来"
+      "title": "それは神話でしょうか？",
+      "link": "https://swelljoe.com/post/will-it-mythos/",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-23T04:15:04",
+      "excerpt": "記事の URL: https://swelljoe.com/post/will-it-mythos/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "1万枚の写真選定を効率化！ MIXIがAWSと共同開発した、FC東京の広報業務を支える画像認識AIシステム",
-      "link": "https://codezine.jp/article/detail/24292",
-      "source": "CodeZine",
-      "published": "2026-06-23T00:00:00",
-      "excerpt": "プロスポーツクラブの運営業務は、試合ごとの目まぐるしい展開も相まって、アナログで属人的な作業に頼らざるを得ない領域が多く存在している。…"
+      "title": "インドと中国には 29 億人が住んでいますが、第 1 四半期に購入した PC は合わせてわずか 1,300 万台です",
+      "link": "https://www.theregister.com/personal-tech/2026/06/23/india-and-china-are-home-to-29-billion-people-and-together-they-bought-just-13-million-pcs-in-q1/5259893",
+      "source": "The Register（英語）",
+      "published": "2026-06-23T04:06:02",
+      "excerpt": "プラス: インドの通信会社はブロードバンド衛星について検討中。サムスンは OpenAI に全力を尽くします。ベトナムはハイテク巨人10社を中心に計画している。などなど！"
     }
   ]
 }
