@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-06-24T06:27:57",
+  "generated_at": "2026-06-24T09:56:17",
   "window_hours": 24,
-  "total": 220,
+  "total": 214,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が54件。ChatGPTやClaudeのようなLLMは「計算とは何か」を定義したチューリング、電話のノイズを減らそうとしたシャノンなど、全く別の問題を解こうとした人々の副産物が80年かけて積み重なった結果です。…",
+      "summary": "生成AIの新着が46件。ChatGPTやClaudeのようなLLMは「LLMを作ろう」という目標から生まれたものではない。…",
       "articles": [
         {
-          "title": "「失敗の積み重ね」がLLMを生んだ — 別々の問題を解こうとした人々の80年",
-          "link": "https://dev.classmethod.jp/articles/llm-birth-history-turing-shannon-transformer-gpt3/",
+          "title": "「失敗の積み重ね」がLLMを生んだ（前編）— 数学の限界から意味の幾何学へ",
+          "link": "https://dev.classmethod.jp/articles/llm-birth-history-turing-shannon-transformer-gpt3-part1/",
           "source": "DevelopersIO",
-          "published": "2026-06-24T06:20:56",
-          "excerpt": "ChatGPTやClaudeのようなLLMは「計算とは何か」を定義したチューリング、電話のノイズを減らそうとしたシャノンなど、全く別の問題を解こうとした人々の副産物が80年かけて積み重なった結果です。…"
+          "published": "2026-06-24T09:48:03",
+          "excerpt": "ChatGPTやClaudeのようなLLMは「LLMを作ろう」という目標から生まれたものではない。…"
         },
         {
-          "title": "Claude CodeでAIレビュー体制を作った話",
-          "link": "https://qiita.com/yuki_engineer08/items/926ee2a4ed414bf99db8",
+          "title": "Amazon CloudWatch Logsの新機能「マネージドsyslogインジェスト」で、エージェントなしにVPC内からsyslogを直接取り込んでみた",
+          "link": "https://dev.classmethod.jp/articles/cloudwatch-logs-syslog-ingestion/",
+          "source": "DevelopersIO",
+          "published": "2026-06-24T09:28:25",
+          "excerpt": "Amazon CloudWatch Logsの新機能「マネージドsyslogインジェスト」を使い、VPCエンドポイント経由でsyslogをCloudWatch Logsへ取り込んでみました。…"
+        },
+        {
+          "title": "AWS Bedrock AgentCoreで長い応答が途中で切れる──原因は時間ではなく、レスポンスのサイズ上限でした",
+          "link": "https://qiita.com/musa_rock/items/f268c85632f70ec9834f",
           "source": "Qiita AWSタグ",
-          "published": "2026-06-24T06:07:09",
-          "excerpt": "Claude Codeで開発していて感じたのは、 AIは自分のコードを自分でレビューするのが苦手 ということでした。そこで以下の3エージェント構成を作成しました。…"
+          "published": "2026-06-24T08:40:14",
+          "excerpt": "本記事では、Amazon Bedrock AgentCore Runtime 上のチャットボットで「長い応答が必ず途中で切れる」という問題にハマり、最終的に原因が レスポンスペイロードの 100MB 上限だった、という話を共有します。…"
         },
         {
-          "title": "【開催レポート】答えのない課題にアジャイルで挑む「AIエージェント開発のリアル」 第10回 Stockmark Tech Meetup | Stockmark Tech Blog",
-          "link": "https://stockmark-tech.hatenablog.com/entry/2026/06/24",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-24T05:44:31",
-          "excerpt": "第10回Stockmark Tech Meetup開催レポート：AIエージェント開発のリアル"
-        },
-        {
-          "title": "NVIDIA Japan の NPN Partner Agentic AI Bootcamp に参加してきました",
-          "link": "https://dev.classmethod.jp/articles/nvidia-npn-agentic-ai-bootcamp-report/",
-          "source": "DevelopersIO",
-          "published": "2026-06-24T05:24:57",
-          "excerpt": "NVIDIA Japan の NPN Partner Agentic AI Bootcamp に参加してきました"
+          "title": "【AWS】夜間の自動調査もお手の物！DevOpsAgentを用いたシステム障害対応業務の再現性確保",
+          "link": "https://qiita.com/na7na/items/db3da705106d8d80fc3a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-24T08:01:47",
+          "excerpt": "はじめに 組織異動の季節になり、システム障害対応やインシデント対応可能なメンバーを増やしたいと考えるようになりました。引き継ぎ書等を用意するだけでなく、この業務自体をエージェント化してみたくなりました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。サンワサプライが、物流倉庫における荷降ろし作業の自動化と労働環境の改善を目的に、AI搭載のコンテナ向け荷降ろしロボット「RockyOne」を採用した。5月から同社の西日本物流センターで運用を開始している。",
+      "summary": "クラウドの新着が18件。Amazon CloudWatch Logsの新機能「マネージドsyslogインジェスト」を使い、VPCエンドポイント経由でsyslogをCloudWatch Logsへ取り込んでみました。…",
       "articles": [
+        {
+          "title": "Amazon CloudWatch Logsの新機能「マネージドsyslogインジェスト」で、エージェントなしにVPC内からsyslogを直接取り込んでみた",
+          "link": "https://dev.classmethod.jp/articles/cloudwatch-logs-syslog-ingestion/",
+          "source": "DevelopersIO",
+          "published": "2026-06-24T09:28:25",
+          "excerpt": "Amazon CloudWatch Logsの新機能「マネージドsyslogインジェスト」を使い、VPCエンドポイント経由でsyslogをCloudWatch Logsへ取り込んでみました。…"
+        },
+        {
+          "title": "株式会社 MIXI、FC東京の写真選定業務効率化システムを Amazon Aurora DSQL で実現",
+          "link": "https://aws.amazon.com/jp/blogs/news/mixi-fctokyo-photo-selection-aurora-dsql/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-06-24T07:01:42",
+          "excerpt": "株式会社 MIXI が FC東京向けに開発した「写真選定業務効率化システム」のバックエンドデータベースとして Amazon Aurora DSQL を採用した経緯と技術的な工夫、得られた効果を、お客様の声を交えてご紹介します。"
+        },
+        {
+          "title": "SageMaker中心のスケールするMLパイプラインの構築 ~Snowflake連携から単一コンテナ設計、軽量監視まで~",
+          "link": "https://zenn.dev/gatechnologies/articles/sagemaker-ml-pipeline",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-24T05:57:32",
+          "excerpt": "1.はじめに 1.1 会社・チームの紹介 こんにちは。GA technologiesのData本部 Applied ML部でデータサイエンティストをしている酒井です。…"
+        },
         {
           "title": "「夏場は50度以上のコンテナで作業」に対処　サンワサプライが西日本で荷降ろしロボット活用",
           "link": "https://www.itmedia.co.jp/news/articles/2606/24/news081.html",
           "source": "ITmedia NEWS",
           "published": "2026-06-24T02:45:00",
           "excerpt": "サンワサプライが、物流倉庫における荷降ろし作業の自動化と労働環境の改善を目的に、AI搭載のコンテナ向け荷降ろしロボット「RockyOne」を採用した。5月から同社の西日本物流センターで運用を開始している。"
-        },
-        {
-          "title": "AWS、コード実行用の隔離環境「Lambda MicroVMs」を発表",
-          "link": "https://codezine.jp/article/detail/24651",
-          "source": "CodeZine",
-          "published": "2026-06-24T02:30:00",
-          "excerpt": "AWS、コード実行用の隔離環境「Lambda MicroVMs」を発表"
-        },
-        {
-          "title": "【Security Hub修復手順】[EKS.9] EKSノードグループは、サポートされているKubernetesバージョンで実行する必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-eks-9/",
-          "source": "DevelopersIO",
-          "published": "2026-06-24T01:19:40",
-          "excerpt": "【Security Hub修復手順】[EKS.9] EKSノードグループは、サポートされているKubernetesバージョンで実行する必要があります"
-        },
-        {
-          "title": "Amazon ConnectでAIコンタクトセンターを作ってみた①〜Lambda × Bedrock × DynamoDB構築編〜",
-          "link": "https://qiita.com/sir0oo/items/ee0db25d789ce4f1978d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-24T01:19:00",
-          "excerpt": "はじめに はじめまして、26新卒のしょうです。このたびコンタクトセンター部門への仮配属が決まりました。「とりあえずやってみよう」ということで、Amazon Connectを使ったコンタクトセンターシステムを個人で作ってみました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が20件。TLS エンドポイントをポスト量子暗号 (PQC) に移行する第一歩は、現状のインベントリと状態把握です。…",
+      "summary": "セキュリティの新着が15件。こんにちは。三村（@t_mimura39）です。皆さんは、長年運用されてきたモノリシックなRailsアプリケーションから「認証」のような根幹機能を切り出した経験はありますか？…",
       "articles": [
+        {
+          "title": "10年もののモノリスから「認証」を切り出す 〜メドピア共通基盤プロジェクトの裏側〜 | メドピア開発者ブログ",
+          "link": "https://tech.medpeer.co.jp/entry/2026/06/24/170000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-24T08:00:00",
+          "excerpt": "こんにちは。三村（@t_mimura39）です。皆さんは、長年運用されてきたモノリシックなRailsアプリケーションから「認証」のような根幹機能を切り出した経験はありますか？…"
+        },
         {
           "title": "AWS Config を使用したポスト量子暗号 (PQC) 対応の自動化",
           "link": "https://aws.amazon.com/jp/blogs/news/automating-post-quantum-cryptography-readiness-using-aws-config/",
@@ -99,21 +106,28 @@
           "source": "ITmedia NEWS",
           "published": "2026-06-24T00:49:00",
           "excerpt": "共用レンタルサーバ「WebARENA SuiteX」の一部サーバでも不正アクセスがあり、7契約で顧客領域に不審なファイルが設置された痕跡もあった。"
-        },
-        {
-          "title": "GuardDuty Investigation の trigger-prompt を AWS CLI でいろいろ試してみた",
-          "link": "https://dev.classmethod.jp/articles/guardduty-investigation-trigger-prompt-cli/",
-          "source": "DevelopersIO",
-          "published": "2026-06-24T00:14:28",
-          "excerpt": "GuardDuty Investigation の CLI から、プロンプトの書き方で分析結果がどう変わるのか、実際に試してみました。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。はじめに 先日、Lightsail コンソール上に次のメッセージが表示されました。…",
+      "summary": "データ分析の新着が10件。「BIGLOBEメール」で利用者のメールアドレスやBIGLOBE ID、パスワードが漏えいした可能性があるとして、ビッグローブが6月23日、会員にパスワード変更を呼びかけた。だが、X上では「画面エラーで変更できない」との投稿が相次いでいる。…",
       "articles": [
+        {
+          "title": "「パスワードが変更できない」の声相次ぐ　BIGLOBE、情報漏えいの可能性で変更呼びかけ　マイページ高負荷が一因",
+          "link": "https://www.itmedia.co.jp/news/articles/2606/24/news123.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-06-24T08:25:00",
+          "excerpt": "「BIGLOBEメール」で利用者のメールアドレスやBIGLOBE ID、パスワードが漏えいした可能性があるとして、ビッグローブが6月23日、会員にパスワード変更を呼びかけた。だが、X上では「画面エラーで変更できない」との投稿が相次いでいる。…"
+        },
+        {
+          "title": "AWS学習14日目：Billing",
+          "link": "https://zenn.dev/zono731/articles/66bafd60629f03",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-24T04:46:43",
+          "excerpt": "今日のテーマ AWS学習14日目は、AWSの利用料金を確認し、想定外の課金に気づくための仕組みをBillingを通して学びました。…"
+        },
         {
           "title": "AWS Lightsail CDK デプロイ時に Bitnami 版がインストールされていた原因と解決方法",
           "link": "https://qiita.com/ryoichi_izumi/items/e519c30fc4c81f58c850",
@@ -122,92 +136,78 @@
           "excerpt": "はじめに 先日、Lightsail コンソール上に次のメッセージが表示されました。…"
         },
         {
-          "title": "Amazon ConnectでAIコンタクトセンターを作ってみた①〜Lambda × Bedrock × DynamoDB構築編〜",
-          "link": "https://qiita.com/sir0oo/items/ee0db25d789ce4f1978d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-24T01:19:00",
-          "excerpt": "はじめに はじめまして、26新卒のしょうです。このたびコンタクトセンター部門への仮配属が決まりました。「とりあえずやってみよう」ということで、Amazon Connectを使ったコンタクトセンターシステムを個人で作ってみました。…"
-        },
-        {
-          "title": "【特集】 BitLockerで突然のデータ消失？悲劇を防ぐためにやっておくべきこと",
-          "link": "https://pc.watch.impress.co.jp/docs/topic/feature/2118915.html",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-06-23T22:24:38",
-          "excerpt": "【特集】 BitLockerで突然のデータ消失？悲劇を防ぐためにやっておくべきこと"
-        },
-        {
-          "title": "[Rust] DynamoDBテーブルのStringフィールドに入ったJSONをRustにてネストしたStructにDeserializeする",
-          "link": "https://qiita.com/pinchos/items/49b2494b9fc2759a396d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-23T14:12:53",
-          "excerpt": "はじめ DynamoDBにて、JSON文字列をそのままString型で格納するケースのとき（設計の是非はさておき）、serde_dynamoではString型のフィールドにJSONが入っている場合、そのままではネストしたStructへのDe…"
+          "title": "AWS Lightsail CDK デプロイ時に Bitnami 版がインストールされていた原因と解決方法",
+          "link": "https://zenn.dev/gnc_tech/articles/6d47716037649e",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-24T03:33:49",
+          "excerpt": "はじめに 先日、Lightsail コンソール上に次のメッセージが表示されました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。GitHub、Copilot CLIの新しいターミナルインターフェースを一般公開",
+      "summary": "開発ツールの新着が16件。GitHub、Code Quality Findings REST APIを公開プレビュー",
       "articles": [
         {
-          "title": "GitHub、Copilot CLIの新しいターミナルインターフェースを一般公開",
-          "link": "https://codezine.jp/article/detail/24656",
+          "title": "GitHub、Code Quality Findings REST APIを公開プレビュー",
+          "link": "https://codezine.jp/article/detail/24658",
           "source": "CodeZine",
-          "published": "2026-06-24T05:30:00",
-          "excerpt": "GitHub、Copilot CLIの新しいターミナルインターフェースを一般公開"
+          "published": "2026-06-24T08:00:00",
+          "excerpt": "GitHub、Code Quality Findings REST APIを公開プレビュー"
         },
         {
-          "title": "Terraformコードレビュースキルを作って Claude Code GitHub Actions で Pull Request を自動レビューしてみた",
-          "link": "https://dev.classmethod.jp/articles/terraform-review-skill-claude-code-github-actions/",
-          "source": "DevelopersIO",
-          "published": "2026-06-24T04:41:11",
-          "excerpt": "Terraformコードレビュースキルを作って Claude Code GitHub Actions で Pull Request を自動レビューしてみた"
+          "title": "GitHub Copilotアプリでデザイン支援スキル「Impeccable」が実験的に利用可能に",
+          "link": "https://gihyo.jp/article/2026/06/github-copilot-app-support-impeccable-skill?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-06-24T07:55:00",
+          "excerpt": "GitHubは2026年6月22日、AIコーディングエージェント向けのデザイン支援スキル「Impeccable」をGitHub Copilotアプリの組み込みスキルとして利用できるようになったと公式Xで案内した。"
         },
         {
-          "title": "【AWS】CDKをコンストラクトで構造化する",
-          "link": "https://qiita.com/ooki/items/b8b86769b2bcb6ab20cc",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-24T04:28:27",
-          "excerpt": "はじめに CloudFormationではスタックを分割して管理することが多い印象でした。…"
+          "title": "AIコーディング支援が「攻撃の永続化経路」になる時代｜npmワーム Shai-Hulud / Mini Shai-Hulud に学ぶ開発者端末・CI/CD・シークレット防御2026 | CloudNative BLOGs",
+          "link": "https://blog.cloudnative.co.jp/articles/npm-supply-chain-worm-shai-hulud-mini-2026/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-24T07:40:00",
+          "excerpt": "2025年9月から2026年6月まで続くnpmサプライチェーンワーム（Shai-Hulud / Mini Shai-Hulud / Miasma）の系譜を一次情報で整理。…"
         },
         {
-          "title": "AWS Lightsail CDK デプロイ時に Bitnami 版がインストールされていた原因と解決方法",
-          "link": "https://qiita.com/ryoichi_izumi/items/e519c30fc4c81f58c850",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-24T03:34:53",
-          "excerpt": "はじめに 先日、Lightsail コンソール上に次のメッセージが表示されました。…"
+          "title": "React NativeのExpoって何？Expo Go・EAS・Dev Client・ビルドの違いを整理してみた | iimon TECH BLOG",
+          "link": "https://tech.iimon.co.jp/entry/2026/06/24/155416",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-24T06:54:16",
+          "excerpt": "はじめに さまざまなExpoの主な意味合い Expo(フレームワーク・SDK) Expo Go(動作確認アプリ) EAS(Expo Application Services) (補足) ネイティブコードとは アプリの実行環境とビルド方法 実…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "すべての動きが速すぎるときに投資する方法",
-      "link": "https://techcrunch.com/2026/06/23/how-to-invest-when-everything-is-moving-too-fast/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-06-24T06:26:11",
-      "excerpt": "先週後半にロサンゼルスで開催されたTechCrunchのStrictlyVCイブニングには、現在AIに取り組んでいる最も率直な投資家2人が集まった。それらは啓発的であると同時に楽しいものでした。"
+      "title": "【Teraform】AWS構築してみよう（初期設定&構築編）",
+      "link": "https://qiita.com/noobaimo/items/f13808a4dbe75d5b4044",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-24T09:24:25",
+      "excerpt": "はじめに この記事では IaC（Infrastructure as Code） と Terraform を使って、AWSのネットワーク〜サーバーまでをコードで構築し、最後は跡形もなく削除するまでの一連の流れをハンズオン形式で体験します。…"
     },
     {
-      "title": "fallowの紹介 | techblog  |  株式会社i-Vinci",
-      "link": "https://www.i-vinci.co.jp/techblog/2201",
-      "source": "企業テックブログまとめ",
-      "published": "2026-06-24T06:16:07",
-      "excerpt": "こんにちは。i-VinciのMiuraです。今回はコードの良し悪しを簡単に知ることができる、fallowというライブラリを紹介したいと思います。fallowとは TypeScriptとJavaScript向けのコード […]…"
+      "title": "【初心者】Djangoで作ったToDoアプリを改良してみた",
+      "link": "https://dev.classmethod.jp/articles/co-newgraduate2026-training05-fujise/",
+      "source": "DevelopersIO",
+      "published": "2026-06-24T09:22:55",
+      "excerpt": "【初心者】Djangoで作ったToDoアプリを改良してみた"
     },
     {
-      "title": "AWS Summit Japan 2026 ブース紹介 ソフトウェア定義型ファクトリー",
-      "link": "https://aws.amazon.com/jp/blogs/news/aws-summit-japan-2026-mfg-sda-with-ai-agent/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-06-24T06:12:48",
-      "excerpt": "こんにちは、ソリューションアーキテクトのシャルノ ミカエルです。本記事では、2026 年 6 月 25 日（ […]…"
+      "title": "【AWS SAA】クラウド未経験でも３週間で合格できる",
+      "link": "https://qiita.com/noobaimo/items/557d29e24ac31f35d0e7",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-24T09:22:39",
+      "excerpt": "この記事で伝えたいこと Ping-tだけで合格できる 未経験でも短期間での取得を目指せる 「AWSの実務経験ないけど受かる？」「教材何使えばいいの？」という方に向けて書きました。…"
     },
     {
-      "title": "【Devin活用】Spring Boot 3.5 → 4 へのメジャーバージョンアップの影響調査 | RAKUS Developers Blog | ラクス エンジニアブログ",
-      "link": "https://tech-blog.rakus.co.jp/entry/20260624/devin",
-      "source": "企業テックブログまとめ",
-      "published": "2026-06-24T06:00:00",
-      "excerpt": "1.はじめに この記事で書くこと この記事で書かないこと 前提 2.…"
+      "title": "NHK受信料収入、7年連続減少　下げ止まり見えず　事業収入は6年ぶり増加",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/24/news129.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-06-24T09:15:00",
+      "excerpt": "NHKは6月23日、2025年度決算を発表した。受信料収入は前年度比50億円減の5851億円で、7年連続で減少した。推計世帯支払率は76.9％で、同0.4ポイント低下。…"
     }
   ]
 }
