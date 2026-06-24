@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-24T15:15:58",
+  "generated_at": "2026-06-24T17:24:51",
   "window_hours": 24,
-  "total": 218,
+  "total": 236,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が48件。Jalapeño と名付けられたこの新しいプロセッサは、OpenAI の推論システムの固有のニーズに合わせて特別に設計されました。",
+      "summary": "生成AIの新着が46件。はじめに AWS DevOps Agent は、インシデント調査や SRE タスクを自律的にこなしてくれる「フロンティア AI エージェント」サービスです。…",
       "articles": [
+        {
+          "title": "DevOps Agent のカスタムエージェントと MCP 連携 - Claude Code からも呼んでみた",
+          "link": "https://qiita.com/leomarokun/items/5d4609395876fa081bdc",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-24T16:34:13",
+          "excerpt": "はじめに AWS DevOps Agent は、インシデント調査や SRE タスクを自律的にこなしてくれる「フロンティア AI エージェント」サービスです。…"
+        },
+        {
+          "title": "CursorのCustomizeでplugins、skills、MCP、subagents、hooksを一元管理できるようになった",
+          "link": "https://dev.classmethod.jp/articles/cursor-customize-integrated-management/",
+          "source": "DevelopersIO",
+          "published": "2026-06-24T15:58:59",
+          "excerpt": "Cursorの最新アップデート「Customize page」で、plugins、skills、MCP、subagents、rules、commands、hooksをまとめて管理できるようになりました。…"
+        },
         {
           "title": "OpenAI、Broadcom が開発した初のカスタムチップを発表",
           "link": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
@@ -22,27 +36,13 @@
           "source": "Hacker News（英語）",
           "published": "2026-06-24T14:41:41",
           "excerpt": "記事の URL: https://rubyllm.com/ コメント URL: https://news.ycombinator.com/item?id=48660711 ポイント: 4 コメント数: 0"
-        },
-        {
-          "title": "AI コーディング エージェントのコストは間もなく、それを使用する開発者よりも高くなる可能性があります",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/24/ai-coding-agents-could-soon-cost-more-than-the-developers-using-them/5260864",
-          "source": "The Register（英語）",
-          "published": "2026-06-24T13:04:00",
-          "excerpt": "従量制の価格設定とわずかなコスト管理により、月々の請求額が 5 桁に達していると Gartner が警告"
-        },
-        {
-          "title": "「Transformerの最大475倍」　富士通、GPUを効率的に使うLLMアーキテクチャ「PHOTON」開発",
-          "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000125/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-06-24T12:13:32",
-          "excerpt": "富士通は6月24日、大規模言語モデル（LLM）を少ないGPUで動かせる新アーキテクチャ「PHOTON」（フォトン）を開発したと発表した。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が24件。Amazon Web Servicesは、AWS Lambda上で一時的にステートフルな実行環境をMicroVMによって安全に隔離された状態で用意できる新サービス「AWS Lambda Micro VMs」を発表しました。AWS Lamb.…",
+      "summary": "クラウドの新着が28件。Amazon Web Servicesは、AWS Lambda上で一時的にステートフルな実行環境をMicroVMによって安全に隔離された状態で用意できる新サービス「AWS Lambda Micro VMs」を発表しました。AWS Lamb.…",
       "articles": [
         {
           "title": "AWS Lambda MicroVMs登場。サーバレスの手軽さでステートフルかつ隔離された実行環境を提供",
@@ -50,6 +50,13 @@
           "source": "Publickey",
           "published": "2026-06-24T15:40:24",
           "excerpt": "Amazon Web Servicesは、AWS Lambda上で一時的にステートフルな実行環境をMicroVMによって安全に隔離された状態で用意できる新サービス「AWS Lambda Micro VMs」を発表しました。AWS Lamb.…"
+        },
+        {
+          "title": "公開資料だけで読むガバメントクラウド ― 民間の移行・DR技術者から見た自治体標準化の技術地図",
+          "link": "https://zenn.dev/muzzledskr/articles/govcloud-public-document-reading",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-24T15:39:00",
+          "excerpt": "この記事の立ち位置 ガバメントクラウドと自治体システム標準化の「制度としての正確な説明」は、デジタル庁と総務省の公式資料が持っている。ここで素人が制度解説をやり直しても、辞書を写すだけになる。この記事がやるのは別のことだ。…"
         },
         {
           "title": "EC2（RHEL 10）上にFluent Bit + LokiでSyslog集約基盤を構築する",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-24T14:53:25",
           "excerpt": "TL;DR S3 クライアントの --endpoint-url を差し替えるだけで、PUT 時に透過圧縮、GET 時に透過展開する Rust 製ゲートウェイ S4 を Apache-2.0 で公開しています。…"
-        },
-        {
-          "title": "Amazon S3 Access Point でバケットポリシー肥大化問題を解決する",
-          "link": "https://qiita.com/keitakei777/items/2db7fa6080fdbfed285c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-24T14:50:44",
-          "excerpt": "複数のシステムやチームが同じ S3 バケットを利用すると、バケットポリシーがどんどん複雑になり、管理が難しくなります。この記事では、その課題を根本的に解決する Amazon S3 Access Point について整理します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。経産省・内閣官房が2026年3月27日に公表した「サプライチェーン強化に向けたセキュリティ対策評価制度（SCS評価制度）」を一次情報で解説。…",
+      "summary": "セキュリティの新着が17件。個人開発のWebアプリ（Cognito + SESでメール認証）で、確認コードのメールが新規ユーザーに届かない問題に詰まり、最終的に Cognito標準送信（COGNITO_DEFAULT） に切り替えて回避しました。…",
       "articles": [
+        {
+          "title": "Amazon SESの本番アクセスに2回落ちたので、Cognito標準送信でメール認証を動かした（落とし穴つき）",
+          "link": "https://qiita.com/pakupaku_x_x_x/items/f10ebb06db4215fad86d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-24T15:28:03",
+          "excerpt": "個人開発のWebアプリ（Cognito + SESでメール認証）で、確認コードのメールが新規ユーザーに届かない問題に詰まり、最終的に Cognito標準送信（COGNITO_DEFAULT） に切り替えて回避しました。…"
+        },
         {
           "title": "取引条件に「セキュリティ格付け」が入る時代｜経産省 SCS評価制度（★3・★4）を情シスが制度開始前に準備する実務 2026 | CloudNative BLOGs",
           "link": "https://blog.cloudnative.co.jp/articles/scs-security-rating-2026/",
@@ -99,21 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-06-24T10:50:41",
           "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
-        },
-        {
-          "title": "10年もののモノリスから「認証」を切り出す 〜メドピア共通基盤プロジェクトの裏側〜 | メドピア開発者ブログ",
-          "link": "https://tech.medpeer.co.jp/entry/2026/06/24/170000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-24T08:00:00",
-          "excerpt": "こんにちは。三村（@t_mimura39）です。皆さんは、長年運用されてきたモノリシックなRailsアプリケーションから「認証」のような根幹機能を切り出した経験はありますか？…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が10件。はじめに ネットワーク機器やロードバランサーのログを集約したい場合、Syslogサーバーを構築するケースは少なくありません。…",
+      "summary": "データ分析の新着が11件。CUR 2.0のAthena統合サポートが発表されました。…",
       "articles": [
+        {
+          "title": "CUR 2.0のAthena統合をセットアップし、Step FunctionsとPartition Projectionで改良してみた",
+          "link": "https://dev.classmethod.jp/articles/cur2-athena-integration-step-functions-partition-projection/",
+          "source": "DevelopersIO",
+          "published": "2026-06-24T15:45:10",
+          "excerpt": "CUR 2.0のAthena統合サポートが発表されました。…"
+        },
         {
           "title": "EC2（RHEL 10）上にFluent Bit + LokiでSyslog集約基盤を構築する",
           "link": "https://qiita.com/nanagi512/items/f713ca4dff6884841263",
@@ -134,80 +141,73 @@
           "source": "企業テックブログまとめ",
           "published": "2026-06-24T11:00:16",
           "excerpt": "はじめに 本記事は、論文「TOOP: A transfer of ownership protocol over Bitcoin」1のまとめです。…"
-        },
-        {
-          "title": "「パスワードが変更できない」の声相次ぐ　BIGLOBE、情報漏えいの可能性で変更呼びかけ　マイページ高負荷が一因",
-          "link": "https://www.itmedia.co.jp/news/articles/2606/24/news123.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-06-24T08:25:00",
-          "excerpt": "「BIGLOBEメール」で利用者のメールアドレスやBIGLOBE ID、パスワードが漏えいした可能性があるとして、ビッグローブが6月23日、会員にパスワード変更を呼びかけた。だが、X上では「画面エラーで変更できない」との投稿が相次いでいる。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。GitHub、Code Quality Findings REST APIを公開プレビュー",
+      "summary": "開発ツールの新着が17件。記事の URL: https://www.tigrisdata.com/blog/objgit/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "バケットに Git を話せるように教えました",
+          "link": "https://www.tigrisdata.com/blog/objgit/",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-24T16:04:26",
+          "excerpt": "記事の URL: https://www.tigrisdata.com/blog/objgit/ コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "Amazon Neptune がグローバル データベースの AWS CloudFormation をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-aws-cloudformation/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-06-24T13:00:00",
+          "excerpt": "Amazon Neptune は、Neptune グローバル データベースのプロビジョニングと管理のために AWS CloudFormation をサポートするようになりました。…"
+        },
+        {
+          "title": "AWS Blocks を実プロジェクトで試した — Amplify Gen2 にローカル開発を足す",
+          "link": "https://zenn.dev/purpom/articles/aws-blocks-amplify-gen2-local-first",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-24T10:13:59",
+          "excerpt": "はじめに Amplify Gen2 を実務でずっと使っているのですが、一番つらいのが「動作確認のたびにデプロイが要る」ことです。…"
+        },
         {
           "title": "GitHub、Code Quality Findings REST APIを公開プレビュー",
           "link": "https://codezine.jp/article/detail/24658",
           "source": "CodeZine",
           "published": "2026-06-24T08:00:00",
           "excerpt": "GitHub、Code Quality Findings REST APIを公開プレビュー"
-        },
-        {
-          "title": "GitHub Copilotアプリでデザイン支援スキル「Impeccable」が実験的に利用可能に",
-          "link": "https://gihyo.jp/article/2026/06/github-copilot-app-support-impeccable-skill?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-06-24T07:55:00",
-          "excerpt": "GitHubは2026年6月22日、AIコーディングエージェント向けのデザイン支援スキル「Impeccable」をGitHub Copilotアプリの組み込みスキルとして利用できるようになったと公式Xで案内した。"
-        },
-        {
-          "title": "AIコーディング支援が「攻撃の永続化経路」になる時代｜npmワーム Shai-Hulud / Mini Shai-Hulud に学ぶ開発者端末・CI/CD・シークレット防御2026 | CloudNative BLOGs",
-          "link": "https://blog.cloudnative.co.jp/articles/npm-supply-chain-worm-shai-hulud-mini-2026/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-24T07:40:00",
-          "excerpt": "2025年9月から2026年6月まで続くnpmサプライチェーンワーム（Shai-Hulud / Mini Shai-Hulud / Miasma）の系譜を一次情報で整理。…"
-        },
-        {
-          "title": "React NativeのExpoって何？Expo Go・EAS・Dev Client・ビルドの違いを整理してみた | iimon TECH BLOG",
-          "link": "https://tech.iimon.co.jp/entry/2026/06/24/155416",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-24T06:54:16",
-          "excerpt": "はじめに さまざまなExpoの主な意味合い Expo(フレームワーク・SDK) Expo Go(動作確認アプリ) EAS(Expo Application Services) (補足) ネイティブコードとは アプリの実行環境とビルド方法 実…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ボフィン氏、Microsoftが想定している量子飛躍は「基本的なPythonエラー」により計算されないと主張",
-      "link": "https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489",
-      "source": "The Register（英語）",
-      "published": "2026-06-24T15:02:00",
-      "excerpt": "Nature 論文は、研究者がデータを厳選したと主張しています。レドモンドは自分たちの仕事は健全だと主張する"
-    },
-    {
-      "title": "Zoox、商用サービスの準備としてロボタクシーをアップグレード",
-      "link": "https://techcrunch.com/2026/06/24/zoox-upgrades-its-robotaxi-as-it-prepares-for-commercial-service/",
+      "title": "Facebook、クリエイター向けAIコンパニオンアプリを公開",
+      "link": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
       "source": "TechCrunch（英語）",
-      "published": "2026-06-24T15:01:49",
-      "excerpt": "新しい Zoox ロボタクシーは、よりクッション性が高く、明るい色で、Zoox サポートとの通信に適したマイクとスピーカーを備えています。"
+      "published": "2026-06-24T17:16:24",
+      "excerpt": "現在、一部のクリエイターを対象にテスト中のこの新しいアプリには、Facebookが最近リリースしたAIクリエイターアシスタントが組み込まれる予定だ。"
     },
     {
-      "title": "医療診断 AI は誰のデータで訓練されたかを騙される可能性がある",
-      "link": "https://www.theregister.com/ai-and-ml/2026/06/24/medical-diagnosis-ais-can-be-tricked-into-telling-whose-data-trained-them/5261501",
-      "source": "The Register（英語）",
-      "published": "2026-06-24T15:01:00",
-      "excerpt": "前回健康診断を受けたときに署名した書類をすべて読みましたか?"
-    },
-    {
-      "title": "この新しい追跡ラベルは貨物盗難の解決に役立つ可能性があります",
-      "link": "https://techcrunch.com/2026/06/24/this-new-tracking-label-could-help-solve-cargo-theft/",
+      "title": "Deezerは、新機能によりファンがアーティストの同意を得て曲をリミックスできると発表",
+      "link": "https://techcrunch.com/2026/06/24/deezer-says-its-new-feature-lets-fans-remix-songs-with-artist-consent/",
       "source": "TechCrunch（英語）",
-      "published": "2026-06-24T15:00:00",
-      "excerpt": "Samsara Tracking Label は、リアルタイムの位置情報を提供できる BLE システムを使い捨てパッケージに隠しています。"
+      "published": "2026-06-24T17:14:33",
+      "excerpt": "世界的な音楽ストリーミング サービスの Deezer は、ファンが曲をリミックスできる機能を追加しながらも、AI に対して逆張りのアプローチを取っています。"
+    },
+    {
+      "title": "【AWS Summit Japan 2026】クラスメソッドが展示ブースに出展します！〜見どころやノベルティをご紹介〜",
+      "link": "https://dev.classmethod.jp/articles/aws-summit-japan-20260625/",
+      "source": "DevelopersIO",
+      "published": "2026-06-24T17:04:00",
+      "excerpt": "【AWS Summit Japan 2026】クラスメソッドが展示ブースに出展します！〜見どころやノベルティをご紹介〜"
+    },
+    {
+      "title": "Agility Roboticsは25億ドルの契約でSPAC経由で株式公開を計画している",
+      "link": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-24T16:48:43",
+      "excerpt": "2015 年にオレゴン州立大学からスピンアウトした人型ロボットの新興企業である Agility Robotics は、6 億 2,000 万ドルの収益を見込んでいます。"
     }
   ]
 }
