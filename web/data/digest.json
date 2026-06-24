@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-06-24T09:56:17",
+  "generated_at": "2026-06-24T12:14:45",
   "window_hours": 24,
-  "total": 214,
+  "total": 216,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が46件。ChatGPTやClaudeのようなLLMは「LLMを作ろう」という目標から生まれたものではない。…",
+      "summary": "生成AIの新着が47件。Snowflake Cortex Code の LLM 応答に対するマスキングポリシーを AI Observability で検証してみた",
       "articles": [
+        {
+          "title": "Snowflake Cortex Code の LLM 応答に対するマスキングポリシーを AI Observability で検証してみた",
+          "link": "https://dev.classmethod.jp/articles/snowflake-cortex-code-ai-observability-pii-detection/",
+          "source": "DevelopersIO",
+          "published": "2026-06-24T11:47:23",
+          "excerpt": "Snowflake Cortex Code の LLM 応答に対するマスキングポリシーを AI Observability で検証してみた"
+        },
+        {
+          "title": "AWS認定のバッジを並び替えて\"で完了 ─ AIエージェントのSkillsでAWS認定バッジ画像を自動生成する",
+          "link": "https://qiita.com/300/items/edbb83558ecf8ea7644a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-24T10:51:49",
+          "excerpt": "はじめに 登壇資料の自己紹介スライドに、取得した AWS 認定バッジを載せることがありますよね。しかし、手作業で並べるのは面倒ですし、資格が増えるたびに作り直すのも手間です。…"
+        },
+        {
+          "title": "「AIエージェントキャッチアップ #82 - Open Knowledge Format」を開催しました | Generative Agents Tech Blog",
+          "link": "https://blog.generative-agents.co.jp/entry/2026/06/24/185045",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-24T09:50:45",
+          "excerpt": "ジェネラティブエージェンツの大嶋です。「AIエージェントキャッチアップ #82 - Open Knowledge Format」という勉強会を開催しました。generative-agents.connpass.…"
+        },
         {
           "title": "「失敗の積み重ね」がLLMを生んだ（前編）— 数学の限界から意味の幾何学へ",
           "link": "https://dev.classmethod.jp/articles/llm-birth-history-turing-shannon-transformer-gpt3-part1/",
           "source": "DevelopersIO",
           "published": "2026-06-24T09:48:03",
           "excerpt": "ChatGPTやClaudeのようなLLMは「LLMを作ろう」という目標から生まれたものではない。…"
-        },
-        {
-          "title": "Amazon CloudWatch Logsの新機能「マネージドsyslogインジェスト」で、エージェントなしにVPC内からsyslogを直接取り込んでみた",
-          "link": "https://dev.classmethod.jp/articles/cloudwatch-logs-syslog-ingestion/",
-          "source": "DevelopersIO",
-          "published": "2026-06-24T09:28:25",
-          "excerpt": "Amazon CloudWatch Logsの新機能「マネージドsyslogインジェスト」を使い、VPCエンドポイント経由でsyslogをCloudWatch Logsへ取り込んでみました。…"
-        },
-        {
-          "title": "AWS Bedrock AgentCoreで長い応答が途中で切れる──原因は時間ではなく、レスポンスのサイズ上限でした",
-          "link": "https://qiita.com/musa_rock/items/f268c85632f70ec9834f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-24T08:40:14",
-          "excerpt": "本記事では、Amazon Bedrock AgentCore Runtime 上のチャットボットで「長い応答が必ず途中で切れる」という問題にハマり、最終的に原因が レスポンスペイロードの 100MB 上限だった、という話を共有します。…"
-        },
-        {
-          "title": "【AWS】夜間の自動調査もお手の物！DevOpsAgentを用いたシステム障害対応業務の再現性確保",
-          "link": "https://qiita.com/na7na/items/db3da705106d8d80fc3a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-24T08:01:47",
-          "excerpt": "はじめに 組織異動の季節になり、システム障害対応やインシデント対応可能なメンバーを増やしたいと考えるようになりました。引き継ぎ書等を用意するだけでなく、この業務自体をエージェント化してみたくなりました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。Amazon CloudWatch Logsの新機能「マネージドsyslogインジェスト」を使い、VPCエンドポイント経由でsyslogをCloudWatch Logsへ取り込んでみました。…",
+      "summary": "クラウドの新着が17件。AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。",
       "articles": [
+        {
+          "title": "【Security Hub修復手順】[RDS.50] RDS DB クラスターには十分なバックアップ保持期間を設定する必要があります",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-rds-50/",
+          "source": "DevelopersIO",
+          "published": "2026-06-24T10:50:41",
+          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
+        },
+        {
+          "title": "AWS未経験が実務を想定してWebサーバ検証環境を構築してみた① VPC・EC2・Apache構築",
+          "link": "https://qiita.com/gonta517/items/8e2ba56796e1a63bccac",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-24T10:22:07",
+          "excerpt": "はじめに AWSの構築業務に必要な基礎を身につけるため、実務を想定したハンズオンを行いました。今回は、中小企業の社内ポータルサイトをAWS上に移行する前提で、最小構成のWebサーバ検証環境を構築します。…"
+        },
         {
           "title": "Amazon CloudWatch Logsの新機能「マネージドsyslogインジェスト」で、エージェントなしにVPC内からsyslogを直接取り込んでみた",
           "link": "https://dev.classmethod.jp/articles/cloudwatch-logs-syslog-ingestion/",
@@ -57,28 +71,28 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-06-24T07:01:42",
           "excerpt": "株式会社 MIXI が FC東京向けに開発した「写真選定業務効率化システム」のバックエンドデータベースとして Amazon Aurora DSQL を採用した経緯と技術的な工夫、得られた効果を、お客様の声を交えてご紹介します。"
-        },
-        {
-          "title": "SageMaker中心のスケールするMLパイプラインの構築 ~Snowflake連携から単一コンテナ設計、軽量監視まで~",
-          "link": "https://zenn.dev/gatechnologies/articles/sagemaker-ml-pipeline",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-24T05:57:32",
-          "excerpt": "1.はじめに 1.1 会社・チームの紹介 こんにちは。GA technologiesのData本部 Applied ML部でデータサイエンティストをしている酒井です。…"
-        },
-        {
-          "title": "「夏場は50度以上のコンテナで作業」に対処　サンワサプライが西日本で荷降ろしロボット活用",
-          "link": "https://www.itmedia.co.jp/news/articles/2606/24/news081.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-06-24T02:45:00",
-          "excerpt": "サンワサプライが、物流倉庫における荷降ろし作業の自動化と労働環境の改善を目的に、AI搭載のコンテナ向け荷降ろしロボット「RockyOne」を採用した。5月から同社の西日本物流センターで運用を開始している。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。こんにちは。三村（@t_mimura39）です。皆さんは、長年運用されてきたモノリシックなRailsアプリケーションから「認証」のような根幹機能を切り出した経験はありますか？…",
+      "summary": "セキュリティの新着が16件。「公共広場の永続的な生体認証監視」は同意による警察の取り締まりとは相いれないと批評家らは指摘",
       "articles": [
+        {
+          "title": "ロンドンの警察がウエストエンドにライブ顔認証を導入",
+          "link": "https://www.theregister.com/security/2026/06/24/london-cops-bring-live-facial-recognition-to-west-end/5261031",
+          "source": "The Register（英語）",
+          "published": "2026-06-24T11:45:00",
+          "excerpt": "「公共広場の永続的な生体認証監視」は同意による警察の取り締まりとは相いれないと批評家らは指摘"
+        },
+        {
+          "title": "【Security Hub修復手順】[RDS.50] RDS DB クラスターには十分なバックアップ保持期間を設定する必要があります",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-rds-50/",
+          "source": "DevelopersIO",
+          "published": "2026-06-24T10:50:41",
+          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
+        },
         {
           "title": "10年もののモノリスから「認証」を切り出す 〜メドピア共通基盤プロジェクトの裏側〜 | メドピア開発者ブログ",
           "link": "https://tech.medpeer.co.jp/entry/2026/06/24/170000",
@@ -92,28 +106,28 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-06-24T03:57:57",
           "excerpt": "TLS エンドポイントをポスト量子暗号 (PQC) に移行する第一歩は、現状のインベントリと状態把握です。…"
-        },
-        {
-          "title": "【Security Hub修復手順】[EKS.9] EKSノードグループは、サポートされているKubernetesバージョンで実行する必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-eks-9/",
-          "source": "DevelopersIO",
-          "published": "2026-06-24T01:19:40",
-          "excerpt": "【Security Hub修復手順】[EKS.9] EKSノードグループは、サポートされているKubernetesバージョンで実行する必要があります"
-        },
-        {
-          "title": "NTTPC「WebARENA」ファイル転送サービスに不正アクセス　業務ファイル4400件超に漏えいの恐れ　再構築へ今後半年間停止",
-          "link": "https://www.itmedia.co.jp/news/articles/2606/24/news068.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-06-24T00:49:00",
-          "excerpt": "共用レンタルサーバ「WebARENA SuiteX」の一部サーバでも不正アクセスがあり、7契約で顧客領域に不審なファイルが設置された痕跡もあった。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が10件。「BIGLOBEメール」で利用者のメールアドレスやBIGLOBE ID、パスワードが漏えいした可能性があるとして、ビッグローブが6月23日、会員にパスワード変更を呼びかけた。だが、X上では「画面エラーで変更できない」との投稿が相次いでいる。…",
+      "summary": "データ分析の新着が12件。Snowflake Cortex Code の LLM 応答に対するマスキングポリシーを AI Observability で検証してみた",
       "articles": [
+        {
+          "title": "Snowflake Cortex Code の LLM 応答に対するマスキングポリシーを AI Observability で検証してみた",
+          "link": "https://dev.classmethod.jp/articles/snowflake-cortex-code-ai-observability-pii-detection/",
+          "source": "DevelopersIO",
+          "published": "2026-06-24T11:47:23",
+          "excerpt": "Snowflake Cortex Code の LLM 応答に対するマスキングポリシーを AI Observability で検証してみた"
+        },
+        {
+          "title": "BitVMの1-of-n 仮定をフル活用した Bitcoin上のTransfer of Ownership Protocol (TOOP) | HashPort技術ブログ",
+          "link": "https://tech.hashport.io/5416/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-24T11:00:16",
+          "excerpt": "はじめに 本記事は、論文「TOOP: A transfer of ownership protocol over Bitcoin」1のまとめです。…"
+        },
         {
           "title": "「パスワードが変更できない」の声相次ぐ　BIGLOBE、情報漏えいの可能性で変更呼びかけ　マイページ高負荷が一因",
           "link": "https://www.itmedia.co.jp/news/articles/2606/24/news123.html",
@@ -127,27 +141,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-06-24T04:46:43",
           "excerpt": "今日のテーマ AWS学習14日目は、AWSの利用料金を確認し、想定外の課金に気づくための仕組みをBillingを通して学びました。…"
-        },
-        {
-          "title": "AWS Lightsail CDK デプロイ時に Bitnami 版がインストールされていた原因と解決方法",
-          "link": "https://qiita.com/ryoichi_izumi/items/e519c30fc4c81f58c850",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-24T03:34:53",
-          "excerpt": "はじめに 先日、Lightsail コンソール上に次のメッセージが表示されました。…"
-        },
-        {
-          "title": "AWS Lightsail CDK デプロイ時に Bitnami 版がインストールされていた原因と解決方法",
-          "link": "https://zenn.dev/gnc_tech/articles/6d47716037649e",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-24T03:33:49",
-          "excerpt": "はじめに 先日、Lightsail コンソール上に次のメッセージが表示されました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。GitHub、Code Quality Findings REST APIを公開プレビュー",
+      "summary": "開発ツールの新着が15件。GitHub、Code Quality Findings REST APIを公開プレビュー",
       "articles": [
         {
           "title": "GitHub、Code Quality Findings REST APIを公開プレビュー",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "【Teraform】AWS構築してみよう（初期設定&構築編）",
-      "link": "https://qiita.com/noobaimo/items/f13808a4dbe75d5b4044",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-24T09:24:25",
-      "excerpt": "はじめに この記事では IaC（Infrastructure as Code） と Terraform を使って、AWSのネットワーク〜サーバーまでをコードで構築し、最後は跡形もなく削除するまでの一連の流れをハンズオン形式で体験します。…"
-    },
-    {
-      "title": "【初心者】Djangoで作ったToDoアプリを改良してみた",
-      "link": "https://dev.classmethod.jp/articles/co-newgraduate2026-training05-fujise/",
+      "title": "ALB はどのように機能しますか?",
+      "link": "https://dev.classmethod.jp/articles/jw-alb-multiple-domains-production-test/",
       "source": "DevelopersIO",
-      "published": "2026-06-24T09:22:55",
-      "excerpt": "【初心者】Djangoで作ったToDoアプリを改良してみた"
+      "published": "2026-06-24T11:36:57",
+      "excerpt": "ALB は、最高のパフォーマンスを提供します。"
     },
     {
-      "title": "【AWS SAA】クラウド未経験でも３週間で合格できる",
-      "link": "https://qiita.com/noobaimo/items/557d29e24ac31f35d0e7",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-24T09:22:39",
-      "excerpt": "この記事で伝えたいこと Ping-tだけで合格できる 未経験でも短期間での取得を目指せる 「AWSの実務経験ないけど受かる？」「教材何使えばいいの？」という方に向けて書きました。…"
+      "title": "猫や人に感染する可能性のある致死性の真菌が蔓延している",
+      "link": "https://www.sciencenews.org/article/deadly-fungus-cats-people-spreading",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-24T11:31:20",
+      "excerpt": "記事の URL: https://www.sciencenews.org/article/deadly-fungus-cats-people-spreading コメント URL: https://news.ycombinator.…"
     },
     {
-      "title": "NHK受信料収入、7年連続減少　下げ止まり見えず　事業収入は6年ぶり増加",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/24/news129.html",
+      "title": "マイクロソフトのライバル各社が整列し、巨大ソフトウェアが自社に損害を与えた場所を英国の監視機関に伝える",
+      "link": "https://www.theregister.com/saas/2026/06/24/microsoft-rivals-line-up-to-tell-uk-watchdog-where-the-software-behemoth-hurt-them/5260875",
+      "source": "The Register（英語）",
+      "published": "2026-06-24T11:09:27",
+      "excerpt": "ブラウザー、クラウド挑戦者、キリングホール教区議会はいずれも顧客を囲い込み、競争を妨げているとしてレドモンドを非難している"
+    },
+    {
+      "title": "“PayPay送金詐欺”3カ月で22.4倍に急増　ゲーム・トレカサービスかたる新手口も",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/24/news135.html",
       "source": "ITmedia NEWS",
-      "published": "2026-06-24T09:15:00",
-      "excerpt": "NHKは6月23日、2025年度決算を発表した。受信料収入は前年度比50億円減の5851億円で、7年連続で減少した。推計世帯支払率は76.9％で、同0.4ポイント低下。…"
+      "published": "2026-06-24T10:45:00",
+      "excerpt": "特殊詐欺やフィッシング詐欺の対策サービスを提供するトビラシステムズが、詐欺電話や詐欺SMSについて5月の調査レポートを公開した。…"
     }
   ]
 }
