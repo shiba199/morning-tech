@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-06-25T12:36:23",
+  "generated_at": "2026-06-25T15:36:25",
   "window_hours": 24,
-  "total": 220,
+  "total": 217,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。本記事は2部構成の前編です。後編「[Guardrails 編]」では、AgentCore Policy に新しく加わった Bedrock Guardrails を同じ IAM ゲートウェイで動かします（リンクは公開後に追記します）。…",
+      "summary": "生成AIの新着が35件。はじめに Storage Gateway のアプライアンスサーバが EOL を迎えたため、以下の手順で新しい Gateway に切り替えました。…",
       "articles": [
+        {
+          "title": "AWS Storage Gateway を新しいアプライアンスに切り替えたら既存ファイルのタイムスタンプがマウント時刻に変わった話",
+          "link": "https://qiita.com/hijiri0404/items/a51bfafcbfaffca06ab1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-25T15:12:29",
+          "excerpt": "はじめに Storage Gateway のアプライアンスサーバが EOL を迎えたため、以下の手順で新しい Gateway に切り替えました。…"
+        },
         {
           "title": "【続編・訂正のその後】AgentCore Policy は IAM 認証ゲートウェイでも動くようになっていた | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/agentcore_gateway-policy-iam",
@@ -29,20 +36,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-06-25T09:00:00",
           "excerpt": "はじめに こんにちは。第一開発G アプリケーション基盤チームの寸田です。アプリケーション基盤チームは複数のサービスにまたがる部分の開発を担っており、その中で私は主に Ruby / Rails のバージョンアップを担当しています。…"
-        },
-        {
-          "title": "【アップデート】Gemini Enterprise のメトリクス機能がGAされました",
-          "link": "https://dev.classmethod.jp/articles/gemini-enterprise-metrics-ga-update/",
-          "source": "DevelopersIO",
-          "published": "2026-06-25T08:49:35",
-          "excerpt": "【アップデート】Gemini Enterprise のメトリクス機能がGAされました"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。アマゾンの最新のインド投資は、世界的なテクノロジー企業が同国のAIインフラの拡大を競う中行われた。",
+      "summary": "クラウドの新着が16件。アマゾンの最新のインド投資は、世界的なテクノロジー企業が同国のAIインフラの拡大を競う中行われた。",
       "articles": [
         {
           "title": "アマゾン、新たに130億ドルのAIインフラ投資でインドへの賭けを強化",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。本記事は2部構成の前編です。後編「[Guardrails 編]」では、AgentCore Policy に新しく加わった Bedrock Guardrails を同じ IAM ゲートウェイで動かします（リンクは公開後に追記します）。…",
+      "summary": "セキュリティの新着が17件。ボルボとは異なり、ポールスターがここで車を販売する許可は得られない。",
       "articles": [
+        {
+          "title": "連邦当局、ポールスターの2027年モデル以降の米国での自動車販売認可を拒否",
+          "link": "https://arstechnica.com/cars/2026/06/feds-deny-polestar-authorization-to-sell-cars-in-us-from-model-year-2027/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-06-25T14:40:23",
+          "excerpt": "ボルボとは異なり、ポールスターがここで車を販売する許可は得られない。"
+        },
         {
           "title": "【続編・訂正のその後】AgentCore Policy は IAM 認証ゲートウェイでも動くようになっていた | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/agentcore_gateway-policy-iam",
@@ -99,21 +106,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-25T07:31:50",
           "excerpt": "はじめに 前回は、VPC、Public Subnet、Internet Gateway、Route Table、Security Group、EC2を作成し、Apacheで Hello AWS を表示するWebサーバ検証環境を構築しました。…"
-        },
-        {
-          "title": "LLMは「考えて」いない：トークン予測の仕組みから理解するハルシネーション・プロンプトエンジニアリング・セキュリティ",
-          "link": "https://dev.classmethod.jp/articles/llm-extended-thinking-token-prediction-prompt-engineering-deep-dive/",
-          "source": "DevelopersIO",
-          "published": "2026-06-25T04:50:29",
-          "excerpt": "Claude の Extended Thinking で遭遇した 400 エラーを出発点に、LLM のトークン予測メカニズム、プロンプトエンジニアリングが統計的フィルタとして機能する原理、モデル崩壊のリスクまでを一連の流れで整理しました。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。KDDIはISP向けメール基盤への不正アクセスを確認し、最大1422万件のメールアドレスとパスワードが漏えいした可能性が判明した。…",
+      "summary": "データ分析の新着が5件。記事の URL: https://ziglang.org/devlog/2026/#2026-06-25 コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "Zig の新しい BitCast セマンティクスと LLVM バックエンドの改善",
+          "link": "https://ziglang.org/devlog/2026/#2026-06-25",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-25T14:19:28",
+          "excerpt": "記事の URL: https://ziglang.org/devlog/2026/#2026-06-25 コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "【セッションレポート】 Amazon Connect Customer で実現する進化したコンタクトセンター －エージェンティック AI が変える顧客体験－ [BIZ326]",
+          "link": "https://dev.classmethod.jp/articles/aws-summit--2025-session-report-/",
+          "source": "DevelopersIO",
+          "published": "2026-06-25T12:56:01",
+          "excerpt": "AWS Summit Japan 2026で、エージェンティックAIがコンタクトセンターの顧客体験を変える「Amazon Connect Customer」のセッションに参加してきました。…"
+        },
         {
           "title": "KDDIメール基盤から最大で1422万件漏えい　ニフティやBIGLOBEなど6社に波及",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2606/25/news043.html",
@@ -127,28 +141,21 @@
           "source": "AWS What's New（英語）",
           "published": "2026-06-24T19:21:00",
           "excerpt": "Amazon EMR サーバーレスは、アプリケーションを停止および再起動することなく、最大容量やカスタムイメージ設定などの主要なアプリケーション設定の更新をサポートするようになりました。…"
-        },
-        {
-          "title": "CUR 2.0のAthena統合をセットアップし、Step FunctionsとPartition Projectionで改良してみた",
-          "link": "https://dev.classmethod.jp/articles/cur2-athena-integration-step-functions-partition-projection/",
-          "source": "DevelopersIO",
-          "published": "2026-06-24T15:45:10",
-          "excerpt": "CUR 2.0のAthena統合サポートが発表されました。…"
-        },
-        {
-          "title": "EC2（RHEL 10）上にFluent Bit + LokiでSyslog集約基盤を構築する",
-          "link": "https://qiita.com/nanagi512/items/f713ca4dff6884841263",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-24T15:00:04",
-          "excerpt": "はじめに ネットワーク機器やロードバランサーのログを集約したい場合、Syslogサーバーを構築するケースは少なくありません。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が22件。Terraform の root module / state をどこで分けるかは、単純そうで難しい判断です。小さいうちは 1 state で十分です。…",
+      "summary": "開発ツールの新着が22件。SPIの共同開発者であるDave Verwer氏がAppleに入社、「我々はそのモデルから完全に離れるつもりだ」と語る",
       "articles": [
+        {
+          "title": "Apple が Swift Package Index を引き継ぎ、GitHub への依存関係を削除すると誓う",
+          "link": "https://www.theregister.com/software/2026/06/25/apple-takes-over-swift-package-index-vows-to-remove-github-dependency/5262048",
+          "source": "The Register（英語）",
+          "published": "2026-06-25T14:01:00",
+          "excerpt": "SPIの共同開発者であるDave Verwer氏がAppleに入社、「我々はそのモデルから完全に離れるつもりだ」と語る"
+        },
         {
           "title": "Terraform stateを4分割した：module数ではなく責務で境界を引く",
           "link": "https://zenn.dev/kmryst/articles/terraform-state-split-by-responsibility",
@@ -169,45 +176,38 @@
           "source": "@IT",
           "published": "2026-06-25T08:13:00",
           "excerpt": "AIコーディングツールによって開発スピードが向上したが、管理・統制の仕組みが十分に追いついていない――。GitLabが、こうした開発現場の実態を明らかにする調査レポートを発表した。"
-        },
-        {
-          "title": "New Relic の AWS Cloud Integration で CloudFormation が作成するリソースをテンプレートから読み解く",
-          "link": "https://qiita.com/tkono-nrkk/items/269dc2c82dde422e590c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-25T07:16:50",
-          "excerpt": "New Relic の AWS Cloud Integration をセットアップする際、画面の案内に従うと、CloudFormation スタックの作成による設定が推奨されます。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Flashの再来？　Figmaの新機能「Figma Motion」に懐かしいとの声　アニメーション生成するAI機能も",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/25/news132.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-06-25T12:05:00",
-      "excerpt": "Figmaが発表した新機能「Figma Motion」が、かつてのAdobe Flashを思わせるとSNSで話題だ。タイムラインでキーフレームを打つ操作感が懐かしさを呼んだが、実際に触ると別物との声もみられる。"
+      "title": "【ブースレポート】日本初公開！！のGraviton5に出会いました。",
+      "link": "https://dev.classmethod.jp/articles/aws-hardware-graviton5-friends/",
+      "source": "DevelopersIO",
+      "published": "2026-06-25T15:20:55",
+      "excerpt": "【ブースレポート】日本初公開！！のGraviton5に出会いました。"
     },
     {
-      "title": "個人開発のAWS運用監視を最小構成で整えた話",
-      "link": "https://qiita.com/suzunari900261/items/85a75e91dc3ed0e96600",
+      "title": "AWS Summit Japan 初日潜入レポート！",
+      "link": "https://qiita.com/mitsuki-swimmer/items/cddd5dd3056e66d319c3",
       "source": "Qiita AWSタグ",
-      "published": "2026-06-25T11:49:00",
-      "excerpt": "個人開発のAWS運用監視を最小構成で整えた話（CLI・Athena・CloudWatch） はじめに 個人開発では、インフラ構築やアプリ開発に集中するあまり、リリース後の運用については後回しになりがちです。…"
+      "published": "2026-06-25T15:18:34",
+      "excerpt": "今回はAWS Summit Japanの初日に行ってきたレポートを書きます！！1.現地滞在時間 今回は業務終了後に急いで向かったので17:00～の参戦となりました。入場手続きをするとこんなカードをもらいました。…"
     },
     {
-      "title": "FOSS クラウドオフィススイート間の競争が激化する中、Collabora が CODE 26.04 をリリース",
-      "link": "https://www.theregister.com/applications/2026/06/25/collabora-releases-code-2604-as-rivalry-between-foss-cloudy-office-suites-heats-up/5261468",
+      "title": "FOSS dev は LLVM を使用して BASIC コンパイラを構築します",
+      "link": "https://www.theregister.com/personal-tech/2026/06/25/foss-dev-builds-a-basic-compiler-using-llvm/5262171",
       "source": "The Register（英語）",
-      "published": "2026-06-25T11:47:00",
-      "excerpt": "Markdown のサポートと、よりスマートな数式エラー処理に加え、AI が統合されました (デフォルトではオフになっています)。"
+      "published": "2026-06-25T15:10:00",
+      "excerpt": "単なる古い BASIC ではありません: OS-9 の BASIC09"
     },
     {
-      "title": "DAZN、W杯日本×スウェーデン戦で「映像の乱れ」に注意喚起　朝8時キックオフ、通勤時間帯を直撃",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/25/news136.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-06-25T11:30:00",
-      "excerpt": "DAZNは6月25日、サッカーW杯2026の日本×スウェーデン戦を前に、通信の混雑で映像の乱れや画質の変化が起こり得るとして、公式Xで注意を呼びかけた。試合は通勤・通学の時間帯と重なる26日午前8時にキックオフする。"
+      "title": "復興はAIに追いつく必要がある",
+      "link": "https://www.theregister.com/ai-and-ml/2026/06/25/recovery-has-to-keep-up-with-ai/5260452",
+      "source": "The Register（英語）",
+      "published": "2026-06-25T15:00:00",
+      "excerpt": "スポンサー投稿: Eon の Gonen Stein が語る、AI 時代の回復アーキテクチャが異なる理由"
     }
   ]
 }
