@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-06-26T09:31:02",
+  "generated_at": "2026-06-26T12:05:52",
   "window_hours": 24,
-  "total": 208,
+  "total": 206,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が38件。自立型のコーディングエージェントをAWS上で管理しているアプリに導入する場合、エージェントによるAWSリソースへのアクセス権の管理が課題になりがちです。…",
+      "summary": "生成AIの新着が37件。パートナー コンテンツ: 従来の「接続パイプ」からインテント主導のインテリジェント サービスに移行し、6G 対応アーキテクチャにより、AI と人間のコラボレーションの時代に向けて設計されたエージェント サービス ネットワークが導入されます。",
       "articles": [
+        {
+          "title": "ZTE AIR Core は、接続を超えた新時代のエージェント サービスを解き放ちます",
+          "link": "https://www.theregister.com/networks/2026/06/26/zte-air-core-unleashes-a-new-era-of-agent-services-beyond-connectivity/5262945",
+          "source": "The Register（英語）",
+          "published": "2026-06-26T10:51:44",
+          "excerpt": "パートナー コンテンツ: 従来の「接続パイプ」からインテント主導のインテリジェント サービスに移行し、6G 対応アーキテクチャにより、AI と人間のコラボレーションの時代に向けて設計されたエージェント サービス ネットワークが導入されます。"
+        },
         {
           "title": "ChunkでOIDCを利用してAIエージェントがAWSリソースへアクセスできるようにする方法",
           "link": "https://qiita.com/CircleCIJapan/items/446dde94d3fee62d8729",
@@ -29,56 +36,56 @@
           "source": "企業テックブログまとめ",
           "published": "2026-06-26T07:58:09",
           "excerpt": "１．はじめに ２．Interopと今年のテーマとは ３．「クラウド型セキュリティによる生成AIの安全な利用統制」技術 3.1．ゼロトラスト時代におけるハイブリッドワークの通信ネットワーク 3.2．…"
-        },
-        {
-          "title": "AWS CLI の Agent Toolkit for AWS 連携機能を試してみた",
-          "link": "https://dev.classmethod.jp/articles/try-aws-cli-agent-toolkit-command/",
-          "source": "DevelopersIO",
-          "published": "2026-06-26T07:54:16",
-          "excerpt": "AWS CLI の Agent Toolkit for AWS 連携機能を試してみた"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。CloudWatchの基本モニタリングと詳細モニタリングの違いについて、実際にEC2インスタンスでアラーム動作を比較しました。",
+      "summary": "クラウドの新着が16件。はじめに EC2（t3.micro）の上でアプリをビルドしようとしたら、その準備の swap 作成でいきなり怒られました。…",
       "articles": [
+        {
+          "title": "EC2 のディスク不足でビルド失敗。EBS を増やしても空き容量が増えなかった話【growpart / xfs_growfs】",
+          "link": "https://qiita.com/80-cloud/items/ec080e21d666ef7cae2b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-26T09:54:32",
+          "excerpt": "はじめに EC2（t3.micro）の上でアプリをビルドしようとしたら、その準備の swap 作成でいきなり怒られました。…"
+        },
+        {
+          "title": "読み物：『少人数インフラチームで「何でも屋」をやめ、専門領域に分割してみた』  | MicroAd Developers Blog",
+          "link": "https://developers.microad.co.jp/entry/2026/06/26/180000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-26T09:00:00",
+          "excerpt": "こんにちは。マイクロアドでインフラエンジニアをしているハダです。今回は技術そのものの話ではなく、インフラチームの組織体制（エンジニアリングマネジメント）について書いてみました。…"
+        },
+        {
+          "title": "インスタンスサイズを「上げた」のに、Auroraのコストが「下がった」話 - Timee Product Team Blog",
+          "link": "https://tech.timee.co.jp/entry/2026/06/26/155400",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-06-26T08:22:44",
+          "excerpt": "はじめに こんにちは。プラットフォームエンジニアリングチームに所属している徳富(@yannKazu1)です。「インスタンスサイズを上げたらコストが下がりました」と言うと、だいたい「？」という顔をされます。…"
+        },
         {
           "title": "EC2 の基本モニタリングと詳細モニタリングで CloudWatch アラームの挙動を比較してみた",
           "link": "https://dev.classmethod.jp/articles/cloudwatch-basic-detailed-monitoring/",
           "source": "DevelopersIO",
           "published": "2026-06-26T08:12:26",
           "excerpt": "CloudWatchの基本モニタリングと詳細モニタリングの違いについて、実際にEC2インスタンスでアラーム動作を比較しました。"
-        },
-        {
-          "title": "Next.js静的サイトをS3 + CloudFrontで公開したら403になったので調査した",
-          "link": "https://qiita.com/yuki_engineer08/items/f3699b46f7c5823d58c4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-26T05:02:52",
-          "excerpt": "Next.jsをS3 + CloudFrontへデプロイしたところ、 /posts/hello だけ403になりました。確認したことは以下です。…"
-        },
-        {
-          "title": "Next.js静的サイトをS3 + CloudFrontで公開したら403になった話",
-          "link": "https://zenn.dev/yuki_engineer08/articles/84e443ed1715a0",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-26T05:02:35",
-          "excerpt": "S3 + CloudFrontでNext.js静的サイトを公開したところ、 / - OK /posts - OK /posts/xxx - 403 という現象に遭遇しました。原因は2つ重なっていました。Next.…"
-        },
-        {
-          "title": "Postmanの管理が辛くなったのでBrunoに移行してみた — VSCode連携・Git管理・シークレット管理まで",
-          "link": "https://dev.classmethod.jp/articles/setup-bruno-api-client-with-vscode/",
-          "source": "DevelopersIO",
-          "published": "2026-06-26T04:43:52",
-          "excerpt": "Postmanのコレクション管理に疲れたので、ファイルベースでGit管理できるAPIクライアント「Bruno」に移行しました。VSCode連携、シークレット管理、Claude Codeによる.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。「AWS Security Hub CSPMの成功・失敗体験」というタイトルでAWS Summit Japan 2026に登壇しました #AWSSummit #jawsug #secjaws",
+      "summary": "セキュリティの新着が13件。【セッションレポート】 ランサムウェアに対して最優先で取るべき AWS の復旧対策－ [STG205]",
       "articles": [
+        {
+          "title": "【セッションレポート】 ランサムウェアに対して最優先で取るべき AWS の復旧対策－ [STG205]",
+          "link": "https://dev.classmethod.jp/articles/aws-summit-japna-2026-ransomware-recovery-session-report/",
+          "source": "DevelopersIO",
+          "published": "2026-06-26T09:33:22",
+          "excerpt": "【セッションレポート】 ランサムウェアに対して最優先で取るべき AWS の復旧対策－ [STG205]"
+        },
         {
           "title": "「AWS Security Hub CSPMの成功・失敗体験」というタイトルでAWS Summit Japan 2026に登壇しました #AWSSummit #jawsug #secjaws",
           "link": "https://dev.classmethod.jp/articles/aws-summit-japan-2026-security-hub/",
@@ -99,13 +106,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-06-26T06:32:09",
           "excerpt": "はじめに サービスのインフラ運用を整備していると、Git サービス上などの CI/CD ツールの元で、Terraform を実行 (plan, apply) したい場面があるかと思います。…"
-        },
-        {
-          "title": "GitHub Enterpriseが認証情報の失効機能を追加、漏洩時などに利用",
-          "link": "https://codezine.jp/article/detail/24673",
-          "source": "CodeZine",
-          "published": "2026-06-26T05:30:00",
-          "excerpt": "GitHub Enterpriseが認証情報の失効機能を追加、漏洩時などに利用"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。AWS CLI の Agent Toolkit for AWS 連携機能を試してみた",
+      "summary": "開発ツールの新着が11件。【個人開発】CloudFormationテンプレート作成支援ツール はじめに CloudFormation を学び始めると、YAML の書き方やリソースごとの設定項目でつまずきやすいと思います。…",
       "articles": [
+        {
+          "title": "【個人開発】CloudFormationテンプレート作成支援ツール",
+          "link": "https://qiita.com/suzunari900261/items/bc9727d9bbbbb3d27c36",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-26T11:26:22",
+          "excerpt": "【個人開発】CloudFormationテンプレート作成支援ツール はじめに CloudFormation を学び始めると、YAML の書き方やリソースごとの設定項目でつまずきやすいと思います。…"
+        },
         {
           "title": "AWS CLI の Agent Toolkit for AWS 連携機能を試してみた",
           "link": "https://dev.classmethod.jp/articles/try-aws-cli-agent-toolkit-command/",
@@ -169,45 +176,38 @@
           "source": "CodeZine",
           "published": "2026-06-26T05:30:00",
           "excerpt": "GitHub Enterpriseが認証情報の失効機能を追加、漏洩時などに利用"
-        },
-        {
-          "title": "Postmanの管理が辛くなったのでBrunoに移行してみた — VSCode連携・Git管理・シークレット管理まで",
-          "link": "https://dev.classmethod.jp/articles/setup-bruno-api-client-with-vscode/",
-          "source": "DevelopersIO",
-          "published": "2026-06-26T04:43:52",
-          "excerpt": "Postmanのコレクション管理に疲れたので、ファイルベースでGit管理できるAPIクライアント「Bruno」に移行しました。VSCode連携、シークレット管理、Claude Codeによる.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Step Functions 単体テスト — TestState API を試してみた",
-      "link": "https://qiita.com/makoto__05/items/6cd12173d0d0a16410d3",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-26T08:37:51",
-      "excerpt": "0.まとめ S3にあるIceberg テーブルをUPSERT（更新＋挿入）するワークフロー（ステートマシン）を AWS Step Functions で作った。…"
+      "title": "ZTEとGSMA、MWC26上海でZTEグローバル・サミット＆ユーザー・コングレスとGSMA M360 ASEANの共同開催を発表",
+      "link": "https://www.theregister.com/networks/2026/06/26/zte-and-gsma-announce-co-location-between-zte-global-summit-user-congress-and-gsma-m360-asean-at-mwc26-shanghai/5263015",
+      "source": "The Register（英語）",
+      "published": "2026-06-26T11:31:22",
+      "excerpt": "パートナーコンテンツ: ZTEはGSMAのM360 ASEANイベントの戦略的パートナーとなり、世界のICTリーダーを団結させて地域のデジタル経済成長と将来のネットワーク進化を加速します"
     },
     {
-      "title": "MCPサーバーで始める不具合分析の自動化に挑戦中2 | ソーシャルデータバンク テックブログのフィード",
-      "link": "https://zenn.dev/sdb_blog/articles/ooba-blog-008",
-      "source": "企業テックブログまとめ",
-      "published": "2026-06-26T08:00:05",
-      "excerpt": "はじめに今回は前回行ったAIによる不具合分析の続きを記載したいと思います。https://zenn.dev/sdb_blog/articles/ooba-blog-007前回は全体の構想と連携方法の一部について説明しました。…"
+      "title": "イタリア、AIを利用したMicrosoft 365の価格高騰を調査",
+      "link": "https://www.theregister.com/saas/2026/06/26/italy-probes-ai-fueled-price-hikes-in-microsoft-365/5262986",
+      "source": "The Register（英語）",
+      "published": "2026-06-26T11:25:00",
+      "excerpt": "規制当局は、加入者がCopilot機能が付加されたより高価なプランをデフォルトで使用されていた可能性があると発表"
     },
     {
-      "title": "AWSのバックエンドをTypeScriptで簡単構築！AWS Blocks（パブリックプレビュー）を使ってみた | サーバーワークスエンジニアブログ",
-      "link": "https://blog.serverworks.co.jp/aws-blocks",
-      "source": "企業テックブログまとめ",
-      "published": "2026-06-26T08:00:00",
-      "excerpt": "AWSのバックエンドをTypeScriptで簡単構築！AWS Blocks（パブリックプレビュー）を使ってみた こんにちは！ES課、濱岡です。2026年6月、AWSがパブリックプレビューとして「AWS Blocks」を発表しました。…"
+      "title": "ZTE CDO 崔李氏、GTI Summit 2026 で講演: インテリジェントでユビキタスな 6G の未来を共同創造し、モバイル AI 時代の新たな機会を模索",
+      "link": "https://www.theregister.com/networks/2026/06/26/zte-cdo-cui-li-at-gti-summit-2026-co-creating-an-intelligent-ubiquitous-6g-future-and-exploring-new-opportunities-in-the-mobile-ai-era/5262981",
+      "source": "The Register（英語）",
+      "published": "2026-06-26T11:17:44",
+      "excerpt": "パートナーコンテンツ: ZTE の最高開発責任者が、モバイル AI 時代における 6G コンバージェンスと業界全体のコラボレーションに向けた同社の「2+4」フレームワークについて概説します"
     },
     {
-      "title": "Manus Website Builder、サーバー運用モードを柔軟に選択可能な新機能を発表",
-      "link": "https://codezine.jp/article/detail/24675",
-      "source": "CodeZine",
-      "published": "2026-06-26T08:00:00",
-      "excerpt": "Manus Website Builder、サーバー運用モードを柔軟に選択可能な新機能を発表"
+      "title": "ロケットレポート：中国は間もなくブースター着陸を試みる可能性がある。 Rocket Lab は迅速な対応を行います",
+      "link": "https://arstechnica.com/space/2026/06/rocket-report-china-may-soon-attempt-booster-landing-rocket-lab-does-rapid-response/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-06-26T11:00:59",
+      "excerpt": "SpaceXはトランスポータープログラムを終了する予定ですか?"
     }
   ]
 }
