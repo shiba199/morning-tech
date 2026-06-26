@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-26T19:13:49",
+  "generated_at": "2026-06-26T21:02:02",
   "window_hours": 24,
-  "total": 213,
+  "total": 205,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。「私たちは、この種の政府によるアクセスプロセスが長期的なデフォルトになるべきだとは考えていません」とOpenAIは言う。「最高のツールを、それらを必要とするユーザー、開発者、企業、サイバー防御者、グローバルパートナーから確保します。」…",
+      "summary": "生成AIの新着が40件。「私たちは、この種の政府によるアクセスプロセスが長期的なデフォルトになるべきだとは考えていません」とOpenAIは言う。「最高のツールを、それらを必要とするユーザー、開発者、企業、サイバー防御者、グローバルパートナーから確保します。」…",
       "articles": [
         {
           "title": "OpenAI、政府の要請を受けてGPT-5.6の展開を制限、制限は標準的であるべきではないと主張",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。本日より、Amazon Elastic Compute Cloud (Amazon EC2) R8g インスタンスが、AWS アジアパシフィック (タイ、ニュージーランド)、AWS アフリカ (ケープタウン)、AWS ヨーロッパ (ミラノ)…",
+      "summary": "クラウドの新着が20件。はじめに 死ぬほどこすられた内容ですが。チームやサークルの紹介サイトをサクッと公開したいとき、AWS S3 の静的ウェブサイトホスティングは手軽な選択肢のひとつです。本記事では、AWS CLI だけを使って index.…",
       "articles": [
+        {
+          "title": "AWS S3 へCLI で静的サイトをホスティングする",
+          "link": "https://zenn.dev/cvl/articles/5beb298fd080a7",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-26T17:20:42",
+          "excerpt": "はじめに 死ぬほどこすられた内容ですが。チームやサークルの紹介サイトをサクッと公開したいとき、AWS S3 の静的ウェブサイトホスティングは手軽な選択肢のひとつです。本記事では、AWS CLI だけを使って index.…"
+        },
         {
           "title": "Amazon EC2 R8g インスタンスが追加のリージョンで利用可能になりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-r8g-instances-additional-regions/",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-06-26T13:03:42",
           "excerpt": "このセッションでは、AI エージェントを本番運用するうえで重要になる可観測性について整理します。…"
-        },
-        {
-          "title": "EC2 のディスク不足でビルド失敗。EBS を増やしても空き容量が増えなかった話【growpart / xfs_growfs】",
-          "link": "https://qiita.com/80-cloud/items/ec080e21d666ef7cae2b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-26T09:54:32",
-          "excerpt": "はじめに EC2（t3.micro）の上でアプリをビルドしようとしたら、その準備の swap 作成でいきなり怒られました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。研究者らは、多くの AI コーディング アシスタントがプロジェクト構成からコマンドを実行するようになっていると警告しています",
+      "summary": "セキュリティの新着が11件。研究者らは、多くの AI コーディング アシスタントがプロジェクト構成からコマンドを実行するようになっていると警告しています",
       "articles": [
         {
           "title": "Amazon Q の欠陥により、ブービートラップされた Git リポジトリでコードが実行され、クラウド認証がスワイプされる",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。はじめに Terraform のリモート state で、同時 apply を防ぐロックを DynamoDB でかけようとしました。backend \"s3\" に dynamodb_table を書いて terraform init。…",
+      "summary": "開発ツールの新着が14件。はじめに 死ぬほどこすられた内容ですが。チームやサークルの紹介サイトをサクッと公開したいとき、AWS S3 の静的ウェブサイトホスティングは手軽な選択肢のひとつです。本記事では、AWS CLI だけを使って index.…",
       "articles": [
+        {
+          "title": "AWS S3 へCLI で静的サイトをホスティングする",
+          "link": "https://zenn.dev/cvl/articles/5beb298fd080a7",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-26T17:20:42",
+          "excerpt": "はじめに 死ぬほどこすられた内容ですが。チームやサークルの紹介サイトをサクッと公開したいとき、AWS S3 の静的ウェブサイトホスティングは手軽な選択肢のひとつです。本記事では、AWS CLI だけを使って index.…"
+        },
         {
           "title": "Terraformのstateロックで黄色い警告。dynamodb_table が非推奨になっていた話",
           "link": "https://qiita.com/80-cloud/items/4014be06a3a7761643e7",
@@ -169,45 +176,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-06-26T14:55:19",
           "excerpt": "はじめに こんにちは、AWS Japan でソリューションアーキテクトをしているいなりくです。…"
-        },
-        {
-          "title": "AWS Organizations なしで「タグ必須」を守らせる ─ IaC・IAM・AWS Config による多層防御",
-          "link": "https://dev.classmethod.jp/articles/required-tags-without-aws-organizations/",
-          "source": "DevelopersIO",
-          "published": "2026-06-26T12:18:29",
-          "excerpt": "AWS Organizations なしで「タグ必須」を守らせる ─ IaC・IAM・AWS Config による多層防御"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS Summit Japan 2026 参加してきた",
-      "link": "https://qiita.com/hu_yszw/items/44dd9d6d150840959b52",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-26T18:12:00",
-      "excerpt": "AWS Summit Japan 2026に参加してきた 毎年AWS Summitには参加させていただいているのですがいつも社内への情報共有だけだったので、学んだこととかを残しておきます。…"
+      "title": "GoogleはAI規制を望んでいるが、独自の条件で",
+      "link": "https://www.theregister.com/ai-and-ml/2026/06/26/google-wants-ai-regulation-but-on-its-own-terms/5263276",
+      "source": "The Register（英語）",
+      "published": "2026-06-26T19:50:06",
+      "excerpt": "きっと、今やっていることを続けられるルールを作ることができる"
     },
     {
-      "title": "OllamaがMLX対応したらしいのでApple MLXを調査して、M2 Maxで計測してみた",
-      "link": "https://dev.classmethod.jp/articles/apple-mlx-ollama-deep-dive/",
-      "source": "DevelopersIO",
-      "published": "2026-06-26T17:46:44",
-      "excerpt": "OllamaがApple SiliconでMLXエンジンを採用した理由と、従来のllama.cpp（GGUF）との違いを調べ、M2 Maxで実際に速度を計測してみました。…"
+      "title": "ノバク・ジョコビッチは新しい仕事に就いた - プライベート・エクイティ会社ジェネラル・アトランティックのアドバイザー",
+      "link": "https://techcrunch.com/2026/06/26/novak-djokovic-has-a-new-job-advisor-to-private-equity-firm-general-atlantic/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-26T19:13:40",
+      "excerpt": "ゼネラル・アトランティックは、テニス界のレジェンドであるノバク・ジョコビッチを世界戦略アドバイザーとして起用した。"
     },
     {
-      "title": "抗生物質「メガクラスター」の発見により、スーパーバグと戦う新たな戦略が提供される",
-      "link": "https://arstechnica.com/health/2026/06/antibiotic-megacluster-discovery-provides-new-strategy-to-fight-superbugs/",
+      "title": "FCC、カー委員長とDOGEおよびマスクとのメッセージを隠蔽した疑いで告発",
+      "link": "https://arstechnica.com/tech-policy/2026/06/fcc-accused-of-hiding-chairman-carrs-messages-with-doge-and-musk/",
       "source": "Ars Technica（英語）",
-      "published": "2026-06-26T17:46:07",
-      "excerpt": "これは「抗生物質の備蓄に向けた取り組みにおける刺激的な前進」だ。"
+      "published": "2026-06-26T18:51:04",
+      "excerpt": "提出書類によれば、FCCはメッセージの提供を拒否し、法廷での時間を「1年無駄にした」という。"
     },
     {
-      "title": "🍯【はちみつと学ぶIT #2】AWSとは？クラウドサービスをやさしく解説",
-      "link": "https://qiita.com/honeybro/items/0968f56dcad87fcdc80a",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-26T17:35:51",
-      "excerpt": "🍯【はちみつと学ぶIT #2】AWSとは？クラウドサービスをやさしく解説 はじめに 前回はクラウドについて学びました。クラウドとは、インターネットを通じて必要なITサービスを利用できる仕組みでしたね。…"
+      "title": "Gossamer: 本物のゴルーチンと一時停止のないメモリを備えた Rust 風味の言語",
+      "link": "https://gossamer-lang.org/",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-26T18:32:22",
+      "excerpt": "記事の URL: https://gossamer-lang.org/ コメント URL: https://news.ycombinator.com/item?id=48690231 ポイント: 40 コメント数: 29"
     }
   ]
 }
