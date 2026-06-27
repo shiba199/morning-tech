@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-06-27T12:48:45",
+  "generated_at": "2026-06-27T14:22:27",
   "window_hours": 24,
-  "total": 164,
+  "total": 156,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が30件。輸出禁止を恐れることなく、Mythos のような機能を約束する新モデルがアジアで発売されています。米国のAI研究所がこの巨大な市場を取り戻すことは決してないかもしれない。",
+      "summary": "生成AIの新着が27件。AWS Summit Japan 2026でAmazon Bedrock AgentCoreについてチョークトーク形式で登壇した際のアーキテクチャ設計のディスカッション内容をまとめました。",
       "articles": [
+        {
+          "title": "【登壇レポート】AWS Summit Japan 2026 Builder Community Loungeで「AgentCoreの機能、全部要る？ ユースケース別にAWSサービスとの組み合わせ方を一緒に整理しよう」というタイトルでチョークトークしました",
+          "link": "https://dev.classmethod.jp/articles/aws-summit-japan-2026-chalktalk-bedrock-agentcore-usecase-design/",
+          "source": "DevelopersIO",
+          "published": "2026-06-27T14:15:47",
+          "excerpt": "AWS Summit Japan 2026でAmazon Bedrock AgentCoreについてチョークトーク形式で登壇した際のアーキテクチャ設計のディスカッション内容をまとめました。"
+        },
         {
           "title": "Anthropic社の輸出禁止が長引く中、アジアのAIスタートアップ企業がMythosのようなモデルを立ち上げる",
           "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
@@ -29,20 +36,13 @@
           "source": "Hacker News（英語）",
           "published": "2026-06-27T09:18:52",
           "excerpt": "記事の URL: https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "【AWS Summit Japan 2026】体験型ブースで見たAIエージェントの今 ─ 4つの展示レポート | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/06/27/165914",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-27T07:59:14",
-          "excerpt": "はじめに 今月誕生日の人、おめでとうございます🎉 エデュケーショナルサービス課の森純子です。AWS Summit Japan 2026のセッションレポート第3弾です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。月に数回しか走らないバッチがあります。たとえば、ヘッドレスブラウザーを起動してサイトを巡回し、各ページを外部 API に送信して結果を保存するような重い処理です。1 回の実行に CPU とメモリを多く使い、外向き通信も一定量発生します。…",
+      "summary": "クラウドの新着が6件。月に数回しか走らないバッチがあります。たとえば、ヘッドレスブラウザーを起動してサイトを巡回し、各ページを外部 API に送信して結果を保存するような重い処理です。1 回の実行に CPU とメモリを多く使い、外向き通信も一定量発生します。…",
       "articles": [
         {
           "title": "AWS Step Functions + Fargate でのオンデマンドバッチ設計",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる",
+      "summary": "セキュリティの新着が5件。【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる",
       "articles": [
         {
           "title": "【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。AWS Cloud Development Kit (AWS CDK)を使いこなすため、勉強したことを残していきます。…",
+      "summary": "開発ツールの新着が14件。はじめに 最初は VPC + EC2 だけのスタックを作っていて、そこに private サブネットや RDS・ALB を足した「フル構成」に更新しようとしました。aws cloudformation deploy。…全ロールバック。…",
       "articles": [
+        {
+          "title": "CloudFormation で更新したら CIDR 衝突→全ロールバックした話【論理IDの罠】",
+          "link": "https://qiita.com/80-cloud/items/0280481538cd8856782d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-27T13:21:49",
+          "excerpt": "はじめに 最初は VPC + EC2 だけのスタックを作っていて、そこに private サブネットや RDS・ALB を足した「フル構成」に更新しようとしました。aws cloudformation deploy。…全ロールバック。…"
+        },
         {
           "title": "【コツコツAWS】AWS CDK - 静的サイトへのAPI追加 -",
           "link": "https://qiita.com/guupys/items/3fc84d258dfe6d52d84a",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-27T10:51:23",
           "excerpt": "はじめに 最近AWSリソースのデプロイはもっぱらKiroでCDK作ってやってたけど、 再現性とか気にせずちょっとした環境作りたい！であればBedrock AgentCoreでエージェントにやってもらうのもいいかもと思ったので試し。…"
-        },
-        {
-          "title": "【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる",
-          "link": "https://dev.classmethod.jp/articles/aws-console-switch-role-no-role-chaining/",
-          "source": "DevelopersIO",
-          "published": "2026-06-27T08:23:13",
-          "excerpt": "【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "🍯【はちみつと学ぶIT #4】リージョンとは？世界中にあるAWSの拠点をやさしく解説",
-      "link": "https://qiita.com/honeybro/items/31239e489934ff3767a7",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-27T12:47:35",
-      "excerpt": "🍯【はちみつと学ぶIT #4】リージョンとは？世界中にあるAWSの拠点をやさしく解説 はじめに AWSを学び始めると、 「リージョン（Region）」 という言葉がよく登場します。リージョンは、AWSを理解するうえでとても重要な考え方です。…"
+      "title": "この部屋で最も適した創設者が癌になった。彼が AI を使って反撃した方法は次のとおりです。",
+      "link": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-27T14:00:00",
+      "excerpt": "がんに直面したとき、コナー・クリストは、血液検査結果、スキャンデータ、ウェアラブル出力、日誌エントリなど、自分の体制に関係するあらゆるものをクロードに入力しました。"
     },
     {
-      "title": "AWSで介護事故報告書ドラフト生成アプリを作ってみた",
-      "link": "https://qiita.com/yuki_engineer08/items/49e59e1492be58bbb493",
+      "title": "🍯【はちみつと学ぶIT #7】従量課金とは？AWSの料金の仕組みをやさしく解説",
+      "link": "https://qiita.com/honeybro/items/cb6be7258b21b2a5c0cf",
       "source": "Qiita AWSタグ",
-      "published": "2026-06-27T12:43:26",
-      "excerpt": "介護現場向けに、事故報告書のドラフトをAIが生成するWebアプリを作成しました。背景 事故報告書は 毎回ゼロから文章を書く 書き手で品質が変わる 時間がかかる という課題があります。…"
+      "published": "2026-06-27T13:34:14",
+      "excerpt": "🍯【はちみつと学ぶIT #7】従量課金とは？AWSの料金の仕組みをやさしく解説 はじめに AWSは、サーバーやストレージを購入するサービスではありません。必要なときに利用し、使った分だけ料金を支払う仕組みです。…"
     },
     {
-      "title": "🍯【はちみつと学ぶIT #3】IaaS・PaaS・SaaSとは？違いをはちみつ屋さんで理解しよう！",
-      "link": "https://qiita.com/honeybro/items/a28e0029e357c36be00f",
+      "title": "🍯【はちみつと学ぶIT #6】責任共有モデルとは？AWSと利用者、それぞれの役割を理解しよう！",
+      "link": "https://qiita.com/honeybro/items/cbec762bf371583be3e4",
       "source": "Qiita AWSタグ",
-      "published": "2026-06-27T12:36:19",
-      "excerpt": "🍯【はちみつと学ぶIT #3】IaaS・PaaS・SaaSとは？違いをはちみつ屋さんで理解しよう！はじめに AWSの勉強を始めると、 IaaS PaaS SaaS という3つの言葉が出てきます。…"
+      "published": "2026-06-27T13:11:52",
+      "excerpt": "🍯【はちみつと学ぶIT #6】責任共有モデルとは？AWSと利用者、それぞれの役割を理解しよう！はじめに AWSを利用すると、 「AWSが全部管理してくれる」 と思ってしまう方も多いかもしれません。…"
     },
     {
-      "title": "Delta Direct による Delta Lake テーブルの参照を試してみた #SnowflakeDB",
-      "link": "https://dev.classmethod.jp/articles/snowflake-deltadirect-try/",
-      "source": "DevelopersIO",
-      "published": "2026-06-27T12:35:19",
-      "excerpt": "Delta Direct による Delta Lake テーブルの参照を試してみた #SnowflakeDB"
+      "title": "AWS Summit Japan 2026訪問",
+      "link": "https://qiita.com/kazu8812/items/28fa5733cded5aa817a3",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-27T13:10:51",
+      "excerpt": "2026年のAWS Summit Japanに行きました。そこでいくつかのセッションを聴講しましたので紹介します。…"
     }
   ]
 }
