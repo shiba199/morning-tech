@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-06-27T09:09:07",
+  "generated_at": "2026-06-27T11:08:37",
   "window_hours": 24,
-  "total": 159,
+  "total": 161,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が26件。はじめに Amplify Gen 2 と Bedrock AgentCore で、AI補完付きのブックマーク管理 Web アプリ Rich Browser Link を作ってみました。コーディングには Kiro を全面活用しています。…",
+      "summary": "生成AIの新着が29件。はじめに 最近AWSリソースのデプロイはもっぱらKiroでCDK作ってやってたけど、 再現性とか気にせずちょっとした環境作りたい！であればBedrock AgentCoreでエージェントにやってもらうのもいいかもと思ったので試し。…",
       "articles": [
+        {
+          "title": "Bedrock AgentCoreでリソースデプロイ用エージェントをざっくり作る",
+          "link": "https://qiita.com/Pretzelisa/items/4b9aa261e43052792d56",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-27T10:51:23",
+          "excerpt": "はじめに 最近AWSリソースのデプロイはもっぱらKiroでCDK作ってやってたけど、 再現性とか気にせずちょっとした環境作りたい！であればBedrock AgentCoreでエージェントにやってもらうのもいいかもと思ったので試し。…"
+        },
+        {
+          "title": "DeepSeek のオープンソース推論最適化により、生成が 60 ～ 85% 高速化 [pdf]",
+          "link": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-27T09:18:52",
+          "excerpt": "記事の URL: https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "【AWS Summit Japan 2026】体験型ブースで見たAIエージェントの今 ─ 4つの展示レポート | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/2026/06/27/165914",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-27T07:59:14",
+          "excerpt": "はじめに 今月誕生日の人、おめでとうございます🎉 エデュケーショナルサービス課の森純子です。AWS Summit Japan 2026のセッションレポート第3弾です。…"
+        },
         {
           "title": "【Amplify x AgentCore】スーパーリッチなブックマーク管理アプリを作ってみた",
           "link": "https://qiita.com/jus1730/items/06657cee24daf9c15137",
           "source": "Qiita AWSタグ",
           "published": "2026-06-27T07:57:45",
           "excerpt": "はじめに Amplify Gen 2 と Bedrock AgentCore で、AI補完付きのブックマーク管理 Web アプリ Rich Browser Link を作ってみました。コーディングには Kiro を全面活用しています。…"
-        },
-        {
-          "title": "「1体の AI に全部任せない」— サブエージェントでコンテキストを守る AWS 研究エージェント",
-          "link": "https://zenn.dev/hirano75125toru/articles/daily-digest-a-2026-06-15",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-27T07:47:23",
-          "excerpt": "この記事について 元記事 Build context-rich research agents with Deep Agents and Bedrock AgentCore（2026-06-15）を解説し、筆者の設計判断をまとめたものです。…"
-        },
-        {
-          "title": "Zendeskの外部ナレッジソースコネクタでNotionのコンテンツをヘルプセンター（FAQ）や AI エージェント（チャットボット）に活用する",
-          "link": "https://dev.classmethod.jp/articles/zendesk-notion-external-knowledge-source-connector/",
-          "source": "DevelopersIO",
-          "published": "2026-06-27T07:33:12",
-          "excerpt": "Zendesk の外部コンテンツソースコネクタを使い、Notion のナレッジをヘルプセンター検索・生成検索・AI エージェント・チケット管理画面から横断的に活用する方法を、設定手順と検証結果とともに紹介します。"
-        },
-        {
-          "title": "【AWS Summit Japan 2026】AI エージェント時代における責任あるAIのベストプラクティスと実践例 [AIM345] セッションレポート | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/06/27/152305",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-27T06:23:05",
-          "excerpt": "はじめに 今月誕生日の人、おめでとうございます🎉 エデュケーショナルサービス課の森純子です。AWS Summit Japan 2026のセッションレポート第2弾です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。はじめに こんにちは、mori (@morimori) です。きっかけは、最近 JAWS-UG の勉強会に参加させていただいている中で、気になった発表があって「試してみたい」と思ったことでした。…",
+      "summary": "クラウドの新着が8件。月に数回しか走らないバッチがあります。たとえば、ヘッドレスブラウザーを起動してサイトを巡回し、各ページを外部 API に送信して結果を保存するような重い処理です。1 回の実行に CPU とメモリを多く使い、外向き通信も一定量発生します。…",
       "articles": [
+        {
+          "title": "AWS Step Functions + Fargate でのオンデマンドバッチ設計",
+          "link": "https://qiita.com/mori-dev@github/items/20fd0ad8978b72bb652b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-27T10:31:54",
+          "excerpt": "月に数回しか走らないバッチがあります。たとえば、ヘッドレスブラウザーを起動してサイトを巡回し、各ページを外部 API に送信して結果を保存するような重い処理です。1 回の実行に CPU とメモリを多く使い、外向き通信も一定量発生します。…"
+        },
         {
           "title": "AWS Lambda Web Adapter (LWA) を触ってみて、使いどころを考えてみた",
           "link": "https://qiita.com/j_mori/items/8139eaadee6c0b2a72f3",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-06-27T02:35:33",
           "excerpt": "Tailwind CSS v3 から v4 へ更新する際、設定を JS から CSS に移行する `@theme` への切り替え方と、移行前後で見た目が一切変わっていないことを機械的に保証する検証手法を紹介します。"
-        },
-        {
-          "title": "AWS S3 へCLI で静的サイトをホスティングする",
-          "link": "https://zenn.dev/cvl/articles/5beb298fd080a7",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-26T17:20:42",
-          "excerpt": "はじめに 死ぬほどこすられた内容ですが。チームやサークルの紹介サイトをサクッと公開したいとき、AWS S3 の静的ウェブサイトホスティングは手軽な選択肢のひとつです。本記事では、AWS CLI だけを使って index.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる",
+      "summary": "セキュリティの新着が7件。【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる",
       "articles": [
         {
           "title": "【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。AWSが提案する顧客体験の再設計。AIを用いたプロアクティブなアクションで、効率的かつパーソナライズされた顧客サポートの未来を描きます。",
+      "summary": "データ分析の新着が5件。数年前、急遽、Kinesis Data Streams（KDS）を使うことになりました。社内での使用実績はなく、当然、有識者もいません。手探りで調べるほかありませんでした。なんとか完成にこぎつけ、幸い、大きなトラブルなく稼働しています。…",
       "articles": [
+        {
+          "title": "Kinesis Data Streamsを使う前に知っておきたかったこと",
+          "link": "https://zenn.dev/aminevsky/articles/2f0a7ebcc0359b",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-27T05:02:32",
+          "excerpt": "数年前、急遽、Kinesis Data Streams（KDS）を使うことになりました。社内での使用実績はなく、当然、有識者もいません。手探りで調べるほかありませんでした。なんとか完成にこぎつけ、幸い、大きなトラブルなく稼働しています。…"
+        },
         {
           "title": "【AWS Summit Japan 2026】AI ネイティブで実現する、妥協なき顧客体験 - Amazon Connect Customer [BIZ201] セッションレポート | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/AWS_Summit_Japan_2026_BIZ201",
@@ -134,21 +141,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-26T17:29:39",
           "excerpt": "AWS Step Functions の Map と ItemReader を OSS 実装から学ぶ 1.…"
-        },
-        {
-          "title": "Terraformのstateロックで黄色い警告。dynamodb_table が非推奨になっていた話",
-          "link": "https://qiita.com/80-cloud/items/4014be06a3a7761643e7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-26T16:25:33",
-          "excerpt": "はじめに Terraform のリモート state で、同時 apply を防ぐロックを DynamoDB でかけようとしました。backend \"s3\" に dynamodb_table を書いて terraform init。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる",
+      "summary": "開発ツールの新着が13件。はじめに 最近AWSリソースのデプロイはもっぱらKiroでCDK作ってやってたけど、 再現性とか気にせずちょっとした環境作りたい！であればBedrock AgentCoreでエージェントにやってもらうのもいいかもと思ったので試し。…",
       "articles": [
+        {
+          "title": "Bedrock AgentCoreでリソースデプロイ用エージェントをざっくり作る",
+          "link": "https://qiita.com/Pretzelisa/items/4b9aa261e43052792d56",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-27T10:51:23",
+          "excerpt": "はじめに 最近AWSリソースのデプロイはもっぱらKiroでCDK作ってやってたけど、 再現性とか気にせずちょっとした環境作りたい！であればBedrock AgentCoreでエージェントにやってもらうのもいいかもと思ったので試し。…"
+        },
         {
           "title": "【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる",
           "link": "https://dev.classmethod.jp/articles/aws-console-switch-role-no-role-chaining/",
@@ -169,45 +176,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-06-27T07:00:05",
           "excerpt": "AWS CDK CLIが古いバージョンから変わらない cdk-nagがv3になり、aws-cdk-libのバージョン要件が変更されました。…"
-        },
-        {
-          "title": "GitHub Actions、ワークフローステップの並列実行「parallel」を正式サポート",
-          "link": "https://codezine.jp/article/detail/24685",
-          "source": "CodeZine",
-          "published": "2026-06-27T03:00:00",
-          "excerpt": "GitHub Actions、ワークフローステップの並列実行「parallel」を正式サポート"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【IVR から AI 会話へ】 AWS Summit Japan 2026 カスタマーサポートセッション横断レポート",
-      "link": "https://dev.classmethod.jp/articles/aws-summit-2026-ivr-ai-contact-center-report/",
-      "source": "DevelopersIO",
-      "published": "2026-06-27T08:43:51",
-      "excerpt": "AWS Summit Japan 2026で、電力・銀行・自治体の3組織によるコンタクトセンター変革のセッションに参加しました。…"
+      "title": "フィンテックエンジニアリングハンドブック",
+      "link": "https://w.pitula.me/fintech-engineering-handbook/",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-27T10:28:53",
+      "excerpt": "記事の URL: https://w.pitula.me/fintech-engineering-handbook/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "クラウドエンジニアデビュー前に、現状整理",
-      "link": "https://zenn.dev/kaihahi/articles/9ef737923d9788",
-      "source": "Zenn AWSトピック",
-      "published": "2026-06-27T08:37:20",
-      "excerpt": "経緯 今年28歳 2024年から2年ほどアプリ開発に従事 2026年7月より転職してクラウドインフラエンジニアへ 現在のAWS理解 転職活動にあたりAWS SAA資格を取得 以下2つの構成を自主構築 simple-serverless sp…"
-    },
-    {
-      "title": "ローカルに縛られない Kiro IDE — Remote SSH で“安全に”開発する",
-      "link": "https://zenn.dev/aws_japan/articles/kiro-remote-ssh-deep-dive",
-      "source": "Zenn AWSトピック",
-      "published": "2026-06-27T08:00:51",
-      "excerpt": "はじめに こんにちは、AWS Japan でソリューションアーキテクトをしているいなりくです。Kiro IDE が Remote SSH で使えることは、意外と知られていない気がします。…"
-    },
-    {
-      "title": "ACM証明書の仕組みと使い分け：パブリック・プライベート・外部CA証明書の実践ガイド",
-      "link": "https://qiita.com/mkydk/items/c233cae19b6a58bba412",
+      "title": "弟が脳梗塞で倒れたので家族情報整理用LINEアプリをAWSメインで作った話",
+      "link": "https://qiita.com/zatrie78/items/32f93d32bdfa190efee4",
       "source": "Qiita AWSタグ",
-      "published": "2026-06-27T07:57:12",
-      "excerpt": "概要 AWS Certificate Manager（ACM）で発行するパブリック証明書は、ブラウザが信頼する公的認証局（Amazon Trust Services）が発行するDV証明書です。…"
+      "published": "2026-06-27T10:01:40",
+      "excerpt": "弟が脳梗塞で倒れたので家族連絡用LINEアプリを作った話 はじめに 「弟が脳梗塞で倒れた。」 あまりにも非日常なLINEが突然来ました。ちょうどAWSSummitで基調講演を聴いているところでした。…"
+    },
+    {
+      "title": "unmodifiableListで要素が書き変わる事象への対応法 | サイゼントの技術ブログ",
+      "link": "https://cyzennt.co.jp/blog/2026/06/27/unmodifiablelist%e3%81%a7%e8%a6%81%e7%b4%a0%e3%81%8c%e6%9b%b8%e3%81%8d%e5%a4%89%e3%82%8f%e3%82%8b%e4%ba%8b%e8%b1%a1%e3%81%b8%e3%81%ae%e5%af%be%e5%bf%9c%e6%b3%95/",
+      "source": "企業テックブログまとめ",
+      "published": "2026-06-27T09:27:27",
+      "excerpt": "はじめに Javaで、要素が不変の配列を定義したくなる場合があります。例えば、配列操作が可能な定数を定義したい場合です。今回の記事では、そのような場合にどのようなコーディングをすれば良いのか、よくある失敗ケースを２つ紹 […]…"
+    },
+    {
+      "title": "NASA、地球から遠すぎて医師を呼べない宇宙飛行士向けにAIメディックをテスト",
+      "link": "https://www.theregister.com/ai-and-ml/2026/06/27/nasa-tests-ai-medic-for-astronauts-too-far-from-earth-to-call-a-doctor/5262828",
+      "source": "The Register（英語）",
+      "published": "2026-06-27T09:20:00",
+      "excerpt": "医療上の緊急事態の内容を述べてください"
     }
   ]
 }
