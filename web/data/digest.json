@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-27T22:52:56",
+  "generated_at": "2026-06-27T23:52:34",
   "window_hours": 24,
-  "total": 132,
+  "total": 135,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が21件。Anthropicは、輸出規制で6月12日から全面停止していたAIモデル「Claude Mythos 5」について、一部の米国組織への再展開を米政府が認めたと発表した。…",
+      "summary": "生成AIの新着が23件。[アップデート] ついに Kiro IDE 1.0 がリリースされたのでエージェントセレクターからカスタムエージェントに切り替えて使ってみた",
       "articles": [
+        {
+          "title": "[アップデート] ついに Kiro IDE 1.0 がリリースされたのでエージェントセレクターからカスタムエージェントに切り替えて使ってみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-ide-1-0-customagent/",
+          "source": "DevelopersIO",
+          "published": "2026-06-27T23:29:11",
+          "excerpt": "[アップデート] ついに Kiro IDE 1.0 がリリースされたのでエージェントセレクターからカスタムエージェントに切り替えて使ってみた"
+        },
+        {
+          "title": "OpenAI、次世代AI「GPT-5.6」を限定プレビュー──米政府の要請で全面公開見送り「恒久的な標準にすべきでない」",
+          "link": "https://www.itmedia.co.jp/news/articles/2606/28/news020.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-06-27T23:20:00",
+          "excerpt": "OpenAIは、次世代AIモデル「GPT-5.6」シリーズの限定プレビューを始めた。フラッグシップの「Sol」など3モデルで構成する。提供形態を巡って米連邦政府の要請を受け、信頼できる少数のパートナーから提供を開始する。…"
+        },
         {
           "title": "米政府、Anthropicの「Mythos」（ミュトス）再開を一部容認──「Fable 5」は停止継続",
           "link": "https://www.itmedia.co.jp/news/articles/2606/28/news019.html",
@@ -22,28 +36,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-06-27T20:34:53",
           "excerpt": "1 か月前、エンジニアが MacBook を半分開いた状態で立てかけてカフェや公園を歩き回っているという投稿やツイートが大量に投稿されました。蓋を完全に閉めると睡眠が強制され、AI エージェントが停止するためです。…"
-        },
-        {
-          "title": "AWS DevOps Agentの設計ベストプラクティスから考えるガバメントクラウドでの活用",
-          "link": "https://qiita.com/infra365/items/b0417a9a18c8a0983657",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-27T20:17:23",
-          "excerpt": "概要 最近注目しているサービスの一つがAWS DevOps Agentです。先日のAWS SummitでもDevOps Agentについてディスカッションさせていただいたり、下記のセッションを聞きました。…"
-        },
-        {
-          "title": "Bedrock マネージドナレッジベースをCloudFormationでデプロイして詰んだ話",
-          "link": "https://zenn.dev/taketaka1986/articles/2026-06-28-bedrock-managed-kb-cloudformation",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-27T18:05:03",
-          "excerpt": "はじめに 2026年6月、Amazon Bedrock に**マネージドナレッジベース（Managed Knowledge Base）**という新機能が登場しました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。TL;DR Lambda のコンテナイメージで headless Chromium を起動しようとして 7 通り試した。全部ダメだった。--single-process でレンダラーが墜落、in-process-gpu でメモリ 2.…",
+      "summary": "クラウドの新着が10件。記事作成の背景（はじめに） 個人開発をしていた当初、バックエンドAPIのエラーハンドリングについて**「エラーが発生したらとりあえず例外を throw してLambdaをクラッシュさせておけば、デフォルトの Errors メトリクスが反応し…",
       "articles": [
+        {
+          "title": "【アンチパターン】Lambdaのエラーハンドリングで「とりあえずthrow」",
+          "link": "https://qiita.com/tiga-ga/items/77b493c0e8877d52420b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-27T23:06:39",
+          "excerpt": "記事作成の背景（はじめに） 個人開発をしていた当初、バックエンドAPIのエラーハンドリングについて**「エラーが発生したらとりあえず例外を throw してLambdaをクラッシュさせておけば、デフォルトの Errors メトリクスが反応し…"
+        },
         {
           "title": "Lambda で Chromium を動かそうとして 7 回失敗し、ECS Fargate に逃げて 1 時間で動いた話",
           "link": "https://qiita.com/iigtn/items/2ded2154feadd5458570",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-27T15:19:43",
           "excerpt": "🍯【はちみつと学ぶIT #9】インスタンスタイプとは？EC2の性能の違いをやさしく解説 はじめに 前回は、EC2について学びました。EC2は「必要なときだけ借りられる仮想サーバー」でしたね。…"
-        },
-        {
-          "title": "🍯【はちみつと学ぶIT #8】EC2とは？AWSでサーバーを借りるサービスをやさしく解説",
-          "link": "https://qiita.com/honeybro/items/efd5fedfbfccb885d3f5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-27T14:54:18",
-          "excerpt": "🍯【はちみつと学ぶIT #8】EC2とは？AWSでサーバーを借りるサービスをやさしく解説 はじめに ここまで、 クラウド リージョン AZ 従量課金 など、AWSの基本的な考え方を学んできました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。記事の URL: https://cephalosec.…",
+      "summary": "セキュリティの新着が5件。記事の URL: https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/ コメント URL: https://news.…",
       "articles": [
+        {
+          "title": "LXC による X11 アプリケーションのセキュリティの強化",
+          "link": "https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-27T21:27:36",
+          "excerpt": "記事の URL: https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/ コメント URL: https://news.…"
+        },
         {
           "title": "ポスト・ミトスのサイバーセキュリティ: 落ち着いて作業を続けてください",
           "link": "https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on/",
@@ -99,13 +106,6 @@
           "source": "The Register（英語）",
           "published": "2026-06-27T06:59:00",
           "excerpt": "知恵と戦いの女神に祈り始める時間です"
-        },
-        {
-          "title": "AgentCore Policy に来た Guardrails を IAM 認証ゲートウェイで動かす（プロンプトインジェクションをゲートウェイで止める） | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/agentcore_guardrails",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-27T04:24:27",
-          "excerpt": "はじめに 今回の結論（先に3行で） Guardrails とは — 目的・背景と Cedar Policy との違い 背景（おさらい） Cedar Policy と Guardrails は「守るレイヤー」が違う 具体的にどんな指示を止める…"
         }
       ]
     },
@@ -175,6 +175,20 @@
   ],
   "uncategorized": [
     {
+      "title": "C++向け無料バーチャルイベント「Pure Virtual C++ 2026」が7月21日に開催",
+      "link": "https://codezine.jp/article/detail/24687",
+      "source": "CodeZine",
+      "published": "2026-06-27T23:00:00",
+      "excerpt": "C++向け無料バーチャルイベント「Pure Virtual C++ 2026」が7月21日に開催"
+    },
+    {
+      "title": "「MFAだけでは防げない」　狙われる企業のクラウド環境、明日からできる対策は？",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/28/news002.html",
+      "source": "@IT",
+      "published": "2026-06-27T23:00:00",
+      "excerpt": "OAuthトークンの窃取、IT管理者へのなりすまし、正規管理ツールの悪用など、クラウド環境を狙う攻撃は高度化し、従来の多要素認証だけでは防ぎきれないフェーズに直面しています。最新の攻撃手口、明日からできる対策を整理します。"
+    },
+    {
       "title": "大人気の「めっちゃカメレオン」にプロのマンガ家が参戦！　自慢のお絵かきスキルで無双できたのか？",
       "link": "https://www.itmedia.co.jp/news/articles/2606/28/news012.html",
       "source": "ITmedia NEWS",
@@ -182,25 +196,11 @@
       "excerpt": "かくれんぼを題材にしたインディゲーム「めっちゃカメレオン」が人気です。隠れる側がペイントツールで自分の体に絵を描くことで、周囲の景色と同化できるのがポイント。でもプロのマンガ家なのに最初からつまづいてしましました。"
     },
     {
-      "title": "「AIに機密データは使えない」はもう古い？　Googleが「機密AI」を拡充",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2606/29/news026.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-06-27T22:00:00",
-      "excerpt": "Googleは、Confidential Computingの新機能を発表した。G4系機密VMやプロンプト暗号化SDKを公開し、AI処理時の秘匿性と検証性を強化した。Appleとの協業や機密基盤の拡充も示した。"
-    },
-    {
-      "title": "ミシガン州は18億ドルを費やしたが、創出された雇用はわずか602件だった",
-      "link": "https://www.msn.com/en-us/money/general/michigan-spent-1-8-billion-and-only-created-602-jobs/ar-AA26Cusu",
+      "title": "パブリック DNS リゾルバーの選択",
+      "link": "https://evilbit.de/dns-resolver-guide.html",
       "source": "Hacker News（英語）",
-      "published": "2026-06-27T21:44:57",
-      "excerpt": "記事の URL: https://www.msn.…"
-    },
-    {
-      "title": "GLP-1薬はマウスの体重減少とうつ病様行動の逆転をもたらした",
-      "link": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-27T21:34:06",
-      "excerpt": "記事の URL: https://www.psychologytoday.…"
+      "published": "2026-06-27T22:11:28",
+      "excerpt": "記事の URL: https://evilbit.de/dns-resolver-guide.html コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
