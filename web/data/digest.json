@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-27T17:54:11",
+  "generated_at": "2026-06-27T19:02:02",
   "window_hours": 24,
-  "total": 138,
+  "total": 134,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。AppleのVision Proヘッドセット担当副社長であるPaul Meade氏が、OpenAIのハードウェアチームに加わるため同社を辞めると報じられている。",
+      "summary": "生成AIの新着が20件。AppleのVision Proヘッドセット担当副社長であるPaul Meade氏が、OpenAIのハードウェアチームに加わるため同社を辞めると報じられている。",
       "articles": [
         {
           "title": "Apple Vision Proの幹部がOpenAIに退職すると報じられている",
@@ -24,25 +24,25 @@
           "excerpt": "AWS Summit Japan 2026でAmazon Bedrock AgentCoreについてチョークトーク形式で登壇した際のアーキテクチャ設計のディスカッション内容をまとめました。"
         },
         {
+          "title": "Claude Code に機密ファイルを読ませないための permissions.deny と sandbox の設定",
+          "link": "https://zenn.dev/satoru_o/articles/8d9fde4a5ed94c",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-27T13:55:53",
+          "excerpt": "はじめに Terraform と AWS CLI を使うリポジトリに Claude Code を Devcontainer 経由で導入しました。導入にあたって、*.tfvars や *.tfstate、~/.…"
+        },
+        {
           "title": "Anthropic社の輸出禁止が長引く中、アジアのAIスタートアップ企業がMythosのようなモデルを立ち上げる",
           "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
           "source": "TechCrunch（英語）",
           "published": "2026-06-27T12:00:00",
           "excerpt": "輸出禁止を恐れることなく、Mythos のような機能を約束する新モデルがアジアで発売されています。米国のAI研究所がこの巨大な市場を取り戻すことは決してないかもしれない。"
-        },
-        {
-          "title": "Bedrock AgentCoreでリソースデプロイ用エージェントをざっくり作る",
-          "link": "https://qiita.com/Pretzelisa/items/4b9aa261e43052792d56",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-27T10:51:23",
-          "excerpt": "はじめに 最近AWSリソースのデプロイはもっぱらKiroでCDK作ってやってたけど、 再現性とか気にせずちょっとした環境作りたい！であればBedrock AgentCoreでエージェントにやってもらうのもいいかもと思ったので試し。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が7件。🍯【はちみつと学ぶIT #10】AMIとは？EC2をすぐに起動できる「設計図」をやさしく解説 はじめに 前回は、EC2のインスタンスタイプについて学びました。では、EC2を作成するとき、 「どんなOSを使うのか？…",
+      "summary": "クラウドの新着が8件。🍯【はちみつと学ぶIT #10】AMIとは？EC2をすぐに起動できる「設計図」をやさしく解説 はじめに 前回は、EC2のインスタンスタイプについて学びました。では、EC2を作成するとき、 「どんなOSを使うのか？…",
       "articles": [
         {
           "title": "🍯【はちみつと学ぶIT #10】AMIとは？EC2をすぐに起動できる「設計図」をやさしく解説",
@@ -66,11 +66,11 @@
           "excerpt": "🍯【はちみつと学ぶIT #8】EC2とは？AWSでサーバーを借りるサービスをやさしく解説 はじめに ここまで、 クラウド リージョン AZ 従量課金 など、AWSの基本的な考え方を学んできました。…"
         },
         {
-          "title": "AWS Step Functions + Fargate でのオンデマンドバッチ設計",
-          "link": "https://qiita.com/mori-dev@github/items/20fd0ad8978b72bb652b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-27T10:31:54",
-          "excerpt": "月に数回しか走らないバッチがあります。たとえば、ヘッドレスブラウザーを起動してサイトを巡回し、各ページを外部 API に送信して結果を保存するような重い処理です。1 回の実行に CPU とメモリを多く使い、外向き通信も一定量発生します。…"
+          "title": "Terraform でマルチ AZ 環境の ALB + ECS を構築してみた",
+          "link": "https://zenn.dev/sawa_tech/articles/34bb5869f6279e",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-27T13:27:32",
+          "excerpt": "はじめに 今回は Terraform を使用してマルチAZ で ALB + ECS の環境を構築してみます。…"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。Kiro CLI v2.10.0で追加されたMCP/エージェント設定のHot-Reload機能と、カスタムエージェントのデフォルトリソース継承制御設定を実際に検証しました",
+      "summary": "開発ツールの新着が15件。Kiro CLI v2.10.0で追加されたMCP/エージェント設定のHot-Reload機能と、カスタムエージェントのデフォルトリソース継承制御設定を実際に検証しました",
       "articles": [
         {
           "title": "Kiro CLI v2.10.0の新機能、Config Hot-ReloadとResource Inheritance Controlを試してみた",
@@ -164,18 +164,18 @@
           "excerpt": "記事の URL: https://github.com/bikini/exploitarium コメント URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "CloudFormation で更新したら CIDR 衝突→全ロールバックした話【論理IDの罠】",
-          "link": "https://qiita.com/80-cloud/items/0280481538cd8856782d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-27T13:21:49",
-          "excerpt": "はじめに 最初は VPC + EC2 だけのスタックを作っていて、そこに private サブネットや RDS・ALB を足した「フル構成」に更新しようとしました。aws cloudformation deploy。…全ロールバック。…"
+          "title": "Cloud9でAWS CDK CLIの最新バージョンを使いたい",
+          "link": "https://zenn.dev/sena0627/articles/67cee3b92cd4c1",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-27T13:30:05",
+          "excerpt": "npm install aws-cdk@latestを実行しても、AWS CDK CLIが古いバージョンから変わらない cdk-nag がv3になったことで、aws-cdk-lib のバージョン要件が変更されました。…"
         },
         {
-          "title": "【コツコツAWS】AWS CDK - 静的サイトへのAPI追加 -",
-          "link": "https://qiita.com/guupys/items/3fc84d258dfe6d52d84a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-27T12:23:48",
-          "excerpt": "AWS Cloud Development Kit (AWS CDK)を使いこなすため、勉強したことを残していきます。…"
+          "title": "Terraform でマルチ AZ 環境の ALB + ECS を構築してみた",
+          "link": "https://zenn.dev/sawa_tech/articles/34bb5869f6279e",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-27T13:27:32",
+          "excerpt": "はじめに 今回は Terraform を使用してマルチAZ で ALB + ECS の環境を構築してみます。…"
         }
       ]
     }
@@ -187,6 +187,13 @@
       "source": "Qiita AWSタグ",
       "published": "2026-06-27T17:16:11",
       "excerpt": "今回はAWS Summit Japan 2026の2日目のレポートをまとめていきます。朝から基調講演を見るために始発で行く予定でしたが、起きた時間は6時半。。大遅刻をかまし会場へ。…"
+    },
+    {
+      "title": "サイトを人々がぶつかり合える場所に変える",
+      "link": "https://cauenapier.com/blog/townsquare_release/",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-27T17:11:20",
+      "excerpt": "記事の URL: https://cauenapier.com/blog/townsquare_release/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
       "title": "Supabase (YC S20) が Multigres を募集中",
@@ -201,13 +208,6 @@
       "source": "Qiita AWSタグ",
       "published": "2026-06-27T16:51:53",
       "excerpt": "はじめに AWS Summit Japan 2026 に初めて参加してきました！存在は知っていたものの平日のため、有給をとるのがもったいなく参加を見送っていましたが、ちょうど1日だけ余っていたので初めて参加してみました。…"
-    },
-    {
-      "title": "【行けなかった人向け】AWS Summit Japan 2026 の「AI関連」だけ、時間がない人のために要約リンク集にした",
-      "link": "https://qiita.com/similarmetal/items/fbd1881a8d5c0e07bbaf",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-27T14:58:42",
-      "excerpt": "現地に行けなかった／AIの話だけ追いたい／でも260本以上のセッションも動画も見てる時間がない。そういう人（＝去年の私）向けに、AI関連のコンテンツだけを抜き出して、3行要約 + 優先度 + リンクにまとめました。…"
     }
   ]
 }
