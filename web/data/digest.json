@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-27T19:02:02",
+  "generated_at": "2026-06-27T20:35:50",
   "window_hours": 24,
-  "total": 134,
+  "total": 135,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。AppleのVision Proヘッドセット担当副社長であるPaul Meade氏が、OpenAIのハードウェアチームに加わるため同社を辞めると報じられている。",
+      "summary": "生成AIの新着が21件。概要 最近注目しているサービスの一つがAWS DevOps Agentです。先日のAWS SummitでもDevOps Agentについてディスカッションさせていただいたり、下記のセッションを聞きました。…",
       "articles": [
+        {
+          "title": "AWS DevOps Agentの設計ベストプラクティスから考えるガバメントクラウドでの活用",
+          "link": "https://qiita.com/infra365/items/b0417a9a18c8a0983657",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-27T20:17:23",
+          "excerpt": "概要 最近注目しているサービスの一つがAWS DevOps Agentです。先日のAWS SummitでもDevOps Agentについてディスカッションさせていただいたり、下記のセッションを聞きました。…"
+        },
+        {
+          "title": "Bedrock マネージドナレッジベースをCloudFormationでデプロイして詰んだ話",
+          "link": "https://zenn.dev/taketaka1986/articles/2026-06-28-bedrock-managed-kb-cloudformation",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-27T18:05:03",
+          "excerpt": "はじめに 2026年6月、Amazon Bedrock に**マネージドナレッジベース（Managed Knowledge Base）**という新機能が登場しました。…"
+        },
         {
           "title": "Apple Vision Proの幹部がOpenAIに退職すると報じられている",
           "link": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
@@ -22,20 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-06-27T14:15:47",
           "excerpt": "AWS Summit Japan 2026でAmazon Bedrock AgentCoreについてチョークトーク形式で登壇した際のアーキテクチャ設計のディスカッション内容をまとめました。"
-        },
-        {
-          "title": "Claude Code に機密ファイルを読ませないための permissions.deny と sandbox の設定",
-          "link": "https://zenn.dev/satoru_o/articles/8d9fde4a5ed94c",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-27T13:55:53",
-          "excerpt": "はじめに Terraform と AWS CLI を使うリポジトリに Claude Code を Devcontainer 経由で導入しました。導入にあたって、*.tfvars や *.tfstate、~/.…"
-        },
-        {
-          "title": "Anthropic社の輸出禁止が長引く中、アジアのAIスタートアップ企業がMythosのようなモデルを立ち上げる",
-          "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-06-27T12:00:00",
-          "excerpt": "輸出禁止を恐れることなく、Mythos のような機能を約束する新モデルがアジアで発売されています。米国のAI研究所がこの巨大な市場を取り戻すことは決してないかもしれない。"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。Kiro CLI v2.10.0で追加されたMCP/エージェント設定のHot-Reload機能と、カスタムエージェントのデフォルトリソース継承制御設定を実際に検証しました",
+      "summary": "開発ツールの新着が16件。はじめに 2026年6月、Amazon Bedrock に**マネージドナレッジベース（Managed Knowledge Base）**という新機能が登場しました。…",
       "articles": [
+        {
+          "title": "Bedrock マネージドナレッジベースをCloudFormationでデプロイして詰んだ話",
+          "link": "https://zenn.dev/taketaka1986/articles/2026-06-28-bedrock-managed-kb-cloudformation",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-27T18:05:03",
+          "excerpt": "はじめに 2026年6月、Amazon Bedrock に**マネージドナレッジベース（Managed Knowledge Base）**という新機能が登場しました。…"
+        },
         {
           "title": "Kiro CLI v2.10.0の新機能、Config Hot-ReloadとResource Inheritance Controlを試してみた",
           "link": "https://dev.classmethod.jp/articles/kiro-cli-2-10-config-hot-reload-resource-inheritance/",
@@ -169,45 +176,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-06-27T13:30:05",
           "excerpt": "npm install aws-cdk@latestを実行しても、AWS CDK CLIが古いバージョンから変わらない cdk-nag がv3になったことで、aws-cdk-lib のバージョン要件が変更されました。…"
-        },
-        {
-          "title": "Terraform でマルチ AZ 環境の ALB + ECS を構築してみた",
-          "link": "https://zenn.dev/sawa_tech/articles/34bb5869f6279e",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-27T13:27:32",
-          "excerpt": "はじめに 今回は Terraform を使用してマルチAZ で ALB + ECS の環境を構築してみます。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "IP クロール: 公共のインターネット上で発見されたオープン Web カメラの生きたアトラス",
+      "link": "https://ipcrawl.com/",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-27T19:09:49",
+      "excerpt": "記事の URL: https://ipcrawl.com/ コメント URL: https://news.ycombinator.com/item?id=48700834 ポイント: 35 コメント数: 17"
+    },
+    {
+      "title": "船舶はストライキにもかかわらずホルムズを通過し続ける",
+      "link": "https://www.lloydslist.com/LL1157680/Ships-keep-moving-through-Hormuz-despite-strike-and-suspension-of-IMO-exit-strategy",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-27T19:06:03",
+      "excerpt": "記事の URL: https://www.lloydslist.…"
+    },
+    {
+      "title": "Apple II を本格化させたカード",
+      "link": "https://www.wiseowl.com/articles/a2fpga-videx-01-the-card-that-made-the-apple-ii-serious/",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-27T18:00:46",
+      "excerpt": "記事の URL: https://www.wiseowl.…"
+    },
+    {
       "title": "AWS Summit Japan 2日目潜入レポート！",
       "link": "https://qiita.com/mitsuki-swimmer/items/3650e8a189f08d2eecef",
       "source": "Qiita AWSタグ",
       "published": "2026-06-27T17:16:11",
       "excerpt": "今回はAWS Summit Japan 2026の2日目のレポートをまとめていきます。朝から基調講演を見るために始発で行く予定でしたが、起きた時間は6時半。。大遅刻をかまし会場へ。…"
-    },
-    {
-      "title": "サイトを人々がぶつかり合える場所に変える",
-      "link": "https://cauenapier.com/blog/townsquare_release/",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-27T17:11:20",
-      "excerpt": "記事の URL: https://cauenapier.com/blog/townsquare_release/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Supabase (YC S20) が Multigres を募集中",
-      "link": "https://jobs.ashbyhq.com/supabase/2e718684-4f75-4a99-8d6b-3b6bd44e4228",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-27T17:00:15",
-      "excerpt": "記事の URL: https://jobs.ashbyhq.com/supabase/2e718684-4f75-4a99-8d6b-3b6bd44e4228 コメント URL: https://news.ycombinator.…"
-    },
-    {
-      "title": "【ソロ参加】AWS Summit Japan 2026 参加レポート（6/26）",
-      "link": "https://qiita.com/sho06/items/ff8b8700182954ac0fc8",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-27T16:51:53",
-      "excerpt": "はじめに AWS Summit Japan 2026 に初めて参加してきました！存在は知っていたものの平日のため、有給をとるのがもったいなく参加を見送っていましたが、ちょうど1日だけ余っていたので初めて参加してみました。…"
     }
   ]
 }
