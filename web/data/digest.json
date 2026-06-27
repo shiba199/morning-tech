@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-06-27T11:08:37",
+  "generated_at": "2026-06-27T12:48:45",
   "window_hours": 24,
-  "total": 161,
+  "total": 164,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が29件。はじめに 最近AWSリソースのデプロイはもっぱらKiroでCDK作ってやってたけど、 再現性とか気にせずちょっとした環境作りたい！であればBedrock AgentCoreでエージェントにやってもらうのもいいかもと思ったので試し。…",
+      "summary": "生成AIの新着が30件。輸出禁止を恐れることなく、Mythos のような機能を約束する新モデルがアジアで発売されています。米国のAI研究所がこの巨大な市場を取り戻すことは決してないかもしれない。",
       "articles": [
+        {
+          "title": "Anthropic社の輸出禁止が長引く中、アジアのAIスタートアップ企業がMythosのようなモデルを立ち上げる",
+          "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-06-27T12:00:00",
+          "excerpt": "輸出禁止を恐れることなく、Mythos のような機能を約束する新モデルがアジアで発売されています。米国のAI研究所がこの巨大な市場を取り戻すことは決してないかもしれない。"
+        },
         {
           "title": "Bedrock AgentCoreでリソースデプロイ用エージェントをざっくり作る",
           "link": "https://qiita.com/Pretzelisa/items/4b9aa261e43052792d56",
@@ -29,13 +36,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-06-27T07:59:14",
           "excerpt": "はじめに 今月誕生日の人、おめでとうございます🎉 エデュケーショナルサービス課の森純子です。AWS Summit Japan 2026のセッションレポート第3弾です。…"
-        },
-        {
-          "title": "【Amplify x AgentCore】スーパーリッチなブックマーク管理アプリを作ってみた",
-          "link": "https://qiita.com/jus1730/items/06657cee24daf9c15137",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-27T07:57:45",
-          "excerpt": "はじめに Amplify Gen 2 と Bedrock AgentCore で、AI補完付きのブックマーク管理 Web アプリ Rich Browser Link を作ってみました。コーディングには Kiro を全面活用しています。…"
         }
       ]
     },
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる",
+      "summary": "セキュリティの新着が6件。【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる",
       "articles": [
         {
           "title": "【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。数年前、急遽、Kinesis Data Streams（KDS）を使うことになりました。社内での使用実績はなく、当然、有識者もいません。手探りで調べるほかありませんでした。なんとか完成にこぎつけ、幸い、大きなトラブルなく稼働しています。…",
+      "summary": "データ分析の新着が6件。AWS Summit Japan 2026の「Amazon Connect Customer の AI 機能を活用し、顧客一人ひとりに最適化された体験を大規模に提供する方法」についてのセッションレポートです。…",
       "articles": [
+        {
+          "title": "【セッションレポート】Amazon Connect Customer の AI 機能で顧客一人ひとりに最適化された体験を大規模に提供する [BIZ233]",
+          "link": "https://dev.classmethod.jp/articles/aws-summit--2026-session-report-connect-customer-ai-personalization/",
+          "source": "DevelopersIO",
+          "published": "2026-06-27T11:37:56",
+          "excerpt": "AWS Summit Japan 2026の「Amazon Connect Customer の AI 機能を活用し、顧客一人ひとりに最適化された体験を大規模に提供する方法」についてのセッションレポートです。…"
+        },
         {
           "title": "Kinesis Data Streamsを使う前に知っておきたかったこと",
           "link": "https://zenn.dev/aminevsky/articles/2f0a7ebcc0359b",
@@ -134,21 +141,28 @@
           "source": "TechCrunch（英語）",
           "published": "2026-06-26T22:00:37",
           "excerpt": "Corgi は、ソフトウェアを盗んだとして Papermark が告発したとき、論争に巻き込まれた。コーギーはそうではなかったと述べ、バイブコーディングに関する新たな疑問を引き起こしている。"
-        },
-        {
-          "title": "AWS Step Functions の Map と ItemReader を OSS 実装から学ぶ",
-          "link": "https://qiita.com/shrimpTail/items/d402ee6ded89d2718385",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-26T17:29:39",
-          "excerpt": "AWS Step Functions の Map と ItemReader を OSS 実装から学ぶ 1.…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。はじめに 最近AWSリソースのデプロイはもっぱらKiroでCDK作ってやってたけど、 再現性とか気にせずちょっとした環境作りたい！であればBedrock AgentCoreでエージェントにやってもらうのもいいかもと思ったので試し。…",
+      "summary": "開発ツールの新着が13件。AWS Cloud Development Kit (AWS CDK)を使いこなすため、勉強したことを残していきます。…",
       "articles": [
+        {
+          "title": "【コツコツAWS】AWS CDK - 静的サイトへのAPI追加 -",
+          "link": "https://qiita.com/guupys/items/3fc84d258dfe6d52d84a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-27T12:23:48",
+          "excerpt": "AWS Cloud Development Kit (AWS CDK)を使いこなすため、勉強したことを残していきます。…"
+        },
+        {
+          "title": "Kiro CLI V3 がやってくる - 主な変更点と注意点まとめ | ForgeVision Engineer Blog",
+          "link": "https://techblog.forgevision.com/entry/kiro/about_kirov3",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-27T10:52:15",
+          "excerpt": "こんにちは、AWS グループの尾谷です。Kiro CLI V3 が Early Access として公開されました。ドキュメントを読む限り、v2 からかなり大きく変更されるようだったので、急ぎ調査してみました。…"
+        },
         {
           "title": "Bedrock AgentCoreでリソースデプロイ用エージェントをざっくり作る",
           "link": "https://qiita.com/Pretzelisa/items/4b9aa261e43052792d56",
@@ -162,52 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-06-27T08:23:13",
           "excerpt": "【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる"
-        },
-        {
-          "title": "【Amplify x AgentCore】スーパーリッチなブックマーク管理アプリを作ってみた",
-          "link": "https://qiita.com/jus1730/items/06657cee24daf9c15137",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-27T07:57:45",
-          "excerpt": "はじめに Amplify Gen 2 と Bedrock AgentCore で、AI補完付きのブックマーク管理 Web アプリ Rich Browser Link を作ってみました。コーディングには Kiro を全面活用しています。…"
-        },
-        {
-          "title": "Cloud9でAWS CDK CLIの最新バージョンを使いたい",
-          "link": "https://zenn.dev/sena0627/articles/1015b838b9c7ad",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-27T07:00:05",
-          "excerpt": "AWS CDK CLIが古いバージョンから変わらない cdk-nagがv3になり、aws-cdk-libのバージョン要件が変更されました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "フィンテックエンジニアリングハンドブック",
-      "link": "https://w.pitula.me/fintech-engineering-handbook/",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-27T10:28:53",
-      "excerpt": "記事の URL: https://w.pitula.me/fintech-engineering-handbook/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "弟が脳梗塞で倒れたので家族情報整理用LINEアプリをAWSメインで作った話",
-      "link": "https://qiita.com/zatrie78/items/32f93d32bdfa190efee4",
+      "title": "🍯【はちみつと学ぶIT #4】リージョンとは？世界中にあるAWSの拠点をやさしく解説",
+      "link": "https://qiita.com/honeybro/items/31239e489934ff3767a7",
       "source": "Qiita AWSタグ",
-      "published": "2026-06-27T10:01:40",
-      "excerpt": "弟が脳梗塞で倒れたので家族連絡用LINEアプリを作った話 はじめに 「弟が脳梗塞で倒れた。」 あまりにも非日常なLINEが突然来ました。ちょうどAWSSummitで基調講演を聴いているところでした。…"
+      "published": "2026-06-27T12:47:35",
+      "excerpt": "🍯【はちみつと学ぶIT #4】リージョンとは？世界中にあるAWSの拠点をやさしく解説 はじめに AWSを学び始めると、 「リージョン（Region）」 という言葉がよく登場します。リージョンは、AWSを理解するうえでとても重要な考え方です。…"
     },
     {
-      "title": "unmodifiableListで要素が書き変わる事象への対応法 | サイゼントの技術ブログ",
-      "link": "https://cyzennt.co.jp/blog/2026/06/27/unmodifiablelist%e3%81%a7%e8%a6%81%e7%b4%a0%e3%81%8c%e6%9b%b8%e3%81%8d%e5%a4%89%e3%82%8f%e3%82%8b%e4%ba%8b%e8%b1%a1%e3%81%b8%e3%81%ae%e5%af%be%e5%bf%9c%e6%b3%95/",
-      "source": "企業テックブログまとめ",
-      "published": "2026-06-27T09:27:27",
-      "excerpt": "はじめに Javaで、要素が不変の配列を定義したくなる場合があります。例えば、配列操作が可能な定数を定義したい場合です。今回の記事では、そのような場合にどのようなコーディングをすれば良いのか、よくある失敗ケースを２つ紹 […]…"
+      "title": "AWSで介護事故報告書ドラフト生成アプリを作ってみた",
+      "link": "https://qiita.com/yuki_engineer08/items/49e59e1492be58bbb493",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-27T12:43:26",
+      "excerpt": "介護現場向けに、事故報告書のドラフトをAIが生成するWebアプリを作成しました。背景 事故報告書は 毎回ゼロから文章を書く 書き手で品質が変わる 時間がかかる という課題があります。…"
     },
     {
-      "title": "NASA、地球から遠すぎて医師を呼べない宇宙飛行士向けにAIメディックをテスト",
-      "link": "https://www.theregister.com/ai-and-ml/2026/06/27/nasa-tests-ai-medic-for-astronauts-too-far-from-earth-to-call-a-doctor/5262828",
-      "source": "The Register（英語）",
-      "published": "2026-06-27T09:20:00",
-      "excerpt": "医療上の緊急事態の内容を述べてください"
+      "title": "🍯【はちみつと学ぶIT #3】IaaS・PaaS・SaaSとは？違いをはちみつ屋さんで理解しよう！",
+      "link": "https://qiita.com/honeybro/items/a28e0029e357c36be00f",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-27T12:36:19",
+      "excerpt": "🍯【はちみつと学ぶIT #3】IaaS・PaaS・SaaSとは？違いをはちみつ屋さんで理解しよう！はじめに AWSの勉強を始めると、 IaaS PaaS SaaS という3つの言葉が出てきます。…"
+    },
+    {
+      "title": "Delta Direct による Delta Lake テーブルの参照を試してみた #SnowflakeDB",
+      "link": "https://dev.classmethod.jp/articles/snowflake-deltadirect-try/",
+      "source": "DevelopersIO",
+      "published": "2026-06-27T12:35:19",
+      "excerpt": "Delta Direct による Delta Lake テーブルの参照を試してみた #SnowflakeDB"
     }
   ]
 }
