@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-28T06:40:49",
+  "generated_at": "2026-06-28T09:51:40",
   "window_hours": 24,
-  "total": 129,
+  "total": 118,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。記事の URL: https://github.com/itsthelore/wayfinder-router コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が17件。何をするか Strands Agentsを自分の頭で理解するためにドキュメントなどを参考にエージェントを作成します。簡単なエージェントを作成し、そのエージェントにToolを持たせるところまで実装します。以下の3つを試します。…",
       "articles": [
+        {
+          "title": "Strands Agentsのツールの渡し方3つを試す",
+          "link": "https://qiita.com/sago33333/items/ee53236d7340fb77c5e4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T09:37:23",
+          "excerpt": "何をするか Strands Agentsを自分の頭で理解するためにドキュメントなどを参考にエージェントを作成します。簡単なエージェントを作成し、そのエージェントにToolを持たせるところまで実装します。以下の3つを試します。…"
+        },
+        {
+          "title": "【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました",
+          "link": "https://dev.classmethod.jp/articles/202606-aws-summit-japan-2026-real-estate-booth-report/",
+          "source": "DevelopersIO",
+          "published": "2026-06-28T09:35:36",
+          "excerpt": "【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました"
+        },
         {
           "title": "Wayfinder Router: ローカル LLM とホストされた LLM 間のクエリの決定的なルーティング",
           "link": "https://github.com/itsthelore/wayfinder-router",
@@ -22,62 +36,48 @@
           "source": "DevelopersIO",
           "published": "2026-06-28T03:23:14",
           "excerpt": "GitHub Actions で terraform plan を実行して Claude Code にレビューさせてみた"
-        },
-        {
-          "title": "[Amazon Bedrock AgentCore] 画像分析からコンセプト作成・作詞・リップシンク判定まで Claude が自律判断するMV生成エージェントを Strands Agents で作ってみました",
-          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-mv-generation-strands-agents/",
-          "source": "DevelopersIO",
-          "published": "2026-06-28T01:12:24",
-          "excerpt": "Amazon Bedrock AgentCore と Claude を使ったMV自動生成エージェントを実装しました。S3 に画像を置くだけで、AI がコンセプト生成から作詞・リップシンク判定まで自律的に行い、ミュージックビデオを生成します。"
-        },
-        {
-          "title": "[アップデート] ついに Kiro IDE 1.0 がリリースされたのでエージェントセレクターからカスタムエージェントに切り替えて使ってみた",
-          "link": "https://dev.classmethod.jp/articles/kiro-ide-1-0-customagent/",
-          "source": "DevelopersIO",
-          "published": "2026-06-27T23:29:11",
-          "excerpt": "[アップデート] ついに Kiro IDE 1.0 がリリースされたのでエージェントセレクターからカスタムエージェントに切り替えて使ってみた"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。本記事では、基本的な起動・停止の仕様から、EventBridgeスケジュールによる自動化、さらにはSlackから対話的に起動・停止を行うサーバレス構成を整理とSlackとLambdaの認証の仕組みのメモを残しておきます。…",
+      "summary": "クラウドの新着が12件。Amazon EMR Serverlessでアプリケーションを停止せずにmaximumCapacityを変更できるライブ設定更新機能を検証しました。…",
       "articles": [
+        {
+          "title": "EMR Serverlessの新機能「ライブ設定更新」でアプリケーションを止めずに最大容量を変更してみた",
+          "link": "https://dev.classmethod.jp/articles/mr-serverless-live-config-update-maximum-capacity/",
+          "source": "DevelopersIO",
+          "published": "2026-06-28T09:22:07",
+          "excerpt": "Amazon EMR Serverlessでアプリケーションを停止せずにmaximumCapacityを変更できるライブ設定更新機能を検証しました。…"
+        },
+        {
+          "title": "Lambdaの冪等性について学びながら整理してみた",
+          "link": "https://qiita.com/k0ga/items/16cddbc3ee61170bca5c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T08:37:46",
+          "excerpt": "はじめに AWS Lambda を使った処理では、同じイベントや同じリクエストが複数回処理されることがあります。最初は「Lambda が2回動くことなんてそんなにあるのか？…"
+        },
+        {
+          "title": "【初級者向け】ECSのログ収集とFireLens（Fluent Bit）入門 — なぜ標準ログだけでは足りないのか",
+          "link": "https://qiita.com/volbe/items/e0f25689b032feacf3c5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T08:17:32",
+          "excerpt": "この記事で分かること ECSの標準のログ機能（awslogs）で「何ができて、何ができないのか」。できないことを補う FireLens（Fluent Bit） がどんな仕組みなのか。高負荷のときに「ログが消える」のはなぜか、どう備えるか。…"
+        },
         {
           "title": "Lambdaを使ってRDSの起動停止をSlackから行えるようにした話",
           "link": "https://qiita.com/ho-rai/items/3ffae9a26235744ac800",
           "source": "Qiita AWSタグ",
           "published": "2026-06-28T06:33:05",
           "excerpt": "本記事では、基本的な起動・停止の仕様から、EventBridgeスケジュールによる自動化、さらにはSlackから対話的に起動・停止を行うサーバレス構成を整理とSlackとLambdaの認証の仕組みのメモを残しておきます。…"
-        },
-        {
-          "title": "FastAPI(Mangum)をAWS Lambdaで本番運用して踏んだ落とし穴",
-          "link": "https://qiita.com/cromtech104/items/96864b934276c08d0421",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-28T05:28:41",
-          "excerpt": "FastAPIをMangumでラップしてLambdaに乗せる構成は、ローカルと同じコードがそのまま動くので最初は快適だった。ただ、ローカルやステージングでは出ず、本番で間欠的にしか再現しない不具合をいくつか踏んだ。…"
-        },
-        {
-          "title": "【アンチパターン】Lambdaのエラーハンドリングで「とりあえずthrow」",
-          "link": "https://qiita.com/tiga-ga/items/77b493c0e8877d52420b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-27T23:06:39",
-          "excerpt": "記事作成の背景（はじめに） 個人開発をしていた当初、バックエンドAPIのエラーハンドリングについて**「エラーが発生したらとりあえず例外を throw してLambdaをクラッシュさせておけば、デフォルトの Errors メトリクスが反応し…"
-        },
-        {
-          "title": "Lambda で Chromium を動かそうとして 7 回失敗し、ECS Fargate に逃げて 1 時間で動いた話",
-          "link": "https://qiita.com/iigtn/items/2ded2154feadd5458570",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-27T22:33:17",
-          "excerpt": "TL;DR Lambda のコンテナイメージで headless Chromium を起動しようとして 7 通り試した。全部ダメだった。--single-process でレンダラーが墜落、in-process-gpu でメモリ 2.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。SDKやライブラリを使わず、curlとブラウザだけでLINEログインのOIDC認可コードフローを一から手で動かしてみました。各ステップでどんなリクエストが飛んで何が返ってくるのかを、実物で確認していきます。",
+      "summary": "セキュリティの新着が4件。SDKやライブラリを使わず、curlとブラウザだけでLINEログインのOIDC認可コードフローを一から手で動かしてみました。各ステップでどんなリクエストが飛んで何が返ってくるのかを、実物で確認していきます。",
       "articles": [
         {
           "title": "LINEログインのOIDC認可コードフローをSDKを使わず手元から試してみた",
@@ -85,6 +85,13 @@
           "source": "DevelopersIO",
           "published": "2026-06-28T04:58:54",
           "excerpt": "SDKやライブラリを使わず、curlとブラウザだけでLINEログインのOIDC認可コードフローを一から手で動かしてみました。各ステップでどんなリクエストが飛んで何が返ってくるのかを、実物で確認していきます。"
+        },
+        {
+          "title": "Prowler を使ってアカウントのセキュリティ状態についてチェックしてみた。 | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/prowler-account-check",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-28T04:43:28",
+          "excerpt": "今回は、OSS のクラウドセキュリティツール Prowler を使って AWS アカウントのセキュリティスキャンを試してみました。「自分のアカウントのセキュリティ設定、大丈夫かな？」と気になったことがある方の参考になれば幸いです。…"
         },
         {
           "title": "LXC による X11 アプリケーションのセキュリティの強化",
@@ -99,21 +106,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-06-27T14:23:40",
           "excerpt": "記事の URL: https://cephalosec.…"
-        },
-        {
-          "title": "【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる",
-          "link": "https://dev.classmethod.jp/articles/aws-console-switch-role-no-role-chaining/",
-          "source": "DevelopersIO",
-          "published": "2026-06-27T08:23:13",
-          "excerpt": "【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。Databricks AI/BI Dashboardの/importBIコマンドでTableauの.twbxファイルをインポートしてみた",
+      "summary": "データ分析の新着が5件。Amazon EMR Serverlessでアプリケーションを停止せずにmaximumCapacityを変更できるライブ設定更新機能を検証しました。…",
       "articles": [
+        {
+          "title": "EMR Serverlessの新機能「ライブ設定更新」でアプリケーションを止めずに最大容量を変更してみた",
+          "link": "https://dev.classmethod.jp/articles/mr-serverless-live-config-update-maximum-capacity/",
+          "source": "DevelopersIO",
+          "published": "2026-06-28T09:22:07",
+          "excerpt": "Amazon EMR Serverlessでアプリケーションを停止せずにmaximumCapacityを変更できるライブ設定更新機能を検証しました。…"
+        },
+        {
+          "title": "【初級者向け】ECSのログ収集とFireLens（Fluent Bit）入門 — なぜ標準ログだけでは足りないのか",
+          "link": "https://qiita.com/volbe/items/e0f25689b032feacf3c5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T08:17:32",
+          "excerpt": "この記事で分かること ECSの標準のログ機能（awslogs）で「何ができて、何ができないのか」。できないことを補う FireLens（Fluent Bit） がどんな仕組みなのか。高負荷のときに「ログが消える」のはなぜか、どう備えるか。…"
+        },
         {
           "title": "Databricks AI/BI Dashboardの/importBIコマンドでTableauの.twbxファイルをインポートしてみた",
           "link": "https://dev.classmethod.jp/articles/databricks-ai-bi-dashboard-importbi-tableau-import/",
@@ -122,78 +136,78 @@
           "excerpt": "Databricks AI/BI Dashboardの/importBIコマンドでTableauの.twbxファイルをインポートしてみた"
         },
         {
-          "title": "【セッションレポート】Amazon Connect Customer の AI 機能で顧客一人ひとりに最適化された体験を大規模に提供する [BIZ233]",
-          "link": "https://dev.classmethod.jp/articles/aws-summit--2026-session-report-connect-customer-ai-personalization/",
-          "source": "DevelopersIO",
-          "published": "2026-06-27T11:37:56",
-          "excerpt": "AWS Summit Japan 2026の「Amazon Connect Customer の AI 機能を活用し、顧客一人ひとりに最適化された体験を大規模に提供する方法」についてのセッションレポートです。…"
+          "title": "DynamoDB のコスト制御テーブルがボトルネックになる — dedup/budget の課金・TTL・ホットパーティション設計",
+          "link": "https://zenn.dev/ojt/articles/dynamodb-dedup-budget-table-design-cost-control",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-27T23:18:08",
+          "excerpt": "コストを抑える DynamoDB が、コストとボトルネックを生む Bedrock でログ分類のコストを抑えるとき、再分類を止める dedup テーブルと、日次トークン上限を数える budget テーブルを DynamoDB に置く。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が18件。LINEログインで受け取ったIDトークンの署名検証時に、OpenID Configurationには`ES256`と書かれているのに、実物のWebログイントークンは`HS256`で署名されていた—その混乱から、実装方法による署名方式の違いに…",
+      "summary": "開発ツールの新着が18件。【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました",
       "articles": [
+        {
+          "title": "【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました",
+          "link": "https://dev.classmethod.jp/articles/202606-aws-summit-japan-2026-real-estate-booth-report/",
+          "source": "DevelopersIO",
+          "published": "2026-06-28T09:35:36",
+          "excerpt": "【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました"
+        },
+        {
+          "title": "AWS CloudFormationで手修正してしまったAWS環境をChangeSet運用へ戻す方法",
+          "link": "https://qiita.com/magic10r/items/06c07af4671c232603e3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T09:09:10",
+          "excerpt": "はじめに AWSをCloudFormationで構築したものの、「急ぎだったのでAWSコンソールから変更した」 「ちょっとした修正だから手でやった」という経験はありませんか？…"
+        },
+        {
+          "title": "GitHub、リポジトリ課題の保存ビューや行の高さ調整機能を追加",
+          "link": "https://codezine.jp/article/detail/24690",
+          "source": "CodeZine",
+          "published": "2026-06-28T09:00:00",
+          "excerpt": "GitHub、リポジトリ課題の保存ビューや行の高さ調整機能を追加"
+        },
         {
           "title": "WebログインとLIFF/SDKにおけるLINEログインのIDトークンの署名方式の違い",
           "link": "https://dev.classmethod.jp/articles/line-login-id-token-hs256-vs-es256/",
           "source": "DevelopersIO",
           "published": "2026-06-28T05:38:00",
           "excerpt": "LINEログインで受け取ったIDトークンの署名検証時に、OpenID Configurationには`ES256`と書かれているのに、実物のWebログイントークンは`HS256`で署名されていた—その混乱から、実装方法による署名方式の違いに…"
-        },
-        {
-          "title": "LINEログインのOIDC認可コードフローをSDKを使わず手元から試してみた",
-          "link": "https://dev.classmethod.jp/articles/line-login-oidc-auth-code-flow-without-sdk/",
-          "source": "DevelopersIO",
-          "published": "2026-06-28T04:58:54",
-          "excerpt": "SDKやライブラリを使わず、curlとブラウザだけでLINEログインのOIDC認可コードフローを一から手で動かしてみました。各ステップでどんなリクエストが飛んで何が返ってくるのかを、実物で確認していきます。"
-        },
-        {
-          "title": "GitHub Actions で terraform plan を実行して Claude Code にレビューさせてみた",
-          "link": "https://dev.classmethod.jp/articles/github-actions-terraform-plan-claude-code-review/",
-          "source": "DevelopersIO",
-          "published": "2026-06-28T03:23:14",
-          "excerpt": "GitHub Actions で terraform plan を実行して Claude Code にレビューさせてみた"
-        },
-        {
-          "title": "GitHub Enterprise Cloud、コストセンターでチーム単位の利用集計に対応",
-          "link": "https://codezine.jp/article/detail/24689",
-          "source": "CodeZine",
-          "published": "2026-06-28T03:00:00",
-          "excerpt": "GitHub Enterprise Cloud、コストセンターでチーム単位の利用集計に対応"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "AWS Community Buildersでもらったクレジットの適用方法と使い道を考える",
+      "link": "https://dev.classmethod.jp/articles/aws-community-builders-credit-usage/",
+      "source": "DevelopersIO",
+      "published": "2026-06-28T08:33:03",
+      "excerpt": "AWS Community Buildersでもらったクレジットの適用方法と使い道を考える"
+    },
+    {
+      "title": "中国は独自の ASML を構築できるでしょうか?",
+      "link": "https://nikkei.shorthandstories.com/can-china-build-its-own-asml/",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-28T07:45:23",
+      "excerpt": "記事の URL: https://nikkei.shorthandstories.com/can-china-build-its-own-asml/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "AWS Configの高度なクエリを使ってAWSリソースの棚卸しをする",
+      "link": "https://dev.classmethod.jp/articles/aws-config-advanced-query-inventory/",
+      "source": "DevelopersIO",
+      "published": "2026-06-28T07:24:07",
+      "excerpt": "AWS Configの高度なクエリを使ってAWSリソースの棚卸しをする"
+    },
+    {
       "title": "Google ClassroomのAI音読支援機能「Read Along」が全教育ユーザーに提供開始",
       "link": "https://codezine.jp/article/detail/24691",
       "source": "CodeZine",
       "published": "2026-06-28T06:00:00",
       "excerpt": "Google ClassroomのAI音読支援機能「Read Along」が全教育ユーザーに提供開始"
-    },
-    {
-      "title": "Vercel vs AWS: 選ぶべきプラットフォームはどちらか",
-      "link": "https://qiita.com/felix-jp-studio/items/97b9bb0aba54d246c2e1",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-28T05:53:48",
-      "excerpt": "はじめに 現在、Webアプリケーションの開発とデプロイには、さまざまなプラットフォームを選択することができます。特に、VercelとAWSは人気のある選択肢の1つです。…"
-    },
-    {
-      "title": "インドの決済責任者は、AIが次の時代のデジタル決済の成長に大きく関与すると考えている",
-      "link": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-06-28T05:00:00",
-      "excerpt": "ディリップ・アスベ氏は、新しいUPIアプリは実行可能な商用モデルにより競争力が高まる可能性があると述べた"
-    },
-    {
-      "title": "Bashblog – ブログを作成するための単一の bash スクリプト",
-      "link": "https://github.com/cfenollosa/bashblog",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-28T04:48:32",
-      "excerpt": "記事の URL: https://github.com/cfenollosa/bashblog コメント URL: https://news.ycombinator.com/item?id=48704454 ポイント: 6 コメント数: 0"
     }
   ]
 }
