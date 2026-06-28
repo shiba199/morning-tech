@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-28T02:13:39",
+  "generated_at": "2026-06-28T06:40:49",
   "window_hours": 24,
-  "total": 133,
+  "total": 129,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が21件。Amazon Bedrock AgentCore と Claude を使ったMV自動生成エージェントを実装しました。S3 に画像を置くだけで、AI がコンセプト生成から作詞・リップシンク判定まで自律的に行い、ミュージックビデオを生成します。",
+      "summary": "生成AIの新着が19件。記事の URL: https://github.com/itsthelore/wayfinder-router コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "Wayfinder Router: ローカル LLM とホストされた LLM 間のクエリの決定的なルーティング",
+          "link": "https://github.com/itsthelore/wayfinder-router",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-28T04:31:18",
+          "excerpt": "記事の URL: https://github.com/itsthelore/wayfinder-router コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "GitHub Actions で terraform plan を実行して Claude Code にレビューさせてみた",
+          "link": "https://dev.classmethod.jp/articles/github-actions-terraform-plan-claude-code-review/",
+          "source": "DevelopersIO",
+          "published": "2026-06-28T03:23:14",
+          "excerpt": "GitHub Actions で terraform plan を実行して Claude Code にレビューさせてみた"
+        },
         {
           "title": "[Amazon Bedrock AgentCore] 画像分析からコンセプト作成・作詞・リップシンク判定まで Claude が自律判断するMV生成エージェントを Strands Agents で作ってみました",
           "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-mv-generation-strands-agents/",
@@ -22,28 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-06-27T23:29:11",
           "excerpt": "[アップデート] ついに Kiro IDE 1.0 がリリースされたのでエージェントセレクターからカスタムエージェントに切り替えて使ってみた"
-        },
-        {
-          "title": "OpenAI、次世代AI「GPT-5.6」を限定プレビュー──米政府の要請で全面公開見送り「恒久的な標準にすべきでない」",
-          "link": "https://www.itmedia.co.jp/news/articles/2606/28/news020.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-06-27T23:20:00",
-          "excerpt": "OpenAIは、次世代AIモデル「GPT-5.6」シリーズの限定プレビューを始めた。フラッグシップの「Sol」など3モデルで構成する。提供形態を巡って米連邦政府の要請を受け、信頼できる少数のパートナーから提供を開始する。…"
-        },
-        {
-          "title": "米政府、Anthropicの「Mythos」（ミュトス）再開を一部容認──「Fable 5」は停止継続",
-          "link": "https://www.itmedia.co.jp/news/articles/2606/28/news019.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-06-27T22:15:00",
-          "excerpt": "Anthropicは、輸出規制で6月12日から全面停止していたAIモデル「Claude Mythos 5」について、一部の米国組織への再展開を米政府が認めたと発表した。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。記事作成の背景（はじめに） 個人開発をしていた当初、バックエンドAPIのエラーハンドリングについて**「エラーが発生したらとりあえず例外を throw してLambdaをクラッシュさせておけば、デフォルトの Errors メトリクスが反応し…",
+      "summary": "クラウドの新着が9件。本記事では、基本的な起動・停止の仕様から、EventBridgeスケジュールによる自動化、さらにはSlackから対話的に起動・停止を行うサーバレス構成を整理とSlackとLambdaの認証の仕組みのメモを残しておきます。…",
       "articles": [
+        {
+          "title": "Lambdaを使ってRDSの起動停止をSlackから行えるようにした話",
+          "link": "https://qiita.com/ho-rai/items/3ffae9a26235744ac800",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T06:33:05",
+          "excerpt": "本記事では、基本的な起動・停止の仕様から、EventBridgeスケジュールによる自動化、さらにはSlackから対話的に起動・停止を行うサーバレス構成を整理とSlackとLambdaの認証の仕組みのメモを残しておきます。…"
+        },
+        {
+          "title": "FastAPI(Mangum)をAWS Lambdaで本番運用して踏んだ落とし穴",
+          "link": "https://qiita.com/cromtech104/items/96864b934276c08d0421",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T05:28:41",
+          "excerpt": "FastAPIをMangumでラップしてLambdaに乗せる構成は、ローカルと同じコードがそのまま動くので最初は快適だった。ただ、ローカルやステージングでは出ず、本番で間欠的にしか再現しない不具合をいくつか踏んだ。…"
+        },
         {
           "title": "【アンチパターン】Lambdaのエラーハンドリングで「とりあえずthrow」",
           "link": "https://qiita.com/tiga-ga/items/77b493c0e8877d52420b",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-27T22:33:17",
           "excerpt": "TL;DR Lambda のコンテナイメージで headless Chromium を起動しようとして 7 通り試した。全部ダメだった。--single-process でレンダラーが墜落、in-process-gpu でメモリ 2.…"
-        },
-        {
-          "title": "🍯【はちみつと学ぶIT #10】AMIとは？EC2をすぐに起動できる「設計図」をやさしく解説",
-          "link": "https://qiita.com/honeybro/items/412e0b6dfb8cff664f11",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-27T15:37:05",
-          "excerpt": "🍯【はちみつと学ぶIT #10】AMIとは？EC2をすぐに起動できる「設計図」をやさしく解説 はじめに 前回は、EC2のインスタンスタイプについて学びました。では、EC2を作成するとき、 「どんなOSを使うのか？…"
-        },
-        {
-          "title": "🍯【はちみつと学ぶIT #9】インスタンスタイプとは？EC2の性能の違いをやさしく解説",
-          "link": "https://qiita.com/honeybro/items/a53eda58ad594953ca3c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-27T15:19:43",
-          "excerpt": "🍯【はちみつと学ぶIT #9】インスタンスタイプとは？EC2の性能の違いをやさしく解説 はじめに 前回は、EC2について学びました。EC2は「必要なときだけ借りられる仮想サーバー」でしたね。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。記事の URL: https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/ コメント URL: https://news.…",
+      "summary": "セキュリティの新着が5件。SDKやライブラリを使わず、curlとブラウザだけでLINEログインのOIDC認可コードフローを一から手で動かしてみました。各ステップでどんなリクエストが飛んで何が返ってくるのかを、実物で確認していきます。",
       "articles": [
+        {
+          "title": "LINEログインのOIDC認可コードフローをSDKを使わず手元から試してみた",
+          "link": "https://dev.classmethod.jp/articles/line-login-oidc-auth-code-flow-without-sdk/",
+          "source": "DevelopersIO",
+          "published": "2026-06-28T04:58:54",
+          "excerpt": "SDKやライブラリを使わず、curlとブラウザだけでLINEログインのOIDC認可コードフローを一から手で動かしてみました。各ステップでどんなリクエストが飛んで何が返ってくるのかを、実物で確認していきます。"
+        },
         {
           "title": "LXC による X11 アプリケーションのセキュリティの強化",
           "link": "https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/",
@@ -99,108 +106,94 @@
           "source": "DevelopersIO",
           "published": "2026-06-27T08:23:13",
           "excerpt": "【小ネタ】AWS CLIのAssumeRoleとマネジメントコンソール（マルチセッション無効）のスイッチロールでは使用される認証情報が異なる"
-        },
-        {
-          "title": "AI がこれまで隠されていた無数の脆弱性を発見するため、セキュリティ チームにとっては暑くて厄介な夏になりそうです。",
-          "link": "https://www.theregister.com/security/2026/06/27/its-looking-like-a-hot-messy-summer-for-security-teams-as-ai-finds-countless-previously-hidden-vulns/5260478",
-          "source": "The Register（英語）",
-          "published": "2026-06-27T06:59:00",
-          "excerpt": "知恵と戦いの女神に祈り始める時間です"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。AWS Summit Japan 2026の「Amazon Connect Customer の AI 機能を活用し、顧客一人ひとりに最適化された体験を大規模に提供する方法」についてのセッションレポートです。…",
+      "summary": "データ分析の新着が2件。Databricks AI/BI Dashboardの/importBIコマンドでTableauの.twbxファイルをインポートしてみた",
       "articles": [
+        {
+          "title": "Databricks AI/BI Dashboardの/importBIコマンドでTableauの.twbxファイルをインポートしてみた",
+          "link": "https://dev.classmethod.jp/articles/databricks-ai-bi-dashboard-importbi-tableau-import/",
+          "source": "DevelopersIO",
+          "published": "2026-06-28T03:21:42",
+          "excerpt": "Databricks AI/BI Dashboardの/importBIコマンドでTableauの.twbxファイルをインポートしてみた"
+        },
         {
           "title": "【セッションレポート】Amazon Connect Customer の AI 機能で顧客一人ひとりに最適化された体験を大規模に提供する [BIZ233]",
           "link": "https://dev.classmethod.jp/articles/aws-summit--2026-session-report-connect-customer-ai-personalization/",
           "source": "DevelopersIO",
           "published": "2026-06-27T11:37:56",
           "excerpt": "AWS Summit Japan 2026の「Amazon Connect Customer の AI 機能を活用し、顧客一人ひとりに最適化された体験を大規模に提供する方法」についてのセッションレポートです。…"
-        },
-        {
-          "title": "Kinesis Data Streamsを使う前に知っておきたかったこと",
-          "link": "https://zenn.dev/aminevsky/articles/2f0a7ebcc0359b",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-27T05:02:32",
-          "excerpt": "数年前、急遽、Kinesis Data Streams（KDS）を使うことになりました。社内での使用実績はなく、当然、有識者もいません。手探りで調べるほかありませんでした。なんとか完成にこぎつけ、幸い、大きなトラブルなく稼働しています。…"
-        },
-        {
-          "title": "【AWS Summit Japan 2026】AI ネイティブで実現する、妥協なき顧客体験 - Amazon Connect Customer [BIZ201] セッションレポート | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/AWS_Summit_Japan_2026_BIZ201",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-27T04:07:07",
-          "excerpt": "AWSが提案する顧客体験の再設計。AIを用いたプロアクティブなアクションで、効率的かつパーソナライズされた顧客サポートの未来を描きます。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。はじめにこの記事の続編です。https://zenn.dev/ncdc/articles/bb8ffdd1a874ea前回の記事に引き続き、Amplify Gen2 と AWS Blocks を触り、一緒に使えるかを検証していきます。…",
+      "summary": "開発ツールの新着が18件。LINEログインで受け取ったIDトークンの署名検証時に、OpenID Configurationには`ES256`と書かれているのに、実物のWebログイントークンは`HS256`で署名されていた—その混乱から、実装方法による署名方式の違いに…",
       "articles": [
         {
-          "title": "AWS Blocks と Amplify Gen2 のリソースを相互利用する | NCDC テックブログのフィード",
-          "link": "https://zenn.dev/ncdc/articles/0abe188442bd2f",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-28T01:30:06",
-          "excerpt": "はじめにこの記事の続編です。https://zenn.dev/ncdc/articles/bb8ffdd1a874ea前回の記事に引き続き、Amplify Gen2 と AWS Blocks を触り、一緒に使えるかを検証していきます。…"
-        },
-        {
-          "title": "Bedrock マネージドナレッジベースをCloudFormationでデプロイして詰んだ話",
-          "link": "https://zenn.dev/taketaka1986/articles/2026-06-28-bedrock-managed-kb-cloudformation",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-27T18:05:03",
-          "excerpt": "はじめに 2026年6月、Amazon Bedrock に**マネージドナレッジベース（Managed Knowledge Base）**という新機能が登場しました。…"
-        },
-        {
-          "title": "Kiro CLI v2.10.0の新機能、Config Hot-ReloadとResource Inheritance Controlを試してみた",
-          "link": "https://dev.classmethod.jp/articles/kiro-cli-2-10-config-hot-reload-resource-inheritance/",
+          "title": "WebログインとLIFF/SDKにおけるLINEログインのIDトークンの署名方式の違い",
+          "link": "https://dev.classmethod.jp/articles/line-login-id-token-hs256-vs-es256/",
           "source": "DevelopersIO",
-          "published": "2026-06-27T15:33:58",
-          "excerpt": "Kiro CLI v2.10.0で追加されたMCP/エージェント設定のHot-Reload機能と、カスタムエージェントのデフォルトリソース継承制御設定を実際に検証しました"
+          "published": "2026-06-28T05:38:00",
+          "excerpt": "LINEログインで受け取ったIDトークンの署名検証時に、OpenID Configurationには`ES256`と書かれているのに、実物のWebログイントークンは`HS256`で署名されていた—その混乱から、実装方法による署名方式の違いに…"
         },
         {
-          "title": "匿名の GitHub アカウントが未公開のゼロデイを大量削除",
-          "link": "https://github.com/bikini/exploitarium",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-27T14:31:00",
-          "excerpt": "記事の URL: https://github.com/bikini/exploitarium コメント URL: https://news.ycombinator.com/item?…"
+          "title": "LINEログインのOIDC認可コードフローをSDKを使わず手元から試してみた",
+          "link": "https://dev.classmethod.jp/articles/line-login-oidc-auth-code-flow-without-sdk/",
+          "source": "DevelopersIO",
+          "published": "2026-06-28T04:58:54",
+          "excerpt": "SDKやライブラリを使わず、curlとブラウザだけでLINEログインのOIDC認可コードフローを一から手で動かしてみました。各ステップでどんなリクエストが飛んで何が返ってくるのかを、実物で確認していきます。"
+        },
+        {
+          "title": "GitHub Actions で terraform plan を実行して Claude Code にレビューさせてみた",
+          "link": "https://dev.classmethod.jp/articles/github-actions-terraform-plan-claude-code-review/",
+          "source": "DevelopersIO",
+          "published": "2026-06-28T03:23:14",
+          "excerpt": "GitHub Actions で terraform plan を実行して Claude Code にレビューさせてみた"
+        },
+        {
+          "title": "GitHub Enterprise Cloud、コストセンターでチーム単位の利用集計に対応",
+          "link": "https://codezine.jp/article/detail/24689",
+          "source": "CodeZine",
+          "published": "2026-06-28T03:00:00",
+          "excerpt": "GitHub Enterprise Cloud、コストセンターでチーム単位の利用集計に対応"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "LanceDB でベクトル検索の仕組みを触ってみた",
-      "link": "https://dev.classmethod.jp/articles/lancedb-vector-search-how-it-works/",
-      "source": "DevelopersIO",
-      "published": "2026-06-28T01:36:49",
-      "excerpt": "NotebookLMの体験から、ローカルでベクトル検索を再現できないか調べていたところ、LanceDBというベクトルDBを見つけました。本記事では、LanceDBを使ったベクトル検索の基礎と、埋め込みモデルを組み合わせた実装例をまとめます。"
+      "title": "Google ClassroomのAI音読支援機能「Read Along」が全教育ユーザーに提供開始",
+      "link": "https://codezine.jp/article/detail/24691",
+      "source": "CodeZine",
+      "published": "2026-06-28T06:00:00",
+      "excerpt": "Google ClassroomのAI音読支援機能「Read Along」が全教育ユーザーに提供開始"
     },
     {
-      "title": "AI の失策に対するロビン・ウィリアムズからの返答",
-      "link": "https://jayacunzo.com/blog/your-move-chief",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-28T01:28:10",
-      "excerpt": "記事の URL: https://jayacunzo.com/blog/your-move-chief コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "【AWS Summit Japan 2026】1日目参加レポート（AWS Jamにも参加！）",
-      "link": "https://qiita.com/eureka_/items/4fa9a7efcbcd841014c7",
+      "title": "Vercel vs AWS: 選ぶべきプラットフォームはどちらか",
+      "link": "https://qiita.com/felix-jp-studio/items/97b9bb0aba54d246c2e1",
       "source": "Qiita AWSタグ",
-      "published": "2026-06-28T01:27:28",
-      "excerpt": "はじめに AWS Summit Japan 2026に参加しました！本記事は、1日目の参加レポートになります！…"
+      "published": "2026-06-28T05:53:48",
+      "excerpt": "はじめに 現在、Webアプリケーションの開発とデプロイには、さまざまなプラットフォームを選択することができます。特に、VercelとAWSは人気のある選択肢の1つです。…"
     },
     {
-      "title": "Show HN: Decomp Academy – GameCube ゲームを一致する C に逆コンパイルする方法を学びます",
-      "link": "https://decomp-academy.dev",
+      "title": "インドの決済責任者は、AIが次の時代のデジタル決済の成長に大きく関与すると考えている",
+      "link": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-28T05:00:00",
+      "excerpt": "ディリップ・アスベ氏は、新しいUPIアプリは実行可能な商用モデルにより競争力が高まる可能性があると述べた"
+    },
+    {
+      "title": "Bashblog – ブログを作成するための単一の bash スクリプト",
+      "link": "https://github.com/cfenollosa/bashblog",
       "source": "Hacker News（英語）",
-      "published": "2026-06-28T01:21:20",
-      "excerpt": "過去数か月間、私は逆コンパイル コミュニティに深く関わってきました。私は子供の頃から大好きなゲーム (Star Fox Adventures) を実際に逆コンパイルしてきました。…"
+      "published": "2026-06-28T04:48:32",
+      "excerpt": "記事の URL: https://github.com/cfenollosa/bashblog コメント URL: https://news.ycombinator.com/item?id=48704454 ポイント: 6 コメント数: 0"
     }
   ]
 }
