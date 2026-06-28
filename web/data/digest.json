@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-28T15:00:02",
+  "generated_at": "2026-06-28T16:12:06",
   "window_hours": 24,
-  "total": 124,
+  "total": 133,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。何を作ったか 社内に規定やマニュアルが増えてくると、「あの規定、どこに書いてあったか思い出せない」となりがち。探すより人に聞いたほうが早い、でも毎回聞くのは聞く側も聞かれる側も地味に手間。…",
+      "summary": "生成AIの新着が22件。こんにちは。Kiro と Claude Opus だけで、画像からアイロンビーズの図案を生成する Web アプリを作りました。アイロンビーズ（パーラービーズ）の図案作りが面倒で、自分で作ることにしたやつです。…",
       "articles": [
+        {
+          "title": "Kiro と Claude Opus でアイロンビーズ図案メーカーを作って AWS Amplify に公開した",
+          "link": "https://qiita.com/hiro_qiita_/items/264d1fce7d20667f2738",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T15:47:30",
+          "excerpt": "こんにちは。Kiro と Claude Opus だけで、画像からアイロンビーズの図案を生成する Web アプリを作りました。アイロンビーズ（パーラービーズ）の図案作りが面倒で、自分で作ることにしたやつです。…"
+        },
+        {
+          "title": "Hermes Agent の Mixture of Agents (MoA) を試してみた",
+          "link": "https://dev.classmethod.jp/articles/hermes-agent-moa-first-touch/",
+          "source": "DevelopersIO",
+          "published": "2026-06-28T15:09:06",
+          "excerpt": "Hermes Agent の Mixture of Agents (MoA) を試してみた"
+        },
         {
           "title": "SlackにAWSで社内文書RAGボットを作った話【全手順まとめ】",
           "link": "https://zenn.dev/kawasemi_jp/articles/kawasemi-aws-bedrock-slack-rag-overview",
@@ -22,27 +36,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-28T14:16:47",
           "excerpt": "本記事で紹介するAWS Lambda Functionのスクリプトはコーディングエージェントを用いて作成しました。…"
-        },
-        {
-          "title": "Bedrock Converse APIで「10回目から応答しない」を追った — Extended Thinking × ツール使用時の落とし穴",
-          "link": "https://dev.classmethod.jp/articles/bedrock-converse-extended-thinking-tool-use-validation-exception/",
-          "source": "DevelopersIO",
-          "published": "2026-06-28T12:33:50",
-          "excerpt": "Bedrock Converse APIでExtended Thinkingとツール使用を組み合わせた際、10回目以降の応答が無言で止まる問題を調査。…"
-        },
-        {
-          "title": "OpenAI Codex で機密ファイルを除外する方法の問題はまだ未解決",
-          "link": "https://github.com/openai/codex/issues/2847",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-28T12:27:33",
-          "excerpt": "記事の URL: https://github.com/openai/codex/issues/2847 コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。AWS App2Container（A2C）は、既存のオンプレミスやAmazon EC2で稼働しているアプリケーションをコンテナ化し、AWSへの移行を支援するツールです。…",
+      "summary": "クラウドの新着が12件。AWS App2Container（A2C）は、既存のオンプレミスやAmazon EC2で稼働しているアプリケーションをコンテナ化し、AWSへの移行を支援するツールです。…",
       "articles": [
         {
           "title": "AWS App2Containerについて簡単にまとめる",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。本記事で紹介するAWS Lambda Functionのスクリプトはコーディングエージェントを用いて作成しました。…",
+      "summary": "開発ツールの新着が11件。こんにちは。Kiro と Claude Opus だけで、画像からアイロンビーズの図案を生成する Web アプリを作りました。アイロンビーズ（パーラービーズ）の図案作りが面倒で、自分で作ることにしたやつです。…",
       "articles": [
+        {
+          "title": "Kiro と Claude Opus でアイロンビーズ図案メーカーを作って AWS Amplify に公開した",
+          "link": "https://qiita.com/hiro_qiita_/items/264d1fce7d20667f2738",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T15:47:30",
+          "excerpt": "こんにちは。Kiro と Claude Opus だけで、画像からアイロンビーズの図案を生成する Web アプリを作りました。アイロンビーズ（パーラービーズ）の図案作りが面倒で、自分で作ることにしたやつです。…"
+        },
         {
           "title": "アウトバウンドで3LOしてSlack MCP Serverに接続するAmazon Bedrock AgentCore GatewayをTerraformで構築する",
           "link": "https://qiita.com/neruneruo/items/0d7fd9d5314b9523d532",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-28T09:09:10",
           "excerpt": "はじめに AWSをCloudFormationで構築したものの、「急ぎだったのでAWSコンソールから変更した」 「ちょっとした修正だから手でやった」という経験はありませんか？…"
-        },
-        {
-          "title": "GitHub、リポジトリ課題の保存ビューや行の高さ調整機能を追加",
-          "link": "https://codezine.jp/article/detail/24690",
-          "source": "CodeZine",
-          "published": "2026-06-28T09:00:00",
-          "excerpt": "GitHub、リポジトリ課題の保存ビューや行の高さ調整機能を追加"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Deno 2.9正式リリース。起動が2倍速、消費メモリは半分に。WebViewを用いたデスクトップアプリが作れる「Deno Desktop」など",
-      "link": "https://www.publickey1.jp/blog/26/deno_292webviewdeno_desktop.html",
-      "source": "Publickey",
-      "published": "2026-06-28T15:15:39",
-      "excerpt": "JavaScript/TypeScriptランタイムのDenoを開発するDeno Landは、Deno 2.9正式版をリリースしました。Deno 2.9は起動を2倍速にするなどの性能面での大幅向上や、Denoを基盤にJavaScriptや.…"
+      "title": "TechCrunch モビリティ: Tesla FSD に注目",
+      "link": "https://techcrunch.com/2026/06/28/techcrunch-mobility-all-eyes-on-tesla-fsd/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-28T16:05:00",
+      "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関、そして今まで以上に AI がどのように役割を果たしているかを知るためのハブです。"
     },
     {
-      "title": "【AWS Summit Japan 2026】「AI ネイティブで実現する、妥協なき顧客体験 - Amazon Connect Customer」セッションレポート",
-      "link": "https://qiita.com/yosuke-suzuki/items/eb59d5d27aa07ebbeb7a",
+      "title": "ボフィンは光の発光と受光が可能なより優れたピクセルを構築します",
+      "link": "https://www.theregister.com/science/2026/06/28/boffins-build-a-better-pixel-capable-of-emitting-and-receiving-light/5263388",
+      "source": "The Register（英語）",
+      "published": "2026-06-28T16:00:00",
+      "excerpt": "とてもおいしいです。充填量が少なくなります。床用ワックスです。デザートのトッピングです。ライトシェイピング。光を送る。なぜ両方ではないのでしょうか?"
+    },
+    {
+      "title": "パブリッククラウドのキャッチアップ術：サービスの海で溺れないための学習戦略",
+      "link": "https://qiita.com/takumiida1/items/b648b9349beec5cf80f2",
       "source": "Qiita AWSタグ",
-      "published": "2026-06-28T14:56:36",
-      "excerpt": "はじめに 2026年6月25日・26日の2日間で開催された AWS Summit Japan 2026に参加しました。…"
+      "published": "2026-06-28T15:53:39",
+      "excerpt": "Summary パブリッククラウドの進化は目覚ましく、新たなサービスや機能が日々リリースされている。本記事では、この変化の激しい環境で効率的にキャッチアップし、実践的な知識を身につけるための筆者なりの学習法を共有する。…"
     },
     {
-      "title": "AWS Blocks を始めよう",
-      "link": "https://qiita.com/daizu_void/items/fe029368ec6dcf7d972b",
+      "title": "自治体情シスの三層分離・ガバクラ検証作業用のご自宅ネットワーク構成図",
+      "link": "https://qiita.com/takeda_h/items/7884f95ada36127a7e28",
       "source": "Qiita AWSタグ",
-      "published": "2026-06-28T14:44:35",
-      "excerpt": "AWS Blocks とは AWS Blocks | Build applications locally in seconds, deploy to AWS when ready AWS Blocks は、オープンソースの TypeScr…"
-    },
-    {
-      "title": "AWS GameDayで考えた、SIerのためのFrugal Architect",
-      "link": "https://zenn.dev/rbcn/articles/aws-gameday-frugal-architect-for-sier",
-      "source": "Zenn AWSトピック",
-      "published": "2026-06-28T14:43:19",
-      "excerpt": "今年はGameDayを楽しんだ。2026-06-25からの2日間、AWS Summit Tokyo 2026 が開催された。Day01 の GameDay に参加した。初めてのGameDayだった。…"
+      "published": "2026-06-28T15:41:12",
+      "excerpt": "私は自治体の三層分離のネットワークやガバメントクラウドなど、閉域ネットワークを業務で扱うのですが、職場に検証環境がないため、自宅で中古のネットワーク機器を買ったり安いサーバーに Linux を入れたりして、好きに検証できる環境を運用していま…"
     }
   ]
 }
