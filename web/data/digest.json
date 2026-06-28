@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-28T09:51:40",
+  "generated_at": "2026-06-28T11:40:12",
   "window_hours": 24,
-  "total": 118,
+  "total": 114,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。何をするか Strands Agentsを自分の頭で理解するためにドキュメントなどを参考にエージェントを作成します。簡単なエージェントを作成し、そのエージェントにToolを持たせるところまで実装します。以下の3つを試します。…",
+      "summary": "生成AIの新着が16件。何をするか Strands Agentsを自分の頭で理解するためにドキュメントなどを参考にエージェントを作成します。簡単なエージェントを作成し、そのエージェントにToolを持たせるところまで実装します。以下の3つを試します。…",
       "articles": [
         {
           "title": "Strands Agentsのツールの渡し方3つを試す",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。Amazon EMR Serverlessでアプリケーションを停止せずにmaximumCapacityを変更できるライブ設定更新機能を検証しました。…",
+      "summary": "クラウドの新着が12件。SnowflakeからIcebergテーブルをS3に書き出したい 今回は、Snowflake-managedではない、S3にデータの実態をおく形でicebergテーブルを作成し、その際の手順を共有します。…",
       "articles": [
+        {
+          "title": "SnowflakeからIcebergテーブルをS3に書き出したい",
+          "link": "https://qiita.com/hotate_2235/items/b2e9c29b49642c6420e4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T11:02:19",
+          "excerpt": "SnowflakeからIcebergテーブルをS3に書き出したい 今回は、Snowflake-managedではない、S3にデータの実態をおく形でicebergテーブルを作成し、その際の手順を共有します。…"
+        },
         {
           "title": "EMR Serverlessの新機能「ライブ設定更新」でアプリケーションを止めずに最大容量を変更してみた",
           "link": "https://dev.classmethod.jp/articles/mr-serverless-live-config-update-maximum-capacity/",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-28T08:17:32",
           "excerpt": "この記事で分かること ECSの標準のログ機能（awslogs）で「何ができて、何ができないのか」。できないことを補う FireLens（Fluent Bit） がどんな仕組みなのか。高負荷のときに「ログが消える」のはなぜか、どう備えるか。…"
-        },
-        {
-          "title": "Lambdaを使ってRDSの起動停止をSlackから行えるようにした話",
-          "link": "https://qiita.com/ho-rai/items/3ffae9a26235744ac800",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-28T06:33:05",
-          "excerpt": "本記事では、基本的な起動・停止の仕様から、EventBridgeスケジュールによる自動化、さらにはSlackから対話的に起動・停止を行うサーバレス構成を整理とSlackとLambdaの認証の仕組みのメモを残しておきます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。SDKやライブラリを使わず、curlとブラウザだけでLINEログインのOIDC認可コードフローを一から手で動かしてみました。各ステップでどんなリクエストが飛んで何が返ってくるのかを、実物で確認していきます。",
+      "summary": "セキュリティの新着が5件。Twilio Verify APIの音声通話チャネルを使って、電話番号宛てに認証コード（OTP）を音声で読み上げる「音声通話認証」を試してみました。",
       "articles": [
+        {
+          "title": "TwilioのVerify APIで音声通話認証（OTP）を試してみた",
+          "link": "https://dev.classmethod.jp/articles/twilio-verify-voice-otp/",
+          "source": "DevelopersIO",
+          "published": "2026-06-28T09:56:54",
+          "excerpt": "Twilio Verify APIの音声通話チャネルを使って、電話番号宛てに認証コード（OTP）を音声で読み上げる「音声通話認証」を試してみました。"
+        },
         {
           "title": "LINEログインのOIDC認可コードフローをSDKを使わず手元から試してみた",
           "link": "https://dev.classmethod.jp/articles/line-login-oidc-auth-code-flow-without-sdk/",
@@ -99,20 +106,13 @@
           "source": "Hacker News（英語）",
           "published": "2026-06-27T21:27:36",
           "excerpt": "記事の URL: https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/ コメント URL: https://news.…"
-        },
-        {
-          "title": "ポスト・ミトスのサイバーセキュリティ: 落ち着いて作業を続けてください",
-          "link": "https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on/",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-27T14:23:40",
-          "excerpt": "記事の URL: https://cephalosec.…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。Amazon EMR Serverlessでアプリケーションを停止せずにmaximumCapacityを変更できるライブ設定更新機能を検証しました。…",
+      "summary": "データ分析の新着が4件。Amazon EMR Serverlessでアプリケーションを停止せずにmaximumCapacityを変更できるライブ設定更新機能を検証しました。…",
       "articles": [
         {
           "title": "EMR Serverlessの新機能「ライブ設定更新」でアプリケーションを止めずに最大容量を変更してみた",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が18件。【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました",
+      "summary": "開発ツールの新着が16件。【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました",
       "articles": [
         {
           "title": "【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました",
@@ -182,6 +182,13 @@
   ],
   "uncategorized": [
     {
+      "title": "クラウドエンジニアのスキルを「視覚化」してレベルアップできるWebアプリを作りました",
+      "link": "https://qiita.com/ait0303/items/ca1f618a2ac07da42708",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-28T11:27:02",
+      "excerpt": "はじめに AWS、Azure、Google Cloudなど、クラウドエンジニアが学ぶべき技術要素は非常に多く、学習ロードマップの策定や、自身の現在地の把握に迷うことは少なくありません。…"
+    },
+    {
       "title": "AWS Community Buildersでもらったクレジットの適用方法と使い道を考える",
       "link": "https://dev.classmethod.jp/articles/aws-community-builders-credit-usage/",
       "source": "DevelopersIO",
@@ -201,13 +208,6 @@
       "source": "DevelopersIO",
       "published": "2026-06-28T07:24:07",
       "excerpt": "AWS Configの高度なクエリを使ってAWSリソースの棚卸しをする"
-    },
-    {
-      "title": "Google ClassroomのAI音読支援機能「Read Along」が全教育ユーザーに提供開始",
-      "link": "https://codezine.jp/article/detail/24691",
-      "source": "CodeZine",
-      "published": "2026-06-28T06:00:00",
-      "excerpt": "Google ClassroomのAI音読支援機能「Read Along」が全教育ユーザーに提供開始"
     }
   ]
 }
