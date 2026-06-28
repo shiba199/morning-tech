@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-28T11:40:12",
+  "generated_at": "2026-06-28T13:11:38",
   "window_hours": 24,
-  "total": 114,
+  "total": 121,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が16件。何をするか Strands Agentsを自分の頭で理解するためにドキュメントなどを参考にエージェントを作成します。簡単なエージェントを作成し、そのエージェントにToolを持たせるところまで実装します。以下の3つを試します。…",
+      "summary": "生成AIの新着が20件。Bedrock Converse APIでExtended Thinkingとツール使用を組み合わせた際、10回目以降の応答が無言で止まる問題を調査。…",
       "articles": [
+        {
+          "title": "Bedrock Converse APIで「10回目から応答しない」を追った — Extended Thinking × ツール使用時の落とし穴",
+          "link": "https://dev.classmethod.jp/articles/bedrock-converse-extended-thinking-tool-use-validation-exception/",
+          "source": "DevelopersIO",
+          "published": "2026-06-28T12:33:50",
+          "excerpt": "Bedrock Converse APIでExtended Thinkingとツール使用を組み合わせた際、10回目以降の応答が無言で止まる問題を調査。…"
+        },
+        {
+          "title": "OpenAI Codex で機密ファイルを除外する方法の問題はまだ未解決",
+          "link": "https://github.com/openai/codex/issues/2847",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-28T12:27:33",
+          "excerpt": "記事の URL: https://github.com/openai/codex/issues/2847 コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "Strands Agentsのツールの渡し方3つを試す",
           "link": "https://qiita.com/sago33333/items/ee53236d7340fb77c5e4",
@@ -22,55 +36,41 @@
           "source": "DevelopersIO",
           "published": "2026-06-28T09:35:36",
           "excerpt": "【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました"
-        },
-        {
-          "title": "Wayfinder Router: ローカル LLM とホストされた LLM 間のクエリの決定的なルーティング",
-          "link": "https://github.com/itsthelore/wayfinder-router",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-28T04:31:18",
-          "excerpt": "記事の URL: https://github.com/itsthelore/wayfinder-router コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "GitHub Actions で terraform plan を実行して Claude Code にレビューさせてみた",
-          "link": "https://dev.classmethod.jp/articles/github-actions-terraform-plan-claude-code-review/",
-          "source": "DevelopersIO",
-          "published": "2026-06-28T03:23:14",
-          "excerpt": "GitHub Actions で terraform plan を実行して Claude Code にレビューさせてみた"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。SnowflakeからIcebergテーブルをS3に書き出したい 今回は、Snowflake-managedではない、S3にデータの実態をおく形でicebergテーブルを作成し、その際の手順を共有します。…",
+      "summary": "クラウドの新着が16件。AWS App2Container（A2C）は、既存のオンプレミスやAmazon EC2で稼働しているアプリケーションをコンテナ化し、AWSへの移行を支援するツールです。…",
       "articles": [
+        {
+          "title": "AWS App2Containerについて簡単にまとめる",
+          "link": "https://qiita.com/keitakei777/items/c93aba65d8cabfc52c22",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T12:45:15",
+          "excerpt": "AWS App2Container（A2C）は、既存のオンプレミスやAmazon EC2で稼働しているアプリケーションをコンテナ化し、AWSへの移行を支援するツールです。…"
+        },
+        {
+          "title": "AWS ParallelCluster で使う場合のある VPC エンドポイントを洗い出してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-parallelcluster-required-vpc-endpoints/",
+          "source": "DevelopersIO",
+          "published": "2026-06-28T12:26:03",
+          "excerpt": "AWS ParallelCluster で使う場合のある VPC エンドポイントを洗い出してみた"
+        },
+        {
+          "title": "画像一括生成システムの設計進化記録 〜ECS・Lambda・SQS・EventBridgeで100〜300件をさばく〜",
+          "link": "https://qiita.com/Nao52/items/d1601e07ba3a125bc714",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T12:06:41",
+          "excerpt": "■ この記事はこんな人におすすめ 外部APIを使った非同期処理の設計に悩んでいる人 タイムアウトや障害に強いワーカー構成を構築したい人 AWSのECS・Lambda・SQS・EventBridgeを組み合わせて使いたい人 ピーク時間帯のパフ…"
+        },
         {
           "title": "SnowflakeからIcebergテーブルをS3に書き出したい",
           "link": "https://qiita.com/hotate_2235/items/b2e9c29b49642c6420e4",
           "source": "Qiita AWSタグ",
           "published": "2026-06-28T11:02:19",
           "excerpt": "SnowflakeからIcebergテーブルをS3に書き出したい 今回は、Snowflake-managedではない、S3にデータの実態をおく形でicebergテーブルを作成し、その際の手順を共有します。…"
-        },
-        {
-          "title": "EMR Serverlessの新機能「ライブ設定更新」でアプリケーションを止めずに最大容量を変更してみた",
-          "link": "https://dev.classmethod.jp/articles/mr-serverless-live-config-update-maximum-capacity/",
-          "source": "DevelopersIO",
-          "published": "2026-06-28T09:22:07",
-          "excerpt": "Amazon EMR Serverlessでアプリケーションを停止せずにmaximumCapacityを変更できるライブ設定更新機能を検証しました。…"
-        },
-        {
-          "title": "Lambdaの冪等性について学びながら整理してみた",
-          "link": "https://qiita.com/k0ga/items/16cddbc3ee61170bca5c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-28T08:37:46",
-          "excerpt": "はじめに AWS Lambda を使った処理では、同じイベントや同じリクエストが複数回処理されることがあります。最初は「Lambda が2回動くことなんてそんなにあるのか？…"
-        },
-        {
-          "title": "【初級者向け】ECSのログ収集とFireLens（Fluent Bit）入門 — なぜ標準ログだけでは足りないのか",
-          "link": "https://qiita.com/volbe/items/e0f25689b032feacf3c5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-28T08:17:32",
-          "excerpt": "この記事で分かること ECSの標準のログ機能（awslogs）で「何ができて、何ができないのか」。できないことを補う FireLens（Fluent Bit） がどんな仕組みなのか。高負荷のときに「ログが消える」のはなぜか、どう備えるか。…"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました",
+      "summary": "開発ツールの新着が14件。【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました",
       "articles": [
         {
           "title": "【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "クラウドエンジニアのスキルを「視覚化」してレベルアップできるWebアプリを作りました",
-      "link": "https://qiita.com/ait0303/items/ca1f618a2ac07da42708",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-28T11:27:02",
-      "excerpt": "はじめに AWS、Azure、Google Cloudなど、クラウドエンジニアが学ぶべき技術要素は非常に多く、学習ロードマップの策定や、自身の現在地の把握に迷うことは少なくありません。…"
-    },
-    {
-      "title": "AWS Community Buildersでもらったクレジットの適用方法と使い道を考える",
-      "link": "https://dev.classmethod.jp/articles/aws-community-builders-credit-usage/",
+      "title": "MarpとReveal.jsを同じ内容で比較してみた - Markdownスライド vs HTMLプレゼンテーション",
+      "link": "https://dev.classmethod.jp/articles/marp-vs-revealjs-markdown-presentation-tools-comparison/",
       "source": "DevelopersIO",
-      "published": "2026-06-28T08:33:03",
-      "excerpt": "AWS Community Buildersでもらったクレジットの適用方法と使い道を考える"
+      "published": "2026-06-28T12:43:29",
+      "excerpt": "MarpとReveal.jsで同じ技術記事をプレゼンテーション化し、ソースの可読性、アニメーション、エクスポート機能を実際に比較しました。…"
     },
     {
-      "title": "中国は独自の ASML を構築できるでしょうか?",
-      "link": "https://nikkei.shorthandstories.com/can-china-build-its-own-asml/",
+      "title": "aws-vault vs Granted：macOSでAWSクレデンシャルを安全に管理するツール比較",
+      "link": "https://dev.classmethod.jp/articles/aws-vault-vs-granted-credential-management-macos/",
+      "source": "DevelopersIO",
+      "published": "2026-06-28T12:39:57",
+      "excerpt": "aws-vaultとGrantedの2つのAWSクレデンシャル管理ツールを比較します。macOS Keychain統合、セットアップ手順、マルチアカウント運用時のワークフローの違いを解説し、ユースケース別の選び方を紹介します。"
+    },
+    {
+      "title": "pg_lake・pg_incremental を使って Snowflake Postgres の Iceberg テーブルへの増分同期を試してみた",
+      "link": "https://dev.classmethod.jp/articles/snowflake-postgres-pg-incremental-try/",
+      "source": "DevelopersIO",
+      "published": "2026-06-28T12:06:10",
+      "excerpt": "pg_lake・pg_incremental を使って Snowflake Postgres の Iceberg テーブルへの増分同期を試してみた"
+    },
+    {
+      "title": "児童法ではオンラインになるために年齢確認が必要になる",
+      "link": "https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online",
       "source": "Hacker News（英語）",
-      "published": "2026-06-28T07:45:23",
-      "excerpt": "記事の URL: https://nikkei.shorthandstories.com/can-china-build-its-own-asml/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "AWS Configの高度なクエリを使ってAWSリソースの棚卸しをする",
-      "link": "https://dev.classmethod.jp/articles/aws-config-advanced-query-inventory/",
-      "source": "DevelopersIO",
-      "published": "2026-06-28T07:24:07",
-      "excerpt": "AWS Configの高度なクエリを使ってAWSリソースの棚卸しをする"
+      "published": "2026-06-28T11:56:16",
+      "excerpt": "記事の URL: https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online コメント URL: https://news.…"
     }
   ]
 }
