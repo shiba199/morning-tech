@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-28T21:35:02",
+  "generated_at": "2026-06-28T22:53:02",
   "window_hours": 24,
-  "total": 141,
+  "total": 147,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。Bash4LLM は、ターミナルから LLM と対話するための単一ファイルの Bash ラッパーです。これを作成したのは、Python、Node、その他のランタイムをインストールせずに動作するシンプルなものが欲しかったからです。…",
+      "summary": "生成AIの新着が24件。6 月 22 日週の生成 AI with AWS 界隈のニュースをまとめてお届けします。…",
       "articles": [
+        {
+          "title": "週刊生成AI with AWS – 2026/6/22 週",
+          "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260622/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-06-28T22:34:21",
+          "excerpt": "6 月 22 日週の生成 AI with AWS 界隈のニュースをまとめてお届けします。…"
+        },
+        {
+          "title": "[アップデート] Kiro IDE 1.0 に追加された実験的ビュー「Agent Focus」を使ってみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-ide-agent-focus-mode/",
+          "source": "DevelopersIO",
+          "published": "2026-06-28T21:34:15",
+          "excerpt": "[アップデート] Kiro IDE 1.0 に追加された実験的ビュー「Agent Focus」を使ってみた"
+        },
         {
           "title": "Show HN: Bash4LLM+ – LLM API 用の軽量で依存関係のない Bash ラッパー",
           "link": "https://github.com/kamaludu/bash4llm/",
@@ -22,28 +36,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-06-28T19:38:14",
           "excerpt": "皆さん、こんにちは。私は人類の寓話が禁止された後、ナノオイラーに取り組み始めました。私の野心と夢は、人類の AI 分野で働くことだからです。…"
-        },
-        {
-          "title": "LLM はミラーテストに合格しますか?",
-          "link": "https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-28T19:06:07",
-          "excerpt": "記事の URL: https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test コメント URL: https://news.ycombinator.…"
-        },
-        {
-          "title": "UbuntuのWorkshopでClaude Codeをサンドボックス化された開発環境で実行してみる",
-          "link": "https://dev.classmethod.jp/articles/ubuntu-workshop-claude-code-sandbox/",
-          "source": "DevelopersIO",
-          "published": "2026-06-28T17:53:21",
-          "excerpt": "UbuntuのWorkshopでClaude Codeをサンドボックス化された開発環境で実行してみる"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。EC2インスタンスについているIAM roleをローカルでも使いたいと思うことがあります (あまりないと思いますが) 例えば EC2インスタンスにsshでアクセスすることしか出来ない(awsアカウントが無い, AssumeRoleできない)…",
+      "summary": "クラウドの新着が14件。きたきたきた～ 生成AIアプリのフロントエンドとして鉄板のStreamlitですが、AWSにデプロイするには諸々の制約があり、Fargateで行うのが一般的だと思います。…",
       "articles": [
+        {
+          "title": "速報！！StreamlitがAWSにサーバーレスでホスティングできるようになった！！ #LambdaMicroVMs",
+          "link": "https://qiita.com/moritalous/items/2f9ad10282775dcbd647",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T22:08:23",
+          "excerpt": "きたきたきた～ 生成AIアプリのフロントエンドとして鉄板のStreamlitですが、AWSにデプロイするには諸々の制約があり、Fargateで行うのが一般的だと思います。…"
+        },
+        {
+          "title": "AI時代のデータセンター冷却は「脱水冷」？　Microsoftの無水冷却にみる、インフラの生存戦略",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2606/29/news037.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-06-28T22:00:00",
+          "excerpt": "MicrosoftはAI、クラウドの需要拡大に対応するため、データセンターの水削減策を公表した。2030年のウオーターポジティブ達成に向け、水使用効率を初期比90％改善。…"
+        },
         {
           "title": "AWS EC2のIAMロールをローカルで使う",
           "link": "https://zenn.dev/yaasita/articles/6dbd2f352089bb",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-28T12:45:15",
           "excerpt": "AWS App2Container（A2C）は、既存のオンプレミスやAmazon EC2で稼働しているアプリケーションをコンテナ化し、AWSへの移行を支援するツールです。…"
-        },
-        {
-          "title": "AWS ParallelCluster で使う場合のある VPC エンドポイントを洗い出してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-parallelcluster-required-vpc-endpoints/",
-          "source": "DevelopersIO",
-          "published": "2026-06-28T12:26:03",
-          "excerpt": "AWS ParallelCluster で使う場合のある VPC エンドポイントを洗い出してみた"
-        },
-        {
-          "title": "画像一括生成システムの設計進化記録 〜ECS・Lambda・SQS・EventBridgeで100〜300件をさばく〜",
-          "link": "https://qiita.com/Nao52/items/d1601e07ba3a125bc714",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-28T12:06:41",
-          "excerpt": "■ この記事はこんな人におすすめ 外部APIを使った非同期処理の設計に悩んでいる人 タイムアウトや障害に強いワーカー構成を構築したい人 AWSのECS・Lambda・SQS・EventBridgeを組み合わせて使いたい人 ピーク時間帯のパフ…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。EC2インスタンスについているIAM roleをローカルでも使いたいと思うことがあります (あまりないと思いますが) 例えば EC2インスタンスにsshでアクセスすることしか出来ない(awsアカウントが無い, AssumeRoleできない)…",
+      "summary": "セキュリティの新着が6件。ガートナーの最新調査で、最も実施率が高いランサムウェア対策でも4割程度にとどまり、感染後の判断や復旧体制には大きな課題が残る実態が明らかになった。さらに同社は、従来とは少し異なる「身代金交渉」の考え方も示している。",
       "articles": [
+        {
+          "title": "「身代金交渉はタブー」か？　ガートナーが示したランサムウェア対応の現実",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/29/news043.html",
+          "source": "@IT",
+          "published": "2026-06-28T22:00:00",
+          "excerpt": "ガートナーの最新調査で、最も実施率が高いランサムウェア対策でも4割程度にとどまり、感染後の判断や復旧体制には大きな課題が残る実態が明らかになった。さらに同社は、従来とは少し異なる「身代金交渉」の考え方も示している。"
+        },
         {
           "title": "AWS EC2のIAMロールをローカルで使う",
           "link": "https://zenn.dev/yaasita/articles/6dbd2f352089bb",
@@ -99,21 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-06-28T09:56:54",
           "excerpt": "Twilio Verify APIの音声通話チャネルを使って、電話番号宛てに認証コード（OTP）を音声で読み上げる「音声通話認証」を試してみました。"
-        },
-        {
-          "title": "LINEログインのOIDC認可コードフローをSDKを使わず手元から試してみた",
-          "link": "https://dev.classmethod.jp/articles/line-login-oidc-auth-code-flow-without-sdk/",
-          "source": "DevelopersIO",
-          "published": "2026-06-28T04:58:54",
-          "excerpt": "SDKやライブラリを使わず、curlとブラウザだけでLINEログインのOIDC認可コードフローを一から手で動かしてみました。各ステップでどんなリクエストが飛んで何が返ってくるのかを、実物で確認していきます。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Amazon EMR Serverlessでアプリケーションを停止せずにmaximumCapacityを変更できるライブ設定更新機能を検証しました。…",
+      "summary": "データ分析の新着が5件。はじめに ローカル LLM を SV/UVM 用に評価している流れで、Z.ai の GLM-5.2（744B MoE / 40B active）を自分の評価ループに入れてみたくなりました。問題はサイズです。…",
       "articles": [
+        {
+          "title": "GLM-5.2 2-bit を1日8時間だけクラウドで回す ─ AWS/Azure/GCP/Cloudflare＋ネオクラウドを比較してみた話",
+          "link": "https://qiita.com/sukimaengineer/items/1b2eba8f77c38cb0a754",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T22:23:26",
+          "excerpt": "はじめに ローカル LLM を SV/UVM 用に評価している流れで、Z.ai の GLM-5.2（744B MoE / 40B active）を自分の評価ループに入れてみたくなりました。問題はサイズです。…"
+        },
         {
           "title": "EMR Serverlessの新機能「ライブ設定更新」でアプリケーションを止めずに最大容量を変更してみた",
           "link": "https://dev.classmethod.jp/articles/mr-serverless-live-config-update-maximum-capacity/",
@@ -134,13 +141,6 @@
           "source": "DevelopersIO",
           "published": "2026-06-28T03:21:42",
           "excerpt": "Databricks AI/BI Dashboardの/importBIコマンドでTableauの.twbxファイルをインポートしてみた"
-        },
-        {
-          "title": "DynamoDB のコスト制御テーブルがボトルネックになる — dedup/budget の課金・TTL・ホットパーティション設計",
-          "link": "https://zenn.dev/ojt/articles/dynamodb-dedup-budget-table-design-cost-control",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-27T23:18:08",
-          "excerpt": "コストを抑える DynamoDB が、コストとボトルネックを生む Bedrock でログ分類のコストを抑えるとき、再分類を止める dedup テーブルと、日次トークン上限を数える budget テーブルを DynamoDB に置く。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "大音量のストリーミング広告を対象とするカリフォルニア州法が 7 月 1 日に発効",
-      "link": "https://techcrunch.com/2026/06/28/california-law-targeting-loud-streaming-ads-takes-effect-on-july-1/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-06-28T21:34:14",
-      "excerpt": "今週はストリーミング広告がかなり静かになるかもしれない。"
-    },
-    {
-      "title": "【Turbonomic】8.20.2新機能〜アイドル状態のクラウドVM➕アタッチボリュームの削除〜",
-      "link": "https://qiita.com/Horiiii/items/e184ec0602bc9c6f8ca9",
+      "title": "AWS AI Practitioner超入門 #1: 試験概要・AIサービス",
+      "link": "https://qiita.com/ryuta1005/items/b7f423f718f9090e3246",
       "source": "Qiita AWSタグ",
-      "published": "2026-06-28T21:16:14",
-      "excerpt": "はじめに ボリュームは、リソースコスト削減効果が大きいものの代表格です。Turbonomic 8.20.2のリリースから、アイドル状態のクラウドVMとアタッチされているボリュームを、同時に削除できるようになりました。…"
+      "published": "2026-06-28T22:33:47",
+      "excerpt": "はじめに AWS Certified AI Practitionerは、AI/MLや生成AIの基礎知識と、AWSのAI関連サービスの理解を問う認定試験です。…"
     },
     {
-      "title": "竹中工務店、sXGP（プライベート4G）で「タワークレーン作業向け通話システム」を開発――「手作り感」のある工夫されたネットワーク",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/29/news019.html",
-      "source": "@IT",
-      "published": "2026-06-28T20:00:00",
-      "excerpt": "竹中工務店は2026年5月26日、プライベート4Gの規格である「sXGP」を用いたタワークレーン作業向け通話システムを開発したと発表した。"
+      "title": "ブラックボックス大規模言語モデルの知識の蒸留",
+      "link": "https://arxiv.org/abs/2401.07013",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-28T22:32:04",
+      "excerpt": "記事の URL: https://arxiv.org/abs/2401.07013 コメント URL: https://news.ycombinator.com/item?id=48712420 ポイント: 4 コメント数: 0"
     },
     {
-      "title": "コードは大量に出力された、だが見合った“成果”は出ているのか",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/29/news016.html",
-      "source": "@IT",
-      "published": "2026-06-28T20:00:00",
-      "excerpt": "米トップテック各社が、社員のAI利用に次々ブレーキを踏み始めました。これだけ使って、成果は出ているのか。AIはコードという出力を爆発的に増やしましたが、それが価値に変わっているかどうかは別の話です。今回は「出力と成果のズレ」を掘り下げます。"
+      "title": "ITエンジニア注目トレンドを総まとめ！週間ニュースランキングTOP10【6/19～6/25】",
+      "link": "https://codezine.jp/article/detail/24682",
+      "source": "CodeZine",
+      "published": "2026-06-28T22:00:00",
+      "excerpt": "毎日更新されるITエンジニア向け関連の最新ニュースから、注目を集めたトピックスを紹介する本ランキング。今回は2026年6月19日～6月25日までの人気ランキングを発表します。"
+    },
+    {
+      "title": "「USBメモリの全面禁止」ってホントに有効？　須藤あどみんが指摘する本質と最新脅威",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2606/29/news039.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-06-28T22:00:00",
+      "excerpt": "インシデント対策の「USB全面禁止」は本当に効果があるのか。バーチャル情シス・須藤あどみん氏が、現場を縛るだけの“思考停止ルール”のリスクを一蹴。…"
     }
   ]
 }
