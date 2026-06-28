@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-28T13:11:38",
+  "generated_at": "2026-06-28T15:00:02",
   "window_hours": 24,
-  "total": 121,
+  "total": 124,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。Bedrock Converse APIでExtended Thinkingとツール使用を組み合わせた際、10回目以降の応答が無言で止まる問題を調査。…",
+      "summary": "生成AIの新着が20件。何を作ったか 社内に規定やマニュアルが増えてくると、「あの規定、どこに書いてあったか思い出せない」となりがち。探すより人に聞いたほうが早い、でも毎回聞くのは聞く側も聞かれる側も地味に手間。…",
       "articles": [
+        {
+          "title": "SlackにAWSで社内文書RAGボットを作った話【全手順まとめ】",
+          "link": "https://zenn.dev/kawasemi_jp/articles/kawasemi-aws-bedrock-slack-rag-overview",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-28T14:31:41",
+          "excerpt": "何を作ったか 社内に規定やマニュアルが増えてくると、「あの規定、どこに書いてあったか思い出せない」となりがち。探すより人に聞いたほうが早い、でも毎回聞くのは聞く側も聞かれる側も地味に手間。…"
+        },
+        {
+          "title": "アウトバウンドで3LOしてSlack MCP Serverに接続するAmazon Bedrock AgentCore GatewayをTerraformで構築する",
+          "link": "https://qiita.com/neruneruo/items/0d7fd9d5314b9523d532",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T14:16:47",
+          "excerpt": "本記事で紹介するAWS Lambda Functionのスクリプトはコーディングエージェントを用いて作成しました。…"
+        },
         {
           "title": "Bedrock Converse APIで「10回目から応答しない」を追った — Extended Thinking × ツール使用時の落とし穴",
           "link": "https://dev.classmethod.jp/articles/bedrock-converse-extended-thinking-tool-use-validation-exception/",
@@ -22,27 +36,13 @@
           "source": "Hacker News（英語）",
           "published": "2026-06-28T12:27:33",
           "excerpt": "記事の URL: https://github.com/openai/codex/issues/2847 コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Strands Agentsのツールの渡し方3つを試す",
-          "link": "https://qiita.com/sago33333/items/ee53236d7340fb77c5e4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-28T09:37:23",
-          "excerpt": "何をするか Strands Agentsを自分の頭で理解するためにドキュメントなどを参考にエージェントを作成します。簡単なエージェントを作成し、そのエージェントにToolを持たせるところまで実装します。以下の3つを試します。…"
-        },
-        {
-          "title": "【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました",
-          "link": "https://dev.classmethod.jp/articles/202606-aws-summit-japan-2026-real-estate-booth-report/",
-          "source": "DevelopersIO",
-          "published": "2026-06-28T09:35:36",
-          "excerpt": "【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。AWS App2Container（A2C）は、既存のオンプレミスやAmazon EC2で稼働しているアプリケーションをコンテナ化し、AWSへの移行を支援するツールです。…",
+      "summary": "クラウドの新着が14件。AWS App2Container（A2C）は、既存のオンプレミスやAmazon EC2で稼働しているアプリケーションをコンテナ化し、AWSへの移行を支援するツールです。…",
       "articles": [
         {
           "title": "AWS App2Containerについて簡単にまとめる",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。Twilio Verify APIの音声通話チャネルを使って、電話番号宛てに認証コード（OTP）を音声で読み上げる「音声通話認証」を試してみました。",
+      "summary": "セキュリティの新着が5件。はじめに こんにちは、シンプルフォームでセキュリティ・情シス 時々 SRE などをやっている入江 (@jirtosterone) です。6/25, 26 に開催された AWS Summit Japan 2026 に参加してきました！…",
       "articles": [
+        {
+          "title": "AWS Summit Japan 2026 参加レポート - AI とセキュリティ",
+          "link": "https://zenn.dev/jirtosterone/articles/a3157db533fdfd",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-28T13:39:47",
+          "excerpt": "はじめに こんにちは、シンプルフォームでセキュリティ・情シス 時々 SRE などをやっている入江 (@jirtosterone) です。6/25, 26 に開催された AWS Summit Japan 2026 に参加してきました！…"
+        },
         {
           "title": "TwilioのVerify APIで音声通話認証（OTP）を試してみた",
           "link": "https://dev.classmethod.jp/articles/twilio-verify-voice-otp/",
@@ -99,13 +106,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-06-28T04:43:28",
           "excerpt": "今回は、OSS のクラウドセキュリティツール Prowler を使って AWS アカウントのセキュリティスキャンを試してみました。「自分のアカウントのセキュリティ設定、大丈夫かな？」と気になったことがある方の参考になれば幸いです。…"
-        },
-        {
-          "title": "LXC による X11 アプリケーションのセキュリティの強化",
-          "link": "https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-27T21:27:36",
-          "excerpt": "記事の URL: https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/ コメント URL: https://news.…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました",
+      "summary": "開発ツールの新着が11件。本記事で紹介するAWS Lambda Functionのスクリプトはコーディングエージェントを用いて作成しました。…",
       "articles": [
+        {
+          "title": "アウトバウンドで3LOしてSlack MCP Serverに接続するAmazon Bedrock AgentCore GatewayをTerraformで構築する",
+          "link": "https://qiita.com/neruneruo/items/0d7fd9d5314b9523d532",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-28T14:16:47",
+          "excerpt": "本記事で紹介するAWS Lambda Functionのスクリプトはコーディングエージェントを用いて作成しました。…"
+        },
         {
           "title": "【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました",
           "link": "https://dev.classmethod.jp/articles/202606-aws-summit-japan-2026-real-estate-booth-report/",
@@ -169,45 +176,38 @@
           "source": "CodeZine",
           "published": "2026-06-28T09:00:00",
           "excerpt": "GitHub、リポジトリ課題の保存ビューや行の高さ調整機能を追加"
-        },
-        {
-          "title": "WebログインとLIFF/SDKにおけるLINEログインのIDトークンの署名方式の違い",
-          "link": "https://dev.classmethod.jp/articles/line-login-id-token-hs256-vs-es256/",
-          "source": "DevelopersIO",
-          "published": "2026-06-28T05:38:00",
-          "excerpt": "LINEログインで受け取ったIDトークンの署名検証時に、OpenID Configurationには`ES256`と書かれているのに、実物のWebログイントークンは`HS256`で署名されていた—その混乱から、実装方法による署名方式の違いに…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "MarpとReveal.jsを同じ内容で比較してみた - Markdownスライド vs HTMLプレゼンテーション",
-      "link": "https://dev.classmethod.jp/articles/marp-vs-revealjs-markdown-presentation-tools-comparison/",
-      "source": "DevelopersIO",
-      "published": "2026-06-28T12:43:29",
-      "excerpt": "MarpとReveal.jsで同じ技術記事をプレゼンテーション化し、ソースの可読性、アニメーション、エクスポート機能を実際に比較しました。…"
+      "title": "Deno 2.9正式リリース。起動が2倍速、消費メモリは半分に。WebViewを用いたデスクトップアプリが作れる「Deno Desktop」など",
+      "link": "https://www.publickey1.jp/blog/26/deno_292webviewdeno_desktop.html",
+      "source": "Publickey",
+      "published": "2026-06-28T15:15:39",
+      "excerpt": "JavaScript/TypeScriptランタイムのDenoを開発するDeno Landは、Deno 2.9正式版をリリースしました。Deno 2.9は起動を2倍速にするなどの性能面での大幅向上や、Denoを基盤にJavaScriptや.…"
     },
     {
-      "title": "aws-vault vs Granted：macOSでAWSクレデンシャルを安全に管理するツール比較",
-      "link": "https://dev.classmethod.jp/articles/aws-vault-vs-granted-credential-management-macos/",
-      "source": "DevelopersIO",
-      "published": "2026-06-28T12:39:57",
-      "excerpt": "aws-vaultとGrantedの2つのAWSクレデンシャル管理ツールを比較します。macOS Keychain統合、セットアップ手順、マルチアカウント運用時のワークフローの違いを解説し、ユースケース別の選び方を紹介します。"
+      "title": "【AWS Summit Japan 2026】「AI ネイティブで実現する、妥協なき顧客体験 - Amazon Connect Customer」セッションレポート",
+      "link": "https://qiita.com/yosuke-suzuki/items/eb59d5d27aa07ebbeb7a",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-28T14:56:36",
+      "excerpt": "はじめに 2026年6月25日・26日の2日間で開催された AWS Summit Japan 2026に参加しました。…"
     },
     {
-      "title": "pg_lake・pg_incremental を使って Snowflake Postgres の Iceberg テーブルへの増分同期を試してみた",
-      "link": "https://dev.classmethod.jp/articles/snowflake-postgres-pg-incremental-try/",
-      "source": "DevelopersIO",
-      "published": "2026-06-28T12:06:10",
-      "excerpt": "pg_lake・pg_incremental を使って Snowflake Postgres の Iceberg テーブルへの増分同期を試してみた"
+      "title": "AWS Blocks を始めよう",
+      "link": "https://qiita.com/daizu_void/items/fe029368ec6dcf7d972b",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-28T14:44:35",
+      "excerpt": "AWS Blocks とは AWS Blocks | Build applications locally in seconds, deploy to AWS when ready AWS Blocks は、オープンソースの TypeScr…"
     },
     {
-      "title": "児童法ではオンラインになるために年齢確認が必要になる",
-      "link": "https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-28T11:56:16",
-      "excerpt": "記事の URL: https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online コメント URL: https://news.…"
+      "title": "AWS GameDayで考えた、SIerのためのFrugal Architect",
+      "link": "https://zenn.dev/rbcn/articles/aws-gameday-frugal-architect-for-sier",
+      "source": "Zenn AWSトピック",
+      "published": "2026-06-28T14:43:19",
+      "excerpt": "今年はGameDayを楽しんだ。2026-06-25からの2日間、AWS Summit Tokyo 2026 が開催された。Day01 の GameDay に参加した。初めてのGameDayだった。…"
     }
   ]
 }
