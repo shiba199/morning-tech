@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-28T19:00:18",
+  "generated_at": "2026-06-28T20:15:33",
   "window_hours": 24,
-  "total": 136,
+  "total": 142,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。AWS App2Container（A2C）は、既存のオンプレミスやAmazon EC2で稼働しているアプリケーションをコンテナ化し、AWSへの移行を支援するツールです。…",
+      "summary": "クラウドの新着が13件。EC2インスタンスについているIAM roleをローカルでも使いたいと思うことがあります (あまりないと思いますが) 例えば EC2インスタンスにsshでアクセスすることしか出来ない(awsアカウントが無い, AssumeRoleできない)…",
       "articles": [
+        {
+          "title": "AWS EC2のIAMロールをローカルで使う",
+          "link": "https://zenn.dev/yaasita/articles/6dbd2f352089bb",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-28T15:25:18",
+          "excerpt": "EC2インスタンスについているIAM roleをローカルでも使いたいと思うことがあります (あまりないと思いますが) 例えば EC2インスタンスにsshでアクセスすることしか出来ない(awsアカウントが無い, AssumeRoleできない)…"
+        },
         {
           "title": "AWS App2Containerについて簡単にまとめる",
           "link": "https://qiita.com/keitakei777/items/c93aba65d8cabfc52c22",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-28T12:06:41",
           "excerpt": "■ この記事はこんな人におすすめ 外部APIを使った非同期処理の設計に悩んでいる人 タイムアウトや障害に強いワーカー構成を構築したい人 AWSのECS・Lambda・SQS・EventBridgeを組み合わせて使いたい人 ピーク時間帯のパフ…"
-        },
-        {
-          "title": "SnowflakeからIcebergテーブルをS3に書き出したい",
-          "link": "https://qiita.com/hotate_2235/items/b2e9c29b49642c6420e4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-28T11:02:19",
-          "excerpt": "SnowflakeからIcebergテーブルをS3に書き出したい 今回は、Snowflake-managedではない、S3にデータの実態をおく形でicebergテーブルを作成し、その際の手順を共有します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。はじめに こんにちは、シンプルフォームでセキュリティ・情シス 時々 SRE などをやっている入江 (@jirtosterone) です。6/25, 26 に開催された AWS Summit Japan 2026 に参加してきました！…",
+      "summary": "セキュリティの新着が6件。EC2インスタンスについているIAM roleをローカルでも使いたいと思うことがあります (あまりないと思いますが) 例えば EC2インスタンスにsshでアクセスすることしか出来ない(awsアカウントが無い, AssumeRoleできない)…",
       "articles": [
+        {
+          "title": "AWS EC2のIAMロールをローカルで使う",
+          "link": "https://zenn.dev/yaasita/articles/6dbd2f352089bb",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-28T15:25:18",
+          "excerpt": "EC2インスタンスについているIAM roleをローカルでも使いたいと思うことがあります (あまりないと思いますが) 例えば EC2インスタンスにsshでアクセスすることしか出来ない(awsアカウントが無い, AssumeRoleできない)…"
+        },
         {
           "title": "AWS Summit Japan 2026 参加レポート - AI とセキュリティ",
           "link": "https://zenn.dev/jirtosterone/articles/a3157db533fdfd",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-06-28T04:58:54",
           "excerpt": "SDKやライブラリを使わず、curlとブラウザだけでLINEログインのOIDC認可コードフローを一から手で動かしてみました。各ステップでどんなリクエストが飛んで何が返ってくるのかを、実物で確認していきます。"
-        },
-        {
-          "title": "Prowler を使ってアカウントのセキュリティ状態についてチェックしてみた。 | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/prowler-account-check",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-28T04:43:28",
-          "excerpt": "今回は、OSS のクラウドセキュリティツール Prowler を使って AWS アカウントのセキュリティスキャンを試してみました。「自分のアカウントのセキュリティ設定、大丈夫かな？」と気になったことがある方の参考になれば幸いです。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。こんにちは。Kiro と Claude Opus だけで、画像からアイロンビーズの図案を生成する Web アプリを作りました。アイロンビーズ（パーラービーズ）の図案作りが面倒で、自分で作ることにしたやつです。…",
+      "summary": "開発ツールの新着が12件。記事の URL: https://github.com/librepods-org/librepods コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "GitHub – librepods-org/librepods: Apple のエコシステムから解放された AirPods",
+          "link": "https://github.com/librepods-org/librepods",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-28T18:48:53",
+          "excerpt": "記事の URL: https://github.com/librepods-org/librepods コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "Kiro と Claude Opus でアイロンビーズ図案メーカーを作って AWS Amplify に公開した",
           "link": "https://qiita.com/hiro_qiita_/items/264d1fce7d20667f2738",
@@ -169,45 +176,38 @@
           "source": "はてなブックマーク（テクノロジー）",
           "published": "2026-06-28T12:22:52",
           "excerpt": "Mac のための最も強力なクリップボードマネージャーコピーしたリンク、画像、色、スニペットは、スクリーンショット内の文字までその場で検索でき、コレクションに自動でまとまります。…"
-        },
-        {
-          "title": "【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました",
-          "link": "https://dev.classmethod.jp/articles/202606-aws-summit-japan-2026-real-estate-booth-report/",
-          "source": "DevelopersIO",
-          "published": "2026-06-28T09:35:36",
-          "excerpt": "【ブースレポート】 生成 AI で不動産体験が変わる - AI Urban Digital Twin と AI コンシェルジュのデモを見てきました"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Oracle Database 19cをWindowsへインストールする際に「[INS-30014] 指定された場所がCFSにあるかチェックできません」と言われたら",
-      "link": "https://dev.classmethod.jp/articles/oracle-19c-windows-ins-30014-hostname-15-chars/",
-      "source": "DevelopersIO",
-      "published": "2026-06-28T18:33:25",
-      "excerpt": "Oracle Database 19cをWindowsへインストールする際に「[INS-30014] 指定された場所がCFSにあるかチェックできません」と言われたら"
-    },
-    {
-      "title": "ヤグニには決して無かったコスト – ケント・ベック著",
-      "link": "https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about",
+      "title": "ISC'26 の TOP500: 新しいナンバー 1 が誕生しました – ジョージ・コズマ著",
+      "link": "https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number",
       "source": "Hacker News（英語）",
-      "published": "2026-06-28T18:31:54",
-      "excerpt": "記事の URL: https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-06-28T19:38:00",
+      "excerpt": "記事の URL: https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "作家のイアン・ボゴストは、「The Small Stuff」は非物質化から私たちの人生を取り戻すのに役立つと述べています",
-      "link": "https://techcrunch.com/2026/06/28/writer-ian-bogost-says-the-small-stuff-can-help-us-reclaim-our-lives-from-dematerialization/",
+      "title": "米国はかつて最高の技術を求めていました。今ではそれを禁止します",
+      "link": "https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-28T19:07:49",
+      "excerpt": "記事の URL: https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it コメント URL: https://news.…"
+    },
+    {
+      "title": "フォード、AIの能力不足を受けて「白髪のひげ」エンジニアを再雇用",
+      "link": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
       "source": "TechCrunch（英語）",
-      "published": "2026-06-28T17:03:16",
-      "excerpt": "シリコンバレーは間違ったものを構築してきたのでしょうか?"
+      "published": "2026-06-28T19:05:39",
+      "excerpt": "「私たちは人工知能を導入するだけで高品質の製品ができると誤解していました。」"
     },
     {
-      "title": "Lemote Yeeloong ラップトップと OpenBSD を使用してドラゴンを回避する",
-      "link": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
+      "title": "言葉を話さない子供のコンピュータ支援による言語発達 (1968) [pdf]",
+      "link": "https://archive.org/details/colby1968-computer-aided-language-development-in-non-speaking-children",
       "source": "Hacker News（英語）",
-      "published": "2026-06-28T16:58:59",
-      "excerpt": "記事の URL: http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html コメント URL: https://news.ycombinator.…"
+      "published": "2026-06-28T18:59:53",
+      "excerpt": "http://i.stanford.edu/pub/cstr/reports/cs/tr/68/85/CS-TR-68-...コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
