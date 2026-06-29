@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-29T20:47:51",
+  "generated_at": "2026-06-29T22:03:28",
   "window_hours": 24,
-  "total": 206,
+  "total": 209,
   "topic_count": 5,
   "groups": [
     {
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。Microsoftが2024年9月に非推奨化（廃止）を発表したWindows Server Update Services（WSUS）。これを利用している組織は、代替策として何を選べばよいのでしょうか。…",
+      "summary": "クラウドの新着が17件。Microsoftが2024年9月に非推奨化（廃止）を発表したWindows Server Update Services（WSUS）。これを利用している組織は、代替策として何を選べばよいのでしょうか。…",
       "articles": [
         {
           "title": "“WSUS廃止”、有力な移行先は？　Intune、Autopatch、Azure Update Managerの違いを整理",
@@ -50,6 +50,13 @@
           "source": "@IT",
           "published": "2026-06-29T20:00:00",
           "excerpt": "Microsoftが2024年9月に非推奨化（廃止）を発表したWindows Server Update Services（WSUS）。これを利用している組織は、代替策として何を選べばよいのでしょうか。…"
+        },
+        {
+          "title": "Amazon MWAA サーバーレスが共有 VPC 構成をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-vpc/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-06-29T17:19:00",
+          "excerpt": "Apache Airflow 用の Amazon マネージド ワークフロー (Amazon MWAA) サーバーレスが共有 VPC サブネットをサポートするようになりました。…"
         },
         {
           "title": "停止中のEC2にALBのヘルスチェックが通ってしまった話　〜IPモードとインスタンスIDモードの違い〜",
@@ -64,21 +71,21 @@
           "source": "AWS News Blog（英語）",
           "published": "2026-06-29T16:30:30",
           "excerpt": "AWS Summit サーキットは大変な忙しさでした。ニューヨーク市サミットで、私は「AWS サーバーレスを使用した AI アーキテクチャの構築」というワークショップを行いました。…"
-        },
-        {
-          "title": "ALBのアクセスログをS3に出すには、権限と“作る順番”が大事だった話",
-          "link": "https://qiita.com/80-cloud/items/3abaffafc99b1aa53d5c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-29T15:49:13",
-          "excerpt": "はじめに ALB（ロードバランサー）のアクセスログを S3 に保存したくて、Terraform で設定しました。aws_lb に access_logs を1ブロック足すだけ、と思っていました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。はじめに 2026年4月7日にAnthropicが「gated research preview」として公開した Claude Mythos Preview が、いよいよ Claude CodeとClaude Securityへの統合準備段…",
+      "summary": "セキュリティの新着が12件。[アップデート] Amazon Cognito ユーザープールの保管時の暗号化にカスタマーマネージドキーを使用できるようになっていました",
       "articles": [
+        {
+          "title": "[アップデート] Amazon Cognito ユーザープールの保管時の暗号化にカスタマーマネージドキーを使用できるようになっていました",
+          "link": "https://dev.classmethod.jp/articles/amazon-cognito-customer-managed-key/",
+          "source": "DevelopersIO",
+          "published": "2026-06-29T21:24:49",
+          "excerpt": "[アップデート] Amazon Cognito ユーザープールの保管時の暗号化にカスタマーマネージドキーを使用できるようになっていました"
+        },
         {
           "title": "Claude Mythos 1入門 — AWS BedrockとClaude Codeで使うフロンティアセキュリティAI",
           "link": "https://qiita.com/kai_kou/items/392f9353d4bb73b56ee5",
@@ -99,13 +106,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-06-29T10:00:00",
           "excerpt": "はじめに サーバーワークスの池田です。今週（6/22〜6/28）の Claude Code は v2.1.186 から v2.1.195 まで6バージョンがリリースされました（v2.1.188・189・192・194 はスキップ）。…"
-        },
-        {
-          "title": "【Security Hub修復手順】[Cognito.3] Cognitoユーザープールのパスワードポリシーには強力な設定が必要です",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-cognito-3/",
-          "source": "DevelopersIO",
-          "published": "2026-06-29T06:32:41",
-          "excerpt": "AWS Security Hub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
         }
       ]
     },
@@ -175,32 +175,32 @@
   ],
   "uncategorized": [
     {
+      "title": "韓国、メモリチップの増産と人型ロボットに1兆ドルを投じる",
+      "link": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-06-29T21:09:43",
+      "excerpt": "韓国は2028年までに物理AIリードと商用ヒューマノイドロボットの開発を目標としている。"
+    },
+    {
+      "title": "Chamath Palihapitiya 氏が AI コーディングのスタートアップ企業にシリーズ A で 1 億 3,500 万ドルを調達、CEO に就任",
+      "link": "https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-29T20:55:50",
+      "excerpt": "VCは依然としてAIコーディングのスタートアップへの資金提供に飢えている。投資家のチャマス・パリハピティヤ氏によって設立されたこの会社も例外ではありません。"
+    },
+    {
+      "title": "匿名の研究者がゼロデイの「exploitarium」リポジトリを削除",
+      "link": "https://www.theregister.com/security/2026/06/29/anonymous-researcher-drops-0-day-exploitarium-repo/5263961",
+      "source": "The Register（英語）",
+      "published": "2026-06-29T20:29:35",
+      "excerpt": "少なくとも 2 つの脆弱性がすでに攻撃を受けています"
+    },
+    {
       "title": "米国の再生可能エネルギーブームが4月に重要なマイルストーンを通過",
       "link": "https://arstechnica.com/science/2026/06/solar-outproduced-coal-in-april-but-not-on-the-grid/",
       "source": "Ars Technica（英語）",
       "published": "2026-06-29T20:12:30",
       "excerpt": "小規模太陽光発電は、米国の送電網における再生可能エネルギーによる石炭発電量をほぼ 3 倍に増加させました。"
-    },
-    {
-      "title": "政府によるジオフェンス令状の使用を無効にする最高裁判所の判決",
-      "link": "https://arstechnica.com/tech-policy/2026/06/supreme-court-ruling-guts-governments-use-of-geofence-warrants/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-06-29T20:04:04",
-      "excerpt": "ただし、SCOTUSはジオフェンス令状を違憲とみなすには至っていない。"
-    },
-    {
-      "title": "“WSUS廃止”って、本当はどういうこと？　「もう使えない」の誤解を正す",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/30/news022.html",
-      "source": "@IT",
-      "published": "2026-06-29T20:00:00",
-      "excerpt": "2024年9月、MicrosoftはWindows Server Update Services（WSUS）の非推奨化（廃止）を発表しました。「非推奨」と聞いて「もう使えなくなるのでは」と不安を抱いた人もいるのではないでしょうか。…"
-    },
-    {
-      "title": "「AI一辺倒の極論」がビジネスで通用しない理由　開発・運用の自律化時代に押さえておくべき本質",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/30/news018.html",
-      "source": "@IT",
-      "published": "2026-06-29T20:00:00",
-      "excerpt": "一部のビジネスメディアやSNSで「今からIT人材を目指すのは良くない」「AIに全て任せるべき」という議論をよく目にする。最前線の実務者はこうした議論をどう見ているのか。…"
     }
   ]
 }
