@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-29T12:56:02",
+  "generated_at": "2026-06-29T16:33:38",
   "window_hours": 24,
-  "total": 191,
+  "total": 193,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が39件。非エンジニアの私がClaudeに聞いてみた 「Claudeの強みと弱み」",
+      "summary": "生成AIの新着が37件。AWS Summit サーキットは大変な忙しさでした。ニューヨーク市サミットで、私は「AWS サーバーレスを使用した AI アーキテクチャの構築」というワークショップを行いました。…",
       "articles": [
+        {
+          "title": "AWS ウィークリーラウンドアップ、Amazon Connect 顧客向け Agentic CX デザイナー、EC2 AMI ウォーターマーク、MySQL 向けオープンガバナンスなど (2026 年 6 月 29 日)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentic-cx-designer-for-amazon-connect-customer-ec2-ami-watermarks-open-governance-for-mysql-and-more-june-29-2026/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-06-29T16:30:30",
+          "excerpt": "AWS Summit サーキットは大変な忙しさでした。ニューヨーク市サミットで、私は「AWS サーバーレスを使用した AI アーキテクチャの構築」というワークショップを行いました。…"
+        },
+        {
+          "title": "Claude Mythos 1入門 — AWS BedrockとClaude Codeで使うフロンティアセキュリティAI",
+          "link": "https://qiita.com/kai_kou/items/392f9353d4bb73b56ee5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-29T15:31:34",
+          "excerpt": "はじめに 2026年4月7日にAnthropicが「gated research preview」として公開した Claude Mythos Preview が、いよいよ Claude CodeとClaude Securityへの統合準備段…"
+        },
         {
           "title": "非エンジニアの私がClaudeに聞いてみた　「Claudeの強みと弱み」",
           "link": "https://dev.classmethod.jp/articles/20260629_claude_charactor/",
@@ -22,63 +36,63 @@
           "source": "企業テックブログまとめ",
           "published": "2026-06-29T10:00:00",
           "excerpt": "はじめに サーバーワークスの池田です。今週（6/22〜6/28）の Claude Code は v2.1.186 から v2.1.195 まで6バージョンがリリースされました（v2.1.188・189・192・194 はスキップ）。…"
-        },
-        {
-          "title": "Claude Code と Playwright MCP を用いたE2Eテスト自動化スキルの構築 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-          "link": "https://recruit.group.gmo/engineer/jisedai/blog/claude-code-playwright-e2e-test-automation/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-29T09:14:04",
-          "excerpt": "次世代システム研究室のY.Yです。Claude Code を使うようになり、機能改善やバグ修正の実装そのものは短い時間で進められるようになりました。…"
-        },
-        {
-          "title": "[AWS]保育園連絡帳記入エージェントを作ってみた ~AgentCore Managed Harness~",
-          "link": "https://qiita.com/kikuziro/items/b6c9c7f01f8be65b5359",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-29T08:46:07",
-          "excerpt": "この記事のTL;DR 保育園の連絡帳アプリで、毎朝AIが自動で下書きしてくれる仕組みを作りました ただしAIが書くのはあくまで下書きだけ。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。Amazon Quickの従来のQ A機能「Topics」で蓄積したビジネスメタデータを、最新の「Dataset Q A」へ自動移行するPythonスクリプトと手順を紹介します。…",
+      "summary": "クラウドの新着が12件。AWS Summit サーキットは大変な忙しさでした。ニューヨーク市サミットで、私は「AWS サーバーレスを使用した AI アーキテクチャの構築」というワークショップを行いました。…",
       "articles": [
+        {
+          "title": "AWS ウィークリーラウンドアップ、Amazon Connect 顧客向け Agentic CX デザイナー、EC2 AMI ウォーターマーク、MySQL 向けオープンガバナンスなど (2026 年 6 月 29 日)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentic-cx-designer-for-amazon-connect-customer-ec2-ami-watermarks-open-governance-for-mysql-and-more-june-29-2026/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-06-29T16:30:30",
+          "excerpt": "AWS Summit サーキットは大変な忙しさでした。ニューヨーク市サミットで、私は「AWS サーバーレスを使用した AI アーキテクチャの構築」というワークショップを行いました。…"
+        },
+        {
+          "title": "ALBのアクセスログをS3に出すには、権限と“作る順番”が大事だった話",
+          "link": "https://qiita.com/80-cloud/items/3abaffafc99b1aa53d5c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-29T15:49:13",
+          "excerpt": "はじめに ALB（ロードバランサー）のアクセスログを S3 に保存したくて、Terraform で設定しました。aws_lb に access_logs を1ブロック足すだけ、と思っていました。…"
+        },
+        {
+          "title": "【セッションレポート】 Amazon ECS Managed Instances と AWS Fargate の仕組みと違いを知る[CNS348]",
+          "link": "https://dev.classmethod.jp/articles/aws-summit-japna-2026-ecs-managed-instance-fargate/",
+          "source": "DevelopersIO",
+          "published": "2026-06-29T14:41:33",
+          "excerpt": "【セッションレポート】 Amazon ECS Managed Instances と AWS Fargate の仕組みと違いを知る[CNS348]"
+        },
         {
           "title": "Amazon Quick の Topics から Dataset Q&A へメタデータの移行ガイドが公開されたので試してみました",
           "link": "https://dev.classmethod.jp/articles/20260629-amazon-quick-topic-to-dataset/",
           "source": "DevelopersIO",
           "published": "2026-06-29T10:46:59",
           "excerpt": "Amazon Quickの従来のQ A機能「Topics」で蓄積したビジネスメタデータを、最新の「Dataset Q A」へ自動移行するPythonスクリプトと手順を紹介します。…"
-        },
-        {
-          "title": "เปลี่ยนระบบเก่า AI と AWS の移行とモダナイゼーション",
-          "link": "https://dev.classmethod.jp/articles/From-tech-debt-to-competitive-advantage/",
-          "source": "DevelopersIO",
-          "published": "2026-06-29T09:00:00",
-          "excerpt": "セッション: 技術的負債から競争上の優位性へ: AWS による移行と最新化 Migration & Modernization AWS サミット バンコク 2026"
-        },
-        {
-          "title": "Amazon MSK、運用・移行ガイド提供のAIエージェントスキルを一般公開",
-          "link": "https://codezine.jp/article/detail/24702",
-          "source": "CodeZine",
-          "published": "2026-06-29T08:00:00",
-          "excerpt": "Amazon MSK、運用・移行ガイド提供のAIエージェントスキルを一般公開"
-        },
-        {
-          "title": "ECS ネイティブ Blue/Green の lifecycle hook で本番前にスモークテストする",
-          "link": "https://zenn.dev/lincwell_inc/articles/d7d6e7f62bb3b5",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-29T06:28:12",
-          "excerpt": "認証 API（Rust / Actix-web）のデプロイを、Amazon ECS ネイティブの Blue/Green デプロイ機能で構成しました。その仕組みをまとめます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。はじめに サーバーワークスの池田です。今週（6/22〜6/28）の Claude Code は v2.1.186 から v2.1.195 まで6バージョンがリリースされました（v2.1.188・189・192・194 はスキップ）。…",
+      "summary": "セキュリティの新着が12件。はじめに 2026年4月7日にAnthropicが「gated research preview」として公開した Claude Mythos Preview が、いよいよ Claude CodeとClaude Securityへの統合準備段…",
       "articles": [
+        {
+          "title": "Claude Mythos 1入門 — AWS BedrockとClaude Codeで使うフロンティアセキュリティAI",
+          "link": "https://qiita.com/kai_kou/items/392f9353d4bb73b56ee5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-29T15:31:34",
+          "excerpt": "はじめに 2026年4月7日にAnthropicが「gated research preview」として公開した Claude Mythos Preview が、いよいよ Claude CodeとClaude Securityへの統合準備段…"
+        },
+        {
+          "title": "AWSを経験してからAzureを触り始めて感じたこと 〜CIAM編〜",
+          "link": "https://qiita.com/takumiida1/items/9dcb2a39168285efb3c2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-29T14:24:27",
+          "excerpt": "Summary 2025年前半時点ではAmazon Cognitoに慣れた開発者がEntra External IDのExternalテナントを触ったときに躓くポイントが多数存在したが、2025年後半〜2026年にかけて外部OIDC連携のG…"
+        },
         {
           "title": "Claude Code更新 MCP認証コマンド・bash自動応答【6/22〜28】 | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/2026/06/29/190000",
@@ -92,20 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-06-29T06:32:41",
           "excerpt": "AWS Security Hub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
-        },
-        {
-          "title": "Microsoft Sentinel に AWS Security Hub CSPM の Findings を転送してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-security-hub-cspm-findings-to-microsoft-sentinel/",
-          "source": "DevelopersIO",
-          "published": "2026-06-29T05:16:17",
-          "excerpt": "Microsoft Sentinel に AWS Security Hub CSPM の Findings を転送してみた"
-        },
-        {
-          "title": "AWS WAF Classic コンソールにアクセスする方法を教えてください",
-          "link": "https://dev.classmethod.jp/articles/tsnote-waf-classic-console-access-method/",
-          "source": "DevelopersIO",
-          "published": "2026-06-29T01:54:28",
-          "excerpt": "AWS WAF Classic コンソールにアクセスする方法を教えてください"
         }
       ]
     },
@@ -133,7 +133,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。はじめに 数年前、AWS の知見を持つ人がほとんどいない職場で、DX 化を進めるプロジェクトに携わる機会がありました。その中で「AWSって結局どれくらい料金がかかるのか?」という質問を聞かれました。…",
+      "summary": "開発ツールの新着が8件。はじめに 数年前、AWS の知見を持つ人がほとんどいない職場で、DX 化を進めるプロジェクトに携わる機会がありました。その中で「AWSって結局どれくらい料金がかかるのか?」という質問を聞かれました。…",
       "articles": [
         {
           "title": "【個人開発】CloudFormation設計中にAWS料金の月額目安を試算できるようにした話",
@@ -168,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "今日からAWS Kiro君はRHELの頼もしいアドバイザー",
-      "link": "https://qiita.com/duelist2020jp/items/6f42828bc5a4043309e3",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-29T12:50:20",
-      "excerpt": "はじめに 私はプライベートなPCでインフラ基盤にAWSサービスを利用したAIアプリ開発を行う場合、AIコーディングエージェントにはAWS Kiroを使用しています。…"
+      "title": "TIDAL、収益化を遮断してAI音楽を取り締まる",
+      "link": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-29T16:29:04",
+      "excerpt": "TIDAL の新しいポリシーにより、AI が生成した音楽がサービスで収益を得ることができなくなります。"
     },
     {
-      "title": "3COINSから新ガジェット、スマホ写真を直接プリントできる「フォトプリンター」発売へ",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/29/news126.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-06-29T12:10:00",
-      "excerpt": "3COINSを展開するパルグループホールディングスが、スマホの写真をアプリで印刷する「フォトプリンター」を発売する。シールやマグネット、布や肌への転写にも対応し、価格は1万4300円。…"
+      "title": "欧州の ISP、オーバーブロッキングによる損害について権利者に責任を求める",
+      "link": "https://torrentfreak.com/european-isps-want-rightsholders-held-accountable-for-overblocking-damage/",
+      "source": "Hacker News（英語）",
+      "published": "2026-06-29T16:07:15",
+      "excerpt": "記事の URL: https://torrentfreak.…"
     },
     {
-      "title": "AWS Summit Japan 2026 に行ってきました | PLAY DEVELOPERS BLOG",
-      "link": "https://developers.play.jp/entry/2026/06/29/210144",
-      "source": "企業テックブログまとめ",
-      "published": "2026-06-29T12:01:44",
-      "excerpt": "技術推進グループの杉嵜です。AWS Summit Japan 2026 は、6 月 25・26 日の 2 日間にわたって開催されました。…"
+      "title": "プライバシーに関する大勝で、最高裁判所はジオフェンスの令状はプライバシー権によって保護されるとの判決を下した",
+      "link": "https://techcrunch.com/2026/06/29/in-major-privacy-win-supreme-court-rules-geofence-warrants-are-protected-by-privacy-rights/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-29T16:05:23",
+      "excerpt": "ジオフェンス令状を制限するという最高裁判所の決定は、その使用を違憲としながらも完全な禁止を求めていたプライバシー擁護派にとって勝利となった。"
     },
     {
-      "title": "[データ事業本部] SIerから転職したデータエンジニアの、最初の100日と働き方を紹介します",
-      "link": "https://dev.classmethod.jp/articles/sier-to-data-engineer-first-100-days/",
-      "source": "DevelopersIO",
-      "published": "2026-06-29T12:01:03",
-      "excerpt": "SIerから転職してデータエンジニアになり4ヶ月。入社後にどんな仕事をして、どんな働き方をしているかを、最初の100日の流れに沿って紹介します。SIerからデータの世界に移ろうか迷っている方の参考になればと思います。"
+      "title": "オーストリアのF1: 最初はエキサイティングだが、その後は逆方向へ",
+      "link": "https://arstechnica.com/cars/2026/06/f1-in-austria-starts-off-exciting-then-does-the-opposite/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-06-29T16:04:52",
+      "excerpt": "熱波、エンジンのアップグレード、さらに今後 2 シーズンのパワー レベル。"
     }
   ]
 }
