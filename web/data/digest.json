@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-30T10:23:44",
+  "generated_at": "2026-06-30T12:28:07",
   "window_hours": 24,
-  "total": 223,
+  "total": 236,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。3秒まとめClaude Code をサブスクプランで使っていると「今どれくらい使った？」「このまま使うと追加課金される？…",
+      "summary": "生成AIの新着が38件。Amazon Bedrock Workshopで、Bedrockの主要機能のハンズオンを試してみた。…",
       "articles": [
+        {
+          "title": "Amazon Bedrock WorkshopでBedrockの基本機能の確認",
+          "link": "https://qiita.com/Mikeinu/items/a412134259e588239da0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-30T11:54:31",
+          "excerpt": "Amazon Bedrock Workshopで、Bedrockの主要機能のハンズオンを試してみた。…"
+        },
+        {
+          "title": "【非エンジニアのためのClaude/Claude Codeシリーズ】なぜClaudeにはChat・Cowork・Codeの3つがあるの？誕生の歴史から学ぶ！",
+          "link": "https://dev.classmethod.jp/articles/claude-history/",
+          "source": "DevelopersIO",
+          "published": "2026-06-30T11:34:00",
+          "excerpt": "Claudeの「Chat・Cowork・Code」って何が違うの？その疑問、Claudeの歴史を辿ればスッキリ理解できます。2023年のチャットAI登場から現在まで、なぜこんな機能構成になったのか、時系列で整理してみました。"
+        },
         {
           "title": "Claude Code のサブスク使用状況を VSCode で“常時可視化”する拡張機能を作った | 株式会社マインディア テックブログのフィード",
           "link": "https://zenn.dev/minedia/articles/17a07dc1ce4f12",
@@ -22,28 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-06-30T09:45:32",
           "excerpt": "[SageMaker.12] SageMaker モデルバイアスジョブ定義では、ネットワーク分離を有効にする必要があります"
-        },
-        {
-          "title": "AIエージェントを駆使し、E2EとQAの自動化を目指している話 #gamewith #techwith | GameWith Developer Blog",
-          "link": "https://tech.gamewith.co.jp/entry/2026/06/30/182623",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-30T09:26:23",
-          "excerpt": "サービス開発部のdanaです。弊社では全社員がClaudeCodeを利用して業務効率化を目指しています。そのためエンジニアもClaudeCodeを用いる事が多いですが、引き続きCursorやCodexも使われています。…"
-        },
-        {
-          "title": "仮想通貨取引所 OKX は AI エージェントを雇い、相互に報酬を支払うことを望んでいる",
-          "link": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-06-30T09:00:00",
-          "excerpt": "OKX は、支払い、アイデンティティ、評判を AI エージェントのマーケットプレイスに統合しています。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。IP分散型ボットによるスパイクで5xxが13分間発生しました。WAFログからJA4フィンガープリントの一致を発見し、JA4集約キーのRate-basedルールで再発防止しています。調査手順とルール設計の判断過程を記録します。",
+      "summary": "クラウドの新着が22件。はじめに VPC Latticeという名前は何度も目にしていたのですが、正直「EKSとかECSとか、コンテナと一緒に使うやつ」というイメージをずっと持っていました。…",
       "articles": [
+        {
+          "title": "VPC Lattice、コンテナだけじゃなくてVPCの設計悩みを丸っと解決してくれるやつだった！！",
+          "link": "https://qiita.com/ec2_on_aws/items/e9843968dee658d83d2b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-30T12:17:41",
+          "excerpt": "はじめに VPC Latticeという名前は何度も目にしていたのですが、正直「EKSとかECSとか、コンテナと一緒に使うやつ」というイメージをずっと持っていました。…"
+        },
         {
           "title": "IP分散型ボットで13分間の5xxが発生したため、WAFのJA4 Rate-basedルールとECSオートスケール高速化で対処してみた",
           "link": "https://dev.classmethod.jp/articles/aws-waf-ja4-rate-based-rule-bot-mitigation/",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-06-30T08:17:02",
           "excerpt": "Cloud One Workload Securityのサポート終了に備えてVision One Endpoint Securityへ移行しよう（PAYG対応）"
-        },
-        {
-          "title": "EventBridge + Firehose で CloudTrail ログを S3 に 1 行 1 イベントで保存する",
-          "link": "https://qiita.com/hijiri0404/items/020987631355a0a92da1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-30T05:03:28",
-          "excerpt": "EventBridge + Firehose で CloudTrail ログを S3 に 1 行 1 イベントで保存する 背景と課題 前の記事 では CloudTrail → CloudWatch Logs → Firehose → S3…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。IP分散型ボットによるスパイクで5xxが13分間発生しました。WAFログからJA4フィンガープリントの一致を発見し、JA4集約キーのRate-basedルールで再発防止しています。調査手順とルール設計の判断過程を記録します。",
+      "summary": "セキュリティの新着が18件。IP分散型ボットによるスパイクで5xxが13分間発生しました。WAFログからJA4フィンガープリントの一致を発見し、JA4集約キーのRate-basedルールで再発防止しています。調査手順とルール設計の判断過程を記録します。",
       "articles": [
         {
           "title": "IP分散型ボットで13分間の5xxが発生したため、WAFのJA4 Rate-basedルールとECSオートスケール高速化で対処してみた",
@@ -101,19 +101,26 @@
           "excerpt": "Cloud One Workload Securityのサポート終了に備えてVision One Endpoint Securityへ移行しよう（PAYG対応）"
         },
         {
-          "title": "アフラックに不正アクセス、約438万人分の個人情報漏えい　口座情報23万件も",
-          "link": "https://www.itmedia.co.jp/news/articles/2606/30/news133.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-06-30T05:34:00",
-          "excerpt": "アフラック生命保険は6月30日、顧客専用サイト「アフラック よりそうネット」などへの第三者による不正アクセスで、約438万人分の顧客個人情報が漏えいしたと発表した。うち約23万人分には保険料振替口座の情報も含まれる。"
+          "title": "単一アカウント内での IAM Role の利用",
+          "link": "https://zenn.dev/megazone_jp/articles/55e523283897dc",
+          "source": "Zenn AWSトピック",
+          "published": "2026-06-30T05:41:32",
+          "excerpt": "AWS を利用する際、アプリケーションやサーバー、バッチ処理、CI/CD などのワークロードに AWS の権限を渡したい場面は多くあります。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。AWS DMS で MySQL の DATETIME / TIMESTAMP 型を Redshift の TIMESTAMPTZ 型へ移行するにはどうしたらいいですか",
+      "summary": "データ分析の新着が4件。Cross-cloud Lakehouse for AWS Glue を使って BigQuery から Iceberg テーブルを直接参照してみた",
       "articles": [
+        {
+          "title": "Cross-cloud Lakehouse for AWS Glue を使って BigQuery から Iceberg テーブルを直接参照してみた",
+          "link": "https://dev.classmethod.jp/articles/bigquery-glue-federation-try/",
+          "source": "DevelopersIO",
+          "published": "2026-06-30T11:32:54",
+          "excerpt": "Cross-cloud Lakehouse for AWS Glue を使って BigQuery から Iceberg テーブルを直接参照してみた"
+        },
         {
           "title": "AWS DMS で MySQL の DATETIME / TIMESTAMP 型を Redshift の TIMESTAMPTZ 型へ移行するにはどうしたらいいですか",
           "link": "https://dev.classmethod.jp/articles/tsnote-dms-mysql-redshift-timestamptz-timeformat-auto/",
@@ -140,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。Kiro Web は、既存の GitHub サポートに加えて、GitLab でも動作するようになりました。より興味深いのは、コードが GitLab と GitHub の両方にまたがって存在する場合に何が起きるかです。…",
+      "summary": "開発ツールの新着が9件。はじめに CloudFormation のテンプレートを deploy したら、ターミナルがこの2行で止まりました。Waiting for changeset to be created..…",
       "articles": [
+        {
+          "title": "CloudFormation の deploy が固まった？と思ったら、待つだけだった話",
+          "link": "https://qiita.com/80-cloud/items/8b05fd8bc625d7185580",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-30T12:12:21",
+          "excerpt": "はじめに CloudFormation のテンプレートを deploy したら、ターミナルがこの2行で止まりました。Waiting for changeset to be created..…"
+        },
+        {
+          "title": "GitHub ActionsとNotebookLMで実現する、AIを活用したドキュメント運用基盤の構築 | PLAY DEVELOPERS BLOG",
+          "link": "https://developers.play.jp/entry/2026/06/30/192210",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-30T10:22:10",
+          "excerpt": "1.はじめに 2.昨年度下期の活動とNotebookLMの活用について 3.GitHubからNotebookLMへの連携の全体像 4.Geminiでの活用方法と利用時の注意点 5.Googleドライブの自動同期対応について 6.…"
+        },
         {
           "title": "1 つのタスク、2 つのプロバイダー(GitLab と GitHub) をまたぐ変更を 1 セッションで調整する",
           "link": "https://aws.amazon.com/jp/blogs/news/coordinating-changes-across-gitlab-and-github-in-one-session/",
@@ -155,52 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-30T03:50:52",
           "excerpt": "はじめに Docker Composeを使うと、ローカル環境で簡単にコンテナを起動・管理できます。一方、本番環境では、以下のような要件が出てきます。…"
-        },
-        {
-          "title": "GitHub Actions 認証情報ごとのリスクから読み解く、権限昇格パターンとその対策 - GMO Flatt Security Blog",
-          "link": "https://blog.flatt.tech/entry/2026-github-actions-security-part2",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-06-30T02:23:57",
-          "excerpt": "はじめに こんにちは。GMO Flatt Security株式会社 セキュリティエンジニアの佐藤(@Nick_nick310)です。本シリーズの前回記事では、GitHub Actionsに対する初期アクセスの手法と対策を解説しました。…"
-        },
-        {
-          "title": "「本番データベースが消えた」だけじゃない、AIコーディングエージェントがやらかした暴走“6選”",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/30/news078.html",
-          "source": "@IT",
-          "published": "2026-06-29T23:30:00",
-          "excerpt": "Dockerは公式ブログで、ソフトウェア開発の現場に浸透し始めているAIコーディングエージェントがもたらす深刻なセキュリティリスクを取り上げた。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS SysOpsに関する知識をまとめたい (信頼性・ビジネス継続性 後編)",
-      "link": "https://qiita.com/TadahikoIto/items/3f66627256a12ecf8f03",
-      "source": "Qiita AWSタグ",
-      "published": "2026-06-30T10:05:29",
-      "excerpt": "はじめに こちらの記事では、前回の記事を引き続き信頼性・ビジネス継続性を高めるための各種AWSサービスを見ていきます！…"
+      "title": "元マイクロソフトのエンジニアがメモ帳を小型化",
+      "link": "https://www.theregister.com/os-platforms/2026/06/30/former-microsoft-engineer-shrinks-notepad-down-to-size/5264319",
+      "source": "The Register（英語）",
+      "published": "2026-06-30T12:14:00",
+      "excerpt": "ベテランのテキストエディタの数年と肥大化を巻き戻す"
     },
     {
-      "title": "ログに乗ってくる情報が薄い Redash の操作ログ監査を、Redash 内部 DB から補って成立させる | MNTSQ Techブログ",
-      "link": "https://tech.mntsq.co.jp/entry/2026/06/30/183145",
-      "source": "企業テックブログまとめ",
-      "published": "2026-06-30T09:31:45",
-      "excerpt": "はじめに 実態調査 課題感 改善 1.Redash 内部 DB から events を吸い出して Athena に載せる 考慮箇所 2.…"
-    },
-    {
-      "title": "MediaLiveでSingle classのSRT Listener inputが作成できないことを確認してみた",
-      "link": "https://dev.classmethod.jp/articles/aws-elemental-medialive-srt-listener-input-try-single-class-202606/",
-      "source": "DevelopersIO",
-      "published": "2026-06-30T09:29:59",
-      "excerpt": "Single classのSRT ListenerなInputの作成をAWS CLIから試みましたが、現段階で実現は難しそうです。…"
-    },
-    {
-      "title": "アンタレス、Mark-0原子炉の臨界達成",
-      "link": "https://antaresindustries.com/updates/antares-achieves-criticality",
+      "title": "アメリカ人のプライド、過去25年間で最低水準に低下",
+      "link": "https://news.gallup.com/poll/711938/american-pride-falls-year-record-low.aspx",
       "source": "Hacker News（英語）",
-      "published": "2026-06-30T09:15:21",
-      "excerpt": "記事の URL: https://antaresindustries.com/updates/antares-achieves-criticality コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-06-30T11:30:56",
+      "excerpt": "記事の URL: https://news.gallup.com/poll/711938/american-pride-falls-year-record-low.aspx コメント URL: https://news.…"
+    },
+    {
+      "title": "意志がある場合、AI にはまだやるべき仕事がある",
+      "link": "https://www.theregister.com/ai-and-ml/2026/06/30/where-theres-a-will-ai-still-has-work-to-do/5264033",
+      "source": "The Register（英語）",
+      "published": "2026-06-30T11:30:00",
+      "excerpt": "検認弁護士は、作成された文書には一部分があったものの、重要な質問の多くが抜け落ちていたことを発見"
+    },
+    {
+      "title": "【ブースレポート】AWS と NVIDIA による自動運転 / ADAS 向けワークロードの展示を訪問してきた #AWSSummit",
+      "link": "https://dev.classmethod.jp/articles/aws-summit-2026-autonomous-driving-adas-nvidia/",
+      "source": "DevelopersIO",
+      "published": "2026-06-30T11:15:02",
+      "excerpt": "AWS Summit Japan 2026 で AWS × NVIDIA × 自動運転 のソリューションを見てきた。"
     }
   ]
 }
