@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-06-30T12:28:07",
+  "generated_at": "2026-06-30T15:08:24",
   "window_hours": 24,
-  "total": 236,
+  "total": 248,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が38件。Amazon Bedrock Workshopで、Bedrockの主要機能のハンズオンを試してみた。…",
+      "summary": "生成AIの新着が45件。新しいチームのエンジニアは企業内に組み込まれ、迅速な導入と顧客の自給自足に重点を置き、専用のエージェントを導入します。",
       "articles": [
         {
-          "title": "Amazon Bedrock WorkshopでBedrockの基本機能の確認",
-          "link": "https://qiita.com/Mikeinu/items/a412134259e588239da0",
+          "title": "Amazon、OpenAIとAnthropicに続き、新たに10億ドル規模のFDE組織を立ち上げる",
+          "link": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-06-30T15:00:00",
+          "excerpt": "新しいチームのエンジニアは企業内に組み込まれ、迅速な導入と顧客の自給自足に重点を置き、専用のエージェントを導入します。"
+        },
+        {
+          "title": "Kiro IDE 1.0 がリリースされたので試してみた（Agent Focus, Permissions, Custom Agents, Hooks）",
+          "link": "https://qiita.com/k_adachi_01/items/0caeb4c712ea8997ef48",
           "source": "Qiita AWSタグ",
-          "published": "2026-06-30T11:54:31",
-          "excerpt": "Amazon Bedrock Workshopで、Bedrockの主要機能のハンズオンを試してみた。…"
+          "published": "2026-06-30T14:53:24",
+          "excerpt": "はじめに こんにちは、あだちです。Kiro IDE が Ver 1.0 にアップデートされたので、主要な機能を触りながら、何が変わったのか、これまでの Kiro らしさはどこに残っているのかを見ていきます。参照: Kiro IDE 1.…"
         },
         {
-          "title": "【非エンジニアのためのClaude/Claude Codeシリーズ】なぜClaudeにはChat・Cowork・Codeの3つがあるの？誕生の歴史から学ぶ！",
-          "link": "https://dev.classmethod.jp/articles/claude-history/",
+          "title": "AgentCore Runtime VPC モードのネットワーク要件まとめ",
+          "link": "https://dev.classmethod.jp/articles/agentcore-runtime-vpc-network-resources/",
           "source": "DevelopersIO",
-          "published": "2026-06-30T11:34:00",
-          "excerpt": "Claudeの「Chat・Cowork・Code」って何が違うの？その疑問、Claudeの歴史を辿ればスッキリ理解できます。2023年のチャットAI登場から現在まで、なぜこんな機能構成になったのか、時系列で整理してみました。"
+          "published": "2026-06-30T14:22:08",
+          "excerpt": "AgentCore Runtime を VPC モードで動かすには、インターネットアクセス経路や VPC エンドポイントなど、パブリックモードでは不要なネットワークリソースの設定が必要です。…"
         },
         {
-          "title": "Claude Code のサブスク使用状況を VSCode で“常時可視化”する拡張機能を作った | 株式会社マインディア テックブログのフィード",
-          "link": "https://zenn.dev/minedia/articles/17a07dc1ce4f12",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-30T10:10:05",
-          "excerpt": "3秒まとめClaude Code をサブスクプランで使っていると「今どれくらい使った？」「このまま使うと追加課金される？…"
-        },
-        {
-          "title": "[SageMaker.12] SageMaker モデルバイアスジョブ定義では、ネットワーク分離を有効にする必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-sagemaker-12/",
-          "source": "DevelopersIO",
-          "published": "2026-06-30T09:45:32",
-          "excerpt": "[SageMaker.12] SageMaker モデルバイアスジョブ定義では、ネットワーク分離を有効にする必要があります"
+          "title": "言葉は意識の副産物です。 LLM の場合、それは逆です",
+          "link": "https://ranpara.net/posts/words-are-a-byproduct-of-consciousness/",
+          "source": "Hacker News（英語）",
+          "published": "2026-06-30T14:16:57",
+          "excerpt": "記事の URL: https://ranpara.net/posts/words-are-a-byproduct-of-ciousness/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。はじめに VPC Latticeという名前は何度も目にしていたのですが、正直「EKSとかECSとか、コンテナと一緒に使うやつ」というイメージをずっと持っていました。…",
+      "summary": "クラウドの新着が22件。マイクロソフトは、WSL（Windows Subsystem for Linux）の新機能としてWindows上でLinuxコンテナが動く「WSL Containers」のパブリックプレビューを公開しました。WindowsにはWindow.…",
       "articles": [
+        {
+          "title": "Windows上でLinuxコンテナが動く「WSL Containers」がパブリックプレビュー。Windowsファイルへのアクセスが2倍高速に",
+          "link": "https://www.publickey1.jp/blog/26/windowslinuxwsl_containerswindows2.html",
+          "source": "Publickey",
+          "published": "2026-06-30T15:45:51",
+          "excerpt": "マイクロソフトは、WSL（Windows Subsystem for Linux）の新機能としてWindows上でLinuxコンテナが動く「WSL Containers」のパブリックプレビューを公開しました。WindowsにはWindow.…"
+        },
+        {
+          "title": "【初心者向け】オンプレミスとクラウドの違いって？「持ち家」と「賃貸マンション」に例えてざっくり解説",
+          "link": "https://qiita.com/chuandujiusi/items/baefd6cac4909d971942",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-30T15:07:44",
+          "excerpt": "IT業界に入ると、耳にタコができるほど聞く「オンプレミス」と「クラウド」という言葉。「クラウドはなんとなくインターネットの向こう側ってイメージだけど、オンプレミスって何？？」と思いませんか？…"
+        },
+        {
+          "title": "AgentCore Runtime VPC モードのネットワーク要件まとめ",
+          "link": "https://dev.classmethod.jp/articles/agentcore-runtime-vpc-network-resources/",
+          "source": "DevelopersIO",
+          "published": "2026-06-30T14:22:08",
+          "excerpt": "AgentCore Runtime を VPC モードで動かすには、インターネットアクセス経路や VPC エンドポイントなど、パブリックモードでは不要なネットワークリソースの設定が必要です。…"
+        },
         {
           "title": "VPC Lattice、コンテナだけじゃなくてVPCの設計悩みを丸っと解決してくれるやつだった！！",
           "link": "https://qiita.com/ec2_on_aws/items/e9843968dee658d83d2b",
           "source": "Qiita AWSタグ",
           "published": "2026-06-30T12:17:41",
           "excerpt": "はじめに VPC Latticeという名前は何度も目にしていたのですが、正直「EKSとかECSとか、コンテナと一緒に使うやつ」というイメージをずっと持っていました。…"
-        },
-        {
-          "title": "IP分散型ボットで13分間の5xxが発生したため、WAFのJA4 Rate-basedルールとECSオートスケール高速化で対処してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-waf-ja4-rate-based-rule-bot-mitigation/",
-          "source": "DevelopersIO",
-          "published": "2026-06-30T10:07:46",
-          "excerpt": "IP分散型ボットによるスパイクで5xxが13分間発生しました。WAFログからJA4フィンガープリントの一致を発見し、JA4集約キーのRate-basedルールで再発防止しています。調査手順とルール設計の判断過程を記録します。"
-        },
-        {
-          "title": "AWS DMS で MySQL の DATETIME / TIMESTAMP 型を Redshift の TIMESTAMPTZ 型へ移行するにはどうしたらいいですか",
-          "link": "https://dev.classmethod.jp/articles/tsnote-dms-mysql-redshift-timestamptz-timeformat-auto/",
-          "source": "DevelopersIO",
-          "published": "2026-06-30T09:19:09",
-          "excerpt": "AWS DMS で MySQL の DATETIME / TIMESTAMP 型を Redshift の TIMESTAMPTZ 型へ移行するにはどうしたらいいですか"
-        },
-        {
-          "title": "Cloud One Workload Securityのサポート終了に備えてVision One Endpoint Securityへ移行しよう（PAYG対応）",
-          "link": "https://dev.classmethod.jp/articles/202606-c1ws-eol-payg-migration-01/",
-          "source": "DevelopersIO",
-          "published": "2026-06-30T08:17:02",
-          "excerpt": "Cloud One Workload Securityのサポート終了に備えてVision One Endpoint Securityへ移行しよう（PAYG対応）"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。IP分散型ボットによるスパイクで5xxが13分間発生しました。WAFログからJA4フィンガープリントの一致を発見し、JA4集約キーのRate-basedルールで再発防止しています。調査手順とルール設計の判断過程を記録します。",
+      "summary": "セキュリティの新着が18件。はじめに クラウドネイティブ技術の普及は目覚ましく、2020年のCNCF調査では本番環境でのコンテナ使用率が92%に達し、Kubernetesの採用率も83%を超えています。…",
       "articles": [
+        {
+          "title": "【書評】 Cloud Native Security",
+          "link": "https://qiita.com/io0323/items/eb59451bdb1bec373bea",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-30T15:02:11",
+          "excerpt": "はじめに クラウドネイティブ技術の普及は目覚ましく、2020年のCNCF調査では本番環境でのコンテナ使用率が92%に達し、Kubernetesの採用率も83%を超えています。…"
+        },
         {
           "title": "IP分散型ボットで13分間の5xxが発生したため、WAFのJA4 Rate-basedルールとECSオートスケール高速化で対処してみた",
           "link": "https://dev.classmethod.jp/articles/aws-waf-ja4-rate-based-rule-bot-mitigation/",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-06-30T08:17:02",
           "excerpt": "Cloud One Workload Securityのサポート終了に備えてVision One Endpoint Securityへ移行しよう（PAYG対応）"
-        },
-        {
-          "title": "単一アカウント内での IAM Role の利用",
-          "link": "https://zenn.dev/megazone_jp/articles/55e523283897dc",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-30T05:41:32",
-          "excerpt": "AWS を利用する際、アプリケーションやサーバー、バッチ処理、CI/CD などのワークロードに AWS の権限を渡したい場面は多くあります。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "元マイクロソフトのエンジニアがメモ帳を小型化",
-      "link": "https://www.theregister.com/os-platforms/2026/06/30/former-microsoft-engineer-shrinks-notepad-down-to-size/5264319",
-      "source": "The Register（英語）",
-      "published": "2026-06-30T12:14:00",
-      "excerpt": "ベテランのテキストエディタの数年と肥大化を巻き戻す"
+      "title": "GoogleユーザーのIPv6利用率がついに50％超えたことが判明",
+      "link": "https://www.publickey1.jp/blog/26/googleipv650.html",
+      "source": "Publickey",
+      "published": "2026-06-30T15:51:42",
+      "excerpt": "Googleが提供しているサービスを利用するユーザーのうち、IPv6を使用している割合を示す「Google IPv6」のページで、IPv6の割合が今年（2026年）3月に50％を超えていたことが分かりました。公開されたグラフによると最初に.…"
     },
     {
-      "title": "アメリカ人のプライド、過去25年間で最低水準に低下",
-      "link": "https://news.gallup.com/poll/711938/american-pride-falls-year-record-low.aspx",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-30T11:30:56",
-      "excerpt": "記事の URL: https://news.gallup.com/poll/711938/american-pride-falls-year-record-low.aspx コメント URL: https://news.…"
+      "title": "Arcturus はナノ注入された銅を使用して送電網の電力損失を半減できる可能性がある",
+      "link": "https://techcrunch.com/2026/06/30/arcturus-could-halve-the-grids-electrical-losses-using-its-nano-infused-copper/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-30T15:01:42",
+      "excerpt": "ステルススタートアップ Arcturus は、レーザーを使用して銅にカーボン ナノマテリアルを注入し、電気を通す能力を劇的に向上させています。"
     },
     {
-      "title": "意志がある場合、AI にはまだやるべき仕事がある",
-      "link": "https://www.theregister.com/ai-and-ml/2026/06/30/where-theres-a-will-ai-still-has-work-to-do/5264033",
-      "source": "The Register（英語）",
-      "published": "2026-06-30T11:30:00",
-      "excerpt": "検認弁護士は、作成された文書には一部分があったものの、重要な質問の多くが抜け落ちていたことを発見"
-    },
-    {
-      "title": "【ブースレポート】AWS と NVIDIA による自動運転 / ADAS 向けワークロードの展示を訪問してきた #AWSSummit",
-      "link": "https://dev.classmethod.jp/articles/aws-summit-2026-autonomous-driving-adas-nvidia/",
+      "title": "TypeScript バックエンドで Axios を使ってみた",
+      "link": "https://dev.classmethod.jp/articles/shoma-trying-axios-with-typescript-backend/",
       "source": "DevelopersIO",
-      "published": "2026-06-30T11:15:02",
-      "excerpt": "AWS Summit Japan 2026 で AWS × NVIDIA × 自動運転 のソリューションを見てきた。"
+      "published": "2026-06-30T15:00:02",
+      "excerpt": "TypeScript バックエンドで Axios を使ってみた"
+    },
+    {
+      "title": "ポッドキャスティング プラットフォーム Riverside がニュースレター発行ゲームに参入",
+      "link": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-30T15:00:00",
+      "excerpt": "ユーザーは AI を使用して、録音に基づいてニュースレターを作成できるようになります。"
     }
   ]
 }
