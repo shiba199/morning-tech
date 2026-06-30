@@ -1,119 +1,126 @@
 {
-  "generated_at": "2026-06-30T06:36:34",
+  "generated_at": "2026-06-30T10:23:44",
   "window_hours": 24,
-  "total": 225,
+  "total": 223,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。こんにちは、クラウドエース株式会社のエンジニアの永井です。0.はじめにユーザーごとに 専用 RAG を用意したい — こういう要件は AI アプリ開発でよく出てきます。…",
+      "summary": "生成AIの新着が37件。3秒まとめClaude Code をサブスクプランで使っていると「今どれくらい使った？」「このまま使うと追加課金される？…",
       "articles": [
         {
-          "title": "Agent Search — 1 つの GCS で登録者ごとの専用 RAG を実現する owner_id 設計 | クラウドエース株式会社さんのフィード",
-          "link": "https://zenn.dev/cloud_ace_jp/articles/dddfb472329ef1",
+          "title": "Claude Code のサブスク使用状況を VSCode で“常時可視化”する拡張機能を作った | 株式会社マインディア テックブログのフィード",
+          "link": "https://zenn.dev/minedia/articles/17a07dc1ce4f12",
           "source": "企業テックブログまとめ",
-          "published": "2026-06-30T05:34:27",
-          "excerpt": "こんにちは、クラウドエース株式会社のエンジニアの永井です。0.はじめにユーザーごとに 専用 RAG を用意したい — こういう要件は AI アプリ開発でよく出てきます。…"
+          "published": "2026-06-30T10:10:05",
+          "excerpt": "3秒まとめClaude Code をサブスクプランで使っていると「今どれくらい使った？」「このまま使うと追加課金される？…"
         },
         {
-          "title": "AnthropicがMCPトンネルを導入、内部システムへのプライベート・エージェントアクセスのため",
-          "link": "https://www.infoq.com/jp/news/2026/06/claude-mcp-tunnels/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-06-30T05:30:00",
-          "excerpt": "AnthropicはClaude Managed Agentsプラットフォームを拡張し、二つのエンタープライズ向け機能：セルフホスト型サンドボックスとMCPトンネルを追加した。…"
-        },
-        {
-          "title": "Agent Focus の紹介",
-          "link": "https://aws.amazon.com/jp/blogs/news/introducing-agent-focus/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-06-30T05:23:26",
-          "excerpt": "開発者が AI と協働する方法は変わりつつあります。…"
-        },
-        {
-          "title": "AgentCore GatewayがAWS WAFをサポートしたのでレートベースルールとBot Controlを試してみた",
-          "link": "https://dev.classmethod.jp/articles/agentcore-gateway-waf-rate-limit-bot-control/",
+          "title": "[SageMaker.12] SageMaker モデルバイアスジョブ定義では、ネットワーク分離を有効にする必要があります",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-sagemaker-12/",
           "source": "DevelopersIO",
-          "published": "2026-06-30T04:10:46",
-          "excerpt": "AWS WAFがAmazon Bedrock AgentCore Gatewayをサポートしました。REGIONALウェブACLを関連付けることで、MCPエンドポイントに対してWAFの各種ルールを適用できます。…"
+          "published": "2026-06-30T09:45:32",
+          "excerpt": "[SageMaker.12] SageMaker モデルバイアスジョブ定義では、ネットワーク分離を有効にする必要があります"
+        },
+        {
+          "title": "AIエージェントを駆使し、E2EとQAの自動化を目指している話 #gamewith #techwith | GameWith Developer Blog",
+          "link": "https://tech.gamewith.co.jp/entry/2026/06/30/182623",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-30T09:26:23",
+          "excerpt": "サービス開発部のdanaです。弊社では全社員がClaudeCodeを利用して業務効率化を目指しています。そのためエンジニアもClaudeCodeを用いる事が多いですが、引き続きCursorやCodexも使われています。…"
+        },
+        {
+          "title": "仮想通貨取引所 OKX は AI エージェントを雇い、相互に報酬を支払うことを望んでいる",
+          "link": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-06-30T09:00:00",
+          "excerpt": "OKX は、支払い、アイデンティティ、評判を AI エージェントのマーケットプレイスに統合しています。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。EventBridge + Firehose で CloudTrail ログを S3 に 1 行 1 イベントで保存する 背景と課題 前の記事 では CloudTrail → CloudWatch Logs → Firehose → S3…",
+      "summary": "クラウドの新着が22件。IP分散型ボットによるスパイクで5xxが13分間発生しました。WAFログからJA4フィンガープリントの一致を発見し、JA4集約キーのRate-basedルールで再発防止しています。調査手順とルール設計の判断過程を記録します。",
       "articles": [
+        {
+          "title": "IP分散型ボットで13分間の5xxが発生したため、WAFのJA4 Rate-basedルールとECSオートスケール高速化で対処してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-waf-ja4-rate-based-rule-bot-mitigation/",
+          "source": "DevelopersIO",
+          "published": "2026-06-30T10:07:46",
+          "excerpt": "IP分散型ボットによるスパイクで5xxが13分間発生しました。WAFログからJA4フィンガープリントの一致を発見し、JA4集約キーのRate-basedルールで再発防止しています。調査手順とルール設計の判断過程を記録します。"
+        },
+        {
+          "title": "AWS DMS で MySQL の DATETIME / TIMESTAMP 型を Redshift の TIMESTAMPTZ 型へ移行するにはどうしたらいいですか",
+          "link": "https://dev.classmethod.jp/articles/tsnote-dms-mysql-redshift-timestamptz-timeformat-auto/",
+          "source": "DevelopersIO",
+          "published": "2026-06-30T09:19:09",
+          "excerpt": "AWS DMS で MySQL の DATETIME / TIMESTAMP 型を Redshift の TIMESTAMPTZ 型へ移行するにはどうしたらいいですか"
+        },
+        {
+          "title": "Cloud One Workload Securityのサポート終了に備えてVision One Endpoint Securityへ移行しよう（PAYG対応）",
+          "link": "https://dev.classmethod.jp/articles/202606-c1ws-eol-payg-migration-01/",
+          "source": "DevelopersIO",
+          "published": "2026-06-30T08:17:02",
+          "excerpt": "Cloud One Workload Securityのサポート終了に備えてVision One Endpoint Securityへ移行しよう（PAYG対応）"
+        },
         {
           "title": "EventBridge + Firehose で CloudTrail ログを S3 に 1 行 1 イベントで保存する",
           "link": "https://qiita.com/hijiri0404/items/020987631355a0a92da1",
           "source": "Qiita AWSタグ",
           "published": "2026-06-30T05:03:28",
           "excerpt": "EventBridge + Firehose で CloudTrail ログを S3 に 1 行 1 イベントで保存する 背景と課題 前の記事 では CloudTrail → CloudWatch Logs → Firehose → S3…"
-        },
-        {
-          "title": "Amazon CloudWatch、Amazon EKS向けOTel Container Insightsをリリース",
-          "link": "https://codezine.jp/article/detail/24710",
-          "source": "CodeZine",
-          "published": "2026-06-30T04:00:00",
-          "excerpt": "Amazon CloudWatch、Amazon EKS向けOTel Container Insightsをリリース"
-        },
-        {
-          "title": "Amazon ECS入門 - Nginxをデプロイして学ぶコンテナ運用の基本",
-          "link": "https://qiita.com/nanagi512/items/d833be471b426f04567c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-30T03:50:52",
-          "excerpt": "はじめに Docker Composeを使うと、ローカル環境で簡単にコンテナを起動・管理できます。一方、本番環境では、以下のような要件が出てきます。…"
-        },
-        {
-          "title": "Windows上でLinuxコンテナが直接動く「WSL container」パブリックプレビューリリース",
-          "link": "https://gihyo.jp/article/2026/06/wsl-container?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-06-30T03:07:00",
-          "excerpt": "Microsoftは2026年6月29日、Windows上で動くLinux環境であるWindows Subsystem for Linux（WSL）のプレリリース版で、Linuxコンテナ環境をWindowsに直接統合する「WSL conta…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。アフラック生命保険は6月30日、顧客専用サイト「アフラック よりそうネット」などへの第三者による不正アクセスで、約438万人分の顧客個人情報が漏えいしたと発表した。うち約23万人分には保険料振替口座の情報も含まれる。",
+      "summary": "セキュリティの新着が17件。IP分散型ボットによるスパイクで5xxが13分間発生しました。WAFログからJA4フィンガープリントの一致を発見し、JA4集約キーのRate-basedルールで再発防止しています。調査手順とルール設計の判断過程を記録します。",
       "articles": [
+        {
+          "title": "IP分散型ボットで13分間の5xxが発生したため、WAFのJA4 Rate-basedルールとECSオートスケール高速化で対処してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-waf-ja4-rate-based-rule-bot-mitigation/",
+          "source": "DevelopersIO",
+          "published": "2026-06-30T10:07:46",
+          "excerpt": "IP分散型ボットによるスパイクで5xxが13分間発生しました。WAFログからJA4フィンガープリントの一致を発見し、JA4集約キーのRate-basedルールで再発防止しています。調査手順とルール設計の判断過程を記録します。"
+        },
+        {
+          "title": "Kiroと要件を整理しながら、認証付きアニバーサリーサイトをAWSで構築してみた",
+          "link": "https://qiita.com/ss_IT_study/items/67d15d227c0cb7b27921",
+          "source": "Qiita AWSタグ",
+          "published": "2026-06-30T09:50:43",
+          "excerpt": "目次 #1.はじめに #2.環境 #3.要件定義 #4.システム構成 #5.環境構築と実際の画面 #6.おわりに 1.はじめに 何ヶ月か前の話かつ私事となりますが、先日子供が生まれました！…"
+        },
+        {
+          "title": "Cloud One Workload Securityのサポート終了に備えてVision One Endpoint Securityへ移行しよう（PAYG対応）",
+          "link": "https://dev.classmethod.jp/articles/202606-c1ws-eol-payg-migration-01/",
+          "source": "DevelopersIO",
+          "published": "2026-06-30T08:17:02",
+          "excerpt": "Cloud One Workload Securityのサポート終了に備えてVision One Endpoint Securityへ移行しよう（PAYG対応）"
+        },
         {
           "title": "アフラックに不正アクセス、約438万人分の個人情報漏えい　口座情報23万件も",
           "link": "https://www.itmedia.co.jp/news/articles/2606/30/news133.html",
           "source": "ITmedia NEWS",
           "published": "2026-06-30T05:34:00",
           "excerpt": "アフラック生命保険は6月30日、顧客専用サイト「アフラック よりそうネット」などへの第三者による不正アクセスで、約438万人分の顧客個人情報が漏えいしたと発表した。うち約23万人分には保険料振替口座の情報も含まれる。"
-        },
-        {
-          "title": "【Security Hub修復手順】[APIGateway.11] API Gateway ドメイン名は、推奨されるセキュリティポリシーを使用する必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-apigateway-11/",
-          "source": "DevelopersIO",
-          "published": "2026-06-30T04:40:23",
-          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
-        },
-        {
-          "title": "AgentCore GatewayがAWS WAFをサポートしたのでレートベースルールとBot Controlを試してみた",
-          "link": "https://dev.classmethod.jp/articles/agentcore-gateway-waf-rate-limit-bot-control/",
-          "source": "DevelopersIO",
-          "published": "2026-06-30T04:10:46",
-          "excerpt": "AWS WAFがAmazon Bedrock AgentCore Gatewayをサポートしました。REGIONALウェブACLを関連付けることで、MCPエンドポイントに対してWAFの各種ルールを適用できます。…"
-        },
-        {
-          "title": "「AIエージェントに認証情報を渡してはならない」　1PasswordがOpenAIと協業",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/30/news074.html",
-          "source": "@IT",
-          "published": "2026-06-30T04:00:00",
-          "excerpt": "1PasswordはOpenAIと協業し、コーディングエージェント「Codex」向けに「1Password Environments MCP Server」を提供開始した。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。Amazon OpenSearch Service、AI支援の移行機能を正式に提供開始",
+      "summary": "データ分析の新着が3件。AWS DMS で MySQL の DATETIME / TIMESTAMP 型を Redshift の TIMESTAMPTZ 型へ移行するにはどうしたらいいですか",
       "articles": [
+        {
+          "title": "AWS DMS で MySQL の DATETIME / TIMESTAMP 型を Redshift の TIMESTAMPTZ 型へ移行するにはどうしたらいいですか",
+          "link": "https://dev.classmethod.jp/articles/tsnote-dms-mysql-redshift-timestamptz-timeformat-auto/",
+          "source": "DevelopersIO",
+          "published": "2026-06-30T09:19:09",
+          "excerpt": "AWS DMS で MySQL の DATETIME / TIMESTAMP 型を Redshift の TIMESTAMPTZ 型へ移行するにはどうしたらいいですか"
+        },
         {
           "title": "Amazon OpenSearch Service、AI支援の移行機能を正式に提供開始",
           "link": "https://codezine.jp/article/detail/24706",
@@ -127,20 +134,13 @@
           "source": "The Register（英語）",
           "published": "2026-06-29T17:55:00",
           "excerpt": "中央銀行のための中央銀行、ハイパースケーラーの設備投資のむちゃぶりにドットコムマニアの影が見える"
-        },
-        {
-          "title": "Debian で Systemd を OpenRC に置き換える",
-          "link": "https://danielcordova.me/blog/debian-openrc/",
-          "source": "Hacker News（英語）",
-          "published": "2026-06-29T06:37:44",
-          "excerpt": "記事の URL: https://danielcordova.me/blog/debian-openrc/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。Kiro Web は、既存の GitHub サポートに加えて、GitLab でも動作するようになりました。より興味深いのは、コードが GitLab と GitHub の両方にまたがって存在する場合に何が起きるかです。…",
+      "summary": "開発ツールの新着が8件。Kiro Web は、既存の GitHub サポートに加えて、GitLab でも動作するようになりました。より興味深いのは、コードが GitLab と GitHub の両方にまたがって存在する場合に何が起きるかです。…",
       "articles": [
         {
           "title": "1 つのタスク、2 つのプロバイダー(GitLab と GitHub) をまたぐ変更を 1 セッションで調整する",
@@ -175,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "SQLの「前カンマ派」である私が視認性について考えてみた | 分析屋",
-      "link": "https://note.com/bunsekiya_tech/n/n5b1e9bfd89c8",
+      "title": "AWS SysOpsに関する知識をまとめたい (信頼性・ビジネス継続性 後編)",
+      "link": "https://qiita.com/TadahikoIto/items/3f66627256a12ecf8f03",
+      "source": "Qiita AWSタグ",
+      "published": "2026-06-30T10:05:29",
+      "excerpt": "はじめに こちらの記事では、前回の記事を引き続き信頼性・ビジネス継続性を高めるための各種AWSサービスを見ていきます！…"
+    },
+    {
+      "title": "ログに乗ってくる情報が薄い Redash の操作ログ監査を、Redash 内部 DB から補って成立させる | MNTSQ Techブログ",
+      "link": "https://tech.mntsq.co.jp/entry/2026/06/30/183145",
       "source": "企業テックブログまとめ",
-      "published": "2026-06-30T06:23:31",
-      "excerpt": "こんにちは。今日はSQLを書くときの「カンマを前に置くか、後ろに置くか」という「気にする人はちょっと気にするけどほとんど誰も気にしない」レベルの話をしたいと思います。続きをみる…"
+      "published": "2026-06-30T09:31:45",
+      "excerpt": "はじめに 実態調査 課題感 改善 1.Redash 内部 DB から events を吸い出して Athena に載せる 考慮箇所 2.…"
     },
     {
-      "title": "Microsoft、ボットが Teams 会議に参加できないようにするバウンサーを構築",
-      "link": "https://www.theregister.com/software/2026/06/30/microsoft-builds-a-bouncer-to-keep-bots-out-of-teams-meetings/5264199",
-      "source": "The Register（英語）",
-      "published": "2026-06-30T06:11:03",
-      "excerpt": "ISV がドアに自分の名前を載せることを許可し、望ましいボットが常に侵入できるようにします"
+      "title": "MediaLiveでSingle classのSRT Listener inputが作成できないことを確認してみた",
+      "link": "https://dev.classmethod.jp/articles/aws-elemental-medialive-srt-listener-input-try-single-class-202606/",
+      "source": "DevelopersIO",
+      "published": "2026-06-30T09:29:59",
+      "excerpt": "Single classのSRT ListenerなInputの作成をAWS CLIから試みましたが、現段階で実現は難しそうです。…"
     },
     {
-      "title": "Show HN: Bored People Chat – 匿名のグローバル チャット ルーム",
-      "link": "https://boredpeoplechat.com/",
+      "title": "アンタレス、Mark-0原子炉の臨界達成",
+      "link": "https://antaresindustries.com/updates/antares-achieves-criticality",
       "source": "Hacker News（英語）",
-      "published": "2026-06-30T06:04:52",
-      "excerpt": "Bored People Chat は、古いインターネットにインスピレーションを得た最小限の匿名のグローバル チャット ルームで、サインアップ、広告、ボットはありません。…"
-    },
-    {
-      "title": "AWS認定ソリューションアーキテクト-プロフェッショナル[AWS SAP-C02] 受験記 | JBS Tech Blog",
-      "link": "https://blog.jbs.co.jp/entry/2026/06/30/145909",
-      "source": "企業テックブログまとめ",
-      "published": "2026-06-30T05:59:09",
-      "excerpt": "AWS認定試験の中でも最上位に位置づけられている「AWS認定ソリューションアーキテクト – プロフェッショナル」を受験しました。本記事では、実際に合格するまでの学習計画や所感についてまとめています。…"
+      "published": "2026-06-30T09:15:21",
+      "excerpt": "記事の URL: https://antaresindustries.com/updates/antares-achieves-criticality コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
