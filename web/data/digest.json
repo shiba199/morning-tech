@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-06-30T17:21:09",
+  "generated_at": "2026-06-30T19:14:57",
   "window_hours": 24,
-  "total": 242,
+  "total": 251,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が44件。Anthropic の Claude Science は、科学者に計算研究を行うための 1 つの環境を提供し、データベース、パイプライン、ツールの間を行き来する必要性をなくすワークベンチです。",
+      "summary": "生成AIの新着が47件。Anthropic の Claude Sonnet 5 は、強力なエージェント機能、低価格、安全性の向上をもたらし、このモデルを Opus、GPT-5.5、および Gemini Pro の安価な代替品として位置づけています。",
       "articles": [
+        {
+          "title": "Anthropic がエージェントをより安価に運用する方法として Claude Sonnet 5 を発売",
+          "link": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-06-30T18:00:00",
+          "excerpt": "Anthropic の Claude Sonnet 5 は、強力なエージェント機能、低価格、安全性の向上をもたらし、このモデルを Opus、GPT-5.5、および Gemini Pro の安価な代替品として位置づけています。"
+        },
+        {
+          "title": "AI エージェント向け Amazon WorkSpaces の一般提供を発表",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-workspaces-ai/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-06-30T17:28:00",
+          "excerpt": "エージェント向けの Amazon WorkSpaces が一般提供開始となり、AI エージェントが管理された WorkSpaces 環境を通じてデスクトップ アプリケーションに安全にアクセスして操作できるようになります。…"
+        },
         {
           "title": "Anthropic の Claude Science は、科学者を魅了するために新しいモデルではなくワークフローに賭けています",
           "link": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
@@ -22,28 +36,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-06-30T16:49:51",
           "excerpt": "IoTって、機材がないと無理じゃないの？以前、製造業のクライアントにIoT × AIの提案をしたことがある。返ってきた第一声は「機材費いくらかかるんですか？」だった。…"
-        },
-        {
-          "title": "Bedrock AgentCore の Policy に Guardrails が統合されたので試してみた",
-          "link": "https://qiita.com/leomarokun/items/c0dc9a64ba4364b906cf",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-30T15:20:10",
-          "excerpt": "はじめに 2026年6月17日に GA した Amazon Bedrock AgentCore Policy への Bedrock Guardrails 統合を、実際に動かして試しました。…"
-        },
-        {
-          "title": "Amazon Bedrock AgentCore の決済機能「Payments」をまずはモックで試してみる",
-          "link": "https://qiita.com/Takenoko4594/items/cce9ecf21fcdcefefee6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-30T15:10:28",
-          "excerpt": "はじめに 2026/5/7(木)頃に、Amazon Bedrock AgentCoreの新機能として「Payments」がプレビューで追加されました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。マイクロソフトは、WSL（Windows Subsystem for Linux）の新機能としてWindows上でLinuxコンテナが動く「WSL Containers」のパブリックプレビューを公開しました。WindowsにはWindow.…",
+      "summary": "クラウドの新着が24件。Amazon Time Sync Service は、すべての商用リージョンの 26 の追加 EC2 インスタンス タイプでマイクロ秒の正確な時刻のサポートを導入します。…",
       "articles": [
+        {
+          "title": "Amazon Time Sync Service は、すべての商用リージョンの 26 の追加 EC2 インスタンス タイプでマイクロ秒の正確な時刻のサポートを追加します",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-time-sync-precision-time-placement-group",
+          "source": "AWS What's New（英語）",
+          "published": "2026-06-30T17:30:00",
+          "excerpt": "Amazon Time Sync Service は、すべての商用リージョンの 26 の追加 EC2 インスタンス タイプでマイクロ秒の正確な時刻のサポートを導入します。…"
+        },
+        {
+          "title": "Amazon SageMaker AI は、コンテナイメージの自動キャッシュにより生成 AI 推論のスケールアウト時間を最大半分に短縮します",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemakerai-inf-scale-out-time",
+          "source": "AWS What's New（英語）",
+          "published": "2026-06-30T16:31:00",
+          "excerpt": "Amazon SageMaker Inference はコンテナイメージのキャッシュをサポートするようになり、スケールアウトイベント中に生成 AI モデルのエンドツーエンドのスケーリングを最大 2 倍高速化できるようになりました。…"
+        },
         {
           "title": "Windows上でLinuxコンテナが動く「WSL Containers」がパブリックプレビュー。Windowsファイルへのアクセスが2倍高速に",
           "link": "https://www.publickey1.jp/blog/26/windowslinuxwsl_containerswindows2.html",
@@ -52,25 +66,11 @@
           "excerpt": "マイクロソフトは、WSL（Windows Subsystem for Linux）の新機能としてWindows上でLinuxコンテナが動く「WSL Containers」のパブリックプレビューを公開しました。WindowsにはWindow.…"
         },
         {
-          "title": "Lambdaの新機能、コード保存先に自前S3バケットを使うREFERENCEモードの挙動を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/lambda-s3-object-storage-mode-reference/",
-          "source": "DevelopersIO",
-          "published": "2026-06-30T15:16:08",
-          "excerpt": "Lambdaのcreate-functionに追加されたS3ObjectStorageMode=REFERENCEを使い、ユーザー管理のS3オブジェクトをコード保存先として参照する関数を作成しました。…"
-        },
-        {
-          "title": "【初心者向け】オンプレミスとクラウドの違いって？「持ち家」と「賃貸マンション」に例えてざっくり解説",
-          "link": "https://qiita.com/chuandujiusi/items/baefd6cac4909d971942",
-          "source": "Qiita AWSタグ",
-          "published": "2026-06-30T15:07:44",
-          "excerpt": "IT業界に入ると、耳にタコができるほど聞く「オンプレミス」と「クラウド」という言葉。「クラウドはなんとなくインターネットの向こう側ってイメージだけど、オンプレミスって何？？」と思いませんか？…"
-        },
-        {
-          "title": "AgentCore Runtime VPC モードのネットワーク要件まとめ",
-          "link": "https://dev.classmethod.jp/articles/agentcore-runtime-vpc-network-resources/",
-          "source": "DevelopersIO",
-          "published": "2026-06-30T14:22:08",
-          "excerpt": "AgentCore Runtime を VPC モードで動かすには、インターネットアクセス経路や VPC エンドポイントなど、パブリックモードでは不要なネットワークリソースの設定が必要です。…"
+          "title": "Microsoft、Windows 上で動作する Linux コンテナをプレビュー",
+          "link": "https://www.theregister.com/virtualization/2026/06/30/microsoft-previews-linux-containers-that-run-in-windows/5264468",
+          "source": "The Register（英語）",
+          "published": "2026-06-30T15:18:00",
+          "excerpt": "Windows アプリケーション用の Linux コンテナ CLI および API"
         }
       ]
     },
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Cross-cloud Lakehouse for AWS Glue を使って BigQuery から Iceberg テーブルを直接参照してみた",
+      "summary": "データ分析の新着が3件。Cross-cloud Lakehouse for AWS Glue を使って BigQuery から Iceberg テーブルを直接参照してみた",
       "articles": [
         {
           "title": "Cross-cloud Lakehouse for AWS Glue を使って BigQuery から Iceberg テーブルを直接参照してみた",
@@ -134,21 +134,21 @@
           "source": "CodeZine",
           "published": "2026-06-29T23:00:00",
           "excerpt": "Amazon OpenSearch Service、AI支援の移行機能を正式に提供開始"
-        },
-        {
-          "title": "BISによると、AIバブルはどのようにして崩壊し、世界経済を崩壊させる可能性があるのか",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/29/how-the-ai-bubble-could-pop-and-take-down-the-global-economy-according-to-the-bis/5263793",
-          "source": "The Register（英語）",
-          "published": "2026-06-29T17:55:00",
-          "excerpt": "中央銀行のための中央銀行、ハイパースケーラーの設備投資のむちゃぶりにドットコムマニアの影が見える"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。ついにVercelでバックエンドが動く！任意のDockerfileをそのままデプロイできるようになったので試してみた",
+      "summary": "開発ツールの新着が13件。新しいビデオでは、最新のアプリを実行する BlackBerry に似たスマートフォン、次期 Clicks Communicator の最終製品バージョンを示しています。",
       "articles": [
+        {
+          "title": "Clicks が新しい実践ビデオで BlackBerry からインスピレーションを得た携帯電話を披露",
+          "link": "https://techcrunch.com/2026/06/30/clicks-shows-off-its-blackberry-inspired-phone-in-a-new-hands-on-video/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-06-30T18:34:22",
+          "excerpt": "新しいビデオでは、最新のアプリを実行する BlackBerry に似たスマートフォン、次期 Clicks Communicator の最終製品バージョンを示しています。"
+        },
         {
           "title": "ついにVercelでバックエンドが動く！任意のDockerfileをそのままデプロイできるようになったので試してみた",
           "link": "https://dev.classmethod.jp/articles/vercel-run-any-dockerfile/",
@@ -157,57 +157,50 @@
           "excerpt": "ついにVercelでバックエンドが動く！任意のDockerfileをそのままデプロイできるようになったので試してみた"
         },
         {
+          "title": "世界一わかりみが深いかもしれないGit | SIOS Tech Lab",
+          "link": "https://tech-lab.sios.jp/archives/53188",
+          "source": "企業テックブログまとめ",
+          "published": "2026-06-30T14:56:58",
+          "excerpt": "こんにちは、サイオステクノロジー武井です。今回は、100番煎じくらいかもしれない、Gitの説明です。Git（ギット）は、ファイルの変更履歴を記録・管理するためのツールです。チーム開発では欠かせませんが、入門者にとって ...…"
+        },
+        {
           "title": "CloudFormation の deploy が固まった？と思ったら、待つだけだった話",
           "link": "https://qiita.com/80-cloud/items/8b05fd8bc625d7185580",
           "source": "Qiita AWSタグ",
           "published": "2026-06-30T12:12:21",
           "excerpt": "はじめに CloudFormation のテンプレートを deploy したら、ターミナルがこの2行で止まりました。Waiting for changeset to be created..…"
-        },
-        {
-          "title": "GitHub ActionsとNotebookLMで実現する、AIを活用したドキュメント運用基盤の構築 | PLAY DEVELOPERS BLOG",
-          "link": "https://developers.play.jp/entry/2026/06/30/192210",
-          "source": "企業テックブログまとめ",
-          "published": "2026-06-30T10:22:10",
-          "excerpt": "1.はじめに 2.昨年度下期の活動とNotebookLMの活用について 3.GitHubからNotebookLMへの連携の全体像 4.Geminiでの活用方法と利用時の注意点 5.Googleドライブの自動同期対応について 6.…"
-        },
-        {
-          "title": "源内AI（GENAI）をAWSにデプロイして気づいたこと——WAFコストの落とし穴と技術構成の現実",
-          "link": "https://zenn.dev/masa_suzuki358/articles/gennai-ai-intro",
-          "source": "Zenn AWSトピック",
-          "published": "2026-06-30T10:20:43",
-          "excerpt": "「デジタル庁のOSSって、自治体向けじゃないの？」 源内（GENAI）がOSS公開されたとき、正直「行政向けシステムだし、自分には関係ないかな」と思っていました。ところがGitHubのライセンスファイルを確認したら、MITライセンスでした。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Threads がライブチャットに新機能を追加し、アクセスを拡大",
-      "link": "https://techcrunch.com/2026/06/30/threads-adds-new-features-to-live-chats-as-it-expands-access/",
+      "title": "Realta Fusion は、明らかに初の核融合反応から直接電気を生成します。",
+      "link": "https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/",
       "source": "TechCrunch（英語）",
-      "published": "2026-06-30T17:00:00",
-      "excerpt": "アップデートには、翻訳、ホスト用の新しいツールなどが含まれます。"
+      "published": "2026-06-30T19:12:43",
+      "excerpt": "Realta Fusion は、蒸気タービンを必要とせず、核融合反応から発電できることを示しました。"
     },
     {
-      "title": "ナノバナナ2ライト",
-      "link": "https://deepmind.google/models/gemini-image/flash-lite/",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-30T16:48:37",
-      "excerpt": "記事の URL: https://deepmind.google/models/gemini-image/flash-lite/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "Google、Nano Banana 2 Lite を使用した、より高速で安価な画像生成機能を導入",
+      "link": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-06-30T19:02:38",
+      "excerpt": "Google は画像ジェネレーターをアップデートして、より高速かつ安価になり、AI コンテンツを作成しようとしているクリエイターにとってより便利なツールとなるようにしています。"
     },
     {
-      "title": "報告書によると、仮想通貨企業は2026年の米国選挙にこれまでに1億8,900万ドルを費やした",
-      "link": "https://www.reuters.com/world/crypto-firms-have-spent-189-million-so-far-2026-us-election-report-says-2026-06-30/",
-      "source": "Hacker News（英語）",
-      "published": "2026-06-30T16:44:31",
-      "excerpt": "記事の URL: https://www.reuters.…"
+      "title": "Google の新しい Nano Banana 2 Lite イメージ モデルは、これまでで最速かつ最も安価です",
+      "link": "https://arstechnica.com/ai/2026/06/googles-new-nano-banana-2-lite-image-model-is-its-fastest-and-cheapest-yet/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-06-30T18:36:10",
+      "excerpt": "見た目はあまり良くないかもしれませんが、Nano Banana 2 Lite イメージの作成には数秒しかかかりません。"
     },
     {
-      "title": "EU委員会は従業員のエアコンを停止し、従業員はつけたままにする",
-      "link": "https://www.politico.eu/article/eu-commission-heatwave-hq-forced-shut-down-air-conditioning-europe/",
+      "title": "Tell HN: iOS に Cursor をインストールすると、プライバシー設定が元に戻せないほど変更されます",
+      "link": "https://news.ycombinator.com/item?id=48737226",
       "source": "Hacker News（英語）",
-      "published": "2026-06-30T16:19:51",
-      "excerpt": "記事の URL: https://www.politico.…"
+      "published": "2026-06-30T18:33:59",
+      "excerpt": "今日これを打っただけで激怒しました。Cursor iOS アプリをインストールして、その機能を確認しました。私は長い間、「コードを保存しない」設定である「プライバシー モード (レガシー)」を使用していました。…"
     }
   ]
 }
