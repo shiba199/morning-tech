@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-01T10:52:21",
+  "generated_at": "2026-07-01T13:30:59",
   "window_hours": 24,
-  "total": 253,
+  "total": 254,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が43件。【非エンジニアのためのClaude/ClaudeCodeシリーズ】「Claude.ai」と「Cowork」、結局どう使い分ければ使えばいいの？を整理してみた",
+      "summary": "生成AIの新着が41件。Snowflake の IS_AGENT_ACTIVATED でSnowflake CoCo利用時だけ PII をマスキングしてみた",
       "articles": [
+        {
+          "title": "Snowflake の IS_AGENT_ACTIVATED でSnowflake CoCo利用時だけ PII をマスキングしてみた",
+          "link": "https://dev.classmethod.jp/articles/snowflake-is-agent-activated-coco-pii-masking/",
+          "source": "DevelopersIO",
+          "published": "2026-07-01T12:00:40",
+          "excerpt": "Snowflake の IS_AGENT_ACTIVATED でSnowflake CoCo利用時だけ PII をマスキングしてみた"
+        },
+        {
+          "title": "Code w/ Claude Tokyo: Extended に参加してきました | インゲージ開発者ブログ",
+          "link": "https://blog.ingage.jp/entry/2026/07/01/194927",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-01T10:49:27",
+          "excerpt": "Code w/ Claude の会場サイン はじめに こんにちは（内出血などで壊滅的に汚かった何本かの足の爪が、やっと剥がれ落ちて綺麗になりつつある？って書いていて意味不明な）体育会系プログラマのymd2です！…"
+        },
         {
           "title": "【非エンジニアのためのClaude/ClaudeCodeシリーズ】「Claude.ai」と「Cowork」、結局どう使い分ければ使えばいいの？を整理してみた",
           "link": "https://dev.classmethod.jp/articles/laude-ai-vs-cowork-usage-guide/",
@@ -22,27 +36,13 @@
           "source": "ITmedia NEWS",
           "published": "2026-07-01T09:10:00",
           "excerpt": "ソフトバンクグループは7月1日、米OpenAIへの総額300億ドル（約4兆6743億円）の追加出資のうち、第2弾となる100億ドル（同1兆6273億円）を実行したと発表した。残る第3弾の100億ドルは10月1日に予定する。"
-        },
-        {
-          "title": "AWS Weekly Roundup: Amazon Connect Customer 向け Agentic CX Designer、EC2 AMI ウォーターマーク、MySQL 向けのオープンガバナンスなど (2026 年 6 月 29 日)",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-agentic-cx-designer-for-amazon-connect-customer-ec2-ami-watermarks-open-governance-for-mysql-and-more-june-29-2026/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-01T07:26:37",
-          "excerpt": "AWS Summit が各地で開催されており、多忙な日々を過ごしています。私は New York City S […]"
-        },
-        {
-          "title": "Qiitaニュース | 正直に言う。お前のClaude Codeの使い方は間違っている | Qiita Zine",
-          "link": "https://qiita.com/official-columns/news/2026-07-01/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-01T06:26:16",
-          "excerpt": "2026/07/01に配信された Qiitaニュースのバックナンバーです。Dear great hackers, こんにちは！いつもQiitaをご利用いただきありがとうございます。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が28件。はじめに 前回は、EC2の停止・起動後の挙動や、Security GroupによるHTTP通信の許可・遮断を確認しました。今回は、作成したEC2 WebサーバをCloudWatchで監視する方法を確認します。…",
+      "summary": "クラウドの新着が25件。はじめに 前回は、EC2の停止・起動後の挙動や、Security GroupによるHTTP通信の許可・遮断を確認しました。今回は、作成したEC2 WebサーバをCloudWatchで監視する方法を確認します。…",
       "articles": [
         {
           "title": "AWS未経験が実務を想定してWebサーバ検証環境を構築してみた③ CloudWatchでEC2の基本監視を確認",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Claudeの開発者向けXアカウント「ClaudeDevs」は2026年6月30日、Claude DesktopのLinux版ベータが利用可能になったと発表した。",
+      "summary": "データ分析の新着が3件。Claudeの開発者向けXアカウント「ClaudeDevs」は2026年6月30日、Claude DesktopのLinux版ベータが利用可能になったと発表した。",
       "articles": [
         {
           "title": "Claude Desktop、Linux版ベータを提供開始 ——Ubuntu/DebianでClaude CodeやCoworkをデスクトップから利用可能に",
@@ -134,21 +134,21 @@
           "source": "@IT",
           "published": "2026-06-30T20:00:00",
           "excerpt": "「不良品で幾ら損する？」をベイズ統計で見積もってみましょう。製品のサイズを測ったデータから、平均やばらつきを推定し、さらに「これから作る製品が規格外になる確率」までをPythonを使って予測します。…"
-        },
-        {
-          "title": "Cross-cloud Lakehouse for AWS Glue を使って BigQuery から Iceberg テーブルを直接参照してみた",
-          "link": "https://dev.classmethod.jp/articles/bigquery-glue-federation-try/",
-          "source": "DevelopersIO",
-          "published": "2026-06-30T11:32:54",
-          "excerpt": "Cross-cloud Lakehouse for AWS Glue を使って BigQuery から Iceberg テーブルを直接参照してみた"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。GitHub、Issue作成権限をコラボレーターに限定する機能を提供開始",
+      "summary": "開発ツールの新着が16件。[Amazon Chime SDK] PSTN AudioとAWS CLIを使って日本宛ての架電を試してみた",
       "articles": [
+        {
+          "title": "[Amazon Chime SDK] PSTN AudioとAWS CLIを使って日本宛ての架電を試してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-chime-sdk-autocall/",
+          "source": "DevelopersIO",
+          "published": "2026-07-01T11:08:10",
+          "excerpt": "[Amazon Chime SDK] PSTN AudioとAWS CLIを使って日本宛ての架電を試してみた"
+        },
         {
           "title": "GitHub、Issue作成権限をコラボレーターに限定する機能を提供開始",
           "link": "https://codezine.jp/article/detail/24729",
@@ -169,45 +169,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-01T05:18:58",
           "excerpt": "はじめにClaudeAgentSDKは、Anthropicが提供するエージェント実行SDK（Python: claude-agent-sdk / TypeScript: @anthropic-ai/claude-agent-sdk）です。…"
-        },
-        {
-          "title": "「悪意あるnpmパッケージをインストールさせない」　GitHubが発表した2つの防止策",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/01/news051.html",
-          "source": "@IT",
-          "published": "2026-07-01T04:00:00",
-          "excerpt": "CI/CDを乗っ取り「悪意あるnpmパッケージ」を流通させる攻撃が深刻化。GitHubは、2つの機能追加を発表した。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "2026 Japan AWS Jr.Championsに選出されて、これまでとこれからをまとめてみた！",
-      "link": "https://qiita.com/sasachan/items/5a6ff3420bcf1f278bc9",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-01T10:38:22",
-      "excerpt": "はじめに 初めまして、ささやんです！この度、 2026 Japan AWS Jr.Champions に選出していただきました！！この1年間目指していたので、選出していただきとても嬉しいです。ここでは、 Japan AWS Jr.…"
-    },
-    {
-      "title": "ASAHI Linux 7.1 進捗レポート",
-      "link": "https://asahilinux.org/2026/06/progress-report-7-1/",
+      "title": "Manufact (YC S25) はサンフランシスコで開発者擁護者を募集しています",
+      "link": "https://www.ycombinator.com/companies/manufact/jobs/4cyWd6S-developer-advocate-partnerships-devrel",
       "source": "Hacker News（英語）",
-      "published": "2026-07-01T10:07:04",
-      "excerpt": "記事の URL: https://asahilinux.org/2026/06/progress-report-7-1/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-01T13:22:24",
+      "excerpt": "記事の URL: https://www.ycombinator.…"
     },
     {
-      "title": "ボフィンズ氏は、「オフィスへの復帰」要求の真の推進力はナルシシスティックなリーダーシップだと考えている",
-      "link": "https://www.theregister.com/columnists/2026/07/01/boffins-peg-narcissistic-leadership-as-the-real-driver-behind-return-to-office-demands/5264222",
+      "title": "自信がついてから…と思っていた私へ。自信がなくてもAWS GameDayに今すぐ行こう",
+      "link": "https://qiita.com/naaaaex/items/91c2d2bd9e20852282ca",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-01T13:13:38",
+      "excerpt": "はじめに こんにちは、naちゃん（@naaaaex）です。普段は開発・保守業務を担当しているエンジニア3年目です。AWS歴は半年ほど。そんな私が先日、人生で初めてAWS Summit2026のGameDayに参加してきました。…"
+    },
+    {
+      "title": "28年1月以降に発売するソフトはダウンロード版のみに",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/01/news156.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-01T13:06:00",
+      "excerpt": "ソニー・インタラクティブエンタテインメントは1日、PlayStationコンソール向けの新作ゲームのディスク生産を2028年1月に終了すると発表した。"
+    },
+    {
+      "title": "Cloudflare、広告付きウェブページからの皮肉な検索およびスクレイピングボットをブロック",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/01/cloudflare-to-block-cynical-search-and-scrape-bots-from-ad-supported-web-pages/5264727",
       "source": "The Register（英語）",
-      "published": "2026-07-01T10:00:00",
-      "excerpt": "生産性の問題ではありません。それは上司が日々のエゴ修正を怠っていることについてです"
-    },
-    {
-      "title": "スターバックステクノロジー部にジョインした井上です！",
-      "link": "https://dev.classmethod.jp/articles/202607-yutakainoue-joined-classmethod/",
-      "source": "DevelopersIO",
-      "published": "2026-07-01T09:58:40",
-      "excerpt": "スターバックステクノロジー部にジョインした井上です！"
+      "published": "2026-07-01T13:00:00",
+      "excerpt": "一部のクローラーは検索と AI トレーニングの両方のためにデータを収集するため、パブリッシャーがコンテンツを保護するためにクローラーをブロックすると、検索結果から消える危険があります..."
     }
   ]
 }
