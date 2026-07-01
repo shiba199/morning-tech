@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-07-01T21:56:23",
+  "generated_at": "2026-07-01T23:02:52",
   "window_hours": 24,
-  "total": 252,
+  "total": 253,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。そうそう、秘密のステガノグラフィー システムを無効にするつもりでした",
+      "summary": "生成AIの新着が43件。Obsidian と Claude Code を MCP で連携させ、Kanban ボードをタスク管理ツールとして活用する環境を、最小構成で構築する手順をまとめました。…",
       "articles": [
         {
-          "title": "Anthropic、中国の競合他社を捕まえるための秘密コードを削除",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/01/anthropic-is-removing-its-covert-code-for-catching-chinese-competitors/5265366",
-          "source": "The Register（英語）",
-          "published": "2026-07-01T20:56:31",
-          "excerpt": "そうそう、秘密のステガノグラフィー システムを無効にするつもりでした"
+          "title": "Obsidian × Claude Code で相棒を作る — MCP 接続から Kanban 運用まで",
+          "link": "https://dev.classmethod.jp/articles/obsidian-claude-code-mcp-kanban-setup/",
+          "source": "DevelopersIO",
+          "published": "2026-07-01T22:00:26",
+          "excerpt": "Obsidian と Claude Code を MCP で連携させ、Kanban ボードをタスク管理ツールとして活用する環境を、最小構成で構築する手順をまとめました。…"
         },
         {
-          "title": "Amazon Bedrock AgentCore が追加の 4 つの AWS リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/",
+          "title": "Mythos Previewに近い性能を3分の1のトークンで実現　OpenAIが新モデル「GPT-5.6」公開",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/02/news027.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-07-01T22:00:00",
+          "excerpt": "OpenAIはGPT-5.6系を限定公開した。旗艦モデルの「Sol」、日常業務に適したバランス型の「Terra」、低コストで高速な「Luna」で構成する。…"
+        },
+        {
+          "title": "Anthropicの営業はAIエージェントをこう使う！　日本法人メンバーが明かす手の内",
+          "link": "https://www.itmedia.co.jp/news/articles/2607/02/news017.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-07-01T22:00:00",
+          "excerpt": "Anthropicの社員自身はどのようにAIエージェントを業務に役立てているのか──「AWS Summit Japan 2026」のAnthropicブースで、日本法人で営業担当を務めるイブラギモブ・シャボズさんが「自身の業務で使うAIエー…"
+        },
+        {
+          "title": "Amazon Bedrock AgentCore がデフォルトのランタイムクォータ制限を引き上げる",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/",
           "source": "AWS What's New（英語）",
-          "published": "2026-07-01T17:00:00",
-          "excerpt": "Amazon Bedrock AgentCore は、アジアパシフィック (バンコク)、アジアパシフィック (マレーシア)、ヨーロッパ (ミラノ)、ヨーロッパ (スペイン) の 4 つの追加の AWS リージョンで利用できるようになりました…"
-        },
-        {
-          "title": "【ハンズオン】AgentCore最新機能でRAG & AIエージェント構築に入門！",
-          "link": "https://qiita.com/minorun365/items/7d06434cf830df9c54ff",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-01T16:32:50",
-          "excerpt": "このイベント用のハンズオン手順ですが、どなたでも好きなときに試せます！（30分〜1時間目安） これをローコードでサクッと作ります。…"
-        },
-        {
-          "title": "AWS Security Agent がアジアパシフィック (ムンバイ)、アジアパシフィック (シンガポール)、南米 (サンパウロ) で利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-agent-asia-pacific/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-01T15:26:00",
-          "excerpt": "本日より、AWS Security Agent (現在は AWS Continuum の一部) が、アジアパシフィック (ムンバイ)、アジアパシフィック (シンガポール)、南米 (サンパウロ) の 3 つの追加の AWS リージョンで利用可…"
+          "published": "2026-07-01T22:00:00",
+          "excerpt": "Amazon Bedrock AgentCore は、デフォルトのランタイム クォータ制限を引き上げ、お客様がエージェントベースのワークロードを拡張するためのより大きな容量を提供します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が27件。はじめに Amazon Linux 2（AL2）で起動したEC2インスタンスのクロックソースを tsc に変更してみました。…",
+      "summary": "クラウドの新着が28件。IaCを入れてみたけど、リリースのたびにまだ何か起きる。インフラをコードで管理しているはずなのに、担当者しか触れない。ツールを変えただけでは、運用の本質的な問題は解決しません。…",
       "articles": [
+        {
+          "title": "IaCを導入したのにリリース事故が減らないSRE・インフラ担当へ。AWS CDKで本質的な課題を解決できる一冊",
+          "link": "https://qiita.com/yasu1109/items/865c988648430d17c20f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-01T22:34:33",
+          "excerpt": "IaCを入れてみたけど、リリースのたびにまだ何か起きる。インフラをコードで管理しているはずなのに、担当者しか触れない。ツールを変えただけでは、運用の本質的な問題は解決しません。…"
+        },
         {
           "title": "Amazon Linux 2 EC2のクロックソースをtscに変更してみた",
           "link": "https://qiita.com/gama1234/items/e4a0bdcacaa5b29bfdab",
@@ -64,21 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-01T20:33:43",
           "excerpt": "1.はじめに AWS Summitに向けて、スマホをかざすだけで自分のポートフォリオが開く「NFC搭載のデジタル名刺」を作成しました。…"
-        },
-        {
-          "title": "Windows 11移行で悩む人に朗報？　Windows 10「拡張セキュリティ更新（ESU）」が期間延長へ",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/02/news010.html",
-          "source": "@IT",
-          "published": "2026-07-01T20:00:00",
-          "excerpt": "サポート終了を迎えたWindows 10だが、個人向けの「拡張セキュリティ更新プログラム（ESU）」の提供期間が2027年10月まで1年間延長されることが明らかになった。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。サポート終了を迎えたWindows 10だが、個人向けの「拡張セキュリティ更新プログラム（ESU）」の提供期間が2027年10月まで1年間延長されることが明らかになった。…",
+      "summary": "セキュリティの新着が15件。国産セキュリティ製品とは、条件をどこまで満たせば「国産」と言えるのか。日本サイバーセキュリティ産業振興コミュニティは、製品やサービスが国内でどの程度自律的に運用・統制・継続・保護できるかを評価する新指標「日本度」の概要を公開した。…",
       "articles": [
+        {
+          "title": "その製品、本当に\"国産\"？　セキュリティ製品を評価する新指標「日本度」が始動",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/02/news040.html",
+          "source": "@IT",
+          "published": "2026-07-01T22:30:00",
+          "excerpt": "国産セキュリティ製品とは、条件をどこまで満たせば「国産」と言えるのか。日本サイバーセキュリティ産業振興コミュニティは、製品やサービスが国内でどの程度自律的に運用・統制・継続・保護できるかを評価する新指標「日本度」の概要を公開した。…"
+        },
+        {
+          "title": "「ランサムウェア」侵入手順を徹底解説　もう知ったかぶりからは卒業しよう",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/02/news041.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-07-01T22:00:00",
+          "excerpt": "“ランサムウェア”と聞くと、ある日突然データが暗号化されると思いがちだ。しかし攻撃者は、そのはるか前から静かに侵入し、社内を調査し、重要データを探し出している。泥棒の犯行になぞらえながら、ランサムウェア攻撃の全体像を分かりやすく解説しよう。"
+        },
         {
           "title": "Windows 11移行で悩む人に朗報？　Windows 10「拡張セキュリティ更新（ESU）」が期間延長へ",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/02/news010.html",
@@ -92,20 +106,6 @@
           "source": "The Register（英語）",
           "published": "2026-07-01T19:57:48",
           "excerpt": "「元の不完全な DeepSeek サンプルは、最小限の労力で完全に機能する攻撃に変換できる」と Check Point の研究者が The Reg に語る"
-        },
-        {
-          "title": "Amazon GuardDuty は機密ファイル変更の脅威検出を追加します",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-sfm/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-01T16:58:00",
-          "excerpt": "Amazon GuardDuty ランタイムモニタリングには、Amazon EC2 インスタンスおよび Amazon EKS または Amazon ECS で実行されているコンテナワークロードで機密ファイルが変更された場合にセキュリティチー…"
-        },
-        {
-          "title": "Amazon Managed Service for Prometheus が AWS GovCloud (米国) で FedRAMP High および DoD IL-4/5 認証を取得",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-fedramp-high/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-01T15:43:00",
-          "excerpt": "Amazon Managed Service for Prometheus は、AWS GovCloud (米国) リージョンで FedRAMP High および国防総省クラウドコンピューティングセキュリティ要件ガイド (DoD CC SR…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。はじめに 2026年6月、AWS Blocks がパブリックプレビューとしてリリースされました。Blocks の大きな売りのひとつが 「AWS アカウント不要でローカル完結の開発体験」 です。…",
+      "summary": "開発ツールの新着が16件。IaCを入れてみたけど、リリースのたびにまだ何か起きる。インフラをコードで管理しているはずなのに、担当者しか触れない。ツールを変えただけでは、運用の本質的な問題は解決しません。…",
       "articles": [
+        {
+          "title": "IaCを導入したのにリリース事故が減らないSRE・インフラ担当へ。AWS CDKで本質的な課題を解決できる一冊",
+          "link": "https://qiita.com/yasu1109/items/865c988648430d17c20f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-01T22:34:33",
+          "excerpt": "IaCを入れてみたけど、リリースのたびにまだ何か起きる。インフラをコードで管理しているはずなのに、担当者しか触れない。ツールを変えただけでは、運用の本質的な問題は解決しません。…"
+        },
         {
           "title": "【AWS Blocks】Amplify Gen 2 との現実的な「補完関係」について考えてみた",
           "link": "https://qiita.com/jus1730/items/1aa09b093d8be89c73e2",
@@ -169,45 +176,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-01T14:44:25",
           "excerpt": "「GitHubを開いたら、ファイルが多すぎてどこから読めばいいか分からなかった」 源内AI（GENAI、デジタル庁OSSの政府向けAIシステム）のリポジトリに初めて触れたとき、正直そう思いました。…"
-        },
-        {
-          "title": "[Amazon Chime SDK] PSTN AudioとAWS CLIを使って日本宛ての架電を試してみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-chime-sdk-autocall/",
-          "source": "DevelopersIO",
-          "published": "2026-07-01T11:08:10",
-          "excerpt": "[Amazon Chime SDK] PSTN AudioとAWS CLIを使って日本宛ての架電を試してみた"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "EvilTokens デバイスコード フィッシング キットは、私たちが思っているよりも完全に邪悪です",
-      "link": "https://www.theregister.com/cyber-crime/2026/07/01/eviltokens-device-code-phishing-kit-totally-more-evil-than-we-all-thought/5265409",
-      "source": "The Register（英語）",
-      "published": "2026-07-01T21:50:25",
-      "excerpt": "これは「完全な BEC 運用環境」であると Talos 研究者は言う"
+      "title": "Bending Spoons が SaaS 不況を乗り越え、取引初日に 40% 急騰",
+      "link": "https://techcrunch.com/2026/07/01/bending-spoons-defies-saas-slump-surges-40-on-first-day-of-trading/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-01T22:47:04",
+      "excerpt": "同社は、AOL、Eventbrite、Evernote、Meetup、Vimeo などの最終世代のテクノロジー ブランドを買収して刷新することで急速に成長しました。"
     },
     {
-      "title": "クロード・ソネット 5.0 は論争をかわすために道路の真ん中を真っ直ぐに進む",
-      "link": "https://www.theregister.com/devops/2026/07/01/claude-sonnet-50-heads-straight-down-the-middle-of-the-road-to-dodge-controversy/5265398",
-      "source": "The Register（英語）",
-      "published": "2026-07-01T21:33:44",
-      "excerpt": "より安全、より安価、そしてサイバーセキュリティとは無関係"
+      "title": "2026年6月30日付GCASアップデート",
+      "link": "https://qiita.com/Seria_GovCloud/items/7b7681caf14c0935483f",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-01T22:37:25",
+      "excerpt": "2026年6月30日付GCASアップデートです。なおMicrosoftAzureとGoogleCloudについては利用実績が少ないため割愛します。…"
     },
     {
-      "title": "ハリーズのオールナイトハンバーガーを残しました",
-      "link": "https://escapepod.org/2013/09/14/ep413-why-i-left-harrys-all-night-hamburgers/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-01T21:15:41",
-      "excerpt": "記事の URL: https://escapepod.org/2013/09/14/ep413-why-i-left-harrys-all-night-hamburgers/ コメント URL: https://news.…"
+      "title": "【アップデート】Cloud Run でマルチリージョン対応の自動フェイルオーバーとフェイルバック機能がGAされました",
+      "link": "https://dev.classmethod.jp/articles/cloud-run-auto-failover-multi-region-generally-available/",
+      "source": "DevelopersIO",
+      "published": "2026-07-01T22:34:12",
+      "excerpt": "【アップデート】Cloud Run でマルチリージョン対応の自動フェイルオーバーとフェイルバック機能がGAされました"
     },
     {
-      "title": "Proliferate (YC S25) が人材を募集しています",
-      "link": "https://www.ycombinator.com/companies/proliferate/jobs/mMHvKR9-founding-product-engineer",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-01T21:00:14",
-      "excerpt": "記事の URL: https://www.ycombinator.…"
+      "title": "180億ドルのIPO後、Bending Spoons創設者、成功は運を最小限に抑えることから生まれると語る",
+      "link": "https://techcrunch.com/2026/07/01/after-18b-ipo-bending-spoons-founder-says-success-comes-from-minimizing-luck/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-01T22:28:35",
+      "excerpt": "イタリアの企業 Bending Spoons の共同創設者は、人気の低迷するインターネット ブランドをひそかに買収し、自社のスタートアップの失敗から大きな教訓を学びました。"
     }
   ]
 }
