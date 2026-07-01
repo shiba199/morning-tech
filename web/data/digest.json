@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-01T18:22:02",
+  "generated_at": "2026-07-01T20:20:58",
   "window_hours": 24,
-  "total": 242,
+  "total": 250,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が38件。Amazon Bedrock AgentCore は、アジアパシフィック (バンコク)、アジアパシフィック (マレーシア)、ヨーロッパ (ミラノ)、ヨーロッパ (スペイン) の 4 つの追加の AWS リージョンで利用できるようになりました…",
+      "summary": "生成AIの新着が40件。Amazon Bedrock AgentCore は、アジアパシフィック (バンコク)、アジアパシフィック (マレーシア)、ヨーロッパ (ミラノ)、ヨーロッパ (スペイン) の 4 つの追加の AWS リージョンで利用できるようになりました…",
       "articles": [
         {
           "title": "Amazon Bedrock AgentCore が追加の 4 つの AWS リージョンで利用可能になりました",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が24件。Amazon EKS の Kubernetes バージョンのロールバックにより、7 日以内にクラスターのアップグレードを元に戻す方法を学びます。…",
+      "summary": "クラウドの新着が28件。EC2のPlacement Groupに新戦略「precision-time」が追加されました。…",
       "articles": [
+        {
+          "title": "EC2の新しいPlacement Group戦略「precision-time」でマイクロ秒精度の時刻同期環境を構築してみた",
+          "link": "https://dev.classmethod.jp/articles/ec2-precision-time-placement-group-strategy/",
+          "source": "DevelopersIO",
+          "published": "2026-07-01T18:55:06",
+          "excerpt": "EC2のPlacement Groupに新戦略「precision-time」が追加されました。…"
+        },
         {
           "title": "Kubernetes バージョンのロールバックを使用して、Amazon EKS クラスターを自信を持ってアップグレードします",
           "link": "https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks/",
@@ -52,33 +59,33 @@
           "excerpt": "Amazon EKS の Kubernetes バージョンのロールバックにより、7 日以内にクラスターのアップグレードを元に戻す方法を学びます。…"
         },
         {
+          "title": "Amazon RDS が、追加の 4 つの AWS リージョンでのクロスリージョン自動バックアップを発表",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-01T17:00:00",
+          "excerpt": "Amazon RDS のクロスリージョン自動バックアップ レプリケーションが、追加の 4 つの AWS リージョンで利用できるようになりました。…"
+        },
+        {
           "title": "Amazon EKS が Kubernetes バージョンのロールバックをサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-version-rollback",
           "source": "AWS What's New（英語）",
           "published": "2026-07-01T16:00:00",
           "excerpt": "Amazon Elastic Kubernetes Service (Amazon EKS) が Kubernetes をサポートするようになりました バージョン ロールバック により、アップグレード後に問題が発生した場合、7 日以内に以前…"
-        },
-        {
-          "title": "完全サーバーレス設計で意識した5つのポイント",
-          "link": "https://qiita.com/takumiida1/items/cb929b5f2684dcfbb73d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-01T15:04:46",
-          "excerpt": "Summary サーバーレス環境では、バックエンドのサーバー特性を理解したステートレス・冪等な設計が重要であり、特にインスタンス再利用時のマルチテナント対応は不可欠な考慮点である コスト予測の難しさやスケールアウトの限界を考慮し、従量課金対…"
-        },
-        {
-          "title": "S3バケットアクセスの落とし穴 〜SSE-KMS暗号化バケットへの外部アカウントアクセスでちょっとハマった話〜",
-          "link": "https://qiita.com/asmodus/items/f2a25122c62afa190be9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-01T14:55:27",
-          "excerpt": "はじめに 外部アカウント(別のAWSアカウント)からS3バケットにアクセスする構成は、クロスアカウント連携でよくあるパターンです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。Amazon Managed Service for Prometheus は、AWS GovCloud (米国) リージョンで FedRAMP High および国防総省クラウドコンピューティングセキュリティ要件ガイド (DoD CC SR…",
+      "summary": "セキュリティの新着が15件。「元の不完全な DeepSeek サンプルは、最小限の労力で完全に機能する攻撃に変換できる」と Check Point の研究者が The Reg に語る",
       "articles": [
+        {
+          "title": "誰かが DeepSeek にブラウザ内ランサムウェアを構築するよう指示し、DeepSeek は喜んで従った",
+          "link": "https://www.theregister.com/security/2026/07/01/somebody-told-deepseek-to-build-in-browser-ransomware-and-it-gleefully-complied/5265311",
+          "source": "The Register（英語）",
+          "published": "2026-07-01T19:57:48",
+          "excerpt": "「元の不完全な DeepSeek サンプルは、最小限の労力で完全に機能する攻撃に変換できる」と Check Point の研究者が The Reg に語る"
+        },
         {
           "title": "Amazon Managed Service for Prometheus が AWS GovCloud (米国) で FedRAMP High および DoD IL-4/5 認証を取得",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-fedramp-high/",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-01T15:02:53",
           "excerpt": "IAM Identity Center の許可セットで禁止した操作、自作ロールなら回避できる？SCP で権限昇格を防げるか検証してみた…"
-        },
-        {
-          "title": "【書評】 Cloud Security and Privacy",
-          "link": "https://qiita.com/io0323/items/e72abcdbcf6885340523",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-01T15:01:10",
-          "excerpt": "はじめに クラウドコンピューティングは「良いもの」、クラウドセキュリティは「悪いもの」という文句がハイテク業界でよく聞かれます。では、具体的にどこが問題なのでしょうか。…"
         }
       ]
     },
@@ -122,6 +122,13 @@
           "excerpt": "2026年6月のAWSデータ分析関連のアップデート情報をお届けします。…"
         },
         {
+          "title": "S3 TablesはGlue Data Catalogを置き換えるのか考えてみた",
+          "link": "https://zenn.dev/penginpenguin/articles/e5fecafc778cd1",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-01T14:08:37",
+          "excerpt": "はじめに AWS Community Builderのぺんぎん（@jitepengin）です。Amazon S3 Tablesを触り始めたとき、最初に感じたのが「これって結局Glue Data Catalogを置き換えるサービスなの？…"
+        },
+        {
           "title": "Claude Desktop、Linux版ベータを提供開始 ——Ubuntu/DebianでClaude CodeやCoworkをデスクトップから利用可能に",
           "link": "https://gihyo.jp/article/2026/07/claude-desktop-on-linux?utm_source=feed",
           "source": "gihyo.jp 開発",
@@ -134,13 +141,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-01T01:00:00",
           "excerpt": "生成AI活用に欠かせないデータ基盤の構築。SaaSや社内システムのデータをDWHに集める最初の段階でつまずくことが多いですが、ノーコードで自動化できるクラスメソッドのサービス「ezpipe」をご紹介します。"
-        },
-        {
-          "title": "【Pythonで学ぶデータ分析】母平均のベイズ推定と予測サンプルの作成 ～ 規格外製品の廃棄コストを見積もる",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/01/news008.html",
-          "source": "@IT",
-          "published": "2026-06-30T20:00:00",
-          "excerpt": "「不良品で幾ら損する？」をベイズ統計で見積もってみましょう。製品のサイズを測ったデータから、平均やばらつきを推定し、さらに「これから作る製品が規格外になる確率」までをPythonを使って予測します。…"
         }
       ]
     },
@@ -157,6 +157,13 @@
           "excerpt": "aws-cdk v2.1129.0で`cdk deploy --express`が追加されました。前回CloudFormation APIで検証したExpressモードと同じ構成をCDKで再現し、デプロイ所要時間が183秒から40秒（4.…"
         },
         {
+          "title": "源内AI（GENAI）のGitHubを読んで詰まった3点——CDK2リージョン要件・ExApp設計・RAGコスト",
+          "link": "https://zenn.dev/masa_suzuki358/articles/gennai-ai-architecture",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-01T14:44:25",
+          "excerpt": "「GitHubを開いたら、ファイルが多すぎてどこから読めばいいか分からなかった」 源内AI（GENAI、デジタル庁OSSの政府向けAIシステム）のリポジトリに初めて触れたとき、正直そう思いました。…"
+        },
+        {
           "title": "[Amazon Chime SDK] PSTN AudioとAWS CLIを使って日本宛ての架電を試してみた",
           "link": "https://dev.classmethod.jp/articles/amazon-chime-sdk-autocall/",
           "source": "DevelopersIO",
@@ -169,45 +176,38 @@
           "source": "はてなブックマーク（テクノロジー）",
           "published": "2026-07-01T07:53:17",
           "excerpt": "10 か月 CLI で使ってきた Claude Code を、Desktop メインに移行した 12 の理由 本記事は、カンリー社内で実施している AI 共有会で話した内容を記事化したものです(2026 年 6 月時点の macOS 版 C…"
-        },
-        {
-          "title": "AWS DevOpsエージェント × NewRelic × Githubを使ったインシデント調査の完全自動化",
-          "link": "https://zenn.dev/falcon_tech/articles/ae71c9fb4ceb95",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-01T07:38:20",
-          "excerpt": "はじめに 皆さん、インシデント調査は好きですか？世の中にはインシデント調査が大好きなド◯態さん（褒めてる）もいらっしゃるとは思いますが、私はあまり好きではありません。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "HN を表示: ソース台帳行を使用した LIBR トレースとバイト精度の PDF 検証",
-      "link": "https://exitprotocols.com/engineering/libr-state-machine/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-01T17:55:03",
-      "excerpt": "記事の URL: https://exitprotocols.com/engineering/libr-state-machine/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "NASA長官、打ち上げ失敗後のブルー・オリジンの進歩を称賛",
+      "link": "https://arstechnica.com/space/2026/07/nasa-chief-praises-progress-blue-origin-is-making-after-launch-failure/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-01T19:57:36",
+      "excerpt": "「2027年までは、不安になる前にまだ時間はあります。」"
     },
     {
-      "title": "Amazon Time Sync Serviceのマイクロ秒精度時刻同期の対応インスタンスが追加されたのでPHCを試してみた",
-      "link": "https://dev.classmethod.jp/articles/amazon-time-sync-service-microsecond-accuracy-phc/",
-      "source": "DevelopersIO",
-      "published": "2026-07-01T17:54:56",
-      "excerpt": "Amazon Time Sync Serviceのマイクロ秒精度時刻同期が新たに26インスタンスタイプで対応し、Gen7〜Gen8の幅広いファミリーで利用可能になりました。…"
+      "title": "フェイブル5が帰ってきた",
+      "link": "https://twitter.com/claudeai/status/2072402636813607381",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-01T19:35:57",
+      "excerpt": "記事の URL: https://twitter.com/claudeai/status/2072402636813607381 コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "グラフィックスプログラマーになるために何を学ぶべきか",
-      "link": "https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/",
+      "title": "クロード寓話 5 プロモーション アクセス",
+      "link": "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access",
       "source": "Hacker News（英語）",
-      "published": "2026-07-01T17:53:44",
-      "excerpt": "記事の URL: https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/ コメント URL: https://news.…"
+      "published": "2026-07-01T19:31:46",
+      "excerpt": "記事の URL: https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access コメント URL: https://news.…"
     },
     {
-      "title": "私の OSCP 侵入テスト チートシート",
-      "link": "https://hackerask.com/posts/pentesting-cheatsheet/",
+      "title": "Show HN: Z-Jail – 7 つの防御層とゼロデプスを備えた 130 KB Linux サンドボックス - C99",
+      "link": "https://github.com/Division-36/Z-Jail/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-01T17:50:25",
-      "excerpt": "記事の URL: https://hackerask.com/posts/pentesting-cheatsheet/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-01T19:18:11",
+      "excerpt": "記事の URL: https://github.com/Division-36/Z-Jail/ コメント URL: https://news.ycombinator.com/item?id=48751824 ポイント: 8 コメント数: 3"
     }
   ]
 }
