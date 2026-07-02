@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-02T17:25:23",
+  "generated_at": "2026-07-02T18:54:49",
   "window_hours": 24,
-  "total": 248,
+  "total": 244,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が43件。皆さん、こんにちは。プロジェクトの総合的な品質評価プロセスを構築するために QUALITY.md を作成しました。ループエンジニアリングにも最適であることがわかりました。…",
+      "summary": "生成AIの新着が45件。このニュースは、OpenAIがBroadcomと提携して独自のカスタムAIチップを発表してから約1週間後に発表された。",
       "articles": [
+        {
+          "title": "Anthropicはサムスンと新しいカスタムチップについて話し合っている",
+          "link": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-02T18:31:09",
+          "excerpt": "このニュースは、OpenAIがBroadcomと提携して独自のカスタムAIチップを発表してから約1週間後に発表された。"
+        },
+        {
+          "title": "スムーズ AI 犯罪者が「初」のエンドツーエンドのエージェント型ランサムウェア攻撃を引き起こす",
+          "link": "https://www.theregister.com/security/2026/07/02/smooth-ai-criminal-drives-first-end-to-end-agentic-ransomware-attack/5266073",
+          "source": "The Register（英語）",
+          "published": "2026-07-02T18:05:50",
+          "excerpt": "たとえお金を払ったとしても、LLM がデータを返してくれるのを期待しないでください"
+        },
         {
           "title": "HN を表示: QUALITY.md – オープン形式/仕様、エージェント スキル、および CLI",
           "link": "https://getquality.md",
@@ -22,27 +36,13 @@
           "source": "TechCrunch（英語）",
           "published": "2026-07-02T15:20:51",
           "excerpt": "OpenAIの最高経営責任者（CEO）サム・アルトマン氏が、同社の株式の5％を米国政府系ファンドに譲渡することを提案したと伝えられており、AIブームによる経済的利益を国民に分け与えることについての議論が再燃している。"
-        },
-        {
-          "title": "AWS 公式の Postgres MCP Server を Claude Desktop から Aurora につないでみた — Data API と直接接続を同一クラスタで比較",
-          "link": "https://qiita.com/asahide/items/a5df6cb7173c2fc534a2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-02T14:03:48",
-          "excerpt": "1.…"
-        },
-        {
-          "title": "【AWS Summit Japan 2026】 AI Agentが経営する店に行ってみた | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/2026/07/02/215528",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-02T12:55:28",
-          "excerpt": "こんにちは、クラウド事業部の田島です。AWS Summit Japan のLiving Mart というブースに行ってきました。このブースでは6体のAI Agentが自律して店舗を経営する展示がありました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が32件。2026年6月30日付けのAWS公式アナウンスで、Amazon Kendra、Q Business、Bedrock Agents等のメンテナンスモード移行やWorkSpaces PCoIP等のサービス終了予定が発表されました。…",
+      "summary": "クラウドの新着が33件。2026年6月30日付けのAWS公式アナウンスで、Amazon Kendra、Q Business、Bedrock Agents等のメンテナンスモード移行やWorkSpaces PCoIP等のサービス終了予定が発表されました。…",
       "articles": [
         {
           "title": "2026年6月30日付けで発表されたAWSサービス終了・メンテナンスモード移行をまとめてみた",
@@ -50,6 +50,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-02T17:15:27",
           "excerpt": "2026年6月30日付けのAWS公式アナウンスで、Amazon Kendra、Q Business、Bedrock Agents等のメンテナンスモード移行やWorkSpaces PCoIP等のサービス終了予定が発表されました。…"
+        },
+        {
+          "title": "Amazon EC2 D dedicated Host が AMD SEV-SNP をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-02T17:00:00",
+          "excerpt": "Amazon EC2 は、専用ホストでの AMD Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP) のサポートを発表します。…"
         },
         {
           "title": "EC2 Auto Scalingの新機能「reservations-then-balanced」でキャパシティ予約優先のAZ分散を試してみた",
@@ -64,21 +71,21 @@
           "source": "Publickey",
           "published": "2026-07-02T15:34:09",
           "excerpt": "枕は一度買えばずっと使えるものと思っていたのですが、どうやらへたってきたりつぶれてきたりしたら買い換えた方がいいらしい、ということを最近知りました。今使ってる枕、一体何年使ってきたんだ……。というわけで今、新しい枕を買うべくネットやお店で.…"
-        },
-        {
-          "title": "Amazon ECSコンソールの新しいリアルタイムデプロイ可視化機能を試してみた",
-          "link": "https://dev.classmethod.jp/articles/ecs-realtime-deployment-observability-console/",
-          "source": "DevelopersIO",
-          "published": "2026-07-02T15:00:30",
-          "excerpt": "Amazon ECSコンソールの「デプロイ」タブにリアルタイムのデプロイタイムラインが追加されました。デプロイの各フェーズの進行状況、サーキットブレーカーの状態、失敗タスクの診断情報がひと目で確認できます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。記事の URL: https://mathstodon.xyz/@iblech/116769502749142438 コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が11件。たとえお金を払ったとしても、LLM がデータを返してくれるのを期待しないでください",
       "articles": [
+        {
+          "title": "スムーズ AI 犯罪者が「初」のエンドツーエンドのエージェント型ランサムウェア攻撃を引き起こす",
+          "link": "https://www.theregister.com/security/2026/07/02/smooth-ai-criminal-drives-first-end-to-end-agentic-ransomware-attack/5266073",
+          "source": "The Register（英語）",
+          "published": "2026-07-02T18:05:50",
+          "excerpt": "たとえお金を払ったとしても、LLM がデータを返してくれるのを期待しないでください"
+        },
         {
           "title": "Linux 6.9 以降、LUKS サスペンドはメモリからのディスク暗号化キーの消去を停止しました。",
           "link": "https://mathstodon.xyz/@iblech/116769502749142438",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-02T04:26:03",
           "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
-        },
-        {
-          "title": "Google の新たな Android マルウェア",
-          "link": "https://f-droid.org/2026/07/01/adv-malware.html",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-02T03:00:15",
-          "excerpt": "記事の URL: https://f-droid.org/2026/07/01/adv-malware.html コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "アメリカがAIトレーニングへの支援を求める中、ソフトバンクがレンタルGPU競争に参戦",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/02/softbank-enters-the-rent-a-gpu-race-as-america-looks-for-support-for-ai-training/5265998",
-      "source": "The Register（英語）",
-      "published": "2026-07-02T16:59:00",
-      "excerpt": "日本の大手企業は、構築中の 10 GW の米国サーバー ファームを何らかの用途で見つける必要がある"
+      "title": "Meta、バイブコーディングされたゲームアプリ Pocket を静かにローンチ",
+      "link": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-02T18:44:02",
+      "excerpt": "Meta は、ユーザーがテキスト プロンプトを使用してインタラクティブなミニ ゲームを生成および共有できる実験的な AI アプリである Pocket を密かにリリースしました。"
     },
     {
-      "title": "Ars Live の要約: NASA が切実に必要としている大型ロケットはいつ準備が整いますか?",
-      "link": "https://arstechnica.com/space/2026/07/ars-live-recap-when-are-the-big-rockets-nasa-desperately-needs-going-to-be-ready/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-02T16:46:47",
-      "excerpt": "新しいロケットの日付を発表し、実際に発射した人を私は見たことがありません。"
+      "title": "旅行アプリのホッパー、隠れた手数料を「不当に」請求したとしてFTC和解で3,500万ドルを支払う",
+      "link": "https://techcrunch.com/2026/07/02/travel-app-hopper-to-pay-35m-in-ftc-settlement-over-unfairly-charging-hidden-fees/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-02T18:39:14",
+      "excerpt": "ホッパーは、料金を隠し、サービスの費用と利点について旅行者を誤解させるために欺瞞的な「ダークパターン」を使用したというFTCの申し立てを解決するために、3,500万ドルを支払う予定である。"
     },
     {
-      "title": "Plex が 250 ドルの 5 年間会員パスをデビュー",
-      "link": "https://arstechnica.com/gadgets/2026/07/250-used-to-get-you-a-lifetime-plex-pass-now-you-get-a-five-year-subscription/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-02T16:35:59",
-      "excerpt": "Plex は顧客に、より新しい機能とより頻繁な支払いを推奨しています。"
+      "title": "JAWS-UG AI-DLC支部第1回勉強会に参加してきた - Raja SP来日記念スペシャル",
+      "link": "https://dev.classmethod.jp/articles/jawsug-aidlc-01-report-raja-sp-special/",
+      "source": "DevelopersIO",
+      "published": "2026-07-02T18:05:01",
+      "excerpt": "JAWS-UG AI-DLC支部第1回勉強会に参加してきた - Raja SP来日記念スペシャル"
     },
     {
-      "title": "エボラ出血熱の流行が猛威を振るう中、アフリカCDCがウガンダでのマールブルグ感染を確認",
-      "link": "https://arstechnica.com/health/2026/07/africa-cdc-confirms-marburg-case-in-uganda-as-ebola-outbreak-rages/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-02T16:30:37",
-      "excerpt": "初期の報告では、別の症例が発生する可能性があることが示唆されていますが、広がりは局所的であると考えられています。"
+      "title": "ボーイング傘下のウィスク・エアロ、安全性への懸念を表明したマネージャーの解雇で告発",
+      "link": "https://techcrunch.com/2026/07/02/boeing-owned-wisk-aero-accused-of-firing-manager-who-raised-safety-concerns/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-02T17:30:04",
+      "excerpt": "元ソフトウェアマネージャーは、ウィスクが2025年の重要な飛行テストに先立ってソフトウェアテストを急いだと主張している。"
     }
   ]
 }
