@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-02T11:25:23",
+  "generated_at": "2026-07-02T13:14:34",
   "window_hours": 24,
-  "total": 247,
+  "total": 254,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。AWS Summit 2026で「AI エージェントで切り拓く次世代の Amazon Aurora への移行」セッションに参加してきました。…",
+      "summary": "生成AIの新着が46件。Snowflakeが示す、企業のAIエージェント活用に不可欠なデータ基盤とは？",
       "articles": [
+        {
+          "title": "Snowflakeが示す、企業のAIエージェント活用に不可欠なデータ基盤とは？",
+          "link": "https://codezine.jp/article/detail/28834",
+          "source": "CodeZine",
+          "published": "2026-07-02T12:00:00",
+          "excerpt": "Snowflakeが示す、企業のAIエージェント活用に不可欠なデータ基盤とは？"
+        },
+        {
+          "title": "Amazon Bedrock AgentCoreと Snowflakeで「ユーザー権限そのまま」アクセスする設計案 | Fusic 技術ブログのフィード",
+          "link": "https://zenn.dev/fusic/articles/e1a7d7d3591184",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-02T10:46:20",
+          "excerpt": "はじめにFusicのレオナです。…"
+        },
         {
           "title": "【セッションレポート】 AI エージェントで切り拓く次世代の Amazon Aurora への移行 ― コード変更の実践とお客様検証事例[DAT302]",
           "link": "https://dev.classmethod.jp/articles/aws-summit-japan-2026-DAT302/",
@@ -22,28 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-02T09:58:41",
           "excerpt": "【非エンジニアのためのClaude/ClaudeCodeシリーズ】ベテラン営業。Claudeに営業を教えてもらう"
-        },
-        {
-          "title": "株式会社ラクス: 伝票作成 AI エージェントの構築と、品質を支える評価設計の取り組み",
-          "link": "https://aws.amazon.com/jp/blogs/news/rakus-ai-agent-development-and-evaluations/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-02T09:15:37",
-          "excerpt": "本ブログは株式会社ラクス様と Amazon Web Services Japan 合同会社が共同で執筆しました […]"
-        },
-        {
-          "title": "「社内テンプレートから外れないスライド」をAIに作らせるClaude Codeスキルを作った話（スキル本文付き） | スペースマーケット Engineer Blogのフィード",
-          "link": "https://zenn.dev/spacemarket/articles/503331dc51a746",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-02T09:09:55",
-          "excerpt": "こんにちは、jin です。少し前に、社内向けに 「自社テンプレート準拠の PowerPoint を生成する Claude Code スキル」 を作りました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が32件。AWS Summit 2026で「AI エージェントで切り拓く次世代の Amazon Aurora への移行」セッションに参加してきました。…",
+      "summary": "クラウドの新着が32件。こんにちは。まちやです！皆さんはLambdaのコールドスタート時の処理速度に悩まされたことは ありますでしょうか？Webアプリを開発していたのですが、画面のレンダリングに平均11秒かかるという深刻なパフォーマンス問題に直面しました。…",
       "articles": [
+        {
+          "title": "Lambdaのパフォーマンスチューニングで処理速度を3倍速くした話",
+          "link": "https://qiita.com/MasatakaMachiya/items/91f5e5785ce1f7e51234",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-02T11:35:55",
+          "excerpt": "こんにちは。まちやです！皆さんはLambdaのコールドスタート時の処理速度に悩まされたことは ありますでしょうか？Webアプリを開発していたのですが、画面のレンダリングに平均11秒かかるという深刻なパフォーマンス問題に直面しました。…"
+        },
+        {
+          "title": "GuardDutyの新機能「SensitiveFileModified検出」をECS Express Modeで試してみた",
+          "link": "https://dev.classmethod.jp/articles/guardduty-sensitive-file-modified-ecs-express-mode/",
+          "source": "DevelopersIO",
+          "published": "2026-07-02T11:24:57",
+          "excerpt": "2026年7月リリースのGuardDuty SensitiveFileModified検出を、同時期にサイドカー対応したECS Express Mode環境で検証しました。…"
+        },
         {
           "title": "【セッションレポート】 AI エージェントで切り拓く次世代の Amazon Aurora への移行 ― コード変更の実践とお客様検証事例[DAT302]",
           "link": "https://dev.classmethod.jp/articles/aws-summit-japan-2026-DAT302/",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-02T09:58:24",
           "excerpt": "はじめに S3オブジェクトの削除を目的として Terraform Apply を実施したところ、表題のエラーが発生しました。問題 s3のバケットのTerraformモジュールを削除後、Applyを実施したところ、以下のエラーが発生しました。…"
-        },
-        {
-          "title": "【AWS Summit Japan 2026 セッションレポート】140,000 サーバー・900PB のリージョン移行: Amazon 最大規模の事例に学ぶ実践知 | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/07/02/183427",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-02T09:34:27",
-          "excerpt": "はじめに マルチリージョン化のポイント IaCによるシステム管理 ハードコードの解消 AIによるコード変換 DBの整合性設計の見直し まとめ 最後に はじめに システムのマルチリージョン化により、リージョン障害時のサービス停止リスクの低減と…"
-        },
-        {
-          "title": "Metagenomi が LanceDB と Amazon S3 で実現した 10 億ベクトル超のスケーラブルな検索基盤",
-          "link": "https://aws.amazon.com/jp/blogs/news/search-solution-for-1b-vectors-built-on-lancedb/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-02T09:23:52",
-          "excerpt": "Metagenomi は LanceDB、Amazon S3、AWS Lambda を組み合わせ、35 億件のタンパク質エンベディングを低コストで保存・検索するサーバーレスソリューションを構築しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。",
+      "summary": "セキュリティの新着が15件。2026年7月リリースのGuardDuty SensitiveFileModified検出を、同時期にサイドカー対応したECS Express Mode環境で検証しました。…",
       "articles": [
+        {
+          "title": "GuardDutyの新機能「SensitiveFileModified検出」をECS Express Modeで試してみた",
+          "link": "https://dev.classmethod.jp/articles/guardduty-sensitive-file-modified-ecs-express-mode/",
+          "source": "DevelopersIO",
+          "published": "2026-07-02T11:24:57",
+          "excerpt": "2026年7月リリースのGuardDuty SensitiveFileModified検出を、同時期にサイドカー対応したECS Express Mode環境で検証しました。…"
+        },
         {
           "title": "【Security Hub修復手順】[SageMaker.10] SageMaker モデルの説明可能性ジョブ定義では、コンテナ間のトラフィック暗号化を有効にする必要があります",
           "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-sagemaker-10/",
@@ -99,21 +106,21 @@
           "source": "gihyo.jp 開発",
           "published": "2026-07-02T02:00:00",
           "excerpt": "『Software Design 2026年7月号』の第1特集「セキュリティバイデザイン入門」から第4章「開発プロセスに組み込む継続的なセキュリティ対策」を公開します。"
-        },
-        {
-          "title": "その製品、本当に\"国産\"？　セキュリティ製品を評価する新指標「日本度」が始動",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/02/news040.html",
-          "source": "@IT",
-          "published": "2026-07-01T22:30:00",
-          "excerpt": "国産セキュリティ製品とは、条件をどこまで満たせば「国産」と言えるのか。日本サイバーセキュリティ産業振興コミュニティは、製品やサービスが国内でどの程度自律的に運用・統制・継続・保護できるかを評価する新指標「日本度」の概要を公開した。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。Amazon OpenSearch Service にログ分析に特化した新エンジンが加わりました。価格性能比は最大 4 倍、取り込み速度は 2 倍、ストレージコストは最大 70% 削減されます。…",
+      "summary": "データ分析の新着が8件。Snowflakeが示す、企業のAIエージェント活用に不可欠なデータ基盤とは？",
       "articles": [
+        {
+          "title": "Snowflakeが示す、企業のAIエージェント活用に不可欠なデータ基盤とは？",
+          "link": "https://codezine.jp/article/detail/28834",
+          "source": "CodeZine",
+          "published": "2026-07-02T12:00:00",
+          "excerpt": "Snowflakeが示す、企業のAIエージェント活用に不可欠なデータ基盤とは？"
+        },
         {
           "title": "Amazon OpenSearch Service の新エンジンでログ分析コストを大幅に削減",
           "link": "https://aws.amazon.com/jp/blogs/news/run-log-analytics-for-a-fraction-of-the-cost-with-the-new-engine-for-amazon-opensearch-service/",
@@ -134,13 +141,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-02T00:01:21",
           "excerpt": "はじめに AWS Summit Japan 2026に参加しました.参加したセッションについてレポートを記載します.セッション毎に関連キーワードとポイント(3～6つ)を記載します.…"
-        },
-        {
-          "title": "画面のないFitbit Airを1ヵ月使って見えた「引き算」の価値",
-          "link": "https://gihyo.jp/article/2026/07/android-weekly-topics-260702?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-07-01T23:53:00",
-          "excerpt": "ディスプレイを完全に排除し、「通知疲れ」や「デジタルデトックス」への答えとして登場した「Fitbit Air」。今回は、この画面を持たないこのミニマルなウェアラブルを1ヵ月使い込だ印象をまとめておきます。"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "余剰AI能力を売却するメタビルディングクラウド事業",
-      "link": "https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/",
+      "title": "ペースメーカーメーカーのメドトロニック、サイバー犯罪者が健康データを盗んだ可能性があると患者に警告",
+      "link": "https://www.theregister.com/security/2026/07/02/pacemaker-manufacturer-medtronic-warns-patients-cybercrooks-may-have-swiped-health-data/5265768",
+      "source": "The Register（英語）",
+      "published": "2026-07-02T12:54:00",
+      "excerpt": "インスリンポンプやその他の機器も製造する会社が、シャイニーハンターズ攻撃の数カ月後に何が暴露されたかをユーザーに伝える"
+    },
+    {
+      "title": "リビアン、第2四半期の生産増加に伴いEV販売予測を引き上げ",
+      "link": "https://techcrunch.com/2026/07/02/rivian-thinks-it-will-sell-more-evs-than-expected-this-year/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-02T12:30:00",
+      "excerpt": "同社は先月SUV「R2」を発売した後、2026年末までに従来予想よりも数千台多くの車両が出荷されると見込んでいる。"
+    },
+    {
+      "title": "このブログは en-GB で書かれています",
+      "link": "https://shkspr.mobi/blog/2026/07/this-blog-is-written-in-en-gb/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-02T10:43:41",
-      "excerpt": "記事の URL: https://www.reuters.…"
+      "published": "2026-07-02T12:17:33",
+      "excerpt": "記事の URL: https://shkspr.mobi/blog/2026/07/this-blog-is-write-in-en-gb/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Nvidia、スタートアップ顧客にコンピューティング能力を収益分配と交換する機会を提供",
-      "link": "https://www.cnbc.com/2026/07/02/nvidia-plans-to-offer-start-up-customers-access-to-revenue-sharing-deals.html",
+      "title": "1 つのレイヤーで十分ですか?単一の変圧器レイヤーがフルパラメータ RL トレインに一致",
+      "link": "https://arxiv.org/abs/2607.01232",
       "source": "Hacker News（英語）",
-      "published": "2026-07-02T10:41:33",
-      "excerpt": "記事の URL: https://www.cnbc.com/2026/07/02/nvidia-plans-to-offer-start-up-customers-access-to-revenue-sharing-deals.…"
-    },
-    {
-      "title": "LINEに特別なブロック機能、相手の友だち一覧から自分を消せる　今秋から有料提供へ　予約送信・通話録音も",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/02/news110.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-02T10:39:00",
-      "excerpt": "LINEに特別なブロック機能、相手の友だち一覧から自分を消せる　今秋から有料提供へ　予約送信・通話録音も"
-    },
-    {
-      "title": "社説: 科学に対して自らの意見を表明する時が来ました",
-      "link": "https://arstechnica.com/science/2026/07/editorial-the-most-important-thing-you-can-do-to-protect-science/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-02T10:00:27",
-      "excerpt": "政治家に科学の責任を負わせる危険なルールについてのあなたのコメントは重要になる可能性があります。"
+      "published": "2026-07-02T12:10:24",
+      "excerpt": "記事の URL: https://arxiv.org/abs/2607.01232 コメント URL: https://news.ycombinator.com/item?id=48760201 ポイント: 4 コメント数: 0"
     }
   ]
 }
