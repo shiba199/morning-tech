@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-03T13:18:48",
+  "generated_at": "2026-07-03T15:32:19",
   "window_hours": 24,
-  "total": 223,
+  "total": 211,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。こんにちは！Martimです！今回は、2026年7月1日に提供を再開した Claude Fable 5 の「性能は本当に落ちたのか？」という疑問に、2つのベンチマークデータを使って迫っていきます！…",
+      "summary": "生成AIの新着が31件。こんにちは！Martimです！今回は、2026年7月1日に提供を再開した Claude Fable 5 の「性能は本当に落ちたのか？」という疑問に、2つのベンチマークデータを使って迫っていきます！…",
       "articles": [
         {
           "title": "帰ってきたClaude Fable 5は本当に弱体化したのか？ ベンチマーク2種をわかりやすく解説！",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が28件。Laravelアプリケーションをリリースする際、データベースのマイグレーションは欠かせません。以前は、アプリケーションをデプロイした後に踏み台サーバーへSSH接続し、手動でマイグレーションを実行していました。…",
+      "summary": "クラウドの新着が24件。Laravelアプリケーションをリリースする際、データベースのマイグレーションは欠かせません。以前は、アプリケーションをデプロイした後に踏み台サーバーへSSH接続し、手動でマイグレーションを実行していました。…",
       "articles": [
         {
           "title": "CodePipeline・CodeBuildでLaravelのマイグレーションを自動化した話",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。はじめに こんにちは、日々クラウドセキュリティ業務に従事している新卒2年目です。先日、「AWS Summit Japan 2026」のDay2に初めて参加してきました。…",
+      "summary": "セキュリティの新着が8件。上席執行役員/CTO 小池と高度解析課のアルバイトの戸田です。…",
       "articles": [
+        {
+          "title": "19年以上見過ごされていたLinux kernelのゼロデイ脆弱性を報告した話：CVE-2026-43456 | セキュリティブログ | 脆弱性診断（セキュリティ診断）のGMOサイバーセキュリティ byイエラエ",
+          "link": "https://gmo-cybersecurity.com/blog/19-year-old-linux-kernel-zero-day/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-07-03T10:57:26",
+          "excerpt": "上席執行役員/CTO 小池と高度解析課のアルバイトの戸田です。…"
+        },
         {
           "title": "AWS Summit Japan 2026に初参加！セキュリティ系セッションで感じた学びと気付き",
           "link": "https://zenn.dev/cscloud_blog/articles/awssummit2026-report01",
@@ -99,13 +106,6 @@
           "source": "@IT",
           "published": "2026-07-03T04:00:00",
           "excerpt": "ランサムウェアに備えてバックアップデータをどう守るか。都筑製作所が採用したのは、イミュータブルストレージではなく、LTO磁気テープを使ったオフライン保管だった。なぜこの方式を選び、どう実現したのか。"
-        },
-        {
-          "title": "スタートアップがパロアルトネットワークスのKoi Securityを訴え、AI幻覚報告書が中国のスパイ活動と誤って結び付けられていると主張",
-          "link": "https://www.theregister.com/legal/2026/07/02/startup-sues-palo-alto-networks-koi-security-saying-an-ai-hallucinated-report-falsely-linked-it-to-chinese-espionage/5266201",
-          "source": "The Register（英語）",
-          "published": "2026-07-02T22:47:46",
-          "excerpt": "MeetingTV は証拠を見たいと考えています"
         }
       ]
     },
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が22件。Laravelアプリケーションをリリースする際、データベースのマイグレーションは欠かせません。以前は、アプリケーションをデプロイした後に踏み台サーバーへSSH接続し、手動でマイグレーションを実行していました。…",
+      "summary": "開発ツールの新着が22件。AWS CLI v2.35.13 で CodeBuild のオンデマンドビルドに hostKernel パラメータが追加されました。…",
       "articles": [
+        {
+          "title": "AWS CodeBuild のオンデマンドビルドの新機能「ホストカーネル選択」を試してみた",
+          "link": "https://dev.classmethod.jp/articles/codebuild-host-kernel-selection/",
+          "source": "DevelopersIO",
+          "published": "2026-07-03T13:21:49",
+          "excerpt": "AWS CLI v2.35.13 で CodeBuild のオンデマンドビルドに hostKernel パラメータが追加されました。…"
+        },
         {
           "title": "CodePipeline・CodeBuildでLaravelのマイグレーションを自動化した話",
           "link": "https://qiita.com/lqqtotzo/items/ffb8c3e5c9b537510029",
@@ -162,45 +169,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-03T10:09:52",
           "excerpt": "SAM CLI v1.163.0で追加された`--express`フラグを使い、CloudFormation Express modeのデプロイ時間短縮効果を検証しました。…"
-        },
-        {
-          "title": "早速お試し、新機能のAWS CDKのExpressモードはどれぐらい速いのか？ | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/aws-cdk-express-mode-benchmark",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-03T09:21:26",
-          "excerpt": "こんにちは。アプリケーションサービス本部、DevOps担当の兼安です。2026年6月末、AWS CloudFormationとAWS CDKのExpressモードがリリースされました。aws.amazon.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AI データセンターはほとんどの大手テクノロジー企業よりも多くの水を使用しているとの報告書",
-      "link": "https://www.wsj.com/tech/ai/ai-data-centers-water-use-901e2902",
+      "title": "まだ仕事ができない: ゴールポストを移動し続けた 4 年間 (2022 ～ 2026)",
+      "link": "https://publicznyprofil.github.io/ai_cant_do_your_work/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-03T12:33:20",
-      "excerpt": "記事の URL: https://www.wsj.com/tech/ai/ai-data-centers-water-use-901e2902 コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-03T15:02:23",
+      "excerpt": "記事の URL: https://publicznyprofil.github.io/ai_cant_do_your_work/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "講談社、「はたらく細胞」著者に謝罪　監修体制や作画環境「適切に履行できず」　本人のX投稿受け",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/03/news139.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-03T12:15:00",
-      "excerpt": "講談社は7月3日、漫画「はたらく細胞」の作者・清水茜さんがX上で公表した連載当時の編集部対応などの指摘について謝罪文を掲載し、医療監修体制や作画環境の整備を「適切に履行することができませんでした」と認めた。"
+      "title": "[新機能]Omni上でクエリ結果に対して任意の数値・文字列を1列追加できる「Input Columns」を試してみた",
+      "link": "https://dev.classmethod.jp/articles/omni-try-input-columns/",
+      "source": "DevelopersIO",
+      "published": "2026-07-03T14:41:21",
+      "excerpt": "Omniの新機能「Input Columns」を試してみました。クエリ結果に編集可能な列を直接追加し、Omni画面内で注釈やステータスをインラインで入力・保存できる機能です。…"
     },
     {
-      "title": "ビッグテックに対するZ世代の怒りを利用したラッダイト・フェスティバルの内部",
-      "link": "https://arstechnica.com/culture/2026/07/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
+      "title": "Rocket Report: インドのスタートアップが最初の立ち上げに近づいている。 SpaceX の千年のマイルストーン",
+      "link": "https://arstechnica.com/space/2026/07/rocket-report-indian-startup-nears-first-launch-spacexs-millenary-milestone/",
       "source": "Ars Technica（英語）",
-      "published": "2026-07-03T12:00:36",
-      "excerpt": "ニューヨーク市のサマー オブ ラッド フェスティバルは、オフラインで生きる方法を人々に教えています。"
+      "published": "2026-07-03T13:55:35",
+      "excerpt": "NASA は、同社の Electron ロケットを使用した 3 回の専用打ち上げに関して、Rocket Lab との契約を締結しました。"
     },
     {
-      "title": "アマゾンは競合他社のスターリンクを打ち上げるのに十分な衛星を保有している",
-      "link": "https://www.theverge.com/science/960563/amazon-leo-service-tipping-point",
+      "title": "ハッカーたちは会社のために雪かきをし、報酬としてネットワーク管理者アクセス権を獲得した",
+      "link": "https://www.theregister.com/security/2026/07/02/hackers-shoveled-snow-for-company-were-rewarded-with-network-admin-access/5265240",
       "source": "Hacker News（英語）",
-      "published": "2026-07-03T11:50:20",
-      "excerpt": "記事の URL: https://www.theverge.com/science/960563/amazon-leo-service-tipping-point コメント URL: https://news.ycombinator.…"
+      "published": "2026-07-03T13:19:46",
+      "excerpt": "記事の URL: https://www.theregister.…"
     }
   ]
 }
