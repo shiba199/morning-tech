@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-07-03T08:46:04",
+  "generated_at": "2026-07-03T11:24:39",
   "window_hours": 24,
-  "total": 218,
+  "total": 222,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。Claude Fable 5に値上げメールを指示の細かさ3段階で書かせ比較した結果、指示が細かいほど完成度は上がるがAI発の気づきは減ることがわかり、任せどころを見極めることをお奨めしています。",
+      "summary": "生成AIの新着が34件。Claude Code v2.1.199がリリースされました。今回はバックグラウンドエージェントとサブエージェントの安定性向上、ネットワーク周辺の信頼性改善を中心とした不具合修正が主体です。…",
       "articles": [
+        {
+          "title": "Claude Code v2.1.199 の主要アップデート",
+          "link": "https://dev.classmethod.jp/articles/20260703-cc-updates-v2-1-199/",
+          "source": "DevelopersIO",
+          "published": "2026-07-03T09:56:22",
+          "excerpt": "Claude Code v2.1.199がリリースされました。今回はバックグラウンドエージェントとサブエージェントの安定性向上、ネットワーク周辺の信頼性改善を中心とした不具合修正が主体です。…"
+        },
+        {
+          "title": "[ブースレポート] 体験！生成AIを活用した自治体DX〜AI窓口対応×コールセンター",
+          "link": "https://dev.classmethod.jp/articles/aws-summit-2026-a037-jichitai-dx/",
+          "source": "DevelopersIO",
+          "published": "2026-07-03T09:43:21",
+          "excerpt": "AWS Summit Japan 2026のパブリックセクター向けブースで展示されていた、生成AIを活用した自治体DXソリューションを体験してきました。"
+        },
+        {
+          "title": "WSL2環境Claude Codeのセッション状態でターミナルの背景色を塗り分ける方法",
+          "link": "https://dev.classmethod.jp/articles/claude-code-terminal-bg-color-hook/",
+          "source": "DevelopersIO",
+          "published": "2026-07-03T09:28:08",
+          "excerpt": "Claude Codeを複数セッション並行実行するとき、どのセッションが完了したのか分かりにくかったので、ターミナルの背景色を状態ごとに塗り分ける仕組みを作ってみました。OSC 11エスケープシーケンスとsettings.…"
+        },
         {
           "title": "【非エンジニアのためのClaude/ClaudeCodeシリーズ】細かいプロンプトはAIの思考を狭めるのか？Claude Fableで検証してみた",
           "link": "https://dev.classmethod.jp/articles/fable5-thinking/",
           "source": "DevelopersIO",
           "published": "2026-07-03T08:31:26",
           "excerpt": "Claude Fable 5に値上げメールを指示の細かさ3段階で書かせ比較した結果、指示が細かいほど完成度は上がるがAI発の気づきは減ることがわかり、任せどころを見極めることをお奨めしています。"
-        },
-        {
-          "title": "NVIDIA LLM Router の後継 NeMo Switchyard を試してみた",
-          "link": "https://dev.classmethod.jp/articles/nvidia-nemo-switchyard-first-touch/",
-          "source": "DevelopersIO",
-          "published": "2026-07-03T08:17:32",
-          "excerpt": "NVIDIA LLM Router の後継にあたる Python ライブラリ「NeMo Switchyard」がアルファリリースされました。実際に動かして試してみました。"
-        },
-        {
-          "title": "【AWX連携編】Zabbix × ServiceNow × AWX × Bedrockで障害初動対応を自動化してみた",
-          "link": "https://qiita.com/920201_dev_eng/items/52c90fa6065bd6d601fe",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-03T06:14:53",
-          "excerpt": "はじめに こんにちは！しばらく期間が開いてしまいました。毎年6月はITイベントが多くて刺激になりますね！今年も無事AWSサミット参加できてほっとしています。本題に戻して、前回のおさらいから！…"
-        },
-        {
-          "title": "アンソロピックが提供する資格試験Claude Certified Architect - FoundationsをピアソンVUEから申し込んでみた",
-          "link": "https://dev.classmethod.jp/articles/claude-certified-architect-foundations-pearson-vue/",
-          "source": "DevelopersIO",
-          "published": "2026-07-03T05:09:37",
-          "excerpt": "Anthropicの認定資格Claude Certified Architect - Foundations(CCAR-F)の受験について、Skilljarでの登録・決済からピアソンVUEでの試験予約まで、届くメールと合わせて流れを紹介しま…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が28件。IRSAからEKS Pod Identityへの移行：OIDCなしでAWS Load Balancer Controllerをインストールする 背景 AWS EKSのPodがAWSリソースにアクセスする認可方式は主に3つあります。…",
+      "summary": "クラウドの新着が29件。Laravelアプリケーションをリリースする際、データベースのマイグレーションは欠かせません。以前は、アプリケーションをデプロイした後に踏み台サーバーへSSH接続し、手動でマイグレーションを実行していました。…",
       "articles": [
         {
-          "title": "IRSAからEKS Pod Identityへの移行：OIDCなしでAWS Load Balancer Controllerをインストールする",
-          "link": "https://qiita.com/dlzhangxp/items/7b99f9662987113b2aa3",
+          "title": "CodePipeline・CodeBuildでLaravelのマイグレーションを自動化した話",
+          "link": "https://qiita.com/lqqtotzo/items/ffb8c3e5c9b537510029",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-03T08:33:59",
-          "excerpt": "IRSAからEKS Pod Identityへの移行：OIDCなしでAWS Load Balancer Controllerをインストールする 背景 AWS EKSのPodがAWSリソースにアクセスする認可方式は主に3つあります。…"
+          "published": "2026-07-03T11:07:20",
+          "excerpt": "Laravelアプリケーションをリリースする際、データベースのマイグレーションは欠かせません。以前は、アプリケーションをデプロイした後に踏み台サーバーへSSH接続し、手動でマイグレーションを実行していました。…"
         },
         {
-          "title": "Lambda × S3 で理解するPython DI・Pytest (初歩の初歩)",
-          "link": "https://qiita.com/makoware/items/5bba513de2744a5713d0",
+          "title": "【実務向け】LocalStack + S3 + Lambda をローカルで構築する手順まとめ",
+          "link": "https://qiita.com/lqqtotzo/items/c0b94adc6e2f29311742",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-03T08:31:25",
-          "excerpt": "0.はじめに 生成AI に書いてもらった Lambda 関数のコードを読んでいたら、いきなりこんなクラスから始まりました。…"
+          "published": "2026-07-03T10:53:21",
+          "excerpt": "AWSを使った開発では、 ちょっとした修正でもdev環境へデプロイが必要 S3イベントを試したいだけなのに時間がかかる Lambdaとの連携を気軽に確認したい という場面がよくあります。…"
         },
         {
-          "title": "AWS Configが8つのリソースタイプを追加サポート。S3 VectorsのVectorBucketで試してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-config-new-resource-types-s3vectors-vectorbucket/",
-          "source": "DevelopersIO",
-          "published": "2026-07-03T03:35:15",
-          "excerpt": "AWS Configが新たに8つのリソースタイプをサポートしました。…"
+          "title": "AWSでCI/CDパイプラインを構築し、Node.js製Lambdaを自動デプロイした話",
+          "link": "https://qiita.com/lqqtotzo/items/1de3082e2384f2a3d573",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-03T10:49:41",
+          "excerpt": "以前はLambdaのデプロイを手作業で行っていました。ZIPファイルを作成 AWSコンソールからアップロード 動作確認 という流れです。…"
         },
         {
-          "title": "AWSSAPに3か月で合格した新卒が挑むTerraform実務超直結講座！【第1回：VPC＆基礎Provider編】",
-          "link": "https://qiita.com/nyarusasu22/items/9c1d062a8c13c3f9f207",
+          "title": "【CloudFront x S3】署名付きCookieを実装してみた",
+          "link": "https://qiita.com/jyas-protein/items/cf7f0a7353e56741ef7b",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-03T01:21:36",
-          "excerpt": "はじめに 私は未経験からAWSの学習を始め、約3か月でAWS Certified Solutions Architect - Professional（SAP）に合格しました。しかし、合格したときに強く感じたことがあります。…"
+          "published": "2026-07-03T10:27:38",
+          "excerpt": "はじめに 今回は、Amazon CloudFrontの署名付きCookie機能を実際に使ってみたので、その内容をまとめてみました。少しでも参考になれば幸いです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。ランサムウェアに備えてバックアップデータをどう守るか。都筑製作所が採用したのは、イミュータブルストレージではなく、LTO磁気テープを使ったオフライン保管だった。なぜこの方式を選び、どう実現したのか。",
+      "summary": "セキュリティの新着が9件。はじめに こんにちは、日々クラウドセキュリティ業務に従事している新卒2年目です。先日、「AWS Summit Japan 2026」のDay2に初めて参加してきました。…",
       "articles": [
+        {
+          "title": "AWS Summit Japan 2026に初参加！セキュリティ系セッションで感じた学びと気付き",
+          "link": "https://zenn.dev/cscloud_blog/articles/awssummit2026-report01",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-03T06:20:43",
+          "excerpt": "はじめに こんにちは、日々クラウドセキュリティ業務に従事している新卒2年目です。先日、「AWS Summit Japan 2026」のDay2に初めて参加してきました。…"
+        },
+        {
+          "title": "「SCPで許可した」は存在しない — SCPとIAMを“直列2枚のゲート”で一発整理",
+          "link": "https://zenn.dev/infrashift/articles/c28cb9e8d691cb",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-03T05:03:57",
+          "excerpt": "!この記事は「SCPとIAMの関係」を直列2枚のゲートという一点に絞った要点版です。「SCPでS3を許可の枠に入れた。でもIAMにS3許可が無い開発者は、S3を使える？」 ——即答できますか。私は一瞬 「SCPで枠に入れたんだから使える？…"
+        },
         {
           "title": "「バックアップが暗号化されて使えない」を今あえてテープで防ぐ　製造業はどう実現した？",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/03/news049.html",
@@ -92,28 +106,21 @@
           "source": "The Register（英語）",
           "published": "2026-07-02T22:47:46",
           "excerpt": "MeetingTV は証拠を見たいと考えています"
-        },
-        {
-          "title": "[アップデート] Kiro Web のサンドボックスに IAM ロールを設定して AWS リソースへアクセスできるようになりました",
-          "link": "https://dev.classmethod.jp/articles/kiro-web-sandbox-service-role/",
-          "source": "DevelopersIO",
-          "published": "2026-07-02T21:12:22",
-          "excerpt": "[アップデート] Kiro Web のサンドボックスに IAM ロールを設定して AWS リソースへアクセスできるようになりました"
-        },
-        {
-          "title": "新たに発見された PamStealer は典型的な macOS マルウェアではありません",
-          "link": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-07-02T19:38:57",
-          "excerpt": "The discovery underscores the increased effort being poured into Mac infostealers."
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。はじめに こんにちは！しばらく期間が開いてしまいました。毎年6月はITイベントが多くて刺激になりますね！今年も無事AWSサミット参加できてほっとしています。本題に戻して、前回のおさらいから！…",
+      "summary": "データ分析の新着が3件。Google脅威分析グループは、FBIなどと共同で大規模悪質プロキシ「NetNut」をテイクダウンしたと発表した。家庭のスマートTVなど200万台超をボット化し、国家スパイやサイバー犯罪者が企業の検知をすり抜ける踏み台としていた。…",
       "articles": [
+        {
+          "title": "GoogleやFBI、悪質プロキシ「NetNut」をテイクダウン　スマートTVなど200万台超をボット化",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/03/news125.html",
+          "source": "@IT",
+          "published": "2026-07-03T08:46:00",
+          "excerpt": "Google脅威分析グループは、FBIなどと共同で大規模悪質プロキシ「NetNut」をテイクダウンしたと発表した。家庭のスマートTVなど200万台超をボット化し、国家スパイやサイバー犯罪者が企業の検知をすり抜ける踏み台としていた。…"
+        },
         {
           "title": "【AWX連携編】Zabbix × ServiceNow × AWX × Bedrockで障害初動対応を自動化してみた",
           "link": "https://qiita.com/920201_dev_eng/items/52c90fa6065bd6d601fe",
@@ -133,67 +140,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が18件。Slack新機能「Slackbot MCP Client」にBacklog公式MCPサーバーを接続し、Slack上でBacklogのプロジェクトや課題を扱えるようにしてみました。…",
+      "summary": "開発ツールの新着が21件。Laravelアプリケーションをリリースする際、データベースのマイグレーションは欠かせません。以前は、アプリケーションをデプロイした後に踏み台サーバーへSSH接続し、手動でマイグレーションを実行していました。…",
       "articles": [
+        {
+          "title": "CodePipeline・CodeBuildでLaravelのマイグレーションを自動化した話",
+          "link": "https://qiita.com/lqqtotzo/items/ffb8c3e5c9b537510029",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-03T11:07:20",
+          "excerpt": "Laravelアプリケーションをリリースする際、データベースのマイグレーションは欠かせません。以前は、アプリケーションをデプロイした後に踏み台サーバーへSSH接続し、手動でマイグレーションを実行していました。…"
+        },
+        {
+          "title": "AWSでCI/CDパイプラインを構築し、Node.js製Lambdaを自動デプロイした話",
+          "link": "https://qiita.com/lqqtotzo/items/1de3082e2384f2a3d573",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-03T10:49:41",
+          "excerpt": "以前はLambdaのデプロイを手作業で行っていました。ZIPファイルを作成 AWSコンソールからアップロード 動作確認 という流れです。…"
+        },
+        {
+          "title": "AWS SAMも「--expressフラグ」をサポート。デプロイ時間短縮効果を3構成で比較してみた",
+          "link": "https://dev.classmethod.jp/articles/sam-deploy-express-mode-benchmark/",
+          "source": "DevelopersIO",
+          "published": "2026-07-03T10:09:52",
+          "excerpt": "SAM CLI v1.163.0で追加された`--express`フラグを使い、CloudFormation Express modeのデプロイ時間短縮効果を検証しました。…"
+        },
         {
           "title": "BacklogのMCPサーバーをSlackbot MCP Clientに接続",
           "link": "https://dev.classmethod.jp/articles/256410d1c2c0c4eb0d86e783eee72c928dddeba02d0f7568c77d8cff5b06a744/",
           "source": "DevelopersIO",
           "published": "2026-07-03T07:32:06",
           "excerpt": "Slack新機能「Slackbot MCP Client」にBacklog公式MCPサーバーを接続し、Slack上でBacklogのプロジェクトや課題を扱えるようにしてみました。…"
-        },
-        {
-          "title": "GitHub Copilot Visionが一般提供開始、画像やPDFの添付が可能に",
-          "link": "https://codezine.jp/article/detail/28840",
-          "source": "CodeZine",
-          "published": "2026-07-03T07:00:00",
-          "excerpt": "GitHub Copilot Visionが一般提供開始、画像やPDFの添付が可能に"
-        },
-        {
-          "title": "CDK スタック 4 本を Resilience Hub v2 に食わせたら「放置してた弱点」を全部言い当てられた",
-          "link": "https://qiita.com/shimitaro/items/be5aa08786c12f881f90",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-03T05:16:52",
-          "excerpt": "はじめに 「Aurora、シングル AZ のままだよな…」「NAT Gateway、1 個しかないけどまあいいか…」 心のどこかで気づいていたのに放置していた設計上の弱点、ありませんか？…"
-        },
-        {
-          "title": "VS Code向けGitHub Copilotのブラウザーツールが正式提供開始",
-          "link": "https://codezine.jp/article/detail/28838",
-          "source": "CodeZine",
-          "published": "2026-07-03T04:00:00",
-          "excerpt": "VS Code向けGitHub Copilotのブラウザーツールが正式提供開始"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Databricks は、コピーとしてカウントされる内容に応じて、OLTP と OLAP を統合します",
-      "link": "https://www.theregister.com/databases/2026/07/03/databricks-unifies-oltp-and-olap-depending-on-what-counts-as-a-copy/5265733",
+      "title": "ゆうパック、平均約10％値上げ　ゆうパケットは一律360円に　10月から",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/03/news136.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-03T10:24:00",
+      "excerpt": "日本郵便は7月3日、「ゆうパック」と「ゆうパケット」の基本運賃などを10月1日に改定すると発表した。ゆうパックの平均改定率は約10％で、ゆうパケットは厚さ別の料金を廃止し一律360円にする。"
+    },
+    {
+      "title": "Omni のスケジュール機能で Google スプレッドシートにデータを自動配信してみた",
+      "link": "https://dev.classmethod.jp/articles/omni-share-deliveries-google-sheets-tryit/",
+      "source": "DevelopersIO",
+      "published": "2026-07-03T09:30:04",
+      "excerpt": "Omni からGoogle スプレッドシートに自動配信する方法を試してみました。"
+    },
+    {
+      "title": "EUは、ロビイストよりもデータセンターの排出量を相殺するのが容易であると考えているようだ",
+      "link": "https://www.theregister.com/on-prem/2026/07/03/eu-appears-to-find-datacenter-emissions-easier-to-offset-than-lobbyists/5265814",
       "source": "The Register（英語）",
-      "published": "2026-07-03T08:30:00",
-      "excerpt": "LTAP アーキテクチャは議論の余地のあるマーケティング ピッチの下で賢明なエンジニアリングを行っています"
+      "published": "2026-07-03T09:15:00",
+      "excerpt": "報告書によると、提案された書き換えにより、事業者はより環境に優しいグレードをより自由に選択できるようになる"
     },
     {
-      "title": "AIでコーディングを始めると、レビューが地獄になる話とその解決策",
-      "link": "https://dev.classmethod.jp/articles/ai-coding-review-security/",
-      "source": "DevelopersIO",
-      "published": "2026-07-03T08:25:36",
-      "excerpt": "AIコーディングツール導入で開発速度は上がったのに、レビューが追いつかない。そんな悩みをお持ちではありませんか？本記事では、なぜレビューが「地獄」になるのかを構造的に解き明かし、Snykを使った解決策をハンズオン形式で紹介します。"
-    },
-    {
-      "title": "AWS Organizations の Amazon Inspector ポリシー利用時に後からオプトインリージョンを有効化した場合の対応手順を整理してみた",
-      "link": "https://dev.classmethod.jp/articles/amazon-inspector-policy-opt-in-region-reevaluation/",
-      "source": "DevelopersIO",
-      "published": "2026-07-03T08:15:24",
-      "excerpt": "AWS Organizations の Amazon Inspector ポリシーでオプトインリージョンを後から有効化する際の挙動を検証しました。…"
-    },
-    {
-      "title": "AWS Summit 2026 参加レポート（少し遅め）",
-      "link": "https://qiita.com/Seria_GovCloud/items/a4b65334ea45ceff4a24",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-03T07:43:57",
-      "excerpt": "少し遅くなりましたが、3回目のAWS Summitの参加レポートです。6月25日 基調講演 1日目の基調講演は、AWS の AI エージェント戦略の全体像を説明する内容であった。…"
+      "title": "防衛省のLUUP導入で小泉大臣がコメント　「情報保全上の問題ない」",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/03/news128.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-03T09:15:00",
+      "excerpt": "防衛省市ヶ谷庁舎への電動モビリティシェアサービス「LUUP」導入を巡り、SNSでは位置情報の取り扱いを不安視する声が広がっていた。小泉防衛相が7月3日の閣議後会見で、導入の背景とセキュリティ上の懸念に対する見解をコメントした。"
     }
   ]
 }
