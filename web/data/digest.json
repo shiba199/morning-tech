@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-03T11:24:39",
+  "generated_at": "2026-07-03T13:18:48",
   "window_hours": 24,
-  "total": 222,
+  "total": 223,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が34件。Claude Code v2.1.199がリリースされました。今回はバックグラウンドエージェントとサブエージェントの安定性向上、ネットワーク周辺の信頼性改善を中心とした不具合修正が主体です。…",
+      "summary": "生成AIの新着が33件。こんにちは！Martimです！今回は、2026年7月1日に提供を再開した Claude Fable 5 の「性能は本当に落ちたのか？」という疑問に、2つのベンチマークデータを使って迫っていきます！…",
       "articles": [
+        {
+          "title": "帰ってきたClaude Fable 5は本当に弱体化したのか？ ベンチマーク2種をわかりやすく解説！",
+          "link": "https://qiita.com/Martim500/items/cd627463c31a5b049ea7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-03T12:18:57",
+          "excerpt": "こんにちは！Martimです！今回は、2026年7月1日に提供を再開した Claude Fable 5 の「性能は本当に落ちたのか？」という疑問に、2つのベンチマークデータを使って迫っていきます！…"
+        },
         {
           "title": "Claude Code v2.1.199 の主要アップデート",
           "link": "https://dev.classmethod.jp/articles/20260703-cc-updates-v2-1-199/",
@@ -29,20 +36,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-03T09:28:08",
           "excerpt": "Claude Codeを複数セッション並行実行するとき、どのセッションが完了したのか分かりにくかったので、ターミナルの背景色を状態ごとに塗り分ける仕組みを作ってみました。OSC 11エスケープシーケンスとsettings.…"
-        },
-        {
-          "title": "【非エンジニアのためのClaude/ClaudeCodeシリーズ】細かいプロンプトはAIの思考を狭めるのか？Claude Fableで検証してみた",
-          "link": "https://dev.classmethod.jp/articles/fable5-thinking/",
-          "source": "DevelopersIO",
-          "published": "2026-07-03T08:31:26",
-          "excerpt": "Claude Fable 5に値上げメールを指示の細かさ3段階で書かせ比較した結果、指示が細かいほど完成度は上がるがAI発の気づきは減ることがわかり、任せどころを見極めることをお奨めしています。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が29件。Laravelアプリケーションをリリースする際、データベースのマイグレーションは欠かせません。以前は、アプリケーションをデプロイした後に踏み台サーバーへSSH接続し、手動でマイグレーションを実行していました。…",
+      "summary": "クラウドの新着が28件。Laravelアプリケーションをリリースする際、データベースのマイグレーションは欠かせません。以前は、アプリケーションをデプロイした後に踏み台サーバーへSSH接続し、手動でマイグレーションを実行していました。…",
       "articles": [
         {
           "title": "CodePipeline・CodeBuildでLaravelのマイグレーションを自動化した話",
@@ -66,18 +66,18 @@
           "excerpt": "以前はLambdaのデプロイを手作業で行っていました。ZIPファイルを作成 AWSコンソールからアップロード 動作確認 という流れです。…"
         },
         {
-          "title": "【CloudFront x S3】署名付きCookieを実装してみた",
-          "link": "https://qiita.com/jyas-protein/items/cf7f0a7353e56741ef7b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-03T10:27:38",
-          "excerpt": "はじめに 今回は、Amazon CloudFrontの署名付きCookie機能を実際に使ってみたので、その内容をまとめてみました。少しでも参考になれば幸いです。…"
+          "title": "使用量ベースの価格設定への移行後、AI の請求書が経営幹部を困惑させている",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/03/ai-bills-are-baffling-the-c-suite-after-shift-to-usage-based-pricing/5266383",
+          "source": "The Register（英語）",
+          "published": "2026-07-03T10:35:00",
+          "excerpt": "KPMGは、企業が導入を再考する中、幹部の3分の1近くがコストを理解するのに苦労していることを発見した"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。はじめに こんにちは、日々クラウドセキュリティ業務に従事している新卒2年目です。先日、「AWS Summit Japan 2026」のDay2に初めて参加してきました。…",
+      "summary": "セキュリティの新着が8件。はじめに こんにちは、日々クラウドセキュリティ業務に従事している新卒2年目です。先日、「AWS Summit Japan 2026」のDay2に初めて参加してきました。…",
       "articles": [
         {
           "title": "AWS Summit Japan 2026に初参加！セキュリティ系セッションで感じた学びと気付き",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。Google脅威分析グループは、FBIなどと共同で大規模悪質プロキシ「NetNut」をテイクダウンしたと発表した。家庭のスマートTVなど200万台超をボット化し、国家スパイやサイバー犯罪者が企業の検知をすり抜ける踏み台としていた。…",
+      "summary": "データ分析の新着が3件。他の住宅用プロキシ ブランドも同じネットワークに依存している可能性があります",
       "articles": [
+        {
+          "title": "GoogleとFBIが200万台のデバイスのボットネットを標的にするとNetNutがクラックされる",
+          "link": "https://www.theregister.com/security/2026/07/03/netnut-cracked-as-google-and-fbi-target-2-million-device-botnet/5266414",
+          "source": "The Register（英語）",
+          "published": "2026-07-03T12:03:00",
+          "excerpt": "他の住宅用プロキシ ブランドも同じネットワークに依存している可能性があります"
+        },
         {
           "title": "GoogleやFBI、悪質プロキシ「NetNut」をテイクダウン　スマートTVなど200万台超をボット化",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/03/news125.html",
@@ -127,20 +134,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-03T06:14:53",
           "excerpt": "はじめに こんにちは！しばらく期間が開いてしまいました。毎年6月はITイベントが多くて刺激になりますね！今年も無事AWSサミット参加できてほっとしています。本題に戻して、前回のおさらいから！…"
-        },
-        {
-          "title": "Snowflakeが示す、企業のAIエージェント活用に不可欠なデータ基盤とは？",
-          "link": "https://codezine.jp/article/detail/28834",
-          "source": "CodeZine",
-          "published": "2026-07-02T12:00:00",
-          "excerpt": "Snowflakeが示す、企業のAIエージェント活用に不可欠なデータ基盤とは？"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が21件。Laravelアプリケーションをリリースする際、データベースのマイグレーションは欠かせません。以前は、アプリケーションをデプロイした後に踏み台サーバーへSSH接続し、手動でマイグレーションを実行していました。…",
+      "summary": "開発ツールの新着が22件。Laravelアプリケーションをリリースする際、データベースのマイグレーションは欠かせません。以前は、アプリケーションをデプロイした後に踏み台サーバーへSSH接続し、手動でマイグレーションを実行していました。…",
       "articles": [
         {
           "title": "CodePipeline・CodeBuildでLaravelのマイグレーションを自動化した話",
@@ -164,43 +164,43 @@
           "excerpt": "SAM CLI v1.163.0で追加された`--express`フラグを使い、CloudFormation Express modeのデプロイ時間短縮効果を検証しました。…"
         },
         {
-          "title": "BacklogのMCPサーバーをSlackbot MCP Clientに接続",
-          "link": "https://dev.classmethod.jp/articles/256410d1c2c0c4eb0d86e783eee72c928dddeba02d0f7568c77d8cff5b06a744/",
-          "source": "DevelopersIO",
-          "published": "2026-07-03T07:32:06",
-          "excerpt": "Slack新機能「Slackbot MCP Client」にBacklog公式MCPサーバーを接続し、Slack上でBacklogのプロジェクトや課題を扱えるようにしてみました。…"
+          "title": "早速お試し、新機能のAWS CDKのExpressモードはどれぐらい速いのか？ | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/aws-cdk-express-mode-benchmark",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-03T09:21:26",
+          "excerpt": "こんにちは。アプリケーションサービス本部、DevOps担当の兼安です。2026年6月末、AWS CloudFormationとAWS CDKのExpressモードがリリースされました。aws.amazon.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ゆうパック、平均約10％値上げ　ゆうパケットは一律360円に　10月から",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/03/news136.html",
+      "title": "AI データセンターはほとんどの大手テクノロジー企業よりも多くの水を使用しているとの報告書",
+      "link": "https://www.wsj.com/tech/ai/ai-data-centers-water-use-901e2902",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-03T12:33:20",
+      "excerpt": "記事の URL: https://www.wsj.com/tech/ai/ai-data-centers-water-use-901e2902 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "講談社、「はたらく細胞」著者に謝罪　監修体制や作画環境「適切に履行できず」　本人のX投稿受け",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/03/news139.html",
       "source": "ITmedia NEWS",
-      "published": "2026-07-03T10:24:00",
-      "excerpt": "日本郵便は7月3日、「ゆうパック」と「ゆうパケット」の基本運賃などを10月1日に改定すると発表した。ゆうパックの平均改定率は約10％で、ゆうパケットは厚さ別の料金を廃止し一律360円にする。"
+      "published": "2026-07-03T12:15:00",
+      "excerpt": "講談社は7月3日、漫画「はたらく細胞」の作者・清水茜さんがX上で公表した連載当時の編集部対応などの指摘について謝罪文を掲載し、医療監修体制や作画環境の整備を「適切に履行することができませんでした」と認めた。"
     },
     {
-      "title": "Omni のスケジュール機能で Google スプレッドシートにデータを自動配信してみた",
-      "link": "https://dev.classmethod.jp/articles/omni-share-deliveries-google-sheets-tryit/",
-      "source": "DevelopersIO",
-      "published": "2026-07-03T09:30:04",
-      "excerpt": "Omni からGoogle スプレッドシートに自動配信する方法を試してみました。"
+      "title": "ビッグテックに対するZ世代の怒りを利用したラッダイト・フェスティバルの内部",
+      "link": "https://arstechnica.com/culture/2026/07/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-03T12:00:36",
+      "excerpt": "ニューヨーク市のサマー オブ ラッド フェスティバルは、オフラインで生きる方法を人々に教えています。"
     },
     {
-      "title": "EUは、ロビイストよりもデータセンターの排出量を相殺するのが容易であると考えているようだ",
-      "link": "https://www.theregister.com/on-prem/2026/07/03/eu-appears-to-find-datacenter-emissions-easier-to-offset-than-lobbyists/5265814",
-      "source": "The Register（英語）",
-      "published": "2026-07-03T09:15:00",
-      "excerpt": "報告書によると、提案された書き換えにより、事業者はより環境に優しいグレードをより自由に選択できるようになる"
-    },
-    {
-      "title": "防衛省のLUUP導入で小泉大臣がコメント　「情報保全上の問題ない」",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/03/news128.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-03T09:15:00",
-      "excerpt": "防衛省市ヶ谷庁舎への電動モビリティシェアサービス「LUUP」導入を巡り、SNSでは位置情報の取り扱いを不安視する声が広がっていた。小泉防衛相が7月3日の閣議後会見で、導入の背景とセキュリティ上の懸念に対する見解をコメントした。"
+      "title": "アマゾンは競合他社のスターリンクを打ち上げるのに十分な衛星を保有している",
+      "link": "https://www.theverge.com/science/960563/amazon-leo-service-tipping-point",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-03T11:50:20",
+      "excerpt": "記事の URL: https://www.theverge.com/science/960563/amazon-leo-service-tipping-point コメント URL: https://news.ycombinator.…"
     }
   ]
 }
