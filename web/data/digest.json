@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-04T14:06:12",
+  "generated_at": "2026-07-04T15:38:32",
   "window_hours": 24,
-  "total": 110,
+  "total": 111,
   "topic_count": 4,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が12件。Amazon Bedrock AgentCore Memory がクロスアカウントアクセスに対応しました！Strands Agents Session Managerからの連携も確認しました！",
+      "summary": "生成AIの新着が13件。Anthropic が公開したClaude Science（ベータ版）を実際に試してみました。研究支援ツールの実力を、カフェインの分子物性計算を通じて検証します。",
       "articles": [
+        {
+          "title": "Claude Science ベータ版がリリースされたのでコーヒー好きがカフェインの構造と物性を調べてみた",
+          "link": "https://dev.classmethod.jp/articles/claude-science-beta-caffeine/",
+          "source": "DevelopersIO",
+          "published": "2026-07-04T14:16:14",
+          "excerpt": "Anthropic が公開したClaude Science（ベータ版）を実際に試してみました。研究支援ツールの実力を、カフェインの分子物性計算を通じて検証します。"
+        },
         {
           "title": "[アップデート] Amazon Bedrock AgentCore Memory のクロスアカウントアクセスを2アカウント構成で試してみた",
           "link": "https://dev.classmethod.jp/articles/agentcore-memory-cross-account-access/",
@@ -29,21 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-04T10:54:45",
           "excerpt": "ゲーム用PCでローカルLLMを動かしてみました。VRAMへの納まり方が速度を大きく左右するため、量子化してモデルサイズを抑えるのがコツです。"
-        },
-        {
-          "title": "AgentCore ハーネスでBedrock Mantleを含む7モデルを呼び分けてみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-harness-cfn-multi-model/",
-          "source": "DevelopersIO",
-          "published": "2026-07-04T10:34:56",
-          "excerpt": "AgentCoreハーネスをCFnで構築し、Claude・GPT-5.4・DeepSeekなど7モデルをper-invocation overrideで呼び出しました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。人生を生きていたらタスクを早く起動したいことが一度ぐらいあるかもしれません。そんな方に捧げるブログです。",
+      "summary": "クラウドの新着が12件。事象 terraform plan / apply で API Gateway Lambda 統合を作ってた時、なんか動作確認で応答してくれない・エラーになった。…",
       "articles": [
+        {
+          "title": "Terraform 管理の API Gateway Lambda 統合で 429 THROTTLED と出るとき",
+          "link": "https://qiita.com/take_me/items/849af01398498cb156eb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T14:09:21",
+          "excerpt": "事象 terraform plan / apply で API Gateway Lambda 統合を作ってた時、なんか動作確認で応答してくれない・エラーになった。…"
+        },
         {
           "title": "ECS Managed Instances のイメージキャッシュでタスク起動はどれだけ速くなるのか Fargate と比較してみた",
           "link": "https://dev.classmethod.jp/articles/excute-task-managed-instance-vs-fargate/",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-04T10:59:26",
           "excerpt": "GCP VM の IP アドレス設定 — EC2 との差分ガイド 対象： AWS SAA 保有者向け。結論（先出し）： 名前は似てるが、「停止時にIPが消えるか」「グローバルIPの意味」「サブネットのスコープ」で挙動が違う。…"
-        },
-        {
-          "title": "【初心者向け】Amazon VPC Lattice 入門！完全ガイド",
-          "link": "https://zenn.dev/issy/articles/zenn-vpc-lattice-overview",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-04T07:24:15",
-          "excerpt": "☘️ はじめに 本ページは、AWS に関する個人の勉強および勉強会で使用することを目的に、AWS ドキュメントなどを参照し作成しておりますが、記載の誤り等が含まれる場合がございます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。以前はAWS CLIを使うたびに、IAMユーザーのアクセスキーを発行して利用していました。動作には問題ありませんでしたが、 アクセスキーの管理が面倒 定期的なローテーションが必要 誤って漏洩しないか不安 といった課題がありました。…",
+      "summary": "セキュリティの新着が5件。こんばんは。今回は、パーミッションバウンダリについて整理していきます。パーミッションバウンダリとは パーミッションバウンダリとは、IAM ユーザーまたは IAM ロールが持てる権限の上限を定義する仕組みです。…",
       "articles": [
+        {
+          "title": "IAM パーミッションバウンダリについて調べてみる",
+          "link": "https://qiita.com/keitakei777/items/a31c2752fa8257780bfc",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T14:35:20",
+          "excerpt": "こんばんは。今回は、パーミッションバウンダリについて整理していきます。パーミッションバウンダリとは パーミッションバウンダリとは、IAM ユーザーまたは IAM ロールが持てる権限の上限を定義する仕組みです。…"
+        },
         {
           "title": "AWS CLIの認証をIAMユーザーからIAM Identity Centerへ移行して感じたこと",
           "link": "https://qiita.com/lqqtotzo/items/c7c0521f2c9b948622b1",
@@ -99,21 +106,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-04T04:48:52",
           "excerpt": "Security Hub CSPM の Findings を Microsoft Sentinel に転送する際に、EventBridge のイベントパターンを調整して、転送するサービスと重要度を限定する方法を試してみました。"
-        },
-        {
-          "title": "Claude Mythos Preview のリリース前後で新たな深刻な脆弱性が急増",
-          "link": "https://epoch.ai/data-insights/cve-severity-spike",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-03T21:16:16",
-          "excerpt": "記事の URL: https://epoch.ai/data-insights/cve-severity-spike コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。以前はAWS CLIを使うたびに、IAMユーザーのアクセスキーを発行して利用していました。動作には問題ありませんでしたが、 アクセスキーの管理が面倒 定期的なローテーションが必要 誤って漏洩しないか不安 といった課題がありました。…",
+      "summary": "開発ツールの新着が12件。はじめに CloudFormation を学び始めると、最初に次のような流れを理解する必要があります。…",
       "articles": [
+        {
+          "title": "CloudFormationデプロイ手順",
+          "link": "https://qiita.com/suzunari900261/items/a179ad570b98e193a85f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T14:13:48",
+          "excerpt": "はじめに CloudFormation を学び始めると、最初に次のような流れを理解する必要があります。…"
+        },
+        {
+          "title": "Terraform 管理の API Gateway Lambda 統合で 429 THROTTLED と出るとき",
+          "link": "https://qiita.com/take_me/items/849af01398498cb156eb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T14:09:21",
+          "excerpt": "事象 terraform plan / apply で API Gateway Lambda 統合を作ってた時、なんか動作確認で応答してくれない・エラーになった。…"
+        },
         {
           "title": "AWS CLIの認証をIAMユーザーからIAM Identity Centerへ移行して感じたこと",
           "link": "https://qiita.com/lqqtotzo/items/c7c0521f2c9b948622b1",
@@ -127,52 +141,38 @@
           "source": "CodeZine",
           "published": "2026-07-04T09:00:00",
           "excerpt": "GitHub Copilot CLIとSDKでAIクレジットのセッション上限設定が可能に"
-        },
-        {
-          "title": "IaC と IfC を実際に動かして比較してみた【2026】",
-          "link": "https://zenn.dev/sbk0716/articles/753ffaa23be30a",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-04T08:54:27",
-          "excerpt": "1.はじめに この記事を書いた背景 AI（コーディングエージェント）が、アプリだけでなく インフラ（IaC）も書くようになりました。すると、新しい問いが出てきます。「AI が書いた IaC、動きはするが 意図どおり・安全か はどう担保する？…"
-        },
-        {
-          "title": "CDK と AWS Blocks を実コードで読み解いてみた【2026】",
-          "link": "https://zenn.dev/sbk0716/articles/fa2a1898213a65",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-04T07:39:47",
-          "excerpt": "1.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "一般の人は、すべてのディスクメディアも消滅することを理解していますか?",
+      "link": "https://news.ycombinator.com/item?id=48785525",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-04T14:08:55",
+      "excerpt": "それとも、彼らにとって理解するには多すぎるのでしょうか?これは、ディスク ゲームを廃止するというソニーの決定に関するものですが、これはすべてのディスク ベースのメディアに当てはまります。…"
+    },
+    {
+      "title": "ワークスペース インスタンスまたはコンシューマー アカウント間のセッション/キャッシュ漏洩の可能性",
+      "link": "https://github.com/anthropics/claude-code/issues/74066",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-04T14:03:40",
+      "excerpt": "記事の URL: https://github.com/anthropics/claude-code/issues/74066 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "ワーキングメモリがどのようにして意識を生み出すのか",
+      "link": "https://www.scientificamerican.com/article/how-working-memory-could-give-rise-to-consciousness/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-04T14:02:59",
+      "excerpt": "記事の URL: https://www.scientificamerican.…"
+    },
+    {
       "title": "AWSのPhysical AI Scaffolding Kit (PASK)を試す⑤ — 学習済みGR00TポリシーをIsaac Simで動かして挙動確認する",
       "link": "https://dev.classmethod.jp/articles/try-aws-pask-05-run-trained-gr00t-policy-in-isaac-sim/",
       "source": "DevelopersIO",
       "published": "2026-07-04T13:39:41",
       "excerpt": "第4回のphysai評価はヘッドレス実行で動画が出ないため、ここではIsaac Sim GUI上でGR00Tポリシーを実際に動かし、ロボットがタスクを実行する様子を目で確認・録画します。"
-    },
-    {
-      "title": "Amazon MQについて調べてみた",
-      "link": "https://qiita.com/keitakei777/items/383acb5c1f58c305de87",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-04T12:55:02",
-      "excerpt": "こんばんは。システム開発では、複数のアプリケーション同士がデータをやり取りするためにメッセージキューを利用することがあります。…"
-    },
-    {
-      "title": "Show HN: Foundation、ソフトウェアと AI への異なるアプローチ",
-      "link": "https://github.com/nmxmxh/foundation",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-04T12:46:17",
-      "excerpt": "記事の URL: https://github.com/nmxmxh/foundation コメント URL: https://news.ycombinator.com/item?id=48785026 ポイント: 10 コメント数: 2"
-    },
-    {
-      "title": "Linux の htop/top で表示されるすべての説明",
-      "link": "https://peteris.rocks/blog/htop/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-04T12:00:57",
-      "excerpt": "記事の URL: https://peteris.rocks/blog/htop/ コメント URL: https://news.ycombinator.com/item?id=48784777 ポイント: 5 コメント数: 0"
     }
   ]
 }
