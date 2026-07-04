@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-04T12:00:53",
+  "generated_at": "2026-07-04T14:06:12",
   "window_hours": 24,
-  "total": 115,
-  "topic_count": 5,
+  "total": 110,
+  "topic_count": 4,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が13件。Claude Code v2.1.200 〜 v2.1.201 のアップデート内容をご紹介します。…",
+      "summary": "生成AIの新着が12件。Amazon Bedrock AgentCore Memory がクロスアカウントアクセスに対応しました！Strands Agents Session Managerからの連携も確認しました！",
       "articles": [
+        {
+          "title": "[アップデート] Amazon Bedrock AgentCore Memory のクロスアカウントアクセスを2アカウント構成で試してみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-memory-cross-account-access/",
+          "source": "DevelopersIO",
+          "published": "2026-07-04T12:39:04",
+          "excerpt": "Amazon Bedrock AgentCore Memory がクロスアカウントアクセスに対応しました！Strands Agents Session Managerからの連携も確認しました！"
+        },
         {
           "title": "Claude Code v2.1.200〜v2.1.201 の主要アップデート",
           "link": "https://dev.classmethod.jp/articles/20260704-cc-updates-v2-1-201/",
@@ -29,21 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-04T10:34:56",
           "excerpt": "AgentCoreハーネスをCFnで構築し、Claude・GPT-5.4・DeepSeekなど7モデルをper-invocation overrideで呼び出しました。…"
-        },
-        {
-          "title": "Claude Codeの会話履歴の保存場所と保持期間について調査してみた",
-          "link": "https://dev.classmethod.jp/articles/claude-code-conversation-history-retention/",
-          "source": "DevelopersIO",
-          "published": "2026-07-04T09:58:55",
-          "excerpt": "Claude Codeの会話履歴がデフォルトで30日で自動削除されることに気づきました。本記事では、履歴の保存場所やファイル形式、そして保持期間を制御する`cleanupPeriodDays`設定について紹介します。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。GCP VM の IP アドレス設定 — EC2 との差分ガイド 対象： AWS SAA 保有者向け。結論（先出し）： 名前は似てるが、「停止時にIPが消えるか」「グローバルIPの意味」「サブネットのスコープ」で挙動が違う。…",
+      "summary": "クラウドの新着が11件。人生を生きていたらタスクを早く起動したいことが一度ぐらいあるかもしれません。そんな方に捧げるブログです。",
       "articles": [
+        {
+          "title": "ECS Managed Instances のイメージキャッシュでタスク起動はどれだけ速くなるのか Fargate と比較してみた",
+          "link": "https://dev.classmethod.jp/articles/excute-task-managed-instance-vs-fargate/",
+          "source": "DevelopersIO",
+          "published": "2026-07-04T13:22:37",
+          "excerpt": "人生を生きていたらタスクを早く起動したいことが一度ぐらいあるかもしれません。そんな方に捧げるブログです。"
+        },
+        {
+          "title": "AWS CLIの認証をIAMユーザーからIAM Identity Centerへ移行して感じたこと",
+          "link": "https://qiita.com/lqqtotzo/items/c7c0521f2c9b948622b1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T12:05:10",
+          "excerpt": "以前はAWS CLIを使うたびに、IAMユーザーのアクセスキーを発行して利用していました。動作には問題ありませんでしたが、 アクセスキーの管理が面倒 定期的なローテーションが必要 誤って漏洩しないか不安 といった課題がありました。…"
+        },
         {
           "title": "EC2の感覚で解いていたら詰まったCompute Engineの立ち上げでややこしいところメモ",
           "link": "https://qiita.com/hikaru0506/items/cf606fb5efccda34c9c3",
@@ -57,28 +71,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-04T07:24:15",
           "excerpt": "☘️ はじめに 本ページは、AWS に関する個人の勉強および勉強会で使用することを目的に、AWS ドキュメントなどを参照し作成しておりますが、記載の誤り等が含まれる場合がございます。…"
-        },
-        {
-          "title": "【初心者向け】Amazon VPC 入門！完全ガイド",
-          "link": "https://zenn.dev/issy/articles/zenn-vpc-overview",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-04T07:23:09",
-          "excerpt": "Amazon Virtual Private Cloud（VPC） ☘️ はじめに 本ページは、AWS に関する個人の勉強および勉強会で使用することを目的に、AWS ドキュメントなどを参照し作成しておりますが、記載の誤り等が含まれる場合がご…"
-        },
-        {
-          "title": "ECS(Fargate) から X-Ray にトレースを送る3経路（ADOT サイドカー / OTLP 直送 / Application Signals）を実際にデプロイして比較してみた",
-          "link": "https://dev.classmethod.jp/articles/ecs-otel-xray-tracing-three-send-paths-compared/",
-          "source": "DevelopersIO",
-          "published": "2026-07-04T06:03:41",
-          "excerpt": "ECS上のNode.jsアプリに分散トレーシングを導入するなら、OpenTelemetryが必須です。X-Ray SDK のメンテナンスモード化に伴い、ADOT を使った3つの送信経路を実際にデプロイして徹底比較しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が3件。Cognition、AIによる脆弱性検出と修正ツール「Devin Security Swarm」発表",
+      "summary": "セキュリティの新着が4件。以前はAWS CLIを使うたびに、IAMユーザーのアクセスキーを発行して利用していました。動作には問題ありませんでしたが、 アクセスキーの管理が面倒 定期的なローテーションが必要 誤って漏洩しないか不安 といった課題がありました。…",
       "articles": [
+        {
+          "title": "AWS CLIの認証をIAMユーザーからIAM Identity Centerへ移行して感じたこと",
+          "link": "https://qiita.com/lqqtotzo/items/c7c0521f2c9b948622b1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T12:05:10",
+          "excerpt": "以前はAWS CLIを使うたびに、IAMユーザーのアクセスキーを発行して利用していました。動作には問題ありませんでしたが、 アクセスキーの管理が面倒 定期的なローテーションが必要 誤って漏洩しないか不安 といった課題がありました。…"
+        },
         {
           "title": "Cognition、AIによる脆弱性検出と修正ツール「Devin Security Swarm」発表",
           "link": "https://codezine.jp/article/detail/28843",
@@ -103,24 +110,17 @@
       ]
     },
     {
-      "id": "data",
-      "label": "データ分析",
-      "summary": "データ分析の新着が1件。他の住宅用プロキシ ブランドも同じネットワークに依存している可能性があります",
-      "articles": [
-        {
-          "title": "GoogleとFBIが200万台のデバイスのボットネットを標的にするとNetNutがクラックされる",
-          "link": "https://www.theregister.com/security/2026/07/03/netnut-cracked-as-google-and-fbi-target-2-million-device-botnet/5266414",
-          "source": "The Register（英語）",
-          "published": "2026-07-03T12:03:00",
-          "excerpt": "他の住宅用プロキシ ブランドも同じネットワークに依存している可能性があります"
-        }
-      ]
-    },
-    {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。GitHub Copilot CLIとSDKでAIクレジットのセッション上限設定が可能に",
+      "summary": "開発ツールの新着が10件。以前はAWS CLIを使うたびに、IAMユーザーのアクセスキーを発行して利用していました。動作には問題ありませんでしたが、 アクセスキーの管理が面倒 定期的なローテーションが必要 誤って漏洩しないか不安 といった課題がありました。…",
       "articles": [
+        {
+          "title": "AWS CLIの認証をIAMユーザーからIAM Identity Centerへ移行して感じたこと",
+          "link": "https://qiita.com/lqqtotzo/items/c7c0521f2c9b948622b1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T12:05:10",
+          "excerpt": "以前はAWS CLIを使うたびに、IAMユーザーのアクセスキーを発行して利用していました。動作には問題ありませんでしたが、 アクセスキーの管理が面倒 定期的なローテーションが必要 誤って漏洩しないか不安 といった課題がありました。…"
+        },
         {
           "title": "GitHub Copilot CLIとSDKでAIクレジットのセッション上限設定が可能に",
           "link": "https://codezine.jp/article/detail/28844",
@@ -141,45 +141,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-04T07:39:47",
           "excerpt": "1.…"
-        },
-        {
-          "title": "ECS(Fargate) から X-Ray にトレースを送る3経路（ADOT サイドカー / OTLP 直送 / Application Signals）を実際にデプロイして比較してみた",
-          "link": "https://dev.classmethod.jp/articles/ecs-otel-xray-tracing-three-send-paths-compared/",
-          "source": "DevelopersIO",
-          "published": "2026-07-04T06:03:41",
-          "excerpt": "ECS上のNode.jsアプリに分散トレーシングを導入するなら、OpenTelemetryが必須です。X-Ray SDK のメンテナンスモード化に伴い、ADOT を使った3つの送信経路を実際にデプロイして徹底比較しました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Amazon EBS ボリュームタイプまとめ",
-      "link": "https://qiita.com/keitakei777/items/8cf0a2dcd4eabd71a265",
+      "title": "AWSのPhysical AI Scaffolding Kit (PASK)を試す⑤ — 学習済みGR00TポリシーをIsaac Simで動かして挙動確認する",
+      "link": "https://dev.classmethod.jp/articles/try-aws-pask-05-run-trained-gr00t-policy-in-isaac-sim/",
+      "source": "DevelopersIO",
+      "published": "2026-07-04T13:39:41",
+      "excerpt": "第4回のphysai評価はヘッドレス実行で動画が出ないため、ここではIsaac Sim GUI上でGR00Tポリシーを実際に動かし、ロボットがタスクを実行する様子を目で確認・録画します。"
+    },
+    {
+      "title": "Amazon MQについて調べてみた",
+      "link": "https://qiita.com/keitakei777/items/383acb5c1f58c305de87",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-04T11:51:04",
-      "excerpt": "こんばんは。Amazon EC2 を利用する際に必ずと言っていいほど登場するのが Amazon EBS（Elastic Block Store） です。今回は、Amazon EBS のボリュームタイプについて整理していきます。…"
+      "published": "2026-07-04T12:55:02",
+      "excerpt": "こんばんは。システム開発では、複数のアプリケーション同士がデータをやり取りするためにメッセージキューを利用することがあります。…"
     },
     {
-      "title": "嗅覚が失われると",
-      "link": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-04T11:04:31",
-      "excerpt": "この重要な意味での障害は、脳の健康の問題に関連していることがよくあります。"
+      "title": "Show HN: Foundation、ソフトウェアと AI への異なるアプローチ",
+      "link": "https://github.com/nmxmxh/foundation",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-04T12:46:17",
+      "excerpt": "記事の URL: https://github.com/nmxmxh/foundation コメント URL: https://news.ycombinator.com/item?id=48785026 ポイント: 10 コメント数: 2"
     },
     {
-      "title": "火星の石には炭素が多く含まれているが、その理由は不明",
-      "link": "https://arstechnica.com/science/2026/07/a-martian-rock-has-lots-of-carbon-on-it-and-its-not-clear-why/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-04T11:00:41",
-      "excerpt": "生物学はこの発見を説明できるかもしれないが、他の潜在的な説明もある。"
-    },
-    {
-      "title": "Confidential Computing の中核となる信頼メカニズムが壊れています。修正は存在しない可能性があります",
-      "link": "https://www.theregister.com/security/2026/07/04/confidential-computings-core-trust-mechanism-is-broken-the-fix-may-not-exist/5266056",
-      "source": "The Register（英語）",
-      "published": "2026-07-04T10:03:00",
-      "excerpt": "証明された TLS: 相手が誰であるかを証明できないハンドシェイク"
+      "title": "Linux の htop/top で表示されるすべての説明",
+      "link": "https://peteris.rocks/blog/htop/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-04T12:00:57",
+      "excerpt": "記事の URL: https://peteris.rocks/blog/htop/ コメント URL: https://news.ycombinator.com/item?id=48784777 ポイント: 5 コメント数: 0"
     }
   ]
 }
