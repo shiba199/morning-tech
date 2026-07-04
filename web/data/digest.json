@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-04T15:38:32",
+  "generated_at": "2026-07-04T16:51:24",
   "window_hours": 24,
-  "total": 111,
-  "topic_count": 4,
+  "total": 113,
+  "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が13件。Anthropic が公開したClaude Science（ベータ版）を実際に試してみました。研究支援ツールの実力を、カフェインの分子物性計算を通じて検証します。",
+      "summary": "生成AIの新着が14件。いくつかのオープンソース AI モデルを提供する Mistral AI は、「フロンティア AI をすべての人の手に」という野望を掲げ、2023 年の設立以来、多額の資金を調達してきました。",
       "articles": [
+        {
+          "title": "ミストラルAIとは何ですか？ OpenAI の競合他社について知っておくべきことすべて",
+          "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-04T15:51:32",
+          "excerpt": "いくつかのオープンソース AI モデルを提供する Mistral AI は、「フロンティア AI をすべての人の手に」という野望を掲げ、2023 年の設立以来、多額の資金を調達してきました。"
+        },
         {
           "title": "Claude Science ベータ版がリリースされたのでコーヒー好きがカフェインの構造と物性を調べてみた",
           "link": "https://dev.classmethod.jp/articles/claude-science-beta-caffeine/",
@@ -29,21 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-04T10:57:22",
           "excerpt": "Claude Code v2.1.200 〜 v2.1.201 のアップデート内容をご紹介します。…"
-        },
-        {
-          "title": "ゲーム用のPCでローカルLLMはどこまで動く？Ollamaで試してみた",
-          "link": "https://dev.classmethod.jp/articles/local-llm-on-gaming-pc-ollama/",
-          "source": "DevelopersIO",
-          "published": "2026-07-04T10:54:45",
-          "excerpt": "ゲーム用PCでローカルLLMを動かしてみました。VRAMへの納まり方が速度を大きく左右するため、量子化してモデルサイズを抑えるのがコツです。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。事象 terraform plan / apply で API Gateway Lambda 統合を作ってた時、なんか動作確認で応答してくれない・エラーになった。…",
+      "summary": "クラウドの新着が13件。はじめに 「CloudFront を使うと速くなる」と聞いて導入しているけれど、 なぜ速くなるのか を自分の言葉で説明できるでしょうか?…",
       "articles": [
+        {
+          "title": "【AWS初心者】なぜCloudFrontは速いのか〜リバースプロキシ・CDN・エッジロケーションから理解する〜",
+          "link": "https://qiita.com/nakashita-abc/items/24a3cefcca780a5226bf",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T16:17:29",
+          "excerpt": "はじめに 「CloudFront を使うと速くなる」と聞いて導入しているけれど、 なぜ速くなるのか を自分の言葉で説明できるでしょうか?…"
+        },
         {
           "title": "Terraform 管理の API Gateway Lambda 統合で 429 THROTTLED と出るとき",
           "link": "https://qiita.com/take_me/items/849af01398498cb156eb",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-04T12:05:10",
           "excerpt": "以前はAWS CLIを使うたびに、IAMユーザーのアクセスキーを発行して利用していました。動作には問題ありませんでしたが、 アクセスキーの管理が面倒 定期的なローテーションが必要 誤って漏洩しないか不安 といった課題がありました。…"
-        },
-        {
-          "title": "EC2の感覚で解いていたら詰まったCompute Engineの立ち上げでややこしいところメモ",
-          "link": "https://qiita.com/hikaru0506/items/cf606fb5efccda34c9c3",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-04T10:59:26",
-          "excerpt": "GCP VM の IP アドレス設定 — EC2 との差分ガイド 対象： AWS SAA 保有者向け。結論（先出し）： 名前は似てるが、「停止時にIPが消えるか」「グローバルIPの意味」「サブネットのスコープ」で挙動が違う。…"
         }
       ]
     },
@@ -106,6 +106,20 @@
           "source": "DevelopersIO",
           "published": "2026-07-04T04:48:52",
           "excerpt": "Security Hub CSPM の Findings を Microsoft Sentinel に転送する際に、EventBridge のイベントパターンを調整して、転送するサービスと重要度を限定する方法を試してみました。"
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "label": "データ分析",
+      "summary": "データ分析の新着が1件。Snowflake Summit 2026で発表された、外部エンジンからの書き込み機能をAmazon Athenaから検証してみました。…",
+      "articles": [
+        {
+          "title": "Snowflake 管理 Iceberg テーブルを Amazon Athena の各エンジンから読み取り・書き込みしてみる",
+          "link": "https://dev.classmethod.jp/articles/snowflake-managed-iceberg-tables-write-from-athena/",
+          "source": "DevelopersIO",
+          "published": "2026-07-04T15:55:52",
+          "excerpt": "Snowflake Summit 2026で発表された、外部エンジンからの書き込み機能をAmazon Athenaから検証してみました。…"
         }
       ]
     },
@@ -147,32 +161,32 @@
   ],
   "uncategorized": [
     {
-      "title": "一般の人は、すべてのディスクメディアも消滅することを理解していますか?",
-      "link": "https://news.ycombinator.com/item?id=48785525",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-04T14:08:55",
-      "excerpt": "それとも、彼らにとって理解するには多すぎるのでしょうか?これは、ディスク ゲームを廃止するというソニーの決定に関するものですが、これはすべてのディスク ベースのメディアに当てはまります。…"
+      "title": "アリババは従業員によるクロードコードの使用を禁止していると報じられている",
+      "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-04T16:32:08",
+      "excerpt": "アリババはクロードコードを高リスクソフトウェアとして分類したと伝えられている。"
     },
     {
-      "title": "ワークスペース インスタンスまたはコンシューマー アカウント間のセッション/キャッシュ漏洩の可能性",
-      "link": "https://github.com/anthropics/claude-code/issues/74066",
+      "title": "北アメリカの終わり",
+      "link": "https://paulkrugman.substack.com/p/the-end-of-north-america-157",
       "source": "Hacker News（英語）",
-      "published": "2026-07-04T14:03:40",
-      "excerpt": "記事の URL: https://github.com/anthropics/claude-code/issues/74066 コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-04T16:16:07",
+      "excerpt": "記事の URL: https://paulkrugman.substack.com/p/the-end-of-north-america-157 コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "ワーキングメモリがどのようにして意識を生み出すのか",
-      "link": "https://www.scientificamerican.com/article/how-working-memory-could-give-rise-to-consciousness/",
+      "title": "カーブボール",
+      "link": "https://mightyburger.net/projects/curveball/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-04T14:02:59",
-      "excerpt": "記事の URL: https://www.scientificamerican.…"
+      "published": "2026-07-04T16:15:48",
+      "excerpt": "記事の URL: https://mightyburger.net/projects/curveball/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "AWSのPhysical AI Scaffolding Kit (PASK)を試す⑤ — 学習済みGR00TポリシーをIsaac Simで動かして挙動確認する",
-      "link": "https://dev.classmethod.jp/articles/try-aws-pask-05-run-trained-gr00t-policy-in-isaac-sim/",
-      "source": "DevelopersIO",
-      "published": "2026-07-04T13:39:41",
-      "excerpt": "第4回のphysai評価はヘッドレス実行で動画が出ないため、ここではIsaac Sim GUI上でGR00Tポリシーを実際に動かし、ロボットがタスクを実行する様子を目で確認・録画します。"
+      "title": "Windows CE ドリームキャスト コミュニティ エディション (wince-dc)",
+      "link": "https://github.com/maximqaxd/wince-dc",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-04T14:52:25",
+      "excerpt": "記事の URL: https://github.com/maximqaxd/wince-dc コメント URL: https://news.ycombinator.com/item?id=48785840 ポイント: 18 コメント数: 0"
     }
   ]
 }
