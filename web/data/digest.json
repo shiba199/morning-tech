@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-07-04T10:30:27",
+  "generated_at": "2026-07-04T12:00:53",
   "window_hours": 24,
-  "total": 121,
+  "total": 115,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が10件。Claude Codeの会話履歴がデフォルトで30日で自動削除されることに気づきました。本記事では、履歴の保存場所やファイル形式、そして保持期間を制御する`cleanupPeriodDays`設定について紹介します。",
+      "summary": "生成AIの新着が13件。Claude Code v2.1.200 〜 v2.1.201 のアップデート内容をご紹介します。…",
       "articles": [
+        {
+          "title": "Claude Code v2.1.200〜v2.1.201 の主要アップデート",
+          "link": "https://dev.classmethod.jp/articles/20260704-cc-updates-v2-1-201/",
+          "source": "DevelopersIO",
+          "published": "2026-07-04T10:57:22",
+          "excerpt": "Claude Code v2.1.200 〜 v2.1.201 のアップデート内容をご紹介します。…"
+        },
+        {
+          "title": "ゲーム用のPCでローカルLLMはどこまで動く？Ollamaで試してみた",
+          "link": "https://dev.classmethod.jp/articles/local-llm-on-gaming-pc-ollama/",
+          "source": "DevelopersIO",
+          "published": "2026-07-04T10:54:45",
+          "excerpt": "ゲーム用PCでローカルLLMを動かしてみました。VRAMへの納まり方が速度を大きく左右するため、量子化してモデルサイズを抑えるのがコツです。"
+        },
+        {
+          "title": "AgentCore ハーネスでBedrock Mantleを含む7モデルを呼び分けてみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-harness-cfn-multi-model/",
+          "source": "DevelopersIO",
+          "published": "2026-07-04T10:34:56",
+          "excerpt": "AgentCoreハーネスをCFnで構築し、Claude・GPT-5.4・DeepSeekなど7モデルをper-invocation overrideで呼び出しました。…"
+        },
         {
           "title": "Claude Codeの会話履歴の保存場所と保持期間について調査してみた",
           "link": "https://dev.classmethod.jp/articles/claude-code-conversation-history-retention/",
           "source": "DevelopersIO",
           "published": "2026-07-04T09:58:55",
           "excerpt": "Claude Codeの会話履歴がデフォルトで30日で自動削除されることに気づきました。本記事では、履歴の保存場所やファイル形式、そして保持期間を制御する`cleanupPeriodDays`設定について紹介します。"
-        },
-        {
-          "title": "Amazon BedrockでAWSアラートを自動要約してメール通知する",
-          "link": "https://qiita.com/infra365/items/ed8e9316f5d9ee2fadfe",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-04T09:11:11",
-          "excerpt": "概要 AWS環境の運用で飛んでくるアラート（EventBridge経由のSecurity Hubのイベントなど）はJSON形式で、内容を把握するのに時間がかかります。…"
-        },
-        {
-          "title": "制約が多いからこそ設計しがいがある！？公共領域でのAWSと生成AIの活用",
-          "link": "https://qiita.com/infra365/items/f12242f65c5f1e20c022",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-04T08:32:58",
-          "excerpt": "概要 下記JAWS-UG栃木で登壇させていただいた内容です。ガバメントクラウドの内容や公共領域での制約条件下でのAWS・生成AI活用などについてお話しさせていただきました。…"
-        },
-        {
-          "title": "ガラポゴス島からのエージェントコーディングメモ",
-          "link": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-04T04:37:15",
-          "excerpt": "記事の URL: https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post コメント URL: https://news.ycombinator.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。☘️ はじめに 本ページは、AWS に関する個人の勉強および勉強会で使用することを目的に、AWS ドキュメントなどを参照し作成しておりますが、記載の誤り等が含まれる場合がございます。…",
+      "summary": "クラウドの新着が10件。GCP VM の IP アドレス設定 — EC2 との差分ガイド 対象： AWS SAA 保有者向け。結論（先出し）： 名前は似てるが、「停止時にIPが消えるか」「グローバルIPの意味」「サブネットのスコープ」で挙動が違う。…",
       "articles": [
+        {
+          "title": "EC2の感覚で解いていたら詰まったCompute Engineの立ち上げでややこしいところメモ",
+          "link": "https://qiita.com/hikaru0506/items/cf606fb5efccda34c9c3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T10:59:26",
+          "excerpt": "GCP VM の IP アドレス設定 — EC2 との差分ガイド 対象： AWS SAA 保有者向け。結論（先出し）： 名前は似てるが、「停止時にIPが消えるか」「グローバルIPの意味」「サブネットのスコープ」で挙動が違う。…"
+        },
         {
           "title": "【初心者向け】Amazon VPC Lattice 入門！完全ガイド",
           "link": "https://zenn.dev/issy/articles/zenn-vpc-lattice-overview",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-04T06:03:41",
           "excerpt": "ECS上のNode.jsアプリに分散トレーシングを導入するなら、OpenTelemetryが必須です。X-Ray SDK のメンテナンスモード化に伴い、ADOT を使った3つの送信経路を実際にデプロイして徹底比較しました。…"
-        },
-        {
-          "title": "Kiro IDE 1.0 にアップデートしたら旧セッションの移行が必要だったので移行してみた",
-          "link": "https://dev.classmethod.jp/articles/kiro-ide-1-0-session-migrate/",
-          "source": "DevelopersIO",
-          "published": "2026-07-04T04:41:49",
-          "excerpt": "Kiro IDE 1.0 へのアップデート時にセッションやフックの移行が必要と聞いて、実際に試してみました。セッション移行はワンクリックで完了し、思いのほか手間がかかりませんでしたので、その内容をご紹介します。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。Cognition、AIによる脆弱性検出と修正ツール「Devin Security Swarm」発表",
+      "summary": "セキュリティの新着が3件。Cognition、AIによる脆弱性検出と修正ツール「Devin Security Swarm」発表",
       "articles": [
         {
           "title": "Cognition、AIによる脆弱性検出と修正ツール「Devin Security Swarm」発表",
@@ -99,13 +99,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-03T21:16:16",
           "excerpt": "記事の URL: https://epoch.ai/data-insights/cve-severity-spike コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "19年以上見過ごされていたLinux kernelのゼロデイ脆弱性を報告した話：CVE-2026-43456 | セキュリティブログ | 脆弱性診断（セキュリティ診断）のGMOサイバーセキュリティ byイエラエ",
-          "link": "https://gmo-cybersecurity.com/blog/19-year-old-linux-kernel-zero-day/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-07-03T10:57:26",
-          "excerpt": "上席執行役員/CTO 小池と高度解析課のアルバイトの戸田です。…"
         }
       ]
     },
@@ -126,7 +119,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。GitHub Copilot CLIとSDKでAIクレジットのセッション上限設定が可能に",
+      "summary": "開発ツールの新着が12件。GitHub Copilot CLIとSDKでAIクレジットのセッション上限設定が可能に",
       "articles": [
         {
           "title": "GitHub Copilot CLIとSDKでAIクレジットのセッション上限設定が可能に",
@@ -161,32 +154,32 @@
   ],
   "uncategorized": [
     {
+      "title": "Amazon EBS ボリュームタイプまとめ",
+      "link": "https://qiita.com/keitakei777/items/8cf0a2dcd4eabd71a265",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-04T11:51:04",
+      "excerpt": "こんばんは。Amazon EC2 を利用する際に必ずと言っていいほど登場するのが Amazon EBS（Elastic Block Store） です。今回は、Amazon EBS のボリュームタイプについて整理していきます。…"
+    },
+    {
+      "title": "嗅覚が失われると",
+      "link": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-04T11:04:31",
+      "excerpt": "この重要な意味での障害は、脳の健康の問題に関連していることがよくあります。"
+    },
+    {
+      "title": "火星の石には炭素が多く含まれているが、その理由は不明",
+      "link": "https://arstechnica.com/science/2026/07/a-martian-rock-has-lots-of-carbon-on-it-and-its-not-clear-why/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-04T11:00:41",
+      "excerpt": "生物学はこの発見を説明できるかもしれないが、他の潜在的な説明もある。"
+    },
+    {
       "title": "Confidential Computing の中核となる信頼メカニズムが壊れています。修正は存在しない可能性があります",
       "link": "https://www.theregister.com/security/2026/07/04/confidential-computings-core-trust-mechanism-is-broken-the-fix-may-not-exist/5266056",
       "source": "The Register（英語）",
       "published": "2026-07-04T10:03:00",
       "excerpt": "証明された TLS: 相手が誰であるかを証明できないハンドシェイク"
-    },
-    {
-      "title": "「アウトプットしないのは知識の便秘」サウナ好きおじさんの一言が1年越しに刺さった話",
-      "link": "https://qiita.com/kikuziro/items/8a121145f51d08765a92",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-04T09:14:40",
-      "excerpt": "滑ってると思ってた 「アウトプットしないのは、知識の便秘」 みなさんこの言葉、聞いたことあります？私がこの言葉を知ったのは遡ること約1年前。とあるイベントでサウナ好きのおじさんから聞きました。…"
-    },
-    {
-      "title": "天体物理学者たちはウェッブの新しい宇宙について困惑する",
-      "link": "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-04T09:08:09",
-      "excerpt": "記事の URL: https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/ コメント URL: https://news.…"
-    },
-    {
-      "title": "AWS AI BPRハンズオンに参加してきた話　〜業務の「強み」から始めるAI変革〜",
-      "link": "https://qiita.com/sh_fukatsu/items/fc1c292aec9e189c43a7",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-04T08:33:38",
-      "excerpt": "はじめに 先日、AWS Japan麻布台オフィスでAI BPRのハンズオンに参加してきました。これまでの技術的なハンズオンとは異なるものでしたので、感じたことをアウトプットしておきたいと思います。…"
     }
   ]
 }
