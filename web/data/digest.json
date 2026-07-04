@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-03T23:55:21",
+  "generated_at": "2026-07-04T01:48:44",
   "window_hours": 24,
-  "total": 185,
+  "total": 164,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。記事の URL: https://epoch.ai/data-insights/cve-severity-spike コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が21件。記事の URL: https://epoch.ai/data-insights/cve-severity-spike コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
           "title": "Claude Mythos Preview のリリース前後で新たな深刻な脆弱性が急増",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。概要 AWS Summit Japan 2026で下記のセッションを聞きました。…",
+      "summary": "クラウドの新着が13件。概要 AWS Summit Japan 2026で下記のセッションを聞きました。…",
       "articles": [
         {
           "title": "【AWS Summit】ECS Managed InstancesとFargateの仕組みと違い",
@@ -140,8 +140,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が19件。はじめに Terraform を書き始めると、最初はすべてのリソースを1つの main.tf に書きがちです。…",
+      "summary": "開発ツールの新着が14件。はじめに Terraform で、リモート state の置き場（S3 バケット名やリージョン）も 変数（var.）でまとめたいと思いました。ほかの場所は変数にしているので、backend も同じノリで…と書いてみたところ。…",
       "articles": [
+        {
+          "title": "Terraformのbackendだけ、変数(var.)が使えなかった話",
+          "link": "https://qiita.com/80-cloud/items/a9983125359905a30124",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T00:36:52",
+          "excerpt": "はじめに Terraform で、リモート state の置き場（S3 バケット名やリージョン）も 変数（var.）でまとめたいと思いました。ほかの場所は変数にしているので、backend も同じノリで…と書いてみたところ。…"
+        },
+        {
+          "title": "Git 2.55がリリース、リポジトリ保守効率化や新コマンドなど多数強化",
+          "link": "https://codezine.jp/article/detail/28849",
+          "source": "CodeZine",
+          "published": "2026-07-04T00:00:00",
+          "excerpt": "Git 2.55がリリース、リポジトリ保守効率化や新コマンドなど多数強化"
+        },
         {
           "title": "Terraform モジュール設計 ― サーバーレス構成を例に「分け方」と「つなぎ方」を整理",
           "link": "https://zenn.dev/kingdom0927/articles/5474d7f80cf03c",
@@ -155,52 +169,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-03T13:37:27",
           "excerpt": "はじめに 「ポートフォリオを作るなら、ただのプロフィールページより動くものを置きたい」と思い、Amazon Bedrock を使った AI チャットボット付きのポートフォリオサイトを作りました。…"
-        },
-        {
-          "title": "AWS CodeBuild のオンデマンドビルドの新機能「ホストカーネル選択」を試してみた",
-          "link": "https://dev.classmethod.jp/articles/codebuild-host-kernel-selection/",
-          "source": "DevelopersIO",
-          "published": "2026-07-03T13:21:49",
-          "excerpt": "AWS CLI v2.35.13 で CodeBuild のオンデマンドビルドに hostKernel パラメータが追加されました。…"
-        },
-        {
-          "title": "CodePipeline・CodeBuildでLaravelのマイグレーションを自動化した話",
-          "link": "https://qiita.com/lqqtotzo/items/ffb8c3e5c9b537510029",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-03T11:07:20",
-          "excerpt": "Laravelアプリケーションをリリースする際、データベースのマイグレーションは欠かせません。以前は、アプリケーションをデプロイした後に踏み台サーバーへSSH接続し、手動でマイグレーションを実行していました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "オーディン、ウィキペディア、エンゲージメント・ファーミング",
-      "link": "https://katamari64.se/posts/2026/odin-wikipedia/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-03T23:24:35",
-      "excerpt": "記事の URL: https://katamari64.se/posts/2026/odin-wikipedia/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "AI BPR ワークショップ参加レポート",
+      "link": "https://dev.classmethod.jp/articles/ai-bpr-workshop-report/",
+      "source": "DevelopersIO",
+      "published": "2026-07-04T01:42:09",
+      "excerpt": "AWSのAI BPR ワークショップに参加しました。その概要をレポートします。"
     },
     {
-      "title": "「炎上プロジェクトの共通点」「AI生成コードのレビュー負担」、エンジニアを悩ませる現場のリアル",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/04/news012.html",
-      "source": "@IT",
-      "published": "2026-07-03T23:00:00",
-      "excerpt": "＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。"
+      "title": "2026/07/04 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "link": "https://qiita.com/ennagara128/items/c24cd6bba782482e01e7",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-04T01:30:48",
+      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
     },
     {
-      "title": "脳が考え、見ることができる回路",
-      "link": "https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-03T22:56:17",
-      "excerpt": "記事の URL: https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see コメント URL: https://news.…"
+      "title": "2026年6月にリリースされたSnowflakeの新機能・変更点のまとめ #SnowflakeDB",
+      "link": "https://dev.classmethod.jp/articles/snowflake-latest-info-202606/",
+      "source": "DevelopersIO",
+      "published": "2026-07-04T01:26:05",
+      "excerpt": "Snowflake 2026年6月のリリースで、セマンティックビューの機能強化やApache Icebergの対応範囲拡大、Adaptive Computeの一般提供など、注目すべき新機能が複数発表されました。"
     },
     {
-      "title": "アムステルダムは消防署を発明した",
-      "link": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-03T22:46:18",
-      "excerpt": "記事の URL: https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-Department/ コメント URL: https://news.…"
+      "title": "NVIDIA の時系列基盤モデル NV-Tesseract が OSS 公開されたので DGX Spark で動かしてみた",
+      "link": "https://dev.classmethod.jp/articles/nv-tesseract-oss-first-touch/",
+      "source": "DevelopersIO",
+      "published": "2026-07-04T01:20:18",
+      "excerpt": "NV-Tesseract の OSS 公開を契機に、Apache 2.0 で配布されるようになった NVIDIA の時系列基盤モデルを DGX Spark で実際に動かしてみました。…"
     }
   ]
 }
