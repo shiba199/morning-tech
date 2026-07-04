@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-04T20:03:56",
+  "generated_at": "2026-07-04T21:25:24",
   "window_hours": 24,
-  "total": 117,
+  "total": 113,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が14件。AgentCore Gatewayに新しく追加されたInference Targetの機能を試してみました！",
+      "summary": "生成AIの新着が13件。AgentCore Gatewayに新しく追加されたInference Targetの機能を試してみました！",
       "articles": [
         {
           "title": "AgentCore GatewayのInference Targetを試してみた",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。はじめに 「CloudFront を使うと速くなる」と聞いて導入しているけれど、 なぜ速くなるのか を自分の言葉で説明できるでしょうか?…",
+      "summary": "クラウドの新着が14件。はじめに S3 オブジェクトに「もう少しリッチな情報」を付けたいと思って、user metadata の2KB上限や object tags の10個・256文字上限にぶつかったことはないだろうか。…",
       "articles": [
+        {
+          "title": "S3 のメタデータ地獄から卒業する：新機能 S3 annotations をやってみた",
+          "link": "https://zenn.dev/yoshit0oo/articles/s3-annotations-athena-handson",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-04T18:58:32",
+          "excerpt": "はじめに S3 オブジェクトに「もう少しリッチな情報」を付けたいと思って、user metadata の2KB上限や object tags の10個・256文字上限にぶつかったことはないだろうか。…"
+        },
         {
           "title": "【AWS初心者】なぜCloudFrontは速いのか〜リバースプロキシ・CDN・エッジロケーションから理解する〜",
           "link": "https://qiita.com/nakashita-abc/items/24a3cefcca780a5226bf",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-04T13:22:37",
           "excerpt": "人生を生きていたらタスクを早く起動したいことが一度ぐらいあるかもしれません。そんな方に捧げるブログです。"
-        },
-        {
-          "title": "AWS CLIの認証をIAMユーザーからIAM Identity Centerへ移行して感じたこと",
-          "link": "https://qiita.com/lqqtotzo/items/c7c0521f2c9b948622b1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-04T12:05:10",
-          "excerpt": "以前はAWS CLIを使うたびに、IAMユーザーのアクセスキーを発行して利用していました。動作には問題ありませんでしたが、 アクセスキーの管理が面倒 定期的なローテーションが必要 誤って漏洩しないか不安 といった課題がありました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。こんばんは。今回は、パーミッションバウンダリについて整理していきます。パーミッションバウンダリとは パーミッションバウンダリとは、IAM ユーザーまたは IAM ロールが持てる権限の上限を定義する仕組みです。…",
+      "summary": "セキュリティの新着が4件。こんばんは。今回は、パーミッションバウンダリについて整理していきます。パーミッションバウンダリとは パーミッションバウンダリとは、IAM ユーザーまたは IAM ロールが持てる権限の上限を定義する仕組みです。…",
       "articles": [
         {
           "title": "IAM パーミッションバウンダリについて調べてみる",
@@ -133,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。はじめに CloudFormation を学び始めると、最初に次のような流れを理解する必要があります。…",
+      "summary": "開発ツールの新着が13件。はじめに S3 オブジェクトに「もう少しリッチな情報」を付けたいと思って、user metadata の2KB上限や object tags の10個・256文字上限にぶつかったことはないだろうか。…",
       "articles": [
+        {
+          "title": "S3 のメタデータ地獄から卒業する：新機能 S3 annotations をやってみた",
+          "link": "https://zenn.dev/yoshit0oo/articles/s3-annotations-athena-handson",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-04T18:58:32",
+          "excerpt": "はじめに S3 オブジェクトに「もう少しリッチな情報」を付けたいと思って、user metadata の2KB上限や object tags の10個・256文字上限にぶつかったことはないだろうか。…"
+        },
         {
           "title": "CloudFormationデプロイ手順",
           "link": "https://qiita.com/suzunari900261/items/a179ad570b98e193a85f",
@@ -155,18 +162,25 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-04T12:05:10",
           "excerpt": "以前はAWS CLIを使うたびに、IAMユーザーのアクセスキーを発行して利用していました。動作には問題ありませんでしたが、 アクセスキーの管理が面倒 定期的なローテーションが必要 誤って漏洩しないか不安 といった課題がありました。…"
-        },
-        {
-          "title": "GitHub Copilot CLIとSDKでAIクレジットのセッション上限設定が可能に",
-          "link": "https://codezine.jp/article/detail/28844",
-          "source": "CodeZine",
-          "published": "2026-07-04T09:00:00",
-          "excerpt": "GitHub Copilot CLIとSDKでAIクレジットのセッション上限設定が可能に"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "Googleの新しいコマーシャルはAIの力を借りて書かれた独立宣言を想像している",
+      "link": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-04T20:55:25",
+      "excerpt": "独立宣言署名から 250 年後、新しいコマーシャルは次のように問いかけています。「建国の父たちが Google Workspace にアクセスできたらどうなるでしょうか?」"
+    },
+    {
+      "title": "より良いモデル: より悪いツール",
+      "link": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-04T20:16:22",
+      "excerpt": "記事の URL: https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/ コメント URL: https://news.ycombinator.com/item?…"
+    },
     {
       "title": "Fable を使用して macOS、iPhone、iPad にネイティブに移植された Command and Conquer Generals",
       "link": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
@@ -175,25 +189,11 @@
       "excerpt": "記事の URL: https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "シアトルのダウンタウンのオフィスが空っぽになる中、都市は長年にわたる「ゾンビ」タワーに直面している",
-      "link": "https://www.seattletimes.com/business/local-business/as-downtown-seattle-offices-empty-city-facing-years-of-zombie-towers/",
+      "title": "ウィックローのホテル、ピーター・ティール・グループの「極秘」会議をキャンセル",
+      "link": "https://www.irishtimes.com/ireland/2026/07/03/wicklow-hotel-cancels-secretive-peter-thiel-conference/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-04T18:42:24",
-      "excerpt": "記事の URL: https://www.seattletimes.…"
-    },
-    {
-      "title": "ミッドジャーニーはハリウッドスタジオに対し、AI使用の詳細を明らかにするよう求めている",
-      "link": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-04T18:00:05",
-      "excerpt": "ハリウッドの3つのスタジオと進行中の法的紛争の一環として、ミッドジャーニーはこれらのスタジオに対し、自社でAIをどのように使用しているかを明らかにするよう強制しようとしている。"
-    },
-    {
-      "title": "ベライゾンが私たちの時計を壊そうとしている",
-      "link": "https://www.jefftk.com/p/verizon-is-about-to-break-our-watches",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-04T17:52:36",
-      "excerpt": "記事の URL: https://www.jefftk.com/p/verizon-is-about-to-break-our-watches コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-04T19:08:44",
+      "excerpt": "記事の URL: https://www.irishtimes.…"
     }
   ]
 }
