@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-04T22:25:12",
+  "generated_at": "2026-07-04T23:28:14",
   "window_hours": 24,
-  "total": 112,
+  "total": 108,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が16件。概要 こちらの記事でDevOps Agentの自動実行について記載しました。今回はFinOps Agentのスケジュールタスクを使って週次コストレポートを自動生成する方法を検証します。…",
+      "summary": "生成AIの新着が17件。概要 ここ1カ月ほどで、AWSのフロンティアエージェント（DevOps Agent、FinOps Agent、Security Agent）に関する検証を実施し、記事を作成しました。本記事では各記事の内容を簡単にまとめます。…",
       "articles": [
+        {
+          "title": "AWS DevOps Agent・FinOps Agent・Security Agent を一通り試したので振り返る",
+          "link": "https://qiita.com/infra365/items/7e7c49b86a766b2e2c74",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T22:25:10",
+          "excerpt": "概要 ここ1カ月ほどで、AWSのフロンティアエージェント（DevOps Agent、FinOps Agent、Security Agent）に関する検証を実施し、記事を作成しました。本記事では各記事の内容を簡単にまとめます。…"
+        },
         {
           "title": "AWS FinOps Agent のスケジュールタスクで週次コストレポートを自動生成する",
           "link": "https://qiita.com/infra365/items/9e4ad88b77d00af5b50d",
@@ -29,20 +36,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-04T21:39:09",
           "excerpt": "概要 前回の記事ではAWS DevOps Agentの基本的な使い方や自律型インシデント対応を記載しました。今回は、カスタムエージェントを作成して定期実行する方法を検証します。…"
-        },
-        {
-          "title": "AgentCore GatewayのInference Targetを試してみた",
-          "link": "https://dev.classmethod.jp/articles/agentcore-gateway-inference-target/",
-          "source": "DevelopersIO",
-          "published": "2026-07-04T17:23:24",
-          "excerpt": "AgentCore Gatewayに新しく追加されたInference Targetの機能を試してみました！"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。はじめに S3 オブジェクトに「もう少しリッチな情報」を付けたいと思って、user metadata の2KB上限や object tags の10個・256文字上限にぶつかったことはないだろうか。…",
+      "summary": "クラウドの新着が11件。はじめに S3 オブジェクトに「もう少しリッチな情報」を付けたいと思って、user metadata の2KB上限や object tags の10個・256文字上限にぶつかったことはないだろうか。…",
       "articles": [
         {
           "title": "S3 のメタデータ地獄から卒業する：新機能 S3 annotations をやってみた",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。記事の URL: https://arxiv.org/abs/2606.26967 コメント URL: https://news.ycombinator.com/item?id=48788849 ポイント: 4 コメント数: 0",
+      "summary": "セキュリティの新着が6件。概要 ここ1カ月ほどで、AWSのフロンティアエージェント（DevOps Agent、FinOps Agent、Security Agent）に関する検証を実施し、記事を作成しました。本記事では各記事の内容を簡単にまとめます。…",
       "articles": [
+        {
+          "title": "AWS DevOps Agent・FinOps Agent・Security Agent を一通り試したので振り返る",
+          "link": "https://qiita.com/infra365/items/7e7c49b86a766b2e2c74",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T22:25:10",
+          "excerpt": "概要 ここ1カ月ほどで、AWSのフロンティアエージェント（DevOps Agent、FinOps Agent、Security Agent）に関する検証を実施し、記事を作成しました。本記事では各記事の内容を簡単にまとめます。…"
+        },
         {
           "title": "プロトコルの覗き見: AirDrop と Quick Share の脆弱性調査",
           "link": "https://arxiv.org/abs/2606.26967",
@@ -99,13 +106,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-04T12:05:10",
           "excerpt": "以前はAWS CLIを使うたびに、IAMユーザーのアクセスキーを発行して利用していました。動作には問題ありませんでしたが、 アクセスキーの管理が面倒 定期的なローテーションが必要 誤って漏洩しないか不安 といった課題がありました。…"
-        },
-        {
-          "title": "Cognition、AIによる脆弱性検出と修正ツール「Devin Security Swarm」発表",
-          "link": "https://codezine.jp/article/detail/28843",
-          "source": "CodeZine",
-          "published": "2026-07-04T06:00:00",
-          "excerpt": "Cognition、AIによる脆弱性検出と修正ツール「Devin Security Swarm」発表"
         }
       ]
     },
@@ -140,7 +140,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。はじめに S3 オブジェクトに「もう少しリッチな情報」を付けたいと思って、user metadata の2KB上限や object tags の10個・256文字上限にぶつかったことはないだろうか。…",
+      "summary": "開発ツールの新着が12件。はじめに S3 オブジェクトに「もう少しリッチな情報」を付けたいと思って、user metadata の2KB上限や object tags の10個・256文字上限にぶつかったことはないだろうか。…",
       "articles": [
         {
           "title": "S3 のメタデータ地獄から卒業する：新機能 S3 annotations をやってみた",
@@ -175,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Googleの新しいコマーシャルはAIの力を借りて書かれた独立宣言を想像している",
-      "link": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-04T20:55:25",
-      "excerpt": "独立宣言署名から 250 年後、新しいコマーシャルは次のように問いかけています。「建国の父たちが Google Workspace にアクセスできたらどうなるでしょうか?」"
+      "title": "MCPサーバーを7000台調査したら、36.7%が同じSSRFの穴を持っていた",
+      "link": "https://qiita.com/kai_kou/items/c8d7dc2664f9c372e776",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-04T23:05:04",
+      "excerpt": "はじめに Microsoft製のドキュメント変換ツール「MarkItDown」（GitHub★15万超1・MCPサーバーとしても提供）に、SSRF（Server-Side Request Forgery）につながる脆弱性が報告されました。…"
     },
     {
-      "title": "より良いモデル: より悪いツール",
-      "link": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-04T20:16:22",
-      "excerpt": "記事の URL: https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "99％の組織が直面「バイブコーディングが量産する脆弱なコード」　その具体例と理由、回避策",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/05/news003.html",
+      "source": "@IT",
+      "published": "2026-07-04T23:00:00",
+      "excerpt": "生成AIによる「バイブコーディング」が急速に普及する一方で、脆弱なコードの増加が新たな課題として浮上しています。AIは何を間違え、どのような脆弱性を生み出すのでしょうか。"
     },
     {
-      "title": "Fable を使用して macOS、iPhone、iPad にネイティブに移植された Command and Conquer Generals",
-      "link": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
+      "title": "NASAのクリーンルームで新種の細菌が発見",
+      "link": "https://www.nature.com/articles/d44151-025-00219-7",
       "source": "Hacker News（英語）",
-      "published": "2026-07-04T19:41:10",
-      "excerpt": "記事の URL: https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-04T22:34:30",
+      "excerpt": "記事の URL: https://www.nature.com/articles/d44151-025-00219-7 コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "ウィックローのホテル、ピーター・ティール・グループの「極秘」会議をキャンセル",
-      "link": "https://www.irishtimes.com/ireland/2026/07/03/wicklow-hotel-cancels-secretive-peter-thiel-conference/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-04T19:08:44",
-      "excerpt": "記事の URL: https://www.irishtimes.…"
+      "title": "人気ホラーゲームの新作が発売中止？　告知投稿を見たマンガ家が感じた“モキュメンタリーの難しさ”",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/05/news009.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-04T22:14:00",
+      "excerpt": "8月に発売される人気ホラーゲームシリーズ最新作である「日本事故物件監視協会3」について、公式Xアカウントの投稿がちょっとした物議を醸しました。"
     }
   ]
 }
