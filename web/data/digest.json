@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-04T01:48:44",
+  "generated_at": "2026-07-04T05:35:46",
   "window_hours": 24,
-  "total": 164,
+  "total": 143,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が21件。記事の URL: https://epoch.ai/data-insights/cve-severity-spike コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が14件。記事の URL: https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post コメント URL: https://news.ycombinator.…",
       "articles": [
+        {
+          "title": "ガラポゴス島からのエージェントコーディングメモ",
+          "link": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-04T04:37:15",
+          "excerpt": "記事の URL: https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post コメント URL: https://news.ycombinator.…"
+        },
+        {
+          "title": "AWSのGPU1枚で300MパラメータLLM「OpenMythos」をゼロから事前学習してみた（FineWeb-Edu / FSDP / MoE+MLA+再帰ブロック）",
+          "link": "https://qiita.com/hahait/items/17aa49ca2dd711222fac",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T03:32:58",
+          "excerpt": "TL;DR AWS g6e.8xlarge（NVIDIA L40S 48GB × 1枚）で、独自アーキテクチャ LLM OpenMythos の 300Mパラメータ / 3Bトークン 事前学習をゼロから回した記録です。…"
+        },
+        {
+          "title": "AIエージェント対応が進むデザインシステムの最近の動きをまとめてみた - Meta Astryx・v0・Serendie・SmartHR",
+          "link": "https://dev.classmethod.jp/articles/design-system-ai-agent-roundup/",
+          "source": "DevelopersIO",
+          "published": "2026-07-04T02:11:43",
+          "excerpt": "AIエージェントにデザインシステムを正しく使わせるための取り組みとして、Meta Astryx、v0 Design Systems 2.0、Serendie、SmartHR Design Systemを調査。…"
+        },
         {
           "title": "Claude Mythos Preview のリリース前後で新たな深刻な脆弱性が急増",
           "link": "https://epoch.ai/data-insights/cve-severity-spike",
           "source": "Hacker News（英語）",
           "published": "2026-07-03T21:16:16",
           "excerpt": "記事の URL: https://epoch.ai/data-insights/cve-severity-spike コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "チョーク トーク中に ChatGPT を促すことは許可されませんでした: これは差別です",
-          "link": "https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-03T17:46:10",
-          "excerpt": "記事の URL: https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type コメント URL: https://news.ycombinator.…"
-        },
-        {
-          "title": "Terraform × Amazon Bedrock でAIチャットボット付きポートフォリオを作ってみた",
-          "link": "https://zenn.dev/kingdom0927/articles/753a42efff6bbc",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-03T13:37:27",
-          "excerpt": "はじめに 「ポートフォリオを作るなら、ただのプロフィールページより動くものを置きたい」と思い、Amazon Bedrock を使った AI チャットボット付きのポートフォリオサイトを作りました。…"
-        },
-        {
-          "title": "帰ってきたClaude Fable 5は本当に弱体化したのか？ ベンチマーク2種をわかりやすく解説！",
-          "link": "https://qiita.com/Martim500/items/cd627463c31a5b049ea7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-03T12:18:57",
-          "excerpt": "こんにちは！Martimです！今回は、2026年7月1日に提供を再開した Claude Fable 5 の「性能は本当に落ちたのか？」という疑問に、2つのベンチマークデータを使って迫っていきます！…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。概要 AWS Summit Japan 2026で下記のセッションを聞きました。…",
+      "summary": "クラウドの新着が14件。Kiro IDE 1.0 へのアップデート時にセッションやフックの移行が必要と聞いて、実際に試してみました。セッション移行はワンクリックで完了し、思いのほか手間がかかりませんでしたので、その内容をご紹介します。",
       "articles": [
+        {
+          "title": "Kiro IDE 1.0 にアップデートしたら旧セッションの移行が必要だったので移行してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-ide-1-0-session-migrate/",
+          "source": "DevelopersIO",
+          "published": "2026-07-04T04:41:49",
+          "excerpt": "Kiro IDE 1.0 へのアップデート時にセッションやフックの移行が必要と聞いて、実際に試してみました。セッション移行はワンクリックで完了し、思いのほか手間がかかりませんでしたので、その内容をご紹介します。"
+        },
+        {
+          "title": "【Cloudflare】Route 53 からネームサーバーを移行する",
+          "link": "https://qiita.com/ryu-ki/items/0566e27e6c50b9fb399a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T04:22:17",
+          "excerpt": "はじめに 個人ブログを Cloudflare Workers で公開しようとしたところ、Workers のカスタムドメインには Cloudflare の DNS ゾーンが必要だと分かりました。私のドメイン ryu-ki-learn.…"
+        },
         {
           "title": "【AWS Summit】ECS Managed InstancesとFargateの仕組みと違い",
           "link": "https://qiita.com/infra365/items/ff46cbe93afe59581d5d",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-03T22:19:17",
           "excerpt": "概要 AWS PrivateLinkにおけるInterface型VPCエンドポイントの「名前」の誤解を解消し、VPC Endpoint Serviceを使った他社・他アカウントへのプライベート公開方法を実践的に解説します。…"
-        },
-        {
-          "title": "【RDS】CPU は正常なのに I/O 詰まりでアプリが遅くなった話",
-          "link": "https://zenn.dev/linkedge/articles/e281674de04c97",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-03T22:00:36",
-          "excerpt": "はじめに 先日、個人開発で運用しているアプリの動作が遅くなる障害が発生しました。アプリにアクセスしても、なかなか画面が表示されない状況でした。…"
-        },
-        {
-          "title": "Terraform モジュール設計 ― サーバーレス構成を例に「分け方」と「つなぎ方」を整理",
-          "link": "https://zenn.dev/kingdom0927/articles/5474d7f80cf03c",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-03T13:59:02",
-          "excerpt": "はじめに Terraform を書き始めると、最初はすべてのリソースを1つの main.tf に書きがちです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。記事の URL: https://epoch.ai/data-insights/cve-severity-spike コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が4件。Security Hub CSPM の Findings を Microsoft Sentinel に転送する際に、EventBridge のイベントパターンを調整して、転送するサービスと重要度を限定する方法を試してみました。",
       "articles": [
+        {
+          "title": "Microsoft Sentinel へ転送する AWS Security Hub CSPM の Findings を特定サービスのみに限定してみた",
+          "link": "https://dev.classmethod.jp/articles/filter-aws-security-hub-cspm-findings-for-microsoft-sentinel/",
+          "source": "DevelopersIO",
+          "published": "2026-07-04T04:48:52",
+          "excerpt": "Security Hub CSPM の Findings を Microsoft Sentinel に転送する際に、EventBridge のイベントパターンを調整して、転送するサービスと重要度を限定する方法を試してみました。"
+        },
         {
           "title": "Claude Mythos Preview のリリース前後で新たな深刻な脆弱性が急増",
           "link": "https://epoch.ai/data-insights/cve-severity-spike",
@@ -99,13 +106,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-03T06:20:43",
           "excerpt": "はじめに こんにちは、日々クラウドセキュリティ業務に従事している新卒2年目です。先日、「AWS Summit Japan 2026」のDay2に初めて参加してきました。…"
-        },
-        {
-          "title": "「SCPで許可した」は存在しない — SCPとIAMを“直列2枚のゲート”で一発整理",
-          "link": "https://zenn.dev/infrashift/articles/c28cb9e8d691cb",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-03T05:03:57",
-          "excerpt": "!この記事は「SCPとIAMの関係」を直列2枚のゲートという一点に絞った要点版です。「SCPでS3を許可の枠に入れた。でもIAMにS3許可が無い開発者は、S3を使える？」 ——即答できますか。私は一瞬 「SCPで枠に入れたんだから使える？…"
         }
       ]
     },
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。はじめに Terraform で、リモート state の置き場（S3 バケット名やリージョン）も 変数（var.）でまとめたいと思いました。ほかの場所は変数にしているので、backend も同じノリで…と書いてみたところ。…",
+      "summary": "開発ツールの新着が14件。GitHub Copilot CLI、「Autoモデル選択機能」を新たに導入",
       "articles": [
+        {
+          "title": "GitHub Copilot CLI、「Autoモデル選択機能」を新たに導入",
+          "link": "https://codezine.jp/article/detail/28842",
+          "source": "CodeZine",
+          "published": "2026-07-04T03:00:00",
+          "excerpt": "GitHub Copilot CLI、「Autoモデル選択機能」を新たに導入"
+        },
         {
           "title": "Terraformのbackendだけ、変数(var.)が使えなかった話",
           "link": "https://qiita.com/80-cloud/items/a9983125359905a30124",
@@ -157,50 +164,43 @@
           "excerpt": "Git 2.55がリリース、リポジトリ保守効率化や新コマンドなど多数強化"
         },
         {
-          "title": "Terraform モジュール設計 ― サーバーレス構成を例に「分け方」と「つなぎ方」を整理",
-          "link": "https://zenn.dev/kingdom0927/articles/5474d7f80cf03c",
+          "title": "【Terraform】Terraformを初めて触ってみた",
+          "link": "https://zenn.dev/tas9/articles/c5b13fbefad014",
           "source": "Zenn AWSトピック",
-          "published": "2026-07-03T13:59:02",
-          "excerpt": "はじめに Terraform を書き始めると、最初はすべてのリソースを1つの main.tf に書きがちです。…"
-        },
-        {
-          "title": "Terraform × Amazon Bedrock でAIチャットボット付きポートフォリオを作ってみた",
-          "link": "https://zenn.dev/kingdom0927/articles/753a42efff6bbc",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-03T13:37:27",
-          "excerpt": "はじめに 「ポートフォリオを作るなら、ただのプロフィールページより動くものを置きたい」と思い、Amazon Bedrock を使った AI チャットボット付きのポートフォリオサイトを作りました。…"
+          "published": "2026-07-03T23:00:08",
+          "excerpt": "はじめに AWSの資格取得を通じて、インフラエンジニアとしてのスキルを本格的に身につけたいと考えるようになりました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AI BPR ワークショップ参加レポート",
-      "link": "https://dev.classmethod.jp/articles/ai-bpr-workshop-report/",
-      "source": "DevelopersIO",
-      "published": "2026-07-04T01:42:09",
-      "excerpt": "AWSのAI BPR ワークショップに参加しました。その概要をレポートします。"
-    },
-    {
-      "title": "2026/07/04 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-      "link": "https://qiita.com/ennagara128/items/c24cd6bba782482e01e7",
+      "title": "[イラスト図解で学ぶAWS] プライベートサブネットのアクセス手段をすっきり整理",
+      "link": "https://qiita.com/cloudc0il/items/3f54490b6cecce01fc31",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-04T01:30:48",
-      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
+      "published": "2026-07-04T04:50:22",
+      "excerpt": "はじめに S3 へアクセスするときは Gateway Endpoint を無料で利用できる一方で、Parameter Store へアクセスする場合は Interface Endpoint の料金が発生します。…"
     },
     {
-      "title": "2026年6月にリリースされたSnowflakeの新機能・変更点のまとめ #SnowflakeDB",
-      "link": "https://dev.classmethod.jp/articles/snowflake-latest-info-202606/",
-      "source": "DevelopersIO",
-      "published": "2026-07-04T01:26:05",
-      "excerpt": "Snowflake 2026年6月のリリースで、セマンティックビューの機能強化やApache Icebergの対応範囲拡大、Adaptive Computeの一般提供など、注目すべき新機能が複数発表されました。"
+      "title": "何かを学んだほうがいいかもしれない",
+      "link": "https://www.marginalia.nu/log/a_135_learn/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-04T03:36:03",
+      "excerpt": "記事の URL: https://www.marginalia.nu/log/a_135_learn/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "NVIDIA の時系列基盤モデル NV-Tesseract が OSS 公開されたので DGX Spark で動かしてみた",
-      "link": "https://dev.classmethod.jp/articles/nv-tesseract-oss-first-touch/",
-      "source": "DevelopersIO",
-      "published": "2026-07-04T01:20:18",
-      "excerpt": "NV-Tesseract の OSS 公開を契機に、Apache 2.0 で配布されるようになった NVIDIA の時系列基盤モデルを DGX Spark で実際に動かしてみました。…"
+      "title": "AWS Transfer Family (SFTP) の断続的な接続断を追う ── TCP \"piggy-back\" ACK 問題・ポート2223・SSH.NET クライアントの裏付け",
+      "link": "https://qiita.com/k2_naka/items/631597547ddf5e513ad2",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-04T03:14:29",
+      "excerpt": "TL;DR AWS Transfer Family の SFTP で、TCP 接続は張れるのに直後に切られ、クライアント側に kex_exchange_identification: read: Connection reset by pe…"
+    },
+    {
+      "title": "合成は分析より難しい",
+      "link": "https://surfingcomplexity.blog/2026/07/03/synthesis-is-harder-than-analysis/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-04T02:45:24",
+      "excerpt": "記事の URL: https://surfingcomplexity.blog/2026/07/03/Synthetic-is-harder-than-analysis/ コメント URL: https://news.…"
     }
   ]
 }
