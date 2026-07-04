@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-04T05:35:46",
+  "generated_at": "2026-07-04T08:21:06",
   "window_hours": 24,
-  "total": 143,
+  "total": 137,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が14件。記事の URL: https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post コメント URL: https://news.ycombinator.…",
+      "summary": "生成AIの新着が11件。記事の URL: https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post コメント URL: https://news.ycombinator.…",
       "articles": [
         {
           "title": "ガラポゴス島からのエージェントコーディングメモ",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。Kiro IDE 1.0 へのアップデート時にセッションやフックの移行が必要と聞いて、実際に試してみました。セッション移行はワンクリックで完了し、思いのほか手間がかかりませんでしたので、その内容をご紹介します。",
+      "summary": "クラウドの新着が15件。ECS上のNode.jsアプリに分散トレーシングを導入するなら、OpenTelemetryが必須です。X-Ray SDK のメンテナンスモード化に伴い、ADOT を使った3つの送信経路を実際にデプロイして徹底比較しました。…",
       "articles": [
+        {
+          "title": "ECS(Fargate) から X-Ray にトレースを送る3経路（ADOT サイドカー / OTLP 直送 / Application Signals）を実際にデプロイして比較してみた",
+          "link": "https://dev.classmethod.jp/articles/ecs-otel-xray-tracing-three-send-paths-compared/",
+          "source": "DevelopersIO",
+          "published": "2026-07-04T06:03:41",
+          "excerpt": "ECS上のNode.jsアプリに分散トレーシングを導入するなら、OpenTelemetryが必須です。X-Ray SDK のメンテナンスモード化に伴い、ADOT を使った3つの送信経路を実際にデプロイして徹底比較しました。…"
+        },
         {
           "title": "Kiro IDE 1.0 にアップデートしたら旧セッションの移行が必要だったので移行してみた",
           "link": "https://dev.classmethod.jp/articles/kiro-ide-1-0-session-migrate/",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-03T22:47:37",
           "excerpt": "概要 AWS Summit Japan 2026で下記のセッションを聞きました。…"
-        },
-        {
-          "title": "AWS PrivateLink完全ガイド：Interface型VPCエンドポイントとEndpoint Serviceの違い、そして他社へのプライベート公開",
-          "link": "https://qiita.com/mkydk/items/e9b061e8b06d8a992327",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-03T22:19:17",
-          "excerpt": "概要 AWS PrivateLinkにおけるInterface型VPCエンドポイントの「名前」の誤解を解消し、VPC Endpoint Serviceを使った他社・他アカウントへのプライベート公開方法を実践的に解説します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。Security Hub CSPM の Findings を Microsoft Sentinel に転送する際に、EventBridge のイベントパターンを調整して、転送するサービスと重要度を限定する方法を試してみました。",
+      "summary": "セキュリティの新着が4件。Cognition、AIによる脆弱性検出と修正ツール「Devin Security Swarm」発表",
       "articles": [
+        {
+          "title": "Cognition、AIによる脆弱性検出と修正ツール「Devin Security Swarm」発表",
+          "link": "https://codezine.jp/article/detail/28843",
+          "source": "CodeZine",
+          "published": "2026-07-04T06:00:00",
+          "excerpt": "Cognition、AIによる脆弱性検出と修正ツール「Devin Security Swarm」発表"
+        },
         {
           "title": "Microsoft Sentinel へ転送する AWS Security Hub CSPM の Findings を特定サービスのみに限定してみた",
           "link": "https://dev.classmethod.jp/articles/filter-aws-security-hub-cspm-findings-for-microsoft-sentinel/",
@@ -99,20 +106,13 @@
           "source": "はてなブックマーク（テクノロジー）",
           "published": "2026-07-03T10:57:26",
           "excerpt": "上席執行役員/CTO 小池と高度解析課のアルバイトの戸田です。…"
-        },
-        {
-          "title": "AWS Summit Japan 2026に初参加！セキュリティ系セッションで感じた学びと気付き",
-          "link": "https://zenn.dev/cscloud_blog/articles/awssummit2026-report01",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-03T06:20:43",
-          "excerpt": "はじめに こんにちは、日々クラウドセキュリティ業務に従事している新卒2年目です。先日、「AWS Summit Japan 2026」のDay2に初めて参加してきました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。他の住宅用プロキシ ブランドも同じネットワークに依存している可能性があります",
+      "summary": "データ分析の新着が2件。他の住宅用プロキシ ブランドも同じネットワークに依存している可能性があります",
       "articles": [
         {
           "title": "GoogleとFBIが200万台のデバイスのボットネットを標的にするとNetNutがクラックされる",
@@ -127,21 +127,28 @@
           "source": "@IT",
           "published": "2026-07-03T08:46:00",
           "excerpt": "Google脅威分析グループは、FBIなどと共同で大規模悪質プロキシ「NetNut」をテイクダウンしたと発表した。家庭のスマートTVなど200万台超をボット化し、国家スパイやサイバー犯罪者が企業の検知をすり抜ける踏み台としていた。…"
-        },
-        {
-          "title": "【AWX連携編】Zabbix × ServiceNow × AWX × Bedrockで障害初動対応を自動化してみた",
-          "link": "https://qiita.com/920201_dev_eng/items/52c90fa6065bd6d601fe",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-03T06:14:53",
-          "excerpt": "はじめに こんにちは！しばらく期間が開いてしまいました。毎年6月はITイベントが多くて刺激になりますね！今年も無事AWSサミット参加できてほっとしています。本題に戻して、前回のおさらいから！…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。GitHub Copilot CLI、「Autoモデル選択機能」を新たに導入",
+      "summary": "開発ツールの新着が13件。ECS上のNode.jsアプリに分散トレーシングを導入するなら、OpenTelemetryが必須です。X-Ray SDK のメンテナンスモード化に伴い、ADOT を使った3つの送信経路を実際にデプロイして徹底比較しました。…",
       "articles": [
+        {
+          "title": "ECS(Fargate) から X-Ray にトレースを送る3経路（ADOT サイドカー / OTLP 直送 / Application Signals）を実際にデプロイして比較してみた",
+          "link": "https://dev.classmethod.jp/articles/ecs-otel-xray-tracing-three-send-paths-compared/",
+          "source": "DevelopersIO",
+          "published": "2026-07-04T06:03:41",
+          "excerpt": "ECS上のNode.jsアプリに分散トレーシングを導入するなら、OpenTelemetryが必須です。X-Ray SDK のメンテナンスモード化に伴い、ADOT を使った3つの送信経路を実際にデプロイして徹底比較しました。…"
+        },
+        {
+          "title": "LanceDB と OpenCLIP でテキストから画像を検索してみた",
+          "link": "https://dev.classmethod.jp/articles/lancedb-openclip-text-to-image-search/",
+          "source": "DevelopersIO",
+          "published": "2026-07-04T05:36:01",
+          "excerpt": "LanceDB と OpenCLIP を使ってテキストから画像を検索する仕組みを試してみました。…"
+        },
         {
           "title": "GitHub Copilot CLI、「Autoモデル選択機能」を新たに導入",
           "link": "https://codezine.jp/article/detail/28842",
@@ -155,52 +162,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-04T00:36:52",
           "excerpt": "はじめに Terraform で、リモート state の置き場（S3 バケット名やリージョン）も 変数（var.）でまとめたいと思いました。ほかの場所は変数にしているので、backend も同じノリで…と書いてみたところ。…"
-        },
-        {
-          "title": "Git 2.55がリリース、リポジトリ保守効率化や新コマンドなど多数強化",
-          "link": "https://codezine.jp/article/detail/28849",
-          "source": "CodeZine",
-          "published": "2026-07-04T00:00:00",
-          "excerpt": "Git 2.55がリリース、リポジトリ保守効率化や新コマンドなど多数強化"
-        },
-        {
-          "title": "【Terraform】Terraformを初めて触ってみた",
-          "link": "https://zenn.dev/tas9/articles/c5b13fbefad014",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-03T23:00:08",
-          "excerpt": "はじめに AWSの資格取得を通じて、インフラエンジニアとしてのスキルを本格的に身につけたいと考えるようになりました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "ボトルネックは部屋の空気かも知れません",
+      "link": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-04T06:32:28",
+      "excerpt": "記事の URL: https://blog.mikebowler.ca/2026/07/03/co2-and-decion-making/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "NASA、ボランティアを外界から1年間隔離すると発表",
+      "link": "https://www.theregister.com/science/2026/07/04/nasa-says-it-will-isolate-volunteers-from-the-outside-world-for-a-year/5266558",
+      "source": "The Register（英語）",
+      "published": "2026-07-04T06:21:00",
+      "excerpt": "デメリットもあるかもしれない"
+    },
+    {
+      "title": "デビッド・ビーズリー – プログラミングコース",
+      "link": "https://www.dabeaz.com/courses.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-04T05:43:01",
+      "excerpt": "記事の URL: https://www.dabeaz.com/courses.html コメント URL: https://news.ycombinator.com/item?id=48782918 ポイント: 58 コメント数: 19"
+    },
+    {
       "title": "[イラスト図解で学ぶAWS] プライベートサブネットのアクセス手段をすっきり整理",
       "link": "https://qiita.com/cloudc0il/items/3f54490b6cecce01fc31",
       "source": "Qiita AWSタグ",
       "published": "2026-07-04T04:50:22",
       "excerpt": "はじめに S3 へアクセスするときは Gateway Endpoint を無料で利用できる一方で、Parameter Store へアクセスする場合は Interface Endpoint の料金が発生します。…"
-    },
-    {
-      "title": "何かを学んだほうがいいかもしれない",
-      "link": "https://www.marginalia.nu/log/a_135_learn/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-04T03:36:03",
-      "excerpt": "記事の URL: https://www.marginalia.nu/log/a_135_learn/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "AWS Transfer Family (SFTP) の断続的な接続断を追う ── TCP \"piggy-back\" ACK 問題・ポート2223・SSH.NET クライアントの裏付け",
-      "link": "https://qiita.com/k2_naka/items/631597547ddf5e513ad2",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-04T03:14:29",
-      "excerpt": "TL;DR AWS Transfer Family の SFTP で、TCP 接続は張れるのに直後に切られ、クライアント側に kex_exchange_identification: read: Connection reset by pe…"
-    },
-    {
-      "title": "合成は分析より難しい",
-      "link": "https://surfingcomplexity.blog/2026/07/03/synthesis-is-harder-than-analysis/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-04T02:45:24",
-      "excerpt": "記事の URL: https://surfingcomplexity.blog/2026/07/03/Synthetic-is-harder-than-analysis/ コメント URL: https://news.…"
     }
   ]
 }
