@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-04T08:21:06",
+  "generated_at": "2026-07-04T10:30:27",
   "window_hours": 24,
-  "total": 137,
+  "total": 121,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が11件。記事の URL: https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post コメント URL: https://news.ycombinator.…",
+      "summary": "生成AIの新着が10件。Claude Codeの会話履歴がデフォルトで30日で自動削除されることに気づきました。本記事では、履歴の保存場所やファイル形式、そして保持期間を制御する`cleanupPeriodDays`設定について紹介します。",
       "articles": [
+        {
+          "title": "Claude Codeの会話履歴の保存場所と保持期間について調査してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-conversation-history-retention/",
+          "source": "DevelopersIO",
+          "published": "2026-07-04T09:58:55",
+          "excerpt": "Claude Codeの会話履歴がデフォルトで30日で自動削除されることに気づきました。本記事では、履歴の保存場所やファイル形式、そして保持期間を制御する`cleanupPeriodDays`設定について紹介します。"
+        },
+        {
+          "title": "Amazon BedrockでAWSアラートを自動要約してメール通知する",
+          "link": "https://qiita.com/infra365/items/ed8e9316f5d9ee2fadfe",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T09:11:11",
+          "excerpt": "概要 AWS環境の運用で飛んでくるアラート（EventBridge経由のSecurity Hubのイベントなど）はJSON形式で、内容を把握するのに時間がかかります。…"
+        },
+        {
+          "title": "制約が多いからこそ設計しがいがある！？公共領域でのAWSと生成AIの活用",
+          "link": "https://qiita.com/infra365/items/f12242f65c5f1e20c022",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T08:32:58",
+          "excerpt": "概要 下記JAWS-UG栃木で登壇させていただいた内容です。ガバメントクラウドの内容や公共領域での制約条件下でのAWS・生成AI活用などについてお話しさせていただきました。…"
+        },
         {
           "title": "ガラポゴス島からのエージェントコーディングメモ",
           "link": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post",
           "source": "Hacker News（英語）",
           "published": "2026-07-04T04:37:15",
           "excerpt": "記事の URL: https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post コメント URL: https://news.ycombinator.…"
-        },
-        {
-          "title": "AWSのGPU1枚で300MパラメータLLM「OpenMythos」をゼロから事前学習してみた（FineWeb-Edu / FSDP / MoE+MLA+再帰ブロック）",
-          "link": "https://qiita.com/hahait/items/17aa49ca2dd711222fac",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-04T03:32:58",
-          "excerpt": "TL;DR AWS g6e.8xlarge（NVIDIA L40S 48GB × 1枚）で、独自アーキテクチャ LLM OpenMythos の 300Mパラメータ / 3Bトークン 事前学習をゼロから回した記録です。…"
-        },
-        {
-          "title": "AIエージェント対応が進むデザインシステムの最近の動きをまとめてみた - Meta Astryx・v0・Serendie・SmartHR",
-          "link": "https://dev.classmethod.jp/articles/design-system-ai-agent-roundup/",
-          "source": "DevelopersIO",
-          "published": "2026-07-04T02:11:43",
-          "excerpt": "AIエージェントにデザインシステムを正しく使わせるための取り組みとして、Meta Astryx、v0 Design Systems 2.0、Serendie、SmartHR Design Systemを調査。…"
-        },
-        {
-          "title": "Claude Mythos Preview のリリース前後で新たな深刻な脆弱性が急増",
-          "link": "https://epoch.ai/data-insights/cve-severity-spike",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-03T21:16:16",
-          "excerpt": "記事の URL: https://epoch.ai/data-insights/cve-severity-spike コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。ECS上のNode.jsアプリに分散トレーシングを導入するなら、OpenTelemetryが必須です。X-Ray SDK のメンテナンスモード化に伴い、ADOT を使った3つの送信経路を実際にデプロイして徹底比較しました。…",
+      "summary": "クラウドの新着が13件。☘️ はじめに 本ページは、AWS に関する個人の勉強および勉強会で使用することを目的に、AWS ドキュメントなどを参照し作成しておりますが、記載の誤り等が含まれる場合がございます。…",
       "articles": [
+        {
+          "title": "【初心者向け】Amazon VPC Lattice 入門！完全ガイド",
+          "link": "https://zenn.dev/issy/articles/zenn-vpc-lattice-overview",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-04T07:24:15",
+          "excerpt": "☘️ はじめに 本ページは、AWS に関する個人の勉強および勉強会で使用することを目的に、AWS ドキュメントなどを参照し作成しておりますが、記載の誤り等が含まれる場合がございます。…"
+        },
+        {
+          "title": "【初心者向け】Amazon VPC 入門！完全ガイド",
+          "link": "https://zenn.dev/issy/articles/zenn-vpc-overview",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-04T07:23:09",
+          "excerpt": "Amazon Virtual Private Cloud（VPC） ☘️ はじめに 本ページは、AWS に関する個人の勉強および勉強会で使用することを目的に、AWS ドキュメントなどを参照し作成しておりますが、記載の誤り等が含まれる場合がご…"
+        },
         {
           "title": "ECS(Fargate) から X-Ray にトレースを送る3経路（ADOT サイドカー / OTLP 直送 / Application Signals）を実際にデプロイして比較してみた",
           "link": "https://dev.classmethod.jp/articles/ecs-otel-xray-tracing-three-send-paths-compared/",
@@ -57,20 +71,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-04T04:41:49",
           "excerpt": "Kiro IDE 1.0 へのアップデート時にセッションやフックの移行が必要と聞いて、実際に試してみました。セッション移行はワンクリックで完了し、思いのほか手間がかかりませんでしたので、その内容をご紹介します。"
-        },
-        {
-          "title": "【Cloudflare】Route 53 からネームサーバーを移行する",
-          "link": "https://qiita.com/ryu-ki/items/0566e27e6c50b9fb399a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-04T04:22:17",
-          "excerpt": "はじめに 個人ブログを Cloudflare Workers で公開しようとしたところ、Workers のカスタムドメインには Cloudflare の DNS ゾーンが必要だと分かりました。私のドメイン ryu-ki-learn.…"
-        },
-        {
-          "title": "【AWS Summit】ECS Managed InstancesとFargateの仕組みと違い",
-          "link": "https://qiita.com/infra365/items/ff46cbe93afe59581d5d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-03T22:47:37",
-          "excerpt": "概要 AWS Summit Japan 2026で下記のセッションを聞きました。…"
         }
       ]
     },
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。他の住宅用プロキシ ブランドも同じネットワークに依存している可能性があります",
+      "summary": "データ分析の新着が1件。他の住宅用プロキシ ブランドも同じネットワークに依存している可能性があります",
       "articles": [
         {
           "title": "GoogleとFBIが200万台のデバイスのボットネットを標的にするとNetNutがクラックされる",
@@ -120,80 +120,73 @@
           "source": "The Register（英語）",
           "published": "2026-07-03T12:03:00",
           "excerpt": "他の住宅用プロキシ ブランドも同じネットワークに依存している可能性があります"
-        },
-        {
-          "title": "GoogleやFBI、悪質プロキシ「NetNut」をテイクダウン　スマートTVなど200万台超をボット化",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/03/news125.html",
-          "source": "@IT",
-          "published": "2026-07-03T08:46:00",
-          "excerpt": "Google脅威分析グループは、FBIなどと共同で大規模悪質プロキシ「NetNut」をテイクダウンしたと発表した。家庭のスマートTVなど200万台超をボット化し、国家スパイやサイバー犯罪者が企業の検知をすり抜ける踏み台としていた。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。ECS上のNode.jsアプリに分散トレーシングを導入するなら、OpenTelemetryが必須です。X-Ray SDK のメンテナンスモード化に伴い、ADOT を使った3つの送信経路を実際にデプロイして徹底比較しました。…",
+      "summary": "開発ツールの新着が14件。GitHub Copilot CLIとSDKでAIクレジットのセッション上限設定が可能に",
       "articles": [
+        {
+          "title": "GitHub Copilot CLIとSDKでAIクレジットのセッション上限設定が可能に",
+          "link": "https://codezine.jp/article/detail/28844",
+          "source": "CodeZine",
+          "published": "2026-07-04T09:00:00",
+          "excerpt": "GitHub Copilot CLIとSDKでAIクレジットのセッション上限設定が可能に"
+        },
+        {
+          "title": "IaC と IfC を実際に動かして比較してみた【2026】",
+          "link": "https://zenn.dev/sbk0716/articles/753ffaa23be30a",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-04T08:54:27",
+          "excerpt": "1.はじめに この記事を書いた背景 AI（コーディングエージェント）が、アプリだけでなく インフラ（IaC）も書くようになりました。すると、新しい問いが出てきます。「AI が書いた IaC、動きはするが 意図どおり・安全か はどう担保する？…"
+        },
+        {
+          "title": "CDK と AWS Blocks を実コードで読み解いてみた【2026】",
+          "link": "https://zenn.dev/sbk0716/articles/fa2a1898213a65",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-04T07:39:47",
+          "excerpt": "1.…"
+        },
         {
           "title": "ECS(Fargate) から X-Ray にトレースを送る3経路（ADOT サイドカー / OTLP 直送 / Application Signals）を実際にデプロイして比較してみた",
           "link": "https://dev.classmethod.jp/articles/ecs-otel-xray-tracing-three-send-paths-compared/",
           "source": "DevelopersIO",
           "published": "2026-07-04T06:03:41",
           "excerpt": "ECS上のNode.jsアプリに分散トレーシングを導入するなら、OpenTelemetryが必須です。X-Ray SDK のメンテナンスモード化に伴い、ADOT を使った3つの送信経路を実際にデプロイして徹底比較しました。…"
-        },
-        {
-          "title": "LanceDB と OpenCLIP でテキストから画像を検索してみた",
-          "link": "https://dev.classmethod.jp/articles/lancedb-openclip-text-to-image-search/",
-          "source": "DevelopersIO",
-          "published": "2026-07-04T05:36:01",
-          "excerpt": "LanceDB と OpenCLIP を使ってテキストから画像を検索する仕組みを試してみました。…"
-        },
-        {
-          "title": "GitHub Copilot CLI、「Autoモデル選択機能」を新たに導入",
-          "link": "https://codezine.jp/article/detail/28842",
-          "source": "CodeZine",
-          "published": "2026-07-04T03:00:00",
-          "excerpt": "GitHub Copilot CLI、「Autoモデル選択機能」を新たに導入"
-        },
-        {
-          "title": "Terraformのbackendだけ、変数(var.)が使えなかった話",
-          "link": "https://qiita.com/80-cloud/items/a9983125359905a30124",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-04T00:36:52",
-          "excerpt": "はじめに Terraform で、リモート state の置き場（S3 バケット名やリージョン）も 変数（var.）でまとめたいと思いました。ほかの場所は変数にしているので、backend も同じノリで…と書いてみたところ。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ボトルネックは部屋の空気かも知れません",
-      "link": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-04T06:32:28",
-      "excerpt": "記事の URL: https://blog.mikebowler.ca/2026/07/03/co2-and-decion-making/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "NASA、ボランティアを外界から1年間隔離すると発表",
-      "link": "https://www.theregister.com/science/2026/07/04/nasa-says-it-will-isolate-volunteers-from-the-outside-world-for-a-year/5266558",
+      "title": "Confidential Computing の中核となる信頼メカニズムが壊れています。修正は存在しない可能性があります",
+      "link": "https://www.theregister.com/security/2026/07/04/confidential-computings-core-trust-mechanism-is-broken-the-fix-may-not-exist/5266056",
       "source": "The Register（英語）",
-      "published": "2026-07-04T06:21:00",
-      "excerpt": "デメリットもあるかもしれない"
+      "published": "2026-07-04T10:03:00",
+      "excerpt": "証明された TLS: 相手が誰であるかを証明できないハンドシェイク"
     },
     {
-      "title": "デビッド・ビーズリー – プログラミングコース",
-      "link": "https://www.dabeaz.com/courses.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-04T05:43:01",
-      "excerpt": "記事の URL: https://www.dabeaz.com/courses.html コメント URL: https://news.ycombinator.com/item?id=48782918 ポイント: 58 コメント数: 19"
-    },
-    {
-      "title": "[イラスト図解で学ぶAWS] プライベートサブネットのアクセス手段をすっきり整理",
-      "link": "https://qiita.com/cloudc0il/items/3f54490b6cecce01fc31",
+      "title": "「アウトプットしないのは知識の便秘」サウナ好きおじさんの一言が1年越しに刺さった話",
+      "link": "https://qiita.com/kikuziro/items/8a121145f51d08765a92",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-04T04:50:22",
-      "excerpt": "はじめに S3 へアクセスするときは Gateway Endpoint を無料で利用できる一方で、Parameter Store へアクセスする場合は Interface Endpoint の料金が発生します。…"
+      "published": "2026-07-04T09:14:40",
+      "excerpt": "滑ってると思ってた 「アウトプットしないのは、知識の便秘」 みなさんこの言葉、聞いたことあります？私がこの言葉を知ったのは遡ること約1年前。とあるイベントでサウナ好きのおじさんから聞きました。…"
+    },
+    {
+      "title": "天体物理学者たちはウェッブの新しい宇宙について困惑する",
+      "link": "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-04T09:08:09",
+      "excerpt": "記事の URL: https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/ コメント URL: https://news.…"
+    },
+    {
+      "title": "AWS AI BPRハンズオンに参加してきた話　〜業務の「強み」から始めるAI変革〜",
+      "link": "https://qiita.com/sh_fukatsu/items/fc1c292aec9e189c43a7",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-04T08:33:38",
+      "excerpt": "はじめに 先日、AWS Japan麻布台オフィスでAI BPRのハンズオンに参加してきました。これまでの技術的なハンズオンとは異なるものでしたので、感じたことをアウトプットしておきたいと思います。…"
     }
   ]
 }
