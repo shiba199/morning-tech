@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-07-04T21:25:24",
+  "generated_at": "2026-07-04T22:25:12",
   "window_hours": 24,
-  "total": 113,
+  "total": 112,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が13件。AgentCore Gatewayに新しく追加されたInference Targetの機能を試してみました！",
+      "summary": "生成AIの新着が16件。概要 こちらの記事でDevOps Agentの自動実行について記載しました。今回はFinOps Agentのスケジュールタスクを使って週次コストレポートを自動生成する方法を検証します。…",
       "articles": [
+        {
+          "title": "AWS FinOps Agent のスケジュールタスクで週次コストレポートを自動生成する",
+          "link": "https://qiita.com/infra365/items/9e4ad88b77d00af5b50d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T22:07:34",
+          "excerpt": "概要 こちらの記事でDevOps Agentの自動実行について記載しました。今回はFinOps Agentのスケジュールタスクを使って週次コストレポートを自動生成する方法を検証します。…"
+        },
+        {
+          "title": "GPT-5.5 Codex 推論トークンのクラスタリングがパフォーマンスの低下を引き起こす可能性がある",
+          "link": "https://github.com/openai/codex/issues/30364",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-04T21:51:09",
+          "excerpt": "記事の URL: https://github.com/openai/codex/issues/30364 コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "AWS DevOps Agent カスタムエージェントで週次レポートを自動生成する",
+          "link": "https://qiita.com/infra365/items/732c75e4c2add219688d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T21:39:09",
+          "excerpt": "概要 前回の記事ではAWS DevOps Agentの基本的な使い方や自律型インシデント対応を記載しました。今回は、カスタムエージェントを作成して定期実行する方法を検証します。…"
+        },
         {
           "title": "AgentCore GatewayのInference Targetを試してみた",
           "link": "https://dev.classmethod.jp/articles/agentcore-gateway-inference-target/",
           "source": "DevelopersIO",
           "published": "2026-07-04T17:23:24",
           "excerpt": "AgentCore Gatewayに新しく追加されたInference Targetの機能を試してみました！"
-        },
-        {
-          "title": "ミストラルAIとは何ですか？ OpenAI の競合他社について知っておくべきことすべて",
-          "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-04T15:51:32",
-          "excerpt": "いくつかのオープンソース AI モデルを提供する Mistral AI は、「フロンティア AI をすべての人の手に」という野望を掲げ、2023 年の設立以来、多額の資金を調達してきました。"
-        },
-        {
-          "title": "Claude Science ベータ版がリリースされたのでコーヒー好きがカフェインの構造と物性を調べてみた",
-          "link": "https://dev.classmethod.jp/articles/claude-science-beta-caffeine/",
-          "source": "DevelopersIO",
-          "published": "2026-07-04T14:16:14",
-          "excerpt": "Anthropic が公開したClaude Science（ベータ版）を実際に試してみました。研究支援ツールの実力を、カフェインの分子物性計算を通じて検証します。"
-        },
-        {
-          "title": "[アップデート] Amazon Bedrock AgentCore Memory のクロスアカウントアクセスを2アカウント構成で試してみた",
-          "link": "https://dev.classmethod.jp/articles/agentcore-memory-cross-account-access/",
-          "source": "DevelopersIO",
-          "published": "2026-07-04T12:39:04",
-          "excerpt": "Amazon Bedrock AgentCore Memory がクロスアカウントアクセスに対応しました！Strands Agents Session Managerからの連携も確認しました！"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。はじめに S3 オブジェクトに「もう少しリッチな情報」を付けたいと思って、user metadata の2KB上限や object tags の10個・256文字上限にぶつかったことはないだろうか。…",
+      "summary": "クラウドの新着が12件。はじめに S3 オブジェクトに「もう少しリッチな情報」を付けたいと思って、user metadata の2KB上限や object tags の10個・256文字上限にぶつかったことはないだろうか。…",
       "articles": [
         {
           "title": "S3 のメタデータ地獄から卒業する：新機能 S3 annotations をやってみた",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。こんばんは。今回は、パーミッションバウンダリについて整理していきます。パーミッションバウンダリとは パーミッションバウンダリとは、IAM ユーザーまたは IAM ロールが持てる権限の上限を定義する仕組みです。…",
+      "summary": "セキュリティの新着が5件。記事の URL: https://arxiv.org/abs/2606.26967 コメント URL: https://news.ycombinator.com/item?id=48788849 ポイント: 4 コメント数: 0",
       "articles": [
+        {
+          "title": "プロトコルの覗き見: AirDrop と Quick Share の脆弱性調査",
+          "link": "https://arxiv.org/abs/2606.26967",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-04T20:38:39",
+          "excerpt": "記事の URL: https://arxiv.org/abs/2606.26967 コメント URL: https://news.ycombinator.com/item?id=48788849 ポイント: 4 コメント数: 0"
+        },
         {
           "title": "IAM パーミッションバウンダリについて調べてみる",
           "link": "https://qiita.com/keitakei777/items/a31c2752fa8257780bfc",
@@ -99,21 +106,21 @@
           "source": "CodeZine",
           "published": "2026-07-04T06:00:00",
           "excerpt": "Cognition、AIによる脆弱性検出と修正ツール「Devin Security Swarm」発表"
-        },
-        {
-          "title": "Microsoft Sentinel へ転送する AWS Security Hub CSPM の Findings を特定サービスのみに限定してみた",
-          "link": "https://dev.classmethod.jp/articles/filter-aws-security-hub-cspm-findings-for-microsoft-sentinel/",
-          "source": "DevelopersIO",
-          "published": "2026-07-04T04:48:52",
-          "excerpt": "Security Hub CSPM の Findings を Microsoft Sentinel に転送する際に、EventBridge のイベントパターンを調整して、転送するサービスと重要度を限定する方法を試してみました。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。Snowflake Summit 2026で発表された、外部エンジンからの書き込み機能をAmazon Athenaから検証してみました。…",
+      "summary": "データ分析の新着が3件。1.はじめに 前回、awslabs/mcp リポジトリの Amazon Aurora Postgres MCP Server（awslabs.…",
       "articles": [
+        {
+          "title": "MCP で DynamoDB につないでみた（設計は DynamoDB MCP、操作は AWS API MCP）",
+          "link": "https://qiita.com/asahide/items/4911953d27b74269689b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-04T22:20:08",
+          "excerpt": "1.はじめに 前回、awslabs/mcp リポジトリの Amazon Aurora Postgres MCP Server（awslabs.…"
+        },
         {
           "title": "Snowflake 管理 Iceberg テーブルを Amazon Athena の各エンジンから読み取り・書き込みしてみる",
           "link": "https://dev.classmethod.jp/articles/snowflake-managed-iceberg-tables-write-from-athena/",
