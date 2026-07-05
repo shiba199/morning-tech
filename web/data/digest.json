@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-05T12:08:32",
+  "generated_at": "2026-07-05T14:14:25",
   "window_hours": 24,
-  "total": 117,
+  "total": 123,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。Bedrock GuardrailsがAgentCore Policyでも使えるよ！試してみました！！！！",
+      "summary": "生成AIの新着が22件。はじめに 先日、JAWSミートにて登壇してきました。LLMにSQLを生成させる際に意識する点で、検証、構築する上で気づいた点など、収まりきらなかったポイントなどを記事にまとめていきたいと思います。…",
       "articles": [
+        {
+          "title": "LLMにSQLを生成・実行させる際に注意したこと※AWS編",
+          "link": "https://qiita.com/yakumo_09/items/51419606674100367559",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-05T13:25:15",
+          "excerpt": "はじめに 先日、JAWSミートにて登壇してきました。LLMにSQLを生成させる際に意識する点で、検証、構築する上で気づいた点など、収まりきらなかったポイントなどを記事にまとめていきたいと思います。…"
+        },
+        {
+          "title": "「Fable 5規制の真実！今知るべきAnthropicの戦略と開発者の現実解」～【claude】人気記事TOP5（2026/07/05） | CareNet Engineersのフィード",
+          "link": "https://zenn.dev/carenet/articles/zenn-weekly-claude-articles-2026-07",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-05T13:09:24",
+          "excerpt": "!この記事はZennからclaudeのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「Fable 5規制の真実！…"
+        },
         {
           "title": "AgentCore PolicyのCedarポリシーにBedrock Guardrailsを組み込んでGatewayでリクエストをブロックしてみた",
           "link": "https://dev.classmethod.jp/articles/agentcore-policy-guardrails-gateway/",
@@ -17,33 +31,33 @@
           "excerpt": "Bedrock GuardrailsがAgentCore Policyでも使えるよ！試してみました！！！！"
         },
         {
-          "title": "ApsaraDB for RDSがRDSHermesを発表、AIエージェントの自律進化を実現",
-          "link": "https://codezine.jp/article/detail/28856",
-          "source": "CodeZine",
-          "published": "2026-07-05T09:00:00",
-          "excerpt": "ApsaraDB for RDSがRDSHermesを発表、AIエージェントの自律進化を実現"
-        },
-        {
-          "title": "クロードデザインシステムプロンプト",
-          "link": "https://github.com/Trystan-SA/claude-design-system-prompt",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-05T08:43:37",
-          "excerpt": "記事の URL: https://github.com/Trystan-SA/claude-design-system-prompt コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Bedrock Mantle で Claude Fable 5 を呼び出せるようになっていたので試してみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-mantle-claude-fable-5/",
-          "source": "DevelopersIO",
-          "published": "2026-07-05T08:01:51",
-          "excerpt": "Amazon Bedrock MantleでClaude Fable 5が利用可能になっていました。呼び出しにはMantle側でData Retention Modeをprovider_data_shareに設定する必要があります。…"
+          "title": "ClaudeのAPI費用が激減。システムプロンプトを「画像」として読ませる新ツールの仕組み | XenoSpectrum",
+          "link": "https://xenospectrum.com/pxpipe-claude-token-image-compression/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-07-05T10:24:29",
+          "excerpt": "この記事のポイント 何が起きた: Claude Codeの入力コンテキストをPNG画像に変換し、トークン費用を約6割削減するローカルプロキシ「pxpipe」が登場した。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。ApsaraDB for RDSがRDSHermesを発表、AIエージェントの自律進化を実現",
+      "summary": "クラウドの新着が14件。1．初めに Mountpoint for Amazon S3という機能をご存じでしょうか。…",
       "articles": [
+        {
+          "title": "Mountpoint for Amazon S3を試してみた ～S3はどこまでファイルシステムとして使えるのか検証～",
+          "link": "https://qiita.com/miyazakiiiiii/items/4cfc484a5e3088ce8433",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-05T13:44:12",
+          "excerpt": "1．初めに Mountpoint for Amazon S3という機能をご存じでしょうか。…"
+        },
+        {
+          "title": "EC2 instance作成時にInstance launch failed. This account is currently blocked and not recognized as a valid account.というエラーが出た件",
+          "link": "https://qiita.com/TomoyukiAota/items/2cf0708efe4b9d3adf1b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-05T12:40:55",
+          "excerpt": "EC2 instanceを作成しようとした際に、 Instance launch failed.This account is currently blocked and not recognized as a valid account.…"
+        },
         {
           "title": "ApsaraDB for RDSがRDSHermesを発表、AIエージェントの自律進化を実現",
           "link": "https://codezine.jp/article/detail/28856",
@@ -57,20 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-05T08:44:08",
           "excerpt": "Amazon ECS（Elastic Container Service）を利用する際、これまではデータプレーン（コンテナの実行環境）として「AWS Fargate」か「Amazon EC2」のどちらかを選択するのが一般的でした。…"
-        },
-        {
-          "title": "S3 Annotation を使って S3 Files によるエージェンティックサーチ基盤を改良する",
-          "link": "https://zenn.dev/aws_japan/articles/bde726c3cd575b",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-05T07:49:38",
-          "excerpt": "S3 Annotations が公開されました 2026年6月、S3 Annotations が GA しました。https://aws.amazon.…"
-        },
-        {
-          "title": "インフラをTypeScriptで管理する - はじめてのAWS CDK | SMARTCAMP Engineer Blogのフィード",
-          "link": "https://zenn.dev/smartcamp/articles/c5ef03f249c3d4",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-05T06:05:50",
-          "excerpt": "TsKaigi 2026以下のセッションでAWS CDKをはじめて知りました。https://2026.tskaigi.…"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。TsKaigi 2026以下のセッションでAWS CDKをはじめて知りました。https://2026.tskaigi.…",
+      "summary": "開発ツールの新着が5件。TsKaigi 2026以下のセッションでAWS CDKをはじめて知りました。https://2026.tskaigi.…",
       "articles": [
         {
           "title": "インフラをTypeScriptで管理する - はじめてのAWS CDK | SMARTCAMP Engineer Blogのフィード",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "AWS Summit Japan 2026 Day1 & 2  ~ 初参加でも最高に楽しめた！ ~",
-      "link": "https://qiita.com/shii__zuk2/items/583af6c820c72d90ef72",
+      "title": "曲がるスプーンとは何ですか?あまり知られていない AOL と Vimeo のオーナーが現在公開されている",
+      "link": "https://techcrunch.com/2026/07/05/what-is-bending-spoons-everything-to-know-about-aols-acquirer/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-05T13:33:32",
+      "excerpt": "Bending Spoons は、その製品ポートフォリオが 10 億人以上の人々に提供されているにもかかわらず、依然としてほとんど知られていません。"
+    },
+    {
+      "title": "フォス 0.56.0",
+      "link": "https://phosh.mobi/releases/rel-0.56.0/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-05T13:28:11",
+      "excerpt": "記事の URL: https://phosh.mobi/releases/rel-0.56.0/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "今年これまでに約90の新しいユニコーンが鋳造されました - それはここにあります",
+      "link": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-05T12:47:39",
+      "excerpt": "AI が投資家の熱狂に火をつけ、毎月より多くのスタートアップがユニコーンの地位を獲得しています。"
+    },
+    {
+      "title": "【AWS Summit Japan 2026】2日目参加レポート",
+      "link": "https://qiita.com/eureka_/items/52f5a2c140f90f8a6a65",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-05T12:06:08",
-      "excerpt": "📑 目次 はじめに 3分で自作ゲームを作って遊ぶ 🎮 NVIDIAのオープンソース精神 🟢 QuizKnock（クイズノック）に会えた 🧠 英語の重要性とAWS re:Inventへの夢 🇺🇸 Day1 2の個人的SWAG No.…"
-    },
-    {
-      "title": "AWSのサーバレス構成ハンズオンで学んでみた！",
-      "link": "https://qiita.com/nishiguchi_2/items/57b5e045ab8ca6c155b4",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-05T11:32:00",
-      "excerpt": "こんにちは！最近転職したニシグチです！今回はQiitaの記事を参考にAWS サーバレスの基本サービスについて学んでいきたいと思います。…"
-    },
-    {
-      "title": "トランプ政権が安全規則の弱体化を提案する中、化学事故が増加",
-      "link": "https://arstechnica.com/science/2026/07/chemical-accidents-rise-as-trump-administration-proposes-weakening-safety-rules/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-05T11:05:22",
-      "excerpt": "人を傷つけたり死亡させたりする事故による化学物質は、近年で 50% 近く増加しました。"
-    },
-    {
-      "title": "行方不明の5億人：宇宙爆撃で地球の最初の地殻が溶けた",
-      "link": "https://arstechnica.com/science/2026/07/the-missing-500-million-cosmic-bombardment-melted-earths-first-crust/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-05T10:55:02",
-      "excerpt": "冥王代の熱は内部だけでなく衝撃からも来たのかもしれない。"
+      "published": "2026-07-05T12:27:00",
+      "excerpt": "はじめに AWS Summit Japan 2026に参加しました！本記事は、2日目の参加レポートになります！1日目の記事も投稿済みですので、そちらもご覧いただけますと幸いです！…"
     }
   ]
 }
