@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-05T08:23:45",
+  "generated_at": "2026-07-05T10:34:08",
   "window_hours": 24,
-  "total": 116,
+  "total": 118,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。Amazon Bedrock MantleでClaude Fable 5が利用可能になっていました。呼び出しにはMantle側でData Retention Modeをprovider_data_shareに設定する必要があります。…",
+      "summary": "生成AIの新着が21件。ApsaraDB for RDSがRDSHermesを発表、AIエージェントの自律進化を実現",
       "articles": [
+        {
+          "title": "ApsaraDB for RDSがRDSHermesを発表、AIエージェントの自律進化を実現",
+          "link": "https://codezine.jp/article/detail/28856",
+          "source": "CodeZine",
+          "published": "2026-07-05T09:00:00",
+          "excerpt": "ApsaraDB for RDSがRDSHermesを発表、AIエージェントの自律進化を実現"
+        },
         {
           "title": "Bedrock Mantle で Claude Fable 5 を呼び出せるようになっていたので試してみた",
           "link": "https://dev.classmethod.jp/articles/bedrock-mantle-claude-fable-5/",
@@ -29,56 +36,56 @@
           "source": "DevelopersIO",
           "published": "2026-07-05T05:09:47",
           "excerpt": "Android のオンデバイス生成 AI モデル Gemini Nano を、ML Kit GenAI API 経由で Flutter から呼び出し、6機能（プロンプト・要約・校正・書き換え・画像の説明・音声認識）を検証しました。…"
-        },
-        {
-          "title": "マウス: AI コーディング エージェント用の高精度編集ツール",
-          "link": "https://hic-ai.com",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-05T05:01:14",
-          "excerpt": "記事の URL: https://hic-ai.com コメント URL: https://news.ycombinator.com/item?id=48791380 ポイント: 27 コメント数: 34"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。TsKaigi 2026以下のセッションでAWS CDKをはじめて知りました。https://2026.tskaigi.…",
+      "summary": "クラウドの新着が16件。ApsaraDB for RDSがRDSHermesを発表、AIエージェントの自律進化を実現",
       "articles": [
+        {
+          "title": "ApsaraDB for RDSがRDSHermesを発表、AIエージェントの自律進化を実現",
+          "link": "https://codezine.jp/article/detail/28856",
+          "source": "CodeZine",
+          "published": "2026-07-05T09:00:00",
+          "excerpt": "ApsaraDB for RDSがRDSHermesを発表、AIエージェントの自律進化を実現"
+        },
+        {
+          "title": "【初心者向け】ECSの第3の選択肢「マネージドインスタンス」とは？Fargate・EC2との違いを徹底解説",
+          "link": "https://qiita.com/OhkuboT/items/581516228e8b1ade0926",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-05T08:44:08",
+          "excerpt": "Amazon ECS（Elastic Container Service）を利用する際、これまではデータプレーン（コンテナの実行環境）として「AWS Fargate」か「Amazon EC2」のどちらかを選択するのが一般的でした。…"
+        },
+        {
+          "title": "S3 Annotation を使って S3 Files によるエージェンティックサーチ基盤を改良する",
+          "link": "https://zenn.dev/aws_japan/articles/bde726c3cd575b",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-05T07:49:38",
+          "excerpt": "S3 Annotations が公開されました 2026年6月、S3 Annotations が GA しました。https://aws.amazon.…"
+        },
         {
           "title": "インフラをTypeScriptで管理する - はじめてのAWS CDK | SMARTCAMP Engineer Blogのフィード",
           "link": "https://zenn.dev/smartcamp/articles/c5ef03f249c3d4",
           "source": "企業テックブログまとめ",
           "published": "2026-07-05T06:05:50",
           "excerpt": "TsKaigi 2026以下のセッションでAWS CDKをはじめて知りました。https://2026.tskaigi.…"
-        },
-        {
-          "title": "AIが開発／運用しやすいクラウド サーバーレスの視点から考える設計原則（CNS449）",
-          "link": "https://dev.classmethod.jp/articles/2026-07-05-aws-summit-cns449-serverless-ai-design-principles/",
-          "source": "DevelopersIO",
-          "published": "2026-07-05T05:25:35",
-          "excerpt": "AWS Summit Japan 2026で聴講した「AIが開発／運用しやすいクラウド」をテーマとしたセッションのレポートです。…"
-        },
-        {
-          "title": "VPC が消せない。原因は中に残っていたものだった話【AWS / 片付け】",
-          "link": "https://qiita.com/80-cloud/items/d257b0b18ff91cd18318",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-05T05:21:51",
-          "excerpt": "はじめに 学習で作った AWS リソースを片付けようとしていました。EC2・RDS・ロードバランサー（ALB）など、いろいろあるので、「VPC をまとめて消せば、中のものも一緒に消えるだろう」と考えて、VPC の削除から手をつけました。…"
-        },
-        {
-          "title": "Lambda@Edgeについて調べてみた",
-          "link": "https://qiita.com/keitakei777/items/0934d229bfb91b03f23b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-05T04:51:30",
-          "excerpt": "こんにちは。今回は、Lambda@Edgeについて整理してみます。Lambda@Edgeとは Lambda@Edgeは、Amazon CloudFrontのエッジロケーションでAWS Lambda関数を実行できるサービスです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。こんにちは。今回は、AWSの暗号化・鍵管理サービスについて、それぞれの役割や違いを整理してみます。まず整理 AWSには暗号化や認証情報を管理するサービスが複数ありますが、管理する対象は大きく3種類に分けられます。AWSの暗号化・鍵管理...…",
+      "summary": "セキュリティの新着が7件。記事の URL: https://www.devever.net/~hl/webcrypto コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "Web ベースの暗号化は常にスネークオイルです",
+          "link": "https://www.devever.net/~hl/webcrypto",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-05T08:01:29",
+          "excerpt": "記事の URL: https://www.devever.net/~hl/webcrypto コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "AWSの暗号化・鍵管理サービスまとめ",
           "link": "https://qiita.com/keitakei777/items/ee34ec3e245bd5dd0968",
@@ -99,13 +106,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-04T22:25:10",
           "excerpt": "概要 ここ1カ月ほどで、AWSのフロンティアエージェント（DevOps Agent、FinOps Agent、Security Agent）に関する検証を実施し、記事を作成しました。本記事では各記事の内容を簡単にまとめます。…"
-        },
-        {
-          "title": "プロトコルの覗き見: AirDrop と Quick Share の脆弱性調査",
-          "link": "https://arxiv.org/abs/2606.26967",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-04T20:38:39",
-          "excerpt": "記事の URL: https://arxiv.org/abs/2606.26967 コメント URL: https://news.ycombinator.com/item?id=48788849 ポイント: 4 コメント数: 0"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。TsKaigi 2026以下のセッションでAWS CDKをはじめて知りました。https://2026.tskaigi.…",
+      "summary": "開発ツールの新着が8件。TsKaigi 2026以下のセッションでAWS CDKをはじめて知りました。https://2026.tskaigi.…",
       "articles": [
         {
           "title": "インフラをTypeScriptで管理する - はじめてのAWS CDK | SMARTCAMP Engineer Blogのフィード",
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "アポケトリプス",
+      "link": "https://0dd.company/galleries/triumph/1.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-05T08:32:09",
+      "excerpt": "記事の URL: https://0dd.company/galleries/triumph/1.html コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "プログラマーは今すぐ瞑想を始める必要がある",
+      "link": "https://jacob.gold/posts/programmers-need-to-start-meditating-now/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-05T07:39:35",
+      "excerpt": "記事の URL: https://jacob.gold/posts/programmers-need-to-start-meditating-now/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
       "title": "【PostgreSQL】INSERT/UPDATE/DELETE で xmin/xmax がどう変わるかを確認してみた",
       "link": "https://dev.classmethod.jp/articles/postgresql-xmin-xmax-insert-update-delete/",
       "source": "DevelopersIO",
@@ -189,25 +203,11 @@
       "excerpt": "PostgreSQL のシステム列である xmin / xmax が、INSERT / UPDATE / DELETE によってどのように変化するかを pageinspect を使いながら検証しました。"
     },
     {
-      "title": "【クラウド未経験】AWS クラウドプラクティショナー合格体験記（のちSAAも合格）",
-      "link": "https://qiita.com/kuriyoshi/items/85bcbd888f2a9508896d",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-05T07:13:54",
-      "excerpt": "2023年3月21日にAWSクラウドプラクティショナー認定試験に合格しましたので、備忘録として記録します。…"
-    },
-    {
-      "title": "「なんか遅い」の正体はコールドスタートだった 〜AWS X-RayとProvisioned Concurrencyで解決した話〜",
-      "link": "https://qiita.com/lqqtotzo/items/7af797946a4677595263",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-05T06:46:59",
-      "excerpt": "ある機能で、ユーザーからこんな問い合わせがありました。…"
-    },
-    {
-      "title": "経済学者はいつも間違っているのか?",
-      "link": "https://economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong",
+      "title": "高速なソフトウェア、最高のソフトウェア",
+      "link": "https://craigmod.com/essays/fast_software/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-05T06:40:05",
-      "excerpt": "記事の URL: https://economist.…"
+      "published": "2026-07-05T07:25:25",
+      "excerpt": "記事の URL: https://craigmod.com/essays/fast_software/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
