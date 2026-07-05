@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-05T21:31:51",
+  "generated_at": "2026-07-05T22:49:21",
   "window_hours": 24,
-  "total": 134,
+  "total": 145,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。Amazon Bedrock Knowledge Bases を使ったシンプルな RAG 環境を実際に構築してみました。…",
+      "summary": "生成AIの新着が22件。Sonnet 4.6・Opus 4.8・Sonnet 5 の3モデルで、Adaptive thinkingの呼び方とレスポンス形式がどう変わったかを検証してみました。…",
       "articles": [
+        {
+          "title": "Amazon Bedrock の Claude 3 モデル（Sonnet 4.6 / Opus 4.8 / Sonnet 5）で Adaptive thinking の呼び方とレスポンス形式の違いを確認してみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-claude-thinking/",
+          "source": "DevelopersIO",
+          "published": "2026-07-05T22:00:12",
+          "excerpt": "Sonnet 4.6・Opus 4.8・Sonnet 5 の3モデルで、Adaptive thinkingの呼び方とレスポンス形式がどう変わったかを検証してみました。…"
+        },
+        {
+          "title": "生成AIで履歴書も顔も偽装　北朝鮮ITワーカー、日本企業への潜入工作の実態",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/06/news022.html",
+          "source": "@IT",
+          "published": "2026-07-05T22:00:00",
+          "excerpt": "北朝鮮のサイバー攻撃といえばランサムウェアや暗号資産の窃取を思い浮かべる人が多い。しかし今、新たな脅威として警戒されているのが「ITワーカー」の潜入だ。…"
+        },
         {
           "title": "Amazon Bedrock Knowledge Bases × OpenSearch Serverless  で貯めたドキュメントについてAI に質問できる環境をつくってみた",
           "link": "https://dev.classmethod.jp/articles/shoma-amazon-bedrock-knowledge-bases-opensearch-serverless-build-environment-ask-ai-about-stored-documents/",
@@ -22,28 +36,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-05T15:06:04",
           "excerpt": "どうも！山ちゃんです。私はデザインセンス皆無な人間です。動画編集ソフトは開いた瞬間にそっと閉じるレベルです。それでも毎週、AWSアップデートの解説動画をYouTubeに配信しています。…"
-        },
-        {
-          "title": "Amazon SageMaker HyperPodで学習から推論までやってみた | Fusic 技術ブログのフィード",
-          "link": "https://zenn.dev/fusic/articles/522e5d7553fde7",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-05T14:28:28",
-          "excerpt": "はじめにFusicのレオナです。今回は、SageMaker HyperPodを最小構成で触ってみました。SageMaker HyperPodというと、数千GPUを使って基盤モデルを学習するための大規模な基盤、という印象が強いと思います。…"
-        },
-        {
-          "title": "LLMにSQLを生成・実行させる際に注意したこと※AWS編",
-          "link": "https://qiita.com/yakumo_09/items/51419606674100367559",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-05T13:25:15",
-          "excerpt": "はじめに 先日、JAWSミートにて登壇してきました。LLMにSQLを生成させる際に意識する点で、検証、構築する上で気づいた点など、収まりきらなかったポイントなどを記事にまとめていきたいと思います。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。Amazon Bedrock Knowledge Bases を使ったシンプルな RAG 環境を実際に構築してみました。…",
+      "summary": "クラウドの新着が23件。ガバメント AI 源内（genai-web）を閉域ネットワークでも動作するように、源内のフロントエンドを CloudFront から ALB + ECS Fargate に変更し、Lambda を VPC 内へ配置するようにした上で AWS…",
       "articles": [
+        {
+          "title": "閉域モード版源内のデプロイ手順とオンプレミスと接続する時の注意点",
+          "link": "https://qiita.com/takeda_h/items/058536359a54ab3c6bab",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-05T21:35:36",
+          "excerpt": "ガバメント AI 源内（genai-web）を閉域ネットワークでも動作するように、源内のフロントエンドを CloudFront から ALB + ECS Fargate に変更し、Lambda を VPC 内へ配置するようにした上で AWS…"
+        },
         {
           "title": "Amazon Bedrock Knowledge Bases × OpenSearch Serverless  で貯めたドキュメントについてAI に質問できる環境をつくってみた",
           "link": "https://dev.classmethod.jp/articles/shoma-amazon-bedrock-knowledge-bases-opensearch-serverless-build-environment-ask-ai-about-stored-documents/",
@@ -64,20 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-05T15:18:34",
           "excerpt": "はじめに 2026 年 7 月 1 日、AWS は Amazon EKS に対して Kubernetes バージョンロールバックを発表しました。…"
-        },
-        {
-          "title": "Amazon AuroraからBigQueryにデータ連携するときにGCSは必要なのか",
-          "link": "https://zenn.dev/tsukulink/articles/2026-07-rds-bigquery-sync",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-05T15:00:08",
-          "excerpt": "はじめに こんにちは、ツクリンクでSREエンジニアをやってるida.です。ツクリンクではAmazon AuroraのデータをBigQueryに連携して分析基盤として活用しています。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。サイバー攻撃の裏には、必ず人間がいる――国家間の紛争に巻き込まれるような環境でCISOとして戦ってきた1人のセキュリティエンジニアが見つけた「究極の防御」は、「人間のしなやかさ」だった。",
+      "summary": "セキュリティの新着が4件。サイバー攻撃の裏には、必ず人間がいる――国家間の紛争に巻き込まれるような環境でCISOとして戦ってきた1人のセキュリティエンジニアが見つけた「究極の防御」は、「人間のしなやかさ」だった。",
       "articles": [
         {
           "title": "国連CISOを歴任した蓮見氏が語る、AI時代の“しなやかな”キャリアと日本型セキュリティ",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Amazon Bedrock Knowledge Bases を使ったシンプルな RAG 環境を実際に構築してみました。…",
+      "summary": "データ分析の新着が3件。Amazon Bedrock Knowledge Bases を使ったシンプルな RAG 環境を実際に構築してみました。…",
       "articles": [
         {
           "title": "Amazon Bedrock Knowledge Bases × OpenSearch Serverless  で貯めたドキュメントについてAI に質問できる環境をつくってみた",
@@ -134,21 +134,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-05T14:37:25",
           "excerpt": "Amazon OpenSearch Service に登場した新しいエンジンモード「Optimized」を、ドメイン作成からログ投入・クエリまで実際に試してみました。…"
-        },
-        {
-          "title": "MCP で DynamoDB につないでみた（設計は DynamoDB MCP、操作は AWS API MCP）",
-          "link": "https://qiita.com/asahide/items/4911953d27b74269689b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-04T22:20:08",
-          "excerpt": "1.はじめに 前回、awslabs/mcp リポジトリの Amazon Aurora Postgres MCP Server（awslabs.…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。はじめにFusicのレオナです。今回は、SageMaker HyperPodを最小構成で触ってみました。SageMaker HyperPodというと、数千GPUを使って基盤モデルを学習するための大規模な基盤、という印象が強いと思います。…",
+      "summary": "開発ツールの新着が7件。ガバメント AI 源内（genai-web）を閉域ネットワークでも動作するように、源内のフロントエンドを CloudFront から ALB + ECS Fargate に変更し、Lambda を VPC 内へ配置するようにした上で AWS…",
       "articles": [
+        {
+          "title": "閉域モード版源内のデプロイ手順とオンプレミスと接続する時の注意点",
+          "link": "https://qiita.com/takeda_h/items/058536359a54ab3c6bab",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-05T21:35:36",
+          "excerpt": "ガバメント AI 源内（genai-web）を閉域ネットワークでも動作するように、源内のフロントエンドを CloudFront から ALB + ECS Fargate に変更し、Lambda を VPC 内へ配置するようにした上で AWS…"
+        },
         {
           "title": "Amazon SageMaker HyperPodで学習から推論までやってみた | Fusic 技術ブログのフィード",
           "link": "https://zenn.dev/fusic/articles/522e5d7553fde7",
@@ -169,45 +169,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-05T06:05:50",
           "excerpt": "TsKaigi 2026以下のセッションでAWS CDKをはじめて知りました。https://2026.tskaigi.…"
-        },
-        {
-          "title": "GitHub Copilot CLI、GitHub Actionsで個人用トークンが不要に",
-          "link": "https://codezine.jp/article/detail/28855",
-          "source": "CodeZine",
-          "published": "2026-07-05T06:00:00",
-          "excerpt": "GitHub Copilot CLI、GitHub Actionsで個人用トークンが不要に"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Coursera でコンピュータ サイエンスの学位を取得する",
-      "link": "https://notesbylex.com/completing-a-computer-science-degree-on-coursera",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-05T21:20:49",
-      "excerpt": "Article URL: https://notesbylex.com/completing-a-computer-science-degree-on-coursera コメント URL: https://news.ycombinator.…"
+      "title": "「Amazon Mechanical Turk」、7月30日で新規受付終了──2005年開始のAWSのクラウドソーシング",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/06/news052.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-05T22:07:00",
+      "excerpt": "AWSのクラウドソーシングサービス「Amazon Mechanical Turk」が7月30日で新規顧客の受け付けを終了する。…"
     },
     {
-      "title": "修理可能なオープンソースの紙プリンター",
-      "link": "https://www.opentools.studio/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-05T21:03:06",
-      "excerpt": "記事の URL: https://www.opentools.studio/ コメント URL: https://news.ycombinator.com/item?id=48797916 ポイント: 8 コメント数: 0"
+      "title": "[アップデート] AWS AppConfig に A/B テストやマルチバリエイト実験を実行できる「実験」機能が追加されました",
+      "link": "https://dev.classmethod.jp/articles/aws-appconfig-experimentation/",
+      "source": "DevelopersIO",
+      "published": "2026-07-05T22:02:15",
+      "excerpt": "AWS AppConfigに実験機能が追加され、A/B テストやマルチバリエイトテストがマネージドに実行できるようになりました。コンソール画面から実際にセットアップしてみたので、その流れを紹介します。"
     },
     {
-      "title": "Dungeon Proof Crawler: RPG で証明の書き方を学ぶ",
-      "link": "https://dhilst.github.io/algae/game/index.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-05T21:00:27",
-      "excerpt": "記事の URL: https://dhilst.github.io/algae/game/index.html コメント URL: https://news.ycombinator.com/item?…"
+      "title": "ITエンジニア注目トレンドを総まとめ！週間ニュースランキングTOP10【6/26～7/2】",
+      "link": "https://codezine.jp/article/detail/28848",
+      "source": "CodeZine",
+      "published": "2026-07-05T22:00:00",
+      "excerpt": "毎日更新されるITエンジニア向け関連の最新ニュースから、注目を集めたトピックスを紹介する本ランキング。今回は2026年6月26日～7月2日までの人気ランキングを発表します。"
     },
     {
-      "title": "イギリスのパイント",
-      "link": "https://dispatch-media.com/the-best-pint-in-england/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-05T20:55:47",
-      "excerpt": "記事の URL: https://dispatch-media.com/the-best-pint-in-england/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "AIはITエンジニアを淘汰しない　Microsoft調査が示す、AI委任とキャリアの好機",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/06/news027.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-07-05T22:00:00",
+      "excerpt": "Microsoftの調査から、AI時代におけるITエンジニアの生存戦略が判明。タスクの信頼度には差があり、59％が「人間をループ内に置く設計」を最優先に指定。単調な作業をAIに委任し、推論や設計へシフトするキャリアの好機が示されている。"
     }
   ]
 }
