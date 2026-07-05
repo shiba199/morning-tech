@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-07-05T01:14:08",
+  "generated_at": "2026-07-05T05:27:07",
   "window_hours": 24,
-  "total": 111,
+  "total": 114,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。概要 ここ1カ月ほどで、AWSのフロンティアエージェント（DevOps Agent、FinOps Agent、Security Agent）に関する検証を実施し、記事を作成しました。本記事では各記事の内容を簡単にまとめます。…",
+      "summary": "生成AIの新着が19件。Android のオンデバイス生成 AI モデル Gemini Nano を、ML Kit GenAI API 経由で Flutter から呼び出し、6機能（プロンプト・要約・校正・書き換え・画像の説明・音声認識）を検証しました。…",
       "articles": [
         {
-          "title": "AWS DevOps Agent・FinOps Agent・Security Agent を一通り試したので振り返る",
-          "link": "https://qiita.com/infra365/items/7e7c49b86a766b2e2c74",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-04T22:25:10",
-          "excerpt": "概要 ここ1カ月ほどで、AWSのフロンティアエージェント（DevOps Agent、FinOps Agent、Security Agent）に関する検証を実施し、記事を作成しました。本記事では各記事の内容を簡単にまとめます。…"
+          "title": "Flutter から Gemini Nano を動かす - ML Kit GenAI API の6機能を試してみた",
+          "link": "https://dev.classmethod.jp/articles/flutter-genimi-nano/",
+          "source": "DevelopersIO",
+          "published": "2026-07-05T05:09:47",
+          "excerpt": "Android のオンデバイス生成 AI モデル Gemini Nano を、ML Kit GenAI API 経由で Flutter から呼び出し、6機能（プロンプト・要約・校正・書き換え・画像の説明・音声認識）を検証しました。…"
         },
         {
-          "title": "AWS FinOps Agent のスケジュールタスクで週次コストレポートを自動生成する",
-          "link": "https://qiita.com/infra365/items/9e4ad88b77d00af5b50d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-04T22:07:34",
-          "excerpt": "概要 こちらの記事でDevOps Agentの自動実行について記載しました。今回はFinOps Agentのスケジュールタスクを使って週次コストレポートを自動生成する方法を検証します。…"
+          "title": "サーバーレスAPIのセキュリティ－API認可の基本を押さえ、AIエージェント時代に備える（CNS315）",
+          "link": "https://dev.classmethod.jp/articles/2026-06-28-aws-summit-japan-2026-serverless-api-security-oauth-ai-agent/",
+          "source": "DevelopersIO",
+          "published": "2026-07-05T04:45:59",
+          "excerpt": "AWS Summit Japan 2026で「サーバーレスAPIのセキュリティ」セッションを聴講しました。…"
         },
         {
-          "title": "GPT-5.5 Codex 推論トークンのクラスタリングがパフォーマンスの低下を引き起こす可能性がある",
-          "link": "https://github.com/openai/codex/issues/30364",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-04T21:51:09",
-          "excerpt": "記事の URL: https://github.com/openai/codex/issues/30364 コメント URL: https://news.ycombinator.com/item?…"
+          "title": "Claude Code on the webを少し使ってわかったこと",
+          "link": "https://dev.classmethod.jp/articles/what-i-learned-about-claude-code-on-the-web-in-june-2026/",
+          "source": "DevelopersIO",
+          "published": "2026-07-05T03:33:17",
+          "excerpt": "クラウド上の隔離環境で Claude Code を実行できる「Claude Code on the web」を試してみたので、セキュリティと開発者体験の観点から気づいたことをまとめます。"
         },
         {
-          "title": "AWS DevOps Agent カスタムエージェントで週次レポートを自動生成する",
-          "link": "https://qiita.com/infra365/items/732c75e4c2add219688d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-04T21:39:09",
-          "excerpt": "概要 前回の記事ではAWS DevOps Agentの基本的な使い方や自律型インシデント対応を記載しました。今回は、カスタムエージェントを作成して定期実行する方法を検証します。…"
+          "title": "Claude Codeの回答待ちに対する自動続行設定(askUserQuestionTimeout)について調査してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-ask-user-question-timeout/",
+          "source": "DevelopersIO",
+          "published": "2026-07-05T03:24:21",
+          "excerpt": "Claude Codeで質問ダイアログが出たまま離席すると作業が止まってしまう悩みがありました。この記事では、回答待ちを一定時間で自動続行できる`askUserQuestionTimeout`設定について紹介します。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。YOLOv8を使ったリアルタイム物体セグメンテーションのWebアプリをAWS上に構築してみました。ブラウザのカメラ映像やMP4動画をリアルタイムで処理し、推論結果をブロードキャスト配信する仕組みをご紹介します。",
+      "summary": "クラウドの新着が14件。はじめに 学習で作った AWS リソースを片付けようとしていました。EC2・RDS・ロードバランサー（ALB）など、いろいろあるので、「VPC をまとめて消せば、中のものも一緒に消えるだろう」と考えて、VPC の削除から手をつけました。…",
       "articles": [
         {
-          "title": "[CloudFront + EC2 + YOLOv8] WebSocket でリアルタイム物体セグメンテーションする Web アプリを AWS で構築してみました",
-          "link": "https://dev.classmethod.jp/articles/realtime-segmentation-webapp-aws-websocket-yolov8/",
+          "title": "VPC が消せない。原因は中に残っていたものだった話【AWS / 片付け】",
+          "link": "https://qiita.com/80-cloud/items/d257b0b18ff91cd18318",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-05T05:21:51",
+          "excerpt": "はじめに 学習で作った AWS リソースを片付けようとしていました。EC2・RDS・ロードバランサー（ALB）など、いろいろあるので、「VPC をまとめて消せば、中のものも一緒に消えるだろう」と考えて、VPC の削除から手をつけました。…"
+        },
+        {
+          "title": "Lambda@Edgeについて調べてみた",
+          "link": "https://qiita.com/keitakei777/items/0934d229bfb91b03f23b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-05T04:51:30",
+          "excerpt": "こんにちは。今回は、Lambda@Edgeについて整理してみます。Lambda@Edgeとは Lambda@Edgeは、Amazon CloudFrontのエッジロケーションでAWS Lambda関数を実行できるサービスです。…"
+        },
+        {
+          "title": "サーバーレスAPIのセキュリティ－API認可の基本を押さえ、AIエージェント時代に備える（CNS315）",
+          "link": "https://dev.classmethod.jp/articles/2026-06-28-aws-summit-japan-2026-serverless-api-security-oauth-ai-agent/",
           "source": "DevelopersIO",
-          "published": "2026-07-05T00:27:53",
-          "excerpt": "YOLOv8を使ったリアルタイム物体セグメンテーションのWebアプリをAWS上に構築してみました。ブラウザのカメラ映像やMP4動画をリアルタイムで処理し、推論結果をブロードキャスト配信する仕組みをご紹介します。"
+          "published": "2026-07-05T04:45:59",
+          "excerpt": "AWS Summit Japan 2026で「サーバーレスAPIのセキュリティ」セッションを聴講しました。…"
         },
         {
-          "title": "S3 のメタデータ地獄から卒業する：新機能 S3 annotations をやってみた",
-          "link": "https://zenn.dev/yoshit0oo/articles/s3-annotations-athena-handson",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-04T18:58:32",
-          "excerpt": "はじめに S3 オブジェクトに「もう少しリッチな情報」を付けたいと思って、user metadata の2KB上限や object tags の10個・256文字上限にぶつかったことはないだろうか。…"
-        },
-        {
-          "title": "【AWS初心者】なぜCloudFrontは速いのか〜リバースプロキシ・CDN・エッジロケーションから理解する〜",
-          "link": "https://qiita.com/nakashita-abc/items/24a3cefcca780a5226bf",
+          "title": "Aurora PostgreSQLの基本設計で押さえておきたいポイント",
+          "link": "https://qiita.com/ike_s_muramatsu/items/f1a08c7a2680f8cc807b",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-04T16:17:29",
-          "excerpt": "はじめに 「CloudFront を使うと速くなる」と聞いて導入しているけれど、 なぜ速くなるのか を自分の言葉で説明できるでしょうか?…"
-        },
-        {
-          "title": "Terraform 管理の API Gateway Lambda 統合で 429 THROTTLED と出るとき",
-          "link": "https://qiita.com/take_me/items/849af01398498cb156eb",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-04T14:09:21",
-          "excerpt": "事象 terraform plan / apply で API Gateway Lambda 統合を作ってた時、なんか動作確認で応答してくれない・エラーになった。…"
+          "published": "2026-07-05T04:41:03",
+          "excerpt": "Aurora PostgreSQLの基本設計で押さえておきたいポイント 導入・背景 AWS案件でAurora PostgreSQLの基本設計を担当するなかで、「これは最初に決めておかないと後から困る」と感じたポイントを整理します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。概要 ここ1カ月ほどで、AWSのフロンティアエージェント（DevOps Agent、FinOps Agent、Security Agent）に関する検証を実施し、記事を作成しました。本記事では各記事の内容を簡単にまとめます。…",
+      "summary": "セキュリティの新着が6件。AWS Summit Japan 2026で「サーバーレスAPIのセキュリティ」セッションを聴講しました。…",
       "articles": [
+        {
+          "title": "サーバーレスAPIのセキュリティ－API認可の基本を押さえ、AIエージェント時代に備える（CNS315）",
+          "link": "https://dev.classmethod.jp/articles/2026-06-28-aws-summit-japan-2026-serverless-api-security-oauth-ai-agent/",
+          "source": "DevelopersIO",
+          "published": "2026-07-05T04:45:59",
+          "excerpt": "AWS Summit Japan 2026で「サーバーレスAPIのセキュリティ」セッションを聴講しました。…"
+        },
         {
           "title": "AWS DevOps Agent・FinOps Agent・Security Agent を一通り試したので振り返る",
           "link": "https://qiita.com/infra365/items/7e7c49b86a766b2e2c74",
@@ -99,20 +106,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-04T14:35:20",
           "excerpt": "こんばんは。今回は、パーミッションバウンダリについて整理していきます。パーミッションバウンダリとは パーミッションバウンダリとは、IAM ユーザーまたは IAM ロールが持てる権限の上限を定義する仕組みです。…"
-        },
-        {
-          "title": "AWS CLIの認証をIAMユーザーからIAM Identity Centerへ移行して感じたこと",
-          "link": "https://qiita.com/lqqtotzo/items/c7c0521f2c9b948622b1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-04T12:05:10",
-          "excerpt": "以前はAWS CLIを使うたびに、IAMユーザーのアクセスキーを発行して利用していました。動作には問題ありませんでしたが、 アクセスキーの管理が面倒 定期的なローテーションが必要 誤って漏洩しないか不安 といった課題がありました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。1.はじめに 前回、awslabs/mcp リポジトリの Amazon Aurora Postgres MCP Server（awslabs.…",
+      "summary": "データ分析の新着が4件。1.はじめに 前回、awslabs/mcp リポジトリの Amazon Aurora Postgres MCP Server（awslabs.…",
       "articles": [
         {
           "title": "MCP で DynamoDB につないでみた（設計は DynamoDB MCP、操作は AWS API MCP）",
@@ -129,6 +129,13 @@
           "excerpt": "Snowflake Summit 2026で発表された、外部エンジンからの書き込み機能をAmazon Athenaから検証してみました。…"
         },
         {
+          "title": "【DynamoDB】なぜGSIは強整合性をサポートしていないのか？なぜLSIは後から追加できないのか？ | NCDC テックブログのフィード",
+          "link": "https://zenn.dev/ncdc/articles/6b67079192ffc5",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-04T14:18:47",
+          "excerpt": "はじめにDynamoDB を触っていると、色々な制限（仕様）に出会います。本記事では私が気になった以下2つの仕様について書いたものです。なぜ GSI（グローバルセカンダリインデックス）は強整合性をサポートしていないのか？…"
+        },
+        {
           "title": "【DynamoDB】なぜGSIは強整合性をサポートしていないのか？なぜLSIは後から追加できないのか？",
           "link": "https://zenn.dev/yukimurakami/articles/6b67079192ffc5",
           "source": "Zenn AWSトピック",
@@ -140,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。前回紹介した「寝ている間にAIがコードを書いてPRを出してくれる仕組み」で、Amplifyデプロイに15分近くかかっていた課題を解消します。buildSpecを見直して、ビルド時間を約半分に短縮できたので、やったことを紹介します。",
+      "summary": "開発ツールの新着が10件。前回紹介した「寝ている間にAIがコードを書いてPRを出してくれる仕組み」で、Amplifyデプロイに15分近くかかっていた課題を解消します。buildSpecを見直して、ビルド時間を約半分に短縮できたので、やったことを紹介します。",
       "articles": [
         {
           "title": "AWS Amplify Gen 2 のコスト最適化のためにビルド時間を半分に短縮してみた",
@@ -175,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "AI-DLCって何？を知らなかった文系エンジニアが、社内ハッカソンで試してみた",
-      "link": "https://qiita.com/Koki_portra400/items/08863b90ae72c26d11d4",
+      "title": "Shadcn/UI のデフォルトが Radix ではなく Base UI になりました",
+      "link": "https://ui.shadcn.com/docs/changelog",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-05T04:46:08",
+      "excerpt": "記事の URL: https://ui.shadcn.com/docs/changelog コメント URL: https://news.ycombinator.com/item?id=48791328 ポイント: 4 コメント数: 0"
+    },
+    {
+      "title": "実務で触ってきたAWSのサービスについて",
+      "link": "https://qiita.com/fudo-ge/items/5d494a26a4616615accf",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-05T01:09:58",
-      "excerpt": "目次 はじめに AI-DLCとは何か 従来のAI活用との違い なぜハッカソンでAI-DLCを選んだか ハッカソン実況：AI-DLCで実際に開発してみた 成果 今後の展望 おわりに はじめに こんにちは。…"
+      "published": "2026-07-05T04:43:55",
+      "excerpt": "目的 これまで業務上で使用してきたAWSのサービスについて、それぞれのサービスについての再理解と個人的な使用感についてまとめました。1.…"
     },
     {
-      "title": "卵の摂取量はアルツハイマー病と逆相関する",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42002260/",
+      "title": "AI駆動は上流工程にこそ活きる－非エンジニアにこそ知ってほしい、AI駆動開発ライフサイクルによる上流工程の変革（AIM222）",
+      "link": "https://dev.classmethod.jp/articles/2026-06-28-aws-summit-japan-2026-ai-dlc-upstream-transformation/",
+      "source": "DevelopersIO",
+      "published": "2026-07-05T04:43:26",
+      "excerpt": "AWS Summit Japan 2026のセッションレポートです。AI駆動開発ライフサイクル（AI-DLC）がなぜ上流工程に威力を発揮するのか、ビジネスと開発の「作業待ち」というボトルネックを解消する方法論について紹介しています。…"
+    },
+    {
+      "title": "間違った方法でのバイナリ カバレッジ",
+      "link": "https://redvice.org/2026/coverage-the-wrong-way/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-05T00:48:15",
-      "excerpt": "記事の URL: https://pubmed.ncbi.nlm.nih.gov/42002260/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "ナイジェリア王子レダックスの帰還: ブッククラブと書評詐欺に気をつけてください",
-      "link": "https://writerbeware.blog/2025/09/19/return-of-the-nigerian-prince-redux-beware-book-club-and-book-review-scams/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-05T00:22:25",
-      "excerpt": "記事の URL: https://writerbeware.…"
-    },
-    {
-      "title": "Swiftが6月に発表したアップデートをまとめて紹介",
-      "link": "https://codezine.jp/article/detail/28853",
-      "source": "CodeZine",
-      "published": "2026-07-05T00:00:00",
-      "excerpt": "Swiftが6月に発表したアップデートをまとめて紹介"
+      "published": "2026-07-05T04:39:53",
+      "excerpt": "記事の URL: https://redvice.org/2026/coverage-the-wrong-way/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
