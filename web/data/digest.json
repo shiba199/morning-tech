@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-07-05T22:49:21",
+  "generated_at": "2026-07-05T23:55:28",
   "window_hours": 24,
-  "total": 145,
+  "total": 159,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。Sonnet 4.6・Opus 4.8・Sonnet 5 の3モデルで、Adaptive thinkingの呼び方とレスポンス形式がどう変わったかを検証してみました。…",
+      "summary": "生成AIの新着が28件。Google CloudがPrivate Bucket Access 機能を一般提供開始。…",
       "articles": [
         {
-          "title": "Amazon Bedrock の Claude 3 モデル（Sonnet 4.6 / Opus 4.8 / Sonnet 5）で Adaptive thinking の呼び方とレスポンス形式の違いを確認してみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-claude-thinking/",
+          "title": "【アップデート】Cloud CDN と外部 Application Load Balancer でプライベートな Cloud Storage バケットにアクセスできるようになりました",
+          "link": "https://dev.classmethod.jp/articles/access-private-gcs-with-cloud-cdn-and-external-alb/",
           "source": "DevelopersIO",
-          "published": "2026-07-05T22:00:12",
-          "excerpt": "Sonnet 4.6・Opus 4.8・Sonnet 5 の3モデルで、Adaptive thinkingの呼び方とレスポンス形式がどう変わったかを検証してみました。…"
+          "published": "2026-07-05T23:44:39",
+          "excerpt": "Google CloudがPrivate Bucket Access 機能を一般提供開始。…"
         },
         {
-          "title": "生成AIで履歴書も顔も偽装　北朝鮮ITワーカー、日本企業への潜入工作の実態",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/06/news022.html",
-          "source": "@IT",
-          "published": "2026-07-05T22:00:00",
-          "excerpt": "北朝鮮のサイバー攻撃といえばランサムウェアや暗号資産の窃取を思い浮かべる人が多い。しかし今、新たな脅威として警戒されているのが「ITワーカー」の潜入だ。…"
+          "title": "【DevOps Agent】VPC 内のセルフホスト GitLab に Private Connections で繋いでみた〜ついでにリリース前コードレビュー機能も試す〜",
+          "link": "https://qiita.com/ryu-ki/items/e2c94f68b4bd17c1514d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-05T23:43:11",
+          "excerpt": "はじめに 2026年3月に GA（一般提供開始）された AWS DevOps Agent を最近よく触っています。…"
         },
         {
-          "title": "Amazon Bedrock Knowledge Bases × OpenSearch Serverless  で貯めたドキュメントについてAI に質問できる環境をつくってみた",
-          "link": "https://dev.classmethod.jp/articles/shoma-amazon-bedrock-knowledge-bases-opensearch-serverless-build-environment-ask-ai-about-stored-documents/",
+          "title": "非エンジニアの私がClaudeの機能 「個人設定」 を知った話",
+          "link": "https://dev.classmethod.jp/articles/20260706_claude_pre_setting/",
           "source": "DevelopersIO",
-          "published": "2026-07-05T15:29:50",
-          "excerpt": "Amazon Bedrock Knowledge Bases を使ったシンプルな RAG 環境を実際に構築してみました。…"
+          "published": "2026-07-05T23:01:26",
+          "excerpt": "Claudeの個人設定機能を使うと、毎回同じ条件を指示する手間が省けて、プロンプト入力が格段に効率化されます。非エンジニアの私も試してみたら、内容の精度が高まり、チャットの時間が15～30分短縮されました。その設定方法と効果を紹介します。"
         },
         {
-          "title": "[AWS Batch × Claude Code] YouTube動画 as Code",
-          "link": "https://zenn.dev/yamachan_gogo/articles/07385c4ea7d9f8",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-05T15:06:04",
-          "excerpt": "どうも！山ちゃんです。私はデザインセンス皆無な人間です。動画編集ソフトは開いた瞬間にそっと閉じるレベルです。それでも毎週、AWSアップデートの解説動画をYouTubeに配信しています。…"
+          "title": "【応用情報】R7秋 午後（問１１：システム監査）その５：設問５ | Agent Grow Tech Notesのフィード",
+          "link": "https://zenn.dev/agent_grow/articles/58b0287007ce39",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-05T23:00:08",
+          "excerpt": "はじめに令和７年度秋期 応用情報技術者試験（午後：問１１ システム監査） について解説します。今回は続編です。前回までの記事をまだ読んでいない場合は、下記のリンクへどうぞ。その１：全体像の把握その２：設問１～２その３：設問３その４：設問４!…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。ガバメント AI 源内（genai-web）を閉域ネットワークでも動作するように、源内のフロントエンドを CloudFront から ALB + ECS Fargate に変更し、Lambda を VPC 内へ配置するようにした上で AWS…",
+      "summary": "クラウドの新着が24件。はじめに 2026年3月に GA（一般提供開始）された AWS DevOps Agent を最近よく触っています。…",
       "articles": [
+        {
+          "title": "【DevOps Agent】VPC 内のセルフホスト GitLab に Private Connections で繋いでみた〜ついでにリリース前コードレビュー機能も試す〜",
+          "link": "https://qiita.com/ryu-ki/items/e2c94f68b4bd17c1514d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-05T23:43:11",
+          "excerpt": "はじめに 2026年3月に GA（一般提供開始）された AWS DevOps Agent を最近よく触っています。…"
+        },
         {
           "title": "閉域モード版源内のデプロイ手順とオンプレミスと接続する時の注意点",
           "link": "https://qiita.com/takeda_h/items/058536359a54ab3c6bab",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-05T15:28:17",
           "excerpt": "S3バケット削除 AWSコンソールを操作し始めて 間もないころ S3バケットを試しに 作成したことがありました。適当なファイルをアップロードして 操作を確かめたりした後で もういらないからバケット消しとこう！…"
-        },
-        {
-          "title": "Amazon EKS が Kubernetes バージョンロールバックに対応",
-          "link": "https://qiita.com/Haruki-N/items/ce70128f2598a2819c32",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-05T15:18:34",
-          "excerpt": "はじめに 2026 年 7 月 1 日、AWS は Amazon EKS に対して Kubernetes バージョンロールバックを発表しました。…"
         }
       ]
     },
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。Amazon Bedrock Knowledge Bases を使ったシンプルな RAG 環境を実際に構築してみました。…",
+      "summary": "データ分析の新着が4件。概要 Bedrock AgentCoreのObservabilityを使うには、CloudWatchでTransaction Searchを有効化する必要があります。…",
       "articles": [
+        {
+          "title": "Bedrock AgentCoreのObservabilityで取り込み時のサンプリングレート設定方法の確認",
+          "link": "https://zenn.dev/jnxjez/articles/b4a501dff7d722",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-05T22:21:35",
+          "excerpt": "概要 Bedrock AgentCoreのObservabilityを使うには、CloudWatchでTransaction Searchを有効化する必要があります。…"
+        },
         {
           "title": "Amazon Bedrock Knowledge Bases × OpenSearch Serverless  で貯めたドキュメントについてAI に質問できる環境をつくってみた",
           "link": "https://dev.classmethod.jp/articles/shoma-amazon-bedrock-knowledge-bases-opensearch-serverless-build-environment-ask-ai-about-stored-documents/",
@@ -140,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。ガバメント AI 源内（genai-web）を閉域ネットワークでも動作するように、源内のフロントエンドを CloudFront から ALB + ECS Fargate に変更し、Lambda を VPC 内へ配置するようにした上で AWS…",
+      "summary": "開発ツールの新着が9件。はじめに 2026年3月に GA（一般提供開始）された AWS DevOps Agent を最近よく触っています。…",
       "articles": [
+        {
+          "title": "【DevOps Agent】VPC 内のセルフホスト GitLab に Private Connections で繋いでみた〜ついでにリリース前コードレビュー機能も試す〜",
+          "link": "https://qiita.com/ryu-ki/items/e2c94f68b4bd17c1514d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-05T23:43:11",
+          "excerpt": "はじめに 2026年3月に GA（一般提供開始）された AWS DevOps Agent を最近よく触っています。…"
+        },
+        {
+          "title": "GitHub、「Issue fields」を一般提供開始",
+          "link": "https://codezine.jp/article/detail/28850",
+          "source": "CodeZine",
+          "published": "2026-07-05T23:00:00",
+          "excerpt": "GitHub、「Issue fields」を一般提供開始"
+        },
         {
           "title": "閉域モード版源内のデプロイ手順とオンプレミスと接続する時の注意点",
           "link": "https://qiita.com/takeda_h/items/058536359a54ab3c6bab",
@@ -155,52 +176,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-05T14:28:28",
           "excerpt": "はじめにFusicのレオナです。今回は、SageMaker HyperPodを最小構成で触ってみました。SageMaker HyperPodというと、数千GPUを使って基盤モデルを学習するための大規模な基盤、という印象が強いと思います。…"
-        },
-        {
-          "title": "Terraformを使ってEC2インスタンスを作成する",
-          "link": "https://zenn.dev/frru_mooooor/articles/f48861e86466cb",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-05T14:17:44",
-          "excerpt": "こんにちは。つい先日、いろいろな技術を調べる中で 「近頃のインフラ構築はIaCで自動化が主流なのかな？」と思いました。オンプレにてサーバーをOS導入から構築した経験がありますが、当時それなりに苦労した記憶があります。…"
-        },
-        {
-          "title": "インフラをTypeScriptで管理する - はじめてのAWS CDK | SMARTCAMP Engineer Blogのフィード",
-          "link": "https://zenn.dev/smartcamp/articles/c5ef03f249c3d4",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-05T06:05:50",
-          "excerpt": "TsKaigi 2026以下のセッションでAWS CDKをはじめて知りました。https://2026.tskaigi.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "「Amazon Mechanical Turk」、7月30日で新規受付終了──2005年開始のAWSのクラウドソーシング",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/06/news052.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-05T22:07:00",
-      "excerpt": "AWSのクラウドソーシングサービス「Amazon Mechanical Turk」が7月30日で新規顧客の受け付けを終了する。…"
-    },
-    {
-      "title": "[アップデート] AWS AppConfig に A/B テストやマルチバリエイト実験を実行できる「実験」機能が追加されました",
-      "link": "https://dev.classmethod.jp/articles/aws-appconfig-experimentation/",
+      "title": "覚えることが多すぎるIT学習をAIで効率化してみた",
+      "link": "https://dev.classmethod.jp/articles/ai-study-method-for-qualification/",
       "source": "DevelopersIO",
-      "published": "2026-07-05T22:02:15",
-      "excerpt": "AWS AppConfigに実験機能が追加され、A/B テストやマルチバリエイトテストがマネージドに実行できるようになりました。コンソール画面から実際にセットアップしてみたので、その流れを紹介します。"
+      "published": "2026-07-05T23:48:00",
+      "excerpt": "# 導入文案 文系出身・IT未経験の私が、AI活用で学習の質と効率を劇的に上げた方法を紹介します。インプットとアウトプットを繰り返すこの勉強法なら、「わかったつもり」を防ぎ、自分専用のノートも効率よく作成できます。"
     },
     {
-      "title": "ITエンジニア注目トレンドを総まとめ！週間ニュースランキングTOP10【6/26～7/2】",
-      "link": "https://codezine.jp/article/detail/28848",
-      "source": "CodeZine",
-      "published": "2026-07-05T22:00:00",
-      "excerpt": "毎日更新されるITエンジニア向け関連の最新ニュースから、注目を集めたトピックスを紹介する本ランキング。今回は2026年6月26日～7月2日までの人気ランキングを発表します。"
+      "title": "数学における接続: 2 種類のランダム",
+      "link": "https://stillthinking.net/posts/connections-in-math-two-kinds-of-random/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-05T23:31:30",
+      "excerpt": "記事の URL: https://still Thinking.net/posts/connections-in-math-two-kinds-of-random/ コメント URL: https://news.ycombinator.…"
     },
     {
-      "title": "AIはITエンジニアを淘汰しない　Microsoft調査が示す、AI委任とキャリアの好機",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/06/news027.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-07-05T22:00:00",
-      "excerpt": "Microsoftの調査から、AI時代におけるITエンジニアの生存戦略が判明。タスクの信頼度には差があり、59％が「人間をループ内に置く設計」を最優先に指定。単調な作業をAIに委任し、推論や設計へシフトするキャリアの好機が示されている。"
+      "title": "クラウドネイティブに入社しました！　〜一人情シスから、チームで挑む課題解決 | CloudNative BLOGs",
+      "link": "https://blog.cloudnative.co.jp/articles/cloudnative-entry-hiroki/",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-05T23:09:00",
+      "excerpt": "株式会社クラウドネイティブにPMとして入社したヒロキが、営業・情シス経験から得た視点で、チームでの課題解決への想いと今後の挑戦を語り、IT業界で成長したい読者や同業者に役立つ内容です。"
+    },
+    {
+      "title": "Firecracker microVMスナップショット復元で実現する28ms起動のコード実行基盤",
+      "link": "https://qiita.com/0h-n0/items/3b21b9cf48258f03c6a5",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-05T23:03:45",
+      "excerpt": "Firecracker microVMスナップショット復元で実現する28ms起動のコード実行基盤 この記事でわかること Firecracker microVMのスナップショット作成・復元APIの使い方と、コールドブート比で最大39倍の起動高…"
     }
   ]
 }
