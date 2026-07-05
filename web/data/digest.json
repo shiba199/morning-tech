@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-05T14:14:25",
+  "generated_at": "2026-07-05T15:42:49",
   "window_hours": 24,
-  "total": 123,
+  "total": 131,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。はじめに 先日、JAWSミートにて登壇してきました。LLMにSQLを生成させる際に意識する点で、検証、構築する上で気づいた点など、収まりきらなかったポイントなどを記事にまとめていきたいと思います。…",
+      "summary": "生成AIの新着が23件。Amazon Bedrock Knowledge Bases を使ったシンプルな RAG 環境を実際に構築してみました。…",
       "articles": [
+        {
+          "title": "Amazon Bedrock Knowledge Bases × OpenSearch Serverless  で貯めたドキュメントについてAI に質問できる環境をつくってみた",
+          "link": "https://dev.classmethod.jp/articles/shoma-amazon-bedrock-knowledge-bases-opensearch-serverless-build-environment-ask-ai-about-stored-documents/",
+          "source": "DevelopersIO",
+          "published": "2026-07-05T15:29:50",
+          "excerpt": "Amazon Bedrock Knowledge Bases を使ったシンプルな RAG 環境を実際に構築してみました。…"
+        },
+        {
+          "title": "Amazon SageMaker HyperPodで学習から推論までやってみた | Fusic 技術ブログのフィード",
+          "link": "https://zenn.dev/fusic/articles/522e5d7553fde7",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-05T14:28:28",
+          "excerpt": "はじめにFusicのレオナです。今回は、SageMaker HyperPodを最小構成で触ってみました。SageMaker HyperPodというと、数千GPUを使って基盤モデルを学習するための大規模な基盤、という印象が強いと思います。…"
+        },
         {
           "title": "LLMにSQLを生成・実行させる際に注意したこと※AWS編",
           "link": "https://qiita.com/yakumo_09/items/51419606674100367559",
@@ -22,62 +36,48 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-05T13:09:24",
           "excerpt": "!この記事はZennからclaudeのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「Fable 5規制の真実！…"
-        },
-        {
-          "title": "AgentCore PolicyのCedarポリシーにBedrock Guardrailsを組み込んでGatewayでリクエストをブロックしてみた",
-          "link": "https://dev.classmethod.jp/articles/agentcore-policy-guardrails-gateway/",
-          "source": "DevelopersIO",
-          "published": "2026-07-05T11:41:56",
-          "excerpt": "Bedrock GuardrailsがAgentCore Policyでも使えるよ！試してみました！！！！"
-        },
-        {
-          "title": "ClaudeのAPI費用が激減。システムプロンプトを「画像」として読ませる新ツールの仕組み | XenoSpectrum",
-          "link": "https://xenospectrum.com/pxpipe-claude-token-image-compression/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-07-05T10:24:29",
-          "excerpt": "この記事のポイント 何が起きた: Claude Codeの入力コンテキストをPNG画像に変換し、トークン費用を約6割削減するローカルプロキシ「pxpipe」が登場した。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。1．初めに Mountpoint for Amazon S3という機能をご存じでしょうか。…",
+      "summary": "クラウドの新着が19件。Amazon Bedrock Knowledge Bases を使ったシンプルな RAG 環境を実際に構築してみました。…",
       "articles": [
         {
-          "title": "Mountpoint for Amazon S3を試してみた ～S3はどこまでファイルシステムとして使えるのか検証～",
-          "link": "https://qiita.com/miyazakiiiiii/items/4cfc484a5e3088ce8433",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-05T13:44:12",
-          "excerpt": "1．初めに Mountpoint for Amazon S3という機能をご存じでしょうか。…"
+          "title": "Amazon Bedrock Knowledge Bases × OpenSearch Serverless  で貯めたドキュメントについてAI に質問できる環境をつくってみた",
+          "link": "https://dev.classmethod.jp/articles/shoma-amazon-bedrock-knowledge-bases-opensearch-serverless-build-environment-ask-ai-about-stored-documents/",
+          "source": "DevelopersIO",
+          "published": "2026-07-05T15:29:50",
+          "excerpt": "Amazon Bedrock Knowledge Bases を使ったシンプルな RAG 環境を実際に構築してみました。…"
         },
         {
-          "title": "EC2 instance作成時にInstance launch failed. This account is currently blocked and not recognized as a valid account.というエラーが出た件",
-          "link": "https://qiita.com/TomoyukiAota/items/2cf0708efe4b9d3adf1b",
+          "title": "S3バケット消したきゃ中身も消しな",
+          "link": "https://qiita.com/LierFort/items/2121cda3c002ef5d93f7",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-05T12:40:55",
-          "excerpt": "EC2 instanceを作成しようとした際に、 Instance launch failed.This account is currently blocked and not recognized as a valid account.…"
+          "published": "2026-07-05T15:28:17",
+          "excerpt": "S3バケット削除 AWSコンソールを操作し始めて 間もないころ S3バケットを試しに 作成したことがありました。適当なファイルをアップロードして 操作を確かめたりした後で もういらないからバケット消しとこう！…"
         },
         {
-          "title": "ApsaraDB for RDSがRDSHermesを発表、AIエージェントの自律進化を実現",
-          "link": "https://codezine.jp/article/detail/28856",
-          "source": "CodeZine",
-          "published": "2026-07-05T09:00:00",
-          "excerpt": "ApsaraDB for RDSがRDSHermesを発表、AIエージェントの自律進化を実現"
+          "title": "Amazon EKS が Kubernetes バージョンロールバックに対応",
+          "link": "https://qiita.com/Haruki-N/items/ce70128f2598a2819c32",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-05T15:18:34",
+          "excerpt": "はじめに 2026 年 7 月 1 日、AWS は Amazon EKS に対して Kubernetes バージョンロールバックを発表しました。…"
         },
         {
-          "title": "【初心者向け】ECSの第3の選択肢「マネージドインスタンス」とは？Fargate・EC2との違いを徹底解説",
-          "link": "https://qiita.com/OhkuboT/items/581516228e8b1ade0926",
+          "title": "ALBのアクセスログ用S3バケットポリシーがアカウントID不要で設定できるようになってた",
+          "link": "https://qiita.com/sagochiko/items/cf80aea1ee753d8a8d1b",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-05T08:44:08",
-          "excerpt": "Amazon ECS（Elastic Container Service）を利用する際、これまではデータプレーン（コンテナの実行環境）として「AWS Fargate」か「Amazon EC2」のどちらかを選択するのが一般的でした。…"
+          "published": "2026-07-05T14:57:33",
+          "excerpt": "ALBのアクセスログを有効化するときにS3で必要なS3バケットポリシーが自分の知ってた書き方から変わっていたので振り返りとして記載します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。記事の URL: https://www.devever.net/~hl/webcrypto コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が5件。記事の URL: https://www.devever.net/~hl/webcrypto コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
           "title": "Web ベースの暗号化は常にスネークオイルです",
@@ -112,8 +112,22 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。1.はじめに 前回、awslabs/mcp リポジトリの Amazon Aurora Postgres MCP Server（awslabs.…",
+      "summary": "データ分析の新着が4件。Amazon Bedrock Knowledge Bases を使ったシンプルな RAG 環境を実際に構築してみました。…",
       "articles": [
+        {
+          "title": "Amazon Bedrock Knowledge Bases × OpenSearch Serverless  で貯めたドキュメントについてAI に質問できる環境をつくってみた",
+          "link": "https://dev.classmethod.jp/articles/shoma-amazon-bedrock-knowledge-bases-opensearch-serverless-build-environment-ask-ai-about-stored-documents/",
+          "source": "DevelopersIO",
+          "published": "2026-07-05T15:29:50",
+          "excerpt": "Amazon Bedrock Knowledge Bases を使ったシンプルな RAG 環境を実際に構築してみました。…"
+        },
+        {
+          "title": "[アップデート] Amazon OpenSearch Service のログ分析最適化エンジン「Optimized」が利用可能になったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/20260705-aoss-optimized-log-analytics/",
+          "source": "DevelopersIO",
+          "published": "2026-07-05T14:37:25",
+          "excerpt": "Amazon OpenSearch Service に登場した新しいエンジンモード「Optimized」を、ドメイン作成からログ投入・クエリまで実際に試してみました。…"
+        },
         {
           "title": "MCP で DynamoDB につないでみた（設計は DynamoDB MCP、操作は AWS API MCP）",
           "link": "https://qiita.com/asahide/items/4911953d27b74269689b",
@@ -127,28 +141,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-04T15:55:52",
           "excerpt": "Snowflake Summit 2026で発表された、外部エンジンからの書き込み機能をAmazon Athenaから検証してみました。…"
-        },
-        {
-          "title": "【DynamoDB】なぜGSIは強整合性をサポートしていないのか？なぜLSIは後から追加できないのか？ | NCDC テックブログのフィード",
-          "link": "https://zenn.dev/ncdc/articles/6b67079192ffc5",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-04T14:18:47",
-          "excerpt": "はじめにDynamoDB を触っていると、色々な制限（仕様）に出会います。本記事では私が気になった以下2つの仕様について書いたものです。なぜ GSI（グローバルセカンダリインデックス）は強整合性をサポートしていないのか？…"
-        },
-        {
-          "title": "【DynamoDB】なぜGSIは強整合性をサポートしていないのか？なぜLSIは後から追加できないのか？",
-          "link": "https://zenn.dev/yukimurakami/articles/6b67079192ffc5",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-04T14:18:47",
-          "excerpt": "はじめに DynamoDB を触っていると、色々な制限（仕様）に出会います。本記事では私が気になった以下2つの仕様について書いたものです。なぜ GSI（グローバルセカンダリインデックス）は強整合性をサポートしていないのか？…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。TsKaigi 2026以下のセッションでAWS CDKをはじめて知りました。https://2026.tskaigi.…",
+      "summary": "開発ツールの新着が6件。はじめにFusicのレオナです。今回は、SageMaker HyperPodを最小構成で触ってみました。SageMaker HyperPodというと、数千GPUを使って基盤モデルを学習するための大規模な基盤、という印象が強いと思います。…",
       "articles": [
+        {
+          "title": "Amazon SageMaker HyperPodで学習から推論までやってみた | Fusic 技術ブログのフィード",
+          "link": "https://zenn.dev/fusic/articles/522e5d7553fde7",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-05T14:28:28",
+          "excerpt": "はじめにFusicのレオナです。今回は、SageMaker HyperPodを最小構成で触ってみました。SageMaker HyperPodというと、数千GPUを使って基盤モデルを学習するための大規模な基盤、という印象が強いと思います。…"
+        },
         {
           "title": "インフラをTypeScriptで管理する - はじめてのAWS CDK | SMARTCAMP Engineer Blogのフィード",
           "link": "https://zenn.dev/smartcamp/articles/c5ef03f249c3d4",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-05T05:34:03",
           "excerpt": "概要 手動で作った S3 バケットや DynamoDB テーブルを CloudFormation でも管理したい——このときの選択肢は「既存の実体をそのまま取り込む Import」「同構成の別実体を作る Clone（複製）」「ゼロから作る…"
-        },
-        {
-          "title": "AWS Amplify Gen 2 のコスト最適化のためにビルド時間を半分に短縮してみた",
-          "link": "https://dev.classmethod.jp/articles/amplifygen2-buid-duration/",
-          "source": "DevelopersIO",
-          "published": "2026-07-05T00:25:23",
-          "excerpt": "前回紹介した「寝ている間にAIがコードを書いてPRを出してくれる仕組み」で、Amplifyデプロイに15分近くかかっていた課題を解消します。buildSpecを見直して、ビルド時間を約半分に短縮できたので、やったことを紹介します。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "曲がるスプーンとは何ですか?あまり知られていない AOL と Vimeo のオーナーが現在公開されている",
-      "link": "https://techcrunch.com/2026/07/05/what-is-bending-spoons-everything-to-know-about-aols-acquirer/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-05T13:33:32",
-      "excerpt": "Bending Spoons は、その製品ポートフォリオが 10 億人以上の人々に提供されているにもかかわらず、依然としてほとんど知られていません。"
+      "title": "プログラミングのためのBGMや環境音など。仕事や勉強の邪魔にならない無料で使えそうな音源集。2026年版",
+      "link": "https://www.publickey1.jp/blog/26/bgm2026.html",
+      "source": "Publickey",
+      "published": "2026-07-05T15:52:01",
+      "excerpt": "在宅で仕事や勉強をしている時間が増えてくると、ずっと無音だと寂しい気がして、できれば仕事の邪魔にならないBGMや環境音があるといいなあ、と思ったことはありませんか？今年も、そうした音源を独自にピックアップした記事の2026年版を紹介しまし.…"
     },
     {
-      "title": "フォス 0.56.0",
-      "link": "https://phosh.mobi/releases/rel-0.56.0/",
+      "title": "ブロードコムによるVMware製品抱き合わせ販売疑惑、独占禁止法違反と認定されず。公正取引委員会が調査を終了",
+      "link": "https://www.publickey1.jp/blog/26/vmware_9.html",
+      "source": "Publickey",
+      "published": "2026-07-05T15:11:34",
+      "excerpt": "公正取引委員会は、ブロードコムに対する独占禁止法違反の調査を、違反に認定するに足る事実が認められなかったとして終了すると発表しました。VMware製品、ライセンス変更により事実上の大幅値上げ ブロードコムは2023年にVMwareを買収。.…"
+    },
+    {
+      "title": "Apple の Neural Engine 上でトランスフォーマーを直接トレーニングして実行する",
+      "link": "https://github.com/christopherkarani/Espresso",
       "source": "Hacker News（英語）",
-      "published": "2026-07-05T13:28:11",
-      "excerpt": "記事の URL: https://phosh.mobi/releases/rel-0.56.0/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-05T15:02:43",
+      "excerpt": "記事の URL: https://github.com/christopherkarani/Espresso コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "今年これまでに約90の新しいユニコーンが鋳造されました - それはここにあります",
-      "link": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-05T12:47:39",
-      "excerpt": "AI が投資家の熱狂に火をつけ、毎月より多くのスタートアップがユニコーンの地位を獲得しています。"
-    },
-    {
-      "title": "【AWS Summit Japan 2026】2日目参加レポート",
-      "link": "https://qiita.com/eureka_/items/52f5a2c140f90f8a6a65",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-05T12:27:00",
-      "excerpt": "はじめに AWS Summit Japan 2026に参加しました！本記事は、2日目の参加レポートになります！1日目の記事も投稿済みですので、そちらもご覧いただけますと幸いです！…"
+      "title": "MFA オプションの銀行は、強盗のために安全なドア (および口座) を大きく開いたままにしています",
+      "link": "https://www.theregister.com/security/2026/07/05/mfa-optional-banks-leave-safe-doors-and-accounts-wide-open-for-thieves-to-pillage/5266161",
+      "source": "The Register（英語）",
+      "published": "2026-07-05T15:01:00",
+      "excerpt": "金融機関は利便性の名の下に顧客を危険にさらしています。"
     }
   ]
 }
