@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-04T23:28:14",
+  "generated_at": "2026-07-05T01:14:08",
   "window_hours": 24,
-  "total": 108,
+  "total": 111,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。はじめに S3 オブジェクトに「もう少しリッチな情報」を付けたいと思って、user metadata の2KB上限や object tags の10個・256文字上限にぶつかったことはないだろうか。…",
+      "summary": "クラウドの新着が12件。YOLOv8を使ったリアルタイム物体セグメンテーションのWebアプリをAWS上に構築してみました。ブラウザのカメラ映像やMP4動画をリアルタイムで処理し、推論結果をブロードキャスト配信する仕組みをご紹介します。",
       "articles": [
+        {
+          "title": "[CloudFront + EC2 + YOLOv8] WebSocket でリアルタイム物体セグメンテーションする Web アプリを AWS で構築してみました",
+          "link": "https://dev.classmethod.jp/articles/realtime-segmentation-webapp-aws-websocket-yolov8/",
+          "source": "DevelopersIO",
+          "published": "2026-07-05T00:27:53",
+          "excerpt": "YOLOv8を使ったリアルタイム物体セグメンテーションのWebアプリをAWS上に構築してみました。ブラウザのカメラ映像やMP4動画をリアルタイムで処理し、推論結果をブロードキャスト配信する仕組みをご紹介します。"
+        },
         {
           "title": "S3 のメタデータ地獄から卒業する：新機能 S3 annotations をやってみた",
           "link": "https://zenn.dev/yoshit0oo/articles/s3-annotations-athena-handson",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-04T14:09:21",
           "excerpt": "事象 terraform plan / apply で API Gateway Lambda 統合を作ってた時、なんか動作確認で応答してくれない・エラーになった。…"
-        },
-        {
-          "title": "ECS Managed Instances のイメージキャッシュでタスク起動はどれだけ速くなるのか Fargate と比較してみた",
-          "link": "https://dev.classmethod.jp/articles/excute-task-managed-instance-vs-fargate/",
-          "source": "DevelopersIO",
-          "published": "2026-07-04T13:22:37",
-          "excerpt": "人生を生きていたらタスクを早く起動したいことが一度ぐらいあるかもしれません。そんな方に捧げるブログです。"
         }
       ]
     },
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。はじめに S3 オブジェクトに「もう少しリッチな情報」を付けたいと思って、user metadata の2KB上限や object tags の10個・256文字上限にぶつかったことはないだろうか。…",
+      "summary": "開発ツールの新着が11件。前回紹介した「寝ている間にAIがコードを書いてPRを出してくれる仕組み」で、Amplifyデプロイに15分近くかかっていた課題を解消します。buildSpecを見直して、ビルド時間を約半分に短縮できたので、やったことを紹介します。",
       "articles": [
+        {
+          "title": "AWS Amplify Gen 2 のコスト最適化のためにビルド時間を半分に短縮してみた",
+          "link": "https://dev.classmethod.jp/articles/amplifygen2-buid-duration/",
+          "source": "DevelopersIO",
+          "published": "2026-07-05T00:25:23",
+          "excerpt": "前回紹介した「寝ている間にAIがコードを書いてPRを出してくれる仕組み」で、Amplifyデプロイに15分近くかかっていた課題を解消します。buildSpecを見直して、ビルド時間を約半分に短縮できたので、やったことを紹介します。"
+        },
         {
           "title": "S3 のメタデータ地獄から卒業する：新機能 S3 annotations をやってみた",
           "link": "https://zenn.dev/yoshit0oo/articles/s3-annotations-athena-handson",
@@ -162,45 +169,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-04T14:09:21",
           "excerpt": "事象 terraform plan / apply で API Gateway Lambda 統合を作ってた時、なんか動作確認で応答してくれない・エラーになった。…"
-        },
-        {
-          "title": "AWS CLIの認証をIAMユーザーからIAM Identity Centerへ移行して感じたこと",
-          "link": "https://qiita.com/lqqtotzo/items/c7c0521f2c9b948622b1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-04T12:05:10",
-          "excerpt": "以前はAWS CLIを使うたびに、IAMユーザーのアクセスキーを発行して利用していました。動作には問題ありませんでしたが、 アクセスキーの管理が面倒 定期的なローテーションが必要 誤って漏洩しないか不安 といった課題がありました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "MCPサーバーを7000台調査したら、36.7%が同じSSRFの穴を持っていた",
-      "link": "https://qiita.com/kai_kou/items/c8d7dc2664f9c372e776",
+      "title": "AI-DLCって何？を知らなかった文系エンジニアが、社内ハッカソンで試してみた",
+      "link": "https://qiita.com/Koki_portra400/items/08863b90ae72c26d11d4",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-04T23:05:04",
-      "excerpt": "はじめに Microsoft製のドキュメント変換ツール「MarkItDown」（GitHub★15万超1・MCPサーバーとしても提供）に、SSRF（Server-Side Request Forgery）につながる脆弱性が報告されました。…"
+      "published": "2026-07-05T01:09:58",
+      "excerpt": "目次 はじめに AI-DLCとは何か 従来のAI活用との違い なぜハッカソンでAI-DLCを選んだか ハッカソン実況：AI-DLCで実際に開発してみた 成果 今後の展望 おわりに はじめに こんにちは。…"
     },
     {
-      "title": "99％の組織が直面「バイブコーディングが量産する脆弱なコード」　その具体例と理由、回避策",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/05/news003.html",
-      "source": "@IT",
-      "published": "2026-07-04T23:00:00",
-      "excerpt": "生成AIによる「バイブコーディング」が急速に普及する一方で、脆弱なコードの増加が新たな課題として浮上しています。AIは何を間違え、どのような脆弱性を生み出すのでしょうか。"
-    },
-    {
-      "title": "NASAのクリーンルームで新種の細菌が発見",
-      "link": "https://www.nature.com/articles/d44151-025-00219-7",
+      "title": "卵の摂取量はアルツハイマー病と逆相関する",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42002260/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-04T22:34:30",
-      "excerpt": "記事の URL: https://www.nature.com/articles/d44151-025-00219-7 コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-05T00:48:15",
+      "excerpt": "記事の URL: https://pubmed.ncbi.nlm.nih.gov/42002260/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "人気ホラーゲームの新作が発売中止？　告知投稿を見たマンガ家が感じた“モキュメンタリーの難しさ”",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/05/news009.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-04T22:14:00",
-      "excerpt": "8月に発売される人気ホラーゲームシリーズ最新作である「日本事故物件監視協会3」について、公式Xアカウントの投稿がちょっとした物議を醸しました。"
+      "title": "ナイジェリア王子レダックスの帰還: ブッククラブと書評詐欺に気をつけてください",
+      "link": "https://writerbeware.blog/2025/09/19/return-of-the-nigerian-prince-redux-beware-book-club-and-book-review-scams/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-05T00:22:25",
+      "excerpt": "記事の URL: https://writerbeware.…"
+    },
+    {
+      "title": "Swiftが6月に発表したアップデートをまとめて紹介",
+      "link": "https://codezine.jp/article/detail/28853",
+      "source": "CodeZine",
+      "published": "2026-07-05T00:00:00",
+      "excerpt": "Swiftが6月に発表したアップデートをまとめて紹介"
     }
   ]
 }
