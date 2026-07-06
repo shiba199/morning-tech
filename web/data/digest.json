@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-06T21:19:30",
+  "generated_at": "2026-07-06T22:43:35",
   "window_hours": 24,
-  "total": 211,
+  "total": 217,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。Anthropicが、Claude Codeにおける「ループ」を4種類に整理して解説した。AIコーディングで何をAIに任せ、どこで止めるべきかを、初心者にも分かるようにかみ砕き、筆者なりの視点も添えて紹介する。",
+      "summary": "生成AIの新着が35件。Amazon SageMaker HyperPod は、Disaggregated Prefill and Decode (DPD) をサポートするようになりました。…",
       "articles": [
+        {
+          "title": "Amazon SageMaker HyperPod が、細分化されたプレフィルとデコードをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-sagemaker-hyperpod-dpd/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-06T21:29:00",
+          "excerpt": "Amazon SageMaker HyperPod は、Disaggregated Prefill and Decode (DPD) をサポートするようになりました。…"
+        },
         {
           "title": "AIコーディングの「ループ」4種類を完全入門　Anthropic公式が分かりやすく整理して解説",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/07/news014.html",
@@ -29,21 +36,21 @@
           "source": "TechCrunch（英語）",
           "published": "2026-07-06T19:49:10",
           "excerpt": "「現実には、生産を最適化するときは、価格とパフォーマンスを考慮し始めるのです」と Guillermo Rauch 氏は TechCrunch に語ります。"
-        },
-        {
-          "title": "AgentCore ハーネスで29分間に $5.63 の課金が発生した理由を CloudWatch メトリクスで調べてみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-harness-cost-analysis/",
-          "source": "DevelopersIO",
-          "published": "2026-07-06T18:35:53",
-          "excerpt": "Amazon Bedrock AgentCore のハーネスでコスト異常が発生。CloudWatch メトリクスで1分単位の課金推移を分析し、スケールアウト挙動と1セッションあたりのメモリ消費を特定しました。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。はじめに Fusicのレオナです。今回は、Amazon SageMaker AIのサーバレスなMLflow Appと、従来のManaged MLflow Tracking Serverを比較します。…",
+      "summary": "クラウドの新着が17件。AWSとは何か — EC2・S3・RDSをJavaエンジニア目線で整理 はじめに AWSはAmazon Web Servicesの略で、Amazonが提供するクラウドコンピューティングサービスです。…",
       "articles": [
+        {
+          "title": "AWSとは何か — EC2・S3・RDSをJavaエンジニア目線で整理",
+          "link": "https://qiita.com/hitobussi/items/1f7ecace4e276ffc5a90",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-06T22:17:41",
+          "excerpt": "AWSとは何か — EC2・S3・RDSをJavaエンジニア目線で整理 はじめに AWSはAmazon Web Servicesの略で、Amazonが提供するクラウドコンピューティングサービスです。…"
+        },
         {
           "title": "Amazon SageMaker AIのServerless MLflow試してみた",
           "link": "https://zenn.dev/fusic/articles/1182ab8cebed9b",
@@ -64,21 +71,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-06T15:03:39",
           "excerpt": "Amazon Bedrock Mantle を Lambda から利用するには、Bearer Token 生成や OpenAI / Anthropic 互換 API 用のSDKが必要です。…"
-        },
-        {
-          "title": "Amazon ECS Express Mode がカスタムタスク定義に対応",
-          "link": "https://qiita.com/Haruki-N/items/0b6d6110b98a09119aeb",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-06T14:17:07",
-          "excerpt": "はじめに 2026 年 7 月 1 日、AWS は Amazon ECS Express Mode に対して、カスタムタスク定義のサポートを発表しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。記事の URL: https://github.com/V4bel/Januscape コメント URL: https://news.ycombinator.com/item?id=48807908 ポイント: 19 コメント数: 4",
+      "summary": "セキュリティの新着が13件。Comparitechは、2026年上半期のランサムウェア攻撃が世界で4217件に達し、同社調査で過去最多を記録したと報告した。…",
       "articles": [
+        {
+          "title": "世界のランサムウェア攻撃、4217件に　データ流出規模の上位5件を占めた国は？",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/07/news046.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-07-06T22:00:00",
+          "excerpt": "Comparitechは、2026年上半期のランサムウェア攻撃が世界で4217件に達し、同社調査で過去最多を記録したと報告した。…"
+        },
+        {
+          "title": "「AIの暴走を止められない」　CISO座談会で見えたAIセキュリティの限界",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/07/news035.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-07-06T22:00:00",
+          "excerpt": "企業がAI活用を急ぐ中、従来型の防御モデルでは対応しきれないリスクが浮上している。Darktraceが実施したCISOらとの座談会から見えてきた、AIエージェントの暴走やシャドーAIのまん延など5つの主要課題とは。"
+        },
         {
           "title": "Januscape: KVM/x86 でのゲストからホストへのエスケープ [CVE-2026-53359]",
           "link": "https://github.com/V4bel/Januscape",
@@ -92,27 +106,13 @@
           "source": "TechCrunch（英語）",
           "published": "2026-07-06T14:43:59",
           "excerpt": "カナダのスパイ機関の年次報告書で明らかにされたハッキン​​グ活動は、同国とその主要同盟国が直面している差し迫った国家安全保障上の脅威を浮き彫りにしている。"
-        },
-        {
-          "title": "英国のスーパーマーケット大手、万引き犯逮捕のため顔認証で3倍減額",
-          "link": "https://www.theregister.com/security/2026/07/06/brit-supermarket-giant-triples-down-on-facial-recog-to-nab-shoplifters/5266935",
-          "source": "The Register（英語）",
-          "published": "2026-07-06T12:35:35",
-          "excerpt": "年末までにさらに最大 150 店舗が「Orwellian」テクノロジーを導入"
-        },
-        {
-          "title": "AWS WAF の JavaScript Integrations と ATP でクレデンシャルスタッフィング対策をやってみた | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/waf-js-integration-atp",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-06T11:14:49",
-          "excerpt": "はじめに この記事で学べること 前提知識・条件 AWS WAF JavaScript Integrations と ATP とは？…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。ビッグローブは7月6日、「BIGLOBEメール」への不正アクセスについて、メールアドレスとBIGLOBE ID計501万6432人分の漏えいを確認したと発表した。同じ基盤を使うニフティも同日、224万8708人分の漏えいを公表した。",
+      "summary": "データ分析の新着が5件。ビッグローブは7月6日、「BIGLOBEメール」への不正アクセスについて、メールアドレスとBIGLOBE ID計501万6432人分の漏えいを確認したと発表した。同じ基盤を使うニフティも同日、224万8708人分の漏えいを公表した。",
       "articles": [
         {
           "title": "BIGLOBE、メルアド漏えいは約502万人分と判明　ニフティも約225万人分　KDDI基盤への不正アクセス続報",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。ソニーの物理メディアの段階的廃止のジャブと称される攻撃が、GitHub 自体で爆発した。",
+      "summary": "開発ツールの新着が13件。CloudWatch Application Signals に新しく追加された Service Events 機能を、ECS Fargate 上の Python アプリで実際に試してみました。…",
       "articles": [
+        {
+          "title": "[アップデート] CloudWatch Application Signals に Service Events が追加され、例外やレイテンシ異常・デプロイイベントを自動的にキャプチャできるようになりました",
+          "link": "https://dev.classmethod.jp/articles/cloudwatch-service-events/",
+          "source": "DevelopersIO",
+          "published": "2026-07-06T21:35:03",
+          "excerpt": "CloudWatch Application Signals に新しく追加された Service Events 機能を、ECS Fargate 上の Python アプリで実際に試してみました。…"
+        },
         {
           "title": "GitHub、嘲笑が続いたため、リポジトリを CD に書き込むという提案を急遽打ち切る",
           "link": "https://www.theregister.com/devops/2026/07/06/github-cuts-short-offer-to-burn-repos-on-cd-after-mockery-ensues/5267113",
@@ -169,45 +176,38 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-06T15:00:00",
           "excerpt": "本日、AWS は、Amazon CloudWatch Application Signals のサービス イベントを発表しました。…"
-        },
-        {
-          "title": "既存の AWS CDK コードのまま、最大 15 倍速くデプロイできる『cdkd』を作った",
-          "link": "https://zenn.dev/go_to_k/articles/cdkd-cdk-direct",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-06T11:28:40",
-          "excerpt": "既存の AWS CDK のコードを 1 行も変えずに、デプロイを 最大 15 倍 まで速くできる CLI ツールの OSS『cdkd (CDK Direct)』を作りました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "宇宙で飛行した最古のアメリカーナは何ですか?",
-      "link": "https://arstechnica.com/space/2026/07/whats-the-oldest-americana-flown-in-space/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-06T19:57:56",
-      "excerpt": "独立戦争旗から自由の女神まで…"
-    },
-    {
-      "title": "100万トークンあたりの価格は無意味",
-      "link": "https://janilowski.pl/en/blog/2026/price-per-m-tokens/",
+      "title": "どれだけ少ない運動で済むでしょうか？",
+      "link": "https://www.economist.com/science-and-technology/2026/07/03/how-little-exercise-can-you-get-away-with",
       "source": "Hacker News（英語）",
-      "published": "2026-07-06T19:43:36",
-      "excerpt": "記事の URL: https://janilowski.pl/en/blog/2026/price-per-m-tokens/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-06T22:09:36",
+      "excerpt": "記事の URL: https://www.economist.…"
     },
     {
-      "title": "メタルにコンパイルされた Python 3.14 – インタプリタなし",
-      "link": "https://github.com/can1357/pon",
+      "title": "DSQL用のPrismaツールを使ってみる",
+      "link": "https://dev.classmethod.jp/articles/aurora-dsql-prisma-cli-tools/",
+      "source": "DevelopersIO",
+      "published": "2026-07-06T22:07:10",
+      "excerpt": "AWS公式によるDSQL用のPrisma CLIツールを実際に使ってみました。スキーマ検証からマイグレーションSQL の自動変換まで、その実装方法と活用方法についてまとめます。"
+    },
+    {
+      "title": "Microsoft、Xboxで約3200人を削減し4スタジオを分離――「われわれの事業は健全でない」とCEO",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/07/news077.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-06T22:03:00",
+      "excerpt": "MicrosoftのXbox部門は、2027会計年度を通じて部門全体で約3200人を削減すると発表した。アシャ・シャルマCEOは社内メモで利益率の低さやハードウェアの危機を指摘し、大規模な組織再編を行うとした。…"
+    },
+    {
+      "title": "Windows GDID の完全な記述",
+      "link": "https://github.com/SmtimesIWndr/gdid-reversal",
       "source": "Hacker News（英語）",
-      "published": "2026-07-06T19:40:22",
-      "excerpt": "記事の URL: https://github.com/can1357/pon コメント URL: https://news.ycombinator.com/item?id=48809496 ポイント: 45 コメント数: 21"
-    },
-    {
-      "title": "最新のiOS 27ベータ版でSiriのペースと表現力をカスタマイズできるようになりました",
-      "link": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-06T19:01:59",
-      "excerpt": "新しいコントロールを使用すると、Siri の話す速さや声の表現力を制御できます。"
+      "published": "2026-07-06T22:02:24",
+      "excerpt": "記事の URL: https://github.com/SmtimesIWndr/gdid-reversal コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
