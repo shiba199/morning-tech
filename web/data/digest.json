@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-06T14:41:11",
+  "generated_at": "2026-07-06T17:33:58",
   "window_hours": 24,
-  "total": 183,
+  "total": 193,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が27件。記事の URL: https://rruxandra.github.io/regression-to-the-mean.html コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が31件。はじめに Amazon Bedrock AgentCore Runtime を使うと、自作の AI エージェントをマネージドインフラ上にデプロイできます。触っていて、ふと気になったことがあります。…",
       "articles": [
         {
-          "title": "平均値への回帰: LLM と新しいものの静かな死について",
-          "link": "https://rruxandra.github.io/regression-to-the-mean.html",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-06T13:20:59",
-          "excerpt": "記事の URL: https://rruxandra.github.io/regression-to-the-mean.html コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "LLMのコスト暴走と情報漏洩を防ぐ社内Gateway設計: Azure/AWSガバナンスとLiteLLM実装(Phase1→Phase2)",
-          "link": "https://qiita.com/nogataka/items/6251b5727998ca29734c",
+          "title": "【AgentCore】Runtime をパブリックにデプロイしたけど、勝手にアクセスされない？",
+          "link": "https://qiita.com/ryu-ki/items/2cd37256824b54022bdb",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-06T11:00:01",
-          "excerpt": "はじめに 各社で開発用途・業務用途に Azure OpenAI、Microsoft Foundry、Amazon Bedrock、OpenAI、Anthropic などの LLM を利用するケースが増えています。…"
+          "published": "2026-07-06T16:08:21",
+          "excerpt": "はじめに Amazon Bedrock AgentCore Runtime を使うと、自作の AI エージェントをマネージドインフラ上にデプロイできます。触っていて、ふと気になったことがあります。…"
         },
         {
-          "title": "【AWS】ベイズ平均 × Bedrock × Comprehendで実装する「ハズレない」飲食店検索アプリ",
-          "link": "https://qiita.com/yucn_qiita/items/952c7a8d4672af447b6c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-06T09:32:04",
-          "excerpt": "1.…"
+          "title": "AWS ウィークリーまとめ: AWS の Claude Sonnet 5、AI エージェント向けの Amazon WorkSpaces、AWS サービス可用性の更新など (2026 年 7 月 6 日)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-07-06T15:46:43",
+          "excerpt": "数回前に、私はスタートアップと協力することでとてもエネルギーを感じることについて書きました。先週、私はそのことを新たに知りました。私は AWS スタートアップ チームと数日間過ごし、実際に解決している問題について語る創業者の話を聞きました。…"
         },
         {
-          "title": "週刊生成AI with AWS – 2026年6月29日週",
-          "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260629/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-06T09:28:56",
-          "excerpt": "週刊生成AI with AWS, お客様事例が充実した 2026 年 6 月 29 日号 - プリモグローバルホールディングス様、株式会社ラクス様、ITbook 株式会社様、株式会社オーレックホールディングス様の国内事例ブログを紹介。…"
+          "title": "Windows Subsystem for Linux (WSL) で Claude Skills が使えるようになるまでの奮闘記録",
+          "link": "https://dev.classmethod.jp/articles/wsl-claude-code-skills-struggle/",
+          "source": "DevelopersIO",
+          "published": "2026-07-06T15:42:54",
+          "excerpt": "WSL 上の Claude Code で複数のつまずきに直面しましたが、GPG 認証の競合や GitHub 認証の設定不足などを乗り越え、議事録から提案書作成と Marp スライド自動生成までたどり着きました。…"
+        },
+        {
+          "title": "Reddit は、LLM が主に作成した問題を解決するために LLM を使用しています",
+          "link": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-06T15:22:08",
+          "excerpt": "AI 時代において、プラットフォームはスパムを排除するために火で対抗するしかありません。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。はじめに 2026 年 7 月 1 日、AWS は Amazon ECS Express Mode に対して、カスタムタスク定義のサポートを発表しました。…",
+      "summary": "クラウドの新着が16件。記事のテーマ AWSのアカウントが無いのでローカルで動かしてみた。Lambda関数に渡される引数のイメージが分かりやすく、意外と収穫があったので共有する。使用したサンプルスクリプト（index.mjs）は以下。…",
       "articles": [
+        {
+          "title": "Hello Worldを出力するLambda関数のサンプルjavascriptをローカルで動かしてみた【Node.js】",
+          "link": "https://qiita.com/torororo1008/items/24f58dbfd3f3d23858da",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-06T16:06:44",
+          "excerpt": "記事のテーマ AWSのアカウントが無いのでローカルで動かしてみた。Lambda関数に渡される引数のイメージが分かりやすく、意外と収穫があったので共有する。使用したサンプルスクリプト（index.mjs）は以下。…"
+        },
+        {
+          "title": "Lambda レイヤーで Bedrock Mantle を使う — Docker 不要で 47 モデルを呼び出してみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-mantle-lambda-layer-4-routes/",
+          "source": "DevelopersIO",
+          "published": "2026-07-06T15:03:39",
+          "excerpt": "Amazon Bedrock Mantle を Lambda から利用するには、Bearer Token 生成や OpenAI / Anthropic 互換 API 用のSDKが必要です。…"
+        },
         {
           "title": "Amazon ECS Express Mode がカスタムタスク定義に対応",
           "link": "https://qiita.com/Haruki-N/items/0b6d6110b98a09119aeb",
@@ -52,33 +66,33 @@
           "excerpt": "はじめに 2026 年 7 月 1 日、AWS は Amazon ECS Express Mode に対して、カスタムタスク定義のサポートを発表しました。…"
         },
         {
-          "title": "【AWS】2025年のIceberg関連アップデートキャッチアップ（S3 Tables編） | DENET 技術ブログ",
-          "link": "https://blog.denet.co.jp/s3table-catchup/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-06T09:00:53",
-          "excerpt": "投稿 【AWS】2025年のIceberg関連アップデートキャッチアップ（S3 Tables編） は DENET 技術ブログ に最初に表示されました。"
-        },
-        {
-          "title": "AWS ElastiCache Serverless (Redis OSS) にGoから接続すると「i/o timeout」になる原因と解決方法",
-          "link": "https://qiita.com/Rikuto-Iwashita/items/9c3a9e10d2cdc053d646",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-06T05:56:31",
-          "excerpt": "はじめに こんにちは！AWSを学習中のrikutoです。先日、ECS FargateにデプロイしたGoアプリがRedis（ElastiCache）に接続できず、起動直後にクラッシュを繰り返す問題に遭遇しました。…"
-        },
-        {
-          "title": "30万レコードを「欠落なく、約1カ月で」クラウドへ　東レ系はDB移行をどう進めた？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/06/news042.html",
-          "source": "@IT",
-          "published": "2026-07-06T04:00:00",
-          "excerpt": "東レ・ファインケミカルは、約30万件のレコードを抱える業務データベースを、データ欠落を防ぎながら約1カ月でクラウドサービスに移行した。同社は何を重視し、どのように実現したのか。その取り組みを紹介する。"
+          "title": "AWS初心者がLambdaでWebアプリを作りながら学んだこと🤔",
+          "link": "https://zenn.dev/coffee_neko/articles/9ff7e7923744ab",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-06T12:04:44",
+          "excerpt": "はじめに Azureは少し触れたことがある程度で、AWS（Amazon Web Services）に関する知識はほとんどありませんでした。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。はじめに この記事で学べること 前提知識・条件 AWS WAF JavaScript Integrations と ATP とは？…",
+      "summary": "セキュリティの新着が9件。カナダのスパイ機関の年次報告書で明らかにされたハッキン​​グ活動は、同国とその主要同盟国が直面している差し迫った国家安全保障上の脅威を浮き彫りにしている。",
       "articles": [
+        {
+          "title": "カナダのスパイ機関、昨年麻薬密売人、過激派、ランサムウェア犯罪組織をハッキングしたと発表",
+          "link": "https://techcrunch.com/2026/07/06/canadian-spy-agency-says-it-hacked-drug-traffickers-extremists-and-a-ransomware-gang-last-year/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-06T14:43:59",
+          "excerpt": "カナダのスパイ機関の年次報告書で明らかにされたハッキン​​グ活動は、同国とその主要同盟国が直面している差し迫った国家安全保障上の脅威を浮き彫りにしている。"
+        },
+        {
+          "title": "英国のスーパーマーケット大手、万引き犯逮捕のため顔認証で3倍減額",
+          "link": "https://www.theregister.com/security/2026/07/06/brit-supermarket-giant-triples-down-on-facial-recog-to-nab-shoplifters/5266935",
+          "source": "The Register（英語）",
+          "published": "2026-07-06T12:35:35",
+          "excerpt": "年末までにさらに最大 150 店舗が「Orwellian」テクノロジーを導入"
+        },
         {
           "title": "AWS WAF の JavaScript Integrations と ATP でクレデンシャルスタッフィング対策をやってみた | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/waf-js-integration-atp",
@@ -92,27 +106,13 @@
           "source": "ITmedia NEWS",
           "published": "2026-07-06T09:02:00",
           "excerpt": "ビッグローブは7月6日、「BIGLOBEメール」への不正アクセスについて、メールアドレスとBIGLOBE ID計501万6432人分の漏えいを確認したと発表した。同じ基盤を使うニフティも同日、224万8708人分の漏えいを公表した。"
-        },
-        {
-          "title": "KDDI、パスワード760万人分漏えい　メアドも1220万人分　ISP事業者向けシステムへの不正アクセスで",
-          "link": "https://www.itmedia.co.jp/news/articles/2607/06/news109.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-07-06T07:14:00",
-          "excerpt": "KDDIがISP事業者向けに提供しているメールシステムが不正アクセスを受けた件を巡り、メールアドレス1223万3087万人分、パスワード761万6173万人分の漏えいを確認したと発表した。…"
-        },
-        {
-          "title": "Cognition、AI活用の脆弱性修正支援プログラム「Devin」を発表",
-          "link": "https://codezine.jp/article/detail/28859",
-          "source": "CodeZine",
-          "published": "2026-07-06T02:30:00",
-          "excerpt": "Cognition、AI活用の脆弱性修正支援プログラム「Devin」を発表"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。ビッグローブは7月6日、「BIGLOBEメール」への不正アクセスについて、メールアドレスとBIGLOBE ID計501万6432人分の漏えいを確認したと発表した。同じ基盤を使うニフティも同日、224万8708人分の漏えいを公表した。",
+      "summary": "データ分析の新着が6件。ビッグローブは7月6日、「BIGLOBEメール」への不正アクセスについて、メールアドレスとBIGLOBE ID計501万6432人分の漏えいを確認したと発表した。同じ基盤を使うニフティも同日、224万8708人分の漏えいを公表した。",
       "articles": [
         {
           "title": "BIGLOBE、メルアド漏えいは約502万人分と判明　ニフティも約225万人分　KDDI基盤への不正アクセス続報",
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。はじめに この記事で学べること 前提知識・条件 AWS WAF JavaScript Integrations と ATP とは？…",
+      "summary": "開発ツールの新着が11件。はじめに Amazon Bedrock AgentCore Runtime を使うと、自作の AI エージェントをマネージドインフラ上にデプロイできます。触っていて、ふと気になったことがあります。…",
       "articles": [
+        {
+          "title": "【AgentCore】Runtime をパブリックにデプロイしたけど、勝手にアクセスされない？",
+          "link": "https://qiita.com/ryu-ki/items/2cd37256824b54022bdb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-06T16:08:21",
+          "excerpt": "はじめに Amazon Bedrock AgentCore Runtime を使うと、自作の AI エージェントをマネージドインフラ上にデプロイできます。触っていて、ふと気になったことがあります。…"
+        },
+        {
+          "title": "既存の AWS CDK コードのまま、最大 15 倍速くデプロイできる『cdkd』を作った",
+          "link": "https://zenn.dev/go_to_k/articles/cdkd-cdk-direct",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-06T11:28:40",
+          "excerpt": "既存の AWS CDK のコードを 1 行も変えずに、デプロイを 最大 15 倍 まで速くできる CLI ツールの OSS『cdkd (CDK Direct)』を作りました。…"
+        },
         {
           "title": "AWS WAF の JavaScript Integrations と ATP でクレデンシャルスタッフィング対策をやってみた | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/waf-js-integration-atp",
@@ -162,52 +176,38 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-06T09:00:00",
           "excerpt": "本日より、AWS CodePipeline がアジアパシフィック (ニュージーランド) リージョン (ap-southeast-6) で利用できるようになりました。…"
-        },
-        {
-          "title": "TerraformでGitHubを管理する | 10X Product Blog",
-          "link": "https://product.10x.co.jp/entry/2026/07/06/101918",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-06T01:19:18",
-          "excerpt": "こんにちは、SREの@babarotです。10Xでは GitHub Organization のリソースを Terraform で管理しています。…"
-        },
-        {
-          "title": "OCI チュートリアル「監査ログを使用したテナント監視」をやってみた Vol.2 | スマートスタイル TECH BLOG",
-          "link": "https://blog.s-style.co.jp/2026/07/16391/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-06T01:00:29",
-          "excerpt": "はじめに 📄 この記事は2回に分けてお届けしています。– Vol.1：サービス・コネクタ・ハブの概要と作成手順 → Vol.1はこちら – Vol.2（本記事）：動作確認と拡張モードを使った高度なフィル […]…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Apple、次期macOS 27でSwift言語をシステムカーネル開発に採用。メモリ安全な言語として",
-      "link": "https://www.publickey1.jp/blog/26/applemacos_27swift.html",
-      "source": "Publickey",
-      "published": "2026-07-06T15:11:01",
-      "excerpt": "Appleは次期macOS 27 Golden Gateから、Swift言語をシステムカーネルの開発に採用することを明らかにしました。これは先月に行われたWWDC26ですでに表明されており、7月2日付けのSwiftのブログ「What's .…"
-    },
-    {
-      "title": "MCPにエンタープライズ向け新機能、アクセスを一括管理できる「Enterprise-Managed Authorization（EMA）extension」が安定版として利用可能に",
-      "link": "https://www.publickey1.jp/blog/26/mcpenterprise-managed_authorizationemaextension.html",
-      "source": "Publickey",
-      "published": "2026-07-06T15:08:16",
-      "excerpt": "生成AIとツールとの接続プロトコルとしてLinux Foundation傘下で標準化と機能拡張が進められているMCP（Model Context Protocol）の企業向けの新機能「Enterprise-Managed Authoriza…"
-    },
-    {
-      "title": "WhatsApp ユーザー名を予約および変更する方法",
-      "link": "https://techcrunch.com/2026/07/06/how-to-reserve-and-change-your-whatsapp-username/",
+      "title": "Google を使用している場合、その AI をトレーニングしていることになります。オプトアウトする方法は次のとおりです。",
+      "link": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-06T14:15:30",
-      "excerpt": "WhatsApp では、機能の完全展開に先立ってユーザーがユーザー名を予約できるようになり、ユーザー名が公開されると電話番号を共有せずに接続できるようになります。"
+      "published": "2026-07-06T17:04:58",
+      "excerpt": "PSA: Google のプライバシー設定の変更により、Google はより多くのデータで AI をトレーニングできるようになりました。オプトアウトする方法は次のとおりです。"
     },
     {
-      "title": "UEFA、FIFAの「前例がなく不当な」バログンの決定を非難",
-      "link": "https://www.reuters.com/sports/soccer/uefa-slams-fifas-unprecedented-incomprehensible-unjustifiable-balogun-decision-2026-07-06/",
+      "title": "ステルスロボットのスタートアップ (YC S26) が主任エンジニアを募集中 (パロアルト)",
+      "link": "https://news.ycombinator.com/item?id=48806976",
       "source": "Hacker News（英語）",
-      "published": "2026-07-06T13:54:22",
-      "excerpt": "記事の URL: https://www.reuters.…"
+      "published": "2026-07-06T16:33:04",
+      "excerpt": "コメント URL: https://news.ycombinator.com/item?id=48806976 ポイント: 0 コメント数: 0"
+    },
+    {
+      "title": "【xaligo】アーキテクチャ図をコードで描けるツールを作ってみた",
+      "link": "https://qiita.com/ryo-arima/items/99d9eefd659bb4275360",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-06T16:30:40",
+      "excerpt": "はじめに システム構成図やクラウドアーキテクチャ図を書くとき、こんなことはありませんか？図を更新するたびに PowerPoint や draw.…"
+    },
+    {
+      "title": "Apple、インドでのApple Account購入のカード決済を4年ぶりに復活",
+      "link": "https://techcrunch.com/2026/07/06/apple-brings-back-card-payments-for-apple-account-purchases-in-india-after-a-four-year-hiatus/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-06T16:21:03",
+      "excerpt": "Apple は、インドの支払い枠組みに適応した後、インドでの Apple アカウント購入に対するカード支払いの段階的な展開を開始しました。"
     }
   ]
 }
