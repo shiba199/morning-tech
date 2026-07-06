@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-07-06T02:01:18",
+  "generated_at": "2026-07-06T06:49:59",
   "window_hours": 24,
-  "total": 173,
+  "total": 182,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が31件。Teleport社は最近、AIを中心に据えた新たなセキュリティモデルTeleport Agentic Identity Frameworkを公開した。…",
+      "summary": "生成AIの新着が30件。はじめに 以前書いた「MWAA Serverless × EventBridge 通知で変わるサーバーレス設計パターン」は、DAG の実行結果を EventBridge 経由で Slack や SNS に飛ばすという、比較的シンプルな「通知…",
       "articles": [
         {
-          "title": "Teleport社、企業インフラ全体でAIエージェントを保護するAgentic Identity Frameworkを発表",
-          "link": "https://www.infoq.com/jp/news/2026/07/teleport-secure-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-07-06T01:30:00",
-          "excerpt": "Teleport社は最近、AIを中心に据えた新たなセキュリティモデルTeleport Agentic Identity Frameworkを公開した。…"
+          "title": "MWAA × EventBridge 通知基盤に Bedrock AgentCore を組み込む一歩先の設計",
+          "link": "https://zenn.dev/geneg/articles/2026-07-06-amazon-bedrock-agentcore-now-avai",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-06T06:38:31",
+          "excerpt": "はじめに 以前書いた「MWAA Serverless × EventBridge 通知で変わるサーバーレス設計パターン」は、DAG の実行結果を EventBridge 経由で Slack や SNS に飛ばすという、比較的シンプルな「通知…"
         },
         {
-          "title": "GPT-5.6 Sol Ultra がコーデックスに掲載されます",
-          "link": "https://twitter.com/thsottiaux/status/2073933490513752151",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-06T01:04:03",
-          "excerpt": "記事の URL: https://twitter.com/thsottiaux/status/2073933490513752151 コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "GitHub Copilot、Gemini 2.5 Proと3 Flashのサポートを7月31日に終了へ",
-          "link": "https://codezine.jp/article/detail/28857",
-          "source": "CodeZine",
-          "published": "2026-07-06T00:00:00",
-          "excerpt": "GitHub Copilot、Gemini 2.5 Proと3 Flashのサポートを7月31日に終了へ"
-        },
-        {
-          "title": "【アップデート】Cloud CDN と外部 Application Load Balancer でプライベートな Cloud Storage バケットにアクセスできるようになりました",
-          "link": "https://dev.classmethod.jp/articles/access-private-gcs-with-cloud-cdn-and-external-alb/",
+          "title": "DGX Spark 1 台をパートナーにする LLM 構成を考えてみた",
+          "link": "https://dev.classmethod.jp/articles/dgx-spark-single-node-best-llm-qwen3-6-27b-nvfp4/",
           "source": "DevelopersIO",
-          "published": "2026-07-05T23:44:39",
-          "excerpt": "Google CloudがPrivate Bucket Access 機能を一般提供開始。…"
+          "published": "2026-07-06T05:08:02",
+          "excerpt": "DGX Spark 1 台で複数のローカル LLM を速度と品質で横並び測定し、パートナー機として最適なモデル構成を探ってみました。"
+        },
+        {
+          "title": "【ブースレポート】 DJ Agent ～ AI エージェントによるライブコーディング DJ ～ ブースを体験してきました",
+          "link": "https://dev.classmethod.jp/articles/aws-dj-agent/",
+          "source": "DevelopersIO",
+          "published": "2026-07-06T04:28:05",
+          "excerpt": "AWS Summit 2026のブースレポートとして、AI エージェント同士がリアルタイムで曲を生成・DJ する「DJ Agent」を紹介します。…"
+        },
+        {
+          "title": "AIエージェントが旅の軌跡まとめてくれるUX | aptpod Tech Blog",
+          "link": "https://tech.aptpod.co.jp/entry/2026/07/06/130000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-06T04:00:00",
+          "excerpt": "計測データをもっと簡単に活用したいみなさん、 こんにちは、ソリューションアーキテクトの伊勢です。収集された計測データを取得・加工してシステム連携するケースが増えてきました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が28件。はじめに AWSをTerraformで触るハンズオンをやっていて、S3のところで「バケットにHTMLファイルを置いたら、そのままインターネットに公開できるの？」という素朴な疑問が湧きました。…",
+      "summary": "クラウドの新着が26件。はじめに こんにちは！AWSを学習中のrikutoです。先日、ECS FargateにデプロイしたGoアプリがRedis（ElastiCache）に接続できず、起動直後にクラッシュを繰り返す問題に遭遇しました。…",
       "articles": [
+        {
+          "title": "AWS ElastiCache Serverless (Redis OSS) にGoから接続すると「i/o timeout」になる原因と解決方法",
+          "link": "https://qiita.com/Rikuto-Iwashita/items/9c3a9e10d2cdc053d646",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-06T05:56:31",
+          "excerpt": "はじめに こんにちは！AWSを学習中のrikutoです。先日、ECS FargateにデプロイしたGoアプリがRedis（ElastiCache）に接続できず、起動直後にクラッシュを繰り返す問題に遭遇しました。…"
+        },
+        {
+          "title": "30万レコードを「欠落なく、約1カ月で」クラウドへ　東レ系はDB移行をどう進めた？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/06/news042.html",
+          "source": "@IT",
+          "published": "2026-07-06T04:00:00",
+          "excerpt": "東レ・ファインケミカルは、約30万件のレコードを抱える業務データベースを、データ欠落を防ぎながら約1カ月でクラウドサービスに移行した。同社は何を重視し、どのように実現したのか。その取り組みを紹介する。"
+        },
+        {
+          "title": "クラスターアップグレードを安全かつ信頼性高く管理できる Amazon EKS バージョンロールバックを発表",
+          "link": "https://aws.amazon.com/jp/blogs/news/announcing-amazon-eks-rollback-for-safe-and-reliable-management-of-cluster-upgrades/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-07-06T03:29:01",
+          "excerpt": "Amazon EKS バージョンロールバックを発表します。…"
+        },
         {
           "title": "【AWS】速くなるCDN、で結局いつ使うの？をS3とCloudFrontで整理してみた",
           "link": "https://qiita.com/ktdatascience/items/5e723db2d82a2ba3ce09",
           "source": "Qiita AWSタグ",
           "published": "2026-07-06T01:41:52",
           "excerpt": "はじめに AWSをTerraformで触るハンズオンをやっていて、S3のところで「バケットにHTMLファイルを置いたら、そのままインターネットに公開できるの？」という素朴な疑問が湧きました。…"
-        },
-        {
-          "title": "Teleport社、企業インフラ全体でAIエージェントを保護するAgentic Identity Frameworkを発表",
-          "link": "https://www.infoq.com/jp/news/2026/07/teleport-secure-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-07-06T01:30:00",
-          "excerpt": "Teleport社は最近、AIを中心に据えた新たなセキュリティモデルTeleport Agentic Identity Frameworkを公開した。…"
-        },
-        {
-          "title": "【AWS】ECS(Fargate)からAWS Lambda + API Gatewayへ移行してコストを削減した話",
-          "link": "https://qiita.com/TAKUYA34/items/fbfb33063970161d2f53",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-06T01:29:25",
-          "excerpt": "はじめに 家計簿アプリのバックエンド資材を、 ECS(Fargate)からAWS Lambda + API Gatewayへ移行しました。結果として、 ALB ECS Public IPv4 などの常時課金を削減できました。…"
-        },
-        {
-          "title": "【AWS】S3でバージョニングを有効化してみた、その後に効いてくる削除マーカーとライフサイクルの話",
-          "link": "https://qiita.com/ktdatascience/items/6e26ff30fa14fbae465f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-06T01:26:49",
-          "excerpt": "はじめに AWSのハンズオンでS3バケットにバージョニングを有効化してみたら、「有効化」自体は一瞬なのに、そのあとに知っておくべきことが想像より多いと気づきました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。Linuxカーネルの新たな権限昇格脆弱性「DirtyClone」に対する修正が公開",
+      "summary": "セキュリティの新着が4件。Cognition、AI活用の脆弱性修正支援プログラム「Devin」を発表",
       "articles": [
+        {
+          "title": "Cognition、AI活用の脆弱性修正支援プログラム「Devin」を発表",
+          "link": "https://codezine.jp/article/detail/28859",
+          "source": "CodeZine",
+          "published": "2026-07-06T02:30:00",
+          "excerpt": "Cognition、AI活用の脆弱性修正支援プログラム「Devin」を発表"
+        },
         {
           "title": "Linuxカーネルの新たな権限昇格脆弱性「DirtyClone」に対する修正が公開",
           "link": "https://codezine.jp/article/detail/28858",
@@ -99,55 +106,48 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-05T08:01:29",
           "excerpt": "記事の URL: https://www.devever.net/~hl/webcrypto コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "AWSの暗号化・鍵管理サービスまとめ",
-          "link": "https://qiita.com/keitakei777/items/ee34ec3e245bd5dd0968",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-05T06:16:30",
-          "excerpt": "こんにちは。今回は、AWSの暗号化・鍵管理サービスについて、それぞれの役割や違いを整理してみます。まず整理 AWSには暗号化や認証情報を管理するサービスが複数ありますが、管理する対象は大きく3種類に分けられます。AWSの暗号化・鍵管理...…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。概要 Bedrock AgentCoreのObservabilityを使うには、CloudWatchでTransaction Searchを有効化する必要があります。…",
+      "summary": "データ分析の新着が8件。はじめに DynamoDBを使うなら最初に設定しておきたい5つのポイント 上記記事で紹介した「その2」として、Auto Scaling（またはオンデマンド） の設定方法を紹介します。…",
       "articles": [
         {
-          "title": "Bedrock AgentCoreのObservabilityで取り込み時のサンプリングレート設定方法の確認",
-          "link": "https://zenn.dev/jnxjez/articles/b4a501dff7d722",
+          "title": "#2 DynamoDBのAuto Scaling（またはオンデマンド）を設定する方法【AWSコンソールで簡単設定】",
+          "link": "https://qiita.com/Sho5_Matsu/items/2a5752f9b9311ec43ed8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-06T05:06:14",
+          "excerpt": "はじめに DynamoDBを使うなら最初に設定しておきたい5つのポイント 上記記事で紹介した「その2」として、Auto Scaling（またはオンデマンド） の設定方法を紹介します。…"
+        },
+        {
+          "title": "#1 DynamoDBのポイントインタイムリカバリ（PITR）を有効にする方法【AWSコンソールで簡単設定】",
+          "link": "https://qiita.com/Sho5_Matsu/items/c4e0d981dd93f28f153c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-06T05:05:39",
+          "excerpt": "はじめに DynamoDBを使うなら最初に設定しておきたい5つのポイント 上記記事の設定しておきたいポイントその１として紹介した、ポイントインタイムリカバリ（Point-in-Time Recovery：PITR） について、本記事ではAW…"
+        },
+        {
+          "title": "No space left on deviceがGlueで出たので、圧縮に興味を持った話 | Cybozu Inside Out | サイボウズエンジニアのブログ",
+          "link": "https://blog.cybozu.io/entry/2026/07/06/133000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-06T04:30:00",
+          "excerpt": "使っているAWS Glueで起きた出来事をきっかけに、Glueで使われるparquetというファイルフォーマットについて調べてみました"
+        },
+        {
+          "title": "ShikakuPassのログ基盤・データ分析基盤の紹介",
+          "link": "https://zenn.dev/gakken_leap/articles/010b927ba62ce7",
           "source": "Zenn AWSトピック",
-          "published": "2026-07-05T22:21:35",
-          "excerpt": "概要 Bedrock AgentCoreのObservabilityを使うには、CloudWatchでTransaction Searchを有効化する必要があります。…"
-        },
-        {
-          "title": "Amazon Bedrock Knowledge Bases × OpenSearch Serverless  で貯めたドキュメントについてAI に質問できる環境をつくってみた",
-          "link": "https://dev.classmethod.jp/articles/shoma-amazon-bedrock-knowledge-bases-opensearch-serverless-build-environment-ask-ai-about-stored-documents/",
-          "source": "DevelopersIO",
-          "published": "2026-07-05T15:29:50",
-          "excerpt": "Amazon Bedrock Knowledge Bases を使ったシンプルな RAG 環境を実際に構築してみました。…"
-        },
-        {
-          "title": "Amazon AuroraからBigQueryにデータ連携するときにGCSは必要なのか",
-          "link": "https://zenn.dev/tsukulink/articles/2026-07-rds-bigquery-sync",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-05T15:00:08",
-          "excerpt": "はじめに こんにちは、ツクリンクでSREエンジニアをやってるida.です。ツクリンクではAmazon AuroraのデータをBigQueryに連携して分析基盤として活用しています。…"
-        },
-        {
-          "title": "[アップデート] Amazon OpenSearch Service のログ分析最適化エンジン「Optimized」が利用可能になったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/20260705-aoss-optimized-log-analytics/",
-          "source": "DevelopersIO",
-          "published": "2026-07-05T14:37:25",
-          "excerpt": "Amazon OpenSearch Service に登場した新しいエンジンモード「Optimized」を、ドメイン作成からログ投入・クエリまで実際に試してみました。…"
+          "published": "2026-07-06T00:00:09",
+          "excerpt": "はじめに どうも、@to_fmakです。直近一年ほど、弊社のShikakuPass（オンライン資格講座サービス）の開発に携わりながら、ログ基盤とデータ分析基盤の構築・整備に取り組んできました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。こんにちは、SREの@babarotです。10Xでは GitHub Organization のリソースを Terraform で管理しています。…",
+      "summary": "開発ツールの新着が8件。こんにちは、SREの@babarotです。10Xでは GitHub Organization のリソースを Terraform で管理しています。…",
       "articles": [
         {
           "title": "TerraformでGitHubを管理する | 10X Product Blog",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "FDEとリコーの新コンサルサービス、どこが違う？　AXのパートナー選びを考察",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/06/news054.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-07-06T01:45:00",
-      "excerpt": "企業はAXに向けてどのようなベンダーをパートナーに選べばよいのか。リコーの新たなAIコンサル会社と最近よく聞く「FDE」との共通点と相違点を明らかにしつつ、考察する。"
+      "title": "この人型ロボット会社は株式を公開する予定ですが、その CEO はすぐにロボットを家庭に導入するとは約束していません",
+      "link": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-06T06:05:29",
+      "excerpt": "他のヒューマノイドのスタートアップが高騰する評価額を追いかける一方で、Agility Robotics は実行と SPAC に将来を賭けています。"
     },
     {
-      "title": "AIサーバで稼ぐシャープ　2030年度の新規事業売上高の8割強目指す　鴻海と連携",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/06/news060.html",
+      "title": "フロンティアモデルの安全なリリースに向けた AWS の取り組み",
+      "link": "https://aws.amazon.com/jp/blogs/news/safely-releasing-frontier-models-to-customers/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-07-06T05:56:34",
+      "excerpt": "Amazon Bedrock で Anthropic の Claude Fable 5 モデルが、悪用防止のためのさらに強力なガードレールを備えて再びご利用いただけるようになりました。…"
+    },
+    {
+      "title": "Amazon SES は DKIM を使用していますか?",
+      "link": "https://dev.classmethod.jp/articles/jw-amazon-ses-dkim-configuration-timeout/",
+      "source": "DevelopersIO",
+      "published": "2026-07-06T05:37:09",
+      "excerpt": "Amazon SES は DKIM を使用して、セキュリティを強化します。"
+    },
+    {
+      "title": "テスラ車の現オーナーが日本法人へ「喝！」　相次ぐ納車トラブルに募る国内体制への不安",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/06/news080.html",
       "source": "ITmedia NEWS",
-      "published": "2026-07-06T01:35:00",
-      "excerpt": "シャープの河村哲治社長は7月3日、大阪市内で報道陣の取材に応じ、目標とする2030年度の新規事業の年間売上高2000億～3000億円のうち、8割強はAI向けサーバ関連を想定していると明らかにした。…"
-    },
-    {
-      "title": "【AWS】紛らわしすぎるAPI Gatewayの「REST API vs HTTP API」を、差分だけで覚えるコツ",
-      "link": "https://qiita.com/ktdatascience/items/5d2dcdb5ebb4efcb9e68",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-06T01:30:09",
-      "excerpt": "はじめに AWSのAPI Gatewayを触り始めて、最初に「ん？」となったのがこれでした。REST API と HTTP API。──いや、HTTP APIだってRESTfulに叩けるじゃん、名前で区別する意味ある？…"
-    },
-    {
-      "title": "キオクシア、新型メモリのサンプル出荷開始　岩手の工場の最先端設備活用",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/06/news059.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-06T01:22:00",
-      "excerpt": "半導体大手キオクシアホールディングスが、大容量で低消費電力の新型メモリのサンプル品の出荷を開始したと発表した。北上工場（岩手県北上市）第2製造棟の最先端設備を活用して生産する。"
+      "published": "2026-07-06T05:30:00",
+      "excerpt": "日本での販売数がBMWを抜くなどオーナーが急増中のTesla。歓迎すべき人気の裏で、4年半乗る筆者のような既存オーナーの胸には、じわりと不安が兆し始めている。…"
     }
   ]
 }
