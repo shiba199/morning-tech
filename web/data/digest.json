@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-06T17:33:58",
+  "generated_at": "2026-07-06T19:36:25",
   "window_hours": 24,
-  "total": 193,
+  "total": 205,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が31件。はじめに Amazon Bedrock AgentCore Runtime を使うと、自作の AI エージェントをマネージドインフラ上にデプロイできます。触っていて、ふと気になったことがあります。…",
+      "summary": "生成AIの新着が33件。Amazon Bedrock AgentCore のハーネスでコスト異常が発生。CloudWatch メトリクスで1分単位の課金推移を分析し、スケールアウト挙動と1セッションあたりのメモリ消費を特定しました。",
       "articles": [
+        {
+          "title": "AgentCore ハーネスで29分間に $5.63 の課金が発生した理由を CloudWatch メトリクスで調べてみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-harness-cost-analysis/",
+          "source": "DevelopersIO",
+          "published": "2026-07-06T18:35:53",
+          "excerpt": "Amazon Bedrock AgentCore のハーネスでコスト異常が発生。CloudWatch メトリクスで1分単位の課金推移を分析し、スケールアウト挙動と1セッションあたりのメモリ消費を特定しました。"
+        },
+        {
+          "title": "Anthropic の反監視姿勢を受けて秘密のクロード追跡者がユーザーに衝撃を与える",
+          "link": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-07-06T16:44:18",
+          "excerpt": "ユーザーをスパイした疑いで人類告発。エンジニアは「実験」は終了したと言っています。"
+        },
         {
           "title": "【AgentCore】Runtime をパブリックにデプロイしたけど、勝手にアクセスされない？",
           "link": "https://qiita.com/ryu-ki/items/2cd37256824b54022bdb",
@@ -22,20 +36,6 @@
           "source": "AWS News Blog（英語）",
           "published": "2026-07-06T15:46:43",
           "excerpt": "数回前に、私はスタートアップと協力することでとてもエネルギーを感じることについて書きました。先週、私はそのことを新たに知りました。私は AWS スタートアップ チームと数日間過ごし、実際に解決している問題について語る創業者の話を聞きました。…"
-        },
-        {
-          "title": "Windows Subsystem for Linux (WSL) で Claude Skills が使えるようになるまでの奮闘記録",
-          "link": "https://dev.classmethod.jp/articles/wsl-claude-code-skills-struggle/",
-          "source": "DevelopersIO",
-          "published": "2026-07-06T15:42:54",
-          "excerpt": "WSL 上の Claude Code で複数のつまずきに直面しましたが、GPG 認証の競合や GitHub 認証の設定不足などを乗り越え、議事録から提案書作成と Marp スライド自動生成までたどり着きました。…"
-        },
-        {
-          "title": "Reddit は、LLM が主に作成した問題を解決するために LLM を使用しています",
-          "link": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-06T15:22:08",
-          "excerpt": "AI 時代において、プラットフォームはスパムを排除するために火で対抗するしかありません。"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。カナダのスパイ機関の年次報告書で明らかにされたハッキン​​グ活動は、同国とその主要同盟国が直面している差し迫った国家安全保障上の脅威を浮き彫りにしている。",
+      "summary": "セキュリティの新着が11件。記事の URL: https://github.com/V4bel/Januscape コメント URL: https://news.ycombinator.com/item?id=48807908 ポイント: 19 コメント数: 4",
       "articles": [
+        {
+          "title": "Januscape: KVM/x86 でのゲストからホストへのエスケープ [CVE-2026-53359]",
+          "link": "https://github.com/V4bel/Januscape",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-06T17:35:03",
+          "excerpt": "記事の URL: https://github.com/V4bel/Januscape コメント URL: https://news.ycombinator.com/item?id=48807908 ポイント: 19 コメント数: 4"
+        },
         {
           "title": "カナダのスパイ機関、昨年麻薬密売人、過激派、ランサムウェア犯罪組織をハッキングしたと発表",
           "link": "https://techcrunch.com/2026/07/06/canadian-spy-agency-says-it-hacked-drug-traffickers-extremists-and-a-ransomware-gang-last-year/",
@@ -99,13 +106,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-06T11:14:49",
           "excerpt": "はじめに この記事で学べること 前提知識・条件 AWS WAF JavaScript Integrations と ATP とは？…"
-        },
-        {
-          "title": "BIGLOBE、メルアド漏えいは約502万人分と判明　ニフティも約225万人分　KDDI基盤への不正アクセス続報",
-          "link": "https://www.itmedia.co.jp/news/articles/2607/06/news121.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-07-06T09:02:00",
-          "excerpt": "ビッグローブは7月6日、「BIGLOBEメール」への不正アクセスについて、メールアドレスとBIGLOBE ID計501万6432人分の漏えいを確認したと発表した。同じ基盤を使うニフティも同日、224万8708人分の漏えいを公表した。"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。はじめに Amazon Bedrock AgentCore Runtime を使うと、自作の AI エージェントをマネージドインフラ上にデプロイできます。触っていて、ふと気になったことがあります。…",
+      "summary": "開発ツールの新着が13件。ソニーの物理メディアの段階的廃止のジャブと称される攻撃が、GitHub 自体で爆発した。",
       "articles": [
+        {
+          "title": "GitHub、嘲笑が続いたため、リポジトリを CD に書き込むという提案を急遽打ち切る",
+          "link": "https://www.theregister.com/devops/2026/07/06/github-cuts-short-offer-to-burn-repos-on-cd-after-mockery-ensues/5267113",
+          "source": "The Register（英語）",
+          "published": "2026-07-06T18:46:45",
+          "excerpt": "ソニーの物理メディアの段階的廃止のジャブと称される攻撃が、GitHub 自体で爆発した。"
+        },
         {
           "title": "【AgentCore】Runtime をパブリックにデプロイしたけど、勝手にアクセスされない？",
           "link": "https://qiita.com/ryu-ki/items/2cd37256824b54022bdb",
@@ -157,57 +164,50 @@
           "excerpt": "はじめに Amazon Bedrock AgentCore Runtime を使うと、自作の AI エージェントをマネージドインフラ上にデプロイできます。触っていて、ふと気になったことがあります。…"
         },
         {
+          "title": "CloudWatch Application Signals は、エラー、パフォーマンス異常、デプロイメント イベントを自動的にキャプチャするようになりました。",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-service-events/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-06T15:00:00",
+          "excerpt": "本日、AWS は、Amazon CloudWatch Application Signals のサービス イベントを発表しました。…"
+        },
+        {
           "title": "既存の AWS CDK コードのまま、最大 15 倍速くデプロイできる『cdkd』を作った",
           "link": "https://zenn.dev/go_to_k/articles/cdkd-cdk-direct",
           "source": "Zenn AWSトピック",
           "published": "2026-07-06T11:28:40",
           "excerpt": "既存の AWS CDK のコードを 1 行も変えずに、デプロイを 最大 15 倍 まで速くできる CLI ツールの OSS『cdkd (CDK Direct)』を作りました。…"
-        },
-        {
-          "title": "AWS WAF の JavaScript Integrations と ATP でクレデンシャルスタッフィング対策をやってみた | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/waf-js-integration-atp",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-06T11:14:49",
-          "excerpt": "はじめに この記事で学べること 前提知識・条件 AWS WAF JavaScript Integrations と ATP とは？…"
-        },
-        {
-          "title": "AWS CodePipeline がアジアパシフィック (ニュージーランド) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codepipeline-new-zealand/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-06T09:00:00",
-          "excerpt": "本日より、AWS CodePipeline がアジアパシフィック (ニュージーランド) リージョン (ap-southeast-6) で利用できるようになりました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Google を使用している場合、その AI をトレーニングしていることになります。オプトアウトする方法は次のとおりです。",
-      "link": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+      "title": "最新のiOS 27ベータ版でSiriのペースと表現力をカスタマイズできるようになりました",
+      "link": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-06T17:04:58",
-      "excerpt": "PSA: Google のプライバシー設定の変更により、Google はより多くのデータで AI をトレーニングできるようになりました。オプトアウトする方法は次のとおりです。"
+      "published": "2026-07-06T19:01:59",
+      "excerpt": "新しいコントロールを使用すると、Siri の話す速さや声の表現力を制御できます。"
     },
     {
-      "title": "ステルスロボットのスタートアップ (YC S26) が主任エンジニアを募集中 (パロアルト)",
-      "link": "https://news.ycombinator.com/item?id=48806976",
+      "title": "2026 年に行われるすべての主要なテクノロジー部門の人員削減で AI の名前が確認される",
+      "link": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-06T18:35:00",
+      "excerpt": "今年、AI を明言した大規模な人員削減を発表した大手テクノロジー企業を時系列の逆順で概観します。"
+    },
+    {
+      "title": "ソロ開発の長所と短所",
+      "link": "https://johnjeffers.com/pros-and-cons-of-solo-development/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-06T16:33:04",
-      "excerpt": "コメント URL: https://news.ycombinator.com/item?id=48806976 ポイント: 0 コメント数: 0"
+      "published": "2026-07-06T18:24:34",
+      "excerpt": "記事の URL: https://johnjeffers.com/pros-and-cons-of-solo-development/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "【xaligo】アーキテクチャ図をコードで描けるツールを作ってみた",
-      "link": "https://qiita.com/ryo-arima/items/99d9eefd659bb4275360",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-06T16:30:40",
-      "excerpt": "はじめに システム構成図やクラウドアーキテクチャ図を書くとき、こんなことはありませんか？図を更新するたびに PowerPoint や draw.…"
-    },
-    {
-      "title": "Apple、インドでのApple Account購入のカード決済を4年ぶりに復活",
-      "link": "https://techcrunch.com/2026/07/06/apple-brings-back-card-payments-for-apple-account-purchases-in-india-after-a-four-year-hiatus/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-06T16:21:03",
-      "excerpt": "Apple は、インドの支払い枠組みに適応した後、インドでの Apple アカウント購入に対するカード支払いの段階的な展開を開始しました。"
+      "title": "OpenWrt One – オープンハードウェアルーター",
+      "link": "https://openwrt.org/toh/openwrt/one",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-06T18:23:12",
+      "excerpt": "記事の URL: https://openwrt.org/toh/openwrt/one コメント URL: https://news.ycombinator.com/item?id=48808482 ポイント: 90 コメント数: 38"
     }
   ]
 }
