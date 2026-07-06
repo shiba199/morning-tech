@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-07-06T19:36:25",
+  "generated_at": "2026-07-06T21:19:30",
   "window_hours": 24,
-  "total": 205,
+  "total": 211,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。Amazon Bedrock AgentCore のハーネスでコスト異常が発生。CloudWatch メトリクスで1分単位の課金推移を分析し、スケールアウト挙動と1セッションあたりのメモリ消費を特定しました。",
+      "summary": "生成AIの新着が37件。Anthropicが、Claude Codeにおける「ループ」を4種類に整理して解説した。AIコーディングで何をAIに任せ、どこで止めるべきかを、初心者にも分かるようにかみ砕き、筆者なりの視点も添えて紹介する。",
       "articles": [
+        {
+          "title": "AIコーディングの「ループ」4種類を完全入門　Anthropic公式が分かりやすく整理して解説",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/07/news014.html",
+          "source": "@IT",
+          "published": "2026-07-06T20:00:00",
+          "excerpt": "Anthropicが、Claude Codeにおける「ループ」を4種類に整理して解説した。AIコーディングで何をAIに任せ、どこで止めるべきかを、初心者にも分かるようにかみ砕き、筆者なりの視点も添えて紹介する。"
+        },
+        {
+          "title": "「250万超AIエージェント作成」の裏で同時多発する課題を回し切ったIT部門の運用術",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/03/news007.html",
+          "source": "@IT",
+          "published": "2026-07-06T20:00:00",
+          "excerpt": "ソフトバンクは、生成AIサービスを数万人規模で全社展開しましたが、その裏側では従来のSaaS導入とは異なる課題が同時多発的に発生しました。…"
+        },
+        {
+          "title": "Vercel CEOのGuillermo Rauch氏、エージェントからモデルを分離する戦いについて語る",
+          "link": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-06T19:49:10",
+          "excerpt": "「現実には、生産を最適化するときは、価格とパフォーマンスを考慮し始めるのです」と Guillermo Rauch 氏は TechCrunch に語ります。"
+        },
         {
           "title": "AgentCore ハーネスで29分間に $5.63 の課金が発生した理由を CloudWatch メトリクスで調べてみた",
           "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-harness-cost-analysis/",
           "source": "DevelopersIO",
           "published": "2026-07-06T18:35:53",
           "excerpt": "Amazon Bedrock AgentCore のハーネスでコスト異常が発生。CloudWatch メトリクスで1分単位の課金推移を分析し、スケールアウト挙動と1セッションあたりのメモリ消費を特定しました。"
-        },
-        {
-          "title": "Anthropic の反監視姿勢を受けて秘密のクロード追跡者がユーザーに衝撃を与える",
-          "link": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-07-06T16:44:18",
-          "excerpt": "ユーザーをスパイした疑いで人類告発。エンジニアは「実験」は終了したと言っています。"
-        },
-        {
-          "title": "【AgentCore】Runtime をパブリックにデプロイしたけど、勝手にアクセスされない？",
-          "link": "https://qiita.com/ryu-ki/items/2cd37256824b54022bdb",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-06T16:08:21",
-          "excerpt": "はじめに Amazon Bedrock AgentCore Runtime を使うと、自作の AI エージェントをマネージドインフラ上にデプロイできます。触っていて、ふと気になったことがあります。…"
-        },
-        {
-          "title": "AWS ウィークリーまとめ: AWS の Claude Sonnet 5、AI エージェント向けの Amazon WorkSpaces、AWS サービス可用性の更新など (2026 年 7 月 6 日)",
-          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/",
-          "source": "AWS News Blog（英語）",
-          "published": "2026-07-06T15:46:43",
-          "excerpt": "数回前に、私はスタートアップと協力することでとてもエネルギーを感じることについて書きました。先週、私はそのことを新たに知りました。私は AWS スタートアップ チームと数日間過ごし、実際に解決している問題について語る創業者の話を聞きました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。記事のテーマ AWSのアカウントが無いのでローカルで動かしてみた。Lambda関数に渡される引数のイメージが分かりやすく、意外と収穫があったので共有する。使用したサンプルスクリプト（index.mjs）は以下。…",
+      "summary": "クラウドの新着が17件。はじめに Fusicのレオナです。今回は、Amazon SageMaker AIのサーバレスなMLflow Appと、従来のManaged MLflow Tracking Serverを比較します。…",
       "articles": [
+        {
+          "title": "Amazon SageMaker AIのServerless MLflow試してみた",
+          "link": "https://zenn.dev/fusic/articles/1182ab8cebed9b",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-06T18:18:39",
+          "excerpt": "はじめに Fusicのレオナです。今回は、Amazon SageMaker AIのサーバレスなMLflow Appと、従来のManaged MLflow Tracking Serverを比較します。…"
+        },
         {
           "title": "Hello Worldを出力するLambda関数のサンプルjavascriptをローカルで動かしてみた【Node.js】",
           "link": "https://qiita.com/torororo1008/items/24f58dbfd3f3d23858da",
@@ -64,20 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-06T14:17:07",
           "excerpt": "はじめに 2026 年 7 月 1 日、AWS は Amazon ECS Express Mode に対して、カスタムタスク定義のサポートを発表しました。…"
-        },
-        {
-          "title": "AWS初心者がLambdaでWebアプリを作りながら学んだこと🤔",
-          "link": "https://zenn.dev/coffee_neko/articles/9ff7e7923744ab",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-06T12:04:44",
-          "excerpt": "はじめに Azureは少し触れたことがある程度で、AWS（Amazon Web Services）に関する知識はほとんどありませんでした。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。記事の URL: https://github.com/V4bel/Januscape コメント URL: https://news.ycombinator.com/item?id=48807908 ポイント: 19 コメント数: 4",
+      "summary": "セキュリティの新着が10件。記事の URL: https://github.com/V4bel/Januscape コメント URL: https://news.ycombinator.com/item?id=48807908 ポイント: 19 コメント数: 4",
       "articles": [
         {
           "title": "Januscape: KVM/x86 でのゲストからホストへのエスケープ [CVE-2026-53359]",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "宇宙で飛行した最古のアメリカーナは何ですか?",
+      "link": "https://arstechnica.com/space/2026/07/whats-the-oldest-americana-flown-in-space/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-06T19:57:56",
+      "excerpt": "独立戦争旗から自由の女神まで…"
+    },
+    {
+      "title": "100万トークンあたりの価格は無意味",
+      "link": "https://janilowski.pl/en/blog/2026/price-per-m-tokens/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-06T19:43:36",
+      "excerpt": "記事の URL: https://janilowski.pl/en/blog/2026/price-per-m-tokens/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "メタルにコンパイルされた Python 3.14 – インタプリタなし",
+      "link": "https://github.com/can1357/pon",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-06T19:40:22",
+      "excerpt": "記事の URL: https://github.com/can1357/pon コメント URL: https://news.ycombinator.com/item?id=48809496 ポイント: 45 コメント数: 21"
+    },
+    {
       "title": "最新のiOS 27ベータ版でSiriのペースと表現力をカスタマイズできるようになりました",
       "link": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
       "source": "TechCrunch（英語）",
       "published": "2026-07-06T19:01:59",
       "excerpt": "新しいコントロールを使用すると、Siri の話す速さや声の表現力を制御できます。"
-    },
-    {
-      "title": "2026 年に行われるすべての主要なテクノロジー部門の人員削減で AI の名前が確認される",
-      "link": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-06T18:35:00",
-      "excerpt": "今年、AI を明言した大規模な人員削減を発表した大手テクノロジー企業を時系列の逆順で概観します。"
-    },
-    {
-      "title": "ソロ開発の長所と短所",
-      "link": "https://johnjeffers.com/pros-and-cons-of-solo-development/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-06T18:24:34",
-      "excerpt": "記事の URL: https://johnjeffers.com/pros-and-cons-of-solo-development/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "OpenWrt One – オープンハードウェアルーター",
-      "link": "https://openwrt.org/toh/openwrt/one",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-06T18:23:12",
-      "excerpt": "記事の URL: https://openwrt.org/toh/openwrt/one コメント URL: https://news.ycombinator.com/item?id=48808482 ポイント: 90 コメント数: 38"
     }
   ]
 }
