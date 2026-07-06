@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-07-05T23:55:28",
+  "generated_at": "2026-07-06T02:01:18",
   "window_hours": 24,
-  "total": 159,
+  "total": 173,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。Google CloudがPrivate Bucket Access 機能を一般提供開始。…",
+      "summary": "生成AIの新着が31件。Teleport社は最近、AIを中心に据えた新たなセキュリティモデルTeleport Agentic Identity Frameworkを公開した。…",
       "articles": [
+        {
+          "title": "Teleport社、企業インフラ全体でAIエージェントを保護するAgentic Identity Frameworkを発表",
+          "link": "https://www.infoq.com/jp/news/2026/07/teleport-secure-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ（日本語）",
+          "published": "2026-07-06T01:30:00",
+          "excerpt": "Teleport社は最近、AIを中心に据えた新たなセキュリティモデルTeleport Agentic Identity Frameworkを公開した。…"
+        },
+        {
+          "title": "GPT-5.6 Sol Ultra がコーデックスに掲載されます",
+          "link": "https://twitter.com/thsottiaux/status/2073933490513752151",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-06T01:04:03",
+          "excerpt": "記事の URL: https://twitter.com/thsottiaux/status/2073933490513752151 コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "GitHub Copilot、Gemini 2.5 Proと3 Flashのサポートを7月31日に終了へ",
+          "link": "https://codezine.jp/article/detail/28857",
+          "source": "CodeZine",
+          "published": "2026-07-06T00:00:00",
+          "excerpt": "GitHub Copilot、Gemini 2.5 Proと3 Flashのサポートを7月31日に終了へ"
+        },
         {
           "title": "【アップデート】Cloud CDN と外部 Application Load Balancer でプライベートな Cloud Storage バケットにアクセスできるようになりました",
           "link": "https://dev.classmethod.jp/articles/access-private-gcs-with-cloud-cdn-and-external-alb/",
           "source": "DevelopersIO",
           "published": "2026-07-05T23:44:39",
           "excerpt": "Google CloudがPrivate Bucket Access 機能を一般提供開始。…"
-        },
-        {
-          "title": "【DevOps Agent】VPC 内のセルフホスト GitLab に Private Connections で繋いでみた〜ついでにリリース前コードレビュー機能も試す〜",
-          "link": "https://qiita.com/ryu-ki/items/e2c94f68b4bd17c1514d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-05T23:43:11",
-          "excerpt": "はじめに 2026年3月に GA（一般提供開始）された AWS DevOps Agent を最近よく触っています。…"
-        },
-        {
-          "title": "非エンジニアの私がClaudeの機能 「個人設定」 を知った話",
-          "link": "https://dev.classmethod.jp/articles/20260706_claude_pre_setting/",
-          "source": "DevelopersIO",
-          "published": "2026-07-05T23:01:26",
-          "excerpt": "Claudeの個人設定機能を使うと、毎回同じ条件を指示する手間が省けて、プロンプト入力が格段に効率化されます。非エンジニアの私も試してみたら、内容の精度が高まり、チャットの時間が15～30分短縮されました。その設定方法と効果を紹介します。"
-        },
-        {
-          "title": "【応用情報】R7秋 午後（問１１：システム監査）その５：設問５ | Agent Grow Tech Notesのフィード",
-          "link": "https://zenn.dev/agent_grow/articles/58b0287007ce39",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-05T23:00:08",
-          "excerpt": "はじめに令和７年度秋期 応用情報技術者試験（午後：問１１ システム監査） について解説します。今回は続編です。前回までの記事をまだ読んでいない場合は、下記のリンクへどうぞ。その１：全体像の把握その２：設問１～２その３：設問３その４：設問４!…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が24件。はじめに 2026年3月に GA（一般提供開始）された AWS DevOps Agent を最近よく触っています。…",
+      "summary": "クラウドの新着が28件。はじめに AWSをTerraformで触るハンズオンをやっていて、S3のところで「バケットにHTMLファイルを置いたら、そのままインターネットに公開できるの？」という素朴な疑問が湧きました。…",
       "articles": [
         {
-          "title": "【DevOps Agent】VPC 内のセルフホスト GitLab に Private Connections で繋いでみた〜ついでにリリース前コードレビュー機能も試す〜",
-          "link": "https://qiita.com/ryu-ki/items/e2c94f68b4bd17c1514d",
+          "title": "【AWS】速くなるCDN、で結局いつ使うの？をS3とCloudFrontで整理してみた",
+          "link": "https://qiita.com/ktdatascience/items/5e723db2d82a2ba3ce09",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-05T23:43:11",
-          "excerpt": "はじめに 2026年3月に GA（一般提供開始）された AWS DevOps Agent を最近よく触っています。…"
+          "published": "2026-07-06T01:41:52",
+          "excerpt": "はじめに AWSをTerraformで触るハンズオンをやっていて、S3のところで「バケットにHTMLファイルを置いたら、そのままインターネットに公開できるの？」という素朴な疑問が湧きました。…"
         },
         {
-          "title": "閉域モード版源内のデプロイ手順とオンプレミスと接続する時の注意点",
-          "link": "https://qiita.com/takeda_h/items/058536359a54ab3c6bab",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-05T21:35:36",
-          "excerpt": "ガバメント AI 源内（genai-web）を閉域ネットワークでも動作するように、源内のフロントエンドを CloudFront から ALB + ECS Fargate に変更し、Lambda を VPC 内へ配置するようにした上で AWS…"
+          "title": "Teleport社、企業インフラ全体でAIエージェントを保護するAgentic Identity Frameworkを発表",
+          "link": "https://www.infoq.com/jp/news/2026/07/teleport-secure-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ（日本語）",
+          "published": "2026-07-06T01:30:00",
+          "excerpt": "Teleport社は最近、AIを中心に据えた新たなセキュリティモデルTeleport Agentic Identity Frameworkを公開した。…"
         },
         {
-          "title": "Amazon Bedrock Knowledge Bases × OpenSearch Serverless  で貯めたドキュメントについてAI に質問できる環境をつくってみた",
-          "link": "https://dev.classmethod.jp/articles/shoma-amazon-bedrock-knowledge-bases-opensearch-serverless-build-environment-ask-ai-about-stored-documents/",
-          "source": "DevelopersIO",
-          "published": "2026-07-05T15:29:50",
-          "excerpt": "Amazon Bedrock Knowledge Bases を使ったシンプルな RAG 環境を実際に構築してみました。…"
+          "title": "【AWS】ECS(Fargate)からAWS Lambda + API Gatewayへ移行してコストを削減した話",
+          "link": "https://qiita.com/TAKUYA34/items/fbfb33063970161d2f53",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-06T01:29:25",
+          "excerpt": "はじめに 家計簿アプリのバックエンド資材を、 ECS(Fargate)からAWS Lambda + API Gatewayへ移行しました。結果として、 ALB ECS Public IPv4 などの常時課金を削減できました。…"
         },
         {
-          "title": "S3バケット消したきゃ中身も消しな",
-          "link": "https://qiita.com/LierFort/items/2121cda3c002ef5d93f7",
+          "title": "【AWS】S3でバージョニングを有効化してみた、その後に効いてくる削除マーカーとライフサイクルの話",
+          "link": "https://qiita.com/ktdatascience/items/6e26ff30fa14fbae465f",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-05T15:28:17",
-          "excerpt": "S3バケット削除 AWSコンソールを操作し始めて 間もないころ S3バケットを試しに 作成したことがありました。適当なファイルをアップロードして 操作を確かめたりした後で もういらないからバケット消しとこう！…"
+          "published": "2026-07-06T01:26:49",
+          "excerpt": "はじめに AWSのハンズオンでS3バケットにバージョニングを有効化してみたら、「有効化」自体は一瞬なのに、そのあとに知っておくべきことが想像より多いと気づきました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。サイバー攻撃の裏には、必ず人間がいる――国家間の紛争に巻き込まれるような環境でCISOとして戦ってきた1人のセキュリティエンジニアが見つけた「究極の防御」は、「人間のしなやかさ」だった。",
+      "summary": "セキュリティの新着が5件。Linuxカーネルの新たな権限昇格脆弱性「DirtyClone」に対する修正が公開",
       "articles": [
+        {
+          "title": "Linuxカーネルの新たな権限昇格脆弱性「DirtyClone」に対する修正が公開",
+          "link": "https://codezine.jp/article/detail/28858",
+          "source": "CodeZine",
+          "published": "2026-07-06T01:00:00",
+          "excerpt": "Linuxカーネルの新たな権限昇格脆弱性「DirtyClone」に対する修正が公開"
+        },
         {
           "title": "国連CISOを歴任した蓮見氏が語る、AI時代の“しなやかな”キャリアと日本型セキュリティ",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/06/news002.html",
@@ -99,13 +106,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-05T06:16:30",
           "excerpt": "こんにちは。今回は、AWSの暗号化・鍵管理サービスについて、それぞれの役割や違いを整理してみます。まず整理 AWSには暗号化や認証情報を管理するサービスが複数ありますが、管理する対象は大きく3種類に分けられます。AWSの暗号化・鍵管理...…"
-        },
-        {
-          "title": "サーバーレスAPIのセキュリティ－API認可の基本を押さえ、AIエージェント時代に備える（CNS315）",
-          "link": "https://dev.classmethod.jp/articles/2026-06-28-aws-summit-japan-2026-serverless-api-security-oauth-ai-agent/",
-          "source": "DevelopersIO",
-          "published": "2026-07-05T04:45:59",
-          "excerpt": "AWS Summit Japan 2026で「サーバーレスAPIのセキュリティ」セッションを聴講しました。…"
         }
       ]
     },
@@ -147,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。はじめに 2026年3月に GA（一般提供開始）された AWS DevOps Agent を最近よく触っています。…",
+      "summary": "開発ツールの新着が11件。こんにちは、SREの@babarotです。10Xでは GitHub Organization のリソースを Terraform で管理しています。…",
       "articles": [
+        {
+          "title": "TerraformでGitHubを管理する | 10X Product Blog",
+          "link": "https://product.10x.co.jp/entry/2026/07/06/101918",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-06T01:19:18",
+          "excerpt": "こんにちは、SREの@babarotです。10Xでは GitHub Organization のリソースを Terraform で管理しています。…"
+        },
+        {
+          "title": "OCI チュートリアル「監査ログを使用したテナント監視」をやってみた Vol.2 | スマートスタイル TECH BLOG",
+          "link": "https://blog.s-style.co.jp/2026/07/16391/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-06T01:00:29",
+          "excerpt": "はじめに 📄 この記事は2回に分けてお届けしています。– Vol.1：サービス・コネクタ・ハブの概要と作成手順 → Vol.1はこちら – Vol.2（本記事）：動作確認と拡張モードを使った高度なフィル […]…"
+        },
+        {
+          "title": "GitHub Copilot、Gemini 2.5 Proと3 Flashのサポートを7月31日に終了へ",
+          "link": "https://codezine.jp/article/detail/28857",
+          "source": "CodeZine",
+          "published": "2026-07-06T00:00:00",
+          "excerpt": "GitHub Copilot、Gemini 2.5 Proと3 Flashのサポートを7月31日に終了へ"
+        },
         {
           "title": "【DevOps Agent】VPC 内のセルフホスト GitLab に Private Connections で繋いでみた〜ついでにリリース前コードレビュー機能も試す〜",
           "link": "https://qiita.com/ryu-ki/items/e2c94f68b4bd17c1514d",
           "source": "Qiita AWSタグ",
           "published": "2026-07-05T23:43:11",
           "excerpt": "はじめに 2026年3月に GA（一般提供開始）された AWS DevOps Agent を最近よく触っています。…"
-        },
-        {
-          "title": "GitHub、「Issue fields」を一般提供開始",
-          "link": "https://codezine.jp/article/detail/28850",
-          "source": "CodeZine",
-          "published": "2026-07-05T23:00:00",
-          "excerpt": "GitHub、「Issue fields」を一般提供開始"
-        },
-        {
-          "title": "閉域モード版源内のデプロイ手順とオンプレミスと接続する時の注意点",
-          "link": "https://qiita.com/takeda_h/items/058536359a54ab3c6bab",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-05T21:35:36",
-          "excerpt": "ガバメント AI 源内（genai-web）を閉域ネットワークでも動作するように、源内のフロントエンドを CloudFront から ALB + ECS Fargate に変更し、Lambda を VPC 内へ配置するようにした上で AWS…"
-        },
-        {
-          "title": "Amazon SageMaker HyperPodで学習から推論までやってみた | Fusic 技術ブログのフィード",
-          "link": "https://zenn.dev/fusic/articles/522e5d7553fde7",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-05T14:28:28",
-          "excerpt": "はじめにFusicのレオナです。今回は、SageMaker HyperPodを最小構成で触ってみました。SageMaker HyperPodというと、数千GPUを使って基盤モデルを学習するための大規模な基盤、という印象が強いと思います。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "覚えることが多すぎるIT学習をAIで効率化してみた",
-      "link": "https://dev.classmethod.jp/articles/ai-study-method-for-qualification/",
-      "source": "DevelopersIO",
-      "published": "2026-07-05T23:48:00",
-      "excerpt": "# 導入文案 文系出身・IT未経験の私が、AI活用で学習の質と効率を劇的に上げた方法を紹介します。インプットとアウトプットを繰り返すこの勉強法なら、「わかったつもり」を防ぎ、自分専用のノートも効率よく作成できます。"
+      "title": "FDEとリコーの新コンサルサービス、どこが違う？　AXのパートナー選びを考察",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/06/news054.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-07-06T01:45:00",
+      "excerpt": "企業はAXに向けてどのようなベンダーをパートナーに選べばよいのか。リコーの新たなAIコンサル会社と最近よく聞く「FDE」との共通点と相違点を明らかにしつつ、考察する。"
     },
     {
-      "title": "数学における接続: 2 種類のランダム",
-      "link": "https://stillthinking.net/posts/connections-in-math-two-kinds-of-random/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-05T23:31:30",
-      "excerpt": "記事の URL: https://still Thinking.net/posts/connections-in-math-two-kinds-of-random/ コメント URL: https://news.ycombinator.…"
+      "title": "AIサーバで稼ぐシャープ　2030年度の新規事業売上高の8割強目指す　鴻海と連携",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/06/news060.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-06T01:35:00",
+      "excerpt": "シャープの河村哲治社長は7月3日、大阪市内で報道陣の取材に応じ、目標とする2030年度の新規事業の年間売上高2000億～3000億円のうち、8割強はAI向けサーバ関連を想定していると明らかにした。…"
     },
     {
-      "title": "クラウドネイティブに入社しました！　〜一人情シスから、チームで挑む課題解決 | CloudNative BLOGs",
-      "link": "https://blog.cloudnative.co.jp/articles/cloudnative-entry-hiroki/",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-05T23:09:00",
-      "excerpt": "株式会社クラウドネイティブにPMとして入社したヒロキが、営業・情シス経験から得た視点で、チームでの課題解決への想いと今後の挑戦を語り、IT業界で成長したい読者や同業者に役立つ内容です。"
-    },
-    {
-      "title": "Firecracker microVMスナップショット復元で実現する28ms起動のコード実行基盤",
-      "link": "https://qiita.com/0h-n0/items/3b21b9cf48258f03c6a5",
+      "title": "【AWS】紛らわしすぎるAPI Gatewayの「REST API vs HTTP API」を、差分だけで覚えるコツ",
+      "link": "https://qiita.com/ktdatascience/items/5d2dcdb5ebb4efcb9e68",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-05T23:03:45",
-      "excerpt": "Firecracker microVMスナップショット復元で実現する28ms起動のコード実行基盤 この記事でわかること Firecracker microVMのスナップショット作成・復元APIの使い方と、コールドブート比で最大39倍の起動高…"
+      "published": "2026-07-06T01:30:09",
+      "excerpt": "はじめに AWSのAPI Gatewayを触り始めて、最初に「ん？」となったのがこれでした。REST API と HTTP API。──いや、HTTP APIだってRESTfulに叩けるじゃん、名前で区別する意味ある？…"
+    },
+    {
+      "title": "キオクシア、新型メモリのサンプル出荷開始　岩手の工場の最先端設備活用",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/06/news059.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-06T01:22:00",
+      "excerpt": "半導体大手キオクシアホールディングスが、大容量で低消費電力の新型メモリのサンプル品の出荷を開始したと発表した。北上工場（岩手県北上市）第2製造棟の最先端設備を活用して生産する。"
     }
   ]
 }
