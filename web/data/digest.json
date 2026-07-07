@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-07-07T06:28:17",
+  "generated_at": "2026-07-07T10:06:07",
   "window_hours": 24,
-  "total": 220,
+  "total": 227,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が39件。AI エージェントとターミナルのシームレスな統合を実現する Windows ターミナル「Intelligent Terminal」に Claude Code を統合してみました。セットアップから実際の動作を紹介します。",
+      "summary": "生成AIの新着が40件。Claude Codeのstatuslineを改良しました。コストを日本円で表示し、モデル名を色分け、経過時間に時間表記を加えて、より実用的な表示に整えました。",
       "articles": [
         {
-          "title": "Windows ターミナル「Intelligent Terminal」に Claude Code を統合してみた",
-          "link": "https://dev.classmethod.jp/articles/intelligent-terminal-claude-code/",
+          "title": "Claude Codeのstatuslineでコストを日本円表示にする",
+          "link": "https://dev.classmethod.jp/articles/claude-code-statusline-jpy-cost/",
           "source": "DevelopersIO",
-          "published": "2026-07-07T06:13:35",
-          "excerpt": "AI エージェントとターミナルのシームレスな統合を実現する Windows ターミナル「Intelligent Terminal」に Claude Code を統合してみました。セットアップから実際の動作を紹介します。"
+          "published": "2026-07-07T09:33:57",
+          "excerpt": "Claude Codeのstatuslineを改良しました。コストを日本円で表示し、モデル名を色分け、経過時間に時間表記を加えて、より実用的な表示に整えました。"
         },
         {
-          "title": "IT未経験の私が、ClaudeでいつのまにかMTG資料を作れるようになっていた話",
-          "link": "https://dev.classmethod.jp/articles/sales-beginner-claude-mtg-experience/",
+          "title": "Google Workspace の Gemini アプリ・NotebookLM を開発以外のベース AI に",
+          "link": "https://dev.classmethod.jp/articles/google_workspace_gemini_notebooklm_base_ai/",
           "source": "DevelopersIO",
-          "published": "2026-07-07T05:46:43",
-          "excerpt": "IT未経験の営業が、Claudeとの試行錯誤を通じて初回MTG資料を自分で作れるようになった経験をお話しします。セットアップから実務活用、そして失敗から学んだAIとの付き合い方までをご紹介します。"
+          "published": "2026-07-07T09:25:17",
+          "excerpt": "Google Workspace に付属する Gemini アプリと NotebookLM を、開発以外の全社ベース AI として活用する方法を紹介します。エディション選びやセキュリティ面での安心材料まで、実運用に必要な情報をまとめました。"
         },
         {
-          "title": "AWS WAF、Amazon Bedrock AgentCore Gatewayのサポートを開始",
-          "link": "https://codezine.jp/article/detail/28867",
-          "source": "CodeZine",
-          "published": "2026-07-07T05:30:00",
-          "excerpt": "AWS WAF、Amazon Bedrock AgentCore Gatewayのサポートを開始"
+          "title": "ゲームで学ぶマルチエージェントの世界：Agentic Football Cup",
+          "link": "https://zenn.dev/nttdata_tech/articles/47ca78ab934ef8",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-07T08:00:08",
+          "excerpt": "1.はじめに 今年、AWS（Amazon Web Services）がAgentic Football Cupを発表しました。…"
         },
         {
-          "title": "【セッションレポート】 エージェントで検索は進化する Amazon OpenSearch Service のエージェント機能 [ANT407] #AWSSummit",
-          "link": "https://dev.classmethod.jp/articles/aws-summit-japan-2026-ant407/",
-          "source": "DevelopersIO",
-          "published": "2026-07-07T05:00:09",
-          "excerpt": "AWS Summit Japan 2026 のセッションレポートです。全文検索からベクトル検索、ハイブリッド検索へと進化してきた検索技術に、さらにエージェントが加わることで、複雑なクエリや対話的な検索が実現します。…"
+          "title": "AnthropicがClaude Platformを提供開始、AWS上で",
+          "link": "https://www.infoq.com/jp/news/2026/07/anthropic-claude-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ（日本語）",
+          "published": "2026-07-07T07:30:00",
+          "excerpt": "AnthropicはClaude Platform on AWS、AWS顧客がAWSの認証、課金、監視サービスを使用してAnthropicのネイティブClaude Platformへ直接アクセスできるようにする新しいデプロイオプションの一般…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。IaCツールの基本的な仕組みの違いを解説。TerraformとCloudFormationベースのツールとの比較を通じて、インフラ管理のポイントを探ります。",
+      "summary": "クラウドの新着が17件。はじめに Amazon Aurora MySQL のエンジンバージョンアップに Blue/Green Deployments を使う検証をしました。…",
       "articles": [
+        {
+          "title": "Amazon Aurora の Blue Green Deployment はマネージドな切り戻しができない",
+          "link": "https://zenn.dev/mixi/articles/aurora-blue-green-deployment-rollback",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-07T08:29:17",
+          "excerpt": "はじめに Amazon Aurora MySQL のエンジンバージョンアップに Blue/Green Deployments を使う検証をしました。…"
+        },
+        {
+          "title": "Amazon Aurora の Blue Green Deployment はマネージドな切り戻しができない",
+          "link": "https://zenn.dev/mixi/articles/aurora_blue_green_deployment_rollback",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-07T08:16:15",
+          "excerpt": "はじめに Amazon Aurora MySQL のエンジンバージョンアップに Blue/Green Deployments を使う検証をしました。…"
+        },
+        {
+          "title": "NFCでパッと渡せる電子名刺を S3 + CloudFront で作ってみた",
+          "link": "https://qiita.com/ssakita/items/8ba00c85ab37e9b7879d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-07T08:13:10",
+          "excerpt": "はじめに こんにちは、ssakitaです！先日、勉強会やイベントで名刺代わりに使える 電子名刺 を作りました。スマホをNFCタグにかざすと、自分のプロフィールページがパッと開くやつです。…"
+        },
         {
           "title": "【基礎から学ぶ】仕組みを知るとよく分かるIaCツールの違い(AWS SAM, CDK, Terraform, Serverless Framework) | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/2026/07/07/133253",
           "source": "企業テックブログまとめ",
           "published": "2026-07-07T04:32:53",
           "excerpt": "IaCツールの基本的な仕組みの違いを解説。TerraformとCloudFormationベースのツールとの比較を通じて、インフラ管理のポイントを探ります。"
-        },
-        {
-          "title": "【セッションレポート】 Amazon S3 の非構造化データを Amazon SageMaker Catalog で AI-ready な資産に変換する [ANT308] #AWSSummit",
-          "link": "https://dev.classmethod.jp/articles/aws-summit-japan-2026-ant308/",
-          "source": "DevelopersIO",
-          "published": "2026-07-07T01:59:41",
-          "excerpt": "AWS Summit Japan 2026 のセッションレポートです。S3 に散らばる非構造化データを AI 活用の資産へ変える、Amazon SageMaker Catalog の活用方法を紹介します。"
-        },
-        {
-          "title": "「1Password」のサブスクリプションがなんと2倍に値上げ、値上げと円安のダブルパンチ？／代替サービスへの移行か、ソースネクストのライセンスでしのぐか……【やじうまの杜】",
-          "link": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2122863.html",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-07-07T01:28:26",
-          "excerpt": "「1Password」のサブスクリプションがなんと2倍に値上げ、値上げと円安のダブルパンチ？／代替サービスへの移行か、ソースネクストのライセンスでしのぐか……【やじうまの杜】"
-        },
-        {
-          "title": "Amazon S3 サーバーアクセスログがCloudWatch Logsへの配信に対応",
-          "link": "https://codezine.jp/article/detail/28864",
-          "source": "CodeZine",
-          "published": "2026-07-07T00:00:00",
-          "excerpt": "Amazon S3 サーバーアクセスログがCloudWatch Logsへの配信に対応"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。AWS WAF、Amazon Bedrock AgentCore Gatewayのサポートを開始",
+      "summary": "セキュリティの新着が14件。はじめに こんにちは。Tsukasaです！皆さん、セキュリティについて理解されていますか？私はまだまだです。あまりよくわかっていないとは言っても、どんなシステムでもセキュリティは最重要課題になってくると思います。…",
       "articles": [
+        {
+          "title": "AWS初心者がWAF、セキュリティグループ、NACLの違いをタワマンに例えた話",
+          "link": "https://qiita.com/tks_1128/items/eecd28a164889baddb5f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-07T09:22:01",
+          "excerpt": "はじめに こんにちは。Tsukasaです！皆さん、セキュリティについて理解されていますか？私はまだまだです。あまりよくわかっていないとは言っても、どんなシステムでもセキュリティは最重要課題になってくると思います。…"
+        },
         {
           "title": "AWS WAF、Amazon Bedrock AgentCore Gatewayのサポートを開始",
           "link": "https://codezine.jp/article/detail/28867",
@@ -99,20 +106,13 @@
           "source": "CodeZine",
           "published": "2026-07-07T02:30:00",
           "excerpt": "Chrome 151ベータ版が公開、CSS・WebAPI強化やセキュリティ対応など"
-        },
-        {
-          "title": "「最初の」AI によるランサムウェア攻撃には依然として人間が必要だった",
-          "link": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-06T23:56:14",
-          "excerpt": "AI エージェントが初めて現実世界のランサムウェア攻撃の技術的実行を実行したことが知られていますが、新たな詳細は、依然として人間が被害者を選択し、インフラストラクチャを設定し、盗んだ認証情報を提供したことを示しています。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が11件。AWS Summit Japan 2026 のセッションレポートです。全文検索からベクトル検索、ハイブリッド検索へと進化してきた検索技術に、さらにエージェントが加わることで、複雑なクエリや対話的な検索が実現します。…",
+      "summary": "データ分析の新着が10件。AWS Summit Japan 2026 のセッションレポートです。全文検索からベクトル検索、ハイブリッド検索へと進化してきた検索技術に、さらにエージェントが加わることで、複雑なクエリや対話的な検索が実現します。…",
       "articles": [
         {
           "title": "【セッションレポート】 エージェントで検索は進化する Amazon OpenSearch Service のエージェント機能 [ANT407] #AWSSummit",
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。IaCツールの基本的な仕組みの違いを解説。TerraformとCloudFormationベースのツールとの比較を通じて、インフラ管理のポイントを探ります。",
+      "summary": "開発ツールの新着が15件。はじめに Amazon Aurora MySQL のエンジンバージョンアップに Blue/Green Deployments を使う検証をしました。…",
       "articles": [
+        {
+          "title": "Amazon Aurora の Blue Green Deployment はマネージドな切り戻しができない",
+          "link": "https://zenn.dev/mixi/articles/aurora-blue-green-deployment-rollback",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-07T08:29:17",
+          "excerpt": "はじめに Amazon Aurora MySQL のエンジンバージョンアップに Blue/Green Deployments を使う検証をしました。…"
+        },
+        {
+          "title": "Amazon Aurora の Blue Green Deployment はマネージドな切り戻しができない",
+          "link": "https://zenn.dev/mixi/articles/aurora_blue_green_deployment_rollback",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-07T08:16:15",
+          "excerpt": "はじめに Amazon Aurora MySQL のエンジンバージョンアップに Blue/Green Deployments を使う検証をしました。…"
+        },
         {
           "title": "【基礎から学ぶ】仕組みを知るとよく分かるIaCツールの違い(AWS SAM, CDK, Terraform, Serverless Framework) | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/2026/07/07/133253",
@@ -162,52 +176,38 @@
           "source": "CodeZine",
           "published": "2026-07-07T04:00:00",
           "excerpt": "GitHub Copilotのエージェントセッションデータが可視化できるように"
-        },
-        {
-          "title": "Microsoft製のPII検出・匿名化SDK「Presidio」でテキストの個人情報をマスクしてみる",
-          "link": "https://dev.classmethod.jp/articles/microsoft-presidio-pii-anonymization/",
-          "source": "DevelopersIO",
-          "published": "2026-07-07T02:00:04",
-          "excerpt": "MicrosoftのOSS「Presidio」を使って、テキストに含まれる個人情報（PII）を検出・匿名化する方法を紹介します。正規表現では難しい氏名や住所の検出も、NLPエンジンと組み合わせることで精度よく実現できます。"
-        },
-        {
-          "title": "GitHub Copilot、Gemini 2.5 ProおよびGemini 3 Flashの廃止を発表",
-          "link": "https://codezine.jp/article/detail/28863",
-          "source": "CodeZine",
-          "published": "2026-07-06T23:00:00",
-          "excerpt": "GitHub Copilot、Gemini 2.5 ProおよびGemini 3 Flashの廃止を発表"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "国会答弁対応業務の高度化と効率化に向けた中央省庁とのプロトタイピングプログラムの取り組み",
-      "link": "https://aws.amazon.com/jp/blogs/news/prototyping-program-with-central-government-agencies-for-diet-response-operations/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-07-07T05:42:46",
-      "excerpt": "国会答弁の想定問答作成業務は、正確性や首尾一貫性などが厳しく求められる重要度の高い業務です。それゆえに職員の負担も大きく、公務員の働き方改革や生成 AI 技術の急速な発展も相まって、AI を活用した高度化・効率化への期待が高まっていました。…"
-    },
-    {
-      "title": "AIは1on1を代替できるのか？人事の私が感じたAIにできること、人にしかできないこと",
-      "link": "https://dev.classmethod.jp/articles/ai-1on1-design/",
+      "title": "DevelopersIOのオフラインイベントを、私たちはなぜやるのか？",
+      "link": "https://dev.classmethod.jp/articles/load-to-developersio2026/",
       "source": "DevelopersIO",
-      "published": "2026-07-07T05:29:45",
-      "excerpt": "AIに1on1を任せるのではなく、人にしかできない対話の質を高めるためのパートナーとして活かす方法を、 15年の人事経験とキャリアコンサルタント/国際コーチの視点から紹介します。"
+      "published": "2026-07-07T09:43:49",
+      "excerpt": "クラスメソッドの創立記念日にあたり、毎年全国で開催しているDevelopersIOのオフラインイベントに込められた想いと、その準備の舞台裏についてお話しします。"
     },
     {
-      "title": "【ブースレポート】AWS Builders' Fair で AI × VR によるパデルフォーム可視化を体験してきた #AWSSummit",
-      "link": "https://dev.classmethod.jp/articles/aws-summit-2026-padel-strike/",
-      "source": "DevelopersIO",
-      "published": "2026-07-07T05:28:20",
-      "excerpt": "AI からは「コート支配者級」の称号を賜りました。"
+      "title": "国会議員ら英国政府に「テクノロジー主権を整理するか、さもなくば取り残される」",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/07/mps-tell-brit-government-sort-out-your-tech-sovereignty-or-get-left-out-in-the-cold/5267076",
+      "source": "The Register（英語）",
+      "published": "2026-07-07T09:43:00",
+      "excerpt": "委員会は、アンスロピック社の米国への短期間の輸出禁止は、英国がAIのライトを点灯し続ける同盟国さえ信頼できないことを示していると述べた"
     },
     {
-      "title": "スターバックス、12～24歳限定の新サービス開始　公式アプリ経由で毎月100円オフの「U24パス」配布",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/07/news124.html",
+      "title": "16:9ではないディスプレイの世界――多種多様「LEDビジョン」に映す映像をどうネットで伝えるか",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/07/news154.html",
       "source": "ITmedia NEWS",
-      "published": "2026-07-07T05:27:00",
-      "excerpt": "スターバックス コーヒー ジャパンは7月7日、12～24歳向けの新サービス「マイスターバックスストアU24」を開始した。お気に入り店舗を登録すると、毎月100円オフの「U24パス」が届く。同社によるU24世代向けサービスは初。"
+      "published": "2026-07-07T09:30:00",
+      "excerpt": "ネットワークの祭典「Interop Tokyo 2026」に、放送機材メーカーがずらりと出展した。例年とは異なるこの光景の裏には、会場を埋め尽くすLEDビジョンの存在がある。…"
+    },
+    {
+      "title": "北アイルランドはキャピタを学校のIT契約から（再び）追放しようとしている",
+      "link": "https://www.theregister.com/public-sector/2026/07/07/northern-ireland-tries-again-to-expel-capita-from-schools-it-contract/5266887",
+      "source": "The Register（英語）",
+      "published": "2026-07-07T09:15:00",
+      "excerpt": "以前の富士通賞が廃止された後、新たな調達は8億5,100万ポンド相当になる可能性がある"
     }
   ]
 }
