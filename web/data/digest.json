@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-07T21:13:47",
+  "generated_at": "2026-07-07T22:34:46",
   "window_hours": 24,
-  "total": 233,
+  "total": 229,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が31件。オープンソース モデルの成功は、フロンティア ラボを犠牲にして実現するものではありません。むしろ、それぞれが同じライフサイクルの 2 つの段階を捉えているように見えます。",
+      "summary": "生成AIの新着が31件。GA されたばかりの Amazon Bedrock Managed Knowledge Base に日本語の画像ベース PDF を取り込み、自動パース機能「Managed parser」の精度を検証してみました。",
       "articles": [
+        {
+          "title": "Amazon Bedrock Managed Knowledge Base に画像ベースの日本語 PDF を取り込んでパース精度を検証してみた",
+          "link": "https://dev.classmethod.jp/articles/managed-knowledgebase/",
+          "source": "DevelopersIO",
+          "published": "2026-07-07T22:00:11",
+          "excerpt": "GA されたばかりの Amazon Bedrock Managed Knowledge Base に日本語の画像ベース PDF を取り込み、自動パース機能「Managed parser」の精度を検証してみました。"
+        },
         {
           "title": "オープンソース AI の台頭が Anthropic に悪影響を与えていない理由…まだ",
           "link": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
@@ -29,21 +36,28 @@
           "source": "The Register（英語）",
           "published": "2026-07-07T19:49:01",
           "excerpt": "いつものように、GitLost には修正もドキュメントもありません。"
-        },
-        {
-          "title": "29年間眠っていた「HTTP 402」の復活：CloudflareとAWSが推し進めるAIエージェント向けエッジ微小決済（x402）の全貌",
-          "link": "https://qiita.com/nozomi2025/items/463593ee2699fb2f51e8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-07T13:31:41",
-          "excerpt": "はじめに 2026年現在、Webのトラフィック構造は激変しています。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。ほとんどがバイブコーディングされた Apple Containers フロントエンドで、私自身も使用したいと考えています。ただし、他の人が使用したい場合は、ソース コードをここに示します。コメント URL: https://news.…",
+      "summary": "クラウドの新着が24件。EC2入門 — インスタンス起動からSSH接続まで（Javaエンジニア向け） はじめに AWS入門シリーズ2回目。今回は EC2（Elastic Compute Cloud）。…",
       "articles": [
+        {
+          "title": "EC2入門 — インスタンス起動からSSH接続まで（Javaエンジニア向け）",
+          "link": "https://qiita.com/hitobussi/items/9c3cd3e780f90adb26ca",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-07T22:32:58",
+          "excerpt": "EC2入門 — インスタンス起動からSSH接続まで（Javaエンジニア向け） はじめに AWS入門シリーズ2回目。今回は EC2（Elastic Compute Cloud）。…"
+        },
+        {
+          "title": "AIインフラのスピードと予算の壁をどう超える？　日本のSIer依存を見据えた、デルの戦略を聞いた",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/08/news020.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-07-07T22:00:00",
+          "excerpt": "AIの進化に伴い、ITインフラのスピードと予算の課題は深刻化している。さらに日本特有のSIer依存が状況の分析や投資判断を遅らせている。デル・テクノロジーズはどう応えるのか。"
+        },
         {
           "title": "HN を表示: Davit、Apple Containers UI",
           "link": "https://davit.app",
@@ -57,28 +71,21 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-07T18:00:00",
           "excerpt": "Amazon Elastic Container Service (Amazon ECS) マネージド インスタンスでは、GPU および高速化されたインスタンス タイプの管理料金が大幅に削減されるようになりました。…"
-        },
-        {
-          "title": "Amazon EMR サーバーレスは、より多くのコンピューティングとメモリを集中的に使用するワークロードを実行するために、より大きなワーカー サイズをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-serverless/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-07T17:06:00",
-          "excerpt": "Amazon EMR Serverless では、最大 244 GB のメモリを備えた 32 vCPU の大規模なワーカー構成が提供されるようになり、より多くのコンピューティングとメモリを大量に使用するワークロードを実行できるようになりまし…"
-        },
-        {
-          "title": "Amazon EC2 C8ine インスタンスが AWS ヨーロッパ (フランクフルト) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c8ine-aws-frankfurt/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-07T17:00:00",
-          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) C8ine インスタンスが AWS ヨーロッパ (フランクフルト) リージョンで利用可能になります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。記事の URL: https://blog.zksecurity.xyz/posts/circl-bugs/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が14件。メールセキュリティ製品を導入しているからといって、安心とは限らない。QRコードを悪用したフィッシング攻撃は、従来のメールゲートウェイが前提としてきた検査方法をすり抜ける可能性があるという。どう対策をすればいいか。",
       "articles": [
+        {
+          "title": "QRコード攻撃はなぜメールセキュリティを無力化できるのか？　その理由を解説",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/08/news048.html",
+          "source": "@IT",
+          "published": "2026-07-07T22:00:00",
+          "excerpt": "メールセキュリティ製品を導入しているからといって、安心とは限らない。QRコードを悪用したフィッシング攻撃は、従来のメールゲートウェイが前提としてきた検査方法をすり抜ける可能性があるという。どう対策をすればいいか。"
+        },
         {
           "title": "AI と暗号の出会い 1: AI が Cloudflare の Circl で見つけたもの",
           "link": "https://blog.zksecurity.xyz/posts/circl-bugs/",
@@ -99,20 +106,13 @@
           "source": "はてなブックマーク（テクノロジー）",
           "published": "2026-07-07T16:01:39",
           "excerpt": "防衛省・陸上自衛隊は、中部方面総監部(兵庫県伊丹市)が使用していたUSBメモリについて、2025年2月にマルウェアが含まれていることを検知した事例があったと公表しました。…"
-        },
-        {
-          "title": "Snyk DASTによるWebアプリ脆弱性診断をやってみた",
-          "link": "https://dev.classmethod.jp/articles/dast-snyk-security-web/",
-          "source": "DevelopersIO",
-          "published": "2026-07-07T14:47:18",
-          "excerpt": "リリース前に「脆弱性診断やった？」とヒヤッとした経験はありませんか。この記事では、Snyk DASTを使ってWebアプリの脆弱性診断をチーム内に取り込み、自動化する手順を紹介します。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が12件。Amazon EMR Serverless では、最大 244 GB のメモリを備えた 32 vCPU の大規模なワーカー構成が提供されるようになり、より多くのコンピューティングとメモリを大量に使用するワークロードを実行できるようになりまし…",
+      "summary": "データ分析の新着が13件。Amazon EMR Serverless では、最大 244 GB のメモリを備えた 32 vCPU の大規模なワーカー構成が提供されるようになり、より多くのコンピューティングとメモリを大量に使用するワークロードを実行できるようになりまし…",
       "articles": [
         {
           "title": "Amazon EMR サーバーレスは、より多くのコンピューティングとメモリを集中的に使用するワークロードを実行するために、より大きなワーカー サイズをサポートするようになりました",
@@ -120,6 +120,13 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-07T17:06:00",
           "excerpt": "Amazon EMR Serverless では、最大 244 GB のメモリを備えた 32 vCPU の大規模なワーカー構成が提供されるようになり、より多くのコンピューティングとメモリを大量に使用するワークロードを実行できるようになりまし…"
+        },
+        {
+          "title": "Amazon Redshift RG インスタンスが AWS GovCloud (米国) リージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-instances-aws-govcloud",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-07T16:00:00",
+          "excerpt": "AWS Graviton プロセッサを搭載した Amazon Redshift RG インスタンスが、AWS GovCloud (米国西部) および AWS GovCloud (米国東部) リージョンで利用できるようになりました。…"
         },
         {
           "title": "kiro-cli + playwright-cli で QuickSight ダッシュボードのUI検証を自動化してみた",
@@ -134,20 +141,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-07T05:00:09",
           "excerpt": "AWS Summit Japan 2026 のセッションレポートです。全文検索からベクトル検索、ハイブリッド検索へと進化してきた検索技術に、さらにエージェントが加わることで、複雑なクエリや対話的な検索が実現します。…"
-        },
-        {
-          "title": "#4 DynamoDBをCloudWatchで監視する方法【AWSコンソールで簡単設定】",
-          "link": "https://qiita.com/Sho5_Matsu/items/d484602a8235f135fd7c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-07T01:21:57",
-          "excerpt": "DynamoDBをCloudWatchで監視する方法【AWSコンソールで簡単設定】 はじめに DynamoDBを使うなら最初に設定しておきたい5つのポイント 上記記事で紹介した「その4」として、CloudWatchによる監視について紹介しま…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が21件。いつものように、GitLost には修正もドキュメントもありません。",
+      "summary": "開発ツールの新着が18件。いつものように、GitLost には修正もドキュメントもありません。",
       "articles": [
         {
           "title": "GitHub AI エージェントがうまく質問するとプライベート リポジトリを漏洩する",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "EUで販売されるすべての車には顔に向けたカメラが義務付けられるようになりました",
-      "link": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-07T20:50:46",
-      "excerpt": "記事の URL: https://allaboutcookies.org/eu-mandatory-distracted-driver-system コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Amazon Quick と Slack を連携させて、コストレポートを試してみる",
-      "link": "https://qiita.com/s_moriyama/items/f0137fffffa22b977229",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-07T20:44:10",
-      "excerpt": "はじめに Amazon Quick 触ってみた記事２つ目です！今回はチャット機能を確認してみようと思います。…"
-    },
-    {
-      "title": "AI の萎縮を回避 - 新しいツールは雰囲気コーディング スキルの低下を逆転させることを約束",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/07/avoid-ai-atrophy-new-tool-promises-to-reverse-vibe-coding-skills-decay/5267913",
-      "source": "The Register（英語）",
-      "published": "2026-07-07T20:21:35",
-      "excerpt": "大きな筋肉が欲しいですか？トレーニングを続けてください。優れたコーディング スキルセットが必要ですか?開発スキルが衰える前に、Atrophy CLI アプリを使用して開発スキルを柔軟にしましょう"
-    },
-    {
-      "title": "Microsoft、独自モデルへの依存を強めることで AI コスト削減トレンドに加わる",
-      "link": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
+      "title": "最終延長: スタートアップ バトルフィールド オーストラリアの応募は 7 月 20 日に終了",
+      "link": "https://techcrunch.com/2026/07/07/final-extension-startup-battlefield-australia-applications-now-close-july-20/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-07T19:58:20",
-      "excerpt": "マイクロソフトは、AI 支出を削減した最新のシリコンバレーの巨人です。"
+      "published": "2026-07-07T22:30:00",
+      "excerpt": "あなたが何か野心的なものを構築している場合、これはあなたのスタートアップを前進させることができる人材への近道です。"
+    },
+    {
+      "title": "Meta が新しい AI 画像ジェネレーターである Muse を発表",
+      "link": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-07T22:18:10",
+      "excerpt": "新しい画像生成モデルには、広告、装飾、クリエイターベースの機会など、数多くのユースケースがあります。"
+    },
+    {
+      "title": "AWS、「Kiro IDE 1.0」を正式リリース",
+      "link": "https://codezine.jp/article/detail/28870",
+      "source": "CodeZine",
+      "published": "2026-07-07T22:00:00",
+      "excerpt": "AWS、「Kiro IDE 1.0」を正式リリース"
+    },
+    {
+      "title": "オブジェクト指向プログラミングの学習環境「BlueJ」にKotlinが追加に",
+      "link": "https://codezine.jp/article/detail/28869",
+      "source": "CodeZine",
+      "published": "2026-07-07T22:00:00",
+      "excerpt": "オブジェクト指向プログラミングの学習環境「BlueJ」にKotlinが追加に"
     }
   ]
 }
