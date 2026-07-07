@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-07T10:06:07",
+  "generated_at": "2026-07-07T12:40:39",
   "window_hours": 24,
-  "total": 227,
+  "total": 232,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が40件。Claude Codeのstatuslineを改良しました。コストを日本円で表示し、モデル名を色分け、経過時間に時間表記を加えて、より実用的な表示に整えました。",
+      "summary": "生成AIの新着が40件。目次 #1.はじめに #2.環境 #3.発生した事象 #4.CloudTrailで調査してみる #5.公式ドキュメントと照らし合わせる #6.あとがき 1.はじめに Amazon Bedrockで提供されている Claude 3.…",
       "articles": [
+        {
+          "title": "Amazon BedrockでClaude 3.5 Sonnetが突然利用できなくなったのでCloudTrailから原因を調査してみた",
+          "link": "https://qiita.com/ss_IT_study/items/e9a13fb9d6695b4c76ae",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-07T12:18:39",
+          "excerpt": "目次 #1.はじめに #2.環境 #3.発生した事象 #4.CloudTrailで調査してみる #5.公式ドキュメントと照らし合わせる #6.あとがき 1.はじめに Amazon Bedrockで提供されている Claude 3.…"
+        },
         {
           "title": "Claude Codeのstatuslineでコストを日本円表示にする",
           "link": "https://dev.classmethod.jp/articles/claude-code-statusline-jpy-cost/",
@@ -29,21 +36,28 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-07T08:00:08",
           "excerpt": "1.はじめに 今年、AWS（Amazon Web Services）がAgentic Football Cupを発表しました。…"
-        },
-        {
-          "title": "AnthropicがClaude Platformを提供開始、AWS上で",
-          "link": "https://www.infoq.com/jp/news/2026/07/anthropic-claude-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-07-07T07:30:00",
-          "excerpt": "AnthropicはClaude Platform on AWS、AWS顧客がAWSの認証、課金、監視サービスを使用してAnthropicのネイティブClaude Platformへ直接アクセスできるようにする新しいデプロイオプションの一般…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。はじめに Amazon Aurora MySQL のエンジンバージョンアップに Blue/Green Deployments を使う検証をしました。…",
+      "summary": "クラウドの新着が19件。はじめに 2026 年 7 月 1 日、AWS は Amazon ECS の「デプロイメントサーキットブレーカー」に対して、設定をカスタマイズ可能にするアップデートを発表しました。…",
       "articles": [
+        {
+          "title": "Amazon ECS がデプロイメントサーキットブレーカーの設定カスタマイズに対応",
+          "link": "https://qiita.com/Haruki-N/items/e1cefeeb46641051f38a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-07T12:02:02",
+          "excerpt": "はじめに 2026 年 7 月 1 日、AWS は Amazon ECS の「デプロイメントサーキットブレーカー」に対して、設定をカスタマイズ可能にするアップデートを発表しました。…"
+        },
+        {
+          "title": "既存のCloudWatch監視を止めずにOTelメトリクスへ移行してみた",
+          "link": "https://dev.classmethod.jp/articles/migrate-cloudwatch-to-otel-metrics-without-downtime/",
+          "source": "DevelopersIO",
+          "published": "2026-07-07T11:46:24",
+          "excerpt": "CloudWatch の Classic メトリクスから OpenTelemetry メトリクスへ、既存監視を止めずに移行する dual-write を小規模環境で実機検証しました。…"
+        },
         {
           "title": "Amazon Aurora の Blue Green Deployment はマネージドな切り戻しができない",
           "link": "https://zenn.dev/mixi/articles/aurora-blue-green-deployment-rollback",
@@ -57,27 +71,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-07T08:16:15",
           "excerpt": "はじめに Amazon Aurora MySQL のエンジンバージョンアップに Blue/Green Deployments を使う検証をしました。…"
-        },
-        {
-          "title": "NFCでパッと渡せる電子名刺を S3 + CloudFront で作ってみた",
-          "link": "https://qiita.com/ssakita/items/8ba00c85ab37e9b7879d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-07T08:13:10",
-          "excerpt": "はじめに こんにちは、ssakitaです！先日、勉強会やイベントで名刺代わりに使える 電子名刺 を作りました。スマホをNFCタグにかざすと、自分のプロフィールページがパッと開くやつです。…"
-        },
-        {
-          "title": "【基礎から学ぶ】仕組みを知るとよく分かるIaCツールの違い(AWS SAM, CDK, Terraform, Serverless Framework) | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/07/07/133253",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-07T04:32:53",
-          "excerpt": "IaCツールの基本的な仕組みの違いを解説。TerraformとCloudFormationベースのツールとの比較を通じて、インフラ管理のポイントを探ります。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。はじめに こんにちは。Tsukasaです！皆さん、セキュリティについて理解されていますか？私はまだまだです。あまりよくわかっていないとは言っても、どんなシステムでもセキュリティは最重要課題になってくると思います。…",
+      "summary": "セキュリティの新着が12件。はじめに こんにちは。Tsukasaです！皆さん、セキュリティについて理解されていますか？私はまだまだです。あまりよくわかっていないとは言っても、どんなシステムでもセキュリティは最重要課題になってくると思います。…",
       "articles": [
         {
           "title": "AWS初心者がWAF、セキュリティグループ、NACLの違いをタワマンに例えた話",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が10件。AWS Summit Japan 2026 のセッションレポートです。全文検索からベクトル検索、ハイブリッド検索へと進化してきた検索技術に、さらにエージェントが加わることで、複雑なクエリや対話的な検索が実現します。…",
+      "summary": "データ分析の新着が11件。背景・目的 前編では、kiro-cli に playwright-cli を導入し、QuickSight ダッシュボードにアクセスして「数値が表示されているか」の確認とキャプチャ取得までを行いました。…",
       "articles": [
+        {
+          "title": "kiro-cli + playwright-cli で QuickSight ダッシュボードのUI検証を自動化してみた",
+          "link": "https://qiita.com/zumax/items/eabbf38c552ddf52b1c5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-07T10:41:05",
+          "excerpt": "背景・目的 前編では、kiro-cli に playwright-cli を導入し、QuickSight ダッシュボードにアクセスして「数値が表示されているか」の確認とキャプチャ取得までを行いました。…"
+        },
         {
           "title": "【セッションレポート】 エージェントで検索は進化する Amazon OpenSearch Service のエージェント機能 [ANT407] #AWSSummit",
           "link": "https://dev.classmethod.jp/articles/aws-summit-japan-2026-ant407/",
@@ -134,21 +141,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-07T01:21:31",
           "excerpt": "はじめに DynamoDBを使うなら最初に設定しておきたい5つのポイント 上記記事で紹介した「その3」として、TTL（Time To Live） の設定方法を紹介します。…"
-        },
-        {
-          "title": "BigQuery の自律型埋め込み生成（Autonomous Embedding Generation）を試してみた",
-          "link": "https://dev.classmethod.jp/articles/bigquery-autonomous-embedding-generation/",
-          "source": "DevelopersIO",
-          "published": "2026-07-07T01:00:09",
-          "excerpt": "BigQueryの自律型埋め込み生成がGAになりました。テーブル定義時に埋め込み列を宣言するだけで、データの追加・更新に合わせて BigQuery が自動でベクトル化してくれる機能を、日本語のサンプルデータで実際に試してみました。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。はじめに Amazon Aurora MySQL のエンジンバージョンアップに Blue/Green Deployments を使う検証をしました。…",
+      "summary": "開発ツールの新着が15件。はじめに 2026 年 7 月 1 日、AWS は Amazon ECS の「デプロイメントサーキットブレーカー」に対して、設定をカスタマイズ可能にするアップデートを発表しました。…",
       "articles": [
+        {
+          "title": "Amazon ECS がデプロイメントサーキットブレーカーの設定カスタマイズに対応",
+          "link": "https://qiita.com/Haruki-N/items/e1cefeeb46641051f38a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-07T12:02:02",
+          "excerpt": "はじめに 2026 年 7 月 1 日、AWS は Amazon ECS の「デプロイメントサーキットブレーカー」に対して、設定をカスタマイズ可能にするアップデートを発表しました。…"
+        },
+        {
+          "title": "kiro-cli + playwright-cli で QuickSight ダッシュボードのUI検証を自動化してみた",
+          "link": "https://qiita.com/zumax/items/eabbf38c552ddf52b1c5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-07T10:41:05",
+          "excerpt": "背景・目的 前編では、kiro-cli に playwright-cli を導入し、QuickSight ダッシュボードにアクセスして「数値が表示されているか」の確認とキャプチャ取得までを行いました。…"
+        },
         {
           "title": "Amazon Aurora の Blue Green Deployment はマネージドな切り戻しができない",
           "link": "https://zenn.dev/mixi/articles/aurora-blue-green-deployment-rollback",
@@ -162,52 +176,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-07T08:16:15",
           "excerpt": "はじめに Amazon Aurora MySQL のエンジンバージョンアップに Blue/Green Deployments を使う検証をしました。…"
-        },
-        {
-          "title": "【基礎から学ぶ】仕組みを知るとよく分かるIaCツールの違い(AWS SAM, CDK, Terraform, Serverless Framework) | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/07/07/133253",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-07T04:32:53",
-          "excerpt": "IaCツールの基本的な仕組みの違いを解説。TerraformとCloudFormationベースのツールとの比較を通じて、インフラ管理のポイントを探ります。"
-        },
-        {
-          "title": "GitHub Copilotのエージェントセッションデータが可視化できるように",
-          "link": "https://codezine.jp/article/detail/28866",
-          "source": "CodeZine",
-          "published": "2026-07-07T04:00:00",
-          "excerpt": "GitHub Copilotのエージェントセッションデータが可視化できるように"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "DevelopersIOのオフラインイベントを、私たちはなぜやるのか？",
-      "link": "https://dev.classmethod.jp/articles/load-to-developersio2026/",
+      "title": "移民は米国生まれの子供も含めて福祉の利用が少ない",
+      "link": "https://www.cato.org/blog/immigrants-use-less-welfare-even-counting-their-us-born-children",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-07T12:26:14",
+      "excerpt": "記事の URL: https://www.cato.…"
+    },
+    {
+      "title": "ヒアリングは質問力より空気作りかもしれない",
+      "link": "https://dev.classmethod.jp/articles/creating-space-to-listen/",
       "source": "DevelopersIO",
-      "published": "2026-07-07T09:43:49",
-      "excerpt": "クラスメソッドの創立記念日にあたり、毎年全国で開催しているDevelopersIOのオフラインイベントに込められた想いと、その準備の舞台裏についてお話しします。"
+      "published": "2026-07-07T12:20:42",
+      "excerpt": "ヒアリングでは「上手に質問する技術」が語られがちですが、本当に大切なのは相手が話したくなる空気を作れるかどうか、かもしれません。ヒアリングでの自分の空気の作り方をお伝えします。"
     },
     {
-      "title": "国会議員ら英国政府に「テクノロジー主権を整理するか、さもなくば取り残される」",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/07/mps-tell-brit-government-sort-out-your-tech-sovereignty-or-get-left-out-in-the-cold/5267076",
-      "source": "The Register（英語）",
-      "published": "2026-07-07T09:43:00",
-      "excerpt": "委員会は、アンスロピック社の米国への短期間の輸出禁止は、英国がAIのライトを点灯し続ける同盟国さえ信頼できないことを示していると述べた"
+      "title": "ヨーロッパの企業 Web サイトはほとんどが米国のベンダーによって提供されています",
+      "link": "https://ciphercue.com/blog/european-web-hosting-vendor-share-2026",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-07T12:08:25",
+      "excerpt": "記事の URL: https://ciphercue.com/blog/european-web-hosting-vendor-share-2026 コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "16:9ではないディスプレイの世界――多種多様「LEDビジョン」に映す映像をどうネットで伝えるか",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/07/news154.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-07T09:30:00",
-      "excerpt": "ネットワークの祭典「Interop Tokyo 2026」に、放送機材メーカーがずらりと出展した。例年とは異なるこの光景の裏には、会場を埋め尽くすLEDビジョンの存在がある。…"
-    },
-    {
-      "title": "北アイルランドはキャピタを学校のIT契約から（再び）追放しようとしている",
-      "link": "https://www.theregister.com/public-sector/2026/07/07/northern-ireland-tries-again-to-expel-capita-from-schools-it-contract/5266887",
-      "source": "The Register（英語）",
-      "published": "2026-07-07T09:15:00",
-      "excerpt": "以前の富士通賞が廃止された後、新たな調達は8億5,100万ポンド相当になる可能性がある"
+      "title": "テキサス州オースティンで9人のマザーズ（YC P26）を募集中",
+      "link": "https://9mothers.com/careers",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-07T12:00:44",
+      "excerpt": "記事の URL: https://9mothers.com/careers コメント URL: https://news.ycombinator.com/item?id=48816533 ポイント: 0 コメント数: 0"
     }
   ]
 }
