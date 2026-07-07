@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-07T17:50:29",
+  "generated_at": "2026-07-07T19:38:57",
   "window_hours": 24,
-  "total": 222,
+  "total": 232,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。はじめに 2026年現在、Webのトラフィック構造は激変しています。…",
+      "summary": "生成AIの新着が32件。はじめに 2026年現在、Webのトラフィック構造は激変しています。…",
       "articles": [
         {
           "title": "29年間眠っていた「HTTP 402」の復活：CloudflareとAWSが推し進めるAIエージェント向けエッジ微小決済（x402）の全貌",
@@ -24,26 +24,40 @@
           "excerpt": "目次 #1.はじめに #2.環境 #3.発生した事象 #4.CloudTrailで調査してみる #5.公式ドキュメントと照らし合わせる #6.あとがき 1.はじめに Amazon Bedrockで提供されている Claude 3.…"
         },
         {
+          "title": "【Amazon Quick】チャットエージェントのペルソナ設定で分析結果は変わるのか？",
+          "link": "https://zenn.dev/marche/articles/e50902b535d33d",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-07T10:10:05",
+          "excerpt": "Amazon Quickの「Chat agents」では、カスタムのチャットエージェントにペルソナを設定できます。…"
+        },
+        {
           "title": "Claude Codeのstatuslineでコストを日本円表示にする",
           "link": "https://dev.classmethod.jp/articles/claude-code-statusline-jpy-cost/",
           "source": "DevelopersIO",
           "published": "2026-07-07T09:33:57",
           "excerpt": "Claude Codeのstatuslineを改良しました。コストを日本円で表示し、モデル名を色分け、経過時間に時間表記を加えて、より実用的な表示に整えました。"
-        },
-        {
-          "title": "Google Workspace の Gemini アプリ・NotebookLM を開発以外のベース AI に",
-          "link": "https://dev.classmethod.jp/articles/google_workspace_gemini_notebooklm_base_ai/",
-          "source": "DevelopersIO",
-          "published": "2026-07-07T09:25:17",
-          "excerpt": "Google Workspace に付属する Gemini アプリと NotebookLM を、開発以外の全社ベース AI として活用する方法を紹介します。エディション選びやセキュリティ面での安心材料まで、実運用に必要な情報をまとめました。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。手動作成した AWS リソースを CDK 管理下に移したい——そんな悩みを解決する `cdk import` の使い方を、実際に S3 バケットを取り込みながら検証しました。",
+      "summary": "クラウドの新着が19件。ほとんどがバイブコーディングされた Apple Containers フロントエンドで、私自身も使用したいと考えています。ただし、他の人が使用したい場合は、ソース コードをここに示します。コメント URL: https://news.…",
       "articles": [
+        {
+          "title": "HN を表示: Davit、Apple Containers UI",
+          "link": "https://davit.app",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-07T18:44:29",
+          "excerpt": "ほとんどがバイブコーディングされた Apple Containers フロントエンドで、私自身も使用したいと考えています。ただし、他の人が使用したい場合は、ソース コードをここに示します。コメント URL: https://news.…"
+        },
+        {
+          "title": "Amazon EC2 C8ine インスタンスが AWS ヨーロッパ (フランクフルト) リージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c8ine-aws-frankfurt/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-07T17:00:00",
+          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) C8ine インスタンスが AWS ヨーロッパ (フランクフルト) リージョンで利用可能になります。…"
+        },
         {
           "title": "手動で作った既存 S3 バケットを `cdk import` で CDK 管理下に取り込んでみた",
           "link": "https://dev.classmethod.jp/articles/shoma-import-existing-manually-created-s3-bucket-into-cdk-management-with-cdk-import/",
@@ -57,28 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-07T13:29:44",
           "excerpt": "ECS Fargate のタスクに API キーや DB パスワードを渡すとき、タスク定義の environment に値を直接書くと、その値は ECS タスク定義 に残ります。…"
-        },
-        {
-          "title": "Amazon ECS がデプロイメントサーキットブレーカーの設定カスタマイズに対応",
-          "link": "https://qiita.com/Haruki-N/items/e1cefeeb46641051f38a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-07T12:02:02",
-          "excerpt": "はじめに 2026 年 7 月 1 日、AWS は Amazon ECS の「デプロイメントサーキットブレーカー」に対して、設定をカスタマイズ可能にするアップデートを発表しました。…"
-        },
-        {
-          "title": "既存のCloudWatch監視を止めずにOTelメトリクスへ移行してみた",
-          "link": "https://dev.classmethod.jp/articles/migrate-cloudwatch-to-otel-metrics-without-downtime/",
-          "source": "DevelopersIO",
-          "published": "2026-07-07T11:46:24",
-          "excerpt": "CloudWatch の Classic メトリクスから OpenTelemetry メトリクスへ、既存監視を止めずに移行する dual-write を小規模環境で実機検証しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。リリース前に「脆弱性診断やった？」とヒヤッとした経験はありませんか。この記事では、Snyk DASTを使ってWebアプリの脆弱性診断をチーム内に取り込み、自動化する手順を紹介します。",
+      "summary": "セキュリティの新着が15件。記事の URL: https://blog.zksecurity.xyz/posts/circl-bugs/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "AI と暗号の出会い 1: AI が Cloudflare の Circl で見つけたもの",
+          "link": "https://blog.zksecurity.xyz/posts/circl-bugs/",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-07T18:36:35",
+          "excerpt": "記事の URL: https://blog.zksecurity.xyz/posts/circl-bugs/ コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "CAI クラウド ワームは競合他社のマルウェアに起動を与え、秘密を盗み、コインを採掘します",
+          "link": "https://www.theregister.com/cyber-crime/2026/07/07/cai-cloud-worm-gives-competitors-malware-the-boot-then-steals-secrets-and-mines-for-coin/5267856",
+          "source": "The Register（英語）",
+          "published": "2026-07-07T17:15:00",
+          "excerpt": "資格情報を盗む攻撃者にとって、弱肉強食の世界"
+        },
         {
           "title": "Snyk DASTによるWebアプリ脆弱性診断をやってみた",
           "link": "https://dev.classmethod.jp/articles/dast-snyk-security-web/",
@@ -92,20 +106,6 @@
           "source": "The Register（英語）",
           "published": "2026-07-07T11:21:00",
           "excerpt": "Unit 42 によると、攻撃者はヘルプデスクスタッフを装い、EtherRAT トロイの木馬を投下する前に従業員にリモート制御を引き渡すよう説得している"
-        },
-        {
-          "title": "KDDIのISP事業者向けメールシステムへの不正アクセスについてまとめてみた - piyolog",
-          "link": "https://piyolog.hatenadiary.jp/entry/2026/07/07/182112",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-07-07T09:26:43",
-          "excerpt": "2026年6月23日、KDDI株式会社は、同社がISP事業者向けに提供するメールシステムが不正アクセスを受け、STNet・JCOMなど6社のメールサービスに関する情報の一部が外部に漏えいした可能性があると公表しました。…"
-        },
-        {
-          "title": "AWS初心者がWAF、セキュリティグループ、NACLの違いをタワマンに例えた話",
-          "link": "https://qiita.com/tks_1128/items/eecd28a164889baddb5f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-07T09:22:01",
-          "excerpt": "はじめに こんにちは。Tsukasaです！皆さん、セキュリティについて理解されていますか？私はまだまだです。あまりよくわかっていないとは言っても、どんなシステムでもセキュリティは最重要課題になってくると思います。…"
         }
       ]
     },
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が19件。マイクロソフトはVisual Studio Codeの新機能として、GitHub Copilotで消費した生成AIのトークン数などを表示できるようにしました。GitHub Copilotは今年（2026年）6月から、生成AIを利用したチャ.…",
+      "summary": "開発ツールの新着が20件。私はオープンソース プロジェクトがまだすべてのユーザーに利用可能であることを時々確認します。また、stargazers (1) の情報がログインしていないユーザーに対して 404 を返すことに時折気づきました。…",
       "articles": [
+        {
+          "title": "HN に質問: GitHub はログインの壁を越える準備をしていますか?",
+          "link": "https://news.ycombinator.com/item?id=48821803",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-07T18:40:40",
+          "excerpt": "私はオープンソース プロジェクトがまだすべてのユーザーに利用可能であることを時々確認します。また、stargazers (1) の情報がログインしていないユーザーに対して 404 を返すことに時折気づきました。…"
+        },
+        {
+          "title": "新しいツールは、代わりに CLI に温かみのある GUI 感覚を与えます",
+          "link": "https://www.theregister.com/software/2026/07/07/new-tool-gives-clis-a-warm-and-gui-feeling-instead/5267798",
+          "source": "The Register（英語）",
+          "published": "2026-07-07T16:30:00",
+          "excerpt": "フラグを忘れるのにうんざりしていませんか?Instagui に --help 出力を読み込ませ、代わりにブラウザ GUI を構築させます…"
+        },
         {
           "title": "Visual Studio Code、従量課金制になったGitHub Copilotの消費トークン数を表示可能に",
           "link": "https://www.publickey1.jp/blog/26/visual_studio_codegithub_copilot.html",
@@ -162,52 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-07T14:52:55",
           "excerpt": "手動作成した AWS リソースを CDK 管理下に移したい——そんな悩みを解決する `cdk import` の使い方を、実際に S3 バケットを取り込みながら検証しました。"
-        },
-        {
-          "title": "Snyk DASTによるWebアプリ脆弱性診断をやってみた",
-          "link": "https://dev.classmethod.jp/articles/dast-snyk-security-web/",
-          "source": "DevelopersIO",
-          "published": "2026-07-07T14:47:18",
-          "excerpt": "リリース前に「脆弱性診断やった？」とヒヤッとした経験はありませんか。この記事では、Snyk DASTを使ってWebアプリの脆弱性診断をチーム内に取り込み、自動化する手順を紹介します。"
-        },
-        {
-          "title": "cdk-nag の v3 が公開されました！",
-          "link": "https://dev.classmethod.jp/articles/cdk-nag-v3-release/",
-          "source": "DevelopersIO",
-          "published": "2026-07-07T14:30:24",
-          "excerpt": "cdk-nag v3がリリースされたので、v2からの移行方法をまとめてみました。登録方法や抑制の書き方が大きく変わっているため、アップグレード時の注意点をご紹介します。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Netflixは、Varietyなどとの新たなパブリッシャー契約で、より短いビデオコンテンツに手を出している",
-      "link": "https://techcrunch.com/2026/07/07/netflix-dabbles-in-shorter-video-content-with-its-new-set-of-publisher-deals-with-variety-others/",
+      "title": "DiscordはAIモデレーションのバグを認め、無害な画像を理由にユーザーを不当に禁止した",
+      "link": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-07T17:24:35",
-      "excerpt": "Netflix は、Rolling Stone 社や Variety 社などのデジタル パブリッシャーとの新たな提携を通じて、2 ～ 20 分のビデオをプラットフォームに提供します。"
+      "published": "2026-07-07T19:28:38",
+      "excerpt": "Discordは、スプレッドシート、チェス盤、ゲームテクスチャ、白とグレーの透明な背景を含む無害な画像が有害なコンテンツとして誤ってフラグ付けされた後、AIモデレーションシステムのバグにより、過去2か月間で誤って8,000人以上のユーザーを…"
     },
     {
-      "title": "ハッキング、漏洩、身代金要求: 2026 年これまでで最悪の侵害",
-      "link": "https://techcrunch.com/2026/07/07/the-worst-hacks-and-breaches-of-2026-so-far/",
+      "title": "GoogleのPixel 11発表イベントは8月12日に予定されており、値上げの可能性もある",
+      "link": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-07T19:08:34",
+      "excerpt": "Googleの新しい携帯電話は、光るLEDとより高い価格を備えている可能性がある。"
+    },
+    {
+      "title": "GoogleのPixelイベントは8月12日に予定されている",
+      "link": "https://techcrunch.com/2026/07/07/googles-pixel-event-is-set-for-august-12/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-07T16:45:00",
-      "excerpt": "DOGE の大規模なデータ侵害、重要なエネルギーおよび水道システムのハッキングから FBI 監視システムのハッキングまで、2026 年に最も被害をもたらしたセキュリティ インシデントとデータ侵害を紹介します。"
+      "published": "2026-07-07T18:38:29",
+      "excerpt": "8月に開催されるGoogleのイベントでは、新しいPixelデバイスが発表される予定だ。"
     },
     {
-      "title": "Fedora LinuxでTLS接続だけがタイムアウトする事象をPMTU Blackholeの観点から解決した",
-      "link": "https://dev.classmethod.jp/articles/fedora-linux-pmtu-blackhole-tls-timeout-tcp-mtu-probing/",
-      "source": "DevelopersIO",
-      "published": "2026-07-07T16:44:33",
-      "excerpt": "Fedora Linux環境でAWSエンドポイントへのTLS接続だけがタイムアウトし、TCP接続やpingは正常という事象に遭遇しました。…"
-    },
-    {
-      "title": "米国政府から 10 万ドル未満で購入できる住宅の地図を作成する",
-      "link": "https://govauctions.app/research/cheapest-homes-in-america",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-07T16:42:41",
-      "excerpt": "記事の URL: https://govauctions.app/research/cheapest-homes-in-america コメント URL: https://news.ycombinator.com/item?…"
+      "title": "Figma がバイブコーディング アプリ開発チームを買収",
+      "link": "https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-07T18:37:01",
+      "excerpt": "Y Combinator が支援するこの企業は、バイブコーディング プラットフォームを開始し、その後エージェント作成製品を構築しました。"
     }
   ]
 }
