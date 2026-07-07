@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-07T12:40:39",
+  "generated_at": "2026-07-07T15:39:11",
   "window_hours": 24,
-  "total": 232,
+  "total": 230,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が40件。目次 #1.はじめに #2.環境 #3.発生した事象 #4.CloudTrailで調査してみる #5.公式ドキュメントと照らし合わせる #6.あとがき 1.はじめに Amazon Bedrockで提供されている Claude 3.…",
+      "summary": "生成AIの新着が36件。はじめに 2026年現在、Webのトラフィック構造は激変しています。…",
       "articles": [
+        {
+          "title": "29年間眠っていた「HTTP 402」の復活：CloudflareとAWSが推し進めるAIエージェント向けエッジ微小決済（x402）の全貌",
+          "link": "https://qiita.com/nozomi2025/items/463593ee2699fb2f51e8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-07T13:31:41",
+          "excerpt": "はじめに 2026年現在、Webのトラフィック構造は激変しています。…"
+        },
         {
           "title": "Amazon BedrockでClaude 3.5 Sonnetが突然利用できなくなったのでCloudTrailから原因を調査してみた",
           "link": "https://qiita.com/ss_IT_study/items/e9a13fb9d6695b4c76ae",
@@ -29,21 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-07T09:25:17",
           "excerpt": "Google Workspace に付属する Gemini アプリと NotebookLM を、開発以外の全社ベース AI として活用する方法を紹介します。エディション選びやセキュリティ面での安心材料まで、実運用に必要な情報をまとめました。"
-        },
-        {
-          "title": "ゲームで学ぶマルチエージェントの世界：Agentic Football Cup",
-          "link": "https://zenn.dev/nttdata_tech/articles/47ca78ab934ef8",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-07T08:00:08",
-          "excerpt": "1.はじめに 今年、AWS（Amazon Web Services）がAgentic Football Cupを発表しました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。はじめに 2026 年 7 月 1 日、AWS は Amazon ECS の「デプロイメントサーキットブレーカー」に対して、設定をカスタマイズ可能にするアップデートを発表しました。…",
+      "summary": "クラウドの新着が19件。手動作成した AWS リソースを CDK 管理下に移したい——そんな悩みを解決する `cdk import` の使い方を、実際に S3 バケットを取り込みながら検証しました。",
       "articles": [
+        {
+          "title": "手動で作った既存 S3 バケットを `cdk import` で CDK 管理下に取り込んでみた",
+          "link": "https://dev.classmethod.jp/articles/shoma-import-existing-manually-created-s3-bucket-into-cdk-management-with-cdk-import/",
+          "source": "DevelopersIO",
+          "published": "2026-07-07T14:52:55",
+          "excerpt": "手動作成した AWS リソースを CDK 管理下に移したい——そんな悩みを解決する `cdk import` の使い方を、実際に S3 バケットを取り込みながら検証しました。"
+        },
+        {
+          "title": "ECS タスクに SSM の秘密情報を渡す — secrets.valueFrom と Terraform data source の注意点",
+          "link": "https://qiita.com/mori-dev@github/items/e2ba0624f88e74fce02f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-07T13:29:44",
+          "excerpt": "ECS Fargate のタスクに API キーや DB パスワードを渡すとき、タスク定義の environment に値を直接書くと、その値は ECS タスク定義 に残ります。…"
+        },
         {
           "title": "Amazon ECS がデプロイメントサーキットブレーカーの設定カスタマイズに対応",
           "link": "https://qiita.com/Haruki-N/items/e1cefeeb46641051f38a",
@@ -57,28 +71,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-07T11:46:24",
           "excerpt": "CloudWatch の Classic メトリクスから OpenTelemetry メトリクスへ、既存監視を止めずに移行する dual-write を小規模環境で実機検証しました。…"
-        },
-        {
-          "title": "Amazon Aurora の Blue Green Deployment はマネージドな切り戻しができない",
-          "link": "https://zenn.dev/mixi/articles/aurora-blue-green-deployment-rollback",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-07T08:29:17",
-          "excerpt": "はじめに Amazon Aurora MySQL のエンジンバージョンアップに Blue/Green Deployments を使う検証をしました。…"
-        },
-        {
-          "title": "Amazon Aurora の Blue Green Deployment はマネージドな切り戻しができない",
-          "link": "https://zenn.dev/mixi/articles/aurora_blue_green_deployment_rollback",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-07T08:16:15",
-          "excerpt": "はじめに Amazon Aurora MySQL のエンジンバージョンアップに Blue/Green Deployments を使う検証をしました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。はじめに こんにちは。Tsukasaです！皆さん、セキュリティについて理解されていますか？私はまだまだです。あまりよくわかっていないとは言っても、どんなシステムでもセキュリティは最重要課題になってくると思います。…",
+      "summary": "セキュリティの新着が12件。リリース前に「脆弱性診断やった？」とヒヤッとした経験はありませんか。この記事では、Snyk DASTを使ってWebアプリの脆弱性診断をチーム内に取り込み、自動化する手順を紹介します。",
       "articles": [
+        {
+          "title": "Snyk DASTによるWebアプリ脆弱性診断をやってみた",
+          "link": "https://dev.classmethod.jp/articles/dast-snyk-security-web/",
+          "source": "DevelopersIO",
+          "published": "2026-07-07T14:47:18",
+          "excerpt": "リリース前に「脆弱性診断やった？」とヒヤッとした経験はありませんか。この記事では、Snyk DASTを使ってWebアプリの脆弱性診断をチーム内に取り込み、自動化する手順を紹介します。"
+        },
+        {
+          "title": "KDDIのISP事業者向けメールシステムへの不正アクセスについてまとめてみた - piyolog",
+          "link": "https://piyolog.hatenadiary.jp/entry/2026/07/07/182112",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-07-07T09:26:43",
+          "excerpt": "2026年6月23日、KDDI株式会社は、同社がISP事業者向けに提供するメールシステムが不正アクセスを受け、STNet・JCOMなど6社のメールサービスに関する情報の一部が外部に漏えいした可能性があると公表しました。…"
+        },
         {
           "title": "AWS初心者がWAF、セキュリティグループ、NACLの違いをタワマンに例えた話",
           "link": "https://qiita.com/tks_1128/items/eecd28a164889baddb5f",
@@ -92,20 +106,6 @@
           "source": "CodeZine",
           "published": "2026-07-07T05:30:00",
           "excerpt": "AWS WAF、Amazon Bedrock AgentCore Gatewayのサポートを開始"
-        },
-        {
-          "title": "後工程で発覚する脆弱性を4割減　「Claude Code」の新プラグインの仕組み、導入方法",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/07/news030.html",
-          "source": "@IT",
-          "published": "2026-07-07T04:00:00",
-          "excerpt": "Anthropicは、エージェント型コーディングツール「Claude Code」のセキュリティガイダンスプラグインを公開した。Claudeがソースコードの脆弱性についてレビューし、同じセッション内で修正を支援するものだ。"
-        },
-        {
-          "title": "Chrome 151ベータ版が公開、CSS・WebAPI強化やセキュリティ対応など",
-          "link": "https://codezine.jp/article/detail/28865",
-          "source": "CodeZine",
-          "published": "2026-07-07T02:30:00",
-          "excerpt": "Chrome 151ベータ版が公開、CSS・WebAPI強化やセキュリティ対応など"
         }
       ]
     },
@@ -147,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。はじめに 2026 年 7 月 1 日、AWS は Amazon ECS の「デプロイメントサーキットブレーカー」に対して、設定をカスタマイズ可能にするアップデートを発表しました。…",
+      "summary": "開発ツールの新着が20件。マイクロソフトはVisual Studio Codeの新機能として、GitHub Copilotで消費した生成AIのトークン数などを表示できるようにしました。GitHub Copilotは今年（2026年）6月から、生成AIを利用したチャ.…",
       "articles": [
         {
-          "title": "Amazon ECS がデプロイメントサーキットブレーカーの設定カスタマイズに対応",
-          "link": "https://qiita.com/Haruki-N/items/e1cefeeb46641051f38a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-07T12:02:02",
-          "excerpt": "はじめに 2026 年 7 月 1 日、AWS は Amazon ECS の「デプロイメントサーキットブレーカー」に対して、設定をカスタマイズ可能にするアップデートを発表しました。…"
+          "title": "Visual Studio Code、従量課金制になったGitHub Copilotの消費トークン数を表示可能に",
+          "link": "https://www.publickey1.jp/blog/26/visual_studio_codegithub_copilot.html",
+          "source": "Publickey",
+          "published": "2026-07-07T15:55:48",
+          "excerpt": "マイクロソフトはVisual Studio Codeの新機能として、GitHub Copilotで消費した生成AIのトークン数などを表示できるようにしました。GitHub Copilotは今年（2026年）6月から、生成AIを利用したチャ.…"
         },
         {
-          "title": "kiro-cli + playwright-cli で QuickSight ダッシュボードのUI検証を自動化してみた",
-          "link": "https://qiita.com/zumax/items/eabbf38c552ddf52b1c5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-07T10:41:05",
-          "excerpt": "背景・目的 前編では、kiro-cli に playwright-cli を導入し、QuickSight ダッシュボードにアクセスして「数値が表示されているか」の確認とキャプチャ取得までを行いました。…"
+          "title": "手動で作った既存 S3 バケットを `cdk import` で CDK 管理下に取り込んでみた",
+          "link": "https://dev.classmethod.jp/articles/shoma-import-existing-manually-created-s3-bucket-into-cdk-management-with-cdk-import/",
+          "source": "DevelopersIO",
+          "published": "2026-07-07T14:52:55",
+          "excerpt": "手動作成した AWS リソースを CDK 管理下に移したい——そんな悩みを解決する `cdk import` の使い方を、実際に S3 バケットを取り込みながら検証しました。"
         },
         {
-          "title": "Amazon Aurora の Blue Green Deployment はマネージドな切り戻しができない",
-          "link": "https://zenn.dev/mixi/articles/aurora-blue-green-deployment-rollback",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-07T08:29:17",
-          "excerpt": "はじめに Amazon Aurora MySQL のエンジンバージョンアップに Blue/Green Deployments を使う検証をしました。…"
+          "title": "Snyk DASTによるWebアプリ脆弱性診断をやってみた",
+          "link": "https://dev.classmethod.jp/articles/dast-snyk-security-web/",
+          "source": "DevelopersIO",
+          "published": "2026-07-07T14:47:18",
+          "excerpt": "リリース前に「脆弱性診断やった？」とヒヤッとした経験はありませんか。この記事では、Snyk DASTを使ってWebアプリの脆弱性診断をチーム内に取り込み、自動化する手順を紹介します。"
         },
         {
-          "title": "Amazon Aurora の Blue Green Deployment はマネージドな切り戻しができない",
-          "link": "https://zenn.dev/mixi/articles/aurora_blue_green_deployment_rollback",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-07T08:16:15",
-          "excerpt": "はじめに Amazon Aurora MySQL のエンジンバージョンアップに Blue/Green Deployments を使う検証をしました。…"
+          "title": "cdk-nag の v3 が公開されました！",
+          "link": "https://dev.classmethod.jp/articles/cdk-nag-v3-release/",
+          "source": "DevelopersIO",
+          "published": "2026-07-07T14:30:24",
+          "excerpt": "cdk-nag v3がリリースされたので、v2からの移行方法をまとめてみました。登録方法や抑制の書き方が大きく変わっているため、アップグレード時の注意点をご紹介します。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "移民は米国生まれの子供も含めて福祉の利用が少ない",
-      "link": "https://www.cato.org/blog/immigrants-use-less-welfare-even-counting-their-us-born-children",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-07T12:26:14",
-      "excerpt": "記事の URL: https://www.cato.…"
+      "title": "X は、盗まれた再投稿ではなく、オリジナルのコンテンツを投稿することをクリエイターに奨励するビデオエディターを追加します",
+      "link": "https://techcrunch.com/2026/07/07/x-adds-a-video-editor-to-encourage-creators-to-post-original-content-not-stolen-reposts/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-07T15:19:33",
+      "excerpt": "X は、多言語キャプション、グリーン スクリーン効果、その他の編集ツールを備えた iOS 用の新しいビデオ エディターおよびレコーダーを展開しています。"
     },
     {
-      "title": "ヒアリングは質問力より空気作りかもしれない",
-      "link": "https://dev.classmethod.jp/articles/creating-space-to-listen/",
+      "title": "チャットコントロールがEU議会で第1ラウンドを可決",
+      "link": "https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-07T15:16:15",
+      "excerpt": "記事の URL: https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.…"
+    },
+    {
+      "title": "Chemistry Ventures が 2 つ目のファンドとして 5 億ドルを調達",
+      "link": "https://techcrunch.com/2026/07/07/chemistry-ventures-is-raising-500m-for-its-second-fund/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-07T15:02:02",
+      "excerpt": "Bessemer、Index Ventures、Andreessen Horowitz の卒業生によって設立された VC 会社 Chemistry Ventures は、2 つ目のファンドとして 5 億ドルを調達しています。"
+    },
+    {
+      "title": "クラスメソッドテクノロジーズの2期目が終わりました — 振り返りと3期目に目指すこと",
+      "link": "https://dev.classmethod.jp/articles/classmethod-technologies-story-202607/",
       "source": "DevelopersIO",
-      "published": "2026-07-07T12:20:42",
-      "excerpt": "ヒアリングでは「上手に質問する技術」が語られがちですが、本当に大切なのは相手が話したくなる空気を作れるかどうか、かもしれません。ヒアリングでの自分の空気の作り方をお伝えします。"
-    },
-    {
-      "title": "ヨーロッパの企業 Web サイトはほとんどが米国のベンダーによって提供されています",
-      "link": "https://ciphercue.com/blog/european-web-hosting-vendor-share-2026",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-07T12:08:25",
-      "excerpt": "記事の URL: https://ciphercue.com/blog/european-web-hosting-vendor-share-2026 コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "テキサス州オースティンで9人のマザーズ（YC P26）を募集中",
-      "link": "https://9mothers.com/careers",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-07T12:00:44",
-      "excerpt": "記事の URL: https://9mothers.com/careers コメント URL: https://news.ycombinator.com/item?id=48816533 ポイント: 0 コメント数: 0"
+      "published": "2026-07-07T14:58:59",
+      "excerpt": "クラスメソッドテクノロジーズの2期目が終了しました。目標達成から見えてきた課題、そして3期目に目指す組織化へのチャレンジについて語ります。"
     }
   ]
 }
