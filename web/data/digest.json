@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-08T04:41:15",
+  "generated_at": "2026-07-08T07:22:10",
   "window_hours": 24,
-  "total": 232,
+  "total": 238,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が29件。こんにちは。運用保守部のきむ兄です。…",
+      "summary": "生成AIの新着が32件。ChatGPT から AWS を操作したいけど、MCP サーバーをインターネットに公開するのは避けたい—そんな課題を、OpenAI の Secure MCP Tunnel と ECS Fargate で解決してみました。…",
       "articles": [
         {
-          "title": "Claude Codeに、とある外部連携システムを導入するまでと検証環境を作る手順書を作るまでの顛末ブログを書かせてみた件 | hacomono TECH BLOG",
-          "link": "https://techblog.hacomono.jp/entry/2026/07/08/110000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-08T04:00:00",
-          "excerpt": "こんにちは。運用保守部のきむ兄です。…"
+          "title": "OpenAI Secure MCP TunnelでAWS認証情報を渡さずにChatGPTから操作する",
+          "link": "https://dev.classmethod.jp/articles/openai-secure-mcp-tunnel-aws-fargate/",
+          "source": "DevelopersIO",
+          "published": "2026-07-08T07:07:30",
+          "excerpt": "ChatGPT から AWS を操作したいけど、MCP サーバーをインターネットに公開するのは避けたい—そんな課題を、OpenAI の Secure MCP Tunnel と ECS Fargate で解決してみました。…"
         },
         {
-          "title": "カナダの州政府、Claude Codeで4億6600万行のコードを20時間で診断",
-          "link": "https://codezine.jp/article/detail/28880",
+          "title": "AWS パートナーと実現する生成 AI — 現場を変える8つの実践事例 AWS Summit Japan 2026 Partner Breakout Session レポート",
+          "link": "https://aws.amazon.com/jp/blogs/news/aws-%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC%E3%81%A8%E5%AE%9F%E7%8F%BE%E3%81%99%E3%82%8B%E7%94%9F%E6%88%90-ai-%E7%8F%BE%E5%A0%B4%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B8%E3%81%A4%E3%81%AE/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-07-08T07:00:47",
+          "excerpt": "AWS Summit Japan 2026（2026年6月25日〜26日、幕張メッセ）では、「AWS パートナ […]"
+        },
+        {
+          "title": "IAMユーザーを持っていないメンバーや外部の人間とS3バケット上のオブジェクトをやり取りする際はStorage Browser for S3も検討しよう",
+          "link": "https://dev.classmethod.jp/articles/storage-browser-for-s3-amplify/",
+          "source": "DevelopersIO",
+          "published": "2026-07-08T05:49:26",
+          "excerpt": "IAMユーザーを持たない外部ユーザーとのファイル共有を、低コストかつ運用負荷を抑えて実現する方法を検討します。…"
+        },
+        {
+          "title": "AIエージェント向けAmazon WorkSpacesが一般提供、モダナイズ前のアプリも支援",
+          "link": "https://codezine.jp/article/detail/28883",
           "source": "CodeZine",
-          "published": "2026-07-08T04:00:00",
-          "excerpt": "カナダの州政府、Claude Codeで4億6600万行のコードを20時間で診断"
-        },
-        {
-          "title": "【AWS】Ruby作ったAIエージェントをBedrock AgentCore Runtimeで動かしてみた！",
-          "link": "https://qiita.com/PDC-Kurashinak/items/1c85446e78b5c4e4155b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-08T04:00:00",
-          "excerpt": "どうもこんにちは。今回は、Ruby製のLLMクライアントライブラリである RubyLLM を、Amazon Bedrock AgentCore Runtime 上にデプロイして動かしてみます。…"
-        },
-        {
-          "title": "GoogleがGemma4をApache 2.0ライセンスでリリース、マルチモーダルおよびエージェント機能搭載",
-          "link": "https://www.infoq.com/jp/news/2026/07/google-gemm4/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-07-08T03:30:00",
-          "excerpt": "Googleは最近、Gemma 4をリリースした。実効2Bおよび4Bのエッジバリアント、26BのMixture-of-Expertsモデル、31B denseモデルで構成されるオープンウェイトモデルのファミリーで、いずれもApache 2.…"
+          "published": "2026-07-08T05:30:00",
+          "excerpt": "AIエージェント向けAmazon WorkSpacesが一般提供、モダナイズ前のアプリも支援"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。VPC エンドポイントの「ゲートウェイ型」と「インターフェース型」について、なぜ S3・DynamoDB だけが特別扱いなのか、その仕組みの違いと背景を調べてまとめました。丸暗記していた知識が、仕組みから納得感を持って理解できます。",
+      "summary": "クラウドの新着が23件。以前、WorkSpacesはリージョンごとの固定DNSしか持たないという制約がある、という記事を書きました。この仕様はいろいろな制約につながるため、同記事でも以下2点を改善してほしい点としてあげました。…",
       "articles": [
+        {
+          "title": "WorkSpaces VPCエンドポイントが「グローバルに一意のDNS名」を持つようになったので検証してみた",
+          "link": "https://qiita.com/s-niim/items/8971be7c4e2bdafaaa38",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-08T06:09:22",
+          "excerpt": "以前、WorkSpacesはリージョンごとの固定DNSしか持たないという制約がある、という記事を書きました。この仕様はいろいろな制約につながるため、同記事でも以下2点を改善してほしい点としてあげました。…"
+        },
+        {
+          "title": "IAMユーザーを持っていないメンバーや外部の人間とS3バケット上のオブジェクトをやり取りする際はStorage Browser for S3も検討しよう",
+          "link": "https://dev.classmethod.jp/articles/storage-browser-for-s3-amplify/",
+          "source": "DevelopersIO",
+          "published": "2026-07-08T05:49:26",
+          "excerpt": "IAMユーザーを持たない外部ユーザーとのファイル共有を、低コストかつ運用負荷を抑えて実現する方法を検討します。…"
+        },
         {
           "title": "ゲートウェイ型 VPC エンドポイントが S3・DynamoDB だけな理由を考察してみた",
           "link": "https://dev.classmethod.jp/articles/vpc-gateway-endpoint-s3-dynamodb/",
@@ -57,62 +71,48 @@
           "source": "DevelopersIO",
           "published": "2026-07-08T01:39:52",
           "excerpt": "2026年6月に今後の廃止が発表されたLegacy Notebookを共有ワークスペースへ移行し、複数ユーザーで参照できるようにするまでの手順を試してみました。移行方法から権限設定、スケジュール実行の設定までをまとめています。"
-        },
-        {
-          "title": "Amazon Redshift のモダナイゼーション: RA3 から RG への移行ベストプラクティス",
-          "link": "https://aws.amazon.com/jp/blogs/news/modernize-amazon-redshift-ra3-to-rg-migration-best-practices/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-07T23:27:04",
-          "excerpt": "Amazon Redshift RA3 クラスターを Graviton ベースの RG インスタンスに移行する方法を解説します。…"
-        },
-        {
-          "title": "LambdaからS3 Filesを使った時の読み書き速度を検証してみた",
-          "link": "https://qiita.com/ry-harada/items/dc52d546c0c52c84b866",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-07T22:47:43",
-          "excerpt": "はじめに 2026年4月に、AWS Lambda から Amazon S3 Files をマウントできるようになりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。Security Hubに追加された「露出（Exposure）」の検出結果を実環境で確認しました。…",
+      "summary": "セキュリティの新着が16件。ChatGPT から AWS を操作したいけど、MCP サーバーをインターネットに公開するのは避けたい—そんな課題を、OpenAI の Secure MCP Tunnel と ECS Fargate で解決してみました。…",
       "articles": [
+        {
+          "title": "OpenAI Secure MCP TunnelでAWS認証情報を渡さずにChatGPTから操作する",
+          "link": "https://dev.classmethod.jp/articles/openai-secure-mcp-tunnel-aws-fargate/",
+          "source": "DevelopersIO",
+          "published": "2026-07-08T07:07:30",
+          "excerpt": "ChatGPT から AWS を操作したいけど、MCP サーバーをインターネットに公開するのは避けたい—そんな課題を、OpenAI の Secure MCP Tunnel と ECS Fargate で解決してみました。…"
+        },
+        {
+          "title": "IAMユーザーを持っていないメンバーや外部の人間とS3バケット上のオブジェクトをやり取りする際はStorage Browser for S3も検討しよう",
+          "link": "https://dev.classmethod.jp/articles/storage-browser-for-s3-amplify/",
+          "source": "DevelopersIO",
+          "published": "2026-07-08T05:49:26",
+          "excerpt": "IAMユーザーを持たない外部ユーザーとのファイル共有を、低コストかつ運用負荷を抑えて実現する方法を検討します。…"
+        },
+        {
+          "title": "三重県、庁内のUSBメモリ調査でマルウェア47個検知　陸自の報道受け1万個超を一斉調査",
+          "link": "https://www.itmedia.co.jp/news/articles/2607/08/news104.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-07-08T05:14:00",
+          "excerpt": "三重県は7月8日、庁内で業務に使うUSBメモリを調査した結果、47個からマルウェアを検知したと発表した。いずれも活動していない古典的なもので、感染や被害はなかったという。"
+        },
         {
           "title": "AWS Security Hubの「露出」検出結果で潜在リスクを可視化してみた",
           "link": "https://dev.classmethod.jp/articles/security-hub-exposure-findings/",
           "source": "DevelopersIO",
           "published": "2026-07-08T04:16:09",
           "excerpt": "Security Hubに追加された「露出（Exposure）」の検出結果を実環境で確認しました。…"
-        },
-        {
-          "title": "「セキュリティ対策証明」経験ありは8割超、だがSCS評価制度迫るも“SaaS把握率”は2割未満",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/08/news060.html",
-          "source": "@IT",
-          "published": "2026-07-08T04:00:00",
-          "excerpt": "サプライチェーン強化に向けた新制度の運用開始を控える中、取引先からセキュリティ対策の証明を求められた経験がある担当者が大多数だが、対策は追い付いていない。SmartHRの実態調査から明らかになった。"
-        },
-        {
-          "title": "「事後対応」中心の運用から脱却する「AIセキュリティ」の始め方　Google解説",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/08/news059.html",
-          "source": "@IT",
-          "published": "2026-07-08T04:00:00",
-          "excerpt": "Google Cloudは、政府機関や重要インフラを守るCISO向けに、AIを活用した防御の始め方を解説するガイドを公開した。管理業務の負荷をAIで軽減し、脅威ハンティングや構造的な統合へ段階的に移行するロードマップを示している。"
-        },
-        {
-          "title": "QRコード攻撃はなぜメールセキュリティを無力化できるのか？　その理由を解説",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/08/news048.html",
-          "source": "@IT",
-          "published": "2026-07-07T22:00:00",
-          "excerpt": "メールセキュリティ製品を導入しているからといって、安心とは限らない。QRコードを悪用したフィッシング攻撃は、従来のメールゲートウェイが前提としてきた検査方法をすり抜ける可能性があるという。どう対策をすればいいか。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。VPC エンドポイントの「ゲートウェイ型」と「インターフェース型」について、なぜ S3・DynamoDB だけが特別扱いなのか、その仕組みの違いと背景を調べてまとめました。丸暗記していた知識が、仕組みから納得感を持って理解できます。",
+      "summary": "データ分析の新着が6件。VPC エンドポイントの「ゲートウェイ型」と「インターフェース型」について、なぜ S3・DynamoDB だけが特別扱いなのか、その仕組みの違いと背景を調べてまとめました。丸暗記していた知識が、仕組みから納得感を持って理解できます。",
       "articles": [
         {
           "title": "ゲートウェイ型 VPC エンドポイントが S3・DynamoDB だけな理由を考察してみた",
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。こんにちは！技術本部の技術戦略ディビジョンで主にEOL対応巻き取りなどをしているインフラエンジニアの片岡です。この記事では、以下の内容を書いています。…",
+      "summary": "開発ツールの新着が18件。オンプレミスの HPC 環境からの移行を進める研究チームは、クラウドへのデプロイの複雑さに悩まされることがよく […]",
       "articles": [
+        {
+          "title": "AWS Parallel Computing Service と Kiro CLI で HPC のデプロイを加速する",
+          "link": "https://aws.amazon.com/jp/blogs/news/accelerating-hpc-deployment-with-aws-parallel-computing-service-and-kiro-cli-ja/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-07-08T05:35:04",
+          "excerpt": "オンプレミスの HPC 環境からの移行を進める研究チームは、クラウドへのデプロイの複雑さに悩まされることがよく […]"
+        },
+        {
+          "title": "GitLost: GitHub の AI エージェントをだましてプライベート リポジトリを漏洩させた",
+          "link": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-08T05:25:35",
+          "excerpt": "記事の URL: https://noma.…"
+        },
         {
           "title": "はじめての監視実装をGitLab Runnerでやってみて学んだこと | Adwaysエンジニアブログ",
           "link": "https://blog.engineer.adways.net/entry/2026/07/08/120000",
@@ -162,52 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-08T02:32:11",
           "excerpt": "AWS DevOps Agent のサンプルスキル集から「Investigation Cost Guardrail」を試してみました。…"
-        },
-        {
-          "title": "GitHub AI エージェントがうまく質問するとプライベート リポジトリを漏洩する",
-          "link": "https://www.theregister.com/security/2026/07/07/github-ai-agent-leaks-private-repos-when-asked-nicely/5267924",
-          "source": "The Register（英語）",
-          "published": "2026-07-07T19:49:01",
-          "excerpt": "いつものように、GitLost には修正もドキュメントもありません。"
-        },
-        {
-          "title": "HN に質問: GitHub はログインの壁を越える準備をしていますか?",
-          "link": "https://news.ycombinator.com/item?id=48821803",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-07T18:40:40",
-          "excerpt": "私はオープンソース プロジェクトがまだすべてのユーザーに利用可能であることを時々確認します。また、stargazers (1) の情報がログインしていないユーザーに対して 404 を返すことに時折気づきました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【備忘】【AWS関連】公式ブログ および アップデートまとめ（ネットワーク関連のみ抽出）(2026/06/22)",
-      "link": "https://qiita.com/dctsatopy/items/1261c9367f86611055c5",
+      "title": "AIチップメーカーSambaNova、前回のメガラウンドから5か月後、評価額110億ドルで10億ドルを調達",
+      "link": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-08T07:16:00",
+      "excerpt": "AIチップメーカーのSambaNovaは、Intelが同社を約16億ドルで買収しようとしていると噂された数カ月後に、評価額110億ドルで調達した。"
+    },
+    {
+      "title": "AWS Verified Accessを理解する 〜VPNレスで実現するZTNA〜",
+      "link": "https://qiita.com/mari_cat/items/2513e4871279e61a3e02",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-08T04:40:50",
-      "excerpt": "この記事について AWS 公式が公表している週刊 AWS やアップデート情報の中から、ネットワークリソース関連の情報を集約して把握するため、Claude を活用してサマリーを生成・出力しています。…"
+      "published": "2026-07-08T07:08:25",
+      "excerpt": "はじめに AWSにゼロトラストネットワークアクセス (ZTNA)を実現するサービスがあることをご存じでしょうか？…"
     },
     {
-      "title": "【今年も開催！】全国8都市を巡るAWS デジタル社会実現ツアー2026",
-      "link": "https://aws.amazon.com/jp/blogs/news/japan-nationwide-roadshow-2026/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-07-08T04:11:27",
-      "excerpt": "2022年にスタートし、毎年全国の地域を巡ってきた「AWS デジタル社会実現ツアー」が今年で 5年目 を迎えま […]"
+      "title": "Snowflake のマスキングポリシーと集計ポリシーを併用してSnowflake CoCoの利用時にPII をマスキングしつつ集計できるか試してみた",
+      "link": "https://dev.classmethod.jp/articles/snowflake-coco-masking-policy-aggregation-policy-pii/",
+      "source": "DevelopersIO",
+      "published": "2026-07-08T06:57:38",
+      "excerpt": "前回までの記事で検証したマスキングポリシーと集計ポリシーを、同時に活用したいというニーズに応えるため、`SYSTEM$GET_TAG_ON_CURRENT_TABLE`による条件分岐マスキングと条件付き集計ポリシーの併用構成を検証しました。…"
     },
     {
-      "title": "「AIで障害調査」どころじゃなかったDeNA　「2週間でも無理」だった原因特定をどう2日で実現？",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/08/news057.html",
-      "source": "@IT",
-      "published": "2026-07-08T04:00:00",
-      "excerpt": "DeNAではITインフラの運用管理にAIを活用する上で、ログなどの運用データの分散が課題となっていた。同社はこの課題を解決し、AIを活用した障害調査で原因特定にかかる期間を短縮した。具体的に何をしたのか。"
-    },
-    {
-      "title": "Synology、QNAP、TrueNAS を使用せずに最小限の ZFS NAS を構築する方法",
-      "link": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-08T03:59:35",
-      "excerpt": "記事の URL: https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/ コメント URL: https://news.ycombinator.…"
+      "title": "サーバ投資で250億円未払いか　顧客ら、会社を詐欺罪で東京地検特捜部に刑事告訴",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/08/news147.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-08T06:53:00",
+      "excerpt": "顧客が購入したサーバを第三者に貸し出し、配当を支払うなどとして購入を募ったサーバー機器関連企業「クリアースカイ」（京都市）について、顧客らの弁護団は7月8日、6人から2億円超を詐取したとして、詐欺罪などで、東京地検特捜部に告訴状を提出した。…"
     }
   ]
 }
