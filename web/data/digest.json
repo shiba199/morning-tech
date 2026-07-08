@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-08T01:26:33",
+  "generated_at": "2026-07-08T04:41:15",
   "window_hours": 24,
-  "total": 220,
+  "total": 232,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が31件。Claude Code v2.1.203がリリースされました。バックグラウンドエージェントの安定性向上が中心で、macOS での起動停止やセッション応答不能といった実運用で遭遇しやすかった複数の不具合が解消されています。…",
+      "summary": "生成AIの新着が29件。こんにちは。運用保守部のきむ兄です。…",
       "articles": [
         {
-          "title": "Claude Code v2.1.203 の主要アップデート - 7月12日まで、全有料プランでClaude Fable 5へのアクセスが延長",
-          "link": "https://dev.classmethod.jp/articles/20260708-cc-updates-v2-1-203/",
-          "source": "DevelopersIO",
-          "published": "2026-07-08T01:07:34",
-          "excerpt": "Claude Code v2.1.203がリリースされました。バックグラウンドエージェントの安定性向上が中心で、macOS での起動停止やセッション応答不能といった実運用で遭遇しやすかった複数の不具合が解消されています。…"
+          "title": "Claude Codeに、とある外部連携システムを導入するまでと検証環境を作る手順書を作るまでの顛末ブログを書かせてみた件 | hacomono TECH BLOG",
+          "link": "https://techblog.hacomono.jp/entry/2026/07/08/110000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-08T04:00:00",
+          "excerpt": "こんにちは。運用保守部のきむ兄です。…"
         },
         {
-          "title": "「Claude Fable 5」サブスク、突如5日間延長　ユーザー悲喜こもごも「寝ずに頑張ったのに」「制限リセットして」",
-          "link": "https://www.itmedia.co.jp/news/articles/2607/08/news070.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-07-08T00:29:00",
-          "excerpt": "歓迎の声もある一方で、「睡眠と健康を犠牲にして使い切った直後に延長を知った」「最後の最後で発表するのはやめてくれ」といった恨み節も。"
+          "title": "カナダの州政府、Claude Codeで4億6600万行のコードを20時間で診断",
+          "link": "https://codezine.jp/article/detail/28880",
+          "source": "CodeZine",
+          "published": "2026-07-08T04:00:00",
+          "excerpt": "カナダの州政府、Claude Codeで4億6600万行のコードを20時間で診断"
         },
         {
-          "title": "ClaudeとGPT-5に何度もキャッチボールでコードレビューさせたのに、なぜ抜けは残ったのか",
-          "link": "https://dev.classmethod.jp/articles/ai-code-review-catchball-gas-experience/",
-          "source": "DevelopersIO",
-          "published": "2026-07-08T00:16:59",
-          "excerpt": "GASで社内ツールを開発する際、ClaudeとGPT-5にキャッチボール形式でコードレビューをさせてみました。AIレビューで見つかった改善点がある一方で、人間レビューでしか気づけない落とし穴も出てきた経験をお話しします。"
+          "title": "【AWS】Ruby作ったAIエージェントをBedrock AgentCore Runtimeで動かしてみた！",
+          "link": "https://qiita.com/PDC-Kurashinak/items/1c85446e78b5c4e4155b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-08T04:00:00",
+          "excerpt": "どうもこんにちは。今回は、Ruby製のLLMクライアントライブラリである RubyLLM を、Amazon Bedrock AgentCore Runtime 上にデプロイして動かしてみます。…"
         },
         {
-          "title": "HN を表示: Fortress – エージェントがブロックされないようにするステルス Chromium",
-          "link": "https://github.com/tiliondev/fortress",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-08T00:08:21",
-          "excerpt": "記事の URL: https://github.com/tiliondev/fortress コメント URL: https://news.ycombinator.com/item?id=48825745 ポイント: 12 コメント数: 2"
+          "title": "GoogleがGemma4をApache 2.0ライセンスでリリース、マルチモーダルおよびエージェント機能搭載",
+          "link": "https://www.infoq.com/jp/news/2026/07/google-gemm4/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ（日本語）",
+          "published": "2026-07-08T03:30:00",
+          "excerpt": "Googleは最近、Gemma 4をリリースした。実効2Bおよび4Bのエッジバリアント、26BのMixture-of-Expertsモデル、31B denseモデルで構成されるオープンウェイトモデルのファミリーで、いずれもApache 2.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。Amazon Redshift RA3 クラスターを Graviton ベースの RG インスタンスに移行する方法を解説します。…",
+      "summary": "クラウドの新着が21件。VPC エンドポイントの「ゲートウェイ型」と「インターフェース型」について、なぜ S3・DynamoDB だけが特別扱いなのか、その仕組みの違いと背景を調べてまとめました。丸暗記していた知識が、仕組みから納得感を持って理解できます。",
       "articles": [
+        {
+          "title": "ゲートウェイ型 VPC エンドポイントが S3・DynamoDB だけな理由を考察してみた",
+          "link": "https://dev.classmethod.jp/articles/vpc-gateway-endpoint-s3-dynamodb/",
+          "source": "DevelopersIO",
+          "published": "2026-07-08T02:26:40",
+          "excerpt": "VPC エンドポイントの「ゲートウェイ型」と「インターフェース型」について、なぜ S3・DynamoDB だけが特別扱いなのか、その仕組みの違いと背景を調べてまとめました。丸暗記していた知識が、仕組みから納得感を持って理解できます。"
+        },
+        {
+          "title": "Legacy Notebook の共有ワークスペースへの移行を試してみる #SnowflakeDB",
+          "link": "https://dev.classmethod.jp/articles/snowflake-notebook-shared-workspace-migration/",
+          "source": "DevelopersIO",
+          "published": "2026-07-08T01:39:52",
+          "excerpt": "2026年6月に今後の廃止が発表されたLegacy Notebookを共有ワークスペースへ移行し、複数ユーザーで参照できるようにするまでの手順を試してみました。移行方法から権限設定、スケジュール実行の設定までをまとめています。"
+        },
         {
           "title": "Amazon Redshift のモダナイゼーション: RA3 から RG への移行ベストプラクティス",
           "link": "https://aws.amazon.com/jp/blogs/news/modernize-amazon-redshift-ra3-to-rg-migration-best-practices/",
@@ -57,63 +71,63 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-07T22:47:43",
           "excerpt": "はじめに 2026年4月に、AWS Lambda から Amazon S3 Files をマウントできるようになりました。…"
-        },
-        {
-          "title": "EC2入門 — インスタンス起動からSSH接続まで（Javaエンジニア向け）",
-          "link": "https://qiita.com/hitobussi/items/9c3cd3e780f90adb26ca",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-07T22:32:58",
-          "excerpt": "EC2入門 — インスタンス起動からSSH接続まで（Javaエンジニア向け） はじめに AWS入門シリーズ2回目。今回は EC2（Elastic Compute Cloud）。…"
-        },
-        {
-          "title": "AIインフラのスピードと予算の壁をどう超える？　日本のSIer依存を見据えた、デルの戦略を聞いた",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/08/news020.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-07-07T22:00:00",
-          "excerpt": "AIの進化に伴い、ITインフラのスピードと予算の課題は深刻化している。さらに日本特有のSIer依存が状況の分析や投資判断を遅らせている。デル・テクノロジーズはどう応えるのか。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。メールセキュリティ製品を導入しているからといって、安心とは限らない。QRコードを悪用したフィッシング攻撃は、従来のメールゲートウェイが前提としてきた検査方法をすり抜ける可能性があるという。どう対策をすればいいか。",
+      "summary": "セキュリティの新着が14件。Security Hubに追加された「露出（Exposure）」の検出結果を実環境で確認しました。…",
       "articles": [
+        {
+          "title": "AWS Security Hubの「露出」検出結果で潜在リスクを可視化してみた",
+          "link": "https://dev.classmethod.jp/articles/security-hub-exposure-findings/",
+          "source": "DevelopersIO",
+          "published": "2026-07-08T04:16:09",
+          "excerpt": "Security Hubに追加された「露出（Exposure）」の検出結果を実環境で確認しました。…"
+        },
+        {
+          "title": "「セキュリティ対策証明」経験ありは8割超、だがSCS評価制度迫るも“SaaS把握率”は2割未満",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/08/news060.html",
+          "source": "@IT",
+          "published": "2026-07-08T04:00:00",
+          "excerpt": "サプライチェーン強化に向けた新制度の運用開始を控える中、取引先からセキュリティ対策の証明を求められた経験がある担当者が大多数だが、対策は追い付いていない。SmartHRの実態調査から明らかになった。"
+        },
+        {
+          "title": "「事後対応」中心の運用から脱却する「AIセキュリティ」の始め方　Google解説",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/08/news059.html",
+          "source": "@IT",
+          "published": "2026-07-08T04:00:00",
+          "excerpt": "Google Cloudは、政府機関や重要インフラを守るCISO向けに、AIを活用した防御の始め方を解説するガイドを公開した。管理業務の負荷をAIで軽減し、脅威ハンティングや構造的な統合へ段階的に移行するロードマップを示している。"
+        },
         {
           "title": "QRコード攻撃はなぜメールセキュリティを無力化できるのか？　その理由を解説",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/08/news048.html",
           "source": "@IT",
           "published": "2026-07-07T22:00:00",
           "excerpt": "メールセキュリティ製品を導入しているからといって、安心とは限らない。QRコードを悪用したフィッシング攻撃は、従来のメールゲートウェイが前提としてきた検査方法をすり抜ける可能性があるという。どう対策をすればいいか。"
-        },
-        {
-          "title": "AI と暗号の出会い 1: AI が Cloudflare の Circl で見つけたもの",
-          "link": "https://blog.zksecurity.xyz/posts/circl-bugs/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-07T18:36:35",
-          "excerpt": "記事の URL: https://blog.zksecurity.xyz/posts/circl-bugs/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "AWS Security Hub は統合セキュリティ管理を Microsoft Azure に拡張します",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-security-hub-supports-monitoring-microsoft-azure/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-07T18:21:00",
-          "excerpt": "本日、AWS は、AWS Security Hub が Microsoft Azure リソースを監視し、リスク分析、クラウドセキュリティ体制管理、脆弱性管理、セキュリティ対応管理を両方のクラウドにわたって拡張したことを発表しました。…"
-        },
-        {
-          "title": "CAI クラウド ワームは競合他社のマルウェアに起動を与え、秘密を盗み、コインを採掘します",
-          "link": "https://www.theregister.com/cyber-crime/2026/07/07/cai-cloud-worm-gives-competitors-malware-the-boot-then-steals-secrets-and-mines-for-coin/5267856",
-          "source": "The Register（英語）",
-          "published": "2026-07-07T17:15:00",
-          "excerpt": "資格情報を盗む攻撃者にとって、弱肉強食の世界"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。Amazon Redshift RA3 クラスターを Graviton ベースの RG インスタンスに移行する方法を解説します。…",
+      "summary": "データ分析の新着が7件。VPC エンドポイントの「ゲートウェイ型」と「インターフェース型」について、なぜ S3・DynamoDB だけが特別扱いなのか、その仕組みの違いと背景を調べてまとめました。丸暗記していた知識が、仕組みから納得感を持って理解できます。",
       "articles": [
+        {
+          "title": "ゲートウェイ型 VPC エンドポイントが S3・DynamoDB だけな理由を考察してみた",
+          "link": "https://dev.classmethod.jp/articles/vpc-gateway-endpoint-s3-dynamodb/",
+          "source": "DevelopersIO",
+          "published": "2026-07-08T02:26:40",
+          "excerpt": "VPC エンドポイントの「ゲートウェイ型」と「インターフェース型」について、なぜ S3・DynamoDB だけが特別扱いなのか、その仕組みの違いと背景を調べてまとめました。丸暗記していた知識が、仕組みから納得感を持って理解できます。"
+        },
+        {
+          "title": "PR： 「AIファースト」の前にやるべきこと――東大、日本マイクロソフト、リコー、レゾナックが語るデータ基盤の未来",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/08/news001.html",
+          "source": "@IT",
+          "published": "2026-07-08T01:00:00",
+          "excerpt": "AI利用の取り組みが活発化する一方、成果を十分に享受できている企業は一部にとどまる。その背景には、既存のデータベースやインフラが“AI前提”の仕組みになっておらず、データの品質、所在、来歴、権限管理が十分に整備されていない課題がある。…"
+        },
         {
           "title": "Amazon Redshift のモダナイゼーション: RA3 から RG への移行ベストプラクティス",
           "link": "https://aws.amazon.com/jp/blogs/news/modernize-amazon-redshift-ra3-to-rg-migration-best-practices/",
@@ -127,28 +141,28 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-07T17:06:00",
           "excerpt": "Amazon EMR Serverless では、最大 244 GB のメモリを備えた 32 vCPU の大規模なワーカー構成が提供されるようになり、より多くのコンピューティングとメモリを大量に使用するワークロードを実行できるようになりまし…"
-        },
-        {
-          "title": "Amazon Redshift RG インスタンスが AWS GovCloud (米国) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-instances-aws-govcloud",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-07T16:00:00",
-          "excerpt": "AWS Graviton プロセッサを搭載した Amazon Redshift RG インスタンスが、AWS GovCloud (米国西部) および AWS GovCloud (米国東部) リージョンで利用できるようになりました。…"
-        },
-        {
-          "title": "kiro-cli + playwright-cli で QuickSight ダッシュボードのUI検証を自動化してみた",
-          "link": "https://qiita.com/zumax/items/eabbf38c552ddf52b1c5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-07T10:41:05",
-          "excerpt": "背景・目的 前編では、kiro-cli に playwright-cli を導入し、QuickSight ダッシュボードにアクセスして「数値が表示されているか」の確認とキャプチャ取得までを行いました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が17件。いつものように、GitLost には修正もドキュメントもありません。",
+      "summary": "開発ツールの新着が16件。こんにちは！技術本部の技術戦略ディビジョンで主にEOL対応巻き取りなどをしているインフラエンジニアの片岡です。この記事では、以下の内容を書いています。…",
       "articles": [
+        {
+          "title": "はじめての監視実装をGitLab Runnerでやってみて学んだこと | Adwaysエンジニアブログ",
+          "link": "https://blog.engineer.adways.net/entry/2026/07/08/120000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-08T03:00:00",
+          "excerpt": "こんにちは！技術本部の技術戦略ディビジョンで主にEOL対応巻き取りなどをしているインフラエンジニアの片岡です。この記事では、以下の内容を書いています。…"
+        },
+        {
+          "title": "[やってみた] DevOps Agent のサンプルスキル「Investigation Cost Guardrail」で調査にかかるコストを算出してみた",
+          "link": "https://dev.classmethod.jp/articles/devops-agent-InvestigationCostGuardrail/",
+          "source": "DevelopersIO",
+          "published": "2026-07-08T02:32:11",
+          "excerpt": "AWS DevOps Agent のサンプルスキル集から「Investigation Cost Guardrail」を試してみました。…"
+        },
         {
           "title": "GitHub AI エージェントがうまく質問するとプライベート リポジトリを漏洩する",
           "link": "https://www.theregister.com/security/2026/07/07/github-ai-agent-leaks-private-repos-when-asked-nicely/5267924",
@@ -162,52 +176,38 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-07T18:40:40",
           "excerpt": "私はオープンソース プロジェクトがまだすべてのユーザーに利用可能であることを時々確認します。また、stargazers (1) の情報がログインしていないユーザーに対して 404 を返すことに時折気づきました。…"
-        },
-        {
-          "title": "新しいツールは、代わりに CLI に温かみのある GUI 感覚を与えます",
-          "link": "https://www.theregister.com/software/2026/07/07/new-tool-gives-clis-a-warm-and-gui-feeling-instead/5267798",
-          "source": "The Register（英語）",
-          "published": "2026-07-07T16:30:00",
-          "excerpt": "フラグを忘れるのにうんざりしていませんか?Instagui に --help 出力を読み込ませ、代わりにブラウザ GUI を構築させます…"
-        },
-        {
-          "title": "Visual Studio Code、従量課金制になったGitHub Copilotの消費トークン数を表示可能に",
-          "link": "https://www.publickey1.jp/blog/26/visual_studio_codegithub_copilot.html",
-          "source": "Publickey",
-          "published": "2026-07-07T15:55:48",
-          "excerpt": "マイクロソフトはVisual Studio Codeの新機能として、GitHub Copilotで消費した生成AIのトークン数などを表示できるようにしました。GitHub Copilotは今年（2026年）6月から、生成AIを利用したチャ.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Google MeetハードウェアがSIP経由の相互接続機能に対応",
-      "link": "https://codezine.jp/article/detail/28878",
-      "source": "CodeZine",
-      "published": "2026-07-08T01:00:00",
-      "excerpt": "Google MeetハードウェアがSIP経由の相互接続機能に対応"
+      "title": "【備忘】【AWS関連】公式ブログ および アップデートまとめ（ネットワーク関連のみ抽出）(2026/06/22)",
+      "link": "https://qiita.com/dctsatopy/items/1261c9367f86611055c5",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-08T04:40:50",
+      "excerpt": "この記事について AWS 公式が公表している週刊 AWS やアップデート情報の中から、ネットワークリソース関連の情報を集約して把握するため、Claude を活用してサマリーを生成・出力しています。…"
     },
     {
-      "title": "HN を表示: チップチューン ラジオ",
-      "link": "https://chiptune-radio.alephvoid.com/",
+      "title": "【今年も開催！】全国8都市を巡るAWS デジタル社会実現ツアー2026",
+      "link": "https://aws.amazon.com/jp/blogs/news/japan-nationwide-roadshow-2026/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-07-08T04:11:27",
+      "excerpt": "2022年にスタートし、毎年全国の地域を巡ってきた「AWS デジタル社会実現ツアー」が今年で 5年目 を迎えま […]"
+    },
+    {
+      "title": "「AIで障害調査」どころじゃなかったDeNA　「2週間でも無理」だった原因特定をどう2日で実現？",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/08/news057.html",
+      "source": "@IT",
+      "published": "2026-07-08T04:00:00",
+      "excerpt": "DeNAではITインフラの運用管理にAIを活用する上で、ログなどの運用データの分散が課題となっていた。同社はこの課題を解決し、AIを活用した障害調査で原因特定にかかる期間を短縮した。具体的に何をしたのか。"
+    },
+    {
+      "title": "Synology、QNAP、TrueNAS を使用せずに最小限の ZFS NAS を構築する方法",
+      "link": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-08T00:55:19",
-      "excerpt": "私はチップチューン ソング ジェネレーターを構築し、そのブロードキャスト アルゴリズムによってチップチューン ミュージックを生成しました。コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "実際のデータセットにわたるベンフォードの法則のインタラクティブなエクスプローラー",
-      "link": "https://vatsalbakshi.com/blog/benfords-law/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-08T00:18:39",
-      "excerpt": "記事の URL: https://vatsalbakshi.com/blog/benfords-law/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "第918回　homepageでクールな家庭内ポータル兼サービスダッシュボードを作ろう",
-      "link": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0918?utm_source=feed",
-      "source": "gihyo.jp 開発",
-      "published": "2026-07-08T00:14:00",
-      "excerpt": "家庭内で様々なサーバーやWebアプリを動かしていると、それらをまとめたダッシュボードがほしくなりますよね。今回はそうしたサービスダッシュボードを手軽に作れるhomepageを紹介します。"
+      "published": "2026-07-08T03:59:35",
+      "excerpt": "記事の URL: https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/ コメント URL: https://news.ycombinator.…"
     }
   ]
 }
