@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-08T07:22:10",
+  "generated_at": "2026-07-08T09:43:30",
   "window_hours": 24,
-  "total": 238,
+  "total": 231,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が32件。ChatGPT から AWS を操作したいけど、MCP サーバーをインターネットに公開するのは避けたい—そんな課題を、OpenAI の Secure MCP Tunnel と ECS Fargate で解決してみました。…",
+      "summary": "生成AIの新着が32件。用語解説（本編に入る前に） 受肉（じゅにく）: 姿を持たない存在がアバター＝肉体を得ること。本記事では「テキストしか出力しない AWS のサービスに、キャラクターの姿と声を与えること」の意味で使います。0.…",
       "articles": [
         {
-          "title": "OpenAI Secure MCP TunnelでAWS認証情報を渡さずにChatGPTから操作する",
-          "link": "https://dev.classmethod.jp/articles/openai-secure-mcp-tunnel-aws-fargate/",
+          "title": "[AWS]DevOpsAgentを受肉させていただきました",
+          "link": "https://qiita.com/kikuziro/items/3190db9f5d5051ae69fd",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-08T09:18:36",
+          "excerpt": "用語解説（本編に入る前に） 受肉（じゅにく）: 姿を持たない存在がアバター＝肉体を得ること。本記事では「テキストしか出力しない AWS のサービスに、キャラクターの姿と声を与えること」の意味で使います。0.…"
+        },
+        {
+          "title": "EC2 は CloudWatch エージェントからサポートされています。",
+          "link": "https://dev.classmethod.jp/articles/lim-cloudwatch-agent-ec2-console/",
           "source": "DevelopersIO",
-          "published": "2026-07-08T07:07:30",
-          "excerpt": "ChatGPT から AWS を操作したいけど、MCP サーバーをインターネットに公開するのは避けたい—そんな課題を、OpenAI の Secure MCP Tunnel と ECS Fargate で解決してみました。…"
+          "published": "2026-07-08T08:36:16",
+          "excerpt": "EC2 は CloudWatch エージェントの機能を備えています。SSM の機能は、UI の機能を備えた機能を備えています。확인까지 단계별로 소개합니다。…"
         },
         {
-          "title": "AWS パートナーと実現する生成 AI — 現場を変える8つの実践事例 AWS Summit Japan 2026 Partner Breakout Session レポート",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC%E3%81%A8%E5%AE%9F%E7%8F%BE%E3%81%99%E3%82%8B%E7%94%9F%E6%88%90-ai-%E7%8F%BE%E5%A0%B4%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B8%E3%81%A4%E3%81%AE/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-08T07:00:47",
-          "excerpt": "AWS Summit Japan 2026（2026年6月25日〜26日、幕張メッセ）では、「AWS パートナ […]"
+          "title": "「楽楽精算」AIエージェント実装で立ちはだかった3つの壁と突破の裏側 | RAKUS Developers Blog | ラクス エンジニアブログ",
+          "link": "https://tech-blog.rakus.co.jp/entry/20260703/aiagent",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-08T08:09:12",
+          "excerpt": "こんにちは！AIエージェント開発課です。近年、生成AIの進化スピードは凄まじく、単なるテキストの要約やドラフト生成の枠を超え、自律的に判断してタスクを実行する「AIエージェント」が大きなトレンドとなっています。…"
         },
         {
-          "title": "IAMユーザーを持っていないメンバーや外部の人間とS3バケット上のオブジェクトをやり取りする際はStorage Browser for S3も検討しよう",
-          "link": "https://dev.classmethod.jp/articles/storage-browser-for-s3-amplify/",
-          "source": "DevelopersIO",
-          "published": "2026-07-08T05:49:26",
-          "excerpt": "IAMユーザーを持たない外部ユーザーとのファイル共有を、低コストかつ運用負荷を抑えて実現する方法を検討します。…"
-        },
-        {
-          "title": "AIエージェント向けAmazon WorkSpacesが一般提供、モダナイズ前のアプリも支援",
-          "link": "https://codezine.jp/article/detail/28883",
-          "source": "CodeZine",
-          "published": "2026-07-08T05:30:00",
-          "excerpt": "AIエージェント向けAmazon WorkSpacesが一般提供、モダナイズ前のアプリも支援"
+          "title": "フランスの人気スタートアップ ZML が、多数の AI チップにわたる推論を高速化する無料製品をリリース",
+          "link": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-08T08:00:00",
+          "excerpt": "チューリング賞受賞者のヤン・ルカン氏が支持するフランスの注目の AI スタートアップ企業 ZML は、AI の実行コストを削減できるソフトウェア ZML/LLMD をリリースしました。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。以前、WorkSpacesはリージョンごとの固定DNSしか持たないという制約がある、という記事を書きました。この仕様はいろいろな制約につながるため、同記事でも以下2点を改善してほしい点としてあげました。…",
+      "summary": "クラウドの新着が22件。EC2 は CloudWatch エージェントの機能を備えています。SSM の機能は、UI の機能を備えた機能を備えています。확인까지 단계별로 소개합니다。…",
       "articles": [
+        {
+          "title": "EC2 は CloudWatch エージェントからサポートされています。",
+          "link": "https://dev.classmethod.jp/articles/lim-cloudwatch-agent-ec2-console/",
+          "source": "DevelopersIO",
+          "published": "2026-07-08T08:36:16",
+          "excerpt": "EC2 は CloudWatch エージェントの機能を備えています。SSM の機能は、UI の機能を備えた機能を備えています。확인까지 단계별로 소개합니다。…"
+        },
+        {
+          "title": "AWS Lambda Durable Functions を本番運用する - Python SDK のしくみと運用のポイント | IVRyテックブログのフィード",
+          "link": "https://zenn.dev/ivry/articles/ff7d2e939b3e61",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-08T06:14:49",
+          "excerpt": "こんにちは。Embedded SRE の komtaki です。re:Invent 2025 で発表された AWS Lambda Durable Functions を、非同期処理待ちのワークフローで本番運用し始めました。…"
+        },
         {
           "title": "WorkSpaces VPCエンドポイントが「グローバルに一意のDNS名」を持つようになったので検証してみた",
           "link": "https://qiita.com/s-niim/items/8971be7c4e2bdafaaa38",
@@ -57,27 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-08T05:49:26",
           "excerpt": "IAMユーザーを持たない外部ユーザーとのファイル共有を、低コストかつ運用負荷を抑えて実現する方法を検討します。…"
-        },
-        {
-          "title": "ゲートウェイ型 VPC エンドポイントが S3・DynamoDB だけな理由を考察してみた",
-          "link": "https://dev.classmethod.jp/articles/vpc-gateway-endpoint-s3-dynamodb/",
-          "source": "DevelopersIO",
-          "published": "2026-07-08T02:26:40",
-          "excerpt": "VPC エンドポイントの「ゲートウェイ型」と「インターフェース型」について、なぜ S3・DynamoDB だけが特別扱いなのか、その仕組みの違いと背景を調べてまとめました。丸暗記していた知識が、仕組みから納得感を持って理解できます。"
-        },
-        {
-          "title": "Legacy Notebook の共有ワークスペースへの移行を試してみる #SnowflakeDB",
-          "link": "https://dev.classmethod.jp/articles/snowflake-notebook-shared-workspace-migration/",
-          "source": "DevelopersIO",
-          "published": "2026-07-08T01:39:52",
-          "excerpt": "2026年6月に今後の廃止が発表されたLegacy Notebookを共有ワークスペースへ移行し、複数ユーザーで参照できるようにするまでの手順を試してみました。移行方法から権限設定、スケジュール実行の設定までをまとめています。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。ChatGPT から AWS を操作したいけど、MCP サーバーをインターネットに公開するのは避けたい—そんな課題を、OpenAI の Secure MCP Tunnel と ECS Fargate で解決してみました。…",
+      "summary": "セキュリティの新着が14件。ChatGPT から AWS を操作したいけど、MCP サーバーをインターネットに公開するのは避けたい—そんな課題を、OpenAI の Secure MCP Tunnel と ECS Fargate で解決してみました。…",
       "articles": [
         {
           "title": "OpenAI Secure MCP TunnelでAWS認証情報を渡さずにChatGPTから操作する",
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が18件。オンプレミスの HPC 環境からの移行を進める研究チームは、クラウドへのデプロイの複雑さに悩まされることがよく […]",
+      "summary": "開発ツールの新着が18件。GitHub Copilot、オープンウェイトモデル「Kimi K2.7 Code」が利用可能に",
       "articles": [
+        {
+          "title": "GitHub Copilot、オープンウェイトモデル「Kimi K2.7 Code」が利用可能に",
+          "link": "https://codezine.jp/article/detail/28884",
+          "source": "CodeZine",
+          "published": "2026-07-08T07:00:00",
+          "excerpt": "GitHub Copilot、オープンウェイトモデル「Kimi K2.7 Code」が利用可能に"
+        },
+        {
+          "title": "AWS Lambda Durable Functions を本番運用する - Python SDK のしくみと運用のポイント | IVRyテックブログのフィード",
+          "link": "https://zenn.dev/ivry/articles/ff7d2e939b3e61",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-08T06:14:49",
+          "excerpt": "こんにちは。Embedded SRE の komtaki です。re:Invent 2025 で発表された AWS Lambda Durable Functions を、非同期処理待ちのワークフローで本番運用し始めました。…"
+        },
         {
           "title": "AWS Parallel Computing Service と Kiro CLI で HPC のデプロイを加速する",
           "link": "https://aws.amazon.com/jp/blogs/news/accelerating-hpc-deployment-with-aws-parallel-computing-service-and-kiro-cli-ja/",
@@ -162,52 +176,38 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-08T05:25:35",
           "excerpt": "記事の URL: https://noma.…"
-        },
-        {
-          "title": "はじめての監視実装をGitLab Runnerでやってみて学んだこと | Adwaysエンジニアブログ",
-          "link": "https://blog.engineer.adways.net/entry/2026/07/08/120000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-08T03:00:00",
-          "excerpt": "こんにちは！技術本部の技術戦略ディビジョンで主にEOL対応巻き取りなどをしているインフラエンジニアの片岡です。この記事では、以下の内容を書いています。…"
-        },
-        {
-          "title": "[やってみた] DevOps Agent のサンプルスキル「Investigation Cost Guardrail」で調査にかかるコストを算出してみた",
-          "link": "https://dev.classmethod.jp/articles/devops-agent-InvestigationCostGuardrail/",
-          "source": "DevelopersIO",
-          "published": "2026-07-08T02:32:11",
-          "excerpt": "AWS DevOps Agent のサンプルスキル集から「Investigation Cost Guardrail」を試してみました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AIチップメーカーSambaNova、前回のメガラウンドから5か月後、評価額110億ドルで10億ドルを調達",
-      "link": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-08T07:16:00",
-      "excerpt": "AIチップメーカーのSambaNovaは、Intelが同社を約16億ドルで買収しようとしていると噂された数カ月後に、評価額110億ドルで調達した。"
+      "title": "内務省の不手際な電子ビザの展開で、英国のプライバシー規制当局が活動家の標的にされる",
+      "link": "https://www.theregister.com/software/2026/07/08/home-offices-glitchy-evisa-rollout-lands-uk-privacy-regulator-in-campaigners-crosshairs/5267712",
+      "source": "The Register（英語）",
+      "published": "2026-07-08T09:15:00",
+      "excerpt": "連合は、バグに悩まされたデジタル移民ステータス制度に関する数百件の苦情にもかかわらず、ICOは行動を起こさなかったと主張"
     },
     {
-      "title": "AWS Verified Accessを理解する 〜VPNレスで実現するZTNA〜",
-      "link": "https://qiita.com/mari_cat/items/2513e4871279e61a3e02",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-08T07:08:25",
-      "excerpt": "はじめに AWSにゼロトラストネットワークアクセス (ZTNA)を実現するサービスがあることをご存じでしょうか？…"
+      "title": "Web向け統合ツールチェーン「Vite+」ベータ版リリース",
+      "link": "https://codezine.jp/article/detail/28896",
+      "source": "CodeZine",
+      "published": "2026-07-08T09:00:00",
+      "excerpt": "Web向け統合ツールチェーン「Vite+」ベータ版リリース"
     },
     {
-      "title": "Snowflake のマスキングポリシーと集計ポリシーを併用してSnowflake CoCoの利用時にPII をマスキングしつつ集計できるか試してみた",
-      "link": "https://dev.classmethod.jp/articles/snowflake-coco-masking-policy-aggregation-policy-pii/",
-      "source": "DevelopersIO",
-      "published": "2026-07-08T06:57:38",
-      "excerpt": "前回までの記事で検証したマスキングポリシーと集計ポリシーを、同時に活用したいというニーズに応えるため、`SYSTEM$GET_TAG_ON_CURRENT_TABLE`による条件分岐マスキングと条件付き集計ポリシーの併用構成を検証しました。…"
+      "title": "Microsoft、「SkiaSharp 4.0」の安定版をリリース",
+      "link": "https://codezine.jp/article/detail/28895",
+      "source": "CodeZine",
+      "published": "2026-07-08T09:00:00",
+      "excerpt": "Microsoft、「SkiaSharp 4.0」の安定版をリリース"
     },
     {
-      "title": "サーバ投資で250億円未払いか　顧客ら、会社を詐欺罪で東京地検特捜部に刑事告訴",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/08/news147.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-08T06:53:00",
-      "excerpt": "顧客が購入したサーバを第三者に貸し出し、配当を支払うなどとして購入を募ったサーバー機器関連企業「クリアースカイ」（京都市）について、顧客らの弁護団は7月8日、6人から2億円超を詐取したとして、詐欺罪などで、東京地検特捜部に告訴状を提出した。…"
+      "title": "ユニクロ T シャツの難読化された bash スクリプトを解読する",
+      "link": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-08T08:46:06",
+      "excerpt": "記事の URL: https://tris.sherliker.…"
     }
   ]
 }
