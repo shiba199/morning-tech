@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-08T11:41:21",
+  "generated_at": "2026-07-08T13:26:56",
   "window_hours": 24,
-  "total": 240,
+  "total": 232,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。セッション: Bedrock AgentCore を使用した専門信用分析エージェントの構築 AWS サミット バンコク2026年",
+      "summary": "生成AIの新着が38件。ストーク・スペースでのケビン・ワイルの新しい役割は、再利用可能なロケットがシリコンバレーで次に注目されるものであることを示唆しています。",
       "articles": [
+        {
+          "title": "元 OpenAI 幹部の Kevin Weil 氏が現在 Stoke Space の取締役に就任",
+          "link": "https://techcrunch.com/2026/07/08/former-openai-exec-kevin-weil-is-now-on-the-board-of-stoke-space/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-08T12:00:00",
+          "excerpt": "ストーク・スペースでのケビン・ワイルの新しい役割は、再利用可能なロケットがシリコンバレーで次に注目されるものであることを示唆しています。"
+        },
+        {
+          "title": "Claude Code で Atlassian MCP サーバーを登録して Jira との接続確認を行う | コラボスタイル Developersのフィード",
+          "link": "https://zenn.dev/collabostyle/articles/0ea214cf0a4859",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-08T11:18:45",
+          "excerpt": "Claude Code から Jira の課題を検索・参照できるようにするための設定手順です。意図しないプロジェクトへの干渉を防ぐための安全対策（対象プロジェクトの限定）の CLAUDE.md への記載例と確認手順を簡単にまとめています。…"
+        },
         {
           "title": "AI エージェントの概要 Amazon Bedrock AgentCore",
           "link": "https://dev.classmethod.jp/articles/Building-specialized-credit-analysis-agents-with-AWS-Bedrock-AgentCore/",
@@ -22,28 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-08T10:00:00",
           "excerpt": "セッション: セキュリティと運用をリアクティブからプロアクティブに変革する AWS サミット バンコク2026年"
-        },
-        {
-          "title": "Amazon BedrockのData retention",
-          "link": "https://qiita.com/tkazuaki0820/items/95aca04e627393f1926c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-08T09:57:05",
-          "excerpt": "今回は、Amazon BedrockのData retentionにを解説する解説となります。Amazon Bedrockではデフォルトでは、AWSに入力したデータはAWS内だけで処理され、AWS外には行かない。…"
-        },
-        {
-          "title": "生成AIの気になるニュース・記事（5/11〜5/17) | 分析屋",
-          "link": "https://note.com/bunsekiya_tech/n/n056ba6caa597",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-08T09:52:46",
-          "excerpt": "こんにちは！分析屋の池田です。5/11〜5/17の期間にリリースされたAIに関する情報をまとめました。続きをみる"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。EC2 は CloudWatch エージェントの機能を備えています。SSM の機能は、UI の機能を備えた機能を備えています。확인까지 단계별로 소개합니다。…",
+      "summary": "クラウドの新着が19件。はじめに こんにちは、インフラ担当の川島です。先日、AWS Summit Japan 2026に参加してきましたので気になったセッションに関して紹介していきたいと思います。…",
       "articles": [
+        {
+          "title": "【セッションレポート】「実践!Amazon RDS と Amazon Aurora のコスト最適化とパフォーマンス向上」 | Fenrir Engineers",
+          "link": "https://engineers.fenrir-inc.com/entry/2026/07/08/210511",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-08T12:05:11",
+          "excerpt": "はじめに こんにちは、インフラ担当の川島です。先日、AWS Summit Japan 2026に参加してきましたので気になったセッションに関して紹介していきたいと思います。…"
+        },
         {
           "title": "EC2 は CloudWatch エージェントからサポートされています。",
           "link": "https://dev.classmethod.jp/articles/lim-cloudwatch-agent-ec2-console/",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-08T06:09:22",
           "excerpt": "以前、WorkSpacesはリージョンごとの固定DNSしか持たないという制約がある、という記事を書きました。この仕様はいろいろな制約につながるため、同記事でも以下2点を改善してほしい点としてあげました。…"
-        },
-        {
-          "title": "IAMユーザーを持っていないメンバーや外部の人間とS3バケット上のオブジェクトをやり取りする際はStorage Browser for S3も検討しよう",
-          "link": "https://dev.classmethod.jp/articles/storage-browser-for-s3-amplify/",
-          "source": "DevelopersIO",
-          "published": "2026-07-08T05:49:26",
-          "excerpt": "IAMユーザーを持たない外部ユーザーとのファイル共有を、低コストかつ運用負荷を抑えて実現する方法を検討します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。はじめに PCA(Professional Cloud Architect)の勉強を始めたので、その過程のメモです。普段はAWSを使っていて、Google Cloudはほぼ初めてという状態でドキュメントを読み始めました。…",
+      "summary": "セキュリティの新着が16件。以前の記事にて、CloudFrontで静的サイトを配信するCDKを実装しました。サイトにはAPI GatewayとLambdaを統合した機能も実装しましたが、APIのURLを知っていれば、誰でもAPIを直接叩ける状況でした。…",
       "articles": [
+        {
+          "title": "【コツコツAWS】Amazon Cognito - 静的サイトに認証追加 -",
+          "link": "https://qiita.com/guupys/items/09d47ae3f50ebf04a1fe",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-08T12:19:12",
+          "excerpt": "以前の記事にて、CloudFrontで静的サイトを配信するCDKを実装しました。サイトにはAPI GatewayとLambdaを統合した機能も実装しましたが、APIのURLを知っていれば、誰でもAPIを直接叩ける状況でした。…"
+        },
         {
           "title": "AWSエンジニアのためのGoogle Cloud脳内変換チートシート：リソース階層とIAMの決定的な違い",
           "link": "https://qiita.com/evesquare/items/0c7627033311d671c295",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-08T10:00:00",
           "excerpt": "セッション: セキュリティと運用をリアクティブからプロアクティブに変革する AWS サミット バンコク2026年"
-        },
-        {
-          "title": "OpenAI Secure MCP TunnelでAWS認証情報を渡さずにChatGPTから操作する",
-          "link": "https://dev.classmethod.jp/articles/openai-secure-mcp-tunnel-aws-fargate/",
-          "source": "DevelopersIO",
-          "published": "2026-07-08T07:07:30",
-          "excerpt": "ChatGPT から AWS を操作したいけど、MCP サーバーをインターネットに公開するのは避けたい—そんな課題を、OpenAI の Secure MCP Tunnel と ECS Fargate で解決してみました。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が18件。AWS Skill BuilderのSimuLearnを無償ライセンスで実際に体験してみました。非エンジニアである営業視点から、初心者がセキュリティや課金の心配なく安心して学べるこのコンテンツの魅力と、正直な所感をお伝えします。",
+      "summary": "開発ツールの新着が17件。はじめに CloudFormation のテンプレートに監視と WAF を追記して、cfn-lint で確認しようとしました。追記して保存 → cfn-lint 実行。…警告1件だけ（W1011 という既知のもの）。…",
       "articles": [
+        {
+          "title": "【CloudFormation】直したのに cfn-lint の結果が変わらない。原因は別ファイルを見ていた話",
+          "link": "https://qiita.com/80-cloud/items/5cd410f25ef450f9d34d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-08T13:12:52",
+          "excerpt": "はじめに CloudFormation のテンプレートに監視と WAF を追記して、cfn-lint で確認しようとしました。追記して保存 → cfn-lint 実行。…警告1件だけ（W1011 という既知のもの）。…"
+        },
         {
           "title": "【非エンジニアがやってみた】AWS SimuLearnで、課金もセキュリティも気にせずAWSを“触って”学ぶ",
           "link": "https://dev.classmethod.jp/articles/aws-simulearn-experience-review/",
@@ -169,45 +176,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-08T06:14:49",
           "excerpt": "こんにちは。Embedded SRE の komtaki です。re:Invent 2025 で発表された AWS Lambda Durable Functions を、非同期処理待ちのワークフローで本番運用し始めました。…"
-        },
-        {
-          "title": "AWS Parallel Computing Service と Kiro CLI で HPC のデプロイを加速する",
-          "link": "https://aws.amazon.com/jp/blogs/news/accelerating-hpc-deployment-with-aws-parallel-computing-service-and-kiro-cli-ja/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-08T05:35:04",
-          "excerpt": "オンプレミスの HPC 環境からの移行を進める研究チームは、クラウドへのデプロイの複雑さに悩まされることがよく […]"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "私たちはこれを間違えました。そして私たちはそれを修正しています",
-      "link": "https://community.hubspot.com/t/we-got-this-wrong-and-we-are-fixing-it/152063",
+      "title": "PostgreSQLをクラスタ化した分散DBでスケーリングと高可用性を実現する「Multigres v0.1」アルファ版が登場",
+      "link": "https://www.publickey1.jp/blog/26/postgresqldbmultigres_v01.html",
+      "source": "Publickey",
+      "published": "2026-07-08T15:33:17",
+      "excerpt": "PostgreSQLをベースにしたBaaS（Backend as a Service）の「Supabase」を開発し提供しているSupabase社は、複数のPostgreSQLをクラスタ化することでデータベースの水平スケールと高可用性などを…"
+    },
+    {
+      "title": "PostgreSQL 19ベータ版が登場。I/Oワーカーの自動スケール、Autovacuumの改善など新機能",
+      "link": "https://www.publickey1.jp/blog/26/postgresql_19ioautovacuum.html",
+      "source": "Publickey",
+      "published": "2026-07-08T15:31:27",
+      "excerpt": "オープンソースのリレーショナルデータベース「PostgreSQL 19」のベータ版が先月（2026年6月）にリリースされています。PostgreSQLは高い拡張性や信頼性を特徴としており、ITエンジニアのコミュニティであるStackove.…"
+    },
+    {
+      "title": "公共プールの暖房に使用される小さなデータセンター",
+      "link": "https://www.bbc.com/news/technology-64939558",
       "source": "Hacker News（英語）",
-      "published": "2026-07-08T11:06:06",
-      "excerpt": "記事の URL: https://community.hubspot.com/t/we-got-this-wrong-and-we-are-fixing-it/152063 コメント URL: https://news.…"
+      "published": "2026-07-08T13:10:13",
+      "excerpt": "記事の URL: https://www.bbc.com/news/technology-64939558 コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "職場での個人メッセージングアプリを禁止したヨーロッパの組織のリスト",
-      "link": "https://www.birdy.chat/blog/the-growing-list-of-european-organisations-that-ban-personal-messaging-apps-at-work",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-08T11:03:34",
-      "excerpt": "記事の URL: https://www.birdy.…"
-    },
-    {
-      "title": "あの争奪戦の裏側にあった技術とは？ガシャポン在庫がオンラインでわかる仕組みを分解してみた",
-      "link": "https://zenn.dev/suekichi_system/articles/bec43a475dc88e",
-      "source": "Zenn AWSトピック",
-      "published": "2026-07-08T11:00:24",
-      "excerpt": "🚀 はじめに 2026年5月、バンダイのガシャポン「スーパーマリオ めじるしアクセサリー ～ヨッシーコレクション～」が全国で品切れとなり、ちょっとした騒動になりました。…"
-    },
-    {
-      "title": "FortiGateのVIPは「DNATできた＝終わり」ではない——Policyに絞りを書き、SNATを「あえて使わない」と決めるまでの思考",
-      "link": "https://zenn.dev/infra_kaneki/articles/5298203ea12cca",
-      "source": "Zenn AWSトピック",
-      "published": "2026-07-08T10:59:12",
-      "excerpt": "AWS全冠を取った直後にオンプレ案件へ放り込まれた、新卒3年目のSIerインフラエンジニアです。このシリーズは「AWSとオンプレの比較」が目的ではありません。ネットワーク設計者が現場で何を考えているかを、自分の失敗ごと言語化していきます。…"
+      "title": "ビーナス・ウィリアムズが支援する WeWard は、歩き出すまでアプリをロックできるようになりました",
+      "link": "https://techcrunch.com/2026/07/08/venus-williams-backed-weward-can-now-lock-your-apps-until-you-hit-your-steps/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-08T13:00:00",
+      "excerpt": "フランスのアプリ WeWard は、テニスのスター選手でエンジェル投資家でもあるビーナス・ウィリアムズ氏からの資金提供を受けて、歩行時間を約 25% 増加させたと発表しています。"
     }
   ]
 }
