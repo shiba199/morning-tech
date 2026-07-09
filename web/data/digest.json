@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-09T15:51:21",
+  "generated_at": "2026-07-09T17:46:13",
   "window_hours": 24,
-  "total": 223,
+  "total": 213,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が43件。JavaScriptランタイム「Bun」の作者であるJarred Sumner氏は、7月8日付けで公開したBun公式ブログの記事「Rewriting Bun in Rust | Bun Blog」で、約53万5000行のZig言語のコードを…",
+      "summary": "生成AIの新着が41件。Article URL: https://openai.com/index/gpt-5-6/ Comments URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "GPT-5.6",
+          "link": "https://openai.com/index/gpt-5-6/",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-09T17:04:14",
+          "excerpt": "Article URL: https://openai.com/index/gpt-5-6/ Comments URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "チャットGPTの仕事",
+          "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-09T17:03:53",
+          "excerpt": "記事の URL: https://openai.com/index/chatgpt-for-your-most-ambitious-work/ コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "JavaScriptランタイムのBun、Claude Fable 5を11日間稼働させてZigからRustへの移植を実現。Claudeをどう使ったのか？",
           "link": "https://www.publickey1.jp/blog/26/javascriptbunclaude_fable_511zigrustclaude.html",
@@ -22,20 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-09T15:41:35",
           "excerpt": "ChatGPT Voice に新モデル GPT-Live-1 が追加されたのを機に、Live・Advanced・Standard の 3 つの音声モードを実際に使い比べました。…"
-        },
-        {
-          "title": "Anthropic の新しい Claude 機能は、静かに AI を売り込んでいます",
-          "link": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-09T14:53:09",
-          "excerpt": "Claude の新しい Reflect ダッシュボードは、AI の使用方法を視覚化するだけではありません。また、日常業務のどれだけが Anthropic のチャットボットに依存しているかが微妙に強調されます。"
-        },
-        {
-          "title": "Anthropic、OpenAI、SpaceX は過去 25 年間の技術撤退よりも大きい",
-          "link": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-09T14:51:00",
-          "excerpt": "3 つの大規模な AI IPO は、2000 年以降の米国のベンチャーキャピタル支援によるすべての IPO よりも多くの価値を生み出す予定です。"
         }
       ]
     },
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。Claude for Enterpriseのセキュリティ対策について、お客様からよくいただく質問への回答と、業界標準フレームワーク「OWASP LLM Top 10」に基づいた評価結果をご紹介します。",
+      "summary": "セキュリティの新着が10件。Claude for Enterpriseのセキュリティ対策について、お客様からよくいただく質問への回答と、業界標準フレームワーク「OWASP LLM Top 10」に基づいた評価結果をご紹介します。",
       "articles": [
         {
           "title": "【非エンジニアのためClaude/ClaudeCodeシリーズ】Claude for Enterpriseのセキュリティやガバナンスについて考えてみた",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が17件。cdk-multi-region-stack を使うと、CloudFront + ACM のマルチリージョン構成を1つの CDK スタック定義にまとめられます。…",
+      "summary": "開発ツールの新着が19件。Devthropology は、GitHub プル データに基づいて構築された情熱のあるプロジェクトです。この名前は開発者の人類学をもじったものです。プル リクエスト データはさまざまな方法で切り取ることができます。…",
       "articles": [
+        {
+          "title": "Show HN: 開発人類学 – GitHub リポジトリのより良い洞察",
+          "link": "https://devthropology.com/demo",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-09T16:47:53",
+          "excerpt": "Devthropology は、GitHub プル データに基づいて構築された情熱のあるプロジェクトです。この名前は開発者の人類学をもじったものです。プル リクエスト データはさまざまな方法で切り取ることができます。…"
+        },
         {
           "title": "AWS CDK でマルチリージョンリソースを1スタック定義にまとめる「cdk-multi-region-stack」を試してみた",
           "link": "https://dev.classmethod.jp/articles/cdk-multi-region-stack-yattemita/",
@@ -157,57 +164,50 @@
           "excerpt": "cdk-multi-region-stack を使うと、CloudFront + ACM のマルチリージョン構成を1つの CDK スタック定義にまとめられます。…"
         },
         {
+          "title": "Next.jsとVercel AI SDKを使ってAIチャットボットを作ってみた | アドグローブブログ | 渋谷のIT会社",
+          "link": "https://blog.adglobe.co.jp/entry/2026/07/10/000000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-09T15:00:00",
+          "excerpt": "こんにちは。株式会社アドグローブ ソリューション事業本部の藤本です。最近、コード生成や技術調査などでAIを利用する機会が本当に多くなりましたよね。エンジニア以外にもAIを活用する人が急増しているように感じます。…"
+        },
+        {
           "title": "Cosmos 3 Superで欠陥画像の合成をやってみた",
           "link": "https://dev.classmethod.jp/articles/cosmos3-super-defect-data/",
           "source": "DevelopersIO",
           "published": "2026-07-09T13:31:58",
           "excerpt": "製造業向けの検査用途で「良品からリアルな欠陥データを合成したい」という相談をもらい、NVIDIAのCosmos 3 Superでそれが実現できるのか試してみました。…"
-        },
-        {
-          "title": "Microsoft、Nightmare EclipseのRoguePlanetゼロデイに関する帳簿を閉じる",
-          "link": "https://www.theregister.com/security/2026/07/09/microsoft-closes-book-on-nightmare-eclipses-rogueplanet-zero-day/5269280",
-          "source": "The Register（英語）",
-          "published": "2026-07-09T13:30:00",
-          "excerpt": "エクスプロイト コードが投下されてから数週間後、レドモンドはついに Defender ゼロデイの修正版をリリースしました。"
-        },
-        {
-          "title": "YAML以前に挫折する人向け：IaC学習の進め方テンプレ",
-          "link": "https://qiita.com/suzunari900261/items/c52514adb628dfb53094",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-09T13:20:14",
-          "excerpt": "IaCを学び始めたとき、私はYAMLの書き方そのものよりも、YAMLを書く前の段階で何度も手が止まりました。具体的には、次のような状態です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "HN を起動: Context.dev (YC S26) – あらゆる Web サイトから構造化データを取得する API",
-      "link": "https://www.context.dev",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-09T15:28:39",
-      "excerpt": "こんにちは、Hacker News です。Yahia です。Web データを製品やエージェントに簡単に統合できるように、Context.dev ( https://www.context.dev/ ) を構築しました。…"
+      "title": "メタの新しいAIチップは9月に生産開始予定",
+      "link": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-09T17:17:37",
+      "excerpt": "Nvidia などのプロバイダーの GPU への支出を減らすために、Meta は 9 月に AI 専用チップの最新バージョンの製造を開始する予定です。"
     },
     {
-      "title": "メールの書き方",
-      "link": "https://blog.dannycastonguay.com/how-to-write-an-email/",
+      "title": "分散システムではグループ チャットはどのように機能するべきですか?",
+      "link": "https://marindedic.com/groups/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-09T15:26:52",
-      "excerpt": "記事の URL: https://blog.dannycastonguay.com/how-to-write-an-email/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-09T17:15:47",
+      "excerpt": "記事の URL: https://marindedic.com/groups/ コメント URL: https://news.ycombinator.com/item?id=48849258 ポイント: 3 コメント数: 0"
     },
     {
-      "title": "非常に興味深いものの可能性のある未来",
-      "link": "https://www.damninteresting.com/a-possible-future/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-09T15:25:25",
-      "excerpt": "記事の URL: https://www.damninteresting.com/a-possible-future/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "Nvidia は自らが創設したコンピューティング市場の被害者です",
+      "link": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-09T17:06:11",
+      "excerpt": "コンピューティングがいかに価値があるかを証明した同社は、誰もが参入したい市場の中心にいることに気づきました。一方、より単純なテクノロジーやあまり興味のない企業は傍観者として富を得ています。"
     },
     {
-      "title": "独自の簡単な Pi.dev 構成",
-      "link": "https://lazypi.org/",
+      "title": "Wildcard (YC W25) が創業エンジニアを募集中",
+      "link": "https://www.ycombinator.com/companies/wildcard/jobs/ZSLVaaU-founding-engineer",
       "source": "Hacker News（英語）",
-      "published": "2026-07-09T15:19:33",
-      "excerpt": "記事の URL: https://lazypi.org/ コメント URL: https://news.ycombinator.com/item?id=48847407 ポイント: 9 コメント数: 0"
+      "published": "2026-07-09T17:00:37",
+      "excerpt": "記事の URL: https://www.ycombinator.com/companies/wildcard/jobs/ZSLVaaU-founding-engineer コメント URL: https://news.…"
     }
   ]
 }
