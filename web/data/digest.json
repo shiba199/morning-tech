@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-07-10T13:54:06",
+  "generated_at": "2026-07-10T16:13:51",
   "window_hours": 24,
-  "total": 228,
+  "total": 232,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が48件。TL;DR 自作の AWS 運用エージェント (Converse API の tool use ループ + read-only ツール4種) を、同じコードのままローカル実行と Amazon Bedrock AgentCore Runtim…",
+      "summary": "生成AIの新着が45件。モデルメーカーがエージェントの野望を職場の生産性へと方向転換したため、スタンドアロンの実験は 12 か月未満で中止された",
       "articles": [
+        {
+          "title": "OpenAI の Atlas ブラウザ、最初の誕生日を迎えられない",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/10/openais-atlas-browser-doesnt-make-it-to-its-first-birthday/5269818",
+          "source": "The Register（英語）",
+          "published": "2026-07-10T14:59:00",
+          "excerpt": "モデルメーカーがエージェントの野望を職場の生産性へと方向転換したため、スタンドアロンの実験は 12 か月未満で中止された"
+        },
+        {
+          "title": "【公共向け】Claude Mythos 時代の脅威対策ワークショップ開催報告 & 耐障害性ライフサイクル実践ワークショップのご案内",
+          "link": "https://aws.amazon.com/jp/blogs/news/claude-mythos-workshop-report-resilience-workshop-upcoming/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-07-10T14:51:52",
+          "excerpt": "AWS Japan パブリックセクターでは月次でセキュリティワークショップイベントを開催しています。…"
+        },
+        {
+          "title": "Claude Codeとハーネスについて考えてみる",
+          "link": "https://speakerdeck.com/oikon48/claude-codetohanesunituitekao-etemiru",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-07-10T11:58:18",
+          "excerpt": "AI駆動開発勉強会 福岡出張版+ EnjoyAIDeveloping : https://enjoy-dev-ai.connpass.com/event/397844/"
+        },
         {
           "title": "同じエージェントコードをローカルと AgentCore Runtime で動かしたら、ツールの選び方が変わった — 直接コードデプロイで実測比較",
           "link": "https://qiita.com/kazu_techlog/items/e96d92da88ac95a293b1",
           "source": "Qiita AWSタグ",
           "published": "2026-07-10T11:41:34",
           "excerpt": "TL;DR 自作の AWS 運用エージェント (Converse API の tool use ループ + read-only ツール4種) を、同じコードのままローカル実行と Amazon Bedrock AgentCore Runtim…"
-        },
-        {
-          "title": "AWS Security Agentコードレビュー機能(preview)を試してみた | Fenrir Engineers",
-          "link": "https://engineers.fenrir-inc.com/entry/2026/07/10/195027",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-10T10:50:27",
-          "excerpt": "こんにちは、クラウドネイティブ技術部の平田です。先日行われたAWS Summit Japan 2026に参加してきました。去年から続いて2回目の参加になります。…"
-        },
-        {
-          "title": "Meta、エージェント型タスク向けモデル「Muse Spark 1.1」を発表",
-          "link": "https://gihyo.jp/article/2026/07/meta-muse-spark-1.1?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-07-10T09:07:00",
-          "excerpt": "Metaは2026年7月9日、エージェント型タスク向けのマルチモーダル推論モデル「Muse Spark 1.1」を発表した。"
-        },
-        {
-          "title": "【体験記】CyberAgent Architecture Challenge 2026",
-          "link": "https://zenn.dev/yokan/articles/architecture-challenge",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-10T08:50:43",
-          "excerpt": "Architecture Challenge is何 SRE・パブリッククラウド志望学生向けのインターンです。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。ZAF (Zendesk Apps Framework) のクライアントサイドアプリでは、アセット配信も外部 API の中継も Zendesk が肩代わりします。自前サーバ方式で負っていたインフラのコストと責任分界が、まるごと消えます。",
+      "summary": "クラウドの新着が22件。AWS Config のマネージドルールが一度に191個追加されました。…",
       "articles": [
+        {
+          "title": "AWS Config マネージドルールが191個追加されたので ECS_NO_ENVIRONMENT_SECRETS を試してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-config-191-managed-rules-ecs-no-environment-secrets/",
+          "source": "DevelopersIO",
+          "published": "2026-07-10T14:10:07",
+          "excerpt": "AWS Config のマネージドルールが一度に191個追加されました。…"
+        },
         {
           "title": "ZAF (Zendesk Apps Framework) のクライアントサイドアプリでインフラのコストと責任分界が消える",
           "link": "https://dev.classmethod.jp/articles/zendesk-app-client-side-no-infra-responsibility/",
@@ -64,21 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-10T10:08:26",
           "excerpt": "はじめに AWS Summit Japan 2026で以下のセッションでSOCI v2について教えてもらいました。…"
-        },
-        {
-          "title": "Amazon S3のストレージクラスどう選ぶ？ 使い分けガイド",
-          "link": "https://zenn.dev/meirai/articles/1ba0688ad45118",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-10T09:00:11",
-          "excerpt": "Amazon S3のストレージクラスどう選ぶ？使い分けガイド AWSのストレージサービス「Amazon S3」には、9種類のストレージクラスが存在します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。AWS MCP ServerがOAuth 2.0認証に対応しました。Kiro CLI 2.12.0を使い、AWS CLIプロファイルを用意せずにブラウザーのAWS Sign-InでAWS MCP Serverへ接続します。…",
+      "summary": "セキュリティの新着が11件。ZAF の Secure Settings では、secure 値は JavaScript に返らず、プレースホルダは文字列置換のみです。…",
       "articles": [
+        {
+          "title": "ZAF の Secure Settings を使って認証方式別に疎通確認してみた",
+          "link": "https://dev.classmethod.jp/articles/zaf-secure-settings-auth-methods/",
+          "source": "DevelopersIO",
+          "published": "2026-07-10T15:11:51",
+          "excerpt": "ZAF の Secure Settings では、secure 値は JavaScript に返らず、プレースホルダは文字列置換のみです。…"
+        },
+        {
+          "title": "フロリダ州のランサムウェア交渉人、ランサムウェアギャングによる米国企業恐喝を支援した罪で有罪判決",
+          "link": "https://techcrunch.com/2026/07/10/florida-ransomware-negotiator-convicted-for-helping-ransomware-gang-extort-us-companies/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-10T14:11:03",
+          "excerpt": "3人目のランサムウェア交渉人が、悪名高いランサムウェアグループが米国の被害企業からハッカーへの支払いを強要するのを手助けした罪で投獄された。"
+        },
         {
           "title": "AWS MCP Server の新機能「OAuth認証」を Kiro CLI で試してみた",
           "link": "https://dev.classmethod.jp/articles/aws-mcp-server-oauth-kiro-cli/",
@@ -92,28 +106,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-10T10:50:27",
           "excerpt": "こんにちは、クラウドネイティブ技術部の平田です。先日行われたAWS Summit Japan 2026に参加してきました。去年から続いて2回目の参加になります。…"
-        },
-        {
-          "title": "【Security Hub修復手順】[SageMaker.13] SageMaker モデル品質ジョブ定義では、コンテナ間のトラフィック暗号化を有効にする必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-sagemaker-13/",
-          "source": "DevelopersIO",
-          "published": "2026-07-10T08:46:34",
-          "excerpt": "AWS Security HubのSageMaker.13コントロールに対応するため、SageMakerモデル品質ジョブ定義のコンテナ間トラフィック暗号化を有効にする修復手順を紹介します。…"
-        },
-        {
-          "title": "【初心者向け】AWS CLIでAWS WAFのWeb ACLをJSON出力する方法",
-          "link": "https://dev.classmethod.jp/articles/aws-cli-web-acl-json-output/",
-          "source": "DevelopersIO",
-          "published": "2026-07-10T08:10:10",
-          "excerpt": "AWS WAFのWeb ACLに数十件規模のルールが設定されている場合、マネジメントコンソール上での確認は非常に手間になるため、AWS CLIを使ってWeb ACLの情報をJSONファイルに一括出力する手順をご紹介します。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。Step FunctionsからEMRクラスターを起動し、Glue Data CatalogをメタストアとしてHiveQLを実行する方法を試してみました。…",
+      "summary": "データ分析の新着が7件。Amazon Redshift の RG インスタンスが Trailing Track で利用可能になりました。Trailing → Current への切替動作と、逆方向（Current → Trailing）の挙動を実機検証しています。",
       "articles": [
+        {
+          "title": "Amazon Redshift の RG インスタンスでトラック変更を試してみた",
+          "link": "https://dev.classmethod.jp/articles/redshift-rg-instances-track-switch/",
+          "source": "DevelopersIO",
+          "published": "2026-07-10T15:50:41",
+          "excerpt": "Amazon Redshift の RG インスタンスが Trailing Track で利用可能になりました。Trailing → Current への切替動作と、逆方向（Current → Trailing）の挙動を実機検証しています。"
+        },
         {
           "title": "Step FunctionsからEMRを起動してHiveQLを実行してみた",
           "link": "https://dev.classmethod.jp/articles/sfn-emr-exec-hiveql/",
@@ -134,20 +141,13 @@
           "source": "CodeZine",
           "published": "2026-07-10T07:00:00",
           "excerpt": "GitHub MobileがCopilot CLIリモートセッション通知に対応"
-        },
-        {
-          "title": "GitHub Mobile、Copilotによるマージ競合解決機能を新たに追加",
-          "link": "https://codezine.jp/article/detail/28903",
-          "source": "CodeZine",
-          "published": "2026-07-10T01:00:00",
-          "excerpt": "GitHub Mobile、Copilotによるマージ競合解決機能を新たに追加"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が19件。複数のPRを連続マージした際、Amplify Hostingではビルドが何回走るのか気になったので確認してみました。同一ブランチへのマージに対する自動ビルドの挙動について、実際の検証結果を紹介します。",
+      "summary": "開発ツールの新着が17件。複数のPRを連続マージした際、Amplify Hostingではビルドが何回走るのか気になったので確認してみました。同一ブランチへのマージに対する自動ビルドの挙動について、実際の検証結果を紹介します。",
       "articles": [
         {
           "title": "AWS Amplify Hosting で大量のプルリクエストを連続マージした時、ビルドは何回走るのか確認してみた",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "AI BPRにすべて賭けたい",
-      "link": "https://qiita.com/har1101/items/93759be44b8548fa740b",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-10T13:30:47",
-      "excerpt": "はじめに こんにちは、ふくちと申します。…"
+      "title": "Dumb Co は私に iPhone をハッキングされた折りたたみ式携帯電話と交換するよう勧めました",
+      "link": "https://techcrunch.com/2026/07/10/dumb-co-dared-me-to-trade-my-iphone-for-a-hacked-flip-phone/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-10T16:06:49",
+      "excerpt": "Dumb Co は、iPhone の無限の接続性と 2000 年代初頭の遺物の非現実的な制限を橋渡しする、スマートフォンと同期する折りたたみ式携帯電話を販売しています。"
     },
     {
-      "title": "ライアンエアの乗客、空中でエンジン故障後、割れた窓に吸い込まれる",
-      "link": "https://simpleflying.com/ryanair-thessaloniki-diversion-window-damage/",
+      "title": "軌道データセンターのゴールドラッシュには環境見直しが必要、とFCCが語った",
+      "link": "https://www.theregister.com/on-prem/2026/07/10/orbital-datacenter-gold-rush-needs-an-environmental-review-fcc-told/5269863",
+      "source": "The Register（英語）",
+      "published": "2026-07-10T16:02:00",
+      "excerpt": "緑の団体、100万機の人工衛星が大気圏に散らばる前にライセンス凍結を求める"
+    },
+    {
+      "title": "QuadRF はドローンを発見し、壁越しに WiFi を確認できます",
+      "link": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-10T12:31:50",
-      "excerpt": "記事の URL: https://simpleflying.com/ryanair-thessaloniki-diversion-window-damage/ コメント URL: https://news.ycombinator.…"
+      "published": "2026-07-10T15:59:53",
+      "excerpt": "記事の URL: https://www.jeffgeerling.…"
     },
     {
-      "title": "テスラ車内で「Grok」と会話、日本でも展開へ　ナビ設定やルート確認を音声で",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/10/news157.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-10T12:15:00",
-      "excerpt": "対話型AI「Grok」を日本のテスラ車で利用できるようになった。Tesla Japanが7月10日、X公式アカウントで発表した。利用には、ソフトウェアバージョン2026.…"
-    },
-    {
-      "title": "Laylo (YC S20) が財務責任者を募集しています",
-      "link": "https://www.ycombinator.com/companies/laylo/jobs/qce41D2-head-of-finance",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-10T12:00:36",
-      "excerpt": "記事の URL: https://www.ycombinator.com/companies/laylo/jobs/qce41D2-head-of-finance コメント URL: https://news.ycombinator.…"
+      "title": "自動再生と無限スクロールを無効にしないと巨額の罰金の危険があるとEUがメタに伝える",
+      "link": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-10T15:46:18",
+      "excerpt": "デジタルサービス法により、メタはプラットフォームに大きな変更を強いられる可能性がある。"
     }
   ]
 }
