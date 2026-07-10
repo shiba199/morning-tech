@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-10T11:49:46",
+  "generated_at": "2026-07-10T13:54:06",
   "window_hours": 24,
-  "total": 224,
+  "total": 228,
   "topic_count": 5,
   "groups": [
     {
@@ -17,6 +17,13 @@
           "excerpt": "TL;DR 自作の AWS 運用エージェント (Converse API の tool use ループ + read-only ツール4種) を、同じコードのままローカル実行と Amazon Bedrock AgentCore Runtim…"
         },
         {
+          "title": "AWS Security Agentコードレビュー機能(preview)を試してみた | Fenrir Engineers",
+          "link": "https://engineers.fenrir-inc.com/entry/2026/07/10/195027",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-10T10:50:27",
+          "excerpt": "こんにちは、クラウドネイティブ技術部の平田です。先日行われたAWS Summit Japan 2026に参加してきました。去年から続いて2回目の参加になります。…"
+        },
+        {
           "title": "Meta、エージェント型タスク向けモデル「Muse Spark 1.1」を発表",
           "link": "https://gihyo.jp/article/2026/07/meta-muse-spark-1.1?utm_source=feed",
           "source": "gihyo.jp 開発",
@@ -29,21 +36,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-10T08:50:43",
           "excerpt": "Architecture Challenge is何 SRE・パブリッククラウド志望学生向けのインターンです。…"
-        },
-        {
-          "title": "【Security Hub修復手順】[SageMaker.13] SageMaker モデル品質ジョブ定義では、コンテナ間のトラフィック暗号化を有効にする必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-sagemaker-13/",
-          "source": "DevelopersIO",
-          "published": "2026-07-10T08:46:34",
-          "excerpt": "AWS Security HubのSageMaker.13コントロールに対応するため、SageMakerモデル品質ジョブ定義のコンテナ間トラフィック暗号化を有効にする修復手順を紹介します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。NVIDIAのCosmosで自動運転向けの動画生成を3パターン試してみました。…",
+      "summary": "クラウドの新着が22件。ZAF (Zendesk Apps Framework) のクライアントサイドアプリでは、アセット配信も外部 API の中継も Zendesk が肩代わりします。自前サーバ方式で負っていたインフラのコストと責任分界が、まるごと消えます。",
       "articles": [
+        {
+          "title": "ZAF (Zendesk Apps Framework) のクライアントサイドアプリでインフラのコストと責任分界が消える",
+          "link": "https://dev.classmethod.jp/articles/zendesk-app-client-side-no-infra-responsibility/",
+          "source": "DevelopersIO",
+          "published": "2026-07-10T12:15:50",
+          "excerpt": "ZAF (Zendesk Apps Framework) のクライアントサイドアプリでは、アセット配信も外部 API の中継も Zendesk が肩代わりします。自前サーバ方式で負っていたインフラのコストと責任分界が、まるごと消えます。"
+        },
         {
           "title": "自動運転用途でCosomos3の動画生成を試してみた",
           "link": "https://dev.classmethod.jp/articles/cosmos3-super-generate-videos/",
@@ -64,13 +71,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-10T09:00:11",
           "excerpt": "Amazon S3のストレージクラスどう選ぶ？使い分けガイド AWSのストレージサービス「Amazon S3」には、9種類のストレージクラスが存在します。…"
-        },
-        {
-          "title": "【Security Hub修復手順】[SageMaker.13] SageMaker モデル品質ジョブ定義では、コンテナ間のトラフィック暗号化を有効にする必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-sagemaker-13/",
-          "source": "DevelopersIO",
-          "published": "2026-07-10T08:46:34",
-          "excerpt": "AWS Security HubのSageMaker.13コントロールに対応するため、SageMakerモデル品質ジョブ定義のコンテナ間トラフィック暗号化を有効にする修復手順を紹介します。…"
         }
       ]
     },
@@ -87,6 +87,13 @@
           "excerpt": "AWS MCP ServerがOAuth 2.0認証に対応しました。Kiro CLI 2.12.0を使い、AWS CLIプロファイルを用意せずにブラウザーのAWS Sign-InでAWS MCP Serverへ接続します。…"
         },
         {
+          "title": "AWS Security Agentコードレビュー機能(preview)を試してみた | Fenrir Engineers",
+          "link": "https://engineers.fenrir-inc.com/entry/2026/07/10/195027",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-10T10:50:27",
+          "excerpt": "こんにちは、クラウドネイティブ技術部の平田です。先日行われたAWS Summit Japan 2026に参加してきました。去年から続いて2回目の参加になります。…"
+        },
+        {
           "title": "【Security Hub修復手順】[SageMaker.13] SageMaker モデル品質ジョブ定義では、コンテナ間のトラフィック暗号化を有効にする必要があります",
           "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-sagemaker-13/",
           "source": "DevelopersIO",
@@ -99,20 +106,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-10T08:10:10",
           "excerpt": "AWS WAFのWeb ACLに数十件規模のルールが設定されている場合、マネジメントコンソール上での確認は非常に手間になるため、AWS CLIを使ってWeb ACLの情報をJSONファイルに一括出力する手順をご紹介します。"
-        },
-        {
-          "title": "AWS Security Hub の新機能 「Network Scanning」 で実際にインターネットから到達可能なポートを検出してみた",
-          "link": "https://dev.classmethod.jp/articles/security-hub-network-scanning-try/",
-          "source": "DevelopersIO",
-          "published": "2026-07-10T05:39:49",
-          "excerpt": "AWS Security HubにNetwork Scanning機能が追加されました。従来のセキュリティグループ設定の静的分析とは異なり、実際にプローブを送信してポートの到達可能性を確認します。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。Step FunctionsからEMRクラスターを起動し、Glue Data CatalogをメタストアとしてHiveQLを実行する方法を試してみました。…",
+      "summary": "データ分析の新着が6件。Step FunctionsからEMRクラスターを起動し、Glue Data CatalogをメタストアとしてHiveQLを実行する方法を試してみました。…",
       "articles": [
         {
           "title": "Step FunctionsからEMRを起動してHiveQLを実行してみた",
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が20件。TL;DR 自作の AWS 運用エージェント (Converse API の tool use ループ + read-only ツール4種) を、同じコードのままローカル実行と Amazon Bedrock AgentCore Runtim…",
+      "summary": "開発ツールの新着が19件。複数のPRを連続マージした際、Amplify Hostingではビルドが何回走るのか気になったので確認してみました。同一ブランチへのマージに対する自動ビルドの挙動について、実際の検証結果を紹介します。",
       "articles": [
+        {
+          "title": "AWS Amplify Hosting で大量のプルリクエストを連続マージした時、ビルドは何回走るのか確認してみた",
+          "link": "https://dev.classmethod.jp/articles/amplify-autobuild-queue/",
+          "source": "DevelopersIO",
+          "published": "2026-07-10T12:52:27",
+          "excerpt": "複数のPRを連続マージした際、Amplify Hostingではビルドが何回走るのか気になったので確認してみました。同一ブランチへのマージに対する自動ビルドの挙動について、実際の検証結果を紹介します。"
+        },
+        {
+          "title": "【Terraform】terraform destroy したのに課金が止まらなかった話（state の外にいたリソース）",
+          "link": "https://qiita.com/80-cloud/items/173ff3ea9835ee32764d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-10T12:17:11",
+          "excerpt": "はじめに 個人開発で AWS を触っていて、検証が終わったので terraform destroy で一式まとめて片付けました。…"
+        },
         {
           "title": "同じエージェントコードをローカルと AgentCore Runtime で動かしたら、ツールの選び方が変わった — 直接コードデプロイで実測比較",
           "link": "https://qiita.com/kazu_techlog/items/e96d92da88ac95a293b1",
@@ -162,52 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-10T11:28:23",
           "excerpt": "はじめに こんばんは、mirukyです。皆さんは、IaCと聞いてどんなツールを思い浮かべますか？AWSで言えばCloudFormation、CDK、SAM、汎用的なものだとTerraformあたりを思い浮かべる人が多いかな、と思います。…"
-        },
-        {
-          "title": "AWS MCP Server の新機能「OAuth認証」を Kiro CLI で試してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-mcp-server-oauth-kiro-cli/",
-          "source": "DevelopersIO",
-          "published": "2026-07-10T11:09:50",
-          "excerpt": "AWS MCP ServerがOAuth 2.0認証に対応しました。Kiro CLI 2.12.0を使い、AWS CLIプロファイルを用意せずにブラウザーのAWS Sign-InでAWS MCP Serverへ接続します。…"
-        },
-        {
-          "title": "CodeBuild上で実行されているGitHub Actions上でSOCI v2を使ってECSのデプロイを高速化する",
-          "link": "https://qiita.com/fcako/items/755eb4c23c2c4b5fe098",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-10T10:08:26",
-          "excerpt": "はじめに AWS Summit Japan 2026で以下のセッションでSOCI v2について教えてもらいました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "NAT Gateway の置き換え: fck-nat と商用 NAT インスタンス (S4 NAT) の正直な比較",
-      "link": "https://zenn.dev/abyo_software/articles/18410a670c6753",
-      "source": "Zenn AWSトピック",
-      "published": "2026-07-10T11:47:55",
-      "excerpt": "マネージド NAT Gateway は AZ あたり月約 $32 + 処理 1GB ごとに $0.045。egress の多いワークロードでは、データ処理料が請求書の主役になります。…"
+      "title": "AI BPRにすべて賭けたい",
+      "link": "https://qiita.com/har1101/items/93759be44b8548fa740b",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-10T13:30:47",
+      "excerpt": "はじめに こんにちは、ふくちと申します。…"
     },
     {
-      "title": "2日連続の「モバイルSuica」障害、JR東が原因を公表　別途負担の運賃は払い戻しへ",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/10/news149.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-10T11:05:00",
-      "excerpt": "JR東日本は7月10日、6月30日と7月1日に発生した「モバイルSuica」のシステム障害について、原因と対策を発表した。また、その影響で定期券やSuicaグリーン券などを利用できなかったユーザーに対し、別途負担した運賃等の補償を実施する。"
-    },
-    {
-      "title": "EU委員会：中毒性のあるデザインのInstagramとFacebookがDSAに違反している",
-      "link": "https://ec.europa.eu/commission/presscorner/home/en",
+      "title": "ライアンエアの乗客、空中でエンジン故障後、割れた窓に吸い込まれる",
+      "link": "https://simpleflying.com/ryanair-thessaloniki-diversion-window-damage/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-10T11:00:15",
-      "excerpt": "記事の URL: https://ec.europa.eu/commission/presscorner/home/en コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-10T12:31:50",
+      "excerpt": "記事の URL: https://simpleflying.com/ryanair-thessaloniki-diversion-window-damage/ コメント URL: https://news.ycombinator.…"
     },
     {
-      "title": "Cinnamon 6.8 は Wayland をサポートします – 必要に応じて",
-      "link": "https://www.theregister.com/os-platforms/2026/07/10/cinnamon-68-will-support-wayland-if-you-want-it/5269354",
-      "source": "The Register（英語）",
-      "published": "2026-07-10T10:00:00",
-      "excerpt": "Linux Mint デスクトップの次期バージョンには両方の種類のディスプレイ サーバーが搭載されています"
+      "title": "テスラ車内で「Grok」と会話、日本でも展開へ　ナビ設定やルート確認を音声で",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/10/news157.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-10T12:15:00",
+      "excerpt": "対話型AI「Grok」を日本のテスラ車で利用できるようになった。Tesla Japanが7月10日、X公式アカウントで発表した。利用には、ソフトウェアバージョン2026.…"
+    },
+    {
+      "title": "Laylo (YC S20) が財務責任者を募集しています",
+      "link": "https://www.ycombinator.com/companies/laylo/jobs/qce41D2-head-of-finance",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-10T12:00:36",
+      "excerpt": "記事の URL: https://www.ycombinator.com/companies/laylo/jobs/qce41D2-head-of-finance コメント URL: https://news.ycombinator.…"
     }
   ]
 }
