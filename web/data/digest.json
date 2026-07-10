@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-10T21:01:11",
+  "generated_at": "2026-07-10T22:30:23",
   "window_hours": 24,
-  "total": 232,
+  "total": 215,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が43件。Appleは、この不正行為は長年の元従業員を含むOpenAiの上級幹部によって指示されたと主張している。",
+      "summary": "生成AIの新着が38件。記事の URL: https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html コメント URL: https://news.ycombinator.…",
       "articles": [
+        {
+          "title": "Apple、企業秘密を盗んだとしてOpenAIを提訴",
+          "link": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-10T21:20:29",
+          "excerpt": "記事の URL: https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html コメント URL: https://news.ycombinator.…"
+        },
+        {
+          "title": "Prismata: Web エージェントでのクロスサイト プロンプト インジェクションの制限",
+          "link": "https://arxiv.org/abs/2607.08147",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-10T21:03:38",
+          "excerpt": "記事の URL: https://arxiv.org/abs/2607.08147 コメント URL: https://news.ycombinator.com/item?id=48865238 ポイント: 6 コメント数: 0"
+        },
         {
           "title": "Apple、営業秘密窃盗容疑でOpenAIを提訴",
           "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
@@ -17,32 +31,18 @@
           "excerpt": "Appleは、この不正行為は長年の元従業員を含むOpenAiの上級幹部によって指示されたと主張している。"
         },
         {
-          "title": "[アップデート] AWS MCP Server が AI エージェントからの接続に業界標準の OAuth 2.1（AWS Sign-In 経由）をサポートしたので試してみました",
-          "link": "https://dev.classmethod.jp/articles/20260710-aws-mcp-server-oauth/",
-          "source": "DevelopersIO",
-          "published": "2026-07-10T20:27:09",
-          "excerpt": "AWS MCP Server が OAuth 2.1（AWS Sign-In 経由）をサポートしました。…"
-        },
-        {
-          "title": "Gemini 2.5 Flash を中止しないでください",
-          "link": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
+          "title": "GPT-5.6、Grok 4.5、Claude、および Muse Spark は同じ 4 つのアプリを構築します",
+          "link": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
           "source": "Hacker News（英語）",
-          "published": "2026-07-10T20:00:28",
-          "excerpt": "記事の URL: https://discuss.ai.google.dev/t/please-dont-dis continue-gemini-2-5-flash/174246 コメント URL: https://news.…"
-        },
-        {
-          "title": "GPT-5.6 Sol Ultra はサイクル ダブル カバー予想の証明を生成 [pdf]",
-          "link": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-10T18:29:19",
-          "excerpt": "記事の URL: https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf コメント URL: https://news.…"
+          "published": "2026-07-10T20:52:28",
+          "excerpt": "記事の URL: https://www.tryai.dev/blog/gpt-5.6-build-off-12-models コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が25件。EC2 Replace Root Volume に --volume-id パラメータが追加され、既存の EBS ボリュームを直接指定してルートボリュームを置換できるようになりました。実際に動作を検証し、活用場面を考察します。",
+      "summary": "クラウドの新着が23件。EC2 Replace Root Volume に --volume-id パラメータが追加され、既存の EBS ボリュームを直接指定してルートボリュームを置換できるようになりました。実際に動作を検証し、活用場面を考察します。",
       "articles": [
         {
           "title": "EC2 Replace Root Volume の新機能「EBS ボリューム直接指定」でルートボリュームの交換を試してみた",
@@ -50,6 +50,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-10T20:37:19",
           "excerpt": "EC2 Replace Root Volume に --volume-id パラメータが追加され、既存の EBS ボリュームを直接指定してルートボリュームを置換できるようになりました。実際に動作を検証し、活用場面を考察します。"
+        },
+        {
+          "title": "Amazon EC2 ネットワーク/EBS インスタンスが追加のリージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8in-r8ib-r8idn-r8idb",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-10T20:00:00",
+          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) R8in、R8ib、R8idn、および R8idb インスタンスが AWS アジアパシフィック (東京) およびヨーロッパ (アイルランド、フラン…"
         },
         {
           "title": "EKS 上の Amazon EMR が Apache Spark トラブルシューティング エージェントをサポートするようになりました",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-10T17:52:05",
           "excerpt": "AWS Organizations の宣言型ポリシーで VPC Encryption Controls を Organization 全体に一括適用し、enforce モードによるブロック動作や除外設定の挙動を検証しました。"
-        },
-        {
-          "title": "Amazon EC2 G7 インスタンスが AWS 米国東部 (バージニア北部) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-g7-available-North-Virginia",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-10T15:14:00",
-          "excerpt": "本日より、NVIDIA RTX PRO 4500 Blackwell Server Edition GPU を搭載した Amazon Elastic Compute Cloud (Amazon EC2) G7 インスタンスが米国東部 (バー…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。「代理人として雇われた被害者そのものを売り飛ばした」男に懲役6年。",
+      "summary": "セキュリティの新着が11件。「代理人として雇われた被害者そのものを売り飛ばした」男に懲役6年。",
       "articles": [
         {
           "title": "被害者の代理人として雇われたランサムウェア交渉人は攻撃者のために働いていた",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。EKS 上の Amazon EMR は、Apache Spark トラブルシューティング エージェントをサポートするようになりました。…",
+      "summary": "データ分析の新着が7件。EKS 上の Amazon EMR は、Apache Spark トラブルシューティング エージェントをサポートするようになりました。…",
       "articles": [
         {
           "title": "EKS 上の Amazon EMR が Apache Spark トラブルシューティング エージェントをサポートするようになりました",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "頭を傾けるだけでスクロールできる怠惰な夏のアプリ",
-      "link": "https://www.theregister.com/personal-tech/2026/07/10/slothful-summer-app-lets-you-scroll-simply-by-tilting-your-head/5270096",
-      "source": "The Register（英語）",
-      "published": "2026-07-10T20:32:53",
-      "excerpt": "ScrollPods は Mac のみなので、互換性のある AirPods が必要です"
+      "title": "AWS MCP Serverが普通に使えるようになったよ！",
+      "link": "https://qiita.com/moritalous/items/6102ef63dc60c7e6ee3d",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-10T22:19:30",
+      "excerpt": "タイトルのとおりです。普通って素敵。Agent Toolkit for AWSの一部の方のAWS MCP Serverの話です。オープンソースのMCP Serverの話ではありません。今までは普通じゃなかったのかって？…"
     },
     {
-      "title": "クエスト難破船の最初の画像をチェックしてください",
-      "link": "https://arstechnica.com/science/2026/07/expedition-captures-first-images-of-shackletons-last-ship/",
+      "title": "ブルースカイの暫定CEO、トニ・シュナイダー氏が「暫定」を撤回",
+      "link": "https://techcrunch.com/2026/07/10/blueskys-interim-ceo-toni-schneider-drops-the-interim/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-10T21:51:55",
+      "excerpt": "以前 Automattic の CEO を務め、True Ventures のパートナーであるシュナイダー氏は、型破りなソーシャル メディア プラットフォームに「全力で取り組んでいる」と述べています。"
+    },
+    {
+      "title": "中国は初の再利用可能なロケットを回収し、その新たな方法を示した",
+      "link": "https://arstechnica.com/space/2026/07/china-recovered-its-first-reusable-rocket-and-showed-a-new-way-to-do-it/",
       "source": "Ars Technica（英語）",
-      "published": "2026-07-10T19:59:31",
-      "excerpt": "クエスト の難破船は予想よりも悪い状態ですが、繁栄した海洋生態系に変わりました。"
+      "published": "2026-07-10T21:41:43",
+      "excerpt": "「明らかに、彼らはSpaceXが行っている取り組みを賞賛しており、それを再現しようとしている。」"
     },
     {
-      "title": "スクレーパーの状況に関する最新情報",
-      "link": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-10T19:38:34",
-      "excerpt": "記事の URL: https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "マムダニ市長、画期的な「クリックしてキャンセル」消費者保護規則を発表",
-      "link": "https://www.nyc.gov/mayors-office/news/2026/07/mayor-mamdani-announces-landmark--click-to-cancel--consumer-prot",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-10T19:30:12",
-      "excerpt": "記事の URL: https://www.nyc.…"
+      "title": "AWS Organizationsでデフォルト適用される離脱防止SCPの同等設定を、既存組織に実施してみた",
+      "link": "https://dev.classmethod.jp/articles/aws-organizations-default-scp-deny-leave-close-account/",
+      "source": "DevelopersIO",
+      "published": "2026-07-10T21:34:35",
+      "excerpt": "AWS Organizationsがコンソールから新規作成された組織に対して、メンバーアカウントの離脱とクローズを拒否するSCPをデフォルト適用するようになりました。…"
     }
   ]
 }
