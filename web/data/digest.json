@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T05:52:20",
+  "generated_at": "2026-07-10T08:58:37",
   "window_hours": 24,
   "total": 211,
   "topic_count": 5,
@@ -7,43 +7,50 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。TL;DR 同一の Knowledge Base（S3 Vectors バックエンド）に対して、同じ 2 ターンの会話を 3 つの実装方式で実行し、挙動を比較しました。KB の Retrieve API は「生チャンク」を返しません。…",
+      "summary": "生成AIの新着が46件。AWS Security HubのSageMaker.13コントロールに対応するため、SageMakerモデル品質ジョブ定義のコンテナ間トラフィック暗号化を有効にする修復手順を紹介します。…",
       "articles": [
         {
-          "title": "Bedrock Knowledge Base の Retrieve は生チャンクを返さなかった — S3 Vectors で RAG 3方式実測比較",
-          "link": "https://qiita.com/kazu_techlog/items/333f01fc16f7bf5cd6d1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-10T05:06:45",
-          "excerpt": "TL;DR 同一の Knowledge Base（S3 Vectors バックエンド）に対して、同じ 2 ターンの会話を 3 つの実装方式で実行し、挙動を比較しました。KB の Retrieve API は「生チャンク」を返しません。…"
+          "title": "【Security Hub修復手順】[SageMaker.13] SageMaker モデル品質ジョブ定義では、コンテナ間のトラフィック暗号化を有効にする必要があります",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-sagemaker-13/",
+          "source": "DevelopersIO",
+          "published": "2026-07-10T08:46:34",
+          "excerpt": "AWS Security HubのSageMaker.13コントロールに対応するため、SageMakerモデル品質ジョブ定義のコンテナ間トラフィック暗号化を有効にする修復手順を紹介します。…"
         },
         {
-          "title": "「生成AIをもう手放せない人」が約6割　逆に“使わなくなったもの”1位は？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/10/news056.html",
-          "source": "@IT",
-          "published": "2026-07-10T04:00:00",
-          "excerpt": "ICT総研の調査では、生成AIサービスが使えなくなると困ると答えた人は約6割に上った。生成AIサービスが日常的なツールとして定着する一方で、利用頻度が減ったものもあるという。それは何なのか。"
-        },
-        {
-          "title": "AWS DevOps Agent にアラームの一次調査をやらせてみた | スパイダープラス Tech Blog",
-          "link": "https://techblog.spiderplus.co.jp/entry/2026/07/10/120000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-10T03:00:00",
-          "excerpt": "SREの業務効率化として、AWS DevOps Agentを検証してみました。実際に動かしてみて見えてきた強みや課題も踏まえてご紹介します。"
-        },
-        {
-          "title": "Anthropic、Claudeの使い方を振り返る新機能「reflect」（振り返り）追加──AIとの付き合い方を見直すために",
-          "link": "https://www.itmedia.co.jp/news/articles/2607/10/news086.html",
+          "title": "「まるで人間」　OpenAIの新モデル「GPT-Live」のトーク力が話題　間を空けずに考えながら会話できる",
+          "link": "https://www.itmedia.co.jp/news/articles/2607/10/news114.html",
           "source": "ITmedia NEWS",
-          "published": "2026-07-10T01:24:00",
-          "excerpt": "Anthropicは、AIアシスタント「Claude」の使い方を振り返るための新機能「reflect」(日本では「振り返り」）をβ版で公開した。…"
+          "published": "2026-07-10T07:45:00",
+          "excerpt": "OpenAIが提供を始めた音声会話向けモデル「GPT-Live」がXで話題だ。同社はこれまでも音声会話モデルを提供していたが、聞き取りと発話を同時に行う新アーキテクチャにより「会話が自然すぎる」などの声が上がっている。"
+        },
+        {
+          "title": "MCPの正体を理解する：Tool Useのエージェントループから JSON-RPC 2.0 の二層エラーハンドリングまで",
+          "link": "https://dev.classmethod.jp/articles/mcp-tool-use-json-rpc-architecture-deep-dive/",
+          "source": "DevelopersIO",
+          "published": "2026-07-10T07:28:12",
+          "excerpt": "Claude APIのTool Useを起点に、MCPの正体を探ります。LLMはMCPの存在を知らず、クライアントアプリがルーティングを担うこと、そしてJSON-RPC 2.…"
+        },
+        {
+          "title": "ループエンジニアリング — Claude Code で自律ループを作ってみる",
+          "link": "https://dev.classmethod.jp/articles/loop-engineering-claude-code-autonomous/",
+          "source": "DevelopersIO",
+          "published": "2026-07-10T07:08:50",
+          "excerpt": "AI エージェントの進化形「ループエンジニアリング」について解説。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。静的コンテンツを効率的に配信することは、ウェブアプリケーションのパフォーマンスとユーザーエクスペリエンスを向上させる重要な要素です。…",
+      "summary": "クラウドの新着が20件。AWS Security HubのSageMaker.13コントロールに対応するため、SageMakerモデル品質ジョブ定義のコンテナ間トラフィック暗号化を有効にする修復手順を紹介します。…",
       "articles": [
+        {
+          "title": "【Security Hub修復手順】[SageMaker.13] SageMaker モデル品質ジョブ定義では、コンテナ間のトラフィック暗号化を有効にする必要があります",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-sagemaker-13/",
+          "source": "DevelopersIO",
+          "published": "2026-07-10T08:46:34",
+          "excerpt": "AWS Security HubのSageMaker.13コントロールに対応するため、SageMakerモデル品質ジョブ定義のコンテナ間トラフィック暗号化を有効にする修復手順を紹介します。…"
+        },
         {
           "title": "静的コンテンツ配信の最適化：S3とCloudFrontの分担",
           "link": "https://qiita.com/felix-jp-studio/items/ea72d06d994940756577",
@@ -64,21 +71,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-10T04:53:42",
           "excerpt": "`vertexai.generative_models` が非推奨になったので `google-genai` SDK に移行しました。…"
-        },
-        {
-          "title": "CloudFormationスタックを消せない？ VPCの削除を阻む依存リソースをCodeBuildで順番に剥がした",
-          "link": "https://qiita.com/KineYue/items/31ac926b6d19446eb1e3",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-10T04:30:01",
-          "excerpt": "はじめに 開発環境のコスト削減のため、毎日深夜に環境を自動削除する運用をしています。削除ジョブはCodeBuildから実行し、CloudFormationスタックを順番に落としていく構成です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。AWS Security HubにNetwork Scanning機能が追加されました。従来のセキュリティグループ設定の静的分析とは異なり、実際にプローブを送信してポートの到達可能性を確認します。…",
+      "summary": "セキュリティの新着が9件。AWS Security HubのSageMaker.13コントロールに対応するため、SageMakerモデル品質ジョブ定義のコンテナ間トラフィック暗号化を有効にする修復手順を紹介します。…",
       "articles": [
+        {
+          "title": "【Security Hub修復手順】[SageMaker.13] SageMaker モデル品質ジョブ定義では、コンテナ間のトラフィック暗号化を有効にする必要があります",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-sagemaker-13/",
+          "source": "DevelopersIO",
+          "published": "2026-07-10T08:46:34",
+          "excerpt": "AWS Security HubのSageMaker.13コントロールに対応するため、SageMakerモデル品質ジョブ定義のコンテナ間トラフィック暗号化を有効にする修復手順を紹介します。…"
+        },
+        {
+          "title": "【初心者向け】AWS CLIでAWS WAFのWeb ACLをJSON出力する方法",
+          "link": "https://dev.classmethod.jp/articles/aws-cli-web-acl-json-output/",
+          "source": "DevelopersIO",
+          "published": "2026-07-10T08:10:10",
+          "excerpt": "AWS WAFのWeb ACLに数十件規模のルールが設定されている場合、マネジメントコンソール上での確認は非常に手間になるため、AWS CLIを使ってWeb ACLの情報をJSONファイルに一括出力する手順をご紹介します。"
+        },
         {
           "title": "AWS Security Hub の新機能 「Network Scanning」 で実際にインターネットから到達可能なポートを検出してみた",
           "link": "https://dev.classmethod.jp/articles/security-hub-network-scanning-try/",
@@ -92,28 +106,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-10T01:28:43",
           "excerpt": "記事の URL: https://blog.cloudflare.com/build-your-own-vulnerability-harness/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Linuxカーネルに15年潜伏した脆弱性が見つかる　攻撃成功率は97％",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/10/news063.html",
-          "source": "@IT",
-          "published": "2026-07-09T22:30:00",
-          "excerpt": "Linuxカーネルで2011年から存在していた脆弱性が明らかになった。特別な権限を必要とせず、一般ユーザー権限から権限昇格やコンテナ脱出につながる可能性があるという。…"
-        },
-        {
-          "title": "セキュリティ枠組みの選び方を変えた「4つの変化」とは　IDCが選定の指針を公表",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/10/news034.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-07-09T22:00:00",
-          "excerpt": "情報セキュリティの枠組み選定は「定番を選んで終わり」ではなくなった。IDCが企業向けの選定指針を公表した。同社が「根本から変わった」と指摘する選定の前提とは何か。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。GitHub Mobile、Copilotによるマージ競合解決機能を新たに追加",
+      "summary": "データ分析の新着が6件。この記事は、CYBOZU SUMMER BLOG FES '26の記事です。こんにちは！サイボウズのトニオ（@tonionagauzzi）です。普段はkintone開発チームにてAndroidアプリを主に開発しています。…",
       "articles": [
+        {
+          "title": "4社合同イベント『Mobile Tech Flex』の紹介 〜敷居が低いモバイルコミュニティを目指して〜 | Cybozu Inside Out | サイボウズエンジニアのブログ",
+          "link": "https://blog.cybozu.io/entry/2026/07/10/170000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-10T08:00:00",
+          "excerpt": "この記事は、CYBOZU SUMMER BLOG FES '26の記事です。こんにちは！サイボウズのトニオ（@tonionagauzzi）です。普段はkintone開発チームにてAndroidアプリを主に開発しています。…"
+        },
+        {
+          "title": "GitHub MobileがCopilot CLIリモートセッション通知に対応",
+          "link": "https://codezine.jp/article/detail/28908",
+          "source": "CodeZine",
+          "published": "2026-07-10T07:00:00",
+          "excerpt": "GitHub MobileがCopilot CLIリモートセッション通知に対応"
+        },
         {
           "title": "GitHub Mobile、Copilotによるマージ競合解決機能を新たに追加",
           "link": "https://codezine.jp/article/detail/28903",
@@ -127,28 +141,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-10T00:58:58",
           "excerpt": "はじめに DynamoDBには長らく「できるだけ1つのテーブルにまとめろ（single-table design）」という強いベストプラクティスがありました。しかしここ最近、現場では「本当にそうか？」という揺り戻しが起きています。…"
-        },
-        {
-          "title": "EKS Capabilities（Kro + ACK）と ASCP でシークレット管理を効率化してみた",
-          "link": "https://qiita.com/daitak/items/09faf2c025dbba9871b6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-09T22:00:10",
-          "excerpt": "こんにちは、タカサオです！EKSクラスタ上のアプリケーションPodが使うシークレットをAWS Secret Managerで管理したい場合、ASCP (AWS Secrets and Config Provider) が使えます。…"
-        },
-        {
-          "title": "Claude Desktop on Amazon Bedrock から Amazon Redshift に MCP 接続してみた",
-          "link": "https://zenn.dev/aws_japan/articles/claude-desktop-bedrock-redshift-mcp",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-09T12:15:49",
-          "excerpt": "はじめに こんにちは！AWS でソリューションアーキテクトをしている町田です。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が17件。squash mergeでフィーチャーブランチに打ったgitタグが孤立し、git describeで検出できなくなる問題の原因と対策を解説。タグはsquash merge後にmain上で打つのが正解。",
+      "summary": "開発ツールの新着が16件。AWS WAFのWeb ACLに数十件規模のルールが設定されている場合、マネジメントコンソール上での確認は非常に手間になるため、AWS CLIを使ってWeb ACLの情報をJSONファイルに一括出力する手順をご紹介します。",
       "articles": [
+        {
+          "title": "【初心者向け】AWS CLIでAWS WAFのWeb ACLをJSON出力する方法",
+          "link": "https://dev.classmethod.jp/articles/aws-cli-web-acl-json-output/",
+          "source": "DevelopersIO",
+          "published": "2026-07-10T08:10:10",
+          "excerpt": "AWS WAFのWeb ACLに数十件規模のルールが設定されている場合、マネジメントコンソール上での確認は非常に手間になるため、AWS CLIを使ってWeb ACLの情報をJSONファイルに一括出力する手順をご紹介します。"
+        },
+        {
+          "title": "GitHub MobileがCopilot CLIリモートセッション通知に対応",
+          "link": "https://codezine.jp/article/detail/28908",
+          "source": "CodeZine",
+          "published": "2026-07-10T07:00:00",
+          "excerpt": "GitHub MobileがCopilot CLIリモートセッション通知に対応"
+        },
         {
           "title": "Squash mergeでgitタグが孤立する — git describeで検出できなくなる原因と対策",
           "link": "https://dev.classmethod.jp/articles/squash-merge-orphans-git-tags/",
@@ -162,52 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-10T04:53:42",
           "excerpt": "`vertexai.generative_models` が非推奨になったので `google-genai` SDK に移行しました。…"
-        },
-        {
-          "title": "CloudFormationスタックを消せない？ VPCの削除を阻む依存リソースをCodeBuildで順番に剥がした",
-          "link": "https://qiita.com/KineYue/items/31ac926b6d19446eb1e3",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-10T04:30:01",
-          "excerpt": "はじめに 開発環境のコスト削減のため、毎日深夜に環境を自動削除する運用をしています。削除ジョブはCodeBuildから実行し、CloudFormationスタックを順番に落としていく構成です。…"
-        },
-        {
-          "title": "GitHub Mobile、Copilotによるマージ競合解決機能を新たに追加",
-          "link": "https://codezine.jp/article/detail/28903",
-          "source": "CodeZine",
-          "published": "2026-07-10T01:00:00",
-          "excerpt": "GitHub Mobile、Copilotによるマージ競合解決機能を新たに追加"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【初参加】AWS Summit Japan 2026 参加レポート  ─初心者の自分が事前に知りたかったこと─",
-      "link": "https://qiita.com/Y-Kazuyan/items/56bdbe4d7c95474d7d9f",
+      "title": "GCP触って1ヶ月で感じたこと",
+      "link": "https://qiita.com/hikaru0506/items/62019b895eb2d0ef3c35",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-10T05:42:54",
-      "excerpt": "はじめに 自己紹介と自分の立ち位置 株式会社TOKAI コミュニケーションズ 2026年度新入社員 今年からAWSを触り始めて、今年5月にAWS Cloud Practitionerを取得 AWS Summitには今まで参加したことがない…"
+      "published": "2026-07-10T08:37:25",
+      "excerpt": "GCP触って1ヶ月で感じたこと GCP（Google Cloud）を使ったプロジェクトに参画して、約1ヶ月が経ちました。…"
     },
     {
-      "title": "Python・JavaScript・TypeScript の違いについてまとめてみた",
-      "link": "https://dev.classmethod.jp/articles/riko-python-javascript-typescript-different/",
+      "title": "Amazon Connect クイック接続の外部転送時に、転送先に非通知で表示される場合の対策",
+      "link": "https://dev.classmethod.jp/articles/amazon-connect-quick-connect-transfer-caller-id/",
       "source": "DevelopersIO",
-      "published": "2026-07-10T05:33:20",
-      "excerpt": "外部研修を終えて、TypeScriptでの実装に挑戦することになったものの、Python・JavaScriptとの違いがわからず戸惑いました。そこで、この3つの言語の関係性と「型」の概念についてまとめてみます。"
+      "published": "2026-07-10T08:37:17",
+      "excerpt": "Amazon Connect クイック接続の外部転送時に、転送先に非通知で表示される場合の対策"
     },
     {
-      "title": "Google Chat BotにFirestoreで会話履歴を持たせてフォローアップ質問に対応する",
-      "link": "https://dev.classmethod.jp/articles/google-chat-bot-conversation-history-with-firestore/",
-      "source": "DevelopersIO",
-      "published": "2026-07-10T05:23:48",
-      "excerpt": "RAGベースのGoogle Chat Botに、Firestoreで会話履歴を保存しクエリ再構成を行うことで、「もう少し詳しく教えて」のようなフォローアップ質問に対応できるようにした実装を紹介します。"
+      "title": "関西Ruby会議09 チーフオーガナイザーの ydah さんにタイムテーブルを解説してもらいました | SmartHR Tech Blog",
+      "link": "https://tech.smarthr.jp/entry/2026/07/10/170000",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-10T08:00:00",
+      "excerpt": "こんにちは、SmartHR の inao です。RubyKaigi 2026 の余韻が残るなか、地域Ruby会議のひとつである 関西Ruby会議09 の開催が近づいてきました。…"
     },
     {
-      "title": "Appleに続き、インドのスマートフォン製造ブームはVivo合弁会社で新たな段階に入る",
-      "link": "https://techcrunch.com/2026/07/09/after-apple-indias-smartphone-manufacturing-boom-enters-new-phase-with-vivo-jv/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-10T04:36:20",
-      "excerpt": "Vivoの合弁事業は、インドにおける中国のスマートフォンメーカーの雛形となる可能性がある。"
+      "title": "【ポスターセッションレポート】「眠れる資産」を「生きたユーザー」として呼び覚ます - RESEARCH Conference 2026 | LIFULL Creators Blog",
+      "link": "https://www.lifull.blog/entry/2026/07/10/170000",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-10T08:00:00",
+      "excerpt": "過去のUX調査データを生成AI×ユーザーライブラリで開発現場がすぐ使える知見に変えた事例。眠っていたインタビュー情報をどう設計し活用したかがわかりやすく学べます。#LIFULL"
     }
   ]
 }
