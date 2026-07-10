@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-10T16:13:51",
+  "generated_at": "2026-07-10T18:06:36",
   "window_hours": 24,
-  "total": 232,
+  "total": 229,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。モデルメーカーがエージェントの野望を職場の生産性へと方向転換したため、スタンドアロンの実験は 12 か月未満で中止された",
+      "summary": "生成AIの新着が42件。モデルメーカーがエージェントの野望を職場の生産性へと方向転換したため、スタンドアロンの実験は 12 か月未満で中止された",
       "articles": [
         {
           "title": "OpenAI の Atlas ブラウザ、最初の誕生日を迎えられない",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。AWS Config のマネージドルールが一度に191個追加されました。…",
+      "summary": "クラウドの新着が23件。AWS Organizations の宣言型ポリシーで VPC Encryption Controls を Organization 全体に一括適用し、enforce モードによるブロック動作や除外設定の挙動を検証しました。",
       "articles": [
+        {
+          "title": "VPC Encryption Controls を宣言型ポリシーで Organization 全体に一括適用してみた",
+          "link": "https://dev.classmethod.jp/articles/vpc-encryption-controls-declarative-policy/",
+          "source": "DevelopersIO",
+          "published": "2026-07-10T17:52:05",
+          "excerpt": "AWS Organizations の宣言型ポリシーで VPC Encryption Controls を Organization 全体に一括適用し、enforce モードによるブロック動作や除外設定の挙動を検証しました。"
+        },
         {
           "title": "AWS Config マネージドルールが191個追加されたので ECS_NO_ENVIRONMENT_SECRETS を試してみた",
           "link": "https://dev.classmethod.jp/articles/aws-config-191-managed-rules-ecs-no-environment-secrets/",
@@ -64,21 +71,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-10T10:49:54",
           "excerpt": "NVIDIAのCosmosで自動運転向けの動画生成を3パターン試してみました。…"
-        },
-        {
-          "title": "CodeBuild上で実行されているGitHub Actions上でSOCI v2を使ってECSのデプロイを高速化する",
-          "link": "https://qiita.com/fcako/items/755eb4c23c2c4b5fe098",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-10T10:08:26",
-          "excerpt": "はじめに AWS Summit Japan 2026で以下のセッションでSOCI v2について教えてもらいました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。ZAF の Secure Settings では、secure 値は JavaScript に返らず、プレースホルダは文字列置換のみです。…",
+      "summary": "セキュリティの新着が13件。AWS Organizations の宣言型ポリシーで VPC Encryption Controls を Organization 全体に一括適用し、enforce モードによるブロック動作や除外設定の挙動を検証しました。",
       "articles": [
+        {
+          "title": "VPC Encryption Controls を宣言型ポリシーで Organization 全体に一括適用してみた",
+          "link": "https://dev.classmethod.jp/articles/vpc-encryption-controls-declarative-policy/",
+          "source": "DevelopersIO",
+          "published": "2026-07-10T17:52:05",
+          "excerpt": "AWS Organizations の宣言型ポリシーで VPC Encryption Controls を Organization 全体に一括適用し、enforce モードによるブロック動作や除外設定の挙動を検証しました。"
+        },
+        {
+          "title": "破壊的な Windows バックドアが複数のワイパーとランサムウェア コードを 1 つのパッケージに詰め込む",
+          "link": "https://www.theregister.com/security/2026/07/10/destructive-windows-backdoor-stuffs-multiple-wipers-and-ransomware-code-into-a-single-package/5270053",
+          "source": "The Register（英語）",
+          "published": "2026-07-10T17:35:00",
+          "excerpt": "Microsoftによると、GigaWiperは少なくとも3つのマルウェア ファミリを1つのモジュラー ツールに統合している"
+        },
         {
           "title": "ZAF の Secure Settings を使って認証方式別に疎通確認してみた",
           "link": "https://dev.classmethod.jp/articles/zaf-secure-settings-auth-methods/",
@@ -92,20 +106,6 @@
           "source": "TechCrunch（英語）",
           "published": "2026-07-10T14:11:03",
           "excerpt": "3人目のランサムウェア交渉人が、悪名高いランサムウェアグループが米国の被害企業からハッカーへの支払いを強要するのを手助けした罪で投獄された。"
-        },
-        {
-          "title": "AWS MCP Server の新機能「OAuth認証」を Kiro CLI で試してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-mcp-server-oauth-kiro-cli/",
-          "source": "DevelopersIO",
-          "published": "2026-07-10T11:09:50",
-          "excerpt": "AWS MCP ServerがOAuth 2.0認証に対応しました。Kiro CLI 2.12.0を使い、AWS CLIプロファイルを用意せずにブラウザーのAWS Sign-InでAWS MCP Serverへ接続します。…"
-        },
-        {
-          "title": "AWS Security Agentコードレビュー機能(preview)を試してみた | Fenrir Engineers",
-          "link": "https://engineers.fenrir-inc.com/entry/2026/07/10/195027",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-10T10:50:27",
-          "excerpt": "こんにちは、クラウドネイティブ技術部の平田です。先日行われたAWS Summit Japan 2026に参加してきました。去年から続いて2回目の参加になります。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が17件。複数のPRを連続マージした際、Amplify Hostingではビルドが何回走るのか気になったので確認してみました。同一ブランチへのマージに対する自動ビルドの挙動について、実際の検証結果を紹介します。",
+      "summary": "開発ツールの新着が17件。記事の URL: https://lists.osgeo.org/pipermail/qgis-developer/2026-April/068430.html コメント URL: https://news.ycombinator.…",
       "articles": [
+        {
+          "title": "他に曖昧な GitHub シェイクダウン通知を受け取った人はいますか?",
+          "link": "https://lists.osgeo.org/pipermail/qgis-developer/2026-July/068430.html",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-10T16:57:35",
+          "excerpt": "記事の URL: https://lists.osgeo.org/pipermail/qgis-developer/2026-April/068430.html コメント URL: https://news.ycombinator.…"
+        },
         {
           "title": "AWS Amplify Hosting で大量のプルリクエストを連続マージした時、ビルドは何回走るのか確認してみた",
           "link": "https://dev.classmethod.jp/articles/amplify-autobuild-queue/",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-10T11:41:34",
           "excerpt": "TL;DR 自作の AWS 運用エージェント (Converse API の tool use ループ + read-only ツール4種) を、同じコードのままローカル実行と Amazon Bedrock AgentCore Runtim…"
-        },
-        {
-          "title": "【Ansible】有名だが意外と詳しく知らないIaCツール、Ansibleとは？ハンズオンもしてみよう",
-          "link": "https://qiita.com/miruky/items/13e3ae235d9a97b99710",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-10T11:28:23",
-          "excerpt": "はじめに こんばんは、mirukyです。皆さんは、IaCと聞いてどんなツールを思い浮かべますか？AWSで言えばCloudFormation、CDK、SAM、汎用的なものだとTerraformあたりを思い浮かべる人が多いかな、と思います。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Dumb Co は私に iPhone をハッキングされた折りたたみ式携帯電話と交換するよう勧めました",
-      "link": "https://techcrunch.com/2026/07/10/dumb-co-dared-me-to-trade-my-iphone-for-a-hacked-flip-phone/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-10T16:06:49",
-      "excerpt": "Dumb Co は、iPhone の無限の接続性と 2000 年代初頭の遺物の非現実的な制限を橋渡しする、スマートフォンと同期する折りたたみ式携帯電話を販売しています。"
-    },
-    {
-      "title": "軌道データセンターのゴールドラッシュには環境見直しが必要、とFCCが語った",
-      "link": "https://www.theregister.com/on-prem/2026/07/10/orbital-datacenter-gold-rush-needs-an-environmental-review-fcc-told/5269863",
-      "source": "The Register（英語）",
-      "published": "2026-07-10T16:02:00",
-      "excerpt": "緑の団体、100万機の人工衛星が大気圏に散らばる前にライセンス凍結を求める"
-    },
-    {
-      "title": "QuadRF はドローンを発見し、壁越しに WiFi を確認できます",
-      "link": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
+      "title": "SpaceXはさらに10万基のStarlink衛星を打ち上げたい – 100倍の帯域幅を実現",
+      "link": "https://www.zdnet.com/home-and-office/networking/spacex-wants-to-launch-100000-more-starlink-satellites/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-10T15:59:53",
-      "excerpt": "記事の URL: https://www.jeffgeerling.…"
+      "published": "2026-07-10T17:51:07",
+      "excerpt": "記事の URL: https://www.zdnet.…"
     },
     {
-      "title": "自動再生と無限スクロールを無効にしないと巨額の罰金の危険があるとEUがメタに伝える",
-      "link": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-10T15:46:18",
-      "excerpt": "デジタルサービス法により、メタはプラットフォームに大きな変更を強いられる可能性がある。"
+      "title": "提出書類：大学アプリのフィズがスタートアップの機密情報をライバルのサイドチャットと共有したとしてベンチャーキャピタルを告発",
+      "link": "https://techcrunch.com/2026/07/10/filing-college-app-fizz-accuses-vc-of-sharing-confidential-startup-information-with-rival-sidechat/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-10T17:42:36",
+      "excerpt": "フィズは、マーベロンVCが資金調達会議中に入手した機密情報を競合するスタートアップと共有したとして、ライバルのサイドチャットに対する訴訟を拡大した。"
+    },
+    {
+      "title": "Amazon Location Service は、新しい住所と検索オプションで Places API を強化します",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-enhanced-address-search",
+      "source": "AWS What's New（英語）",
+      "published": "2026-07-10T17:26:00",
+      "excerpt": "本日、Amazon Location Service は、開発者が住所名の形式、多言語住所、旅行に最適化された POI 検索、ドライブスルー データをより詳細に制御できるようにする Places API の新しい機能強化を発表しました。…"
+    },
+    {
+      "title": "SKハイニックス、米国史上最大の海外IPOで265億ドルを調達、米国に新たな工場の建設を促される",
+      "link": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-10T17:17:12",
+      "excerpt": "AI チップ ブームは、これまでで最大のウォール街の瞬間を生み出したばかりです。現在、SKハイニックスとサムスンは米国に工場を建設するよう求められている。"
     }
   ]
 }
