@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-07-11T08:41:55",
+  "generated_at": "2026-07-11T10:08:06",
   "window_hours": 24,
-  "total": 161,
+  "total": 160,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。DMS Schema Conversionの生成AI変換を有効にしてOracle独自構文をPostgreSQLへ変換し、変換不可部分をKiroで補完しました。…",
+      "summary": "生成AIの新着が37件。Claude Code のカスタムスキルで Excel・PowerPoint・Word を扱う処理を3つの独立したスキルから1つの ms-office-suite スキルに統合しました。SKILL.…",
       "articles": [
+        {
+          "title": "Claude Code スキルを設計し直した話 — xlsx/pptx/docx を ms-office-suite に統合",
+          "link": "https://dev.classmethod.jp/articles/claude-code-ms-office-suite-skill/",
+          "source": "DevelopersIO",
+          "published": "2026-07-11T09:35:25",
+          "excerpt": "Claude Code のカスタムスキルで Excel・PowerPoint・Word を扱う処理を3つの独立したスキルから1つの ms-office-suite スキルに統合しました。SKILL.…"
+        },
+        {
+          "title": "Claude Code v2.1.207 の主要アップデート",
+          "link": "https://dev.classmethod.jp/articles/20260711-cc-updates-v2-1-207/",
+          "source": "DevelopersIO",
+          "published": "2026-07-11T09:11:39",
+          "excerpt": "Claude Code v2.1.207 がリリースされました。今回は Bedrock・Vertex AI での Auto モード開放とデフォルトモデルの Claude Opus 4.…"
+        },
+        {
+          "title": "Anthropic、Claudeの利用状況を可視化する新機能「Reflect」をベータ公開",
+          "link": "https://codezine.jp/article/detail/28921",
+          "source": "CodeZine",
+          "published": "2026-07-11T09:00:00",
+          "excerpt": "Anthropic、Claudeの利用状況を可視化する新機能「Reflect」をベータ公開"
+        },
         {
           "title": "DMS Schema Conversion の新機能「AWS MCP サーバーを利用した AI エージェントの自動化」を試してみた",
           "link": "https://dev.classmethod.jp/articles/dms-schema-conversion-ai-agent-mcp-server-oracle-postgresql/",
           "source": "DevelopersIO",
           "published": "2026-07-11T08:05:04",
           "excerpt": "DMS Schema Conversionの生成AI変換を有効にしてOracle独自構文をPostgreSQLへ変換し、変換不可部分をKiroで補完しました。…"
-        },
-        {
-          "title": "Bedrock Knowledge Basesの階層チャンキングで、メタデータが想定と違う形式で格納されていた話",
-          "link": "https://dev.classmethod.jp/articles/bedrock-kb-metadata-parenttext-created-on/",
-          "source": "DevelopersIO",
-          "published": "2026-07-11T06:22:41",
-          "excerpt": "Bedrock Knowledge Basesの階層チャンキング使用時、OpenSearchのAMAZON_BEDROCK_METADATAにサイドカーのmetadataAttributesが含まれない問題とその対処法を紹介します。…"
-        },
-        {
-          "title": "AIコーディングCLIツールがSSDを壊す？ Codex・Claude Code・Claude Desktopのディスク書き込み問題を調査してみた",
-          "link": "https://dev.classmethod.jp/articles/ai-coding-cli-ssd-write-issues-investigation/",
-          "source": "DevelopersIO",
-          "published": "2026-07-11T05:43:58",
-          "excerpt": "OpenAI Codex CLIの年間640TBディスク書き込みバグをきっかけに、Claude CodeとClaude Desktopのディスク使用状況を実際に調査しました。…"
-        },
-        {
-          "title": "Claude Codeスキルで図表生成を最適化した話：SVG vs Mermaid vs Excalidraw 比較と設計判断",
-          "link": "https://dev.classmethod.jp/articles/build-svg-diagram-skill-for-claude-code/",
-          "source": "DevelopersIO",
-          "published": "2026-07-11T05:42:06",
-          "excerpt": "Claude Codeスキルで図表を自動生成する際、SVG + cairosvg、Mermaid CLI、Excalidrawの3アプローチを実際に比較検証しました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。Google Chat Bot で曖昧なクエリに対しインタラクティブな聞き返しカードを表示する仕組みを実装しました。…",
+      "summary": "クラウドの新着が14件。Google Chat Bot で曖昧なクエリに対しインタラクティブな聞き返しカードを表示する仕組みを実装しました。…",
       "articles": [
         {
           "title": "Google Chat Bot に聞き返しウィジェットを実装してみた — cardsV2 のインラインフォーム活用",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。AIが生成した認証・認可コードが本当に安全なのか、判断できていますか？OIDCの仕様を体系的に学べる「OpenID Connect入門」を読んだので、その魅力を紹介します！",
+      "summary": "セキュリティの新着が10件。AIが生成した認証・認可コードが本当に安全なのか、判断できていますか？OIDCの仕様を体系的に学べる「OpenID Connect入門」を読んだので、その魅力を紹介します！",
       "articles": [
         {
           "title": "【書評】「OpenID Connect入門」AI駆動開発で認証認可の仕様を正しく判断するための一冊",
@@ -140,7 +140,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。GitHubプライベートリポジトリでgit pushは成功するのにgit fetch originが403になる問題の原因と対策。…",
+      "summary": "開発ツールの新着が14件。GitHubプライベートリポジトリでgit pushは成功するのにgit fetch originが403になる問題の原因と対策。…",
       "articles": [
         {
           "title": "プライベートリポジトリで git fetch origin が 403 になる — URL埋め込みPATの落とし穴と対策",
@@ -175,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "AWS Step Functions の強化された TestState API でワークフローをローカルテストしてみた",
-      "link": "https://dev.classmethod.jp/articles/step-functions-teststate-api-enhanced-local-testing/",
-      "source": "DevelopersIO",
-      "published": "2026-07-11T07:46:20",
-      "excerpt": "AWS Step Functions の TestState API が2025年11月に強化され、モック・リトライ・Map/Parallel・変数注入をデプロイなしでテスト可能になりました。…"
+      "title": "アイルランドのデータセンターは現在、国の電力の23%を消費している",
+      "link": "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013",
+      "source": "The Register（英語）",
+      "published": "2026-07-11T10:00:00",
+      "excerpt": "ダブリン周辺ではほとんどの新規送電網接続に対する制限が依然として残る中、消費量はさらに10%増加した"
     },
     {
-      "title": "Amazon Timestream for InfluxDB の新機能「EventBridge 状態変更イベント」を試して CloudTrail と比較してみた",
-      "link": "https://dev.classmethod.jp/articles/timestream-influxdb-eventbridge-state-change-event/",
-      "source": "DevelopersIO",
-      "published": "2026-07-11T07:03:34",
-      "excerpt": "Amazon Timestream for InfluxDB が DB インスタンスの状態変更イベントを EventBridge へ発行するようになりました。…"
+      "title": "Amazon EVS で VCF 9 のサポートが開始！変更点をスライド 1 枚でまとめてみた",
+      "link": "https://qiita.com/mtoyoda/items/738872d5efa619502af7",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-11T09:39:27",
+      "excerpt": "2026年7月、Amazon EVS（Elastic VMware Service）が VMware Cloud Foundation (VCF) 9.0 および 9.1 をサポートしたと発表されました。…"
     },
     {
-      "title": "pnpm v11のminimumReleaseAgeでDependabotのCIが落ちる ─ 原因・回避策・upstream状況まとめ",
-      "link": "https://dev.classmethod.jp/articles/pnpm-11-minimum-release-age-dependabot-ci-failure/",
+      "title": "AWS Config の Backup::RecoveryPoint 記録設定を見直して、コスト改善してみた",
+      "link": "https://dev.classmethod.jp/articles/aws-config-backup-recovery-point-recording-cost-review/",
       "source": "DevelopersIO",
-      "published": "2026-07-11T06:16:13",
-      "excerpt": "pnpm v11のminimumReleaseAge機能とDependabotの組み合わせで、推移的依存（caniuse-lite等）が原因でCIが失敗する問題の原因と回避策、upstreamの議論状況をまとめました。"
+      "published": "2026-07-11T09:26:21",
+      "excerpt": "検証環境の AWS Config 費用を分析したところ、AWS Backup の RecoveryPoint が都度記録（CONTINUOUS）の最大コスト要因でした。…"
     },
     {
-      "title": "新規作成する AWS Organizations 組織に組織離脱を防ぐ SCP が自動付与されるようになりました | サーバーワークスエンジニアブログ",
-      "link": "https://blog.serverworks.co.jp/20260711_DenyLeaveAndCloseAccount",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-11T06:16:05",
-      "excerpt": "Organizationsで新規組織作成時に組織離脱とアカウント閉鎖を防ぐSCP「DenyLeaveAndCloseAccount」が自動付与されるようになりました。…"
+      "title": "10億ドル近い資金を投入しても、米国は依然として医療用手袋を製造できない",
+      "link": "https://www.bloomberg.com/news/features/2026-07-07/why-it-s-so-difficult-to-produce-100-american-made-medical-gloves",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-11T09:16:10",
+      "excerpt": "記事の URL: https://www.bloomberg.…"
     }
   ]
 }
