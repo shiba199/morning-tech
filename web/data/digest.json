@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-11T10:08:06",
+  "generated_at": "2026-07-11T11:28:11",
   "window_hours": 24,
-  "total": 160,
+  "total": 152,
   "topic_count": 5,
   "groups": [
     {
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。Google Chat Bot で曖昧なクエリに対しインタラクティブな聞き返しカードを表示する仕組みを実装しました。…",
+      "summary": "クラウドの新着が12件。Google Chat Bot で曖昧なクエリに対しインタラクティブな聞き返しカードを表示する仕組みを実装しました。…",
       "articles": [
         {
           "title": "Google Chat Bot に聞き返しウィジェットを実装してみた — cardsV2 のインラインフォーム活用",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。AIが生成した認証・認可コードが本当に安全なのか、判断できていますか？OIDCの仕様を体系的に学べる「OpenID Connect入門」を読んだので、その魅力を紹介します！",
+      "summary": "セキュリティの新着が8件。AIが生成した認証・認可コードが本当に安全なのか、判断できていますか？OIDCの仕様を体系的に学べる「OpenID Connect入門」を読んだので、その魅力を紹介します！",
       "articles": [
         {
           "title": "【書評】「OpenID Connect入門」AI駆動開発で認証認可の仕様を正しく判断するための一冊",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。EKS 上の Amazon EMR は、Apache Spark トラブルシューティング エージェントをサポートするようになりました。…",
+      "summary": "データ分析の新着が2件。EKS 上の Amazon EMR は、Apache Spark トラブルシューティング エージェントをサポートするようになりました。…",
       "articles": [
         {
           "title": "EKS 上の Amazon EMR が Apache Spark トラブルシューティング エージェントをサポートするようになりました",
@@ -127,21 +127,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-10T15:50:41",
           "excerpt": "Amazon Redshift の RG インスタンスが Trailing Track で利用可能になりました。Trailing → Current への切替動作と、逆方向（Current → Trailing）の挙動を実機検証しています。"
-        },
-        {
-          "title": "Step FunctionsからEMRを起動してHiveQLを実行してみた",
-          "link": "https://dev.classmethod.jp/articles/sfn-emr-exec-hiveql/",
-          "source": "DevelopersIO",
-          "published": "2026-07-10T10:09:42",
-          "excerpt": "Step FunctionsからEMRクラスターを起動し、Glue Data CatalogをメタストアとしてHiveQLを実行する方法を試してみました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。GitHubプライベートリポジトリでgit pushは成功するのにgit fetch originが403になる問題の原因と対策。…",
+      "summary": "開発ツールの新着が13件。はじめに こんにちは !ソリューションアーキテクトの いなりく です !AI コーディングエージェントを使っていると、必ずぶつかる疑問があります。「このタスク、もっと安いモデルでも十分だったのでは ?…",
       "articles": [
+        {
+          "title": "agent-cost-bench でコーディングエージェントの品質とコストを測ってみる",
+          "link": "https://zenn.dev/aws_japan/articles/agent-cost-bench-model-compare",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-11T08:02:21",
+          "excerpt": "はじめに こんにちは !ソリューションアーキテクトの いなりく です !AI コーディングエージェントを使っていると、必ずぶつかる疑問があります。「このタスク、もっと安いモデルでも十分だったのでは ?…"
+        },
+        {
+          "title": "agent-cost-bench でコーディングエージェントの品質とコストを測ってみる",
+          "link": "https://zenn.dev/aws_japan/articles/agent-cost-bench-kiro-vs-claude-code",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-11T07:57:01",
+          "excerpt": "はじめに こんにちは !ソリューションアーキテクトの いなりく です !AI コーディングエージェントを使っていると、必ずぶつかる疑問があります。「このタスク、もっと安いモデルでも十分だったのでは ?…"
+        },
         {
           "title": "プライベートリポジトリで git fetch origin が 403 になる — URL埋め込みPATの落とし穴と対策",
           "link": "https://dev.classmethod.jp/articles/github-private-repo-git-fetch-403-authed-origin/",
@@ -155,20 +162,6 @@
           "source": "CodeZine",
           "published": "2026-07-11T06:00:00",
           "excerpt": "GitHub Copilot、未参加リポジトリ向けの概要生成機能を提供開始"
-        },
-        {
-          "title": "AIコーディングCLIツールがSSDを壊す？ Codex・Claude Code・Claude Desktopのディスク書き込み問題を調査してみた",
-          "link": "https://dev.classmethod.jp/articles/ai-coding-cli-ssd-write-issues-investigation/",
-          "source": "DevelopersIO",
-          "published": "2026-07-11T05:43:58",
-          "excerpt": "OpenAI Codex CLIの年間640TBディスク書き込みバグをきっかけに、Claude CodeとClaude Desktopのディスク使用状況を実際に調査しました。…"
-        },
-        {
-          "title": "【AWS】GitHub ActionsとOIDCでAWS Lambdaへのデプロイを自動化する",
-          "link": "https://qiita.com/nikke_hikage/items/a64c6fd58777e4c79052",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-11T04:49:35",
-          "excerpt": "閲覧いただきありがとうございます。現在、サーバーサイドエンジニアとしてAPIの運用保守業務を担当しています。…"
         }
       ]
     }
