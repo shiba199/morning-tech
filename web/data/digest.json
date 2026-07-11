@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-11T11:28:11",
+  "generated_at": "2026-07-11T12:12:29",
   "window_hours": 24,
-  "total": 152,
+  "total": 147,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。Claude Code のカスタムスキルで Excel・PowerPoint・Word を扱う処理を3つの独立したスキルから1つの ms-office-suite スキルに統合しました。SKILL.…",
+      "summary": "生成AIの新着が36件。はじめに 2026年7月にリリースされた Claude Code v2.1.207 は、一見すると小さなパッチバージョンですが、中身は設定の挙動が変わる破壊的変更とセキュリティ修正が中心の重要なアップデートです。…",
       "articles": [
+        {
+          "title": "Claude Code v2.1.207の破壊的変更まとめ：Auto mode既定化とプラグインのシェル対策",
+          "link": "https://qiita.com/picnic/items/d1ac24b797423941d494",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-11T12:09:57",
+          "excerpt": "はじめに 2026年7月にリリースされた Claude Code v2.1.207 は、一見すると小さなパッチバージョンですが、中身は設定の挙動が変わる破壊的変更とセキュリティ修正が中心の重要なアップデートです。…"
+        },
         {
           "title": "Claude Code スキルを設計し直した話 — xlsx/pptx/docx を ms-office-suite に統合",
           "link": "https://dev.classmethod.jp/articles/claude-code-ms-office-suite-skill/",
@@ -29,13 +36,6 @@
           "source": "CodeZine",
           "published": "2026-07-11T09:00:00",
           "excerpt": "Anthropic、Claudeの利用状況を可視化する新機能「Reflect」をベータ公開"
-        },
-        {
-          "title": "DMS Schema Conversion の新機能「AWS MCP サーバーを利用した AI エージェントの自動化」を試してみた",
-          "link": "https://dev.classmethod.jp/articles/dms-schema-conversion-ai-agent-mcp-server-oracle-postgresql/",
-          "source": "DevelopersIO",
-          "published": "2026-07-11T08:05:04",
-          "excerpt": "DMS Schema Conversionの生成AI変換を有効にしてOracle独自構文をPostgreSQLへ変換し、変換不可部分をKiroで補完しました。…"
         }
       ]
     },
@@ -133,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。はじめに こんにちは !ソリューションアーキテクトの いなりく です !AI コーディングエージェントを使っていると、必ずぶつかる疑問があります。「このタスク、もっと安いモデルでも十分だったのでは ?…",
+      "summary": "開発ツールの新着が12件。Amplify Gen 2で構築したアプリケーションを運用していくなかで課題が見えてきたため、Kiro IDEを使ってSAM + GitHub Actions構成に移植しました。…",
       "articles": [
+        {
+          "title": "Amplify Gen 2 アプリを SAM + GitHub Actions 構成に Kiro を使って移植してみた",
+          "link": "https://dev.classmethod.jp/articles/amplifygen2-to-sam-using-kiro/",
+          "source": "DevelopersIO",
+          "published": "2026-07-11T11:25:38",
+          "excerpt": "Amplify Gen 2で構築したアプリケーションを運用していくなかで課題が見えてきたため、Kiro IDEを使ってSAM + GitHub Actions構成に移植しました。…"
+        },
         {
           "title": "agent-cost-bench でコーディングエージェントの品質とコストを測ってみる",
           "link": "https://zenn.dev/aws_japan/articles/agent-cost-bench-model-compare",
@@ -155,13 +162,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-11T06:00:14",
           "excerpt": "GitHubプライベートリポジトリでgit pushは成功するのにgit fetch originが403になる問題の原因と対策。…"
-        },
-        {
-          "title": "GitHub Copilot、未参加リポジトリ向けの概要生成機能を提供開始",
-          "link": "https://codezine.jp/article/detail/28920",
-          "source": "CodeZine",
-          "published": "2026-07-11T06:00:00",
-          "excerpt": "GitHub Copilot、未参加リポジトリ向けの概要生成機能を提供開始"
         }
       ]
     }
