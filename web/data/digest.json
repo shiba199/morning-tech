@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-11T12:12:29",
+  "generated_at": "2026-07-11T13:58:55",
   "window_hours": 24,
-  "total": 147,
+  "total": 141,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。はじめに 2026年7月にリリースされた Claude Code v2.1.207 は、一見すると小さなパッチバージョンですが、中身は設定の挙動が変わる破壊的変更とセキュリティ修正が中心の重要なアップデートです。…",
+      "summary": "生成AIの新着が39件。AgentCore Observabilityのクロスアカウントオブザーバビリティを試してみました！",
       "articles": [
+        {
+          "title": "AgentCore Observabilityをクロスアカウントで試してみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-cross-account-observability/",
+          "source": "DevelopersIO",
+          "published": "2026-07-11T13:12:26",
+          "excerpt": "AgentCore Observabilityのクロスアカウントオブザーバビリティを試してみました！"
+        },
+        {
+          "title": "Fable 5・Opus 4.8・GPT 5.6 SolにProject Eulerの難問を解かせて比較してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-fable-5-opus-4-8-gpt-5-6-sol-project-euler-comparison/",
+          "source": "DevelopersIO",
+          "published": "2026-07-11T12:46:13",
+          "excerpt": "Claude Fable 5・Opus 4.8とGPT 5.6 Solに、Project Eulerの最新難問をeffort別で解かせて比較しました。正誤・所要時間・トークンを実測。…"
+        },
         {
           "title": "Claude Code v2.1.207の破壊的変更まとめ：Auto mode既定化とプラグインのシェル対策",
           "link": "https://qiita.com/picnic/items/d1ac24b797423941d494",
@@ -17,33 +31,26 @@
           "excerpt": "はじめに 2026年7月にリリースされた Claude Code v2.1.207 は、一見すると小さなパッチバージョンですが、中身は設定の挙動が変わる破壊的変更とセキュリティ修正が中心の重要なアップデートです。…"
         },
         {
-          "title": "Claude Code スキルを設計し直した話 — xlsx/pptx/docx を ms-office-suite に統合",
-          "link": "https://dev.classmethod.jp/articles/claude-code-ms-office-suite-skill/",
-          "source": "DevelopersIO",
-          "published": "2026-07-11T09:35:25",
-          "excerpt": "Claude Code のカスタムスキルで Excel・PowerPoint・Word を扱う処理を3つの独立したスキルから1つの ms-office-suite スキルに統合しました。SKILL.…"
-        },
-        {
-          "title": "Claude Code v2.1.207 の主要アップデート",
-          "link": "https://dev.classmethod.jp/articles/20260711-cc-updates-v2-1-207/",
-          "source": "DevelopersIO",
-          "published": "2026-07-11T09:11:39",
-          "excerpt": "Claude Code v2.1.207 がリリースされました。今回は Bedrock・Vertex AI での Auto モード開放とデフォルトモデルの Claude Opus 4.…"
-        },
-        {
-          "title": "Anthropic、Claudeの利用状況を可視化する新機能「Reflect」をベータ公開",
-          "link": "https://codezine.jp/article/detail/28921",
-          "source": "CodeZine",
-          "published": "2026-07-11T09:00:00",
-          "excerpt": "Anthropic、Claudeの利用状況を可視化する新機能「Reflect」をベータ公開"
+          "title": "Amazon Bedrock AgentCore PolicyをLOG_ONLYからENFORCEへ段階移行してみた | Fusic 技術ブログのフィード",
+          "link": "https://zenn.dev/fusic/articles/808aa7198d176f",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-11T11:54:23",
+          "excerpt": "はじめにFusicのレオナです。今回は、Amazon Bedrock AgentCore Policy(以下、AgentCore Policy)をLOG_ONLYからENFORCEへ段階移行するところまで試してみました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。Google Chat Bot で曖昧なクエリに対しインタラクティブな聞き返しカードを表示する仕組みを実装しました。…",
+      "summary": "クラウドの新着が12件。はじめにFusicのレオナです。今回は、Amazon Bedrock AgentCore Policy(以下、AgentCore Policy)をLOG_ONLYからENFORCEへ段階移行するところまで試してみました。…",
       "articles": [
+        {
+          "title": "Amazon Bedrock AgentCore PolicyをLOG_ONLYからENFORCEへ段階移行してみた | Fusic 技術ブログのフィード",
+          "link": "https://zenn.dev/fusic/articles/808aa7198d176f",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-11T11:54:23",
+          "excerpt": "はじめにFusicのレオナです。今回は、Amazon Bedrock AgentCore Policy(以下、AgentCore Policy)をLOG_ONLYからENFORCEへ段階移行するところまで試してみました。…"
+        },
         {
           "title": "Google Chat Bot に聞き返しウィジェットを実装してみた — cardsV2 のインラインフォーム活用",
           "link": "https://dev.classmethod.jp/articles/google-chat-bot-cardsv2-clarification-widget/",
@@ -64,13 +71,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-11T04:00:05",
           "excerpt": "Pythonで書いたLambdaのテストは、pytest と moto を使いました。Lambdaの処理ではDynamoDBなどのAWSサービスを使うことがあります。…"
-        },
-        {
-          "title": "EC2 R8in/R8ib/R8idn/R8idbが東京リージョンで利用可能に — 4タイプのCPU・ハードウェア情報を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/ec2-r8in-r8ib-r8idn-r8idb-tokyo-cpu-hardware-info/",
-          "source": "DevelopersIO",
-          "published": "2026-07-10T22:43:00",
-          "excerpt": "EC2のR8in、R8ib、R8idn、R8idbが東京リージョンで利用可能になりました。4タイプをそれぞれ起動し、ゲストOSから確認したCPU、メモリ、NVMe Instance Storageなどの情報をまとめます。"
         }
       ]
     },
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。EKS 上の Amazon EMR は、Apache Spark トラブルシューティング エージェントをサポートするようになりました。…",
+      "summary": "データ分析の新着が3件。AgentCore Observabilityのクロスアカウントオブザーバビリティを試してみました！",
       "articles": [
+        {
+          "title": "AgentCore Observabilityをクロスアカウントで試してみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-cross-account-observability/",
+          "source": "DevelopersIO",
+          "published": "2026-07-11T13:12:26",
+          "excerpt": "AgentCore Observabilityのクロスアカウントオブザーバビリティを試してみました！"
+        },
         {
           "title": "EKS 上の Amazon EMR が Apache Spark トラブルシューティング エージェントをサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/",
@@ -133,7 +140,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。Amplify Gen 2で構築したアプリケーションを運用していくなかで課題が見えてきたため、Kiro IDEを使ってSAM + GitHub Actions構成に移植しました。…",
+      "summary": "開発ツールの新着が10件。Amplify Gen 2で構築したアプリケーションを運用していくなかで課題が見えてきたため、Kiro IDEを使ってSAM + GitHub Actions構成に移植しました。…",
       "articles": [
         {
           "title": "Amplify Gen 2 アプリを SAM + GitHub Actions 構成に Kiro を使って移植してみた",
@@ -168,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "アイルランドのデータセンターは現在、国の電力の23%を消費している",
-      "link": "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013",
-      "source": "The Register（英語）",
-      "published": "2026-07-11T10:00:00",
-      "excerpt": "ダブリン周辺ではほとんどの新規送電網接続に対する制限が依然として残る中、消費量はさらに10%増加した"
-    },
-    {
-      "title": "Amazon EVS で VCF 9 のサポートが開始！変更点をスライド 1 枚でまとめてみた",
-      "link": "https://qiita.com/mtoyoda/items/738872d5efa619502af7",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-11T09:39:27",
-      "excerpt": "2026年7月、Amazon EVS（Elastic VMware Service）が VMware Cloud Foundation (VCF) 9.0 および 9.1 をサポートしたと発表されました。…"
-    },
-    {
-      "title": "AWS Config の Backup::RecoveryPoint 記録設定を見直して、コスト改善してみた",
-      "link": "https://dev.classmethod.jp/articles/aws-config-backup-recovery-point-recording-cost-review/",
-      "source": "DevelopersIO",
-      "published": "2026-07-11T09:26:21",
-      "excerpt": "検証環境の AWS Config 費用を分析したところ、AWS Backup の RecoveryPoint が都度記録（CONTINUOUS）の最大コスト要因でした。…"
-    },
-    {
-      "title": "10億ドル近い資金を投入しても、米国は依然として医療用手袋を製造できない",
-      "link": "https://www.bloomberg.com/news/features/2026-07-07/why-it-s-so-difficult-to-produce-100-american-made-medical-gloves",
+      "title": "ブラウザでのセマンティック/ハイブリッド検索",
+      "link": "https://bart.degoe.de/semantic-search-in-your-browser/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-11T09:16:10",
-      "excerpt": "記事の URL: https://www.bloomberg.…"
+      "published": "2026-07-11T13:04:35",
+      "excerpt": "記事の URL: https://bart.degoe.de/semantic-search-in-your-browser/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "「googlecloudの最新情報をお届け！」～【googlecloud】今週の人気記事TOP5（2026/07/05） | CareNet Engineersのフィード",
+      "link": "https://zenn.dev/carenet/articles/zenn-weekly-googlecloud-articles-2026-07",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-11T12:56:19",
+      "excerpt": "!この記事はZennからgooglecloudのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「googlecloudの最新情報をお届け！…"
+    },
+    {
+      "title": "ネットワーキングとインターネット、第一原則から",
+      "link": "https://fazamhd.com/mental-models/networking/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-11T12:30:40",
+      "excerpt": "記事の URL: https://fazamhd.com/mental-models/networking/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "FCC、抗議にもかかわらず夜空を照らすスペースミラーの実験を承認",
+      "link": "https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-11T12:12:34",
+      "excerpt": "記事の URL: https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
