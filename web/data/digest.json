@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-11T06:31:44",
+  "generated_at": "2026-07-11T08:41:55",
   "window_hours": 24,
-  "total": 178,
+  "total": 161,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が38件。OpenAI Codex CLIの年間640TBディスク書き込みバグをきっかけに、Claude CodeとClaude Desktopのディスク使用状況を実際に調査しました。…",
+      "summary": "生成AIの新着が35件。DMS Schema Conversionの生成AI変換を有効にしてOracle独自構文をPostgreSQLへ変換し、変換不可部分をKiroで補完しました。…",
       "articles": [
+        {
+          "title": "DMS Schema Conversion の新機能「AWS MCP サーバーを利用した AI エージェントの自動化」を試してみた",
+          "link": "https://dev.classmethod.jp/articles/dms-schema-conversion-ai-agent-mcp-server-oracle-postgresql/",
+          "source": "DevelopersIO",
+          "published": "2026-07-11T08:05:04",
+          "excerpt": "DMS Schema Conversionの生成AI変換を有効にしてOracle独自構文をPostgreSQLへ変換し、変換不可部分をKiroで補完しました。…"
+        },
+        {
+          "title": "Bedrock Knowledge Basesの階層チャンキングで、メタデータが想定と違う形式で格納されていた話",
+          "link": "https://dev.classmethod.jp/articles/bedrock-kb-metadata-parenttext-created-on/",
+          "source": "DevelopersIO",
+          "published": "2026-07-11T06:22:41",
+          "excerpt": "Bedrock Knowledge Basesの階層チャンキング使用時、OpenSearchのAMAZON_BEDROCK_METADATAにサイドカーのmetadataAttributesが含まれない問題とその対処法を紹介します。…"
+        },
         {
           "title": "AIコーディングCLIツールがSSDを壊す？ Codex・Claude Code・Claude Desktopのディスク書き込み問題を調査してみた",
           "link": "https://dev.classmethod.jp/articles/ai-coding-cli-ssd-write-issues-investigation/",
@@ -22,20 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-11T05:42:06",
           "excerpt": "Claude Codeスキルで図表を自動生成する際、SVG + cairosvg、Mermaid CLI、Excalidrawの3アプローチを実際に比較検証しました。…"
-        },
-        {
-          "title": "【AWS】DevOpsAgentで変革する自動テスト【DevOpsAgent】",
-          "link": "https://qiita.com/Nana_777/items/8e2bba602339e5fc930a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-11T05:04:01",
-          "excerpt": "はじめに 前回の記事ではDevOpsAgentによるレビューについて紹介しましたが、今回の記事ではテストに関する内容について記事にしました。…"
-        },
-        {
-          "title": "Kiro で Claude Sonnet 5 が利用可能になりました",
-          "link": "https://aws.amazon.com/jp/blogs/news/sonnet-5/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-11T03:49:44",
-          "excerpt": "2026 年 7 月 1 日より、Claude Sonnet 5 が Kiro の IDE、CLI、Web でご利用いただけるようになりました。…"
         }
       ]
     },
@@ -77,8 +77,22 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。独立系サイバーセキュリティジャーナリストのブライアン・クレブス氏は5月、サイバー企業GitGuardianのセキュリティ研究者から、CISA請負業者の従業員がアップロードした公開アクセス可能なGitHubリポジトリに大量のパスワードが保存さ…",
+      "summary": "セキュリティの新着が11件。AIが生成した認証・認可コードが本当に安全なのか、判断できていますか？OIDCの仕様を体系的に学べる「OpenID Connect入門」を読んだので、その魅力を紹介します！",
       "articles": [
+        {
+          "title": "【書評】「OpenID Connect入門」AI駆動開発で認証認可の仕様を正しく判断するための一冊",
+          "link": "https://dev.classmethod.jp/articles/review-openid-connect-intro/",
+          "source": "DevelopersIO",
+          "published": "2026-07-11T08:21:15",
+          "excerpt": "AIが生成した認証・認可コードが本当に安全なのか、判断できていますか？OIDCの仕様を体系的に学べる「OpenID Connect入門」を読んだので、その魅力を紹介します！"
+        },
+        {
+          "title": "最新のアプリケーションで認証を行う最善の方法は何ですか",
+          "link": "https://neciudan.dev/most-secure-way-to-store-auth-token",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-11T06:09:33",
+          "excerpt": "記事の URL: https://neciudan.dev/most-secure-way-to-store-auth-token コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "米国のサイバーセキュリティ機関CISAは、事件中に事件の戦略を作成する必要があったと当局が明らかに",
           "link": "https://techcrunch.com/2026/07/10/us-cyber-agency-cisa-had-to-build-its-incident-playbook-during-the-incident-agency-reveals/",
@@ -92,27 +106,13 @@
           "source": "Ars Technica（英語）",
           "published": "2026-07-10T19:40:11",
           "excerpt": "「代理人として雇われた被害者そのものを売り飛ばした」男に懲役6年。"
-        },
-        {
-          "title": "VPC Encryption Controls を宣言型ポリシーで Organization 全体に一括適用してみた",
-          "link": "https://dev.classmethod.jp/articles/vpc-encryption-controls-declarative-policy/",
-          "source": "DevelopersIO",
-          "published": "2026-07-10T17:52:05",
-          "excerpt": "AWS Organizations の宣言型ポリシーで VPC Encryption Controls を Organization 全体に一括適用し、enforce モードによるブロック動作や除外設定の挙動を検証しました。"
-        },
-        {
-          "title": "破壊的な Windows バックドアが複数のワイパーとランサムウェア コードを 1 つのパッケージに詰め込む",
-          "link": "https://www.theregister.com/security/2026/07/10/destructive-windows-backdoor-stuffs-multiple-wipers-and-ransomware-code-into-a-single-package/5270053",
-          "source": "The Register（英語）",
-          "published": "2026-07-10T17:35:00",
-          "excerpt": "Microsoftによると、GigaWiperは少なくとも3つのマルウェア ファミリを1つのモジュラー ツールに統合している"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。EKS 上の Amazon EMR は、Apache Spark トラブルシューティング エージェントをサポートするようになりました。…",
+      "summary": "データ分析の新着が3件。EKS 上の Amazon EMR は、Apache Spark トラブルシューティング エージェントをサポートするようになりました。…",
       "articles": [
         {
           "title": "EKS 上の Amazon EMR が Apache Spark トラブルシューティング エージェントをサポートするようになりました",
@@ -134,20 +134,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-10T10:09:42",
           "excerpt": "Step FunctionsからEMRクラスターを起動し、Glue Data CatalogをメタストアとしてHiveQLを実行する方法を試してみました。…"
-        },
-        {
-          "title": "4社合同イベント『Mobile Tech Flex』の紹介 〜敷居が低いモバイルコミュニティを目指して〜 | Cybozu Inside Out | サイボウズエンジニアのブログ",
-          "link": "https://blog.cybozu.io/entry/2026/07/10/170000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-10T08:00:00",
-          "excerpt": "この記事は、CYBOZU SUMMER BLOG FES '26の記事です。こんにちは！サイボウズのトニオ（@tonionagauzzi）です。普段はkintone開発チームにてAndroidアプリを主に開発しています。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が17件。GitHubプライベートリポジトリでgit pushは成功するのにgit fetch originが403になる問題の原因と対策。…",
+      "summary": "開発ツールの新着が16件。GitHubプライベートリポジトリでgit pushは成功するのにgit fetch originが403になる問題の原因と対策。…",
       "articles": [
         {
           "title": "プライベートリポジトリで git fetch origin が 403 になる — URL埋め込みPATの落とし穴と対策",
@@ -182,6 +175,20 @@
   ],
   "uncategorized": [
     {
+      "title": "AWS Step Functions の強化された TestState API でワークフローをローカルテストしてみた",
+      "link": "https://dev.classmethod.jp/articles/step-functions-teststate-api-enhanced-local-testing/",
+      "source": "DevelopersIO",
+      "published": "2026-07-11T07:46:20",
+      "excerpt": "AWS Step Functions の TestState API が2025年11月に強化され、モック・リトライ・Map/Parallel・変数注入をデプロイなしでテスト可能になりました。…"
+    },
+    {
+      "title": "Amazon Timestream for InfluxDB の新機能「EventBridge 状態変更イベント」を試して CloudTrail と比較してみた",
+      "link": "https://dev.classmethod.jp/articles/timestream-influxdb-eventbridge-state-change-event/",
+      "source": "DevelopersIO",
+      "published": "2026-07-11T07:03:34",
+      "excerpt": "Amazon Timestream for InfluxDB が DB インスタンスの状態変更イベントを EventBridge へ発行するようになりました。…"
+    },
+    {
       "title": "pnpm v11のminimumReleaseAgeでDependabotのCIが落ちる ─ 原因・回避策・upstream状況まとめ",
       "link": "https://dev.classmethod.jp/articles/pnpm-11-minimum-release-age-dependabot-ci-failure/",
       "source": "DevelopersIO",
@@ -189,25 +196,11 @@
       "excerpt": "pnpm v11のminimumReleaseAge機能とDependabotの組み合わせで、推移的依存（caniuse-lite等）が原因でCIが失敗する問題の原因と回避策、upstreamの議論状況をまとめました。"
     },
     {
-      "title": "30代95kgのエンジニアがAIトレーナーを自作して20kg痩せた話",
-      "link": "https://qiita.com/Yutekoko/items/8b33192b5bb6388a2c0a",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-11T05:19:47",
-      "excerpt": "はじめに 30代後半、東京在住、子供2人。デスクワーク中心の生活で、気づいたら体重95kg。2020年後半、かがむことができず靴ひもを結べなくなった時、ダイエットを決意した。一度目のダイエットは根性で75㎏を目指した。…"
-    },
-    {
-      "title": "2026/07/11 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-      "link": "https://qiita.com/ennagara128/items/b3b1a527e5a993d5e198",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-11T04:55:41",
-      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
-    },
-    {
-      "title": "[小ネタ] AWS CloudShell 上で Datadog のユーザー一覧を CSV 出力する",
-      "link": "https://dev.classmethod.jp/articles/export-datadog-user-list-csv-aws-cloudshell/",
-      "source": "DevelopersIO",
-      "published": "2026-07-11T04:00:10",
-      "excerpt": "Datadog に登録されているユーザー一覧をCSV形式で取得・出力する方法をご紹介します。AWS CloudShell上で動作するワンクリック実行スクリプトにより、ローカル環境の準備なく、ユーザー情報を簡単に棚卸しできます。"
+      "title": "新規作成する AWS Organizations 組織に組織離脱を防ぐ SCP が自動付与されるようになりました | サーバーワークスエンジニアブログ",
+      "link": "https://blog.serverworks.co.jp/20260711_DenyLeaveAndCloseAccount",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-11T06:16:05",
+      "excerpt": "Organizationsで新規組織作成時に組織離脱とアカウント閉鎖を防ぐSCP「DenyLeaveAndCloseAccount」が自動付与されるようになりました。…"
     }
   ]
 }
