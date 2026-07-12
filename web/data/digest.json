@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-12T16:43:31",
+  "generated_at": "2026-07-12T17:49:48",
   "window_hours": 24,
-  "total": 126,
+  "total": 125,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。golden pathテンプレートに「受注-在庫」機能をAIエージェントで実装させ、実AWSで検証してみた はじめに 社内向けの golden path テンプレート（FastAPI + Vue 3 + Terraform + 3層品質ゲー…",
+      "summary": "生成AIの新着が24件。調査・下書きにClaude Codeを使用し、最終的に人間がすべて確認しました。問題等あればご指摘ください。はじめに こんにちは、ふくちと申します。皆様AgentCore Gateway使ってらっしゃいますでしょうか。…",
       "articles": [
+        {
+          "title": "Claude CodeからAgentCore GatewayにEntra ID × CognitoでSSO接続するついでに認証認可の勉強をする",
+          "link": "https://qiita.com/har1101/items/bfc2701ff74d89ec9dd2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-12T17:22:06",
+          "excerpt": "調査・下書きにClaude Codeを使用し、最終的に人間がすべて確認しました。問題等あればご指摘ください。はじめに こんにちは、ふくちと申します。皆様AgentCore Gateway使ってらっしゃいますでしょうか。…"
+        },
+        {
+          "title": "人間だけのAWS運用に、AIエージェント用ロールを後から払い出す手順",
+          "link": "https://zenn.dev/nenene01/articles/aws-ai-agent-role-provisioning",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-12T15:19:56",
+          "excerpt": "はじめに 前回の記事で「エージェントに渡すロールは読み取り専用から始める」「人間の認証情報を使い回さない」と書きました。本記事はその実践編です。https://zenn.…"
+        },
         {
           "title": "golden pathテンプレートに「受注-在庫」機能をAIエージェントで実装させ、実AWSで検証してみた",
           "link": "https://qiita.com/itouhi/items/98a18cf43e280308c965",
@@ -22,20 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-12T14:55:55",
           "excerpt": "Amazon SageMaker Unified Studio のIAMベースドメインで、OpenLineage互換のデータリネージがサポートされました。リネージイベントの投稿からグラフ可視化まで、実際に試してみた結果をお伝えします。"
-        },
-        {
-          "title": "AWS DevOps AgentはLambdaのエラーからRDSの接続枯渇までたどり着けるか",
-          "link": "https://qiita.com/sagochiko/items/f461bb242fc7b62cc622",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-12T13:48:24",
-          "excerpt": "やること 「アプリ側でエラーが発生したとき、その裏で発生している原因（今回はDBの接続枯渇）までAWS DevOps Agentはユーザーからのヒント無しで調査できるのか」が気になりました。…"
-        },
-        {
-          "title": "otelHeadersHelper を使って Claude Code の OTLP 認証トークンを pass に保管し Grafana Cloud へのログ送信を確認するまで",
-          "link": "https://dev.classmethod.jp/articles/claude-code-otlp-token-pass-wsl-grafana-cloud/",
-          "source": "DevelopersIO",
-          "published": "2026-07-12T12:55:03",
-          "excerpt": "Claude Code の OTLP テレメトリを Grafana Cloud で可視化するために、認証トークンを WSL の `pass` に安全に保管し、`otelHeadersHelper` を使って動的に取得する実装を試してみました…"
         }
       ]
     },
@@ -66,19 +66,26 @@
           "excerpt": "2026/7/7 七夕に、大きなニュースがありました。AWSのRDS for Oracleで、最新のOracle Database 26aiが利用可能になったのです。…"
         },
         {
-          "title": "CloudFormation で ECS Express Mode のカスタムタスク定義に readonlyRootFilesystem + tmpfs を設定してみた",
-          "link": "https://dev.classmethod.jp/articles/ecs-express-mode-custom-task-definition-readonly-rootfs-tmpfs-cloudformation/",
-          "source": "DevelopersIO",
-          "published": "2026-07-12T10:01:50",
-          "excerpt": "ECS Express Mode のカスタムタスク定義を CloudFormation からも参照できるようになり、readonlyRootFilesystem や tmpfs を IaC として宣言的に設定しやすくなりました。…"
+          "title": "Chrome拡張：Tech Index PickerをAPI Gateway+Lambda+Google ID Token認証構成で個人開発",
+          "link": "https://zenn.dev/tad1310/articles/70d14c20263f6f",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-12T13:13:59",
+          "excerpt": "前段 以前「Tech Index」という技術情報のインデックス用サイトを Rails で開発しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。Amazon SageMaker Unified Studio のIAMベースドメインで、OpenLineage互換のデータリネージがサポートされました。リネージイベントの投稿からグラフ可視化まで、実際に試してみた結果をお伝えします。",
+      "summary": "セキュリティの新着が11件。調査・下書きにClaude Codeを使用し、最終的に人間がすべて確認しました。問題等あればご指摘ください。はじめに こんにちは、ふくちと申します。皆様AgentCore Gateway使ってらっしゃいますでしょうか。…",
       "articles": [
+        {
+          "title": "Claude CodeからAgentCore GatewayにEntra ID × CognitoでSSO接続するついでに認証認可の勉強をする",
+          "link": "https://qiita.com/har1101/items/bfc2701ff74d89ec9dd2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-12T17:22:06",
+          "excerpt": "調査・下書きにClaude Codeを使用し、最終的に人間がすべて確認しました。問題等あればご指摘ください。はじめに こんにちは、ふくちと申します。皆様AgentCore Gateway使ってらっしゃいますでしょうか。…"
+        },
         {
           "title": "[アップデート] Amazon SageMaker Unified Studio が IAM ベースドメインでサポートした Data Lineage を試してみました",
           "link": "https://dev.classmethod.jp/articles/20260712-amazon-sagemaker-data-lineage-iam-domain/",
@@ -94,18 +101,11 @@
           "excerpt": "Q.CLIからアクセスしたいなら？A.AWSが認証できる認証情報が必要！！（若干の進次郎構文） 今回の話題はこれです。ことの経緯 AWSコンソールの操作をし始めて 少し経ったころ、 PMからこんな指示が出ました。…"
         },
         {
-          "title": "otelHeadersHelper を使って Claude Code の OTLP 認証トークンを pass に保管し Grafana Cloud へのログ送信を確認するまで",
-          "link": "https://dev.classmethod.jp/articles/claude-code-otlp-token-pass-wsl-grafana-cloud/",
-          "source": "DevelopersIO",
-          "published": "2026-07-12T12:55:03",
-          "excerpt": "Claude Code の OTLP テレメトリを Grafana Cloud で可視化するために、認証トークンを WSL の `pass` に安全に保管し、`otelHeadersHelper` を使って動的に取得する実装を試してみました…"
-        },
-        {
-          "title": "Motorola の MR2600 ルーターの未認証 RCE",
-          "link": "https://mrbruh.com/motorola/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-12T11:52:21",
-          "excerpt": "記事の URL: https://mrbruh.com/motorola/ コメント URL: https://news.ycombinator.com/item?id=48880406 ポイント: 20 コメント数: 1"
+          "title": "開発現場のAIセキュリティを見直す",
+          "link": "https://zenn.dev/nenene01/articles/ai-security-2026",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-12T14:13:10",
+          "excerpt": "はじめに 開発現場でAIを使うことは、当たり前になりました。直近のチームでは、GitHubのIssue駆動開発を主軸にしました。…"
         }
       ]
     },
@@ -133,7 +133,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。Q.CLIからアクセスしたいなら？A.AWSが認証できる認証情報が必要！！（若干の進次郎構文） 今回の話題はこれです。ことの経緯 AWSコンソールの操作をし始めて 少し経ったころ、 PMからこんな指示が出ました。…",
+      "summary": "開発ツールの新着が14件。Q.CLIからアクセスしたいなら？A.AWSが認証できる認証情報が必要！！（若干の進次郎構文） 今回の話題はこれです。ことの経緯 AWSコンソールの操作をし始めて 少し経ったころ、 PMからこんな指示が出ました。…",
       "articles": [
         {
           "title": "CLIで操作したいくせに、認証情報設定してなかった話",
@@ -168,32 +168,32 @@
   ],
   "uncategorized": [
     {
+      "title": "Web サイトは 200KB バイナリから提供されます",
+      "link": "https://200kb.freelang.dev/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-12T16:59:37",
+      "excerpt": "記事の URL: https://200kb.freelang.dev/ コメント URL: https://news.ycombinator.com/item?id=48882601 ポイント: 18 コメント数: 0"
+    },
+    {
+      "title": "Show HN: Shirei、ネイティブ Go のクロスプラットフォーム GUI フレームワーク",
+      "link": "https://github.com/hasenj/go-shirei/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-12T16:55:42",
+      "excerpt": "記事の URL: https://github.com/hasenj/go-shirei/ コメント URL: https://news.ycombinator.com/item?id=48882562 ポイント: 17 コメント数: 7"
+    },
+    {
+      "title": "理解なき自動化",
+      "link": "https://arxiv.org/abs/2607.06377",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-12T16:54:47",
+      "excerpt": "記事の URL: https://arxiv.org/abs/2607.06377 コメント URL: https://news.ycombinator.com/item?id=48882554 ポイント: 10 コメント数: 1"
+    },
+    {
       "title": "TechCrunch モビリティ: ロボタクシーの最後通牒",
       "link": "https://techcrunch.com/2026/07/12/techcrunch-mobility-a-robotaxi-ultimatum/",
       "source": "TechCrunch（英語）",
       "published": "2026-07-12T16:07:00",
       "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関、そして今まで以上に AI がどのように役割を果たしているかを知るためのハブです。"
-    },
-    {
-      "title": "TK、または楽に書くための秘密 (2024)",
-      "link": "https://atthis.link/blog/2024/49629.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-12T15:58:42",
-      "excerpt": "記事の URL: https://atthis.link/blog/2024/49629.html コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "なぜディオファントス方程式を研究するのでしょうか?",
-      "link": "https://hidden-phenomena.com/articles/modular",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-12T15:53:53",
-      "excerpt": "記事の URL: https://hidden-phenomena.com/articles/modular コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "もっと本を読む方法",
-      "link": "https://scotto.me/blog/2026-07-12-how-to-read-more-books/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-12T15:47:16",
-      "excerpt": "記事の URL: https://scott.me/blog/2026-07-12-how-to-read-more-books/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
