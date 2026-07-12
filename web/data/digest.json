@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-12T14:21:53",
+  "generated_at": "2026-07-12T15:31:08",
   "window_hours": 24,
-  "total": 124,
+  "total": 123,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が25件。やること 「アプリ側でエラーが発生したとき、その裏で発生している原因（今回はDBの接続枯渇）までAWS DevOps Agentはユーザーからのヒント無しで調査できるのか」が気になりました。…",
+      "summary": "生成AIの新着が23件。golden pathテンプレートに「受注-在庫」機能をAIエージェントで実装させ、実AWSで検証してみた はじめに 社内向けの golden path テンプレート（FastAPI + Vue 3 + Terraform + 3層品質ゲー…",
       "articles": [
+        {
+          "title": "golden pathテンプレートに「受注-在庫」機能をAIエージェントで実装させ、実AWSで検証してみた",
+          "link": "https://qiita.com/itouhi/items/98a18cf43e280308c965",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-12T15:13:58",
+          "excerpt": "golden pathテンプレートに「受注-在庫」機能をAIエージェントで実装させ、実AWSで検証してみた はじめに 社内向けの golden path テンプレート（FastAPI + Vue 3 + Terraform + 3層品質ゲー…"
+        },
+        {
+          "title": "[アップデート] Amazon SageMaker Unified Studio が IAM ベースドメインでサポートした Data Lineage を試してみました",
+          "link": "https://dev.classmethod.jp/articles/20260712-amazon-sagemaker-data-lineage-iam-domain/",
+          "source": "DevelopersIO",
+          "published": "2026-07-12T14:55:55",
+          "excerpt": "Amazon SageMaker Unified Studio のIAMベースドメインで、OpenLineage互換のデータリネージがサポートされました。リネージイベントの投稿からグラフ可視化まで、実際に試してみた結果をお伝えします。"
+        },
         {
           "title": "AWS DevOps AgentはLambdaのエラーからRDSの接続枯渇までたどり着けるか",
           "link": "https://qiita.com/sagochiko/items/f461bb242fc7b62cc622",
@@ -22,20 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-12T12:55:03",
           "excerpt": "Claude Code の OTLP テレメトリを Grafana Cloud で可視化するために、認証トークンを WSL の `pass` に安全に保管し、`otelHeadersHelper` を使って動的に取得する実装を試してみました…"
-        },
-        {
-          "title": "Terry Tao による最新のコーディング エージェントを介した古いアプリと新しいアプリ",
-          "link": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-12T11:09:42",
-          "excerpt": "記事の URL: https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/ コメント URL: https://news.…"
-        },
-        {
-          "title": "プライベートサブネット内のKeycloakでAmazon Bedrock AgentCore RuntimeのInbound認証（JWT認証）を構成してみた",
-          "link": "https://dev.classmethod.jp/articles/agentcore-inbound-auth-private-keycloak/",
-          "source": "DevelopersIO",
-          "published": "2026-07-12T10:48:45",
-          "excerpt": "プライベートなネットワーク内のKeycloakを使ったAgentCore RuntimeのJWT検証を、VPC Lattice経由で実装する方法を試してみました！"
         }
       ]
     },
@@ -77,8 +77,22 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。Claude Code の OTLP テレメトリを Grafana Cloud で可視化するために、認証トークンを WSL の `pass` に安全に保管し、`otelHeadersHelper` を使って動的に取得する実装を試してみました…",
+      "summary": "セキュリティの新着が8件。Amazon SageMaker Unified Studio のIAMベースドメインで、OpenLineage互換のデータリネージがサポートされました。リネージイベントの投稿からグラフ可視化まで、実際に試してみた結果をお伝えします。",
       "articles": [
+        {
+          "title": "[アップデート] Amazon SageMaker Unified Studio が IAM ベースドメインでサポートした Data Lineage を試してみました",
+          "link": "https://dev.classmethod.jp/articles/20260712-amazon-sagemaker-data-lineage-iam-domain/",
+          "source": "DevelopersIO",
+          "published": "2026-07-12T14:55:55",
+          "excerpt": "Amazon SageMaker Unified Studio のIAMベースドメインで、OpenLineage互換のデータリネージがサポートされました。リネージイベントの投稿からグラフ可視化まで、実際に試してみた結果をお伝えします。"
+        },
+        {
+          "title": "CLIで操作したいくせに、認証情報設定してなかった話",
+          "link": "https://qiita.com/LierFort/items/ffa12f8d908e2c2a2c29",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-12T14:40:00",
+          "excerpt": "Q.CLIからアクセスしたいなら？A.AWSが認証できる認証情報が必要！！（若干の進次郎構文） 今回の話題はこれです。ことの経緯 AWSコンソールの操作をし始めて 少し経ったころ、 PMからこんな指示が出ました。…"
+        },
         {
           "title": "otelHeadersHelper を使って Claude Code の OTLP 認証トークンを pass に保管し Grafana Cloud へのログ送信を確認するまで",
           "link": "https://dev.classmethod.jp/articles/claude-code-otlp-token-pass-wsl-grafana-cloud/",
@@ -92,20 +106,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-12T11:52:21",
           "excerpt": "記事の URL: https://mrbruh.com/motorola/ コメント URL: https://news.ycombinator.com/item?id=48880406 ポイント: 20 コメント数: 1"
-        },
-        {
-          "title": "プライベートサブネット内のKeycloakでAmazon Bedrock AgentCore RuntimeのInbound認証（JWT認証）を構成してみた",
-          "link": "https://dev.classmethod.jp/articles/agentcore-inbound-auth-private-keycloak/",
-          "source": "DevelopersIO",
-          "published": "2026-07-12T10:48:45",
-          "excerpt": "プライベートなネットワーク内のKeycloakを使ったAgentCore RuntimeのJWT検証を、VPC Lattice経由で実装する方法を試してみました！"
-        },
-        {
-          "title": "OktaとAWS IAM Identity CenterのSSO・Provisioning設定をまとめてみた",
-          "link": "https://zenn.dev/joug/articles/okta-aws-iam-identity-center-setup",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-12T08:00:00",
-          "excerpt": "こんにちは！たつみんです！ひさびさにAWS環境をゼロから作成する機会があり、OktaからSSOやProvisioningを実現するためにAWS IAM Identity Centerの設定をしました。…"
         }
       ]
     },
@@ -133,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。はじめに AWS上にWindows Serverを構築し、Active Directory（AD）ドメインコントローラーとして昇格させるまでの手順をまとめました。…",
+      "summary": "開発ツールの新着が15件。Q.CLIからアクセスしたいなら？A.AWSが認証できる認証情報が必要！！（若干の進次郎構文） 今回の話題はこれです。ことの経緯 AWSコンソールの操作をし始めて 少し経ったころ、 PMからこんな指示が出ました。…",
       "articles": [
+        {
+          "title": "CLIで操作したいくせに、認証情報設定してなかった話",
+          "link": "https://qiita.com/LierFort/items/ffa12f8d908e2c2a2c29",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-12T14:40:00",
+          "excerpt": "Q.CLIからアクセスしたいなら？A.AWSが認証できる認証情報が必要！！（若干の進次郎構文） 今回の話題はこれです。ことの経緯 AWSコンソールの操作をし始めて 少し経ったころ、 PMからこんな指示が出ました。…"
+        },
         {
           "title": "【AWS】TerraformでWindows Serverを構築してActive Directory環境を作成",
           "link": "https://qiita.com/kawakami0429/items/9e558361a53264f8f5ca",
@@ -152,13 +159,6 @@
         {
           "title": "他人のCloudFormationを安全に取り込む — inert & content-addressedな問題パック設計",
           "link": "https://zenn.dev/bull/articles/tenkacloud-problem-pack-provenance",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-12T09:47:27",
-          "excerpt": "TenkaCloudという、実際のAWSアカウント上でクラウド競技を開催するOSSを作っています（susumutomita/TenkaCloud、Apache-2.0）。…"
-        },
-        {
-          "title": "SBTの2プレーンに「問題デプロイ」の層を足す — TenkaCloudのマルチテナント設計",
-          "link": "https://zenn.dev/bull/articles/tenkacloud-sbt-multi-tenant-saas",
           "source": "Zenn AWSトピック",
           "published": "2026-07-12T09:47:27",
           "excerpt": "TenkaCloudという、実際のAWSアカウント上でクラウド競技を開催するOSSを作っています（susumutomita/TenkaCloud、Apache-2.0）。…"
@@ -182,18 +182,18 @@
       "excerpt": "IT系企業で平均年収が高いのは、勢いのあるネットベンチャー系企業なのか、それとも伝統的なSIerなのでしょうか。毎年恒例の記事を今年も公開します。上場企業は毎年「有価証券報告書」の発行を義務づけられており、そこには従業員の人数や平均年齢..…"
     },
     {
-      "title": "異次元のコスパのクラウドサービス【Cloudflare】",
-      "link": "https://qiita.com/kazuki_kuriyama/items/5bf6f77189b5886ab967",
+      "title": "【AWS Builder Center】ワークショップ用の無料サンドボックス環境が利用可能になりました！ 〜Amazon Connectのワークショップも！？〜",
+      "link": "https://qiita.com/yosuke-suzuki/items/ce3f60c85c39cf7e2a10",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-12T14:15:04",
-      "excerpt": "はじめに モダンなWebアプリケーションを構築する際、ファーストチョイスとしてAWSやGCP、あるいはNext.jsとの親和性からVercelを選択するケースは多いと思います。…"
+      "published": "2026-07-12T14:57:41",
+      "excerpt": "はじめに 2026年7月8日のアップデートで、AWS Builder Centerに無料のサンドボックス環境が追加されました。ワークショップの画面から、事前構築済みのAWS環境を直接リクエストして触れる仕組みです。…"
     },
     {
-      "title": "AI は研究者のキャリアを促進するが、科学的発見を平坦化する",
-      "link": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-12T13:26:13",
-      "excerpt": "記事の URL: https://spectrum.ieee.org/ai-science-research- flattens-discovery コメント URL: https://news.ycombinator.com/item?…"
+      "title": "【AWS小ネタ】無効化している1回限りのEventBridgeスケジュールを実行時刻を過ぎてから有効化すると即発火する",
+      "link": "https://qiita.com/eureka_/items/7aaf1f9d99228fdad745",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-12T14:53:56",
+      "excerpt": "はじめに 伝えたいことはタイトルの通りです。先日、EventBridgeスケジュールのある仕様を知らなかったばかりに、ちょっとしたやらかしをしてしまいました。同じところでハマる人が一人でも減るといいなと思い、記事に残しておきます。…"
     }
   ]
 }
