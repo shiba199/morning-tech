@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-12T01:27:40",
+  "generated_at": "2026-07-12T04:49:45",
   "window_hours": 24,
-  "total": 114,
+  "total": 118,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。記事の URL: https://www.iroh.computer/blog/mesh-llm コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が30件。ジェネラティブエージェンツの大嶋です。「AIエージェントキャッチアップ #83 - AgentSpace」という勉強会を開催しました。generative-agents.connpass.com アーカイブ動画はこちらです。www.…",
       "articles": [
+        {
+          "title": "「AIエージェントキャッチアップ #83 - AgentSpace」を開催しました | Generative Agents Tech Blog",
+          "link": "https://blog.generative-agents.co.jp/entry/2026/07/12/122749",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-12T03:27:49",
+          "excerpt": "ジェネラティブエージェンツの大嶋です。「AIエージェントキャッチアップ #83 - AgentSpace」という勉強会を開催しました。generative-agents.connpass.com アーカイブ動画はこちらです。www.…"
+        },
+        {
+          "title": "Claude Codeで「GCPアーキテクチャ図スキル」を作ってみた — AWSスキルの移植で見えたアイコン形式の根本的な違い",
+          "link": "https://dev.classmethod.jp/articles/build-gcp-architecture-diagram-skill-for-claude-code/",
+          "source": "DevelopersIO",
+          "published": "2026-07-12T01:49:38",
+          "excerpt": "Claude Codeのスキル機能でGCPアーキテクチャ図を自動生成するスキルを作りました。AWS版からの移植で見えた、Draw.…"
+        },
         {
           "title": "Mesh LLM: iroh 上の分散 AI コンピューティング",
           "link": "https://www.iroh.computer/blog/mesh-llm",
@@ -22,28 +36,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-11T22:28:48",
           "excerpt": "記事の URL: https://blog.yaelwrites.com/stop-delivery-me-to-ask-an-llm/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "ChatGPTは利用者減、なのにシェア上昇　AIアプリ「併用しない」実態とは",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/13/news014.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-07-11T22:00:00",
-          "excerpt": "ChatGPTの米国シェアが11カ月ぶりに上昇した。ただし利用者数は減っており、成長による反転ではない。では利用者は複数のAIチャットbotをどう使い分けているのか。"
-        },
-        {
-          "title": "エージェントを管理するのは誰ですか?",
-          "link": "https://www.off-policy.com/dont-go-quietly-into-the-ai-night/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-11T18:02:33",
-          "excerpt": "記事の URL: https://www.off-policy.com/dont-go-quietly-into-the-ai-night/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が6件。記事の URL: https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "クラウドの新着が6件。Epic Games の VCS Lore のサーバーを、ECS Fargate と S3、DynamoDB を使ってフルマネージドに近い構成で AWS に立ててみました。…",
       "articles": [
+        {
+          "title": "Epic Games の Lore サーバーを AWS の Fargate + S3 + DynamoDB に Terraform でデプロイしてみた",
+          "link": "https://dev.classmethod.jp/articles/lore-server-on-aws-fargate-s3-dynamodb-terraform/",
+          "source": "DevelopersIO",
+          "published": "2026-07-12T02:42:18",
+          "excerpt": "Epic Games の VCS Lore のサーバーを、ECS Fargate と S3、DynamoDB を使ってフルマネージドに近い構成で AWS に立ててみました。…"
+        },
+        {
+          "title": "【検証】Secrets ManagerのローテーションLambdaが「Unable to import module」「pg module not found」で失敗する現象を再現・実証する",
+          "link": "https://qiita.com/volbe/items/b14d25c540f92e161307",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-12T01:58:56",
+          "excerpt": "検証の狙い 検証する主張は次の4点です。ランタイムとデプロイパッケージ（.…"
+        },
         {
           "title": "ZeroFS と Amazon S3 ファイルの比較",
           "link": "https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/",
@@ -57,28 +71,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-11T16:56:35",
           "excerpt": "AWS学習23日目：RDS・EBS・EFSでLifeOSのデータ保存先を使い分ける 今日のテーマ AWS学習23日目は、RDS・EBS・EFSを実際に触りながら、LifeOSのデータをどこへ保存すべきかを整理しました。…"
-        },
-        {
-          "title": "Amazon Bedrock AgentCore PolicyをLOG_ONLYからENFORCEへ段階移行してみた | Fusic 技術ブログのフィード",
-          "link": "https://zenn.dev/fusic/articles/808aa7198d176f",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-11T11:54:23",
-          "excerpt": "はじめにFusicのレオナです。今回は、Amazon Bedrock AgentCore Policy(以下、AgentCore Policy)をLOG_ONLYからENFORCEへ段階移行するところまで試してみました。…"
-        },
-        {
-          "title": "Google Chat Bot に聞き返しウィジェットを実装してみた — cardsV2 のインラインフォーム活用",
-          "link": "https://dev.classmethod.jp/articles/google-chat-bot-cardsv2-clarification-widget/",
-          "source": "DevelopersIO",
-          "published": "2026-07-11T05:29:57",
-          "excerpt": "Google Chat Bot で曖昧なクエリに対しインタラクティブな聞き返しカードを表示する仕組みを実装しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が2件。AIが生成した認証・認可コードが本当に安全なのか、判断できていますか？OIDCの仕様を体系的に学べる「OpenID Connect入門」を読んだので、その魅力を紹介します！",
+      "summary": "セキュリティの新着が3件。検証の狙い 検証する主張は次の4点です。ランタイムとデプロイパッケージ（.…",
       "articles": [
+        {
+          "title": "【検証】Secrets ManagerのローテーションLambdaが「Unable to import module」「pg module not found」で失敗する現象を再現・実証する",
+          "link": "https://qiita.com/volbe/items/b14d25c540f92e161307",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-12T01:58:56",
+          "excerpt": "検証の狙い 検証する主張は次の4点です。ランタイムとデプロイパッケージ（.…"
+        },
         {
           "title": "【書評】「OpenID Connect入門」AI駆動開発で認証認可の仕様を正しく判断するための一冊",
           "link": "https://dev.classmethod.jp/articles/review-openid-connect-intro/",
@@ -98,8 +105,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が1件。AgentCore Observabilityのクロスアカウントオブザーバビリティを試してみました！",
+      "summary": "データ分析の新着が2件。Epic Games の VCS Lore のサーバーを、ECS Fargate と S3、DynamoDB を使ってフルマネージドに近い構成で AWS に立ててみました。…",
       "articles": [
+        {
+          "title": "Epic Games の Lore サーバーを AWS の Fargate + S3 + DynamoDB に Terraform でデプロイしてみた",
+          "link": "https://dev.classmethod.jp/articles/lore-server-on-aws-fargate-s3-dynamodb-terraform/",
+          "source": "DevelopersIO",
+          "published": "2026-07-12T02:42:18",
+          "excerpt": "Epic Games の VCS Lore のサーバーを、ECS Fargate と S3、DynamoDB を使ってフルマネージドに近い構成で AWS に立ててみました。…"
+        },
         {
           "title": "AgentCore Observabilityをクロスアカウントで試してみた",
           "link": "https://dev.classmethod.jp/articles/agentcore-cross-account-observability/",
@@ -112,67 +126,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。GitHub Copilot、VS Code向けに発表した直近のリリースをまとめて紹介",
+      "summary": "開発ツールの新着が14件。はじめに こんにちは！CDK が好きな社会人2年目のエンジニアです。筆者が当記事を書いている本日（2026/7/11）で、CDK は7周年だそうです。おめでとうございます！…",
       "articles": [
+        {
+          "title": "CDK_DEBUG=1 でプロパティの書き換え履歴を追う「Source Tracing for L1 Property Mutations」を試してみる！",
+          "link": "https://qiita.com/kawaaaas/items/56c2f6c3343746ec2412",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-12T03:00:59",
+          "excerpt": "はじめに こんにちは！CDK が好きな社会人2年目のエンジニアです。筆者が当記事を書いている本日（2026/7/11）で、CDK は7周年だそうです。おめでとうございます！…"
+        },
+        {
+          "title": "Epic Games の Lore サーバーを AWS の Fargate + S3 + DynamoDB に Terraform でデプロイしてみた",
+          "link": "https://dev.classmethod.jp/articles/lore-server-on-aws-fargate-s3-dynamodb-terraform/",
+          "source": "DevelopersIO",
+          "published": "2026-07-12T02:42:18",
+          "excerpt": "Epic Games の VCS Lore のサーバーを、ECS Fargate と S3、DynamoDB を使ってフルマネージドに近い構成で AWS に立ててみました。…"
+        },
+        {
+          "title": "xAI の Grok Build CLI が実際に xAI に送信するもの",
+          "link": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-12T01:09:50",
+          "excerpt": "記事の URL: https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547 コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "GitHub Copilot、VS Code向けに発表した直近のリリースをまとめて紹介",
           "link": "https://codezine.jp/article/detail/28905",
           "source": "CodeZine",
           "published": "2026-07-12T00:00:00",
           "excerpt": "GitHub Copilot、VS Code向けに発表した直近のリリースをまとめて紹介"
-        },
-        {
-          "title": "生成AIはIaCを書けるようになったのか — 2026年中盤の現在地まとめ",
-          "link": "https://qiita.com/similarmetal/items/00377b589019292510ab",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-11T16:55:09",
-          "excerpt": "IaC（Infrastructure as Code）と生成AIの周辺で、2026年に入ってから実測データや新しいツールがまとまって出てきました。断片的に見ていると全体像がつかみにくいので、いったん整理してみます。…"
-        },
-        {
-          "title": "Grok Build CLIでGrok 4.5を試してみた — Opus 4.8・Sonnet 5・GPT-5.5との応答比較",
-          "link": "https://dev.classmethod.jp/articles/grok-45-build-cli-headless-mode-comparison-kiro-codex/",
-          "source": "DevelopersIO",
-          "published": "2026-07-11T15:24:12",
-          "excerpt": "xAIが公開したGrok 4.5を、Grok Build CLIのヘッドレスモードで試しました。今回の検証環境では、X Premium+加入済みアカウントでブラウザー認証して利用しています。…"
-        },
-        {
-          "title": "Epic Games のバージョン管理 Lore を現場目線で Perforce / SVN / Git と比較した",
-          "link": "https://dev.classmethod.jp/articles/lore-vs-perforce-svn-git-binary-workflow/",
-          "source": "DevelopersIO",
-          "published": "2026-07-11T14:48:01",
-          "excerpt": "Lore はバイナリの差分格納とオフライン作業をオープンソースで両立し、Git と Perforce のあいだで悩む現場に有力な選択肢となります。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "pnpm 11.11.0で追加されたpnpm accessコマンドで何ができるか確認してみた",
-      "link": "https://dev.classmethod.jp/articles/pnpm-access-command-trial/",
-      "source": "DevelopersIO",
-      "published": "2026-07-12T01:14:18",
-      "excerpt": "pnpm 11.11.0 で追加された `pnpm access` コマンドについて、リリースノートと実装を基に試してみました。…"
-    },
-    {
-      "title": "2026 年 6 月の北米におけるデスクトップ ブラウザ市場シェアは Firefox 12.58%",
-      "link": "https://gs.statcounter.com/browser-market-share/desktop/north-america",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-12T01:05:04",
-      "excerpt": "記事の URL: https://gs.statcounter.com/browser-market-share/desktop/north-america コメント URL: https://news.ycombinator.…"
-    },
-    {
-      "title": "確実に起動するドック",
-      "link": "https://fabiensanglard.net/tb4/index.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-12T00:48:10",
-      "excerpt": "記事の URL: https://fabiensanglard.net/tb4/index.html コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "AWSで筋トレ進捗記録2",
-      "link": "https://qiita.com/Saba3/items/c077c80a2b14201e66cd",
+      "title": "「ローカルもCIも green なのに本番だけ壊れる」を全部潰したら、テンプレートに\"第4のゲート\"と自己検証ループが生えた話",
+      "link": "https://qiita.com/itouhi/items/d0ff3067cec2ad96345b",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-12T00:25:28",
-      "excerpt": "背景（初めてのAWSアーキテクチャ構成と実装） これまで筋トレの記録は、Googleスプレッドシートへ種目・レップ数・重量・セット数を書き込んでいました（有酸素運動も同様です）。…"
+      "published": "2026-07-12T04:48:59",
+      "excerpt": "「ローカルもCIも green なのに本番だけ壊れる」を全部潰したら、テンプレートに\"第4のゲート\"と自己検証ループが生えた話 はじめに 以前、個人開発のモノレポを、プラットフォームエンジニアリング観点でスコアリングしながら育てている話 と…"
+    },
+    {
+      "title": "連邦規則の下では、大学は卒業生の生活を良くしなければならない、さもなければ財政援助を失うことになる",
+      "link": "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-12T04:00:14",
+      "excerpt": "記事の URL: https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans コメント URL: https://news.…"
+    },
+    {
+      "title": "【実験】AWS 東京と大阪を閉域で繋ぐ3つの方法、実際どれくらい速さが違うのか",
+      "link": "https://qiita.com/sh_fukatsu/items/541051be6cbd4a90f2a6",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-12T03:19:19",
+      "excerpt": "1.…"
+    },
+    {
+      "title": "なぜ米国の消費者はこれほど怒っているのでしょうか？値段が高いだけじゃない",
+      "link": "https://www.theguardian.com/us-news/ng-interactive/2026/jun/04/us-consumer-rage-prices-economy",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-12T03:10:08",
+      "excerpt": "記事の URL: https://www.theguardian.…"
     }
   ]
 }
