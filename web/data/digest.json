@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-12T20:51:31",
+  "generated_at": "2026-07-12T21:38:12",
   "window_hours": 24,
-  "total": 130,
+  "total": 133,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が25件。生成AIを使い始めて、何年になるだろう。気が付いたら、コードも書いてくれるし、議事録もまとめてくれる。便利になった。でも、ふと立ち止まってみると、年収は上がっただろうか。本連載を読んで、いま一度、正直に確かめてほしい。",
+      "summary": "生成AIの新着が26件。生成AIを使い始めて、何年になるだろう。気が付いたら、コードも書いてくれるし、議事録もまとめてくれる。便利になった。でも、ふと立ち止まってみると、年収は上がっただろうか。本連載を読んで、いま一度、正直に確かめてほしい。",
       "articles": [
         {
           "title": "生成AIが「Excel並みに当たり前」の今、知らないと損する“単純な構造”の話",
@@ -15,6 +15,13 @@
           "source": "@IT",
           "published": "2026-07-12T20:00:00",
           "excerpt": "生成AIを使い始めて、何年になるだろう。気が付いたら、コードも書いてくれるし、議事録もまとめてくれる。便利になった。でも、ふと立ち止まってみると、年収は上がっただろうか。本連載を読んで、いま一度、正直に確かめてほしい。"
+        },
+        {
+          "title": "Amazon Bedrock AgentCoreからDatabricks Genie MCPを呼び出す",
+          "link": "https://zenn.dev/yu_tkr/articles/agentcore-databricks-genie-mcp",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-12T17:51:48",
+          "excerpt": "はじめに Amazon Bedrock AgentCore の Harness から、AgentCore Gateway を経由して Databricks の Managed MCP サーバー（Genie）を呼び出す構成を検証しました。…"
         },
         {
           "title": "Claude CodeからAgentCore GatewayにEntra ID × CognitoでSSO接続するついでに認証認可の勉強をする",
@@ -29,21 +36,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-12T15:19:56",
           "excerpt": "はじめに 前回の記事で「エージェントに渡すロールは読み取り専用から始める」「人間の認証情報を使い回さない」と書きました。本記事はその実践編です。https://zenn.…"
-        },
-        {
-          "title": "golden pathテンプレートに「受注-在庫」機能をAIエージェントで実装させ、実AWSで検証してみた",
-          "link": "https://qiita.com/itouhi/items/98a18cf43e280308c965",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-12T15:13:58",
-          "excerpt": "golden pathテンプレートに「受注-在庫」機能をAIエージェントで実装させ、実AWSで検証してみた はじめに 社内向けの golden path テンプレート（FastAPI + Vue 3 + Terraform + 3層品質ゲー…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。1.はじめに AWS Summitの出展ブース「ヘッダー1行から始める!レイテンシ改善」のデモを参考に、サーバーサイドの処理時間（メトリクス）をHTTPヘッダー経由でブラウザ側に伝達し、一元的に可視化する検証環境を構築しました。…",
+      "summary": "クラウドの新着が14件。はじめに ECSのタスク定義でSecrets Managerのシークレットを環境変数として渡そうとしたとき、こんなARNを見たことはないでしょうか？…",
       "articles": [
+        {
+          "title": "ECS × Secrets Manager：ARN末尾の『::』はどこから来るのか",
+          "link": "https://zenn.dev/kingdom0927/articles/how-to-write-secret-manager-arn",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-12T21:22:00",
+          "excerpt": "はじめに ECSのタスク定義でSecrets Managerのシークレットを環境変数として渡そうとしたとき、こんなARNを見たことはないでしょうか？…"
+        },
         {
           "title": "【AWS】「Server-Timing」をCloudFrontで有効化し、JavaのGC遅延をブラウザ側で可視化する",
           "link": "https://qiita.com/usanchuu/items/1d82a978166c472d73c0",
@@ -64,21 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-12T14:00:43",
           "excerpt": "はじめに 今回は、サービスのタスク数を自動で増減させるオートスケーリング（Service Auto Scaling）を整理します。そのうえで、「メンテナンスのためにサービスを一時的に停止する」手順をまとめます。…"
-        },
-        {
-          "title": "AWS DevOps AgentはLambdaのエラーからRDSの接続枯渇までたどり着けるか",
-          "link": "https://qiita.com/sagochiko/items/f461bb242fc7b62cc622",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-12T13:48:24",
-          "excerpt": "やること 「アプリ側でエラーが発生したとき、その裏で発生している原因（今回はDBの接続枯渇）までAWS DevOps Agentはユーザーからのヒント無しで調査できるのか」が気になりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。調査・下書きにClaude Codeを使用し、最終的に人間がすべて確認しました。問題等あればご指摘ください。はじめに こんにちは、ふくちと申します。皆様AgentCore Gateway使ってらっしゃいますでしょうか。…",
+      "summary": "セキュリティの新着が13件。はじめに ECSのタスク定義でSecrets Managerのシークレットを環境変数として渡そうとしたとき、こんなARNを見たことはないでしょうか？…",
       "articles": [
+        {
+          "title": "ECS × Secrets Manager：ARN末尾の『::』はどこから来るのか",
+          "link": "https://zenn.dev/kingdom0927/articles/how-to-write-secret-manager-arn",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-12T21:22:00",
+          "excerpt": "はじめに ECSのタスク定義でSecrets Managerのシークレットを環境変数として渡そうとしたとき、こんなARNを見たことはないでしょうか？…"
+        },
+        {
+          "title": "MCP セキュリティの現状 [pdf]",
+          "link": "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-12T20:49:46",
+          "excerpt": "記事の URL: https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "Claude CodeからAgentCore GatewayにEntra ID × CognitoでSSO接続するついでに認証認可の勉強をする",
           "link": "https://qiita.com/har1101/items/bfc2701ff74d89ec9dd2",
@@ -92,20 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-12T14:55:55",
           "excerpt": "Amazon SageMaker Unified Studio のIAMベースドメインで、OpenLineage互換のデータリネージがサポートされました。リネージイベントの投稿からグラフ可視化まで、実際に試してみた結果をお伝えします。"
-        },
-        {
-          "title": "CLIで操作したいくせに、認証情報設定してなかった話",
-          "link": "https://qiita.com/LierFort/items/ffa12f8d908e2c2a2c29",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-12T14:40:00",
-          "excerpt": "Q.CLIからアクセスしたいなら？A.AWSが認証できる認証情報が必要！！（若干の進次郎構文） 今回の話題はこれです。ことの経緯 AWSコンソールの操作をし始めて 少し経ったころ、 PMからこんな指示が出ました。…"
-        },
-        {
-          "title": "開発現場のAIセキュリティを見直す",
-          "link": "https://zenn.dev/nenene01/articles/ai-security-2026",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-12T14:13:10",
-          "excerpt": "はじめに 開発現場でAIを使うことは、当たり前になりました。直近のチームでは、GitHubのIssue駆動開発を主軸にしました。…"
         }
       ]
     },
@@ -168,6 +168,20 @@
   ],
   "uncategorized": [
     {
+      "title": "Chronium 148 以降、Math.tanh は基礎となる OS をリンクするためにフィンガープリントできるようになりました",
+      "link": "https://scrapfly.dev/posts/browser-math-os-fingerprint/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-12T21:12:11",
+      "excerpt": "記事の URL: https://scrapfly.dev/posts/browser-math-os-fingerprint/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "Flash-MSA: スパース アテンション カーネルによる 100 万トークンのトレーニングの加速",
+      "link": "https://nanduruganesh.github.io/flash-msa/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-12T20:46:43",
+      "excerpt": "記事の URL: https://nanduruganesh.github.io/flash-msa/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
       "title": "「群れカメラの削減をやめてください」（集団監視は良いことです） [ビデオ]",
       "link": "https://www.youtube.com/watch?v=su-Ce4PlNz0",
       "source": "Hacker News（英語）",
@@ -180,20 +194,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-07-12T20:23:05",
       "excerpt": "記事の URL: https://floooh.github.io/tiny8bit-preview/index.html コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "AI、MCP、A2A時代に「API」はどう変わる？　APIを“管理するだけ”では乗り切れない",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/13/news015.html",
-      "source": "@IT",
-      "published": "2026-07-12T20:00:00",
-      "excerpt": "生成AIやAIエージェントの普及により、APIは人だけでなくAIが利用する基盤へと進化しています。MCPやA2Aなどの登場でAPIの役割も変わる今、AI時代に求められる新たなAPI統治の在り方と将来像を考えます。"
-    },
-    {
-      "title": "企業が見直すべき「脅威像」～国家ハッカーが“あえてAIに全てを任せない”理由～",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/13/news007.html",
-      "source": "@IT",
-      "published": "2026-07-12T20:00:00",
-      "excerpt": "AIによるサイバー攻撃は珍しい話ではなくなっていますが、攻撃者が一様にAIを悪用しているとも限りません。むしろ、国家支援型とサイバー犯罪者ではAIとの付き合い方が正反対になっていく可能性があります。…"
     }
   ]
 }
