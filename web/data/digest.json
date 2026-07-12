@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-12T09:23:40",
+  "generated_at": "2026-07-12T10:49:54",
   "window_hours": 24,
-  "total": 114,
+  "total": 112,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が26件。Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート",
+      "summary": "生成AIの新着が25件。Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート",
       "articles": [
         {
           "title": "Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。はじめに 購入した商品・サービスのレビューを共有できるSNS「Buily」を、Next.js 14 + AWSのサーバーレス構成で開発しています。…",
+      "summary": "クラウドの新着が10件。ECS Express Mode のカスタムタスク定義を CloudFormation からも参照できるようになり、readonlyRootFilesystem や tmpfs を IaC として宣言的に設定しやすくなりました。…",
       "articles": [
+        {
+          "title": "CloudFormation で ECS Express Mode のカスタムタスク定義に readonlyRootFilesystem + tmpfs を設定してみた",
+          "link": "https://dev.classmethod.jp/articles/ecs-express-mode-custom-task-definition-readonly-rootfs-tmpfs-cloudformation/",
+          "source": "DevelopersIO",
+          "published": "2026-07-12T10:01:50",
+          "excerpt": "ECS Express Mode のカスタムタスク定義を CloudFormation からも参照できるようになり、readonlyRootFilesystem や tmpfs を IaC として宣言的に設定しやすくなりました。…"
+        },
         {
           "title": "サーバーレス構成でレビューSNSを作った話 - Next.js 14 + AWS(DynamoDB/S3/Cognito)構成の実装解説",
           "link": "https://zenn.dev/ksg1/articles/d8447993f14b0f",
@@ -64,13 +71,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-12T08:17:41",
           "excerpt": "Lore のサーバーを NAT ゲートウェイなしのプライベートサブネットで Fargate 稼働させるときに必要な VPC エンドポイントについて調査しました。候補を 1 つずつ外し、どこでどう失敗するか実測し最小セットを確認しました。"
-        },
-        {
-          "title": "curlでIAM認証付きのLambda関数URLを呼び出す",
-          "link": "https://zenn.dev/netai/articles/20260712_curl-aws-sigv4",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-12T06:42:21",
-          "excerpt": "やりたいこと Lambda関数URLに、ローカル環境からcurlでリクエストしたい せっかくAWS Lambda Web Adapter（LWA）がGAし、APIサーバーとして使いやすくなったので試してみる ただ、念のため関数URLにはIA…"
         }
       ]
     },
@@ -133,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート",
+      "summary": "開発ツールの新着が13件。ECS Express Mode のカスタムタスク定義を CloudFormation からも参照できるようになり、readonlyRootFilesystem や tmpfs を IaC として宣言的に設定しやすくなりました。…",
       "articles": [
+        {
+          "title": "CloudFormation で ECS Express Mode のカスタムタスク定義に readonlyRootFilesystem + tmpfs を設定してみた",
+          "link": "https://dev.classmethod.jp/articles/ecs-express-mode-custom-task-definition-readonly-rootfs-tmpfs-cloudformation/",
+          "source": "DevelopersIO",
+          "published": "2026-07-12T10:01:50",
+          "excerpt": "ECS Express Mode のカスタムタスク定義を CloudFormation からも参照できるようになり、readonlyRootFilesystem や tmpfs を IaC として宣言的に設定しやすくなりました。…"
+        },
         {
           "title": "Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート",
           "link": "https://codezine.jp/article/detail/28924",
@@ -155,45 +162,38 @@
           "source": "CodeZine",
           "published": "2026-07-12T06:00:00",
           "excerpt": "GitHub CopilotでGPT-5.6 Sol, Terra, Lunaが利用可能に"
-        },
-        {
-          "title": "CDK_DEBUG=1 でプロパティの書き換え履歴を追う「Source Tracing for L1 Property Mutations」を試してみる！",
-          "link": "https://qiita.com/kawaaaas/items/56c2f6c3343746ec2412",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-12T03:00:59",
-          "excerpt": "はじめに こんにちは！CDK が好きな社会人2年目のエンジニアです。筆者が当記事を書いている本日（2026/7/11）で、CDK は7周年だそうです。おめでとうございます！…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Microsoft 365 Copilot Cowork を使ってみた",
-      "link": "https://dev.classmethod.jp/articles/m365-copilot-cowork-overview/",
+      "title": "Copilot Coworkのスケジュール済みタスクを設定してみた",
+      "link": "https://dev.classmethod.jp/articles/m365-copilot-cowork-scheduled-tasks/",
       "source": "DevelopersIO",
-      "published": "2026-07-12T09:17:30",
-      "excerpt": "2026年6月に一般提供が始まったMicrosoft 365 Copilot の Cowork について、実機を触って確認しました。…"
+      "published": "2026-07-12T09:49:34",
+      "excerpt": "Copilot Coworkの予定タスク機能を、実際の画面を確認しながら詳しく解説します。会話形式での設定方法から、Claude Coworkとの比較まで、2026年7月時点の機能を紹介しました。"
     },
     {
-      "title": "これは AI のウェブで、私たちは壁の中のネズミに過ぎません",
-      "link": "https://www.theregister.com/columnists/2026/07/12/its-an-ai-web-and-were-just-rats-in-the-walls/5269760",
-      "source": "The Register（英語）",
-      "published": "2026-07-12T07:34:00",
-      "excerpt": "現在、インターネットを最もよく利用しているのは人ではなくボットです"
+      "title": "【Backstage】 New Frontend System導入ガイド （Part2「サイドメニューの設定」） | APC 技術ブログ",
+      "link": "https://techblog.ap-com.co.jp/entry/2026/07/12/183500",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-12T09:35:00",
+      "excerpt": "はじめに 皆さんこんにちは。エーピーコミュニケーションズ ACS事業部 亀崎です。前回に引き続き、BackstageのNew Frontend System導入ガイドになります。techblog.ap-com.co.…"
     },
     {
-      "title": "AWS Certified Solutions Architect – Associate（SAA-C03）に合格しました！",
-      "link": "https://qiita.com/keitakei777/items/b9f37ea3ea70605ba6fe",
+      "title": "個人開発AIボットで試して捨てた技術5選（実測データ付き）",
+      "link": "https://qiita.com/Yutekoko/items/878bec332a49e6952f4e",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-12T07:26:20",
-      "excerpt": "先日、AWS Certified Solutions Architect – Associate（SAA-C03） に合格しました！…"
+      "published": "2026-07-12T09:30:47",
+      "excerpt": "はじめに 前回の記事で、AIトレーナー「かな」を自作して20kg痩せた話を書いた。きれいにまとめたが、裏側は失敗だらけだった。…"
     },
     {
-      "title": "Prompt Cachingの「プレフィックス原則」を理解する — cache_controlブレークポイントの配置戦略とツール定義キャッシュの実務的メリット",
-      "link": "https://dev.classmethod.jp/articles/prompt-caching-prefix-breakpoint-tool-schema-optimization/",
+      "title": "有名なWebフレームワークのエラーハンドリングの仕様を調査し、自社用の開発テンプレートハーネスに反映してみた",
+      "link": "https://dev.classmethod.jp/articles/web-framework-error-handling-survey-for-dev-harness/",
       "source": "DevelopersIO",
-      "published": "2026-07-12T07:08:02",
-      "excerpt": "Prompt Caching の「プレフィックス原則」を解説。…"
+      "published": "2026-07-12T09:29:14",
+      "excerpt": "社内の開発テンプレート設計でエラーハンドリングの正当性を評価するために、Rails・Django・NestJSの実ソースコードを読んで、3大フレームワークの設計判断を調査・比較してみました。"
     }
   ]
 }
