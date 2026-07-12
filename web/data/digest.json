@@ -1,105 +1,119 @@
 {
-  "generated_at": "2026-07-12T07:24:14",
+  "generated_at": "2026-07-12T09:23:40",
   "window_hours": 24,
-  "total": 112,
+  "total": 114,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。asyncio.gather()を使ってKB検索のI/O待ちの裏で軽量LLM分類を並列実行し、レイテンシ増加ゼロでRAGパイプラインに分類機能を追加するパターンを、実装例とともに紹介します。",
+      "summary": "生成AIの新着が26件。Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート",
       "articles": [
+        {
+          "title": "Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート",
+          "link": "https://codezine.jp/article/detail/28924",
+          "source": "CodeZine",
+          "published": "2026-07-12T09:00:00",
+          "excerpt": "Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート"
+        },
+        {
+          "title": "LLM 出力の制御・抽出手法を 4 層で整理する — Constrained Decoding からプロンプト設計まで",
+          "link": "https://dev.classmethod.jp/articles/llm-output-control-extraction-four-layer-taxonomy/",
+          "source": "DevelopersIO",
+          "published": "2026-07-12T07:38:37",
+          "excerpt": "LLMの出力制御手法をデコーディング・API・後処理・プロンプトの4層に分類し、それぞれの信頼性・仕組み・コード例を整理。実務での多層防御パターンも紹介します。"
+        },
+        {
+          "title": "Chunk Anchoring — RAGでチケットID幻覚を防ぐシンプルな手法",
+          "link": "https://dev.classmethod.jp/articles/rag-chunk-anchoring-ticket-id-hallucination-prevention/",
+          "source": "DevelopersIO",
+          "published": "2026-07-12T07:24:11",
+          "excerpt": "RAGシステムでLLMが存在しないチケットIDを捏造する問題を、Chunk Anchoringとsource_uri検証の二層構造で解決します。"
+        },
         {
           "title": "asyncio.gatherでLLMパイプラインに「タダで」分類機能を追加する",
           "link": "https://dev.classmethod.jp/articles/zero-cost-parallel-classification-asyncio-gather/",
           "source": "DevelopersIO",
           "published": "2026-07-12T07:15:47",
           "excerpt": "asyncio.gather()を使ってKB検索のI/O待ちの裏で軽量LLM分類を並列実行し、レイテンシ増加ゼロでRAGパイプラインに分類機能を追加するパターンを、実装例とともに紹介します。"
-        },
-        {
-          "title": "Python の yield を理解する — return との違いから、AI エージェントへのストリーミング入力パターンまで",
-          "link": "https://dev.classmethod.jp/articles/python-yield-async-generator-agent-streaming-input/",
-          "source": "DevelopersIO",
-          "published": "2026-07-12T07:04:52",
-          "excerpt": "Python の yield はジェネレーターを通じて関数の状態を保持したまま値を返す仕組みです。…"
-        },
-        {
-          "title": "GitHub CopilotでGPT-5.6 Sol, Terra, Lunaが利用可能に",
-          "link": "https://codezine.jp/article/detail/28923",
-          "source": "CodeZine",
-          "published": "2026-07-12T06:00:00",
-          "excerpt": "GitHub CopilotでGPT-5.6 Sol, Terra, Lunaが利用可能に"
-        },
-        {
-          "title": "「AIエージェントキャッチアップ #83 - AgentSpace」を開催しました | Generative Agents Tech Blog",
-          "link": "https://blog.generative-agents.co.jp/entry/2026/07/12/122749",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-12T03:27:49",
-          "excerpt": "ジェネラティブエージェンツの大嶋です。「AIエージェントキャッチアップ #83 - AgentSpace」という勉強会を開催しました。generative-agents.connpass.com アーカイブ動画はこちらです。www.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が5件。Epic Games の VCS Lore のサーバーを、ECS Fargate と S3、DynamoDB を使ってフルマネージドに近い構成で AWS に立ててみました。…",
+      "summary": "クラウドの新着が9件。はじめに 購入した商品・サービスのレビューを共有できるSNS「Buily」を、Next.js 14 + AWSのサーバーレス構成で開発しています。…",
       "articles": [
         {
-          "title": "Epic Games の Lore サーバーを AWS の Fargate + S3 + DynamoDB に Terraform でデプロイしてみた",
-          "link": "https://dev.classmethod.jp/articles/lore-server-on-aws-fargate-s3-dynamodb-terraform/",
-          "source": "DevelopersIO",
-          "published": "2026-07-12T02:42:18",
-          "excerpt": "Epic Games の VCS Lore のサーバーを、ECS Fargate と S3、DynamoDB を使ってフルマネージドに近い構成で AWS に立ててみました。…"
-        },
-        {
-          "title": "【検証】Secrets ManagerのローテーションLambdaが「Unable to import module」「pg module not found」で失敗する現象を再現・実証する",
-          "link": "https://qiita.com/volbe/items/b14d25c540f92e161307",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-12T01:58:56",
-          "excerpt": "検証の狙い 検証する主張は次の4点です。ランタイムとデプロイパッケージ（.…"
-        },
-        {
-          "title": "ZeroFS と Amazon S3 ファイルの比較",
-          "link": "https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-11T18:15:35",
-          "excerpt": "記事の URL: https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "AWS学習23日目：RDS・EBS・EFS",
-          "link": "https://zenn.dev/zono731/articles/5cc3ec97c20dc7",
+          "title": "サーバーレス構成でレビューSNSを作った話 - Next.js 14 + AWS(DynamoDB/S3/Cognito)構成の実装解説",
+          "link": "https://zenn.dev/ksg1/articles/d8447993f14b0f",
           "source": "Zenn AWSトピック",
-          "published": "2026-07-11T16:56:35",
-          "excerpt": "AWS学習23日目：RDS・EBS・EFSでLifeOSのデータ保存先を使い分ける 今日のテーマ AWS学習23日目は、RDS・EBS・EFSを実際に触りながら、LifeOSのデータをどこへ保存すべきかを整理しました。…"
+          "published": "2026-07-12T09:16:18",
+          "excerpt": "はじめに 購入した商品・サービスのレビューを共有できるSNS「Buily」を、Next.js 14 + AWSのサーバーレス構成で開発しています。…"
+        },
+        {
+          "title": "【RDS編】SAA-C03先生に学ぶAWSの全容と授業メモ",
+          "link": "https://qiita.com/minifish33/items/7a765e5496fcec7357d1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-12T08:29:39",
+          "excerpt": "RDSは「壁の中」でしか喋らないDB 🔒 RDSを触り始めて最初に驚いたのが、 VPC内からしかアクセスできないという前提。EC2からRDSにつなぎたいだけなのに、 セキュリティグループでアクセス許可を出してあげないと門前払いされる。…"
+        },
+        {
+          "title": "Epic Games の Lore を NAT なしのプライベートサブネットで動かすのに必要な VPC エンドポイントを実測した",
+          "link": "https://dev.classmethod.jp/articles/lore-server-vpc-endpoints-private-subnet-fargate/",
+          "source": "DevelopersIO",
+          "published": "2026-07-12T08:17:41",
+          "excerpt": "Lore のサーバーを NAT ゲートウェイなしのプライベートサブネットで Fargate 稼働させるときに必要な VPC エンドポイントについて調査しました。候補を 1 つずつ外し、どこでどう失敗するか実測し最小セットを確認しました。"
+        },
+        {
+          "title": "curlでIAM認証付きのLambda関数URLを呼び出す",
+          "link": "https://zenn.dev/netai/articles/20260712_curl-aws-sigv4",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-12T06:42:21",
+          "excerpt": "やりたいこと Lambda関数URLに、ローカル環境からcurlでリクエストしたい せっかくAWS Lambda Web Adapter（LWA）がGAし、APIサーバーとして使いやすくなったので試してみる ただ、念のため関数URLにはIA…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が2件。検証の狙い 検証する主張は次の4点です。ランタイムとデプロイパッケージ（.…",
+      "summary": "セキュリティの新着が3件。こんにちは！たつみんです！ひさびさにAWS環境をゼロから作成する機会があり、OktaからSSOやProvisioningを実現するためにAWS IAM Identity Centerの設定をしました。…",
       "articles": [
+        {
+          "title": "OktaとAWS IAM Identity CenterのSSO・Provisioning設定をまとめてみた",
+          "link": "https://zenn.dev/joug/articles/okta-aws-iam-identity-center-setup",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-12T08:00:00",
+          "excerpt": "こんにちは！たつみんです！ひさびさにAWS環境をゼロから作成する機会があり、OktaからSSOやProvisioningを実現するためにAWS IAM Identity Centerの設定をしました。…"
+        },
+        {
+          "title": "curlでIAM認証付きのLambda関数URLを呼び出す",
+          "link": "https://zenn.dev/netai/articles/20260712_curl-aws-sigv4",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-12T06:42:21",
+          "excerpt": "やりたいこと Lambda関数URLに、ローカル環境からcurlでリクエストしたい せっかくAWS Lambda Web Adapter（LWA）がGAし、APIサーバーとして使いやすくなったので試してみる ただ、念のため関数URLにはIA…"
+        },
         {
           "title": "【検証】Secrets ManagerのローテーションLambdaが「Unable to import module」「pg module not found」で失敗する現象を再現・実証する",
           "link": "https://qiita.com/volbe/items/b14d25c540f92e161307",
           "source": "Qiita AWSタグ",
           "published": "2026-07-12T01:58:56",
           "excerpt": "検証の狙い 検証する主張は次の4点です。ランタイムとデプロイパッケージ（.…"
-        },
-        {
-          "title": "【書評】「OpenID Connect入門」AI駆動開発で認証認可の仕様を正しく判断するための一冊",
-          "link": "https://dev.classmethod.jp/articles/review-openid-connect-intro/",
-          "source": "DevelopersIO",
-          "published": "2026-07-11T08:21:15",
-          "excerpt": "AIが生成した認証・認可コードが本当に安全なのか、判断できていますか？OIDCの仕様を体系的に学べる「OpenID Connect入門」を読んだので、その魅力を紹介します！"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。Epic Games の VCS Lore のサーバーを、ECS Fargate と S3、DynamoDB を使ってフルマネージドに近い構成で AWS に立ててみました。…",
+      "summary": "データ分析の新着が3件。はじめに 購入した商品・サービスのレビューを共有できるSNS「Buily」を、Next.js 14 + AWSのサーバーレス構成で開発しています。…",
       "articles": [
+        {
+          "title": "サーバーレス構成でレビューSNSを作った話 - Next.js 14 + AWS(DynamoDB/S3/Cognito)構成の実装解説",
+          "link": "https://zenn.dev/ksg1/articles/d8447993f14b0f",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-12T09:16:18",
+          "excerpt": "はじめに 購入した商品・サービスのレビューを共有できるSNS「Buily」を、Next.js 14 + AWSのサーバーレス構成で開発しています。…"
+        },
         {
           "title": "Epic Games の Lore サーバーを AWS の Fargate + S3 + DynamoDB に Terraform でデプロイしてみた",
           "link": "https://dev.classmethod.jp/articles/lore-server-on-aws-fargate-s3-dynamodb-terraform/",
@@ -119,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。MCPの逆方向リクエスト — SamplingとElicitationの違い、Client-Server構造の役割、そしてClaude Codeにおける活用まで。MCPプリミティブの全体像を図解付きで整理しました。",
+      "summary": "開発ツールの新着が12件。Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート",
       "articles": [
+        {
+          "title": "Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート",
+          "link": "https://codezine.jp/article/detail/28924",
+          "source": "CodeZine",
+          "published": "2026-07-12T09:00:00",
+          "excerpt": "Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート"
+        },
         {
           "title": "MCPの「逆方向リクエスト」を理解する — Sampling・Elicitation・Client-Server構造の全体像",
           "link": "https://dev.classmethod.jp/articles/mcp-sampling-elicitation-client-server-primitives-guide/",
@@ -141,45 +162,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-12T03:00:59",
           "excerpt": "はじめに こんにちは！CDK が好きな社会人2年目のエンジニアです。筆者が当記事を書いている本日（2026/7/11）で、CDK は7周年だそうです。おめでとうございます！…"
-        },
-        {
-          "title": "Epic Games の Lore サーバーを AWS の Fargate + S3 + DynamoDB に Terraform でデプロイしてみた",
-          "link": "https://dev.classmethod.jp/articles/lore-server-on-aws-fargate-s3-dynamodb-terraform/",
-          "source": "DevelopersIO",
-          "published": "2026-07-12T02:42:18",
-          "excerpt": "Epic Games の VCS Lore のサーバーを、ECS Fargate と S3、DynamoDB を使ってフルマネージドに近い構成で AWS に立ててみました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "Microsoft 365 Copilot Cowork を使ってみた",
+      "link": "https://dev.classmethod.jp/articles/m365-copilot-cowork-overview/",
+      "source": "DevelopersIO",
+      "published": "2026-07-12T09:17:30",
+      "excerpt": "2026年6月に一般提供が始まったMicrosoft 365 Copilot の Cowork について、実機を触って確認しました。…"
+    },
+    {
+      "title": "これは AI のウェブで、私たちは壁の中のネズミに過ぎません",
+      "link": "https://www.theregister.com/columnists/2026/07/12/its-an-ai-web-and-were-just-rats-in-the-walls/5269760",
+      "source": "The Register（英語）",
+      "published": "2026-07-12T07:34:00",
+      "excerpt": "現在、インターネットを最もよく利用しているのは人ではなくボットです"
+    },
+    {
+      "title": "AWS Certified Solutions Architect – Associate（SAA-C03）に合格しました！",
+      "link": "https://qiita.com/keitakei777/items/b9f37ea3ea70605ba6fe",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-12T07:26:20",
+      "excerpt": "先日、AWS Certified Solutions Architect – Associate（SAA-C03） に合格しました！…"
+    },
+    {
       "title": "Prompt Cachingの「プレフィックス原則」を理解する — cache_controlブレークポイントの配置戦略とツール定義キャッシュの実務的メリット",
       "link": "https://dev.classmethod.jp/articles/prompt-caching-prefix-breakpoint-tool-schema-optimization/",
       "source": "DevelopersIO",
       "published": "2026-07-12T07:08:02",
       "excerpt": "Prompt Caching の「プレフィックス原則」を解説。…"
-    },
-    {
-      "title": "MCP のツール出力をモデルに渡す前に正規化する — PostToolUse フックパターン",
-      "link": "https://dev.classmethod.jp/articles/mcp-post-tool-use-hook-deterministic-normalization/",
-      "source": "DevelopersIO",
-      "published": "2026-07-12T06:59:36",
-      "excerpt": "複数の MCP サーバーから返るデータ形式の不一致を、プロンプトではなく PostToolUse フックで決定論的に解決するパターンを紹介します。…"
-    },
-    {
-      "title": "「ローカルもCIも green なのに本番だけ壊れる」を全部潰したら、テンプレートに\"第4のゲート\"と自己検証ループが生えた話",
-      "link": "https://qiita.com/itouhi/items/d0ff3067cec2ad96345b",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-12T04:48:59",
-      "excerpt": "「ローカルもCIも green なのに本番だけ壊れる」を全部潰したら、テンプレートに\"第4のゲート\"と自己検証ループが生えた話 はじめに 以前、個人開発のモノレポを、プラットフォームエンジニアリング観点でスコアリングしながら育てている話 と…"
-    },
-    {
-      "title": "Step Functions のテストを「配線」と「中身」に分けて考える | ENECHANGE Developer Blog",
-      "link": "https://tech.enechange.co.jp/entry/2026/07/12/132216",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-12T04:22:16",
-      "excerpt": "はじめに こんにちは。システム開発部 石橋です。複数の Lambda・ECS・Batch を組み合わせたワークフローを Step Functions で構築した。いざテストしようとすると、「ステートマシン全体を通しで動かすしかないのか？…"
     }
   ]
 }
