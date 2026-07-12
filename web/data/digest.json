@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-12T11:50:07",
+  "generated_at": "2026-07-12T12:52:15",
   "window_hours": 24,
-  "total": 118,
+  "total": 119,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が26件。プライベートなネットワーク内のKeycloakを使ったAgentCore RuntimeのJWT検証を、VPC Lattice経由で実装する方法を試してみました！",
+      "summary": "生成AIの新着が25件。記事の URL: https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/ コメント URL: https://news.…",
       "articles": [
+        {
+          "title": "Terry Tao による最新のコーディング エージェントを介した古いアプリと新しいアプリ",
+          "link": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-12T11:09:42",
+          "excerpt": "記事の URL: https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/ コメント URL: https://news.…"
+        },
         {
           "title": "プライベートサブネット内のKeycloakでAmazon Bedrock AgentCore RuntimeのInbound認証（JWT認証）を構成してみた",
           "link": "https://dev.classmethod.jp/articles/agentcore-inbound-auth-private-keycloak/",
@@ -17,32 +24,25 @@
           "excerpt": "プライベートなネットワーク内のKeycloakを使ったAgentCore RuntimeのJWT検証を、VPC Lattice経由で実装する方法を試してみました！"
         },
         {
+          "title": "MCPでAIエージェントに参照系の権限だけを渡し、更新は人間に残す方法",
+          "link": "https://zenn.dev/ksk1993/articles/be17321f0a5e63",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-12T10:43:52",
+          "excerpt": "この記事で作るもの AIエージェントにクラウドを操作させるとき、参照等のリスクの低い操作を任せ、リスクの高い操作は引き続きシステムや人間の手により行う、という場面は多いと想像される。この記事では、その分担をAWSで実際に組んで検証する。…"
+        },
+        {
           "title": "Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート",
           "link": "https://codezine.jp/article/detail/28924",
           "source": "CodeZine",
           "published": "2026-07-12T09:00:00",
           "excerpt": "Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート"
-        },
-        {
-          "title": "LLM 出力の制御・抽出手法を 4 層で整理する — Constrained Decoding からプロンプト設計まで",
-          "link": "https://dev.classmethod.jp/articles/llm-output-control-extraction-four-layer-taxonomy/",
-          "source": "DevelopersIO",
-          "published": "2026-07-12T07:38:37",
-          "excerpt": "LLMの出力制御手法をデコーディング・API・後処理・プロンプトの4層に分類し、それぞれの信頼性・仕組み・コード例を整理。実務での多層防御パターンも紹介します。"
-        },
-        {
-          "title": "Chunk Anchoring — RAGでチケットID幻覚を防ぐシンプルな手法",
-          "link": "https://dev.classmethod.jp/articles/rag-chunk-anchoring-ticket-id-hallucination-prevention/",
-          "source": "DevelopersIO",
-          "published": "2026-07-12T07:24:11",
-          "excerpt": "RAGシステムでLLMが存在しないチケットIDを捏造する問題を、Chunk Anchoringとsource_uri検証の二層構造で解決します。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。ECS Express Mode のカスタムタスク定義を CloudFormation からも参照できるようになり、readonlyRootFilesystem や tmpfs を IaC として宣言的に設定しやすくなりました。…",
+      "summary": "クラウドの新着が9件。ECS Express Mode のカスタムタスク定義を CloudFormation からも参照できるようになり、readonlyRootFilesystem や tmpfs を IaC として宣言的に設定しやすくなりました。…",
       "articles": [
         {
           "title": "CloudFormation で ECS Express Mode のカスタムタスク定義に readonlyRootFilesystem + tmpfs を設定してみた",
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。ECS Express Mode のカスタムタスク定義を CloudFormation からも参照できるようになり、readonlyRootFilesystem や tmpfs を IaC として宣言的に設定しやすくなりました。…",
+      "summary": "開発ツールの新着が17件。はじめに AWS上にWindows Serverを構築し、Active Directory（AD）ドメインコントローラーとして昇格させるまでの手順をまとめました。…",
       "articles": [
+        {
+          "title": "【AWS】TerraformでWindows Serverを構築してActive Directory環境を作成",
+          "link": "https://qiita.com/kawakami0429/items/9e558361a53264f8f5ca",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-12T12:51:50",
+          "excerpt": "はじめに AWS上にWindows Serverを構築し、Active Directory（AD）ドメインコントローラーとして昇格させるまでの手順をまとめました。…"
+        },
         {
           "title": "CloudFormation で ECS Express Mode のカスタムタスク定義に readonlyRootFilesystem + tmpfs を設定してみた",
           "link": "https://dev.classmethod.jp/articles/ecs-express-mode-custom-task-definition-readonly-rootfs-tmpfs-cloudformation/",
@@ -150,30 +157,30 @@
           "excerpt": "ECS Express Mode のカスタムタスク定義を CloudFormation からも参照できるようになり、readonlyRootFilesystem や tmpfs を IaC として宣言的に設定しやすくなりました。…"
         },
         {
-          "title": "Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート",
-          "link": "https://codezine.jp/article/detail/28924",
-          "source": "CodeZine",
-          "published": "2026-07-12T09:00:00",
-          "excerpt": "Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート"
+          "title": "他人のCloudFormationを安全に取り込む — inert & content-addressedな問題パック設計",
+          "link": "https://zenn.dev/bull/articles/tenkacloud-problem-pack-provenance",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-12T09:47:27",
+          "excerpt": "TenkaCloudという、実際のAWSアカウント上でクラウド競技を開催するOSSを作っています（susumutomita/TenkaCloud、Apache-2.0）。…"
         },
         {
-          "title": "MCPの「逆方向リクエスト」を理解する — Sampling・Elicitation・Client-Server構造の全体像",
-          "link": "https://dev.classmethod.jp/articles/mcp-sampling-elicitation-client-server-primitives-guide/",
-          "source": "DevelopersIO",
-          "published": "2026-07-12T06:56:51",
-          "excerpt": "MCPの逆方向リクエスト — SamplingとElicitationの違い、Client-Server構造の役割、そしてClaude Codeにおける活用まで。MCPプリミティブの全体像を図解付きで整理しました。"
-        },
-        {
-          "title": "GitHub CopilotでGPT-5.6 Sol, Terra, Lunaが利用可能に",
-          "link": "https://codezine.jp/article/detail/28923",
-          "source": "CodeZine",
-          "published": "2026-07-12T06:00:00",
-          "excerpt": "GitHub CopilotでGPT-5.6 Sol, Terra, Lunaが利用可能に"
+          "title": "SBTの2プレーンに「問題デプロイ」の層を足す — TenkaCloudのマルチテナント設計",
+          "link": "https://zenn.dev/bull/articles/tenkacloud-sbt-multi-tenant-saas",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-12T09:47:27",
+          "excerpt": "TenkaCloudという、実際のAWSアカウント上でクラウド競技を開催するOSSを作っています（susumutomita/TenkaCloud、Apache-2.0）。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "Yt-Dlp シーケンス図",
+      "link": "https://app.ilograph.com/demo.ilograph.yt-dlp/Download%2520a%2520YouTube%2520Video",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-12T11:49:38",
+      "excerpt": "記事の URL: https://app.ilograph.com/demo.ilograph.yt-dlp/Download%2520a%2520YouTube%2520Video コメント URL: https://news.…"
+    },
     {
       "title": "IT管​​理者はMicrosoftの「役に立たない」アプリとWindows 11に「うんざり」",
       "link": "https://www.neowin.net/news/it-admins-feel-overwhelmingly-sick-of-microsoft-and-windows-11-garbage-apps-products/",
@@ -189,18 +196,11 @@
       "excerpt": "記事の URL: https://english.elpais.…"
     },
     {
-      "title": "記憶を作る人は好景気と不況のジェットコースターの奴隷であり、AI ブームはあらゆる乗り物の中でも最もワイルドな乗り物です",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/12/memory-makers-are-slaves-to-the-boom-bust-rollercoaster-and-the-ai-boom-is-the-wildest-ride-of-all/5269549",
-      "source": "The Register（英語）",
-      "published": "2026-07-12T11:04:00",
-      "excerpt": "RAMポカリプスはAI黙示録の前兆である可能性がある"
-    },
-    {
-      "title": "データセンターにより大手テクノロジー企業の二酸化炭素排出量はフランスの 3 分の 1 に増加",
-      "link": "https://www.theguardian.com/us-news/2026/jul/11/microsoft-amazon-google-datacentre-carbon-emissions-france",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-12T10:23:25",
-      "excerpt": "記事の URL: https://www.theguardian.…"
+      "title": "モアナの背後にある本当の謎: 1,700 年後、なぜポリネシア人は突然東へ航海したのでしょうか?",
+      "link": "https://arstechnica.com/culture/2026/07/the-real-mystery-behind-moana-after-1700-years-why-did-polynesians-suddenly-sail-east/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-12T11:12:19",
+      "excerpt": "新しい気候証拠は、これらの長い航海に背景を追加します。"
     }
   ]
 }
