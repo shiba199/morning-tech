@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-12T10:49:54",
+  "generated_at": "2026-07-12T11:50:07",
   "window_hours": 24,
-  "total": 112,
+  "total": 118,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が25件。Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート",
+      "summary": "生成AIの新着が26件。プライベートなネットワーク内のKeycloakを使ったAgentCore RuntimeのJWT検証を、VPC Lattice経由で実装する方法を試してみました！",
       "articles": [
+        {
+          "title": "プライベートサブネット内のKeycloakでAmazon Bedrock AgentCore RuntimeのInbound認証（JWT認証）を構成してみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-inbound-auth-private-keycloak/",
+          "source": "DevelopersIO",
+          "published": "2026-07-12T10:48:45",
+          "excerpt": "プライベートなネットワーク内のKeycloakを使ったAgentCore RuntimeのJWT検証を、VPC Lattice経由で実装する方法を試してみました！"
+        },
         {
           "title": "Amazon SageMaker Unified Studio、Terraformによるプロビジョニングをサポート",
           "link": "https://codezine.jp/article/detail/28924",
@@ -29,13 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-12T07:24:11",
           "excerpt": "RAGシステムでLLMが存在しないチケットIDを捏造する問題を、Chunk Anchoringとsource_uri検証の二層構造で解決します。"
-        },
-        {
-          "title": "asyncio.gatherでLLMパイプラインに「タダで」分類機能を追加する",
-          "link": "https://dev.classmethod.jp/articles/zero-cost-parallel-classification-asyncio-gather/",
-          "source": "DevelopersIO",
-          "published": "2026-07-12T07:15:47",
-          "excerpt": "asyncio.gather()を使ってKB検索のI/O待ちの裏で軽量LLM分類を並列実行し、レイテンシ増加ゼロでRAGパイプラインに分類機能を追加するパターンを、実装例とともに紹介します。"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が3件。こんにちは！たつみんです！ひさびさにAWS環境をゼロから作成する機会があり、OktaからSSOやProvisioningを実現するためにAWS IAM Identity Centerの設定をしました。…",
+      "summary": "セキュリティの新着が4件。プライベートなネットワーク内のKeycloakを使ったAgentCore RuntimeのJWT検証を、VPC Lattice経由で実装する方法を試してみました！",
       "articles": [
+        {
+          "title": "プライベートサブネット内のKeycloakでAmazon Bedrock AgentCore RuntimeのInbound認証（JWT認証）を構成してみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-inbound-auth-private-keycloak/",
+          "source": "DevelopersIO",
+          "published": "2026-07-12T10:48:45",
+          "excerpt": "プライベートなネットワーク内のKeycloakを使ったAgentCore RuntimeのJWT検証を、VPC Lattice経由で実装する方法を試してみました！"
+        },
         {
           "title": "OktaとAWS IAM Identity CenterのSSO・Provisioning設定をまとめてみた",
           "link": "https://zenn.dev/joug/articles/okta-aws-iam-identity-center-setup",
@@ -168,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Copilot Coworkのスケジュール済みタスクを設定してみた",
-      "link": "https://dev.classmethod.jp/articles/m365-copilot-cowork-scheduled-tasks/",
-      "source": "DevelopersIO",
-      "published": "2026-07-12T09:49:34",
-      "excerpt": "Copilot Coworkの予定タスク機能を、実際の画面を確認しながら詳しく解説します。会話形式での設定方法から、Claude Coworkとの比較まで、2026年7月時点の機能を紹介しました。"
+      "title": "IT管​​理者はMicrosoftの「役に立たない」アプリとWindows 11に「うんざり」",
+      "link": "https://www.neowin.net/news/it-admins-feel-overwhelmingly-sick-of-microsoft-and-windows-11-garbage-apps-products/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-12T11:22:42",
+      "excerpt": "記事の URL: https://www.neowin.…"
     },
     {
-      "title": "【Backstage】 New Frontend System導入ガイド （Part2「サイドメニューの設定」） | APC 技術ブログ",
-      "link": "https://techblog.ap-com.co.jp/entry/2026/07/12/183500",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-12T09:35:00",
-      "excerpt": "はじめに 皆さんこんにちは。エーピーコミュニケーションズ ACS事業部 亀崎です。前回に引き続き、BackstageのNew Frontend System導入ガイドになります。techblog.ap-com.co.…"
+      "title": "ブラジルの女性、同じ家族の3世代によって55年間奴隷にされた",
+      "link": "https://english.elpais.com/international/2026-07-10/woman-rescued-in-brazil-after-being-enslaved-for-55-years-by-three-generations-of-the-same-family.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-12T11:18:32",
+      "excerpt": "記事の URL: https://english.elpais.…"
     },
     {
-      "title": "個人開発AIボットで試して捨てた技術5選（実測データ付き）",
-      "link": "https://qiita.com/Yutekoko/items/878bec332a49e6952f4e",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-12T09:30:47",
-      "excerpt": "はじめに 前回の記事で、AIトレーナー「かな」を自作して20kg痩せた話を書いた。きれいにまとめたが、裏側は失敗だらけだった。…"
+      "title": "記憶を作る人は好景気と不況のジェットコースターの奴隷であり、AI ブームはあらゆる乗り物の中でも最もワイルドな乗り物です",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/12/memory-makers-are-slaves-to-the-boom-bust-rollercoaster-and-the-ai-boom-is-the-wildest-ride-of-all/5269549",
+      "source": "The Register（英語）",
+      "published": "2026-07-12T11:04:00",
+      "excerpt": "RAMポカリプスはAI黙示録の前兆である可能性がある"
     },
     {
-      "title": "有名なWebフレームワークのエラーハンドリングの仕様を調査し、自社用の開発テンプレートハーネスに反映してみた",
-      "link": "https://dev.classmethod.jp/articles/web-framework-error-handling-survey-for-dev-harness/",
-      "source": "DevelopersIO",
-      "published": "2026-07-12T09:29:14",
-      "excerpt": "社内の開発テンプレート設計でエラーハンドリングの正当性を評価するために、Rails・Django・NestJSの実ソースコードを読んで、3大フレームワークの設計判断を調査・比較してみました。"
+      "title": "データセンターにより大手テクノロジー企業の二酸化炭素排出量はフランスの 3 分の 1 に増加",
+      "link": "https://www.theguardian.com/us-news/2026/jul/11/microsoft-amazon-google-datacentre-carbon-emissions-france",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-12T10:23:25",
+      "excerpt": "記事の URL: https://www.theguardian.…"
     }
   ]
 }
