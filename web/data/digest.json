@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-12T21:38:12",
+  "generated_at": "2026-07-12T22:36:52",
   "window_hours": 24,
-  "total": 133,
+  "total": 140,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が26件。生成AIを使い始めて、何年になるだろう。気が付いたら、コードも書いてくれるし、議事録もまとめてくれる。便利になった。でも、ふと立ち止まってみると、年収は上がっただろうか。本連載を読んで、いま一度、正直に確かめてほしい。",
+      "summary": "生成AIの新着が26件。KnowBe4の国際調査で、自律的に動くAIエージェントの業務への組み込みが世界で最も進んでいるのは日本企業ということが明らかになった。一方で、日本には活用の先進性とは異なるもう1つの「世界一」があった。",
       "articles": [
+        {
+          "title": "日本のAIエージェント自律稼働は世界最多　でも「心理的安全性」は世界最下位",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/13/news023.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-07-12T22:00:00",
+          "excerpt": "KnowBe4の国際調査で、自律的に動くAIエージェントの業務への組み込みが世界で最も進んでいるのは日本企業ということが明らかになった。一方で、日本には活用の先進性とは異なるもう1つの「世界一」があった。"
+        },
         {
           "title": "生成AIが「Excel並みに当たり前」の今、知らないと損する“単純な構造”の話",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/13/news009.html",
@@ -29,13 +36,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-12T17:22:06",
           "excerpt": "調査・下書きにClaude Codeを使用し、最終的に人間がすべて確認しました。問題等あればご指摘ください。はじめに こんにちは、ふくちと申します。皆様AgentCore Gateway使ってらっしゃいますでしょうか。…"
-        },
-        {
-          "title": "人間だけのAWS運用に、AIエージェント用ロールを後から払い出す手順",
-          "link": "https://zenn.dev/nenene01/articles/aws-ai-agent-role-provisioning",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-12T15:19:56",
-          "excerpt": "はじめに 前回の記事で「エージェントに渡すロールは読み取り専用から始める」「人間の認証情報を使い回さない」と書きました。本記事はその実践編です。https://zenn.…"
         }
       ]
     },
@@ -77,8 +77,22 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。はじめに ECSのタスク定義でSecrets Managerのシークレットを環境変数として渡そうとしたとき、こんなARNを見たことはないでしょうか？…",
+      "summary": "セキュリティの新着が15件。IAM入門 — ユーザーとポリシーでAWSの権限を管理する はじめに IAM（Identity and Access Management）はAWSのアクセス管理サービスです。…",
       "articles": [
+        {
+          "title": "IAM入門 — ユーザーとポリシーでAWSの権限を管理する",
+          "link": "https://qiita.com/hitobussi/items/ae546f9d520a602cbf40",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-12T22:18:55",
+          "excerpt": "IAM入門 — ユーザーとポリシーでAWSの権限を管理する はじめに IAM（Identity and Access Management）はAWSのアクセス管理サービスです。…"
+        },
+        {
+          "title": "Compute EngineのShielded VMについて調べてみた",
+          "link": "https://dev.classmethod.jp/articles/investigating-compute-engine-shielded-vm/",
+          "source": "DevelopersIO",
+          "published": "2026-07-12T21:54:07",
+          "excerpt": "Google CloudのShielded VMはSecure Boot、vTPM、整合性監視の3つの機能でVMをブートレベルの攻撃から保護します。ファームウェアからカーネルまでの改ざんを検知し、高セキュリティ要件に対応することができます。"
+        },
         {
           "title": "ECS × Secrets Manager：ARN末尾の『::』はどこから来るのか",
           "link": "https://zenn.dev/kingdom0927/articles/how-to-write-secret-manager-arn",
@@ -92,20 +106,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-12T20:49:46",
           "excerpt": "記事の URL: https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Claude CodeからAgentCore GatewayにEntra ID × CognitoでSSO接続するついでに認証認可の勉強をする",
-          "link": "https://qiita.com/har1101/items/bfc2701ff74d89ec9dd2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-12T17:22:06",
-          "excerpt": "調査・下書きにClaude Codeを使用し、最終的に人間がすべて確認しました。問題等あればご指摘ください。はじめに こんにちは、ふくちと申します。皆様AgentCore Gateway使ってらっしゃいますでしょうか。…"
-        },
-        {
-          "title": "[アップデート] Amazon SageMaker Unified Studio が IAM ベースドメインでサポートした Data Lineage を試してみました",
-          "link": "https://dev.classmethod.jp/articles/20260712-amazon-sagemaker-data-lineage-iam-domain/",
-          "source": "DevelopersIO",
-          "published": "2026-07-12T14:55:55",
-          "excerpt": "Amazon SageMaker Unified Studio のIAMベースドメインで、OpenLineage互換のデータリネージがサポートされました。リネージイベントの投稿からグラフ可視化まで、実際に試してみた結果をお伝えします。"
         }
       ]
     },
@@ -168,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Chronium 148 以降、Math.tanh は基礎となる OS をリンクするためにフィンガープリントできるようになりました",
-      "link": "https://scrapfly.dev/posts/browser-math-os-fingerprint/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-12T21:12:11",
-      "excerpt": "記事の URL: https://scrapfly.dev/posts/browser-math-os-fingerprint/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "ITエンジニア注目トレンドを総まとめ！週間ニュースランキングTOP10【7/3～7/9】",
+      "link": "https://codezine.jp/article/detail/28915",
+      "source": "CodeZine",
+      "published": "2026-07-12T22:00:00",
+      "excerpt": "毎日更新されるITエンジニア向け関連の最新ニュースから、注目を集めたトピックスを紹介する本ランキング。今回は2026年7月3日～7月9日までの人気ランキングを発表します。"
     },
     {
-      "title": "Flash-MSA: スパース アテンション カーネルによる 100 万トークンのトレーニングの加速",
-      "link": "https://nanduruganesh.github.io/flash-msa/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-12T20:46:43",
-      "excerpt": "記事の URL: https://nanduruganesh.github.io/flash-msa/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "700キロ先でも成功、“60GHz帯”無線LANでつないだロボットを低遅延制御　その通信とは？",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/13/news044.html",
+      "source": "@IT",
+      "published": "2026-07-12T22:00:00",
+      "excerpt": "NTTグループと富士通グループの1Finity、三菱ケミカルは、60GHz帯の無線LAN技術などの大容量・低遅延の通信技術を用いて、700キロの遠隔から自律型ロボットなどを制御する設備点検を成功させた。どのような手法が取られたのか。"
     },
     {
-      "title": "「群れカメラの削減をやめてください」（集団監視は良いことです） [ビデオ]",
-      "link": "https://www.youtube.com/watch?v=su-Ce4PlNz0",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-12T20:39:01",
-      "excerpt": "記事の URL: https://www.youtube.com/watch?v=su-Ce4PlNz0 コメント URL: https://news.ycombinator.com/item?…"
+      "title": "AIで専門職の境界が消える？　企業が欲しがる「総合技術者」の条件",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/13/news024.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-07-12T22:00:00",
+      "excerpt": "Harvard Business Reviewの調査によると、生成AIの急拡大により知識労働者の採用基準が変化しているという。企業が欲しがる「総合技術者」の条件と、生き残る人材の共通点とは。"
     },
     {
-      "title": "小さなエミュレータ",
-      "link": "https://floooh.github.io/tiny8bit-preview/index.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-12T20:23:05",
-      "excerpt": "記事の URL: https://floooh.github.io/tiny8bit-preview/index.html コメント URL: https://news.ycombinator.com/item?…"
+      "title": "論文サイト「arXiv」、投稿の約9割で非公開情報が“丸見え状態”か　パスワードや秘密鍵、自宅のGPS座標なども　270万件を調査",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/13/news021.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-12T22:00:00",
+      "excerpt": "ドイツのアーヘン工科大学に所属する研究者らが発表した論文「Hidden Secrets in the arXiv: Discovering, Analyzing, and Preventing Unintentional Informati…"
     }
   ]
 }
