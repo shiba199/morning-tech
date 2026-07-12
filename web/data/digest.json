@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-07-12T22:36:52",
+  "generated_at": "2026-07-12T23:41:33",
   "window_hours": 24,
-  "total": 140,
+  "total": 151,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が26件。KnowBe4の国際調査で、自律的に動くAIエージェントの業務への組み込みが世界で最も進んでいるのは日本企業ということが明らかになった。一方で、日本には活用の先進性とは異なるもう1つの「世界一」があった。",
+      "summary": "生成AIの新着が28件。今回は、私が実際に遭遇したトラブルを元にSQLを用いて回避する方法を紹介します。テーマはタイトルの通り、マスタテーブルを用いる要件ですが『履歴管理されている』という点がポイントです。簡単な事例を用いて、実務をイメージできるように進めます。…",
       "articles": [
+        {
+          "title": "【SQL】履歴管理されているマスタの重複トラブルを回避する　第１回　※PostgreSQL対応 | Agent Grow Tech Notesのフィード",
+          "link": "https://zenn.dev/agent_grow/articles/4d10d75f57885a",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-12T23:00:13",
+          "excerpt": "今回は、私が実際に遭遇したトラブルを元にSQLを用いて回避する方法を紹介します。テーマはタイトルの通り、マスタテーブルを用いる要件ですが『履歴管理されている』という点がポイントです。簡単な事例を用いて、実務をイメージできるように進めます。…"
+        },
+        {
+          "title": "Claude Codeで実案件に挑んだら、「コードを書く仕事」が別物になった | [公開中] AQ Tech Blog",
+          "link": "https://techblog.asia-quest.jp/202607/claude-code-practical-development-guide",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-12T23:00:00",
+          "excerpt": "はじめに 背景 実案件で初めてClaude Codeを使って開発する機会がありました。私が担当したのは、Webアプリの新機能におけるAPIと画面の実装です。…"
+        },
+        {
+          "title": "Web設計思想で動かす「スタックチャン」──生成AIと組み立てるMVPモジュール設計",
+          "link": "https://codezine.jp/article/detail/24694",
+          "source": "CodeZine",
+          "published": "2026-07-12T23:00:00",
+          "excerpt": "本連載は、生成AIを相棒にオープンソースロボット「スタックチャン」の個人開発に挑戦する入門講座です。第1回となる本記事では、組み込み開発未経験のWebエンジニアに向け、ChatGPTを活用したアイデア出しから設計までのプロセスを解説します。…"
+        },
         {
           "title": "日本のAIエージェント自律稼働は世界最多　でも「心理的安全性」は世界最下位",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2607/13/news023.html",
           "source": "ITmedia エンタープライズ",
           "published": "2026-07-12T22:00:00",
           "excerpt": "KnowBe4の国際調査で、自律的に動くAIエージェントの業務への組み込みが世界で最も進んでいるのは日本企業ということが明らかになった。一方で、日本には活用の先進性とは異なるもう1つの「世界一」があった。"
-        },
-        {
-          "title": "生成AIが「Excel並みに当たり前」の今、知らないと損する“単純な構造”の話",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/13/news009.html",
-          "source": "@IT",
-          "published": "2026-07-12T20:00:00",
-          "excerpt": "生成AIを使い始めて、何年になるだろう。気が付いたら、コードも書いてくれるし、議事録もまとめてくれる。便利になった。でも、ふと立ち止まってみると、年収は上がっただろうか。本連載を読んで、いま一度、正直に確かめてほしい。"
-        },
-        {
-          "title": "Amazon Bedrock AgentCoreからDatabricks Genie MCPを呼び出す",
-          "link": "https://zenn.dev/yu_tkr/articles/agentcore-databricks-genie-mcp",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-12T17:51:48",
-          "excerpt": "はじめに Amazon Bedrock AgentCore の Harness から、AgentCore Gateway を経由して Databricks の Managed MCP サーバー（Genie）を呼び出す構成を検証しました。…"
-        },
-        {
-          "title": "Claude CodeからAgentCore GatewayにEntra ID × CognitoでSSO接続するついでに認証認可の勉強をする",
-          "link": "https://qiita.com/har1101/items/bfc2701ff74d89ec9dd2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-12T17:22:06",
-          "excerpt": "調査・下書きにClaude Codeを使用し、最終的に人間がすべて確認しました。問題等あればご指摘ください。はじめに こんにちは、ふくちと申します。皆様AgentCore Gateway使ってらっしゃいますでしょうか。…"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。IAM入門 — ユーザーとポリシーでAWSの権限を管理する はじめに IAM（Identity and Access Management）はAWSのアクセス管理サービスです。…",
+      "summary": "セキュリティの新着が16件。デジタルペンテスト部の北原です。本記事では、Windows OSで稼働しているプロセス名の情報がどのように取得できるのかについて、プログラムの実装例と共に解説します。…",
       "articles": [
+        {
+          "title": "Windows OSでのプロセス名 | ラック・セキュリティごった煮ブログ",
+          "link": "https://devblog.lac.co.jp/entry/20260713",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-12T22:49:45",
+          "excerpt": "デジタルペンテスト部の北原です。本記事では、Windows OSで稼働しているプロセス名の情報がどのように取得できるのかについて、プログラムの実装例と共に解説します。…"
+        },
         {
           "title": "IAM入門 — ユーザーとポリシーでAWSの権限を管理する",
           "link": "https://qiita.com/hitobussi/items/ae546f9d520a602cbf40",
@@ -99,13 +106,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-12T21:22:00",
           "excerpt": "はじめに ECSのタスク定義でSecrets Managerのシークレットを環境変数として渡そうとしたとき、こんなARNを見たことはないでしょうか？…"
-        },
-        {
-          "title": "MCP セキュリティの現状 [pdf]",
-          "link": "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-12T20:49:46",
-          "excerpt": "記事の URL: https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
@@ -133,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。Q.CLIからアクセスしたいなら？A.AWSが認証できる認証情報が必要！！（若干の進次郎構文） 今回の話題はこれです。ことの経緯 AWSコンソールの操作をし始めて 少し経ったころ、 PMからこんな指示が出ました。…",
+      "summary": "開発ツールの新着が15件。GitHub Code Qualityに組織単位でのリポジトリ選択機能が追加",
       "articles": [
+        {
+          "title": "GitHub Code Qualityに組織単位でのリポジトリ選択機能が追加",
+          "link": "https://codezine.jp/article/detail/28925",
+          "source": "CodeZine",
+          "published": "2026-07-12T23:00:00",
+          "excerpt": "GitHub Code Qualityに組織単位でのリポジトリ選択機能が追加"
+        },
         {
           "title": "CLIで操作したいくせに、認証情報設定してなかった話",
           "link": "https://qiita.com/LierFort/items/ffa12f8d908e2c2a2c29",
@@ -155,45 +162,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-12T10:01:50",
           "excerpt": "ECS Express Mode のカスタムタスク定義を CloudFormation からも参照できるようになり、readonlyRootFilesystem や tmpfs を IaC として宣言的に設定しやすくなりました。…"
-        },
-        {
-          "title": "他人のCloudFormationを安全に取り込む — inert & content-addressedな問題パック設計",
-          "link": "https://zenn.dev/bull/articles/tenkacloud-problem-pack-provenance",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-12T09:47:27",
-          "excerpt": "TenkaCloudという、実際のAWSアカウント上でクラウド競技を開催するOSSを作っています（susumutomita/TenkaCloud、Apache-2.0）。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ITエンジニア注目トレンドを総まとめ！週間ニュースランキングTOP10【7/3～7/9】",
-      "link": "https://codezine.jp/article/detail/28915",
+      "title": "「ゴール未達が当たり前」になったチームに、どう介入するか — 仕事終わりのスクラムマスター道場 Vol.3 参加レポート | ContractS開発者ブログ",
+      "link": "https://tech.contracts.co.jp/entry/scrum-master-dojo-vol3",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-12T23:00:00",
+      "excerpt": "スプリントゴールの未達が常態化したチームに、スクラムマスター/マネージャーとしてどう介入するか。レッドジャーニー「スクラムマスター道場 Vol.…"
+    },
+    {
+      "title": "App Storeの年齢レーティング質問時にソーシャルメディアに関する設問が追加",
+      "link": "https://codezine.jp/article/detail/28926",
       "source": "CodeZine",
-      "published": "2026-07-12T22:00:00",
-      "excerpt": "毎日更新されるITエンジニア向け関連の最新ニュースから、注目を集めたトピックスを紹介する本ランキング。今回は2026年7月3日～7月9日までの人気ランキングを発表します。"
+      "published": "2026-07-12T23:00:00",
+      "excerpt": "App Storeの年齢レーティング質問時にソーシャルメディアに関する設問が追加"
     },
     {
-      "title": "700キロ先でも成功、“60GHz帯”無線LANでつないだロボットを低遅延制御　その通信とは？",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/13/news044.html",
+      "title": "Googleの初心者向けAI講座を徹底レビュー　受ける価値はある？【動画あり】",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/13/news020.html",
       "source": "@IT",
-      "published": "2026-07-12T22:00:00",
-      "excerpt": "NTTグループと富士通グループの1Finity、三菱ケミカルは、60GHz帯の無線LAN技術などの大容量・低遅延の通信技術を用いて、700キロの遠隔から自律型ロボットなどを制御する設備点検を成功させた。どのような手法が取られたのか。"
+      "published": "2026-07-12T23:00:00",
+      "excerpt": "日本リスキングコンソーシアムは2026年4月23日、「AIを学びたいけれど、何から始めていいか分からない」という悩みの解決手段として「Google AI プロフェッショナル認定証」の日本語版をリリースしました。…"
     },
     {
-      "title": "AIで専門職の境界が消える？　企業が欲しがる「総合技術者」の条件",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/13/news024.html",
+      "title": "「足りないのはCOBOL人材じゃない」　日立が語る、AI時代のシステム刷新における“人”の役割",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/13/news001.html",
       "source": "ITmedia エンタープライズ",
-      "published": "2026-07-12T22:00:00",
-      "excerpt": "Harvard Business Reviewの調査によると、生成AIの急拡大により知識労働者の採用基準が変化しているという。企業が欲しがる「総合技術者」の条件と、生き残る人材の共通点とは。"
-    },
-    {
-      "title": "論文サイト「arXiv」、投稿の約9割で非公開情報が“丸見え状態”か　パスワードや秘密鍵、自宅のGPS座標なども　270万件を調査",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/13/news021.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-12T22:00:00",
-      "excerpt": "ドイツのアーヘン工科大学に所属する研究者らが発表した論文「Hidden Secrets in the arXiv: Discovering, Analyzing, and Preventing Unintentional Informati…"
+      "published": "2026-07-12T23:00:00",
+      "excerpt": "従来は人海戦術に頼っていた領域にAIが入り込み、さまざまな課題が解消しつつある。レガシーシステムの刷新もそのうちの一つだ。…"
     }
   ]
 }
