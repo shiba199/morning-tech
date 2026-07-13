@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-13T22:43:13",
+  "generated_at": "2026-07-13T23:41:57",
   "window_hours": 24,
-  "total": 228,
+  "total": 242,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が43件。OpenAIは、AIモデル群「GPT-5.6」の一般提供を開始した。性能と効率の向上をうたう一方、企業ユーザーに影響する変更が複数含まれている。",
+      "summary": "生成AIの新着が50件。はじめに 2026年4月8日、大阪駆動開発さん主催のオンラインイベント「AIミーティング(#AIMTG)」でLT登壇してきました。…",
       "articles": [
         {
-          "title": "OpenAIが「GPT-5.6」一般提供　3モデルの価格と新たな利用条件は",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/11/news013.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-07-13T22:00:00",
-          "excerpt": "OpenAIは、AIモデル群「GPT-5.6」の一般提供を開始した。性能と効率の向上をうたう一方、企業ユーザーに影響する変更が複数含まれている。"
+          "title": "生成AIに「どっちが賢いか」勝負を挑んだら、突くつもりだった弱点が全部塞がれていた",
+          "link": "https://qiita.com/wasyokusatoshi/items/9a5ac7fc7f46521510b9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-13T23:12:07",
+          "excerpt": "はじめに 2026年4月8日、大阪駆動開発さん主催のオンラインイベント「AIミーティング(#AIMTG)」でLT登壇してきました。…"
         },
         {
-          "title": "[アップデート] Kiro IDE 1.0.116 でエージェントのファイル操作時にもフックが発火するようになりました",
-          "link": "https://dev.classmethod.jp/articles/kiro-ide-agent-fire-hooks/",
+          "title": "Amazon Bedrock AgentCore Managed Harness で作ったAIエージェントを、AWSアカウントを使用しないユーザーに配布できるチャットアプリテンプレートを作ってみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-harness-chat-template/",
           "source": "DevelopersIO",
-          "published": "2026-07-13T21:02:46",
-          "excerpt": "Kiro IDE の最新アップデート（v1.0.116）で、エージェントがファイルを作成・編集・削除した際にもフックが発火するようになりました。これまで手動操作のみだったフック機能がどう変わったのか、実際に試して確認してみます。"
+          "published": "2026-07-13T23:05:59",
+          "excerpt": "Amazon Bedrock AgentCore Harnessをコンソール操作だけで作ったエージェントを、AWS アカウントがない利用者にもブラウザで使ってもらう方法を紹介します！"
         },
         {
-          "title": "Apple、元従業員がOpenAI退職後に「まれな」バグを悪用して機密ファイルをダウンロードしたと発表",
-          "link": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-13T20:00:17",
-          "excerpt": "Appleは、元従業員がライバルのOpenAIに退職してからずっと後、Appleのネットワークから機密ファイルをダウンロードできるようにしたとされる「セキュリティ侵害」についてはコメントしなかった。"
+          "title": "Claude Code の Skills と Commands の違いを整理して、効率的に使い分ける | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/claude-code-skills-vs-commands",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-13T23:00:00",
+          "excerpt": "Claude Code の Commands と Skills は現在統合された仕組みで、どちらも同じ / コマンドとして動作します。両者の実質的な違いは付属ファイルを持てるかどうかの1点。比較表と判断基準で使い分け方を整理します。"
         },
         {
-          "title": "生成AIで膨大なログから障害原因特定　RAG、Pythonでログ分析アプリ構築",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/14/news007.html",
-          "source": "@IT",
-          "published": "2026-07-13T20:00:00",
-          "excerpt": "ITインフラの構築・運用フェーズで生成AIがどう役立つのかを解説する本連載。今回は、自然言語でログ調査ができるRAGアプリケーションの実装手順を紹介します。…"
+          "title": "「Microsoft Agent Framework」の.NET向けAgent Skillsが正式リリース",
+          "link": "https://codezine.jp/article/detail/28929",
+          "source": "CodeZine",
+          "published": "2026-07-13T23:00:00",
+          "excerpt": "「Microsoft Agent Framework」の.NET向けAgent Skillsが正式リリース"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。VPC入門 — EC2とRDSを安全に配置するネットワーク設計 はじめに VPC（Virtual Private Cloud）はAWS上に作る仮想ネットワークです。…",
+      "summary": "クラウドの新着が24件。AWS S3上に大量のログがあり、Amazon Athenaで検索・分析している環境に対して、Oracle Autonomous Database / Autonomous AI Lakehouseを使ってさらに AI分析できないか、という…",
       "articles": [
+        {
+          "title": "S3上の大量ログを Oracle Autonomous AI Lakehouseで分析する：外部表、Parquet、SQL、Vector Search、RAGの使い分け",
+          "link": "https://qiita.com/shirok/items/2eafd347f90e80c46005",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-13T22:59:11",
+          "excerpt": "AWS S3上に大量のログがあり、Amazon Athenaで検索・分析している環境に対して、Oracle Autonomous Database / Autonomous AI Lakehouseを使ってさらに AI分析できないか、という…"
+        },
+        {
+          "title": "【AWS費用削減】RDSのそのストレージタイプ、実は無駄に費用を食っているかもしれない",
+          "link": "https://zenn.dev/mosayan/articles/54c45ae18337dc",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-13T22:55:05",
+          "excerpt": "はじめに 自社ではメインのWEBサービスや社内業務改善の仕組みなどにAWSを使用しています。…"
+        },
         {
           "title": "VPC入門 — EC2とRDSを安全に配置するネットワーク設計",
           "link": "https://qiita.com/hitobussi/items/5b0b629d33ec40632513",
@@ -52,33 +66,26 @@
           "excerpt": "VPC入門 — EC2とRDSを安全に配置するネットワーク設計 はじめに VPC（Virtual Private Cloud）はAWS上に作る仮想ネットワークです。…"
         },
         {
-          "title": "「GPUを増やしても速くならない」　なぜAIインフラの性能はミドルウェアで変わるのか？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/14/news008.html",
-          "source": "@IT",
-          "published": "2026-07-13T20:00:00",
-          "excerpt": "AIインフラを適切に動作させるには、GPUやストレージなどの物理的な基盤を整えただけでは十分ではありません。なぜミドルウェアが重要になるのか、設計においては何を考慮すべきなのかを解説します。"
-        },
-        {
-          "title": "EKSとGKEを徹底比較！内部構造から運用コストまで",
-          "link": "https://qiita.com/popapipapapi/items/87b59d76274c9af31c31",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-13T16:13:01",
-          "excerpt": "はじめに クラウドネイティブなアプリケーション開発において、Kubernetesはデファクトスタンダードとなっています。…"
-        },
-        {
-          "title": "EC2 G7インスタンス（NVIDIA RTX PRO 4500 Blackwell GPU）が利用可能になったのでGPU/CPU情報を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/ec2-g7-blackwell-gpu-instance-launch/",
-          "source": "DevelopersIO",
-          "published": "2026-07-13T15:14:46",
-          "excerpt": "2026年6月GAのEC2 G7インスタンス（NVIDIA RTX PRO 4500 Blackwell GPU搭載）を起動し、GPU・CPUのハードウェア情報をコマンドで確認しました。前世代G6との仕様差分もまとめています。"
+          "title": "Glue REST CatalogとS3TablesのIAMとLake Formationの挙動を確かめる",
+          "link": "https://zenn.dev/penginpenguin/articles/11355eaf43c6c9",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-13T22:03:42",
+          "excerpt": "はじめに AWS Community Builderのぺんぎん（@jitepengin）です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。利用者自身に操作をさせて多要素認証をすり抜けるフィッシングが猛威を振るっている。こうした中、Appleが2026年秋公開予定の「iOS 27」で、人の心理を突く攻撃に対抗する新たな仕組みを用意していることが分かった。",
+      "summary": "セキュリティの新着が17件。はじめに AWS Community Builderのぺんぎん（@jitepengin）です。…",
       "articles": [
+        {
+          "title": "Glue REST CatalogとS3TablesのIAMとLake Formationの挙動を確かめる",
+          "link": "https://zenn.dev/penginpenguin/articles/11355eaf43c6c9",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-13T22:03:42",
+          "excerpt": "はじめに AWS Community Builderのぺんぎん（@jitepengin）です。…"
+        },
         {
           "title": "多要素認証も飛び越えるフィッシング　iOS 27の\"新たな防波堤\"",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2607/14/news043.html",
@@ -99,21 +106,21 @@
           "source": "@IT",
           "published": "2026-07-13T20:00:00",
           "excerpt": "バックアップやEDRを導入していても、ランサムウェア被害で企業が最後に直面するのは技術ではなく「経営判断」です。身代金を支払うべきかどうか。その二択だけに目を向けると、本当に備えるべきことを見落としかねません。…"
-        },
-        {
-          "title": "JWT署名鍵、Secrets ManagerかKMSか——判断軸を整理してみた",
-          "link": "https://qiita.com/11akajet/items/cf21faf63234a38b4f28",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-13T16:28:59",
-          "excerpt": "はじめましての方ははじめまして、そうでない方はこんにちは。社内では「じぇっと」と呼ばれています。なぜそう呼ばれているかは追々お伝えできればいいかなと思います。1.…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。Dell製PCの一部で、BIOSパスワードを「数ミリ秒」で復元できる脆弱性が見つかった。総当たり攻撃は不要で、端末内に残るデータだけで解析できるという。…",
+      "summary": "データ分析の新着が6件。はじめに AWS Community Builderのぺんぎん（@jitepengin）です。…",
       "articles": [
+        {
+          "title": "Glue REST CatalogとS3TablesのIAMとLake Formationの挙動を確かめる",
+          "link": "https://zenn.dev/penginpenguin/articles/11355eaf43c6c9",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-13T22:03:42",
+          "excerpt": "はじめに AWS Community Builderのぺんぎん（@jitepengin）です。…"
+        },
         {
           "title": "Dell製PCでBIOSパスワードが数ミリ秒で漏れる　明らかになった“設計上の弱点”",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/14/news040.html",
@@ -134,21 +141,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-13T18:26:04",
           "excerpt": "記事の URL: https://nobie.com コメント URL: https://news.ycombinator.com/item?id=48896703 ポイント: 5 コメント数: 2"
-        },
-        {
-          "title": "テレビ追跡アプリ TV Time が閉鎖される中、創設者がファンのための新しい拠点 Bingers を構築",
-          "link": "https://techcrunch.com/2026/07/13/as-tv-tracking-app-tv-time-shuts-down-its-founder-builds-bingers-a-new-home-for-fans/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-13T15:49:42",
-          "excerpt": "TV Time の作成者は、ユーザーが自分の視聴履歴をインポートし、お気に入りの番組について話し合って形成されたコミュニティを維持できる後継アプリを構築中です。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。記事の URL: https://werd.io/climate-gov-was-destroyed-open-data-saved-it/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が10件。危険な質問を拒否する「GitHub Copilot」なら安全――そんな前提に疑問を投げかける研究結果が報告された。…",
       "articles": [
+        {
+          "title": "GitHub Copilotは危険な指示を拒否しても止まらない　研究が暴いたAI安全評価の穴",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/14/news045.html",
+          "source": "@IT",
+          "published": "2026-07-13T22:30:00",
+          "excerpt": "危険な質問を拒否する「GitHub Copilot」なら安全――そんな前提に疑問を投げかける研究結果が報告された。…"
+        },
         {
           "title": "Climate.gov は破壊されました。オープンデータで保存しました",
           "link": "https://werd.io/climate-gov-was-destroyed-open-data-saved-it/",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-13T13:42:44",
           "excerpt": "はじめに 2026 年 7 月 1 日、AWS は Amazon ECS のデプロイ状況を AWS マネジメントコンソール上でリアルタイムに可視化できる新機能を発表しました。…"
-        },
-        {
-          "title": "Grok CLI はホーム ディレクトリ全体を GCS にアップロードしました",
-          "link": "https://twitter.com/i/status/2076598897779020159",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-13T13:35:32",
-          "excerpt": "記事の URL: https://twitter.com/i/status/2076598897779020159 コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS基礎スキル完全攻略：エンジニアが「これだけは」押さえるべき実践ロードマップ",
-      "link": "https://qiita.com/Maku-Inc/items/0ab6fc2e189338d11c66",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-13T22:31:46",
-      "excerpt": "AWS基礎スキル完全攻略：エンジニアが「これだけは」押さえるべき実践ロードマップ クラウド技術は、現代のITインフラを支える上で不可欠な要素となっています。…"
+      "title": "エルメスの代理店メーカー、ヌース・リサーチが評価額15億ドルで新たな資金調達交渉中",
+      "link": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-13T23:31:18",
+      "excerpt": "同社はロボット主導で、USVや他の著名な投資家からの多大な参加を得て、少なくとも7,500万ドルを調達している。"
     },
     {
-      "title": "Windowsアップデートは「3日以内」に完了へ　IT部門が工数をかけずに乗り切る方法は？",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/14/news032.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-07-13T22:00:00",
-      "excerpt": "AIの急速な発展によって脆弱性が「数時間」単位で悪用される中、MicrosoftはWindows更新プログラムを3日未満で全社展開する新基準を推奨。IT部門が工数をかけずにこれを乗り切るための対応策も提示している。"
+      "title": "Amazon FSx for OpenZFS でフェイルオーバーが発生した記録を確認する方法を教えてください",
+      "link": "https://dev.classmethod.jp/articles/tsnote-fsx-for-openzfs-how-do-i-check-the-record-that-a-failover-has-occurred-in-amazon-fsx-for-openzfs/",
+      "source": "DevelopersIO",
+      "published": "2026-07-13T23:05:54",
+      "excerpt": "Amazon FSx for OpenZFS でフェイルオーバーが発生した記録を確認する方法を教えてください"
     },
     {
-      "title": "「コーヒーを飲む時間帯」で寿命が変わる？　ベストな時間は……米大学が4万人で健康効果を調査",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/14/news028.html",
+      "title": "AIに討論させたら、自分の視野が広くなった話 | ヘッドウォータースのフィード",
+      "link": "https://zenn.dev/headwaters/articles/1fe0b386ed229d",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-13T23:00:08",
+      "excerpt": "はじめに何かを決めようとするとき、自分ひとりで考えていると視野が狭くなりがちだなと思うことがあります。「この選択、本当に正しいのかな？」という不安を抱えたまま決断してしまうことも。…"
+    },
+    {
+      "title": "空から数千機、24時間365日の攻撃──ウクライナ防空副司令官が語る”安いドローン”の脅威　島国・日本は耐えられるか",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/08/news027.html",
       "source": "ITmedia NEWS",
-      "published": "2026-07-13T22:00:00",
-      "excerpt": "米テュレーン大学と米ハーバード大学に所属する研究者らが医学誌「European Heart Journal」で発表した論文「Coffee drinking timing and mortality in US adults」は、コーヒーの飲…"
-    },
-    {
-      "title": "数回の練習が数千回分の効果にも──物事の上達スピードを決めるのは練習量より「報酬の大きさ」　マウス実験がScience誌掲載",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/14/news026.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-13T22:00:00",
-      "excerpt": "米ハワード・ヒューズ医学研究所に所属する研究者らがScience誌で発表した論文「Reward magnitude determines reinforcement learning efficiency」は、報酬の大きさが、学習速度の効率…"
+      "published": "2026-07-13T23:00:00",
+      "excerpt": "国際関係が緊張するいま、日本はドローンの特徴をどう把握し、どう対策する必要があるのか。ウクライナ軍防空副司令官のオレクサンドル・ジャン・ヴォロビヨフ氏らの見解を聞いた。"
     }
   ]
 }
