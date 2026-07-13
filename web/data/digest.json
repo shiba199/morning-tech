@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-12T23:41:33",
+  "generated_at": "2026-07-13T01:28:50",
   "window_hours": 24,
-  "total": 151,
+  "total": 158,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。今回は、私が実際に遭遇したトラブルを元にSQLを用いて回避する方法を紹介します。テーマはタイトルの通り、マスタテーブルを用いる要件ですが『履歴管理されている』という点がポイントです。簡単な事例を用いて、実務をイメージできるように進めます。…",
+      "summary": "生成AIの新着が29件。Strands Agents に新しく追加された Context Management 機能を試してみました！",
       "articles": [
+        {
+          "title": "Strands Agents の Context Management 機能を試してみた",
+          "link": "https://dev.classmethod.jp/articles/strands-agents-context-management/",
+          "source": "DevelopersIO",
+          "published": "2026-07-13T00:09:48",
+          "excerpt": "Strands Agents に新しく追加された Context Management 機能を試してみました！"
+        },
         {
           "title": "【SQL】履歴管理されているマスタの重複トラブルを回避する　第１回　※PostgreSQL対応 | Agent Grow Tech Notesのフィード",
           "link": "https://zenn.dev/agent_grow/articles/4d10d75f57885a",
@@ -29,56 +36,56 @@
           "source": "CodeZine",
           "published": "2026-07-12T23:00:00",
           "excerpt": "本連載は、生成AIを相棒にオープンソースロボット「スタックチャン」の個人開発に挑戦する入門講座です。第1回となる本記事では、組み込み開発未経験のWebエンジニアに向け、ChatGPTを活用したアイデア出しから設計までのプロセスを解説します。…"
-        },
-        {
-          "title": "日本のAIエージェント自律稼働は世界最多　でも「心理的安全性」は世界最下位",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/13/news023.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-07-12T22:00:00",
-          "excerpt": "KnowBe4の国際調査で、自律的に動くAIエージェントの業務への組み込みが世界で最も進んでいるのは日本企業ということが明らかになった。一方で、日本には活用の先進性とは異なるもう1つの「世界一」があった。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。はじめに ECSのタスク定義でSecrets Managerのシークレットを環境変数として渡そうとしたとき、こんなARNを見たことはないでしょうか？…",
+      "summary": "クラウドの新着が19件。本記事は、2025 年 6 月 11 日に Networking Content Delivery […]",
       "articles": [
         {
-          "title": "ECS × Secrets Manager：ARN末尾の『::』はどこから来るのか",
-          "link": "https://zenn.dev/kingdom0927/articles/how-to-write-secret-manager-arn",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-12T21:22:00",
-          "excerpt": "はじめに ECSのタスク定義でSecrets Managerのシークレットを環境変数として渡そうとしたとき、こんなARNを見たことはないでしょうか？…"
+          "title": "VPC Resource Gateways の実装パターンとユースケース",
+          "link": "https://aws.amazon.com/jp/blogs/news/vpc-resource-gateways-implementation-patterns-and-use-cases/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-07-13T01:25:42",
+          "excerpt": "本記事は、2025 年 6 月 11 日に Networking Content Delivery […]"
         },
         {
-          "title": "【AWS】「Server-Timing」をCloudFrontで有効化し、JavaのGC遅延をブラウザ側で可視化する",
-          "link": "https://qiita.com/usanchuu/items/1d82a978166c472d73c0",
+          "title": "【図解あり】Snowpipeとは？S3のファイルを自動で取り込む仕組みを初心者向けに解説",
+          "link": "https://qiita.com/Sho5_Matsu/items/7f6f942295350fd553d0",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-12T19:52:49",
-          "excerpt": "1.はじめに AWS Summitの出展ブース「ヘッダー1行から始める!レイテンシ改善」のデモを参考に、サーバーサイドの処理時間（メトリクス）をHTTPヘッダー経由でブラウザ側に伝達し、一元的に可視化する検証環境を構築しました。…"
+          "published": "2026-07-13T01:19:46",
+          "excerpt": "はじめに 本記事は、 「Snowflakeでデータパイプラインを構築する方法（Snowpipe・Stream・Task）」 で紹介したSnowpipeについて、より詳しく解説する記事です。データパイプラインの記事はこちらです。…"
         },
         {
-          "title": "LARP – 本格的な創業者向けの収益インフラ",
-          "link": "https://www.larp.website/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-12T16:56:41",
-          "excerpt": "記事の URL: https://www.larp.website/ コメント URL: https://news.ycombinator.com/item?id=48882569 ポイント: 17 コメント数: 1"
-        },
-        {
-          "title": "AWS ECS のサービス停止手順を整理する",
-          "link": "https://qiita.com/kkaattoo/items/eecc63aee2d0feee018e",
+          "title": "【図解あり】External Stageとは？S3連携の仕組みを初心者向けに解説",
+          "link": "https://qiita.com/Sho5_Matsu/items/7270aa7efa7077224458",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-12T14:00:43",
-          "excerpt": "はじめに 今回は、サービスのタスク数を自動で増減させるオートスケーリング（Service Auto Scaling）を整理します。そのうえで、「メンテナンスのためにサービスを一時的に停止する」手順をまとめます。…"
+          "published": "2026-07-13T01:19:18",
+          "excerpt": "はじめに 本記事は、 「Snowflakeでデータパイプラインを構築する方法（Snowpipe・Stream・Task）」 で紹介したExternal Stageについて、より詳しく解説する記事です。データパイプラインの記事はこちらです。…"
+        },
+        {
+          "title": "VPCフローログをDuckDBで分析して、0.0.0.0/0のセキュリティグループを絞ってみた",
+          "link": "https://dev.classmethod.jp/articles/202607-flowlog-duckdb-restrict-security-group/",
+          "source": "DevelopersIO",
+          "published": "2026-07-13T01:04:08",
+          "excerpt": "0.0.0.0/0 で開いたセキュリティグループを、VPCフローログに記録された実際の通信から安全に絞り込む手順を紹介します。ログはCloudShellで取得し、Athenaを使わずローカルのDuckDBで集計。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。デジタルペンテスト部の北原です。本記事では、Windows OSで稼働しているプロセス名の情報がどのように取得できるのかについて、プログラムの実装例と共に解説します。…",
+      "summary": "セキュリティの新着が17件。0.0.0.0/0 で開いたセキュリティグループを、VPCフローログに記録された実際の通信から安全に絞り込む手順を紹介します。ログはCloudShellで取得し、Athenaを使わずローカルのDuckDBで集計。…",
       "articles": [
+        {
+          "title": "VPCフローログをDuckDBで分析して、0.0.0.0/0のセキュリティグループを絞ってみた",
+          "link": "https://dev.classmethod.jp/articles/202607-flowlog-duckdb-restrict-security-group/",
+          "source": "DevelopersIO",
+          "published": "2026-07-13T01:04:08",
+          "excerpt": "0.0.0.0/0 で開いたセキュリティグループを、VPCフローログに記録された実際の通信から安全に絞り込む手順を紹介します。ログはCloudShellで取得し、Athenaを使わずローカルのDuckDBで集計。…"
+        },
         {
           "title": "Windows OSでのプロセス名 | ラック・セキュリティごった煮ブログ",
           "link": "https://devblog.lac.co.jp/entry/20260713",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-12T21:54:07",
           "excerpt": "Google CloudのShielded VMはSecure Boot、vTPM、整合性監視の3つの機能でVMをブートレベルの攻撃から保護します。ファームウェアからカーネルまでの改ざんを検知し、高セキュリティ要件に対応することができます。"
-        },
-        {
-          "title": "ECS × Secrets Manager：ARN末尾の『::』はどこから来るのか",
-          "link": "https://zenn.dev/kingdom0927/articles/how-to-write-secret-manager-arn",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-12T21:22:00",
-          "excerpt": "はじめに ECSのタスク定義でSecrets Managerのシークレットを環境変数として渡そうとしたとき、こんなARNを見たことはないでしょうか？…"
         }
       ]
     },
@@ -133,7 +133,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。GitHub Code Qualityに組織単位でのリポジトリ選択機能が追加",
+      "summary": "開発ツールの新着が13件。GitHub Code Qualityに組織単位でのリポジトリ選択機能が追加",
       "articles": [
         {
           "title": "GitHub Code Qualityに組織単位でのリポジトリ選択機能が追加",
@@ -168,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "「ゴール未達が当たり前」になったチームに、どう介入するか — 仕事終わりのスクラムマスター道場 Vol.3 参加レポート | ContractS開発者ブログ",
-      "link": "https://tech.contracts.co.jp/entry/scrum-master-dojo-vol3",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-12T23:00:00",
-      "excerpt": "スプリントゴールの未達が常態化したチームに、スクラムマスター/マネージャーとしてどう介入するか。レッドジャーニー「スクラムマスター道場 Vol.…"
+      "title": "AWS初心者が最初に覚えるべきサービス10選",
+      "link": "https://qiita.com/Sho5_Matsu/items/d5bd3794c1af52951105",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-13T01:18:57",
+      "excerpt": "はじめに AWSを勉強し始めると、200以上ものサービスがあり、 「何から覚えればいいの？」 と悩む方も多いのではないでしょうか。実は、最初からすべて覚える必要はありません。…"
     },
     {
-      "title": "App Storeの年齢レーティング質問時にソーシャルメディアに関する設問が追加",
-      "link": "https://codezine.jp/article/detail/28926",
-      "source": "CodeZine",
-      "published": "2026-07-12T23:00:00",
-      "excerpt": "App Storeの年齢レーティング質問時にソーシャルメディアに関する設問が追加"
+      "title": "【簡単AWS MLA】【初心者向け】Day 5：分類モデルの評価指標を整理する — accuracy / precision / recall",
+      "link": "https://qiita.com/MetaYuan/items/99a6863191bc8c6c8744",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-13T01:15:01",
+      "excerpt": "はじめに 前回は、分類モデル評価の基礎として Confusion Matrix（混同行列） と TP / TN / FP / FN について整理しました。…"
     },
     {
-      "title": "Googleの初心者向けAI講座を徹底レビュー　受ける価値はある？【動画あり】",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/13/news020.html",
-      "source": "@IT",
-      "published": "2026-07-12T23:00:00",
-      "excerpt": "日本リスキングコンソーシアムは2026年4月23日、「AIを学びたいけれど、何から始めていいか分からない」という悩みの解決手段として「Google AI プロフェッショナル認定証」の日本語版をリリースしました。…"
+      "title": "週刊AWS – 2026/7/6週",
+      "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260706/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-07-13T00:40:53",
+      "excerpt": "Amazon SageMaker HyperPod が Disaggregated Prefill and Decode (DPD) に対応、Amazon RDS for Oracle が Oracle Database 26ai のサポー…"
     },
     {
-      "title": "「足りないのはCOBOL人材じゃない」　日立が語る、AI時代のシステム刷新における“人”の役割",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/13/news001.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-07-12T23:00:00",
-      "excerpt": "従来は人海戦術に頼っていた領域にAIが入り込み、さまざまな課題が解消しつつある。レガシーシステムの刷新もそのうちの一つだ。…"
+      "title": "ゲームボーイが帰ってきた (サインアップなし)",
+      "link": "https://gb.omniiii.com/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-13T00:26:12",
+      "excerpt": "記事の URL: https://gb.omniiii.com/ コメント URL: https://news.ycombinator.com/item?id=48886368 ポイント: 4 コメント数: 0"
     }
   ]
 }
