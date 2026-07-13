@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-13T20:49:56",
+  "generated_at": "2026-07-13T21:43:18",
   "window_hours": 24,
-  "total": 223,
+  "total": 229,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。Appleは、元従業員がライバルのOpenAIに退職してからずっと後、Appleのネットワークから機密ファイルをダウンロードできるようにしたとされる「セキュリティ侵害」についてはコメントしなかった。",
+      "summary": "生成AIの新着が43件。Kiro IDE の最新アップデート（v1.0.116）で、エージェントがファイルを作成・編集・削除した際にもフックが発火するようになりました。これまで手動操作のみだったフック機能がどう変わったのか、実際に試して確認してみます。",
       "articles": [
+        {
+          "title": "[アップデート] Kiro IDE 1.0.116 でエージェントのファイル操作時にもフックが発火するようになりました",
+          "link": "https://dev.classmethod.jp/articles/kiro-ide-agent-fire-hooks/",
+          "source": "DevelopersIO",
+          "published": "2026-07-13T21:02:46",
+          "excerpt": "Kiro IDE の最新アップデート（v1.0.116）で、エージェントがファイルを作成・編集・削除した際にもフックが発火するようになりました。これまで手動操作のみだったフック機能がどう変わったのか、実際に試して確認してみます。"
+        },
         {
           "title": "Apple、元従業員がOpenAI退職後に「まれな」バグを悪用して機密ファイルをダウンロードしたと発表",
           "link": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
@@ -29,20 +36,13 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-13T19:59:50",
           "excerpt": "Agentic Engineering 用の MCP 主導のコントロール プレーン。Claude Desktop から計画し、Codex で実装し、カスタム トリアージ エージェントでレビューします。…"
-        },
-        {
-          "title": "Show HN: Nobie – エージェントと人間のための Excel 互換ランタイム",
-          "link": "https://nobie.com",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-13T18:26:04",
-          "excerpt": "記事の URL: https://nobie.com コメント URL: https://news.ycombinator.com/item?id=48896703 ポイント: 5 コメント数: 2"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。AIインフラを適切に動作させるには、GPUやストレージなどの物理的な基盤を整えただけでは十分ではありません。なぜミドルウェアが重要になるのか、設計においては何を考慮すべきなのかを解説します。",
+      "summary": "クラウドの新着が20件。AIインフラを適切に動作させるには、GPUやストレージなどの物理的な基盤を整えただけでは十分ではありません。なぜミドルウェアが重要になるのか、設計においては何を考慮すべきなのかを解説します。",
       "articles": [
         {
           "title": "「GPUを増やしても速くならない」　なぜAIインフラの性能はミドルウェアで変わるのか？",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。バックアップやEDRを導入していても、ランサムウェア被害で企業が最後に直面するのは技術ではなく「経営判断」です。身代金を支払うべきかどうか。その二択だけに目を向けると、本当に備えるべきことを見落としかねません。…",
+      "summary": "セキュリティの新着が18件。Article URL: https://lionshead.digital/notes/the-security-checks-in-every-lionshead-pr コメント URL: https://news.…",
       "articles": [
+        {
+          "title": "すべてのライオンズヘッド PR のセキュリティ チェック",
+          "link": "https://lionshead.digital/notes/the-security-checks-in-every-lionshead-pr",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-13T20:07:09",
+          "excerpt": "Article URL: https://lionshead.digital/notes/the-security-checks-in-every-lionshead-pr コメント URL: https://news.…"
+        },
         {
           "title": "「身代金は絶対払うな」で思考停止していない？　ランサムウェア対応の盲点",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/14/news010.html",
@@ -99,13 +106,6 @@
           "source": "AWS News Blog（英語）",
           "published": "2026-07-13T16:18:20",
           "excerpt": "AWS Builder Center は先週 1 周年を迎えました。…"
-        },
-        {
-          "title": "ニチレイ、不正アクセスでシステム障害　冷凍食品の出荷業務に影響 - 日本経済新聞",
-          "link": "https://www.nikkei.com/article/DGXZQOUC1383Z0T10C26A7000000/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-07-13T15:31:55",
-          "excerpt": "ニチレイは13日、不正アクセスによるシステム障害が発生したと発表した。冷蔵倉庫の入出庫業務や冷凍食品の出荷業務に影響が生じているといい、影響の範囲や程度を調査している。同社によると、現時点で個人情報や顧客データが"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "SalesPatriot (YC W25) はフルスタック エンジニア (SF) を募集しています",
+      "link": "https://jobs.ashbyhq.com/SalesPatriot/df223727-5781-433e-bc75-2aa5bf8dc8d7",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-13T21:01:00",
+      "excerpt": "記事の URL: https://jobs.ashbyhq.com/SalesPatriot/df223727-5781-433e-bc75-2aa5bf8dc8d7 コメント URL: https://news.ycombinator.…"
+    },
+    {
+      "title": "サティア・ナデラ氏はAIを利用する企業に衝撃的な警告を発した",
+      "link": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-13T20:59:00",
+      "excerpt": "AI の潜在的なマイナス面について激化するすべての議論の中で、シリコンバレーの AI 愛好家の間で最も頭を悩ませている懸念が 1 つあります。…"
+    },
+    {
+      "title": "ウクライナの無人機攻撃でロシアは重要な海回廊での輸送を停止せざるを得なくなった",
+      "link": "https://arstechnica.com/gadgets/2026/07/ukrainian-drone-strikes-forced-russia-to-stop-shipping-in-vital-sea-corridor/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-13T20:41:26",
+      "excerpt": "ウクライナの無人機爆撃により、ロシアのアゾフ海の輸送は1週間以内に停止した。"
+    },
+    {
       "title": "Excel の競争が激化し、スプレッドシートのマニアが街頭から競争するようになる",
       "link": "https://www.theregister.com/offbeat/2026/07/13/excel-competition-goes-extreme-makes-spreadsheet-geeks-compete-from-the-street/5270709",
       "source": "The Register（英語）",
       "published": "2026-07-13T20:18:09",
       "excerpt": "ディルムッド・アーリー、屋外でパズルを解かなければならなかったにも関わらず、前回世界チャンピオンのディルムッド・アーリーが再び勝利"
-    },
-    {
-      "title": "Show HN: YouTube ギタータブパーサー",
-      "link": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-13T20:13:14",
-      "excerpt": "YouTube のギター レッスン ビデオをギター タブの PDF に変換するシンプルな CLI を作成しました。Youtube ビデオから音楽をタブに転写するサービスはありますが、私にとっては十分に機能しません。…"
-    },
-    {
-      "title": "Show HN: SQL でニューラル ネットワークを実装しました",
-      "link": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-13T20:00:10",
-      "excerpt": "Two weeks ago I was on my babymoon in Corfu, Greece.…"
-    },
-    {
-      "title": "Telegram の t.me ドメインが停止されました",
-      "link": "https://www.whois.com/whois/t.me",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-13T19:52:25",
-      "excerpt": "記事の URL: https://www.whois.com/whois/t.me コメント URL: https://news.ycombinator.com/item?id=48897878 ポイント: 54 コメント数: 36"
     }
   ]
 }
