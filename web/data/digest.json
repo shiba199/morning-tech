@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-14T01:18:26",
+  "generated_at": "2026-07-14T04:21:20",
   "window_hours": 24,
-  "total": 250,
+  "total": 254,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が51件。Claude CoworkはVMサンドボックス環境で実行されるので、セキュリティモデルがClaude Codeとは大きく異なる話",
+      "summary": "生成AIの新着が54件。Kiro で OpenAI GPT-5.6 Sol / Terra / Luna が選択できるようになりました。Claude など従来モデルとあわせて利用できます。今回は GPT-5.…",
       "articles": [
         {
-          "title": "Claude Coworkのコードは隔離されたVMの中で動くから、ホスト環境を汚さない",
-          "link": "https://dev.classmethod.jp/articles/claude-cowork-runs-on-vm/",
+          "title": "Kiro で OpenAI GPT-5.6 Sol / Terra / Luna がサポートされたので試してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-openai-gpt56-sol-terra-luna-support/",
           "source": "DevelopersIO",
-          "published": "2026-07-14T00:39:16",
-          "excerpt": "Claude CoworkはVMサンドボックス環境で実行されるので、セキュリティモデルがClaude Codeとは大きく異なる話"
+          "published": "2026-07-14T03:17:28",
+          "excerpt": "Kiro で OpenAI GPT-5.6 Sol / Terra / Luna が選択できるようになりました。Claude など従来モデルとあわせて利用できます。今回は GPT-5.…"
         },
         {
-          "title": "企業向けAIエージェントシステムのベンチマーク指標「Enterprise Bench」が発表　データベースにおけるTPCベンチマークのような存在を目指す",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/14/news062.html",
-          "source": "@IT",
-          "published": "2026-07-13T23:30:00",
-          "excerpt": "AIエージェントシステムのベンチマーク「Enterprise Bench」を、米DevRevがオープンソースとして公開した。非営利法人とともに開発したもので、企業の複雑な環境における動作の正確さや安全性、トークン消費の効率性を評価する。"
-        },
-        {
-          "title": "生成AIに「どっちが賢いか」勝負を挑んだら、突くつもりだった弱点が全部塞がれていた",
-          "link": "https://qiita.com/wasyokusatoshi/items/9a5ac7fc7f46521510b9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-13T23:12:07",
-          "excerpt": "はじめに 2026年4月8日、大阪駆動開発さん主催のオンラインイベント「AIミーティング(#AIMTG)」でLT登壇してきました。…"
-        },
-        {
-          "title": "Amazon Bedrock AgentCore Managed Harness で作ったAIエージェントを、AWSアカウントを使用しないユーザーに配布できるチャットアプリテンプレートを作ってみた",
-          "link": "https://dev.classmethod.jp/articles/agentcore-harness-chat-template/",
+          "title": "Claude Code v2.1.208 の主要アップデート - Claude Fable 5 へのアクセスが7月19日まで再延長",
+          "link": "https://dev.classmethod.jp/articles/20260714-cc-updates-v2-1-208/",
           "source": "DevelopersIO",
-          "published": "2026-07-13T23:05:59",
-          "excerpt": "Amazon Bedrock AgentCore Harnessをコンソール操作だけで作ったエージェントを、AWS アカウントがない利用者にもブラウザで使ってもらう方法を紹介します！"
+          "published": "2026-07-14T03:10:58",
+          "excerpt": "Claude Code v2.1.208がリリースされました。スクリーンリーダー対応の新機能に加え、長時間セッションのメモリ最適化と30件超の不具合修正を中心とした安定性向上のアップデートを紹介します。"
+        },
+        {
+          "title": "1時間50円級GPUで日本語RAGはどこまで動くのか？A4000 16GBでgpt-oss 20Bを試した | HEROZ Tech Blog",
+          "link": "https://techblog.heroz.jp/entry/2026/07/14/120000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-14T03:00:00",
+          "excerpt": "1時間50円級のA4000 16GB環境で、日本語RAG用OSS LLMを比較しました。今回の条件では gpt-oss 20B が精度・速度・日本語遵守・リトライ回数のバランスに優れ、まず試す候補に見えました。"
+        },
+        {
+          "title": "Agents.md – 愚かな人間",
+          "link": "https://gist.github.com/skorotkiewicz/2d4db4ceaf83aa54eb7f2066fdb961ff",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-14T02:47:54",
+          "excerpt": "記事の URL: https://gist.github.com/skorotkiewicz/2d4db4ceaf83aa54eb7f2066fdb961ff コメント URL: https://news.ycombinator.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が24件。Amazon ECSマネージドインスタンス、GPU管理料金を最大60％引き下げ",
+      "summary": "クラウドの新着が20件。Amazon EKS自動モード、GPU管理手数料が最大60％引き下げ",
       "articles": [
+        {
+          "title": "Amazon EKS自動モード、GPU管理手数料が最大60％引き下げ",
+          "link": "https://codezine.jp/article/detail/28942",
+          "source": "CodeZine",
+          "published": "2026-07-14T02:30:00",
+          "excerpt": "Amazon EKS自動モード、GPU管理手数料が最大60％引き下げ"
+        },
+        {
+          "title": "PR： 【専門家に聞く】AI主導の「エージェント型クラウド移行」とは？　4つのビジネス成果",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/14/news009.html",
+          "source": "@IT",
+          "published": "2026-07-14T01:00:00",
+          "excerpt": "生成AIのビジネス活用が加速する一方で、既存のITインフラがAI技術を想定しておらず、課題が表面化しています。…"
+        },
         {
           "title": "Amazon ECSマネージドインスタンス、GPU管理料金を最大60％引き下げ",
           "link": "https://codezine.jp/article/detail/28940",
@@ -57,28 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-13T22:59:11",
           "excerpt": "AWS S3上に大量のログがあり、Amazon Athenaで検索・分析している環境に対して、Oracle Autonomous Database / Autonomous AI Lakehouseを使ってさらに AI分析できないか、という…"
-        },
-        {
-          "title": "【AWS費用削減】RDSのそのストレージタイプ、実は無駄に費用を食っているかもしれない",
-          "link": "https://zenn.dev/mosayan/articles/54c45ae18337dc",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-13T22:55:05",
-          "excerpt": "はじめに 自社ではメインのWEBサービスや社内業務改善の仕組みなどにAWSを使用しています。…"
-        },
-        {
-          "title": "VPC入門 — EC2とRDSを安全に配置するネットワーク設計",
-          "link": "https://qiita.com/hitobussi/items/5b0b629d33ec40632513",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-13T22:06:06",
-          "excerpt": "VPC入門 — EC2とRDSを安全に配置するネットワーク設計 はじめに VPC（Virtual Private Cloud）はAWS上に作る仮想ネットワークです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。VS Code拡張をGitHub Actionsから自動公開する際の公開先選定（Marketplace/Open VSX/npm）、認証方式の比較、2026年末のPAT廃止問題、npm Trusted Publishingによるトークンレス…",
+      "summary": "セキュリティの新着が18件。はじめに こんにちは。Tsukasaです！先日WAF、セキュリティグループ、NACLの違いについてタワマンで例えましたが、WAFと一番比較されるのが、AWS Shieldではないでしょうか。…",
       "articles": [
+        {
+          "title": "AWS初心者がWAF vs AWS Shieldの違いについてまとめてみた話",
+          "link": "https://qiita.com/tks_1128/items/0c84bfb48f4e168916b3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-14T03:32:23",
+          "excerpt": "はじめに こんにちは。Tsukasaです！先日WAF、セキュリティグループ、NACLの違いについてタワマンで例えましたが、WAFと一番比較されるのが、AWS Shieldではないでしょうか。…"
+        },
+        {
+          "title": "マネフォ上方修正、売上最大623億円に　GitHub不正アクセス影響は「限定的」",
+          "link": "https://www.itmedia.co.jp/news/articles/2607/14/news070.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-07-14T02:11:00",
+          "excerpt": "不正アクセス関連の補償で最大1.5億円の売上影響を見込むが「好調な売上高とコストコントロールにより、通期予想への影響は限定的」。"
+        },
         {
           "title": "VS Code拡張をCIから公開しようとしたら、認証まわりが2026年時点で思ったより深かった話",
           "link": "https://dev.classmethod.jp/articles/publish-vscode-extension-ci-marketplace-openvsx-npm/",
@@ -92,28 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-14T00:30:28",
           "excerpt": "Security Hub CSPM の CIS AWS Foundations Benchmark を v1.2.0 から v5.0.0 へ切り替えてみました。既存環境への影響なく切り替えできます。切替時の注意点もまとめました。"
-        },
-        {
-          "title": "Glue REST CatalogとS3TablesのIAMとLake Formationの挙動を確かめる",
-          "link": "https://zenn.dev/penginpenguin/articles/11355eaf43c6c9",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-13T22:03:42",
-          "excerpt": "はじめに AWS Community Builderのぺんぎん（@jitepengin）です。…"
-        },
-        {
-          "title": "多要素認証も飛び越えるフィッシング　iOS 27の\"新たな防波堤\"",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/14/news043.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-07-13T22:00:00",
-          "excerpt": "利用者自身に操作をさせて多要素認証をすり抜けるフィッシングが猛威を振るっている。こうした中、Appleが2026年秋公開予定の「iOS 27」で、人の心理を突く攻撃に対抗する新たな仕組みを用意していることが分かった。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。はじめに AWS Community Builderのぺんぎん（@jitepengin）です。…",
+      "summary": "データ分析の新着が6件。みなさまこんにちは！エアークローゼットでCTOをしている辻です。設計編では、アプリケーション / インフラ / CI / LLMの4軸を、それぞれの問いの性質に合わせて別々の形でObservableにする話を書きました。…",
       "articles": [
+        {
+          "title": "AI時代のObservability設計 - PIIとAIの検索性を両立させ、自動修復する（実践編）",
+          "link": "https://zenn.dev/aircloset/articles/3b8e60fcaab4b7",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-07-14T00:27:13",
+          "excerpt": "みなさまこんにちは！エアークローゼットでCTOをしている辻です。設計編では、アプリケーション / インフラ / CI / LLMの4軸を、それぞれの問いの性質に合わせて別々の形でObservableにする話を書きました。…"
+        },
         {
           "title": "Glue REST CatalogとS3TablesのIAMとLake Formationの挙動を確かめる",
           "link": "https://zenn.dev/penginpenguin/articles/11355eaf43c6c9",
@@ -134,21 +141,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-13T18:33:47",
           "excerpt": "Article URL: https://blog.thunderbird.net/2026/07/desktopsettings/ Comments URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Show HN: Nobie – エージェントと人間のための Excel 互換ランタイム",
-          "link": "https://nobie.com",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-13T18:26:04",
-          "excerpt": "記事の URL: https://nobie.com コメント URL: https://news.ycombinator.com/item?id=48896703 ポイント: 5 コメント数: 2"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。危険な質問を拒否する「GitHub Copilot」なら安全――そんな前提に疑問を投げかける研究結果が報告された。…",
+      "summary": "開発ツールの新着が11件。git pushしたら、本番に反映される。それだけのことを実現するために、かなりの時間を使った。この記事では、Next.…",
       "articles": [
+        {
+          "title": "介護士がTerraform + GitHub Actions + OIDCでブログのCI/CDを構築した話",
+          "link": "https://qiita.com/yuki_engineer08/items/76497656d981d7b8a7c3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-14T03:18:14",
+          "excerpt": "git pushしたら、本番に反映される。それだけのことを実現するために、かなりの時間を使った。この記事では、Next.…"
+        },
+        {
+          "title": "マネフォ上方修正、売上最大623億円に　GitHub不正アクセス影響は「限定的」",
+          "link": "https://www.itmedia.co.jp/news/articles/2607/14/news070.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-07-14T02:11:00",
+          "excerpt": "不正アクセス関連の補償で最大1.5億円の売上影響を見込むが「好調な売上高とコストコントロールにより、通期予想への影響は限定的」。"
+        },
         {
           "title": "GitHub Copilotは危険な指示を拒否しても止まらない　研究が暴いたAI安全評価の穴",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/14/news045.html",
@@ -162,52 +176,38 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-13T19:57:55",
           "excerpt": "記事の URL: https://werd.io/climate-gov-was-destroyed-open-data-saved-it/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "サービスクォータの新機能「Kiro の超過利用上限」を CLI で確認、変更してみた",
-          "link": "https://dev.classmethod.jp/articles/kiro-service-quotas-overage-cap/",
-          "source": "DevelopersIO",
-          "published": "2026-07-13T14:28:04",
-          "excerpt": "Kiro のエンタープライズ（IAM Identity Center経由）利用時、AWS Service Quotas で超過利用（overage）の上限が自動設定されるようになりました。…"
-        },
-        {
-          "title": "Amazon ECS が AWS マネジメントコンソールでリアルタイムのデプロイオブザーバビリティを提供開始",
-          "link": "https://qiita.com/Haruki-N/items/e2e3e7429fb948f7ee66",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-13T13:42:44",
-          "excerpt": "はじめに 2026 年 7 月 1 日、AWS は Amazon ECS のデプロイ状況を AWS マネジメントコンソール上でリアルタイムに可視化できる新機能を発表しました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "pnpm/action-setup@v6で「Cannot use 'in' operator」エラーが出たときの対処法",
-      "link": "https://dev.classmethod.jp/articles/pnpm-action-setup-v6-self-installer-crash-fix/",
-      "source": "DevelopersIO",
-      "published": "2026-07-14T00:57:10",
-      "excerpt": "GitHub Actionsでpnpm/action-setup@v6を使用中に「Cannot use 'in' operator」エラーが発生。…"
+      "title": "Microsoft版Go言語のver.1.26.5が公開",
+      "link": "https://codezine.jp/article/detail/28943",
+      "source": "CodeZine",
+      "published": "2026-07-14T04:00:00",
+      "excerpt": "Microsoft版Go言語のver.1.26.5が公開"
     },
     {
-      "title": "AWS User Notifications の通知パターンについてまとめてみた",
-      "link": "https://dev.classmethod.jp/articles/aws-user-notifications-aggregation-deduplication-multi-account/",
-      "source": "DevelopersIO",
-      "published": "2026-07-14T00:57:02",
-      "excerpt": "AWS User Notifications の集約と重複排除の仕組みを、マルチアカウント環境での具体例を交えて整理します。AWS管理通知とユーザー設定通知で異なる挙動を、図表を用いて詳しく解説しました。"
+      "title": "はじめまして！AWSの学習記録を始めます",
+      "link": "https://qiita.com/aoi-tech/items/a06f9532328d00b739cd",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-14T03:54:34",
+      "excerpt": "はじめまして、あおい@AWS勉強中です。AWSの学習を始めたので、アウトプットを兼ねてQiitaを始めました。このアカウントでは、主に以下の内容を発信していきます。…"
     },
     {
-      "title": "ホテル、ロボタクシー、そして同社が「すべての人のためのすべて」になりたくない理由についてウーバーのプロダクト責任者が語る",
-      "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-14T00:45:00",
-      "excerpt": "Uber の最高製品責任者である Sachin Kansal 氏が TechCrunch に同社の金融サービスへの野望、ますます複雑化する Waymo との関係、新しい AV Labs のデータ運用、そして乗客やドライバーが実際に気づく方法…"
+      "title": "ATM出金上限を200万円→50万円に　auじぶん銀　初期設定も30万円に引き下げ",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/14/news075.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-14T03:25:00",
+      "excerpt": "auじぶん銀行は7月13日、ATM出金限度額の上限を現在の200万円から50万円に引き下げると発表した。適用は9月13日からで、口座開設時の初期設定額も50万円から30万円に引き下げる。"
     },
     {
-      "title": "SFFA 対ハーバード大学では、入学に関して何が明らかになりましたか?",
-      "link": "https://sorting-machine.pages.dev/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-14T00:26:43",
-      "excerpt": "記事の URL: https://sorting-machine.pages.dev/ コメント URL: https://news.ycombinator.com/item?id=48900796 ポイント: 5 コメント数: 0"
+      "title": "AWSの名前も知らなかった介護士がAWS SAAに一発合格するまで",
+      "link": "https://qiita.com/yuki_engineer08/items/d3d931b10971715bce25",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-14T03:18:10",
+      "excerpt": "2026年3月。子どもが生まれ、育休に入った。普通なら子育てに全振りして終わる期間だと思う。でも正直、このまま介護士として定年まで働く未来が想像できなかった。介護の仕事は嫌いじゃない。利用者さんと話すのも好きだし、感謝されることもある。…"
     }
   ]
 }
