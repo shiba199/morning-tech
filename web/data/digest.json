@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-07-14T06:34:26",
+  "generated_at": "2026-07-14T08:58:25",
   "window_hours": 24,
-  "total": 265,
+  "total": 273,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が56件。トークンの消費だけですべてがわかるわけではありませんが、無視すべきではありません",
+      "summary": "生成AIの新着が55件。組織再編にともなう引き継ぎ資料作成の負担を、Claude Coworkのコネクタ機能で劇的に減らしてみました。…",
       "articles": [
         {
-          "title": "Anthropic の贅沢なトークナイザーにより AI の価格設定が複雑になる",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/14/anthropics-extravagant-tokenizer-complicates-ai-pricing/5270792",
-          "source": "The Register（英語）",
-          "published": "2026-07-14T06:28:00",
-          "excerpt": "トークンの消費だけですべてがわかるわけではありませんが、無視すべきではありません"
-        },
-        {
-          "title": "Claude Enterprise のチャットと Cowork で使えるスキルの共有手順と「組織と共有」切り替え時の挙動を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/claude-enterprise-skill-sharing-behavior/",
+          "title": "【非エンジニアのためのClaude/ClaudeCodeシリーズ】期首の組織再編で一斉に発生した営業引き継ぎ、CoworkにHubSpot・Slack・Gmailを横断させて資料作成を任せてみた",
+          "link": "https://dev.classmethod.jp/articles/claude-cowork-skill-handover-sheet/",
           "source": "DevelopersIO",
-          "published": "2026-07-14T05:38:06",
-          "excerpt": "Claude Enterpriseでメンバーが作成したスキルを組織全体に公開する機能について、実際に動作を検証しました。ワンクリック公開の仕組みから、管理者による統制方法まで、詳しくご紹介します。"
+          "published": "2026-07-14T08:40:20",
+          "excerpt": "組織再編にともなう引き継ぎ資料作成の負担を、Claude Coworkのコネクタ機能で劇的に減らしてみました。…"
         },
         {
-          "title": "株式会社村田製作所様の AWS 生成 AI 活用事例 : 3 万人利用の「Murata Coworker」を AI エージェント活用基盤へ進化させるまで",
-          "link": "https://aws.amazon.com/jp/blogs/news/genai-case-study-murata-coworker-agent-platform/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-14T05:15:41",
-          "excerpt": "みなさん、こんにちは。AWS ソリューションアーキテクトの池田です。AI エージェントの活用に取り組む企業が […]…"
+          "title": "上半期「情報サービス業」過去10年で最多　生成AIやノーコード普及が零細に逆風",
+          "link": "https://www.itmedia.co.jp/news/articles/2607/14/news104.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-07-14T08:06:00",
+          "excerpt": "ノーコード・ローコードツールや生成AIの普及で簡易な開発・制作業務の内製化が進み、価格競争に頼っていた小・零細規模の事業者が行き詰まっているという。"
         },
         {
-          "title": "AIエージェントが自分でお金を払う時代の“配管” ── x402決済プロトコルの仕組みと実装 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-          "link": "https://recruit.group.gmo/engineer/jisedai/blog/x402/",
+          "title": "Microsoft Foundry における OpenAI モデル と Claude モデル のデータの扱い - Azure を活用したコーディングエージェント基盤 連載第2回 | JBS Tech Blog",
+          "link": "https://blog.jbs.co.jp/entry/2026/07/14/165738",
           "source": "企業テックブログまとめ",
-          "published": "2026-07-14T05:03:46",
-          "excerpt": "こんにちは、グループ研究開発本部 AI研究開発室のK.S.です。…"
+          "published": "2026-07-14T07:57:38",
+          "excerpt": "Microsoft Foundry で、OpenAIモデルとClaudeモデルを利用する際のデータの扱いの違いを解説。生成AI基盤の利用を判断するうえで必須の知識です。"
+        },
+        {
+          "title": "【Nishika 論文サク読み 第16回】LLMデコーダーは公平に聞いているか？鍵はLLMの規模より音声エンコーダの圧縮度 | Nishika Tech Blogのフィード",
+          "link": "https://zenn.dev/team_nishika/articles/bf9d2f883e79aa",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-14T07:10:57",
+          "excerpt": "こんにちは。Nishika AIエンジニアの松田です。WhisperからLLMデコーダ型へとASRのアーキテクチャが世代交代しつつあり、その品質特性が業務でも気になるところなので、関連する論文をpickしてみました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。結論から aws ecs update-service --force-new-deploymentは 現在サービスに設定されているタスク定義リビジョンをそのまま再デプロイ するコマンドである。…",
+      "summary": "クラウドの新着が22件。はじめに 前回のシリーズ（全3部）では、KiroのVibeモードとSpecモードを使ってCloudFormationの品質を検証しました。…",
       "articles": [
+        {
+          "title": "【インフラエンジニアのKiro活用】Well-Architected Skillsを入れてみた——SKILLは魔法の杖ではなく、レビューサイクルの武器だった（続編）",
+          "link": "https://qiita.com/REALKTMR/items/ed72d9cc0b43dfddd827",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-14T08:47:49",
+          "excerpt": "はじめに 前回のシリーズ（全3部）では、KiroのVibeモードとSpecモードを使ってCloudFormationの品質を検証しました。…"
+        },
+        {
+          "title": "【AWS×Terraform】Git-flow（Issue / PR）でインフラを拡張してみた",
+          "link": "https://qiita.com/kawakami0429/items/2a169e78f0db28e95fb2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-14T07:37:41",
+          "excerpt": "はじめに インフラエンジニアを目指してAWSとTerraform（IaC）を勉強しています。…"
+        },
+        {
+          "title": "AWS CDKを初めて触ってみた（ALB+EC2+RDS構成）",
+          "link": "https://qiita.com/puchanko/items/bcdff677e234a30f7cf2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-14T06:39:59",
+          "excerpt": "CDKでアプリ作成 0.はじめに この記事ではAWS CDKを初めて触ってみた私が実際に書いたコードをつらつら書いて、それに対して思ったことを書いたり書かなかったりする私的な内容です。…"
+        },
         {
           "title": "ECSのforce-new-deploymentを勘違いしていた話",
           "link": "https://qiita.com/TOMJericho/items/ae5907e3f0153088f349",
           "source": "Qiita AWSタグ",
           "published": "2026-07-14T06:26:22",
           "excerpt": "結論から aws ecs update-service --force-new-deploymentは 現在サービスに設定されているタスク定義リビジョンをそのまま再デプロイ するコマンドである。…"
-        },
-        {
-          "title": "Amazon EMR Serverless、大規模ワーカー構成をサポート開始",
-          "link": "https://codezine.jp/article/detail/28944",
-          "source": "CodeZine",
-          "published": "2026-07-14T05:30:00",
-          "excerpt": "Amazon EMR Serverless、大規模ワーカー構成をサポート開始"
-        },
-        {
-          "title": "KubeBlocksでMySQLを導入！Kubernetes上でのDB構築を体験 | SIOS Tech Lab",
-          "link": "https://tech-lab.sios.jp/archives/53243",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-14T04:46:11",
-          "excerpt": "はじめに こちらの記事で実際にKubernetes環境にKubeBlocksを導入し、DBaaSの基盤を構築しました。今回は、作成したDBaaS基盤の上に実際にMySQLクラスターを構築していきます。導入環境構成図 ...…"
-        },
-        {
-          "title": "EC2 に mac-m3ultra.metal インスタンスが追加されたので Pricing API でスペックと料金を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/ec2-mac-m3ultra-metal-pricing-api/",
-          "source": "DevelopersIO",
-          "published": "2026-07-14T04:28:41",
-          "excerpt": "EC2 に Apple M3 Ultra 搭載の mac-m3ultra.metal が追加されました。vCPU・メモリとも現行 Mac インスタンス最大の構成です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。従来の「セキュリティ部門がスキャンし、IT運用部門がパッチを当てる」という分断されたプロセスでは、急速に進化するサイバー脅威のスピードに追いつかない。…",
+      "summary": "セキュリティの新着が17件。従来の「セキュリティ部門がスキャンし、IT運用部門がパッチを当てる」という分断されたプロセスでは、急速に進化するサイバー脅威のスピードに追いつかない。…",
       "articles": [
         {
           "title": "EDRだけでは防げない　端末の脆弱性管理はなぜセキュリティ部門ではなくIT運用部門が主導すべきなのか",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が9件。Amazon EMR Serverless、大規模ワーカー構成をサポート開始",
+      "summary": "データ分析の新着が10件。Amazon EMR Serverless、大規模ワーカー構成をサポート開始",
       "articles": [
         {
           "title": "Amazon EMR Serverless、大規模ワーカー構成をサポート開始",
@@ -120,6 +120,13 @@
           "source": "CodeZine",
           "published": "2026-07-14T05:30:00",
           "excerpt": "Amazon EMR Serverless、大規模ワーカー構成をサポート開始"
+        },
+        {
+          "title": "Big Blue は再び POWER タワーで小さく考えます",
+          "link": "https://www.theregister.com/systems/2026/07/14/big-blue-thinks-small-again-with-power-tower/5270851",
+          "source": "The Register（英語）",
+          "published": "2026-07-14T05:01:17",
+          "excerpt": "最後の独自仕様のミニコンピューター、ご希望であれば「デスクサイド」形式になりました"
         },
         {
           "title": "Big Blue は 2U POWER タワーで再び小さく考える",
@@ -134,80 +141,73 @@
           "source": "The Register（英語）",
           "published": "2026-07-14T01:00:00",
           "excerpt": "パートナーコンテンツ: エンビジョンは、その逆ではなく、コンピューティングが豊富な砂漠の電力を追い求めることで、データセンターの戦略をどのように逆転させているか"
-        },
-        {
-          "title": "AI時代のObservability設計 - PIIとAIの検索性を両立させ、自動修復する（実践編）",
-          "link": "https://zenn.dev/aircloset/articles/3b8e60fcaab4b7",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-07-14T00:27:13",
-          "excerpt": "みなさまこんにちは！エアークローゼットでCTOをしている辻です。設計編では、アプリケーション / インフラ / CI / LLMの4軸を、それぞれの問いの性質に合わせて別々の形でObservableにする話を書きました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。結論から aws ecs update-service --force-new-deploymentは 現在サービスに設定されているタスク定義リビジョンをそのまま再デプロイ するコマンドである。…",
+      "summary": "開発ツールの新着が17件。GitHubはエンジニア向けのツールだと思い込んでいましたが、実際に触ってみるとタスク管理やレビュー依頼など、チーム全体で活用できる機能が満載でした。今回、初心者目線でGitHubを使ってみて感じたことをお話しします。",
       "articles": [
         {
-          "title": "ECSのforce-new-deploymentを勘違いしていた話",
-          "link": "https://qiita.com/TOMJericho/items/ae5907e3f0153088f349",
+          "title": "GitHub初心者の非エンジニアが、GitHubでIssue管理・PRレビュー依頼をやってみた",
+          "link": "https://dev.classmethod.jp/articles/github-first-try-non-engineer/",
+          "source": "DevelopersIO",
+          "published": "2026-07-14T08:32:08",
+          "excerpt": "GitHubはエンジニア向けのツールだと思い込んでいましたが、実際に触ってみるとタスク管理やレビュー依頼など、チーム全体で活用できる機能が満載でした。今回、初心者目線でGitHubを使ってみて感じたことをお話しします。"
+        },
+        {
+          "title": "Microsoft Foundry における OpenAI モデル と Claude モデル のデータの扱い - Azure を活用したコーディングエージェント基盤 連載第2回 | JBS Tech Blog",
+          "link": "https://blog.jbs.co.jp/entry/2026/07/14/165738",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-14T07:57:38",
+          "excerpt": "Microsoft Foundry で、OpenAIモデルとClaudeモデルを利用する際のデータの扱いの違いを解説。生成AI基盤の利用を判断するうえで必須の知識です。"
+        },
+        {
+          "title": "【AWS×Terraform】Git-flow（Issue / PR）でインフラを拡張してみた",
+          "link": "https://qiita.com/kawakami0429/items/2a169e78f0db28e95fb2",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-14T06:26:22",
-          "excerpt": "結論から aws ecs update-service --force-new-deploymentは 現在サービスに設定されているタスク定義リビジョンをそのまま再デプロイ するコマンドである。…"
+          "published": "2026-07-14T07:37:41",
+          "excerpt": "はじめに インフラエンジニアを目指してAWSとTerraform（IaC）を勉強しています。…"
         },
         {
-          "title": "GitHub社、2026年に向けたよりグローバルでAI課題に直面するオープンソースエコシステムを提示",
-          "link": "https://www.infoq.com/jp/news/2026/07/github-ai-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-07-14T04:30:00",
-          "excerpt": "GitHub社は、オープンソースのトレンドに関する年次レポートを発表した。Octoverse 2025レポートのデータを活用し、オープンソースコミュニティが来年に備えるために分析した内容である。…"
-        },
-        {
-          "title": "Terraform Actionsってなに？初学者向けにざっくり紹介",
-          "link": "https://zenn.dev/osakayakyu/articles/53c3731c9d1bb1",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-14T04:17:19",
-          "excerpt": "Terraform Actionsとは Terraform 1.14 で正式に入った、比較的新しい機能です。…"
-        },
-        {
-          "title": "介護士がTerraform + GitHub Actions + OIDCでブログのCI/CDを構築した話",
-          "link": "https://qiita.com/yuki_engineer08/items/76497656d981d7b8a7c3",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-14T03:18:14",
-          "excerpt": "git pushしたら、本番に反映される。それだけのことを実現するために、かなりの時間を使った。この記事では、Next.…"
+          "title": "GitHub、シークレットスキャン検出タイプの名称を刷新",
+          "link": "https://codezine.jp/article/detail/28935",
+          "source": "CodeZine",
+          "published": "2026-07-14T07:00:00",
+          "excerpt": "GitHub、シークレットスキャン検出タイプの名称を刷新"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AD、LDAP、OpenLDAP、Entra ID はどのように機能しますか?",
-      "link": "https://dev.classmethod.jp/articles/jw-ad-ldap-openldap-entra-id/",
+      "title": "CloudWatch Pipelines の AI アシスト設定はどこまで使える？生成された Grok 設定を実機で採点してみた",
+      "link": "https://dev.classmethod.jp/articles/verify-cloudwatch-pipelines-ai-assisted-grok/",
       "source": "DevelopersIO",
-      "published": "2026-07-14T06:18:02",
-      "excerpt": "AD、LDAP、OpenLDAP、Entra ID がサポートされています。"
+      "published": "2026-07-14T08:53:51",
+      "excerpt": "CloudWatch Pipelines の AI アシスト設定（自然言語からの Grok・プロセッサー生成）を、複雑度の異なる3レベルのログで検証しました。…"
     },
     {
-      "title": "Slurm 잡 실행 시 IO 타임아웃 발생 및 해결",
-      "link": "https://dev.classmethod.jp/articles/jw-slurm-io-timeout-fix/",
-      "source": "DevelopersIO",
-      "published": "2026-07-14T05:13:53",
-      "excerpt": "Slurm 잡 실행 시 IO 타임아웃 발생 및 해결 방법에 대해 정리해 봤습니다."
+      "title": "閣僚、16歳未満のソーシャルメディア禁止に武器を与える、今年最も驚くべき調査ではない",
+      "link": "https://www.theregister.com/personal-tech/2026/07/14/ministers-arm-under-16s-social-media-ban-with-least-surprising-study-of-the-year/5270924",
+      "source": "The Register（英語）",
+      "published": "2026-07-14T08:30:00",
+      "excerpt": "ボフィンズ氏は認める：十代の若者たちの携帯電話を取り上げると、彼らは再び人間のように行動するようになる"
     },
     {
-      "title": "AWS初学：AWSにLinuxサーバを構築して自宅からSSHでアクセスする(2/2) | とらくら エンジニアブログ | クラウド(AWS)に特化したオンライン・エンジニアリングスクール｜とらくら",
-      "link": "https://tracl.cloud/archives/engineerblog/awslinuxssh2",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-14T04:54:55",
-      "excerpt": "この回では、インターネットゲートウェイやルートテーブル、セキュリティグループを利用して、 自宅からAWS上のLinuxにSSH接続する環境を設定します。セキュリティグループについては、未設定と設定後でのSSH接続の状態 […]…"
+      "title": "Nvidia 以外のハードウェアで CUDA を実行する代替手段",
+      "link": "https://www.hpcwire.com/2026/07/09/spectral-compute-aims-to-set-cuda-free-will-it-succeed/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-14T08:24:49",
+      "excerpt": "記事の URL: https://www.hpcwire.…"
     },
     {
-      "title": "AWS初学：AWSにLinuxを構築して自宅からSSHでアクセスする(1/2) | とらくら エンジニアブログ | クラウド(AWS)に特化したオンライン・エンジニアリングスクール｜とらくら",
-      "link": "https://tracl.cloud/archives/engineerblog/awslinuxssh1",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-14T04:54:41",
-      "excerpt": "こんにちは。今回、 AWSにLinux(EC2インスタンス)を構築して自宅からのみSSH接続する環境 の設定を2回に分けて行ってみます。たいへん基本的な構成で下図のイメージとなります。AWS設定を下記のように行いま […]…"
+      "title": "ピカピカの一円玉流通へ、11年ぶり量産　キャッシュレス化で減少も、“アレ”でまさかの需要増",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/14/news105.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-14T08:14:00",
+      "excerpt": "造幣局（大阪市）がXやYouTubeで「平成27年度以来、11年ぶりに1円の量産を行っています」として、一円硬貨の製造工程の動画を配信した。2026年度、1億3200万枚が製造される。"
     }
   ]
 }
