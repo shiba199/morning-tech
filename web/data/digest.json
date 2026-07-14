@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-13T23:41:57",
+  "generated_at": "2026-07-14T01:18:26",
   "window_hours": 24,
-  "total": 242,
+  "total": 250,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が50件。はじめに 2026年4月8日、大阪駆動開発さん主催のオンラインイベント「AIミーティング(#AIMTG)」でLT登壇してきました。…",
+      "summary": "生成AIの新着が51件。Claude CoworkはVMサンドボックス環境で実行されるので、セキュリティモデルがClaude Codeとは大きく異なる話",
       "articles": [
+        {
+          "title": "Claude Coworkのコードは隔離されたVMの中で動くから、ホスト環境を汚さない",
+          "link": "https://dev.classmethod.jp/articles/claude-cowork-runs-on-vm/",
+          "source": "DevelopersIO",
+          "published": "2026-07-14T00:39:16",
+          "excerpt": "Claude CoworkはVMサンドボックス環境で実行されるので、セキュリティモデルがClaude Codeとは大きく異なる話"
+        },
+        {
+          "title": "企業向けAIエージェントシステムのベンチマーク指標「Enterprise Bench」が発表　データベースにおけるTPCベンチマークのような存在を目指す",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/14/news062.html",
+          "source": "@IT",
+          "published": "2026-07-13T23:30:00",
+          "excerpt": "AIエージェントシステムのベンチマーク「Enterprise Bench」を、米DevRevがオープンソースとして公開した。非営利法人とともに開発したもので、企業の複雑な環境における動作の正確さや安全性、トークン消費の効率性を評価する。"
+        },
         {
           "title": "生成AIに「どっちが賢いか」勝負を挑んだら、突くつもりだった弱点が全部塞がれていた",
           "link": "https://qiita.com/wasyokusatoshi/items/9a5ac7fc7f46521510b9",
@@ -22,28 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-13T23:05:59",
           "excerpt": "Amazon Bedrock AgentCore Harnessをコンソール操作だけで作ったエージェントを、AWS アカウントがない利用者にもブラウザで使ってもらう方法を紹介します！"
-        },
-        {
-          "title": "Claude Code の Skills と Commands の違いを整理して、効率的に使い分ける | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/claude-code-skills-vs-commands",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-13T23:00:00",
-          "excerpt": "Claude Code の Commands と Skills は現在統合された仕組みで、どちらも同じ / コマンドとして動作します。両者の実質的な違いは付属ファイルを持てるかどうかの1点。比較表と判断基準で使い分け方を整理します。"
-        },
-        {
-          "title": "「Microsoft Agent Framework」の.NET向けAgent Skillsが正式リリース",
-          "link": "https://codezine.jp/article/detail/28929",
-          "source": "CodeZine",
-          "published": "2026-07-13T23:00:00",
-          "excerpt": "「Microsoft Agent Framework」の.NET向けAgent Skillsが正式リリース"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が24件。AWS S3上に大量のログがあり、Amazon Athenaで検索・分析している環境に対して、Oracle Autonomous Database / Autonomous AI Lakehouseを使ってさらに AI分析できないか、という…",
+      "summary": "クラウドの新着が24件。Amazon ECSマネージドインスタンス、GPU管理料金を最大60％引き下げ",
       "articles": [
+        {
+          "title": "Amazon ECSマネージドインスタンス、GPU管理料金を最大60％引き下げ",
+          "link": "https://codezine.jp/article/detail/28940",
+          "source": "CodeZine",
+          "published": "2026-07-14T00:00:00",
+          "excerpt": "Amazon ECSマネージドインスタンス、GPU管理料金を最大60％引き下げ"
+        },
         {
           "title": "S3上の大量ログを Oracle Autonomous AI Lakehouseで分析する：外部表、Parquet、SQL、Vector Search、RAGの使い分け",
           "link": "https://qiita.com/shirok/items/2eafd347f90e80c46005",
@@ -64,21 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-13T22:06:06",
           "excerpt": "VPC入門 — EC2とRDSを安全に配置するネットワーク設計 はじめに VPC（Virtual Private Cloud）はAWS上に作る仮想ネットワークです。…"
-        },
-        {
-          "title": "Glue REST CatalogとS3TablesのIAMとLake Formationの挙動を確かめる",
-          "link": "https://zenn.dev/penginpenguin/articles/11355eaf43c6c9",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-13T22:03:42",
-          "excerpt": "はじめに AWS Community Builderのぺんぎん（@jitepengin）です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。はじめに AWS Community Builderのぺんぎん（@jitepengin）です。…",
+      "summary": "セキュリティの新着が18件。VS Code拡張をGitHub Actionsから自動公開する際の公開先選定（Marketplace/Open VSX/npm）、認証方式の比較、2026年末のPAT廃止問題、npm Trusted Publishingによるトークンレス…",
       "articles": [
+        {
+          "title": "VS Code拡張をCIから公開しようとしたら、認証まわりが2026年時点で思ったより深かった話",
+          "link": "https://dev.classmethod.jp/articles/publish-vscode-extension-ci-marketplace-openvsx-npm/",
+          "source": "DevelopersIO",
+          "published": "2026-07-14T00:40:10",
+          "excerpt": "VS Code拡張をGitHub Actionsから自動公開する際の公開先選定（Marketplace/Open VSX/npm）、認証方式の比較、2026年末のPAT廃止問題、npm Trusted Publishingによるトークンレス…"
+        },
+        {
+          "title": "Security Hub CSPM の セキュリティ基準: CIS AWS Foundations Benchmark を更新してみた",
+          "link": "https://dev.classmethod.jp/articles/security-hub-cspm-cis-benchmark-version-change-001/",
+          "source": "DevelopersIO",
+          "published": "2026-07-14T00:30:28",
+          "excerpt": "Security Hub CSPM の CIS AWS Foundations Benchmark を v1.2.0 から v5.0.0 へ切り替えてみました。既存環境への影響なく切り替えできます。切替時の注意点もまとめました。"
+        },
         {
           "title": "Glue REST CatalogとS3TablesのIAMとLake Formationの挙動を確かめる",
           "link": "https://zenn.dev/penginpenguin/articles/11355eaf43c6c9",
@@ -92,20 +106,6 @@
           "source": "ITmedia エンタープライズ",
           "published": "2026-07-13T22:00:00",
           "excerpt": "利用者自身に操作をさせて多要素認証をすり抜けるフィッシングが猛威を振るっている。こうした中、Appleが2026年秋公開予定の「iOS 27」で、人の心理を突く攻撃に対抗する新たな仕組みを用意していることが分かった。"
-        },
-        {
-          "title": "すべてのライオンズヘッド PR のセキュリティ チェック",
-          "link": "https://lionshead.digital/notes/the-security-checks-in-every-lionshead-pr",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-13T20:07:09",
-          "excerpt": "Article URL: https://lionshead.digital/notes/the-security-checks-in-every-lionshead-pr コメント URL: https://news.…"
-        },
-        {
-          "title": "「身代金は絶対払うな」で思考停止していない？　ランサムウェア対応の盲点",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/14/news010.html",
-          "source": "@IT",
-          "published": "2026-07-13T20:00:00",
-          "excerpt": "バックアップやEDRを導入していても、ランサムウェア被害で企業が最後に直面するのは技術ではなく「経営判断」です。身代金を支払うべきかどうか。その二択だけに目を向けると、本当に備えるべきことを見落としかねません。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "エルメスの代理店メーカー、ヌース・リサーチが評価額15億ドルで新たな資金調達交渉中",
-      "link": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-13T23:31:18",
-      "excerpt": "同社はロボット主導で、USVや他の著名な投資家からの多大な参加を得て、少なくとも7,500万ドルを調達している。"
-    },
-    {
-      "title": "Amazon FSx for OpenZFS でフェイルオーバーが発生した記録を確認する方法を教えてください",
-      "link": "https://dev.classmethod.jp/articles/tsnote-fsx-for-openzfs-how-do-i-check-the-record-that-a-failover-has-occurred-in-amazon-fsx-for-openzfs/",
+      "title": "pnpm/action-setup@v6で「Cannot use 'in' operator」エラーが出たときの対処法",
+      "link": "https://dev.classmethod.jp/articles/pnpm-action-setup-v6-self-installer-crash-fix/",
       "source": "DevelopersIO",
-      "published": "2026-07-13T23:05:54",
-      "excerpt": "Amazon FSx for OpenZFS でフェイルオーバーが発生した記録を確認する方法を教えてください"
+      "published": "2026-07-14T00:57:10",
+      "excerpt": "GitHub Actionsでpnpm/action-setup@v6を使用中に「Cannot use 'in' operator」エラーが発生。…"
     },
     {
-      "title": "AIに討論させたら、自分の視野が広くなった話 | ヘッドウォータースのフィード",
-      "link": "https://zenn.dev/headwaters/articles/1fe0b386ed229d",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-13T23:00:08",
-      "excerpt": "はじめに何かを決めようとするとき、自分ひとりで考えていると視野が狭くなりがちだなと思うことがあります。「この選択、本当に正しいのかな？」という不安を抱えたまま決断してしまうことも。…"
+      "title": "AWS User Notifications の通知パターンについてまとめてみた",
+      "link": "https://dev.classmethod.jp/articles/aws-user-notifications-aggregation-deduplication-multi-account/",
+      "source": "DevelopersIO",
+      "published": "2026-07-14T00:57:02",
+      "excerpt": "AWS User Notifications の集約と重複排除の仕組みを、マルチアカウント環境での具体例を交えて整理します。AWS管理通知とユーザー設定通知で異なる挙動を、図表を用いて詳しく解説しました。"
     },
     {
-      "title": "空から数千機、24時間365日の攻撃──ウクライナ防空副司令官が語る”安いドローン”の脅威　島国・日本は耐えられるか",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/08/news027.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-13T23:00:00",
-      "excerpt": "国際関係が緊張するいま、日本はドローンの特徴をどう把握し、どう対策する必要があるのか。ウクライナ軍防空副司令官のオレクサンドル・ジャン・ヴォロビヨフ氏らの見解を聞いた。"
+      "title": "ホテル、ロボタクシー、そして同社が「すべての人のためのすべて」になりたくない理由についてウーバーのプロダクト責任者が語る",
+      "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-14T00:45:00",
+      "excerpt": "Uber の最高製品責任者である Sachin Kansal 氏が TechCrunch に同社の金融サービスへの野望、ますます複雑化する Waymo との関係、新しい AV Labs のデータ運用、そして乗客やドライバーが実際に気づく方法…"
+    },
+    {
+      "title": "SFFA 対ハーバード大学では、入学に関して何が明らかになりましたか?",
+      "link": "https://sorting-machine.pages.dev/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-14T00:26:43",
+      "excerpt": "記事の URL: https://sorting-machine.pages.dev/ コメント URL: https://news.ycombinator.com/item?id=48900796 ポイント: 5 コメント数: 0"
     }
   ]
 }
