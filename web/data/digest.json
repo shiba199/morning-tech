@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15T15:58:19",
+  "generated_at": "2026-07-15T17:13:57",
   "window_hours": 24,
-  "total": 259,
+  "total": 255,
   "topic_count": 5,
   "groups": [
     {
@@ -17,6 +17,13 @@
           "excerpt": "1.…"
         },
         {
+          "title": "Amazon OpenSearch Service が、厳選されたスキルを備えた AWS 用エージェント ツールキットをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-agent/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-15T14:44:00",
+          "excerpt": "Amazon OpenSearch Service は、 Agent Toolkit for AWS と統合され、Claude Code、Kiro、Cursor などの AI コーディング エージェントから OpenSearch Servi…"
+        },
+        {
           "title": "OpenAI、EU裁判所で商標紛争に敗訴",
           "link": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
           "source": "Hacker News（英語）",
@@ -29,21 +36,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-15T13:29:14",
           "excerpt": "はじめに 現在、AWSのリソース設定やCloudFormationテンプレート生成を支援するWebアプリを個人で開発しています。開発を進める中で、機能面だけでなく、次のようなUI上の課題を感じるようになりました。…"
-        },
-        {
-          "title": "ヴィント・サーフ氏は、オープンなインターネット上で AI エージェントを解放する計画に取り組んでいます",
-          "link": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-15T12:00:00",
-          "excerpt": "TCP/IP の背後にいる人は、実際の AI エージェントを識別するための標準に取り組んでいます。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が24件。AWS Lambdaマネージドコードストレージのデフォルト上限が75GBから300GBに引き上げられました。…",
+      "summary": "クラウドの新着が23件。Amazon RDS では、24 時間のローリングウィンドウ内でデータベース インスタンスごとに最大 4 つのストレージ変更が可能になりました。…",
       "articles": [
+        {
+          "title": "Amazon RDS は 24 時間以内に最大 4 件のストレージ変更をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-upto-four-storage-modifications-24-hours",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-15T16:15:00",
+          "excerpt": "Amazon RDS では、24 時間のローリングウィンドウ内でデータベース インスタンスごとに最大 4 つのストレージ変更が可能になりました。…"
+        },
         {
           "title": "Lambdaコードストレージのデフォルト上限が300GBに。クォータ緩和申請なしで旧上限75GBを超えてみた",
           "link": "https://dev.classmethod.jp/articles/lambda-code-storage-default-limit-increased-75gb-to-300gb/",
@@ -64,21 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-15T11:37:11",
           "excerpt": "AWS Lambda コンソールに追加された「ワンクリックセットアッププロンプト」を使って、コーディングエージェントを簡単にセットアップしてみました。Claude Code で実際に試して、セットアップ手順と動作確認の結果をご紹介します。"
-        },
-        {
-          "title": "Zoho WidgetとLambdaの連携 第4回：外部送信の受付判定と自動retry抑止",
-          "link": "https://qiita.com/small-engineer/items/0675080012b3c5dae743",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-15T11:22:30",
-          "excerpt": "外部送信APIでは、一時障害時の自動retryをやめました。タイムアウトや接続断のように見える状況ほど、二重送信と受付不明が起きやすいです。前提は、受付IDなど「受け付けた証拠」が返りうる外部送信API一般です。特定ベンダー名は出しません。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が22件。記事の URL: https://www.strix.ai/blog/n8n-cross-issuer-account-takeover コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が21件。Microsoft が毎月リリースするセキュリティ修正プログラムは「Patch Tuesday」と呼ばれ、AI による発見のおかげで、同社の製品ライン全体で 570 件の記録的なセキュリティ脆弱性が解決されました。",
       "articles": [
+        {
+          "title": "Microsoft が AI の使用を理由に、記録的な数のセキュリティ脆弱性のパッチを適用",
+          "link": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-15T16:20:18",
+          "excerpt": "Microsoft が毎月リリースするセキュリティ修正プログラムは「Patch Tuesday」と呼ばれ、AI による発見のおかげで、同社の製品ライン全体で 570 件の記録的なセキュリティ脆弱性が解決されました。"
+        },
         {
           "title": "CVE-2026-59208: n8n における発行者間のアカウント乗っ取り",
           "link": "https://www.strix.ai/blog/n8n-cross-issuer-account-takeover",
@@ -99,21 +106,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-15T10:57:41",
           "excerpt": "検証の背景 AWS SAAの模擬演習をしているときに、DDoS攻撃に関する問題が何回か見かけることがありました。…"
-        },
-        {
-          "title": "Strands Agents の Interventions 機能 でエージェントに認可・ガードレール・承認フローを宣言的に組み込む",
-          "link": "https://zenn.dev/nuance/articles/1a1b820a6bc295",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-15T09:42:36",
-          "excerpt": "はじめに Strands Agentsのv1.44.0で、Interventions という制御レイヤーが追加されました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。新しい Debian バージョンが 13.6 および 12.15 の形で FOSSland に登場",
+      "summary": "データ分析の新着が4件。Amazon OpenSearch Service は、 Agent Toolkit for AWS と統合され、Claude Code、Kiro、Cursor などの AI コーディング エージェントから OpenSearch Servi…",
       "articles": [
+        {
+          "title": "Amazon OpenSearch Service が、厳選されたスキルを備えた AWS 用エージェント ツールキットをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-agent/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-15T14:44:00",
+          "excerpt": "Amazon OpenSearch Service は、 Agent Toolkit for AWS と統合され、Claude Code、Kiro、Cursor などの AI コーディング エージェントから OpenSearch Servi…"
+        },
         {
           "title": "x86-32 での Debian の最終リリースに黙祷を捧げてください",
           "link": "https://www.theregister.com/os-platforms/2026/07/15/a-moment-of-silence-please-for-the-final-release-of-debian-on-x86-32/5271198",
@@ -134,21 +141,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-15T03:01:05",
           "excerpt": "はじめに Fusicのレオナです。…"
-        },
-        {
-          "title": "ウェールズのDoxbin管理者、画面の後ろからたたきを攻撃した罪で投獄される",
-          "link": "https://www.theregister.com/security/2026/07/14/welsh-doxbin-admin-jailed-for-egging-on-swatters-from-behind-a-screen/5271281",
-          "source": "The Register（英語）",
-          "published": "2026-07-14T16:09:00",
-          "excerpt": "カラム・デアは他人に危険なデマを実行するよう奨励し、その映像からミニ映画を作成した"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。はじめに GitHub Actions から Terraform で AWS を操作する CD を組みました。…",
+      "summary": "開発ツールの新着が13件。AWS CDK の `cdk drift` でもドリフト検知は可能ですが、対象は CloudFormation テンプレートで管理されるプロパティの変更に限られます。…",
       "articles": [
+        {
+          "title": "CDKのドリフト検出ツール「cdk-real-drift」を試してみた",
+          "link": "https://dev.classmethod.jp/articles/cdk-real-drift-try/",
+          "source": "DevelopersIO",
+          "published": "2026-07-15T16:29:52",
+          "excerpt": "AWS CDK の `cdk drift` でもドリフト検知は可能ですが、対象は CloudFormation テンプレートで管理されるプロパティの変更に限られます。…"
+        },
         {
           "title": "【GitHub Actions】鍵を置かずに AWS へ入れたのに、承認者が候補に出てこなかった話",
           "link": "https://qiita.com/80-cloud/items/8e7a8e332ac67a13c458",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-15T10:19:27",
           "excerpt": "はじめに 個人開発アプリをAWSへ公開するためのTerraform Packを作り始めた当初、EC2への接続は普通にSSHでよいと思っていました。ただ、Security Groupや運用手順を考えている途中で、少し引っかかりました。…"
-        },
-        {
-          "title": "BrevでVSS　AIで動画データの検索・要約をやってみた",
-          "link": "https://dev.classmethod.jp/articles/vss-brev-tutorial/",
-          "source": "DevelopersIO",
-          "published": "2026-07-15T09:39:15",
-          "excerpt": "長時間の動画から必要な情報を見つけたり、内容を把握したりしたいというニーズに対して、NVIDIA VSSを使った動画解析を試してみました。Brevを使えば10分程度で環境構築でき、GUIで簡単に動画の内容を質問できます。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "フロントエンド開発に必要なツールをまとめて統合した「Vite+」、ベータ公開",
-      "link": "https://www.publickey1.jp/blog/26/vite.html",
-      "source": "Publickey",
-      "published": "2026-07-15T15:59:11",
-      "excerpt": "オープンソースのWebアプリケーションビルドツール「Vite」（ヴィットあるいはヴィート）を開発しているVoidZeroは、ViteをベースとしたJavaScriptアプリケーションのための統合開発ツールチェーン「Vite+」をベータ公開し…"
+      "title": "Artie (YC S23) はソフトウェア エンジニアを募集しています",
+      "link": "https://jobs.ashbyhq.com/artie",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-15T17:01:02",
+      "excerpt": "記事の URL: https://jobs.ashbyhq.com/artie コメント URL: https://news.ycombinator.com/item?id=48923833 ポイント: 0 コメント数: 0"
     },
     {
-      "title": "リアルタイム共同編集が可能なJavaScriptの表計算コンポーネント、メシウスが「SpreadJS」の新バージョンをリリース",
-      "link": "https://www.publickey1.jp/blog/26/javascriptspreadjs.html",
-      "source": "Publickey",
-      "published": "2026-07-15T15:56:19",
-      "excerpt": "メシウス（旧グレープシティ）は、Excelライクな機能とユーザーインターフェイスを備えたJavaScriptの表計算コンポーネント上で、リアルタイムな共同編集を可能にする機能を備えたJavaScriptライブラリ「SpreadJS」の最新版…"
-    },
-    {
-      "title": "Stripe と Advent は PayPal を約 534 億ドルで買収することを提案したと伝えられている",
-      "link": "https://techcrunch.com/2026/07/15/stripe-and-advent-reportedly-offered-to-buy-paypal-for-around-53-4b/",
+      "title": "AI音楽ジェネレーターSunoがトレーニングデータのためにYouTubeをスクレイピングしたことをハックが示唆",
+      "link": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-15T15:30:26",
-      "excerpt": "ストライプとプライベートエクイティ会社アドベント・インターナショナルは、約534億ドル相当の取引でペイパルを買収する共同入札を提出したと報じられている。…"
+      "published": "2026-07-15T17:00:34",
+      "excerpt": "ハッカーは従業員の資格情報を使用してソース コードにアクセスし、これにより、Suno がどのようにして数十年分の音声をスクレイピングしたかが明らかになりました。"
     },
     {
-      "title": "Apple IntelligenceがアリババのQwen AIを中国で導入することを承認",
-      "link": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "title": "Whatnot が Shaped を買収し、リアルタイムのライブ ショッピング レコメンデーションを強化",
+      "link": "https://techcrunch.com/2026/07/15/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-15T15:29:33",
-      "excerpt": "規制当局がアリババとの提携を通じてアップルのAIサービスを承認したことを受け、アップル・インテリジェンスは中国に向かっている。…"
+      "published": "2026-07-15T17:00:00",
+      "excerpt": "ライブストリーム ショッピング プラットフォームの Whatnot は、リアルタイム レコメンデーションと検索に重点を置いた機械学習企業であ​​る AI スタートアップ Shaped を買収しました。…"
+    },
+    {
+      "title": "Primate は最後の優れた Web フレームワークです",
+      "link": "https://superarch.org/theanswerisc/primate-is-the-last-great-framework.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-15T16:35:38",
+      "excerpt": "記事の URL: https://superarch.org/theanswerisc/primate-is-the-last-great-framework.html コメント URL: https://news.ycombinator.…"
     }
   ]
 }
