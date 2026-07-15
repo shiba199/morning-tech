@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-15T21:27:13",
+  "generated_at": "2026-07-15T22:27:38",
   "window_hours": 24,
-  "total": 264,
+  "total": 259,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が47件。非エンジニアでもAIを活用することで業務効率化に役立つシステムを構築できるようになる今、組織で管理されていない「野良システム」のリスクが高まっている。この問題にどう向き合えばよいのか？…",
+      "summary": "生成AIの新着が43件。非エンジニアでもAIを活用することで業務効率化に役立つシステムを構築できるようになる今、組織で管理されていない「野良システム」のリスクが高まっている。この問題にどう向き合えばよいのか？…",
       "articles": [
         {
           "title": "生成AIで激変した“野良システム”問題　ヒヤリハットが起きたRelicはどう対策したか",
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が25件。Amazon CloudWatch の新機能 lookup processor を使い、VPC Flow Logs の送信元IPアドレスからチーム名やサービス名を自動付与する構成を試しました。…",
+      "summary": "クラウドの新着が27件。Amazon RDS でストレージのサイズ変更・タイプ変更・性能変更が24時間で最大4回まで可能になりました。従来の6時間クールオフ制限が撤廃されています。…",
       "articles": [
+        {
+          "title": "Amazon RDS のストレージ変更が24時間に最大4回まで可能になったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-rds-storage-4-modifications-24-hours/",
+          "source": "DevelopersIO",
+          "published": "2026-07-15T21:33:05",
+          "excerpt": "Amazon RDS でストレージのサイズ変更・タイプ変更・性能変更が24時間で最大4回まで可能になりました。従来の6時間クールオフ制限が撤廃されています。…"
+        },
+        {
+          "title": "アマゾン ウェブ サービスの最も声高な顧客は現在 EC2 を実行しています",
+          "link": "https://www.theregister.com/paas-and-iaas/2026/07/15/aws-ec2-leadership-change-dave-treadwell-replaces-brown/5272154",
+          "source": "The Register（英語）",
+          "published": "2026-07-15T20:54:37",
+          "excerpt": "小売財団リーダーのデイブ・トレッドウェル氏が上級リーダーに就任し、19年間の退役軍人であるデイブ・ブラウン氏が未知の牧草地へ出発"
+        },
         {
           "title": "CloudWatchの新機能「lookup processor」で VPC Flow Logs をエンリッチしてみた",
           "link": "https://dev.classmethod.jp/articles/cloudwatch-lookup-processor-vpc-flow-logs-enrichment/",
@@ -57,27 +71,13 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-15T17:00:00",
           "excerpt": "Amazon Relational Database Service (RDS) は、Amazon Aurora PostgreSQL、RDS for PostgreSQL、RDS for MySQL、および RDS for MariaDB…"
-        },
-        {
-          "title": "Amazon RDS と Aurora が、追加の AWS リージョンで R8g および M8g データベース インスタンスをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-15T17:00:00",
-          "excerpt": "AWS Graviton4 ベースの R8g データベースインスタンスが、アジアパシフィック (ハイデラバード、メルボルン、マレーシア)、ヨーロッパ (ロンドン、パリ、チューリッヒ)、AWS GovCloud (米国東部)、南米 (サンパウ…"
-        },
-        {
-          "title": "Amazon RDS は 24 時間以内に最大 4 件のストレージ変更をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-upto-four-storage-modifications-24-hours",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-15T16:15:00",
-          "excerpt": "Amazon RDS では、24 時間のローリングウィンドウ内でデータベース インスタンスごとに最大 4 つのストレージ変更が可能になりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が19件。グーグル最大の太陽光発電・蓄電池プロジェクトは、近くにあるxAIの無許可発電所とは顕著な対照をなしている。",
+      "summary": "セキュリティの新着が18件。グーグル最大の太陽光発電・蓄電池プロジェクトは、近くにあるxAIの無許可発電所とは顕著な対照をなしている。",
       "articles": [
         {
           "title": "Google最大のクリーンパワープロジェクトはxAIの未認可ガス発電所から北へ40マイルにある",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。AWS CDK の `cdk drift` でもドリフト検知は可能ですが、対象は CloudFormation テンプレートで管理されるプロパティの変更に限られます。…",
+      "summary": "開発ツールの新着が11件。AWS CDK の `cdk drift` でもドリフト検知は可能ですが、対象は CloudFormation テンプレートで管理されるプロパティの変更に限られます。…",
       "articles": [
         {
           "title": "CDKのドリフト検出ツール「cdk-real-drift」を試してみた",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Sensitive Data Protectionを利用して各匿名化手法を試してみた",
-      "link": "https://dev.classmethod.jp/articles/trying-out-various-deidentification-methods-using-sensitive-data-protection/",
-      "source": "DevelopersIO",
-      "published": "2026-07-15T20:57:55",
-      "excerpt": "Google CloudのSensitive Data Protectionを使用した個人情報の自動検出と匿名化手法を解説。削除、マスキング、暗号化など11の変換方式とPython実装例を紹介。開発環境やログのPII漏洩防止に最適です。"
+      "title": "翔泳社、PDF版電書が最大70％ポイント還元となるセール開催　AI関連本や技術書などが7/22まで",
+      "link": "https://codezine.jp/article/detail/28872",
+      "source": "CodeZine",
+      "published": "2026-07-15T22:00:00",
+      "excerpt": "翔泳社、PDF版電書が最大70％ポイント還元となるセール開催　AI関連本や技術書などが7/22まで"
     },
     {
-      "title": "グロクビルド",
-      "link": "https://github.com/xai-org/grok-build",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-15T20:24:58",
-      "excerpt": "記事の URL: https://github.com/xai-org/grok-build コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "テキサス州で死亡事故を起こしたテスラ運転手はアクセルを100％踏み続けた、NTSBが認める",
-      "link": "https://techcrunch.com/2026/07/15/tesla-driver-in-fatal-texas-crash-pressed-accelerator-100-ntsb-confirms/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-15T20:22:52",
-      "excerpt": "安全委員会は、先月事故が発生してから数日後にテスラが共有した事故に関するテスラの説明を確認した。"
-    },
-    {
-      "title": "Microsoftが記録的な数のパッチをリリースしたのと同じ日にWindows 0-dayが終了",
-      "link": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
+      "title": "Sheetz が 838 店舗を VMware から移転: Broadcom が「不確実性が大きすぎる」",
+      "link": "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/",
       "source": "Ars Technica（英語）",
-      "published": "2026-07-15T19:59:48",
-      "excerpt": "HiveLegacy は「強力なプリミティブ」であり、おそらく他の不正行為が可能です。"
+      "published": "2026-07-15T21:41:56",
+      "excerpt": "コンビニエンス ストア チェーンは代わりに StorMagic を使用する予定です。"
+    },
+    {
+      "title": "投機的成長とAI「バブル」 [pdf]",
+      "link": "https://economics.mit.edu/sites/default/files/2026-07/speculative_growth_AI_public.pdf",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-15T21:39:21",
+      "excerpt": "記事の URL: https://economics.mit.edu/sites/default/files/2026-07/speculative_growth_AI_public.pdf コメント URL: https://news.…"
+    },
+    {
+      "title": "当社は設計や製造プロセスで AI を使用していません。",
+      "link": "https://mass-driver.com/article/from-human-hands",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-15T21:36:49",
+      "excerpt": "記事の URL: https://mass-driver.com/article/from-human-hands コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
