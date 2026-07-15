@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-15T03:42:23",
+  "generated_at": "2026-07-15T06:05:50",
   "window_hours": 24,
-  "total": 253,
+  "total": 254,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が42件。Copilot Studioでは、エージェントから外部の公開APIを呼び出すことができます。これにより、社内ナレッジソースだけでは対応できないリアルタイムな情報をエージェントの回答に組み込むことが可能になります。…",
+      "summary": "生成AIの新着が44件。入社3ヶ月を迎えた私の経験と、Claudeとの取り組みについてお話しします。オフィス出社による変化、そしてClaudeを相棒にした業務効率化への挑戦をぜひご覧ください！…",
       "articles": [
         {
-          "title": "【Copilot Studio】e-Gov法令APIを利用して法令条文検索エージェントを作成する手順 | JBS Tech Blog",
-          "link": "https://blog.jbs.co.jp/entry/2026/07/15/115018",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-15T02:50:18",
-          "excerpt": "Copilot Studioでは、エージェントから外部の公開APIを呼び出すことができます。これにより、社内ナレッジソースだけでは対応できないリアルタイムな情報をエージェントの回答に組み込むことが可能になります。…"
-        },
-        {
-          "title": "Claude Code v2.1.209〜v2.1.210 の主要アップデート",
-          "link": "https://dev.classmethod.jp/articles/20260715-cc-updates-v2-1-210/",
+          "title": "入社3ヶ月、Claude Code×Google Calendar×Slackで週報を自動送信する仕組みを作ってみた。",
+          "link": "https://dev.classmethod.jp/articles/join-3months-reflection-2026-07-13-at-08-24-41/",
           "source": "DevelopersIO",
-          "published": "2026-07-15T01:32:25",
-          "excerpt": "Claude Code v2.1.209～v2.1.210のアップデート内容をまとめました。バックグラウンドエージェントの信頼性向上とサブエージェント・サンドボックスのセキュリティ強化が中心です。関連する不具合修正や改善点をご紹介します。"
+          "published": "2026-07-15T05:50:59",
+          "excerpt": "入社3ヶ月を迎えた私の経験と、Claudeとの取り組みについてお話しします。オフィス出社による変化、そしてClaudeを相棒にした業務効率化への挑戦をぜひご覧ください！…"
         },
         {
-          "title": "【小ネタ】Claude Code で PDF を読ませるときにあると便利なツール",
-          "link": "https://dev.classmethod.jp/articles/claude-code-pdf-tools-pdftotext-pdfinfo-pymupdf/",
+          "title": "【開催報告】AWS Summit Japan 2026 — AI エージェントで危機対応：小売×消費財の混乱を AI と人が即座に解決",
+          "link": "https://aws.amazon.com/jp/blogs/news/aws-summit-japan-2026-supply-chain-ai-agents-demo/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-07-15T04:37:10",
+          "excerpt": "サプライチェーンの「想定外」に AI エージェントと人間が即応するデモを AWS Summit Japan 2026 で展示しました。…"
+        },
+        {
+          "title": "Anthropic解説、Claudeが自身の実行ハーネスを構築する仕組み",
+          "link": "https://www.infoq.com/jp/news/2026/07/claude-code-harnesses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ（日本語）",
+          "published": "2026-07-15T04:30:00",
+          "excerpt": "Anthropicは、Claude Codeに最近導入されたダイナミック･ワークフローの背後にあるオーケストレーションシステムについて追加の詳細情報を公開、この機能が複雑なタスクに対してAIエージェントのチームをコーディネートするよう設計さ…"
+        },
+        {
+          "title": "【小ネタ】 Strands Agents の Swarm で最終エージェントの回答だけを取り出す",
+          "link": "https://dev.classmethod.jp/articles/strands-agents-swarm-final-agent-response-only/",
           "source": "DevelopersIO",
-          "published": "2026-07-15T01:20:02",
-          "excerpt": "Claude Code が PDF を読むときに使おうとしたツールについて、実際のログから何が起きたのかを整理します。環境に応じた最適な選択肢を知ることで、Claude Codeでの精度や処理速度が変わってくるので、参考にしてみてください。"
-        },
-        {
-          "title": "Meta、強化されたマルチモーダル推論モデル「Muse Spark 1.1」リリース",
-          "link": "https://codezine.jp/article/detail/28952",
-          "source": "CodeZine",
-          "published": "2026-07-15T01:00:00",
-          "excerpt": "Meta、強化されたマルチモーダル推論モデル「Muse Spark 1.1」リリース"
+          "published": "2026-07-15T04:29:14",
+          "excerpt": "Strands Agents の Swarm でマルチエージェント構成を実装したとき、全エージェントの途中経過が混ざって表示するのではなく、最終エージェントの出力だけを取り出す方法をご紹介します！"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。MWAA Serverlessのサポートオペレーターに19個が追加されました。…",
+      "summary": "クラウドの新着が16件。Amazon EC2上でAmazon SESとPostfixを使用し、メールを送信する環境を構築してみました。",
       "articles": [
+        {
+          "title": "Amazon EC2でAmazon SES + Postfixを使ってメールを送信してみた",
+          "link": "https://dev.classmethod.jp/articles/jw-amazon-ec2-amazon-ses-postfix-send-mail/",
+          "source": "DevelopersIO",
+          "published": "2026-07-15T05:50:48",
+          "excerpt": "Amazon EC2上でAmazon SESとPostfixを使用し、メールを送信する環境を構築してみました。"
+        },
+        {
+          "title": "Next.js 静的サイトを S3 + CloudFront で配信する方法 全パターンまとめ(クリーンURL問題)",
+          "link": "https://qiita.com/fcako/items/aad557c2fd9ca2af24f6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-15T04:54:12",
+          "excerpt": "Next.…"
+        },
         {
           "title": "[アップデート] MWAA Serverlessにオペレーターが19個追加されワークフローから別のワークフローを起動できるようになりました",
           "link": "https://dev.classmethod.jp/articles/update-amazon-mwaa-serverless-new-operators-workflow-trigger/",
@@ -57,28 +71,28 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-15T02:00:00",
           "excerpt": "はじめに こんにちは、新規事業部フロントエンドブロックの大野純平です。2025年度に新卒入社し、現在のチームに配属されました。…"
-        },
-        {
-          "title": "AWS Lambda の Java ランタイムに AL2023 版（Java 8, 11, 17）が追加されたので、AL2 との違いを確認してみた",
-          "link": "https://dev.classmethod.jp/articles/lambda-java-8-11-17-al2023-runtime-added/",
-          "source": "DevelopersIO",
-          "published": "2026-07-14T21:03:20",
-          "excerpt": "AWS Lambda の Java 8/11/17 ランタイムに Amazon Linux 2023 ベースの新バージョンが追加されました。AL2023 版と AL2 版を関数内から観測できる情報で比較しました。"
-        },
-        {
-          "title": "AWS Lambda コンソールは、コーディングエージェント向けにワンクリックのセットアッププロンプトを提供します",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-prompt-coding-agents/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-14T20:00:00",
-          "excerpt": "AWS Lambda コンソールには、AWS サーバーレススキルとサーバーレスモデルコンテキストプロトコル (MCP) サーバーを使用してエージェントを構成するエージェントをコーディングするためのワンクリックセットアッププロンプトが提供され…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が21件。イオンは7月15日、ニチレイへの不正アクセスに伴うシステム障害の影響で、一部店舗で商品の欠品が生じているとITmedia NEWSの取材で明らかにした。欠品している商品や店舗などの詳細は調査中という。",
+      "summary": "セキュリティの新着が20件。AWS Security HubがMicrosoft Azureリソースの統合監視に対応",
       "articles": [
+        {
+          "title": "AWS Security HubがMicrosoft Azureリソースの統合監視に対応",
+          "link": "https://codezine.jp/article/detail/28954",
+          "source": "CodeZine",
+          "published": "2026-07-15T05:30:00",
+          "excerpt": "AWS Security HubがMicrosoft Azureリソースの統合監視に対応"
+        },
+        {
+          "title": "くら寿司、一部食材で未着などの配送トラブル　ニチレイへの不正アクセスで",
+          "link": "https://www.itmedia.co.jp/news/articles/2607/15/news080.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-07-15T03:25:00",
+          "excerpt": "くら寿司は7月15日、取引先への不正アクセスの影響でシステム障害が発生し、寿司ネタや冷凍食品、一部食材の配送に遅れや未着が生じていると発表した。"
+        },
         {
           "title": "イオンも一部欠品　ニチレイへの不正アクセスが影響",
           "link": "https://www.itmedia.co.jp/news/articles/2607/15/news076.html",
@@ -92,27 +106,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-15T00:05:29",
           "excerpt": "CloudTrail のログから複数人が同じロールを使った場合に誰の操作か特定できるか、実際に検証してみました。…"
-        },
-        {
-          "title": "[アップデート] AWS Security Hub に AI インベントリが追加され、組織全体の AI 資産を一元的に可視化できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/aws-security-hub-ai/",
-          "source": "DevelopersIO",
-          "published": "2026-07-14T23:56:22",
-          "excerpt": "AWS Security Hub に新しく追加された「AI インベントリ」機能を確認してみました。…"
-        },
-        {
-          "title": "Amazon GuardDutyの新機能「AI Protection」を有効化してAIワークロードの脅威検知を試してみた",
-          "link": "https://dev.classmethod.jp/articles/guardduty-ai-protection-enable-and-verify/",
-          "source": "DevelopersIO",
-          "published": "2026-07-14T23:41:16",
-          "excerpt": "Amazon GuardDuty AI Protection（2026/7/14 GA）を東京リージョンで有効化し、サービスリンクチャネルの自動作成、サンプルFindingの構造、Bedrock Guardrailsによるプロンプト攻撃ブロ…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。カラム・デアは他人に危険なデマを実行するよう奨励し、その映像からミニ映画を作成した",
+      "summary": "データ分析の新着が4件。カラム・デアは他人に危険なデマを実行するよう奨励し、その映像からミニ映画を作成した",
       "articles": [
         {
           "title": "ウェールズのDoxbin管理者、画面の後ろからたたきを攻撃した罪で投獄される",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が17件。GitHub、新しいプルリクエストダッシュボードの一般提供開始",
+      "summary": "開発ツールの新着が16件。GitHub、SSOと組織設定ページを個別に分離して管理を改善",
       "articles": [
+        {
+          "title": "GitHub、SSOと組織設定ページを個別に分離して管理を改善",
+          "link": "https://codezine.jp/article/detail/28953",
+          "source": "CodeZine",
+          "published": "2026-07-15T04:00:00",
+          "excerpt": "GitHub、SSOと組織設定ページを個別に分離して管理を改善"
+        },
         {
           "title": "GitHub、新しいプルリクエストダッシュボードの一般提供開始",
           "link": "https://codezine.jp/article/detail/28951",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-14T23:53:08",
           "excerpt": "はじめに 前回の記事では Python ライブラリ lifelines を使って顧客離脱を生存時間解析で予測しました。C-index 0.74 のモデルが完成し、各施策の効果もシミュレーションできるようになりました。…"
-        },
-        {
-          "title": "Claude Code × Git ワークツリーで複数タスクを安全に並列処理する方法 | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/claude-code-git-worktree-parallel",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-14T23:00:00",
-          "excerpt": "Claude Code の --worktree フラグと Git ワークツリーを組み合わせ、複数タスクをファイル衝突なく並列処理する方法を解説。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AI と一緒に進める AWS Well-Architected Framework レビュー のすすめ",
-      "link": "https://aws.amazon.com/jp/blogs/news/aws-well-architected-review-with-ai-awssummit2026/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-07-15T03:24:15",
-      "excerpt": "「セキュリティは大丈夫だろうか」「障害が起きたときに復旧できるだろうか」「このアーキテクチャはベストプラクティスに沿っているだろうか」AWS 上にシステムを構築・運用する中で、このような不安を感じたことはないでしょうか。…"
+      "title": "「TSKaigi 2026事後勉強会」を開催しました | SmartHR Tech Blog",
+      "link": "https://tech.smarthr.jp/entry/2026/07/15/142756",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-15T05:27:56",
+      "excerpt": "こんにちは！SmartHRでプロダクトエンジニアをしている tokky です。この記事では、先日開催した「TSKaigi 2026事後勉強会」の様子をお届けします。…"
     },
     {
-      "title": "ジュラシック パークのコンピューターを細部まで再現",
-      "link": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-15T02:57:47",
-      "excerpt": "記事の URL: https://fabiensanglard.net/jurrasic_park_computers/index.html コメント URL: https://news.ycombinator.com/item?…"
+      "title": "Engineering Manager Meetup #19 〜 エンジニア組織とお金のお話しレポート | SmartHR Tech Blog",
+      "link": "https://tech.smarthr.jp/entry/2026/07/15/141909",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-15T05:19:09",
+      "excerpt": "こんにちは。SmartHRでタレントマネジメント領域のEngineering Managerをしている @tweeeety です。…"
     },
     {
-      "title": "1年間先延ばしにし続けたAWS SAA-C03に、ようやく合格した話",
-      "link": "https://qiita.com/ronitsachdev/items/d996bde2585c4e7be079",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-15T02:45:05",
-      "excerpt": "はじめに 先日、AWS Certified Solutions Architect – Associate (SAA-C03) に 755点 で合格しました。…"
+      "title": "AWS Batch を使った FastQC 実行環境を AWS マネジメントコンソールだけで構築してみた",
+      "link": "https://dev.classmethod.jp/articles/ohorig-aws-rnaseq-fastqc/",
+      "source": "DevelopersIO",
+      "published": "2026-07-15T05:01:09",
+      "excerpt": "AWS Batch と Fargate を使い、S3 上の FASTQ ファイルを FastQC で解析する環境を、AWS マネジメントコンソールだけで構築する手順をステップバイステップで紹介します。"
     },
     {
-      "title": "「Amazon製品保証」開始　購入額の5％～、最長5年　「ほとんどの家電をカバー」",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/15/news077.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-15T02:45:00",
-      "excerpt": "対象商品と一緒に保証サービスの購入を確定するだけで申し込みが完了。保証書はメールで届き、注文履歴からもいつでも確認できる。"
+      "title": "CodeZineリニューアルのお知らせ──「DeveloperZine」新設、「ProductZine」統合で3メディア体制へ",
+      "link": "https://codezine.jp/article/detail/28981",
+      "source": "CodeZine",
+      "published": "2026-07-15T05:00:00",
+      "excerpt": "CodeZineは本日2026年7月15日、サイトをリニューアルしました。…"
     }
   ]
 }
