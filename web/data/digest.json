@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-15T12:09:17",
+  "generated_at": "2026-07-15T14:17:21",
   "window_hours": 24,
-  "total": 259,
+  "total": 256,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。TCP/IP の背後にいる人は、実際の AI エージェントを識別するための標準に取り組んでいます。",
+      "summary": "生成AIの新着が42件。はじめに 現在、AWSのリソース設定やCloudFormationテンプレート生成を支援するWebアプリを個人で開発しています。開発を進める中で、機能面だけでなく、次のようなUI上の課題を感じるようになりました。…",
       "articles": [
+        {
+          "title": "GPT-5.6でWebアプリのUIを作り直して感じた、GPT-5.5との違い",
+          "link": "https://qiita.com/suzunari900261/items/802c8e101804395c9cf1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-15T13:29:14",
+          "excerpt": "はじめに 現在、AWSのリソース設定やCloudFormationテンプレート生成を支援するWebアプリを個人で開発しています。開発を進める中で、機能面だけでなく、次のようなUI上の課題を感じるようになりました。…"
+        },
         {
           "title": "ヴィント・サーフ氏は、オープンなインターネット上で AI エージェントを解放する計画に取り組んでいます",
           "link": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
@@ -29,21 +36,28 @@
           "source": "TechCrunch（英語）",
           "published": "2026-07-15T11:00:00",
           "excerpt": "上級起業家シャイ・モラグ氏が共同設立したイスラエルのアイデンティティ管理スタートアップ、オークはシード資金6,000万ドルでステルスから浮上している。"
-        },
-        {
-          "title": "Strands Agents の Interventions 機能 でエージェントに認可・ガードレール・承認フローを宣言的に組み込む",
-          "link": "https://zenn.dev/nuance/articles/1a1b820a6bc295",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-15T09:42:36",
-          "excerpt": "はじめに Strands Agentsのv1.44.0で、Interventions という制御レイヤーが追加されました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。AWS Lambda コンソールに追加された「ワンクリックセットアッププロンプト」を使って、コーディングエージェントを簡単にセットアップしてみました。Claude Code で実際に試して、セットアップ手順と動作確認の結果をご紹介します。",
+      "summary": "クラウドの新着が22件。AWS Lambdaマネージドコードストレージのデフォルト上限が75GBから300GBに引き上げられました。…",
       "articles": [
+        {
+          "title": "Lambdaコードストレージのデフォルト上限が300GBに。クォータ緩和申請なしで旧上限75GBを超えてみた",
+          "link": "https://dev.classmethod.jp/articles/lambda-code-storage-default-limit-increased-75gb-to-300gb/",
+          "source": "DevelopersIO",
+          "published": "2026-07-15T13:44:15",
+          "excerpt": "AWS Lambdaマネージドコードストレージのデフォルト上限が75GBから300GBに引き上げられました。…"
+        },
+        {
+          "title": "Lambda@Edge を使ったキオスク端末向け高速配信",
+          "link": "https://qiita.com/riadraz/items/14e0e61175a3ca191199",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-15T12:26:51",
+          "excerpt": "Lambda@Edge を使ったキオスク端末向け高速配信 英語版はこちら → English Version 概要 キオスク端末では、 レスポンス速度 キャッシュ制御 セキュリティ が重要です。…"
+        },
         {
           "title": "【アップデート】 AWS Lambda コーディングエージェント向けワンクリックセットアップができるようになりました！",
           "link": "https://dev.classmethod.jp/articles/aws-lambda-one-click-agent-setup/",
@@ -57,20 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-15T11:22:30",
           "excerpt": "外部送信APIでは、一時障害時の自動retryをやめました。タイムアウトや接続断のように見える状況ほど、二重送信と受付不明が起きやすいです。前提は、受付IDなど「受け付けた証拠」が返りうる外部送信API一般です。特定ベンダー名は出しません。…"
-        },
-        {
-          "title": "Zoho WidgetとLambdaの連携 第3回：PDFプレビューと直送保存の分離",
-          "link": "https://qiita.com/small-engineer/items/4810aae46d16b0696249",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-15T11:20:58",
-          "excerpt": "大きいPDFをZoho関数に載せるのをやめ、画面で確認したbytesをそのまま保存できるようにしました。方針は2点です。…"
-        },
-        {
-          "title": "Zoho WidgetとLambdaの連携 第2回：HMAC署名とDelugeのJSON運搬",
-          "link": "https://qiita.com/small-engineer/items/90ae376d1276cf9e6a0c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-15T11:18:47",
-          "excerpt": "HMACが通らない原因は、鍵でも計算式でもなく、Delugeが組み立てたJSON文字列でした。手元で同じsecret・timestamp・想定本文から再計算した署名は一致するのに、入口Lambdaだけが拒否します。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。AWS Lambda コンソールに追加された「ワンクリックセットアッププロンプト」を使って、コーディングエージェントを簡単にセットアップしてみました。Claude Code で実際に試して、セットアップ手順と動作確認の結果をご紹介します。",
+      "summary": "開発ツールの新着が12件。はじめに GitHub Actions から Terraform で AWS を操作する CD を組みました。…",
       "articles": [
+        {
+          "title": "【GitHub Actions】鍵を置かずに AWS へ入れたのに、承認者が候補に出てこなかった話",
+          "link": "https://qiita.com/80-cloud/items/8e7a8e332ac67a13c458",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-15T12:27:50",
+          "excerpt": "はじめに GitHub Actions から Terraform で AWS を操作する CD を組みました。…"
+        },
         {
           "title": "【アップデート】 AWS Lambda コーディングエージェント向けワンクリックセットアップができるようになりました！",
           "link": "https://dev.classmethod.jp/articles/aws-lambda-one-click-agent-setup/",
@@ -169,45 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-15T09:39:15",
           "excerpt": "長時間の動画から必要な情報を見つけたり、内容を把握したりしたいというニーズに対して、NVIDIA VSSを使った動画解析を試してみました。Brevを使えば10分程度で環境構築でき、GUIで簡単に動画の内容を質問できます。…"
-        },
-        {
-          "title": "GitHub、SSOと組織設定ページを個別に分離して管理を改善",
-          "link": "https://codezine.jp/article/detail/28953",
-          "source": "CodeZine",
-          "published": "2026-07-15T04:00:00",
-          "excerpt": "GitHub、SSOと組織設定ページを個別に分離して管理を改善"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Realta Fusion が古いホットドッグ工場に核融合炉を建設している理由",
-      "link": "https://techcrunch.com/2026/07/15/why-realta-fusion-is-building-a-fusion-reactor-at-an-old-hot-dog-factory/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-15T12:00:00",
-      "excerpt": "ウィスコンシン州にある古いオスカー・マイヤー工場は、アメリカの最新の核融合発電研究開発拠点となる。"
+      "title": "フロントエンド開発に必要なツールをまとめて統合した「Vite+」、ベータ公開",
+      "link": "https://www.publickey1.jp/blog/26/vite.html",
+      "source": "Publickey",
+      "published": "2026-07-15T15:59:11",
+      "excerpt": "オープンソースのWebアプリケーションビルドツール「Vite」（ヴィットあるいはヴィート）を開発しているVoidZeroは、ViteをベースとしたJavaScriptアプリケーションのための統合開発ツールチェーン「Vite+」をベータ公開し…"
     },
     {
-      "title": "インドの AI コーディングスタートアップ Emergent がシリーズ C で 1 億 3,000 万ドルのユニコーンに",
-      "link": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-15T12:00:00",
-      "excerpt": "このスタートアップは年間収益ランレート 1 億 2,000 万ドルに達し、有料顧客数は 20 万人を超えています。"
+      "title": "リアルタイム共同編集が可能なJavaScriptの表計算コンポーネント、メシウスが「SpreadJS」の新バージョンをリリース",
+      "link": "https://www.publickey1.jp/blog/26/javascriptspreadjs.html",
+      "source": "Publickey",
+      "published": "2026-07-15T15:56:19",
+      "excerpt": "メシウス（旧グレープシティ）は、Excelライクな機能とユーザーインターフェイスを備えたJavaScriptの表計算コンポーネント上で、リアルタイムな共同編集を可能にする機能を備えたJavaScriptライブラリ「SpreadJS」の最新版…"
     },
     {
-      "title": "フィッシング被害で休講5日間　札幌国際大　ウイルス感染リスク解消せず",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/15/news121.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-15T11:40:00",
-      "excerpt": "札幌国際大学は7月14日、フィッシング被害に起因する不審メールの大量送信を受け、全科目を15日から17日まで休講すると発表した。"
-    },
-    {
-      "title": "#ALBはHealthyなのにReactが真っ白になった話 ～Vite assetsとNginxキャッシュで詰まった～",
-      "link": "https://qiita.com/Asano-S/items/d354fcb74371173f019b",
+      "title": "【IT業界25年目】ADHDポンコツエンジニアが人生賭けて構築した求人サービスの特徴とは？",
+      "link": "https://qiita.com/Veteran/items/2918b71f97386257a934",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-15T11:19:17",
-      "excerpt": "はじめに 個人開発者向けに、AWS上へWebアプリを公開するための販売基盤を作っています。構成は、ざっくりこんな感じです。本番環境へフロントを反映したあと、ALBのTarget Healthを確認するとhealthy。…"
+      "published": "2026-07-15T14:15:56",
+      "excerpt": "皆さんこんばんは！ポンコツエンジニアのGONです！前回までの記事で、人生を賭けた求人サービスにプログラミング言語は『PHP』、 データベースは『postgreSQL』、 プラットフォームは『AWS』を選んできた理由を語らせていただきました。…"
+    },
+    {
+      "title": "HN に質問してください: それは私だけでしょうか、それともソフトウェア全体的にバグが多いのでしょうか?",
+      "link": "https://news.ycombinator.com/item?id=48920698",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-15T13:41:01",
+      "excerpt": "この 6 か月間、すべてのデバイスで奇妙なバグに遭遇し、気が狂いそうな気分です。他にも同じような経験をしている人はいますか?コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
