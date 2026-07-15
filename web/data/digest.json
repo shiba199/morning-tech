@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-14T23:25:05",
+  "generated_at": "2026-07-15T00:11:12",
   "window_hours": 24,
-  "total": 265,
+  "total": 266,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。Orca は複数のコーディングエージェントを並列運用するための ADE です。worktree・マルチエージェント・通知・CLI オーケストレーション・リモート実行まで全機能を実務に沿って解説する実践ガイドです。",
+      "summary": "生成AIの新着が45件。OpenAIは、予測市場を運営するKalshiの予想データを、ChatGPTのワールドカップ関連の回答に反映し始めた。特定の試合の勝敗予想を尋ねると、Kalshiのデータに基づく勝利予想グラフが表示される仕組み。…",
       "articles": [
+        {
+          "title": "ChatGPT、ワールドカップの勝敗予想に予測市場「Kalshi」のデータを反映開始",
+          "link": "https://www.itmedia.co.jp/news/articles/2607/15/news060.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-07-14T23:09:00",
+          "excerpt": "OpenAIは、予測市場を運営するKalshiの予想データを、ChatGPTのワールドカップ関連の回答に反映し始めた。特定の試合の勝敗予想を尋ねると、Kalshiのデータに基づく勝利予想グラフが表示される仕組み。…"
+        },
+        {
+          "title": "AIエージェントのコスト、どこに「消えて」いる？　Google Cloudが調査で浮上した“クラウド利用の盲点”",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/14/news039.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-07-14T23:00:00",
+          "excerpt": "AIエージェントの本番運用段階で、多くの企業がコストの問題に直面している。本番運用段階におけるコストは一体どこに「消えている」のか。…"
+        },
         {
           "title": "Orca 実践ガイド: Claude Code や Codex を並列運用する ADE の使いこなし術 | TECHSCORE BLOG",
           "link": "https://blog.techscore.com/entry/2026/07/15/080000",
@@ -22,27 +36,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-14T23:00:00",
           "excerpt": "Claude Code の --worktree フラグと Git ワークツリーを組み合わせ、複数タスクをファイル衝突なく並列処理する方法を解説。…"
-        },
-        {
-          "title": "ローカルLLMで企業向けAI環境の構築をはじめよう――「Mac Studio」を採用する理由",
-          "link": "https://codezine.jp/article/detail/28875",
-          "source": "CodeZine",
-          "published": "2026-07-14T23:00:00",
-          "excerpt": "ChatGPTの登場以降、企業における生成AIは「あったら良いもの」から「なくてはならない必須インフラ」へと急速にフェーズを変えています。…"
-        },
-        {
-          "title": "[Amazon Bedrock] Claude で工場の作業動画から工程分析レポートを自動生成してみました",
-          "link": "https://dev.classmethod.jp/articles/bedrock-claude-factory-work-analysis/",
-          "source": "DevelopersIO",
-          "published": "2026-07-14T22:28:50",
-          "excerpt": "工場の作業動画から自動で作業分析レポートを生成する仕組みを作ってみました。Amazon Bedrock の Claude に動画フレームを渡すことで、作業要素の分解・サイクルタイム・問題点・改善提案を一度に出力できます。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。AWS Lambda の Java 8/11/17 ランタイムに Amazon Linux 2023 ベースの新バージョンが追加されました。AL2023 版と AL2 版を関数内から観測できる情報で比較しました。",
+      "summary": "クラウドの新着が16件。AWS Lambda の Java 8/11/17 ランタイムに Amazon Linux 2023 ベースの新バージョンが追加されました。AL2023 版と AL2 版を関数内から観測できる情報で比較しました。",
       "articles": [
         {
           "title": "AWS Lambda の Java ランタイムに AL2023 版（Java 8, 11, 17）が追加されたので、AL2 との違いを確認してみた",
@@ -77,8 +77,22 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が20件。AWS Security Hub に追加された「AIインベントリ」を検証しました。…",
+      "summary": "セキュリティの新着が22件。AWS Security Hub に新しく追加された「AI インベントリ」機能を確認してみました。…",
       "articles": [
+        {
+          "title": "[アップデート] AWS Security Hub に AI インベントリが追加され、組織全体の AI 資産を一元的に可視化できるようになりました",
+          "link": "https://dev.classmethod.jp/articles/aws-security-hub-ai/",
+          "source": "DevelopersIO",
+          "published": "2026-07-14T23:56:22",
+          "excerpt": "AWS Security Hub に新しく追加された「AI インベントリ」機能を確認してみました。…"
+        },
+        {
+          "title": "Amazon GuardDutyの新機能「AI Protection」を有効化してAIワークロードの脅威検知を試してみた",
+          "link": "https://dev.classmethod.jp/articles/guardduty-ai-protection-enable-and-verify/",
+          "source": "DevelopersIO",
+          "published": "2026-07-14T23:41:16",
+          "excerpt": "Amazon GuardDuty AI Protection（2026/7/14 GA）を東京リージョンで有効化し、サービスリンクチャネルの自動作成、サンプルFindingの構造、Bedrock Guardrailsによるプロンプト攻撃ブロ…"
+        },
         {
           "title": "AWS Security Hub の新機能「AIインベントリ」でAI資産を自動検出してみた",
           "link": "https://dev.classmethod.jp/articles/security-hub-ai-inventory-auto-detection/",
@@ -92,20 +106,6 @@
           "source": "@IT",
           "published": "2026-07-14T22:00:00",
           "excerpt": "ニチレイは、不正アクセスでシステム障害が発生したと公表した。個人情報や顧客データ流出は未確認で調査継続中だ。国内のグループ会社の一部業務に影響が生じたとされている。"
-        },
-        {
-          "title": "Patchpocalypse Now: Microsoft は 622 件の Patch Tuesday CVE で先月の記録を上回りました",
-          "link": "https://www.theregister.com/security/2026/07/14/patchpocalypse-now-microsoft-tops-last-months-record-with-622-patch-tuesday-cves/5271434",
-          "source": "The Register（英語）",
-          "published": "2026-07-14T20:49:40",
-          "excerpt": "先月の 206 件の CVE が目を見張るものだったことを覚えていますか?そう、そんな日々だった"
-        },
-        {
-          "title": "AWS IAM Identity Center が FedRAMP クラス C 認定を取得",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-identity-center-fedramp/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-14T19:10:00",
-          "excerpt": "AWS IAM Identity Center は、米国東部 (オハイオ)、米国東部 (バージニア北部)、米国西部 (北カリフォルニア)、および米国西部 (オレゴン) リージョンの FedRAMP クラス C の対象になりました。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。Claude Code の --worktree フラグと Git ワークツリーを組み合わせ、複数タスクをファイル衝突なく並列処理する方法を解説。…",
+      "summary": "開発ツールの新着が16件。はじめに 前回の記事では Python ライブラリ lifelines を使って顧客離脱を生存時間解析で予測しました。C-index 0.74 のモデルが完成し、各施策の効果もシミュレーションできるようになりました。…",
       "articles": [
+        {
+          "title": "MLOpsをAWSで実現してみた ─ 生存時間解析モデルの自動学習・評価・デプロイ",
+          "link": "https://qiita.com/takeshi-ookane/items/e0c7cdc1744db1a4aa6d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-14T23:53:08",
+          "excerpt": "はじめに 前回の記事では Python ライブラリ lifelines を使って顧客離脱を生存時間解析で予測しました。C-index 0.74 のモデルが完成し、各施策の効果もシミュレーションできるようになりました。…"
+        },
         {
           "title": "Claude Code × Git ワークツリーで複数タスクを安全に並列処理する方法 | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/claude-code-git-worktree-parallel",
@@ -169,18 +176,18 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-14T20:00:00",
           "excerpt": "AWS Lambda コンソールには、AWS サーバーレススキルとサーバーレスモデルコンテキストプロトコル (MCP) サーバーを使用してエージェントを構成するエージェントをコーディングするためのワンクリックセットアッププロンプトが提供され…"
-        },
-        {
-          "title": "パラメータストアを使って CDK のスタック間リソース参照を実現する",
-          "link": "https://zenn.dev/dokeita/articles/16dd85a23d05db",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-14T16:12:33",
-          "excerpt": "背景 スタック間でリソース参照をしたい パラメータストアに共有したい値を登録することでスタック間参照する方法を試す まとめ cdk diff 実行時に、Consumer スタックの差分が見たい場合はvalueFromLookupを使う ただ…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "シャープ初のハンディファンは何が売りなのか　1万円というプライスを納得させる“3つの安心”　自宅で検証してみた",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/15/news057.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-14T23:44:00",
+      "excerpt": "シャープから初めてのハンディファン「プラズマクラスターハンディファン」が登場した。ちょっと高価だが、静音性やバッテリー周りの安全対策など目新しい点も多い。"
+    },
     {
       "title": "ロード氏、AIメガネは「セクシーではない」と語る",
       "link": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
@@ -189,25 +196,18 @@
       "excerpt": "「私たちの世界では、何が真実なのかを知ることがますます難しくなっている」とロード氏はステージ上で語った。"
     },
     {
+      "title": "PC需要がついに縮小　IT部門を揺さぶる「値上げ」の理由は？",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/15/news022.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-07-14T23:00:00",
+      "excerpt": "減速が懸念されても伸び続けてきたPC需要に、ついに変化が生じた。9四半期続いた連続成長はなぜ途切れたのか。IT部門の調達計画と予算を左右する減速の要因と、PC価格上昇の理由に迫る。"
+    },
+    {
       "title": "【AI時代の新卒育成】AIネイティブが“育つ”、SHIFTの舞台裏 | SHIFT Group 技術ブログ",
       "link": "https://note.shiftinc.jp/n/n3da837d37343",
       "source": "企業テックブログまとめ",
       "published": "2026-07-14T23:00:00",
       "excerpt": "第1回：AI組織へ舵を切る！SHIFTの新卒研修とは続きをみる"
-    },
-    {
-      "title": "AWSが7月6日週に発表した新機能をまとめて紹介",
-      "link": "https://codezine.jp/article/detail/28946",
-      "source": "CodeZine",
-      "published": "2026-07-14T23:00:00",
-      "excerpt": "AWSが7月6日週に発表した新機能をまとめて紹介"
-    },
-    {
-      "title": "QR-卍-回避者",
-      "link": "https://crates.io/crates/qr-swastika-avoider",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-14T22:46:41",
-      "excerpt": "記事の URL: https://crates.io/crates/qr-swastika-avoider コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
