@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-15T20:01:11",
+  "generated_at": "2026-07-15T21:27:13",
   "window_hours": 24,
-  "total": 260,
+  "total": 264,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。ハードウェア貿易上の窃盗疑惑をめぐってAppleと法廷闘争を繰り広げているOpenAIは、同社のエージェントコーディングアプリと組み合わせるように設計されたライトアップキーボードをリリースしたばかりだ。",
+      "summary": "生成AIの新着が47件。非エンジニアでもAIを活用することで業務効率化に役立つシステムを構築できるようになる今、組織で管理されていない「野良システム」のリスクが高まっている。この問題にどう向き合えばよいのか？…",
       "articles": [
+        {
+          "title": "生成AIで激変した“野良システム”問題　ヒヤリハットが起きたRelicはどう対策したか",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/16/news007.html",
+          "source": "@IT",
+          "published": "2026-07-15T20:00:00",
+          "excerpt": "非エンジニアでもAIを活用することで業務効率化に役立つシステムを構築できるようになる今、組織で管理されていない「野良システム」のリスクが高まっている。この問題にどう向き合えばよいのか？…"
+        },
+        {
+          "title": "Brainless: Claude Code、Codex、Grok に似た Shadcn コンポーネント",
+          "link": "https://brainless.swerdlow.dev",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-15T19:42:53",
+          "excerpt": "記事の URL: https://brainless.swerdlow.dev コメント URL: https://news.ycombinator.com/item?id=48926085 ポイント: 25 コメント数: 3"
+        },
         {
           "title": "ハードウェア法廷闘争のさなか、OpenAI、Codex 向けに 230 ドルのキーボードをリリース",
           "link": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
@@ -22,28 +36,21 @@
           "source": "The Register（英語）",
           "published": "2026-07-15T17:04:18",
           "excerpt": "投資銀行は、乱雑な顧客データと「存在しない」製品を挙げています。Salesforceは、これが同社史上最も急成長している製品であると反論する…"
-        },
-        {
-          "title": "Show HN: Painterly – 生成 AI を使用せずに写真をデジタル絵画に変換します",
-          "link": "https://github.com/jbunke/painterly",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-15T17:01:34",
-          "excerpt": "Painterly は、入力画像を一筆ごとに「ペイント」してデジタル ペインティングを作成するアプリケーションです。GenAI は、実稼働パイプラインのどの部分でも使用されていません。…"
-        },
-        {
-          "title": "OpenAI の最初のブランド ハードウェアは...光るキーボード?",
-          "link": "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-07-15T16:00:33",
-          "excerpt": "Codex Micro は、複数のエージェント スレッドを一目で監視できるように設計されています。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が25件。Amazon Relational Database Service (RDS) は、Amazon Aurora PostgreSQL、RDS for PostgreSQL、RDS for MySQL、および RDS for MariaDB…",
+      "summary": "クラウドの新着が25件。Amazon CloudWatch の新機能 lookup processor を使い、VPC Flow Logs の送信元IPアドレスからチーム名やサービス名を自動付与する構成を試しました。…",
       "articles": [
+        {
+          "title": "CloudWatchの新機能「lookup processor」で VPC Flow Logs をエンリッチしてみた",
+          "link": "https://dev.classmethod.jp/articles/cloudwatch-lookup-processor-vpc-flow-logs-enrichment/",
+          "source": "DevelopersIO",
+          "published": "2026-07-15T20:31:59",
+          "excerpt": "Amazon CloudWatch の新機能 lookup processor を使い、VPC Flow Logs の送信元IPアドレスからチーム名やサービス名を自動付与する構成を試しました。…"
+        },
         {
           "title": "Amazon RDS と Aurora は、R8gd と M8gd を追加のリージョンに拡張します",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/",
@@ -64,20 +71,13 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-15T16:15:00",
           "excerpt": "Amazon RDS では、24 時間のローリングウィンドウ内でデータベース インスタンスごとに最大 4 つのストレージ変更が可能になりました。…"
-        },
-        {
-          "title": "【Amazon Linux 2023】nginx+vsftpd構成の静的配信EC2（AL2）からの新規移行記録",
-          "link": "https://zenn.dev/ykbone/articles/202607-linux-al2023-migration",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-15T15:46:28",
-          "excerpt": "はじめに Amazon Linux 2 (AL2) のサポート終了に伴い、静的サイトを配信しているEC2をAmazon Linux 2023 (AL2023) へ移行しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が20件。グーグル最大の太陽光発電・蓄電池プロジェクトは、近くにあるxAIの無許可発電所とは顕著な対照をなしている。",
+      "summary": "セキュリティの新着が19件。グーグル最大の太陽光発電・蓄電池プロジェクトは、近くにあるxAIの無許可発電所とは顕著な対照をなしている。",
       "articles": [
         {
           "title": "Google最大のクリーンパワープロジェクトはxAIの未認可ガス発電所から北へ40マイルにある",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Amazon OpenSearch Service は、 Agent Toolkit for AWS と統合され、Claude Code、Kiro、Cursor などの AI コーディング エージェントから OpenSearch Servi…",
+      "summary": "データ分析の新着が5件。Amazon MQ では、インスタンス タイプに関係なく、RabbitMQ ブローカーの EBS ディスク ストレージ サイズを設定できるようになりました。…",
       "articles": [
+        {
+          "title": "Amazon MQ が RabbitMQ ブローカーの構成可能なストレージをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mq-rabbitmq-configurable-storage/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-15T18:18:00",
+          "excerpt": "Amazon MQ では、インスタンス タイプに関係なく、RabbitMQ ブローカーの EBS ディスク ストレージ サイズを設定できるようになりました。…"
+        },
         {
           "title": "Amazon OpenSearch Service が、厳選されたスキルを備えた AWS 用エージェント ツールキットをサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-agent/",
@@ -134,13 +141,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-15T06:40:15",
           "excerpt": "はじめに「50万円以上の申請はいくつありますか？」「承認済みの購買申請を一覧表示してください」「今月申請されたデータを確認したい」このような業務データの確認を、毎回SQLで行うのは手間がかかります。…"
-        },
-        {
-          "title": "Amazon Bedrock AgentCore ObservabilityのTraceから回帰ケースを作り、改善前後を比較してみた",
-          "link": "https://zenn.dev/fusic/articles/82df2ab56f9e76",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-15T03:01:05",
-          "excerpt": "はじめに Fusicのレオナです。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "ダニエル・エク氏のボディスキャンスタートアップ、Neko Health がさらに 7 億ドルを調達",
-      "link": "https://techcrunch.com/2026/07/15/daniel-eks-body-scanning-startup-neko-health-raises-another-700m/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-15T19:46:54",
-      "excerpt": "Neo Health は、血液検査と組み合わせて人の健康状態を評価する独自のボディスキャン技術を開発しました。"
+      "title": "Sensitive Data Protectionを利用して各匿名化手法を試してみた",
+      "link": "https://dev.classmethod.jp/articles/trying-out-various-deidentification-methods-using-sensitive-data-protection/",
+      "source": "DevelopersIO",
+      "published": "2026-07-15T20:57:55",
+      "excerpt": "Google CloudのSensitive Data Protectionを使用した個人情報の自動検出と匿名化手法を解説。削除、マスキング、暗号化など11の変換方式とPython実装例を紹介。開発環境やログのPII漏洩防止に最適です。"
     },
     {
-      "title": "恐ろしいコマンドラインゲーム「Duskers」に続編が登場",
-      "link": "https://elbowgreasegames.substack.com/p/misfits-attic-announces-duskers-20",
+      "title": "グロクビルド",
+      "link": "https://github.com/xai-org/grok-build",
       "source": "Hacker News（英語）",
-      "published": "2026-07-15T19:27:59",
-      "excerpt": "記事の URL: https://elbowgreasegames.substack.com/p/misfits-attic-announces-duskers-20 コメント URL: https://news.ycombinator.…"
+      "published": "2026-07-15T20:24:58",
+      "excerpt": "記事の URL: https://github.com/xai-org/grok-build コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "FCC、トランプ寄りの報道機関の支援でテレビ所有率の39％制限を撤廃へ",
-      "link": "https://arstechnica.com/tech-policy/2026/07/fcc-to-repeal-39-tv-ownership-cap-in-boost-for-trump-friendly-news-orgs/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-15T18:52:22",
-      "excerpt": "FCC委員長は議会が定めたテレビ所有制限を撤廃する権限を主張。"
-    },
-    {
-      "title": "Microsoft、ビデオゲーム「Age of Empires II」のバグを修正",
-      "link": "https://techcrunch.com/2026/07/15/microsoft-patches-bug-in-video-game-age-of-empires-ii/",
+      "title": "テキサス州で死亡事故を起こしたテスラ運転手はアクセルを100％踏み続けた、NTSBが認める",
+      "link": "https://techcrunch.com/2026/07/15/tesla-driver-in-fatal-texas-crash-pressed-accelerator-100-ntsb-confirms/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-15T18:47:01",
-      "excerpt": "この数十年前のゲームの脆弱性により、ハッカーが悪意のあるゲームへの招待を使って被害者のコンピュータを乗っ取ることができた可能性があります。"
+      "published": "2026-07-15T20:22:52",
+      "excerpt": "安全委員会は、先月事故が発生してから数日後にテスラが共有した事故に関するテスラの説明を確認した。"
+    },
+    {
+      "title": "Microsoftが記録的な数のパッチをリリースしたのと同じ日にWindows 0-dayが終了",
+      "link": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-15T19:59:48",
+      "excerpt": "HiveLegacy は「強力なプリミティブ」であり、おそらく他の不正行為が可能です。"
     }
   ]
 }
