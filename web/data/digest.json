@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-16T20:44:15",
+  "generated_at": "2026-07-16T21:54:31",
   "window_hours": 24,
-  "total": 262,
+  "total": 261,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が43件。記事の URL: https://lmstudio.ai/blog/introducing-lm-studio-bionic コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が44件。Libretto PR エージェントは、Playwright ブラウザの自動化を維持するための無料の TypeScript ライブラリです。…",
       "articles": [
+        {
+          "title": "Show HN: Libretto PR エージェント – 失敗した劇作家スクリプトを自動的に修正する",
+          "link": "https://libretto.sh/debug-agents",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-16T20:21:27",
+          "excerpt": "Libretto PR エージェントは、Playwright ブラウザの自動化を維持するための無料の TypeScript ライブラリです。…"
+        },
         {
           "title": "LM Studio Bionic: オープン モデル用の AI エージェント",
           "link": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
@@ -29,21 +36,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-16T17:14:33",
           "excerpt": "この記事でやること この記事では、Claude CodeにAWS MCP Serverを設定し、実際にAWSリソースの情報を取得・作成をしてみます。環境 項目 バージョン等 OS Windows 11 Claude Code v2.1.…"
-        },
-        {
-          "title": "「古典的な」機械学習による LLM 生成テキストの検出",
-          "link": "https://blog.lyc8503.net/en/post/llm-classifier/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-16T16:41:37",
-          "excerpt": "記事の URL: https://blog.lyc8503.net/en/post/llm-classifier/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が29件。Google Cloud の Cloud Run が GitHub Container Registry（GHCR）のパブリックコンテナイメージを直接デプロイする機能が GA となりました。追加手順なしで ghcr.…",
+      "summary": "クラウドの新着が30件。Amazon EC2の describe-images APIレスポンスに、PublicSsmParameterName フィールドが追加されました。…",
       "articles": [
+        {
+          "title": "Amazon EC2のdescribe-imagesでパブリックAMIに関連付けられたSSMパラメータ名を確認できるようになりました",
+          "link": "https://dev.classmethod.jp/articles/ec2-public-ami-ssm-parameter-name/",
+          "source": "DevelopersIO",
+          "published": "2026-07-16T21:43:22",
+          "excerpt": "Amazon EC2の describe-images APIレスポンスに、PublicSsmParameterName フィールドが追加されました。…"
+        },
+        {
+          "title": "T-Mobile がプランの強制移行に失敗し、一部のユーザーの無料回線をキャンセル",
+          "link": "https://arstechnica.com/tech-policy/2026/07/t-mobile-bungled-forced-plan-migration-canceling-some-users-free-lines/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-07-16T20:52:47",
+          "excerpt": "T-Mobileはプラン移行中に失われた無料回線を復活させるが、値上げは続いている。"
+        },
         {
           "title": "【アップデート】Cloud Run で GitHub Container Registry（GHCR）のパブリックコンテナイメージを直接デプロイする機能がリリースされました",
           "link": "https://dev.classmethod.jp/articles/cloud-run-update-deploy-github-container-registry-public-images-directly/",
@@ -57,28 +71,21 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-16T18:20:00",
           "excerpt": "Amazon EC2 は、パブリック AMI に関連付けられた AWS Systems Manager (SSM) パラメータ ストアのパラメータを AMI メタデータに直接表示するようになりました。…"
-        },
-        {
-          "title": "PostgreSQL 19 Beta 2 が Amazon RDS データベース プレビュー環境で利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/postgresql-19-beta-2-amazon-rds-database-preview-environment/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-16T18:00:00",
-          "excerpt": "Amazon RDS for PostgreSQL 19 ベータ 2 は、 Amazon RDS データベース プレビュー環境 。…"
-        },
-        {
-          "title": "Amazon S3 イベント通知にシステム生成タグが含まれるようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-16T18:00:00",
-          "excerpt": "Amazon S3 イベント通知には、Amazon EventBridge、Amazon SQS、Amazon SNS、AWS Lambda などのすべての宛先に配信されるイベントにシステム生成のタグが含まれるようになりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。ランサムウェア攻撃への対応は身代金を払うかどうかだけでなく、攻撃者との交渉をどう活用するかが経営上の重要な判断となる。…",
+      "summary": "セキュリティの新着が16件。コカ・コーラは、ハッキングを受けて、米国で同社フェアライフ部門の乳製品生産は「引き続き停止される」と発表した。",
       "articles": [
+        {
+          "title": "コカ・コーラ、ランサムウェア攻撃を受けてフェアライフ乳業の生産を一時停止",
+          "link": "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-16T21:22:31",
+          "excerpt": "コカ・コーラは、ハッキングを受けて、米国で同社フェアライフ部門の乳製品生産は「引き続き停止される」と発表した。"
+        },
         {
           "title": "ランサムウェア攻撃者との交渉が被害企業にとって強力な武器となり得る理由",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/17/news002.html",
@@ -99,21 +106,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-16T11:39:05",
           "excerpt": "対象読者: AWS のインフラ構築経験はあるが、Security Hub はまだ使ったことがない方。筆者自身も学びながら書いているので、「最初にこれを知っていれば迷わなかった」という順番で整理します。…"
-        },
-        {
-          "title": "Windows 10 は死ぬことを拒否し、セキュリティ法案の期限が近づいている",
-          "link": "https://www.theregister.com/os-platforms/2026/07/16/windows-10-refuses-to-die-and-the-security-bill-is-coming-due/5271987",
-          "source": "The Register（英語）",
-          "published": "2026-07-16T11:25:20",
-          "excerpt": "移行が停滞し、パッチの期限が刻々と近づいているため、6 台に 1 台のマシンが依然として古い OS を実行しています。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。記事の URL: https://lmstudio.ai/blog/introducing-lm-studio-bionic コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "データ分析の新着が9件。T-Mobileはプラン移行中に失われた無料回線を復活させるが、値上げは続いている。",
       "articles": [
+        {
+          "title": "T-Mobile がプランの強制移行に失敗し、一部のユーザーの無料回線をキャンセル",
+          "link": "https://arstechnica.com/tech-policy/2026/07/t-mobile-bungled-forced-plan-migration-canceling-some-users-free-lines/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-07-16T20:52:47",
+          "excerpt": "T-Mobileはプラン移行中に失われた無料回線を復活させるが、値上げは続いている。"
+        },
         {
           "title": "LM Studio Bionic: オープン モデル用の AI エージェント",
           "link": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
@@ -134,13 +141,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-16T11:12:26",
           "excerpt": "はじめにFusicのレオナです。今回は、BigQuery MLのTimesFMを使い、電力需要を1週間先まで予測してみました。TimesFMは、Google Researchが公開している時系列予測用の基盤モデルです。…"
-        },
-        {
-          "title": "【AWS Summit Japan 2026】Amazon DynamoDB アドバンスドデータモデリング セッションレポート | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/aws-summit-2026-dynamodb-advanced-data-modeling",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-16T10:07:44",
-          "excerpt": "はじめに このセッションで学べること 前提知識・条件 セッション内容 セッション概要 Amazon DynamoDB の特性 フルマネージド分散 NoSQL データベース 従量課金モデル パーティショニングと一貫した性能 データモデリングの…"
         }
       ]
     },
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "公式発表：EUはGoogleに検索データの共有とAndroid上でのAIの開放を強制する",
+      "link": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-16T20:41:45",
+      "excerpt": "Googleは、これらの変更はユーザーのプライバシーとセキュリティを危険にさらす可能性があると述べている。"
+    },
+    {
+      "title": "データサイエンスの数学",
+      "link": "https://arxiv.org/abs/2607.11938",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-16T20:38:48",
+      "excerpt": "記事の URL: https://arxiv.org/abs/2607.11938 コメント URL: https://news.ycombinator.com/item?id=48939896 ポイント: 13 コメント数: 0"
+    },
+    {
       "title": "CloudWatch Logs Insightsに追加された新コマンド・関数25個を検証してみた（2026年7月版）",
       "link": "https://dev.classmethod.jp/articles/cloudwatch-logs-insights-new-commands-functions-2026-july/",
       "source": "DevelopersIO",
@@ -189,25 +203,11 @@
       "excerpt": "2026年7月にCloudWatch Logs Insightsへ追加された新コマンド・関数25個を検証しました。…"
     },
     {
-      "title": "タイムライン スキャン – AI がスキャンした写真の日付を修正します",
-      "link": "https://timelinescan.com/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-16T20:25:47",
-      "excerpt": "記事の URL: https://timelinescan.com/ コメント URL: https://news.ycombinator.com/item?id=48939764 ポイント: 3 コメント数: 1"
-    },
-    {
-      "title": "生理トラッカーに隠されたプライバシーの問題",
-      "link": "https://www.bbc.com/future/article/20260715-how-period-trackers-share-womens-private-details",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-16T20:15:58",
-      "excerpt": "記事の URL: https://www.bbc.…"
-    },
-    {
-      "title": "Show HN: Bonebox-01 – 29KB ベアメタル x86 OS (80 KiB、Tiny Core を殺すために構築)",
-      "link": "https://github.com/Deadbytes101/BONEBOX-01",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-16T20:11:21",
-      "excerpt": "GitHub でこのプロジェクトを見つけましたが、まったく静かでした。詳しく調べてみると、注目に値すると思います。コメント URL: https://news.ycombinator.com/item?…"
+      "title": "xAI はもう Grok が CSAM を作っていることを否定できません。そこでユーザーを訴えている。",
+      "link": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-16T20:26:23",
+      "excerpt": "イーロン・マスク氏のxAIが、児童セックス画像を作成したとして告発されたGrokユーザーに対して初の訴訟を起こす。"
     }
   ]
 }
