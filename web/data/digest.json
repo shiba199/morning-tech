@@ -1,118 +1,118 @@
 {
-  "generated_at": "2026-07-16T00:54:19",
+  "generated_at": "2026-07-16T03:54:39",
   "window_hours": 24,
-  "total": 266,
+  "total": 263,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が48件。Claude Code v2.1.211がリリースされました。プロンプトキャッシュの誤課金リグレッション修正やバックグラウンドエージェント周りの不具合解消が中心で、承認メッセージの見た目を偽装する脆弱性への対処も含まれています。",
+      "summary": "生成AIの新着が45件。WSL 上で Claude Code 使用時に画面が崩れてしまいました。pinentry のマウストラッキング機能と TUI 描画の競合が原因だったため、GUI 版への切り替えで解決した手順をまとめました。…",
       "articles": [
         {
-          "title": "Claude Code v2.1.211 の主要アップデート",
-          "link": "https://dev.classmethod.jp/articles/20260711-cc-updates-v2-1-211/",
+          "title": "WSL 上の Claude Code 文字化けを pinentry-gtk2 で解決した",
+          "link": "https://dev.classmethod.jp/articles/wsl-garbled-text-fix/",
           "source": "DevelopersIO",
-          "published": "2026-07-16T00:45:39",
-          "excerpt": "Claude Code v2.1.211がリリースされました。プロンプトキャッシュの誤課金リグレッション修正やバックグラウンドエージェント周りの不具合解消が中心で、承認メッセージの見た目を偽装する脆弱性への対処も含まれています。"
+          "published": "2026-07-16T03:24:52",
+          "excerpt": "WSL 上で Claude Code 使用時に画面が崩れてしまいました。pinentry のマウストラッキング機能と TUI 描画の競合が原因だったため、GUI 版への切り替えで解決した手順をまとめました。…"
         },
         {
-          "title": "Amazon Quick のカスタムエージェントでデータセットQ&A から S3 への書き込みを自動化しようとしたが標準コネクタではできなかった",
-          "link": "https://dev.classmethod.jp/articles/quick-flow-automation-datasetqa-to-s3/",
+          "title": "「Claude Code × Obsidianを使って朝の業務ルーティーンを自動化してみた」",
+          "link": "https://dev.classmethod.jp/articles/myan-morning-routine-claudecode-obsidian-01/",
           "source": "DevelopersIO",
-          "published": "2026-07-16T00:43:30",
-          "excerpt": "Amazon Quickのカスタムエージェントでデータセット分析から予測生成、S3への自動書き込みまでを実現するパイプラインを構築しようとしたのですが、標準機能の組み合わせでは実現できませんでした。…"
+          "published": "2026-07-16T01:57:38",
+          "excerpt": "Claude CodeとObsidianを使って、毎朝の業務確認作業を自動化してみました！GoogleカレンダーとObsidianを連携させ、スラッシュコマンド一つで日次ノートを自動生成する仕組みを紹介します。"
         },
         {
-          "title": "【開催報告】AWS Summit Japan 2026 ― AI で加速する製品イノベーション 〜マルチエージェントで実現する製品開発",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-summit-2026-product-innovation/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-16T00:23:43",
-          "excerpt": "はじめに AWS Summit Japan 2026 の流通小売・消費財・飲食ブースにて、私たちは「AI で加 […]"
+          "title": "生成AIが海外エキスパートへの深掘り質問やレポート化を自律進行、ビザスク新機能が10月末まで無料体験可能に",
+          "link": "https://codezine.jp/article/detail/29002",
+          "source": "CodeZine",
+          "published": "2026-07-16T01:45:00",
+          "excerpt": "生成AIが海外エキスパートへの深掘り質問やレポート化を自律進行、ビザスク新機能が10月末まで無料体験可能に"
         },
         {
-          "title": "MicrosoftはOpenAIとAnthropicを黙らせるよう営業担当者を訓練していると伝えられている",
-          "link": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-15T23:59:44",
-          "excerpt": "Microsoftは、自社のAIモデルを競合他社のモデルよりも効率的でコスト効率が高いものとして売り出そうとしている。"
+          "title": "vertexai.ragからagentplatformへの移行で踏んだ3つの罠",
+          "link": "https://dev.classmethod.jp/articles/vertexai-rag-to-agentplatform-migration-pitfalls/",
+          "source": "DevelopersIO",
+          "published": "2026-07-16T01:20:20",
+          "excerpt": "vertexai.ragからagentplatformへの移行で踏んだ、3つの罠を共有します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が28件。Amazon Quickのカスタムエージェントでデータセット分析から予測生成、S3への自動書き込みまでを実現するパイプラインを構築しようとしたのですが、標準機能の組み合わせでは実現できませんでした。…",
+      "summary": "クラウドの新着が29件。Auroraは「MySQL/PostgreSQLの顔をした化け物スペックRDB」 🐉 Auroraは「互換性を保ったまま化ける」DB AuroraはMySQL/PostgreSQL互換のリレーショナルDB。…",
       "articles": [
+        {
+          "title": "【Aurora編】SAA先生に学ぶAWSの全容と授業メモ",
+          "link": "https://qiita.com/minifish33/items/56f1331b7701c6f369c5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-16T03:51:07",
+          "excerpt": "Auroraは「MySQL/PostgreSQLの顔をした化け物スペックRDB」 🐉 Auroraは「互換性を保ったまま化ける」DB AuroraはMySQL/PostgreSQL互換のリレーショナルDB。…"
+        },
+        {
+          "title": "Amazon S3に設定するアカウントレベルのブロックパブリックアクセス設定の挙動について",
+          "link": "https://qiita.com/h_horiguchi/items/694c3aa7636a30a03df8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-16T02:23:33",
+          "excerpt": "はじめに 本稿では、Amazon S3に設定するアカウントレベルのブロックパブリックアクセス設定の挙動について記載します。Amazon S3のユーザーガイドには、以下の記載があります。…"
+        },
+        {
+          "title": "vertexai.ragからagentplatformへの移行で踏んだ3つの罠",
+          "link": "https://dev.classmethod.jp/articles/vertexai-rag-to-agentplatform-migration-pitfalls/",
+          "source": "DevelopersIO",
+          "published": "2026-07-16T01:20:20",
+          "excerpt": "vertexai.ragからagentplatformへの移行で踏んだ、3つの罠を共有します。…"
+        },
         {
           "title": "Amazon Quick のカスタムエージェントでデータセットQ&A から S3 への書き込みを自動化しようとしたが標準コネクタではできなかった",
           "link": "https://dev.classmethod.jp/articles/quick-flow-automation-datasetqa-to-s3/",
           "source": "DevelopersIO",
           "published": "2026-07-16T00:43:30",
           "excerpt": "Amazon Quickのカスタムエージェントでデータセット分析から予測生成、S3への自動書き込みまでを実現するパイプラインを構築しようとしたのですが、標準機能の組み合わせでは実現できませんでした。…"
-        },
-        {
-          "title": "Amazon RDS のストレージ変更が24時間に最大4回まで可能になったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-rds-storage-4-modifications-24-hours/",
-          "source": "DevelopersIO",
-          "published": "2026-07-15T21:33:05",
-          "excerpt": "Amazon RDS でストレージのサイズ変更・タイプ変更・性能変更が24時間で最大4回まで可能になりました。従来の6時間クールオフ制限が撤廃されています。…"
-        },
-        {
-          "title": "アマゾン ウェブ サービスの最も声高な顧客は現在 EC2 を実行しています",
-          "link": "https://www.theregister.com/paas-and-iaas/2026/07/15/aws-ec2-leadership-change-dave-treadwell-replaces-brown/5272154",
-          "source": "The Register（英語）",
-          "published": "2026-07-15T20:54:37",
-          "excerpt": "小売財団リーダーのデイブ・トレッドウェル氏が上級リーダーに就任し、19年間の退役軍人であるデイブ・ブラウン氏が未知の牧草地へ出発"
-        },
-        {
-          "title": "CloudWatchの新機能「lookup processor」で VPC Flow Logs をエンリッチしてみた",
-          "link": "https://dev.classmethod.jp/articles/cloudwatch-lookup-processor-vpc-flow-logs-enrichment/",
-          "source": "DevelopersIO",
-          "published": "2026-07-15T20:31:59",
-          "excerpt": "Amazon CloudWatch の新機能 lookup processor を使い、VPC Flow Logs の送信元IPアドレスからチーム名やサービス名を自動付与する構成を試しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。開発現場で日常的に利用されるPHP向けパッケージ管理ツール「Composer」に、複数の脆弱性が見つかった。…",
+      "summary": "セキュリティの新着が17件。AWS Security Hub CSPM のセキュリティ基準が13個に増えて「どれを選べばいいの？」と迷っていませんか。本記事では、現在選べるすべての基準を整理し、目的別に有効化すべき基準をフローチャートで判断できるようにまとめました。",
       "articles": [
+        {
+          "title": "【2026年7月版】 増え続ける AWS Security Hub CSPM のセキュリティ基準を、目的別に選べるよう整理してみた",
+          "link": "https://dev.classmethod.jp/articles/security-hub-cspm-standards-selection-guide/",
+          "source": "DevelopersIO",
+          "published": "2026-07-16T03:21:03",
+          "excerpt": "AWS Security Hub CSPM のセキュリティ基準が13個に増えて「どれを選べばいいの？」と迷っていませんか。本記事では、現在選べるすべての基準を整理し、目的別に有効化すべき基準をフローチャートで判断できるようにまとめました。"
+        },
+        {
+          "title": "Security Hub の Network Scanning で「本当に外から届くのか」を確認してみた | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/securityhub-network-scanning",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-16T02:30:00",
+          "excerpt": "今月誕生日の人、おめでとうございます🎉 エデュケーショナルサービス課の森純子です。「セキュリティグループは閉じたはずなのに、本当に外から到達できないか不安…」そんなお悩み、ありませんか？…"
+        },
+        {
+          "title": "GitHub CopilotアプリにAI駆動のセキュリティレビュー機能が追加",
+          "link": "https://codezine.jp/article/detail/28992",
+          "source": "CodeZine",
+          "published": "2026-07-16T01:00:00",
+          "excerpt": "GitHub CopilotアプリにAI駆動のセキュリティレビュー機能が追加"
+        },
         {
           "title": "PHP向けパッケージ管理ツール「Composer」に脆弱性　更新前に確認したい3つのリスク",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/16/news040.html",
           "source": "@IT",
           "published": "2026-07-15T23:00:00",
           "excerpt": "開発現場で日常的に利用されるPHP向けパッケージ管理ツール「Composer」に、複数の脆弱性が見つかった。…"
-        },
-        {
-          "title": "npmサプライチェーン攻撃は新段階に　ClaudeやCursorを狙う自己増殖マルウェアの正体",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/16/news039.html",
-          "source": "@IT",
-          "published": "2026-07-15T22:30:00",
-          "excerpt": "ソフトウェアサプライチェーン攻撃は、AI開発環境も標的にし始めた。AsyncAPI関連パッケージから見つかった悪性コードは、自ら感染を広げるだけでなく、Claude CodeやCursorなどの設定を書き換える機能まで搭載していたという。…"
-        },
-        {
-          "title": "「国産だから安心」はもう通用しない？　セキュリティ新基準「日本度」の詳細を深掘り",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/16/news019.html",
-          "source": "@IT",
-          "published": "2026-07-15T22:00:00",
-          "excerpt": "「国産セキュリティ製品」とは何を意味するのか。日本サイバーセキュリティ産業振興コミュニティは、その曖昧な概念を「国内自律性」という観点から評価する新指標「日本度」を公開した。ただ、自己申告をベースとした制度には透明性など今後の課題もある。…"
-        },
-        {
-          "title": "Google最大のクリーンパワープロジェクトはxAIの未認可ガス発電所から北へ40マイルにある",
-          "link": "https://techcrunch.com/2026/07/15/googles-biggest-clean-power-project-is-40-miles-north-of-xais-unpermitted-gas-power-plant/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-15T17:39:54",
-          "excerpt": "グーグル最大の太陽光発電・蓄電池プロジェクトは、近くにあるxAIの無許可発電所とは顕著な対照をなしている。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。Amazon OpenSearch Service に、書き込み可能なウォームストレージ (writable warm) が加わりました。…",
+      "summary": "データ分析の新着が5件。Amazon OpenSearch Service に、書き込み可能なウォームストレージ (writable warm) が加わりました。…",
       "articles": [
         {
           "title": "Amazon OpenSearch Service の書き込み可能なウォームストレージでコストと運用負荷を削減",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。AWS CDK の `cdk drift` でもドリフト検知は可能ですが、対象は CloudFormation テンプレートで管理されるプロパティの変更に限られます。…",
+      "summary": "開発ツールの新着が8件。GitHub CopilotアプリにAI駆動のセキュリティレビュー機能が追加",
       "articles": [
+        {
+          "title": "GitHub CopilotアプリにAI駆動のセキュリティレビュー機能が追加",
+          "link": "https://codezine.jp/article/detail/28992",
+          "source": "CodeZine",
+          "published": "2026-07-16T01:00:00",
+          "excerpt": "GitHub CopilotアプリにAI駆動のセキュリティレビュー機能が追加"
+        },
         {
           "title": "CDKのドリフト検出ツール「cdk-real-drift」を試してみた",
           "link": "https://dev.classmethod.jp/articles/cdk-real-drift-try/",
@@ -169,45 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-15T11:37:11",
           "excerpt": "AWS Lambda コンソールに追加された「ワンクリックセットアッププロンプト」を使って、コーディングエージェントを簡単にセットアップしてみました。Claude Code で実際に試して、セットアップ手順と動作確認の結果をご紹介します。"
-        },
-        {
-          "title": "EC2にSSHせずSSM Session Managerで接続するTerraform構成",
-          "link": "https://qiita.com/Asano-S/items/0fd6ccf891755c502287",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-15T10:19:27",
-          "excerpt": "はじめに 個人開発アプリをAWSへ公開するためのTerraform Packを作り始めた当初、EC2への接続は普通にSSHでよいと思っていました。ただ、Security Groupや運用手順を考えている途中で、少し引っかかりました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "グレイロックは、もっと多くの資金を調達できたはずなのに、なぜ新規ファンドの上限を15億ドルに設定したのか",
-      "link": "https://techcrunch.com/2026/07/15/why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-16T00:20:42",
-      "excerpt": "グレイロックは、ファンドあたりの投資数を約25件に抑えることで、創設者にとって「最も重要なパートナー」であり続けることを目指している。"
-    },
-    {
-      "title": "【備忘】【AWS関連】公式ブログ および アップデートまとめ（ネットワーク関連のみ抽出）(2026/07/06)",
-      "link": "https://qiita.com/dctsatopy/items/c4989da24f876bd6e2f2",
+      "title": "AWSアカウントでMFAを失うと想像以上に復旧が大変だった話",
+      "link": "https://qiita.com/20230420/items/ab7d4f04fd1b373cb0c5",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-16T00:10:34",
-      "excerpt": "この記事について AWS 公式が公表している週刊 AWS やアップデート情報の中から、ネットワークリソース関連の情報を集約して把握するため、Claude を活用してサマリーを生成・出力しています。…"
+      "published": "2026-07-16T03:53:53",
+      "excerpt": "経緯 数年ぶりに個人のAWSアカウントへログインしようとしたところ、MFAを削除してしまっていたことに気付きました。原因は、自分の操作ミスでした。…"
     },
     {
-      "title": "【追加登録も受付中】デブサミ夏は本日11時からJPタワー（東京駅3分）にて！",
-      "link": "https://codezine.jp/article/detail/28991",
-      "source": "CodeZine",
-      "published": "2026-07-16T00:00:00",
-      "excerpt": "【追加登録も受付中】デブサミ夏は本日11時からJPタワー（東京駅3分）にて！"
+      "title": "ゲリラロンドンバス広告がカイリー・ジェンナーのメタグラスキャンペーンを模倣",
+      "link": "https://hyperallergic.com/guerrilla-london-bus-ads-mock-kylie-jenners-meta-glasses-campaign/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-16T03:24:25",
+      "excerpt": "記事の URL: https://hyperallergic.…"
     },
     {
-      "title": "30年分の失敗から学べ！ メーカーの元ソフトウェアリーダーが語る、良いチームの条件とリーダーに必要な素質",
-      "link": "https://codezine.jp/article/detail/24633",
-      "source": "CodeZine",
-      "published": "2026-07-16T00:00:00",
-      "excerpt": "管理職として取り組んできた、メンバーに対する目標設定も、権限委譲も、心理的安全性の確保も、「やっているつもり」で、実は何も機能していなかった──Developers Summit 2026（デブサミ2026）でそう打ち明けたのは、コニカミノ…"
+      "title": "フリート: マルチダイ GPU 上のメガカーネルの階層型タスクベースの抽象化",
+      "link": "https://arxiv.org/abs/2604.15379",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-16T02:55:19",
+      "excerpt": "記事の URL: https://arxiv.org/abs/2604.15379 コメント URL: https://news.ycombinator.com/item?id=48929856 ポイント: 4 コメント数: 0"
+    },
+    {
+      "title": "朝のクレカ障害、復旧か　日本カードネットワーク「原因はうちじゃない」",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/16/news071.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-16T02:42:00",
+      "excerpt": "「障害の原因はCARDNETでは」との憶測も流れたが、日本カードネットワークの担当者によると「原因は当社ではない」という。"
     }
   ]
 }
