@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-16T03:54:39",
+  "generated_at": "2026-07-16T06:09:21",
   "window_hours": 24,
-  "total": 263,
+  "total": 270,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。WSL 上で Claude Code 使用時に画面が崩れてしまいました。pinentry のマウストラッキング機能と TUI 描画の競合が原因だったため、GUI 版への切り替えで解決した手順をまとめました。…",
+      "summary": "生成AIの新着が44件。Amazon Bedrock 上で、基盤モデル (FM) の一種である大規模言語モデル (LLM) の利用が拡 […]",
       "articles": [
         {
-          "title": "WSL 上の Claude Code 文字化けを pinentry-gtk2 で解決した",
-          "link": "https://dev.classmethod.jp/articles/wsl-garbled-text-fix/",
-          "source": "DevelopersIO",
-          "published": "2026-07-16T03:24:52",
-          "excerpt": "WSL 上で Claude Code 使用時に画面が崩れてしまいました。pinentry のマウストラッキング機能と TUI 描画の競合が原因だったため、GUI 版への切り替えで解決した手順をまとめました。…"
+          "title": "Amazon Bedrock における LLM コストの最適化：請求の帰属から運用テレメトリまで",
+          "link": "https://aws.amazon.com/jp/blogs/news/optimize-llm-costs-on-amazon-bedrock-from-billing-attribution-to-operational-telemetry/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-07-16T05:38:07",
+          "excerpt": "Amazon Bedrock 上で、基盤モデル (FM) の一種である大規模言語モデル (LLM) の利用が拡 […]"
         },
         {
-          "title": "「Claude Code × Obsidianを使って朝の業務ルーティーンを自動化してみた」",
-          "link": "https://dev.classmethod.jp/articles/myan-morning-routine-claudecode-obsidian-01/",
-          "source": "DevelopersIO",
-          "published": "2026-07-16T01:57:38",
-          "excerpt": "Claude CodeとObsidianを使って、毎朝の業務確認作業を自動化してみました！GoogleカレンダーとObsidianを連携させ、スラッシュコマンド一つで日次ノートを自動生成する仕組みを紹介します。"
-        },
-        {
-          "title": "生成AIが海外エキスパートへの深掘り質問やレポート化を自律進行、ビザスク新機能が10月末まで無料体験可能に",
-          "link": "https://codezine.jp/article/detail/29002",
+          "title": "新規事業での活用が進み仮説検証を高速化、リサーチ業務の生成AI利用率が95.8％に達した調査結果を発表",
+          "link": "https://codezine.jp/article/detail/29004",
           "source": "CodeZine",
-          "published": "2026-07-16T01:45:00",
-          "excerpt": "生成AIが海外エキスパートへの深掘り質問やレポート化を自律進行、ビザスク新機能が10月末まで無料体験可能に"
+          "published": "2026-07-16T05:15:00",
+          "excerpt": "新規事業での活用が進み仮説検証を高速化、リサーチ業務の生成AI利用率が95.8％に達した調査結果を発表"
         },
         {
-          "title": "vertexai.ragからagentplatformへの移行で踏んだ3つの罠",
-          "link": "https://dev.classmethod.jp/articles/vertexai-rag-to-agentplatform-migration-pitfalls/",
+          "title": "A2A と MCP は何が違う？エージェント間通信プロトコルの設計思想を整理してみた",
+          "link": "https://dev.classmethod.jp/articles/a2a-mcp-complementary-agent-protocol-design/",
           "source": "DevelopersIO",
-          "published": "2026-07-16T01:20:20",
-          "excerpt": "vertexai.ragからagentplatformへの移行で踏んだ、3つの罠を共有します。…"
+          "published": "2026-07-16T04:58:14",
+          "excerpt": "MCPはエージェントの「手と目」、A2Aは「口」。ツール連携用のMCPとエージェント間通信用のA2Aがなぜ相補的なのか、物流×在庫管理の具体例とトランスポート層の設計選択から整理しました。"
+        },
+        {
+          "title": "Anthropic OAuth トークン禁止で自律AIエージェントが停止した話と、Frontmatter プロンプト制御 + Claude Code 委任で立て直した方法",
+          "link": "https://dev.classmethod.jp/articles/claude-oauth-ban-agent-cost-optimization/",
+          "source": "DevelopersIO",
+          "published": "2026-07-16T04:43:20",
+          "excerpt": "AnthropicのOAuthトークン禁止で自律AIエージェントが停止した問題と、Frontmatterベースのプロンプト制御・Haikuディスパッチャー・Claude Code委任によるコスト最適化で立て直した方法を紹介します。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が29件。Auroraは「MySQL/PostgreSQLの顔をした化け物スペックRDB」 🐉 Auroraは「互換性を保ったまま化ける」DB AuroraはMySQL/PostgreSQL互換のリレーショナルDB。…",
+      "summary": "クラウドの新着が29件。terraform applyは成功している。GitHub Actionsも成功している。S3にはファイルが存在する。でも、個別記事のURLにアクセスすると403が返ってくる。トップページは表示される。記事一覧も表示される。…",
       "articles": [
+        {
+          "title": "Next.js静的サイトをS3 + CloudFrontで公開したら403になった話（CloudFront Functionで解決）",
+          "link": "https://qiita.com/yuki_engineer08/items/701fec4525242a42df3d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-16T04:28:43",
+          "excerpt": "terraform applyは成功している。GitHub Actionsも成功している。S3にはファイルが存在する。でも、個別記事のURLにアクセスすると403が返ってくる。トップページは表示される。記事一覧も表示される。…"
+        },
+        {
+          "title": "AIインフラ不足の解決策？　手間なしでAI検証環境を確保できる「Google Colab CLI」",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/16/news024.html",
+          "source": "@IT",
+          "published": "2026-07-16T04:00:00",
+          "excerpt": "Googleは、ローカル端末とリモートのColabランタイムをつなぐコマンドラインツール「Google Colab CLI」を公開した。開発者とAIエージェントの双方が、面倒な設定なしにGPU／TPUを使った実行環境を利用できる。"
+        },
         {
           "title": "【Aurora編】SAA先生に学ぶAWSの全容と授業メモ",
           "link": "https://qiita.com/minifish33/items/56f1331b7701c6f369c5",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-16T02:23:33",
           "excerpt": "はじめに 本稿では、Amazon S3に設定するアカウントレベルのブロックパブリックアクセス設定の挙動について記載します。Amazon S3のユーザーガイドには、以下の記載があります。…"
-        },
-        {
-          "title": "vertexai.ragからagentplatformへの移行で踏んだ3つの罠",
-          "link": "https://dev.classmethod.jp/articles/vertexai-rag-to-agentplatform-migration-pitfalls/",
-          "source": "DevelopersIO",
-          "published": "2026-07-16T01:20:20",
-          "excerpt": "vertexai.ragからagentplatformへの移行で踏んだ、3つの罠を共有します。…"
-        },
-        {
-          "title": "Amazon Quick のカスタムエージェントでデータセットQ&A から S3 への書き込みを自動化しようとしたが標準コネクタではできなかった",
-          "link": "https://dev.classmethod.jp/articles/quick-flow-automation-datasetqa-to-s3/",
-          "source": "DevelopersIO",
-          "published": "2026-07-16T00:43:30",
-          "excerpt": "Amazon Quickのカスタムエージェントでデータセット分析から予測生成、S3への自動書き込みまでを実現するパイプラインを構築しようとしたのですが、標準機能の組み合わせでは実現できませんでした。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。AWS Security Hub CSPM のセキュリティ基準が13個に増えて「どれを選べばいいの？」と迷っていませんか。本記事では、現在選べるすべての基準を整理し、目的別に有効化すべき基準をフローチャートで判断できるようにまとめました。",
+      "summary": "セキュリティの新着が17件。AWS WAFのRate-based ruleをCount モードとBlock モードで検証。EC2+ALB環境でheyを使ったリクエストの結果をダッシュボードで確認していきます。",
       "articles": [
+        {
+          "title": "AWS WAFのレートベースルールはどう動く？ダッシュボードでブロックの動作を確認してみた | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/dos-simulation-aws-waf-rate-based-rule",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-16T05:21:42",
+          "excerpt": "AWS WAFのRate-based ruleをCount モードとBlock モードで検証。EC2+ALB環境でheyを使ったリクエストの結果をダッシュボードで確認していきます。"
+        },
         {
           "title": "【2026年7月版】 増え続ける AWS Security Hub CSPM のセキュリティ基準を、目的別に選べるよう整理してみた",
           "link": "https://dev.classmethod.jp/articles/security-hub-cspm-standards-selection-guide/",
@@ -99,13 +106,6 @@
           "source": "CodeZine",
           "published": "2026-07-16T01:00:00",
           "excerpt": "GitHub CopilotアプリにAI駆動のセキュリティレビュー機能が追加"
-        },
-        {
-          "title": "PHP向けパッケージ管理ツール「Composer」に脆弱性　更新前に確認したい3つのリスク",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/16/news040.html",
-          "source": "@IT",
-          "published": "2026-07-15T23:00:00",
-          "excerpt": "開発現場で日常的に利用されるPHP向けパッケージ管理ツール「Composer」に、複数の脆弱性が見つかった。…"
         }
       ]
     },
@@ -147,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。GitHub CopilotアプリにAI駆動のセキュリティレビュー機能が追加",
+      "summary": "開発ツールの新着が10件。バクラク事業部 Platform Engineering 部 SRE グループの uehara です。LayerX のバクラクでは、LLMOps プラットフォームとして Langfuse を採用しています。…",
       "articles": [
+        {
+          "title": "Langfuse トレース取り込み処理の改善による ClickHouse の負荷低減 | LayerX エンジニアブログ",
+          "link": "https://tech.layerx.co.jp/entry/langfuse-clickhouse-read-skip",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-16T04:03:13",
+          "excerpt": "バクラク事業部 Platform Engineering 部 SRE グループの uehara です。LayerX のバクラクでは、LLMOps プラットフォームとして Langfuse を採用しています。…"
+        },
+        {
+          "title": "GitHub Copilot、6月に発表したVisual Studio向けの新機能を紹介",
+          "link": "https://codezine.jp/article/detail/28995",
+          "source": "CodeZine",
+          "published": "2026-07-16T04:00:00",
+          "excerpt": "GitHub Copilot、6月に発表したVisual Studio向けの新機能を紹介"
+        },
+        {
+          "title": "AIインフラ不足の解決策？　手間なしでAI検証環境を確保できる「Google Colab CLI」",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/16/news024.html",
+          "source": "@IT",
+          "published": "2026-07-16T04:00:00",
+          "excerpt": "Googleは、ローカル端末とリモートのColabランタイムをつなぐコマンドラインツール「Google Colab CLI」を公開した。開発者とAIエージェントの双方が、面倒な設定なしにGPU／TPUを使った実行環境を利用できる。"
+        },
         {
           "title": "GitHub CopilotアプリにAI駆動のセキュリティレビュー機能が追加",
           "link": "https://codezine.jp/article/detail/28992",
           "source": "CodeZine",
           "published": "2026-07-16T01:00:00",
           "excerpt": "GitHub CopilotアプリにAI駆動のセキュリティレビュー機能が追加"
-        },
-        {
-          "title": "CDKのドリフト検出ツール「cdk-real-drift」を試してみた",
-          "link": "https://dev.classmethod.jp/articles/cdk-real-drift-try/",
-          "source": "DevelopersIO",
-          "published": "2026-07-15T16:29:52",
-          "excerpt": "AWS CDK の `cdk drift` でもドリフト検知は可能ですが、対象は CloudFormation テンプレートで管理されるプロパティの変更に限られます。…"
-        },
-        {
-          "title": "【GitHub Actions】鍵を置かずに AWS へ入れたのに、承認者が候補に出てこなかった話",
-          "link": "https://qiita.com/80-cloud/items/8e7a8e332ac67a13c458",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-15T12:27:50",
-          "excerpt": "はじめに GitHub Actions から Terraform で AWS を操作する CD を組みました。…"
-        },
-        {
-          "title": "【アップデート】 AWS Lambda コーディングエージェント向けワンクリックセットアップができるようになりました！",
-          "link": "https://dev.classmethod.jp/articles/aws-lambda-one-click-agent-setup/",
-          "source": "DevelopersIO",
-          "published": "2026-07-15T11:37:11",
-          "excerpt": "AWS Lambda コンソールに追加された「ワンクリックセットアッププロンプト」を使って、コーディングエージェントを簡単にセットアップしてみました。Claude Code で実際に試して、セットアップ手順と動作確認の結果をご紹介します。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWSアカウントでMFAを失うと想像以上に復旧が大変だった話",
-      "link": "https://qiita.com/20230420/items/ab7d4f04fd1b373cb0c5",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-16T03:53:53",
-      "excerpt": "経緯 数年ぶりに個人のAWSアカウントへログインしようとしたところ、MFAを削除してしまっていたことに気付きました。原因は、自分の操作ミスでした。…"
+      "title": "PM的記録のススメ：メモの整理方法を作り直した",
+      "link": "https://dev.classmethod.jp/articles/202607_kash_PMobsidian/",
+      "source": "DevelopersIO",
+      "published": "2026-07-16T06:02:47",
+      "excerpt": "AIに記録を渡すことを前提に、Zettelkastenベースのノート構成を見直しました。「毎日すること／しないこと」と「独自コンテキスト／信頼できる知識」の2軸で分類する「PM的ノート術」を紹介します。"
     },
     {
-      "title": "ゲリラロンドンバス広告がカイリー・ジェンナーのメタグラスキャンペーンを模倣",
-      "link": "https://hyperallergic.com/guerrilla-london-bus-ads-mock-kylie-jenners-meta-glasses-campaign/",
+      "title": "React初学者のための全体像解説",
+      "link": "https://dev.classmethod.jp/articles/kash_react_all/",
+      "source": "DevelopersIO",
+      "published": "2026-07-16T05:58:10",
+      "excerpt": "Reactを学ぶときに登場するNode.js、npm、Vite、react-domなど、次々と現れる用語の全体像を整理します。これらが「何の役割で、どこで働くのか」を理解することで、常に現在地を把握しながら学習できるようになります。"
+    },
+    {
+      "title": "[新機能] Amazon Cognito CSV インポートでパスワードハッシュを指定してみた",
+      "link": "https://dev.classmethod.jp/articles/cognito-csv-import-password-hash/",
+      "source": "DevelopersIO",
+      "published": "2026-07-16T05:57:53",
+      "excerpt": "Amazon Cognito のユーザーインポート機能がアップデートされ、CSV ファイルにパスワードハッシュを含めてインポートできるようになりました。…"
+    },
+    {
+      "title": "DJB ネットストリングス",
+      "link": "https://cr.yp.to/proto/netstrings.txt",
       "source": "Hacker News（英語）",
-      "published": "2026-07-16T03:24:25",
-      "excerpt": "記事の URL: https://hyperallergic.…"
-    },
-    {
-      "title": "フリート: マルチダイ GPU 上のメガカーネルの階層型タスクベースの抽象化",
-      "link": "https://arxiv.org/abs/2604.15379",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-16T02:55:19",
-      "excerpt": "記事の URL: https://arxiv.org/abs/2604.15379 コメント URL: https://news.ycombinator.com/item?id=48929856 ポイント: 4 コメント数: 0"
-    },
-    {
-      "title": "朝のクレカ障害、復旧か　日本カードネットワーク「原因はうちじゃない」",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/16/news071.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-16T02:42:00",
-      "excerpt": "「障害の原因はCARDNETでは」との憶測も流れたが、日本カードネットワークの担当者によると「原因は当社ではない」という。"
+      "published": "2026-07-16T05:33:50",
+      "excerpt": "記事の URL: https://cr.yp.to/proto/netstrings.txt コメント URL: https://news.ycombinator.com/item?id=48930713 ポイント: 4 コメント数: 1"
     }
   ]
 }
