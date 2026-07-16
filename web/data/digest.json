@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-16T21:54:31",
+  "generated_at": "2026-07-16T22:46:52",
   "window_hours": 24,
-  "total": 261,
+  "total": 271,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が44件。Libretto PR エージェントは、Playwright ブラウザの自動化を維持するための無料の TypeScript ライブラリです。…",
+      "summary": "生成AIの新着が40件。記事の URL: https://github.com/cgrtml/reasongate コメント URL: https://news.ycombinator.com/item?id=48941051 ポイント: 3 コメント数: 0",
       "articles": [
+        {
+          "title": "HN を表示: ReasonGate - LLM プロンプト インジェクションをブロックする説明可能なゲート",
+          "link": "https://github.com/cgrtml/reasongate",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-16T22:21:31",
+          "excerpt": "記事の URL: https://github.com/cgrtml/reasongate コメント URL: https://news.ycombinator.com/item?id=48941051 ポイント: 3 コメント数: 0"
+        },
+        {
+          "title": "AIは本当に「考えている」のか　Apple論文が問いかけた推論モデルの限界とその行方",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/17/news005.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-07-16T22:00:00",
+          "excerpt": "2025年6月にAppleの研究者らが発表した論文は、最先端の推論モデルが複雑な問題で正解率ゼロに崩壊すると報告し、大論争を招きました。ジョーク論文の拡散まで含む一連の応酬は、企業のAI評価に何を突き付けたのでしょうか。"
+        },
         {
           "title": "Show HN: Libretto PR エージェント – 失敗した劇作家スクリプトを自動的に修正する",
           "link": "https://libretto.sh/debug-agents",
@@ -22,28 +36,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-16T20:18:15",
           "excerpt": "記事の URL: https://lmstudio.ai/blog/introducing-lm-studio-bionic コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Founders Fund、元 OpenAI 幹部の Ryan Beiermeister を雇用 (彼女の「マフィア」スキルのためではない)",
-          "link": "https://techcrunch.com/2026/07/16/founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-16T20:07:14",
-          "excerpt": "Founders Fund の YouTube シリーズ「Mafia」で冷静な分析を披露した Ryan Beiermeister がパートナーとして同社に加わりました。"
-        },
-        {
-          "title": "Claude CodeにAWS MCP Serverを設定して使ってみた",
-          "link": "https://qiita.com/wawon1111/items/837187abd58314e9373b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-16T17:14:33",
-          "excerpt": "この記事でやること この記事では、Claude CodeにAWS MCP Serverを設定し、実際にAWSリソースの情報を取得・作成をしてみます。環境 項目 バージョン等 OS Windows 11 Claude Code v2.1.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が30件。Amazon EC2の describe-images APIレスポンスに、PublicSsmParameterName フィールドが追加されました。…",
+      "summary": "クラウドの新着が32件。S3イベント通知に追加された`aws-generated-tags`の内容を、CloudFormationで作成したバケットで検証しました。…",
       "articles": [
+        {
+          "title": "S3イベント通知に追加されたaws-generated-tagsをEventBridgeでフィルタリングしてみた",
+          "link": "https://dev.classmethod.jp/articles/s3-event-notifications-aws-generated-tags/",
+          "source": "DevelopersIO",
+          "published": "2026-07-16T22:25:09",
+          "excerpt": "S3イベント通知に追加された`aws-generated-tags`の内容を、CloudFormationで作成したバケットで検証しました。…"
+        },
         {
           "title": "Amazon EC2のdescribe-imagesでパブリックAMIに関連付けられたSSMパラメータ名を確認できるようになりました",
           "link": "https://dev.classmethod.jp/articles/ec2-public-ami-ssm-parameter-name/",
@@ -64,56 +71,56 @@
           "source": "DevelopersIO",
           "published": "2026-07-16T20:32:16",
           "excerpt": "Google Cloud の Cloud Run が GitHub Container Registry（GHCR）のパブリックコンテナイメージを直接デプロイする機能が GA となりました。追加手順なしで ghcr.…"
-        },
-        {
-          "title": "Amazon EC2 は、パブリック AMI に関連付けられたパブリック SSM パラメータを表示するようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-pulic-images-ssm-parameters",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-16T18:20:00",
-          "excerpt": "Amazon EC2 は、パブリック AMI に関連付けられた AWS Systems Manager (SSM) パラメータ ストアのパラメータを AMI メタデータに直接表示するようになりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。コカ・コーラは、ハッキングを受けて、米国で同社フェアライフ部門の乳製品生産は「引き続き停止される」と発表した。",
+      "summary": "セキュリティの新着が18件。記事の URL: https://hellorecon.com/blog/cve-2026-25089 コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "CVE-2026-25089: FortiSandbox の非認証コマンド インジェクションが CISA KEV に追加されました",
+          "link": "https://hellorecon.com/blog/cve-2026-25089",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-16T22:07:30",
+          "excerpt": "記事の URL: https://hellorecon.com/blog/cve-2026-25089 コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "トヨタの数年をかけたゼロトラスト改革、行く手を阻んだ最大の壁とは？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/17/news021.html",
+          "source": "@IT",
+          "published": "2026-07-16T22:00:00",
+          "excerpt": "生成AIによってサイバー攻撃は、人の速度で対処できる時代ではなくなった。とはいえゼロトラストやSASEを導入すれば解決するわけでもない。…"
+        },
+        {
+          "title": "Entra IDの標準認証がパスキーに　SMS認証が使えなくなるのはいつ？",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/17/news019.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-07-16T22:00:00",
+          "excerpt": "MicrosoftはEntra IDの標準認証方式をパスキーに変更する。AIを利用した攻撃の高度化を受け、SMS認証と音声認証への依存を減らす狙いだ。両認証はいつまで使えるのか。"
+        },
         {
           "title": "コカ・コーラ、ランサムウェア攻撃を受けてフェアライフ乳業の生産を一時停止",
           "link": "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/",
           "source": "TechCrunch（英語）",
           "published": "2026-07-16T21:22:31",
           "excerpt": "コカ・コーラは、ハッキングを受けて、米国で同社フェアライフ部門の乳製品生産は「引き続き停止される」と発表した。"
-        },
-        {
-          "title": "ランサムウェア攻撃者との交渉が被害企業にとって強力な武器となり得る理由",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/17/news002.html",
-          "source": "@IT",
-          "published": "2026-07-16T20:00:00",
-          "excerpt": "ランサムウェア攻撃への対応は身代金を払うかどうかだけでなく、攻撃者との交渉をどう活用するかが経営上の重要な判断となる。…"
-        },
-        {
-          "title": "【AWS】ネットワークACL vs セキュリティグループ",
-          "link": "https://qiita.com/iciie/items/609935f28f4397df42f5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-16T15:05:46",
-          "excerpt": "目的 ネットワークACLとセキュリティグループの違いを理解する どちらを使うべきか判断できるようになる AWS認定試験（CLF・SAAなど）の頻出ポイントを押さえる セキュリティグループとネットワークACLの違い 項目 セキュリティグループ…"
-        },
-        {
-          "title": "Security Hub は何も検知しない — AWS セキュリティサービス全体像と Security Hub の正体【入門】",
-          "link": "https://qiita.com/ujunja/items/3f79e987ad820e69f811",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-16T11:39:05",
-          "excerpt": "対象読者: AWS のインフラ構築経験はあるが、Security Hub はまだ使ったことがない方。筆者自身も学びながら書いているので、「最初にこれを知っていれば迷わなかった」という順番で整理します。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が9件。T-Mobileはプラン移行中に失われた無料回線を復活させるが、値上げは続いている。",
+      "summary": "データ分析の新着が10件。DynamoDBは「使った分だけ払う、目にも留まらぬNoSQL」 ⚡ キャパシティモードは「都度払い」か「月極」か DynamoDBは読み書きの処理量と料金がガッツリ連動している。…",
       "articles": [
+        {
+          "title": "【DynamoDB編】SAA先生に学ぶAWSの全容と授業メモ",
+          "link": "https://qiita.com/minifish33/items/c671b79b5bc0c51239f4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-16T22:01:38",
+          "excerpt": "DynamoDBは「使った分だけ払う、目にも留まらぬNoSQL」 ⚡ キャパシティモードは「都度払い」か「月極」か DynamoDBは読み書きの処理量と料金がガッツリ連動している。…"
+        },
         {
           "title": "T-Mobile がプランの強制移行に失敗し、一部のユーザーの無料回線をキャンセル",
           "link": "https://arstechnica.com/tech-policy/2026/07/t-mobile-bungled-forced-plan-migration-canceling-some-users-free-lines/",
@@ -134,13 +141,6 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-16T16:00:00",
           "excerpt": "Amazon Redshift は、2 つの新しい RG インスタンス サイズ (rg.large と rg.12xlarge) の一般提供を発表しました。これらの新しいサイズは、前世代の RA3 インスタンスよりも最大 2.…"
-        },
-        {
-          "title": "BigQuery MLのTimesFMで電力需要を時系列予測してみた | Fusic 技術ブログのフィード",
-          "link": "https://zenn.dev/fusic/articles/d4cdbf41d482da",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-16T11:12:26",
-          "excerpt": "はじめにFusicのレオナです。今回は、BigQuery MLのTimesFMを使い、電力需要を1週間先まで予測してみました。TimesFMは、Google Researchが公開している時系列予測用の基盤モデルです。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "公式発表：EUはGoogleに検索データの共有とAndroid上でのAIの開放を強制する",
-      "link": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-16T20:41:45",
-      "excerpt": "Googleは、これらの変更はユーザーのプライバシーとセキュリティを危険にさらす可能性があると述べている。"
-    },
-    {
-      "title": "データサイエンスの数学",
-      "link": "https://arxiv.org/abs/2607.11938",
+      "title": "私の車の OTA アップデートにより Android Auto が壊れました。これは最新のソフトウェアの告発です",
+      "link": "https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-16T20:38:48",
-      "excerpt": "記事の URL: https://arxiv.org/abs/2607.11938 コメント URL: https://news.ycombinator.com/item?id=48939896 ポイント: 13 コメント数: 0"
+      "published": "2026-07-16T22:29:44",
+      "excerpt": "記事の URL: https://imdanielkendall.…"
     },
     {
-      "title": "CloudWatch Logs Insightsに追加された新コマンド・関数25個を検証してみた（2026年7月版）",
-      "link": "https://dev.classmethod.jp/articles/cloudwatch-logs-insights-new-commands-functions-2026-july/",
-      "source": "DevelopersIO",
-      "published": "2026-07-16T20:38:02",
-      "excerpt": "2026年7月にCloudWatch Logs Insightsへ追加された新コマンド・関数25個を検証しました。…"
+      "title": "2026 FIFA ワールドカップ データ ポートレート",
+      "link": "https://wc26.bogachev.fr/index.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-16T22:21:59",
+      "excerpt": "記事の URL: https://wc26.bogachev.fr/index.html コメント URL: https://news.ycombinator.com/item?id=48941056 ポイント: 14 コメント数: 8"
     },
     {
-      "title": "xAI はもう Grok が CSAM を作っていることを否定できません。そこでユーザーを訴えている。",
-      "link": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-16T20:26:23",
-      "excerpt": "イーロン・マスク氏のxAIが、児童セックス画像を作成したとして告発されたGrokユーザーに対して初の訴訟を起こす。"
+      "title": "「リクウェリ」：コンゴ盆地で発見された新種のサル",
+      "link": "https://news.yale.edu/2026/07/15/meet-likweli-new-monkey-species-discovered-congo-basin",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-16T22:00:00",
+      "excerpt": "記事の URL: https://news.yale.edu/2026/07/15/meet-likweli-new-monkey-species-discovered-congo-basin コメント URL: https://news.…"
+    },
+    {
+      "title": "7/29に技術書編集部主催のトークイベント開催　「デブサミ振り返り」＆「AI本の公開企画会議」",
+      "link": "https://codezine.jp/article/detail/28955",
+      "source": "CodeZine",
+      "published": "2026-07-16T22:00:00",
+      "excerpt": "7/29に技術書編集部主催のトークイベント開催　「デブサミ振り返り」＆「AI本の公開企画会議」"
     }
   ]
 }
