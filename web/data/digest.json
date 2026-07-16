@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-16T12:13:32",
+  "generated_at": "2026-07-16T14:30:03",
   "window_hours": 24,
-  "total": 267,
+  "total": 259,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が46件。アイナさんは今後数週間以内に新しいデバイスを試験運用する予定です。",
+      "summary": "生成AIの新着が44件。FT は、Kimi K3 は中国最大のオープン AI モデルとなり、パラメータ数は 2 兆から 3 兆になると報じています。",
       "articles": [
+        {
+          "title": "Moonshot の次期 Kim 3 は、Anthropic の Opus 4.8 との差を縮めることが期待されています",
+          "link": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-16T14:26:29",
+          "excerpt": "FT は、Kimi K3 は中国最大のオープン AI モデルとなり、パラメータ数は 2 兆から 3 兆になると報じています。"
+        },
+        {
+          "title": "Show HN: LLM にバックドアを隠しました – 発見すると 51,200 ドル",
+          "link": "https://protora.vulcora.se/challenge",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-16T13:34:03",
+          "excerpt": "記事の URL: https://protora.vulcora.se/challenge コメント URL: https://news.ycombinator.com/item?id=48934340 ポイント: 4 コメント数: 4"
+        },
         {
           "title": "Ultrahuman の元ハードウェア副社長が、ユーザーを記録するだけでなく AI エージェントを制御するデバイスのために 550 万ドルを調達",
           "link": "https://techcrunch.com/2026/07/16/ultrahumans-former-hardware-vp-raises-5-5m-for-devices-that-control-ai-agents-not-just-record-you/",
@@ -22,28 +36,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-16T09:46:24",
           "excerpt": "📨 AIエージェント間の伝令役になってた 先日、AWSのクロスアカウントアクセスがうまくいかず、エラーの原因がアカウントAにあるのかアカウントBにあるのか切り分ける必要が出てきました。…"
-        },
-        {
-          "title": "AWS Lambdaの\"Self-Managed Code Storage\"を試してみた",
-          "link": "https://zenn.dev/team_delta/articles/e4aabfe1f99392",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-16T09:09:07",
-          "excerpt": "どうも、DELTAの馬場です。2026 年 7 月に Lambda の self-managed code storage が発表されました。自分のS3 バケットに置いたコードを Lambda がコピーせず直接参照するという機能です。…"
-        },
-        {
-          "title": "AIコーディングエージェント選定を“感覚”から“数字”へ：agent-cost-benchをAWS上で試す",
-          "link": "https://zenn.dev/nttdata_tech/articles/130bd43f48e425",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-16T08:30:06",
-          "excerpt": "1.はじめに AIコーディングエージェントの活用が広がる中で、開発現場では次のような問いが増えてきました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が29件。DynamoDBを追加せず、CRMの項目だけで結果確認のPollerを回しました。受付後の進行情報をAWS側の別ストアに増やさず、履歴レコード上のJSONに載せます。確認用Lambdaに公開HTTPは付けません。…",
+      "summary": "クラウドの新着が29件。対象: 2026/07/16 に発生した Amazon CloudFront の障害（JST 20:18 に完全復旧、AWS の [RESOLVED] 発表は JST 21:22） 👋 はじめに 2026/07/16の夕方、大規模な AWS…",
       "articles": [
+        {
+          "title": "【AWS障害に学ぶ】CloudFront VPC Origins 障害 ―「よくある構成」への影響と、watch・備えの型",
+          "link": "https://qiita.com/Tom-Panasonic/items/bb5bca5f8798e268138c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-16T12:43:31",
+          "excerpt": "対象: 2026/07/16 に発生した Amazon CloudFront の障害（JST 20:18 に完全復旧、AWS の [RESOLVED] 発表は JST 21:22） 👋 はじめに 2026/07/16の夕方、大規模な AWS…"
+        },
+        {
+          "title": "CloudFront VPCオリジン障害をInter-Region VPCピアリングで迂回してみた",
+          "link": "https://dev.classmethod.jp/articles/cloudfront-vpc-origin-failure-inter-region-vpc-peering-bypass/",
+          "source": "DevelopersIO",
+          "published": "2026-07-16T12:12:50",
+          "excerpt": "2026年7月16日に発生したCloudFront VPCオリジン障害に対し、Inter-Region VPCピアリングとバージニア北部ALBによる迂回構成を構築して復旧しました。…"
+        },
         {
           "title": "Zoho WidgetとLambdaの連携 第5回：CRM上の進行管理と結果確認Poller",
           "link": "https://qiita.com/small-engineer/items/cf3c7046b7f9947f75fc",
@@ -57,27 +71,13 @@
           "source": "The Register（英語）",
           "published": "2026-07-16T10:54:42",
           "excerpt": "嵐が巨大雲を超えて風を巻き起こし、ハギング・フェイスや英国の国営宝くじなどのサービスを壊滅させる"
-        },
-        {
-          "title": "CloudTrail + S3 + Athena で作る、最小構成のログ集約・分析基盤",
-          "link": "https://zenn.dev/zer0_infra/articles/4df26fca47bbea",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-16T10:00:10",
-          "excerpt": "「あのAWSアカウントで誰が何をしたか、3ヶ月前のログを調べてほしい」——そういうリクエストが飛んできたとき、慌てて対応するのではなく、数十秒のSQLクエリで答えられる体制を作れているかどうかで、チームのセキュリティ成熟度は大きく変わります…"
-        },
-        {
-          "title": "NeovimをディレクトリベースLSP設定に移行した | NCDC テックブログのフィード",
-          "link": "https://zenn.dev/ncdc/articles/e920f5306ff3de",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-16T09:46:05",
-          "excerpt": "はじめにnvim0.11からlspをディレクトリベースで設定できる機能が追加されています。自分のlspの設定が増えてきたこともあって前々から設定をリファクタしたいと考えており、実際に移行してみました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。対象読者: AWS のインフラ構築経験はあるが、Security Hub はまだ使ったことがない方。筆者自身も学びながら書いているので、「最初にこれを知っていれば迷わなかった」という順番で整理します。…",
+      "summary": "セキュリティの新着が16件。対象読者: AWS のインフラ構築経験はあるが、Security Hub はまだ使ったことがない方。筆者自身も学びながら書いているので、「最初にこれを知っていれば迷わなかった」という順番で整理します。…",
       "articles": [
         {
           "title": "Security Hub は何も検知しない — AWS セキュリティサービス全体像と Security Hub の正体【入門】",
@@ -85,6 +85,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-16T11:39:05",
           "excerpt": "対象読者: AWS のインフラ構築経験はあるが、Security Hub はまだ使ったことがない方。筆者自身も学びながら書いているので、「最初にこれを知っていれば迷わなかった」という順番で整理します。…"
+        },
+        {
+          "title": "Windows 10 は死ぬことを拒否し、セキュリティ法案の期限が近づいている",
+          "link": "https://www.theregister.com/os-platforms/2026/07/16/windows-10-refuses-to-die-and-the-security-bill-is-coming-due/5271987",
+          "source": "The Register（英語）",
+          "published": "2026-07-16T11:25:20",
+          "excerpt": "移行が停滞し、パッチの期限が刻々と近づいているため、6 台に 1 台のマシンが依然として古い OS を実行しています。"
         },
         {
           "title": "Telegram ショートリンクが認可された VPN 接続上でオフラインになる",
@@ -99,21 +106,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-16T08:53:22",
           "excerpt": "はじめに GitHub Actions から Terraform を apply する構成を作っていて、apply 用の IAM ロールを「最小権限」で組んでいました。…"
-        },
-        {
-          "title": "IAM Identity CenterもIdPもない環境で、CloudWatchをAI(MCP)から安全に操作する — IAM Roles Anywhere実装記",
-          "link": "https://qiita.com/Tav-Infra/items/1d765d6d07e7130a6e85",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-16T07:48:10",
-          "excerpt": "CloudWatchをAIエージェント経由で使いたい。でも「Identity Center も IdP もない、長期アクセスキーは使いたくない、また費用もかけたくない」——こんな時のソリューションです。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。はじめに このセッションで学べること 前提知識・条件 セッション内容 セッション概要 Amazon DynamoDB の特性 フルマネージド分散 NoSQL データベース 従量課金モデル パーティショニングと一貫した性能 データモデリングの…",
+      "summary": "データ分析の新着が8件。はじめにFusicのレオナです。今回は、BigQuery MLのTimesFMを使い、電力需要を1週間先まで予測してみました。TimesFMは、Google Researchが公開している時系列予測用の基盤モデルです。…",
       "articles": [
+        {
+          "title": "BigQuery MLのTimesFMで電力需要を時系列予測してみた | Fusic 技術ブログのフィード",
+          "link": "https://zenn.dev/fusic/articles/d4cdbf41d482da",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-16T11:12:26",
+          "excerpt": "はじめにFusicのレオナです。今回は、BigQuery MLのTimesFMを使い、電力需要を1週間先まで予測してみました。TimesFMは、Google Researchが公開している時系列予測用の基盤モデルです。…"
+        },
         {
           "title": "【AWS Summit Japan 2026】Amazon DynamoDB アドバンスドデータモデリング セッションレポート | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/aws-summit-2026-dynamodb-advanced-data-modeling",
@@ -134,20 +141,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-16T10:00:10",
           "excerpt": "「あのAWSアカウントで誰が何をしたか、3ヶ月前のログを調べてほしい」——そういうリクエストが飛んできたとき、慌てて対応するのではなく、数十秒のSQLクエリで答えられる体制を作れているかどうかで、チームのセキュリティ成熟度は大きく変わります…"
-        },
-        {
-          "title": "RAGチャットボットの参照元KB記事をCloud Logging→BigQuery→Data Studioで可視化する",
-          "link": "https://dev.classmethod.jp/articles/rag-source-observability-cloud-logging-bigquery/",
-          "source": "DevelopersIO",
-          "published": "2026-07-16T07:29:06",
-          "excerpt": "Vertex AI RAG Engineを使ったGoogle Chatボットの構造化ログに参照元KBファイル情報を追加し、BigQueryビューとLooker Studioで「どのKB記事が回答に使われたか」を分析可能にするまでの実装を紹介…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。本記事では、Terraform を使用して Oracle Database@AWS の主要コンポーネント（ODB ネットワーク、Exadata インフラストラクチャ、Exadata VM クラスター、Autonomous VM クラスター）…",
+      "summary": "開発ツールの新着が15件。本記事では、Terraform を使用して Oracle Database@AWS の主要コンポーネント（ODB ネットワーク、Exadata インフラストラクチャ、Exadata VM クラスター、Autonomous VM クラスター）…",
       "articles": [
         {
           "title": "Terraform を使用した Oracle Database@AWS リソースのプロビジョニング",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Meta は、10 代の少年が自殺や自傷行為について AI チャットボットについて話し合った場合に保護者に警告するようになりました",
-      "link": "https://techcrunch.com/2026/07/16/meta-now-alerts-parents-if-their-teen-discussed-suicide-or-self-harm-with-its-ai-chatbot/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-16T11:00:00",
-      "excerpt": "このアップデートは、メタやその他のハイテク企業が、AIチャットボットが危機に陥ったユーザー、特に10代のユーザーにどのように対応するかについて規制当局や保護者からの厳しい監視に直面している中で行われた。"
+      "title": "フアンCEO「ジャパンAI構築はマストだ」　経産省、国産フィジカルAIで新プロジェクト　赤沢大臣も“革ジャン”羽織る",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/16/news107.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-16T14:00:00",
+      "excerpt": "経済産業省が、国産フィジカルAI向け基盤モデルを構築する「FRONTia Project」をスタートさせた。国内44社が共同出資するAI開発企業Noetraと産総研を中心とし、2030年での「実世界ネイティブAI」実現を目指す。…"
     },
     {
-      "title": "なぜAWSは選ばれたのか ― 標準化の力学で読み解くAI時代のプロトコル戦争",
-      "link": "https://qiita.com/nakatada-lab/items/97c9f7ae58f55a5f80cb",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-16T10:53:41",
-      "excerpt": "TL;DR AWSが勝った理由は性能ではなく「世界中の開発者が参加できる標準基盤」を作ったこと AI時代も同じ力学が働いており、現在MCP・A2A・Function Callingの3つのプロトコルが標準を争っている 2026年時点でMCP…"
-    },
-    {
-      "title": "OnePlus、米国と欧州での事業を停止",
-      "link": "https://community.oneplus.com/thread/2170715118587871237",
+      "title": "Show HN: AI Law Tracker – 米国、EU、および世界の AI 法向けの 1 つの監査済み API",
+      "link": "https://ai-law-tracker.com",
       "source": "Hacker News（英語）",
-      "published": "2026-07-16T10:14:04",
-      "excerpt": "記事の URL: https://community.oneplus.com/thread/2170715118587871237 コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-16T13:51:32",
+      "excerpt": "記事の URL: https://ai-law-tracker.com コメント URL: https://news.ycombinator.com/item?id=48934583 ポイント: 13 コメント数: 4"
     },
     {
-      "title": "k8s CronJob の応急的な停止 | Wantedly Engineer Blog",
-      "link": "https://www.wantedly.com/companies/wantedly/post_articles/1079803",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-16T10:00:16",
-      "excerpt": "背景障害対応では、初動対応としてまず動いているプロセスを停止させることがあります。k8s の CronJob (が..."
+      "title": "15 年をかけて製品を完成させる方法",
+      "link": "https://refactoring.guru/email/gbb-rollout2",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-16T13:41:12",
+      "excerpt": "記事の URL: https://refactoring.guru/email/gbb-rollout2 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "Goes-19気象衛星がセーフホールドモードに入る",
+      "link": "https://www.spaceweather.gov/news/goes-19-safe-hold",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-16T13:30:00",
+      "excerpt": "記事の URL: https://www.spaceweather.gov/news/goes-19-safe-hold コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
