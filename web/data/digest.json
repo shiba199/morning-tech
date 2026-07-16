@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-16T14:30:03",
+  "generated_at": "2026-07-16T15:56:14",
   "window_hours": 24,
-  "total": 259,
+  "total": 262,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が44件。FT は、Kimi K3 は中国最大のオープン AI モデルとなり、パラメータ数は 2 兆から 3 兆になると報じています。",
+      "summary": "生成AIの新着が44件。Amazon Quick のカスタムチャットエージェントにおけるプロンプトインジェクション対策について、デフォルトのガードレールから管理者・エージェント作成者が実施できる対策まで、多層防御の観点で整理します。",
       "articles": [
+        {
+          "title": "Amazon Quick のカスタムチャットエージェントにおけるプロンプトインジェクション対策",
+          "link": "https://dev.classmethod.jp/articles/20260717-amazon-quick-prompt-injection/",
+          "source": "DevelopersIO",
+          "published": "2026-07-16T15:33:55",
+          "excerpt": "Amazon Quick のカスタムチャットエージェントにおけるプロンプトインジェクション対策について、デフォルトのガードレールから管理者・エージェント作成者が実施できる対策まで、多層防御の観点で整理します。"
+        },
+        {
+          "title": "OpenAI が ChatGPT バスケットボールを販売しているのはなぜですか?",
+          "link": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-16T15:31:09",
+          "excerpt": "OpenAI が今週最初のハードウェアをリリースしたことを聞いたことがあるかもしれません。ChatGPT バスケットボールについて聞いたことがないかもしれません。…"
+        },
         {
           "title": "Moonshot の次期 Kim 3 は、Anthropic の Opus 4.8 との差を縮めることが期待されています",
           "link": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
@@ -22,28 +36,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-16T13:34:03",
           "excerpt": "記事の URL: https://protora.vulcora.se/challenge コメント URL: https://news.ycombinator.com/item?id=48934340 ポイント: 4 コメント数: 4"
-        },
-        {
-          "title": "Ultrahuman の元ハードウェア副社長が、ユーザーを記録するだけでなく AI エージェントを制御するデバイスのために 550 万ドルを調達",
-          "link": "https://techcrunch.com/2026/07/16/ultrahumans-former-hardware-vp-raises-5-5m-for-devices-that-control-ai-agents-not-just-record-you/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-16T11:30:00",
-          "excerpt": "アイナさんは今後数週間以内に新しいデバイスを試験運用する予定です。"
-        },
-        {
-          "title": "【ClaudeCode × AWS】アカウントを跨ぐ調査のベストプラクティスを模索してみた",
-          "link": "https://qiita.com/kikuziro/items/6cbd5f7846cb1739f7ae",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-16T09:46:24",
-          "excerpt": "📨 AIエージェント間の伝令役になってた 先日、AWSのクロスアカウントアクセスがうまくいかず、エラーの原因がアカウントAにあるのかアカウントBにあるのか切り分ける必要が出てきました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が29件。対象: 2026/07/16 に発生した Amazon CloudFront の障害（JST 20:18 に完全復旧、AWS の [RESOLVED] 発表は JST 21:22） 👋 はじめに 2026/07/16の夕方、大規模な AWS…",
+      "summary": "クラウドの新着が28件。ERP、CRM、製造システムを含む合計900のアプリケーションが「欧州の管理下」に保管される予定",
       "articles": [
+        {
+          "title": "エアバス、デジタル主権推進のさなか、70 の重要なアプリを AWS からフランスのスケールウェイに移行",
+          "link": "https://www.theregister.com/paas-and-iaas/2026/07/16/airbus-migrating-70-critical-apps-from-aws-to-frances-scaleway-amid-digital-sovereignty-push/5272373",
+          "source": "The Register（英語）",
+          "published": "2026-07-16T13:49:17",
+          "excerpt": "ERP、CRM、製造システムを含む合計900のアプリケーションが「欧州の管理下」に保管される予定"
+        },
         {
           "title": "【AWS障害に学ぶ】CloudFront VPC Origins 障害 ―「よくある構成」への影響と、watch・備えの型",
           "link": "https://qiita.com/Tom-Panasonic/items/bb5bca5f8798e268138c",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-16T11:30:07",
           "excerpt": "DynamoDBを追加せず、CRMの項目だけで結果確認のPollerを回しました。受付後の進行情報をAWS側の別ストアに増やさず、履歴レコード上のJSONに載せます。確認用Lambdaに公開HTTPは付けません。…"
-        },
-        {
-          "title": "AWS CloudFront の停止により、ウェブサイトの代わりにエラーが表示される",
-          "link": "https://www.theregister.com/off-prem/2026/07/16/aws-cloudfront-outage-serves-errors-instead-of-websites/5272421",
-          "source": "The Register（英語）",
-          "published": "2026-07-16T10:54:42",
-          "excerpt": "嵐が巨大雲を超えて風を巻き起こし、ハギング・フェイスや英国の国営宝くじなどのサービスを壊滅させる"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。対象読者: AWS のインフラ構築経験はあるが、Security Hub はまだ使ったことがない方。筆者自身も学びながら書いているので、「最初にこれを知っていれば迷わなかった」という順番で整理します。…",
+      "summary": "セキュリティの新着が16件。目的 ネットワークACLとセキュリティグループの違いを理解する どちらを使うべきか判断できるようになる AWS認定試験（CLF・SAAなど）の頻出ポイントを押さえる セキュリティグループとネットワークACLの違い 項目 セキュリティグループ…",
       "articles": [
+        {
+          "title": "【AWS】ネットワークACL vs セキュリティグループ",
+          "link": "https://qiita.com/iciie/items/609935f28f4397df42f5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-16T15:05:46",
+          "excerpt": "目的 ネットワークACLとセキュリティグループの違いを理解する どちらを使うべきか判断できるようになる AWS認定試験（CLF・SAAなど）の頻出ポイントを押さえる セキュリティグループとネットワークACLの違い 項目 セキュリティグループ…"
+        },
         {
           "title": "Security Hub は何も検知しない — AWS セキュリティサービス全体像と Security Hub の正体【入門】",
           "link": "https://qiita.com/ujunja/items/3f79e987ad820e69f811",
@@ -99,20 +106,13 @@
           "source": "The Register（英語）",
           "published": "2026-07-16T10:07:00",
           "excerpt": "プラットフォームがサイバー犯罪者が好むサービスと無関係であることが証明されるまで、t.me は 1 日仕事を続けました。"
-        },
-        {
-          "title": "【IAM】最小権限で Terraform apply したら s3:GetBucket* では足りなかった話",
-          "link": "https://qiita.com/80-cloud/items/be2ee544eb91333b8c5a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-16T08:53:22",
-          "excerpt": "はじめに GitHub Actions から Terraform を apply する構成を作っていて、apply 用の IAM ロールを「最小権限」で組んでいました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。はじめにFusicのレオナです。今回は、BigQuery MLのTimesFMを使い、電力需要を1週間先まで予測してみました。TimesFMは、Google Researchが公開している時系列予測用の基盤モデルです。…",
+      "summary": "データ分析の新着が7件。はじめにFusicのレオナです。今回は、BigQuery MLのTimesFMを使い、電力需要を1週間先まで予測してみました。TimesFMは、Google Researchが公開している時系列予測用の基盤モデルです。…",
       "articles": [
         {
           "title": "BigQuery MLのTimesFMで電力需要を時系列予測してみた | Fusic 技術ブログのフィード",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "フアンCEO「ジャパンAI構築はマストだ」　経産省、国産フィジカルAIで新プロジェクト　赤沢大臣も“革ジャン”羽織る",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/16/news107.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-16T14:00:00",
-      "excerpt": "経済産業省が、国産フィジカルAI向け基盤モデルを構築する「FRONTia Project」をスタートさせた。国内44社が共同出資するAI開発企業Noetraと産総研を中心とし、2030年での「実世界ネイティブAI」実現を目指す。…"
+      "title": ".NET 8と.NET 9は今年の11月でサポート終了、マイクロソフトが警告",
+      "link": "https://www.publickey1.jp/blog/26/net_8net_911.html",
+      "source": "Publickey",
+      "published": "2026-07-16T18:30:28",
+      "excerpt": "マイクロソフトの包括的なソフトウェアフレームワーク「.NET 8」と「.NET 9」のサポートが今年（2026年）11月10日に終了します。サポート終了後も.NET 8や.NET 9で開発されたアプリケーションはそのまま動作し、使えなくな.…"
     },
     {
-      "title": "Show HN: AI Law Tracker – 米国、EU、および世界の AI 法向けの 1 つの監査済み API",
-      "link": "https://ai-law-tracker.com",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-16T13:51:32",
-      "excerpt": "記事の URL: https://ai-law-tracker.com コメント URL: https://news.ycombinator.com/item?id=48934583 ポイント: 13 コメント数: 4"
+      "title": "【IT業界25年目】ADHDポンコツエンジニアが人生賭けて構築した求人サービス名『ヴェテラン』の由来とは？",
+      "link": "https://qiita.com/Veteran/items/0e8bd7da10a75fcc5a9d",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-16T15:52:50",
+      "excerpt": "皆さんこんばんは！ポンコツエンジニアのGONです！前回の記事で、人生を賭けたIT求人サービス『ヴェテラン』の特徴をつらつらと語らせていただきました。皆さん正直に『ヴェテラン』というサービス名にどんな印象を抱かれましたか？…"
     },
     {
-      "title": "15 年をかけて製品を完成させる方法",
-      "link": "https://refactoring.guru/email/gbb-rollout2",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-16T13:41:12",
-      "excerpt": "記事の URL: https://refactoring.guru/email/gbb-rollout2 コメント URL: https://news.ycombinator.com/item?…"
+      "title": "はい、コマンドラインから DoorDash を注文できるようになりました。",
+      "link": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-16T15:38:55",
+      "excerpt": "DoorDash は、開発者と AI エージェントが店舗を検索し、カートを作成し、端末から注文できるコマンドライン ツールである dd-cli の限定ベータ版をオープンし、人間だけでなく AI エージェント向けに設計されたソフトウェアへの新…"
     },
     {
-      "title": "Goes-19気象衛星がセーフホールドモードに入る",
-      "link": "https://www.spaceweather.gov/news/goes-19-safe-hold",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-16T13:30:00",
-      "excerpt": "記事の URL: https://www.spaceweather.gov/news/goes-19-safe-hold コメント URL: https://news.ycombinator.com/item?…"
+      "title": "英国の警察、若いハッカー2人の逮捕により悪名高いハッカーグループの活動が混乱したと発表",
+      "link": "https://techcrunch.com/2026/07/16/uk-cops-say-arrest-of-two-young-hackers-disrupted-the-operations-of-an-infamous-hacking-group/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-16T15:37:47",
+      "excerpt": "多作のハッカー集団Scattered Spiderの2人のメンバーであるオーウェン・フラワーズとタルハ・ジュバイルは有罪を認め、ロンドンの大都市交通システムをハッキングした罪で懲役5年6か月の判決を受けた。"
     }
   ]
 }
