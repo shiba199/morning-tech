@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-16T06:09:21",
+  "generated_at": "2026-07-16T08:38:43",
   "window_hours": 24,
-  "total": 270,
+  "total": 264,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が44件。Amazon Bedrock 上で、基盤モデル (FM) の一種である大規模言語モデル (LLM) の利用が拡 […]",
+      "summary": "生成AIの新着が44件。Amazon SageMaker Unified Studio、19種の新オペレーター追加でAWS各種サービスとの連携を強化",
       "articles": [
+        {
+          "title": "Amazon SageMaker Unified Studio、19種の新オペレーター追加でAWS各種サービスとの連携を強化",
+          "link": "https://codezine.jp/article/detail/28998",
+          "source": "CodeZine",
+          "published": "2026-07-16T08:00:00",
+          "excerpt": "Amazon SageMaker Unified Studio、19種の新オペレーター追加でAWS各種サービスとの連携を強化"
+        },
+        {
+          "title": "Thinking Machines Lab、初のオープンウェイトAIモデル「Inkling」を公開 ——テキスト・画像・音声を横断して推論",
+          "link": "https://gihyo.jp/article/2026/07/inkling?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-07-16T07:00:00",
+          "excerpt": "Thinking Machines Labは米国時間2026年7月15日、同社初のAIモデル「Inkling」を発表した。"
+        },
         {
           "title": "Amazon Bedrock における LLM コストの最適化：請求の帰属から運用テレメトリまで",
           "link": "https://aws.amazon.com/jp/blogs/news/optimize-llm-costs-on-amazon-bedrock-from-billing-attribution-to-operational-telemetry/",
@@ -22,28 +36,28 @@
           "source": "CodeZine",
           "published": "2026-07-16T05:15:00",
           "excerpt": "新規事業での活用が進み仮説検証を高速化、リサーチ業務の生成AI利用率が95.8％に達した調査結果を発表"
-        },
-        {
-          "title": "A2A と MCP は何が違う？エージェント間通信プロトコルの設計思想を整理してみた",
-          "link": "https://dev.classmethod.jp/articles/a2a-mcp-complementary-agent-protocol-design/",
-          "source": "DevelopersIO",
-          "published": "2026-07-16T04:58:14",
-          "excerpt": "MCPはエージェントの「手と目」、A2Aは「口」。ツール連携用のMCPとエージェント間通信用のA2Aがなぜ相補的なのか、物流×在庫管理の具体例とトランスポート層の設計選択から整理しました。"
-        },
-        {
-          "title": "Anthropic OAuth トークン禁止で自律AIエージェントが停止した話と、Frontmatter プロンプト制御 + Claude Code 委任で立て直した方法",
-          "link": "https://dev.classmethod.jp/articles/claude-oauth-ban-agent-cost-optimization/",
-          "source": "DevelopersIO",
-          "published": "2026-07-16T04:43:20",
-          "excerpt": "AnthropicのOAuthトークン禁止で自律AIエージェントが停止した問題と、Frontmatterベースのプロンプト制御・Haikuディスパッチャー・Claude Code委任によるコスト最適化で立て直した方法を紹介します。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が29件。terraform applyは成功している。GitHub Actionsも成功している。S3にはファイルが存在する。でも、個別記事のURLにアクセスすると403が返ってくる。トップページは表示される。記事一覧も表示される。…",
+      "summary": "クラウドの新着が26件。🍯【はちみつと学ぶIT】AWS Lambdaとは？サーバーを意識せずにプログラムを実行できるサービスをやさしく解説 はじめに これまでEC2では、サーバーを用意してアプリを動かしてきました。…",
       "articles": [
+        {
+          "title": "🍯【はちみつと学ぶIT】AWS Lambdaとは？サーバーを意識せずにプログラムを実行できるサービスをやさしく解説",
+          "link": "https://qiita.com/honeybro/items/73b9842fc09d4f51e518",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-16T08:29:29",
+          "excerpt": "🍯【はちみつと学ぶIT】AWS Lambdaとは？サーバーを意識せずにプログラムを実行できるサービスをやさしく解説 はじめに これまでEC2では、サーバーを用意してアプリを動かしてきました。…"
+        },
+        {
+          "title": "🍯【はちみつと学ぶIT】AWS Outpostsとは？オンプレミスでもAWSを使えるサービスをやさしく解説",
+          "link": "https://qiita.com/honeybro/items/c23ee91234610beeea0f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-16T07:28:04",
+          "excerpt": "🍯【はちみつと学ぶIT】AWS Outpostsとは？オンプレミスでもAWSを使えるサービスをやさしく解説 はじめに AWSは基本的に、インターネット経由で利用するクラウドサービスです。…"
+        },
         {
           "title": "Next.js静的サイトをS3 + CloudFrontで公開したら403になった話（CloudFront Functionで解決）",
           "link": "https://qiita.com/yuki_engineer08/items/701fec4525242a42df3d",
@@ -57,28 +71,28 @@
           "source": "@IT",
           "published": "2026-07-16T04:00:00",
           "excerpt": "Googleは、ローカル端末とリモートのColabランタイムをつなぐコマンドラインツール「Google Colab CLI」を公開した。開発者とAIエージェントの双方が、面倒な設定なしにGPU／TPUを使った実行環境を利用できる。"
-        },
-        {
-          "title": "【Aurora編】SAA先生に学ぶAWSの全容と授業メモ",
-          "link": "https://qiita.com/minifish33/items/56f1331b7701c6f369c5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-16T03:51:07",
-          "excerpt": "Auroraは「MySQL/PostgreSQLの顔をした化け物スペックRDB」 🐉 Auroraは「互換性を保ったまま化ける」DB AuroraはMySQL/PostgreSQL互換のリレーショナルDB。…"
-        },
-        {
-          "title": "Amazon S3に設定するアカウントレベルのブロックパブリックアクセス設定の挙動について",
-          "link": "https://qiita.com/h_horiguchi/items/694c3aa7636a30a03df8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-16T02:23:33",
-          "excerpt": "はじめに 本稿では、Amazon S3に設定するアカウントレベルのブロックパブリックアクセス設定の挙動について記載します。Amazon S3のユーザーガイドには、以下の記載があります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。AWS WAFのRate-based ruleをCount モードとBlock モードで検証。EC2+ALB環境でheyを使ったリクエストの結果をダッシュボードで確認していきます。",
+      "summary": "セキュリティの新着が15件。CloudWatchをAIエージェント経由で使いたい。でも「Identity Center も IdP もない、長期アクセスキーは使いたくない、また費用もかけたくない」——こんな時のソリューションです。…",
       "articles": [
+        {
+          "title": "IAM Identity CenterもIdPもない環境で、CloudWatchをAI(MCP)から安全に操作する — IAM Roles Anywhere実装記",
+          "link": "https://qiita.com/Tav-Infra/items/1d765d6d07e7130a6e85",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-16T07:48:10",
+          "excerpt": "CloudWatchをAIエージェント経由で使いたい。でも「Identity Center も IdP もない、長期アクセスキーは使いたくない、また費用もかけたくない」——こんな時のソリューションです。…"
+        },
+        {
+          "title": "GitHub、AI活用のセキュリティ検出をプルリクエストで公開",
+          "link": "https://codezine.jp/article/detail/28997",
+          "source": "CodeZine",
+          "published": "2026-07-16T07:00:00",
+          "excerpt": "GitHub、AI活用のセキュリティ検出をプルリクエストで公開"
+        },
         {
           "title": "AWS WAFのレートベースルールはどう動く？ダッシュボードでブロックの動作を確認してみた | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/dos-simulation-aws-waf-rate-based-rule",
@@ -92,27 +106,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-16T03:21:03",
           "excerpt": "AWS Security Hub CSPM のセキュリティ基準が13個に増えて「どれを選べばいいの？」と迷っていませんか。本記事では、現在選べるすべての基準を整理し、目的別に有効化すべき基準をフローチャートで判断できるようにまとめました。"
-        },
-        {
-          "title": "Security Hub の Network Scanning で「本当に外から届くのか」を確認してみた | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/securityhub-network-scanning",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-16T02:30:00",
-          "excerpt": "今月誕生日の人、おめでとうございます🎉 エデュケーショナルサービス課の森純子です。「セキュリティグループは閉じたはずなのに、本当に外から到達できないか不安…」そんなお悩み、ありませんか？…"
-        },
-        {
-          "title": "GitHub CopilotアプリにAI駆動のセキュリティレビュー機能が追加",
-          "link": "https://codezine.jp/article/detail/28992",
-          "source": "CodeZine",
-          "published": "2026-07-16T01:00:00",
-          "excerpt": "GitHub CopilotアプリにAI駆動のセキュリティレビュー機能が追加"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。Amazon OpenSearch Service に、書き込み可能なウォームストレージ (writable warm) が加わりました。…",
+      "summary": "データ分析の新着が4件。Amazon OpenSearch Service に、書き込み可能なウォームストレージ (writable warm) が加わりました。…",
       "articles": [
         {
           "title": "Amazon OpenSearch Service の書き込み可能なウォームストレージでコストと運用負荷を削減",
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。バクラク事業部 Platform Engineering 部 SRE グループの uehara です。LayerX のバクラクでは、LLMOps プラットフォームとして Langfuse を採用しています。…",
+      "summary": "開発ツールの新着が11件。AWS CloudFormation テンプレートを使って Oracle Database@AWS の主要コンポーネント (ODB ネットワーク、Exadata インフラストラクチャ、VM クラスター) をプロビジョニングする手順を解説しま…",
       "articles": [
+        {
+          "title": "AWS CloudFormation を使った Oracle Database@AWS スタックのプロビジョニング",
+          "link": "https://aws.amazon.com/jp/blogs/news/provision-oracle-databaseaws-stack-using-aws-cloudformation/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-07-16T07:53:54",
+          "excerpt": "AWS CloudFormation テンプレートを使って Oracle Database@AWS の主要コンポーネント (ODB ネットワーク、Exadata インフラストラクチャ、VM クラスター) をプロビジョニングする手順を解説しま…"
+        },
+        {
+          "title": "GitHub、AI活用のセキュリティ検出をプルリクエストで公開",
+          "link": "https://codezine.jp/article/detail/28997",
+          "source": "CodeZine",
+          "published": "2026-07-16T07:00:00",
+          "excerpt": "GitHub、AI活用のセキュリティ検出をプルリクエストで公開"
+        },
         {
           "title": "Langfuse トレース取り込み処理の改善による ClickHouse の負荷低減 | LayerX エンジニアブログ",
           "link": "https://tech.layerx.co.jp/entry/langfuse-clickhouse-read-skip",
@@ -162,52 +176,38 @@
           "source": "CodeZine",
           "published": "2026-07-16T04:00:00",
           "excerpt": "GitHub Copilot、6月に発表したVisual Studio向けの新機能を紹介"
-        },
-        {
-          "title": "AIインフラ不足の解決策？　手間なしでAI検証環境を確保できる「Google Colab CLI」",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/16/news024.html",
-          "source": "@IT",
-          "published": "2026-07-16T04:00:00",
-          "excerpt": "Googleは、ローカル端末とリモートのColabランタイムをつなぐコマンドラインツール「Google Colab CLI」を公開した。開発者とAIエージェントの双方が、面倒な設定なしにGPU／TPUを使った実行環境を利用できる。"
-        },
-        {
-          "title": "GitHub CopilotアプリにAI駆動のセキュリティレビュー機能が追加",
-          "link": "https://codezine.jp/article/detail/28992",
-          "source": "CodeZine",
-          "published": "2026-07-16T01:00:00",
-          "excerpt": "GitHub CopilotアプリにAI駆動のセキュリティレビュー機能が追加"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "PM的記録のススメ：メモの整理方法を作り直した",
-      "link": "https://dev.classmethod.jp/articles/202607_kash_PMobsidian/",
-      "source": "DevelopersIO",
-      "published": "2026-07-16T06:02:47",
-      "excerpt": "AIに記録を渡すことを前提に、Zettelkastenベースのノート構成を見直しました。「毎日すること／しないこと」と「独自コンテキスト／信頼できる知識」の2軸で分類する「PM的ノート術」を紹介します。"
+      "title": "OpenCore Legacy Patcher を使用して古い Intel Mac に新しいトリックを教える方法",
+      "link": "https://www.theregister.com/software/2026/07/16/how-to-teach-an-old-intel-mac-new-tricks-with-opencore-legacy-patcher/5271880",
+      "source": "The Register（英語）",
+      "published": "2026-07-16T08:30:00",
+      "excerpt": "なぜそうするのか、何に気をつければよいのか"
     },
     {
-      "title": "React初学者のための全体像解説",
-      "link": "https://dev.classmethod.jp/articles/kash_react_all/",
-      "source": "DevelopersIO",
-      "published": "2026-07-16T05:58:10",
-      "excerpt": "Reactを学ぶときに登場するNode.js、npm、Vite、react-domなど、次々と現れる用語の全体像を整理します。これらが「何の役割で、どこで働くのか」を理解することで、常に現在地を把握しながら学習できるようになります。"
+      "title": "🍯【はちみつと学ぶIT】AWS Elastic Beanstalkとは？アプリを簡単に公開できるサービスをやさしく解説",
+      "link": "https://qiita.com/honeybro/items/75f6753510387606d8fe",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-16T08:22:25",
+      "excerpt": "🍯【はちみつと学ぶIT】AWS Elastic Beanstalkとは？…"
     },
     {
-      "title": "[新機能] Amazon Cognito CSV インポートでパスワードハッシュを指定してみた",
-      "link": "https://dev.classmethod.jp/articles/cognito-csv-import-password-hash/",
-      "source": "DevelopersIO",
-      "published": "2026-07-16T05:57:53",
-      "excerpt": "Amazon Cognito のユーザーインポート機能がアップデートされ、CSV ファイルにパスワードハッシュを含めてインポートできるようになりました。…"
+      "title": "Oracle Database@AWS のクロスアカウント共有のベストプラクティスとアーキテクチャパターン",
+      "link": "https://aws.amazon.com/jp/blogs/news/best-practices-and-architecture-patterns-for-cross-account-sharing-in-oracle-databaseaws/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-07-16T08:20:29",
+      "excerpt": "AWS RAM によるリソース共有と AWS License Manager によるエンタイトルメント共有を使い、AWS アカウント間で Oracle Database@AWS リソースを共有する 6 つのアーキテクチャパターンとベストプラ…"
     },
     {
-      "title": "DJB ネットストリングス",
-      "link": "https://cr.yp.to/proto/netstrings.txt",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-16T05:33:50",
-      "excerpt": "記事の URL: https://cr.yp.to/proto/netstrings.txt コメント URL: https://news.ycombinator.com/item?id=48930713 ポイント: 4 コメント数: 1"
+      "title": "Oracle Database@AWS の高性能ネットワーキング入門",
+      "link": "https://aws.amazon.com/jp/blogs/news/getting-started-with-the-oracle-databaseaws-high-performance-networking/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-07-16T08:10:52",
+      "excerpt": "Oracle Database@AWS の高性能ネットワーキング機能を使い、EC2 上のアプリケーションと ODB@AWS データベース間で安定したサブミリ秒のネットワークレイテンシーを実現する設定手順を解説します。"
     }
   ]
 }
