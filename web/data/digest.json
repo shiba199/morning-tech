@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T10:48:19",
+  "generated_at": "2026-07-16T12:13:32",
   "window_hours": 24,
   "total": 267,
   "topic_count": 5,
@@ -7,8 +7,15 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。📨 AIエージェント間の伝令役になってた 先日、AWSのクロスアカウントアクセスがうまくいかず、エラーの原因がアカウントAにあるのかアカウントBにあるのか切り分ける必要が出てきました。…",
+      "summary": "生成AIの新着が46件。アイナさんは今後数週間以内に新しいデバイスを試験運用する予定です。",
       "articles": [
+        {
+          "title": "Ultrahuman の元ハードウェア副社長が、ユーザーを記録するだけでなく AI エージェントを制御するデバイスのために 550 万ドルを調達",
+          "link": "https://techcrunch.com/2026/07/16/ultrahumans-former-hardware-vp-raises-5-5m-for-devices-that-control-ai-agents-not-just-record-you/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-16T11:30:00",
+          "excerpt": "アイナさんは今後数週間以内に新しいデバイスを試験運用する予定です。"
+        },
         {
           "title": "【ClaudeCode × AWS】アカウントを跨ぐ調査のベストプラクティスを模索してみた",
           "link": "https://qiita.com/kikuziro/items/6cbd5f7846cb1739f7ae",
@@ -17,68 +24,75 @@
           "excerpt": "📨 AIエージェント間の伝令役になってた 先日、AWSのクロスアカウントアクセスがうまくいかず、エラーの原因がアカウントAにあるのかアカウントBにあるのか切り分ける必要が出てきました。…"
         },
         {
-          "title": "Unitree Go2とG1を活用したロボット目視検査エージェント：Go2の実カメラ映像をローカルVLMで継続解析する",
-          "link": "https://dev.classmethod.jp/articles/robot_inspection_agent_week_2/",
-          "source": "DevelopersIO",
-          "published": "2026-07-16T08:28:19",
-          "excerpt": "Week 2 progress of the Robot Visual Inspection Agent project!"
+          "title": "AWS Lambdaの\"Self-Managed Code Storage\"を試してみた",
+          "link": "https://zenn.dev/team_delta/articles/e4aabfe1f99392",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-16T09:09:07",
+          "excerpt": "どうも、DELTAの馬場です。2026 年 7 月に Lambda の self-managed code storage が発表されました。自分のS3 バケットに置いたコードを Lambda がコピーせず直接参照するという機能です。…"
         },
         {
-          "title": "YC 創設者は今どこにいますか? OpenAI と Anthropic、主に",
-          "link": "https://joinedanthropic.com",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-16T08:03:35",
-          "excerpt": "記事の URL: https://joinedanthropic.com コメント URL: https://news.ycombinator.com/item?id=48931588 ポイント: 33 コメント数: 9"
-        },
-        {
-          "title": "Amazon SageMaker Unified Studio、19種の新オペレーター追加でAWS各種サービスとの連携を強化",
-          "link": "https://codezine.jp/article/detail/28998",
-          "source": "CodeZine",
-          "published": "2026-07-16T08:00:00",
-          "excerpt": "Amazon SageMaker Unified Studio、19種の新オペレーター追加でAWS各種サービスとの連携を強化"
+          "title": "AIコーディングエージェント選定を“感覚”から“数字”へ：agent-cost-benchをAWS上で試す",
+          "link": "https://zenn.dev/nttdata_tech/articles/130bd43f48e425",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-16T08:30:06",
+          "excerpt": "1.はじめに AIコーディングエージェントの活用が広がる中で、開発現場では次のような問いが増えてきました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が28件。7月16日午後5時40分ごろから、AWSで障害が発生している。CDNサービスが世界規模で不調という。…",
+      "summary": "クラウドの新着が29件。DynamoDBを追加せず、CRMの項目だけで結果確認のPollerを回しました。受付後の進行情報をAWS側の別ストアに増やさず、履歴レコード上のJSONに載せます。確認用Lambdaに公開HTTPは付けません。…",
       "articles": [
         {
-          "title": "AWSで障害　「CloudFront」世界規模で不調　PayPayに影響、noteやニコニコ生放送もつながりにくく",
-          "link": "https://www.itmedia.co.jp/news/articles/2607/16/news096.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-07-16T08:55:00",
-          "excerpt": "7月16日午後5時40分ごろから、AWSで障害が発生している。CDNサービスが世界規模で不調という。…"
+          "title": "Zoho WidgetとLambdaの連携 第5回：CRM上の進行管理と結果確認Poller",
+          "link": "https://qiita.com/small-engineer/items/cf3c7046b7f9947f75fc",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-16T11:30:07",
+          "excerpt": "DynamoDBを追加せず、CRMの項目だけで結果確認のPollerを回しました。受付後の進行情報をAWS側の別ストアに増やさず、履歴レコード上のJSONに載せます。確認用Lambdaに公開HTTPは付けません。…"
         },
         {
-          "title": "【IAM】最小権限で Terraform apply したら s3:GetBucket* では足りなかった話",
-          "link": "https://qiita.com/80-cloud/items/be2ee544eb91333b8c5a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-16T08:53:22",
-          "excerpt": "はじめに GitHub Actions から Terraform を apply する構成を作っていて、apply 用の IAM ロールを「最小権限」で組んでいました。…"
+          "title": "AWS CloudFront の停止により、ウェブサイトの代わりにエラーが表示される",
+          "link": "https://www.theregister.com/off-prem/2026/07/16/aws-cloudfront-outage-serves-errors-instead-of-websites/5272421",
+          "source": "The Register（英語）",
+          "published": "2026-07-16T10:54:42",
+          "excerpt": "嵐が巨大雲を超えて風を巻き起こし、ハギング・フェイスや英国の国営宝くじなどのサービスを壊滅させる"
         },
         {
-          "title": "【初心者向け】TerraformでLambda LayerとLambda関数をデプロイしてみよう",
-          "link": "https://qiita.com/PDC-Kurashinak/items/aa5c66bb9de0ae8fef10",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-16T08:47:02",
-          "excerpt": "どうもこんにちは。今回はTerraformを使って、PythonのLambdaレイヤーと、そのレイヤーを使うLambda関数をまとめてデプロイしてみます。…"
+          "title": "CloudTrail + S3 + Athena で作る、最小構成のログ集約・分析基盤",
+          "link": "https://zenn.dev/zer0_infra/articles/4df26fca47bbea",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-16T10:00:10",
+          "excerpt": "「あのAWSアカウントで誰が何をしたか、3ヶ月前のログを調べてほしい」——そういうリクエストが飛んできたとき、慌てて対応するのではなく、数十秒のSQLクエリで答えられる体制を作れているかどうかで、チームのセキュリティ成熟度は大きく変わります…"
         },
         {
-          "title": "🍯【はちみつと学ぶIT #15】Amazon ECSとは？コンテナを管理するサービスをやさしく解説",
-          "link": "https://qiita.com/honeybro/items/7bdf72807b135e719538",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-16T08:39:38",
-          "excerpt": "🍯【はちみつと学ぶIT #15】Amazon ECSとは？コンテナを管理するサービスをやさしく解説 はじめに 前回は、必要なときだけプログラムを実行するAWS Lambdaについて学びました。…"
+          "title": "NeovimをディレクトリベースLSP設定に移行した | NCDC テックブログのフィード",
+          "link": "https://zenn.dev/ncdc/articles/e920f5306ff3de",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-16T09:46:05",
+          "excerpt": "はじめにnvim0.11からlspをディレクトリベースで設定できる機能が追加されています。自分のlspの設定が増えてきたこともあって前々から設定をリファクタしたいと考えており、実際に移行してみました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。はじめに GitHub Actions から Terraform を apply する構成を作っていて、apply 用の IAM ロールを「最小権限」で組んでいました。…",
+      "summary": "セキュリティの新着が15件。対象読者: AWS のインフラ構築経験はあるが、Security Hub はまだ使ったことがない方。筆者自身も学びながら書いているので、「最初にこれを知っていれば迷わなかった」という順番で整理します。…",
       "articles": [
+        {
+          "title": "Security Hub は何も検知しない — AWS セキュリティサービス全体像と Security Hub の正体【入門】",
+          "link": "https://qiita.com/ujunja/items/3f79e987ad820e69f811",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-16T11:39:05",
+          "excerpt": "対象読者: AWS のインフラ構築経験はあるが、Security Hub はまだ使ったことがない方。筆者自身も学びながら書いているので、「最初にこれを知っていれば迷わなかった」という順番で整理します。…"
+        },
+        {
+          "title": "Telegram ショートリンクが認可された VPN 接続上でオフラインになる",
+          "link": "https://www.theregister.com/security/2026/07/16/telegram-shortlinks-knocked-offline-over-sanctioned-vpn-connection/5271964",
+          "source": "The Register（英語）",
+          "published": "2026-07-16T10:07:00",
+          "excerpt": "プラットフォームがサイバー犯罪者が好むサービスと無関係であることが証明されるまで、t.me は 1 日仕事を続けました。"
+        },
         {
           "title": "【IAM】最小権限で Terraform apply したら s3:GetBucket* では足りなかった話",
           "link": "https://qiita.com/80-cloud/items/be2ee544eb91333b8c5a",
@@ -92,28 +106,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-16T07:48:10",
           "excerpt": "CloudWatchをAIエージェント経由で使いたい。でも「Identity Center も IdP もない、長期アクセスキーは使いたくない、また費用もかけたくない」——こんな時のソリューションです。…"
-        },
-        {
-          "title": "GitHub、AI活用のセキュリティ検出をプルリクエストで公開",
-          "link": "https://codezine.jp/article/detail/28997",
-          "source": "CodeZine",
-          "published": "2026-07-16T07:00:00",
-          "excerpt": "GitHub、AI活用のセキュリティ検出をプルリクエストで公開"
-        },
-        {
-          "title": "AWS WAFのレートベースルールはどう動く？ダッシュボードでブロックの動作を確認してみた | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/dos-simulation-aws-waf-rate-based-rule",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-16T05:21:42",
-          "excerpt": "AWS WAFのRate-based ruleをCount モードとBlock モードで検証。EC2+ALB環境でheyを使ったリクエストの結果をダッシュボードで確認していきます。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。国内大手が共同出資するAI開発企業Noetraが、国産のAIモデルの開発に向けて本格始動する。米NVIDIAの協力のもと、新たな計算基盤も構築する。",
+      "summary": "データ分析の新着が7件。はじめに このセッションで学べること 前提知識・条件 セッション内容 セッション概要 Amazon DynamoDB の特性 フルマネージド分散 NoSQL データベース 従量課金モデル パーティショニングと一貫した性能 データモデリングの…",
       "articles": [
+        {
+          "title": "【AWS Summit Japan 2026】Amazon DynamoDB アドバンスドデータモデリング セッションレポート | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/aws-summit-2026-dynamodb-advanced-data-modeling",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-16T10:07:44",
+          "excerpt": "はじめに このセッションで学べること 前提知識・条件 セッション内容 セッション概要 Amazon DynamoDB の特性 フルマネージド分散 NoSQL データベース 従量課金モデル パーティショニングと一貫した性能 データモデリングの…"
+        },
         {
           "title": "大手共同出資の“国産AI開発企業”が本格始動　NVIDIAも協力、「Rubin」2万7500基搭載の計算基盤を構築へ",
           "link": "https://www.itmedia.co.jp/news/articles/2607/16/news101.html",
@@ -122,25 +129,18 @@
           "excerpt": "国内大手が共同出資するAI開発企業Noetraが、国産のAIモデルの開発に向けて本格始動する。米NVIDIAの協力のもと、新たな計算基盤も構築する。"
         },
         {
+          "title": "CloudTrail + S3 + Athena で作る、最小構成のログ集約・分析基盤",
+          "link": "https://zenn.dev/zer0_infra/articles/4df26fca47bbea",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-16T10:00:10",
+          "excerpt": "「あのAWSアカウントで誰が何をしたか、3ヶ月前のログを調べてほしい」——そういうリクエストが飛んできたとき、慌てて対応するのではなく、数十秒のSQLクエリで答えられる体制を作れているかどうかで、チームのセキュリティ成熟度は大きく変わります…"
+        },
+        {
           "title": "RAGチャットボットの参照元KB記事をCloud Logging→BigQuery→Data Studioで可視化する",
           "link": "https://dev.classmethod.jp/articles/rag-source-observability-cloud-logging-bigquery/",
           "source": "DevelopersIO",
           "published": "2026-07-16T07:29:06",
           "excerpt": "Vertex AI RAG Engineを使ったGoogle Chatボットの構造化ログに参照元KBファイル情報を追加し、BigQueryビューとLooker Studioで「どのKB記事が回答に使われたか」を分析可能にするまでの実装を紹介…"
-        },
-        {
-          "title": "Amazon OpenSearch Service の書き込み可能なウォームストレージでコストと運用負荷を削減",
-          "link": "https://aws.amazon.com/jp/blogs/news/cut-costs-and-simplify-operations-with-writable-warm-storage-in-amazon-opensearch-service/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-16T00:42:09",
-          "excerpt": "Amazon OpenSearch Service に、書き込み可能なウォームストレージ (writable warm) が加わりました。…"
-        },
-        {
-          "title": "Amazon MQ が RabbitMQ ブローカーの構成可能なストレージをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mq-rabbitmq-configurable-storage/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-15T18:18:00",
-          "excerpt": "Amazon MQ では、インスタンス タイプに関係なく、RabbitMQ ブローカーの EBS ディスク ストレージ サイズを設定できるようになりました。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "モバイルSuicaアプリのAndroid版で障害　ログインしにくく",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/16/news100.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-16T10:00:00",
-      "excerpt": "東日本旅客鉄道（JR東日本）は7月16日午後5時50分ごろ、モバイルSuicaアプリのAndroid版で障害が起きていると発表した。サービスにログインしづらい状態という。復旧の見込みには触れていない。"
+      "title": "Meta は、10 代の少年が自殺や自傷行為について AI チャットボットについて話し合った場合に保護者に警告するようになりました",
+      "link": "https://techcrunch.com/2026/07/16/meta-now-alerts-parents-if-their-teen-discussed-suicide-or-self-harm-with-its-ai-chatbot/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-16T11:00:00",
+      "excerpt": "このアップデートは、メタやその他のハイテク企業が、AIチャットボットが危機に陥ったユーザー、特に10代のユーザーにどのように対応するかについて規制当局や保護者からの厳しい監視に直面している中で行われた。"
     },
     {
-      "title": "Oracle Database@AWS のトラフィック集中検査",
-      "link": "https://aws.amazon.com/jp/blogs/news/centralized-traffic-inspection-for-oracle-databaseaws/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-07-16T09:55:12",
-      "excerpt": "Oracle Database@AWS 環境で AWS Transit Gateway の集中検査 VPC または AWS Cloud WAN のサービス挿入を使用して、東西・南北ネットワークトラフィックを集中検査する 2 つのパターンを解…"
+      "title": "なぜAWSは選ばれたのか ― 標準化の力学で読み解くAI時代のプロトコル戦争",
+      "link": "https://qiita.com/nakatada-lab/items/97c9f7ae58f55a5f80cb",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-16T10:53:41",
+      "excerpt": "TL;DR AWSが勝った理由は性能ではなく「世界中の開発者が参加できる標準基盤」を作ったこと AI時代も同じ力学が働いており、現在MCP・A2A・Function Callingの3つのプロトコルが標準を争っている 2026年時点でMCP…"
     },
     {
-      "title": "PayPayで障害か　読み込めない状態に　公式サイトもダウン",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/16/news099.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-16T09:10:00",
-      "excerpt": "7月16日午後5時ごろから、キャッシュレス決済サービス「PayPay」で「使えない」「通信エラーが出る」といった報告がSNS上で相次いでいる。ITmedia NEWS編集部でもアプリを起動できない状態を確認した。"
+      "title": "OnePlus、米国と欧州での事業を停止",
+      "link": "https://community.oneplus.com/thread/2170715118587871237",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-16T10:14:04",
+      "excerpt": "記事の URL: https://community.oneplus.com/thread/2170715118587871237 コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Oracle Database@AWS を読み解く: Oracle ワークロードに最適な選択肢の見極め方",
-      "link": "https://aws.amazon.com/jp/blogs/news/oracle-databaseaws-decoded-determining-the-right-fit-for-your-oracle-workloads/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-07-16T09:00:52",
-      "excerpt": "2025 年 7 月に GA となった Oracle Database@AWS (ODB@AWS) が Oracle ワークロードに適しているかを判断する 5 つの質問と、ビジネス・技術・ライセンス面での利点、Amazon RDS for…"
+      "title": "k8s CronJob の応急的な停止 | Wantedly Engineer Blog",
+      "link": "https://www.wantedly.com/companies/wantedly/post_articles/1079803",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-16T10:00:16",
+      "excerpt": "背景障害対応では、初動対応としてまず動いているプロセスを停止させることがあります。k8s の CronJob (が..."
     }
   ]
 }
