@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-17T19:13:59",
+  "generated_at": "2026-07-17T20:26:07",
   "window_hours": 24,
-  "total": 256,
+  "total": 258,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が44件。Appleは先週金曜日、OpenAIに対して営業秘密訴訟を起こしたが、それはいたずらではない。…",
+      "summary": "生成AIの新着が41件。Appleは先週金曜日、OpenAIに対して営業秘密訴訟を起こしたが、それはいたずらではない。…",
       "articles": [
         {
           "title": "Appleの大規模訴訟がOpenAIのIPO計画をどのように混乱させるか",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が34件。Amazon OpenSearch Service は、OpenSearch ドメインとサーバーレス コレクションの両方について、従来の OpenSearch ダッシュボードから OpenSearch UI へのワンクリック移行をサポートす…",
+      "summary": "クラウドの新着が35件。Amazon OpenSearch Service は、OpenSearch ドメインとサーバーレス コレクションの両方について、従来の OpenSearch ダッシュボードから OpenSearch UI へのワンクリック移行をサポートす…",
       "articles": [
         {
           "title": "Amazon OpenSearch UI がワンクリックでのダッシュボード移行をサポートするようになりました",
@@ -59,25 +59,25 @@
           "excerpt": "ECS Fargate環境でも認証情報の漏洩を検出することができるようになりました！ついでにAmazon GuardDuty Investigationで調査機能の実力も確認しました。非常によき！"
         },
         {
+          "title": "【2026/7/16 CloudFront障害】VPCオリジンと通常オリジンの違い・ユースケースを整理する",
+          "link": "https://zenn.dev/shino_i/articles/1d85e70c6847a5",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-17T16:12:07",
+          "excerpt": "【2026/7/16 CloudFront障害】VPCオリジンと通常オリジンの違い・ユースケースを整理する はじめに 2026年7月16日の夕方（日本時間）、Amazon CloudFront で障害が発生し、VPCオリジン（VPC ori…"
+        },
+        {
           "title": "distrolessイメージでECSヘルスチェックを通す方法",
           "link": "https://qiita.com/sugar_hash/items/a6cf1ea053bbe73d3508",
           "source": "Qiita AWSタグ",
           "published": "2026-07-17T14:57:26",
           "excerpt": "TL;DR; ECSのコンテナヘルスチェック（タスク定義の healthCheck）を有効化する際、distrolessイメージにはシェルや curl が無いため、標準的な CMD-SHELL によるヘルスチェックは失敗します。…"
-        },
-        {
-          "title": "Aurora の診断ランブックを Claude の Skill にすると「いま重い SQL」の答えはどう変わるか",
-          "link": "https://qiita.com/asahide/items/bbfc1b81b89e745b182b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-17T14:48:38",
-          "excerpt": "1.はじめに 前回、Aurora PostgreSQL で「いま重い SQL を3件教えて」と Claude に聞き、2つの経路でどう答えが返るかを実測しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が22件。ECS Fargate環境でも認証情報の漏洩を検出することができるようになりました！ついでにAmazon GuardDuty Investigationで調査機能の実力も確認しました。非常によき！",
+      "summary": "セキュリティの新着が20件。ECS Fargate環境でも認証情報の漏洩を検出することができるようになりました！ついでにAmazon GuardDuty Investigationで調査機能の実力も確認しました。非常によき！",
       "articles": [
         {
           "title": "[アップデート]Amazon GuardDutyが漏洩したAmazon ECS認証情報の不正利用を検出できるようになりました",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。Amazon OpenSearch Service は、OpenSearch ドメインとサーバーレス コレクションの両方について、従来の OpenSearch ダッシュボードから OpenSearch UI へのワンクリック移行をサポートす…",
+      "summary": "データ分析の新着が6件。Amazon OpenSearch Service は、OpenSearch ドメインとサーバーレス コレクションの両方について、従来の OpenSearch ダッシュボードから OpenSearch UI へのワンクリック移行をサポートす…",
       "articles": [
         {
           "title": "Amazon OpenSearch UI がワンクリックでのダッシュボード移行をサポートするようになりました",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。AWS SAM入門：Rancher Desktop環境でのローカル開発からデプロイまでの手順と注意点 こんにちは！最近夜散歩にハマってるニシグチです。…",
+      "summary": "開発ツールの新着が11件。AWS SAM入門：Rancher Desktop環境でのローカル開発からデプロイまでの手順と注意点 こんにちは！最近夜散歩にハマってるニシグチです。…",
       "articles": [
         {
           "title": "AWS SAM入門：Rancher Desktop環境でのローカル開発からデプロイまでの手順と注意点",
@@ -155,6 +155,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-17T15:44:42",
           "excerpt": "AWS SAM入門：Rancher Desktop環境でのローカル開発からデプロイまでの手順と注意点 こんにちは！最近夜散歩にハマってるニシグチです。…"
+        },
+        {
+          "title": "数字が絶対に減らない\"やさしい積み上げアプリ\"をAmplify Gen 2で作った話",
+          "link": "https://zenn.dev/satoru_o/articles/b1d879006609cf",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-17T14:09:34",
+          "excerpt": "はじめに 「日々の些細なことが積み上がっていくだけ」の 積み上げアプリ(つみつみファーム) を、React + TypeScript と AWS Amplify Gen 2（Cognito / API Gateway / Lambda /…"
         },
         {
           "title": "【CloudFormation編】SAA先生に学ぶAWSの全容と授業メモ",
@@ -169,45 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-17T09:53:54",
           "excerpt": "Google カレンダーの予定を稼働管理シートに自動転記するツールを、Claude Code と clasp を組み合わせて作りました。コードの修正・配布は AI に寄せて、メンバーの運用はシンプルに。…"
-        },
-        {
-          "title": "AI エージェント向けに Web ページの取得と抽出を 1 コマンドにまとめる CLI『ax』を触ってみた",
-          "link": "https://dev.classmethod.jp/articles/ax-the-ai-era-curl-cli-for-ai-agents/",
-          "source": "DevelopersIO",
-          "published": "2026-07-17T09:05:10",
-          "excerpt": "AI 時代の Web フェッチツール ax を試してみました。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "暖房器具とシーリングファンをダイソン製家電に交換しました",
-      "link": "https://techcrunch.com/2026/07/17/i-replaced-my-space-heater-and-ceiling-fan-with-one-dyson-appliance/",
+      "title": "Agility Robotics、テスラの裏庭に旗を立てる",
+      "link": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-17T18:00:17",
-      "excerpt": "一年中快適に過ごせるように設計された Dyson Hot+Cool HF1 は、静かな動作とシンプルなコントロールを Dyson の特徴的なブレードレス デザインと組み合わせています。"
+      "published": "2026-07-17T20:19:49",
+      "excerpt": "Agility は、カリフォルニア州フリーモントに Digit ロボットの新しいトレーニング センターを開設します。"
     },
     {
-      "title": "SQLite の実行についていくつかのことを学ぶ",
-      "link": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
+      "title": "AIによるメモリ不足がインドのスマートフォン市場を震撼させる",
+      "link": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-17T20:09:27",
+      "excerpt": "インドのスマートフォンの減速は、AIブームが価格や需要から企業戦略に至るまで家電製品をどのように再構築しているかを浮き彫りにしている。"
+    },
+    {
+      "title": "フロックCEO、活動家を「テロリスト」と呼んだことを謝罪",
+      "link": "https://www.forbes.com/sites/thomasbrewster/2026/07/17/flock-ceo-sorry-for-labelling-activists-terrorists/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-17T17:45:41",
-      "excerpt": "記事の URL: https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-17T19:53:01",
+      "excerpt": "記事の URL: https://www.forbes.…"
     },
     {
-      "title": "Mozilla、Firefox のリリーススケジュールを隔週に短縮",
-      "link": "https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423",
-      "source": "The Register（英語）",
-      "published": "2026-07-17T17:40:00",
-      "excerpt": "そして、次の ESR リリースが近づくにつれて Firefox 153 に何が期待されるか"
-    },
-    {
-      "title": "糖尿病追放論争で新たな厄介な詳細が明らかに",
-      "link": "https://arstechnica.com/science/2026/07/troubling-new-details-emerge-on-diabetes-ouster-controversy/",
+      "title": "グーグルが支援する山火事探知衛星が打ち上げ、煙が詰まる米国、カナダ",
+      "link": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/",
       "source": "Ars Technica（英語）",
-      "published": "2026-07-17T17:08:05",
-      "excerpt": "米国糖尿病協会は論説記事の出版を禁止したため、著者はそれらをプレプリントとして掲載しました。"
+      "published": "2026-07-17T19:50:18",
+      "excerpt": "FireSat プログラムは、他の衛星が見逃す山火事も発見できます。"
     }
   ]
 }
