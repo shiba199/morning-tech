@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-07-17T07:09:09",
+  "generated_at": "2026-07-17T09:25:13",
   "window_hours": 24,
-  "total": 270,
+  "total": 255,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が38件。「1Password」を手掛けるカナダのAgileBitsは7月16日（現地時間）、米AnthropicのAI「Claude」がユーザーのパスワードを見ることなくWebサイトなどにログインできる連携機能「1Password for Clau…",
+      "summary": "生成AIの新着が36件。特定のマルチタッチ ジェスチャは認証プロンプトをバイパスし、誰でもメッセージを送信できるようにします。",
       "articles": [
         {
-          "title": "1Password、Claudeに「パスワードを見せず」目的のサイトにログインする新機能　生体認証→アクセス権限付与",
-          "link": "https://www.itmedia.co.jp/news/articles/2607/17/news088.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-07-17T06:15:00",
-          "excerpt": "「1Password」を手掛けるカナダのAgileBitsは7月16日（現地時間）、米AnthropicのAI「Claude」がユーザーのパスワードを見ることなくWebサイトなどにログインできる連携機能「1Password for Clau…"
+          "title": "Google、Gemini が PIN なしで SMS を送信できる Android ロック画面のバグを修正",
+          "link": "https://www.theregister.com/security/2026/07/17/google-fixing-android-lock-screen-bug-that-lets-gemini-send-sms-without-a-pin/5273027",
+          "source": "The Register（英語）",
+          "published": "2026-07-17T09:15:00",
+          "excerpt": "特定のマルチタッチ ジェスチャは認証プロンプトをバイパスし、誰でもメッセージを送信できるようにします。"
         },
         {
-          "title": "NotebookLMが「Gemini Notebook」に ―Googleエコシステム全体で使えるノートブックへの進化を目指して",
-          "link": "https://gihyo.jp/article/2026/07/notebooklm-gemini-notebook?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-07-17T06:09:00",
-          "excerpt": "Googleは2026年7月16日、NotebookLMの名称を「Gemini Notebook」に変更したことを発表した。"
-        },
-        {
-          "title": "ナレッジグラフと IoT データによる生産ラインのボトルネック分析 〜AI エージェントのための製造データの構造化〜",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-summit-japan-2026-mfg-knowledge-graph-iot/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-17T04:45:46",
-          "excerpt": "はじめに こんにちは、IoT Specialist ソリューションアーキテクトの新澤です。2026 年 6 月 […]"
-        },
-        {
-          "title": "[アップデート] Amazon SageMaker Unified Studio の IAM ベースドメインでカスタムアセットタイプが利用可能になったので、Amazon Quick ダッシュボードをカタログ登録してみた",
-          "link": "https://dev.classmethod.jp/articles/20260718-amazon-smus-custom-asset-types-iam/",
+          "title": "AI エージェント向けに Web ページの取得と抽出を 1 コマンドにまとめる CLI『ax』を触ってみた",
+          "link": "https://dev.classmethod.jp/articles/ax-the-ai-era-curl-cli-for-ai-agents/",
           "source": "DevelopersIO",
-          "published": "2026-07-17T04:13:19",
-          "excerpt": "Amazon SageMaker Unified Studio のカスタムアセットタイプ機能が IAM ベースドメインで利用可能になったので、Amazon QuickSight ダッシュボードをカタログ化して、実際のワークフローを試してみま…"
+          "published": "2026-07-17T09:05:10",
+          "excerpt": "AI 時代の Web フェッチツール ax を試してみました。"
+        },
+        {
+          "title": "RAGをファインチューニングで置き換えられる？ KB検索の選択肢を調べて考えてみた",
+          "link": "https://dev.classmethod.jp/articles/rag-vs-finetuning-kb-search/",
+          "source": "DevelopersIO",
+          "published": "2026-07-17T08:12:31",
+          "excerpt": "「ファインチューニングで RAG を安く置き換えられないか？」という疑問から、両者の役割の違い、RAG 以外の KB 検索アーキテクチャ、ファインチューニングに投資する本当の理由を整理しました。"
+        },
+        {
+          "title": "Chronos-2 on Amazon SageMaker AI にアクセスする3つのパターン  – AutoGluon-Cloud v0.5.0 で数行に",
+          "link": "https://aws.amazon.com/jp/blogs/news/chronos-2-on-amazon-sagemaker-ai-with-autogluon-cloud/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-07-17T07:51:58",
+          "excerpt": "みなさん、こんにちは。ソリューションアーキテクトの 寺山です。AutoGluon-Cloud v0.5.0 […]…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が39件。Amazon RDS for Db2 のアーカイブログを Amazon S3 にコピーし、セルフマネージドの Db2 インスタンスへ継続的に適用することで、両者を同期させ続けるハイブリッドアーキテクチャを紹介します。…",
+      "summary": "クラウドの新着が33件。はじめに EC2 上の nginx なら、ログを見たければサーバーに入って access.log を開けばいい。$ tail -f /var/log/nginx/access.log では ALB は?SSH できるサーバーが存在しない。…",
       "articles": [
+        {
+          "title": "ALBにログってあるの?どこに出せるの?を調べた：アクセスログとS3配送の仕組み",
+          "link": "https://qiita.com/gtakairo/items/05bad691a94c11410b4d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-17T08:07:28",
+          "excerpt": "はじめに EC2 上の nginx なら、ログを見たければサーバーに入って access.log を開けばいい。$ tail -f /var/log/nginx/access.log では ALB は?SSH できるサーバーが存在しない。…"
+        },
         {
           "title": "バックアップ用オンプレミス Db2 サーバーを Amazon RDS for Db2 と同期する",
           "link": "https://aws.amazon.com/jp/blogs/news/synchronizing-a-backup-on-premises-db2-server-with-amazon-rds-for-db2/",
@@ -52,32 +59,25 @@
           "excerpt": "Amazon RDS for Db2 のアーカイブログを Amazon S3 にコピーし、セルフマネージドの Db2 インスタンスへ継続的に適用することで、両者を同期させ続けるハイブリッドアーキテクチャを紹介します。…"
         },
         {
+          "title": "RHEL 9 EC2環境でSlurm Job Schedulerを検証してみた。",
+          "link": "https://dev.classmethod.jp/articles/jw-rhel9-ec2-slurm-validation/",
+          "source": "DevelopersIO",
+          "published": "2026-07-17T07:05:41",
+          "excerpt": "RHEL 9 EC2環境でSlurm Job Schedulerを検証してみました。"
+        },
+        {
           "title": "エブリーが、Aurora DSQL の採用でデータベースコストを 90% 以上削減とメンテナンス運用からの解放も実現",
           "link": "https://aws.amazon.com/jp/blogs/news/db-customercase-every-dsql/",
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-07-17T06:41:36",
           "excerpt": "株式会社エブリーは、「前向きなきっかけを、ひとりひとりの日常にとどける。」というミッションのもと、デリ […]"
-        },
-        {
-          "title": "AWS DMS を使って Amazon RDS for Db2 からオンプレミスの AIX Db2 へフェイルバックする",
-          "link": "https://aws.amazon.com/jp/blogs/news/fail-back-from-amazon-rds-for-db2-to-on-premises-aix-db2-using-dms/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-17T05:25:03",
-          "excerpt": "AWS Database Migration Service (AWS DMS) を使い、Amazon RDS for Db2 からオンプレミスの AIX Db2 インスタンスへ CDC のみのリバースレプリケーションを構成する方法を説明し…"
-        },
-        {
-          "title": "Amazon Connect Customer の双方向 SMS で受信テキストを取得して Lambda で扱ってみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-connect-customer-two-way-sms-initial-message-lambda/",
-          "source": "DevelopersIO",
-          "published": "2026-07-17T05:12:33",
-          "excerpt": "Amazon Connect Customer の双方向 SMS で受信メッセージをコンタクト属性として取得し、Lambda で処理する方法を試しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が19件。「1Password」を手掛けるカナダのAgileBitsは7月16日（現地時間）、米AnthropicのAI「Claude」がユーザーのパスワードを見ることなくWebサイトなどにログインできる連携機能「1Password for Clau…",
+      "summary": "セキュリティの新着が17件。「1Password」を手掛けるカナダのAgileBitsは7月16日（現地時間）、米AnthropicのAI「Claude」がユーザーのパスワードを見ることなくWebサイトなどにログインできる連携機能「1Password for Clau…",
       "articles": [
         {
           "title": "1Password、Claudeに「パスワードを見せず」目的のサイトにログインする新機能　生体認証→アクセス権限付与",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が11件。ローカルLLMが資料を自動作成「LM Studio Bionic」、無料のAIエージェント",
+      "summary": "データ分析の新着が10件。ローカルLLMが資料を自動作成「LM Studio Bionic」、無料のAIエージェント",
       "articles": [
         {
           "title": "ローカルLLMが資料を自動作成「LM Studio Bionic」、無料のAIエージェント",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。IBM Db2 ワークロードを運用しているお客様向けに、Amazon RDS for Db2 を再現性が高く監査可能な方法でプロビジョニングするモジュール式の Terraform テンプレートを紹介します。…",
+      "summary": "開発ツールの新着が5件。AI 時代の Web フェッチツール ax を試してみました。",
       "articles": [
+        {
+          "title": "AI エージェント向けに Web ページの取得と抽出を 1 コマンドにまとめる CLI『ax』を触ってみた",
+          "link": "https://dev.classmethod.jp/articles/ax-the-ai-era-curl-cli-for-ai-agents/",
+          "source": "DevelopersIO",
+          "published": "2026-07-17T09:05:10",
+          "excerpt": "AI 時代の Web フェッチツール ax を試してみました。"
+        },
         {
           "title": "Terraform を使用した Amazon RDS for Db2 のデプロイ",
           "link": "https://aws.amazon.com/jp/blogs/news/deploying-amazon-rds-for-db2-using-terraform/",
@@ -169,45 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-16T20:32:16",
           "excerpt": "Google Cloud の Cloud Run が GitHub Container Registry（GHCR）のパブリックコンテナイメージを直接デプロイする機能が GA となりました。追加手順なしで ghcr.…"
-        },
-        {
-          "title": "Terraform を使用した Oracle Database@AWS リソースのプロビジョニング",
-          "link": "https://aws.amazon.com/jp/blogs/news/provision-oracle-databaseaws-resources-using-terraform/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-16T09:50:52",
-          "excerpt": "本記事では、Terraform を使用して Oracle Database@AWS の主要コンポーネント（ODB ネットワーク、Exadata インフラストラクチャ、Exadata VM クラスター、Autonomous VM クラスター）…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "VS Code拡張機能「Draw.io Integration」、Markdownのプレビュー上で図をインライン編集する機能、プレリリース版で提供",
-      "link": "https://gihyo.jp/article/2026/07/vscode-drawio-extension-inline-editing?utm_source=feed",
-      "source": "gihyo.jp 開発",
-      "published": "2026-07-17T07:03:00",
-      "excerpt": "draw.ioの公式Xアカウントは2026年7月9日、Visual Studio Code（VS Code）用の拡張機能「Draw.io Integration」に、図をインライン編集する機能が加わったと紹介した。"
-    },
-    {
-      "title": "キオクシア、約370億円の支払い命令に「到底容認できない」　控訴含む法的手段へ　米特許訴訟で",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/17/news097.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-17T06:40:00",
-      "excerpt": "キオクシアホールディングスの子会社が米衛星通信会社Viasatの特許を侵害したとして、米連邦地裁の陪審が約2億2900万ドル（約370億円）の支払いを命じる評決を下した。…"
-    },
-    {
-      "title": "ドイツの日系SMEが Personio を導入してみた ― 【第2回】勤怠・休暇管理",
-      "link": "https://dev.classmethod.jp/articles/personio-attendance-timeoff/",
+      "title": "Slurmジョブ実行時に発生したI/Oタイムアウトの解決方法について整理してみました。",
+      "link": "https://dev.classmethod.jp/articles/jw-slurm-job-io-timeout-solution/",
       "source": "DevelopersIO",
-      "published": "2026-07-17T06:30:09",
-      "excerpt": "Personio 導入記の第2回は、日々の運用の中心となる勤怠管理機能を、ドイツの労働法や旧システム Timetac との違いも交えて紹介。…"
+      "published": "2026-07-17T08:40:48",
+      "excerpt": "Slurmジョブ実行時に発生したI/Oタイムアウトの原因と解決方法について整理してみました。"
     },
     {
-      "title": "技術サポート担当者は怒っている顧客に、枠内で考えるように言い、問題を解決しました",
-      "link": "https://www.theregister.com/personal-tech/2026/07/17/tech-support-chap-told-angry-customer-to-think-inside-the-box-and-solved-the-problem/5272293",
-      "source": "The Register（英語）",
-      "published": "2026-07-17T06:30:00",
-      "excerpt": "私たちはリチウムイオン電池ではありません、ユーザーは携帯電話のバッテリーが数日ごとになくなると思っていました"
+      "title": "DX総合EXPO 2026に出展します！【7月22日-24日 ＠幕張メッセ】 | TechRacho",
+      "link": "https://techracho.bpsinc.jp/rikah016/2026_07_17/158907",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-17T08:37:33",
+      "excerpt": "こんにちは Rikaです。私事ですが、今月でBPSに入社して丸7年になります。驚きです。DX総合EXPOの出展も今回で2回目。そろそろ梱包に慣れたいです。「DX総合EXPO 2026」に出展します！…"
+    },
+    {
+      "title": "半期をふりかえり、来期を考える「QA Summit」を開催しました | SmartHR Tech Blog",
+      "link": "https://tech.smarthr.jp/entry/qa_summit",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-17T08:35:16",
+      "excerpt": "こんにちは、SmartHR 品質保証本部 Directorのtarappoです。品質保証本部では半期*1に1度「QA Summit」という会を開催しています。先日、FY26上半期のQA Summitを開催しました。…"
+    },
+    {
+      "title": "新卒のオンボーディングが59分で終わる skill を作った話 | kubell Creator's Note",
+      "link": "https://creators-note.chatwork.com/entry/2026/07/17/173509",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-17T08:35:09",
+      "excerpt": "はじめに こんにちは、認証チームの古川です。以前から認証チームでは「開発プラクティスのコード化（Development Practices as Code）」と題して、Claude Code を用いた開発情報の蓄積・活用を行ってきました。"
     }
   ]
 }
