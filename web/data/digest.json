@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-17T14:24:07",
+  "generated_at": "2026-07-17T15:52:32",
   "window_hours": 24,
-  "total": 271,
+  "total": 275,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が46件。業務引き継ぎと生成AI導入が難しい理由は実は同じだったのです。仕事の属人化、コンテキスト理解の難しさ、そして「渡して終わり」では成功しない本質について、具体例を交えて解説します。",
+      "summary": "生成AIの新着が45件。1.はじめに 前回、Aurora PostgreSQL で「いま重い SQL を3件教えて」と Claude に聞き、2つの経路でどう答えが返るかを実測しました。…",
       "articles": [
+        {
+          "title": "Aurora の診断ランブックを Claude の Skill にすると「いま重い SQL」の答えはどう変わるか",
+          "link": "https://qiita.com/asahide/items/bbfc1b81b89e745b182b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-17T14:48:38",
+          "excerpt": "1.はじめに 前回、Aurora PostgreSQL で「いま重い SQL を3件教えて」と Claude に聞き、2つの経路でどう答えが返るかを実測しました。…"
+        },
+        {
+          "title": "Show HN: 発行者が AI エージェントであるオンチェーン債券市場",
+          "link": "https://selbonds.now",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-17T14:25:20",
+          "excerpt": "こんにちは、Hacker News です。私は、発行者と借り手が AI エージェントであるオンチェーン債券市場である sellbonds.now を構築しました。sellbonds.…"
+        },
         {
           "title": "“業務引き継ぎ”と“生成AI業務導入”は似ている話",
           "link": "https://dev.classmethod.jp/articles/mankind-and-llm-are-not-that-different/",
@@ -22,28 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-17T12:57:36",
           "excerpt": "GuardDuty のサンプル Finding 生成 API を誤実行し、放置していた EventBridge ルール経由で AWS DevOps Agent に 406 件すべてが流れ込み、約 200 ドルの課金が発生した失敗事例を紹介し…"
-        },
-        {
-          "title": "VulnHunter: Capital One のエージェント AI コード セキュリティ ツール",
-          "link": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-17T12:42:12",
-          "excerpt": "記事の URL: https://www.capitalone.com/tech/open-source/payment-vulnhunter/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Apple、法的文書でOpenAI従業員数十名を標的に",
-          "link": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-17T12:02:39",
-          "excerpt": "記事の URL: https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166 コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が34件。Snowflakeの権限管理がシンプルになる「Inherited Grants」と、データベース単位で権限管理を委任できる「Container-level MANAGE GRANTS」という2つのPreview Featureを、実際に試し…",
+      "summary": "クラウドの新着が39件。TL;DR; ECSのコンテナヘルスチェック（タスク定義の healthCheck）を有効化する際、distrolessイメージにはシェルや curl が無いため、標準的な CMD-SHELL によるヘルスチェックは失敗します。…",
       "articles": [
+        {
+          "title": "distrolessイメージでECSヘルスチェックを通す方法",
+          "link": "https://qiita.com/sugar_hash/items/a6cf1ea053bbe73d3508",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-17T14:57:26",
+          "excerpt": "TL;DR; ECSのコンテナヘルスチェック（タスク定義の healthCheck）を有効化する際、distrolessイメージにはシェルや curl が無いため、標準的な CMD-SHELL によるヘルスチェックは失敗します。…"
+        },
+        {
+          "title": "Aurora の診断ランブックを Claude の Skill にすると「いま重い SQL」の答えはどう変わるか",
+          "link": "https://qiita.com/asahide/items/bbfc1b81b89e745b182b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-17T14:48:38",
+          "excerpt": "1.はじめに 前回、Aurora PostgreSQL で「いま重い SQL を3件教えて」と Claude に聞き、2つの経路でどう答えが返るかを実測しました。…"
+        },
         {
           "title": "[新機能]既存・将来オブジェクトへの権限をまとめて管理できる「Inherited Grants」と、権限管理を委任できる「Container-level MANAGE GRANTS」を試してみた",
           "link": "https://dev.classmethod.jp/articles/snowflake-try-ingerited-grants/",
@@ -57,28 +71,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-17T13:22:33",
           "excerpt": "記事の URL: https://www.ycombinator.…"
-        },
-        {
-          "title": "基幹システムを運用している現場が求めるEC2/RDSダッシュボードってこんなやつ",
-          "link": "https://qiita.com/hayayu0/items/9c4853eabcaeeeeabe5d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-17T12:53:36",
-          "excerpt": "運用でこういうのが知りたい AWSで、基幹システムのEC2やRDSを運用管理している現場の皆さん、お疲れ様です。そのような環境では、こんな確認をしたくなりませんか？…"
-        },
-        {
-          "title": "Claude Codeと取り組んだ大規模レガシー移行の記録 | Luup Developers Blogのフィード",
-          "link": "https://zenn.dev/luup_developers/articles/server-jang-20260716",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-17T11:43:49",
-          "excerpt": "こんにちは、LuupのUser Product Group Backend Teamのバックエンドエンジニア、Jang(チャン)です。「成功しても何も起きない」が正しい結果になる仕事、というものがあります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。GuardDuty のサンプル Finding 生成 API を誤実行し、放置していた EventBridge ルール経由で AWS DevOps Agent に 406 件すべてが流れ込み、約 200 ドルの課金が発生した失敗事例を紹介し…",
+      "summary": "セキュリティの新着が20件。はじめに クラウド移行が当たり前になった今、「セキュリティは誰が担保するのか？」という問いに自信を持って答えられるエンジニアはどれほどいるでしょうか。…",
       "articles": [
+        {
+          "title": "【書評】Enterprise Cloud Security and Governance",
+          "link": "https://qiita.com/io0323/items/dd1f838a2e59d0d2899f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-17T15:01:30",
+          "excerpt": "はじめに クラウド移行が当たり前になった今、「セキュリティは誰が担保するのか？」という問いに自信を持って答えられるエンジニアはどれほどいるでしょうか。…"
+        },
+        {
+          "title": "AI と暗号化の出会い 2: AI が OpenVM の ZkVM で見つけたもの",
+          "link": "https://blog.zksecurity.xyz/posts/openvm-bugs/",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-17T14:21:35",
+          "excerpt": "記事の URL: https://blog.zksecurity.xyz/posts/openvm-bugs/ コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "Amazon GuardDutyの検出結果サンプルの生成を実行したら、AWS DevOps Agentで200ドルの課金が発生した話",
           "link": "https://dev.classmethod.jp/articles/guardduty-sample-finding-devops-agent-billing-incident/",
@@ -92,20 +106,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-17T12:42:12",
           "excerpt": "記事の URL: https://www.capitalone.com/tech/open-source/payment-vulnhunter/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "データを移行せずに、Gemini Enterprise から AWS のデータを聞けるようにする（後編：ノーコードでの Custom Agent 構築と、ADK による認証付きクロスクラウド連携） | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/07/17/192809",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-17T10:28:09",
-          "excerpt": "こんにちは。クロスインダストリー第1本部 松田です。…"
-        },
-        {
-          "title": "ランサムウェアにより、コカ・コーラのフェアライフ乳業部門での生産が滞る",
-          "link": "https://www.theregister.com/cyber-crime/2026/07/17/ransomware-curdles-production-at-coca-colas-fairlife-dairy-biz/5274157",
-          "source": "The Register（英語）",
-          "published": "2026-07-17T10:00:00",
-          "excerpt": "そもそも米国の工場が牛乳を瓶詰めできないのに、こぼれた牛乳を嘆いても無駄だ"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。CloudFormationは「設計図を渡すだけでインフラが建つ」仕組み 🏗️ CloudFormationは「インフラを文章で発注する」サービス AWSクラウド上でインフラ環境を自動構築・管理するサービスがCloudFormation。…",
+      "summary": "開発ツールの新着が10件。AWS SAM入門：Rancher Desktop環境でのローカル開発からデプロイまでの手順と注意点 こんにちは！最近夜散歩にハマってるニシグチです。…",
       "articles": [
+        {
+          "title": "AWS SAM入門：Rancher Desktop環境でのローカル開発からデプロイまでの手順と注意点",
+          "link": "https://qiita.com/nishiguchi_2/items/9d8d353d95d60c40e762",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-17T15:44:42",
+          "excerpt": "AWS SAM入門：Rancher Desktop環境でのローカル開発からデプロイまでの手順と注意点 こんにちは！最近夜散歩にハマってるニシグチです。…"
+        },
         {
           "title": "【CloudFormation編】SAA先生に学ぶAWSの全容と授業メモ",
           "link": "https://qiita.com/minifish33/items/c2b95132a6692874d5f1",
@@ -169,45 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-17T09:05:10",
           "excerpt": "AI 時代の Web フェッチツール ax を試してみました。"
-        },
-        {
-          "title": "CI/CD入門第5回：CodeDeployを利用したCDワークフローの構築～パイプラインの全体像～",
-          "link": "https://zenn.dev/oasys/articles/ci-cd-intro-5-codedeploy-overview",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-17T05:22:38",
-          "excerpt": "はじめに 皆さん、こんにちは。オアシステクノロジーズの古本です。DevOps基礎シリーズの第5回へようこそ。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ズーックス、ロボタクシーが煙で混乱したためソフトウェアのリコールを発表",
-      "link": "https://techcrunch.com/2026/07/17/zoox-issues-software-recall-after-a-robotaxi-got-confused-by-heavy-smoke/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-17T14:12:02",
-      "excerpt": "このリコールは、米国の最高位の自動車安全規制当局がAV会社に対し、自社の車両が初期対応者の邪魔をしていると警告したことを受けて行われた。"
-    },
-    {
-      "title": "Torvalds 氏は、Linux をフォークするよう嫌いな人々に挑戦しました。誰かが「ビールを我慢して」と言った",
-      "link": "https://www.theregister.com/os-platforms/2026/07/17/torvalds-challenged-the-haters-to-fork-linux-someone-said-hold-my-beer/5274275",
-      "source": "The Register（英語）",
-      "published": "2026-07-17T14:02:00",
-      "excerpt": "実際にはかなり初期のバージョンを書き直したものです: Linux 0.11 – in Rust"
-    },
-    {
-      "title": "Microsoft、管理者に Exchange Online の休憩スペースを提供",
-      "link": "https://www.theregister.com/saas/2026/07/17/microsoft-gives-admins-exchange-online-breathing-room/5274346",
-      "source": "The Register（英語）",
-      "published": "2026-07-17T13:20:00",
-      "excerpt": "PowerShell の廃止 - Credential パラメーターは 2026 年末に延期"
-    },
-    {
-      "title": "多原色ディスプレイが次世代の色再現技術として登場",
-      "link": "https://en.ubiresearchnet.com/multi-primary-color-display-technology-2026/",
+      "title": "Show HN: 現代のクリエイターのワークスペースを探索する",
+      "link": "https://workspaces.xyz/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-17T13:02:07",
-      "excerpt": "記事の URL: https://en.ubiresearchnet.com/multi-primary-color-display-technology-2026/ コメント URL: https://news.ycombinator.…"
+      "published": "2026-07-17T15:41:05",
+      "excerpt": "記事の URL: https://workspaces.xyz/ コメント URL: https://news.ycombinator.com/item?id=48948693 ポイント: 4 コメント数: 0"
+    },
+    {
+      "title": "Amazon、一部のAWS顧客に数十億ドルを請求したバグを修正",
+      "link": "https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-17T15:29:21",
+      "excerpt": "一部のアマゾン顧客は金曜日、テクノロジーとクラウドの巨人に数十億ドルの手数料を支払わなければならないと主張し、驚くべき請求額の見積もりにログインした。"
+    },
+    {
+      "title": "Patreon、AIボットにスクレイピングしないよう要求するのをやめ、ブロックし始める",
+      "link": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-17T15:21:17",
+      "excerpt": "Patreon は、Cloudflare と協力して、許可なくクリエイターのコンテンツで AI モデルをトレーニングするボットをブロックすることで、AI スクレイピングに対する防御を強化しています。…"
+    },
+    {
+      "title": "reMarkableの新しいPaper Pureは良いですね。それが私がこのレビューを書いた理由です。",
+      "link": "https://techcrunch.com/2026/07/17/remarkables-new-paper-pure-is-good-thats-why-i-wrote-this-review-on-it/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-17T14:47:27",
+      "excerpt": "Remarkable の Paper Pure は Remarkable 2 に代わるものですが、非常に優れています。"
     }
   ]
 }
