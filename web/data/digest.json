@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-17T15:52:32",
+  "generated_at": "2026-07-17T16:58:04",
   "window_hours": 24,
-  "total": 275,
+  "total": 261,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。1.はじめに 前回、Aurora PostgreSQL で「いま重い SQL を3件教えて」と Claude に聞き、2つの経路でどう答えが返るかを実測しました。…",
+      "summary": "生成AIの新着が43件。1.はじめに 前回、Aurora PostgreSQL で「いま重い SQL を3件教えて」と Claude に聞き、2つの経路でどう答えが返るかを実測しました。…",
       "articles": [
         {
           "title": "Aurora の診断ランブックを Claude の Skill にすると「いま重い SQL」の答えはどう変わるか",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が39件。TL;DR; ECSのコンテナヘルスチェック（タスク定義の healthCheck）を有効化する際、distrolessイメージにはシェルや curl が無いため、標準的な CMD-SHELL によるヘルスチェックは失敗します。…",
+      "summary": "クラウドの新着が37件。ECS Fargate環境でも認証情報の漏洩を検出することができるようになりました！ついでにAmazon GuardDuty Investigationで調査機能の実力も確認しました。非常によき！",
       "articles": [
+        {
+          "title": "[アップデート]Amazon GuardDutyが漏洩したAmazon ECS認証情報の不正利用を検出できるようになりました",
+          "link": "https://dev.classmethod.jp/articles/amazon-guardduty-resource-credential-exfiltration-ecs/",
+          "source": "DevelopersIO",
+          "published": "2026-07-17T16:39:09",
+          "excerpt": "ECS Fargate環境でも認証情報の漏洩を検出することができるようになりました！ついでにAmazon GuardDuty Investigationで調査機能の実力も確認しました。非常によき！"
+        },
         {
           "title": "distrolessイメージでECSヘルスチェックを通す方法",
           "link": "https://qiita.com/sugar_hash/items/a6cf1ea053bbe73d3508",
@@ -64,21 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-17T13:56:30",
           "excerpt": "Snowflakeの権限管理がシンプルになる「Inherited Grants」と、データベース単位で権限管理を委任できる「Container-level MANAGE GRANTS」という2つのPreview Featureを、実際に試し…"
-        },
-        {
-          "title": "Manufact (YC S25) は、MCP クラウドを構築するためにシニア インフラ エンジニアを雇用しています",
-          "link": "https://www.ycombinator.com/companies/manufact/jobs/Dh6PYP5-senior-infrastructure-engineer",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-17T13:22:33",
-          "excerpt": "記事の URL: https://www.ycombinator.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が20件。はじめに クラウド移行が当たり前になった今、「セキュリティは誰が担保するのか？」という問いに自信を持って答えられるエンジニアはどれほどいるでしょうか。…",
+      "summary": "セキュリティの新着が21件。ECS Fargate環境でも認証情報の漏洩を検出することができるようになりました！ついでにAmazon GuardDuty Investigationで調査機能の実力も確認しました。非常によき！",
       "articles": [
+        {
+          "title": "[アップデート]Amazon GuardDutyが漏洩したAmazon ECS認証情報の不正利用を検出できるようになりました",
+          "link": "https://dev.classmethod.jp/articles/amazon-guardduty-resource-credential-exfiltration-ecs/",
+          "source": "DevelopersIO",
+          "published": "2026-07-17T16:39:09",
+          "excerpt": "ECS Fargate環境でも認証情報の漏洩を検出することができるようになりました！ついでにAmazon GuardDuty Investigationで調査機能の実力も確認しました。非常によき！"
+        },
         {
           "title": "【書評】Enterprise Cloud Security and Governance",
           "link": "https://qiita.com/io0323/items/dd1f838a2e59d0d2899f",
@@ -99,21 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-17T12:57:36",
           "excerpt": "GuardDuty のサンプル Finding 生成 API を誤実行し、放置していた EventBridge ルール経由で AWS DevOps Agent に 406 件すべてが流れ込み、約 200 ドルの課金が発生した失敗事例を紹介し…"
-        },
-        {
-          "title": "VulnHunter: Capital One のエージェント AI コード セキュリティ ツール",
-          "link": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-17T12:42:12",
-          "excerpt": "記事の URL: https://www.capitalone.com/tech/open-source/payment-vulnhunter/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。ローカルLLMが資料を自動作成「LM Studio Bionic」、無料のAIエージェント",
+      "summary": "データ分析の新着が6件。検察は、21歳の学生ザイア・ウィルキンスを、マルウェアを含むいくつかの偽ビデオゲームをSteam上で公開し、数千人の被害者を感染させ、その一部から仮想通貨を盗んだとして告発した。",
       "articles": [
+        {
+          "title": "FBI、Steamゲームを利用して被害者の仮想通貨ウォレットを流出させた容疑で男を逮捕",
+          "link": "https://techcrunch.com/2026/07/17/fbi-arrests-man-accused-of-using-steam-games-to-drain-victims-crypto-wallets/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-17T16:18:09",
+          "excerpt": "検察は、21歳の学生ザイア・ウィルキンスを、マルウェアを含むいくつかの偽ビデオゲームをSteam上で公開し、数千人の被害者を感染させ、その一部から仮想通貨を盗んだとして告発した。"
+        },
         {
           "title": "ローカルLLMが資料を自動作成「LM Studio Bionic」、無料のAIエージェント",
           "link": "https://pc.watch.impress.co.jp/docs/news/2125939.html",
@@ -134,13 +141,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-16T22:01:38",
           "excerpt": "DynamoDBは「使った分だけ払う、目にも留まらぬNoSQL」 ⚡ キャパシティモードは「都度払い」か「月極」か DynamoDBは読み書きの処理量と料金がガッツリ連動している。…"
-        },
-        {
-          "title": "T-Mobile がプランの強制移行に失敗し、一部のユーザーの無料回線をキャンセル",
-          "link": "https://arstechnica.com/tech-policy/2026/07/t-mobile-bungled-forced-plan-migration-canceling-some-users-free-lines/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-07-16T20:52:47",
-          "excerpt": "T-Mobileはプラン移行中に失われた無料回線を復活させるが、値上げは続いている。"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Show HN: 現代のクリエイターのワークスペースを探索する",
-      "link": "https://workspaces.xyz/",
+      "title": "人間の血液から検出されたCO2過剰は、50年以内に大気が有害になることを示唆している",
+      "link": "https://link.springer.com/article/10.1007/s11869-026-01918-5",
       "source": "Hacker News（英語）",
-      "published": "2026-07-17T15:41:05",
-      "excerpt": "記事の URL: https://workspaces.xyz/ コメント URL: https://news.ycombinator.com/item?id=48948693 ポイント: 4 コメント数: 0"
+      "published": "2026-07-17T16:31:16",
+      "excerpt": "記事の URL: https://link.springer.com/article/10.1007/s11869-026-01918-5 コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Amazon、一部のAWS顧客に数十億ドルを請求したバグを修正",
-      "link": "https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-17T15:29:21",
-      "excerpt": "一部のアマゾン顧客は金曜日、テクノロジーとクラウドの巨人に数十億ドルの手数料を支払わなければならないと主張し、驚くべき請求額の見積もりにログインした。"
+      "title": "Fubo、11月に失われたNBCUチャンネルの一部を復旧後、価格を15ドル値上げ",
+      "link": "https://arstechnica.com/gadgets/2026/07/fubo-hikes-prices-by-15-after-restoring-some-nbcu-channels-lost-in-november/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-17T16:24:21",
+      "excerpt": "Fubo 購読者はまだ Versant チャンネルを持っていません。"
     },
     {
-      "title": "Patreon、AIボットにスクレイピングしないよう要求するのをやめ、ブロックし始める",
-      "link": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+      "title": "親は子供にとってより安全な携帯電話を望んでいます。これらの企業はその呼びかけに応えています。",
+      "link": "https://techcrunch.com/2026/07/17/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-17T15:21:17",
-      "excerpt": "Patreon は、Cloudflare と協力して、許可なくクリエイターのコンテンツで AI モデルをトレーニングするボットをブロックすることで、AI スクレイピングに対する防御を強化しています。…"
+      "published": "2026-07-17T16:12:46",
+      "excerpt": "保護者が制限のないスマートフォンの代替品を求める中、機能を限定したモバイル端末からミニマリストの家庭用電話まで、子供向けに特別に設計された電話機を開発する企業が増えています。"
     },
     {
-      "title": "reMarkableの新しいPaper Pureは良いですね。それが私がこのレビューを書いた理由です。",
-      "link": "https://techcrunch.com/2026/07/17/remarkables-new-paper-pure-is-good-thats-why-i-wrote-this-review-on-it/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-17T14:47:27",
-      "excerpt": "Remarkable の Paper Pure は Remarkable 2 に代わるものですが、非常に優れています。"
+      "title": "サンフランシスコ市、AppleとGoogleにNudifyアプリをアプリストアから削除するよう命令",
+      "link": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-17T16:10:05",
+      "excerpt": "公式推計によると、GoogleとAppleはアプリ料金を無効にすることで数百万ドルを稼いだ可能性が高い。"
     }
   ]
 }
