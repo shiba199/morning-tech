@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-18T05:55:30",
+  "generated_at": "2026-07-18T07:25:00",
   "window_hours": 24,
-  "total": 185,
+  "total": 175,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が31件。Claude Code の v2.1.213 〜 v2.1.214（2026-07-17 〜 2026-07-18）のアップデート内容をまとめました。…",
+      "summary": "生成AIの新着が31件。はじめに 生成 AI アプリを作っていると「今使っているモデル、別のに変えたら回答の質は上がるのか?」が気になります。…",
       "articles": [
+        {
+          "title": "AppConfig の実験機能で LLM のモデル A/B テストをやってみた(Nova Lite vs Claude Haiku)",
+          "link": "https://qiita.com/leomarokun/items/2a000a115e3f29efccca",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T06:56:59",
+          "excerpt": "はじめに 生成 AI アプリを作っていると「今使っているモデル、別のに変えたら回答の質は上がるのか?」が気になります。…"
+        },
+        {
+          "title": "Amazon DocumentDBがAgent Toolkit for AWSにスキル追加",
+          "link": "https://codezine.jp/article/detail/29023",
+          "source": "CodeZine",
+          "published": "2026-07-18T06:00:00",
+          "excerpt": "Amazon DocumentDBがAgent Toolkit for AWSにスキル追加"
+        },
         {
           "title": "Claude Code v2.1.213〜v2.1.214 の主要アップデート - Claude Fable 5がすべてのMaxおよびTeam Premiumプランに含まれ、制限の50%で利用可能に",
           "link": "https://dev.classmethod.jp/articles/20260718-cc-updates-v2-1-214/",
@@ -22,28 +36,21 @@
           "source": "ITmedia NEWS",
           "published": "2026-07-18T03:50:00",
           "excerpt": "米Anthropicは、最上位AIモデル「Claude Fable 5」を7月20日から有料プラン「Max」「Team Premium」の標準機能にする。…"
-        },
-        {
-          "title": "「AIエージェントキャッチアップ #84 - OpenWiki」を開催しました | Generative Agents Tech Blog",
-          "link": "https://blog.generative-agents.co.jp/entry/2026/07/18/100318",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-18T01:03:18",
-          "excerpt": "ジェネラティブエージェンツの大嶋です。「AIエージェントキャッチアップ #84 - OpenWiki」という勉強会を開催しました。generative-agents.connpass.com アーカイブ動画はこちらです。www.…"
-        },
-        {
-          "title": "Amazon Bedrock、米国リージョンでGPT-5.6 Sol、Terra、Lunaが一般提供開始",
-          "link": "https://codezine.jp/article/detail/29021",
-          "source": "CodeZine",
-          "published": "2026-07-18T00:00:00",
-          "excerpt": "Amazon Bedrock、米国リージョンでGPT-5.6 Sol、Terra、Lunaが一般提供開始"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。こんにちは、テクニカルサポート課の設楽です。2026年7月16日に発生した CloudFront の VPC Origins 障害について、何が起きたのか、原因は何だったのか、そして今後どう備えるべきかを考えてみました。…",
+      "summary": "クラウドの新着が18件。まずは前提知識から 登場人物を整理します。Secrets Manager とは 用語メモ：Secrets Manager とは？…",
       "articles": [
+        {
+          "title": "【初級者向け】Secrets Managerが自動で作るローテーションLambda、ランタイムはどう更新する？",
+          "link": "https://qiita.com/volbe/items/20a755b69f3b3f82ff58",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T06:51:02",
+          "excerpt": "まずは前提知識から 登場人物を整理します。Secrets Manager とは 用語メモ：Secrets Manager とは？…"
+        },
         {
           "title": "CloudFront の VPC Origins を利用している環境で 5xx エラーが発生した障害について考えてみた | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/cloudfront-vpcorigin",
@@ -64,48 +71,41 @@
           "source": "DevelopersIO",
           "published": "2026-07-17T16:39:09",
           "excerpt": "ECS Fargate環境でも認証情報の漏洩を検出することができるようになりました！ついでにAmazon GuardDuty Investigationで調査機能の実力も確認しました。非常によき！"
-        },
-        {
-          "title": "【2026/7/16 CloudFront障害】VPCオリジンと通常オリジンの違い・ユースケースを整理する",
-          "link": "https://zenn.dev/shino_i/articles/1d85e70c6847a5",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-17T16:12:07",
-          "excerpt": "【2026/7/16 CloudFront障害】VPCオリジンと通常オリジンの違い・ユースケースを整理する はじめに 2026年7月16日の夕方（日本時間）、Amazon CloudFront で障害が発生し、VPCオリジン（VPC ori…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。Amazon GameLift Streams は、ストリーム セッションへの IAM ロールの割り当てをサポートするようになり、アプリケーションが Amazon S3 バケットや DynamoDB テーブルなどの AWS アカウント内のリ…",
+      "summary": "セキュリティの新着が13件。第1回では「Security Hub は集約と採点の道具で、採点は AWS Config で動く」という概念を 整理しました。今回はそれを AWS CDK(TypeScript)で実際に形にします。…",
       "articles": [
+        {
+          "title": "CDK で Security Hub CSPM を2リージョンに構築する — 東京集約アーキテクチャと衝突しないゲートパターン【入門】",
+          "link": "https://qiita.com/ujunja/items/ca7ce7c3048b44a1d1c4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T07:02:57",
+          "excerpt": "第1回では「Security Hub は集約と採点の道具で、採点は AWS Config で動く」という概念を 整理しました。今回はそれを AWS CDK(TypeScript)で実際に形にします。…"
+        },
+        {
+          "title": "AWSマルチアカウント構成でSSOログイン設定(IAM Identity Center)する際のハマりどころ",
+          "link": "https://qiita.com/16eK8XHMOQ1247/items/af470971423be26dc2c6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T06:56:30",
+          "excerpt": "AWSマルチアカウント構成でSSOログイン設定(IAM Identity Center)する際のハマりどころ はじめに AWS Organizations でマルチアカウント構成を作り、IAM Identity Center(旧 AWS S…"
+        },
+        {
+          "title": "【初級者向け】Secrets Managerが自動で作るローテーションLambda、ランタイムはどう更新する？",
+          "link": "https://qiita.com/volbe/items/20a755b69f3b3f82ff58",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T06:51:02",
+          "excerpt": "まずは前提知識から 登場人物を整理します。Secrets Manager とは 用語メモ：Secrets Manager とは？…"
+        },
         {
           "title": "Amazon GameLift Streams がストリームセッションの IAM ロール認証情報をサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-iam/",
           "source": "AWS What's New（英語）",
           "published": "2026-07-17T17:29:00",
           "excerpt": "Amazon GameLift Streams は、ストリーム セッションへの IAM ロールの割り当てをサポートするようになり、アプリケーションが Amazon S3 バケットや DynamoDB テーブルなどの AWS アカウント内のリ…"
-        },
-        {
-          "title": "[アップデート]Amazon GuardDutyが漏洩したAmazon ECS認証情報の不正利用を検出できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/amazon-guardduty-resource-credential-exfiltration-ecs/",
-          "source": "DevelopersIO",
-          "published": "2026-07-17T16:39:09",
-          "excerpt": "ECS Fargate環境でも認証情報の漏洩を検出することができるようになりました！ついでにAmazon GuardDuty Investigationで調査機能の実力も確認しました。非常によき！"
-        },
-        {
-          "title": "準同型暗号化された CIFAR-10 推論を 200 ミリ秒で実行",
-          "link": "https://sofar.belfortlabs.cloud/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-17T16:29:52",
-          "excerpt": "記事の URL: https://sofar.belfortlabs.cloud/ コメント URL: https://news.ycombinator.com/item?id=48949240 ポイント: 11 コメント数: 6"
-        },
-        {
-          "title": "【書評】Enterprise Cloud Security and Governance",
-          "link": "https://qiita.com/io0323/items/dd1f838a2e59d0d2899f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-17T15:01:30",
-          "excerpt": "はじめに クラウド移行が当たり前になった今、「セキュリティは誰が担保するのか？」という問いに自信を持って答えられるエンジニアはどれほどいるでしょうか。…"
         }
       ]
     },
@@ -140,8 +140,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。はじめに 案件でFSx for OpenZFSを扱う機会があったのですが、EFSやFSx for Windows File Serverと比べると圧倒的に情報が少なく、触ったことがある人もかなり限られている印象です。…",
+      "summary": "開発ツールの新着が11件。第1回では「Security Hub は集約と採点の道具で、採点は AWS Config で動く」という概念を 整理しました。今回はそれを AWS CDK(TypeScript)で実際に形にします。…",
       "articles": [
+        {
+          "title": "CDK で Security Hub CSPM を2リージョンに構築する — 東京集約アーキテクチャと衝突しないゲートパターン【入門】",
+          "link": "https://qiita.com/ujunja/items/ca7ce7c3048b44a1d1c4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T07:02:57",
+          "excerpt": "第1回では「Security Hub は集約と採点の道具で、採点は AWS Config で動く」という概念を 整理しました。今回はそれを AWS CDK(TypeScript)で実際に形にします。…"
+        },
+        {
+          "title": "AppConfig の実験機能で LLM のモデル A/B テストをやってみた(Nova Lite vs Claude Haiku)",
+          "link": "https://qiita.com/leomarokun/items/2a000a115e3f29efccca",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T06:56:59",
+          "excerpt": "はじめに 生成 AI アプリを作っていると「今使っているモデル、別のに変えたら回答の質は上がるのか?」が気になります。…"
+        },
         {
           "title": "FSx for OpenZFSを作ってマウントするまでやってみた",
           "link": "https://qiita.com/ike_s_muramatsu/items/88bafa25b6005769938d",
@@ -155,52 +169,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-18T03:44:52",
           "excerpt": "はじめに 個人開発アプリをAWSに公開するためのTerraform Packを作っている中で、今回はHTTPS公開まわりの構成について書きます。…"
-        },
-        {
-          "title": "Terraform未対応のAWSリソースの管理方法はマネコンの通信に答えがあった",
-          "link": "https://qiita.com/R-You/items/03422ee839a49715ae81",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-18T03:40:20",
-          "excerpt": "この記事は人間が書いて、 AI（Claude）に文章体裁を整えています。内容は執筆時点の情報です。…"
-        },
-        {
-          "title": "GitHub、Xcode 27対応のmacOSランナーをプレビュー提供",
-          "link": "https://codezine.jp/article/detail/29022",
-          "source": "CodeZine",
-          "published": "2026-07-18T03:00:00",
-          "excerpt": "GitHub、Xcode 27対応のmacOSランナーをプレビュー提供"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "AWS Parallel Computing Service が NVIDIA Blackwell 世代の P6e UltraServer をサポートしました",
+      "link": "https://dev.classmethod.jp/articles/aws-pcs-p6e-gb200-gb300-ultraserver-support/",
+      "source": "DevelopersIO",
+      "published": "2026-07-18T07:14:11",
+      "excerpt": "AWS Parallel Computing Service（PCS）が P6e-GB200・P6e-GB300 UltraServer に対応しました。…"
+    },
+    {
+      "title": "Amazon InspectorのECR再スキャン期間をDAYS_3に設定して4日間のログを確認してみた",
+      "link": "https://dev.classmethod.jp/articles/inspector2-ecr-rescan-duration-days3-observation/",
+      "source": "DevelopersIO",
+      "published": "2026-07-18T06:33:57",
+      "excerpt": "Amazon InspectorのECR継続スキャンに追加された再スキャン期間DAYS_3を設定し、イメージpushから4日間のログを確認しました。…"
+    },
+    {
+      "title": "佐川急便、約7万人分の個人情報漏えいか　「スマートクラブ」通知メールに別人の氏名など表示",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/18/news021.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-18T05:50:00",
+      "excerpt": "佐川急便は7月18日、会員制Webサービス「スマートクラブ」のシステム不具合により、配達予定通知メールの一部に別の利用者の氏名やメールアドレスなどが表示される事象が起き、約7万人の個人情報に影響が及んだ可能性があると発表した。…"
+    },
+    {
       "title": "ニール・ライマーはAIマネーが戻ってくると考えている",
       "link": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
       "source": "TechCrunch（英語）",
       "published": "2026-07-18T04:47:25",
       "excerpt": "Index Ventures の共同設立者であるベンチャーキャピタリストのニール・ライマー氏は、AI がシリコンバレーで生み出してきた歴史的な富は、自発的または非自発的に再分配される必要があると予測しています。"
-    },
-    {
-      "title": "最近の AI コーディングで実践している、設計を中心とした開発の進め方",
-      "link": "https://azukiazusa.dev/blog/recent-ai-coding-development-process-centered-on-design/",
-      "source": "はてなブックマーク（テクノロジー）",
-      "published": "2026-07-18T04:23:35",
-      "excerpt": "AI コーディングエージェントの自律性が向上し、複数のエージェントを並行して動かすことが日常になったことで、開発の中で最も時間を使う工程が実装から設計へ移りつつあります。…"
-    },
-    {
-      "title": "Mac ゲームがついにそれにふさわしい強力なアップグレードを取得します",
-      "link": "https://www.macworld.com/article/3189951/apples-latest-game-porting-toolkit-beta-changed-how-i-think-about-mac-gaming.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-18T04:13:00",
-      "excerpt": "記事の URL: https://www.macworld.…"
-    },
-    {
-      "title": "回帰JPEG",
-      "link": "https://maurycyz.com/projects/bad_jpeg/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-18T03:14:20",
-      "excerpt": "記事の URL: https://maurycyz.com/projects/bad_jpeg/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
