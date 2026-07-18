@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-18T15:26:51",
+  "generated_at": "2026-07-18T16:25:30",
   "window_hours": 24,
-  "total": 134,
+  "total": 131,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。Perforce 公式の MCP サーバーを Claude Code に接続し、照会と書き込みの両方を検証しました。…",
+      "summary": "生成AIの新着が19件。効かないと思います。無理やり効かせます。AgentCoreラインタイムになりますが。手順 まずは無心でAgentCoreハーネスを作ります。クイック作成でOKです。…",
       "articles": [
+        {
+          "title": "AgentCoreハーネス、プロンプトキャッシュが効かなくなくなくない？",
+          "link": "https://qiita.com/moritalous/items/03d273f74e6ed63b70c3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T15:35:16",
+          "excerpt": "効かないと思います。無理やり効かせます。AgentCoreラインタイムになりますが。手順 まずは無心でAgentCoreハーネスを作ります。クイック作成でOKです。…"
+        },
         {
           "title": "Perforce 公式 MCP で Claude Code から操作して AI が扱える範囲と扱えない範囲を確認した",
           "link": "https://dev.classmethod.jp/articles/perforce-p4-mcp-claude-code/",
@@ -29,20 +36,13 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-18T13:00:52",
           "excerpt": "記事の URL: https://old.reddit.…"
-        },
-        {
-          "title": "Gemini Enterprise のユーザー毎の利用状況を計測してみた",
-          "link": "https://dev.classmethod.jp/articles/measure-gemini-enterprise-usage-per-user/",
-          "source": "DevelopersIO",
-          "published": "2026-07-18T11:58:34",
-          "excerpt": "Gemini Enterprise で、ユーザー毎の利用状況を計測して、ダッシュボードに整理してみました。チャット以外にも画像生成などツールごとに計測できるため、突出した利用者の把握などが簡単にできるようになります。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…",
+      "summary": "クラウドの新着が13件。はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…",
       "articles": [
         {
           "title": "cdk-nag v3 の変更点と v2 からの移行を試してみた(抑制 API は廃止ではなく置き換え)",
@@ -66,11 +66,11 @@
           "excerpt": "AWS WAF の Anti-DDoS マネージドルール（AWSManagedRulesAntiDDoSRuleSet）を CloudFront 環境で13か月間 Count モード運用しました。…"
         },
         {
-          "title": "Amazon S3 Vectors にベクトルを投入して Bedrock で類似検索してみた",
-          "link": "https://dev.classmethod.jp/articles/shoma-put-vectors-into-amazon-s3-vectors-and-similarity-search-with-bedrock/",
-          "source": "DevelopersIO",
-          "published": "2026-07-18T10:15:16",
-          "excerpt": "Amazon S3 Vectorsはベクトル検索をS3ネイティブに提供する新サービスです。専用DBなしにコスト効率よくベクトル検索が実現できる仕組みと、実際の使用方法を紹介します。"
+          "title": "脳筋でもわかる「なぜVPCが必要なのか」",
+          "link": "https://zenn.dev/yamakazu/articles/ee0886d7a25c48",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-18T10:30:04",
+          "excerpt": "はじめに これはAWS学習を2026年7月から始めた脳筋男による深掘り日記である。これは違うよとかあれば指摘していただけるとありがたいです。VPCとは AWS上に、自分専用の仮想ネットワークを作るためのサービスです。…"
         }
       ]
     },
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。AWS Labsの「Bulk Executor for Amazon DynamoDB」を実際にセットアップし、100万件のダミーデータを使って大規模テーブルの一括操作を実測してみました。…",
+      "summary": "データ分析の新着が2件。AWS Labsの「Bulk Executor for Amazon DynamoDB」を実際にセットアップし、100万件のダミーデータを使って大規模テーブルの一括操作を実測してみました。…",
       "articles": [
         {
           "title": "AWS Labsの「Bulk Executor for Amazon DynamoDB」でDynamoDBの一括操作をAWS Glueに任せてみる",
@@ -127,21 +127,21 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-17T17:23:00",
           "excerpt": "Amazon OpenSearch Service は、OpenSearch ドメインとサーバーレス コレクションの両方について、従来の OpenSearch ダッシュボードから OpenSearch UI へのワンクリック移行をサポートす…"
-        },
-        {
-          "title": "FBI、Steamゲームを利用して被害者の仮想通貨ウォレットを流出させた容疑で男を逮捕",
-          "link": "https://techcrunch.com/2026/07/17/fbi-arrests-man-accused-of-using-steam-games-to-drain-victims-crypto-wallets/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-17T16:18:09",
-          "excerpt": "検察は、21歳の学生ザイア・ウィルキンスを、マルウェアを含むいくつかの偽ビデオゲームをSteam上で公開し、数千人の被害者を感染させ、その一部から仮想通貨を盗んだとして告発した。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。AWSコンソールモバイルアプリ（Android版）の2026/07/15アップデートでKiro CLIがサポートされました。モバイルアプリからCloudShellを開き、Kiro CLI 2.5.…",
+      "summary": "開発ツールの新着が15件。TL;DR 個人で運用している複数のリポジトリが1つのAWSアカウントを共有しており、それぞれのGitHub ActionsからAWSへOIDC(OpenID Connect、外部のIDプロバイダをAWS側が信頼して一時的な認証情報を発行す…",
       "articles": [
+        {
+          "title": "GitHub ActionsからAWSへのデプロイ権限をAdministratorAccess相当から最小権限にしてみた",
+          "link": "https://qiita.com/squirrel-cage/items/95a17161d371d16a83d4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T16:20:48",
+          "excerpt": "TL;DR 個人で運用している複数のリポジトリが1つのAWSアカウントを共有しており、それぞれのGitHub ActionsからAWSへOIDC(OpenID Connect、外部のIDプロバイダをAWS側が信頼して一時的な認証情報を発行す…"
+        },
         {
           "title": "AWSコンソールモバイルアプリのCloudShellでKiro CLIを使ってみた",
           "link": "https://dev.classmethod.jp/articles/aws-console-mobile-cloudshell-kiro-cli/",
@@ -162,45 +162,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-18T12:07:43",
           "excerpt": "はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…"
-        },
-        {
-          "title": "【AWS】XクローンをECS Fargateでデプロイした構成と判断の理由",
-          "link": "https://qiita.com/Rikuto-Iwashita/items/8dd956722c61e5cab97e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-18T09:06:59",
-          "excerpt": "はじめに こんにちは！AWSを学習中のrikutoです。今回、ポートフォリオとして開発したXクローンをAWSにデプロイしました。この記事では、構成の全体像と「何を選び、なぜそう判断したか」をまとめます。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "600マイルのロードトリップ（およびデータ）は、EVの充電がもう面倒ではないことを証明しています",
-      "link": "https://techcrunch.com/2026/07/18/a-600-mile-road-trip-and-data-proves-ev-charging-doesnt-suck-anymore/",
+      "title": "バイオレジリエンスへの私たちのアプローチ: Isomorphic Labs と Google DeepMind",
+      "link": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-18T16:02:45",
+      "excerpt": "記事の URL: https://deepmind.google/blog/our-approach-to-bioresilience/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "連邦職員は仕事用電話にTikTokを再度ダウンロードできる",
+      "link": "https://techcrunch.com/2026/07/18/federal-employees-can-download-tiktok-on-their-work-phones-again/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-18T14:32:00",
-      "excerpt": "最近の EV でのロードトリップでは、米国における DC 急速充電がいかに速く、より信頼性が高くなっているかが明らかになりました。"
+      "published": "2026-07-18T15:54:24",
+      "excerpt": "司法省は、連邦職員が政府の端末にTikTokをダウンロードできるようになったと発表した。"
     },
     {
-      "title": "AWS HealthOmics のワークフローエンジンログが CloudWatch Logs へ配信されるようになったので試してみた",
-      "link": "https://dev.classmethod.jp/articles/aws-healthomics-engine-logs-cloudwatch/",
-      "source": "DevelopersIO",
-      "published": "2026-07-18T14:10:45",
-      "excerpt": "AWS HealthOmics のエンジンログが CloudWatch Logs へニアリアルタイムで配信されるようになりました。…"
-    },
-    {
-      "title": "LG ThinQ 利用規約",
-      "link": "https://news.ycombinator.com/item?id=48958273",
+      "title": "「Gleam」は「Tangled」に登場",
+      "link": "https://tangled.org/gleam.run/gleam",
       "source": "Hacker News（英語）",
-      "published": "2026-07-18T14:04:55",
-      "excerpt": "キッチン家電の一部は LG で、携帯電話に LG ThinQ アプリをインストールしました。出かける前に冷たい料理をオーブンに入れておき、家に帰ったらリモートで起動して、温かいディナーを食べたいときもあります。…"
+      "published": "2026-07-18T15:44:04",
+      "excerpt": "記事の URL: https://tangled.org/gleam.run/gleam コメント URL: https://news.ycombinator.com/item?id=48959143 ポイント: 28 コメント数: 11"
     },
     {
-      "title": "売れ残った衣類や靴の廃棄禁止がEUで適用される",
-      "link": "https://environment.ec.europa.eu/news/ban-destruction-unsold-clothes-and-shoes-enters-application-2026-07-17_en",
+      "title": "フェルミのパラドックス、パーコレーション、近親交配",
+      "link": "https://reactormag.com/the-fermi-paradox-percolation-and-inbreeding/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-18T14:04:42",
-      "excerpt": "記事の URL: https://environment.ec.europa.…"
+      "published": "2026-07-18T15:38:36",
+      "excerpt": "記事の URL: https://reactormag.com/the-fermi-paradox-percolation-and-inbreeding/ コメント URL: https://news.ycombinator.…"
     }
   ]
 }
