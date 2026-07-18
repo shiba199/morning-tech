@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-18T11:43:10",
+  "generated_at": "2026-07-18T12:46:20",
   "window_hours": 24,
-  "total": 150,
+  "total": 143,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。自律ペンテストAI「AWS Security Agent」を試してみた この記事でわかること 対象のURLを登録するだけで、AIが自律的に脆弱性を探し、実際に攻撃ペイロードを送り、悪用が成立するところまで実証してくれる。…",
+      "summary": "生成AIの新着が19件。Gemini Enterprise で、ユーザー毎の利用状況を計測して、ダッシュボードに整理してみました。チャット以外にも画像生成などツールごとに計測できるため、突出した利用者の把握などが簡単にできるようになります。",
       "articles": [
+        {
+          "title": "Gemini Enterprise のユーザー毎の利用状況を計測してみた",
+          "link": "https://dev.classmethod.jp/articles/measure-gemini-enterprise-usage-per-user/",
+          "source": "DevelopersIO",
+          "published": "2026-07-18T11:58:34",
+          "excerpt": "Gemini Enterprise で、ユーザー毎の利用状況を計測して、ダッシュボードに整理してみました。チャット以外にも画像生成などツールごとに計測できるため、突出した利用者の把握などが簡単にできるようになります。"
+        },
+        {
+          "title": "NP ハード問題における Fable 5 と GPT-5.6 Sol の比較: /goal は役に立ちますか?",
+          "link": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-18T11:00:29",
+          "excerpt": "記事の URL: https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/ コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "自律ペンテストAI「AWS Security Agent」を試してみた",
           "link": "https://qiita.com/hiyoshiz/items/54f3041aa4cd82e46f0a",
@@ -22,28 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-18T10:15:16",
           "excerpt": "Amazon S3 Vectorsはベクトル検索をS3ネイティブに提供する新サービスです。専用DBなしにコスト効率よくベクトル検索が実現できる仕組みと、実際の使用方法を紹介します。"
-        },
-        {
-          "title": "AppConfig の実験機能で LLM のモデル A/B テストをやってみた(Nova Lite vs Claude Haiku)",
-          "link": "https://qiita.com/leomarokun/items/2a000a115e3f29efccca",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-18T06:56:59",
-          "excerpt": "はじめに 生成 AI アプリを作っていると「今使っているモデル、別のに変えたら回答の質は上がるのか?」が気になります。…"
-        },
-        {
-          "title": "Amazon DocumentDBがAgent Toolkit for AWSにスキル追加",
-          "link": "https://codezine.jp/article/detail/29023",
-          "source": "CodeZine",
-          "published": "2026-07-18T06:00:00",
-          "excerpt": "Amazon DocumentDBがAgent Toolkit for AWSにスキル追加"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。ProLogue ～ 最下級戦士の推理 ～ FILE.1 同時刻の StopInstances 👨「…おかしい。」 👨「EC2 インスタンスは確かに停止した。」 👨「動作は完璧だ。」 👨「だが…。…",
+      "summary": "クラウドの新着が17件。はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…",
       "articles": [
+        {
+          "title": "cdk-nag v3 の変更点と v2 からの移行を試してみた(抑制 API は廃止ではなく置き換え)",
+          "link": "https://qiita.com/leomarokun/items/60e869d3ec5a8a25286a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T12:07:43",
+          "excerpt": "はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…"
+        },
         {
           "title": "EC2 インスタンスの自動停止で StopInstances が CloudTrail に 2 回記録される件を調べたら仕様だった話",
           "link": "https://qiita.com/BakuonKozo/items/e205e36cee82b31b9252",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-18T10:15:16",
           "excerpt": "Amazon S3 Vectorsはベクトル検索をS3ネイティブに提供する新サービスです。専用DBなしにコスト効率よくベクトル検索が実現できる仕組みと、実際の使用方法を紹介します。"
-        },
-        {
-          "title": "【AWS】XクローンをECS Fargateでデプロイした構成と判断の理由",
-          "link": "https://qiita.com/Rikuto-Iwashita/items/8dd956722c61e5cab97e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-18T09:06:59",
-          "excerpt": "はじめに こんにちは！AWSを学習中のrikutoです。今回、ポートフォリオとして開発したXクローンをAWSにデプロイしました。この記事では、構成の全体像と「何を選び、なぜそう判断したか」をまとめます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。AWS WAF の Anti-DDoS マネージドルール（AWSManagedRulesAntiDDoSRuleSet）を CloudFront 環境で13か月間 Count モード運用しました。…",
+      "summary": "セキュリティの新着が12件。AWS WAF の Anti-DDoS マネージドルール（AWSManagedRulesAntiDDoSRuleSet）を CloudFront 環境で13か月間 Count モード運用しました。…",
       "articles": [
         {
           "title": "AWS WAF Anti-DDoSマネージドルールをCloudFrontで1年間運用した結果を確認してみた",
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。はじめに こんにちは！AWSを学習中のrikutoです。今回、ポートフォリオとして開発したXクローンをAWSにデプロイしました。この記事では、構成の全体像と「何を選び、なぜそう判断したか」をまとめます。…",
+      "summary": "開発ツールの新着が14件。はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…",
       "articles": [
+        {
+          "title": "cdk-nag v3 の変更点と v2 からの移行を試してみた(抑制 API は廃止ではなく置き換え)",
+          "link": "https://qiita.com/leomarokun/items/60e869d3ec5a8a25286a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T12:07:43",
+          "excerpt": "はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…"
+        },
         {
           "title": "【AWS】XクローンをECS Fargateでデプロイした構成と判断の理由",
           "link": "https://qiita.com/Rikuto-Iwashita/items/8dd956722c61e5cab97e",
@@ -162,18 +169,18 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-18T08:41:16",
           "excerpt": "はじめに こんなイベントに参加した https://jawsug-cdk.connpass.com/event/393595/ AI / CDK と協働する Full TypeScript アプリケーション開発 ほぼ終わりかけで見た。…"
-        },
-        {
-          "title": "CDK で Security Hub CSPM を2リージョンに構築する — 東京集約アーキテクチャと衝突しないゲートパターン【入門】",
-          "link": "https://qiita.com/ujunja/items/ca7ce7c3048b44a1d1c4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-18T07:02:57",
-          "excerpt": "第1回では「Security Hub は集約と採点の道具で、採点は AWS Config で動く」という概念を 整理しました。今回はそれを AWS CDK(TypeScript)で実際に形にします。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "AI がグラフのスタックオーバーフローに何をしたか",
+      "link": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-18T11:12:46",
+      "excerpt": "記事の URL: https://data.stackexchange.com/stackoverflow/query/1953768#graph コメント URL: https://news.ycombinator.com/item?…"
+    },
     {
       "title": "AI 企業のロゴがお尻の穴のように見えるのはなぜですか?",
       "link": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
@@ -194,13 +201,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-07-18T10:21:19",
       "excerpt": "記事の URL: https://videocardz.…"
-    },
-    {
-      "title": "飲食店を題材に Twilio ConversationRelay で「電話の一次対応を AI に任せる」シナリオを組んでみた",
-      "link": "https://dev.classmethod.jp/articles/twilio-conversationrelay-voice-ai-demo/",
-      "source": "DevelopersIO",
-      "published": "2026-07-18T09:14:08",
-      "excerpt": "飲食店の電話一次対応を AI に任せるデモを、着信から FAQ 応答、SMS とメールの送信、担当者へのエスカレーションまで一本のシナリオで実装しました。構成と、実装でつまずいて分かった勘所を紹介します。"
     }
   ]
 }
