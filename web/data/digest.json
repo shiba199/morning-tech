@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-18T12:46:20",
+  "generated_at": "2026-07-18T14:14:14",
   "window_hours": 24,
-  "total": 143,
+  "total": 138,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。Gemini Enterprise で、ユーザー毎の利用状況を計測して、ダッシュボードに整理してみました。チャット以外にも画像生成などツールごとに計測できるため、突出した利用者の把握などが簡単にできるようになります。",
+      "summary": "生成AIの新着が19件。記事の URL: https://old.reddit.…",
       "articles": [
+        {
+          "title": "GPT-5.6 は、凸最適化における 30 年間のギャップを埋めるためにプロンプ​​トを使用しました",
+          "link": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-18T13:00:52",
+          "excerpt": "記事の URL: https://old.reddit.…"
+        },
         {
           "title": "Gemini Enterprise のユーザー毎の利用状況を計測してみた",
           "link": "https://dev.classmethod.jp/articles/measure-gemini-enterprise-usage-per-user/",
@@ -29,20 +36,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-18T10:19:41",
           "excerpt": "自律ペンテストAI「AWS Security Agent」を試してみた この記事でわかること 対象のURLを登録するだけで、AIが自律的に脆弱性を探し、実際に攻撃ペイロードを送り、悪用が成立するところまで実証してくれる。…"
-        },
-        {
-          "title": "Amazon S3 Vectors にベクトルを投入して Bedrock で類似検索してみた",
-          "link": "https://dev.classmethod.jp/articles/shoma-put-vectors-into-amazon-s3-vectors-and-similarity-search-with-bedrock/",
-          "source": "DevelopersIO",
-          "published": "2026-07-18T10:15:16",
-          "excerpt": "Amazon S3 Vectorsはベクトル検索をS3ネイティブに提供する新サービスです。専用DBなしにコスト効率よくベクトル検索が実現できる仕組みと、実際の使用方法を紹介します。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…",
+      "summary": "クラウドの新着が14件。はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…",
       "articles": [
         {
           "title": "cdk-nag v3 の変更点と v2 からの移行を試してみた(抑制 API は廃止ではなく置き換え)",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。AWS WAF の Anti-DDoS マネージドルール（AWSManagedRulesAntiDDoSRuleSet）を CloudFront 環境で13か月間 Count モード運用しました。…",
+      "summary": "セキュリティの新着が12件。2026年7月17日、認証不要でリモートからの任意コード実行（RCE）につながる脆弱性「CVE-2026-63030」「CVE-2026-60137」を修正したWordPress 6.8.6、6.9.5、および 7.0.…",
       "articles": [
+        {
+          "title": "WordPressの深刻度「緊急」脆弱性 wp2shell の概要と対応指針 | GMO Flatt Security Blog",
+          "link": "https://blog.flatt.tech/entry/wp2shell_wordpress",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-18T12:56:27",
+          "excerpt": "2026年7月17日、認証不要でリモートからの任意コード実行（RCE）につながる脆弱性「CVE-2026-63030」「CVE-2026-60137」を修正したWordPress 6.8.6、6.9.5、および 7.0.…"
+        },
         {
           "title": "AWS WAF Anti-DDoSマネージドルールをCloudFrontで1年間運用した結果を確認してみた",
           "link": "https://dev.classmethod.jp/articles/aws-waf-anti-ddos-managed-rule-1year-review/",
@@ -99,13 +106,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-18T08:50:07",
           "excerpt": "記事の URL: https://arxiv.org/abs/2607.14587 コメント URL: https://news.ycombinator.com/item?id=48956307 ポイント: 3 コメント数: 0"
-        },
-        {
-          "title": "CDK で Security Hub CSPM を2リージョンに構築する — 東京集約アーキテクチャと衝突しないゲートパターン【入門】",
-          "link": "https://qiita.com/ujunja/items/ca7ce7c3048b44a1d1c4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-18T07:02:57",
-          "excerpt": "第1回では「Security Hub は集約と採点の道具で、採点は AWS Config で動く」という概念を 整理しました。今回はそれを AWS CDK(TypeScript)で実際に形にします。…"
         }
       ]
     },
@@ -140,8 +140,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…",
+      "summary": "開発ツールの新着が15件。AWSコンソールモバイルアプリ（Android版）の2026/07/15アップデートでKiro CLIがサポートされました。モバイルアプリからCloudShellを開き、Kiro CLI 2.5.…",
       "articles": [
+        {
+          "title": "AWSコンソールモバイルアプリのCloudShellでKiro CLIを使ってみた",
+          "link": "https://dev.classmethod.jp/articles/aws-console-mobile-cloudshell-kiro-cli/",
+          "source": "DevelopersIO",
+          "published": "2026-07-18T13:57:48",
+          "excerpt": "AWSコンソールモバイルアプリ（Android版）の2026/07/15アップデートでKiro CLIがサポートされました。モバイルアプリからCloudShellを開き、Kiro CLI 2.5.…"
+        },
+        {
+          "title": "aws-content-relay-hub — GitHub から Qiita・Zenn・ミラーリポジトリへ一括配信するアーキテクチャ解説",
+          "link": "https://qiita.com/riadraz/items/12aed6fb74e8f9f4a0c7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T13:30:02",
+          "excerpt": "aws-content-relay-hub — GitHub から Qiita・Zenn・ミラーリポジトリへ一括配信するアーキテクチャ解説 英語版はこちら → English Version 概要 aws-content-relay-hub…"
+        },
         {
           "title": "cdk-nag v3 の変更点と v2 からの移行を試してみた(抑制 API は廃止ではなく置き換え)",
           "link": "https://qiita.com/leomarokun/items/60e869d3ec5a8a25286a",
@@ -155,52 +169,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-18T09:06:59",
           "excerpt": "はじめに こんにちは！AWSを学習中のrikutoです。今回、ポートフォリオとして開発したXクローンをAWSにデプロイしました。この記事では、構成の全体像と「何を選び、なぜそう判断したか」をまとめます。…"
-        },
-        {
-          "title": "GitHub、リポジトリ管理者向けにプルリクエストのアーカイブ機能を追加",
-          "link": "https://codezine.jp/article/detail/29024",
-          "source": "CodeZine",
-          "published": "2026-07-18T09:00:00",
-          "excerpt": "GitHub、リポジトリ管理者向けにプルリクエストのアーカイブ機能を追加"
-        },
-        {
-          "title": "AWS CDK Conference Japan 2026の感想要約",
-          "link": "https://qiita.com/sarasara1214/items/8f490db8e4bfb8556393",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-18T08:41:16",
-          "excerpt": "はじめに こんなイベントに参加した https://jawsug-cdk.connpass.com/event/393595/ AI / CDK と協働する Full TypeScript アプリケーション開発 ほぼ終わりかけで見た。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "Gemma 4 の NVFP4 も 2 つの量子化版を DGX Spark で比べてみた",
+      "link": "https://dev.classmethod.jp/articles/dgx-spark-gemma4-nvfp4-nvidia-vs-unsloth/",
+      "source": "DevelopersIO",
+      "published": "2026-07-18T13:30:14",
+      "excerpt": "Gemma 4 の NVFP4 量子化版（NVIDIA版とUnsloth版）を DGX Spark で実測し、速度・品質・投機デコードを横断検証しました。"
+    },
+    {
+      "title": "Kiro for iOS のベータ版を使って、移動中にアプリを作ってみた | ForgeVision Engineer Blog",
+      "link": "https://techblog.forgevision.com/entry/kiro/for_ios",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-18T12:29:20",
+      "excerpt": "こんにちは、AWS グループの尾谷です。Kiro for iOS の招待メールが届いたので、移動中にアプリを作ってみました"
+    },
+    {
+      "title": "AI は事前の承認を修正するのでしょうか、それともさらに悪化させるのでしょうか?",
+      "link": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-18T11:18:25",
+      "excerpt": "政府は、保険適用の決定に AI を使用するプログラムを試験的に導入しています。"
+    },
+    {
       "title": "AI がグラフのスタックオーバーフローに何をしたか",
       "link": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
       "source": "Hacker News（英語）",
       "published": "2026-07-18T11:12:46",
       "excerpt": "記事の URL: https://data.stackexchange.com/stackoverflow/query/1953768#graph コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "AI 企業のロゴがお尻の穴のように見えるのはなぜですか?",
-      "link": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-18T11:06:50",
-      "excerpt": "記事の URL: https://velvetshark.com/ai-company-logos-that-look-like-buttholes コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "スチームマシン: 週あたり 12,000 ～ 15,000 台の販売",
-      "link": "https://boilingsteam.com/steam-machine-between-10k-and-15k-sold-per-week/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-18T10:56:09",
-      "excerpt": "記事の URL: https://boilingsteam.com/steam-machine-between-10k-and-15k- sold-per-week/ コメント URL: https://news.ycombinator.…"
-    },
-    {
-      "title": "LG モニターは同意なしに Windows Update 経由でソフトウェアをサイレント インストールします",
-      "link": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-18T10:21:19",
-      "excerpt": "記事の URL: https://videocardz.…"
     }
   ]
 }
