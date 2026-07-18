@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T17:28:00",
+  "generated_at": "2026-07-18T18:27:28",
   "window_hours": 24,
   "total": 127,
   "topic_count": 5,
@@ -7,8 +7,22 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。効かないと思います。無理やり効かせます。AgentCoreラインタイムになりますが。手順 まずは無心でAgentCoreハーネスを作ります。クイック作成でOKです。…",
+      "summary": "生成AIの新着が19件。「LLMとIaCは相性がいい」の中身は、3つあります。書く — コードは、書いてもらうもの 読む — 構成は、聞けば答えてもらえるもの 出す — 設計書は、コードから出力するもの 理屈の説明は最後に回します。まず実物を見てください。…",
       "articles": [
+        {
+          "title": "LLM×IaCで、インフラ「書く・読む・出す」の三位一体の改革",
+          "link": "https://zenn.dev/pinddy/articles/925ca1c1959240",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-18T16:13:54",
+          "excerpt": "「LLMとIaCは相性がいい」の中身は、3つあります。書く — コードは、書いてもらうもの 読む — 構成は、聞けば答えてもらえるもの 出す — 設計書は、コードから出力するもの 理屈の説明は最後に回します。まず実物を見てください。…"
+        },
+        {
+          "title": "生成AIと二人三脚で進める AWS Well-Architected Frameworkレビュー",
+          "link": "https://zenn.dev/siromi0813/articles/267957a142c9ed",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-18T16:06:23",
+          "excerpt": "初めまして、しろみと申します。初めてZennに記事を書きます。今回は生成AIと共にAWS Well-Architected Frameworkレビュー (以下 WAFレビュー) を進める方法についてをご紹介します。…"
+        },
         {
           "title": "AgentCoreハーネス、プロンプトキャッシュが効かなくなくなくない？",
           "link": "https://qiita.com/moritalous/items/03d273f74e6ed63b70c3",
@@ -22,28 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-18T14:54:51",
           "excerpt": "Perforce 公式の MCP サーバーを Claude Code に接続し、照会と書き込みの両方を検証しました。…"
-        },
-        {
-          "title": "AIエージェントのためにAmazon SESでメールの送受信を試してみた",
-          "link": "https://qiita.com/squirrel-cage/items/7977e8a8914a907ab9e3",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-18T14:50:21",
-          "excerpt": "TL;DR Route53で管理している独自ドメインを使って、AI Agent用にAmazon SESでのメール送受信環境をAWSコンソールで組みました。…"
-        },
-        {
-          "title": "GPT-5.6 は、凸最適化における 30 年間のギャップを埋めるためにプロンプ​​トを使用しました",
-          "link": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-18T13:00:52",
-          "excerpt": "記事の URL: https://old.reddit.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…",
+      "summary": "クラウドの新着が12件。「LLMとIaCは相性がいい」の中身は、3つあります。書く — コードは、書いてもらうもの 読む — 構成は、聞けば答えてもらえるもの 出す — 設計書は、コードから出力するもの 理屈の説明は最後に回します。まず実物を見てください。…",
       "articles": [
+        {
+          "title": "LLM×IaCで、インフラ「書く・読む・出す」の三位一体の改革",
+          "link": "https://zenn.dev/pinddy/articles/925ca1c1959240",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-18T16:13:54",
+          "excerpt": "「LLMとIaCは相性がいい」の中身は、3つあります。書く — コードは、書いてもらうもの 読む — 構成は、聞けば答えてもらえるもの 出す — 設計書は、コードから出力するもの 理屈の説明は最後に回します。まず実物を見てください。…"
+        },
         {
           "title": "cdk-nag v3 の変更点と v2 からの移行を試してみた(抑制 API は廃止ではなく置き換え)",
           "link": "https://qiita.com/leomarokun/items/60e869d3ec5a8a25286a",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-18T10:36:37",
           "excerpt": "AWS WAF の Anti-DDoS マネージドルール（AWSManagedRulesAntiDDoSRuleSet）を CloudFront 環境で13か月間 Count モード運用しました。…"
-        },
-        {
-          "title": "脳筋でもわかる「なぜVPCが必要なのか」",
-          "link": "https://zenn.dev/yamakazu/articles/ee0886d7a25c48",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-18T10:30:04",
-          "excerpt": "はじめに これはAWS学習を2026年7月から始めた脳筋男による深掘り日記である。これは違うよとかあれば指摘していただけるとありがたいです。VPCとは AWS上に、自分専用の仮想ネットワークを作るためのサービスです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。AWS WAF マネージドルール AWSManagedRulesKnownBadInputsRuleSet の v1.26 で ReactJSRCE_BODY に REMOVE_NULLS テキスト変換が追加されました。…",
+      "summary": "セキュリティの新着が8件。AWS WAF マネージドルール AWSManagedRulesKnownBadInputsRuleSet の v1.26 で ReactJSRCE_BODY に REMOVE_NULLS テキスト変換が追加されました。…",
       "articles": [
         {
           "title": "AWS WAF KnownBadInputs v1.26 の REMOVE_NULLS で NULL バイト挿入による検出回避を防げるか確認してみた",
@@ -126,7 +126,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。TL;DR 個人で運用している複数のリポジトリが1つのAWSアカウントを共有しており、それぞれのGitHub ActionsからAWSへOIDC(OpenID Connect、外部のIDプロバイダをAWS側が信頼して一時的な認証情報を発行す…",
+      "summary": "開発ツールの新着が16件。TL;DR 個人で運用している複数のリポジトリが1つのAWSアカウントを共有しており、それぞれのGitHub ActionsからAWSへOIDC(OpenID Connect、外部のIDプロバイダをAWS側が信頼して一時的な認証情報を発行す…",
       "articles": [
         {
           "title": "GitHub ActionsからAWSへのデプロイ権限をAdministratorAccess相当から最小権限にしてみた",
@@ -134,6 +134,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-18T16:20:48",
           "excerpt": "TL;DR 個人で運用している複数のリポジトリが1つのAWSアカウントを共有しており、それぞれのGitHub ActionsからAWSへOIDC(OpenID Connect、外部のIDプロバイダをAWS側が信頼して一時的な認証情報を発行す…"
+        },
+        {
+          "title": "LLM×IaCで、インフラ「書く・読む・出す」の三位一体の改革",
+          "link": "https://zenn.dev/pinddy/articles/925ca1c1959240",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-18T16:13:54",
+          "excerpt": "「LLMとIaCは相性がいい」の中身は、3つあります。書く — コードは、書いてもらうもの 読む — 構成は、聞けば答えてもらえるもの 出す — 設計書は、コードから出力するもの 理屈の説明は最後に回します。まず実物を見てください。…"
         },
         {
           "title": "AWSコンソールモバイルアプリのCloudShellでKiro CLIを使ってみた",
@@ -148,18 +155,25 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-18T13:30:02",
           "excerpt": "aws-content-relay-hub — GitHub から Qiita・Zenn・ミラーリポジトリへ一括配信するアーキテクチャ解説 英語版はこちら → English Version 概要 aws-content-relay-hub…"
-        },
-        {
-          "title": "cdk-nag v3 の変更点と v2 からの移行を試してみた(抑制 API は廃止ではなく置き換え)",
-          "link": "https://qiita.com/leomarokun/items/60e869d3ec5a8a25286a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-18T12:07:43",
-          "excerpt": "はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "ドイツでは、レストランは大丈夫だと言うと、ゲシュタポが送られます。",
+      "link": "https://twitter.com/eigen_moomin/status/2077471686295957749",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-18T17:53:05",
+      "excerpt": "記事の URL: https://twitter.com/eigen_moomin/status/2077471686295957749 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "さようなら、そしてすべての自転車置き場に感謝",
+      "link": "https://queue.acm.org/detail.cfm?id=3818307",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-18T17:27:24",
+      "excerpt": "記事の URL: https://queue.acm.org/detail.cfm?id=3818307 コメント URL: https://news.ycombinator.com/item?…"
+    },
     {
       "title": "【IT業界25年目】元採用担当者ADHDポンコツエンジニアによる求職者の採用率が爆上がるネタ「あなたのヴェテラン」について",
       "link": "https://qiita.com/Veteran/items/2c43c159a752b7ad1c10",
@@ -173,20 +187,6 @@
       "source": "TechCrunch（英語）",
       "published": "2026-07-18T16:30:00",
       "excerpt": "ホンダ・プロローグは米国では販売されなくなり、今年市場から撤退するEVモデルの増加リストに加わることになる。"
-    },
-    {
-      "title": "クロード コードを制御できるように予備の Mac をセットアップするステップバイステップ ガイド",
-      "link": "https://ykdojo.github.io/claude-controls-mac/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-18T16:12:08",
-      "excerpt": "記事の URL: https://ykdojo.github.io/claude-controls-mac/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "ドーパミンのフェイクフード配信サイト",
-      "link": "https://old.reddit.com/r/BingeEatingDisorder/comments/1uzr3ui/fake_food_delivery_site_for_the_dopamine/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-18T16:08:38",
-      "excerpt": "記事の URL: https://old.reddit.…"
     }
   ]
 }
