@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-18T22:37:08",
+  "generated_at": "2026-07-18T23:41:21",
   "window_hours": 24,
-  "total": 119,
+  "total": 121,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。Metaは、エージェント業務やPC操作、コーディング、マルチモーダル理解を強化した「Muse Spark 1.1」を公開した。…",
+      "summary": "生成AIの新着が24件。Amazon Bedrock AgentCore Browser で、Cognito の TOTP 認証を突破して自作アプリを自動操作するデモを実装してみました。…",
       "articles": [
+        {
+          "title": "[Amazon Bedrock] AgentCore Browser で Cognito + TOTP 認証つきの自作アプリを Claude に自律操作させてみました",
+          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-browser-cognito-totp-app-automation/",
+          "source": "DevelopersIO",
+          "published": "2026-07-18T22:30:17",
+          "excerpt": "Amazon Bedrock AgentCore Browser で、Cognito の TOTP 認証を突破して自作アプリを自動操作するデモを実装してみました。…"
+        },
         {
           "title": "Meta「Muse Spark 1.1」　新APIで開発者提供、企業のエージェント基盤に",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2607/17/news105.html",
@@ -24,18 +31,11 @@
           "excerpt": "記事の URL: https://github.com/saineshnakra/automated-data-analyst コメント URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "最近、エージェントの毎週の割り当てがランダムにリセットされているのですが、どうなっているのでしょうか?",
-          "link": "https://minimaxir.com/2026/07/agent-quota-reset/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-18T19:06:23",
-          "excerpt": "記事の URL: https://minimaxir.com/2026/07/agent-quota-reset/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "LLM×IaCで、インフラ「書く・読む・出す」の三位一体の改革",
-          "link": "https://zenn.dev/pinddy/articles/925ca1c1959240",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-18T16:13:54",
-          "excerpt": "「LLMとIaCは相性がいい」の中身は、3つあります。書く — コードは、書いてもらうもの 読む — 構成は、聞けば答えてもらえるもの 出す — 設計書は、コードから出力するもの 理屈の説明は最後に回します。まず実物を見てください。…"
+          "title": "Fabel 5やGPT5.6のようなAIの賢さより、権利無視のKimi K3という中国AIの脅威 | CloudNative BLOGs",
+          "link": "https://blog.cloudnative.co.jp/articles/kimi-k3-guardrail-asymmetry/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-18T19:14:00",
+          "excerpt": "2026年7月16日リリースの中国製AI「Kimi K3」を、ベンチマークではなく「ガードレールの緩さ」の視点で検証します。macOS 27クローンのデモやK2.…"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。AWS WAF マネージドルール AWSManagedRulesKnownBadInputsRuleSet の v1.26 で ReactJSRCE_BODY に REMOVE_NULLS テキスト変換が追加されました。…",
+      "summary": "セキュリティの新着が9件。Amazon Bedrock AgentCore Browser で、Cognito の TOTP 認証を突破して自作アプリを自動操作するデモを実装してみました。…",
       "articles": [
+        {
+          "title": "[Amazon Bedrock] AgentCore Browser で Cognito + TOTP 認証つきの自作アプリを Claude に自律操作させてみました",
+          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-browser-cognito-totp-app-automation/",
+          "source": "DevelopersIO",
+          "published": "2026-07-18T22:30:17",
+          "excerpt": "Amazon Bedrock AgentCore Browser で、Cognito の TOTP 認証を突破して自作アプリを自動操作するデモを実装してみました。…"
+        },
         {
           "title": "AWS WAF KnownBadInputs v1.26 の REMOVE_NULLS で NULL バイト挿入による検出回避を防げるか確認してみた",
           "link": "https://dev.classmethod.jp/articles/aws-waf-known-bad-inputs-v126-remove-nulls/",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-18T10:36:37",
           "excerpt": "AWS WAF の Anti-DDoS マネージドルール（AWSManagedRulesAntiDDoSRuleSet）を CloudFront 環境で13か月間 Count モード運用しました。…"
-        },
-        {
-          "title": "自律ペンテストAI「AWS Security Agent」を試してみた",
-          "link": "https://qiita.com/hiyoshiz/items/54f3041aa4cd82e46f0a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-18T10:19:41",
-          "excerpt": "自律ペンテストAI「AWS Security Agent」を試してみた この記事でわかること 対象のURLを登録するだけで、AIが自律的に脆弱性を探し、実際に攻撃ペイロードを送り、悪用が成立するところまで実証してくれる。…"
         }
       ]
     },
@@ -161,32 +161,32 @@
   ],
   "uncategorized": [
     {
-      "title": "転売ヤーが紙の本を殺す？　「週刊少年ジャンプ」買い占め騒動を見てマンガ家が感じた怒りと不安",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/19/news007.html",
+      "title": "コーデックスのリセット",
+      "link": "https://codex-resets.com/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-18T23:24:26",
+      "excerpt": "記事の URL: https://codex-resets.com/ コメント URL: https://news.ycombinator.com/item?id=48963465 ポイント: 8 コメント数: 4"
+    },
+    {
+      "title": "クラウド環境でのコスト削減術：設計から運用まで徹底解説",
+      "link": "https://qiita.com/Maku-Inc/items/6c8d5cbdd37cb7a75bb3",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-18T22:42:44",
+      "excerpt": "クラウド環境でのコスト削減術：設計から運用まで徹底解説 クラウドコンピューティングはビジネスに柔軟性とスケーラビリティをもたらしますが、そのコスト管理は時に複雑に感じられるかもしれません。…"
+    },
+    {
+      "title": "AWS“兆ドル”誤見積は「ちょっとした計算ミス」　ジョークのつもり？　で大炎上→日本のAWS社員「あり得ない」と批判→対応",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/19/news010.html",
       "source": "ITmedia NEWS",
-      "published": "2026-07-18T22:14:00",
-      "excerpt": "ボクは「週刊少年ジャンプ」で育った、いわゆる“ジャンプっ子”です。そんなジャンプが、また店頭から姿を消しました。理由は、転売ヤーによる買い占めでした。"
+      "published": "2026-07-18T22:40:00",
+      "excerpt": "AWSが“兆単位”で課金計算ミス。それを「ちょっとした計算ミスです（ほんのちょっと）。で、その数兆ドルで何します？」とジョーク投稿して大炎上。"
     },
     {
-      "title": "マムダニ市長、家主は広告にAI画像を使用できないと発言",
-      "link": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+      "title": "望月氏のABC証明のギャップをリーン氏が確認",
+      "link": "https://twitter.com/FumiharuKato/status/2078017230537892207",
       "source": "Hacker News（英語）",
-      "published": "2026-07-18T22:13:39",
-      "excerpt": "記事の URL: https://petapixel.…"
-    },
-    {
-      "title": "本を最初のページで判断する",
-      "link": "https://uncovered.ink",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-18T22:02:31",
-      "excerpt": "記事の URL: https://uncovered.ink コメント URL: https://news.ycombinator.com/item?id=48962893 ポイント: 6 コメント数: 3"
-    },
-    {
-      "title": "ハードコア IndieWeb: 1 日わずか 0.01 ドルで自分の Web サイトを 100% 独立して運営できます",
-      "link": "https://www.neatnik.net/hardcore-indieweb",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-18T21:45:12",
-      "excerpt": "記事の URL: https://www.neatnik.net/hardcore-indieweb コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-18T22:19:37",
+      "excerpt": "記事の URL: https://twitter.com/FumiharuKato/status/2078017230537892207 コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
