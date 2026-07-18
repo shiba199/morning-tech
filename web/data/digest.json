@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-18T03:40:10",
+  "generated_at": "2026-07-18T05:55:30",
   "window_hours": 24,
-  "total": 208,
+  "total": 185,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が32件。ジェネラティブエージェンツの大嶋です。「AIエージェントキャッチアップ #84 - OpenWiki」という勉強会を開催しました。generative-agents.connpass.com アーカイブ動画はこちらです。www.…",
+      "summary": "生成AIの新着が31件。Claude Code の v2.1.213 〜 v2.1.214（2026-07-17 〜 2026-07-18）のアップデート内容をまとめました。…",
       "articles": [
+        {
+          "title": "Claude Code v2.1.213〜v2.1.214 の主要アップデート - Claude Fable 5がすべてのMaxおよびTeam Premiumプランに含まれ、制限の50%で利用可能に",
+          "link": "https://dev.classmethod.jp/articles/20260718-cc-updates-v2-1-214/",
+          "source": "DevelopersIO",
+          "published": "2026-07-18T05:15:46",
+          "excerpt": "Claude Code の v2.1.213 〜 v2.1.214（2026-07-17 〜 2026-07-18）のアップデート内容をまとめました。…"
+        },
+        {
+          "title": "「Claude Fable 5」サブスクに統合　Max・Team Premiumプラン対象",
+          "link": "https://www.itmedia.co.jp/news/articles/2607/18/news019.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-07-18T03:50:00",
+          "excerpt": "米Anthropicは、最上位AIモデル「Claude Fable 5」を7月20日から有料プラン「Max」「Team Premium」の標準機能にする。…"
+        },
         {
           "title": "「AIエージェントキャッチアップ #84 - OpenWiki」を開催しました | Generative Agents Tech Blog",
           "link": "https://blog.generative-agents.co.jp/entry/2026/07/18/100318",
@@ -22,28 +36,21 @@
           "source": "CodeZine",
           "published": "2026-07-18T00:00:00",
           "excerpt": "Amazon Bedrock、米国リージョンでGPT-5.6 Sol、Terra、Lunaが一般提供開始"
-        },
-        {
-          "title": "Vertu は、幹部が AI エージェントに 6,880 ドルを支払うことを望んでいます - 実際のパフォーマンスは次のとおりです",
-          "link": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-17T22:55:09",
-          "excerpt": "AI ワークフローからバッテリー寿命やセキュリティまで、Vertu の高級折りたたみ式デバイスを毎日使用するのが実際にどのようなものかをご紹介します。"
-        },
-        {
-          "title": "Appleの大規模訴訟がOpenAIのIPO計画をどのように混乱させるか",
-          "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-17T17:45:46",
-          "excerpt": "Appleは先週金曜日、OpenAIに対して営業秘密訴訟を起こしたが、それはいたずらではない。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が28件。Amazon OpenSearch Service は、OpenSearch ドメインとサーバーレス コレクションの両方について、従来の OpenSearch ダッシュボードから OpenSearch UI へのワンクリック移行をサポートす…",
+      "summary": "クラウドの新着が20件。こんにちは、テクニカルサポート課の設楽です。2026年7月16日に発生した CloudFront の VPC Origins 障害について、何が起きたのか、原因は何だったのか、そして今後どう備えるべきかを考えてみました。…",
       "articles": [
+        {
+          "title": "CloudFront の VPC Origins を利用している環境で 5xx エラーが発生した障害について考えてみた | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/cloudfront-vpcorigin",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-18T02:30:00",
+          "excerpt": "こんにちは、テクニカルサポート課の設楽です。2026年7月16日に発生した CloudFront の VPC Origins 障害について、何が起きたのか、原因は何だったのか、そして今後どう備えるべきかを考えてみました。…"
+        },
         {
           "title": "Amazon OpenSearch UI がワンクリックでのダッシュボード移行をサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-ui-one-click-dashboard-migration",
@@ -64,20 +71,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-17T16:12:07",
           "excerpt": "【2026/7/16 CloudFront障害】VPCオリジンと通常オリジンの違い・ユースケースを整理する はじめに 2026年7月16日の夕方（日本時間）、Amazon CloudFront で障害が発生し、VPCオリジン（VPC ori…"
-        },
-        {
-          "title": "distrolessイメージでECSヘルスチェックを通す方法",
-          "link": "https://qiita.com/sugar_hash/items/a6cf1ea053bbe73d3508",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-17T14:57:26",
-          "excerpt": "TL;DR; ECSのコンテナヘルスチェック（タスク定義の healthCheck）を有効化する際、distrolessイメージにはシェルや curl が無いため、標準的な CMD-SHELL によるヘルスチェックは失敗します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。Amazon GameLift Streams は、ストリーム セッションへの IAM ロールの割り当てをサポートするようになり、アプリケーションが Amazon S3 バケットや DynamoDB テーブルなどの AWS アカウント内のリ…",
+      "summary": "セキュリティの新着が11件。Amazon GameLift Streams は、ストリーム セッションへの IAM ロールの割り当てをサポートするようになり、アプリケーションが Amazon S3 バケットや DynamoDB テーブルなどの AWS アカウント内のリ…",
       "articles": [
         {
           "title": "Amazon GameLift Streams がストリームセッションの IAM ロール認証情報をサポートするようになりました",
@@ -140,67 +140,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。GitHub、Xcode 27対応のmacOSランナーをプレビュー提供",
+      "summary": "開発ツールの新着が9件。はじめに 案件でFSx for OpenZFSを扱う機会があったのですが、EFSやFSx for Windows File Serverと比べると圧倒的に情報が少なく、触ったことがある人もかなり限られている印象です。…",
       "articles": [
+        {
+          "title": "FSx for OpenZFSを作ってマウントするまでやってみた",
+          "link": "https://qiita.com/ike_s_muramatsu/items/88bafa25b6005769938d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T04:31:53",
+          "excerpt": "はじめに 案件でFSx for OpenZFSを扱う機会があったのですが、EFSやFSx for Windows File Serverと比べると圧倒的に情報が少なく、触ったことがある人もかなり限られている印象です。…"
+        },
+        {
+          "title": "ALB + ACM + Route53で個人開発アプリをHTTPS公開するTerraform構成〖ヒトリ開発〗#3",
+          "link": "https://qiita.com/Asano-S/items/bf06a827f91d69c7d944",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T03:44:52",
+          "excerpt": "はじめに 個人開発アプリをAWSに公開するためのTerraform Packを作っている中で、今回はHTTPS公開まわりの構成について書きます。…"
+        },
+        {
+          "title": "Terraform未対応のAWSリソースの管理方法はマネコンの通信に答えがあった",
+          "link": "https://qiita.com/R-You/items/03422ee839a49715ae81",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T03:40:20",
+          "excerpt": "この記事は人間が書いて、 AI（Claude）に文章体裁を整えています。内容は執筆時点の情報です。…"
+        },
         {
           "title": "GitHub、Xcode 27対応のmacOSランナーをプレビュー提供",
           "link": "https://codezine.jp/article/detail/29022",
           "source": "CodeZine",
           "published": "2026-07-18T03:00:00",
           "excerpt": "GitHub、Xcode 27対応のmacOSランナーをプレビュー提供"
-        },
-        {
-          "title": "AWS SAM入門：Rancher Desktop環境でのローカル開発からデプロイまでの手順と注意点",
-          "link": "https://qiita.com/nishiguchi_2/items/9d8d353d95d60c40e762",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-17T15:44:42",
-          "excerpt": "AWS SAM入門：Rancher Desktop環境でのローカル開発からデプロイまでの手順と注意点 こんにちは！最近夜散歩にハマってるニシグチです。…"
-        },
-        {
-          "title": "数字が絶対に減らない\"やさしい積み上げアプリ\"をAmplify Gen 2で作った話",
-          "link": "https://zenn.dev/satoru_o/articles/b1d879006609cf",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-17T14:09:34",
-          "excerpt": "はじめに 「日々の些細なことが積み上がっていくだけ」の 積み上げアプリ(つみつみファーム) を、React + TypeScript と AWS Amplify Gen 2（Cognito / API Gateway / Lambda /…"
-        },
-        {
-          "title": "【CloudFormation編】SAA先生に学ぶAWSの全容と授業メモ",
-          "link": "https://qiita.com/minifish33/items/c2b95132a6692874d5f1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-17T10:34:21",
-          "excerpt": "CloudFormationは「設計図を渡すだけでインフラが建つ」仕組み 🏗️ CloudFormationは「インフラを文章で発注する」サービス AWSクラウド上でインフラ環境を自動構築・管理するサービスがCloudFormation。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS Blocks ワークショップを作ってみた",
-      "link": "https://dev.classmethod.jp/articles/build-aws-blocks-workshop/",
-      "source": "DevelopersIO",
-      "published": "2026-07-18T03:08:44",
-      "excerpt": "AWS Blocksの概念をハンズオンで学びながら、ローカル実行からAWSデプロイまでを1つのコードで完結させる方法を試してみました。認証付きTodoアプリを段階的に構築することで、このバックエンドツールキットの実力を確認していきます。"
+      "title": "ニール・ライマーはAIマネーが戻ってくると考えている",
+      "link": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-18T04:47:25",
+      "excerpt": "Index Ventures の共同設立者であるベンチャーキャピタリストのニール・ライマー氏は、AI がシリコンバレーで生み出してきた歴史的な富は、自発的または非自発的に再分配される必要があると予測しています。"
     },
     {
-      "title": "AWS Parallel Computing Service が Slurm のインプレースメジャーバージョンアップグレードに対応したので試してみた",
-      "link": "https://dev.classmethod.jp/articles/aws-pcs-slurm-in-place-major-version-upgrade/",
-      "source": "DevelopersIO",
-      "published": "2026-07-18T01:26:48",
-      "excerpt": "AWS PCS が Slurm メジャーバージョンのインプレースアップグレードに対応しました。"
+      "title": "最近の AI コーディングで実践している、設計を中心とした開発の進め方",
+      "link": "https://azukiazusa.dev/blog/recent-ai-coding-development-process-centered-on-design/",
+      "source": "はてなブックマーク（テクノロジー）",
+      "published": "2026-07-18T04:23:35",
+      "excerpt": "AI コーディングエージェントの自律性が向上し、複数のエージェントを並行して動かすことが日常になったことで、開発の中で最も時間を使う工程が実装から設計へ移りつつあります。…"
     },
     {
-      "title": "Moonstone: Zig で書かれた最新のクロスプラットフォーム Lua ランタイムおよびパッケージ マネージャー",
-      "link": "https://moonstone.sh/",
+      "title": "Mac ゲームがついにそれにふさわしい強力なアップグレードを取得します",
+      "link": "https://www.macworld.com/article/3189951/apples-latest-game-porting-toolkit-beta-changed-how-i-think-about-mac-gaming.html",
       "source": "Hacker News（英語）",
-      "published": "2026-07-18T01:18:15",
-      "excerpt": "記事の URL: https://moonstone.sh/ コメント URL: https://news.ycombinator.com/item?id=48954175 ポイント: 15 コメント数: 2"
+      "published": "2026-07-18T04:13:00",
+      "excerpt": "記事の URL: https://www.macworld.…"
     },
     {
-      "title": "「汚れノート」始めました",
-      "link": "https://pinewind.bearblog.dev/i-started-a-dirt-notebook/",
+      "title": "回帰JPEG",
+      "link": "https://maurycyz.com/projects/bad_jpeg/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-18T01:12:13",
-      "excerpt": "記事の URL: https://pinewind.bearblog.dev/i-started-a-dirt-notebook/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-18T03:14:20",
+      "excerpt": "記事の URL: https://maurycyz.com/projects/bad_jpeg/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
