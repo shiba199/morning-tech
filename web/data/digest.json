@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-18T07:25:00",
+  "generated_at": "2026-07-18T09:06:55",
   "window_hours": 24,
-  "total": 175,
+  "total": 165,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が31件。はじめに 生成 AI アプリを作っていると「今使っているモデル、別のに変えたら回答の質は上がるのか?」が気になります。…",
+      "summary": "生成AIの新着が29件。はじめに 生成 AI アプリを作っていると「今使っているモデル、別のに変えたら回答の質は上がるのか?」が気になります。…",
       "articles": [
         {
           "title": "AppConfig の実験機能で LLM のモデル A/B テストをやってみた(Nova Lite vs Claude Haiku)",
@@ -52,32 +52,32 @@
           "excerpt": "まずは前提知識から 登場人物を整理します。Secrets Manager とは 用語メモ：Secrets Manager とは？…"
         },
         {
+          "title": "複数のLambdaで使う共通処理:CDKでLambdaレイヤーに切り出して対応した話",
+          "link": "https://zenn.dev/hknote/articles/lambda-shared-layer-cdk",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-18T04:00:05",
+          "excerpt": "複数のLambda関数で同じ処理を使いたい場合、各Lambdaに同じコードをコピーするのではなく、Lambdaレイヤーとして切り出すことで、コードの保守性が上がりました。その手順について共有したいと思います。…"
+        },
+        {
+          "title": "オープンLLMをLambdaで動かしてみる",
+          "link": "https://zenn.dev/edash_tech_blog/articles/528ab6bd044c35",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-18T03:00:52",
+          "excerpt": "はじめに Zenn 読者のみなさん、こんにちは。e-dash VPoE の伊藤です。最近、AI コーディングエージェントや LLM ベースの自動化を業務に組み込む機会がぐっと増えました。非常に便利なのですが、コストも肥大化しがちです。…"
+        },
+        {
           "title": "CloudFront の VPC Origins を利用している環境で 5xx エラーが発生した障害について考えてみた | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/cloudfront-vpcorigin",
           "source": "企業テックブログまとめ",
           "published": "2026-07-18T02:30:00",
           "excerpt": "こんにちは、テクニカルサポート課の設楽です。2026年7月16日に発生した CloudFront の VPC Origins 障害について、何が起きたのか、原因は何だったのか、そして今後どう備えるべきかを考えてみました。…"
-        },
-        {
-          "title": "Amazon OpenSearch UI がワンクリックでのダッシュボード移行をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-ui-one-click-dashboard-migration",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-17T17:23:00",
-          "excerpt": "Amazon OpenSearch Service は、OpenSearch ドメインとサーバーレス コレクションの両方について、従来の OpenSearch ダッシュボードから OpenSearch UI へのワンクリック移行をサポートす…"
-        },
-        {
-          "title": "[アップデート]Amazon GuardDutyが漏洩したAmazon ECS認証情報の不正利用を検出できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/amazon-guardduty-resource-credential-exfiltration-ecs/",
-          "source": "DevelopersIO",
-          "published": "2026-07-17T16:39:09",
-          "excerpt": "ECS Fargate環境でも認証情報の漏洩を検出することができるようになりました！ついでにAmazon GuardDuty Investigationで調査機能の実力も確認しました。非常によき！"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。第1回では「Security Hub は集約と採点の道具で、採点は AWS Config で動く」という概念を 整理しました。今回はそれを AWS CDK(TypeScript)で実際に形にします。…",
+      "summary": "セキュリティの新着が12件。第1回では「Security Hub は集約と採点の道具で、採点は AWS Config で動く」という概念を 整理しました。今回はそれを AWS CDK(TypeScript)で実際に形にします。…",
       "articles": [
         {
           "title": "CDK で Security Hub CSPM を2リージョンに構築する — 東京集約アーキテクチャと衝突しないゲートパターン【入門】",
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。第1回では「Security Hub は集約と採点の道具で、採点は AWS Config で動く」という概念を 整理しました。今回はそれを AWS CDK(TypeScript)で実際に形にします。…",
+      "summary": "開発ツールの新着が12件。はじめに こんなイベントに参加した https://jawsug-cdk.connpass.com/event/393595/ AI / CDK と協働する Full TypeScript アプリケーション開発 ほぼ終わりかけで見た。…",
       "articles": [
+        {
+          "title": "AWS CDK Conference Japan 2026の感想要約",
+          "link": "https://qiita.com/sarasara1214/items/8f490db8e4bfb8556393",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-18T08:41:16",
+          "excerpt": "はじめに こんなイベントに参加した https://jawsug-cdk.connpass.com/event/393595/ AI / CDK と協働する Full TypeScript アプリケーション開発 ほぼ終わりかけで見た。…"
+        },
         {
           "title": "CDK で Security Hub CSPM を2リージョンに構築する — 東京集約アーキテクチャと衝突しないゲートパターン【入門】",
           "link": "https://qiita.com/ujunja/items/ca7ce7c3048b44a1d1c4",
@@ -162,18 +169,25 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-18T04:31:53",
           "excerpt": "はじめに 案件でFSx for OpenZFSを扱う機会があったのですが、EFSやFSx for Windows File Serverと比べると圧倒的に情報が少なく、触ったことがある人もかなり限られている印象です。…"
-        },
-        {
-          "title": "ALB + ACM + Route53で個人開発アプリをHTTPS公開するTerraform構成〖ヒトリ開発〗#3",
-          "link": "https://qiita.com/Asano-S/items/bf06a827f91d69c7d944",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-18T03:44:52",
-          "excerpt": "はじめに 個人開発アプリをAWSに公開するためのTerraform Packを作っている中で、今回はHTTPS公開まわりの構成について書きます。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "Dependabot のワイルドカードグループが cooldown を無効化する罠と対策de",
+      "link": "https://dev.classmethod.jp/articles/dependabot-wildcard-group-cooldown-trap/",
+      "source": "DevelopersIO",
+      "published": "2026-07-18T08:48:24",
+      "excerpt": "Dependabot のワイルドカードグループ patterns: [\"*\"] が cooldown をバイパスし、pnpm 11 の minimumReleaseAge エラーを引き起こす罠とその対策を解説します。"
+    },
+    {
+      "title": "NextBSD が FreeBSD 上の少量の Apple ソースに戻ります",
+      "link": "https://www.theregister.com/os-platforms/2026/07/18/nextbsd-returns-to-dollop-apple-source-on-freebsd/5273788",
+      "source": "The Register（英語）",
+      "published": "2026-07-18T07:45:00",
+      "excerpt": "新しいメンテナが Darwin コンポーネント、Gershwin、および Claude Code を使用してプロジェクトを復活させます"
+    },
     {
       "title": "AWS Parallel Computing Service が NVIDIA Blackwell 世代の P6e UltraServer をサポートしました",
       "link": "https://dev.classmethod.jp/articles/aws-pcs-p6e-gb200-gb300-ultraserver-support/",
@@ -187,20 +201,6 @@
       "source": "DevelopersIO",
       "published": "2026-07-18T06:33:57",
       "excerpt": "Amazon InspectorのECR継続スキャンに追加された再スキャン期間DAYS_3を設定し、イメージpushから4日間のログを確認しました。…"
-    },
-    {
-      "title": "佐川急便、約7万人分の個人情報漏えいか　「スマートクラブ」通知メールに別人の氏名など表示",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/18/news021.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-18T05:50:00",
-      "excerpt": "佐川急便は7月18日、会員制Webサービス「スマートクラブ」のシステム不具合により、配達予定通知メールの一部に別の利用者の氏名やメールアドレスなどが表示される事象が起き、約7万人の個人情報に影響が及んだ可能性があると発表した。…"
-    },
-    {
-      "title": "ニール・ライマーはAIマネーが戻ってくると考えている",
-      "link": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-18T04:47:25",
-      "excerpt": "Index Ventures の共同設立者であるベンチャーキャピタリストのニール・ライマー氏は、AI がシリコンバレーで生み出してきた歴史的な富は、自発的または非自発的に再分配される必要があると予測しています。"
     }
   ]
 }
