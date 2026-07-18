@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-18T16:25:30",
+  "generated_at": "2026-07-18T17:28:00",
   "window_hours": 24,
-  "total": 131,
+  "total": 127,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。効かないと思います。無理やり効かせます。AgentCoreラインタイムになりますが。手順 まずは無心でAgentCoreハーネスを作ります。クイック作成でOKです。…",
+      "summary": "生成AIの新着が18件。効かないと思います。無理やり効かせます。AgentCoreラインタイムになりますが。手順 まずは無心でAgentCoreハーネスを作ります。クイック作成でOKです。…",
       "articles": [
         {
           "title": "AgentCoreハーネス、プロンプトキャッシュが効かなくなくなくない？",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…",
+      "summary": "クラウドの新着が11件。はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…",
       "articles": [
         {
           "title": "cdk-nag v3 の変更点と v2 からの移行を試してみた(抑制 API は廃止ではなく置き換え)",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。2026年7月17日、認証不要でリモートからの任意コード実行（RCE）につながる脆弱性「CVE-2026-63030」「CVE-2026-60137」を修正したWordPress 6.8.6、6.9.5、および 7.0.…",
+      "summary": "セキュリティの新着が9件。AWS WAF マネージドルール AWSManagedRulesKnownBadInputsRuleSet の v1.26 で ReactJSRCE_BODY に REMOVE_NULLS テキスト変換が追加されました。…",
       "articles": [
+        {
+          "title": "AWS WAF KnownBadInputs v1.26 の REMOVE_NULLS で NULL バイト挿入による検出回避を防げるか確認してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-waf-known-bad-inputs-v126-remove-nulls/",
+          "source": "DevelopersIO",
+          "published": "2026-07-18T16:29:54",
+          "excerpt": "AWS WAF マネージドルール AWSManagedRulesKnownBadInputsRuleSet の v1.26 で ReactJSRCE_BODY に REMOVE_NULLS テキスト変換が追加されました。…"
+        },
         {
           "title": "WordPressの深刻度「緊急」脆弱性 wp2shell の概要と対応指針 | GMO Flatt Security Blog",
           "link": "https://blog.flatt.tech/entry/wp2shell_wordpress",
@@ -99,20 +106,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-18T10:19:41",
           "excerpt": "自律ペンテストAI「AWS Security Agent」を試してみた この記事でわかること 対象のURLを登録するだけで、AIが自律的に脆弱性を探し、実際に攻撃ペイロードを送り、悪用が成立するところまで実証してくれる。…"
-        },
-        {
-          "title": "公記録における Qubes OS のセキュリティ",
-          "link": "https://arxiv.org/abs/2607.14587",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-18T08:50:07",
-          "excerpt": "記事の URL: https://arxiv.org/abs/2607.14587 コメント URL: https://news.ycombinator.com/item?id=48956307 ポイント: 3 コメント数: 0"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。AWS Labsの「Bulk Executor for Amazon DynamoDB」を実際にセットアップし、100万件のダミーデータを使って大規模テーブルの一括操作を実測してみました。…",
+      "summary": "データ分析の新着が1件。AWS Labsの「Bulk Executor for Amazon DynamoDB」を実際にセットアップし、100万件のダミーデータを使って大規模テーブルの一括操作を実測してみました。…",
       "articles": [
         {
           "title": "AWS Labsの「Bulk Executor for Amazon DynamoDB」でDynamoDBの一括操作をAWS Glueに任せてみる",
@@ -120,13 +120,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-18T02:00:13",
           "excerpt": "AWS Labsの「Bulk Executor for Amazon DynamoDB」を実際にセットアップし、100万件のダミーデータを使って大規模テーブルの一括操作を実測してみました。…"
-        },
-        {
-          "title": "Amazon OpenSearch UI がワンクリックでのダッシュボード移行をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-ui-one-click-dashboard-migration",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-17T17:23:00",
-          "excerpt": "Amazon OpenSearch Service は、OpenSearch ドメインとサーバーレス コレクションの両方について、従来の OpenSearch ダッシュボードから OpenSearch UI へのワンクリック移行をサポートす…"
         }
       ]
     },
@@ -168,32 +161,32 @@
   ],
   "uncategorized": [
     {
-      "title": "バイオレジリエンスへの私たちのアプローチ: Isomorphic Labs と Google DeepMind",
-      "link": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-18T16:02:45",
-      "excerpt": "記事の URL: https://deepmind.google/blog/our-approach-to-bioresilience/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "【IT業界25年目】元採用担当者ADHDポンコツエンジニアによる求職者の採用率が爆上がるネタ「あなたのヴェテラン」について",
+      "link": "https://qiita.com/Veteran/items/2c43c159a752b7ad1c10",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-18T16:57:38",
+      "excerpt": "３連休も大炎上デスマーチで残業して今帰ってきたポンコツエンジニアのGONです！…"
     },
     {
-      "title": "連邦職員は仕事用電話にTikTokを再度ダウンロードできる",
-      "link": "https://techcrunch.com/2026/07/18/federal-employees-can-download-tiktok-on-their-work-phones-again/",
+      "title": "今年米国で製造中止または廃止されたすべてのEV",
+      "link": "https://techcrunch.com/2026/07/18/all-the-evs-that-were-discontinued-or-killed-off-in-the-u-s-this-year/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-18T15:54:24",
-      "excerpt": "司法省は、連邦職員が政府の端末にTikTokをダウンロードできるようになったと発表した。"
+      "published": "2026-07-18T16:30:00",
+      "excerpt": "ホンダ・プロローグは米国では販売されなくなり、今年市場から撤退するEVモデルの増加リストに加わることになる。"
     },
     {
-      "title": "「Gleam」は「Tangled」に登場",
-      "link": "https://tangled.org/gleam.run/gleam",
+      "title": "クロード コードを制御できるように予備の Mac をセットアップするステップバイステップ ガイド",
+      "link": "https://ykdojo.github.io/claude-controls-mac/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-18T15:44:04",
-      "excerpt": "記事の URL: https://tangled.org/gleam.run/gleam コメント URL: https://news.ycombinator.com/item?id=48959143 ポイント: 28 コメント数: 11"
+      "published": "2026-07-18T16:12:08",
+      "excerpt": "記事の URL: https://ykdojo.github.io/claude-controls-mac/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "フェルミのパラドックス、パーコレーション、近親交配",
-      "link": "https://reactormag.com/the-fermi-paradox-percolation-and-inbreeding/",
+      "title": "ドーパミンのフェイクフード配信サイト",
+      "link": "https://old.reddit.com/r/BingeEatingDisorder/comments/1uzr3ui/fake_food_delivery_site_for_the_dopamine/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-18T15:38:36",
-      "excerpt": "記事の URL: https://reactormag.com/the-fermi-paradox-percolation-and-inbreeding/ コメント URL: https://news.ycombinator.…"
+      "published": "2026-07-18T16:08:38",
+      "excerpt": "記事の URL: https://old.reddit.…"
     }
   ]
 }
