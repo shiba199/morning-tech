@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-19T01:25:51",
+  "generated_at": "2026-07-19T04:42:18",
   "window_hours": 24,
-  "total": 120,
-  "topic_count": 5,
+  "total": 113,
+  "topic_count": 4,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。OpenAIがGPT-Redを公開、自動化された高精度な安全性強化モデル",
+      "summary": "生成AIの新着が23件。記事の URL: https://calculus.academa.ai/ コメント URL: https://news.ycombinator.com/item?id=48964585 ポイント: 18 コメント数: 9",
       "articles": [
+        {
+          "title": "LLM 統合多変数微積分コース",
+          "link": "https://calculus.academa.ai/",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-19T02:55:43",
+          "excerpt": "記事の URL: https://calculus.academa.ai/ コメント URL: https://news.ycombinator.com/item?id=48964585 ポイント: 18 コメント数: 9"
+        },
+        {
+          "title": "TypeScriptの型を収集してからコンテキストとしてLLMに与えてみる | SMARTCAMP Engineer Blogのフィード",
+          "link": "https://zenn.dev/smartcamp/articles/b28949bea1e8d2",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-19T01:04:33",
+          "excerpt": "問題: LLMが推測でコードを修正するTypeScriptのプロジェクトでLLMにコード修正を依頼すると、LLMは型情報を推測して回答することがあります。…"
+        },
         {
           "title": "OpenAIがGPT-Redを公開、自動化された高精度な安全性強化モデル",
           "link": "https://codezine.jp/article/detail/29025",
@@ -22,28 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-18T22:30:17",
           "excerpt": "Amazon Bedrock AgentCore Browser で、Cognito の TOTP 認証を突破して自作アプリを自動操作するデモを実装してみました。…"
-        },
-        {
-          "title": "Meta「Muse Spark 1.1」　新APIで開発者提供、企業のエージェント基盤に",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/17/news105.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-07-18T22:00:00",
-          "excerpt": "Metaは、エージェント業務やPC操作、コーディング、マルチモーダル理解を強化した「Muse Spark 1.1」を公開した。…"
-        },
-        {
-          "title": "Ada: CSV と Excel による AI ビジネス インテリジェンス ソフトウェア (LLM ですがそれ以上)",
-          "link": "https://github.com/saineshnakra/automated-data-analyst",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-18T21:06:49",
-          "excerpt": "記事の URL: https://github.com/saineshnakra/automated-data-analyst コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。Amazon Quick Flow で予測データを S3 に自動保存したいというニーズから、OpenAPI カスタムコネクタを使った実装方法を試してみました。標準機能の制限を突破するアプローチを紹介します。",
+      "summary": "クラウドの新着が11件。Amazon EC2のR8iシリーズが東京などで提供開始",
       "articles": [
+        {
+          "title": "Amazon EC2のR8iシリーズが東京などで提供開始",
+          "link": "https://codezine.jp/article/detail/29026",
+          "source": "CodeZine",
+          "published": "2026-07-19T03:00:00",
+          "excerpt": "Amazon EC2のR8iシリーズが東京などで提供開始"
+        },
         {
           "title": "Amazon Quick Flow で生成したデータを S3 バケットに自動書き込みしてみた",
           "link": "https://dev.classmethod.jp/articles/quick-flow-auto-s3/",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-18T12:07:43",
           "excerpt": "はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…"
-        },
-        {
-          "title": "EC2 インスタンスの自動停止で StopInstances が CloudTrail に 2 回記録される件を調べたら仕様だった話",
-          "link": "https://qiita.com/BakuonKozo/items/e205e36cee82b31b9252",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-18T10:57:00",
-          "excerpt": "ProLogue ～ 最下級戦士の推理 ～ FILE.1 同時刻の StopInstances 👨「…おかしい。」 👨「EC2 インスタンスは確かに停止した。」 👨「動作は完璧だ。」 👨「だが…。…"
         }
       ]
     },
@@ -110,24 +110,24 @@
       ]
     },
     {
-      "id": "data",
-      "label": "データ分析",
-      "summary": "データ分析の新着が1件。AWS Labsの「Bulk Executor for Amazon DynamoDB」を実際にセットアップし、100万件のダミーデータを使って大規模テーブルの一括操作を実測してみました。…",
-      "articles": [
-        {
-          "title": "AWS Labsの「Bulk Executor for Amazon DynamoDB」でDynamoDBの一括操作をAWS Glueに任せてみる",
-          "link": "https://dev.classmethod.jp/articles/bulk-executor-amazon-dynamoDB/",
-          "source": "DevelopersIO",
-          "published": "2026-07-18T02:00:13",
-          "excerpt": "AWS Labsの「Bulk Executor for Amazon DynamoDB」を実際にセットアップし、100万件のダミーデータを使って大規模テーブルの一括操作を実測してみました。…"
-        }
-      ]
-    },
-    {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。aws-content-relay-hub — Architecture Deep Dive: Auto-Publishing from GitHub to Qiita, Zenn, and Mirror Repos 日本語版はこちら →…",
+      "summary": "開発ツールの新着が13件。CodePipelineのデプロイトリガーを、ブランチへのpushではなくgitタグのpushにする構成です。…",
       "articles": [
+        {
+          "title": "gitタグのpushをトリガーにCodePipelineを構築するパターン",
+          "link": "https://qiita.com/ham-nao/items/822778e3ee686753ec63",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-19T03:35:27",
+          "excerpt": "CodePipelineのデプロイトリガーを、ブランチへのpushではなくgitタグのpushにする構成です。…"
+        },
+        {
+          "title": "Cloudflare Dropで名刺代わりのホームページをデプロイする",
+          "link": "https://dev.classmethod.jp/articles/deploy-static-site-with-cloudflare-drop/",
+          "source": "DevelopersIO",
+          "published": "2026-07-19T01:54:44",
+          "excerpt": "Cloudflareの新機能「Cloudflare Drop」を使って、アカウント登録なしで静的サイトをデプロイから独自ドメイン設定まで一通り試してみました。手軽さと速さに驚きです！"
+        },
         {
           "title": "aws-content-relay-hub: GitHub から Qiita および Zenn への自動公開",
           "link": "https://qiita.com/riadraz/items/27647395e4fe1e9c96c3",
@@ -141,52 +141,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-18T16:20:48",
           "excerpt": "TL;DR 個人で運用している複数のリポジトリが1つのAWSアカウントを共有しており、それぞれのGitHub ActionsからAWSへOIDC(OpenID Connect、外部のIDプロバイダをAWS側が信頼して一時的な認証情報を発行す…"
-        },
-        {
-          "title": "LLM×IaCで、インフラ「書く・読む・出す」の三位一体の改革",
-          "link": "https://zenn.dev/pinddy/articles/925ca1c1959240",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-18T16:13:54",
-          "excerpt": "「LLMとIaCは相性がいい」の中身は、3つあります。書く — コードは、書いてもらうもの 読む — 構成は、聞けば答えてもらえるもの 出す — 設計書は、コードから出力するもの 理屈の説明は最後に回します。まず実物を見てください。…"
-        },
-        {
-          "title": "AWSコンソールモバイルアプリのCloudShellでKiro CLIを使ってみた",
-          "link": "https://dev.classmethod.jp/articles/aws-console-mobile-cloudshell-kiro-cli/",
-          "source": "DevelopersIO",
-          "published": "2026-07-18T13:57:48",
-          "excerpt": "AWSコンソールモバイルアプリ（Android版）の2026/07/15アップデートでKiro CLIがサポートされました。モバイルアプリからCloudShellを開き、Kiro CLI 2.5.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "転写.cpp",
-      "link": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-19T00:38:26",
-      "excerpt": "記事の URL: https://workshop.cjpais.com/projects/transcribe-cpp コメント URL: https://news.ycombinator.com/item?…"
+      "title": "straceでSSHコマンドの内部を覗いてみた",
+      "link": "https://dev.classmethod.jp/articles/ssh-strace-syscall-peek/",
+      "source": "DevelopersIO",
+      "published": "2026-07-19T04:09:00",
+      "excerpt": "straceを使ってSSHコマンドがLinuxカーネルにどんなシステムコールを発行しているか、実際のログを追いながら解説します。…"
     },
     {
-      "title": "AWS IoT Greengrass V2 の概要",
-      "link": "https://qiita.com/riadraz/items/206f4476031e19be4617",
+      "title": "AWS organization を利用して新しいAWS環境をゼロから作成する",
+      "link": "https://qiita.com/saurus12/items/3ba3efef8d0dc94a178f",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-19T00:08:50",
-      "excerpt": "Introduction to AWS IoT Greengrass V2 This is the English version.…"
+      "published": "2026-07-19T03:32:18",
+      "excerpt": "AWSで新しい環境を作りたいけれど、「メールアドレスの新規作成やクレジットカードの登録が面倒だな……」と思ったことはありませんか？今回は、AWS Organizationsを活用して、完全新規のAWS環境をゼロから作成する手順を解説します。…"
     },
     {
-      "title": "ハーネスエンジニアリング",
-      "link": "https://github.com/lopopolo/harness-engineering",
+      "title": "FDA、新種のコレステロール錠剤を承認",
+      "link": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol",
       "source": "Hacker News（英語）",
-      "published": "2026-07-18T23:27:36",
-      "excerpt": "記事の URL: https://github.com/lopolo/harness-engineering コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-19T02:40:22",
+      "excerpt": "記事の URL: https://www.fda.…"
     },
     {
-      "title": "コーデックスのリセット",
-      "link": "https://codex-resets.com/",
+      "title": "WebRTCを使用したブラウザベースのP2Pファイル転送ツールを構築しました",
+      "link": "https://airdows.com/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-18T23:24:26",
-      "excerpt": "記事の URL: https://codex-resets.com/ コメント URL: https://news.ycombinator.com/item?id=48963465 ポイント: 8 コメント数: 4"
+      "published": "2026-07-19T02:17:03",
+      "excerpt": "記事の URL: https://airdows.com/ コメント URL: https://news.ycombinator.com/item?id=48964424 ポイント: 4 コメント数: 1"
     }
   ]
 }
