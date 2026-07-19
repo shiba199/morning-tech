@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-19T07:21:51",
+  "generated_at": "2026-07-19T09:23:59",
   "window_hours": 24,
-  "total": 111,
-  "topic_count": 4,
+  "total": 108,
+  "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。記事の URL: https://calculus.academa.ai/ コメント URL: https://news.ycombinator.com/item?id=48964585 ポイント: 18 コメント数: 9",
+      "summary": "生成AIの新着が21件。SageMaker JumpStartでQwen3の埋め込み・再ランキングモデルが利用可能に",
       "articles": [
+        {
+          "title": "SageMaker JumpStartでQwen3の埋め込み・再ランキングモデルが利用可能に",
+          "link": "https://codezine.jp/article/detail/29028",
+          "source": "CodeZine",
+          "published": "2026-07-19T09:00:00",
+          "excerpt": "SageMaker JumpStartでQwen3の埋め込み・再ランキングモデルが利用可能に"
+        },
         {
           "title": "LLM 統合多変数微積分コース",
           "link": "https://calculus.academa.ai/",
@@ -29,55 +36,48 @@
           "source": "CodeZine",
           "published": "2026-07-19T00:00:00",
           "excerpt": "OpenAIがGPT-Redを公開、自動化された高精度な安全性強化モデル"
-        },
-        {
-          "title": "[Amazon Bedrock] AgentCore Browser で Cognito + TOTP 認証つきの自作アプリを Claude に自律操作させてみました",
-          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-browser-cognito-totp-app-automation/",
-          "source": "DevelopersIO",
-          "published": "2026-07-18T22:30:17",
-          "excerpt": "Amazon Bedrock AgentCore Browser で、Cognito の TOTP 認証を突破して自作アプリを自動操作するデモを実装してみました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…",
+      "summary": "クラウドの新着が13件。【AWS解説 基本編 #1】AWSとは？クラウドとオンプレミスの違いを整理 基本編 #1（全 6 回予定） AWSを学び始めると、EC2、S3、Lambdaなど、さまざまなサービス名が出てきます。…",
       "articles": [
+        {
+          "title": "【AWS解説 基本編 #1】AWSとは？クラウドとオンプレミスの違いを整理",
+          "link": "https://qiita.com/suzunari900261/items/7a356613370e0b16613d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-19T08:53:12",
+          "excerpt": "【AWS解説 基本編 #1】AWSとは？クラウドとオンプレミスの違いを整理 基本編 #1（全 6 回予定） AWSを学び始めると、EC2、S3、Lambdaなど、さまざまなサービス名が出てきます。…"
+        },
+        {
+          "title": "Qwen3.8 がリリースされ、まもなく無差別級に移行します",
+          "link": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-19T08:44:57",
+          "excerpt": "記事の URL: https://twitter.com/Alibaba_Qwen/status/2078759124914098291 コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "[アップデート] Amazon Redshift Serverless のスナップショット復元で zero-ETL 統合と S3 イベント統合が自動維持されるようになったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-redshift-serverless-zeroetl-autocopy-restore/",
+          "source": "DevelopersIO",
+          "published": "2026-07-19T07:42:35",
+          "excerpt": "Amazon Redshift Serverless のスナップショット復元時に、zero-ETL 統合と S3 イベント統合が自動的に保持されるようになったこのアップデートを、実際に S3 Auto-copy で検証してみました。"
+        },
         {
           "title": "Aurora の クラスター復元時、AssociatedRoles指定でIAMロールを紐付けてみた",
           "link": "https://dev.classmethod.jp/articles/aurora-restore-from-s3-associated-roles/",
           "source": "DevelopersIO",
           "published": "2026-07-19T06:56:15",
           "excerpt": "AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…"
-        },
-        {
-          "title": "Next.js 静的サイトを CloudFront に載せたら、トップ以外が全部 404 になった話",
-          "link": "https://qiita.com/vincentmango_wen/items/1f1b9c21cb6967038d75",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-19T06:07:52",
-          "excerpt": "SES でインフラの運用をしながら、個人開発で AWS の学習サイトをサーバーレス構成で公開している。構成は S3 + CloudFront + Lambda + API Gateway + DynamoDB の一式だ。…"
-        },
-        {
-          "title": "Amazon EC2のR8iシリーズが東京などで提供開始",
-          "link": "https://codezine.jp/article/detail/29026",
-          "source": "CodeZine",
-          "published": "2026-07-19T03:00:00",
-          "excerpt": "Amazon EC2のR8iシリーズが東京などで提供開始"
-        },
-        {
-          "title": "Amazon Quick Flow で生成したデータを S3 バケットに自動書き込みしてみた",
-          "link": "https://dev.classmethod.jp/articles/quick-flow-auto-s3/",
-          "source": "DevelopersIO",
-          "published": "2026-07-19T00:13:44",
-          "excerpt": "Amazon Quick Flow で予測データを S3 に自動保存したいというニーズから、OpenAPI カスタムコネクタを使った実装方法を試してみました。標準機能の制限を突破するアプローチを紹介します。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…",
+      "summary": "セキュリティの新着が6件。AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…",
       "articles": [
         {
           "title": "Aurora の クラスター復元時、AssociatedRoles指定でIAMロールを紐付けてみた",
@@ -110,9 +110,23 @@
       ]
     },
     {
+      "id": "data",
+      "label": "データ分析",
+      "summary": "データ分析の新着が1件。Amazon Redshift Serverless のスナップショット復元時に、zero-ETL 統合と S3 イベント統合が自動的に保持されるようになったこのアップデートを、実際に S3 Auto-copy で検証してみました。",
+      "articles": [
+        {
+          "title": "[アップデート] Amazon Redshift Serverless のスナップショット復元で zero-ETL 統合と S3 イベント統合が自動維持されるようになったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-redshift-serverless-zeroetl-autocopy-restore/",
+          "source": "DevelopersIO",
+          "published": "2026-07-19T07:42:35",
+          "excerpt": "Amazon Redshift Serverless のスナップショット復元時に、zero-ETL 統合と S3 イベント統合が自動的に保持されるようになったこのアップデートを、実際に S3 Auto-copy で検証してみました。"
+        }
+      ]
+    },
+    {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。GitHub Enterprise Cloud、Visual Studio Subscription管理のREST APIを強化",
+      "summary": "開発ツールの新着が9件。GitHub Enterprise Cloud、Visual Studio Subscription管理のREST APIを強化",
       "articles": [
         {
           "title": "GitHub Enterprise Cloud、Visual Studio Subscription管理のREST APIを強化",
@@ -147,6 +161,20 @@
   ],
   "uncategorized": [
     {
+      "title": "自己紹介 ｜ テクニカルサポートからクラウドエンジニアを目指して、Qiitaを始めます",
+      "link": "https://qiita.com/furuya_tech/items/432d5b838c7741b63941",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-19T08:26:05",
+      "excerpt": "はじめに はじめまして、フルヤと申します。これまでNoteで自分の考えなどを発信してきましたが、技術的な学習や検証の記録も残していきたいと考え、Qiitaでの発信を始めることにしました。…"
+    },
+    {
+      "title": "Perforce はトレーニング トレーニング ビデオに 500 ドルを請求します。しかも AI によるナレーション付きです",
+      "link": "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-19T08:00:24",
+      "excerpt": "記事の URL: https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic コメント URL: https://news.ycombinator.…"
+    },
+    {
       "title": "Public SubnetとPrivate Subnet、個人開発ではどちらを選ぶ？NAT Gateway料金も含めて考えた【ヒトリ開発】#4",
       "link": "https://qiita.com/Asano-S/items/81bc822e1306cdba26aa",
       "source": "Qiita AWSタグ",
@@ -159,20 +187,6 @@
       "source": "DevelopersIO",
       "published": "2026-07-19T06:52:10",
       "excerpt": "Perforce の排他ロック (binary+l) について、デッドロックの発生・管理者による解除・非排他 (binary+w) との違い・typemap による自動付与といった実際の運用で押さえておきたい仕様を確かめました。"
-    },
-    {
-      "title": "AWS AppSync で GraphQL API を使ってみた",
-      "link": "https://dev.classmethod.jp/articles/shoma-try-graphql-api-with-aws-appsync/",
-      "source": "DevelopersIO",
-      "published": "2026-07-19T06:21:29",
-      "excerpt": "AWS AppSync と DynamoDB を使って GraphQL API を構築する方法を、実装例を交えながら紹介します。"
-    },
-    {
-      "title": "AWSのマネージドAIサービスを、AIF-C01の学習ついでに実務目線で棚卸しした",
-      "link": "https://qiita.com/vincentmango_wen/items/9e1cd84cbd6d0b88d40a",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-19T06:03:36",
-      "excerpt": "AWS 認定 AI プラクティショナー（AIF-C01）の学習で、Bedrock・SageMaker・Comprehend・Rekognition といったマネージド AI サービスを体系的に覚えることになった。…"
     }
   ]
 }
