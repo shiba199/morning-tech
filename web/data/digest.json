@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-19T12:49:03",
+  "generated_at": "2026-07-19T14:19:09",
   "window_hours": 24,
-  "total": 113,
+  "total": 114,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。はじめに AWS環境で障害が発生した場合、担当者はCloudWatch Logs、メトリクス、トレース、サービスの設定、デプロイ履歴など、複数の情報を行き来しながら原因を調査します。…",
+      "summary": "生成AIの新着が16件。はじめに AWS環境で障害が発生した場合、担当者はCloudWatch Logs、メトリクス、トレース、サービスの設定、デプロイ履歴など、複数の情報を行き来しながら原因を調査します。…",
       "articles": [
         {
           "title": "【AWS】DevOps Agentを利用する際に押さえておきたいTips",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。【AWS解説 基本編 #1】AWSとは？クラウドとオンプレミスの違いを整理 基本編 #1（全 6 回予定） AWSを学び始めると、EC2、S3、Lambdaなど、さまざまなサービス名が出てきます。…",
+      "summary": "クラウドの新着が9件。はじめに Amazon Aurora DSQL（アイコンは Aurora と一緒） 先日 AWS Blocks の検証をしていた際、バックエンドの DB ...",
       "articles": [
+        {
+          "title": "【Aurora DSQL】DynamoDB でも Aurora でもない「第3の選択肢」を理解する",
+          "link": "https://qiita.com/jus1730/items/bbdc3c10908d9b89febd",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-19T13:32:46",
+          "excerpt": "はじめに Amazon Aurora DSQL（アイコンは Aurora と一緒） 先日 AWS Blocks の検証をしていた際、バックエンドの DB ..."
+        },
         {
           "title": "【AWS解説 基本編 #1】AWSとは？クラウドとオンプレミスの違いを整理",
           "link": "https://qiita.com/suzunari900261/items/7a356613370e0b16613d",
@@ -64,21 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-19T07:42:35",
           "excerpt": "Amazon Redshift Serverless のスナップショット復元時に、zero-ETL 統合と S3 イベント統合が自動的に保持されるようになったこのアップデートを、実際に S3 Auto-copy で検証してみました。"
-        },
-        {
-          "title": "Aurora の クラスター復元時、AssociatedRoles指定でIAMロールを紐付けてみた",
-          "link": "https://dev.classmethod.jp/articles/aurora-restore-from-s3-associated-roles/",
-          "source": "DevelopersIO",
-          "published": "2026-07-19T06:56:15",
-          "excerpt": "AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…",
+      "summary": "セキュリティの新着が6件。前の記事ではCloudFrontの配信コンテンツやAPI Gatewayに対して、Cognitoの認証やCloudFrontのアクセス制限を実装しました。…",
       "articles": [
+        {
+          "title": "【コツコツAWS】Amazon Cognito - 実装した認可フローやアクセス制限の挙動確認 -",
+          "link": "https://qiita.com/guupys/items/1246e807f7d99d516958",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-19T13:05:49",
+          "excerpt": "前の記事ではCloudFrontの配信コンテンツやAPI Gatewayに対して、Cognitoの認証やCloudFrontのアクセス制限を実装しました。…"
+        },
         {
           "title": "Aurora の クラスター復元時、AssociatedRoles指定でIAMロールを紐付けてみた",
           "link": "https://dev.classmethod.jp/articles/aurora-restore-from-s3-associated-roles/",
@@ -99,21 +106,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-19T03:17:16",
           "excerpt": "はじめに AWS の請求を確認したところ、身に覚えのない Key Management Service の課金が毎日 $0.03 ずつ、約2週間分積まれていました。…"
-        },
-        {
-          "title": "[Amazon Bedrock] AgentCore Browser で Cognito + TOTP 認証つきの自作アプリを Claude に自律操作させてみました",
-          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-browser-cognito-totp-app-automation/",
-          "source": "DevelopersIO",
-          "published": "2026-07-18T22:30:17",
-          "excerpt": "Amazon Bedrock AgentCore Browser で、Cognito の TOTP 認証を突破して自作アプリを自動操作するデモを実装してみました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が1件。Amazon Redshift Serverless のスナップショット復元時に、zero-ETL 統合と S3 イベント統合が自動的に保持されるようになったこのアップデートを、実際に S3 Auto-copy で検証してみました。",
+      "summary": "データ分析の新着が2件。はじめに Amazon Aurora DSQL（アイコンは Aurora と一緒） 先日 AWS Blocks の検証をしていた際、バックエンドの DB ...",
       "articles": [
+        {
+          "title": "【Aurora DSQL】DynamoDB でも Aurora でもない「第3の選択肢」を理解する",
+          "link": "https://qiita.com/jus1730/items/bbdc3c10908d9b89febd",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-19T13:32:46",
+          "excerpt": "はじめに Amazon Aurora DSQL（アイコンは Aurora と一緒） 先日 AWS Blocks の検証をしていた際、バックエンドの DB ..."
+        },
         {
           "title": "[アップデート] Amazon Redshift Serverless のスナップショット復元で zero-ETL 統合と S3 イベント統合が自動維持されるようになったので試してみた",
           "link": "https://dev.classmethod.jp/articles/amazon-redshift-serverless-zeroetl-autocopy-restore/",
@@ -126,7 +133,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。はじめに Terraformでは、インフラの現在の状態を管理するためにstateファイルを使用します。…",
+      "summary": "開発ツールの新着が10件。はじめに Terraformでは、インフラの現在の状態を管理するためにstateファイルを使用します。…",
       "articles": [
         {
           "title": "Terraformのstateファイルをヒューマンエラーから守る2つの方法",
@@ -161,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "蚊の生息範囲が拡大するにつれ、より適切なモニタリングが病気を防ぐ鍵となります",
-      "link": "https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-19T11:19:31",
-      "excerpt": "監視には費用と労力がかかります。しかし、それは公衆衛生当局が感染拡大を阻止するのに役立ちます。"
+      "title": "NVIDIAの自動運転強化学習基盤「AlpaGym」を触ってみた",
+      "link": "https://dev.classmethod.jp/articles/nvidia-alpagym-on-aws/",
+      "source": "DevelopersIO",
+      "published": "2026-07-19T14:02:54",
+      "excerpt": "自動運転の強化学習基盤AlpaGymをAWS L40S 2枚で動かし、環境構築からRLサイクルの実行、10ステップの学習までを体験してみました。スモークテストで約10分のRLループが回り、報酬の推移から「衝突すると-9台、無衝突で0.…"
     },
     {
-      "title": "自宅サーバーの死と再生",
-      "link": "https://sgt.hootr.club/blog/home-server-rebirth/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-19T10:44:31",
-      "excerpt": "記事の URL: https://sgt.hootr.club/blog/home-server-rebirth/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "非営利団体の Current AI は、誰でも無料で利用できる AI のワールド ワイド ウェブの構築を目指して競い合っています。",
+      "link": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-19T14:00:00",
+      "excerpt": "現在の AI は、どの文化も取り残さない非営利の構築 AI であり、デバイスや AI チャットなどの分野で目覚ましい進歩を遂げています。"
     },
     {
-      "title": "クウェン 3.8 マックス",
-      "link": "https://qwen.ai/home",
+      "title": "DRIVE – AI を活用したエンジニアリングのためのオペレーショナル エクセレンス",
+      "link": "https://www.cortex.io/drive",
       "source": "Hacker News（英語）",
-      "published": "2026-07-19T10:41:42",
-      "excerpt": "記事の URL: https://qwen.ai/home コメント URL: https://news.ycombinator.com/item?id=48966754 ポイント: 4 コメント数: 0"
+      "published": "2026-07-19T13:30:01",
+      "excerpt": "記事の URL: https://www.cortex.io/drive コメント URL: https://news.ycombinator.com/item?id=48968067 ポイント: 7 コメント数: 1"
     },
     {
-      "title": "2,500 台の MIDI レコーダーを販売して学んだこと: ハードウェアはそれほど難しくない",
-      "link": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
+      "title": "英国レイリー・ガーデンでバナナが15年ぶりに芽吹く",
+      "link": "https://www.bbc.com/news/articles/cvg8edqq5g5o",
       "source": "Hacker News（英語）",
-      "published": "2026-07-19T10:34:58",
-      "excerpt": "記事の URL: https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard コメント URL: https://news.ycombinator.…"
+      "published": "2026-07-19T13:29:29",
+      "excerpt": "記事の URL: https://www.bbc.com/news/articles/cvg8edqq5g5o コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
