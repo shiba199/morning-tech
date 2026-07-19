@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-19T10:49:44",
+  "generated_at": "2026-07-19T11:48:04",
   "window_hours": 24,
-  "total": 114,
+  "total": 116,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。SageMaker JumpStartでQwen3の埋め込み・再ランキングモデルが利用可能に",
+      "summary": "生成AIの新着が18件。はじめに AWS環境で障害が発生した場合、担当者はCloudWatch Logs、メトリクス、トレース、サービスの設定、デプロイ履歴など、複数の情報を行き来しながら原因を調査します。…",
       "articles": [
+        {
+          "title": "【AWS】DevOps Agentを利用する際に押さえておきたいTips",
+          "link": "https://zenn.dev/heiyo/articles/389cda4db0d2b2",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-19T11:12:38",
+          "excerpt": "はじめに AWS環境で障害が発生した場合、担当者はCloudWatch Logs、メトリクス、トレース、サービスの設定、デプロイ履歴など、複数の情報を行き来しながら原因を調査します。…"
+        },
         {
           "title": "SageMaker JumpStartでQwen3の埋め込み・再ランキングモデルが利用可能に",
           "link": "https://codezine.jp/article/detail/29028",
@@ -29,20 +36,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-19T01:04:33",
           "excerpt": "問題: LLMが推測でコードを修正するTypeScriptのプロジェクトでLLMにコード修正を依頼すると、LLMは型情報を推測して回答することがあります。…"
-        },
-        {
-          "title": "OpenAIがGPT-Redを公開、自動化された高精度な安全性強化モデル",
-          "link": "https://codezine.jp/article/detail/29025",
-          "source": "CodeZine",
-          "published": "2026-07-19T00:00:00",
-          "excerpt": "OpenAIがGPT-Redを公開、自動化された高精度な安全性強化モデル"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。【AWS解説 基本編 #1】AWSとは？クラウドとオンプレミスの違いを整理 基本編 #1（全 6 回予定） AWSを学び始めると、EC2、S3、Lambdaなど、さまざまなサービス名が出てきます。…",
+      "summary": "クラウドの新着が9件。【AWS解説 基本編 #1】AWSとは？クラウドとオンプレミスの違いを整理 基本編 #1（全 6 回予定） AWSを学び始めると、EC2、S3、Lambdaなど、さまざまなサービス名が出てきます。…",
       "articles": [
         {
           "title": "【AWS解説 基本編 #1】AWSとは？クラウドとオンプレミスの違いを整理",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…",
+      "summary": "セキュリティの新着が6件。AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…",
       "articles": [
         {
           "title": "Aurora の クラスター復元時、AssociatedRoles指定でIAMロールを紐付けてみた",
@@ -85,6 +85,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-19T06:56:15",
           "excerpt": "AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…"
+        },
+        {
+          "title": "セキュリティの勉強になるサイト138選(2026年版) - Qiita",
+          "link": "https://qiita.com/Nakanishi_RareTECH/items/16fd0b847aa68c152e00",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-07-19T05:44:51",
+          "excerpt": "セキュリティを独学するときに役立つサイトを、Webアプリ・クラウド・CTF・マルウェア解析・資格まで分野ごとにまとめました。ほとんどが無料で、ブラウザだけ、あるいはDockerで自分のマシンに立てればすぐ試せます。全部で138本。…"
         },
         {
           "title": "CDK bootstrapが作ったKMSキーに月1ドル課金され続けていた — 気づき方・後始末・予防",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-18T22:30:17",
           "excerpt": "Amazon Bedrock AgentCore Browser で、Cognito の TOTP 認証を突破して自作アプリを自動操作するデモを実装してみました。…"
-        },
-        {
-          "title": "AWS WAF KnownBadInputs v1.26 の REMOVE_NULLS で NULL バイト挿入による検出回避を防げるか確認してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-waf-known-bad-inputs-v126-remove-nulls/",
-          "source": "DevelopersIO",
-          "published": "2026-07-18T16:29:54",
-          "excerpt": "AWS WAF マネージドルール AWSManagedRulesKnownBadInputsRuleSet の v1.26 で ReactJSRCE_BODY に REMOVE_NULLS テキスト変換が追加されました。…"
         }
       ]
     },
@@ -126,8 +126,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。音声AIサービスをTerraformで本番化した直後、「一旦手動でdestroyしてみたい」と素の terraform destroy を撃った。…",
+      "summary": "開発ツールの新着が13件。はじめに Terraformでは、インフラの現在の状態を管理するためにstateファイルを使用します。…",
       "articles": [
+        {
+          "title": "Terraformのstateファイルをヒューマンエラーから守る2つの方法",
+          "link": "https://zenn.dev/kingdom0927/articles/72777e6e67a721",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-19T11:30:00",
+          "excerpt": "はじめに Terraformでは、インフラの現在の状態を管理するためにstateファイルを使用します。…"
+        },
+        {
+          "title": "AWS Config のセットアップがコンソールで詰まったので CLI で復旧した話",
+          "link": "https://qiita.com/16eK8XHMOQ1247/items/4ff23cf023874126a2d6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-19T11:09:37",
+          "excerpt": "はじめに AWS Config をコンソールからセットアップしようとしたら、エラーが 2 連続で出ました。「まあ何とかなるだろう」と CLI で状態を確認したら、今度は「レコーダーが存在しない」と言われて頭が真っ白に。…"
+        },
         {
           "title": "terraform destroyでCognito User Poolを消した ― 「作り直せるか」で分けるスタック分割",
           "link": "https://zenn.dev/halhalhal1/articles/cognito-userpool-destroy-incident",
@@ -141,52 +155,38 @@
           "source": "CodeZine",
           "published": "2026-07-19T06:00:00",
           "excerpt": "GitHub Enterprise Cloud、Visual Studio Subscription管理のREST APIを強化"
-        },
-        {
-          "title": "gitタグのpushをトリガーにCodePipelineを構築するパターン",
-          "link": "https://qiita.com/ham-nao/items/822778e3ee686753ec63",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-19T03:35:27",
-          "excerpt": "CodePipelineのデプロイトリガーを、ブランチへのpushではなくgitタグのpushにする構成です。…"
-        },
-        {
-          "title": "CDK bootstrapが作ったKMSキーに月1ドル課金され続けていた — 気づき方・後始末・予防",
-          "link": "https://zenn.dev/satoru_o/articles/15526595e95a5f",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-19T03:17:16",
-          "excerpt": "はじめに AWS の請求を確認したところ、身に覚えのない Key Management Service の課金が毎日 $0.03 ずつ、約2週間分積まれていました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "自宅サーバーの死と再生",
+      "link": "https://sgt.hootr.club/blog/home-server-rebirth/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-19T10:44:31",
+      "excerpt": "記事の URL: https://sgt.hootr.club/blog/home-server-rebirth/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "クウェン 3.8 マックス",
+      "link": "https://qwen.ai/home",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-19T10:41:42",
+      "excerpt": "記事の URL: https://qwen.ai/home コメント URL: https://news.ycombinator.com/item?id=48966754 ポイント: 4 コメント数: 0"
+    },
+    {
+      "title": "2,500 台の MIDI レコーダーを販売して学んだこと: ハードウェアはそれほど難しくない",
+      "link": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-19T10:34:58",
+      "excerpt": "記事の URL: https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard コメント URL: https://news.ycombinator.…"
+    },
+    {
       "title": "AWS Config の設定ルールを、Organizations内の複数アカウントに一括配布してみた話",
       "link": "https://qiita.com/16eK8XHMOQ1247/items/e6d66b6aa3cdc9235994",
       "source": "Qiita AWSタグ",
       "published": "2026-07-19T10:31:21",
       "excerpt": "はじめに 個人の学習用に AWS アカウントを 2 つ持っています。「S3 バケットを誤って公開していないか」「バージョニングを忘れていないか」といったチェックを AWS Config でやろうとしたとき、ふと気づきました。…"
-    },
-    {
-      "title": "クロードコードは現在 Rust で書かれた Bun を使用しています",
-      "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-19T10:03:23",
-      "excerpt": "記事の URL: https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "【IT業界25年目】元採用担当者ADHDポンコツエンジニアによる求職者の採用率が爆上がるネタ「あなたのヴェテラン」について",
-      "link": "https://zenn.dev/veteran/articles/756783b079ac64",
-      "source": "Zenn AWSトピック",
-      "published": "2026-07-19T09:37:11",
-      "excerpt": "３連休も大炎上デスマーチで残業して今帰ってきたポンコツエンジニアのGONです！…"
-    },
-    {
-      "title": "Qwen 3.8 Max プレビュー",
-      "link": "https://www.qwencloud.com/pricing/token-plan",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-19T08:57:31",
-      "excerpt": "記事の URL: https://www.qwencloud.com/pricing/token-plan コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
