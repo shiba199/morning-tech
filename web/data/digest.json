@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-19T04:42:18",
+  "generated_at": "2026-07-19T07:21:51",
   "window_hours": 24,
-  "total": 113,
+  "total": 111,
   "topic_count": 4,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。記事の URL: https://calculus.academa.ai/ コメント URL: https://news.ycombinator.com/item?id=48964585 ポイント: 18 コメント数: 9",
+      "summary": "生成AIの新着が20件。記事の URL: https://calculus.academa.ai/ コメント URL: https://news.ycombinator.com/item?id=48964585 ポイント: 18 コメント数: 9",
       "articles": [
         {
           "title": "LLM 統合多変数微積分コース",
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。Amazon EC2のR8iシリーズが東京などで提供開始",
+      "summary": "クラウドの新着が12件。AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…",
       "articles": [
+        {
+          "title": "Aurora の クラスター復元時、AssociatedRoles指定でIAMロールを紐付けてみた",
+          "link": "https://dev.classmethod.jp/articles/aurora-restore-from-s3-associated-roles/",
+          "source": "DevelopersIO",
+          "published": "2026-07-19T06:56:15",
+          "excerpt": "AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…"
+        },
+        {
+          "title": "Next.js 静的サイトを CloudFront に載せたら、トップ以外が全部 404 になった話",
+          "link": "https://qiita.com/vincentmango_wen/items/1f1b9c21cb6967038d75",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-19T06:07:52",
+          "excerpt": "SES でインフラの運用をしながら、個人開発で AWS の学習サイトをサーバーレス構成で公開している。構成は S3 + CloudFront + Lambda + API Gateway + DynamoDB の一式だ。…"
+        },
         {
           "title": "Amazon EC2のR8iシリーズが東京などで提供開始",
           "link": "https://codezine.jp/article/detail/29026",
@@ -57,28 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-19T00:13:44",
           "excerpt": "Amazon Quick Flow で予測データを S3 に自動保存したいというニーズから、OpenAPI カスタムコネクタを使った実装方法を試してみました。標準機能の制限を突破するアプローチを紹介します。"
-        },
-        {
-          "title": "LLM×IaCで、インフラ「書く・読む・出す」の三位一体の改革",
-          "link": "https://zenn.dev/pinddy/articles/925ca1c1959240",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-18T16:13:54",
-          "excerpt": "「LLMとIaCは相性がいい」の中身は、3つあります。書く — コードは、書いてもらうもの 読む — 構成は、聞けば答えてもらえるもの 出す — 設計書は、コードから出力するもの 理屈の説明は最後に回します。まず実物を見てください。…"
-        },
-        {
-          "title": "cdk-nag v3 の変更点と v2 からの移行を試してみた(抑制 API は廃止ではなく置き換え)",
-          "link": "https://qiita.com/leomarokun/items/60e869d3ec5a8a25286a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-18T12:07:43",
-          "excerpt": "はじめに CDK アプリをセキュリティベストプラクティスに沿ってチェックしてくれる cdk-nag のメジャーバージョン v3 がリリースされました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。Amazon Bedrock AgentCore Browser で、Cognito の TOTP 認証を突破して自作アプリを自動操作するデモを実装してみました。…",
+      "summary": "セキュリティの新着が7件。AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…",
       "articles": [
+        {
+          "title": "Aurora の クラスター復元時、AssociatedRoles指定でIAMロールを紐付けてみた",
+          "link": "https://dev.classmethod.jp/articles/aurora-restore-from-s3-associated-roles/",
+          "source": "DevelopersIO",
+          "published": "2026-07-19T06:56:15",
+          "excerpt": "AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…"
+        },
         {
           "title": "[Amazon Bedrock] AgentCore Browser で Cognito + TOTP 認証つきの自作アプリを Claude に自律操作させてみました",
           "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-browser-cognito-totp-app-automation/",
@@ -99,21 +106,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-18T12:56:27",
           "excerpt": "2026年7月17日、認証不要でリモートからの任意コード実行（RCE）につながる脆弱性「CVE-2026-63030」「CVE-2026-60137」を修正したWordPress 6.8.6、6.9.5、および 7.0.…"
-        },
-        {
-          "title": "AWS WAF Anti-DDoSマネージドルールをCloudFrontで1年間運用した結果を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-waf-anti-ddos-managed-rule-1year-review/",
-          "source": "DevelopersIO",
-          "published": "2026-07-18T10:36:37",
-          "excerpt": "AWS WAF の Anti-DDoS マネージドルール（AWSManagedRulesAntiDDoSRuleSet）を CloudFront 環境で13か月間 Count モード運用しました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。CodePipelineのデプロイトリガーを、ブランチへのpushではなくgitタグのpushにする構成です。…",
+      "summary": "開発ツールの新着が12件。GitHub Enterprise Cloud、Visual Studio Subscription管理のREST APIを強化",
       "articles": [
+        {
+          "title": "GitHub Enterprise Cloud、Visual Studio Subscription管理のREST APIを強化",
+          "link": "https://codezine.jp/article/detail/29027",
+          "source": "CodeZine",
+          "published": "2026-07-19T06:00:00",
+          "excerpt": "GitHub Enterprise Cloud、Visual Studio Subscription管理のREST APIを強化"
+        },
         {
           "title": "gitタグのpushをトリガーにCodePipelineを構築するパターン",
           "link": "https://qiita.com/ham-nao/items/822778e3ee686753ec63",
@@ -134,45 +141,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-19T00:08:47",
           "excerpt": "aws-content-relay-hub — Architecture Deep Dive: Auto-Publishing from GitHub to Qiita, Zenn, and Mirror Repos 日本語版はこちら →…"
-        },
-        {
-          "title": "GitHub ActionsからAWSへのデプロイ権限をAdministratorAccess相当から最小権限にしてみた",
-          "link": "https://qiita.com/squirrel-cage/items/95a17161d371d16a83d4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-18T16:20:48",
-          "excerpt": "TL;DR 個人で運用している複数のリポジトリが1つのAWSアカウントを共有しており、それぞれのGitHub ActionsからAWSへOIDC(OpenID Connect、外部のIDプロバイダをAWS側が信頼して一時的な認証情報を発行す…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "straceでSSHコマンドの内部を覗いてみた",
-      "link": "https://dev.classmethod.jp/articles/ssh-strace-syscall-peek/",
-      "source": "DevelopersIO",
-      "published": "2026-07-19T04:09:00",
-      "excerpt": "straceを使ってSSHコマンドがLinuxカーネルにどんなシステムコールを発行しているか、実際のログを追いながら解説します。…"
-    },
-    {
-      "title": "AWS organization を利用して新しいAWS環境をゼロから作成する",
-      "link": "https://qiita.com/saurus12/items/3ba3efef8d0dc94a178f",
+      "title": "Public SubnetとPrivate Subnet、個人開発ではどちらを選ぶ？NAT Gateway料金も含めて考えた【ヒトリ開発】#4",
+      "link": "https://qiita.com/Asano-S/items/81bc822e1306cdba26aa",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-19T03:32:18",
-      "excerpt": "AWSで新しい環境を作りたいけれど、「メールアドレスの新規作成やクレジットカードの登録が面倒だな……」と思ったことはありませんか？今回は、AWS Organizationsを活用して、完全新規のAWS環境をゼロから作成する手順を解説します。…"
+      "published": "2026-07-19T07:15:40",
+      "excerpt": "## はじめに 個人開発アプリをAWSに公開するためのTerraform Packを作っている中で、今回は Public SubnetとPrivate Subnetの使い分けについて書きます。…"
     },
     {
-      "title": "FDA、新種のコレステロール錠剤を承認",
-      "link": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-19T02:40:22",
-      "excerpt": "記事の URL: https://www.fda.…"
+      "title": "Perforce の排他ロックの挙動を細かく検証してみた",
+      "link": "https://dev.classmethod.jp/articles/perforce-exclusive-lock-behavior/",
+      "source": "DevelopersIO",
+      "published": "2026-07-19T06:52:10",
+      "excerpt": "Perforce の排他ロック (binary+l) について、デッドロックの発生・管理者による解除・非排他 (binary+w) との違い・typemap による自動付与といった実際の運用で押さえておきたい仕様を確かめました。"
     },
     {
-      "title": "WebRTCを使用したブラウザベースのP2Pファイル転送ツールを構築しました",
-      "link": "https://airdows.com/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-19T02:17:03",
-      "excerpt": "記事の URL: https://airdows.com/ コメント URL: https://news.ycombinator.com/item?id=48964424 ポイント: 4 コメント数: 1"
+      "title": "AWS AppSync で GraphQL API を使ってみた",
+      "link": "https://dev.classmethod.jp/articles/shoma-try-graphql-api-with-aws-appsync/",
+      "source": "DevelopersIO",
+      "published": "2026-07-19T06:21:29",
+      "excerpt": "AWS AppSync と DynamoDB を使って GraphQL API を構築する方法を、実装例を交えながら紹介します。"
+    },
+    {
+      "title": "AWSのマネージドAIサービスを、AIF-C01の学習ついでに実務目線で棚卸しした",
+      "link": "https://qiita.com/vincentmango_wen/items/9e1cd84cbd6d0b88d40a",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-19T06:03:36",
+      "excerpt": "AWS 認定 AI プラクティショナー（AIF-C01）の学習で、Bedrock・SageMaker・Comprehend・Rekognition といったマネージド AI サービスを体系的に覚えることになった。…"
     }
   ]
 }
