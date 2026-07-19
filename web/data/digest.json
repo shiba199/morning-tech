@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-19T22:40:02",
+  "generated_at": "2026-07-19T23:45:12",
   "window_hours": 24,
-  "total": 113,
+  "total": 116,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。はじめに 日本時間2026年7月16日 16:45頃〜21:20頃、Amazon CloudFrontで障害が発生し、日本国内ではPayPay・note・ニコニコ生放送などが影響を受けました。…",
+      "summary": "クラウドの新着が11件。はじめに 学習用に作った AWS 環境を terraform destroy でまとめて片付けようとしたら、RDS の削除でこのエラーが出て止まりました。…",
       "articles": [
+        {
+          "title": "【RDS】terraform destroy が DBSnapshotAlreadyExists で止まった話",
+          "link": "https://qiita.com/80-cloud/items/fca9dd557827c706e78f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-19T23:40:11",
+          "excerpt": "はじめに 学習用に作った AWS 環境を terraform destroy でまとめて片付けようとしたら、RDS の削除でこのエラーが出て止まりました。…"
+        },
         {
           "title": "【AWS障害】2026年7月16日のCloudFront VPC Origins障害まとめ",
           "link": "https://qiita.com/eureka_/items/6bb207fa1da4add1f61b",
@@ -64,13 +71,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-19T12:43:22",
           "excerpt": "!この記事は taka-techblog にも掲載しています。「止まらないサービスを作りたい」という意識はWebに携わるエンジニアに共通するものだ。…"
-        },
-        {
-          "title": "【AWS解説 基本編 #1】AWSとは？クラウドとオンプレミスの違いを整理",
-          "link": "https://qiita.com/suzunari900261/items/7a356613370e0b16613d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-19T08:53:12",
-          "excerpt": "【AWS解説 基本編 #1】AWSとは？クラウドとオンプレミスの違いを整理 基本編 #1（全 6 回予定） AWSを学び始めると、EC2、S3、Lambdaなど、さまざまなサービス名が出てきます。…"
         }
       ]
     },
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。はじめに 2026/7/18（土）に開催された「AWS CDK Conference Japan 2026」のセッション資料一覧になります。資料へのリンクが不足しているところは随時更新します！メイントラック 時間 タイトル 登壇者 ...…",
+      "summary": "開発ツールの新着が13件。はじめに 学習用に作った AWS 環境を terraform destroy でまとめて片付けようとしたら、RDS の削除でこのエラーが出て止まりました。…",
       "articles": [
+        {
+          "title": "【RDS】terraform destroy が DBSnapshotAlreadyExists で止まった話",
+          "link": "https://qiita.com/80-cloud/items/fca9dd557827c706e78f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-19T23:40:11",
+          "excerpt": "はじめに 学習用に作った AWS 環境を terraform destroy でまとめて片付けようとしたら、RDS の削除でこのエラーが出て止まりました。…"
+        },
+        {
+          "title": "[アップデート] GenU (Generative AI Use Cases) v5.5.0 がリリースされたのでデプロイして新機能を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/genu-5-5-0/",
+          "source": "DevelopersIO",
+          "published": "2026-07-19T22:35:38",
+          "excerpt": "AWS の GenU v5.5.0 がリリースされました。新モデル対応やリサーチエージェント、ECharts によるグラフ描画、SVG プレビューなど多くの新機能が追加されているので、実際にデプロイして確認した結果を紹介します。"
+        },
         {
           "title": "【セッション資料まとめ】2026/7/18 AWS CDK Conference Japan 2026",
           "link": "https://qiita.com/issy929/items/f8c5abf9f2e327bec8da",
@@ -162,52 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-19T15:16:55",
           "excerpt": "GitHub Copilot にパブリックプレビュー追加されたクラウドサンドボックスを触ってみました。…"
-        },
-        {
-          "title": "【AWS CDK】Expressモードでリソースデプロイが最大4倍速くなるらしいので試してみた(WIP)",
-          "link": "https://qiita.com/yosuke-suzuki/items/e6c26b70749abb48df09",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-19T14:58:41",
-          "excerpt": "はじめに 2026年6月30日のアップデートで、CloudFormation/CDK/SAMにExpressモードが追加されました。…"
-        },
-        {
-          "title": "Terraformのstateファイルをヒューマンエラーから守る2つの方法",
-          "link": "https://zenn.dev/kingdom0927/articles/72777e6e67a721",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-19T11:30:00",
-          "excerpt": "はじめに Terraformでは、インフラの現在の状態を管理するためにstateファイルを使用します。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "【AWS解説 基本編 #2】AWSは「サービス」を組み合わせて使う",
+      "link": "https://qiita.com/suzunari900261/items/72b459c137b89badca26",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-19T23:35:19",
+      "excerpt": "【AWS解説 基本編 #2】AWSは「サービス」を組み合わせて使う 基本編 #2（全 6 回予定） 前回の記事では、AWSがクラウドサービスであることと、オンプレミスとの違いを整理しました。前回の記事はこちらです。…"
+    },
+    {
+      "title": "「仕事を辞めるとボケる」は本当なのか？　ベトナム高齢者2000人超を早大などが分析",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/17/news082.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-19T23:00:00",
+      "excerpt": "早稲田大学とベトナムの国民経済大学に所属する研究者らが2025年に発表した論文「Does Retirement Improve Cognitive Functioning？…"
+    },
+    {
+      "title": "インド初の民間開発ロケット、劇的なデビュー打ち上げで軌道に到達",
+      "link": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-19T22:11:21",
+      "excerpt": "「軌道に到達する最初の試みでは、それが可能だとは思いもしませんでした。」"
+    },
+    {
       "title": "ジュラシック・パークには、400 万ドル相当の 1993 年の正規コンピューター ハードウェアが詰め込まれていました",
       "link": "https://www.tomshardware.com/desktops/jurassic-park-packed-usd4-million-of-legit-1993-computer-hardware-a-software-engineer-detailed-every-single-piece-of-hardware-in-the-film",
       "source": "Hacker News（英語）",
       "published": "2026-07-19T22:07:07",
       "excerpt": "記事の URL: https://www.tomshardware.…"
-    },
-    {
-      "title": "私たちはテキサス人に自分たちの権利を知ってもらいたい",
-      "link": "https://www.eff.org/deeplinks/2026/07/we-want-texans-know-their-rights-qa-mayday-health-impact-surveillance-abortion",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-19T22:03:11",
-      "excerpt": "記事の URL: https://www.eff.…"
-    },
-    {
-      "title": "ITエンジニア注目トレンドを総まとめ！週間ニュースランキングTOP10【7/10～7/16】",
-      "link": "https://codezine.jp/article/detail/29013",
-      "source": "CodeZine",
-      "published": "2026-07-19T22:00:00",
-      "excerpt": "毎日更新されるITエンジニア向け関連の最新ニュースから、注目を集めたトピックスを紹介する本ランキング。今回は2026年7月10日～7月16日までの人気ランキングを発表します。"
-    },
-    {
-      "title": "サウナ週4回で認知症リスク66%減？　中年男性2000人以上を20年追跡したフィンランドの研究",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/19/news004.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-19T22:00:00",
-      "excerpt": "東フィンランド大学などに所属する研究者らが2016年に発表した論文「Sauna bathing is inversely associated with dementia and Alzheimer’s disease in middle-…"
     }
   ]
 }
