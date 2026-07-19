@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-19T09:23:59",
+  "generated_at": "2026-07-19T10:49:44",
   "window_hours": 24,
-  "total": 108,
+  "total": 114,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が21件。SageMaker JumpStartでQwen3の埋め込み・再ランキングモデルが利用可能に",
+      "summary": "生成AIの新着が18件。SageMaker JumpStartでQwen3の埋め込み・再ランキングモデルが利用可能に",
       "articles": [
         {
           "title": "SageMaker JumpStartでQwen3の埋め込み・再ランキングモデルが利用可能に",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。【AWS解説 基本編 #1】AWSとは？クラウドとオンプレミスの違いを整理 基本編 #1（全 6 回予定） AWSを学び始めると、EC2、S3、Lambdaなど、さまざまなサービス名が出てきます。…",
+      "summary": "クラウドの新着が10件。【AWS解説 基本編 #1】AWSとは？クラウドとオンプレミスの違いを整理 基本編 #1（全 6 回予定） AWSを学び始めると、EC2、S3、Lambdaなど、さまざまなサービス名が出てきます。…",
       "articles": [
         {
           "title": "【AWS解説 基本編 #1】AWSとは？クラウドとオンプレミスの違いを整理",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…",
+      "summary": "セキュリティの新着が5件。AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…",
       "articles": [
         {
           "title": "Aurora の クラスター復元時、AssociatedRoles指定でIAMロールを紐付けてみた",
@@ -85,6 +85,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-19T06:56:15",
           "excerpt": "AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…"
+        },
+        {
+          "title": "CDK bootstrapが作ったKMSキーに月1ドル課金され続けていた — 気づき方・後始末・予防",
+          "link": "https://zenn.dev/satoru_o/articles/15526595e95a5f",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-19T03:17:16",
+          "excerpt": "はじめに AWS の請求を確認したところ、身に覚えのない Key Management Service の課金が毎日 $0.03 ずつ、約2週間分積まれていました。…"
         },
         {
           "title": "[Amazon Bedrock] AgentCore Browser で Cognito + TOTP 認証つきの自作アプリを Claude に自律操作させてみました",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-18T16:29:54",
           "excerpt": "AWS WAF マネージドルール AWSManagedRulesKnownBadInputsRuleSet の v1.26 で ReactJSRCE_BODY に REMOVE_NULLS テキスト変換が追加されました。…"
-        },
-        {
-          "title": "WordPressの深刻度「緊急」脆弱性 wp2shell の概要と対応指針 | GMO Flatt Security Blog",
-          "link": "https://blog.flatt.tech/entry/wp2shell_wordpress",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-18T12:56:27",
-          "excerpt": "2026年7月17日、認証不要でリモートからの任意コード実行（RCE）につながる脆弱性「CVE-2026-63030」「CVE-2026-60137」を修正したWordPress 6.8.6、6.9.5、および 7.0.…"
         }
       ]
     },
@@ -126,8 +126,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。GitHub Enterprise Cloud、Visual Studio Subscription管理のREST APIを強化",
+      "summary": "開発ツールの新着が11件。音声AIサービスをTerraformで本番化した直後、「一旦手動でdestroyしてみたい」と素の terraform destroy を撃った。…",
       "articles": [
+        {
+          "title": "terraform destroyでCognito User Poolを消した ― 「作り直せるか」で分けるスタック分割",
+          "link": "https://zenn.dev/halhalhal1/articles/cognito-userpool-destroy-incident",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-19T07:42:09",
+          "excerpt": "音声AIサービスをTerraformで本番化した直後、「一旦手動でdestroyしてみたい」と素の terraform destroy を撃った。…"
+        },
         {
           "title": "GitHub Enterprise Cloud、Visual Studio Subscription管理のREST APIを強化",
           "link": "https://codezine.jp/article/detail/29027",
@@ -143,50 +150,43 @@
           "excerpt": "CodePipelineのデプロイトリガーを、ブランチへのpushではなくgitタグのpushにする構成です。…"
         },
         {
-          "title": "Cloudflare Dropで名刺代わりのホームページをデプロイする",
-          "link": "https://dev.classmethod.jp/articles/deploy-static-site-with-cloudflare-drop/",
-          "source": "DevelopersIO",
-          "published": "2026-07-19T01:54:44",
-          "excerpt": "Cloudflareの新機能「Cloudflare Drop」を使って、アカウント登録なしで静的サイトをデプロイから独自ドメイン設定まで一通り試してみました。手軽さと速さに驚きです！"
-        },
-        {
-          "title": "aws-content-relay-hub: GitHub から Qiita および Zenn への自動公開",
-          "link": "https://qiita.com/riadraz/items/27647395e4fe1e9c96c3",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-19T00:08:47",
-          "excerpt": "aws-content-relay-hub — Architecture Deep Dive: Auto-Publishing from GitHub to Qiita, Zenn, and Mirror Repos 日本語版はこちら →…"
+          "title": "CDK bootstrapが作ったKMSキーに月1ドル課金され続けていた — 気づき方・後始末・予防",
+          "link": "https://zenn.dev/satoru_o/articles/15526595e95a5f",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-19T03:17:16",
+          "excerpt": "はじめに AWS の請求を確認したところ、身に覚えのない Key Management Service の課金が毎日 $0.03 ずつ、約2週間分積まれていました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "自己紹介 ｜ テクニカルサポートからクラウドエンジニアを目指して、Qiitaを始めます",
-      "link": "https://qiita.com/furuya_tech/items/432d5b838c7741b63941",
+      "title": "AWS Config の設定ルールを、Organizations内の複数アカウントに一括配布してみた話",
+      "link": "https://qiita.com/16eK8XHMOQ1247/items/e6d66b6aa3cdc9235994",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-19T08:26:05",
-      "excerpt": "はじめに はじめまして、フルヤと申します。これまでNoteで自分の考えなどを発信してきましたが、技術的な学習や検証の記録も残していきたいと考え、Qiitaでの発信を始めることにしました。…"
+      "published": "2026-07-19T10:31:21",
+      "excerpt": "はじめに 個人の学習用に AWS アカウントを 2 つ持っています。「S3 バケットを誤って公開していないか」「バージョニングを忘れていないか」といったチェックを AWS Config でやろうとしたとき、ふと気づきました。…"
     },
     {
-      "title": "Perforce はトレーニング トレーニング ビデオに 500 ドルを請求します。しかも AI によるナレーション付きです",
-      "link": "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic",
+      "title": "クロードコードは現在 Rust で書かれた Bun を使用しています",
+      "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-19T08:00:24",
-      "excerpt": "記事の URL: https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic コメント URL: https://news.ycombinator.…"
+      "published": "2026-07-19T10:03:23",
+      "excerpt": "記事の URL: https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Public SubnetとPrivate Subnet、個人開発ではどちらを選ぶ？NAT Gateway料金も含めて考えた【ヒトリ開発】#4",
-      "link": "https://qiita.com/Asano-S/items/81bc822e1306cdba26aa",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-19T07:15:40",
-      "excerpt": "## はじめに 個人開発アプリをAWSに公開するためのTerraform Packを作っている中で、今回は Public SubnetとPrivate Subnetの使い分けについて書きます。…"
+      "title": "【IT業界25年目】元採用担当者ADHDポンコツエンジニアによる求職者の採用率が爆上がるネタ「あなたのヴェテラン」について",
+      "link": "https://zenn.dev/veteran/articles/756783b079ac64",
+      "source": "Zenn AWSトピック",
+      "published": "2026-07-19T09:37:11",
+      "excerpt": "３連休も大炎上デスマーチで残業して今帰ってきたポンコツエンジニアのGONです！…"
     },
     {
-      "title": "Perforce の排他ロックの挙動を細かく検証してみた",
-      "link": "https://dev.classmethod.jp/articles/perforce-exclusive-lock-behavior/",
-      "source": "DevelopersIO",
-      "published": "2026-07-19T06:52:10",
-      "excerpt": "Perforce の排他ロック (binary+l) について、デッドロックの発生・管理者による解除・非排他 (binary+w) との違い・typemap による自動付与といった実際の運用で押さえておきたい仕様を確かめました。"
+      "title": "Qwen 3.8 Max プレビュー",
+      "link": "https://www.qwencloud.com/pricing/token-plan",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-19T08:57:31",
+      "excerpt": "記事の URL: https://www.qwencloud.com/pricing/token-plan コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
