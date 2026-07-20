@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-20T05:28:28",
+  "generated_at": "2026-07-20T08:23:38",
   "window_hours": 24,
-  "total": 110,
+  "total": 108,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が10件。Next.js の LLM ストリーミングを、外部プロバイダーへの実通信なしでブラウザ E2E テストしました。テスト用プロバイダーを本番コードへ追加せず、逐次表示、429、途中切断、完了通知の欠落を検証します。",
+      "summary": "生成AIの新着が14件。はじめに 2025 年 12 月、Amazon Bedrock に Mantle という新しい推論エンジンが追加されました。…",
       "articles": [
+        {
+          "title": "【Bedrock】Amazon Bedrock Mantleとは？",
+          "link": "https://qiita.com/ryu-ki/items/17fa3462d4c619e4fea5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-20T08:12:41",
+          "excerpt": "はじめに 2025 年 12 月、Amazon Bedrock に Mantle という新しい推論エンジンが追加されました。…"
+        },
+        {
+          "title": "Flutter から Gemini Nano を動かす - Prompt API で自然文検索をタグに翻訳する",
+          "link": "https://dev.classmethod.jp/articles/flutter-gemini-nano-prompt-api/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T06:46:16",
+          "excerpt": "前回の6機能試行記に続き、Prompt API を深掘りします。自然文検索をタグに変換するデモ実装を通じて、「呼び出し課金ゼロ」と「カスタムプロンプト対応」を活かした、高頻度×軽処理な AI 機能の可能性を具体的に示します。"
+        },
         {
           "title": "Next.js の LLM ストリーミングを外部 API なしで Playwright E2E テストしてみた",
           "link": "https://dev.classmethod.jp/articles/nextjs-llm-streaming-playwright-e2e-without-paid-api/",
@@ -17,32 +31,18 @@
           "excerpt": "Next.js の LLM ストリーミングを、外部プロバイダーへの実通信なしでブラウザ E2E テストしました。テスト用プロバイダーを本番コードへ追加せず、逐次表示、429、途中切断、完了通知の欠落を検証します。"
         },
         {
-          "title": "Gemini Enterprise Agent PlatformのCustom Training試してみた | Fusic 技術ブログのフィード",
-          "link": "https://zenn.dev/fusic/articles/ae40058329f595",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-20T03:06:52",
-          "excerpt": "はじめにFusicのレオナです。今回は、Gemini Enterprise Agent PlatformのCustom Trainingを利用し、scikit-learnでモデルを学習しました。…"
-        },
-        {
-          "title": "Appleの訴訟によりOpenAIのハードウェア計画が狂うことはあるだろうか?",
-          "link": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-19T19:24:45",
-          "excerpt": "Equityの最新エピソードでは、Appleの訴訟がOpenAiのハードウェアへの参入と上場という大いに議論されている計画に影響を与えるかどうかを議論します。"
-        },
-        {
-          "title": "「生成AI禁止です」「誤字チェックとかも」「ダメです」「「「えっ……？」」」第２回ダンガン文庫大賞のルールで大モメ",
-          "link": "https://posfie.com/@lenchroot/p/AVSFamQ",
+          "title": "「自分の分身」をAIで作れ、アンソロピック社員が教えるClaude活用術5選 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+          "link": "https://forbesjapan.com/articles/detail/101067",
           "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-07-19T17:31:48",
-          "excerpt": "https://lp.bookbase.…"
+          "published": "2026-07-20T04:05:10",
+          "excerpt": "デイジー・ホールマンは、Anthropic（アンソロピック）のClaude Codeチームで働いている。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。はじめ Nature Remoアプリを使っている方の中で、こんな悩みを抱えている人はいませんか？「「「今から1時間後にエアコンを弱めたい……！！…",
+      "summary": "クラウドの新着が7件。はじめ Nature Remoアプリを使っている方の中で、こんな悩みを抱えている人はいませんか？「「「今から1時間後にエアコンを弱めたい……！！…",
       "articles": [
         {
           "title": "iOSショートカットアプリ×AWS Lambdaでエアコンのタイマーを作る",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。Amazon Inspector v2の脆弱性スキャンパイプラインを構築する手順をまとめます。",
+      "summary": "セキュリティの新着が3件。Amazon Inspector v2の脆弱性スキャンパイプラインを構築する手順をまとめます。",
       "articles": [
         {
           "title": "Amazon Inspector v2の脆弱性スキャンパイプラインを構築してみた | Techfirm Cloud Architect Blog",
@@ -99,20 +99,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-19T13:05:49",
           "excerpt": "前の記事ではCloudFrontの配信コンテンツやAPI Gatewayに対して、Cognitoの認証やCloudFrontのアクセス制限を実装しました。…"
-        },
-        {
-          "title": "Aurora の クラスター復元時、AssociatedRoles指定でIAMロールを紐付けてみた",
-          "link": "https://dev.classmethod.jp/articles/aurora-restore-from-s3-associated-roles/",
-          "source": "DevelopersIO",
-          "published": "2026-07-19T06:56:15",
-          "excerpt": "AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。BigQueryに追加された新機能「マルチレベル集計」を試してみました。集計関数の引数に別の集計関数を書けるようになり、これまでサブクエリが必要だった「集計した結果をさらに集計する」処理が1つのクエリで表現できるようになります。",
+      "summary": "データ分析の新着が3件。BigQueryに追加された新機能「マルチレベル集計」を試してみました。集計関数の引数に別の集計関数を書けるようになり、これまでサブクエリが必要だった「集計した結果をさらに集計する」処理が1つのクエリで表現できるようになります。",
       "articles": [
         {
           "title": "BigQueryのマルチレベル集計を試してみる",
@@ -134,20 +127,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-19T13:32:46",
           "excerpt": "はじめに Amazon Aurora DSQL（アイコンは Aurora と一緒） 先日 AWS Blocks の検証をしていた際、バックエンドの DB ..."
-        },
-        {
-          "title": "[アップデート] Amazon Redshift Serverless のスナップショット復元で zero-ETL 統合と S3 イベント統合が自動維持されるようになったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-redshift-serverless-zeroetl-autocopy-restore/",
-          "source": "DevelopersIO",
-          "published": "2026-07-19T07:42:35",
-          "excerpt": "Amazon Redshift Serverless のスナップショット復元時に、zero-ETL 統合と S3 イベント統合が自動的に保持されるようになったこのアップデートを、実際に S3 Auto-copy で検証してみました。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。こんにちは！KENTEM TechBlog 編集部です。普段複数人でブログを書いている皆さま、記事の作成やレビューなどの運用はどうしていますか？？…",
+      "summary": "開発ツールの新着が8件。こんにちは！KENTEM TechBlog 編集部です。普段複数人でブログを書いている皆さま、記事の作成やレビューなどの運用はどうしていますか？？…",
       "articles": [
         {
           "title": "Pull Requestでレビューするブログ運用 〜はてなブログ × GitHub〜 | KENTEM TechBlog",
@@ -182,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "投資家が株を投げ捨てる中、大手ハイテク企業はAI支出を正当化する必要がある",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-20T04:41:10",
-      "excerpt": "記事の URL: https://www.bloomberg.…"
-    },
-    {
-      "title": "LoRA Speedrun – テクニックを微調整するための公開壁時計リーダーボード",
-      "link": "https://github.com/Saivineeth147/lora-speedrun",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-20T04:24:48",
-      "excerpt": "記事の URL: https://github.com/Saivineeth147/lora-speedrun コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "電力会社はデータセンター用の土地を強奪するために著名なドメインを利用している",
-      "link": "https://fortune.com/2026/07/19/data-center-eminent-domain-public-use/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-20T04:19:22",
-      "excerpt": "記事の URL: https://fortune.com/2026/07/19/data-center-eminent-domain-public-use/ コメント URL: https://news.ycombinator.…"
-    },
-    {
-      "title": "AWS Summit Japan 2026の事例セッションを個人的にピックアップ",
-      "link": "https://qiita.com/a_b_/items/8aeb4ed7cdd234bae78e",
+      "title": "AWS初心者がSSL証明書の共通鍵、公開鍵、秘密鍵について深堀った話",
+      "link": "https://qiita.com/tks_1128/items/31897213450d6f273f51",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-20T04:17:14",
-      "excerpt": "はじめに 先月、AWS Summit Japan 2026が開催されました。例年同様、セッション動画が公開されています。検索する際は、以下の資料ページに記載のコードを検索キーとして指定すると、楽に見つけられます。…"
+      "published": "2026-07-20T08:22:32",
+      "excerpt": "はじめに こんにちは。Tsukasaです！皆さん、データ暗号化はご存知でしょうか？ITパスポートや基本情報技術者試験を受けたことのある方なら勉強をしたことがあるかもしれません。私も軽く勉強をしたことがありますが、よくわかっていません。…"
+    },
+    {
+      "title": "ムルバドはもう終わりだ",
+      "link": "https://moonwriting.blog/i-m-done-with-mullvad",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-20T07:38:15",
+      "excerpt": "記事の URL: https://moonwriting.blog/i-m-done-with-mullvad コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "ハードウェアコストが高いため、Red Hat はミニ PC を必要としない 2 サーバーのエッジリグを提供",
+      "link": "https://www.theregister.com/systems/2026/07/20/high-hardware-costs-see-red-hat-offer-a-two-server-edge-rig-no-mini-pc-required/5274762",
+      "source": "The Register（英語）",
+      "published": "2026-07-20T07:24:00",
+      "excerpt": "「3 番目のノードの電力供給、保守、展開にかかる法外なコスト」についての懸念"
+    },
+    {
+      "title": "コード内のコメントは「親愛なる未来の私、ごめんなさい、これを書いてしまいました」",
+      "link": "https://www.theregister.com/software/2026/07/20/comment-in-code-read-dear-future-me-sorry-i-wrote-this/5274130",
+      "source": "The Register（英語）",
+      "published": "2026-07-20T06:30:00",
+      "excerpt": "開発者は VB を書くために雇われ、代わりに C# を使用し、ほとんどの場合は機能すると思っていました"
     }
   ]
 }
