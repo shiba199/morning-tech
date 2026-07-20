@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T23:45:12",
+  "generated_at": "2026-07-20T01:51:36",
   "window_hours": 24,
   "total": 116,
   "topic_count": 5,
@@ -7,7 +7,7 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が11件。Equityの最新エピソードでは、Appleの訴訟がOpenAiのハードウェアへの参入と上場という大いに議論されている計画に影響を与えるかどうかを議論します。",
+      "summary": "生成AIの新着が9件。Equityの最新エピソードでは、Appleの訴訟がOpenAiのハードウェアへの参入と上場という大いに議論されている計画に影響を与えるかどうかを議論します。",
       "articles": [
         {
           "title": "Appleの訴訟によりOpenAIのハードウェア計画が狂うことはあるだろうか?",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。はじめに 学習用に作った AWS 環境を terraform destroy でまとめて片付けようとしたら、RDS の削除でこのエラーが出て止まりました。…",
+      "summary": "クラウドの新着が10件。はじめに 学習用に作った AWS 環境を terraform destroy でまとめて片付けようとしたら、RDS の削除でこのエラーが出て止まりました。…",
       "articles": [
         {
           "title": "【RDS】terraform destroy が DBSnapshotAlreadyExists で止まった話",
@@ -77,8 +77,22 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。前の記事ではCloudFrontの配信コンテンツやAPI Gatewayに対して、Cognitoの認証やCloudFrontのアクセス制限を実装しました。…",
+      "summary": "セキュリティの新着が6件。Amazon Inspector v2の脆弱性スキャンパイプラインを構築する手順をまとめます。",
       "articles": [
+        {
+          "title": "Amazon Inspector v2の脆弱性スキャンパイプラインを構築してみた | Techfirm Cloud Architect Blog",
+          "link": "https://techblog.techfirm.co.jp/entry/amazon-inspector-scan-pipeline",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-20T00:00:00",
+          "excerpt": "Amazon Inspector v2の脆弱性スキャンパイプラインを構築する手順をまとめます。"
+        },
+        {
+          "title": "Azure API Management-validate-jwtとEntra IDでAI Gatewayに認証をかける方法 | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/90e601b7a321f6",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-19T23:55:16",
+          "excerpt": "執筆日2026/7/20 やることAzure API Management（以下、APIM）のAI Gatewayについて勉強しています。…"
+        },
         {
           "title": "【コツコツAWS】Amazon Cognito - 実装した認可フローやアクセス制限の挙動確認 -",
           "link": "https://qiita.com/guupys/items/1246e807f7d99d516958",
@@ -92,20 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-19T06:56:15",
           "excerpt": "AWS CLI v2.36.2 で Aurora の restore-db-cluster-from-s3 を含む4つの API に AssociatedRoles パラメータが追加されました。…"
-        },
-        {
-          "title": "セキュリティの勉強になるサイト138選(2026年版) - Qiita",
-          "link": "https://qiita.com/Nakanishi_RareTECH/items/16fd0b847aa68c152e00",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-07-19T05:44:51",
-          "excerpt": "セキュリティを独学するときに役立つサイトを、Webアプリ・クラウド・CTF・マルウェア解析・資格まで分野ごとにまとめました。ほとんどが無料で、ブラウザだけ、あるいはDockerで自分のマシンに立てればすぐ試せます。全部で138本。…"
-        },
-        {
-          "title": "CDK bootstrapが作ったKMSキーに月1ドル課金され続けていた — 気づき方・後始末・予防",
-          "link": "https://zenn.dev/satoru_o/articles/15526595e95a5f",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-19T03:17:16",
-          "excerpt": "はじめに AWS の請求を確認したところ、身に覚えのない Key Management Service の課金が毎日 $0.03 ずつ、約2週間分積まれていました。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。はじめに 学習用に作った AWS 環境を terraform destroy でまとめて片付けようとしたら、RDS の削除でこのエラーが出て止まりました。…",
+      "summary": "開発ツールの新着が13件。こんにちは！KENTEM TechBlog 編集部です。普段複数人でブログを書いている皆さま、記事の作成やレビューなどの運用はどうしていますか？？…",
       "articles": [
+        {
+          "title": "Pull Requestでレビューするブログ運用 〜はてなブログ × GitHub〜 | KENTEM TechBlog",
+          "link": "https://tech.kentem.jp/entry/2026/07/20/090000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-20T00:00:00",
+          "excerpt": "こんにちは！KENTEM TechBlog 編集部です。普段複数人でブログを書いている皆さま、記事の作成やレビューなどの運用はどうしていますか？？…"
+        },
         {
           "title": "【RDS】terraform destroy が DBSnapshotAlreadyExists で止まった話",
           "link": "https://qiita.com/80-cloud/items/fca9dd557827c706e78f",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-19T15:38:17",
           "excerpt": "はじめに 2026/7/18（土）に開催された「AWS CDK Conference Japan 2026」のセッション資料一覧になります。資料へのリンクが不足しているところは随時更新します！メイントラック 時間 タイトル 登壇者 ...…"
-        },
-        {
-          "title": "GitHub Copilot のクラウドサンドボックス使ってみた",
-          "link": "https://dev.classmethod.jp/articles/shoma-github-copilot-cloud-sandbox-tried/",
-          "source": "DevelopersIO",
-          "published": "2026-07-19T15:16:55",
-          "excerpt": "GitHub Copilot にパブリックプレビュー追加されたクラウドサンドボックスを触ってみました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【AWS解説 基本編 #2】AWSは「サービス」を組み合わせて使う",
-      "link": "https://qiita.com/suzunari900261/items/72b459c137b89badca26",
+      "title": "AWS Incident Response Demonstrated 受験レビュー",
+      "link": "https://qiita.com/toy4you/items/78674fd4daad55bc6e06",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-19T23:35:19",
-      "excerpt": "【AWS解説 基本編 #2】AWSは「サービス」を組み合わせて使う 基本編 #2（全 6 回予定） 前回の記事では、AWSがクラウドサービスであることと、オンプレミスとの違いを整理しました。前回の記事はこちらです。…"
+      "published": "2026-07-20T01:34:38",
+      "excerpt": "AWS Incident Response Demonstrated 受験レビュー ひと目で分かる概要 AWS Skill Builder系のMicrocredentialのうち、Incident Response Demonstrated…"
     },
     {
-      "title": "「仕事を辞めるとボケる」は本当なのか？　ベトナム高齢者2000人超を早大などが分析",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/17/news082.html",
+      "title": "AWS EBS構築ハンズオン検証ログ",
+      "link": "https://qiita.com/yuuki-furue/items/8f2f982b0adecb643ab8",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-20T01:15:08",
+      "excerpt": "markdown# AWS EBS構築ハンズオン検証ログ 1.…"
+    },
+    {
+      "title": "Hugging FaceにAI主導のサイバー攻撃　防御もAIで対抗するも、商用モデルは解析拒否で「GLM」採用",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/20/news010.html",
       "source": "ITmedia NEWS",
-      "published": "2026-07-19T23:00:00",
-      "excerpt": "早稲田大学とベトナムの国民経済大学に所属する研究者らが2025年に発表した論文「Does Retirement Improve Cognitive Functioning？…"
+      "published": "2026-07-20T01:08:00",
+      "excerpt": "Hugging Faceは、自律型AIエージェントによる本番インフラへの侵入を検知、対処したと発表した。一部の内部データセットと複数の資格情報への不正アクセスを確認した。…"
     },
     {
-      "title": "インド初の民間開発ロケット、劇的なデビュー打ち上げで軌道に到達",
-      "link": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-19T22:11:21",
-      "excerpt": "「軌道に到達する最初の試みでは、それが可能だとは思いもしませんでした。」"
-    },
-    {
-      "title": "ジュラシック・パークには、400 万ドル相当の 1993 年の正規コンピューター ハードウェアが詰め込まれていました",
-      "link": "https://www.tomshardware.com/desktops/jurassic-park-packed-usd4-million-of-legit-1993-computer-hardware-a-software-engineer-detailed-every-single-piece-of-hardware-in-the-film",
+      "title": "デカルブ副代理はフロックカメラの不正使用で起訴。ジョージア州の警察官がさらに解雇される",
+      "link": "https://www.ajc.com/news/2026/07/3-more-georgia-police-officers-fired-over-alleged-flock-camera-misuse/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-19T22:07:07",
-      "excerpt": "記事の URL: https://www.tomshardware.…"
+      "published": "2026-07-20T00:41:32",
+      "excerpt": "記事の URL: https://www.ajc.…"
     }
   ]
 }
