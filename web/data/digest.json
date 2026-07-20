@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-20T01:51:36",
+  "generated_at": "2026-07-20T05:28:28",
   "window_hours": 24,
-  "total": 116,
+  "total": 110,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が9件。Equityの最新エピソードでは、Appleの訴訟がOpenAiのハードウェアへの参入と上場という大いに議論されている計画に影響を与えるかどうかを議論します。",
+      "summary": "生成AIの新着が10件。Next.js の LLM ストリーミングを、外部プロバイダーへの実通信なしでブラウザ E2E テストしました。テスト用プロバイダーを本番コードへ追加せず、逐次表示、429、途中切断、完了通知の欠落を検証します。",
       "articles": [
+        {
+          "title": "Next.js の LLM ストリーミングを外部 API なしで Playwright E2E テストしてみた",
+          "link": "https://dev.classmethod.jp/articles/nextjs-llm-streaming-playwright-e2e-without-paid-api/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T04:54:57",
+          "excerpt": "Next.js の LLM ストリーミングを、外部プロバイダーへの実通信なしでブラウザ E2E テストしました。テスト用プロバイダーを本番コードへ追加せず、逐次表示、429、途中切断、完了通知の欠落を検証します。"
+        },
+        {
+          "title": "Gemini Enterprise Agent PlatformのCustom Training試してみた | Fusic 技術ブログのフィード",
+          "link": "https://zenn.dev/fusic/articles/ae40058329f595",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-20T03:06:52",
+          "excerpt": "はじめにFusicのレオナです。今回は、Gemini Enterprise Agent PlatformのCustom Trainingを利用し、scikit-learnでモデルを学習しました。…"
+        },
         {
           "title": "Appleの訴訟によりOpenAIのハードウェア計画が狂うことはあるだろうか?",
           "link": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
@@ -17,33 +31,26 @@
           "excerpt": "Equityの最新エピソードでは、Appleの訴訟がOpenAiのハードウェアへの参入と上場という大いに議論されている計画に影響を与えるかどうかを議論します。"
         },
         {
-          "title": "Claude Codeで完璧に作った収益サイトが、1円も稼げなかった原因の解剖【実数公開】",
-          "link": "https://zenn.dev/sher/articles/7872b82aec7f3a",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-19T16:34:43",
-          "excerpt": "先週、約1ヶ月かけて作ったサイトを凍結しました。…"
-        },
-        {
-          "title": "AI エージェントを外部サービスに接続すると、リスク範囲が拡大します",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640",
-          "source": "The Register（英語）",
-          "published": "2026-07-19T16:05:00",
-          "excerpt": "すべてのものを接続して何が起こるかを観察してください"
-        },
-        {
-          "title": "Slack・Teams・Chatworkに同時対応するAIエージェントの作り方",
-          "link": "https://zenn.dev/hach/articles/multi-chat-adapter-design",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-19T15:08:07",
-          "excerpt": "「Slackに招待するだけで働くAI」を作ったあと、次に来る要望はだいたい決まっています。「うちはTeamsなんですが」「Chatworkでも使えますか」。…"
+          "title": "「生成AI禁止です」「誤字チェックとかも」「ダメです」「「「えっ……？」」」第２回ダンガン文庫大賞のルールで大モメ",
+          "link": "https://posfie.com/@lenchroot/p/AVSFamQ",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-07-19T17:31:48",
+          "excerpt": "https://lp.bookbase.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。はじめに 学習用に作った AWS 環境を terraform destroy でまとめて片付けようとしたら、RDS の削除でこのエラーが出て止まりました。…",
+      "summary": "クラウドの新着が10件。はじめ Nature Remoアプリを使っている方の中で、こんな悩みを抱えている人はいませんか？「「「今から1時間後にエアコンを弱めたい……！！…",
       "articles": [
+        {
+          "title": "iOSショートカットアプリ×AWS Lambdaでエアコンのタイマーを作る",
+          "link": "https://qiita.com/tolipiyo/items/3a864da322a8b56ba697",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-20T04:20:57",
+          "excerpt": "はじめ Nature Remoアプリを使っている方の中で、こんな悩みを抱えている人はいませんか？「「「今から1時間後にエアコンを弱めたい……！！…"
+        },
         {
           "title": "【RDS】terraform destroy が DBSnapshotAlreadyExists で止まった話",
           "link": "https://qiita.com/80-cloud/items/fca9dd557827c706e78f",
@@ -64,20 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-19T13:32:46",
           "excerpt": "はじめに Amazon Aurora DSQL（アイコンは Aurora と一緒） 先日 AWS Blocks の検証をしていた際、バックエンドの DB ..."
-        },
-        {
-          "title": "サーバ/インフラを支える技術——止まらないサービスを作るための設計思想を学んだ正直な評価",
-          "link": "https://zenn.dev/taka_tech1988/articles/47dc7ddfc7c40f",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-19T12:43:22",
-          "excerpt": "!この記事は taka-techblog にも掲載しています。「止まらないサービスを作りたい」という意識はWebに携わるエンジニアに共通するものだ。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。Amazon Inspector v2の脆弱性スキャンパイプラインを構築する手順をまとめます。",
+      "summary": "セキュリティの新着が5件。Amazon Inspector v2の脆弱性スキャンパイプラインを構築する手順をまとめます。",
       "articles": [
         {
           "title": "Amazon Inspector v2の脆弱性スキャンパイプラインを構築してみた | Techfirm Cloud Architect Blog",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。こんにちは！KENTEM TechBlog 編集部です。普段複数人でブログを書いている皆さま、記事の作成やレビューなどの運用はどうしていますか？？…",
+      "summary": "開発ツールの新着が10件。こんにちは！KENTEM TechBlog 編集部です。普段複数人でブログを書いている皆さま、記事の作成やレビューなどの運用はどうしていますか？？…",
       "articles": [
         {
           "title": "Pull Requestでレビューするブログ運用 〜はてなブログ × GitHub〜 | KENTEM TechBlog",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "AWS Incident Response Demonstrated 受験レビュー",
-      "link": "https://qiita.com/toy4you/items/78674fd4daad55bc6e06",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-20T01:34:38",
-      "excerpt": "AWS Incident Response Demonstrated 受験レビュー ひと目で分かる概要 AWS Skill Builder系のMicrocredentialのうち、Incident Response Demonstrated…"
-    },
-    {
-      "title": "AWS EBS構築ハンズオン検証ログ",
-      "link": "https://qiita.com/yuuki-furue/items/8f2f982b0adecb643ab8",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-20T01:15:08",
-      "excerpt": "markdown# AWS EBS構築ハンズオン検証ログ 1.…"
-    },
-    {
-      "title": "Hugging FaceにAI主導のサイバー攻撃　防御もAIで対抗するも、商用モデルは解析拒否で「GLM」採用",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/20/news010.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-20T01:08:00",
-      "excerpt": "Hugging Faceは、自律型AIエージェントによる本番インフラへの侵入を検知、対処したと発表した。一部の内部データセットと複数の資格情報への不正アクセスを確認した。…"
-    },
-    {
-      "title": "デカルブ副代理はフロックカメラの不正使用で起訴。ジョージア州の警察官がさらに解雇される",
-      "link": "https://www.ajc.com/news/2026/07/3-more-georgia-police-officers-fired-over-alleged-flock-camera-misuse/",
+      "title": "投資家が株を投げ捨てる中、大手ハイテク企業はAI支出を正当化する必要がある",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
       "source": "Hacker News（英語）",
-      "published": "2026-07-20T00:41:32",
-      "excerpt": "記事の URL: https://www.ajc.…"
+      "published": "2026-07-20T04:41:10",
+      "excerpt": "記事の URL: https://www.bloomberg.…"
+    },
+    {
+      "title": "LoRA Speedrun – テクニックを微調整するための公開壁時計リーダーボード",
+      "link": "https://github.com/Saivineeth147/lora-speedrun",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-20T04:24:48",
+      "excerpt": "記事の URL: https://github.com/Saivineeth147/lora-speedrun コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "電力会社はデータセンター用の土地を強奪するために著名なドメインを利用している",
+      "link": "https://fortune.com/2026/07/19/data-center-eminent-domain-public-use/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-20T04:19:22",
+      "excerpt": "記事の URL: https://fortune.com/2026/07/19/data-center-eminent-domain-public-use/ コメント URL: https://news.ycombinator.…"
+    },
+    {
+      "title": "AWS Summit Japan 2026の事例セッションを個人的にピックアップ",
+      "link": "https://qiita.com/a_b_/items/8aeb4ed7cdd234bae78e",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-20T04:17:14",
+      "excerpt": "はじめに 先月、AWS Summit Japan 2026が開催されました。例年同様、セッション動画が公開されています。検索する際は、以下の資料ページに記載のコードを検索キーとして指定すると、楽に見つけられます。…"
     }
   ]
 }
