@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-07-20T08:23:38",
+  "generated_at": "2026-07-20T11:19:01",
   "window_hours": 24,
-  "total": 108,
+  "total": 112,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が14件。はじめに 2025 年 12 月、Amazon Bedrock に Mantle という新しい推論エンジンが追加されました。…",
+      "summary": "生成AIの新着が18件。AWS DevOps Agent には spending cap がないため、EventBridge 経由でイベントが大量に流入すると意図しない高額課金が発生します。…",
       "articles": [
         {
-          "title": "【Bedrock】Amazon Bedrock Mantleとは？",
-          "link": "https://qiita.com/ryu-ki/items/17fa3462d4c619e4fea5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-20T08:12:41",
-          "excerpt": "はじめに 2025 年 12 月、Amazon Bedrock に Mantle という新しい推論エンジンが追加されました。…"
-        },
-        {
-          "title": "Flutter から Gemini Nano を動かす - Prompt API で自然文検索をタグに翻訳する",
-          "link": "https://dev.classmethod.jp/articles/flutter-gemini-nano-prompt-api/",
+          "title": "Step Functions JSONata で DevOps Agent の日次予算ゲートを構築してみた",
+          "link": "https://dev.classmethod.jp/articles/devops-agent-budget-gate-stepfunctions-jsonata/",
           "source": "DevelopersIO",
-          "published": "2026-07-20T06:46:16",
-          "excerpt": "前回の6機能試行記に続き、Prompt API を深掘りします。自然文検索をタグに変換するデモ実装を通じて、「呼び出し課金ゼロ」と「カスタムプロンプト対応」を活かした、高頻度×軽処理な AI 機能の可能性を具体的に示します。"
+          "published": "2026-07-20T11:09:48",
+          "excerpt": "AWS DevOps Agent には spending cap がないため、EventBridge 経由でイベントが大量に流入すると意図しない高額課金が発生します。…"
         },
         {
-          "title": "Next.js の LLM ストリーミングを外部 API なしで Playwright E2E テストしてみた",
-          "link": "https://dev.classmethod.jp/articles/nextjs-llm-streaming-playwright-e2e-without-paid-api/",
+          "title": "Claude Codeのプラグインを .claude/settings.json でチームに配布してみる",
+          "link": "https://dev.classmethod.jp/articles/claude-code-plugin-team-distribution/",
           "source": "DevelopersIO",
-          "published": "2026-07-20T04:54:57",
-          "excerpt": "Next.js の LLM ストリーミングを、外部プロバイダーへの実通信なしでブラウザ E2E テストしました。テスト用プロバイダーを本番コードへ追加せず、逐次表示、429、途中切断、完了通知の欠落を検証します。"
+          "published": "2026-07-20T09:35:20",
+          "excerpt": "Claude Codeのリポジトリに`.claude/settings.json`を置くだけで、チームメンバー全員に自動的にプラグインを配布できる方法を試してみました。"
         },
         {
-          "title": "「自分の分身」をAIで作れ、アンソロピック社員が教えるClaude活用術5選 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
-          "link": "https://forbesjapan.com/articles/detail/101067",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-07-20T04:05:10",
-          "excerpt": "デイジー・ホールマンは、Anthropic（アンソロピック）のClaude Codeチームで働いている。…"
+          "title": "22社51名の参加者が2時間で業務アプリを自作し発表 ！Claude ・Kiro実践ワークショップの記録",
+          "link": "https://aws.amazon.com/jp/blogs/news/ai-coding-workshop20260608/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-07-20T09:01:54",
+          "excerpt": "このワークショップで起きたこと みなさん、こんにちは。AWS アカウントマネージャーの岩上です。2026年6 […]…"
+        },
+        {
+          "title": "エクスプロイトブローカーはWordPress RCEに50万ドルを支払います。 GPT5.6で25ドルのものを見つけました",
+          "link": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-20T08:13:36",
+          "excerpt": "記事の URL: https://slcyber.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が7件。はじめ Nature Remoアプリを使っている方の中で、こんな悩みを抱えている人はいませんか？「「「今から1時間後にエアコンを弱めたい……！！…",
+      "summary": "クラウドの新着が7件。2026年7月、一部AWSアカウントでEC2コンソールの接続画面が新しいUIに切り替わっています。…",
       "articles": [
+        {
+          "title": "AWSマネジメントコンソールのEC2接続画面が新UIになったので確認してみた",
+          "link": "https://dev.classmethod.jp/articles/ec2-console-new-connect-ui-2026/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T10:27:37",
+          "excerpt": "2026年7月、一部AWSアカウントでEC2コンソールの接続画面が新しいUIに切り替わっています。…"
+        },
         {
           "title": "iOSショートカットアプリ×AWS Lambdaでエアコンのタイマーを作る",
           "link": "https://qiita.com/tolipiyo/items/3a864da322a8b56ba697",
@@ -52,33 +59,33 @@
           "excerpt": "はじめ Nature Remoアプリを使っている方の中で、こんな悩みを抱えている人はいませんか？「「「今から1時間後にエアコンを弱めたい……！！…"
         },
         {
+          "title": "Synology NASのデータを地球の反対側に逃がす！S3 Deep Archive活用術",
+          "link": "https://zenn.dev/bleach31/articles/eccef6e58a0b9c",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-20T03:25:42",
+          "excerpt": "1.なぜNASだけでは「大切な写真」を守れないのか？（地理的分散の必要性） 自宅にSynology NASを導入し、RAIDを組んで「これでデータ保存は万全」と思っていませんか？…"
+        },
+        {
           "title": "【RDS】terraform destroy が DBSnapshotAlreadyExists で止まった話",
           "link": "https://qiita.com/80-cloud/items/fca9dd557827c706e78f",
           "source": "Qiita AWSタグ",
           "published": "2026-07-19T23:40:11",
           "excerpt": "はじめに 学習用に作った AWS 環境を terraform destroy でまとめて片付けようとしたら、RDS の削除でこのエラーが出て止まりました。…"
-        },
-        {
-          "title": "【AWS障害】2026年7月16日のCloudFront VPC Origins障害まとめ",
-          "link": "https://qiita.com/eureka_/items/6bb207fa1da4add1f61b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-19T14:57:20",
-          "excerpt": "はじめに 日本時間2026年7月16日 16:45頃〜21:20頃、Amazon CloudFrontで障害が発生し、日本国内ではPayPay・note・ニコニコ生放送などが影響を受けました。…"
-        },
-        {
-          "title": "【Aurora DSQL】DynamoDB でも Aurora でもない「第3の選択肢」を理解する",
-          "link": "https://qiita.com/jus1730/items/bbdc3c10908d9b89febd",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-19T13:32:46",
-          "excerpt": "はじめに Amazon Aurora DSQL（アイコンは Aurora と一緒） 先日 AWS Blocks の検証をしていた際、バックエンドの DB ..."
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が3件。Amazon Inspector v2の脆弱性スキャンパイプラインを構築する手順をまとめます。",
+      "summary": "セキュリティの新着が4件。2026年7月15日に修正されたnginxの認証前RCE脆弱性 CVE-2026-42533（CVSS 9.2）の動作をDockerローカル環境で再現しました。…",
       "articles": [
+        {
+          "title": "2026年7月報告のnginx脆弱性（CVE-2026-42533）をDockerで再現してみた",
+          "link": "https://dev.classmethod.jp/articles/cve-2026-42533-nginx-rce-docker-repro/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T10:49:36",
+          "excerpt": "2026年7月15日に修正されたnginxの認証前RCE脆弱性 CVE-2026-42533（CVSS 9.2）の動作をDockerローカル環境で再現しました。…"
+        },
         {
           "title": "Amazon Inspector v2の脆弱性スキャンパイプラインを構築してみた | Techfirm Cloud Architect Blog",
           "link": "https://techblog.techfirm.co.jp/entry/amazon-inspector-scan-pipeline",
@@ -133,67 +140,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。こんにちは！KENTEM TechBlog 編集部です。普段複数人でブログを書いている皆さま、記事の作成やレビューなどの運用はどうしていますか？？…",
+      "summary": "開発ツールの新着が10件。Terraform の apply が権限不足で途中停止しました。通常出力と remote state で作成済みリソースを確認し、不足権限だけを修正して再実行した際の作業ログを紹介します。",
       "articles": [
+        {
+          "title": "Terraform の apply が途中で失敗したので remote state から復旧した",
+          "link": "https://dev.classmethod.jp/articles/terraform-apply-failure-recovery-remote-state/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T10:00:05",
+          "excerpt": "Terraform の apply が権限不足で途中停止しました。通常出力と remote state で作成済みリソースを確認し、不足権限だけを修正して再実行した際の作業ログを紹介します。"
+        },
+        {
+          "title": "Claude Apps Gateway を Amazon Bedrock 向けにデプロイして使ってみた",
+          "link": "https://zenn.dev/aws_japan/articles/c885fce9ba7262",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-20T06:05:13",
+          "excerpt": "Claude Apps Gateway が利用可能になりました 2026年7月、Anthropic 純正のセルフホスト型ゲートウェイ「Claude Apps Gateway」が公開され、Amazon Bedrock を上流として利用できるよ…"
+        },
+        {
+          "title": "AWS学習27日目：CloudFormation・CodeBuild・CodePipeline",
+          "link": "https://zenn.dev/zono731/articles/ae08950c7e83f7",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-20T06:00:20",
+          "excerpt": "今日のテーマ AWS学習27日目は、AWSリソースの作成とコンテナイメージのビルドを自動化するため、CloudFormation・CodeBuild・CodePipelineを学びました。…"
+        },
         {
           "title": "Pull Requestでレビューするブログ運用 〜はてなブログ × GitHub〜 | KENTEM TechBlog",
           "link": "https://tech.kentem.jp/entry/2026/07/20/090000",
           "source": "企業テックブログまとめ",
           "published": "2026-07-20T00:00:00",
           "excerpt": "こんにちは！KENTEM TechBlog 編集部です。普段複数人でブログを書いている皆さま、記事の作成やレビューなどの運用はどうしていますか？？…"
-        },
-        {
-          "title": "【RDS】terraform destroy が DBSnapshotAlreadyExists で止まった話",
-          "link": "https://qiita.com/80-cloud/items/fca9dd557827c706e78f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-19T23:40:11",
-          "excerpt": "はじめに 学習用に作った AWS 環境を terraform destroy でまとめて片付けようとしたら、RDS の削除でこのエラーが出て止まりました。…"
-        },
-        {
-          "title": "[アップデート] GenU (Generative AI Use Cases) v5.5.0 がリリースされたのでデプロイして新機能を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/genu-5-5-0/",
-          "source": "DevelopersIO",
-          "published": "2026-07-19T22:35:38",
-          "excerpt": "AWS の GenU v5.5.0 がリリースされました。新モデル対応やリサーチエージェント、ECharts によるグラフ描画、SVG プレビューなど多くの新機能が追加されているので、実際にデプロイして確認した結果を紹介します。"
-        },
-        {
-          "title": "【セッション資料まとめ】2026/7/18 AWS CDK Conference Japan 2026",
-          "link": "https://qiita.com/issy929/items/f8c5abf9f2e327bec8da",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-19T15:38:17",
-          "excerpt": "はじめに 2026/7/18（土）に開催された「AWS CDK Conference Japan 2026」のセッション資料一覧になります。資料へのリンクが不足しているところは随時更新します！メイントラック 時間 タイトル 登壇者 ...…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS初心者がSSL証明書の共通鍵、公開鍵、秘密鍵について深堀った話",
-      "link": "https://qiita.com/tks_1128/items/31897213450d6f273f51",
+      "title": "【簡単AWS MLA】【初心者向け】Day 6：F1 Score を整理する — Precision と Recall をまとめて見る評価指標",
+      "link": "https://qiita.com/MetaYuan/items/d8827ee8a0df86f18821",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-20T08:22:32",
-      "excerpt": "はじめに こんにちは。Tsukasaです！皆さん、データ暗号化はご存知でしょうか？ITパスポートや基本情報技術者試験を受けたことのある方なら勉強をしたことがあるかもしれません。私も軽く勉強をしたことがありますが、よくわかっていません。…"
+      "published": "2026-07-20T11:05:25",
+      "excerpt": "はじめに 前回は、分類モデルでよく使われる評価指標として accuracy precision recall について整理しました。…"
     },
     {
-      "title": "ムルバドはもう終わりだ",
-      "link": "https://moonwriting.blog/i-m-done-with-mullvad",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-20T07:38:15",
-      "excerpt": "記事の URL: https://moonwriting.blog/i-m-done-with-mullvad コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "ハードウェアコストが高いため、Red Hat はミニ PC を必要としない 2 サーバーのエッジリグを提供",
-      "link": "https://www.theregister.com/systems/2026/07/20/high-hardware-costs-see-red-hat-offer-a-two-server-edge-rig-no-mini-pc-required/5274762",
+      "title": "英国政府が監視機関による共有サービスクラスターの評価を赤にすると計画しているため、マトリックスに大きな不具合が発生",
+      "link": "https://www.theregister.com/public-sector/2026/07/20/major-glitch-in-matrix-as-uk-government-projects-watchdog-rates-shared-services-cluster-red/5274368",
       "source": "The Register（英語）",
-      "published": "2026-07-20T07:24:00",
-      "excerpt": "「3 番目のノードの電力供給、保守、展開にかかる法外なコスト」についての懸念"
+      "published": "2026-07-20T10:00:00",
+      "excerpt": "9部門のERP全面見直しは緊急措置なしでは達成不可能と判断"
     },
     {
-      "title": "コード内のコメントは「親愛なる未来の私、ごめんなさい、これを書いてしまいました」",
-      "link": "https://www.theregister.com/software/2026/07/20/comment-in-code-read-dear-future-me-sorry-i-wrote-this/5274130",
+      "title": "【AWS解説 基本編 #3】リージョン・AZ・マルチAZの違いを整理",
+      "link": "https://qiita.com/suzunari900261/items/b56a0e8e9aaae8c5ce95",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-20T09:19:55",
+      "excerpt": "【AWS解説 基本編 #3】リージョン・AZ・マルチAZの違いを整理 前回までは、AWSがクラウドサービスであることと、機能ごとに分かれたサービスを組み合わせて使うことを整理しました。前回までの記事はこちらです。…"
+    },
+    {
+      "title": "エアバスは AWS から運航します。次に何が起こるかが重要です",
+      "link": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
       "source": "The Register（英語）",
-      "published": "2026-07-20T06:30:00",
-      "excerpt": "開発者は VB を書くために雇われ、代わりに C# を使用し、ほとんどの場合は機能すると思っていました"
+      "published": "2026-07-20T09:15:00",
+      "excerpt": "また自由の国へ行くにはどっちですか？"
     }
   ]
 }
