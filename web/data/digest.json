@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-20T21:38:14",
+  "generated_at": "2026-07-20T22:45:03",
   "window_hours": 24,
-  "total": 165,
+  "total": 178,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。Googleの親会社であるAlphabetは、Geminiモデルをより効率的に実行できるように設計された新しいチップの開発に取り組んでいると伝えられている。",
+      "summary": "生成AIの新着が38件。フラッシュメモリが記憶を手のひらに収めた以前、記憶媒体の変遷をたどった記事で、フラッシュメモリの登場について触れた。フラッシュメモリより前、パソコンの中で記憶を担っていたのはハードディスクだった。…",
       "articles": [
+        {
+          "title": "外部記憶と化したWebから生成AIを通じて情報を取り出すとき、何が起こっているのか",
+          "link": "https://ki-to-oku.net/outsourcing-judgment-to-ai-after-memory-goes-external/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-07-20T21:40:33",
+          "excerpt": "フラッシュメモリが記憶を手のひらに収めた以前、記憶媒体の変遷をたどった記事で、フラッシュメモリの登場について触れた。フラッシュメモリより前、パソコンの中で記憶を担っていたのはハードディスクだった。…"
+        },
         {
           "title": "Googleは、Geminiをより効率的にするために設計された新しいAIチップの開発に取り組んでいます",
           "link": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
@@ -29,21 +36,21 @@
           "source": "TechCrunch（英語）",
           "published": "2026-07-20T19:33:25",
           "excerpt": "中国製無差別LLMの禁止の話は、AIをビジネスに変えるという課題を明らかにしている。"
-        },
-        {
-          "title": "Natural が AI エージェント向けの支払いを再発明し、Stripe に対抗するために 3,000 万ドルを調達",
-          "link": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-20T19:11:25",
-          "excerpt": "設立 1 年のスタートアップは、自律型 AI 取引のための金融アーキテクチャを再発明することを目指しています。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。Google CloudがCompute EngineにGemini統合インフラ設計ツールをプレビュー公開。自然言語プロンプトからマシンタイプ選定、コスト試算、Terraform コード自動生成が可能。…",
+      "summary": "クラウドの新着が15件。CloudFront VPCオリジン障害について、CloudFrontアクセスログとALBアクセスログから影響を分析しました。…",
       "articles": [
+        {
+          "title": "CloudFront VPCオリジン障害（2026-07-16）で約30秒のタイムアウト待ちが発生していたことをログから確認してみた",
+          "link": "https://dev.classmethod.jp/articles/cloudfront-vpc-origin-incident-20260716-log-analysis/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T21:52:25",
+          "excerpt": "CloudFront VPCオリジン障害について、CloudFrontアクセスログとALBアクセスログから影響を分析しました。…"
+        },
         {
           "title": "Compute Engine の Gemini を使ったインフラ設計ツールを試してみた",
           "link": "https://dev.classmethod.jp/articles/tried-out-infrastructure-design-tool-using-gemini-on-compute-engine/",
@@ -64,21 +71,28 @@
           "source": "AWS News Blog（英語）",
           "published": "2026-07-20T16:37:34",
           "excerpt": "先週、私のチームは AWS Korea User Group (AWSKRUG) のリーダーと会うためにソウルを訪れました。…"
-        },
-        {
-          "title": "RDS か DynamoDB どちらを使うか迷ったので選び方を整理してみた",
-          "link": "https://dev.classmethod.jp/articles/shoma-rds-or-dynamodb-i-was-unsure-so-i-organized-how-to-choose/",
-          "source": "DevelopersIO",
-          "published": "2026-07-20T16:17:08",
-          "excerpt": "RDS と DynamoDB のどちらを選ぶべきか、悩んだことはありませんか？今回は、両者の違いと選定基準を整理してみました。設計思想の違いから、実際のユースケースまで、判断に必要なポイントをまとめています。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。政府は、ますます巧妙化する脅威に直面して、身代金の支払いを禁止することを検討しています。",
+      "summary": "セキュリティの新着が10件。「脆弱性を見つけても報告先がない」「修正されたのかも分からない」。そんな状況を変えるため、CISAやNSA、JPCERT/CCなど5機関が、企業向けの共同指針を公開した。善意の研究者との協力を前提とした新たな脆弱性管理の実務とは何か。",
       "articles": [
+        {
+          "title": "脆弱性報告を受け付けない企業は危うい？　CISAら5機関が共同指針",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/21/news027.html",
+          "source": "@IT",
+          "published": "2026-07-20T22:00:00",
+          "excerpt": "「脆弱性を見つけても報告先がない」「修正されたのかも分からない」。そんな状況を変えるため、CISAやNSA、JPCERT/CCなど5機関が、企業向けの共同指針を公開した。善意の研究者との協力を前提とした新たな脆弱性管理の実務とは何か。"
+        },
+        {
+          "title": "攻撃者は WordPress の重要な脆弱性を攻撃し、あらゆる種類の悪さを引き起こします",
+          "link": "https://www.theregister.com/security/2026/07/20/attackers-pummel-critical-wordpress-vuln-to-create-all-sorts-of-mischief/5275265",
+          "source": "The Register（英語）",
+          "published": "2026-07-20T21:57:51",
+          "excerpt": "さらに、パブリックドメインでの数十の PoC"
+        },
         {
           "title": "支払うか否か？ランサムウェアの急増により、被害者は難しい選択に直面している",
           "link": "https://arstechnica.com/security/2026/07/pay-up-or-not-ransomware-surge-has-victims-facing-tough-choices/",
@@ -92,28 +106,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-20T13:20:22",
           "excerpt": "WAFは「Webアプリの前に立つ用心棒」🛡️ WAFは「怪しいリクエストを見抜く」サービス WAF（Web Application Firewall）は、 SQLインジェクションやクロスサイトスクリプティングといった攻撃を防ぐサービス。…"
-        },
-        {
-          "title": "顔を抱きしめることで内部データセットと認証情報が侵害されたことが確認され、ユーザーに行動を促す",
-          "link": "https://techcrunch.com/2026/07/20/hugging-face-confirms-breach-affected-internal-datasets-and-credentials-urges-users-to-take-action/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-20T12:39:28",
-          "excerpt": "Hugging Face はユーザーに対し、プラットフォームに保存されているアクセス トークンをローテーションし、アカウント アクティビティを確認するよう呼びかけています。"
-        },
-        {
-          "title": "情報セキュリティの専門家: 2,300 万レコードのデータベースがオンラインに捨てられた後、有料労働ユーザーのデータが流出",
-          "link": "https://www.theregister.com/cyber-crime/2026/07/20/infosec-expert-paidwork-users-data-pwned-after-23m-record-database-dumped-online/5274869",
-          "source": "The Register（英語）",
-          "published": "2026-07-20T12:00:00",
-          "excerpt": "HIBPは、漏洩した情報には銀行口座番号、支払い履歴、個人情報が含まれていると主張している"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が1件。RDS と DynamoDB のどちらを選ぶべきか、悩んだことはありませんか？今回は、両者の違いと選定基準を整理してみました。設計思想の違いから、実際のユースケースまで、判断に必要なポイントをまとめています。",
+      "summary": "データ分析の新着が2件。IC3は、自分を代表すると主張するアカウントはすべて偽物であると述べている",
       "articles": [
+        {
+          "title": "詐欺師がソーシャルメディアでFBIになりすまし、犯罪被害者を食い物にする",
+          "link": "https://www.theregister.com/security/2026/07/20/scammers-impersonate-fbi-on-social-media-prey-on-crime-victims/5275224",
+          "source": "The Register（英語）",
+          "published": "2026-07-20T20:10:00",
+          "excerpt": "IC3は、自分を代表すると主張するアカウントはすべて偽物であると述べている"
+        },
         {
           "title": "RDS か DynamoDB どちらを使うか迷ったので選び方を整理してみた",
           "link": "https://dev.classmethod.jp/articles/shoma-rds-or-dynamodb-i-was-unsure-so-i-organized-how-to-choose/",
@@ -126,7 +133,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。AWS Solutions Guidanceとして公開された「KNFSD File Cache」のリポジトリを静的解析し、カスタムカーネル・NFS re-export・FS-Cache・OTel Collectorカスタムビルドなど、EC2…",
+      "summary": "開発ツールの新着が12件。AWS Solutions Guidanceとして公開された「KNFSD File Cache」のリポジトリを静的解析し、カスタムカーネル・NFS re-export・FS-Cache・OTel Collectorカスタムビルドなど、EC2…",
       "articles": [
         {
           "title": "AWS Solutions Guidance「KNFSD File Cache」のIaCテンプレートを読み解いてみた",
@@ -161,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "構成図をAIから編集したくて、JSONネイティブな図解ツールZukaiを作った",
-      "link": "https://qiita.com/Satachito/items/d2d8db7201445e4c03b1",
+      "title": "脱クラウド破産！AWS/GCP FinOpsでコストを最適化するエンジニアの第一歩",
+      "link": "https://qiita.com/Maku-Inc/items/9befb993c472bf71b29b",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-20T21:27:05",
-      "excerpt": "クラウド構成図を更新するとき、図そのものよりも「どのツールで、どのファイルを、どう直すか」に時間がかかることがあります。そこで作ったのが Zukai です。…"
+      "published": "2026-07-20T22:42:51",
+      "excerpt": "脱クラウド破産！AWS/GCP FinOpsでコストを最適化するエンジニアの第一歩 クラウド利用が当たり前になった2026年。その一方で、「クラウド破産」という言葉を耳にする機会も増えました。…"
     },
     {
-      "title": "CloudTrail Network Activity Events の新機能「UserIdentity フィルタリング」を試してみた",
-      "link": "https://dev.classmethod.jp/articles/cloudtrail-network-activity-events-useridentity-filtering/",
-      "source": "DevelopersIO",
-      "published": "2026-07-20T21:23:41",
-      "excerpt": "CloudTrail の Network Activity Events に、UserIdentity ベースのフィルタリングが追加されました。…"
-    },
-    {
-      "title": "AI の最も重要なプロトコルが少し使いやすくなりました",
-      "link": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
+      "title": "トランプ大統領の最新のAI皇帝はすでに辞任した",
+      "link": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-20T20:50:40",
-      "excerpt": "モデル コンテキスト プロトコル (MCP) は、AI の相互運用性の基本的な構成要素の 1 つであり、AI モデルに外部のデータ ソースやサービスに安全にアクセスする方法を提供します。…"
+      "published": "2026-07-20T22:21:04",
+      "excerpt": "デビッド・サックス氏が皇帝の職を辞して以来、AI標準イノベーションセンター（CAISI）の所長の役割は回転ドアとなった。"
     },
     {
-      "title": "宇宙軍は現在、ロケット打ち上げ費用を最大300億ドルで購入しようとしている",
-      "link": "https://arstechnica.com/science/2026/07/the-space-force-is-now-seeking-to-buy-up-to-30-billion-in-rocket-launches/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-20T20:30:25",
-      "excerpt": "トランプ政権は宇宙軍に多くのことを求めている。これにはさらに多くの起動が必要になります。"
+      "title": "現場を苦しめる開発生産性のペインや重圧を解消できる『誤解だらけの開発生産性』発売",
+      "link": "https://codezine.jp/article/detail/28862",
+      "source": "CodeZine",
+      "published": "2026-07-20T22:00:00",
+      "excerpt": "現場を苦しめる開発生産性のペインや重圧を解消できる『誤解だらけの開発生産性』発売"
+    },
+    {
+      "title": "ニチレイへのサイバー攻撃はなぜ起きた？　「たまたま選ばれる」被害の構造",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/21/news028.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-07-20T22:00:00",
+      "excerpt": "ニチレイがサイバー攻撃を受け、冷凍食品の出荷や冷蔵倉庫の入出庫が止まり、影響は取引先にも広がりました。誰が、なぜ攻撃するのでしょうか。どうすれば防げたのでしょうか。"
     }
   ]
 }
