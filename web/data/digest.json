@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-07-20T13:22:26",
+  "generated_at": "2026-07-20T15:25:27",
   "window_hours": 24,
-  "total": 128,
+  "total": 144,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が24件。GraphRAG 入門シリーズの 3 本目です。#2 で整理したパターン ①（文書からグラフを自動構築する GraphRAG）を、Amazon Bedrock Knowledge Bases のマネージド GraphRAG で検証します。…",
+      "summary": "生成AIの新着が31件。AnthropicのAIコーディングエージェントClaud Codeは非常に人気のあるサービスとして多くの組織で採用され始めています。Claude Codeは個人で簡単に導入できますが、企業が組織としてClaude Codeを導入する場合.…",
       "articles": [
         {
-          "title": "GraphRAG 入門 #3 Bedrock Knowledge Bases のマネージド GraphRAG とベクトル RAG を同じデータで精度を比較してみた【Amazon Neptune】",
-          "link": "https://dev.classmethod.jp/articles/graphrag-intro-03-bedrock-kb-graphrag-vs-vector-rag/",
-          "source": "DevelopersIO",
-          "published": "2026-07-20T13:00:16",
-          "excerpt": "GraphRAG 入門シリーズの 3 本目です。#2 で整理したパターン ①（文書からグラフを自動構築する GraphRAG）を、Amazon Bedrock Knowledge Bases のマネージド GraphRAG で検証します。…"
+          "title": "Claude Codeを組織一括でシングルサインオン、チームや個人の費用上限設定、デフォルト設定など可能に、「Claude apps gateway for AWS/Google Cloud」登場",
+          "link": "https://www.publickey1.jp/blog/26/claude_codeclaude_apps_gateway_for_awsgoogle_cloud.html",
+          "source": "Publickey",
+          "published": "2026-07-20T15:54:57",
+          "excerpt": "AnthropicのAIコーディングエージェントClaud Codeは非常に人気のあるサービスとして多くの組織で採用され始めています。Claude Codeは個人で簡単に導入できますが、企業が組織としてClaude Codeを導入する場合.…"
         },
         {
-          "title": "Gemini Enterprise を Google Drive に接続してみた",
-          "link": "https://dev.classmethod.jp/articles/connect-gemini-enterprise-to-google-drive/",
-          "source": "DevelopersIO",
-          "published": "2026-07-20T12:59:24",
-          "excerpt": "Gemini Enterprise で Google Drive に接続するには、いくつかの設定が必要です。実際の設定方法をスクリーンショット付きで解説します。"
+          "title": "Rustで書き直されたBun、早くもClaude Codeアプリに本番投入された模様",
+          "link": "https://www.publickey1.jp/blog/26/rustbunclaude_code.html",
+          "source": "Publickey",
+          "published": "2026-07-20T15:52:57",
+          "excerpt": "Claude Codeを用いてわずか11日間でZig言語からRust言語へ移植されたことが話題となっているJavaScriptランタイムのBunですが、そのRust版Bunが早くも7月17日にリリースされたClaude Code v2.1.…"
         },
         {
-          "title": "GraphRAG 入門 #2 グラフは「検索の索引」か「データ本体」か？GraphRAG と KGQA の 2 つのパターンを整理してみた【Amazon Neptune】",
-          "link": "https://dev.classmethod.jp/articles/graphrag-intro-02-graphrag-vs-kgqa/",
+          "title": "Kiro CLI 2.13 V3モードの新機能 Introspect Subagent / Global Hooks を試してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-cli-213-v3-introspect-global-hooks/",
           "source": "DevelopersIO",
-          "published": "2026-07-20T12:30:05",
-          "excerpt": "GraphRAG 入門シリーズの 2 本目です。ハンズオンの前に、意味の揺れが大きい GraphRAG という言葉と周辺用語を整理する解説回です。…"
+          "published": "2026-07-20T15:17:24",
+          "excerpt": "Kiro CLI 2.13.0 の V3 モードで追加された Introspect Subagent と Global Hooks を実際に動かして検証しました。…"
         },
         {
-          "title": "GraphRAG 入門 #1 グラフ DB って何？を理解して Amazon Neptune Analytics を動かしてみた【Amazon Neptune】",
-          "link": "https://dev.classmethod.jp/articles/graphrag-intro-01-graph-db-neptune-analytics/",
-          "source": "DevelopersIO",
-          "published": "2026-07-20T12:00:11",
-          "excerpt": "GraphRAG 入門シリーズの 1 本目です。このシリーズでは、グラフ構造を検索に活用する RAG（GraphRAG）を AWS 上で実際に動かしながら検証していきます。…"
+          "title": "推論スタートアップの Infinity が Touring Capital、OpenAI、Athropic 研究者から 1,500 万ドルを調達",
+          "link": "https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-20T15:15:00",
+          "excerpt": "AI インフラストラクチャ会社 Infinity は月曜日、Touring Capital、プリンシパル VC、OpenAI や Anthropic などの企業の研究者を含む投資家から 1 億ドルの評価額で 1,500 万ドルの資金調達を発…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。はじめに サーバーを再起動したら、docker compose up -d で立てたコンテナが全部消えていた——一度はやるミス。…",
+      "summary": "クラウドの新着が8件。LanceDB を Amazon S3 バックエンドで動かし、Amazon Bedrock と組み合わせてベクトル検索と簡易 RAG を試してみました。DB サーバーレスな構成でどこまで実用的か、検証結果をお伝えします。",
       "articles": [
+        {
+          "title": "話題の組み込み型のベクトルデータベース LanceDB を Amazon S3 と Amazon Bedrock で試してみた",
+          "link": "https://dev.classmethod.jp/articles/20260720-lancedb-on-aws/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T14:57:13",
+          "excerpt": "LanceDB を Amazon S3 バックエンドで動かし、Amazon Bedrock と組み合わせてベクトル検索と簡易 RAG を試してみました。DB サーバーレスな構成でどこまで実用的か、検証結果をお伝えします。"
+        },
         {
           "title": "再起動でコンテナが消える問題 — rc.local / systemd / ECS の使い分け",
           "link": "https://qiita.com/gtakairo/items/a86418dde21cf1fbc4a1",
@@ -64,21 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-20T10:27:37",
           "excerpt": "2026年7月、一部AWSアカウントでEC2コンソールの接続画面が新しいUIに切り替わっています。…"
-        },
-        {
-          "title": "GoでLambdaを書いたら、外部APIのレート制限との戦いが一気に楽になった",
-          "link": "https://zenn.dev/calmpm_takahiro/articles/go-lambda-ratelimit",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-20T08:42:18",
-          "excerpt": "以前、Lambdaから外部APIを大量に呼び出す処理を書いたことがあります。相手のAPIにコールレート制限があり、そのコントロールにひどく苦労した記憶が残っています。並列度を上げれば429が返る、下げれば終わらない。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。WAFは「Webアプリの前に立つ用心棒」🛡️ WAFは「怪しいリクエストを見抜く」サービス WAF（Web Application Firewall）は、 SQLインジェクションやクロスサイトスクリプティングといった攻撃を防ぐサービス。…",
+      "summary": "セキュリティの新着が8件。政府は、ますます巧妙化する脅威に直面して、身代金の支払いを禁止することを検討しています。",
       "articles": [
+        {
+          "title": "支払うか否か？ランサムウェアの急増により、被害者は難しい選択に直面している",
+          "link": "https://arstechnica.com/security/2026/07/pay-up-or-not-ransomware-surge-has-victims-facing-tough-choices/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-07-20T14:00:50",
+          "excerpt": "政府は、ますます巧妙化する脅威に直面して、身代金の支払いを禁止することを検討しています。"
+        },
         {
           "title": "# 【WAF編】SAA先生に学ぶAWSの全容と授業メモ",
           "link": "https://qiita.com/minifish33/items/680887f007228c43e172",
@@ -99,20 +106,13 @@
           "source": "The Register（英語）",
           "published": "2026-07-20T12:00:00",
           "excerpt": "HIBPは、漏洩した情報には銀行口座番号、支払い履歴、個人情報が含まれていると主張している"
-        },
-        {
-          "title": "2026年7月報告のnginx脆弱性（CVE-2026-42533）をDockerで再現してみた",
-          "link": "https://dev.classmethod.jp/articles/cve-2026-42533-nginx-rce-docker-repro/",
-          "source": "DevelopersIO",
-          "published": "2026-07-20T10:49:36",
-          "excerpt": "2026年7月15日に修正されたnginxの認証前RCE脆弱性 CVE-2026-42533（CVSS 9.2）の動作をDockerローカル環境で再現しました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。BigQueryに追加された新機能「マルチレベル集計」を試してみました。集計関数の引数に別の集計関数を書けるようになり、これまでサブクエリが必要だった「集計した結果をさらに集計する」処理が1つのクエリで表現できるようになります。",
+      "summary": "データ分析の新着が2件。BigQueryに追加された新機能「マルチレベル集計」を試してみました。集計関数の引数に別の集計関数を書けるようになり、これまでサブクエリが必要だった「集計した結果をさらに集計する」処理が1つのクエリで表現できるようになります。",
       "articles": [
         {
           "title": "BigQueryのマルチレベル集計を試してみる",
@@ -127,21 +127,28 @@
           "source": "TechCrunch（英語）",
           "published": "2026-07-19T16:05:00",
           "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関、そして今まで以上に AI がどのように役割を果たしているかを知るためのハブです。"
-        },
-        {
-          "title": "【Aurora DSQL】DynamoDB でも Aurora でもない「第3の選択肢」を理解する",
-          "link": "https://qiita.com/jus1730/items/bbdc3c10908d9b89febd",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-19T13:32:46",
-          "excerpt": "はじめに Amazon Aurora DSQL（アイコンは Aurora と一緒） 先日 AWS Blocks の検証をしていた際、バックエンドの DB ..."
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。CDK LSPについて、その機能と実際の動作をVS Code拡張で検証してみました。CDKコードとCloudFormation対応関係を可視化し、Synth時のエラーを即座に検出する仕組みを紹介します。",
+      "summary": "開発ツールの新着が13件。Kiro CLI 2.13.0 の V3 モードで追加された Introspect Subagent と Global Hooks を実際に動かして検証しました。…",
       "articles": [
+        {
+          "title": "Kiro CLI 2.13 V3モードの新機能 Introspect Subagent / Global Hooks を試してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-cli-213-v3-introspect-global-hooks/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T15:17:24",
+          "excerpt": "Kiro CLI 2.13.0 の V3 モードで追加された Introspect Subagent と Global Hooks を実際に動かして検証しました。…"
+        },
+        {
+          "title": "CREATE_FAILED → ハング → 成功: AWS Config recorder の循環依存をCDK で解くまでの1日",
+          "link": "https://qiita.com/ujunja/items/c98b3003044b0ac2b36d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-20T14:05:33",
+          "excerpt": "第2回で構築した Security Hub CSPM の2リージョン構成 — 実はこのデプロイ、一度で成功していません。…"
+        },
         {
           "title": "CDK LSP がリリースされたので、VS Code拡張を自作してLSPの挙動を検証してみた",
           "link": "https://dev.classmethod.jp/articles/cdk-lsp-release/",
@@ -155,52 +162,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-20T12:13:05",
           "excerpt": "はじめに iwata-jawsug-jp/devcon は、Web アプリケーションとそのインフラ（IaC）をまとめて開発するためのモノレポテンプレートです。…"
-        },
-        {
-          "title": "Terraform の apply が途中で失敗したので remote state から復旧した",
-          "link": "https://dev.classmethod.jp/articles/terraform-apply-failure-recovery-remote-state/",
-          "source": "DevelopersIO",
-          "published": "2026-07-20T10:00:05",
-          "excerpt": "Terraform の apply が権限不足で途中停止しました。通常出力と remote state で作成済みリソースを確認し、不足権限だけを修正して再実行した際の作業ログを紹介します。"
-        },
-        {
-          "title": "Terraformで電話網に通話分析AIの土台を建てる ― Amazon Connect+KVSと「CodecID詐称事件」",
-          "link": "https://zenn.dev/halhalhal1/articles/amazon-connect-kvs-terraform",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-20T08:15:34",
-          "excerpt": "通話相手の心理状態をAIがリアルタイムに読むプロダクト(crossbar_telepath)を作り始めた。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "すべてのお金が数兆ドルのマジック 8 ボールに流れ込み、世界が燃え上がるのを眺める",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/20/watching-the-world-burn-as-all-the-money-flows-into-a-multitrillion-dollar-magic-8-ball/5274553",
-      "source": "The Register（英語）",
-      "published": "2026-07-20T12:44:00",
-      "excerpt": "今週の The Kettle のエピソードでは、特別ゲストをお迎えして、AI データセンターの構築が文字通りどのように世界に火をつけているかについて話し合います。"
-    },
-    {
-      "title": "StrictlyVC は、9 月 10 日にニューヨーク市に戻り、市のスタートアップ コミュニティにとって重要な 1 年を祝います",
-      "link": "https://techcrunch.com/2026/07/20/strictlyvc-returns-to-new-york-city-september-10-to-celebrate-a-huge-year-for-the-citys-startup-community/",
+      "title": "YouTube、AIの失策と不快な動画に関するポリシーを明確化",
+      "link": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-20T12:30:00",
-      "excerpt": "2024 年以来初めて、StrictlyVC がニューヨーク市に戻ってきます。そして私たちは、スタートアップ、VC、ディールメイキング コミュニティ全体に、内輪のイベントに期待されるようなアクセスを提供します。"
+      "published": "2026-07-20T15:23:06",
+      "excerpt": "YouTube は収益化ポリシーを更新し、広告収入を得ることができない AI 生成の低品質動画の種類をより明確に定義しました。"
     },
     {
-      "title": "EUはビザなし旅行のために最も機密データを米国に売ろうとしている",
-      "link": "https://edri.org/our-work/the-eu-is-about-to-sell-our-most-sensitive-data-to-the-us-for-visa-free-travel/",
+      "title": "「AWS運用入門」を知識ゼロで引き継いだ自分が読んだ正直な評価",
+      "link": "https://zenn.dev/taka_tech1988/articles/c6620304a6ef21",
+      "source": "Zenn AWSトピック",
+      "published": "2026-07-20T15:19:51",
+      "excerpt": "!この記事は taka-techblog にも掲載しています。開発会社からシステムを引き継いだとき、AWSの知識はほぼゼロだった。「クラウドインフラ」という言葉と、「一番有名なやつ」という程度の認識しかない。…"
+    },
+    {
+      "title": "Analyzer Pluginを試してみた",
+      "link": "https://dev.classmethod.jp/articles/flutter-analyzer-plugin/",
+      "source": "DevelopersIO",
+      "published": "2026-07-20T15:13:06",
+      "excerpt": "Dart 3.10から公式のAnalyzer Pluginが使えるようになりました。レイヤー間の依存方向をチェックするルールを実装して、その実装方法と使い心地を試してみました。"
+    },
+    {
+      "title": "コーナーはそのように見えません: スクリーンスペース アンビエント オクルージョンについて",
+      "link": "https://nothings.org/gamedev/ssao/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-20T12:14:08",
-      "excerpt": "記事の URL: https://edri.…"
-    },
-    {
-      "title": "grep を超えて: コンテキストリッチな AI コーディング ハーネスの事例",
-      "link": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-20T11:20:10",
-      "excerpt": "Augment Code の Vinay Perneti がモデル、ハーネス、コンテキストについて語ります。"
+      "published": "2026-07-20T15:07:31",
+      "excerpt": "記事の URL: https://nothings.org/gamedev/ssao/ コメント URL: https://news.ycombinator.com/item?id=48979931 ポイント: 4 コメント数: 0"
     }
   ]
 }
