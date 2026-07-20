@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-20T15:25:27",
+  "generated_at": "2026-07-20T16:50:51",
   "window_hours": 24,
-  "total": 144,
+  "total": 149,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が31件。AnthropicのAIコーディングエージェントClaud Codeは非常に人気のあるサービスとして多くの組織で採用され始めています。Claude Codeは個人で簡単に導入できますが、企業が組織としてClaude Codeを導入する場合.…",
+      "summary": "生成AIの新着が30件。先週、私のチームは AWS Korea User Group (AWSKRUG) のリーダーと会うためにソウルを訪れました。…",
       "articles": [
+        {
+          "title": "AWS ウィークリーまとめ: ワンクリック Lambda セットアップ プロンプト、Bedrock 上の OpenAI GPT-5.6 モデルなど (2026 年 7 月 20 日)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-07-20T16:37:34",
+          "excerpt": "先週、私のチームは AWS Korea User Group (AWSKRUG) のリーダーと会うためにソウルを訪れました。…"
+        },
         {
           "title": "Claude Codeを組織一括でシングルサインオン、チームや個人の費用上限設定、デフォルト設定など可能に、「Claude apps gateway for AWS/Google Cloud」登場",
           "link": "https://www.publickey1.jp/blog/26/claude_codeclaude_apps_gateway_for_awsgoogle_cloud.html",
@@ -29,48 +36,41 @@
           "source": "DevelopersIO",
           "published": "2026-07-20T15:17:24",
           "excerpt": "Kiro CLI 2.13.0 の V3 モードで追加された Introspect Subagent と Global Hooks を実際に動かして検証しました。…"
-        },
-        {
-          "title": "推論スタートアップの Infinity が Touring Capital、OpenAI、Athropic 研究者から 1,500 万ドルを調達",
-          "link": "https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-20T15:15:00",
-          "excerpt": "AI インフラストラクチャ会社 Infinity は月曜日、Touring Capital、プリンシパル VC、OpenAI や Anthropic などの企業の研究者を含む投資家から 1 億ドルの評価額で 1,500 万ドルの資金調達を発…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。LanceDB を Amazon S3 バックエンドで動かし、Amazon Bedrock と組み合わせてベクトル検索と簡易 RAG を試してみました。DB サーバーレスな構成でどこまで実用的か、検証結果をお伝えします。",
+      "summary": "クラウドの新着が11件。先週、私のチームは AWS Korea User Group (AWSKRUG) のリーダーと会うためにソウルを訪れました。…",
       "articles": [
+        {
+          "title": "AWS ウィークリーまとめ: ワンクリック Lambda セットアップ プロンプト、Bedrock 上の OpenAI GPT-5.6 モデルなど (2026 年 7 月 20 日)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-07-20T16:37:34",
+          "excerpt": "先週、私のチームは AWS Korea User Group (AWSKRUG) のリーダーと会うためにソウルを訪れました。…"
+        },
+        {
+          "title": "RDS か DynamoDB どちらを使うか迷ったので選び方を整理してみた",
+          "link": "https://dev.classmethod.jp/articles/shoma-rds-or-dynamodb-i-was-unsure-so-i-organized-how-to-choose/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T16:17:08",
+          "excerpt": "RDS と DynamoDB のどちらを選ぶべきか、悩んだことはありませんか？今回は、両者の違いと選定基準を整理してみました。設計思想の違いから、実際のユースケースまで、判断に必要なポイントをまとめています。"
+        },
+        {
+          "title": "S3 にマルチパートアップロードしたファイルの ETag と SHA-256 を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/s3-multipart-etag-composite-sha256/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T16:00:09",
+          "excerpt": "Amazon S3 へ同じ 20 MiB のファイルを単一 PUT とマルチパートでアップロードし、ETag と SHA-256 チェックサムを比較しました。…"
+        },
         {
           "title": "話題の組み込み型のベクトルデータベース LanceDB を Amazon S3 と Amazon Bedrock で試してみた",
           "link": "https://dev.classmethod.jp/articles/20260720-lancedb-on-aws/",
           "source": "DevelopersIO",
           "published": "2026-07-20T14:57:13",
           "excerpt": "LanceDB を Amazon S3 バックエンドで動かし、Amazon Bedrock と組み合わせてベクトル検索と簡易 RAG を試してみました。DB サーバーレスな構成でどこまで実用的か、検証結果をお伝えします。"
-        },
-        {
-          "title": "再起動でコンテナが消える問題 — rc.local / systemd / ECS の使い分け",
-          "link": "https://qiita.com/gtakairo/items/a86418dde21cf1fbc4a1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-20T13:18:39",
-          "excerpt": "はじめに サーバーを再起動したら、docker compose up -d で立てたコンテナが全部消えていた——一度はやるミス。…"
-        },
-        {
-          "title": "AWS学習メモ - VPCエンドポイント（VPC Endpoint）について整理してみる",
-          "link": "https://zenn.dev/yashiki_tatama/articles/71fc29c9110ffd",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-20T11:41:37",
-          "excerpt": "前回は、NACL（Network Access Control List）について整理しましたね。…"
-        },
-        {
-          "title": "AWSマネジメントコンソールのEC2接続画面が新UIになったので確認してみた",
-          "link": "https://dev.classmethod.jp/articles/ec2-console-new-connect-ui-2026/",
-          "source": "DevelopersIO",
-          "published": "2026-07-20T10:27:37",
-          "excerpt": "2026年7月、一部AWSアカウントでEC2コンソールの接続画面が新しいUIに切り替わっています。…"
         }
       ]
     },
@@ -112,28 +112,28 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。BigQueryに追加された新機能「マルチレベル集計」を試してみました。集計関数の引数に別の集計関数を書けるようになり、これまでサブクエリが必要だった「集計した結果をさらに集計する」処理が1つのクエリで表現できるようになります。",
+      "summary": "データ分析の新着が2件。RDS と DynamoDB のどちらを選ぶべきか、悩んだことはありませんか？今回は、両者の違いと選定基準を整理してみました。設計思想の違いから、実際のユースケースまで、判断に必要なポイントをまとめています。",
       "articles": [
+        {
+          "title": "RDS か DynamoDB どちらを使うか迷ったので選び方を整理してみた",
+          "link": "https://dev.classmethod.jp/articles/shoma-rds-or-dynamodb-i-was-unsure-so-i-organized-how-to-choose/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T16:17:08",
+          "excerpt": "RDS と DynamoDB のどちらを選ぶべきか、悩んだことはありませんか？今回は、両者の違いと選定基準を整理してみました。設計思想の違いから、実際のユースケースまで、判断に必要なポイントをまとめています。"
+        },
         {
           "title": "BigQueryのマルチレベル集計を試してみる",
           "link": "https://dev.classmethod.jp/articles/bigquery-multilevel-aggregation/",
           "source": "DevelopersIO",
           "published": "2026-07-19T18:31:07",
           "excerpt": "BigQueryに追加された新機能「マルチレベル集計」を試してみました。集計関数の引数に別の集計関数を書けるようになり、これまでサブクエリが必要だった「集計した結果をさらに集計する」処理が1つのクエリで表現できるようになります。"
-        },
-        {
-          "title": "TechCrunch Mobility: ロボタクシーのルールを巡る争い",
-          "link": "https://techcrunch.com/2026/07/19/techcrunch-mobility-the-battle-over-robotaxi-rules/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-19T16:05:00",
-          "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関、そして今まで以上に AI がどのように役割を果たしているかを知るためのハブです。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。Kiro CLI 2.13.0 の V3 モードで追加された Introspect Subagent と Global Hooks を実際に動かして検証しました。…",
+      "summary": "開発ツールの新着が12件。Kiro CLI 2.13.0 の V3 モードで追加された Introspect Subagent と Global Hooks を実際に動かして検証しました。…",
       "articles": [
         {
           "title": "Kiro CLI 2.13 V3モードの新機能 Introspect Subagent / Global Hooks を試してみた",
@@ -168,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "YouTube、AIの失策と不快な動画に関するポリシーを明確化",
-      "link": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-20T15:23:06",
-      "excerpt": "YouTube は収益化ポリシーを更新し、広告収入を得ることができない AI 生成の低品質動画の種類をより明確に定義しました。"
-    },
-    {
-      "title": "「AWS運用入門」を知識ゼロで引き継いだ自分が読んだ正直な評価",
-      "link": "https://zenn.dev/taka_tech1988/articles/c6620304a6ef21",
-      "source": "Zenn AWSトピック",
-      "published": "2026-07-20T15:19:51",
-      "excerpt": "!この記事は taka-techblog にも掲載しています。開発会社からシステムを引き継いだとき、AWSの知識はほぼゼロだった。「クラウドインフラ」という言葉と、「一番有名なやつ」という程度の認識しかない。…"
-    },
-    {
-      "title": "Analyzer Pluginを試してみた",
-      "link": "https://dev.classmethod.jp/articles/flutter-analyzer-plugin/",
-      "source": "DevelopersIO",
-      "published": "2026-07-20T15:13:06",
-      "excerpt": "Dart 3.10から公式のAnalyzer Pluginが使えるようになりました。レイヤー間の依存方向をチェックするルールを実装して、その実装方法と使い心地を試してみました。"
-    },
-    {
-      "title": "コーナーはそのように見えません: スクリーンスペース アンビエント オクルージョンについて",
-      "link": "https://nothings.org/gamedev/ssao/",
+      "title": "HN: Bloomy (YC S26) を開始 – AI を活用した幼稚園から高等学校までの習熟学習",
+      "link": "https://news.ycombinator.com/item?id=48981136",
       "source": "Hacker News（英語）",
-      "published": "2026-07-20T15:07:31",
-      "excerpt": "記事の URL: https://nothings.org/gamedev/ssao/ コメント URL: https://news.ycombinator.com/item?id=48979931 ポイント: 4 コメント数: 0"
+      "published": "2026-07-20T16:32:10",
+      "excerpt": "こんにちは、HN。私は Bloomy (bloomylearning.com) の創設者、Alex Southmayd です。Bloomy は幼稚園から高等学校までの生徒向けの AI を活用した習得学習プラットフォームです。…"
+    },
+    {
+      "title": "Document Foundation は、Microsoft のファイル形式はユーザーを束縛していると述べています",
+      "link": "https://www.theregister.com/applications/2026/07/20/the-document-foundation-says-microsofts-file-formats-keep-users-on-a-short-leash/5274960",
+      "source": "The Register（英語）",
+      "published": "2026-07-20T16:01:00",
+      "excerpt": "OOXML には ISO 証明書が含まれている可能性がありますが、それを適切に表示できると信頼できるのは Office だけです"
+    },
+    {
+      "title": "ベルギーのF1: 2026年マシンはどの最高のサーキットでも哀れに見える",
+      "link": "https://arstechnica.com/cars/2026/07/f1-in-belgium-the-2026-cars-look-pathetic-on-all-the-best-racetracks/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-20T15:59:18",
+      "excerpt": "多くの人はスパが地球上で最高のサーキットだと言うでしょうが、これらの F1 マシンにとってはそうではありません。"
+    },
+    {
+      "title": "Adobe カメラ アプリの新機能は AI を使用して写真を批評します",
+      "link": "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-20T15:45:00",
+      "excerpt": "Adobe の Project Indigo は、アプリを使用してスナップした写真からあらゆる種類の背景を削除できるようになりました"
     }
   ]
 }
