@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-20T11:19:01",
+  "generated_at": "2026-07-20T13:22:26",
   "window_hours": 24,
-  "total": 112,
+  "total": 128,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。AWS DevOps Agent には spending cap がないため、EventBridge 経由でイベントが大量に流入すると意図しない高額課金が発生します。…",
+      "summary": "生成AIの新着が24件。GraphRAG 入門シリーズの 3 本目です。#2 で整理したパターン ①（文書からグラフを自動構築する GraphRAG）を、Amazon Bedrock Knowledge Bases のマネージド GraphRAG で検証します。…",
       "articles": [
         {
-          "title": "Step Functions JSONata で DevOps Agent の日次予算ゲートを構築してみた",
-          "link": "https://dev.classmethod.jp/articles/devops-agent-budget-gate-stepfunctions-jsonata/",
+          "title": "GraphRAG 入門 #3 Bedrock Knowledge Bases のマネージド GraphRAG とベクトル RAG を同じデータで精度を比較してみた【Amazon Neptune】",
+          "link": "https://dev.classmethod.jp/articles/graphrag-intro-03-bedrock-kb-graphrag-vs-vector-rag/",
           "source": "DevelopersIO",
-          "published": "2026-07-20T11:09:48",
-          "excerpt": "AWS DevOps Agent には spending cap がないため、EventBridge 経由でイベントが大量に流入すると意図しない高額課金が発生します。…"
+          "published": "2026-07-20T13:00:16",
+          "excerpt": "GraphRAG 入門シリーズの 3 本目です。#2 で整理したパターン ①（文書からグラフを自動構築する GraphRAG）を、Amazon Bedrock Knowledge Bases のマネージド GraphRAG で検証します。…"
         },
         {
-          "title": "Claude Codeのプラグインを .claude/settings.json でチームに配布してみる",
-          "link": "https://dev.classmethod.jp/articles/claude-code-plugin-team-distribution/",
+          "title": "Gemini Enterprise を Google Drive に接続してみた",
+          "link": "https://dev.classmethod.jp/articles/connect-gemini-enterprise-to-google-drive/",
           "source": "DevelopersIO",
-          "published": "2026-07-20T09:35:20",
-          "excerpt": "Claude Codeのリポジトリに`.claude/settings.json`を置くだけで、チームメンバー全員に自動的にプラグインを配布できる方法を試してみました。"
+          "published": "2026-07-20T12:59:24",
+          "excerpt": "Gemini Enterprise で Google Drive に接続するには、いくつかの設定が必要です。実際の設定方法をスクリーンショット付きで解説します。"
         },
         {
-          "title": "22社51名の参加者が2時間で業務アプリを自作し発表 ！Claude ・Kiro実践ワークショップの記録",
-          "link": "https://aws.amazon.com/jp/blogs/news/ai-coding-workshop20260608/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-20T09:01:54",
-          "excerpt": "このワークショップで起きたこと みなさん、こんにちは。AWS アカウントマネージャーの岩上です。2026年6 […]…"
+          "title": "GraphRAG 入門 #2 グラフは「検索の索引」か「データ本体」か？GraphRAG と KGQA の 2 つのパターンを整理してみた【Amazon Neptune】",
+          "link": "https://dev.classmethod.jp/articles/graphrag-intro-02-graphrag-vs-kgqa/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T12:30:05",
+          "excerpt": "GraphRAG 入門シリーズの 2 本目です。ハンズオンの前に、意味の揺れが大きい GraphRAG という言葉と周辺用語を整理する解説回です。…"
         },
         {
-          "title": "エクスプロイトブローカーはWordPress RCEに50万ドルを支払います。 GPT5.6で25ドルのものを見つけました",
-          "link": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-20T08:13:36",
-          "excerpt": "記事の URL: https://slcyber.…"
+          "title": "GraphRAG 入門 #1 グラフ DB って何？を理解して Amazon Neptune Analytics を動かしてみた【Amazon Neptune】",
+          "link": "https://dev.classmethod.jp/articles/graphrag-intro-01-graph-db-neptune-analytics/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T12:00:11",
+          "excerpt": "GraphRAG 入門シリーズの 1 本目です。このシリーズでは、グラフ構造を検索に活用する RAG（GraphRAG）を AWS 上で実際に動かしながら検証していきます。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が7件。2026年7月、一部AWSアカウントでEC2コンソールの接続画面が新しいUIに切り替わっています。…",
+      "summary": "クラウドの新着が9件。はじめに サーバーを再起動したら、docker compose up -d で立てたコンテナが全部消えていた——一度はやるミス。…",
       "articles": [
+        {
+          "title": "再起動でコンテナが消える問題 — rc.local / systemd / ECS の使い分け",
+          "link": "https://qiita.com/gtakairo/items/a86418dde21cf1fbc4a1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-20T13:18:39",
+          "excerpt": "はじめに サーバーを再起動したら、docker compose up -d で立てたコンテナが全部消えていた——一度はやるミス。…"
+        },
+        {
+          "title": "AWS学習メモ - VPCエンドポイント（VPC Endpoint）について整理してみる",
+          "link": "https://zenn.dev/yashiki_tatama/articles/71fc29c9110ffd",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-20T11:41:37",
+          "excerpt": "前回は、NACL（Network Access Control List）について整理しましたね。…"
+        },
         {
           "title": "AWSマネジメントコンソールのEC2接続画面が新UIになったので確認してみた",
           "link": "https://dev.classmethod.jp/articles/ec2-console-new-connect-ui-2026/",
@@ -52,60 +66,46 @@
           "excerpt": "2026年7月、一部AWSアカウントでEC2コンソールの接続画面が新しいUIに切り替わっています。…"
         },
         {
-          "title": "iOSショートカットアプリ×AWS Lambdaでエアコンのタイマーを作る",
-          "link": "https://qiita.com/tolipiyo/items/3a864da322a8b56ba697",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-20T04:20:57",
-          "excerpt": "はじめ Nature Remoアプリを使っている方の中で、こんな悩みを抱えている人はいませんか？「「「今から1時間後にエアコンを弱めたい……！！…"
-        },
-        {
-          "title": "Synology NASのデータを地球の反対側に逃がす！S3 Deep Archive活用術",
-          "link": "https://zenn.dev/bleach31/articles/eccef6e58a0b9c",
+          "title": "GoでLambdaを書いたら、外部APIのレート制限との戦いが一気に楽になった",
+          "link": "https://zenn.dev/calmpm_takahiro/articles/go-lambda-ratelimit",
           "source": "Zenn AWSトピック",
-          "published": "2026-07-20T03:25:42",
-          "excerpt": "1.なぜNASだけでは「大切な写真」を守れないのか？（地理的分散の必要性） 自宅にSynology NASを導入し、RAIDを組んで「これでデータ保存は万全」と思っていませんか？…"
-        },
-        {
-          "title": "【RDS】terraform destroy が DBSnapshotAlreadyExists で止まった話",
-          "link": "https://qiita.com/80-cloud/items/fca9dd557827c706e78f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-19T23:40:11",
-          "excerpt": "はじめに 学習用に作った AWS 環境を terraform destroy でまとめて片付けようとしたら、RDS の削除でこのエラーが出て止まりました。…"
+          "published": "2026-07-20T08:42:18",
+          "excerpt": "以前、Lambdaから外部APIを大量に呼び出す処理を書いたことがあります。相手のAPIにコールレート制限があり、そのコントロールにひどく苦労した記憶が残っています。並列度を上げれば429が返る、下げれば終わらない。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。2026年7月15日に修正されたnginxの認証前RCE脆弱性 CVE-2026-42533（CVSS 9.2）の動作をDockerローカル環境で再現しました。…",
+      "summary": "セキュリティの新着が7件。WAFは「Webアプリの前に立つ用心棒」🛡️ WAFは「怪しいリクエストを見抜く」サービス WAF（Web Application Firewall）は、 SQLインジェクションやクロスサイトスクリプティングといった攻撃を防ぐサービス。…",
       "articles": [
+        {
+          "title": "# 【WAF編】SAA先生に学ぶAWSの全容と授業メモ",
+          "link": "https://qiita.com/minifish33/items/680887f007228c43e172",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-20T13:20:22",
+          "excerpt": "WAFは「Webアプリの前に立つ用心棒」🛡️ WAFは「怪しいリクエストを見抜く」サービス WAF（Web Application Firewall）は、 SQLインジェクションやクロスサイトスクリプティングといった攻撃を防ぐサービス。…"
+        },
+        {
+          "title": "顔を抱きしめることで内部データセットと認証情報が侵害されたことが確認され、ユーザーに行動を促す",
+          "link": "https://techcrunch.com/2026/07/20/hugging-face-confirms-breach-affected-internal-datasets-and-credentials-urges-users-to-take-action/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-20T12:39:28",
+          "excerpt": "Hugging Face はユーザーに対し、プラットフォームに保存されているアクセス トークンをローテーションし、アカウント アクティビティを確認するよう呼びかけています。"
+        },
+        {
+          "title": "情報セキュリティの専門家: 2,300 万レコードのデータベースがオンラインに捨てられた後、有料労働ユーザーのデータが流出",
+          "link": "https://www.theregister.com/cyber-crime/2026/07/20/infosec-expert-paidwork-users-data-pwned-after-23m-record-database-dumped-online/5274869",
+          "source": "The Register（英語）",
+          "published": "2026-07-20T12:00:00",
+          "excerpt": "HIBPは、漏洩した情報には銀行口座番号、支払い履歴、個人情報が含まれていると主張している"
+        },
         {
           "title": "2026年7月報告のnginx脆弱性（CVE-2026-42533）をDockerで再現してみた",
           "link": "https://dev.classmethod.jp/articles/cve-2026-42533-nginx-rce-docker-repro/",
           "source": "DevelopersIO",
           "published": "2026-07-20T10:49:36",
           "excerpt": "2026年7月15日に修正されたnginxの認証前RCE脆弱性 CVE-2026-42533（CVSS 9.2）の動作をDockerローカル環境で再現しました。…"
-        },
-        {
-          "title": "Amazon Inspector v2の脆弱性スキャンパイプラインを構築してみた | Techfirm Cloud Architect Blog",
-          "link": "https://techblog.techfirm.co.jp/entry/amazon-inspector-scan-pipeline",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-20T00:00:00",
-          "excerpt": "Amazon Inspector v2の脆弱性スキャンパイプラインを構築する手順をまとめます。"
-        },
-        {
-          "title": "Azure API Management-validate-jwtとEntra IDでAI Gatewayに認証をかける方法 | ヘッドウォータースのフィード",
-          "link": "https://zenn.dev/headwaters/articles/90e601b7a321f6",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-19T23:55:16",
-          "excerpt": "執筆日2026/7/20 やることAzure API Management（以下、APIM）のAI Gatewayについて勉強しています。…"
-        },
-        {
-          "title": "【コツコツAWS】Amazon Cognito - 実装した認可フローやアクセス制限の挙動確認 -",
-          "link": "https://qiita.com/guupys/items/1246e807f7d99d516958",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-19T13:05:49",
-          "excerpt": "前の記事ではCloudFrontの配信コンテンツやAPI Gatewayに対して、Cognitoの認証やCloudFrontのアクセス制限を実装しました。…"
         }
       ]
     },
@@ -140,8 +140,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。Terraform の apply が権限不足で途中停止しました。通常出力と remote state で作成済みリソースを確認し、不足権限だけを修正して再実行した際の作業ログを紹介します。",
+      "summary": "開発ツールの新着が12件。CDK LSPについて、その機能と実際の動作をVS Code拡張で検証してみました。CDKコードとCloudFormation対応関係を可視化し、Synth時のエラーを即座に検出する仕組みを紹介します。",
       "articles": [
+        {
+          "title": "CDK LSP がリリースされたので、VS Code拡張を自作してLSPの挙動を検証してみた",
+          "link": "https://dev.classmethod.jp/articles/cdk-lsp-release/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T12:16:25",
+          "excerpt": "CDK LSPについて、その機能と実際の動作をVS Code拡張で検証してみました。CDKコードとCloudFormation対応関係を可視化し、Synth時のエラーを即座に検出する仕組みを紹介します。"
+        },
+        {
+          "title": "FastAPI + Vue 3 + Terraform のモノレポテンプレート「devcon」を使い倒す - 初期セットアップから自分のAWSへのデプロイまで手順化した",
+          "link": "https://qiita.com/itouhi/items/c394f017bcdda300d43b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-20T12:13:05",
+          "excerpt": "はじめに iwata-jawsug-jp/devcon は、Web アプリケーションとそのインフラ（IaC）をまとめて開発するためのモノレポテンプレートです。…"
+        },
         {
           "title": "Terraform の apply が途中で失敗したので remote state から復旧した",
           "link": "https://dev.classmethod.jp/articles/terraform-apply-failure-recovery-remote-state/",
@@ -150,57 +164,43 @@
           "excerpt": "Terraform の apply が権限不足で途中停止しました。通常出力と remote state で作成済みリソースを確認し、不足権限だけを修正して再実行した際の作業ログを紹介します。"
         },
         {
-          "title": "Claude Apps Gateway を Amazon Bedrock 向けにデプロイして使ってみた",
-          "link": "https://zenn.dev/aws_japan/articles/c885fce9ba7262",
+          "title": "Terraformで電話網に通話分析AIの土台を建てる ― Amazon Connect+KVSと「CodecID詐称事件」",
+          "link": "https://zenn.dev/halhalhal1/articles/amazon-connect-kvs-terraform",
           "source": "Zenn AWSトピック",
-          "published": "2026-07-20T06:05:13",
-          "excerpt": "Claude Apps Gateway が利用可能になりました 2026年7月、Anthropic 純正のセルフホスト型ゲートウェイ「Claude Apps Gateway」が公開され、Amazon Bedrock を上流として利用できるよ…"
-        },
-        {
-          "title": "AWS学習27日目：CloudFormation・CodeBuild・CodePipeline",
-          "link": "https://zenn.dev/zono731/articles/ae08950c7e83f7",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-20T06:00:20",
-          "excerpt": "今日のテーマ AWS学習27日目は、AWSリソースの作成とコンテナイメージのビルドを自動化するため、CloudFormation・CodeBuild・CodePipelineを学びました。…"
-        },
-        {
-          "title": "Pull Requestでレビューするブログ運用 〜はてなブログ × GitHub〜 | KENTEM TechBlog",
-          "link": "https://tech.kentem.jp/entry/2026/07/20/090000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-20T00:00:00",
-          "excerpt": "こんにちは！KENTEM TechBlog 編集部です。普段複数人でブログを書いている皆さま、記事の作成やレビューなどの運用はどうしていますか？？…"
+          "published": "2026-07-20T08:15:34",
+          "excerpt": "通話相手の心理状態をAIがリアルタイムに読むプロダクト(crossbar_telepath)を作り始めた。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【簡単AWS MLA】【初心者向け】Day 6：F1 Score を整理する — Precision と Recall をまとめて見る評価指標",
-      "link": "https://qiita.com/MetaYuan/items/d8827ee8a0df86f18821",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-20T11:05:25",
-      "excerpt": "はじめに 前回は、分類モデルでよく使われる評価指標として accuracy precision recall について整理しました。…"
-    },
-    {
-      "title": "英国政府が監視機関による共有サービスクラスターの評価を赤にすると計画しているため、マトリックスに大きな不具合が発生",
-      "link": "https://www.theregister.com/public-sector/2026/07/20/major-glitch-in-matrix-as-uk-government-projects-watchdog-rates-shared-services-cluster-red/5274368",
+      "title": "すべてのお金が数兆ドルのマジック 8 ボールに流れ込み、世界が燃え上がるのを眺める",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/20/watching-the-world-burn-as-all-the-money-flows-into-a-multitrillion-dollar-magic-8-ball/5274553",
       "source": "The Register（英語）",
-      "published": "2026-07-20T10:00:00",
-      "excerpt": "9部門のERP全面見直しは緊急措置なしでは達成不可能と判断"
+      "published": "2026-07-20T12:44:00",
+      "excerpt": "今週の The Kettle のエピソードでは、特別ゲストをお迎えして、AI データセンターの構築が文字通りどのように世界に火をつけているかについて話し合います。"
     },
     {
-      "title": "【AWS解説 基本編 #3】リージョン・AZ・マルチAZの違いを整理",
-      "link": "https://qiita.com/suzunari900261/items/b56a0e8e9aaae8c5ce95",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-20T09:19:55",
-      "excerpt": "【AWS解説 基本編 #3】リージョン・AZ・マルチAZの違いを整理 前回までは、AWSがクラウドサービスであることと、機能ごとに分かれたサービスを組み合わせて使うことを整理しました。前回までの記事はこちらです。…"
+      "title": "StrictlyVC は、9 月 10 日にニューヨーク市に戻り、市のスタートアップ コミュニティにとって重要な 1 年を祝います",
+      "link": "https://techcrunch.com/2026/07/20/strictlyvc-returns-to-new-york-city-september-10-to-celebrate-a-huge-year-for-the-citys-startup-community/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-20T12:30:00",
+      "excerpt": "2024 年以来初めて、StrictlyVC がニューヨーク市に戻ってきます。そして私たちは、スタートアップ、VC、ディールメイキング コミュニティ全体に、内輪のイベントに期待されるようなアクセスを提供します。"
     },
     {
-      "title": "エアバスは AWS から運航します。次に何が起こるかが重要です",
-      "link": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
-      "source": "The Register（英語）",
-      "published": "2026-07-20T09:15:00",
-      "excerpt": "また自由の国へ行くにはどっちですか？"
+      "title": "EUはビザなし旅行のために最も機密データを米国に売ろうとしている",
+      "link": "https://edri.org/our-work/the-eu-is-about-to-sell-our-most-sensitive-data-to-the-us-for-visa-free-travel/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-20T12:14:08",
+      "excerpt": "記事の URL: https://edri.…"
+    },
+    {
+      "title": "grep を超えて: コンテキストリッチな AI コーディング ハーネスの事例",
+      "link": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-20T11:20:10",
+      "excerpt": "Augment Code の Vinay Perneti がモデル、ハーネス、コンテキストについて語ります。"
     }
   ]
 }
