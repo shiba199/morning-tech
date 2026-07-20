@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-20T20:16:11",
+  "generated_at": "2026-07-20T21:38:14",
   "window_hours": 24,
-  "total": 159,
+  "total": 165,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が34件。Google CloudがCompute EngineにGemini統合インフラ設計ツールをプレビュー公開。自然言語プロンプトからマシンタイプ選定、コスト試算、Terraform コード自動生成が可能。…",
+      "summary": "生成AIの新着が35件。Googleの親会社であるAlphabetは、Geminiモデルをより効率的に実行できるように設計された新しいチップの開発に取り組んでいると伝えられている。",
       "articles": [
+        {
+          "title": "Googleは、Geminiをより効率的にするために設計された新しいAIチップの開発に取り組んでいます",
+          "link": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-20T21:21:15",
+          "excerpt": "Googleの親会社であるAlphabetは、Geminiモデルをより効率的に実行できるように設計された新しいチップの開発に取り組んでいると伝えられている。"
+        },
         {
           "title": "Compute Engine の Gemini を使ったインフラ設計ツールを試してみた",
           "link": "https://dev.classmethod.jp/articles/tried-out-infrastructure-design-tool-using-gemini-on-compute-engine/",
@@ -29,20 +36,13 @@
           "source": "TechCrunch（英語）",
           "published": "2026-07-20T19:11:25",
           "excerpt": "設立 1 年のスタートアップは、自律型 AI 取引のための金融アーキテクチャを再発明することを目指しています。"
-        },
-        {
-          "title": "実証研究: AI エージェント ルールにはコンテキストと階層化された適用が必要",
-          "link": "https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-20T18:10:44",
-          "excerpt": "記事の URL: https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement/ コメント URL: https://news.ycombinator.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。Google CloudがCompute EngineにGemini統合インフラ設計ツールをプレビュー公開。自然言語プロンプトからマシンタイプ選定、コスト試算、Terraform コード自動生成が可能。…",
+      "summary": "クラウドの新着が14件。Google CloudがCompute EngineにGemini統合インフラ設計ツールをプレビュー公開。自然言語プロンプトからマシンタイプ選定、コスト試算、Terraform コード自動生成が可能。…",
       "articles": [
         {
           "title": "Compute Engine の Gemini を使ったインフラ設計ツールを試してみた",
@@ -126,8 +126,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。Kiro CLI 2.13.0 の V3 モードで追加された Introspect Subagent と Global Hooks を実際に動かして検証しました。…",
+      "summary": "開発ツールの新着が13件。AWS Solutions Guidanceとして公開された「KNFSD File Cache」のリポジトリを静的解析し、カスタムカーネル・NFS re-export・FS-Cache・OTel Collectorカスタムビルドなど、EC2…",
       "articles": [
+        {
+          "title": "AWS Solutions Guidance「KNFSD File Cache」のIaCテンプレートを読み解いてみた",
+          "link": "https://dev.classmethod.jp/articles/knfsd-file-cache-on-aws-iac-analysis/",
+          "source": "DevelopersIO",
+          "published": "2026-07-20T21:00:47",
+          "excerpt": "AWS Solutions Guidanceとして公開された「KNFSD File Cache」のリポジトリを静的解析し、カスタムカーネル・NFS re-export・FS-Cache・OTel Collectorカスタムビルドなど、EC2…"
+        },
         {
           "title": "Kiro CLI 2.13 V3モードの新機能 Introspect Subagent / Global Hooks を試してみた",
           "link": "https://dev.classmethod.jp/articles/kiro-cli-213-v3-introspect-global-hooks/",
@@ -148,45 +155,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-20T12:16:25",
           "excerpt": "CDK LSPについて、その機能と実際の動作をVS Code拡張で検証してみました。CDKコードとCloudFormation対応関係を可視化し、Synth時のエラーを即座に検出する仕組みを紹介します。"
-        },
-        {
-          "title": "FastAPI + Vue 3 + Terraform のモノレポテンプレート「devcon」を使い倒す - 初期セットアップから自分のAWSへのデプロイまで手順化した",
-          "link": "https://qiita.com/itouhi/items/c394f017bcdda300d43b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-20T12:13:05",
-          "excerpt": "はじめに iwata-jawsug-jp/devcon は、Web アプリケーションとそのインフラ（IaC）をまとめて開発するためのモノレポテンプレートです。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "EDA on the Cloud 2026 – Tokyo (2026年8月4日開催)",
-      "link": "https://aws.amazon.com/jp/blogs/news/eda-tokyo-20260804/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-07-20T20:04:19",
-      "excerpt": "半導体設計のクラウド活用を徹底解説するイベント「EDA on the Cloud – Tokyo」を8月4日（火）に麻布台ヒルズで開催します。…"
+      "title": "構成図をAIから編集したくて、JSONネイティブな図解ツールZukaiを作った",
+      "link": "https://qiita.com/Satachito/items/d2d8db7201445e4c03b1",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-20T21:27:05",
+      "excerpt": "クラウド構成図を更新するとき、図そのものよりも「どのツールで、どのファイルを、どう直すか」に時間がかかることがあります。そこで作ったのが Zukai です。…"
     },
     {
-      "title": "X が 1 年間の努力の末、再構築した Android アプリを再起動",
-      "link": "https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort/",
+      "title": "CloudTrail Network Activity Events の新機能「UserIdentity フィルタリング」を試してみた",
+      "link": "https://dev.classmethod.jp/articles/cloudtrail-network-activity-events-useridentity-filtering/",
+      "source": "DevelopersIO",
+      "published": "2026-07-20T21:23:41",
+      "excerpt": "CloudTrail の Network Activity Events に、UserIdentity ベースのフィルタリングが追加されました。…"
+    },
+    {
+      "title": "AI の最も重要なプロトコルが少し使いやすくなりました",
+      "link": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-20T19:37:39",
-      "excerpt": "X は、Android アプリの再構築版が世界中で利用できるようになったと述べています。"
+      "published": "2026-07-20T20:50:40",
+      "excerpt": "モデル コンテキスト プロトコル (MCP) は、AI の相互運用性の基本的な構成要素の 1 つであり、AI モデルに外部のデータ ソースやサービスに安全にアクセスする方法を提供します。…"
     },
     {
-      "title": "人間の数学者は反例にさらされている",
-      "link": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-20T19:03:37",
-      "excerpt": "記事の URL: https://xenaproject.wordpress.…"
-    },
-    {
-      "title": "ロングホライズンモデル時代の安全性とアライメント",
-      "link": "https://openai.com/index/safety-alignment-long-horizon-models/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-20T18:43:55",
-      "excerpt": "記事の URL: https://openai.com/index/safety-alignment-long-horizon-models/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "宇宙軍は現在、ロケット打ち上げ費用を最大300億ドルで購入しようとしている",
+      "link": "https://arstechnica.com/science/2026/07/the-space-force-is-now-seeking-to-buy-up-to-30-billion-in-rocket-launches/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-20T20:30:25",
+      "excerpt": "トランプ政権は宇宙軍に多くのことを求めている。これにはさらに多くの起動が必要になります。"
     }
   ]
 }
