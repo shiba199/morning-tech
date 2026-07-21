@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-07-21T04:40:36",
+  "generated_at": "2026-07-21T07:27:09",
   "window_hours": 24,
-  "total": 209,
+  "total": 215,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が46件。既存の MCP 統合を活かし、AgentCore Gateway の MCP ターゲットで VPC Lambda サブエージェントをツールとして公開。アプリコード変更なしでマルチエージェント構成を実現した手順とハマりポイントをまとめます。",
+      "summary": "生成AIの新着が45件。オペミス対応の後処理が大変だったので、ClaudeのAgent Skillsを使って自動化に挑戦してみました。非エンジニアでもAIに仕組みを作らせることで、報告書作成から再発防止策の立案まで効率化できるのか試してみます。",
       "articles": [
+        {
+          "title": "非エンジニアがClaudeのAgent Skillsでオペミス対応を仕組み化してみた",
+          "link": "https://dev.classmethod.jp/articles/non-engineer-claude-skills-ops-mistake-response/",
+          "source": "DevelopersIO",
+          "published": "2026-07-21T05:45:07",
+          "excerpt": "オペミス対応の後処理が大変だったので、ClaudeのAgent Skillsを使って自動化に挑戦してみました。非エンジニアでもAIに仕組みを作らせることで、報告書作成から再発防止策の立案まで効率化できるのか試してみます。"
+        },
+        {
+          "title": "週刊生成AI with AWS – 2026/7/13 週",
+          "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260713/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-07-21T05:18:21",
+          "excerpt": "今週の「週刊生成AI with AWS」は、3 万人が利用する生成 AI 基盤を AIエージェント活用基盤へ進化させた村田製作所様の事例をはじめ、音声 AI や Well-Architected レビューでのAI活用、LLMコスト最適化など…"
+        },
+        {
+          "title": "Claude Scienceを使って生命科学研究をやってみた〜シングルセル解析入門から最新研究まで、その実力と限界〜 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
+          "link": "https://recruit.group.gmo/engineer/jisedai/blog/claude-science/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-21T04:56:29",
+          "excerpt": "TL;DR Claude Scienceは、Anthropicが発表した科学研究用のAIワークベンチです。多数のSkillやデータベースと連携し、文献調査から解析・図表・レポート作成までを自動化してくれます。…"
+        },
         {
           "title": "AgentCore Gateway × VPC Lambda でAI Starterのマルチエージェントを構築してみた",
           "link": "https://dev.classmethod.jp/articles/agentcore-gateway-mcp-multi-agent-vpc-lambda/",
           "source": "DevelopersIO",
           "published": "2026-07-21T04:00:05",
           "excerpt": "既存の MCP 統合を活かし、AgentCore Gateway の MCP ターゲットで VPC Lambda サブエージェントをツールとして公開。アプリコード変更なしでマルチエージェント構成を実現した手順とハマりポイントをまとめます。"
-        },
-        {
-          "title": "Claude Code v2.1.215〜v2.1.216 の主要アップデート - sandbox 設定の追加と長時間セッションの高速化",
-          "link": "https://dev.classmethod.jp/articles/20260721-cc-updates-v2-1-216/",
-          "source": "DevelopersIO",
-          "published": "2026-07-21T03:02:50",
-          "excerpt": "Claude Code v2.1.215〜v2.1.216のアップデート内容をまとめました。sandbox設定の追加と長時間セッションの高速化が主な改善で、セキュリティ・権限周りの堅牢化も進みました。実際に新機能 sandbox.…"
-        },
-        {
-          "title": "A100 80GBでOSS VLMのマルチモーダルRAGを比較：A4000 16GBでは起動できなかった理由 | HEROZ Tech Blog",
-          "link": "https://techblog.heroz.jp/entry/2026/07/21/120000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-21T03:00:00",
-          "excerpt": "A100 80GB環境でOSS VLMをvLLMから起動し、マルチモーダルRAGの回答生成モデルとして比較しました。…"
-        },
-        {
-          "title": "【非エンジニアのためのClaude/ClaudeCodeシリーズ】Claudeに「利用明細データ」をもとに、市場動向を横断分析させてみた",
-          "link": "https://dev.classmethod.jp/articles/claude-markettrend-analysis-manager/",
-          "source": "DevelopersIO",
-          "published": "2026-07-21T00:42:35",
-          "excerpt": "Claude Coworkに、市場動向や顧客ニーズの傾向を分析させた事例をご紹介します。データから「伸びているサービス」「広がりのある成長」を抽出してくれたClaude Cowork活用方法をまとめました。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。既存の MCP 統合を活かし、AgentCore Gateway の MCP ターゲットで VPC Lambda サブエージェントをツールとして公開。アプリコード変更なしでマルチエージェント構成を実現した手順とハマりポイントをまとめます。",
+      "summary": "クラウドの新着が20件。はじめに RDSの空きメモリが減り続け、余裕がなくなってくると、このままで大丈夫なのか、何を見れば判断できるのか不安になります。…",
       "articles": [
+        {
+          "title": "RDS for MySQLでFreeableMemoryが減り続けたときの切り分け方",
+          "link": "https://zenn.dev/linkedge/articles/a02c047bab12b4",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-21T06:52:24",
+          "excerpt": "はじめに RDSの空きメモリが減り続け、余裕がなくなってくると、このままで大丈夫なのか、何を見れば判断できるのか不安になります。…"
+        },
         {
           "title": "AgentCore Gateway × VPC Lambda でAI Starterのマルチエージェントを構築してみた",
           "link": "https://dev.classmethod.jp/articles/agentcore-gateway-mcp-multi-agent-vpc-lambda/",
@@ -64,56 +71,56 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-21T01:55:55",
           "excerpt": "はじめに Amazon S3は、AWSの中でも特によく利用されるストレージサービスです。しかし、S3を利用していると、 「S3 Standardって何？」 「Glacierって安いって聞いたけど何が違うの？…"
-        },
-        {
-          "title": "CDK Expressモードで VPC Lambda の CreateNetworkInterface 権限エラーに遭遇した話",
-          "link": "https://dev.classmethod.jp/articles/vpc-lambda-createnetworkinterface-express-mode/",
-          "source": "DevelopersIO",
-          "published": "2026-07-21T00:00:00",
-          "excerpt": "CDK で Lambda を VPC 化したら CreateNetworkInterface の権限エラーが出ました。CDK は必要な権限を自動付与するはずなのになぜ起きるのか、検証で原因を切り分けていきます。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。「脆弱性を見つけても報告先がない」「修正されたのかも分からない」。そんな状況を変えるため、CISAやNSA、JPCERT/CCなど5機関が、企業向けの共同指針を公開した。善意の研究者との協力を前提とした新たな脆弱性管理の実務とは何か。",
+      "summary": "セキュリティの新着が12件。Shieldは「黙って全員を守る標準装備の盾」🛡️⚡ Shieldは「DDoS攻撃」専門の守り手 WAFが「怪しいリクエストの中身」を見るのに対して、 Shieldは DDoS攻撃 という物量攻撃に特化した対策サービス。…",
       "articles": [
         {
-          "title": "脆弱性報告を受け付けない企業は危うい？　CISAら5機関が共同指針",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/21/news027.html",
-          "source": "@IT",
-          "published": "2026-07-20T22:00:00",
-          "excerpt": "「脆弱性を見つけても報告先がない」「修正されたのかも分からない」。そんな状況を変えるため、CISAやNSA、JPCERT/CCなど5機関が、企業向けの共同指針を公開した。善意の研究者との協力を前提とした新たな脆弱性管理の実務とは何か。"
-        },
-        {
-          "title": "攻撃者は WordPress の重要な脆弱性を攻撃し、あらゆる種類の悪さを引き起こします",
-          "link": "https://www.theregister.com/security/2026/07/20/attackers-pummel-critical-wordpress-vuln-to-create-all-sorts-of-mischief/5275265",
-          "source": "The Register（英語）",
-          "published": "2026-07-20T21:57:51",
-          "excerpt": "さらに、パブリックドメインでの数十の PoC"
-        },
-        {
-          "title": "支払うか否か？ランサムウェアの急増により、被害者は難しい選択に直面している",
-          "link": "https://arstechnica.com/security/2026/07/pay-up-or-not-ransomware-surge-has-victims-facing-tough-choices/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-07-20T14:00:50",
-          "excerpt": "政府は、ますます巧妙化する脅威に直面して、身代金の支払いを禁止することを検討しています。"
-        },
-        {
-          "title": "# 【WAF編】SAA先生に学ぶAWSの全容と授業メモ",
-          "link": "https://qiita.com/minifish33/items/680887f007228c43e172",
+          "title": "【Shield編】SAA先生に学ぶAWSの全容と授業メモ",
+          "link": "https://qiita.com/minifish33/items/2299024113eeeecb4ae5",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-20T13:20:22",
-          "excerpt": "WAFは「Webアプリの前に立つ用心棒」🛡️ WAFは「怪しいリクエストを見抜く」サービス WAF（Web Application Firewall）は、 SQLインジェクションやクロスサイトスクリプティングといった攻撃を防ぐサービス。…"
+          "published": "2026-07-21T06:53:16",
+          "excerpt": "Shieldは「黙って全員を守る標準装備の盾」🛡️⚡ Shieldは「DDoS攻撃」専門の守り手 WAFが「怪しいリクエストの中身」を見るのに対して、 Shieldは DDoS攻撃 という物量攻撃に特化した対策サービス。…"
+        },
+        {
+          "title": "WafCharm導入前に必要なAWS WAFルールのプライオリティ設定の確認手順についてまとめてみた",
+          "link": "https://dev.classmethod.jp/articles/aws-waf-priority-setting-for-wafcharm/",
+          "source": "DevelopersIO",
+          "published": "2026-07-21T06:25:35",
+          "excerpt": "AWS WAFの運用支援サービス「WafCharm」導入時に起きる可能性があるプライオリティ競合について、回避するための事前確認の手順をまとめました。"
+        },
+        {
+          "title": "Sakana AI、オーケストレーションモデルFuguのサイバーセキュリティ強化版「Fugu-Cyber」をリリース ―セキュリティベンチマークで“SOTAパフォーマンス”を達成",
+          "link": "https://gihyo.jp/article/2026/07/fugu-cyber?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-07-21T05:19:00",
+          "excerpt": "Sakana AIは2026年7月21日、同社が提供するAIオーケストレーションモデル「Sakana Fugu」をアップデートし、サイバー防御機能を特別に強化した「Fugu-Cyber」をリリースした。"
+        },
+        {
+          "title": "WordPressに認証不要でコード実行される緊急の脆弱性　即時更新を呼び掛け",
+          "link": "https://www.itmedia.co.jp/news/articles/2607/21/news084.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-07-21T05:06:00",
+          "excerpt": "WordPress開発チームは、深刻な2件の脆弱性を修正したセキュリティリリース「7.0.2」を公開した。未認証でリモートコードが実行される恐れがあるため、影響を受けるWebサイトへ自動更新を順次適用中。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。報告書によると、この消滅寸前のスタートアップは、以前の評価額の2倍か3倍を目指しているという。",
+      "summary": "データ分析の新着が4件。まず最初にこの記事について： 前回の記事の最後で述べたように 「CloudFormationテンプレートで展開されるBIGIPの構成を手動で再現する」 という内容です。この記事では、まずAWSリソースの環境設定を扱います。…",
       "articles": [
+        {
+          "title": "AWSでBIGIPのHA構成を作る（手動構築編ー第１章：AWS環境設定）",
+          "link": "https://qiita.com/_Ik_/items/4f591d8a5961d5680ec1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-21T05:58:28",
+          "excerpt": "まず最初にこの記事について： 前回の記事の最後で述べたように 「CloudFormationテンプレートで展開されるBIGIPの構成を手動で再現する」 という内容です。この記事では、まずAWSリソースの環境設定を扱います。…"
+        },
         {
           "title": "Colossal Biosciencesは評価額200億～300億ドルで新たな資本を調達する交渉を行っていると報じられている",
           "link": "https://techcrunch.com/2026/07/20/colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation/",
@@ -140,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。Oblien LLCは2026年7月18日、オープンソースのデプロイメントプラットフォーム「OpenShip」をApache 2.0ライセンスのもとGitHub上で公開した。",
+      "summary": "開発ツールの新着が14件。はじめに こんにちは。スピーダ事業Product Teamの中嶋です。以前の記事で1週間ごとにチームのふりかえりをしていると書きました。tech.uzabase.com ふりかえりのファシリテーターは、基本的にはチームの外から呼んできます。…",
       "articles": [
+        {
+          "title": "『チーム・ジャーニー』の3つの問いでチームビルディングをやってみた | Uzabase for Engineers",
+          "link": "https://tech.uzabase.com/entry/2026/07/21/144218",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-21T05:42:18",
+          "excerpt": "はじめに こんにちは。スピーダ事業Product Teamの中嶋です。以前の記事で1週間ごとにチームのふりかえりをしていると書きました。tech.uzabase.com ふりかえりのファシリテーターは、基本的にはチームの外から呼んできます。…"
+        },
+        {
+          "title": "Claude Scienceを使って生命科学研究をやってみた〜シングルセル解析入門から最新研究まで、その実力と限界〜 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
+          "link": "https://recruit.group.gmo/engineer/jisedai/blog/claude-science/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-21T04:56:29",
+          "excerpt": "TL;DR Claude Scienceは、Anthropicが発表した科学研究用のAIワークベンチです。多数のSkillやデータベースと連携し、文献調査から解析・図表・レポート作成までを自動化してくれます。…"
+        },
         {
           "title": "さまざまなインフラ上でWebアプリケーションを構築、デプロイ、運用できるオープンソースのデプロイ基盤「OpenShip」リリース",
           "link": "https://gihyo.jp/article/2026/07/openship?utm_source=feed",
@@ -155,52 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-21T00:00:00",
           "excerpt": "CDK で Lambda を VPC 化したら CreateNetworkInterface の権限エラーが出ました。CDK は必要な権限を自動付与するはずなのになぜ起きるのか、検証で原因を切り分けていきます。"
-        },
-        {
-          "title": "xAI の新コーディングエージェント CLI「Grok Build」を整理する: Claude Code / Codex CLI との違い | TECHSCORE BLOG",
-          "link": "https://blog.techscore.com/entry/2026/07/21/080000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-20T23:00:00",
-          "excerpt": "xAI の新コーディングエージェント CLI「Grok Build」の機能・料金・提供状況を整理し、Claude Code や Codex CLI との違いを解説します。"
-        },
-        {
-          "title": "AssumeRoleとは結局何なのか？AWS CLIの--debugで裏側を観察する",
-          "link": "https://zenn.dev/dip_techblog/articles/20260720-aws-assume-role-behind-the-scenes",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-20T22:25:54",
-          "excerpt": "はじめに 自分は「role は user に割り当てられる権限セットで、assume role はそれを有効化する操作なんでしょ」くらいの認識で、長いこと assume role を使ってきた。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "New Relic アップデート(2026年6月)",
-      "link": "https://qiita.com/nr-mito/items/12f4879ab9e4e0f699e3",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-21T04:19:55",
-      "excerpt": "2026年6月のNew Relic のアップデートをまとめて紹介です！！…"
+      "title": "XのAndroidアプリ、1年かけ“過去最大級の刷新”も賛否　「UI変わりすぎ」「スペース使えない」の声も",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/21/news081.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-21T06:10:00",
+      "excerpt": "米Xが7月20日（現地時間）、Android向けアプリをゼロから作り直したと発表した。1年以上をかけた再構築で、動作が速く滑らかになったという。…"
     },
     {
-      "title": "米海軍、データとAIを軍事運用へ　判断の権限を現場へ委ねるガバナンスとは",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/21/news022.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-07-21T04:10:00",
-      "excerpt": "米国海軍省はデータとAIを軍事運用に統合する新戦略を発表した。インフラを標準化しつつ、リスク判断の権限を現場へ委ねるガバナンスに刷新し、迅速な意思決定を目指す。"
-    },
-    {
-      "title": "SIOS OSS よろず Newsメルマガ100号記念！ | SIOS Tech Lab",
-      "link": "https://tech-lab.sios.jp/archives/information/sios-oss-yorozu-news-100-episode",
+      "title": "Linear ショートカット大全 | Gemcook Tech Blogのフィード",
+      "link": "https://zenn.dev/gemcook/articles/linear-shortcuts",
       "source": "企業テックブログまとめ",
-      "published": "2026-07-21T04:00:54",
-      "excerpt": "2018年6月の創刊から、毎月一歩ずつ歩みを進めて参りました「SIOS OSSよろずNews」のメルマガも、このたび「100号」という大きな節目を迎えることができました。長きにわたり、私たちの発信する情報に目を通し、温か ...…"
+      "published": "2026-07-21T05:49:27",
+      "excerpt": "はじめにこの記事は macOS 向け のショートカットをまとめたものです。表記は Cmd（⌘）・Option（⌥）を使用しています。Windows / Linux では Cmd → Ctrl、Option → Alt に読み替えてください。…"
     },
     {
-      "title": "PyCon JP 2026にSilverスポンサーとして初協賛します！ | Sansan Tech Blog",
-      "link": "https://buildersbox.corp-sansan.com/entry/2026/07/21/130000",
+      "title": "フォトチームの開発体験の改善 ２０２６夏 | ユニファ開発者ブログ",
+      "link": "https://tech.unifa-e.com/entry/2026/07/21/140314",
       "source": "企業テックブログまとめ",
-      "published": "2026-07-21T04:00:00",
-      "excerpt": "Sansan株式会社は、2026年に開催される「PyCon JP 2026」に、Silverスポンサーとして初めて協賛します！本記事では、協賛の背景や目的、取り組みについてご紹介します。…"
+      "published": "2026-07-21T05:03:14",
+      "excerpt": "フォトチームの開発体験の改善 ２０２６夏 こんにちは。開発二部の伊東です。以前、フォトチームの開発体験の改善について記事を書きました。tech.unifa-e.com あれから約２年、フォトチームの開発環境はかなり変わりました。…"
+    },
+    {
+      "title": "SRE NEXT 2026 参加レポート | inSmartBank",
+      "link": "https://blog.smartbank.co.jp/entry/2026/07/21/135358",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-21T04:53:58",
+      "excerpt": "2026年7月10日(金)・11日(土)にTOC有明で開催された SRE NEXT 2026 にSREチームから2名とCTOとで参加してきました。そして今年はスマートバンクはロゴスポンサーをさせていただきました！…"
     }
   ]
 }
