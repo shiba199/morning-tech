@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-21T16:52:05",
+  "generated_at": "2026-07-21T18:08:13",
   "window_hours": 24,
-  "total": 210,
+  "total": 218,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。AWS WAFのログ分析と運用を効率化するため、Claude Code のカスタムスキルを活用した自動分析システムを構築・運用してみた取り組みをお話しします。",
+      "summary": "生成AIの新着が36件。Google は Gemini 3.6 Flash、3.5 Flash-Lite、および Flash Cyber​​ をリリースしましたが、Gemini 3.…",
       "articles": [
+        {
+          "title": "Google は 3 つの新しい Gemini モデルをリリースしますが、3.5 Pro はリリースしません",
+          "link": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-21T17:11:50",
+          "excerpt": "Google は Gemini 3.6 Flash、3.5 Flash-Lite、および Flash Cyber​​ をリリースしましたが、Gemini 3.…"
+        },
+        {
+          "title": "Google、Gemini 3.6 Flash とサイバーセキュリティ AI を発表、3.5 Pro と Gemini 4 を予告",
+          "link": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-07-21T16:58:25",
+          "excerpt": "現在、新しい 3.6 モデルと 3.5 モデルがありますが、Google はすでに Gemini 4 のトレーニングを行っています。"
+        },
         {
           "title": "【夏休みの自由研究リレー】Claudeと一緒にAWS WAF運用をやってみてる話",
           "link": "https://dev.classmethod.jp/articles/aws-waf-operations-log-analysis-with-claude/",
@@ -22,28 +36,28 @@
           "source": "Publickey",
           "published": "2026-07-21T13:51:42",
           "excerpt": "アイデンティティ管理サービスを提供するOktaは、同社のサービスを用いている2万社以上の匿名化されたアクセスデータに基づく、企業でのAIツール利用実態について調査結果を発表しました。成長率トップはAnthropic 1つ目の調査結果は、2.…"
-        },
-        {
-          "title": "Claude Code のテレメトリを Grafana otel-lgtm で可視化してみた",
-          "link": "https://dev.classmethod.jp/articles/visualize-claude-code-telemetry-grafana-otel-lgtm/",
-          "source": "DevelopersIO",
-          "published": "2026-07-21T13:24:59",
-          "excerpt": "Claude CodeのOpenTelemetryテレメトリを、ローカルのgrafana/otel-lgtmで可視化してみました。…"
-        },
-        {
-          "title": "メルカリやグーグル・クラウドなどが登壇、AICX協会がAIエージェントの実践知を解き明かす2日間のイベントを開催",
-          "link": "https://codezine.jp/article/detail/29056",
-          "source": "CodeZine",
-          "published": "2026-07-21T10:30:00",
-          "excerpt": "メルカリやグーグル・クラウドなどが登壇、AICX協会がAIエージェントの実践知を解き明かす2日間のイベントを開催"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。CloudFront VPCオリジン障害（2026-07-16）を受け、フェイルオーバーの待機時間を応答遅延時30秒→10秒、接続失敗時は2秒に短縮するタイムアウト設定を本番アクセスログから導出し、検証環境で動作を確認しました。",
+      "summary": "クラウドの新着が17件。記事の URL: https://blog.mozilla.org/en/firefox/firefox-containers-preview/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "Firefox コンテナのプレビュー",
+          "link": "https://blog.mozilla.org/en/firefox/firefox-containers-preview/",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-21T17:27:59",
+          "excerpt": "記事の URL: https://blog.mozilla.org/en/firefox/firefox-containers-preview/ コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "Amazon ECS は、デプロイとオーケストレーションの可視性のためのアクション ログを提供するようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-action-logs/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-21T15:30:00",
+          "excerpt": "本日、 Amazon Elastic Container Service (Amazon ECS) は、サービスのデプロイメントおよび ECS 管理デーモンの更新中に Amazon ECS が顧客に代わって実行するアクションの詳細なタイムス…"
+        },
         {
           "title": "CloudFront VPCオリジンのフェイルオーバー待機時間を本番ログから最適化してみた",
           "link": "https://dev.classmethod.jp/articles/cloudfront-vpc-origin-failover-timeout-optimization/",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-21T11:45:24",
           "excerpt": "今回使用するAWSサービス 1.CloudFormation ​ 3.CloudWatch 4.…"
-        },
-        {
-          "title": "API Gateway + Lambda統合でキャッシュを使うときに忘れがちな2つのポイント | DELTAテックブログのフィード",
-          "link": "https://zenn.dev/team_delta/articles/160160db772388",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-21T11:18:38",
-          "excerpt": "この記事のポイントAPI Gateway (REST API) + Lambda プロキシ統合でキャッシュを有効にしたとき、クエリパラメータごとにキャッシュを分けたいケースがあります。この時私が忘れがちな設定を、備忘録として2点まとめます。…"
-        },
-        {
-          "title": "RDS for MySQLでFreeableMemoryが減り続けたときの切り分け方",
-          "link": "https://zenn.dev/linkedge/articles/a02c047bab12b4",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-21T06:52:24",
-          "excerpt": "はじめに RDSの空きメモリが減り続け、余裕がなくなってくると、このままで大丈夫なのか、何を見れば判断できるのか不安になります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。記事の URL: https://postquantum.com/security-pqc/anssi-pqc-certification-2027/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が12件。現在、新しい 3.6 モデルと 3.5 モデルがありますが、Google はすでに Gemini 4 のトレーニングを行っています。",
       "articles": [
+        {
+          "title": "Google、Gemini 3.6 Flash とサイバーセキュリティ AI を発表、3.5 Pro と Gemini 4 を予告",
+          "link": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-07-21T16:58:25",
+          "excerpt": "現在、新しい 3.6 モデルと 3.5 モデルがありますが、Google はすでに Gemini 4 のトレーニングを行っています。"
+        },
         {
           "title": "フランスのAnssiは2027年からPQCフリー製品の認証をブロックする",
           "link": "https://postquantum.com/security-pqc/anssi-pqc-certification-2027/",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-21T15:21:18",
           "excerpt": "AWS WAFのログ分析と運用を効率化するため、Claude Code のカスタムスキルを活用した自動分析システムを構築・運用してみた取り組みをお話しします。"
-        },
-        {
-          "title": "AI 音楽プラットフォーム Suno が大失敗、5,500 万ユーザーがデータ侵害にさらされ情報セキュリティの専門家が主張",
-          "link": "https://www.theregister.com/security/2026/07/21/breach-of-ai-music-platform-suno-affected-55m-user-accounts/5275514",
-          "source": "The Register（英語）",
-          "published": "2026-07-21T13:45:00",
-          "excerpt": "Have I Been Pwned が初めてその規模を確認"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。Amazon Web Services（AWS）は、デプロイ速度が最大で4倍速になるAWS CloudFormationの新機能「AWS CloudFormation Expressモード」の提供を開始しました。AWS CloudForm.…",
+      "summary": "開発ツールの新着が12件。本日、 Amazon Elastic Container Service (Amazon ECS) は、サービスのデプロイメントおよび ECS 管理デーモンの更新中に Amazon ECS が顧客に代わって実行するアクションの詳細なタイムス…",
       "articles": [
+        {
+          "title": "Amazon ECS は、デプロイとオーケストレーションの可視性のためのアクション ログを提供するようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-action-logs/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-21T15:30:00",
+          "excerpt": "本日、 Amazon Elastic Container Service (Amazon ECS) は、サービスのデプロイメントおよび ECS 管理デーモンの更新中に Amazon ECS が顧客に代わって実行するアクションの詳細なタイムス…"
+        },
         {
           "title": "AWS、デプロイ速度が最大4倍になる「AWS CloudFormation Expressモード」を提供開始",
           "link": "https://www.publickey1.jp/blog/26/aws4aws_cloudformation_express.html",
@@ -169,45 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-21T10:02:40",
           "excerpt": "Amazon Timestream for InfluxDB 3 CoreとInfluxDB 3 ExplorerをCloudFormationで構築し、SSM経由でExplorerに接続してサンプルデータの投入やSQLクエリを実行する手順…"
-        },
-        {
-          "title": "Claude Designでフライヤーを作成して社内にデプロイしてみた",
-          "link": "https://dev.classmethod.jp/articles/claude-design-flier-with-deploy/",
-          "source": "DevelopersIO",
-          "published": "2026-07-21T07:54:48",
-          "excerpt": "Claude Designを使ってフライヤーを作成し、Claude Coworkで社内デプロイするまでの一気通貫な流れを紹介します。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Instagram で古い投稿の音楽を入れ替えられるようになりました",
-      "link": "https://techcrunch.com/2026/07/21/instagram-now-lets-you-swap-out-the-music-in-your-old-posts/",
+      "title": "データセンターは 2035 年までに 4 倍の電力を使用すると予想される",
+      "link": "https://techcrunch.com/2026/07/21/data-centers-expected-to-use-4x-more-electricity-by-2035/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-21T16:15:00",
-      "excerpt": "新しい「オーディオの置換」ツールを使用すると、ユーザーは投稿の既存の「いいね！」、コメント、シェア、リーチをそのまま維持しながら、いつでも投稿上の音楽を更新できます。"
+      "published": "2026-07-21T18:06:38",
+      "excerpt": "2033 年までに建設される新しいデータセンターは、インドが現在使用している電力と同じ量の電力を消費する可能性があります。"
     },
     {
-      "title": "世界2,400の城",
-      "link": "https://thecastlemap.com/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-21T16:05:58",
-      "excerpt": "記事の URL: https://thecastlemap.com/ コメント URL: https://news.ycombinator.com/item?id=48994178 ポイント: 30 コメント数: 21"
-    },
-    {
-      "title": "看護師不足の中、大学が男性向けのウェルカムマットを展開",
-      "link": "https://text.npr.org/nx-s1-5869813",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-21T16:01:07",
-      "excerpt": "記事の URL: https://text.npr.org/nx-s1-5869813 コメント URL: https://news.ycombinator.com/item?id=48994103 ポイント: 17 コメント数: 7"
-    },
-    {
-      "title": "スレッドが保護者監視ツールを展開",
-      "link": "https://techcrunch.com/2026/07/21/threads-rolls-out-parental-supervision-tools/",
+      "title": "テスラ、第2四半期決算に先立ってオーランドとタンパでロボタクシーの試験運用を開始",
+      "link": "https://techcrunch.com/2026/07/21/tesla-spins-up-robotaxi-pilots-in-orlando-and-tampa-ahead-of-q2-earnings/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-21T16:00:00",
-      "excerpt": "新しいツールを使用すると、親や保護者は、十代の子どもがスレッドに費やした時間を確認したり、毎日の時間制限を設定したり、睡眠モードを調整したり、プライバシー設定を管理したりできるようになります。"
+      "published": "2026-07-21T18:05:10",
+      "excerpt": "同社は各都市に何社あるのかについては明らかにしておらず、ネットワークの拡大に関してCEOのイーロン・マスク氏が約束していたよりもはるかに慎重なアプローチをとっている。"
+    },
+    {
+      "title": "Show HN: Imagin Raw – Adob​​e Bridge for Mac に代わる 9MB オープンソース",
+      "link": "https://github.com/cristibaluta/Imagin-Raw",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-21T17:30:01",
+      "excerpt": "記事の URL: https://github.com/cristibaluta/Imagin-Raw コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "5月の値上げ以来、スチームデッキの売り上げは勢いを失っている",
+      "link": "https://arstechnica.com/gaming/2026/07/steam-deck-sales-are-losing-steam-since-mays-price-hike/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-21T17:12:34",
+      "excerpt": "ベストセラー チャートを分析すると、2025 年の売上率から 80% 低下することが示されています。"
     }
   ]
 }
