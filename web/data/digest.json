@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-21T09:59:10",
+  "generated_at": "2026-07-21T11:45:51",
   "window_hours": 24,
-  "total": 223,
+  "total": 226,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が43件。Check Pointが2026年6月の世界サイバー脅威動向を公表した。攻撃件数は前年同月比17％増と広範囲で増加し、ランサムウェアでは設立1年足らずの新興グループが首位に立った。生成AI利用に伴う情報流出リスクも明らかになった。",
+      "summary": "生成AIの新着が43件。メルカリやグーグル・クラウドなどが登壇、AICX協会がAIエージェントの実践知を解き明かす2日間のイベントを開催",
       "articles": [
+        {
+          "title": "メルカリやグーグル・クラウドなどが登壇、AICX協会がAIエージェントの実践知を解き明かす2日間のイベントを開催",
+          "link": "https://codezine.jp/article/detail/29056",
+          "source": "CodeZine",
+          "published": "2026-07-21T10:30:00",
+          "excerpt": "メルカリやグーグル・クラウドなどが登壇、AICX協会がAIエージェントの実践知を解き明かす2日間のイベントを開催"
+        },
+        {
+          "title": "Dify 三昧：【リリース速報】 Dify v1.16.0 リリースノート：新エージェント機能とワークフローの進化 | DENET 技術ブログ",
+          "link": "https://blog.denet.co.jp/dify-034/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-21T10:00:06",
+          "excerpt": "投稿 Dify 三昧：【リリース速報】 Dify v1.16.0 リリースノート：新エージェント機能とワークフローの進化 は DENET 技術ブログ に最初に表示されました。"
+        },
         {
           "title": "サイバー攻撃17％増　生成AIプロンプト「26件に1件」が高リスク",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2607/20/news007.html",
@@ -22,28 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-21T08:58:26",
           "excerpt": "Amazon Connect Customer AIエージェントのツールタイプによって、会話が継続するのか終了するのかが異なります。…"
-        },
-        {
-          "title": "Claude Designでフライヤーを作成して社内にデプロイしてみた",
-          "link": "https://dev.classmethod.jp/articles/claude-design-flier-with-deploy/",
-          "source": "DevelopersIO",
-          "published": "2026-07-21T07:54:48",
-          "excerpt": "Claude Designを使ってフライヤーを作成し、Claude Coworkで社内デプロイするまでの一気通貫な流れを紹介します。…"
-        },
-        {
-          "title": "非エンジニアがClaudeのAgent Skillsでオペミス対応を仕組み化してみた",
-          "link": "https://dev.classmethod.jp/articles/non-engineer-claude-skills-ops-mistake-response/",
-          "source": "DevelopersIO",
-          "published": "2026-07-21T05:45:07",
-          "excerpt": "オペミス対応の後処理が大変だったので、ClaudeのAgent Skillsを使って自動化に挑戦してみました。非エンジニアでもAIに仕組みを作らせることで、報告書作成から再発防止策の立案まで効率化できるのか試してみます。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。はじめに RDSの空きメモリが減り続け、余裕がなくなってくると、このままで大丈夫なのか、何を見れば判断できるのか不安になります。…",
+      "summary": "クラウドの新着が19件。今回使用するAWSサービス 1.CloudFormation ​ 3.CloudWatch 4.…",
       "articles": [
+        {
+          "title": "AWSテンプレートを使用してインフラ環境構築",
+          "link": "https://qiita.com/sand-lance/items/4a22cc3008ba5520e32a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-21T11:45:24",
+          "excerpt": "今回使用するAWSサービス 1.CloudFormation ​ 3.CloudWatch 4.…"
+        },
+        {
+          "title": "API Gateway + Lambda統合でキャッシュを使うときに忘れがちな2つのポイント | DELTAテックブログのフィード",
+          "link": "https://zenn.dev/team_delta/articles/160160db772388",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-21T11:18:38",
+          "excerpt": "この記事のポイントAPI Gateway (REST API) + Lambda プロキシ統合でキャッシュを有効にしたとき、クエリパラメータごとにキャッシュを分けたいケースがあります。この時私が忘れがちな設定を、備忘録として2点まとめます。…"
+        },
         {
           "title": "RDS for MySQLでFreeableMemoryが減り続けたときの切り分け方",
           "link": "https://zenn.dev/linkedge/articles/a02c047bab12b4",
@@ -57,27 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-21T04:00:05",
           "excerpt": "既存の MCP 統合を活かし、AgentCore Gateway の MCP ターゲットで VPC Lambda サブエージェントをツールとして公開。アプリコード変更なしでマルチエージェント構成を実現した手順とハマりポイントをまとめます。"
-        },
-        {
-          "title": "さまざまなインフラ上でWebアプリケーションを構築、デプロイ、運用できるオープンソースのデプロイ基盤「OpenShip」リリース",
-          "link": "https://gihyo.jp/article/2026/07/openship?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-07-21T02:46:00",
-          "excerpt": "Oblien LLCは2026年7月18日、オープンソースのデプロイメントプラットフォーム「OpenShip」をApache 2.0ライセンスのもとGitHub上で公開した。"
-        },
-        {
-          "title": "【AWS初心者向け】Amazon S3のストレージクラスとは？コストを抑えるための使い分けを解説",
-          "link": "https://qiita.com/Sho5_Matsu/items/aacffaa96ace79dfadca",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-21T01:55:55",
-          "excerpt": "はじめに Amazon S3は、AWSの中でも特によく利用されるストレージサービスです。しかし、S3を利用していると、 「S3 Standardって何？」 「Glacierって安いって聞いたけど何が違うの？…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。IBMとRed Hat、AI活用の脆弱性修復プラットフォーム「Lightwell」を商用提供",
+      "summary": "セキュリティの新着が11件。IBMとRed Hat、AI活用の脆弱性修復プラットフォーム「Lightwell」を商用提供",
       "articles": [
         {
           "title": "IBMとRed Hat、AI活用の脆弱性修復プラットフォーム「Lightwell」を商用提供",
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。Claude Designを使ってフライヤーを作成し、Claude Coworkで社内デプロイするまでの一気通貫な流れを紹介します。…",
+      "summary": "開発ツールの新着が14件。はじめに こんにちは、SREチームの前野です。TalentXでは開発メンバーが任意のGitブランチを指定して、自分専用のテスト環境をデプロイできる仕組み（「プレビュー環境」と呼んでいます）を導入しています。…",
       "articles": [
+        {
+          "title": "Deno Slack SDKで開発環境のセルフサービスデプロイを実現した話 | TalentX Tech Blog",
+          "link": "https://tech.talentx.co.jp/entry/2026/07/21/191351",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-21T10:13:51",
+          "excerpt": "はじめに こんにちは、SREチームの前野です。TalentXでは開発メンバーが任意のGitブランチを指定して、自分専用のテスト環境をデプロイできる仕組み（「プレビュー環境」と呼んでいます）を導入しています。…"
+        },
+        {
+          "title": "Amazon Timestream for InfluxDB 3 CoreとInfluxDB 3 ExplorerをCloudFormationで構築してみた",
+          "link": "https://dev.classmethod.jp/articles/timestream-for-influxdb3-with-explorer/",
+          "source": "DevelopersIO",
+          "published": "2026-07-21T10:02:40",
+          "excerpt": "Amazon Timestream for InfluxDB 3 CoreとInfluxDB 3 ExplorerをCloudFormationで構築し、SSM経由でExplorerに接続してサンプルデータの投入やSQLクエリを実行する手順…"
+        },
         {
           "title": "Claude Designでフライヤーを作成して社内にデプロイしてみた",
           "link": "https://dev.classmethod.jp/articles/claude-design-flier-with-deploy/",
@@ -162,52 +176,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-21T05:42:18",
           "excerpt": "はじめに こんにちは。スピーダ事業Product Teamの中嶋です。以前の記事で1週間ごとにチームのふりかえりをしていると書きました。tech.uzabase.com ふりかえりのファシリテーターは、基本的にはチームの外から呼んできます。…"
-        },
-        {
-          "title": "Claude Scienceを使って生命科学研究をやってみた〜シングルセル解析入門から最新研究まで、その実力と限界〜 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-          "link": "https://recruit.group.gmo/engineer/jisedai/blog/claude-science/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-21T04:56:29",
-          "excerpt": "TL;DR Claude Scienceは、Anthropicが発表した科学研究用のAIワークベンチです。多数のSkillやデータベースと連携し、文献調査から解析・図表・レポート作成までを自動化してくれます。…"
-        },
-        {
-          "title": "さまざまなインフラ上でWebアプリケーションを構築、デプロイ、運用できるオープンソースのデプロイ基盤「OpenShip」リリース",
-          "link": "https://gihyo.jp/article/2026/07/openship?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-07-21T02:46:00",
-          "excerpt": "Oblien LLCは2026年7月18日、オープンソースのデプロイメントプラットフォーム「OpenShip」をApache 2.0ライセンスのもとGitHub上で公開した。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "中国Moonshot AI、「Kimi K3」人気でGPUひっ迫　新規サブスク受け付けを一時停止",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/21/news099.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-21T09:53:00",
-      "excerpt": "中国Moonshot AIは7月19日（現地時間）、AIチャットサービス「Kimi」の新規有料契約の受け付けを一時停止すると発表した。…"
-    },
-    {
-      "title": "慶大のiPS脊髄損傷治療、最長4年追跡で長期的な安全性確認　来年度中にも治験届提出へ",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/21/news098.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-21T09:44:00",
-      "excerpt": "慶応大の岡野栄之教授らの研究チームは7月21日、人工多能性幹細胞（iPS細胞）から作った神経のもとになる細胞を脊髄損傷患者4人に移植した臨床研究で、移植後最長4年間観察しても腫瘍や重い有害事象はみられず、長期的な安全性を確認したと発表した。…"
-    },
-    {
-      "title": "共同創設者がポピュリスト政党に数百万ドルを寄付した後、一部の Mullvad VPN 顧客が出口を目指してトンネルを掘る",
-      "link": "https://www.theregister.com/software/2026/07/21/some-mullvad-vpn-customers-tunnel-for-exit-after-co-founder-donates-millions-to-populist-party/5275012",
+      "title": "Valve の Steam Frame が Arch Linux を正式な Arm64 サポートに向けて推進",
+      "link": "https://www.theregister.com/os-platforms/2026/07/21/valves-steam-frame-pushes-arch-linux-toward-official-arm64-support/5275459",
       "source": "The Register（英語）",
-      "published": "2026-07-21T09:15:00",
-      "excerpt": "500万スウェーデンクローナの贈り物はオレブロパルティエの年収の72パーセントを占めたが、同社はそれが完全に個人的なものだったと主張している"
+      "published": "2026-07-21T11:30:00",
+      "excerpt": "Collabora の Holo Core ポートは、ヘッドセット上で SteamOS 3 をネイティブに実行するための基礎を築きます"
     },
     {
-      "title": "Dependabotのメジャーバージョンbumpがエコシステムの未対応で壊れた話 — ESLint 10とTypeScript 7の罠",
-      "link": "https://dev.classmethod.jp/articles/dependabot-major-bump-ecosystem-lag/",
-      "source": "DevelopersIO",
-      "published": "2026-07-21T09:08:43",
-      "excerpt": "Dependabotが提案したESLint 9→10、TypeScript 6→7のメジャーバンプでCIが壊れました。原因は下流プラグインやツールの未対応。調査からdependabot.ymlのignoreルールでの対処までをまとめます。"
+      "title": "バイキング1号は50年前に火星に着陸した",
+      "link": "https://www.theregister.com/science/2026/07/21/viking-1-landed-on-mars-50-years-ago/5275041",
+      "source": "The Register（英語）",
+      "published": "2026-07-21T10:45:00",
+      "excerpt": "コードが踏みつけるべきではない場所を踏みにじっていなければ、もっと長く続いただろう"
+    },
+    {
+      "title": "外部支援の依存から脱却して事業創出の実践場へ、Relicが新規事業を前に進める社内メンターの育成ガイドを公開",
+      "link": "https://codezine.jp/article/detail/29052",
+      "source": "CodeZine",
+      "published": "2026-07-21T10:15:00",
+      "excerpt": "外部支援の依存から脱却して事業創出の実践場へ、Relicが新規事業を前に進める社内メンターの育成ガイドを公開"
+    },
+    {
+      "title": "グリット氏、ロボットに太陽光発電所を建設させるための 3,400 万ドルを手に入れ、その他すべてをステルスで終了",
+      "link": "https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-21T10:00:00",
+      "excerpt": "グリット氏は3,400万ドルを秘密裏に入手し、建設現場で最も困難な作業を自動化する計画を立てている。"
     }
   ]
 }
