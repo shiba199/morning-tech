@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-22T12:53:35",
+  "generated_at": "2026-07-22T14:54:13",
   "window_hours": 24,
-  "total": 253,
+  "total": 258,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。記事の URL: https://www.bbc.com/news/articles/c3ek3gvdnj3o コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が41件。アトラシアンは、プロジェクト管理ツールとして知られるJiraに生成AI機能を組み込み、AIによる要件定義の自動作成、作業すべきタスクの洗い出し、そして各タスクをClaude CodeやGitHub Copilotなどへ割り当てる新機能を発表…",
       "articles": [
+        {
+          "title": "アトラシアン、JiraがAIによる要件定義の自動作成、コンテキストを保持しつつタスクをClaudeやCopilotなどのAIエージェントへアサインなど新機能",
+          "link": "https://www.publickey1.jp/blog/26/jiraaiclaudecopilotai.html",
+          "source": "Publickey",
+          "published": "2026-07-22T15:35:19",
+          "excerpt": "アトラシアンは、プロジェクト管理ツールとして知られるJiraに生成AI機能を組み込み、AIによる要件定義の自動作成、作業すべきタスクの洗い出し、そして各タスクをClaude CodeやGitHub Copilotなどへ割り当てる新機能を発表…"
+        },
+        {
+          "title": "OpenAI は「Presence」によるコンサルティング パスを試み、企業にエージェントを導入するための現地での料金を請求する",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/22/openai-tries-the-consulting-path-with-presence-charging-enterprises-boots-on-the-ground-prices-to-deploy-agents/5275867",
+          "source": "The Register（英語）",
+          "published": "2026-07-22T13:15:00",
+          "excerpt": "AI モデルがコモディティ化するにつれて、配管に余裕ができるかもしれません"
+        },
         {
           "title": "OpenAI、自社のAIが不正行為を行い「前例のない」サイバー攻撃を開始したと発表",
           "link": "https://www.bbc.com/news/articles/c3ek3gvdnj3o",
@@ -22,28 +36,28 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-22T10:21:20",
           "excerpt": "こんにちは、アンドドットCTOの高根沢です。はじめに皆さんはChatGPTデスクトップアプリのCodexで、自分だけのオリジナルPetを作れることを知っていますか？…"
-        },
-        {
-          "title": "Codeberg: LLM エクストルージョンを禁止するための ToU 拡張",
-          "link": "https://codeberg.org/Codeberg/org/pulls/1253",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-22T08:27:12",
-          "excerpt": "記事の URL: https://codeberg.org/Codeberg/org/pulls/1253 コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "ジャック・ドーシー氏創業のBlock、人とAIエージェントが協働できるOSSグループチャット基盤「Buzz」を公開",
-          "link": "https://gihyo.jp/article/2026/07/buzz?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-07-22T06:28:00",
-          "excerpt": "Twitterの創業者として知られるジャック・ドーシー氏が会長を務めるBlockは2026年7月21日、人間とエージェントのチームが協力して作業するためのチャットワークスペース「Buzz」をリリースした。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が34件。CloudFrontの `stale-if-error` が、オリジンタイムアウト時にいつstaleキャッシュを返すのかを、再現可能な検証環境で確認しました。…",
+      "summary": "クラウドの新着が35件。ECS Fargate のデプロイ待ち時間を、デプロイパラメータのチューニングと CloudFormation Express モードで段階的に短縮しました。…",
       "articles": [
+        {
+          "title": "ECS デプロイの待ち時間を242秒から47秒まで短縮してみた",
+          "link": "https://dev.classmethod.jp/articles/ecs-deploy-wait-time-tuning-242s-to-47s/",
+          "source": "DevelopersIO",
+          "published": "2026-07-22T14:29:22",
+          "excerpt": "ECS Fargate のデプロイ待ち時間を、デプロイパラメータのチューニングと CloudFormation Express モードで段階的に短縮しました。…"
+        },
+        {
+          "title": "LambdaからAmazon Comprehendを呼び出して文章分析してみた",
+          "link": "https://qiita.com/TUK-TUK/items/166e19c2a9df4f334953",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-22T14:22:41",
+          "excerpt": "はじめに AWSのAIサービスを実際に触ってみたかったため、Amazon Comprehendを使った文章分析を試しました。…"
+        },
         {
           "title": "CloudFrontのstale-if-errorはオリジンタイムアウト時にいつstaleを返すか検証してみた",
           "link": "https://dev.classmethod.jp/articles/cloudfront-stale-if-error-origin-timeout-behavior/",
@@ -57,27 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-22T10:43:41",
           "excerpt": "はじめに こんにちは、ほうき星 @H0ukiStar です。AWS Lambda は、割り当てるメモリのサイズを増やすことによって CPU をはじめとする実行リソースも比例して割り当てられる特徴があります。…"
-        },
-        {
-          "title": "【セッションレポート】Unreal Engine 5.8 最新アップデート総おさらい #CEDEC2026",
-          "link": "https://dev.classmethod.jp/articles/cedec-2026-unreal-engine-5-8/",
-          "source": "DevelopersIO",
-          "published": "2026-07-22T09:43:19",
-          "excerpt": "CEDEC2026 のセッションレポートです。Unreal Engine 5.…"
-        },
-        {
-          "title": "AWS学習28日目：Route 53・ACM・WAF",
-          "link": "https://zenn.dev/zono731/articles/11bdcdc1bb2f13",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-22T09:20:01",
-          "excerpt": "今日のテーマ AWS学習28日目は、LifeOSを独自ドメインで公開し、HTTPSとWAFで守るためのWeb入口を作りました。これまで作ってきたAWS構成は、AWSコンソール上の学習環境が中心でした。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が24件。一部のファイルは二度と見られなかった、と情報セキュリティ企業のプルーフポイントが発見",
+      "summary": "セキュリティの新着が23件。一部のファイルは二度と見られなかった、と情報セキュリティ企業のプルーフポイントが発見",
       "articles": [
         {
           "title": "被害者が最初の恐喝代金を吐き出した後、貪欲なランサムウェアの集団が数秒間戻ってくる",
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。CloudFormation のクイック作成 URL を使って、お客様アカウントに IAM ロールを自動作成する仕組みについて解説します。…",
+      "summary": "開発ツールの新着が15件。ECS Fargate のデプロイ待ち時間を、デプロイパラメータのチューニングと CloudFormation Express モードで段階的に短縮しました。…",
       "articles": [
+        {
+          "title": "ECS デプロイの待ち時間を242秒から47秒まで短縮してみた",
+          "link": "https://dev.classmethod.jp/articles/ecs-deploy-wait-time-tuning-242s-to-47s/",
+          "source": "DevelopersIO",
+          "published": "2026-07-22T14:29:22",
+          "excerpt": "ECS Fargate のデプロイ待ち時間を、デプロイパラメータのチューニングと CloudFormation Express モードで段階的に短縮しました。…"
+        },
+        {
+          "title": "Jump アカウント方式における AWS CLI セットアップ手順",
+          "link": "https://dev.classmethod.jp/articles/aws-cli-jump-account-setup-guide/",
+          "source": "DevelopersIO",
+          "published": "2026-07-22T13:30:16",
+          "excerpt": "Jump アカウント方式でAWSを利用する際に、ローカル環境で aws-vault を使用して AWS CLI をセキュアに利用するための設定手順をまとめました。MFA が必須な環境での具体的な設定方法を紹介します。"
+        },
         {
           "title": "URLをクリックするだけ！CloudFormationでスイッチロール用IAM ロールを安全に自動作成する仕組みを解説してみた！",
           "link": "https://dev.classmethod.jp/articles/cfn-quick-create-switch-role-iam/",
@@ -162,52 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-22T09:16:27",
           "excerpt": "CloudFormationでS3バケットとAWS Configを同時にデプロイし、ガバナンスチェックの仕組みを組み込んでみました。想定と異なる結果になった検証結果と、最近のS3仕様変更についてまとめています。"
-        },
-        {
-          "title": "GitHub Copilot、AIクレジット管理機能を請求UIに追加",
-          "link": "https://codezine.jp/article/detail/29049",
-          "source": "CodeZine",
-          "published": "2026-07-22T08:00:00",
-          "excerpt": "GitHub Copilot、AIクレジット管理機能を請求UIに追加"
-        },
-        {
-          "title": "Google、Vercel AI SDKでPrompt API対応のBrowser AIプロバイダ活用方法を公開",
-          "link": "https://codezine.jp/article/detail/29048",
-          "source": "CodeZine",
-          "published": "2026-07-22T07:00:00",
-          "excerpt": "Google、Vercel AI SDKでPrompt API対応のBrowser AIプロバイダ活用方法を公開"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "アイルランド、デジタル主権への疑問のなかマイクロソフトによる10億ユーロの入札を失速",
-      "link": "https://www.theregister.com/public-sector/2026/07/22/ireland-stalls-1b-microsoft-tender-amid-digital-sovereignty-questions/5276149",
-      "source": "The Register（英語）",
-      "published": "2026-07-22T12:15:00",
-      "excerpt": "欧州のライバルを考慮するよう求める声にもかかわらず、政府はレドモンドのみの調達を計画中"
+      "title": "【IT業界25年目】ADHDポンコツエンジニアが人生賭けて運営中の求人サービス『ヴェテラン』で活用している『AWS』の勉強方法について",
+      "link": "https://qiita.com/Veteran/items/f62087a43e519dcef2d6",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-22T14:47:33",
+      "excerpt": "皆さんこんばんは！ポンコツエンジニアのGONです！今日も酷暑ですね。。炎天下で信号待ち中、アスファルトの照り返しと、セミの大合唱をバックに暑さで朦朧とする私のポンコツ脳内は T.M.…"
     },
     {
-      "title": "今月の AWS オブザーバビリティ – 2026年6月",
-      "link": "https://aws.amazon.com/jp/blogs/news/this-month-in-aws-observability-june-2026/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-07-22T11:39:13",
-      "excerpt": "「This Month in AWS Observability」最新号へようこそ。今回は、この6月に Amazon CloudWatch と AI 駆動型オペレーション全般で発表された新機能をご紹介します。…"
-    },
-    {
-      "title": "GNOME は Windows のように見えることができ、Flashback は拡張機能なしで実行できます",
-      "link": "https://www.theregister.com/software/2026/07/22/gnome-can-look-like-windows-and-flashback-can-do-it-without-extensions/5276109",
-      "source": "The Register（英語）",
-      "published": "2026-07-22T10:50:41",
-      "excerpt": "新しい「シンプルタスクバー」はオプションですが、よりシンプルで安定した方法があります"
-    },
-    {
-      "title": "OverpAId – CEO を解雇します。未来を雇う",
-      "link": "https://overpaid.lol",
+      "title": "絵画の読み方",
+      "link": "https://sheets.works/data-viz/how-to-read-a-painting/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-22T10:49:04",
-      "excerpt": "記事の URL: https://overpaid.lol コメント URL: https://news.ycombinator.com/item?id=49004663 ポイント: 179 コメント数: 78"
+      "published": "2026-07-22T14:31:55",
+      "excerpt": "記事の URL: https://sheets.works/data-viz/how-to-read-a-painting/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "【開催報告】AWS Summit Japan 2026 — 物流異常を Amazon Quick が自動解決：配送在庫の異常検知〜問合せまで一気通貫",
+      "link": "https://aws.amazon.com/jp/blogs/news/aws-summit-2026-japan-amazon-quick-automates-logistics-anomaly-resolution-from-detection-to-action/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-07-22T14:23:20",
+      "excerpt": "物流の現場では、基幹・受発注・在庫・配送など複数のシステムにデータが分散しています。今回の展示では、Amazon Quick がこれらの課題をどのように解決するかを、実際の業務シナリオに沿ってデモでお見せしました。…"
+    },
+    {
+      "title": "AWS CloudTrailを試す 1 証跡を作ってみた",
+      "link": "https://qiita.com/PharaohKJ/items/68e75d608e168ea35a24",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-22T14:08:51",
+      "excerpt": "CloudTrail とは 公式曰く AWS CloudTrail は、ユーザーのアクティビティや API コールを追跡して、監査、セキュリティモニタリング、運用上のトラブルシューティングを支援します。…"
     }
   ]
 }
