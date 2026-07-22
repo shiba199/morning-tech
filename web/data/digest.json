@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-22T20:05:22",
+  "generated_at": "2026-07-22T21:34:27",
   "window_hours": 24,
-  "total": 243,
+  "total": 249,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。OpenAI は、いわゆる「高度に分離された」テスト環境とサンドボックスの設定でミスを犯しました。サイバーセキュリティの専門家によれば、この人間のミスが、Hugging Face に対する AI を活用した攻撃を可能にしたのだといいます。",
+      "summary": "生成AIの新着が38件。Claude Code開発責任者のボリス・チャーニー氏が、自身のチームで働く人は「5つの型」に分けられると指摘した。AIで職種の垣根が崩れ始めた今、肩書きではなく働き方で人を捉える新時代の発想を、初心者にも分かるように読み解く。",
       "articles": [
+        {
+          "title": "AI時代、開発チームの人材は“5つの型”に分かれる　Claude Code開発責任者の見立て",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/23/news015.html",
+          "source": "@IT",
+          "published": "2026-07-22T20:00:00",
+          "excerpt": "Claude Code開発責任者のボリス・チャーニー氏が、自身のチームで働く人は「5つの型」に分けられると指摘した。AIで職種の垣根が崩れ始めた今、肩書きではなく働き方で人を捉える新時代の発想を、初心者にも分かるように読み解く。"
+        },
         {
           "title": "OpenAI の人為的ミスが AI を利用した Hugging Face のハッキングにつながった経緯",
           "link": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
@@ -29,13 +36,6 @@
           "source": "TechCrunch（英語）",
           "published": "2026-07-22T18:02:57",
           "excerpt": "Anthropic は、2025 年の 90 億ドルと比較して、5 月までに 470 億ドルの収益率に飛躍しました。…"
-        },
-        {
-          "title": "AgentCore Browserのブラウザプロファイルでログインが必要なWebサイトへアクセスできるようにする",
-          "link": "https://qiita.com/har1101/items/495266af9b58b5a301e7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-22T17:30:53",
-          "excerpt": "はじめに こんにちは、ふくちです。AIエージェント作っていらっしゃいますでしょうか。AIエージェントからアプリケーションや外部システムを操作するにあたって、CLI/API/MCPがあればそれ経由で良いですよね。今最もスタンダードな形です。…"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が23件。AWS Lambda の永続関数は、AWS Key Management Service (AWS KMS) カスタマー管理キーを使用した永続実行データの暗号化をサポートするようになりました。…",
+      "summary": "セキュリティの新着が23件。ランサムウェア攻撃の被害に遭った企業が、セキュリティ企業に対応を依頼。ところが被害企業を支援するはずの交渉人が、密かに犯人側と結託して身代金の額を吊り上げ、見返りを受け取っていた――米国でこんな事件が発生した。",
       "articles": [
+        {
+          "title": "“交渉人”なのに犯人と内通、計120億円超の身代金吊り上げ　セキュリティ企業の元従業員に禁錮刑　米国",
+          "link": "https://www.itmedia.co.jp/news/articles/2607/22/news038.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-07-22T21:00:00",
+          "excerpt": "ランサムウェア攻撃の被害に遭った企業が、セキュリティ企業に対応を依頼。ところが被害企業を支援するはずの交渉人が、密かに犯人側と結託して身代金の額を吊り上げ、見返りを受け取っていた――米国でこんな事件が発生した。"
+        },
         {
           "title": "AWS Lambda の永続関数が顧客管理のキー暗号化をサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/durablefunctions-cmk/",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-22T15:18:45",
           "excerpt": "AWS DevOps Agent でセカンダリアカウントを追加するために必要な IAM ロールを CloudFormation StackSets を使って AWS Organizations 配下に展開する方法を試してみました。"
-        },
-        {
-          "title": "被害者が最初の恐喝代金を吐き出した後、貪欲なランサムウェアの集団が数秒間戻ってくる",
-          "link": "https://www.theregister.com/security/2026/07/22/over-a-third-of-ransomware-victims-re-extorted-after-paying/5276218",
-          "source": "The Register（英語）",
-          "published": "2026-07-22T11:49:12",
-          "excerpt": "一部のファイルは二度と見られなかった、と情報セキュリティ企業のプルーフポイントが発見"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。こんにちは。今回は、AWSのプロモーショナルクレジットをマネジメントコンソールを使わずに管理運用するためのツールをKiroと作りました。…",
+      "summary": "開発ツールの新着が14件。こんにちは。今回は、AWSのプロモーショナルクレジットをマネジメントコンソールを使わずに管理運用するためのツールをKiroと作りました。…",
       "articles": [
         {
           "title": "Kiroと作ったCreditCLIでAWSプロモーショナルクレジットコードを管理する",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "SoundCloudが閉鎖から数カ月後に分散型音楽プラットフォームNina Protocolを買収",
-      "link": "https://techcrunch.com/2026/07/22/soundcloud-acquires-decentralized-music-platform-nina-protocol-months-after-its-shutdown/",
+      "title": "柔軟なコンピューティング、Emacs、そしてあなた",
+      "link": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-22T21:15:26",
+      "excerpt": "記事の URL: http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html コメント URL: https://news.ycombinator.…"
+    },
+    {
+      "title": "Safari テクノロジー プレビュー 248 がリリースされました",
+      "link": "https://webkit.org/blog/18162/release-notes-for-safari-technology-preview-248/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-22T21:00:26",
+      "excerpt": "記事の URL: https://webkit.org/blog/18162/release-notes-for-safari-technology-preview-248/ コメント URL: https://news.…"
+    },
+    {
+      "title": "ホワイトハウスがムーンショットが人類の寓話を抽出したと主張し、財務省が制裁を脅す",
+      "link": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-22T19:42:56",
-      "excerpt": "SoundCloudは、スタートアップが閉鎖すると発表してから数か月後、分散型音楽プラットフォームNina Protocolを買収した。…"
+      "published": "2026-07-22T20:49:03",
+      "excerpt": "スコット・ベッセント財務長官は、ムーンショット社がアンスロピック社の寓話モデルを抽出してキミK3を開発したとホワイトハウス当局者が非難したことを受け、米国政府が中国のAI企業を制裁する可能性があると警告した。"
     },
     {
-      "title": "AWS Network Load Balancer がカスタム トラフィック ルーティングのリスナー ルールをサポートするようになりました",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-network-load-balancer-supports-listener-rules/",
-      "source": "AWS What's New（英語）",
-      "published": "2026-07-22T19:13:00",
-      "excerpt": "ネットワーク ロード バランサー (NLB) でリスナー ルールがサポートされるようになりました。これにより、ソース IP アドレスの種類に基づいて、さまざまなターゲット グループに接続をルーティングできるようになります。…"
-    },
-    {
-      "title": "トラビス・カラニック氏のロボット会社、a16z主導で17億ドルを調達",
-      "link": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+      "title": "サイバーキャブ、セミ、メガパックの生産スケジュールが遅れ、テスラの支出が急増",
+      "link": "https://techcrunch.com/2026/07/22/tesla-spending-skyrockets-as-cybercab-semi-megapack-production-timeline-slips/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-22T18:50:44",
-      "excerpt": "ウーバーはトラビス・カラニック氏の会社アトムズにも投資しているが、同社は産業用AIを利用して世界を近代化するという派手な主張を展開している。"
-    },
-    {
-      "title": "ヒュンダイ、人型ロボット計画はストライキ労働者との協議に含まれていないと主張",
-      "link": "https://arstechnica.com/ai/2026/07/hyundai-claims-humanoid-robot-plan-is-not-part-of-talks-with-striking-workers/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-22T18:18:12",
-      "excerpt": "ユニオンは以前、自動車メーカーに対して、ロボットの導入には交渉が必要であると警告していた。"
+      "published": "2026-07-22T20:43:38",
+      "excerpt": "テスラは新世代製品の発売を進める中で、売上高が26％増加したが、営業費用と設備投資の増加を相殺するには十分ではなかった。"
     }
   ]
 }
