@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-21T23:26:27",
+  "generated_at": "2026-07-22T00:13:44",
   "window_hours": 24,
-  "total": 235,
+  "total": 229,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。はじめに はじめまして、CyberAgent group Infrastructure Unit（C ...",
+      "summary": "生成AIの新着が40件。はじめに はじめまして、CyberAgent group Infrastructure Unit（C ...",
       "articles": [
         {
           "title": "Cycloud 新基盤の全貌 第二回: HW 編 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が24件。[小ネタ] Lambda のイベントソースマッピングで SQS からメッセージを取得する際に ReceiveMessage API が実行されていることを確認してみた",
+      "summary": "クラウドの新着が22件。Amazon S3、イベント通知がシステム生成タグに対応",
       "articles": [
+        {
+          "title": "Amazon S3、イベント通知がシステム生成タグに対応",
+          "link": "https://codezine.jp/article/detail/29043",
+          "source": "CodeZine",
+          "published": "2026-07-22T00:00:00",
+          "excerpt": "Amazon S3、イベント通知がシステム生成タグに対応"
+        },
+        {
+          "title": "Amazon ECSの新機能「Action Logs」でデプロイの状態遷移ログを確認してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-ecs-action-logs-deployment-visibility/",
+          "source": "DevelopersIO",
+          "published": "2026-07-21T23:31:31",
+          "excerpt": "Amazon ECSでAction Logsが利用可能になりました。デプロイ中にECSの実行する操作が構造化ログとしてCloudWatch Logsに記録されます。…"
+        },
         {
           "title": "[小ネタ] Lambda のイベントソースマッピングで SQS からメッセージを取得する際に ReceiveMessage API が実行されていることを確認してみた",
           "link": "https://dev.classmethod.jp/articles/i-confirmed-that-the-receivemessage-api-is-executed-when-retrieving-messages-from-sqs-with-lambda-event-source-mapping/",
@@ -57,20 +71,6 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-21T20:00:00",
           "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) M6in および M6idn インスタンスが AWS アジアパシフィック (ハイデラバード) および南米 (サンパウロ) リージョンで利用可能にな…"
-        },
-        {
-          "title": "Amazon EC2 C6in インスタンスがアジアパシフィック (台北) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c6in/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-21T20:00:00",
-          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) C6in インスタンスが AWS アジアパシフィック (台北) で利用可能になります。…"
-        },
-        {
-          "title": "Amazon EC2 R6in および R6idn インスタンスが追加のリージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r6in-r6idn/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-21T20:00:00",
-          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) R6in および R6idn インスタンスが AWS ヨーロッパ (パリ) およびカナダ (中部) リージョンで利用可能になります。…"
         }
       ]
     },
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。AI ファクトリーがトークンを販売している場合、トークンの発行を最適化してみませんか?",
+      "summary": "データ分析の新着が2件。AI ファクトリーがトークンを販売している場合、トークンの発行を最適化してみませんか?",
       "articles": [
         {
           "title": "Nvidia が tokenmaxxing 用の Vera Rubin プラットフォームを披露",
@@ -127,21 +127,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-21T05:58:28",
           "excerpt": "まず最初にこの記事について： 前回の記事の最後で述べたように 「CloudFormationテンプレートで展開されるBIGIPの構成を手動で再現する」 という内容です。この記事では、まずAWSリソースの環境設定を扱います。…"
-        },
-        {
-          "title": "Colossal Biosciencesは評価額200億～300億ドルで新たな資本を調達する交渉を行っていると報じられている",
-          "link": "https://techcrunch.com/2026/07/20/colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-20T23:39:35",
-          "excerpt": "報告書によると、この消滅寸前のスタートアップは、以前の評価額の2倍か3倍を目指しているという。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。私たちはブラウザ ツール SDK をオープンソース化しています。これは、AI エージェントに実際のブラウザを制御する信頼性の高い方法を提供する小さな TypeScript パッケージです。…",
+      "summary": "開発ツールの新着が13件。Amazon ECSでAction Logsが利用可能になりました。デプロイ中にECSの実行する操作が構造化ログとしてCloudWatch Logsに記録されます。…",
       "articles": [
+        {
+          "title": "Amazon ECSの新機能「Action Logs」でデプロイの状態遷移ログを確認してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-ecs-action-logs-deployment-visibility/",
+          "source": "DevelopersIO",
+          "published": "2026-07-21T23:31:31",
+          "excerpt": "Amazon ECSでAction Logsが利用可能になりました。デプロイ中にECSの実行する操作が構造化ログとしてCloudWatch Logsに記録されます。…"
+        },
         {
           "title": "Show HN: ブラウザ ツール SDK – エージェントに最適なブラウザ ハーネス",
           "link": "https://libretto.sh/browser-tools",
@@ -162,45 +162,38 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-21T15:30:00",
           "excerpt": "本日、 Amazon Elastic Container Service (Amazon ECS) は、サービスのデプロイメントおよび ECS 管理デーモンの更新中に Amazon ECS が顧客に代わって実行するアクションの詳細なタイムス…"
-        },
-        {
-          "title": "macOS MontereyにAWS CLIをインストール",
-          "link": "https://zenn.dev/hoshino2501/articles/macos-monterey-aws-cli-install",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-21T15:19:27",
-          "excerpt": "!移行記事 本記事は過去のブログ記事(https://densan-hoshigumi.com/blog)から移行したものです。元の記事や画像は参照元のままの可能性があります。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "メタは想像力のない人向けの AI ベッドタイム ストーリー アプリをテスト中",
+      "link": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-21T23:55:10",
+      "excerpt": "Meta の StoryKit アプリは、同社が親の反応をテストしている間、特定の地域でのみ利用可能です。"
+    },
+    {
+      "title": "なぜAIの全社展開は停滞する？　個別導入の限界と「共通プラットフォーム」の必要性",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/21/news035.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-07-21T23:45:00",
+      "excerpt": "FPT SoftwareとForresterによる世界調査で、AI投資が広がる一方、高度運用に至る企業は26％にとどまる実態が浮き彫りになった。個別の試行錯誤から脱し、全社展開を果たすには再利用可能な共通基盤の構築と一元管理が必要となる。"
+    },
+    {
+      "title": "富士通・NVIDIAとロボット大手3社が協業へ　フィジカルAI社会実装の具体策は？",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/21/news043.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-07-21T23:30:00",
+      "excerpt": "フィジカルAIの社会実装は、一企業だけでは手に余る――。この課題に、富士通は競合するロボット大手3社、そしてNVIDIAと組んで挑む。協業で描く具体策とは。"
+    },
+    {
       "title": "レンジローバーは、「SUV ではないものを作ったらどうなるでしょうか?」という質問に答えます。",
       "link": "https://arstechnica.com/cars/2026/07/heres-range-rovers-first-not-suv-the-range-rover-gt/",
       "source": "Ars Technica（英語）",
       "published": "2026-07-21T23:01:23",
       "excerpt": "レンジローバー GT は EV としてデビューし、その後ハイブリッドバージョンも登場します。"
-    },
-    {
-      "title": "Google Workspace、7月13日に発表したアップデートをまとめて紹介",
-      "link": "https://codezine.jp/article/detail/29042",
-      "source": "CodeZine",
-      "published": "2026-07-21T23:00:00",
-      "excerpt": "Google Workspace、7月13日に発表したアップデートをまとめて紹介"
-    },
-    {
-      "title": "USB Type-C に関するエンジニア向けガイド [pdf]",
-      "link": "https://www.ti.com/lit/eb/slyy228/slyy228.pdf",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-21T22:45:27",
-      "excerpt": "記事の URL: https://www.ti.com/lit/eb/slyy228/slyy228.pdf コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Furtex: Linux 向けのエクスプロイト後、ルートキット、および回避の研究ツールキット",
-      "link": "https://github.com/MatheuZSecurity/Furtex",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-21T22:39:58",
-      "excerpt": "記事の URL: https://github.com/MatheuZSecurity/Furtex コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
