@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-23T17:53:13",
+  "generated_at": "2026-07-23T18:57:17",
   "window_hours": 24,
-  "total": 261,
+  "total": 269,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が58件。Amazon SageMaker Unified Studio が Amazon OpenSearch Service をデータソースとしてサポートしました。…",
+      "summary": "生成AIの新着が60件。Amazon SageMaker Unified Studio が Amazon OpenSearch Service をデータソースとしてサポートしました。…",
       "articles": [
         {
           "title": "[アップデート] Amazon SageMaker Unified Studio が Amazon OpenSearch Service をデータソースとしてサポートしたので試してみました",
@@ -15,6 +15,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-23T17:30:42",
           "excerpt": "Amazon SageMaker Unified Studio が Amazon OpenSearch Service をデータソースとしてサポートしました。…"
+        },
+        {
+          "title": "Show HN: Claude-thermos – クロード セッションを暖かく保ちます",
+          "link": "https://github.com/izeigerman/claude-thermos",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-23T17:06:22",
+          "excerpt": "記事の URL: https://github.com/izeigerman/claude-thermos コメント URL: https://news.ycombinator.com/item?…"
         },
         {
           "title": "OpenAI により、米国のすべてのユーザーが ChatGPT Health を利用できるようになります",
@@ -29,21 +36,21 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-23T17:00:00",
           "excerpt": "Amazon Bedrock AgentCore は、エージェントのトレースとプロンプトをエージェントのログと同じロググループに配信するようになり、単一の Amazon CloudWatch ログ グループ内の AI エージェントの統合され…"
-        },
-        {
-          "title": "HN を起動: スクリーンパイプ (YC S26) – 24 時間 365 日の画面録画によりエージェントを強化します",
-          "link": "https://news.ycombinator.com/item?id=49024620",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-23T16:48:38",
-          "excerpt": "こんにちは、Hacker News です。私はルイスです。私は Screenpipe ( https://screenpipe.com ) を構築しました。これは、画面と音声をローカル (のみ!…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。CloudFrontのOrigin Groupでフェイルオーバーが継続する状況を想定し、Members順序を入れ替える処理を、Step Functions（JSONata + HTTP Task + SDK統合）とLambdaの2つのアプロ…",
+      "summary": "クラウドの新着が22件。はじめに 先日、DLsiteの音声作品について、現在価格・セール状況・過去の安値をまとめて確認でき、買い時に通知も受け取れるサイト「声の価格」を公開しました。https://koenokakaku.…",
       "articles": [
+        {
+          "title": "【コスト削減】S3をデータベースのように使って低コストなバッチデータ基盤を実現する【個人開発】",
+          "link": "https://zenn.dev/koenokakaku/articles/b807855e648b64",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-23T16:29:34",
+          "excerpt": "はじめに 先日、DLsiteの音声作品について、現在価格・セール状況・過去の安値をまとめて確認でき、買い時に通知も受け取れるサイト「声の価格」を公開しました。https://koenokakaku.…"
+        },
         {
           "title": "CloudFront Origin GroupのMembers入れ替えをStep FunctionsとLambdaで試してみた",
           "link": "https://dev.classmethod.jp/articles/cloudfront-origin-group-members-swap-stepfunctions-lambda/",
@@ -59,26 +66,26 @@
           "excerpt": "記事の URL: https://xn--gckvb8fzb.com/i-regret-migrated-to-codeberg/ コメント URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "「東京都クラウドインフラ」は\"いつものAWS\"とどう違うのか——標準仕様書ver.1.5を読み解く",
-          "link": "https://qiita.com/k2_naka/items/9de57c58f7722522d812",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-23T13:06:49",
-          "excerpt": "「東京都クラウドインフラ」は\"いつものAWS\"とどう違うのか——標準仕様書ver.1.5を読み解く 本記事は「東京都クラウドインフラ標準仕様書 ver.1.…"
-        },
-        {
-          "title": "ガバメントクラウド（AWS）と東京都東京都クラウドインフラ（AWS）の違い",
-          "link": "https://qiita.com/k2_naka/items/8555fb4a027f3aa159d8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-23T12:55:11",
-          "excerpt": "デジタル庁が推進するガバメントクラウド（AWS）と東京都が独自に構築している東京都クラウドインフラ（AWS）の違いについて、ネットワーク構造、利用可能なサービス、セキュリティ統制、運用アクセス、および費用構造の観点から詳細化します。…"
+          "title": "AWS Lambda の外部依存をトレース地図で「表示名」にする（自己計装 + SigV4 で X-Ray OTLP 直送）",
+          "link": "https://zenn.dev/tomoikawa/articles/9c1af3a661c396",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-23T13:37:26",
+          "excerpt": "はじめに 分散トレーシングを入れて X-Ray のトレース地図（サービスマップ）を眺めていると、外部 API 呼び出しのノードが a1b2c3xyz.example.com のような生ホスト名や、ときには生 IP で並ぶことがあります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が23件。専門家らは、AI バグハンティングの時代が到来しているため、防御側はより忙しいワークロードに適応する必要があるだけだと述べています。",
+      "summary": "セキュリティの新着が23件。シリーズAはBattery Venturesが主導し、AegisAIの総資金は4900万ドルとなった。",
       "articles": [
+        {
+          "title": "Google の元セキュリティ幹部が設立した AegisAI、AI によるスピア フィッシングを阻止するために 3,600 万ドルを調達",
+          "link": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-23T18:38:34",
+          "excerpt": "シリーズAはBattery Venturesが主導し、AegisAIの総資金は4900万ドルとなった。"
+        },
         {
           "title": "オラクル、まるで新常態であるかのように 1,449 件のセキュリティ パッチを投下",
           "link": "https://www.theregister.com/security/2026/07/23/oracle-drops-1449-security-patches-like-its-the-new-normal/5277114",
@@ -99,20 +106,13 @@
           "source": "The Register（英語）",
           "published": "2026-07-23T11:58:00",
           "excerpt": "サプライヤーのプラットフォームを介して技術データが盗まれた後、Stadler は 12.3 ドルの要求を拒否"
-        },
-        {
-          "title": "dbt Projects on Snowflake を GitHub Actions + OIDC 認証で CI/CD を試してみた",
-          "link": "https://dev.classmethod.jp/articles/try-dbt-projects-on-snowflake-github-actions-oidc-cicd/",
-          "source": "DevelopersIO",
-          "published": "2026-07-23T10:48:17",
-          "excerpt": "GitHub ActionsのOIDCトークンとSnowflakeのWorkload Identity Federationを組み合わせることで、長期シークレットなしでdbt Projects on Snowflakeの安全なCI/CDパイ…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。Amazon SageMaker Unified Studio が Amazon OpenSearch Service をデータソースとしてサポートしました。…",
+      "summary": "データ分析の新着が8件。Amazon SageMaker Unified Studio が Amazon OpenSearch Service をデータソースとしてサポートしました。…",
       "articles": [
         {
           "title": "[アップデート] Amazon SageMaker Unified Studio が Amazon OpenSearch Service をデータソースとしてサポートしたので試してみました",
@@ -120,6 +120,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-23T17:30:42",
           "excerpt": "Amazon SageMaker Unified Studio が Amazon OpenSearch Service をデータソースとしてサポートしました。…"
+        },
+        {
+          "title": "【コスト削減】S3をデータベースのように使って低コストなバッチデータ基盤を実現する【個人開発】",
+          "link": "https://zenn.dev/koenokakaku/articles/b807855e648b64",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-23T16:29:34",
+          "excerpt": "はじめに 先日、DLsiteの音声作品について、現在価格・セール状況・過去の安値をまとめて確認でき、買い時に通知も受け取れるサイト「声の価格」を公開しました。https://koenokakaku.…"
         },
         {
           "title": "Firefox 153 にはそれ自体が含まれていますが、Thunderbird 153 はほぼすべてを修正します",
@@ -134,20 +141,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-23T08:47:54",
           "excerpt": "SHIFTにてインフラコンサルタントをしているUENOです。続きをみる"
-        },
-        {
-          "title": "無償でも使えるインストーラー作成ソフト「Inno Setup 7」が公開 ～7年ぶりのメジャーアップデート／64bit版を新たに追加、「MAX_PATH」制限も撤廃",
-          "link": "https://forest.watch.impress.co.jp/docs/news/2126929.html",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-07-23T02:46:15",
-          "excerpt": "無償でも使えるインストーラー作成ソフト「Inno Setup 7」が公開 ～7年ぶりのメジャーアップデート／64bit版を新たに追加、「MAX_PATH」制限も撤廃"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。コードシャックはまた、初めての研究者に新たな制限を課し、厳選された実績のあるハンターのグループに最大の報酬を留保します",
+      "summary": "開発ツールの新着が14件。コードシャックはまた、初めての研究者に新たな制限を課し、厳選された実績のあるハンターのグループに最大の報酬を留保します",
       "articles": [
         {
           "title": "AI レポートの洪水でセキュリティ チームが埋もれ、GitHub が公開バグ報奨金の支払いを削減",
@@ -155,6 +155,13 @@
           "source": "The Register（英語）",
           "published": "2026-07-23T15:15:00",
           "excerpt": "コードシャックはまた、初めての研究者に新たな制限を課し、厳選された実績のあるハンターのグループに最大の報酬を留保します"
+        },
+        {
+          "title": "LiteLLM によるAI gateway を公式実装でデプロイして Claude Code で動かしてみた",
+          "link": "https://zenn.dev/aws_japan/articles/e536274dc77a4f",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-23T14:50:55",
+          "excerpt": "はじめに 前回の記事で Claude Apps Gateway を検証した際、比較表でインターネット経由で使いたい組織の候補として挙げたのが Multi-Provider Generative AI Gateway on AWS です。…"
         },
         {
           "title": "AWS DevOps Agent スペースに AWS Organizations 配下のアカウントをセカンダリソースとして AWS CLI でまとめて追加してみた",
@@ -169,18 +176,25 @@
           "source": "DevelopersIO",
           "published": "2026-07-23T14:21:49",
           "excerpt": "AWS Entity Resolutionで高度なルールベースマッチング（AND/OR条件）のリアルタイムマッチングが利用可能になりました。…"
-        },
-        {
-          "title": "AWSで筋トレ進捗記録3(構成のIaC化)",
-          "link": "https://qiita.com/Saba3/items/6ecc11e0bcdc6e6f8286",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-23T13:38:16",
-          "excerpt": "この記事は何 前回までコンソールでポチポチ作っていた運動記録の構成を、AWS SAMでコード化（IaC化）し、sam deploy一発で立ち上がるところまで持っていった記録です。2分で読めます。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "評価からガードレールまで: ACM FAccT 2026 にもたらしたもの",
+      "link": "https://blog.mozilla.ai/from-evaluation-to-guardrails-what-we-brought-to-acm-facct-2026/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-23T18:29:22",
+      "excerpt": "記事の URL: https://blog.mozilla.…"
+    },
+    {
+      "title": "ATProto をベースにした構築",
+      "link": "https://lukekanies.com/writing/building-on-atproto/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-23T18:23:50",
+      "excerpt": "記事の URL: https://lukekanies.com/writing/building-on-atproto/ コメント URL: https://news.ycombinator.com/item?…"
+    },
     {
       "title": ".NET MAUI、iOS/AndoridのランタイムがMonoからCoreCLRに更新、開発者は動作確認を。.NET 11 Preview 6が公開",
       "link": "https://www.publickey1.jp/blog/26/net_mauiiosandoridmonocoreclrnet_11_preview_6.html",
@@ -189,25 +203,11 @@
       "excerpt": "マイクロソフトは今秋リリース予定の包括的フレームワーク「Microsoft .NET」のプレビュー版となる「Microsoft .NET 11 Preview 6」（以下、.NET Preview 6）を公開しました。.NET 11 Pr.…"
     },
     {
-      "title": "米政府、イラン関連のハッカーが米国の水道・エネルギー供給事業者を混乱させていると発表",
-      "link": "https://techcrunch.com/2026/07/23/us-government-says-iran-linked-hackers-are-disrupting-american-water-and-energy-providers/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-23T17:27:08",
-      "excerpt": "最新の政府勧告は、イランのハッカーが水道とエネルギーのプロバイダーが使用するシステムを悪用していると警告している。"
-    },
-    {
-      "title": "AMD、Nvidia に匹敵する Helios システムでラックを攻撃",
-      "link": "https://www.theregister.com/systems/2026/07/23/amd-attacks-the-rack-with-helios-systems-that-rival-nvidias/5277246",
-      "source": "The Register（英語）",
-      "published": "2026-07-23T17:26:00",
-      "excerpt": "スペックにスペックを合わせると、House of Zen の初のラックスケール AI コンピューティング プラットフォームは、ほぼすべての基準で Nvidia の Vera Rubin よりも大きく高速ですが、これは机上の話にすぎません。"
-    },
-    {
-      "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』で学ぶ『SQL』の基礎について",
-      "link": "https://qiita.com/Veteran/items/d54c0f3e0d72338f1a8b",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-23T17:12:34",
-      "excerpt": "みなさんこんばんは！今日も酷暑、三重・静岡はついに40度超え！学生時代は扇風機で耐えられてる程度の暑さだった記憶があって、 日本はいつからこんな暑くなったんだ..って試しに東京の夏（6〜8月）平均気温、1990年から調べてみたら..…"
+      "title": "希土類元素を分離するための固体「原子チャネル」",
+      "link": "https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-23T18:13:03",
+      "excerpt": "記事の URL: https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements コメント URL: https://news.…"
     }
   ]
 }
