@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-22T23:53:26",
+  "generated_at": "2026-07-23T01:43:54",
   "window_hours": 24,
-  "total": 257,
+  "total": 266,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が46件。はじめに 2026年7月20日に、AWS Data Exports が Amazon Bedrock の標準化されたプロダクトメタデータを提供開始した、という発表がありました。…",
+      "summary": "生成AIの新着が52件。はじめに「RAGは知っている。でも Agentic RAG って何が違うの？」そう思っている方に向けた記事です。概念や図解での説明はよく見かけます。しかし「結局どれくらい賢くなるのか」は実際に動かして比較してみないと実感が湧きません。…",
       "articles": [
         {
-          "title": "【Bedrock】モデル別コストの集計が楽になったので Data Exports で確かめてみた",
-          "link": "https://qiita.com/ryu-ki/items/4c4222d994b6e8f87002",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-22T23:10:39",
-          "excerpt": "はじめに 2026年7月20日に、AWS Data Exports が Amazon Bedrock の標準化されたプロダクトメタデータを提供開始した、という発表がありました。…"
-        },
-        {
-          "title": "Cycloud 新基盤の全貌 第三回: NW編 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-          "link": "https://developers.cyberagent.co.jp/blog/archives/64794/",
+          "title": "Agentic RAG実装ガイド：LangGraph×Azure AI Searchで通常RAGとの違いを実データで検証 | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/be9990f412af0b",
           "source": "企業テックブログまとめ",
-          "published": "2026-07-22T23:00:30",
-          "excerpt": "はじめに はじめまして。CyberAgent group Infrastructure Unit（C ..."
+          "published": "2026-07-23T01:00:21",
+          "excerpt": "はじめに「RAGは知っている。でも Agentic RAG って何が違うの？」そう思っている方に向けた記事です。概念や図解での説明はよく見かけます。しかし「結局どれくらい賢くなるのか」は実際に動かして比較してみないと実感が湧きません。…"
         },
         {
-          "title": "【解いてみた】データマネジメント試験（仮称）科目B サンプル問題：問２（データプロファイリング） | Agent Grow Tech Notesのフィード",
-          "link": "https://zenn.dev/agent_grow/articles/649c72cbd61622",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-22T23:00:07",
-          "excerpt": "はじめに2026/6/22に、IPAより新制度試験のうちデータマネジメント試験のサンプル問題が公開されました。※出典：データマネジメント試験（仮称）科目B サンプル問題今回は、受験を予定している身として解いてみました。!…"
-        },
-        {
-          "title": "GitHub Copilot、Google Gemini 3.6 Flashを追加",
-          "link": "https://codezine.jp/article/detail/29071",
+          "title": "Google、Gemini 3.6 Flashおよび3.5 Flash-Liteを発表",
+          "link": "https://codezine.jp/article/detail/29073",
           "source": "CodeZine",
-          "published": "2026-07-22T23:00:00",
-          "excerpt": "GitHub Copilot、Google Gemini 3.6 Flashを追加"
+          "published": "2026-07-23T01:00:00",
+          "excerpt": "Google、Gemini 3.6 Flashおよび3.5 Flash-Liteを発表"
+        },
+        {
+          "title": "個人開発を始めたら真っ先に設定すべき、AWSのコスト対策(実例：Bedrock)",
+          "link": "https://qiita.com/toshikun_dev/items/943144d79e8d68a4d136",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-23T00:59:32",
+          "excerpt": "はじめに 過去に個人開発として、SageMakerでモデルを学習させていたときに、気づいたら$20ほど課金されていたことがあります。…"
+        },
+        {
+          "title": "開発しているだけで進捗が更新される。Linear × Claude Code × GitHubで作る開発フロー | 株式会社エクスプラザのフィード",
+          "link": "https://zenn.dev/explaza/articles/500ded8ea67252",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-23T00:54:00",
+          "excerpt": "Claude Codeを使うようになって、実装にかかる時間はかなり短くなりました。ただ、開発が速くなっても、タスクを作る、着手状態にする、PRを紐付ける、レビュー中に変える、完了にする、といった管理作業は残ります。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が28件。本日より、コンピューティングに最適化された Amazon EC2 C7a インスタンスが AWS 米国西部 (北カリフォルニア) リージョンで利用できるようになりました。C7a インスタンスは、最大周波数 3.…",
+      "summary": "クラウドの新着が27件。CEDEC2026 のセッションレポートです。全方位の音場を扱う Ambisonics について、その追い風となっている技術動向と、64ch マイク ViReal Mic を用いた全方位の IR 収録の取り組みを紹介します。",
       "articles": [
+        {
+          "title": "【セッションレポート】全方位を録り、全空間を「実装、再現」する ～64chAmbisonicsマイクを用いた高精細・全方位IR収録の最前線と次世代の空間表現～ #CEDEC2026",
+          "link": "https://dev.classmethod.jp/articles/cedec-2026-ambisonics-ir/",
+          "source": "DevelopersIO",
+          "published": "2026-07-23T01:01:25",
+          "excerpt": "CEDEC2026 のセッションレポートです。全方位の音場を扱う Ambisonics について、その追い風となっている技術動向と、64ch マイク ViReal Mic を用いた全方位の IR 収録の取り組みを紹介します。"
+        },
+        {
+          "title": "🍯【はちみつと学ぶIT #16】AWS Fargateとは？サーバー管理不要でコンテナを実行できるサービスをやさしく解説",
+          "link": "https://qiita.com/honeybro/items/86836661bba1049e6c20",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-23T00:45:32",
+          "excerpt": "🍯【はちみつと学ぶIT #16】AWS Fargateとは？サーバー管理不要でコンテナを実行できるサービスをやさしく解説 はじめに 前回は、コンテナをまとめて管理するサービスであるAmazon ECSについて学びました。…"
+        },
         {
           "title": "Amazon EC2 C7a インスタンスが米国西部 (北カリフォルニア) リージョンで利用可能になりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7a-instances-us-west-ncalifornia-region/",
@@ -57,28 +71,28 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-22T20:55:00",
           "excerpt": "本日より、汎用 Amazon EC2 M8a インスタンスが AWS アジアパシフィック (ハイデラバード) リージョンで利用可能になります。M8a インスタンスは、最大周波数 4.…"
-        },
-        {
-          "title": "AWS Lambda の永続関数が顧客管理のキー暗号化をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/durablefunctions-cmk/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-22T18:30:00",
-          "excerpt": "AWS Lambda の永続関数は、AWS Key Management Service (AWS KMS) カスタマー管理キーを使用した永続実行データの暗号化をサポートするようになりました。…"
-        },
-        {
-          "title": "自律最適化インフラへの進化",
-          "link": "https://zenn.dev/8alfalfa8/articles/self-optimizing-infrastructure",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-22T17:38:06",
-          "excerpt": "自律最適化インフラへの進化 1.はじめに クラウドネイティブ技術の普及により、インフラ運用は大きな転換期を迎えています。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が23件。KMSは「鍵の鍵を管理する、鍵専門の金庫番」🔑 暗号化しておかないと「事故」になる AWSには様々な場所にデータを保存できるが、 公開範囲の設定を一つ誤るだけで、簡単に情報漏洩事故につながる。…",
+      "summary": "セキュリティの新着が23件。AWS Secrets Manager に、シークレットのラベル更新を Amazon EventBridge へ直接通知する機能が追加されました。…",
       "articles": [
+        {
+          "title": "Secrets Manager の EventBridge 直接通知と CloudTrail の配信遅延を比較してみた",
+          "link": "https://dev.classmethod.jp/articles/secrets-manager-eventbridge-direct-notification/",
+          "source": "DevelopersIO",
+          "published": "2026-07-23T00:46:48",
+          "excerpt": "AWS Secrets Manager に、シークレットのラベル更新を Amazon EventBridge へ直接通知する機能が追加されました。…"
+        },
+        {
+          "title": "AI作成メールのクリック率は人間と同等に　年1回のセキュリティ教育では防御困難か",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/23/news043.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-07-23T00:15:00",
+          "excerpt": "Adaptive Securityは、生成AIの普及によって変化するメール攻撃の最新動向を発表した。…"
+        },
         {
           "title": "【KMS編】SAA先生に学ぶAWSの全容と授業メモ",
           "link": "https://qiita.com/minifish33/items/bb31cebd54323c94d7e9",
@@ -92,28 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-22T22:53:58",
           "excerpt": "Interventionsの組み込みハンドラー「Cedar Authorization」を試してみました！"
-        },
-        {
-          "title": "Linuxカーネルで432件のCVEが一斉公開　「重要な脆弱性だけ直す」運用は限界か",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/23/news032.html",
-          "source": "@IT",
-          "published": "2026-07-22T22:00:00",
-          "excerpt": "Linuxカーネル向けのCVE IDが短期間に432件公開され、セキュリティ関係者の間で議論を呼んでいる。従来は脆弱性ごとにリスクを見極め、優先順位を付けて対応することが一般的だったが、その前提自体が崩れつつあるという。…"
-        },
-        {
-          "title": "“交渉人”なのに犯人と内通、計120億円超の身代金吊り上げ　セキュリティ企業の元従業員に禁錮刑　米国",
-          "link": "https://www.itmedia.co.jp/news/articles/2607/22/news038.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-07-22T21:00:00",
-          "excerpt": "ランサムウェア攻撃の被害に遭った企業が、セキュリティ企業に対応を依頼。ところが被害企業を支援するはずの交渉人が、密かに犯人側と結託して身代金の額を吊り上げ、見返りを受け取っていた――米国でこんな事件が発生した。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。AIの本番運用を阻む壁は、モデル性能ではなく「データと運用」にあります。従来のバッチ処理やデータのサイロ化といった構造的限界をひもとき、AIエージェント時代に求められる「推論基盤中心」の次世代ITアーキテクチャを解説します。",
+      "summary": "データ分析の新着が6件。CEDEC2026 のセッションレポートです。全方位の音場を扱う Ambisonics について、その追い風となっている技術動向と、64ch マイク ViReal Mic を用いた全方位の IR 収録の取り組みを紹介します。",
       "articles": [
+        {
+          "title": "【セッションレポート】全方位を録り、全空間を「実装、再現」する ～64chAmbisonicsマイクを用いた高精細・全方位IR収録の最前線と次世代の空間表現～ #CEDEC2026",
+          "link": "https://dev.classmethod.jp/articles/cedec-2026-ambisonics-ir/",
+          "source": "DevelopersIO",
+          "published": "2026-07-23T01:01:25",
+          "excerpt": "CEDEC2026 のセッションレポートです。全方位の音場を扱う Ambisonics について、その追い風となっている技術動向と、64ch マイク ViReal Mic を用いた全方位の IR 収録の取り組みを紹介します。"
+        },
         {
           "title": "AIエージェント時代、なぜデータ基盤の進化が求められるのか？　次世代アーキテクチャの基本を解説",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2607/23/news006.html",
@@ -134,80 +141,73 @@
           "source": "ITmedia NEWS",
           "published": "2026-07-22T07:07:00",
           "excerpt": "素早い対応は、ユーザーに歓迎されているようだ。"
-        },
-        {
-          "title": "中高生に人気の「setlog」を40代が使ってみた　撮るものがなくて天井を撮る日々でも……",
-          "link": "https://www.itmedia.co.jp/news/articles/2607/22/news081.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-07-22T05:00:00",
-          "excerpt": "筆者は最近「setlog」というアプリを使い始めた。5月ごろからApp Storeの無料アプリランキングで1位を維持し、中高生を中心に大ブームになっているという。友人から招待を受け、まず2人でやってみた。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。GitHub Copilot、Google Gemini 3.6 Flashを追加",
+      "summary": "開発ツールの新着が17件。Claude Codeを使うようになって、実装にかかる時間はかなり短くなりました。ただ、開発が速くなっても、タスクを作る、着手状態にする、PRを紐付ける、レビュー中に変える、完了にする、といった管理作業は残ります。…",
       "articles": [
+        {
+          "title": "開発しているだけで進捗が更新される。Linear × Claude Code × GitHubで作る開発フロー | 株式会社エクスプラザのフィード",
+          "link": "https://zenn.dev/explaza/articles/500ded8ea67252",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-23T00:54:00",
+          "excerpt": "Claude Codeを使うようになって、実装にかかる時間はかなり短くなりました。ただ、開発が速くなっても、タスクを作る、着手状態にする、PRを紐付ける、レビュー中に変える、完了にする、といった管理作業は残ります。…"
+        },
+        {
+          "title": "Next.jsをVercelにデプロイ — CloudflareとAWSとの違いも比べた",
+          "link": "https://qiita.com/cozy_666_tech/items/d042b1375a0decbc3bb0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-23T00:43:56",
+          "excerpt": "はじめに Next.jsのアプリをデプロイする方法を調べた。選択肢は大きく3つ。Vercel（Next.jsを作った会社のホスティング）、Cloudflare Pages、AWS（ECS/Lambda）。…"
+        },
+        {
+          "title": "pre-commit互換のGitフック管理フレームワーク「prek」の紹介",
+          "link": "https://gihyo.jp/article/2026/07/monthly-python-2607?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-07-23T00:06:00",
+          "excerpt": "今月の「Python Monthly Topics」は、Gitフックを管理するフレームワーク「prek」を紹介します。prekは、Pythonプログラマーの間で人気があるpre-commitのRust実装です。"
+        },
         {
           "title": "GitHub Copilot、Google Gemini 3.6 Flashを追加",
           "link": "https://codezine.jp/article/detail/29071",
           "source": "CodeZine",
           "published": "2026-07-22T23:00:00",
           "excerpt": "GitHub Copilot、Google Gemini 3.6 Flashを追加"
-        },
-        {
-          "title": "Kiroと作ったCreditCLIでAWSプロモーショナルクレジットコードを管理する",
-          "link": "https://qiita.com/hiro_qiita_/items/e90dd0099a451433365b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-22T17:32:46",
-          "excerpt": "こんにちは。今回は、AWSのプロモーショナルクレジットをマネジメントコンソールを使わずに管理運用するためのツールをKiroと作りました。…"
-        },
-        {
-          "title": "GAになった AI-DLC Workflows v2.5.5 を Kiro CLI で動かしてみた",
-          "link": "https://dev.classmethod.jp/articles/aidlc-workflows-v2-ga-kiro-cli/",
-          "source": "DevelopersIO",
-          "published": "2026-07-22T17:18:42",
-          "excerpt": "AI-DLC Workflows v2.0 が GA になりました。前回のプレビュー記事から5週間・30リリースを経た現行版 v2.5.5 の変化を確認し、Kiro CLI でワークフローの入口まで動作確認してみました。"
-        },
-        {
-          "title": "AWS DevOps Agent スペースのセカンダリソースの追加に必要な IAM ロールを CloudFormation StackSets で作成してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-secondary-account-iam-role-stackset/",
-          "source": "DevelopersIO",
-          "published": "2026-07-22T15:18:45",
-          "excerpt": "AWS DevOps Agent でセカンダリアカウントを追加するために必要な IAM ロールを CloudFormation StackSets を使って AWS Organizations 配下に展開する方法を試してみました。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Weekly AWS アップデート情報 - 2026年7月21日",
-      "link": "https://zenn.dev/softbank/articles/89538abf390e3e",
-      "source": "Zenn AWSトピック",
-      "published": "2026-07-22T23:49:55",
-      "excerpt": "皆さま、こんにちは。Weekly AWSでは、毎週 AWS プロダクトのアップデート情報をお届けしています。それでは、先週 (7月13日～19日) の主な AWS アップデート情報を紹介します。…"
+      "title": "AWS CloudShell でファイルをアップロード、ダウンロードする方法を教えてください",
+      "link": "https://dev.classmethod.jp/articles/tsnote-cloudshell-file-upload-download/",
+      "source": "DevelopersIO",
+      "published": "2026-07-23T01:16:42",
+      "excerpt": "AWS CloudShellでローカルファイルをアップロード・ダウンロードするには「アクション」メニューを使用します。"
     },
     {
-      "title": "衝撃的な四半期の後、IBMはAIがメインフレームを破壊するものではないと主張",
-      "link": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-22T23:47:54",
-      "excerpt": "先週、メインフレームの販売不振への警告を受けてIBMの株価が暴落したことを受け、CEOはAIが企業のハードウェア予算を一時的に破壊したと説明した。"
+      "title": "PagerDuty Event Orchestration で メールインシデントの重複排除を解除して同一件名のアラートを別インシデントで起票してみた",
+      "link": "https://dev.classmethod.jp/articles/pagerduty-disable-email-dedup/",
+      "source": "DevelopersIO",
+      "published": "2026-07-23T01:10:33",
+      "excerpt": "PagerDutyのEvent Orchestrationでメール通知をインシデント化する際に、件名が同じ別々のアラートが1つのインシデントにまとめられてしまう問題に遭遇しました。…"
     },
     {
-      "title": "【AI時代の新卒育成】AIネイティブが“育つ”、SHIFTの舞台裏 | SHIFT Group 技術ブログ",
-      "link": "https://note.shiftinc.jp/n/n83f158d7664e",
+      "title": "【短納期×大規模】AIにロジック実装もテストコードも丸投げするための「8ステップAI駆動開発ワークフロー」 | mediba テックブログのフィード",
+      "link": "https://zenn.dev/mediba/articles/669709b9cb9420",
       "source": "企業テックブログまとめ",
-      "published": "2026-07-22T23:00:00",
-      "excerpt": "第2回：社長すらAI化する組織。研修初日に体感する「AI時代」のリアル。続きをみる"
+      "published": "2026-07-23T01:00:05",
+      "excerpt": "はじめにこんにちは。株式会社medibaでフロントエンドエンジニアをやっているyu_ariです。…"
     },
     {
-      "title": "Astro・Viteベースのドキュメントフレームワーク「Blume」v1.0.0公開",
-      "link": "https://codezine.jp/article/detail/29057",
-      "source": "CodeZine",
-      "published": "2026-07-22T23:00:00",
-      "excerpt": "Astro・Viteベースのドキュメントフレームワーク「Blume」v1.0.0公開"
+      "title": "kintone.com プラットフォームを提供 ~ われら Yakumo にござる | Cybozu Inside Out | サイボウズエンジニアのブログ",
+      "link": "https://blog.cybozu.io/entry/2026/07/23/100000",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-23T01:00:00",
+      "excerpt": "こんにちは、kintone.com を提供する Yakumo チームの rin（@rindrics.com）です。…"
     }
   ]
 }
