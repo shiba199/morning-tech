@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-07-24T09:41:44",
+  "generated_at": "2026-07-24T11:29:14",
   "window_hours": 24,
-  "total": 247,
+  "total": 250,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が51件。CEDEC2026 のセッションレポートです。ポーカーや麻雀のように相手の情報が見えない不完全情報ゲームで、どんな相手にも崩れない強い AI をどう作るのか。…",
+      "summary": "生成AIの新着が55件。半年で大きく変わったローカルLLM事情を、実測データを交えて整理し直します。MoE + 4bit量子化が主流化し、投機デコードが実用段階に。汎用なら Qwen3.6-35B-A3B、ハード選びも128GB統合メモリ機が台頭。…",
       "articles": [
         {
-          "title": "【セッションレポート】多人数不完全情報ゲームAIのための数理最適化と機械学習 #CEDEC2026",
-          "link": "https://dev.classmethod.jp/articles/cedec-2026-game-ai-nash/",
+          "title": "2026年夏のローカルLLM事情を整理してみた",
+          "link": "https://dev.classmethod.jp/articles/local-llm-guide-2026-summer/",
           "source": "DevelopersIO",
-          "published": "2026-07-24T09:19:07",
-          "excerpt": "CEDEC2026 のセッションレポートです。ポーカーや麻雀のように相手の情報が見えない不完全情報ゲームで、どんな相手にも崩れない強い AI をどう作るのか。…"
+          "published": "2026-07-24T10:54:00",
+          "excerpt": "半年で大きく変わったローカルLLM事情を、実測データを交えて整理し直します。MoE + 4bit量子化が主流化し、投機デコードが実用段階に。汎用なら Qwen3.6-35B-A3B、ハード選びも128GB統合メモリ機が台頭。…"
         },
         {
-          "title": "Android版Chrome、通知プロンプトのUX改善をChrome 155で導入",
-          "link": "https://codezine.jp/article/detail/29090",
-          "source": "CodeZine",
-          "published": "2026-07-24T08:00:00",
-          "excerpt": "Android版Chrome、通知プロンプトのUX改善をChrome 155で導入"
+          "title": "vLLM Neuron プラグイン v0.21 アップデート解説",
+          "link": "https://zenn.dev/tosshi/articles/be22d1ace136a5",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-24T10:44:55",
+          "excerpt": "はじめに 2026 年 7 月 20 日、AWS Trainium 向けの推論スタックである vLLM Neuron プラグインが v0.21.0.1.0.0 としてリリース（Public Beta）されました。…"
         },
         {
-          "title": "GPT-5.6が使えないならGrok 4.3を使う――Bedrock Mantle＋LiteLLM＋Docker版Codex CLI実践",
-          "link": "https://qiita.com/Maki-HamarukiLab/items/143db89352cfeaa511f1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-24T07:57:00",
-          "excerpt": "前回、Amazon Bedrock MantleでGPT-5.6 Lunaを呼び出し、Models APIには表示されるのに推論時は 401 access_denied になる現象を検証しました。…"
+          "title": "スーパーに並んだ「ごちゃごちゃ生成AIポップ」が物議　“看板王”こと、きぬた歯科院長「これはアリ」",
+          "link": "https://www.itmedia.co.jp/news/articles/2607/24/news094.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-07-24T10:20:00",
+          "excerpt": "スーパーの青果売り場に並ぶ、生成AIで作ったとみられる派手な商品ポップがXで物議を醸している。吸血鬼や戦国武将を描いたデザインに「見づらい」との声が相次ぐ中、看板広告で知られるきぬた歯科のきぬた泰和院長は「これはアリ」と評価。その理由とは。"
         },
         {
-          "title": "AWS MCP Server が OAuth に対応！AI エージェントを「いつもの AWS サインイン」でつなげてみた",
-          "link": "https://qiita.com/leomarokun/items/e2462ad8330689c163a4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-24T07:30:27",
-          "excerpt": "はじめに AI コーディングエージェントから AWS を触らせようとしたとき、こんな面倒に出会ったことはないでしょうか。…"
+          "title": "Hetzner は LLM 推論に取り組んでいます",
+          "link": "https://sliplane.io/blog/hetzner-inference",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-24T09:24:44",
+          "excerpt": "記事の URL: https:// Sliplane.io/blog/hetzner-inference コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。CEDEC2026 のセッションレポートです。ポーカーや麻雀のように相手の情報が見えない不完全情報ゲームで、どんな相手にも崩れない強い AI をどう作るのか。…",
+      "summary": "クラウドの新着が22件。Amazon Connect Customer のオペレーション時間と AWS Lambda を活用して、配送可能日を自動判定する仕組みを実装してみました。…",
       "articles": [
+        {
+          "title": "【Amazon Connect Customer】オペレーション時間をカレンダーとして AWS Lambda で配送可能日を判定させてみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-connect-delivery-date-judgment/",
+          "source": "DevelopersIO",
+          "published": "2026-07-24T10:17:09",
+          "excerpt": "Amazon Connect Customer のオペレーション時間と AWS Lambda を活用して、配送可能日を自動判定する仕組みを実装してみました。…"
+        },
         {
           "title": "【セッションレポート】多人数不完全情報ゲームAIのための数理最適化と機械学習 #CEDEC2026",
           "link": "https://dev.classmethod.jp/articles/cedec-2026-game-ai-nash/",
@@ -64,21 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-24T06:29:46",
           "excerpt": "CEDEC2026 のセッションレポートです。…"
-        },
-        {
-          "title": "【セッションレポート】テスト自動化環境の運用で見えた課題と、再設計による解決事例 ～テスト回数、端末台数、テスト内容、プラットフォームのスケールアップ事例～ #CEDEC2026",
-          "link": "https://dev.classmethod.jp/articles/cedec-2026-test-automation/",
-          "source": "DevelopersIO",
-          "published": "2026-07-24T06:02:45",
-          "excerpt": "CEDEC2026 のセッションレポートです。長期運営中の Unity 製対戦アクションゲームを対象に、テスト自動化環境を運用しながら再設計し、テスト回数や端末台数などをスケールさせてきたセガの事例を紹介します。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。私たちは、未知の脆弱性を探し、それを悪用するツールを開発している数人のサイバーセキュリティ研究者に、OpenAI と Anthropic のガードレールが研究にどのような影響を与えるかについて話を聞きました。",
+      "summary": "セキュリティの新着が10件。はじめに インフラ寄りの仕事をすることになり、研修で久しぶりに AWS を触っています。自分が AWS SAA を取ったのは2年ほど前で、そこから実務で使う機会はほとんどありませんでした。…",
       "articles": [
+        {
+          "title": "AWS IAM のメンタルモデルを整理する",
+          "link": "https://zenn.dev/ntk221/articles/6dee6ef9463f03",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-24T10:08:44",
+          "excerpt": "はじめに インフラ寄りの仕事をすることになり、研修で久しぶりに AWS を触っています。自分が AWS SAA を取ったのは2年ほど前で、そこから実務で使う機会はほとんどありませんでした。…"
+        },
         {
           "title": "AI ガードレールが攻撃的なサイバーセキュリティ研究者の研究をどのように妨げているか",
           "link": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
@@ -99,20 +106,13 @@
           "source": "@IT",
           "published": "2026-07-23T22:00:00",
           "excerpt": "「守る」という発想だけでは、AI時代のサイバーリスクには太刀打ちできない──。Gartnerは宮本武蔵の『五輪書』を題材に、ガバナンスからAI防御、人材育成まで、セキュリティ戦略の転換を提言した。"
-        },
-        {
-          "title": "AIエージェント時代に直面する「新たなセキュリティと内部統制」　日立ら大手はどう考えるのか",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/24/news036.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-07-23T22:00:00",
-          "excerpt": "生成AIやAIエージェントの普及で、企業は説明責任やデータの偏り、情報漏えいといった新たな統制課題に直面している。博報堂DYホールディングスや日立製作所など4社は「人間中心のAI」を掲げる新団体を設立した。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。3行まとめ スタースキーマは「速く集計するために、あえて正規化を崩す」分析基盤の定番設計です。中心に数値を集めるファクトテーブル、周りに切り口を並べるディメンションテーブル、という単純な星形が基本形です。…",
+      "summary": "データ分析の新着が4件。3行まとめ スタースキーマは「速く集計するために、あえて正規化を崩す」分析基盤の定番設計です。中心に数値を集めるファクトテーブル、周りに切り口を並べるディメンションテーブル、という単純な星形が基本形です。…",
       "articles": [
         {
           "title": "【データモデリング】 いまさら聞けないスタースキーマ ― なぜ分析基盤では正規化をあえて崩すのか | エイトハンドレッド TECH BLOG",
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が18件。はじめにこんにちは！アスエネでフロントエンドエンジニアをしているGucchiです！先日、私たちが開発している「アスエネSC」に、AIチャットボット機能が搭載されました！…",
+      "summary": "開発ツールの新着が19件。Intune の Win32 アプリを使って、Windows 端末から Netskope Client を一括アンインストールする方法を解説します。…",
       "articles": [
+        {
+          "title": "Intune で Netskope Client を一括アンインストールする方法 | CloudNative BLOGs",
+          "link": "https://blog.cloudnative.co.jp/articles/intune-uninstall-netskope/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-24T10:25:00",
+          "excerpt": "Intune の Win32 アプリを使って、Windows 端末から Netskope Client を一括アンインストールする方法を解説します。…"
+        },
+        {
+          "title": "AWS AI Leagueを自身のAWS環境で試す ─ Community Editionのデプロイ",
+          "link": "https://zenn.dev/nttdata_tech/articles/ff84775a3396bc",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-24T09:00:06",
+          "excerpt": "1.はじめに 前回の記事では、AWS AI League Community Editionの全体像と、利用できる主な機能を紹介しました。https://zenn.…"
+        },
         {
           "title": "Vercel AI SDK（@ai-sdk/vue）と Reka UI で作るAIチャットボットのフロントエンド | アスエネテックブログのフィード",
           "link": "https://zenn.dev/asuene/articles/a144d100d2d49f",
@@ -162,52 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-24T07:57:00",
           "excerpt": "前回、Amazon Bedrock MantleでGPT-5.6 Lunaを呼び出し、Models APIには表示されるのに推論時は 401 access_denied になる現象を検証しました。…"
-        },
-        {
-          "title": "GitHub Enterprise Server、8月18日以降のサポートバンドルアップロードに制限",
-          "link": "https://codezine.jp/article/detail/29091",
-          "source": "CodeZine",
-          "published": "2026-07-24T07:00:00",
-          "excerpt": "GitHub Enterprise Server、8月18日以降のサポートバンドルアップロードに制限"
-        },
-        {
-          "title": "AI × IaCで実現する、Aurora依存を抑えたマルチテナントSaaS設計",
-          "link": "https://zenn.dev/gyu07/articles/854c7fae403a53",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-24T05:40:18",
-          "excerpt": "!本記事は、dev.to で公開した\"Let Aurora Sleep: Multi-Tenant SaaS Cost, Reconsidered with AI × IaC\"の日本語版です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "バーナムは大手電子商取引に英国のパブへの資金提供を望んでいる",
-      "link": "https://www.theregister.com/offbeat/2026/07/24/burnham-wants-big-ecommerce-to-bankroll-britains-pubs/5277991",
-      "source": "The Register（英語）",
-      "published": "2026-07-24T09:15:00",
-      "excerpt": "首相が地域経済を救うために電子商取引に課税することを検討しているため、オンライン市場は次のラウンドで購入することになる可能性がある"
+      "title": "「LINE広告」の一部記録など約3年半分を誤って削除　LINEヤフー",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/24/news096.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-24T11:11:00",
+      "excerpt": "LINEヤフーは7月24日、「LINE広告」など企業向けサービスに関連し、個人情報保護法が保存を義務付ける記録を誤って削除していたと発表した。データの漏えいや不正利用は確認していないという。"
     },
     {
-      "title": "【開催報告】Neuron Community – 2026 Vol.1",
-      "link": "https://aws.amazon.com/jp/blogs/news/neuron-community-2026-vol-1/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-07-24T09:14:38",
-      "excerpt": "2026年7月15日 (水) に開催された「Neuron Community - 2026 Vol.1」の様子をレポートします。このイベントは、「Neuron Community」の協力のもと開催しました。…"
+      "title": "隠すか、見せるか　ビジネスマン向け“ファン付きウェア”、2つのアプローチ",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/24/news095.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-24T10:40:00",
+      "excerpt": "外で活動する人達の間では、ファン付きウェアがもはや当たり前の存在になったが、まだ利用しにくいシーンが多いのも事実だ。ビジネスパーソン向けのファン付きウェアを開発する2社のアプローチを紹介。"
     },
     {
-      "title": "スティーブ・ジョブズが基調講演で私を軽蔑した日（2010年）",
-      "link": "https://sive.rs/itunes",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-24T09:07:44",
-      "excerpt": "記事の URL: https://sive.rs/itunes コメント URL: https://news.ycombinator.com/item?id=49033001 ポイント: 6 コメント数: 0"
+      "title": "AI-DLC V2を導入し、その構成要素を組織に最適化させる",
+      "link": "https://qiita.com/Syoitu/items/a784d74541fac33f6814",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-24T10:14:47",
+      "excerpt": "前書き AI-DLC V2の仕様、みなさんはもう読まれたでしょうか 2026年7月22日にAI-DLC V2がGAされ、V1の公開からおよそ1年が経過しました。…"
     },
     {
-      "title": "Railsの鋭い部品シリーズ: コールバックは不変条件ではない（翻訳） | TechRacho",
-      "link": "https://techracho.bpsinc.jp/hachi8833/2026_07_24/158898",
+      "title": "【参加レポート】関西Ruby会議：「Project Naraku」に学ぶ作り手としての視点と、Rubyが「照らす」多様な世界 | インゲージ開発者ブログ",
+      "link": "https://blog.ingage.jp/entry/2026/07/24/190943",
       "source": "企業テックブログまとめ",
-      "published": "2026-07-24T08:30:01",
-      "excerpt": "概要 元サイトの許諾を得て翻訳・公開いたします。英語記事: Rails: The Sharp Parts.…"
+      "published": "2026-07-24T10:09:43",
+      "excerpt": "はじめに こんにちは、Tatsup1chです！私は先日開催された「関西Ruby会議」に現地参加してきました！今回のイベントでは、多くのセッションタイトルに「照らす」というキーワードが散りばめられていました。…"
     }
   ]
 }
