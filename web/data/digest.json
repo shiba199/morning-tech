@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-07-24T22:51:57",
+  "generated_at": "2026-07-24T23:53:53",
   "window_hours": 24,
-  "total": 224,
+  "total": 223,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が42件。Kiro の IDE / CLI / Web すべてで Claude Opus 5 が本日から利用可能になりました。Opus 4.…",
+      "summary": "生成AIの新着が43件。Kiro で初めて OpenAI のモデルが利用可能になりました。あわせてこのローンチは Kiro の 1 周年でもあります。…",
       "articles": [
+        {
+          "title": "Kiro で GPT-5.6 が利用可能になりました",
+          "link": "https://aws.amazon.com/jp/blogs/news/gpt-5-6/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-07-24T23:01:12",
+          "excerpt": "Kiro で初めて OpenAI のモデルが利用可能になりました。あわせてこのローンチは Kiro の 1 周年でもあります。…"
+        },
+        {
+          "title": "「165日→30分」に短縮　「1万9000人の全社RAG」　大企業が明かすAI共通基盤のリアル",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/25/news010.html",
+          "source": "@IT",
+          "published": "2026-07-24T23:00:00",
+          "excerpt": "＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。"
+        },
+        {
+          "title": "Claude Opus 5 が Kiro IDE / CLI で選択可能になりました",
+          "link": "https://dev.classmethod.jp/articles/kiro-ide-cli-claude-opus-5/",
+          "source": "DevelopersIO",
+          "published": "2026-07-24T22:55:40",
+          "excerpt": "2026年7月24日にAnthropicが発表したClaude Opus 5が、同日中にKiro IDE / CLIのモデルセレクターにExperimental previewとして追加されました。モデルセレクターでの表示を確認します。"
+        },
         {
           "title": "Claude Opus 5 が Kiro で利用可能になりました",
           "link": "https://aws.amazon.com/jp/blogs/news/opus-5/",
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-07-24T22:41:56",
           "excerpt": "Kiro の IDE / CLI / Web すべてで Claude Opus 5 が本日から利用可能になりました。Opus 4.…"
-        },
-        {
-          "title": "カナダの議員、議場演説で明らかなLLM反応を読み上げる",
-          "link": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-07-24T21:25:15",
-          "excerpt": "「これは、そのセクションのより自然で流れるようなバージョンです...」"
-        },
-        {
-          "title": "Anthropic の Opus 5 は機能の飛躍ではなく、トークンの効率性を重視しています",
-          "link": "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-07-24T21:05:51",
-          "excerpt": "モデルは急速に改良されていますが、多くの場合、安価なオプションで十分です。"
-        },
-        {
-          "title": "Amazon Bedrock で Claude Opus 5 が利用可能になったので Converse API で試してみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-claude-opus-5-converse-api/",
-          "source": "DevelopersIO",
-          "published": "2026-07-24T18:40:56",
-          "excerpt": "2026年7月24日リリースの Claude Opus 5 が Amazon Bedrock で即日利用可能になりました。…"
         }
       ]
     },
@@ -133,8 +133,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。はじめに CloudWatchアラームが飛んだら即Slackに通知が来てほしい……というのは最近のインフラ運用あるあるですよね。…",
+      "summary": "開発ツールの新着が17件。2026年7月24日にAnthropicが発表したClaude Opus 5が、同日中にKiro IDE / CLIのモデルセレクターにExperimental previewとして追加されました。モデルセレクターでの表示を確認します。",
       "articles": [
+        {
+          "title": "Claude Opus 5 が Kiro IDE / CLI で選択可能になりました",
+          "link": "https://dev.classmethod.jp/articles/kiro-ide-cli-claude-opus-5/",
+          "source": "DevelopersIO",
+          "published": "2026-07-24T22:55:40",
+          "excerpt": "2026年7月24日にAnthropicが発表したClaude Opus 5が、同日中にKiro IDE / CLIのモデルセレクターにExperimental previewとして追加されました。モデルセレクターでの表示を確認します。"
+        },
+        {
+          "title": "Gemini Enterprise Agent PlatformのModel RegistryからEndpointへデプロイ試してみた | Fusic 技術ブログのフィード",
+          "link": "https://zenn.dev/fusic/articles/5f054db81f3585",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-24T17:00:28",
+          "excerpt": "はじめにFusicのレオナです。…"
+        },
         {
           "title": "TerraformでCloudWatchアラームをSlack通知してみよう！",
           "link": "https://qiita.com/ec2_on_aws/items/0a4820316bb997da27ca",
@@ -148,52 +162,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-24T13:38:07",
           "excerpt": "更新日: 2026-07-24 GitHub ActionsからAWSへdeployするために、AWS_ACCESS_KEY_IDとAWS_SECRET_ACCESS_KEYをGitHub Secretsへ保存している。…"
-        },
-        {
-          "title": "確率遷移モデルの形式解析ツールPRISMをCLIから使ってみる | HashPort技術ブログ",
-          "link": "https://tech.hashport.io/5444/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-24T11:00:38",
-          "excerpt": "はじめに PRISM は確率的な振る舞いをもつシステムを、数学モデルとして厳密に書き下し、時間論理で書いた性質（プロパティ）を自動検証する 確率モデル検査 (probabilistic model checking) ツ […]確率遷移モデ…"
-        },
-        {
-          "title": "Intune で Netskope Client を一括アンインストールする方法 | CloudNative BLOGs",
-          "link": "https://blog.cloudnative.co.jp/articles/intune-uninstall-netskope/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-24T10:25:00",
-          "excerpt": "Intune の Win32 アプリを使って、Windows 端末から Netskope Client を一括アンインストールする方法を解説します。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "プレンティス、リード・ホフマンとマーク・ピンカスが共同設立した新しいAIラボ、1億ドル調達に向け交渉中",
-      "link": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-marc-pincus-in-talks-to-raise-100m/",
+      "title": "SpaceX、新しいV3 Starlink衛星を打ち上げるもブースター故障に見舞われる",
+      "link": "https://techcrunch.com/2026/07/24/spacex-launches-new-v3-starlink-satellites-but-suffers-another-booster-failure/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-24T23:25:47",
+      "excerpt": "同社はスターシップV3の2回目の飛行でさらにいくつかのチェックを入れたが、ブースターのロケットエンジンの再点火という別の問題があったようだ。"
+    },
+    {
+      "title": "Copilotの“元”は取れるのか？　住友商事らに学ぶ、投資判断の「物差し」",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/25/news012.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-07-24T23:00:00",
+      "excerpt": "「導入したはいいが、投資に見合う効果は本当に出ているのか」――。生成AIの費用対効果が問われる局面で、IT部門は経営層にどう説明すればよいのか。そもそも、自組織にとって本当に必要な製品をどう選ぶべきか。…"
+    },
+    {
+      "title": "SpaceX スターシップ 13 便のライブストリーム [ビデオ]",
+      "link": "https://www.spacex.com/launches/starship-flight-13",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-24T22:44:38",
+      "excerpt": "記事の URL: https://www.spacex.com/launches/starship-flight-13 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "プレンティス、リード・ホフマンとマーク・ピンカスが共同設立した新しいAIラボ、1億ドル調達交渉中",
+      "link": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
       "source": "TechCrunch（英語）",
       "published": "2026-07-24T22:25:58",
       "excerpt": "ネオラボは、日常的なコンピュータータスクの自動化が、AI の最大のユースケースとしてコーディングをすぐに上回るだろうと賭けている。"
-    },
-    {
-      "title": "教皇の公式祈りアプリが大罪を犯し、70万人以上のユーザー情報を漏洩",
-      "link": "https://www.theregister.com/security/2026/07/24/popes-official-prayer-app-commits-cardinal-sin-leaks-700k-users-info/5278603",
-      "source": "The Register（英語）",
-      "published": "2026-07-24T22:19:16",
-      "excerpt": "(セキュリティ) あなたよりも穴が大きい"
-    },
-    {
-      "title": "TechCrunch Disrupt 2026 の新しい Smart Money ステージでは、フィンテック、決済、AI、およびそれらの間のあらゆるものを探求します",
-      "link": "https://techcrunch.com/2026/07/24/techcrunch-disrupt-2026s-new-smart-money-stage-explores-fintech-payments-ai-and-everything-between/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-24T22:10:00",
-      "excerpt": "お金は、財布や銀行口座内の現金をはるかに超えたものへと進化しました。そしてTechCrunch Disrupt 2026では、ステージ全体をその進歩に捧げます。"
-    },
-    {
-      "title": "SQLiteでクロススタックオブザーバビリティを実現する：Next.js + FastAPIのトレースID連携ログ基盤",
-      "link": "https://dev.classmethod.jp/articles/cross-stack-observability-sqlite-nextjs-fastapi/",
-      "source": "DevelopersIO",
-      "published": "2026-07-24T22:00:10",
-      "excerpt": "ELKやDatadogを導入するほどではない社内ツールで、SQLite（WALモード）にNode.…"
     }
   ]
 }
