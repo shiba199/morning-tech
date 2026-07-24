@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-24T21:54:16",
+  "generated_at": "2026-07-24T22:51:57",
   "window_hours": 24,
-  "total": 225,
+  "total": 224,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が46件。「これは、そのセクションのより自然で流れるようなバージョンです...」",
+      "summary": "生成AIの新着が42件。Kiro の IDE / CLI / Web すべてで Claude Opus 5 が本日から利用可能になりました。Opus 4.…",
       "articles": [
+        {
+          "title": "Claude Opus 5 が Kiro で利用可能になりました",
+          "link": "https://aws.amazon.com/jp/blogs/news/opus-5/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-07-24T22:41:56",
+          "excerpt": "Kiro の IDE / CLI / Web すべてで Claude Opus 5 が本日から利用可能になりました。Opus 4.…"
+        },
         {
           "title": "カナダの議員、議場演説で明らかなLLM反応を読み上げる",
           "link": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/",
@@ -29,21 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-24T18:40:56",
           "excerpt": "2026年7月24日リリースの Claude Opus 5 が Amazon Bedrock で即日利用可能になりました。…"
-        },
-        {
-          "title": "Claude Code v2.1.219 の主要アップデート - Claude Opus 5 の登場、Opus 4.8 と同じ価格、2.5 倍の Fast モードも提供",
-          "link": "https://dev.classmethod.jp/articles/20260725-cc-updates-v2-1-219/",
-          "source": "DevelopersIO",
-          "published": "2026-07-24T18:07:12",
-          "excerpt": "Claude Code v2.1.219がリリースされました。新モデル「Claude Opus 5」の追加が目玉ですが、実務ではサンドボックス設定やサブエージェントの既定値変更など、周辺環境の変更のほうが影響が大きい可能性があります。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。AWS Lambda は、Lambda Managed Instances (LMI) キャパシティープロバイダーのログを Amazon CloudWatch Logs に公開するようになり、スケーリングアクティビティとインスタンスのライフ…",
+      "summary": "クラウドの新着が17件。本日より、お客様は、セルフマネージド ライセンス (SML) を作成し、AWS License Manager を介して AMI を関連付けるという以前に必要であった手順を行わずに、EC2 専用ホストのホスト リソース グループ (HRG)…",
       "articles": [
+        {
+          "title": "Amazon EC2 Ddedicate Host は、自己管理型ライセンスなしのホスト リソース グループをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-24T21:00:00",
+          "excerpt": "本日より、お客様は、セルフマネージド ライセンス (SML) を作成し、AWS License Manager を介して AMI を関連付けるという以前に必要であった手順を行わずに、EC2 専用ホストのホスト リソース グループ (HRG)…"
+        },
         {
           "title": "AWS Lambda が Lambda Managed Instances キャパシティプロバイダーのログを公開するようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-24T13:56:19",
           "excerpt": "はじめに プログラミングスクールで作成したSNSアプリをAWSにデプロイしていましたが、http通信のままでセキュアではなかったため、https対応をしたものです。下記記事を参考にさせて頂きました。ありがとうございます。…"
-        },
-        {
-          "title": "GitHub Actionsで長期AWSキーをなくす5ステップ — OIDC移行の安全チェック付き実務レシピ",
-          "link": "https://qiita.com/akira_papa_AI/items/9947bb45cf798b4e4d6e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-24T13:38:07",
-          "excerpt": "更新日: 2026-07-24 GitHub ActionsからAWSへdeployするために、AWS_ACCESS_KEY_IDとAWS_SECRET_ACCESS_KEYをGitHub Secretsへ保存している。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。Amazon Quick から Snowflake へキーペア認証で接続してみました。サービスユーザーの作成から接続、日本語での自然言語質問まで、実際の手順を紹介します。",
+      "summary": "セキュリティの新着が6件。Secrets Managerは「パスワードを直書きしなくていい世界」への入り口 🗝️ 認証情報の「べた書き」がそもそも危ない 通常、リソースにアクセスするアプリケーションは、 認証のためにアクセスキーとシークレットアクセスキーを使う。…",
       "articles": [
+        {
+          "title": "【Secrets Manager編】SAA先生に学ぶAWSの全容と授業メモ",
+          "link": "https://qiita.com/minifish33/items/fd14ebc177e5f8336630",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-24T22:43:33",
+          "excerpt": "Secrets Managerは「パスワードを直書きしなくていい世界」への入り口 🗝️ 認証情報の「べた書き」がそもそも危ない 通常、リソースにアクセスするアプリケーションは、 認証のためにアクセスキーとシークレットアクセスキーを使う。…"
+        },
         {
           "title": "Amazon Quick と Snowflake をキーペア認証で接続してみた",
           "link": "https://dev.classmethod.jp/articles/amazon-quick-snowflake-key-pair-authentication/",
@@ -99,21 +106,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-24T10:08:44",
           "excerpt": "はじめに インフラ寄りの仕事をすることになり、研修で久しぶりに AWS を触っています。自分が AWS SAA を取ったのは2年ほど前で、そこから実務で使う機会はほとんどありませんでした。…"
-        },
-        {
-          "title": "AI ガードレールが攻撃的なサイバーセキュリティ研究者の研究をどのように妨げているか",
-          "link": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-24T01:00:00",
-          "excerpt": "私たちは、未知の脆弱性を探し、それを悪用するツールを開発している数人のサイバーセキュリティ研究者に、OpenAI と Anthropic のガードレールが研究にどのような影響を与えるかについて話を聞きました。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が1件。3行まとめ スタースキーマは「速く集計するために、あえて正規化を崩す」分析基盤の定番設計です。中心に数値を集めるファクトテーブル、周りに切り口を並べるディメンションテーブル、という単純な星形が基本形です。…",
+      "summary": "データ分析の新着が2件。Amazon Kinesis Data Streams は、あらゆる規模のデータ ストリームを簡単にキャプチャ、処理、保存できるサーバーレス ストリーミング データ サービスです。…",
       "articles": [
+        {
+          "title": "Amazon Kinesis Data Streams が、ウォーム スループットによる取り込み容量のスケールダウンをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-24T18:55:00",
+          "excerpt": "Amazon Kinesis Data Streams は、あらゆる規模のデータ ストリームを簡単にキャプチャ、処理、保存できるサーバーレス ストリーミング データ サービスです。…"
+        },
         {
           "title": "【データモデリング】 いまさら聞けないスタースキーマ ― なぜ分析基盤では正規化をあえて崩すのか | エイトハンドレッド TECH BLOG",
           "link": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/07/24/172618",
@@ -161,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "ベトナムは子供向けのソーシャルメディアを制限しようとしている。同じことをやっている他の国も増えています",
-      "link": "https://techcrunch.com/2026/07/24/social-media-ban-children-countries-list/",
+      "title": "プレンティス、リード・ホフマンとマーク・ピンカスが共同設立した新しいAIラボ、1億ドル調達に向け交渉中",
+      "link": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-marc-pincus-in-talks-to-raise-100m/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-24T21:15:00",
-      "excerpt": "オーストラリアは、ネットいじめ、ソーシャルメディア依存症、捕食者への露出など、若者ユーザーがソーシャルメディア上で直面する可能性のあるプレッシャーとリスクを軽減することを目的として、2025年後半に禁止令を発令した最初の国となった。"
+      "published": "2026-07-24T22:25:58",
+      "excerpt": "ネオラボは、日常的なコンピュータータスクの自動化が、AI の最大のユースケースとしてコーディングをすぐに上回るだろうと賭けている。"
     },
     {
-      "title": "Show HN: Max Studio ツール (Max および Ableton Live 用の C++ DSP モジュール)",
-      "link": "https://github.com/apresta/max-studio-tools",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-24T21:03:10",
-      "excerpt": "記事の URL: https://github.com/apresta/max-studio-tools コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Waymo、Uberとの決別を検討中と報道",
-      "link": "https://techcrunch.com/2026/07/24/waymo-reportedly-mulling-a-breakup-with-uber/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-24T20:43:35",
-      "excerpt": "両社間の契約は2028年5月に終了するとウーバーはTechCrunchに語った。"
-    },
-    {
-      "title": "ユーロポール、The Comにリンクされた4,340の「恐ろしい」URLにフラグを立てる",
-      "link": "https://www.theregister.com/cyber-crime/2026/07/24/europol-flags-4340-horrific-urls-linked-to-the-com/5278556",
+      "title": "教皇の公式祈りアプリが大罪を犯し、70万人以上のユーザー情報を漏洩",
+      "link": "https://www.theregister.com/security/2026/07/24/popes-official-prayer-app-commits-cardinal-sin-leaks-700k-users-info/5278603",
       "source": "The Register（英語）",
-      "published": "2026-07-24T20:20:57",
-      "excerpt": "（オンラインでの募集とプロパガンダの）蔓延を阻止する"
+      "published": "2026-07-24T22:19:16",
+      "excerpt": "(セキュリティ) あなたよりも穴が大きい"
+    },
+    {
+      "title": "TechCrunch Disrupt 2026 の新しい Smart Money ステージでは、フィンテック、決済、AI、およびそれらの間のあらゆるものを探求します",
+      "link": "https://techcrunch.com/2026/07/24/techcrunch-disrupt-2026s-new-smart-money-stage-explores-fintech-payments-ai-and-everything-between/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-24T22:10:00",
+      "excerpt": "お金は、財布や銀行口座内の現金をはるかに超えたものへと進化しました。そしてTechCrunch Disrupt 2026では、ステージ全体をその進歩に捧げます。"
+    },
+    {
+      "title": "SQLiteでクロススタックオブザーバビリティを実現する：Next.js + FastAPIのトレースID連携ログ基盤",
+      "link": "https://dev.classmethod.jp/articles/cross-stack-observability-sqlite-nextjs-fastapi/",
+      "source": "DevelopersIO",
+      "published": "2026-07-24T22:00:10",
+      "excerpt": "ELKやDatadogを導入するほどではない社内ツールで、SQLite（WALモード）にNode.…"
     }
   ]
 }
