@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-24T12:57:18",
+  "generated_at": "2026-07-24T14:48:35",
   "window_hours": 24,
-  "total": 253,
+  "total": 251,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が54件。半年で大きく変わったローカルLLM事情を、実測データを交えて整理し直します。MoE + 4bit量子化が主流化し、投機デコードが実用段階に。汎用なら Qwen3.6-35B-A3B、ハード選びも128GB統合メモリ機が台頭。…",
+      "summary": "生成AIの新着が52件。はじめに 2026年6月、AWSからAWS Blocksが発表されました。…",
       "articles": [
+        {
+          "title": "AWS Blocksで開発体験向上：AgentCore Runtime上のリサーチエージェントと会話するNext.jsのWebアプリ開発",
+          "link": "https://qiita.com/chai31/items/f671b1f20be0b3c71200",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-24T14:00:21",
+          "excerpt": "はじめに 2026年6月、AWSからAWS Blocksが発表されました。…"
+        },
+        {
+          "title": "OpenAI の新しい音声モードが ChatGPT デスクトップ アプリに採用",
+          "link": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-24T13:36:42",
+          "excerpt": "デスクトップ上の ChatGPT Voice は、ChatGPT Work と Codex の両方と連携してタスクを完了し、エージェントを制御できます。"
+        },
         {
           "title": "2026年夏のローカルLLM事情を整理してみた",
           "link": "https://dev.classmethod.jp/articles/local-llm-guide-2026-summer/",
@@ -22,28 +36,28 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-24T10:44:55",
           "excerpt": "はじめに 2026 年 7 月 20 日、AWS Trainium 向けの推論スタックである vLLM Neuron プラグインが v0.21.0.1.0.0 としてリリース（Public Beta）されました。…"
-        },
-        {
-          "title": "スーパーに並んだ「ごちゃごちゃ生成AIポップ」が物議　“看板王”こと、きぬた歯科院長「これはアリ」",
-          "link": "https://www.itmedia.co.jp/news/articles/2607/24/news094.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-07-24T10:20:00",
-          "excerpt": "スーパーの青果売り場に並ぶ、生成AIで作ったとみられる派手な商品ポップがXで物議を醸している。吸血鬼や戦国武将を描いたデザインに「見づらい」との声が相次ぐ中、看板広告で知られるきぬた歯科のきぬた泰和院長は「これはアリ」と評価。その理由とは。"
-        },
-        {
-          "title": "米国ユーザー向けに ChatGPT でヘルスケアを開始",
-          "link": "https://openai.com/index/health-in-chatgpt/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-24T10:09:36",
-          "excerpt": "記事の URL: https://openai.com/index/health-in-chatgpt/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。CEDEC2026 のセッションレポートです。リアルタイムレンダリングで広く使われる球面調和関数について、その基礎と、回転・積分・勾配計算をめぐる最新の研究成果を、埼玉大学の岩崎 慶 氏が体系的に解説しました。",
+      "summary": "クラウドの新着が19件。はじめに プログラミングスクールで作成したSNSアプリをAWSにデプロイしていましたが、http通信のままでセキュアではなかったため、https対応をしたものです。下記記事を参考にさせて頂きました。ありがとうございます。…",
       "articles": [
+        {
+          "title": "EC2をCloudFront経由でセキュアにHTTPS化する全手順",
+          "link": "https://qiita.com/papapu/items/4a74b6535b752ea53380",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-24T13:56:19",
+          "excerpt": "はじめに プログラミングスクールで作成したSNSアプリをAWSにデプロイしていましたが、http通信のままでセキュアではなかったため、https対応をしたものです。下記記事を参考にさせて頂きました。ありがとうございます。…"
+        },
+        {
+          "title": "GitHub Actionsで長期AWSキーをなくす5ステップ — OIDC移行の安全チェック付き実務レシピ",
+          "link": "https://qiita.com/akira_papa_AI/items/9947bb45cf798b4e4d6e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-24T13:38:07",
+          "excerpt": "更新日: 2026-07-24 GitHub ActionsからAWSへdeployするために、AWS_ACCESS_KEY_IDとAWS_SECRET_ACCESS_KEYをGitHub Secretsへ保存している。…"
+        },
         {
           "title": "【セッションレポート】球面調和関数の新展開: 回転・積分・勾配計算の最新技術 #CEDEC2026",
           "link": "https://dev.classmethod.jp/articles/edec-2026-spherical-harmonics/",
@@ -57,28 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-24T10:17:09",
           "excerpt": "Amazon Connect Customer のオペレーション時間と AWS Lambda を活用して、配送可能日を自動判定する仕組みを実装してみました。…"
-        },
-        {
-          "title": "【セッションレポート】多人数不完全情報ゲームAIのための数理最適化と機械学習 #CEDEC2026",
-          "link": "https://dev.classmethod.jp/articles/cedec-2026-game-ai-nash/",
-          "source": "DevelopersIO",
-          "published": "2026-07-24T09:19:07",
-          "excerpt": "CEDEC2026 のセッションレポートです。ポーカーや麻雀のように相手の情報が見えない不完全情報ゲームで、どんな相手にも崩れない強い AI をどう作るのか。…"
-        },
-        {
-          "title": "S3 TablesのIcebergテーブルをGoから直接操作し、OpenTelemetryで内部を可視化してみた",
-          "link": "https://dev.classmethod.jp/articles/go-iceberg-s3tables-opentelemetry/",
-          "source": "DevelopersIO",
-          "published": "2026-07-24T08:39:34",
-          "excerpt": "GoのプログラムからS3 TablesのIcebergテーブルを直接操作し、OpenTelemetryのトレースで内部動作を可視化してみました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。Seller は、アイテムを頻繁に出品および販売する人のための専用のマーケットプレイス アプリです。",
+      "summary": "セキュリティの新着が11件。Amazon Quick から Snowflake へキーペア認証で接続してみました。サービスユーザーの作成から接続、日本語での自然言語質問まで、実際の手順を紹介します。",
       "articles": [
+        {
+          "title": "Amazon Quick と Snowflake をキーペア認証で接続してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-quick-snowflake-key-pair-authentication/",
+          "source": "DevelopersIO",
+          "published": "2026-07-24T13:23:08",
+          "excerpt": "Amazon Quick から Snowflake へキーペア認証で接続してみました。サービスユーザーの作成から接続、日本語での自然言語質問まで、実際の手順を紹介します。"
+        },
         {
           "title": "Facebookが販売者向けの専用マーケットプレイスアプリを立ち上げ、無料認証システムを追加",
           "link": "https://techcrunch.com/2026/07/24/facebook-launches-a-dedicated-marketplace-app-for-sellers-adds-a-free-verification-system/",
@@ -99,13 +106,6 @@
           "source": "TechCrunch（英語）",
           "published": "2026-07-24T01:00:00",
           "excerpt": "私たちは、未知の脆弱性を探し、それを悪用するツールを開発している数人のサイバーセキュリティ研究者に、OpenAI と Anthropic のガードレールが研究にどのような影響を与えるかについて話を聞きました。"
-        },
-        {
-          "title": "IAM 権限を絞る前に「実際にどの API を使っているか」を CloudTrail・Access Analyzer で調べてみた",
-          "link": "https://dev.classmethod.jp/articles/shoma-check-which-api-actually-used-with-cloudtrail-access-analyzer-before-narrowing-iam-permissions/",
-          "source": "DevelopersIO",
-          "published": "2026-07-24T00:12:21",
-          "excerpt": "IAM ポリシーを最小権限に絞る際、実際に使われているアクションを把握しないまま削除してしまうことはありませんか？…"
         }
       ]
     },
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が20件。はじめに PRISM は確率的な振る舞いをもつシステムを、数学モデルとして厳密に書き下し、時間論理で書いた性質（プロパティ）を自動検証する 確率モデル検査 (probabilistic model checking) ツ […]確率遷移モデ…",
+      "summary": "開発ツールの新着が18件。はじめに CloudWatchアラームが飛んだら即Slackに通知が来てほしい……というのは最近のインフラ運用あるあるですよね。…",
       "articles": [
+        {
+          "title": "TerraformでCloudWatchアラームをSlack通知してみよう！",
+          "link": "https://qiita.com/ec2_on_aws/items/0a4820316bb997da27ca",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-24T14:00:35",
+          "excerpt": "はじめに CloudWatchアラームが飛んだら即Slackに通知が来てほしい……というのは最近のインフラ運用あるあるですよね。…"
+        },
+        {
+          "title": "GitHub Actionsで長期AWSキーをなくす5ステップ — OIDC移行の安全チェック付き実務レシピ",
+          "link": "https://qiita.com/akira_papa_AI/items/9947bb45cf798b4e4d6e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-24T13:38:07",
+          "excerpt": "更新日: 2026-07-24 GitHub ActionsからAWSへdeployするために、AWS_ACCESS_KEY_IDとAWS_SECRET_ACCESS_KEYをGitHub Secretsへ保存している。…"
+        },
         {
           "title": "確率遷移モデルの形式解析ツールPRISMをCLIから使ってみる | HashPort技術ブログ",
           "link": "https://tech.hashport.io/5444/",
@@ -162,52 +176,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-24T10:25:00",
           "excerpt": "Intune の Win32 アプリを使って、Windows 端末から Netskope Client を一括アンインストールする方法を解説します。…"
-        },
-        {
-          "title": "Game of Trees – OpenBSD 担当者による Git ベースのバージョン管理",
-          "link": "https://www.gameoftrees.org/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-24T10:15:29",
-          "excerpt": "記事の URL: https://www.gameoftrees.org/ コメント URL: https://news.ycombinator.com/item?id=49033412 ポイント: 13 コメント数: 1"
-        },
-        {
-          "title": "AWS AI Leagueを自身のAWS環境で試す ─ Community Editionのデプロイ",
-          "link": "https://zenn.dev/nttdata_tech/articles/ff84775a3396bc",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-24T09:00:06",
-          "excerpt": "1.はじめに 前回の記事では、AWS AI League Community Editionの全体像と、利用できる主な機能を紹介しました。https://zenn.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "「AWS SAA合格体験記」1ヶ月でAWS SAAC03に合格した",
-      "link": "https://qiita.com/suzukengo/items/1dc359a4ccc949b2ce4d",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-24T12:51:53",
-      "excerpt": "はじめに 今日、AWS SAAを受験し、745/1000点で合格することができました。クラウド系の資格を取得するのは初めてであり、勉強法を参考にしていただきたいと思い、ブログに残します。…"
-    },
-    {
-      "title": "アンクル・サム、海外のサイバー犯罪者にビザが取り消されたと告げる",
-      "link": "https://www.theregister.com/security/2026/07/24/uncle-sam-tells-overseas-cybercrooks-their-visas-are-canceled/5278212",
-      "source": "The Register（英語）",
-      "published": "2026-07-24T12:15:00",
-      "excerpt": "政策はオンライン詐欺師、性的強要者、そして潜在的には彼らの近親者をターゲットにしています"
-    },
-    {
-      "title": "ドイツの電池メーカーVartaが破産申請",
-      "link": "https://www.reuters.com/business/german-battery-maker-varta-files-insolvency-applications-2026-07-24/",
+      "title": "高性能ネットワーク シミュレーションのための Linux プロセスの連携 (2022)",
+      "link": "https://www.usenix.org/conference/atc22/presentation/jansen",
       "source": "Hacker News（英語）",
-      "published": "2026-07-24T11:46:55",
-      "excerpt": "記事の URL: https://www.reuters.…"
+      "published": "2026-07-24T14:28:38",
+      "excerpt": "記事の URL: https://www.usenix.org/conference/atc22/presentation/jansen コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "現代における MUD の事例",
-      "link": "https://www.andrewzigler.com/feed/the-case-for-muds-in-modern-times",
+      "title": "Mag コンピュータ: RAM の Mag の歴史 (1960 ～ 2025)",
+      "link": "https://magworld.pw/episodes/computer/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-24T11:46:40",
-      "excerpt": "記事の URL: https://www.andrewzigler.com/feed/the-case-for-muds-in-modern-times コメント URL: https://news.ycombinator.…"
+      "published": "2026-07-24T14:26:09",
+      "excerpt": "記事の URL: https://magworld.pw/episodes/computer/ コメント URL: https://news.ycombinator.com/item?id=49036182 ポイント: 3 コメント数: 0"
+    },
+    {
+      "title": "3GPP バージョン 19",
+      "link": "https://www.3gpp.org/specifications-technologies/releases/release-19",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-24T14:23:39",
+      "excerpt": "記事の URL: https://www.3gpp.org/specations-technologies/releases/release-19 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "Dynamic Table の SCHEDULER 属性が dbt-snowflake の scheduler config でネイティブ制御できるようになったので試してみた",
+      "link": "https://dev.classmethod.jp/articles/snowflake-dynamic-table-scheduler-dbt-config/",
+      "source": "DevelopersIO",
+      "published": "2026-07-24T14:13:03",
+      "excerpt": "dbt-snowflakeアダプタがDynamic Tableの`SCHEDULER`属性に正式対応したので、これまでのワークアラウンドから解放されるか実際に検証してみました。"
     }
   ]
 }
