@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-07-25T04:41:02",
+  "generated_at": "2026-07-25T07:08:35",
   "window_hours": 24,
-  "total": 200,
+  "total": 184,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。Claude Enterprise のカスタムロールを使うと、管理者権限を渡さずに一般メンバーにアナリティクス画面を開放できます。その設定方法と注意点を確認してみました。",
+      "summary": "生成AIの新着が39件。AWS Summit Japan 2026での登壇内容をもとに、AWS DevOps Agentが運用現場にもたらす価値とその効果的な活用方法について紹介します。…",
       "articles": [
         {
-          "title": "Claude Enterprise のアナリティクス画面を一般メンバーにも見せることはできますか",
-          "link": "https://dev.classmethod.jp/articles/claude-enterprise-analytics-custom-role-view/",
+          "title": "【登壇レポート】「その運用、まだ人が抱えますか？ AWS DevOps Agentの価値 -」というタイトルでミニセッションに登壇しました #AWSSummit",
+          "link": "https://dev.classmethod.jp/articles/aws-summit-japan-2026-minisession-devopsagent/",
           "source": "DevelopersIO",
-          "published": "2026-07-25T03:40:05",
-          "excerpt": "Claude Enterprise のカスタムロールを使うと、管理者権限を渡さずに一般メンバーにアナリティクス画面を開放できます。その設定方法と注意点を確認してみました。"
+          "published": "2026-07-25T07:00:06",
+          "excerpt": "AWS Summit Japan 2026での登壇内容をもとに、AWS DevOps Agentが運用現場にもたらす価値とその効果的な活用方法について紹介します。…"
         },
         {
-          "title": "Claude Enterprise でカスタムロールのコネクタをすべてブロックしても GitHub 連携が消えないのはなぜですか",
-          "link": "https://dev.classmethod.jp/articles/claude-enterprise-custom-role-connector-github-integration/",
+          "title": "Claude Codeから使えるMCPサーバーをAgentCoreゲートウェイで構築する",
+          "link": "https://qiita.com/moritalous/items/96a0427ee21c89fe1289",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-25T06:58:34",
+          "excerpt": "できないと思い込んでたのですが、できました✌️ AWS公式や、やってみたブログも見た覚えがないので、需要がないのかもしれませんが、、😅 手順 1.Cognitoユーザープールを作成する Cognitoユーザープールを新規作成します。…"
+        },
+        {
+          "title": "Strands Agents + Lambda + API Gateway で、認証・ストリーミング・セッション管理付きのAPI を作ってみた",
+          "link": "https://dev.classmethod.jp/articles/strands-agents-lambda-api-gateway/",
           "source": "DevelopersIO",
-          "published": "2026-07-25T03:08:40",
-          "excerpt": "Claude Enterpriseのカスタムロールですべてのコネクタをブロック済みにしたのに、なぜかGitHub連携だけが消えません。設定漏れなのか仕様なのか、調べてみました。"
+          "published": "2026-07-25T06:52:24",
+          "excerpt": "Strands AgentsをLambda + API Gatewayでデプロイし、S3セッション管理とAgentCore Memory連携を試してみました！"
         },
         {
-          "title": "Cycloud 新基盤の全貌 第五回: ComputeController 編 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-          "link": "https://developers.cyberagent.co.jp/blog/archives/64873/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-25T01:00:27",
-          "excerpt": "はじめに CyberAgent group Infrastructure Unit（CIU）の川原で ..."
-        },
-        {
-          "title": "AI Dev Day 2026で「MCPをつなげて作る組織横断のAIエージェント基盤」について登壇しました #AIDevDay | Alternative Architecture DOJO",
-          "link": "https://aadojo.alterbooth.com/entry/2026/07/25/094008",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-25T00:40:08",
-          "excerpt": "こんにちは、MLBお兄さんこと松村です。2026年7月24日、東京にて開催された AI Dev Day 2026 にて、当社オルターブースはスポンサーブースの出展および登壇をさせていただきました。aidevday.…"
+          "title": "Anthropic、「Claude Opus 5」の提供を開始",
+          "link": "https://gihyo.jp/article/2026/07/claude-opus-5?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-07-25T04:02:00",
+          "excerpt": "Anthropicは7月24日、新たなAIモデル「Claude Opus 5」を発表し、同日から提供を開始した。コーディングや長期にわたるエージェントタスク、知識労働を中心に、Claude Opus 4.8から性能を高めている。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。本日より、お客様は、セルフマネージド ライセンス (SML) を作成し、AWS License Manager を介して AMI を関連付けるという以前に必要であった手順を行わずに、EC2 専用ホストのホスト リソース グループ (HRG)…",
+      "summary": "クラウドの新着が12件。ユーザ作成手順 ステップ1：ログイン（アカウント）の作成SSMSでRDS（マスターユーザー）に接続します。左側の「オブジェクト エクスプローラー」から、「セキュリティ」 ＞ 「ログイン」 を右クリックし、「新しいログイン」 を選択します。…",
       "articles": [
+        {
+          "title": "AWS RDS SQLserver調査 AI回答まとめ",
+          "link": "https://qiita.com/XYZXYZXYZ/items/c5a25788550398e326d5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-25T06:53:19",
+          "excerpt": "ユーザ作成手順 ステップ1：ログイン（アカウント）の作成SSMSでRDS（マスターユーザー）に接続します。左側の「オブジェクト エクスプローラー」から、「セキュリティ」 ＞ 「ログイン」 を右クリックし、「新しいログイン」 を選択します。…"
+        },
+        {
+          "title": "Strands Agents + Lambda + API Gateway で、認証・ストリーミング・セッション管理付きのAPI を作ってみた",
+          "link": "https://dev.classmethod.jp/articles/strands-agents-lambda-api-gateway/",
+          "source": "DevelopersIO",
+          "published": "2026-07-25T06:52:24",
+          "excerpt": "Strands AgentsをLambda + API Gatewayでデプロイし、S3セッション管理とAgentCore Memory連携を試してみました！"
+        },
+        {
+          "title": "S3 バケット配下のオブジェクトが削除できないのはなぜですか",
+          "link": "https://dev.classmethod.jp/articles/tsnote-reason-why-s3-objects-cannot-be-deleted/",
+          "source": "DevelopersIO",
+          "published": "2026-07-25T04:52:09",
+          "excerpt": "この記事では S3 バケット配下のオブジェクトが削除できない要因と対応方法について案内いたします。"
+        },
         {
           "title": "Amazon EC2 Ddedicate Host は、自己管理型ライセンスなしのホスト リソース グループをサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
           "source": "AWS What's New（英語）",
           "published": "2026-07-24T21:00:00",
           "excerpt": "本日より、お客様は、セルフマネージド ライセンス (SML) を作成し、AWS License Manager を介して AMI を関連付けるという以前に必要であった手順を行わずに、EC2 専用ホストのホスト リソース グループ (HRG)…"
-        },
-        {
-          "title": "AWS Lambda が Lambda Managed Instances キャパシティプロバイダーのログを公開するようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-24T16:00:00",
-          "excerpt": "AWS Lambda は、Lambda Managed Instances (LMI) キャパシティープロバイダーのログを Amazon CloudWatch Logs に公開するようになり、スケーリングアクティビティとインスタンスのライフ…"
-        },
-        {
-          "title": "カンボジアのフン・マネ首相はZTEと会談し、デジタルインフラと人工知能（AI）分野での協力を深める",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/24/partner-content/5278416",
-          "source": "The Register（英語）",
-          "published": "2026-07-24T15:01:47",
-          "excerpt": "パートナーコンテンツ: 国のデジタル変革を推進するための 5G 導入、AI 統合、ICT 人材育成に焦点を当てる"
-        },
-        {
-          "title": "EC2をCloudFront経由でセキュアにHTTPS化する全手順",
-          "link": "https://qiita.com/papapu/items/4a74b6535b752ea53380",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-24T13:56:19",
-          "excerpt": "はじめに プログラミングスクールで作成したSNSアプリをAWSにデプロイしていましたが、http通信のままでセキュアではなかったため、https対応をしたものです。下記記事を参考にさせて頂きました。ありがとうございます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。Node.js、7月27日にセキュリティアップデートを発表",
+      "summary": "セキュリティの新着が7件。Strands AgentsをLambda + API Gatewayでデプロイし、S3セッション管理とAgentCore Memory連携を試してみました！",
       "articles": [
+        {
+          "title": "Strands Agents + Lambda + API Gateway で、認証・ストリーミング・セッション管理付きのAPI を作ってみた",
+          "link": "https://dev.classmethod.jp/articles/strands-agents-lambda-api-gateway/",
+          "source": "DevelopersIO",
+          "published": "2026-07-25T06:52:24",
+          "excerpt": "Strands AgentsをLambda + API Gatewayでデプロイし、S3セッション管理とAgentCore Memory連携を試してみました！"
+        },
+        {
+          "title": "Next.js、重要な脆弱性を修正するセキュリティリリースを公開",
+          "link": "https://codezine.jp/article/detail/29102",
+          "source": "CodeZine",
+          "published": "2026-07-25T06:00:00",
+          "excerpt": "Next.js、重要な脆弱性を修正するセキュリティリリースを公開"
+        },
         {
           "title": "Node.js、7月27日にセキュリティアップデートを発表",
           "link": "https://codezine.jp/article/detail/29103",
@@ -92,20 +106,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-24T22:43:33",
           "excerpt": "Secrets Managerは「パスワードを直書きしなくていい世界」への入り口 🗝️ 認証情報の「べた書き」がそもそも危ない 通常、リソースにアクセスするアプリケーションは、 認証のためにアクセスキーとシークレットアクセスキーを使う。…"
-        },
-        {
-          "title": "Amazon Quick と Snowflake をキーペア認証で接続してみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-quick-snowflake-key-pair-authentication/",
-          "source": "DevelopersIO",
-          "published": "2026-07-24T13:23:08",
-          "excerpt": "Amazon Quick から Snowflake へキーペア認証で接続してみました。サービスユーザーの作成から接続、日本語での自然言語質問まで、実際の手順を紹介します。"
-        },
-        {
-          "title": "Facebookが販売者向けの専用マーケットプレイスアプリを立ち上げ、無料認証システムを追加",
-          "link": "https://techcrunch.com/2026/07/24/facebook-launches-a-dedicated-marketplace-app-for-sellers-adds-a-free-verification-system/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-24T12:47:15",
-          "excerpt": "Seller は、アイテムを頻繁に出品および販売する人のための専用のマーケットプレイス アプリです。"
         }
       ]
     },
@@ -133,7 +133,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。Claude Enterpriseのカスタムロールですべてのコネクタをブロック済みにしたのに、なぜかGitHub連携だけが消えません。設定漏れなのか仕様なのか、調べてみました。",
+      "summary": "開発ツールの新着が11件。Claude Enterpriseのカスタムロールですべてのコネクタをブロック済みにしたのに、なぜかGitHub連携だけが消えません。設定漏れなのか仕様なのか、調べてみました。",
       "articles": [
         {
           "title": "Claude Enterprise でカスタムロールのコネクタをすべてブロックしても GitHub 連携が消えないのはなぜですか",
@@ -168,32 +168,32 @@
   ],
   "uncategorized": [
     {
+      "title": "ARC-AGI リーダーボード",
+      "link": "https://arcprize.org/leaderboard",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-25T06:31:40",
+      "excerpt": "記事の URL: https://arcprize.org/leaderboard コメント URL: https://news.ycombinator.com/item?id=49045040 ポイント: 9 コメント数: 1"
+    },
+    {
+      "title": "A Write Barrier Validating GC for Ruby まとめ | SMARTCAMP Engineer Blogのフィード",
+      "link": "https://zenn.dev/smartcamp/articles/224ecaf9f96b17",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-25T05:19:16",
+      "excerpt": "!弊社スマートキャンプは、今回RubyKaigiに会社として初めて参加しました！当日の詳細な様子については、弊社開発メンバーが別途レポートを公開していますので、ぜひあわせてご覧ください。…"
+    },
+    {
+      "title": "英国AISI / CaisiによるKimi K3のサイバー能力の予備評価",
+      "link": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-25T04:20:21",
+      "excerpt": "記事の URL: https://www.nist.…"
+    },
+    {
       "title": "バッチ処理でフェイルファストせずエラーを収集して一括報告するTypeScriptパターン",
       "link": "https://dev.classmethod.jp/articles/batch-error-collection-pattern/",
       "source": "DevelopersIO",
       "published": "2026-07-25T04:00:11",
       "excerpt": "バッチ処理で1件のエラーが全体を止めないよう、エラーをMapに蓄積して処理完了後に一括報告するTypeScriptパターンを紹介します。…"
-    },
-    {
-      "title": "AWS Backup調査 AI回答まとめ",
-      "link": "https://qiita.com/XYZXYZXYZ/items/d80190542e27d2cd37bc",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-25T03:17:57",
-      "excerpt": "AWS Backupの設定 サービスのオプトイン バックアップ対象の制御: オプトインを有効（オン）にしていないAWSサービスは、バックアッププランを正しく作成・割り当てしてもバックアップが実行されません。…"
-    },
-    {
-      "title": "Amazon FSx for OpenZFSの容量・スループット・IOPS変更時の注意点",
-      "link": "https://qiita.com/ike_s_muramatsu/items/fc8547c632e2b51f02b8",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-25T03:12:32",
-      "excerpt": "はじめに Amazon FSx for OpenZFSを触っていて、作成後に変更できる項目としてまず目に入るのがストレージ容量、スループットキャパシティ、プロビジョンドSSD IOPSです。…"
-    },
-    {
-      "title": "テイラー農場、シクロスポラ回収を遅らせるようホワイトハウスに電話",
-      "link": "https://www.wsj.com/health/taylor-farms-cyclospora-recall-delay-call-41fef0bc",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-25T02:54:36",
-      "excerpt": "記事の URL: https://www.wsj.com/health/taylor-farms-cyclospora-recall-lay-call-41fef0bc コメント URL: https://news.ycombinator.…"
     }
   ]
 }
