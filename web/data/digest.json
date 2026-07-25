@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T11:55:59",
+  "generated_at": "2026-07-25T12:58:10",
   "window_hours": 24,
   "total": 141,
   "topic_count": 5,
@@ -7,8 +7,22 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が30件。Google Chat上のGemini RAGボットに「親しみやすさ」を加える実装を紹介します。ユーザー名での呼びかけ、emojiの配置戦略、システムプロンプトのトーン調整により、技術的正確さを保ちながら温かみのある回答を実現しました。",
+      "summary": "生成AIの新着が32件。Claude Codeで高性能モデルを使っていると、アクセス集中時にリクエストが失敗することがあります。本記事では、`fallbackModel`設定を使ってモデル利用不可時に自動で別モデルに切り替える方法を紹介します！",
       "articles": [
+        {
+          "title": "Claude Codeのフォールバックモデル設定(fallbackModel)について調査してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-fallback-model/",
+          "source": "DevelopersIO",
+          "published": "2026-07-25T12:46:15",
+          "excerpt": "Claude Codeで高性能モデルを使っていると、アクセス集中時にリクエストが失敗することがあります。本記事では、`fallbackModel`設定を使ってモデル利用不可時に自動で別モデルに切り替える方法を紹介します！"
+        },
+        {
+          "title": "NVIDIA SkillSpectorとAWS Lambda FunctionでAgent Skillsの検証器を作成する",
+          "link": "https://qiita.com/neruneruo/items/079ce2535dea8aec4202",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-25T12:41:55",
+          "excerpt": "はじめに Agent Skillsは、2025/12/18に標準化が行われた「AIエージェントの手順書」とも言える機能であり、いまやどんなエージェントハーネスにも実装されている、AIエージェント開発者にとっては必須の技術要素だ。…"
+        },
         {
           "title": "Google Chatボットに親しみやすいペルソナを実装する — Geminiのシステムプロンプトでユーザー名挨拶とemoji活用",
           "link": "https://dev.classmethod.jp/articles/google-chat-bot-warm-persona-gemini/",
@@ -22,28 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-25T07:00:06",
           "excerpt": "AWS Summit Japan 2026での登壇内容をもとに、AWS DevOps Agentが運用現場にもたらす価値とその効果的な活用方法について紹介します。…"
-        },
-        {
-          "title": "Claude Codeから使えるMCPサーバーをAgentCoreゲートウェイで構築する",
-          "link": "https://qiita.com/moritalous/items/96a0427ee21c89fe1289",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-25T06:58:34",
-          "excerpt": "できないと思い込んでたのですが、できました✌️ AWS公式や、やってみたブログも見た覚えがないので、需要がないのかもしれませんが、、😅 手順 1.Cognitoユーザープールを作成する Cognitoユーザープールを新規作成します。…"
-        },
-        {
-          "title": "Strands Agents + Lambda + API Gateway で、認証・ストリーミング・セッション管理付きのAPI を作ってみた",
-          "link": "https://dev.classmethod.jp/articles/strands-agents-lambda-api-gateway/",
-          "source": "DevelopersIO",
-          "published": "2026-07-25T06:52:24",
-          "excerpt": "Strands AgentsをLambda + API Gatewayでデプロイし、S3セッション管理とAgentCore Memory連携を試してみました！"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。ユーザ作成手順 ステップ1：ログイン（アカウント）の作成SSMSでRDS（マスターユーザー）に接続します。左側の「オブジェクト エクスプローラー」から、「セキュリティ」 ＞ 「ログイン」 を右クリックし、「新しいログイン」 を選択します。…",
+      "summary": "クラウドの新着が9件。はじめに Agent Skillsは、2025/12/18に標準化が行われた「AIエージェントの手順書」とも言える機能であり、いまやどんなエージェントハーネスにも実装されている、AIエージェント開発者にとっては必須の技術要素だ。…",
       "articles": [
+        {
+          "title": "NVIDIA SkillSpectorとAWS Lambda FunctionでAgent Skillsの検証器を作成する",
+          "link": "https://qiita.com/neruneruo/items/079ce2535dea8aec4202",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-25T12:41:55",
+          "excerpt": "はじめに Agent Skillsは、2025/12/18に標準化が行われた「AIエージェントの手順書」とも言える機能であり、いまやどんなエージェントハーネスにも実装されている、AIエージェント開発者にとっては必須の技術要素だ。…"
+        },
         {
           "title": "AWS RDS SQLserver調査 AI回答まとめ",
           "link": "https://qiita.com/XYZXYZXYZ/items/c5a25788550398e326d5",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-25T04:52:09",
           "excerpt": "この記事では S3 バケット配下のオブジェクトが削除できない要因と対応方法について案内いたします。"
-        },
-        {
-          "title": "Amazon EC2 Ddedicate Host は、自己管理型ライセンスなしのホスト リソース グループをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-24T21:00:00",
-          "excerpt": "本日より、お客様は、セルフマネージド ライセンス (SML) を作成し、AWS License Manager を介して AMI を関連付けるという以前に必要であった手順を行わずに、EC2 専用ホストのホスト リソース グループ (HRG)…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。Strands AgentsをLambda + API Gatewayでデプロイし、S3セッション管理とAgentCore Memory連携を試してみました！",
+      "summary": "セキュリティの新着が5件。Strands AgentsをLambda + API Gatewayでデプロイし、S3セッション管理とAgentCore Memory連携を試してみました！",
       "articles": [
         {
           "title": "Strands Agents + Lambda + API Gateway で、認証・ストリーミング・セッション管理付きのAPI を作ってみた",
@@ -168,6 +168,13 @@
   ],
   "uncategorized": [
     {
+      "title": "Fedora 45 ソーセージ工場",
+      "link": "https://supakeen.com/weblog/the-fedora-45-sausage-factory/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-25T11:04:57",
+      "excerpt": "記事の URL: https://supakeen.com/weblog/the-fedora-45-sausage-factory/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
       "title": "【AWS CLF】AWSクラウドプラクティショナー必勝法〜前日模試58%から逆転合格できた勉強法〜",
       "link": "https://qiita.com/Sugar_Cu_be/items/5719fe7e016b9c130294",
       "source": "Qiita AWSタグ",
@@ -187,13 +194,6 @@
       "source": "The Register（英語）",
       "published": "2026-07-25T10:17:00",
       "excerpt": "ボットフリーの代替案を構築するには、左翼、リバタリアン、文化戦士がコードを共有する必要があるかもしれない"
-    },
-    {
-      "title": "GoogleフォームからのDiscord Webhookが上手く機能しなかった件",
-      "link": "https://qiita.com/eleusis/items/02c755220da97166d5e6",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-25T09:06:45",
-      "excerpt": "やりたいこと Googleフォームを指定日時になったら自動で開閉させたい Googleフォームからの回答を遅延無くDiscordの指定チャンネルに通知させたい そもそも何でやりたいと思ったか FF14の対話店予約システムを構築するに当たり以…"
     }
   ]
 }
