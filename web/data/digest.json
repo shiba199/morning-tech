@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-25T22:15:25",
+  "generated_at": "2026-07-25T23:26:17",
   "window_hours": 24,
-  "total": 126,
+  "total": 114,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が30件。MicrosoftやNVIDIA、Metaなど30社以上の米国の企業や団体が、オープンウェイトAIモデルへの過度な規制回避を求める共同書簡を公開した。…",
+      "summary": "生成AIの新着が26件。はじめに はじめまして。CyberAgent group Infrastructure Unit（C ...",
       "articles": [
+        {
+          "title": "Cycloud 新基盤の全貌 第六回: LB 編 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
+          "link": "https://developers.cyberagent.co.jp/blog/archives/64711/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-25T23:00:06",
+          "excerpt": "はじめに はじめまして。CyberAgent group Infrastructure Unit（C ..."
+        },
+        {
+          "title": "ChatGPTの会話を盗むGoogle Chromeの拡張機能――90万DLの裏にあった手口",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/26/news009.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-07-25T22:00:00",
+          "excerpt": "推奨バッジ付きで信頼を集めたChrome拡張機能が、実は会話の全文を外部へ送っていた。90万人が導入したこの拡張機能と、AI検索を偽装した別の事例が示す、拡張機能管理の盲点とは。"
+        },
         {
           "title": "MicrosoftやNVIDIAなど、AIのオープンウェイト規制に反対する書簡を公開――Anthropicは署名せず",
           "link": "https://www.itmedia.co.jp/news/articles/2607/26/news014.html",
@@ -22,20 +36,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-25T16:48:36",
           "excerpt": "はじめに AIエージェント（Codex）を利用し、Amazon Rekognitionで写真を解析するiOSアプリを開発しました。筆者自身はコードを記述していません。…"
-        },
-        {
-          "title": "Unity AI Gateway で LLM のルーティングを実装してみた（Bedrock 連携は Free Edition の壁に阻まれた話）",
-          "link": "https://qiita.com/daishi0543/items/10eecdd705d42cefb43e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-25T16:32:09",
-          "excerpt": "Databricks Unity AI Gateway で LLM のルーティングを実装してみた（Bedrock 連携は Free Edition の壁に阻まれた話） はじめに 複数の LLM を業務で使い始めると、だいたい同じ壁にぶつかり…"
-        },
-        {
-          "title": "政治家が議会中にAIプロンプトを読む",
-          "link": "https://www.youtube.com/watch?v=wlYa8NV5k-U",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-25T16:31:15",
-          "excerpt": "記事の URL: https://www.youtube.com/watch?v=wlYa8NV5k-U コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。記事の URL: https://blog.adafruit.…",
+      "summary": "セキュリティの新着が5件。Googleが、顔を動かす自撮り動画でGoogle アカウントにサインインできる新機能を追加した。精巧な偽動画を生成できる時代に、この仕組みはなりすましをどう防ぐのか。撮影した顔という生体データはどう扱われるのか。",
       "articles": [
+        {
+          "title": "Google アカウントに「自撮り」認証が追加　AIによる偽動画に耐えられるか？",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/26/news008.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-07-25T22:00:00",
+          "excerpt": "Googleが、顔を動かす自撮り動画でGoogle アカウントにサインインできる新機能を追加した。精巧な偽動画を生成できる時代に、この仕組みはなりすましをどう防ぐのか。撮影した顔という生体データはどう扱われるのか。"
+        },
         {
           "title": "Tile のセキュリティは非常に悪く、ストーカー向けの機能です",
           "link": "https://blog.adafruit.com/2026/03/05/tiles-security-is-so-bad-its-a-feature-for-stalkers/",
@@ -99,13 +106,6 @@
           "source": "CodeZine",
           "published": "2026-07-25T06:00:00",
           "excerpt": "Next.js、重要な脆弱性を修正するセキュリティリリースを公開"
-        },
-        {
-          "title": "Node.js、7月27日にセキュリティアップデートを発表",
-          "link": "https://codezine.jp/article/detail/29103",
-          "source": "CodeZine",
-          "published": "2026-07-25T03:00:00",
-          "excerpt": "Node.js、7月27日にセキュリティアップデートを発表"
         }
       ]
     },
@@ -126,7 +126,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。タイトルの通りです。フレンドとPalworldをやろう！ということになり、せっかくなのでAWSに専用サーバーを建てよう、せっかくなのでIaCでスマートに作ろう、という流れでこうなりました。公式DockerイメージをEC2の上で動かします。…",
+      "summary": "開発ツールの新着が6件。タイトルの通りです。フレンドとPalworldをやろう！ということになり、せっかくなのでAWSに専用サーバーを建てよう、せっかくなのでIaCでスマートに作ろう、という流れでこうなりました。公式DockerイメージをEC2の上で動かします。…",
       "articles": [
         {
           "title": "Terraform（OpenTofu）でPalworldの専用サーバーをAWS上に構築した",
@@ -161,32 +161,32 @@
   ],
   "uncategorized": [
     {
+      "title": "数十年にわたる臨床失敗率: すごい",
+      "link": "https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-25T22:57:17",
+      "excerpt": "記事の URL: https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes コメント URL: https://news.…"
+    },
+    {
+      "title": "海外の新作バカゲー「電車アタック」にマンガ家が感心した理由　ブッ飛んだ内容と完成度の高さ、そして“日本”",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/26/news010.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-25T22:14:00",
+      "excerpt": "スペインのインディースタジオから発売された「電車アタック」。近未来の日本を舞台に、電車をドリフトさせたりジャンプさせたりのバカゲーですが、実は全体的にかなり完成度の高いゲームでした。しかも日本をよく研究していました。"
+    },
+    {
+      "title": "キミ K3 はブラウザで Windows XP を構築しました",
+      "link": "https://windows-xp.kimi.site/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-25T22:03:22",
+      "excerpt": "記事の URL: https://windows-xp.kimi.site/ コメント URL: https://news.ycombinator.com/item?id=49052074 ポイント: 29 コメント数: 15"
+    },
+    {
       "title": "GM、米国のグリッドストレージ向けナトリウムイオン電池を支援",
       "link": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy",
       "source": "Hacker News（英語）",
       "published": "2026-07-25T21:48:22",
       "excerpt": "記事の URL: https://spectrum.ieee.org/sodium-ion-battery-peak-energy コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "77歳の共和党員男性がフロックのカメラに対して単独で抗議活動を行っている",
-      "link": "https://www.cltampa.com/news/a-77-year-old-republican-man-is-staging-a-solo-protest-against-st-petes-flock-cameras/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-25T21:32:08",
-      "excerpt": "記事の URL: https://www.cltampa.…"
-    },
-    {
-      "title": "アヌビスが実際に止めるのは誰ですか？",
-      "link": "https://fzakaria.com/2026/07/09/who-does-anubis-actually-stop",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-25T20:59:24",
-      "excerpt": "記事の URL: https://frakuria.com/2026/07/09/who-does-anubis-actually-stop コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "マイ ホーム ネットワークでのマルチキャスト TV 配信",
-      "link": "https://www.apalrd.net/posts/2026/isp_mcast/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-25T20:55:12",
-      "excerpt": "記事の URL: https://www.apalrd.net/posts/2026/isp_mcast/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
