@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-07-25T12:58:10",
+  "generated_at": "2026-07-25T14:28:31",
   "window_hours": 24,
-  "total": 141,
+  "total": 142,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が32件。Claude Codeで高性能モデルを使っていると、アクセス集中時にリクエストが失敗することがあります。本記事では、`fallbackModel`設定を使ってモデル利用不可時に自動で別モデルに切り替える方法を紹介します！",
+      "summary": "生成AIの新着が33件。営業ツールとClaudeを連携させる試行錯誤の中で、「effort」という設定の意味を誤解していたことに気づきました。これは非エンジニアの私のような仕事をしている人ほど、大きな影響を受ける設定です。…",
       "articles": [
+        {
+          "title": "【非エンジニアのためのClaude/Claude Codeシリーズ】AIの設定でひとつだけいじる価値があったもの ── effortは「賢さ」ではなく「仕事量」のつまみだった",
+          "link": "https://dev.classmethod.jp/articles/claude-business-use6/",
+          "source": "DevelopersIO",
+          "published": "2026-07-25T13:32:26",
+          "excerpt": "営業ツールとClaudeを連携させる試行錯誤の中で、「effort」という設定の意味を誤解していたことに気づきました。これは非エンジニアの私のような仕事をしている人ほど、大きな影響を受ける設定です。…"
+        },
+        {
+          "title": "Claude Codeの設定を可視化するローカルダッシュボードを自作してみた",
+          "link": "https://dev.classmethod.jp/articles/visualize-claude-code-settings/",
+          "source": "DevelopersIO",
+          "published": "2026-07-25T13:28:53",
+          "excerpt": "Skills・MCP連携・CLAUDE.md……便利な機能があるのに使いこなせていない自覚から、ローカルで動く設定ダッシュボード「Agent CLI Dashboard」を作ってみました。Kiro CLIにも対応しています。"
+        },
+        {
+          "title": "【非エンジニアのためのClaude/Claude Codeシリーズ】営業マネージャーがClaudeの公式営業スキルを使わず、自分で作って育て、棚卸しした話",
+          "link": "https://dev.classmethod.jp/articles/claude-business-use5/",
+          "source": "DevelopersIO",
+          "published": "2026-07-25T13:06:48",
+          "excerpt": "公式の営業スキルを使わずに自作していたことに気づき、実際に比較してみました。…"
+        },
         {
           "title": "Claude Codeのフォールバックモデル設定(fallbackModel)について調査してみた",
           "link": "https://dev.classmethod.jp/articles/claude-code-fallback-model/",
           "source": "DevelopersIO",
           "published": "2026-07-25T12:46:15",
           "excerpt": "Claude Codeで高性能モデルを使っていると、アクセス集中時にリクエストが失敗することがあります。本記事では、`fallbackModel`設定を使ってモデル利用不可時に自動で別モデルに切り替える方法を紹介します！"
-        },
-        {
-          "title": "NVIDIA SkillSpectorとAWS Lambda FunctionでAgent Skillsの検証器を作成する",
-          "link": "https://qiita.com/neruneruo/items/079ce2535dea8aec4202",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-25T12:41:55",
-          "excerpt": "はじめに Agent Skillsは、2025/12/18に標準化が行われた「AIエージェントの手順書」とも言える機能であり、いまやどんなエージェントハーネスにも実装されている、AIエージェント開発者にとっては必須の技術要素だ。…"
-        },
-        {
-          "title": "Google Chatボットに親しみやすいペルソナを実装する — Geminiのシステムプロンプトでユーザー名挨拶とemoji活用",
-          "link": "https://dev.classmethod.jp/articles/google-chat-bot-warm-persona-gemini/",
-          "source": "DevelopersIO",
-          "published": "2026-07-25T08:00:11",
-          "excerpt": "Google Chat上のGemini RAGボットに「親しみやすさ」を加える実装を紹介します。ユーザー名での呼びかけ、emojiの配置戦略、システムプロンプトのトーン調整により、技術的正確さを保ちながら温かみのある回答を実現しました。"
-        },
-        {
-          "title": "【登壇レポート】「その運用、まだ人が抱えますか？ AWS DevOps Agentの価値 -」というタイトルでミニセッションに登壇しました #AWSSummit",
-          "link": "https://dev.classmethod.jp/articles/aws-summit-japan-2026-minisession-devopsagent/",
-          "source": "DevelopersIO",
-          "published": "2026-07-25T07:00:06",
-          "excerpt": "AWS Summit Japan 2026での登壇内容をもとに、AWS DevOps Agentが運用現場にもたらす価値とその効果的な活用方法について紹介します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。はじめに Agent Skillsは、2025/12/18に標準化が行われた「AIエージェントの手順書」とも言える機能であり、いまやどんなエージェントハーネスにも実装されている、AIエージェント開発者にとっては必須の技術要素だ。…",
+      "summary": "クラウドの新着が8件。はじめに AIエージェントを常時動かしておく基盤がほしくて、AWSのEC2インスタンスを立ててみました。…",
       "articles": [
+        {
+          "title": "EC2インスタンスを立ち上げてSSH接続し、IPを固定化するまでをまとめてみた",
+          "link": "https://qiita.com/kuririrn/items/56bac37100bb775a590a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-25T13:55:57",
+          "excerpt": "はじめに AIエージェントを常時動かしておく基盤がほしくて、AWSのEC2インスタンスを立ててみました。…"
+        },
         {
           "title": "NVIDIA SkillSpectorとAWS Lambda FunctionでAgent Skillsの検証器を作成する",
           "link": "https://qiita.com/neruneruo/items/079ce2535dea8aec4202",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-25T06:52:24",
           "excerpt": "Strands AgentsをLambda + API Gatewayでデプロイし、S3セッション管理とAgentCore Memory連携を試してみました！"
-        },
-        {
-          "title": "S3 バケット配下のオブジェクトが削除できないのはなぜですか",
-          "link": "https://dev.classmethod.jp/articles/tsnote-reason-why-s3-objects-cannot-be-deleted/",
-          "source": "DevelopersIO",
-          "published": "2026-07-25T04:52:09",
-          "excerpt": "この記事では S3 バケット配下のオブジェクトが削除できない要因と対応方法について案内いたします。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。Strands AgentsをLambda + API Gatewayでデプロイし、S3セッション管理とAgentCore Memory連携を試してみました！",
+      "summary": "セキュリティの新着が4件。Strands AgentsをLambda + API Gatewayでデプロイし、S3セッション管理とAgentCore Memory連携を試してみました！",
       "articles": [
         {
           "title": "Strands Agents + Lambda + API Gateway で、認証・ストリーミング・セッション管理付きのAPI を作ってみた",
@@ -133,7 +133,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。GitHub Mobile、CopilotがActionsチェックの失敗を自動修正可能に",
+      "summary": "開発ツールの新着が5件。GitHub Mobile、CopilotがActionsチェックの失敗を自動修正可能に",
       "articles": [
         {
           "title": "GitHub Mobile、CopilotがActionsチェックの失敗を自動修正可能に",
@@ -168,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Fedora 45 ソーセージ工場",
-      "link": "https://supakeen.com/weblog/the-fedora-45-sausage-factory/",
+      "title": "Session Managerの仕組みをおさらい",
+      "link": "https://qiita.com/daishi0543/items/0813711e9bb9972c770e",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-25T13:54:12",
+      "excerpt": "組織内でEC2を構築する際には原則プライベートで建てることが多いと思うが、その際にインスタンスに接続する際にはSSHではなくSession Managerを利用し、aws ssm start-session を打ったら、確かに繋がる。…"
+    },
+    {
+      "title": "シルル紀の仮説 (2020)",
+      "link": "https://www.theparisreview.org/blog/2020/01/23/the-silurian-hypothesis/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-25T11:04:57",
-      "excerpt": "記事の URL: https://supakeen.com/weblog/the-fedora-45-sausage-factory/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-25T13:48:11",
+      "excerpt": "記事の URL: https://www.theparisreview.org/blog/2020/01/23/the-silurian-仮説/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "【AWS CLF】AWSクラウドプラクティショナー必勝法〜前日模試58%から逆転合格できた勉強法〜",
-      "link": "https://qiita.com/Sugar_Cu_be/items/5719fe7e016b9c130294",
+      "title": "AIでAIを学ぶ ― AWS MLA合格記と Udemy / TD 模擬試験の比較",
+      "link": "https://qiita.com/wang_yuyao/items/0e431fdf6202ba59cf85",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-25T10:48:53",
-      "excerpt": "はじめに お疲れ様です。SugarCubeです。先日、AWSクラウドプラクティショナー【CLF-C02】に合格してきました。…"
+      "published": "2026-07-25T13:35:33",
+      "excerpt": "こんにちは。今日 AWS Certified Machine Learning Engineer - Associate (MLA-C01) に合格しました。…"
     },
     {
-      "title": "【AWS解説 基本編 #6】AWS構成図の読み方　4つの代表パターンで整理",
-      "link": "https://qiita.com/suzunari900261/items/ea73cf868ba8cce1ce11",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-25T10:47:02",
-      "excerpt": "【AWS解説 基本編 #6】AWS構成図の読み方 4つの代表パターンで整理 基本編の最後として、AWS構成図の読み方を整理します。前回までの記事はこちらです。【AWS解説 基本編 #1】AWSとは？…"
-    },
-    {
-      "title": "反 AI オープンソースには共通の敵がありますが、それ以外にはほとんど何もありません",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/25/anti-ai-open-source-has-an-enemy-in-common-but-almost-nothing-else/5278275",
-      "source": "The Register（英語）",
-      "published": "2026-07-25T10:17:00",
-      "excerpt": "ボットフリーの代替案を構築するには、左翼、リバタリアン、文化戦士がコードを共有する必要があるかもしれない"
+      "title": "アメリカ企業が突然AIへの資金投下をやめる決断を下した",
+      "link": "https://www.wsj.com/business/china-us-ai-model-costs-53a12e96",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-25T13:33:03",
+      "excerpt": "記事の URL: https://www.wsj.com/business/china-us-ai-model-costs-53a12e96 コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
