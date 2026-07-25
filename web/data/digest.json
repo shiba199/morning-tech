@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-25T20:04:31",
+  "generated_at": "2026-07-25T21:14:19",
   "window_hours": 24,
-  "total": 128,
+  "total": 126,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が32件。はじめに AIエージェント（Codex）を利用し、Amazon Rekognitionで写真を解析するiOSアプリを開発しました。筆者自身はコードを記述していません。…",
+      "summary": "生成AIの新着が30件。はじめに AIエージェント（Codex）を利用し、Amazon Rekognitionで写真を解析するiOSアプリを開発しました。筆者自身はコードを記述していません。…",
       "articles": [
         {
           "title": "コードを書かずにAIエージェントとiOSアプリを開発して分かったこと",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。ユーザーがファイルをSnowflakeにアップロードする方法：part1 S3＋Snowpipe編 今回から、SQLをふだん書かないユーザーが、手元のファイルをSnowflakeのテーブルに取り込む方法を、シリーズで一つずつ試していきます。…",
+      "summary": "クラウドの新着が7件。ユーザーがファイルをSnowflakeにアップロードする方法：part1 S3＋Snowpipe編 今回から、SQLをふだん書かないユーザーが、手元のファイルをSnowflakeのテーブルに取り込む方法を、シリーズで一つずつ試していきます。…",
       "articles": [
         {
           "title": "ユーザーがファイルをSnowflakeにアップロードする方法：S3＋Snowpipe編",
@@ -126,8 +126,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。はじめに 2026 年 7 月 21 日、AWS は Amazon ECS に対して Action Logs を発表しました。…",
+      "summary": "開発ツールの新着が7件。タイトルの通りです。フレンドとPalworldをやろう！ということになり、せっかくなのでAWSに専用サーバーを建てよう、せっかくなのでIaCでスマートに作ろう、という流れでこうなりました。公式DockerイメージをEC2の上で動かします。…",
       "articles": [
+        {
+          "title": "Terraform（OpenTofu）でPalworldの専用サーバーをAWS上に構築した",
+          "link": "https://qiita.com/mujuko/items/880802bd310811ebefac",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-25T20:20:17",
+          "excerpt": "タイトルの通りです。フレンドとPalworldをやろう！ということになり、せっかくなのでAWSに専用サーバーを建てよう、せっかくなのでIaCでスマートに作ろう、という流れでこうなりました。公式DockerイメージをEC2の上で動かします。…"
+        },
         {
           "title": "Amazon ECS がデプロイの内部処理を可視化するための Action Logs に対応",
           "link": "https://qiita.com/Haruki-N/items/d83597ae267eb8a4472e",
@@ -148,18 +155,25 @@
           "source": "CodeZine",
           "published": "2026-07-25T09:00:00",
           "excerpt": "GitHub Mobile、CopilotがActionsチェックの失敗を自動修正可能に"
-        },
-        {
-          "title": "AWS CDKでProjectタグを付けて、プロジェクト別の料金を見やすくする",
-          "link": "https://zenn.dev/hknote/articles/cdk-cost-allocation-tags",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-25T04:00:05",
-          "excerpt": "AWS CDKでは、スタック配下のリソースに共通のタグを付けることができます。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "ワーナー・ブラザース訴訟、幹部らの不法引き抜きでアマゾンを告発",
+      "link": "https://techcrunch.com/2026/07/25/warner-bros-lawsuit-accuses-amazon-of-illegally-poaching-executives/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-25T20:55:11",
+      "excerpt": "この訴訟により、カリフォルニア州の下で有期雇用契約が強制可能かどうかについての議論が再び行われる可能性がある。法"
+    },
+    {
+      "title": "スパイウェアメーカーに屈辱を与えながらも捕まらなかったハッカー",
+      "link": "https://techcrunch.com/2026/07/25/the-hacker-who-humiliated-spyware-makers-and-was-never-caught/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-25T20:24:14",
+      "excerpt": "物議を醸している政府系スパイウェアメーカー2社をハッキングした畏敬の念を抱かせるハクティビストは、これまで捕まったことのない最も多作なハッカーかもしれない。フィニアス・フィッシャーについて私たちは何を知っていますか?"
+    },
     {
       "title": "HN を表示: Proxmox -> ホストの Bluetooth をネットワーク経由で VM と共有する",
       "link": "https://github.com/lucid-fabrics/proxmox-bluetooth",
@@ -173,20 +187,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-07-25T19:30:24",
       "excerpt": "記事の URL: https://ammoniaenergy.…"
-    },
-    {
-      "title": "イーロン・マスク氏のボーリング・カンパニーが評価額200億ドルで資金調達を行っていると報じられている",
-      "link": "https://techcrunch.com/2026/07/25/elon-musks-boring-company-reportedly-raising-funding-at-a-20-billion-valuation/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-25T19:23:32",
-      "excerpt": "イーロン・マスク氏のトンネル掘削スタートアップは、大規模な新たな資金調達ラウンドに向けて交渉中であると報じられている。"
-    },
-    {
-      "title": "フロック監視カメラを破壊する自警団運動の拡大",
-      "link": "https://www.theguardian.com/us-news/ng-interactive/2026/jul/25/flock-surveillance-cameras",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-25T19:02:17",
-      "excerpt": "記事の URL: https://www.theguardian.…"
     }
   ]
 }
