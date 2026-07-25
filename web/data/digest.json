@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-25T15:37:52",
+  "generated_at": "2026-07-25T16:43:38",
   "window_hours": 24,
-  "total": 139,
+  "total": 144,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。Claude CodeとKiro CLIを実際に同じタスクで比較してみました。速さ・コスト・品質の結果から見えてきたのは、トレードオフの関係です。",
+      "summary": "生成AIの新着が33件。Databricks Unity AI Gateway で LLM のルーティングを実装してみた（Bedrock 連携は Free Edition の壁に阻まれた話） はじめに 複数の LLM を業務で使い始めると、だいたい同じ壁にぶつかり…",
       "articles": [
+        {
+          "title": "Unity AI Gateway で LLM のルーティングを実装してみた（Bedrock 連携は Free Edition の壁に阻まれた話）",
+          "link": "https://qiita.com/daishi0543/items/10eecdd705d42cefb43e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-25T16:32:09",
+          "excerpt": "Databricks Unity AI Gateway で LLM のルーティングを実装してみた（Bedrock 連携は Free Edition の壁に阻まれた話） はじめに 複数の LLM を業務で使い始めると、だいたい同じ壁にぶつかり…"
+        },
         {
           "title": "Claude CodeとKiro CLI、同じタスクで速さ・コスト・品質を比較してみた",
           "link": "https://dev.classmethod.jp/articles/compare-claude-code-kiro-cli/",
@@ -29,21 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-25T13:28:53",
           "excerpt": "Skills・MCP連携・CLAUDE.md……便利な機能があるのに使いこなせていない自覚から、ローカルで動く設定ダッシュボード「Agent CLI Dashboard」を作ってみました。Kiro CLIにも対応しています。"
-        },
-        {
-          "title": "【非エンジニアのためのClaude/Claude Codeシリーズ】営業マネージャーがClaudeの公式営業スキルを使わず、自分で作って育て、棚卸しした話",
-          "link": "https://dev.classmethod.jp/articles/claude-business-use5/",
-          "source": "DevelopersIO",
-          "published": "2026-07-25T13:06:48",
-          "excerpt": "公式の営業スキルを使わずに自作していたことに気づき、実際に比較してみました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。はじめに 2026 年 7 月 21 日、AWS は Amazon ECS に対して Action Logs を発表しました。…",
+      "summary": "クラウドの新着が8件。ユーザーがファイルをSnowflakeにアップロードする方法：part1 S3＋Snowpipe編 今回から、SQLをふだん書かないユーザーが、手元のファイルをSnowflakeのテーブルに取り込む方法を、シリーズで一つずつ試していきます。…",
       "articles": [
+        {
+          "title": "ユーザーがファイルをSnowflakeにアップロードする方法：S3＋Snowpipe編",
+          "link": "https://qiita.com/hotate_2235/items/77bbc3ea33b0f5620d9a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-25T15:59:04",
+          "excerpt": "ユーザーがファイルをSnowflakeにアップロードする方法：part1 S3＋Snowpipe編 今回から、SQLをふだん書かないユーザーが、手元のファイルをSnowflakeのテーブルに取り込む方法を、シリーズで一つずつ試していきます。…"
+        },
         {
           "title": "Amazon ECS がデプロイの内部処理を可視化するための Action Logs に対応",
           "link": "https://qiita.com/Haruki-N/items/d83597ae267eb8a4472e",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-25T12:41:55",
           "excerpt": "はじめに Agent Skillsは、2025/12/18に標準化が行われた「AIエージェントの手順書」とも言える機能であり、いまやどんなエージェントハーネスにも実装されている、AIエージェント開発者にとっては必須の技術要素だ。…"
-        },
-        {
-          "title": "AWS RDS SQLserver調査 AI回答まとめ",
-          "link": "https://qiita.com/XYZXYZXYZ/items/c5a25788550398e326d5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-25T06:53:19",
-          "excerpt": "ユーザ作成手順 ステップ1：ログイン（アカウント）の作成SSMSでRDS（マスターユーザー）に接続します。左側の「オブジェクト エクスプローラー」から、「セキュリティ」 ＞ 「ログイン」 を右クリックし、「新しいログイン」 を選択します。…"
         }
       ]
     },
@@ -168,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "AIの雇用の終末はおそらくすぐには起こらない",
-      "link": "https://www.theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor",
+      "title": "Amazon SES コンソールの新機能「Mail Manager SMTP のガイド付きセットアップ」を試してみた",
+      "link": "https://dev.classmethod.jp/articles/ses-mail-manager-smtp-setup/",
+      "source": "DevelopersIO",
+      "published": "2026-07-25T16:35:04",
+      "excerpt": "Amazon SES のコンソールに Mail Manager SMTP のガイド付きセットアップが追加されました。…"
+    },
+    {
+      "title": "main() を使用しない (有効な) C プログラムの作成",
+      "link": "https://labs.iximiuz.com/tutorials/c-program-without-main-a1eea557",
       "source": "Hacker News（英語）",
-      "published": "2026-07-25T14:41:06",
-      "excerpt": "記事の URL: https://www.theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor コメント URL: https://news.…"
+      "published": "2026-07-25T16:21:13",
+      "excerpt": "記事の URL: https://labs.iximiuz.com/tutorials/c-program-without-main-a1eea557 コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "AWS x PagerDutyで定期的に自分に電話をかけるようなシステムを構築する",
-      "link": "https://qiita.com/ryo0819/items/25720d28e3e16392a463",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-25T14:30:41",
-      "excerpt": "概要 AWSの勉強がてら、何か作ろうと思いました スケジュールを設定したら、その時間に電話をかけてくれるというものを作成してみます この記事に記載すること システム構成図 AWSリソースの設定・構築手順など 実際にLambda→PagerD…"
-    },
-    {
-      "title": "Session Managerの仕組みをおさらい",
-      "link": "https://qiita.com/daishi0543/items/0813711e9bb9972c770e",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-25T13:54:12",
-      "excerpt": "組織内でEC2を構築する際には原則プライベートで建てることが多いと思うが、その際にインスタンスに接続する際にはSSHではなくSession Managerを利用し、aws ssm start-session を打ったら、確かに繋がる。…"
-    },
-    {
-      "title": "シルル紀の仮説 (2020)",
-      "link": "https://www.theparisreview.org/blog/2020/01/23/the-silurian-hypothesis/",
+      "title": "風力タービンは炭素ゼロの「グリーンアンモニア」肥料の生産に使用されています",
+      "link": "https://energiesmedia.com/wind-turbine-stopped-electricity-wind-water-air/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-25T13:48:11",
-      "excerpt": "記事の URL: https://www.theparisreview.org/blog/2020/01/23/the-silurian-仮説/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-25T16:09:58",
+      "excerpt": "記事の URL: https://energiesmedia.com/wind-turbine-stopped-electricity-wind-water-air/ コメント URL: https://news.ycombinator.…"
+    },
+    {
+      "title": "図書館員がビッグテックにうんざりしている人々のために、話題の「AI回避」ワークショップを主催している",
+      "link": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-25T16:00:00",
+      "excerpt": "全国各地の図書館で開催される「AI回避」ワークショップは、前例のない需要を呼び起こしている。"
     }
   ]
 }
