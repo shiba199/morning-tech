@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-25T14:28:31",
+  "generated_at": "2026-07-25T15:37:52",
   "window_hours": 24,
-  "total": 142,
+  "total": 139,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。営業ツールとClaudeを連携させる試行錯誤の中で、「effort」という設定の意味を誤解していたことに気づきました。これは非エンジニアの私のような仕事をしている人ほど、大きな影響を受ける設定です。…",
+      "summary": "生成AIの新着が33件。Claude CodeとKiro CLIを実際に同じタスクで比較してみました。速さ・コスト・品質の結果から見えてきたのは、トレードオフの関係です。",
       "articles": [
+        {
+          "title": "Claude CodeとKiro CLI、同じタスクで速さ・コスト・品質を比較してみた",
+          "link": "https://dev.classmethod.jp/articles/compare-claude-code-kiro-cli/",
+          "source": "DevelopersIO",
+          "published": "2026-07-25T14:32:17",
+          "excerpt": "Claude CodeとKiro CLIを実際に同じタスクで比較してみました。速さ・コスト・品質の結果から見えてきたのは、トレードオフの関係です。"
+        },
         {
           "title": "【非エンジニアのためのClaude/Claude Codeシリーズ】AIの設定でひとつだけいじる価値があったもの ── effortは「賢さ」ではなく「仕事量」のつまみだった",
           "link": "https://dev.classmethod.jp/articles/claude-business-use6/",
@@ -29,21 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-25T13:06:48",
           "excerpt": "公式の営業スキルを使わずに自作していたことに気づき、実際に比較してみました。…"
-        },
-        {
-          "title": "Claude Codeのフォールバックモデル設定(fallbackModel)について調査してみた",
-          "link": "https://dev.classmethod.jp/articles/claude-code-fallback-model/",
-          "source": "DevelopersIO",
-          "published": "2026-07-25T12:46:15",
-          "excerpt": "Claude Codeで高性能モデルを使っていると、アクセス集中時にリクエストが失敗することがあります。本記事では、`fallbackModel`設定を使ってモデル利用不可時に自動で別モデルに切り替える方法を紹介します！"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。はじめに AIエージェントを常時動かしておく基盤がほしくて、AWSのEC2インスタンスを立ててみました。…",
+      "summary": "クラウドの新着が8件。はじめに 2026 年 7 月 21 日、AWS は Amazon ECS に対して Action Logs を発表しました。…",
       "articles": [
+        {
+          "title": "Amazon ECS がデプロイの内部処理を可視化するための Action Logs に対応",
+          "link": "https://qiita.com/Haruki-N/items/d83597ae267eb8a4472e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-25T14:50:50",
+          "excerpt": "はじめに 2026 年 7 月 21 日、AWS は Amazon ECS に対して Action Logs を発表しました。…"
+        },
         {
           "title": "EC2インスタンスを立ち上げてSSH接続し、IPを固定化するまでをまとめてみた",
           "link": "https://qiita.com/kuririrn/items/56bac37100bb775a590a",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-25T06:53:19",
           "excerpt": "ユーザ作成手順 ステップ1：ログイン（アカウント）の作成SSMSでRDS（マスターユーザー）に接続します。左側の「オブジェクト エクスプローラー」から、「セキュリティ」 ＞ 「ログイン」 を右クリックし、「新しいログイン」 を選択します。…"
-        },
-        {
-          "title": "Strands Agents + Lambda + API Gateway で、認証・ストリーミング・セッション管理付きのAPI を作ってみた",
-          "link": "https://dev.classmethod.jp/articles/strands-agents-lambda-api-gateway/",
-          "source": "DevelopersIO",
-          "published": "2026-07-25T06:52:24",
-          "excerpt": "Strands AgentsをLambda + API Gatewayでデプロイし、S3セッション管理とAgentCore Memory連携を試してみました！"
         }
       ]
     },
@@ -133,8 +133,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。GitHub Mobile、CopilotがActionsチェックの失敗を自動修正可能に",
+      "summary": "開発ツールの新着が7件。はじめに 2026 年 7 月 21 日、AWS は Amazon ECS に対して Action Logs を発表しました。…",
       "articles": [
+        {
+          "title": "Amazon ECS がデプロイの内部処理を可視化するための Action Logs に対応",
+          "link": "https://qiita.com/Haruki-N/items/d83597ae267eb8a4472e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-25T14:50:50",
+          "excerpt": "はじめに 2026 年 7 月 21 日、AWS は Amazon ECS に対して Action Logs を発表しました。…"
+        },
+        {
+          "title": "Claude CodeとKiro CLI、同じタスクで速さ・コスト・品質を比較してみた",
+          "link": "https://dev.classmethod.jp/articles/compare-claude-code-kiro-cli/",
+          "source": "DevelopersIO",
+          "published": "2026-07-25T14:32:17",
+          "excerpt": "Claude CodeとKiro CLIを実際に同じタスクで比較してみました。速さ・コスト・品質の結果から見えてきたのは、トレードオフの関係です。"
+        },
         {
           "title": "GitHub Mobile、CopilotがActionsチェックの失敗を自動修正可能に",
           "link": "https://codezine.jp/article/detail/29104",
@@ -148,25 +162,25 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-25T04:00:05",
           "excerpt": "AWS CDKでは、スタック配下のリソースに共通のタグを付けることができます。…"
-        },
-        {
-          "title": "Claude Enterprise でカスタムロールのコネクタをすべてブロックしても GitHub 連携が消えないのはなぜですか",
-          "link": "https://dev.classmethod.jp/articles/claude-enterprise-custom-role-connector-github-integration/",
-          "source": "DevelopersIO",
-          "published": "2026-07-25T03:08:40",
-          "excerpt": "Claude Enterpriseのカスタムロールですべてのコネクタをブロック済みにしたのに、なぜかGitHub連携だけが消えません。設定漏れなのか仕様なのか、調べてみました。"
-        },
-        {
-          "title": "Claude Opus 5 が Kiro IDE / CLI で選択可能になりました",
-          "link": "https://dev.classmethod.jp/articles/kiro-ide-cli-claude-opus-5/",
-          "source": "DevelopersIO",
-          "published": "2026-07-24T22:55:40",
-          "excerpt": "2026年7月24日にAnthropicが発表したClaude Opus 5が、同日中にKiro IDE / CLIのモデルセレクターにExperimental previewとして追加されました。モデルセレクターでの表示を確認します。"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "AIの雇用の終末はおそらくすぐには起こらない",
+      "link": "https://www.theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-25T14:41:06",
+      "excerpt": "記事の URL: https://www.theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor コメント URL: https://news.…"
+    },
+    {
+      "title": "AWS x PagerDutyで定期的に自分に電話をかけるようなシステムを構築する",
+      "link": "https://qiita.com/ryo0819/items/25720d28e3e16392a463",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-25T14:30:41",
+      "excerpt": "概要 AWSの勉強がてら、何か作ろうと思いました スケジュールを設定したら、その時間に電話をかけてくれるというものを作成してみます この記事に記載すること システム構成図 AWSリソースの設定・構築手順など 実際にLambda→PagerD…"
+    },
     {
       "title": "Session Managerの仕組みをおさらい",
       "link": "https://qiita.com/daishi0543/items/0813711e9bb9972c770e",
@@ -180,20 +194,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-07-25T13:48:11",
       "excerpt": "記事の URL: https://www.theparisreview.org/blog/2020/01/23/the-silurian-仮説/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "AIでAIを学ぶ ― AWS MLA合格記と Udemy / TD 模擬試験の比較",
-      "link": "https://qiita.com/wang_yuyao/items/0e431fdf6202ba59cf85",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-25T13:35:33",
-      "excerpt": "こんにちは。今日 AWS Certified Machine Learning Engineer - Associate (MLA-C01) に合格しました。…"
-    },
-    {
-      "title": "アメリカ企業が突然AIへの資金投下をやめる決断を下した",
-      "link": "https://www.wsj.com/business/china-us-ai-model-costs-53a12e96",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-25T13:33:03",
-      "excerpt": "記事の URL: https://www.wsj.com/business/china-us-ai-model-costs-53a12e96 コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
