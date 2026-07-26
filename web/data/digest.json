@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T09:33:02",
+  "generated_at": "2026-07-26T11:12:46",
   "window_hours": 24,
   "total": 119,
   "topic_count": 5,
@@ -7,8 +7,15 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。1.はじめに 公式ドキュメント上は非対応となっているGitHub Copilot CLIで、 AWS Agent Toolkitを使うための手順をまとめます。2.AWS Agent Toolkitとは？…",
+      "summary": "生成AIの新着が22件。Claude Code で使えるローカル完結の脆弱性スキャナー「Claude Security プラグイン」を使ってみました。…",
       "articles": [
+        {
+          "title": "Claude Code の新機能、ローカル完結の脆弱性スキャナー「Claude Security プラグイン」を試してみた",
+          "link": "https://dev.classmethod.jp/articles/try-claude-security-plugin/",
+          "source": "DevelopersIO",
+          "published": "2026-07-26T10:14:59",
+          "excerpt": "Claude Code で使えるローカル完結の脆弱性スキャナー「Claude Security プラグイン」を使ってみました。…"
+        },
         {
           "title": "Github copilotでaws agent toolkitを試してみた",
           "link": "https://qiita.com/nimu3/items/2a760a0b03c09b25ab3c",
@@ -29,21 +36,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-26T06:39:33",
           "excerpt": "はじめにSnowflakeは2026年5〜7月にかけて、前四半期で「揃えた」機能群を 製品・運用として一段成熟 させました。方向性は次の3点です。…"
-        },
-        {
-          "title": "Qwen3.6-35B-A3B を Amazon SageMaker で動かしてストリーミング応答を得てみた",
-          "link": "https://dev.classmethod.jp/articles/sagemaker-realtime-llama-cpp-gguf-streaming/",
-          "source": "DevelopersIO",
-          "published": "2026-07-26T06:26:13",
-          "excerpt": "Qwen3.6 の Q4_K_M GGUF を ml.g5.2xlarge の 24 GB GPU へロードし、回答を逐次受信できました。ウォーム TTFT は 2,058 ms でした。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。エンタープライズKubernetesでIngress/LBがない環境で、kubectl execをAPIゲートウェイ代わりに使い、Kafka・Elasticsearch・MySQLなどクラスタ内サービスにアクセスするパターンをTypeScr…",
+      "summary": "クラウドの新着が10件。はじめに 普段はオンプレのインフラを見ている。RHEL、vSphere。そのあたりは触れるが、AWSは触ったことがなかった。IAMもLambdaもS3も、単語として知っているだけ。…",
       "articles": [
+        {
+          "title": "AWS未経験からRHEL脆弱性通知BotをLambda化した話",
+          "link": "https://qiita.com/toroby-infra/items/1f74a91becf8b6901d8e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-26T10:41:29",
+          "excerpt": "はじめに 普段はオンプレのインフラを見ている。RHEL、vSphere。そのあたりは触れるが、AWSは触ったことがなかった。IAMもLambdaもS3も、単語として知っているだけ。…"
+        },
         {
           "title": "kubectl execをAPIゲートウェイ代わりに使う — エンタープライズKubernetesでの実践パターン",
           "link": "https://dev.classmethod.jp/articles/kubectl-exec-as-api-gateway-pattern/",
@@ -64,21 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-26T07:13:28",
           "excerpt": "はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。…"
-        },
-        {
-          "title": "サーバで実行していたcron処理をEventBridge Schedulerに移行する。",
-          "link": "https://qiita.com/sakai00kou/items/0b30319e30ca9bdaffa0",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-26T06:58:54",
-          "excerpt": "はじめに 仕事で、元々EC2インスタンスのcronで実行していた処理をEventBridge Schedulerに移行する作業を行ったので、その際に注意したことや、苦労したことなどまとめておきます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。はじめにSnowflakeは2026年5〜7月にかけて、前四半期で「揃えた」機能群を 製品・運用として一段成熟 させました。方向性は次の3点です。…",
+      "summary": "セキュリティの新着が9件。はじめに 普段はオンプレのインフラを見ている。RHEL、vSphere。そのあたりは触れるが、AWSは触ったことがなかった。IAMもLambdaもS3も、単語として知っているだけ。…",
       "articles": [
+        {
+          "title": "AWS未経験からRHEL脆弱性通知BotをLambda化した話",
+          "link": "https://qiita.com/toroby-infra/items/1f74a91becf8b6901d8e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-26T10:41:29",
+          "excerpt": "はじめに 普段はオンプレのインフラを見ている。RHEL、vSphere。そのあたりは触れるが、AWSは触ったことがなかった。IAMもLambdaもS3も、単語として知っているだけ。…"
+        },
+        {
+          "title": "Claude Code の新機能、ローカル完結の脆弱性スキャナー「Claude Security プラグイン」を試してみた",
+          "link": "https://dev.classmethod.jp/articles/try-claude-security-plugin/",
+          "source": "DevelopersIO",
+          "published": "2026-07-26T10:14:59",
+          "excerpt": "Claude Code で使えるローカル完結の脆弱性スキャナー「Claude Security プラグイン」を使ってみました。…"
+        },
         {
           "title": "Snowflake 2026年5〜7月リリース総括：AIのエージェント化・オープン化の「完成」・ゼロトラスト標準化の3軸 | Snowflake Data Heroesのフィード",
           "link": "https://zenn.dev/dataheroes/articles/20260726_snowflake_2026q2",
@@ -92,20 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-26T04:00:09",
           "excerpt": "Pomeriumゼロトラストプロキシ経由でSSH多段トンネルを構築し、VPNなしでKubernetes本番環境にアクセスする方法を紹介します。…"
-        },
-        {
-          "title": "【登壇レポート】「AWS環境のセキュリティ不安を解消した企業事例 ～よくある課題と対策を一挙公開～」というタイトルでミニセッションに登壇しました #AWSSummit",
-          "link": "https://dev.classmethod.jp/articles/2026-07-26-aws-summit-minisession-security/",
-          "source": "DevelopersIO",
-          "published": "2026-07-26T02:35:26",
-          "excerpt": "AWS Summit Japan 2026で登壇したセキュリティミニセッションの内容をレポートします。AWS環境でよくある3つのセキュリティ課題と、クラスメソッドの解決アプローチについて紹介しています。"
-        },
-        {
-          "title": "AWS学習29日目：AWS Backup・AWS Config・GuardDuty",
-          "link": "https://zenn.dev/zono731/articles/acbd79b380591d",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-26T01:35:11",
-          "excerpt": "今日のテーマ AWS学習29日目は、LifeOSを長く運用するための3つの仕組みを学びました。…"
         }
       ]
     },
@@ -126,8 +126,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。1.はじめに 公式ドキュメント上は非対応となっているGitHub Copilot CLIで、 AWS Agent Toolkitを使うための手順をまとめます。2.AWS Agent Toolkitとは？…",
+      "summary": "開発ツールの新着が9件。AWS Amplifyとは 一言でいうと… Webアプリやモバイルアプリを“簡単に作って公開できる”フルスタック開発サービスです。…",
       "articles": [
+        {
+          "title": "AWS素人がAmplifyを使って分かったこと",
+          "link": "https://qiita.com/apteryx-nz/items/43595e8d8d4991f2317c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-26T09:33:31",
+          "excerpt": "AWS Amplifyとは 一言でいうと… Webアプリやモバイルアプリを“簡単に作って公開できる”フルスタック開発サービスです。…"
+        },
         {
           "title": "Github copilotでaws agent toolkitを試してみた",
           "link": "https://qiita.com/nimu3/items/2a760a0b03c09b25ab3c",
@@ -148,45 +155,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-26T07:13:28",
           "excerpt": "はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。…"
-        },
-        {
-          "title": "GitHub Issuesでエージェント自動化コントロールのパブリックプレビュー開始",
-          "link": "https://codezine.jp/article/detail/29107",
-          "source": "CodeZine",
-          "published": "2026-07-26T06:00:00",
-          "excerpt": "GitHub Issuesでエージェント自動化コントロールのパブリックプレビュー開始"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "DeepSeek V4が正式リリース、旧APIエイリアスは7月24日よりHTTPエラーに",
-      "link": "https://codezine.jp/article/detail/29108",
-      "source": "CodeZine",
-      "published": "2026-07-26T09:00:00",
-      "excerpt": "DeepSeek V4が正式リリース、旧APIエイリアスは7月24日よりHTTPエラーに"
-    },
-    {
-      "title": "クライアントダイレクトアップロードとは何か、なぜ採用されるのか",
-      "link": "https://qiita.com/idw-coder/items/8fe57b204244a7420869",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-26T08:41:09",
-      "excerpt": "画像や動画などのファイルをアップロードするとき、ファイル本体をアプリサーバーへ送らず、ブラウザからストレージへ直接送る構成があります。…"
-    },
-    {
-      "title": "最後のスペースシャトルは15年前に地球に帰還しました",
-      "link": "https://www.theregister.com/science/2026/07/26/the-last-space-shuttle-returned-to-earth-15-years-ago/5277279",
+      "title": "トランプ大統領、データセンターの費用を家庭の電気代から節約する自主的な約束を拡大",
+      "link": "https://www.theregister.com/on-prem/2026/07/26/trump-expands-voluntary-pledge-to-keep-datacenter-costs-off-household-power-bills/5278346",
       "source": "The Register（英語）",
-      "published": "2026-07-26T08:30:00",
-      "excerpt": "それで、NASA、市販の代替品はどのように機能していますか?"
+      "published": "2026-07-26T10:10:00",
+      "excerpt": "Pinkie Promise は 200 人以上の新規参加者を獲得し、強制力はまったくありません"
     },
     {
-      "title": "CloudWatch アラームのメール通知で AWS User Notifications と Amazon SNS を比較してみる",
-      "link": "https://dev.classmethod.jp/articles/cloudwatch-alarm-email-user-notifications-sns/",
-      "source": "DevelopersIO",
-      "published": "2026-07-26T08:26:47",
-      "excerpt": "CloudWatch アラームの通知を受け取る仕組みを検証。今回はAWS User Notifications と アラームアクション＋Amazon SNS の2つの方法を比較してみました。…"
+      "title": "スタック オーバーフローなし、オートコンプリートなし: 80 年代のコーディングの様子",
+      "link": "https://comuniq.xyz/post?t=1439",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-26T09:58:11",
+      "excerpt": "記事の URL: https://comuniq.xyz/post?t=1439 コメント URL: https://news.ycombinator.com/item?id=49056424 ポイント: 13 コメント数: 11"
+    },
+    {
+      "title": "Opus 5 のエラーの増加",
+      "link": "https://status.claude.com/incidents/zftg3gqkmv18",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-26T09:18:34",
+      "excerpt": "記事の URL: https://status.claude.com/incidents/zftg3gqkmv18 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "Ruff v0.16.0 – 重要な新しいアップデート – デフォルト ルールが 59 から 413 に増加",
+      "link": "https://astral.sh/blog/ruff-v0.16.0",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-26T09:01:39",
+      "excerpt": "記事の URL: https://astral.sh/blog/ruff-v0.16.0 コメント URL: https://news.ycombinator.com/item?id=49056112 ポイント: 75 コメント数: 18"
     }
   ]
 }
