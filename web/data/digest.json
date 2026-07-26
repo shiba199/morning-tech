@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-26T15:35:39",
+  "generated_at": "2026-07-26T16:44:47",
   "window_hours": 24,
-  "total": 135,
+  "total": 133,
   "topic_count": 4,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が26件。こんにちは、セキュリティサイエンス研究所（SS研）の清水です。今回は、SNS等を通じた偽情報拡散の対策のプロジェクトの一環で、SS研とAI研が共同でtakaneの特化学習を行ったので紹介します。…",
+      "summary": "生成AIの新着が25件。「初の自律エージェントによるサイバー攻撃は前例のない出来事だ。前例のない対応が必要だ！」",
       "articles": [
+        {
+          "title": "ハグフェイスCEO、「前例のない」OpenAIハッキングを受けて「抜本的な透明性」を求める",
+          "link": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-26T16:33:13",
+          "excerpt": "「初の自律エージェントによるサイバー攻撃は前例のない出来事だ。前例のない対応が必要だ！」"
+        },
         {
           "title": "ファクトチェックにおけるLLMの特化学習 | fltech - 富士通研究所の技術ブログ",
           "link": "https://blog.fltech.dev/entry/2026/07/20/Specialized-LLM-blog-post-ja",
@@ -29,21 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-26T14:56:36",
           "excerpt": "Amazon SageMaker Unified Studio の Visual ETL に、カスタムビジュアルトランスフォームを作成・共有・再利用できる機能が追加されました。…"
-        },
-        {
-          "title": "AWS が公開した AI エージェント向けベンチマーク aws-bench の仕組みを確認してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-bench-overview/",
-          "source": "DevelopersIO",
-          "published": "2026-07-26T14:38:55",
-          "excerpt": "AWS が公開した AI エージェント向けオープンソースベンチマーク aws-bench を紹介します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。Unity社は代表的なゲームエンジンの1つである「Unity」の次世代版となる「Unity 7」を発表しました。Introducing Unity 7 - built for a faster-moving, more open indu.…",
+      "summary": "クラウドの新着が11件。AWS の VPC 間をネットワーク接続する方法はいくつかあります。…",
       "articles": [
+        {
+          "title": "PrivateLink で別アカウントの VPC に接続されているオンプレミスの名前解決が必要なリソースにアクセスする",
+          "link": "https://qiita.com/takeda_h/items/1dd5b788c07b474509c7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-26T15:38:57",
+          "excerpt": "AWS の VPC 間をネットワーク接続する方法はいくつかあります。…"
+        },
         {
           "title": "ゲームエンジン「Unity 7」発表、ランタイム基盤がMonoから.NET CoreCLRへ移行。高速化により、開発画面からほぼ瞬時にプレイモードが起動",
           "link": "https://www.publickey1.jp/blog/26/unity_7mononet_coreclr.html",
@@ -52,33 +59,33 @@
           "excerpt": "Unity社は代表的なゲームエンジンの1つである「Unity」の次世代版となる「Unity 7」を発表しました。Introducing Unity 7 - built for a faster-moving, more open indu.…"
         },
         {
+          "title": "EKS Auto ModeでAWSとKubernetesの試したメモ",
+          "link": "https://zenn.dev/hick/articles/38a5d4fe54c3d5",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-26T13:55:04",
+          "excerpt": "背景 これまでAWSでは主にEC2を使っており、実態としてはConoHaなどのレンタルサーバーとあまり変わらない使い方だった。そこで、期限切れが近いAWS Free Tierクレジットを使い、次の疑問を確かめることにした。…"
+        },
+        {
           "title": "EventBridge Scheduler から ECS タスクを起動するまでに3回失敗した話",
           "link": "https://zenn.dev/nkmak/articles/2443f915292220",
           "source": "Zenn AWSトピック",
           "published": "2026-07-26T11:05:16",
           "excerpt": "やりたかったこと ECS 上のサーバーから EventBridge を叩き、at() 形式の一回限りのスケジュールを作成する。…"
-        },
-        {
-          "title": "AWS未経験からRHEL脆弱性通知BotをLambda化した話",
-          "link": "https://qiita.com/toroby-infra/items/1f74a91becf8b6901d8e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-26T10:41:29",
-          "excerpt": "はじめに 普段はオンプレのインフラを見ている。RHEL、vSphere。そのあたりは触れるが、AWSは触ったことがなかった。IAMもLambdaもS3も、単語として知っているだけ。…"
-        },
-        {
-          "title": "SSMエンドポイント、ec2messagesはもう要らないかもという話",
-          "link": "https://zenn.dev/nagatoshi/articles/ssm-vpc-endpoint-ec2messages",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-26T10:37:07",
-          "excerpt": "概要 プライベートサブネットに置いたEC2インスタンスにSSM Session Managerで接続する際、定番として com.amazonaws.region .ssm com.amazonaws.region .…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。はじめに 普段はオンプレのインフラを見ている。RHEL、vSphere。そのあたりは触れるが、AWSは触ったことがなかった。IAMもLambdaもS3も、単語として知っているだけ。…",
+      "summary": "セキュリティの新着が10件。記事の URL: https://github.com/gmrandazzo/CheapSecurity コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "Show HN:CheapSecurity – Linux SBC 用の軽量セルフホスト型 CCTV",
+          "link": "https://github.com/gmrandazzo/CheapSecurity",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-26T15:53:55",
+          "excerpt": "記事の URL: https://github.com/gmrandazzo/CheapSecurity コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "AWS未経験からRHEL脆弱性通知BotをLambda化した話",
           "link": "https://qiita.com/toroby-infra/items/1f74a91becf8b6901d8e",
@@ -99,13 +106,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-26T06:39:33",
           "excerpt": "はじめにSnowflakeは2026年5〜7月にかけて、前四半期で「揃えた」機能群を 製品・運用として一段成熟 させました。方向性は次の3点です。…"
-        },
-        {
-          "title": "PomeriumゼロトラストプロキシとSSH多段トンネルでVPNを置き換える — Node.jsでの実装",
-          "link": "https://dev.classmethod.jp/articles/pomerium-zero-trust-ssh-tunnel-nodejs/",
-          "source": "DevelopersIO",
-          "published": "2026-07-26T04:00:09",
-          "excerpt": "Pomeriumゼロトラストプロキシ経由でSSH多段トンネルを構築し、VPNなしでKubernetes本番環境にアクセスする方法を紹介します。…"
         }
       ]
     },
@@ -147,32 +147,32 @@
   ],
   "uncategorized": [
     {
-      "title": "[AWS] Managed KB ACLをRDBと自動同期させる",
-      "link": "https://qiita.com/kikuziro/items/85f0b4b6e7715f4ef92d",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-26T15:34:04",
-      "excerpt": "📝 TL;DR Managed KBのACLメタデータは、リアルタイム反映を頑張るより定期的バッチ反映がお勧め どうしても即時に近い反映が必要ならセルフでメタデータフィルタ実装がお勧め 👋 はじめに AWSのManaged KBに文書単位の…"
-    },
-    {
-      "title": "iOSアプリ - UIKitアプリの画面更新機能についての冒険 | ユニファ開発者ブログ",
-      "link": "https://tech.unifa-e.com/entry/2026/07/27/000000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-26T15:00:00",
-      "excerpt": "iOSアプリ - UIKitアプリの画面更新機能についての冒険 端的にいうと: iPadの縦横比の動的切り替えを支える機能がアップデートされていたことを、後になって知った話。Appleの技術カンファレンスであるWWDC26が開催されました。…"
-    },
-    {
-      "title": "3DGS制作がより簡単に———XGRIDS「PortalCam」を実際に使用して感じた、“空間を持ち帰る”という新しい体験 | テックファーム株式会社",
-      "link": "https://www.techfirm.co.jp/blog/portalcam",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-26T15:00:00",
-      "excerpt": "近年、XR・映像・デジタルツイン業界で急速に注目を集めている3D Gaussian Splatting（3DGS）です。…"
-    },
-    {
-      "title": "ロンドン・ガトウィック空港のロボットによるパーク",
-      "link": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/",
+      "title": "今年の7月、私はSimple AI（YCの深い会社）を解雇されました。",
+      "link": "https://andys.blog/this-july-i-was-fired-from-simple-ai/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-26T14:40:27",
-      "excerpt": "記事の URL: https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/ コメント URL: https://news.…"
+      "published": "2026-07-26T16:14:46",
+      "excerpt": "記事の URL: https://andys.blog/this-july-i-was-fired-from-simple-ai/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "TechCrunch モビリティ: ウーバーは前 CEO に賭ける",
+      "link": "https://techcrunch.com/2026/07/26/techcrunch-mobility-uber-bets-on-its-former-ceo/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-26T16:03:00",
+      "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。"
+    },
+    {
+      "title": "折り紙で基板を作ってみよう",
+      "link": "https://spectrum.ieee.org/origami-circuit-boards",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-26T15:56:08",
+      "excerpt": "記事の URL: https://spectrum.ieee.org/origami-circuit-boards コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "デザインは妥協です",
+      "link": "https://stephango.com/design-is-compromise",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-26T15:51:12",
+      "excerpt": "記事の URL: https://stephango.com/design-is-compromise コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
