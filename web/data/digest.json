@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-26T11:12:46",
+  "generated_at": "2026-07-26T12:34:58",
   "window_hours": 24,
-  "total": 119,
-  "topic_count": 5,
+  "total": 127,
+  "topic_count": 4,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。Claude Code で使えるローカル完結の脆弱性スキャナー「Claude Security プラグイン」を使ってみました。…",
+      "summary": "生成AIの新着が23件。記事の URL: https://www.lesswrong.…",
       "articles": [
+        {
+          "title": "OpenAI モデルは封じ込めを回避する方法についてのメモを残しました。もっと詳細が必要です",
+          "link": "https://www.lesswrong.com/posts/jMEAG5c5HiDfdAGpa/an-openai-model-left-notes-about-how-to-evade-containment-we",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-26T11:00:54",
+          "excerpt": "記事の URL: https://www.lesswrong.…"
+        },
         {
           "title": "Claude Code の新機能、ローカル完結の脆弱性スキャナー「Claude Security プラグイン」を試してみた",
           "link": "https://dev.classmethod.jp/articles/try-claude-security-plugin/",
@@ -24,26 +31,26 @@
           "excerpt": "1.はじめに 公式ドキュメント上は非対応となっているGitHub Copilot CLIで、 AWS Agent Toolkitを使うための手順をまとめます。2.AWS Agent Toolkitとは？…"
         },
         {
-          "title": "非エンジニアがAIエージェントを使いこなす時代に 〜置いていかれている私の今後について〜  AWS Summit 2026参加レポート",
-          "link": "https://qiita.com/Koki_portra400/items/7671fb900941a83b23d7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-26T08:33:55",
-          "excerpt": "はじめに こんにちは。アプリケーションエンジニア3年目のKokiです。普段はAWSやAIにあまり馴染みのない部門で働いていますが、最近は社内外で自主的にAWSやAIの知見を広める活動に取り組んでいます。…"
-        },
-        {
-          "title": "Snowflake 2026年5〜7月リリース総括：AIのエージェント化・オープン化の「完成」・ゼロトラスト標準化の3軸 | Snowflake Data Heroesのフィード",
-          "link": "https://zenn.dev/dataheroes/articles/20260726_snowflake_2026q2",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-26T06:39:33",
-          "excerpt": "はじめにSnowflakeは2026年5〜7月にかけて、前四半期で「揃えた」機能群を 製品・運用として一段成熟 させました。方向性は次の3点です。…"
+          "title": "Sol／Terra／Lunaの比較からキャッシュ検証まで ― GPT-5.6 on Amazon Bedrock実践",
+          "link": "https://zenn.dev/kashiwabaray/articles/75b541fb607a85",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-26T08:49:30",
+          "excerpt": "※本記事の内容は個人の見解であり、所属組織を代表するものではありません。1.はじめに 2026年7月13日、OpenAIのGPT-5.6 Sol、Terra、LunaがAmazon Bedrockで一般提供されました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。はじめに 普段はオンプレのインフラを見ている。RHEL、vSphere。そのあたりは触れるが、AWSは触ったことがなかった。IAMもLambdaもS3も、単語として知っているだけ。…",
+      "summary": "クラウドの新着が12件。やりたかったこと ECS 上のサーバーから EventBridge を叩き、at() 形式の一回限りのスケジュールを作成する。…",
       "articles": [
+        {
+          "title": "EventBridge Scheduler から ECS タスクを起動するまでに3回失敗した話",
+          "link": "https://zenn.dev/nkmak/articles/2443f915292220",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-26T11:05:16",
+          "excerpt": "やりたかったこと ECS 上のサーバーから EventBridge を叩き、at() 形式の一回限りのスケジュールを作成する。…"
+        },
         {
           "title": "AWS未経験からRHEL脆弱性通知BotをLambda化した話",
           "link": "https://qiita.com/toroby-infra/items/1f74a91becf8b6901d8e",
@@ -52,25 +59,18 @@
           "excerpt": "はじめに 普段はオンプレのインフラを見ている。RHEL、vSphere。そのあたりは触れるが、AWSは触ったことがなかった。IAMもLambdaもS3も、単語として知っているだけ。…"
         },
         {
+          "title": "SSMエンドポイント、ec2messagesはもう要らないかもという話",
+          "link": "https://zenn.dev/nagatoshi/articles/ssm-vpc-endpoint-ec2messages",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-26T10:37:07",
+          "excerpt": "概要 プライベートサブネットに置いたEC2インスタンスにSSM Session Managerで接続する際、定番として com.amazonaws.region .ssm com.amazonaws.region .…"
+        },
+        {
           "title": "kubectl execをAPIゲートウェイ代わりに使う — エンタープライズKubernetesでの実践パターン",
           "link": "https://dev.classmethod.jp/articles/kubectl-exec-as-api-gateway-pattern/",
           "source": "DevelopersIO",
           "published": "2026-07-26T08:00:16",
           "excerpt": "エンタープライズKubernetesでIngress/LBがない環境で、kubectl execをAPIゲートウェイ代わりに使い、Kafka・Elasticsearch・MySQLなどクラスタ内サービスにアクセスするパターンをTypeScr…"
-        },
-        {
-          "title": "[アップデート] AWS Lambda Durable Execution SDK for .NET が GA になったので C# で durable functions を試してみた",
-          "link": "https://dev.classmethod.jp/articles/lambdadf-dotnet/",
-          "source": "DevelopersIO",
-          "published": "2026-07-26T08:00:11",
-          "excerpt": "AWS Lambda Durable Execution SDK for .NET が GA になりました。Lambda Annotations モデルを使った実装からデプロイ、ローカルテストまで、実際に試してみた内容を紹介します。"
-        },
-        {
-          "title": "Terraform入門 第1回：Dev ContainerでAWSリソースを作成してみる",
-          "link": "https://qiita.com/k0ga/items/305f5628dfb8f0b4a1f1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-26T07:13:28",
-          "excerpt": "はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。…"
         }
       ]
     },
@@ -110,24 +110,17 @@
       ]
     },
     {
-      "id": "data",
-      "label": "データ分析",
-      "summary": "データ分析の新着が1件。2026年のフィールズ賞授賞式の場で、新受賞者であるカナダの数学者ジェイコブ・ツィマーマンが、OpenAIに加わりAI安全性の研究に従事すると発表し、学会に衝撃を与えた。…",
-      "articles": [
-        {
-          "title": "フィールズ賞新受賞者ツィマーマン、受賞会見で「転身」宣言：OpenAIに加わりAI安全性を研究へ — BigGo ファイナンス",
-          "link": "https://finance.biggo.jp/news/bca88ca4-8438-4d70-b512-75cda1dd3bd1",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-07-25T12:23:49",
-          "excerpt": "2026年のフィールズ賞授賞式の場で、新受賞者であるカナダの数学者ジェイコブ・ツィマーマンが、OpenAIに加わりAI安全性の研究に従事すると発表し、学会に衝撃を与えた。…"
-        }
-      ]
-    },
-    {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。AWS Amplifyとは 一言でいうと… Webアプリやモバイルアプリを“簡単に作って公開できる”フルスタック開発サービスです。…",
+      "summary": "開発ツールの新着が10件。AWS CLIにVer.2.36.0で追加された新しい`aws update`コマンドを調べてみました。このコマンドの仕組みや動作、Windows環境での注意点についてまとめます。",
       "articles": [
+        {
+          "title": "[アップデート] AWS CLI に aws update コマンドが追加されました",
+          "link": "https://dev.classmethod.jp/articles/aws-cli-aws-update-command/",
+          "source": "DevelopersIO",
+          "published": "2026-07-26T11:40:08",
+          "excerpt": "AWS CLIにVer.2.36.0で追加された新しい`aws update`コマンドを調べてみました。このコマンドの仕組みや動作、Windows環境での注意点についてまとめます。"
+        },
         {
           "title": "AWS素人がAmplifyを使って分かったこと",
           "link": "https://qiita.com/apteryx-nz/items/43595e8d8d4991f2317c",
@@ -148,45 +141,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-26T08:00:11",
           "excerpt": "AWS Lambda Durable Execution SDK for .NET が GA になりました。Lambda Annotations モデルを使った実装からデプロイ、ローカルテストまで、実際に試してみた内容を紹介します。"
-        },
-        {
-          "title": "Terraform入門 第1回：Dev ContainerでAWSリソースを作成してみる",
-          "link": "https://qiita.com/k0ga/items/305f5628dfb8f0b4a1f1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-26T07:13:28",
-          "excerpt": "はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "【Route53基本編】SAA先生に学ぶAWSの全容と授業メモ",
+      "link": "https://qiita.com/minifish33/items/06f2b73a87c7c9b505e3",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-26T11:31:50",
+      "excerpt": "【Route53基本編】SAA先生に学ぶAWSの全容と授業メモ Route53は「ドメインとIPの間に立つ、超優秀な電話交換手」☎️ DNSは「名前」と「住所」をつなぐ仕組み DNSは、ホスト名の名前解決をやってくれる仕組み。…"
+    },
+    {
+      "title": "CloudWatchLogsがALBのログをサポートするようになったらしいので確認してみた",
+      "link": "https://zenn.dev/nagatoshi/articles/alb-logs-cloudwatch-logs",
+      "source": "Zenn AWSトピック",
+      "published": "2026-07-26T10:37:07",
+      "excerpt": "概要 2026年7月、Application Load Balancer（ALB）のログが CloudWatch Logs にも配信できるようになりました。…"
+    },
+    {
+      "title": "MLflow Model Registryを「アーティファクトの台帳」として使う",
+      "link": "https://zenn.dev/rrioh/articles/203384f38b7635",
+      "source": "Zenn AWSトピック",
+      "published": "2026-07-26T10:18:29",
+      "excerpt": "機械学習周りの業務では、データサイエンティスト、MLエンジニア、データエンジニアなど様々な職種の人が関わりますが、 それぞれがどこまでの権限を担うのかという明確な領域は、現場ごとに様々だと思います。…"
+    },
+    {
       "title": "トランプ大統領、データセンターの費用を家庭の電気代から節約する自主的な約束を拡大",
       "link": "https://www.theregister.com/on-prem/2026/07/26/trump-expands-voluntary-pledge-to-keep-datacenter-costs-off-household-power-bills/5278346",
       "source": "The Register（英語）",
       "published": "2026-07-26T10:10:00",
       "excerpt": "Pinkie Promise は 200 人以上の新規参加者を獲得し、強制力はまったくありません"
-    },
-    {
-      "title": "スタック オーバーフローなし、オートコンプリートなし: 80 年代のコーディングの様子",
-      "link": "https://comuniq.xyz/post?t=1439",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-26T09:58:11",
-      "excerpt": "記事の URL: https://comuniq.xyz/post?t=1439 コメント URL: https://news.ycombinator.com/item?id=49056424 ポイント: 13 コメント数: 11"
-    },
-    {
-      "title": "Opus 5 のエラーの増加",
-      "link": "https://status.claude.com/incidents/zftg3gqkmv18",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-26T09:18:34",
-      "excerpt": "記事の URL: https://status.claude.com/incidents/zftg3gqkmv18 コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Ruff v0.16.0 – 重要な新しいアップデート – デフォルト ルールが 59 から 413 に増加",
-      "link": "https://astral.sh/blog/ruff-v0.16.0",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-26T09:01:39",
-      "excerpt": "記事の URL: https://astral.sh/blog/ruff-v0.16.0 コメント URL: https://news.ycombinator.com/item?id=49056112 ポイント: 75 コメント数: 18"
     }
   ]
 }
