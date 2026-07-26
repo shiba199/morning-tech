@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-26T07:29:38",
+  "generated_at": "2026-07-26T09:33:02",
   "window_hours": 24,
-  "total": 116,
+  "total": 119,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。Qwen3.6 の Q4_K_M GGUF を ml.g5.2xlarge の 24 GB GPU へロードし、回答を逐次受信できました。ウォーム TTFT は 2,058 ms でした。",
+      "summary": "生成AIの新着が22件。1.はじめに 公式ドキュメント上は非対応となっているGitHub Copilot CLIで、 AWS Agent Toolkitを使うための手順をまとめます。2.AWS Agent Toolkitとは？…",
       "articles": [
+        {
+          "title": "Github copilotでaws agent toolkitを試してみた",
+          "link": "https://qiita.com/nimu3/items/2a760a0b03c09b25ab3c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-26T09:32:39",
+          "excerpt": "1.はじめに 公式ドキュメント上は非対応となっているGitHub Copilot CLIで、 AWS Agent Toolkitを使うための手順をまとめます。2.AWS Agent Toolkitとは？…"
+        },
+        {
+          "title": "非エンジニアがAIエージェントを使いこなす時代に 〜置いていかれている私の今後について〜  AWS Summit 2026参加レポート",
+          "link": "https://qiita.com/Koki_portra400/items/7671fb900941a83b23d7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-26T08:33:55",
+          "excerpt": "はじめに こんにちは。アプリケーションエンジニア3年目のKokiです。普段はAWSやAIにあまり馴染みのない部門で働いていますが、最近は社内外で自主的にAWSやAIの知見を広める活動に取り組んでいます。…"
+        },
+        {
+          "title": "Snowflake 2026年5〜7月リリース総括：AIのエージェント化・オープン化の「完成」・ゼロトラスト標準化の3軸 | Snowflake Data Heroesのフィード",
+          "link": "https://zenn.dev/dataheroes/articles/20260726_snowflake_2026q2",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-26T06:39:33",
+          "excerpt": "はじめにSnowflakeは2026年5〜7月にかけて、前四半期で「揃えた」機能群を 製品・運用として一段成熟 させました。方向性は次の3点です。…"
+        },
         {
           "title": "Qwen3.6-35B-A3B を Amazon SageMaker で動かしてストリーミング応答を得てみた",
           "link": "https://dev.classmethod.jp/articles/sagemaker-realtime-llama-cpp-gguf-streaming/",
           "source": "DevelopersIO",
           "published": "2026-07-26T06:26:13",
           "excerpt": "Qwen3.6 の Q4_K_M GGUF を ml.g5.2xlarge の 24 GB GPU へロードし、回答を逐次受信できました。ウォーム TTFT は 2,058 ms でした。"
-        },
-        {
-          "title": "GitHub Issuesでエージェント自動化コントロールのパブリックプレビュー開始",
-          "link": "https://codezine.jp/article/detail/29107",
-          "source": "CodeZine",
-          "published": "2026-07-26T06:00:00",
-          "excerpt": "GitHub Issuesでエージェント自動化コントロールのパブリックプレビュー開始"
-        },
-        {
-          "title": "SlackでAI秘書を雇う。AWS Bedrock + Lambda構築ガイド【初心者向け】",
-          "link": "https://qiita.com/ZEN1106/items/5be25e5b95a3c1e65948",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-26T04:38:15",
-          "excerpt": "はじめに こんにちは！…"
-        },
-        {
-          "title": "Strands AgentsのHarness Optimizerでエージェントを育ててみた",
-          "link": "https://qiita.com/nuance-sudo/items/f91cbcbe618bb3d2a7a6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-26T03:47:10",
-          "excerpt": "みなさんStrands AgentsのBlogをご存知でしょうか？私は普段Strands Agentsのサイトを開くとき、見るのはいつもドキュメントかサンプルコードでした。知りたい機能を調べて、動くコードが見つかったらページを閉じる。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が7件。はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。…",
+      "summary": "クラウドの新着が9件。エンタープライズKubernetesでIngress/LBがない環境で、kubectl execをAPIゲートウェイ代わりに使い、Kafka・Elasticsearch・MySQLなどクラスタ内サービスにアクセスするパターンをTypeScr…",
       "articles": [
+        {
+          "title": "kubectl execをAPIゲートウェイ代わりに使う — エンタープライズKubernetesでの実践パターン",
+          "link": "https://dev.classmethod.jp/articles/kubectl-exec-as-api-gateway-pattern/",
+          "source": "DevelopersIO",
+          "published": "2026-07-26T08:00:16",
+          "excerpt": "エンタープライズKubernetesでIngress/LBがない環境で、kubectl execをAPIゲートウェイ代わりに使い、Kafka・Elasticsearch・MySQLなどクラスタ内サービスにアクセスするパターンをTypeScr…"
+        },
+        {
+          "title": "[アップデート] AWS Lambda Durable Execution SDK for .NET が GA になったので C# で durable functions を試してみた",
+          "link": "https://dev.classmethod.jp/articles/lambdadf-dotnet/",
+          "source": "DevelopersIO",
+          "published": "2026-07-26T08:00:11",
+          "excerpt": "AWS Lambda Durable Execution SDK for .NET が GA になりました。Lambda Annotations モデルを使った実装からデプロイ、ローカルテストまで、実際に試してみた内容を紹介します。"
+        },
         {
           "title": "Terraform入門 第1回：Dev ContainerでAWSリソースを作成してみる",
           "link": "https://qiita.com/k0ga/items/305f5628dfb8f0b4a1f1",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-26T06:58:54",
           "excerpt": "はじめに 仕事で、元々EC2インスタンスのcronで実行していた処理をEventBridge Schedulerに移行する作業を行ったので、その際に注意したことや、苦労したことなどまとめておきます。…"
-        },
-        {
-          "title": "SlackでAI秘書を雇う。AWS Bedrock + Lambda構築ガイド【初心者向け】",
-          "link": "https://qiita.com/ZEN1106/items/5be25e5b95a3c1e65948",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-26T04:38:15",
-          "excerpt": "はじめに こんにちは！…"
-        },
-        {
-          "title": "ユーザーがファイルをSnowflakeにアップロードする方法：S3＋Snowpipe編",
-          "link": "https://qiita.com/hotate_2235/items/77bbc3ea33b0f5620d9a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-25T15:59:04",
-          "excerpt": "ユーザーがファイルをSnowflakeにアップロードする方法：part1 S3＋Snowpipe編 今回から、SQLをふだん書かないユーザーが、手元のファイルをSnowflakeのテーブルに取り込む方法を、シリーズで一つずつ試していきます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。Pomeriumゼロトラストプロキシ経由でSSH多段トンネルを構築し、VPNなしでKubernetes本番環境にアクセスする方法を紹介します。…",
+      "summary": "セキュリティの新着が7件。はじめにSnowflakeは2026年5〜7月にかけて、前四半期で「揃えた」機能群を 製品・運用として一段成熟 させました。方向性は次の3点です。…",
       "articles": [
+        {
+          "title": "Snowflake 2026年5〜7月リリース総括：AIのエージェント化・オープン化の「完成」・ゼロトラスト標準化の3軸 | Snowflake Data Heroesのフィード",
+          "link": "https://zenn.dev/dataheroes/articles/20260726_snowflake_2026q2",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-26T06:39:33",
+          "excerpt": "はじめにSnowflakeは2026年5〜7月にかけて、前四半期で「揃えた」機能群を 製品・運用として一段成熟 させました。方向性は次の3点です。…"
+        },
         {
           "title": "PomeriumゼロトラストプロキシとSSH多段トンネルでVPNを置き換える — Node.jsでの実装",
           "link": "https://dev.classmethod.jp/articles/pomerium-zero-trust-ssh-tunnel-nodejs/",
@@ -99,20 +106,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-26T01:35:11",
           "excerpt": "今日のテーマ AWS学習29日目は、LifeOSを長く運用するための3つの仕組みを学びました。…"
-        },
-        {
-          "title": "Meta、Facebookに無料の認証バッジ「Facebook Verified」　自撮り動画で登録、「Meta Verified」とは別",
-          "link": "https://www.itmedia.co.jp/news/articles/2607/26/news015.html",
-          "source": "ITmedia NEWS",
-          "published": "2026-07-26T00:42:00",
-          "excerpt": "Metaは、Facebookアカウントのユーザーが実在の人間であることを示す無料バッジ「Facebook Verified」を発表した。短い自撮り動画をプロフィール写真と照合する方式で、数分程度で登録できる。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。2026年のフィールズ賞授賞式の場で、新受賞者であるカナダの数学者ジェイコブ・ツィマーマンが、OpenAIに加わりAI安全性の研究に従事すると発表し、学会に衝撃を与えた。…",
+      "summary": "データ分析の新着が1件。2026年のフィールズ賞授賞式の場で、新受賞者であるカナダの数学者ジェイコブ・ツィマーマンが、OpenAIに加わりAI安全性の研究に従事すると発表し、学会に衝撃を与えた。…",
       "articles": [
         {
           "title": "フィールズ賞新受賞者ツィマーマン、受賞会見で「転身」宣言：OpenAIに加わりAI安全性を研究へ — BigGo ファイナンス",
@@ -120,21 +120,28 @@
           "source": "はてなブックマーク（テクノロジー）",
           "published": "2026-07-25T12:23:49",
           "excerpt": "2026年のフィールズ賞授賞式の場で、新受賞者であるカナダの数学者ジェイコブ・ツィマーマンが、OpenAIに加わりAI安全性の研究に従事すると発表し、学会に衝撃を与えた。…"
-        },
-        {
-          "title": "GitHub Mobile、CopilotがActionsチェックの失敗を自動修正可能に",
-          "link": "https://codezine.jp/article/detail/29104",
-          "source": "CodeZine",
-          "published": "2026-07-25T09:00:00",
-          "excerpt": "GitHub Mobile、CopilotがActionsチェックの失敗を自動修正可能に"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。…",
+      "summary": "開発ツールの新着が8件。1.はじめに 公式ドキュメント上は非対応となっているGitHub Copilot CLIで、 AWS Agent Toolkitを使うための手順をまとめます。2.AWS Agent Toolkitとは？…",
       "articles": [
+        {
+          "title": "Github copilotでaws agent toolkitを試してみた",
+          "link": "https://qiita.com/nimu3/items/2a760a0b03c09b25ab3c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-26T09:32:39",
+          "excerpt": "1.はじめに 公式ドキュメント上は非対応となっているGitHub Copilot CLIで、 AWS Agent Toolkitを使うための手順をまとめます。2.AWS Agent Toolkitとは？…"
+        },
+        {
+          "title": "[アップデート] AWS Lambda Durable Execution SDK for .NET が GA になったので C# で durable functions を試してみた",
+          "link": "https://dev.classmethod.jp/articles/lambdadf-dotnet/",
+          "source": "DevelopersIO",
+          "published": "2026-07-26T08:00:11",
+          "excerpt": "AWS Lambda Durable Execution SDK for .NET が GA になりました。Lambda Annotations モデルを使った実装からデプロイ、ローカルテストまで、実際に試してみた内容を紹介します。"
+        },
         {
           "title": "Terraform入門 第1回：Dev ContainerでAWSリソースを作成してみる",
           "link": "https://qiita.com/k0ga/items/305f5628dfb8f0b4a1f1",
@@ -148,52 +155,38 @@
           "source": "CodeZine",
           "published": "2026-07-26T06:00:00",
           "excerpt": "GitHub Issuesでエージェント自動化コントロールのパブリックプレビュー開始"
-        },
-        {
-          "title": "GitHub MCP Server、最新のMCPプロトコルに先行対応を発表",
-          "link": "https://codezine.jp/article/detail/29105",
-          "source": "CodeZine",
-          "published": "2026-07-26T00:00:00",
-          "excerpt": "GitHub MCP Server、最新のMCPプロトコルに先行対応を発表"
-        },
-        {
-          "title": "Terraform（OpenTofu）でPalworldの専用サーバーをAWS上に構築した",
-          "link": "https://qiita.com/mujuko/items/880802bd310811ebefac",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-25T20:20:17",
-          "excerpt": "タイトルの通りです。フレンドとPalworldをやろう！ということになり、せっかくなのでAWSに専用サーバーを建てよう、せっかくなのでIaCでスマートに作ろう、という流れでこうなりました。公式DockerイメージをEC2の上で動かします。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS Backup復元方法",
-      "link": "https://qiita.com/XYZXYZXYZ/items/bf41aba86268e45ddb76",
+      "title": "DeepSeek V4が正式リリース、旧APIエイリアスは7月24日よりHTTPエラーに",
+      "link": "https://codezine.jp/article/detail/29108",
+      "source": "CodeZine",
+      "published": "2026-07-26T09:00:00",
+      "excerpt": "DeepSeek V4が正式リリース、旧APIエイリアスは7月24日よりHTTPエラーに"
+    },
+    {
+      "title": "クライアントダイレクトアップロードとは何か、なぜ採用されるのか",
+      "link": "https://qiita.com/idw-coder/items/8fe57b204244a7420869",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-26T07:20:25",
-      "excerpt": "保護されたリソースをクリック 復旧したいリソースを選択して、復元ボタンをクリックする ロールの復元のところだけデフォルトに変更しました。バックアップを復元ボタンをクリックする 新しいインスタンスとして復旧します。…"
+      "published": "2026-07-26T08:41:09",
+      "excerpt": "画像や動画などのファイルをアップロードするとき、ファイル本体をアプリサーバーへ送らず、ブラウザからストレージへ直接送る構成があります。…"
     },
     {
-      "title": "【STUDIO / Web制作】ノーコードの限界を超える、外部API連携とセキュアなバックエンド構築における技術ディレクションの最適解",
-      "link": "https://qiita.com/wonidoni687/items/77d80e4a2201696d419c",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-26T07:01:41",
-      "excerpt": "はじめにWeb制作の現場において、STUDIOなどのノーコードツールの普及により、フロントエンドのモックアップやLPの制作スピードは圧倒的に加速しました。…"
+      "title": "最後のスペースシャトルは15年前に地球に帰還しました",
+      "link": "https://www.theregister.com/science/2026/07/26/the-last-space-shuttle-returned-to-earth-15-years-ago/5277279",
+      "source": "The Register（英語）",
+      "published": "2026-07-26T08:30:00",
+      "excerpt": "それで、NASA、市販の代替品はどのように機能していますか?"
     },
     {
-      "title": "Node.jsのssh2で踏み台サーバー経由のダブルホップSSHトンネルを構築する（自動再接続付き）",
-      "link": "https://dev.classmethod.jp/articles/nodejs-ssh2-double-hop-tunnel-resilience/",
+      "title": "CloudWatch アラームのメール通知で AWS User Notifications と Amazon SNS を比較してみる",
+      "link": "https://dev.classmethod.jp/articles/cloudwatch-alarm-email-user-notifications-sns/",
       "source": "DevelopersIO",
-      "published": "2026-07-26T07:00:05",
-      "excerpt": "Node.jsのssh2ライブラリで踏み台サーバー経由のダブルホップSSHトンネルを構築し、遅延初期化パターンと切断検知・自動再接続の仕組みで長時間運用に耐える実装を紹介します。"
-    },
-    {
-      "title": "Cronで長期間動かすNode.jsプロセスでメモリリークを防ぐキャッシュクリアパターン",
-      "link": "https://dev.classmethod.jp/articles/nodejs-long-running-process-memory-management/",
-      "source": "DevelopersIO",
-      "published": "2026-07-26T06:00:16",
-      "excerpt": "Cronで動かす長期実行Node.jsプロセスで、シングルトンのインスタンスプロパティにデータが蓄積してメモリリークが発生した問題と、finallyで明示的にキャッシュクリアする解決パターンを紹介します。"
+      "published": "2026-07-26T08:26:47",
+      "excerpt": "CloudWatch アラームの通知を受け取る仕組みを検証。今回はAWS User Notifications と アラームアクション＋Amazon SNS の2つの方法を比較してみました。…"
     }
   ]
 }
