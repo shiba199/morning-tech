@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-26T17:52:50",
+  "generated_at": "2026-07-26T18:53:52",
   "window_hours": 24,
-  "total": 130,
+  "total": 134,
   "topic_count": 4,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が25件。「初の自律エージェントによるサイバー攻撃は前例のない出来事だ。前例のない対応が必要だ！」",
+      "summary": "生成AIの新着が27件。AI コーディング エージェントのスタッフ エンジニア層: AI コーディング エージェントの編集ごとのアーキテクチャ制約をルーティングします コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "Show HN: Boffin – AI コーディング エージェントのスタッフ エンジニア層",
+          "link": "https://github.com/MicSm/boffin",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-26T17:28:03",
+          "excerpt": "AI コーディング エージェントのスタッフ エンジニア層: AI コーディング エージェントの編集ごとのアーキテクチャ制約をルーティングします コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "ハグフェイスCEO、「前例のない」OpenAIハッキングを受けて「抜本的な透明性」を求める",
           "link": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
@@ -24,25 +31,18 @@
           "excerpt": "記事の URL: https://www.agrillo.it/EvasionEn.html コメント URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "ファクトチェックにおけるLLMの特化学習 | fltech - 富士通研究所の技術ブログ",
-          "link": "https://blog.fltech.dev/entry/2026/07/20/Specialized-LLM-blog-post-ja",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-26T15:00:00",
-          "excerpt": "こんにちは、セキュリティサイエンス研究所（SS研）の清水です。今回は、SNS等を通じた偽情報拡散の対策のプロジェクトの一環で、SS研とAI研が共同でtakaneの特化学習を行ったので紹介します。…"
-        },
-        {
-          "title": "【AWS】DevOps AgentをTerraformでデプロイしてみた",
-          "link": "https://qiita.com/eureka_/items/bc409e433975e7f9b544",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-26T14:57:24",
-          "excerpt": "はじめに 自分の環境でAWS DevOps Agentを利用するために、Terraformからリソース作成してみたので、その記録を残します。…"
+          "title": "常駐AIエージェントの夜間バッチをべき等に設計する",
+          "link": "https://zenn.dev/hach/articles/agent-nightly-batch-idempotent-design",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-26T15:08:06",
+          "excerpt": "チャットに常駐して「夜間にログや議事録を集めて、朝レポートを出す」AIエージェントを運用していると、遅かれ早かれ直面するのが夜間バッチの失敗です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。AWS の VPC 間をネットワーク接続する方法はいくつかあります。…",
+      "summary": "クラウドの新着が12件。AWS の VPC 間をネットワーク接続する方法はいくつかあります。…",
       "articles": [
         {
           "title": "PrivateLink で別アカウントの VPC に接続されているオンプレミスの名前解決が必要なリソースにアクセスする",
@@ -59,25 +59,25 @@
           "excerpt": "Unity社は代表的なゲームエンジンの1つである「Unity」の次世代版となる「Unity 7」を発表しました。Introducing Unity 7 - built for a faster-moving, more open indu.…"
         },
         {
+          "title": "AWS学習メモ - VPCピアリング（VPC Peering）について整理してみる",
+          "link": "https://zenn.dev/yashiki_tatama/articles/a94b27973fdb71",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-26T14:42:05",
+          "excerpt": "前回は、VPCエンドポイントについて整理しましたね。VPCエンドポイントを利用することで、AWSサービスへインターネットを経由せずアクセスできることが分かりました。…"
+        },
+        {
           "title": "EKS Auto ModeでAWSとKubernetesの試したメモ",
           "link": "https://zenn.dev/hick/articles/38a5d4fe54c3d5",
           "source": "Zenn AWSトピック",
           "published": "2026-07-26T13:55:04",
           "excerpt": "背景 これまでAWSでは主にEC2を使っており、実態としてはConoHaなどのレンタルサーバーとあまり変わらない使い方だった。そこで、期限切れが近いAWS Free Tierクレジットを使い、次の疑問を確かめることにした。…"
-        },
-        {
-          "title": "EventBridge Scheduler から ECS タスクを起動するまでに3回失敗した話",
-          "link": "https://zenn.dev/nkmak/articles/2443f915292220",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-26T11:05:16",
-          "excerpt": "やりたかったこと ECS 上のサーバーから EventBridge を叩き、at() 形式の一回限りのスケジュールを作成する。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。記事の URL: https://github.com/gmrandazzo/CheapSecurity コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が9件。記事の URL: https://github.com/gmrandazzo/CheapSecurity コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
           "title": "Show HN:CheapSecurity – Linux SBC 用の軽量セルフホスト型 CCTV",
@@ -147,6 +147,20 @@
   ],
   "uncategorized": [
     {
+      "title": "史上最強のエルニーニョ",
+      "link": "https://www.theclimatebrink.com/p/the-strongest-el-nino-ever",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-26T18:35:36",
+      "excerpt": "記事の URL: https://www.theclimatebrink.com/p/the-strongest-el-nino-ever コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "フランスの消防士が初めて「積乱雲」に遭遇",
+      "link": "https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-26T17:49:44",
+      "excerpt": "記事の URL: https://www.france24.…"
+    },
+    {
       "title": "英語の散文の書き方",
       "link": "https://thelampmagazine.com/blog/how-to-write-english-prose",
       "source": "Hacker News（英語）",
@@ -154,25 +168,11 @@
       "excerpt": "記事の URL: https://thelampmagazine.com/blog/how-to-write-english-prose コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "ロンドンの創業者の家の内部で、創業者の家のルールが書き換えられる",
-      "link": "https://techcrunch.com/2026/07/26/inside-one-london-founder-house-rewriting-the-founder-house-rules/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-26T17:03:19",
-      "excerpt": "ある創業家はワークライフバランスが燃え尽き症候群を克服できると賭けている。"
-    },
-    {
-      "title": "今年の7月、私はSimple AI（YCの深い会社）を解雇されました。",
-      "link": "https://andys.blog/this-july-i-was-fired-from-simple-ai/",
+      "title": "Ruby を扱うすべてのオープンソース メンテナーを呼び出す",
+      "link": "https://www.rubyforum.org/t/calling-all-open-source-maintainers-working-with-ruby/553",
       "source": "Hacker News（英語）",
-      "published": "2026-07-26T16:14:46",
-      "excerpt": "記事の URL: https://andys.blog/this-july-i-was-fired-from-simple-ai/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "TechCrunch モビリティ: ウーバーは前 CEO に賭ける",
-      "link": "https://techcrunch.com/2026/07/26/techcrunch-mobility-uber-bets-on-its-former-ceo/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-26T16:03:00",
-      "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。"
+      "published": "2026-07-26T17:28:03",
+      "excerpt": "記事の URL: https://www.rubyforum.org/t/calling-all-open-source-maintainers-working-with-ruby/553 コメント URL: https://news.…"
     }
   ]
 }
