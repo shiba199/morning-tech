@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-07-26T14:22:50",
+  "generated_at": "2026-07-26T15:35:39",
   "window_hours": 24,
-  "total": 123,
+  "total": 135,
   "topic_count": 4,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。バージョン: 2025年7月時点 参照元: Creating an Agent Space CLI Onboarding Guide Getting Started using AWS CDK ※ 一部AIを利用して編集しています 概要 A…",
+      "summary": "生成AIの新着が26件。こんにちは、セキュリティサイエンス研究所（SS研）の清水です。今回は、SNS等を通じた偽情報拡散の対策のプロジェクトの一環で、SS研とAI研が共同でtakaneの特化学習を行ったので紹介します。…",
       "articles": [
         {
-          "title": "AWS DevOps Agent 導入手順書",
-          "link": "https://qiita.com/tama_katsura/items/fdf3767f2c9da843c13d",
+          "title": "ファクトチェックにおけるLLMの特化学習 | fltech - 富士通研究所の技術ブログ",
+          "link": "https://blog.fltech.dev/entry/2026/07/20/Specialized-LLM-blog-post-ja",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-26T15:00:00",
+          "excerpt": "こんにちは、セキュリティサイエンス研究所（SS研）の清水です。今回は、SNS等を通じた偽情報拡散の対策のプロジェクトの一環で、SS研とAI研が共同でtakaneの特化学習を行ったので紹介します。…"
+        },
+        {
+          "title": "【AWS】DevOps AgentをTerraformでデプロイしてみた",
+          "link": "https://qiita.com/eureka_/items/bc409e433975e7f9b544",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-26T14:10:39",
-          "excerpt": "バージョン: 2025年7月時点 参照元: Creating an Agent Space CLI Onboarding Guide Getting Started using AWS CDK ※ 一部AIを利用して編集しています 概要 A…"
+          "published": "2026-07-26T14:57:24",
+          "excerpt": "はじめに 自分の環境でAWS DevOps Agentを利用するために、Terraformからリソース作成してみたので、その記録を残します。…"
         },
         {
-          "title": "Strands Agents をローカルで動かしてみた",
-          "link": "https://qiita.com/zumax/items/7019f8edf39d02bda1a2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-26T13:35:35",
-          "excerpt": "背景・目的 AI エージェントを学ぶ中で、AWS のエージェント基盤 Amazon Bedrock AgentCore の全体像を整理しました。…"
-        },
-        {
-          "title": "OpenAI モデルは封じ込めを回避する方法についてのメモを残しました。もっと詳細が必要です",
-          "link": "https://www.lesswrong.com/posts/jMEAG5c5HiDfdAGpa/an-openai-model-left-notes-about-how-to-evade-containment-we",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-26T11:00:54",
-          "excerpt": "記事の URL: https://www.lesswrong.…"
-        },
-        {
-          "title": "Claude Code の新機能、ローカル完結の脆弱性スキャナー「Claude Security プラグイン」を試してみた",
-          "link": "https://dev.classmethod.jp/articles/try-claude-security-plugin/",
+          "title": "[アップデート] Amazon SageMaker Unified Studio でカスタムビジュアルトランスフォームが利用可能になったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/20260726-amazon-smus-custom-visual-transform/",
           "source": "DevelopersIO",
-          "published": "2026-07-26T10:14:59",
-          "excerpt": "Claude Code で使えるローカル完結の脆弱性スキャナー「Claude Security プラグイン」を使ってみました。…"
+          "published": "2026-07-26T14:56:36",
+          "excerpt": "Amazon SageMaker Unified Studio の Visual ETL に、カスタムビジュアルトランスフォームを作成・共有・再利用できる機能が追加されました。…"
+        },
+        {
+          "title": "AWS が公開した AI エージェント向けベンチマーク aws-bench の仕組みを確認してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-bench-overview/",
+          "source": "DevelopersIO",
+          "published": "2026-07-26T14:38:55",
+          "excerpt": "AWS が公開した AI エージェント向けオープンソースベンチマーク aws-bench を紹介します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。やりたかったこと ECS 上のサーバーから EventBridge を叩き、at() 形式の一回限りのスケジュールを作成する。…",
+      "summary": "クラウドの新着が10件。Unity社は代表的なゲームエンジンの1つである「Unity」の次世代版となる「Unity 7」を発表しました。Introducing Unity 7 - built for a faster-moving, more open indu.…",
       "articles": [
+        {
+          "title": "ゲームエンジン「Unity 7」発表、ランタイム基盤がMonoから.NET CoreCLRへ移行。高速化により、開発画面からほぼ瞬時にプレイモードが起動",
+          "link": "https://www.publickey1.jp/blog/26/unity_7mononet_coreclr.html",
+          "source": "Publickey",
+          "published": "2026-07-26T15:02:22",
+          "excerpt": "Unity社は代表的なゲームエンジンの1つである「Unity」の次世代版となる「Unity 7」を発表しました。Introducing Unity 7 - built for a faster-moving, more open indu.…"
+        },
         {
           "title": "EventBridge Scheduler から ECS タスクを起動するまでに3回失敗した話",
           "link": "https://zenn.dev/nkmak/articles/2443f915292220",
@@ -64,13 +71,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-26T10:37:07",
           "excerpt": "概要 プライベートサブネットに置いたEC2インスタンスにSSM Session Managerで接続する際、定番として com.amazonaws.region .ssm com.amazonaws.region .…"
-        },
-        {
-          "title": "kubectl execをAPIゲートウェイ代わりに使う — エンタープライズKubernetesでの実践パターン",
-          "link": "https://dev.classmethod.jp/articles/kubectl-exec-as-api-gateway-pattern/",
-          "source": "DevelopersIO",
-          "published": "2026-07-26T08:00:16",
-          "excerpt": "エンタープライズKubernetesでIngress/LBがない環境で、kubectl execをAPIゲートウェイ代わりに使い、Kafka・Elasticsearch・MySQLなどクラスタ内サービスにアクセスするパターンをTypeScr…"
         }
       ]
     },
@@ -112,8 +112,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。AWS CLIにVer.2.36.0で追加された新しい`aws update`コマンドを調べてみました。このコマンドの仕組みや動作、Windows環境での注意点についてまとめます。",
+      "summary": "開発ツールの新着が10件。AIツールとサービスを接続するための事実上の業界標準となっている通信プロトコルMCP（Model Context Protocol）の7月28日版仕様の登場が目前となっています。MCPの仕様は継続的にアップデートされ続けており、GitHu.…",
       "articles": [
+        {
+          "title": "MCP仕様が明日アップデート、7月28日版MCPからはステートレスな接続が正式仕様に。GitHub MCPサーバが早くも対応発表",
+          "link": "https://www.publickey1.jp/blog/26/mcp728mcpgithub_mcp.html",
+          "source": "Publickey",
+          "published": "2026-07-26T15:06:36",
+          "excerpt": "AIツールとサービスを接続するための事実上の業界標準となっている通信プロトコルMCP（Model Context Protocol）の7月28日版仕様の登場が目前となっています。MCPの仕様は継続的にアップデートされ続けており、GitHu.…"
+        },
+        {
+          "title": "【AWS】DevOps AgentをTerraformでデプロイしてみた",
+          "link": "https://qiita.com/eureka_/items/bc409e433975e7f9b544",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-26T14:57:24",
+          "excerpt": "はじめに 自分の環境でAWS DevOps Agentを利用するために、Terraformからリソース作成してみたので、その記録を残します。…"
+        },
         {
           "title": "[アップデート] AWS CLI に aws update コマンドが追加されました",
           "link": "https://dev.classmethod.jp/articles/aws-cli-aws-update-command/",
@@ -127,52 +141,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-26T09:33:31",
           "excerpt": "AWS Amplifyとは 一言でいうと… Webアプリやモバイルアプリを“簡単に作って公開できる”フルスタック開発サービスです。…"
-        },
-        {
-          "title": "Github copilotでaws agent toolkitを試してみた",
-          "link": "https://qiita.com/nimu3/items/2a760a0b03c09b25ab3c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-26T09:32:39",
-          "excerpt": "1.はじめに 公式ドキュメント上は非対応となっているGitHub Copilot CLIで、 AWS Agent Toolkitを使うための手順をまとめます。2.AWS Agent Toolkitとは？…"
-        },
-        {
-          "title": "[アップデート] AWS Lambda Durable Execution SDK for .NET が GA になったので C# で durable functions を試してみた",
-          "link": "https://dev.classmethod.jp/articles/lambdadf-dotnet/",
-          "source": "DevelopersIO",
-          "published": "2026-07-26T08:00:11",
-          "excerpt": "AWS Lambda Durable Execution SDK for .NET が GA になりました。Lambda Annotations モデルを使った実装からデプロイ、ローカルテストまで、実際に試してみた内容を紹介します。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ALBのアクセスログがCloudWatch Logsに直接出せるようになった",
-      "link": "https://qiita.com/sagochiko/items/66d3fbf7af8a3f59ed02",
+      "title": "[AWS] Managed KB ACLをRDBと自動同期させる",
+      "link": "https://qiita.com/kikuziro/items/85f0b4b6e7715f4ef92d",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-26T13:44:14",
-      "excerpt": "2026年7月23日に発表されたアップデートでALBのログをCloudWatch Logsに出力出来るようになりました。実際、どのように設定をするのか確認するため検証してみました。…"
+      "published": "2026-07-26T15:34:04",
+      "excerpt": "📝 TL;DR Managed KBのACLメタデータは、リアルタイム反映を頑張るより定期的バッチ反映がお勧め どうしても即時に近い反映が必要ならセルフでメタデータフィルタ実装がお勧め 👋 はじめに AWSのManaged KBに文書単位の…"
     },
     {
-      "title": "国旗の類似度を考慮した国名当てクイズを作った",
-      "link": "https://qiita.com/nimowagukari/items/d80f22db01dfc54d2235",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-26T13:40:23",
-      "excerpt": "はじめに こんにちは。タイトルの通りですが、まず URL を共有します。https://flag-similarity.nimowagukari.net/ いっぱい遊んでみて、フィードバックや改善要望などをもらえると嬉しいです。…"
+      "title": "iOSアプリ - UIKitアプリの画面更新機能についての冒険 | ユニファ開発者ブログ",
+      "link": "https://tech.unifa-e.com/entry/2026/07/27/000000",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-26T15:00:00",
+      "excerpt": "iOSアプリ - UIKitアプリの画面更新機能についての冒険 端的にいうと: iPadの縦横比の動的切り替えを支える機能がアップデートされていたことを、後になって知った話。Appleの技術カンファレンスであるWWDC26が開催されました。…"
     },
     {
-      "title": "HN に質問してください: 新しい修士課程の学生にとって最も有望な RL 分野は何ですか?",
-      "link": "https://news.ycombinator.com/item?id=49057972",
+      "title": "3DGS制作がより簡単に———XGRIDS「PortalCam」を実際に使用して感じた、“空間を持ち帰る”という新しい体験 | テックファーム株式会社",
+      "link": "https://www.techfirm.co.jp/blog/portalcam",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-26T15:00:00",
+      "excerpt": "近年、XR・映像・デジタルツイン業界で急速に注目を集めている3D Gaussian Splatting（3DGS）です。…"
+    },
+    {
+      "title": "ロンドン・ガトウィック空港のロボットによるパーク",
+      "link": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-26T13:22:59",
-      "excerpt": "私は修士課程の新入生で、強化学習の研究の方向性を考えています。現時点で最も可能性が高いのはどの rl サブフィールドだと思いますか?私は具体化された AI と Bcis に特に興味があります。コメント URL: https://news.…"
-    },
-    {
-      "title": "Google、SpaceX株941億ドルを公開、株式の6％をマーク",
-      "link": "https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-26T12:43:21",
-      "excerpt": "記事の URL: https://www.wsj.…"
+      "published": "2026-07-26T14:40:27",
+      "excerpt": "記事の URL: https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/ コメント URL: https://news.…"
     }
   ]
 }
