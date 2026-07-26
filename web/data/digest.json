@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T04:50:46",
+  "generated_at": "2026-07-26T07:29:38",
   "window_hours": 24,
   "total": 116,
   "topic_count": 5,
@@ -7,8 +7,22 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。はじめに こんにちは！…",
+      "summary": "生成AIの新着が22件。Qwen3.6 の Q4_K_M GGUF を ml.g5.2xlarge の 24 GB GPU へロードし、回答を逐次受信できました。ウォーム TTFT は 2,058 ms でした。",
       "articles": [
+        {
+          "title": "Qwen3.6-35B-A3B を Amazon SageMaker で動かしてストリーミング応答を得てみた",
+          "link": "https://dev.classmethod.jp/articles/sagemaker-realtime-llama-cpp-gguf-streaming/",
+          "source": "DevelopersIO",
+          "published": "2026-07-26T06:26:13",
+          "excerpt": "Qwen3.6 の Q4_K_M GGUF を ml.g5.2xlarge の 24 GB GPU へロードし、回答を逐次受信できました。ウォーム TTFT は 2,058 ms でした。"
+        },
+        {
+          "title": "GitHub Issuesでエージェント自動化コントロールのパブリックプレビュー開始",
+          "link": "https://codezine.jp/article/detail/29107",
+          "source": "CodeZine",
+          "published": "2026-07-26T06:00:00",
+          "excerpt": "GitHub Issuesでエージェント自動化コントロールのパブリックプレビュー開始"
+        },
         {
           "title": "SlackでAI秘書を雇う。AWS Bedrock + Lambda構築ガイド【初心者向け】",
           "link": "https://qiita.com/ZEN1106/items/5be25e5b95a3c1e65948",
@@ -22,28 +36,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-26T03:47:10",
           "excerpt": "みなさんStrands AgentsのBlogをご存知でしょうか？私は普段Strands Agentsのサイトを開くとき、見るのはいつもドキュメントかサンプルコードでした。知りたい機能を調べて、動くコードが見つかったらページを閉じる。…"
-        },
-        {
-          "title": "エージェント テスト プロセス、LLM ベンチマーク、およびエージェント コーディングに関するその他の注意事項",
-          "link": "https://danluu.com/ai-coding/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-26T03:02:17",
-          "excerpt": "記事の URL: https://danluu.com/ai-coding/ コメント URL: https://news.ycombinator.com/item?id=49054268 ポイント: 4 コメント数: 0"
-        },
-        {
-          "title": "Cycloud 新基盤の全貌 第六回: LB 編 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-          "link": "https://developers.cyberagent.co.jp/blog/archives/64711/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-25T23:00:06",
-          "excerpt": "はじめに はじめまして。CyberAgent group Infrastructure Unit（C ..."
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。はじめに こんにちは！…",
+      "summary": "クラウドの新着が7件。はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。…",
       "articles": [
+        {
+          "title": "Terraform入門 第1回：Dev ContainerでAWSリソースを作成してみる",
+          "link": "https://qiita.com/k0ga/items/305f5628dfb8f0b4a1f1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-26T07:13:28",
+          "excerpt": "はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。…"
+        },
+        {
+          "title": "サーバで実行していたcron処理をEventBridge Schedulerに移行する。",
+          "link": "https://qiita.com/sakai00kou/items/0b30319e30ca9bdaffa0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-26T06:58:54",
+          "excerpt": "はじめに 仕事で、元々EC2インスタンスのcronで実行していた処理をEventBridge Schedulerに移行する作業を行ったので、その際に注意したことや、苦労したことなどまとめておきます。…"
+        },
         {
           "title": "SlackでAI秘書を雇う。AWS Bedrock + Lambda構築ガイド【初心者向け】",
           "link": "https://qiita.com/ZEN1106/items/5be25e5b95a3c1e65948",
@@ -57,27 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-25T15:59:04",
           "excerpt": "ユーザーがファイルをSnowflakeにアップロードする方法：part1 S3＋Snowpipe編 今回から、SQLをふだん書かないユーザーが、手元のファイルをSnowflakeのテーブルに取り込む方法を、シリーズで一つずつ試していきます。…"
-        },
-        {
-          "title": "Amazon ECS がデプロイの内部処理を可視化するための Action Logs に対応",
-          "link": "https://qiita.com/Haruki-N/items/d83597ae267eb8a4472e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-25T14:50:50",
-          "excerpt": "はじめに 2026 年 7 月 21 日、AWS は Amazon ECS に対して Action Logs を発表しました。…"
-        },
-        {
-          "title": "EC2インスタンスを立ち上げてSSH接続し、IPを固定化するまでをまとめてみた",
-          "link": "https://qiita.com/kuririrn/items/56bac37100bb775a590a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-25T13:55:57",
-          "excerpt": "はじめに AIエージェントを常時動かしておく基盤がほしくて、AWSのEC2インスタンスを立ててみました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。Pomeriumゼロトラストプロキシ経由でSSH多段トンネルを構築し、VPNなしでKubernetes本番環境にアクセスする方法を紹介します。…",
+      "summary": "セキュリティの新着が6件。Pomeriumゼロトラストプロキシ経由でSSH多段トンネルを構築し、VPNなしでKubernetes本番環境にアクセスする方法を紹介します。…",
       "articles": [
         {
           "title": "PomeriumゼロトラストプロキシとSSH多段トンネルでVPNを置き換える — Node.jsでの実装",
@@ -94,18 +94,18 @@
           "excerpt": "AWS Summit Japan 2026で登壇したセキュリティミニセッションの内容をレポートします。AWS環境でよくある3つのセキュリティ課題と、クラスメソッドの解決アプローチについて紹介しています。"
         },
         {
+          "title": "AWS学習29日目：AWS Backup・AWS Config・GuardDuty",
+          "link": "https://zenn.dev/zono731/articles/acbd79b380591d",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-26T01:35:11",
+          "excerpt": "今日のテーマ AWS学習29日目は、LifeOSを長く運用するための3つの仕組みを学びました。…"
+        },
+        {
           "title": "Meta、Facebookに無料の認証バッジ「Facebook Verified」　自撮り動画で登録、「Meta Verified」とは別",
           "link": "https://www.itmedia.co.jp/news/articles/2607/26/news015.html",
           "source": "ITmedia NEWS",
           "published": "2026-07-26T00:42:00",
           "excerpt": "Metaは、Facebookアカウントのユーザーが実在の人間であることを示す無料バッジ「Facebook Verified」を発表した。短い自撮り動画をプロフィール写真と照合する方式で、数分程度で登録できる。…"
-        },
-        {
-          "title": "Google アカウントに「自撮り」認証が追加　AIによる偽動画に耐えられるか？",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/26/news008.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-07-25T22:00:00",
-          "excerpt": "Googleが、顔を動かす自撮り動画でGoogle アカウントにサインインできる新機能を追加した。精巧な偽動画を生成できる時代に、この仕組みはなりすましをどう防ぐのか。撮影した顔という生体データはどう扱われるのか。"
         }
       ]
     },
@@ -133,8 +133,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。GitHub MCP Server、最新のMCPプロトコルに先行対応を発表",
+      "summary": "開発ツールの新着が7件。はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。…",
       "articles": [
+        {
+          "title": "Terraform入門 第1回：Dev ContainerでAWSリソースを作成してみる",
+          "link": "https://qiita.com/k0ga/items/305f5628dfb8f0b4a1f1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-26T07:13:28",
+          "excerpt": "はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。…"
+        },
+        {
+          "title": "GitHub Issuesでエージェント自動化コントロールのパブリックプレビュー開始",
+          "link": "https://codezine.jp/article/detail/29107",
+          "source": "CodeZine",
+          "published": "2026-07-26T06:00:00",
+          "excerpt": "GitHub Issuesでエージェント自動化コントロールのパブリックプレビュー開始"
+        },
         {
           "title": "GitHub MCP Server、最新のMCPプロトコルに先行対応を発表",
           "link": "https://codezine.jp/article/detail/29105",
@@ -148,52 +162,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-25T20:20:17",
           "excerpt": "タイトルの通りです。フレンドとPalworldをやろう！ということになり、せっかくなのでAWSに専用サーバーを建てよう、せっかくなのでIaCでスマートに作ろう、という流れでこうなりました。公式DockerイメージをEC2の上で動かします。…"
-        },
-        {
-          "title": "Amazon ECS がデプロイの内部処理を可視化するための Action Logs に対応",
-          "link": "https://qiita.com/Haruki-N/items/d83597ae267eb8a4472e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-25T14:50:50",
-          "excerpt": "はじめに 2026 年 7 月 21 日、AWS は Amazon ECS に対して Action Logs を発表しました。…"
-        },
-        {
-          "title": "Claude CodeとKiro CLI、同じタスクで速さ・コスト・品質を比較してみた",
-          "link": "https://dev.classmethod.jp/articles/compare-claude-code-kiro-cli/",
-          "source": "DevelopersIO",
-          "published": "2026-07-25T14:32:17",
-          "excerpt": "Claude CodeとKiro CLIを実際に同じタスクで比較してみました。速さ・コスト・品質の結果から見えてきたのは、トレードオフの関係です。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "スクフェス仙台2026を楽しんだ！",
-      "link": "https://dev.classmethod.jp/articles/enmasa-scrumsendai2026/",
+      "title": "AWS Backup復元方法",
+      "link": "https://qiita.com/XYZXYZXYZ/items/bf41aba86268e45ddb76",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-26T07:20:25",
+      "excerpt": "保護されたリソースをクリック 復旧したいリソースを選択して、復元ボタンをクリックする ロールの復元のところだけデフォルトに変更しました。バックアップを復元ボタンをクリックする 新しいインスタンスとして復旧します。…"
+    },
+    {
+      "title": "【STUDIO / Web制作】ノーコードの限界を超える、外部API連携とセキュアなバックエンド構築における技術ディレクションの最適解",
+      "link": "https://qiita.com/wonidoni687/items/77d80e4a2201696d419c",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-26T07:01:41",
+      "excerpt": "はじめにWeb制作の現場において、STUDIOなどのノーコードツールの普及により、フロントエンドのモックアップやLPの制作スピードは圧倒的に加速しました。…"
+    },
+    {
+      "title": "Node.jsのssh2で踏み台サーバー経由のダブルホップSSHトンネルを構築する（自動再接続付き）",
+      "link": "https://dev.classmethod.jp/articles/nodejs-ssh2-double-hop-tunnel-resilience/",
       "source": "DevelopersIO",
-      "published": "2026-07-26T04:13:08",
-      "excerpt": "スクフェス仙台2026(日程:2026/7/10,11、会場:enspace)を開催しました。今年も運営スタッフ、スポンサースタッフとして参加し、たくさんの方にスクフェス仙台を楽しんでもらいました！"
+      "published": "2026-07-26T07:00:05",
+      "excerpt": "Node.jsのssh2ライブラリで踏み台サーバー経由のダブルホップSSHトンネルを構築し、遅延初期化パターンと切断検知・自動再接続の仕組みで長時間運用に耐える実装を紹介します。"
     },
     {
-      "title": "AWS Well-Architected Tool 使ってAWS環境のアセスメントしてみた",
-      "link": "https://dev.classmethod.jp/articles/shoma-tried-using-aws-well-architected-tool/",
+      "title": "Cronで長期間動かすNode.jsプロセスでメモリリークを防ぐキャッシュクリアパターン",
+      "link": "https://dev.classmethod.jp/articles/nodejs-long-running-process-memory-management/",
       "source": "DevelopersIO",
-      "published": "2026-07-26T03:56:27",
-      "excerpt": "AWS のベストプラクティスからどれくらい離れているか気になったので、AWS Well-Architected Tool を使ってワークロードを点検してみました。"
-    },
-    {
-      "title": "人類は進化を止めていない",
-      "link": "https://www.harvardmagazine.com/research/harvard-human-evolution-genes-selective-pressure",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-26T03:09:46",
-      "excerpt": "記事の URL: https://www.harvardmagazine.…"
-    },
-    {
-      "title": "Django 6.1のリリース候補版1が公開、新機能と使用感を試せる最終段階",
-      "link": "https://codezine.jp/article/detail/29106",
-      "source": "CodeZine",
-      "published": "2026-07-26T03:00:00",
-      "excerpt": "Django 6.1のリリース候補版1が公開、新機能と使用感を試せる最終段階"
+      "published": "2026-07-26T06:00:16",
+      "excerpt": "Cronで動かす長期実行Node.jsプロセスで、シングルトンのインスタンスプロパティにデータが蓄積してメモリリークが発生した問題と、finallyで明示的にキャッシュクリアする解決パターンを紹介します。"
     }
   ]
 }
