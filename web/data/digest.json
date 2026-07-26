@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-26T12:34:58",
+  "generated_at": "2026-07-26T14:22:50",
   "window_hours": 24,
-  "total": 127,
+  "total": 123,
   "topic_count": 4,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。記事の URL: https://www.lesswrong.…",
+      "summary": "生成AIの新着が22件。バージョン: 2025年7月時点 参照元: Creating an Agent Space CLI Onboarding Guide Getting Started using AWS CDK ※ 一部AIを利用して編集しています 概要 A…",
       "articles": [
+        {
+          "title": "AWS DevOps Agent 導入手順書",
+          "link": "https://qiita.com/tama_katsura/items/fdf3767f2c9da843c13d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-26T14:10:39",
+          "excerpt": "バージョン: 2025年7月時点 参照元: Creating an Agent Space CLI Onboarding Guide Getting Started using AWS CDK ※ 一部AIを利用して編集しています 概要 A…"
+        },
+        {
+          "title": "Strands Agents をローカルで動かしてみた",
+          "link": "https://qiita.com/zumax/items/7019f8edf39d02bda1a2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-26T13:35:35",
+          "excerpt": "背景・目的 AI エージェントを学ぶ中で、AWS のエージェント基盤 Amazon Bedrock AgentCore の全体像を整理しました。…"
+        },
         {
           "title": "OpenAI モデルは封じ込めを回避する方法についてのメモを残しました。もっと詳細が必要です",
           "link": "https://www.lesswrong.com/posts/jMEAG5c5HiDfdAGpa/an-openai-model-left-notes-about-how-to-evade-containment-we",
@@ -22,27 +36,13 @@
           "source": "DevelopersIO",
           "published": "2026-07-26T10:14:59",
           "excerpt": "Claude Code で使えるローカル完結の脆弱性スキャナー「Claude Security プラグイン」を使ってみました。…"
-        },
-        {
-          "title": "Github copilotでaws agent toolkitを試してみた",
-          "link": "https://qiita.com/nimu3/items/2a760a0b03c09b25ab3c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-26T09:32:39",
-          "excerpt": "1.はじめに 公式ドキュメント上は非対応となっているGitHub Copilot CLIで、 AWS Agent Toolkitを使うための手順をまとめます。2.AWS Agent Toolkitとは？…"
-        },
-        {
-          "title": "Sol／Terra／Lunaの比較からキャッシュ検証まで ― GPT-5.6 on Amazon Bedrock実践",
-          "link": "https://zenn.dev/kashiwabaray/articles/75b541fb607a85",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-26T08:49:30",
-          "excerpt": "※本記事の内容は個人の見解であり、所属組織を代表するものではありません。1.はじめに 2026年7月13日、OpenAIのGPT-5.6 Sol、Terra、LunaがAmazon Bedrockで一般提供されました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。やりたかったこと ECS 上のサーバーから EventBridge を叩き、at() 形式の一回限りのスケジュールを作成する。…",
+      "summary": "クラウドの新着が10件。やりたかったこと ECS 上のサーバーから EventBridge を叩き、at() 形式の一回限りのスケジュールを作成する。…",
       "articles": [
         {
           "title": "EventBridge Scheduler から ECS タスクを起動するまでに3回失敗した話",
@@ -147,32 +147,32 @@
   ],
   "uncategorized": [
     {
-      "title": "【Route53基本編】SAA先生に学ぶAWSの全容と授業メモ",
-      "link": "https://qiita.com/minifish33/items/06f2b73a87c7c9b505e3",
+      "title": "ALBのアクセスログがCloudWatch Logsに直接出せるようになった",
+      "link": "https://qiita.com/sagochiko/items/66d3fbf7af8a3f59ed02",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-26T11:31:50",
-      "excerpt": "【Route53基本編】SAA先生に学ぶAWSの全容と授業メモ Route53は「ドメインとIPの間に立つ、超優秀な電話交換手」☎️ DNSは「名前」と「住所」をつなぐ仕組み DNSは、ホスト名の名前解決をやってくれる仕組み。…"
+      "published": "2026-07-26T13:44:14",
+      "excerpt": "2026年7月23日に発表されたアップデートでALBのログをCloudWatch Logsに出力出来るようになりました。実際、どのように設定をするのか確認するため検証してみました。…"
     },
     {
-      "title": "CloudWatchLogsがALBのログをサポートするようになったらしいので確認してみた",
-      "link": "https://zenn.dev/nagatoshi/articles/alb-logs-cloudwatch-logs",
-      "source": "Zenn AWSトピック",
-      "published": "2026-07-26T10:37:07",
-      "excerpt": "概要 2026年7月、Application Load Balancer（ALB）のログが CloudWatch Logs にも配信できるようになりました。…"
+      "title": "国旗の類似度を考慮した国名当てクイズを作った",
+      "link": "https://qiita.com/nimowagukari/items/d80f22db01dfc54d2235",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-26T13:40:23",
+      "excerpt": "はじめに こんにちは。タイトルの通りですが、まず URL を共有します。https://flag-similarity.nimowagukari.net/ いっぱい遊んでみて、フィードバックや改善要望などをもらえると嬉しいです。…"
     },
     {
-      "title": "MLflow Model Registryを「アーティファクトの台帳」として使う",
-      "link": "https://zenn.dev/rrioh/articles/203384f38b7635",
-      "source": "Zenn AWSトピック",
-      "published": "2026-07-26T10:18:29",
-      "excerpt": "機械学習周りの業務では、データサイエンティスト、MLエンジニア、データエンジニアなど様々な職種の人が関わりますが、 それぞれがどこまでの権限を担うのかという明確な領域は、現場ごとに様々だと思います。…"
+      "title": "HN に質問してください: 新しい修士課程の学生にとって最も有望な RL 分野は何ですか?",
+      "link": "https://news.ycombinator.com/item?id=49057972",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-26T13:22:59",
+      "excerpt": "私は修士課程の新入生で、強化学習の研究の方向性を考えています。現時点で最も可能性が高いのはどの rl サブフィールドだと思いますか?私は具体化された AI と Bcis に特に興味があります。コメント URL: https://news.…"
     },
     {
-      "title": "トランプ大統領、データセンターの費用を家庭の電気代から節約する自主的な約束を拡大",
-      "link": "https://www.theregister.com/on-prem/2026/07/26/trump-expands-voluntary-pledge-to-keep-datacenter-costs-off-household-power-bills/5278346",
-      "source": "The Register（英語）",
-      "published": "2026-07-26T10:10:00",
-      "excerpt": "Pinkie Promise は 200 人以上の新規参加者を獲得し、強制力はまったくありません"
+      "title": "Google、SpaceX株941億ドルを公開、株式の6％をマーク",
+      "link": "https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-26T12:43:21",
+      "excerpt": "記事の URL: https://www.wsj.…"
     }
   ]
 }
