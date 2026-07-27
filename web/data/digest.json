@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-27T12:09:31",
+  "generated_at": "2026-07-27T15:20:17",
   "window_hours": 24,
-  "total": 181,
+  "total": 183,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。Claude ConsoleでAPIキー発行のためにクレジットを購入しようとしたところ、「クレジットを購入」ボタンが押せない問題に遭遇した。原因を調査した結果、配送先住所の都道府県欄が未入力になっていることが判明した。…",
+      "summary": "生成AIの新着が29件。先週、私はラテンアメリカ全土から技術ビルダーとともにサンパウロで 3 日間を過ごす機会に恵まれました。この地域の技術イベントには、詳細なセッション、実践的なワークショップ、顧客やパートナーとの会話が満載です。…",
       "articles": [
+        {
+          "title": "AWS ウィークリーラウンドアップ: アテネのローカルゾーン、AWS の Claude Opus 5、.NET の Lambda 永続実行など (2026 年 7 月 27 日)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-07-27T14:54:41",
+          "excerpt": "先週、私はラテンアメリカ全土から技術ビルダーとともにサンパウロで 3 日間を過ごす機会に恵まれました。この地域の技術イベントには、詳細なセッション、実践的なワークショップ、顧客やパートナーとの会話が満載です。…"
+        },
+        {
+          "title": "OpenAI の Hugging Face の大失敗は、オープン モデルにとって素晴らしい事例となる",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/27/openais-hugging-face-debacle-makes-a-great-case-for-open-models/5278498",
+          "source": "The Register（英語）",
+          "published": "2026-07-27T12:01:00",
+          "excerpt": "OpenAI と Anthropic だけがこれらの機能を備えていると考えている場合は、もう一度考えてください。"
+        },
         {
           "title": "Claude Consoleで「クレジットを購入」ボタンが押せない問題を解決した",
           "link": "https://dev.classmethod.jp/articles/claude-console-credit-purchase-prefecture-not-selected/",
@@ -22,55 +36,41 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-27T11:32:32",
           "excerpt": "記事の URL: https://status.claude.com/incidents/mfdtrknpxghq コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "[アップデート] Agent Toolkit for AWS の新スキル「amazon-opensearch-service」で自然言語でのログ分析を試してみた",
-          "link": "https://dev.classmethod.jp/articles/20260727-amazon-opensearch-service-skill/",
-          "source": "DevelopersIO",
-          "published": "2026-07-27T10:11:23",
-          "excerpt": "Claude Code + OpenSearch Serverless NextGen 環境で、Agent Toolkit for AWS の amazon-opensearch-service スキルを使ったログ分析を試してみました。…"
-        },
-        {
-          "title": "AIが壁打ち相手になってくれる日報アプリを、GAS×Geminiで作った話 | wwwave's Techblogのフィード",
-          "link": "https://zenn.dev/wwwave/articles/8ea9536c96386b",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-27T10:00:05",
-          "excerpt": "はじめにこんにちは、塚本です。以前、『カイゼン・ジャーニー』を読んだ話をZennに投稿しました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。はじめに スマートフォンアプリへのプッシュ通知の送信処理を、踏み台サーバーを経由する同期的なcurlループから、AWS Lambdaへの非同期invokeに切り替えた事例を共有します。…",
+      "summary": "クラウドの新着が13件。先週、私はラテンアメリカ全土から技術ビルダーとともにサンパウロで 3 日間を過ごす機会に恵まれました。この地域の技術イベントには、詳細なセッション、実践的なワークショップ、顧客やパートナーとの会話が満載です。…",
       "articles": [
+        {
+          "title": "AWS ウィークリーラウンドアップ: アテネのローカルゾーン、AWS の Claude Opus 5、.NET の Lambda 永続実行など (2026 年 7 月 27 日)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-07-27T14:54:41",
+          "excerpt": "先週、私はラテンアメリカ全土から技術ビルダーとともにサンパウロで 3 日間を過ごす機会に恵まれました。この地域の技術イベントには、詳細なセッション、実践的なワークショップ、顧客やパートナーとの会話が満載です。…"
+        },
+        {
+          "title": "EC2 2台の環境を EKS に移行するとき、コンテナ数はどう決めるのか【初学者向けサイジング入門】",
+          "link": "https://qiita.com/hijiri0404/items/e0849cafe058b3ec88da",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-27T14:47:02",
+          "excerpt": "はじめに 「EC2 で動いていた仮想マシン 2 台を EKS に移行する。じゃあコンテナ（Pod）は何個にすればいいのか？」 この問いに対する答えは 「2 個ではない」 だ。…"
+        },
+        {
+          "title": "ALBログの新機能「CloudWatch Logs統合」でS3配信のコストを確認してみた",
+          "link": "https://dev.classmethod.jp/articles/alb-vended-logs-s3-cost/",
+          "source": "DevelopersIO",
+          "published": "2026-07-27T13:04:23",
+          "excerpt": "ALBログのCloudWatch Logs統合で、ヘルスチェックログをJSON・plain・Parquet形式でS3へ配信しました。…"
+        },
         {
           "title": "Expoのプッシュ通知を送る同期curlループを、AWS Lambdaの非同期invokeに変えてPHP側の待ち時間を短縮した",
           "link": "https://zenn.dev/peipei/articles/828dee39f060f3",
           "source": "Zenn AWSトピック",
           "published": "2026-07-27T11:17:26",
           "excerpt": "はじめに スマートフォンアプリへのプッシュ通知の送信処理を、踏み台サーバーを経由する同期的なcurlループから、AWS Lambdaへの非同期invokeに切り替えた事例を共有します。…"
-        },
-        {
-          "title": "Amazon EKS が EKS Auto Mode および Karpenter 上での EFA・プレイスメントグループに対応",
-          "link": "https://qiita.com/Haruki-N/items/69bac03b0a242eac4950",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-27T11:01:49",
-          "excerpt": "はじめに 2026 年 7 月 22 日、AWS は Amazon EKS の EKS Auto Mode および Karpenter に対して、EFA（Elastic Fabric Adapter）とプレイスメントグループのサポートを発表…"
-        },
-        {
-          "title": "エンジニア必見！Cloudflare/CloudFrontでCDNキャッシュを「正しく」制御する設定と無効化のベストプラクティス",
-          "link": "https://qiita.com/Maku-Inc/items/a1a54828953ae8e0c474",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-27T10:52:40",
-          "excerpt": "エンジニア必見！…"
-        },
-        {
-          "title": "ECS・SQS・LambdaをOpenTelemetryで計装する分散トレーシング",
-          "link": "https://zenn.dev/ncdc/articles/fbe0ff50ee04b0",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-27T09:54:24",
-          "excerpt": "はじめに ECS → SQS → Lambdaという構成は、AWSでバックエンドを組んでいるとよく出てきます。…"
         }
       ]
     },
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。この記事はDress Code Advent Calendar 2026/07の 27日目の記事です。こんにちは。Dress Code株式会社でプロダクトエンジニアをしているぽこひで（@pokohide）です。…",
+      "summary": "開発ツールの新着が8件。Github MCPのRead-only modeがどのようなセキュリティ機能なのか、実装の仕組みも含めて調査してみました。書き込み権限を与えずにMCPを活用したい場合の選択肢として、その仕組みを紹介します。",
       "articles": [
+        {
+          "title": "GitHub MCPのRead-only modeを使う",
+          "link": "https://dev.classmethod.jp/articles/github-mcp-read-only-mode-verification/",
+          "source": "DevelopersIO",
+          "published": "2026-07-27T12:14:32",
+          "excerpt": "Github MCPのRead-only modeがどのようなセキュリティ機能なのか、実装の仕組みも含めて調査してみました。書き込み権限を与えずにMCPを活用したい場合の選択肢として、その仕組みを紹介します。"
+        },
         {
           "title": "Fn::ImportValueを剥がして、CDKデプロイを並列化する",
           "link": "https://zenn.dev/dress_code/articles/d08a9c00af39ca",
@@ -162,45 +169,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-27T05:21:34",
           "excerpt": "公開リポジトリ: https://github.com/mabuix/iac-guard Terraform(.…"
-        },
-        {
-          "title": "GitHub ProjectsとIssuesに複数選択フィールド機能が追加",
-          "link": "https://codezine.jp/article/detail/29112",
-          "source": "CodeZine",
-          "published": "2026-07-27T02:30:00",
-          "excerpt": "GitHub ProjectsとIssuesに複数選択フィールド機能が追加"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS公式のVLAシミュレータがREADMEどおり動かなかったので、原因を突き止めて直したらGR00TとOpenVLAが完走した",
-      "link": "https://dev.classmethod.jp/articles/aws-vla-simulator/",
-      "source": "DevelopersIO",
-      "published": "2026-07-27T12:03:22",
-      "excerpt": "AWS公式のVLA評価サンプルをGR00Tで動かしてみたところ、依存パッケージのバージョン不整合でセットアップが失敗しました。原因を突き止めてmujocoを固定することで、GR00TとOpenVLA-OFTの両方を完走させ、成功率1.…"
+      "title": "SaaSにおけるUI開発のよくある課題とその解決方法、教えます［PR］",
+      "link": "https://www.publickey1.jp/blog/26/saasuipr.html",
+      "source": "Publickey",
+      "published": "2026-07-27T15:43:49",
+      "excerpt": ".jetform-wrapper { border: 2px solid #ccc; /* 枠線 / padding: 20px; / 内側の余白 / border-radius: 12p..."
     },
     {
-      "title": "「こんなのに追われたら……」急斜面もやすやす爆走、中国製の車輪付き四足ロボのデモ動画が話題　最高時速20km超",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/27/news099.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-27T11:50:00",
-      "excerpt": "中国のロボットメーカーUnitree Roboticsは7月24日（現地時間）、車輪付きの四足ロボット「Unitree Super Athlete AS2-W」が岩場を走るデモ映像を公開した。"
+      "title": "Vercel、TypeScriptをC言語に変換してからネイティブな実行ファイルにコンパイルする「scriptc」、オープンソースで公開",
+      "link": "https://www.publickey1.jp/blog/26/verceltypescriptcscriptc.html",
+      "source": "Publickey",
+      "published": "2026-07-27T15:20:00",
+      "excerpt": "Webアプリケーションのホスティングサービス「Vercel」で知られるVercel社は、Node.…"
     },
     {
-      "title": "マイクロソフト、中古ライセンス争いで最高裁判所の生命線を求める",
-      "link": "https://www.theregister.com/software/2026/07/27/microsoft-seeks-supreme-court-lifeline-in-pre-owned-license-battle/5278823",
-      "source": "The Register（英語）",
-      "published": "2026-07-27T11:30:35",
-      "excerpt": "2億7,000万ポンドのバリューライセンス訴訟は、レドモンドが控訴の許可を求めている間、大部分が保留されたままである"
+      "title": "AWSの公式オンラインワークショップ、無料のAWSサンドボックス環境を提供開始。学習用にAWSのサービスやコード実行など利用可能に",
+      "link": "https://www.publickey1.jp/blog/26/awsawsaws.html",
+      "source": "Publickey",
+      "published": "2026-07-27T15:15:59",
+      "excerpt": "Amazon Web Services（AWS）は、同社がAWSのオンライン学習教材として提供している「ワークショップ」において、無料でAWSのサービスやコードの実行などを試すことができるサンドボックス環境の提供開始を発表しました。AWS.…"
     },
     {
-      "title": "東野圭吾さん死去、Xなどで追悼相次ぐ　「ガリレオ」など数々の人気作、エンジニアから転身",
-      "link": "https://www.itmedia.co.jp/news/articles/2607/27/news097.html",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-27T11:20:00",
-      "excerpt": "「ガリレオ」シリーズや「白夜行」などで知られる作家の東野圭吾さんが7月23日未明、大腸がんのため死去したと、講談社が27日に発表した。68歳だった。"
+      "title": "Ilya Sutskever 氏の Safe Superintelligence は Nvidia と提携して AI 研究を拡大",
+      "link": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-27T15:01:50",
+      "excerpt": "2 年間のステルス活動を経て、Safe Superintelligence は次の段階への拡大を準備するため、Nvidia との長期パートナーシップを発表しました。"
     }
   ]
 }
