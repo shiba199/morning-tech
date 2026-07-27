@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-26T23:27:13",
+  "generated_at": "2026-07-27T01:06:30",
   "window_hours": 24,
-  "total": 149,
+  "total": 158,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が29件。はじめに はじめまして、CyberAgent group Infrastructure Unit（C ...",
+      "summary": "生成AIの新着が32件。AWS DevOps Agentに新たにSandbox機能がプレビュー公開されました。この機能により、エージェントが調査中にサンドボックス化されたLinux環境でコードを実行できるようになります。…",
       "articles": [
+        {
+          "title": "DevOps AgentのSandbox機能(プレビュー)でDuckDBを実行してみた",
+          "link": "https://dev.classmethod.jp/articles/devops-agent-sandbox-preview/",
+          "source": "DevelopersIO",
+          "published": "2026-07-27T00:26:36",
+          "excerpt": "AWS DevOps Agentに新たにSandbox機能がプレビュー公開されました。この機能により、エージェントが調査中にサンドボックス化されたLinux環境でコードを実行できるようになります。…"
+        },
+        {
+          "title": "Google、コードの脆弱性を検出するエージェント「CodeMender」の一部機能をプレビューリリース",
+          "link": "https://codezine.jp/article/detail/29100",
+          "source": "CodeZine",
+          "published": "2026-07-27T00:00:00",
+          "excerpt": "Google、コードの脆弱性を検出するエージェント「CodeMender」の一部機能をプレビューリリース"
+        },
+        {
+          "title": "ワット数: AI エージェント向けのトークン支出プロファイラーとコスト回帰ゲート",
+          "link": "https://github.com/faizannraza/wattage",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-26T23:27:35",
+          "excerpt": "記事の URL: https://github.com/faizannraza/wattage コメント URL: https://news.ycombinator.com/item?id=49063397 ポイント: 4 コメント数: 0"
+        },
         {
           "title": "Cycloud 新基盤の全貌 第七回: KaaS 編 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
           "link": "https://developers.cyberagent.co.jp/blog/archives/64884/",
           "source": "企業テックブログまとめ",
           "published": "2026-07-26T23:10:22",
           "excerpt": "はじめに はじめまして、CyberAgent group Infrastructure Unit（C ..."
-        },
-        {
-          "title": "Bedrock を 自動遮断するコストガードを作る",
-          "link": "https://zenn.dev/t_o_m_o/articles/b6d842a056b0db",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-26T23:00:06",
-          "excerpt": "はじめに Amazon Bedrock、チームで使ってますか？社内ツールや開発用に LLM を生やすとき、Bedrock はモデルの選択肢も多くてけっこう便利ですよね。ただチームに開放してみると気になってくるのが「青天井のコスト」です。…"
-        },
-        {
-          "title": "Microsoft、「Microsoft Agent Framework Harness」を正式リリース",
-          "link": "https://codezine.jp/article/detail/29099",
-          "source": "CodeZine",
-          "published": "2026-07-26T23:00:00",
-          "excerpt": "Microsoft、「Microsoft Agent Framework Harness」を正式リリース"
-        },
-        {
-          "title": "Copilot Studio で既存エージェントを連携する2つの構成パターン | 電通総研 テックブログ",
-          "link": "https://tech.dentsusoken.com/entry/2026/07/27/Copilot_Studio_%E3%81%A7%E6%97%A2%E5%AD%98%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%82%92%E9%80%A3%E6%90%BA%E3%81%99%E3%82%8B2%E3%81%A4%E3%81%AE%E6%A7%8B%E6%88%90%E3%83%91%E3%82%BF",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-26T22:00:00",
-          "excerpt": "こんにちは！クロスイノベーション本部 リーディングエッジテクノロジーセンターの松清です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。Lambda Managed Instances のキャパシティプロバイダーが CloudWatch Logs へのシステムログ出力に対応しました。…",
+      "summary": "クラウドの新着が15件。「このパッケージ、Amazon Linux 2023 公式リポジトリから入れたんだっけ？」と分からなくなった時は \"dnf list installed\" コマンドで確認できます。",
       "articles": [
+        {
+          "title": "【小ネタ】 EC2 に導入されたパッケージが Amazon Linux 2023 公式リポジトリのものか確認する方法",
+          "link": "https://dev.classmethod.jp/articles/tsnote-al2023-check-package-official-repo/",
+          "source": "DevelopersIO",
+          "published": "2026-07-27T00:45:00",
+          "excerpt": "「このパッケージ、Amazon Linux 2023 公式リポジトリから入れたんだっけ？」と分からなくなった時は \"dnf list installed\" コマンドで確認できます。"
+        },
+        {
+          "title": "ALB + Cognito + Djangoコンテナ構成でステートレス認証構成を組んでみた",
+          "link": "https://dev.classmethod.jp/articles/2026-07-26-alb-cognito-django-ecs-stateless-auth-tried/",
+          "source": "DevelopersIO",
+          "published": "2026-07-26T23:46:38",
+          "excerpt": "ALB + Cognito + ECS Fargate上のDjangoで、認証・認可をインフラ層に完全に寄せ、ステートレスなアーキテクチャを実現する構成を、Terraformで構築して検証しました。"
+        },
         {
           "title": "[アップデート] AWS Lambda Managed Instances のキャパシティプロバイダーがシステムログを CloudWatch Logs に出力するようになりました",
           "link": "https://dev.classmethod.jp/articles/aws-lambda-managed-instances-logs/",
@@ -57,28 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-26T15:38:57",
           "excerpt": "AWS の VPC 間をネットワーク接続する方法はいくつかあります。…"
-        },
-        {
-          "title": "ゲームエンジン「Unity 7」発表、ランタイム基盤がMonoから.NET CoreCLRへ移行。高速化により、開発画面からほぼ瞬時にプレイモードが起動",
-          "link": "https://www.publickey1.jp/blog/26/unity_7mononet_coreclr.html",
-          "source": "Publickey",
-          "published": "2026-07-26T15:02:22",
-          "excerpt": "Unity社は代表的なゲームエンジンの1つである「Unity」の次世代版となる「Unity 7」を発表しました。Introducing Unity 7 - built for a faster-moving, more open indu.…"
-        },
-        {
-          "title": "AWS学習メモ - VPCピアリング（VPC Peering）について整理してみる",
-          "link": "https://zenn.dev/yashiki_tatama/articles/a94b27973fdb71",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-26T14:42:05",
-          "excerpt": "前回は、VPCエンドポイントについて整理しましたね。VPCエンドポイントを利用することで、AWSサービスへインターネットを経由せずアクセスできることが分かりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。DNSサーバソフト「BIND 9」の更新版が公開された。修正されたのは計9件の脆弱性で、このうち7件は深刻度「高」と評価される。DNSキャッシュ汚染やDoSにつながる問題も含まれるが、現時点で有効な回避策は示されていない。",
+      "summary": "セキュリティの新着が13件。Google、コードの脆弱性を検出するエージェント「CodeMender」の一部機能をプレビューリリース",
       "articles": [
+        {
+          "title": "Google、コードの脆弱性を検出するエージェント「CodeMender」の一部機能をプレビューリリース",
+          "link": "https://codezine.jp/article/detail/29100",
+          "source": "CodeZine",
+          "published": "2026-07-27T00:00:00",
+          "excerpt": "Google、コードの脆弱性を検出するエージェント「CodeMender」の一部機能をプレビューリリース"
+        },
+        {
+          "title": "ALB + Cognito + Djangoコンテナ構成でステートレス認証構成を組んでみた",
+          "link": "https://dev.classmethod.jp/articles/2026-07-26-alb-cognito-django-ecs-stateless-auth-tried/",
+          "source": "DevelopersIO",
+          "published": "2026-07-26T23:46:38",
+          "excerpt": "ALB + Cognito + ECS Fargate上のDjangoで、認証・認可をインフラ層に完全に寄せ、ステートレスなアーキテクチャを実現する構成を、Terraformで構築して検証しました。"
+        },
         {
           "title": "回避策なし、「BIND 9」に高深刻度7件の脆弱性　DNSキャッシュ汚染やDoSの恐れ",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/27/news033.html",
@@ -92,20 +106,6 @@
           "source": "ITmedia エンタープライズ",
           "published": "2026-07-26T22:00:00",
           "excerpt": "攻撃者がAIを駆使する今、防御側もAIを使いこなさなければ生き残れない。運用のAI化に成功する企業とできない企業の差は広がりつつある。両者を分けるものは何か。"
-        },
-        {
-          "title": "「フロンティアAI」の脅威にどう立ち向かう？　Gartnerが次世代セキュリティを提言",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/27/news027.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-07-26T22:00:00",
-          "excerpt": "GartnerはフロンティアAI時代に向けたセキュリティ戦略の再構築を提言した。シャドーAIの利用実態把握やCTEMへの発展、実行時のリアルタイム監視など能動的な防御姿勢を求め、攻撃を予測、阻止する先制的セキュリティへの転換を提言した。"
-        },
-        {
-          "title": "GitHub のセキュリティ チームは何をしているのでしょうか?",
-          "link": "https://orchidfiles.com/github-security-team/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-26T19:51:05",
-          "excerpt": "記事の URL: https://orchidfiles.com/github-security-team/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
@@ -133,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。記事の URL: https://orchidfiles.com/github-security-team/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が11件。本記事は、BIPROGY / ユニアデックス社内AWSコミュニティ「BIPROGY AWS SPARK」の定期投稿企画第1回目の記事です。他の定期投稿企画の記事はインデックスページをご覧ください。1.はじめに BIPROGYの豊田です。…",
       "articles": [
+        {
+          "title": "【AWS CDK】「IaCにすれば工数削減」は本当か？ AWS CDKの再利用性を整理してみた【概念編】",
+          "link": "https://qiita.com/toyoday_8/items/a9a50da72a79d9e91a6e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-27T00:37:49",
+          "excerpt": "本記事は、BIPROGY / ユニアデックス社内AWSコミュニティ「BIPROGY AWS SPARK」の定期投稿企画第1回目の記事です。他の定期投稿企画の記事はインデックスページをご覧ください。1.はじめに BIPROGYの豊田です。…"
+        },
         {
           "title": "GitHub のセキュリティ チームは何をしているのでしょうか?",
           "link": "https://orchidfiles.com/github-security-team/",
@@ -155,45 +162,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-26T14:57:24",
           "excerpt": "はじめに 自分の環境でAWS DevOps Agentを利用するために、Terraformからリソース作成してみたので、その記録を残します。…"
-        },
-        {
-          "title": "[アップデート] AWS CLI に aws update コマンドが追加されました",
-          "link": "https://dev.classmethod.jp/articles/aws-cli-aws-update-command/",
-          "source": "DevelopersIO",
-          "published": "2026-07-26T11:40:08",
-          "excerpt": "AWS CLIにVer.2.36.0で追加された新しい`aws update`コマンドを調べてみました。このコマンドの仕組みや動作、Windows環境での注意点についてまとめます。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Snowflake × IoT: Snowpipe Streamingを使ってデバイスから送信したセンサーデータを数秒以内に蓄積する",
-      "link": "https://zenn.dev/fusic/articles/stream-iot-data-to-snowflake",
-      "source": "Zenn AWSトピック",
-      "published": "2026-07-26T23:09:10",
-      "excerpt": "はじめに ATOMS3 Liteに接続した環境センサーで計測した温度・湿度・気圧のデータを、AWS IoT Core経由でSnowflakeへリアルタイムに届け続ける仕組みを、実際に手を動かしながら構築します。…"
+      "title": "【簡単AWS MLA】【初心者向け】Day 7：データ前処理を整理する — 欠損値・正規化・カテゴリ変数・外れ値",
+      "link": "https://qiita.com/MetaYuan/items/fedd7262351df24ffc14",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-27T00:52:11",
+      "excerpt": "はじめに 機械学習では、モデルやアルゴリズムに注目しがちですが、実際には データ前処理（Data Preprocessing） がモデル性能に大きく影響します。…"
     },
     {
-      "title": "日本のレジェンド、59歳の三浦が2022年以来初ゴールを決める",
-      "link": "https://www.bbc.com/sport/football/articles/c3r087181ndo",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-26T23:03:35",
-      "excerpt": "記事の URL: https://www.bbc.com/sport/football/articles/c3r087181ndo コメント URL: https://news.ycombinator.com/item?…"
+      "title": "脳波は物理的 AI の次の鍵となるでしょうか?",
+      "link": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-27T00:19:14",
+      "excerpt": "YouTube ビデオのことは忘れてください。最先端の物理 AI モデルには、複数のカメラ アングル、緻密な注釈、そして間もなく脳波の読み取りが必要になります。"
     },
     {
-      "title": "リサーチエバンジェリストによる富士通TECH UPDATE✨（FY26-1Qプレスより） | fltech - 富士通研究所の技術ブログ",
-      "link": "https://blog.fltech.dev/entry/2026/07/27/1QTechPress-ja",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-26T23:00:00",
-      "excerpt": "こんにちは。富士通研究所の山田亜紀子です。今年4月からFujitsu Research Evangelistとして活動開始しており、TechBlog初発信となります。よろしくどうぞ！！…"
-    },
-    {
-      "title": "Visual Studio Code Insiders 1.131がリリース、新音声機能など多数の改善を追加",
-      "link": "https://codezine.jp/article/detail/29109",
+      "title": "Microsoft、画像・音声モデル「MAI-Image-2.5-Pro」「MAI-Voice-2-Flash」を公開",
+      "link": "https://codezine.jp/article/detail/29110",
       "source": "CodeZine",
-      "published": "2026-07-26T23:00:00",
-      "excerpt": "Visual Studio Code Insiders 1.131がリリース、新音声機能など多数の改善を追加"
+      "published": "2026-07-27T00:00:00",
+      "excerpt": "Microsoft、画像・音声モデル「MAI-Image-2.5-Pro」「MAI-Voice-2-Flash」を公開"
+    },
+    {
+      "title": "先端GPUを支える電力供給と冷却技術（前編）",
+      "link": "https://gihyo.jp/article/2026/07/computex2026-1?utm_source=feed",
+      "source": "gihyo.jp 開発",
+      "published": "2026-07-26T23:56:00",
+      "excerpt": "2回に分けて、写真を中心にCOMPUTEX会場の展示やフォーラムでの発表から、電力と冷却関連の話題を拾ってみます。"
     }
   ]
 }
