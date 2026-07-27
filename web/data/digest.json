@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-27T21:34:31",
+  "generated_at": "2026-07-27T22:49:32",
   "window_hours": 24,
-  "total": 215,
+  "total": 211,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が32件。はじめに Claude Codeをはじめとする AI コーディングエージェントを使っていると、「トークン消費を減らすには？」というTipsは世の中にたくさん転がっています。「CLAUDE.…",
+      "summary": "生成AIの新着が31件。はじめに Claude Codeをはじめとする AI コーディングエージェントを使っていると、「トークン消費を減らすには？」というTipsは世の中にたくさん転がっています。「CLAUDE.…",
       "articles": [
         {
           "title": "【ClaudeCode】コスト発生要因から考えるトークン消費最適化術【トークン】",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。はじめに AWSインフラの現場に入ると、いきなりいろいろな言葉が出てきます。…",
+      "summary": "クラウドの新着が16件。はじめに AWSインフラの現場に入ると、いきなりいろいろな言葉が出てきます。…",
       "articles": [
         {
           "title": "AWSインフラ工程を5ステップで整理する 要件定義・設計・実装・検証",
@@ -77,42 +77,42 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。Microsoft は今週、初の AI セキュリティ モデルと新しいセキュリティ プラットフォームを発表し、AI サイバーセキュリティ製品を強化しました。",
+      "summary": "セキュリティの新着が16件。WordPress本体にプラグインなしの標準構成でも遠隔からコードを実行できる脆弱性が見つかりました。運営元は異例の強制自動更新に踏み切りましたが、管理者が把握しない放置サイトはこの網から漏れてしまいます。…",
       "articles": [
+        {
+          "title": "WordPressの脆弱性「wp2shell」　古いバージョンでも自動更新していても安心できない理由",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/28/news014.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-07-27T22:00:00",
+          "excerpt": "WordPress本体にプラグインなしの標準構成でも遠隔からコードを実行できる脆弱性が見つかりました。運営元は異例の強制自動更新に踏み切りましたが、管理者が把握しない放置サイトはこの網から漏れてしまいます。…"
+        },
+        {
+          "title": "Microsoft、競合プラットフォームを上回る性能を誇るAIセキュリティツールを発表",
+          "link": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-07-27T21:56:14",
+          "excerpt": "Microsoftによれば、このツールは競合製品よりもコストが低く、パフォーマンスも優れているという。"
+        },
+        {
+          "title": "ビットコインの痕跡、Google Cookie、Uber Eats の注文が人類を Steam マルウェアに結び付ける",
+          "link": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-27T20:53:29",
+          "excerpt": "記事の URL: https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest コメント URL: https://news.…"
+        },
         {
           "title": "Microsoft、初のサイバーセキュリティ モデルと新しいエージェント サイバーセキュリティ システムを発表",
           "link": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
           "source": "TechCrunch（英語）",
           "published": "2026-07-27T18:32:11",
           "excerpt": "Microsoft は今週、初の AI セキュリティ モデルと新しいセキュリティ プラットフォームを発表し、AI サイバーセキュリティ製品を強化しました。"
-        },
-        {
-          "title": "App Storeの暗号通貨詐欺でユーザーに180万ドルの被害があったとしてAppleが訴訟を起こした",
-          "link": "https://techcrunch.com/2026/07/27/apple-sued-after-alleged-app-store-crypto-scam-cost-users-1-8m/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-27T18:28:15",
-          "excerpt": "Appleは、App Storeから不正な仮想通貨ウォレットをダウンロードしたことで合計180万ドル以上を失ったと主張する3人のユーザーからの訴訟に直面しており、アプリの審査プロセスによってユーザーは詐欺から守られているという同社の長年の主…"
-        },
-        {
-          "title": "AWS Security Hub MCP アプリは、AI 支援ワークフローに暴露調査結果を組み込みます (プレビュー)",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-mcp-app/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-27T17:00:00",
-          "excerpt": "AWS は、AWS Security Hub MCP アプリのプレビューを発表しました。…"
-        },
-        {
-          "title": "WebCrypto APIでブラウザ内クレデンシャル暗号化を実装する — AES-256-GCM + PBKDF2の実践",
-          "link": "https://dev.classmethod.jp/articles/webcrypto-aes-gcm-credential-encryption-browser/",
-          "source": "DevelopersIO",
-          "published": "2026-07-27T16:00:23",
-          "excerpt": "WebCrypto APIを使い、マスターパスワードベースのAES-256-GCM暗号化をブラウザ内で実装しました。PBKDF2による鍵導出、暗号化・復号の実装、信頼モデルの考察までを解説します。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。Claude Code + OpenSearch Serverless NextGen 環境で、Agent Toolkit for AWS の amazon-opensearch-service スキルを使ったログ分析を試してみました。…",
+      "summary": "データ分析の新着が1件。Claude Code + OpenSearch Serverless NextGen 環境で、Agent Toolkit for AWS の amazon-opensearch-service スキルを使ったログ分析を試してみました。…",
       "articles": [
         {
           "title": "[アップデート] Agent Toolkit for AWS の新スキル「amazon-opensearch-service」で自然言語でのログ分析を試してみた",
@@ -120,20 +120,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-27T10:11:23",
           "excerpt": "Claude Code + OpenSearch Serverless NextGen 環境で、Agent Toolkit for AWS の amazon-opensearch-service スキルを使ったログ分析を試してみました。…"
-        },
-        {
-          "title": "回避策なし、「BIND 9」に高深刻度7件の脆弱性　DNSキャッシュ汚染やDoSの恐れ",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/27/news033.html",
-          "source": "@IT",
-          "published": "2026-07-26T22:00:00",
-          "excerpt": "DNSサーバソフト「BIND 9」の更新版が公開された。修正されたのは計9件の脆弱性で、このうち7件は深刻度「高」と評価される。DNSキャッシュ汚染やDoSにつながる問題も含まれるが、現時点で有効な回避策は示されていない。"
-        },
-        {
-          "title": "ユーザーデータをゲーム開発や運営に活用する『ゲームを進化させるデータ分析完全ガイド』発売",
-          "link": "https://codezine.jp/article/detail/28917",
-          "source": "CodeZine",
-          "published": "2026-07-26T22:00:00",
-          "excerpt": "ユーザーデータをゲーム開発や運営に活用する『ゲームを進化させるデータ分析完全ガイド』発売"
         }
       ]
     },
@@ -175,32 +161,32 @@
   ],
   "uncategorized": [
     {
-      "title": "サティア・ナデラ氏、1つのAIをすべてに信頼する企業は生き残れないかもしれないと語る",
-      "link": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-27T21:17:11",
-      "excerpt": "大手 AI 研究所に全面的に依存する企業は最終的には生き残れない、と Microsoft CEO の Satya Nadella 氏は予測します。"
+      "title": "NVIDIAやMicrosoftなど30社超、オープンAIの防御ツール共同開発の「Open Secure AI Alliance」設立",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/28/news059.html",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-27T22:16:00",
+      "excerpt": "NVIDIAやMicrosoft、SpaceXAIなどは、AIオープンモデルの安全性向上とサイバーセキュリティツール開発を目指すイニシアチブ「Open Secure AI Alliance」を設立した。…"
     },
     {
-      "title": "米国運輸省、自転車レーンに関する記載を削除",
-      "link": "https://www.npr.org/2026/07/23/nx-s1-5900901/bike-lanes-dot-websites",
+      "title": "オープンウェイトモデルに対する当社の立場",
+      "link": "https://www.anthropic.com/news/position-open-weights-models",
       "source": "Hacker News（英語）",
-      "published": "2026-07-27T20:50:58",
-      "excerpt": "記事の URL: https://www.npr.org/2026/07/23/nx-s1-5900901/bike-lanes-dot-websites コメント URL: https://news.ycombinator.…"
+      "published": "2026-07-27T22:03:49",
+      "excerpt": "記事の URL: https://www.anthropic.com/news/position-open-weights-models コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Thea Energy、核融合炉用磁石の製造に2,000万ドルの連邦補助金を獲得",
-      "link": "https://techcrunch.com/2026/07/27/thea-energy-lands-20m-federal-grant-to-build-its-magnets-for-fusion-reactors/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-27T20:40:12",
-      "excerpt": "核融合発電のスタートアップ Thea Energy は、高温超電導磁石の生産規模を拡大するために ARPA-E から 2,000 万ドルの賞金を獲得しました。"
+      "title": "SCS評価制度で選別される時代へ　受注企業が今すぐやるべきサイバー対策",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/28/news041.html",
+      "source": "@IT",
+      "published": "2026-07-27T22:00:00",
+      "excerpt": "価格や品質だけでは、取引先に選ばれない時代が始まるのか。ガートナーは「SCS評価制度」の導入を背景に、セキュリティ対策を客観的に示せる企業ほど優位になるとの見方を示した。受注企業は何を準備し、何を証明すべきなのか。"
     },
     {
-      "title": "ライバルが買収を追う中、ピーコックは YouTube との新たな契約によるバンドルに賭ける",
-      "link": "https://techcrunch.com/2026/07/27/as-rivals-chase-acquisitions-peacock-bets-on-bundles-through-a-new-deal-with-youtube/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-27T20:40:00",
-      "excerpt": "この契約により、コンテンツが YouTube エクスペリエンスに統合され、視聴者がプラットフォームを離れることなく Peacock コンテンツを見つけて視聴できるようになります。"
+      "title": "トランプ政権、FCCによる外国製ルーターの禁止からSpaceXのStarlinkを免除",
+      "link": "https://arstechnica.com/tech-policy/2026/07/starlink-gets-exemption-from-fcc-ban-on-routers-made-outside-the-us/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-27T21:40:27",
+      "excerpt": "スターリンクはテキサスに工場を持っていますが、ベトナムでもルーターを製造しています。"
     }
   ]
 }
