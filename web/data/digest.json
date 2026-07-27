@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-27T15:20:17",
+  "generated_at": "2026-07-27T17:14:54",
   "window_hours": 24,
-  "total": 183,
+  "total": 196,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が29件。先週、私はラテンアメリカ全土から技術ビルダーとともにサンパウロで 3 日間を過ごす機会に恵まれました。この地域の技術イベントには、詳細なセッション、実践的なワークショップ、顧客やパートナーとの会話が満載です。…",
+      "summary": "生成AIの新着が29件。Open Security AI Allianceは、Hugging FaceとOpenAIの混乱は、フロンティアラボが機密システムを適切に保護することを信頼できないことを証明していると述べている",
       "articles": [
+        {
+          "title": "OpenAI - Hugging Face 攻撃を受けてハイテク大手が協力してオープン AI モデルを称賛",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-giants-link-hands-to-praise-open-ai-models-after-openai-hugging-face-attack/5279061",
+          "source": "The Register（英語）",
+          "published": "2026-07-27T16:17:30",
+          "excerpt": "Open Security AI Allianceは、Hugging FaceとOpenAIの混乱は、フロンティアラボが機密システムを適切に保護することを信頼できないことを証明していると述べている"
+        },
         {
           "title": "AWS ウィークリーラウンドアップ: アテネのローカルゾーン、AWS の Claude Opus 5、.NET の Lambda 永続実行など (2026 年 7 月 27 日)",
           "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026/",
@@ -29,21 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-27T11:57:50",
           "excerpt": "Claude ConsoleでAPIキー発行のためにクレジットを購入しようとしたところ、「クレジットを購入」ボタンが押せない問題に遭遇した。原因を調査した結果、配送先住所の都道府県欄が未入力になっていることが判明した。…"
-        },
-        {
-          "title": "Claude Opus 5 のエラーの増加",
-          "link": "https://status.claude.com/incidents/mfdtrknpxghq",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-27T11:32:32",
-          "excerpt": "記事の URL: https://status.claude.com/incidents/mfdtrknpxghq コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。先週、私はラテンアメリカ全土から技術ビルダーとともにサンパウロで 3 日間を過ごす機会に恵まれました。この地域の技術イベントには、詳細なセッション、実践的なワークショップ、顧客やパートナーとの会話が満載です。…",
+      "summary": "クラウドの新着が15件。TechCrunch Disrupt 2026 では、スマート システム ステージでエネルギー、インフラストラクチャ、テクノロジーが衝突し、核融合のブレークスルーから AI が経済全体に及ぼす電力網の負担まで、あらゆるものをカバーします。",
       "articles": [
+        {
+          "title": "AI インフラストラクチャを強化しましょう。 TechCrunch Disrupt 2026 でのスマート システム ステージの議題の概要",
+          "link": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-27T15:30:00",
+          "excerpt": "TechCrunch Disrupt 2026 では、スマート システム ステージでエネルギー、インフラストラクチャ、テクノロジーが衝突し、核融合のブレークスルーから AI が経済全体に及ぼす電力網の負担まで、あらゆるものをカバーします。"
+        },
+        {
+          "title": "Minecraft Java は Vulkan への移行に先立って推奨メモリを 16GB に引き上げます",
+          "link": "https://videocardz.com/newz/minecraft-java-edition-raises-recommended-memory-to-16gb-ahead-of-vulkan-transition",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-27T15:11:51",
+          "excerpt": "記事の URL: https://videocardz.…"
+        },
         {
           "title": "AWS ウィークリーラウンドアップ: アテネのローカルゾーン、AWS の Claude Opus 5、.NET の Lambda 永続実行など (2026 年 7 月 27 日)",
           "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026/",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-27T14:47:02",
           "excerpt": "はじめに 「EC2 で動いていた仮想マシン 2 台を EKS に移行する。じゃあコンテナ（Pod）は何個にすればいいのか？」 この問いに対する答えは 「2 個ではない」 だ。…"
-        },
-        {
-          "title": "ALBログの新機能「CloudWatch Logs統合」でS3配信のコストを確認してみた",
-          "link": "https://dev.classmethod.jp/articles/alb-vended-logs-s3-cost/",
-          "source": "DevelopersIO",
-          "published": "2026-07-27T13:04:23",
-          "excerpt": "ALBログのCloudWatch Logs統合で、ヘルスチェックログをJSON・plain・Parquet形式でS3へ配信しました。…"
-        },
-        {
-          "title": "Expoのプッシュ通知を送る同期curlループを、AWS Lambdaの非同期invokeに変えてPHP側の待ち時間を短縮した",
-          "link": "https://zenn.dev/peipei/articles/828dee39f060f3",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-27T11:17:26",
-          "excerpt": "はじめに スマートフォンアプリへのプッシュ通知の送信処理を、踏み台サーバーを経由する同期的なcurlループから、AWS Lambdaへの非同期invokeに切り替えた事例を共有します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。1.はじめに 最近、業務でバックアップについて改めて検討するタイミングがあり、これを機に自分の中でバックアップ設計に対する考え方を一度煮詰めてみようと思い、この記事を書いています。…",
+      "summary": "セキュリティの新着が13件。WebCrypto APIを使い、マスターパスワードベースのAES-256-GCM暗号化をブラウザ内で実装しました。PBKDF2による鍵導出、暗号化・復号の実装、信頼モデルの考察までを解説します。",
       "articles": [
+        {
+          "title": "WebCrypto APIでブラウザ内クレデンシャル暗号化を実装する — AES-256-GCM + PBKDF2の実践",
+          "link": "https://dev.classmethod.jp/articles/webcrypto-aes-gcm-credential-encryption-browser/",
+          "source": "DevelopersIO",
+          "published": "2026-07-27T16:00:23",
+          "excerpt": "WebCrypto APIを使い、マスターパスワードベースのAES-256-GCM暗号化をブラウザ内で実装しました。PBKDF2による鍵導出、暗号化・復号の実装、信頼モデルの考察までを解説します。"
+        },
         {
           "title": "クラウドで考えるバックアップ設計 〜セキュリティ・可用性・データ整合性を両立する〜（AWSを例に）",
           "link": "https://qiita.com/fkglab/items/49483fdc7e25f49df581",
@@ -99,13 +106,6 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-07-27T03:57:52",
           "excerpt": "Amazon GuardDuty 調査エージェントのパブリックプレビューを発表しました。AI を活用してセキュリティ検出結果の調査を自動化し、調査時間を数時間から数分に短縮します。…"
-        },
-        {
-          "title": "Security Hub が AI ワークロード保護と Microsoft Azure 対応のマルチクラウドサポートを追加",
-          "link": "https://aws.amazon.com/jp/blogs/news/security-hub-adds-ai-workload-protection-and-multicloud-support-for-microsoft-azure/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-27T03:53:57",
-          "excerpt": "AWS Security Hub の 2 つの大きな拡張を発表します。マルチクラウドセキュリティ管理の対象を Microsoft Azure に拡大し、Azure の検出結果を AWS と統合して優先順位付けできるようになりました。…"
         }
       ]
     },
@@ -175,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "SaaSにおけるUI開発のよくある課題とその解決方法、教えます［PR］",
-      "link": "https://www.publickey1.jp/blog/26/saasuipr.html",
-      "source": "Publickey",
-      "published": "2026-07-27T15:43:49",
-      "excerpt": ".jetform-wrapper { border: 2px solid #ccc; /* 枠線 / padding: 20px; / 内側の余白 / border-radius: 12p..."
+      "title": "UpCodes (YC S17) は建物の価格を安くするためにリモート AE を雇用しています",
+      "link": "https://up.codes/careers?utm_source=HN",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-27T17:02:41",
+      "excerpt": "記事の URL: https://up.codes/careers?utm_source=HN コメント URL: https://news.ycombinator.com/item?id=49072523 ポイント: 0 コメント数: 0"
     },
     {
-      "title": "Vercel、TypeScriptをC言語に変換してからネイティブな実行ファイルにコンパイルする「scriptc」、オープンソースで公開",
-      "link": "https://www.publickey1.jp/blog/26/verceltypescriptcscriptc.html",
-      "source": "Publickey",
-      "published": "2026-07-27T15:20:00",
-      "excerpt": "Webアプリケーションのホスティングサービス「Vercel」で知られるVercel社は、Node.…"
+      "title": "Amazon Quick Sight の非プロロールでも使えるダッシュボード Q&A 機能を有効化してみた",
+      "link": "https://dev.classmethod.jp/articles/quick-dashboardqanda-legacytopic/",
+      "source": "DevelopersIO",
+      "published": "2026-07-27T16:54:20",
+      "excerpt": "Amazon QuickSightで非プロユーザーの閲覧者にもデータQ A機能を提供する方法を調べてみました。レガシートピックのリンクが必要など、実装時の注意点をまとめて紹介します。"
     },
     {
-      "title": "AWSの公式オンラインワークショップ、無料のAWSサンドボックス環境を提供開始。学習用にAWSのサービスやコード実行など利用可能に",
-      "link": "https://www.publickey1.jp/blog/26/awsawsaws.html",
-      "source": "Publickey",
-      "published": "2026-07-27T15:15:59",
-      "excerpt": "Amazon Web Services（AWS）は、同社がAWSのオンライン学習教材として提供している「ワークショップ」において、無料でAWSのサービスやコードの実行などを試すことができるサンドボックス環境の提供開始を発表しました。AWS.…"
-    },
-    {
-      "title": "Ilya Sutskever 氏の Safe Superintelligence は Nvidia と提携して AI 研究を拡大",
-      "link": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+      "title": "スレッドユーザーはDM内でMeta AIとチャットできるようになりました",
+      "link": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-27T15:01:50",
-      "excerpt": "2 年間のステルス活動を経て、Safe Superintelligence は次の段階への拡大を準備するため、Nvidia との長期パートナーシップを発表しました。"
+      "published": "2026-07-27T16:45:24",
+      "excerpt": "Metaは月曜日、ThreadsのDM内にMeta AIチャットボットを展開し、ユーザーがAIアシスタントとチャットする方法を提供すると発表した。"
+    },
+    {
+      "title": "i18nライブラリを1回も使わずに、9言語対応のアプリを作った話",
+      "link": "https://qiita.com/yama3133/items/806a5b5e25ffdca73273",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-27T16:39:01",
+      "excerpt": "本記事は試験的に生成AIで出したものを人間の手で修正しています 個人開発のアプリで多言語対応をやる機会がここ最近続いていて、数えてみたら7本くらいになっていました。…"
     }
   ]
 }
