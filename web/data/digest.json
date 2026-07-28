@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-28T20:39:07",
+  "generated_at": "2026-07-28T21:57:00",
   "window_hours": 24,
-  "total": 251,
+  "total": 245,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。成功の秘訣: 適切なセキュリティ業務に適切なモデルを使用すること",
+      "summary": "生成AIの新着が38件。OpenAI の Azure 独占が解消された(今更ですが。…",
       "articles": [
+        {
+          "title": "OpenAI の独占がなくなったことによる、利用クラウド種別の割合への影響",
+          "link": "https://qiita.com/ShinguAkira/items/fb04e65ef707dac3969a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-28T21:48:21",
+          "excerpt": "OpenAI の Azure 独占が解消された(今更ですが。…"
+        },
+        {
+          "title": "OpenAI が Codex Security をオープンソース化したばかり",
+          "link": "https://github.com/openai/codex-security",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-28T20:52:55",
+          "excerpt": "記事の URL: https://github.com/openai/codex-security コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "Microsoft と Wiz のマインドメルド エージェントは 90% 以上のバグをキャッチします",
           "link": "https://www.theregister.com/security/2026/07/28/microsoft-and-wiz-mind-meld-agents-catch-more-than-90-of-bugs/5279914",
@@ -22,28 +36,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-28T17:13:15",
           "excerpt": "記事の URL: https://openai.com/index/scientific-computing-agentic-ai/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "コーディング ツール MCP (v0.2.2):AI チャットまたはエージェントにコードに関する作業を提供します",
-          "link": "https://github.com/xyTom/coding-tools-mcp",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-28T17:04:44",
-          "excerpt": "記事の URL: https://github.com/xyTom/coding-tools-mcp コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "大学教授、AI詐欺師を捕まえろというプロンプトを隠し、人間の本性はほぼ私たちが思っていた通りであることが判明",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/28/college-prof-hides-prompt-to-catch-ai-cheaters-finds-human-nature-is-pretty-much-as-we-thought/5279864",
-          "source": "The Register（英語）",
-          "published": "2026-07-28T16:20:00",
-          "excerpt": "大学教授、AI詐欺師を捕まえろというプロンプトを隠し、人間の本性はほぼ私たちが思っていた通りであることが判明"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。Amazon EKS は、 プロビジョニングされたコントロール プレーン クラスター全体で、 を増やすことでより高速なポッドの自動スケーリングを実現します。href=\"https://kubernetes.…",
+      "summary": "クラウドの新着が20件。S3 Tables で Iceberg V3 の Variant データ型がサポートされました。固定スキーマを定義しなくても JSON をそのままカラムに格納でき、JSONPath 形式のパスで型を指定して取り出せます。…",
       "articles": [
+        {
+          "title": "S3 Tables の新機能 「Variant データ型」を EMR Serverless で試してみた",
+          "link": "https://dev.classmethod.jp/articles/s3-tables-variant-type-emr-serverless/",
+          "source": "DevelopersIO",
+          "published": "2026-07-28T20:41:45",
+          "excerpt": "S3 Tables で Iceberg V3 の Variant データ型がサポートされました。固定スキーマを定義しなくても JSON をそのままカラムに格納でき、JSONPath 形式のパスで型を指定して取り出せます。…"
+        },
         {
           "title": "Amazon EKS プロビジョニングされたコントロールプレーンは、より高速なポッド自動スケーリングを提供するようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-provisioned-control/",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-28T11:29:43",
           "excerpt": "【AWS解説 S3編 #1】S3とは？…"
-        },
-        {
-          "title": "【AWS Lambda】15分の実行時間制限を突破。Lambdaが自身を再実行して長時間処理を継続する方法【個人開発】",
-          "link": "https://zenn.dev/koenokakaku/articles/de0627c33cf077",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-28T09:53:16",
-          "excerpt": "はじめに 先日、DLsiteの音声作品について、現在価格やセール状況を確認できるサイト「声の価格」を公開しました。https://koenokakaku.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。記事の URL: https://www.anthropic.com/research/discovering-cryptographic-weaknesses コメント URL: https://news.ycombinator.…",
+      "summary": "セキュリティの新着が17件。記事の URL: https://github.com/openai/codex-security コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "OpenAI が Codex Security をオープンソース化したばかり",
+          "link": "https://github.com/openai/codex-security",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-28T20:52:55",
+          "excerpt": "記事の URL: https://github.com/openai/codex-security コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "クロードと一緒に暗号の弱点を発見する",
           "link": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
@@ -99,21 +106,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-07-28T15:02:44",
           "excerpt": "はじめに 先日 AWS Summit 2026 に参加してきました。そこで CloudShell 上から Kiro CLI を使い、実際に発生している障害を特定→解消させるといった手法が紹介されていました。…"
-        },
-        {
-          "title": "慈善銀行、セキュリティ上の懸念からオンラインサービスを中止",
-          "link": "https://www.theregister.com/security/2026/07/28/bank-for-charities-pulls-online-services-over-security-fears/5279615",
-          "source": "The Register（英語）",
-          "published": "2026-07-28T13:53:13",
-          "excerpt": "顧客の資金は安全ですが、14,000 の組織は時間制限のある支払いを電話で行う必要がある可能性があります"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。運動部と非運動部の生徒の体力テストを例に、母平均に差があるかどうかをベイズ統計により検定します。古典的なt検定のp値に代わるものとしてベイズ因子を利用します。『社会人1年生から学ぶやさしいデータ分析』ベイズ統計編の第6回です。",
+      "summary": "データ分析の新着が8件。S3 Tables で Iceberg V3 の Variant データ型がサポートされました。固定スキーマを定義しなくても JSON をそのままカラムに格納でき、JSONPath 形式のパスで型を指定して取り出せます。…",
       "articles": [
+        {
+          "title": "S3 Tables の新機能 「Variant データ型」を EMR Serverless で試してみた",
+          "link": "https://dev.classmethod.jp/articles/s3-tables-variant-type-emr-serverless/",
+          "source": "DevelopersIO",
+          "published": "2026-07-28T20:41:45",
+          "excerpt": "S3 Tables で Iceberg V3 の Variant データ型がサポートされました。固定スキーマを定義しなくても JSON をそのままカラムに格納でき、JSONPath 形式のパスで型を指定して取り出せます。…"
+        },
         {
           "title": "【Pythonで学ぶデータ分析】母平均に差があるかどうかをベイズt検定で調べる ～ 運動部と非運動部の体力差はあるのか？",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/29/news007.html",
@@ -134,13 +141,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-28T10:43:29",
           "excerpt": "はじめに こんにちは。タクシです。最近は新機能のデザインもしつつ、既存機能・画面のUI/UX改善を行うことも増えてきました。機能によっては、より複雑で多様な操作フローが発生する中で、使いやすいUIにするために検討・リサーチを続けています。…"
-        },
-        {
-          "title": "QuickSight の行レベルセキュリティ(RLS)とは",
-          "link": "https://qiita.com/tamabe/items/4d7eb794718522015e42",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-28T10:27:02",
-          "excerpt": "QuickSight の行レベルセキュリティ(RLS)を、概要レベルで整理します。扱うのは「RLS が何をする仕組みで、いつ検討するか」の見当がつくところまでで、実際の設定やチューニングには踏み込みません。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "サム・アルトマンは減速する準備ができている",
-      "link": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/",
+      "title": "ボット検出スタートアップ Spur が Insight から 2 億ドルを獲得",
+      "link": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-28T20:17:08",
-      "excerpt": "同氏の立場の変更は、「私が非常に直感的に感じた最初のセキュリティ事件」の後に起こった。"
+      "published": "2026-07-28T21:29:34",
+      "excerpt": "Spur Intelligence は、ボットからの正規の人間トラフィックを識別できる技術に対して、Insight Partners から 2 億ドルを調達しました。"
     },
     {
-      "title": "AIで「コード多重債務者」の世界線へ――新卒エンジニアが実務でボコされて学んだ、4つの挫折と生存戦略",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/17/news014.html",
-      "source": "@IT",
-      "published": "2026-07-28T20:00:00",
-      "excerpt": "学生時代に「エンジニアリング完全に理解した」と有頂天だった新卒エンジニアが、実務の過酷な壁に直面。…"
-    },
-    {
-      "title": "メインフレームに眠る「年代物のCOBOLコード」、AIでも苦戦する\"読みにくさ\"の正体",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/29/news017.html",
-      "source": "@IT",
-      "published": "2026-07-28T20:00:00",
-      "excerpt": "複数の国産メインフレームベンダーが撤退方針を明らかにする中で、レガシーシステムの刷新は喫緊の課題だ。一方ではAIエージェントの存在がモダナイズの在り方にも影響を及ぼし始めている。40年物のシステムにどう向き合うべきか。…"
-    },
-    {
-      "title": "Hulios: eBPF を搭載した Linux 用の透過的な Tor ゲートウェイ",
-      "link": "https://github.com/ghaziwali/Hulios",
+      "title": "Half-Life が Mac OS 9 に移植",
+      "link": "https://mac-classic.com/news/half-life-ported-to-mac-os-9/",
       "source": "Hacker News（英語）",
-      "published": "2026-07-28T19:54:38",
-      "excerpt": "記事の URL: https://github.com/ghaziwali/Hulios コメント URL: https://news.ycombinator.com/item?id=49089045 ポイント: 5 コメント数: 0"
+      "published": "2026-07-28T20:58:39",
+      "excerpt": "記事の URL: https://mac-classic.com/news/half-life-ported-to-mac-os-9/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "MCPの新興企業Runlayerがリップリング社の製品アイデアを盗んだと非難",
+      "link": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-28T20:45:12",
+      "excerpt": "RipplingがスタートアップのMCPゲートウェイ製品を評価し、自社で製品を構築することを選択したことを受け、RunlayerはRippedを訴えている。"
+    },
+    {
+      "title": "再帰はあなたに嘘をついています",
+      "link": "https://blog.gaborkoos.com/posts/2026-05-09-Your-Recursion-Is-Lying-to-You/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-28T20:20:51",
+      "excerpt": "記事の URL: https://blog.gaborkoos.com/posts/2026-05-09-Your-Recursion-Is-Lying-to-You/ コメント URL: https://news.ycombinator.…"
     }
   ]
 }
