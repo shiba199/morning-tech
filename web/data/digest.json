@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-29T18:53:32",
+  "generated_at": "2026-07-29T20:07:08",
   "window_hours": 24,
-  "total": 237,
+  "total": 236,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が49件。記事の URL: https://render.com/blog/infrastructor-patterns-for-agentic-applications コメント URL: https://news.ycombinator.…",
+      "summary": "生成AIの新着が49件。記事の URL: https://newsletter.posthog.com/p/agent-autonomy コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "エージェントにどれだけ委任できますか?",
+          "link": "https://newsletter.posthog.com/p/agent-autonomy",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-29T19:07:13",
+          "excerpt": "記事の URL: https://newsletter.posthog.com/p/agent-autonomy コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "エージェントアプリケーションのインフラストラクチャパターン",
           "link": "https://render.com/blog/infrastructure-patterns-for-agentic-applications",
@@ -29,13 +36,6 @@
           "source": "Ars Technica（英語）",
           "published": "2026-07-29T15:52:48",
           "excerpt": "Microsoft は、ハッカーに発見される前にエクスプロイトにパッチを適用するために、舞台裏で猛ダッシュを行っています。"
-        },
-        {
-          "title": "MinIO は、完了すべき作業があるエージェントに永続メモリを売り込みます",
-          "link": "https://www.theregister.com/storage/2026/07/29/minio-pitches-persistent-memory-for-agents-with-work-to-finish/5280407",
-          "source": "The Register（英語）",
-          "published": "2026-07-29T15:15:00",
-          "excerpt": "AIStor はコンテキスト、ファイル、シークレットを顧客の管理下に置くため、中断されたジョブを中断したところから再開できます。"
         }
       ]
     },
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。記事の URL: https://blog.cryptographyengineering.…",
+      "summary": "セキュリティの新着が19件。記事の URL: https://blog.cryptographyengineering.…",
       "articles": [
         {
           "title": "Anthropic の新しい暗号解析結果に関するいくつかの考え",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。概要 従来のTerraformにおいて、AWS S3をバックエンドとして状態（terraform.tfstate）を管理する際、排他ロック（State Locking）機能を実現するためにはDynamoDBテーブルの作成が必須でした。…",
+      "summary": "データ分析の新着が2件。概要 従来のTerraformにおいて、AWS S3をバックエンドとして状態（terraform.tfstate）を管理する際、排他ロック（State Locking）機能を実現するためにはDynamoDBテーブルの作成が必須でした。…",
       "articles": [
         {
           "title": "Terraform 1.10以降でDynamoDBを使わずにS3のみでState排他ロック管理を行う方法",
@@ -127,13 +127,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-28T20:41:45",
           "excerpt": "S3 Tables で Iceberg V3 の Variant データ型がサポートされました。固定スキーマを定義しなくても JSON をそのままカラムに格納でき、JSONPath 形式のパスで型を指定して取り出せます。…"
-        },
-        {
-          "title": "【Pythonで学ぶデータ分析】母平均に差があるかどうかをベイズt検定で調べる ～ 運動部と非運動部の体力差はあるのか？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/29/news007.html",
-          "source": "@IT",
-          "published": "2026-07-28T20:00:00",
-          "excerpt": "運動部と非運動部の生徒の体力テストを例に、母平均に差があるかどうかをベイズ統計により検定します。古典的なt検定のp値に代わるものとしてベイズ因子を利用します。『社会人1年生から学ぶやさしいデータ分析』ベイズ統計編の第6回です。"
         }
       ]
     },
@@ -175,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "クロード・オーパス5は、自動販売機の運営を任されたとき、まったく冷酷になった",
-      "link": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/",
+      "title": "クロード・イズ・ダウン",
+      "link": "https://status.claude.com/incidents/q2kg8n613kr3",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-29T19:50:42",
+      "excerpt": "記事の URL: https://status.claude.com/incidents/q2kg8n613kr3 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "ますます熱心になるクマの比喩を通して語られる、Hugging Face AI 侵入",
+      "link": "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-29T18:45:27",
-      "excerpt": "Andon Labs の最新の自動販売機シミュレーションは、Opus 5 が史上最高の AI 資本家になるために嘘をつき、共謀したことを示しています。"
+      "published": "2026-07-29T19:44:49",
+      "excerpt": "全体について考える別の方法は、キャンプ場にいるクマを想像することです。（本当に、私たちはそこに行きます。）…"
     },
     {
-      "title": "クローズドモデルはLinuxのバグを解決する研究者への協力を拒否",
-      "link": "https://www.theregister.com/ai-and-ml/2026/07/29/closed-models-refuse-to-help-researcher-swat-linux-bug/5280647",
-      "source": "The Register（英語）",
-      "published": "2026-07-29T18:33:16",
-      "excerpt": "「申し訳ありませんが、デイブ。申し訳ありませんが、それはできません」はオープンソースの効果的なセールストークです"
+      "title": "キミ K3-256k",
+      "link": "https://www.kimi.com/code/docs/en/kimi-code/models",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-29T19:25:33",
+      "excerpt": "記事の URL: https://www.kimi.com/code/docs/en/kimi-code/models コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Google が Google Play で年齢確認 API の世界的な展開を開始",
-      "link": "https://arstechnica.com/gadgets/2026/07/google-begins-global-rollout-of-age-verification-api-in-google-play/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-29T18:08:22",
-      "excerpt": "Google の新しい API は、ファミリー リンクでの年齢範囲の設定を保護者に依存しています。"
-    },
-    {
-      "title": "イーロン・マスクのxAIはGrokの計算から抜け出そうとしている",
-      "link": "https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-29T17:58:24",
-      "excerpt": "マスク氏はグロク氏を擁護し、ミネソタ州のヌードアプリ禁止は憲法違反だと主張。"
+      "title": "バルコニーソーラー: 1ワットあたり1.74ドルの直接プラグインソーラー",
+      "link": "https://www.brightsaver.org/balcony-solar-kits",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-29T19:25:17",
+      "excerpt": "記事の URL: https://www.brightsaver.org/balcony-solar-kits コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
