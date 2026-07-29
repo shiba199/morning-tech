@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-29T04:40:15",
+  "generated_at": "2026-07-29T07:36:18",
   "window_hours": 24,
-  "total": 259,
+  "total": 245,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が49件。プロンプトの品質をテンプレートに封じ込め、エンドユーザーにはフォーム入力だけで高品質なAI出力を得られる仕組みを設計しました。…",
+      "summary": "生成AIの新着が44件。はじめに 食べログカンパニー開発本部 技術部 フロントエンド基盤チームの遠藤司樹です。…",
       "articles": [
+        {
+          "title": "使いながら育てる Claude Code ― 開発フローの1コマンド化 × 繰り返し指摘の自動仕組み化 | Tabelog Tech Blog",
+          "link": "https://tech-blog.tabelog.com/entry/react-pipeline-review-digest-claude-code-quality-automation",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-29T05:35:00",
+          "excerpt": "はじめに 食べログカンパニー開発本部 技術部 フロントエンド基盤チームの遠藤司樹です。…"
+        },
+        {
+          "title": "そのAIエージェント、いつから本番を任せますか？——人間と約350件並走させてわかったこと | エムスリーテックブログ",
+          "link": "https://www.m3tech.blog/entry/ai-agent-forward-test",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-29T05:31:59",
+          "excerpt": "定型業務を前捌きするAIエージェント「MOAI」を本番投入するまでの記録。人間と約350件並走する「フォワードテスト」で完全一致率は38%から66%へ。修正の行き先はコードではなく、ほぼ手順書でした。"
+        },
         {
           "title": "テンプレート駆動プロンプトエンジニアリング — 非エンジニアでも高品質なAI出力を得るスキーマ設計",
           "link": "https://dev.classmethod.jp/articles/template-driven-prompt-engineering-schema-design/",
@@ -22,28 +36,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-29T03:52:29",
           "excerpt": "記事の URL: https://transformer-transformer.github.io/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "OpenAIの暴走AIエージェント、別企業のシステムにも不正侵入",
-          "link": "https://www.itmedia.co.jp/news/article/2607/29/2000000267/",
-          "source": "ITmedia NEWS",
-          "published": "2026-07-29T03:47:59",
-          "excerpt": "OpenAIの隔離環境を脱出したAIエージェントが、Hugging Faceへのサイバー攻撃に加え、Modal Labsの顧客システムにも侵入していたことが分かった。"
-        },
-        {
-          "title": "Model Garden 上の Claude を利用した GitHub PRレビュー自動化 | DTダイナミクス テックブログ",
-          "link": "https://techblog.dt-dynamics.com/entry/2026/07/29/120640",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-29T03:06:40",
-          "excerpt": "はじめに こんにちは。DTダイナミクスの張です。普段の業務に加え、社内ではAI Native開発の推進メンバーとして、AIを活用した開発プロセス改善やツール導入の支援も行っています。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。本記事は、BIPROGY / ユニアデックス社内AWSコミュニティ「BIPROGY AWS SPARK」の定期投稿企画第3回目の記事です。他の定期投稿企画の記事は、インデックスページをご覧ください。…",
+      "summary": "クラウドの新着が10件。【AWS移行】ECS/Fargateでアプリ運用・バッチ・DBマイグレーションまで一括解決。…",
       "articles": [
+        {
+          "title": "【AWS移行】ECS/Fargateでアプリ運用・バッチ・DBマイグレーションまで一括解決。開発環境のアーキテクチャ設計まとめ",
+          "link": "https://qiita.com/fuji333/items/ab8e75493cf762ca6ea5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-29T06:25:12",
+          "excerpt": "【AWS移行】ECS/Fargateでアプリ運用・バッチ・DBマイグレーションまで一括解決。…"
+        },
+        {
+          "title": "アクセスパターン分析によるS3ストレージクラスのコスト最適化 | LayerX エンジニアブログ",
+          "link": "https://tech.layerx.co.jp/entry/2026/07/29/144331",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-29T05:43:31",
+          "excerpt": "こんにちは！バクラク事業部Platform Engineering部SREグループのtaddy( id:sadayoshi_tada )です。…"
+        },
         {
           "title": "オンプレミスからプライベートなAPI Gatewayを呼ぶ ― CognitoのTokenエンドポイントをAPI Gatewayでプロキシする構成",
           "link": "https://qiita.com/ajisawa/items/43dc7431773cab0b76b8",
@@ -57,55 +71,41 @@
           "source": "DevelopersIO",
           "published": "2026-07-28T20:41:45",
           "excerpt": "S3 Tables で Iceberg V3 の Variant データ型がサポートされました。固定スキーマを定義しなくても JSON をそのままカラムに格納でき、JSONPath 形式のパスで型を指定して取り出せます。…"
-        },
-        {
-          "title": "Amazon EKS プロビジョニングされたコントロールプレーンは、より高速なポッド自動スケーリングを提供するようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-provisioned-control/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-28T17:18:00",
-          "excerpt": "Amazon EKS は、 プロビジョニングされたコントロール プレーン クラスター全体で、 を増やすことでより高速なポッドの自動スケーリングを実現します。href=\"https://kubernetes.…"
-        },
-        {
-          "title": "OpenAI エージェントが暴走した後、Hugging Face はインフラストラクチャの 3 分の 1 を再構築しました",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/28/openais-agent-siege-forced-significant-rebuild-at-hugging-face/5279577",
-          "source": "The Register（英語）",
-          "published": "2026-07-28T13:11:11",
-          "excerpt": "事後分析は、セキュリティへのアプローチを再構築する「前例のない」攻撃について詳細を明らかにする"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が21件。バージョンアップに伴う認証システムの停止に悩んでいた同志社女子大学。認証システムを見直し、こうした停止を伴う保守作業や、特定の技術者に依存した運用を改善した。どのように実現したのか。",
+      "summary": "セキュリティの新着が22件。Security Hubの新しいOCSFスキーマにおいて、findingの状態遷移を5種類の検出タイプで実地検証し、`status`と`activity_name`がどう変化するのかを明らかにしました。…",
       "articles": [
+        {
+          "title": "Security HubのFindingステータス遷移を検出タイプごとで検証し、通知設計とトリアージ運用に落とし込んでみた",
+          "link": "https://dev.classmethod.jp/articles/security-hub-status-transition-and-operation/",
+          "source": "DevelopersIO",
+          "published": "2026-07-29T07:17:19",
+          "excerpt": "Security Hubの新しいOCSFスキーマにおいて、findingの状態遷移を5種類の検出タイプで実地検証し、`status`と`activity_name`がどう変化するのかを明らかにしました。…"
+        },
+        {
+          "title": "ポケカ直営店に顔認証導入　「同一人物が何度も整理券受け取り・入店」に対策",
+          "link": "https://www.itmedia.co.jp/news/articles/2607/27/news090.html",
+          "source": "ITmedia NEWS",
+          "published": "2026-07-29T06:48:02",
+          "excerpt": "ポケモン社は7月24日、ポケモンカードゲームの直営店「ポケモンカードストア」に顔認証システムを導入すると発表した。小学生以上の来店客が対象で、同一人物の入店と整理券の受け取りは1日1回に制限する。"
+        },
+        {
+          "title": "Vercel、AIモデルによる脆弱性検知ベンチマーク「DeepsecBench」公開",
+          "link": "https://codezine.jp/article/detail/29158",
+          "source": "CodeZine",
+          "published": "2026-07-29T05:30:00",
+          "excerpt": "Vercel、AIモデルによる脆弱性検知ベンチマーク「DeepsecBench」公開"
+        },
         {
           "title": "同志社女子大、「更新のたびに認証システムを止めなきゃならない」をゼロに　何を変えた？",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/29/news048.html",
           "source": "@IT",
           "published": "2026-07-29T04:00:00",
           "excerpt": "バージョンアップに伴う認証システムの停止に悩んでいた同志社女子大学。認証システムを見直し、こうした停止を伴う保守作業や、特定の技術者に依存した運用を改善した。どのように実現したのか。"
-        },
-        {
-          "title": "MCP仕様「2026-07-28」を公開 ——プロトコルをステートレス化、拡張機構や認可も強化",
-          "link": "https://gihyo.jp/article/2026/07/mcp-spec-2026-07-28?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-07-29T01:51:00",
-          "excerpt": "Model Context Protocol（MCP）プロジェクトは2026年7月28日、新仕様「2026-07-28」を公開した。MCPは、AIアプリケーションと外部のツールやデータソースを接続するためのオープンプロトコル。"
-        },
-        {
-          "title": "Cyera、急増する AI エージェントを保護するために Oasis Security を 10 億ドルで買収することに同意",
-          "link": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-29T00:09:05",
-          "excerpt": "この取引はCyeraにとって今年3回目の買収となる。"
-        },
-        {
-          "title": "【AWS Security Agent】カスタムセキュリティ要件の登録に関するクセ強仕様を整理する",
-          "link": "https://qiita.com/Yuki_Yamashita/items/070417fda6b226e93bd8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-29T00:06:11",
-          "excerpt": "はじめに AWS Security Agentでは、設計書レビューやコードレビューの際に、基準となるセキュリティ要件に従ってレビューを行います。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。はじめに こんにちは。DTダイナミクスの張です。普段の業務に加え、社内ではAI Native開発の推進メンバーとして、AIを活用した開発プロセス改善やツール導入の支援も行っています。…",
+      "summary": "開発ツールの新着が11件。GitHub Copilot for JetBrains、OpenTelemetry拡張やモデル管理機能を強化",
       "articles": [
+        {
+          "title": "GitHub Copilot for JetBrains、OpenTelemetry拡張やモデル管理機能を強化",
+          "link": "https://codezine.jp/article/detail/29159",
+          "source": "CodeZine",
+          "published": "2026-07-29T07:00:00",
+          "excerpt": "GitHub Copilot for JetBrains、OpenTelemetry拡張やモデル管理機能を強化"
+        },
         {
           "title": "Model Garden 上の Claude を利用した GitHub PRレビュー自動化 | DTダイナミクス テックブログ",
           "link": "https://techblog.dt-dynamics.com/entry/2026/07/29/120640",
@@ -169,45 +176,38 @@
           "source": "gihyo.jp 開発",
           "published": "2026-07-29T00:02:00",
           "excerpt": "今回はCanonicalがリリースしたWorkshopというツールでサンドボックス環境を構築し、ホスト環境を守りながらコーディングエージェントを動作させる方法を紹介します。"
-        },
-        {
-          "title": "CloudFormation前編｜ステージと本番がズレる理由と、IaCで拾う「設計の地図」（YAML・スタック・疎結合）",
-          "link": "https://qiita.com/s_horikoshi/items/86730f7acc2b1f39ce69",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-28T23:29:47",
-          "excerpt": "はじめに 「昨夜ステージングで通ったのに、本番だけ挙動が違う」 「Excel のパラメータ表と、コンソールの今の設定、どっちが正？」 こうしたつらさの多くは、手作業の再現性とドキュメントの陳腐化から生まれます。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "停電中の自宅を離れる時は「ブレーカー落とす」　消費者庁などが「通電火災」の注意喚起",
-      "link": "https://www.itmedia.co.jp/news/article/2607/29/2000000271/",
-      "source": "ITmedia NEWS",
-      "published": "2026-07-29T04:23:29",
-      "excerpt": "「災害に伴う停電の復旧後、電気製品の損傷や意図しない作動による火災（通電火災）に注意してください」。消費者庁などが「通電火災」の注意喚起している。"
+      "title": "【AWS】Step Functions × Sysprepで実現する「元環境を壊さない」Windows AMI自動生成パイプラインの構築",
+      "link": "https://qiita.com/fromimai/items/19404841c0d4d58f244d",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-29T06:56:34",
+      "excerpt": "概要 運用環境の Windows EC2 インスタンスから定期的に最新のゴールデン AMI（マスターイメージ）を作成し、Auto Scaling 用の起動テンプレート（Launch Template） を更新する運用、手動でやると結構手間で…"
     },
     {
-      "title": "横にスクロールできるテーブルの見出し固定 | Cybozu Inside Out | サイボウズエンジニアのブログ",
-      "link": "https://blog.cybozu.io/entry/2026/07/29/130254",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-29T04:02:54",
-      "excerpt": "この記事は、CYBOZU SUMMER BLOG FES '26の記事です。こんにちは、フロントエンドエンジニアのmehm8128です。kintoneには、レコードの一覧を表示するテーブルがあります。…"
+      "title": "【開催報告】AWS Summit Japan 2026 〜 流通小売・消費財・飲食業界向けブース",
+      "link": "https://aws.amazon.com/jp/blogs/news/aws-summit-japan-2026-rrcg-report/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-07-29T06:45:02",
+      "excerpt": "こんにちは。流通小売・消費財・飲食業界を担当するソリューションアーキテクトチームです。6 月 25 日（木） […]…"
     },
     {
-      "title": "Google Meet、「ビジュアルスクリーンショット」機能を会議ノートへ追加",
-      "link": "https://codezine.jp/article/detail/29156",
-      "source": "CodeZine",
-      "published": "2026-07-29T04:00:00",
-      "excerpt": "Google Meet、「ビジュアルスクリーンショット」機能を会議ノートへ追加"
+      "title": "【AWS】ポリシー9種類、どれが権限を「与える」側か説明できますか？",
+      "link": "https://qiita.com/ktdatascience/items/dac55523d16b676cf7e6",
+      "source": "Qiita AWSタグ",
+      "published": "2026-07-29T06:42:45",
+      "excerpt": "はじめに IAMで Access Denied が出たとき、自分はずっと「足りない権限を足す」で解決してきました。エラーに出てきたアクション名をコピーして、ポリシーに追記して、通ったら終わり。それでしばらく困らなかったんです。…"
     },
     {
-      "title": "ネットワークエンジニア、社内SEって実は「稼げる仕事」？　IT職種別の“単価”に明暗",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/29/news055.html",
-      "source": "@IT",
-      "published": "2026-07-29T04:00:00",
-      "excerpt": "ITフリーランスエンジニアの案件・求人サイト「テクフリ」を運営するアイデンティティーが、2026年5月のIT人材市況動向レポートを公表した。IT人材の職種別平均希望単価はどうなっているのか。"
+      "title": "SSEストリーミングにJSON フォールバックを組み合わせる：プロダクションで安定動作させる実装パターン",
+      "link": "https://dev.classmethod.jp/articles/sse-streaming-json-fallback-production-pattern/",
+      "source": "DevelopersIO",
+      "published": "2026-07-29T06:00:17",
+      "excerpt": "SSEストリーミングはプロダクション環境ではプロキシバッファリングや接続断などで壊れやすい。本記事では、SSEを主経路としつつ障害時にJSON APIへ自動フォールバックするパターンを、Next.…"
     }
   ]
 }
