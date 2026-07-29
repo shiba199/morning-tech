@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-29T16:14:43",
+  "generated_at": "2026-07-29T17:45:05",
   "window_hours": 24,
-  "total": 234,
+  "total": 233,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が49件。AIStor はコンテキスト、ファイル、シークレットを顧客の管理下に置くため、中断されたジョブを中断したところから再開できます。",
+      "summary": "生成AIの新着が48件。記事の URL: https://render.com/blog/infrastructor-patterns-for-agentic-applications コメント URL: https://news.ycombinator.…",
       "articles": [
+        {
+          "title": "エージェントアプリケーションのインフラストラクチャパターン",
+          "link": "https://render.com/blog/infrastructure-patterns-for-agentic-applications",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-29T16:59:04",
+          "excerpt": "記事の URL: https://render.com/blog/infrastructor-patterns-for-agentic-applications コメント URL: https://news.ycombinator.…"
+        },
+        {
+          "title": "Anthropic の新しい暗号解析結果に関するいくつかの考え",
+          "link": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-29T16:42:20",
+          "excerpt": "記事の URL: https://blog.cryptographyengineering.…"
+        },
         {
           "title": "MinIO は、完了すべき作業があるエージェントに永続メモリを売り込みます",
           "link": "https://www.theregister.com/storage/2026/07/29/minio-pitches-persistent-memory-for-agents-with-work-to-finish/5280407",
@@ -22,28 +36,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-29T15:05:59",
           "excerpt": "TL;DR 新しいサービスは LLM のナレッジが薄く、存在する機能を「ありません」と否定されることがある MCP サーバーを追加すると改善しますが、効き方には段階があります MCPなし → 機能の存在自体を否定される 横断MCP（AWS…"
-        },
-        {
-          "title": "顔を抱きしめる: フロンティアラボのエージェント侵入の解剖学",
-          "link": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-29T15:01:52",
-          "excerpt": "記事の URL: https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html コメント URL: https://news.…"
-        },
-        {
-          "title": "Encore AI、顧客からの電話から学習する AI エージェントを構築するために 3,000 万ドルを調達",
-          "link": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-29T14:41:06",
-          "excerpt": "このスタートアップは通話、メッセージ、CRM データを分析して効果的な販売テクニックを特定し、AI エージェント向けのプレイブックに変換します。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。クラウドネイティブ関連技術におけるIT業界最大のイベント「KubeCon+CloudNativeCon Japan 2026」が昨日（2026年7月29日）、パシフィコ横浜で開幕しました。…",
+      "summary": "クラウドの新着が14件。記事の URL: https://render.com/blog/infrastructor-patterns-for-agentic-applications コメント URL: https://news.ycombinator.…",
       "articles": [
+        {
+          "title": "エージェントアプリケーションのインフラストラクチャパターン",
+          "link": "https://render.com/blog/infrastructure-patterns-for-agentic-applications",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-29T16:59:04",
+          "excerpt": "記事の URL: https://render.com/blog/infrastructor-patterns-for-agentic-applications コメント URL: https://news.ycombinator.…"
+        },
+        {
+          "title": "Terraform 1.10以降でDynamoDBを使わずにS3のみでState排他ロック管理を行う方法",
+          "link": "https://qiita.com/azamarassy/items/8923aad54394054685c9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-29T16:41:28",
+          "excerpt": "概要 従来のTerraformにおいて、AWS S3をバックエンドとして状態（terraform.tfstate）を管理する際、排他ロック（State Locking）機能を実現するためにはDynamoDBテーブルの作成が必須でした。…"
+        },
         {
           "title": "KubernetesはAIを動かすプラットフォームに。横浜でKubeCon＋CloudNativeCon Japan 2026が開幕",
           "link": "https://www.publickey1.jp/blog/26/kubernetesaikubeconcloudnativecon_japan_2026.html",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-29T13:00:18",
           "excerpt": "システムに障害や遅延が起きた時、原因を調べるために監視・トレーシングの仕組みを入れる。これ自体は当たり前の話ですが、実は監視の入れ方を間違えると「監視を強化したせいでシステムがさらに遅くなる」という本末転倒が起こり得ます。…"
-        },
-        {
-          "title": "RDS for Oracleのダンプ取得〜S3アップロードをシェルスクリプトで実装してみた",
-          "link": "https://dev.classmethod.jp/articles/rds-for-oracle-dump-s3-upload/",
-          "source": "DevelopersIO",
-          "published": "2026-07-29T11:31:08",
-          "excerpt": "RDS for Oracleのダンプファイルを取得してS3にアップロードする方法を、実装例（シェルスクリプト）とともに紹介します。"
-        },
-        {
-          "title": "S3 TablesとLake Formationで詰まりながらログ基盤ハンズオンをやってみた",
-          "link": "https://qiita.com/yuuuka/items/1330624f0248ac0840b3",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-29T10:07:52",
-          "excerpt": "はじめに 7/18にJAWS-UG BigData支部のイベントがあり、参加してきました。Apache IcebergにまつわるLT数個と運営の方が作成されたハンズオンという豪華なラインナップでした。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。GitHub Actions から AWS への OIDC（OpenID Connect）連携を設定中、特定のリポジトリや Pull Request（PR）イベント時のみ認証エラーが発生してハマったため、原因特定の手順と解決法をまとめました…",
+      "summary": "セキュリティの新着が18件。記事の URL: https://blog.cryptographyengineering.…",
       "articles": [
+        {
+          "title": "Anthropic の新しい暗号解析結果に関するいくつかの考え",
+          "link": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-29T16:42:20",
+          "excerpt": "記事の URL: https://blog.cryptographyengineering.…"
+        },
         {
           "title": "【GitHub Actions × AWS OIDC】OIDC認証の信頼ポリシーエラーで詰まった箇所と解決策",
           "link": "https://qiita.com/azamarassy/items/1d758652594b3647c070",
@@ -87,33 +94,33 @@
           "excerpt": "GitHub Actions から AWS への OIDC（OpenID Connect）連携を設定中、特定のリポジトリや Pull Request（PR）イベント時のみ認証エラーが発生してハマったため、原因特定の手順と解決法をまとめました…"
         },
         {
+          "title": "深刻度「緊急」のRails脆弱性「KindaRails2Shell」（CVE-2026-66066）の概要と対応指針 - GMO Flatt Security Blog",
+          "link": "https://blog.flatt.tech/entry/kindarails2shell_rails",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-07-29T15:19:18",
+          "excerpt": "2026年7月29日、認証を必要とせず、リモートからの任意コード実行（RCE）につながり得る脆弱性「CVE-2026-66066」を修正したRuby on Rails 7.2.3.2、8.0.5.1、8.1.3.…"
+        },
+        {
           "title": "Amazon Bedrock AgentCore Gatewayでユーザー委任型認可（3LO）を使い、GitHub・Slack・GoogleカレンダーをAIエージェントにつないでみた",
           "link": "https://dev.classmethod.jp/articles/amazon-bedrock-agentcore-gateway-3lo-github-slack-google-calendar/",
           "source": "DevelopersIO",
           "published": "2026-07-29T10:56:07",
           "excerpt": "Amazon Bedrock AgentCore Gatewayでユーザー委任型認可（3LO）を構成し、AgentCore RuntimeでホストしたAIエージェントからGitHub・Slack・Googleカレンダーを利用できるようにして…"
-        },
-        {
-          "title": "【Databricks】GitLab CI/CDからWorkload Identity Federation (OIDC)で認証してDeclarative Automation Bundlesでジョブをデプロイしてみた",
-          "link": "https://dev.classmethod.jp/articles/databricks-gitlab-cicd-oidc/",
-          "source": "DevelopersIO",
-          "published": "2026-07-29T08:19:33",
-          "excerpt": "GitLab CI/CDのOIDCトークンとDatabricksのWorkload Identity Federationを組み合わせ、認証情報をGitLabに保存せずにジョブをデプロイ・実行する方法を試してみました。"
-        },
-        {
-          "title": "【Security Hub修復手順】[NetworkFirewall.4] Network Firewall ポリシーのデフォルトのステートレスアクションは、完全なパケットに対してドロップまたは転送される必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-networkfirewall-4/",
-          "source": "DevelopersIO",
-          "published": "2026-07-29T07:51:52",
-          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。S3 Tables で Iceberg V3 の Variant データ型がサポートされました。固定スキーマを定義しなくても JSON をそのままカラムに格納でき、JSONPath 形式のパスで型を指定して取り出せます。…",
+      "summary": "データ分析の新着が3件。概要 従来のTerraformにおいて、AWS S3をバックエンドとして状態（terraform.tfstate）を管理する際、排他ロック（State Locking）機能を実現するためにはDynamoDBテーブルの作成が必須でした。…",
       "articles": [
+        {
+          "title": "Terraform 1.10以降でDynamoDBを使わずにS3のみでState排他ロック管理を行う方法",
+          "link": "https://qiita.com/azamarassy/items/8923aad54394054685c9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-29T16:41:28",
+          "excerpt": "概要 従来のTerraformにおいて、AWS S3をバックエンドとして状態（terraform.tfstate）を管理する際、排他ロック（State Locking）機能を実現するためにはDynamoDBテーブルの作成が必須でした。…"
+        },
         {
           "title": "S3 Tables の新機能 「Variant データ型」を EMR Serverless で試してみた",
           "link": "https://dev.classmethod.jp/articles/s3-tables-variant-type-emr-serverless/",
@@ -133,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。GitHub Actions から AWS への OIDC（OpenID Connect）連携を設定中、特定のリポジトリや Pull Request（PR）イベント時のみ認証エラーが発生してハマったため、原因特定の手順と解決法をまとめました…",
+      "summary": "開発ツールの新着が14件。概要 従来のTerraformにおいて、AWS S3をバックエンドとして状態（terraform.tfstate）を管理する際、排他ロック（State Locking）機能を実現するためにはDynamoDBテーブルの作成が必須でした。…",
       "articles": [
+        {
+          "title": "Terraform 1.10以降でDynamoDBを使わずにS3のみでState排他ロック管理を行う方法",
+          "link": "https://qiita.com/azamarassy/items/8923aad54394054685c9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-29T16:41:28",
+          "excerpt": "概要 従来のTerraformにおいて、AWS S3をバックエンドとして状態（terraform.tfstate）を管理する際、排他ロック（State Locking）機能を実現するためにはDynamoDBテーブルの作成が必須でした。…"
+        },
         {
           "title": "【GitHub Actions × AWS OIDC】OIDC認証の信頼ポリシーエラーで詰まった箇所と解決策",
           "link": "https://qiita.com/azamarassy/items/1d758652594b3647c070",
@@ -155,45 +169,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-29T11:09:54",
           "excerpt": "Databricks の Git folders で Git CLI コマンドが直接実行できるようになりました。…"
-        },
-        {
-          "title": "Amazon Bedrock AgentCore Gatewayでユーザー委任型認可（3LO）を使い、GitHub・Slack・GoogleカレンダーをAIエージェントにつないでみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-bedrock-agentcore-gateway-3lo-github-slack-google-calendar/",
-          "source": "DevelopersIO",
-          "published": "2026-07-29T10:56:07",
-          "excerpt": "Amazon Bedrock AgentCore Gatewayでユーザー委任型認可（3LO）を構成し、AgentCore RuntimeでホストしたAIエージェントからGitHub・Slack・Googleカレンダーを利用できるようにして…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "HN を開始: トークンレス (YC S26) – 自動モデル切り替えでコストを節約",
-      "link": "https://usetokenless.com/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-29T15:55:27",
-      "excerpt": "こんにちは、HN です。Tokenless ( https://usetokenless.com/ ) の Rohit です。私は共同創設者の Andrew と Kev と一緒にこのトークンを構築しています。…"
+      "title": "米国政府、国家安全保障へのリスクを理由に、外国製の新しいヒューマノイド、ロボット犬、太陽光発電インバーターを禁止",
+      "link": "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-29T17:41:09",
+      "excerpt": "この禁止措置は、現在人型ロボットや太陽光発電インバータ製造の世界市場を独占している中国からの米国の輸入に大きな影響を与える。"
     },
     {
-      "title": "aws-bench の診断タスクを AWS 利用料ほぼゼロ、Kiro クレジットで試してみた",
-      "link": "https://dev.classmethod.jp/articles/aws-bench-mini-tasks-local-runner/",
+      "title": "[アップデート] Kiro IDE 1.0.242 でエディタの右クリックメニューや Quick Fix から直接 Kiro に依頼できるようになりました",
+      "link": "https://dev.classmethod.jp/articles/kiro-ide-10242-contextmenu/",
       "source": "DevelopersIO",
-      "published": "2026-07-29T15:43:03",
-      "excerpt": "aws-bench を公式手順のまま試すには、AWS Organizations 環境や高額なリソースが必要です。公式データセットから4つの診断タスクを単一アカウントに展開し、AWS 利用料をほぼゼロに抑えました。…"
+      "published": "2026-07-29T17:22:45",
+      "excerpt": "AWS提供のAI コーディングIDE「Kiro IDE」で、エディタのコンテキストメニューやクイックフィックスから直接Kiroに依頼できるようになりました。新機能を試してみたので紹介します。"
     },
     {
-      "title": "イーロン・マスクのX、世界広告主連盟との数年に渡る法廷闘争に決着",
-      "link": "https://techcrunch.com/2026/07/29/elon-musks-x-settles-multiyear-legal-battle-with-the-world-federation-of-advertisers/",
+      "title": "Google、年齢保証テクノロジーを世界中の Android デベロッパーに提供",
+      "link": "https://techcrunch.com/2026/07/29/google-is-rolling-out-its-age-assurance-tech-for-apps-worldwide-by-year-end/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-29T15:36:48",
-      "excerpt": "Xは、マスク氏による440億ドルのソーシャルネットワーク買収を受けて広告収入が減少したことを受け、プラットフォームの「組織的違法ボイコット」と呼ばれるものを行ったとして2024年にWFAを訴えた。"
+      "published": "2026-07-29T17:00:00",
+      "excerpt": "Google は Play Age Signals API を拡張し、Android 開発者にユーザーの年齢層に基づいてエクスペリエンスを調整するプライバシー保護の方法を提供します。"
     },
     {
-      "title": "マーサ・スチュワートが共同設立した新しい AI スタートアップのヒントは、住宅所有者向けの AI アシスタントを提供しています",
-      "link": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-29T15:35:09",
-      "excerpt": "マーサ・スチュワート氏が共同設立した AI 住宅管理スタートアップのヒントは、不動産記録、メンテナンス スケジュール、住宅文書、AI アシスタントを 1 つのアプリに統合する「あなたの家の AI」になることを目指しています。"
+      "title": "ワード ワームが副操縦士に侵入し、混乱を広げる",
+      "link": "https://www.theregister.com/security/2026/07/29/word-worm-crawls-into-copilot-spreads-chaos/5280588",
+      "source": "The Register（英語）",
+      "published": "2026-07-29T16:43:54",
+      "excerpt": "研究者は、Microsoft との数か月にわたる調整ではまだ強力な緩和策が生み出されていないと述べています"
     }
   ]
 }
