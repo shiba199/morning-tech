@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-07-30T03:49:28",
+  "generated_at": "2026-07-30T06:16:45",
   "window_hours": 24,
-  "total": 246,
+  "total": 247,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が52件。バルセロナで開催されたGrafanaCON 2026において、Grafana Labs社はGrafana 13を発表した。…",
+      "summary": "生成AIの新着が52件。はじめにこんにちは！NE株式会社でテックリード室長をしています、谷口です。少し前の話になりますが、社内でClaude Codeのオンボーディング会を開催したので、今回はそのレポートです！…",
       "articles": [
         {
-          "title": "Grafana社は、Kafkaを用いてLokiを再設計し、コーディングエージェントにオブザーバビリティをもたらすCLIをリリース",
-          "link": "https://www.infoq.com/jp/news/2026/07/grafana-loki-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-07-30T03:30:00",
-          "excerpt": "バルセロナで開催されたGrafanaCON 2026において、Grafana Labs社はGrafana 13を発表した。…"
-        },
-        {
-          "title": "Kuna: コーディング エージェント時代のデコンパイラー開発",
-          "link": "https://noelo.org/blog/kuna-release/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-30T02:41:16",
-          "excerpt": "記事の URL: https://noelo.org/blog/kuna-release/ コメント URL: https://news.ycombinator.com/item?id=49105563 ポイント: 6 コメント数: 0"
-        },
-        {
-          "title": "広告の”効きやすさ”に着目して、RSA広告の効果予測を改善する | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-          "link": "https://developers.cyberagent.co.jp/blog/archives/65071/",
+          "title": "社内でClaude Code オンボーディング会を開催しました！ | NE株式会社の開発ブログのフィード",
+          "link": "https://zenn.dev/neinc_tech/articles/527266b2a6f88a",
           "source": "企業テックブログまとめ",
-          "published": "2026-07-30T02:12:39",
-          "excerpt": "こんにちは。東京科学大学 修士一年の一瀬達矢です。AI事業本部 極TD事業部で202 ...…"
+          "published": "2026-07-30T05:46:26",
+          "excerpt": "はじめにこんにちは！NE株式会社でテックリード室長をしています、谷口です。少し前の話になりますが、社内でClaude Codeのオンボーディング会を開催したので、今回はそのレポートです！…"
         },
         {
-          "title": "Unitree Go2とG1を活用したロボット目視検査エージェント：処理速度の最適化とG1カメラ互換性検証によるPoCの完結",
-          "link": "https://dev.classmethod.jp/articles/robot_inspection_agent_final/",
+          "title": "JetBrains、AIエージェント向けリポジトリ知能レイヤー「JetBrains Context」発表",
+          "link": "https://codezine.jp/article/detail/29172",
+          "source": "CodeZine",
+          "published": "2026-07-30T05:30:00",
+          "excerpt": "JetBrains、AIエージェント向けリポジトリ知能レイヤー「JetBrains Context」発表"
+        },
+        {
+          "title": "「AIのプロンプトの正解って何？」を解消したくて、いつでも誰でも受けられるハンズオン講座サイトを作ってみた",
+          "link": "https://dev.classmethod.jp/articles/ai_prompt_handson_site/",
           "source": "DevelopersIO",
-          "published": "2026-07-30T02:10:00",
-          "excerpt": "Final progress of the Robot Visual Inspection Agent project!"
+          "published": "2026-07-30T05:25:35",
+          "excerpt": "AIの活用が必須スキルになる中、「何が正解か分からない」というモヤモヤを抱えるチームメンバーのために実施したセミナーをWebサイト化しました。…"
+        },
+        {
+          "title": "Claude Codeと1日で作るリアルタイム音声AI ― $5から始めてRAG・認証・Terraformまで",
+          "link": "https://zenn.dev/halhalhal1/articles/realtime-voice-ai-one-day-build",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-30T03:47:41",
+          "excerpt": "「ブラウザからPush-to-Talkで話しかけたら、AIがリアルタイムに声で返してくる」——そんなアプリを、Claude Codeと一緒に1日で作った。予算はOpenAIの無料クレジット**$5**。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。はじめに 「S3のバケット名はグローバルで一意にしないといけない」——AWSを触り始めた頃、誰もが一度は聞かされる話です。私もずっと「全世界で一意」と丸暗記していたのですが、先日ふと「全世界って、本当に地球全体なのか？…",
+      "summary": "クラウドの新着が23件。TL;DR cliコマンドで、 s3 cpなら403としか出ないが、 s3api get-objectで、 IAMの権限不足なら no identity-based policy allows the s3:GetObject action…",
       "articles": [
+        {
+          "title": "【cli】s3 cpではなく、s3api get-objectをすると403エラーの原因をつかみやすい",
+          "link": "https://qiita.com/alwaysdwysd/items/8a1c6ca58c0a426627cc",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-30T04:23:54",
+          "excerpt": "TL;DR cliコマンドで、 s3 cpなら403としか出ないが、 s3api get-objectで、 IAMの権限不足なら no identity-based policy allows the s3:GetObject action…"
+        },
+        {
+          "title": "READMEの問い合わせ窓口をS3で公開する：GitHub ActionsからAWSアクセスキーをなくす",
+          "link": "https://qiita.com/susie000720/items/7adfd35f1c81c9bc8570",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-30T04:10:59",
+          "excerpt": "個人開発の問い合わせ窓口は、静的HTMLを1枚置くだけでも作れます。ところが、その1枚を自動デプロイするために長期間有効なAWSアクセスキーをGitHubへ登録すると、窓口より重い認証情報を抱えることになります。…"
+        },
         {
           "title": "S3バケット名は本当に「全世界で一意」なのか？調べたら2026年に常識が変わっていた",
           "link": "https://qiita.com/ktdatascience/items/8723b8621849ceb16fe1",
@@ -57,28 +71,28 @@
           "source": "CodeZine",
           "published": "2026-07-30T01:00:00",
           "excerpt": "「ロードマップに載せた機能は予定どおり出ている。それなのに、コミュニティは盛り上がらない」。作ることは価値を生むための手段でしかないと誰もが知りながら、組織ではいつのまにかアウトプットそのものが成果になってしまう。…"
-        },
-        {
-          "title": "リプレイ機能付きオセロを作って、AWS（EC2/RDS）にデプロイしてみた",
-          "link": "https://qiita.com/KyosukeTakahagi/items/aae3889fb1dacf6892c8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-30T00:47:36",
-          "excerpt": "本記事は、BIPROGY / ユニアデックス社内AWSコミュニティ「BIPROGY AWS SPARK」の定期投稿企画第4回目の記事です。他の定期投稿企画の記事は、インデックスページをご覧ください。…"
-        },
-        {
-          "title": "形式的検証済みの Nitro Isolation Engine が Amazon EC2 の仮想マシン分離を数学的に保証",
-          "link": "https://aws.amazon.com/jp/blogs/news/ec2s-formally-verified-isolation-engine-provides-mathematical-assurance-of-virtual-machine-isolation/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-07-30T00:46:18",
-          "excerpt": "Amazon EC2 の新しい M9g/M9gd インスタンスとともに一般提供が始まった Nitro Isolation Engine は、商用クラウド環境にデプロイされた初の形式的検証済みハイパーバイザーの重要なコンポーネントで、その唯一…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。記事の URL: https://waveformsecurity.com/blog/flume/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が17件。SvelteKitをNode adapterでデプロイし、UI・API・SSEストリーミング・Playwright認証・SQLiteデータベース・国際化を１プロジェクトに統合して社内AIツールを構築した実体験をまとめます。",
       "articles": [
+        {
+          "title": "SvelteKitで社内AIツールをフルスタック構築した所感 — SSE・Playwright・暗号化を1フレームワークに収める",
+          "link": "https://dev.classmethod.jp/articles/sveltekit-fullstack-enterprise-internal-tool/",
+          "source": "DevelopersIO",
+          "published": "2026-07-30T04:00:20",
+          "excerpt": "SvelteKitをNode adapterでデプロイし、UI・API・SSEストリーミング・Playwright認証・SQLiteデータベース・国際化を１プロジェクトに統合して社内AIツールを構築した実体験をまとめます。"
+        },
+        {
+          "title": "Claude Codeと1日で作るリアルタイム音声AI ― $5から始めてRAG・認証・Terraformまで",
+          "link": "https://zenn.dev/halhalhal1/articles/realtime-voice-ai-one-day-build",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-30T03:47:41",
+          "excerpt": "「ブラウザからPush-to-Talkで話しかけたら、AIがリアルタイムに声で返してくる」——そんなアプリを、Claude Codeと一緒に1日で作った。予算はOpenAIの無料クレジット**$5**。…"
+        },
         {
           "title": "Flume 水モニター 915 MHz のセキュリティはかなり優れています",
           "link": "https://waveformsecurity.com/blog/flume/",
@@ -92,20 +106,6 @@
           "source": "@IT",
           "published": "2026-07-30T01:00:00",
           "excerpt": "APIはWebサービスや生成AIアプリケーションを支える重要な基盤だ。「IETF」がHTTP新メソッド「QUERY」を標準化プロセスへ進めるなど、API設計は変化しつつある。一方で、攻撃への備えも欠かせない。…"
-        },
-        {
-          "title": "OpenAI、Codex SecurityのCLIをオープンソースとして公開",
-          "link": "https://gihyo.jp/article/2026/07/open-source-codex-security-cli?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-07-30T00:54:00",
-          "excerpt": "OpenAIは2026年7月29日、アプリケーションの脆弱性の検出・修正を支援する「Codex Security」のCLIをオープンソース化したと発表した。"
-        },
-        {
-          "title": "TechCrunch Disrupt 2026 で、SaaS からエージェントのセキュリティギャップまで、AI の次なる未来を発見しましょう。",
-          "link": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-29T21:16:39",
-          "excerpt": "TechCrunch Disrupt 2026 では、AI Stage が戻ってきて、Google for Startups が提示した、ここ数年コミュニティで最もホットなトピックを掘り下げます。"
         }
       ]
     },
@@ -147,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が24件。要旨 「開発委託先が誤ってソースコードをパブリックリポジトリに公開してしまった。そのコードにはデータベースのアクセスキーが含まれていた」——これはトヨタのT-Connect事案（2022年）の概要です。…",
+      "summary": "開発ツールの新着が28件。目次 はじめに 1.Git とは何ですか?2.Git が重要な理由 3.Git と GitHub 4.Git のインストール方法 5.最初の Git セットアップ 6.Git ワークフローについて 7.初心者向け Git コマンド 8.…",
       "articles": [
         {
-          "title": "トヨタ関連会社やCircleCIの事例から考える。GitHub経由での「アクセスキー流出」と、AWS OIDCによる完全脱却手順",
-          "link": "https://qiita.com/suzukengo/items/0694f3d905b8ce0b3b6c",
+          "title": "初心者、中級レベル、プロのエンジニアのための完全な Git ガイド |ゼネットテックブログ",
+          "link": "https://media.zenet-web.co.jp/entry/2026/07/30/132419",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-30T04:24:19",
+          "excerpt": "目次 はじめに 1.Git とは何ですか?2.Git が重要な理由 3.Git と GitHub 4.Git のインストール方法 5.最初の Git セットアップ 6.Git ワークフローについて 7.初心者向け Git コマンド 8.…"
+        },
+        {
+          "title": "【cli】s3 cpではなく、s3api get-objectをすると403エラーの原因をつかみやすい",
+          "link": "https://qiita.com/alwaysdwysd/items/8a1c6ca58c0a426627cc",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-30T03:44:42",
-          "excerpt": "要旨 「開発委託先が誤ってソースコードをパブリックリポジトリに公開してしまった。そのコードにはデータベースのアクセスキーが含まれていた」——これはトヨタのT-Connect事案（2022年）の概要です。…"
+          "published": "2026-07-30T04:23:54",
+          "excerpt": "TL;DR cliコマンドで、 s3 cpなら403としか出ないが、 s3api get-objectで、 IAMの権限不足なら no identity-based policy allows the s3:GetObject action…"
         },
         {
-          "title": "Grafana社は、Kafkaを用いてLokiを再設計し、コーディングエージェントにオブザーバビリティをもたらすCLIをリリース",
-          "link": "https://www.infoq.com/jp/news/2026/07/grafana-loki-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-07-30T03:30:00",
-          "excerpt": "バルセロナで開催されたGrafanaCON 2026において、Grafana Labs社はGrafana 13を発表した。…"
-        },
-        {
-          "title": "【Terraform】モジュールをお気軽にテストしたい",
-          "link": "https://qiita.com/masa2223/items/fc83f7a3d1534301bb87",
+          "title": "READMEの問い合わせ窓口をS3で公開する：GitHub ActionsからAWSアクセスキーをなくす",
+          "link": "https://qiita.com/susie000720/items/7adfd35f1c81c9bc8570",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-30T02:08:39",
-          "excerpt": "はじめに Terraformでモジュールを作成後、動作検証するのは重要です。Terraform v1.6.0から標準で追加されたテストフレームワークを使うと、手軽にテストが実施できます。…"
+          "published": "2026-07-30T04:10:59",
+          "excerpt": "個人開発の問い合わせ窓口は、静的HTMLを1枚置くだけでも作れます。ところが、その1枚を自動デプロイするために長期間有効なAWSアクセスキーをGitHubへ登録すると、窓口より重い認証情報を抱えることになります。…"
         },
         {
-          "title": "オープンソースのWebアプリデプロイ基盤「OpenShip」にコマンドライン版「OpenShip CLI」が登場",
-          "link": "https://gihyo.jp/article/2026/07/openship-cli?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-07-30T01:34:00",
-          "excerpt": "Oblien LLCは2026年7月28日、同社が提供するWebアプリケーションデプロイメントプラットフォーム「OpenShip」に、コマンドラインから実行できる「OpenShip CLI」の機能が追加されたことを発表した。"
+          "title": "Claude Codeと1日で作るリアルタイム音声AI ― $5から始めてRAG・認証・Terraformまで",
+          "link": "https://zenn.dev/halhalhal1/articles/realtime-voice-ai-one-day-build",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-30T03:47:41",
+          "excerpt": "「ブラウザからPush-to-Talkで話しかけたら、AIがリアルタイムに声で返してくる」——そんなアプリを、Claude Codeと一緒に1日で作った。予算はOpenAIの無料クレジット**$5**。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS初心者がCIDRとビットについて整理してみた話",
-      "link": "https://qiita.com/tks_1128/items/833450c8f16abf47af61",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-30T03:23:59",
-      "excerpt": "はじめに こんにちは。Tsukasaです！皆さんはCIDRとかビットはご存じでしょうか？聞いたことはあるけど、何なのかはよくわからないなんて方も多いのではないのでしょうか。…"
+      "title": "30ステージのパイプラインを「どこで落ちても再開できる」設計にした話",
+      "link": "https://dev.classmethod.jp/articles/typescript-multi-stage-pipeline-design/",
+      "source": "DevelopersIO",
+      "published": "2026-07-30T06:00:11",
+      "excerpt": "約30ステージの業務自動化パイプラインを「どこで落ちても再開できる」設計にした実装パターンを紹介。ステータス駆動の冪等性、二重実行防止、3段階リトライ制御をTypeScript + PocketBaseで実現しました。"
     },
     {
-      "title": "ドコモ、ahamoを30→40GBに増量　8月1日から　料金据え置きの新キャンペーン",
-      "link": "https://www.itmedia.co.jp/news/article/2607/30/2000000291/",
+      "title": "Patch Manager の EventBridge 通知でスキャンとインストールを判別するにはどうすればいいですか",
+      "link": "https://dev.classmethod.jp/articles/tsnote-ssm-patchmanager-eventbridge-maintenance-window-filter/",
+      "source": "DevelopersIO",
+      "published": "2026-07-30T05:46:05",
+      "excerpt": "AWS Patch Manager のスキャンとインストール完了を区別して EventBridge で通知する方法について紹介します。…"
+    },
+    {
+      "title": "イオンモール熊本内部の撮影、国産ドローンが活躍　日本企業2社が自衛隊などと協力",
+      "link": "https://www.itmedia.co.jp/news/article/2607/30/2000000303/",
       "source": "ITmedia NEWS",
-      "published": "2026-07-30T03:20:28",
-      "excerpt": "NTTドコモは7月29日、料金プラン「ahamo」と「ドコモ mini」のデータ容量を増量する「データ増量おためしキャンペーン」を、8月1日から実施すると発表した。料金は据え置いたまま、月間利用可能データ量を増やす。"
+      "published": "2026-07-30T05:45:20",
+      "excerpt": "7月28日に発生した「令和8年熊本地震」に伴うイオンモール熊本での爆発事故を巡り、陸上自衛隊が救助活動の一環として実施した建物内部のドローン撮影で、国産ドローンが使われていることが分かった。"
     },
     {
-      "title": "NSF は業界研究枠で 4 年間の博士号取得を試験的に実施",
-      "link": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-30T02:55:21",
-      "excerpt": "記事の URL: https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four コメント URL: https://news.…"
-    },
-    {
-      "title": "【Nishika 論文サク読み 第19回】GigaSpeechBench | Nishika Tech Blogのフィード",
-      "link": "https://zenn.dev/team_nishika/articles/bf28f03b66f50c",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-30T02:53:54",
-      "excerpt": "論文GigaSpeechBench: A Real-World Multilingual Speech-to-Text Benchmark 目的既存のASRベンチマーク（Common VoiceやFLEURSなど）は朗読音声・クリーンな録音…"
+      "title": "“ダサい”不評の「ドコモの銀行」、従来のアプリアイコン選択可能に　「ご意見・ご要望も踏まえ」",
+      "link": "https://www.itmedia.co.jp/news/article/2607/30/2000000301/",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-30T05:44:35",
+      "excerpt": "新アイコン公開後、SNSで「ダサい」「使いたくない」「視認性が悪い」といった批判が噴出。「住信SBIネット銀行時代のアイコンを残してほしい」という声も相次いでいた。"
     }
   ]
 }
