@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-30T15:29:08",
+  "generated_at": "2026-07-30T16:59:20",
   "window_hours": 24,
-  "total": 242,
+  "total": 248,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が50件。記事の URL: https://deepmind.…",
+      "summary": "生成AIの新着が50件。Strands AgentsのTypeScript版SDKでSteering機能を試してみました！",
       "articles": [
+        {
+          "title": "Strands AgentsのSteering機能をTypeScript版SDKで試してみた",
+          "link": "https://dev.classmethod.jp/articles/strands-agents-steering-typescript/",
+          "source": "DevelopersIO",
+          "published": "2026-07-30T16:27:30",
+          "excerpt": "Strands AgentsのTypeScript版SDKでSteering機能を試してみました！"
+        },
         {
           "title": "Gemini Robotics 2 はロボットに全身知能をもたらします",
           "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
@@ -24,25 +31,18 @@
           "excerpt": "Vercel 上の Next.js アプリから起動した SageMaker Real-time Endpoint を、ブラウザ終了後も自動削除できました。…"
         },
         {
-          "title": "Hugging Face 侵害では、OpenAI のハッカーは騒々しく高速でしたが、止められないわけではありませんでした",
-          "link": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-30T14:48:32",
-          "excerpt": "サイバーセキュリティの専門家らはTechCrunchに対し、Hugging Faceに対するOpenAIのハッキングから得られる最大の教訓の1つはAIとは関係なく、従来のサイバーセキュリティ防御にあると語った。"
-        },
-        {
-          "title": "AWS DevOps Agent スペースに AWS CLI でセカンダリソースのアカウントを追加・削除する",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-secondary-account-add-remove/",
-          "source": "DevelopersIO",
-          "published": "2026-07-30T14:15:01",
-          "excerpt": "AWS DevOps Agent のセカンダリリソースとして AWS アカウントを追加・削除する AWS CLI コマンドを紹介します。"
+          "title": "HN を表示: Claude-account – 再度ログインせずに Claude Code アカウントを切り替えます",
+          "link": "https://github.com/hamzarehmandeveloper/claude-account",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-30T14:58:59",
+          "excerpt": "私は仕事用と個人用のプロジェクトに別々の Claude Code アカウントを使用しています。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が26件。Lambda durable functionsの機能waitForCallbackを使って、Slackの承認ボタン押下まで処理をサスペンドさせる実装に挑戦しました。…",
+      "summary": "クラウドの新着が25件。Lambda durable functionsの機能waitForCallbackを使って、Slackの承認ボタン押下まで処理をサスペンドさせる実装に挑戦しました。…",
       "articles": [
         {
           "title": "Step Functionsを使わずLambda Durable FunctionsでSlackの承認ボタン待ちを実装してみた",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。記事の URL: https://blog.certisfy.com/2026/04/trusted-urls-via-cryptographic.html コメント URL: https://news.ycombinator.…",
+      "summary": "セキュリティの新着が14件。この契約により、企業がクラウド環境全体で AI エージェントやその他の人間以外の ID を保護しようとする中、Okta に ID 脅威検出機能が提供されます。",
       "articles": [
+        {
+          "title": "Okta が AI セキュリティのスタートアップ Permiso を買収。情報筋によると約2億ドル",
+          "link": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-30T16:09:42",
+          "excerpt": "この契約により、企業がクラウド環境全体で AI エージェントやその他の人間以外の ID を保護しようとする中、Okta に ID 脅威検出機能が提供されます。"
+        },
         {
           "title": "暗号署名による信頼できる URL",
           "link": "https://blog.certisfy.com/2026/04/trusted-urls-via-cryptographic.html",
@@ -99,21 +106,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-30T12:32:07",
           "excerpt": "オープンソースのAWSエミュレータFlociの2026年7月の更新をまとめました。1.5.29から1.5.34までの6リリースで、S3とIAMの認可チェックやCloudTrailのS3データイベント記録が入っています。…"
-        },
-        {
-          "title": "最新LLMのセキュリティ評価：富士通のLLM脆弱性スキャナーによるFable 5／GPT-5.6／Takaneの評価 | fltech - 富士通研究所の技術ブログ",
-          "link": "https://blog.fltech.dev/entry/2026/07/30/llm-sec",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-30T10:00:00",
-          "excerpt": "こんにちは、セキュリティサイエンス研究所のAI Agent Security Researchチームです。本記事では、富士通のLLM脆弱性スキャナーを用いて、最新の大規模言語モデルであるFable 5、GPT-5.…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。品質戦略のレイヤーに、QAがいない。PdMやDevには役割を広げていくキャリアパスが見えている。PdMはプロダクト組織のリーダーへ、Devはアーキテクトやテックリードへ。でも、QAの先は確立されていない。…",
+      "summary": "データ分析の新着が5件。はじめに マルチテナントのシステムでは、テナントごとにDynamoDBテーブルを分離するケースがあります。テナントが増えるたびにテーブルが増え、それぞれのテーブルに対してログの後処理（通知やイベント生成など）を行う必要が出てきます。…",
       "articles": [
+        {
+          "title": "DynamoDB Streams + EventBridge Pipes で実現するマルチテナントのログ後処理",
+          "link": "https://zenn.dev/ukintech/articles/dynamodb-streams-eventbridge-pipes",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-30T13:00:04",
+          "excerpt": "はじめに マルチテナントのシステムでは、テナントごとにDynamoDBテーブルを分離するケースがあります。テナントが増えるたびにテーブルが増え、それぞれのテーブルに対してログの後処理（通知やイベント生成など）を行う必要が出てきます。…"
+        },
+        {
+          "title": "Amazon OpenSearch Service が OpenSearch バージョン 3.7 をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-30T02:30:15",
+          "excerpt": "Amazon OpenSearch Service で OpenSearch バージョン 3.7 を実行できるようになりました。OpenSearch 3.…"
+        },
         {
           "title": "AIが飲み込むのは「ロール」ではなく「レイヤー」だ。QAエンジニアが今すぐ始めるべきリスキリング | Bitkey Developersのフィード",
           "link": "https://zenn.dev/bitkey_dev/articles/ai-era-surviving-roles",
@@ -127,28 +141,21 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-29T20:45:00",
           "excerpt": "Amazon Redshift Data API には、SQL ステートメントのメタデータまたは結果を取得するための API 呼び出しの数を削減し、セッションの可視性を提供し、バッチ ステートメントを個別のトランザクションで実行できるように…"
-        },
-        {
-          "title": "AWS Glue が REST API コネクタの VPC サポート、フィルタープッシュダウン、パーティションサポートを発表",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-rest-connector-filtering-partitioning-vpc",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-29T20:18:00",
-          "excerpt": "AWS Glue は、REST API コネクタの VPC 接続、フィルタープッシュダウン、パーティションサポートをサポートするようになりました。…"
-        },
-        {
-          "title": "Terraform 1.10以降でDynamoDBを使わずにS3のみでState排他ロック管理を行う方法",
-          "link": "https://qiita.com/azamarassy/items/8923aad54394054685c9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-29T16:41:28",
-          "excerpt": "概要 従来のTerraformにおいて、AWS S3をバックエンドとして状態（terraform.tfstate）を管理する際、排他ロック（State Locking）機能を実現するためにはDynamoDBテーブルの作成が必須でした。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が28件。AWS DevOps Agent のセカンダリリソースとして AWS アカウントを追加・削除する AWS CLI コマンドを紹介します。",
+      "summary": "開発ツールの新着が28件。Strands AgentsのTypeScript版SDKでSteering機能を試してみました！",
       "articles": [
+        {
+          "title": "Strands AgentsのSteering機能をTypeScript版SDKで試してみた",
+          "link": "https://dev.classmethod.jp/articles/strands-agents-steering-typescript/",
+          "source": "DevelopersIO",
+          "published": "2026-07-30T16:27:30",
+          "excerpt": "Strands AgentsのTypeScript版SDKでSteering機能を試してみました！"
+        },
         {
           "title": "AWS DevOps Agent スペースに AWS CLI でセカンダリソースのアカウントを追加・削除する",
           "link": "https://dev.classmethod.jp/articles/aws-devops-agent-secondary-account-add-remove/",
@@ -157,25 +164,18 @@
           "excerpt": "AWS DevOps Agent のセカンダリリソースとして AWS アカウントを追加・削除する AWS CLI コマンドを紹介します。"
         },
         {
+          "title": "AWS CDK の爆速版『cdkd』と Terraform を速度比較してみた",
+          "link": "https://zenn.dev/go_to_k/articles/cdkd-vs-terraform",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-30T11:44:28",
+          "excerpt": "AWS CDK の爆速版 CLI ツールである『cdkd』と AWS CDK CLI (CloudFormation) との速度比較は以前したのですが、今回は Terraform との速度比較をしてみました。…"
+        },
+        {
           "title": "Github ActionsのIDトークンでsubクレームの形式が変わってた",
           "link": "https://dev.classmethod.jp/articles/immutable-subject-claims-for-github-actions-oidc-tokens/",
           "source": "DevelopersIO",
           "published": "2026-07-30T10:16:40",
           "excerpt": "GitHub ActionsのOIDCトークンにおいて、subクレームの値の形式が変わり、Assume Roleができなくなった事象に遭遇しました。原因の調査から対処方法までをまとめて共有します。"
-        },
-        {
-          "title": "(2026年7月1日) ECS Service Connect の zone-aware routing でクロスAZ通信を8割減らす（デフォルト有効、ただし再デプロイが必要） | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/ecs-service-connect-zone-aware-routing",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-30T10:09:07",
-          "excerpt": "こんにちは。アプリケーションサービス部 エデュケーショナルサービス課の山本です。2026年7月、Amazon ECS Service Connect に zone-aware routing が追加されました。…"
-        },
-        {
-          "title": "エラー解消のつもりが自ら攻撃を実行する「ClickFix」が108％増　日本の割合が最多14％",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/30/news071.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-07-30T09:10:00",
-          "excerpt": "偽のエラー表示を見せ、利用者自身に不正な命令を実行させる「ClickFix」の検知が半年で108％増えた。日本の割合は14％で最も高い。攻撃の足場は生成AIの画面やブラウザ拡張機能、Microsoftアカウントのサインインへと広がっている。"
         }
       ]
     }
@@ -189,25 +189,25 @@
       "excerpt": "JetBrainsは、コードリポジトリの上にインテリジェンスなレイヤを構築し、AIエージェントに対して適切なコードのコンテキストを提供することで、AIエージェントによるよりよいコード生成を可能にする新サービス「JetBrains Conte…"
     },
     {
-      "title": "Netflixが「ウォーキング・デッド」の世界ストリーミング契約を締結",
-      "link": "https://techcrunch.com/2026/07/30/netflix-lands-global-streaming-deal-for-the-walking-dead/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-30T15:27:08",
-      "excerpt": "Netflixは、ウォーキング・デッド・ユニバースを国際市場に提供するために、5億ドル相当の新たな大規模なライセンス契約を締結したばかりだ。"
+      "title": "週刊AWS – 2026/7/27週",
+      "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260727/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-07-30T16:13:57",
+      "excerpt": "NFS キャッシュソリューション KNFSD File Cache の Preview 提供開始、Amazon CloudWatch が AI コーディングエージェントの利用状況を可視化する Coding Agent Insights を発…"
     },
     {
-      "title": "Nscale が AI コンピューティング スタックをより多く所有するために Anyscale を買収",
-      "link": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
+      "title": "テスラ、1,000万台目のEVを生産",
+      "link": "https://techcrunch.com/2026/07/30/tesla-made-its-10-millionth-ev/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-30T15:19:15",
-      "excerpt": "英国の AI ネオクラウド Nscale は、企業が AI ワークロードをデータセンターやサーバー全体に拡張できるように支援するソフトウェアスタートアップ Anyscale を買収します。"
+      "published": "2026-07-30T16:00:25",
+      "excerpt": "このマイルストーンは、イーロン・マスク氏が1兆ドルの給与パッケージを全額アンロックするために達成しなければならない4つの中核的な製品目標のうちの1つをテスラが半分達成したことを意味する。"
     },
     {
-      "title": "SCD Type2 のテーブルを、dbt 標準の incremental model で管理する",
-      "link": "https://dev.classmethod.jp/articles/how_to_manage_an_scd_type_2_table_with_dbt_incremental_model/",
-      "source": "DevelopersIO",
-      "published": "2026-07-30T15:18:49",
-      "excerpt": "dbt の Snapshot を使わずに、incremental model で SCD Type2 テーブルを管理する方法を紹介します。"
+      "title": "量子コンピューターは従来のコンピューターを上回り、信頼できる結果が得られます",
+      "link": "https://arstechnica.com/science/2026/07/if-a-quantum-computer-outperforms-normal-ones-can-you-tell-if-its-right/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-30T15:59:37",
+      "excerpt": "古典的に検証できない量子結果の問題に対する 3 つのアプローチ。"
     }
   ]
 }
