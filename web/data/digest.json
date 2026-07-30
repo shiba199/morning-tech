@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-07-30T09:09:49",
+  "generated_at": "2026-07-30T11:26:39",
   "window_hours": 24,
-  "total": 235,
+  "total": 242,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が49件。Googleは2026年7月28日、Googleドキュメント内でGeminiを使い、画像や図、インフォグラフィックを生成・編集できる新機能を順次提供すると発表した。",
+      "summary": "生成AIの新着が49件。こちらの投稿はJ.B.Goode Inc.のWebサイトで掲載している技術記事です。https://www.jbgoode.…",
       "articles": [
         {
-          "title": "Googleドキュメント、Geminiで文書の内容に沿った画像や図解を直接生成・編集可能に ——Google WorkspaceやGoogle AIの対象プランに順次提供",
-          "link": "https://gihyo.jp/article/2026/07/create-gemini-image-in-google-docs?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-07-30T08:42:00",
-          "excerpt": "Googleは2026年7月28日、Googleドキュメント内でGeminiを使い、画像や図、インフォグラフィックを生成・編集できる新機能を順次提供すると発表した。"
+          "title": "【Bedrock/Claude】ハイライト出力に「思考過程」を混ぜない方法：構造化出力（JSON）の活用",
+          "link": "https://qiita.com/nishikawa/items/88c741818a936d9a2f3c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-30T10:09:13",
+          "excerpt": "こちらの投稿はJ.B.Goode Inc.のWebサイトで掲載している技術記事です。https://www.jbgoode.…"
         },
         {
-          "title": "OpenAI、科学・数学・工学分野の教員・ポスドク研究者にフロンティアモデルを12カ月無償提供するプログラム「ChatGPT for Academic Researchers」を発表",
-          "link": "https://gihyo.jp/article/2026/07/chatgpt-academic-researchers?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-07-30T07:00:00",
-          "excerpt": "OpenAIは2026年7月29日、対象機関に所属し、科学、数学、工学分野で研究する教員とポスドク研究者にフロンティアモデルや研究支援ツールを12カ月間無償提供するプログラム「ChatGPT for Academic Researchers…"
+          "title": "# 【続編】# AWS BedrockでYouTubeライブ配信コメントをリアルタイム判定してみた話",
+          "link": "https://qiita.com/watanuki_for_Qiita/items/e462f227e66e07a6af08",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-30T10:02:20",
+          "excerpt": "はじめに 本記事では、YouTubeライブ配信のコメント自動判定で、Bedrockの誤検知をルールとプロンプトで改善した結果を解説します。…"
         },
         {
-          "title": "生成AIで既存仕様をひも解く、クラスメソッドが大企業向けスマホアプリ刷新サービスを開始",
-          "link": "https://codezine.jp/article/detail/29179",
-          "source": "CodeZine",
-          "published": "2026-07-30T06:30:00",
-          "excerpt": "生成AIで既存仕様をひも解く、クラスメソッドが大企業向けスマホアプリ刷新サービスを開始"
-        },
-        {
-          "title": "社内でClaude Code オンボーディング会を開催しました！ | NE株式会社の開発ブログのフィード",
-          "link": "https://zenn.dev/neinc_tech/articles/527266b2a6f88a",
+          "title": "最新LLMのセキュリティ評価：富士通のLLM脆弱性スキャナーによるFable 5／GPT-5.6／Takaneの評価 | fltech - 富士通研究所の技術ブログ",
+          "link": "https://blog.fltech.dev/entry/2026/07/30/llm-sec",
           "source": "企業テックブログまとめ",
-          "published": "2026-07-30T05:46:26",
-          "excerpt": "はじめにこんにちは！NE株式会社でテックリード室長をしています、谷口です。少し前の話になりますが、社内でClaude Codeのオンボーディング会を開催したので、今回はそのレポートです！…"
+          "published": "2026-07-30T10:00:00",
+          "excerpt": "こんにちは、セキュリティサイエンス研究所のAI Agent Security Researchチームです。本記事では、富士通のLLM脆弱性スキャナーを用いて、最新の大規模言語モデルであるFable 5、GPT-5.…"
+        },
+        {
+          "title": "エージェント マネージャー: クロード コード、コーデックス、および OpenCode を実行するための Tmux TUI",
+          "link": "https://github.com/YoanWai/agent-manager",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-30T09:34:27",
+          "excerpt": "記事の URL: https://github.com/YoanWai/agent-manager コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。RDS for SQL Server 2025が利用可能になりました。3年ぶりのメジャーバージョンアップ対応となるこのバージョンについて、詳細情報と構築手順を紹介します。",
+      "summary": "クラウドの新着が24件。CloudFront + S3で静的サイトを配信していたところ、通信中に接続がリセットされるという現象が頻発した。ブラウザ上では、HTTPステータスコードが返るのではなく、単純に「接続がリセットされました」と表示される状態だった。…",
       "articles": [
         {
-          "title": "[アップデート] Amazon RDS for SQL Server 2025が利用可能になりました",
-          "link": "https://dev.classmethod.jp/articles/amazon-rds-for-sqlserver-2025-is-available/",
-          "source": "DevelopersIO",
-          "published": "2026-07-30T08:56:56",
-          "excerpt": "RDS for SQL Server 2025が利用可能になりました。3年ぶりのメジャーバージョンアップ対応となるこのバージョンについて、詳細情報と構築手順を紹介します。"
-        },
-        {
-          "title": "CDK synthテンプレートでECSアプリをAWSコンソールからデプロイしてみた ― つまずきポイントと解決策まとめ",
-          "link": "https://dev.classmethod.jp/articles/deploy-ecs-app-cloudformation-console-full-guide/",
-          "source": "DevelopersIO",
-          "published": "2026-07-30T08:00:10",
-          "excerpt": "CDK synthテンプレートをCloudFormationコンソールからデプロイする際に遭遇した、ECRクロスアカウントアクセス、DNS設定、Cognito認証などのつまずきポイントとその解決策をまとめました。"
-        },
-        {
-          "title": "【AWS Lambda】ランタイムが EOL になる通知が来たので、IaC の1行で移行した話",
-          "link": "https://qiita.com/80-cloud/items/3192f29b58e75240bddf",
+          "title": "CloudFront + S3で接続が頻繁にリセットされる原因がIPv6だった",
+          "link": "https://qiita.com/cress_cc/items/e34bf02da666381d707f",
           "source": "Qiita AWSタグ",
-          "published": "2026-07-30T06:18:26",
-          "excerpt": "はじめに ある日、AWS Health から「利用中の Lambda ランタイムについてサポート終了（EOL）予定」を知らせる通知が、自分の環境に届きました。最初は「関数が急に止まるの！？…"
+          "published": "2026-07-30T10:33:39",
+          "excerpt": "CloudFront + S3で静的サイトを配信していたところ、通信中に接続がリセットされるという現象が頻発した。ブラウザ上では、HTTPステータスコードが返るのではなく、単純に「接続がリセットされました」と表示される状態だった。…"
         },
         {
-          "title": "【cli】s3 cpではなく、s3api get-objectをすると403エラーの原因をつかみやすい",
-          "link": "https://qiita.com/alwaysdwysd/items/8a1c6ca58c0a426627cc",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-30T04:23:54",
-          "excerpt": "TL;DR cliコマンドで、 s3 cpなら403としか出ないが、 s3api get-objectで、 IAMの権限不足なら no identity-based policy allows the s3:GetObject action…"
+          "title": "ロシアのスパイ、ハーフクリックメール攻撃を Zimbra から Outlook に移行",
+          "link": "https://www.theregister.com/security/2026/07/30/russian-spies-take-their-half-click-email-attack-from-zimbra-to-outlook/5281033",
+          "source": "The Register（英語）",
+          "published": "2026-07-30T10:29:00",
+          "excerpt": "ブービートラップされたメッセージを開くと、パスワードの変更やデバイスの再構築に耐えられるブラウザーインプラントが解放されます"
+        },
+        {
+          "title": "(2026年7月1日) ECS Service Connect の zone-aware routing でクロスAZ通信を8割減らす（デフォルト有効、ただし再デプロイが必要） | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/ecs-service-connect-zone-aware-routing",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-30T10:09:07",
+          "excerpt": "こんにちは。アプリケーションサービス部 エデュケーショナルサービス課の山本です。2026年7月、Amazon ECS Service Connect に zone-aware routing が追加されました。…"
+        },
+        {
+          "title": "RDS for SQL Server で ALTER DATABASE SET ONLINE が実行できないのはなぜですか",
+          "link": "https://dev.classmethod.jp/articles/tsnote-rds-sqlserver-set-database-online/",
+          "source": "DevelopersIO",
+          "published": "2026-07-30T09:10:07",
+          "excerpt": "RDS for SQL Server でデータベースをオンラインに戻す際、標準の ALTER DATABASE SET ONLINE コマンドが権限エラーになる場合の解決方法を紹介します。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。Github、npmパッケージ公開時のマルウェア自動スキャンと新たなメタデータ要件を導入",
+      "summary": "セキュリティの新着が14件。こんにちは、セキュリティサイエンス研究所のAI Agent Security Researchチームです。本記事では、富士通のLLM脆弱性スキャナーを用いて、最新の大規模言語モデルであるFable 5、GPT-5.…",
       "articles": [
+        {
+          "title": "最新LLMのセキュリティ評価：富士通のLLM脆弱性スキャナーによるFable 5／GPT-5.6／Takaneの評価 | fltech - 富士通研究所の技術ブログ",
+          "link": "https://blog.fltech.dev/entry/2026/07/30/llm-sec",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-30T10:00:00",
+          "excerpt": "こんにちは、セキュリティサイエンス研究所のAI Agent Security Researchチームです。本記事では、富士通のLLM脆弱性スキャナーを用いて、最新の大規模言語モデルであるFable 5、GPT-5.…"
+        },
+        {
+          "title": "スマートバンクのセキュリティを支える「セキュリティ委員会」の紹介と今後の展望 | inSmartBank",
+          "link": "https://blog.smartbank.co.jp/entry/2026/07/30/184009",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-30T09:40:09",
+          "excerpt": "こんにちは、株式会社スマートバンクの顧客体験チームでプロダクトエンジニアをしています、すてにゃん (id:stefafafan) です。今回はセキュリティ委員会の委員長である私から、弊社で直近やっていた活動を簡単に紹介していきます。…"
+        },
         {
           "title": "Github、npmパッケージ公開時のマルウェア自動スキャンと新たなメタデータ要件を導入",
           "link": "https://codezine.jp/article/detail/29173",
@@ -92,20 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-30T04:00:20",
           "excerpt": "SvelteKitをNode adapterでデプロイし、UI・API・SSEストリーミング・Playwright認証・SQLiteデータベース・国際化を１プロジェクトに統合して社内AIツールを構築した実体験をまとめます。"
-        },
-        {
-          "title": "Claude Codeと1日で作るリアルタイム音声AI ― $5から始めてRAG・認証・Terraformまで",
-          "link": "https://zenn.dev/halhalhal1/articles/realtime-voice-ai-one-day-build",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-30T03:47:41",
-          "excerpt": "「ブラウザからPush-to-Talkで話しかけたら、AIがリアルタイムに声で返してくる」——そんなアプリを、Claude Codeと一緒に1日で作った。予算はOpenAIの無料クレジット**$5**。…"
-        },
-        {
-          "title": "Flume 水モニター 915 MHz のセキュリティはかなり優れています",
-          "link": "https://waveformsecurity.com/blog/flume/",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-30T01:27:12",
-          "excerpt": "記事の URL: https://waveformsecurity.com/blog/flume/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
@@ -147,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が29件。CDK synthテンプレートをCloudFormationコンソールからデプロイする際に遭遇した、ECRクロスアカウントアクセス、DNS設定、Cognito認証などのつまずきポイントとその解決策をまとめました。",
+      "summary": "開発ツールの新着が29件。GitHub ActionsのOIDCトークンにおいて、subクレームの値の形式が変わり、Assume Roleができなくなった事象に遭遇しました。原因の調査から対処方法までをまとめて共有します。",
       "articles": [
+        {
+          "title": "Github ActionsのIDトークンでsubクレームの形式が変わってた",
+          "link": "https://dev.classmethod.jp/articles/immutable-subject-claims-for-github-actions-oidc-tokens/",
+          "source": "DevelopersIO",
+          "published": "2026-07-30T10:16:40",
+          "excerpt": "GitHub ActionsのOIDCトークンにおいて、subクレームの値の形式が変わり、Assume Roleができなくなった事象に遭遇しました。原因の調査から対処方法までをまとめて共有します。"
+        },
+        {
+          "title": "(2026年7月1日) ECS Service Connect の zone-aware routing でクロスAZ通信を8割減らす（デフォルト有効、ただし再デプロイが必要） | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/ecs-service-connect-zone-aware-routing",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-30T10:09:07",
+          "excerpt": "こんにちは。アプリケーションサービス部 エデュケーショナルサービス課の山本です。2026年7月、Amazon ECS Service Connect に zone-aware routing が追加されました。…"
+        },
+        {
+          "title": "エラー解消のつもりが自ら攻撃を実行する「ClickFix」が108％増　日本の割合が最多14％",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/30/news071.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-07-30T09:10:00",
+          "excerpt": "偽のエラー表示を見せ、利用者自身に不正な命令を実行させる「ClickFix」の検知が半年で108％増えた。日本の割合は14％で最も高い。攻撃の足場は生成AIの画面やブラウザ拡張機能、Microsoftアカウントのサインインへと広がっている。"
+        },
         {
           "title": "CDK synthテンプレートでECSアプリをAWSコンソールからデプロイしてみた ― つまずきポイントと解決策まとめ",
           "link": "https://dev.classmethod.jp/articles/deploy-ecs-app-cloudformation-console-full-guide/",
           "source": "DevelopersIO",
           "published": "2026-07-30T08:00:10",
           "excerpt": "CDK synthテンプレートをCloudFormationコンソールからデプロイする際に遭遇した、ECRクロスアカウントアクセス、DNS設定、Cognito認証などのつまずきポイントとその解決策をまとめました。"
-        },
-        {
-          "title": "Github、npmパッケージ公開時のマルウェア自動スキャンと新たなメタデータ要件を導入",
-          "link": "https://codezine.jp/article/detail/29173",
-          "source": "CodeZine",
-          "published": "2026-07-30T07:00:00",
-          "excerpt": "Github、npmパッケージ公開時のマルウェア自動スキャンと新たなメタデータ要件を導入"
-        },
-        {
-          "title": "【AWS Lambda】ランタイムが EOL になる通知が来たので、IaC の1行で移行した話",
-          "link": "https://qiita.com/80-cloud/items/3192f29b58e75240bddf",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-30T06:18:26",
-          "excerpt": "はじめに ある日、AWS Health から「利用中の Lambda ランタイムについてサポート終了（EOL）予定」を知らせる通知が、自分の環境に届きました。最初は「関数が急に止まるの！？…"
-        },
-        {
-          "title": "初心者、中級レベル、プロのエンジニアのための完全な Git ガイド |ゼネットテックブログ",
-          "link": "https://media.zenet-web.co.jp/entry/2026/07/30/132419",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-30T04:24:19",
-          "excerpt": "目次 はじめに 1.Git とは何ですか?2.Git が重要な理由 3.Git と GitHub 4.Git のインストール方法 5.最初の Git セットアップ 6.Git ワークフローについて 7.初心者向け Git コマンド 8.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AIは何を「速く」したのか｜AI DevEx Conference 2026での学び | エムスリーテックブログ",
-      "link": "https://www.m3tech.blog/entry/2026/07/30/173031",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-30T08:30:31",
-      "excerpt": "Unit7 リサーチプロダクトチームの佐藤（@riku929hr）です。2026年7月22日と23日の2日間、ファインディさん主催の AI DevEx Conference 2026 に現地参加してきました。…"
+      "title": "MariaDB、Galera のオープンソースの将来をめぐり再び疑問に直面",
+      "link": "https://www.theregister.com/databases/2026/07/30/mariadb-again-faces-questions-over-galeras-open-source-future/5280975",
+      "source": "The Register（英語）",
+      "published": "2026-07-30T11:01:00",
+      "excerpt": "同社が別のプレミアム レプリケーション テクノロジを開発するため、MySQL ビルドのサポートは 9 月に終了します"
     },
     {
-      "title": "はじめてのDR/BCP対応の考え方",
-      "link": "https://qiita.com/enegoro/items/03c4626deccadc2693bd",
+      "title": "ジーピオゼロフロー",
+      "link": "https://bennuttall.com/blog/2026/07/gpiozero-flow/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-30T10:32:41",
+      "excerpt": "記事の URL: https://bennuttall.com/blog/2026/07/gpiozero-flow/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "アトマリン: 海上の核データセンター",
+      "link": "https://atomarine.co/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-30T10:31:46",
+      "excerpt": "記事の URL: https://atomarine.co/ コメント URL: https://news.ycombinator.com/item?id=49108039 ポイント: 27 コメント数: 30"
+    },
+    {
+      "title": "2026/07/30 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "link": "https://qiita.com/ennagara128/items/816a567f02dd9953801a",
       "source": "Qiita AWSタグ",
-      "published": "2026-07-30T08:29:35",
-      "excerpt": "はじめに AWSにWebアプリを載せて、無事に動いている。バックアップも一応取れている。……そこで、ある日こう聞かれます。「もし東京リージョンが丸ごと落ちたら、どうなるの?」 答えに詰まりました。バックアップは取っています。…"
-    },
-    {
-      "title": "未使用のUPSIDERバーチャルカードが不正利用されたそのロジック | CloudNative BLOGs",
-      "link": "https://blog.cloudnative.co.jp/articles/unused-virtual-card-enumeration-fraud/",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-30T08:25:00",
-      "excerpt": "未使用のまま一度も決済していない法人バーチャルカードが不正利用された事例をもとに、番号盗用の実態、BINとLuhnで縮む探索空間、分散推測攻撃の仕組みをVisaやFCAの一次情報で整理し、未使用カードのロックや利用先限定など実務の打ち手まで…"
-    },
-    {
-      "title": "MIRU2026（第29回 画像の認識・理解シンポジウム）にシルバースポンサーとして協賛いたします | LayerX エンジニアブログ",
-      "link": "https://tech.layerx.co.jp/entry/2026/07/30/171421",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-30T08:14:21",
-      "excerpt": "バクラク事業部 AI・機械学習部で機械学習エンジニアをしている川畑（@monokemonoke）です。LayerXは、MIRU2026（第29回 画像の認識・理解シンポジウム）にシルバースポンサーとして協賛いたします。…"
+      "published": "2026-07-30T10:24:26",
+      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
     }
   ]
 }
