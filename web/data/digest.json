@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-31T13:11:06",
+  "generated_at": "2026-07-31T15:33:59",
   "window_hours": 24,
-  "total": 241,
+  "total": 240,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が52件。こんにちは！分析屋の池田です。6/1〜6/7の期間にリリースされたAIに関する情報をまとめました。続きをみる",
+      "summary": "生成AIの新着が47件。このシリーズでは、Amazon Bedrock AgentCore を使ってブラウザから使える生成 AI チャットボットを AWS 上に構築しています。…",
       "articles": [
+        {
+          "title": "シンプルな生成 AI チャットボットを Amazon Bedrock AgentCore で作る（2）FastAPI BFF を ECS Fargate にのせて Runtime を SSE で中継する",
+          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-bff-ecs-sse/",
+          "source": "DevelopersIO",
+          "published": "2026-07-31T14:33:06",
+          "excerpt": "このシリーズでは、Amazon Bedrock AgentCore を使ってブラウザから使える生成 AI チャットボットを AWS 上に構築しています。…"
+        },
+        {
+          "title": "シンプルな生成 AI チャットボットを Amazon Bedrock AgentCore で作る（1）Runtime に Strands エージェントをのせる",
+          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-runtime-deploy-strands-agent/",
+          "source": "DevelopersIO",
+          "published": "2026-07-31T14:22:11",
+          "excerpt": "Amazon Bedrock AgentCore を使ってブラウザから操作できるチャットボットを AWS 上に構築するシリーズの第 1 回です。…"
+        },
         {
           "title": "生成AIの気になるニュース・記事（6/1〜6/7) | 分析屋",
           "link": "https://note.com/bunsekiya_tech/n/n643c888d14a1",
@@ -22,28 +36,28 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-31T11:30:39",
           "excerpt": "Sandeep Kumar Nayak 著 — Gaudiy の AI エンジニア 1 つの特大 GPU がどのようにして請求額の約 90% を占めたのか、またそれを元に戻した 4 つの変更について技術的に詳しく説明します。…"
-        },
-        {
-          "title": "ベータ機能の「Claude Tag」を整理してみた",
-          "link": "https://dev.classmethod.jp/articles/myan-claude-tag-beta/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T10:49:13",
-          "excerpt": "Claude TagのAccess Bundleを中心に概要をまとめてみました"
-        },
-        {
-          "title": "デフォルトのままはもったいない Claude Codeのステータスライン | 株式会社ソニックムーブのフィード",
-          "link": "https://zenn.dev/sonicmoov/articles/7ed223a1bf1953",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-31T10:38:29",
-          "excerpt": "はじめにClaude Code のステータスラインをデフォルトのまま使っている方も多いと思いますが、自分の見たい情報を並べておくと想像以上に快適になります。私は次の3行を常時表示しています。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。はじめに ECS Execは、稼働中のECSタスクのコンテナに直接入れる便利な機能だが、実際に使うときのコマンドは以下のように長い。…",
+      "summary": "クラウドの新着が18件。WebAssembly（Wasm）が本当に「軽量・小さい・高速起動・移植性が高い」のか、AWS Lambda上で実際に動かして確かめてみました。机上の論点を実測で検証します。",
       "articles": [
+        {
+          "title": "「コンテナはもう要らない」は本当か？ AWS Lambda の provided.al2023 で WebAssembly を動かしてみた",
+          "link": "https://dev.classmethod.jp/articles/20260731-lambda-wasm/",
+          "source": "DevelopersIO",
+          "published": "2026-07-31T14:39:14",
+          "excerpt": "WebAssembly（Wasm）が本当に「軽量・小さい・高速起動・移植性が高い」のか、AWS Lambda上で実際に動かして確かめてみました。机上の論点を実測で検証します。"
+        },
+        {
+          "title": "シンプルな生成 AI チャットボットを Amazon Bedrock AgentCore で作る（2）FastAPI BFF を ECS Fargate にのせて Runtime を SSE で中継する",
+          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-bff-ecs-sse/",
+          "source": "DevelopersIO",
+          "published": "2026-07-31T14:33:06",
+          "excerpt": "このシリーズでは、Amazon Bedrock AgentCore を使ってブラウザから使える生成 AI チャットボットを AWS 上に構築しています。…"
+        },
         {
           "title": "ECS Execを対話形式でラクに使うシェルスクリプト「ecs-gangway」を作った",
           "link": "https://qiita.com/st-man-hori/items/04717e40fbf9637178b5",
@@ -57,28 +71,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-31T10:02:45",
           "excerpt": "Dev Container CLI の Lockfile が Preview から Stable へ昇格する提案の内容と、実装状況を確認しました。`devcontainer-lock.…"
-        },
-        {
-          "title": "RDS / Aurora のログファイルを分割せず一括で取得する方法を教えてください",
-          "link": "https://dev.classmethod.jp/articles/tsnote-rds-downloadCompleteLogFile-rest-endpoint-01/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T09:50:14",
-          "excerpt": "RDS / Aurora のログファイルを DownloadDBLogFilePortion API の 1MB 制限なく一括取得できる REST エンドポイント downloadCompleteLogFile の紹介と、Python での…"
-        },
-        {
-          "title": "Jotai への移行途中で見えた構造的課題 | ENECHANGE Developer Blog",
-          "link": "https://tech.enechange.co.jp/entry/2026/07/31/180832",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-31T09:08:32",
-          "excerpt": "こんにちは、ENECHANGE でエンジニアをしている清水です。今年の7月に電力料金シミュレーション領域のチームへジョインしました。当時、チームではフロントエンドの状態管理の複雑さを解消するため、 Jotai への移行が進められていました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が19件。AWS WAF で海外IPをブロックしていると、Google広告の審査落ちや検索クローラーのブロックが起きてしまうことがあります。今回はその原因と解決方法を、実際の対応手順ベースでご紹介します。",
+      "summary": "セキュリティの新着が21件。はじめに クラウドを前提としたシステム設計が当たり前になった一方で、「クラウドのセキュリティを体系的にどう考えればいいのか」を整理できている人は意外と多くありません。…",
       "articles": [
+        {
+          "title": "【書評】Practical Cloud Security",
+          "link": "https://qiita.com/io0323/items/a2320858184985e549ef",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-31T15:02:54",
+          "excerpt": "はじめに クラウドを前提としたシステム設計が当たり前になった一方で、「クラウドのセキュリティを体系的にどう考えればいいのか」を整理できている人は意外と多くありません。…"
+        },
+        {
+          "title": "AWS Security Hub に追加された影響分析機能を試してみた | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/aws-security-hub-impact-analysis",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-31T14:35:59",
+          "excerpt": "AWS Security Hub の影響分析機能を実環境で検証。攻撃パス（Blast radius）の可視化範囲を確認したところ、S3 は詳細に描かれる一方 Secrets Manager は対象外という結果に。…"
+        },
         {
           "title": "AWS WAFで海外IPをブロックしているサイトのGoogle広告が審査落ち（403）したときの対処方法をまとめてみた",
           "link": "https://dev.classmethod.jp/articles/aws-waf-allow-google-crawler-ip-ranges-geoblock/",
@@ -87,25 +101,11 @@
           "excerpt": "AWS WAF で海外IPをブロックしていると、Google広告の審査落ちや検索クローラーのブロックが起きてしまうことがあります。今回はその原因と解決方法を、実際の対応手順ベースでご紹介します。"
         },
         {
-          "title": "AWS Cognito Identity Poolの認可不備でDynamoDBを全件取得 — 「フロントの制御」と「IAMの認可」を混同するとこうなる",
-          "link": "https://qiita.com/sei_official/items/1ec93340901297f0976f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-31T08:24:19",
-          "excerpt": "はじめに AWS では、Cognito Identity Pool を使うと「ログイン不要」のゲストアクセスを提供できます。デモアプリ、無料体験、ゲスト向け機能などでよく使われる構成です。…"
-        },
-        {
-          "title": "AWSにWebアプリをデプロイしたら、セキュリティ対応って何をすればいいの?",
-          "link": "https://qiita.com/enegoro/items/88fd093f5cbd766cb8ab",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-31T08:21:55",
-          "excerpt": "はじめに AWSにWebアプリケーションをデプロイして、無事に動き出した。めでたい。……のですが、そこでふと不安になります。「セキュリティ対応って、何をすればいいんだろう?」 セキュリティグループ(通信の許可設定)は絞った。…"
-        },
-        {
-          "title": "API Gateway のアクセスログを Firehose に直接送信する構成で CMK を使用する場合、kms 権限はどこに付与すればいいですか",
-          "link": "https://dev.classmethod.jp/articles/tsnote-firehose-ssecmk-apigateway-service-linked-role/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T07:25:25",
-          "excerpt": "API Gateway のアクセスログを Firehose に送信する際、SSE-CMK を使用している場合の権限設定について、呼び出し元プリンシパルの特定と KMS キーポリシーへの権限付与方法を解説します。"
+          "title": "WAFの503がCloudFrontに無視される——メンテナンスページで踏んだ罠と最終設計",
+          "link": "https://zenn.dev/loncess/articles/b3480c91b3fc2a",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-31T09:00:03",
+          "excerpt": "この記事の結論 CloudFront + WAF構成でメンテナンスページを出そうとしたら、WAFのcustom_responseで返した503はCloudFrontのcustom_error_responseを発動させないという仕様に引っか…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が20件。前回はAWS Configによる「非準拠の検知と自動修復」を扱いました。今回は視点をパイプライン側に移し、CodePipelineを複数のAWSアカウントにまたがって設計する際の考え方を整理します。…",
+      "summary": "開発ツールの新着が20件。CloudWatch Syntheticsを利用してCloudfrontの外形監視を行おうとしたブログです。",
       "articles": [
+        {
+          "title": "Terraform で CloudWatch Synthetics の外形監視を構築し挙動を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/cloudwatch-synthetics-terraform/",
+          "source": "DevelopersIO",
+          "published": "2026-07-31T14:55:39",
+          "excerpt": "CloudWatch Syntheticsを利用してCloudfrontの外形監視を行おうとしたブログです。"
+        },
         {
           "title": "CodePipelineのマルチアカウント設計 ― Toolsアカウント・クロスアカウント・環境判別",
           "link": "https://qiita.com/ham-nao/items/e4b2b245e65842be45a8",
@@ -169,45 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-07-31T10:29:20",
           "excerpt": "AWS Control Tower の設定を CloudFormation で管理する前に知っておくと良さそうなことをまとめてみました。"
-        },
-        {
-          "title": "AWS CDK と CI/CD を ゼロから理解する資料",
-          "link": "https://qiita.com/enegoro/items/8ae7face61588ea0e81d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-31T08:40:20",
-          "excerpt": "第0章 この資料のゴール あなたが最終的に「なるほど！」と言えるようにしたいのは、次の1文です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "リンクがスピンと戦う中、NASAのスウィフト救助は8月下旬に延期される",
-      "link": "https://www.theregister.com/science/2026/07/31/nasas-swift-rescue-slips-to-late-august-as-link-battles-its-spin/5281687",
-      "source": "The Register（英語）",
-      "published": "2026-07-31T12:41:00",
-      "excerpt": "技術者らはミッションの安定化に前進するも、ランデブー日は延期される"
+      "title": "SpaceXはもう1年間、xAIの許可されていないタービンをすべて撤去しない",
+      "link": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-31T15:16:17",
+      "excerpt": "SpaceXはxAIのColossusデータセンター用に新しい発電所を建設しているが、許可されていない既存のタービンはあと数カ月は撤去されない。"
     },
     {
-      "title": "ボーダフォンが合併パートナーを買収し、3社が1社に",
-      "link": "https://www.theregister.com/networks/2026/07/31/three-becomes-one-as-vodafone-buys-out-merger-partner/5281722",
-      "source": "The Register（英語）",
-      "published": "2026-07-31T12:11:00",
-      "excerpt": "43億ポンドの契約で通信会社が英国最大の携帯電話事業者の完全な支配権を獲得"
+      "title": "クラスメソッド株式会社で部長になってみた（ので、「コンサルティング部」を紹介します。）",
+      "link": "https://dev.classmethod.jp/articles/i-became-director-at-classmethod-consulting-division/",
+      "source": "DevelopersIO",
+      "published": "2026-07-31T14:59:41",
+      "excerpt": "クラウド事業統括本部 プロフェッショナルサービス事業本部 コンサルティング2部の部長になりました。コンサル部ってどんなところ？を紹介してみます。"
     },
     {
-      "title": "Ruby Central の破壊的な遺産",
-      "link": "https://andre.arko.net/2026/07/30/ruby-centrals-destructive-legacy/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-31T12:10:55",
-      "excerpt": "記事の URL: https://andre.arko.net/2026/07/30/ruby-centrals-destructive-legacy/ コメント URL: https://news.ycombinator.…"
+      "title": "Reddit は、バイラル投稿を視聴する新しい方法をテスト中です",
+      "link": "https://techcrunch.com/2026/07/31/reddit-is-testing-a-new-way-to-watch-and-listen-to-its-viral-posts/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-31T14:49:21",
+      "excerpt": "Reddit は、Reddit のストーリーとゲームプレイやその他の映像を組み合わせたバイラル TikTok 動画からインスピレーションを得て、ユーザーがその最も人気のある投稿を視聴できる、または単に聞くことができる新しい動画エクスペリエン…"
     },
     {
-      "title": "Tasklet (YC P26) はカスタマー サクセス エンジニアを募集しています",
-      "link": "https://tasklet.ai/careers/customer-success-engineer",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-31T12:00:59",
-      "excerpt": "記事の URL: https://tasklet.ai/careers/customer-success-engineer コメント URL: https://news.ycombinator.com/item?…"
+      "title": "Smallest.ai が 1,300 万ドルを調達し、本物の人間のように聞こえる超高速音声 AI を構築",
+      "link": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-31T14:47:11",
+      "excerpt": "このスタートアップは、AI 通話がチューリング テストに合格するように設計された音声モデルを構築しています。"
     }
   ]
 }
