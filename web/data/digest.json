@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-31T18:49:39",
+  "generated_at": "2026-07-31T20:13:30",
   "window_hours": 24,
-  "total": 240,
+  "total": 241,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。誰が勝っても我々は負ける",
+      "summary": "生成AIの新着が41件。記事の URL: https://arxiv.org/abs/2607.28545 コメント URL: https://news.ycombinator.com/item?id=49126943 ポイント: 11 コメント数: 3",
       "articles": [
+        {
+          "title": "Orca-Bench: 言語モデル エージェントはオンコールにどの程度対応していますか?",
+          "link": "https://arxiv.org/abs/2607.28545",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-31T18:32:43",
+          "excerpt": "記事の URL: https://arxiv.org/abs/2607.28545 コメント URL: https://news.ycombinator.com/item?id=49126943 ポイント: 11 コメント数: 3"
+        },
         {
           "title": "Anthropic と OpenAI はどちらのエージェントがより強力に不正行為を行えるかを競っています",
           "link": "https://www.theregister.com/security/2026/07/31/anthropic-and-openai-are-competing-to-see-whose-agents-can-go-rogue-harder/5281797",
@@ -29,21 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-07-31T14:22:11",
           "excerpt": "Amazon Bedrock AgentCore を使ってブラウザから操作できるチャットボットを AWS 上に構築するシリーズの第 1 回です。…"
-        },
-        {
-          "title": "生成AIの気になるニュース・記事（6/1〜6/7) | 分析屋",
-          "link": "https://note.com/bunsekiya_tech/n/n643c888d14a1",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-31T11:37:46",
-          "excerpt": "こんにちは！分析屋の池田です。6/1〜6/7の期間にリリースされたAIに関する情報をまとめました。続きをみる"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。aws-bench の公開データセットから VPC Flow Logs の診断タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…",
+      "summary": "クラウドの新着が21件。記事の URL: https://github.com/golang/go/issues/80590 コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "Golang の提案: コンテナー/: 汎用コレクション型",
+          "link": "https://github.com/golang/go/issues/80590",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-31T18:39:47",
+          "excerpt": "記事の URL: https://github.com/golang/go/issues/80590 コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "Amazon Aurora DSQL は、さらに 4 つのリージョンでマルチリージョンクラスターのサポートを追加します",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-31T18:00:00",
+          "excerpt": "本日より、Amazon Aurora DSQL は、ヨーロッパ (ストックホルム)、ヨーロッパ (スペイン)、アジアパシフィック (ムンバイ)、アジアパシフィック (シンガポール) の 4 つの追加の AWS リージョンでマルチリージョンク…"
+        },
         {
           "title": "aws-benchのVPC Flow Logs診断タスクでKiro CLI 17モデルの合否が分かれた理由を確認してみた",
           "link": "https://dev.classmethod.jp/articles/aws-bench-check-vpc-kiro-cli-17models/",
@@ -57,28 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-07-31T14:39:14",
           "excerpt": "WebAssembly（Wasm）が本当に「軽量・小さい・高速起動・移植性が高い」のか、AWS Lambda上で実際に動かして確かめてみました。机上の論点を実測で検証します。"
-        },
-        {
-          "title": "シンプルな生成 AI チャットボットを Amazon Bedrock AgentCore で作る（2）FastAPI BFF を ECS Fargate にのせて Runtime を SSE で中継する",
-          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-bff-ecs-sse/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T14:33:06",
-          "excerpt": "このシリーズでは、Amazon Bedrock AgentCore を使ってブラウザから使える生成 AI チャットボットを AWS 上に構築しています。…"
-        },
-        {
-          "title": "ECS Execを対話形式でラクに使うシェルスクリプト「ecs-gangway」を作った",
-          "link": "https://qiita.com/st-man-hori/items/04717e40fbf9637178b5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-31T12:43:33",
-          "excerpt": "はじめに ECS Execは、稼働中のECSタスクのコンテナに直接入れる便利な機能だが、実際に使うときのコマンドは以下のように長い。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が20件。IAM Policy Simulatorに新しく追加された `PolicyExclusionList` パラメータを使うと、特定のポリシーを仮想的に除外した状態でアクセス可否をシミュレーションできます。…",
+      "summary": "セキュリティの新着が21件。皆さんこんばんは！プロジェクトがデスマーチで毎日の帰りが24時過ぎ！ポンコツエンジニアのGONです。今日も帰りににわか雨に遭遇して散々な目に会いました。プロジェクトに鎮火の雨は降らないのになんなんでしょうか。…",
       "articles": [
+        {
+          "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』で学ぶ『SQL』のセキュリティについて",
+          "link": "https://qiita.com/Veteran/items/1121d8afb687beb88820",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-31T19:20:33",
+          "excerpt": "皆さんこんばんは！プロジェクトがデスマーチで毎日の帰りが24時過ぎ！ポンコツエンジニアのGONです。今日も帰りににわか雨に遭遇して散々な目に会いました。プロジェクトに鎮火の雨は降らないのになんなんでしょうか。…"
+        },
         {
           "title": "IAM Policy Simulatorの新機能「PolicyExclusionList」を試してみた",
           "link": "https://dev.classmethod.jp/articles/iam-policy-simulator-policy-exclusion-list/",
@@ -99,20 +106,13 @@
           "source": "The Register（英語）",
           "published": "2026-07-31T15:41:00",
           "excerpt": "歴史が示すように、これは賢明ではなかった"
-        },
-        {
-          "title": "【書評】Practical Cloud Security",
-          "link": "https://qiita.com/io0323/items/a2320858184985e549ef",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-31T15:02:54",
-          "excerpt": "はじめに クラウドを前提としたシステム設計が当たり前になった一方で、「クラウドのセキュリティを体系的にどう考えればいいのか」を整理できている人は意外と多くありません。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。背景・目的 Amazon Redshift Data API は、ドライバ・接続・ネットワーク設定・認証情報を自前で管理せずに SQL を実行できる非同期 API です。…",
+      "summary": "データ分析の新着が6件。背景・目的 Amazon Redshift Data API は、ドライバ・接続・ネットワーク設定・認証情報を自前で管理せずに SQL を実行できる非同期 API です。…",
       "articles": [
         {
           "title": "Redshift Data API の3つのアップデートを試してみた",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "男子生徒がクラスメート59人のAIヌードを作った際、高校が黙秘を擁護",
-      "link": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-31T18:11:55",
-      "excerpt": "法律のギャップは、ペンシルベニア州の高校がAIヌードスキャンダルを逃れるのに役立つかもしれない。"
+      "title": "Google、誤った情報を広めるという批判のなか、発売翌日にEarth AI機能を廃止",
+      "link": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-31T19:47:28",
+      "excerpt": "AI が生成した偽の画像を誰でも生成して、実際の G​​oogle Earth 地図に重ね合わせることができるツールは、すぐに反発を引き起こしました。"
     },
     {
-      "title": "qm",
-      "link": "https://github.com/yc-software/qm",
+      "title": "Wiz の支払いを終えたばかりの Index Ventures が 3 つのファンドで 20 億ドルを調達",
+      "link": "https://techcrunch.com/2026/07/31/fresh-off-its-wiz-payout-index-ventures-raises-2b-across-three-funds/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-31T19:39:51",
+      "excerpt": "この新たな資金調達により、インデックスの利用可能な投資資本の合計は 35 億ドルになります。"
+    },
+    {
+      "title": "テールスケールはハグフェイスの侵入を止められなかった",
+      "link": "https://tailscale.com/blog/hugging-face-intrusion",
       "source": "Hacker News（英語）",
-      "published": "2026-07-31T18:04:58",
-      "excerpt": "Article URL: https://github.com/yc-software/qm Comments URL: https://news.ycombinator.com/item?…"
+      "published": "2026-07-31T19:03:45",
+      "excerpt": "記事の URL: https://tailscale.com/blog/hugging-face-intrusion コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "研究者がフルカラーの暗視ゴーグルを考案",
-      "link": "https://arstechnica.com/science/2026/07/see-the-heat-an-infrared-imaging-system-that-outputs-in-color/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-31T17:58:38",
-      "excerpt": "赤外線の波長と強度は可視光の色に変換されます。"
-    },
-    {
-      "title": "中国はEV製造ブームにリサイクルEVを供給できる可能性がある",
-      "link": "https://arstechnica.com/science/2026/07/china-could-supply-ev-manufacturing-boom-with-recycled-evs/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-31T17:29:21",
-      "excerpt": "バッテリーとモーターの化学を調べれば、リサイクルの大きなチャンスがわかります。"
+      "title": "ベンチャーキャピタルの支援を受けた新興企業はより多くの不正行為を行っており、研究者はその理由を知っていると考えている",
+      "link": "https://techcrunch.com/2026/07/31/vc-backed-startups-commit-more-fraud-and-researchers-think-they-know-why/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-31T19:00:00",
+      "excerpt": "英国のインペリアル・カレッジとフランスのエムリオン・ビジネス・スクールによる新たな研究は、シリコンバレーの創業者がどのように不正行為を行うのか、そして投資家が果たす役割を明らかにした。"
     }
   ]
 }
