@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-07-31T08:13:25",
+  "generated_at": "2026-07-31T11:03:24",
   "window_hours": 24,
-  "total": 250,
+  "total": 248,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が54件。米Anthropicは7月30日（現地時間）、AIモデル「Claude」がサイバーセキュリティ評価の最中に3つの組織の本番システムへ不正アクセスしていたと発表した。…",
+      "summary": "生成AIの新着が53件。Claude TagのAccess Bundleを中心に概要をまとめてみました",
       "articles": [
+        {
+          "title": "ベータ機能の「Claude Tag」を整理してみた",
+          "link": "https://dev.classmethod.jp/articles/myan-claude-tag-beta/",
+          "source": "DevelopersIO",
+          "published": "2026-07-31T10:49:13",
+          "excerpt": "Claude TagのAccess Bundleを中心に概要をまとめてみました"
+        },
+        {
+          "title": "LLM-jp-Moshi-v1 を AWS EC2 と SSM ポートフォワードで安全に検証してみる",
+          "link": "https://zenn.dev/aiforall/articles/62033499230934",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-31T08:41:33",
+          "excerpt": "はじめに 従来の音声対話システムでは、ユーザーの発話を受け取ってから応答を生成・読み上げる構成が多く、会話中の割り込みや相槌のような自然なやり取りが難しいという課題があります。…"
+        },
+        {
+          "title": "Google、ロボット向け次世代物理AI「Gemini Robotics 2」をリリース ―人型ロボットが高度な全身制御、繊細な器用さ、複数ロボットによる共同作業を実現",
+          "link": "https://gihyo.jp/article/2026/07/gemini-robotics-2?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-07-31T07:43:00",
+          "excerpt": "Googleは2026年7月30日、人型ロボットをより高度に制御し、幅広い複雑なタスクを完了できるようになる次世代の物理AIモデル「Gemini Robotics 2」ファミリーをリリースした。"
+        },
         {
           "title": "Claudeも3組織に不正アクセス　実在システムを「演習の一部」と誤認　Anthropicが経緯を公表",
           "link": "https://www.itmedia.co.jp/news/article/2607/31/2000000334/",
           "source": "ITmedia NEWS",
           "published": "2026-07-31T07:25:14",
           "excerpt": "米Anthropicは7月30日（現地時間）、AIモデル「Claude」がサイバーセキュリティ評価の最中に3つの組織の本番システムへ不正アクセスしていたと発表した。…"
-        },
-        {
-          "title": "Codex で AWS Lambda のコーディングエージェント向けセットアップを試し、デプロイしてみた",
-          "link": "https://qiita.com/tdsk/items/e29d794f19846fb8a20b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-31T07:11:53",
-          "excerpt": "はじめに AWS Lambda コンソールに、コーディングエージェント向けのセットアッププロンプトが追加されました。…"
-        },
-        {
-          "title": "Claude Code の statusline を改造して、ターンごとのコスト感覚を掴む | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/07/31/160536",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-31T07:05:36",
-          "excerpt": "Claude Code の statusline を改造して、ターンごとのコスト感覚を掴む こんにちは。自称ソフトウェアエンジニアの橋本 (@hassaku_63) です。…"
-        },
-        {
-          "title": "【夏休みの自由研究リレー】 Snowflakeの外部関数からSageMaker AIの推論エンドポイントにデプロイしたChronos-2に時系列予測をリクエストする仕組みを作ってみた",
-          "link": "https://dev.classmethod.jp/articles/summer-project-2026-snowflake-external-functions-chronos-2-sagemaker-endpoint/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T06:38:03",
-          "excerpt": "Snowflakeの外部関数を活用して、SageMaker AI推論エンドポイントにデプロイされたAmazonの時系列予測モデル「Chronos-2」に時系列予測をリクエストする仕組みを作ってみました。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。はじめに AWS Lambda コンソールに、コーディングエージェント向けのセットアッププロンプトが追加されました。…",
+      "summary": "クラウドの新着が19件。Dev Container CLI の Lockfile が Preview から Stable へ昇格する提案の内容と、実装状況を確認しました。`devcontainer-lock.…",
       "articles": [
         {
-          "title": "Codex で AWS Lambda のコーディングエージェント向けセットアップを試し、デプロイしてみた",
-          "link": "https://qiita.com/tdsk/items/e29d794f19846fb8a20b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-31T07:11:53",
-          "excerpt": "はじめに AWS Lambda コンソールに、コーディングエージェント向けのセットアッププロンプトが追加されました。…"
+          "title": "Dev Container の Lockfile がGAになっていました",
+          "link": "https://dev.classmethod.jp/articles/devcontainer-lockfile/",
+          "source": "DevelopersIO",
+          "published": "2026-07-31T10:02:45",
+          "excerpt": "Dev Container CLI の Lockfile が Preview から Stable へ昇格する提案の内容と、実装状況を確認しました。`devcontainer-lock.…"
         },
         {
-          "title": "AWSが新Amazon EKS Capabilitiesを発表、ワークロードオーケストレーションをシンプル化",
-          "link": "https://www.infoq.com/jp/news/2026/07/aws-eks-workload-orchestration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-07-31T06:30:00",
-          "excerpt": "Amazon Web ServicesはAmazon EKS Capabilities、ワークロードオーケストレーションや、AWSクラウドリソース管理、Kubernetesリソースの構成および自動化を簡素化するために設計された、完全マネージ…"
+          "title": "RDS / Aurora のログファイルを分割せず一括で取得する方法を教えてください",
+          "link": "https://dev.classmethod.jp/articles/tsnote-rds-downloadCompleteLogFile-rest-endpoint-01/",
+          "source": "DevelopersIO",
+          "published": "2026-07-31T09:50:14",
+          "excerpt": "RDS / Aurora のログファイルを DownloadDBLogFilePortion API の 1MB 制限なく一括取得できる REST エンドポイント downloadCompleteLogFile の紹介と、Python での…"
         },
         {
-          "title": "EKS における EKS アドオンと組み込みアドオンの整理",
-          "link": "https://qiita.com/YuNagura/items/07e3a57eb39fe3f4fe3c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-31T00:18:41",
-          "excerpt": "本記事は、BIPROGY / ユニアデックス社内AWSコミュニティ「BIPROGY AWS SPARK」の定期投稿企画第5回目の記事です。他の定期投稿企画の記事は、インデックスページをご覧ください。1.…"
+          "title": "Jotai への移行途中で見えた構造的課題 | ENECHANGE Developer Blog",
+          "link": "https://tech.enechange.co.jp/entry/2026/07/31/180832",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-31T09:08:32",
+          "excerpt": "こんにちは、ENECHANGE でエンジニアをしている清水です。今年の7月に電力料金シミュレーション領域のチームへジョインしました。当時、チームではフロントエンドの状態管理の複雑さを解消するため、 Jotai への移行が進められていました。…"
         },
         {
-          "title": "数クリックで作成できるVPC、その裏側はどうなっている？",
-          "link": "https://qiita.com/inorin__62/items/aa78b1fe770ee437ba59",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-30T22:22:33",
-          "excerpt": "はじめに 2026年7月4日に開催されたJAWS-UG栃木で表題の通り初の技術ネタで登壇しました。登壇時に話したことと、時間の制約上話せなかった細かい点などをまとめていきたいと思います。以下のイベントで登壇しました。…"
+          "title": "LLM-jp-Moshi-v1 を AWS EC2 と SSM ポートフォワードで安全に検証してみる",
+          "link": "https://zenn.dev/aiforall/articles/62033499230934",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-31T08:41:33",
+          "excerpt": "はじめに 従来の音声対話システムでは、ユーザーの発話を受け取ってから応答を生成・読み上げる構成が多く、会話中の割り込みや相槌のような自然なやり取りが難しいという課題があります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が20件。API Gateway のアクセスログを Firehose に送信する際、SSE-CMK を使用している場合の権限設定について、呼び出し元プリンシパルの特定と KMS キーポリシーへの権限付与方法を解説します。",
+      "summary": "セキュリティの新着が20件。はじめに AWS では、Cognito Identity Pool を使うと「ログイン不要」のゲストアクセスを提供できます。デモアプリ、無料体験、ゲスト向け機能などでよく使われる構成です。…",
       "articles": [
+        {
+          "title": "AWS Cognito Identity Poolの認可不備でDynamoDBを全件取得 — 「フロントの制御」と「IAMの認可」を混同するとこうなる",
+          "link": "https://qiita.com/sei_official/items/1ec93340901297f0976f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-31T08:24:19",
+          "excerpt": "はじめに AWS では、Cognito Identity Pool を使うと「ログイン不要」のゲストアクセスを提供できます。デモアプリ、無料体験、ゲスト向け機能などでよく使われる構成です。…"
+        },
+        {
+          "title": "AWSにWebアプリをデプロイしたら、セキュリティ対応って何をすればいいの?",
+          "link": "https://qiita.com/enegoro/items/88fd093f5cbd766cb8ab",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-31T08:21:55",
+          "excerpt": "はじめに AWSにWebアプリケーションをデプロイして、無事に動き出した。めでたい。……のですが、そこでふと不安になります。「セキュリティ対応って、何をすればいいんだろう?」 セキュリティグループ(通信の許可設定)は絞った。…"
+        },
         {
           "title": "API Gateway のアクセスログを Firehose に直接送信する構成で CMK を使用する場合、kms 権限はどこに付与すればいいですか",
           "link": "https://dev.classmethod.jp/articles/tsnote-firehose-ssecmk-apigateway-service-linked-role/",
@@ -92,28 +106,28 @@
           "source": "ITmedia NEWS",
           "published": "2026-07-31T07:25:14",
           "excerpt": "米Anthropicは7月30日（現地時間）、AIモデル「Claude」がサイバーセキュリティ評価の最中に3つの組織の本番システムへ不正アクセスしていたと発表した。…"
-        },
-        {
-          "title": "CloudflareがMCPアーキテクチャを概説、企業がセキュリティとガバナンスリスクに立ち向かう中で",
-          "link": "https://www.infoq.com/jp/news/2026/07/cloudflare-mcp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-07-31T05:30:00",
-          "excerpt": "Cloudflareは企業全体でModel Context Protocol（MCP）のデプロイをスケーリングするためのリファレンスアーキテクチャを概説し、集中型ガバナンス、リモートサーバーインフラストラクチャ、コスト管理を本番運用可能エー…"
-        },
-        {
-          "title": "「AlmaLinux 9.2」がセキュリティ認証取得、企業の“OS選定”にどう影響する？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/31/news057.html",
-          "source": "@IT",
-          "published": "2026-07-31T04:00:00",
-          "excerpt": "サイバートラストは「AlmaLinux 9.2」が国際標準規格「CC認証」を取得したと発表した。背景には企業が考慮すべきセキュリティリスクがあるという。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Amazon Web ServicesはAmazon EKS Capabilities、ワークロードオーケストレーションや、AWSクラウドリソース管理、Kubernetesリソースの構成および自動化を簡素化するために設計された、完全マネージ…",
+      "summary": "データ分析の新着が6件。はじめに AWS では、Cognito Identity Pool を使うと「ログイン不要」のゲストアクセスを提供できます。デモアプリ、無料体験、ゲスト向け機能などでよく使われる構成です。…",
       "articles": [
+        {
+          "title": "AWS Cognito Identity Poolの認可不備でDynamoDBを全件取得 — 「フロントの制御」と「IAMの認可」を混同するとこうなる",
+          "link": "https://qiita.com/sei_official/items/1ec93340901297f0976f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-31T08:24:19",
+          "excerpt": "はじめに AWS では、Cognito Identity Pool を使うと「ログイン不要」のゲストアクセスを提供できます。デモアプリ、無料体験、ゲスト向け機能などでよく使われる構成です。…"
+        },
+        {
+          "title": "Debian、AI/LLM利用に関する5つの提案を検討中",
+          "link": "https://gihyo.jp/article/2026/07/daily-linux-260731?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-07-31T07:08:00",
+          "excerpt": "オープンソースプロジェクトにおけるAI/LLMの貢献をどの程度認めるのか ―これはLinuxカーネルや歴史の長いディストリビューションにとって頭の痛い問題となっている。"
+        },
         {
           "title": "AWSが新Amazon EKS Capabilitiesを発表、ワークロードオーケストレーションをシンプル化",
           "link": "https://www.infoq.com/jp/news/2026/07/aws-eks-workload-orchestration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -127,87 +141,73 @@
           "source": "CodeZine",
           "published": "2026-07-31T00:00:00",
           "excerpt": "オブザーバビリティの浸透によってシステムの安定的な運用が実現する一方、ログは増え続け、課金額も上がり続ける。ゆえに現場では蓄積するログに優先順位をつけ、限定することもある。…"
-        },
-        {
-          "title": "Amazon Redshift RG Large インスタンスと 12xlarge インスタンスが後続トラックで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-large-12xlarge-trailing-track",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-30T20:02:00",
-          "excerpt": "Amazon Redshift は、 トレーリング トラック で Graviton ベースの RG インスタンスをサポートするようになりました。…"
-        },
-        {
-          "title": "DynamoDB Streams + EventBridge Pipes で実現するマルチテナントのログ後処理",
-          "link": "https://zenn.dev/ukintech/articles/dynamodb-streams-eventbridge-pipes",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-30T13:00:04",
-          "excerpt": "はじめに マルチテナントのシステムでは、テナントごとにDynamoDBテーブルを分離するケースがあります。テナントが増えるたびにテーブルが増え、それぞれのテーブルに対してログの後処理（通知やイベント生成など）を行う必要が出てきます。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が18件。はじめに AWS Lambda コンソールに、コーディングエージェント向けのセットアッププロンプトが追加されました。…",
+      "summary": "開発ツールの新着が19件。AWS Control Tower の設定を CloudFormation で管理する前に知っておくと良さそうなことをまとめてみました。",
       "articles": [
+        {
+          "title": "[登壇レポート]  Ops-JAWS Meetup41 運用 LT 大会で「Control Tower を CloudFormation で管理する前に知っておきたいこと」というタイトルで登壇しました",
+          "link": "https://dev.classmethod.jp/articles/202607-ops-jaws-41-control-tower-cfn-resource-import-tips/",
+          "source": "DevelopersIO",
+          "published": "2026-07-31T10:29:20",
+          "excerpt": "AWS Control Tower の設定を CloudFormation で管理する前に知っておくと良さそうなことをまとめてみました。"
+        },
+        {
+          "title": "AWS CDK と CI/CD を ゼロから理解する資料",
+          "link": "https://qiita.com/enegoro/items/8ae7face61588ea0e81d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-31T08:40:20",
+          "excerpt": "第0章 この資料のゴール あなたが最終的に「なるほど！」と言えるようにしたいのは、次の1文です。…"
+        },
+        {
+          "title": "AWSにWebアプリをデプロイしたら、セキュリティ対応って何をすればいいの?",
+          "link": "https://qiita.com/enegoro/items/88fd093f5cbd766cb8ab",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-31T08:21:55",
+          "excerpt": "はじめに AWSにWebアプリケーションをデプロイして、無事に動き出した。めでたい。……のですが、そこでふと不安になります。「セキュリティ対応って、何をすればいいんだろう?」 セキュリティグループ(通信の許可設定)は絞った。…"
+        },
         {
           "title": "Codex で AWS Lambda のコーディングエージェント向けセットアップを試し、デプロイしてみた",
           "link": "https://qiita.com/tdsk/items/e29d794f19846fb8a20b",
           "source": "Qiita AWSタグ",
           "published": "2026-07-31T07:11:53",
           "excerpt": "はじめに AWS Lambda コンソールに、コーディングエージェント向けのセットアッププロンプトが追加されました。…"
-        },
-        {
-          "title": "AWS Interconnect - multicloudがOCIに対応したのでAWS CLIで確認してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-interconnect-multicloud-oci-added-check/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T07:03:42",
-          "excerpt": "AWS Interconnect - multicloudの接続先CSPに、2026年4月に対応したGoogle Cloudに続いてOCIが加わりました。…"
-        },
-        {
-          "title": "GitHub、「Stacked pull requests」のパブリックプレビューを開始 ――大規模な変更を小さなプルリクエストの連鎖として管理",
-          "link": "https://gihyo.jp/article/2026/07/github-stacked-pull-requests-public-preview?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-07-31T06:50:00",
-          "excerpt": "GitHubは2026年7月30日、大規模なコード変更を、依存関係のある小さなプルリクエスト（PR）の連鎖として管理する「Stacked pull requests」のパブリックプレビューを開始した。"
-        },
-        {
-          "title": "【夏休みの自由研究リレー】 Snowflakeの外部関数からSageMaker AIの推論エンドポイントにデプロイしたChronos-2に時系列予測をリクエストする仕組みを作ってみた",
-          "link": "https://dev.classmethod.jp/articles/summer-project-2026-snowflake-external-functions-chronos-2-sagemaker-endpoint/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T06:38:03",
-          "excerpt": "Snowflakeの外部関数を活用して、SageMaker AI推論エンドポイントにデプロイされたAmazonの時系列予測モデル「Chronos-2」に時系列予測をリクエストする仕組みを作ってみました。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Playwrightで業務E2Eテストのアーキテクチャを設計する — Screen Object Model、Fluent Chaining、日本語メソッド名、ロケーター辞書の統合パターン",
-      "link": "https://dev.classmethod.jp/articles/playwright-e2e-test-architecture-patterns/",
-      "source": "DevelopersIO",
-      "published": "2026-07-31T08:00:16",
-      "excerpt": "Playwright + TypeScriptで業務B2BポータルのE2Eテストを設計した際に採用した、Screen Object Model、Fluent Chaining、日本語メソッド名、ロケーター関数辞書、ポップアップ処理のファクト…"
+      "title": "ソニー、タムロン買収提案の狙いを説明　「イメージング事業の発展につながる」",
+      "link": "https://www.itmedia.co.jp/news/article/2607/31/2000000342/",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-31T10:52:30",
+      "excerpt": "ソニーグループの陶琳CFOは7月31日の決算説明会で、傘下のソニーがレンズメーカーのタムロンに提案している完全子会社化について「両者が一緒になることで強みを生かせる」と狙いを語った。"
     },
     {
-      "title": "AWSのElastiCacheについて調べた結果",
-      "link": "https://qiita.com/mtid/items/d424cc965788403b3074",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-31T07:55:15",
-      "excerpt": "## はじめに AWSを学習している中で、ElastiCacheというサービスを知らなかったため、調べてみることにしました。これからElastiCacheについて調べる方の参考になれば幸いです。…"
+      "title": "テクノロジーバイヤーは初日から主権を重視しているとフォレスター社は言う",
+      "link": "https://www.theregister.com/ai-and-ml/2026/07/31/tech-buyers-are-baking-in-sovereignty-from-day-one-says-forrester/5281208",
+      "source": "The Register（英語）",
+      "published": "2026-07-31T10:00:00",
+      "excerpt": "米国の大手企業がクラウドとAIインフラを独占する中、欧州企業は最大のプレッシャーを感じている"
     },
     {
-      "title": "【備忘】【AWS関連】公式ブログ および アップデートまとめ（ネットワーク関連のみ抽出）(2026/07/20)",
-      "link": "https://qiita.com/dctsatopy/items/25474bceef7931f45462",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-31T07:43:03",
-      "excerpt": "この記事について AWS 公式が公表している週刊 AWS やアップデート情報の中から、ネットワークリソース関連の情報を集約して把握するため、Claude を活用してサマリーを生成・出力しています。…"
+      "title": "ロシアの「.ru」ドメインが実質使えなくなりそう？　本人確認義務化でユーザー悲鳴、関連事業者は対応急ぐ",
+      "link": "https://www.itmedia.co.jp/news/article/2607/31/2000000340/",
+      "source": "ITmedia NEWS",
+      "published": "2026-07-31T09:55:24",
+      "excerpt": "ロシア政府が「.ru」ドメインなどの管理者に本人確認を義務付ける方針を示し、同ドメインに関連する事業者が対応を迫られている。SNSでは、対象のドメインを使うユーザーから不安の声も出ている。"
     },
     {
-      "title": "AWS-CreateImage実行後にAMIを自動でクロスアカウント共有する",
-      "link": "https://qiita.com/Ryuta_Uchimura/items/af1bae3a3742cedf9bb4",
-      "source": "Qiita AWSタグ",
-      "published": "2026-07-31T07:17:43",
-      "excerpt": "はじめに SSM Maintenance WindowのAWS-CreateImageでAMIを作成した後、毎回手動で許可設定へAWSアカウントIDを追加していました。…"
+      "title": "プロポーザル提出を個人戦にしない。1ヶ月で9本の提出につながった社内CfP支援 | Link and Motivation Developers' Blog",
+      "link": "https://link-and-motivation.hatenablog.com/entry/2026/07/31/184903",
+      "source": "企業テックブログまとめ",
+      "published": "2026-07-31T09:49:03",
+      "excerpt": "こんにちは！リンクアンドモチベーションで技術広報を担当している辻井です。2026年7月、私たちは社内で「みんなでプロポーザルを書く」取り組みを始めました。その結果、1ヶ月で9本のプロポーザルを提出し、うち1本が採択されました。…"
     }
   ]
 }
