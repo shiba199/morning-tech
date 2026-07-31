@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-31T15:33:59",
+  "generated_at": "2026-07-31T17:17:00",
   "window_hours": 24,
-  "total": 240,
+  "total": 238,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が47件。このシリーズでは、Amazon Bedrock AgentCore を使ってブラウザから使える生成 AI チャットボットを AWS 上に構築しています。…",
+      "summary": "生成AIの新着が44件。このシリーズでは、Amazon Bedrock AgentCore を使ってブラウザから使える生成 AI チャットボットを AWS 上に構築しています。…",
       "articles": [
         {
           "title": "シンプルな生成 AI チャットボットを Amazon Bedrock AgentCore で作る（2）FastAPI BFF を ECS Fargate にのせて Runtime を SSE で中継する",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。WebAssembly（Wasm）が本当に「軽量・小さい・高速起動・移植性が高い」のか、AWS Lambda上で実際に動かして確かめてみました。机上の論点を実測で検証します。",
+      "summary": "クラウドの新着が21件。aws-bench の公開データセットから VPC Flow Logs の診断タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…",
       "articles": [
+        {
+          "title": "aws-benchのVPC Flow Logs診断タスクでKiro CLI 17モデルの合否が分かれた理由を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-bench-check-vpc-kiro-cli-17models/",
+          "source": "DevelopersIO",
+          "published": "2026-07-31T16:58:09",
+          "excerpt": "aws-bench の公開データセットから VPC Flow Logs の診断タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…"
+        },
         {
           "title": "「コンテナはもう要らない」は本当か？ AWS Lambda の provided.al2023 で WebAssembly を動かしてみた",
           "link": "https://dev.classmethod.jp/articles/20260731-lambda-wasm/",
@@ -64,20 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-31T12:43:33",
           "excerpt": "はじめに ECS Execは、稼働中のECSタスクのコンテナに直接入れる便利な機能だが、実際に使うときのコマンドは以下のように長い。…"
-        },
-        {
-          "title": "Dev Container の Lockfile がGAになっていました",
-          "link": "https://dev.classmethod.jp/articles/devcontainer-lockfile/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T10:02:45",
-          "excerpt": "Dev Container CLI の Lockfile が Preview から Stable へ昇格する提案の内容と、実装状況を確認しました。`devcontainer-lock.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が21件。はじめに クラウドを前提としたシステム設計が当たり前になった一方で、「クラウドのセキュリティを体系的にどう考えればいいのか」を整理できている人は意外と多くありません。…",
+      "summary": "セキュリティの新着が19件。はじめに クラウドを前提としたシステム設計が当たり前になった一方で、「クラウドのセキュリティを体系的にどう考えればいいのか」を整理できている人は意外と多くありません。…",
       "articles": [
         {
           "title": "【書評】Practical Cloud Security",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。はじめに AWS では、Cognito Identity Pool を使うと「ログイン不要」のゲストアクセスを提供できます。デモアプリ、無料体験、ゲスト向け機能などでよく使われる構成です。…",
+      "summary": "データ分析の新着が6件。背景・目的 Amazon Redshift Data API は、ドライバ・接続・ネットワーク設定・認証情報を自前で管理せずに SQL を実行できる非同期 API です。…",
       "articles": [
+        {
+          "title": "Redshift Data API の3つのアップデートを試してみた",
+          "link": "https://qiita.com/zumax/items/fb46b8f6f50e365c75ff",
+          "source": "Qiita AWSタグ",
+          "published": "2026-07-31T16:22:03",
+          "excerpt": "背景・目的 Amazon Redshift Data API は、ドライバ・接続・ネットワーク設定・認証情報を自前で管理せずに SQL を実行できる非同期 API です。…"
+        },
         {
           "title": "AWS Cognito Identity Poolの認可不備でDynamoDBを全件取得 — 「フロントの制御」と「IAMの認可」を混同するとこうなる",
           "link": "https://qiita.com/sei_official/items/1ec93340901297f0976f",
@@ -134,21 +141,21 @@
           "source": "InfoQ（日本語）",
           "published": "2026-07-31T06:30:00",
           "excerpt": "Amazon Web ServicesはAmazon EKS Capabilities、ワークロードオーケストレーションや、AWSクラウドリソース管理、Kubernetesリソースの構成および自動化を簡素化するために設計された、完全マネージ…"
-        },
-        {
-          "title": "常識を疑い、歴史に学ぶ──AIエージェント時代のオブザーバビリティデータ基盤とは？",
-          "link": "https://codezine.jp/article/detail/28882",
-          "source": "CodeZine",
-          "published": "2026-07-31T00:00:00",
-          "excerpt": "オブザーバビリティの浸透によってシステムの安定的な運用が実現する一方、ログは増え続け、課金額も上がり続ける。ゆえに現場では蓄積するログに優先順位をつけ、限定することもある。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が20件。CloudWatch Syntheticsを利用してCloudfrontの外形監視を行おうとしたブログです。",
+      "summary": "開発ツールの新着が19件。aws-bench の公開データセットから VPC Flow Logs の診断タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…",
       "articles": [
+        {
+          "title": "aws-benchのVPC Flow Logs診断タスクでKiro CLI 17モデルの合否が分かれた理由を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-bench-check-vpc-kiro-cli-17models/",
+          "source": "DevelopersIO",
+          "published": "2026-07-31T16:58:09",
+          "excerpt": "aws-bench の公開データセットから VPC Flow Logs の診断タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…"
+        },
         {
           "title": "Terraform で CloudWatch Synthetics の外形監視を構築し挙動を確認してみた",
           "link": "https://dev.classmethod.jp/articles/cloudwatch-synthetics-terraform/",
@@ -169,45 +176,38 @@
           "source": "AWS What's New（英語）",
           "published": "2026-07-31T10:54:00",
           "excerpt": "AWS CodeDeploy は、アジアパシフィック (ニュージーランド)、アジアパシフィック (タイ)、アジアパシフィック (台北)、アジアパシフィック (マレーシア)、メキシコ (中部) の 5 つの追加の AWS リージョンで利用でき…"
-        },
-        {
-          "title": "[登壇レポート]  Ops-JAWS Meetup41 運用 LT 大会で「Control Tower を CloudFormation で管理する前に知っておきたいこと」というタイトルで登壇しました",
-          "link": "https://dev.classmethod.jp/articles/202607-ops-jaws-41-control-tower-cfn-resource-import-tips/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T10:29:20",
-          "excerpt": "AWS Control Tower の設定を CloudFormation で管理する前に知っておくと良さそうなことをまとめてみました。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "SpaceXはもう1年間、xAIの許可されていないタービンをすべて撤去しない",
-      "link": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-31T15:16:17",
-      "excerpt": "SpaceXはxAIのColossusデータセンター用に新しい発電所を建設しているが、許可されていない既存のタービンはあと数カ月は撤去されない。"
+      "title": "味噌 (YC S16) は米国拡大のため人材を募集しています",
+      "link": "https://www.ycombinator.com/companies/miso/jobs/g2uAlMG-founding-business-lead-u-s-expansion",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-31T17:01:08",
+      "excerpt": "記事の URL: https://www.ycombinator.…"
     },
     {
-      "title": "クラスメソッド株式会社で部長になってみた（ので、「コンサルティング部」を紹介します。）",
-      "link": "https://dev.classmethod.jp/articles/i-became-director-at-classmethod-consulting-division/",
-      "source": "DevelopersIO",
-      "published": "2026-07-31T14:59:41",
-      "excerpt": "クラウド事業統括本部 プロフェッショナルサービス事業本部 コンサルティング2部の部長になりました。コンサル部ってどんなところ？を紹介してみます。"
+      "title": "Snapchat は完全に AI で生成された Spotlight コンテンツに報酬を与えなくなりました",
+      "link": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-31T16:49:08",
+      "excerpt": "Snapchatは、AIの失策に対抗する姿勢で、実際の人間が作成した動画のみがSpotlightのレコメンデーションの対象となるようレコメンデーションシステムを調整した。"
     },
     {
-      "title": "Reddit は、バイラル投稿を視聴する新しい方法をテスト中です",
-      "link": "https://techcrunch.com/2026/07/31/reddit-is-testing-a-new-way-to-watch-and-listen-to-its-viral-posts/",
+      "title": "Siri AIにはパワーユーザー向けのペイウォールが搭載される可能性がある",
+      "link": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-31T14:49:21",
-      "excerpt": "Reddit は、Reddit のストーリーとゲームプレイやその他の映像を組み合わせたバイラル TikTok 動画からインスピレーションを得て、ユーザーがその最も人気のある投稿を視聴できる、または単に聞くことができる新しい動画エクスペリエン…"
+      "published": "2026-07-31T16:08:18",
+      "excerpt": "Apple CEOのティム・クック氏は、ユーザーがAppleの既存のiCloud+サブスクリプションを通じてSiri AI用のコンピューティングをさらに購入できるようになると構想している。"
     },
     {
-      "title": "Smallest.ai が 1,300 万ドルを調達し、本物の人間のように聞こえる超高速音声 AI を構築",
-      "link": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-31T14:47:11",
-      "excerpt": "このスタートアップは、AI 通話がチューリング テストに合格するように設計された音声モデルを構築しています。"
+      "title": "オンラインの友達は本当の友達",
+      "link": "https://toska.bearblog.dev/re-online-friends-are-real-friends/",
+      "source": "Hacker News（英語）",
+      "published": "2026-07-31T16:07:55",
+      "excerpt": "記事の URL: https://toska.bearblog.dev/re-online-friends-are-real-friends/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
