@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-07-31T21:34:03",
+  "generated_at": "2026-07-31T22:49:42",
   "window_hours": 24,
-  "total": 244,
+  "total": 242,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。概要 2026/07/31に開催されたJAWS UG 名古屋 × Gov JAWSコラボにて「ガバメントクラウドでのAWS DevOps Agentの活用」というタイトルでLT登壇させていただいた内容です。…",
+      "summary": "生成AIの新着が41件。OpenAI は、Hugging Face で発生した事件を調査する中で、さらなるエージェントの不正行為の証拠を発見したと報告されています。",
       "articles": [
+        {
+          "title": "OpenAIは、より多くのエージェントが暴走した証拠を発見したと伝えられている",
+          "link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-07-31T22:47:26",
+          "excerpt": "OpenAI は、Hugging Face で発生した事件を調査する中で、さらなるエージェントの不正行為の証拠を発見したと報告されています。"
+        },
+        {
+          "title": "HN を表示: コード レビュー エージェントを構築して自己ホストする方法",
+          "link": "https://www.trytilde.ai/blog/how-to-build-code-review-agent",
+          "source": "Hacker News（英語）",
+          "published": "2026-07-31T20:27:28",
+          "excerpt": "HN さん、 私には Tilde というサイド プロジェクトがあり、ここ 1 年かけてゆっくりと進めてきました。Tilde はハーネス SDK プラットフォームです。…"
+        },
         {
           "title": "ガバメントクラウドでのAWS DevOps Agentの活用",
           "link": "https://qiita.com/infra365/items/70eb40b12d6f9c0011ca",
@@ -22,27 +36,13 @@
           "source": "Hacker News（英語）",
           "published": "2026-07-31T19:55:41",
           "excerpt": "https://github.com/jwlaboratory/bite-the-bullet コメント URL: https://news.ycombinator.com/item?id=49127874 ポイント: 5 コメント数: 0"
-        },
-        {
-          "title": "Orca-Bench: 言語モデル エージェントはオンコールにどの程度対応していますか?",
-          "link": "https://arxiv.org/abs/2607.28545",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-31T18:32:43",
-          "excerpt": "記事の URL: https://arxiv.org/abs/2607.28545 コメント URL: https://news.ycombinator.com/item?id=49126943 ポイント: 11 コメント数: 3"
-        },
-        {
-          "title": "Anthropic と OpenAI はどちらのエージェントがより強力に不正行為を行えるかを競っています",
-          "link": "https://www.theregister.com/security/2026/07/31/anthropic-and-openai-are-competing-to-see-whose-agents-can-go-rogue-harder/5281797",
-          "source": "The Register（英語）",
-          "published": "2026-07-31T15:04:04",
-          "excerpt": "誰が勝っても我々は負ける"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。記事の URL: https://github.com/golang/go/issues/80590 コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "クラウドの新着が21件。記事の URL: https://github.com/golang/go/issues/80590 コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
           "title": "Golang の提案: コンテナー/: 汎用コレクション型",
@@ -66,19 +66,33 @@
           "excerpt": "aws-bench の公開データセットから VPC Flow Logs の診断タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…"
         },
         {
-          "title": "「コンテナはもう要らない」は本当か？ AWS Lambda の provided.al2023 で WebAssembly を動かしてみた",
-          "link": "https://dev.classmethod.jp/articles/20260731-lambda-wasm/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T14:39:14",
-          "excerpt": "WebAssembly（Wasm）が本当に「軽量・小さい・高速起動・移植性が高い」のか、AWS Lambda上で実際に動かして確かめてみました。机上の論点を実測で検証します。"
+          "title": "Amazon RDS for Oracle が R8i および M8i インスタンスのリザーブドインスタンスを提供するようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-r8i-m8i/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-07-31T15:00:00",
+          "excerpt": "Amazon RDS for Oracle では、オンデマンド価格と比較して最大 53% のコスト削減で、R8i および M8i インスタンス用の 1 年および 3 年のリザーブドインスタンスが提供されるようになりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が21件。皆さんこんばんは！プロジェクトがデスマーチで毎日の帰りが24時過ぎ！ポンコツエンジニアのGONです。今日も帰りににわか雨に遭遇して散々な目に会いました。プロジェクトに鎮火の雨は降らないのになんなんでしょうか。…",
+      "summary": "セキュリティの新着が21件。IAM Identity Center のマルチリージョンサポートが Identity Center ディレクトリにも拡張されました。外部 IdP 不要でセットアップできる新機能を、実際に東京リージョンを追加して試してみたので紹介します。",
       "articles": [
+        {
+          "title": "[アップデート] AWS IAM Identity Center のマルチリージョンサポートが Identity Center ディレクトリをIDソースとして使用するインスタンスにも対応しました",
+          "link": "https://dev.classmethod.jp/articles/iam-identity-center-extends-multi-region-support-to-identity-center-directory/",
+          "source": "DevelopersIO",
+          "published": "2026-07-31T22:17:06",
+          "excerpt": "IAM Identity Center のマルチリージョンサポートが Identity Center ディレクトリにも拡張されました。外部 IdP 不要でセットアップできる新機能を、実際に東京リージョンを追加して試してみたので紹介します。"
+        },
+        {
+          "title": "Google、制裁対象国のAndroid開発者認証を免除する計画",
+          "link": "https://arstechnica.com/gadgets/2026/07/google-plans-to-exempt-sanctioned-nations-from-android-developer-verification/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-07-31T21:35:56",
+          "excerpt": "キューバやイランにいる人は、新たな制限なしで APK をインストールし続けることができますが、開発者は苦しむことになります。"
+        },
         {
           "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』で学ぶ『SQL』のセキュリティについて",
           "link": "https://qiita.com/Veteran/items/1121d8afb687beb88820",
@@ -92,20 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-07-31T17:51:41",
           "excerpt": "IAM Policy Simulatorに新しく追加された `PolicyExclusionList` パラメータを使うと、特定のポリシーを仮想的に除外した状態でアクセス可否をシミュレーションできます。…"
-        },
-        {
-          "title": "物理セキュリティで最も有名なブランドが ShinyHunters によって買収されました",
-          "link": "https://www.theregister.com/security/2026/07/31/the-most-famous-brand-in-physical-security-got-pwned-by-shinyhunters/5281924",
-          "source": "The Register（英語）",
-          "published": "2026-07-31T16:27:27",
-          "excerpt": "同社がSaaSシステムをロックダウンするよりも住宅をより安全に保護してくれることを願っています"
-        },
-        {
-          "title": "米国の銀行は、データの削除を約束したランサムウェア担当者を信頼している",
-          "link": "https://www.theregister.com/cyber-crime/2026/07/31/us-bank-places-trust-in-ransomware-crew-that-promised-to-delete-its-data/5281888",
-          "source": "The Register（英語）",
-          "published": "2026-07-31T15:41:00",
-          "excerpt": "歴史が示すように、これは賢明ではなかった"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が21件。aws-bench の公開データセットから CloudFormation の復旧タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…",
+      "summary": "開発ツールの新着が19件。aws-bench の公開データセットから CloudFormation の復旧タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…",
       "articles": [
         {
           "title": "aws-benchのCloudFormation復旧タスクで実行できる手順を答えたKiro CLIが不合格になった理由を確認してみた",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Apple、AIバブル崩壊時に「すべてが燃え上がるのを見守る」",
-      "link": "https://asymco.com/2026/07/31/apple-will-watch-everything-burn-when-ai-bubble-bursts/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-31T21:08:05",
-      "excerpt": "記事の URL: https://asymco.com/2026/07/31/apple-will-watch-everything-burn-when-ai-bubble-bursts/ コメント URL: https://news.…"
+      "title": "ネアンデルタール人だけではない：アフリカの幽霊の系統は私たちの DNA にその痕跡を残している",
+      "link": "https://arstechnica.com/science/2026/07/not-just-neanderthals-ghost-lineage-in-africa-left-its-mark-on-our-dna/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-31T22:17:05",
+      "excerpt": "現代の子孫を持たないいくつかのグループは、私たちのゲノムに多大な貢献をしました。"
     },
     {
-      "title": "インドはアプリをダウンロードするだけでなく、アプリに対しても支払いを開始している",
-      "link": "https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them/",
+      "title": "Rivian のスピンオフも数か月の遅れを経て電動自転車の配送を開始",
+      "link": "https://techcrunch.com/2026/07/31/rivian-spinoff-also-to-start-delivering-e-bikes-after-months-of-delays/",
       "source": "TechCrunch（英語）",
-      "published": "2026-07-31T21:07:45",
-      "excerpt": "インドのアプリ市場は、第 2 四半期に記録的な 3 億 4,500 万ドルを生み出しました。"
+      "published": "2026-07-31T22:00:08",
+      "excerpt": "TM-B以外にも大きな計画がある。この新興企業は主に自社を「車両」会社と称しており、アマゾン向けに四輪ペダルアシスト貨物車両を製造する計画を持っている。"
     },
     {
-      "title": "Loops (YC W22) が製品教育者を募集しています",
-      "link": "https://www.ycombinator.com/companies/loops/jobs/zqUnwqB-product-educator-technical-content-creator",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-31T21:00:40",
-      "excerpt": "記事の URL: https://www.ycombinator.…"
+      "title": "シリコンバレーは若い創業者を愛しています。そうならないまでは。",
+      "link": "https://techcrunch.com/2026/07/31/build-in-public-fail-in-public-what-its-like-to-be-a-founder-under-20-right-now/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-07-31T22:00:00",
+      "excerpt": "AI ツールにより、構築の機会が民主化され、成功までのスケジュールが短縮され、より多くの若者がビッグテック企業に足を踏み入れることなく、成功する企業を立ち上げることができるようになりました。"
     },
     {
-      "title": "DRAM 読み取り障害の謎を解く: RowHammer と RowPress 現象",
-      "link": "https://arxiv.org/abs/2607.28233",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-31T20:44:29",
-      "excerpt": "記事の URL: https://arxiv.org/abs/2607.28233 コメント URL: https://news.ycombinator.com/item?id=49128323 ポイント: 7 コメント数: 0"
+      "title": "医師が男性の痛みを伴う肩を診察したところ、関節が欠けていることが判明した",
+      "link": "https://arstechnica.com/health/2026/07/doctors-took-a-look-at-mans-painful-shoulder-they-found-the-joint-was-missing/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-31T21:51:52",
+      "excerpt": "「ミルウォーキー・シュッド症候群」という用語は、4人の女性の症例に基づいて1981年に造られました。"
     }
   ]
 }
