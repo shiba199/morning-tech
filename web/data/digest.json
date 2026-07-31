@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-31T17:17:00",
+  "generated_at": "2026-07-31T18:49:39",
   "window_hours": 24,
-  "total": 238,
+  "total": 240,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が44件。このシリーズでは、Amazon Bedrock AgentCore を使ってブラウザから使える生成 AI チャットボットを AWS 上に構築しています。…",
+      "summary": "生成AIの新着が41件。誰が勝っても我々は負ける",
       "articles": [
+        {
+          "title": "Anthropic と OpenAI はどちらのエージェントがより強力に不正行為を行えるかを競っています",
+          "link": "https://www.theregister.com/security/2026/07/31/anthropic-and-openai-are-competing-to-see-whose-agents-can-go-rogue-harder/5281797",
+          "source": "The Register（英語）",
+          "published": "2026-07-31T15:04:04",
+          "excerpt": "誰が勝っても我々は負ける"
+        },
         {
           "title": "シンプルな生成 AI チャットボットを Amazon Bedrock AgentCore で作る（2）FastAPI BFF を ECS Fargate にのせて Runtime を SSE で中継する",
           "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-bff-ecs-sse/",
@@ -29,20 +36,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-31T11:37:46",
           "excerpt": "こんにちは！分析屋の池田です。6/1〜6/7の期間にリリースされたAIに関する情報をまとめました。続きをみる"
-        },
-        {
-          "title": "GPU 推論コストを最大 75% 削減する方法: GKE での非同期、自動スケーリングされた拡散 | Gaudiy Tech ブログ",
-          "link": "https://techblog.gaudiy.com/entry/2026/07/31/203039",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-31T11:30:39",
-          "excerpt": "Sandeep Kumar Nayak 著 — Gaudiy の AI エンジニア 1 つの特大 GPU がどのようにして請求額の約 90% を占めたのか、またそれを元に戻した 4 つの変更について技術的に詳しく説明します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。aws-bench の公開データセットから VPC Flow Logs の診断タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…",
+      "summary": "クラウドの新着が20件。aws-bench の公開データセットから VPC Flow Logs の診断タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…",
       "articles": [
         {
           "title": "aws-benchのVPC Flow Logs診断タスクでKiro CLI 17モデルの合否が分かれた理由を確認してみた",
@@ -77,42 +77,42 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が19件。はじめに クラウドを前提としたシステム設計が当たり前になった一方で、「クラウドのセキュリティを体系的にどう考えればいいのか」を整理できている人は意外と多くありません。…",
+      "summary": "セキュリティの新着が20件。IAM Policy Simulatorに新しく追加された `PolicyExclusionList` パラメータを使うと、特定のポリシーを仮想的に除外した状態でアクセス可否をシミュレーションできます。…",
       "articles": [
+        {
+          "title": "IAM Policy Simulatorの新機能「PolicyExclusionList」を試してみた",
+          "link": "https://dev.classmethod.jp/articles/iam-policy-simulator-policy-exclusion-list/",
+          "source": "DevelopersIO",
+          "published": "2026-07-31T17:51:41",
+          "excerpt": "IAM Policy Simulatorに新しく追加された `PolicyExclusionList` パラメータを使うと、特定のポリシーを仮想的に除外した状態でアクセス可否をシミュレーションできます。…"
+        },
+        {
+          "title": "物理セキュリティで最も有名なブランドが ShinyHunters によって買収されました",
+          "link": "https://www.theregister.com/security/2026/07/31/the-most-famous-brand-in-physical-security-got-pwned-by-shinyhunters/5281924",
+          "source": "The Register（英語）",
+          "published": "2026-07-31T16:27:27",
+          "excerpt": "同社がSaaSシステムをロックダウンするよりも住宅をより安全に保護してくれることを願っています"
+        },
+        {
+          "title": "米国の銀行は、データの削除を約束したランサムウェア担当者を信頼している",
+          "link": "https://www.theregister.com/cyber-crime/2026/07/31/us-bank-places-trust-in-ransomware-crew-that-promised-to-delete-its-data/5281888",
+          "source": "The Register（英語）",
+          "published": "2026-07-31T15:41:00",
+          "excerpt": "歴史が示すように、これは賢明ではなかった"
+        },
         {
           "title": "【書評】Practical Cloud Security",
           "link": "https://qiita.com/io0323/items/a2320858184985e549ef",
           "source": "Qiita AWSタグ",
           "published": "2026-07-31T15:02:54",
           "excerpt": "はじめに クラウドを前提としたシステム設計が当たり前になった一方で、「クラウドのセキュリティを体系的にどう考えればいいのか」を整理できている人は意外と多くありません。…"
-        },
-        {
-          "title": "AWS Security Hub に追加された影響分析機能を試してみた | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/aws-security-hub-impact-analysis",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-31T14:35:59",
-          "excerpt": "AWS Security Hub の影響分析機能を実環境で検証。攻撃パス（Blast radius）の可視化範囲を確認したところ、S3 は詳細に描かれる一方 Secrets Manager は対象外という結果に。…"
-        },
-        {
-          "title": "AWS WAFで海外IPをブロックしているサイトのGoogle広告が審査落ち（403）したときの対処方法をまとめてみた",
-          "link": "https://dev.classmethod.jp/articles/aws-waf-allow-google-crawler-ip-ranges-geoblock/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T12:01:26",
-          "excerpt": "AWS WAF で海外IPをブロックしていると、Google広告の審査落ちや検索クローラーのブロックが起きてしまうことがあります。今回はその原因と解決方法を、実際の対応手順ベースでご紹介します。"
-        },
-        {
-          "title": "WAFの503がCloudFrontに無視される——メンテナンスページで踏んだ罠と最終設計",
-          "link": "https://zenn.dev/loncess/articles/b3480c91b3fc2a",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-31T09:00:03",
-          "excerpt": "この記事の結論 CloudFront + WAF構成でメンテナンスページを出そうとしたら、WAFのcustom_responseで返した503はCloudFrontのcustom_error_responseを発動させないという仕様に引っか…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。背景・目的 Amazon Redshift Data API は、ドライバ・接続・ネットワーク設定・認証情報を自前で管理せずに SQL を実行できる非同期 API です。…",
+      "summary": "データ分析の新着が7件。背景・目的 Amazon Redshift Data API は、ドライバ・接続・ネットワーク設定・認証情報を自前で管理せずに SQL を実行できる非同期 API です。…",
       "articles": [
         {
           "title": "Redshift Data API の3つのアップデートを試してみた",
@@ -120,6 +120,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-31T16:22:03",
           "excerpt": "背景・目的 Amazon Redshift Data API は、ドライバ・接続・ネットワーク設定・認証情報を自前で管理せずに SQL を実行できる非同期 API です。…"
+        },
+        {
+          "title": "GitHubにスタックプルリクエストが登場。gh stackでPRを分割して積み上げよう | Ubie テックブログのフィード",
+          "link": "https://zenn.dev/ubie_dev/articles/gh-stack-introduction",
+          "source": "企業テックブログまとめ",
+          "published": "2026-07-31T13:33:10",
+          "excerpt": "GitHubでPRを細かく作り、前のブランチに対して数珠つなぎのようにPRを作る私が大歓喜！…"
         },
         {
           "title": "AWS Cognito Identity Poolの認可不備でDynamoDBを全件取得 — 「フロントの制御」と「IAMの認可」を混同するとこうなる",
@@ -134,21 +141,21 @@
           "source": "gihyo.jp 開発",
           "published": "2026-07-31T07:08:00",
           "excerpt": "オープンソースプロジェクトにおけるAI/LLMの貢献をどの程度認めるのか ―これはLinuxカーネルや歴史の長いディストリビューションにとって頭の痛い問題となっている。"
-        },
-        {
-          "title": "AWSが新Amazon EKS Capabilitiesを発表、ワークロードオーケストレーションをシンプル化",
-          "link": "https://www.infoq.com/jp/news/2026/07/aws-eks-workload-orchestration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-07-31T06:30:00",
-          "excerpt": "Amazon Web ServicesはAmazon EKS Capabilities、ワークロードオーケストレーションや、AWSクラウドリソース管理、Kubernetesリソースの構成および自動化を簡素化するために設計された、完全マネージ…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が19件。aws-bench の公開データセットから VPC Flow Logs の診断タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…",
+      "summary": "開発ツールの新着が21件。aws-bench の公開データセットから CloudFormation の復旧タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…",
       "articles": [
+        {
+          "title": "aws-benchのCloudFormation復旧タスクで実行できる手順を答えたKiro CLIが不合格になった理由を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-bench-fix-cfn-kiro-cli-17models/",
+          "source": "DevelopersIO",
+          "published": "2026-07-31T18:05:54",
+          "excerpt": "aws-bench の公開データセットから CloudFormation の復旧タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…"
+        },
         {
           "title": "aws-benchのVPC Flow Logs診断タスクでKiro CLI 17モデルの合否が分かれた理由を確認してみた",
           "link": "https://dev.classmethod.jp/articles/aws-bench-check-vpc-kiro-cli-17models/",
@@ -157,57 +164,50 @@
           "excerpt": "aws-bench の公開データセットから VPC Flow Logs の診断タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…"
         },
         {
+          "title": "# 第3回: Terraformを3層に分けた理由 — コストの発生有無でstateを切る",
+          "link": "https://zenn.dev/parabolaml/articles/2c322429d322f0",
+          "source": "Zenn AWSトピック",
+          "published": "2026-07-31T15:29:49",
+          "excerpt": "連載「ローカルMLOpsをAWSに載せる」第3回。Terraformの「ディレクトリ構成どうする問題」に、判断基準ごとに私の方針を書きます。…"
+        },
+        {
           "title": "Terraform で CloudWatch Synthetics の外形監視を構築し挙動を確認してみた",
           "link": "https://dev.classmethod.jp/articles/cloudwatch-synthetics-terraform/",
           "source": "DevelopersIO",
           "published": "2026-07-31T14:55:39",
           "excerpt": "CloudWatch Syntheticsを利用してCloudfrontの外形監視を行おうとしたブログです。"
-        },
-        {
-          "title": "CodePipelineのマルチアカウント設計 ― Toolsアカウント・クロスアカウント・環境判別",
-          "link": "https://qiita.com/ham-nao/items/e4b2b245e65842be45a8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-31T12:01:37",
-          "excerpt": "前回はAWS Configによる「非準拠の検知と自動修復」を扱いました。今回は視点をパイプライン側に移し、CodePipelineを複数のAWSアカウントにまたがって設計する際の考え方を整理します。…"
-        },
-        {
-          "title": "AWS CodeDeploy が追加の 5 つの AWS リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-31T10:54:00",
-          "excerpt": "AWS CodeDeploy は、アジアパシフィック (ニュージーランド)、アジアパシフィック (タイ)、アジアパシフィック (台北)、アジアパシフィック (マレーシア)、メキシコ (中部) の 5 つの追加の AWS リージョンで利用でき…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "味噌 (YC S16) は米国拡大のため人材を募集しています",
-      "link": "https://www.ycombinator.com/companies/miso/jobs/g2uAlMG-founding-business-lead-u-s-expansion",
+      "title": "男子生徒がクラスメート59人のAIヌードを作った際、高校が黙秘を擁護",
+      "link": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-31T18:11:55",
+      "excerpt": "法律のギャップは、ペンシルベニア州の高校がAIヌードスキャンダルを逃れるのに役立つかもしれない。"
+    },
+    {
+      "title": "qm",
+      "link": "https://github.com/yc-software/qm",
       "source": "Hacker News（英語）",
-      "published": "2026-07-31T17:01:08",
-      "excerpt": "記事の URL: https://www.ycombinator.…"
+      "published": "2026-07-31T18:04:58",
+      "excerpt": "Article URL: https://github.com/yc-software/qm Comments URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Snapchat は完全に AI で生成された Spotlight コンテンツに報酬を与えなくなりました",
-      "link": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-31T16:49:08",
-      "excerpt": "Snapchatは、AIの失策に対抗する姿勢で、実際の人間が作成した動画のみがSpotlightのレコメンデーションの対象となるようレコメンデーションシステムを調整した。"
+      "title": "研究者がフルカラーの暗視ゴーグルを考案",
+      "link": "https://arstechnica.com/science/2026/07/see-the-heat-an-infrared-imaging-system-that-outputs-in-color/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-31T17:58:38",
+      "excerpt": "赤外線の波長と強度は可視光の色に変換されます。"
     },
     {
-      "title": "Siri AIにはパワーユーザー向けのペイウォールが搭載される可能性がある",
-      "link": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-07-31T16:08:18",
-      "excerpt": "Apple CEOのティム・クック氏は、ユーザーがAppleの既存のiCloud+サブスクリプションを通じてSiri AI用のコンピューティングをさらに購入できるようになると構想している。"
-    },
-    {
-      "title": "オンラインの友達は本当の友達",
-      "link": "https://toska.bearblog.dev/re-online-friends-are-real-friends/",
-      "source": "Hacker News（英語）",
-      "published": "2026-07-31T16:07:55",
-      "excerpt": "記事の URL: https://toska.bearblog.dev/re-online-friends-are-real-friends/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "中国はEV製造ブームにリサイクルEVを供給できる可能性がある",
+      "link": "https://arstechnica.com/science/2026/07/china-could-supply-ev-manufacturing-boom-with-recycled-evs/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-07-31T17:29:21",
+      "excerpt": "バッテリーとモーターの化学を調べれば、リサイクルの大きなチャンスがわかります。"
     }
   ]
 }
