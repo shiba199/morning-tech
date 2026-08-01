@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-01T15:33:38",
+  "generated_at": "2026-08-01T16:46:43",
   "window_hours": 24,
-  "total": 139,
+  "total": 132,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。この記事では、Goで作成したTwitter風APIを、次の構成でAWSへデプロイします。…",
+      "summary": "クラウドの新着が16件。AWS環境でマネジメントコンソールからデフォルト設定で作成されたEC2インスタンスは、実は危険な状態に置かれています。…",
       "articles": [
+        {
+          "title": "マネジメントコンソールからデフォルト設定でEC2を作成する危険性について",
+          "link": "https://dev.classmethod.jp/articles/ec2-default-settings-danger/",
+          "source": "DevelopersIO",
+          "published": "2026-08-01T15:29:44",
+          "excerpt": "AWS環境でマネジメントコンソールからデフォルト設定で作成されたEC2インスタンスは、実は危険な状態に置かれています。…"
+        },
         {
           "title": "Twitter API(Go)をAWS ECS Fargateへデプロイする手順",
           "link": "https://qiita.com/sue-hc/items/e386e44ee59d84a80cd8",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-01T12:12:52",
           "excerpt": "Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…"
-        },
-        {
-          "title": "DynamoDB Streamsを使ってS3にデータを自動でアーカイブしてみる",
-          "link": "https://dev.classmethod.jp/articles/dynamodb-streams-s3-archive/",
-          "source": "DevelopersIO",
-          "published": "2026-08-01T10:17:10",
-          "excerpt": "DynamoDBのストレージコストは高額になりやすいため、TTLとStreamsを活用してS3への自動アーカイブを実装する手法を試してみました。実装手順と具体的なコスト削減シミュレーションを紹介します。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。本記事は 夏休みクラウド自由研究2026 8/1付の記事です。殆どの企業でゼロトラストを目指されていますが、「これを買えばゼロトラストが完成する」という単一の製品やソリューションは残念ながら存在しません。ただし、より完 […]…",
+      "summary": "セキュリティの新着が6件。本記事は 夏休みクラウド自由研究2026 8/1付の記事です。殆どの企業でゼロトラストを目指されていますが、「これを買えばゼロトラストが完成する」という単一の製品やソリューションは残念ながら存在しません。ただし、より完 […]…",
       "articles": [
         {
           "title": "SASEとマイクロセグメンテーションで実現する完全なゼロトラスト | TechHarmony",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…",
+      "summary": "データ分析の新着が3件。Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…",
       "articles": [
         {
           "title": "[アップデート] Amazon Redshift Serverless の 3 年 Serverless Reservations に All Upfront が追加され、最大 50% のコスト削減が可能になりました",
@@ -134,21 +134,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-01T06:00:19",
           "excerpt": "GCPプロジェクトのコスト管理を、gcloud CLIでの予算アラート設定、BigQueryへの課金データエクスポート、OpenTofuでのビュー作成の3段階で構築しました。…"
-        },
-        {
-          "title": "Redshift Data API の3つのアップデートを試してみた",
-          "link": "https://qiita.com/zumax/items/fb46b8f6f50e365c75ff",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-31T16:22:03",
-          "excerpt": "背景・目的 Amazon Redshift Data API は、ドライバ・接続・ネットワーク設定・認証情報を自前で管理せずに SQL を実行できる非同期 API です。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。この記事では、Goで作成したTwitter風APIを、次の構成でAWSへデプロイします。…",
+      "summary": "開発ツールの新着が12件。記事の URL: https://lalitm.com/post/github-alternatives/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "GitHub には代替手段はありますが、それに代わるものはありません",
+          "link": "https://lalitm.com/post/github-alternatives/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-01T15:39:31",
+          "excerpt": "記事の URL: https://lalitm.com/post/github-alternatives/ コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "Twitter API(Go)をAWS ECS Fargateへデプロイする手順",
           "link": "https://qiita.com/sue-hc/items/e386e44ee59d84a80cd8",
@@ -169,45 +169,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-01T09:27:28",
           "excerpt": "1.はじめに 前編では、Terraformで追加したCloudWatchアラームのうち、EC2・ALB系の動作確認を行いました。…"
-        },
-        {
-          "title": "GitHub Copilot、リモート制御を管理対象デバイスのみに制限可能に",
-          "link": "https://codezine.jp/article/detail/29194",
-          "source": "CodeZine",
-          "published": "2026-08-01T09:00:00",
-          "excerpt": "GitHub Copilot、リモート制御を管理対象デバイスのみに制限可能に"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Uber は自動運転車帝国を構築中、そのために同社が利用している全企業を紹介",
-      "link": "https://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker/",
+      "title": "この 9 ドルのキーは、最も中毒性の高いアプリを物理的にロックします",
+      "link": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-01T15:05:00",
-      "excerpt": "ウーバーは過去 2 年間に約 30 社の自動運転車会社と提携し、場合によっては直接投資も行ってきました。パートナーシップのリストと最新情報は次のとおりです。…"
+      "published": "2026-08-01T15:58:17",
+      "excerpt": "この 9 ドルの NFC キーを使用するには、携帯電話上の邪魔なアプリのロックを解除するには、物理​​的にスキャンする必要があります。"
     },
     {
-      "title": "隠れた監視条約: カナダが国連サイバー犯罪条約に署名",
-      "link": "https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/",
+      "title": "米国の水道に対するハッキングの範囲がイランを示す証拠で拡大",
+      "link": "https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html",
       "source": "Hacker News（英語）",
-      "published": "2026-08-01T14:19:51",
-      "excerpt": "記事の URL: https://www.michaelgeist.…"
+      "published": "2026-08-01T15:57:33",
+      "excerpt": "記事の URL: https://www.nytimes.com/2026/08/01/us/politics/iran-cyber Attack-water-systems.html コメント URL: https://news.…"
     },
     {
-      "title": "64 ビット アセンブリの技術",
-      "link": "https://nostarch.com/art-64-bit-assembly-v2",
+      "title": "オンライン ポイント クエリのためのデータ レイクのインデックス作成",
+      "link": "https://engineering.atspotify.com/2026/7/indexing-the-data-lake-for-online-point-queries",
       "source": "Hacker News（英語）",
-      "published": "2026-08-01T14:09:00",
-      "excerpt": "記事の URL: https://nostarch.com/art-64-bit-assembly-v2 コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-01T15:41:31",
+      "excerpt": "記事の URL: https://engineering.atspotify.…"
     },
     {
-      "title": "【前編】これまでのキャリアの棚卸し ― 運用管理からクラウドエンジニアを目指して",
-      "link": "https://zenn.dev/hitakaha/articles/849fdaedab1c28",
-      "source": "Zenn AWSトピック",
-      "published": "2026-08-01T14:01:11",
-      "excerpt": "◇はじめに これまで本ブログでは、AWS SAAの学習ログを中心に発信してきました。…"
+      "title": "カーソルにより使用状況ページと CSV エクスポートからコスト情報が削除されました",
+      "link": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-01T15:25:21",
+      "excerpt": "記事の URL: https://forum.cursor.com/t/usage-page-to-token-amount-what/167153 コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
