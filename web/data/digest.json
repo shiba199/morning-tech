@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-08-01T05:15:57",
+  "generated_at": "2026-08-01T07:39:40",
   "window_hours": 24,
-  "total": 192,
+  "total": 174,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が29件。Vercel LabsのTypeScriptネイティブコンパイラ`scriptc`を使って、TypeScriptのどこまでがネイティブコードへ変換されるのかを調査してみました。…",
+      "summary": "生成AIの新着が25件。大阪で開催された「Claude Managed Agents Workshop」に参加してきたので、その時の様子や学んだことをレポートします。",
       "articles": [
+        {
+          "title": "Claude Community EventでClaude Managed Agentsを触ってみた",
+          "link": "https://dev.classmethod.jp/articles/claude-managed-agents-workshop-osaka/",
+          "source": "DevelopersIO",
+          "published": "2026-08-01T07:00:27",
+          "excerpt": "大阪で開催された「Claude Managed Agents Workshop」に参加してきたので、その時の様子や学んだことをレポートします。"
+        },
+        {
+          "title": "Claude Code の CLI と Claude Desktop の Code タブは MDM で個別に無効化できるか試してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-cli-desktop-mdm-disable/",
+          "source": "DevelopersIO",
+          "published": "2026-08-01T05:24:45",
+          "excerpt": "Claude Enterprise で Claude Code の利用を部門やPC単位で制御したいとき、カスタムロールと MDM でどこまで細かく設定できるのか試してみました。"
+        },
+        {
+          "title": "【夏休みの自由研究リレー】 Chronos-2をSageMaker AIのリアルタイム推論で使う方法を調査してみた",
+          "link": "https://dev.classmethod.jp/articles/summer-project-2026-try-deployment-chronos-2-sagemaker-jumpstart-autogluonto-realtime-endpoint/",
+          "source": "DevelopersIO",
+          "published": "2026-08-01T05:16:22",
+          "excerpt": "Amazon の時系列基盤モデル Chronos-2 を、AutoGluon と SageMaker JumpStart でそれぞれデプロイして、実際に時系列予測を行ってみました。デプロイのための動線を中心にご紹介します。"
+        },
         {
           "title": "TypeScriptがどこまでネイティブバイナリになるか、scriptcのcoverageで対応範囲を確認してみた",
           "link": "https://dev.classmethod.jp/articles/scriptc-coverage-native-binary/",
           "source": "DevelopersIO",
           "published": "2026-08-01T04:31:35",
           "excerpt": "Vercel LabsのTypeScriptネイティブコンパイラ`scriptc`を使って、TypeScriptのどこまでがネイティブコードへ変換されるのかを調査してみました。…"
-        },
-        {
-          "title": "Bedrock AgentCoreを使ってみた",
-          "link": "https://qiita.com/furafura_infra/items/88edabe333f7aae1efe8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-01T04:01:36",
-          "excerpt": "きっかけ これまで、Bedrock Agentを使って、AIエージェントを遊びで作ってみたりしていました。…"
-        },
-        {
-          "title": "【非エンジニアのためのClaude/ClaudeCodeシリーズ】スライド作成、Claude Design と Claude Cowork どちらが良いものができて、どちらが安いのか？",
-          "link": "https://dev.classmethod.jp/articles/claudedesign-cowork-slide/",
-          "source": "DevelopersIO",
-          "published": "2026-08-01T01:02:00",
-          "excerpt": "同じプロンプトでClaude Designとチャット版Claudeにスライドを作ってもらったら、専用ツールのDesignだけが要件を聞き返してきました。出力はチャット版が華やかで盛り気味、Designは地味だが忠実。…"
-        },
-        {
-          "title": "Claude Codeの使い方を分析して最適化するcclensが良さげかも | kawarimidoll.com",
-          "link": "https://kawarimidoll.com/posts/202608011/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-08-01T00:13:28",
-          "excerpt": "cclens — a lens onto your Claude Code usage.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。はじめに お疲れ様です。矢儀 @yuki_ink です。SUSE Linux Enterprise Server (SLES) をEC2で起動してプロキシの設定をしたら、smt-ec2.susecloud.…",
+      "summary": "クラウドの新着が19件。はじめに お疲れ様です。矢儀 @yuki_ink です。SUSE Linux Enterprise Server (SLES) をEC2で起動してプロキシの設定をしたら、smt-ec2.susecloud.…",
       "articles": [
         {
           "title": "プロキシ環境下のSLES on EC2で `smt-ec2.susecloud.net` が名前解決できなかったときの対応 - SUSEリポジトリのIPアドレスを動的に取得してSquidにhostsを設定する",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。IAM Identity Center のマルチリージョンサポートが Identity Center ディレクトリにも拡張されました。外部 IdP 不要でセットアップできる新機能を、実際に東京リージョンを追加して試してみたので紹介します。",
+      "summary": "セキュリティの新着が12件。IAM Identity Center のマルチリージョンサポートが Identity Center ディレクトリにも拡張されました。外部 IdP 不要でセットアップできる新機能を、実際に東京リージョンを追加して試してみたので紹介します。",
       "articles": [
         {
           "title": "[アップデート] AWS IAM Identity Center のマルチリージョンサポートが Identity Center ディレクトリをIDソースとして使用するインスタンスにも対応しました",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。背景・目的 Amazon Redshift Data API は、ドライバ・接続・ネットワーク設定・認証情報を自前で管理せずに SQL を実行できる非同期 API です。…",
+      "summary": "データ分析の新着が4件。GCPプロジェクトのコスト管理を、gcloud CLIでの予算アラート設定、BigQueryへの課金データエクスポート、OpenTofuでのビュー作成の3段階で構築しました。…",
       "articles": [
+        {
+          "title": "GCPの予算アラート設定からBigQuery課金エクスポート＋データポータル連携までをOpenTofuで構築してみた",
+          "link": "https://dev.classmethod.jp/articles/gcp-billing-budget-alert-bigquery-looker-studio-opentofu/",
+          "source": "DevelopersIO",
+          "published": "2026-08-01T06:00:19",
+          "excerpt": "GCPプロジェクトのコスト管理を、gcloud CLIでの予算アラート設定、BigQueryへの課金データエクスポート、OpenTofuでのビュー作成の3段階で構築しました。…"
+        },
         {
           "title": "Redshift Data API の3つのアップデートを試してみた",
           "link": "https://qiita.com/zumax/items/fb46b8f6f50e365c75ff",
@@ -134,21 +141,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-31T08:24:19",
           "excerpt": "はじめに AWS では、Cognito Identity Pool を使うと「ログイン不要」のゲストアクセスを提供できます。デモアプリ、無料体験、ゲスト向け機能などでよく使われる構成です。…"
-        },
-        {
-          "title": "Debian、AI/LLM利用に関する5つの提案を検討中",
-          "link": "https://gihyo.jp/article/2026/07/daily-linux-260731?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-07-31T07:08:00",
-          "excerpt": "オープンソースプロジェクトにおけるAI/LLMの貢献をどの程度認めるのか ―これはLinuxカーネルや歴史の長いディストリビューションにとって頭の痛い問題となっている。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が18件。AWS CDKで、開発環境と本番環境など、環境別にスタックを作成しました。1つのCDKコードを使いながら、デプロイ時に dev や prod を指定して、リージョン、環境名、リソース名などを切り替える形です。今回は、cdk.…",
+      "summary": "開発ツールの新着が14件。Claude Enterprise で Claude Code の利用を部門やPC単位で制御したいとき、カスタムロールと MDM でどこまで細かく設定できるのか試してみました。",
       "articles": [
+        {
+          "title": "Claude Code の CLI と Claude Desktop の Code タブは MDM で個別に無効化できるか試してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-cli-desktop-mdm-disable/",
+          "source": "DevelopersIO",
+          "published": "2026-08-01T05:24:45",
+          "excerpt": "Claude Enterprise で Claude Code の利用を部門やPC単位で制御したいとき、カスタムロールと MDM でどこまで細かく設定できるのか試してみました。"
+        },
         {
           "title": "AWS CDK:環境別スタックの作成手順~contextを使ってdev/prodのスタック設定を切り替える",
           "link": "https://zenn.dev/hknote/articles/cdk-context-env-stack",
@@ -169,45 +176,38 @@
           "source": "CodeZine",
           "published": "2026-08-01T03:00:00",
           "excerpt": "GitHub Copilot、Visual Studio向けの7月アップデートをまとめて紹介"
-        },
-        {
-          "title": "aws-benchのCloudFormation復旧タスクで実行できる手順を答えたKiro CLIが不合格になった理由を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-bench-fix-cfn-kiro-cli-17models/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T18:05:54",
-          "excerpt": "aws-bench の公開データセットから CloudFormation の復旧タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "リベラルアーツ教育は何のためにあるのか（2024年）",
-      "link": "https://innig.net/teaching/liberal-arts-manifesto",
+      "title": "移民急増でスペインの開放政策が試される",
+      "link": "https://economist.com/europe/2026/07/31/a-migrant-surge-tests-spains-open-policies",
       "source": "Hacker News（英語）",
-      "published": "2026-08-01T04:28:13",
-      "excerpt": "記事の URL: https://innig.net/teaching/liver-arts-manifesto コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-01T07:03:19",
+      "excerpt": "記事の URL: https://economist.com/europe/2026/07/31/a-migrant-surge-tests-spains-open-policies コメント URL: https://news.…"
     },
     {
-      "title": "無料・個人ではじめるアクセスログ解析基盤 ― AWS×Cloudflareで訪問者を挙動から見に行く",
-      "link": "https://zenn.dev/muzzledskr/books/access-log-analytics",
-      "source": "Zenn AWSトピック",
-      "published": "2026-08-01T04:07:02",
-      "excerpt": "個人ブログの無料スタック(Cloudflare無料ログ + S3 + dbt + GA4)で、アクセスログ解析から人間/bot分類、SLIまでを実測で作る連載。無料でどこまで見えるかの「到達点」を公開。"
+      "title": "Amazon GameLift Streams、カスタムアスペクト比とダイナミック解像度に対応",
+      "link": "https://codezine.jp/article/detail/29193",
+      "source": "CodeZine",
+      "published": "2026-08-01T06:00:00",
+      "excerpt": "Amazon GameLift Streams、カスタムアスペクト比とダイナミック解像度に対応"
     },
     {
-      "title": "Playwrightをテストランナーなしで使う — @playwright/testを使わない選択肢とそのトレードオフ",
-      "link": "https://dev.classmethod.jp/articles/playwright-without-test-runner/",
-      "source": "DevelopersIO",
-      "published": "2026-08-01T04:00:09",
-      "excerpt": "Playwrightには @playwright/test だけでなく、テストランナーなしで使えるコアライブラリ playwright があります。…"
+      "title": "品川会 #7 に富山から参加して登壇してきた",
+      "link": "https://qiita.com/ssakita/items/fee908686d2b9f72b30d",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-01T05:38:34",
+      "excerpt": "はじめに こんにちは！ssakitaです！7月29日（水）、株式会社クレスコさんで開催された「品川会 #7」に参加してきました！品川会は初参加で、せっかくなので登壇もさせていただきました！品川会とは 前Jr.…"
     },
     {
-      "title": "毎年約100人の消防士が放火で有罪判決を受ける",
-      "link": "https://www.firerescue1.com/arson-investigation/articles/expert-firefighter-arson-a-long-standing-issue-xHXLFAdYVcQPiuPU/",
+      "title": "NAS を強化する 10 の方法",
+      "link": "https://nascompares.com/2026/07/31/the-10-ways-nas-is-getting-enshitified/",
       "source": "Hacker News（英語）",
-      "published": "2026-08-01T03:50:30",
-      "excerpt": "記事の URL: https://www.firerescue1.…"
+      "published": "2026-08-01T05:38:16",
+      "excerpt": "記事の URL: https://nascompares.com/2026/07/31/the-10-ways-nas-is-getting-enshitified/ コメント URL: https://news.ycombinator.…"
     }
   ]
 }
