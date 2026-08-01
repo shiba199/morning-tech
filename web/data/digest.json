@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-01T11:09:20",
+  "generated_at": "2026-08-01T12:32:34",
   "window_hours": 24,
-  "total": 155,
+  "total": 152,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が21件。コカコーラ大好きカジです。「Cursor物語 続編 — Agent時代へのアップデート」というタイトルで、Cursor Meetup Sapporoの10分LTに会場提供枠で登壇しました",
+      "summary": "生成AIの新着が21件。はじめに Bedrock AgentCore Web Searchでいろいろ確かめていた時に、クエリを工夫しないと欲しい情報が得られなさそうと思ったので、簡単に確かめてみることにしました。…",
       "articles": [
+        {
+          "title": "Bedrock AgentCore Web Searchは意図した企業を特定できるか",
+          "link": "https://qiita.com/SysDevLog/items/ef101bc3a1510ade8501",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-01T12:00:45",
+          "excerpt": "はじめに Bedrock AgentCore Web Searchでいろいろ確かめていた時に、クエリを工夫しないと欲しい情報が得られなさそうと思ったので、簡単に確かめてみることにしました。…"
+        },
+        {
+          "title": "Claude Code更新 プロンプト削減・sandbox強化【7/24〜30】 | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/2026/08/01/190000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-01T10:00:00",
+          "excerpt": "はじめに サーバーワークスの池田です。今週（7/24〜7/30）のClaude Codeは、v2.1.219とv2.1.220の2バージョンがリリースされました。CLI自体の変更は小粒で、v2.1.…"
+        },
         {
           "title": "Cursor物語 続編 — Agent時代へのアップデート #CursorMeetupSapporo",
           "link": "https://dev.classmethod.jp/articles/cursor-meetup-sapporo-202608-kaji-lt/",
@@ -22,28 +36,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-01T08:48:44",
           "excerpt": "はじめに この記事は全て人間が書いています。そしてこの記事には、当たり前すぎる内容しか書かれていないかもしれません。はじめまして、@kenken38です。…"
-        },
-        {
-          "title": "Claude Community EventでClaude Managed Agentsを触ってみた",
-          "link": "https://dev.classmethod.jp/articles/claude-managed-agents-workshop-osaka/",
-          "source": "DevelopersIO",
-          "published": "2026-08-01T07:00:27",
-          "excerpt": "大阪で開催された「Claude Managed Agents Workshop」に参加してきたので、その時の様子や学んだことをレポートします。"
-        },
-        {
-          "title": "Claude Code の CLI と Claude Desktop の Code タブは MDM で個別に無効化できるか試してみた",
-          "link": "https://dev.classmethod.jp/articles/claude-code-cli-desktop-mdm-disable/",
-          "source": "DevelopersIO",
-          "published": "2026-08-01T05:24:45",
-          "excerpt": "Claude Enterprise で Claude Code の利用を部門やPC単位で制御したいとき、カスタムロールと MDM でどこまで細かく設定できるのか試してみました。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。DynamoDBのストレージコストは高額になりやすいため、TTLとStreamsを活用してS3への自動アーカイブを実装する手法を試してみました。実装手順と具体的なコスト削減シミュレーションを紹介します。",
+      "summary": "クラウドの新着が17件。Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…",
       "articles": [
+        {
+          "title": "[アップデート] Amazon Redshift Serverless の 3 年 Serverless Reservations に All Upfront が追加され、最大 50% のコスト削減が可能になりました",
+          "link": "https://dev.classmethod.jp/articles/20260724-redshift-serverless-three-year-auri/",
+          "source": "DevelopersIO",
+          "published": "2026-08-01T12:12:52",
+          "excerpt": "Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…"
+        },
         {
           "title": "DynamoDB Streamsを使ってS3にデータを自動でアーカイブしてみる",
           "link": "https://dev.classmethod.jp/articles/dynamodb-streams-s3-archive/",
@@ -64,20 +71,13 @@
           "source": "The Register（英語）",
           "published": "2026-08-01T07:00:00",
           "excerpt": "クラウド収益は現在、四半期あたり 1,430 億ドルを超え、成長は加速しています"
-        },
-        {
-          "title": "S3 Event NotificationsのAWS生成タグで文書処理フローをシンプルにする",
-          "link": "https://zenn.dev/the_exile/articles/s3-event-notifications-system-generated-tags",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-01T05:51:35",
-          "excerpt": "はじめに 2026年7月、Amazon S3 Event Notificationsに、S3バケットへ付与されたAWS生成タグ（system-generated tags）が含まれるようになりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。取り外し可能なチップにより、ハッカーはバッジを検査し、デフコン後も使い続けることができます。",
+      "summary": "セキュリティの新着が9件。取り外し可能なチップにより、ハッカーはバッジを検査し、デフコン後も使い続けることができます。",
       "articles": [
         {
           "title": "Defcon の新しいバッジは、中に見えるセキュリティ キーです",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。DynamoDBのストレージコストは高額になりやすいため、TTLとStreamsを活用してS3への自動アーカイブを実装する手法を試してみました。実装手順と具体的なコスト削減シミュレーションを紹介します。",
+      "summary": "データ分析の新着が5件。Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…",
       "articles": [
+        {
+          "title": "[アップデート] Amazon Redshift Serverless の 3 年 Serverless Reservations に All Upfront が追加され、最大 50% のコスト削減が可能になりました",
+          "link": "https://dev.classmethod.jp/articles/20260724-redshift-serverless-three-year-auri/",
+          "source": "DevelopersIO",
+          "published": "2026-08-01T12:12:52",
+          "excerpt": "Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…"
+        },
         {
           "title": "DynamoDB Streamsを使ってS3にデータを自動でアーカイブしてみる",
           "link": "https://dev.classmethod.jp/articles/dynamodb-streams-s3-archive/",
@@ -134,20 +141,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-31T16:22:03",
           "excerpt": "背景・目的 Amazon Redshift Data API は、ドライバ・接続・ネットワーク設定・認証情報を自前で管理せずに SQL を実行できる非同期 API です。…"
-        },
-        {
-          "title": "GitHubにスタックプルリクエストが登場。gh stackでPRを分割して積み上げよう | Ubie テックブログのフィード",
-          "link": "https://zenn.dev/ubie_dev/articles/gh-stack-introduction",
-          "source": "企業テックブログまとめ",
-          "published": "2026-07-31T13:33:10",
-          "excerpt": "GitHubでPRを細かく作り、前のブランチに対して数珠つなぎのようにPRを作る私が大歓喜！…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。GitHub Copilot、リモート制御を管理対象デバイスのみに制限可能に",
+      "summary": "開発ツールの新着が11件。GitHub Copilot、リモート制御を管理対象デバイスのみに制限可能に",
       "articles": [
         {
           "title": "GitHub Copilot、リモート制御を管理対象デバイスのみに制限可能に",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "Kontigo (YC S24) が人材を募集しています",
+      "link": "https://www.ycombinator.com/companies/kontigo/jobs/xAo6tMt-founding-engineer",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-01T12:00:25",
+      "excerpt": "記事の URL: https://www.ycombinator.com/companies/kontigo/jobs/xAo6tMt-founding-engineer コメント URL: https://news.…"
+    },
+    {
+      "title": "[アップデート] AWS Managed Microsoft ADのエディション変更がマネジメントコンソールからも可能になりました",
+      "link": "https://dev.classmethod.jp/articles/aws-managed-microsoft-ad-console-edition-upgrades/",
+      "source": "DevelopersIO",
+      "published": "2026-08-01T11:37:05",
+      "excerpt": "AWS Managed Microsoft ADのエディション変更がマネジメントコンソールからも可能になったのでその検証結果を報告します。"
+    },
+    {
+      "title": "騒音の苦情を受け、裁判官がウェイモにサンタモニカでの夜間充電を中止するよう命令",
+      "link": "https://arstechnica.com/tech-policy/2026/08/after-noise-complaints-judge-orders-waymo-to-stop-overnight-charging-in-santa-monica/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-08-01T11:30:54",
+      "excerpt": "自動運転車の巨人が住民の睡眠を妨害する。"
+    },
+    {
       "title": "ショウジョウバエはどのようにして目に見えない匂いのリボンを追いかけて発生源に到達するのか",
       "link": "https://arstechnica.com/science/2026/08/how-fruit-flies-chase-invisible-ribbons-of-smell-to-get-to-their-source/",
       "source": "Ars Technica（英語）",
       "published": "2026-08-01T10:00:19",
       "excerpt": "乱気流の中で匂いを追跡するには、鋭い方向感覚と鋭い記憶力が必要です。"
-    },
-    {
-      "title": "チェックイン時に Windows アクティベーション エラーが表示されるため、袋詰めエリアに予期しないアイテムが表示される",
-      "link": "https://www.theregister.com/offbeat/2026/08/01/unexpected-item-in-the-bagging-area-as-windows-activation-error-pops-up-at-check-in/5281946",
-      "source": "The Register（英語）",
-      "published": "2026-08-01T10:00:00",
-      "excerpt": "Microsoft ライセンス キーによってバッグの重量が重くなる"
-    },
-    {
-      "title": "【AWS】Managed Knowledge Baseでの検索フィルターを確認しました",
-      "link": "https://qiita.com/yakumo_09/items/e3442f0e25976aa73afe",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-01T09:59:21",
-      "excerpt": "はじめに Managed Knowledge Baseと検索フィルターを組み合わせていろいろ試してみました。Gateway の Interceptor で検索リクエストを書き換えれば、検索の時点で絞り込めるはず。…"
-    },
-    {
-      "title": "【ご報告】2026 Japan AWS Jr.Champions 選出",
-      "link": "https://qiita.com/somasun_aws/items/153a716cd4f0518b3f6d",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-01T09:31:13",
-      "excerpt": "ご報告 少し時間が空いてしまいましたが、 先日開催されたAWS Summit Japan 2026 そしてAPN Blogでも発表いただいた通り、 「2026 Japan AWS Jr.Champions」に選出いただきました。…"
     }
   ]
 }
