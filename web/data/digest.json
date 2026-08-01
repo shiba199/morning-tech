@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-01T09:48:20",
+  "generated_at": "2026-08-01T11:09:20",
   "window_hours": 24,
-  "total": 162,
+  "total": 155,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が25件。コカコーラ大好きカジです。「Cursor物語 続編 — Agent時代へのアップデート」というタイトルで、Cursor Meetup Sapporoの10分LTに会場提供枠で登壇しました",
+      "summary": "生成AIの新着が21件。コカコーラ大好きカジです。「Cursor物語 続編 — Agent時代へのアップデート」というタイトルで、Cursor Meetup Sapporoの10分LTに会場提供枠で登壇しました",
       "articles": [
         {
           "title": "Cursor物語 続編 — Agent時代へのアップデート #CursorMeetupSapporo",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。はじめに こんばんは、mirukyです。2026年6月、Amazon S3へS3 Annotationsという機能が追加されました。…",
+      "summary": "クラウドの新着が16件。DynamoDBのストレージコストは高額になりやすいため、TTLとStreamsを活用してS3への自動アーカイブを実装する手法を試してみました。実装手順と具体的なコスト削減シミュレーションを紹介します。",
       "articles": [
+        {
+          "title": "DynamoDB Streamsを使ってS3にデータを自動でアーカイブしてみる",
+          "link": "https://dev.classmethod.jp/articles/dynamodb-streams-s3-archive/",
+          "source": "DevelopersIO",
+          "published": "2026-08-01T10:17:10",
+          "excerpt": "DynamoDBのストレージコストは高額になりやすいため、TTLとStreamsを活用してS3への自動アーカイブを実装する手法を試してみました。実装手順と具体的なコスト削減シミュレーションを紹介します。"
+        },
         {
           "title": "【Amazon S3】タグともメタデータとも違うS3 Annotationsを試してみる",
           "link": "https://qiita.com/miruky/items/3827190f928ed08c4b46",
@@ -52,33 +59,33 @@
           "excerpt": "はじめに こんばんは、mirukyです。2026年6月、Amazon S3へS3 Annotationsという機能が追加されました。…"
         },
         {
+          "title": "エンタープライズクラウドインフラストラクチャの普及は衰える兆しがない",
+          "link": "https://www.theregister.com/off-prem/2026/08/01/enterprise-cloud-infrastructure-uptake-shows-no-sign-of-slowing/5281835",
+          "source": "The Register（英語）",
+          "published": "2026-08-01T07:00:00",
+          "excerpt": "クラウド収益は現在、四半期あたり 1,430 億ドルを超え、成長は加速しています"
+        },
+        {
           "title": "S3 Event NotificationsのAWS生成タグで文書処理フローをシンプルにする",
           "link": "https://zenn.dev/the_exile/articles/s3-event-notifications-system-generated-tags",
           "source": "Zenn AWSトピック",
           "published": "2026-08-01T05:51:35",
           "excerpt": "はじめに 2026年7月、Amazon S3 Event Notificationsに、S3バケットへ付与されたAWS生成タグ（system-generated tags）が含まれるようになりました。…"
-        },
-        {
-          "title": "プロキシ環境下のSLES on EC2で `smt-ec2.susecloud.net` が名前解決できなかったときの対応 - SUSEリポジトリのIPアドレスを動的に取得してSquidにhostsを設定する",
-          "link": "https://qiita.com/yuki_ink/items/7506e714c5860265c47c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-01T04:43:45",
-          "excerpt": "はじめに お疲れ様です。矢儀 @yuki_ink です。SUSE Linux Enterprise Server (SLES) をEC2で起動してプロキシの設定をしたら、smt-ec2.susecloud.…"
-        },
-        {
-          "title": "TerraformでAWS環境を構築してみた ～Terraform導入からEC2作成・SSH接続まで～",
-          "link": "https://qiita.com/ttakumi0027-beep/items/c7b02d19966cf55ae92e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-01T03:57:07",
-          "excerpt": "はじめに AWS SAAを取得したため、実際にAWS上へリソースを構築しながら理解を深めたいと考えました。また、近年はIaC（Infrastructure as Code）を利用してクラウドインフラを構築する機会が増えています。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。IAM Identity Center のマルチリージョンサポートが Identity Center ディレクトリにも拡張されました。外部 IdP 不要でセットアップできる新機能を、実際に東京リージョンを追加して試してみたので紹介します。",
+      "summary": "セキュリティの新着が10件。取り外し可能なチップにより、ハッカーはバッジを検査し、デフコン後も使い続けることができます。",
       "articles": [
+        {
+          "title": "Defcon の新しいバッジは、中に見えるセキュリティ キーです",
+          "link": "https://arstechnica.com/security/2026/08/defcons-new-badge-is-a-security-key-you-can-see-inside/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-08-01T10:05:21",
+          "excerpt": "取り外し可能なチップにより、ハッカーはバッジを検査し、デフコン後も使い続けることができます。"
+        },
         {
           "title": "[アップデート] AWS IAM Identity Center のマルチリージョンサポートが Identity Center ディレクトリをIDソースとして使用するインスタンスにも対応しました",
           "link": "https://dev.classmethod.jp/articles/iam-identity-center-extends-multi-region-support-to-identity-center-directory/",
@@ -99,21 +106,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-07-31T19:20:33",
           "excerpt": "皆さんこんばんは！プロジェクトがデスマーチで毎日の帰りが24時過ぎ！ポンコツエンジニアのGONです。今日も帰りににわか雨に遭遇して散々な目に会いました。プロジェクトに鎮火の雨は降らないのになんなんでしょうか。…"
-        },
-        {
-          "title": "IAM Policy Simulatorの新機能「PolicyExclusionList」を試してみた",
-          "link": "https://dev.classmethod.jp/articles/iam-policy-simulator-policy-exclusion-list/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T17:51:41",
-          "excerpt": "IAM Policy Simulatorに新しく追加された `PolicyExclusionList` パラメータを使うと、特定のポリシーを仮想的に除外した状態でアクセス可否をシミュレーションできます。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。GCPプロジェクトのコスト管理を、gcloud CLIでの予算アラート設定、BigQueryへの課金データエクスポート、OpenTofuでのビュー作成の3段階で構築しました。…",
+      "summary": "データ分析の新着が4件。DynamoDBのストレージコストは高額になりやすいため、TTLとStreamsを活用してS3への自動アーカイブを実装する手法を試してみました。実装手順と具体的なコスト削減シミュレーションを紹介します。",
       "articles": [
+        {
+          "title": "DynamoDB Streamsを使ってS3にデータを自動でアーカイブしてみる",
+          "link": "https://dev.classmethod.jp/articles/dynamodb-streams-s3-archive/",
+          "source": "DevelopersIO",
+          "published": "2026-08-01T10:17:10",
+          "excerpt": "DynamoDBのストレージコストは高額になりやすいため、TTLとStreamsを活用してS3への自動アーカイブを実装する手法を試してみました。実装手順と具体的なコスト削減シミュレーションを紹介します。"
+        },
         {
           "title": "GCPの予算アラート設定からBigQuery課金エクスポート＋データポータル連携までをOpenTofuで構築してみた",
           "link": "https://dev.classmethod.jp/articles/gcp-billing-budget-alert-bigquery-looker-studio-opentofu/",
@@ -140,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。GitHub Copilot、リモート制御を管理対象デバイスのみに制限可能に",
+      "summary": "開発ツールの新着が12件。GitHub Copilot、リモート制御を管理対象デバイスのみに制限可能に",
       "articles": [
         {
           "title": "GitHub Copilot、リモート制御を管理対象デバイスのみに制限可能に",
@@ -175,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "ショウジョウバエはどのようにして目に見えない匂いのリボンを追いかけて発生源に到達するのか",
+      "link": "https://arstechnica.com/science/2026/08/how-fruit-flies-chase-invisible-ribbons-of-smell-to-get-to-their-source/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-08-01T10:00:19",
+      "excerpt": "乱気流の中で匂いを追跡するには、鋭い方向感覚と鋭い記憶力が必要です。"
+    },
+    {
+      "title": "チェックイン時に Windows アクティベーション エラーが表示されるため、袋詰めエリアに予期しないアイテムが表示される",
+      "link": "https://www.theregister.com/offbeat/2026/08/01/unexpected-item-in-the-bagging-area-as-windows-activation-error-pops-up-at-check-in/5281946",
+      "source": "The Register（英語）",
+      "published": "2026-08-01T10:00:00",
+      "excerpt": "Microsoft ライセンス キーによってバッグの重量が重くなる"
+    },
+    {
+      "title": "【AWS】Managed Knowledge Baseでの検索フィルターを確認しました",
+      "link": "https://qiita.com/yakumo_09/items/e3442f0e25976aa73afe",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-01T09:59:21",
+      "excerpt": "はじめに Managed Knowledge Baseと検索フィルターを組み合わせていろいろ試してみました。Gateway の Interceptor で検索リクエストを書き換えれば、検索の時点で絞り込めるはず。…"
+    },
+    {
       "title": "【ご報告】2026 Japan AWS Jr.Champions 選出",
       "link": "https://qiita.com/somasun_aws/items/153a716cd4f0518b3f6d",
       "source": "Qiita AWSタグ",
       "published": "2026-08-01T09:31:13",
       "excerpt": "ご報告 少し時間が空いてしまいましたが、 先日開催されたAWS Summit Japan 2026 そしてAPN Blogでも発表いただいた通り、 「2026 Japan AWS Jr.Champions」に選出いただきました。…"
-    },
-    {
-      "title": "ラーメンハウス",
-      "link": "https://ramen.haus/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-01T08:48:58",
-      "excerpt": "記事の URL: https://ramen.haus/ コメント URL: https://news.ycombinator.com/item?id=49132460 ポイント: 50 コメント数: 14"
-    },
-    {
-      "title": "素晴らしい仕事をする方法",
-      "link": "https://paulgraham.com/greatwork.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-01T08:19:44",
-      "excerpt": "記事の URL: https://paulgraham.com/greatwork.html コメント URL: https://news.ycombinator.com/item?id=49132289 ポイント: 3 コメント数: 1"
-    },
-    {
-      "title": "個人開発のサービスが乗っ取られそうになった話 (Subdomain Takeover)",
-      "link": "https://qiita.com/kter/items/48cdf8db5f2744ae408d",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-01T08:11:40",
-      "excerpt": "表題の通りです。ある日、面識のない海外のセキュリティ研究者を名乗る人物から「あなたのサブドメインが乗っ取れる状態になっている」というメールが届きました。…"
     }
   ]
 }
