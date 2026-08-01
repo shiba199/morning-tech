@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-01T14:20:43",
+  "generated_at": "2026-08-01T15:33:38",
   "window_hours": 24,
-  "total": 145,
+  "total": 139,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が21件。はじめに Bedrock AgentCore Web Searchでいろいろ確かめていた時に、クエリを工夫しないと欲しい情報が得られなさそうと思ったので、簡単に確かめてみることにしました。…",
+      "summary": "生成AIの新着が19件。Kiro のモデル選択画面で、GPT-5.6 Terra が 1.20x から 1.00x、Luna が 0.60x から 0.10x に変わっていることを確認しました。…",
       "articles": [
+        {
+          "title": "Kiro の GPT-5.6 Luna のクレジット倍率が約83%オフ。Terra / Luna の変更後の表示を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-gpt56-terra-luna-credit-price-cut/",
+          "source": "DevelopersIO",
+          "published": "2026-08-01T14:16:24",
+          "excerpt": "Kiro のモデル選択画面で、GPT-5.6 Terra が 1.20x から 1.00x、Luna が 0.60x から 0.10x に変わっていることを確認しました。…"
+        },
         {
           "title": "Bedrock AgentCore Web Searchは意図した企業を特定できるか",
           "link": "https://qiita.com/SysDevLog/items/ef101bc3a1510ade8501",
@@ -29,21 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-08-01T09:07:53",
           "excerpt": "コカコーラ大好きカジです。「Cursor物語 続編 — Agent時代へのアップデート」というタイトルで、Cursor Meetup Sapporoの10分LTに会場提供枠で登壇しました"
-        },
-        {
-          "title": "私のコーディングエージェントの使い方",
-          "link": "https://qiita.com/kenken38/items/ccd546ebdbc9b37066f6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-01T08:48:44",
-          "excerpt": "はじめに この記事は全て人間が書いています。そしてこの記事には、当たり前すぎる内容しか書かれていないかもしれません。はじめまして、@kenken38です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…",
+      "summary": "クラウドの新着が15件。この記事では、Goで作成したTwitter風APIを、次の構成でAWSへデプロイします。…",
       "articles": [
+        {
+          "title": "Twitter API(Go)をAWS ECS Fargateへデプロイする手順",
+          "link": "https://qiita.com/sue-hc/items/e386e44ee59d84a80cd8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-01T15:27:45",
+          "excerpt": "この記事では、Goで作成したTwitter風APIを、次の構成でAWSへデプロイします。…"
+        },
+        {
+          "title": "【AWS Systems Manager】Session Manager でEC2に接続する",
+          "link": "https://qiita.com/hcs1996rbl/items/43191a4a2608a63038f9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-01T15:19:30",
+          "excerpt": "はじめに EC2をパブリックサブネット → プライベートサブネットに移設した。プライベートサブネットにはインターネットへアクセスするための設定がない。…"
+        },
         {
           "title": "[アップデート] Amazon Redshift Serverless の 3 年 Serverless Reservations に All Upfront が追加され、最大 50% のコスト削減が可能になりました",
           "link": "https://dev.classmethod.jp/articles/20260724-redshift-serverless-three-year-auri/",
@@ -57,27 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-01T10:17:10",
           "excerpt": "DynamoDBのストレージコストは高額になりやすいため、TTLとStreamsを活用してS3への自動アーカイブを実装する手法を試してみました。実装手順と具体的なコスト削減シミュレーションを紹介します。"
-        },
-        {
-          "title": "【Amazon S3】タグともメタデータとも違うS3 Annotationsを試してみる",
-          "link": "https://qiita.com/miruky/items/3827190f928ed08c4b46",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-01T08:40:00",
-          "excerpt": "はじめに こんばんは、mirukyです。2026年6月、Amazon S3へS3 Annotationsという機能が追加されました。…"
-        },
-        {
-          "title": "エンタープライズクラウドインフラストラクチャの普及は衰える兆しがない",
-          "link": "https://www.theregister.com/off-prem/2026/08/01/enterprise-cloud-infrastructure-uptake-shows-no-sign-of-slowing/5281835",
-          "source": "The Register（英語）",
-          "published": "2026-08-01T07:00:00",
-          "excerpt": "クラウド収益は現在、四半期あたり 1,430 億ドルを超え、成長は加速しています"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。本記事は 夏休みクラウド自由研究2026 8/1付の記事です。殆どの企業でゼロトラストを目指されていますが、「これを買えばゼロトラストが完成する」という単一の製品やソリューションは残念ながら存在しません。ただし、より完 […]…",
+      "summary": "セキュリティの新着が8件。本記事は 夏休みクラウド自由研究2026 8/1付の記事です。殆どの企業でゼロトラストを目指されていますが、「これを買えばゼロトラストが完成する」という単一の製品やソリューションは残念ながら存在しません。ただし、より完 […]…",
       "articles": [
         {
           "title": "SASEとマイクロセグメンテーションで実現する完全なゼロトラスト | TechHarmony",
@@ -147,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。GitHub Copilot、リモート制御を管理対象デバイスのみに制限可能に",
+      "summary": "開発ツールの新着が11件。この記事では、Goで作成したTwitter風APIを、次の構成でAWSへデプロイします。…",
       "articles": [
+        {
+          "title": "Twitter API(Go)をAWS ECS Fargateへデプロイする手順",
+          "link": "https://qiita.com/sue-hc/items/e386e44ee59d84a80cd8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-01T15:27:45",
+          "excerpt": "この記事では、Goで作成したTwitter風APIを、次の構成でAWSへデプロイします。…"
+        },
+        {
+          "title": "TerraformでAWS API Gatewayをコード化してみる",
+          "link": "https://zenn.dev/markreo/articles/8c71401dce0d56",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-01T10:19:46",
+          "excerpt": "はじめに 前回はAWSコンソール（GUI）を使って、API GatewayとLambdaを連携させる構成を構築しました。…"
+        },
+        {
+          "title": "Terraform × AWS監視基盤②(RDS / NAT Gateway / ログ転送)",
+          "link": "https://zenn.dev/aws_iac_notes/articles/eda5579e3d083a",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-01T09:27:28",
+          "excerpt": "1.はじめに 前編では、Terraformで追加したCloudWatchアラームのうち、EC2・ALB系の動作確認を行いました。…"
+        },
         {
           "title": "GitHub Copilot、リモート制御を管理対象デバイスのみに制限可能に",
           "link": "https://codezine.jp/article/detail/29194",
           "source": "CodeZine",
           "published": "2026-08-01T09:00:00",
           "excerpt": "GitHub Copilot、リモート制御を管理対象デバイスのみに制限可能に"
-        },
-        {
-          "title": "私のコーディングエージェントの使い方",
-          "link": "https://qiita.com/kenken38/items/ccd546ebdbc9b37066f6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-01T08:48:44",
-          "excerpt": "はじめに この記事は全て人間が書いています。そしてこの記事には、当たり前すぎる内容しか書かれていないかもしれません。はじめまして、@kenken38です。…"
-        },
-        {
-          "title": "Claude Code の CLI と Claude Desktop の Code タブは MDM で個別に無効化できるか試してみた",
-          "link": "https://dev.classmethod.jp/articles/claude-code-cli-desktop-mdm-disable/",
-          "source": "DevelopersIO",
-          "published": "2026-08-01T05:24:45",
-          "excerpt": "Claude Enterprise で Claude Code の利用を部門やPC単位で制御したいとき、カスタムロールと MDM でどこまで細かく設定できるのか試してみました。"
-        },
-        {
-          "title": "AWS CDK:環境別スタックの作成手順~contextを使ってdev/prodのスタック設定を切り替える",
-          "link": "https://zenn.dev/hknote/articles/cdk-context-env-stack",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-01T04:00:05",
-          "excerpt": "AWS CDKで、開発環境と本番環境など、環境別にスタックを作成しました。1つのCDKコードを使いながら、デプロイ時に dev や prod を指定して、リージョン、環境名、リソース名などを切り替える形です。今回は、cdk.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "運命スクロールから解放され、アクティブになるのに役立つアプリ",
-      "link": "https://techcrunch.com/2026/08/01/apps-that-help-you-break-free-from-doomscrolling-and-get-active/",
+      "title": "Uber は自動運転車帝国を構築中、そのために同社が利用している全企業を紹介",
+      "link": "https://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-01T14:00:00",
-      "excerpt": "スクリーンタイムを減らしてもう少し活動的になりたいと考えているなら、役立つかもしれないアプリをまとめてご紹介します。"
+      "published": "2026-08-01T15:05:00",
+      "excerpt": "ウーバーは過去 2 年間に約 30 社の自動運転車会社と提携し、場合によっては直接投資も行ってきました。パートナーシップのリストと最新情報は次のとおりです。…"
     },
     {
-      "title": "手持ちミニ扇風機のおすすめは？",
-      "link": "https://techcrunch.com/2026/08/01/whats-the-best-handheld-mini-fan/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-01T13:36:54",
-      "excerpt": "プレミアム Shark や Dyson 製品からランダムな Amazon デバイスまで、これらのミニファンを使えば、汗ばむ夏を少しでも快適に過ごせるようになります。"
-    },
-    {
-      "title": "ガバメント AI 源内（genai-web）を Entra ID シングルサインオン + カスタムドメインで運用する",
-      "link": "https://qiita.com/takeda_h/items/74e0d6802dafeda4a7b1",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-01T13:27:50",
-      "excerpt": "ガバメント AI 源内の AI インターフェース（genai-web）は、ユーザー認証に Cognito を使っており、デフォルトではメールアドレスを使ったパスワード認証をするようになっています。…"
-    },
-    {
-      "title": "RipGrep musl バイナリは、非常に大規模な検索中にセグメンテーション違反になることがあります",
-      "link": "https://github.com/BurntSushi/ripgrep/issues/3494",
+      "title": "隠れた監視条約: カナダが国連サイバー犯罪条約に署名",
+      "link": "https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/",
       "source": "Hacker News（英語）",
-      "published": "2026-08-01T12:34:25",
-      "excerpt": "記事の URL: https://github.com/BurntSushi/ripgrep/issues/3494 コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-01T14:19:51",
+      "excerpt": "記事の URL: https://www.michaelgeist.…"
+    },
+    {
+      "title": "64 ビット アセンブリの技術",
+      "link": "https://nostarch.com/art-64-bit-assembly-v2",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-01T14:09:00",
+      "excerpt": "記事の URL: https://nostarch.com/art-64-bit-assembly-v2 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "【前編】これまでのキャリアの棚卸し ― 運用管理からクラウドエンジニアを目指して",
+      "link": "https://zenn.dev/hitakaha/articles/849fdaedab1c28",
+      "source": "Zenn AWSトピック",
+      "published": "2026-08-01T14:01:11",
+      "excerpt": "◇はじめに これまで本ブログでは、AWS SAAの学習ログを中心に発信してきました。…"
     }
   ]
 }
