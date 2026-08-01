@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-01T01:46:56",
+  "generated_at": "2026-08-01T05:15:57",
   "window_hours": 24,
-  "total": 207,
+  "total": 192,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。同じプロンプトでClaude Designとチャット版Claudeにスライドを作ってもらったら、専用ツールのDesignだけが要件を聞き返してきました。出力はチャット版が華やかで盛り気味、Designは地味だが忠実。…",
+      "summary": "生成AIの新着が29件。Vercel LabsのTypeScriptネイティブコンパイラ`scriptc`を使って、TypeScriptのどこまでがネイティブコードへ変換されるのかを調査してみました。…",
       "articles": [
+        {
+          "title": "TypeScriptがどこまでネイティブバイナリになるか、scriptcのcoverageで対応範囲を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/scriptc-coverage-native-binary/",
+          "source": "DevelopersIO",
+          "published": "2026-08-01T04:31:35",
+          "excerpt": "Vercel LabsのTypeScriptネイティブコンパイラ`scriptc`を使って、TypeScriptのどこまでがネイティブコードへ変換されるのかを調査してみました。…"
+        },
+        {
+          "title": "Bedrock AgentCoreを使ってみた",
+          "link": "https://qiita.com/furafura_infra/items/88edabe333f7aae1efe8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-01T04:01:36",
+          "excerpt": "きっかけ これまで、Bedrock Agentを使って、AIエージェントを遊びで作ってみたりしていました。…"
+        },
         {
           "title": "【非エンジニアのためのClaude/ClaudeCodeシリーズ】スライド作成、Claude Design と Claude Cowork どちらが良いものができて、どちらが安いのか？",
           "link": "https://dev.classmethod.jp/articles/claudedesign-cowork-slide/",
@@ -17,67 +31,53 @@
           "excerpt": "同じプロンプトでClaude Designとチャット版Claudeにスライドを作ってもらったら、専用ツールのDesignだけが要件を聞き返してきました。出力はチャット版が華やかで盛り気味、Designは地味だが忠実。…"
         },
         {
-          "title": "AWS、AIエージェント向けオープンソースベンチマーク「aws-bench」を発表",
-          "link": "https://codezine.jp/article/detail/29191",
-          "source": "CodeZine",
-          "published": "2026-08-01T00:00:00",
-          "excerpt": "AWS、AIエージェント向けオープンソースベンチマーク「aws-bench」を発表"
-        },
-        {
-          "title": "OpenAIは、より多くのエージェントが暴走した証拠を発見したと伝えられている",
-          "link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-07-31T22:47:26",
-          "excerpt": "OpenAI は、Hugging Face で発生した事件を調査する中で、さらなるエージェントの不正行為の証拠を発見したと報告されています。"
-        },
-        {
-          "title": "HN を表示: コード レビュー エージェントを構築して自己ホストする方法",
-          "link": "https://www.trytilde.ai/blog/how-to-build-code-review-agent",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-31T20:27:28",
-          "excerpt": "HN さん、 私には Tilde というサイド プロジェクトがあり、ここ 1 年かけてゆっくりと進めてきました。Tilde はハーネス SDK プラットフォームです。…"
+          "title": "Claude Codeの使い方を分析して最適化するcclensが良さげかも | kawarimidoll.com",
+          "link": "https://kawarimidoll.com/posts/202608011/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-08-01T00:13:28",
+          "excerpt": "cclens — a lens onto your Claude Code usage.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。概要 AWS Organizations配下のアカウントに対してAWS RAM（Resource Access Manager）でTransit Gatewayを共有している環境で、そのアカウントを別のOrganizationへ移行するとR…",
+      "summary": "クラウドの新着が22件。はじめに お疲れ様です。矢儀 @yuki_ink です。SUSE Linux Enterprise Server (SLES) をEC2で起動してプロキシの設定をしたら、smt-ec2.susecloud.…",
       "articles": [
+        {
+          "title": "プロキシ環境下のSLES on EC2で `smt-ec2.susecloud.net` が名前解決できなかったときの対応 - SUSEリポジトリのIPアドレスを動的に取得してSquidにhostsを設定する",
+          "link": "https://qiita.com/yuki_ink/items/7506e714c5860265c47c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-01T04:43:45",
+          "excerpt": "はじめに お疲れ様です。矢儀 @yuki_ink です。SUSE Linux Enterprise Server (SLES) をEC2で起動してプロキシの設定をしたら、smt-ec2.susecloud.…"
+        },
+        {
+          "title": "TerraformでAWS環境を構築してみた ～Terraform導入からEC2作成・SSH接続まで～",
+          "link": "https://qiita.com/ttakumi0027-beep/items/c7b02d19966cf55ae92e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-01T03:57:07",
+          "excerpt": "はじめに AWS SAAを取得したため、実際にAWS上へリソースを構築しながら理解を深めたいと考えました。また、近年はIaC（Infrastructure as Code）を利用してクラウドインフラを構築する機会が増えています。…"
+        },
+        {
+          "title": "AWS EC2でAMIを取得しよう",
+          "link": "https://qiita.com/XYZXYZXYZ/items/6d46f203160ea1398970",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-01T03:56:55",
+          "excerpt": "AMI取得手順 アクション → イメージとテンプレート →イメージ作成 本番環境等であれば、インスタンスを再起動のチェックを外す（再起動したら大変！！…"
+        },
         {
           "title": "AWS Organizations間のアカウント移行でRAM共有が外れる理由と共有を維持する設定",
           "link": "https://qiita.com/infra365/items/daed33099cdf34e2e588",
           "source": "Qiita AWSタグ",
           "published": "2026-08-01T01:18:53",
           "excerpt": "概要 AWS Organizations配下のアカウントに対してAWS RAM（Resource Access Manager）でTransit Gatewayを共有している環境で、そのアカウントを別のOrganizationへ移行するとR…"
-        },
-        {
-          "title": "Golang の提案: コンテナー/: 汎用コレクション型",
-          "link": "https://github.com/golang/go/issues/80590",
-          "source": "Hacker News（英語）",
-          "published": "2026-07-31T18:39:47",
-          "excerpt": "記事の URL: https://github.com/golang/go/issues/80590 コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Amazon Aurora DSQL は、さらに 4 つのリージョンでマルチリージョンクラスターのサポートを追加します",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-07-31T18:00:00",
-          "excerpt": "本日より、Amazon Aurora DSQL は、ヨーロッパ (ストックホルム)、ヨーロッパ (スペイン)、アジアパシフィック (ムンバイ)、アジアパシフィック (シンガポール) の 4 つの追加の AWS リージョンでマルチリージョンク…"
-        },
-        {
-          "title": "aws-benchのVPC Flow Logs診断タスクでKiro CLI 17モデルの合否が分かれた理由を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-bench-check-vpc-kiro-cli-17models/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T16:58:09",
-          "excerpt": "aws-bench の公開データセットから VPC Flow Logs の診断タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。IAM Identity Center のマルチリージョンサポートが Identity Center ディレクトリにも拡張されました。外部 IdP 不要でセットアップできる新機能を、実際に東京リージョンを追加して試してみたので紹介します。",
+      "summary": "セキュリティの新着が15件。IAM Identity Center のマルチリージョンサポートが Identity Center ディレクトリにも拡張されました。外部 IdP 不要でセットアップできる新機能を、実際に東京リージョンを追加して試してみたので紹介します。",
       "articles": [
         {
           "title": "[アップデート] AWS IAM Identity Center のマルチリージョンサポートが Identity Center ディレクトリをIDソースとして使用するインスタンスにも対応しました",
@@ -147,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が17件。aws-bench の公開データセットから CloudFormation の復旧タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…",
+      "summary": "開発ツールの新着が18件。AWS CDKで、開発環境と本番環境など、環境別にスタックを作成しました。1つのCDKコードを使いながら、デプロイ時に dev や prod を指定して、リージョン、環境名、リソース名などを切り替える形です。今回は、cdk.…",
       "articles": [
+        {
+          "title": "AWS CDK:環境別スタックの作成手順~contextを使ってdev/prodのスタック設定を切り替える",
+          "link": "https://zenn.dev/hknote/articles/cdk-context-env-stack",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-01T04:00:05",
+          "excerpt": "AWS CDKで、開発環境と本番環境など、環境別にスタックを作成しました。1つのCDKコードを使いながら、デプロイ時に dev や prod を指定して、リージョン、環境名、リソース名などを切り替える形です。今回は、cdk.…"
+        },
+        {
+          "title": "TerraformでAWS環境を構築してみた ～Terraform導入からEC2作成・SSH接続まで～",
+          "link": "https://qiita.com/ttakumi0027-beep/items/c7b02d19966cf55ae92e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-01T03:57:07",
+          "excerpt": "はじめに AWS SAAを取得したため、実際にAWS上へリソースを構築しながら理解を深めたいと考えました。また、近年はIaC（Infrastructure as Code）を利用してクラウドインフラを構築する機会が増えています。…"
+        },
+        {
+          "title": "GitHub Copilot、Visual Studio向けの7月アップデートをまとめて紹介",
+          "link": "https://codezine.jp/article/detail/29192",
+          "source": "CodeZine",
+          "published": "2026-08-01T03:00:00",
+          "excerpt": "GitHub Copilot、Visual Studio向けの7月アップデートをまとめて紹介"
+        },
         {
           "title": "aws-benchのCloudFormation復旧タスクで実行できる手順を答えたKiro CLIが不合格になった理由を確認してみた",
           "link": "https://dev.classmethod.jp/articles/aws-bench-fix-cfn-kiro-cli-17models/",
           "source": "DevelopersIO",
           "published": "2026-07-31T18:05:54",
           "excerpt": "aws-bench の公開データセットから CloudFormation の復旧タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…"
-        },
-        {
-          "title": "aws-benchのVPC Flow Logs診断タスクでKiro CLI 17モデルの合否が分かれた理由を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-bench-check-vpc-kiro-cli-17models/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T16:58:09",
-          "excerpt": "aws-bench の公開データセットから VPC Flow Logs の診断タスク1本を取り出し、Kiro CLI で選べる17モデルに同じ条件で3周ずつ解かせました。…"
-        },
-        {
-          "title": "# 第3回: Terraformを3層に分けた理由 — コストの発生有無でstateを切る",
-          "link": "https://zenn.dev/parabolaml/articles/2c322429d322f0",
-          "source": "Zenn AWSトピック",
-          "published": "2026-07-31T15:29:49",
-          "excerpt": "連載「ローカルMLOpsをAWSに載せる」第3回。Terraformの「ディレクトリ構成どうする問題」に、判断基準ごとに私の方針を書きます。…"
-        },
-        {
-          "title": "Terraform で CloudWatch Synthetics の外形監視を構築し挙動を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/cloudwatch-synthetics-terraform/",
-          "source": "DevelopersIO",
-          "published": "2026-07-31T14:55:39",
-          "excerpt": "CloudWatch Syntheticsを利用してCloudfrontの外形監視を行おうとしたブログです。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "どうやって存在するか",
-      "link": "https://www.raptitude.com/2026/07/how-to-exist/",
+      "title": "リベラルアーツ教育は何のためにあるのか（2024年）",
+      "link": "https://innig.net/teaching/liberal-arts-manifesto",
       "source": "Hacker News（英語）",
-      "published": "2026-08-01T00:25:00",
-      "excerpt": "記事の URL: https://www.raptitude.com/2026/07/how-to-exist/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-01T04:28:13",
+      "excerpt": "記事の URL: https://innig.net/teaching/liver-arts-manifesto コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "ローカルタスク管理アプリを設計してみた | ヘッドウォータースのフィード",
-      "link": "https://zenn.dev/headwaters/articles/76f20490b76952",
-      "source": "企業テックブログまとめ",
-      "published": "2026-07-31T23:36:46",
-      "excerpt": "背景今まではタスクは自分の頭で整理するか、メモ帳のようなものに書き留めていました。それくらいの管理で十分でした。しかし最近、案件業務・社内業務とタスクが増え、整理していかないと厳しい状態になってきました。…"
+      "title": "無料・個人ではじめるアクセスログ解析基盤 ― AWS×Cloudflareで訪問者を挙動から見に行く",
+      "link": "https://zenn.dev/muzzledskr/books/access-log-analytics",
+      "source": "Zenn AWSトピック",
+      "published": "2026-08-01T04:07:02",
+      "excerpt": "個人ブログの無料スタック(Cloudflare無料ログ + S3 + dbt + GA4)で、アクセスログ解析から人間/bot分類、SLIまでを実測で作る連載。無料でどこまで見えるかの「到達点」を公開。"
     },
     {
-      "title": "「Excel好き」では進化できない、「Excel/CSVでデータ連携」が残る今、AIをどう使うか",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/01/news003.html",
-      "source": "@IT",
-      "published": "2026-07-31T23:00:00",
-      "excerpt": "＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。"
+      "title": "Playwrightをテストランナーなしで使う — @playwright/testを使わない選択肢とそのトレードオフ",
+      "link": "https://dev.classmethod.jp/articles/playwright-without-test-runner/",
+      "source": "DevelopersIO",
+      "published": "2026-08-01T04:00:09",
+      "excerpt": "Playwrightには @playwright/test だけでなく、テストランナーなしで使えるコアライブラリ playwright があります。…"
     },
     {
-      "title": "ネアンデルタール人だけではない：アフリカの幽霊の系統は私たちの DNA にその痕跡を残している",
-      "link": "https://arstechnica.com/science/2026/07/not-just-neanderthals-ghost-lineage-in-africa-left-its-mark-on-our-dna/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-07-31T22:17:05",
-      "excerpt": "現代の子孫を持たないいくつかのグループは、私たちのゲノムに多大な貢献をしました。"
+      "title": "毎年約100人の消防士が放火で有罪判決を受ける",
+      "link": "https://www.firerescue1.com/arson-investigation/articles/expert-firefighter-arson-a-long-standing-issue-xHXLFAdYVcQPiuPU/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-01T03:50:30",
+      "excerpt": "記事の URL: https://www.firerescue1.…"
     }
   ]
 }
