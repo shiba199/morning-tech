@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-01T07:39:40",
+  "generated_at": "2026-08-01T09:48:20",
   "window_hours": 24,
-  "total": 174,
+  "total": 162,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が25件。大阪で開催された「Claude Managed Agents Workshop」に参加してきたので、その時の様子や学んだことをレポートします。",
+      "summary": "生成AIの新着が25件。コカコーラ大好きカジです。「Cursor物語 続編 — Agent時代へのアップデート」というタイトルで、Cursor Meetup Sapporoの10分LTに会場提供枠で登壇しました",
       "articles": [
+        {
+          "title": "Cursor物語 続編 — Agent時代へのアップデート #CursorMeetupSapporo",
+          "link": "https://dev.classmethod.jp/articles/cursor-meetup-sapporo-202608-kaji-lt/",
+          "source": "DevelopersIO",
+          "published": "2026-08-01T09:07:53",
+          "excerpt": "コカコーラ大好きカジです。「Cursor物語 続編 — Agent時代へのアップデート」というタイトルで、Cursor Meetup Sapporoの10分LTに会場提供枠で登壇しました"
+        },
+        {
+          "title": "私のコーディングエージェントの使い方",
+          "link": "https://qiita.com/kenken38/items/ccd546ebdbc9b37066f6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-01T08:48:44",
+          "excerpt": "はじめに この記事は全て人間が書いています。そしてこの記事には、当たり前すぎる内容しか書かれていないかもしれません。はじめまして、@kenken38です。…"
+        },
         {
           "title": "Claude Community EventでClaude Managed Agentsを触ってみた",
           "link": "https://dev.classmethod.jp/articles/claude-managed-agents-workshop-osaka/",
@@ -22,28 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-08-01T05:24:45",
           "excerpt": "Claude Enterprise で Claude Code の利用を部門やPC単位で制御したいとき、カスタムロールと MDM でどこまで細かく設定できるのか試してみました。"
-        },
-        {
-          "title": "【夏休みの自由研究リレー】 Chronos-2をSageMaker AIのリアルタイム推論で使う方法を調査してみた",
-          "link": "https://dev.classmethod.jp/articles/summer-project-2026-try-deployment-chronos-2-sagemaker-jumpstart-autogluonto-realtime-endpoint/",
-          "source": "DevelopersIO",
-          "published": "2026-08-01T05:16:22",
-          "excerpt": "Amazon の時系列基盤モデル Chronos-2 を、AutoGluon と SageMaker JumpStart でそれぞれデプロイして、実際に時系列予測を行ってみました。デプロイのための動線を中心にご紹介します。"
-        },
-        {
-          "title": "TypeScriptがどこまでネイティブバイナリになるか、scriptcのcoverageで対応範囲を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/scriptc-coverage-native-binary/",
-          "source": "DevelopersIO",
-          "published": "2026-08-01T04:31:35",
-          "excerpt": "Vercel LabsのTypeScriptネイティブコンパイラ`scriptc`を使って、TypeScriptのどこまでがネイティブコードへ変換されるのかを調査してみました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。はじめに お疲れ様です。矢儀 @yuki_ink です。SUSE Linux Enterprise Server (SLES) をEC2で起動してプロキシの設定をしたら、smt-ec2.susecloud.…",
+      "summary": "クラウドの新着が17件。はじめに こんばんは、mirukyです。2026年6月、Amazon S3へS3 Annotationsという機能が追加されました。…",
       "articles": [
+        {
+          "title": "【Amazon S3】タグともメタデータとも違うS3 Annotationsを試してみる",
+          "link": "https://qiita.com/miruky/items/3827190f928ed08c4b46",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-01T08:40:00",
+          "excerpt": "はじめに こんばんは、mirukyです。2026年6月、Amazon S3へS3 Annotationsという機能が追加されました。…"
+        },
+        {
+          "title": "S3 Event NotificationsのAWS生成タグで文書処理フローをシンプルにする",
+          "link": "https://zenn.dev/the_exile/articles/s3-event-notifications-system-generated-tags",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-01T05:51:35",
+          "excerpt": "はじめに 2026年7月、Amazon S3 Event Notificationsに、S3バケットへ付与されたAWS生成タグ（system-generated tags）が含まれるようになりました。…"
+        },
         {
           "title": "プロキシ環境下のSLES on EC2で `smt-ec2.susecloud.net` が名前解決できなかったときの対応 - SUSEリポジトリのIPアドレスを動的に取得してSquidにhostsを設定する",
           "link": "https://qiita.com/yuki_ink/items/7506e714c5860265c47c",
@@ -57,27 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-01T03:57:07",
           "excerpt": "はじめに AWS SAAを取得したため、実際にAWS上へリソースを構築しながら理解を深めたいと考えました。また、近年はIaC（Infrastructure as Code）を利用してクラウドインフラを構築する機会が増えています。…"
-        },
-        {
-          "title": "AWS EC2でAMIを取得しよう",
-          "link": "https://qiita.com/XYZXYZXYZ/items/6d46f203160ea1398970",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-01T03:56:55",
-          "excerpt": "AMI取得手順 アクション → イメージとテンプレート →イメージ作成 本番環境等であれば、インスタンスを再起動のチェックを外す（再起動したら大変！！…"
-        },
-        {
-          "title": "AWS Organizations間のアカウント移行でRAM共有が外れる理由と共有を維持する設定",
-          "link": "https://qiita.com/infra365/items/daed33099cdf34e2e588",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-01T01:18:53",
-          "excerpt": "概要 AWS Organizations配下のアカウントに対してAWS RAM（Resource Access Manager）でTransit Gatewayを共有している環境で、そのアカウントを別のOrganizationへ移行するとR…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。IAM Identity Center のマルチリージョンサポートが Identity Center ディレクトリにも拡張されました。外部 IdP 不要でセットアップできる新機能を、実際に東京リージョンを追加して試してみたので紹介します。",
+      "summary": "セキュリティの新着が9件。IAM Identity Center のマルチリージョンサポートが Identity Center ディレクトリにも拡張されました。外部 IdP 不要でセットアップできる新機能を、実際に東京リージョンを追加して試してみたので紹介します。",
       "articles": [
         {
           "title": "[アップデート] AWS IAM Identity Center のマルチリージョンサポートが Identity Center ディレクトリをIDソースとして使用するインスタンスにも対応しました",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。GCPプロジェクトのコスト管理を、gcloud CLIでの予算アラート設定、BigQueryへの課金データエクスポート、OpenTofuでのビュー作成の3段階で構築しました。…",
+      "summary": "データ分析の新着が3件。GCPプロジェクトのコスト管理を、gcloud CLIでの予算アラート設定、BigQueryへの課金データエクスポート、OpenTofuでのビュー作成の3段階で構築しました。…",
       "articles": [
         {
           "title": "GCPの予算アラート設定からBigQuery課金エクスポート＋データポータル連携までをOpenTofuで構築してみた",
@@ -134,21 +134,28 @@
           "source": "企業テックブログまとめ",
           "published": "2026-07-31T13:33:10",
           "excerpt": "GitHubでPRを細かく作り、前のブランチに対して数珠つなぎのようにPRを作る私が大歓喜！…"
-        },
-        {
-          "title": "AWS Cognito Identity Poolの認可不備でDynamoDBを全件取得 — 「フロントの制御」と「IAMの認可」を混同するとこうなる",
-          "link": "https://qiita.com/sei_official/items/1ec93340901297f0976f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-07-31T08:24:19",
-          "excerpt": "はじめに AWS では、Cognito Identity Pool を使うと「ログイン不要」のゲストアクセスを提供できます。デモアプリ、無料体験、ゲスト向け機能などでよく使われる構成です。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。Claude Enterprise で Claude Code の利用を部門やPC単位で制御したいとき、カスタムロールと MDM でどこまで細かく設定できるのか試してみました。",
+      "summary": "開発ツールの新着が14件。GitHub Copilot、リモート制御を管理対象デバイスのみに制限可能に",
       "articles": [
+        {
+          "title": "GitHub Copilot、リモート制御を管理対象デバイスのみに制限可能に",
+          "link": "https://codezine.jp/article/detail/29194",
+          "source": "CodeZine",
+          "published": "2026-08-01T09:00:00",
+          "excerpt": "GitHub Copilot、リモート制御を管理対象デバイスのみに制限可能に"
+        },
+        {
+          "title": "私のコーディングエージェントの使い方",
+          "link": "https://qiita.com/kenken38/items/ccd546ebdbc9b37066f6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-01T08:48:44",
+          "excerpt": "はじめに この記事は全て人間が書いています。そしてこの記事には、当たり前すぎる内容しか書かれていないかもしれません。はじめまして、@kenken38です。…"
+        },
         {
           "title": "Claude Code の CLI と Claude Desktop の Code タブは MDM で個別に無効化できるか試してみた",
           "link": "https://dev.classmethod.jp/articles/claude-code-cli-desktop-mdm-disable/",
@@ -162,52 +169,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-01T04:00:05",
           "excerpt": "AWS CDKで、開発環境と本番環境など、環境別にスタックを作成しました。1つのCDKコードを使いながら、デプロイ時に dev や prod を指定して、リージョン、環境名、リソース名などを切り替える形です。今回は、cdk.…"
-        },
-        {
-          "title": "TerraformでAWS環境を構築してみた ～Terraform導入からEC2作成・SSH接続まで～",
-          "link": "https://qiita.com/ttakumi0027-beep/items/c7b02d19966cf55ae92e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-01T03:57:07",
-          "excerpt": "はじめに AWS SAAを取得したため、実際にAWS上へリソースを構築しながら理解を深めたいと考えました。また、近年はIaC（Infrastructure as Code）を利用してクラウドインフラを構築する機会が増えています。…"
-        },
-        {
-          "title": "GitHub Copilot、Visual Studio向けの7月アップデートをまとめて紹介",
-          "link": "https://codezine.jp/article/detail/29192",
-          "source": "CodeZine",
-          "published": "2026-08-01T03:00:00",
-          "excerpt": "GitHub Copilot、Visual Studio向けの7月アップデートをまとめて紹介"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "移民急増でスペインの開放政策が試される",
-      "link": "https://economist.com/europe/2026/07/31/a-migrant-surge-tests-spains-open-policies",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-01T07:03:19",
-      "excerpt": "記事の URL: https://economist.com/europe/2026/07/31/a-migrant-surge-tests-spains-open-policies コメント URL: https://news.…"
-    },
-    {
-      "title": "Amazon GameLift Streams、カスタムアスペクト比とダイナミック解像度に対応",
-      "link": "https://codezine.jp/article/detail/29193",
-      "source": "CodeZine",
-      "published": "2026-08-01T06:00:00",
-      "excerpt": "Amazon GameLift Streams、カスタムアスペクト比とダイナミック解像度に対応"
-    },
-    {
-      "title": "品川会 #7 に富山から参加して登壇してきた",
-      "link": "https://qiita.com/ssakita/items/fee908686d2b9f72b30d",
+      "title": "【ご報告】2026 Japan AWS Jr.Champions 選出",
+      "link": "https://qiita.com/somasun_aws/items/153a716cd4f0518b3f6d",
       "source": "Qiita AWSタグ",
-      "published": "2026-08-01T05:38:34",
-      "excerpt": "はじめに こんにちは！ssakitaです！7月29日（水）、株式会社クレスコさんで開催された「品川会 #7」に参加してきました！品川会は初参加で、せっかくなので登壇もさせていただきました！品川会とは 前Jr.…"
+      "published": "2026-08-01T09:31:13",
+      "excerpt": "ご報告 少し時間が空いてしまいましたが、 先日開催されたAWS Summit Japan 2026 そしてAPN Blogでも発表いただいた通り、 「2026 Japan AWS Jr.Champions」に選出いただきました。…"
     },
     {
-      "title": "NAS を強化する 10 の方法",
-      "link": "https://nascompares.com/2026/07/31/the-10-ways-nas-is-getting-enshitified/",
+      "title": "ラーメンハウス",
+      "link": "https://ramen.haus/",
       "source": "Hacker News（英語）",
-      "published": "2026-08-01T05:38:16",
-      "excerpt": "記事の URL: https://nascompares.com/2026/07/31/the-10-ways-nas-is-getting-enshitified/ コメント URL: https://news.ycombinator.…"
+      "published": "2026-08-01T08:48:58",
+      "excerpt": "記事の URL: https://ramen.haus/ コメント URL: https://news.ycombinator.com/item?id=49132460 ポイント: 50 コメント数: 14"
+    },
+    {
+      "title": "素晴らしい仕事をする方法",
+      "link": "https://paulgraham.com/greatwork.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-01T08:19:44",
+      "excerpt": "記事の URL: https://paulgraham.com/greatwork.html コメント URL: https://news.ycombinator.com/item?id=49132289 ポイント: 3 コメント数: 1"
+    },
+    {
+      "title": "個人開発のサービスが乗っ取られそうになった話 (Subdomain Takeover)",
+      "link": "https://qiita.com/kter/items/48cdf8db5f2744ae408d",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-01T08:11:40",
+      "excerpt": "表題の通りです。ある日、面識のない海外のセキュリティ研究者を名乗る人物から「あなたのサブドメインが乗っ取れる状態になっている」というメールが届きました。…"
     }
   ]
 }
