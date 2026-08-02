@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-08-02T22:15:49",
+  "generated_at": "2026-08-02T23:25:30",
   "window_hours": 24,
-  "total": 122,
+  "total": 129,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が16件。OpenAIは、次期主力モデル「Astra」の社内版により、数学や理論計算機科学の未解決問題10件で新たな結果を得たと発表した。「Astra」の名称公表は初とみられる。…",
+      "summary": "生成AIの新着が16件。はじめに ここまでの内容では、機械学習の基本概念や評価指標、データ前処理について整理してきました。今回からは、少し AWS 寄りの内容として、 Amazon SageMaker の基本的な流れを整理します。…",
       "articles": [
         {
-          "title": "OpenAI、次期主力モデル「Astra」の存在を明らかに――未解決の数学問題10件を「解決」と発表",
-          "link": "https://www.itmedia.co.jp/news/article/2608/03/2000000348/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-02T21:56:14",
-          "excerpt": "OpenAIは、次期主力モデル「Astra」の社内版により、数学や理論計算機科学の未解決問題10件で新たな結果を得たと発表した。「Astra」の名称公表は初とみられる。…"
-        },
-        {
-          "title": "Anthropic's Fever Dream: 本物の鍵を盗んだクロードの荷物",
-          "link": "https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-02T20:36:21",
-          "excerpt": "記事の URL: https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys コメント URL: https://news.ycombinator.…"
-        },
-        {
-          "title": "エージェントウィークへようこそ",
-          "link": "https://blog.cloudflare.com/agents-week-welcome/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-02T18:24:30",
-          "excerpt": "記事の URL: https://blog.cloudflare.com/agents-week-welcome/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "【Amazon Connect Customer】Agentic Voiceを架電なしでブラウザ試聴するツールを作ってみた！",
-          "link": "https://qiita.com/yosuke-suzuki/items/43be6f4a956f4fe3f591",
+          "title": "【簡単AWS MLA】【初心者向け】Day 8：SageMaker の全体像を整理する — Training / Endpoint / Batch Transform",
+          "link": "https://qiita.com/MetaYuan/items/010c0c743732475ed483",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-02T14:57:25",
-          "excerpt": "はじめに 2026年7月のアップデートで、Amazon Connect Customerの音声プロバイダーにAgentic Voice(Amazonエージェントボイス)が追加されました。…"
+          "published": "2026-08-02T23:25:04",
+          "excerpt": "はじめに ここまでの内容では、機械学習の基本概念や評価指標、データ前処理について整理してきました。今回からは、少し AWS 寄りの内容として、 Amazon SageMaker の基本的な流れを整理します。…"
+        },
+        {
+          "title": "herdr を使いこなす: 複数 AI エージェントの連携から自作プラグインまで | TECHSCORE BLOG",
+          "link": "https://blog.techscore.com/entry/2026/08/03/080000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-02T23:00:00",
+          "excerpt": "herdr の基本操作から、複数 AI エージェントの連携・自動化・セッション永続化まで実例で紹介します。足りない機能をプラグインで自作する方法も扱います。"
+        },
+        {
+          "title": "[Amazon SageMaker] Hugging Face のモデルページから「ワンクリック」で Amazon SageMaker AI にデプロイしてみました",
+          "link": "https://dev.classmethod.jp/articles/sagemaker-ai-huggingface-one-click-deploy/",
+          "source": "DevelopersIO",
+          "published": "2026-08-02T22:36:25",
+          "excerpt": "Hugging Face のモデルページから Amazon SageMaker へのワンクリックデプロイが可能になりました。本稿では、この新しい連携機能を実際に試し、モデル選択からエンドポイント起動、推論実行までの全フローを紹介します。"
+        },
+        {
+          "title": "AIが「プロキシを突破する」時代へ　OpenAIの評価用AI、ゼロデイ脆弱性を自律悪用",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/03/news014.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-08-02T22:00:00",
+          "excerpt": "OpenAIの評価用AIモデルがプロキシの未知の脆弱性を突いてHugging Faceの本番基盤に侵入した。目標達成のために極端な攻撃行動をとった事案を受け、両社は共同調査と監視、アクセス制御の強化を進める。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。ユーザーがファイルをSnowflakeにアップロードする方法：part1.…",
+      "summary": "クラウドの新着が15件。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の3日目の記事となります。過去の投稿（リンク集）は以下からご覧ください。昨日投稿の記事も併せて記載します。…",
       "articles": [
+        {
+          "title": "【Lambda】NFC 名刺のアクセスカウンターを Lambda Function URL + DynamoDB で作る",
+          "link": "https://qiita.com/ryu-ki/items/60cc8e04d60bbfcf7fa7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-02T23:20:04",
+          "excerpt": "この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の3日目の記事となります。過去の投稿（リンク集）は以下からご覧ください。昨日投稿の記事も併せて記載します。…"
+        },
         {
           "title": "ユーザーがファイルをSnowflakeにアップロードする方法：part1.5 S3＋Snowpipeにバリデーションを加えよう編",
           "link": "https://qiita.com/hotate_2235/items/70d145e93aec35d13347",
@@ -64,56 +71,56 @@
           "source": "DevelopersIO",
           "published": "2026-08-02T10:42:12",
           "excerpt": "IAM Policy Simulatorがアップデートされ、IAMコンソールへの統合、条件付きSCPの評価、ポリシー除外機能などが追加されました。従来のスタンドアロンサイトとの違いと新機能を、実際の検証例を交えて紹介します。"
-        },
-        {
-          "title": "Amazon EC2専有ホスト、セルフマネージドライセンス不要でHRG作成が可能に",
-          "link": "https://codezine.jp/article/detail/29199",
-          "source": "CodeZine",
-          "published": "2026-08-02T09:00:00",
-          "excerpt": "Amazon EC2専有ホスト、セルフマネージドライセンス不要でHRG作成が可能に"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。記事の URL: https://linuxiac.com/eu-age-verification-project-mandates-hardware-bound-attestation/ コメント URL: https://news.…",
+      "summary": "セキュリティの新着が14件。Snowflake CLIとは、Snowflakeが提供する開発者向けのコマンドラインツールです。スピーディにアプリケーションを構築したり、SQLを実行したりすることができます。https://docs.snowflake.…",
       "articles": [
         {
-          "title": "EU の年齢認証プロジェクトがハードウェアに基づく認証を義務付ける",
-          "link": "https://linuxiac.com/eu-age-verification-project-mandates-hardware-bound-attestation/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-02T20:44:24",
-          "excerpt": "記事の URL: https://linuxiac.com/eu-age-verification-project-mandates-hardware-bound-attestation/ コメント URL: https://news.…"
+          "title": "Snowflake CLIの認証設定、結局どうすればいいのか？調べてみた | Fusic 技術ブログのフィード",
+          "link": "https://zenn.dev/fusic/articles/snowflake-cli-oauth",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-02T22:30:05",
+          "excerpt": "Snowflake CLIとは、Snowflakeが提供する開発者向けのコマンドラインツールです。スピーディにアプリケーションを構築したり、SQLを実行したりすることができます。https://docs.snowflake.…"
         },
         {
-          "title": "SSH 認証情報の収集: 私のハニーポット ネットワークからの洞察",
-          "link": "https://uphillsecurity.com/articles/harvesting-ssh-credentials-insights-from-my-honeypot-network/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-02T17:45:51",
-          "excerpt": "記事の URL: https://uphillsecurity.…"
+          "title": "“Mythos超え”AIモデルを搭載　Microsoft新セキュリティ基盤の実力とは？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/03/news027.html",
+          "source": "@IT",
+          "published": "2026-08-02T22:00:00",
+          "excerpt": "AIが攻撃を自動化する今、防御側も人手だけでは追い付かない。Microsoftは、複数のAIエージェントが役割を分担しながら継続的に監視、調査、対処する新たなセキュリティ基盤「Project Perception」を発表した。…"
         },
         {
-          "title": "IAMユーザ作成手順",
-          "link": "https://qiita.com/XYZXYZXYZ/items/68638ad42f1d4e7e4af3",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-02T13:24:24",
-          "excerpt": "IAMユーザ作成 IAMを検索 → IAMユーザをクリック →ユーザの作成をクリック ユーザ名を入れる AWS マネジメントコンソールへのユーザーアクセスを提供するもマネコンログインさせる場合はチェックを入れること！！！…"
+          "title": "AIが「プロキシを突破する」時代へ　OpenAIの評価用AI、ゼロデイ脆弱性を自律悪用",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/03/news014.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-08-02T22:00:00",
+          "excerpt": "OpenAIの評価用AIモデルがプロキシの未知の脆弱性を突いてHugging Faceの本番基盤に侵入した。目標達成のために極端な攻撃行動をとった事案を受け、両社は共同調査と監視、アクセス制御の強化を進める。"
         },
         {
-          "title": "[アップデート] IAMポリシーシミュレーターがIAMコンソールに移行して機能が追加されました",
-          "link": "https://dev.classmethod.jp/articles/iam-policy-simulator-iam-console-update/",
-          "source": "DevelopersIO",
-          "published": "2026-08-02T10:42:12",
-          "excerpt": "IAM Policy Simulatorがアップデートされ、IAMコンソールへの統合、条件付きSCPの評価、ポリシー除外機能などが追加されました。従来のスタンドアロンサイトとの違いと新機能を、実際の検証例を交えて紹介します。"
+          "title": "AI時代の電子文書セキュリティ　真贋判定に追われる企業のリアル【調査】",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/03/news021.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-08-02T22:00:00",
+          "excerpt": "生成AIの発展に伴い重要書類の改ざんリスクへの警戒が強まる中、企業における文書の真正性証明の重要性が増している。一方でタイムスタンプ利用者の過半数が「大量データの処理困難」を課題に挙げており、安全性と処理性能の両立が急務だ。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。",
+      "summary": "データ分析の新着が4件。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の3日目の記事となります。過去の投稿（リンク集）は以下からご覧ください。昨日投稿の記事も併せて記載します。…",
       "articles": [
+        {
+          "title": "【Lambda】NFC 名刺のアクセスカウンターを Lambda Function URL + DynamoDB で作る",
+          "link": "https://qiita.com/ryu-ki/items/60cc8e04d60bbfcf7fa7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-02T23:20:04",
+          "excerpt": "この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の3日目の記事となります。過去の投稿（リンク集）は以下からご覧ください。昨日投稿の記事も併せて記載します。…"
+        },
         {
           "title": "TechCrunch Mobility: 2 つの道路が分岐 - ロボタクシー用",
           "link": "https://techcrunch.com/2026/08/02/techcrunch-mobility-two-roads-diverged-for-robotaxis/",
@@ -140,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が3件。自分自身のタスク実行を一度記録し、それを AI エージェントが反復できるスキルに変換します。…",
+      "summary": "開発ツールの新着が4件。Hugging Face のモデルページから Amazon SageMaker へのワンクリックデプロイが可能になりました。本稿では、この新しい連携機能を実際に試し、モデル選択からエンドポイント起動、推論実行までの全フローを紹介します。",
       "articles": [
+        {
+          "title": "[Amazon SageMaker] Hugging Face のモデルページから「ワンクリック」で Amazon SageMaker AI にデプロイしてみました",
+          "link": "https://dev.classmethod.jp/articles/sagemaker-ai-huggingface-one-click-deploy/",
+          "source": "DevelopersIO",
+          "published": "2026-08-02T22:36:25",
+          "excerpt": "Hugging Face のモデルページから Amazon SageMaker へのワンクリックデプロイが可能になりました。本稿では、この新しい連携機能を実際に試し、モデル選択からエンドポイント起動、推論実行までの全フローを紹介します。"
+        },
+        {
+          "title": "Snowflake CLIの認証設定、結局どうすればいいのか？調べてみた | Fusic 技術ブログのフィード",
+          "link": "https://zenn.dev/fusic/articles/snowflake-cli-oauth",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-02T22:30:05",
+          "excerpt": "Snowflake CLIとは、Snowflakeが提供する開発者向けのコマンドラインツールです。スピーディにアプリケーションを構築したり、SQLを実行したりすることができます。https://docs.snowflake.…"
+        },
         {
           "title": "GitHub - マイクロソフト/スキルレコーダー",
           "link": "https://github.com/microsoft/skill-recorder",
@@ -155,45 +176,38 @@
           "source": "CodeZine",
           "published": "2026-08-02T00:00:00",
           "excerpt": "Github Copilot、7月に発表したVS Code向けアップデートをまとめて紹介"
-        },
-        {
-          "title": "[アップデート] AWS CLI 経由で AWS Lambda で Python 3.15 と Node.js 26 のランタイムサポートが追加されていたので使ってみた",
-          "link": "https://dev.classmethod.jp/articles/lambda-preview-python315-node26/",
-          "source": "DevelopersIO",
-          "published": "2026-08-01T22:26:23",
-          "excerpt": "AWS Lambda に Python 3.15 と Node.js 26 のランタイムサポートが追加されました。実際にデプロイして動作確認した結果を紹介します。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "脳の遺伝子編集治療で6歳女児死亡　1年以上公表されず　約1億3000万円は両親が負担　中国",
-      "link": "https://www.itmedia.co.jp/news/article/2608/03/2000000300/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-02T21:55:00",
-      "excerpt": "脳の遺伝子編集治療で6歳女児死亡　1年以上公表されず　約1億3000万円は両親が負担　中国"
+      "title": "購入/決済のACIDを守るための冪等性のお話 | SODA Engineering Blogのフィード",
+      "link": "https://zenn.dev/team_soda/articles/26f39f5e3b09f3",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-02T23:00:06",
+      "excerpt": "この記事は何冪等性とは何か、何の役に立つのか、どう実践するのかを学ぶ購入と決済の（それぞれ異なる）難しさを学ぶACIDのうちA(原子性)、C(整合性)について学ぶ 冪等性とは何か？…"
     },
     {
-      "title": "世界的なメモリ不足がMacBook Airを襲う",
-      "link": "https://techcrunch.com/2026/08/02/the-global-memory-shortage-hits-the-macbook-air/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-02T21:33:59",
-      "excerpt": "世界的なメモリチップ不足により、Apple の最も人気のある Mac の入手可能性に影響が出ているようです。"
+      "title": "Notion、デスクトップとWebで「ハイコントラストモード」提供開始",
+      "link": "https://codezine.jp/article/detail/29200",
+      "source": "CodeZine",
+      "published": "2026-08-02T23:00:00",
+      "excerpt": "Notion、デスクトップとWebで「ハイコントラストモード」提供開始"
     },
     {
-      "title": "引きこもりはゲーム内でも交流を好まない、奈良先端大が587人調査　「ゲームで社会復帰」に落とし穴？",
-      "link": "https://www.itmedia.co.jp/news/article/2608/03/2000000329/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-02T21:00:00",
-      "excerpt": "奈良先端科学技術大学院大学などに所属する研究者らがPLOS ONEで発表した論文「Social marginalization risk and its negative association with socialising prefe…"
+      "title": "pandasでふぞろいなデータを分析資産に変える",
+      "link": "https://codezine.jp/article/detail/29058",
+      "source": "CodeZine",
+      "published": "2026-08-02T23:00:00",
+      "excerpt": "前回は、Python in Excelの位置づけと、=PYでコードを書きxl()でデータを取り込む基本操作を確認しました。第2回からは、本連載の主役とも言えるpandasに踏み込みます。…"
     },
     {
-      "title": "サム・アルトマンとAIの減速に関する議論",
-      "link": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-02T20:54:22",
-      "excerpt": "Equityの最新エピソードでは、サム・アルトマンがなぜ業界に「AI開発の速度を緩める」よう呼びかけたのかについて議論します。"
+      "title": "【小ネタ】Kiroと楽しむ月末駆動開発 (EMDD: End of Month Driven Development)",
+      "link": "https://qiita.com/kkoiwai/items/cfd3788907d4a6485214",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-02T22:56:37",
+      "excerpt": "AWSが開発しているAIコーディングアシスタントの「Kiro」はみなさんご存知でしょうか。いわゆるVS Codee ForkのIDEと、CLIと、Webが使えます。…"
     }
   ]
 }
