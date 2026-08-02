@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-02T04:46:52",
+  "generated_at": "2026-08-02T07:26:34",
   "window_hours": 24,
-  "total": 127,
+  "total": 125,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が16件。Googleは、パーソナルAIエージェント「Gemini Spark」の提供対象を日本を含む160カ国以上に拡大した。PC停止時やスマホのロック時もGoogleのクラウド基盤上で動作し、トリガーに応じてタスクを処理する。…",
+      "summary": "生成AIの新着が13件。Googleは、パーソナルAIエージェント「Gemini Spark」の提供対象を日本を含む160カ国以上に拡大した。PC停止時やスマホのロック時もGoogleのクラウド基盤上で動作し、トリガーに応じてタスクを処理する。…",
       "articles": [
         {
           "title": "Google、パーソナルAI「Gemini Spark」を日本でも利用可能に　Chrome統合は米国から",
@@ -42,70 +42,77 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。AWS Lambda、LMIキャパシティープロバイダーのログ自動発行を開始",
+      "summary": "クラウドの新着が18件。EC2 コンソールの Instance diagnostics に新たに追加された 「EBS パフォーマンス」 機能について、実際の検証環境を交えながら深掘りしていきます。…",
       "articles": [
         {
-          "title": "AWS Lambda、LMIキャパシティープロバイダーのログ自動発行を開始",
-          "link": "https://codezine.jp/article/detail/29197",
-          "source": "CodeZine",
-          "published": "2026-08-02T03:00:00",
-          "excerpt": "AWS Lambda、LMIキャパシティープロバイダーのログ自動発行を開始"
+          "title": "【小ネタ】 EC2 インスタンス診断 (Instance diagnostics) の 「EBS パフォーマンス」 で何が確認できるのか調べてみた",
+          "link": "https://dev.classmethod.jp/articles/ec2-instance-diagnostics-ebs-performance/",
+          "source": "DevelopersIO",
+          "published": "2026-08-02T06:20:58",
+          "excerpt": "EC2 コンソールの Instance diagnostics に新たに追加された 「EBS パフォーマンス」 機能について、実際の検証環境を交えながら深掘りしていきます。…"
         },
         {
-          "title": "Coding Agent Insightsが来たので、Claude Code(Teamプラン)のOtel送信先をAWSに移行しました。",
-          "link": "https://zenn.dev/ncdc/articles/3da1b836ea1d93",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-02T01:00:05",
-          "excerpt": "!先に結論を書いておくと、はっきり言って現時点(2026/08/01)のCoding Agent Insightsは、データ収集の動作確認程度にしか使えません。…"
-        },
-        {
-          "title": "SNS + SQS + Lambda で作る、壊れないリアルタイム通知基盤",
-          "link": "https://zenn.dev/zer0_infra/articles/b952cd58d83450",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-02T01:00:05",
-          "excerpt": "はじめに 毎秒1,000件のアラートが飛び交う障害検知システムを、単一のLambda関数で直接受け取ろうとすると何が起きるか。…"
-        },
-        {
-          "title": "Gemini + Notion API + AWS Lambdaで作る、文脈を理解する英単語学習ツール(MCP対応)",
-          "link": "https://qiita.com/WakoRintaro/items/5b63418e519e4dc97aa0",
+          "title": "Amazon S3 ストレージクラス一覧",
+          "link": "https://qiita.com/lhormace/items/bf8f0cb436420a51ef47",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-01T22:41:28",
-          "excerpt": "はじめに 英文を読んでいて知らない単語に出会ったとき、そのままGoogle翻訳やDeepLに投げて終わり…になっていませんか。単語だけ調べても、その文の中でどう使われているかまで理解しないと、結局よく意味が掴めないまま終わってしまいます。…"
+          "published": "2026-08-02T05:57:27",
+          "excerpt": "Amazon S3 ストレージクラス一覧 備忘録として、Amazon S3の各ストレージクラスをまとめました。…"
+        },
+        {
+          "title": "S3に置くSkillとArtifactをGuardDuty Malware Protection for S3 でスキャンしてみた",
+          "link": "https://qiita.com/nuance-sudo/items/59c2bf8e5c0fc289262f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-02T05:11:33",
+          "excerpt": "TL;DR S3にアップロードしたSkill（ZIP）とArtifact（HTML）を、GuardDuty Malware Protection for S3 で自動スキャンできます マルウェア検知テスト用の EICAR ZIP は THR…"
+        },
+        {
+          "title": "S3に置くSkillとArtifactをGuardDuty Malware Protection for S3 でスキャンしてみた",
+          "link": "https://zenn.dev/nuance/articles/f60819b85507e2",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-02T05:04:56",
+          "excerpt": "TL;DR S3にアップロードしたSkill（ZIP）とArtifact（HTML）を、GuardDuty Malware Protection for S3 で自動スキャンできます マルウェア検知テスト用の EICAR ZIP は THR…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が3件。本記事は 夏休みクラウド自由研究2026 8/1付の記事です。殆どの企業でゼロトラストを目指されていますが、「これを買えばゼロトラストが完成する」という単一の製品やソリューションは残念ながら存在しません。ただし、より完 […]…",
+      "summary": "セキュリティの新着が5件。APIが提供されていない企業SSOに対して、Playwrightをサーバーサイドの認証プロキシとして使い、OKTA SSO + TOTP MFAのログインフローを自動化してJWTを取得する実装パターンを紹介します。",
       "articles": [
+        {
+          "title": "APIがない企業SSOにPlaywrightでサーバーサイド認証プロキシを作った話",
+          "link": "https://dev.classmethod.jp/articles/playwright-server-side-auth-proxy-enterprise-sso/",
+          "source": "DevelopersIO",
+          "published": "2026-08-02T06:00:05",
+          "excerpt": "APIが提供されていない企業SSOに対して、Playwrightをサーバーサイドの認証プロキシとして使い、OKTA SSO + TOTP MFAのログインフローを自動化してJWTを取得する実装パターンを紹介します。"
+        },
+        {
+          "title": "S3に置くSkillとArtifactをGuardDuty Malware Protection for S3 でスキャンしてみた",
+          "link": "https://qiita.com/nuance-sudo/items/59c2bf8e5c0fc289262f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-02T05:11:33",
+          "excerpt": "TL;DR S3にアップロードしたSkill（ZIP）とArtifact（HTML）を、GuardDuty Malware Protection for S3 で自動スキャンできます マルウェア検知テスト用の EICAR ZIP は THR…"
+        },
+        {
+          "title": "S3に置くSkillとArtifactをGuardDuty Malware Protection for S3 でスキャンしてみた",
+          "link": "https://zenn.dev/nuance/articles/f60819b85507e2",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-02T05:04:56",
+          "excerpt": "TL;DR S3にアップロードしたSkill（ZIP）とArtifact（HTML）を、GuardDuty Malware Protection for S3 で自動スキャンできます マルウェア検知テスト用の EICAR ZIP は THR…"
+        },
         {
           "title": "SASEとマイクロセグメンテーションで実現する完全なゼロトラスト | TechHarmony",
           "link": "https://blog.usize-tech.com/sase-zero-trust/",
           "source": "企業テックブログまとめ",
           "published": "2026-08-01T11:19:13",
           "excerpt": "本記事は 夏休みクラウド自由研究2026 8/1付の記事です。殆どの企業でゼロトラストを目指されていますが、「これを買えばゼロトラストが完成する」という単一の製品やソリューションは残念ながら存在しません。ただし、より完 […]…"
-        },
-        {
-          "title": "Defcon の新しいバッジは、中に見えるセキュリティ キーです",
-          "link": "https://arstechnica.com/security/2026/08/defcons-new-badge-is-a-security-key-you-can-see-inside/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-08-01T10:05:21",
-          "excerpt": "取り外し可能なチップにより、ハッカーはバッジを検査し、デフコン後も使い続けることができます。"
-        },
-        {
-          "title": "セキュリティの仕事は、社内に落ちている──情シス・インフラが最初に拾うべき5つ",
-          "link": "https://zenn.dev/gangy/articles/7ae64ac2a9e435",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-08-01T06:32:51",
-          "excerpt": "この記事について 「セキュリティをやりたいけど、転職しないと無理だと思っている」——情シスやインフラ運用をしている人から、わりとよく聞く話です。でも実際にやってみて思うのは、セキュリティの仕事は、たいてい社内に落ちているということです。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…",
+      "summary": "データ分析の新着が2件。Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…",
       "articles": [
         {
           "title": "[アップデート] Amazon Redshift Serverless の 3 年 Serverless Reservations に All Upfront が追加され、最大 50% のコスト削減が可能になりました",
@@ -120,21 +127,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-01T10:17:10",
           "excerpt": "DynamoDBのストレージコストは高額になりやすいため、TTLとStreamsを活用してS3への自動アーカイブを実装する手法を試してみました。実装手順と具体的なコスト削減シミュレーションを紹介します。"
-        },
-        {
-          "title": "GCPの予算アラート設定からBigQuery課金エクスポート＋データポータル連携までをOpenTofuで構築してみた",
-          "link": "https://dev.classmethod.jp/articles/gcp-billing-budget-alert-bigquery-looker-studio-opentofu/",
-          "source": "DevelopersIO",
-          "published": "2026-08-01T06:00:19",
-          "excerpt": "GCPプロジェクトのコスト管理を、gcloud CLIでの予算アラート設定、BigQueryへの課金データエクスポート、OpenTofuでのビュー作成の3段階で構築しました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。Github Copilot、7月に発表したVS Code向けアップデートをまとめて紹介",
+      "summary": "開発ツールの新着が9件。自分自身のタスク実行を一度記録し、それを AI エージェントが反復できるスキルに変換します。…",
       "articles": [
+        {
+          "title": "GitHub - マイクロソフト/スキルレコーダー",
+          "link": "https://github.com/microsoft/skill-recorder",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-08-02T00:10:53",
+          "excerpt": "自分自身のタスク実行を一度記録し、それを AI エージェントが反復できるスキルに変換します。…"
+        },
         {
           "title": "Github Copilot、7月に発表したVS Code向けアップデートをまとめて紹介",
           "link": "https://codezine.jp/article/detail/29196",
@@ -155,45 +162,38 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-01T15:39:31",
           "excerpt": "記事の URL: https://lalitm.com/post/github-alternatives/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Twitter API(Go)をAWS ECS Fargateへデプロイする手順",
-          "link": "https://qiita.com/sue-hc/items/e386e44ee59d84a80cd8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-01T15:27:45",
-          "excerpt": "この記事では、Goで作成したTwitter風APIを、次の構成でAWSへデプロイします。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【AWS SAA】ソースコードだけでなく知識もリファクタリングした方が良い【合格体験記】",
-      "link": "https://qiita.com/kubrik244/items/5a32b3854df11abb5bbc",
+      "title": "Microsoft の電子メールと AT&T のオンライン化を支援した「インターネット急進派」を紹介します",
+      "link": "https://www.theregister.com/offbeat/2026/08/02/meet-the-internet-radical-who-helped-microsoft-get-email-and-att-get-online/5281281",
+      "source": "The Register（英語）",
+      "published": "2026-08-02T07:11:00",
+      "excerpt": "トム・エヴスリンがビル・ゲイツ、エクスチェンジの誕生、そしてマー・ベルをウェブ上に引きずり込むことについて語る"
+    },
+    {
+      "title": "Chrome 152ベータ版公開、CPU Performance APIやCSS新機能など多数追加",
+      "link": "https://codezine.jp/article/detail/29198",
+      "source": "CodeZine",
+      "published": "2026-08-02T06:00:00",
+      "excerpt": "Chrome 152ベータ版公開、CPU Performance APIやCSS新機能など多数追加"
+    },
+    {
+      "title": "Amazon EBS ボリュームタイプ一覧",
+      "link": "https://qiita.com/lhormace/items/8784b297ffeb503f8690",
       "source": "Qiita AWSタグ",
-      "published": "2026-08-02T04:39:27",
-      "excerpt": "はじめに 本記事はAWS SAAの合格体験記ですが、SAAに特化した内容ではありません。当日の時間配分や、模試サイトと本番の難易度差といった、受験直前の方に役立つ情報は載っていません。…"
+      "published": "2026-08-02T05:47:43",
+      "excerpt": "Amazon EBS ボリュームタイプ一覧 備忘録として、Amazon EBSの各ボリュームタイプをまとめました。…"
     },
     {
-      "title": "AWSエンジニアのためのGoogle Cloudサービスまとめ その1 コンピューティング編",
-      "link": "https://qiita.com/motuneko253/items/ce049fab2c2bd918da95",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-02T04:23:42",
-      "excerpt": "0.…"
-    },
-    {
-      "title": "PlaywrightでCSS-in-JS・React-Selectを含む複雑な業務フォームを自動化する — セレクタ戦略と過度な抽象化を避ける実践パターン",
-      "link": "https://dev.classmethod.jp/articles/playwright-complex-form-selector-strategy/",
-      "source": "DevelopersIO",
-      "published": "2026-08-02T04:00:10",
-      "excerpt": "CSS-in-JS（Emotion）やReact-Selectを含む30フィールド超の業務フォームをPlaywrightで自動化する際のセレクタ戦略を、壊れやすさの3段階に分けて解説します。…"
-    },
-    {
-      "title": "DeepSeek V4 Flash-0731 を llama.cpp で DGX Spark 1 台に載せてみた",
-      "link": "https://dev.classmethod.jp/articles/dgx-spark-deepseek-v4-flash-0731-llama-cpp/",
-      "source": "DevelopersIO",
-      "published": "2026-08-02T03:55:03",
-      "excerpt": "DeepSeek V4 Flash 0731 の公式版がリリースされ、llama.cpp も対応したので、284B モデルを DGX Spark 1 台で汎用ランナーと専用エンジンから試してみました。…"
+      "title": "ツールを選びに行って、受け入れる側の設計を問われた ― Google Cloud Next Tokyo 2026 参加レポート | truestarテックブログのフィード",
+      "link": "https://zenn.dev/truestar/articles/42b3edab13e8ca",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-02T05:04:34",
+      "excerpt": "2026年7月30日・31日の2日間、東京ビッグサイトで開催された Google Cloud Next Tokyo 2026 に参加しました。…"
     }
   ]
 }
