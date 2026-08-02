@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-02T10:59:03",
+  "generated_at": "2026-08-02T12:01:26",
   "window_hours": 24,
-  "total": 118,
+  "total": 116,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が12件。はじめに AI コーディングエージェントを企業で使えるようにしたものの、次に困るのが「実際どれくらい使われているの?」という点かと思います。トークンをどれだけ食っているのか、どのチームが伸びているのか、モデルを変えたらコストはどう動くのか？…",
+      "summary": "生成AIの新着が13件。記事の URL: https://arxiv.org/abs/2607.20349 コメント URL: https://news.ycombinator.com/item?id=49143289 ポイント: 15 コメント数: 4",
       "articles": [
+        {
+          "title": "生成 AI が書籍市場に氾濫し、市場を希薄化させる",
+          "link": "https://arxiv.org/abs/2607.20349",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-02T11:06:07",
+          "excerpt": "記事の URL: https://arxiv.org/abs/2607.20349 コメント URL: https://news.ycombinator.com/item?id=49143289 ポイント: 15 コメント数: 4"
+        },
+        {
+          "title": "AIエージェントを使う上でのAWSユーザ管理を考える",
+          "link": "https://zenn.dev/gami113/articles/20260801-aws-account-management",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-02T10:00:05",
+          "excerpt": "はじめに AIエージェントにAWSを操作させたいが、権限はある程度縛っておきたい。そして、その縛り自体をエージェントにいじられたくない。そこで、プロジェクト用にアカウントを分けて、エージェント専用のロールを1つ用意する。…"
+        },
         {
           "title": "CloudWatch Coding Agent Insights が来たので Claude Code の利用状況を可視化してみた",
           "link": "https://qiita.com/leomarokun/items/99ff92c38a3067e7a2d2",
@@ -22,20 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-02T08:00:14",
           "excerpt": "SSM Agent バージョン 3.3.40.0 以降で、ec2messages と ssmmessages のエンドポイント使い分けがどのように動作しているのか、ログから詳しく検証した結果をお伝えします。"
-        },
-        {
-          "title": "Google、パーソナルAI「Gemini Spark」を日本でも利用可能に　Chrome統合は米国から",
-          "link": "https://www.itmedia.co.jp/news/article/2608/02/2000000347/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-02T01:12:35",
-          "excerpt": "Googleは、パーソナルAIエージェント「Gemini Spark」の提供対象を日本を含む160カ国以上に拡大した。PC停止時やスマホのロック時もGoogleのクラウド基盤上で動作し、トリガーに応じてタスクを処理する。…"
-        },
-        {
-          "title": "Coding Agent Insightsが来たので、Claude Code(Teamプラン)のOtel送信先をAWSに移行しました。",
-          "link": "https://zenn.dev/ncdc/articles/3da1b836ea1d93",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-02T01:00:05",
-          "excerpt": "!先に結論を書いておくと、はっきり言って現時点(2026/08/01)のCoding Agent Insightsは、データ収集の動作確認程度にしか使えません。…"
         }
       ]
     },
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。IAM Policy Simulatorがアップデートされ、IAMコンソールへの統合、条件付きSCPの評価、ポリシー除外機能などが追加されました。従来のスタンドアロンサイトとの違いと新機能を、実際の検証例を交えて紹介します。",
+      "summary": "セキュリティの新着が4件。IAM Policy Simulatorがアップデートされ、IAMコンソールへの統合、条件付きSCPの評価、ポリシー除外機能などが追加されました。従来のスタンドアロンサイトとの違いと新機能を、実際の検証例を交えて紹介します。",
       "articles": [
         {
           "title": "[アップデート] IAMポリシーシミュレーターがIAMコンソールに移行して機能が追加されました",
@@ -161,6 +161,13 @@
   ],
   "uncategorized": [
     {
+      "title": "ウィキメディア財団が労働組合の承認を拒否、労働組合を潰す法律事務所を雇う",
+      "link": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-08-02/News_and_notes",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-02T11:24:20",
+      "excerpt": "記事の URL: https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-08-02/News_and_notes コメント URL: https://news.…"
+    },
+    {
       "title": "産業革命は今日の爆発的な成長の良い前例となるでしょうか?",
       "link": "https://mattsclancy.github.io/2026/07/27/industrial-revolution-growth.html",
       "source": "Hacker News（英語）",
@@ -180,13 +187,6 @@
       "source": "DevelopersIO",
       "published": "2026-08-02T10:03:08",
       "excerpt": "Amazon Managed Grafana が v10.4 から v12.4 へのインプレースアップグレードに対応しました。破壊的変更の内容と移行時の注意点を整理しつつ、実際にアップグレードを試してみます。"
-    },
-    {
-      "title": "HN を表示: Syncular – TypeScript および Rust コアとのオフラインファースト SQL 同期",
-      "link": "https://github.com/syncular/syncular",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-02T09:48:08",
-      "excerpt": "記事の URL: https://github.com/syncular/syncular コメント URL: https://news.ycombinator.com/item?id=49142794 ポイント: 11 コメント数: 3"
     }
   ]
 }
