@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-02T09:29:41",
+  "generated_at": "2026-08-02T10:59:03",
   "window_hours": 24,
-  "total": 120,
+  "total": 118,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が12件。SSM Agent バージョン 3.3.40.0 以降で、ec2messages と ssmmessages のエンドポイント使い分けがどのように動作しているのか、ログから詳しく検証した結果をお伝えします。",
+      "summary": "生成AIの新着が12件。はじめに AI コーディングエージェントを企業で使えるようにしたものの、次に困るのが「実際どれくらい使われているの?」という点かと思います。トークンをどれだけ食っているのか、どのチームが伸びているのか、モデルを変えたらコストはどう動くのか？…",
       "articles": [
+        {
+          "title": "CloudWatch Coding Agent Insights が来たので Claude Code の利用状況を可視化してみた",
+          "link": "https://qiita.com/leomarokun/items/99ff92c38a3067e7a2d2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-02T09:36:18",
+          "excerpt": "はじめに AI コーディングエージェントを企業で使えるようにしたものの、次に困るのが「実際どれくらい使われているの?」という点かと思います。トークンをどれだけ食っているのか、どのチームが伸びているのか、モデルを変えたらコストはどう動くのか？…"
+        },
         {
           "title": "SSM Agent 3.3.40.0 以降でも ec2messages エンドポイントへの通信が発生するタイミングを確認してみた",
           "link": "https://dev.classmethod.jp/articles/ssm-agent-ec2messages-communication-timing/",
@@ -29,21 +36,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-02T01:00:05",
           "excerpt": "!先に結論を書いておくと、はっきり言って現時点(2026/08/01)のCoding Agent Insightsは、データ収集の動作確認程度にしか使えません。…"
-        },
-        {
-          "title": "GPT‑5.6 アップデート: Terra と Luna のクレジット倍率を引き下げ",
-          "link": "https://aws.amazon.com/jp/blogs/news/gpt-5-6-pricing/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-01T23:11:39",
-          "excerpt": "OpenAI が GPT‑5.6 Terra および Luna の価格を引き下げたため、その値下げ分を Kiro のお客様に還元します。OpenAI の新価格を反映した最新のクレジット倍率が、現在すでに適用されています。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。Amazon EC2専有ホスト、セルフマネージドライセンス不要でHRG作成が可能に",
+      "summary": "クラウドの新着が19件。IAM Policy Simulatorがアップデートされ、IAMコンソールへの統合、条件付きSCPの評価、ポリシー除外機能などが追加されました。従来のスタンドアロンサイトとの違いと新機能を、実際の検証例を交えて紹介します。",
       "articles": [
+        {
+          "title": "[アップデート] IAMポリシーシミュレーターがIAMコンソールに移行して機能が追加されました",
+          "link": "https://dev.classmethod.jp/articles/iam-policy-simulator-iam-console-update/",
+          "source": "DevelopersIO",
+          "published": "2026-08-02T10:42:12",
+          "excerpt": "IAM Policy Simulatorがアップデートされ、IAMコンソールへの統合、条件付きSCPの評価、ポリシー除外機能などが追加されました。従来のスタンドアロンサイトとの違いと新機能を、実際の検証例を交えて紹介します。"
+        },
         {
           "title": "Amazon EC2専有ホスト、セルフマネージドライセンス不要でHRG作成が可能に",
           "link": "https://codezine.jp/article/detail/29199",
@@ -64,21 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-02T08:00:14",
           "excerpt": "SSM Agent バージョン 3.3.40.0 以降で、ec2messages と ssmmessages のエンドポイント使い分けがどのように動作しているのか、ログから詳しく検証した結果をお伝えします。"
-        },
-        {
-          "title": "【小ネタ】 EC2 インスタンス診断 (Instance diagnostics) の 「EBS パフォーマンス」 で何が確認できるのか調べてみた",
-          "link": "https://dev.classmethod.jp/articles/ec2-instance-diagnostics-ebs-performance/",
-          "source": "DevelopersIO",
-          "published": "2026-08-02T06:20:58",
-          "excerpt": "EC2 コンソールの Instance diagnostics に新たに追加された 「EBS パフォーマンス」 機能について、実際の検証環境を交えながら深掘りしていきます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。APIが提供されていない企業SSOに対して、Playwrightをサーバーサイドの認証プロキシとして使い、OKTA SSO + TOTP MFAのログインフローを自動化してJWTを取得する実装パターンを紹介します。",
+      "summary": "セキュリティの新着が5件。IAM Policy Simulatorがアップデートされ、IAMコンソールへの統合、条件付きSCPの評価、ポリシー除外機能などが追加されました。従来のスタンドアロンサイトとの違いと新機能を、実際の検証例を交えて紹介します。",
       "articles": [
+        {
+          "title": "[アップデート] IAMポリシーシミュレーターがIAMコンソールに移行して機能が追加されました",
+          "link": "https://dev.classmethod.jp/articles/iam-policy-simulator-iam-console-update/",
+          "source": "DevelopersIO",
+          "published": "2026-08-02T10:42:12",
+          "excerpt": "IAM Policy Simulatorがアップデートされ、IAMコンソールへの統合、条件付きSCPの評価、ポリシー除外機能などが追加されました。従来のスタンドアロンサイトとの違いと新機能を、実際の検証例を交えて紹介します。"
+        },
         {
           "title": "APIがない企業SSOにPlaywrightでサーバーサイド認証プロキシを作った話",
           "link": "https://dev.classmethod.jp/articles/playwright-server-side-auth-proxy-enterprise-sso/",
@@ -99,20 +106,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-02T05:04:56",
           "excerpt": "TL;DR S3にアップロードしたSkill（ZIP）とArtifact（HTML）を、GuardDuty Malware Protection for S3 で自動スキャンできます マルウェア検知テスト用の EICAR ZIP は THR…"
-        },
-        {
-          "title": "SASEとマイクロセグメンテーションで実現する完全なゼロトラスト | TechHarmony",
-          "link": "https://blog.usize-tech.com/sase-zero-trust/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-01T11:19:13",
-          "excerpt": "本記事は 夏休みクラウド自由研究2026 8/1付の記事です。殆どの企業でゼロトラストを目指されていますが、「これを買えばゼロトラストが完成する」という単一の製品やソリューションは残念ながら存在しません。ただし、より完 […]…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…",
+      "summary": "データ分析の新着が1件。Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…",
       "articles": [
         {
           "title": "[アップデート] Amazon Redshift Serverless の 3 年 Serverless Reservations に All Upfront が追加され、最大 50% のコスト削減が可能になりました",
@@ -120,20 +120,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-01T12:12:52",
           "excerpt": "Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…"
-        },
-        {
-          "title": "DynamoDB Streamsを使ってS3にデータを自動でアーカイブしてみる",
-          "link": "https://dev.classmethod.jp/articles/dynamodb-streams-s3-archive/",
-          "source": "DevelopersIO",
-          "published": "2026-08-01T10:17:10",
-          "excerpt": "DynamoDBのストレージコストは高額になりやすいため、TTLとStreamsを活用してS3への自動アーカイブを実装する手法を試してみました。実装手順と具体的なコスト削減シミュレーションを紹介します。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。自分自身のタスク実行を一度記録し、それを AI エージェントが反復できるスキルに変換します。…",
+      "summary": "開発ツールの新着が5件。自分自身のタスク実行を一度記録し、それを AI エージェントが反復できるスキルに変換します。…",
       "articles": [
         {
           "title": "GitHub - マイクロソフト/スキルレコーダー",
@@ -168,32 +161,32 @@
   ],
   "uncategorized": [
     {
-      "title": "AWSエンジニアのためのGoogle Cloudサービスまとめ その3 データベース編",
-      "link": "https://qiita.com/motuneko253/items/4aaa3cb66f90c9a19ea9",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-02T09:13:36",
-      "excerpt": "0.はじめに 前回はストレージ系のサービスをまとめました。今回はその第3弾として、データベース系のサービスを見ていきます。…"
-    },
-    {
-      "title": "AWSエンジニアのためのGoogle Cloudサービスまとめ その2 ストレージ編",
-      "link": "https://qiita.com/motuneko253/items/f12a81a3126563fc4103",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-02T09:02:20",
-      "excerpt": "0.はじめに 前回はコンピューティング系のサービスをAWSと対比しながらまとめました。今回はその第2弾として、ストレージ・データ移行系のサービスを見ていきます。…"
-    },
-    {
-      "title": "Google 検索の時間フィルターが数日前に壊れました",
-      "link": "https://mastodon.online/@mwichary/117023736804129342",
+      "title": "産業革命は今日の爆発的な成長の良い前例となるでしょうか?",
+      "link": "https://mattsclancy.github.io/2026/07/27/industrial-revolution-growth.html",
       "source": "Hacker News（英語）",
-      "published": "2026-08-02T08:48:53",
-      "excerpt": "記事の URL: https://mastodon.online/@mwichary/117023736804129342 コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-02T10:25:25",
+      "excerpt": "記事の URL: https://mattsclancy.github.io/2026/07/27/industrial-revolution-growth.html コメント URL: https://news.ycombinator.…"
     },
     {
-      "title": "Kiroが変えたAWS Gameday",
-      "link": "https://qiita.com/am_i-12/items/56a987fd989515770985",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-02T08:37:58",
-      "excerpt": "はじめに 2026年6月25日～26日に開催された、AWS summit 2026に参加しました。時間が空いてしまいましたが、AWS Gamedayについて書いていきます 問題の内容は口外NGなので、参加して感じたことを共有します。…"
+      "title": "人工知能: アルス ノトリアと即時知識の約束",
+      "link": "https://publicdomainreview.org/essay/ars-notoria/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-02T10:18:24",
+      "excerpt": "記事の URL: https://publicdomainreview.org/essay/ars-notoria/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "Amazon Managed Grafana で v10.4 から v12.4 へのインプレースアップグレードを試してみた",
+      "link": "https://dev.classmethod.jp/articles/amazon-managed-grafana-12-4-in-place-upgrade/",
+      "source": "DevelopersIO",
+      "published": "2026-08-02T10:03:08",
+      "excerpt": "Amazon Managed Grafana が v10.4 から v12.4 へのインプレースアップグレードに対応しました。破壊的変更の内容と移行時の注意点を整理しつつ、実際にアップグレードを試してみます。"
+    },
+    {
+      "title": "HN を表示: Syncular – TypeScript および Rust コアとのオフラインファースト SQL 同期",
+      "link": "https://github.com/syncular/syncular",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-02T09:48:08",
+      "excerpt": "記事の URL: https://github.com/syncular/syncular コメント URL: https://news.ycombinator.com/item?id=49142794 ポイント: 11 コメント数: 3"
     }
   ]
 }
