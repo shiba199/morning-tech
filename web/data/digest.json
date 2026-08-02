@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-02T12:01:26",
+  "generated_at": "2026-08-02T14:05:19",
   "window_hours": 24,
-  "total": 116,
+  "total": 122,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が13件。記事の URL: https://arxiv.org/abs/2607.20349 コメント URL: https://news.ycombinator.com/item?id=49143289 ポイント: 15 コメント数: 4",
+      "summary": "生成AIの新着が14件。Claude Code や Claude App を使ってみたいけど、最初から月額20ドルを払うのはちょっとお財布が・・・という場合に、AWS Bedrock を利用することで、完全従量制で利用することができます。…",
       "articles": [
+        {
+          "title": "【Bedrock破産対策】Identity Center(SAML)連携のBedrockプロキシを作ってユーザ別にClaude Codeの日次・月次限度額を管理する",
+          "link": "https://qiita.com/kkoiwai/items/51cac804a9bc765468c0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-02T13:27:31",
+          "excerpt": "Claude Code や Claude App を使ってみたいけど、最初から月額20ドルを払うのはちょっとお財布が・・・という場合に、AWS Bedrock を利用することで、完全従量制で利用することができます。…"
+        },
+        {
+          "title": "「指示を足すと損をする？Claude Opus 5時代に捨てるべき3つのプロンプト」～【claude】人気記事（2026/08/02） | CareNet Engineersのフィード",
+          "link": "https://zenn.dev/carenet/articles/zenn-weekly-claude-articles-2026-08",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-02T12:59:26",
+          "excerpt": "!この記事はZennからclaudeのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「指示を足すと損をする？…"
+        },
         {
           "title": "生成 AI が書籍市場に氾濫し、市場を希薄化させる",
           "link": "https://arxiv.org/abs/2607.20349",
@@ -22,27 +36,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-02T10:00:05",
           "excerpt": "はじめに AIエージェントにAWSを操作させたいが、権限はある程度縛っておきたい。そして、その縛り自体をエージェントにいじられたくない。そこで、プロジェクト用にアカウントを分けて、エージェント専用のロールを1つ用意する。…"
-        },
-        {
-          "title": "CloudWatch Coding Agent Insights が来たので Claude Code の利用状況を可視化してみた",
-          "link": "https://qiita.com/leomarokun/items/99ff92c38a3067e7a2d2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-02T09:36:18",
-          "excerpt": "はじめに AI コーディングエージェントを企業で使えるようにしたものの、次に困るのが「実際どれくらい使われているの?」という点かと思います。トークンをどれだけ食っているのか、どのチームが伸びているのか、モデルを変えたらコストはどう動くのか？…"
-        },
-        {
-          "title": "SSM Agent 3.3.40.0 以降でも ec2messages エンドポイントへの通信が発生するタイミングを確認してみた",
-          "link": "https://dev.classmethod.jp/articles/ssm-agent-ec2messages-communication-timing/",
-          "source": "DevelopersIO",
-          "published": "2026-08-02T08:00:14",
-          "excerpt": "SSM Agent バージョン 3.3.40.0 以降で、ec2messages と ssmmessages のエンドポイント使い分けがどのように動作しているのか、ログから詳しく検証した結果をお伝えします。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。IAM Policy Simulatorがアップデートされ、IAMコンソールへの統合、条件付きSCPの評価、ポリシー除外機能などが追加されました。従来のスタンドアロンサイトとの違いと新機能を、実際の検証例を交えて紹介します。",
+      "summary": "クラウドの新着が18件。IAM Policy Simulatorがアップデートされ、IAMコンソールへの統合、条件付きSCPの評価、ポリシー除外機能などが追加されました。従来のスタンドアロンサイトとの違いと新機能を、実際の検証例を交えて紹介します。",
       "articles": [
         {
           "title": "[アップデート] IAMポリシーシミュレーターがIAMコンソールに移行して機能が追加されました",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。IAM Policy Simulatorがアップデートされ、IAMコンソールへの統合、条件付きSCPの評価、ポリシー除外機能などが追加されました。従来のスタンドアロンサイトとの違いと新機能を、実際の検証例を交えて紹介します。",
+      "summary": "セキュリティの新着が5件。IAMユーザ作成 IAMを検索 → IAMユーザをクリック →ユーザの作成をクリック ユーザ名を入れる AWS マネジメントコンソールへのユーザーアクセスを提供するもマネコンログインさせる場合はチェックを入れること！！！…",
       "articles": [
+        {
+          "title": "IAMユーザ作成手順",
+          "link": "https://qiita.com/XYZXYZXYZ/items/68638ad42f1d4e7e4af3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-02T13:24:24",
+          "excerpt": "IAMユーザ作成 IAMを検索 → IAMユーザをクリック →ユーザの作成をクリック ユーザ名を入れる AWS マネジメントコンソールへのユーザーアクセスを提供するもマネコンログインさせる場合はチェックを入れること！！！…"
+        },
         {
           "title": "[アップデート] IAMポリシーシミュレーターがIAMコンソールに移行して機能が追加されました",
           "link": "https://dev.classmethod.jp/articles/iam-policy-simulator-iam-console-update/",
@@ -99,27 +106,27 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-02T05:11:33",
           "excerpt": "TL;DR S3にアップロードしたSkill（ZIP）とArtifact（HTML）を、GuardDuty Malware Protection for S3 で自動スキャンできます マルウェア検知テスト用の EICAR ZIP は THR…"
-        },
-        {
-          "title": "S3に置くSkillとArtifactをGuardDuty Malware Protection for S3 でスキャンしてみた",
-          "link": "https://zenn.dev/nuance/articles/f60819b85507e2",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-02T05:04:56",
-          "excerpt": "TL;DR S3にアップロードしたSkill（ZIP）とArtifact（HTML）を、GuardDuty Malware Protection for S3 で自動スキャンできます マルウェア検知テスト用の EICAR ZIP は THR…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が1件。Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…",
+      "summary": "データ分析の新着が2件。Amazon DynamoDB はじめに 前回、DynamoDB のホットパーティションを意図的に起こそうとして、見事に失敗しました。パーティショ...…",
       "articles": [
         {
-          "title": "[アップデート] Amazon Redshift Serverless の 3 年 Serverless Reservations に All Upfront が追加され、最大 50% のコスト削減が可能になりました",
-          "link": "https://dev.classmethod.jp/articles/20260724-redshift-serverless-three-year-auri/",
+          "title": "【DynamoDB】ホットパーティションを起こせました。コストもしっかりかかりました【解決編】",
+          "link": "https://qiita.com/jus1730/items/1140a14b2c9e840898eb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-02T13:42:16",
+          "excerpt": "Amazon DynamoDB はじめに 前回、DynamoDB のホットパーティションを意図的に起こそうとして、見事に失敗しました。パーティショ...…"
+        },
+        {
+          "title": "クラスメソッド データアナリティクス通信(AWSデータ分析編) – 2026年8月号",
+          "link": "https://dev.classmethod.jp/articles/cm-news-analytics-202608/",
           "source": "DevelopersIO",
-          "published": "2026-08-01T12:12:52",
-          "excerpt": "Amazon Redshift Serverless の 3 年 Serverless Reservations に全額前払い（All Upfront）オプションが追加され、最大 50% のコスト削減が可能になりました。…"
+          "published": "2026-08-02T13:36:02",
+          "excerpt": "今月はストリーミングデータをレイクハウスへ直接配信する仕組みとデータ品質・リネージの自動化が大きく進み、AI コーディングエージェント連携も各サービスで実装されました。注目アップデートを紹介していきます。"
         }
       ]
     },
@@ -161,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "ウィキメディア財団が労働組合の承認を拒否、労働組合を潰す法律事務所を雇う",
-      "link": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-08-02/News_and_notes",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-02T11:24:20",
-      "excerpt": "記事の URL: https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-08-02/News_and_notes コメント URL: https://news.…"
+      "title": "【ざっくり解説】Gateway Endpoint × PrivateLink の違いと使い分け",
+      "link": "https://qiita.com/Haruki-Sugayama/items/1877eb6e9a95374c944f",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-02T13:58:08",
+      "excerpt": "はじめに AWSサービスをインターネットを経由せずに利用するニーズは年々増えています。…"
     },
     {
-      "title": "産業革命は今日の爆発的な成長の良い前例となるでしょうか?",
-      "link": "https://mattsclancy.github.io/2026/07/27/industrial-revolution-growth.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-02T10:25:25",
-      "excerpt": "記事の URL: https://mattsclancy.github.io/2026/07/27/industrial-revolution-growth.html コメント URL: https://news.ycombinator.…"
-    },
-    {
-      "title": "人工知能: アルス ノトリアと即時知識の約束",
-      "link": "https://publicdomainreview.org/essay/ars-notoria/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-02T10:18:24",
-      "excerpt": "記事の URL: https://publicdomainreview.org/essay/ars-notoria/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Amazon Managed Grafana で v10.4 から v12.4 へのインプレースアップグレードを試してみた",
-      "link": "https://dev.classmethod.jp/articles/amazon-managed-grafana-12-4-in-place-upgrade/",
+      "title": "2026年7月にリリースされたSnowflakeの新機能・変更点のまとめ #SnowflakeDB",
+      "link": "https://dev.classmethod.jp/articles/snowflake-latest-info-202607/",
       "source": "DevelopersIO",
-      "published": "2026-08-02T10:03:08",
-      "excerpt": "Amazon Managed Grafana が v10.4 から v12.4 へのインプレースアップグレードに対応しました。破壊的変更の内容と移行時の注意点を整理しつつ、実際にアップグレードを試してみます。"
+      "published": "2026-08-02T13:34:10",
+      "excerpt": "2026年7月のSnowflakeリリースから、特に注目すべき新機能・変更点をピックアップしてまとめました。動的テーブルの増分処理強化、エージェント統合の拡充、ガバナンス機能の進化など、実務に直結するアップデートが続々と登場しています。"
+    },
+    {
+      "title": "新しいコカインは登場したのか？",
+      "link": "https://playboy.substack.com/p/has-the-new-cocaine-finally-arrived",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-02T13:05:06",
+      "excerpt": "記事の URL: https://playboy.substack.com/p/has-the-new-cocaine-finally-arrived コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "RISC OS オープンの 20 年",
+      "link": "https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-02T12:36:07",
+      "excerpt": "記事の URL: https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open コメント URL: https://news.…"
     }
   ]
 }
