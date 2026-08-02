@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-02T14:05:19",
+  "generated_at": "2026-08-02T15:34:14",
   "window_hours": 24,
-  "total": 122,
+  "total": 120,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が14件。Claude Code や Claude App を使ってみたいけど、最初から月額20ドルを払うのはちょっとお財布が・・・という場合に、AWS Bedrock を利用することで、完全従量制で利用することができます。…",
+      "summary": "生成AIの新着が14件。はじめに 2026年7月のアップデートで、Amazon Connect Customerの音声プロバイダーにAgentic Voice(Amazonエージェントボイス)が追加されました。…",
       "articles": [
+        {
+          "title": "【Amazon Connect Customer】Agentic Voiceを架電なしでブラウザ試聴するツールを作ってみた！",
+          "link": "https://qiita.com/yosuke-suzuki/items/43be6f4a956f4fe3f591",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-02T14:57:25",
+          "excerpt": "はじめに 2026年7月のアップデートで、Amazon Connect Customerの音声プロバイダーにAgentic Voice(Amazonエージェントボイス)が追加されました。…"
+        },
         {
           "title": "【Bedrock破産対策】Identity Center(SAML)連携のBedrockプロキシを作ってユーザ別にClaude Codeの日次・月次限度額を管理する",
           "link": "https://qiita.com/kkoiwai/items/51cac804a9bc765468c0",
@@ -29,21 +36,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-02T11:06:07",
           "excerpt": "記事の URL: https://arxiv.org/abs/2607.20349 コメント URL: https://news.ycombinator.com/item?id=49143289 ポイント: 15 コメント数: 4"
-        },
-        {
-          "title": "AIエージェントを使う上でのAWSユーザ管理を考える",
-          "link": "https://zenn.dev/gami113/articles/20260801-aws-account-management",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-02T10:00:05",
-          "excerpt": "はじめに AIエージェントにAWSを操作させたいが、権限はある程度縛っておきたい。そして、その縛り自体をエージェントにいじられたくない。そこで、プロジェクト用にアカウントを分けて、エージェント専用のロールを1つ用意する。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。IAM Policy Simulatorがアップデートされ、IAMコンソールへの統合、条件付きSCPの評価、ポリシー除外機能などが追加されました。従来のスタンドアロンサイトとの違いと新機能を、実際の検証例を交えて紹介します。",
+      "summary": "クラウドの新着が17件。ユーザーがファイルをSnowflakeにアップロードする方法：part1.…",
       "articles": [
+        {
+          "title": "ユーザーがファイルをSnowflakeにアップロードする方法：part1.5 S3＋Snowpipeにバリデーションを加えよう編",
+          "link": "https://qiita.com/hotate_2235/items/70d145e93aec35d13347",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-02T14:57:24",
+          "excerpt": "ユーザーがファイルをSnowflakeにアップロードする方法：part1.…"
+        },
+        {
+          "title": "EC2からOpenTelemetryメトリクスを送ってCloudWatch Query Studioを試す",
+          "link": "https://qiita.com/sagochiko/items/95be46d588e644373314",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-02T14:56:41",
+          "excerpt": "CloudWatch のコンソールを開いたら、左タブの「すべてのメトリクス」が「クラシックメトリクス」に変わっていました。あと「Query Studio」という項目も増えていました。…"
+        },
         {
           "title": "[アップデート] IAMポリシーシミュレーターがIAMコンソールに移行して機能が追加されました",
           "link": "https://dev.classmethod.jp/articles/iam-policy-simulator-iam-console-update/",
@@ -57,20 +71,6 @@
           "source": "CodeZine",
           "published": "2026-08-02T09:00:00",
           "excerpt": "Amazon EC2専有ホスト、セルフマネージドライセンス不要でHRG作成が可能に"
-        },
-        {
-          "title": "VPCの中にしかないRDSにマイグレーションを流すのに、使い捨てのLambdaを立てた",
-          "link": "https://qiita.com/cromtech104/items/0e930c0e7e3b43dd6622",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-02T08:58:57",
-          "excerpt": "本番のRDSをプライベートサブネットに置いてて、VPCの外からは繋がらないようにしてる。…"
-        },
-        {
-          "title": "SSM Agent 3.3.40.0 以降でも ec2messages エンドポイントへの通信が発生するタイミングを確認してみた",
-          "link": "https://dev.classmethod.jp/articles/ssm-agent-ec2messages-communication-timing/",
-          "source": "DevelopersIO",
-          "published": "2026-08-02T08:00:14",
-          "excerpt": "SSM Agent バージョン 3.3.40.0 以降で、ec2messages と ssmmessages のエンドポイント使い分けがどのように動作しているのか、ログから詳しく検証した結果をお伝えします。"
         }
       ]
     },
@@ -133,7 +133,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。自分自身のタスク実行を一度記録し、それを AI エージェントが反復できるスキルに変換します。…",
+      "summary": "開発ツールの新着が4件。自分自身のタスク実行を一度記録し、それを AI エージェントが反復できるスキルに変換します。…",
       "articles": [
         {
           "title": "GitHub - マイクロソフト/スキルレコーダー",
@@ -168,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "【ざっくり解説】Gateway Endpoint × PrivateLink の違いと使い分け",
-      "link": "https://qiita.com/Haruki-Sugayama/items/1877eb6e9a95374c944f",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-02T13:58:08",
-      "excerpt": "はじめに AWSサービスをインターネットを経由せずに利用するニーズは年々増えています。…"
+      "title": "アトラシアン、AI時代の仕事用ブラウザ「Diaブラウザ」のWindows版リリースへ。ウェイトリストへの登録開始",
+      "link": "https://www.publickey1.jp/blog/26/aidiawindows.html",
+      "source": "Publickey",
+      "published": "2026-08-02T15:56:09",
+      "excerpt": "アトラシアンは、現在Mac版がリリースされているDiaブラウザのWindows版を今年の秋にリリースすることを明らかにしました。Dia for Windows is coming (this fall!) pic.twitter.com/.…"
     },
     {
-      "title": "2026年7月にリリースされたSnowflakeの新機能・変更点のまとめ #SnowflakeDB",
-      "link": "https://dev.classmethod.jp/articles/snowflake-latest-info-202607/",
-      "source": "DevelopersIO",
-      "published": "2026-08-02T13:34:10",
-      "excerpt": "2026年7月のSnowflakeリリースから、特に注目すべき新機能・変更点をピックアップしてまとめました。動的テーブルの増分処理強化、エージェント統合の拡充、ガバナンス機能の進化など、実務に直結するアップデートが続々と登場しています。"
+      "title": "日本におけるクラウドネイティブコミュニティの開発者数が約100万人に、CNCFが調査結果を発表",
+      "link": "https://www.publickey1.jp/blog/26/100cncf.html",
+      "source": "Publickey",
+      "published": "2026-08-02T15:28:02",
+      "excerpt": "Kubernetesをはじめとするクラウドネイティブなテクノロジーを推進するCloud Native Computing Foundation（以下、CNCF）とIT分野専門の調査会社であるSlashDataは、日本におけるクラウドネイティ…"
     },
     {
-      "title": "新しいコカインは登場したのか？",
-      "link": "https://playboy.substack.com/p/has-the-new-cocaine-finally-arrived",
+      "title": "これらの App Store の隠れた逸品は、AI 時代にも優れたソフトウェアの余地がまだあることを証明しています",
+      "link": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-02T15:23:19",
+      "excerpt": "AI エージェントによって従来のアプリが時代遅れになる可能性があるという予測にもかかわらず、開発者はこれまでよりも早く新しいソフトウェアを出荷しています。…"
+    },
+    {
+      "title": "アーシュラ・K・ル＝グウィン：「テクノロジー」についての暴言 (2005)",
+      "link": "https://www.ursulakleguin.com/a-rant-about-technology",
       "source": "Hacker News（英語）",
-      "published": "2026-08-02T13:05:06",
-      "excerpt": "記事の URL: https://playboy.substack.com/p/has-the-new-cocaine-finally-arrived コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "RISC OS オープンの 20 年",
-      "link": "https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-02T12:36:07",
-      "excerpt": "記事の URL: https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open コメント URL: https://news.…"
+      "published": "2026-08-02T14:51:18",
+      "excerpt": "記事の URL: https://www.ursulakleguin.com/a-rant-about-technology コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
