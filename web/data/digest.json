@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-08-03T08:20:43",
+  "generated_at": "2026-08-03T11:52:22",
   "window_hours": 24,
-  "total": 175,
+  "total": 189,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が24件。G-gen の今村です。当記事は、Google Cloud Next Tokyo 26 の2日目に行われた Google セッション「Gemini Enterprise Agent Platform 入門！…",
+      "summary": "生成AIの新着が26件。記事の URL: https://github.com/garagehq/nightcrawler/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
-          "title": "Gemini Enterprise Agent Platform入門！進化した次世代エージェント構築基盤の全貌(Google Cloud Next Tokyo 26セッションレポート) | G-gen Tech Blog",
-          "link": "https://blog.g-gen.co.jp/entry/next-tokyo-26-agent-platform-architecture",
+          "title": "Show HN: Nightcrawler – スマートフォン上で実行されるローカル AI 侵入テスト エージェント",
+          "link": "https://github.com/garagehq/nightcrawler/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-03T11:06:15",
+          "excerpt": "記事の URL: https://github.com/garagehq/nightcrawler/ コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "LLM で生成されたコードを手動で再入力することで認知的負債を防ぐ",
+          "link": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-03T09:32:07",
+          "excerpt": "記事の URL: https://ankursethi.…"
+        },
+        {
+          "title": "開発未経験のPMが、Claudeとデータ基盤の障害対応をした話 | TOKIUMプロダクトチーム テックブログのフィード",
+          "link": "https://zenn.dev/tokium_dev/articles/pdm-becomes-data-engineer",
           "source": "企業テックブログまとめ",
-          "published": "2026-08-03T08:00:00",
-          "excerpt": "G-gen の今村です。当記事は、Google Cloud Next Tokyo 26 の2日目に行われた Google セッション「Gemini Enterprise Agent Platform 入門！…"
+          "published": "2026-08-03T09:25:00",
+          "excerpt": "こんにちは。TOKIUM でプロダクトマネージャーをしている譽田です。社内データ分析基盤の構築プロジェクトを、立ち上げから担当しています。…"
         },
         {
-          "title": "【Claude】 Claude Enterpriseでメンバーに作成したSkillを共有する",
-          "link": "https://dev.classmethod.jp/articles/claude-enterprise-sharing-skills/",
-          "source": "DevelopersIO",
-          "published": "2026-08-03T07:05:05",
-          "excerpt": "Claudeの組織プランで作成したスキルをメンバーに共有する方法を初心者向けに解説しています。"
-        },
-        {
-          "title": "NVIDIA、Agent Toolkit拡張でAI物理シミュレーションと設計支援を強化",
-          "link": "https://codezine.jp/article/detail/29207",
-          "source": "CodeZine",
-          "published": "2026-08-03T06:20:00",
-          "excerpt": "NVIDIA、Agent Toolkit拡張でAI物理シミュレーションと設計支援を強化"
-        },
-        {
-          "title": "Sakana AI、日本に特化したLLM「Namazu」をアップデート、APIサービス「Sakana Namazu」として提供開始",
-          "link": "https://gihyo.jp/article/2026/08/sakana-namazu?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-03T05:31:00",
-          "excerpt": "Sakana AIは2026年8月3日、同社のAIチャットサービス「Sakana Chat」に搭載しているLLM「Namazu」をアップデートし、新たにAPIサービス「Sakana Namazu（サカナ・ナマズ）」として提供を開始した。"
+          "title": "Amazon Bedrockで生成AI評価を実践――Operational MetricsからAgentic Metricsまで",
+          "link": "https://zenn.dev/nttdata_tech/articles/b6a57efe881fb9",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-03T09:00:05",
+          "excerpt": "1.はじめに 生成AIアプリケーションを評価する際、回答が正しいかどうかだけを確認していないでしょうか。実際に生成AIやAIエージェントを運用する場合は、回答品質に加えて、次のような観点も必要です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。CloudFront ディストリビューションを削除する際に「The parameter S3 bucket has been deleted.」というエラーが出た場合の対処方法を紹介します。",
+      "summary": "クラウドの新着が14件。はじめに どうも、DELTAの馬場です。Aurora MySQL のログって高くないですか？今回は、監査ログと general ログの両方を CloudWatch Logs に出力しているパターン について「これ、中身ほぼ同じでは？…",
       "articles": [
+        {
+          "title": "Aurora MySQL の監査ログとgeneralログ両方出すのもったいなくない？",
+          "link": "https://zenn.dev/team_delta/articles/e8b234e90430ab",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-03T08:38:27",
+          "excerpt": "はじめに どうも、DELTAの馬場です。Aurora MySQL のログって高くないですか？今回は、監査ログと general ログの両方を CloudWatch Logs に出力しているパターン について「これ、中身ほぼ同じでは？…"
+        },
         {
           "title": "「The parameter S3 bucket has been deleted.」エラーで CloudFront ディストリビューションを削除できない場合の対処方法を教えてください",
           "link": "https://dev.classmethod.jp/articles/tsnote-cloudfront-distribution/",
@@ -64,21 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-03T05:31:06",
           "excerpt": "CloudFront のオリジンカスタムヘッダーを使って、Lambda 関数 URL へのアクセス制御を検証しました。…"
-        },
-        {
-          "title": "Amazon RDS for SQL Server、マルチAZでのTDEデータベース復元をサポート",
-          "link": "https://codezine.jp/article/detail/29205",
-          "source": "CodeZine",
-          "published": "2026-08-03T05:30:00",
-          "excerpt": "Amazon RDS for SQL Server、マルチAZでのTDEデータベース復元をサポート"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。新しい IAM ポリシーシミュレーターで SCP の条件キー付き Deny をシミュレーション可能になりました。GUI での簡易確認から CLI での精密テストまで、実際の SCP を使って新機能を検証します。",
+      "summary": "セキュリティの新着が15件。記事の URL: https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "SQLite の幻覚脆弱性に対して重大な CVE が発行されました",
+          "link": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-03T11:28:54",
+          "excerpt": "記事の URL: https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/ コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "IAM ポリシーシミュレーターが新しくなり AWS マネジメントコンソールに統合されました | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/new-iam-policy-simulator",
@@ -99,21 +106,21 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-03T06:11:32",
           "excerpt": "アイフラッグ子会社でエステサロンや整体院などの予約サービスを手掛けるEPARKリラク＆エステ（東京都港区）は7月31日、同社が運営する予約・顧客管理システム「PeakManager」が不正アクセスを受け、個人情報を含む約3300万件のデータ…"
-        },
-        {
-          "title": "語るも涙、聞くも涙。GitHub ActionsのAWS OIDC認証が新規リポジトリだけ失敗した2026年7月の思い出",
-          "link": "https://qiita.com/torifukukaiou/items/6818ebfc026eada9e2dd",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-03T06:11:12",
-          "excerpt": "TL;DR aws-actions/configure-aws-credentials@v6 を使ったOIDC認証が、古いリポジトリでは通るのに新しいリポジトリでは通らないという謎に遭遇した 原因は2026年7月15日にGitHubへ入った…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が12件。この記事はAWSでBIGIPのHA構成を作る（手動構築編ー第１章：AWS環境設定）の続きです。CloudFormationテンプレートを使わずに、BIGIPのマルチAZ構成をAWSで再現する第２章です。…",
+      "summary": "データ分析の新着が13件。こんにちは。TOKIUM でプロダクトマネージャーをしている譽田です。社内データ分析基盤の構築プロジェクトを、立ち上げから担当しています。…",
       "articles": [
+        {
+          "title": "開発未経験のPMが、Claudeとデータ基盤の障害対応をした話 | TOKIUMプロダクトチーム テックブログのフィード",
+          "link": "https://zenn.dev/tokium_dev/articles/pdm-becomes-data-engineer",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-03T09:25:00",
+          "excerpt": "こんにちは。TOKIUM でプロダクトマネージャーをしている譽田です。社内データ分析基盤の構築プロジェクトを、立ち上げから担当しています。…"
+        },
         {
           "title": "AWSでBIGIPのHA構成を作る（手動構築編ー第２章：アクトスタンバイ構築）",
           "link": "https://qiita.com/_Ik_/items/dac183a9dfcee75d1856",
@@ -134,21 +141,28 @@
           "source": "gihyo.jp 開発",
           "published": "2026-08-03T04:00:00",
           "excerpt": "Y Combinator（YC）は2026年7月31日、社内で利用しているマルチエージェントハーネス「QM」をオープンソースとして公開した。"
-        },
-        {
-          "title": "社内の部品管理システムの改修 ― 業務フェーズをまたぐ分類情報をどう扱うか ― | Seibii テックブログさんのフィード",
-          "link": "https://zenn.dev/seibii/articles/20260728_car_parts_related_feature_updates",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-03T03:59:59",
-          "excerpt": "Seibiiでアプリケーション領域の開発を担当している橋本です。普段は整備士向けのモバイルアプリケーションの開発やバックエンドの開発を行っています。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。はじめに 前回は、Cursor に SpecKit を導入し、Constitution（開発方針） を作成しました。…",
+      "summary": "開発ツールの新着が10件。AWS CDK を使用した開発で、開発者の PR ごとに環境を動的にホスティング・デプロイしたいケースがあります。本記事では、AWS CDK の爆速版 CLI ツールである『cdkd』を使うことで、より効率的に環境を作る方法を紹介します。…",
       "articles": [
+        {
+          "title": "PR ごとに AWS CDK 環境を『cdkd』で効率的に作る",
+          "link": "https://zenn.dev/go_to_k/articles/cdkd-pr-environment-ci",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-03T11:24:32",
+          "excerpt": "AWS CDK を使用した開発で、開発者の PR ごとに環境を動的にホスティング・デプロイしたいケースがあります。本記事では、AWS CDK の爆速版 CLI ツールである『cdkd』を使うことで、より効率的に環境を作る方法を紹介します。…"
+        },
+        {
+          "title": "ORA-12643「Client received internal error from server」がバンドルパッチ適用で直った話",
+          "link": "https://qiita.com/CheerfulEngineer/items/174b7e48a1467f46c7ed",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-03T11:24:23",
+          "excerpt": "はじめに EC2 に Oracle Client を入れて RDS for Oracle に接続しようとしたところ、ORA-12643 が出て接続できませんでした。…"
+        },
         {
           "title": "【第２回】Cursor × SpecKitではじめる仕様駆動開発（Specification編）～Terraformを書く前に仕様を書く～",
           "link": "https://qiita.com/kooohei/items/b373253c3387c9a73585",
@@ -162,52 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-03T06:11:12",
           "excerpt": "TL;DR aws-actions/configure-aws-credentials@v6 を使ったOIDC認証が、古いリポジトリでは通るのに新しいリポジトリでは通らないという謎に遭遇した 原因は2026年7月15日にGitHubへ入った…"
-        },
-        {
-          "title": "【AWS RDS】マルチAZ DBインスタンスデプロイについて",
-          "link": "https://qiita.com/hcs1996rbl/items/ac48772fcbc51d43dd3c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-03T04:33:07",
-          "excerpt": "はじめに RDSデータベースのデプロイオプションの一つである、マルチAZ DBインスタンスデプロイを使うにあたって気になることを調べてみる。補足：デプロイオプションの種類 デプロイオプションの種類としては以下が存在する。…"
-        },
-        {
-          "title": "Azure SDKで7月に発表されたリリースを紹介、Rust/Pythonで新機能が追加",
-          "link": "https://codezine.jp/article/detail/29204",
-          "source": "CodeZine",
-          "published": "2026-08-03T04:00:00",
-          "excerpt": "Azure SDKで7月に発表されたリリースを紹介、Rust/Pythonで新機能が追加"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "営業推進本部 インサイドセールス部 にジョインした大城です",
-      "link": "https://dev.classmethod.jp/articles/join-oshiro-20260803/",
+      "title": "API GatewayがName-based Virtual Hostingな動作をすることを確認してみた",
+      "link": "https://dev.classmethod.jp/articles/amazon-api-gateway-name-based-virtual-hosting/",
       "source": "DevelopersIO",
-      "published": "2026-08-03T08:17:49",
-      "excerpt": "2026年8月にインサイドセールス部へジョインしました、大城友美です。石垣島から東京へ上京し、約10年の営業・インサイドセールス経験を活かしながら、新しい環境でAWSなどクラウド知識を身につけ、成長していきたいと考えています。"
+      "published": "2026-08-03T11:19:04",
+      "excerpt": "API Gatewayのデフォルトのエンドポイント、名前解決したIPアドレスに対して異なるAPIのホスト名をHostヘッダに指定してアクセスすると、そのHostヘッダに応じたレスポンスが返ることを確認してみました。…"
     },
     {
-      "title": "ウォンテッドリーの開発組織が実践する、全員参加型の品質保証研修 ─ QAとエンジニアの協働プロセス | Wantedly Engineer Blog",
-      "link": "https://www.wantedly.com/companies/wantedly/post_articles/1082598",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-03T08:00:14",
-      "excerpt": "はじめにこんにちは、QAエンジニアの青柳です。ウォンテッドリーの開発組織が最も大切にしているのは、「ユーザーの課題..."
+      "title": "ICEは昨年、幼児を含む100万人近くのDNAを収集した",
+      "link": "https://www.wired.com/story/ice-dna-collection-fbi-codis/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-03T11:16:33",
+      "excerpt": "記事の URL: https://www.wired.com/story/ice-dna-collection-fbi-codis/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "SmartHRの信頼性を支える──人事マスタエリアのQAエンジニアが今取り組んでいること | SmartHR Tech Blog",
-      "link": "https://tech.smarthr.jp/entry/2026/08/03/163424",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-03T07:34:24",
-      "excerpt": "こんにちは。SmartHR品質保証本部、人事マスタユニットのkanna、kaomiです。…"
-    },
-    {
-      "title": "Apple、大量購入品の返品に「15％の手数料」　販売条件に明記　“転売対策”か",
-      "link": "https://www.itmedia.co.jp/news/article/2608/03/2000000359/",
+      "title": "実在女性の中学時代の体操着姿からAIわいせつ画像作成・投稿か　男逮捕、高校生書類送検",
+      "link": "https://www.itmedia.co.jp/news/article/2608/03/2000000365/",
       "source": "ITmedia NEWS",
-      "published": "2026-08-03T07:27:24",
-      "excerpt": "米Appleは、日本のApple Storeの販売条件に、大量購入した製品などの返品について「不正な目的による返品の恐れがある」と判断した場合、商品1点につき15％の返品手数料を課すとの条項を追加したとみられる。…"
+      "published": "2026-08-03T11:08:29",
+      "excerpt": "女性の写真を生成AIで加工したわいせつ画像をSNSに投稿したとして、警視庁などは、名誉毀損（きそん）と児童買春・ポルノ禁止法違反（公然陳列）の疑いで、兵庫県姫路市の会社員、井元健太容疑者（32）を逮捕した。…"
+    },
+    {
+      "title": "つい見せたくなる延長コード、開発したのは東大阪の電線メーカー　3000万円の機械導入で思いを形に",
+      "link": "https://www.itmedia.co.jp/news/article/2608/03/2000000364/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-03T11:05:42",
+      "excerpt": "新たな「快適」や「便利」を届けたい、消費者と直接つながりたい…。私たちが何げなく手にする製品には、作り手のさまざまな思いと、それを形に変えた確かな技術が込められている。…"
     }
   ]
 }
