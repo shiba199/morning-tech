@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-02T23:25:30",
+  "generated_at": "2026-08-03T01:02:26",
   "window_hours": 24,
-  "total": 129,
+  "total": 133,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が16件。はじめに ここまでの内容では、機械学習の基本概念や評価指標、データ前処理について整理してきました。今回からは、少し AWS 寄りの内容として、 Amazon SageMaker の基本的な流れを整理します。…",
+      "summary": "生成AIの新着が17件。はじめに ここまでの内容では、機械学習の基本概念や評価指標、データ前処理について整理してきました。今回からは、少し AWS 寄りの内容として、 Amazon SageMaker の基本的な流れを整理します。…",
       "articles": [
         {
           "title": "【簡単AWS MLA】【初心者向け】Day 8：SageMaker の全体像を整理する — Training / Endpoint / Batch Transform",
@@ -15,6 +15,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-02T23:25:04",
           "excerpt": "はじめに ここまでの内容では、機械学習の基本概念や評価指標、データ前処理について整理してきました。今回からは、少し AWS 寄りの内容として、 Amazon SageMaker の基本的な流れを整理します。…"
+        },
+        {
+          "title": "生成AIがあれば「脱メインフレームもできる」なんて気軽に言えるのは今のうち？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/03/news033.html",
+          "source": "@IT",
+          "published": "2026-08-02T23:00:00",
+          "excerpt": "Gartnerは、2026年に開始される脱メインフレームプロジェクトの70％超が、当初の目的を達成できずに失敗すると予測した。背景にはこれから避けて通れないAIへの期待がある。何が成功を拒む要因となるのか。"
         },
         {
           "title": "herdr を使いこなす: 複数 AI エージェントの連携から自作プラグインまで | TECHSCORE BLOG",
@@ -29,21 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-02T22:36:25",
           "excerpt": "Hugging Face のモデルページから Amazon SageMaker へのワンクリックデプロイが可能になりました。本稿では、この新しい連携機能を実際に試し、モデル選択からエンドポイント起動、推論実行までの全フローを紹介します。"
-        },
-        {
-          "title": "AIが「プロキシを突破する」時代へ　OpenAIの評価用AI、ゼロデイ脆弱性を自律悪用",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/03/news014.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-08-02T22:00:00",
-          "excerpt": "OpenAIの評価用AIモデルがプロキシの未知の脆弱性を突いてHugging Faceの本番基盤に侵入した。目標達成のために極端な攻撃行動をとった事案を受け、両社は共同調査と監視、アクセス制御の強化を進める。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の3日目の記事となります。過去の投稿（リンク集）は以下からご覧ください。昨日投稿の記事も併せて記載します。…",
+      "summary": "クラウドの新着が14件。先に結論：CloudTrailのEvent historyは管理イベント(コントロールプレーン操作)しか記録しない仕様で、DynamoDBのPutItem/QueryやS3のPutObjectのようなデータイベント(データプレーン操作)は標…",
       "articles": [
+        {
+          "title": "CloudTrailのEvent Historyで、DynamoDBの読み書きとS3のアップロードだけが1件も見つからなかった話",
+          "link": "https://qiita.com/80-cloud/items/9fd45401812d6f82f4b1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-03T00:49:26",
+          "excerpt": "先に結論：CloudTrailのEvent historyは管理イベント(コントロールプレーン操作)しか記録しない仕様で、DynamoDBのPutItem/QueryやS3のPutObjectのようなデータイベント(データプレーン操作)は標…"
+        },
         {
           "title": "【Lambda】NFC 名刺のアクセスカウンターを Lambda Function URL + DynamoDB で作る",
           "link": "https://qiita.com/ryu-ki/items/60cc8e04d60bbfcf7fa7",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-02T14:56:41",
           "excerpt": "CloudWatch のコンソールを開いたら、左タブの「すべてのメトリクス」が「クラシックメトリクス」に変わっていました。あと「Query Studio」という項目も増えていました。…"
-        },
-        {
-          "title": "[アップデート] IAMポリシーシミュレーターがIAMコンソールに移行して機能が追加されました",
-          "link": "https://dev.classmethod.jp/articles/iam-policy-simulator-iam-console-update/",
-          "source": "DevelopersIO",
-          "published": "2026-08-02T10:42:12",
-          "excerpt": "IAM Policy Simulatorがアップデートされ、IAMコンソールへの統合、条件付きSCPの評価、ポリシー除外機能などが追加されました。従来のスタンドアロンサイトとの違いと新機能を、実際の検証例を交えて紹介します。"
         }
       ]
     },
@@ -112,8 +112,22 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の3日目の記事となります。過去の投稿（リンク集）は以下からご覧ください。昨日投稿の記事も併せて記載します。…",
+      "summary": "データ分析の新着が6件。先に結論：CloudTrailのEvent historyは管理イベント(コントロールプレーン操作)しか記録しない仕様で、DynamoDBのPutItem/QueryやS3のPutObjectのようなデータイベント(データプレーン操作)は標…",
       "articles": [
+        {
+          "title": "CloudTrailのEvent Historyで、DynamoDBの読み書きとS3のアップロードだけが1件も見つからなかった話",
+          "link": "https://qiita.com/80-cloud/items/9fd45401812d6f82f4b1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-03T00:49:26",
+          "excerpt": "先に結論：CloudTrailのEvent historyは管理イベント(コントロールプレーン操作)しか記録しない仕様で、DynamoDBのPutItem/QueryやS3のPutObjectのようなデータイベント(データプレーン操作)は標…"
+        },
+        {
+          "title": "【プレビュー】AWS Glue Data Catalog のビジネスコンテキスト＆セマンティック検索を一から試してみた",
+          "link": "https://qiita.com/MARTOON/items/f6244f93a837110762fe",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-03T00:49:09",
+          "excerpt": "はじめに 2026年6月に、AWS Glue Data Catalog に ビジネスコンテキストとセマンティック検索 のプレビューが発表されました。…"
+        },
         {
           "title": "【Lambda】NFC 名刺のアクセスカウンターを Lambda Function URL + DynamoDB で作る",
           "link": "https://qiita.com/ryu-ki/items/60cc8e04d60bbfcf7fa7",
@@ -127,27 +141,13 @@
           "source": "TechCrunch（英語）",
           "published": "2026-08-02T16:05:00",
           "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。"
-        },
-        {
-          "title": "【DynamoDB】ホットパーティションを起こせました。コストもしっかりかかりました【解決編】",
-          "link": "https://qiita.com/jus1730/items/1140a14b2c9e840898eb",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-02T13:42:16",
-          "excerpt": "Amazon DynamoDB はじめに 前回、DynamoDB のホットパーティションを意図的に起こそうとして、見事に失敗しました。パーティショ...…"
-        },
-        {
-          "title": "クラスメソッド データアナリティクス通信(AWSデータ分析編) – 2026年8月号",
-          "link": "https://dev.classmethod.jp/articles/cm-news-analytics-202608/",
-          "source": "DevelopersIO",
-          "published": "2026-08-02T13:36:02",
-          "excerpt": "今月はストリーミングデータをレイクハウスへ直接配信する仕組みとデータ品質・リネージの自動化が大きく進み、AI コーディングエージェント連携も各サービスで実装されました。注目アップデートを紹介していきます。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が4件。Hugging Face のモデルページから Amazon SageMaker へのワンクリックデプロイが可能になりました。本稿では、この新しい連携機能を実際に試し、モデル選択からエンドポイント起動、推論実行までの全フローを紹介します。",
+      "summary": "開発ツールの新着が2件。Hugging Face のモデルページから Amazon SageMaker へのワンクリックデプロイが可能になりました。本稿では、この新しい連携機能を実際に試し、モデル選択からエンドポイント起動、推論実行までの全フローを紹介します。",
       "articles": [
         {
           "title": "[Amazon SageMaker] Hugging Face のモデルページから「ワンクリック」で Amazon SageMaker AI にデプロイしてみました",
@@ -162,52 +162,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-02T22:30:05",
           "excerpt": "Snowflake CLIとは、Snowflakeが提供する開発者向けのコマンドラインツールです。スピーディにアプリケーションを構築したり、SQLを実行したりすることができます。https://docs.snowflake.…"
-        },
-        {
-          "title": "GitHub - マイクロソフト/スキルレコーダー",
-          "link": "https://github.com/microsoft/skill-recorder",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-08-02T00:10:53",
-          "excerpt": "自分自身のタスク実行を一度記録し、それを AI エージェントが反復できるスキルに変換します。…"
-        },
-        {
-          "title": "Github Copilot、7月に発表したVS Code向けアップデートをまとめて紹介",
-          "link": "https://codezine.jp/article/detail/29196",
-          "source": "CodeZine",
-          "published": "2026-08-02T00:00:00",
-          "excerpt": "Github Copilot、7月に発表したVS Code向けアップデートをまとめて紹介"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "購入/決済のACIDを守るための冪等性のお話 | SODA Engineering Blogのフィード",
-      "link": "https://zenn.dev/team_soda/articles/26f39f5e3b09f3",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-02T23:00:06",
-      "excerpt": "この記事は何冪等性とは何か、何の役に立つのか、どう実践するのかを学ぶ購入と決済の（それぞれ異なる）難しさを学ぶACIDのうちA(原子性)、C(整合性)について学ぶ 冪等性とは何か？…"
-    },
-    {
-      "title": "Notion、デスクトップとWebで「ハイコントラストモード」提供開始",
-      "link": "https://codezine.jp/article/detail/29200",
-      "source": "CodeZine",
-      "published": "2026-08-02T23:00:00",
-      "excerpt": "Notion、デスクトップとWebで「ハイコントラストモード」提供開始"
-    },
-    {
-      "title": "pandasでふぞろいなデータを分析資産に変える",
-      "link": "https://codezine.jp/article/detail/29058",
-      "source": "CodeZine",
-      "published": "2026-08-02T23:00:00",
-      "excerpt": "前回は、Python in Excelの位置づけと、=PYでコードを書きxl()でデータを取り込む基本操作を確認しました。第2回からは、本連載の主役とも言えるpandasに踏み込みます。…"
-    },
-    {
-      "title": "【小ネタ】Kiroと楽しむ月末駆動開発 (EMDD: End of Month Driven Development)",
-      "link": "https://qiita.com/kkoiwai/items/cfd3788907d4a6485214",
+      "title": "AWSで作った洗濯botを2ヶ月使い続けた話",
+      "link": "https://qiita.com/SakiFukutani/items/82209a2a8b9cc603ec57",
       "source": "Qiita AWSタグ",
-      "published": "2026-08-02T22:56:37",
-      "excerpt": "AWSが開発しているAIコーディングアシスタントの「Kiro」はみなさんご存知でしょうか。いわゆるVS Codee ForkのIDEと、CLIと、Webが使えます。…"
+      "published": "2026-08-03T00:34:28",
+      "excerpt": "本記事は、BIPROGY / ユニアデックス社内AWSコミュニティ「BIPROGY AWS SPARK」の定期投稿企画第6回目の記事です。他の定期投稿企画の記事は、インデックスページをご覧ください。…"
+    },
+    {
+      "title": "Book Corners が投稿を OpenStreetMap に同期しない理由",
+      "link": "https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-03T00:12:16",
+      "excerpt": "記事の URL: https://www.andreagrandi.…"
+    },
+    {
+      "title": "Gmail、BCC返信時の誤送信防止機能を新たに導入",
+      "link": "https://codezine.jp/article/detail/29201",
+      "source": "CodeZine",
+      "published": "2026-08-03T00:00:00",
+      "excerpt": "Gmail、BCC返信時の誤送信防止機能を新たに導入"
+    },
+    {
+      "title": "Devinの成果物の質を上げる！「仕様駆動」と「ハーネス設計」～仕様を、書く前に伝え、書いた後に確かめて「1回の依頼で80点」を目指す",
+      "link": "https://codezine.jp/article/detail/24745",
+      "source": "CodeZine",
+      "published": "2026-08-03T00:00:00",
+      "excerpt": "第1回では、Devinの強みが「タスクを丸ごと任せられる自律性」にあることを見てきました。しかし自律性は、使い方しだいで諸刃の剣にもなります。…"
     }
   ]
 }
