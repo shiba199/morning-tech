@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-03T18:30:58",
+  "generated_at": "2026-08-03T20:19:48",
   "window_hours": 24,
-  "total": 212,
+  "total": 219,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が29件。はじめに この記事は、前回の記事の続きです。今回は、生成AIの基礎用語や活用方法、それらに対応するAWSサービスを取り上げます。…",
+      "summary": "生成AIの新着が32件。OpenAIとAnthropicは、未公開のAIモデルがサンドボックスから逃れ、前例のないサイバー攻撃で複数の企業をハッキングしたことを認めた。法的に誰が責任を負うのでしょうか？検察はAIフロンティア研究所2社を起訴すべきでしょうか?…",
       "articles": [
+        {
+          "title": "Anthropic と OpenAI の自律型 AI ハッキングの法的責任は誰にあるのでしょうか?それは複雑です",
+          "link": "https://techcrunch.com/2026/08/03/whos-legally-to-blame-for-anthropic-and-openais-autonomous-ai-hacks-its-complicated/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-03T19:45:35",
+          "excerpt": "OpenAIとAnthropicは、未公開のAIモデルがサンドボックスから逃れ、前例のないサイバー攻撃で複数の企業をハッキングしたことを認めた。法的に誰が責任を負うのでしょうか？検察はAIフロンティア研究所2社を起訴すべきでしょうか?…"
+        },
+        {
+          "title": "OpenAI初の豪華旅行参加でインフルエンサーらが反発",
+          "link": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-03T19:09:56",
+          "excerpt": "AIの使用をめぐる緊張が続く中、OpenAIの史上初のインフルエンサーブランドトリップがネット上で反発を引き起こしている。"
+        },
         {
           "title": "AWS AI Practitioner超入門 #2: 生成AI・Bedrock",
           "link": "https://qiita.com/ryuta1005/items/796f9e502e3507b39882",
@@ -22,27 +36,13 @@
           "source": "TechCrunch（英語）",
           "published": "2026-08-03T16:40:55",
           "excerpt": "下院支出記録によると、国会議事堂ではOpenAIのChatGPTが有料AIの利用を独占しており、議会事務所はチャットボットに依存してメモを起草し、法案を要約し、有権者とのコミュニケーションを支援している。"
-        },
-        {
-          "title": "AWS ウィークリーラウンドアップ: Bedrock の GPT モデルの値下げ、Prometheus メトリクスの CloudWatch 管理コレクターなど (2026 年 8 月 3 日)",
-          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/",
-          "source": "AWS News Blog（英語）",
-          "published": "2026-08-03T16:12:30",
-          "excerpt": "先週、私は 7 歳の息子と一緒に Amazon の「Bring Your Kids to Work Day」に参加できて嬉しかったです。…"
-        },
-        {
-          "title": "[Strands Agents] Storage インターフェースで DynamoDB バックエンドを自作して、会話履歴と退避データを 1 テーブルにまとめてみました",
-          "link": "https://dev.classmethod.jp/articles/strands-agents-storage-interface-dynamodb-backend/",
-          "source": "DevelopersIO",
-          "published": "2026-08-03T15:42:06",
-          "excerpt": "Strands Agents の統一 Storage インターフェースを使って、DynamoDB バックエンドを自作し、会話履歴と退避データを 1 つのテーブルで管理する方法を試してみました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。調査会社のSynergy Research Groupは、グローバルにおける2026年第2四半期のクラウドインフラの市場状況について調査結果を発表しました。クラウドインフラとは、IaaS、PaaS、ホステッドプライベートクラウドを合わせた.…",
+      "summary": "クラウドの新着が19件。調査会社のSynergy Research Groupは、グローバルにおける2026年第2四半期のクラウドインフラの市場状況について調査結果を発表しました。クラウドインフラとは、IaaS、PaaS、ホステッドプライベートクラウドを合わせた.…",
       "articles": [
         {
           "title": "クラウドインフラのシェア、AWSが28％と変わらず、Google Cloudは1ポイント上昇して15％に。市場全体が年42％と過去最高の成長率に。2026年第2四半期、Synergy Research",
@@ -66,19 +66,26 @@
           "excerpt": "はじめに 2026 年 7 月 27 日、AWS は Amazon EKS の OIDC エンドポイントに対する AWS PrivateLink 対応を発表しました。…"
         },
         {
-          "title": "【Amazon RDS】フェイルオーバー時にメールで通知する",
-          "link": "https://qiita.com/hcs1996rbl/items/70378f639515121ceb43",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-03T13:58:15",
-          "excerpt": "はじめに フェイルオーバーした際に、その事実を速やかに把握できるようにしたい。\"Amazon RDS イベント通知\"で検知および通知ができるようなので、使ってみる。…"
+          "title": "第4回: foundation層を書く — NATなしVPC、SG参照チェーン、ECRライフサイクル",
+          "link": "https://zenn.dev/parabolaml/articles/c008de3c2707d7",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-03T14:33:40",
+          "excerpt": "連載「ローカルMLOpsをAWSに載せる」第4回。実装編その1、立てっぱなしでもほぼ課金されない基盤層です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。ホスピタリティ業界が警戒を強める中、キーロガー、視聴覚監視、トークン盗難がCaptivePortalの課題に",
+      "summary": "セキュリティの新着が16件。NIST はまだ未処理の中に埋もれているため、AI が生成した偽のレポートは今後も続くことが予想されます",
       "articles": [
+        {
+          "title": "AI のスロップが偽の脆弱性で CVE パイプラインを汚染する",
+          "link": "https://www.theregister.com/security/2026/08/03/ai-slop-pollutes-the-cve-pipeline-with-fake-vulns/5282462",
+          "source": "The Register（英語）",
+          "published": "2026-08-03T17:19:36",
+          "excerpt": "NIST はまだ未処理の中に埋もれているため、AI が生成した偽のレポートは今後も続くことが予想されます"
+        },
         {
           "title": "ロシアのスパイが公衆Wi-Fiをマルウェア配信システムに変える",
           "link": "https://www.theregister.com/security/2026/08/03/russias-svr-borks-public-wi-fis-for-digital-surveillance/5282399",
@@ -99,13 +106,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-03T13:52:45",
           "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！…"
-        },
-        {
-          "title": "SQLite の幻覚脆弱性に対して重大な CVE が発行されました",
-          "link": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-03T11:28:54",
-          "excerpt": "記事の URL: https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。記事の URL: https://blog.exe.dev/devtools-must-be-open-source コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が12件。AWS CLI は User-Agent にセッションID（SID）を付与します。v2.36.…",
       "articles": [
+        {
+          "title": "AWS CLIの環境変数 AWS_CLI_SESSION_ID_DISABLED でセッションID無効化を試してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-cli-session-id-disabled/",
+          "source": "DevelopersIO",
+          "published": "2026-08-03T19:00:31",
+          "excerpt": "AWS CLI は User-Agent にセッションID（SID）を付与します。v2.36.…"
+        },
         {
           "title": "開発ツールはオープンソースでなければなりません",
           "link": "https://blog.exe.dev/devtools-must-be-open-source",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-03T11:24:23",
           "excerpt": "はじめに EC2 に Oracle Client を入れて RDS for Oracle に接続しようとしたところ、ORA-12643 が出て接続できませんでした。…"
-        },
-        {
-          "title": "【第２回】Cursor × SpecKitではじめる仕様駆動開発（Specification編）～Terraformを書く前に仕様を書く～",
-          "link": "https://qiita.com/kooohei/items/b373253c3387c9a73585",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-03T06:11:50",
-          "excerpt": "はじめに 前回は、Cursor に SpecKit を導入し、Constitution（開発方針） を作成しました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "アウターネットは保存した投稿を現実世界の冒険に変えます",
-      "link": "https://techcrunch.com/2026/08/03/outernet-turns-your-saved-posts-into-real-world-adventures/",
+      "title": "AWS はバイブコーディングのスタートアップ Superblocks を支援しており、その影響は大きい",
+      "link": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-03T18:00:24",
-      "excerpt": "サンフランシスコ市全域の宝探しイベント「パシュート」のようなバイラルオフラインイベントの作成者によって設立されたアウターネットのアプリは、ユーザーがオンラインで見つけた場所やイベントを保存し、実際に行くよう促すのに役立ちます。"
+      "published": "2026-08-03T20:00:00",
+      "excerpt": "AWS では、バイブ コーディング ツール Superblocks を AWS 顧客のプライベート クラウドに組み込むことができるようになりました。これは、アプリをモデルから切り離すための新たな一歩です。"
     },
     {
-      "title": "WhatsAppは、複数のアカウントを無効にする問題を修正中であると発表",
-      "link": "https://techcrunch.com/2026/08/03/whatsapp-says-it-is-is-fixing-an-issue-that-disabled-several-accounts/",
+      "title": "DesignArena のクリエイターが AI モデルにセンスをもたらすために 790 万ドルを調達",
+      "link": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-03T17:46:01",
-      "excerpt": "Metaは、ユーザーがメッセージングアプリから予期せずロックアウトされたと報告した後、誤ってフラグが立てられ「審査中」となったWhatsAppアカウントへのアクセスを回復していると述べた。"
+      "published": "2026-08-03T19:28:57",
+      "excerpt": "DesignArena は世界中で 530 万人が使用しており、フロンティアの研究機関に人間による重要な評価を提供しています。"
     },
     {
-      "title": "Sequoiaのショーン・マグワイア氏が原子力スタートアップValar Atomicsの10億ドルラウンドを主導",
-      "link": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/",
+      "title": "Apple、iCloudバックドアに対する英国政府の最新の要求に異議を唱える：レポート",
+      "link": "https://techcrunch.com/2026/08/03/apple-challenges-uk-governments-latest-demand-for-icloud-backdoor-report/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-03T17:16:43",
-      "excerpt": "Valar Atomicsは6月にNvidiaと開発契約を結んだ後、60億ドルの評価額で10億ドルを調達した。"
+      "published": "2026-08-03T18:54:09",
+      "excerpt": "Appleは、世界中のユーザーのプライバシー権を脅かす可能性があるとして、批評家らは英国政府による新たな法的要求を訴えた。"
     },
     {
-      "title": "より小さく、より速く、より安全: Kimi と GLM を大規模に実行",
-      "link": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+      "title": "ZX Spectrum System ツアー: サウンド",
+      "link": "https://bumbershootsoft.wordpress.com/2026/08/01/zx-spectrum-system-tour-sound/",
       "source": "Hacker News（英語）",
-      "published": "2026-08-03T17:08:46",
-      "excerpt": "記事の URL: https://blog.cloudflare.com/smaller-faster-safer-models/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-03T18:32:06",
+      "excerpt": "記事の URL: https://bumbershootsoft.wordpress.com/2026/08/01/zx-spectrum-system-tour-sound/ コメント URL: https://news.…"
     }
   ]
 }
