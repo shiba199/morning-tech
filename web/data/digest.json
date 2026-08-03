@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-03T16:44:33",
+  "generated_at": "2026-08-03T18:30:58",
   "window_hours": 24,
-  "total": 205,
+  "total": 212,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が29件。下院支出記録によると、国会議事堂ではOpenAIのChatGPTが有料AIの利用を独占しており、議会事務所はチャットボットに依存してメモを起草し、法案を要約し、有権者とのコミュニケーションを支援している。",
+      "summary": "生成AIの新着が29件。はじめに この記事は、前回の記事の続きです。今回は、生成AIの基礎用語や活用方法、それらに対応するAWSサービスを取り上げます。…",
       "articles": [
+        {
+          "title": "AWS AI Practitioner超入門 #2: 生成AI・Bedrock",
+          "link": "https://qiita.com/ryuta1005/items/796f9e502e3507b39882",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-03T17:05:13",
+          "excerpt": "はじめに この記事は、前回の記事の続きです。今回は、生成AIの基礎用語や活用方法、それらに対応するAWSサービスを取り上げます。…"
+        },
         {
           "title": "議会のお気に入りの AI ツール?チャットGPT",
           "link": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
@@ -29,20 +36,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-03T15:42:06",
           "excerpt": "Strands Agents の統一 Storage インターフェースを使って、DynamoDB バックエンドを自作し、会話履歴と退避データを 1 つのテーブルで管理する方法を試してみました。…"
-        },
-        {
-          "title": "「まだ手動でやってる？Claude CodeとMCPがもたらすAIエージェント開発の衝撃」～【python】人気記事（2026/08/02） | CareNet Engineersのフィード",
-          "link": "https://zenn.dev/carenet/articles/zenn-weekly-python-articles-2026-08",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-03T14:16:23",
-          "excerpt": "!この記事はZennからpythonのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「まだ手動でやってる？…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。調査会社のSynergy Research Groupは、グローバルにおける2026年第2四半期のクラウドインフラの市場状況について調査結果を発表しました。クラウドインフラとは、IaaS、PaaS、ホステッドプライベートクラウドを合わせた.…",
+      "summary": "クラウドの新着が18件。調査会社のSynergy Research Groupは、グローバルにおける2026年第2四半期のクラウドインフラの市場状況について調査結果を発表しました。クラウドインフラとは、IaaS、PaaS、ホステッドプライベートクラウドを合わせた.…",
       "articles": [
         {
           "title": "クラウドインフラのシェア、AWSが28％と変わらず、Google Cloudは1ポイント上昇して15％に。市場全体が年42％と過去最高の成長率に。2026年第2四半期、Synergy Research",
@@ -50,6 +50,13 @@
           "source": "Publickey",
           "published": "2026-08-03T15:39:50",
           "excerpt": "調査会社のSynergy Research Groupは、グローバルにおける2026年第2四半期のクラウドインフラの市場状況について調査結果を発表しました。クラウドインフラとは、IaaS、PaaS、ホステッドプライベートクラウドを合わせた.…"
+        },
+        {
+          "title": "フルスタック Windows モダナイゼーションのための AWS Transform が、Aurora PostgreSQL へのオフライン スキーマ変換をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-windows-sql-schema-aurora",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-03T15:00:00",
+          "excerpt": "本日、フルスタック Windows モダナイゼーションのための AWS Transform がオフライン ソース変換の一般提供を発表しました。…"
         },
         {
           "title": "Amazon EKS が OIDC エンドポイントに対する AWS PrivateLink をサポート",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-03T13:58:15",
           "excerpt": "はじめに フェイルオーバーした際に、その事実を速やかに把握できるようにしたい。\"Amazon RDS イベント通知\"で検知および通知ができるようなので、使ってみる。…"
-        },
-        {
-          "title": "ブラウザで Session Manager 接続した EC2 に、お手軽ファイル転送する Chrome 拡張",
-          "link": "https://qiita.com/Bacchus/items/5247a9f3ddc1fe0f6fbb",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-03T13:17:56",
-          "excerpt": "はじめに Session Manager で EC2 に繋いでるとき、ファイル転送したくなることありませんか？S3 経由や SSM ポート転送は少々面倒です。でも実は、ブラウザのターミナルにペーストするだけで転送できます。…"
         }
       ]
     },
@@ -87,6 +87,13 @@
           "excerpt": "ホスピタリティ業界が警戒を強める中、キーロガー、視聴覚監視、トークン盗難がCaptivePortalの課題に"
         },
         {
+          "title": "AWS WAF が、新たな脅威と AI/ML アプリケーション保護のための Miggo Security 管理ルール グループをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf-miggo-managed-rule-groups",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-03T15:00:00",
+          "excerpt": "AWS WAF は、AWS Marketplace から入手できる Miggo Security の 2 つの新しいパートナー管理ルール グループをサポートするようになりました: Miggo Rules for AWS WAF – High…"
+        },
+        {
           "title": "Security Command Center Premium のコストを1つずつ確認しながら計算する | 株式会社サイバーセキュリティクラウド　テックブログのフィード",
           "link": "https://zenn.dev/cscloud_blog/articles/scc-cost-how-to",
           "source": "企業テックブログまとめ",
@@ -99,21 +106,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-03T11:28:54",
           "excerpt": "記事の URL: https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "IAM ポリシーシミュレーターが新しくなり AWS マネジメントコンソールに統合されました | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/new-iam-policy-simulator",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-03T07:54:00",
-          "excerpt": "新しい IAM ポリシーシミュレーターで SCP の条件キー付き Deny をシミュレーション可能になりました。GUI での簡易確認から CLI での精密テストまで、実際の SCP を使って新機能を検証します。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が12件。Strands Agents の統一 Storage インターフェースを使って、DynamoDB バックエンドを自作し、会話履歴と退避データを 1 つのテーブルで管理する方法を試してみました。…",
+      "summary": "データ分析の新着が13件。記事の URL: https://blog.cloudflare.com/billable-usage-api/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "Billable Capacity API: Cloudflare のプログラムによるコストの可視性",
+          "link": "https://blog.cloudflare.com/billable-usage-api/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-03T17:18:06",
+          "excerpt": "記事の URL: https://blog.cloudflare.com/billable-usage-api/ コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "[Strands Agents] Storage インターフェースで DynamoDB バックエンドを自作して、会話履歴と退避データを 1 テーブルにまとめてみました",
           "link": "https://dev.classmethod.jp/articles/strands-agents-storage-interface-dynamodb-backend/",
@@ -134,13 +141,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-03T09:25:00",
           "excerpt": "こんにちは。TOKIUM でプロダクトマネージャーをしている譽田です。社内データ分析基盤の構築プロジェクトを、立ち上げから担当しています。…"
-        },
-        {
-          "title": "AWSでBIGIPのHA構成を作る（手動構築編ー第２章：アクトスタンバイ構築）",
-          "link": "https://qiita.com/_Ik_/items/dac183a9dfcee75d1856",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-03T07:29:01",
-          "excerpt": "この記事はAWSでBIGIPのHA構成を作る（手動構築編ー第１章：AWS環境設定）の続きです。CloudFormationテンプレートを使わずに、BIGIPのマルチAZ構成をAWSで再現する第２章です。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Wispr Flow は会議メモ作成機能の立ち上げを準備中、最新の条件が示唆",
-      "link": "https://techcrunch.com/2026/08/03/wispr-flow-is-preparing-to-launch-a-meeting-notetaker-updated-terms-suggest/",
+      "title": "アウターネットは保存した投稿を現実世界の冒険に変えます",
+      "link": "https://techcrunch.com/2026/08/03/outernet-turns-your-saved-posts-into-real-world-adventures/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-03T16:29:30",
-      "excerpt": "Wispr Flow の新しい利用規約には、会議の概要とアクションアイテムを生成するメモテイカーが導入されることが示されています。"
+      "published": "2026-08-03T18:00:24",
+      "excerpt": "サンフランシスコ市全域の宝探しイベント「パシュート」のようなバイラルオフラインイベントの作成者によって設立されたアウターネットのアプリは、ユーザーがオンラインで見つけた場所やイベントを保存し、実際に行くよう促すのに役立ちます。"
     },
     {
-      "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』で学ぶ『AWS』のWebアプリケーション保護",
-      "link": "https://qiita.com/Veteran/items/03f7b25452ba9fd0b215",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-03T16:27:38",
-      "excerpt": "皆さんこんばんは！ポンコツエンジニアのGONです！本日は少し涼しくて楽でしたね。調べてみたら最高気温が31度でした。この位の気温で勘弁して欲しいものです。明日最高気温31度、最低気温25度予想なのでエアコン設定抑えめで過ごせそうですね。…"
+      "title": "WhatsAppは、複数のアカウントを無効にする問題を修正中であると発表",
+      "link": "https://techcrunch.com/2026/08/03/whatsapp-says-it-is-is-fixing-an-issue-that-disabled-several-accounts/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-03T17:46:01",
+      "excerpt": "Metaは、ユーザーがメッセージングアプリから予期せずロックアウトされたと報告した後、誤ってフラグが立てられ「審査中」となったWhatsAppアカウントへのアクセスを回復していると述べた。"
     },
     {
-      "title": "AI が単独で完了できる最大のソフトウェア プロジェクトは何ですか?",
-      "link": "https://epoch.ai/MirrorCode",
+      "title": "Sequoiaのショーン・マグワイア氏が原子力スタートアップValar Atomicsの10億ドルラウンドを主導",
+      "link": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-03T17:16:43",
+      "excerpt": "Valar Atomicsは6月にNvidiaと開発契約を結んだ後、60億ドルの評価額で10億ドルを調達した。"
+    },
+    {
+      "title": "より小さく、より速く、より安全: Kimi と GLM を大規模に実行",
+      "link": "https://blog.cloudflare.com/smaller-faster-safer-models/",
       "source": "Hacker News（英語）",
-      "published": "2026-08-03T16:16:40",
-      "excerpt": "記事の URL: https://epoch.ai/MirrorCode コメント URL: https://news.ycombinator.com/item?id=49157786 ポイント: 6 コメント数: 0"
-    },
-    {
-      "title": "INT8 ConvRotの説明（FP8は不要になりました）",
-      "link": "https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=en",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-03T16:07:09",
-      "excerpt": "記事の URL: https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=ja コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-03T17:08:46",
+      "excerpt": "記事の URL: https://blog.cloudflare.com/smaller-faster-safer-models/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
