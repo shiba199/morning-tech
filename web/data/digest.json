@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-04T17:10:18",
+  "generated_at": "2026-08-04T19:01:40",
   "window_hours": 24,
-  "total": 212,
+  "total": 215,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が32件。1Passwordは、単一のダッシュボード画面からAnthropicのCalude、OpenAIのChatGPT、AnysphereのCursorなど複数のAIサービスに対する支出状況をリアルタイムに表示、管理できる新機能を発表しました。.…",
+      "summary": "生成AIの新着が34件。私たちは Rui と Michael で、EdotEnv ( https://edotenv.com ): Quant Trading ワークフローから自己改善する RL 環境を構築しています。…",
       "articles": [
+        {
+          "title": "HN:EDOtEnv (YC S26) を開始 – LLM リサーチを教えるためのクオンツ取引 RL 環境",
+          "link": "https://edotenv.com/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-04T18:36:02",
+          "excerpt": "私たちは Rui と Michael で、EdotEnv ( https://edotenv.com ): Quant Trading ワークフローから自己改善する RL 環境を構築しています。…"
+        },
+        {
+          "title": "HN: cMCP を表示し、AI エージェントのツール呼び出しを拒否し、署名済みの領収書を取得します",
+          "link": "https://github.com/agentrust-io/cmcp",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-04T18:06:08",
+          "excerpt": "記事の URL: https://github.com/agenttrust-io/cmcp コメント URL: https://news.ycombinator.com/item?id=49172545 ポイント: 6 コメント数: 1"
+        },
         {
           "title": "1Password、ダッシュボードから組織のAI支出状況を表示する新機能。ClaudeやCursor、ChatGPTなど複数AIにI対応",
           "link": "https://www.publickey1.jp/blog/26/1passwordaiclaudecursorchatgptaii.html",
@@ -22,20 +36,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-04T14:38:31",
           "excerpt": "記事の URL: https://github.com/tikalk/adlc-team-skills コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Apple、さらに多くの元従業員が機密データをOpenAIに持ち込んだ可能性があると発表",
-          "link": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-04T14:03:01",
-          "excerpt": "Appleは、OpenAIに対する企業秘密の調査範囲が拡大したと述べた。Appleは新たな裁判所への提出文書で、さらに多くの元スタッフが機密情報を保持またはアクセスした可能性があると主張している。…"
-        },
-        {
-          "title": "OpenAI、Appleの営業秘密訴訟は「攻撃的で奇妙に個人的なもの」だと発言",
-          "link": "https://arstechnica.com/tech-policy/2026/08/openai-says-apples-trade-secrets-lawsuit-is-aggressive-and-oddly-personal/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-08-04T13:38:29",
-          "excerpt": "「私たちは彼らの企業秘密を一切持っていませんし、望んでいません」とChatGPTの作成者は言います。"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。Snowflake の OIDC フェデレーション認証がパブリックプレビューになりました。Google を対象に、セキュリティ統合の作成からログイン、ドメイン制限の設定まで、実際の検証内容をまとめます。",
+      "summary": "セキュリティの新着が14件。記事の URL: https://textslashplain.com/2026/08/04/security-is-hard-yall/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "皆さん、セキュリティは難しいです",
+          "link": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-04T18:29:32",
+          "excerpt": "記事の URL: https://textslashplain.com/2026/08/04/security-is-hard-yall/ コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "[新機能]Snowflake で OpenID Connect によるフェデレーション認証ができるようになりました",
           "link": "https://dev.classmethod.jp/articles/snowflake-oidc-federated-auth-preview/",
@@ -99,20 +106,13 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-04T09:49:03",
           "excerpt": "中部電力は8月4日、一部システムへの不正アクセスで、役職員や取引先などの個人情報が漏えいした可能性があると発表した。グループの連絡先情報約7万1700件が対象で、電力供給への影響はないとしている。"
-        },
-        {
-          "title": "AWS DevOps Agent の多層セキュリティを、外部 MCP サーバーを接続して実際に検証してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-multi-layer-security-verification/",
-          "source": "DevelopersIO",
-          "published": "2026-08-04T06:04:13",
-          "excerpt": "IAM で s3:DeleteBucket を許可してもエージェントは Denied operation で拒否した。実効権限は IAM ポリシーと Permission guardrail の交差であり、ツール許可リストも実効的だった。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。TV Time の閉鎖により何百万人ものユーザーが代替手段を探していた後、アプリの創設者の 1 人が Bingers に戻ってきました。…",
+      "summary": "データ分析の新着が5件。TV Time の閉鎖により何百万人ものユーザーが代替手段を探していた後、アプリの創設者の 1 人が Bingers に戻ってきました。…",
       "articles": [
         {
           "title": "TV Time の共同創設者が人気の TV 追跡アプリを復活させるために Bingers を立ち上げる",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。TL;DR CDK に --express を付けてデプロイしたところ、S3 へのファイル投入で ECS タスクが起動しなくなりました。…",
+      "summary": "開発ツールの新着が12件。TL;DR CDK に --express を付けてデプロイしたところ、S3 へのファイル投入で ECS タスクが起動しなくなりました。…",
       "articles": [
         {
           "title": "CloudFormation Express モードを試した後に S3 バケットトリガーが発火しなくなった",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Truemetrics (YC S23) がベルリンで人材を募集中 – GTM リード",
-      "link": "https://www.ycombinator.com/companies/truemetrics/jobs/bIQQ7tP-founding-gtm-lead",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-04T17:00:12",
-      "excerpt": "記事の URL: https://www.ycombinator.com/companies/truemetrics/jobs/bIQQ7tP-founding-gtm-lead コメント URL: https://news.…"
+      "title": "CloudTrail 証跡から Quick Sight ダッシュボード・分析の利用状況を可視化する",
+      "link": "https://dev.classmethod.jp/articles/quicksight-dashboard-usage-visualization-cloudtrail-athena/",
+      "source": "DevelopersIO",
+      "published": "2026-08-04T18:18:37",
+      "excerpt": "参照されていない Quick Sight ダッシュボードを洗い出すため、既存の CloudTrail 証跡からダッシュボード・分析の閲覧履歴ログを Athena で集計する仕組みを構築しました。"
     },
     {
-      "title": "ウェッブ望遠鏡、海王星の衛星に古代の災害の兆候を発見",
-      "link": "https://www.reuters.com/science/webb-telescope-finds-signs-ancient-disaster-neptunes-moons-2026-08-03/",
+      "title": "脅迫失敗 (2013)",
+      "link": "https://gwern.net/blackmail",
       "source": "Hacker News（英語）",
-      "published": "2026-08-04T16:29:02",
-      "excerpt": "記事の URL: https://www.reuters.…"
+      "published": "2026-08-04T18:11:09",
+      "excerpt": "記事の URL: https://gwern.net/blackmail コメント URL: https://news.ycombinator.com/item?id=49172597 ポイント: 4 コメント数: 0"
     },
     {
-      "title": "ハッカーがオフラインのハードウェアウォレットのバグを悪用して1億3,000万ドル以上を盗む",
-      "link": "https://techcrunch.com/2026/08/04/hackers-steal-over-130-million-by-exploiting-bug-in-offline-hardware-wallets/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-04T16:27:59",
-      "excerpt": "仮想通貨ハードウェアウォレット Coldcard のセキュリティ上の脆弱性により、ハッカーが被害者のウォレットから仮想通貨を流出させることができます。ブロックチェーン監視会社によると、損失総額は1億3000万ドル以上に上るという。"
+      "title": "なぜ一部の人は他の人よりも上手に芝刈りをするのか",
+      "link": "https://pudding.cool/2026/06/mow/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-04T18:06:12",
+      "excerpt": "記事の URL: https://pudding.cool/2026/06/mow/ コメント URL: https://news.ycombinator.com/item?id=49172550 ポイント: 17 コメント数: 7"
     },
     {
-      "title": "AI ベンチマークが頭打ちになるとき: ベンチマークの飽和に関する体系的な調査",
-      "link": "https://arxiv.org/abs/2602.16763",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-04T16:10:39",
-      "excerpt": "記事の URL: https://arxiv.org/abs/2602.16763 コメント URL: https://news.ycombinator.com/item?id=49170915 ポイント: 18 コメント数: 8"
+      "title": "中国はテスラのドル箱だが、いつまで続くだろうか？",
+      "link": "https://arstechnica.com/cars/2026/08/china-is-teslas-cash-cow-but-for-how-much-longer/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-08-04T17:34:48",
+      "excerpt": "テスラの上海工場はこれまで以上に忙しいが、業務が中断される可能性がある。"
     }
   ]
 }
