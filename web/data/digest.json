@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-03T23:58:32",
+  "generated_at": "2026-08-04T02:13:35",
   "window_hours": 24,
-  "total": 220,
+  "total": 234,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が29件。AIエージェントは人間の指示通りに動くだけの存在ではない。OpenAIとAnthropicは、それぞれのAIモデルが評価環境を飛び出し、外部インフラに自律的にアクセスしたインシデントを相次いで公表した。両事例から見えた教訓とは。",
+      "summary": "生成AIの新着が31件。CUR 2.0のIAMプリンシパルベースのコスト配分機能を実際に試してみました。…",
       "articles": [
+        {
+          "title": "IAMプリンシパルベースのコスト配分(Amazon Bedrock)を CUR 2.0 から確認してみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-iam-principal-cost-allocation-cur2/",
+          "source": "DevelopersIO",
+          "published": "2026-08-04T00:08:34",
+          "excerpt": "CUR 2.0のIAMプリンシパルベースのコスト配分機能を実際に試してみました。…"
+        },
+        {
+          "title": "GitHub Copilot、Gemini 2.5 ProとGemini 3 Flashのサポートを終了",
+          "link": "https://codezine.jp/article/detail/29210",
+          "source": "CodeZine",
+          "published": "2026-08-04T00:00:00",
+          "excerpt": "GitHub Copilot、Gemini 2.5 ProとGemini 3 Flashのサポートを終了"
+        },
         {
           "title": "Claude暴走、企業に侵入　AnthropicとOpenAIの事例から学ぶ3つの教訓",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/03/news041.html",
@@ -22,98 +36,91 @@
           "source": "ITmedia エンタープライズ",
           "published": "2026-08-03T22:00:00",
           "excerpt": "脆弱性が公表されてから攻撃が始まるまで、これまでは相応の時間がありました。その前提が、生成AIによって崩れつつあります。では、防御側に残された選択肢には何があるのでしょうか。"
-        },
-        {
-          "title": "LLM は専門知識に報いる",
-          "link": "https://www.seangoedecke.com/llms-reward-expertise/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-03T21:13:53",
-          "excerpt": "記事の URL: https://www.seangoedecke.com/llms-reward-expertise/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Google 開発キットが史上初のエージェント間の暴力を促進",
-          "link": "https://www.theregister.com/security/2026/08/03/google-dev-kit-spurs-first-ever-agent-on-agent-violence/5282496",
-          "source": "The Register（英語）",
-          "published": "2026-08-03T20:30:37",
-          "excerpt": "有害なプル リクエストには、一方が他方を制御できるプロンプト インジェクションが含まれています"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。AIによる開発加速にインフラチームのガバナンス整備が追い付かず、設定ミスやコンプライアンス違反が多発している実態が明らかになった。",
+      "summary": "クラウドの新着が27件。AWS メディア業界向け勉強会 #9（2026 年 7 月 10 日開催） 2026 年 7 月 10 日（金 […]",
       "articles": [
         {
-          "title": "インフラチームも「AI生成コードのレビュー不足」　IaCに広がるAIコーディング",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/04/news049.html",
-          "source": "@IT",
-          "published": "2026-08-03T20:00:00",
-          "excerpt": "AIによる開発加速にインフラチームのガバナンス整備が追い付かず、設定ミスやコンプライアンス違反が多発している実態が明らかになった。"
+          "title": "【開催報告＆資料公開】AWS メディア業界向け勉強会開催報告 – リアルタイムの翻訳生成や基幹システムの移行などのメディア業界事例",
+          "link": "https://aws.amazon.com/jp/blogs/news/jpmne-media-seminar-local-july-2026/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-04T02:09:27",
+          "excerpt": "AWS メディア業界向け勉強会 #9（2026 年 7 月 10 日開催） 2026 年 7 月 10 日（金 […]"
         },
         {
-          "title": "ノルウェー政府の IT インフラストラクチャに対する DDoS – 状況",
-          "link": "https://status.digdir.no/incidents/d7hvqmf2yr3l",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-03T19:56:27",
-          "excerpt": "記事の URL: https://status.digdir.no/incidents/d7hvqmf2yr3l コメント URL: https://news.ycombinator.com/item?…"
+          "title": "CloudFront Functions で S3 静的サイトの URL を書き換えてみた",
+          "link": "https://dev.classmethod.jp/articles/cloudfront-functions-s3-url-rewrite-handson/",
+          "source": "DevelopersIO",
+          "published": "2026-08-04T01:00:09",
+          "excerpt": "CloudFront のデフォルトルートオブジェクトはルートパスのみに適用されるため、サブディレクトリの index.html は自動的に解決されません。…"
         },
         {
-          "title": "Amazon EC2 I7i インスタンスがアジアパシフィック (タイ) およびイスラエル (テルアビブ) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i7i-instances-in-additional-regions/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-03T17:28:00",
-          "excerpt": "アマゾン ウェブ サービス (AWS) は、アジアパシフィック (タイ) およびイスラエル (テルアビブ) リージョンで、高性能ストレージ最適化 Amazon EC2 I7i インスタンスが利用可能になったことを発表しました。3.…"
+          "title": "Google API 認証を Service Account キーから WIF に移行した話 | PR TIMES 開発者ブログ",
+          "link": "https://developers.prtimes.com/2026/08/04/migrating-google-api-auth-from-sa-keys-to-wif/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-04T01:00:00",
+          "excerpt": "こんにちは！PR TIMES 開発本部のエンジニア、トゥ（codyzard）です。今回は、AWS 上で動くバッチから利用している複数の Google API の認証を、Service Account キーから WIF（ […]…"
         },
         {
-          "title": "Amazon SageMaker AI サーバーレスモデルのカスタマイズが完全な微調整をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-fft",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-03T17:00:00",
-          "excerpt": "Amazon SageMaker AI サーバーレス モデルのカスタマイズは、25 を超えるオープンソース モデルの完全な微調整をサポートするようになりました。…"
+          "title": "Amazon EC2 Auto Scaling、CloudFormationのインスタンス更新をサポート",
+          "link": "https://codezine.jp/article/detail/29211",
+          "source": "CodeZine",
+          "published": "2026-08-04T01:00:00",
+          "excerpt": "Amazon EC2 Auto Scaling、CloudFormationのインスタンス更新をサポート"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。BroadcomはVMware製品に存在する5件の脆弱性を修正した。vCenterには認証回避や任意コード実行につながる重大な問題が含まれ、全ての脆弱性で回避策は用意されていない。",
+      "summary": "セキュリティの新着が17件。こんにちは！PR TIMES 開発本部のエンジニア、トゥ（codyzard）です。今回は、AWS 上で動くバッチから利用している複数の Google API の認証を、Service Account キーから WIF（ […]…",
       "articles": [
         {
-          "title": "VMware管理基盤に“認証突破”の穴　Broadcom「回避策を用意せず」",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/03/news048.html",
-          "source": "@IT",
-          "published": "2026-08-03T22:00:00",
-          "excerpt": "BroadcomはVMware製品に存在する5件の脆弱性を修正した。vCenterには認証回避や任意コード実行につながる重大な問題が含まれ、全ての脆弱性で回避策は用意されていない。"
+          "title": "Google API 認証を Service Account キーから WIF に移行した話 | PR TIMES 開発者ブログ",
+          "link": "https://developers.prtimes.com/2026/08/04/migrating-google-api-auth-from-sa-keys-to-wif/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-04T01:00:00",
+          "excerpt": "こんにちは！PR TIMES 開発本部のエンジニア、トゥ（codyzard）です。今回は、AWS 上で動くバッチから利用している複数の Google API の認証を、Service Account キーから WIF（ […]…"
         },
         {
-          "title": "25ドルで見つかったWordPressの脆弱性　生成AIが変えた攻防の時間軸",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/04/news019.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-08-03T22:00:00",
-          "excerpt": "脆弱性が公表されてから攻撃が始まるまで、これまでは相応の時間がありました。その前提が、生成AIによって崩れつつあります。では、防御側に残された選択肢には何があるのでしょうか。"
+          "title": "IAMプリンシパルベースのコスト配分(Amazon Bedrock)を CUR 2.0 から確認してみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-iam-principal-cost-allocation-cur2/",
+          "source": "DevelopersIO",
+          "published": "2026-08-04T00:08:34",
+          "excerpt": "CUR 2.0のIAMプリンシパルベースのコスト配分機能を実際に試してみました。…"
         },
         {
-          "title": "ノルウェー政府の IT インフラストラクチャに対する DDoS – 状況",
-          "link": "https://status.digdir.no/incidents/d7hvqmf2yr3l",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-03T19:56:27",
-          "excerpt": "記事の URL: https://status.digdir.no/incidents/d7hvqmf2yr3l コメント URL: https://news.ycombinator.com/item?…"
+          "title": "AWS BuilderCards v2 セキュリティ拡張パック ポケットガイド",
+          "link": "https://qiita.com/AyaKunisawa/items/b1e0f43e8ab9b49ba053",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-04T00:07:11",
+          "excerpt": "本記事は、BIPROGY / ユニアデックス社内AWSコミュニティ「BIPROGY AWS SPARK」の定期投稿企画第7回目の記事です。他の定期投稿企画の記事は、インデックスページをご覧ください。…"
         },
         {
-          "title": "AI のスロップが偽の脆弱性で CVE パイプラインを汚染する",
-          "link": "https://www.theregister.com/security/2026/08/03/ai-slop-pollutes-the-cve-pipeline-with-fake-vulns/5282462",
-          "source": "The Register（英語）",
-          "published": "2026-08-03T17:19:36",
-          "excerpt": "NIST はまだ未処理の中に埋もれているため、AI が生成した偽のレポートは今後も続くことが予想されます"
+          "title": "SendGridでサブユーザーを作成し、ドメイン認証を紐づける方法をまとめてみた",
+          "link": "https://dev.classmethod.jp/articles/sendgrid-subuser-domain-authentication/",
+          "source": "DevelopersIO",
+          "published": "2026-08-04T00:00:10",
+          "excerpt": "SendGridで用途ごとに送信環境を分離できる「サブユーザー」の作成方法と、作成したサブユーザーへドメインを認証・紐づける2つの方法についてまとめてみました。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が12件。記事の URL: https://blog.cloudflare.com/billable-usage-api/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "データ分析の新着が10件。AIによるコード生成が急速に普及し、開発現場の景色は一変しつつある。しかし、コード生産量の増加が、必ずしも開発組織全体の生産性向上に繋がるわけではない。むしろ新たな負担も生じている。…",
       "articles": [
+        {
+          "title": "大量に生成されたコードがレビューを崩壊させる？ CodeRabbitが語るAI時代の開発生産性向上のコツ",
+          "link": "https://codezine.jp/article/detail/29127",
+          "source": "CodeZine",
+          "published": "2026-08-04T02:00:00",
+          "excerpt": "AIによるコード生成が急速に普及し、開発現場の景色は一変しつつある。しかし、コード生産量の増加が、必ずしも開発組織全体の生産性向上に繋がるわけではない。むしろ新たな負担も生じている。…"
+        },
         {
           "title": "Billable Capacity API: Cloudflare のプログラムによるコストの可視性",
           "link": "https://blog.cloudflare.com/billable-usage-api/",
@@ -134,80 +141,73 @@
           "source": "DevelopersIO",
           "published": "2026-08-03T14:59:50",
           "excerpt": "Amazon OpenSearch Service で OpenSearch 3.7 が利用可能になりました。ベクトル圧縮と高速取得の新機能を実際に試してみたので、その成果を紹介します。"
-        },
-        {
-          "title": "開発未経験のPMが、Claudeとデータ基盤の障害対応をした話 | TOKIUMプロダクトチーム テックブログのフィード",
-          "link": "https://zenn.dev/tokium_dev/articles/pdm-becomes-data-engineer",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-03T09:25:00",
-          "excerpt": "こんにちは。TOKIUM でプロダクトマネージャーをしている譽田です。社内データ分析基盤の構築プロジェクトを、立ち上げから担当しています。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。Kiro CLI の V3 モードで大幅強化された tangent 機能を試してみました。複数の名前付きサイド会話をネスト構造で管理できるようになり、メイン会話を汚さずにトピック探索の自由度が大きく向上しています。",
+      "summary": "開発ツールの新着が15件。Amazon EC2 Auto Scaling、CloudFormationのインスタンス更新をサポート",
       "articles": [
+        {
+          "title": "Amazon EC2 Auto Scaling、CloudFormationのインスタンス更新をサポート",
+          "link": "https://codezine.jp/article/detail/29211",
+          "source": "CodeZine",
+          "published": "2026-08-04T01:00:00",
+          "excerpt": "Amazon EC2 Auto Scaling、CloudFormationのインスタンス更新をサポート"
+        },
+        {
+          "title": "既存CDKプロジェクトを bun + oxc に移行するための検討をしてみる",
+          "link": "https://zenn.dev/tyumugiko/articles/d3f8a48ccac3c3",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-04T00:51:03",
+          "excerpt": "こんにちは、地方でSIerをしているtyumugikoと申します。タイトルにもある通り、今まで、ts-nodeでビルドしていたCDKをbunを用いた構成に書き換える試みをしました。この記事は、以下の記事に触発されて書いたものです。…"
+        },
+        {
+          "title": "GitHub Copilot、Gemini 2.5 ProとGemini 3 Flashのサポートを終了",
+          "link": "https://codezine.jp/article/detail/29210",
+          "source": "CodeZine",
+          "published": "2026-08-04T00:00:00",
+          "excerpt": "GitHub Copilot、Gemini 2.5 ProとGemini 3 Flashのサポートを終了"
+        },
         {
           "title": "[アップデート] Kiro CLI の tangent が V3 で名前付き・ネスト対応のサイド会話に進化したので使ってみた",
           "link": "https://dev.classmethod.jp/articles/kiro-cli-v3-tangent/",
           "source": "DevelopersIO",
           "published": "2026-08-03T21:12:36",
           "excerpt": "Kiro CLI の V3 モードで大幅強化された tangent 機能を試してみました。複数の名前付きサイド会話をネスト構造で管理できるようになり、メイン会話を汚さずにトピック探索の自由度が大きく向上しています。"
-        },
-        {
-          "title": "AWS CloudFormationのエラーでハマった話",
-          "link": "https://qiita.com/tkazuaki0820/items/2a567d12bb8297a0ef8c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-03T20:52:44",
-          "excerpt": "はじめに 今回は自分が過去にAWSのインフラ構築をAWS CloudFormation経由で実施した際に 上手くいかなかった下記2つの事象と解決策等のノウハウをまとめたブログになります。…"
-        },
-        {
-          "title": "インフラチームも「AI生成コードのレビュー不足」　IaCに広がるAIコーディング",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/04/news049.html",
-          "source": "@IT",
-          "published": "2026-08-03T20:00:00",
-          "excerpt": "AIによる開発加速にインフラチームのガバナンス整備が追い付かず、設定ミスやコンプライアンス違反が多発している実態が明らかになった。"
-        },
-        {
-          "title": "AWS CLIの環境変数 AWS_CLI_SESSION_ID_DISABLED でセッションID無効化を試してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-cli-session-id-disabled/",
-          "source": "DevelopersIO",
-          "published": "2026-08-03T19:00:31",
-          "excerpt": "AWS CLI は User-Agent にセッションID（SID）を付与します。v2.36.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "キラー四半期の後、Palantir CEO アレックス・カープ氏は AI 業界を「マルクス主義者」と呼ぶ",
-      "link": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-03T23:19:50",
-      "excerpt": "同四半期に10億ドルの利益をもたらした後、パランティアの最高経営責任者（CEO）アレックス・カープ氏は月曜日、AIフロンティアラボは企業にとってあまりにも信頼できないと改めて警告した。"
+      "title": "GoogleCloudのParameterManagerにパラメータテンプレートが追加されたので試してみる",
+      "link": "https://dev.classmethod.jp/articles/google-cloud-parameterManger-parameter-template/",
+      "source": "DevelopersIO",
+      "published": "2026-08-04T02:00:08",
+      "excerpt": "Google CloudのParameter Managerに新たに追加されたパラメータテンプレート機能を試してみました。…"
     },
     {
-      "title": "新卒1年目で「article-archives.bengo4.com」の構築に挑戦 ― Next MVB Q4.2026受賞までの道のり | 弁護士ドットコム株式会社 Creators’ blog",
-      "link": "https://creators.bengo4.com/entry/2026/08/04/081646",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-03T23:16:46",
-      "excerpt": "新卒1年目で「article-archives.bengo4.com」の構築に挑戦 ― Next MVB Q4.…"
+      "title": "2026/08/04 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "link": "https://qiita.com/ennagara128/items/6c6d0f42b3cca14527f8",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-04T01:48:26",
+      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
     },
     {
-      "title": "【さくらのクラウド】K3sを構築してOpenTelemetry Operatorのゼロコード自動計装を検証した | APC 技術ブログ",
-      "link": "https://techblog.ap-com.co.jp/entry/sakuracloud-monitoring-suite-k8s-opentelemetry",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-03T23:00:00",
-      "excerpt": "さくらのクラウドの「モニタリングスイート」とOTel Operatorを組み合わせ、マルチノードK3s環境におけるゼロコードPod自動計装およびPod間の分散トレースを検証しました。"
+      "title": "リテールアプリ共創部にジョインした池内です",
+      "link": "https://dev.classmethod.jp/articles/202608-kecchi-joined-classmethod/",
+      "source": "DevelopersIO",
+      "published": "2026-08-04T01:38:30",
+      "excerpt": "リテールアプリ共創部にジョインしました、池内です。前職・趣味・なぜクラスメソッドを選んだのか・これからについてお話しします。…"
     },
     {
-      "title": "Google Workspaceで7月27日週に発表された新機能をまとめて紹介",
-      "link": "https://codezine.jp/article/detail/29209",
-      "source": "CodeZine",
-      "published": "2026-08-03T23:00:00",
-      "excerpt": "Google Workspaceで7月27日週に発表された新機能をまとめて紹介"
+      "title": "【後編】Amazon Neptune で EC サイトの OWL オントロジーを構築する（SPARQL クエリ実行環境）",
+      "link": "https://qiita.com/MARTOON/items/c1ac6d79a7312894a3ea",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-04T01:10:53",
+      "excerpt": "はじめに 前編では Neptune クラスターの構築、OWL オントロジーの設計、データ投入まで行いました。後編では、セッションマネージャー経由で EC2 から直接 SPARQL を叩ける環境 を構築し、様々なクエリ例を紹介します。…"
     }
   ]
 }
