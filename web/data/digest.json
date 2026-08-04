@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-04T15:14:43",
+  "generated_at": "2026-08-04T17:10:18",
   "window_hours": 24,
-  "total": 213,
+  "total": 212,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。1Passwordは、単一のダッシュボード画面からAnthropicのCalude、OpenAIのChatGPT、AnysphereのCursorなど複数のAIサービスに対する支出状況をリアルタイムに表示、管理できる新機能を発表しました。.…",
+      "summary": "生成AIの新着が32件。1Passwordは、単一のダッシュボード画面からAnthropicのCalude、OpenAIのChatGPT、AnysphereのCursorなど複数のAIサービスに対する支出状況をリアルタイムに表示、管理できる新機能を発表しました。.…",
       "articles": [
         {
           "title": "1Password、ダッシュボードから組織のAI支出状況を表示する新機能。ClaudeやCursor、ChatGPTなど複数AIにI対応",
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が26件。ECS Fargate上でNginxをサイドカーとして持つWebサービスで、Service Connectを有効化してからデプロイやスケールインのたびに503エラー発生問題がありました。…",
+      "summary": "クラウドの新着が28件。AWS は、AWS ヨーロッパ (パリ) およびアジアパシフィック (ジャカルタ) リージョンで Amazon EC2 Storage Optimized I8g インスタンスの一般提供を発表しました。…",
       "articles": [
+        {
+          "title": "Amazon EC2 I8g インスタンスが AWS ヨーロッパ (パリ)、アジアパシフィック (ジャカルタ) リージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i8g-instances-aws-paris-jakarta-regions/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-04T16:00:00",
+          "excerpt": "AWS は、AWS ヨーロッパ (パリ) およびアジアパシフィック (ジャカルタ) リージョンで Amazon EC2 Storage Optimized I8g インスタンスの一般提供を発表しました。…"
+        },
+        {
+          "title": "EC2＋DB構成でPublic構成とPrivate＋NAT構成を分けた理由【ヒトリ開発】#6",
+          "link": "https://qiita.com/Asano-S/items/8a4467f296330bca6435",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-04T15:21:19",
+          "excerpt": "はじめに まただいぶ時間が空きましたね(笑) これまで、個人開発アプリをAWS上に公開するためのTerraform Packを作る過程を記事にしてきました。…"
+        },
         {
           "title": "[ECS Service Connect] タスク停止時の503エラーを解消する",
           "link": "https://qiita.com/kio-ku/items/2a67739b61687573e651",
@@ -52,32 +66,18 @@
           "excerpt": "ECS Fargate上でNginxをサイドカーとして持つWebサービスで、Service Connectを有効化してからデプロイやスケールインのたびに503エラー発生問題がありました。…"
         },
         {
-          "title": "EON はデータのスーパーハイウェイを海洋ファイバーから宇宙レーザーに移行したいと考えています",
-          "link": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-04T12:00:00",
-          "excerpt": "Endeavor Optical Networks は、これまで構築された中で最速の宇宙レーザー通信システムの立ち上げを計画しています。"
-        },
-        {
-          "title": "【AWS解説 S3編 #2】S3のバージョニングとは？削除・上書きから復元する仕組み",
-          "link": "https://qiita.com/suzunari900261/items/28c4b2c00a560f068a85",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-04T10:05:00",
-          "excerpt": "【AWS解説 S3編 #2】S3のバージョニングとは？削除・上書きから復元する仕組み S3編 #2（全7回予定） 前回のS3編 #1では、バケットを作成し、ファイルをアップロードして、最後に削除する流れを確認しました。…"
-        },
-        {
-          "title": "【Amazon EC2】パブリックIPの仕組みについて",
-          "link": "https://qiita.com/hcs1996rbl/items/136f1dee2c4708719c10",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-04T09:36:46",
-          "excerpt": "はじめに EC2に接続中、パブリックIPを確認したくなり、ipコマンドを実行するも、パブリックIPが表示されず「？」となったので調査する。調査 IP設定に関連するコマンドをいくつか実行してみる。…"
+          "title": "AWS Glue JobのDefaultモードとVPCモードを比較する",
+          "link": "https://zenn.dev/penginpenguin/articles/01ffa5410d4476",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-04T13:56:05",
+          "excerpt": "はじめに AWS Community Builderのぺんぎん（@jitepengin）です。AWS Glueを使う場合、ネットワーク構成をVPCを使わず、Glue Jobはdefaultモードで動かすことも多いと思います。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。Snowflake の OIDC フェデレーション認証がパブリックプレビューになりました。Google を対象に、セキュリティ統合の作成からログイン、ドメイン制限の設定まで、実際の検証内容をまとめます。",
+      "summary": "セキュリティの新着が14件。Snowflake の OIDC フェデレーション認証がパブリックプレビューになりました。Google を対象に、セキュリティ統合の作成からログイン、ドメイン制限の設定まで、実際の検証内容をまとめます。",
       "articles": [
         {
           "title": "[新機能]Snowflake で OpenID Connect によるフェデレーション認証ができるようになりました",
@@ -112,8 +112,22 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。Amazon Bio Discoveryを使ってタンパク質に結合する抗体候補をAIで設計してみました。公開されている構造データから、ホットスポット選択から候補生成までの一連の流れと、生成された抗体の構造確認方法を紹介します。…",
+      "summary": "データ分析の新着が6件。TV Time の閉鎖により何百万人ものユーザーが代替手段を探していた後、アプリの創設者の 1 人が Bingers に戻ってきました。…",
       "articles": [
+        {
+          "title": "TV Time の共同創設者が人気の TV 追跡アプリを復活させるために Bingers を立ち上げる",
+          "link": "https://techcrunch.com/2026/08/04/tv-time-co-founder-launches-bingers-to-revive-the-beloved-tv-tracking-app/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-04T17:05:48",
+          "excerpt": "TV Time の閉鎖により何百万人ものユーザーが代替手段を探していた後、アプリの創設者の 1 人が Bingers に戻ってきました。…"
+        },
+        {
+          "title": "AWS Glue JobのDefaultモードとVPCモードを比較する",
+          "link": "https://zenn.dev/penginpenguin/articles/01ffa5410d4476",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-04T13:56:05",
+          "excerpt": "はじめに AWS Community Builderのぺんぎん（@jitepengin）です。AWS Glueを使う場合、ネットワーク構成をVPCを使わず、Glue Jobはdefaultモードで動かすことも多いと思います。…"
+        },
         {
           "title": "Amazon Bio Discovery でタンパク質構造データから抗体候補を生成してみた",
           "link": "https://dev.classmethod.jp/articles/ohorig-bioinfo-biodiscovery/",
@@ -127,28 +141,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-04T06:17:24",
           "excerpt": "クラスメソッドのサービス「kaimei」を実際に使ってみました。日本語で質問するだけでデータ分析ができるこのツールが、データ活用の課題をどう解決するのか紹介します。"
-        },
-        {
-          "title": "大量に生成されたコードがレビューを崩壊させる？ CodeRabbitが語るAI時代の開発生産性向上のコツ",
-          "link": "https://codezine.jp/article/detail/29127",
-          "source": "CodeZine",
-          "published": "2026-08-04T02:00:00",
-          "excerpt": "AIによるコード生成が急速に普及し、開発現場の景色は一変しつつある。しかし、コード生産量の増加が、必ずしも開発組織全体の生産性向上に繋がるわけではない。むしろ新たな負担も生じている。…"
-        },
-        {
-          "title": "Billable Capacity API: Cloudflare のプログラムによるコストの可視性",
-          "link": "https://blog.cloudflare.com/billable-usage-api/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-03T17:18:06",
-          "excerpt": "記事の URL: https://blog.cloudflare.com/billable-usage-api/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。レビュー単位を小さくしながら大きな変更を進められるStaked pull requestの紹介",
+      "summary": "開発ツールの新着が13件。TL;DR CDK に --express を付けてデプロイしたところ、S3 へのファイル投入で ECS タスクが起動しなくなりました。…",
       "articles": [
+        {
+          "title": "CloudFormation Express モードを試した後に S3 バケットトリガーが発火しなくなった",
+          "link": "https://zenn.dev/trustart_dev/articles/4f495df899aaa0",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-04T09:00:07",
+          "excerpt": "TL;DR CDK に --express を付けてデプロイしたところ、S3 へのファイル投入で ECS タスクが起動しなくなりました。…"
+        },
         {
           "title": "GitHub stacked pull requestを実際に動かしてみた",
           "link": "https://dev.classmethod.jp/articles/github-stacked-pull-requests/",
@@ -169,45 +176,38 @@
           "source": "CodeZine",
           "published": "2026-08-04T04:00:00",
           "excerpt": "GitHub、Copilot Enterprise向けチーム単位のモデル管理機能を公開プレビュー"
-        },
-        {
-          "title": "【AWS CLI】ターミナルからAWSを操作できるようにしてみた",
-          "link": "https://zenn.dev/tas9/articles/28eff93bc2ef5f",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-04T03:30:05",
-          "excerpt": "はじめに AWSを触り始めのころは、基本的にマネジメントコンソール（ブラウザ）から操作することが多いと思います。しかし、前回の記事でとりあげたTerraformをはじめ、ターミナル上からAWSを操作することが必要な作業も多くあります。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」（WPA MCP）、マイクロソフトがプレビュー公開",
-      "link": "https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html",
-      "source": "Publickey",
-      "published": "2026-08-04T15:36:16",
-      "excerpt": "マイクロソフトは、Windowsアプリケーションが遅くなる原因の調査分析をAIに依頼できるツール「Windows Performance Analyzer MCP」（WPA MCP）のアーリープレビューを発表しました。GitHub Cop.…"
+      "title": "Truemetrics (YC S23) がベルリンで人材を募集中 – GTM リード",
+      "link": "https://www.ycombinator.com/companies/truemetrics/jobs/bIQQ7tP-founding-gtm-lead",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-04T17:00:12",
+      "excerpt": "記事の URL: https://www.ycombinator.com/companies/truemetrics/jobs/bIQQ7tP-founding-gtm-lead コメント URL: https://news.…"
     },
     {
-      "title": "あのDeepRacerが「AWS Solution」として復活していたので、環境を作ってみた",
-      "link": "https://qiita.com/Feyet-cl/items/0c301532c87ec0823254",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-04T15:13:24",
-      "excerpt": "はじめに 数年前、学生時代に AWS DeepRacer Student League に参加し、日本ランキング3位を取ったことがあります。…"
+      "title": "ウェッブ望遠鏡、海王星の衛星に古代の災害の兆候を発見",
+      "link": "https://www.reuters.com/science/webb-telescope-finds-signs-ancient-disaster-neptunes-moons-2026-08-03/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-04T16:29:02",
+      "excerpt": "記事の URL: https://www.reuters.…"
     },
     {
-      "title": "ボストンでの TechCrunch ファウンダー サミット ウィーク中にサイド イベントを主催する",
-      "link": "https://techcrunch.com/2026/08/04/host-a-side-event-during-techcrunch-founder-summit-week-in-boston/",
+      "title": "ハッカーがオフラインのハードウェアウォレットのバグを悪用して1億3,000万ドル以上を盗む",
+      "link": "https://techcrunch.com/2026/08/04/hackers-steal-over-130-million-by-exploiting-bug-in-offline-hardware-wallets/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-04T15:00:00",
-      "excerpt": "6 月 9 日の Founder Summit 2026 に向けてボストンに集まる 1,100 人以上のスタートアップ創業者、投資家、テクノロジー リーダーのエネルギーを活用してみませんか?…"
+      "published": "2026-08-04T16:27:59",
+      "excerpt": "仮想通貨ハードウェアウォレット Coldcard のセキュリティ上の脆弱性により、ハッカーが被害者のウォレットから仮想通貨を流出させることができます。ブロックチェーン監視会社によると、損失総額は1億3000万ドル以上に上るという。"
     },
     {
-      "title": "2027 シボレー コルベット グランド スポーツ X はコードがハードウェアと同じくらい重要であることを証明",
-      "link": "https://arstechnica.com/cars/2026/08/2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-hardware/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-04T14:45:08",
-      "excerpt": "シボレーの 721 馬力ハイブリッドは、ほとんど妥協せずに価格を引き上げていますが、コストが高くなります。"
+      "title": "AI ベンチマークが頭打ちになるとき: ベンチマークの飽和に関する体系的な調査",
+      "link": "https://arxiv.org/abs/2602.16763",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-04T16:10:39",
+      "excerpt": "記事の URL: https://arxiv.org/abs/2602.16763 コメント URL: https://news.ycombinator.com/item?id=49170915 ポイント: 18 コメント数: 8"
     }
   ]
 }
