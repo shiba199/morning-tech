@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-04T08:00:02",
+  "generated_at": "2026-08-04T10:40:18",
   "window_hours": 24,
-  "total": 217,
+  "total": 224,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。はじめに こんにちは、同志社大学理工学部情報システムデザイン学科4年生の金谷一輝です。2026年7 ...…",
+      "summary": "生成AIの新着が36件。はじめに Amazon Connect Customerでコンタクトセンターの自動音声応答（IVR）を構築する際、「AIエージェント」機能を活用することで、従来のような機械的な一問一答ではなく、より自然な文脈を理解した対話が実現できます。…",
       "articles": [
+        {
+          "title": "【Amazon Connect × Salesforce】AIエージェントのツール定義とSalesforce連携のポイント",
+          "link": "https://qiita.com/Reikun/items/2f48fc3a02ba7e51eff2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-04T09:02:18",
+          "excerpt": "はじめに Amazon Connect Customerでコンタクトセンターの自動音声応答（IVR）を構築する際、「AIエージェント」機能を活用することで、従来のような機械的な一問一答ではなく、より自然な文脈を理解した対話が実現できます。…"
+        },
+        {
+          "title": "pow、AIリサーチエージェント「Spark Research」における睡眠ブランドNELLのMorght導入事例を公開",
+          "link": "https://codezine.jp/article/detail/29237",
+          "source": "CodeZine",
+          "published": "2026-08-04T08:15:00",
+          "excerpt": "pow、AIリサーチエージェント「Spark Research」における睡眠ブランドNELLのMorght導入事例を公開"
+        },
         {
           "title": "低レイテンシな広告配信を支えるキャッシュ戦略の刷新 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
           "link": "https://developers.cyberagent.co.jp/blog/archives/65145/",
@@ -22,63 +36,56 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-04T07:00:16",
           "excerpt": "はじめに こんにちは。LayerXのバクラク事業部でソフトウェアエンジニアをしているTomoakiです。最近3Dプリンターを買ったことにより創作意欲が最高潮に達しています。…"
-        },
-        {
-          "title": "2枚のピザを囲んで語る業務変革 — 35社62名が参加した大阪開催 Claude・Kiro実践ワークショップの記録",
-          "link": "https://aws.amazon.com/jp/blogs/news/ai-coding-workshop20260702/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-04T06:22:22",
-          "excerpt": "大阪開催の経緯 みなさん、こんにちは。AWS アカウントマネージャーの岩上です。2026年7月2日、AWS […]…"
-        },
-        {
-          "title": "AWS DevOps Agent の多層セキュリティを、外部 MCP サーバーを接続して実際に検証してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-multi-layer-security-verification/",
-          "source": "DevelopersIO",
-          "published": "2026-08-04T06:04:13",
-          "excerpt": "IAM で s3:DeleteBucket を許可してもエージェントは Denied operation で拒否した。実効権限は IAM ポリシーと Permission guardrail の交差であり、ツール許可リストも実効的だった。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。Amazon Web Services社は最近、AWS Load Balancer ControllerにおいてKubernetes Gateway APIの一般提供（GA）対応を開始した。…",
+      "summary": "クラウドの新着が30件。【AWS解説 S3編 #2】S3のバージョニングとは？削除・上書きから復元する仕組み S3編 #2（全7回予定） 前回のS3編 #1では、バケットを作成し、ファイルをアップロードして、最後に削除する流れを確認しました。…",
       "articles": [
         {
-          "title": "AWS Load Balancer ControllerがKubernetes Gateway API対応で正式版リリース",
-          "link": "https://www.infoq.com/jp/news/2026/08/aws-gateway-api-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-08-04T06:30:00",
-          "excerpt": "Amazon Web Services社は最近、AWS Load Balancer ControllerにおいてKubernetes Gateway APIの一般提供（GA）対応を開始した。…"
-        },
-        {
-          "title": "Amazon Aurora DSQL における接続プーリング戦略",
-          "link": "https://aws.amazon.com/jp/blogs/news/connection-pooling-strategies-in-amazon-aurora-dsql/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-04T04:50:23",
-          "excerpt": "本記事では、Amazon Aurora DSQL の接続負荷を減らし、レート制限内に収め、再接続の集中を防ぐための 4 つの接続プーリング戦略を解説します。…"
-        },
-        {
-          "title": "AI予算の7割を食う「ITインフラ」、中でも予算超過しやすいのは？　医療機関調査",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/04/news040.html",
-          "source": "@IT",
-          "published": "2026-08-04T04:00:00",
-          "excerpt": "Wasabi Technologiesは、医療機関におけるAI活用に関する調査結果を発表した。AI予算の多くを占めるITインフラでは、どのような課題が生じているのか。調査結果から背景を探る。"
-        },
-        {
-          "title": "【AWS RDS】スナップショットからDBインスタンスを復旧させてみる",
-          "link": "https://qiita.com/hcs1996rbl/items/7c7310013afef75cfe13",
+          "title": "【AWS解説 S3編 #2】S3のバージョニングとは？削除・上書きから復元する仕組み",
+          "link": "https://qiita.com/suzunari900261/items/28c4b2c00a560f068a85",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-04T03:10:12",
-          "excerpt": "はじめに RDSを運用していると、 ・誤ってユーザーのデータを削除した ・システム全体が壊れた というようなこともあろうかと思う。こういったケースに備えて、スナップショットからデータを復旧させる演習をしたい。…"
+          "published": "2026-08-04T10:05:00",
+          "excerpt": "【AWS解説 S3編 #2】S3のバージョニングとは？削除・上書きから復元する仕組み S3編 #2（全7回予定） 前回のS3編 #1では、バケットを作成し、ファイルをアップロードして、最後に削除する流れを確認しました。…"
+        },
+        {
+          "title": "【Amazon EC2】パブリックIPの仕組みについて",
+          "link": "https://qiita.com/hcs1996rbl/items/136f1dee2c4708719c10",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-04T09:36:46",
+          "excerpt": "はじめに EC2に接続中、パブリックIPを確認したくなり、ipコマンドを実行するも、パブリックIPが表示されず「？」となったので調査する。調査 IP設定に関連するコマンドをいくつか実行してみる。…"
+        },
+        {
+          "title": "【AWS】Lambda durable functionsをハンズオンを通して理解してみた",
+          "link": "https://qiita.com/T-Saki/items/d19202816470260c70df",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-04T09:16:05",
+          "excerpt": "今更ですが、前々から興味はあったものの触れたことがなかったので、ハンズオンを通してLambda durable functionsについての理解を深めていきたいと思います。…"
+        },
+        {
+          "title": "CloudFront Functions の URI 書き換えルールを KeyValueStore で管理してみた",
+          "link": "https://dev.classmethod.jp/articles/cloudfront-functions-keyvaluestore-uri-rewrite/",
+          "source": "DevelopersIO",
+          "published": "2026-08-04T09:07:36",
+          "excerpt": "CloudFront KeyValueStore を使用して、URI 書き換えルールを Function のコードから分離し、コード再発行なしでルール更新を実現する方法を紹介します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。IAM で s3:DeleteBucket を許可してもエージェントは Denied operation で拒否した。実効権限は IAM ポリシーと Permission guardrail の交差であり、ツール許可リストも実効的だった。",
+      "summary": "セキュリティの新着が16件。中部電力は8月4日、一部システムへの不正アクセスで、役職員や取引先などの個人情報が漏えいした可能性があると発表した。グループの連絡先情報約7万1700件が対象で、電力供給への影響はないとしている。",
       "articles": [
+        {
+          "title": "中部電力に不正アクセス　連絡先情報7万1700件が漏えいか　取引先や自治体の連絡先も漏えいの恐れ",
+          "link": "https://www.itmedia.co.jp/news/article/2608/04/2000000380/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-04T09:49:03",
+          "excerpt": "中部電力は8月4日、一部システムへの不正アクセスで、役職員や取引先などの個人情報が漏えいした可能性があると発表した。グループの連絡先情報約7万1700件が対象で、電力供給への影響はないとしている。"
+        },
         {
           "title": "AWS DevOps Agent の多層セキュリティを、外部 MCP サーバーを接続して実際に検証してみた",
           "link": "https://dev.classmethod.jp/articles/aws-devops-agent-multi-layer-security-verification/",
@@ -94,26 +101,26 @@
           "excerpt": "Redisで見つかった任意コード実行（RCE）につながる脆弱性に対し、実際に攻撃を再現するPoCが公開された。公開資料では複数バージョンで全ての検証に成功したと報告されており、実用性の高さがうかがえる。…"
         },
         {
-          "title": "Google API 認証を Service Account キーから WIF に移行した話 | PR TIMES 開発者ブログ",
-          "link": "https://developers.prtimes.com/2026/08/04/migrating-google-api-auth-from-sa-keys-to-wif/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-04T01:00:00",
-          "excerpt": "こんにちは！PR TIMES 開発本部のエンジニア、トゥ（codyzard）です。今回は、AWS 上で動くバッチから利用している複数の Google API の認証を、Service Account キーから WIF（ […]…"
-        },
-        {
-          "title": "IAMプリンシパルベースのコスト配分(Amazon Bedrock)を CUR 2.0 から確認してみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-iam-principal-cost-allocation-cur2/",
-          "source": "DevelopersIO",
-          "published": "2026-08-04T00:08:34",
-          "excerpt": "CUR 2.0のIAMプリンシパルベースのコスト配分機能を実際に試してみました。…"
+          "title": "Cloudflareはサードパーティのセキュリティツールをほとんど廃止し、自宅では試さないことを示唆している",
+          "link": "https://www.theregister.com/security/2026/08/04/cloudflare-has-mostly-ditched-third-party-security-tools-suggests-not-trying-that-at-home/5282600",
+          "source": "The Register（英語）",
+          "published": "2026-08-04T04:50:53",
+          "excerpt": "Sonnet でバグ報奨金のトリアージを月額 58 ドルで自動化、CSO は Mythos の費用が 20 万ドルかかると発表"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。クラスメソッドのサービス「kaimei」を実際に使ってみました。日本語で質問するだけでデータ分析ができるこのツールが、データ活用の課題をどう解決するのか紹介します。",
+      "summary": "データ分析の新着が6件。Amazon Bio Discoveryを使ってタンパク質に結合する抗体候補をAIで設計してみました。公開されている構造データから、ホットスポット選択から候補生成までの一連の流れと、生成された抗体の構造確認方法を紹介します。…",
       "articles": [
+        {
+          "title": "Amazon Bio Discovery でタンパク質構造データから抗体候補を生成してみた",
+          "link": "https://dev.classmethod.jp/articles/ohorig-bioinfo-biodiscovery/",
+          "source": "DevelopersIO",
+          "published": "2026-08-04T09:28:04",
+          "excerpt": "Amazon Bio Discoveryを使ってタンパク質に結合する抗体候補をAIで設計してみました。公開されている構造データから、ホットスポット選択から候補生成までの一連の流れと、生成された抗体の構造確認方法を紹介します。…"
+        },
         {
           "title": "自然言語でデータ分析ができる「kaimei」を使ってみた",
           "link": "https://dev.classmethod.jp/articles/try-kaimei/",
@@ -134,21 +141,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-03T17:18:06",
           "excerpt": "記事の URL: https://blog.cloudflare.com/billable-usage-api/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "[Strands Agents] Storage インターフェースで DynamoDB バックエンドを自作して、会話履歴と退避データを 1 テーブルにまとめてみました",
-          "link": "https://dev.classmethod.jp/articles/strands-agents-storage-interface-dynamodb-backend/",
-          "source": "DevelopersIO",
-          "published": "2026-08-03T15:42:06",
-          "excerpt": "Strands Agents の統一 Storage インターフェースを使って、DynamoDB バックエンドを自作し、会話履歴と退避データを 1 つのテーブルで管理する方法を試してみました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。GitHub、Copilot Enterprise向けチーム単位のモデル管理機能を公開プレビュー",
+      "summary": "開発ツールの新着が15件。レビュー単位を小さくしながら大きな変更を進められるStaked pull requestの紹介",
       "articles": [
+        {
+          "title": "GitHub stacked pull requestを実際に動かしてみた",
+          "link": "https://dev.classmethod.jp/articles/github-stacked-pull-requests/",
+          "source": "DevelopersIO",
+          "published": "2026-08-04T08:25:23",
+          "excerpt": "レビュー単位を小さくしながら大きな変更を進められるStaked pull requestの紹介"
+        },
+        {
+          "title": "FastAPI を Lambda にデプロイする最小構成 — Mangum と依存パッケージの落とし穴",
+          "link": "https://zenn.dev/ukintech/articles/fastapi-lambda-serverless-deploy",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-04T04:41:18",
+          "excerpt": "FastAPI を AWS Lambda に載せる手順は「Mangum で包んでデプロイするだけ」と説明されがちですが、依存パッケージの用意でつまずくケースが多いです。…"
+        },
         {
           "title": "GitHub、Copilot Enterprise向けチーム単位のモデル管理機能を公開プレビュー",
           "link": "https://codezine.jp/article/detail/29213",
@@ -157,57 +171,43 @@
           "excerpt": "GitHub、Copilot Enterprise向けチーム単位のモデル管理機能を公開プレビュー"
         },
         {
-          "title": "【9月からのAIクレジット上限変更に注意を】GitHub Copilotの課金モデル変更に対するAPCの施策事例 | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/2026/08/04/123000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-04T03:30:00",
-          "excerpt": "はじめに 6月1日 課金モデルの変更 6月2日 衝撃、走る 6月4日 使用量の追加 自分の使用量を把握できない問題の解決 なんとか6月を乗り切る 現在、そして今後 【重要】組織向けプランのプロモーション期間の終了 ACS 事業部のご紹介 は…"
-        },
-        {
-          "title": "Amazon EC2 Auto Scaling、CloudFormationのインスタンス更新をサポート",
-          "link": "https://codezine.jp/article/detail/29211",
-          "source": "CodeZine",
-          "published": "2026-08-04T01:00:00",
-          "excerpt": "Amazon EC2 Auto Scaling、CloudFormationのインスタンス更新をサポート"
-        },
-        {
-          "title": "既存CDKプロジェクトを bun + oxc に移行するための検討をしてみる",
-          "link": "https://zenn.dev/tyumugiko/articles/d3f8a48ccac3c3",
+          "title": "【AWS CLI】ターミナルからAWSを操作できるようにしてみた",
+          "link": "https://zenn.dev/tas9/articles/28eff93bc2ef5f",
           "source": "Zenn AWSトピック",
-          "published": "2026-08-04T00:51:03",
-          "excerpt": "こんにちは、地方でSIerをしているtyumugikoと申します。タイトルにもある通り、今まで、ts-nodeでビルドしていたCDKをbunを用いた構成に書き換える試みをしました。この記事は、以下の記事に触発されて書いたものです。…"
+          "published": "2026-08-04T03:30:05",
+          "excerpt": "はじめに AWSを触り始めのころは、基本的にマネジメントコンソール（ブラウザ）から操作することが多いと思います。しかし、前回の記事でとりあげたTerraformをはじめ、ターミナル上からAWSを操作することが必要な作業も多くあります。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AIを活用してHTTPヘッダー付与用のChrome拡張機能を自作した話 | mediba テックブログのフィード",
-      "link": "https://zenn.dev/mediba/articles/844e0402262f58",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-04T07:30:05",
-      "excerpt": "はじめにChrome拡張機能は便利な反面、利用する拡張機能によってはセキュリティや運用面を考慮する必要があります。…"
+      "title": "フライトレーダー24、羽田の異常接近データを公開　最接近時の垂直間隔は約30メートル",
+      "link": "https://www.itmedia.co.jp/news/article/2608/04/2000000381/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-04T10:26:57",
+      "excerpt": "羽田空港で8月4日早朝に起きたANA機と国の飛行検査機の異常接近について、航空機追跡サイト「Flightradar24」がADS-Bのデータを公開した。両機は垂直方向に約100フィートまで近づいていた。"
     },
     {
-      "title": "【VSCode】MCPサーバの停止方法 | ヘッドウォータースのフィード",
-      "link": "https://zenn.dev/headwaters/articles/310ba66b319328",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-04T07:06:37",
-      "excerpt": "VSCodeにてMCPサーバの停止方法で詰まったので、記事に残します。1.ctrl + shift + P → mcpで検索する 2.「サーバーの一覧表示」を選択し、任意のMCPサーバを選択 3.「サーバーの停止」を選択 停止される…"
+      "title": "[アップデート]AWS Direct Connect側で仮想インターフェース(VIF)がBGPで送受信したルートを確認できるようになりました",
+      "link": "https://dev.classmethod.jp/articles/aws-direct-connect-support-bgp-visibility/",
+      "source": "DevelopersIO",
+      "published": "2026-08-04T09:45:07",
+      "excerpt": "AWS Direct Connectで仮想VIF側のBGP経路情報が可視化できるようになりました。これまでBGPでの経路情報が原因か？…"
     },
     {
-      "title": "CollectWise (YC F24) が人材を募集しています",
-      "link": "https://www.ycombinator.com/companies/collectwise/jobs/oEAfzBS-ai-agent-engineer",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-04T07:01:26",
-      "excerpt": "記事の URL: https://www.ycombinator.com/companies/collectwise/jobs/oEAfzBS-ai-agent-engineer コメント URL: https://news.…"
-    },
-    {
-      "title": "npmの2FAバイパストークン、権限操作に対し利用不可に",
-      "link": "https://codezine.jp/article/detail/29215",
+      "title": "顧客に会う実践をAIで加速。はてな米山弘恭氏がProductZine Day 2026で価値と速さの両立法を語る",
+      "link": "https://codezine.jp/article/detail/29240",
       "source": "CodeZine",
-      "published": "2026-08-04T07:00:00",
-      "excerpt": "npmの2FAバイパストークン、権限操作に対し利用不可に"
+      "published": "2026-08-04T09:45:00",
+      "excerpt": "顧客に会う実践をAIで加速。はてな米山弘恭氏がProductZine Day 2026で価値と速さの両立法を語る"
+    },
+    {
+      "title": "米国は民主主義ではなく寡頭制であると研究が結論付ける (2014)",
+      "link": "https://www.upi.com/Top_News/US/2014/04/16/The-US-is-not-a-democracy-but-an-oligarchy-study-concludes/2761397680051/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-04T09:40:03",
+      "excerpt": "記事の URL: https://www.upi.…"
     }
   ]
 }
