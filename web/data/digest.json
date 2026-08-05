@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-08-05T20:25:10",
+  "generated_at": "2026-08-05T21:40:08",
   "window_hours": 24,
-  "total": 239,
+  "total": 244,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が39件。記事の URL: https://sagredo.dev/projects/sula/ コメント URL: https://news.ycombinator.com/item?id=49187259 ポイント: 16 コメント数: 1",
+      "summary": "生成AIの新着が38件。Check Point の研究者は、企業が AI アプリを構築するために使用しているフレームワークを破壊しようとしました。彼らは今、Black Hat の参加者に発見したことを伝えています。",
       "articles": [
         {
-          "title": "Sula: Scryer Prolog で書かれた Gemini プロトコル サーバー",
-          "link": "https://sagredo.dev/projects/sula/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-05T18:52:58",
-          "excerpt": "記事の URL: https://sagredo.dev/projects/sula/ コメント URL: https://news.ycombinator.com/item?id=49187259 ポイント: 16 コメント数: 1"
-        },
-        {
-          "title": "モデルはすでに答えを知っています: ベンチマークの答えがどのように LLM に漏れるか",
-          "link": "https://elman.ai/news/your-model-already-knows-the-answer/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-05T16:56:56",
-          "excerpt": "記事の URL: https://elman.ai/news/your-model-already-knows-the-answer/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "HN の起動: HyperProbe (YC S26) – 本番環境で読み取り専用デバッグを実行するエージェント",
-          "link": "https://www.hyperprobe.co",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-05T16:47:15",
-          "excerpt": "こんにちは、HN。シャイレンドラとカランです。私たちは、コーディング エージェントが実稼働環境で問題をデバッグするための高速かつ安全な方法を構築しています。…"
-        },
-        {
-          "title": "IBM のエージェント AI プラットフォームは積極的な攻撃を受けています - 今すぐパッチを適用してください",
-          "link": "https://www.theregister.com/security/2026/08/05/ibms-agentic-ai-platform-is-under-active-attack-patch-now/5283535",
+          "title": "プロンプト インジェクションはバグではなく、AI エージェント フレームワークがバグです。",
+          "link": "https://www.theregister.com/security/2026/08/05/prompt-injection-isnt-the-bug-ai-agent-frameworks-are/5283585",
           "source": "The Register（英語）",
-          "published": "2026-08-05T16:44:39",
-          "excerpt": "CISA によると、デフォルトの展開で RCE を許可する Langflow の重大な欠陥が悪用されている"
+          "published": "2026-08-05T21:35:00",
+          "excerpt": "Check Point の研究者は、企業が AI アプリを構築するために使用しているフレームワークを破壊しようとしました。彼らは今、Black Hat の参加者に発見したことを伝えています。"
+        },
+        {
+          "title": "Meta が大規模なコードベース用の AI エージェントである Muse Code を開始",
+          "link": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-05T21:21:28",
+          "excerpt": "Meta は、複雑なソフトウェアを使用して複雑なタスクを処理できる新しいエージェントを使用して、AI コーディングのサービスを拡張しました。"
+        },
+        {
+          "title": "Prime Agent: 自己改善型 RLM エージェント",
+          "link": "https://www.primeintellect.ai/blog/prime-agent",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-05T21:11:57",
+          "excerpt": "記事の URL: https://www.primeintellect.ai/blog/prime-agent コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "トランプ大統領の司法省、OpenAIのグリーンカード従業員スポンサーシップの監視を獲得",
+          "link": "https://techcrunch.com/2026/08/05/trumps-doj-gains-oversight-of-openais-green-card-employee-sponsorships/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-05T21:05:37",
+          "excerpt": "司法省は、OpenAIがビザ保有従業員の永住権を求める前に米国国民を雇用する意味のある試みはなかったと主張した。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。Redditはモデレーションツールを拡張し、より強力な不正行為防止システムを構築しており、最終的にはコミュニティのカルマやアカウント年齢要件への依存を軽減し、正規の新規参入者が参加しやすくなる可能性があるとしている。",
+      "summary": "クラウドの新着が20件。はじめに 検証用のEC2を作ったあと、つい停止し忘れることがあります。1台なら金額は小さく見えても、検証環境が増えると地味に効きます。さらに、チームで使う環境では「誰が止めるのか」が曖昧になりがちです。…",
       "articles": [
+        {
+          "title": "AWS EC2を毎日18時に自動停止する EventBridge Scheduler設定手順",
+          "link": "https://qiita.com/s_horikoshi/items/e24252fd4b4b6b83680a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-05T20:56:59",
+          "excerpt": "はじめに 検証用のEC2を作ったあと、つい停止し忘れることがあります。1台なら金額は小さく見えても、検証環境が増えると地味に効きます。さらに、チームで使う環境では「誰が止めるのか」が曖昧になりがちです。…"
+        },
         {
           "title": "RedditはAIモデレーションツールへの移行により、初めて投稿する人にとって「カルマ」の重要性を軽減することを目指している",
           "link": "https://techcrunch.com/2026/08/05/reddit-aims-to-make-karma-less-important-for-first-time-posters-with-shift-to-ai-moderation-tools/",
@@ -64,21 +71,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-05T16:44:29",
           "excerpt": "EC2 の SQL Server License Included に同梱されているインストールメディアで再インストールしてみる こんにちは！AWS でソリューションアーキテクトをしている杉山 です。…"
-        },
-        {
-          "title": "[アップデート] Amazon RDS for SQL Server の SQL Server Audit ログを CloudWatch Logs に直接配信できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/rds-sqlserver-publish-sql-audit-to-cw/",
-          "source": "DevelopersIO",
-          "published": "2026-08-05T16:13:10",
-          "excerpt": "Amazon RDS for SQL Server で SQL Server Audit ログを CloudWatch Logs へ配信できるようになったので、セットアップから CloudWatch Logs での確認まで試してみました。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。npmに代わる新しいJavaScriptのパッケージシステム「vlt」（vōlt：ボールト）を開発しているvlt technologyは、npm互換のパッケージマネージャ「vlt」がバージョン1.0に到達したことを発表しました。あわせてn.…",
+      "summary": "セキュリティの新着が14件。Anthropic モデルと OpenAI モデルの予期せぬ行動により、英国のサイバー テストは停止に追い込まれました。",
       "articles": [
+        {
+          "title": "Anthropic の AI は、GitHub プロジェクトに対する不正な攻撃で偽の ID とマルウェアを使用しました",
+          "link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-08-05T20:47:11",
+          "excerpt": "Anthropic モデルと OpenAI モデルの予期せぬ行動により、英国のサイバー テストは停止に追い込まれました。"
+        },
         {
           "title": "npm代替を目指すセキュリティファーストなパッケージマネージャ「vlt」バージョン1.0に到達。npmのミラーレジストリ、プライベートレジストリも提供開始",
           "link": "https://www.publickey1.jp/blog/26/npmvlt10npm.html",
@@ -99,20 +106,13 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-05T14:03:16",
           "excerpt": "共同通信社は8月5日、電子メールなどの業務環境で不正アクセスによる情報漏えいの可能性が判明したと発表した。職員のほか加盟社や取引先の氏名、メールアドレスなど約6000件が閲覧された可能性がある。…"
-        },
-        {
-          "title": "【Security Hub修復手順】[S3.19] S3 アクセスポイントでは、ブロックパブリックアクセス設定を有効にする必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-s3-19/",
-          "source": "DevelopersIO",
-          "published": "2026-08-05T09:17:25",
-          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が11件。スペースXは大規模な携帯電話基地局を建設するつもりはないが、米国全土に小規模な基地局を計画している。",
+      "summary": "データ分析の新着が10件。スペースXは大規模な携帯電話基地局を建設するつもりはないが、米国全土に小規模な基地局を計画している。",
       "articles": [
         {
           "title": "SpaceXはStarlink MobileがAT&T、T-Mobile、Verizonよりも優れていると主張",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。記事の URL: https://dylan.blog/2026/08/03/im-scared-a-stranger-will.html コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が14件。Anthropic モデルと OpenAI モデルの予期せぬ行動により、英国のサイバー テストは停止に追い込まれました。",
       "articles": [
+        {
+          "title": "Anthropic の AI は、GitHub プロジェクトに対する不正な攻撃で偽の ID とマルウェアを使用しました",
+          "link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-08-05T20:47:11",
+          "excerpt": "Anthropic モデルと OpenAI モデルの予期せぬ行動により、英国のサイバー テストは停止に追い込まれました。"
+        },
         {
           "title": "見知らぬ人が私の小説を AI と呼ぶのが怖いので、Word 用の GitHub を構築しました",
           "link": "https://dylan.blog/2026/08/03/im-scared-a-stranger-will.html",
@@ -169,45 +176,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-05T08:26:51",
           "excerpt": "はじめに 株式会社iimonでエンジニアをしている「みよちゃん」です。8月に入り暑さが本格化してきましたね。最近自分は、通勤すれば汗だく・リモートワークをすればエアコンで電気代が高くつくという、ジレンマに陥っています。…"
-        },
-        {
-          "title": "SkillをGitHub Copilotで\"育てる\" — 実証的プロンプト改善の実践レポート | 株式会社メンバーズ AIフォーオールカンパニーのフィード",
-          "link": "https://zenn.dev/aiforall/articles/cb36b724e20a43",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-05T08:23:13",
-          "excerpt": "はじめにプロンプトの細かな差異（空白の有無、指示の構造など）は、LLM の回答の質を大きく左右します。「なんとなく書いたら動いた／動かなかった」を卒業するには、勘ではなくテスト駆動で Skill を育てていく発想が有効です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Klaviyo、テクノロジー創業者の全陣営の再会でエリアス・トーレスのエージェンシーを買収",
-      "link": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+      "title": "ニキータ・ビア氏がXの製品責任者を辞任",
+      "link": "https://techcrunch.com/2026/08/05/nikita-bier-steps-down-as-xs-head-of-product/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-05T20:05:00",
-      "excerpt": "この連続起業家は、CPO として電子商取引会社に入社し、AI エージェントを指揮します。"
+      "published": "2026-08-05T21:30:50",
+      "excerpt": "この連続起業家は、Xを監督する「24時間365日の仕事」を引き受けてから1年余りで退任する。"
     },
     {
-      "title": "ハンク グリーンは、YouTube レーベルが発見できない AI の問題を発見しました",
-      "link": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-05T19:51:40",
-      "excerpt": "「スロップ」だけが問題ではありません。"
+      "title": "トラビス・カラニック氏のロボット工学スタートアップ、アトムズが元ウーバー財務責任者を最高財務責任者（CFO）に​​起用",
+      "link": "https://techcrunch.com/2026/08/05/travis-kalanicks-robotics-startup-atoms-taps-former-uber-finance-chief-as-cfo/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-05T21:26:40",
+      "excerpt": "カラニックは、アンソニー・レヴァンドウスキーの自律スタートアップを買収し、さらにはウーバー自体からの投資も募り、バンドの再結成を続けている。"
     },
     {
-      "title": "AI が生成した児童性的虐待画像を含む Meta Ran の広告",
-      "link": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
+      "title": "Nvidia の Vera ホワイトペーパーには糸が緩んでいる",
+      "link": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
       "source": "Hacker News（英語）",
-      "published": "2026-08-05T19:47:26",
-      "excerpt": "記事の URL: https://www.wired.…"
+      "published": "2026-08-05T21:24:45",
+      "excerpt": "記事の URL: https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "ジェフ・ディーン氏とその他のトップAI研究者がGoogleを退職し、独自のスタートアップを立ち上げる",
-      "link": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-05T19:30:19",
-      "excerpt": "伝説的な Google 幹部は、他の退任する Google 幹部とともに、AI を使用して科学的発見のプロセスを推進するという共同ミッションに取り組んでいます。"
+      "title": "シュワルツ氏は承認公聴会の不手際を受けてCDC所長に就任を承認",
+      "link": "https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-08-05T21:03:18",
+      "excerpt": "シュワルツ氏はその役割に十分適任だったが、上院公聴会で墜落して火傷を負った。"
     }
   ]
 }
