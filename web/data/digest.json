@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-05T09:15:40",
+  "generated_at": "2026-08-05T11:34:32",
   "window_hours": 24,
-  "total": 220,
+  "total": 216,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が38件。2026 年 7 月 27 日週、7 歳の息子と一緒に Amazon の「子供を仕事に連れて行く日」に参加でき […]",
+      "summary": "生成AIの新着が37件。🍀この記事はこんな方におすすめAIを使って仕様書やテストケースを生成しているQAエンジニアAI生成物の品質が安定しない課題を抱えている方プロンプト設計の具体的なノウハウを探している方注釈: 本記事で使用している用語や具体例は、説明のための一…",
       "articles": [
+        {
+          "title": "「網羅的に書いて」では網羅されない！AI生成の品質を安定させたプロンプト4パターン | 株式会社COMPASSのフィード",
+          "link": "https://zenn.dev/qubena/articles/290096df3e83b3",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-05T10:23:26",
+          "excerpt": "🍀この記事はこんな方におすすめAIを使って仕様書やテストケースを生成しているQAエンジニアAI生成物の品質が安定しない課題を抱えている方プロンプト設計の具体的なノウハウを探している方注釈: 本記事で使用している用語や具体例は、説明のための一…"
+        },
+        {
+          "title": "AWS DevOps Agent に Lambda のタイムアウトを調査させて、修正プルリクエストまで作らせてみた",
+          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-github-mcp-pull-request/",
+          "source": "DevelopersIO",
+          "published": "2026-08-05T09:39:12",
+          "excerpt": "GitHub MCP サーバーを GitHub App の OAuth 3LO で接続することで、Lambda のタイムアウトを調査させて修正プルリクエストの作成まで完走させられた。"
+        },
         {
           "title": "AWS Weekly のまとめ: Bedrock の GPT モデルの値下げ、Prometheus メトリクス向けの CloudWatch マネージドコレクターなど (2026年8月3日)",
           "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/",
@@ -22,63 +36,56 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-05T08:23:13",
           "excerpt": "はじめにプロンプトの細かな差異（空白の有無、指示の構造など）は、LLM の回答の質を大きく左右します。「なんとなく書いたら動いた／動かなかった」を卒業するには、勘ではなくテスト駆動で Skill を育てていく発想が有効です。…"
-        },
-        {
-          "title": "Backlogの問い合わせ課題の一次調査をClaude Codeに任せる ── 自動で回すための境界設計 | 虎の穴ラボ技術ブログ",
-          "link": "https://toranoana-lab.hatenablog.com/entry/2026/08/05/170000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-05T08:00:00",
-          "excerpt": "こんにちは、虎の穴ラボのA.Mです。先日に引き続き、今回もAI活用の話です。題材にしたのは、社内から飛んでくる問い合わせへの対応です。…"
-        },
-        {
-          "title": "Claude Code v2.1.222 の主要アップデート - worktree 分離のセキュリティ修正と ultraplan の削除",
-          "link": "https://dev.classmethod.jp/articles/20260805-cc-updates-v2-1-222/",
-          "source": "DevelopersIO",
-          "published": "2026-08-05T05:41:38",
-          "excerpt": "Claude Code v2.1.222がリリースされました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。AWS Security HubのコントロールS3.24「S3マルチリージョンアクセスポイントのブロックパブリックアクセス設定」に関する修復手順を紹介します。…",
+      "summary": "クラウドの新着が20件。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の5日目の記事となります。過去の投稿（リンク集）と昨日投稿の記事は以下からご覧ください。…",
       "articles": [
+        {
+          "title": "検索処理のN+1問題をElastiCache Serverless for Valkeyで解消する",
+          "link": "https://qiita.com/usanchuu/items/03893a68d6b843379971",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-05T11:16:37",
+          "excerpt": "この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の5日目の記事となります。過去の投稿（リンク集）と昨日投稿の記事は以下からご覧ください。…"
+        },
+        {
+          "title": "AWS DevOps Agent に Lambda のタイムアウトを調査させて、修正プルリクエストまで作らせてみた",
+          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-github-mcp-pull-request/",
+          "source": "DevelopersIO",
+          "published": "2026-08-05T09:39:12",
+          "excerpt": "GitHub MCP サーバーを GitHub App の OAuth 3LO で接続することで、Lambda のタイムアウトを調査させて修正プルリクエストの作成まで完走させられた。"
+        },
+        {
+          "title": "【Security Hub修復手順】[S3.19] S3 アクセスポイントでは、ブロックパブリックアクセス設定を有効にする必要があります",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-s3-19/",
+          "source": "DevelopersIO",
+          "published": "2026-08-05T09:17:25",
+          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
+        },
         {
           "title": "【Security Hub修復手順】[S3.24] S3マルチリージョンアクセスポイントは、パブリックアクセスのブロック設定を有効にする必要があります",
           "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-s3-24/",
           "source": "DevelopersIO",
           "published": "2026-08-05T08:17:04",
           "excerpt": "AWS Security HubのコントロールS3.24「S3マルチリージョンアクセスポイントのブロックパブリックアクセス設定」に関する修復手順を紹介します。…"
-        },
-        {
-          "title": "AI時代のクラウドネイティブを支えるOSS、人材、インフラ ――KubeCon + CloudNativeCon Japan 2026記者発表会レポート",
-          "link": "https://gihyo.jp/article/2026/08/cncf-press-conference-2026-report?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-05T07:57:00",
-          "excerpt": "Linux FoundationとCloud Native Computing Foundation（CNCF）は2026年7月29日、KubeCon + CloudNativeCon Japan 2026にあわせて記者発表会を開催した。…"
-        },
-        {
-          "title": "Amazon SESで受信したメールをトリガーに、AWS Lambdaで本文の電話番号へAmazon Connectから自動発信してみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-ses-email-lambda-connect-outbound-call/",
-          "source": "DevelopersIO",
-          "published": "2026-08-05T06:34:06",
-          "excerpt": "Amazon SESで受信したメールをトリガーに、本文から電話番号を抽出してAmazon Connectで自動発信する構成を実装しました。…"
-        },
-        {
-          "title": "8 ドルの ESP32-S3 でトレーニングされた SLM",
-          "link": "https://github.com/Carloscodix/qapla",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-05T04:07:27",
-          "excerpt": "記事の URL: https://github.com/Carloscodix/qapla コメント URL: https://news.ycombinator.com/item?id=49178464 ポイント: 12 コメント数: 3"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。AWS IAM Identity Center の組織インスタンスが、マルチアカウント権限（Permission Sets）を有効化せずに作成可能になりました。…",
+      "summary": "セキュリティの新着が16件。AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。",
       "articles": [
+        {
+          "title": "【Security Hub修復手順】[S3.19] S3 アクセスポイントでは、ブロックパブリックアクセス設定を有効にする必要があります",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-s3-19/",
+          "source": "DevelopersIO",
+          "published": "2026-08-05T09:17:25",
+          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
+        },
         {
           "title": "IAM Identity Center でマルチアカウント権限を有効化せずに組織インスタンスを作成できるようになりました | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/iam-identity-center-without-multi-account-permissions",
@@ -99,20 +106,13 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-05T06:30:51",
           "excerpt": "イノベーションは8月4日、グループが使うGitHubの認証情報が漏えいし、第三者による不正アクセスを受けたと発表した。最大約6万件の氏名やメールアドレスが流出した可能性があるという。"
-        },
-        {
-          "title": "Googleパスワードマネジャーに脆弱性　パスキーで守られたアカウント乗っ取る3つの攻撃手法、米パロアルトが警鐘",
-          "link": "https://www.itmedia.co.jp/news/article/2608/05/2000000395/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-05T06:21:14",
-          "excerpt": "セキュリティ企業の米Palo Alto Networksの研究チーム「Unit 42」が、こんな攻撃に警鐘を鳴らしている。研究チームが8月3日に発表したところによれば、手口の異なる3種類の手法が存在し、一部は成功例もあるという。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。TL;DR DynamoDB が苦手な集計・分析は、AWS Glue の Zero-ETL 統合で S3 Tables へ分析用コピーを作ることで補える。…",
+      "summary": "データ分析の新着が5件。TL;DR DynamoDB が苦手な集計・分析は、AWS Glue の Zero-ETL 統合で S3 Tables へ分析用コピーを作ることで補える。…",
       "articles": [
         {
           "title": "DynamoDBを諦めないためのZero-ETL",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。はじめに 株式会社iimonでエンジニアをしている「みよちゃん」です。8月に入り暑さが本格化してきましたね。最近自分は、通勤すれば汗だく・リモートワークをすればエアコンで電気代が高くつくという、ジレンマに陥っています。…",
+      "summary": "開発ツールの新着が12件。🍀この記事はこんな方におすすめAI生成ワークフローのCI/CD化に興味があるエンジニア・QAエンジニアGitHub ActionsでのAI統合パターンを知りたい方「AIワークフローを作ったけれど、手動運用から脱却したい」方注釈: 本記事で使…",
       "articles": [
+        {
+          "title": "AIワークフローをCI/CD化したらAIより大変だった！GitHub Actionsでハマった2つの罠と乗り越え方 | 株式会社COMPASSのフィード",
+          "link": "https://zenn.dev/qubena/articles/9f9c672c786452",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-05T10:26:52",
+          "excerpt": "🍀この記事はこんな方におすすめAI生成ワークフローのCI/CD化に興味があるエンジニア・QAエンジニアGitHub ActionsでのAI統合パターンを知りたい方「AIワークフローを作ったけれど、手動運用から脱却したい」方注釈: 本記事で使…"
+        },
         {
           "title": "そのテスト、別のコードで通ってます — git worktree × Docker 並列開発の静かな罠 | iimon TECH BLOG",
           "link": "https://tech.iimon.co.jp/entry/2026/08/05/172651",
@@ -169,45 +176,38 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-05T06:30:51",
           "excerpt": "イノベーションは8月4日、グループが使うGitHubの認証情報が漏えいし、第三者による不正アクセスを受けたと発表した。最大約6万件の氏名やメールアドレスが流出した可能性があるという。"
-        },
-        {
-          "title": "GitHub Copilot、エンタープライズ向けにチーム単位の設定カスタマイズ機能を追加",
-          "link": "https://codezine.jp/article/detail/29234",
-          "source": "CodeZine",
-          "published": "2026-08-05T05:30:00",
-          "excerpt": "GitHub Copilot、エンタープライズ向けにチーム単位の設定カスタマイズ機能を追加"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "中古ソフトウェアライセンスの請求が集中し、Microsoftにとって二重の問題",
-      "link": "https://www.theregister.com/saas/2026/08/05/double-trouble-for-microsoft-as-pre-owned-software-licenses-claims-converge/5282421",
-      "source": "The Register（英語）",
-      "published": "2026-08-05T09:02:00",
-      "excerpt": "法廷、2億7,000万ポンドの再販業者訴訟と数十億ポンドの集団訴訟がどのように関連するかを調査"
-    },
-    {
-      "title": "Firecrawl、オフィス文書やPDFをMarkdownへ変換する「anydoc」をオープンソースで公開",
-      "link": "https://gihyo.jp/article/2026/08/anydoc?utm_source=feed",
-      "source": "gihyo.jp 開発",
-      "published": "2026-08-05T09:01:00",
-      "excerpt": "AI向けWebデータAPIを提供するFirecrawlは2026年8月5日、WordやPowerPoint、Excel、PDFなどの文書をMarkdownへ変換するRust製ライブラリ「anydoc」をオープンソースで公開した。"
-    },
-    {
-      "title": "キオクシア、フラッシュメモリでメモリ容量を増やせるモジュール発表　DRAMの容量不足を補う",
-      "link": "https://www.itmedia.co.jp/news/article/2608/05/2000000400/",
+      "title": "バンダイ、トレカ巡りマイナカードでの本人確認を導入へ",
+      "link": "https://www.itmedia.co.jp/news/article/2608/05/2000000405/",
       "source": "ITmedia NEWS",
-      "published": "2026-08-05T08:31:40",
-      "excerpt": "キオクシアは8月3日、CXL対応のメモリ拡張モジュール「KIOXIA XL1シリーズ」を発表した。フラッシュメモリでDRAMを補い、AIで膨らむデータセンターのメモリ需要に応える狙いだ。"
+      "published": "2026-08-05T11:26:29",
+      "excerpt": "バンダイがトレーディングカードゲームブランド「BANDAI TCG+」において、マイナンバーカードを使った本人確認システムの導入を検討していると発表した。"
     },
     {
-      "title": "2026年03月期 BPS概況 | TechRacho",
-      "link": "https://techracho.bpsinc.jp/piichan1031/2026_08_05/159177",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-05T08:30:54",
-      "excerpt": "こんにちは、BPSの渡辺です。今年も「夏のTechRachoフェア2026」やってます。社内メンバーはもちろん、BPSに興味を持ってくださっている方々も楽しんでいただければと思います。…"
+      "title": "インドのEVスタートアップRiverがシリーズCで1億2000万ドルを調達、生産規模を拡大し、より多くのモデルを発売",
+      "link": "https://techcrunch.com/2026/08/05/indian-ev-two-wheeler-startup-river-raises-120m-after-scaling-with-one-model/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-05T11:26:00",
+      "excerpt": "リバー社は、新しい工場を建設し、2027 年から追加モデルを発売し、生産規模を拡大しながら収益性を目指す計画です。"
+    },
+    {
+      "title": "ニューメキシコ州の民間航空機墜落事故は軍のGPS遮断と関係していた",
+      "link": "https://www.wired.com/story/a-civilian-plane-crashed-in-new-mexico-was-the-militarys-tech-to-blame/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-05T11:03:13",
+      "excerpt": "記事の URL: https://www.wired.…"
+    },
+    {
+      "title": "AI により天気予報がより正確になります。 WindBorneで儲かるのか？",
+      "link": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-05T11:00:00",
+      "excerpt": "WindBorne Systems は、気象気球と AI 予報を拡張するために、シリーズ B ラウンドで 3,700 万ドルを調達しました。"
     }
   ]
 }
