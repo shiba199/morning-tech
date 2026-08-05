@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-08-05T03:52:26",
+  "generated_at": "2026-08-05T06:17:32",
   "window_hours": 24,
-  "total": 223,
+  "total": 228,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が40件。DatabricksのAI関数とAI Searchを組み合わせて、S3のPDFに対するRAGパイプラインをSQLで構築する手順を紹介します。パース、チャンク化、埋め込み、検索、回答生成を一通り実装してみました。",
+      "summary": "生成AIの新着が41件。Claude Code v2.1.222がリリースされました。…",
       "articles": [
+        {
+          "title": "Claude Code v2.1.222 の主要アップデート - worktree 分離のセキュリティ修正と ultraplan の削除",
+          "link": "https://dev.classmethod.jp/articles/20260805-cc-updates-v2-1-222/",
+          "source": "DevelopersIO",
+          "published": "2026-08-05T05:41:38",
+          "excerpt": "Claude Code v2.1.222がリリースされました。…"
+        },
+        {
+          "title": "センサー x LLM でのマルチモーダル化 〜 SensorLLM を使用してモーションセンサーから人間行動認識（HAR）を行ってみた | ABEJA Tech Blog",
+          "link": "https://tech-blog.abeja.asia/entry/sensorllm-human-activity-recognition-202608",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-05T04:58:09",
+          "excerpt": "こんにちは！株式会社 ABEJA で ABEJA Platform 開発を行っている坂井（GitHub : @Yagami360）です。…"
+        },
+        {
+          "title": "Zero-Mem: LLM エージェントのゼロトークン メモリ操作",
+          "link": "https://arxiv.org/abs/2607.29377",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-05T04:36:44",
+          "excerpt": "記事の URL: https://arxiv.org/abs/2607.29377 コメント URL: https://news.ycombinator.com/item?id=49178608 ポイント: 5 コメント数: 1"
+        },
         {
           "title": "DatabricksでS3にあるファイルに対してRAGを構築してみた",
           "link": "https://dev.classmethod.jp/articles/databricks-rag-with-s3/",
           "source": "DevelopersIO",
           "published": "2026-08-05T03:30:26",
           "excerpt": "DatabricksのAI関数とAI Searchを組み合わせて、S3のPDFに対するRAGパイプラインをSQLで構築する手順を紹介します。パース、チャンク化、埋め込み、検索、回答生成を一通り実装してみました。"
-        },
-        {
-          "title": "GitHub Copilot Cloud Agent、コメントから自動化実行に対応",
-          "link": "https://codezine.jp/article/detail/29236",
-          "source": "CodeZine",
-          "published": "2026-08-05T02:30:00",
-          "excerpt": "GitHub Copilot Cloud Agent、コメントから自動化実行に対応"
-        },
-        {
-          "title": "Google DeepMindがロボット向けモデル「Gemini Robotics ER 2」を公開",
-          "link": "https://codezine.jp/article/detail/29233",
-          "source": "CodeZine",
-          "published": "2026-08-05T01:00:00",
-          "excerpt": "Google DeepMindがロボット向けモデル「Gemini Robotics ER 2」を公開"
-        },
-        {
-          "title": "1 つのエージェントで、あらゆるクライアントに: Kiro エージェントハーネスをどう構築したか",
-          "link": "https://aws.amazon.com/jp/blogs/news/one-agent/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-05T00:43:36",
-          "excerpt": "Kiro IDE、CLI、Web に別々に存在した 3 つのエージェントを、単一の Kiro エージェントハーネスに統合した過程を解説します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が24件。DatabricksのAI関数とAI Searchを組み合わせて、S3のPDFに対するRAGパイプラインをSQLで構築する手順を紹介します。パース、チャンク化、埋め込み、検索、回答生成を一通り実装してみました。",
+      "summary": "クラウドの新着が22件。記事の URL: https://github.com/Carloscodix/qapla コメント URL: https://news.ycombinator.com/item?id=49178464 ポイント: 12 コメント数: 3",
       "articles": [
+        {
+          "title": "8 ドルの ESP32-S3 でトレーニングされた SLM",
+          "link": "https://github.com/Carloscodix/qapla",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-05T04:07:27",
+          "excerpt": "記事の URL: https://github.com/Carloscodix/qapla コメント URL: https://news.ycombinator.com/item?id=49178464 ポイント: 12 コメント数: 3"
+        },
         {
           "title": "DatabricksでS3にあるファイルに対してRAGを構築してみた",
           "link": "https://dev.classmethod.jp/articles/databricks-rag-with-s3/",
@@ -64,21 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-05T01:16:18",
           "excerpt": "はじめに AWSでVPCを作るとき、最初に出てくる 10.0.0.0/16 や /24 をなんとなく選んでいないでしょうか。VPCは、あとからアプリやDBを置くためのネットワークの土台です。…"
-        },
-        {
-          "title": "東京リージョンの EFS をバージニア北部リージョンの EC2 インスタンスから VPC ピアリング経由でマウントしてみた (Route 53 プライベートホストゾーン編)",
-          "link": "https://dev.classmethod.jp/articles/efs-cross-region-with-route53-private-hosted-zone/",
-          "source": "DevelopersIO",
-          "published": "2026-08-05T00:30:23",
-          "excerpt": "前回の検証では /etc/hosts を使用していましたが、今回は Route 53 プライベートホストゾーンを活用して、別リージョンの EC2 インスタンスから EFS をマウントする方法を試してみました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。モデルはソーシャル エンジニアリングを使用し、モデル間で協力してセキュリティ上の課題を解決しました",
+      "summary": "セキュリティの新着が13件。Claude Code v2.1.222がリリースされました。…",
       "articles": [
+        {
+          "title": "Claude Code v2.1.222 の主要アップデート - worktree 分離のセキュリティ修正と ultraplan の削除",
+          "link": "https://dev.classmethod.jp/articles/20260805-cc-updates-v2-1-222/",
+          "source": "DevelopersIO",
+          "published": "2026-08-05T05:41:38",
+          "excerpt": "Claude Code v2.1.222がリリースされました。…"
+        },
+        {
+          "title": "885万件超の情報漏えいが発覚　BASE子会社のEストアーが不正アクセス被害",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/05/news066.html",
+          "source": "@IT",
+          "published": "2026-08-05T05:00:00",
+          "excerpt": "Eストアーは、ショップサーブへの不正アクセスで購入者・会員・カード・店舗情報885万件超が漏えいしたと公表した。攻撃通信を遮断し、利用者と店舗へパスワード変更や不審な連絡への警戒を要請。二次被害の報告は確認されていない。"
+        },
         {
           "title": "AI 研究者はモデルを鎖から外し、FOSS プロジェクトにマルウェアを追加しようとする様子を観察しました",
           "link": "https://www.theregister.com/ai-and-ml/2026/08/05/ai-researchers-let-models-off-the-leash-then-watched-as-they-tried-to-add-malware-to-a-foss-project/5283165",
@@ -92,28 +106,21 @@
           "source": "ITmedia エンタープライズ",
           "published": "2026-08-05T00:15:00",
           "excerpt": "BroadcomはVMware製品群に存在する5件の脆弱性を修正した。vCenterでは最高深刻度CVSS 9.8の認証回避や任意コード実行の欠陥が確認されている。回避策は用意されておらず、速やかなパッチ適用が求められる。"
-        },
-        {
-          "title": "脆弱性の物量に圧倒される前に　地殻変動の中だからこそ押さえておきたい3つの対策",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/05/news007.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-08-04T22:00:00",
-          "excerpt": "フロンティアAIの登場で、検出される脆弱性の量は一気に膨れ上がった。全てをひとまとめに捉えれば、物量に圧倒されて手が止まる。限られた人員で対応を進めるために、企業はどの観点で対策を切り分ければよいのか。"
-        },
-        {
-          "title": "Googleパスワードマネージャーに脆弱性、マルウェアでパスキー保護を突破可能に",
-          "link": "https://pc.watch.impress.co.jp/docs/news/2130538.html",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-08-04T21:17:40",
-          "excerpt": "Googleパスワードマネージャーに脆弱性、マルウェアでパスキー保護を突破可能に"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。異なるタイプのアイテムを1テーブルに集約し、GSI1本で「全ユーザー横断一覧」と「ID指定の直接取得」までカバーする設計を紹介する。…",
+      "summary": "データ分析の新着が6件。TL;DR DynamoDB が苦手な集計・分析は、AWS Glue の Zero-ETL 統合で S3 Tables へ分析用コピーを作ることで補える。…",
       "articles": [
+        {
+          "title": "DynamoDBを諦めないためのZero-ETL",
+          "link": "https://zenn.dev/pksha/articles/dynamodb-zero-etl",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-05T05:15:50",
+          "excerpt": "TL;DR DynamoDB が苦手な集計・分析は、AWS Glue の Zero-ETL 統合で S3 Tables へ分析用コピーを作ることで補える。…"
+        },
         {
           "title": "【DynamoDB】GSI1本で「横断一覧」と「ID検索」を両立するシングルテーブル設計",
           "link": "https://zenn.dev/ma_sa_shi/articles/dad129abf403c2",
@@ -134,21 +141,21 @@
           "source": "TechCrunch（英語）",
           "published": "2026-08-04T17:05:48",
           "excerpt": "TV Time の閉鎖により何百万人ものユーザーが代替手段を探していた後、アプリの創設者の 1 人が Bingers に戻ってきました。…"
-        },
-        {
-          "title": "AWS Glue JobのDefaultモードとVPCモードを比較する",
-          "link": "https://zenn.dev/penginpenguin/articles/01ffa5410d4476",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-04T13:56:05",
-          "excerpt": "はじめに AWS Community Builderのぺんぎん（@jitepengin）です。AWS Glueを使う場合、ネットワーク構成をVPCを使わず、Glue Jobはdefaultモードで動かすことも多いと思います。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。はじめに 自社サービスの運用ですでに ECS を使っています。ただし用途は AWS Batch 経由のバッチ処理で、 Web サービスを常時稼働させる、いわゆる普通の ECS の使い方をしたことがありませんでした。…",
+      "summary": "開発ツールの新着が10件。GitHub Copilot、エンタープライズ向けにチーム単位の設定カスタマイズ機能を追加",
       "articles": [
+        {
+          "title": "GitHub Copilot、エンタープライズ向けにチーム単位の設定カスタマイズ機能を追加",
+          "link": "https://codezine.jp/article/detail/29234",
+          "source": "CodeZine",
+          "published": "2026-08-05T05:30:00",
+          "excerpt": "GitHub Copilot、エンタープライズ向けにチーム単位の設定カスタマイズ機能を追加"
+        },
         {
           "title": "AWS Batch と ECS Service は何が違うのか - Terraform で最小構成を作って理解する",
           "link": "https://qiita.com/sugumura/items/db166669c5dba836871a",
@@ -169,45 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-08-05T01:43:33",
           "excerpt": "Amplify ホスティングでカスタムドメイン設定時に「SSL 設定が失敗しました」というエラーが表示される場合、DNS レコードの設定不備が考えられます。"
-        },
-        {
-          "title": "GitLabからGitHub Enterprise Cloudへの移行機能、一般提供開始",
-          "link": "https://codezine.jp/article/detail/29232",
-          "source": "CodeZine",
-          "published": "2026-08-05T00:00:00",
-          "excerpt": "GitLabからGitHub Enterprise Cloudへの移行機能、一般提供開始"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Airbnb、プライバシーを最優先とするソーシャル機能を支援するため、コンテキスト認識型IDモデルを導入",
-      "link": "https://www.infoq.com/jp/news/2026/08/airbnb-privacy-identity-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ（日本語）",
-      "published": "2026-08-05T03:30:00",
-      "excerpt": "Airbnbは、「エクスペリエンス」における新たなソーシャル機能をサポートすると同時に、プラットフォーム全体でより強固なプライバシー境界を確立するため、再設計されたIDおよび接続モデルを導入した。…"
+      "title": "KNFSD ファイルキャッシュのご紹介: NFS ストレージをクラウドに拡張",
+      "link": "https://aws.amazon.com/jp/blogs/news/jp-mne-introducing-knfsd-file-cache-extending-your-nfs-storage-into-the-cloud/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-08-05T06:07:38",
+      "excerpt": "本記事では、KNFSD File Cache (KNFSD) の仕組みと、オンプレミスのファイラー、サードパーティ、Amazon FSx などの AWS サービスを問わず、NFS 準拠のストレージとどのように連携するかを説明します。…"
     },
     {
-      "title": "【入社エントリ】Webメディア情シスから心機一転！攻めの情シスを目指して転職 | NIFTY engineering",
-      "link": "https://engineering.nifty.co.jp/blog/38145",
+      "title": "【ログラス】共通基盤エンジニア向け記事・登壇資料まとめ | loglass_product_teamのブログ",
+      "link": "https://prd-blog.loglass.co.jp/entry/PlatformEngineer",
       "source": "企業テックブログまとめ",
-      "published": "2026-08-05T02:45:00",
-      "excerpt": "はじめまして！基盤システム部 業務基盤グループ所属のhirabayashiと申します。2026年4月に入社し、OA機器管理・ヘルプデスクなどを担当しています。これまでのキャリア 前職ではWebメディア企業にて、情シスと […]…"
+      "published": "2026-08-05T05:46:52",
+      "excerpt": "ログラスのプロダクト基盤に関する記事・登壇資料をまとめてお届けします。オススメ記事 メンバー紹介記事 オススメ記事 メンバー紹介記事…"
     },
     {
-      "title": "ネイティブモバイルアプリエンジニアのためのReact Native入門 | テラーノベル テックブログのフィード",
-      "link": "https://zenn.dev/tellernovel_inc/articles/61e89ab21ec867",
+      "title": "検証環境のCloud Composer 2（Managed Airflow 2） の Redis の OOMで DAG が停止した時の対応記録 | ABEJA Tech Blog",
+      "link": "https://tech-blog.abeja.asia/entry/managed-airflow-recovery-202608",
       "source": "企業テックブログまとめ",
-      "published": "2026-08-05T02:41:51",
-      "excerpt": "こんにちは！テラーノベルでiOS/Android/Webとフロントエンド周りを担当している @kazutoyo です！…"
+      "published": "2026-08-05T05:44:02",
+      "excerpt": "事象 最初に観測された事象 その他発生していた事象 事象発生の原因 対処 暫定対応 - Redisメモリの増設 リカバリ - 大量の「未確認の Celery タスク」の処理 恒久対応 - 構成変更 予防 - サイジング・アラート設定 We…"
     },
     {
-      "title": "英AI研究所、評価中のAIが実在の開発者を標的に──偽アカウント使い悪意あるコードの承認迫る",
-      "link": "https://www.itmedia.co.jp/news/article/2608/05/2000000391/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-05T02:39:27",
-      "excerpt": "英AI研究所のAISIは、AIエージェントの評価中に、実在の人物や組織に対してAIが継続的かつ不許可の行動を取るインシデントを検知したと発表した。…"
+      "title": "AWS JumpStart 2026に参加しました！ | NIFTY engineering",
+      "link": "https://engineering.nifty.co.jp/blog/38133",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-05T05:43:28",
+      "excerpt": "はじめに！こんにちは！新卒1年目のGokuと竹下です！新人研修の一環としてニフティ2026年度新卒入社の11名がAWS JumpStart2026に参加しました！この記事では2日間実施されたワークショップの内容と、グル […]…"
     }
   ]
 }
