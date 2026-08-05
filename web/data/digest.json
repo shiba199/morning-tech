@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-08-04T23:29:49",
+  "generated_at": "2026-08-05T00:54:32",
   "window_hours": 24,
-  "total": 228,
+  "total": 238,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が43件。GitHub、CopilotのコードレビューにおけるエージェントスキルとMCPサーバーの連携を正式リリース",
+      "summary": "生成AIの新着が45件。Kiro IDE、CLI、Web に別々に存在した 3 つのエージェントを、単一の Kiro エージェントハーネスに統合した過程を解説します。…",
       "articles": [
         {
-          "title": "GitHub、CopilotのコードレビューにおけるエージェントスキルとMCPサーバーの連携を正式リリース",
-          "link": "https://codezine.jp/article/detail/29228",
-          "source": "CodeZine",
-          "published": "2026-08-04T23:00:00",
-          "excerpt": "GitHub、CopilotのコードレビューにおけるエージェントスキルとMCPサーバーの連携を正式リリース"
+          "title": "1 つのエージェントで、あらゆるクライアントに: Kiro エージェントハーネスをどう構築したか",
+          "link": "https://aws.amazon.com/jp/blogs/news/one-agent/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-05T00:43:36",
+          "excerpt": "Kiro IDE、CLI、Web に別々に存在した 3 つのエージェントを、単一の Kiro エージェントハーネスに統合した過程を解説します。…"
         },
         {
-          "title": "[Amazon SageMaker] Llama 3.2 1B を LoRA でファインチューニングして、質問に Markdown 表で答えさせてみました",
-          "link": "https://dev.classmethod.jp/articles/llama-3-2-1b-lora-markdown-table-sagemaker/",
+          "title": "【アップデート】 AWS Config が Amazon Bedrock・SageMaker など 15 種類の新リソースタイプをサポートしました",
+          "link": "https://dev.classmethod.jp/articles/aws-config-15-new-resource-types-2026-08/",
           "source": "DevelopersIO",
-          "published": "2026-08-04T22:20:00",
-          "excerpt": "LLMの出力フォーマットをプロンプトに頼らず安定させたい—そこで、Llama 3.2 1BをSageMaker上でLoRA微調整し、Markdown形式の表を「必ず出力する」ようにモデルに学習させてみました。…"
+          "published": "2026-08-05T00:41:43",
+          "excerpt": "AWS Config が Amazon Bedrock や Amazon SageMaker など 15 個の新しいリソースタイプに対応しました！利用している方は要チェックです！"
         },
         {
-          "title": "OpenAI、Appleの提訴に全面反論――「営業秘密は持っていないし、欲しくもない」",
-          "link": "https://www.itmedia.co.jp/news/article/2608/05/2000000387/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-04T22:16:06",
-          "excerpt": "OpenAIは、Appleが提起した営業秘密の不正取得訴訟に対し、公式ブログで全面的に反論した。Apple側の誤連絡や連絡不備をメールのやり取りを添えて指摘し、営業秘密の所有や利用を強く否定。…"
+          "title": "AI議事録「Rimo」はOpenAI、Anthropic時代にどう勝ち筋を描くか──元Google・相川氏が説く現代のプロダクト戦略",
+          "link": "https://codezine.jp/article/detail/29084",
+          "source": "CodeZine",
+          "published": "2026-08-05T00:00:00",
+          "excerpt": "AIエージェントが自律的にコードを書き、テストし、デプロイする。そんな光景が珍しくなくなるにつれ、エンジニアの主戦場は「どう作るか」から「何を作るか」へと移りつつある。…"
         },
         {
-          "title": "Claude Opus 5 は本当に安いのか — Sonnet 5 / Fable 5 との費用対効果を検証・評価してみた | 電通総研 テックブログ",
-          "link": "https://tech.dentsusoken.com/entry/2026/08/05/Claude_Opus_5_%E3%81%AF%E6%9C%AC%E5%BD%93%E3%81%AB%E5%AE%89%E3%81%84%E3%81%AE%E3%81%8B_%E2%80%94_Sonnet_5_/_Fable_5_%E3%81%A8%E3%81%AE%E8%B2%BB%E7%94%A8%E5%AF%BE%E5%8A%B9%E6%9E%9C%E3%82%92%E6%A4%9C",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-04T22:00:00",
-          "excerpt": "はじめまして。エンタープライズ第二本部 プラットフォームエンジニアリング部 2年目の菊池祥汰です。業務では AI サポートセンターとして生成 AI / LLM 活用案件や dJ グループ内の生成 AI 利活用推進などを行っています。…"
+          "title": "GitHub MCP のLockdown Modeでプロンプトインジェクションのリスクを下げる",
+          "link": "https://dev.classmethod.jp/articles/github-mcp-lockdown-verification/",
+          "source": "DevelopersIO",
+          "published": "2026-08-04T23:48:48",
+          "excerpt": "GitHub MCP Serverのロックダウンモード機能について、実際に動作を検証してみました。プロンプトインジェクション攻撃からの保護を目的とした機能がどのように機能するのか、その実装について紹介します。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が28件。EC2 上の Amazon EMR は、Spark Connect を使用したインタラクティブな Apache Spark セッションをサポートするようになりました。…",
+      "summary": "クラウドの新着が28件。前回の検証では /etc/hosts を使用していましたが、今回は Route 53 プライベートホストゾーンを活用して、別リージョンの EC2 インスタンスから EFS をマウントする方法を試してみました。…",
       "articles": [
+        {
+          "title": "東京リージョンの EFS をバージニア北部リージョンの EC2 インスタンスから VPC ピアリング経由でマウントしてみた (Route 53 プライベートホストゾーン編)",
+          "link": "https://dev.classmethod.jp/articles/efs-cross-region-with-route53-private-hosted-zone/",
+          "source": "DevelopersIO",
+          "published": "2026-08-05T00:30:23",
+          "excerpt": "前回の検証では /etc/hosts を使用していましたが、今回は Route 53 プライベートホストゾーンを活用して、別リージョンの EC2 インスタンスから EFS をマウントする方法を試してみました。…"
+        },
+        {
+          "title": "GitLabからGitHub Enterprise Cloudへの移行機能、一般提供開始",
+          "link": "https://codezine.jp/article/detail/29232",
+          "source": "CodeZine",
+          "published": "2026-08-05T00:00:00",
+          "excerpt": "GitLabからGitHub Enterprise Cloudへの移行機能、一般提供開始"
+        },
+        {
+          "title": "Kiro CrewをAmazon Linux 2023のEC2で試してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-crew-remote-on-ec2/",
+          "source": "DevelopersIO",
+          "published": "2026-08-04T23:49:26",
+          "excerpt": "Kiro CrewをAmazon Linux 2023のAmazon EC2で動かし、SSHトンネル経由でローカルブラウザーからDashboardを利用してみました。…"
+        },
         {
           "title": "Spark Connect を使用して EC2 上の Amazon EMR でインタラクティブなワークロードを実行する",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-ec2-spark-connect/",
           "source": "AWS What's New（英語）",
           "published": "2026-08-04T20:29:00",
           "excerpt": "EC2 上の Amazon EMR は、Spark Connect を使用したインタラクティブな Apache Spark セッションをサポートするようになりました。…"
-        },
-        {
-          "title": "Amazon EC2 C8g インスタンスが追加のリージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8g-instances-additional-regions/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-04T18:57:00",
-          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) C8g インスタンスが AWS ヨーロッパ (パリ)、AWS アフリカ (ケープタウン)、AWS イスラエル (テルアビブ)、および AWS カナ…"
-        },
-        {
-          "title": "Amazon EC2 I8g インスタンスが AWS ヨーロッパ (パリ)、アジアパシフィック (ジャカルタ) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i8g-instances-aws-paris-jakarta-regions/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-04T16:00:00",
-          "excerpt": "AWS は、AWS ヨーロッパ (パリ) およびアジアパシフィック (ジャカルタ) リージョンで Amazon EC2 Storage Optimized I8g インスタンスの一般提供を発表しました。…"
-        },
-        {
-          "title": "EC2＋DB構成でPublic構成とPrivate＋NAT構成を分けた理由【ヒトリ開発】#6",
-          "link": "https://qiita.com/Asano-S/items/8a4467f296330bca6435",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-04T15:21:19",
-          "excerpt": "はじめに まただいぶ時間が空きましたね(笑) これまで、個人開発アプリをAWS上に公開するためのTerraform Packを作る過程を記事にしてきました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。フロンティアAIの登場で、検出される脆弱性の量は一気に膨れ上がった。全てをひとまとめに捉えれば、物量に圧倒されて手が止まる。限られた人員で対応を進めるために、企業はどの観点で対策を切り分ければよいのか。",
+      "summary": "セキュリティの新着が14件。BroadcomはVMware製品群に存在する5件の脆弱性を修正した。vCenterでは最高深刻度CVSS 9.8の認証回避や任意コード実行の欠陥が確認されている。回避策は用意されておらず、速やかなパッチ適用が求められる。",
       "articles": [
+        {
+          "title": "VMware製品にCVSS 9.8の脆弱性、回避策なし　速やかなアップデートを推奨",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/05/news036.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-08-05T00:15:00",
+          "excerpt": "BroadcomはVMware製品群に存在する5件の脆弱性を修正した。vCenterでは最高深刻度CVSS 9.8の認証回避や任意コード実行の欠陥が確認されている。回避策は用意されておらず、速やかなパッチ適用が求められる。"
+        },
         {
           "title": "脆弱性の物量に圧倒される前に　地殻変動の中だからこそ押さえておきたい3つの対策",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2608/05/news007.html",
@@ -99,21 +106,21 @@
           "source": "@IT",
           "published": "2026-08-04T20:00:00",
           "excerpt": "セキュリティ施策の推進を阻む組織文化をどう変えるか。YKK APのセキュリティ担当者が、正論だけでは動かない組織を、意図的な演出や交渉術でどう動かしたかについて赤裸々に話した。"
-        },
-        {
-          "title": "AWS Security Hub Extended は、10 番目のカテゴリーとしてサプライチェーンセキュリティを追加します",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-hub-extended-adds-supply-chain-security",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-04T19:14:00",
-          "excerpt": "AWS Security Hub Extended プランには、厳選されたパートナーとして Chainguard と Socket を迎え、サプライチェーンセキュリティが 10 番目のセキュリティカテゴリとして含まれるようになりました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。EC2 上の Amazon EMR は、Spark Connect を使用したインタラクティブな Apache Spark セッションをサポートするようになりました。…",
+      "summary": "データ分析の新着が7件。異なるタイプのアイテムを1テーブルに集約し、GSI1本で「全ユーザー横断一覧」と「ID指定の直接取得」までカバーする設計を紹介する。…",
       "articles": [
+        {
+          "title": "【DynamoDB】GSI1本で「横断一覧」と「ID検索」を両立するシングルテーブル設計",
+          "link": "https://zenn.dev/ma_sa_shi/articles/dad129abf403c2",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-04T23:00:05",
+          "excerpt": "異なるタイプのアイテムを1テーブルに集約し、GSI1本で「全ユーザー横断一覧」と「ID指定の直接取得」までカバーする設計を紹介する。…"
+        },
         {
           "title": "Spark Connect を使用して EC2 上の Amazon EMR でインタラクティブなワークロードを実行する",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-ec2-spark-connect/",
@@ -134,21 +141,28 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-04T13:56:05",
           "excerpt": "はじめに AWS Community Builderのぺんぎん（@jitepengin）です。AWS Glueを使う場合、ネットワーク構成をVPCを使わず、Glue Jobはdefaultモードで動かすことも多いと思います。…"
-        },
-        {
-          "title": "Amazon Bio Discovery でタンパク質構造データから抗体候補を生成してみた",
-          "link": "https://dev.classmethod.jp/articles/ohorig-bioinfo-biodiscovery/",
-          "source": "DevelopersIO",
-          "published": "2026-08-04T09:28:04",
-          "excerpt": "Amazon Bio Discoveryを使ってタンパク質に結合する抗体候補をAIで設計してみました。公開されている構造データから、ホットスポット選択から候補生成までの一連の流れと、生成された抗体の構造確認方法を紹介します。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。GitHub、CopilotのコードレビューにおけるエージェントスキルとMCPサーバーの連携を正式リリース",
+      "summary": "開発ツールの新着が11件。GitLabからGitHub Enterprise Cloudへの移行機能、一般提供開始",
       "articles": [
+        {
+          "title": "GitLabからGitHub Enterprise Cloudへの移行機能、一般提供開始",
+          "link": "https://codezine.jp/article/detail/29232",
+          "source": "CodeZine",
+          "published": "2026-08-05T00:00:00",
+          "excerpt": "GitLabからGitHub Enterprise Cloudへの移行機能、一般提供開始"
+        },
+        {
+          "title": "GitHub MCP のLockdown Modeでプロンプトインジェクションのリスクを下げる",
+          "link": "https://dev.classmethod.jp/articles/github-mcp-lockdown-verification/",
+          "source": "DevelopersIO",
+          "published": "2026-08-04T23:48:48",
+          "excerpt": "GitHub MCP Serverのロックダウンモード機能について、実際に動作を検証してみました。プロンプトインジェクション攻撃からの保護を目的とした機能がどのように機能するのか、その実装について紹介します。"
+        },
         {
           "title": "GitHub、CopilotのコードレビューにおけるエージェントスキルとMCPサーバーの連携を正式リリース",
           "link": "https://codezine.jp/article/detail/29228",
@@ -162,52 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-08-04T21:52:07",
           "excerpt": "Kiro CLIの上に構築されたオーケストレーション層「Kiro Crew」をmacOSにインストールして、Slack連携まで試してみました。セッション管理やメモリ、外部チャネル連携の仕組みを中心に紹介します。"
-        },
-        {
-          "title": "CloudFormation Express モードを試した後に S3 バケットトリガーが発火しなくなった",
-          "link": "https://zenn.dev/trustart_dev/articles/4f495df899aaa0",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-04T09:00:07",
-          "excerpt": "TL;DR CDK に --express を付けてデプロイしたところ、S3 へのファイル投入で ECS タスクが起動しなくなりました。…"
-        },
-        {
-          "title": "GitHub stacked pull requestを実際に動かしてみた",
-          "link": "https://dev.classmethod.jp/articles/github-stacked-pull-requests/",
-          "source": "DevelopersIO",
-          "published": "2026-08-04T08:25:23",
-          "excerpt": "レビュー単位を小さくしながら大きな変更を進められるStaked pull requestの紹介"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "2026 年 7 月の AWS テクニカルサポートノートまとめ",
-      "link": "https://dev.classmethod.jp/articles/summary-of-aws-technical-support-notes-for-july-2026/",
-      "source": "DevelopersIO",
-      "published": "2026-08-04T23:05:12",
-      "excerpt": "2026 年 7 月の AWS テクニカルサポートノートまとめ"
+      "title": "AWS Summit Japan 2026 Day1 参加レポート　～初参加者・海外参加者へのアドバイス～",
+      "link": "https://qiita.com/steven-tandianus/items/534c79aea3c9813f0e6a",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-05T00:50:19",
+      "excerpt": "場所と時間: 2026年6月25日～26日 | 幕張メッセ はじめに 自己紹介 AWS Summitとは？基調講演 セッションノート ブース 終わりに 自己紹介 初めまして、株式会社TOKAIコミュニケーションズのステヴェンです。…"
     },
     {
-      "title": "AWS、7月27日週に発表した新機能をまとめて紹介",
-      "link": "https://codezine.jp/article/detail/29231",
-      "source": "CodeZine",
-      "published": "2026-08-04T23:00:00",
-      "excerpt": "AWS、7月27日週に発表した新機能をまとめて紹介"
+      "title": "ブラウザの再起動は不要になる？　Chromeが模索する「週2リリース」と「無停止アップデート」",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/05/news027.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-08-05T00:15:00",
+      "excerpt": "Googleは「Google Chrome」のセキュリティ対策サイクル全般でAI活用を推進する。AIによる脆弱性の発見、自動修正やトリアージの高速化に加え、週2回リリースや再起動不要な無停止アップデートの検証を進める。"
     },
     {
-      "title": "TypeScriptを実行可能なネイティブバイナリにコンパイルする「scriptc」公開",
-      "link": "https://codezine.jp/article/detail/29230",
-      "source": "CodeZine",
-      "published": "2026-08-04T23:00:00",
-      "excerpt": "TypeScriptを実行可能なネイティブバイナリにコンパイルする「scriptc」公開"
+      "title": "Zigbee 対 Matter over Thread:実際の IoT プロトコル パフォーマンスの理解",
+      "link": "https://arxiv.org/abs/2603.04221",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-05T00:10:37",
+      "excerpt": "記事の URL: https://arxiv.org/abs/2603.04221 コメント URL: https://news.ycombinator.com/item?id=49176983 ポイント: 5 コメント数: 1"
     },
     {
-      "title": "Azure DevOpsの「Commit Search」機能が正式リリース",
-      "link": "https://codezine.jp/article/detail/29229",
-      "source": "CodeZine",
-      "published": "2026-08-04T23:00:00",
-      "excerpt": "Azure DevOpsの「Commit Search」機能が正式リリース"
+      "title": "SpaceX、IPO後初の決算で売上高92％増　AI設備投資158億ドルで「2030年には年商1兆ドルに」とマスクCEO",
+      "link": "https://www.itmedia.co.jp/news/article/2608/05/2000000388/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-05T00:08:44",
+      "excerpt": "SpaceXはIPO後初となる2026年第2四半期決算を発表した。売上高は前年同期比92％増の78億1400万ドル、純損失は5億4100万ドルに改善した。xAIとの合併を経たAI事業の売上高が247％増と急成長を牽引。…"
     }
   ]
 }
