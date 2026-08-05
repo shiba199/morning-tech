@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-08-05T00:54:32",
+  "generated_at": "2026-08-05T03:52:26",
   "window_hours": 24,
-  "total": 238,
+  "total": 223,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。Kiro IDE、CLI、Web に別々に存在した 3 つのエージェントを、単一の Kiro エージェントハーネスに統合した過程を解説します。…",
+      "summary": "生成AIの新着が40件。DatabricksのAI関数とAI Searchを組み合わせて、S3のPDFに対するRAGパイプラインをSQLで構築する手順を紹介します。パース、チャンク化、埋め込み、検索、回答生成を一通り実装してみました。",
       "articles": [
+        {
+          "title": "DatabricksでS3にあるファイルに対してRAGを構築してみた",
+          "link": "https://dev.classmethod.jp/articles/databricks-rag-with-s3/",
+          "source": "DevelopersIO",
+          "published": "2026-08-05T03:30:26",
+          "excerpt": "DatabricksのAI関数とAI Searchを組み合わせて、S3のPDFに対するRAGパイプラインをSQLで構築する手順を紹介します。パース、チャンク化、埋め込み、検索、回答生成を一通り実装してみました。"
+        },
+        {
+          "title": "GitHub Copilot Cloud Agent、コメントから自動化実行に対応",
+          "link": "https://codezine.jp/article/detail/29236",
+          "source": "CodeZine",
+          "published": "2026-08-05T02:30:00",
+          "excerpt": "GitHub Copilot Cloud Agent、コメントから自動化実行に対応"
+        },
+        {
+          "title": "Google DeepMindがロボット向けモデル「Gemini Robotics ER 2」を公開",
+          "link": "https://codezine.jp/article/detail/29233",
+          "source": "CodeZine",
+          "published": "2026-08-05T01:00:00",
+          "excerpt": "Google DeepMindがロボット向けモデル「Gemini Robotics ER 2」を公開"
+        },
         {
           "title": "1 つのエージェントで、あらゆるクライアントに: Kiro エージェントハーネスをどう構築したか",
           "link": "https://aws.amazon.com/jp/blogs/news/one-agent/",
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-05T00:43:36",
           "excerpt": "Kiro IDE、CLI、Web に別々に存在した 3 つのエージェントを、単一の Kiro エージェントハーネスに統合した過程を解説します。…"
-        },
-        {
-          "title": "【アップデート】 AWS Config が Amazon Bedrock・SageMaker など 15 種類の新リソースタイプをサポートしました",
-          "link": "https://dev.classmethod.jp/articles/aws-config-15-new-resource-types-2026-08/",
-          "source": "DevelopersIO",
-          "published": "2026-08-05T00:41:43",
-          "excerpt": "AWS Config が Amazon Bedrock や Amazon SageMaker など 15 個の新しいリソースタイプに対応しました！利用している方は要チェックです！"
-        },
-        {
-          "title": "AI議事録「Rimo」はOpenAI、Anthropic時代にどう勝ち筋を描くか──元Google・相川氏が説く現代のプロダクト戦略",
-          "link": "https://codezine.jp/article/detail/29084",
-          "source": "CodeZine",
-          "published": "2026-08-05T00:00:00",
-          "excerpt": "AIエージェントが自律的にコードを書き、テストし、デプロイする。そんな光景が珍しくなくなるにつれ、エンジニアの主戦場は「どう作るか」から「何を作るか」へと移りつつある。…"
-        },
-        {
-          "title": "GitHub MCP のLockdown Modeでプロンプトインジェクションのリスクを下げる",
-          "link": "https://dev.classmethod.jp/articles/github-mcp-lockdown-verification/",
-          "source": "DevelopersIO",
-          "published": "2026-08-04T23:48:48",
-          "excerpt": "GitHub MCP Serverのロックダウンモード機能について、実際に動作を検証してみました。プロンプトインジェクション攻撃からの保護を目的とした機能がどのように機能するのか、その実装について紹介します。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が28件。前回の検証では /etc/hosts を使用していましたが、今回は Route 53 プライベートホストゾーンを活用して、別リージョンの EC2 インスタンスから EFS をマウントする方法を試してみました。…",
+      "summary": "クラウドの新着が24件。DatabricksのAI関数とAI Searchを組み合わせて、S3のPDFに対するRAGパイプラインをSQLで構築する手順を紹介します。パース、チャンク化、埋め込み、検索、回答生成を一通り実装してみました。",
       "articles": [
+        {
+          "title": "DatabricksでS3にあるファイルに対してRAGを構築してみた",
+          "link": "https://dev.classmethod.jp/articles/databricks-rag-with-s3/",
+          "source": "DevelopersIO",
+          "published": "2026-08-05T03:30:26",
+          "excerpt": "DatabricksのAI関数とAI Searchを組み合わせて、S3のPDFに対するRAGパイプラインをSQLで構築する手順を紹介します。パース、チャンク化、埋め込み、検索、回答生成を一通り実装してみました。"
+        },
+        {
+          "title": "AWS Batch と ECS Service は何が違うのか - Terraform で最小構成を作って理解する",
+          "link": "https://qiita.com/sugumura/items/db166669c5dba836871a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-05T03:21:00",
+          "excerpt": "はじめに 自社サービスの運用ですでに ECS を使っています。ただし用途は AWS Batch 経由のバッチ処理で、 Web サービスを常時稼働させる、いわゆる普通の ECS の使い方をしたことがありませんでした。…"
+        },
+        {
+          "title": "AWS VPC設計入門 CIDR・サブネット・ルートを最初に決める理由",
+          "link": "https://qiita.com/s_horikoshi/items/7e04600631c7143928be",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-05T01:16:18",
+          "excerpt": "はじめに AWSでVPCを作るとき、最初に出てくる 10.0.0.0/16 や /24 をなんとなく選んでいないでしょうか。VPCは、あとからアプリやDBを置くためのネットワークの土台です。…"
+        },
         {
           "title": "東京リージョンの EFS をバージニア北部リージョンの EC2 インスタンスから VPC ピアリング経由でマウントしてみた (Route 53 プライベートホストゾーン編)",
           "link": "https://dev.classmethod.jp/articles/efs-cross-region-with-route53-private-hosted-zone/",
           "source": "DevelopersIO",
           "published": "2026-08-05T00:30:23",
           "excerpt": "前回の検証では /etc/hosts を使用していましたが、今回は Route 53 プライベートホストゾーンを活用して、別リージョンの EC2 インスタンスから EFS をマウントする方法を試してみました。…"
-        },
-        {
-          "title": "GitLabからGitHub Enterprise Cloudへの移行機能、一般提供開始",
-          "link": "https://codezine.jp/article/detail/29232",
-          "source": "CodeZine",
-          "published": "2026-08-05T00:00:00",
-          "excerpt": "GitLabからGitHub Enterprise Cloudへの移行機能、一般提供開始"
-        },
-        {
-          "title": "Kiro CrewをAmazon Linux 2023のEC2で試してみた",
-          "link": "https://dev.classmethod.jp/articles/kiro-crew-remote-on-ec2/",
-          "source": "DevelopersIO",
-          "published": "2026-08-04T23:49:26",
-          "excerpt": "Kiro CrewをAmazon Linux 2023のAmazon EC2で動かし、SSHトンネル経由でローカルブラウザーからDashboardを利用してみました。…"
-        },
-        {
-          "title": "Spark Connect を使用して EC2 上の Amazon EMR でインタラクティブなワークロードを実行する",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-ec2-spark-connect/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-04T20:29:00",
-          "excerpt": "EC2 上の Amazon EMR は、Spark Connect を使用したインタラクティブな Apache Spark セッションをサポートするようになりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。BroadcomはVMware製品群に存在する5件の脆弱性を修正した。vCenterでは最高深刻度CVSS 9.8の認証回避や任意コード実行の欠陥が確認されている。回避策は用意されておらず、速やかなパッチ適用が求められる。",
+      "summary": "セキュリティの新着が14件。モデルはソーシャル エンジニアリングを使用し、モデル間で協力してセキュリティ上の課題を解決しました",
       "articles": [
+        {
+          "title": "AI 研究者はモデルを鎖から外し、FOSS プロジェクトにマルウェアを追加しようとする様子を観察しました",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/05/ai-researchers-let-models-off-the-leash-then-watched-as-they-tried-to-add-malware-to-a-foss-project/5283165",
+          "source": "The Register（英語）",
+          "published": "2026-08-05T01:55:54",
+          "excerpt": "モデルはソーシャル エンジニアリングを使用し、モデル間で協力してセキュリティ上の課題を解決しました"
+        },
         {
           "title": "VMware製品にCVSS 9.8の脆弱性、回避策なし　速やかなアップデートを推奨",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2608/05/news036.html",
@@ -99,20 +106,13 @@
           "source": "はてなブックマーク（テクノロジー）",
           "published": "2026-08-04T21:17:40",
           "excerpt": "Googleパスワードマネージャーに脆弱性、マルウェアでパスキー保護を突破可能に"
-        },
-        {
-          "title": "巨大製造企業のセキュリティ意識を変えよ　YKK APセキュリティ担当者の泥臭い“仕掛け”と“立ち回り”",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/05/news013.html",
-          "source": "@IT",
-          "published": "2026-08-04T20:00:00",
-          "excerpt": "セキュリティ施策の推進を阻む組織文化をどう変えるか。YKK APのセキュリティ担当者が、正論だけでは動かない組織を、意図的な演出や交渉術でどう動かしたかについて赤裸々に話した。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。異なるタイプのアイテムを1テーブルに集約し、GSI1本で「全ユーザー横断一覧」と「ID指定の直接取得」までカバーする設計を紹介する。…",
+      "summary": "データ分析の新着が6件。異なるタイプのアイテムを1テーブルに集約し、GSI1本で「全ユーザー横断一覧」と「ID指定の直接取得」までカバーする設計を紹介する。…",
       "articles": [
         {
           "title": "【DynamoDB】GSI1本で「横断一覧」と「ID検索」を両立するシングルテーブル設計",
@@ -147,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。GitLabからGitHub Enterprise Cloudへの移行機能、一般提供開始",
+      "summary": "開発ツールの新着が11件。はじめに 自社サービスの運用ですでに ECS を使っています。ただし用途は AWS Batch 経由のバッチ処理で、 Web サービスを常時稼働させる、いわゆる普通の ECS の使い方をしたことがありませんでした。…",
       "articles": [
+        {
+          "title": "AWS Batch と ECS Service は何が違うのか - Terraform で最小構成を作って理解する",
+          "link": "https://qiita.com/sugumura/items/db166669c5dba836871a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-05T03:21:00",
+          "excerpt": "はじめに 自社サービスの運用ですでに ECS を使っています。ただし用途は AWS Batch 経由のバッチ処理で、 Web サービスを常時稼働させる、いわゆる普通の ECS の使い方をしたことがありませんでした。…"
+        },
+        {
+          "title": "GitHub Copilot Cloud Agent、コメントから自動化実行に対応",
+          "link": "https://codezine.jp/article/detail/29236",
+          "source": "CodeZine",
+          "published": "2026-08-05T02:30:00",
+          "excerpt": "GitHub Copilot Cloud Agent、コメントから自動化実行に対応"
+        },
+        {
+          "title": "Amplify ホスティングでカスタムドメインの SSL 設定が AmplifyWaitTimeout で失敗するときの対処方法",
+          "link": "https://dev.classmethod.jp/articles/tsnote-amplify-custom-domain-ssl-setting-failure/",
+          "source": "DevelopersIO",
+          "published": "2026-08-05T01:43:33",
+          "excerpt": "Amplify ホスティングでカスタムドメイン設定時に「SSL 設定が失敗しました」というエラーが表示される場合、DNS レコードの設定不備が考えられます。"
+        },
         {
           "title": "GitLabからGitHub Enterprise Cloudへの移行機能、一般提供開始",
           "link": "https://codezine.jp/article/detail/29232",
           "source": "CodeZine",
           "published": "2026-08-05T00:00:00",
           "excerpt": "GitLabからGitHub Enterprise Cloudへの移行機能、一般提供開始"
-        },
-        {
-          "title": "GitHub MCP のLockdown Modeでプロンプトインジェクションのリスクを下げる",
-          "link": "https://dev.classmethod.jp/articles/github-mcp-lockdown-verification/",
-          "source": "DevelopersIO",
-          "published": "2026-08-04T23:48:48",
-          "excerpt": "GitHub MCP Serverのロックダウンモード機能について、実際に動作を検証してみました。プロンプトインジェクション攻撃からの保護を目的とした機能がどのように機能するのか、その実装について紹介します。"
-        },
-        {
-          "title": "GitHub、CopilotのコードレビューにおけるエージェントスキルとMCPサーバーの連携を正式リリース",
-          "link": "https://codezine.jp/article/detail/29228",
-          "source": "CodeZine",
-          "published": "2026-08-04T23:00:00",
-          "excerpt": "GitHub、CopilotのコードレビューにおけるエージェントスキルとMCPサーバーの連携を正式リリース"
-        },
-        {
-          "title": "[アップデート] OpenClaw 的な使い方を Kiro CLI で実現する「Kiro Crew」がリリースされたので触ってみた",
-          "link": "https://dev.classmethod.jp/articles/kiro-crew/",
-          "source": "DevelopersIO",
-          "published": "2026-08-04T21:52:07",
-          "excerpt": "Kiro CLIの上に構築されたオーケストレーション層「Kiro Crew」をmacOSにインストールして、Slack連携まで試してみました。セッション管理やメモリ、外部チャネル連携の仕組みを中心に紹介します。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS Summit Japan 2026 Day1 参加レポート　～初参加者・海外参加者へのアドバイス～",
-      "link": "https://qiita.com/steven-tandianus/items/534c79aea3c9813f0e6a",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-05T00:50:19",
-      "excerpt": "場所と時間: 2026年6月25日～26日 | 幕張メッセ はじめに 自己紹介 AWS Summitとは？基調講演 セッションノート ブース 終わりに 自己紹介 初めまして、株式会社TOKAIコミュニケーションズのステヴェンです。…"
+      "title": "Airbnb、プライバシーを最優先とするソーシャル機能を支援するため、コンテキスト認識型IDモデルを導入",
+      "link": "https://www.infoq.com/jp/news/2026/08/airbnb-privacy-identity-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ（日本語）",
+      "published": "2026-08-05T03:30:00",
+      "excerpt": "Airbnbは、「エクスペリエンス」における新たなソーシャル機能をサポートすると同時に、プラットフォーム全体でより強固なプライバシー境界を確立するため、再設計されたIDおよび接続モデルを導入した。…"
     },
     {
-      "title": "ブラウザの再起動は不要になる？　Chromeが模索する「週2リリース」と「無停止アップデート」",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/05/news027.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-08-05T00:15:00",
-      "excerpt": "Googleは「Google Chrome」のセキュリティ対策サイクル全般でAI活用を推進する。AIによる脆弱性の発見、自動修正やトリアージの高速化に加え、週2回リリースや再起動不要な無停止アップデートの検証を進める。"
+      "title": "【入社エントリ】Webメディア情シスから心機一転！攻めの情シスを目指して転職 | NIFTY engineering",
+      "link": "https://engineering.nifty.co.jp/blog/38145",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-05T02:45:00",
+      "excerpt": "はじめまして！基盤システム部 業務基盤グループ所属のhirabayashiと申します。2026年4月に入社し、OA機器管理・ヘルプデスクなどを担当しています。これまでのキャリア 前職ではWebメディア企業にて、情シスと […]…"
     },
     {
-      "title": "Zigbee 対 Matter over Thread:実際の IoT プロトコル パフォーマンスの理解",
-      "link": "https://arxiv.org/abs/2603.04221",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-05T00:10:37",
-      "excerpt": "記事の URL: https://arxiv.org/abs/2603.04221 コメント URL: https://news.ycombinator.com/item?id=49176983 ポイント: 5 コメント数: 1"
+      "title": "ネイティブモバイルアプリエンジニアのためのReact Native入門 | テラーノベル テックブログのフィード",
+      "link": "https://zenn.dev/tellernovel_inc/articles/61e89ab21ec867",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-05T02:41:51",
+      "excerpt": "こんにちは！テラーノベルでiOS/Android/Webとフロントエンド周りを担当している @kazutoyo です！…"
     },
     {
-      "title": "SpaceX、IPO後初の決算で売上高92％増　AI設備投資158億ドルで「2030年には年商1兆ドルに」とマスクCEO",
-      "link": "https://www.itmedia.co.jp/news/article/2608/05/2000000388/",
+      "title": "英AI研究所、評価中のAIが実在の開発者を標的に──偽アカウント使い悪意あるコードの承認迫る",
+      "link": "https://www.itmedia.co.jp/news/article/2608/05/2000000391/",
       "source": "ITmedia NEWS",
-      "published": "2026-08-05T00:08:44",
-      "excerpt": "SpaceXはIPO後初となる2026年第2四半期決算を発表した。売上高は前年同期比92％増の78億1400万ドル、純損失は5億4100万ドルに改善した。xAIとの合併を経たAI事業の売上高が247％増と急成長を牽引。…"
+      "published": "2026-08-05T02:39:27",
+      "excerpt": "英AI研究所のAISIは、AIエージェントの評価中に、実在の人物や組織に対してAIが継続的かつ不許可の行動を取るインシデントを検知したと発表した。…"
     }
   ]
 }
