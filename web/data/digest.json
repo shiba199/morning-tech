@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-08-06T12:23:52",
+  "generated_at": "2026-08-06T14:42:43",
   "window_hours": 24,
-  "total": 221,
+  "total": 227,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。別の週、別の企業が自社のモデルの1つが想定外の場所に到達した理由を説明した",
+      "summary": "生成AIの新着が37件。Claude Code v2.1.223がリリースされました。セキュリティ修正4件に加えて、/review の /code-review 統合やコンテキストウィンドウ制御の変更など、運用に影響する重要なアップデートが含まれています。",
       "articles": [
+        {
+          "title": "Claude Code v2.1.223 の主要アップデート - 権限バイパスの修正と /review の /code-review 統合",
+          "link": "https://dev.classmethod.jp/articles/20260806-cc-updates-v2-1-223/",
+          "source": "DevelopersIO",
+          "published": "2026-08-06T13:56:42",
+          "excerpt": "Claude Code v2.1.223がリリースされました。セキュリティ修正4件に加えて、/review の /code-review 統合やコンテキストウィンドウ制御の変更など、運用に影響する重要なアップデートが含まれています。"
+        },
+        {
+          "title": "人間は 40,000 回のゲーム実行で AI エージェントのコマンドを承認する脅威の 3 分の 1 を見逃しました",
+          "link": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-06T11:58:07",
+          "excerpt": "記事の URL: https://scalex.dev/blog/ai-agent-permissions-stats/ コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "Kiro Crew のアーキテクチャから学ぶ、永続型 AI エージェント基盤の設計",
+          "link": "https://zenn.dev/aws_japan/articles/dc2ee378f25adb",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-06T11:41:17",
+          "excerpt": "はじめに こんにちは konippi です。…"
+        },
         {
           "title": "メタが最新のAIエージェントがテストペンから出てきたことを世界に発表",
           "link": "https://www.theregister.com/ai-and-ml/2026/08/06/meta-latest-to-tell-world-its-ai-agent-wandered-out-of-test-pen/5283947",
           "source": "The Register（英語）",
           "published": "2026-08-06T10:24:04",
           "excerpt": "別の週、別の企業が自社のモデルの1つが想定外の場所に到達した理由を説明した"
-        },
-        {
-          "title": "AWS DevOps Agent のスキルを GitHub リポジトリからインポートしてみた",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-skill-import-from-github-repository/",
-          "source": "DevelopersIO",
-          "published": "2026-08-06T09:28:35",
-          "excerpt": "できました。ただしネイティブの GitHub 連携が必須。"
-        },
-        {
-          "title": "Claude Cowork はファイルサーバーのフォルダをアタッチできるのか試してみた",
-          "link": "https://zenn.dev/aws_japan/articles/aws-fsx-ontap-claude-cowork-fileserver",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-06T08:54:29",
-          "excerpt": "Claude Cowork はファイルサーバーのフォルダをアタッチできるのか試してみた こんにちは！AWS でソリューションアーキテクトをしている杉山です。Claude Cowork、使っていますか？…"
-        },
-        {
-          "title": "Bedrock AgentCoreで業務システム連携AIエージェント構築",
-          "link": "https://qiita.com/Mikeinu/items/24dbd36af25d57aa690e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-06T08:24:39",
-          "excerpt": "CodeXを使用して、多領域のお客様で利用可能なBedrock AgentCoreを使用したAIエージェントを作ってみた。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。はじめに Lambda のデプロイパッケージって、S3 バケットに置いてデプロイしていても、実はその裏で Lambda側 にコピーが作られていました。…",
+      "summary": "クラウドの新着が21件。はじめに 先日、DLsiteの音声作品について、現在価格やセール状況を確認できるサイト「声の価格」を公開しました。https://koenokakaku.…",
       "articles": [
+        {
+          "title": "【AWS】Lambdaの自己継続実行があっても、ECS/Fargateを選んだ理由と実装【個人開発】",
+          "link": "https://zenn.dev/koenokakaku/articles/8b4a9a7d58d67f",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-06T13:31:55",
+          "excerpt": "はじめに 先日、DLsiteの音声作品について、現在価格やセール状況を確認できるサイト「声の価格」を公開しました。https://koenokakaku.…"
+        },
         {
           "title": "Lambdaのコードを自分のS3バケットから直接参照できるようになったので、クォータを実測して確かめてみた",
           "link": "https://qiita.com/leomarokun/items/477ccd636a0dccf45bf8",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-06T08:00:10",
           "excerpt": "Amazon RDS のサーバー証明書を手動ローテーションする方法について、DB エンジンの対応状況と具体的な手順を紹介します。"
-        },
-        {
-          "title": "【検証】AWS Lambdaのセットアッププロンプトで出力はどう変わる? | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/aws-lambda-setup-prompt-output",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-06T07:55:51",
-          "excerpt": "はじめに 対象読者: AWSやClaude Codeにある程度慣れている方向け こんにちは。アプリケーションサービス部ディベロップメントサービス4課の眞柄です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。ESU メーターは 1 月に実行を開始します (IoT エディションを使用している場合を除く)",
+      "summary": "セキュリティの新着が11件。ESU メーターは 1 月に実行を開始します (IoT エディションを使用している場合を除く)",
       "articles": [
         {
           "title": "Windows 10 LTSC 2021 のセキュリティ更新に追加費用がかかるまであと 5 か月",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が10件。Amazon DynamoDB を運用データに使用しているアプリケーションの多くは、ベクトル類似性検索も必要と […]",
+      "summary": "データ分析の新着が9件。Amazon DynamoDB を運用データに使用しているアプリケーションの多くは、ベクトル類似性検索も必要と […]",
       "articles": [
         {
           "title": "Amazon DynamoDB のネイティブベクトルサポートでセマンティック検索を構築する",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。できました。ただしネイティブの GitHub 連携が必須。",
+      "summary": "開発ツールの新着が15件。はじめに 2026年8月4日に、Kiro Crew がGA（一般公開）されました。Kiro Crew は、Kiro CLI をエージェントエンジンとして使う、常駐型のエージェントワークスペースです。…",
       "articles": [
+        {
+          "title": "Kiro CrewがGAされたのでGitHub Codespaces上で試してみた ~installからチャット送信まで~",
+          "link": "https://qiita.com/yuuuka/items/112c27a2ccac9362ba59",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-06T12:55:44",
+          "excerpt": "はじめに 2026年8月4日に、Kiro Crew がGA（一般公開）されました。Kiro Crew は、Kiro CLI をエージェントエンジンとして使う、常駐型のエージェントワークスペースです。…"
+        },
         {
           "title": "AWS DevOps Agent のスキルを GitHub リポジトリからインポートしてみた",
           "link": "https://dev.classmethod.jp/articles/aws-devops-agent-skill-import-from-github-repository/",
@@ -169,45 +176,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-06T05:44:02",
           "excerpt": "AWS が公開している OSS Context Ontology Accelerator（以下 COA）を、自分の AWS アカウントにデプロイして触ってみました。…"
-        },
-        {
-          "title": "GitHub、CodeQLコードスキャンのカスタム設定適用を拡張",
-          "link": "https://codezine.jp/article/detail/29254",
-          "source": "CodeZine",
-          "published": "2026-08-06T05:30:00",
-          "excerpt": "GitHub、CodeQLコードスキャンのカスタム設定適用を拡張"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "IT 部門は従業員がログインできるようにラップトップに付箋を貼った",
-      "link": "https://www.theregister.com/security/2026/08/06/it-department-put-sticky-notes-on-the-laptops-to-help-employees-log-in/5283662",
+      "title": "ミッチェル・ハシモト氏が新会社「Superlogical」を設立、あらゆる仕事に使えるマルチプレクサの開発へ",
+      "link": "https://www.publickey1.jp/blog/26/superlogical.html",
+      "source": "Publickey",
+      "published": "2026-08-06T15:26:54",
+      "excerpt": "HashiCorpの共同創業者であり、同社を退社後は個人開発者としてターミナルソフト「Ghostty」の開発を進めていたミッチェル・ハシモト氏が、新会社［Superlogical」の設立を発表しました。I've started a...…"
+    },
+    {
+      "title": "Microsoft、MS 365 Copilot からドメイン除外を除外 - 導入から数日後",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/06/microsoft-excludes-domain-exclusion-from-ms-365-copilot-days-after-rolling-it-out/5284106",
       "source": "The Register（英語）",
-      "published": "2026-08-06T12:00:00",
-      "excerpt": "この情報を公開したままにすると、他人がアクセスできるようになります"
+      "published": "2026-08-06T14:34:00",
+      "excerpt": "おそらくドメインの許可リストの方が良いでしょうか?"
     },
     {
-      "title": "Snowflake のタグベースポリシーが集計・行アクセス・プロジェクション・結合ポリシーに対応(Public Preview)したので4種類まとめて試してみた",
-      "link": "https://dev.classmethod.jp/articles/snowflake-tag-based-policies-aggregation-row-access-projection-join/",
-      "source": "DevelopersIO",
-      "published": "2026-08-06T11:54:09",
-      "excerpt": "Snowflakeの4種類のポリシーがタグベース適用に対応しました。タグにポリシーを設定しておけば、タグ付与後のオブジェクトが自動で保護される仕組みです。…"
+      "title": "eBayは記録的な四半期を経てもライブショッピングに賭け続ける",
+      "link": "https://techcrunch.com/2026/08/06/ebay-continues-to-bet-on-live-shopping-after-record-quarter/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-06T14:17:46",
+      "excerpt": "eBayは、今後数週間から数カ月でより多くの国際市場に拡大する計画で、eBay Liveの総商品量の増加を宣伝した。"
     },
     {
-      "title": "アメリカ人は資本主義、社会主義、自由企業をどう見ているか",
-      "link": "https://news.gallup.com/poll/713144/americans-view-capitalism-socialism-free-enterprise.aspx",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-06T11:27:08",
-      "excerpt": "記事の URL: https://news.gallup.com/poll/713144/americans-view-capitalism-socialism-free-enterprise.…"
-    },
-    {
-      "title": "アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」　Microsoftがプレビュー公開",
-      "link": "https://www.itmedia.co.jp/news/article/2608/06/2000000434/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-06T10:54:46",
-      "excerpt": "米Microsoftが、Windowsアプリケーションが遅くなる原因の調査分析をAIに依頼できるツール「Windows Performance Analyzer MCP」（WPA MCP）のアーリープレビューを発表しました。"
+      "title": "スノーフレーク恐喝者、被害者165人のクラウド犯罪を認め、1人の標的を2回圧迫",
+      "link": "https://www.theregister.com/storage/2026/08/06/snowflake-extortionist-admits-165-victim-cloud-crime-spree-and-squeezing-one-target-twice/5284059",
+      "source": "The Register（英語）",
+      "published": "2026-08-06T14:00:00",
+      "excerpt": "コナー・ムーカ、数十億件の記録を略奪した大規模な2024年のキャンペーンで有罪を認める"
     }
   ]
 }
