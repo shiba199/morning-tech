@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-08-06T01:22:42",
+  "generated_at": "2026-08-06T04:37:04",
   "window_hours": 24,
-  "total": 230,
+  "total": 236,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が34件。NeMo Relay でエージェント実行の内部を可視化してみました。トークン数とコストを正確に把握するには、出口ごとの取れるデータの違いを先に知っておく必要があります。",
+      "summary": "生成AIの新着が34件。それは「不可能なタスク」から始まり、AI が集合知として機能する必要があると判断するに至った",
       "articles": [
         {
-          "title": "NVIDIA のエージェント実行ランタイム NeMo Relay を試してみた",
-          "link": "https://dev.classmethod.jp/articles/nvidia-nemo-relay-first-touch/",
+          "title": "OpenAI、不正エージェントの群れがハグフェイスハッキングよりも少し先んじて行動していたことを明らかに",
+          "link": "https://www.theregister.com/security/2026/08/06/openai-reveals-its-rogue-agent-swarm-went-a-little-bit-borg-ahead-of-hugging-face-hack/5283741",
+          "source": "The Register（英語）",
+          "published": "2026-08-06T01:47:19",
+          "excerpt": "それは「不可能なタスク」から始まり、AI が集合知として機能する必要があると判断するに至った"
+        },
+        {
+          "title": "LLM は対称暗号を解読しない",
+          "link": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-06T01:39:06",
+          "excerpt": "記事の URL: https://www.bfswa.blog/p/llms-wont-break-metric-crypto コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "Claude CodeとCoworkの会話ログをOpenTelemetryでGoogle Cloudに集約する構成をTerraformで構築してみた",
+          "link": "https://dev.classmethod.jp/articles/2026-08-06-claude-code-cowork-otel-gcp-terraform/",
           "source": "DevelopersIO",
-          "published": "2026-08-06T00:29:47",
-          "excerpt": "NeMo Relay でエージェント実行の内部を可視化してみました。トークン数とコストを正確に把握するには、出口ごとの取れるデータの違いを先に知っておく必要があります。"
+          "published": "2026-08-06T01:23:22",
+          "excerpt": "Claude CodeとCoworkのOTelテレメトリをGoogle Cloud上で受信・可視化する基盤をTerraformで構築し、プロンプト全文記録・システムプロンプト取得・長文切り詰めの挙動まで検証しました！"
         },
         {
-          "title": "InspectorのSSMエージェントは維持しつつSession Manager接続だけ塞ぐ、正しいIAM設計",
-          "link": "https://qiita.com/MikuMatsuo/items/9285414f8612816bbebb",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-06T00:05:18",
-          "excerpt": "本記事は、BIPROGY / ユニアデックス社内AWSコミュニティ「BIPROGY AWS SPARK」の定期投稿企画第9回目の記事です。他の定期投稿企画の記事は、AWS Sparkブログリレーを始めます！…"
-        },
-        {
-          "title": "ステージングエリアは開発者を成長させるための“ジム”、AI成果提出の場にしないで！ ―GKH、drivers/staging/でのAI/LLM作成パッチの受け入れを却下へ",
-          "link": "https://gihyo.jp/article/2026/08/daily-linux-260806?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-06T00:05:00",
-          "excerpt": "Linuxカーネル開発の古参メンテナーとして知られるGreg Kroah-Hartman（GKH）は8月3日、自身が管理するdrivers/staging/サブシステムにおいて、AI/LLMで作成されたパッチは原則受け入れない方針としたこと…"
-        },
-        {
-          "title": "【SQL講座②】データマネジメント試験（仮称）のサンプル問題で学ぶ「外部結合」と「COALESCE関数」 | Agent Grow Tech Notesのフィード",
-          "link": "https://zenn.dev/agent_grow/articles/b99fc6545278d6",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-05T23:00:06",
-          "excerpt": "はじめに2026/6/22に、IPAより新制度試験のうちデータマネジメント試験のサンプル問題が公開されました。…"
+          "title": "Meta は新しいコーディング エージェントを使って端末内に侵入しようとしています",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/06/meta-wants-to-get-inside-your-terminal-with-its-new-coding-agent/5283717",
+          "source": "The Register（英語）",
+          "published": "2026-08-06T01:05:46",
+          "excerpt": "Muse Code は Muse Spark の新鮮なソフトウェア エンジニアリングの技術を紹介します"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。はじめに Laravelで、必要なときだけ重い処理を裏側で走らせたいことがある。頻度的にQueueワーカーを常駐させるほどではなく、かといってWebリクエストの中で同期実行するとPHP-FPMやALBのタイムアウトに引っかかる。…",
+      "summary": "クラウドの新着が17件。サービスを公開したばかり。利用者はまだ数人。それなのに、毎月届くAWSの請求書を見るたびに、 「この固定費、結構痛いな…。」 そう感じたことはありませんか？私たちもRe:Linkの開発当初は、まさにその状態でした。…",
       "articles": [
+        {
+          "title": "スタートアップ時にAWSで最初にやるべきコスト削減のための設計① ～ AuroraからDynamoDBへの大きな路線変更 ～",
+          "link": "https://qiita.com/lscrfts_info/items/66ccbaefe906070d47d3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-06T03:26:09",
+          "excerpt": "サービスを公開したばかり。利用者はまだ数人。それなのに、毎月届くAWSの請求書を見るたびに、 「この固定費、結構痛いな…。」 そう感じたことはありませんか？私たちもRe:Linkの開発当初は、まさにその状態でした。…"
+        },
         {
           "title": "ECS RunTaskをLaravelから使うときの環境差分とタイムアウト対策",
           "link": "https://qiita.com/st-man-hori/items/e6649ce32db580f9bf15",
@@ -64,56 +71,56 @@
           "source": "AWS What's New（英語）",
           "published": "2026-08-05T21:35:00",
           "excerpt": "AWS Lambda は、Lambda 関数のスケーラブルなネットワーク帯域幅をサポートするようになり、レイテンシの影響を受けやすいワークロードの実行環境との間でのより高速なデータ転送が可能になります。…"
-        },
-        {
-          "title": "AWS EC2を毎日18時に自動停止する EventBridge Scheduler設定手順",
-          "link": "https://qiita.com/s_horikoshi/items/e24252fd4b4b6b83680a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-05T20:56:59",
-          "excerpt": "はじめに 検証用のEC2を作ったあと、つい停止し忘れることがあります。1台なら金額は小さく見えても、検証環境が増えると地味に効きます。さらに、チームで使う環境では「誰が止めるのか」が曖昧になりがちです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。本記事は、BIPROGY / ユニアデックス社内AWSコミュニティ「BIPROGY AWS SPARK」の定期投稿企画第9回目の記事です。他の定期投稿企画の記事は、AWS Sparkブログリレーを始めます！…",
+      "summary": "セキュリティの新着が16件。はじめに ── その\"隠したつもり\"が、命取りになる 数年前の私は、パスワードを自作の「MD5 + 固定ソルト」で保存して、「平文じゃないから安全」と本気で思っていました。しかも API キーや DB パスワードは .…",
       "articles": [
         {
-          "title": "InspectorのSSMエージェントは維持しつつSession Manager接続だけ塞ぐ、正しいIAM設計",
-          "link": "https://qiita.com/MikuMatsuo/items/9285414f8612816bbebb",
+          "title": "MD5で保存したパスワードは一瞬で平文に戻る ── 暗号・シークレット管理の急所",
+          "link": "https://qiita.com/amu-kuroneko/items/96b8949d6efc767fee3c",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-06T00:05:18",
-          "excerpt": "本記事は、BIPROGY / ユニアデックス社内AWSコミュニティ「BIPROGY AWS SPARK」の定期投稿企画第9回目の記事です。他の定期投稿企画の記事は、AWS Sparkブログリレーを始めます！…"
+          "published": "2026-08-06T02:56:47",
+          "excerpt": "はじめに ── その\"隠したつもり\"が、命取りになる 数年前の私は、パスワードを自作の「MD5 + 固定ソルト」で保存して、「平文じゃないから安全」と本気で思っていました。しかも API キーや DB パスワードは .…"
         },
         {
-          "title": "Anthropic の AI は、GitHub プロジェクトに対する不正な攻撃で偽の ID とマルウェアを使用しました",
-          "link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-08-05T20:47:11",
-          "excerpt": "Anthropic モデルと OpenAI モデルの予期せぬ行動により、英国のサイバー テストは停止に追い込まれました。"
+          "title": "Django、複数の重要な脆弱性を修正した6.0.8および5.2.17を公開",
+          "link": "https://codezine.jp/article/detail/29251",
+          "source": "CodeZine",
+          "published": "2026-08-06T02:30:00",
+          "excerpt": "Django、複数の重要な脆弱性を修正した6.0.8および5.2.17を公開"
         },
         {
-          "title": "npm代替を目指すセキュリティファーストなパッケージマネージャ「vlt」バージョン1.0に到達。npmのミラーレジストリ、プライベートレジストリも提供開始",
-          "link": "https://www.publickey1.jp/blog/26/npmvlt10npm.html",
-          "source": "Publickey",
-          "published": "2026-08-05T18:03:20",
-          "excerpt": "npmに代わる新しいJavaScriptのパッケージシステム「vlt」（vōlt：ボールト）を開発しているvlt technologyは、npm互換のパッケージマネージャ「vlt」がバージョン1.0に到達したことを発表しました。あわせてn.…"
+          "title": "IAMロールにスイッチロールできるIAMユーザをタグで絞り込みしてみた",
+          "link": "https://dev.classmethod.jp/articles/iam-switch-role-tag-control/",
+          "source": "DevelopersIO",
+          "published": "2026-08-06T01:52:09",
+          "excerpt": "IAMユーザに付与したタグを使ってスイッチロール可能なIAMユーザを制御する方法を試してみました。複数のIAMユーザで同じAWSアカウントにアクセスする場合、IAMロール毎にユーザ管理を行う手間を削減できる手法についてご紹介します。"
         },
         {
-          "title": "AWS IAM Identity Center により、新しい組織インスタンスの AWS アカウント アクセスの管理がオプションに",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-identity-center-accounts-optional/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-05T15:12:00",
-          "excerpt": "AWS IAM Identity Center では、新しい組織インスタンスを作成するときに AWS アカウント アクセスの管理を有効にするかどうかを決定できるようになりました。…"
+          "title": "LLM は対称暗号を解読しない",
+          "link": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-06T01:39:06",
+          "excerpt": "記事の URL: https://www.bfswa.blog/p/llms-wont-break-metric-crypto コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が12件。GitHub、「Copilot Billing Preview」を8月4日に廃止",
+      "summary": "データ分析の新着が13件。サービスを公開したばかり。利用者はまだ数人。それなのに、毎月届くAWSの請求書を見るたびに、 「この固定費、結構痛いな…。」 そう感じたことはありませんか？私たちもRe:Linkの開発当初は、まさにその状態でした。…",
       "articles": [
+        {
+          "title": "スタートアップ時にAWSで最初にやるべきコスト削減のための設計① ～ AuroraからDynamoDBへの大きな路線変更 ～",
+          "link": "https://qiita.com/lscrfts_info/items/66ccbaefe906070d47d3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-06T03:26:09",
+          "excerpt": "サービスを公開したばかり。利用者はまだ数人。それなのに、毎月届くAWSの請求書を見るたびに、 「この固定費、結構痛いな…。」 そう感じたことはありませんか？私たちもRe:Linkの開発当初は、まさにその状態でした。…"
+        },
         {
           "title": "GitHub、「Copilot Billing Preview」を8月4日に廃止",
           "link": "https://codezine.jp/article/detail/29252",
@@ -134,80 +141,73 @@
           "source": "Ars Technica（英語）",
           "published": "2026-08-05T19:38:56",
           "excerpt": "スペースXは大規模な携帯電話基地局を建設するつもりはないが、米国全土に小規模な基地局を計画している。"
-        },
-        {
-          "title": "AWS Glue Data Quality により ETL 異常検出が無料になり、異常予測が向上します",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-quality-anomaly-detection-free",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-05T18:25:00",
-          "excerpt": "AWS Glue Data Quality では、誤った異常の検出を減らし、ETL ジョブでの異常検出の料金を廃止する新しい観察モードにより、改善された異常検出が提供されるようになりました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。GitHub、「Copilot Billing Preview」を8月4日に廃止",
+      "summary": "開発ツールの新着が14件。Microsoftは、「Visual Studio Code」における「GitHub Copilot」のエージェントハーネスのトークン効率向上の成果を紹介した。",
       "articles": [
+        {
+          "title": "トークンコストを10分の1に　「GitHub Copilot」はどう削減したのか",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/06/news050.html",
+          "source": "@IT",
+          "published": "2026-08-06T04:00:00",
+          "excerpt": "Microsoftは、「Visual Studio Code」における「GitHub Copilot」のエージェントハーネスのトークン効率向上の成果を紹介した。"
+        },
+        {
+          "title": "GitHub Actions Runner を手元の MacBook Pro で動かす話",
+          "link": "https://dev.classmethod.jp/articles/self-hosted-runner-with-mbp/",
+          "source": "DevelopersIO",
+          "published": "2026-08-06T02:58:39",
+          "excerpt": "AIがコード量を増やしたことで、CIのe2eテスト実行時間が悩みの種になってしまいました。…"
+        },
+        {
+          "title": "Claude CodeとCoworkの会話ログをOpenTelemetryでGoogle Cloudに集約する構成をTerraformで構築してみた",
+          "link": "https://dev.classmethod.jp/articles/2026-08-06-claude-code-cowork-otel-gcp-terraform/",
+          "source": "DevelopersIO",
+          "published": "2026-08-06T01:23:22",
+          "excerpt": "Claude CodeとCoworkのOTelテレメトリをGoogle Cloud上で受信・可視化する基盤をTerraformで構築し、プロンプト全文記録・システムプロンプト取得・長文切り詰めの挙動まで検証しました！"
+        },
         {
           "title": "GitHub、「Copilot Billing Preview」を8月4日に廃止",
           "link": "https://codezine.jp/article/detail/29252",
           "source": "CodeZine",
           "published": "2026-08-06T01:00:00",
           "excerpt": "GitHub、「Copilot Billing Preview」を8月4日に廃止"
-        },
-        {
-          "title": "CloudFormation スタック削除後に Lambda が作成した ENI 残り続ける場合の原因と対処方法",
-          "link": "https://dev.classmethod.jp/articles/tsnote-cloudformation-lambda-stuck/",
-          "source": "DevelopersIO",
-          "published": "2026-08-05T23:46:56",
-          "excerpt": "Lambda 関数削除後、ENI が自動削除されずに残存する状態について、原因と対応方法をまとめました。"
-        },
-        {
-          "title": "GitHub Spark、新規ユーザーの受け入れを停止し8月にサービス終了へ",
-          "link": "https://codezine.jp/article/detail/29249",
-          "source": "CodeZine",
-          "published": "2026-08-05T23:00:00",
-          "excerpt": "GitHub Spark、新規ユーザーの受け入れを停止し8月にサービス終了へ"
-        },
-        {
-          "title": "Amazon DynamoDBの新機能「ベクトルデータサポート」をCLIで試してみた",
-          "link": "https://dev.classmethod.jp/articles/dynamodb-realtime-vector-search/",
-          "source": "DevelopersIO",
-          "published": "2026-08-05T22:18:07",
-          "excerpt": "Amazon DynamoDBのベクトルデータサポートがGAになりました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "アンケートの「声が小さい」の一言から始まった、登壇・配信環境改善の2年間をまとめてみた",
-      "link": "https://dev.classmethod.jp/articles/event-streaming-2years/",
+      "title": "DGX Spark 1 台で 2.8T の Kimi K3 を動かしてみた",
+      "link": "https://dev.classmethod.jp/articles/dgx-spark-pulsar-ssd-expert-streaming/",
       "source": "DevelopersIO",
-      "published": "2026-08-06T01:12:59",
-      "excerpt": "イベント登壇の内容は素晴らしいのに、音声が小さくて評価が下がってしまう——そんな「もったいない」を感じたことから始まった、2年8か月の登壇・配信環境整備の歩みをご紹介します。…"
+      "published": "2026-08-06T04:24:09",
+      "excerpt": "DGX Spark の統合メモリ 121 GiB という壁を超えるため、Pulsar という SSD ストリーミング推論エンジンを試してみました。2.8 兆パラメータの Kimi K3 が動くには動きました:)"
     },
     {
-      "title": "Node.js 24.19.0（LTS）がリリース、BufferやTLSなど各種機能を強化",
-      "link": "https://codezine.jp/article/detail/29250",
+      "title": "「プチプチ」の川上産業、「プチプチ株式会社」に社名変更　創業58年で",
+      "link": "https://www.itmedia.co.jp/news/article/2608/06/2000000419/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-06T04:19:49",
+      "excerpt": "創業58年で初の社名変更という。"
+    },
+    {
+      "title": "Microsoft Fabric の SharePoint Online ショートカット機能とは | JBS Tech Blog",
+      "link": "https://blog.jbs.co.jp/entry/2026/08/06/130219",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-06T04:02:19",
+      "excerpt": "Microsoft Fabric は、データの収集・変換・分析・可視化を統合した企業向けの SaaS（Software as a Service）型プラットフォームです。…"
+    },
+    {
+      "title": "Next.js 16.3が正式リリース、開発環境の軽量化や高速化を実現",
+      "link": "https://codezine.jp/article/detail/29253",
       "source": "CodeZine",
-      "published": "2026-08-06T00:00:00",
-      "excerpt": "Node.js 24.19.0（LTS）がリリース、BufferやTLSなど各種機能を強化"
-    },
-    {
-      "title": "PR数1.6倍、変更行数1.8倍、平均マージ時間37%削減──ABEMAが進めるAI駆動開発の現在地",
-      "link": "https://codezine.jp/article/detail/29068",
-      "source": "CodeZine",
-      "published": "2026-08-06T00:00:00",
-      "excerpt": "生成AIを導入する企業は増えたが、成果に結びつく組織とそうでない組織の差はどこから生まれるのか。サイバーエージェントでは今年、社内各組織のAI活用度を相撲の番付になぞらえて測定した。…"
-    },
-    {
-      "title": "スマホ新法時代で変わる配信エコシステム。代替えストアの現在",
-      "link": "https://gihyo.jp/article/2026/07/android-weekly-topics-260806?utm_source=feed",
-      "source": "gihyo.jp 開発",
-      "published": "2026-08-05T23:55:00",
-      "excerpt": "今回は、Android 14から導入された技術的な改善に触れつつ、サードパーティアプリストアの最新動向と開発者へ与える影響を紹介します。"
+      "published": "2026-08-06T04:00:00",
+      "excerpt": "Next.js 16.3が正式リリース、開発環境の軽量化や高速化を実現"
     }
   ]
 }
