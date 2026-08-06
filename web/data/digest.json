@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-06T10:25:29",
+  "generated_at": "2026-08-06T12:23:52",
   "window_hours": 24,
-  "total": 234,
+  "total": 221,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。できました。ただしネイティブの GitHub 連携が必須。",
+      "summary": "生成AIの新着が36件。別の週、別の企業が自社のモデルの1つが想定外の場所に到達した理由を説明した",
       "articles": [
+        {
+          "title": "メタが最新のAIエージェントがテストペンから出てきたことを世界に発表",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/06/meta-latest-to-tell-world-its-ai-agent-wandered-out-of-test-pen/5283947",
+          "source": "The Register（英語）",
+          "published": "2026-08-06T10:24:04",
+          "excerpt": "別の週、別の企業が自社のモデルの1つが想定外の場所に到達した理由を説明した"
+        },
         {
           "title": "AWS DevOps Agent のスキルを GitHub リポジトリからインポートしてみた",
           "link": "https://dev.classmethod.jp/articles/aws-devops-agent-skill-import-from-github-repository/",
@@ -29,21 +36,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-06T08:24:39",
           "excerpt": "CodeXを使用して、多領域のお客様で利用可能なBedrock AgentCoreを使用したAIエージェントを作ってみた。…"
-        },
-        {
-          "title": "【検証】AWS Lambdaのセットアッププロンプトで出力はどう変わる? | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/aws-lambda-setup-prompt-output",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-06T07:55:51",
-          "excerpt": "はじめに 対象読者: AWSやClaude Codeにある程度慣れている方向け こんにちは。アプリケーションサービス部ディベロップメントサービス4課の眞柄です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。Amazon RDS のサーバー証明書を手動ローテーションする方法について、DB エンジンの対応状況と具体的な手順を紹介します。",
+      "summary": "クラウドの新着が20件。はじめに Lambda のデプロイパッケージって、S3 バケットに置いてデプロイしていても、実はその裏で Lambda側 にコピーが作られていました。…",
       "articles": [
+        {
+          "title": "Lambdaのコードを自分のS3バケットから直接参照できるようになったので、クォータを実測して確かめてみた",
+          "link": "https://qiita.com/leomarokun/items/477ccd636a0dccf45bf8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-06T10:26:56",
+          "excerpt": "はじめに Lambda のデプロイパッケージって、S3 バケットに置いてデプロイしていても、実はその裏で Lambda側 にコピーが作られていました。…"
+        },
+        {
+          "title": "Innovative Crosstalk Jamboree Geeks’26に参加・登壇してきました！ | SmartHR Tech Blog",
+          "link": "https://tech.smarthr.jp/entry/2026/08/06/183011",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-06T09:30:11",
+          "excerpt": "こんにちは！SmartHRの業務連携基盤ユニットでプロダクトエンジニアをしているいとじゅんです！SmartHRの新卒1期生として2026年に入社しました。…"
+        },
         {
           "title": "Amazon RDS の DB サーバー証明書は手動でローテーションできますか",
           "link": "https://dev.classmethod.jp/articles/tsnote-rds-certificate-rotation/",
@@ -57,28 +71,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-06T07:55:51",
           "excerpt": "はじめに 対象読者: AWSやClaude Codeにある程度慣れている方向け こんにちは。アプリケーションサービス部ディベロップメントサービス4課の眞柄です。…"
-        },
-        {
-          "title": "KiroCrew公式DockerイメージをEC2で動かしてTailscale経由の接続を試してみた",
-          "link": "https://dev.classmethod.jp/articles/kiro-crew-docker-tailscale-ec2/",
-          "source": "DevelopersIO",
-          "published": "2026-08-06T06:38:41",
-          "excerpt": "前回EC2上に直接インストールしたKiroCrewを、Dockerコンテナを隔離境界として運用し、Tailscale Serve経由でtailnet内からアクセスできる構成を試しました。…"
-        },
-        {
-          "title": "SSTで学ぶAWSインフラとOAuth",
-          "link": "https://zenn.dev/anton072/articles/6ae3f1cdf9111e",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-06T05:14:37",
-          "excerpt": "100%HUMAN MADEの記事です。引き続きMCPサーバーを開発した学びのメモです。いつもなら個人開発のインフラはCloudflareを利用するのですが、業務での利用を禁じられているため、今回はAWSでの構築にチャレンジしてみました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。Anthropicは、「Claude Tag」における「エージェントアイデンティティー」アクセスモデルの仕組みと、チームのワークスペースでこれを構成する際のベストプラクティスを解説したブログ記事を公開した。",
+      "summary": "セキュリティの新着が12件。ESU メーターは 1 月に実行を開始します (IoT エディションを使用している場合を除く)",
       "articles": [
+        {
+          "title": "Windows 10 LTSC 2021 のセキュリティ更新に追加費用がかかるまであと 5 か月",
+          "link": "https://www.theregister.com/os-platforms/2026/08/06/windows-10-ltsc-2021-has-five-months-before-security-updates-cost-extra/5283904",
+          "source": "The Register（英語）",
+          "published": "2026-08-06T11:03:00",
+          "excerpt": "ESU メーターは 1 月に実行を開始します (IoT エディションを使用している場合を除く)"
+        },
         {
           "title": "「1人1AI」のアプローチは破綻する――チームでAI共有時のセキュリティ問題を解決するベストプラクティス",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/07/news022.html",
@@ -99,20 +106,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-06T02:56:47",
           "excerpt": "はじめに ── その\"隠したつもり\"が、命取りになる 数年前の私は、パスワードを自作の「MD5 + 固定ソルト」で保存して、「平文じゃないから安全」と本気で思っていました。しかも API キーや DB パスワードは .…"
-        },
-        {
-          "title": "Django、複数の重要な脆弱性を修正した6.0.8および5.2.17を公開",
-          "link": "https://codezine.jp/article/detail/29251",
-          "source": "CodeZine",
-          "published": "2026-08-06T02:30:00",
-          "excerpt": "Django、複数の重要な脆弱性を修正した6.0.8および5.2.17を公開"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が11件。Amazon DynamoDB を運用データに使用しているアプリケーションの多くは、ベクトル類似性検索も必要と […]",
+      "summary": "データ分析の新着が10件。Amazon DynamoDB を運用データに使用しているアプリケーションの多くは、ベクトル類似性検索も必要と […]",
       "articles": [
         {
           "title": "Amazon DynamoDB のネイティブベクトルサポートでセマンティック検索を構築する",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。できました。ただしネイティブの GitHub 連携が必須。",
+      "summary": "開発ツールの新着が14件。できました。ただしネイティブの GitHub 連携が必須。",
       "articles": [
         {
           "title": "AWS DevOps Agent のスキルを GitHub リポジトリからインポートしてみた",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "News Corp、一部のAI企業を「ひどい窃盗犯」とレッテルを貼る",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/06/news-corp-labels-some-ai-companies-crass-kleptomaniacs/5283848",
+      "title": "IT 部門は従業員がログインできるようにラップトップに付箋を貼った",
+      "link": "https://www.theregister.com/security/2026/08/06/it-department-put-sticky-notes-on-the-laptops-to-help-employees-log-in/5283662",
       "source": "The Register（英語）",
-      "published": "2026-08-06T09:30:00",
-      "excerpt": "OpenAI や Meta などのコンテンツが「原則的」で「名誉ある」ものになるために料金を支払います。"
+      "published": "2026-08-06T12:00:00",
+      "excerpt": "この情報を公開したままにすると、他人がアクセスできるようになります"
     },
     {
-      "title": "Cloudflare社は、決定論的実行と同時に5万件のワークフローを並行実行できるWorkflows V2を発表",
-      "link": "https://www.infoq.com/jp/news/2026/08/cloudflare-workflows-v2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ（日本語）",
-      "published": "2026-08-06T09:30:00",
-      "excerpt": "Cloudflare社は、同社の開発者プラットフォーム上で分散アプリケーション向けの状態を保持する複数ステップのワークフローを統合管理するための、更新された実行モデルであるWorkflows V2を導入した。…"
+      "title": "Snowflake のタグベースポリシーが集計・行アクセス・プロジェクション・結合ポリシーに対応(Public Preview)したので4種類まとめて試してみた",
+      "link": "https://dev.classmethod.jp/articles/snowflake-tag-based-policies-aggregation-row-access-projection-join/",
+      "source": "DevelopersIO",
+      "published": "2026-08-06T11:54:09",
+      "excerpt": "Snowflakeの4種類のポリシーがタグベース適用に対応しました。タグにポリシーを設定しておけば、タグ付与後のオブジェクトが自動で保護される仕組みです。…"
     },
     {
-      "title": "写真加工アプリ「SNOW」にステマで措置命令　報酬付きでX投稿依頼、広告表示なし　消費者庁",
-      "link": "https://www.itmedia.co.jp/news/article/2608/06/2000000428/",
+      "title": "アメリカ人は資本主義、社会主義、自由企業をどう見ているか",
+      "link": "https://news.gallup.com/poll/713144/americans-view-capitalism-socialism-free-enterprise.aspx",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-06T11:27:08",
+      "excerpt": "記事の URL: https://news.gallup.com/poll/713144/americans-view-capitalism-socialism-free-enterprise.…"
+    },
+    {
+      "title": "アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」　Microsoftがプレビュー公開",
+      "link": "https://www.itmedia.co.jp/news/article/2608/06/2000000434/",
       "source": "ITmedia NEWS",
-      "published": "2026-08-06T09:25:55",
-      "excerpt": "消費者庁は8月6日、写真加工アプリ「SNOW」を運営する韓国企業と日本法人の2社に対し、広告と明示しないX投稿を第三者に依頼していたとして、景品表示法に基づく措置命令を出した。"
-    },
-    {
-      "title": "熊本地震で地面がずれた場所、35kmの線状に　衛星データで「変位境界」を判読　国土地理院",
-      "link": "https://www.itmedia.co.jp/news/article/2608/06/2000000422/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-06T09:13:06",
-      "excerpt": "国土地理院は8月5日、地球観測衛星「だいち2号」「だいち4号」のレーダーデータを解析し、令和8年熊本地震に伴って地表のずれが生じたとみられる境界（変位境界）を約35kmにわたり判読したと発表した。…"
+      "published": "2026-08-06T10:54:46",
+      "excerpt": "米Microsoftが、Windowsアプリケーションが遅くなる原因の調査分析をAIに依頼できるツール「Windows Performance Analyzer MCP」（WPA MCP）のアーリープレビューを発表しました。"
     }
   ]
 }
