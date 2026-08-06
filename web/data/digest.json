@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-08-05T23:45:41",
+  "generated_at": "2026-08-06T01:22:42",
   "window_hours": 24,
-  "total": 237,
+  "total": 230,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。はじめに2026/6/22に、IPAより新制度試験のうちデータマネジメント試験のサンプル問題が公開されました。…",
+      "summary": "生成AIの新着が34件。NeMo Relay でエージェント実行の内部を可視化してみました。トークン数とコストを正確に把握するには、出口ごとの取れるデータの違いを先に知っておく必要があります。",
       "articles": [
+        {
+          "title": "NVIDIA のエージェント実行ランタイム NeMo Relay を試してみた",
+          "link": "https://dev.classmethod.jp/articles/nvidia-nemo-relay-first-touch/",
+          "source": "DevelopersIO",
+          "published": "2026-08-06T00:29:47",
+          "excerpt": "NeMo Relay でエージェント実行の内部を可視化してみました。トークン数とコストを正確に把握するには、出口ごとの取れるデータの違いを先に知っておく必要があります。"
+        },
+        {
+          "title": "InspectorのSSMエージェントは維持しつつSession Manager接続だけ塞ぐ、正しいIAM設計",
+          "link": "https://qiita.com/MikuMatsuo/items/9285414f8612816bbebb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-06T00:05:18",
+          "excerpt": "本記事は、BIPROGY / ユニアデックス社内AWSコミュニティ「BIPROGY AWS SPARK」の定期投稿企画第9回目の記事です。他の定期投稿企画の記事は、AWS Sparkブログリレーを始めます！…"
+        },
+        {
+          "title": "ステージングエリアは開発者を成長させるための“ジム”、AI成果提出の場にしないで！ ―GKH、drivers/staging/でのAI/LLM作成パッチの受け入れを却下へ",
+          "link": "https://gihyo.jp/article/2026/08/daily-linux-260806?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-08-06T00:05:00",
+          "excerpt": "Linuxカーネル開発の古参メンテナーとして知られるGreg Kroah-Hartman（GKH）は8月3日、自身が管理するdrivers/staging/サブシステムにおいて、AI/LLMで作成されたパッチは原則受け入れない方針としたこと…"
+        },
         {
           "title": "【SQL講座②】データマネジメント試験（仮称）のサンプル問題で学ぶ「外部結合」と「COALESCE関数」 | Agent Grow Tech Notesのフィード",
           "link": "https://zenn.dev/agent_grow/articles/b99fc6545278d6",
           "source": "企業テックブログまとめ",
           "published": "2026-08-05T23:00:06",
           "excerpt": "はじめに2026/6/22に、IPAより新制度試験のうちデータマネジメント試験のサンプル問題が公開されました。…"
-        },
-        {
-          "title": "Google、AIブラウザ「Disco」発表　「Gemini 3」がタブ上でユーザーのためのオリジナルWebアプリを自動生成",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/06/news052.html",
-          "source": "@IT",
-          "published": "2026-08-05T23:00:00",
-          "excerpt": "Googleは、実験的AIブラウザ「Disco」と「Gemini 3」でタスク支援Webアプリを自動生成する「GenTabs」機能を発表した。"
-        },
-        {
-          "title": "「三國志 覇道」が生成AIで実現したリアルタイム異言語交流　ゲーム性を損なわないシステム設計の工夫",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2607/31/news021.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-08-05T22:00:00",
-          "excerpt": "オンラインゲームの多言語展開において、母語が異なるユーザー間のリアルタイムな交流はサービスに新たな熱量を生み出す。…"
-        },
-        {
-          "title": "ワークマン、実は画像生成AIを導入していた　間に合わない商品撮影を代替　アプリ通知開封も1.5倍",
-          "link": "https://www.itmedia.co.jp/news/article/2608/06/2000000370/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-05T22:00:00",
-          "excerpt": "ワークマン、実は画像生成AIを導入していた　間に合わない商品撮影を代替　アプリ通知開封も1.5倍"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。AWS Lambda は、Lambda 関数のスケーラブルなネットワーク帯域幅をサポートするようになり、レイテンシの影響を受けやすいワークロードの実行環境との間でのより高速なデータ転送が可能になります。…",
+      "summary": "クラウドの新着が19件。はじめに Laravelで、必要なときだけ重い処理を裏側で走らせたいことがある。頻度的にQueueワーカーを常駐させるほどではなく、かといってWebリクエストの中で同期実行するとPHP-FPMやALBのタイムアウトに引っかかる。…",
       "articles": [
+        {
+          "title": "ECS RunTaskをLaravelから使うときの環境差分とタイムアウト対策",
+          "link": "https://qiita.com/st-man-hori/items/e6649ce32db580f9bf15",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-06T00:41:56",
+          "excerpt": "はじめに Laravelで、必要なときだけ重い処理を裏側で走らせたいことがある。頻度的にQueueワーカーを常駐させるほどではなく、かといってWebリクエストの中で同期実行するとPHP-FPMやALBのタイムアウトに引っかかる。…"
+        },
+        {
+          "title": "CloudFormation スタック削除後に Lambda が作成した ENI 残り続ける場合の原因と対処方法",
+          "link": "https://dev.classmethod.jp/articles/tsnote-cloudformation-lambda-stuck/",
+          "source": "DevelopersIO",
+          "published": "2026-08-05T23:46:56",
+          "excerpt": "Lambda 関数削除後、ENI が自動削除されずに残存する状態について、原因と対応方法をまとめました。"
+        },
         {
           "title": "AWS Lambda、VPC 外部の機能向けに最大 3,000 Mbps のスケーラブルなネットワーク帯域幅を発表",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-network-bandwidth/",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-05T20:56:59",
           "excerpt": "はじめに 検証用のEC2を作ったあと、つい停止し忘れることがあります。1台なら金額は小さく見えても、検証環境が増えると地味に効きます。さらに、チームで使う環境では「誰が止めるのか」が曖昧になりがちです。…"
-        },
-        {
-          "title": "RedditはAIモデレーションツールへの移行により、初めて投稿する人にとって「カルマ」の重要性を軽減することを目指している",
-          "link": "https://techcrunch.com/2026/08/05/reddit-aims-to-make-karma-less-important-for-first-time-posters-with-shift-to-ai-moderation-tools/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-05T18:00:40",
-          "excerpt": "Redditはモデレーションツールを拡張し、より強力な不正行為防止システムを構築しており、最終的にはコミュニティのカルマやアカウント年齢要件への依存を軽減し、正規の新規参入者が参加しやすくなる可能性があるとしている。"
-        },
-        {
-          "title": "フィッシング詐欺師が正規のクラウド インフラストラクチャを乗っ取っている",
-          "link": "https://securelist.com/cloud-platforms-in-phishing/120832/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-05T17:20:25",
-          "excerpt": "記事の URL: https://securelist.com/cloud-platforms-in-phishing/120832/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。Anthropic モデルと OpenAI モデルの予期せぬ行動により、英国のサイバー テストは停止に追い込まれました。",
+      "summary": "セキュリティの新着が13件。本記事は、BIPROGY / ユニアデックス社内AWSコミュニティ「BIPROGY AWS SPARK」の定期投稿企画第9回目の記事です。他の定期投稿企画の記事は、AWS Sparkブログリレーを始めます！…",
       "articles": [
+        {
+          "title": "InspectorのSSMエージェントは維持しつつSession Manager接続だけ塞ぐ、正しいIAM設計",
+          "link": "https://qiita.com/MikuMatsuo/items/9285414f8612816bbebb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-06T00:05:18",
+          "excerpt": "本記事は、BIPROGY / ユニアデックス社内AWSコミュニティ「BIPROGY AWS SPARK」の定期投稿企画第9回目の記事です。他の定期投稿企画の記事は、AWS Sparkブログリレーを始めます！…"
+        },
         {
           "title": "Anthropic の AI は、GitHub プロジェクトに対する不正な攻撃で偽の ID とマルウェアを使用しました",
           "link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
@@ -99,21 +106,21 @@
           "source": "AWS What's New（英語）",
           "published": "2026-08-05T15:12:00",
           "excerpt": "AWS IAM Identity Center では、新しい組織インスタンスを作成するときに AWS アカウント アクセスの管理を有効にするかどうかを決定できるようになりました。…"
-        },
-        {
-          "title": "共同通信に不正アクセス　職員や加盟社の氏名・メルアドなど約6000件が閲覧の恐れ　職員アカウント不正利用か",
-          "link": "https://www.itmedia.co.jp/news/article/2608/05/2000000406/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-05T14:03:16",
-          "excerpt": "共同通信社は8月5日、電子メールなどの業務環境で不正アクセスによる情報漏えいの可能性が判明したと発表した。職員のほか加盟社や取引先の氏名、メールアドレスなど約6000件が閲覧された可能性がある。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が10件。Amazon DynamoDBのベクトルデータサポートがGAになりました。…",
+      "summary": "データ分析の新着が12件。GitHub、「Copilot Billing Preview」を8月4日に廃止",
       "articles": [
+        {
+          "title": "GitHub、「Copilot Billing Preview」を8月4日に廃止",
+          "link": "https://codezine.jp/article/detail/29252",
+          "source": "CodeZine",
+          "published": "2026-08-06T01:00:00",
+          "excerpt": "GitHub、「Copilot Billing Preview」を8月4日に廃止"
+        },
         {
           "title": "Amazon DynamoDBの新機能「ベクトルデータサポート」をCLIで試してみた",
           "link": "https://dev.classmethod.jp/articles/dynamodb-realtime-vector-search/",
@@ -129,26 +136,33 @@
           "excerpt": "スペースXは大規模な携帯電話基地局を建設するつもりはないが、米国全土に小規模な基地局を計画している。"
         },
         {
-          "title": "Amazon DynamoDB がリアルタイムのベクトル検索をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-vector-search",
+          "title": "AWS Glue Data Quality により ETL 異常検出が無料になり、異常予測が向上します",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-quality-anomaly-detection-free",
           "source": "AWS What's New（英語）",
-          "published": "2026-08-05T16:59:00",
-          "excerpt": "本日、AWS は、リアルタイムでベクトルのインデックス付けと検索を行う新機能である Amazon DynamoDB のベクトル検索の一般提供を発表しました。…"
-        },
-        {
-          "title": "DynamoDBがネイティブベクトル検索に対応したので、GA当日に検証してアプリを作ってみた",
-          "link": "https://qiita.com/yama3133/items/d0fc5f0ef530cf65008c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-05T16:03:47",
-          "excerpt": "はじめに 2026年8月5日、Amazon DynamoDBがネイティブでベクトル検索に対応したという情報が入ってきました。…"
+          "published": "2026-08-05T18:25:00",
+          "excerpt": "AWS Glue Data Quality では、誤った異常の検出を減らし、ETL ジョブでの異常検出の料金を廃止する新しい観察モードにより、改善された異常検出が提供されるようになりました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。GitHub Spark、新規ユーザーの受け入れを停止し8月にサービス終了へ",
+      "summary": "開発ツールの新着が14件。GitHub、「Copilot Billing Preview」を8月4日に廃止",
       "articles": [
+        {
+          "title": "GitHub、「Copilot Billing Preview」を8月4日に廃止",
+          "link": "https://codezine.jp/article/detail/29252",
+          "source": "CodeZine",
+          "published": "2026-08-06T01:00:00",
+          "excerpt": "GitHub、「Copilot Billing Preview」を8月4日に廃止"
+        },
+        {
+          "title": "CloudFormation スタック削除後に Lambda が作成した ENI 残り続ける場合の原因と対処方法",
+          "link": "https://dev.classmethod.jp/articles/tsnote-cloudformation-lambda-stuck/",
+          "source": "DevelopersIO",
+          "published": "2026-08-05T23:46:56",
+          "excerpt": "Lambda 関数削除後、ENI が自動削除されずに残存する状態について、原因と対応方法をまとめました。"
+        },
         {
           "title": "GitHub Spark、新規ユーザーの受け入れを停止し8月にサービス終了へ",
           "link": "https://codezine.jp/article/detail/29249",
@@ -162,52 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-08-05T22:18:07",
           "excerpt": "Amazon DynamoDBのベクトルデータサポートがGAになりました。…"
-        },
-        {
-          "title": "Anthropic の AI は、GitHub プロジェクトに対する不正な攻撃で偽の ID とマルウェアを使用しました",
-          "link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-08-05T20:47:11",
-          "excerpt": "Anthropic モデルと OpenAI モデルの予期せぬ行動により、英国のサイバー テストは停止に追い込まれました。"
-        },
-        {
-          "title": "見知らぬ人が私の小説を AI と呼ぶのが怖いので、Word 用の GitHub を構築しました",
-          "link": "https://dylan.blog/2026/08/03/im-scared-a-stranger-will.html",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-05T16:58:04",
-          "excerpt": "記事の URL: https://dylan.blog/2026/08/03/im-scared-a-stranger-will.html コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Amazon Quick で実現する分析の民主化と業務自動化",
-      "link": "https://qiita.com/somasun_aws/items/b10f22fa87ab8379fc0a",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-05T23:20:00",
-      "excerpt": "はじめに こんにちは。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」6日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。https://qiita.…"
+      "title": "アンケートの「声が小さい」の一言から始まった、登壇・配信環境改善の2年間をまとめてみた",
+      "link": "https://dev.classmethod.jp/articles/event-streaming-2years/",
+      "source": "DevelopersIO",
+      "published": "2026-08-06T01:12:59",
+      "excerpt": "イベント登壇の内容は素晴らしいのに、音声が小さくて評価が下がってしまう——そんな「もったいない」を感じたことから始まった、2年8か月の登壇・配信環境整備の歩みをご紹介します。…"
     },
     {
-      "title": "Google ADK で AI アシスタントの出力を信頼できるものにするための 3 つの学び | 弁護士ドットコム株式会社 Creators’ blog",
-      "link": "https://creators.bengo4.com/entry/2026/08/06/080000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-05T23:00:00",
-      "excerpt": "こんにちは。データ本部データ基盤開発部の阿部です。営業担当者向けの社内アシスタントを Google ADK で作り、本番運用に載せるまでに手をかけたことを 3 つの学びとしてまとめました。…"
-    },
-    {
-      "title": "AWS AI Ready Data Platform Day Tokyoに参加して登壇しました | カミナシ エンジニアブログ",
-      "link": "https://kaminashi-developer.hatenablog.jp/entry/2026/08/06/aws-ai-ready-data-platform-day",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-05T23:00:00",
-      "excerpt": "カミナシのID管理基盤を開発しているmanaty（@manaty226）です。…"
-    },
-    {
-      "title": "技術的負債の誤解　〜「測れないから説明できない」を越えることと認知的負債について〜",
-      "link": "https://codezine.jp/article/detail/24730",
+      "title": "Node.js 24.19.0（LTS）がリリース、BufferやTLSなど各種機能を強化",
+      "link": "https://codezine.jp/article/detail/29250",
       "source": "CodeZine",
-      "published": "2026-08-05T23:00:00",
-      "excerpt": "連載第2回で、開発生産性は一つの数字に閉じ込めると破綻するというを解説をしました。今回はその数字に乗りにくい代表格、技術的負債を扱います。「技術的負債があります」と言っても、経営会議では具体的な数値を求められて言葉に詰まる。DMM.…"
+      "published": "2026-08-06T00:00:00",
+      "excerpt": "Node.js 24.19.0（LTS）がリリース、BufferやTLSなど各種機能を強化"
+    },
+    {
+      "title": "PR数1.6倍、変更行数1.8倍、平均マージ時間37%削減──ABEMAが進めるAI駆動開発の現在地",
+      "link": "https://codezine.jp/article/detail/29068",
+      "source": "CodeZine",
+      "published": "2026-08-06T00:00:00",
+      "excerpt": "生成AIを導入する企業は増えたが、成果に結びつく組織とそうでない組織の差はどこから生まれるのか。サイバーエージェントでは今年、社内各組織のAI活用度を相撲の番付になぞらえて測定した。…"
+    },
+    {
+      "title": "スマホ新法時代で変わる配信エコシステム。代替えストアの現在",
+      "link": "https://gihyo.jp/article/2026/07/android-weekly-topics-260806?utm_source=feed",
+      "source": "gihyo.jp 開発",
+      "published": "2026-08-05T23:55:00",
+      "excerpt": "今回は、Android 14から導入された技術的な改善に触れつつ、サードパーティアプリストアの最新動向と開発者へ与える影響を紹介します。"
     }
   ]
 }
