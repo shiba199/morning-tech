@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-07T06:39:52",
+  "generated_at": "2026-08-07T08:04:57",
   "window_hours": 24,
-  "total": 183,
+  "total": 186,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が40件。Google Classroom、Geminiでルーブリック自動生成機能を追加",
+      "summary": "生成AIの新着が39件。本記事では、AWS Bedrock LLM Day Japan の「AWS Keynote と最新アップデート」セッションで紹介された、Amazon BedrockおよびAIエージェント関連サービスのアップデートをレポートします。…",
       "articles": [
+        {
+          "title": "Amazon Bedrock 最新アップデート_AgentCore、Managed Knowledge Base、AWS Context",
+          "link": "https://qiita.com/suzukisawa/items/db13f04a825b1845d808",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-07T07:37:47",
+          "excerpt": "本記事では、AWS Bedrock LLM Day Japan の「AWS Keynote と最新アップデート」セッションで紹介された、Amazon BedrockおよびAIエージェント関連サービスのアップデートをレポートします。…"
+        },
+        {
+          "title": "【AI活用】RAGの基本と「社内知識をAIに使わせる」設計 | エイトハンドレッド TECH BLOG",
+          "link": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/08/07/155540",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-07T06:55:40",
+          "excerpt": "「社内のマニュアルをAIに読ませたい」。この相談は本当によく聞きます。ところが実際に組んでみると、期待したほど答えが返ってこない。原因はモデルの性能ではなく、たいていRAGの設計側にあります。…"
+        },
         {
           "title": "Google Classroom、Geminiでルーブリック自動生成機能を追加",
           "link": "https://codezine.jp/article/detail/29263",
@@ -22,28 +36,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-07T05:01:57",
           "excerpt": "Claude Platform on AWSとAmazon Bedrock の最新アップデート 2026年5月に一般提供（GA）が開始された Claude Platform on AWS と、同年6月に Amazon B […]"
-        },
-        {
-          "title": "NVIDIA RAG Blueprint × DGX Spark でチーム共通 RAG を組んで MCP でつないでみた",
-          "link": "https://dev.classmethod.jp/articles/dgx-spark-nvidia-rag-blueprint-mcp/",
-          "source": "DevelopersIO",
-          "published": "2026-08-07T04:55:45",
-          "excerpt": "NVIDIA RAG Blueprint を DGX Spark の 2 層構成で構築し、ドキュメント検索から生成までをローカルに完結させたチーム共通 RAG の実装例を紹介します。…"
-        },
-        {
-          "title": "Vercel、OpenAI、GitHub、Microsoft、AWS、Anysphereらが参加、AIエージェントのプラグイン共通規格「Agent Plugins」発表",
-          "link": "https://gihyo.jp/article/2026/08/agent-plugins?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-07T04:54:00",
-          "excerpt": "2026年8月6日、AIエージェントで再利用可能なコンポーネントをポータブルなプラグインとしてパッケージ化するためのオープンな標準規格「Agent Plugins」が発表された。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。Google CloudのVPC Service Controlsを使用してCloud StorageへのAPIアクセスを制限する方法を組織レベルのアクセスポリシーとスコープ付きアクセスポリシーの2パターンで検証してみました。",
+      "summary": "クラウドの新着が14件。EKS モジュールを v21 に上げたところ、一部の Pod に IMDS のエラーログが出るようになったため、原因となった hop limit の変更と、機能への影響、解消方法をまとめます。",
       "articles": [
+        {
+          "title": "EKS モジュール v21 で hop limit が 1 になって出る IMDS エラーを調べてみた",
+          "link": "https://dev.classmethod.jp/articles/eks-v21-hop-limit-imds-error/",
+          "source": "DevelopersIO",
+          "published": "2026-08-07T07:16:37",
+          "excerpt": "EKS モジュールを v21 に上げたところ、一部の Pod に IMDS のエラーログが出るようになったため、原因となった hop limit の変更と、機能への影響、解消方法をまとめます。"
+        },
         {
           "title": "VPC Service Controlsの組織レベルのアクセスポリシーとスコープ付きアクセスポリシーを検証してみた",
           "link": "https://dev.classmethod.jp/articles/vpc-sc-organization-level-and-scoped-access-policy/",
@@ -64,21 +71,28 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-07T02:36:11",
           "excerpt": "kickflow でエンジニアをしている川島です。…"
-        },
-        {
-          "title": "Lambda関数にcurl/openssl/ncが無い問題を、Python標準ライブラリだけで乗り切った話",
-          "link": "https://zenn.dev/boostertech/articles/4ac10f3f07a74a",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-07T01:45:29",
-          "excerpt": "はじめに 株式会社ブースターテクノロジーの土屋です。無料のWebサイト脆弱性診断ツール「セキュリティブースター」を、AWS Lambda上のPythonで作っています。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。中国政府は理由を述べていないが、それはまさにマイクロンを調査したときに起こったことだ",
+      "summary": "セキュリティの新着が11件。セキュリティサービス部 佐竹です。…",
       "articles": [
+        {
+          "title": "AWS Security Hub の Exposure を EventBridge でフックする Event pattern を考える | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/aws-securityhub-exposure-eventbridge-pattern",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-07T07:08:50",
+          "excerpt": "セキュリティサービス部 佐竹です。…"
+        },
+        {
+          "title": "AWS Systems Manager Parameter Store から AWS Secrets Manager のシークレットを GetParameters でまとめて取得してみた",
+          "link": "https://dev.classmethod.jp/articles/parameter-store-secrets-manager-getparameters/",
+          "source": "DevelopersIO",
+          "published": "2026-08-07T06:59:41",
+          "excerpt": "AWS Systems Manager Parameter Store の `/aws/reference/secretsmanager/` プレフィックスを活用して、通常設定値と Secrets Manager のシークレットを GetP…"
+        },
         {
           "title": "中国、パロアルトネットワークス製品のセキュリティに関する謎の調査を開始",
           "link": "https://www.theregister.com/security/2026/08/07/china-launches-mysterious-probe-into-security-of-palo-alto-networks-products/5284453",
@@ -92,27 +106,13 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-07T04:04:07",
           "excerpt": "記事の URL: https://socket.dev/blog/ai-agent-open-source-malware コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "ここ1年で7倍に増えたn8nを悪用したデバイス追跡とマルウェア配布の手口",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/07/news049.html",
-          "source": "@IT",
-          "published": "2026-08-07T04:00:00",
-          "excerpt": "Cisco Talosは、AIワークフロー自動化プラットフォーム「n8n」を悪用したフィッシングキャンペーンの増加を確認した。攻撃者は正規サービスを通じてマルウェア配布やデバイスフィンガープリンティングを自動化しているという。"
-        },
-        {
-          "title": "GitHubリポジトリの「侵入口」をどうふさぐ？　無料で使える6つのセキュリティ設定",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/07/news062.html",
-          "source": "@IT",
-          "published": "2026-08-07T04:00:00",
-          "excerpt": "GitHubは、リポジトリを攻撃者に狙われにくくする6つの無料セキュリティ設定を紹介した。いずれも30分以内で設定でき、攻撃者が狙う「侵入しやすい入り口」をふさぐ効果があるという。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。記事の URL: https://www.reddit.…",
+      "summary": "データ分析の新着が3件。記事の URL: https://www.reddit.…",
       "articles": [
         {
           "title": "64 Debian で Netscape 3.0.2 を正常にコンパイルしました",
@@ -134,20 +134,13 @@
           "source": "AWS What's New（英語）",
           "published": "2026-08-06T18:56:00",
           "excerpt": "アジアパシフィック (ニュージーランド)、アジアパシフィック (タイ)、アジアパシフィックで、 AWS Glue スキーマ レジストリ ( AWS Glue のサーバーレスで無料の機能) を使用できるようになりました。…"
-        },
-        {
-          "title": "Amazon DynamoDB のネイティブベクトルサポートでセマンティック検索を構築する",
-          "link": "https://aws.amazon.com/jp/blogs/news/build-semantic-search-with-native-vector-support-in-amazon-dynamodb/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-06T07:56:42",
-          "excerpt": "Amazon DynamoDB を運用データに使用しているアプリケーションの多くは、ベクトル類似性検索も必要と […]"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。2026年8月6日、AIエージェントで再利用可能なコンポーネントをポータブルなプラグインとしてパッケージ化するためのオープンな標準規格「Agent Plugins」が発表された。",
+      "summary": "開発ツールの新着が6件。2026年8月6日、AIエージェントで再利用可能なコンポーネントをポータブルなプラグインとしてパッケージ化するためのオープンな標準規格「Agent Plugins」が発表された。",
       "articles": [
         {
           "title": "Vercel、OpenAI、GitHub、Microsoft、AWS、Anysphereらが参加、AIエージェントのプラグイン共通規格「Agent Plugins」発表",
@@ -182,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "システム管理者が斜体の説明のために呼び出される – 少なくとも 2 学位を持つユーザーに",
-      "link": "https://www.theregister.com/software/2026/08/07/sysadmin-summoned-to-explain-italics-to-a-user-with-at-least-two-degrees/5283871",
-      "source": "The Register（英語）",
-      "published": "2026-08-07T06:30:00",
-      "excerpt": "なんて馬鹿なんだ"
-    },
-    {
-      "title": "「配信システムをAIで自作したアイドル」こと宮本佳林さん、Cloudflare Workersの開発者イベントに登壇へ",
-      "link": "https://www.itmedia.co.jp/news/article/2608/07/2000000448/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-07T06:27:51",
-      "excerpt": "元Juice=Juiceでアイドルの宮本佳林さんが、8月27日開催の開発者向けイベント「Cloudflare Workers Tech Talks in Tokyo」に出演する。公式Xアカウントが8月7日に告知した。"
-    },
-    {
-      "title": "フレームワークがメタベース ゼロデイを介したデータ侵害を明らかにする",
-      "link": "https://community.frame.work/t/framework-data-breach-discussion/83939",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-07T05:17:57",
-      "excerpt": "記事の URL: https://community.frame.work/t/framework-data-breach-Discussion/83939 コメント URL: https://news.ycombinator.…"
-    },
-    {
-      "title": "一人情シスからMDMへ。仕事の進め方が変わった話 | LayerX エンジニアブログ",
-      "link": "https://tech.layerx.co.jp/entry/2026/08/07/140003",
+      "title": "なぜ「ユーザー価値ファースト」がアジャイル組織をつくるのか？ 〜ソリューションファーストと御用聞き開発の罠〜 | ABEJA Tech Blog",
+      "link": "https://tech-blog.abeja.asia/entry/user-value-first-agile-organization-202608",
       "source": "企業テックブログまとめ",
-      "published": "2026-08-07T05:00:03",
-      "excerpt": "はじめに 2026年4月にLayerXへ入社し、三井物産デジタル・アセットマネジメント（以下、MDM）に出向している hi-se です。今回初めての転職を経験し、新しい環境で仕事を始めて数か月が経ちました。…"
+      "published": "2026-08-07T07:04:42",
+      "excerpt": "スクラムを回しているのに「使われないものが積み上がる」——その正体は御用聞き開発とソリューションファーストの罠かもしれません。…"
+    },
+    {
+      "title": "防衛装備庁、ITコンサルSHIFTに「AI装備品」の審査支援を委託",
+      "link": "https://www.itmedia.co.jp/news/article/2608/07/2000000449/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-07T07:01:54",
+      "excerpt": "ITコンサルティング事業を手掛けるSHIFT（東京都港区）が、防衛装備庁によるAI装備品の技術的審査を支援する。"
+    },
+    {
+      "title": "社内業務をAIで効率化する流れ 〜法人問い合わせの一次振り分けをAIに任せた話〜 | Cluster Tech Blog",
+      "link": "https://tech-blog.cluster.mu/entry/2026/08/07",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-07T07:00:00",
+      "excerpt": "こんにちは、クラスター株式会社のソフトウェアエンジニアのid:shiba_yu36です。最近はプロダクト開発と共に、AIを活用した社内業務の効率化にも取り組んでいます。clusterには法人のお客様からの問い合わせが日々届きます。…"
+    },
+    {
+      "title": "AWS Transit Gateway、ポリシーベースルーティングの一般提供を開始",
+      "link": "https://codezine.jp/article/detail/29264",
+      "source": "CodeZine",
+      "published": "2026-08-07T07:00:00",
+      "excerpt": "AWS Transit Gateway、ポリシーベースルーティングの一般提供を開始"
     }
   ]
 }
