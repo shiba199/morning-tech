@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:28:58",
+  "generated_at": "2026-08-07T10:25:14",
   "window_hours": 24,
   "total": 196,
   "topic_count": 5,
@@ -7,7 +7,7 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。ビジネスチャンス 組織は、エンタープライズレディな AI エージェント、つまりテクノロジーランドスケープ全体の […]",
+      "summary": "生成AIの新着が40件。ビジネスチャンス 組織は、エンタープライズレディな AI エージェント、つまりテクノロジーランドスケープ全体の […]",
       "articles": [
         {
           "title": "エージェンティックエンタープライズを AWS for SAP MCP Server on Amazon Bedrock AgentCore で実現",
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。はじめに 本記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の7日目の記事です！下記URLから他の方の記事を確認できます。ぜひご覧ください！さて、本題に移ります。…",
+      "summary": "クラウドの新着が16件。背景 CDK + ASG（EC2 Auto Scaling Group）で構築していた Spring Boot アプリの CI/CD 構成を、ECS Fargate + Docker に置き換えました。…",
       "articles": [
+        {
+          "title": "EC2 + CodeDeploy から ECS Fargate + GitHub Actions に移行して変わった5つのこと",
+          "link": "https://qiita.com/caymezon/items/66ae606c1bfe133b2bb0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-07T10:09:40",
+          "excerpt": "背景 CDK + ASG（EC2 Auto Scaling Group）で構築していた Spring Boot アプリの CI/CD 構成を、ECS Fargate + Docker に置き換えました。…"
+        },
+        {
+          "title": "AWS Backup for S3 の新機能「バックアップアクセスポイント」でバックアップデータの直接アクセスを試してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-backup-s3-backup-access-point/",
+          "source": "DevelopersIO",
+          "published": "2026-08-07T10:02:57",
+          "excerpt": "AWS Backup for S3 にバックアップアクセスポイント機能が追加されました。従来はバックアップから1ファイルを取り出すにもリストアジョブが必要でしたが、アクセスポイント経由なら S3 標準 API で直接取得できます。…"
+        },
         {
           "title": "検証環境にEC2 Spot Instanceは最適解なのか？コストと可用性の観点から考えてみた",
           "link": "https://qiita.com/01_Riri_53/items/047d2c4867e9d21316bb",
@@ -57,28 +71,28 @@
           "source": "DevelopersIO",
           "published": "2026-08-07T07:16:37",
           "excerpt": "EKS モジュールを v21 に上げたところ、一部の Pod に IMDS のエラーログが出るようになったため、原因となった hop limit の変更と、機能への影響、解消方法をまとめます。"
-        },
-        {
-          "title": "VPC Service Controlsの組織レベルのアクセスポリシーとスコープ付きアクセスポリシーを検証してみた",
-          "link": "https://dev.classmethod.jp/articles/vpc-sc-organization-level-and-scoped-access-policy/",
-          "source": "DevelopersIO",
-          "published": "2026-08-07T06:31:28",
-          "excerpt": "Google CloudのVPC Service Controlsを使用してCloud StorageへのAPIアクセスを制限する方法を組織レベルのアクセスポリシーとスコープ付きアクセスポリシーの2パターンで検証してみました。"
-        },
-        {
-          "title": "VPCが異なるEC2間の接続を、AWS Systems Manager(SSM)のRun Commandで行う",
-          "link": "https://zenn.dev/peipei/articles/fb1a30f7ec31af",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-07T03:06:05",
-          "excerpt": "はじめに 別のVPCにあるEC2へ、定期実行ジョブからSSHで接続しようとしても、そのままでは繋がりません。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。セキュリティサービス部 佐竹です。…",
+      "summary": "セキュリティの新着が13件。KDDIの松田浩道社長は8月7日の決算会見で、ISP事業者向けメールシステムへの不正アクセスによる大規模漏えいについて「行政指導を厳粛に受け止めている」と述べ、保有システム群の脆弱性診断を急ぐ考えを示した。",
       "articles": [
+        {
+          "title": "KDDI、社内の全システムで脆弱性診断へ　1220万人分漏えいで「未知の脆弱性と片付けない」",
+          "link": "https://www.itmedia.co.jp/news/article/2608/07/2000000453/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-07T09:53:41",
+          "excerpt": "KDDIの松田浩道社長は8月7日の決算会見で、ISP事業者向けメールシステムへの不正アクセスによる大規模漏えいについて「行政指導を厳粛に受け止めている」と述べ、保有システム群の脆弱性診断を急ぐ考えを示した。"
+        },
+        {
+          "title": "AWS WAF を使った Web アプリケーション防御のワークショップをやってみた",
+          "link": "https://dev.classmethod.jp/articles/waf-web-application-workshop/",
+          "source": "DevelopersIO",
+          "published": "2026-08-07T09:40:12",
+          "excerpt": "CloudFrontを保護する保護パックの作成から、XSS・SQLインジェクション対策、ボットコントロール、レート制限、API保護まで、7つのステップでセキュリティ対策を実装する手順を紹介します。"
+        },
         {
           "title": "AWS Security Hub の Exposure を EventBridge でフックする Event pattern を考える | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/aws-securityhub-exposure-eventbridge-pattern",
@@ -92,27 +106,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-07T06:59:41",
           "excerpt": "AWS Systems Manager Parameter Store の `/aws/reference/secretsmanager/` プレフィックスを活用して、通常設定値と Secrets Manager のシークレットを GetP…"
-        },
-        {
-          "title": "中国、パロアルトネットワークス製品のセキュリティに関する謎の調査を開始",
-          "link": "https://www.theregister.com/security/2026/08/07/china-launches-mysterious-probe-into-security-of-palo-alto-networks-products/5284453",
-          "source": "The Register（英語）",
-          "published": "2026-08-07T04:24:37",
-          "excerpt": "中国政府は理由を述べていないが、それはまさにマイクロンを調査したときに起こったことだ"
-        },
-        {
-          "title": "Mythos はオープンソース メンテナーをソーシャル エンジニアリングしてマルウェアをマージしようと試みました",
-          "link": "https://socket.dev/blog/ai-agent-open-source-malware",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-07T04:04:07",
-          "excerpt": "記事の URL: https://socket.dev/blog/ai-agent-open-source-malware コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。この記事は、CYBOZU SUMMER BLOG FES '26の記事です。こんにちは！サイボウズのトニオ（@tonionagauzzi）です。普段はkintone開発チームにてAndroidアプリを主に開発しています。…",
+      "summary": "データ分析の新着が7件。この記事は、CYBOZU SUMMER BLOG FES '26の記事です。こんにちは！サイボウズのトニオ（@tonionagauzzi）です。普段はkintone開発チームにてAndroidアプリを主に開発しています。…",
       "articles": [
         {
           "title": "4社合同イベント！Mobile Tech Flex #2『私たちの越境話』を開催しました！ | Cybozu Inside Out | サイボウズエンジニアのブログ",
@@ -129,26 +129,40 @@
           "excerpt": "2026 年 8 月 5 日、 Amazon DynamoDB でのベクトル検索の一般提供についてお知らせしま […]"
         },
         {
+          "title": "インシデント対応の属人化に、障害対応訓練で立ち向かっている - tebiki Tech Blog",
+          "link": "https://techblog.tebiki.co.jp/2026/08/07/163000",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-08-07T07:31:59",
+          "excerpt": "QAエンジニア の @kiyou77 です。「インシデントが起きたとき、動けるのがいつも同じ人ばかり」というのはよくある話かと思います。私たちの開発組織でも、負担が特定のメンバーに偏っている状況が続いていました。…"
+        },
+        {
           "title": "老舗のマウスユーティリティ「チューチューマウス」がAIの力を借りて15年ぶりに復活／64bit化、Windows 10/11、「Chrome」も走り回る。復活記念で2026年末まで500円",
           "link": "https://forest.watch.impress.co.jp/docs/news/2131497.html",
           "source": "はてなブックマーク（テクノロジー）",
           "published": "2026-08-07T05:47:22",
           "excerpt": "老舗のマウスユーティリティ「チューチューマウス」がAIの力を借りて15年ぶりに復活／64bit化、Windows 10/11、「Chrome」も走り回る。復活記念で2026年末まで500円"
-        },
-        {
-          "title": "64 Debian で Netscape 3.0.2 を正常にコンパイルしました",
-          "link": "https://www.reddit.com/r/netscape/comments/1ve7wkm/ive_succesfully_compiled_netscape_302_on_a_64/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-07T05:39:32",
-          "excerpt": "記事の URL: https://www.reddit.…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。2026年8月6日、AIエージェントで再利用可能なコンポーネントをポータブルなプラグインとしてパッケージ化するためのオープンな標準規格「Agent Plugins」が発表された。",
+      "summary": "開発ツールの新着が7件。背景 CDK + ASG（EC2 Auto Scaling Group）で構築していた Spring Boot アプリの CI/CD 構成を、ECS Fargate + Docker に置き換えました。…",
       "articles": [
+        {
+          "title": "EC2 + CodeDeploy から ECS Fargate + GitHub Actions に移行して変わった5つのこと",
+          "link": "https://qiita.com/caymezon/items/66ae606c1bfe133b2bb0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-07T10:09:40",
+          "excerpt": "背景 CDK + ASG（EC2 Auto Scaling Group）で構築していた Spring Boot アプリの CI/CD 構成を、ECS Fargate + Docker に置き換えました。…"
+        },
+        {
+          "title": "AWS WAF を使った Web アプリケーション防御のワークショップをやってみた",
+          "link": "https://dev.classmethod.jp/articles/waf-web-application-workshop/",
+          "source": "DevelopersIO",
+          "published": "2026-08-07T09:40:12",
+          "excerpt": "CloudFrontを保護する保護パックの作成から、XSS・SQLインジェクション対策、ボットコントロール、レート制限、API保護まで、7つのステップでセキュリティ対策を実装する手順を紹介します。"
+        },
         {
           "title": "Vercel、OpenAI、GitHub、Microsoft、AWS、Anysphereらが参加、AIエージェントのプラグイン共通規格「Agent Plugins」発表",
           "link": "https://gihyo.jp/article/2026/08/agent-plugins?utm_source=feed",
@@ -162,25 +176,25 @@
           "source": "@IT",
           "published": "2026-08-07T04:00:00",
           "excerpt": "GitHubは、リポジトリを攻撃者に狙われにくくする6つの無料セキュリティ設定を紹介した。いずれも30分以内で設定でき、攻撃者が狙う「侵入しやすい入り口」をふさぐ効果があるという。"
-        },
-        {
-          "title": "Google Cloud で Google Antigravity CLI を使うための初期設定手順",
-          "link": "https://dev.classmethod.jp/articles/google-antigravity-cli-google-cloud-enterprise-setup/",
-          "source": "DevelopersIO",
-          "published": "2026-08-07T00:53:50",
-          "excerpt": "Google Cloud で Google Antigravity CLI を使うための初期設定手順を解説しました。…"
-        },
-        {
-          "title": "最新の GitHub の停止により、アクションとページが機能不全に陥る",
-          "link": "https://www.theregister.com/devops/2026/08/06/latest-github-outage-squeezes-actions-pages-to-death/5284297",
-          "source": "The Register（英語）",
-          "published": "2026-08-06T18:30:48",
-          "excerpt": "あそこを見てください、副操縦士 - ここはデジタルウサギの世話ができる美しい AI ファームです"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "元米国サイバーディレクター、ロボットのルールについて「アシモフは正しかった」と語る",
+      "link": "https://www.theregister.com/security/2026/08/07/asimov-was-right-about-rules-for-robots-says-ex-us-cyber-director/5284397",
+      "source": "The Register（英語）",
+      "published": "2026-08-07T10:03:00",
+      "excerpt": "人間は、それにふさわしい AI モデルを手に入れるでしょう"
+    },
+    {
+      "title": "Cloudflareで配信している特定のウェブサイトのアナリティクスをオフにする",
+      "link": "https://dev.classmethod.jp/articles/make-specific-sub-domain-disable-web-analytics/",
+      "source": "DevelopersIO",
+      "published": "2026-08-07T09:55:47",
+      "excerpt": "VPSで動かしているウェブアプリの表示が遅かった原因は、VPS性能ではなくCloudflare Web Analyticsだったんです。…"
+    },
     {
       "title": "警察システムを利用して詐欺師仲間の情報を盗み出した警官、コンピュータ乱用法違反で有罪判決",
       "link": "https://www.theregister.com/legal/2026/08/07/cop-who-used-police-system-to-snoop-for-info-on-crook-pals-sentenced-for-computer-misuse-act-offenses/5284191",
@@ -194,20 +208,6 @@
       "source": "Qiita AWSタグ",
       "published": "2026-08-07T09:15:56",
       "excerpt": "簡易的にAWS関連で資格取得をメインに、役立つURLを添付してまとめました。備忘録です。今後内容はupdateで微修正するかもしれません。↓ゲーム形式でAWSを勉強できる、hands onで学べる。↓AWS資格の過去問道場。…"
-    },
-    {
-      "title": "NVIDIA GEAR-SONICでUnitree G1の実機を全身テレオペしてみた",
-      "link": "https://dev.classmethod.jp/articles/nvidia-gear-sonic-g1-teleope/",
-      "source": "DevelopersIO",
-      "published": "2026-08-07T09:13:31",
-      "excerpt": "NVIDIAのヒューマノイド全身制御モデルGEAR-SONICを使い、Unitree G1の実機をPICO 4とフルボディトラッカーで全身テレオペしてみました。…"
-    },
-    {
-      "title": "【登壇レポート】DevRev 共催イベントのライブデモ「ある会社の、一日」に操作担当として登壇してきました",
-      "link": "https://dev.classmethod.jp/articles/devrev-knowledge-graph-event-live-demo-report/",
-      "source": "DevelopersIO",
-      "published": "2026-08-07T09:12:37",
-      "excerpt": "2026 年 8 月 5 日に開催された DevRev 共催イベントで、40 分のライブデモに操作担当として登壇しました。当日の様子と、オフラインでの登壇を通じて得たものを報告します。"
     }
   ]
 }
