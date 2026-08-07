@@ -1,76 +1,76 @@
 {
-  "generated_at": "2026-08-07T12:04:47",
+  "generated_at": "2026-08-07T13:45:28",
   "window_hours": 24,
-  "total": 205,
+  "total": 214,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が43件。DynamoDBに新しく追加されたネイティブベクトル検索機能をStrands Agentsから試してみました！",
+      "summary": "生成AIの新着が47件。TikTok オーナーが 10 兆のパラメーターを使用してモデルをトレーニングしています。",
       "articles": [
+        {
+          "title": "ByteDance は Anthropic に対抗するために大規模な AI モデルをトレーニングします",
+          "link": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-08-07T13:29:22",
+          "excerpt": "TikTok オーナーが 10 兆のパラメーターを使用してモデルをトレーニングしています。"
+        },
+        {
+          "title": "「AIに任せて大丈夫？エージェントの暴走を物理的に止める『ガードレール』構築の決定版」～【ai】人気記事TOP5（2026/08/02） | CareNet Engineersのフィード",
+          "link": "https://zenn.dev/carenet/articles/zenn-weekly-ai-articles-2026-08",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-07T12:40:33",
+          "excerpt": "!この記事はZennからaiのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「AIに任せて大丈夫？…"
+        },
+        {
+          "title": "Claude Code v2.1.224 の主要アップデート - セルフホスト環境とセッション間メッセージング",
+          "link": "https://dev.classmethod.jp/articles/20260807-cc-updates-v2-1-224/",
+          "source": "DevelopersIO",
+          "published": "2026-08-07T12:28:18",
+          "excerpt": "Claude Code v2.1.224 がリリースされました。セルフホスト環境の構築やセッション間のメッセージング、サンドボックス拒否設定の修正など、31 件の変更が入った今回のアップデート内容を解説します。…"
+        },
         {
           "title": "DynamoDBに追加されたベクトル検索を、Streamsでベクトル化してStrands Agentsから使ってみた",
           "link": "https://dev.classmethod.jp/articles/dynamo-vector-strands/",
           "source": "DevelopersIO",
           "published": "2026-08-07T11:27:41",
           "excerpt": "DynamoDBに新しく追加されたネイティブベクトル検索機能をStrands Agentsから試してみました！"
-        },
-        {
-          "title": "「就活に生成AI利用」ほぼ全員に　面接で内容追及され困惑も",
-          "link": "https://www.itmedia.co.jp/news/article/2608/07/2000000456/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-07T10:16:08",
-          "excerpt": "2027年春に卒業予定の大学生らを対象に行ったアンケートで、就職活動で生成AIを「利用していない」とした割合は3％にとどまり、ほぼ全ての学生が就活で何らかの形で生成AIを活用している実態が、人事分野の調査研究機関HR総研（東京都千代田区）な…"
-        },
-        {
-          "title": "「声」の権利明記　生成AIで無断利用、法務省が民事責任の解釈指針を公表",
-          "link": "https://www.itmedia.co.jp/news/article/2608/07/2000000454/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-07T10:08:04",
-          "excerpt": "著名人の肖像などが生成AIで無断利用されている問題を巡り、法務省は声優らの「声」も法的保護の対象になると明記した解釈指針を公式サイトで公表した。肖像や氏名の無断利用については最高裁判例があるが、声については違法性の線引きが曖昧だった。…"
-        },
-        {
-          "title": "OpenAI、GitHubのプルリクエストをセキュリティ面から詳しく調べる「Codex Security Review」を研究プレビューで提供",
-          "link": "https://gihyo.jp/article/2026/08/codex-security-review?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-07T09:52:00",
-          "excerpt": "OpenAIは2026年8月6日、GitHubのプルリクエストをセキュリティ面から詳しく調べる「Codex Security Review」を研究プレビューとして提供を開始した。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。背景 CDK + ASG（EC2 Auto Scaling Group）で構築していた Spring Boot アプリの CI/CD 構成を、ECS Fargate + Docker に置き換えました。…",
+      "summary": "クラウドの新着が18件。はじめに 前回、Amazon Linux 2 (AL2) のサポート終了に伴い、静的サイトを配信しているEC2をAmazon Linux 2023 (AL2023) へ移行した流れを書きました。https://zenn.…",
       "articles": [
         {
-          "title": "EC2 + CodeDeploy から ECS Fargate + GitHub Actions に移行して変わった5つのこと",
-          "link": "https://qiita.com/caymezon/items/66ae606c1bfe133b2bb0",
+          "title": "【Amazon Linux 2023】MT Cloud連携サーバーの切替 ― ALBとElastic IPの2経路移行",
+          "link": "https://zenn.dev/ykbone/articles/202608-linux-al2023-migration-cutover",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-07T12:49:06",
+          "excerpt": "はじめに 前回、Amazon Linux 2 (AL2) のサポート終了に伴い、静的サイトを配信しているEC2をAmazon Linux 2023 (AL2023) へ移行した流れを書きました。https://zenn.…"
+        },
+        {
+          "title": "【Amazon EC2】ALBを使ってみる",
+          "link": "https://qiita.com/hcs1996rbl/items/d6a1d4182e6ebb7fefdd",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-07T10:09:40",
-          "excerpt": "背景 CDK + ASG（EC2 Auto Scaling Group）で構築していた Spring Boot アプリの CI/CD 構成を、ECS Fargate + Docker に置き換えました。…"
+          "published": "2026-08-07T12:40:52",
+          "excerpt": "はじめに ALBの学習が目的。ALB + EC2 でWEBページが表示してできるようにして、ヘルスチェックが成功しているターゲットに分散ルーティングされることを確認するところまでやってみる。…"
         },
         {
-          "title": "AWS Backup for S3 の新機能「バックアップアクセスポイント」でバックアップデータの直接アクセスを試してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-backup-s3-backup-access-point/",
+          "title": "SQLiteからRDS for PostgreSQLへの移行をpgloaderで検証してみた",
+          "link": "https://dev.classmethod.jp/articles/myan-aws-sqlite-rds-verify/",
           "source": "DevelopersIO",
-          "published": "2026-08-07T10:02:57",
-          "excerpt": "AWS Backup for S3 にバックアップアクセスポイント機能が追加されました。従来はバックアップから1ファイルを取り出すにもリストアジョブが必要でしたが、アクセスポイント経由なら S3 標準 API で直接取得できます。…"
+          "published": "2026-08-07T12:36:24",
+          "excerpt": "SQLiteからAmazon RDS for PostgreSQLへの移行をpgloaderで実装しました。検証環境の構築から実際の移行手順、ハマりやすいSSL設定、そして移行後に必要な作業まで、実務的な知見をまとめて紹介します。"
         },
         {
-          "title": "検証環境にEC2 Spot Instanceは最適解なのか？コストと可用性の観点から考えてみた",
-          "link": "https://qiita.com/01_Riri_53/items/047d2c4867e9d21316bb",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-07T09:24:11",
-          "excerpt": "はじめに 本記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の7日目の記事です！下記URLから他の方の記事を確認できます。ぜひご覧ください！さて、本題に移ります。…"
-        },
-        {
-          "title": "EKS モジュール v21 で hop limit が 1 になって出る IMDS エラーを調べてみた",
-          "link": "https://dev.classmethod.jp/articles/eks-v21-hop-limit-imds-error/",
-          "source": "DevelopersIO",
-          "published": "2026-08-07T07:16:37",
-          "excerpt": "EKS モジュールを v21 に上げたところ、一部の Pod に IMDS のエラーログが出るようになったため、原因となった hop limit の変更と、機能への影響、解消方法をまとめます。"
+          "title": "PC を閉じても Kiro / Claude Code は動き続ける — EC2 + tmux で 24 時間開発",
+          "link": "https://zenn.dev/aws_japan/articles/49d2c641322289",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-07T10:12:42",
+          "excerpt": "はじめに こんにちは、AWS Japan でソリューションアーキテクトをしている吉川です。エージェントに大きめの仕事を任せている間、PC を開けっぱなしにして待っていませんか。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。背景 CDK + ASG（EC2 Auto Scaling Group）で構築していた Spring Boot アプリの CI/CD 構成を、ECS Fargate + Docker に置き換えました。…",
+      "summary": "開発ツールの新着が8件。こんにちは、tekuteku です。今回は ブランチごとに立てる使い捨てのステージング環境（マルチステージング） について、自分の理解を整理しながら共有していきます。ステージングは「本番のコピーが 1 つあればいい」と思われがちです。…",
       "articles": [
+        {
+          "title": "ブランチごとのステージング環境を 1 台に同居させ、デプロイを GitHub Actions に寄せる",
+          "link": "https://zenn.dev/norman6464/articles/multi-staging-github-actions",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-07T12:48:10",
+          "excerpt": "こんにちは、tekuteku です。今回は ブランチごとに立てる使い捨てのステージング環境（マルチステージング） について、自分の理解を整理しながら共有していきます。ステージングは「本番のコピーが 1 つあればいい」と思われがちです。…"
+        },
         {
           "title": "EC2 + CodeDeploy から ECS Fargate + GitHub Actions に移行して変わった5つのこと",
           "link": "https://qiita.com/caymezon/items/66ae606c1bfe133b2bb0",
@@ -169,45 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-08-07T09:40:12",
           "excerpt": "CloudFrontを保護する保護パックの作成から、XSS・SQLインジェクション対策、ボットコントロール、レート制限、API保護まで、7つのステップでセキュリティ対策を実装する手順を紹介します。"
-        },
-        {
-          "title": "Vercel、OpenAI、GitHub、Microsoft、AWS、Anysphereらが参加、AIエージェントのプラグイン共通規格「Agent Plugins」発表",
-          "link": "https://gihyo.jp/article/2026/08/agent-plugins?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-07T04:54:00",
-          "excerpt": "2026年8月6日、AIエージェントで再利用可能なコンポーネントをポータブルなプラグインとしてパッケージ化するためのオープンな標準規格「Agent Plugins」が発表された。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ニューメキシコ州裁判所は児童安全訴訟でメタ社に追加の5億6,700万ドルの支払いを命じる",
-      "link": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-07T11:40:37",
-      "excerpt": "この事件でメタ社の罰金総額は最大9億4,200万ドルに達した"
-    },
-    {
-      "title": "攻撃者は米国の防衛サプライヤーの Microsoft 365 アカウントにフィッシング詐欺を行った",
-      "link": "https://www.theregister.com/security/2026/08/07/ieh-corp-says-phished-staffer-opened-gates-to-company-m365/5284523",
-      "source": "The Register（英語）",
-      "published": "2026-08-07T11:32:00",
-      "excerpt": "侵入者はエンジニアリング ファイルおよび輸出規制されている可能性のある技術データへのアクセスを取得しました"
-    },
-    {
-      "title": "気候を崩壊させる巨大な嘘",
-      "link": "https://www.currentaffairs.org/news/the-massive-climate-lie-that-will-destroy-human-civilization",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-07T11:19:15",
-      "excerpt": "Article URL: https://www.currentaffairs.…"
-    },
-    {
-      "title": "検索が実験だった Google 以前のウェブを思い出す",
-      "link": "https://arstechnica.com/gadgets/2026/08/remembering-the-pre-google-web-when-search-was-an-experiment/",
+      "title": "世界最大の太陽望遠鏡が太陽表面の渦を捉えた",
+      "link": "https://arstechnica.com/science/2026/08/the-worlds-biggest-solar-telescope-caught-vortexes-on-the-suns-surface/",
       "source": "Ars Technica（英語）",
-      "published": "2026-08-07T11:00:06",
-      "excerpt": "「ほとんどの人は、それが実際にどれほど混沌としていたかを完全に忘れています。」"
+      "published": "2026-08-07T13:20:46",
+      "excerpt": "私たちは彼らがそこにいることを期待していましたが、以前は小さすぎて見えませんでした。"
+    },
+    {
+      "title": "Web サーバー導入モデルは趣味の規模では壊れる",
+      "link": "https://w.on-t.work/web-deployment-model",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-07T13:15:36",
+      "excerpt": "記事の URL: https://w.on-t.work/web-deployment-model コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "times批判は根本的に正しい。ではなぜ当社の「times文化」が壊れないのか | CloudNative BLOGs",
+      "link": "https://blog.cloudnative.co.jp/articles/slack-times-culture/",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-07T13:12:00",
+      "excerpt": "X上で燃えた「timesにお気持ちを書くな」論争。批判は正しいのにも関わらず、創業時から稼働しているtimes文化が壊れないクラウドネイティブの構造を、Slackアナリティクスの実数とAI日次レポートの運用実態から分析します。"
+    },
+    {
+      "title": "トランプ大統領は風力発電との戦いに負けつつある",
+      "link": "https://arstechnica.com/science/2026/08/trump-is-losing-his-war-on-wind-power/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-08-07T12:58:04",
+      "excerpt": "裁判所は、すべての風力発電プロジェクトの差し止めは明らかに法律違反であるとの判決を下した。"
     }
   ]
 }
