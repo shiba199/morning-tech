@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-08-06T14:42:43",
+  "generated_at": "2026-08-07T00:21:16",
   "window_hours": 24,
-  "total": 227,
+  "total": 168,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。Claude Code v2.1.223がリリースされました。セキュリティ修正4件に加えて、/review の /code-review 統合やコンテキストウィンドウ制御の変更など、運用に影響する重要なアップデートが含まれています。",
+      "summary": "生成AIの新着が29件。Amazon Bedrock、GPT-5.6 LunaとTerraモデルの料金を最大80％引き下げ",
       "articles": [
         {
-          "title": "Claude Code v2.1.223 の主要アップデート - 権限バイパスの修正と /review の /code-review 統合",
-          "link": "https://dev.classmethod.jp/articles/20260806-cc-updates-v2-1-223/",
-          "source": "DevelopersIO",
-          "published": "2026-08-06T13:56:42",
-          "excerpt": "Claude Code v2.1.223がリリースされました。セキュリティ修正4件に加えて、/review の /code-review 統合やコンテキストウィンドウ制御の変更など、運用に影響する重要なアップデートが含まれています。"
+          "title": "Amazon Bedrock、GPT-5.6 LunaとTerraモデルの料金を最大80％引き下げ",
+          "link": "https://codezine.jp/article/detail/29258",
+          "source": "CodeZine",
+          "published": "2026-08-06T23:00:00",
+          "excerpt": "Amazon Bedrock、GPT-5.6 LunaとTerraモデルの料金を最大80％引き下げ"
         },
         {
-          "title": "人間は 40,000 回のゲーム実行で AI エージェントのコマンドを承認する脅威の 3 分の 1 を見逃しました",
-          "link": "https://scalex.dev/blog/ai-agent-permissions-stats/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-06T11:58:07",
-          "excerpt": "記事の URL: https://scalex.dev/blog/ai-agent-permissions-stats/ コメント URL: https://news.ycombinator.com/item?…"
+          "title": "ランタイムインスタンス: Amazon Bedrock AgentCore 上の本番 AI エージェントの永続的コンピューティング",
+          "link": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-08-06T22:58:00",
+          "excerpt": "Amazon Bedrock AgentCore のランタイム インスタンスを発表します。…"
         },
         {
-          "title": "Kiro Crew のアーキテクチャから学ぶ、永続型 AI エージェント基盤の設計",
-          "link": "https://zenn.dev/aws_japan/articles/dc2ee378f25adb",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-06T11:41:17",
-          "excerpt": "はじめに こんにちは konippi です。…"
+          "title": "OpenAIの新しいAIスマートスピーカーは300ドルから400ドルで販売されると報じられている",
+          "link": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-06T22:43:53",
+          "excerpt": "OpenAI の謎の新しい AI デバイスに関する追加の詳細を見ると、それは高価なスマート スピーカーのように聞こえます。"
         },
         {
-          "title": "メタが最新のAIエージェントがテストペンから出てきたことを世界に発表",
-          "link": "https://www.theregister.com/ai-and-ml/2026/08/06/meta-latest-to-tell-world-its-ai-agent-wandered-out-of-test-pen/5283947",
-          "source": "The Register（英語）",
-          "published": "2026-08-06T10:24:04",
-          "excerpt": "別の週、別の企業が自社のモデルの1つが想定外の場所に到達した理由を説明した"
+          "title": "「ChatGPT」のデフォルトモデル、PlusとProは「Sol」に、無料版は「Luna」でテキストチャット無制限に",
+          "link": "https://www.itmedia.co.jp/news/article/2608/07/2000000435/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-06T21:32:08",
+          "excerpt": "OpenAIはChatGPTのデフォルトモデル変更を発表した。有料版には事実の正確性と応答速度を高めた改良版「GPT-5.6 Sol」を導入し、思考時間を選択できるスライダーを追加。無料版および「ChatGPT Go」には「GPT-5.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。はじめに 先日、DLsiteの音声作品について、現在価格やセール状況を確認できるサイト「声の価格」を公開しました。https://koenokakaku.…",
+      "summary": "クラウドの新着が16件。【Azure Firewall】FQDN許可しているのにAWS S3への通信がDenyされる原因と対策 Azure 上の仮想マシン（VM）から AWS S3 などの外部クラウドサービスへデータを送信する際、「Azure Firewall の…",
       "articles": [
         {
-          "title": "【AWS】Lambdaの自己継続実行があっても、ECS/Fargateを選んだ理由と実装【個人開発】",
-          "link": "https://zenn.dev/koenokakaku/articles/8b4a9a7d58d67f",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-06T13:31:55",
-          "excerpt": "はじめに 先日、DLsiteの音声作品について、現在価格やセール状況を確認できるサイト「声の価格」を公開しました。https://koenokakaku.…"
-        },
-        {
-          "title": "Lambdaのコードを自分のS3バケットから直接参照できるようになったので、クォータを実測して確かめてみた",
-          "link": "https://qiita.com/leomarokun/items/477ccd636a0dccf45bf8",
+          "title": "【Azure Firewall】FQDN許可しているのにAWS S3への通信がDenyされる原因と対策",
+          "link": "https://qiita.com/tanhiroshi/items/90d280b4355985e13278",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-06T10:26:56",
-          "excerpt": "はじめに Lambda のデプロイパッケージって、S3 バケットに置いてデプロイしていても、実はその裏で Lambda側 にコピーが作られていました。…"
+          "published": "2026-08-06T23:25:20",
+          "excerpt": "【Azure Firewall】FQDN許可しているのにAWS S3への通信がDenyされる原因と対策 Azure 上の仮想マシン（VM）から AWS S3 などの外部クラウドサービスへデータを送信する際、「Azure Firewall の…"
         },
         {
-          "title": "Innovative Crosstalk Jamboree Geeks’26に参加・登壇してきました！ | SmartHR Tech Blog",
-          "link": "https://tech.smarthr.jp/entry/2026/08/06/183011",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-06T09:30:11",
-          "excerpt": "こんにちは！SmartHRの業務連携基盤ユニットでプロダクトエンジニアをしているいとじゅんです！SmartHRの新卒1期生として2026年に入社しました。…"
+          "title": "Amazon ECS が Amazon EC2 G6f インスタンスでフラクショナル GPU スケジューリングをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-06T22:00:00",
+          "excerpt": "Amazon Elastic Container Service (Amazon ECS) は、Amazon EC2 G6f インスタンスでのフラクショナル GPU スケジューリングをサポートするようになり、3 GB の GPU メモリを搭…"
         },
         {
-          "title": "Amazon RDS の DB サーバー証明書は手動でローテーションできますか",
-          "link": "https://dev.classmethod.jp/articles/tsnote-rds-certificate-rotation/",
-          "source": "DevelopersIO",
-          "published": "2026-08-06T08:00:10",
-          "excerpt": "Amazon RDS のサーバー証明書を手動ローテーションする方法について、DB エンジンの対応状況と具体的な手順を紹介します。"
+          "title": "Amazon EC2 G7 インスタンスが AWS ヨーロッパ (スペイン) リージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-g7-available-spain",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-06T20:51:00",
+          "excerpt": "NVIDIA RTX PRO 4500 Blackwell Server Edition GPU を搭載した Amazon Elastic Compute Cloud (Amazon EC2) G7 インスタンスがヨーロッパ (スペイン)…"
+        },
+        {
+          "title": "移行のための AWS Transform は起動後のアクションを自動化します",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-for-migrations-automates-post-launch-actions",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-06T17:00:00",
+          "excerpt": "AWS Transform は、移行ワークフローを通じて起動後のアクションの設定と実行を自動化するようになりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。ESU メーターは 1 月に実行を開始します (IoT エディションを使用している場合を除く)",
+      "summary": "セキュリティの新着が9件。放っておくと、自律的な修正では欠陥を完全に修正できないことがよくあります",
       "articles": [
+        {
+          "title": "AI は大人の監督なしで脆弱性にパッチを適用するのに苦労する",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/06/ai-struggles-to-patch-vulns-without-adult-supervision/5284319",
+          "source": "The Register（英語）",
+          "published": "2026-08-06T19:04:30",
+          "excerpt": "放っておくと、自律的な修正では欠陥を完全に修正できないことがよくあります"
+        },
+        {
+          "title": "SecurityHub CSPMでの検出から解消までの運用設計",
+          "link": "https://zenn.dev/rien_776/articles/a9ca58abead4eb",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-06T14:46:34",
+          "excerpt": "読者ターゲット層 Security Hub の対応はしたいが、CSPM 以外のコストに悩んでいる人 Security Hub のそもそもの運用設計を考えたい人 前提 タスク管理は GitHub Project をメインで使用しています。…"
+        },
         {
           "title": "Windows 10 LTSC 2021 のセキュリティ更新に追加費用がかかるまであと 5 か月",
           "link": "https://www.theregister.com/os-platforms/2026/08/06/windows-10-ltsc-2021-has-five-months-before-security-updates-cost-extra/5283904",
@@ -92,28 +106,21 @@
           "source": "@IT",
           "published": "2026-08-06T07:00:00",
           "excerpt": "Anthropicは、「Claude Tag」における「エージェントアイデンティティー」アクセスモデルの仕組みと、チームのワークスペースでこれを構成する際のベストプラクティスを解説したブログ記事を公開した。"
-        },
-        {
-          "title": "中国のルーターベンダーは自社のファームウェアにバックドアが含まれていることを否定しているが、いずれにしてもセキュリティ問題を解決するためにダウンロードを一時停止している",
-          "link": "https://www.theregister.com/security/2026/08/06/chinese-router-vendor-denies-its-firmware-contains-backdoors-but-pauses-downloads-to-fix-security-issues-anyway/5283794",
-          "source": "The Register（英語）",
-          "published": "2026-08-06T04:57:43",
-          "excerpt": "これは単なるリモートメンテナンス機能だとZbtlinkは言う"
-        },
-        {
-          "title": "MD5で保存したパスワードは一瞬で平文に戻る ── 暗号・シークレット管理の急所",
-          "link": "https://qiita.com/amu-kuroneko/items/96b8949d6efc767fee3c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-06T02:56:47",
-          "excerpt": "はじめに ── その\"隠したつもり\"が、命取りになる 数年前の私は、パスワードを自作の「MD5 + 固定ソルト」で保存して、「平文じゃないから安全」と本気で思っていました。しかも API キーや DB パスワードは .…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が9件。Amazon DynamoDB を運用データに使用しているアプリケーションの多くは、ベクトル類似性検索も必要と […]",
+      "summary": "データ分析の新着が4件。アジアパシフィック (ニュージーランド)、アジアパシフィック (タイ)、アジアパシフィックで、 AWS Glue スキーマ レジストリ ( AWS Glue のサーバーレスで無料の機能) を使用できるようになりました。…",
       "articles": [
+        {
+          "title": "AWS Glue Schema Registry がさらに 10 の AWS リージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-gsr-10-more-regions",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-06T18:56:00",
+          "excerpt": "アジアパシフィック (ニュージーランド)、アジアパシフィック (タイ)、アジアパシフィックで、 AWS Glue スキーマ レジストリ ( AWS Glue のサーバーレスで無料の機能) を使用できるようになりました。…"
+        },
         {
           "title": "Amazon DynamoDB のネイティブベクトルサポートでセマンティック検索を構築する",
           "link": "https://aws.amazon.com/jp/blogs/news/build-semantic-search-with-native-vector-support-in-amazon-dynamodb/",
@@ -134,21 +141,21 @@
           "source": "CodeZine",
           "published": "2026-08-06T01:00:00",
           "excerpt": "GitHub、「Copilot Billing Preview」を8月4日に廃止"
-        },
-        {
-          "title": "Amazon DynamoDBの新機能「ベクトルデータサポート」をCLIで試してみた",
-          "link": "https://dev.classmethod.jp/articles/dynamodb-realtime-vector-search/",
-          "source": "DevelopersIO",
-          "published": "2026-08-05T22:18:07",
-          "excerpt": "Amazon DynamoDBのベクトルデータサポートがGAになりました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。はじめに 2026年8月4日に、Kiro Crew がGA（一般公開）されました。Kiro Crew は、Kiro CLI をエージェントエンジンとして使う、常駐型のエージェントワークスペースです。…",
+      "summary": "開発ツールの新着が10件。あそこを見てください、副操縦士 - ここはデジタルウサギの世話ができる美しい AI ファームです",
       "articles": [
+        {
+          "title": "最新の GitHub の停止により、アクションとページが機能不全に陥る",
+          "link": "https://www.theregister.com/devops/2026/08/06/latest-github-outage-squeezes-actions-pages-to-death/5284297",
+          "source": "The Register（英語）",
+          "published": "2026-08-06T18:30:48",
+          "excerpt": "あそこを見てください、副操縦士 - ここはデジタルウサギの世話ができる美しい AI ファームです"
+        },
         {
           "title": "Kiro CrewがGAされたのでGitHub Codespaces上で試してみた ~installからチャット送信まで~",
           "link": "https://qiita.com/yuuuka/items/112c27a2ccac9362ba59",
@@ -169,45 +176,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-06T08:02:44",
           "excerpt": "はじめにHono RPCでは、サーバー側のrouteから得たAppTypeをhc lt;AppType gt;()へ渡すことで、requestとresponseの型をクライアントへ共有できます。…"
-        },
-        {
-          "title": "AWSのContext Ontology Acceleratorを実際にデプロイして、意地悪なデータを食わせてみた",
-          "link": "https://zenn.dev/mskbhd/articles/lab-231-aws-coa-deploy-fk-inference",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-06T05:44:02",
-          "excerpt": "AWS が公開している OSS Context Ontology Accelerator（以下 COA）を、自分の AWS アカウントにデプロイして触ってみました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ミッチェル・ハシモト氏が新会社「Superlogical」を設立、あらゆる仕事に使えるマルチプレクサの開発へ",
-      "link": "https://www.publickey1.jp/blog/26/superlogical.html",
-      "source": "Publickey",
-      "published": "2026-08-06T15:26:54",
-      "excerpt": "HashiCorpの共同創業者であり、同社を退社後は個人開発者としてターミナルソフト「Ghostty」の開発を進めていたミッチェル・ハシモト氏が、新会社［Superlogical」の設立を発表しました。I've started a...…"
+      "title": "医療情報システムの安全管理に関するガイドライン第7.0版の改定ポイントをAWSアーキテクチャの観点で整理してみた",
+      "link": "https://dev.classmethod.jp/articles/iro-guideline70-aws/",
+      "source": "DevelopersIO",
+      "published": "2026-08-07T00:06:14",
+      "excerpt": "医療情報システムのガイドライン第7.0版が改定されました。本記事では、この改定内容をAWSクラウド上での設計・運用にどう落とし込むかを整理します。保守委託や脆弱性対策、認証方式など、実装に影響しそうなポイントを確認してみます。"
     },
     {
-      "title": "Microsoft、MS 365 Copilot からドメイン除外を除外 - 導入から数日後",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/06/microsoft-excludes-domain-exclusion-from-ms-365-copilot-days-after-rolling-it-out/5284106",
-      "source": "The Register（英語）",
-      "published": "2026-08-06T14:34:00",
-      "excerpt": "おそらくドメインの許可リストの方が良いでしょうか?"
+      "title": "なぜAIで速く作れても成果は増えないのか──及川卓也氏が説く、AIネイティブ時代に人間が手放してはいけない2つの仕事",
+      "link": "https://codezine.jp/article/detail/29119",
+      "source": "CodeZine",
+      "published": "2026-08-06T23:00:00",
+      "excerpt": "生産性は上がった。しかし、収益は増えていない。…"
     },
     {
-      "title": "eBayは記録的な四半期を経てもライブショッピングに賭け続ける",
-      "link": "https://techcrunch.com/2026/08/06/ebay-continues-to-bet-on-live-shopping-after-record-quarter/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-06T14:17:46",
-      "excerpt": "eBayは、今後数週間から数カ月でより多くの国際市場に拡大する計画で、eBay Liveの総商品量の増加を宣伝した。"
+      "title": "パスキー神話崩壊　Google Password Managerの同期機能を狙う新攻撃手法",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/07/news030.html",
+      "source": "@IT",
+      "published": "2026-08-06T23:00:00",
+      "excerpt": "パスワードに代わる認証手段として普及が進むパスキー。しかし、研究者が公表した新たな攻撃手法は、その安全性を支える“別の仕組み”に着目していた。…"
     },
     {
-      "title": "スノーフレーク恐喝者、被害者165人のクラウド犯罪を認め、1人の標的を2回圧迫",
-      "link": "https://www.theregister.com/storage/2026/08/06/snowflake-extortionist-admits-165-victim-cloud-crime-spree-and-squeezing-one-target-twice/5284059",
-      "source": "The Register（英語）",
-      "published": "2026-08-06T14:00:00",
-      "excerpt": "コナー・ムーカ、数十億件の記録を略奪した大規模な2024年のキャンペーンで有罪を認める"
+      "title": "AWS東京/大阪Act-Actの代償は「DB呼び出し1回あたり17.6ms」だった",
+      "link": "https://qiita.com/mekabuko/items/5ef537d4660b12847110",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-06T22:58:25",
+      "excerpt": "TL;DR AWSで東京/大阪をAct-Actにし、DBは東京単一という構成のレイテンシコストを実測した 代償はリージョンをまたぐ呼び出し1回あたり約17.6ms。…"
     }
   ]
 }
