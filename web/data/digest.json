@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-07T17:39:14",
+  "generated_at": "2026-08-07T18:37:23",
   "window_hours": 24,
-  "total": 239,
+  "total": 244,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が49件。Cloudflareは、人間ではなくAIエージェント向けに設計されたクラウドホスト型ブラウザであるKitesurfを導入しました。…",
+      "summary": "生成AIの新着が51件。はじめに Fusicのレオナです。Amazon Bedrockでは、AWS標準の署名認証であるSigV4に加えて、APIキーによるBearer認証を利用できます。…",
       "articles": [
+        {
+          "title": "Amazon Bedrockの長期APIキー作成と短期APIキー利用をIAMポリシーで拒否してみた",
+          "link": "https://zenn.dev/fusic/articles/cd15c2cb068ed9",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-07T17:13:17",
+          "excerpt": "はじめに Fusicのレオナです。Amazon Bedrockでは、AWS標準の署名認証であるSigV4に加えて、APIキーによるBearer認証を利用できます。…"
+        },
         {
           "title": "CloudflareがAIエージェント用に構築されたブラウザKitesurfを発表",
           "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
@@ -29,13 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-07T13:58:54",
           "excerpt": "Snowflakeのコスト増加に悩む社内検証環境の課題解決に向け、BIツール「Omni」のAgent機能だけを使い、要件定義からSemantic Layer作成、Routine設定まで一気通貫で構築できるか試してみました。"
-        },
-        {
-          "title": "Amzon Bedrock AgentCore GatewayでCodexの利用量とBudgetを制御する",
-          "link": "https://zenn.dev/kashiwabaray/articles/796539362435eb",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-07T13:30:59",
-          "excerpt": "※本記事は筆者個人の検証結果および見解に基づくものであり、所属組織の公式な見解・方針を示すものではありません。1.…"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。AWS IAM Identity Center では、新しい組織インスタンスを作成するときにマルチリージョンのサポートを有効にすることが簡単になりました。…",
+      "summary": "セキュリティの新着が17件。はじめに Fusicのレオナです。Amazon Bedrockでは、AWS標準の署名認証であるSigV4に加えて、APIキーによるBearer認証を利用できます。…",
       "articles": [
+        {
+          "title": "Amazon Bedrockの長期APIキー作成と短期APIキー利用をIAMポリシーで拒否してみた",
+          "link": "https://zenn.dev/fusic/articles/cd15c2cb068ed9",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-07T17:13:17",
+          "excerpt": "はじめに Fusicのレオナです。Amazon Bedrockでは、AWS標準の署名認証であるSigV4に加えて、APIキーによるBearer認証を利用できます。…"
+        },
         {
           "title": "AWS IAM Identity Center は、新しい組織インスタンスのワンクリック マルチリージョン オプションをサポートします",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-identity-center-supports-one-click-multi-region-option-new-organization-instances",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-07T11:06:44",
           "excerpt": "Kiro WebとIAM Roleの連携が新しい信頼ポリシーに対応しました。旧方式との違いや実際の設定方法、CloudTrailログでの動作確認を試してみました"
-        },
-        {
-          "title": "KDDI、社内の全システムで脆弱性診断へ　1220万人分漏えいで「未知の脆弱性と片付けない」",
-          "link": "https://www.itmedia.co.jp/news/article/2608/07/2000000453/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-07T09:53:41",
-          "excerpt": "KDDIの松田浩道社長は8月7日の決算会見で、ISP事業者向けメールシステムへの不正アクセスによる大規模漏えいについて「行政指導を厳粛に受け止めている」と述べ、保有システム群の脆弱性診断を急ぐ考えを示した。"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。こんにちは、tekuteku です。今回は ブランチごとに立てる使い捨てのステージング環境（マルチステージング） について、自分の理解を整理しながら共有していきます。ステージングは「本番のコピーが 1 つあればいい」と思われがちです。…",
+      "summary": "開発ツールの新着が7件。こんにちは、tekuteku です。今回は ブランチごとに立てる使い捨てのステージング環境（マルチステージング） について、自分の理解を整理しながら共有していきます。ステージングは「本番のコピーが 1 つあればいい」と思われがちです。…",
       "articles": [
         {
           "title": "ブランチごとのステージング環境を 1 台に同居させ、デプロイを GitHub Actions に寄せる",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "お店の成長とともに、AWS環境はどう拡大していくのか考えてみた",
-      "link": "https://dev.classmethod.jp/articles/summer-project-2026-aws-shop-growth-koty-mousa/",
-      "source": "DevelopersIO",
-      "published": "2026-08-07T17:24:19",
-      "excerpt": "架空のお店の成長を通じて、AWS環境がどのように拡大していくのか考えてみました"
+      "title": "ICEは、当局の「最善の利益」に見られる場合にのみボディカムビデオを公開する",
+      "link": "https://apnews.com/article/ice-body-cameras-officers-shootings-dab1b294c8dc412d9ef8557ccbebfd57",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-07T18:15:33",
+      "excerpt": "記事の URL: https://apnews.…"
     },
     {
-      "title": "富裕層向け減税は富裕層のみに利益をもたらす (2023 年)",
-      "link": "https://www.lse.ac.uk/research/research-for-the-world/economics/tax-cuts-for-the-wealthy-only-benefit-the-rich-debunking-trickle-down-economics",
+      "title": "恥辱の集会所",
+      "link": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
       "source": "Hacker News（英語）",
-      "published": "2026-08-07T16:44:28",
-      "excerpt": "記事の URL: https://www.lse.ac.…"
+      "published": "2026-08-07T18:01:30",
+      "excerpt": "記事の URL: https://github.com/xoreaxeaxeax/asm-hall-of-shame コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "重要なサイバー機能の次のフロンティアへの対応",
-      "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+      "title": "ノーコードの終わり",
+      "link": "https://blog.exe.dev/the-end-of-no-code",
       "source": "Hacker News（英語）",
-      "published": "2026-08-07T16:39:36",
-      "excerpt": "記事の URL: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/ コメント URL: https://news.…"
+      "published": "2026-08-07T17:59:19",
+      "excerpt": "記事の URL: https://blog.exe.dev/the-end-of-no-code コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "この鉱山は大規模な戦争を予言します。またまた開幕です",
-      "link": "https://www.bloomberg.com/graphics/2026-opinion-australia-tungsten-mine-us-war-defense-china/",
+      "title": "ディープシーク V4 フラッシュ 0731",
+      "link": "https://arcprize.org/results/deepseek-v4-flash-0731",
       "source": "Hacker News（英語）",
-      "published": "2026-08-07T16:14:37",
-      "excerpt": "記事の URL: https://www.bloomberg.…"
+      "published": "2026-08-07T17:56:20",
+      "excerpt": "記事の URL: https://arcprize.org/results/deepseek-v4-flash-0731 コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
