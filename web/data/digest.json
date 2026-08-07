@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-07T14:44:21",
+  "generated_at": "2026-08-07T15:42:34",
   "window_hours": 24,
-  "total": 220,
+  "total": 228,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が48件。Snowflakeのコスト増加に悩む社内検証環境の課題解決に向け、BIツール「Omni」のAgent機能だけを使い、要件定義からSemantic Layer作成、Routine設定まで一気通貫で構築できるか試してみました。",
+      "summary": "生成AIの新着が48件。SSM Agentを古いバージョンへダウングレードしようとしたら想定外の挙動に直面しました。その原因と解決方法、そしてマニフェストを活用した手順について紹介します。",
       "articles": [
+        {
+          "title": "Run Command で SSM Agent をダウングレードする手順を検証してみた",
+          "link": "https://dev.classmethod.jp/articles/ssm-agent-downdrade-kensho/",
+          "source": "DevelopersIO",
+          "published": "2026-08-07T15:04:51",
+          "excerpt": "SSM Agentを古いバージョンへダウングレードしようとしたら想定外の挙動に直面しました。その原因と解決方法、そしてマニフェストを活用した手順について紹介します。"
+        },
         {
           "title": "SnowflakeのコストをOmniで日次監視する仕組みを、OmniのAgent機能だけでサクッと作ってみた",
           "link": "https://dev.classmethod.jp/articles/snowflake-cost-monitoring-with-omni/",
@@ -29,13 +36,6 @@
           "source": "Ars Technica（英語）",
           "published": "2026-08-07T13:29:22",
           "excerpt": "TikTok オーナーが 10 兆のパラメーターを使用してモデルをトレーニングしています。"
-        },
-        {
-          "title": "「AIに任せて大丈夫？エージェントの暴走を物理的に止める『ガードレール』構築の決定版」～【ai】人気記事TOP5（2026/08/02） | CareNet Engineersのフィード",
-          "link": "https://zenn.dev/carenet/articles/zenn-weekly-ai-articles-2026-08",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-07T12:40:33",
-          "excerpt": "!この記事はZennからaiのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「AIに任せて大丈夫？…"
         }
       ]
     },
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。キミ テストでは、実験を含むように設計されたサンドボックスが適切に構成されていませんでした。",
+      "summary": "セキュリティの新着が14件。キミ テストでは、実験を含むように設計されたサンドボックスが適切に構成されていませんでした。",
       "articles": [
         {
           "title": "中国のAIモデル「キミ」がサイバーセキュリティ試験環境から逃げ出したと研究者が発表",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "独自の Disrupt 作品を主催する: TechCrunch Disrupt 2026 でサイド イベントの実行を申請する",
-      "link": "https://techcrunch.com/2026/08/07/host-your-own-piece-of-disrupt-apply-to-run-a-side-event-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-07T14:30:00",
-      "excerpt": "創業者交流会、営業時間外のパネルディスカッション、テーマ別パーティー、朝のランニングなど、目標に合ったものからコンセプトを組み立てると、TechCrunch チームがそれを Disrupt のためにすでに街にいる参加者の前で発表するのを手伝…"
+      "title": "社内合宿でAI BPRを取り組んでみた",
+      "link": "https://dev.classmethod.jp/articles/ai-bpr-workshop-internal-camp/",
+      "source": "DevelopersIO",
+      "published": "2026-08-07T15:18:51",
+      "excerpt": "先日、部内でAI BPRを活用したBPR勉強会を実施しました。案件対応中心のエンジニアがSales業務を「お客様」として体験することで、技術的な学びだけでなく同僚への理解と共感が生まれた、その経験を共有します。"
     },
     {
-      "title": "Airbnbは、新しい検索機能をテストする際にAIが機能の迅速な提供に役立っていると述べている",
-      "link": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-07T14:22:49",
-      "excerpt": "Airbnbは、トグル機能を備えたAIを活用した新しい検索エクスペリエンスをデビューさせます。"
+      "title": "インターネットの別の一角が台無しになった",
+      "link": "https://www.freeformatter.com/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-07T15:16:20",
+      "excerpt": "記事の URL: https://www.freeformatter.com/ コメント URL: https://news.ycombinator.com/item?id=49211758 ポイント: 10 コメント数: 5"
     },
     {
-      "title": "MIT boffins の TONTOU 攻撃が Intel と AMD CPU の Spectre 防御をすり抜けます",
-      "link": "https://www.theregister.com/security/2026/08/07/mit-boffins-tontou-attack-slips-through-spectre-defenses-on-intel-and-amd-cpus/5284081",
+      "title": "トランプ政権は洋上風力発電所の中止に40億ドル近くを費やした",
+      "link": "https://techcrunch.com/2026/08/07/trump-administration-has-spent-nearly-4b-to-cancel-offshore-wind-farms/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-07T15:11:03",
+      "excerpt": "トランプ政権は現在、12件の洋上風力リース契約を放棄するよう開発業者を説得した。最新のものでは納税者に12億ドルの負担がかかることになる。"
+    },
+    {
+      "title": "N-able God モードの欠陥: 2 番目のホットフィックスが到着した際に攻撃者が顧客のネットワークに到達したことをベンダーが確認",
+      "link": "https://www.theregister.com/networks/2026/08/07/n-able-god-mode-flaw-vendor-confirms-attackers-reached-customer-networks-as-second-hotfix-lands/5284730",
       "source": "The Register（英語）",
-      "published": "2026-08-07T14:15:00",
-      "excerpt": "タイマー割り込みにより分岐予測ポイズニング ウィンドウが再開され、それを証明する動作する Zen 2 エクスプロイトが使用されます。"
-    },
-    {
-      "title": "スペースXのテラファブはテスラのソーラーパネルではなく天然ガス発電所に依存する",
-      "link": "https://techcrunch.com/2026/08/07/spacexs-terafab-will-rely-on-natural-gas-power-plants-not-tesla-solar-panels/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-07T14:07:31",
-      "excerpt": "スペースXとテスラはテキサス州に大規模な半導体工場を建設中だが、この工場はテスラのソーラーパネルではなく天然ガス発電所に依存することになる。"
+      "published": "2026-08-07T15:01:00",
+      "excerpt": "攻撃者は管理者アクセスをダウンストリームのルートに変えましたが、N-able は N-central の顧客にパッチを適用するよう指示しました – 再び"
     }
   ]
 }
