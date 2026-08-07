@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-08-07T08:04:57",
+  "generated_at": "2026-08-07T09:28:58",
   "window_hours": 24,
-  "total": 186,
+  "total": 196,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が39件。本記事では、AWS Bedrock LLM Day Japan の「AWS Keynote と最新アップデート」セッションで紹介された、Amazon BedrockおよびAIエージェント関連サービスのアップデートをレポートします。…",
+      "summary": "生成AIの新着が41件。ビジネスチャンス 組織は、エンタープライズレディな AI エージェント、つまりテクノロジーランドスケープ全体の […]",
       "articles": [
         {
-          "title": "Amazon Bedrock 最新アップデート_AgentCore、Managed Knowledge Base、AWS Context",
-          "link": "https://qiita.com/suzukisawa/items/db13f04a825b1845d808",
+          "title": "エージェンティックエンタープライズを AWS for SAP MCP Server on Amazon Bedrock AgentCore で実現",
+          "link": "https://aws.amazon.com/jp/blogs/news/building-agentic-enterprises-on-aws-using-aws-for-sap-mcp-server-on-amazon-bedrock-agentcore/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-07T09:26:35",
+          "excerpt": "ビジネスチャンス 組織は、エンタープライズレディな AI エージェント、つまりテクノロジーランドスケープ全体の […]"
+        },
+        {
+          "title": "AI-DLC Workflows v2 とは — 「小さなモブと広いエージェント」で自律実行を成立させる設計",
+          "link": "https://qiita.com/y-morimatsu/items/99b6f10c4c2a36fd4b08",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-07T07:37:47",
-          "excerpt": "本記事では、AWS Bedrock LLM Day Japan の「AWS Keynote と最新アップデート」セッションで紹介された、Amazon BedrockおよびAIエージェント関連サービスのアップデートをレポートします。…"
+          "published": "2026-08-07T09:17:47",
+          "excerpt": "グラレコ はじめに AI-DLC Workflows v2（awslabs/aidlc-workflows）は、AWS Labs が公開している、AIコーディングエージェント向けの開発ワークフローのルールセットです。公式の定義はこうです。…"
         },
         {
-          "title": "【AI活用】RAGの基本と「社内知識をAIに使わせる」設計 | エイトハンドレッド TECH BLOG",
-          "link": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/08/07/155540",
+          "title": "仕様の不足を指摘するLinear Agentで開発の高速化を目指す | Geekplus Tech Blogのフィード",
+          "link": "https://zenn.dev/geekplus/articles/84dbe103f3b2d6",
           "source": "企業テックブログまとめ",
-          "published": "2026-08-07T06:55:40",
-          "excerpt": "「社内のマニュアルをAIに読ませたい」。この相談は本当によく聞きます。ところが実際に組んでみると、期待したほど答えが返ってこない。原因はモデルの性能ではなく、たいていRAGの設計側にあります。…"
+          "published": "2026-08-07T09:00:08",
+          "excerpt": "概要弊社ではLinearを使ったタスク管理を行っています。今回は、Linearの機能であるLinear Agentを使って開発着手までのリードタイムを短縮することで開発の生産性向上を目指した事例を紹介します。…"
         },
         {
-          "title": "Google Classroom、Geminiでルーブリック自動生成機能を追加",
-          "link": "https://codezine.jp/article/detail/29263",
-          "source": "CodeZine",
-          "published": "2026-08-07T05:30:00",
-          "excerpt": "Google Classroom、Geminiでルーブリック自動生成機能を追加"
-        },
-        {
-          "title": "【最新動向まとめ】Anthropic とOpenAI のAWS活用 | ナレコムAWSレシピ | AIに強い情報サイト",
-          "link": "https://recipe.kc-cloud.jp/archives/19390/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-07T05:01:57",
-          "excerpt": "Claude Platform on AWSとAmazon Bedrock の最新アップデート 2026年5月に一般提供（GA）が開始された Claude Platform on AWS と、同年6月に Amazon B […]"
+          "title": "ランタイムインスタンス: Amazon Bedrock AgentCore 上の本番環境の AI エージェント用のパーシステントコンピューティング",
+          "link": "https://aws.amazon.com/jp/blogs/news/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-07T08:54:58",
+          "excerpt": "AI エージェントをプロトタイプから本番環境に移行すると、インフラストラクチャの課題は倍増します。エージェント […]"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。EKS モジュールを v21 に上げたところ、一部の Pod に IMDS のエラーログが出るようになったため、原因となった hop limit の変更と、機能への影響、解消方法をまとめます。",
+      "summary": "クラウドの新着が15件。はじめに 本記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の7日目の記事です！下記URLから他の方の記事を確認できます。ぜひご覧ください！さて、本題に移ります。…",
       "articles": [
+        {
+          "title": "検証環境にEC2 Spot Instanceは最適解なのか？コストと可用性の観点から考えてみた",
+          "link": "https://qiita.com/01_Riri_53/items/047d2c4867e9d21316bb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-07T09:24:11",
+          "excerpt": "はじめに 本記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の7日目の記事です！下記URLから他の方の記事を確認できます。ぜひご覧ください！さて、本題に移ります。…"
+        },
         {
           "title": "EKS モジュール v21 で hop limit が 1 になって出る IMDS エラーを調べてみた",
           "link": "https://dev.classmethod.jp/articles/eks-v21-hop-limit-imds-error/",
@@ -64,13 +71,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-07T03:06:05",
           "excerpt": "はじめに 別のVPCにあるEC2へ、定期実行ジョブからSSHで接続しようとしても、そのままでは繋がりません。…"
-        },
-        {
-          "title": "kickflow のシリアライザを Alba に移行しました | kickflow Tech Blog",
-          "link": "https://tech.kickflow.co.jp/entry/2026/08/07/113611",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-07T02:36:11",
-          "excerpt": "kickflow でエンジニアをしている川島です。…"
         }
       ]
     },
@@ -112,35 +112,42 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。記事の URL: https://www.reddit.…",
+      "summary": "データ分析の新着が6件。この記事は、CYBOZU SUMMER BLOG FES '26の記事です。こんにちは！サイボウズのトニオ（@tonionagauzzi）です。普段はkintone開発チームにてAndroidアプリを主に開発しています。…",
       "articles": [
+        {
+          "title": "4社合同イベント！Mobile Tech Flex #2『私たちの越境話』を開催しました！ | Cybozu Inside Out | サイボウズエンジニアのブログ",
+          "link": "https://blog.cybozu.io/entry/2026/08/07/180000_1",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-07T09:00:00",
+          "excerpt": "この記事は、CYBOZU SUMMER BLOG FES '26の記事です。こんにちは！サイボウズのトニオ（@tonionagauzzi）です。普段はkintone開発チームにてAndroidアプリを主に開発しています。…"
+        },
+        {
+          "title": "Amazon DynamoDB が、あらゆる規模でリアルタイムのベクトル検索をサポートするようになりました",
+          "link": "https://aws.amazon.com/jp/blogs/news/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-07T08:22:59",
+          "excerpt": "2026 年 8 月 5 日、 Amazon DynamoDB でのベクトル検索の一般提供についてお知らせしま […]"
+        },
+        {
+          "title": "老舗のマウスユーティリティ「チューチューマウス」がAIの力を借りて15年ぶりに復活／64bit化、Windows 10/11、「Chrome」も走り回る。復活記念で2026年末まで500円",
+          "link": "https://forest.watch.impress.co.jp/docs/news/2131497.html",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-08-07T05:47:22",
+          "excerpt": "老舗のマウスユーティリティ「チューチューマウス」がAIの力を借りて15年ぶりに復活／64bit化、Windows 10/11、「Chrome」も走り回る。復活記念で2026年末まで500円"
+        },
         {
           "title": "64 Debian で Netscape 3.0.2 を正常にコンパイルしました",
           "link": "https://www.reddit.com/r/netscape/comments/1ve7wkm/ive_succesfully_compiled_netscape_302_on_a_64/",
           "source": "Hacker News（英語）",
           "published": "2026-08-07T05:39:32",
           "excerpt": "記事の URL: https://www.reddit.…"
-        },
-        {
-          "title": "Amazon DynamoDBがベクター検索の一般提供を開始",
-          "link": "https://codezine.jp/article/detail/29260",
-          "source": "CodeZine",
-          "published": "2026-08-07T01:00:00",
-          "excerpt": "Amazon DynamoDBがベクター検索の一般提供を開始"
-        },
-        {
-          "title": "AWS Glue Schema Registry がさらに 10 の AWS リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-gsr-10-more-regions",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-06T18:56:00",
-          "excerpt": "アジアパシフィック (ニュージーランド)、アジアパシフィック (タイ)、アジアパシフィックで、 AWS Glue スキーマ レジストリ ( AWS Glue のサーバーレスで無料の機能) を使用できるようになりました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。2026年8月6日、AIエージェントで再利用可能なコンポーネントをポータブルなプラグインとしてパッケージ化するためのオープンな標準規格「Agent Plugins」が発表された。",
+      "summary": "開発ツールの新着が5件。2026年8月6日、AIエージェントで再利用可能なコンポーネントをポータブルなプラグインとしてパッケージ化するためのオープンな標準規格「Agent Plugins」が発表された。",
       "articles": [
         {
           "title": "Vercel、OpenAI、GitHub、Microsoft、AWS、Anysphereらが参加、AIエージェントのプラグイン共通規格「Agent Plugins」発表",
@@ -175,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "なぜ「ユーザー価値ファースト」がアジャイル組織をつくるのか？ 〜ソリューションファーストと御用聞き開発の罠〜 | ABEJA Tech Blog",
-      "link": "https://tech-blog.abeja.asia/entry/user-value-first-agile-organization-202608",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-07T07:04:42",
-      "excerpt": "スクラムを回しているのに「使われないものが積み上がる」——その正体は御用聞き開発とソリューションファーストの罠かもしれません。…"
+      "title": "警察システムを利用して詐欺師仲間の情報を盗み出した警官、コンピュータ乱用法違反で有罪判決",
+      "link": "https://www.theregister.com/legal/2026/08/07/cop-who-used-police-system-to-snoop-for-info-on-crook-pals-sentenced-for-computer-misuse-act-offenses/5284191",
+      "source": "The Register（英語）",
+      "published": "2026-08-07T09:26:00",
+      "excerpt": "マージーサイドの元警察官、間違った群衆と「近づきすぎた」と宣言せず解雇"
     },
     {
-      "title": "防衛装備庁、ITコンサルSHIFTに「AI装備品」の審査支援を委託",
-      "link": "https://www.itmedia.co.jp/news/article/2608/07/2000000449/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-07T07:01:54",
-      "excerpt": "ITコンサルティング事業を手掛けるSHIFT（東京都港区）が、防衛装備庁によるAI装備品の技術的審査を支援する。"
+      "title": "AWSの資格取得や学習、モチベーション維持で役立ちそうなものの簡易まとめ☁️",
+      "link": "https://qiita.com/electric-eel/items/8701bc84c5127732aab8",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-07T09:15:56",
+      "excerpt": "簡易的にAWS関連で資格取得をメインに、役立つURLを添付してまとめました。備忘録です。今後内容はupdateで微修正するかもしれません。↓ゲーム形式でAWSを勉強できる、hands onで学べる。↓AWS資格の過去問道場。…"
     },
     {
-      "title": "社内業務をAIで効率化する流れ 〜法人問い合わせの一次振り分けをAIに任せた話〜 | Cluster Tech Blog",
-      "link": "https://tech-blog.cluster.mu/entry/2026/08/07",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-07T07:00:00",
-      "excerpt": "こんにちは、クラスター株式会社のソフトウェアエンジニアのid:shiba_yu36です。最近はプロダクト開発と共に、AIを活用した社内業務の効率化にも取り組んでいます。clusterには法人のお客様からの問い合わせが日々届きます。…"
+      "title": "NVIDIA GEAR-SONICでUnitree G1の実機を全身テレオペしてみた",
+      "link": "https://dev.classmethod.jp/articles/nvidia-gear-sonic-g1-teleope/",
+      "source": "DevelopersIO",
+      "published": "2026-08-07T09:13:31",
+      "excerpt": "NVIDIAのヒューマノイド全身制御モデルGEAR-SONICを使い、Unitree G1の実機をPICO 4とフルボディトラッカーで全身テレオペしてみました。…"
     },
     {
-      "title": "AWS Transit Gateway、ポリシーベースルーティングの一般提供を開始",
-      "link": "https://codezine.jp/article/detail/29264",
-      "source": "CodeZine",
-      "published": "2026-08-07T07:00:00",
-      "excerpt": "AWS Transit Gateway、ポリシーベースルーティングの一般提供を開始"
+      "title": "【登壇レポート】DevRev 共催イベントのライブデモ「ある会社の、一日」に操作担当として登壇してきました",
+      "link": "https://dev.classmethod.jp/articles/devrev-knowledge-graph-event-live-demo-report/",
+      "source": "DevelopersIO",
+      "published": "2026-08-07T09:12:37",
+      "excerpt": "2026 年 8 月 5 日に開催された DevRev 共催イベントで、40 分のライブデモに操作担当として登壇しました。当日の様子と、オフラインでの登壇を通じて得たものを報告します。"
     }
   ]
 }
