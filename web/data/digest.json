@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-07T13:45:28",
+  "generated_at": "2026-08-07T14:44:21",
   "window_hours": 24,
-  "total": 214,
+  "total": 220,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が47件。TikTok オーナーが 10 兆のパラメーターを使用してモデルをトレーニングしています。",
+      "summary": "生成AIの新着が48件。Snowflakeのコスト増加に悩む社内検証環境の課題解決に向け、BIツール「Omni」のAgent機能だけを使い、要件定義からSemantic Layer作成、Routine設定まで一気通貫で構築できるか試してみました。",
       "articles": [
+        {
+          "title": "SnowflakeのコストをOmniで日次監視する仕組みを、OmniのAgent機能だけでサクッと作ってみた",
+          "link": "https://dev.classmethod.jp/articles/snowflake-cost-monitoring-with-omni/",
+          "source": "DevelopersIO",
+          "published": "2026-08-07T13:58:54",
+          "excerpt": "Snowflakeのコスト増加に悩む社内検証環境の課題解決に向け、BIツール「Omni」のAgent機能だけを使い、要件定義からSemantic Layer作成、Routine設定まで一気通貫で構築できるか試してみました。"
+        },
+        {
+          "title": "Amzon Bedrock AgentCore GatewayでCodexの利用量とBudgetを制御する",
+          "link": "https://zenn.dev/nttdata_tech/articles/796539362435eb",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-07T13:30:59",
+          "excerpt": "※本記事は筆者個人の検証結果および見解に基づくものであり、所属組織の公式な見解・方針を示すものではありません。1.…"
+        },
         {
           "title": "ByteDance は Anthropic に対抗するために大規模な AI モデルをトレーニングします",
           "link": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
@@ -22,20 +36,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-07T12:40:33",
           "excerpt": "!この記事はZennからaiのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「AIに任せて大丈夫？…"
-        },
-        {
-          "title": "Claude Code v2.1.224 の主要アップデート - セルフホスト環境とセッション間メッセージング",
-          "link": "https://dev.classmethod.jp/articles/20260807-cc-updates-v2-1-224/",
-          "source": "DevelopersIO",
-          "published": "2026-08-07T12:28:18",
-          "excerpt": "Claude Code v2.1.224 がリリースされました。セルフホスト環境の構築やセッション間のメッセージング、サンドボックス拒否設定の修正など、31 件の変更が入った今回のアップデート内容を解説します。…"
-        },
-        {
-          "title": "DynamoDBに追加されたベクトル検索を、Streamsでベクトル化してStrands Agentsから使ってみた",
-          "link": "https://dev.classmethod.jp/articles/dynamo-vector-strands/",
-          "source": "DevelopersIO",
-          "published": "2026-08-07T11:27:41",
-          "excerpt": "DynamoDBに新しく追加されたネイティブベクトル検索機能をStrands Agentsから試してみました！"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。Kiro WebとIAM Roleの連携が新しい信頼ポリシーに対応しました。旧方式との違いや実際の設定方法、CloudTrailログでの動作確認を試してみました",
+      "summary": "セキュリティの新着が15件。キミ テストでは、実験を含むように設計されたサンドボックスが適切に構成されていませんでした。",
       "articles": [
+        {
+          "title": "中国のAIモデル「キミ」がサイバーセキュリティ試験環境から逃げ出したと研究者が発表",
+          "link": "https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-07T14:28:31",
+          "excerpt": "キミ テストでは、実験を含むように設計されたサンドボックスが適切に構成されていませんでした。"
+        },
         {
           "title": "[アップデート]Kiro WebのIAM Role設定で信頼ポリシーが更新されていたので動作確認してみた",
           "link": "https://dev.classmethod.jp/articles/update-kiro-web-iam-role-trusted-policy/",
@@ -99,13 +106,6 @@
           "source": "gihyo.jp 開発",
           "published": "2026-08-07T09:52:00",
           "excerpt": "OpenAIは2026年8月6日、GitHubのプルリクエストをセキュリティ面から詳しく調べる「Codex Security Review」を研究プレビューとして提供を開始した。"
-        },
-        {
-          "title": "AWS WAF を使った Web アプリケーション防御のワークショップをやってみた",
-          "link": "https://dev.classmethod.jp/articles/waf-web-application-workshop/",
-          "source": "DevelopersIO",
-          "published": "2026-08-07T09:40:12",
-          "excerpt": "CloudFrontを保護する保護パックの作成から、XSS・SQLインジェクション対策、ボットコントロール、レート制限、API保護まで、7つのステップでセキュリティ対策を実装する手順を紹介します。"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "世界最大の太陽望遠鏡が太陽表面の渦を捉えた",
-      "link": "https://arstechnica.com/science/2026/08/the-worlds-biggest-solar-telescope-caught-vortexes-on-the-suns-surface/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-07T13:20:46",
-      "excerpt": "私たちは彼らがそこにいることを期待していましたが、以前は小さすぎて見えませんでした。"
+      "title": "独自の Disrupt 作品を主催する: TechCrunch Disrupt 2026 でサイド イベントの実行を申請する",
+      "link": "https://techcrunch.com/2026/08/07/host-your-own-piece-of-disrupt-apply-to-run-a-side-event-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-07T14:30:00",
+      "excerpt": "創業者交流会、営業時間外のパネルディスカッション、テーマ別パーティー、朝のランニングなど、目標に合ったものからコンセプトを組み立てると、TechCrunch チームがそれを Disrupt のためにすでに街にいる参加者の前で発表するのを手伝…"
     },
     {
-      "title": "Web サーバー導入モデルは趣味の規模では壊れる",
-      "link": "https://w.on-t.work/web-deployment-model",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-07T13:15:36",
-      "excerpt": "記事の URL: https://w.on-t.work/web-deployment-model コメント URL: https://news.ycombinator.com/item?…"
+      "title": "Airbnbは、新しい検索機能をテストする際にAIが機能の迅速な提供に役立っていると述べている",
+      "link": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-07T14:22:49",
+      "excerpt": "Airbnbは、トグル機能を備えたAIを活用した新しい検索エクスペリエンスをデビューさせます。"
     },
     {
-      "title": "times批判は根本的に正しい。ではなぜ当社の「times文化」が壊れないのか | CloudNative BLOGs",
-      "link": "https://blog.cloudnative.co.jp/articles/slack-times-culture/",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-07T13:12:00",
-      "excerpt": "X上で燃えた「timesにお気持ちを書くな」論争。批判は正しいのにも関わらず、創業時から稼働しているtimes文化が壊れないクラウドネイティブの構造を、Slackアナリティクスの実数とAI日次レポートの運用実態から分析します。"
+      "title": "MIT boffins の TONTOU 攻撃が Intel と AMD CPU の Spectre 防御をすり抜けます",
+      "link": "https://www.theregister.com/security/2026/08/07/mit-boffins-tontou-attack-slips-through-spectre-defenses-on-intel-and-amd-cpus/5284081",
+      "source": "The Register（英語）",
+      "published": "2026-08-07T14:15:00",
+      "excerpt": "タイマー割り込みにより分岐予測ポイズニング ウィンドウが再開され、それを証明する動作する Zen 2 エクスプロイトが使用されます。"
     },
     {
-      "title": "トランプ大統領は風力発電との戦いに負けつつある",
-      "link": "https://arstechnica.com/science/2026/08/trump-is-losing-his-war-on-wind-power/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-07T12:58:04",
-      "excerpt": "裁判所は、すべての風力発電プロジェクトの差し止めは明らかに法律違反であるとの判決を下した。"
+      "title": "スペースXのテラファブはテスラのソーラーパネルではなく天然ガス発電所に依存する",
+      "link": "https://techcrunch.com/2026/08/07/spacexs-terafab-will-rely-on-natural-gas-power-plants-not-tesla-solar-panels/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-07T14:07:31",
+      "excerpt": "スペースXとテスラはテキサス州に大規模な半導体工場を建設中だが、この工場はテスラのソーラーパネルではなく天然ガス発電所に依存することになる。"
     }
   ]
 }
