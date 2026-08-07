@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-07T22:02:36",
+  "generated_at": "2026-08-07T23:01:31",
   "window_hours": 24,
-  "total": 238,
+  "total": 233,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が50件。Agent Plugins 1.0 は、さまざまなエージェント プラットフォーム間でツールとスキルを渡すための、一度だけ実行すればどこでも実行できるコンテナを定義します",
+      "summary": "生成AIの新着が48件。OpenAIは、サイバーセキュリティ能力への懸念から、次期モデル「アストラ」の一部の作業を中断したと発表した。",
       "articles": [
+        {
+          "title": "OpenAI、セキュリティ上の懸念によりアストラモデルの開発を遅らせたと発表",
+          "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-07T22:48:24",
+          "excerpt": "OpenAIは、サイバーセキュリティ能力への懸念から、次期モデル「アストラ」の一部の作業を中断したと発表した。"
+        },
+        {
+          "title": "OpenAI、次期モデル「Astra」の一部開発を停止　「Critical」級サイバー能力の可能性否定できず",
+          "link": "https://www.itmedia.co.jp/news/article/2608/08/2000000459/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-07T22:11:46",
+          "excerpt": "OpenAIは、次期主力モデル「Astra」のサイバー能力が自社の安全指針における最上位「Critical」に達している可能性を発表した。要件を満たさない一部活動を停止し、リアルタイム監視や思考過程の評価など管理を強化する。…"
+        },
         {
           "title": "AI の巨人がプラグイン処方でエージェント フロンティアを整理",
           "link": "https://www.theregister.com/devops/2026/08/07/ai-titans-to-tidy-agent-frontier-with-plugin-prescription/5285017",
@@ -22,28 +36,21 @@
           "source": "AWS What's New（英語）",
           "published": "2026-08-07T18:00:48",
           "excerpt": "Amazon Cognito が、 Agent Toolkit for AWS のコア スキル (aws-auth) として利用できるようになりました。…"
-        },
-        {
-          "title": "OpenAIの高価なスマートスピーカーは可動部品を使用して「より生き生きとしている」ように見える",
-          "link": "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-08-07T17:36:22",
-          "excerpt": "Gurman の報告書によると、OpenAI はこのスピーカーが Apple のパクリではないことを確認したとのこと。"
-        },
-        {
-          "title": "Amazon Bedrockの長期APIキー作成と短期APIキー利用をIAMポリシーで拒否してみた",
-          "link": "https://zenn.dev/fusic/articles/cd15c2cb068ed9",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-07T17:13:17",
-          "excerpt": "はじめに Fusicのレオナです。Amazon Bedrockでは、AWS標準の署名認証であるSigV4に加えて、APIキーによるBearer認証を利用できます。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。はじめに 前回、Amazon Linux 2 (AL2) のサポート終了に伴い、静的サイトを配信しているEC2をAmazon Linux 2023 (AL2023) へ移行した流れを書きました。https://zenn.…",
+      "summary": "クラウドの新着が16件。本日より、Amazon Elastic Compute Cloud (Amazon EC2) R8i および R8i-flex インスタンスがヨーロッパ (ミラノ) リージョンで利用可能になります。…",
       "articles": [
+        {
+          "title": "Amazon EC2 R8i および R8i-Flex インスタンスがヨーロッパ (ミラノ) リージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-07T21:11:00",
+          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) R8i および R8i-flex インスタンスがヨーロッパ (ミラノ) リージョンで利用可能になります。…"
+        },
         {
           "title": "【Amazon Linux 2023】MT Cloud連携サーバーの切替 ― ALBとElastic IPの2経路移行",
           "link": "https://zenn.dev/ykbone/articles/202608-linux-al2023-migration-cutover",
@@ -64,21 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-07T12:36:24",
           "excerpt": "SQLiteからAmazon RDS for PostgreSQLへの移行をpgloaderで実装しました。検証環境の構築から実際の移行手順、ハマりやすいSSL設定、そして移行後に必要な作業まで、実務的な知見をまとめて紹介します。"
-        },
-        {
-          "title": "PC を閉じても Kiro / Claude Code は動き続ける — EC2 + tmux で 24 時間開発",
-          "link": "https://zenn.dev/aws_japan/articles/49d2c641322289",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-07T10:12:42",
-          "excerpt": "はじめに こんにちは、AWS Japan でソリューションアーキテクトをしている吉川です。エージェントに大きめの仕事を任せている間、PC を開けっぱなしにして待っていませんか。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。研究者らは、Web コンテンツの整理と表示に使用されるソフトウェアなどの共通障害点が原因で、ハッカーが政府 Web サイトを介して暴動を起こす可能性があることを発見しました。",
+      "summary": "セキュリティの新着が18件。OpenAIは、サイバーセキュリティ能力への懸念から、次期モデル「アストラ」の一部の作業を中断したと発表した。",
       "articles": [
+        {
+          "title": "OpenAI、セキュリティ上の懸念によりアストラモデルの開発を遅らせたと発表",
+          "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-07T22:48:24",
+          "excerpt": "OpenAIは、サイバーセキュリティ能力への懸念から、次期モデル「アストラ」の一部の作業を中断したと発表した。"
+        },
         {
           "title": "セキュリティ研究者がポーランドのウェブをスキャンしたところ、裁判所、病院、空港がハッキングの危険にさらされていることが判明した",
           "link": "https://techcrunch.com/2026/08/07/security-researchers-scanned-the-polish-web-and-found-courts-hospitals-and-airports-at-risk-of-hacks/",
@@ -99,13 +106,6 @@
           "source": "The Register（英語）",
           "published": "2026-08-07T16:45:00",
           "excerpt": "なんだ、トップギャングたちもサンドボックスからエージェントが脱出するのを監視するのに忙しいとは思わなかったんだろう?"
-        },
-        {
-          "title": "AWS IAM Identity Center は、新しい組織インスタンスのワンクリック マルチリージョン オプションをサポートします",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-identity-center-supports-one-click-multi-region-option-new-organization-instances",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-07T16:00:00",
-          "excerpt": "AWS IAM Identity Center では、新しい組織インスタンスを作成するときにマルチリージョンのサポートを有効にすることが簡単になりました。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。こんにちは、tekuteku です。今回は ブランチごとに立てる使い捨てのステージング環境（マルチステージング） について、自分の理解を整理しながら共有していきます。ステージングは「本番のコピーが 1 つあればいい」と思われがちです。…",
+      "summary": "開発ツールの新着が8件。小学館の漫画配信サイト「週刊コロコロコミック」に掲載されている新作漫画「まだサ終しないんですか？」が、IT関係者を中心にXで話題だ。…",
       "articles": [
+        {
+          "title": "「ゲーム運営の修羅場過ぎる」　コロコロコミック系漫画サイトの新作が話題　Gitツリー見てガチャ不具合の犯人探し",
+          "link": "https://www.itmedia.co.jp/news/article/2608/08/2000000458/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-07T22:00:00",
+          "excerpt": "小学館の漫画配信サイト「週刊コロコロコミック」に掲載されている新作漫画「まだサ終しないんですか？」が、IT関係者を中心にXで話題だ。…"
+        },
         {
           "title": "ブランチごとのステージング環境を 1 台に同居させ、デプロイを GitHub Actions に寄せる",
           "link": "https://zenn.dev/norman6464/articles/multi-staging-github-actions",
@@ -169,13 +176,6 @@
           "source": "gihyo.jp 開発",
           "published": "2026-08-07T09:52:00",
           "excerpt": "OpenAIは2026年8月6日、GitHubのプルリクエストをセキュリティ面から詳しく調べる「Codex Security Review」を研究プレビューとして提供を開始した。"
-        },
-        {
-          "title": "AWS WAF を使った Web アプリケーション防御のワークショップをやってみた",
-          "link": "https://dev.classmethod.jp/articles/waf-web-application-workshop/",
-          "source": "DevelopersIO",
-          "published": "2026-08-07T09:40:12",
-          "excerpt": "CloudFrontを保護する保護パックの作成から、XSS・SQLインジェクション対策、ボットコントロール、レート制限、API保護まで、7つのステップでセキュリティ対策を実装する手順を紹介します。"
         }
       ]
     }
