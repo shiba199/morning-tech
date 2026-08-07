@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-07T11:13:25",
+  "generated_at": "2026-08-07T12:04:47",
   "window_hours": 24,
-  "total": 199,
+  "total": 205,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が43件。2027年春に卒業予定の大学生らを対象に行ったアンケートで、就職活動で生成AIを「利用していない」とした割合は3％にとどまり、ほぼ全ての学生が就活で何らかの形で生成AIを活用している実態が、人事分野の調査研究機関HR総研（東京都千代田区）な…",
+      "summary": "生成AIの新着が43件。DynamoDBに新しく追加されたネイティブベクトル検索機能をStrands Agentsから試してみました！",
       "articles": [
+        {
+          "title": "DynamoDBに追加されたベクトル検索を、Streamsでベクトル化してStrands Agentsから使ってみた",
+          "link": "https://dev.classmethod.jp/articles/dynamo-vector-strands/",
+          "source": "DevelopersIO",
+          "published": "2026-08-07T11:27:41",
+          "excerpt": "DynamoDBに新しく追加されたネイティブベクトル検索機能をStrands Agentsから試してみました！"
+        },
         {
           "title": "「就活に生成AI利用」ほぼ全員に　面接で内容追及され困惑も",
           "link": "https://www.itmedia.co.jp/news/article/2608/07/2000000456/",
@@ -29,13 +36,6 @@
           "source": "gihyo.jp 開発",
           "published": "2026-08-07T09:52:00",
           "excerpt": "OpenAIは2026年8月6日、GitHubのプルリクエストをセキュリティ面から詳しく調べる「Codex Security Review」を研究プレビューとして提供を開始した。"
-        },
-        {
-          "title": "エージェンティックエンタープライズを AWS for SAP MCP Server on Amazon Bedrock AgentCore で実現",
-          "link": "https://aws.amazon.com/jp/blogs/news/building-agentic-enterprises-on-aws-using-aws-for-sap-mcp-server-on-amazon-bedrock-agentcore/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-07T09:26:35",
-          "excerpt": "ビジネスチャンス 組織は、エンタープライズレディな AI エージェント、つまりテクノロジーランドスケープ全体の […]"
         }
       ]
     },
@@ -112,8 +112,22 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。この記事は、CYBOZU SUMMER BLOG FES '26の記事です。こんにちは！サイボウズのトニオ（@tonionagauzzi）です。普段はkintone開発チームにてAndroidアプリを主に開発しています。…",
+      "summary": "データ分析の新着が9件。DynamoDB が 2026年8月5日にベクトル検索へ対応しました。商品データとそのベクトルを同じテーブルに置けるのがありがたいところです。ただしEmmbeding処理は自前でする必要があります。…",
       "articles": [
+        {
+          "title": "[AWS]ベクトル対応した DynamoDB のエンベディング戦略を考えてみる",
+          "link": "https://qiita.com/kikuziro/items/7eb821ebe7f15fc0fdd0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-07T11:41:28",
+          "excerpt": "DynamoDB が 2026年8月5日にベクトル検索へ対応しました。商品データとそのベクトルを同じテーブルに置けるのがありがたいところです。ただしEmmbeding処理は自前でする必要があります。…"
+        },
+        {
+          "title": "DynamoDBに追加されたベクトル検索を、Streamsでベクトル化してStrands Agentsから使ってみた",
+          "link": "https://dev.classmethod.jp/articles/dynamo-vector-strands/",
+          "source": "DevelopersIO",
+          "published": "2026-08-07T11:27:41",
+          "excerpt": "DynamoDBに新しく追加されたネイティブベクトル検索機能をStrands Agentsから試してみました！"
+        },
         {
           "title": "4社合同イベント！Mobile Tech Flex #2『私たちの越境話』を開催しました！ | Cybozu Inside Out | サイボウズエンジニアのブログ",
           "link": "https://blog.cybozu.io/entry/2026/08/07/180000_1",
@@ -127,20 +141,6 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-07T08:22:59",
           "excerpt": "2026 年 8 月 5 日、 Amazon DynamoDB でのベクトル検索の一般提供についてお知らせしま […]"
-        },
-        {
-          "title": "インシデント対応の属人化に、障害対応訓練で立ち向かっている - tebiki Tech Blog",
-          "link": "https://techblog.tebiki.co.jp/2026/08/07/163000",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-08-07T07:31:59",
-          "excerpt": "QAエンジニア の @kiyou77 です。「インシデントが起きたとき、動けるのがいつも同じ人ばかり」というのはよくある話かと思います。私たちの開発組織でも、負担が特定のメンバーに偏っている状況が続いていました。…"
-        },
-        {
-          "title": "老舗のマウスユーティリティ「チューチューマウス」がAIの力を借りて15年ぶりに復活／64bit化、Windows 10/11、「Chrome」も走り回る。復活記念で2026年末まで500円",
-          "link": "https://forest.watch.impress.co.jp/docs/news/2131497.html",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-08-07T05:47:22",
-          "excerpt": "老舗のマウスユーティリティ「チューチューマウス」がAIの力を借りて15年ぶりに復活／64bit化、Windows 10/11、「Chrome」も走り回る。復活記念で2026年末まで500円"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "米国のヘルスケア ソフトウェア プロバイダーへの侵入で 380 万人のデータが危険にさらされる",
-      "link": "https://www.theregister.com/cyber-crime/2026/08/07/intrusion-at-us-healthcare-software-provider-puts-38m-peoples-data-at-risk/5284609",
+      "title": "ニューメキシコ州裁判所は児童安全訴訟でメタ社に追加の5億6,700万ドルの支払いを命じる",
+      "link": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-07T11:40:37",
+      "excerpt": "この事件でメタ社の罰金総額は最大9億4,200万ドルに達した"
+    },
+    {
+      "title": "攻撃者は米国の防衛サプライヤーの Microsoft 365 アカウントにフィッシング詐欺を行った",
+      "link": "https://www.theregister.com/security/2026/08/07/ieh-corp-says-phished-staffer-opened-gates-to-company-m365/5284523",
       "source": "The Register（英語）",
-      "published": "2026-08-07T10:45:00",
-      "excerpt": "Unlimited Technology Systemsは、名前、社会保障番号、診断名、保険の詳細がスワイプされた可能性があると発表"
+      "published": "2026-08-07T11:32:00",
+      "excerpt": "侵入者はエンジニアリング ファイルおよび輸出規制されている可能性のある技術データへのアクセスを取得しました"
     },
     {
-      "title": "シャープ、通期純利益見通し170億円下方修正　円安など影響　AIサーバは9月に参入",
-      "link": "https://www.itmedia.co.jp/news/article/2608/07/2000000455/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-07T10:34:01",
-      "excerpt": "シャープは7日、2027年3月期の連結純利益が前期比47.3％減の250億円になる見通しだと発表した。期初予想から170億円下方修正した。樹脂・燃料の価格上昇や円安が収益を圧迫する。営業利益は190億円引き下げて300億円。…"
-    },
-    {
-      "title": "米国、洋上風力発電プロジェクト中止の費用としてドイツ企業に12億ドルの契約を締結",
-      "link": "https://www.bbc.com/news/articles/c1e1vg0gjl5o",
+      "title": "気候を崩壊させる巨大な嘘",
+      "link": "https://www.currentaffairs.org/news/the-massive-climate-lie-that-will-destroy-human-civilization",
       "source": "Hacker News（英語）",
-      "published": "2026-08-07T10:28:55",
-      "excerpt": "記事の URL: https://www.bbc.com/news/articles/c1e1vg0gjl5o コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-07T11:19:15",
+      "excerpt": "Article URL: https://www.currentaffairs.…"
     },
     {
-      "title": "元米国サイバーディレクター、ロボットのルールについて「アシモフは正しかった」と語る",
-      "link": "https://www.theregister.com/security/2026/08/07/asimov-was-right-about-rules-for-robots-says-ex-us-cyber-director/5284397",
-      "source": "The Register（英語）",
-      "published": "2026-08-07T10:03:00",
-      "excerpt": "人間は、それにふさわしい AI モデルを手に入れるでしょう"
+      "title": "検索が実験だった Google 以前のウェブを思い出す",
+      "link": "https://arstechnica.com/gadgets/2026/08/remembering-the-pre-google-web-when-search-was-an-experiment/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-08-07T11:00:06",
+      "excerpt": "「ほとんどの人は、それが実際にどれほど混沌としていたかを完全に忘れています。」"
     }
   ]
 }
