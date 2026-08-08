@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-08T05:13:13",
+  "generated_at": "2026-08-08T06:02:50",
   "window_hours": 24,
-  "total": 196,
+  "total": 198,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が38件。GoogleはChrome向けのAI新機能「Skills in Chrome」を発表した。AIプロンプトを保存してワンクリックで再利用可能にするという。",
+      "summary": "生成AIの新着が39件。https://serverless.co.jp/blog/ut1qmjm8no5d/ に投稿した記事の微修正版です。今日はいよいよリリースされた Claude Platform on AWS を紹介していきます。…",
       "articles": [
+        {
+          "title": "Clade Platform on AWSを試してみる ~Claude on Amazon Bedrockとの違い~",
+          "link": "https://zenn.dev/kameoncloud/articles/c62499a014faa7",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-08T05:49:57",
+          "excerpt": "https://serverless.co.jp/blog/ut1qmjm8no5d/ に投稿した記事の微修正版です。今日はいよいよリリースされた Claude Platform on AWS を紹介していきます。…"
+        },
         {
           "title": "Google Chromeの新機能「Skills」　AIプロンプトの“毎回手打ち”を不要に",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/08/news011.html",
@@ -24,25 +31,18 @@
           "excerpt": "Kiro IDE が Agent Plugins 1.0.0 仕様に対応しました。…"
         },
         {
-          "title": "【非エンジニアのためのClaude/Claude Codeシリーズ】 Claudeを紹介するデモをClaudeに作らせてみた",
-          "link": "https://dev.classmethod.jp/articles/demo_tsukuru/",
-          "source": "DevelopersIO",
-          "published": "2026-08-08T02:51:53",
-          "excerpt": "営業向けClaudeの活用方法を紹介します。PDFの分析からダッシュボード作成まで、営業が30分で作れるデモの作り方を実例とともにご紹介します。"
-        },
-        {
-          "title": "AnthropicがFableの鎖を緩める中、OpenAIはAstraのセキュリティを強化することを約束",
-          "link": "https://www.theregister.com/ai-and-ml/2026/08/08/openai-pledges-to-add-astra-security-as-anthropic-loosens-fables-leash/5285161",
-          "source": "The Register（英語）",
-          "published": "2026-08-07T23:41:07",
-          "excerpt": "あるいは、どのようにして心配するのをやめ、危険な AI を愛することができるようになったのか"
+          "title": "Amazon Bedrock AgentCore GatewayのBudget制御を境界値・並列実行で検証する",
+          "link": "https://zenn.dev/kashiwabaray/articles/0c5f4347c65122",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-08T03:00:05",
+          "excerpt": "※本記事は筆者個人の検証結果および見解に基づくものであり、所属組織の公式な見解・方針を示すものではありません。1.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。概要 前回、下記記事で、AWS Organizations間のアカウント移行でRAM共有が外れる理由と、共有を維持する設定を確認しました。…",
+      "summary": "クラウドの新着が18件。概要 前回、下記記事で、AWS Organizations間のアカウント移行でRAM共有が外れる理由と、共有を維持する設定を確認しました。…",
       "articles": [
         {
           "title": "AWS Organization間のアカウント移行でTransit GatewayのRAM共有はどうなるか、実際に移行して確認した",
@@ -59,18 +59,18 @@
           "excerpt": "1.はじめに 2026 年 8 月 5 日、Aurora Serverless のスケーリングが改善されたという発表がありました1。…"
         },
         {
+          "title": "Lambdaのログを処理IDで追えるようにJSON形式の構造化ログにした",
+          "link": "https://zenn.dev/hknote/articles/lambda-json-structured-logger",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-08T04:00:05",
+          "excerpt": "Lambdaのログをあとから追跡しやすくするため、JSON形式の構造化ログとして出力するようにしました。…"
+        },
+        {
           "title": "DROPZERO:限定100個を3000人が同時に注文しても、絶対に売り越さないECをAmazon Aurora DSQLで作ってみた",
           "link": "https://qiita.com/yama3133/items/7d21b96df7f4efb23954",
           "source": "Qiita AWSタグ",
           "published": "2026-08-08T01:48:27",
           "excerpt": "はじめに 限定ドロップ系のECサイトが発売開始と同時にアクセスが殺到して、売り越し(在庫数を超えて売ってしまうこと)や二重予約、サーバーダウンを起こしているのを何度か見たことがあります。…"
-        },
-        {
-          "title": "CloudFormation 460行 → CDK 200行。ALB + EC2 + RDSの3層構成をPythonで書き直した",
-          "link": "https://qiita.com/caymezon/items/2556aa5a1eaacb4b5932",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-08T00:41:54",
-          "excerpt": "背景 CloudFormationのYAMLで構築していたALB + EC2(Tomcat) + RDSの3層構成を、AWS CDK（Python）で再現しました。…"
         }
       ]
     },
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。DynamoDB が 2026年8月5日にベクトル検索へ対応しました。商品データとそのベクトルを同じテーブルに置けるのがありがたいところです。ただしEmmbeding処理は自前でする必要があります。…",
+      "summary": "データ分析の新着が5件。DynamoDB が 2026年8月5日にベクトル検索へ対応しました。商品データとそのベクトルを同じテーブルに置けるのがありがたいところです。ただしEmmbeding処理は自前でする必要があります。…",
       "articles": [
         {
           "title": "[AWS]ベクトル対応した DynamoDB のエンベディング戦略を考えてみる",
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "[新機能]Snowflake CoWork の Automations でレポートの定期実行・メール配信ができるようになりました",
+      "link": "https://dev.classmethod.jp/articles/snowflake-cowork-automations-pupr-try/",
+      "source": "DevelopersIO",
+      "published": "2026-08-08T05:33:39",
+      "excerpt": "Snowflake CoWorkの新機能「Automations」がパブリックプレビューとなったので、会話形式での設定から定期実行、メール配信までを実際に試してみました。"
+    },
+    {
+      "title": "AWS Transform、継続的モダナイズ機能を全リージョンで一般提供開始",
+      "link": "https://codezine.jp/article/detail/29276",
+      "source": "CodeZine",
+      "published": "2026-08-08T05:00:00",
+      "excerpt": "AWS Transform、継続的モダナイズ機能を全リージョンで一般提供開始"
+    },
+    {
       "title": "Transit Gateway の新機能「ポリシーベースルーティング」の使い時を考えてみた",
       "link": "https://qiita.com/eureka_/items/19f8f412df9fb5e6f580",
       "source": "Qiita AWSタグ",
@@ -194,20 +208,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-08-08T03:41:56",
       "excerpt": "記事の URL: https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3 コメント URL: https://news.…"
-    },
-    {
-      "title": "オープンウェイトモデルで開発からビジネス利用まで回すチーム AI 環境",
-      "link": "https://dev.classmethod.jp/articles/open-weight-team-ai-environment/",
-      "source": "DevelopersIO",
-      "published": "2026-08-08T01:56:07",
-      "excerpt": "AI コーディングエージェントのコストとデータ漏洩という 2 つの課題を、オープンウェイトモデルの自動ルーティングと厳密なプライバシー設定で解決するチーム環境の構築事例を紹介します。…"
-    },
-    {
-      "title": "NASA、48年前の探査機ボイジャー2号をさらに1年間運転し続ける",
-      "link": "https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-08T01:49:11",
-      "excerpt": "記事の URL: https://www.space.…"
     }
   ]
 }
