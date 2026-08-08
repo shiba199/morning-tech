@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-08T13:24:13",
+  "generated_at": "2026-08-08T14:03:18",
   "window_hours": 24,
-  "total": 141,
+  "total": 136,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が30件。Amazon SageMaker HyperPod の Slurm クラスターで、公式ドキュメントでは非対応とされているマネージメントコンソールからの AMI 更新を実際に試してみました。…",
+      "summary": "生成AIの新着が27件。研究者はソーシャル メディアを調査して、AI コーディング ツールに対する開発者の懸念を測定します。",
       "articles": [
+        {
+          "title": "開発者から Anthropic、OpenAI、Cursor、そしてその友人たちへ: セキュリティとプライバシーをデフォルトに",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/08/devs-to-anthropic-openai-cursor-and-friends-make-security-and-privacy-the-default/5285107",
+          "source": "The Register（英語）",
+          "published": "2026-08-08T13:00:00",
+          "excerpt": "研究者はソーシャル メディアを調査して、AI コーディング ツールに対する開発者の懸念を測定します。"
+        },
         {
           "title": "Amazon SageMaker HyperPod の Slurm クラスターで非対応のはずのマネージメントコンソールからの AMI 更新を試してみた",
           "link": "https://dev.classmethod.jp/articles/sagemaker-hyperpod-slurm-ami-update-console/",
@@ -29,13 +36,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-08T10:57:44",
           "excerpt": "記事の URL: https://simonwillison.net/2026/Aug/7/openai-timeline/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "NeurIPS 2026 にて \"2nd Workshop on Agentic AI Benchmark and Application for Enterprise Tasks\" の開催が決定しました 〜論文投稿募集のお知らせ〜 | fltech - 富士通研究所の技術ブログ",
-          "link": "https://blog.fltech.dev/entry/2026/08/07/NeurIPS2026-WS-AgenticAIBenchmarks-ja",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-08T10:53:52",
-          "excerpt": "こんにちは、富士通人工知能研究所の内田・佐藤・茂木です。…"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。Claude Code v2.1.225〜v2.1.226の主要アップデートをまとめました。SendMessageが他マシンのセッションに発信できるようになったほか、認証やセッション周りの重要な修正が多数含まれています。…",
+      "summary": "セキュリティの新着が13件。研究者はソーシャル メディアを調査して、AI コーディング ツールに対する開発者の懸念を測定します。",
       "articles": [
+        {
+          "title": "開発者から Anthropic、OpenAI、Cursor、そしてその友人たちへ: セキュリティとプライバシーをデフォルトに",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/08/devs-to-anthropic-openai-cursor-and-friends-make-security-and-privacy-the-default/5285107",
+          "source": "The Register（英語）",
+          "published": "2026-08-08T13:00:00",
+          "excerpt": "研究者はソーシャル メディアを調査して、AI コーディング ツールに対する開発者の懸念を測定します。"
+        },
         {
           "title": "Claude Code v2.1.225〜v2.1.226 の主要アップデート - SendMessage の他マシン発信対応と認証まわりの修正",
           "link": "https://dev.classmethod.jp/articles/20260808-cc-updates-v2-1-226/",
@@ -99,13 +106,6 @@
           "source": "CodeZine",
           "published": "2026-08-08T09:00:00",
           "excerpt": "Alibaba Cloud、コードセキュリティ機能「Qoder CLI」正式リリース"
-        },
-        {
-          "title": "AnthropicがFableの鎖を緩める中、OpenAIはAstraのセキュリティを強化することを約束",
-          "link": "https://www.theregister.com/ai-and-ml/2026/08/08/openai-pledges-to-add-astra-security-as-anthropic-loosens-fables-leash/5285161",
-          "source": "The Register（英語）",
-          "published": "2026-08-07T23:41:07",
-          "excerpt": "あるいは、どのようにして心配するのをやめ、危険な AI を愛することができるようになったのか"
         }
       ]
     },
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。背景 EC2キーペアはコンソールからも作れますが、CLIで作る方が自動化・スクリプト化に向いています。CLIでの作成から権限設定、複数鍵の管理方法までをまとめます。1.…",
+      "summary": "開発ツールの新着が7件。TL;DR 個人のAWSアカウントの全体像を1枚の構成図で見たくて、CloudFormationの「IaCジェネレーター」→ Infrastructure Composer（旧Application Composer）を試した アカウントス…",
       "articles": [
+        {
+          "title": "「AWSアカウント全体を1枚の構成図に」は幻想だった ― IaCジェネレーター×Infrastructure Composerで1819→451リソースを可視化して分かった5つの罠",
+          "link": "https://qiita.com/devex12/items/9cf35726babe77532b39",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-08T13:33:45",
+          "excerpt": "TL;DR 個人のAWSアカウントの全体像を1枚の構成図で見たくて、CloudFormationの「IaCジェネレーター」→ Infrastructure Composer（旧Application Composer）を試した アカウントス…"
+        },
         {
           "title": "EC2キーペアをCLIで作るときに詰まりがちなポイント",
           "link": "https://qiita.com/caymezon/items/f6657c46240696bd2527",
@@ -162,18 +169,18 @@
           "source": "CodeZine",
           "published": "2026-08-08T09:00:00",
           "excerpt": "Alibaba Cloud、コードセキュリティ機能「Qoder CLI」正式リリース"
-        },
-        {
-          "title": "【PostgreSQL】max_connections の上限に達した際のエラー \"too many clients already\" を再現してみた",
-          "link": "https://dev.classmethod.jp/articles/postgresql-too-many-clients-already-reproduce/",
-          "source": "DevelopersIO",
-          "published": "2026-08-08T02:11:33",
-          "excerpt": "PostgreSQL の同時接続数上限「max_connections」に達した際のエラー挙動を実際に再現し、pg_stat_activity での状況確認と pg_terminate_backend による対処方法を検証してみました。"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "Google Apps Script を clasp でローカル開発する環境構築手順",
+      "link": "https://dev.classmethod.jp/articles/gas-clasp-local-development-setup/",
+      "source": "DevelopersIO",
+      "published": "2026-08-08T13:24:11",
+      "excerpt": "Google Apps Script を clasp でローカル開発する環境構築手順です。PC の初期状態から、nvm による Node.…"
+    },
     {
       "title": "Snowflake DCM Projectsが一般提供！Preview時との差分を整理してみた",
       "link": "https://dev.classmethod.jp/articles/snowflake-dcm-projects-ga/",
@@ -194,13 +201,6 @@
       "source": "Ars Technica（英語）",
       "published": "2026-08-08T11:30:48",
       "excerpt": "Perseverance が運転した距離の約 90% は自動運転によるものです。"
-    },
-    {
-      "title": "DeepMind のハリケーンの躍進は気象科学者を驚かせた",
-      "link": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-08T11:05:50",
-      "excerpt": "オープンソースの WeatherNext モデルは、低解像度の気象データでも正確な予測を行うことができます。"
     }
   ]
 }
