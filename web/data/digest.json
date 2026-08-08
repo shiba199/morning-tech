@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-07T23:54:30",
+  "generated_at": "2026-08-08T00:45:16",
   "window_hours": 24,
-  "total": 239,
+  "total": 233,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が50件。はじめに 私はClaude CodeをAmazon Bedrock経由で利用するチームの運用を担当しているのですが、ずっと悩みの種だったのが認証とコスト管理です。…",
+      "summary": "生成AIの新着が48件。はじめに 私はClaude CodeをAmazon Bedrock経由で利用するチームの運用を担当しているのですが、ずっと悩みの種だったのが認証とコスト管理です。…",
       "articles": [
         {
           "title": "Claude apps gatewayをAWSに構築してClaude Codeの認証とコスト管理を一元化してみた",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。本日より、Amazon Elastic Compute Cloud (Amazon EC2) R8i および R8i-flex インスタンスがヨーロッパ (ミラノ) リージョンで利用可能になります。…",
+      "summary": "クラウドの新着が15件。背景 CloudFormationのYAMLで構築していたALB + EC2(Tomcat) + RDSの3層構成を、AWS CDK（Python）で再現しました。…",
       "articles": [
+        {
+          "title": "CloudFormation 460行 → CDK 200行。ALB + EC2 + RDSの3層構成をPythonで書き直した",
+          "link": "https://qiita.com/caymezon/items/2556aa5a1eaacb4b5932",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-08T00:41:54",
+          "excerpt": "背景 CloudFormationのYAMLで構築していたALB + EC2(Tomcat) + RDSの3層構成を、AWS CDK（Python）で再現しました。…"
+        },
         {
           "title": "Amazon EC2 R8i および R8i-Flex インスタンスがヨーロッパ (ミラノ) リージョンで利用可能になりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex/",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-07T12:40:52",
           "excerpt": "はじめに ALBの学習が目的。ALB + EC2 でWEBページが表示してできるようにして、ヘルスチェックが成功しているターゲットに分散ルーティングされることを確認するところまでやってみる。…"
-        },
-        {
-          "title": "SQLiteからRDS for PostgreSQLへの移行をpgloaderで検証してみた",
-          "link": "https://dev.classmethod.jp/articles/myan-aws-sqlite-rds-verify/",
-          "source": "DevelopersIO",
-          "published": "2026-08-07T12:36:24",
-          "excerpt": "SQLiteからAmazon RDS for PostgreSQLへの移行をpgloaderで実装しました。検証環境の構築から実際の移行手順、ハマりやすいSSL設定、そして移行後に必要な作業まで、実務的な知見をまとめて紹介します。"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。小学館の漫画配信サイト「週刊コロコロコミック」に掲載されている新作漫画「まだサ終しないんですか？」が、IT関係者を中心にXで話題だ。…",
+      "summary": "開発ツールの新着が9件。背景 CloudFormationのYAMLで構築していたALB + EC2(Tomcat) + RDSの3層構成を、AWS CDK（Python）で再現しました。…",
       "articles": [
+        {
+          "title": "CloudFormation 460行 → CDK 200行。ALB + EC2 + RDSの3層構成をPythonで書き直した",
+          "link": "https://qiita.com/caymezon/items/2556aa5a1eaacb4b5932",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-08T00:41:54",
+          "excerpt": "背景 CloudFormationのYAMLで構築していたALB + EC2(Tomcat) + RDSの3層構成を、AWS CDK（Python）で再現しました。…"
+        },
         {
           "title": "「ゲーム運営の修羅場過ぎる」　コロコロコミック系漫画サイトの新作が話題　Gitツリー見てガチャ不具合の犯人探し",
           "link": "https://www.itmedia.co.jp/news/article/2608/08/2000000458/",
@@ -169,18 +176,18 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-07T10:09:40",
           "excerpt": "背景 CDK + ASG（EC2 Auto Scaling Group）で構築していた Spring Boot アプリの CI/CD 構成を、ECS Fargate + Docker に置き換えました。…"
-        },
-        {
-          "title": "OpenAI、GitHubのプルリクエストをセキュリティ面から詳しく調べる「Codex Security Review」を研究プレビューで提供",
-          "link": "https://gihyo.jp/article/2026/08/codex-security-review?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-07T09:52:00",
-          "excerpt": "OpenAIは2026年8月6日、GitHubのプルリクエストをセキュリティ面から詳しく調べる「Codex Security Review」を研究プレビューとして提供を開始した。"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "AI 研究所は危険な動物の飼い主と同じように扱われるべきでしょうか?",
+      "link": "https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-08T00:03:31",
+      "excerpt": "記事の URL: https://www.economist.…"
+    },
     {
       "title": "AI時代の「Markdown負債」と「レガシー脱却」の壁、エンジニアが直面する新・旧の課題",
       "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/08/news012.html",
@@ -196,18 +203,11 @@
       "excerpt": "グループ企業向けPCの調達について、購入やレンタル中心から「DaaS」への移行を進める日立製作所。DaaSを通じて2028年度までに最大約17万3000台を調達し、新たな運用管理体制も構築するという。その中身は。"
     },
     {
-      "title": "ヨーロッパの無料衛星サービスにより山火事の追跡が容易になった",
-      "link": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-07T21:48:21",
-      "excerpt": "Copernicus ブラウザは、記録的な山火事の季節の最中に山火事の視覚化を追加します。"
-    },
-    {
-      "title": "Rippling は数か月で AI に数百万ドルを投資した後、従業員の ROI ツールを構築しました",
-      "link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-07T21:30:11",
-      "excerpt": "リップリングは、独自の AI 利用に関する警鐘を鳴らした後、今週、個人およびチーム従業員の AI 支出を追跡する製品である AI Spend Console を発表しました。"
+      "title": "米国エネルギー省がジェネシス・オープン・モデル・イニシアチブを開始",
+      "link": "https://genesisopenmodels.anl.gov/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-07T22:24:27",
+      "excerpt": "記事の URL: https://genesisopenmodels.anl.gov/ コメント URL: https://news.ycombinator.com/item?id=49216946 ポイント: 43 コメント数: 13"
     }
   ]
 }
