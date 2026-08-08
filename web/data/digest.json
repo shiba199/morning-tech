@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-08T10:00:12",
+  "generated_at": "2026-08-08T10:34:51",
   "window_hours": 24,
-  "total": 160,
+  "total": 153,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が30件。https://serverless.co.jp/blog/ut1qmjm8no5d/ に投稿した記事の微修正版です。今日はいよいよリリースされた Claude Platform on AWS を紹介していきます。…",
+      "summary": "生成AIの新着が27件。https://serverless.co.jp/blog/ut1qmjm8no5d/ に投稿した記事の微修正版です。今日はいよいよリリースされた Claude Platform on AWS を紹介していきます。…",
       "articles": [
         {
           "title": "Clade Platform on AWSを試してみる ~Claude on Amazon Bedrockとの違い~",
@@ -42,43 +42,50 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。概要 GenUには、インターネットに出ずにVPC内部だけで利用できる閉域モードがあります。閉域モードではGenUのWeb UIはALB、各種AWSサービスはVPCエンドポイント経由でアクセスします。…",
+      "summary": "クラウドの新着が16件。背景 S3 → CloudFront → WAFという構成でIP制限付きの静的サイト配信を組みました。構成自体はシンプルですが、実際にやってみるとUIの変更・IPv6の挙動・OACの仕組みなど、いくつも壁にぶつかったので記録します。…",
       "articles": [
+        {
+          "title": "S3 + CloudFront + WAFでIP制限配信を組んでハマった5つのポイント",
+          "link": "https://qiita.com/caymezon/items/9bf5b1e039fd45226af0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-08T10:16:54",
+          "excerpt": "背景 S3 → CloudFront → WAFという構成でIP制限付きの静的サイト配信を組みました。構成自体はシンプルですが、実際にやってみるとUIの変更・IPv6の挙動・OACの仕組みなど、いくつも壁にぶつかったので記録します。…"
+        },
+        {
+          "title": "EC2キーペアをCLIで作るときに詰まりがちなポイント",
+          "link": "https://qiita.com/caymezon/items/f6657c46240696bd2527",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-08T10:16:48",
+          "excerpt": "背景 EC2キーペアはコンソールからも作れますが、CLIで作る方が自動化・スクリプト化に向いています。CLIでの作成から権限設定、複数鍵の管理方法までをまとめます。1.…"
+        },
+        {
+          "title": "CloudFormationでEC2 + Apacheを構築して、SGを自分のIPに絞るまで",
+          "link": "https://qiita.com/caymezon/items/b13c72f9d8ef72416675",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-08T10:16:42",
+          "excerpt": "背景 AWSコンソールでのEC2構築は再現性に課題があるため、CloudFormationでコード化しました。VSCode + AWS CLIで、テンプレート作成からデプロイ、セキュリティグループの絞り込みまでを一通り試した記録です。1.…"
+        },
         {
           "title": "WindowsでDNSサーバーを構築して、オンプレ想定VPCからGenU閉域モードへ接続してみた",
           "link": "https://qiita.com/infra365/items/c350d66f0575cd1303f0",
           "source": "Qiita AWSタグ",
           "published": "2026-08-08T09:39:20",
           "excerpt": "概要 GenUには、インターネットに出ずにVPC内部だけで利用できる閉域モードがあります。閉域モードではGenUのWeb UIはALB、各種AWSサービスはVPCエンドポイント経由でアクセスします。…"
-        },
-        {
-          "title": "AWS接続方式リファレンス ― オンプレミス接続 / VPC間接続の可否",
-          "link": "https://qiita.com/lhormace/items/1c8dee03beb7af345ac7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-08T09:30:57",
-          "excerpt": "はじめに AWSの接続方式は種類が多く、名前が似ているものも多いですが、「オンプレミスと繋げられるのか」「VPC同士を繋げられるのか」という観点で見ると、次の3系統に整理できます。…"
-        },
-        {
-          "title": "AWS Organization間のアカウント移行でTransit GatewayのRAM共有はどうなるか、実際に移行して確認した",
-          "link": "https://qiita.com/infra365/items/43831628277794df5959",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-08T05:10:51",
-          "excerpt": "概要 前回、下記記事で、AWS Organizations間のアカウント移行でRAM共有が外れる理由と、共有を維持する設定を確認しました。…"
-        },
-        {
-          "title": "Aurora Serverless の「1 秒で 12 ACU」を、設定変更と実負荷の 2通りで計測する",
-          "link": "https://qiita.com/asahide/items/39a1ecc79fb7da8fbb57",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-08T04:05:23",
-          "excerpt": "1.はじめに 2026 年 8 月 5 日、Aurora Serverless のスケーリングが改善されたという発表がありました1。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。Alibaba Cloud、コードセキュリティ機能「Qoder CLI」正式リリース",
+      "summary": "セキュリティの新着が12件。背景 S3 → CloudFront → WAFという構成でIP制限付きの静的サイト配信を組みました。構成自体はシンプルですが、実際にやってみるとUIの変更・IPv6の挙動・OACの仕組みなど、いくつも壁にぶつかったので記録します。…",
       "articles": [
+        {
+          "title": "S3 + CloudFront + WAFでIP制限配信を組んでハマった5つのポイント",
+          "link": "https://qiita.com/caymezon/items/9bf5b1e039fd45226af0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-08T10:16:54",
+          "excerpt": "背景 S3 → CloudFront → WAFという構成でIP制限付きの静的サイト配信を組みました。構成自体はシンプルですが、実際にやってみるとUIの変更・IPv6の挙動・OACの仕組みなど、いくつも壁にぶつかったので記録します。…"
+        },
         {
           "title": "Alibaba Cloud、コードセキュリティ機能「Qoder CLI」正式リリース",
           "link": "https://codezine.jp/article/detail/29286",
@@ -99,13 +106,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-07T23:24:33",
           "excerpt": "はじめに 私はClaude CodeをAmazon Bedrock経由で利用するチームの運用を担当しているのですが、ずっと悩みの種だったのが認証とコスト管理です。…"
-        },
-        {
-          "title": "OpenAI、セキュリティ上の懸念によりアストラモデルの開発を遅らせたと発表",
-          "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-07T22:48:24",
-          "excerpt": "OpenAIは、サイバーセキュリティ能力への懸念から、次期モデル「アストラ」の一部の作業を中断したと発表した。"
         }
       ]
     },
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。Alibaba Cloud、コードセキュリティ機能「Qoder CLI」正式リリース",
+      "summary": "開発ツールの新着が7件。背景 EC2キーペアはコンソールからも作れますが、CLIで作る方が自動化・スクリプト化に向いています。CLIでの作成から権限設定、複数鍵の管理方法までをまとめます。1.…",
       "articles": [
+        {
+          "title": "EC2キーペアをCLIで作るときに詰まりがちなポイント",
+          "link": "https://qiita.com/caymezon/items/f6657c46240696bd2527",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-08T10:16:48",
+          "excerpt": "背景 EC2キーペアはコンソールからも作れますが、CLIで作る方が自動化・スクリプト化に向いています。CLIでの作成から権限設定、複数鍵の管理方法までをまとめます。1.…"
+        },
+        {
+          "title": "CloudFormationでEC2 + Apacheを構築して、SGを自分のIPに絞るまで",
+          "link": "https://qiita.com/caymezon/items/b13c72f9d8ef72416675",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-08T10:16:42",
+          "excerpt": "背景 AWSコンソールでのEC2構築は再現性に課題があるため、CloudFormationでコード化しました。VSCode + AWS CLIで、テンプレート作成からデプロイ、セキュリティグループの絞り込みまでを一通り試した記録です。1.…"
+        },
         {
           "title": "Alibaba Cloud、コードセキュリティ機能「Qoder CLI」正式リリース",
           "link": "https://codezine.jp/article/detail/29286",
@@ -162,20 +176,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-08T02:11:33",
           "excerpt": "PostgreSQL の同時接続数上限「max_connections」に達した際のエラー挙動を実際に再現し、pg_stat_activity での状況確認と pg_terminate_backend による対処方法を検証してみました。"
-        },
-        {
-          "title": "CloudFormation 460行 → CDK 200行。ALB + EC2 + RDSの3層構成をPythonで書き直した",
-          "link": "https://qiita.com/caymezon/items/2556aa5a1eaacb4b5932",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-08T00:41:54",
-          "excerpt": "背景 CloudFormationのYAMLで構築していたALB + EC2(Tomcat) + RDSの3層構成を、AWS CDK（Python）で再現しました。…"
-        },
-        {
-          "title": "「ゲーム運営の修羅場過ぎる」　コロコロコミック系漫画サイトの新作が話題　Gitツリー見てガチャ不具合の犯人探し",
-          "link": "https://www.itmedia.co.jp/news/article/2608/08/2000000458/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-07T22:00:00",
-          "excerpt": "小学館の漫画配信サイト「週刊コロコロコミック」に掲載されている新作漫画「まだサ終しないんですか？」が、IT関係者を中心にXで話題だ。…"
         }
       ]
     }
