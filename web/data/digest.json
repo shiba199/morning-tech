@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-08T09:07:06",
+  "generated_at": "2026-08-08T10:00:12",
   "window_hours": 24,
-  "total": 174,
+  "total": 160,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が34件。https://serverless.co.jp/blog/ut1qmjm8no5d/ に投稿した記事の微修正版です。今日はいよいよリリースされた Claude Platform on AWS を紹介していきます。…",
+      "summary": "生成AIの新着が30件。https://serverless.co.jp/blog/ut1qmjm8no5d/ に投稿した記事の微修正版です。今日はいよいよリリースされた Claude Platform on AWS を紹介していきます。…",
       "articles": [
         {
           "title": "Clade Platform on AWSを試してみる ~Claude on Amazon Bedrockとの違い~",
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。概要 前回、下記記事で、AWS Organizations間のアカウント移行でRAM共有が外れる理由と、共有を維持する設定を確認しました。…",
+      "summary": "クラウドの新着が16件。概要 GenUには、インターネットに出ずにVPC内部だけで利用できる閉域モードがあります。閉域モードではGenUのWeb UIはALB、各種AWSサービスはVPCエンドポイント経由でアクセスします。…",
       "articles": [
+        {
+          "title": "WindowsでDNSサーバーを構築して、オンプレ想定VPCからGenU閉域モードへ接続してみた",
+          "link": "https://qiita.com/infra365/items/c350d66f0575cd1303f0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-08T09:39:20",
+          "excerpt": "概要 GenUには、インターネットに出ずにVPC内部だけで利用できる閉域モードがあります。閉域モードではGenUのWeb UIはALB、各種AWSサービスはVPCエンドポイント経由でアクセスします。…"
+        },
+        {
+          "title": "AWS接続方式リファレンス ― オンプレミス接続 / VPC間接続の可否",
+          "link": "https://qiita.com/lhormace/items/1c8dee03beb7af345ac7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-08T09:30:57",
+          "excerpt": "はじめに AWSの接続方式は種類が多く、名前が似ているものも多いですが、「オンプレミスと繋げられるのか」「VPC同士を繋げられるのか」という観点で見ると、次の3系統に整理できます。…"
+        },
         {
           "title": "AWS Organization間のアカウント移行でTransit GatewayのRAM共有はどうなるか、実際に移行して確認した",
           "link": "https://qiita.com/infra365/items/43831628277794df5959",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-08T04:05:23",
           "excerpt": "1.はじめに 2026 年 8 月 5 日、Aurora Serverless のスケーリングが改善されたという発表がありました1。…"
-        },
-        {
-          "title": "Lambdaのログを処理IDで追えるようにJSON形式の構造化ログにした",
-          "link": "https://zenn.dev/hknote/articles/lambda-json-structured-logger",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-08T04:00:05",
-          "excerpt": "Lambdaのログをあとから追跡しやすくするため、JSON形式の構造化ログとして出力するようにしました。…"
-        },
-        {
-          "title": "DROPZERO:限定100個を3000人が同時に注文しても、絶対に売り越さないECをAmazon Aurora DSQLで作ってみた",
-          "link": "https://qiita.com/yama3133/items/7d21b96df7f4efb23954",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-08T01:48:27",
-          "excerpt": "はじめに 限定ドロップ系のECサイトが発売開始と同時にアクセスが殺到して、売り越し(在庫数を超えて売ってしまうこと)や二重予約、サーバーダウンを起こしているのを何度か見たことがあります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。あるいは、どのようにして心配するのをやめ、危険な AI を愛することができるようになったのか",
+      "summary": "セキュリティの新着が11件。Alibaba Cloud、コードセキュリティ機能「Qoder CLI」正式リリース",
       "articles": [
+        {
+          "title": "Alibaba Cloud、コードセキュリティ機能「Qoder CLI」正式リリース",
+          "link": "https://codezine.jp/article/detail/29286",
+          "source": "CodeZine",
+          "published": "2026-08-08T09:00:00",
+          "excerpt": "Alibaba Cloud、コードセキュリティ機能「Qoder CLI」正式リリース"
+        },
         {
           "title": "AnthropicがFableの鎖を緩める中、OpenAIはAstraのセキュリティを強化することを約束",
           "link": "https://www.theregister.com/ai-and-ml/2026/08/08/openai-pledges-to-add-astra-security-as-anthropic-loosens-fables-leash/5285161",
@@ -99,13 +106,6 @@
           "source": "TechCrunch（英語）",
           "published": "2026-08-07T22:48:24",
           "excerpt": "OpenAIは、サイバーセキュリティ能力への懸念から、次期モデル「アストラ」の一部の作業を中断したと発表した。"
-        },
-        {
-          "title": "AIエージェント同士が秘密の掲示板を作成し脆弱性を共有、OpenAIの最先端モデルが引き起こしたもう一つの“事件” 【生成AI事件簿】消しても2日で復活、AIエージェントの秘密掲示板が示した自律協調型攻撃という現実 | JBpress (ジェイビープレス)",
-          "link": "https://jbpress.ismedia.jp/articles/-/96336",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-08-07T21:59:23",
-          "excerpt": "先月、本連載において、OpenAIのフロンティア（最先端）AIモデルがAIプラットフォーム大手のHugging Faceに不正アクセスした事件を取り上げた。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。PostgreSQL の同時接続数上限「max_connections」に達した際のエラー挙動を実際に再現し、pg_stat_activity での状況確認と pg_terminate_backend による対処方法を検証してみました。",
+      "summary": "開発ツールの新着が6件。Alibaba Cloud、コードセキュリティ機能「Qoder CLI」正式リリース",
       "articles": [
+        {
+          "title": "Alibaba Cloud、コードセキュリティ機能「Qoder CLI」正式リリース",
+          "link": "https://codezine.jp/article/detail/29286",
+          "source": "CodeZine",
+          "published": "2026-08-08T09:00:00",
+          "excerpt": "Alibaba Cloud、コードセキュリティ機能「Qoder CLI」正式リリース"
+        },
         {
           "title": "【PostgreSQL】max_connections の上限に達した際のエラー \"too many clients already\" を再現してみた",
           "link": "https://dev.classmethod.jp/articles/postgresql-too-many-clients-already-reproduce/",
@@ -169,18 +176,18 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-07T22:00:00",
           "excerpt": "小学館の漫画配信サイト「週刊コロコロコミック」に掲載されている新作漫画「まだサ終しないんですか？」が、IT関係者を中心にXで話題だ。…"
-        },
-        {
-          "title": "ブランチごとのステージング環境を 1 台に同居させ、デプロイを GitHub Actions に寄せる",
-          "link": "https://zenn.dev/norman6464/articles/multi-staging-github-actions",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-07T12:48:10",
-          "excerpt": "こんにちは、tekuteku です。今回は ブランチごとに立てる使い捨てのステージング環境（マルチステージング） について、自分の理解を整理しながら共有していきます。ステージングは「本番のコピーが 1 つあればいい」と思われがちです。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "韓国の衛星がSpaceXの月面衝突を発見",
+      "link": "https://www.theregister.com/science/2026/08/08/south-korean-satellite-spots-spacex-lunar-impact/5284741",
+      "source": "The Register（英語）",
+      "published": "2026-08-08T09:46:00",
+      "excerpt": "ダヌリが撮影したイーロンの噴出物の前後のショット"
+    },
     {
       "title": "Grindr CEO、AI は 200 人のエンジニアの仕事をこなしていると語る",
       "link": "https://ai-updates.net/grindr-ceo-says-ai-is-doing-the-work-of-200-engineers/",
@@ -201,13 +208,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-08-08T07:04:51",
       "excerpt": "記事の URL: https://github.com/xoreaxeaxeax/rosenbridge コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "[アップデート] CloudWatch managed Prometheus collectorsでPrometheusメトリクスをCloudWatchへ直接送れるようになりました",
-      "link": "https://dev.classmethod.jp/articles/cloudwatch-managed-prometheus-collector/",
-      "source": "DevelopersIO",
-      "published": "2026-08-08T06:57:30",
-      "excerpt": "Amazon CloudWatchに追加されたManaged Prometheus collectorを使ってみました。従来の自前ADOT Collector構成との違いや、実装時の手順、メトリクス収集結果を比較していきます。"
     }
   ]
 }
