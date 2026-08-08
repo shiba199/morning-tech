@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-08T04:02:45",
+  "generated_at": "2026-08-08T05:13:13",
   "window_hours": 24,
-  "total": 199,
+  "total": 196,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が38件。Kiro IDE が Agent Plugins 1.0.0 仕様に対応しました。…",
+      "summary": "生成AIの新着が38件。GoogleはChrome向けのAI新機能「Skills in Chrome」を発表した。AIプロンプトを保存してワンクリックで再利用可能にするという。",
       "articles": [
+        {
+          "title": "Google Chromeの新機能「Skills」　AIプロンプトの“毎回手打ち”を不要に",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/08/news011.html",
+          "source": "@IT",
+          "published": "2026-08-08T04:00:00",
+          "excerpt": "GoogleはChrome向けのAI新機能「Skills in Chrome」を発表した。AIプロンプトを保存してワンクリックで再利用可能にするという。"
+        },
         {
           "title": "[アップデート] Kiro IDE の Powers が Agent Plugins 仕様に対応し、他ツール向けプラグインをそのままインストールできるようになりました",
           "link": "https://dev.classmethod.jp/articles/kiro-powers-supports-plugins/",
@@ -29,21 +36,28 @@
           "source": "The Register（英語）",
           "published": "2026-08-07T23:41:07",
           "excerpt": "あるいは、どのようにして心配するのをやめ、危険な AI を愛することができるようになったのか"
-        },
-        {
-          "title": "Claude apps gatewayをAWSに構築してClaude Codeの認証とコスト管理を一元化してみた",
-          "link": "https://qiita.com/RP4nda13/items/d9249816995b6467356a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-07T23:24:33",
-          "excerpt": "はじめに 私はClaude CodeをAmazon Bedrock経由で利用するチームの運用を担当しているのですが、ずっと悩みの種だったのが認証とコスト管理です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。はじめに 限定ドロップ系のECサイトが発売開始と同時にアクセスが殺到して、売り越し(在庫数を超えて売ってしまうこと)や二重予約、サーバーダウンを起こしているのを何度か見たことがあります。…",
+      "summary": "クラウドの新着が17件。概要 前回、下記記事で、AWS Organizations間のアカウント移行でRAM共有が外れる理由と、共有を維持する設定を確認しました。…",
       "articles": [
+        {
+          "title": "AWS Organization間のアカウント移行でTransit GatewayのRAM共有はどうなるか、実際に移行して確認した",
+          "link": "https://qiita.com/infra365/items/43831628277794df5959",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-08T05:10:51",
+          "excerpt": "概要 前回、下記記事で、AWS Organizations間のアカウント移行でRAM共有が外れる理由と、共有を維持する設定を確認しました。…"
+        },
+        {
+          "title": "Aurora Serverless の「1 秒で 12 ACU」を、設定変更と実負荷の 2通りで計測する",
+          "link": "https://qiita.com/asahide/items/39a1ecc79fb7da8fbb57",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-08T04:05:23",
+          "excerpt": "1.はじめに 2026 年 8 月 5 日、Aurora Serverless のスケーリングが改善されたという発表がありました1。…"
+        },
         {
           "title": "DROPZERO:限定100個を3000人が同時に注文しても、絶対に売り越さないECをAmazon Aurora DSQLで作ってみた",
           "link": "https://qiita.com/yama3133/items/7d21b96df7f4efb23954",
@@ -57,27 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-08T00:41:54",
           "excerpt": "背景 CloudFormationのYAMLで構築していたALB + EC2(Tomcat) + RDSの3層構成を、AWS CDK（Python）で再現しました。…"
-        },
-        {
-          "title": "Amazon EC2 R8i および R8i-Flex インスタンスがヨーロッパ (ミラノ) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-07T21:11:00",
-          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) R8i および R8i-flex インスタンスがヨーロッパ (ミラノ) リージョンで利用可能になります。…"
-        },
-        {
-          "title": "【Amazon Linux 2023】MT Cloud連携サーバーの切替 ― ALBとElastic IPの2経路移行",
-          "link": "https://zenn.dev/ykbone/articles/202608-linux-al2023-migration-cutover",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-07T12:49:06",
-          "excerpt": "はじめに 前回、Amazon Linux 2 (AL2) のサポート終了に伴い、静的サイトを配信しているEC2をAmazon Linux 2023 (AL2023) へ移行した流れを書きました。https://zenn.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。あるいは、どのようにして心配するのをやめ、危険な AI を愛することができるようになったのか",
+      "summary": "セキュリティの新着が15件。あるいは、どのようにして心配するのをやめ、危険な AI を愛することができるようになったのか",
       "articles": [
         {
           "title": "AnthropicがFableの鎖を緩める中、OpenAIはAstraのセキュリティを強化することを約束",
@@ -101,11 +101,11 @@
           "excerpt": "OpenAIは、サイバーセキュリティ能力への懸念から、次期モデル「アストラ」の一部の作業を中断したと発表した。"
         },
         {
-          "title": "セキュリティ研究者がポーランドのウェブをスキャンしたところ、裁判所、病院、空港がハッキングの危険にさらされていることが判明した",
-          "link": "https://techcrunch.com/2026/08/07/security-researchers-scanned-the-polish-web-and-found-courts-hospitals-and-airports-at-risk-of-hacks/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-07T21:00:08",
-          "excerpt": "研究者らは、Web コンテンツの整理と表示に使用されるソフトウェアなどの共通障害点が原因で、ハッカーが政府 Web サイトを介して暴動を起こす可能性があることを発見しました。"
+          "title": "AIエージェント同士が秘密の掲示板を作成し脆弱性を共有、OpenAIの最先端モデルが引き起こしたもう一つの“事件” 【生成AI事件簿】消しても2日で復活、AIエージェントの秘密掲示板が示した自律協調型攻撃という現実 | JBpress (ジェイビープレス)",
+          "link": "https://jbpress.ismedia.jp/articles/-/96336",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-08-07T21:59:23",
+          "excerpt": "先月、本連載において、OpenAIのフロンティア（最先端）AIモデルがAIプラットフォーム大手のHugging Faceに不正アクセスした事件を取り上げた。…"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。PostgreSQL の同時接続数上限「max_connections」に達した際のエラー挙動を実際に再現し、pg_stat_activity での状況確認と pg_terminate_backend による対処方法を検証してみました。",
+      "summary": "開発ツールの新着が7件。PostgreSQL の同時接続数上限「max_connections」に達した際のエラー挙動を実際に再現し、pg_stat_activity での状況確認と pg_terminate_backend による対処方法を検証してみました。",
       "articles": [
         {
           "title": "【PostgreSQL】max_connections の上限に達した際のエラー \"too many clients already\" を再現してみた",
@@ -182,6 +182,13 @@
   ],
   "uncategorized": [
     {
+      "title": "Transit Gateway の新機能「ポリシーベースルーティング」の使い時を考えてみた",
+      "link": "https://qiita.com/eureka_/items/19f8f412df9fb5e6f580",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-08T04:23:02",
+      "excerpt": "本記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の8日目の記事となります。過去の投稿（リンク集）は以下からご覧ください。私は2日目ぶりの2回目の投稿になります。前回の記事もぜひご覧ください！…"
+    },
+    {
       "title": "ミトス ソーシャル エンジニアリング AISI INC-2026-07-28-01",
       "link": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
       "source": "Hacker News（英語）",
@@ -201,13 +208,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-08-08T01:49:11",
       "excerpt": "記事の URL: https://www.space.…"
-    },
-    {
-      "title": "Nixpkgs コアチームは解散しました",
-      "link": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-08T01:12:45",
-      "excerpt": "記事の URL: https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413 コメント URL: https://news.ycombinator.…"
     }
   ]
 }
