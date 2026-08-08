@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-08T12:22:30",
+  "generated_at": "2026-08-08T13:24:13",
   "window_hours": 24,
-  "total": 156,
+  "total": 141,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が30件。記事の URL: https://simonwillison.net/2026/Aug/7/openai-timeline/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が30件。Amazon SageMaker HyperPod の Slurm クラスターで、公式ドキュメントでは非対応とされているマネージメントコンソールからの AMI 更新を実際に試してみました。…",
       "articles": [
+        {
+          "title": "Amazon SageMaker HyperPod の Slurm クラスターで非対応のはずのマネージメントコンソールからの AMI 更新を試してみた",
+          "link": "https://dev.classmethod.jp/articles/sagemaker-hyperpod-slurm-ami-update-console/",
+          "source": "DevelopersIO",
+          "published": "2026-08-08T12:58:10",
+          "excerpt": "Amazon SageMaker HyperPod の Slurm クラスターで、公式ドキュメントでは非対応とされているマネージメントコンソールからの AMI 更新を実際に試してみました。…"
+        },
+        {
+          "title": "CPU が帰ってきました: LLM 推論のための CPU と GPU の分割を再考する",
+          "link": "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-08T12:16:03",
+          "excerpt": "記事の URL: https://www.redhat.com/en/blog/cpu-back-re Thinking-cpu-gpu-split-llm-inference コメント URL: https://news.…"
+        },
         {
           "title": "これで、Hugging Face に対する OpenAI の偶発的攻撃のタイムラインができました。",
           "link": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
@@ -22,27 +36,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-08T10:53:52",
           "excerpt": "こんにちは、富士通人工知能研究所の内田・佐藤・茂木です。…"
-        },
-        {
-          "title": "Claude Code v2.1.225〜v2.1.226 の主要アップデート - SendMessage の他マシン発信対応と認証まわりの修正",
-          "link": "https://dev.classmethod.jp/articles/20260808-cc-updates-v2-1-226/",
-          "source": "DevelopersIO",
-          "published": "2026-08-08T10:52:00",
-          "excerpt": "Claude Code v2.1.225〜v2.1.226の主要アップデートをまとめました。SendMessageが他マシンのセッションに発信できるようになったほか、認証やセッション周りの重要な修正が多数含まれています。…"
-        },
-        {
-          "title": "Claude Code更新 review統合・権限バイパス修正【7/31〜8/6】 | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/08/08/190000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-08T10:00:00",
-          "excerpt": "はじめに サーバーワークスの池田です。今週（7/31〜8/6）のClaude Codeは、v2.1.221からv2.1.223までの3バージョンがリリースされました。変更点は合計79項目です。前回のv2.1.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。AWS DMS で Aurora MySQL のデータ変更をリアルタイムに S3 へ連携し、Athena で分析する方法を、実装手順と動作確認まで含めてご紹介します。",
+      "summary": "クラウドの新着が14件。AWS DMS で Aurora MySQL のデータ変更をリアルタイムに S3 へ連携し、Athena で分析する方法を、実装手順と動作確認まで含めてご紹介します。",
       "articles": [
         {
           "title": "Aurora MySQL の変更データを AWS DMS の Full Load + CDC で S3（Parquet）に出力し Athena でクエリしてみた",
@@ -140,7 +140,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。背景 EC2キーペアはコンソールからも作れますが、CLIで作る方が自動化・スクリプト化に向いています。CLIでの作成から権限設定、複数鍵の管理方法までをまとめます。1.…",
+      "summary": "開発ツールの新着が6件。背景 EC2キーペアはコンソールからも作れますが、CLIで作る方が自動化・スクリプト化に向いています。CLIでの作成から権限設定、複数鍵の管理方法までをまとめます。1.…",
       "articles": [
         {
           "title": "EC2キーペアをCLIで作るときに詰まりがちなポイント",
@@ -175,6 +175,13 @@
   ],
   "uncategorized": [
     {
+      "title": "Snowflake DCM Projectsが一般提供！Preview時との差分を整理してみた",
+      "link": "https://dev.classmethod.jp/articles/snowflake-dcm-projects-ga/",
+      "source": "DevelopersIO",
+      "published": "2026-08-08T12:43:06",
+      "excerpt": "SnowflakeネイティブなIaC「DCM Projects」がGA化しました。…"
+    },
+    {
       "title": "100枚の写真で見るソ連",
       "link": "https://trinixy.ru/7039-sssr_v_fotografijakh_100_foto.html",
       "source": "Hacker News（英語）",
@@ -194,13 +201,6 @@
       "source": "Ars Technica（英語）",
       "published": "2026-08-08T11:05:50",
       "excerpt": "オープンソースの WeatherNext モデルは、低解像度の気象データでも正確な予測を行うことができます。"
-    },
-    {
-      "title": "Apple、iPhone およびその他のデバイス向けのリース プログラムを導入",
-      "link": "https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-08T10:16:01",
-      "excerpt": "記事の URL: https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html コメント URL: https://news.ycombinator.…"
     }
   ]
 }
