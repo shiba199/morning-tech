@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-08T14:55:16",
+  "generated_at": "2026-08-08T15:17:51",
   "window_hours": 24,
-  "total": 134,
+  "total": 132,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。はじめに 皆さんTerraformしてますか。私はしていませんでした。クラウド触っているならいつかやらなきゃなーと思いながら後回しにし続けていましたが、いよいよ逃げられなくなってきたのでやり始めました。…",
+      "summary": "生成AIの新着が28件。Amazon Bedrock AgentCore Runtime のInstances機能がリリースされました！",
       "articles": [
+        {
+          "title": "AgentCore Runtime Instances がリリースされました！",
+          "link": "https://dev.classmethod.jp/articles/agentcore-runtime-instances/",
+          "source": "DevelopersIO",
+          "published": "2026-08-08T15:14:59",
+          "excerpt": "Amazon Bedrock AgentCore Runtime のInstances機能がリリースされました！"
+        },
         {
           "title": "Claude Codeと共にTerraformの勉強をした話",
           "link": "https://qiita.com/Tatsuya2501/items/c883d89b8d9566469ae4",
@@ -29,13 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-08T12:58:10",
           "excerpt": "Amazon SageMaker HyperPod の Slurm クラスターで、公式ドキュメントでは非対応とされているマネージメントコンソールからの AMI 更新を実際に試してみました。…"
-        },
-        {
-          "title": "CPU が帰ってきました: LLM 推論のための CPU と GPU の分割を再考する",
-          "link": "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-08T12:16:03",
-          "excerpt": "記事の URL: https://www.redhat.com/en/blog/cpu-back-re Thinking-cpu-gpu-split-llm-inference コメント URL: https://news.…"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。Agent Toolkit for AWS に aws-auth スキルが追加されました。Cognito 認証に関する9つのリファレンスをまとめたスキルです。これを使い、GPT-5.…",
+      "summary": "セキュリティの新着が14件。夏なので、AWS管理ポリシー（AWS Managed Policy）をたくさん捕まえました。AWS管理ポリシーって長くて呼びづらいので、マネポリと呼びますね。マネポリをゲットしました。…",
       "articles": [
+        {
+          "title": "AWS IAMのAWS管理ポリシーを全種類捕まえてみた",
+          "link": "https://dev.classmethod.jp/articles/summer-project-2026-iam-aws-managed-policies-get-daze/",
+          "source": "DevelopersIO",
+          "published": "2026-08-08T14:59:00",
+          "excerpt": "夏なので、AWS管理ポリシー（AWS Managed Policy）をたくさん捕まえました。AWS管理ポリシーって長くて呼びづらいので、マネポリと呼びますね。マネポリをゲットしました。…"
+        },
         {
           "title": "Amazon Cognito 向け aws-auth スキルでパスキー認証アプリを試してみた",
           "link": "https://dev.classmethod.jp/articles/agent-toolkit-aws-auth-skill-cognito-passkey/",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-08T10:52:00",
           "excerpt": "Claude Code v2.1.225〜v2.1.226の主要アップデートをまとめました。SendMessageが他マシンのセッションに発信できるようになったほか、認証やセッション周りの重要な修正が多数含まれています。…"
-        },
-        {
-          "title": "S3 + CloudFront + WAFでIP制限配信を組んでハマった5つのポイント",
-          "link": "https://qiita.com/caymezon/items/9bf5b1e039fd45226af0",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-08T10:16:54",
-          "excerpt": "背景 S3 → CloudFront → WAFという構成でIP制限付きの静的サイト配信を組みました。構成自体はシンプルですが、実際にやってみるとUIの変更・IPv6の挙動・OACの仕組みなど、いくつも壁にぶつかったので記録します。…"
         }
       ]
     },
@@ -175,6 +175,13 @@
   ],
   "uncategorized": [
     {
+      "title": "Googleのトップハッカーハンターが、ハッキンググループにコードネームが付けられている理由を説明する",
+      "link": "https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-08T15:00:00",
+      "excerpt": "Googleは最近、ハッキンググループの参照方法と名前の割り当て方法を変更した。TechCrunchは、企業がハッカーにコード名を与える理由を理解するために、ハッカー追跡に関する世界有数の専門家の一人に話を聞いた。…"
+    },
+    {
       "title": "機密情報は常に「返信なし」メールに送信されます。この男はすべてを見ている",
       "link": "https://www.wired.com/story/sensitive-info-goes-into-no-reply-emails-constantly-this-guy-sees-it-all/",
       "source": "Hacker News（英語）",
@@ -194,13 +201,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-08-08T13:55:42",
       "excerpt": "記事の URL: https://social.treehouse.systems/@mgorny/117058483039362779 コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Voyager 1 FDS コンピュータ エミュレータ",
-      "link": "https://zaneham.github.io/voyager-fds-emulator/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-08T13:28:38",
-      "excerpt": "記事の URL: https://zaneham.github.io/voyager-fds-emulator/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
