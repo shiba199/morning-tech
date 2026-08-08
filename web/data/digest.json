@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T23:16:53",
+  "generated_at": "2026-08-08T23:50:43",
   "window_hours": 24,
   "total": 101,
   "topic_count": 5,
@@ -7,7 +7,7 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。OpenAIは、7月に発覚したHugging Face侵害インシデントの詳細を「Black Hat USA 2026」で説明した。…",
+      "summary": "生成AIの新着が19件。OpenAIは、7月に発覚したHugging Face侵害インシデントの詳細を「Black Hat USA 2026」で説明した。…",
       "articles": [
         {
           "title": "Hugging Face侵害、AIエージェントは社内に“秘密の掲示板”を作っていた──OpenAIがBlack Hatで詳細説明",
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。AWS Lambda コンソールの console-to-IDE 機能が Kiro と Cursor に対応したので、実際に試してみました。コンソールからワンクリックで各 IDE を開けるようになっています。",
+      "summary": "クラウドの新着が15件。Xは「クリエイター収益配分プログラム」を終了し、新制度「Original Content Rewards Program」への移行を発表した。…",
       "articles": [
+        {
+          "title": "X、「クリエイター収益分配プログラム」終了へ──「オリジナル投稿」に絞った新報酬制度に移行",
+          "link": "https://www.itmedia.co.jp/news/article/2608/09/2000000464/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-08T23:20:21",
+          "excerpt": "Xは「クリエイター収益配分プログラム」を終了し、新制度「Original Content Rewards Program」への移行を発表した。…"
+        },
+        {
+          "title": "なぜ若手こそインフラを学ぶべき？　無料で学べるネットワーク、Linux、サーバ＆ストレージのeBook",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/09/news004.html",
+          "source": "@IT",
+          "published": "2026-08-08T23:00:00",
+          "excerpt": "クラウドやAIの普及で、インフラの仕組みを意識せずに仕事ができる場面が増えています。しかし、障害対応やAIが生成した設定コードの確認には、基礎知識が欠かせません。夏休みに読んでおくと役立つ無料eBookを紹介します。"
+        },
         {
           "title": "[アップデート] AWS Lambda コンソールの「IDE で開く」機能が Kiro と Cursor にも対応しました",
           "link": "https://dev.classmethod.jp/articles/aws-lambda-ide-kiro-cursor/",
@@ -57,27 +71,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-08T11:42:25",
           "excerpt": "はじめに こんにちは、AWS Japan でソリューションアーキテクトをしている吉川です。前回の記事では、「PC の蓋を閉じるとエージェントが止まる」問題を、実体を EC2 に引っ越すことで解決しました。今回はその続編です。…"
-        },
-        {
-          "title": "Aurora MySQL の変更データを AWS DMS の Full Load + CDC で S3（Parquet）に出力し Athena でクエリしてみた",
-          "link": "https://dev.classmethod.jp/articles/dms-full-load-cdc-aurora-mysql-to-s3-parquet/",
-          "source": "DevelopersIO",
-          "published": "2026-08-08T11:25:09",
-          "excerpt": "AWS DMS で Aurora MySQL のデータ変更をリアルタイムに S3 へ連携し、Athena で分析する方法を、実装手順と動作確認まで含めてご紹介します。"
-        },
-        {
-          "title": "S3 + CloudFront + WAFでIP制限配信を組んでハマった5つのポイント",
-          "link": "https://qiita.com/caymezon/items/9bf5b1e039fd45226af0",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-08T10:16:54",
-          "excerpt": "背景 S3 → CloudFront → WAFという構成でIP制限付きの静的サイト配信を組みました。構成自体はシンプルですが、実際にやってみるとUIの変更・IPv6の挙動・OACの仕組みなど、いくつも壁にぶつかったので記録します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。夏なので、AWS管理ポリシー（AWS Managed Policy）をたくさん捕まえました。AWS管理ポリシーって長くて呼びづらいので、マネポリと呼びますね。マネポリをゲットしました。…",
+      "summary": "セキュリティの新着が6件。夏なので、AWS管理ポリシー（AWS Managed Policy）をたくさん捕まえました。AWS管理ポリシーって長くて呼びづらいので、マネポリと呼びますね。マネポリをゲットしました。…",
       "articles": [
         {
           "title": "AWS IAMのAWS管理ポリシーを全種類捕まえてみた",
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "定番の「MQTT + AWS IoT Core + Timestream for InfluxDB + Grafana」を、実運用目線でひと工夫 ― hot/coldデータの組み合わせと、スケール可能なデバイスモックで仮想1000台×30日分を検証する",
+      "link": "https://dev.classmethod.jp/articles/iot-timestream-influxdb-grafana-1000-devices/",
+      "source": "DevelopersIO",
+      "published": "2026-08-08T23:25:54",
+      "excerpt": "IoT データ可視化の定番構成（MQTT + AWS IoT Core + Timestream for InfluxDB + Grafana）を、仮想デバイス1000台と生成データで実装し、過去と直近のデータをシームレスに表示する方法を紹…"
+    },
+    {
+      "title": "私のサーバーは今は電話です",
+      "link": "https://seg6.space/posts/phone-server/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-08T22:49:23",
+      "excerpt": "記事の URL: https://seg6.space/posts/phone-server/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
       "title": "告知は前日、返金なし──ソシャゲ「文マヨ」サ終の顛末とマンガ家を驚かせたファンの嘆きとは？",
       "link": "https://www.itmedia.co.jp/news/article/2608/09/2000000457/",
       "source": "ITmedia NEWS",
@@ -194,20 +208,6 @@
       "source": "TechCrunch（英語）",
       "published": "2026-08-08T21:24:02",
       "excerpt": "アマゾンはテキサスに計画されているデータセンターの一部として、米国最大の気候汚染源になる可能性があると伝えられる敷地内発電所に投資している。"
-    },
-    {
-      "title": "メリーランド州、二度目のビーバー襲撃を受けてカニンガムフォールズ州立公園の一部を閉鎖",
-      "link": "https://news.maryland.gov/dnr/2026/08/05/dnr-closes-additional-areas-of-cunningham-falls-state-park-following-second-beaver-attack/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-08T21:07:10",
-      "excerpt": "記事の URL: https://news.maryland.…"
-    },
-    {
-      "title": "自然科学における数学の不合理な効果 [pdf]",
-      "link": "https://web.njit.edu/~akansu/PAPERS/The%20Unreasonable%20Effectiveness%20of%20Mathematics%20(EP%20Wigner).pdf",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-08T20:37:24",
-      "excerpt": "記事の URL: https://web.njit.edu/~akansu/PAPERS/The%20Unreasonable%20Effectiveness%20of%20Mathematics%20(EP%20Wigner).…"
     }
   ]
 }
