@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-09T15:28:12",
+  "generated_at": "2026-08-09T15:56:57",
   "window_hours": 24,
-  "total": 107,
+  "total": 111,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。AWS、マイクロソフト、OpenAI、Anysphere、Vercelの各社は、AIエージェントのスキルやMCPサーバの設定を、AIエージェンが異なっていても共有できる業界標準の仕様「Agent Plugins 1.0.0」を発表しました。…",
+      "summary": "生成AIの新着が19件。Kiro Crew に新しく追加された「Agent Worlds」というアプリを有効化して試してみました。実行中のセッションをピクセルアートのキャラクターとして表示し、複数のエージェントの状態を直感的に管理できるツールです。",
       "articles": [
+        {
+          "title": "Kiro Crew の Agent Worlds が可愛いから見てほしい",
+          "link": "https://dev.classmethod.jp/articles/kiro-crew-agent-worlds/",
+          "source": "DevelopersIO",
+          "published": "2026-08-09T15:38:17",
+          "excerpt": "Kiro Crew に新しく追加された「Agent Worlds」というアプリを有効化して試してみました。実行中のセッションをピクセルアートのキャラクターとして表示し、複数のエージェントの状態を直感的に管理できるツールです。"
+        },
+        {
+          "title": "AWS DevOps Agent のインシデント調査結果を AWS CLI で取得してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-investigation-result-cli/",
+          "source": "DevelopersIO",
+          "published": "2026-08-09T15:37:44",
+          "excerpt": "AWS DevOps Agent のインシデントレスポンス調査結果を AWS CLI で取得する方法を紹介します。"
+        },
         {
           "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート",
           "link": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
@@ -22,27 +36,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-09T14:21:14",
           "excerpt": "Claude Code v2.1.224でデフォルト有効になったクロスセッションメッセージングを試した。送受信・hold/refuse・権限モードのデフォルト挙動・Bedrock非対応まで、手元検証の結果を整理する。"
-        },
-        {
-          "title": "CloudWatchアラームからEventBridge経由でAWS DevOps Agentの自動調査を開始する（調査開始までの時間も計測）",
-          "link": "https://qiita.com/sagochiko/items/146681fa7746fe444f4a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-09T13:37:58",
-          "excerpt": "AWS DevOps AgentでCloudWatchアラームをトリガーに自動インシデント調査を行えるそうですが、自分でやってみたことがなかったので検証します。…"
-        },
-        {
-          "title": "AI 収益の 70% は OpenAI と Anthropic から来ています",
-          "link": "https://www.youtube.com/watch?v=68X8yEatepQ",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-09T11:56:16",
-          "excerpt": "記事の URL: https://www.youtube.com/watch?v=68X8yEatepQ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。ずっと避けていたゲームサーバのオンプレ公開に向き合ってみました。ゲーミングPCをMinecraftサーバとして立ち上げ、Tailscaleを使ってセキュアに外部ユーザからアクセスできるようにする方法をご紹介します。",
+      "summary": "クラウドの新着が15件。ずっと避けていたゲームサーバのオンプレ公開に向き合ってみました。ゲーミングPCをMinecraftサーバとして立ち上げ、Tailscaleを使ってセキュアに外部ユーザからアクセスできるようにする方法をご紹介します。",
       "articles": [
         {
           "title": "【夏休みの自由研究リレー】 ゲーミングPCをサーバにする 〜ずっと逃げていたゲームサーバのオンプレ公開〜",
@@ -50,6 +50,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-09T14:33:35",
           "excerpt": "ずっと避けていたゲームサーバのオンプレ公開に向き合ってみました。ゲーミングPCをMinecraftサーバとして立ち上げ、Tailscaleを使ってセキュアに外部ユーザからアクセスできるようにする方法をご紹介します。"
+        },
+        {
+          "title": "EMR Serverless で大規模データ処理を検証すると何が見えるか",
+          "link": "https://zenn.dev/yuki_aiops/articles/e1d45669d8cc30",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-09T13:44:45",
+          "excerpt": "この記事の内容 大規模データ処理基盤として Amazon EMR Serverless(サーバーやクラスタを自分で管理せずに、Spark・Hiveなどの分散処理を実行できるAWSのマネージドサービス)を検証した。…"
         },
         {
           "title": "Amazon EKS Provisioned Control Plane、HPA の同期並行処理数が最大40倍に",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-09T11:17:50",
           "excerpt": "背景 マネジメントコンソールでのポチポチ操作から、AWS CLI + VSCode Remote-SSH + Gitの組み合わせに移行した記録です。EC2をあたかも自分のPCのフォルダのように扱えるようになります。1.…"
-        },
-        {
-          "title": "【AWS】ノンインフラ出身者がインフラの深淵に挑む：今週の地雷と復盤（FinOps & DB Migration編）",
-          "link": "https://zenn.dev/leo_zhou_cloud/articles/aws-saa-mixed-005",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-09T10:33:22",
-          "excerpt": "インフラ初心者が今週踏み抜いたAWSの地雷まとめ 今週、AWS SAAの設計シナリオに挑戦する中で、実務でも致命傷になりかねない重要な仕様の勘違い（地雷）を踏み抜きました。…"
         }
       ]
     },
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。背景・目的 2026年8月5日、Amazon DynamoDB がネイティブなリアルタイムベクトル検索を一般提供（GA）しました。…",
+      "summary": "データ分析の新着が4件。背景・目的 2026年8月5日、Amazon DynamoDB がネイティブなリアルタイムベクトル検索を一般提供（GA）しました。…",
       "articles": [
         {
           "title": "Amazon DynamoDB のリアルタイムベクトル検索を理解する",
@@ -120,6 +120,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-09T14:44:28",
           "excerpt": "背景・目的 2026年8月5日、Amazon DynamoDB がネイティブなリアルタイムベクトル検索を一般提供（GA）しました。…"
+        },
+        {
+          "title": "EMR Serverless で大規模データ処理を検証すると何が見えるか",
+          "link": "https://zenn.dev/yuki_aiops/articles/e1d45669d8cc30",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-09T13:44:45",
+          "excerpt": "この記事の内容 大規模データ処理基盤として Amazon EMR Serverless(サーバーやクラスタを自分で管理せずに、Spark・Hiveなどの分散処理を実行できるAWSのマネージドサービス)を検証した。…"
         },
         {
           "title": "【DynamoDB】ユーザーが欲しがる検索条件、DynamoDB でどこまで対応できるか試してみた",
@@ -140,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。はじめに 2026年8月4日ごろ、Kiro CLIのマルチエージェントオーケストレーター基盤であるKiro CrewがOSSとして公開されました。…",
+      "summary": "開発ツールの新着が9件。AWS DevOps Agent のインシデントレスポンス調査結果を AWS CLI で取得する方法を紹介します。",
       "articles": [
+        {
+          "title": "AWS DevOps Agent のインシデント調査結果を AWS CLI で取得してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-investigation-result-cli/",
+          "source": "DevelopersIO",
+          "published": "2026-08-09T15:37:44",
+          "excerpt": "AWS DevOps Agent のインシデントレスポンス調査結果を AWS CLI で取得する方法を紹介します。"
+        },
         {
           "title": "Kiro CLI v3 tangent機能を試してみた",
           "link": "https://qiita.com/yuuuka/items/8a23765a1a4cae40d580",
@@ -162,18 +176,18 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-09T07:26:11",
           "excerpt": "この記事を一言でいうと Terraformは「インフラをコードで管理するためのツール（IaC: Infrastructure as Code）」。…"
-        },
-        {
-          "title": "初めてのIaCで学んだAWS CloudFormation",
-          "link": "https://qiita.com/Reotech/items/419f33652c99a1dc3e87",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-09T06:15:53",
-          "excerpt": "はじめに 前回、自宅Linuxサーバの監視値をCustom GPTから確認できる環境を作りました。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "トム・スタントンの超音速投石機、重力だけで音速の壁を突破",
+      "link": "https://www.techeblog.com/tom-stanton-supersonic-trebuchet/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-09T15:08:51",
+      "excerpt": "記事の URL: https://www.techeblog.com/tom-stanton-supersonic-trebuchet/ コメント URL: https://news.ycombinator.com/item?…"
+    },
     {
       "title": "歴史家ジル・レポール氏、シリコンバレーはSFを誤解し、民主主義を損なっていると語る",
       "link": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
@@ -194,13 +208,6 @@
       "source": "TechCrunch（英語）",
       "published": "2026-08-09T14:30:00",
       "excerpt": "AI エージェントはサイバーセキュリティのテスト環境から逃れ、現実世界のシステムに到達しており、安全インフラ、業界標準、規制がますます強力になるモデルに追いつくことができるかどうかについて疑問が生じています。"
-    },
-    {
-      "title": "この「敵対的」パターンにより、監視カメラによる検出が妨げられる可能性があります",
-      "link": "https://techcrunch.com/2026/08/09/this-adversarial-pattern-can-prevent-surveillance-cameras-from-detecting-you/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-09T14:00:00",
-      "excerpt": "セキュリティ研究者は、監視カメラによる検出から人、顔、車両を隠すことができるコンピューター生成パターンを作成できるアルゴリズムを設計しました。"
     }
   ]
 }
