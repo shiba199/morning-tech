@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T08:07:23",
+  "generated_at": "2026-08-09T09:08:31",
   "window_hours": 24,
   "total": 104,
   "topic_count": 5,
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。Route 53 で管理している独自ドメインを使いながら、さくらインターネットのメールサービスでメール運用する方法を実装・検証してみました。DNS設定から送受信確認まで、その手順と設定値をご紹介します。",
+      "summary": "クラウドの新着が14件。はじめに こんにちは！KDDIアイレット株式会社の水野 永遠です。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の9日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。…",
       "articles": [
+        {
+          "title": "ECSネイティブBlue/Greenで「切替後に旧環境を残して、確認できたら落とす」をやる — PAUSEフックの置き場所について",
+          "link": "https://qiita.com/Omizu-25/items/5157a01639c31d60ad7a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-09T08:25:05",
+          "excerpt": "はじめに こんにちは！KDDIアイレット株式会社の水野 永遠です。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の9日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。…"
+        },
         {
           "title": "Route 53 で管理する独自ドメインをさくらインターネットのメールサービスで使ってみた",
           "link": "https://dev.classmethod.jp/articles/route53-domain-sakura-rental-server-mail/",
@@ -64,20 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-09T02:11:45",
           "excerpt": "検証の狙い Route 53 DNSフェイルオーバーで観測できるものだけを取り出し、「どのログ行・どのメトリクスが出れば実証されたと言えるか」を先に定義したうえで、実測して突き合わせていきます。…"
-        },
-        {
-          "title": "X、「クリエイター収益分配プログラム」終了へ──「オリジナル投稿」に絞った新報酬制度に移行",
-          "link": "https://www.itmedia.co.jp/news/article/2608/09/2000000464/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-08T23:20:21",
-          "excerpt": "Xは「クリエイター収益配分プログラム」を終了し、新制度「Original Content Rewards Program」への移行を発表した。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。NestJSからHono + Cloudflare Workersへ移行するとき、AWS SDKは使えないものだと思っていました。WorkersはNode.jsそのものではなく、互換性のあるNode APIも一部だからです。…",
+      "summary": "セキュリティの新着が8件。NestJSからHono + Cloudflare Workersへ移行するとき、AWS SDKは使えないものだと思っていました。WorkersはNode.jsそのものではなく、互換性のあるNode APIも一部だからです。…",
       "articles": [
         {
           "title": "Cloudflare WorkersでAWS SDK v3を検証。Secrets ManagerとSTSをfetchで呼ぶ理由",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。はじめに 2026 年 2 月（米国時間 2 月 5 日）、AWS Glue REST API コネクタが GA になりました。…",
+      "summary": "データ分析の新着が2件。はじめに 2026 年 2 月（米国時間 2 月 5 日）、AWS Glue REST API コネクタが GA になりました。…",
       "articles": [
         {
           "title": "AWS Glue REST API コネクタで Qiita API に繋いでみたら大変だった件",
@@ -127,20 +127,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-08T11:25:09",
           "excerpt": "AWS DMS で Aurora MySQL のデータ変更をリアルタイムに S3 へ連携し、Athena で分析する方法を、実装手順と動作確認まで含めてご紹介します。"
-        },
-        {
-          "title": "今更だけど、DynamoDBの設計の勘所をサクッとまとめてみた",
-          "link": "https://qiita.com/miruky/items/c7beb2fbed6492d195d1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-08T08:58:27",
-          "excerpt": "はじめに こんばんは、mirukyです。突然ですが、私の一番好きなAWSサービスは、Amazon DynamoDB（DynamoをよくDyamoと打ち間違える）です。なぜかと言うと、一言で言えば「非常に扱いやすいから」ですね。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。この記事を一言でいうと Terraformは「インフラをコードで管理するためのツール（IaC: Infrastructure as Code）」。…",
+      "summary": "開発ツールの新着が10件。この記事を一言でいうと Terraformは「インフラをコードで管理するためのツール（IaC: Infrastructure as Code）」。…",
       "articles": [
         {
           "title": "Terraformの基礎を整理する",
