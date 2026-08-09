@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-09T14:05:08",
+  "generated_at": "2026-08-09T14:58:33",
   "window_hours": 24,
-  "total": 106,
+  "total": 105,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。AWS、マイクロソフト、OpenAI、Anysphere、Vercelの各社は、AIエージェントのスキルやMCPサーバの設定を、AIエージェンが異なっていても共有できる業界標準の仕様「Agent Plugins 1.0.0」を発表しました。…",
+      "summary": "生成AIの新着が17件。AWS、マイクロソフト、OpenAI、Anysphere、Vercelの各社は、AIエージェントのスキルやMCPサーバの設定を、AIエージェンが異なっていても共有できる業界標準の仕様「Agent Plugins 1.0.0」を発表しました。…",
       "articles": [
         {
           "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート",
@@ -15,6 +15,13 @@
           "source": "Publickey",
           "published": "2026-08-09T15:19:33",
           "excerpt": "AWS、マイクロソフト、OpenAI、Anysphere、Vercelの各社は、AIエージェントのスキルやMCPサーバの設定を、AIエージェンが異なっていても共有できる業界標準の仕様「Agent Plugins 1.0.0」を発表しました。…"
+        },
+        {
+          "title": "Claude Codeの新機能「クロスセッションメッセージング機能」を試してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-cross-session-messaging/",
+          "source": "DevelopersIO",
+          "published": "2026-08-09T14:21:14",
+          "excerpt": "Claude Code v2.1.224でデフォルト有効になったクロスセッションメッセージングを試した。送受信・hold/refuse・権限モードのデフォルト挙動・Bedrock非対応まで、手元検証の結果を整理する。"
         },
         {
           "title": "CloudWatchアラームからEventBridge経由でAWS DevOps Agentの自動調査を開始する（調査開始までの時間も計測）",
@@ -29,21 +36,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-09T11:52:01",
           "excerpt": "はじめに Amazon Bedrock AgentCore でエージェントを運用していると、標準出力のログは CloudWatch Logs に、トレース(スパン)はaws/spansという別のロググループに、と分かれて配信されていて「同じ…"
-        },
-        {
-          "title": "Show HN: DeepSeek-V4 潜在推論 – 「思考」を潜在空間に移動する",
-          "link": "https://blog.n.ichol.ai/packaging-latent-reasoning-as-a-real-model",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-09T11:46:28",
-          "excerpt": "記事の URL: https://blog.n.ichol.ai/packaging-latent-reasoning-as-a-real-model コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。はじめに 2026 年 7 月 28 日、AWS は Amazon EKS の Provisioned Control Plane に対して、Pod オートスケーリングを高速化するアップデートを発表しました。…",
+      "summary": "クラウドの新着が14件。ずっと避けていたゲームサーバのオンプレ公開に向き合ってみました。ゲーミングPCをMinecraftサーバとして立ち上げ、Tailscaleを使ってセキュアに外部ユーザからアクセスできるようにする方法をご紹介します。",
       "articles": [
+        {
+          "title": "【夏休みの自由研究リレー】 ゲーミングPCをサーバにする 〜ずっと逃げていたゲームサーバのオンプレ公開〜",
+          "link": "https://dev.classmethod.jp/articles/summer-project-2026-gaming-pc-server/",
+          "source": "DevelopersIO",
+          "published": "2026-08-09T14:33:35",
+          "excerpt": "ずっと避けていたゲームサーバのオンプレ公開に向き合ってみました。ゲーミングPCをMinecraftサーバとして立ち上げ、Tailscaleを使ってセキュアに外部ユーザからアクセスできるようにする方法をご紹介します。"
+        },
         {
           "title": "Amazon EKS Provisioned Control Plane、HPA の同期並行処理数が最大40倍に",
           "link": "https://qiita.com/Haruki-N/items/4cb31f88e5a556f7d349",
@@ -64,20 +71,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-09T10:33:22",
           "excerpt": "インフラ初心者が今週踏み抜いたAWSの地雷まとめ 今週、AWS SAAの設計シナリオに挑戦する中で、実務でも致命傷になりかねない重要な仕様の勘違い（地雷）を踏み抜きました。…"
-        },
-        {
-          "title": "S3ファイルダウンローダを作成",
-          "link": "https://qiita.com/bontaro_1/items/2bc66e8a9176e66afab1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-09T10:22:16",
-          "excerpt": "S3ファイルダウンローダを作成 ソースコードはGitHubで公開しています。S3Downloader: simple downloader for AWS S3.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。背景 EC2のセキュリティグループを自分のIPアドレスに制限したのに、SSHもHTTPも接続できない現象に遭遇しました。原因は「curlで確認したIPと実際の接続元IPが違っていた」というものでした。1.…",
+      "summary": "セキュリティの新着が7件。背景 EC2のセキュリティグループを自分のIPアドレスに制限したのに、SSHもHTTPも接続できない現象に遭遇しました。原因は「curlで確認したIPと実際の接続元IPが違っていた」というものでした。1.…",
       "articles": [
         {
           "title": "セキュリティグループでIP制限したのに接続できない時に疑うべきこと",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。Amazon DynamoDB はじめに DynamoDB を業務システムにどこまで適用できるか検証しています。前回までは、DynamoDB のパーティ...…",
+      "summary": "データ分析の新着が3件。背景・目的 2026年8月5日、Amazon DynamoDB がネイティブなリアルタイムベクトル検索を一般提供（GA）しました。…",
       "articles": [
+        {
+          "title": "Amazon DynamoDB のリアルタイムベクトル検索を理解する",
+          "link": "https://qiita.com/zumax/items/a1c2632db7f298d2c402",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-09T14:44:28",
+          "excerpt": "背景・目的 2026年8月5日、Amazon DynamoDB がネイティブなリアルタイムベクトル検索を一般提供（GA）しました。…"
+        },
         {
           "title": "【DynamoDB】ユーザーが欲しがる検索条件、DynamoDB でどこまで対応できるか試してみた",
           "link": "https://qiita.com/jus1730/items/94f712ffc5c31eebc79b",
@@ -133,7 +140,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。背景 マネジメントコンソールでのポチポチ操作から、AWS CLI + VSCode Remote-SSH + Gitの組み合わせに移行した記録です。EC2をあたかも自分のPCのフォルダのように扱えるようになります。1.…",
+      "summary": "開発ツールの新着が7件。背景 マネジメントコンソールでのポチポチ操作から、AWS CLI + VSCode Remote-SSH + Gitの組み合わせに移行した記録です。EC2をあたかも自分のPCのフォルダのように扱えるようになります。1.…",
       "articles": [
         {
           "title": "VSCode Remote-SSH + AWS CLIでEC2を「ローカルフォルダ」として扱う",
@@ -168,6 +175,13 @@
   ],
   "uncategorized": [
     {
+      "title": "AIの安全性テストは安全上のリスクになりつつある",
+      "link": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-09T14:30:00",
+      "excerpt": "AI エージェントはサイバーセキュリティのテスト環境から逃れ、現実世界のシステムに到達しており、安全インフラ、業界標準、規制がますます強力になるモデルに追いつくことができるかどうかについて疑問が生じています。"
+    },
+    {
       "title": "この「敵対的」パターンにより、監視カメラによる検出が妨げられる可能性があります",
       "link": "https://techcrunch.com/2026/08/09/this-adversarial-pattern-can-prevent-surveillance-cameras-from-detecting-you/",
       "source": "TechCrunch（英語）",
@@ -187,13 +201,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-08-09T13:20:43",
       "excerpt": "記事の URL: https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "SD-WAN について書くことから依存するようになりました",
-      "link": "https://www.theregister.com/networks/2026/08/09/ive-gone-from-writing-about-sd-wan-to-depending-on-it/5285130",
-      "source": "The Register（英語）",
-      "published": "2026-08-09T13:05:00",
-      "excerpt": "Starlink と 5G ホーム インターネットはデジタル ディバイドの解消に貢献していますが、完璧には程遠いです。それらを接着すると、かなり近づけることができます。"
     }
   ]
 }
