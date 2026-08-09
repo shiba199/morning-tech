@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-09T11:27:27",
+  "generated_at": "2026-08-09T11:53:36",
   "window_hours": 24,
-  "total": 98,
+  "total": 99,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。Claude Code に「このテーブルの構造どうなってる？」と聞くために、スキーマをコピペして貼り付けている人向けの記事です。dbboard は Rust + Tauri 製のデスクトップ DB クライアントで、v0.…",
+      "summary": "生成AIの新着が18件。はじめに Amazon Bedrock AgentCore でエージェントを運用していると、標準出力のログは CloudWatch Logs に、トレース(スパン)はaws/spansという別のロググループに、と分かれて配信されていて「同じ…",
       "articles": [
+        {
+          "title": "Amazon Bedrock AgentCore のログとトレースが 1 つのロググループにまとまった",
+          "link": "https://qiita.com/leomarokun/items/983e98826d7c3705b251",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-09T11:52:01",
+          "excerpt": "はじめに Amazon Bedrock AgentCore でエージェントを運用していると、標準出力のログは CloudWatch Logs に、トレース(スパン)はaws/spansという別のロググループに、と分かれて配信されていて「同じ…"
+        },
         {
           "title": "Claude Code に自分の DB を触らせる — dbboard の MCP サーバー | Dokokadeさんのフィード",
           "link": "https://zenn.dev/dokokade/articles/46b8c608715963",
@@ -29,20 +36,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-09T05:05:10",
           "excerpt": "はじめに LLM に最新情報を答えさせようとすると、大抵は自前で Web 検索 API を契約して、検索結果をプロンプトに詰め込んで……という「グラウンディング」の仕組みを自分で組む羽目になります。…"
-        },
-        {
-          "title": "S3 VectorsのRAGパイプラインを作り直している話（インジェスト編）",
-          "link": "https://zenn.dev/kawasemi_jp/articles/rebuilding-rag-pipeline-ingest",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-09T03:58:19",
-          "excerpt": "この記事について Slackから社内文書に質問できるRAGボットをAWSで作った話は、以前に概要記事と有償本として公開しました。いまはその構成を土台にして、別の枝で作り直しを進めています。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。背景 マネジメントコンソールでのポチポチ操作から、AWS CLI + VSCode Remote-SSH + Gitの組み合わせに移行した記録です。EC2をあたかも自分のPCのフォルダのように扱えるようになります。1.…",
+      "summary": "クラウドの新着が12件。背景 マネジメントコンソールでのポチポチ操作から、AWS CLI + VSCode Remote-SSH + Gitの組み合わせに移行した記録です。EC2をあたかも自分のPCのフォルダのように扱えるようになります。1.…",
       "articles": [
         {
           "title": "VSCode Remote-SSH + AWS CLIでEC2を「ローカルフォルダ」として扱う",
@@ -161,6 +161,13 @@
   ],
   "uncategorized": [
     {
+      "title": "AIF-C01（AWS Certified AI Practitioner）1週間で合格した学習方法【備忘録】",
+      "link": "https://qiita.com/Bambambi/items/5e506205a313bcedac75",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-09T11:52:41",
+      "excerpt": "はじめに 本日、AWS Certified AI Practitioner（AIF-C01）に合格しました。学習期間は約1週間で、初受験でしたが、808点で無事に合格することができました。…"
+    },
+    {
       "title": "CSS: 受信箱の中の爆弾",
       "link": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
       "source": "Hacker News（英語）",
@@ -180,13 +187,6 @@
       "source": "Qiita AWSタグ",
       "published": "2026-08-09T09:41:57",
       "excerpt": "AWS Certified Advanced Networking - Specialty（ANS-C01）に合格しました。スコアは769点。結構ギリギリでした。…"
-    },
-    {
-      "title": "ソフトウェア大手SAP、AIコスト高騰でほとんどの出張と雇用を停止",
-      "link": "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-09T08:00:51",
-      "excerpt": "記事の URL: https://www.404media.…"
     }
   ]
 }
