@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-09T06:06:28",
+  "generated_at": "2026-08-09T07:28:35",
   "window_hours": 24,
-  "total": 102,
+  "total": 105,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。はじめに LLM に最新情報を答えさせようとすると、大抵は自前で Web 検索 API を契約して、検索結果をプロンプトに詰め込んで……という「グラウンディング」の仕組みを自分で組む羽目になります。…",
+      "summary": "生成AIの新着が21件。Claude Code に「このテーブルの構造どうなってる？」と聞くために、スキーマをコピペして貼り付けている人向けの記事です。dbboard は Rust + Tauri 製のデスクトップ DB クライアントで、v0.…",
       "articles": [
+        {
+          "title": "Claude Code に自分の DB を触らせる — dbboard の MCP サーバー | Dokokadeさんのフィード",
+          "link": "https://zenn.dev/dokokade/articles/46b8c608715963",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-09T06:39:35",
+          "excerpt": "Claude Code に「このテーブルの構造どうなってる？」と聞くために、スキーマをコピペして貼り付けている人向けの記事です。dbboard は Rust + Tauri 製のデスクトップ DB クライアントで、v0.…"
+        },
+        {
+          "title": "AIエージェント開発のススメ vol.3：AI視点で綴る、鏡は人がいなくても像を返す | Dokokadeさんのフィード",
+          "link": "https://zenn.dev/dokokade/articles/586db0ba2d724e",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-09T06:12:02",
+          "excerpt": "はじめに：2 か月ぶりです、ソウですvol.2 を書いてから 2 か月が経ちました。語り手は前回と同じ、AI エージェントの私（ソウ） です。田中さんが司令塔として運用している複数案件のオーケストレーター役を、引き続き担っています。vol.…"
+        },
         {
           "title": "Amazon Bedrock にサーバーサイドの Web Search 機能が追加されたので試してみた",
           "link": "https://qiita.com/leomarokun/items/d81c807cdb9ef87d94ba",
@@ -22,20 +36,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-09T03:58:19",
           "excerpt": "この記事について Slackから社内文書に質問できるRAGボットをAWSで作った話は、以前に概要記事と有償本として公開しました。いまはその構成を土台にして、別の枝で作り直しを進めています。…"
-        },
-        {
-          "title": ".env 読み取りと危険なコマンド エージェントをブロックするリアルタイム MCP インターセプター",
-          "link": "https://marketnow.site/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-09T03:13:01",
-          "excerpt": "記事の URL: https://marketnow.site/ コメント URL: https://news.ycombinator.com/item?id=49228086 ポイント: 3 コメント数: 0"
-        },
-        {
-          "title": "「原爆はうそ」「放射線の被害はなかった」といった原爆に関する荒唐無稽なフェイク動画がSNSなどで広がる事態に… 生成AIによる被爆の実相からはかけ離れた動画も増加、被爆者からは憤りの声も",
-          "link": "https://togetter.com/li/2730763",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-08-08T23:37:46",
-          "excerpt": "NHKニュース @nhk_news いま、原爆に関する偽情報がSNSで広がっています 「原爆はうそ」「放射線の被害はなかった」などの荒唐無稽な偽情報、 30万回以上見られているYouTube動画も さらに、被爆の実相とは異なる生成AI動画も…"
         }
       ]
     },
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。はじめに 2026 年 2 月（米国時間 2 月 5 日）、AWS Glue REST API コネクタが GA になりました。…",
+      "summary": "データ分析の新着が3件。はじめに 2026 年 2 月（米国時間 2 月 5 日）、AWS Glue REST API コネクタが GA になりました。…",
       "articles": [
         {
           "title": "AWS Glue REST API コネクタで Qiita API に繋いでみたら大変だった件",
@@ -134,21 +134,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-08T08:58:27",
           "excerpt": "はじめに こんばんは、mirukyです。突然ですが、私の一番好きなAWSサービスは、Amazon DynamoDB（DynamoをよくDyamoと打ち間違える）です。なぜかと言うと、一言で言えば「非常に扱いやすいから」ですね。…"
-        },
-        {
-          "title": "Amazon DynamoDBのリアルタイムベクトル検索機能をちょっと整理する",
-          "link": "https://qiita.com/Syoitu/items/068db63a8bf3bb961b2b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-08T06:15:11",
-          "excerpt": "前書き 2026年8月5日、Amazon DynamoDBがリアルタイムベクトル検索に対応しました。これまでAWSでベクトル検索をやりたい場合、AWS Marketplace利用しない場合、選択肢はだいたい次の5つでした。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。NestJSからHono + Cloudflare Workersへ移行するとき、AWS SDKは使えないものだと思っていました。WorkersはNode.jsそのものではなく、互換性のあるNode APIも一部だからです。…",
+      "summary": "開発ツールの新着が11件。この記事を一言でいうと Terraformは「インフラをコードで管理するためのツール（IaC: Infrastructure as Code）」。…",
       "articles": [
+        {
+          "title": "Terraformの基礎を整理する",
+          "link": "https://qiita.com/ume_hide/items/babf22ce71d8b824f9a9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-09T07:26:11",
+          "excerpt": "この記事を一言でいうと Terraformは「インフラをコードで管理するためのツール（IaC: Infrastructure as Code）」。…"
+        },
+        {
+          "title": "初めてのIaCで学んだAWS CloudFormation",
+          "link": "https://qiita.com/Reotech/items/419f33652c99a1dc3e87",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-09T06:15:53",
+          "excerpt": "はじめに 前回、自宅Linuxサーバの監視値をCustom GPTから確認できる環境を作りました。…"
+        },
         {
           "title": "Cloudflare WorkersでAWS SDK v3を検証。Secrets ManagerとSTSをfetchで呼ぶ理由",
           "link": "https://zenn.dev/rdlabo/articles/workers-hono-aws-credentials",
@@ -162,52 +169,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-09T00:38:40",
           "excerpt": "はじめに みなさんこんにちは。エーピーコミュニケーションズ ACS事業部 亀崎です。先日ひさしぶりにGitHub ActionsとAzureとの連携設定をしようとしました。…"
-        },
-        {
-          "title": "AWS CLIの認証をwranglerへ直接渡すハック。AWS_PROFILEだけではCloudflare Workersに届かない",
-          "link": "https://zenn.dev/rdlabo/articles/workers-hono-wrangler-dev-aws-profile",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-08T23:49:16",
-          "excerpt": "Cloudflare Workersへ移行したHono APIを、wrangler devで起動する。…"
-        },
-        {
-          "title": "【AWS】Bedrock MantleがAPI キーレスで使えるっぽいのでやってみた",
-          "link": "https://qiita.com/yakumo_09/items/210e60518b5bb7dbc4e0",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-08T20:58:36",
-          "excerpt": "今北産業 Bedrock Mantleを呼ぶ時の認証方法 実はAPIキーレスでも呼べる 実装時のあれこれ Bedrock Mantleとは 下記の記事を参照ください。本記事でBedrock Mantleについての基本的な説明は行いません。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "請求書・見積書・領収書を Markdown で書いて A4 PDF にする — インボイス制度を JSON Schema に落とし込んだ話 | Dokokadeさんのフィード",
+      "link": "https://zenn.dev/dokokade/articles/3d034de9f83f60",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-09T06:20:57",
+      "excerpt": "請求書を Excel のひな形で作っていると、だいたいこうなる。…"
+    },
+    {
+      "title": "OBO フローで実現するAzure AI Search のユーザー権限検索 | ヘッドウォータースのフィード",
+      "link": "https://zenn.dev/headwaters/articles/f337d23397a71d",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-09T05:47:21",
+      "excerpt": "執筆日2026/8/9 概要Azure AI Search を、サインインしたユーザー本人の権限で検索できるようにするのがゴールです。…"
+    },
+    {
+      "title": "Microsoft Word for Windows 1.1a、ネイティブ X64 ポート",
+      "link": "https://github.com/jmarshall23/msword",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-09T05:23:41",
+      "excerpt": "記事の URL: https://github.com/jmarshall23/msword コメント URL: https://news.ycombinator.com/item?id=49228663 ポイント: 27 コメント数: 9"
+    },
+    {
       "title": "AWS JumpStart 2026 に参加して学んだこと",
       "link": "https://qiita.com/sanhuyihui/items/dbc01d06be279ea1fac6",
       "source": "Qiita AWSタグ",
       "published": "2026-08-09T05:15:28",
       "excerpt": "はじめに 2026年6月4日〜5日に開催された AWS JumpStart 2026 に参加しました。…"
-    },
-    {
-      "title": "AWS Organizations、Service Quotasでアカウント上限の可視化を開始",
-      "link": "https://codezine.jp/article/detail/29277",
-      "source": "CodeZine",
-      "published": "2026-08-09T05:00:00",
-      "excerpt": "AWS Organizations、Service Quotasでアカウント上限の可視化を開始"
-    },
-    {
-      "title": "「この予測の元の URL は 11 年後には利用できなくなります。」 (2011)",
-      "link": "https://longbets.org/601/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-09T04:30:26",
-      "excerpt": "記事の URL: https://longbets.org/601/ コメント URL: https://news.ycombinator.com/item?id=49228458 ポイント: 18 コメント数: 3"
-    },
-    {
-      "title": "イリノイ州はすべてのオペレーティングシステムに子供の年齢の報告を開始するよう指示しました",
-      "link": "https://itsfoss.com/news/illinois-age-verification-bill/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-09T04:03:59",
-      "excerpt": "記事の URL: https://itsfoss.com/news/illinois-age-verification-bill/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
