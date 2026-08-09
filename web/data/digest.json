@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T09:08:31",
+  "generated_at": "2026-08-09T10:02:09",
   "window_hours": 24,
   "total": 104,
   "topic_count": 5,
@@ -7,7 +7,7 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が21件。Claude Code に「このテーブルの構造どうなってる？」と聞くために、スキーマをコピペして貼り付けている人向けの記事です。dbboard は Rust + Tauri 製のデスクトップ DB クライアントで、v0.…",
+      "summary": "生成AIの新着が20件。Claude Code に「このテーブルの構造どうなってる？」と聞くために、スキーマをコピペして貼り付けている人向けの記事です。dbboard は Rust + Tauri 製のデスクトップ DB クライアントで、v0.…",
       "articles": [
         {
           "title": "Claude Code に自分の DB を触らせる — dbboard の MCP サーバー | Dokokadeさんのフィード",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。はじめに こんにちは！KDDIアイレット株式会社の水野 永遠です。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の9日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。…",
+      "summary": "クラウドの新着が13件。Azure Boards、作業項目カードにプルリクエスト注釈を追加",
       "articles": [
+        {
+          "title": "Azure Boards、作業項目カードにプルリクエスト注釈を追加",
+          "link": "https://codezine.jp/article/detail/29288",
+          "source": "CodeZine",
+          "published": "2026-08-09T09:00:00",
+          "excerpt": "Azure Boards、作業項目カードにプルリクエスト注釈を追加"
+        },
         {
           "title": "ECSネイティブBlue/Greenで「切替後に旧環境を残して、確認できたら落とす」をやる — PAUSEフックの置き場所について",
           "link": "https://qiita.com/Omizu-25/items/5157a01639c31d60ad7a",
@@ -64,21 +71,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-09T03:58:19",
           "excerpt": "この記事について Slackから社内文書に質問できるRAGボットをAWSで作った話は、以前に概要記事と有償本として公開しました。いまはその構成を土台にして、別の枝で作り直しを進めています。…"
-        },
-        {
-          "title": "【検証】Route 53フェイルオーバーが遅い・切り替わらないを実際に再現して検知時間とTTLの下限を計測する",
-          "link": "https://qiita.com/volbe/items/03d6429d1a7e8381aec6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-09T02:11:45",
-          "excerpt": "検証の狙い Route 53 DNSフェイルオーバーで観測できるものだけを取り出し、「どのログ行・どのメトリクスが出れば実証されたと言えるか」を先に定義したうえで、実測して突き合わせていきます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。NestJSからHono + Cloudflare Workersへ移行するとき、AWS SDKは使えないものだと思っていました。WorkersはNode.jsそのものではなく、互換性のあるNode APIも一部だからです。…",
+      "summary": "セキュリティの新着が9件。これに触発されたと感じた X 世代は、ネットワーク ケーブルを抜いて警察に通報することを忘れないでください。",
       "articles": [
+        {
+          "title": "ランサムウェアギャングはCEOを無視して40代のITマネージャーに直行",
+          "link": "https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499",
+          "source": "The Register（英語）",
+          "published": "2026-08-09T09:33:00",
+          "excerpt": "これに触発されたと感じた X 世代は、ネットワーク ケーブルを抜いて警察に通報することを忘れないでください。"
+        },
         {
           "title": "Cloudflare WorkersでAWS SDK v3を検証。Secrets ManagerとSTSをfetchで呼ぶ理由",
           "link": "https://zenn.dev/rdlabo/articles/workers-hono-aws-credentials",
@@ -99,13 +106,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-08T23:49:16",
           "excerpt": "Cloudflare Workersへ移行したHono APIを、wrangler devで起動する。…"
-        },
-        {
-          "title": "AWS IAMのAWS管理ポリシーを全種類捕まえてみた",
-          "link": "https://dev.classmethod.jp/articles/summer-project-2026-iam-aws-managed-policies-get-daze/",
-          "source": "DevelopersIO",
-          "published": "2026-08-08T14:59:00",
-          "excerpt": "夏なので、AWS管理ポリシー（AWS Managed Policy）をたくさん捕まえました。AWS管理ポリシーって長くて呼びづらいので、マネポリと呼びますね。マネポリをゲットしました。…"
         }
       ]
     },
@@ -168,6 +168,20 @@
   ],
   "uncategorized": [
     {
+      "title": "【合格体験記】あれ、AWS ANSの合格基準って700点なの？",
+      "link": "https://qiita.com/boloyome/items/578e228687e192c3f388",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-09T09:41:57",
+      "excerpt": "AWS Certified Advanced Networking - Specialty（ANS-C01）に合格しました。スコアは769点。結構ギリギリでした。…"
+    },
+    {
+      "title": "ソフトウェア大手SAP、AIコスト高騰でほとんどの出張と雇用を停止",
+      "link": "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-09T08:00:51",
+      "excerpt": "記事の URL: https://www.404media.…"
+    },
+    {
       "title": "依存型を使わないIsabelle/HOL とは何か ── AWS のクラウド基盤を検証した定理証明系は、なぜ証明を自動で探せるのか",
       "link": "https://qiita.com/etale_cohomology/items/6987c76966a3513cd6e0",
       "source": "Qiita AWSタグ",
@@ -175,25 +189,11 @@
       "excerpt": "はじめに 「この OS の中核部分には、バグが存在しない」 こう言い切れるソフトウェアが、実際にあります。seL4 という名前の、OS の中核部分です。…"
     },
     {
-      "title": "請求書・見積書・領収書を Markdown で書いて A4 PDF にする — インボイス制度を JSON Schema に落とし込んだ話 | Dokokadeさんのフィード",
-      "link": "https://zenn.dev/dokokade/articles/3d034de9f83f60",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-09T06:20:57",
-      "excerpt": "請求書を Excel のひな形で作っていると、だいたいこうなる。…"
-    },
-    {
-      "title": "OBO フローで実現するAzure AI Search のユーザー権限検索 | ヘッドウォータースのフィード",
-      "link": "https://zenn.dev/headwaters/articles/f337d23397a71d",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-09T05:47:21",
-      "excerpt": "執筆日2026/8/9 概要Azure AI Search を、サインインしたユーザー本人の権限で検索できるようにするのがゴールです。…"
-    },
-    {
-      "title": "Microsoft Word for Windows 1.1a、ネイティブ X64 ポート",
-      "link": "https://github.com/jmarshall23/msword",
+      "title": "あらゆる順序の魔法の六角形があります",
+      "link": "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
       "source": "Hacker News（英語）",
-      "published": "2026-08-09T05:23:41",
-      "excerpt": "記事の URL: https://github.com/jmarshall23/msword コメント URL: https://news.ycombinator.com/item?id=49228663 ポイント: 27 コメント数: 9"
+      "published": "2026-08-09T07:19:58",
+      "excerpt": "記事の URL: https://gukov.dev/math/2026/08/02/new-magic-hexagons.html コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
