@@ -1,6 +1,40 @@
 {
   "articles": [
     {
+      "source": "Hacker News（英語）",
+      "srcClass": "news",
+      "srcLabel": "Hacker News（英語）",
+      "title": "撤回: 正しい拒否だった今週の App Store の拒否",
+      "link": "https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week",
+      "published": "2026-08-09T03:26:00",
+      "topics": [],
+      "tags": [],
+      "why": ""
+    },
+    {
+      "source": "Zenn AWSトピック",
+      "srcClass": "aws",
+      "srcLabel": "AWS Blog",
+      "title": "Cloudflare WorkersでAWS SDK v3を検証。Secrets ManagerとSTSをfetchで呼ぶ理由",
+      "link": "https://zenn.dev/rdlabo/articles/workers-hono-aws-credentials",
+      "published": "2026-08-09T02:19:26",
+      "topics": [
+        "sec",
+        "dev"
+      ],
+      "tags": [
+        [
+          "sec",
+          "セキュリティ"
+        ],
+        [
+          "dev",
+          "開発ツール"
+        ]
+      ],
+      "why": "セキュリティ"
+    },
+    {
       "source": "Qiita AWSタグ",
       "srcClass": "aws",
       "srcLabel": "AWS Blog",
@@ -41,12 +75,34 @@
       "why": ""
     },
     {
+      "source": "企業テックブログまとめ",
+      "srcClass": "news",
+      "srcLabel": "企業テックブログまとめ",
+      "title": "初学者向けJava学習支援サービス「CAS」をリリースしました！ | サイゼントの技術ブログ",
+      "link": "https://cyzennt.co.jp/blog/2026/08/09/%e5%88%9d%e5%ad%a6%e8%80%85%e5%90%91%e3%81%91java%e5%ad%a6%e7%bf%92%e6%94%af%e6%8f%b4%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%80%8ccas%e3%80%8d%e3%82%92%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%97/",
+      "published": "2026-08-09T01:49:01",
+      "topics": [],
+      "tags": [],
+      "why": ""
+    },
+    {
       "source": "Hacker News（英語）",
       "srcClass": "news",
       "srcLabel": "Hacker News（英語）",
       "title": "AI の黙示録が到来",
       "link": "https://www.compactmag.com/article/the-ai-apocalypse-is-already-here/",
       "published": "2026-08-09T01:28:36",
+      "topics": [],
+      "tags": [],
+      "why": ""
+    },
+    {
+      "source": "Hacker News（英語）",
+      "srcClass": "news",
+      "srcLabel": "Hacker News（英語）",
+      "title": "TheoremDB · 機械数学のための公開ワークスペース",
+      "link": "https://theoremdb.org/",
+      "published": "2026-08-09T01:23:36",
       "topics": [],
       "tags": [],
       "why": ""
@@ -106,6 +162,29 @@
       "topics": [],
       "tags": [],
       "why": ""
+    },
+    {
+      "source": "Zenn AWSトピック",
+      "srcClass": "aws",
+      "srcLabel": "AWS Blog",
+      "title": "AWS CLIの認証をwranglerへ直接渡すハック。AWS_PROFILEだけではCloudflare Workersに届かない",
+      "link": "https://zenn.dev/rdlabo/articles/workers-hono-wrangler-dev-aws-profile",
+      "published": "2026-08-08T23:49:16",
+      "topics": [
+        "sec",
+        "dev"
+      ],
+      "tags": [
+        [
+          "sec",
+          "セキュリティ"
+        ],
+        [
+          "dev",
+          "開発ツール"
+        ]
+      ],
+      "why": "セキュリティ"
     },
     {
       "source": "はてなブックマーク（テクノロジー）",
@@ -1360,89 +1439,6 @@
         ]
       ],
       "why": "クラウド"
-    },
-    {
-      "source": "Zenn AWSトピック",
-      "srcClass": "aws",
-      "srcLabel": "AWS Blog",
-      "title": "Lambdaのログを処理IDで追えるようにJSON形式の構造化ログにした",
-      "link": "https://zenn.dev/hknote/articles/lambda-json-structured-logger",
-      "published": "2026-08-08T04:00:05",
-      "topics": [
-        "cloud"
-      ],
-      "tags": [
-        [
-          "cloud",
-          "クラウド"
-        ]
-      ],
-      "why": "クラウド"
-    },
-    {
-      "source": "@IT",
-      "srcClass": "news",
-      "srcLabel": "@IT",
-      "title": "Google Chromeの新機能「Skills」　AIプロンプトの“毎回手打ち”を不要に",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/08/news011.html",
-      "published": "2026-08-08T04:00:00",
-      "topics": [
-        "ai"
-      ],
-      "tags": [
-        [
-          "ai",
-          "生成AI"
-        ]
-      ],
-      "why": "生成AI"
-    },
-    {
-      "source": "Hacker News（英語）",
-      "srcClass": "news",
-      "srcLabel": "Hacker News（英語）",
-      "title": "ミトス ソーシャル エンジニアリング AISI INC-2026-07-28-01",
-      "link": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
-      "published": "2026-08-08T03:41:56",
-      "topics": [],
-      "tags": [],
-      "why": ""
-    },
-    {
-      "source": "DevelopersIO",
-      "srcClass": "dev",
-      "srcLabel": "DevelopersIO",
-      "title": "[アップデート] Kiro IDE の Powers が Agent Plugins 仕様に対応し、他ツール向けプラグインをそのままインストールできるようになりました",
-      "link": "https://dev.classmethod.jp/articles/kiro-powers-supports-plugins/",
-      "published": "2026-08-08T03:34:53",
-      "topics": [
-        "ai"
-      ],
-      "tags": [
-        [
-          "ai",
-          "生成AI"
-        ]
-      ],
-      "why": "生成AI"
-    },
-    {
-      "source": "Zenn AWSトピック",
-      "srcClass": "aws",
-      "srcLabel": "AWS Blog",
-      "title": "Amazon Bedrock AgentCore GatewayのBudget制御を境界値・並列実行で検証する",
-      "link": "https://zenn.dev/kashiwabaray/articles/0c5f4347c65122",
-      "published": "2026-08-08T03:00:05",
-      "topics": [
-        "ai"
-      ],
-      "tags": [
-        [
-          "ai",
-          "生成AI"
-        ]
-      ],
-      "why": "生成AI"
     }
   ]
 }

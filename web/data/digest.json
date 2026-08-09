@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-09T02:55:59",
+  "generated_at": "2026-08-09T04:10:19",
   "window_hours": 24,
-  "total": 100,
+  "total": 99,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。NHKニュース @nhk_news いま、原爆に関する偽情報がSNSで広がっています 「原爆はうそ」「放射線の被害はなかった」などの荒唐無稽な偽情報、 30万回以上見られているYouTube動画も さらに、被爆の実相とは異なる生成AI動画も…",
+      "summary": "生成AIの新着が17件。NHKニュース @nhk_news いま、原爆に関する偽情報がSNSで広がっています 「原爆はうそ」「放射線の被害はなかった」などの荒唐無稽な偽情報、 30万回以上見られているYouTube動画も さらに、被爆の実相とは異なる生成AI動画も…",
       "articles": [
         {
           "title": "「原爆はうそ」「放射線の被害はなかった」といった原爆に関する荒唐無稽なフェイク動画がSNSなどで広がる事態に… 生成AIによる被爆の実相からはかけ離れた動画も増加、被爆者からは憤りの声も",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。検証の狙い Route 53 DNSフェイルオーバーで観測できるものだけを取り出し、「どのログ行・どのメトリクスが出れば実証されたと言えるか」を先に定義したうえで、実測して突き合わせていきます。…",
+      "summary": "クラウドの新着が12件。検証の狙い Route 53 DNSフェイルオーバーで観測できるものだけを取り出し、「どのログ行・どのメトリクスが出れば実証されたと言えるか」を先に定義したうえで、実測して突き合わせていきます。…",
       "articles": [
         {
           "title": "【検証】Route 53フェイルオーバーが遅い・切り替わらないを実際に再現して検知時間とTTLの下限を計測する",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。はじめに みなさんこんにちは。エーピーコミュニケーションズ ACS事業部 亀崎です。先日ひさしぶりにGitHub ActionsとAzureとの連携設定をしようとしました。…",
+      "summary": "セキュリティの新着が9件。NestJSからHono + Cloudflare Workersへ移行するとき、AWS SDKは使えないものだと思っていました。WorkersはNode.jsそのものではなく、互換性のあるNode APIも一部だからです。…",
       "articles": [
+        {
+          "title": "Cloudflare WorkersでAWS SDK v3を検証。Secrets ManagerとSTSをfetchで呼ぶ理由",
+          "link": "https://zenn.dev/rdlabo/articles/workers-hono-aws-credentials",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-09T02:19:26",
+          "excerpt": "NestJSからHono + Cloudflare Workersへ移行するとき、AWS SDKは使えないものだと思っていました。WorkersはNode.jsそのものではなく、互換性のあるNode APIも一部だからです。…"
+        },
         {
           "title": "GitHub OIDC に セキュリティ向上のための設定項目が増えました | APC 技術ブログ",
           "link": "https://techblog.ap-com.co.jp/entry/2026/08/09/093840",
@@ -87,25 +94,18 @@
           "excerpt": "はじめに みなさんこんにちは。エーピーコミュニケーションズ ACS事業部 亀崎です。先日ひさしぶりにGitHub ActionsとAzureとの連携設定をしようとしました。…"
         },
         {
+          "title": "AWS CLIの認証をwranglerへ直接渡すハック。AWS_PROFILEだけではCloudflare Workersに届かない",
+          "link": "https://zenn.dev/rdlabo/articles/workers-hono-wrangler-dev-aws-profile",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-08T23:49:16",
+          "excerpt": "Cloudflare Workersへ移行したHono APIを、wrangler devで起動する。…"
+        },
+        {
           "title": "AWS IAMのAWS管理ポリシーを全種類捕まえてみた",
           "link": "https://dev.classmethod.jp/articles/summer-project-2026-iam-aws-managed-policies-get-daze/",
           "source": "DevelopersIO",
           "published": "2026-08-08T14:59:00",
           "excerpt": "夏なので、AWS管理ポリシー（AWS Managed Policy）をたくさん捕まえました。AWS管理ポリシーって長くて呼びづらいので、マネポリと呼びますね。マネポリをゲットしました。…"
-        },
-        {
-          "title": "Amazon Cognito 向け aws-auth スキルでパスキー認証アプリを試してみた",
-          "link": "https://dev.classmethod.jp/articles/agent-toolkit-aws-auth-skill-cognito-passkey/",
-          "source": "DevelopersIO",
-          "published": "2026-08-08T14:08:51",
-          "excerpt": "Agent Toolkit for AWS に aws-auth スキルが追加されました。Cognito 認証に関する9つのリファレンスをまとめたスキルです。これを使い、GPT-5.…"
-        },
-        {
-          "title": "開発者から Anthropic、OpenAI、Cursor、そしてその友人たちへ: セキュリティとプライバシーをデフォルトに",
-          "link": "https://www.theregister.com/ai-and-ml/2026/08/08/devs-to-anthropic-openai-cursor-and-friends-make-security-and-privacy-the-default/5285107",
-          "source": "The Register（英語）",
-          "published": "2026-08-08T13:00:00",
-          "excerpt": "研究者はソーシャル メディアを調査して、AI コーディング ツールに対する開発者の懸念を測定します。"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。はじめに みなさんこんにちは。エーピーコミュニケーションズ ACS事業部 亀崎です。先日ひさしぶりにGitHub ActionsとAzureとの連携設定をしようとしました。…",
+      "summary": "開発ツールの新着が9件。NestJSからHono + Cloudflare Workersへ移行するとき、AWS SDKは使えないものだと思っていました。WorkersはNode.jsそのものではなく、互換性のあるNode APIも一部だからです。…",
       "articles": [
+        {
+          "title": "Cloudflare WorkersでAWS SDK v3を検証。Secrets ManagerとSTSをfetchで呼ぶ理由",
+          "link": "https://zenn.dev/rdlabo/articles/workers-hono-aws-credentials",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-09T02:19:26",
+          "excerpt": "NestJSからHono + Cloudflare Workersへ移行するとき、AWS SDKは使えないものだと思っていました。WorkersはNode.jsそのものではなく、互換性のあるNode APIも一部だからです。…"
+        },
         {
           "title": "GitHub OIDC に セキュリティ向上のための設定項目が増えました | APC 技術ブログ",
           "link": "https://techblog.ap-com.co.jp/entry/2026/08/09/093840",
@@ -157,30 +164,30 @@
           "excerpt": "はじめに みなさんこんにちは。エーピーコミュニケーションズ ACS事業部 亀崎です。先日ひさしぶりにGitHub ActionsとAzureとの連携設定をしようとしました。…"
         },
         {
+          "title": "AWS CLIの認証をwranglerへ直接渡すハック。AWS_PROFILEだけではCloudflare Workersに届かない",
+          "link": "https://zenn.dev/rdlabo/articles/workers-hono-wrangler-dev-aws-profile",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-08T23:49:16",
+          "excerpt": "Cloudflare Workersへ移行したHono APIを、wrangler devで起動する。…"
+        },
+        {
           "title": "【AWS】Bedrock MantleがAPI キーレスで使えるっぽいのでやってみた",
           "link": "https://qiita.com/yakumo_09/items/210e60518b5bb7dbc4e0",
           "source": "Qiita AWSタグ",
           "published": "2026-08-08T20:58:36",
           "excerpt": "今北産業 Bedrock Mantleを呼ぶ時の認証方法 実はAPIキーレスでも呼べる 実装時のあれこれ Bedrock Mantleとは 下記の記事を参照ください。本記事でBedrock Mantleについての基本的な説明は行いません。…"
-        },
-        {
-          "title": "Claude Codeと共にTerraformの勉強をした話",
-          "link": "https://qiita.com/Tatsuya2501/items/c883d89b8d9566469ae4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-08T14:11:52",
-          "excerpt": "はじめに 皆さんTerraformしてますか。私はしていませんでした。クラウド触っているならいつかやらなきゃなーと思いながら後回しにし続けていましたが、いよいよ逃げられなくなってきたのでやり始めました。…"
-        },
-        {
-          "title": "「AWSアカウント全体を1枚の構成図に」は幻想だった ― IaCジェネレーター×Infrastructure Composerで1819→451リソースを可視化して分かった5つの罠",
-          "link": "https://qiita.com/devex12/items/9cf35726babe77532b39",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-08T13:33:45",
-          "excerpt": "TL;DR 個人のAWSアカウントの全体像を1枚の構成図で見たくて、CloudFormationの「IaCジェネレーター」→ Infrastructure Composer（旧Application Composer）を試した アカウントス…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "撤回: 正しい拒否だった今週の App Store の拒否",
+      "link": "https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-09T03:26:00",
+      "excerpt": "記事の URL: https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week コメント URL: https://news.…"
+    },
     {
       "title": "隠れていたアサドのスパイ長に私たちを導いた電話帳",
       "link": "https://www.bbc.com/news/articles/c4gyrzn8p94o",
@@ -196,18 +203,11 @@
       "excerpt": "はじめに 待望のAWS認定資格の維持制度がベータでリリースされました！https://aws.amazon.…"
     },
     {
-      "title": "AI の黙示録が到来",
-      "link": "https://www.compactmag.com/article/the-ai-apocalypse-is-already-here/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-09T01:28:36",
-      "excerpt": "記事の URL: https://www.compactmag.com/article/the-ai-apocalypse-is-already-here/ コメント URL: https://news.ycombinator.…"
-    },
-    {
-      "title": "Django Software Foundation、初のエグゼクティブディレクターを募集開始",
-      "link": "https://codezine.jp/article/detail/29287",
-      "source": "CodeZine",
-      "published": "2026-08-09T01:00:00",
-      "excerpt": "Django Software Foundation、初のエグゼクティブディレクターを募集開始"
+      "title": "初学者向けJava学習支援サービス「CAS」をリリースしました！ | サイゼントの技術ブログ",
+      "link": "https://cyzennt.co.jp/blog/2026/08/09/%e5%88%9d%e5%ad%a6%e8%80%85%e5%90%91%e3%81%91java%e5%ad%a6%e7%bf%92%e6%94%af%e6%8f%b4%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%80%8ccas%e3%80%8d%e3%82%92%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%97/",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-09T01:49:01",
+      "excerpt": "ご挨拶 弊社の新サービスの宣伝を失礼いたします。弊社では、Javaの初学者向けにこれまで教材やスクール事業を提供してきましたが、この度、学習を継続しやすくするオンラインサービス「CAS」を新たにリリースしました。独学で […]…"
     }
   ]
 }
