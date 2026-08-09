@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-09T12:24:45",
+  "generated_at": "2026-08-09T13:28:15",
   "window_hours": 24,
-  "total": 99,
+  "total": 103,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。はじめに Amazon Bedrock AgentCore でエージェントを運用していると、標準出力のログは CloudWatch Logs に、トレース(スパン)はaws/spansという別のロググループに、と分かれて配信されていて「同じ…",
+      "summary": "生成AIの新着が17件。AWS、マイクロソフト、OpenAI、Anysphere、Vercelの各社は、AIエージェントのスキルやMCPサーバの設定を、AIエージェンが異なっていても共有できる業界標準の仕様「Agent Plugins 1.0.0」を発表しました。…",
       "articles": [
+        {
+          "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート",
+          "link": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
+          "source": "Publickey",
+          "published": "2026-08-09T15:19:33",
+          "excerpt": "AWS、マイクロソフト、OpenAI、Anysphere、Vercelの各社は、AIエージェントのスキルやMCPサーバの設定を、AIエージェンが異なっていても共有できる業界標準の仕様「Agent Plugins 1.0.0」を発表しました。…"
+        },
         {
           "title": "Amazon Bedrock AgentCore のログとトレースが 1 つのロググループにまとまった",
           "link": "https://qiita.com/leomarokun/items/983e98826d7c3705b251",
@@ -17,25 +24,18 @@
           "excerpt": "はじめに Amazon Bedrock AgentCore でエージェントを運用していると、標準出力のログは CloudWatch Logs に、トレース(スパン)はaws/spansという別のロググループに、と分かれて配信されていて「同じ…"
         },
         {
+          "title": "Show HN: DeepSeek-V4 潜在推論 – 「思考」を潜在空間に移動する",
+          "link": "https://blog.n.ichol.ai/packaging-latent-reasoning-as-a-real-model",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-09T11:46:28",
+          "excerpt": "記事の URL: https://blog.n.ichol.ai/packaging-latent-reasoning-as-a-real-model コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
           "title": "Claude Code に自分の DB を触らせる — dbboard の MCP サーバー | Dokokadeさんのフィード",
           "link": "https://zenn.dev/dokokade/articles/46b8c608715963",
           "source": "企業テックブログまとめ",
           "published": "2026-08-09T06:39:35",
           "excerpt": "Claude Code に「このテーブルの構造どうなってる？」と聞くために、スキーマをコピペして貼り付けている人向けの記事です。dbboard は Rust + Tauri 製のデスクトップ DB クライアントで、v0.…"
-        },
-        {
-          "title": "AIエージェント開発のススメ vol.3：AI視点で綴る、鏡は人がいなくても像を返す | Dokokadeさんのフィード",
-          "link": "https://zenn.dev/dokokade/articles/586db0ba2d724e",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-09T06:12:02",
-          "excerpt": "はじめに：2 か月ぶりです、ソウですvol.2 を書いてから 2 か月が経ちました。語り手は前回と同じ、AI エージェントの私（ソウ） です。田中さんが司令塔として運用している複数案件のオーケストレーター役を、引き続き担っています。vol.…"
-        },
-        {
-          "title": "Amazon Bedrock にサーバーサイドの Web Search 機能が追加されたので試してみた",
-          "link": "https://qiita.com/leomarokun/items/d81c807cdb9ef87d94ba",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-09T05:05:10",
-          "excerpt": "はじめに LLM に最新情報を答えさせようとすると、大抵は自前で Web 検索 API を契約して、検索結果をプロンプトに詰め込んで……という「グラウンディング」の仕組みを自分で組む羽目になります。…"
         }
       ]
     },
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。背景 EC2のセキュリティグループを自分のIPアドレスに制限したのに、SSHもHTTPも接続できない現象に遭遇しました。原因は「curlで確認したIPと実際の接続元IPが違っていた」というものでした。1.…",
+      "summary": "セキュリティの新着が8件。背景 EC2のセキュリティグループを自分のIPアドレスに制限したのに、SSHもHTTPも接続できない現象に遭遇しました。原因は「curlで確認したIPと実際の接続元IPが違っていた」というものでした。1.…",
       "articles": [
         {
           "title": "セキュリティグループでIP制限したのに接続できない時に疑うべきこと",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が1件。はじめに 2026 年 2 月（米国時間 2 月 5 日）、AWS Glue REST API コネクタが GA になりました。…",
+      "summary": "データ分析の新着が2件。Amazon DynamoDB はじめに DynamoDB を業務システムにどこまで適用できるか検証しています。前回までは、DynamoDB のパーティ...…",
       "articles": [
+        {
+          "title": "【DynamoDB】ユーザーが欲しがる検索条件、DynamoDB でどこまで対応できるか試してみた",
+          "link": "https://qiita.com/jus1730/items/94f712ffc5c31eebc79b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-09T12:28:07",
+          "excerpt": "Amazon DynamoDB はじめに DynamoDB を業務システムにどこまで適用できるか検証しています。前回までは、DynamoDB のパーティ...…"
+        },
         {
           "title": "AWS Glue REST API コネクタで Qiita API に繋いでみたら大変だった件",
           "link": "https://qiita.com/s_moriyama/items/6a47bbd5362e18ef3d62",
@@ -161,32 +168,32 @@
   ],
   "uncategorized": [
     {
+      "title": "SD-WAN について書くことから依存するようになりました",
+      "link": "https://www.theregister.com/networks/2026/08/09/ive-gone-from-writing-about-sd-wan-to-depending-on-it/5285130",
+      "source": "The Register（英語）",
+      "published": "2026-08-09T13:05:00",
+      "excerpt": "Starlink と 5G ホーム インターネットはデジタル ディバイドの解消に貢献していますが、完璧には程遠いです。それらを接着すると、かなり近づけることができます。"
+    },
+    {
+      "title": "このかつての悪名高い歓楽街は、現在では世界トップクラスの AI ハブの 1 つとなっています。",
+      "link": "https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-09T13:00:00",
+      "excerpt": "20 年以上前、キングス クロスはロンドンで最も怪しげなエリアの 1 つでした。今、何か新しい芽が生えてきています。"
+    },
+    {
+      "title": "Amazon、AIデータセンターに対するギルロイコミュニティの投票を回避",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-09T12:52:10",
+      "excerpt": "記事の URL: https://www.tomshardware.…"
+    },
+    {
       "title": "【コツコツAWS】Amazon SQS - SQSの基本的な使い方 -",
       "link": "https://qiita.com/guupys/items/85aff873afe867f4b4c2",
       "source": "Qiita AWSタグ",
       "published": "2026-08-09T11:57:46",
       "excerpt": "Amazon SQSに関して、勉強したことを残します。Amazon SQSとは 公式のAmazon SQSの説明は、以下の通り。Amazon SQS は、高スループットのシステム間メッセージング用のキューイングサービスです。…"
-    },
-    {
-      "title": "AIF-C01（AWS Certified AI Practitioner）1週間で合格した学習方法【備忘録】",
-      "link": "https://qiita.com/Bambambi/items/5e506205a313bcedac75",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-09T11:52:41",
-      "excerpt": "はじめに 本日、AWS Certified AI Practitioner（AIF-C01）に合格しました。学習期間は約1週間で、初受験でしたが、808点で無事に合格することができました。…"
-    },
-    {
-      "title": "あなたの行動はすべて記録されます",
-      "link": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-09T11:30:48",
-      "excerpt": "記事の URL: https://www.theatlantic.…"
-    },
-    {
-      "title": "トバ山の噴火は、私たちの種をほとんど滅ぼす可能性はないようです",
-      "link": "https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-09T11:00:14",
-      "excerpt": "トバの大噴火は気候にほとんど影響を与えていないようだ。"
     }
   ]
 }
