@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-09T04:10:19",
+  "generated_at": "2026-08-09T05:27:37",
   "window_hours": 24,
-  "total": 99,
+  "total": 102,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。NHKニュース @nhk_news いま、原爆に関する偽情報がSNSで広がっています 「原爆はうそ」「放射線の被害はなかった」などの荒唐無稽な偽情報、 30万回以上見られているYouTube動画も さらに、被爆の実相とは異なる生成AI動画も…",
+      "summary": "生成AIの新着が19件。はじめに LLM に最新情報を答えさせようとすると、大抵は自前で Web 検索 API を契約して、検索結果をプロンプトに詰め込んで……という「グラウンディング」の仕組みを自分で組む羽目になります。…",
       "articles": [
+        {
+          "title": "Amazon Bedrock にサーバーサイドの Web Search 機能が追加されたので試してみた",
+          "link": "https://qiita.com/leomarokun/items/d81c807cdb9ef87d94ba",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-09T05:05:10",
+          "excerpt": "はじめに LLM に最新情報を答えさせようとすると、大抵は自前で Web 検索 API を契約して、検索結果をプロンプトに詰め込んで……という「グラウンディング」の仕組みを自分で組む羽目になります。…"
+        },
+        {
+          "title": "S3 VectorsのRAGパイプラインを作り直している話（インジェスト編）",
+          "link": "https://zenn.dev/kawasemi_jp/articles/rebuilding-rag-pipeline-ingest",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-09T03:58:19",
+          "excerpt": "この記事について Slackから社内文書に質問できるRAGボットをAWSで作った話は、以前に概要記事と有償本として公開しました。いまはその構成を土台にして、別の枝で作り直しを進めています。…"
+        },
         {
           "title": "「原爆はうそ」「放射線の被害はなかった」といった原爆に関する荒唐無稽なフェイク動画がSNSなどで広がる事態に… 生成AIによる被爆の実相からはかけ離れた動画も増加、被爆者からは憤りの声も",
           "link": "https://togetter.com/li/2730763",
@@ -22,28 +36,21 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-08T22:16:59",
           "excerpt": "OpenAIは、7月に発覚したHugging Face侵害インシデントの詳細を「Black Hat USA 2026」で説明した。…"
-        },
-        {
-          "title": "Claude Code で「ループエンジニアリング」を実践してみた",
-          "link": "https://zenn.dev/tetsu_don/articles/e40b95dfc726ac",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-08-08T21:17:01",
-          "excerpt": "Claude Code で「ループエンジニアリング」を実践し、Maker-Checker構成で本物のバグを検出できた話 はじめに てつどんです。データエンジニアとして 日々業務をこなしております。…"
-        },
-        {
-          "title": "【AWS】Bedrock MantleがAPI キーレスで使えるっぽいのでやってみた",
-          "link": "https://qiita.com/yakumo_09/items/210e60518b5bb7dbc4e0",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-08T20:58:36",
-          "excerpt": "今北産業 Bedrock Mantleを呼ぶ時の認証方法 実はAPIキーレスでも呼べる 実装時のあれこれ Bedrock Mantleとは 下記の記事を参照ください。本記事でBedrock Mantleについての基本的な説明は行いません。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。検証の狙い Route 53 DNSフェイルオーバーで観測できるものだけを取り出し、「どのログ行・どのメトリクスが出れば実証されたと言えるか」を先に定義したうえで、実測して突き合わせていきます。…",
+      "summary": "クラウドの新着が12件。この記事について Slackから社内文書に質問できるRAGボットをAWSで作った話は、以前に概要記事と有償本として公開しました。いまはその構成を土台にして、別の枝で作り直しを進めています。…",
       "articles": [
+        {
+          "title": "S3 VectorsのRAGパイプラインを作り直している話（インジェスト編）",
+          "link": "https://zenn.dev/kawasemi_jp/articles/rebuilding-rag-pipeline-ingest",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-09T03:58:19",
+          "excerpt": "この記事について Slackから社内文書に質問できるRAGボットをAWSで作った話は、以前に概要記事と有償本として公開しました。いまはその構成を土台にして、別の枝で作り直しを進めています。…"
+        },
         {
           "title": "【検証】Route 53フェイルオーバーが遅い・切り替わらないを実際に再現して検知時間とTTLの下限を計測する",
           "link": "https://qiita.com/volbe/items/03d6429d1a7e8381aec6",
@@ -64,13 +71,6 @@
           "source": "@IT",
           "published": "2026-08-08T23:00:00",
           "excerpt": "クラウドやAIの普及で、インフラの仕組みを意識せずに仕事ができる場面が増えています。しかし、障害対応やAIが生成した設定コードの確認には、基礎知識が欠かせません。夏休みに読んでおくと役立つ無料eBookを紹介します。"
-        },
-        {
-          "title": "[アップデート] AWS Lambda コンソールの「IDE で開く」機能が Kiro と Cursor にも対応しました",
-          "link": "https://dev.classmethod.jp/articles/aws-lambda-ide-kiro-cursor/",
-          "source": "DevelopersIO",
-          "published": "2026-08-08T22:23:30",
-          "excerpt": "AWS Lambda コンソールの console-to-IDE 機能が Kiro と Cursor に対応したので、実際に試してみました。コンソールからワンクリックで各 IDE を開けるようになっています。"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "撤回: 正しい拒否だった今週の App Store の拒否",
-      "link": "https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-09T03:26:00",
-      "excerpt": "記事の URL: https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week コメント URL: https://news.…"
-    },
-    {
-      "title": "隠れていたアサドのスパイ長に私たちを導いた電話帳",
-      "link": "https://www.bbc.com/news/articles/c4gyrzn8p94o",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-09T01:55:53",
-      "excerpt": "記事の URL: https://www.bbc.com/news/articles/c4gyrzn8p94o コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "AWS認定を1年延長できる維持制度の登録、延長方法について",
-      "link": "https://qiita.com/kiwi-dev/items/60dca34eccf785744a1d",
+      "title": "AWS JumpStart 2026 に参加して学んだこと",
+      "link": "https://qiita.com/sanhuyihui/items/dbc01d06be279ea1fac6",
       "source": "Qiita AWSタグ",
-      "published": "2026-08-09T01:54:00",
-      "excerpt": "はじめに 待望のAWS認定資格の維持制度がベータでリリースされました！https://aws.amazon.…"
+      "published": "2026-08-09T05:15:28",
+      "excerpt": "はじめに 2026年6月4日〜5日に開催された AWS JumpStart 2026 に参加しました。…"
     },
     {
-      "title": "初学者向けJava学習支援サービス「CAS」をリリースしました！ | サイゼントの技術ブログ",
-      "link": "https://cyzennt.co.jp/blog/2026/08/09/%e5%88%9d%e5%ad%a6%e8%80%85%e5%90%91%e3%81%91java%e5%ad%a6%e7%bf%92%e6%94%af%e6%8f%b4%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%80%8ccas%e3%80%8d%e3%82%92%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%97/",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-09T01:49:01",
-      "excerpt": "ご挨拶 弊社の新サービスの宣伝を失礼いたします。弊社では、Javaの初学者向けにこれまで教材やスクール事業を提供してきましたが、この度、学習を継続しやすくするオンラインサービス「CAS」を新たにリリースしました。独学で […]…"
+      "title": "AWS Organizations、Service Quotasでアカウント上限の可視化を開始",
+      "link": "https://codezine.jp/article/detail/29277",
+      "source": "CodeZine",
+      "published": "2026-08-09T05:00:00",
+      "excerpt": "AWS Organizations、Service Quotasでアカウント上限の可視化を開始"
+    },
+    {
+      "title": "「この予測の元の URL は 11 年後には利用できなくなります。」 (2011)",
+      "link": "https://longbets.org/601/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-09T04:30:26",
+      "excerpt": "記事の URL: https://longbets.org/601/ コメント URL: https://news.ycombinator.com/item?id=49228458 ポイント: 18 コメント数: 3"
+    },
+    {
+      "title": "イリノイ州はすべてのオペレーティングシステムに子供の年齢の報告を開始するよう指示しました",
+      "link": "https://itsfoss.com/news/illinois-age-verification-bill/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-09T04:03:59",
+      "excerpt": "記事の URL: https://itsfoss.com/news/illinois-age-verification-bill/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
