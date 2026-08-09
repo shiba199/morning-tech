@@ -1,6 +1,64 @@
 {
   "articles": [
     {
+      "source": "Zenn AWSトピック",
+      "srcClass": "aws",
+      "srcLabel": "AWS Blog",
+      "title": "【AWS】ノンインフラ出身者がインフラの深淵に挑む：今週の地雷と復盤（FinOps & DB Migration編）",
+      "link": "https://zenn.dev/leo_zhou_cloud/articles/aws-saa-mixed-005",
+      "published": "2026-08-09T10:33:22",
+      "topics": [
+        "cloud"
+      ],
+      "tags": [
+        [
+          "cloud",
+          "クラウド"
+        ]
+      ],
+      "why": "クラウド"
+    },
+    {
+      "source": "Qiita AWSタグ",
+      "srcClass": "aws",
+      "srcLabel": "AWS Blog",
+      "title": "S3ファイルダウンローダを作成",
+      "link": "https://qiita.com/bontaro_1/items/2bc66e8a9176e66afab1",
+      "published": "2026-08-09T10:22:16",
+      "topics": [
+        "cloud"
+      ],
+      "tags": [
+        [
+          "cloud",
+          "クラウド"
+        ]
+      ],
+      "why": "クラウド"
+    },
+    {
+      "source": "Hacker News（英語）",
+      "srcClass": "news",
+      "srcLabel": "Hacker News（英語）",
+      "title": "CSS: 受信箱の中の爆弾",
+      "link": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
+      "published": "2026-08-09T10:17:52",
+      "topics": [],
+      "tags": [],
+      "why": ""
+    },
+    {
+      "source": "Hacker News（英語）",
+      "srcClass": "news",
+      "srcLabel": "Hacker News（英語）",
+      "title": "Alpha 21264 CPU: NT の最高の RISC (1998)",
+      "link": "https://halfhill.com/byte/1998-12_alpha.html",
+      "published": "2026-08-09T10:06:37",
+      "topics": [],
+      "tags": [],
+      "why": ""
+    },
+    {
       "source": "Qiita AWSタグ",
       "srcClass": "aws",
       "srcLabel": "AWS Blog",
@@ -104,6 +162,29 @@
         ]
       ],
       "why": "開発ツール"
+    },
+    {
+      "source": "Zenn AWSトピック",
+      "srcClass": "aws",
+      "srcLabel": "AWS Blog",
+      "title": "LambdaのS3アクセスがIAMのIP制限ポリシーで拒否された件",
+      "link": "https://zenn.dev/bamtech1904/articles/20260808_iam-ip-restriction-viaawsservice",
+      "published": "2026-08-09T07:20:00",
+      "topics": [
+        "cloud",
+        "sec"
+      ],
+      "tags": [
+        [
+          "cloud",
+          "クラウド"
+        ],
+        [
+          "sec",
+          "セキュリティ"
+        ]
+      ],
+      "why": "クラウド"
     },
     {
       "source": "Hacker News（英語）",
@@ -1350,109 +1431,6 @@
         ]
       ],
       "why": "生成AI"
-    },
-    {
-      "source": "DevelopersIO",
-      "srcClass": "dev",
-      "srcLabel": "DevelopersIO",
-      "title": "Claude Code v2.1.225〜v2.1.226 の主要アップデート - SendMessage の他マシン発信対応と認証まわりの修正",
-      "link": "https://dev.classmethod.jp/articles/20260808-cc-updates-v2-1-226/",
-      "published": "2026-08-08T10:52:00",
-      "topics": [
-        "ai",
-        "sec"
-      ],
-      "tags": [
-        [
-          "ai",
-          "生成AI"
-        ],
-        [
-          "sec",
-          "セキュリティ"
-        ]
-      ],
-      "why": "生成AI"
-    },
-    {
-      "source": "はてなブックマーク（テクノロジー）",
-      "srcClass": "news",
-      "srcLabel": "はてなブックマーク（テクノロジー）",
-      "title": "眩しすぎるHDRスパム広告について - マルシテイア",
-      "link": "https://blog.amagi.dev/entry/2026/08/08/174615",
-      "published": "2026-08-08T10:17:36",
-      "topics": [],
-      "tags": [],
-      "why": ""
-    },
-    {
-      "source": "Qiita AWSタグ",
-      "srcClass": "aws",
-      "srcLabel": "AWS Blog",
-      "title": "S3 + CloudFront + WAFでIP制限配信を組んでハマった5つのポイント",
-      "link": "https://qiita.com/caymezon/items/9bf5b1e039fd45226af0",
-      "published": "2026-08-08T10:16:54",
-      "topics": [
-        "cloud",
-        "sec"
-      ],
-      "tags": [
-        [
-          "cloud",
-          "クラウド"
-        ],
-        [
-          "sec",
-          "セキュリティ"
-        ]
-      ],
-      "why": "クラウド"
-    },
-    {
-      "source": "Qiita AWSタグ",
-      "srcClass": "aws",
-      "srcLabel": "AWS Blog",
-      "title": "EC2キーペアをCLIで作るときに詰まりがちなポイント",
-      "link": "https://qiita.com/caymezon/items/f6657c46240696bd2527",
-      "published": "2026-08-08T10:16:48",
-      "topics": [
-        "cloud",
-        "dev"
-      ],
-      "tags": [
-        [
-          "cloud",
-          "クラウド"
-        ],
-        [
-          "dev",
-          "開発ツール"
-        ]
-      ],
-      "why": "クラウド"
-    },
-    {
-      "source": "Qiita AWSタグ",
-      "srcClass": "aws",
-      "srcLabel": "AWS Blog",
-      "title": "CloudFormationでEC2 + Apacheを構築して、SGを自分のIPに絞るまで",
-      "link": "https://qiita.com/caymezon/items/b13c72f9d8ef72416675",
-      "published": "2026-08-08T10:16:42",
-      "topics": [
-        "cloud",
-        "dev"
-      ],
-      "tags": [
-        [
-          "cloud",
-          "クラウド"
-        ],
-        [
-          "dev",
-          "開発ツール"
-        ]
-      ],
-      "why": "クラウド"
     }
   ]
 }
