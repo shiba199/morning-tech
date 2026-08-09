@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T14:58:33",
+  "generated_at": "2026-08-09T15:28:12",
   "window_hours": 24,
-  "total": 105,
+  "total": 107,
   "topic_count": 5,
   "groups": [
     {
@@ -31,11 +31,11 @@
           "excerpt": "AWS DevOps AgentでCloudWatchアラームをトリガーに自動インシデント調査を行えるそうですが、自分でやってみたことがなかったので検証します。…"
         },
         {
-          "title": "Amazon Bedrock AgentCore のログとトレースが 1 つのロググループにまとまった",
-          "link": "https://qiita.com/leomarokun/items/983e98826d7c3705b251",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-09T11:52:01",
-          "excerpt": "はじめに Amazon Bedrock AgentCore でエージェントを運用していると、標準出力のログは CloudWatch Logs に、トレース(スパン)はaws/spansという別のロググループに、と分かれて配信されていて「同じ…"
+          "title": "AI 収益の 70% は OpenAI と Anthropic から来ています",
+          "link": "https://www.youtube.com/watch?v=68X8yEatepQ",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-09T11:56:16",
+          "excerpt": "記事の URL: https://www.youtube.com/watch?v=68X8yEatepQ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。背景 EC2のセキュリティグループを自分のIPアドレスに制限したのに、SSHもHTTPも接続できない現象に遭遇しました。原因は「curlで確認したIPと実際の接続元IPが違っていた」というものでした。1.…",
+      "summary": "セキュリティの新着が6件。背景 EC2のセキュリティグループを自分のIPアドレスに制限したのに、SSHもHTTPも接続できない現象に遭遇しました。原因は「curlで確認したIPと実際の接続元IPが違っていた」というものでした。1.…",
       "articles": [
         {
           "title": "セキュリティグループでIP制限したのに接続できない時に疑うべきこと",
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。背景 マネジメントコンソールでのポチポチ操作から、AWS CLI + VSCode Remote-SSH + Gitの組み合わせに移行した記録です。EC2をあたかも自分のPCのフォルダのように扱えるようになります。1.…",
+      "summary": "開発ツールの新着が8件。はじめに 2026年8月4日ごろ、Kiro CLIのマルチエージェントオーケストレーター基盤であるKiro CrewがOSSとして公開されました。…",
       "articles": [
+        {
+          "title": "Kiro CLI v3 tangent機能を試してみた",
+          "link": "https://qiita.com/yuuuka/items/8a23765a1a4cae40d580",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-09T15:10:35",
+          "excerpt": "はじめに 2026年8月4日ごろ、Kiro CLIのマルチエージェントオーケストレーター基盤であるKiro CrewがOSSとして公開されました。…"
+        },
         {
           "title": "VSCode Remote-SSH + AWS CLIでEC2を「ローカルフォルダ」として扱う",
           "link": "https://qiita.com/caymezon/items/47b522c8e5fbf6c21285",
@@ -162,18 +169,25 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-09T06:15:53",
           "excerpt": "はじめに 前回、自宅Linuxサーバの監視値をCustom GPTから確認できる環境を作りました。…"
-        },
-        {
-          "title": "Cloudflare WorkersでAWS SDK v3を検証。Secrets ManagerとSTSをfetchで呼ぶ理由",
-          "link": "https://zenn.dev/rdlabo/articles/workers-hono-aws-credentials",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-09T02:19:26",
-          "excerpt": "NestJSからHono + Cloudflare Workersへ移行するとき、AWS SDKは使えないものだと思っていました。WorkersはNode.jsそのものではなく、互換性のあるNode APIも一部だからです。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "歴史家ジル・レポール氏、シリコンバレーはSFを誤解し、民主主義を損なっていると語る",
+      "link": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-09T15:00:00",
+      "excerpt": "エクイティ誌の最新エピソードで、私たちはジル・レポールに「機械による統治」とイーロン・マスクがSFの苦手な理由について話しました。"
+    },
+    {
+      "title": "【AWS Organizations】個人アカウントで一人アドミンに挑戦してみた！(org環境の作成編)",
+      "link": "https://qiita.com/yosuke-suzuki/items/e28f07bcf54d444acf8d",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-09T14:59:03",
+      "excerpt": "はじめに こんにちは、すずきです。突然ですがみなさんはAWS Organizationsを使ったことがありますか？私は正直、「複数アカウントをまとめて管理するためのサービス」という程度の理解しかありませんでした。…"
+    },
     {
       "title": "AIの安全性テストは安全上のリスクになりつつある",
       "link": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
@@ -187,20 +201,6 @@
       "source": "TechCrunch（英語）",
       "published": "2026-08-09T14:00:00",
       "excerpt": "セキュリティ研究者は、監視カメラによる検出から人、顔、車両を隠すことができるコンピューター生成パターンを作成できるアルゴリズムを設計しました。"
-    },
-    {
-      "title": "Node.jsのfetch()がOSへI/Oを依頼するところをstraceで覗いてみた",
-      "link": "https://dev.classmethod.jp/articles/nodejs-fetch-strace/",
-      "source": "DevelopersIO",
-      "published": "2026-08-09T13:35:08",
-      "excerpt": "Node.jsの`fetch()`がOSと通信する仕組みを、`strace`でシステムコールレベルから追いかけてみました。DNS問い合わせからTLS通信まで、低レイヤーで何が起きているのかを具体的に見ていきます。"
-    },
-    {
-      "title": "メア・カルパ – ダークアワー",
-      "link": "https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-09T13:20:43",
-      "excerpt": "記事の URL: https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
