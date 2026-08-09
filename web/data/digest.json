@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T10:59:09",
+  "generated_at": "2026-08-09T11:27:27",
   "window_hours": 24,
   "total": 98,
   "topic_count": 5,
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。インフラ初心者が今週踏み抜いたAWSの地雷まとめ 今週、AWS SAAの設計シナリオに挑戦する中で、実務でも致命傷になりかねない重要な仕様の勘違い（地雷）を踏み抜きました。…",
+      "summary": "クラウドの新着が13件。背景 マネジメントコンソールでのポチポチ操作から、AWS CLI + VSCode Remote-SSH + Gitの組み合わせに移行した記録です。EC2をあたかも自分のPCのフォルダのように扱えるようになります。1.…",
       "articles": [
+        {
+          "title": "VSCode Remote-SSH + AWS CLIでEC2を「ローカルフォルダ」として扱う",
+          "link": "https://qiita.com/caymezon/items/47b522c8e5fbf6c21285",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-09T11:17:50",
+          "excerpt": "背景 マネジメントコンソールでのポチポチ操作から、AWS CLI + VSCode Remote-SSH + Gitの組み合わせに移行した記録です。EC2をあたかも自分のPCのフォルダのように扱えるようになります。1.…"
+        },
         {
           "title": "【AWS】ノンインフラ出身者がインフラの深淵に挑む：今週の地雷と復盤（FinOps & DB Migration編）",
           "link": "https://zenn.dev/leo_zhou_cloud/articles/aws-saa-mixed-005",
@@ -64,21 +71,21 @@
           "source": "CodeZine",
           "published": "2026-08-09T09:00:00",
           "excerpt": "Azure Boards、作業項目カードにプルリクエスト注釈を追加"
-        },
-        {
-          "title": "ECSネイティブBlue/Greenで「切替後に旧環境を残して、確認できたら落とす」をやる — PAUSEフックの置き場所について",
-          "link": "https://qiita.com/Omizu-25/items/5157a01639c31d60ad7a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-09T08:25:05",
-          "excerpt": "はじめに こんにちは！KDDIアイレット株式会社の水野 永遠です。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の9日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。これに触発されたと感じた X 世代は、ネットワーク ケーブルを抜いて警察に通報することを忘れないでください。",
+      "summary": "セキュリティの新着が9件。背景 EC2のセキュリティグループを自分のIPアドレスに制限したのに、SSHもHTTPも接続できない現象に遭遇しました。原因は「curlで確認したIPと実際の接続元IPが違っていた」というものでした。1.…",
       "articles": [
+        {
+          "title": "セキュリティグループでIP制限したのに接続できない時に疑うべきこと",
+          "link": "https://qiita.com/caymezon/items/17db93a940066b92be33",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-09T11:17:55",
+          "excerpt": "背景 EC2のセキュリティグループを自分のIPアドレスに制限したのに、SSHもHTTPも接続できない現象に遭遇しました。原因は「curlで確認したIPと実際の接続元IPが違っていた」というものでした。1.…"
+        },
         {
           "title": "ランサムウェアギャングはCEOを無視して40代のITマネージャーに直行",
           "link": "https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499",
@@ -99,20 +106,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-09T02:19:26",
           "excerpt": "NestJSからHono + Cloudflare Workersへ移行するとき、AWS SDKは使えないものだと思っていました。WorkersはNode.jsそのものではなく、互換性のあるNode APIも一部だからです。…"
-        },
-        {
-          "title": "GitHub OIDC に セキュリティ向上のための設定項目が増えました | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/2026/08/09/093840",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-09T00:38:40",
-          "excerpt": "はじめに みなさんこんにちは。エーピーコミュニケーションズ ACS事業部 亀崎です。先日ひさしぶりにGitHub ActionsとAzureとの連携設定をしようとしました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。はじめに 2026 年 2 月（米国時間 2 月 5 日）、AWS Glue REST API コネクタが GA になりました。…",
+      "summary": "データ分析の新着が1件。はじめに 2026 年 2 月（米国時間 2 月 5 日）、AWS Glue REST API コネクタが GA になりました。…",
       "articles": [
         {
           "title": "AWS Glue REST API コネクタで Qiita API に繋いでみたら大変だった件",
@@ -120,21 +120,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-08T19:59:37",
           "excerpt": "はじめに 2026 年 2 月（米国時間 2 月 5 日）、AWS Glue REST API コネクタが GA になりました。…"
-        },
-        {
-          "title": "Aurora MySQL の変更データを AWS DMS の Full Load + CDC で S3（Parquet）に出力し Athena でクエリしてみた",
-          "link": "https://dev.classmethod.jp/articles/dms-full-load-cdc-aurora-mysql-to-s3-parquet/",
-          "source": "DevelopersIO",
-          "published": "2026-08-08T11:25:09",
-          "excerpt": "AWS DMS で Aurora MySQL のデータ変更をリアルタイムに S3 へ連携し、Athena で分析する方法を、実装手順と動作確認まで含めてご紹介します。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。この記事を一言でいうと Terraformは「インフラをコードで管理するためのツール（IaC: Infrastructure as Code）」。…",
+      "summary": "開発ツールの新着が9件。背景 マネジメントコンソールでのポチポチ操作から、AWS CLI + VSCode Remote-SSH + Gitの組み合わせに移行した記録です。EC2をあたかも自分のPCのフォルダのように扱えるようになります。1.…",
       "articles": [
+        {
+          "title": "VSCode Remote-SSH + AWS CLIでEC2を「ローカルフォルダ」として扱う",
+          "link": "https://qiita.com/caymezon/items/47b522c8e5fbf6c21285",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-09T11:17:50",
+          "excerpt": "背景 マネジメントコンソールでのポチポチ操作から、AWS CLI + VSCode Remote-SSH + Gitの組み合わせに移行した記録です。EC2をあたかも自分のPCのフォルダのように扱えるようになります。1.…"
+        },
         {
           "title": "Terraformの基礎を整理する",
           "link": "https://qiita.com/ume_hide/items/babf22ce71d8b824f9a9",
@@ -155,13 +155,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-09T02:19:26",
           "excerpt": "NestJSからHono + Cloudflare Workersへ移行するとき、AWS SDKは使えないものだと思っていました。WorkersはNode.jsそのものではなく、互換性のあるNode APIも一部だからです。…"
-        },
-        {
-          "title": "GitHub OIDC に セキュリティ向上のための設定項目が増えました | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/2026/08/09/093840",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-09T00:38:40",
-          "excerpt": "はじめに みなさんこんにちは。エーピーコミュニケーションズ ACS事業部 亀崎です。先日ひさしぶりにGitHub ActionsとAzureとの連携設定をしようとしました。…"
         }
       ]
     }
