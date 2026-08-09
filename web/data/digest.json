@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-09T22:58:59",
+  "generated_at": "2026-08-09T23:29:27",
   "window_hours": 24,
-  "total": 131,
+  "total": 133,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。少し前、私は通常のコンピュータ上で巨大な LLM を実行できるかどうかを確認するために Colibrì に取り組み始めました。このプロジェクトは、主に HackerNews コミュニティのおかげで、私の予想をはるかに超えて成長しました。…",
+      "summary": "生成AIの新着が24件。マルチプレイヤーエージェントハーネス「QM」がオープンソースで公開",
       "articles": [
+        {
+          "title": "マルチプレイヤーエージェントハーネス「QM」がオープンソースで公開",
+          "link": "https://codezine.jp/article/detail/29269",
+          "source": "CodeZine",
+          "published": "2026-08-09T23:00:00",
+          "excerpt": "マルチプレイヤーエージェントハーネス「QM」がオープンソースで公開"
+        },
+        {
+          "title": "ADK・A2A・MCPで本番エージェント開発、「Gemini Enterprise Agent Platform」が正式提供",
+          "link": "https://codezine.jp/article/detail/29223",
+          "source": "CodeZine",
+          "published": "2026-08-09T23:00:00",
+          "excerpt": "7月31日、東京ビッグサイトで開催された「Google Cloud Next Tokyo 26」のDay 2基調講演。…"
+        },
         {
           "title": "Show HN: Lumabri – LLM が Napster のように機能したらどうなるでしょうか?",
           "link": "https://github.com/JustVugg/lumabri",
@@ -22,27 +36,13 @@
           "source": "ITmedia エンタープライズ",
           "published": "2026-08-09T22:00:00",
           "excerpt": "MicrosoftはAI時代のゼロトラスト戦略を拡充し、AIおよびDevSecOps向けの新たな評価軸と実装指針を発表した。…"
-        },
-        {
-          "title": "Anthropic はクロード コードの自動モードをデフォルトでオンにします",
-          "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-09T19:20:32",
-          "excerpt": "Claude Code を使用したプログラミングでは、間もなく人間による監視がさらに少なくなるでしょう。"
-        },
-        {
-          "title": "LLM を使用して複雑なトピックを学習する方法",
-          "link": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-09T19:16:49",
-          "excerpt": "記事の URL: https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/ コメント URL: https://news.ycombinator.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。ずっと避けていたゲームサーバのオンプレ公開に向き合ってみました。ゲーミングPCをMinecraftサーバとして立ち上げ、Tailscaleを使ってセキュアに外部ユーザからアクセスできるようにする方法をご紹介します。",
+      "summary": "クラウドの新着が12件。ずっと避けていたゲームサーバのオンプレ公開に向き合ってみました。ゲーミングPCをMinecraftサーバとして立ち上げ、Tailscaleを使ってセキュアに外部ユーザからアクセスできるようにする方法をご紹介します。",
       "articles": [
         {
           "title": "【夏休みの自由研究リレー】 ゲーミングPCをサーバにする 〜ずっと逃げていたゲームサーバのオンプレ公開〜",
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。AWS DevOps Agent のインシデントレスポンス調査結果を AWS CLI で取得する方法を紹介します。",
+      "summary": "開発ツールの新着が9件。インフラのコード化（IaC）を実現するツールとして広く普及しているTerraformですが、システムの成長に伴い、リポジトリの肥大化や実行時間の増大といった運用上の壁にぶつかることが少なくありません。…",
       "articles": [
+        {
+          "title": "【Terraform】モノレポとポリレポの比較・ベストプラクティス",
+          "link": "https://zenn.dev/kkoch5t2/articles/e5795a3570a433",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-09T19:32:26",
+          "excerpt": "インフラのコード化（IaC）を実現するツールとして広く普及しているTerraformですが、システムの成長に伴い、リポジトリの肥大化や実行時間の増大といった運用上の壁にぶつかることが少なくありません。…"
+        },
         {
           "title": "AWS DevOps Agent のインシデント調査結果を AWS CLI で取得してみた",
           "link": "https://dev.classmethod.jp/articles/aws-devops-agent-investigation-result-cli/",
@@ -162,45 +169,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-09T11:17:50",
           "excerpt": "背景 マネジメントコンソールでのポチポチ操作から、AWS CLI + VSCode Remote-SSH + Gitの組み合わせに移行した記録です。EC2をあたかも自分のPCのフォルダのように扱えるようになります。1.…"
-        },
-        {
-          "title": "Terraformの基礎を整理する",
-          "link": "https://qiita.com/ume_hide/items/babf22ce71d8b824f9a9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-09T07:26:11",
-          "excerpt": "この記事を一言でいうと Terraformは「インフラをコードで管理するためのツール（IaC: Infrastructure as Code）」。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "AIF試験直前、私を何度も裏切ったPrecisionとRecall",
+      "link": "https://zenn.dev/yasutomo7974/articles/aif-exam-precision-recall",
+      "source": "Zenn AWSトピック",
+      "published": "2026-08-09T23:07:33",
+      "excerpt": "おはようございます、YASUです。AWS AI Practitioner(AIF)の試験まで、残り5日になりました。今日は追い込み期の学習ログとして、直近つまずいたポイントを記録しておこうと思います。…"
+    },
+    {
+      "title": "Snowflake Dynamic tables を使ってIoTデバイスから収集したデータをELTする",
+      "link": "https://zenn.dev/fusic/articles/snowflake-dynamic-tables-for-iot",
+      "source": "Zenn AWSトピック",
+      "published": "2026-08-09T22:30:05",
+      "excerpt": "Snowflake Dynamic tables(動的テーブル)は定義されたクエリとターゲットの鮮度に基づいて自動更新されるテーブルを提供する機能です。…"
+    },
+    {
+      "title": "1時間で損失3億　企業が見落とす「ダウンタイム」の真実",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/10/news036.html",
+      "source": "@IT",
+      "published": "2026-08-09T22:30:00",
+      "excerpt": "サイバー攻撃を完全に防ぐことが難しくなる中、企業にとって本当に大きな損失は「侵入」ではなく、その後に発生する業務停止かもしれない。セキュリティ投資が増え続けても、なぜダウンタイムは減らないのか。"
+    },
+    {
       "title": "デジタル庁から個人情報漏えい　手順書ミスが原因、団体職員150人分の氏名など誤送付",
       "link": "https://www.itmedia.co.jp/news/article/2608/10/2000000467/",
       "source": "ITmedia NEWS",
       "published": "2026-08-09T22:03:29",
       "excerpt": "他省庁への送付ファイルに本来含めるべきでない職員の氏名やユーザーID、所属などのコードなどが記載されていた。二次被害は確認されていない。"
-    },
-    {
-      "title": "Mythos 5、サプライチェーン攻撃を仕掛ける　19件の無許可行動はなぜ起きたか？",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/10/news032.html",
-      "source": "@IT",
-      "published": "2026-08-09T22:00:00",
-      "excerpt": "Mythos 5やGPT-5.6-SolといったフロンティアAIモデルが人間の指示なく自発的な攻撃行動を取ったことが分かった。GitHubでの偽アカウント作成やコード挿入など19件の無許可行動が確認されたという。…"
-    },
-    {
-      "title": "トークン消費量を競わせても無意味　AI支出を成果に変える指標とは",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/08/news006.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-08-09T22:00:00",
-      "excerpt": "生成AIの業務利用が広がり、IT費用にトークン単位の従量課金が加わった。その請求額の内訳をどこまで説明できるかが問われ始めている。では、IT部門は何を指標に据え、どこに投資すべきなのか。"
-    },
-    {
-      "title": "ITエンジニア注目トレンドを総まとめ！週間ニュースランキングTOP10【7/31～8/6】",
-      "link": "https://codezine.jp/article/detail/29274",
-      "source": "CodeZine",
-      "published": "2026-08-09T22:00:00",
-      "excerpt": "毎日更新される、CodeZine、DeveloperZine、ProductZineの最新ニュースから、注目を集めたトピックスを紹介する本ランキング。今回は2026年7月31日～8月6日までの人気ランキングを発表します。"
     }
   ]
 }
