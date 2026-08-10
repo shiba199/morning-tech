@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-10T14:11:29",
+  "generated_at": "2026-08-10T15:29:07",
   "window_hours": 24,
-  "total": 207,
+  "total": 210,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が39件。AWS は Cursor、Microsoft、OpenAI、Vercel とともに Agent Plugins Technical Steering Committee の設立メンバーとして参画します。Agent Plugins 1.0.…",
+      "summary": "生成AIの新着が37件。記事の URL: https://openai.com/index/responsible-ai-infrastructor-texas/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "テキサス州の責任ある AI インフラストラクチャに関する OpenAI のアボット知事への書簡",
+          "link": "https://openai.com/index/responsible-ai-infrastructure-texas/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-10T14:38:20",
+          "excerpt": "記事の URL: https://openai.com/index/responsible-ai-infrastructor-texas/ コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "AWS が Agent Plugins をサポート: ポータブルなエージェント拡張のためのオープン標準",
           "link": "https://aws.amazon.com/jp/blogs/news/aws-supports-agent-plugins-an-open-standard-for-portable-agent-extensions/",
@@ -29,21 +36,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-10T10:55:03",
           "excerpt": "記事の URL: https://twitter.com/finkd/status/2086754845218726027 コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "S3 VectorsのRAGパイプラインを作り直している話（応答編）",
-          "link": "https://zenn.dev/kawasemi_jp/articles/rebuilding-rag-pipeline-answering",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-10T10:14:17",
-          "excerpt": "この記事について 前編では、文書を取り込む側のパイプラインについて書きました。https://zenn.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。背景 S3へのファイルアップロードをトリガーにLambdaを起動する構成を、SAMを使わずコンソールで手動構築しました。1.…",
+      "summary": "クラウドの新着が15件。はじめに S3のアクセス制御には、IAMポリシーとS3バケットポリシーがありますよね。どちらでもS3へのアクセス権限を設定できるため、 「結局、どちらに権限を書けばいいの？」 と迷うことがあります。…",
       "articles": [
+        {
+          "title": "IAMポリシーとS3バケットポリシー、どちらを使えばいいの？",
+          "link": "https://qiita.com/kawasaki031677/items/69db76baf8349ee46792",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-10T15:14:44",
+          "excerpt": "はじめに S3のアクセス制御には、IAMポリシーとS3バケットポリシーがありますよね。どちらでもS3へのアクセス権限を設定できるため、 「結局、どちらに権限を書けばいいの？」 と迷うことがあります。…"
+        },
+        {
+          "title": "テキサス州の責任ある AI インフラストラクチャに関する OpenAI のアボット知事への書簡",
+          "link": "https://openai.com/index/responsible-ai-infrastructure-texas/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-10T14:38:20",
+          "excerpt": "記事の URL: https://openai.com/index/responsible-ai-infrastructor-texas/ コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "S3イベントトリガーのLambda、コンソールで作って気づいたSAMの自動化ポイント",
           "link": "https://qiita.com/caymezon/items/f5eb1683bf4f7c88796f",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-10T14:00:57",
           "excerpt": "背景 S3 + CloudFrontの静的サイトホスティングをコンソールで構築しました。CloudFrontコンソールは2026年に大きくUIが刷新され、6ステップのウィザード形式に変わっています。…"
-        },
-        {
-          "title": "API Gateway + Lambda + DynamoDBをコンソールで手動構築して分かったSAMの自動化範囲",
-          "link": "https://qiita.com/caymezon/items/2d57a096a0d6b1f08344",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-10T14:00:50",
-          "excerpt": "背景 Lambda + API Gateway + DynamoDBのメモアプリAPIを、SAMを使わずAWSコンソールだけで構築しました。…"
-        },
-        {
-          "title": "ウェブアプリケーションを個人管理のVercelから企業管理のAWSに移行した話",
-          "link": "https://qiita.com/toshiharu-irie-techlab/items/bdd43390b8c5e467fd61",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-10T11:26:57",
-          "excerpt": "この記事のターゲット 個人管理されたアプリケーションを企業管理領域に移行したいPM・エンジニア 小規模チームで組織管理できるCI/CD基盤を構築したいエンジニア はじめに 自社サービスと謳っているウェブアプリケーションが、なぜか個人アカウン…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。!この記事はZennからlaravelのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「【警告】その実装、乗っ取られる？…",
+      "summary": "セキュリティの新着が12件。はじめに S3のアクセス制御には、IAMポリシーとS3バケットポリシーがありますよね。どちらでもS3へのアクセス権限を設定できるため、 「結局、どちらに権限を書けばいいの？」 と迷うことがあります。…",
       "articles": [
+        {
+          "title": "IAMポリシーとS3バケットポリシー、どちらを使えばいいの？",
+          "link": "https://qiita.com/kawasaki031677/items/69db76baf8349ee46792",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-10T15:14:44",
+          "excerpt": "はじめに S3のアクセス制御には、IAMポリシーとS3バケットポリシーがありますよね。どちらでもS3へのアクセス権限を設定できるため、 「結局、どちらに権限を書けばいいの？」 と迷うことがあります。…"
+        },
         {
           "title": "「【警告】その実装、乗っ取られる？Laravel開発者が今すぐ見直すべきセキュリティの落とし穴」～【laravel】人気記事（08/09） | CareNet Engineersのフィード",
           "link": "https://zenn.dev/carenet/articles/zenn-weekly-laravel-articles-2026-08",
@@ -99,21 +106,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-10T08:25:20",
           "excerpt": "クラウドセキュリティインシデント・脆弱性速報 (2026-08-10) GCP Compute Engine のセキュリティ脆弱性に関する重要情報 本記事では、Google Cloud Platform（GCP）Compute Engine…"
-        },
-        {
-          "title": "[アップデート]AWS IAM Identity CenterによるAWSアカウントのアクセス管理がオプションとなり、アプリケーションへのアクセス専用で使えるようになりました",
-          "link": "https://dev.classmethod.jp/articles/aws-iam-identity-center-aws-account-access-management-has-become-option/",
-          "source": "DevelopersIO",
-          "published": "2026-08-10T07:37:51",
-          "excerpt": "AWS IAM Identity Centerの最新アップデートで、AWSアカウントへのアクセス管理を無効化して作成にできるようになりました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。背景 Lambda + API Gateway + DynamoDBのメモアプリAPIを、SAMを使わずAWSコンソールだけで構築しました。…",
+      "summary": "データ分析の新着が8件。1.はじめに Amazon DynamoDB がネイティブのベクトル検索に対応しました1。テーブルに VectorIndexes を足すと、SearchVectors API で意味の近いアイテムを検索できるようになります。…",
       "articles": [
+        {
+          "title": "DynamoDB のベクトル検索を1万件で試してみた",
+          "link": "https://qiita.com/asahide/items/7828054c74bb187552d3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-10T14:35:12",
+          "excerpt": "1.はじめに Amazon DynamoDB がネイティブのベクトル検索に対応しました1。テーブルに VectorIndexes を足すと、SearchVectors API で意味の近いアイテムを検索できるようになります。…"
+        },
         {
           "title": "API Gateway + Lambda + DynamoDBをコンソールで手動構築して分かったSAMの自動化範囲",
           "link": "https://qiita.com/caymezon/items/2d57a096a0d6b1f08344",
@@ -134,21 +141,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-10T06:38:07",
           "excerpt": "オンプレミスHadoopからAmazon EMRへの移行とコスト最適化の手法 オンプレミスで複数台のサーバーを用いてHadoopを運用し、大規模なデータ処理基盤を提供しているケースはまだ多くあります。…"
-        },
-        {
-          "title": "【アップデート】Cloud Billing レポートにGemini Enterpriseのコスト分析に役に立つ Originating products (発生元プロダクト) でのフィルターとグループ分けが可能になりました",
-          "link": "https://dev.classmethod.jp/articles/cloud-billing-report-filter-group-by-originating-products-gemini-enterprise/",
-          "source": "DevelopersIO",
-          "published": "2026-08-10T05:36:41",
-          "excerpt": "Cloud Billingに追加された「Originating products フィルター」により、Gemini Enterpriseのコスト管理がしやすくなりました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。この記事のターゲット GitHubが使えない制約の中でCI/CDを構築したいエンジニア Backlog Gitを使っているが、デプロイを手動で行っていてコストを感じているエンジニア 複数のフレームワーク(Vue/React/静的)が混在する…",
+      "summary": "開発ツールの新着が11件。1.はじめに GitHub ActionsからTerraform planを実行する際、OIDC連携でAWSのロールを引き受けようとしたところ、以下のエラーで失敗しました。…",
       "articles": [
+        {
+          "title": "GitHub Actions OIDCでNot authorizedが消えない時に疑うべきImmutable subject claims",
+          "link": "https://zenn.dev/aws_iac_notes/articles/fc8f3d2e90b833",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-10T13:04:18",
+          "excerpt": "1.はじめに GitHub ActionsからTerraform planを実行する際、OIDC連携でAWSのロールを引き受けようとしたところ、以下のエラーで失敗しました。…"
+        },
         {
           "title": "GitHubが使えない環境で、Backlog GitからAWSへ自動デプロイする仕組みを作った話",
           "link": "https://qiita.com/toshiharu-irie-techlab/items/86898fc44d10cea0b4ac",
@@ -169,45 +176,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-10T08:00:00",
           "excerpt": "Netskope R139〜R140（2026年夏）のアップデートから、運用者が実際に嬉しい変更だけを選んで整理。…"
-        },
-        {
-          "title": "AWS DevOps Agent と Kiro CLI によるインシデント修正の自動化",
-          "link": "https://aws.amazon.com/jp/blogs/news/automated-incident-remediation-with-aws-devops-agent-and-kiro-cli/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-10T07:58:43",
-          "excerpt": "本記事では、AWS DevOps Agent の修正計画の出力を、AWS CodeBuild 上でヘッドレスモードで動作する Kiro CLI と統合して、修正のループをエンドツーエンドで完結させる方法を紹介します。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Microsoft Entra ID のカスタムドメインとして Azure DNS で管理しているドメインを追加してみた",
-      "link": "https://dev.classmethod.jp/articles/entra-id-custom-domain-azure-dns/",
-      "source": "DevelopersIO",
-      "published": "2026-08-10T14:05:36",
-      "excerpt": "Microsoft Entra ID のカスタムドメイン追加設定を、Azure DNSのパブリックゾーンを使用して試してみました。"
+      "title": "軍がより多くのバッテリーを要求する中、シラは国防総省から14億ドルの融資を受ける",
+      "link": "https://techcrunch.com/2026/08/10/sila-lands-1-4b-pentagon-loan-as-militaries-demand-more-batteries/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-10T15:22:42",
+      "excerpt": "電池材料の新興企業Silaは、米国国防総省からの14億ドルの融資を利用して、ワシントン州の工場での生産を拡大する予定だ。"
     },
     {
-      "title": "「コード実装ツール呼び出し」に関するミストラル特許",
-      "link": "https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-10T13:29:12",
-      "excerpt": "記事の URL: https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html コメント URL: https://news.…"
+      "title": "アーチャー、元ライバルのウィスク・エアロを買収",
+      "link": "https://techcrunch.com/2026/08/10/archer-buys-former-rival-wisk-aero/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-10T15:09:39",
+      "excerpt": "両社はかつて営業秘密窃盗訴訟に巻き込まれたことがある。今、ウィスクはアーチャーに吸収されつつあります。"
     },
     {
-      "title": "自分の脳をエンシット化から守る",
-      "link": "https://mrmarket.lol/how-i-feel-calmin-control-of-my-life-in-the-time-of-enshittification/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-10T13:20:09",
-      "excerpt": "記事の URL: https://mrmarket.…"
+      "title": "中国の主力ロケットの1つが飛行中に爆発した",
+      "link": "https://arstechnica.com/space/2026/08/one-of-chinas-workhorse-rockets-just-exploded-in-flight/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-08-10T15:05:00",
+      "excerpt": "もし今回の故障がYF-100エンジンに関係していれば、中国の宇宙計画に対する懸念がさらに広がることになる。"
     },
     {
-      "title": "SuperH アーキテクチャの復活 (2015)",
-      "link": "https://lwn.net/Articles/647636/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-10T13:13:47",
-      "excerpt": "記事の URL: https://lwn.net/Articles/647636/ コメント URL: https://news.ycombinator.com/item?id=49243193 ポイント: 3 コメント数: 0"
+      "title": "犬はあなたが怖がっているのか悲しいのかを知ることができます",
+      "link": "https://arstechnica.com/science/2026/08/dogs-can-tell-if-youre-scared-or-sad/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-08-10T15:00:53",
+      "excerpt": "fMRIスキャンにより、犬の脳では幸福、恐怖、怒り、悲しみが明確な脳活動パターンを持っていることが分かりました。"
     }
   ]
 }
