@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T17:15:22",
+  "generated_at": "2026-08-10T18:10:10",
   "window_hours": 24,
   "total": 220,
   "topic_count": 5,
@@ -7,7 +7,7 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が38件。猿の足に何を求めるだろうか？",
+      "summary": "生成AIの新着が37件。猿の足に何を求めるだろうか？",
       "articles": [
         {
           "title": "ジムのネズミが AI エージェントにクラスの予約を依頼、待機リスト API をハッキングしてリストを増やす",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。1.はじめに Amazon DynamoDB がネイティブのベクトル検索に対応しました1。テーブルに VectorIndexes を足すと、SearchVectors API で意味の近いアイテムを検索できるようになります。…",
+      "summary": "データ分析の新着が9件。はじめに DynamoDBにある商品や会話履歴をベクトル検索するためだけに、OpenSearchへ同期していませんか？更新や削除だけでなく、再試行と不整合検知まで必要になります。…",
       "articles": [
+        {
+          "title": "DynamoDB Vector Searchは「ベクトルDBの代替」ではない！同期処理から考える本当の判断軸",
+          "link": "https://zenn.dev/gnc_tech/articles/0adb843c16dd6c",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-10T17:55:05",
+          "excerpt": "はじめに DynamoDBにある商品や会話履歴をベクトル検索するためだけに、OpenSearchへ同期していませんか？更新や削除だけでなく、再試行と不整合検知まで必要になります。…"
+        },
         {
           "title": "DynamoDB のベクトル検索を1万件で試してみた",
           "link": "https://qiita.com/asahide/items/7828054c74bb187552d3",
@@ -134,21 +141,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-10T08:10:52",
           "excerpt": "AWS Glue Data Qualityの異常検知が追加料金なしで利用できるようになり、誤検知を減らす新しいFIXEDモードが追加されました。実際にマネジメントコンソールから試してみた結果をご紹介します。"
-        },
-        {
-          "title": "オンプレミスHadoopからAmazon EMRへの移行とコスト最適化の手法",
-          "link": "https://qiita.com/yoshihiro-yoshimura/items/23ed6cecc2223d67ee7b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-10T06:38:07",
-          "excerpt": "オンプレミスHadoopからAmazon EMRへの移行とコスト最適化の手法 オンプレミスで複数台のサーバーを用いてHadoopを運用し、大規模なデータ処理基盤を提供しているケースはまだ多くあります。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。1.はじめに GitHub ActionsからTerraform planを実行する際、OIDC連携でAWSのロールを引き受けようとしたところ、以下のエラーで失敗しました。…",
+      "summary": "開発ツールの新着が11件。Clicks の 99 ドルの Power Keyboard は、MagSafe および Qi2 スマートフォンにカスタマイズ可能なスライド式の物理キーボードをもたらしますが、その分重さが増すと大型スマートフォンが使いにくくなる可能性があり…",
       "articles": [
+        {
+          "title": "Clicks の Power Keyboard は、いくつかの妥協を伴いながら、BlackBerry スタイルのタイピングをあらゆる携帯電話にもたらします",
+          "link": "https://techcrunch.com/2026/08/10/clicks-power-keyboard-brings-blackberry-style-typing-to-any-phone-with-some-compromises/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-10T18:00:39",
+          "excerpt": "Clicks の 99 ドルの Power Keyboard は、MagSafe および Qi2 スマートフォンにカスタマイズ可能なスライド式の物理キーボードをもたらしますが、その分重さが増すと大型スマートフォンが使いにくくなる可能性があり…"
+        },
         {
           "title": "GitHub Actions OIDCでNot authorizedが消えない時に疑うべきImmutable subject claims",
           "link": "https://zenn.dev/aws_iac_notes/articles/fc8f3d2e90b833",
@@ -169,18 +176,25 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-10T09:49:50",
           "excerpt": "こんにちは、クラウドエース第三開発部の賀渝華です。中国・四川省の出身で、来日して 9 年になります。背景として、弊社では会社全体としてソース管理を GitHub から GitLab へ移行していく方針があります。…"
-        },
-        {
-          "title": "Netskope R139〜R140の新機能まとめ｜Clientの「無効化しっぱなし」、ようやく自動で戻るようになりました | CloudNative BLOGs",
-          "link": "https://blog.cloudnative.co.jp/articles/netskope-release-r139-r140-2026/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-10T08:00:00",
-          "excerpt": "Netskope R139〜R140（2026年夏）のアップデートから、運用者が実際に嬉しい変更だけを選んで整理。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "クロードの数学的能力についてさらに学ぶ",
+      "link": "https://www.anthropic.com/research/riemann-zeta",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-10T17:41:13",
+      "excerpt": "記事の URL: https://www.anthropic.com/research/riemann-zeta コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "CEOが500人を解雇した理由は、Zillowは人員なしのほうが効率的だと言うからだ",
+      "link": "https://galratner.substack.com/p/zillows-ceo-just-fired-500-people",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-10T17:29:23",
+      "excerpt": "記事の URL: https://galratner.substack.com/p/zillows-ceo-just-fired-500-people コメント URL: https://news.ycombinator.com/item?…"
+    },
     {
       "title": "HN を開始: Stoa Markets (YC S26) – GPU と AI サーバーのマーケットプレイス",
       "link": "https://www.stoaexchange.com",
@@ -194,20 +208,6 @@
       "source": "TechCrunch（英語）",
       "published": "2026-08-10T16:20:13",
       "excerpt": "Meta の新しいオープンウェイト Muse Glimmer モデルは、マーク ザッカーバーグの個人的な超知性のビジョンと、AI ユーザーが所有できるものとアクセスできるものとの間の新たな溝を垣間見ることができます。"
-    },
-    {
-      "title": "LexisNexis、不審なサーバーアクティビティを受けて 3 つのサービスをオフラインに",
-      "link": "https://www.theregister.com/off-prem/2026/08/10/lexisnexis-blames-outage-on-unusual-server-activity/5285541",
-      "source": "The Register（英語）",
-      "published": "2026-08-10T16:15:00",
-      "excerpt": "顧客は、問題は水曜日に始まり、まだ解決されていないと述べています"
-    },
-    {
-      "title": "住所に数字が付いている理由",
-      "link": "https://thehistoricalinsights.page/2026/06/why-addresses-have-numbers.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-10T16:12:54",
-      "excerpt": "記事の URL: https://thehistoryalinsights.page/2026/06/why-addresses-have-numbers.html コメント URL: https://news.ycombinator.…"
     }
   ]
 }
