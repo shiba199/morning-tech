@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-10T01:37:20",
+  "generated_at": "2026-08-10T03:41:59",
   "window_hours": 24,
-  "total": 142,
+  "total": 155,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。プライベートでAnthropic Claude Fable 5を利用しての成果物の品質にうっとりしている中、どうかこの精度のようなAIモデルを使い続けられないかと願った結果、Fable 5を利用してこのスキルをオリジナルで作成するに至りまし…",
+      "summary": "生成AIの新着が29件。Anthropicは2026年8月7日、Claude CodeのPro、Max、Teamプランの新規セッションで、8月14日より「オートモード」をアクセス許可モードのデフォルトとすることを発表した。",
       "articles": [
+        {
+          "title": "Claude Code、コマンドアクセス許可の「オートモード」をデフォルトに",
+          "link": "https://gihyo.jp/article/2026/08/auto-mode-default-in-claude-code?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-08-10T02:19:00",
+          "excerpt": "Anthropicは2026年8月7日、Claude CodeのPro、Max、Teamプランの新規セッションで、8月14日より「オートモード」をアクセス許可モードのデフォルトとすることを発表した。"
+        },
         {
           "title": "fablify: Claude Fable 5の「仕事の進め方」をAgent Skillとして持ち運ぶ | GVATECHブログのフィード",
           "link": "https://zenn.dev/gvatech_blog/articles/3ea6067d0d23fd",
@@ -29,20 +36,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-10T00:50:17",
           "excerpt": "この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の10日目の記事となります。過去の投稿（リンク集）・昨日の投稿は以下リンクからご覧ください。…"
-        },
-        {
-          "title": "エージェント型開発ツールの普及で問われる、ワークフローの監査可能性［後編］",
-          "link": "https://gihyo.jp/article/2026/07/agent-workflow-auditability-02?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-10T00:03:00",
-          "excerpt": "前回は、エージェント型開発ツールの普及によって、変更の来歴、アイデンティティの帰属、意思決定の連鎖、ロールバック範囲といった点で、従来の監査モデルでは対応しきれない例外が生じることを取り上げました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。tmux設定がリビルドのたびに消える問題を、DevContainerの.devcontainer/に実体を置いて解決します。触るのはDockerfile・.tmux.conf・devcontainer.jsonの3ファイルだけ。…",
+      "summary": "クラウドの新着が12件。tmux設定がリビルドのたびに消える問題を、DevContainerの.devcontainer/に実体を置いて解決します。触るのはDockerfile・.tmux.conf・devcontainer.jsonの3ファイルだけ。…",
       "articles": [
         {
           "title": "DevContainer に tmux を入れて、設定ごと配る | SIOS Tech Lab",
@@ -77,8 +77,22 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。MicrosoftはAI時代のゼロトラスト戦略を拡充し、AIおよびDevSecOps向けの新たな評価軸と実装指針を発表した。…",
+      "summary": "セキュリティの新着が7件。防衛省が、委託先のリチェルカセキュリティ（東京都千代田区）に不正行為があったとして、9カ月間の指名停止措置を取ったと発表した。",
       "articles": [
+        {
+          "title": "防衛省、リチェルカセキュリティに指名停止措置　研究事業で水増し請求か",
+          "link": "https://www.itmedia.co.jp/news/article/2608/10/2000000479/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-10T03:22:40",
+          "excerpt": "防衛省が、委託先のリチェルカセキュリティ（東京都千代田区）に不正行為があったとして、9カ月間の指名停止措置を取ったと発表した。"
+        },
+        {
+          "title": "【入門】 Entra ID を理解する前に知っておきたい認証・認可の基礎と SAML / OIDC / SCIM",
+          "link": "https://dev.classmethod.jp/articles/entra-id-auth-basics/",
+          "source": "DevelopersIO",
+          "published": "2026-08-10T02:44:34",
+          "excerpt": "Microsoft Entra ID を学ぶ際に「認証と認可の違いは？」「SAML と OIDC の使い分けは？」といった疑問を感じたことはありませんか？…"
+        },
         {
           "title": "AIエージェントの暴走をどう防ぐ？　Microsoftが「DevSecOps」専用のゼロトラスト統制策を発表",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2608/10/news017.html",
@@ -92,28 +106,21 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-09T22:00:00",
           "excerpt": "世界中で多発しているランサムウェア感染は、いつもと変わらないように見える添付ファイルを開いたり、問題なさそうに見えるログイン画面にパスワードを入力したり、アカウントが乗っ取られているとは知らずに返信したりといった「人」の行為で始まっている―…"
-        },
-        {
-          "title": "セキュリティグループでIP制限したのに接続できない時に疑うべきこと",
-          "link": "https://qiita.com/caymezon/items/17db93a940066b92be33",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-09T11:17:55",
-          "excerpt": "背景 EC2のセキュリティグループを自分のIPアドレスに制限したのに、SSHもHTTPも接続できない現象に遭遇しました。原因は「curlで確認したIPと実際の接続元IPが違っていた」というものでした。1.…"
-        },
-        {
-          "title": "ランサムウェアギャングはCEOを無視して40代のITマネージャーに直行",
-          "link": "https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499",
-          "source": "The Register（英語）",
-          "published": "2026-08-09T09:33:00",
-          "excerpt": "これに触発されたと感じた X 世代は、ネットワーク ケーブルを抜いて警察に通報することを忘れないでください。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。背景・目的 2026年8月5日、Amazon DynamoDB がネイティブなリアルタイムベクトル検索を一般提供（GA）しました。…",
+      "summary": "データ分析の新着が4件。はじめに 2026年1月、プロダクトマネージャーとしてTalentXに入社したhiromotoです。…",
       "articles": [
+        {
+          "title": "PMの定型業務を「Skill」にする - 要件定義とデータ分析、2つの実践 - TalentX Tech Blog",
+          "link": "https://tech.talentx.co.jp/entry/2026/08/07/100027",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-08-09T19:50:18",
+          "excerpt": "はじめに 2026年1月、プロダクトマネージャーとしてTalentXに入社したhiromotoです。…"
+        },
         {
           "title": "Amazon DynamoDB のリアルタイムベクトル検索を理解する",
           "link": "https://qiita.com/zumax/items/a1c2632db7f298d2c402",
@@ -140,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。前回は、エージェント型開発ツールの普及によって、変更の来歴、アイデンティティの帰属、意思決定の連鎖、ロールバック範囲といった点で、従来の監査モデルでは対応しきれない例外が生じることを取り上げました。…",
+      "summary": "開発ツールの新着が8件。前回は、エージェント型開発ツールの普及によって、変更の来歴、アイデンティティの帰属、意思決定の連鎖、ロールバック範囲といった点で、従来の監査モデルでは対応しきれない例外が生じることを取り上げました。…",
       "articles": [
         {
           "title": "エージェント型開発ツールの普及で問われる、ワークフローの監査可能性［後編］",
@@ -175,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "【AIコーディング】バイブコーディングとは何か――そして何に気をつけるべきか | エイトハンドレッド TECH BLOG",
-      "link": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/08/10/102330",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-10T01:23:30",
-      "excerpt": "「作って」と書いたら動くものが返ってきた。この体験は率直に気持ちがいいものです。ただ、そこで作られたものをそのまま業務に載せていいかというと、話は別になります。…"
-    },
-    {
-      "title": "ニンテンドーミュージアム、不正購入チケットで入館できないケースを「複数確認」……「公式で買って」",
-      "link": "https://www.itmedia.co.jp/news/article/2608/10/2000000470/",
+      "title": "科学技術振興機構、メール情報約1.6万件漏えいの可能性　外部から指摘受け発覚",
+      "link": "https://www.itmedia.co.jp/news/article/2608/10/2000000480/",
       "source": "ITmedia NEWS",
-      "published": "2026-08-10T01:10:36",
-      "excerpt": "不正な販売または譲渡が確認された場合は、購入したすべてのチケットが無効になることがあるとして注意を呼び掛けている。"
+      "published": "2026-08-10T03:23:28",
+      "excerpt": "科学技術振興機構、メール情報約1.6万件漏えいの可能性　外部から指摘受け発覚"
     },
     {
-      "title": "CDC を Postgres にプッシュした方法",
-      "link": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-10T01:01:34",
-      "excerpt": "記事の URL: https://www.snowflake.…"
+      "title": "NVIDIA の Lyra 2.0 を、NVIDIA Brev 上の H100 環境で動かしてみた",
+      "link": "https://dev.classmethod.jp/articles/nvidia-lyra-2-brev/",
+      "source": "DevelopersIO",
+      "published": "2026-08-10T03:22:29",
+      "excerpt": "NVIDIA Brev上のH100でLyra 2.0を実行し、単一画像から探索可能な3Dワールド動画を生成してみました。ロボット開発向けのシミュレーション環境作成への応用可能性を検証した実行記です。"
     },
     {
-      "title": "Fabric入門：なぜ分析用データベースは正規化しないのか | Alternative Architecture DOJO",
-      "link": "https://aadojo.alterbooth.com/entry/2026/08/10/100000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-10T01:00:00",
-      "excerpt": "Microsoft Fabricの学習を進める中で出会った「なぜ分析用データベースでは正規化しないのか？」という疑問について整理しました。本記事では、正規化と非正規化の考え方の違いについてまとめています。"
+      "title": "靖国神社、境内での軍服・コスプレを禁止",
+      "link": "https://www.itmedia.co.jp/news/article/2608/10/2000000478/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-10T02:48:04",
+      "excerpt": "「英霊がお祀りされる神聖な境内における静謐と尊厳を維持すること」を目的として趣旨への理解と協力を求めている。"
+    },
+    {
+      "title": "[小ネタ] Amazon Connect は Amazon Connect Customer になっていました",
+      "link": "https://dev.classmethod.jp/articles/amazon-connect-customer-rebrand/",
+      "source": "DevelopersIO",
+      "published": "2026-08-10T02:26:28",
+      "excerpt": "2026年4月のアップデートで従来の Amazon Connect は「Amazon Connect Customer」に改称されていました。"
     }
   ]
 }
