@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-10T08:20:04",
+  "generated_at": "2026-08-10T09:54:10",
   "window_hours": 24,
-  "total": 194,
+  "total": 201,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。本記事では、AWS DevOps Agent の修正計画の出力を、AWS CodeBuild 上でヘッドレスモードで動作する Kiro CLI と統合して、修正のループをエンドツーエンドで完結させる方法を紹介します。…",
+      "summary": "生成AIの新着が37件。記事の URL: https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant コメント URL: https://news.…",
       "articles": [
+        {
+          "title": "Implant – API をコーディング エージェントに公開する VS Code の拡張機能",
+          "link": "https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-10T09:22:25",
+          "excerpt": "記事の URL: https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant コメント URL: https://news.…"
+        },
+        {
+          "title": "【DevOps Agent】カスタムエージェントで週次レポートを生成してみた | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/aws-devops-agent-custom-agent",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-10T09:17:59",
+          "excerpt": "DevOps Agentのカスタムエージェント機能を用いて、New Relic連携環境での週次レポートを自動生成する方法を解説。複数のデータを集約し、繰り返しインシデントの検出を自動化します。"
+        },
         {
           "title": "AWS DevOps Agent と Kiro CLI によるインシデント修正の自動化",
           "link": "https://aws.amazon.com/jp/blogs/news/automated-incident-remediation-with-aws-devops-agent-and-kiro-cli/",
@@ -22,27 +36,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-10T07:08:33",
           "excerpt": "はじめに Kanban ボードだけが移行できなかった ないなら作ればいい：要件と設計思想 開発は Claude Code 主体 社内ツールを OSS にするまで いざコミュニティプラグインとして公開へ Property Kanban の紹介…"
-        },
-        {
-          "title": "Kiro powers は Agent Plugins のサポートを開始します",
-          "link": "https://aws.amazon.com/jp/blogs/news/powers-supports-plugins/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-10T06:59:55",
-          "excerpt": "2026 年 8 月 7 日、Kiro powers は、エージェント拡張をパッケージ化するためのオープンかつベンダーニュートラルな仕様である Agent Plugins 1.0.0 のサポートを順次展開します。…"
-        },
-        {
-          "title": "Docker サンドボックス – AI エージェント用の使い捨ての分離されたサンドボックス",
-          "link": "https://www.docker.com/products/docker-sandboxes/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-10T06:02:38",
-          "excerpt": "記事の URL: https://www.docker.com/products/docker-sandboxes/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。オンプレミスHadoopからAmazon EMRへの移行とコスト最適化の手法 オンプレミスで複数台のサーバーを用いてHadoopを運用し、大規模なデータ処理基盤を提供しているケースはまだ多くあります。…",
+      "summary": "クラウドの新着が12件。オンプレミスHadoopからAmazon EMRへの移行とコスト最適化の手法 オンプレミスで複数台のサーバーを用いてHadoopを運用し、大規模なデータ処理基盤を提供しているケースはまだ多くあります。…",
       "articles": [
         {
           "title": "オンプレミスHadoopからAmazon EMRへの移行とコスト最適化の手法",
@@ -77,8 +77,22 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。AWS IAM Identity Centerの最新アップデートで、AWSアカウントへのアクセス管理を無効化して作成にできるようになりました。…",
+      "summary": "セキュリティの新着が11件。AWS WAF Classicでリソース削除時に「The referenced entity is not empty」エラーが出た場合の原因と対処法について解説します。…",
       "articles": [
+        {
+          "title": "AWS WAF Classicルールや条件（Condition）削除方法について",
+          "link": "https://dev.classmethod.jp/articles/tsnote-aws-waf-delete-errormessage-referencedentity/",
+          "source": "DevelopersIO",
+          "published": "2026-08-10T09:24:14",
+          "excerpt": "AWS WAF Classicでリソース削除時に「The referenced entity is not empty」エラーが出た場合の原因と対処法について解説します。…"
+        },
+        {
+          "title": "クラウドセキュリティインシデント・脆弱性速報 (2026-08-10)",
+          "link": "https://qiita.com/iestudy/items/d24be69c437c6924f1ae",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-10T08:25:20",
+          "excerpt": "クラウドセキュリティインシデント・脆弱性速報 (2026-08-10) GCP Compute Engine のセキュリティ脆弱性に関する重要情報 本記事では、Google Cloud Platform（GCP）Compute Engine…"
+        },
         {
           "title": "[アップデート]AWS IAM Identity CenterによるAWSアカウントのアクセス管理がオプションとなり、アプリケーションへのアクセス専用で使えるようになりました",
           "link": "https://dev.classmethod.jp/articles/aws-iam-identity-center-aws-account-access-management-has-become-option/",
@@ -92,20 +106,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-10T06:04:19",
           "excerpt": "こんにちは、エーピーコミュニケーションズ ACS事業部の福井です。GitHub Advanced Security（GHAS）の中核をなす静的解析ツール「CodeQL」。…"
-        },
-        {
-          "title": "【Zscaler】Zero Trust Branchとは？拠点ネットワークをゼロトラスト化する仕組み | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/zscaler-zero-trust-branch-overview",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-10T05:38:52",
-          "excerpt": "Zscaler Zero Trust Branchの全体像を、従来の拠点ネットワークとの違い、ZIA/ZPAへの通信転送、WAN回線制御、Device Segmentation、Network of Oneとともに分かりやすく解説します。"
-        },
-        {
-          "title": "【Security Hub修復手順】[ECS.16] ECS タスクセットはパブリック IP アドレスを自動的に割り当てないでください。",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-ecs-16/",
-          "source": "DevelopersIO",
-          "published": "2026-08-10T04:43:41",
-          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。本記事では、AWS DevOps Agent の修正計画の出力を、AWS CodeBuild 上でヘッドレスモードで動作する Kiro CLI と統合して、修正のループをエンドツーエンドで完結させる方法を紹介します。…",
+      "summary": "開発ツールの新着が10件。Netskope R139〜R140（2026年夏）のアップデートから、運用者が実際に嬉しい変更だけを選んで整理。…",
       "articles": [
+        {
+          "title": "Netskope R139〜R140の新機能まとめ｜Clientの「無効化しっぱなし」、ようやく自動で戻るようになりました | CloudNative BLOGs",
+          "link": "https://blog.cloudnative.co.jp/articles/netskope-release-r139-r140-2026/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-10T08:00:00",
+          "excerpt": "Netskope R139〜R140（2026年夏）のアップデートから、運用者が実際に嬉しい変更だけを選んで整理。…"
+        },
         {
           "title": "AWS DevOps Agent と Kiro CLI によるインシデント修正の自動化",
           "link": "https://aws.amazon.com/jp/blogs/news/automated-incident-remediation-with-aws-devops-agent-and-kiro-cli/",
@@ -169,45 +176,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-10T00:19:01",
           "excerpt": "こんにちは、AI Labの馬場 光希です。前回では、詳細設計書からAIで dynamic_var.tfvars を生成し、OpenTofuで検証する仕組みを紹介しました。…"
-        },
-        {
-          "title": "エージェント型開発ツールの普及で問われる、ワークフローの監査可能性［後編］",
-          "link": "https://gihyo.jp/article/2026/07/agent-workflow-auditability-02?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-10T00:03:00",
-          "excerpt": "前回は、エージェント型開発ツールの普及によって、変更の来歴、アイデンティティの帰属、意思決定の連鎖、ロールバック範囲といった点で、従来の監査モデルでは対応しきれない例外が生じることを取り上げました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Kiro Crewを触ってみた - インストールからタスク依頼、定期実行まで",
-      "link": "https://qiita.com/k_adachi_01/items/13a21f95c5a099e16916",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-10T08:03:08",
-      "excerpt": "こんにちは、あだちです。Kiro Crewが2026年8月4日にオープンソースとして発表されました。…"
-    },
-    {
-      "title": "週刊AWS – 2026/8/3週",
-      "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260803/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-08-10T07:19:45",
-      "excerpt": "Amazon DynamoDB がリアルタイムベクトル検索をサポート、OpenAI GPT-5.…"
-    },
-    {
-      "title": "Cloudflare、設定一つでWebサイトにWebMCPインターフェースを追加できる機能を開発者プレビューとして公開",
-      "link": "https://gihyo.jp/article/2026/08/cloudflare-webmcp-interface?utm_source=feed",
-      "source": "gihyo.jp 開発",
-      "published": "2026-08-10T06:30:00",
-      "excerpt": "Cloudflareは2026年8月6日、同社のサービスを利用するWebサイトにWebMCPインターフェースを追加する機能の開発者プレビューを開始した。"
-    },
-    {
-      "title": "意気消沈した開発者の絶望的なハッキングが、LinkedIn 上で再び彼を悩ませた",
-      "link": "https://www.theregister.com/software/2026/08/10/demoralized-developers-desperate-hack-came-back-to-haunt-him-on-linkedin/5284476",
+      "title": "ロンドンは依然として英国のデータセンターマップを支配しているが、各地域はパワーアップしつつある",
+      "link": "https://www.theregister.com/systems/2026/08/10/london-still-dominates-britains-datacenter-map-but-the-regions-are-powering-up/5284693",
       "source": "The Register（英語）",
-      "published": "2026-08-10T06:30:00",
-      "excerpt": "ほとんど関心を持たなかった会社にとって、決して終わることのないプロジェクトで、機能するはずのなかった脚本"
+      "published": "2026-08-10T09:15:00",
+      "excerpt": "首都には容量の 3 分の 2 があり、M25 を超えて数メガワットのプロジェクトが集まる"
+    },
+    {
+      "title": "Microcredential『AWS インシデント対応の実証』を受検してみた | サーバーワークスエンジニアブログ",
+      "link": "https://blog.serverworks.co.jp/microcredential-incident-response-demonstrated",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-10T09:04:10",
+      "excerpt": "Skill Builderで無料受検可能な\"AWSインシデント対応の実証\"マイクロクレデンシャルを取得した体験をもとに、試験の概要と学び方を解説。"
+    },
+    {
+      "title": "今さらながら Liquid Glass 対応を話します | STORES Product Blog",
+      "link": "https://product.st.inc/entry/2026/08/10/175333",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-10T08:53:33",
+      "excerpt": "気づけばもう iOS 27 が出る今になって、ようやく iOS 26 についての記事を公開します。…"
+    },
+    {
+      "title": "秋田県幹部職員が喫煙しながらバスローブでオンライン報道対応　「自宅」との説明に疑義……背景はラブホ客室のよう",
+      "link": "https://www.itmedia.co.jp/news/article/2608/10/2000000489/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-10T08:48:39",
+      "excerpt": "秋田県は、オンラインで報道対応していた産業労働部企業誘致推進監（課長級）の男性が、バスローブのような姿で喫煙するなどの不適切な行動をしたと明らかにし、謝罪した。…"
     }
   ]
 }
