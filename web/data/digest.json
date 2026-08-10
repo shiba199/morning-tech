@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-10T10:56:01",
+  "generated_at": "2026-08-10T11:41:24",
   "window_hours": 24,
-  "total": 201,
+  "total": 203,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。記事の URL: https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant コメント URL: https://news.…",
+      "summary": "生成AIの新着が39件。DevOps Agent から既存ドキュメントを参照させたい。そんな要望に応える、Amazon Bedrock の Managed Knowledge Base と AgentCore Gateway の統合方法を紹介します。",
       "articles": [
+        {
+          "title": "Managed Knowledge BaseとAgentCore Gatewayで既存ナレッジをAWS DevOps Agentに参照させてみた",
+          "link": "https://dev.classmethod.jp/articles/managed-kb-agentcore-gateway-devops-agent/",
+          "source": "DevelopersIO",
+          "published": "2026-08-10T10:57:40",
+          "excerpt": "DevOps Agent から既存ドキュメントを参照させたい。そんな要望に応える、Amazon Bedrock の Managed Knowledge Base と AgentCore Gateway の統合方法を紹介します。"
+        },
+        {
+          "title": "【AIエージェント】さらにその先――「ハーネスエンジニアリング」という考え方 | エイトハンドレッド TECH BLOG",
+          "link": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/08/10/185025",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-10T09:50:25",
+          "excerpt": "PoCはうまくいったのに、本番に載らない。AIエージェントの導入で最もよく聞く詰まり方です。デモでは想定どおり動いていたのに、実運用の話になると誰も「行ける」と言えない。足りていないのはモデルの性能でも、プロンプトの精度でもありません。…"
+        },
         {
           "title": "Implant – API をコーディング エージェントに公開する VS Code の拡張機能",
           "link": "https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant",
@@ -22,28 +36,28 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-10T09:17:59",
           "excerpt": "DevOps Agentのカスタムエージェント機能を用いて、New Relic連携環境での週次レポートを自動生成する方法を解説。複数のデータを集約し、繰り返しインシデントの検出を自動化します。"
-        },
-        {
-          "title": "AWS DevOps Agent と Kiro CLI によるインシデント修正の自動化",
-          "link": "https://aws.amazon.com/jp/blogs/news/automated-incident-remediation-with-aws-devops-agent-and-kiro-cli/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-10T07:58:43",
-          "excerpt": "本記事では、AWS DevOps Agent の修正計画の出力を、AWS CodeBuild 上でヘッドレスモードで動作する Kiro CLI と統合して、修正のループをエンドツーエンドで完結させる方法を紹介します。…"
-        },
-        {
-          "title": "「ないなら作ればいい」— Claude Code 主体で Obsidian プラグインを開発してコミュニティ公開するまで | PLAY DEVELOPERS BLOG",
-          "link": "https://developers.play.jp/entry/2026/08/10/160833",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-10T07:08:33",
-          "excerpt": "はじめに Kanban ボードだけが移行できなかった ないなら作ればいい：要件と設計思想 開発は Claude Code 主体 社内ツールを OSS にするまで いざコミュニティプラグインとして公開へ Property Kanban の紹介…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。オンプレミスHadoopからAmazon EMRへの移行とコスト最適化の手法 オンプレミスで複数台のサーバーを用いてHadoopを運用し、大規模なデータ処理基盤を提供しているケースはまだ多くあります。…",
+      "summary": "クラウドの新着が11件。この記事のターゲット 個人管理されたアプリケーションを企業管理領域に移行したいPM・エンジニア 小規模チームで組織管理できるCI/CD基盤を構築したいエンジニア はじめに 自社サービスと謳っているウェブアプリケーションが、なぜか個人アカウン…",
       "articles": [
+        {
+          "title": "ウェブアプリケーションを個人管理のVercelから企業管理のAWSに移行した話",
+          "link": "https://qiita.com/toshiharu-irie-techlab/items/bdd43390b8c5e467fd61",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-10T11:26:57",
+          "excerpt": "この記事のターゲット 個人管理されたアプリケーションを企業管理領域に移行したいPM・エンジニア 小規模チームで組織管理できるCI/CD基盤を構築したいエンジニア はじめに 自社サービスと謳っているウェブアプリケーションが、なぜか個人アカウン…"
+        },
+        {
+          "title": "GitHub から GitLab へ：Cloud Build 第 2 世代で CI/CD を移行した実践 | クラウドエース株式会社さんのフィード",
+          "link": "https://zenn.dev/cloud_ace_jp/articles/f76fd155defab7",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-10T09:49:50",
+          "excerpt": "こんにちは、クラウドエース第三開発部の賀渝華です。中国・四川省の出身で、来日して 9 年になります。背景として、弊社では会社全体としてソース管理を GitHub から GitLab へ移行していく方針があります。…"
+        },
         {
           "title": "オンプレミスHadoopからAmazon EMRへの移行とコスト最適化の手法",
           "link": "https://qiita.com/yoshihiro-yoshimura/items/23ed6cecc2223d67ee7b",
@@ -57,27 +71,13 @@
           "source": "CodeZine",
           "published": "2026-08-10T05:00:00",
           "excerpt": "AWS Transform、SQL ServerからAurora PostgreSQLへのスキーマ変換をオフラインで対応"
-        },
-        {
-          "title": "【Security Hub修復手順】[ECS.16] ECS タスクセットはパブリック IP アドレスを自動的に割り当てないでください。",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-ecs-16/",
-          "source": "DevelopersIO",
-          "published": "2026-08-10T04:43:41",
-          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
-        },
-        {
-          "title": "AWS Well-Architected Framework 入門：パフォーマンス効率の柱を S3 + CloudFront でハンズオンしてみた",
-          "link": "https://dev.classmethod.jp/articles/aws-well-architected-framework-guide-05/",
-          "source": "DevelopersIO",
-          "published": "2026-08-10T04:06:21",
-          "excerpt": "AWS Well-Architected Framework を学ぶシリーズ第 5 回で、今回はパフォーマンス効率の柱を扱います。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。AWS WAF Classicでリソース削除時に「The referenced entity is not empty」エラーが出た場合の原因と対処法について解説します。…",
+      "summary": "セキュリティの新着が10件。AWS WAF Classicでリソース削除時に「The referenced entity is not empty」エラーが出た場合の原因と対処法について解説します。…",
       "articles": [
         {
           "title": "AWS WAF Classicルールや条件（Condition）削除方法について",
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。Netskope R139〜R140（2026年夏）のアップデートから、運用者が実際に嬉しい変更だけを選んで整理。…",
+      "summary": "開発ツールの新着が11件。この記事のターゲット GitHubが使えない制約の中でCI/CDを構築したいエンジニア Backlog Gitを使っているが、デプロイを手動で行っていてコストを感じているエンジニア 複数のフレームワーク(Vue/React/静的)が混在する…",
       "articles": [
+        {
+          "title": "GitHubが使えない環境で、Backlog GitからAWSへ自動デプロイする仕組みを作った話",
+          "link": "https://qiita.com/toshiharu-irie-techlab/items/86898fc44d10cea0b4ac",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-10T11:27:14",
+          "excerpt": "この記事のターゲット GitHubが使えない制約の中でCI/CDを構築したいエンジニア Backlog Gitを使っているが、デプロイを手動で行っていてコストを感じているエンジニア 複数のフレームワーク(Vue/React/静的)が混在する…"
+        },
+        {
+          "title": "GitHub から GitLab へ：Cloud Build 第 2 世代で CI/CD を移行した実践 | クラウドエース株式会社さんのフィード",
+          "link": "https://zenn.dev/cloud_ace_jp/articles/f76fd155defab7",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-10T09:49:50",
+          "excerpt": "こんにちは、クラウドエース第三開発部の賀渝華です。中国・四川省の出身で、来日して 9 年になります。背景として、弊社では会社全体としてソース管理を GitHub から GitLab へ移行していく方針があります。…"
+        },
         {
           "title": "Netskope R139〜R140の新機能まとめ｜Clientの「無効化しっぱなし」、ようやく自動で戻るようになりました | CloudNative BLOGs",
           "link": "https://blog.cloudnative.co.jp/articles/netskope-release-r139-r140-2026/",
@@ -162,25 +176,25 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-10T07:58:43",
           "excerpt": "本記事では、AWS DevOps Agent の修正計画の出力を、AWS CodeBuild 上でヘッドレスモードで動作する Kiro CLI と統合して、修正のループをエンドツーエンドで完結させる方法を紹介します。…"
-        },
-        {
-          "title": "GitHub Advanced Security × CodeQL × 引き算的考え | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/2026/08/10/150419",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-10T06:04:19",
-          "excerpt": "こんにちは、エーピーコミュニケーションズ ACS事業部の福井です。GitHub Advanced Security（GHAS）の中核をなす静的解析ツール「CodeQL」。…"
-        },
-        {
-          "title": "詳細設計書からクロジカの単体サーバー構成をデプロイした話",
-          "link": "https://zenn.dev/kurojica/articles/aaf5db8150849c",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-10T00:19:01",
-          "excerpt": "こんにちは、AI Labの馬場 光希です。前回では、詳細設計書からAIで dynamic_var.tfvars を生成し、OpenTofuで検証する仕組みを紹介しました。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "AWS認定資格（SAP-02）を新しい再認定方法で更新してみた",
+      "link": "https://qiita.com/nkrk/items/95aa5ba6f8e4dfc00ae8",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-10T11:05:10",
+      "excerpt": "はじめに AWS認定資格を更新するには、従来は 試験にもう一度合格（Renewal） するのが唯一の方法でした。…"
+    },
+    {
+      "title": "ピアレビューは圧倒されています—AI 時代に生き残ることができますか?",
+      "link": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-08-10T11:00:47",
+      "excerpt": "研究論文や AI 支援論文が急増する中、ボランティアの査読者も追いつくのに苦労しています。"
+    },
     {
       "title": "Meta Muse Glimmer – オープンウェイト 30B ローカルコーディングモデル",
       "link": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
@@ -194,20 +208,6 @@
       "source": "DevelopersIO",
       "published": "2026-08-10T09:55:36",
       "excerpt": "DeepSeek V4 Flash-0731 を DGX Spark 2 台で動かし、llama.cpp と vLLM の 2 つの構成を実測で比べました。…"
-    },
-    {
-      "title": "トクリュウ上位者のスマホ情報、遠隔入手へ　警察庁、是非巡り検討会初会合　未然防止図る",
-      "link": "https://www.itmedia.co.jp/news/article/2608/10/2000000491/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-10T09:40:16",
-      "excerpt": "特殊詐欺や強盗など匿名・流動型犯罪グループ（トクリュウ）が関与する深刻な被害を防ごうと、警察庁は8月10日、指示役らが使っているスマートフォンなどの端末の通信内容を遠隔で入手する新たな捜査手法導入の是非を議論する有識者検討会の初会合を開いた…"
-    },
-    {
-      "title": "韓国発の次世代スリープテック「Sleepisol＋」を試す　すんなり二度寝ができるようになった",
-      "link": "https://www.itmedia.co.jp/news/article/2608/10/2000000490/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-10T09:32:53",
-      "excerpt": "夏本番ということで、快適な睡眠にはなかなか厳しい日が続いている。そこで、2025年のCESで「Beauty＆Personal care」部門でイノベーションアワードを受賞した韓国LEESOLの最新モデル「Sleepisol＋」を試した。"
     }
   ]
 }
