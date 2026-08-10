@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-10T12:40:56",
+  "generated_at": "2026-08-10T14:11:29",
   "window_hours": 24,
-  "total": 205,
+  "total": 207,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が38件。AWS は Cursor、Microsoft、OpenAI、Vercel とともに Agent Plugins Technical Steering Committee の設立メンバーとして参画します。Agent Plugins 1.0.…",
+      "summary": "生成AIの新着が39件。AWS は Cursor、Microsoft、OpenAI、Vercel とともに Agent Plugins Technical Steering Committee の設立メンバーとして参画します。Agent Plugins 1.0.…",
       "articles": [
         {
           "title": "AWS が Agent Plugins をサポート: ポータブルなエージェント拡張のためのオープン標準",
@@ -31,54 +31,61 @@
           "excerpt": "記事の URL: https://twitter.com/finkd/status/2086754845218726027 コメント URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "【AIエージェント】さらにその先――「ハーネスエンジニアリング」という考え方 | エイトハンドレッド TECH BLOG",
-          "link": "https://eight-hundred-800-dev.hatenablog.com/entry/2026/08/10/185025",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-10T09:50:25",
-          "excerpt": "PoCはうまくいったのに、本番に載らない。AIエージェントの導入で最もよく聞く詰まり方です。デモでは想定どおり動いていたのに、実運用の話になると誰も「行ける」と言えない。足りていないのはモデルの性能でも、プロンプトの精度でもありません。…"
+          "title": "S3 VectorsのRAGパイプラインを作り直している話（応答編）",
+          "link": "https://zenn.dev/kawasemi_jp/articles/rebuilding-rag-pipeline-answering",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-10T10:14:17",
+          "excerpt": "この記事について 前編では、文書を取り込む側のパイプラインについて書きました。https://zenn.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。この記事のターゲット 個人管理されたアプリケーションを企業管理領域に移行したいPM・エンジニア 小規模チームで組織管理できるCI/CD基盤を構築したいエンジニア はじめに 自社サービスと謳っているウェブアプリケーションが、なぜか個人アカウン…",
+      "summary": "クラウドの新着が13件。背景 S3へのファイルアップロードをトリガーにLambdaを起動する構成を、SAMを使わずコンソールで手動構築しました。1.…",
       "articles": [
+        {
+          "title": "S3イベントトリガーのLambda、コンソールで作って気づいたSAMの自動化ポイント",
+          "link": "https://qiita.com/caymezon/items/f5eb1683bf4f7c88796f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-10T14:01:02",
+          "excerpt": "背景 S3へのファイルアップロードをトリガーにLambdaを起動する構成を、SAMを使わずコンソールで手動構築しました。1.…"
+        },
+        {
+          "title": "CloudFront新UI（2026年）でハマった「Pricing planキャンセルしないと削除できない」問題",
+          "link": "https://qiita.com/caymezon/items/10ed8a221397f614ea25",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-10T14:00:57",
+          "excerpt": "背景 S3 + CloudFrontの静的サイトホスティングをコンソールで構築しました。CloudFrontコンソールは2026年に大きくUIが刷新され、6ステップのウィザード形式に変わっています。…"
+        },
+        {
+          "title": "API Gateway + Lambda + DynamoDBをコンソールで手動構築して分かったSAMの自動化範囲",
+          "link": "https://qiita.com/caymezon/items/2d57a096a0d6b1f08344",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-10T14:00:50",
+          "excerpt": "背景 Lambda + API Gateway + DynamoDBのメモアプリAPIを、SAMを使わずAWSコンソールだけで構築しました。…"
+        },
         {
           "title": "ウェブアプリケーションを個人管理のVercelから企業管理のAWSに移行した話",
           "link": "https://qiita.com/toshiharu-irie-techlab/items/bdd43390b8c5e467fd61",
           "source": "Qiita AWSタグ",
           "published": "2026-08-10T11:26:57",
           "excerpt": "この記事のターゲット 個人管理されたアプリケーションを企業管理領域に移行したいPM・エンジニア 小規模チームで組織管理できるCI/CD基盤を構築したいエンジニア はじめに 自社サービスと謳っているウェブアプリケーションが、なぜか個人アカウン…"
-        },
-        {
-          "title": "GitHub から GitLab へ：Cloud Build 第 2 世代で CI/CD を移行した実践 | クラウドエース株式会社さんのフィード",
-          "link": "https://zenn.dev/cloud_ace_jp/articles/f76fd155defab7",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-10T09:49:50",
-          "excerpt": "こんにちは、クラウドエース第三開発部の賀渝華です。中国・四川省の出身で、来日して 9 年になります。背景として、弊社では会社全体としてソース管理を GitHub から GitLab へ移行していく方針があります。…"
-        },
-        {
-          "title": "オンプレミスHadoopからAmazon EMRへの移行とコスト最適化の手法",
-          "link": "https://qiita.com/yoshihiro-yoshimura/items/23ed6cecc2223d67ee7b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-10T06:38:07",
-          "excerpt": "オンプレミスHadoopからAmazon EMRへの移行とコスト最適化の手法 オンプレミスで複数台のサーバーを用いてHadoopを運用し、大規模なデータ処理基盤を提供しているケースはまだ多くあります。…"
-        },
-        {
-          "title": "AWS Transform、SQL ServerからAurora PostgreSQLへのスキーマ変換をオフラインで対応",
-          "link": "https://codezine.jp/article/detail/29280",
-          "source": "CodeZine",
-          "published": "2026-08-10T05:00:00",
-          "excerpt": "AWS Transform、SQL ServerからAurora PostgreSQLへのスキーマ変換をオフラインで対応"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。AWS WAF Classicでリソース削除時に「The referenced entity is not empty」エラーが出た場合の原因と対処法について解説します。…",
+      "summary": "セキュリティの新着が11件。!この記事はZennからlaravelのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「【警告】その実装、乗っ取られる？…",
       "articles": [
+        {
+          "title": "「【警告】その実装、乗っ取られる？Laravel開発者が今すぐ見直すべきセキュリティの落とし穴」～【laravel】人気記事（08/09） | CareNet Engineersのフィード",
+          "link": "https://zenn.dev/carenet/articles/zenn-weekly-laravel-articles-2026-08",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-10T12:45:04",
+          "excerpt": "!この記事はZennからlaravelのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「【警告】その実装、乗っ取られる？…"
+        },
         {
           "title": "AWS WAF Classicルールや条件（Condition）削除方法について",
           "link": "https://dev.classmethod.jp/articles/tsnote-aws-waf-delete-errormessage-referencedentity/",
@@ -99,21 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-10T07:37:51",
           "excerpt": "AWS IAM Identity Centerの最新アップデートで、AWSアカウントへのアクセス管理を無効化して作成にできるようになりました。…"
-        },
-        {
-          "title": "GitHub Advanced Security × CodeQL × 引き算的考え | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/2026/08/10/150419",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-10T06:04:19",
-          "excerpt": "こんにちは、エーピーコミュニケーションズ ACS事業部の福井です。GitHub Advanced Security（GHAS）の中核をなす静的解析ツール「CodeQL」。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。AWS Glue Data Qualityの異常検知が追加料金なしで利用できるようになり、誤検知を減らす新しいFIXEDモードが追加されました。実際にマネジメントコンソールから試してみた結果をご紹介します。",
+      "summary": "データ分析の新着が8件。背景 Lambda + API Gateway + DynamoDBのメモアプリAPIを、SAMを使わずAWSコンソールだけで構築しました。…",
       "articles": [
+        {
+          "title": "API Gateway + Lambda + DynamoDBをコンソールで手動構築して分かったSAMの自動化範囲",
+          "link": "https://qiita.com/caymezon/items/2d57a096a0d6b1f08344",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-10T14:00:50",
+          "excerpt": "背景 Lambda + API Gateway + DynamoDBのメモアプリAPIを、SAMを使わずAWSコンソールだけで構築しました。…"
+        },
         {
           "title": "[アップデート] AWS Glue Data Quality の新しい FIXED モードによる異常検知を試してみました",
           "link": "https://dev.classmethod.jp/articles/20260810-aws-glue-dq-anomaly-detection/",
@@ -134,13 +141,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-10T05:36:41",
           "excerpt": "Cloud Billingに追加された「Originating products フィルター」により、Gemini Enterpriseのコスト管理がしやすくなりました。…"
-        },
-        {
-          "title": "ExtendDB：DynamoDB互換のオープンソースアダプターを試してみた",
-          "link": "https://zenn.dev/kameoncloud/articles/8ba2e3563aa5dd",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-10T04:40:34",
-          "excerpt": "https://serverless.co.jp/blog/81an1c5tpe18/ に投稿した記事の微修正版です。AWSが2026年5月にオープンソースプロジェクト「ExtendDB」を公開しました。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Google PlayがVenmoを支払いオプションとして追加",
-      "link": "https://techcrunch.com/2026/08/10/google-play-adds-venmo-as-a-payment-option/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-10T12:00:00",
-      "excerpt": "Venmo を Google Play に追加できるようになったのは、人々がアプリやゲームに費やすお金が増えているからです。"
+      "title": "Microsoft Entra ID のカスタムドメインとして Azure DNS で管理しているドメインを追加してみた",
+      "link": "https://dev.classmethod.jp/articles/entra-id-custom-domain-azure-dns/",
+      "source": "DevelopersIO",
+      "published": "2026-08-10T14:05:36",
+      "excerpt": "Microsoft Entra ID のカスタムドメイン追加設定を、Azure DNSのパブリックゾーンを使用して試してみました。"
     },
     {
-      "title": "Discovered Materials は AI もぐらたたきをして、より優れたチップを探しています",
-      "link": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-10T12:00:00",
-      "excerpt": "Discovered Materials は、より効率的なチップを構築するためのより新しい材料の探索に資金を提供するために 900 万ドルを調達しました。"
-    },
-    {
-      "title": "C における末尾呼び出しの最適化は比較的最近行われたものです",
-      "link": "https://lwn.net/Articles/1034703/",
+      "title": "「コード実装ツール呼び出し」に関するミストラル特許",
+      "link": "https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html",
       "source": "Hacker News（英語）",
-      "published": "2026-08-10T11:34:40",
-      "excerpt": "記事の URL: https://lwn.net/Articles/1034703/ コメント URL: https://news.ycombinator.com/item?id=49242297 ポイント: 24 コメント数: 6"
+      "published": "2026-08-10T13:29:12",
+      "excerpt": "記事の URL: https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html コメント URL: https://news.…"
     },
     {
-      "title": "十分に面白くないから: 言語はなぜ失敗するのか",
-      "link": "https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough",
+      "title": "自分の脳をエンシット化から守る",
+      "link": "https://mrmarket.lol/how-i-feel-calmin-control-of-my-life-in-the-time-of-enshittification/",
       "source": "Hacker News（英語）",
-      "published": "2026-08-10T11:27:47",
-      "excerpt": "記事の URL: https://bytecode.news/posts/2026/08/ because-it-s-not-fun-enough コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-10T13:20:09",
+      "excerpt": "記事の URL: https://mrmarket.…"
+    },
+    {
+      "title": "SuperH アーキテクチャの復活 (2015)",
+      "link": "https://lwn.net/Articles/647636/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-10T13:13:47",
+      "excerpt": "記事の URL: https://lwn.net/Articles/647636/ コメント URL: https://news.ycombinator.com/item?id=49243193 ポイント: 3 コメント数: 0"
     }
   ]
 }
