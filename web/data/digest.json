@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T05:46:07",
+  "generated_at": "2026-08-11T06:44:38",
   "window_hours": 24,
   "total": 197,
   "topic_count": 5,
@@ -7,8 +7,22 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。Amazon SageMaker AI、gpt-ossやGemmaなどのファインチューニングに対応",
+      "summary": "生成AIの新着が36件。記事の URL: https://www.cnbc.com/2026/08/10/openai-wraps-7-billion-share-sale-ahead-of-potential-ipo-.…",
       "articles": [
+        {
+          "title": "OpenAI、IPOの可能性を前に70億ドルの株式売却を完了",
+          "link": "https://www.cnbc.com/2026/08/10/openai-wraps-7-billion-share-sale-ahead-of-potential-ipo-.html",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-11T05:40:35",
+          "excerpt": "記事の URL: https://www.cnbc.com/2026/08/10/openai-wraps-7-billion-share-sale-ahead-of-potential-ipo-.…"
+        },
+        {
+          "title": "Amazon Bedrock AgentCore payments - Coinbase をやってみた",
+          "link": "https://zenn.dev/kameoncloud/articles/c14b16caffcb82",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-11T05:04:04",
+          "excerpt": "https://serverless.co.jp/blog/8icsep7h9/ に投稿した記事の微修正版です。今日はPreviewがアナウンスされた Amazon Bedrock AgentCore payments を試していきます。…"
+        },
         {
           "title": "Amazon SageMaker AI、gpt-ossやGemmaなどのファインチューニングに対応",
           "link": "https://codezine.jp/article/detail/29278",
@@ -22,28 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-08-11T04:58:26",
           "excerpt": "MCPサーバーをワンクリックで配布できる`.mcpb`形式について、現在時刻を返すサーバーを作りながら実装方法を試してみました。設定ファイルの複雑さを解消する新しい配布形式の使い方を紹介します。"
-        },
-        {
-          "title": "Claude Codeを使い始めて、CLAUDE.mdを実際に設定してみた",
-          "link": "https://qiita.com/kokuko74740126/items/952ad307b85bc72809d9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-11T03:12:46",
-          "excerpt": "Claude Code初心者がCLAUDE.mdを作ってみた はじめに 最近、Claude Codeを使ってAI駆動開発を始めました。…"
-        },
-        {
-          "title": "OpenAI、サイバー防御「Daybreak」を赤青2階層に　特化型「GPT-5.6-Cyber」投入",
-          "link": "https://www.itmedia.co.jp/news/article/2608/11/2000000496/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-11T02:48:40",
-          "excerpt": "OpenAIはサイバー防御者向けイニシアチブ「Daybreak」を拡張し、2つのアクセス階層「Blue」「Red」と、Red向けの専用モデル「GPT-5.6-Cyber」を発表した。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。Amazon EC2 にアプリケーションステータスチェック機能が追加されました。HTTP/HTTPS でアプリケーションの死活を監視し、異常時は Auto Scaling が自動でインスタンスを置換します。…",
+      "summary": "クラウドの新着が17件。はじめに RaiseTechというオンラインスクールでAWSを学んでいるインフラエンジニア志望者です。スクールの課題で構築した環境について、自分が疑問に思っていたことを解消するために、新しい環境を構築しました。…",
       "articles": [
+        {
+          "title": "【AWS】CloudFormationでAutoScaling+EC2の構築",
+          "link": "https://qiita.com/nino-san/items/b5930227a8ca470dbc17",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-11T06:05:00",
+          "excerpt": "はじめに RaiseTechというオンラインスクールでAWSを学んでいるインフラエンジニア志望者です。スクールの課題で構築した環境について、自分が疑問に思っていたことを解消するために、新しい環境を構築しました。…"
+        },
+        {
+          "title": "AppFlowでSharePointをS3へ連携しようとしたらいっぱいエラーに遭遇したので対処方法をまとめます",
+          "link": "https://dev.classmethod.jp/articles/amazon-appflow-sharepoint-online-to-s3-troubleshooting/",
+          "source": "DevelopersIO",
+          "published": "2026-08-11T05:58:45",
+          "excerpt": "Amazon AppFlowを使ってMicrosoft SharePoint OnlineからAmazon S3へデータを連携する際に遭遇したエラーと解消方法をまとめました。実際の設定手順と転送動作も合わせて紹介します。"
+        },
         {
           "title": "EC2の新機能「アプリケーションステータスチェック」でAuto Scaling自動置換を試してみた",
           "link": "https://dev.classmethod.jp/articles/amazon-ec2-application-status-checks/",
@@ -57,27 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-11T04:06:54",
           "excerpt": "はじめに DynamoDB の Zero-ETL 統合で、ターゲットを General Purpose S3 バケット（Apache Iceberg 形式） にする構成をクロスアカウントで構築しました。…"
-        },
-        {
-          "title": "API Gateway + Lambda 構成の正体——なぜ Gateway を挟むのか、リクエストは何を通るのか、どこで詰まるのか",
-          "link": "https://qiita.com/gtakairo/items/821bb48bfa0d242c2565",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-11T03:35:40",
-          "excerpt": "はじめに EC2 に nginx を入れて HTTP を受けるなら、話は単純だ。サーバーを立てて listen 80 と書けば、そこにリクエストが届く。server { listen 80; server_name api.example.…"
-        },
-        {
-          "title": "Amazon S3 Tables×Snowflake CLDでbase directory不整合が発生した話",
-          "link": "https://zenn.dev/penginpenguin/articles/c48e7859b48341",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-11T01:17:21",
-          "excerpt": "はじめに AWS Community Builderのぺんぎん（@jitepengin）です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。0.はじめに 前回はデータベース系のサービスをまとめました。今回はその第4弾として、ネットワークとセキュリティのサービスをまとめて見ていきます。…",
+      "summary": "セキュリティの新着が13件。0.はじめに 前回はデータベース系のサービスをまとめました。今回はその第4弾として、ネットワークとセキュリティのサービスをまとめて見ていきます。…",
       "articles": [
         {
           "title": "AWSエンジニアのためのGoogle Cloudサービスまとめ その4 ネットワーク・セキュリティ編",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が10件。はじめに DynamoDB の Zero-ETL 統合で、ターゲットを General Purpose S3 バケット（Apache Iceberg 形式） にする構成をクロスアカウントで構築しました。…",
+      "summary": "データ分析の新着が9件。はじめに DynamoDB の Zero-ETL 統合で、ターゲットを General Purpose S3 バケット（Apache Iceberg 形式） にする構成をクロスアカウントで構築しました。…",
       "articles": [
         {
           "title": "【クロスアカウント】DynamoDB Zero-ETL → S3（Iceberg）ターゲットの構築手順と注意点",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。記事の URL: https://github.com/activeing123/mcptoon コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が10件。はじめに RaiseTechというオンラインスクールでAWSを学んでいるインフラエンジニア志望者です。スクールの課題で構築した環境について、自分が疑問に思っていたことを解消するために、新しい環境を構築しました。…",
       "articles": [
+        {
+          "title": "【AWS】CloudFormationでAutoScaling+EC2の構築",
+          "link": "https://qiita.com/nino-san/items/b5930227a8ca470dbc17",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-11T06:05:00",
+          "excerpt": "はじめに RaiseTechというオンラインスクールでAWSを学んでいるインフラエンジニア志望者です。スクールの課題で構築した環境について、自分が疑問に思っていたことを解消するために、新しい環境を構築しました。…"
+        },
         {
           "title": "Show HN: Mcptoon – ツール検出トークンを 97% 削減する MCP CLI クライアント",
           "link": "https://github.com/activeing123/mcptoon",
@@ -157,57 +164,50 @@
           "excerpt": "記事の URL: https://github.com/activeing123/mcptoon コメント URL: https://news.ycombinator.com/item?…"
         },
         {
+          "title": "Amazon Bedrock AgentCore payments - Coinbase をやってみた",
+          "link": "https://zenn.dev/kameoncloud/articles/c14b16caffcb82",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-11T05:04:04",
+          "excerpt": "https://serverless.co.jp/blog/8icsep7h9/ に投稿した記事の微修正版です。今日はPreviewがアナウンスされた Amazon Bedrock AgentCore payments を試していきます。…"
+        },
+        {
           "title": "[アップデート] Amazon SES の Open/Click イベント通知にボット判定フィールド isBotEvent が追加されたので確認してみた",
           "link": "https://dev.classmethod.jp/articles/amazon-ses-automated-email-interactions/",
           "source": "DevelopersIO",
           "published": "2026-08-11T01:45:39",
           "excerpt": "Amazon SESのOpen/Clickイベント通知に新たに追加された`isBotEvent`フィールドについて、実際の動作を確認しながら紹介します。…"
-        },
-        {
-          "title": "Clicks の Power Keyboard は、いくつかの妥協を伴いながら、BlackBerry スタイルのタイピングをあらゆる携帯電話にもたらします",
-          "link": "https://techcrunch.com/2026/08/10/clicks-power-keyboard-brings-blackberry-style-typing-to-any-phone-with-some-compromises/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-10T18:00:39",
-          "excerpt": "Clicks の 99 ドルの Power Keyboard は、MagSafe および Qi2 スマートフォンにカスタマイズ可能なスライド式の物理キーボードをもたらしますが、その分重さが増すと大型スマートフォンが使いにくくなる可能性があり…"
-        },
-        {
-          "title": "GitHub Actions OIDCでNot authorizedが消えない時に疑うべきImmutable subject claims",
-          "link": "https://zenn.dev/aws_iac_notes/articles/fc8f3d2e90b833",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-10T13:04:18",
-          "excerpt": "1.はじめに GitHub ActionsからTerraform planを実行する際、OIDC連携でAWSのロールを引き受けようとしたところ、以下のエラーで失敗しました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "2026/08/11 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-      "link": "https://qiita.com/ennagara128/items/63121d2480ba5b43ee82",
+      "title": "AWS入門",
+      "link": "https://qiita.com/umemasa3/items/f1a3362a53c1631d4713",
       "source": "Qiita AWSタグ",
-      "published": "2026-08-11T04:43:22",
-      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
+      "published": "2026-08-11T06:40:37",
+      "excerpt": "AWS入門"
     },
     {
-      "title": "Microsoft、企業向けベータ版「写真」アプリの静かなインストール後の抗議に対応",
-      "link": "https://www.neowin.net/news/windows-11-admins-unhappy-as-microsoft-found-installing-unexpected-new-onedrive-photos-app/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-11T04:18:37",
-      "excerpt": "記事の URL: https://www.neowin.…"
+      "title": "ドイツの日系SMEが Personio を導入してみた ― 【第4回】組織権限・従業員データほか、バックオフィス全体像",
+      "link": "https://dev.classmethod.jp/articles/personio-org-and-backoffice-stack/",
+      "source": "DevelopersIO",
+      "published": "2026-08-11T06:30:05",
+      "excerpt": "Personio 導入シリーズの最終回では、組織・権限設定と従業員データ管理を深掘りしつつ、On-/Offboarding、給与管理、分析機能などバックオフィスで活用している機能にも触れます。…"
     },
     {
-      "title": "AWS構成図をKiroで自動作成してみた",
-      "link": "https://qiita.com/Hiro_tech/items/74141cee90ec8ba65edc",
+      "title": "GenU閉域モードを深掘りする～バックエンド・ユースケース編～",
+      "link": "https://qiita.com/infra365/items/d6b46cce6632bc646a2d",
       "source": "Qiita AWSタグ",
-      "published": "2026-08-11T04:13:02",
-      "excerpt": "検証しようと思ったキッカケ 案件でAWS構成図を作成することがあるのですが、PoCやRFPの段階で、あまり時間をかけずにパパっと作りたいなぁと考えていました。…"
+      "published": "2026-08-11T06:25:41",
+      "excerpt": "概要 前回はGenU閉域モードのフロントエンドと認証部分を見ていきました。今回はバックエンド側の処理を深掘りします。まずはRAGなどの追加機能を有効化していないデフォルト状態で使えるユースケースを深掘りしていきます。…"
     },
     {
-      "title": "なぜ父は間違っているのか: ギターヒーローの擁護",
-      "link": "https://whatever.scalzi.com/2026/08/10/why-my-father-is-wrong-a-defense-of-guitar-hero/",
+      "title": "ヨーロッパの町や村の半数は60年前に比べて住民が減っている",
+      "link": "https://correctiv.org/en/europe/2026/04/21/half-of-europes-towns-and-villages-have-fewer-residents-than-60-years-ago/",
       "source": "Hacker News（英語）",
-      "published": "2026-08-11T03:52:39",
-      "excerpt": "記事の URL: https://whatever.scalzi.com/2026/08/10/why-my-father-is-wrong-a-defense-of-guitar-hero/ コメント URL: https://news.…"
+      "published": "2026-08-11T05:46:16",
+      "excerpt": "記事の URL: https://correctiv.…"
     }
   ]
 }
