@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-11T03:13:54",
+  "generated_at": "2026-08-11T04:45:50",
   "window_hours": 24,
-  "total": 221,
+  "total": 201,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が40件。Claude Code初心者がCLAUDE.mdを作ってみた はじめに 最近、Claude Codeを使ってAI駆動開発を始めました。…",
+      "summary": "生成AIの新着が35件。Claude Code初心者がCLAUDE.mdを作ってみた はじめに 最近、Claude Codeを使ってAI駆動開発を始めました。…",
       "articles": [
         {
           "title": "Claude Codeを使い始めて、CLAUDE.mdを実際に設定してみた",
@@ -42,42 +42,42 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。はじめに AWS Community Builderのぺんぎん（@jitepengin）です。…",
+      "summary": "クラウドの新着が18件。Amazon EC2 にアプリケーションステータスチェック機能が追加されました。HTTP/HTTPS でアプリケーションの死活を監視し、異常時は Auto Scaling が自動でインスタンスを置換します。…",
       "articles": [
+        {
+          "title": "EC2の新機能「アプリケーションステータスチェック」でAuto Scaling自動置換を試してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-ec2-application-status-checks/",
+          "source": "DevelopersIO",
+          "published": "2026-08-11T04:30:33",
+          "excerpt": "Amazon EC2 にアプリケーションステータスチェック機能が追加されました。HTTP/HTTPS でアプリケーションの死活を監視し、異常時は Auto Scaling が自動でインスタンスを置換します。…"
+        },
+        {
+          "title": "【クロスアカウント】DynamoDB Zero-ETL → S3（Iceberg）ターゲットの構築手順と注意点",
+          "link": "https://qiita.com/swkky/items/0cf7c6f86560e848def9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-11T04:06:54",
+          "excerpt": "はじめに DynamoDB の Zero-ETL 統合で、ターゲットを General Purpose S3 バケット（Apache Iceberg 形式） にする構成をクロスアカウントで構築しました。…"
+        },
+        {
+          "title": "API Gateway + Lambda 構成の正体——なぜ Gateway を挟むのか、リクエストは何を通るのか、どこで詰まるのか",
+          "link": "https://qiita.com/gtakairo/items/821bb48bfa0d242c2565",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-11T03:35:40",
+          "excerpt": "はじめに EC2 に nginx を入れて HTTP を受けるなら、話は単純だ。サーバーを立てて listen 80 と書けば、そこにリクエストが届く。server { listen 80; server_name api.example.…"
+        },
         {
           "title": "Amazon S3 Tables×Snowflake CLDでbase directory不整合が発生した話",
           "link": "https://zenn.dev/penginpenguin/articles/c48e7859b48341",
           "source": "Zenn AWSトピック",
           "published": "2026-08-11T01:17:21",
           "excerpt": "はじめに AWS Community Builderのぺんぎん（@jitepengin）です。…"
-        },
-        {
-          "title": "Amazon EC2 High Memory U7i インスタンスが AWS 南米 (サンパウロ) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-south-america",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-10T23:02:00",
-          "excerpt": "Amazon EC2 ハイメモリ U7in-24TB インスタンス (u7in-24tb.224xlarge) が AWS 南米 (サンパウロ) リージョンで利用できるようになりました。…"
-        },
-        {
-          "title": "Amazon EC2 にアプリケーションステータスチェックが導入されました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-application-status-checks",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-10T17:47:00",
-          "excerpt": "Amazon EC2 では、アプリケーション ステータス チェックを導入しています。これは、お客様が EC2 インスタンス上のアプリケーション レベルの問題を検出して対応するのに役立つ新しいステータス チェックです。…"
-        },
-        {
-          "title": "Amazon OpenSearch Serverless は、コレクション グループあたり最大 10,000 のコレクションをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-10T15:51:00",
-          "excerpt": "次世代の Amazon OpenSearch Serverless では、単一のコレクション グループ内で最大 10,000 のコレクションがサポートされるようになり、以前の制限 1,500 から増加しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。0.はじめに 前回はデータベース系のサービスをまとめました。今回はその第4弾として、ネットワークとセキュリティのサービスをまとめて見ていきます。…",
+      "summary": "セキュリティの新着が15件。0.はじめに 前回はデータベース系のサービスをまとめました。今回はその第4弾として、ネットワークとセキュリティのサービスをまとめて見ていきます。…",
       "articles": [
         {
           "title": "AWSエンジニアのためのGoogle Cloudサービスまとめ その4 ネットワーク・セキュリティ編",
@@ -112,8 +112,22 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が11件。0.はじめに 前回はネットワーク・セキュリティ系のサービスをまとめました。今回はその第5弾として、データ分析系のサービスを見ていきます。…",
+      "summary": "データ分析の新着が11件。はじめに DynamoDB の Zero-ETL 統合で、ターゲットを General Purpose S3 バケット（Apache Iceberg 形式） にする構成をクロスアカウントで構築しました。…",
       "articles": [
+        {
+          "title": "【クロスアカウント】DynamoDB Zero-ETL → S3（Iceberg）ターゲットの構築手順と注意点",
+          "link": "https://qiita.com/swkky/items/0cf7c6f86560e848def9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-11T04:06:54",
+          "excerpt": "はじめに DynamoDB の Zero-ETL 統合で、ターゲットを General Purpose S3 バケット（Apache Iceberg 形式） にする構成をクロスアカウントで構築しました。…"
+        },
+        {
+          "title": "Firefox および Thunderbird リリースに署名するための GPG キーを更新",
+          "link": "https://blog.mozilla.org/security/2026/08/10/updated-gpg-key-for-signing-firefox-and-thunderbird-releases/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-11T04:04:36",
+          "excerpt": "記事の URL: https://blog.mozilla.…"
+        },
         {
           "title": "AWSエンジニアのためのGoogle Cloudサービスまとめ その5 データ分析編",
           "link": "https://qiita.com/motuneko253/items/9adbd707ccbceefcea07",
@@ -127,20 +141,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-11T01:07:22",
           "excerpt": "Amazon Connect+KVSで通話の録音・文字起こし基盤を作っている。永続化機能を入れる前に受けた通話が2本、サーバー再起動とともに消えた——が、KVSのアーカイブから完全復旧できた。その手順と、二度と起こさないための設計を書く。…"
-        },
-        {
-          "title": "DynamoDB Vector Searchは「ベクトルDBの代替」ではない！同期処理から考える本当の判断軸",
-          "link": "https://zenn.dev/gnc_tech/articles/0adb843c16dd6c",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-10T17:55:05",
-          "excerpt": "はじめに DynamoDBにある商品や会話履歴をベクトル検索するためだけに、OpenSearchへ同期していませんか？更新や削除だけでなく、再試行と不整合検知まで必要になります。…"
-        },
-        {
-          "title": "Amazon OpenSearch Serverless は、コレクション グループあたり最大 10,000 のコレクションをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-10T15:51:00",
-          "excerpt": "次世代の Amazon OpenSearch Serverless では、単一のコレクション グループ内で最大 10,000 のコレクションがサポートされるようになり、以前の制限 1,500 から増加しました。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "2026/08/11 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "link": "https://qiita.com/ennagara128/items/63121d2480ba5b43ee82",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-11T04:43:22",
+      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
+    },
+    {
+      "title": "AWS構成図をKiroで自動作成してみた",
+      "link": "https://qiita.com/Hiro_tech/items/74141cee90ec8ba65edc",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-11T04:13:02",
+      "excerpt": "検証しようと思ったキッカケ 案件でAWS構成図を作成することがあるのですが、PoCやRFPの段階で、あまり時間をかけずにパパっと作りたいなぁと考えていました。…"
+    },
+    {
+      "title": "なぜ父は間違っているのか: ギターヒーローの擁護",
+      "link": "https://whatever.scalzi.com/2026/08/10/why-my-father-is-wrong-a-defense-of-guitar-hero/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-11T03:52:39",
+      "excerpt": "記事の URL: https://whatever.scalzi.com/2026/08/10/why-my-father-is-wrong-a-defense-of-guitar-hero/ コメント URL: https://news.…"
+    },
+    {
       "title": "AWSエンジニアのためのGoogle Cloudサービスまとめ その6 コスト管理編",
       "link": "https://qiita.com/motuneko253/items/a1ea0564c838ee374b7a",
       "source": "Qiita AWSタグ",
       "published": "2026-08-11T03:07:44",
       "excerpt": "0.はじめに 前回はデータ分析系のサービスをまとめました。今回はその第6弾として、コスト管理の考え方をまとめます。…"
-    },
-    {
-      "title": "リサイクル - フロッピーディスク",
-      "link": "https://www.floppydisk.com/recycle",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-11T02:01:01",
-      "excerpt": "記事の URL: https://www.floppydisk.com/recycle コメント URL: https://news.ycombinator.com/item?id=49252462 ポイント: 8 コメント数: 0"
-    },
-    {
-      "title": "プロダクトエンジニアがプロダクト基盤の改善に関わる意味 | hacomono TECH BLOG",
-      "link": "https://techblog.hacomono.jp/entry/2026/8/11/110000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-11T02:00:00",
-      "excerpt": "hacomono の会計決済グループでプロダクトエンジニアをやっている江口（@akagire）です。これまで、 hacomono では スタートアップならではの Ruby on Rails の負債と向き合ってきました。…"
-    },
-    {
-      "title": "Node.jsで複数のfetch()を呼んだとき、I/Oはどう進むのかをstraceで覗いてみた",
-      "link": "https://dev.classmethod.jp/articles/nodejs-multiple-fetch-strace/",
-      "source": "DevelopersIO",
-      "published": "2026-08-11T01:55:32",
-      "excerpt": "Promise.all()で複数のfetch()を並行処理しているように見えますが、実際にはどのような仕組みで動いているのでしょうか。…"
     }
   ]
 }
