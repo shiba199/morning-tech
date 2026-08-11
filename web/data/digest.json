@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-11T09:27:12",
+  "generated_at": "2026-08-11T10:23:24",
   "window_hours": 24,
-  "total": 187,
+  "total": 186,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が34件。はじめに こんにちは。レバレジーズのデータ戦略室、データアーキテクトグループの櫻井です。今日は、Claude Codeを作業者から、一緒に問いを立てる仕事の伴走者に変えた話をしようと思います。…",
+      "summary": "生成AIの新着が33件。はじめに こんにちは、マナティです！最近、AIエージェントにファイル操作やAPI呼び出しなどのツールを持たせて、タスクを自律的にこなしてもらう場面が増えてきました。便利な反面、気になるのが安全性です。…",
       "articles": [
+        {
+          "title": "【Strands Agents classifier】AIエージェントの危ないツール呼び出しだけ止めたい",
+          "link": "https://qiita.com/manaty/items/694668a58aa40e0e44ce",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-11T09:42:23",
+          "excerpt": "はじめに こんにちは、マナティです！最近、AIエージェントにファイル操作やAPI呼び出しなどのツールを持たせて、タスクを自律的にこなしてもらう場面が増えてきました。便利な反面、気になるのが安全性です。…"
+        },
         {
           "title": "Claude Codeに問題設定から伴走してもらう仕組みを作った話 | レバレジーズ データAIブログ",
           "link": "https://analytics.leverages.jp/entry/2026/08/11/180000",
@@ -29,20 +36,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-11T08:02:00",
           "excerpt": "Claude Code v2.1.227（2026-08-10）のアップデートをご紹介します。新機能はありませんが、CI上でBashコマンドが失敗する不具合と、プラン判定に関わる課金案内の誤りが解消されました。…"
-        },
-        {
-          "title": "AIエージェント統制は「IDの層」と「コンテンツの層」に分かれた｜BoxとOktaの発表を読み解く | CloudNative BLOGs",
-          "link": "https://blog.cloudnative.co.jp/articles/ai-agent-governance-id-content/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-11T07:36:00",
-          "excerpt": "BoxとOktaの発表を手がかりに、AIエージェント統制を「ID層」と「コンテンツ層」に分けて整理し、台帳化や認証情報・データ重心の見極めなど実務の着手点を解説する記事です。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。ゴール Lambda + API Gatewayをコンソールで構築 LambdaをPythonで実装 API GatewayでGET/POSTを作る LambdaからDynamoDBを操作 AWS SAMで同じ構成をコード化 Lambdaを…",
+      "summary": "クラウドの新着が18件。ゴール Lambda + API Gatewayをコンソールで構築 LambdaをPythonで実装 API GatewayでGET/POSTを作る LambdaからDynamoDBを操作 AWS SAMで同じ構成をコード化 Lambdaを…",
       "articles": [
         {
           "title": "Lambda基礎",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。GitHub Copilotにオープンウェイトモデル「Kimi K3」が正式提供開始",
+      "summary": "開発ツールの新着が8件。GitHub Copilotにオープンウェイトモデル「Kimi K3」が正式提供開始",
       "articles": [
         {
           "title": "GitHub Copilotにオープンウェイトモデル「Kimi K3」が正式提供開始",
@@ -182,6 +182,13 @@
   ],
   "uncategorized": [
     {
+      "title": "悪意のある SIM は電話をシャットダウンし、ファイルを盗み、5G を 2G に戻す可能性があります",
+      "link": "https://www.theregister.com/security/2026/08/11/malicious-sims-can-shut-down-phones-steal-files-and-drag-5g-back-to-2g/5285482",
+      "source": "The Register（英語）",
+      "published": "2026-08-11T09:37:00",
+      "excerpt": "研究者らは、標準に準拠した機能が悪用されてモデムのハイジャック、接続のダウングレード、さらにはコードの実行が可能であることを発見しました。"
+    },
+    {
       "title": "Amazon GameLift Streamsを使ってみた",
       "link": "https://qiita.com/m25349796/items/9511a0e4a0789e5c4d3d",
       "source": "Qiita AWSタグ",
@@ -201,13 +208,6 @@
       "source": "DevelopersIO",
       "published": "2026-08-11T08:41:00",
       "excerpt": "テキスト専用の高速モデルに目と耳を後付けする構成で、Qwen-MM-Pluginsとローカルの Nemotron 3 Nano Omniを組み合わせ、実務レベルでマルチモーダルAIを実装する方法を紹介します。"
-    },
-    {
-      "title": "【夏休みの自由研究リレー】3DプリンターとAIがあればCAD全くできない民でも自在に造形できるのか",
-      "link": "https://dev.classmethod.jp/articles/summer-project-2026-claude-code-openscad-3dprint/",
-      "source": "DevelopersIO",
-      "published": "2026-08-11T08:16:09",
-      "excerpt": "おうちのちょっとした便利小物を、うまいことフィットする形で作りたいんです"
     }
   ]
 }
