@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-10T23:03:00",
+  "generated_at": "2026-08-11T00:00:07",
   "window_hours": 24,
-  "total": 222,
+  "total": 229,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。Amazon Bedrock（以下、「Bedrock」といいます）とは、AWS が提供する生成AIの基盤です。AWS の内側に大規模言語モデル（LLM）が設置されており、利用者はモデルを呼び出して自社のシステムに組み込むことができます。…",
+      "summary": "生成AIの新着が38件。OpenAI は、AI サイバーセキュリティ防御プログラム Daybreak を拡張し、それを使って新しいサイバートレーニングされた AI モデルを展開しています。",
       "articles": [
+        {
+          "title": "AI主導の攻撃が急増する中、OpenAIが新たなサイバーモデルを立ち上げる",
+          "link": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-10T23:56:15",
+          "excerpt": "OpenAI は、AI サイバーセキュリティ防御プログラム Daybreak を拡張し、それを使って新しいサイバートレーニングされた AI モデルを展開しています。"
+        },
         {
           "title": "「学習には使いません」は、どこに保管されるかを答えていない——Amazon Bedrock に機密情報を入れるために確認した20項目",
           "link": "https://qiita.com/hiroshi_imaoku/items/edb34195f46575075a2b",
@@ -17,25 +24,18 @@
           "excerpt": "Amazon Bedrock（以下、「Bedrock」といいます）とは、AWS が提供する生成AIの基盤です。AWS の内側に大規模言語モデル（LLM）が設置されており、利用者はモデルを呼び出して自社のシステムに組み込むことができます。…"
         },
         {
+          "title": "Show HN: AI エージェントのステータスを表示する macOS Dock の横にある偽の LED ストリップをパルスします。",
+          "link": "https://github.com/leog/ai-pulse",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-10T22:07:41",
+          "excerpt": "こんにちは、HN!私はいくつかのクロード コード セッションを並行して実行し、cmd キーを押しながら移動し続けましたが、そのうちの 1 つが 10 分間許可プロンプトに座っていたことがわかりました。…"
+        },
+        {
           "title": "クロードのエージェントがジムに侵入した後、ハイテク業界が賑わっている",
           "link": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
           "source": "TechCrunch（英語）",
           "published": "2026-08-10T20:04:24",
           "excerpt": "OpenClaw のエージェントがジムの予約システムをハッキングし、人間の上司をクラスの順番待ちリストの上位に押し上げました。そしてテクノロジー業界も注目しました。"
-        },
-        {
-          "title": "AWS が Anthropic および OpenAI と協業し、AWS Continuum を開発者ワークフローに統合します",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-partners-with-anthropic-and-openai-to-bring-aws-continuum-into-developer-workflows/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-10T19:47:06",
-          "excerpt": "AWS は Anthropic および OpenAI との協業を発表しました。…"
-        },
-        {
-          "title": "北朝鮮のスパイがAIに悪影響を与えるために地元のLLMを実行している",
-          "link": "https://www.theregister.com/security/2026/08/10/north-korean-spies-are-running-local-llms-to-cause-ai-mischief/5285632",
-          "source": "The Register（英語）",
-          "published": "2026-08-10T17:23:12",
-          "excerpt": "Kimsuky のフィッシング攻撃が AI で強化される"
         }
       ]
     },
@@ -77,8 +77,22 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。記事の URL: https://linuxstans.com/illinois-hb5511-operating-system-age-verification/ コメント URL: https://news.ycombinator.…",
+      "summary": "セキュリティの新着が15件。概要 GenU閉域モードで作成されるリソースや各種フローなどを細かく見ていきます。なお今回はVPCや名前解決などの基本ネットワーク、フロントエンド、認証の箇所までを記載します。…",
       "articles": [
+        {
+          "title": "GenU閉域モードを深掘りする～フロントエンド・認証編～",
+          "link": "https://qiita.com/infra365/items/30ae7e924ffb2dd90b81",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-10T23:16:30",
+          "excerpt": "概要 GenU閉域モードで作成されるリソースや各種フローなどを細かく見ていきます。なお今回はVPCや名前解決などの基本ネットワーク、フロントエンド、認証の箇所までを記載します。…"
+        },
+        {
+          "title": "検証中にAccessDenied？そしたらすぐにCloudShellからIAM Policy Autopilotで自動修復じゃい！",
+          "link": "https://dev.classmethod.jp/articles/fix-iam-access-denied-via-cloudshell/",
+          "source": "DevelopersIO",
+          "published": "2026-08-10T23:13:37",
+          "excerpt": "CloudShellを起動して`uvx iam-policy-autopilot fix-access-denied \"\"`でエラー文を貼る！"
+        },
         {
           "title": "イリノイ州で Linux の年齢認証を義務付ける法律が可決されたばかり",
           "link": "https://linuxstans.com/illinois-hb5511-operating-system-age-verification/",
@@ -92,20 +106,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-10T18:11:52",
           "excerpt": "記事の URL: https://alphatheta.…"
-        },
-        {
-          "title": "IAMポリシーとS3バケットポリシー、どちらを使えばいいの？",
-          "link": "https://qiita.com/kawasaki031677/items/69db76baf8349ee46792",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-10T15:14:44",
-          "excerpt": "はじめに S3のアクセス制御には、IAMポリシーとS3バケットポリシーがありますよね。どちらでもS3へのアクセス権限を設定できるため、 「結局、どちらに権限を書けばいいの？」 と迷うことがあります。…"
-        },
-        {
-          "title": "「【警告】その実装、乗っ取られる？Laravel開発者が今すぐ見直すべきセキュリティの落とし穴」～【laravel】人気記事（08/09） | CareNet Engineersのフィード",
-          "link": "https://zenn.dev/carenet/articles/zenn-weekly-laravel-articles-2026-08",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-10T12:45:04",
-          "excerpt": "!この記事はZennからlaravelのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「【警告】その実装、乗っ取られる？…"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。Clicks の 99 ドルの Power Keyboard は、MagSafe および Qi2 スマートフォンにカスタマイズ可能なスライド式の物理キーボードをもたらしますが、その分重さが増すと大型スマートフォンが使いにくくなる可能性があり…",
+      "summary": "開発ツールの新着が9件。Clicks の 99 ドルの Power Keyboard は、MagSafe および Qi2 スマートフォンにカスタマイズ可能なスライド式の物理キーボードをもたらしますが、その分重さが増すと大型スマートフォンが使いにくくなる可能性があり…",
       "articles": [
         {
           "title": "Clicks の Power Keyboard は、いくつかの妥協を伴いながら、BlackBerry スタイルのタイピングをあらゆる携帯電話にもたらします",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "現在、リップリングは小さなスタートアップ企業であるランレイヤーを反訴している",
-      "link": "https://techcrunch.com/2026/08/10/now-rippling-is-counter-suing-tiny-startup-runlayer/",
+      "title": "ジェフ・ベゾス氏がついにスポーツチームに参入するかもしれない",
+      "link": "https://techcrunch.com/2026/08/10/jeff-bezos-might-finally-get-his-hands-on-a-sports-team/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-10T22:26:54",
-      "excerpt": "この訴訟は、Runlayerが先月起こした、リップリングが製品アイデアを盗んだとして告発した訴訟に続くものである。これは売り手と買い手に対する市場の警告だ。"
+      "published": "2026-08-10T23:16:44",
+      "excerpt": "ジェフ・ベゾス氏がスポーツチーム、英国の有名なリバプール・フットボール・クラブの最初の株式の購入に近づいていると伝えられている。"
     },
     {
-      "title": "Ars Live: ロス・スコットがストップ・キリング・ゲーム運動について語る",
-      "link": "https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-10T22:23:43",
-      "excerpt": "私たちのディスカッションは 8 月 11 日午後 3 時 (東部標準時間) にライブで行われます。"
+      "title": "「ビューポート」　～マンガでプログラミング用語解説",
+      "link": "https://codezine.jp/article/detail/24267",
+      "source": "CodeZine",
+      "published": "2026-08-10T23:00:00",
+      "excerpt": "この連載は、マンガで分かるプログラミング用語辞典です。気軽に読み流せるマンガと、テキストによる詳しい解説で、プログラミング未経験者がつまづきがちな専門用語・概念をやさしく読み解き、よりスムーズな学習を手助けします。…"
     },
     {
-      "title": "ザッカーバーグCEO、超知能の集中化に警鐘 「単一の善意ある超知能は存在しない」とオープンモデル公開再開へ",
-      "link": "https://www.itmedia.co.jp/news/article/2608/11/2000000494/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-10T22:21:33",
-      "excerpt": "MetaのザッカーバーグCEOは、超知能の分散化と個人のエンパワーメントを訴える論考を公開した。単一の超知能への集権化を否定し、権力の均衡が安全の基礎であると主張。…"
+      "title": "2028年にSOCの人手対応、30％減へ　常態化する攻撃に企業は勝てるのか",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/10/news078.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-08-10T23:00:00",
+      "excerpt": "AIが混乱を拡大させる中で、セキュリティリーダーはどう対応するか。ガートナーは、企業が競争優位を保つために注力すべき優先事項を3つ挙げた。その中身とは。"
     },
     {
-      "title": "新しいオープンモデルで、Meta は苦戦している AI 戦略の再起動を提案",
-      "link": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-10T22:13:03",
-      "excerpt": "メタは競合他社の後塵を拝している。ザッカーバーグ氏は前進する道を見つけたと考えている。"
+      "title": "世界鉄道地図 – 世界中の 1247 の鉄道路線",
+      "link": "https://worldtrainmap.com/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-10T22:42:14",
+      "excerpt": "記事の URL: https://worldtrainmap.com/ コメント URL: https://news.ycombinator.com/item?id=49250894 ポイント: 6 コメント数: 0"
     }
   ]
 }
