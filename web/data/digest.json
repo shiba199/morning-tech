@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-11T04:45:50",
+  "generated_at": "2026-08-11T05:46:07",
   "window_hours": 24,
-  "total": 201,
+  "total": 197,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。Claude Code初心者がCLAUDE.mdを作ってみた はじめに 最近、Claude Codeを使ってAI駆動開発を始めました。…",
+      "summary": "生成AIの新着が35件。Amazon SageMaker AI、gpt-ossやGemmaなどのファインチューニングに対応",
       "articles": [
+        {
+          "title": "Amazon SageMaker AI、gpt-ossやGemmaなどのファインチューニングに対応",
+          "link": "https://codezine.jp/article/detail/29278",
+          "source": "CodeZine",
+          "published": "2026-08-11T05:00:00",
+          "excerpt": "Amazon SageMaker AI、gpt-ossやGemmaなどのファインチューニングに対応"
+        },
+        {
+          "title": "自作MCPサーバーを.mcpbにしてClaude Desktopにワンクリックで入れてみた",
+          "link": "https://dev.classmethod.jp/articles/mcpb-claude-desktop/",
+          "source": "DevelopersIO",
+          "published": "2026-08-11T04:58:26",
+          "excerpt": "MCPサーバーをワンクリックで配布できる`.mcpb`形式について、現在時刻を返すサーバーを作りながら実装方法を試してみました。設定ファイルの複雑さを解消する新しい配布形式の使い方を紹介します。"
+        },
         {
           "title": "Claude Codeを使い始めて、CLAUDE.mdを実際に設定してみた",
           "link": "https://qiita.com/kokuko74740126/items/952ad307b85bc72809d9",
@@ -22,27 +36,13 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-11T02:48:40",
           "excerpt": "OpenAIはサイバー防御者向けイニシアチブ「Daybreak」を拡張し、2つのアクセス階層「Blue」「Red」と、Red向けの専用モデル「GPT-5.6-Cyber」を発表した。…"
-        },
-        {
-          "title": "OpenAI、サイバーセキュリティ特化モデル「GPT-5.6-Cyber」を発表 ——DaybreakをBlueとRedの2段階に拡張",
-          "link": "https://gihyo.jp/article/2026/08/gpt-5.6-cyber-with-expanding-daybreak?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-11T02:45:00",
-          "excerpt": "OpenAIは2026年8月10日、サイバーセキュリティ向けプログラム「Daybreak」を拡張し、新たな特化モデル「GPT-5.6-Cyber」を発表した。"
-        },
-        {
-          "title": "Antirez/h3.c: Mac コンピューター用 MiniMax H3 推論エンジン",
-          "link": "https://github.com/antirez/h3.c",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-11T01:22:09",
-          "excerpt": "記事の URL: https://github.com/antirez/h3.c コメント URL: https://news.ycombinator.com/item?id=49252179 ポイント: 45 コメント数: 4"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。Amazon EC2 にアプリケーションステータスチェック機能が追加されました。HTTP/HTTPS でアプリケーションの死活を監視し、異常時は Auto Scaling が自動でインスタンスを置換します。…",
+      "summary": "クラウドの新着が17件。Amazon EC2 にアプリケーションステータスチェック機能が追加されました。HTTP/HTTPS でアプリケーションの死活を監視し、異常時は Auto Scaling が自動でインスタンスを置換します。…",
       "articles": [
         {
           "title": "EC2の新機能「アプリケーションステータスチェック」でAuto Scaling自動置換を試してみた",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。0.はじめに 前回はデータベース系のサービスをまとめました。今回はその第4弾として、ネットワークとセキュリティのサービスをまとめて見ていきます。…",
+      "summary": "セキュリティの新着が14件。0.はじめに 前回はデータベース系のサービスをまとめました。今回はその第4弾として、ネットワークとセキュリティのサービスをまとめて見ていきます。…",
       "articles": [
         {
           "title": "AWSエンジニアのためのGoogle Cloudサービスまとめ その4 ネットワーク・セキュリティ編",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が11件。はじめに DynamoDB の Zero-ETL 統合で、ターゲットを General Purpose S3 バケット（Apache Iceberg 形式） にする構成をクロスアカウントで構築しました。…",
+      "summary": "データ分析の新着が10件。はじめに DynamoDB の Zero-ETL 統合で、ターゲットを General Purpose S3 バケット（Apache Iceberg 形式） にする構成をクロスアカウントで構築しました。…",
       "articles": [
         {
           "title": "【クロスアカウント】DynamoDB Zero-ETL → S3（Iceberg）ターゲットの構築手順と注意点",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。Amazon SESのOpen/Clickイベント通知に新たに追加された`isBotEvent`フィールドについて、実際の動作を確認しながら紹介します。…",
+      "summary": "開発ツールの新着が9件。記事の URL: https://github.com/activeing123/mcptoon コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "Show HN: Mcptoon – ツール検出トークンを 97% 削減する MCP CLI クライアント",
+          "link": "https://github.com/activeing123/mcptoon",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-11T05:26:58",
+          "excerpt": "記事の URL: https://github.com/activeing123/mcptoon コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "[アップデート] Amazon SES の Open/Click イベント通知にボット判定フィールド isBotEvent が追加されたので確認してみた",
           "link": "https://dev.classmethod.jp/articles/amazon-ses-automated-email-interactions/",
@@ -169,13 +176,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-10T13:04:18",
           "excerpt": "1.はじめに GitHub ActionsからTerraform planを実行する際、OIDC連携でAWSのロールを引き受けようとしたところ、以下のエラーで失敗しました。…"
-        },
-        {
-          "title": "GitHubが使えない環境で、Backlog GitからAWSへ自動デプロイする仕組みを作った話",
-          "link": "https://qiita.com/toshiharu-irie-techlab/items/86898fc44d10cea0b4ac",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-10T11:27:14",
-          "excerpt": "この記事のターゲット GitHubが使えない制約の中でCI/CDを構築したいエンジニア Backlog Gitを使っているが、デプロイを手動で行っていてコストを感じているエンジニア 複数のフレームワーク(Vue/React/静的)が混在する…"
         }
       ]
     }
@@ -187,6 +187,13 @@
       "source": "Qiita AWSタグ",
       "published": "2026-08-11T04:43:22",
       "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
+    },
+    {
+      "title": "Microsoft、企業向けベータ版「写真」アプリの静かなインストール後の抗議に対応",
+      "link": "https://www.neowin.net/news/windows-11-admins-unhappy-as-microsoft-found-installing-unexpected-new-onedrive-photos-app/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-11T04:18:37",
+      "excerpt": "記事の URL: https://www.neowin.…"
     },
     {
       "title": "AWS構成図をKiroで自動作成してみた",
@@ -201,13 +208,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-08-11T03:52:39",
       "excerpt": "記事の URL: https://whatever.scalzi.com/2026/08/10/why-my-father-is-wrong-a-defense-of-guitar-hero/ コメント URL: https://news.…"
-    },
-    {
-      "title": "AWSエンジニアのためのGoogle Cloudサービスまとめ その6 コスト管理編",
-      "link": "https://qiita.com/motuneko253/items/a1ea0564c838ee374b7a",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-11T03:07:44",
-      "excerpt": "0.はじめに 前回はデータ分析系のサービスをまとめました。今回はその第6弾として、コスト管理の考え方をまとめます。…"
     }
   ]
 }
