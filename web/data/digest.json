@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-11T22:30:32",
+  "generated_at": "2026-08-11T23:28:19",
   "window_hours": 24,
-  "total": 205,
+  "total": 201,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。Gemini Enterprise Appに管理者がユーザーライセンス情報をCSV形式でエクスポートする新機能が追加されました。オフラインでの分析やレポートの自動化作成に応用することができます。",
+      "summary": "生成AIの新着が35件。Anthropicは、「Claude」が生成するテキストに電子透かしを、対応ファイルにC2PA準拠の署名付きメタデータを付与する方針を発表した。…",
       "articles": [
+        {
+          "title": "Anthropic、「Claude」で生成したテキストに“見えない透かし”　日本を含むグローバルに適用へ",
+          "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000497/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-11T22:16:45",
+          "excerpt": "Anthropicは、「Claude」が生成するテキストに電子透かしを、対応ファイルにC2PA準拠の署名付きメタデータを付与する方針を発表した。…"
+        },
+        {
+          "title": "WorldClaw Agentic 3D オープンワールドを大規模に生成",
+          "link": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-11T21:56:18",
+          "excerpt": "記事の URL: https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/ コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "【アップデート】Gemini Enterprise Appで管理者がユーザーデータをCSVファイルにエクスポートできるようになりました",
           "link": "https://dev.classmethod.jp/articles/gemini-enterprise-app-update-csv-file-export-for-user-data/",
@@ -22,28 +36,21 @@
           "source": "AWS What's New（英語）",
           "published": "2026-08-11T20:25:00",
           "excerpt": "Amazon Bedrock は、大手 AI 企業の高性能基盤モデルへのエンタープライズ グレードの安全なアクセスを提供するフルマネージド サービスで、生成 AI アプリケーションの構築と拡張を可能にします。…"
-        },
-        {
-          "title": "Gemini は 10 億人のユーザーに到達し、Google 史上最も急成長している製品となる",
-          "link": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-08-11T19:48:12",
-          "excerpt": "しかし、ジェミニの急成長は、モデルリリースの減速にも耐えられるでしょうか？"
-        },
-        {
-          "title": "OpenAI が Linux 用 ChatGPT デスクトップ アプリを開始",
-          "link": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-11T19:15:35",
-          "excerpt": "OpenAI はついに専用の ChatGPT デスクトップ アプリを Linux オペレーティング システムに導入します。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。Amazon RDS のスナップショットリストアで、ストレージボリューム初期化の進捗がリアルタイムで確認できるようになりました。新しい `StorageOperationStatus` フィールドを使って、実際に動作を確認してみます。",
+      "summary": "クラウドの新着が19件。本日より、Amazon EC2 R8a インスタンスがカナダ (中部) リージョンで利用できるようになりました。これらのインスタンスは、最大周波数 4.…",
       "articles": [
+        {
+          "title": "Amazon EC2 R8a インスタンスがカナダ (中部) リージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-11T22:03:00",
+          "excerpt": "本日より、Amazon EC2 R8a インスタンスがカナダ (中部) リージョンで利用できるようになりました。これらのインスタンスは、最大周波数 4.…"
+        },
         {
           "title": "[アップデート] Amazon RDS でスナップショットリストア時のストレージ初期化進捗が確認できるようになりました",
           "link": "https://dev.classmethod.jp/articles/amazon-rds-storage-volume-initialization-visibility/",
@@ -64,20 +71,13 @@
           "source": "The Register（英語）",
           "published": "2026-08-11T14:36:00",
           "excerpt": "新たに採用された RaaS クルーが、フォーティネットの既知の欠陥を介してインターネット接続キットを使用して侵入し、データを盗み、スクランブルする"
-        },
-        {
-          "title": "【AWS EC2】Auto Scalingを使ってみる",
-          "link": "https://qiita.com/hcs1996rbl/items/a9c84ca67fa1660febc6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-11T13:22:42",
-          "excerpt": "はじめに Auto Scalingの学習が目的。Auto Scaling + ALB + EC2 環境で、メトリクスの値に応じて、自動でスケールイン、アウトされることを確認する。すでにターゲットグループおよびALBは作成した。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。Amazon Bedrock は、大手 AI 企業の高性能基盤モデルへのエンタープライズ グレードの安全なアクセスを提供するフルマネージド サービスで、生成 AI アプリケーションの構築と拡張を可能にします。…",
+      "summary": "セキュリティの新着が11件。Amazon Bedrock は、大手 AI 企業の高性能基盤モデルへのエンタープライズ グレードの安全なアクセスを提供するフルマネージド サービスで、生成 AI アプリケーションの構築と拡張を可能にします。…",
       "articles": [
         {
           "title": "Amazon Bedrock が IAM の主コスト配分を岩盤マントルエンドポイントに拡大",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。記事の URL: https://github.com/TheRealYT/git-knife コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が12件。記事の URL: https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026 コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "pg_clickhouse v0.10: サブクエリ プッシュダウンと 1000 倍高速な TPC-H クエリ",
+          "link": "https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-11T21:54:25",
+          "excerpt": "記事の URL: https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026 コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "Show HN: Git-knife – コミットメッセージ、作成者、日付をスプレッドシートのように編集します",
           "link": "https://github.com/TheRealYT/git-knife",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-11T12:39:42",
           "excerpt": "はじめに AWSなどのインフラをコードで管理できるTerraformを、Windows環境にインストールする方法を紹介します。今回は、Terraform公式サイトから実行ファイルをダウンロードしてインストールします。Terraformとは？…"
-        },
-        {
-          "title": "暗号化されていないコピーが GitHub に到達した後、Mozilla が Firefox 署名キーを取り消す",
-          "link": "https://www.theregister.com/security/2026/08/11/mozilla-revokes-firefox-signing-key-after-unencrypted-copy-lands-in-github/5285908",
-          "source": "The Register（英語）",
-          "published": "2026-08-11T11:36:00",
-          "excerpt": "監査ログでは予期せぬ訪問者は見つかりませんでしたが、リリースの検証にはまだ更新が必要です"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "Qwenチーム、新モデル「Qwen3.8-Max」を発表",
+      "link": "https://codezine.jp/article/detail/29270",
+      "source": "CodeZine",
+      "published": "2026-08-11T23:00:00",
+      "excerpt": "Qwenチーム、新モデル「Qwen3.8-Max」を発表"
+    },
+    {
+      "title": "デジタル投資の67％がAIへ、ROIが見えない組織が過半",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/12/news032.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-08-11T22:00:00",
+      "excerpt": "Gartnerの調査で、サプライチェーン部門のデジタル投資の67％がAIに向かう一方、その投資利益率を把握できていない責任者が過半に上ることが分かった。AIの成果を測れる組織と測れない組織を分けるものは何か。"
+    },
+    {
+      "title": "「食事中に水を飲むと食べ過ぎない」、実はウソ？　食べる量を左右していたのは…… 米研究者が検証",
+      "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000471/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-11T22:00:00",
+      "excerpt": "米コーネル大学と米ペンシルベニア州立大学に所属する研究者らが学術誌「Appetite」に発表した論文「Water intake, switching between bites and sips, and drinking behavior…"
+    },
+    {
       "title": "フィービー・ゲイツとソフィア・キアニは、フィアが「クッキーの詰め物」をしていることを何ヶ月も前から知っていたと報じられている",
       "link": "https://techcrunch.com/2026/08/11/phoebe-gates-and-sophia-kianni-reportedly-knew-phia-was-cookie-stuffing-for-months/",
       "source": "TechCrunch（英語）",
       "published": "2026-08-11T21:39:58",
       "excerpt": "フィービー・ゲイツ氏とソフィア・キアニ氏が共同設立したショッピングスタートアップのフィアが、商慣行疑惑で再び非難を浴びている。"
-    },
-    {
-      "title": "アクセル、前回の設立から19か月後、応募超過の5億5,000万ドルのインドファンドを数週間以内に閉鎖",
-      "link": "https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-11T21:39:11",
-      "excerpt": "米国のベンチャーキャピタル会社は、以前の6億5,000万ドルのインド資金の55％以上を展開に利用可能です。"
-    },
-    {
-      "title": "Suzanne: 物理的な製品を設計および製造するための AI ツール",
-      "link": "https://www.suzanne3d.com/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-11T21:28:26",
-      "excerpt": "記事の URL: https://www.suzanne3d.com/ コメント URL: https://news.ycombinator.com/item?id=49264755 ポイント: 7 コメント数: 2"
-    },
-    {
-      "title": "欧州の重要な海洋ガス田付近でロシアの無人機が発見、爆破される",
-      "link": "https://arstechnica.com/gadgets/2026/08/romania-destroys-russian-drones-drifting-near-vital-european-offshore-gas-site/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-11T21:20:11",
-      "excerpt": "これはルーマニアへの多数の無人機侵入とドイツでの攻撃失敗に続くものである。"
     }
   ]
 }
