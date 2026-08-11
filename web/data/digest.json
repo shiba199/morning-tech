@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-08-11T20:32:31",
+  "generated_at": "2026-08-11T21:34:37",
   "window_hours": 24,
-  "total": 209,
+  "total": 207,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。OpenAI はついに専用の ChatGPT デスクトップ アプリを Linux オペレーティング システムに導入します。",
+      "summary": "生成AIの新着が38件。Gemini Enterprise Appに管理者がユーザーライセンス情報をCSV形式でエクスポートする新機能が追加されました。オフラインでの分析やレポートの自動化作成に応用することができます。",
       "articles": [
+        {
+          "title": "【アップデート】Gemini Enterprise Appで管理者がユーザーデータをCSVファイルにエクスポートできるようになりました",
+          "link": "https://dev.classmethod.jp/articles/gemini-enterprise-app-update-csv-file-export-for-user-data/",
+          "source": "DevelopersIO",
+          "published": "2026-08-11T20:46:05",
+          "excerpt": "Gemini Enterprise Appに管理者がユーザーライセンス情報をCSV形式でエクスポートする新機能が追加されました。オフラインでの分析やレポートの自動化作成に応用することができます。"
+        },
+        {
+          "title": "Amazon Bedrock が IAM の主コスト配分を岩盤マントルエンドポイントに拡大",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-11T20:25:00",
+          "excerpt": "Amazon Bedrock は、大手 AI 企業の高性能基盤モデルへのエンタープライズ グレードの安全なアクセスを提供するフルマネージド サービスで、生成 AI アプリケーションの構築と拡張を可能にします。…"
+        },
+        {
+          "title": "Gemini は 10 億人のユーザーに到達し、Google 史上最も急成長している製品となる",
+          "link": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-08-11T19:48:12",
+          "excerpt": "しかし、ジェミニの急成長は、モデルリリースの減速にも耐えられるでしょうか？"
+        },
         {
           "title": "OpenAI が Linux 用 ChatGPT デスクトップ アプリを開始",
           "link": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
           "source": "TechCrunch（英語）",
           "published": "2026-08-11T19:15:35",
           "excerpt": "OpenAI はついに専用の ChatGPT デスクトップ アプリを Linux オペレーティング システムに導入します。"
-        },
-        {
-          "title": "GoogleのGeminiアプリのユーザー数が10億人に急増",
-          "link": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-11T18:49:12",
-          "excerpt": "Gemini は、6 月に月間アクティブ ユーザー数が 10 億人に達した OpenAI の ChatGPT と歩調を合わせています。"
-        },
-        {
-          "title": "OpenAIの長年COOを務めたブラッド・ライトキャップ氏が「何か新しいことを始める」ために退職する",
-          "link": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-11T17:41:34",
-          "excerpt": "OpenAI で最も長く勤務した幹部の 1 人が退任するが、長年 COO を務めた同氏はスタッフに対し、「皆さんが別の観点からミッションを進めるのを支援できることに興奮している」と語った。"
-        },
-        {
-          "title": "Entra ID × Identity Center × Cognitoで社内AIエージェントアプリにSSOでログインする",
-          "link": "https://qiita.com/har1101/items/6fa943c43b9e0508b397",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-11T15:23:12",
-          "excerpt": "はじめに こんにちは、ふくちと申します。先日、社内用MCPサーバーをAgentCore Gatewayで構築した際の認証認可周りの設定についてのブログを書きました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。新たに採用された RaaS クルーが、フォーティネットの既知の欠陥を介してインターネット接続キットを使用して侵入し、データを盗み、スクランブルする",
+      "summary": "クラウドの新着が19件。Amazon RDS のスナップショットリストアで、ストレージボリューム初期化の進捗がリアルタイムで確認できるようになりました。新しい `StorageOperationStatus` フィールドを使って、実際に動作を確認してみます。",
       "articles": [
+        {
+          "title": "[アップデート] Amazon RDS でスナップショットリストア時のストレージ初期化進捗が確認できるようになりました",
+          "link": "https://dev.classmethod.jp/articles/amazon-rds-storage-volume-initialization-visibility/",
+          "source": "DevelopersIO",
+          "published": "2026-08-11T20:55:19",
+          "excerpt": "Amazon RDS のスナップショットリストアで、ストレージボリューム初期化の進捗がリアルタイムで確認できるようになりました。新しい `StorageOperationStatus` フィールドを使って、実際に動作を確認してみます。"
+        },
+        {
+          "title": "脱VMwareがあぶり出した「オンプレ人材不足」なぜ深刻化？　現場で見えた“笑えない実態”",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/12/news010.html",
+          "source": "@IT",
+          "published": "2026-08-11T20:00:00",
+          "excerpt": "「脱VMware」を巡って現場を回る中で、もう一つ気になる問題が見えてきました。それはオンプレミスインフラを担う人材の不足です。背景には何があるのでしょうか。現場で見えてきた変化から考えてみたいと思います。"
+        },
         {
           "title": "連邦当局、Gunra ランサムウェアが既知のバグを悪用して重要インフラを攻撃していると警告",
           "link": "https://www.theregister.com/cyber-crime/2026/08/11/feds-warn-gunra-ransomware-is-exploiting-known-bugs-to-hit-critical-infrastructure/5286263",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-11T13:22:42",
           "excerpt": "はじめに Auto Scalingの学習が目的。Auto Scaling + ALB + EC2 環境で、メトリクスの値に応じて、自動でスケールイン、アウトされることを確認する。すでにターゲットグループおよびALBは作成した。…"
-        },
-        {
-          "title": "VPC Service Controls を利用してGoogle Antigravity CLI へアクセス制御を導入する",
-          "link": "https://dev.classmethod.jp/articles/implementing-access-control-for-google-antigravity-cli-using-vpc-service-controls/",
-          "source": "DevelopersIO",
-          "published": "2026-08-11T12:59:58",
-          "excerpt": "Google Antigravity CLIを導入する際に、IPアドレス制限や、特定のユーザのみしか利用させないような設定が求められる場合があります。…"
-        },
-        {
-          "title": "【AWS解説 S3編 #3】ストレージクラスとライフサイクルの違いを整理",
-          "link": "https://qiita.com/suzunari900261/items/1a9b79b82995f39c81cc",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-11T11:25:04",
-          "excerpt": "【AWS解説 S3編 #3】ストレージクラスとライフサイクルの違いを整理 S3編 #3（全7回予定） 前回のS3編 #2では、バージョニングを有効にして、上書き前や削除前のオブジェクトを残す仕組みを確認しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。皆さんこんばんは！更新が久々となり申し訳ございません。ポンコツエンジニアのGONです。台風15号が来ていますが皆さん大丈夫でしょうか。今回の台風はかなり特殊なルートで日本に上陸しましたが、 茨木県から上陸するのは観測史上初めてだそうです。…",
+      "summary": "セキュリティの新着が13件。Amazon Bedrock は、大手 AI 企業の高性能基盤モデルへのエンタープライズ グレードの安全なアクセスを提供するフルマネージド サービスで、生成 AI アプリケーションの構築と拡張を可能にします。…",
       "articles": [
+        {
+          "title": "Amazon Bedrock が IAM の主コスト配分を岩盤マントルエンドポイントに拡大",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-11T20:25:00",
+          "excerpt": "Amazon Bedrock は、大手 AI 企業の高性能基盤モデルへのエンタープライズ グレードの安全なアクセスを提供するフルマネージド サービスで、生成 AI アプリケーションの構築と拡張を可能にします。…"
+        },
         {
           "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』で学ぶ『postgreSQL』のセキュリティ基礎についてその②",
           "link": "https://qiita.com/Veteran/items/2ddf04a11b5f3653340c",
@@ -99,13 +106,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-11T15:06:37",
           "excerpt": "概要 「暗号化されていないAMIが作成されたら、EventBridge + SNSでアラートを飛ばす」仕組みを作りたくて、CloudTrail + EventBridge + Lambda + SNSを作成しました。…"
-        },
-        {
-          "title": "AWS Security Hub CSPM 経由の GuardDuty 通知においてサンプル検出を通知させない EventBridge イベントパターンを試してみた",
-          "link": "https://dev.classmethod.jp/articles/guardduty-exclude-sample-findings-eventbridge-pattern/",
-          "source": "DevelopersIO",
-          "published": "2026-08-11T14:58:07",
-          "excerpt": "Security Hub CSPM 経由で GuardDuty 検出を通知している環境において、EventBridge ルールのイベントパターンを使ってサンプルを通知の対象外とする方法を試したので紹介します。"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "AI が CTF の課題を数分で解決",
+      "link": "https://www.simulationslabs.com/blogs/AI_Is_Solving_CTF_Challenges_in_Minutes",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-11T21:13:44",
+      "excerpt": "記事の URL: https://www.simulationslabs.com/blogs/AI_Is_Solving_CTF_Challenges_in_Minutes コメント URL: https://news.…"
+    },
+    {
+      "title": "ウィスコンシン州、州境を越えた男を群れカメラで追跡、雑草容疑で逮捕",
+      "link": "https://gizmodo.com/wisconsin-cops-tracked-a-man-with-flock-cameras-to-arrest-him-for-weed-2000795424",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-11T20:49:09",
+      "excerpt": "記事の URL: https://gizmodo.…"
+    },
+    {
+      "title": "メタは各州の1兆4000億ドルの訴訟を阻止できない",
+      "link": "https://arstechnica.com/tech-policy/2026/08/meta-cant-stop-states-1-4-trillion-lawsuit-from-going-to-trial/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-08-11T20:27:16",
+      "excerpt": "裁判官らはメタに対し、第230条は訴訟からの免責ではなく防御を規定していると述べている。"
+    },
+    {
       "title": "ウーバーが全株式を売却してロボット企業サーブを驚かせた",
       "link": "https://techcrunch.com/2026/08/11/uber-surprised-robotics-company-serve-by-selling-its-entire-stake/",
       "source": "TechCrunch（英語）",
       "published": "2026-08-11T20:02:02",
       "excerpt": "この売却は、かつては緊密だった両社が事業面で乖離し始めたことを受けて行われた。"
-    },
-    {
-      "title": "The brain may be about to have its Ozempic moment",
-      "link": "https://economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-11T20:01:27",
-      "excerpt": "Article URL: https://economist.…"
-    },
-    {
-      "title": "圧縮は予測です",
-      "link": "https://ngrok.com/blog/compression-is-prediction",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-11T19:49:44",
-      "excerpt": "記事の URL: https://ngrok.com/blog/compression-is-prediction コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Nvidia Nemotron 3.5 ライトニングと Nemo Switchyard",
-      "link": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-11T19:35:52",
-      "excerpt": "記事の URL: https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ コメント URL: https://news.ycombinator.…"
     }
   ]
 }
