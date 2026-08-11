@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-11T12:04:34",
+  "generated_at": "2026-08-11T13:49:13",
   "window_hours": 24,
-  "total": 183,
+  "total": 189,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が32件。はじめに こんにちは、マナティです！最近、AIエージェントにファイル操作やAPI呼び出しなどのツールを持たせて、タスクを自律的にこなしてもらう場面が増えてきました。便利な反面、気になるのが安全性です。…",
+      "summary": "生成AIの新着が32件。Anthropic は、古いモデルに対するウォーターマーク AI 世代のサポートも拡張します。",
       "articles": [
+        {
+          "title": "Anthropicは、AIモデルによって生成されたテキストに透かしを入れると発表",
+          "link": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-11T12:13:47",
+          "excerpt": "Anthropic は、古いモデルに対するウォーターマーク AI 世代のサポートも拡張します。"
+        },
         {
           "title": "【Strands Agents classifier】AIエージェントの危ないツール呼び出しだけ止めたい",
           "link": "https://qiita.com/manaty/items/694668a58aa40e0e44ce",
@@ -29,21 +36,28 @@
           "source": "はてなブックマーク（テクノロジー）",
           "published": "2026-08-11T08:52:44",
           "excerpt": "Anthropicが、AIモデル Claudeが生成する文章に電子透かしを導入する計画を明らかにしました。"
-        },
-        {
-          "title": "[Amazon SageMaker] Qwen3 1.7B をサーバーレスのフルファインチューニング（FFT）で、質問に Markdown 表で答えさせてみました",
-          "link": "https://dev.classmethod.jp/articles/qwen3-1-7b-serverless-fft-markdown-table-sagemaker/",
-          "source": "DevelopersIO",
-          "published": "2026-08-11T08:40:47",
-          "excerpt": "SageMaker AI のサーバーレスモデルカスタマイズがフルファインチューニングに対応したので、前記事と同じデータセットで試してみました。学習スクリプト不要で約2分の学習後、表フォーマット遵守率は100%を達成できました。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。【AWS解説 S3編 #3】ストレージクラスとライフサイクルの違いを整理 S3編 #3（全7回予定） 前回のS3編 #2では、バージョニングを有効にして、上書き前や削除前のオブジェクトを残す仕組みを確認しました。…",
+      "summary": "クラウドの新着が21件。はじめに Auto Scalingの学習が目的。Auto Scaling + ALB + EC2 環境で、メトリクスの値に応じて、自動でスケールイン、アウトされることを確認する。すでにターゲットグループおよびALBは作成した。…",
       "articles": [
+        {
+          "title": "【AWS EC2】Auto Scalingを使ってみる",
+          "link": "https://qiita.com/hcs1996rbl/items/a9c84ca67fa1660febc6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-11T13:22:42",
+          "excerpt": "はじめに Auto Scalingの学習が目的。Auto Scaling + ALB + EC2 環境で、メトリクスの値に応じて、自動でスケールイン、アウトされることを確認する。すでにターゲットグループおよびALBは作成した。…"
+        },
+        {
+          "title": "VPC Service Controls を利用してGoogle Antigravity CLI へアクセス制御を導入する",
+          "link": "https://dev.classmethod.jp/articles/implementing-access-control-for-google-antigravity-cli-using-vpc-service-controls/",
+          "source": "DevelopersIO",
+          "published": "2026-08-11T12:59:58",
+          "excerpt": "Google Antigravity CLIを導入する際に、IPアドレス制限や、特定のユーザのみしか利用させないような設定が求められる場合があります。…"
+        },
         {
           "title": "【AWS解説 S3編 #3】ストレージクラスとライフサイクルの違いを整理",
           "link": "https://qiita.com/suzunari900261/items/1a9b79b82995f39c81cc",
@@ -57,27 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-11T11:25:00",
           "excerpt": "はじめに AWSでManaged Microsoft ADを利用している環境では、DNSの名前解決が少し複雑になります。特に、以下のサービスや機能が組み合わさると、DNSの経路が分かりづらくなります。…"
-        },
-        {
-          "title": "Lambda基礎",
-          "link": "https://qiita.com/Sniimura0623/items/414732c010e0dfe9c41f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-11T09:19:49",
-          "excerpt": "ゴール Lambda + API Gatewayをコンソールで構築 LambdaをPythonで実装 API GatewayでGET/POSTを作る LambdaからDynamoDBを操作 AWS SAMで同じ構成をコード化 Lambdaを…"
-        },
-        {
-          "title": "[Amazon SageMaker] Qwen3 1.7B をサーバーレスのフルファインチューニング（FFT）で、質問に Markdown 表で答えさせてみました",
-          "link": "https://dev.classmethod.jp/articles/qwen3-1-7b-serverless-fft-markdown-table-sagemaker/",
-          "source": "DevelopersIO",
-          "published": "2026-08-11T08:40:47",
-          "excerpt": "SageMaker AI のサーバーレスモデルカスタマイズがフルファインチューニングに対応したので、前記事と同じデータセットで試してみました。学習スクリプト不要で約2分の学習後、表フォーマット遵守率は100%を達成できました。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。監査ログでは予期せぬ訪問者は見つかりませんでしたが、リリースの検証にはまだ更新が必要です",
+      "summary": "セキュリティの新着が9件。監査ログでは予期せぬ訪問者は見つかりませんでしたが、リリースの検証にはまだ更新が必要です",
       "articles": [
         {
           "title": "暗号化されていないコピーが GitHub に到達した後、Mozilla が Firefox 署名キーを取り消す",
@@ -112,8 +112,22 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。はじめに DynamoDB の Zero-ETL 統合で、ターゲットを General Purpose S3 バケット（Apache Iceberg 形式） にする構成をクロスアカウントで構築しました。…",
+      "summary": "データ分析の新着が10件。調査では、北朝鮮人が政府機関だけでなく、民間組織や仮想通貨取引所にも侵入できることが判明した。",
       "articles": [
+        {
+          "title": "北朝鮮の遠隔ITスタッフは米国政府機関で働いていたとFBIが発表",
+          "link": "https://techcrunch.com/2026/08/11/north-korean-remote-it-staffer-worked-for-us-government-agency-says-fbi/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-11T13:40:30",
+          "excerpt": "調査では、北朝鮮人が政府機関だけでなく、民間組織や仮想通貨取引所にも侵入できることが判明した。"
+        },
+        {
+          "title": "[AWS] DynamoDBでチャンク分割時のデータ保持構造を考えてみた",
+          "link": "https://qiita.com/kikuziro/items/f8f892066235e2d3601e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-11T12:51:19",
+          "excerpt": "こちらの記事でエンべディング戦略について考えてみました。前回は１アイテム１チャンクのシンプルなテストデータで検証しました。しかし実運用上では様々なチャンキング戦略でチャンク分割が行われます。…"
+        },
         {
           "title": "【クロスアカウント】DynamoDB Zero-ETL → S3（Iceberg）ターゲットの構築手順と注意点",
           "link": "https://qiita.com/swkky/items/0cf7c6f86560e848def9",
@@ -127,28 +141,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-11T04:04:36",
           "excerpt": "記事の URL: https://blog.mozilla.…"
-        },
-        {
-          "title": "AWSエンジニアのためのGoogle Cloudサービスまとめ その5 データ分析編",
-          "link": "https://qiita.com/motuneko253/items/9adbd707ccbceefcea07",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-11T03:07:44",
-          "excerpt": "0.はじめに 前回はネットワーク・セキュリティ系のサービスをまとめました。今回はその第5弾として、データ分析系のサービスを見ていきます。…"
-        },
-        {
-          "title": "消えた通話をKinesis Video Streamsから救出する ― SQSを留守番電話にする設計",
-          "link": "https://zenn.dev/halhalhal1/articles/kvs-lost-call-salvage",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-11T01:07:22",
-          "excerpt": "Amazon Connect+KVSで通話の録音・文字起こし基盤を作っている。永続化機能を入れる前に受けた通話が2本、サーバー再起動とともに消えた——が、KVSのアーカイブから完全復旧できた。その手順と、二度と起こさないための設計を書く。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。監査ログでは予期せぬ訪問者は見つかりませんでしたが、リリースの検証にはまだ更新が必要です",
+      "summary": "開発ツールの新着が10件。Google Antigravity CLIを導入する際に、IPアドレス制限や、特定のユーザのみしか利用させないような設定が求められる場合があります。…",
       "articles": [
+        {
+          "title": "VPC Service Controls を利用してGoogle Antigravity CLI へアクセス制御を導入する",
+          "link": "https://dev.classmethod.jp/articles/implementing-access-control-for-google-antigravity-cli-using-vpc-service-controls/",
+          "source": "DevelopersIO",
+          "published": "2026-08-11T12:59:58",
+          "excerpt": "Google Antigravity CLIを導入する際に、IPアドレス制限や、特定のユーザのみしか利用させないような設定が求められる場合があります。…"
+        },
+        {
+          "title": "Terraformのインストール方法【Windows】",
+          "link": "https://qiita.com/hkmaru/items/2a5249a3e61634d39d03",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-11T12:39:42",
+          "excerpt": "はじめに AWSなどのインフラをコードで管理できるTerraformを、Windows環境にインストールする方法を紹介します。今回は、Terraform公式サイトから実行ファイルをダウンロードしてインストールします。Terraformとは？…"
+        },
         {
           "title": "暗号化されていないコピーが GitHub に到達した後、Mozilla が Firefox 署名キーを取り消す",
           "link": "https://www.theregister.com/security/2026/08/11/mozilla-revokes-firefox-signing-key-after-unencrypted-copy-lands-in-github/5285908",
@@ -157,57 +171,43 @@
           "excerpt": "監査ログでは予期せぬ訪問者は見つかりませんでしたが、リリースの検証にはまだ更新が必要です"
         },
         {
-          "title": "GitHub Copilotにオープンウェイトモデル「Kimi K3」が正式提供開始",
-          "link": "https://codezine.jp/article/detail/29291",
-          "source": "CodeZine",
-          "published": "2026-08-11T09:00:00",
-          "excerpt": "GitHub Copilotにオープンウェイトモデル「Kimi K3」が正式提供開始"
-        },
-        {
-          "title": "【AWS】CloudFormationでAutoScaling+EC2の構築",
-          "link": "https://qiita.com/nino-san/items/b5930227a8ca470dbc17",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-11T06:05:00",
-          "excerpt": "はじめに RaiseTechというオンラインスクールでAWSを学んでいるインフラエンジニア志望者です。スクールの課題で構築した環境について、自分が疑問に思っていたことを解消するために、新しい環境を構築しました。…"
-        },
-        {
-          "title": "Show HN: Mcptoon – ツール検出トークンを 97% 削減する MCP CLI クライアント",
-          "link": "https://github.com/activeing123/mcptoon",
+          "title": "GitHub Copilot を MitM プロキシの背後に配置して学んだこと",
+          "link": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
           "source": "Hacker News（英語）",
-          "published": "2026-08-11T05:26:58",
-          "excerpt": "記事の URL: https://github.com/activeing123/mcptoon コメント URL: https://news.ycombinator.com/item?…"
+          "published": "2026-08-11T10:40:47",
+          "excerpt": "記事の URL: https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm コメント URL: https://news.ycombinator.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS Managed Microsoft ADとは？ざっくり仕組みを理解する",
-      "link": "https://qiita.com/harukamaru/items/9bec8007cdc5b1f8a4ba",
+      "title": "Amazon API Gatewayで \"+\" が消える!? クエリ文字列のデコード挙動を検証してみた",
+      "link": "https://qiita.com/ozackie/items/75c79c75cc63f08181b6",
       "source": "Qiita AWSタグ",
-      "published": "2026-08-11T11:53:24",
-      "excerpt": "はじめに AWSでWindowsサーバーなどを扱っていると、 Active Directory ドメインコントローラー Managed Microsoft AD AWS Directory Service といった言葉が出てきます。…"
+      "published": "2026-08-11T13:28:11",
+      "excerpt": "🟪はじめに 本記事の構成図や登場する事象は、実際に業務で遭遇した出来事をベースにしていますが、説明用にデフォルメ(簡略化・改変)しています。…"
     },
     {
-      "title": "AIバブルが崩壊しても、米国の電力網の構築は無駄にはならない",
-      "link": "https://www.theregister.com/on-prem/2026/08/11/building-up-the-us-power-grid-wont-be-wasted-even-if-the-ai-bubble-bursts/5285563",
+      "title": "物流大手CEVAへのサイバー攻撃で顧客データが悪者の手に渡る",
+      "link": "https://www.theregister.com/cyber-crime/2026/08/11/cyberattack-on-logistics-giant-ceva-delivers-customer-data-into-the-wrong-hands/5286229",
       "source": "The Register（英語）",
-      "published": "2026-08-11T10:31:00",
-      "excerpt": "より大きなリスクは投資不足である、とコンサルティング業界のマッキンゼーは主張"
+      "published": "2026-08-11T13:24:00",
+      "excerpt": "Valve, Bol, ING, Ajax, and others affected as pwnage disrupts eight European warehouses"
     },
     {
-      "title": "1873 年の恐慌",
-      "link": "https://en.wikipedia.org/wiki/Panic_of_1873",
+      "title": "アマゾンも他の皆と同じルールで行動する時が来た [ビデオ]",
+      "link": "https://www.youtube.com/watch?v=91DoiansHqk",
       "source": "Hacker News（英語）",
-      "published": "2026-08-11T10:26:49",
-      "excerpt": "記事の URL: https://en.wikipedia.org/wiki/Panic_of_1873 コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-11T13:00:34",
+      "excerpt": "記事の URL: https://www.youtube.com/watch?v=91DoiansHqk コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "悪意のある SIM は電話をシャットダウンし、ファイルを盗み、5G を 2G に戻す可能性があります",
-      "link": "https://www.theregister.com/security/2026/08/11/malicious-sims-can-shut-down-phones-steal-files-and-drag-5g-back-to-2g/5285482",
-      "source": "The Register（英語）",
-      "published": "2026-08-11T09:37:00",
-      "excerpt": "研究者らは、標準に準拠した機能が悪用されてモデムのハイジャック、接続のダウングレード、さらにはコードの実行が可能であることを発見しました。"
+      "title": "Spotify、プロフィールに「AI ペルソナ」のラベルを付け、その音楽をおすすめから除外",
+      "link": "https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-11T13:00:00",
+      "excerpt": "Spotify は、AI が生成したアイデンティティを表すアーティスト プロフィールの「AI ペルソナ」ラベルを導入し、デフォルトで編集、アルゴリズム、パーソナライズされたレコメンデーションから彼らの音楽を除外します。"
     }
   ]
 }
