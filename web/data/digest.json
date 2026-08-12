@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-11T23:28:19",
+  "generated_at": "2026-08-12T00:06:48",
   "window_hours": 24,
-  "total": 201,
+  "total": 204,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。Anthropicは、「Claude」が生成するテキストに電子透かしを、対応ファイルにC2PA準拠の署名付きメタデータを付与する方針を発表した。…",
+      "summary": "生成AIの新着が35件。概要 前回はGenUのデフォルト状態で使えるユースケースのバックエンド処理を深掘りしました。今回はデフォルトで有効化されていない機能を実際に有効化してみます。対象は下記の2つです。…",
       "articles": [
+        {
+          "title": "GenU閉域モードを深掘りする～バックエンド・RAG編～",
+          "link": "https://qiita.com/infra365/items/36460a9f2bb5925d7437",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-11T23:33:07",
+          "excerpt": "概要 前回はGenUのデフォルト状態で使えるユースケースのバックエンド処理を深掘りしました。今回はデフォルトで有効化されていない機能を実際に有効化してみます。対象は下記の2つです。…"
+        },
+        {
+          "title": "37兆円のSaaS支出が2030年までに「消える」　Gartnerが予測するエージェントAIの破壊力",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/12/news044.html",
+          "source": "@IT",
+          "published": "2026-08-11T23:00:00",
+          "excerpt": "Gartnerは、企業向けソフトウェアの支出のうち最大2340億ドル（約37兆円）が、エージェント型AIの影響にさらされるとの予測を発表した。従来型SaaSのシート課金モデルが崩れ、ユーザー数の増加と収益の増加が連動しなくなるという。"
+        },
         {
           "title": "Anthropic、「Claude」で生成したテキストに“見えない透かし”　日本を含むグローバルに適用へ",
           "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000497/",
@@ -22,28 +36,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-11T21:56:18",
           "excerpt": "記事の URL: https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "【アップデート】Gemini Enterprise Appで管理者がユーザーデータをCSVファイルにエクスポートできるようになりました",
-          "link": "https://dev.classmethod.jp/articles/gemini-enterprise-app-update-csv-file-export-for-user-data/",
-          "source": "DevelopersIO",
-          "published": "2026-08-11T20:46:05",
-          "excerpt": "Gemini Enterprise Appに管理者がユーザーライセンス情報をCSV形式でエクスポートする新機能が追加されました。オフラインでの分析やレポートの自動化作成に応用することができます。"
-        },
-        {
-          "title": "Amazon Bedrock が IAM の主コスト配分を岩盤マントルエンドポイントに拡大",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-11T20:25:00",
-          "excerpt": "Amazon Bedrock は、大手 AI 企業の高性能基盤モデルへのエンタープライズ グレードの安全なアクセスを提供するフルマネージド サービスで、生成 AI アプリケーションの構築と拡張を可能にします。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。本日より、Amazon EC2 R8a インスタンスがカナダ (中部) リージョンで利用できるようになりました。これらのインスタンスは、最大周波数 4.…",
+      "summary": "クラウドの新着が20件。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の12日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。https://qiita.…",
       "articles": [
+        {
+          "title": "複数VPCへのDNS設計について考える",
+          "link": "https://qiita.com/kaiton-ton/items/d1457e9c29b4b0045895",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-12T00:01:31",
+          "excerpt": "この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の12日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。https://qiita.…"
+        },
         {
           "title": "Amazon EC2 R8a インスタンスがカナダ (中部) リージョンで利用可能になりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
@@ -64,13 +71,6 @@
           "source": "@IT",
           "published": "2026-08-11T20:00:00",
           "excerpt": "「脱VMware」を巡って現場を回る中で、もう一つ気になる問題が見えてきました。それはオンプレミスインフラを担う人材の不足です。背景には何があるのでしょうか。現場で見えてきた変化から考えてみたいと思います。"
-        },
-        {
-          "title": "連邦当局、Gunra ランサムウェアが既知のバグを悪用して重要インフラを攻撃していると警告",
-          "link": "https://www.theregister.com/cyber-crime/2026/08/11/feds-warn-gunra-ransomware-is-exploiting-known-bugs-to-hit-critical-infrastructure/5286263",
-          "source": "The Register（英語）",
-          "published": "2026-08-11T14:36:00",
-          "excerpt": "新たに採用された RaaS クルーが、フォーティネットの既知の欠陥を介してインターネット接続キットを使用して侵入し、データを盗み、スクランブルする"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。記事の URL: https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026 コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が13件。記事の URL: https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026 コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
           "title": "pg_clickhouse v0.10: サブクエリ プッシュダウンと 1000 倍高速な TPC-H クエリ",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Qwenチーム、新モデル「Qwen3.8-Max」を発表",
-      "link": "https://codezine.jp/article/detail/29270",
-      "source": "CodeZine",
-      "published": "2026-08-11T23:00:00",
-      "excerpt": "Qwenチーム、新モデル「Qwen3.8-Max」を発表"
-    },
-    {
-      "title": "デジタル投資の67％がAIへ、ROIが見えない組織が過半",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/12/news032.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-08-11T22:00:00",
-      "excerpt": "Gartnerの調査で、サプライチェーン部門のデジタル投資の67％がAIに向かう一方、その投資利益率を把握できていない責任者が過半に上ることが分かった。AIの成果を測れる組織と測れない組織を分けるものは何か。"
-    },
-    {
-      "title": "「食事中に水を飲むと食べ過ぎない」、実はウソ？　食べる量を左右していたのは…… 米研究者が検証",
-      "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000471/",
+      "title": "LINE着せかえ「アイコンがデフォルトに戻る」問題、対応完了時期示さず　クリエイターズは「審査に時間がかかっている」",
+      "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000499/",
       "source": "ITmedia NEWS",
-      "published": "2026-08-11T22:00:00",
-      "excerpt": "米コーネル大学と米ペンシルベニア州立大学に所属する研究者らが学術誌「Appetite」に発表した論文「Water intake, switching between bites and sips, and drinking behavior…"
+      "published": "2026-08-11T23:55:40",
+      "excerpt": "個人クリエイターなどによる「クリエイターズ着せかえ」は「審査に時間がかかっている」状況という。"
     },
     {
-      "title": "フィービー・ゲイツとソフィア・キアニは、フィアが「クッキーの詰め物」をしていることを何ヶ月も前から知っていたと報じられている",
-      "link": "https://techcrunch.com/2026/08/11/phoebe-gates-and-sophia-kianni-reportedly-knew-phia-was-cookie-stuffing-for-months/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-11T21:39:58",
-      "excerpt": "フィービー・ゲイツ氏とソフィア・キアニ氏が共同設立したショッピングスタートアップのフィアが、商慣行疑惑で再び非難を浴びている。"
+      "title": "米国、2,000人以上のビデオゲーマーを航空管制官として採用",
+      "link": "https://www.cbsnews.com/news/video-gamer-air-traffic-controllers-faa-recruitment-sean-duffy/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-11T23:26:17",
+      "excerpt": "記事の URL: https://www.cbsnews.…"
+    },
+    {
+      "title": "「孤独のグルメ」ムック、2ページ抜けていた……扶桑社謝罪、該当話を無料公開",
+      "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000498/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-11T23:16:33",
+      "excerpt": "編集・印刷工程上の不備により、2ページ分の抜けがあることが判明した。"
+    },
+    {
+      "title": "「AI生成コンテンツ、実は嫌いではない」　だが「客の半分が去る」本当の理由",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/12/news040.html",
+      "source": "@IT",
+      "published": "2026-08-11T23:00:00",
+      "excerpt": "TWOSTONE＆SonsがBtoBの比較検討・発注担当者を対象とした意識調査結果を発表した。約9割がコンテンツに「AIっぽさ」を感じた経験があり、その後問い合わせや資料請求を取りやめたと回答する割合も示された。"
     }
   ]
 }
