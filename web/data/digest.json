@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-08-12T09:36:30",
+  "generated_at": "2026-08-12T10:50:24",
   "window_hours": 24,
-  "total": 235,
+  "total": 243,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が46件。NVIDIAは2026年8月11日、長時間稼働するAIエージェント向けのオープンモデル「Nemotron 3.…",
+      "summary": "生成AIの新着が50件。AWS AgentCore RuntimeとMCPプロトコルを組み合わせ、複数のLLMから共有できるCode Interpreterサーバーをゼロから構築する方法を紹介します。…",
       "articles": [
+        {
+          "title": "MCPを繋ぐだけで使えるCode Interpreter環境をAgentCore Runtimeで作ってみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-code-interpreter-mcp-server/",
+          "source": "DevelopersIO",
+          "published": "2026-08-12T10:23:10",
+          "excerpt": "AWS AgentCore RuntimeとMCPプロトコルを組み合わせ、複数のLLMから共有できるCode Interpreterサーバーをゼロから構築する方法を紹介します。…"
+        },
+        {
+          "title": "Tim Gowers: LLM はどのような数学が得意ですか?",
+          "link": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-12T10:04:25",
+          "excerpt": "記事の URL: https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/ コメント URL: https://news.…"
+        },
+        {
+          "title": "【AWS Blocks】Agentを使ってStrandsAgentsのAIエージェントを動かしてみよう (Ollamaでローカル実行まで)",
+          "link": "https://qiita.com/Takenoko4594/items/559cc735ee56809e7056",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-12T09:38:10",
+          "excerpt": "はじめに 今回は、AWS Blocksの「Agent」をローカルで試してみました。Agentを使用することで簡易なAIエージェントを構築できます。…"
+        },
         {
           "title": "NVIDIA、長時間稼働するAIエージェント向け「Nemotron 3.5 Lightning」とモデルルーター「NeMo Switchyard」を公開",
           "link": "https://gihyo.jp/article/2026/08/nvidia-nemotron-3.5-lightning?utm_source=feed",
           "source": "gihyo.jp 開発",
           "published": "2026-08-12T07:59:00",
           "excerpt": "NVIDIAは2026年8月11日、長時間稼働するAIエージェント向けのオープンモデル「Nemotron 3.…"
-        },
-        {
-          "title": "HN: Discovered Materials (YC P26) を開始 – 新しい材料を発見する AI エージェント",
-          "link": "https://discoveredmaterials.com/research/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-12T07:51:20",
-          "excerpt": "HN 様、Discovered Materials ( https://discoveredmaterials.com/ ) の Advaith と Akash です。…"
-        },
-        {
-          "title": "【Security Hub修復手順】[SageMaker.16] SageMaker モデルはプライマリコンテナの VPC のプライベートレジストリを使用する必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-sagemaker-16/",
-          "source": "DevelopersIO",
-          "published": "2026-08-12T07:40:27",
-          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
-        },
-        {
-          "title": "Motorway が Strands と AgentCore で構築した AI エージェント評価パイプラインの紹介",
-          "link": "https://aws.amazon.com/jp/blogs/news/evaluating-ai-agents-a-production-blueprint-with-strands-and-agentcore/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-12T07:18:20",
-          "excerpt": "AI エージェントは流暢に答えますが、それが確実に正しく動くとどう証明すればよいのでしょうか。本記事では、英国の中古車マーケットプレイス Motorway と AWS が構築した、エンドツーエンドのエージェント評価パイプラインを紹介します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。atama plusのtakeiです。先日Data Studioで運用していた社内向けダッシュボードを、Streamlitに移行しました。…",
+      "summary": "クラウドの新着が21件。atama plusのtakeiです。先日Data Studioで運用していた社内向けダッシュボードを、Streamlitに移行しました。…",
       "articles": [
         {
           "title": "ビジネスロジックをクエリ側に寄せていたら、BIツールの移行が楽だった | atama plus techblogのフィード",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が10件。atama plusのtakeiです。先日Data Studioで運用していた社内向けダッシュボードを、Streamlitに移行しました。…",
+      "summary": "データ分析の新着が11件。はじめに 2026年8月、 Amazon DynamoDBのリアルタイムベクトル検索 がGA(一般提供)されました。全ての商用リージョンとGovCloud(US)で利用できます。…",
       "articles": [
+        {
+          "title": "AWSのベクトル検索を2層で理解する — DynamoDBだけKnowledge Basesから使えない",
+          "link": "https://qiita.com/jeayoon/items/6dbea5cdbc23e7814bb7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-12T09:46:23",
+          "excerpt": "はじめに 2026年8月、 Amazon DynamoDBのリアルタイムベクトル検索 がGA(一般提供)されました。全ての商用リージョンとGovCloud(US)で利用できます。…"
+        },
         {
           "title": "ビジネスロジックをクエリ側に寄せていたら、BIツールの移行が楽だった | atama plus techblogのフィード",
           "link": "https://zenn.dev/atamaplus/articles/0223ce57a7a7d3",
@@ -134,13 +141,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-12T04:43:12",
           "excerpt": "はじめに 本記事の企業分類は、公開情報をもとにした筆者独自の基準によるもので、各社の公式見解ではありません（組織見解に関する免責は記事末尾に記載）。2026 年、AWS の全認定資格を取得し、いわゆる AWS 全冠 になりました。…"
-        },
-        {
-          "title": "Amazon OpenSearch Service が GPU アクセラレーションで 10 億規模のベクトルインデックスを構築する仕組み",
-          "link": "https://aws.amazon.com/jp/blogs/news/how-gpu-acceleration-builds-billion-scale-vector-indexes-on-amazon-opensearch-service/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-12T02:27:38",
-          "excerpt": "GPU アクセラレーションによるベクトルインデックス作成が Amazon OpenSearch Service と OpenSearch Serverless で利用できるようになり、10 億規模のベクトルインデックスを数日ではなく数時間で…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "オランダの鉄道路線図シミュレーター",
-      "link": "https://spoorkaart.zaza.dev",
+      "title": "【Amazon Connect】フローログをトラブルシュートに活用してみた (初心者向け)",
+      "link": "https://dev.classmethod.jp/articles/amazon-connect-flow-logs-enable-troubleshooting/",
+      "source": "DevelopersIO",
+      "published": "2026-08-12T10:10:04",
+      "excerpt": "Amazon Connectのフローログ設定方法からトラブルシュートでの活用例までご紹介します。"
+    },
+    {
+      "title": "GenU閉域モードを深掘りする～バージョンアップ編～",
+      "link": "https://qiita.com/infra365/items/686f6c8aa87af7b11475",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-12T10:06:35",
+      "excerpt": "概要 ここまでの記事では、オンプレミスからの名前解決、閉域モードのネットワーク・フロントエンド・認証、バックエンドの処理、そしてデフォルトで無効になっている機能の有効化と、GenUの各機能を深掘りしてきました。…"
+    },
+    {
+      "title": "HN を表示: Woxi - オープンソース Mathematica / Wolfram 言語の再実装",
+      "link": "https://woxi.ad-si.com",
       "source": "Hacker News（英語）",
-      "published": "2026-08-12T09:09:21",
-      "excerpt": "記事の URL: https://spoorkaart.zaza.dev コメント URL: https://news.ycombinator.com/item?id=49269641 ポイント: 6 コメント数: 0"
+      "published": "2026-08-12T10:06:29",
+      "excerpt": "Woxi は、Rust で書かれた Wolfram 言語のインタプリタです。…"
     },
     {
-      "title": "Transit Gatewayでポリシーベースルーティングが使用可能になりました！ | サーバーワークスエンジニアブログ",
-      "link": "https://blog.serverworks.co.jp/2026/08/12/180000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-12T09:00:00",
-      "excerpt": "クロスインダストリー第1本部の京極です。皆さん！AWS Transit GatewayとAWS Network Firewallは使っていますか？…"
-    },
-    {
-      "title": "MIRU2026にシルバースポンサーとして参加してきました！ | エムスリーテックブログ",
-      "link": "https://www.m3tech.blog/entry/miru2026",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-12T09:00:00",
-      "excerpt": "こんにちは。AI・機械学習チームの髙橋です。この度エムスリーは2026年8月3日から4日間、出島メッセ長崎で開催された画像の認識・理解シンポジウム MIRU2026 にシルバースポンサーとして協賛させていただきました！…"
-    },
-    {
-      "title": "Cloudflare、従業員ごとのAI利用状況を可視化するサービスを発表",
-      "link": "https://codezine.jp/article/detail/29293",
-      "source": "CodeZine",
-      "published": "2026-08-12T09:00:00",
-      "excerpt": "Cloudflare、従業員ごとのAI利用状況を可視化するサービスを発表"
+      "title": "Reservoir は、人々と送電網が実際に欲しがる給湯器を製造するために 800 万ドルを調達",
+      "link": "https://techcrunch.com/2026/08/12/reservoir-raises-8m-to-make-water-heaters-that-people-and-the-grid-will-actually-want/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-12T10:00:00",
+      "excerpt": "Reservoir は、お湯の需要を予測し、エネルギーを蓄え、家全体の配管漏れを検出できる超効率的な給湯器を構築しました。"
     }
   ]
 }
