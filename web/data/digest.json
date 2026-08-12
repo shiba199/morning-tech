@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-12T19:33:11",
+  "generated_at": "2026-08-12T20:31:12",
   "window_hours": 24,
-  "total": 262,
+  "total": 256,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が59件。📺 この記事は YouTube チャンネル きなこもっちーのテック深掘り の動画解説記事です。…",
+      "summary": "生成AIの新着が58件。📺 この記事は YouTube チャンネル きなこもっちーのテック深掘り の動画解説記事です。…",
       "articles": [
         {
           "title": "AIエージェントの待機時間が0円に｜AWS×Claudeの選び方と400msの壁",
@@ -24,26 +24,33 @@
           "excerpt": "Thrive Holdingsは、SoftBank、D1 Capital Partners、Alitmeter Capitalなどの投資家から120億ドルの評価額で20億ドルの新たな資金を調達した。"
         },
         {
+          "title": "Amazon Connect 顧客は、キューに入れられたエージェントファースト コールバックの手動割り当てをサポートします",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-agent-callbacks/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-12T17:15:00",
+          "excerpt": "Amazon Connect Customer では、エージェントがキューに入れられたエージェントファースト コールバックをメール、タスク、チャットとともに表示し、自己割り当てできるようになりました。…"
+        },
+        {
           "title": "[Amazon Bedrock] Nova 2 Lite で画像内の認証情報を一括マスクするツールを作り、判定の一部をコードに移してみました",
           "link": "https://dev.classmethod.jp/articles/bedrock-nova-2-lite-image-credential-masking/",
           "source": "DevelopersIO",
           "published": "2026-08-12T15:33:17",
           "excerpt": "スクリーンショットに写り込んだアカウントID やアクセスキーなどの認証情報を自動でマスクするローカルCLIツールを実装しました。…"
-        },
-        {
-          "title": "Nemotron 3.5 Lightning を Hermes Agent で動かして実効コストを測ってみた",
-          "link": "https://dev.classmethod.jp/articles/reona-nemotron-lightning-hermes-agent-cost/",
-          "source": "DevelopersIO",
-          "published": "2026-08-12T14:57:17",
-          "excerpt": "NVIDIAの新モデル「Nemotron 3.5 Lightning」をFireworks AI経由でHermes Agentに接続し、実装コストを測定しました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。はじめに Global Accelerator (GA) を利用する構成に、AWS Network Firewall (NWFW) による検査を組み込む機会がありました。…",
+      "summary": "クラウドの新着が22件。Amazon Elastic Kubernetes Service (Amazon EKS) は、スケジューラー、コントローラー マネージャー、API サーバーなどの Kubernetes コントロール プレーン コンポーネントのパラメータ…",
       "articles": [
+        {
+          "title": "Amazon EKS が高度な Kubernetes コントロールプレーン設定パラメータをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-12T18:00:00",
+          "excerpt": "Amazon Elastic Kubernetes Service (Amazon EKS) は、スケジューラー、コントローラー マネージャー、API サーバーなどの Kubernetes コントロール プレーン コンポーネントのパラメータ…"
+        },
         {
           "title": "GA → ALB → EC2 に Network Firewall を追加するときにハマった 2 つの制約",
           "link": "https://zenn.dev/kai_esaki/articles/19773e67f733d0",
@@ -64,20 +71,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-12T11:55:52",
           "excerpt": "おはようございます、YASUです。先日「tfstateはTerraformの記憶そのもの」という話を書きましたが、記事の最後で「実務ではこのファイルをS3などの共有ストレージに置くのが基本」と少し触れたまま終わっていました。…"
-        },
-        {
-          "title": "GA → ALB → EC2 に Network Firewall を追加するときにハマった 2 つの制約",
-          "link": "https://qiita.com/kai-esaki/items/36988c6eef3624d05994",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-12T11:50:49",
-          "excerpt": "はじめに Global Accelerator (GA) を利用する構成に、AWS Network Firewall (NWFW) による検査を組み込む機会がありました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が20件。スクリーンショットに写り込んだアカウントID やアクセスキーなどの認証情報を自動でマスクするローカルCLIツールを実装しました。…",
+      "summary": "セキュリティの新着が19件。スクリーンショットに写り込んだアカウントID やアクセスキーなどの認証情報を自動でマスクするローカルCLIツールを実装しました。…",
       "articles": [
         {
           "title": "[Amazon Bedrock] Nova 2 Lite で画像内の認証情報を一括マスクするツールを作り、判定の一部をコードに移してみました",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が9件。AIはハイパースケーラーに希少なキットを最初に売りつけたが、企業の買い手はそれをレンタルする以外に選択肢がほとんどないかもしれない",
+      "summary": "データ分析の新着が8件。AIはハイパースケーラーに希少なキットを最初に売りつけたが、企業の買い手はそれをレンタルする以外に選択肢がほとんどないかもしれない",
       "articles": [
         {
           "title": "Big Cloud はエンタープライズ ハードウェア市場を追い詰めようとしています",
@@ -182,6 +182,13 @@
   ],
   "uncategorized": [
     {
+      "title": "Amazon は、オプトアウトしない限り、デフォルトで Twitch ストリーマーのコンテンツをトレーニングします",
+      "link": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-12T20:10:40",
+      "excerpt": "「これがオプトインだったら、誰もオプトインしないだろう」とTwitchのCPOマイク・ミントン氏はユーザーのフィードバックに応えたライブストリームで語った。「それが正直な答えです。」…"
+    },
+    {
       "title": "グラブハブの2,400万ドルのFTC和解金がついにダイナーとドライバーに届く",
       "link": "https://techcrunch.com/2026/08/12/grubhubs-24m-ftc-settlement-is-finally-reaching-diners-and-drivers/",
       "source": "TechCrunch（英語）",
@@ -201,13 +208,6 @@
       "source": "TechCrunch（英語）",
       "published": "2026-08-12T18:19:12",
       "excerpt": "コグニションは、260億ドルの評価額で10億ドルを調達したわずか数カ月後に、新たなメガラウンドの調達を検討している可能性がある。"
-    },
-    {
-      "title": "成功の鍵は、運や努力ではありません",
-      "link": "https://julienreszka.com/blog/your-key-to-success-isn-t-more-luck-or-hard-work/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-12T18:17:03",
-      "excerpt": "記事の URL: https://julienreszka.com/blog/your-key-to-success-isn-t-more-luck-or-hard-work/ コメント URL: https://news.…"
     }
   ]
 }
