@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T00:06:48",
+  "generated_at": "2026-08-12T03:01:53",
   "window_hours": 24,
   "total": 204,
   "topic_count": 5,
@@ -7,43 +7,57 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。概要 前回はGenUのデフォルト状態で使えるユースケースのバックエンド処理を深掘りしました。今回はデフォルトで有効化されていない機能を実際に有効化してみます。対象は下記の2つです。…",
+      "summary": "生成AIの新着が36件。Claude Codeのトークン認証で、OpenTelemetryのテレメトリから利用者を特定できるかを検証しました。`/login`の実績有無によって、テレメトリに記録される情報が大きく異なる点が分かります。",
       "articles": [
         {
-          "title": "GenU閉域モードを深掘りする～バックエンド・RAG編～",
-          "link": "https://qiita.com/infra365/items/36460a9f2bb5925d7437",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-11T23:33:07",
-          "excerpt": "概要 前回はGenUのデフォルト状態で使えるユースケースのバックエンド処理を深掘りしました。今回はデフォルトで有効化されていない機能を実際に有効化してみます。対象は下記の2つです。…"
+          "title": "Claude Codeで通常ログインとsetup-token認証のOTelテレメトリを比較してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-telemetry-login-token/",
+          "source": "DevelopersIO",
+          "published": "2026-08-12T02:40:42",
+          "excerpt": "Claude Codeのトークン認証で、OpenTelemetryのテレメトリから利用者を特定できるかを検証しました。`/login`の実績有無によって、テレメトリに記録される情報が大きく異なる点が分かります。"
         },
         {
-          "title": "37兆円のSaaS支出が2030年までに「消える」　Gartnerが予測するエージェントAIの破壊力",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/12/news044.html",
-          "source": "@IT",
-          "published": "2026-08-11T23:00:00",
-          "excerpt": "Gartnerは、企業向けソフトウェアの支出のうち最大2340億ドル（約37兆円）が、エージェント型AIの影響にさらされるとの予測を発表した。従来型SaaSのシート課金モデルが崩れ、ユーザー数の増加と収益の増加が連動しなくなるという。"
+          "title": "Claude にコードレビューを任せてみて気づいたこと | asoview! Tech Blog",
+          "link": "https://tech.asoview.co.jp/entry/2026/08/12/113238",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-12T02:32:38",
+          "excerpt": "アソビューでエンジニアリングマネージャーをやっている竹内です。今回は、コードレビューを Claude Code で自動化してみた体験について書こうと思います。…"
         },
         {
-          "title": "Anthropic、「Claude」で生成したテキストに“見えない透かし”　日本を含むグローバルに適用へ",
-          "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000497/",
+          "title": "[アップデート] AWS Glue コンソールから Amazon SageMaker Unified Studio にワンクリックでアクセスできるようになったので試してみました",
+          "link": "https://dev.classmethod.jp/articles/20260811-smus-glue-access/",
+          "source": "DevelopersIO",
+          "published": "2026-08-12T01:59:11",
+          "excerpt": "AWS Glue コンソールから Amazon SageMaker Unified Studio がワンクリックで開けるようになりました。…"
+        },
+        {
+          "title": "GeminiアプリのMAUが10億人を突破　Googleで14番目の大台到達製品に",
+          "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000500/",
           "source": "ITmedia NEWS",
-          "published": "2026-08-11T22:16:45",
-          "excerpt": "Anthropicは、「Claude」が生成するテキストに電子透かしを、対応ファイルにC2PA準拠の署名付きメタデータを付与する方針を発表した。…"
-        },
-        {
-          "title": "WorldClaw Agentic 3D オープンワールドを大規模に生成",
-          "link": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-11T21:56:18",
-          "excerpt": "記事の URL: https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/ コメント URL: https://news.ycombinator.com/item?…"
+          "published": "2026-08-12T00:21:15",
+          "excerpt": "GoogleのGeminiアプリの月間アクティブユーザー数（MAU）が10億人を突破した。Google検索やWorkspaceなどの組み込み機能を除いたアプリ単体の数字で、同社として14番目の10億ユーザー到達製品となる。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の12日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。https://qiita.…",
+      "summary": "クラウドの新着が21件。Aurora Auto Scaling でレプリカが増減した際、EventBridge にはどのようなイベントが届くのでしょうか。…",
       "articles": [
+        {
+          "title": "Aurora Auto Scaling でレプリカが増減したときの EventBridge イベントを実機で確認してみた",
+          "link": "https://dev.classmethod.jp/articles/yutaka-memo-rds-events-autora-auto-scaling-eventbridge/",
+          "source": "DevelopersIO",
+          "published": "2026-08-12T01:45:49",
+          "excerpt": "Aurora Auto Scaling でレプリカが増減した際、EventBridge にはどのようなイベントが届くのでしょうか。…"
+        },
+        {
+          "title": "複数VPCへのDNS設計について考える",
+          "link": "https://qiita.com/kaiton-ton/items/6100ff6abe85c698ffb0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-12T00:33:04",
+          "excerpt": "この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の12日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。https://qiita.…"
+        },
         {
           "title": "複数VPCへのDNS設計について考える",
           "link": "https://qiita.com/kaiton-ton/items/d1457e9c29b4b0045895",
@@ -57,28 +71,28 @@
           "source": "AWS What's New（英語）",
           "published": "2026-08-11T22:03:00",
           "excerpt": "本日より、Amazon EC2 R8a インスタンスがカナダ (中部) リージョンで利用できるようになりました。これらのインスタンスは、最大周波数 4.…"
-        },
-        {
-          "title": "[アップデート] Amazon RDS でスナップショットリストア時のストレージ初期化進捗が確認できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/amazon-rds-storage-volume-initialization-visibility/",
-          "source": "DevelopersIO",
-          "published": "2026-08-11T20:55:19",
-          "excerpt": "Amazon RDS のスナップショットリストアで、ストレージボリューム初期化の進捗がリアルタイムで確認できるようになりました。新しい `StorageOperationStatus` フィールドを使って、実際に動作を確認してみます。"
-        },
-        {
-          "title": "脱VMwareがあぶり出した「オンプレ人材不足」なぜ深刻化？　現場で見えた“笑えない実態”",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/12/news010.html",
-          "source": "@IT",
-          "published": "2026-08-11T20:00:00",
-          "excerpt": "「脱VMware」を巡って現場を回る中で、もう一つ気になる問題が見えてきました。それはオンプレミスインフラを担う人材の不足です。背景には何があるのでしょうか。現場で見えてきた変化から考えてみたいと思います。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。Amazon Bedrock は、大手 AI 企業の高性能基盤モデルへのエンタープライズ グレードの安全なアクセスを提供するフルマネージド サービスで、生成 AI アプリケーションの構築と拡張を可能にします。…",
+      "summary": "セキュリティの新着が11件。Claude Codeのトークン認証で、OpenTelemetryのテレメトリから利用者を特定できるかを検証しました。`/login`の実績有無によって、テレメトリに記録される情報が大きく異なる点が分かります。",
       "articles": [
+        {
+          "title": "Claude Codeで通常ログインとsetup-token認証のOTelテレメトリを比較してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-telemetry-login-token/",
+          "source": "DevelopersIO",
+          "published": "2026-08-12T02:40:42",
+          "excerpt": "Claude Codeのトークン認証で、OpenTelemetryのテレメトリから利用者を特定できるかを検証しました。`/login`の実績有無によって、テレメトリに記録される情報が大きく異なる点が分かります。"
+        },
+        {
+          "title": "Node.js 26.7.0が公開、暗号化やパフォーマンス関連の機能を強化",
+          "link": "https://codezine.jp/article/detail/29292",
+          "source": "CodeZine",
+          "published": "2026-08-12T01:00:00",
+          "excerpt": "Node.js 26.7.0が公開、暗号化やパフォーマンス関連の機能を強化"
+        },
         {
           "title": "Amazon Bedrock が IAM の主コスト配分を岩盤マントルエンドポイントに拡大",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
@@ -92,28 +106,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-11T18:53:11",
           "excerpt": "皆さんこんばんは！更新が久々となり申し訳ございません。ポンコツエンジニアのGONです。台風15号が来ていますが皆さん大丈夫でしょうか。今回の台風はかなり特殊なルートで日本に上陸しましたが、 茨木県から上陸するのは観測史上初めてだそうです。…"
-        },
-        {
-          "title": "2 つの戦争とワールドカップがパブリッシャーに対する壮大な DDoS 攻撃につながる",
-          "link": "https://www.theregister.com/security/2026/08/11/two-wars-and-a-world-cup-lead-to-epic-ddos-attacks-on-publishers/5286278",
-          "source": "The Register（英語）",
-          "published": "2026-08-11T15:33:00",
-          "excerpt": "ウクライナ、イラン、サッカーが地政学的に動機付けられた DDoS 攻撃を誘発、1 Tbps のトラフィック渋滞で 519% 増加"
-        },
-        {
-          "title": "AWS AMIの暗号化チェック&アラートを自動化してみた",
-          "link": "https://zenn.dev/nagatoshi/articles/ami-check-snapshot-encryption",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-11T15:06:37",
-          "excerpt": "概要 「暗号化されていないAMIが作成されたら、EventBridge + SNSでアラートを飛ばす」仕組みを作りたくて、CloudTrail + EventBridge + Lambda + SNSを作成しました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が9件。FBIは新たな警告の中で、サイバー犯罪者が恐喝キャンペーンで個人的な写真や親密な写真を盗もうとする目的で成人と未成年者をターゲットにしていると述べた。",
+      "summary": "データ分析の新着が10件。GPU アクセラレーションによるベクトルインデックス作成が Amazon OpenSearch Service と OpenSearch Serverless で利用できるようになり、10 億規模のベクトルインデックスを数日ではなく数時間で…",
       "articles": [
+        {
+          "title": "Amazon OpenSearch Service が GPU アクセラレーションで 10 億規模のベクトルインデックスを構築する仕組み",
+          "link": "https://aws.amazon.com/jp/blogs/news/how-gpu-acceleration-builds-billion-scale-vector-indexes-on-amazon-opensearch-service/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-12T02:27:38",
+          "excerpt": "GPU アクセラレーションによるベクトルインデックス作成が Amazon OpenSearch Service と OpenSearch Serverless で利用できるようになり、10 億規模のベクトルインデックスを数日ではなく数時間で…"
+        },
+        {
+          "title": "[アップデート] AWS Glue コンソールから Amazon SageMaker Unified Studio にワンクリックでアクセスできるようになったので試してみました",
+          "link": "https://dev.classmethod.jp/articles/20260811-smus-glue-access/",
+          "source": "DevelopersIO",
+          "published": "2026-08-12T01:59:11",
+          "excerpt": "AWS Glue コンソールから Amazon SageMaker Unified Studio がワンクリックで開けるようになりました。…"
+        },
         {
           "title": "FBI、サイバー犯罪者が被害者のオンラインアカウントをハッキングして親密な写真を盗んでいると発表",
           "link": "https://techcrunch.com/2026/08/11/fbi-says-cybercriminals-are-hacking-into-victims-online-accounts-to-steal-their-intimate-pictures/",
@@ -127,27 +141,13 @@
           "source": "AWS What's New（英語）",
           "published": "2026-08-11T14:57:00",
           "excerpt": "AWS Glue は、Amazon SageMaker Unified Studio への直接アクセスを提供するようになりました。…"
-        },
-        {
-          "title": "北朝鮮の遠隔ITスタッフは米国政府機関で働いていたとFBIが発表",
-          "link": "https://techcrunch.com/2026/08/11/north-korean-remote-it-staffer-worked-for-us-government-agency-says-fbi/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-11T13:40:30",
-          "excerpt": "調査では、北朝鮮人が政府機関だけでなく、民間組織や仮想通貨取引所にも侵入できることが判明した。"
-        },
-        {
-          "title": "DynamoDBのベクトル検索で簡単にRAGができるようになったぞ！",
-          "link": "https://zenn.dev/tosuri13/articles/567f25a4f3e9b5",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-11T13:21:24",
-          "excerpt": "こんにちは👋 2026年8月5日、AWSからDynamoDBのリアルタイムベクトル検索が一般提供(GA)されました。https://aws.amazon.…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。記事の URL: https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026 コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が12件。記事の URL: https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026 コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
           "title": "pg_clickhouse v0.10: サブクエリ プッシュダウンと 1000 倍高速な TPC-H クエリ",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "LINE着せかえ「アイコンがデフォルトに戻る」問題、対応完了時期示さず　クリエイターズは「審査に時間がかかっている」",
-      "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000499/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-11T23:55:40",
-      "excerpt": "個人クリエイターなどによる「クリエイターズ着せかえ」は「審査に時間がかかっている」状況という。"
+      "title": "イベントトラッキングの信頼性を支えるリトライ戦略 | エムスリーテックブログ",
+      "link": "https://www.m3tech.blog/entry/event-tracking-with-retry",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-12T02:30:00",
+      "excerpt": "【Unit4 ブログリレー5日目】 こんにちは、Unit4のキムです。この記事はUnit4チーム (m3.com開発チーム) メンバーにより投稿されるブログリレー5日目の記事です。本記事では、m3.…"
     },
     {
-      "title": "米国、2,000人以上のビデオゲーマーを航空管制官として採用",
-      "link": "https://www.cbsnews.com/news/video-gamer-air-traffic-controllers-faa-recruitment-sean-duffy/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-11T23:26:17",
-      "excerpt": "記事の URL: https://www.cbsnews.…"
+      "title": "2026/3/11 データマネジメント2026─AI Ready Dataに舵を切れ─ 「AI Readyの正体はデータマネジメントだ メダリオン2.0の最前線」 | freee Developers Hub",
+      "link": "https://developers.freee.co.jp/entry/ai-ready-data-management-2026",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-12T02:15:00",
+      "excerpt": "2026/3/11に開催された「データマネジメント2026─AI Ready Dataに舵を切れ─」にて、CDO(Chief Data Officer)の城谷 信一郎が登壇した際の資料です。speakerdeck.com…"
     },
     {
-      "title": "「孤独のグルメ」ムック、2ページ抜けていた……扶桑社謝罪、該当話を無料公開",
-      "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000498/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-11T23:16:33",
-      "excerpt": "編集・印刷工程上の不備により、2ページ分の抜けがあることが判明した。"
+      "title": "大規模化したプロダクトでパフォーマンス観点のチェックスキルを作りAI開発ワークフローの自己修正ループに組み込む | GVATECHブログのフィード",
+      "link": "https://zenn.dev/gvatech_blog/articles/97058201a05d7d",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-12T02:10:45",
+      "excerpt": "背景現在自分が所属しているチームではAI開発のワークフローとして、Orchestrator が計画フェーズ（Planner ⇄ Evaluator）と実装フェーズ（Generator ⇄ Evaluator）を制御する仕組みを構築(この仕組…"
     },
     {
-      "title": "「AI生成コンテンツ、実は嫌いではない」　だが「客の半分が去る」本当の理由",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/12/news040.html",
-      "source": "@IT",
-      "published": "2026-08-11T23:00:00",
-      "excerpt": "TWOSTONE＆SonsがBtoBの比較検討・発注担当者を対象とした意識調査結果を発表した。約9割がコンテンツに「AIっぽさ」を感じた経験があり、その後問い合わせや資料請求を取りやめたと回答する割合も示された。"
+      "title": "2026/08/12 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "link": "https://qiita.com/ennagara128/items/37703cd40e452fcc48bf",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-12T02:02:23",
+      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
     }
   ]
 }
