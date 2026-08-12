@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-08-12T03:01:53",
+  "generated_at": "2026-08-12T05:11:20",
   "window_hours": 24,
-  "total": 204,
+  "total": 219,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。Claude Codeのトークン認証で、OpenTelemetryのテレメトリから利用者を特定できるかを検証しました。`/login`の実績有無によって、テレメトリに記録される情報が大きく異なる点が分かります。",
+      "summary": "生成AIの新着が38件。Zscaler Internet Access（ZIA）による生成AI制御の全体像を解説。…",
       "articles": [
         {
-          "title": "Claude Codeで通常ログインとsetup-token認証のOTelテレメトリを比較してみた",
-          "link": "https://dev.classmethod.jp/articles/claude-code-telemetry-login-token/",
-          "source": "DevelopersIO",
-          "published": "2026-08-12T02:40:42",
-          "excerpt": "Claude Codeのトークン認証で、OpenTelemetryのテレメトリから利用者を特定できるかを検証しました。`/login`の実績有無によって、テレメトリに記録される情報が大きく異なる点が分かります。"
-        },
-        {
-          "title": "Claude にコードレビューを任せてみて気づいたこと | asoview! Tech Blog",
-          "link": "https://tech.asoview.co.jp/entry/2026/08/12/113238",
+          "title": "【Zscaler】ZIAの生成AI制御とは？可視化・アクセス制御・DLPを解説 | APC 技術ブログ",
+          "link": "https://techblog.ap-com.co.jp/entry/zia-genai-control-overview",
           "source": "企業テックブログまとめ",
-          "published": "2026-08-12T02:32:38",
-          "excerpt": "アソビューでエンジニアリングマネージャーをやっている竹内です。今回は、コードレビューを Claude Code で自動化してみた体験について書こうと思います。…"
+          "published": "2026-08-12T04:20:39",
+          "excerpt": "Zscaler Internet Access（ZIA）による生成AI制御の全体像を解説。…"
         },
         {
-          "title": "[アップデート] AWS Glue コンソールから Amazon SageMaker Unified Studio にワンクリックでアクセスできるようになったので試してみました",
-          "link": "https://dev.classmethod.jp/articles/20260811-smus-glue-access/",
-          "source": "DevelopersIO",
-          "published": "2026-08-12T01:59:11",
-          "excerpt": "AWS Glue コンソールから Amazon SageMaker Unified Studio がワンクリックで開けるようになりました。…"
+          "title": "タップルのバックエンドで、100行のガードコードが教えてくれた更新イベント設計の誤り | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
+          "link": "https://developers.cyberagent.co.jp/blog/archives/65214/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-12T04:03:00",
+          "excerpt": "はじめに はじめまして。東京海洋大学 海洋工学部2年の恩田梨那(@cs_riri)と申します。今回 ...…"
         },
         {
-          "title": "GeminiアプリのMAUが10億人を突破　Googleで14番目の大台到達製品に",
-          "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000500/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-12T00:21:15",
-          "excerpt": "GoogleのGeminiアプリの月間アクティブユーザー数（MAU）が10億人を突破した。Google検索やWorkspaceなどの組み込み機能を除いたアプリ単体の数字で、同社として14番目の10億ユーザー到達製品となる。…"
+          "title": "生成AIが顧客の本音を分類し要約、NTTドコモビジネスXがVoCデータの活用を支援する新サービスを提供開始",
+          "link": "https://codezine.jp/article/detail/29313",
+          "source": "CodeZine",
+          "published": "2026-08-12T03:15:00",
+          "excerpt": "生成AIが顧客の本音を分類し要約、NTTドコモビジネスXがVoCデータの活用を支援する新サービスを提供開始"
+        },
+        {
+          "title": "Anthropic、Claudeの生成テキストに不可視のウォーターマーク ——8月2日以降の新モデルは公開時から対応、既存モデルでも導入に向けて作業中",
+          "link": "https://gihyo.jp/article/2026/08/claude-text-watermarks?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-08-12T02:54:00",
+          "excerpt": "Claude CodeチームのThariq Shihipar氏は8月12日のX投稿で、対応モデルが生成するすべてのテキストに、人の目には見えないが機械的に検出できるウォーターマークが埋め込まれると説明した。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。Aurora Auto Scaling でレプリカが増減した際、EventBridge にはどのようなイベントが届くのでしょうか。…",
+      "summary": "クラウドの新着が22件。Amazon ECS でデュアルスタックモードを使用する方法を教えてください",
       "articles": [
+        {
+          "title": "Amazon ECS でデュアルスタックモードを使用する方法を教えてください",
+          "link": "https://dev.classmethod.jp/articles/tsnote-ecs-how-do-i-use-dual-stack-mode-with-amazon-ecs/",
+          "source": "DevelopersIO",
+          "published": "2026-08-12T05:07:12",
+          "excerpt": "Amazon ECS でデュアルスタックモードを使用する方法を教えてください"
+        },
+        {
+          "title": "AWS CDK で S3 クロスリージョンレプリケーションを試してみた",
+          "link": "https://qiita.com/ryoichi_izumi/items/5b215fa986bbd8d85636",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-12T03:34:56",
+          "excerpt": "はじめに AWS S3 の クロスリージョンレプリケーション（CRR: Cross-Region Replication） を、AWS CDK v2 + TypeScript で試した手順をまとめます。…"
+        },
         {
           "title": "Aurora Auto Scaling でレプリカが増減したときの EventBridge イベントを実機で確認してみた",
           "link": "https://dev.classmethod.jp/articles/yutaka-memo-rds-events-autora-auto-scaling-eventbridge/",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-12T00:33:04",
           "excerpt": "この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の12日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。https://qiita.…"
-        },
-        {
-          "title": "複数VPCへのDNS設計について考える",
-          "link": "https://qiita.com/kaiton-ton/items/d1457e9c29b4b0045895",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-12T00:01:31",
-          "excerpt": "この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の12日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。https://qiita.…"
-        },
-        {
-          "title": "Amazon EC2 R8a インスタンスがカナダ (中部) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-11T22:03:00",
-          "excerpt": "本日より、Amazon EC2 R8a インスタンスがカナダ (中部) リージョンで利用できるようになりました。これらのインスタンスは、最大周波数 4.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。Claude Codeのトークン認証で、OpenTelemetryのテレメトリから利用者を特定できるかを検証しました。`/login`の実績有無によって、テレメトリに記録される情報が大きく異なる点が分かります。",
+      "summary": "セキュリティの新着が12件。この記事は「EXをシンプルにする」に向き合う 情シスブログリレーの第4回です。前回の記事は、Claude Enterpriseのアカウント管理と利用上限管理を自動化している話です。…",
       "articles": [
+        {
+          "title": "GitHub Enterprise Cloud with EMUのIAMを作る | Sansan Tech Blog",
+          "link": "https://buildersbox.corp-sansan.com/entry/2026/08/12/130000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-12T04:00:00",
+          "excerpt": "この記事は「EXをシンプルにする」に向き合う 情シスブログリレーの第4回です。前回の記事は、Claude Enterpriseのアカウント管理と利用上限管理を自動化している話です。…"
+        },
         {
           "title": "Claude Codeで通常ログインとsetup-token認証のOTelテレメトリを比較してみた",
           "link": "https://dev.classmethod.jp/articles/claude-code-telemetry-login-token/",
@@ -94,26 +101,26 @@
           "excerpt": "Node.js 26.7.0が公開、暗号化やパフォーマンス関連の機能を強化"
         },
         {
-          "title": "Amazon Bedrock が IAM の主コスト配分を岩盤マントルエンドポイントに拡大",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-11T20:25:00",
-          "excerpt": "Amazon Bedrock は、大手 AI 企業の高性能基盤モデルへのエンタープライズ グレードの安全なアクセスを提供するフルマネージド サービスで、生成 AI アプリケーションの構築と拡張を可能にします。…"
-        },
-        {
-          "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』で学ぶ『postgreSQL』のセキュリティ基礎についてその②",
-          "link": "https://qiita.com/Veteran/items/2ddf04a11b5f3653340c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-11T18:53:11",
-          "excerpt": "皆さんこんばんは！更新が久々となり申し訳ございません。ポンコツエンジニアのGONです。台風15号が来ていますが皆さん大丈夫でしょうか。今回の台風はかなり特殊なルートで日本に上陸しましたが、 茨木県から上陸するのは観測史上初めてだそうです。…"
+          "title": "Signal は、実際に適切な相手とチャットしていることを確認するためのセキュリティ層を追加します。",
+          "link": "https://www.theregister.com/security/2026/08/11/signal-adds-an-extra-layer-of-security-to-make-sure-youre-actually-chatting-with-the-right-person/5286461",
+          "source": "The Register（英語）",
+          "published": "2026-08-11T21:45:00",
+          "excerpt": "ただし、大きな注意点が 1 つあります。連絡先の電話番号が必要です。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が10件。GPU アクセラレーションによるベクトルインデックス作成が Amazon OpenSearch Service と OpenSearch Serverless で利用できるようになり、10 億規模のベクトルインデックスを数日ではなく数時間で…",
+      "summary": "データ分析の新着が8件。はじめに 本記事の企業分類は、公開情報をもとにした筆者独自の基準によるもので、各社の公式見解ではありません（組織見解に関する免責は記事末尾に記載）。2026 年、AWS の全認定資格を取得し、いわゆる AWS 全冠 になりました。…",
       "articles": [
+        {
+          "title": "【データ分析】【AWS】「メーカー系」企業のAWS 全冠エンジニア取得割合まとめ",
+          "link": "https://qiita.com/Tom-Panasonic/items/b6affe433d8e245ddbb9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-12T04:43:12",
+          "excerpt": "はじめに 本記事の企業分類は、公開情報をもとにした筆者独自の基準によるもので、各社の公式見解ではありません（組織見解に関する免責は記事末尾に記載）。2026 年、AWS の全認定資格を取得し、いわゆる AWS 全冠 になりました。…"
+        },
         {
           "title": "Amazon OpenSearch Service が GPU アクセラレーションで 10 億規模のベクトルインデックスを構築する仕組み",
           "link": "https://aws.amazon.com/jp/blogs/news/how-gpu-acceleration-builds-billion-scale-vector-indexes-on-amazon-opensearch-service/",
@@ -134,80 +141,73 @@
           "source": "TechCrunch（英語）",
           "published": "2026-08-11T19:38:23",
           "excerpt": "FBIは新たな警告の中で、サイバー犯罪者が恐喝キャンペーンで個人的な写真や親密な写真を盗もうとする目的で成人と未成年者をターゲットにしていると述べた。"
-        },
-        {
-          "title": "AWS Glue により、AWS コンソールから SageMaker Unified Studio へのワンクリックアクセスが追加されました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/smus-glue-access",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-11T14:57:00",
-          "excerpt": "AWS Glue は、Amazon SageMaker Unified Studio への直接アクセスを提供するようになりました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。記事の URL: https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026 コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が16件。はじめに 個人開発で AWS のサーバレス構成（CloudFormation + Lambda + S3 + CloudFront）を作っていて、デプロイ手順を Makefile にまとめました。…",
       "articles": [
         {
-          "title": "pg_clickhouse v0.10: サブクエリ プッシュダウンと 1000 倍高速な TPC-H クエリ",
-          "link": "https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-11T21:54:25",
-          "excerpt": "記事の URL: https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026 コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Show HN: Git-knife – コミットメッセージ、作成者、日付をスプレッドシートのように編集します",
-          "link": "https://github.com/TheRealYT/git-knife",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-11T15:09:34",
-          "excerpt": "記事の URL: https://github.com/TheRealYT/git-knife コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "VPC Service Controls を利用してGoogle Antigravity CLI へアクセス制御を導入する",
-          "link": "https://dev.classmethod.jp/articles/implementing-access-control-for-google-antigravity-cli-using-vpc-service-controls/",
-          "source": "DevelopersIO",
-          "published": "2026-08-11T12:59:58",
-          "excerpt": "Google Antigravity CLIを導入する際に、IPアドレス制限や、特定のユーザのみしか利用させないような設定が求められる場合があります。…"
-        },
-        {
-          "title": "Terraformのインストール方法【Windows】",
-          "link": "https://qiita.com/hkmaru/items/2a5249a3e61634d39d03",
+          "title": "Windows で Makefile を AWS デプロイのランチャーにしたら罠だらけだったので全部書く",
+          "link": "https://qiita.com/sanchan_ite/items/33dc3a33f48c5a0e1adf",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-11T12:39:42",
-          "excerpt": "はじめに AWSなどのインフラをコードで管理できるTerraformを、Windows環境にインストールする方法を紹介します。今回は、Terraform公式サイトから実行ファイルをダウンロードしてインストールします。Terraformとは？…"
+          "published": "2026-08-12T04:54:24",
+          "excerpt": "はじめに 個人開発で AWS のサーバレス構成（CloudFormation + Lambda + S3 + CloudFront）を作っていて、デプロイ手順を Makefile にまとめました。…"
+        },
+        {
+          "title": "Jenkins + GitLab などで体験する『CI/CD入門』 | SIOS Tech Lab",
+          "link": "https://tech-lab.sios.jp/archives/54013",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-12T04:09:57",
+          "excerpt": "はじめに こんにちは、サイオステクノロジーの小沼 俊治です。「理屈はいいから、まずは実際に CI/CD パイプラインというものを動かして体験してみたい」。本記事は、そんな方々に向けて、ソフトウェア開発に不可欠な CI ...…"
+        },
+        {
+          "title": "GitHub Enterprise Cloud with EMUのIAMを作る | Sansan Tech Blog",
+          "link": "https://buildersbox.corp-sansan.com/entry/2026/08/12/130000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-12T04:00:00",
+          "excerpt": "この記事は「EXをシンプルにする」に向き合う 情シスブログリレーの第4回です。前回の記事は、Claude Enterpriseのアカウント管理と利用上限管理を自動化している話です。…"
+        },
+        {
+          "title": "AWS CDK で S3 クロスリージョンレプリケーションを試してみた",
+          "link": "https://qiita.com/ryoichi_izumi/items/5b215fa986bbd8d85636",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-12T03:34:56",
+          "excerpt": "はじめに AWS S3 の クロスリージョンレプリケーション（CRR: Cross-Region Replication） を、AWS CDK v2 + TypeScript で試した手順をまとめます。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "イベントトラッキングの信頼性を支えるリトライ戦略 | エムスリーテックブログ",
-      "link": "https://www.m3tech.blog/entry/event-tracking-with-retry",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-12T02:30:00",
-      "excerpt": "【Unit4 ブログリレー5日目】 こんにちは、Unit4のキムです。この記事はUnit4チーム (m3.com開発チーム) メンバーにより投稿されるブログリレー5日目の記事です。本記事では、m3.…"
+      "title": "インドのYulu、クイックコマースブームで電動自転車の需要が高まり9,300万ドルを調達",
+      "link": "https://techcrunch.com/2026/08/11/indias-yulu-raises-93m-as-quick-commerce-boom-fuels-e-bike-demand/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-12T04:30:00",
+      "excerpt": "Yulu は、新しい物流のユースケースを目指し、今後 2 年間で 20 万台の自転車とより高速な電動二輪車の保有を目指しています。"
     },
     {
-      "title": "2026/3/11 データマネジメント2026─AI Ready Dataに舵を切れ─ 「AI Readyの正体はデータマネジメントだ メダリオン2.0の最前線」 | freee Developers Hub",
-      "link": "https://developers.freee.co.jp/entry/ai-ready-data-management-2026",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-12T02:15:00",
-      "excerpt": "2026/3/11に開催された「データマネジメント2026─AI Ready Dataに舵を切れ─」にて、CDO(Chief Data Officer)の城谷 信一郎が登壇した際の資料です。speakerdeck.com…"
+      "title": "ネットワーク構築・運用の“脱・常駐化”で工数6割削減　「白浜シンポジウム」はどう実現した？",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/12/news039.html",
+      "source": "@IT",
+      "published": "2026-08-12T04:00:00",
+      "excerpt": "複数会場のネットワークを短期間で構築し、会期中も安定して運用するには、どのような工夫が必要なのか。人手の負担を抑えて実現した「第30回サイバー犯罪に関する白浜シンポジウム」の取り組みを見てみよう。"
     },
     {
-      "title": "大規模化したプロダクトでパフォーマンス観点のチェックスキルを作りAI開発ワークフローの自己修正ループに組み込む | GVATECHブログのフィード",
-      "link": "https://zenn.dev/gvatech_blog/articles/97058201a05d7d",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-12T02:10:45",
-      "excerpt": "背景現在自分が所属しているチームではAI開発のワークフローとして、Orchestrator が計画フェーズ（Planner ⇄ Evaluator）と実装フェーズ（Generator ⇄ Evaluator）を制御する仕組みを構築(この仕組…"
+      "title": "“激混み”新宿でも通信が途切れない　はとバスは「車内のフリーWi-Fi」をどう実現？",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/12/news042.html",
+      "source": "@IT",
+      "published": "2026-08-12T04:00:00",
+      "excerpt": "はとバスの車内で乗客が利用できるフリーWi-Fi。その仕組みはどうなっているのか。乗客向けの通信だけではなく、運行情報の取得といった業務にも利用しているという、車内通信の中身を見ていこう。"
     },
     {
-      "title": "2026/08/12 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-      "link": "https://qiita.com/ennagara128/items/37703cd40e452fcc48bf",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-12T02:02:23",
-      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
+      "title": "AI普及で20代の14％が「すでに転職」　エンジニアが最も伸ばしたいスキル、1位は？",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/12/news043.html",
+      "source": "@IT",
+      "published": "2026-08-12T04:00:00",
+      "excerpt": "レバテックは「AI時代におけるITエンジニアのキャリア意識・実態調査」の結果を発表した。AI普及の影響で全体の約半数が転職を意識し、20代ではすでに動き出す人も見られたという。…"
     }
   ]
 }
