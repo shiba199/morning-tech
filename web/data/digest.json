@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-12T10:50:24",
+  "generated_at": "2026-08-12T11:37:50",
   "window_hours": 24,
-  "total": 243,
+  "total": 246,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が50件。AWS AgentCore RuntimeとMCPプロトコルを組み合わせ、複数のLLMから共有できるCode Interpreterサーバーをゼロから構築する方法を紹介します。…",
+      "summary": "生成AIの新着が51件。別にセルフホストしたくないですが、選択肢があるというのは良いことです",
       "articles": [
+        {
+          "title": "Claude Code セルフホスト環境機能が登場。EC2インスタンスを実行環境にしてみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-self-hosted-runner/",
+          "source": "DevelopersIO",
+          "published": "2026-08-12T11:12:20",
+          "excerpt": "別にセルフホストしたくないですが、選択肢があるというのは良いことです"
+        },
         {
           "title": "MCPを繋ぐだけで使えるCode Interpreter環境をAgentCore Runtimeで作ってみた",
           "link": "https://dev.classmethod.jp/articles/agentcore-code-interpreter-mcp-server/",
@@ -29,21 +36,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-12T09:38:10",
           "excerpt": "はじめに 今回は、AWS Blocksの「Agent」をローカルで試してみました。Agentを使用することで簡易なAIエージェントを構築できます。…"
-        },
-        {
-          "title": "NVIDIA、長時間稼働するAIエージェント向け「Nemotron 3.5 Lightning」とモデルルーター「NeMo Switchyard」を公開",
-          "link": "https://gihyo.jp/article/2026/08/nvidia-nemotron-3.5-lightning?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-12T07:59:00",
-          "excerpt": "NVIDIAは2026年8月11日、長時間稼働するAIエージェント向けのオープンモデル「Nemotron 3.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。atama plusのtakeiです。先日Data Studioで運用していた社内向けダッシュボードを、Streamlitに移行しました。…",
+      "summary": "クラウドの新着が20件。別にセルフホストしたくないですが、選択肢があるというのは良いことです",
       "articles": [
+        {
+          "title": "Claude Code セルフホスト環境機能が登場。EC2インスタンスを実行環境にしてみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-self-hosted-runner/",
+          "source": "DevelopersIO",
+          "published": "2026-08-12T11:12:20",
+          "excerpt": "別にセルフホストしたくないですが、選択肢があるというのは良いことです"
+        },
         {
           "title": "ビジネスロジックをクエリ側に寄せていたら、BIツールの移行が楽だった | atama plus techblogのフィード",
           "link": "https://zenn.dev/atamaplus/articles/0223ce57a7a7d3",
@@ -64,21 +71,28 @@
           "source": "DevelopersIO",
           "published": "2026-08-12T05:54:30",
           "excerpt": "AWS VPC をウィザードを使わず手作業で一から組み立ててみました。ルートテーブル、インターネットゲートウェイ、ルーティング設定など、各リソースがどのように連携しているかを確認しながら構築。…"
-        },
-        {
-          "title": "Amazon ECS でデュアルスタックモードを使用する方法を教えてください",
-          "link": "https://dev.classmethod.jp/articles/tsnote-ecs-how-do-i-use-dual-stack-mode-with-amazon-ecs/",
-          "source": "DevelopersIO",
-          "published": "2026-08-12T05:07:12",
-          "excerpt": "Amazon ECS でデュアルスタックモードを使用する方法を教えてください"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。RIZAPは8月10日、運営するスポーツ・アウトドア用品の通販サイト「APORITOオンラインストア」が不正アクセスを受け、利用者の個人情報とクレジットカード情報が外部へ流出した可能性があると発表した。…",
+      "summary": "セキュリティの新着が19件。はじめに アプリ開発を行う上で、セキュリティは常に気になるものですが、終わりがなく、費用対効果をどう計算したらいいのかわからない、と感じることは多いと思います。…",
       "articles": [
+        {
+          "title": "安全性とセキュリティを両立させる戦略を立てるためのAttack-Fault Treeモデルの解説 | HashPort技術ブログ",
+          "link": "https://tech.hashport.io/5435/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-12T11:00:31",
+          "excerpt": "はじめに アプリ開発を行う上で、セキュリティは常に気になるものですが、終わりがなく、費用対効果をどう計算したらいいのかわからない、と感じることは多いと思います。…"
+        },
+        {
+          "title": "IAM Identity Center のマルチリージョンオプションをワンクリックで有効化してみた | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/identity-center-one-click-multi-region",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-12T11:00:00",
+          "excerpt": "今月誕生日の人、おめでとうございます🎉 エデュケーショナルサービス課の森純子です。「IAM Identity Center をマルチリージョンにしたいけど、KMS キーの作成やキーポリシーの設定が面倒…」ではなかったでしょうか？…"
+        },
         {
           "title": "RIZAP運営のECサイトに不正アクセス　カード情報含む個人情報が流出の可能性　サイトは一時閉鎖",
           "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000512/",
@@ -92,28 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-12T07:40:27",
           "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
-        },
-        {
-          "title": "【2026年版】OWASP LLM Top 10 v3.0から読み解く、AIセキュリティにおける「引き算」の重要性 | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/2026/08/12/150255",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-12T06:02:55",
-          "excerpt": "こんにちは、エーピーコミュニケーションズ ACS事業部の福井です。生成AIや自律型AIエージェント（Agentic AI）の業務実装が進む中、セキュリティの考え方も大きな転換期を迎えていると感じています。…"
-        },
-        {
-          "title": "【Security Hub修復手順】[SageMaker.17] SageMaker 特徴量グループのオフラインストアは AWS KMS キーで暗号化する必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-sagemaker-17/",
-          "source": "DevelopersIO",
-          "published": "2026-08-12T05:28:22",
-          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が11件。はじめに 2026年8月、 Amazon DynamoDBのリアルタイムベクトル検索 がGA(一般提供)されました。全ての商用リージョンとGovCloud(US)で利用できます。…",
+      "summary": "データ分析の新着が12件。AIはハイパースケーラーに希少なキットを最初に売りつけたが、企業の買い手はそれをレンタルする以外に選択肢がほとんどないかもしれない",
       "articles": [
+        {
+          "title": "Big Cloud はエンタープライズ ハードウェア市場を追い詰めようとしています",
+          "link": "https://www.theregister.com/systems/2026/08/12/big-cloud-is-poised-to-corner-the-market-for-enterprise-hardware/5286621",
+          "source": "The Register（英語）",
+          "published": "2026-08-12T10:52:00",
+          "excerpt": "AIはハイパースケーラーに希少なキットを最初に売りつけたが、企業の買い手はそれをレンタルする以外に選択肢がほとんどないかもしれない"
+        },
         {
           "title": "AWSのベクトル検索を2層で理解する — DynamoDBだけKnowledge Basesから使えない",
           "link": "https://qiita.com/jeayoon/items/6dbea5cdbc23e7814bb7",
@@ -134,21 +141,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-12T06:46:48",
           "excerpt": "機械論的解釈可能性（mech interp）という分野がいま注目されている理由、そして実際にAIモデルの内部を覗くと何が見えるのかについて紹介します。…"
-        },
-        {
-          "title": "【データ分析】【AWS】「メーカー系」企業のAWS 全冠エンジニア取得割合まとめ",
-          "link": "https://qiita.com/Tom-Panasonic/items/b6affe433d8e245ddbb9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-12T04:43:12",
-          "excerpt": "はじめに 本記事の企業分類は、公開情報をもとにした筆者独自の基準によるもので、各社の公式見解ではありません（組織見解に関する免責は記事末尾に記載）。2026 年、AWS の全認定資格を取得し、いわゆる AWS 全冠 になりました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。はじめに GitHub ActionsでTerraform applyを実行した際、以下のようなエラーに遭遇しました。…",
+      "summary": "開発ツールの新着が16件。CLAUDE.mdやSKILLの手順、守られているか測ったことありますか。半年分のgit履歴では翌月に76%へ落ち、4ヶ月横ばいでした。pre-commitで止めた理由も書いています。SKILLに書いた手順、AIは3割無視！…",
       "articles": [
+        {
+          "title": "SKILLに書いた手順、AIは3割無視！半年分のgit履歴で測った話 | SIOS Tech Lab",
+          "link": "https://tech-lab.sios.jp/archives/54140",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-12T10:51:59",
+          "excerpt": "CLAUDE.mdやSKILLの手順、守られているか測ったことありますか。半年分のgit履歴では翌月に76%へ落ち、4ヶ月横ばいでした。pre-commitで止めた理由も書いています。SKILLに書いた手順、AIは3割無視！…"
+        },
         {
           "title": "「Invalid master password」の裏に3つの罠があった話 - Terraform変数のハマりどころ\"",
           "link": "https://zenn.dev/aws_iac_notes/articles/ef2747b09d1091",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-12T04:54:24",
           "excerpt": "はじめに 個人開発で AWS のサーバレス構成（CloudFormation + Lambda + S3 + CloudFront）を作っていて、デプロイ手順を Makefile にまとめました。…"
-        },
-        {
-          "title": "Jenkins + GitLab などで体験する『CI/CD入門』 | SIOS Tech Lab",
-          "link": "https://tech-lab.sios.jp/archives/54013",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-12T04:09:57",
-          "excerpt": "はじめに こんにちは、サイオステクノロジーの小沼 俊治です。「理屈はいいから、まずは実際に CI/CD パイプラインというものを動かして体験してみたい」。本記事は、そんな方々に向けて、ソフトウェア開発に不可欠な CI ...…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "AI コードテストの新興企業 Blacksmith の評価額が 1 年足らずでほぼ 10 倍に急上昇",
+      "link": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-12T11:00:00",
+      "excerpt": "ブラックスミス氏によると、収益は過去1年間で10倍以上に増加したという。"
+    },
+    {
+      "title": "【合格体験記】OCI 2025 Architect Associate (1Z0-1072-25) | APC 技術ブログ",
+      "link": "https://techblog.ap-com.co.jp/entry/2026/08/12/194342",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-12T10:43:42",
+      "excerpt": "ほぼクラウド未経験からOCI Architect Associate（1Z0-1072）に1週間で合格した体験記です！使用した教材や本番の感触についてまとめました！"
+    },
+    {
+      "title": "個人Webアプリの構成を再考して、マルチクラウドになった話 | NCDC テックブログのフィード",
+      "link": "https://zenn.dev/ncdc/articles/e8e4c83e8fc056",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-12T10:11:59",
+      "excerpt": "はじめに嫁さんが個人事業主として働いており、事務作業も自分で行っているため、その負担を減らすアプリを個人開発しています。当初は事務作業が少し楽になればいいね、くらいの気持ちで私も暇つぶしとして作っていました。…"
+    },
+    {
       "title": "【Amazon Connect】フローログをトラブルシュートに活用してみた (初心者向け)",
       "link": "https://dev.classmethod.jp/articles/amazon-connect-flow-logs-enable-troubleshooting/",
       "source": "DevelopersIO",
       "published": "2026-08-12T10:10:04",
       "excerpt": "Amazon Connectのフローログ設定方法からトラブルシュートでの活用例までご紹介します。"
-    },
-    {
-      "title": "GenU閉域モードを深掘りする～バージョンアップ編～",
-      "link": "https://qiita.com/infra365/items/686f6c8aa87af7b11475",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-12T10:06:35",
-      "excerpt": "概要 ここまでの記事では、オンプレミスからの名前解決、閉域モードのネットワーク・フロントエンド・認証、バックエンドの処理、そしてデフォルトで無効になっている機能の有効化と、GenUの各機能を深掘りしてきました。…"
-    },
-    {
-      "title": "HN を表示: Woxi - オープンソース Mathematica / Wolfram 言語の再実装",
-      "link": "https://woxi.ad-si.com",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-12T10:06:29",
-      "excerpt": "Woxi は、Rust で書かれた Wolfram 言語のインタプリタです。…"
-    },
-    {
-      "title": "Reservoir は、人々と送電網が実際に欲しがる給湯器を製造するために 800 万ドルを調達",
-      "link": "https://techcrunch.com/2026/08/12/reservoir-raises-8m-to-make-water-heaters-that-people-and-the-grid-will-actually-want/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-12T10:00:00",
-      "excerpt": "Reservoir は、お湯の需要を予測し、エネルギーを蓄え、家全体の配管漏れを検出できる超効率的な給湯器を構築しました。"
     }
   ]
 }
