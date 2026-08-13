@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-08-13T08:10:35",
+  "generated_at": "2026-08-13T09:36:58",
   "window_hours": 24,
-  "total": 258,
+  "total": 257,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が52件。Claude Code の v2.1.228 と v2.1.229 がリリースされました。v2.1.…",
+      "summary": "生成AIの新着が57件。EC2上のcode-serverにBedrock経由のClaude Codeを載せ、ブラウザだけで使える開発環境を作りました。認証はIAMロールなので利用者にAPIキーは不要で、研修やハンズオンで配る用途に向いています。",
       "articles": [
         {
-          "title": "Claude Code v2.1.228〜v2.1.229 の主要アップデート - クラッシュ修正の集中投入と /commit-push-pr の安全化",
-          "link": "https://dev.classmethod.jp/articles/20260813-cc-updates-v2-1-228/",
+          "title": "ブラウザだけで使えるClaude Code環境をEC2 + code-server + Bedrockで作ってみた",
+          "link": "https://dev.classmethod.jp/articles/202608-ec2-code-server-claude-code-bedrock/",
           "source": "DevelopersIO",
-          "published": "2026-08-13T07:08:07",
-          "excerpt": "Claude Code の v2.1.228 と v2.1.229 がリリースされました。v2.1.…"
+          "published": "2026-08-13T09:16:07",
+          "excerpt": "EC2上のcode-serverにBedrock経由のClaude Codeを載せ、ブラウザだけで使える開発環境を作りました。認証はIAMロールなので利用者にAPIキーは不要で、研修やハンズオンで配る用途に向いています。"
         },
         {
-          "title": "[Claude]  LLMの電子透かし：仕組みと限界",
-          "link": "https://dev.classmethod.jp/articles/claude-digital-watermark-technology/",
-          "source": "DevelopersIO",
-          "published": "2026-08-13T06:49:27",
-          "excerpt": "Anthropic が Claude の出力に電子透かしを入れると発表しました。テキストに透かしを入れるとはどういうことか、なぜコピペしても残るのかを、代表的な統計的透かしを実装して確かめます。…"
+          "title": "Google Classroom、Geminiによるルーブリック自動生成機能を追加",
+          "link": "https://codezine.jp/article/detail/29295",
+          "source": "CodeZine",
+          "published": "2026-08-13T09:00:00",
+          "excerpt": "Google Classroom、Geminiによるルーブリック自動生成機能を追加"
         },
         {
-          "title": "社内プラグインを低工数で安全に配る：Claude Code Marketplace の sha ピン留め活用 | 株式会社イノベーション Tech Blogのフィード",
-          "link": "https://zenn.dev/innovation/articles/e29be57185b63a",
+          "title": "本番で使える生成AIモデルの選び方 - Identify / Evaluate / Optimize の3ステップ【AWS Summit 2026 - セッションレポート】",
+          "link": "https://qiita.com/Ryoichi_Katsuhisa/items/cd31543889edd4c5cadc",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-13T08:49:08",
+          "excerpt": "〜Identify / Evaluate / Optimizeで、本番で使えるAIを選ぶ〜 はじめに 本記事は、AWS Summit Japan 2026で発表された 「生成AIモデルを選ぶ技術 -モデル選択のフレームワーク-」 （小林 大…"
+        },
+        {
+          "title": "【C# × Blazor × AzureOpenAI】VSCodeからC#のWebアプリを作成してみた | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/c5a52e0f35ac1d",
           "source": "企業テックブログまとめ",
-          "published": "2026-08-13T06:00:11",
-          "excerpt": "社内マーケットプレイス、便利ですよね。使っていますか？便利な一方で、配るプラグインの中身を毎回きっちりレビューするのは、それなりに工数がかかります。かといって、ノーチェックで社内に配れてしまうのも避けたい。…"
-        },
-        {
-          "title": "AgentCore Gatewayに追加されたレート制限機能を試してみた",
-          "link": "https://dev.classmethod.jp/articles/agentcore-gateway-rate-limit/",
-          "source": "DevelopersIO",
-          "published": "2026-08-13T05:57:48",
-          "excerpt": "Amazon Bedrock AgentCore Gatewayに追加されたレート制限機能を試してみました！"
+          "published": "2026-08-13T08:38:00",
+          "excerpt": "私は普段、クラウドエンジニアとして主にAzure環境の設計・構築を行っています。バックエンド開発はPython/FastAPIの経験が中心で、C#やASP.NET Coreはほぼ未経験でした。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。Amazon Aurora DSQL、4リージョンでマルチリージョンクラスター対応",
+      "summary": "クラウドの新着が19件。EC2上のcode-serverにBedrock経由のClaude Codeを載せ、ブラウザだけで使える開発環境を作りました。認証はIAMロールなので利用者にAPIキーは不要で、研修やハンズオンで配る用途に向いています。",
       "articles": [
+        {
+          "title": "ブラウザだけで使えるClaude Code環境をEC2 + code-server + Bedrockで作ってみた",
+          "link": "https://dev.classmethod.jp/articles/202608-ec2-code-server-claude-code-bedrock/",
+          "source": "DevelopersIO",
+          "published": "2026-08-13T09:16:07",
+          "excerpt": "EC2上のcode-serverにBedrock経由のClaude Codeを載せ、ブラウザだけで使える開発環境を作りました。認証はIAMロールなので利用者にAPIキーは不要で、研修やハンズオンで配る用途に向いています。"
+        },
+        {
+          "title": "【Security Hub修復手順】[CloudFront.17] CloudFront ディストリビューションでは、署名付き URLsと Cookie に信頼されたキーグループを使用する必要があります",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-cloudfront-17/",
+          "source": "DevelopersIO",
+          "published": "2026-08-13T09:12:39",
+          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
+        },
+        {
+          "title": "Amazon S3侵害から「わずか8分」――LLMによる自動化で“AWS管理者権限”を奪取",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/13/news020.html",
+          "source": "@IT",
+          "published": "2026-08-13T08:00:00",
+          "excerpt": "Sysdigは、LLMを活用してAWS環境への侵入を自動化する攻撃を観測した。攻撃者は約8分で管理者権限を奪取し、19個のAWSプリンシパルを横断的に侵害した。"
+        },
         {
           "title": "Amazon Aurora DSQL、4リージョンでマルチリージョンクラスター対応",
           "link": "https://codezine.jp/article/detail/29282",
           "source": "CodeZine",
           "published": "2026-08-13T05:00:00",
           "excerpt": "Amazon Aurora DSQL、4リージョンでマルチリージョンクラスター対応"
-        },
-        {
-          "title": "三か月でAWSSAPを取得した新卒のTerraform講座　第1回 Terraform講座 VPC編",
-          "link": "https://qiita.com/nyarusasu22/items/8577f708b65e56f44578",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-13T04:25:28",
-          "excerpt": "AWS SAPに3か月で合格した新卒が、Terraformを学び始めた理由 はじめに 新卒1年目。AWSを勉強し始めて、まずAWS Certified Cloud Practitioner（CLF）を取得しました。…"
-        },
-        {
-          "title": "【後編】VSCodeのRemote-SSHでEC2に接続してみよう | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/as-ojt-ssh2",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-13T04:21:18",
-          "excerpt": "はじめに おさらい：Remote-SSHとは？VSCodeでの接続設定手順 1.Remote-SSH拡張機能のインストール 2.~/.ssh/config とは？3.~/.ssh/config の設定 4.VSCodeから接続 5.…"
-        },
-        {
-          "title": "【前編】VSCodeのRemote-SSHでEC2に接続してみよう | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/as-ojt-ssh",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-13T04:16:24",
-          "excerpt": "はじめに 本記事の問題意識 Remote-SSHとは？本記事で扱う範囲について SSHでログインできる状態を作る 1.SSHログインに必要な3つの材料 2.実際にSSHでログインしてみる おわりに はじめに こんにちは、椎名です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が21件。0.はじめに 前回はネットワーク系のサービスをまとめました。今回はその第5弾として、セキュリティ・ID管理系のサービスを見ていきます。…",
+      "summary": "セキュリティの新着が22件。AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。",
       "articles": [
+        {
+          "title": "【Security Hub修復手順】[CloudFront.17] CloudFront ディストリビューションでは、署名付き URLsと Cookie に信頼されたキーグループを使用する必要があります",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-cloudfront-17/",
+          "source": "DevelopersIO",
+          "published": "2026-08-13T09:12:39",
+          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
+        },
+        {
+          "title": "IAM Access Analyzer で最小権限のポリシーを洗い出す",
+          "link": "https://dev.classmethod.jp/articles/access-analyzer-minimum-policy/",
+          "source": "DevelopersIO",
+          "published": "2026-08-13T08:16:35",
+          "excerpt": "AWS 上でユーザーの誤操作を防ぐため、最小権限の IAM ポリシーを構成することが重要です。…"
+        },
         {
           "title": "AWSエンジニアのためのGoogle Cloudサービスまとめ その5 セキュリティ・ID管理編",
           "link": "https://qiita.com/motuneko253/items/361eba8f87d454df8287",
@@ -92,28 +106,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-13T05:00:00",
           "excerpt": "キャリアは、選択の積み重ねでできています。どんな経験を経て、なぜSansanを選び、いまどんな挑戦に向き合っているのか。…"
-        },
-        {
-          "title": "[アップデート] IAMロールを自動的に設定するロールマネージャーを提供するようになりました",
-          "link": "https://dev.classmethod.jp/articles/iam-role-manager-ga/",
-          "source": "DevelopersIO",
-          "published": "2026-08-13T04:33:03",
-          "excerpt": "AWSの新機能「role manager」を試してみました。IAMロール作成の手間を自動化するこの機能の仕組みから実装方法、運用時のポイントまで、実際の画面を交えながら紹介します。"
-        },
-        {
-          "title": "総務省のAIセキュリティガイドライン「知っているが生かせない」企業が7割　対策を阻む事情とは？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/13/news047.html",
-          "source": "@IT",
-          "published": "2026-08-13T04:00:00",
-          "excerpt": "AIセキュリティに関する総務省のガイドラインを理解していても、十分に生かせていない――。背景には何があるのか。ChillStackの調査からは、企業がAIに関するセキュリティ対策を進める上での課題が浮かび上がった。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。この記事はAWSでBIGIPのHA構成を作る（手動構築編ー第２章：アクトスタンバイ構築） の続きです。CloudFormationテンプレートを使わずに、BIGIPのマルチAZ構成をAWSで再現する第３章です。…",
+      "summary": "データ分析の新着が7件。はじめに こんにちは。リテールハブ小売アプリ開発チームの池です。小売アプリチームでは、昨年から CodeRabbit を利用して PR レビューを行っています。日々活用してはいるものの、アップデートの内容を追いきれていませんでした。…",
       "articles": [
+        {
+          "title": "CodeRabbit の 2026 年アップデート内容を追ってみる | every Tech Blog",
+          "link": "https://tech.every.tv/entry/2026/08/13/173017",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-13T08:30:17",
+          "excerpt": "はじめに こんにちは。リテールハブ小売アプリ開発チームの池です。小売アプリチームでは、昨年から CodeRabbit を利用して PR レビューを行っています。日々活用してはいるものの、アップデートの内容を追いきれていませんでした。…"
+        },
         {
           "title": "AWSでBIGIPのHA構成を作る（手動構築編ー第３章：CFE(CloudFailoverExtension)の設定）",
           "link": "https://qiita.com/_Ik_/items/22acf50fd91e4734ded2",
@@ -134,13 +141,6 @@
           "source": "The Register（英語）",
           "published": "2026-08-12T22:56:39",
           "excerpt": "そしてそこに到達するためにあらゆる経済的困難を乗り越えるだろう"
-        },
-        {
-          "title": "Big Cloud はエンタープライズ ハードウェア市場を追い詰めようとしています",
-          "link": "https://www.theregister.com/systems/2026/08/12/big-cloud-is-poised-to-corner-the-market-for-enterprise-hardware/5286621",
-          "source": "The Register（英語）",
-          "published": "2026-08-12T10:52:00",
-          "excerpt": "AIはハイパースケーラーに希少なキットを最初に売りつけたが、企業の買い手はそれをレンタルする以外に選択肢がほとんどないかもしれない"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "【AWS】SQSについて、詳しくなりたいよなぁ！",
-      "link": "https://qiita.com/PDC-Kurashinak/items/50521e99bc2c852842cf",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-13T07:43:27",
-      "excerpt": "どうもこんにちは。情緒不安定なタイトルコールで失礼致します。…"
-    },
-    {
-      "title": "MGI、Sentieon、AWS で強化するゲノムデータストレージとワークフロー",
-      "link": "https://aws.amazon.com/jp/blogs/news/enhanced-genomic-data-storage-and-workflows-with-mgi-sentieon-and-aws/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-08-13T07:17:16",
-      "excerpt": "MGI、Sentieon、AWS の協業により、ゲノミクスラボは大規模なシーケンシングデータを効率的に管理・解析できます。…"
-    },
-    {
-      "title": "【Excel VBAで、もっと効率化！】バックアップツール編② 保存先を自動で準備！Backupフォルダを自動作成するミニツール | 分析屋",
-      "link": "https://note.com/bunsekiya_tech/n/ne3ba7082a7d9",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-13T07:03:36",
-      "excerpt": "こんにちは。分析屋 業務効率化チームのKです。前回は、現在開いているExcelファイルを1クリックでバックアップするミニツールを作成しました。続きをみる"
-    },
-    {
-      "title": "公開されている Google ドキュメントに保存されたパスワードが検索結果に表示される",
-      "link": "https://www.theregister.com/security/2026/08/13/passwords-stored-in-public-google-doc-then-showed-up-in-search-results/5287028",
+      "title": "ピクルスがあるとすべてが良くなります...Windows を除いて",
+      "link": "https://www.theregister.com/offbeat/2026/08/13/everything-is-better-with-pickles-except-windows/5284978",
       "source": "The Register（英語）",
-      "published": "2026-08-13T07:00:00",
-      "excerpt": "開発者はオートコンプリートに潜むホスト名と認証情報文字列を発見"
+      "published": "2026-08-13T09:26:00",
+      "excerpt": "チキンサンドイッチの広告にオペレーティングシステムの消化不良が現れる"
+    },
+    {
+      "title": "東京ガス子会社、社員が飲酒後にPCを紛失　個人情報約2万件を保存",
+      "link": "https://www.itmedia.co.jp/news/article/2608/13/2000000531/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-13T09:07:24",
+      "excerpt": "東京ガス子会社の東京ガスネットワークは8月13日、顧客の個人情報約2万件を保存した業務用PCを社員が紛失したと発表した。社員が同僚らと飲酒した後、電車で帰宅する途中にPCなどが入ったかばんを紛失したという。…"
+    },
+    {
+      "title": "Cloudflare WorkersでSlack Appのバックエンドを動かす",
+      "link": "https://dev.classmethod.jp/articles/running-slack-app-backend-on-cloudflare-workers/",
+      "source": "DevelopersIO",
+      "published": "2026-08-13T09:00:11",
+      "excerpt": "Cloudflare WorkersでSlack Appのバックエンドを動かす方法をご紹介します。…"
+    },
+    {
+      "title": "週刊Cloudflare - 2026/08/09週 | Gemcook Tech Blogのフィード",
+      "link": "https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_0802-0808",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-13T08:35:06",
+      "excerpt": "こんにちは、あさひです 🙋‍♂️ 今週の Cloudflare のアップデートをまとめていきます！…"
     }
   ]
 }
