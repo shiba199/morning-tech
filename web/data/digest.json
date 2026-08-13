@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-13T11:37:51",
+  "generated_at": "2026-08-13T12:41:53",
   "window_hours": 24,
-  "total": 243,
+  "total": 241,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が55件。Amazon Bedrock の Managed Knowledge Base を Amazon Quick に接続し、日本語のドキュメントで自然言語問い合わせを試してみました。…",
+      "summary": "生成AIの新着が53件。はじめに AIへ複雑な仕事を一度に依頼すると、前提が抜けたり、途中から目的がずれたり、もっともらしい誤りが混ざったりします。…",
       "articles": [
+        {
+          "title": "プロンプトチェイニングとは 複雑なAI依頼を分割する方法と15のプロンプト手法",
+          "link": "https://qiita.com/s_horikoshi/items/bb9eb5abea0daa078945",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-13T12:08:25",
+          "excerpt": "はじめに AIへ複雑な仕事を一度に依頼すると、前提が抜けたり、途中から目的がずれたり、もっともらしい誤りが混ざったりします。…"
+        },
         {
           "title": "Amazon Bedrock Managed Knowledge Base に Amazon Quick から日本語で自然言語問合せしてみた",
           "link": "https://dev.classmethod.jp/articles/20260813-amazon-mkb-with-quick/",
@@ -29,21 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-13T09:16:07",
           "excerpt": "EC2上のcode-serverにBedrock経由のClaude Codeを載せ、ブラウザだけで使える開発環境を作りました。認証はIAMロールなので利用者にAPIキーは不要で、研修やハンズオンで配る用途に向いています。"
-        },
-        {
-          "title": "Google Classroom、Geminiによるルーブリック自動生成機能を追加",
-          "link": "https://codezine.jp/article/detail/29295",
-          "source": "CodeZine",
-          "published": "2026-08-13T09:00:00",
-          "excerpt": "Google Classroom、Geminiによるルーブリック自動生成機能を追加"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。EC2上のcode-serverにBedrock経由のClaude Codeを載せ、ブラウザだけで使える開発環境を作りました。認証はIAMロールなので利用者にAPIキーは不要で、研修やハンズオンで配る用途に向いています。",
+      "summary": "クラウドの新着が17件。MariaDB 12.3 は長期サポート（LTS）版です。Amazon RDS で新規作成した 12.3.2 環境と、11.8.8 から 12.3.…",
       "articles": [
+        {
+          "title": "Amazon RDS for MariaDB 12.3 が正式リリース(GA)されたので試してみた",
+          "link": "https://dev.classmethod.jp/articles/rds-mariadb-12-3-ga/",
+          "source": "DevelopersIO",
+          "published": "2026-08-13T12:00:01",
+          "excerpt": "MariaDB 12.3 は長期サポート（LTS）版です。Amazon RDS で新規作成した 12.3.2 環境と、11.8.8 から 12.3.…"
+        },
         {
           "title": "ブラウザだけで使えるClaude Code環境をEC2 + code-server + Bedrockで作ってみた",
           "link": "https://dev.classmethod.jp/articles/202608-ec2-code-server-claude-code-bedrock/",
@@ -64,21 +71,21 @@
           "source": "@IT",
           "published": "2026-08-13T08:00:00",
           "excerpt": "Sysdigは、LLMを活用してAWS環境への侵入を自動化する攻撃を観測した。攻撃者は約8分で管理者権限を奪取し、19個のAWSプリンシパルを横断的に侵害した。"
-        },
-        {
-          "title": "Amazon Aurora DSQL、4リージョンでマルチリージョンクラスター対応",
-          "link": "https://codezine.jp/article/detail/29282",
-          "source": "CodeZine",
-          "published": "2026-08-13T05:00:00",
-          "excerpt": "Amazon Aurora DSQL、4リージョンでマルチリージョンクラスター対応"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が19件。AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。",
+      "summary": "セキュリティの新着が19件。【勉強会メモ】IAM（アイデンティティとアクセス管理）の基本 AWSを使う上で避けては通れないのが IAM（AWS Identity and Access Management） です。…",
       "articles": [
+        {
+          "title": "【勉強会メモ】IAM（アイデンティティとアクセス管理）の基本",
+          "link": "https://qiita.com/metty0606/items/a6377a5f1c5eb6ec360e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-13T11:39:56",
+          "excerpt": "【勉強会メモ】IAM（アイデンティティとアクセス管理）の基本 AWSを使う上で避けては通れないのが IAM（AWS Identity and Access Management） です。…"
+        },
         {
           "title": "【Security Hub修復手順】[CloudFront.17] CloudFront ディストリビューションでは、署名付き URLsと Cookie に信頼されたキーグループを使用する必要があります",
           "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-cloudfront-17/",
@@ -99,13 +106,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-13T07:12:36",
           "excerpt": "0.はじめに 前回はネットワーク系のサービスをまとめました。今回はその第5弾として、セキュリティ・ID管理系のサービスを見ていきます。…"
-        },
-        {
-          "title": "AI時代の新しいセキュリティのカタチをつくる。 30年の経験者がSansanを選んだ理由 | Sansan Tech Blog",
-          "link": "https://buildersbox.corp-sansan.com/entry/2026/08/13/140000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-13T05:00:00",
-          "excerpt": "キャリアは、選択の積み重ねでできています。どんな経験を経て、なぜSansanを選び、いまどんな挑戦に向き合っているのか。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。数年前、観光・アウトドア向けのドローン撮影体験を想定し、SwiftとDJI SDKを使ったiOSアプリケーションを設計・実装しました。…",
+      "summary": "開発ツールの新着が9件。品質は上がったのに価格は1/4 ～Microsoft、軽量コーディングモデル「MAI-Code-1.1-Flash」を発表／「GitHub Copilot」ですでに本番稼働",
       "articles": [
+        {
+          "title": "品質は上がったのに価格は1/4 ～Microsoft、軽量コーディングモデル「MAI-Code-1.1-Flash」を発表／「GitHub Copilot」ですでに本番稼働",
+          "link": "https://forest.watch.impress.co.jp/docs/news/2132444.html",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-08-13T09:04:24",
+          "excerpt": "品質は上がったのに価格は1/4 ～Microsoft、軽量コーディングモデル「MAI-Code-1.1-Flash」を発表／「GitHub Copilot」ですでに本番稼働"
+        },
         {
           "title": "Swift × DJI SDKで構築したDrone-to-Cloud動画配信基盤 ― 自動飛行からQR納品まで",
           "link": "https://qiita.com/Nipporia/items/1fa222279e8be760705e",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-13T04:59:31",
           "excerpt": "前回までで、 VPC Subnet Internet Gateway を作ってきた。ここまでで、 Internet │ ▼ Internet Gateway │ ▼ VPC │ ▼ Subnet │ ▼ ...…"
-        },
-        {
-          "title": "第3回 Terraform講座 Internet Gateway",
-          "link": "https://qiita.com/nyarusasu22/items/69ca8fc3d76264e75f9b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-13T04:42:10",
-          "excerpt": "前回は Subnet を作った。ここまでで、 VPC └── Subnet └── EC2 というAWSネットワークの「中身」ができてきた。でも、ここで一つ問題がある。このEC2、どうやってインターネットに出る？…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "ライアンエアー、デュアルクラウド フライト プランに Google Cloud を追加",
+      "link": "https://www.theregister.com/off-prem/2026/08/13/ryanair-adds-google-cloud-to-its-dual-cloud-flight-plan/5287336",
+      "source": "The Register（英語）",
+      "published": "2026-08-13T12:31:00",
+      "excerpt": "Gemini は、AWS がその地位を維持しながら、スタッフ、予測、メンテナンスをやりくりできるようになります"
+    },
+    {
+      "title": "ドイツ銀行がヨーロッパ初の外国人民元清算銀行となる",
+      "link": "https://tradersunion.com/news/central-banks/show/2973571-deutsche-bank-becomes/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-13T12:09:50",
+      "excerpt": "記事の URL: https://tradersunion.com/news/central-banks/show/2973571-deutsche-bank-becomes/ コメント URL: https://news.…"
+    },
+    {
+      "title": "ATG (YC F25) が技術スタッフ (データ プラットフォーム) を募集しています",
+      "link": "https://atg.science/careers",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-13T12:01:02",
+      "excerpt": "記事の URL: https://atg.science/careers コメント URL: https://news.ycombinator.com/item?id=49284697 ポイント: 0 コメント数: 0"
+    },
+    {
       "title": "JavaScript で公開された AWS キーが Beacon の慈善活動データへの道を照らす可能性がある",
       "link": "https://www.theregister.com/security/2026/08/13/aws-key-exposed-in-javascript-may-have-lit-way-to-beacons-charity-data/5287303",
       "source": "The Register（英語）",
       "published": "2026-08-13T11:34:00",
       "excerpt": "CRMプロバイダーは、顧客データベースがコピーされ、おそらく読み取り可能な形式でダウンロードされたことを確認しました"
-    },
-    {
-      "title": "「収益化のハードルが低いのを知っていますか？」―─ニコニコがXでアピール　YouTubeの条件引き上げ受け",
-      "link": "https://www.itmedia.co.jp/news/article/2608/13/2000000528/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-13T11:18:44",
-      "excerpt": "ニコニコ公式Xは8月12日、同サービスで収益化を始める際の条件などを紹介した。YouTubeが10日、広告収益を得るための新規参加条件を2027年2月から引き上げると発表しており、これを受けた投稿とみられる。"
-    },
-    {
-      "title": "Twitch は、停止するように指示しない限り、Amazon の AI にストリームを送信します。",
-      "link": "https://www.theregister.com/offbeat/2026/08/13/twitch-feeds-your-streams-to-amazons-ai-unless-you-tell-it-to-stop/5287258",
-      "source": "The Register（英語）",
-      "published": "2026-08-13T10:32:00",
-      "excerpt": "ボット トレーニング スイッチはデフォルトでオンになっています。最初に尋ねても機能しなかったようです。"
-    },
-    {
-      "title": "【Amazon Connect】エラー時の顧客情報をメール通知してみた",
-      "link": "https://dev.classmethod.jp/articles/amazon-connect-error-notification-system/",
-      "source": "DevelopersIO",
-      "published": "2026-08-13T10:08:28",
-      "excerpt": "Amazon Connect フローでエラーが発生した際に、AWS Step Functions と DynamoDB を組み合わせて、顧客情報をメール通知する方法をご紹介します。"
     }
   ]
 }
