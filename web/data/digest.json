@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-13T20:29:07",
+  "generated_at": "2026-08-13T21:14:14",
   "window_hours": 24,
-  "total": 217,
+  "total": 221,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が46件。記事の URL: https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が47件。記事の URL: https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
           "title": "組織による AI の使用方法: ChatGPT からの証拠 [pdf]",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。2026年8月12日、AWS IAM にロールマネージャが追加されました。有効にすると、対応サービスのコンソールで必要な IAM ロールを AWS が用意します。Lambda 関数の作成時に、実行ロールの扱いがどう変わるのかを確認しました。…",
+      "summary": "セキュリティの新着が15件。ランサムウェア攻撃を受けた企業は、どのような状況に陥り、何を判断しなければならないのか。実際の被害事例を基にしたシナリオを使い、企業が直面する意思決定を疑似体験するワークショップを取材した。…",
       "articles": [
+        {
+          "title": "ランサムウェア疑似体験で問われる「正解のない判断」――営業停止か、バックアップで復旧か、身代金を支払うか？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/14/news006.html",
+          "source": "@IT",
+          "published": "2026-08-13T20:00:00",
+          "excerpt": "ランサムウェア攻撃を受けた企業は、どのような状況に陥り、何を判断しなければならないのか。実際の被害事例を基にしたシナリオを使い、企業が直面する意思決定を疑似体験するワークショップを取材した。…"
+        },
         {
           "title": "IAMの新機能「ロールマネージャ」で Lambda の実行ロール設定を省略してみた",
           "link": "https://dev.classmethod.jp/articles/iam-role-manager-lambda-execution-role/",
@@ -99,13 +106,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-13T11:39:56",
           "excerpt": "【勉強会メモ】IAM（アイデンティティとアクセス管理）の基本 AWSを使う上で避けては通れないのが IAM（AWS Identity and Access Management） です。…"
-        },
-        {
-          "title": "【Security Hub修復手順】[CloudFront.17] CloudFront ディストリビューションでは、署名付き URLsと Cookie に信頼されたキーグループを使用する必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-cloudfront-17/",
-          "source": "DevelopersIO",
-          "published": "2026-08-13T09:12:39",
-          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
         }
       ]
     },
@@ -182,6 +182,13 @@
   ],
   "uncategorized": [
     {
+      "title": "ライターはトークンコストを抑制するために新しい AI モデルとアップグレードされたハーネスを導入します",
+      "link": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-13T21:13:24",
+      "excerpt": "Z.aiのオープンソースモデルGLM-5.2のトレーニング後のバリエーションとして構築された新システムは、導入にすぐに使える機能をはるかに低価格で提供するはずだとWriter氏は言う。"
+    },
+    {
       "title": "Databricks は 10 億ドルを調達したいと考えており、投資家は 150 億ドルを望んでいた。 1,900億ドルの評価額で50億ドルに落ち着きました。",
       "link": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
       "source": "TechCrunch（英語）",
@@ -189,25 +196,18 @@
       "excerpt": "AIは高価である、とAli Ghodsi氏はTechCrunchに語った。非常に多くの投資家が彼の最新ラウンドに参加したいと考えているため、彼は計画以上のことにイエスと答えた。"
     },
     {
-      "title": "ゲーデルの証明のしくみ",
-      "link": "https://www.quantamagazine.org/how-godels-proof-works-20200714/",
+      "title": "NP過大評価",
+      "link": "https://gruhn.me/blog/2026-08-13/",
       "source": "Hacker News（英語）",
-      "published": "2026-08-13T19:44:46",
-      "excerpt": "記事の URL: https://www.quantamagazine.org/how-godels-proof-works-20200714/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-13T20:14:17",
+      "excerpt": "記事の URL: https://gruhn.me/blog/2026-08-13/ コメント URL: https://news.ycombinator.com/item?id=49291268 ポイント: 26 コメント数: 7"
     },
     {
-      "title": "民間セ​​キュリティ会社による海外サイバー犯罪者のハッキングが間もなく許可される",
-      "link": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-13T19:38:58",
-      "excerpt": "トランプ大統領のメモは、政府が民間部門にサイバー攻撃を許可した初めての内容だ。"
-    },
-    {
-      "title": "ヴァージン・ギャラクティックは新しいデルタ級宇宙船の命名にご協力をお願いしています",
-      "link": "https://arstechnica.com/space/2026/08/virgin-galactic-wants-your-help-naming-its-new-delta-class-spaceship/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-13T19:12:15",
-      "excerpt": "それは VSS でしょうか...ホライゾン 、 エクスプローラー 、 アセンド 、または アペイロン でしょうか？…"
+      "title": "AIと地政学的緊張の時代　企業はデジタル主権の確保が急務に",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/14/news003.html",
+      "source": "@IT",
+      "published": "2026-08-13T20:00:00",
+      "excerpt": "企業は、地政学リスクの増大や政府介入による「突然のAI・クラウドサービス停止」に備え、デジタル主権の確保と事業継続性の維持が急務となっている。…"
     }
   ]
 }
