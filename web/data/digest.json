@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-13T10:51:24",
+  "generated_at": "2026-08-13T11:37:51",
   "window_hours": 24,
-  "total": 246,
+  "total": 243,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が54件。EC2上のcode-serverにBedrock経由のClaude Codeを載せ、ブラウザだけで使える開発環境を作りました。認証はIAMロールなので利用者にAPIキーは不要で、研修やハンズオンで配る用途に向いています。",
+      "summary": "生成AIの新着が55件。Amazon Bedrock の Managed Knowledge Base を Amazon Quick に接続し、日本語のドキュメントで自然言語問い合わせを試してみました。…",
       "articles": [
+        {
+          "title": "Amazon Bedrock Managed Knowledge Base に Amazon Quick から日本語で自然言語問合せしてみた",
+          "link": "https://dev.classmethod.jp/articles/20260813-amazon-mkb-with-quick/",
+          "source": "DevelopersIO",
+          "published": "2026-08-13T11:22:45",
+          "excerpt": "Amazon Bedrock の Managed Knowledge Base を Amazon Quick に接続し、日本語のドキュメントで自然言語問い合わせを試してみました。…"
+        },
+        {
+          "title": "夏の読書感想文：『LLMの原理、RAG・エージェント開発から読み解く コンテキストエンジニアリング』 | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/052576a821395d",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-13T10:16:09",
+          "excerpt": "ちょっと時間ができたので、体系的にエージェント開発・コンテキストエンジニアリングを学びたくて、久々にzenn記事投稿してみました。読んで得られたものや気づきなどを、備忘録もかねて、章ごとに気ままに書いていこうと思います。…"
+        },
         {
           "title": "ブラウザだけで使えるClaude Code環境をEC2 + code-server + Bedrockで作ってみた",
           "link": "https://dev.classmethod.jp/articles/202608-ec2-code-server-claude-code-bedrock/",
@@ -22,27 +36,13 @@
           "source": "CodeZine",
           "published": "2026-08-13T09:00:00",
           "excerpt": "Google Classroom、Geminiによるルーブリック自動生成機能を追加"
-        },
-        {
-          "title": "本番で使える生成AIモデルの選び方 - Identify / Evaluate / Optimize の3ステップ【AWS Summit 2026 - セッションレポート】",
-          "link": "https://qiita.com/Ryoichi_Katsuhisa/items/cd31543889edd4c5cadc",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-13T08:49:08",
-          "excerpt": "〜Identify / Evaluate / Optimizeで、本番で使えるAIを選ぶ〜 はじめに 本記事は、AWS Summit Japan 2026で発表された 「生成AIモデルを選ぶ技術 -モデル選択のフレームワーク-」 （小林 大…"
-        },
-        {
-          "title": "【C# × Blazor × AzureOpenAI】VSCodeからC#のWebアプリを作成してみた | ヘッドウォータースのフィード",
-          "link": "https://zenn.dev/headwaters/articles/c5a52e0f35ac1d",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-13T08:38:00",
-          "excerpt": "私は普段、クラウドエンジニアとして主にAzure環境の設計・構築を行っています。バックエンド開発はPython/FastAPIの経験が中心で、C#やASP.NET Coreはほぼ未経験でした。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。EC2上のcode-serverにBedrock経由のClaude Codeを載せ、ブラウザだけで使える開発環境を作りました。認証はIAMロールなので利用者にAPIキーは不要で、研修やハンズオンで配る用途に向いています。",
+      "summary": "クラウドの新着が18件。EC2上のcode-serverにBedrock経由のClaude Codeを載せ、ブラウザだけで使える開発環境を作りました。認証はIAMロールなので利用者にAPIキーは不要で、研修やハンズオンで配る用途に向いています。",
       "articles": [
         {
           "title": "ブラウザだけで使えるClaude Code環境をEC2 + code-server + Bedrockで作ってみた",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が22件。AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。",
+      "summary": "セキュリティの新着が19件。AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。",
       "articles": [
         {
           "title": "【Security Hub修復手順】[CloudFront.17] CloudFront ディストリビューションでは、署名付き URLsと Cookie に信頼されたキーグループを使用する必要があります",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。はじめに こんにちは。リテールハブ小売アプリ開発チームの池です。小売アプリチームでは、昨年から CodeRabbit を利用して PR レビューを行っています。日々活用してはいるものの、アップデートの内容を追いきれていませんでした。…",
+      "summary": "データ分析の新着が4件。はじめに こんにちは。リテールハブ小売アプリ開発チームの池です。小売アプリチームでは、昨年から CodeRabbit を利用して PR レビューを行っています。日々活用してはいるものの、アップデートの内容を追いきれていませんでした。…",
       "articles": [
         {
           "title": "CodeRabbit の 2026 年アップデート内容を追ってみる | every Tech Blog",
@@ -157,6 +157,13 @@
           "excerpt": "数年前、観光・アウトドア向けのドローン撮影体験を想定し、SwiftとDJI SDKを使ったiOSアプリケーションを設計・実装しました。…"
         },
         {
+          "title": "Swift × DJI SDKで構築したDrone-to-Cloud動画配信基盤 ― 自動飛行からQR納品まで",
+          "link": "https://zenn.dev/nipporia/articles/a0dde2e4a6ead8",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-13T06:28:27",
+          "excerpt": "数年前、観光・アウトドア向けのドローン撮影体験を想定し、SwiftとDJI SDKを使ったiOSアプリケーションを設計・実装しました。…"
+        },
+        {
           "title": "第4回 Terraform講座 Route Table",
           "link": "https://qiita.com/nyarusasu22/items/d0dd2dbfe2533345d9a7",
           "source": "Qiita AWSタグ",
@@ -169,18 +176,25 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-13T04:42:10",
           "excerpt": "前回は Subnet を作った。ここまでで、 VPC └── Subnet └── EC2 というAWSネットワークの「中身」ができてきた。でも、ここで一つ問題がある。このEC2、どうやってインターネットに出る？…"
-        },
-        {
-          "title": "第2回 Terraform講座 Subnet",
-          "link": "https://qiita.com/nyarusasu22/items/0f7fa7f0cafee86b6812",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-13T04:32:54",
-          "excerpt": "はじめに 第1回では、TerraformでVPCを作った。今回のテーマは、 Subnet。ただ、今回もいきなりコードを書くわけじゃない。まずはAWSコンソールでSubnetを作ったときのことを思い出してみる。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "JavaScript で公開された AWS キーが Beacon の慈善活動データへの道を照らす可能性がある",
+      "link": "https://www.theregister.com/security/2026/08/13/aws-key-exposed-in-javascript-may-have-lit-way-to-beacons-charity-data/5287303",
+      "source": "The Register（英語）",
+      "published": "2026-08-13T11:34:00",
+      "excerpt": "CRMプロバイダーは、顧客データベースがコピーされ、おそらく読み取り可能な形式でダウンロードされたことを確認しました"
+    },
+    {
+      "title": "「収益化のハードルが低いのを知っていますか？」―─ニコニコがXでアピール　YouTubeの条件引き上げ受け",
+      "link": "https://www.itmedia.co.jp/news/article/2608/13/2000000528/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-13T11:18:44",
+      "excerpt": "ニコニコ公式Xは8月12日、同サービスで収益化を始める際の条件などを紹介した。YouTubeが10日、広告収益を得るための新規参加条件を2027年2月から引き上げると発表しており、これを受けた投稿とみられる。"
+    },
     {
       "title": "Twitch は、停止するように指示しない限り、Amazon の AI にストリームを送信します。",
       "link": "https://www.theregister.com/offbeat/2026/08/13/twitch-feeds-your-streams-to-amazons-ai-unless-you-tell-it-to-stop/5287258",
@@ -194,20 +208,6 @@
       "source": "DevelopersIO",
       "published": "2026-08-13T10:08:28",
       "excerpt": "Amazon Connect フローでエラーが発生した際に、AWS Step Functions と DynamoDB を組み合わせて、顧客情報をメール通知する方法をご紹介します。"
-    },
-    {
-      "title": "ドコモ・バイクシェア、全エリアでサービス再開　全面停止から9日ぶり",
-      "link": "https://www.itmedia.co.jp/news/article/2608/13/2000000532/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-13T09:47:38",
-      "excerpt": "8月4日の全面停止から9日ぶりに全エリアで利用可能になった。"
-    },
-    {
-      "title": "ピクルスがあるとすべてが良くなります...Windows を除いて",
-      "link": "https://www.theregister.com/offbeat/2026/08/13/everything-is-better-with-pickles-except-windows/5284978",
-      "source": "The Register（英語）",
-      "published": "2026-08-13T09:26:00",
-      "excerpt": "チキンサンドイッチの広告にオペレーティングシステムの消化不良が現れる"
     }
   ]
 }
