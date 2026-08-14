@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-08-14T03:04:01",
+  "generated_at": "2026-08-14T05:12:09",
   "window_hours": 24,
-  "total": 210,
+  "total": 206,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。概要 こちらの記事は「MEDLEY Summer Tech Blog Relay」の23日目の記事です。はじめに こんにちは。医療プラットフォーム本部 病院プロダクト統括部 SREグループの竹本です。…",
+      "summary": "生成AIの新着が42件。Bedrock AgentCore のハンズオンを通して AI エージェントの仕組み（ハーネス・ランタイム・ツール等）を理解するための入門記事です。",
       "articles": [
         {
-          "title": "【Amazon Bedrock】長文入力におけるClaudeの仕様が変わったので検証してみる",
-          "link": "https://qiita.com/tkmt0322/items/60956fb3f8390a58c6b2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-14T02:20:36",
-          "excerpt": "概要 こちらの記事は「MEDLEY Summer Tech Blog Relay」の23日目の記事です。はじめに こんにちは。医療プラットフォーム本部 病院プロダクト統括部 SREグループの竹本です。…"
-        },
-        {
-          "title": "5大コーディングエージェントを検証　バイブコーディング時代のリスクと対策",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/14/news045.html",
-          "source": "@IT",
-          "published": "2026-08-14T01:15:00",
-          "excerpt": "開発現場でコーディングエージェントの活用が進む一方、脆弱なコードの生成やレビュー崩壊といったリスクへの対策が急務です。5大コーディングエージェントの検証結果や最新の脅威動向、組織が講じるべき具体的な対策などをまとめました。"
-        },
-        {
-          "title": "Amazon Connect AIエージェントで Bedrock Knowledge Base の S3 ドキュメントメタデータを使って回答を出し分けてみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-connect-ai-agent-bedrock-knowledge-base-s3-metadata-filter/",
+          "title": "Amazon Bedrock AgentCore 入門 - AI エージェントを自作しながら 「ハーネス」 の仕組みを学んでみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-hands-on-study-agent-harness/",
           "source": "DevelopersIO",
-          "published": "2026-08-14T01:14:54",
-          "excerpt": "Amazon Connect AIエージェントと Bedrock Knowledge Base を組み合わせ、S3 メタデータを使ったナレッジのフィルタリングを検証しました。…"
+          "published": "2026-08-14T05:00:00",
+          "excerpt": "Bedrock AgentCore のハンズオンを通して AI エージェントの仕組み（ハーネス・ランタイム・ツール等）を理解するための入門記事です。"
         },
         {
-          "title": "Claude CodeからAgentCore GatewayへのSSO接続を作り直すついでにOAuthのクライアント登録を学ぶ",
-          "link": "https://qiita.com/har1101/items/94431fc27776443170e7",
+          "title": "【ぼくのなつやすみ②】生成AIに「いつもと違う視点」で探してもらったらアイデアは変わるのか？",
+          "link": "https://qiita.com/manaty/items/ba4182242ee42f5d1e85",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-14T01:03:57",
-          "excerpt": "はじめに こんにちは、ふくちと申します。以前、Claude Codeから社内向けのMCPサーバー(AgentCore Gateway)へ、会社のSSOログインで接続する構成を書きました。この構成のキモはLambdaのDCR Proxyです。…"
+          "published": "2026-08-14T04:18:05",
+          "excerpt": "はじめに こんにちは、マナティです！前回は明石市立天文科学館で「時間」の話をしました。実はその日、明石の後に神戸まで足を延ばして、劇場型アクアリウム「átoa」にも行ってきました。…"
+        },
+        {
+          "title": "厚労省、情報公開事務の迅速化に生成AI・RAG基盤を導入　どう構築したのか",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/14/news052.html",
+          "source": "@IT",
+          "published": "2026-08-14T04:00:00",
+          "excerpt": "日本オラクルは、厚生労働省が同社のAIサービスを活用し、情報公開等事務の効率化に向けたAI活用基盤を構築していると発表した。第1段階として、前例や関連文書の意味検索システムの稼働を開始しているという。"
+        },
+        {
+          "title": "生成AI、7割が「チャット止まり」　“使い方”で生産性に大きな違い",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/13/news090.html",
+          "source": "@IT",
+          "published": "2026-08-14T04:00:00",
+          "excerpt": "オフィス系職種を対象に実施された調査で、明確に生産性向上の成果が出ている層は約2割にとどまっていることが分かった。その他の8割との間には、利用方法の違いが見られたという。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。Amazon S3 の 403 Access Denied エラーでは、明示的に拒否したポリシーの ARN が表示されるようになりました。…",
+      "summary": "クラウドの新着が17件。HSP3というプログラミング言語で、AWS Lambda にカスタムランタイムとして TODO API を実装・デプロイしてみました。…",
       "articles": [
         {
-          "title": "S3 の 403 エラーでポリシー ARN が表示される条件を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/s3-403-policy-arn-conditions/",
+          "title": "HSP3 で書いた TODO API を AWS Lambda のカスタムランタイムで動かしてみた",
+          "link": "https://dev.classmethod.jp/articles/daujii-hsp3-todo-api-aws-lambda-custom-runtime/",
           "source": "DevelopersIO",
-          "published": "2026-08-14T02:49:02",
-          "excerpt": "Amazon S3 の 403 Access Denied エラーでは、明示的に拒否したポリシーの ARN が表示されるようになりました。…"
+          "published": "2026-08-14T04:33:09",
+          "excerpt": "HSP3というプログラミング言語で、AWS Lambda にカスタムランタイムとして TODO API を実装・デプロイしてみました。…"
         },
         {
-          "title": "Amazon EKS Auto Mode 上で Agones を安定稼働させる設計のポイント",
-          "link": "https://aws.amazon.com/jp/blogs/news/agones-on-eks-automode-practice/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-14T01:33:03",
-          "excerpt": "リアルタイム性の高いマルチプレイヤーゲームでは専用ゲームサーバー方式が広く使われており、マッチメイキングやサーバーの割り当て・回収といったライフサイクル管理のオーケストレーション基盤の設計が重要なテーマとなります。…"
-        },
-        {
-          "title": "Amazon Connect AIエージェントで Bedrock Knowledge Base の S3 ドキュメントメタデータを使って回答を出し分けてみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-connect-ai-agent-bedrock-knowledge-base-s3-metadata-filter/",
-          "source": "DevelopersIO",
-          "published": "2026-08-14T01:14:54",
-          "excerpt": "Amazon Connect AIエージェントと Bedrock Knowledge Base を組み合わせ、S3 メタデータを使ったナレッジのフィルタリングを検証しました。…"
-        },
-        {
-          "title": "AIエージェントにMinecraftの運用を任せたい① EC2 + Docker + Geyserでスマホから入れるサーバーを立てる(統合版/Java版クロスプレイ対応)",
-          "link": "https://qiita.com/ayu2d2/items/51b46ffbe789099597c3",
+          "title": "EC2停止中にS3のSorryページへ切り替えるRoute 53フェイルオーバーを試す",
+          "link": "https://qiita.com/chaochire/items/447176be79a7263b349f",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-14T00:27:24",
-          "excerpt": "はじめに こんにちは！この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の14日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。…"
+          "published": "2026-08-14T03:49:52",
+          "excerpt": "こんにちは ソーイ株式会社 Webエンジニア2年目の村上です。Webサービスを運用していると、障害によってサービスが停止してしまったり、メンテナンスのために一時的にサービスを停止したりする場面があります。…"
+        },
+        {
+          "title": "静的配信の高速化：S3とCloudFrontの最適な分担",
+          "link": "https://qiita.com/felix-jp-studio/items/594859b65fb2b9e6e1f0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-14T03:38:14",
+          "excerpt": "はじめに 静的Webサイトやコンテンツの配信は、ユーザーに高速で安定したサービスを提供する上で重要です。…"
+        },
+        {
+          "title": "学生向け実践型ハッカソン「Tornado2026」に教育パートナーとして参画のお知らせ | 株式会社ハートビーツ（HEARTBEATS Corporation）｜AWS・クラウド・サーバーなどのインフラ運用を24時間365日サポート",
+          "link": "https://heartbeats.jp/info/pressrelease/release-20260814/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-14T03:00:00",
+          "excerpt": "一般社団法人夢未来・デジタル起業支援ラボが主催する学生向け実践型ハッカソン「Tornado2026」に、教育パートナーとしての参画をお知らせいたします。「Tornado2026」とは 「AIが答えを出す時代に、チームで…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。はじめに こんにちは、株式会社エブリーのデリッシュキッチンにて7月から約1か月間エンジニアとしてインターンシップに参加していました、亀井と申します。…",
+      "summary": "セキュリティの新着が12件。2026年8月に一般提供が始まった IAM ロールマネージャーは、コンソールでの操作に必要なロールを自動で作成します。生成されるロールに広範な権限が付与される場合もあるため、組織として利用を許可するかを決める必要があります。…",
       "articles": [
+        {
+          "title": "IAM ロールマネージャーを Organizations の SCP で拒否してみた",
+          "link": "https://dev.classmethod.jp/articles/iam-role-manager-scp-deny/",
+          "source": "DevelopersIO",
+          "published": "2026-08-14T04:54:04",
+          "excerpt": "2026年8月に一般提供が始まった IAM ロールマネージャーは、コンソールでの操作に必要なロールを自動で作成します。生成されるロールに広範な権限が付与される場合もあるため、組織として利用を許可するかを決める必要があります。…"
+        },
         {
           "title": "Lakebaseの認証実装とORM選定をした話 | every Tech Blog",
           "link": "https://tech.every.tv/entry/2026/08/14/111734",
@@ -99,13 +106,6 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-14T00:51:06",
           "excerpt": "Anthropicは、複数のAIエージェントが同じ環境で働くとどうなるかを検証した実験結果を公開した。互いを妨害し合う“縄張り争い”や、示し合わせたような価格カルテル、全員が同じ判断をして資源を食い潰す現象などが確認された。…"
-        },
-        {
-          "title": "WafCharm から AWS WAF の Protection Pack に安全に切り替える | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/migrate-wafcharm-to-aws-waf-protection-pack",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-13T23:00:00",
-          "excerpt": "セキュリティサービス部 佐竹です。稀にですが、お客様より WafCharm から AWS WAF 及びその Managed Rules (Protection Pack) に切り替えたいという要望があります。…"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。開発現場でコーディングエージェントの活用が進む一方、脆弱なコードの生成やレビュー崩壊といったリスクへの対策が急務です。5大コーディングエージェントの検証結果や最新の脅威動向、組織が講じるべき具体的な対策などをまとめました。",
+      "summary": "開発ツールの新着が9件。開発現場でコーディングエージェントの活用が進む一方、脆弱なコードの生成やレビュー崩壊といったリスクへの対策が急務です。5大コーディングエージェントの検証結果や最新の脅威動向、組織が講じるべき具体的な対策などをまとめました。",
       "articles": [
         {
           "title": "5大コーディングエージェントを検証　バイブコーディング時代のリスクと対策",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "2026年8月12日付GCASアップデート",
-      "link": "https://qiita.com/Seria_GovCloud/items/072bb967d859046b3a20",
+      "title": "AWSのファイルストレージサービスを比較する(EFS/FSxファミリー)",
+      "link": "https://qiita.com/lhormace/items/f446ec8f2a3bab44f5f5",
       "source": "Qiita AWSタグ",
-      "published": "2026-08-14T03:01:55",
-      "excerpt": "2026年8月12日付GCASアップデートです。なおMicrosoftAzureとGoogleCloudについては利用実績が少ないため割愛します。…"
+      "published": "2026-08-14T04:57:53",
+      "excerpt": "はじめに AWSのファイルストレージサービスにはAmazon EFSとAmazon FSxファミリーがあり、 それぞれ対応プロトコルやユースケースが異なります。SAA-C03学習の中で整理した内容を備忘録としてまとめます。…"
     },
     {
-      "title": "CA/Bフォーラムの決定に基づきAWS Certificate ManagerでのEメール検証によるパブリック証明書の発行・更新が廃止の方針となるようです",
-      "link": "https://dev.classmethod.jp/articles/aws-certificate-manager-eos-mail-verification/",
-      "source": "DevelopersIO",
-      "published": "2026-08-14T02:56:00",
-      "excerpt": "AWS Certificate Manager（ACM）のメール検証が廃止され、DNS検証へ一本化されます。2027年9月末までに既存証明書の検証方式を切り替える必要があります。…"
+      "title": "千葉県の豪雨から一夜　2万軒超で停電続く　千葉市では2260人が避難",
+      "link": "https://www.itmedia.co.jp/news/article/2608/14/2000000541/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-14T04:31:32",
+      "excerpt": "8月13日の大雨の影響で、千葉県内では14日も大規模な停電が続いている。東京電力パワーグリッドの停電情報によると、14日午後1時時点で、県内では約2万2370軒が停電している。茨城県でも同時点で580軒が停電していという。"
     },
     {
-      "title": "TVerはiOSDC Japan 2026にゴールドスポンサーとして協賛します！ | TVer Tech Blog",
-      "link": "https://techblog.tver.co.jp/entry/kuroda/iosdc2026",
+      "title": "GPOとIntune構成プロファイルの棲み分け | JBS Tech Blog",
+      "link": "https://blog.jbs.co.jp/entry/2026/08/14/131809",
       "source": "企業テックブログまとめ",
-      "published": "2026-08-14T02:40:01",
-      "excerpt": "こんにちは、TVerでiOS/Android領域のエンジニアリングマネージャーをしている黒田です。TVerは今年も、iOSDC Japan 2026にゴールドスポンサーとして協賛させていただくことになりました！…"
+      "published": "2026-08-14T04:18:09",
+      "excerpt": "Active Directory 環境でWindows端末を管理する仕組みとして、前回の記事ではグループポリシー（GPO）を取り上げました。(GPOの管理用テンプレートとは？…"
     },
     {
-      "title": "TLSを手で動かすハンズオンを作った話 | Intelligent Technology's Technical Blog",
-      "link": "https://iti.hatenablog.jp/entry/2026/08/14/113328",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-14T02:33:28",
-      "excerpt": "こんにちは！ITIの吉葉です！今回はTLSの理解を深める資料として、TLS通信の基本フローを手で動かすハンズオン資料を作ったので紹介します。ColabNotebook配布 今回作成したColabNotebookは以下で共有しています。…"
+      "title": "年収1048万円の「フリーランスAIエンジニア」に仕事は来るか？　一部出社を求める案件が増加",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/14/news048.html",
+      "source": "@IT",
+      "published": "2026-08-14T04:00:00",
+      "excerpt": "INSTANTROOMが自社プラットフォーム掲載の約1.7万件を対象としたAIエンジニアの案件調査を公開した。平均年収は1048万円で職種別8位。リモート比率は84.9％と高水準だが、一部出社への移行傾向も見られる。"
     }
   ]
 }
