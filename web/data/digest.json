@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-14T10:47:15",
+  "generated_at": "2026-08-14T11:35:40",
   "window_hours": 24,
-  "total": 215,
+  "total": 217,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が39件。制限がかかった検証環境の目視確認を、Claude in Chrome と FoxyProxy の組み合わせで肩代わりさせました。…",
+      "summary": "生成AIの新着が39件。Article URL: https://pssah4.github.io/vault-operator/guides/capabilities コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "誰もが AI エージェントについて話します。内側から見るとこんな感じです",
+          "link": "https://pssah4.github.io/vault-operator/guides/capabilities",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-14T10:44:12",
+          "excerpt": "Article URL: https://pssah4.github.io/vault-operator/guides/capabilities コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "Claude in Chrome と FoxyProxy で IP 制限のかかった環境を検証した話",
           "link": "https://dev.classmethod.jp/articles/claude-in-chrome-foxyproxy-ip-restricted-verification/",
@@ -29,21 +36,21 @@
           "source": "gihyo.jp 開発",
           "published": "2026-08-14T08:28:00",
           "excerpt": "DeepSeekは2026年8月13日、エージェントハーネス「DeepSeek Harness」のバージョン0.1を開発者プレビューとして公開した。"
-        },
-        {
-          "title": "クロード コードは空白の思考ブロックを返しますが、推論には依然としてコストがかかります",
-          "link": "https://www.theregister.com/ai-and-ml/2026/08/14/claude-code-returns-blank-thinking-blocks-but-reasoning-still-costs-you/5287557",
-          "source": "The Register（英語）",
-          "published": "2026-08-14T07:30:00",
-          "excerpt": "モデルの思考ブロックが空または切り捨てられて返されると開発者が報告"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。はじめに 既報 の通り、Aurora MySQL 8.4のリリースに伴い、Aurora MySQL 3の標準サポート終了日が2028年4月30日に決定しました。そろそろバージョンアップの計画を立て始めている方もいらっしゃ […]",
+      "summary": "クラウドの新着が22件。Article URL: https://github.com/inevolin/k8s-cpu-limits-analyzed Comments URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "For the love of god stop using CPU limits in Kubernetes",
+          "link": "https://github.com/inevolin/k8s-cpu-limits-analyzed",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-14T10:41:21",
+          "excerpt": "Article URL: https://github.com/inevolin/k8s-cpu-limits-analyzed Comments URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "Aurora MySQL 3.x から 8.4 へ！Blue/Green Deployments 本番投入前のチェックリスト | スマートスタイル TECH BLOG",
           "link": "https://blog.s-style.co.jp/2026/08/16654/",
@@ -64,21 +71,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-14T07:03:50",
           "excerpt": "こんにちは！LOHACOのバックエンド開発部のさわだです。先日、AWS Summit Japan 2026に参加してきました。参加したセッションで「ECSってこの1年でこんなに変わっていたのか…」と、正直驚きました。…"
-        },
-        {
-          "title": "EC2 Auto Scaling の動的・スケジュール・予測スケーリングで最大キャパシティを超えられるのか検証してみた",
-          "link": "https://dev.classmethod.jp/articles/asg-exceed-max-capacity/",
-          "source": "DevelopersIO",
-          "published": "2026-08-14T06:44:55",
-          "excerpt": "AWS Auto Scaling の3つのスケーリング方式（動的・スケジュール・予測）について、最大キャパシティの制約を超えられるかどうかを実際に検証してみました。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。たとえハードウェアが安全で、量子対応、暗号化され、将来性があるとしても、サプライヤーが側を裏切ることを免れる人は誰もいません。",
+      "summary": "セキュリティの新着が12件。Security Hub CSPM コントロール SSM.7 を全アカウント・全リージョンで一括設定したいですよね。…",
       "articles": [
+        {
+          "title": "CloudFormation StackSetsでSSMドキュメントのパブリック共有をブロックしてSecurity Hub CSPMのSSM.7に全アカウントで対応する",
+          "link": "https://dev.classmethod.jp/articles/ssm7-block-public-sharing-cfn-stacksets/",
+          "source": "DevelopersIO",
+          "published": "2026-08-14T11:08:18",
+          "excerpt": "Security Hub CSPM コントロール SSM.7 を全アカウント・全リージョンで一括設定したいですよね。…"
+        },
         {
           "title": "暗号通貨ウォレットメーカーのTrezorは、物流侵害で13,000人の顧客の詳細情報が流出したことを確認",
           "link": "https://www.theregister.com/security/2026/08/14/crypto-wallet-maker-trezor-confirms-13000-customers-details-exposed-in-logistics-breach/5287734",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-14T04:54:04",
           "excerpt": "2026年8月に一般提供が始まった IAM ロールマネージャーは、コンソールでの操作に必要なロールを自動で作成します。生成されるロールに広範な権限が付与される場合もあるため、組織として利用を許可するかを決める必要があります。…"
-        },
-        {
-          "title": "Lakebaseの認証実装とORM選定をした話 | every Tech Blog",
-          "link": "https://tech.every.tv/entry/2026/08/14/111734",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-14T02:17:34",
-          "excerpt": "はじめに こんにちは、株式会社エブリーのデリッシュキッチンにて7月から約1か月間エンジニアとしてインターンシップに参加していました、亀井と申します。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。はじめに 既報 の通り、Aurora MySQL 8.4のリリースに伴い、Aurora MySQL 3の標準サポート終了日が2028年4月30日に決定しました。そろそろバージョンアップの計画を立て始めている方もいらっしゃ […]",
+      "summary": "開発ツールの新着が12件。Security Hub CSPM コントロール SSM.7 を全アカウント・全リージョンで一括設定したいですよね。…",
       "articles": [
+        {
+          "title": "CloudFormation StackSetsでSSMドキュメントのパブリック共有をブロックしてSecurity Hub CSPMのSSM.7に全アカウントで対応する",
+          "link": "https://dev.classmethod.jp/articles/ssm7-block-public-sharing-cfn-stacksets/",
+          "source": "DevelopersIO",
+          "published": "2026-08-14T11:08:18",
+          "excerpt": "Security Hub CSPM コントロール SSM.7 を全アカウント・全リージョンで一括設定したいですよね。…"
+        },
         {
           "title": "Aurora MySQL 3.x から 8.4 へ！Blue/Green Deployments 本番投入前のチェックリスト | スマートスタイル TECH BLOG",
           "link": "https://blog.s-style.co.jp/2026/08/16654/",
@@ -169,13 +176,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-14T08:42:57",
           "excerpt": "はじめに2026年8月13日 21時30分(JST)、DeepSeek から V4-Pro の正式版 DeepSeek-V4-Pro-0813 のモデルウェイトが公開されました。…"
-        },
-        {
-          "title": "Eclipse：Xiaomi 17 Ultraは月と太陽を混同する",
-          "link": "https://www.frandroid.com/marques/xiaomi/3211257_photo-de-leclipse-on-a-perce-a-jour-la-petite-triche-du-xiaomi-17-ultra-qui-confond-la-lune-et-le-soleil",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-14T07:03:56",
-          "excerpt": "記事の URL: https://www.frandroid.…"
         }
       ]
     }
