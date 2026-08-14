@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T23:09:33",
+  "generated_at": "2026-08-14T00:04:33",
   "window_hours": 24,
-  "total": 212,
+  "total": 216,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。2026年8月12日、AWS IAM にロールマネージャが追加されました。有効にすると、対応サービスのコンソールで必要な IAM ロールを AWS が用意します。Lambda 関数の作成時に、実行ロールの扱いがどう変わるのかを確認しました。…",
+      "summary": "クラウドの新着が16件。Amazon S3 のアクセス拒否エラーメッセージが、先日のアップデートで原因となったポリシーの具体的な ARN を表示するようになりました。…",
       "articles": [
+        {
+          "title": "[アップデート] S3 で「どのポリシーに拒否されたか」がエラーメッセージだけで特定できるようになりました",
+          "link": "https://dev.classmethod.jp/articles/s3-additional-policy-details-access-denied-error-messages/",
+          "source": "DevelopersIO",
+          "published": "2026-08-13T23:09:50",
+          "excerpt": "Amazon S3 のアクセス拒否エラーメッセージが、先日のアップデートで原因となったポリシーの具体的な ARN を表示するようになりました。…"
+        },
         {
           "title": "IAMの新機能「ロールマネージャ」で Lambda の実行ロール設定を省略してみた",
           "link": "https://dev.classmethod.jp/articles/iam-role-manager-lambda-execution-role/",
@@ -64,21 +71,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-13T14:18:34",
           "excerpt": "記事の URL: https://www.echo.ai/blog/echo-xnanoclaw-under-the-hood コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Amazon S3 は、アクセス拒否エラー メッセージに追加のポリシー詳細を追加します",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/s3-additional-policy-details-access-denied-error-messages/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-13T13:00:00",
-          "excerpt": "Amazon S3 には、同じアカウントおよび同じ組織のリクエストに対する HTTP 403 アクセス拒否エラー メッセージに、特定の AWS Identity and Access Management (IAM) および AWS Org…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。ランサムウェア攻撃を受けた企業は、どのような状況に陥り、何を判断しなければならないのか。実際の被害事例を基にしたシナリオを使い、企業が直面する意思決定を疑似体験するワークショップを取材した。…",
+      "summary": "セキュリティの新着が13件。セキュリティサービス部 佐竹です。稀にですが、お客様より WafCharm から AWS WAF 及びその Managed Rules (Protection Pack) に切り替えたいという要望があります。…",
       "articles": [
+        {
+          "title": "WafCharm から AWS WAF の Protection Pack に安全に切り替える | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/migrate-wafcharm-to-aws-waf-protection-pack",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-13T23:00:00",
+          "excerpt": "セキュリティサービス部 佐竹です。稀にですが、お客様より WafCharm から AWS WAF 及びその Managed Rules (Protection Pack) に切り替えたいという要望があります。…"
+        },
         {
           "title": "ランサムウェア疑似体験で問われる「正解のない判断」――営業停止か、バックアップで復旧か、身代金を支払うか？",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/14/news006.html",
@@ -99,13 +106,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-13T14:18:34",
           "excerpt": "記事の URL: https://www.echo.ai/blog/echo-xnanoclaw-under-the-hood コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "【勉強会メモ】IAM（アイデンティティとアクセス管理）の基本",
-          "link": "https://qiita.com/metty0606/items/a6377a5f1c5eb6ec360e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-13T11:39:56",
-          "excerpt": "【勉強会メモ】IAM（アイデンティティとアクセス管理）の基本 AWSを使う上で避けては通れないのが IAM（AWS Identity and Access Management） です。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。AWS Client VPN では、コマンドライン インターフェイス (CLI) サポート、エンタープライズ管理制御、接続確立時間の短縮などの新機能を提供する再構築された AWS VPN Client v6.0.…",
+      "summary": "開発ツールの新着が13件。「Terraform AzureRMプロバイダー5.0」が一般提供開始",
       "articles": [
+        {
+          "title": "「Terraform AzureRMプロバイダー5.0」が一般提供開始",
+          "link": "https://codezine.jp/article/detail/29272",
+          "source": "CodeZine",
+          "published": "2026-08-13T23:00:00",
+          "excerpt": "「Terraform AzureRMプロバイダー5.0」が一般提供開始"
+        },
         {
           "title": "AWS Client VPN が CLI、管理制御、高速接続をサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-client-vpn-cli/",
@@ -169,45 +176,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-13T15:58:49",
           "excerpt": "はじめに こんにちは、やのです。大阪の専門学校に通いながら、普段はフロントエンドを中心に開発しています。…"
-        },
-        {
-          "title": "terraform plan と apply、何気なく打ってたけど違いを説明できる?",
-          "link": "https://zenn.dev/yasutomo7974/articles/terraform-plan-apply-difference",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-13T12:44:25",
-          "excerpt": "おはようございます、YASUです。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "SNS入門。1回のpublishが購読者全員に届く仕組みと、SQSとの違い",
-      "link": "https://qiita.com/daisuke-nagata/items/59b0ce3f44b4b865eca1",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-13T22:57:14",
-      "excerpt": "対象読者: AWSをこれから触る人。AWS勉強シリーズの2本目で、今回はAmazon SNSがどういうものかを勉強します。全体の地図は索引記事にあります。…"
+      "title": "開発初期から品質を作り込む「インプロセスQA」の実践、LayerXがQAやPMの協働を語るイベント開催",
+      "link": "https://codezine.jp/article/detail/29320",
+      "source": "CodeZine",
+      "published": "2026-08-13T23:30:00",
+      "excerpt": "開発初期から品質を作り込む「インプロセスQA」の実践、LayerXがQAやPMの協働を語るイベント開催"
     },
     {
-      "title": "豪雨被害の千葉で「通れた道マップ」トヨタが公開　直近3時間の通行実績が分かる",
-      "link": "https://www.itmedia.co.jp/news/article/2608/14/2000000536/",
+      "title": "AI テキスト透かしの仕組み",
+      "link": "https://declaude.org/watermarking/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-13T23:16:55",
+      "excerpt": "記事の URL: https://declaude.org/watermarking/ コメント URL: https://news.ycombinator.com/item?id=49292932 ポイント: 4 コメント数: 0"
+    },
+    {
+      "title": "欲しいと言われた機能が使われない課題を解決、施策に繋げるUXリサーチの質問設計セミナー開催",
+      "link": "https://codezine.jp/article/detail/29319",
+      "source": "CodeZine",
+      "published": "2026-08-13T23:15:00",
+      "excerpt": "欲しいと言われた機能が使われない課題を解決、施策に繋げるUXリサーチの質問設計セミナー開催"
+    },
+    {
+      "title": "Instagram、ワードマークを10年ぶりに刷新 筆記体をより太くシンプルに",
+      "link": "https://www.itmedia.co.jp/news/article/2608/14/2000000537/",
       "source": "ITmedia NEWS",
-      "published": "2026-08-13T22:41:41",
-      "excerpt": "直近3時間以内に車両が通行できた道路を地図で確認できる。"
-    },
-    {
-      "title": "AWSとは何か。主要サービスの地図と解説記事の索引(随時更新)",
-      "link": "https://qiita.com/daisuke-nagata/items/3ef49836096bea4e6529",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-13T22:40:58",
-      "excerpt": "Amazon Web Services(AWS)は、2006年にAmazonが提供を開始したクラウドコンピューティングのプラットフォームです。…"
-    },
-    {
-      "title": "SQS入門。受信してもメッセージが消えない仕組みと使い方",
-      "link": "https://qiita.com/daisuke-nagata/items/77b5decee0647e510099",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-13T22:40:57",
-      "excerpt": "対象読者: AWSをこれから触る人。AWS勉強シリーズの1本目で、Amazon SQSがどういうものかを勉強します。全体の地図は索引記事にあります。…"
+      "published": "2026-08-13T23:03:37",
+      "excerpt": "Metaは、Instagramのブランドアイデンティティ刷新を発表した。アプリ上部のワードマークを10年ぶりに更新し、より太くシンプルな筆記体を採用する。…"
     }
   ]
 }
