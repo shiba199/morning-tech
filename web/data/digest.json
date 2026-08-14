@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-14T14:07:38",
+  "generated_at": "2026-08-14T15:12:39",
   "window_hours": 24,
-  "total": 212,
+  "total": 213,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。Article URL: https://pssah4.github.io/vault-operator/guides/capabilities コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が40件。フランスのスタートアップ Kog 氏によると、GPU がエージェント ワークフローにはあまり適していないという考えは誤解である可能性があります。",
       "articles": [
+        {
+          "title": "Kog は GPU からより多くの推論を絞り出すためにさらに深く取り組んでいます",
+          "link": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-14T14:50:11",
+          "excerpt": "フランスのスタートアップ Kog 氏によると、GPU がエージェント ワークフローにはあまり適していないという考えは誤解である可能性があります。"
+        },
+        {
+          "title": "中国のAIライバルが台頭する中、OpenAIとAnthropicが価格競争に突入",
+          "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-08-14T14:27:14",
+          "excerpt": "米国のグループは、数兆ドル規模の野望に対する新たな挑戦を受けて、より安価なモデルをリリースします。"
+        },
         {
           "title": "誰もが AI エージェントについて話します。内側から見るとこんな感じです",
           "link": "https://pssah4.github.io/vault-operator/guides/capabilities",
@@ -22,27 +36,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-14T10:20:01",
           "excerpt": "制限がかかった検証環境の目視確認を、Claude in Chrome と FoxyProxy の組み合わせで肩代わりさせました。…"
-        },
-        {
-          "title": "分析SQLコーディング規約と生成AIの活用 | MicroAd Developers Blog",
-          "link": "https://developers.microad.co.jp/entry/2026/08/14/180000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-14T09:00:00",
-          "excerpt": "はじめに こんにちは。マイクロアドのデータマネジメントユニットの前西です。業務では社内の分析基盤（主にRedash × Trino）での広告配信データの集計・分析用SQLの作成・管理などをメインに担当しています。…"
-        },
-        {
-          "title": "DeepSeek、各機能をプラグインとして組み替えられるエージェント基盤「DeepSeek Harness」を開発者プレビューで公開",
-          "link": "https://gihyo.jp/article/2026/08/deepseek-harness-developer-preview?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-14T08:28:00",
-          "excerpt": "DeepSeekは2026年8月13日、エージェントハーネス「DeepSeek Harness」のバージョン0.1を開発者プレビューとして公開した。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。武器を持ったエージェントはデジタル侵入を動的災害に変える可能性があると専門家が警告",
+      "summary": "クラウドの新着が22件。武器を持ったエージェントはデジタル侵入を動的災害に変える可能性があると専門家が警告",
       "articles": [
         {
           "title": "自律型AI攻撃は重要インフラに「明らかな現在の危険」をもたらす",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。Security Hub CSPM コントロール SSM.7 を全アカウント・全リージョンで一括設定したいですよね。…",
+      "summary": "セキュリティの新着が10件。Security Hub CSPM コントロール SSM.7 を全アカウント・全リージョンで一括設定したいですよね。…",
       "articles": [
         {
           "title": "CloudFormation StackSetsでSSMドキュメントのパブリック共有をブロックしてSecurity Hub CSPMのSSM.7に全アカウントで対応する",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。AIデータ分析ツール「kaimei」で、応答スタイルと個人プロンプトの設定を変えると、同じ質問に対する回答がどう変わるのか。実際に検証してみました。",
+      "summary": "データ分析の新着が3件。AIデータ分析ツール「kaimei」で、応答スタイルと個人プロンプトの設定を変えると、同じ質問に対する回答がどう変わるのか。実際に検証してみました。",
       "articles": [
         {
           "title": "【kaimei試してみる】AIデータ分析の「聞きすぎ」と「決めつけ」を設定で調整する",
@@ -134,13 +134,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-13T15:58:49",
           "excerpt": "はじめに こんにちは、やのです。大阪の専門学校に通いながら、普段はフロントエンドを中心に開発しています。…"
-        },
-        {
-          "title": "【Amazon DynamoDB】マネジメントコンソールだけでベクトル検索を試す",
-          "link": "https://qiita.com/miruky/items/1f999dad887cf0368e65",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-13T14:17:34",
-          "excerpt": "はじめに こんばんは、mirukyです。DynamoDBにネイティブのベクトル検索が加わりました。別の検索基盤へデータを複製せず、通常の属性とベクトルを1レコードへ格納して近傍検索できる機能です。…"
         }
       ]
     },
@@ -182,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "新しい予測が正しいことが判明すれば、ハイパースケーラーは天然ガスの導入を後悔するかもしれない",
-      "link": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
+      "title": "クウェン3.8-27B",
+      "link": "https://twitter.com/alibaba_qwen/status/2088280182356611304",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-14T15:03:54",
+      "excerpt": "記事の URL: https://twitter.com/alibaba_qwen/status/2088280182356611304 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "Qwen 3.8 27B がリリースされました: オープンウェイト、これまでで最高のローカル密度モデル",
+      "link": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-14T15:00:00",
+      "excerpt": "記事の URL: https://huggingface.co/Qwen/Qwen3.8-27B-FP8 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "Apple、App Store以外での購入に対して15%の減額を提案",
+      "link": "https://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-14T14:05:00",
-      "excerpt": "米国の一部の地域では天然ガス価格が3倍になる可能性があり、ハイパースケーラーはAIデータセンターに電力を供給するために巨額の費用を負担する可能性がある。"
+      "published": "2026-08-14T14:54:48",
+      "excerpt": "Appleは連邦判事に対し、iOSアプリの外部リンクを通じて行われた購入に対して最大15％の手数料を課すことを許可するよう求めている。"
     },
     {
-      "title": "ヴァージン・ギャラクティック便は運航停止のまま、月行き航空券の価格は高騰",
-      "link": "https://www.theregister.com/offbeat/2026/08/14/virgin-galactic-flights-stay-grounded-while-ticket-prices-head-for-the-moon/5287860",
-      "source": "The Register（英語）",
-      "published": "2026-08-14T13:45:00",
-      "excerpt": "この宇宙のことは本当に難しいことがわかりました"
-    },
-    {
-      "title": "Vercel Functions が WebSocket に対応したので試してみた",
-      "link": "https://dev.classmethod.jp/articles/vercel-functions-websocket-public-beta-verification/",
-      "source": "DevelopersIO",
-      "published": "2026-08-14T13:38:15",
-      "excerpt": "Vercel Functions は 2026 年 6 月、WebSocket 接続をネイティブに受け付ける機能をパブリックベータとして追加しました。…"
-    },
-    {
-      "title": "米国の裁判所は政府がスパイウェアを使用する頻度を公表し始める",
-      "link": "https://techcrunch.com/2026/08/14/us-courts-will-start-publishing-how-often-the-government-uses-spyware/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-14T13:29:04",
-      "excerpt": "米国裁判所管理局はTechCrunchに対し、犯罪容疑者を盗聴するために裁判官がスパイウェアの使用を許可した回数の開示を開始すると語った。"
+      "title": "天才が失敗するとき: AI 研究所の知的傲慢",
+      "link": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-14T14:34:49",
+      "excerpt": "記事の URL: https://weightythoughts.com/p/when-genius-failsthe-intellectual コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
