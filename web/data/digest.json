@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-15T07:49:03",
+  "generated_at": "2026-08-15T08:13:44",
   "window_hours": 24,
-  "total": 164,
+  "total": 161,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。はじめに 最近社内向けに、Amazon Bedrock を使ったセキュアな GenAI チャットアプリを設計・実装しました。…",
+      "summary": "生成AIの新着が20件。「このデータを分類する Notebook を作って」 研究者が JupyterLab のチャット欄からそう頼むと、Claude Code が .ipynb を作り、実行結果を見ながら次の検証まで一緒に考えてくれる。…",
       "articles": [
+        {
+          "title": "Amazon SageMaker StudioのJupyterLab：Claude Code on Amazon Bedrockで国内推論",
+          "link": "https://zenn.dev/aws_japan/articles/20260811-sagemaker-jupyterlab-claude-code-acp",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-15T07:48:09",
+          "excerpt": "「このデータを分類する Notebook を作って」 研究者が JupyterLab のチャット欄からそう頼むと、Claude Code が .ipynb を作り、実行結果を見ながら次の検証まで一緒に考えてくれる。…"
+        },
         {
           "title": "Amazon Bedrockで社内向けGenAIチャット基盤を作る ― AWS全体設計とサービス選定",
           "link": "https://zenn.dev/james_san/articles/ab587dada86e71",
@@ -29,13 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-15T03:29:53",
           "excerpt": "Amazon Quickのフロー機能で大量データを処理する際の課題を、推論グループを使って解決する方法を紹介します。"
-        },
-        {
-          "title": "生成AIポスターを展示する飲食店が増えているが、極力そういう店には行かないようにしている…「これくらい別にいいでしょ？」とバカにされていると感じる→共感の声が続々",
-          "link": "https://togetter.com/li/2733238",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-08-15T02:31:54",
-          "excerpt": "キニマンス塚本ニキ Nikki Tsukamoto Kininmonth @tsukaniki85 生成AIポスターを展示する飲食店が増えてるけど、私は極力そういう店には行かないようにしてる。…"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。Z.aiは2026年8月14日、大規模言語モデル「GLM-5.3」を発表した。GLM-5.2と同じ7430億パラメータ規模の基盤モデルを使い、事後学習だけで複雑なコーディングや長時間タスクの性能を高めたという。",
+      "summary": "セキュリティの新着が8件。AWS Managed Microsoft ADとEntra Connect Sync v2の連携設定について4年ぶりに最新の手順をまとめました。…",
       "articles": [
+        {
+          "title": "【2026年版】 AWS Managed Microsoft AD と Entra Connect Sync v2をつかってEntra IDへID同期(パススルー認証)する方法",
+          "link": "https://dev.classmethod.jp/articles/using-aws-managed-microsoft-ad-with-entra-connect-sync-v2-2026/",
+          "source": "DevelopersIO",
+          "published": "2026-08-15T07:48:41",
+          "excerpt": "AWS Managed Microsoft ADとEntra Connect Sync v2の連携設定について4年ぶりに最新の手順をまとめました。…"
+        },
         {
           "title": "Z.ai、AIモデル「GLM-5.3」を発表 ——コーディングと脆弱性解析を強化、重みは2週間後に公開予定",
           "link": "https://gihyo.jp/article/2026/08/glm-5.3?utm_source=feed",
@@ -99,20 +106,13 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-14T19:22:00",
           "excerpt": "記事の URL: https://cvd.z.ai コメント URL: https://news.ycombinator.com/item?id=49303433 ポイント: 20 コメント数: 3"
-        },
-        {
-          "title": "攻撃者に Mac の完全な制御を与える脆弱性が活発に悪用されている",
-          "link": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-08-14T18:32:14",
-          "excerpt": "画面共有のバグにより、リモートのハッカーがパスワードなしでログインできます。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。VPC Reachability Analyzer の `--filter-at-source` オプションを使い、Transit Gateway のルートテーブルで宛先 IP に応じた経路分岐が正しく機能しているかを、実トラフィックを流さ…",
+      "summary": "データ分析の新着が1件。VPC Reachability Analyzer の `--filter-at-source` オプションを使い、Transit Gateway のルートテーブルで宛先 IP に応じた経路分岐が正しく機能しているかを、実トラフィックを流さ…",
       "articles": [
         {
           "title": "VPC Reachability Analyzer で Transit Gateway のルート分岐を検証してみた",
@@ -120,13 +120,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-15T06:44:06",
           "excerpt": "VPC Reachability Analyzer の `--filter-at-source` オプションを使い、Transit Gateway のルートテーブルで宛先 IP に応じた経路分岐が正しく機能しているかを、実トラフィックを流さ…"
-        },
-        {
-          "title": "【kaimei試してみる】AIデータ分析の「聞きすぎ」と「決めつけ」を設定で調整する",
-          "link": "https://dev.classmethod.jp/articles/kaimei-chat-settings-clarify/",
-          "source": "DevelopersIO",
-          "published": "2026-08-14T07:57:21",
-          "excerpt": "AIデータ分析ツール「kaimei」で、応答スタイルと個人プロンプトの設定を変えると、同じ質問に対する回答がどう変わるのか。実際に検証してみました。"
         }
       ]
     },
@@ -168,6 +161,13 @@
   ],
   "uncategorized": [
     {
+      "title": "個人開発の B2B SaaS で使う技術を、こう選んで、こう外した",
+      "link": "https://zenn.dev/akutagawa/articles/neorie-tech-selection-and-rejection",
+      "source": "Zenn AWSトピック",
+      "published": "2026-08-15T07:29:50",
+      "excerpt": "個人開発で B2B SaaS を作って公開しました。技術選定の記事はたくさんありますが、たいてい選んだ時点で終わっています。選定の答え合わせは、その構成で本番を立ち上げて請求書を見てからしかできません。…"
+    },
+    {
       "title": "AWS APIGateway からの SNS 連携",
       "link": "https://qiita.com/saurus12/items/75b9acf2213e23ff648a",
       "source": "Qiita AWSタグ",
@@ -187,13 +187,6 @@
       "source": "Qiita AWSタグ",
       "published": "2026-08-15T06:31:41",
       "excerpt": "皆さんこんにちは！今日は台風の影響も無くなり比較的過ごしやすいですね！ポンコツエンジニアのGONです。千葉で記録的な豪雨により被害が出ていますが皆さん大丈夫でしょうか。来週から記録的な暑さになるみたいな予報もあるので気を付けていきましょう。…"
-    },
-    {
-      "title": "「それは SoC 2 に準拠していません」",
-      "link": "https://ampcode.com/notes/thats-not-soc-2-compliant",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-15T06:01:19",
-      "excerpt": "記事の URL: https://ampcode.com/notes/thats-not-soc-2-準拠 コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
