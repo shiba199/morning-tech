@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T22:43:44",
+  "generated_at": "2026-08-15T23:09:29",
   "window_hours": 24,
   "total": 134,
   "topic_count": 5,
@@ -7,8 +7,15 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が26件。生成AIに興味はあるけれど、AWS で何を使えばいいのか分からず最初の一歩が重い。そのままだと、ツールを断片的に触るだけで終わって、実務へつながる設計感覚が育ちません。…",
+      "summary": "生成AIの新着が27件。Anthropicは、「Claude」が生成するテキストに埋め込む電子透かしの仕組みを公表した。乱数生成に秘密鍵を用いて統計的パターンを残す手法で、品質や速度、料金に影響を与えない。…",
       "articles": [
+        {
+          "title": "「Claude」の“見えない透かし”、Anthropicが仕組みを説明　「完全な書き直しなら消える」",
+          "link": "https://www.itmedia.co.jp/news/article/2608/16/2000000555/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-15T22:58:11",
+          "excerpt": "Anthropicは、「Claude」が生成するテキストに埋め込む電子透かしの仕組みを公表した。乱数生成に秘密鍵を用いて統計的パターンを残す手法で、品質や速度、料金に影響を与えない。…"
+        },
         {
           "title": "AWSで生成AIを触り始めたい人へ。サービス選定から実装の入口までつながる公式テキスト",
           "link": "https://qiita.com/yasu1109/items/9a82867f959370670c7f",
@@ -29,21 +36,21 @@
           "source": "TechCrunch（英語）",
           "published": "2026-08-15T18:58:39",
           "excerpt": "透かしは実際にどのように機能するのでしょうか?編集で非表示にできるのでしょうか？そして、これはコードにどのような影響を与えるのでしょうか?"
-        },
-        {
-          "title": "Yadda 3.0.0: AI エージェント時代の BDD",
-          "link": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-15T13:43:46",
-          "excerpt": "記事の URL: http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。はじめに Terraformで再利用可能なVPCモジュールを構築する手順を、全2回に分けて解説しています。…",
+      "summary": "クラウドの新着が9件。1.はじめに企業規模でクラウドインフラを運用・管理する中で、システムリソースの移行はよくあるシナリオです。…",
       "articles": [
+        {
+          "title": "【GCP】組織間でのプロジェクト移行（Cross-Organization Migration）完全実践ガイド | Sun* Developersのフィード",
+          "link": "https://zenn.dev/sun_asterisk/articles/e42a45c0b1a2ae",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-15T14:54:59",
+          "excerpt": "1.はじめに企業規模でクラウドインフラを運用・管理する中で、システムリソースの移行はよくあるシナリオです。…"
+        },
         {
           "title": "Terraform : 第2回 VPCを構築する - セキュリティグループ・監査",
           "link": "https://qiita.com/ham-nao/items/0da36e99ba302275ce6f",
@@ -64,13 +71,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-15T08:33:02",
           "excerpt": "この記事は前回の記事からの続きとなります。※なお、本記事では生成AIによる回答を示唆するものがある上、その他内容についても筆者学習中のアウトプットであるため機能や仕様について保証するものではありません。…"
-        },
-        {
-          "title": "【小ネタ】ECS Express Modeのリソース削除の順番を間違えてDeleteCertificateが無限ループしていた話",
-          "link": "https://dev.classmethod.jp/articles/ecs-express-mode-deletecertificate-accessdenied-loop/",
-          "source": "DevelopersIO",
-          "published": "2026-08-15T08:23:52",
-          "excerpt": "CloudTrailで`DeleteCertificate`が数秒おきに延々と記録され続ける現象に遭遇しました。その調査から原因特定、そして解消までの全てをお話しします。"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。概要 AWS Workshop Studioのサンドボックス環境でStep Functionsワークショップ(sfn-workshop)を進めようとしたところ、CDKでデプロイされる親スタックがROLLBACK_COMPLETE状態で作成失…",
+      "summary": "開発ツールの新着が9件。概要 AWS Workshop Studioのサンドボックス環境でStep Functionsワークショップ(sfn-workshop)を進めようとしたところ、CDKでデプロイされる親スタックがROLLBACK_COMPLETE状態で作成失…",
       "articles": [
         {
           "title": "AWSワークショップのサンドボックス環境でCloudFormationスタックがROLLBACK_COMPLETEになった件",
