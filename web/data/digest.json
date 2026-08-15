@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-15T12:15:04",
+  "generated_at": "2026-08-15T13:04:32",
   "window_hours": 24,
-  "total": 147,
+  "total": 148,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。Claude Code v2.1.233がリリースされました。GitLabのマージリクエスト対応、Linux のメモリ制限設定、複数の重要な不具合修正が含まれています。…",
+      "summary": "生成AIの新着が22件。はじめに こんにちは、ふくちと申します。以前の記事で、Claude Code × AgentCore Gateway × Slack MCPの構成をユーザー単位のOAuth(3LO)でつなぐ方法について解説しました。今回はその番外編です。…",
       "articles": [
+        {
+          "title": "AgentCore GatewayのSlack統合プロバイダーをCDKで設定して3LOで認証認可を通す",
+          "link": "https://qiita.com/har1101/items/d9cc04c7b69e9a029178",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-15T12:56:50",
+          "excerpt": "はじめに こんにちは、ふくちと申します。以前の記事で、Claude Code × AgentCore Gateway × Slack MCPの構成をユーザー単位のOAuth(3LO)でつなぐ方法について解説しました。今回はその番外編です。…"
+        },
         {
           "title": "Claude Code v2.1.233 の主要アップデート - Todo ツールの既定無効化",
           "link": "https://dev.classmethod.jp/articles/20260815-cc-updates-v2-1-233/",
@@ -24,26 +31,26 @@
           "excerpt": "DevOps Agentの権限ガードレールが8月5日にReadOnlyAccessに対応し、エージェントが実行できる範囲が大きく拡大しました。新しい権限体系がもたらす影響をまとめます。"
         },
         {
-          "title": "【簡単AWS MLA】【初心者向け】Day 9：SageMaker Data Wrangler を整理する — データ加工と特徴量作成の基本",
-          "link": "https://qiita.com/MetaYuan/items/0340e6b0434a4ba36181",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-15T09:40:04",
-          "excerpt": "はじめに 前回は、SageMaker の基本的な全体像として Training Endpoint Batch Transform について整理しました。…"
-        },
-        {
-          "title": "Debian は AI/LLM 貢献の将来に関する投票を開始しました",
-          "link": "https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html",
+          "title": "OpenAIは今月後半にヨーロッパ向けに広告を展開",
+          "link": "https://openai.com/policies/eu-privacy-policy-preview/",
           "source": "Hacker News（英語）",
-          "published": "2026-08-15T09:20:07",
-          "excerpt": "記事の URL: https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html コメント URL: https://news.ycombinator.…"
+          "published": "2026-08-15T10:52:36",
+          "excerpt": "記事の URL: https://openai.com/policies/eu-privacy-policy-preview/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。はじめに EC2まわりは地味に見えて、実は制度の動きが多い領域です。…",
+      "summary": "クラウドの新着が11件。はじめに Terraformで再利用可能なVPCモジュールを構築する手順を、全2回に分けて解説しています。…",
       "articles": [
+        {
+          "title": "Terraform : 第2回 VPCを構築する - セキュリティグループ・監査",
+          "link": "https://qiita.com/ham-nao/items/0da36e99ba302275ce6f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-15T12:40:32",
+          "excerpt": "はじめに Terraformで再利用可能なVPCモジュールを構築する手順を、全2回に分けて解説しています。…"
+        },
         {
           "title": "【2026年版】EC2の購入オプション、もう「RIかオンデマンドか」ではない話",
           "link": "https://qiita.com/OhkuboT/items/bf442a6e401572668c6a",
@@ -64,21 +71,28 @@
           "source": "DevelopersIO",
           "published": "2026-08-15T08:23:52",
           "excerpt": "CloudTrailで`DeleteCertificate`が数秒おきに延々と記録され続ける現象に遭遇しました。その調査から原因特定、そして解消までの全てをお話しします。"
-        },
-        {
-          "title": "AWS lambda関数と SQS SNS との連携",
-          "link": "https://qiita.com/saurus12/items/eecb920df5ee6f562a7f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-15T07:08:52",
-          "excerpt": "AWS lambda関数と SQS SNS との連携 lambda関数と SQS SNS との連携手順を解説します。※ 操作はすべてAWS Python ライブラリ(boto3)を使用して実施します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。対象読者: AWSをこれから触る人。AWS勉強シリーズの3本目です。全体の地図は索引記事にあります。…",
+      "summary": "セキュリティの新着が9件。はじめに こんにちは、ふくちと申します。以前の記事で、Claude Code × AgentCore Gateway × Slack MCPの構成をユーザー単位のOAuth(3LO)でつなぐ方法について解説しました。今回はその番外編です。…",
       "articles": [
+        {
+          "title": "AgentCore GatewayのSlack統合プロバイダーをCDKで設定して3LOで認証認可を通す",
+          "link": "https://qiita.com/har1101/items/d9cc04c7b69e9a029178",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-15T12:56:50",
+          "excerpt": "はじめに こんにちは、ふくちと申します。以前の記事で、Claude Code × AgentCore Gateway × Slack MCPの構成をユーザー単位のOAuth(3LO)でつなぐ方法について解説しました。今回はその番外編です。…"
+        },
+        {
+          "title": "Terraform : 第2回 VPCを構築する - セキュリティグループ・監査",
+          "link": "https://qiita.com/ham-nao/items/0da36e99ba302275ce6f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-15T12:40:32",
+          "excerpt": "はじめに Terraformで再利用可能なVPCモジュールを構築する手順を、全2回に分けて解説しています。…"
+        },
         {
           "title": "IAM入門。誰が何をしていいかを決める、AWSの一番最初に覚えるサービス",
           "link": "https://qiita.com/daisuke-nagata/items/0e75df87ef26831346e6",
@@ -92,20 +106,6 @@
           "source": "@IT",
           "published": "2026-08-15T08:00:00",
           "excerpt": "ランサムウェア被害に遭った企業の89％でバックアップデータが暗号化されていた。被害が広がる中、企業はバックアップデータの保存先をどのように選んでいるのか。arcserve Japanの調査結果から実態を探る。"
-        },
-        {
-          "title": "【2026年版】 AWS Managed Microsoft AD と Entra Connect Sync v2をつかってEntra IDへID同期(パススルー認証)する方法",
-          "link": "https://dev.classmethod.jp/articles/using-aws-managed-microsoft-ad-with-entra-connect-sync-v2-2026/",
-          "source": "DevelopersIO",
-          "published": "2026-08-15T07:48:41",
-          "excerpt": "AWS Managed Microsoft ADとEntra Connect Sync v2の連携設定について4年ぶりに最新の手順をまとめました。…"
-        },
-        {
-          "title": "Z.ai、AIモデル「GLM-5.3」を発表 ——コーディングと脆弱性解析を強化、重みは2週間後に公開予定",
-          "link": "https://gihyo.jp/article/2026/08/glm-5.3?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-15T06:46:00",
-          "excerpt": "Z.aiは2026年8月14日、大規模言語モデル「GLM-5.3」を発表した。GLM-5.2と同じ7430億パラメータ規模の基盤モデルを使い、事後学習だけで複雑なコーディングや長時間タスクの性能を高めたという。"
         }
       ]
     },
@@ -140,67 +140,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が4件。この記事は前回の記事からの続きとなります。※なお、本記事では生成AIによる回答を示唆するものがある上、その他内容についても筆者学習中のアウトプットであるため機能や仕様について保証するものではありません。…",
+      "summary": "開発ツールの新着が7件。はじめに こんにちは、ふくちと申します。以前の記事で、Claude Code × AgentCore Gateway × Slack MCPの構成をユーザー単位のOAuth(3LO)でつなぐ方法について解説しました。今回はその番外編です。…",
       "articles": [
+        {
+          "title": "AgentCore GatewayのSlack統合プロバイダーをCDKで設定して3LOで認証認可を通す",
+          "link": "https://qiita.com/har1101/items/d9cc04c7b69e9a029178",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-15T12:56:50",
+          "excerpt": "はじめに こんにちは、ふくちと申します。以前の記事で、Claude Code × AgentCore Gateway × Slack MCPの構成をユーザー単位のOAuth(3LO)でつなぐ方法について解説しました。今回はその番外編です。…"
+        },
+        {
+          "title": "Terraform : 第2回 VPCを構築する - セキュリティグループ・監査",
+          "link": "https://qiita.com/ham-nao/items/0da36e99ba302275ce6f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-15T12:40:32",
+          "excerpt": "はじめに Terraformで再利用可能なVPCモジュールを構築する手順を、全2回に分けて解説しています。…"
+        },
+        {
+          "title": "Terraform : CodePipelineを構築する際に押さえておきたいポイント(2) — CodeBuild、タグトリガー設計、パイプラインの分離",
+          "link": "https://qiita.com/ham-nao/items/1a27dc428eac29b1b71a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-15T12:35:52",
+          "excerpt": "前編では、アーティファクト保存用のS3バケットとIAMロール設計、GitHub連携の準備を扱いました。…"
+        },
         {
           "title": "AWS CLIを使ってAWSリソースを動かす（VPC〜EC2起動まで）",
           "link": "https://zenn.dev/silver252/articles/993a11313cad37",
           "source": "Zenn AWSトピック",
           "published": "2026-08-15T08:33:02",
           "excerpt": "この記事は前回の記事からの続きとなります。※なお、本記事では生成AIによる回答を示唆するものがある上、その他内容についても筆者学習中のアウトプットであるため機能や仕様について保証するものではありません。…"
-        },
-        {
-          "title": "AWS CDKのCLIとaws-cdk-libをプロジェクト単位で管理することにした",
-          "link": "https://zenn.dev/hknote/articles/cdk-local-version-management",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-15T04:00:05",
-          "excerpt": "AWS CDKでは、CDK CLIと aws-cdk-lib の両方を、グローバルではなくプロジェクト単位でバージョン管理するようにしました。…"
-        },
-        {
-          "title": "AWS CDKで構築してみた！AWS HealthイベントをBedrockで要約して自動通知する仕組み",
-          "link": "https://zenn.dev/sf_tech_1026/articles/aws-health-notice",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-15T01:38:14",
-          "excerpt": "はじめに AWS Healthからの通知は英語だったり、日本語訳されていても文章が長くて読みづらく、「結局何が起きていて、影響範囲や緊急度はどれくらいなのか」をパッと直感的に理解するのに苦労していました。…"
-        },
-        {
-          "title": "Terraform : 第1回 VPCを構築する - 全体像とネットワーク基盤",
-          "link": "https://qiita.com/ham-nao/items/cc5b2ec06528a196d6d8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-15T00:54:16",
-          "excerpt": "はじめに Terraformで再利用可能なVPCモジュールを構築する手順を、2回に分けて解説します。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "太陽光発電が多すぎる：今年稼働した米国のすべての発電所のリストを詳しく調べる",
-      "link": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-15T11:09:57",
-      "excerpt": "実用規模の太陽光発電が1マイルリードし、次にバッテリーが続く。化石燃料はそれほど多くありません。"
+      "title": "AWS Certified Developer - Associate(DVA-C02)に合格した話",
+      "link": "https://qiita.com/tech_tech_pingu/items/753ab363a32d35120d9d",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-15T12:26:32",
+      "excerpt": "はじめに このたびDVAに合格しましたので、勉強方法や試験の感想を共有したいと思います。これからチャレンジしようとしている方の参考になれば幸いです。…"
     },
     {
-      "title": "コーデックスによる自動調査: 232 倍高速なカーネルを達成した方法",
-      "link": "https://sankalp.bearblog.dev/autoresearch/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-15T11:00:02",
-      "excerpt": "記事の URL: https://sankalp.bearblog.dev/autoresearch/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Twilio ConversationRelay の WebSocket 通信の署名検証で詰まった話",
-      "link": "https://dev.classmethod.jp/articles/twilio-conversationrelay-websocket-signature-verification/",
+      "title": "Cisco C841M で 家庭内LAN と AWS を Site-to-Site VPN接続する(BGP)",
+      "link": "https://dev.classmethod.jp/articles/c841m-aws-site-to-site-vpn-bgp/",
       "source": "DevelopersIO",
-      "published": "2026-08-15T10:50:36",
-      "excerpt": "Twilio ConversationRelay の WebSocket 接続に自前で署名検証を実装したところ、Upgrade リクエストの検証だけが通らず、通話が繰り返しエラーで切断されました。…"
+      "published": "2026-08-15T12:12:57",
+      "excerpt": "Cisco C841MをCustomer Gatewayにして、家庭内LANとAWSをBGPのSite-to-Site VPNで接続します。…"
     },
     {
-      "title": "ChainDrop ワームが npm サプライ チェーンに侵入し、標準の防御を回避",
-      "link": "https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958",
-      "source": "The Register（英語）",
-      "published": "2026-08-15T10:31:00",
-      "excerpt": "Shai-Hulud の亜種が 444 個のパッケージを毒し、tarball と開発ツールのフックを介して拡散"
+      "title": "YAMAHA RTX1200 で VLAN 間ルーティング（router on a stick）を構成してみた",
+      "link": "https://dev.classmethod.jp/articles/rtx1200-inter-vlan-routing/",
+      "source": "DevelopersIO",
+      "published": "2026-08-15T12:12:23",
+      "excerpt": "YAMAHA RTX1200をスマートスイッチとトランク接続し、VLAN間ルーティング（router on a stick）を構成します。…"
+    },
+    {
+      "title": "TL-SG108E で家庭内に VLAN を作って 802.1Q タグを目視してみた",
+      "link": "https://dev.classmethod.jp/articles/tl-sg108e-home-vlan-802-1q/",
+      "source": "DevelopersIO",
+      "published": "2026-08-15T12:12:03",
+      "excerpt": "TP-LinkのスマートスイッチTL-SG108Eで家庭内LANに802.1Q VLANを構成します。…"
     }
   ]
 }
