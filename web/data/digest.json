@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-15T14:11:29",
+  "generated_at": "2026-08-15T14:44:15",
   "window_hours": 24,
-  "total": 153,
+  "total": 155,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が26件。少し前に↓の記事でAWS DevOps Agentのインシデントレスポンス調査をWebhook経由で起動する検証をしました。「API経由で自動調査できたらなああ」と思って調べていたら、API経由で出来ることがわかりました。…",
+      "summary": "生成AIの新着が28件。記事の URL: http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.…",
       "articles": [
+        {
+          "title": "Yadda 3.0.0: AI エージェント時代の BDD",
+          "link": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-15T13:43:46",
+          "excerpt": "記事の URL: http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.…"
+        },
+        {
+          "title": "Amazon Bedrock AgentCore Policyを試してみた 〜AIエージェントのツール利用をCedarで制御する 〜",
+          "link": "https://zenn.dev/kameoncloud/articles/d1c5e22df2dfd2",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-15T13:42:31",
+          "excerpt": "https://serverless.co.jp/blog/dup1-l9i3/ に記載した記事の微修正版です。今日は先日GAを迎えた Amazon Bedrock AgentCore Policy を試していきます。…"
+        },
         {
           "title": "CreateBacklogTask API経由でAWS DevOps Agentのインシデントレスポンス調査を開始する",
           "link": "https://qiita.com/sagochiko/items/2bd98792d2d0e17d6247",
@@ -22,20 +36,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-15T13:16:00",
           "excerpt": "VPC only(閉域環境)のSageMakerドメインから、CodeArtifact経由でPythonパッケージをインストールする構成を実装しました。…"
-        },
-        {
-          "title": "GenRec: Netflix での LLM ネイティブの推奨に向けて",
-          "link": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-15T12:56:56",
-          "excerpt": "記事の URL: https://netflixtechblog.…"
-        },
-        {
-          "title": "AgentCore GatewayのSlack統合プロバイダーをCDKで設定して3LOで認証認可を通す",
-          "link": "https://qiita.com/har1101/items/d9cc04c7b69e9a029178",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-15T12:56:50",
-          "excerpt": "はじめに こんにちは、ふくちと申します。以前の記事で、Claude Code × AgentCore Gateway × Slack MCPの構成をユーザー単位のOAuth(3LO)でつなぐ方法について解説しました。今回はその番外編です。…"
         }
       ]
     },
@@ -175,6 +175,20 @@
   ],
   "uncategorized": [
     {
+      "title": "古本の売れ行きが好調だ。 AIのせいでしょうか？",
+      "link": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-15T14:08:55",
+      "excerpt": "記事の URL: https://www.bbc.co.uk/news/articles/cp3rprx2wl4o コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "Show HN: WebXR を使用した準結晶アニメーション プレイグラウンド",
+      "link": "https://hypnagogic-quasicrystals.github.io/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-15T13:48:43",
+      "excerpt": "こんにちは！これは、いくつかのパラメーターを備えた準結晶アニメーションを紹介する私の小さなプロジェクトです。カスタム シェーダーを使用して、より高い解像度を実現します。すべての組み合わせが同じように美しく見えるわけではありません。…"
+    },
+    {
       "title": "X For You タイムラインのブラジルの選挙フィルター",
       "link": "https://github.com/xai-org/x-algorithm/blob/main/home-mixer/filters/brazil_2026_election_filter.rs",
       "source": "Hacker News（英語）",
@@ -187,20 +201,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-08-15T13:15:48",
       "excerpt": "記事の URL: https://www.scientificamerican.…"
-    },
-    {
-      "title": "1億ドル以上を調達したすべての融合スタートアップ",
-      "link": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-15T13:15:20",
-      "excerpt": "Fusionスタートアップはこれまでに71億ドルを調達しており、その大部分は数社に寄付されている。"
-    },
-    {
-      "title": "AWS初心者がSQSのDLQを検証してみた",
-      "link": "https://qiita.com/typ7/items/cd3df4fb2e569952eef0",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-15T13:13:11",
-      "excerpt": "はじめに AWSを学習する中で、Amazon SQS（Simple Queue Service）について触れる機会がありました。…"
     }
   ]
 }
