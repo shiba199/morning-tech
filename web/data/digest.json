@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-15T10:11:17",
+  "generated_at": "2026-08-15T10:44:36",
   "window_hours": 24,
-  "total": 149,
+  "total": 145,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が21件。はじめに 前回は、SageMaker の基本的な全体像として Training Endpoint Batch Transform について整理しました。…",
+      "summary": "生成AIの新着が18件。はじめに 前回は、SageMaker の基本的な全体像として Training Endpoint Batch Transform について整理しました。…",
       "articles": [
         {
           "title": "【簡単AWS MLA】【初心者向け】Day 9：SageMaker Data Wrangler を整理する — データ加工と特徴量作成の基本",
@@ -52,6 +52,13 @@
           "excerpt": "はじめに EC2まわりは地味に見えて、実は制度の動きが多い領域です。…"
         },
         {
+          "title": "AWS CLIを使ってAWSリソースを動かす（VPC〜EC2起動まで）",
+          "link": "https://zenn.dev/silver252/articles/993a11313cad37",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-15T08:33:02",
+          "excerpt": "この記事は前回の記事からの続きとなります。※なお、本記事では生成AIによる回答を示唆するものがある上、その他内容についても筆者学習中のアウトプットであるため機能や仕様について保証するものではありません。…"
+        },
+        {
           "title": "【小ネタ】ECS Express Modeのリソース削除の順番を間違えてDeleteCertificateが無限ループしていた話",
           "link": "https://dev.classmethod.jp/articles/ecs-express-mode-deletecertificate-accessdenied-loop/",
           "source": "DevelopersIO",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-15T07:08:52",
           "excerpt": "AWS lambda関数と SQS SNS との連携 lambda関数と SQS SNS との連携手順を解説します。※ 操作はすべてAWS Python ライブラリ(boto3)を使用して実施します。…"
-        },
-        {
-          "title": "AWS lambda関数の作成から実行まで",
-          "link": "https://qiita.com/saurus12/items/18ff0345bacfe07aae93",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-15T07:08:01",
-          "excerpt": "AWS lambda関数の作成から実行まで AWS Lambda関数を作成し、起動確認するまでの手順を解説します。※ 操作はすべてAWS Python ライブラリ(boto3)を使用して実施します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。ランサムウェア被害に遭った企業の89％でバックアップデータが暗号化されていた。被害が広がる中、企業はバックアップデータの保存先をどのように選んでいるのか。arcserve Japanの調査結果から実態を探る。",
+      "summary": "セキュリティの新着が8件。対象読者: AWSをこれから触る人。AWS勉強シリーズの3本目です。全体の地図は索引記事にあります。…",
       "articles": [
+        {
+          "title": "IAM入門。誰が何をしていいかを決める、AWSの一番最初に覚えるサービス",
+          "link": "https://qiita.com/daisuke-nagata/items/0e75df87ef26831346e6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-15T10:16:36",
+          "excerpt": "対象読者: AWSをこれから触る人。AWS勉強シリーズの3本目です。全体の地図は索引記事にあります。…"
+        },
         {
           "title": "NASでもテープでもない、ランサムウェア時代の「バックアップ保存先」トップは？",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/15/news014.html",
@@ -99,13 +106,6 @@
           "source": "gihyo.jp 開発",
           "published": "2026-08-15T06:46:00",
           "excerpt": "Z.aiは2026年8月14日、大規模言語モデル「GLM-5.3」を発表した。GLM-5.2と同じ7430億パラメータ規模の基盤モデルを使い、事後学習だけで複雑なコーディングや長時間タスクの性能を高めたという。"
-        },
-        {
-          "title": "【Security Hub修復手順】[EFS.7] EFS ファイルシステムでは、自動バックアップが有効になっている必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-efs-7/",
-          "source": "DevelopersIO",
-          "published": "2026-08-15T06:44:05",
-          "excerpt": "AWS Security HubのEFS.7コントロールに対応するための自動バックアップ有効化手順をご紹介します。本番環境でのデータ保護要件に基づき、EFSファイルシステムのバックアップポリシーを有効にする方法を解説します。"
         }
       ]
     },
@@ -133,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が4件。AWS CDKでは、CDK CLIと aws-cdk-lib の両方を、グローバルではなくプロジェクト単位でバージョン管理するようにしました。…",
+      "summary": "開発ツールの新着が5件。この記事は前回の記事からの続きとなります。※なお、本記事では生成AIによる回答を示唆するものがある上、その他内容についても筆者学習中のアウトプットであるため機能や仕様について保証するものではありません。…",
       "articles": [
+        {
+          "title": "AWS CLIを使ってAWSリソースを動かす（VPC〜EC2起動まで）",
+          "link": "https://zenn.dev/silver252/articles/993a11313cad37",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-15T08:33:02",
+          "excerpt": "この記事は前回の記事からの続きとなります。※なお、本記事では生成AIによる回答を示唆するものがある上、その他内容についても筆者学習中のアウトプットであるため機能や仕様について保証するものではありません。…"
+        },
         {
           "title": "AWS CDKのCLIとaws-cdk-libをプロジェクト単位で管理することにした",
           "link": "https://zenn.dev/hknote/articles/cdk-local-version-management",
@@ -155,18 +162,18 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-15T00:54:16",
           "excerpt": "はじめに Terraformで再利用可能なVPCモジュールを構築する手順を、2回に分けて解説します。…"
-        },
-        {
-          "title": "CloudFormation StackSetsでSSMドキュメントのパブリック共有をブロックしてSecurity Hub CSPMのSSM.7に全アカウントで対応する",
-          "link": "https://dev.classmethod.jp/articles/ssm7-block-public-sharing-cfn-stacksets/",
-          "source": "DevelopersIO",
-          "published": "2026-08-14T11:08:18",
-          "excerpt": "Security Hub CSPM コントロール SSM.7 を全アカウント・全リージョンで一括設定したいですよね。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "ChainDrop ワームが npm サプライ チェーンに侵入し、標準の防御を回避",
+      "link": "https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958",
+      "source": "The Register（英語）",
+      "published": "2026-08-15T10:31:00",
+      "excerpt": "Shai-Hulud の亜種が 444 個のパッケージを毒し、tarball と開発ツールのフックを介して拡散"
+    },
     {
       "title": "AWS Instance Storeは「消える」のが仕様だった。だったら2つ武器にできないか考えてみた",
       "link": "https://qiita.com/yama3133/items/95588213b35738823375",
@@ -187,13 +194,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-08-15T07:59:42",
       "excerpt": "記事の URL: https://uecker.codeberg.page/2026-07-14.html コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "個人開発の B2B SaaS で使う技術を、こう選んで、こう外した",
-      "link": "https://zenn.dev/akutagawa/articles/neorie-tech-selection-and-rejection",
-      "source": "Zenn AWSトピック",
-      "published": "2026-08-15T07:29:50",
-      "excerpt": "個人開発で B2B SaaS を作って公開しました。技術選定の記事はたくさんありますが、たいてい選んだ時点で終わっています。選定の答え合わせは、その構成で本番を立ち上げて請求書を見てからしかできません。…"
     }
   ]
 }
