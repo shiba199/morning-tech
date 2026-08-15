@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-15T05:14:49",
+  "generated_at": "2026-08-15T05:47:24",
   "window_hours": 24,
-  "total": 173,
+  "total": 172,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が24件。Amazon Quickのフロー機能で大量データを処理する際の課題を、推論グループを使って解決する方法を紹介します。",
+      "summary": "生成AIの新着が23件。はじめに 最近社内向けに、Amazon Bedrock を使ったセキュアな GenAI チャットアプリを設計・実装しました。…",
       "articles": [
+        {
+          "title": "Amazon Bedrockで社内向けGenAIチャット基盤を作る ― AWS全体設計とサービス選定",
+          "link": "https://zenn.dev/james_san/articles/ab587dada86e71",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-15T05:06:41",
+          "excerpt": "はじめに 最近社内向けに、Amazon Bedrock を使ったセキュアな GenAI チャットアプリを設計・実装しました。…"
+        },
         {
           "title": "Amazon Quick フローの「推論グループ」を使ってデータのループ処理を行ってみた",
           "link": "https://dev.classmethod.jp/articles/quick-flow-suiron-group/",
@@ -29,20 +36,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-15T01:38:14",
           "excerpt": "はじめに AWS Healthからの通知は英語だったり、日本語訳されていても文章が長くて読みづらく、「結局何が起きていて、影響範囲や緊急度はどれくらいなのか」をパッと直感的に理解するのに苦労していました。…"
-        },
-        {
-          "title": "Anthropicは、テキスト透かしスキームは重要でない単語に依存していると述べています",
-          "link": "https://www.theregister.com/ai-and-ml/2026/08/15/anthropic-says-text-watermarking-scheme-relies-on-inconsequential-words/5288156",
-          "source": "The Register（英語）",
-          "published": "2026-08-15T00:44:41",
-          "excerpt": "そして他の AI モデル メーカーも同様のものを導入すると予想されています"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。はじめに Terraformで再利用可能なVPCモジュールを構築する手順を、2回に分けて解説します。…",
+      "summary": "クラウドの新着が13件。はじめに Terraformで再利用可能なVPCモジュールを構築する手順を、2回に分けて解説します。…",
       "articles": [
         {
           "title": "Terraform : 第1回 VPCを構築する - 全体像とネットワーク基盤",
@@ -126,8 +126,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。はじめに AWS Healthからの通知は英語だったり、日本語訳されていても文章が長くて読みづらく、「結局何が起きていて、影響範囲や緊急度はどれくらいなのか」をパッと直感的に理解するのに苦労していました。…",
+      "summary": "開発ツールの新着が9件。AWS CDKでは、CDK CLIと aws-cdk-lib の両方を、グローバルではなくプロジェクト単位でバージョン管理するようにしました。…",
       "articles": [
+        {
+          "title": "AWS CDKのCLIとaws-cdk-libをプロジェクト単位で管理することにした",
+          "link": "https://zenn.dev/hknote/articles/cdk-local-version-management",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-15T04:00:05",
+          "excerpt": "AWS CDKでは、CDK CLIと aws-cdk-lib の両方を、グローバルではなくプロジェクト単位でバージョン管理するようにしました。…"
+        },
         {
           "title": "AWS CDKで構築してみた！AWS HealthイベントをBedrockで要約して自動通知する仕組み",
           "link": "https://zenn.dev/sf_tech_1026/articles/aws-health-notice",
@@ -148,18 +155,18 @@
           "source": "DevelopersIO",
           "published": "2026-08-14T11:08:18",
           "excerpt": "Security Hub CSPM コントロール SSM.7 を全アカウント・全リージョンで一括設定したいですよね。…"
-        },
-        {
-          "title": "Aurora MySQL 3.x から 8.4 へ！Blue/Green Deployments 本番投入前のチェックリスト | スマートスタイル TECH BLOG",
-          "link": "https://blog.s-style.co.jp/2026/08/16654/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-14T09:00:55",
-          "excerpt": "はじめに 既報 の通り、Aurora MySQL 8.4のリリースに伴い、Aurora MySQL 3の標準サポート終了日が2028年4月30日に決定しました。そろそろバージョンアップの計画を立て始めている方もいらっしゃ […]"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "もう一人のショーン・バーンは存在しない",
+      "link": "https://conic.al/writing/the-other-sean-byrne-doesnt-exist/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-15T04:18:44",
+      "excerpt": "記事の URL: https://conic.al/writing/the-other-sean-byrne-doesnt-exist/ コメント URL: https://news.ycombinator.com/item?…"
+    },
     {
       "title": "AI時代は「Go言語」が理想の言語に？　Googleが解説する「Goの価値」",
       "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/15/news013.html",
@@ -180,13 +187,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-08-15T02:42:14",
       "excerpt": "記事の URL: https://app.deltix.ai コメント URL: https://news.ycombinator.com/item?id=49307099 ポイント: 5 コメント数: 3"
-    },
-    {
-      "title": "Perforce 公式 VS Code 拡張機能の接続設定と排他ロック時の挙動を確認した",
-      "link": "https://dev.classmethod.jp/articles/perforce-p4vscode-connection-lock-behavior/",
-      "source": "DevelopersIO",
-      "published": "2026-08-15T02:22:04",
-      "excerpt": "Perforce 公式の VS Code 拡張機能 P4VSCode は、接続設定に P4CONFIG ファイル方式と VS Code 設定 UI 方式があり、いずれか一方を選んで使う仕組みになっています。…"
     }
   ]
 }
