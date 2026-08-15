@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-15T09:15:08",
+  "generated_at": "2026-08-15T09:46:39",
   "window_hours": 24,
-  "total": 154,
+  "total": 153,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。「このデータを分類する Notebook を作って」 研究者が JupyterLab のチャット欄からそう頼むと、Claude Code が .ipynb を作り、実行結果を見ながら次の検証まで一緒に考えてくれる。…",
+      "summary": "生成AIの新着が20件。はじめに 前回は、SageMaker の基本的な全体像として Training Endpoint Batch Transform について整理しました。…",
       "articles": [
+        {
+          "title": "【簡単AWS MLA】【初心者向け】Day 9：SageMaker Data Wrangler を整理する — データ加工と特徴量作成の基本",
+          "link": "https://qiita.com/MetaYuan/items/0340e6b0434a4ba36181",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-15T09:40:04",
+          "excerpt": "はじめに 前回は、SageMaker の基本的な全体像として Training Endpoint Batch Transform について整理しました。…"
+        },
         {
           "title": "Amazon SageMaker StudioのJupyterLab：Claude Code on Amazon Bedrockで国内推論",
           "link": "https://zenn.dev/aws_japan/articles/20260811-sagemaker-jupyterlab-claude-code-acp",
@@ -29,20 +36,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-15T05:06:41",
           "excerpt": "はじめに 最近社内向けに、Amazon Bedrock を使ったセキュアな GenAI チャットアプリを設計・実装しました。…"
-        },
-        {
-          "title": "HN を表示: ThoughtDAG – LLM 会話の編集可能なコンテキスト グラフ",
-          "link": "https://chenxiachan.github.io/thoughtdag/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-15T04:42:07",
-          "excerpt": "記事の URL: https://chenxiachan.github.io/thoughtdag/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。はじめに EC2まわりは地味に見えて、実は制度の動きが多い領域です。…",
+      "summary": "クラウドの新着が12件。はじめに EC2まわりは地味に見えて、実は制度の動きが多い領域です。…",
       "articles": [
         {
           "title": "【2026年版】EC2の購入オプション、もう「RIかオンデマンドか」ではない話",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。ランサムウェア被害に遭った企業の89％でバックアップデータが暗号化されていた。被害が広がる中、企業はバックアップデータの保存先をどのように選んでいるのか。arcserve Japanの調査結果から実態を探る。",
+      "summary": "セキュリティの新着が8件。ランサムウェア被害に遭った企業の89％でバックアップデータが暗号化されていた。被害が広がる中、企業はバックアップデータの保存先をどのように選んでいるのか。arcserve Japanの調査結果から実態を探る。",
       "articles": [
         {
           "title": "NASでもテープでもない、ランサムウェア時代の「バックアップ保存先」トップは？",
@@ -161,6 +161,13 @@
   ],
   "uncategorized": [
     {
+      "title": "AWS Instance Storeは「消える」のが仕様だった。だったら2つ武器にできないか考えてみた",
+      "link": "https://qiita.com/yama3133/items/95588213b35738823375",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-15T09:22:05",
+      "excerpt": "AWSのストレージ比較記事でInstance Storeが出てくると、だいたい同じ紹介のされ方をされます。…"
+    },
+    {
       "title": "レゴの超巨大ハッブルはもう少し輝くべきだ",
       "link": "https://www.theregister.com/offbeat/2026/08/15/legos-supersized-hubble-deserves-a-little-more-shine/5282858",
       "source": "The Register（英語）",
@@ -180,13 +187,6 @@
       "source": "Qiita AWSタグ",
       "published": "2026-08-15T07:09:26",
       "excerpt": "AWS APIGateway からの SNS 連携 http post をAPIGatewayを経由して直接SNSへ連携します 以降の内容は以下の記事を前提とします AWS lambda関数と SQS SNS との連携 ロールのポリシー更新…"
-    },
-    {
-      "title": "AWS organization を利用して新しいAWS環境をゼロから作成する",
-      "link": "https://qiita.com/saurus12/items/50a52f424671b8b4cb1a",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-15T07:07:19",
-      "excerpt": "AWS organization を利用して新しいAWS環境をゼロから作成する AWSで新しい環境を作りたいけれど、「メールアドレスの新規作成やクレジットカードの登録が面倒だな……」と思ったことはありませんか？…"
     }
   ]
 }
