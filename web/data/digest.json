@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-15T10:44:36",
+  "generated_at": "2026-08-15T11:09:05",
   "window_hours": 24,
-  "total": 145,
+  "total": 147,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。はじめに 前回は、SageMaker の基本的な全体像として Training Endpoint Batch Transform について整理しました。…",
+      "summary": "生成AIの新着が20件。DevOps Agentの権限ガードレールが8月5日にReadOnlyAccessに対応し、エージェントが実行できる範囲が大きく拡大しました。新しい権限体系がもたらす影響をまとめます。",
       "articles": [
+        {
+          "title": "DevOps Agentの権限ガードレールがReadOnlyAccessポリシーに対応しました",
+          "link": "https://dev.classmethod.jp/articles/devops-agent-readonlyaccess-permission-guardrail/",
+          "source": "DevelopersIO",
+          "published": "2026-08-15T10:55:32",
+          "excerpt": "DevOps Agentの権限ガードレールが8月5日にReadOnlyAccessに対応し、エージェントが実行できる範囲が大きく拡大しました。新しい権限体系がもたらす影響をまとめます。"
+        },
         {
           "title": "【簡単AWS MLA】【初心者向け】Day 9：SageMaker Data Wrangler を整理する — データ加工と特徴量作成の基本",
           "link": "https://qiita.com/MetaYuan/items/0340e6b0434a4ba36181",
@@ -24,18 +31,11 @@
           "excerpt": "記事の URL: https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html コメント URL: https://news.ycombinator.…"
         },
         {
-          "title": "Amazon SageMaker StudioのJupyterLab：Claude Code on Amazon Bedrockで国内推論",
-          "link": "https://zenn.dev/aws_japan/articles/20260811-sagemaker-jupyterlab-claude-code-acp",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-15T07:48:09",
-          "excerpt": "「このデータを分類する Notebook を作って」 研究者が JupyterLab のチャット欄からそう頼むと、Claude Code が .ipynb を作り、実行結果を見ながら次の検証まで一緒に考えてくれる。…"
-        },
-        {
-          "title": "Google、GeminiとFlowで生成する画像や動画に付く「目に見えるウォーターマーク」を非表示にできる設定を追加",
-          "link": "https://gihyo.jp/article/2026/08/gemini-flow-visible-watermark-toggle?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-15T07:47:00",
-          "excerpt": "Googleは2026年8月14日、GeminiとAI映像制作ツールFlowで生成する画像や動画に付く「目に見えるウォーターマーク」の表示をオン・オフできる設定を追加すると発表した。"
+          "title": "Claude Codeがオートモード標準化、設定は済んでますか？ | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/ad8b745d706e5e",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-15T09:07:50",
+          "excerpt": "Claude Codeのオートモードが標準化されます2026年8月14日から、Claude Codeの「オートモード」がPro・Max・Teamプランでデフォルト有効になります。…"
         }
       ]
     },
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。対象読者: AWSをこれから触る人。AWS勉強シリーズの3本目です。全体の地図は索引記事にあります。…",
+      "summary": "セキュリティの新着が7件。対象読者: AWSをこれから触る人。AWS勉強シリーズの3本目です。全体の地図は索引記事にあります。…",
       "articles": [
         {
           "title": "IAM入門。誰が何をしていいかを決める、AWSの一番最初に覚えるサービス",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。記事の URL: https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html コメント URL: https://news.ycombinator.…",
+      "summary": "データ分析の新着が3件。Amazon DynamoDB × Amazon OpenSearch Service はじめに DynamoDB での Query 機能、用途が限定でき...",
       "articles": [
+        {
+          "title": "【DynamoDB × OpenSearch】検索が苦手な DynamoDB に OpenSearch を足してみた",
+          "link": "https://qiita.com/jus1730/items/bea9875f771e256c8fb4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-15T10:57:31",
+          "excerpt": "Amazon DynamoDB × Amazon OpenSearch Service はじめに DynamoDB での Query 機能、用途が限定でき..."
+        },
         {
           "title": "Debian は AI/LLM 貢献の将来に関する投票を開始しました",
           "link": "https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html",
@@ -133,7 +140,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。この記事は前回の記事からの続きとなります。※なお、本記事では生成AIによる回答を示唆するものがある上、その他内容についても筆者学習中のアウトプットであるため機能や仕様について保証するものではありません。…",
+      "summary": "開発ツールの新着が4件。この記事は前回の記事からの続きとなります。※なお、本記事では生成AIによる回答を示唆するものがある上、その他内容についても筆者学習中のアウトプットであるため機能や仕様について保証するものではありません。…",
       "articles": [
         {
           "title": "AWS CLIを使ってAWSリソースを動かす（VPC〜EC2起動まで）",
@@ -168,6 +175,13 @@
   ],
   "uncategorized": [
     {
+      "title": "Twilio ConversationRelay の WebSocket 通信の署名検証で詰まった話",
+      "link": "https://dev.classmethod.jp/articles/twilio-conversationrelay-websocket-signature-verification/",
+      "source": "DevelopersIO",
+      "published": "2026-08-15T10:50:36",
+      "excerpt": "Twilio ConversationRelay の WebSocket 接続に自前で署名検証を実装したところ、Upgrade リクエストの検証だけが通らず、通話が繰り返しエラーで切断されました。…"
+    },
+    {
       "title": "ChainDrop ワームが npm サプライ チェーンに侵入し、標準の防御を回避",
       "link": "https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958",
       "source": "The Register（英語）",
@@ -182,18 +196,11 @@
       "excerpt": "AWSのストレージ比較記事でInstance Storeが出てくると、だいたい同じ紹介のされ方をされます。…"
     },
     {
-      "title": "レゴの超巨大ハッブルはもう少し輝くべきだ",
-      "link": "https://www.theregister.com/offbeat/2026/08/15/legos-supersized-hubble-deserves-a-little-more-shine/5282858",
-      "source": "The Register（英語）",
-      "published": "2026-08-15T08:32:00",
-      "excerpt": "優れた内部ディテールでは、一部のお金をつまむような選択を完全に隠すことはできません"
-    },
-    {
-      "title": "ワイド ポインターとトランポリンを使用しない GCC の入れ子関数の使用 II",
-      "link": "https://uecker.codeberg.page/2026-07-14.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-15T07:59:42",
-      "excerpt": "記事の URL: https://uecker.codeberg.page/2026-07-14.html コメント URL: https://news.ycombinator.com/item?…"
+      "title": "ADRはAI駆動開発の武器になるが、負債にもなるかもしれない | NCDC テックブログのフィード",
+      "link": "https://zenn.dev/ncdc/articles/ad8bdc27c199b6",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-15T09:00:05",
+      "excerpt": "はじめに個人的に、昔から設計書を細かく書くのは嫌いです。特にコードとほぼ同じ粒度で書かれた詳細設計書は負債にしかならないと思っています。…"
     }
   ]
 }
