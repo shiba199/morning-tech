@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-08-15T13:04:32",
+  "generated_at": "2026-08-15T13:48:54",
   "window_hours": 24,
-  "total": 148,
+  "total": 154,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。はじめに こんにちは、ふくちと申します。以前の記事で、Claude Code × AgentCore Gateway × Slack MCPの構成をユーザー単位のOAuth(3LO)でつなぐ方法について解説しました。今回はその番外編です。…",
+      "summary": "生成AIの新着が26件。少し前に↓の記事でAWS DevOps Agentのインシデントレスポンス調査をWebhook経由で起動する検証をしました。「API経由で自動調査できたらなああ」と思って調べていたら、API経由で出来ることがわかりました。…",
       "articles": [
+        {
+          "title": "CreateBacklogTask API経由でAWS DevOps Agentのインシデントレスポンス調査を開始する",
+          "link": "https://qiita.com/sagochiko/items/2bd98792d2d0e17d6247",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-15T13:25:09",
+          "excerpt": "少し前に↓の記事でAWS DevOps Agentのインシデントレスポンス調査をWebhook経由で起動する検証をしました。「API経由で自動調査できたらなああ」と思って調べていたら、API経由で出来ることがわかりました。…"
+        },
+        {
+          "title": "【コツコツAWS】SageMaker用の閉域pip環境を作成",
+          "link": "https://qiita.com/guupys/items/cc290d7adb02e57b9dbb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-15T13:16:00",
+          "excerpt": "VPC only(閉域環境)のSageMakerドメインから、CodeArtifact経由でPythonパッケージをインストールする構成を実装しました。…"
+        },
+        {
+          "title": "GenRec: Netflix での LLM ネイティブの推奨に向けて",
+          "link": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-15T12:56:56",
+          "excerpt": "記事の URL: https://netflixtechblog.…"
+        },
         {
           "title": "AgentCore GatewayのSlack統合プロバイダーをCDKで設定して3LOで認証認可を通す",
           "link": "https://qiita.com/har1101/items/d9cc04c7b69e9a029178",
           "source": "Qiita AWSタグ",
           "published": "2026-08-15T12:56:50",
           "excerpt": "はじめに こんにちは、ふくちと申します。以前の記事で、Claude Code × AgentCore Gateway × Slack MCPの構成をユーザー単位のOAuth(3LO)でつなぐ方法について解説しました。今回はその番外編です。…"
-        },
-        {
-          "title": "Claude Code v2.1.233 の主要アップデート - Todo ツールの既定無効化",
-          "link": "https://dev.classmethod.jp/articles/20260815-cc-updates-v2-1-233/",
-          "source": "DevelopersIO",
-          "published": "2026-08-15T11:55:54",
-          "excerpt": "Claude Code v2.1.233がリリースされました。GitLabのマージリクエスト対応、Linux のメモリ制限設定、複数の重要な不具合修正が含まれています。…"
-        },
-        {
-          "title": "DevOps Agentの権限ガードレールがReadOnlyAccessポリシーに対応しました",
-          "link": "https://dev.classmethod.jp/articles/devops-agent-readonlyaccess-permission-guardrail/",
-          "source": "DevelopersIO",
-          "published": "2026-08-15T10:55:32",
-          "excerpt": "DevOps Agentの権限ガードレールが8月5日にReadOnlyAccessに対応し、エージェントが実行できる範囲が大きく拡大しました。新しい権限体系がもたらす影響をまとめます。"
-        },
-        {
-          "title": "OpenAIは今月後半にヨーロッパ向けに広告を展開",
-          "link": "https://openai.com/policies/eu-privacy-policy-preview/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-15T10:52:36",
-          "excerpt": "記事の URL: https://openai.com/policies/eu-privacy-policy-preview/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。はじめに こんにちは、ふくちと申します。以前の記事で、Claude Code × AgentCore Gateway × Slack MCPの構成をユーザー単位のOAuth(3LO)でつなぐ方法について解説しました。今回はその番外編です。…",
+      "summary": "開発ツールの新着が8件。概要 AWS Workshop Studioのサンドボックス環境でStep Functionsワークショップ(sfn-workshop)を進めようとしたところ、CDKでデプロイされる親スタックがROLLBACK_COMPLETE状態で作成失…",
       "articles": [
+        {
+          "title": "AWSワークショップのサンドボックス環境でCloudFormationスタックがROLLBACK_COMPLETEになった件",
+          "link": "https://qiita.com/yoshi_kei/items/34159159224cb5e701ff",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-15T13:19:06",
+          "excerpt": "概要 AWS Workshop Studioのサンドボックス環境でStep Functionsワークショップ(sfn-workshop)を進めようとしたところ、CDKでデプロイされる親スタックがROLLBACK_COMPLETE状態で作成失…"
+        },
         {
           "title": "AgentCore GatewayのSlack統合プロバイダーをCDKで設定して3LOで認証認可を通す",
           "link": "https://qiita.com/har1101/items/d9cc04c7b69e9a029178",
@@ -162,45 +169,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-15T12:35:52",
           "excerpt": "前編では、アーティファクト保存用のS3バケットとIAMロール設計、GitHub連携の準備を扱いました。…"
-        },
-        {
-          "title": "AWS CLIを使ってAWSリソースを動かす（VPC〜EC2起動まで）",
-          "link": "https://zenn.dev/silver252/articles/993a11313cad37",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-15T08:33:02",
-          "excerpt": "この記事は前回の記事からの続きとなります。※なお、本記事では生成AIによる回答を示唆するものがある上、その他内容についても筆者学習中のアウトプットであるため機能や仕様について保証するものではありません。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS Certified Developer - Associate(DVA-C02)に合格した話",
-      "link": "https://qiita.com/tech_tech_pingu/items/753ab363a32d35120d9d",
+      "title": "X For You タイムラインのブラジルの選挙フィルター",
+      "link": "https://github.com/xai-org/x-algorithm/blob/main/home-mixer/filters/brazil_2026_election_filter.rs",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-15T13:18:27",
+      "excerpt": "記事の URL: https://github.com/xai-org/x-algorithm/blob/main/home-mixer/filters/brazil_2026_election_filter.…"
+    },
+    {
+      "title": "388年前、ガリレオは人間の巨人が存在できない理由を解明した",
+      "link": "https://www.scientificamerican.com/article/388-years-ago-galileo-worked-out-why-human-giants-cant-exist-and-explained-a-law-of-nature/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-15T13:15:48",
+      "excerpt": "記事の URL: https://www.scientificamerican.…"
+    },
+    {
+      "title": "1億ドル以上を調達したすべての融合スタートアップ",
+      "link": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-15T13:15:20",
+      "excerpt": "Fusionスタートアップはこれまでに71億ドルを調達しており、その大部分は数社に寄付されている。"
+    },
+    {
+      "title": "AWS初心者がSQSのDLQを検証してみた",
+      "link": "https://qiita.com/typ7/items/cd3df4fb2e569952eef0",
       "source": "Qiita AWSタグ",
-      "published": "2026-08-15T12:26:32",
-      "excerpt": "はじめに このたびDVAに合格しましたので、勉強方法や試験の感想を共有したいと思います。これからチャレンジしようとしている方の参考になれば幸いです。…"
-    },
-    {
-      "title": "Cisco C841M で 家庭内LAN と AWS を Site-to-Site VPN接続する(BGP)",
-      "link": "https://dev.classmethod.jp/articles/c841m-aws-site-to-site-vpn-bgp/",
-      "source": "DevelopersIO",
-      "published": "2026-08-15T12:12:57",
-      "excerpt": "Cisco C841MをCustomer Gatewayにして、家庭内LANとAWSをBGPのSite-to-Site VPNで接続します。…"
-    },
-    {
-      "title": "YAMAHA RTX1200 で VLAN 間ルーティング（router on a stick）を構成してみた",
-      "link": "https://dev.classmethod.jp/articles/rtx1200-inter-vlan-routing/",
-      "source": "DevelopersIO",
-      "published": "2026-08-15T12:12:23",
-      "excerpt": "YAMAHA RTX1200をスマートスイッチとトランク接続し、VLAN間ルーティング（router on a stick）を構成します。…"
-    },
-    {
-      "title": "TL-SG108E で家庭内に VLAN を作って 802.1Q タグを目視してみた",
-      "link": "https://dev.classmethod.jp/articles/tl-sg108e-home-vlan-802-1q/",
-      "source": "DevelopersIO",
-      "published": "2026-08-15T12:12:03",
-      "excerpt": "TP-LinkのスマートスイッチTL-SG108Eで家庭内LANに802.1Q VLANを構成します。…"
+      "published": "2026-08-15T13:13:11",
+      "excerpt": "はじめに AWSを学習する中で、Amazon SQS（Simple Queue Service）について触れる機会がありました。…"
     }
   ]
 }
