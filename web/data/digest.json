@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-15T02:07:20",
+  "generated_at": "2026-08-15T03:09:41",
   "window_hours": 24,
-  "total": 198,
+  "total": 191,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。そして他の AI モデル メーカーも同様のものを導入すると予想されています",
+      "summary": "生成AIの新着が28件。はじめに AWS Healthからの通知は英語だったり、日本語訳されていても文章が長くて読みづらく、「結局何が起きていて、影響範囲や緊急度はどれくらいなのか」をパッと直感的に理解するのに苦労していました。…",
       "articles": [
+        {
+          "title": "AWS CDKで構築してみた！AWS HealthイベントをBedrockで要約して自動通知する仕組み",
+          "link": "https://zenn.dev/sf_tech_1026/articles/aws-health-notice",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-15T01:38:14",
+          "excerpt": "はじめに AWS Healthからの通知は英語だったり、日本語訳されていても文章が長くて読みづらく、「結局何が起きていて、影響範囲や緊急度はどれくらいなのか」をパッと直感的に理解するのに苦労していました。…"
+        },
         {
           "title": "Anthropicは、テキスト透かしスキームは重要でない単語に依存していると述べています",
           "link": "https://www.theregister.com/ai-and-ml/2026/08/15/anthropic-says-text-watermarking-scheme-relies-on-inconsequential-words/5288156",
@@ -29,20 +36,13 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-14T19:28:17",
           "excerpt": "記事の URL: https://www.aletheionagi.com コメント URL: https://news.ycombinator.com/item?id=49303499 ポイント: 3 コメント数: 0"
-        },
-        {
-          "title": "HN を表示: Mole – 端末のディープリサーチエージェント",
-          "link": "https://github.com/lajosdeme/mole",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-14T18:52:48",
-          "excerpt": "エージェントとのリサーチは、エージェントが予算を大幅に超過し、情報源がごちゃ混ぜになり、最善の答えさえ与えてくれないまでは楽しいものです。ただ、自信があるように聞こえれば大丈夫です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。はじめに Terraformで再利用可能なVPCモジュールを構築する手順を、2回に分けて解説します。…",
+      "summary": "クラウドの新着が19件。はじめに Terraformで再利用可能なVPCモジュールを構築する手順を、2回に分けて解説します。…",
       "articles": [
         {
           "title": "Terraform : 第1回 VPCを構築する - 全体像とネットワーク基盤",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。記事の URL: https://cvd.z.ai コメント URL: https://news.ycombinator.com/item?id=49303433 ポイント: 20 コメント数: 3",
+      "summary": "セキュリティの新着が6件。記事の URL: https://cvd.z.ai コメント URL: https://news.ycombinator.com/item?id=49303433 ポイント: 20 コメント数: 3",
       "articles": [
         {
           "title": "Z.aiのセキュリティ情報開示",
@@ -126,8 +126,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。はじめに Terraformで再利用可能なVPCモジュールを構築する手順を、2回に分けて解説します。…",
+      "summary": "開発ツールの新着が8件。はじめに AWS Healthからの通知は英語だったり、日本語訳されていても文章が長くて読みづらく、「結局何が起きていて、影響範囲や緊急度はどれくらいなのか」をパッと直感的に理解するのに苦労していました。…",
       "articles": [
+        {
+          "title": "AWS CDKで構築してみた！AWS HealthイベントをBedrockで要約して自動通知する仕組み",
+          "link": "https://zenn.dev/sf_tech_1026/articles/aws-health-notice",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-15T01:38:14",
+          "excerpt": "はじめに AWS Healthからの通知は英語だったり、日本語訳されていても文章が長くて読みづらく、「結局何が起きていて、影響範囲や緊急度はどれくらいなのか」をパッと直感的に理解するのに苦労していました。…"
+        },
         {
           "title": "Terraform : 第1回 VPCを構築する - 全体像とネットワーク基盤",
           "link": "https://qiita.com/ham-nao/items/cc5b2ec06528a196d6d8",
@@ -148,18 +155,18 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-14T09:00:55",
           "excerpt": "はじめに 既報 の通り、Aurora MySQL 8.4のリリースに伴い、Aurora MySQL 3の標準サポート終了日が2028年4月30日に決定しました。そろそろバージョンアップの計画を立て始めている方もいらっしゃ […]"
-        },
-        {
-          "title": "KiroでCFnテンプレート作成からデプロイまでやってみた | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/cloudformation-deploy-with-kiro",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-14T08:43:21",
-          "excerpt": "サムネイル こんにちは。CC2課の古屋です。私の住む山梨では、先日「神明の花火大会」が開催されました。いつ見ても圧巻です。さて、現在私は社内のAWSトレーニングに取り組んでおります。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "Perforce 公式 VS Code 拡張機能の接続設定と排他ロック時の挙動を確認した",
+      "link": "https://dev.classmethod.jp/articles/perforce-p4vscode-connection-lock-behavior/",
+      "source": "DevelopersIO",
+      "published": "2026-08-15T02:22:04",
+      "excerpt": "Perforce 公式の VS Code 拡張機能 P4VSCode は、接続設定に P4CONFIG ファイル方式と VS Code 設定 UI 方式があり、いずれか一方を選んで使う仕組みになっています。…"
+    },
     {
       "title": "Node.jsを仮想デバイスとしてAWS IoT Coreにつないでみた",
       "link": "https://dev.classmethod.jp/articles/aws-iot-nodejs-virtual-device/",
@@ -180,13 +187,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-08-15T01:14:05",
       "excerpt": "記事の URL: https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive コメント URL: https://news.ycombinator.…"
-    },
-    {
-      "title": "Ploopy A+ トラックボールが登場",
-      "link": "https://blog.ploopy.co/the-aplus-is-finally-here-499",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-15T00:55:31",
-      "excerpt": "記事の URL: https://blog.ploopy.co/the-aplus-is-finally-here-499 コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
