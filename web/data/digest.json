@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T14:11:53",
+  "generated_at": "2026-08-16T14:44:54",
   "window_hours": 24,
-  "total": 131,
+  "total": 130,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。概要 Bedrock AgentCore Policyでは、Cedar Policyの中からBedrock Guardrailsを呼び出し、Gateway targetの入力や出力を検査できます。…",
+      "summary": "クラウドの新着が15件。目的 本記事では、CloudTechの学習内容を参考に、EC2インスタンスを構築し、自宅PCからSSH接続するまでを実践します。単純にEC2を1台構築するだけではなく、以下の2台を構築します。…",
       "articles": [
+        {
+          "title": "【AWS初級】EC2を作成して自宅から接続しよう",
+          "link": "https://qiita.com/kona19821024/items/4cdc49dbb52324d28446",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-16T14:28:02",
+          "excerpt": "目的 本記事では、CloudTechの学習内容を参考に、EC2インスタンスを構築し、自宅PCからSSH接続するまでを実践します。単純にEC2を1台構築するだけではなく、以下の2台を構築します。…"
+        },
         {
           "title": "Bedrock AgentCore Policy内のGuardrailsでMCP Lambda targetの出力チェックを試した",
           "link": "https://zenn.dev/jnxjez/articles/a53f38d1117bfb",
@@ -64,13 +71,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-16T12:52:47",
           "excerpt": "YaMatome の初版は、鍵を Lambda 環境変数に載せていた。requirements.txt には boto3 と google-generativeai もあった。いまはどちらもやめた。…"
-        },
-        {
-          "title": "グループLINEの流れを拾うため要約BotをLambdaで作った",
-          "link": "https://zenn.dev/yamayama101512/articles/yamatome-line-group-summary",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-16T12:52:46",
-          "excerpt": "仲の良いグループのLINEが、仕事終わりに200件くらい溜まる。追うのが面倒で、飲みの誘いを見逃すこともあった。メンション一発で要約する Bot「YaMatome」を Lambda と DynamoDB、Gemini で作った。…"
         }
       ]
     },
@@ -175,6 +175,13 @@
   ],
   "uncategorized": [
     {
+      "title": "タブもテーマも拡張機能もないAI専用の超軽量ヘッドレスブラウザ「Kitesurf」、Cloudflareが発表",
+      "link": "https://www.publickey1.jp/blog/26/aikitesurfcloudflare.html",
+      "source": "Publickey",
+      "published": "2026-08-16T15:10:13",
+      "excerpt": "CloudflareはAIエージェントによる操作専用のヘッドレスなWebブラウザ「Kitesurf」を発表しました。現在ベータ版として公開されています。Kitesurfは主にRust言語で記述されWebAssemblyにコンパイルされた..…"
+    },
+    {
       "title": "Zed開発チームが「Delta」発表。人間とAIの全対話とコード変更履歴をコンテキストとして保存共有するコラボレーションツール",
       "link": "https://www.publickey1.jp/blog/26/zeddeltaai.html",
       "source": "Publickey",
@@ -194,13 +201,6 @@
       "source": "Qiita AWSタグ",
       "published": "2026-08-16T14:02:58",
       "excerpt": "はじめに こんにちは！KDDIアイレット株式会社の水野 永遠です。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の16日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。…"
-    },
-    {
-      "title": "Tasklet (YC P26) が設計エンジニアリング責任者を募集しています",
-      "link": "https://tasklet.ai/careers/head-of-design-engineering",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-16T13:30:27",
-      "excerpt": "記事の URL: https://tasklet.ai/careers/head-of-design-engineering コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
