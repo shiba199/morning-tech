@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T00:35:25",
+  "generated_at": "2026-08-16T02:14:19",
   "window_hours": 24,
   "total": 135,
   "topic_count": 5,
@@ -7,8 +7,22 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が27件。Anthropicは、「Claude」が生成するテキストに埋め込む電子透かしの仕組みを公表した。乱数生成に秘密鍵を用いて統計的パターンを残す手法で、品質や速度、料金に影響を与えない。…",
+      "summary": "生成AIの新着が28件。記事の URL: https://waku.sh コメント URL: https://news.ycombinator.com/item?id=49315709 ポイント: 7 コメント数: 1",
       "articles": [
+        {
+          "title": "Show HN: Rust と GPUI を使用してエージェントをコーディングするためのネイティブ アプリを構築しました",
+          "link": "https://waku.sh",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-16T00:38:44",
+          "excerpt": "記事の URL: https://waku.sh コメント URL: https://news.ycombinator.com/item?id=49315709 ポイント: 7 コメント数: 1"
+        },
+        {
+          "title": "[アップデート] Kiro IDE 1.0.309 でサブディレクトリの AGENTS.md がサポートされ、ディレクトリツリーごとにエージェントへの指示を分けられるようになりました",
+          "link": "https://dev.classmethod.jp/articles/kiro-ide-subdirectry-agentsmd/",
+          "source": "DevelopersIO",
+          "published": "2026-08-16T00:31:11",
+          "excerpt": "Kiro IDE 1.0.309 でサブディレクトリの AGENTS.md がサポートされたので、モノレポのような複数サービスを含むプロジェクトで、ディレクトリごとにエージェントへの指示をスコープできるようになった動作を確認してみました。"
+        },
         {
           "title": "「Claude」の“見えない透かし”、Anthropicが仕組みを説明　「完全な書き直しなら消える」",
           "link": "https://www.itmedia.co.jp/news/article/2608/16/2000000555/",
@@ -22,27 +36,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-15T22:25:37",
           "excerpt": "生成AIに興味はあるけれど、AWS で何を使えばいいのか分からず最初の一歩が重い。そのままだと、ツールを断片的に触るだけで終わって、実務へつながる設計感覚が育ちません。…"
-        },
-        {
-          "title": "寄稿：Claude Code on AWSで創薬研究・業務を加速する – ＪＣＲファーマのAIエージェント活用事例",
-          "link": "https://aws.amazon.com/jp/blogs/news/jcrpharm-claude-code-on-aws/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-15T21:56:11",
-          "excerpt": "本稿は、ＪＣＲファーマ株式会社による、Amazon BedrockでClaude Codeを導入した約2ヶ月間の取り組みについて、蘆田 勇平様、服部 将太様、東本 伸一様、前田 善貴様、倉本 航佑様より寄稿いただきました。"
-        },
-        {
-          "title": "Anthropic は、Claude の新しい透かしがどのように機能するかについて詳細を共有します",
-          "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-15T18:58:39",
-          "excerpt": "透かしは実際にどのように機能するのでしょうか?編集で非表示にできるのでしょうか？そして、これはコードにどのような影響を与えるのでしょうか?"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。1.はじめに企業規模でクラウドインフラを運用・管理する中で、システムリソースの移行はよくあるシナリオです。…",
+      "summary": "クラウドの新着が8件。1.はじめに企業規模でクラウドインフラを運用・管理する中で、システムリソースの移行はよくあるシナリオです。…",
       "articles": [
         {
           "title": "【GCP】組織間でのプロジェクト移行（Cross-Organization Migration）完全実践ガイド | Sun* Developersのフィード",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。概要 AWS Workshop Studioのサンドボックス環境でStep Functionsワークショップ(sfn-workshop)を進めようとしたところ、CDKでデプロイされる親スタックがROLLBACK_COMPLETE状態で作成失…",
+      "summary": "開発ツールの新着が7件。はじめに 私は普段AWSの環境をプロビジョニングする際には、何度でも再構築可能なIaC(インフラストラクチャー・アズ・コード)ツールを使用しています。…",
       "articles": [
+        {
+          "title": "AWSの最新を追求かつベストプラクティスを意識したTerraformコードを生成するスキルをIBM Bobで作成してみた",
+          "link": "https://qiita.com/duelist2020jp/items/f0ef4323dbaed340b93f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-16T01:10:57",
+          "excerpt": "はじめに 私は普段AWSの環境をプロビジョニングする際には、何度でも再構築可能なIaC(インフラストラクチャー・アズ・コード)ツールを使用しています。…"
+        },
         {
           "title": "AWSワークショップのサンドボックス環境でCloudFormationスタックがROLLBACK_COMPLETEになった件",
           "link": "https://qiita.com/yoshi_kei/items/34159159224cb5e701ff",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-15T12:40:32",
           "excerpt": "はじめに Terraformで再利用可能なVPCモジュールを構築する手順を、全2回に分けて解説しています。…"
-        },
-        {
-          "title": "Terraform : CodePipelineを構築する際に押さえておきたいポイント(2) — CodeBuild、タグトリガー設計、パイプラインの分離",
-          "link": "https://qiita.com/ham-nao/items/1a27dc428eac29b1b71a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-15T12:35:52",
-          "excerpt": "前編では、アーティファクト保存用のS3バケットとIAMロール設計、GitHub連携の準備を扱いました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "クレジットカード負債が1.26兆ドルに増加、過去最高に迫る",
-      "link": "https://abc7.com/story/credit-card-debt-rises-126-trillion-nearing-time-record/19667289/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-15T23:22:59",
-      "excerpt": "記事の URL: https://abc7.…"
+      "title": "【2026年版】AWS Managed Microsoft AD と Entra Connect Sync v2 をつかってEntra IDへID同期(パスワードハッシュ同期)しようとして失敗した話",
+      "link": "https://dev.classmethod.jp/articles/failed-to-using-aws-managed-microsoft-ad-with-entra-connect-sync-v2-hash-sync-2026/",
+      "source": "DevelopersIO",
+      "published": "2026-08-16T00:53:11",
+      "excerpt": "4年経ったけど状況は変わらずでした..."
     },
     {
-      "title": "政府はアンチ・フロックのTikTokとInstagramのアカウントを監視している",
-      "link": "https://www.404media.co/the-government-is-monitoring-anti-flock-tiktok-and-instagram-accounts/",
+      "title": "Show HN: Mic Drop、リアルタイム マルチプレイヤー カラオケ ゲーム",
+      "link": "https://www.micdrop.gg/",
       "source": "Hacker News（英語）",
-      "published": "2026-08-15T22:40:20",
-      "excerpt": "記事の URL: https://www.404media.…"
+      "published": "2026-08-16T00:46:29",
+      "excerpt": "記事の URL: https://www.micdrop.gg/ コメント URL: https://news.ycombinator.com/item?id=49315742 ポイント: 6 コメント数: 2"
     },
     {
-      "title": "SugarTrack – オフラインの Android 血糖値ログブック (アカウントなし、クラウドなし)",
-      "link": "https://sugartrack-beta.vercel.app/",
+      "title": "SWE Atlas のビッグ ピクル – コードベース QnA",
+      "link": "https://github.com/PhillipChaffee/big-pickle-swe-atlas",
       "source": "Hacker News（英語）",
-      "published": "2026-08-15T22:28:14",
-      "excerpt": "記事の URL: https://sugartrack-beta.vercel.app/ コメント URL: https://news.ycombinator.com/item?id=49314884 ポイント: 6 コメント数: 1"
+      "published": "2026-08-16T00:10:48",
+      "excerpt": "記事の URL: https://github.com/PhillipChaffee/big-pickle-swe-atlas コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Oracle – これまでに印刷されたすべてのマジック カードに対応するフォトリアリスティックなブラウザ",
-      "link": "https://magic-oracle.com/",
+      "title": "Tea5767-ラジオチューナー",
+      "link": "https://github.com/turtushig22-blip/tea5767-radio-tuner",
       "source": "Hacker News（英語）",
-      "published": "2026-08-15T22:27:03",
-      "excerpt": "記事の URL: https://magic-oracle.com/ コメント URL: https://news.ycombinator.com/item?id=49314869 ポイント: 3 コメント数: 2"
+      "published": "2026-08-15T23:54:35",
+      "excerpt": "記事の URL: https://github.com/turtushig22-blip/tea5767-radio-tuner コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
