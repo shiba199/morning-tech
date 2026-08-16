@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T15:10:01",
+  "generated_at": "2026-08-16T15:42:23",
   "window_hours": 24,
-  "total": 132,
+  "total": 136,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。目的 本記事では、CloudTechの学習内容を参考に、EC2インスタンスを構築し、自宅PCからSSH接続するまでを実践します。単純にEC2を1台構築するだけではなく、以下の2台を構築します。…",
+      "summary": "クラウドの新着が15件。対象読者: AWSをこれから触る人。EC2という名前しか知らなくて構いません。AWS勉強シリーズの5本目です。全体の地図は索引記事にあります。前半でEC2そのものを説明して、後半は権限に絞ります。…",
       "articles": [
+        {
+          "title": "EC2入門。AWSでサーバーを1台借りる話と、権限が3方向ある話",
+          "link": "https://qiita.com/daisuke-nagata/items/601b82949d769d5dd2da",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-16T15:27:58",
+          "excerpt": "対象読者: AWSをこれから触る人。EC2という名前しか知らなくて構いません。AWS勉強シリーズの5本目です。全体の地図は索引記事にあります。前半でEC2そのものを説明して、後半は権限に絞ります。…"
+        },
         {
           "title": "【AWS初級】EC2を作成して自宅から接続しよう",
           "link": "https://qiita.com/kona19821024/items/4cdc49dbb52324d28446",
@@ -64,21 +71,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-16T12:54:02",
           "excerpt": "はじめに Amazon S3に置いてあるデータを、データ活用基盤からそのまま参照できたら便利ですよね。昨今、AIエージェントによるデータ利活用、業務実行も視野に入ると思います。…"
-        },
-        {
-          "title": "LINE Botの秘密情報をLambda環境変数からSSMへ移した",
-          "link": "https://zenn.dev/yamayama101512/articles/yamatome-sam-ssm-pitfalls",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-16T12:52:47",
-          "excerpt": "YaMatome の初版は、鍵を Lambda 環境変数に載せていた。requirements.txt には boto3 と google-generativeai もあった。いまはどちらもやめた。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。皆さんは仕事でどれぐらいのアプリケーションを使用するでしょうか。GitHub、Slack、Notion、Outlook/Gmail・・・などの SaaS はもちろん、社内の業務システムもあるでしょう。…",
+      "summary": "セキュリティの新着が6件。ECSのCI/CDパイプラインを、CodePipeline + CodeBuildで組む構成は定番パターンです。…",
       "articles": [
+        {
+          "title": "Terraform : CodePipelineを構築する際に押さえておきたいポイント(1) — アーティファクト基盤とIAMロール設計",
+          "link": "https://qiita.com/ham-nao/items/3a620973c4cff86acf3b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-16T15:19:20",
+          "excerpt": "ECSのCI/CDパイプラインを、CodePipeline + CodeBuildで組む構成は定番パターンです。…"
+        },
         {
           "title": "AI エージェントの「認可疲れ」に効く処方箋 : 理論から実装まで",
           "link": "https://zenn.dev/aws_japan/articles/2b62886aa8735e",
@@ -99,13 +106,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-16T09:18:25",
           "excerpt": "はじめに WordPressからAmazon S3を利用するプラグインを作ることにしました。この記事で説明した設計を実装したWordPressプラグインをGitHubで公開しています。…"
-        },
-        {
-          "title": "21,000 台の MCP サーバーが公開: プロトコルはセキュリティの変曲点に到達",
-          "link": "https://forkast.news/the-model-context-protocol-reaches-a-security-inflection-point/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-16T04:07:18",
-          "excerpt": "記事の URL: https://forkast.news/the-model-context-protocol-reaches-a-security-inflection-point/ コメント URL: https://news.…"
         }
       ]
     },
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。はじめに 複数チームで同じAWS環境を利用している中で、インフラチームがTerraformで管理しているAWSリソースを、アプリチームがコンソール上から設定変更することがあります。…",
+      "summary": "開発ツールの新着が12件。ECSのCI/CDパイプラインを、CodePipeline + CodeBuildで組む構成は定番パターンです。…",
       "articles": [
+        {
+          "title": "Terraform : CodePipelineを構築する際に押さえておきたいポイント(1) — アーティファクト基盤とIAMロール設計",
+          "link": "https://qiita.com/ham-nao/items/3a620973c4cff86acf3b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-16T15:19:20",
+          "excerpt": "ECSのCI/CDパイプラインを、CodePipeline + CodeBuildで組む構成は定番パターンです。…"
+        },
         {
           "title": "【Terraform】planとplan -refresh-onlyの結果で、ドリフトを2種類に分類する",
           "link": "https://qiita.com/eureka_/items/40e0b4ced50375a91f62",
@@ -162,18 +169,18 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-16T13:29:53",
           "excerpt": "現在、現場でAWS CDKを使用していますが、CDKに深く携わっているわけではありません。そこで今回は、AWS CDKの公式ドキュメントを実際に読み解きながら、「CDKとは何なのか？」を自分なりに整理していこうと思います。…"
-        },
-        {
-          "title": "WSL の pass に保存した GitHub PAT を更新する手順と、pinentry が詰まったときの対処",
-          "link": "https://dev.classmethod.jp/articles/wsl-pass-github-pat-pinentry-timeout/",
-          "source": "DevelopersIO",
-          "published": "2026-08-16T10:29:36",
-          "excerpt": "GitHub PAT の有効期限更新に伴い、WSL 環境の pass に保存した認証情報を更新した手順をまとめました。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "【書評】 Securing DevOps",
+      "link": "https://qiita.com/io0323/items/c0d3a9f848cea266ed59",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-16T15:18:45",
+      "excerpt": "はじめに DevOpsを回している現場で、セキュリティが「リリース直前に立ちはだかる関門」になっていないでしょうか。…"
+    },
     {
       "title": "タブもテーマも拡張機能もないAI専用の超軽量ヘッドレスブラウザ「Kitesurf」、Cloudflareが発表",
       "link": "https://www.publickey1.jp/blog/26/aikitesurfcloudflare.html",
@@ -194,13 +201,6 @@
       "source": "Publickey",
       "published": "2026-08-16T15:01:16",
       "excerpt": "米エンバカデロ・テクノロジーズは、無料で使える統合開発環境「Delphi 13 Community Edtion」の提供開始を発表しました。Delphi 13 Community Edition is now available!The .…"
-    },
-    {
-      "title": "【AWS Organizations】個人アカウントで一人アドミンに挑戦してみた！(SCP・タグポリシー編)",
-      "link": "https://qiita.com/yosuke-suzuki/items/bd6e964f732058199dbc",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-16T14:57:22",
-      "excerpt": "はじめに こんにちは、すずきです。前編に続き、AWS Organizationsの一人アドミン検証の後編です。前編と同様、それぞれ主要な操作はコンソールとCLIの両方で行います。…"
     }
   ]
 }
