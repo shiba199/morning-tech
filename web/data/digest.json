@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T14:44:54",
+  "generated_at": "2026-08-16T15:10:01",
   "window_hours": 24,
-  "total": 130,
+  "total": 132,
   "topic_count": 5,
   "groups": [
     {
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。目的 本記事では、CloudTechの学習内容を参考に、EC2インスタンスを構築し、自宅PCからSSH接続するまでを実践します。単純にEC2を1台構築するだけではなく、以下の2台を構築します。…",
+      "summary": "クラウドの新着が14件。目的 本記事では、CloudTechの学習内容を参考に、EC2インスタンスを構築し、自宅PCからSSH接続するまでを実践します。単純にEC2を1台構築するだけではなく、以下の2台を構築します。…",
       "articles": [
         {
           "title": "【AWS初級】EC2を作成して自宅から接続しよう",
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。はじめに CDKでインフラを書いていて、「これ、セキュリティ的に大丈夫なんだろうか...」と不安になることがよくあります。レビューをお願いするにしても、レビュワーがAWSに詳しくないと判断が難しいんですよね。…",
+      "summary": "開発ツールの新着が11件。はじめに 複数チームで同じAWS環境を利用している中で、インフラチームがTerraformで管理しているAWSリソースを、アプリチームがコンソール上から設定変更することがあります。…",
       "articles": [
+        {
+          "title": "【Terraform】planとplan -refresh-onlyの結果で、ドリフトを2種類に分類する",
+          "link": "https://qiita.com/eureka_/items/40e0b4ced50375a91f62",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-16T14:52:33",
+          "excerpt": "はじめに 複数チームで同じAWS環境を利用している中で、インフラチームがTerraformで管理しているAWSリソースを、アプリチームがコンソール上から設定変更することがあります。…"
+        },
         {
           "title": "cdk-nagが良さそうなので使ってみる",
           "link": "https://qiita.com/yakumo_09/items/9c540e06512631ca0b39",
@@ -162,13 +169,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-16T10:29:36",
           "excerpt": "GitHub PAT の有効期限更新に伴い、WSL 環境の pass に保存した認証情報を更新した手順をまとめました。…"
-        },
-        {
-          "title": "TerraformでAWSのEC2インスタンスタイプ変更",
-          "link": "https://qiita.com/XYZXYZXYZ/items/85c371989fbc97d88c67",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T08:22:55",
-          "excerpt": "EC2のインスタンスタイプを変更 インスタンスタイプを変更したタイミングで勝手に再起動が発生します。気を付けてください。…"
         }
       ]
     }
@@ -196,11 +196,11 @@
       "excerpt": "米エンバカデロ・テクノロジーズは、無料で使える統合開発環境「Delphi 13 Community Edtion」の提供開始を発表しました。Delphi 13 Community Edition is now available!The .…"
     },
     {
-      "title": "Regional NAT Gatewayを検討して見送った話 — 何と比べて「良い」のかを確認する",
-      "link": "https://qiita.com/Omizu-25/items/555c6319df5a97d3c90f",
+      "title": "【AWS Organizations】個人アカウントで一人アドミンに挑戦してみた！(SCP・タグポリシー編)",
+      "link": "https://qiita.com/yosuke-suzuki/items/bd6e964f732058199dbc",
       "source": "Qiita AWSタグ",
-      "published": "2026-08-16T14:02:58",
-      "excerpt": "はじめに こんにちは！KDDIアイレット株式会社の水野 永遠です。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の16日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。…"
+      "published": "2026-08-16T14:57:22",
+      "excerpt": "はじめに こんにちは、すずきです。前編に続き、AWS Organizationsの一人アドミン検証の後編です。前編と同様、それぞれ主要な操作はコンソールとCLIの両方で行います。…"
     }
   ]
 }
