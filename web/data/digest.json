@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T22:08:43",
+  "generated_at": "2026-08-16T22:43:10",
   "window_hours": 24,
   "total": 134,
   "topic_count": 5,
@@ -7,7 +7,7 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が25件。記事の URL: https://daringfireball.…",
+      "summary": "生成AIの新着が24件。記事の URL: https://daringfireball.…",
       "articles": [
         {
           "title": "Anthropic のクロードにおける「透かし」テキストの改ざんは執筆の倒錯である",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。Amazon Bedrock AgentCore のランタイムを使うと、開発した AI エージェントを簡単にクラウド環境へデプロイできます。…",
+      "summary": "クラウドの新着が19件。Routing Policyを用いてトラフィックをコントロールしよう",
       "articles": [
+        {
+          "title": "AWS Cloud WANとオンプレミスとが複数経路で接続されている環境で非対称ルーティングを防ぐためにはRouting Policyを用いた制御を検討しよう",
+          "link": "https://dev.classmethod.jp/articles/aws-cloud-wan-routing-policy-prevent-asymmetric-routing/",
+          "source": "DevelopersIO",
+          "published": "2026-08-16T22:35:07",
+          "excerpt": "Routing Policyを用いてトラフィックをコントロールしよう"
+        },
         {
           "title": "Amazon Bedrock AgentCore ランタイムを閉域ネットワークの VPC で動かしてみた",
           "link": "https://qiita.com/takeda_h/items/bb7fabbb7376c6be3ae2",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-16T15:27:58",
           "excerpt": "対象読者: AWSをこれから触る人。EC2という名前しか知らなくて構いません。AWS勉強シリーズの5本目です。全体の地図は索引記事にあります。前半でEC2そのものを説明して、後半は権限に絞ります。…"
-        },
-        {
-          "title": "【AWS初級】EC2を作成して自宅から接続しよう",
-          "link": "https://qiita.com/kona19821024/items/4cdc49dbb52324d28446",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T14:28:02",
-          "excerpt": "目的 本記事では、CloudTechの学習内容を参考に、EC2インスタンスを構築し、自宅PCからSSH接続するまでを実践します。単純にEC2を1台構築するだけではなく、以下の2台を構築します。…"
         }
       ]
     },
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。ECSのCI/CDパイプラインを、CodePipeline + CodeBuildで組む構成は定番パターンです。…",
+      "summary": "開発ツールの新着が12件。Docker + GitHub ActionsでECRにイメージをpush — ビルドからプッシュまで自動化 はじめに 前回はSpring BootのテストをGitHub Actionsで自動実行する構成を紹介しました。…",
       "articles": [
+        {
+          "title": "Docker + GitHub ActionsでECRにイメージをpush — ビルドからプッシュまで自動化",
+          "link": "https://qiita.com/hitobussi/items/78b6fbec4a727a925896",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-16T22:18:24",
+          "excerpt": "Docker + GitHub ActionsでECRにイメージをpush — ビルドからプッシュまで自動化 はじめに 前回はSpring BootのテストをGitHub Actionsで自動実行する構成を紹介しました。…"
+        },
         {
           "title": "Terraform : CodePipelineを構築する際に押さえておきたいポイント(1) — アーティファクト基盤とIAMロール設計",
           "link": "https://qiita.com/ham-nao/items/3a620973c4cff86acf3b",
@@ -162,45 +169,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-16T14:01:50",
           "excerpt": "はじめに CDKでインフラを書いていて、「これ、セキュリティ的に大丈夫なんだろうか...」と不安になることがよくあります。レビューをお願いするにしても、レビュワーがAWSに詳しくないと判断が難しいんですよね。…"
-        },
-        {
-          "title": "【超入門】AWS CDKとは何かを公式ドキュメントから読み解く",
-          "link": "https://qiita.com/ki-cloud/items/163456743436d083a456",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T13:29:53",
-          "excerpt": "現在、現場でAWS CDKを使用していますが、CDKに深く携わっているわけではありません。そこで今回は、AWS CDKの公式ドキュメントを実際に読み解きながら、「CDKとは何なのか？」を自分なりに整理していこうと思います。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "クロードは落ち込んだようだ",
-      "link": "https://news.ycombinator.com/item?id=49324078",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-16T21:52:59",
-      "excerpt": "「認証サービスは利用できませんでした。」がスローされ、ステータス ページに更新はありませんが、ダウン検出器には更新があります コメント URL: https://news.ycombinator.com/item?…"
+      "title": "やっぱり足りない上級人材　42％の企業が「上級SEを確保できない」背景は？",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/17/news041.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-08-16T22:00:00",
+      "excerpt": "ITRの調査によると、上級SEを確保できていない企業が42％、上級コンサルタントを確保できていない企業も40％に達している。上級人材の需要とギャップが拡大している理由とは。"
     },
     {
-      "title": "記憶を保つのはシナプスの強さではなく「つながり方」：沖縄科学技術大学院大などが人工冬眠マウスで示す",
-      "link": "https://ki-to-oku.net/oist-artificial-hibernation-memory-retention/",
-      "source": "はてなブックマーク（テクノロジー）",
-      "published": "2026-08-16T21:27:10",
-      "excerpt": "冬眠明けのマウスは記憶を保っていた沖縄科学技術大学院大学（OIST）、筑波大学、自然科学研究機構 生命創成探究センター/生理学研究所などの研究チームは2026年8月13日、人工冬眠を利用したマウス実験により、長期記憶の保持には、神経細胞同士…"
+      "title": "34万台の監視で分かった「故障ゼロのHDD」　3モデルはどれか",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/17/news026.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-08-16T22:00:00",
+      "excerpt": "クラウドストレージ事業者のBackblazeが、34万台規模のHDDの故障率データを公開した。大容量モデルへの移行が進む中、1件も故障しなかったのはどのモデルか。そもそも同社が今回明かした、自らの集計方法の「見落とし」とは何か。"
     },
     {
-      "title": "人間的IPOの評価額は2028年の1,900～2,000億ドルの収益予測に左右される",
-      "link": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-16T21:00:25",
-      "excerpt": "記事の URL: https://www.reuters.…"
+      "title": "自治体のコスト削減事例　舞鶴市「脱Windows」で6億円、千代田区Copilotで月2000時間",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/17/news028.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-08-16T22:00:00",
+      "excerpt": "他組織がツールを導入した際の効果を知ることは、自社での導入を検討する際の大きな参考となる。中でも自治体における導入例は、組織の公共性もあり、詳細な効果を知ることが可能だ。…"
     },
     {
-      "title": "Stripe が AI ゲートウェイのスタートアップ OpenRouter を 70 億ドル以上で買収すると報じられている",
-      "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-16T20:57:04",
-      "excerpt": "OpenRouter の CEO は最近、このスタートアップを AI の Stripe であると説明しました。"
+      "title": "ソニーグループはどのようにAIのブラックボックス化を防ぎ、各社へ展開した？　全ステップを「追跡」する仕組み",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/17/news004.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-08-16T22:00:00",
+      "excerpt": "ソニーグループはAIエージェントの本格運用に向け、全ステップの追跡やコストを可視化するための仕組みを導入した。ブラックボックス化を防ぎ、ガバナンスと安全な共有を両立する取り組みを解説する。"
     }
   ]
 }
