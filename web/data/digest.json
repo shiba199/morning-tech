@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T08:15:34",
+  "generated_at": "2026-08-16T08:52:56",
   "window_hours": 24,
-  "total": 143,
+  "total": 140,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が27件。記事の URL: https://littlelearner-ll.github.io/ コメント URL: https://news.ycombinator.com/item?id=49317760 ポイント: 12 コメント数: 0",
+      "summary": "生成AIの新着が26件。記事の URL: https://littlelearner-ll.github.io/ コメント URL: https://news.ycombinator.com/item?id=49317760 ポイント: 12 コメント数: 0",
       "articles": [
         {
           "title": "LLM が 5 年生以降の教材を見ない場合はどうなりますか?",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。はじめに RDSをTerraformで構築するとき、「とりあえず動くDB」を作るのは難しくありません。しかし、実際に運用に耐える構成にしようとすると、以下のような問いに一つずつ答えていく必要があります。…",
+      "summary": "クラウドの新着が7件。EC2のインスタンスタイプを変更 インスタンスタイプを変更したタイミングで勝手に再起動が発生します。気を付けてください。…",
       "articles": [
+        {
+          "title": "TerraformでAWSのEC2インスタンスタイプ変更",
+          "link": "https://qiita.com/XYZXYZXYZ/items/85c371989fbc97d88c67",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-16T08:22:55",
+          "excerpt": "EC2のインスタンスタイプを変更 インスタンスタイプを変更したタイミングで勝手に再起動が発生します。気を付けてください。…"
+        },
         {
           "title": "Terraform : 第1回 RDS(PostgreSQL)モジュールを設計する ― 最小構成から本番想定まで",
           "link": "https://qiita.com/ham-nao/items/65035e4202f0241c6eb1",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-16T06:45:37",
           "excerpt": "背景 EventBridge + Lambdaの定期バッチをAWS SAMで構築しました。テンプレート1ファイルでスケジュール設定からIAM権限まで完結する構成です。1.…"
-        },
-        {
-          "title": "EKS CapabilitiesのマネージドArgo CD × EKS Auto Mode × GitHubでGitOpsを体感する",
-          "link": "https://qiita.com/yuki_ink/items/9d91f8b80269a1b5658e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T03:17:38",
-          "excerpt": "はじめに お疲れ様です。矢儀 @yuki_ink です。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。はじめに RDSをTerraformで構築するとき、「とりあえず動くDB」を作るのは難しくありません。しかし、実際に運用に耐える構成にしようとすると、以下のような問いに一つずつ答えていく必要があります。…",
+      "summary": "開発ツールの新着が11件。EC2のインスタンスタイプを変更 インスタンスタイプを変更したタイミングで勝手に再起動が発生します。気を付けてください。…",
       "articles": [
+        {
+          "title": "TerraformでAWSのEC2インスタンスタイプ変更",
+          "link": "https://qiita.com/XYZXYZXYZ/items/85c371989fbc97d88c67",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-16T08:22:55",
+          "excerpt": "EC2のインスタンスタイプを変更 インスタンスタイプを変更したタイミングで勝手に再起動が発生します。気を付けてください。…"
+        },
         {
           "title": "Terraform : 第1回 RDS(PostgreSQL)モジュールを設計する ― 最小構成から本番想定まで",
           "link": "https://qiita.com/ham-nao/items/65035e4202f0241c6eb1",
@@ -169,18 +176,18 @@
           "source": "DevelopersIO",
           "published": "2026-08-16T03:25:58",
           "excerpt": "Terraformの.terraformフォルダが81GBまで肥大化していたので、Provider Plugin Cacheを使ってディスク容量を節約する方法を検証してみました。…"
-        },
-        {
-          "title": "EKS CapabilitiesのマネージドArgo CD × EKS Auto Mode × GitHubでGitOpsを体感する",
-          "link": "https://qiita.com/yuki_ink/items/9d91f8b80269a1b5658e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T03:17:38",
-          "excerpt": "はじめに お疲れ様です。矢儀 @yuki_ink です。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "プルリクエストとソースコメントの内容、理由、方法",
+      "link": "https://www.theregister.com/offbeat/2026/08/16/the-what-why-and-how-of-pull-requests-and-source-comments/5287914",
+      "source": "The Register（英語）",
+      "published": "2026-08-16T07:58:00",
+      "excerpt": "Microsoft のベテランが違いを理解し、承認者に変更を受け入れるよう説得する方法について語る"
+    },
     {
       "title": "【AWS SAA-C03】試験直前用チートシート",
       "link": "https://zenn.dev/h_kohe/articles/f9f2cc872e0866",
@@ -201,13 +208,6 @@
       "source": "Zenn AWSトピック",
       "published": "2026-08-16T07:41:28",
       "excerpt": "AWS Certified Solutions Architect - Associate（SAA-C03）の 「高パフォーマンスなアーキテクチャの設計」 で押さえておきたい内容を、試験問題のキーワードから逆引きできる形でまとめます。…"
-    },
-    {
-      "title": "【AWS SAA-C03】弾力性の高いアーキテクチャの設計 チートシート",
-      "link": "https://zenn.dev/h_kohe/articles/6909f4677271fb",
-      "source": "Zenn AWSトピック",
-      "published": "2026-08-16T07:37:45",
-      "excerpt": "AWS Certified Solutions Architect - Associate（SAA-C03）の 「弾力性の高いアーキテクチャの設計」 で押さえておきたい内容を、試験問題のキーワードから逆引きできる形でまとめます。…"
     }
   ]
 }
