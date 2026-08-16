@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-16T11:10:05",
+  "generated_at": "2026-08-16T11:41:17",
   "window_hours": 24,
-  "total": 133,
+  "total": 136,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が21件。記事の URL: https://littlelearner-ll.github.io/ コメント URL: https://news.ycombinator.com/item?id=49317760 ポイント: 12 コメント数: 0",
+      "summary": "生成AIの新着が22件。記事の URL: https://github.com/alexander-akhmetov/grafana-agento11y-hermes コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "HN を表示: Hermes エージェントの Grafana エージェントの可観測性",
+          "link": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-16T08:40:50",
+          "excerpt": "記事の URL: https://github.com/alexander-akhmetov/grafana-agento11y-hermes コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "LLM が 5 年生以降の教材を見ない場合はどうなりますか?",
           "link": "https://littlelearner-ll.github.io/",
@@ -29,21 +36,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-16T05:52:16",
           "excerpt": "世の中、月刊誌が隔月刊になったり、不定期刊になったり、Webに移行したり、休刊したり。雑誌受難の時代でしょうか。かの日経ソフトウェアも今年いっぱいで休刊とのこと。…"
-        },
-        {
-          "title": "Nemotron 3.5 Lightning を LoRA 事後学習で LLM ルーターの判定役に仕立ててみた",
-          "link": "https://dev.classmethod.jp/articles/dgx-spark-nemotron-lightning-switchyard-classifier-finetune/",
-          "source": "DevelopersIO",
-          "published": "2026-08-16T03:48:34",
-          "excerpt": "Nemotron 3.5 Lightning を LLM ルーターの「判定役」に仕立て直しました。284B のモデルを 21GB に置き換えつつ、蒸留元の精度を超える実測結果までまとめます。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。はじめに WordPressからAmazon S3を利用するプラグインを作ることにしました。この記事で説明した設計を実装したWordPressプラグインをGitHubで公開しています。…",
+      "summary": "クラウドの新着が10件。はじめに 前記事まででOpenTelemetryの導入方法がいろいろとあることが分かりました。…",
       "articles": [
+        {
+          "title": "サイドカーを足すと観測コストはいくら増えるのか、Fargate で実測して課金メーターごとに分解した",
+          "link": "https://zenn.dev/yoshit0oo/articles/otel-fargate-firelens-vol3",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-16T09:44:52",
+          "excerpt": "はじめに 前記事まででOpenTelemetryの導入方法がいろいろとあることが分かりました。…"
+        },
         {
           "title": "WordPressからS3を安全に使う — Access Keyを保存せずIAM Roleを使う理由",
           "link": "https://qiita.com/ozekihiroshi/items/a1847ff2821cb4eebc19",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-16T08:22:55",
           "excerpt": "EC2のインスタンスタイプを変更 インスタンスタイプを変更したタイミングで勝手に再起動が発生します。気を付けてください。…"
-        },
-        {
-          "title": "Terraform : 第1回 RDS(PostgreSQL)モジュールを設計する ― 最小構成から本番想定まで",
-          "link": "https://qiita.com/ham-nao/items/65035e4202f0241c6eb1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T07:54:32",
-          "excerpt": "はじめに RDSをTerraformで構築するとき、「とりあえず動くDB」を作るのは難しくありません。しかし、実際に運用に耐える構成にしようとすると、以下のような問いに一つずつ答えていく必要があります。…"
         }
       ]
     },
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "STGをケチると、本番でだけ壊れる — 環境を「いつ」揃えるか",
+      "link": "https://qiita.com/kenichiyoshioka/items/b730bd8c80e2a3bb461c",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-16T11:34:12",
+      "excerpt": "📚 経営目線のSaaS開発 シリーズ ①：環境を「いつ」揃えるか はじめに 「ステージングは一段小さくていいですよね」 昔、インフラ担当から最初にそう提示されて、私はそのまま受け入れました。理屈は通っていましたし、安くなるのは事実です。…"
+    },
+    {
+      "title": "山火事の煙は現在、人間による大気汚染源よりも出産前の脅威の方が大きい",
+      "link": "https://arstechnica.com/science/2026/08/wildfire-smoke-now-bigger-prenatal-threat-than-human-sources-of-air-pollution/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-08-16T10:00:59",
+      "excerpt": "規制により、出生前における有害な排出物への曝露は減少しましたが、山火事の煙によってその増加が消失しています。"
+    },
+    {
       "title": "プルリクエストとソースコメントの内容、理由、方法",
       "link": "https://www.theregister.com/offbeat/2026/08/16/the-what-why-and-how-of-pull-requests-and-source-comments/5287914",
       "source": "The Register（英語）",
@@ -194,20 +208,6 @@
       "source": "Zenn AWSトピック",
       "published": "2026-08-16T07:47:56",
       "excerpt": "AWS Certified Solutions Architect - Associate（SAA-C03）の試験直前に見る用です。細かい仕様は捨てて、 **「このキーワードが出たら、まずこれを疑う」**だけに絞っています。1.…"
-    },
-    {
-      "title": "【AWS SAA-C03】コスト最適化されたアーキテクチャの設計 チートシート",
-      "link": "https://zenn.dev/h_kohe/articles/841ab6325403d8",
-      "source": "Zenn AWSトピック",
-      "published": "2026-08-16T07:44:58",
-      "excerpt": "AWS Certified Solutions Architect - Associate（SAA-C03）の 「コスト最適化されたアーキテクチャの設計」 で押さえておきたい内容を、試験問題のキーワードから逆引きできる形でまとめます。…"
-    },
-    {
-      "title": "【AWS SAA-C03】高パフォーマンスなアーキテクチャの設計 チートシート",
-      "link": "https://zenn.dev/h_kohe/articles/42e6915897a9ee",
-      "source": "Zenn AWSトピック",
-      "published": "2026-08-16T07:41:28",
-      "excerpt": "AWS Certified Solutions Architect - Associate（SAA-C03）の 「高パフォーマンスなアーキテクチャの設計」 で押さえておきたい内容を、試験問題のキーワードから逆引きできる形でまとめます。…"
     }
   ]
 }
