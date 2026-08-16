@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T03:24:13",
+  "generated_at": "2026-08-16T04:05:34",
   "window_hours": 24,
   "total": 137,
   "topic_count": 5,
@@ -7,8 +7,22 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が27件。記事の URL: https://waku.sh コメント URL: https://news.ycombinator.com/item?id=49315709 ポイント: 7 コメント数: 1",
+      "summary": "生成AIの新着が27件。Nemotron 3.5 Lightning を LLM ルーターの「判定役」に仕立て直しました。284B のモデルを 21GB に置き換えつつ、蒸留元の精度を超える実測結果までまとめます。",
       "articles": [
+        {
+          "title": "Nemotron 3.5 Lightning を LoRA 事後学習で LLM ルーターの判定役に仕立ててみた",
+          "link": "https://dev.classmethod.jp/articles/dgx-spark-nemotron-lightning-switchyard-classifier-finetune/",
+          "source": "DevelopersIO",
+          "published": "2026-08-16T03:48:34",
+          "excerpt": "Nemotron 3.5 Lightning を LLM ルーターの「判定役」に仕立て直しました。284B のモデルを 21GB に置き換えつつ、蒸留元の精度を超える実測結果までまとめます。"
+        },
+        {
+          "title": "新しいマルチエージェント システムのパターンと問題",
+          "link": "https://www.anthropic.com/research/multiagent-systems",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-16T02:12:53",
+          "excerpt": "記事の URL: https://www.anthropic.com/research/multiagent-systems コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "Show HN: Rust と GPUI を使用してエージェントをコーディングするためのネイティブ アプリを構築しました",
           "link": "https://waku.sh",
@@ -22,20 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-16T00:31:11",
           "excerpt": "Kiro IDE 1.0.309 でサブディレクトリの AGENTS.md がサポートされたので、モノレポのような複数サービスを含むプロジェクトで、ディレクトリごとにエージェントへの指示をスコープできるようになった動作を確認してみました。"
-        },
-        {
-          "title": "「Claude」の“見えない透かし”、Anthropicが仕組みを説明　「完全な書き直しなら消える」",
-          "link": "https://www.itmedia.co.jp/news/article/2608/16/2000000555/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-15T22:58:11",
-          "excerpt": "Anthropicは、「Claude」が生成するテキストに埋め込む電子透かしの仕組みを公表した。乱数生成に秘密鍵を用いて統計的パターンを残す手法で、品質や速度、料金に影響を与えない。…"
-        },
-        {
-          "title": "AWSで生成AIを触り始めたい人へ。サービス選定から実装の入口までつながる公式テキスト",
-          "link": "https://qiita.com/yasu1109/items/9a82867f959370670c7f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-15T22:25:37",
-          "excerpt": "生成AIに興味はあるけれど、AWS で何を使えばいいのか分からず最初の一歩が重い。そのままだと、ツールを断片的に触るだけで終わって、実務へつながる設計感覚が育ちません。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。はじめに お疲れ様です。矢儀 @yuki_ink です。…",
+      "summary": "開発ツールの新着が8件。Terraformの.terraformフォルダが81GBまで肥大化していたので、Provider Plugin Cacheを使ってディスク容量を節約する方法を検証してみました。…",
       "articles": [
+        {
+          "title": "Terraform Provider Plugin Cache を使ってください。",
+          "link": "https://dev.classmethod.jp/articles/terraform-provider-plugin-cache-must-use/",
+          "source": "DevelopersIO",
+          "published": "2026-08-16T03:25:58",
+          "excerpt": "Terraformの.terraformフォルダが81GBまで肥大化していたので、Provider Plugin Cacheを使ってディスク容量を節約する方法を検証してみました。…"
+        },
         {
           "title": "EKS CapabilitiesのマネージドArgo CD × EKS Auto Mode × GitHubでGitOpsを体感する",
           "link": "https://qiita.com/yuki_ink/items/9d91f8b80269a1b5658e",
@@ -169,18 +176,18 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-15T13:19:06",
           "excerpt": "概要 AWS Workshop Studioのサンドボックス環境でStep Functionsワークショップ(sfn-workshop)を進めようとしたところ、CDKでデプロイされる親スタックがROLLBACK_COMPLETE状態で作成失…"
-        },
-        {
-          "title": "AgentCore GatewayのSlack統合プロバイダーをCDKで設定して3LOで認証認可を通す",
-          "link": "https://qiita.com/har1101/items/d9cc04c7b69e9a029178",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-15T12:56:50",
-          "excerpt": "はじめに こんにちは、ふくちと申します。以前の記事で、Claude Code × AgentCore Gateway × Slack MCPの構成をユーザー単位のOAuth(3LO)でつなぐ方法について解説しました。今回はその番外編です。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "政府主催のアルコールに関する研究は厳しい調査に耐えられない：ナシム・タレブ",
+      "link": "https://nntaleb.substack.com/p/have-another-drink",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-16T03:23:34",
+      "excerpt": "記事の URL: https://nntaleb.substack.com/p/have-another- Drink コメント URL: https://news.ycombinator.com/item?…"
+    },
     {
       "title": "AWS Interconnect、Oracle Cloudとの接続に対応し一般提供開始 ― マルチクラウドのコスト構造はどう変わるか",
       "link": "https://qiita.com/cloudcost_shota/items/0a707fc155a368fa1436",
@@ -189,25 +196,18 @@
       "excerpt": "BS12で劇場版『ガンダム』シリーズを放送しているので、ガンダム熱がめちゃくちゃ上がっている翔太です。Qiita記事書きたい、書きたいと思っていたがなかなか書けず、やっと書いています（会社でのプレッシャーもあり…）。…"
     },
     {
+      "title": "岩をザッピングすると刺激された地質水素が解放される",
+      "link": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-16T02:36:10",
+      "excerpt": "記事の URL: https://spectrum.ieee.org/stimulated-geologic-hydrogen コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
       "title": "8月2日、AIが「名乗る」義務が始まった｜EU AI Act第50条の透明性義務と最終ガイドラインを読み解き、実務に落とし込む | CloudNative BLOGs",
       "link": "https://blog.cloudnative.co.jp/articles/eu-ai-act-article-50-transparency-2026/",
       "source": "企業テックブログまとめ",
       "published": "2026-08-16T02:23:00",
       "excerpt": "2026年8月2日、EU AI Act第50条の透明性義務が適用開始。チャットボットのAI開示、AI生成コンテンツの機械可読マーキング、ディープフェイク表示が義務化されます。…"
-    },
-    {
-      "title": "AIが生成するコードをレビューするこつ | Scalar Solution Engineer Blogのフィード",
-      "link": "https://zenn.dev/scalar_sol_blog/articles/5657500037fd2f",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-16T01:48:32",
-      "excerpt": "生成AIやコーディングエージェントによって、コードを書く速度は大きく向上しました。一方で、レビューする人間の理解速度には限界があります。…"
-    },
-    {
-      "title": "モアレパターンによる船舶の誘導",
-      "link": "https://tinkerings.org/2018/03/28/guiding-ships-with-moire-patterns/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-16T01:26:44",
-      "excerpt": "記事の URL: https://tinkerings.org/2018/03/28/guiding-ships-with-moire-patterns/ コメント URL: https://news.ycombinator.…"
     }
   ]
 }
