@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-16T13:06:35",
+  "generated_at": "2026-08-16T13:49:45",
   "window_hours": 24,
-  "total": 129,
+  "total": 126,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。はじめに AI コーディングエージェントに aws s3 ls を叩かせたい、という場面は珍しくありません。ところがその瞬間、こちらは二択を迫られます。…",
+      "summary": "生成AIの新着が16件。GraphRAG、ナレッジグラフ、可視化までを実際に試してみました。文書全体を俯瞰する質問に対して、従来のRAGでは対応できない課題をどう解決するのか、Microsoftのアプローチを紹介します。",
       "articles": [
+        {
+          "title": "GraphRAGを構築してみた",
+          "link": "https://dev.classmethod.jp/articles/graphrag-gemini-gephi-lite/",
+          "source": "DevelopersIO",
+          "published": "2026-08-16T13:09:49",
+          "excerpt": "GraphRAG、ナレッジグラフ、可視化までを実際に試してみました。文書全体を俯瞰する質問に対して、従来のRAGでは対応できない課題をどう解決するのか、Microsoftのアプローチを紹介します。"
+        },
+        {
+          "title": "クロード: システムプロンプト",
+          "link": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-16T12:48:21",
+          "excerpt": "記事の URL: https://platform.claude.com/docs/en/release-notes/system-prompts コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "エージェントに AWS の鍵を渡さず AWS を叩かせる方法",
           "link": "https://qiita.com/ryoji9702/items/8fdef34e0a55e7f4d558",
@@ -22,20 +36,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-16T08:40:50",
           "excerpt": "記事の URL: https://github.com/alexander-akhmetov/grafana-agento11y-hermes コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "LLM が 5 年生以降の教材を見ない場合はどうなりますか?",
-          "link": "https://littlelearner-ll.github.io/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-16T07:37:53",
-          "excerpt": "記事の URL: https://littlelearner-ll.github.io/ コメント URL: https://news.ycombinator.com/item?id=49317760 ポイント: 12 コメント数: 0"
-        },
-        {
-          "title": "AIエージェントの作業結果、マークダウンで読むの辛くない？ 個人用ダッシュボード「HTML共有くん」を作った",
-          "link": "https://qiita.com/minorun365/items/320b4230c0b0c169ba13",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T06:57:25",
-          "excerpt": "こんにちは、Grokです。Cursorというコーディングエージェントを使って、みのるんに指示をもらいながらこのブログを書いています。この記事は、普段みのるんの仕事を横で見ている私、Grokの視点からブログにまとめたものです。…"
         }
       ]
     },
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。GitHub PAT の有効期限更新に伴い、WSL 環境の pass に保存した認証情報を更新した手順をまとめました。…",
+      "summary": "開発ツールの新着が9件。現在、現場でAWS CDKを使用していますが、CDKに深く携わっているわけではありません。そこで今回は、AWS CDKの公式ドキュメントを実際に読み解きながら、「CDKとは何なのか？」を自分なりに整理していこうと思います。…",
       "articles": [
+        {
+          "title": "【超入門】AWS CDKとは何かを公式ドキュメントから読み解く",
+          "link": "https://qiita.com/ki-cloud/items/163456743436d083a456",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-16T13:29:53",
+          "excerpt": "現在、現場でAWS CDKを使用していますが、CDKに深く携わっているわけではありません。そこで今回は、AWS CDKの公式ドキュメントを実際に読み解きながら、「CDKとは何なのか？」を自分なりに整理していこうと思います。…"
+        },
         {
           "title": "WSL の pass に保存した GitHub PAT を更新する手順と、pinentry が詰まったときの対処",
           "link": "https://dev.classmethod.jp/articles/wsl-pass-github-pat-pinentry-timeout/",
@@ -162,45 +169,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-16T07:54:32",
           "excerpt": "はじめに RDSをTerraformで構築するとき、「とりあえず動くDB」を作るのは難しくありません。しかし、実際に運用に耐える構成にしようとすると、以下のような問いに一つずつ答えていく必要があります。…"
-        },
-        {
-          "title": "Terraform 初期セットアップ — VM を 1 台立てるまで",
-          "link": "https://zenn.dev/onclimb/articles/terraform-first-setup-onclimb",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-16T03:26:34",
-          "excerpt": "他の人が作った Terraform 環境で plan / apply を打ったことはある。tf ファイルを直してリソースを増やしたこともある。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "「腎不全」の代わりに「腎失望」を使用した研究論文",
-      "link": "https://scholar.google.com/scholar?q=%22kidney+disappointment%22",
+      "title": "Tasklet (YC P26) が設計エンジニアリング責任者を募集しています",
+      "link": "https://tasklet.ai/careers/head-of-design-engineering",
       "source": "Hacker News（英語）",
-      "published": "2026-08-16T12:22:20",
-      "excerpt": "記事の URL: https://scholar.google.com/scholar?q=%22kidney+disappointment%22 コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-16T13:30:27",
+      "excerpt": "記事の URL: https://tasklet.ai/careers/head-of-design-engineering コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Gooseworks (YC W23) は創設ビルダー / エンジニアを募集しています",
-      "link": "https://www.ycombinator.com/companies/gooseworks/jobs/UJ4vH2F-founding-engineer",
+      "title": "iOS 版 Firefox にネイティブ広告ブロッカーが追加されました",
+      "link": "https://support.mozilla.org/en-US/kb/block-ads-firefox-ios",
       "source": "Hacker News（英語）",
-      "published": "2026-08-16T12:00:23",
-      "excerpt": "記事の URL: https://www.ycombinator.com/companies/gooseworks/jobs/UJ4vH2F-founding-engineer コメント URL: https://news.…"
+      "published": "2026-08-16T12:58:10",
+      "excerpt": "記事の URL: https://support.mozilla.org/en-US/kb/block-ads-firefox-ios コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "遠隔測定データへのアクセス: 自動車業界はインテリジェンス改革を批判",
-      "link": "https://www.heise.de/en/news/Access-to-telemetry-data-Automotive-industry-criticizes-intelligence-reform-11414994.html",
+      "title": "業界はトークンに制約のある作業に対応する準備ができていますか?",
+      "link": "https://blog.alaindichiappari.dev/p/what-to-do-when-tokens-run-out",
       "source": "Hacker News（英語）",
-      "published": "2026-08-16T11:52:23",
-      "excerpt": "記事の URL: https://www.heise.…"
+      "published": "2026-08-16T12:51:58",
+      "excerpt": "記事の URL: https://blog.alaindichiappari.dev/p/what-to-do-when-tokens-run-out コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "STGをケチると、本番でだけ壊れる — 環境を「いつ」揃えるか",
-      "link": "https://qiita.com/kenichiyoshioka/items/b730bd8c80e2a3bb461c",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-16T11:34:12",
-      "excerpt": "📚 経営目線のSaaS開発 シリーズ ①：環境を「いつ」揃えるか はじめに 「ステージングは一段小さくていいですよね」 昔、インフラ担当から最初にそう提示されて、私はそのまま受け入れました。理屈は通っていましたし、安くなるのは事実です。…"
+      "title": "禁止用語リスト",
+      "link": "https://pen.org/banned-words-list/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-16T12:50:31",
+      "excerpt": "記事の URL: https://pen.org/banned-words-list/ コメント URL: https://news.ycombinator.com/item?id=49319573 ポイント: 47 コメント数: 17"
     }
   ]
 }
