@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T04:05:34",
+  "generated_at": "2026-08-16T04:56:55",
   "window_hours": 24,
-  "total": 137,
+  "total": 141,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が27件。Nemotron 3.5 Lightning を LLM ルーターの「判定役」に仕立て直しました。284B のモデルを 21GB に置き換えつつ、蒸留元の精度を超える実測結果までまとめます。",
+      "summary": "生成AIの新着が26件。Nemotron 3.5 Lightning を LLM ルーターの「判定役」に仕立て直しました。284B のモデルを 21GB に置き換えつつ、蒸留元の精度を超える実測結果までまとめます。",
       "articles": [
         {
           "title": "Nemotron 3.5 Lightning を LoRA 事後学習で LLM ルーターの判定役に仕立ててみた",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。Terraformの.terraformフォルダが81GBまで肥大化していたので、Provider Plugin Cacheを使ってディスク容量を節約する方法を検証してみました。…",
+      "summary": "開発ツールの新着が10件。他の人が作った Terraform 環境で plan / apply を打ったことはある。tf ファイルを直してリソースを増やしたこともある。…",
       "articles": [
+        {
+          "title": "Terraform 初期セットアップ — VM を 1 台立てるまで",
+          "link": "https://zenn.dev/onclimb/articles/terraform-first-setup-onclimb",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-16T03:26:34",
+          "excerpt": "他の人が作った Terraform 環境で plan / apply を打ったことはある。tf ファイルを直してリソースを増やしたこともある。…"
+        },
         {
           "title": "Terraform Provider Plugin Cache を使ってください。",
           "link": "https://dev.classmethod.jp/articles/terraform-provider-plugin-cache-must-use/",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-16T01:10:57",
           "excerpt": "はじめに 私は普段AWSの環境をプロビジョニングする際には、何度でも再構築可能なIaC(インフラストラクチャー・アズ・コード)ツールを使用しています。…"
-        },
-        {
-          "title": "AWSワークショップのサンドボックス環境でCloudFormationスタックがROLLBACK_COMPLETEになった件",
-          "link": "https://qiita.com/yoshi_kei/items/34159159224cb5e701ff",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-15T13:19:06",
-          "excerpt": "概要 AWS Workshop Studioのサンドボックス環境でStep Functionsワークショップ(sfn-workshop)を進めようとしたところ、CDKでデプロイされる親スタックがROLLBACK_COMPLETE状態で作成失…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "政府主催のアルコールに関する研究は厳しい調査に耐えられない：ナシム・タレブ",
-      "link": "https://nntaleb.substack.com/p/have-another-drink",
+      "title": "プログラミング言語作成者の風変わりな個人ホームページ",
+      "link": "https://breck.lol/plMakers.html",
       "source": "Hacker News（英語）",
-      "published": "2026-08-16T03:23:34",
-      "excerpt": "記事の URL: https://nntaleb.substack.com/p/have-another- Drink コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-16T04:24:00",
+      "excerpt": "記事の URL: https://breck.lol/plMakers.html コメント URL: https://news.ycombinator.com/item?id=49316888 ポイント: 9 コメント数: 2"
     },
     {
-      "title": "AWS Interconnect、Oracle Cloudとの接続に対応し一般提供開始 ― マルチクラウドのコスト構造はどう変わるか",
-      "link": "https://qiita.com/cloudcost_shota/items/0a707fc155a368fa1436",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-16T02:43:28",
-      "excerpt": "BS12で劇場版『ガンダム』シリーズを放送しているので、ガンダム熱がめちゃくちゃ上がっている翔太です。Qiita記事書きたい、書きたいと思っていたがなかなか書けず、やっと書いています（会社でのプレッシャーもあり…）。…"
-    },
-    {
-      "title": "岩をザッピングすると刺激された地質水素が解放される",
-      "link": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
+      "title": "フロンティアモデルのカードを30枚チェックしてみました。ベンチマークラボのレポートはこちら",
+      "link": "https://koutian.is-a.dev/benchmark-radar/?view=leaderboard",
       "source": "Hacker News（英語）",
-      "published": "2026-08-16T02:36:10",
-      "excerpt": "記事の URL: https://spectrum.ieee.org/stimulated-geologic-hydrogen コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-16T04:02:38",
+      "excerpt": "記事の URL: https://koutian.is-a.dev/benchmark-radar/?view=leaderboard コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "8月2日、AIが「名乗る」義務が始まった｜EU AI Act第50条の透明性義務と最終ガイドラインを読み解き、実務に落とし込む | CloudNative BLOGs",
-      "link": "https://blog.cloudnative.co.jp/articles/eu-ai-act-article-50-transparency-2026/",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-16T02:23:00",
-      "excerpt": "2026年8月2日、EU AI Act第50条の透明性義務が適用開始。チャットボットのAI開示、AI生成コンテンツの機械可読マーキング、ディープフェイク表示が義務化されます。…"
+      "title": "味の素パークの公式アカウント、AIによる補正でぐちゃぐちゃになった「ほんだし」の画像をポストし、批判相次ぐ流れに「ブランド名すら違う」「AINOMOTO」",
+      "link": "https://togetter.com/li/2733655",
+      "source": "はてなブックマーク（テクノロジー）",
+      "published": "2026-08-16T03:54:10",
+      "excerpt": "味の素パーク @AJINOMOTOPARK めんつゆが切れてしまって絶体絶命なときはこれを思い出してください。これさえあれば「めんつゆ」できます！park.ajinomoto.co.jp/recipe/card/70… pic.x.…"
+    },
+    {
+      "title": "なぜ、ITの職場において低スキル者を排除することが成功のために重要だと誰も言わないのか？",
+      "link": "https://zenn.dev/pdfractal/articles/c7af0a168c0552",
+      "source": "はてなブックマーク（テクノロジー）",
+      "published": "2026-08-16T03:25:37",
+      "excerpt": "はじめに ITの職場では、低スキル者を重要な仕事から排除することが、実はかなり重要な職場づくりの条件の一つです。…"
     }
   ]
 }
