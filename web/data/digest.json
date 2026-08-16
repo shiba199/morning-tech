@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T10:11:54",
+  "generated_at": "2026-08-16T10:45:10",
   "window_hours": 24,
-  "total": 138,
+  "total": 137,
   "topic_count": 5,
   "groups": [
     {
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。Corma CEOはThe Regに対し、「防御側がこの力を持つために、全員を支配するための1つのリング」を構築していると語った",
+      "summary": "セキュリティの新着が6件。Corma CEOはThe Regに対し、「防御側がこの力を持つために、全員を支配するための1つのリング」を構築していると語った",
       "articles": [
         {
           "title": "犬の散歩中にサイバー攻撃を阻止 - 防衛的なAIセキュリティCEO、それは無謀ではないと語る",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。EC2のインスタンスタイプを変更 インスタンスタイプを変更したタイミングで勝手に再起動が発生します。気を付けてください。…",
+      "summary": "開発ツールの新着が12件。GitHub PAT の有効期限更新に伴い、WSL 環境の pass に保存した認証情報を更新した手順をまとめました。…",
       "articles": [
+        {
+          "title": "WSL の pass に保存した GitHub PAT を更新する手順と、pinentry が詰まったときの対処",
+          "link": "https://dev.classmethod.jp/articles/wsl-pass-github-pat-pinentry-timeout/",
+          "source": "DevelopersIO",
+          "published": "2026-08-16T10:29:36",
+          "excerpt": "GitHub PAT の有効期限更新に伴い、WSL 環境の pass に保存した認証情報を更新した手順をまとめました。…"
+        },
         {
           "title": "TerraformでAWSのEC2インスタンスタイプ変更",
           "link": "https://qiita.com/XYZXYZXYZ/items/85c371989fbc97d88c67",
@@ -169,13 +176,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-16T03:26:34",
           "excerpt": "他の人が作った Terraform 環境で plan / apply を打ったことはある。tf ファイルを直してリソースを増やしたこともある。…"
-        },
-        {
-          "title": "Terraform Provider Plugin Cache を使ってください。",
-          "link": "https://dev.classmethod.jp/articles/terraform-provider-plugin-cache-must-use/",
-          "source": "DevelopersIO",
-          "published": "2026-08-16T03:25:58",
-          "excerpt": "Terraformの.terraformフォルダが81GBまで肥大化していたので、Provider Plugin Cacheを使ってディスク容量を節約する方法を検証してみました。…"
         }
       ]
     }
