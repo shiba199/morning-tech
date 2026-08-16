@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-16T13:49:45",
+  "generated_at": "2026-08-16T14:11:53",
   "window_hours": 24,
-  "total": 126,
+  "total": 131,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が16件。GraphRAG、ナレッジグラフ、可視化までを実際に試してみました。文書全体を俯瞰する質問に対して、従来のRAGでは対応できない課題をどう解決するのか、Microsoftのアプローチを紹介します。",
+      "summary": "生成AIの新着が18件。概要 Bedrock AgentCore Policyでは、Cedar Policyの中からBedrock Guardrailsを呼び出し、Gateway targetの入力や出力を検査できます。…",
       "articles": [
+        {
+          "title": "Bedrock AgentCore Policy内のGuardrailsでMCP Lambda targetの出力チェックを試した",
+          "link": "https://zenn.dev/jnxjez/articles/a53f38d1117bfb",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-16T13:57:38",
+          "excerpt": "概要 Bedrock AgentCore Policyでは、Cedar Policyの中からBedrock Guardrailsを呼び出し、Gateway targetの入力や出力を検査できます。…"
+        },
+        {
+          "title": "AI エージェントの「認可疲れ」に効く処方箋 : 理論から実装まで",
+          "link": "https://zenn.dev/aws_japan/articles/2b62886aa8735e",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-16T13:18:26",
+          "excerpt": "皆さんは仕事でどれぐらいのアプリケーションを使用するでしょうか。GitHub、Slack、Notion、Outlook/Gmail・・・などの SaaS はもちろん、社内の業務システムもあるでしょう。…"
+        },
         {
           "title": "GraphRAGを構築してみた",
           "link": "https://dev.classmethod.jp/articles/graphrag-gemini-gephi-lite/",
@@ -22,63 +36,56 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-16T12:48:21",
           "excerpt": "記事の URL: https://platform.claude.com/docs/en/release-notes/system-prompts コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "エージェントに AWS の鍵を渡さず AWS を叩かせる方法",
-          "link": "https://qiita.com/ryoji9702/items/8fdef34e0a55e7f4d558",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T12:07:14",
-          "excerpt": "はじめに AI コーディングエージェントに aws s3 ls を叩かせたい、という場面は珍しくありません。ところがその瞬間、こちらは二択を迫られます。…"
-        },
-        {
-          "title": "HN を表示: Hermes エージェントの Grafana エージェントの可観測性",
-          "link": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-16T08:40:50",
-          "excerpt": "記事の URL: https://github.com/alexander-akhmetov/grafana-agento11y-hermes コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。はじめに ファイル削除機能を実装するとき、DBの行とS3のオブジェクトのどちらを先に消すか、考えた経験は過去にありますか？…",
+      "summary": "クラウドの新着が14件。概要 Bedrock AgentCore Policyでは、Cedar Policyの中からBedrock Guardrailsを呼び出し、Gateway targetの入力や出力を検査できます。…",
       "articles": [
         {
-          "title": "S3時代のファントムファイル",
-          "link": "https://qiita.com/kuma_3838/items/aae2c66e38bb9498d82d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T12:13:48",
-          "excerpt": "はじめに ファイル削除機能を実装するとき、DBの行とS3のオブジェクトのどちらを先に消すか、考えた経験は過去にありますか？…"
-        },
-        {
-          "title": "サイドカーを足すと観測コストはいくら増えるのか、Fargate で実測して課金メーターごとに分解した",
-          "link": "https://zenn.dev/yoshit0oo/articles/otel-fargate-firelens-vol3",
+          "title": "Bedrock AgentCore Policy内のGuardrailsでMCP Lambda targetの出力チェックを試した",
+          "link": "https://zenn.dev/jnxjez/articles/a53f38d1117bfb",
           "source": "Zenn AWSトピック",
-          "published": "2026-08-16T09:44:52",
-          "excerpt": "はじめに 前記事まででOpenTelemetryの導入方法がいろいろとあることが分かりました。…"
+          "published": "2026-08-16T13:57:38",
+          "excerpt": "概要 Bedrock AgentCore Policyでは、Cedar Policyの中からBedrock Guardrailsを呼び出し、Gateway targetの入力や出力を検査できます。…"
         },
         {
-          "title": "WordPressからS3を安全に使う — Access Keyを保存せずIAM Roleを使う理由",
-          "link": "https://qiita.com/ozekihiroshi/items/a1847ff2821cb4eebc19",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T09:18:25",
-          "excerpt": "はじめに WordPressからAmazon S3を利用するプラグインを作ることにしました。この記事で説明した設計を実装したWordPressプラグインをGitHubで公開しています。…"
+          "title": "Amazon S3のCSVをコピーせずAutonomous AI DatabaseからSQLで参照してみる【Data Studio】",
+          "link": "https://zenn.dev/tack330/articles/ed7fcb74845822",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-16T12:54:02",
+          "excerpt": "はじめに Amazon S3に置いてあるデータを、データ活用基盤からそのまま参照できたら便利ですよね。昨今、AIエージェントによるデータ利活用、業務実行も視野に入ると思います。…"
         },
         {
-          "title": "S3入門。バケットにキーで名前を付けてファイルを置く、AWSの基本ストレージ",
-          "link": "https://qiita.com/daisuke-nagata/items/1fd1c738b3424232789c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T09:09:52",
-          "excerpt": "対象読者: AWSをこれから触る人。AWS勉強シリーズの4本目です。全体の地図は索引記事にあります。前回のIAM入門で「誰が何をしていいか」を決めたので、今回はその権限で触る最初の置き場、S3です。…"
+          "title": "LINE Botの秘密情報をLambda環境変数からSSMへ移した",
+          "link": "https://zenn.dev/yamayama101512/articles/yamatome-sam-ssm-pitfalls",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-16T12:52:47",
+          "excerpt": "YaMatome の初版は、鍵を Lambda 環境変数に載せていた。requirements.txt には boto3 と google-generativeai もあった。いまはどちらもやめた。…"
+        },
+        {
+          "title": "グループLINEの流れを拾うため要約BotをLambdaで作った",
+          "link": "https://zenn.dev/yamayama101512/articles/yamatome-line-group-summary",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-16T12:52:46",
+          "excerpt": "仲の良いグループのLINEが、仕事終わりに200件くらい溜まる。追うのが面倒で、飲みの誘いを見逃すこともあった。メンション一発で要約する Bot「YaMatome」を Lambda と DynamoDB、Gemini で作った。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。Corma CEOはThe Regに対し、「防御側がこの力を持つために、全員を支配するための1つのリング」を構築していると語った",
+      "summary": "セキュリティの新着が5件。皆さんは仕事でどれぐらいのアプリケーションを使用するでしょうか。GitHub、Slack、Notion、Outlook/Gmail・・・などの SaaS はもちろん、社内の業務システムもあるでしょう。…",
       "articles": [
+        {
+          "title": "AI エージェントの「認可疲れ」に効く処方箋 : 理論から実装まで",
+          "link": "https://zenn.dev/aws_japan/articles/2b62886aa8735e",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-16T13:18:26",
+          "excerpt": "皆さんは仕事でどれぐらいのアプリケーションを使用するでしょうか。GitHub、Slack、Notion、Outlook/Gmail・・・などの SaaS はもちろん、社内の業務システムもあるでしょう。…"
+        },
         {
           "title": "犬の散歩中にサイバー攻撃を阻止 - 防衛的なAIセキュリティCEO、それは無謀ではないと語る",
           "link": "https://www.theregister.com/security/2026/08/16/stopping-a-cyberattack-while-walking-your-dog-defensive-ai-security-ceo-says-its-not-ruff-to-do/5288126",
@@ -99,13 +106,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-16T04:07:18",
           "excerpt": "記事の URL: https://forkast.news/the-model-context-protocol-reaches-a-security-inflection-point/ コメント URL: https://news.…"
-        },
-        {
-          "title": "ゼロトラストの壁は「製品」ではなかった　トヨタが4年以上かけて見直したもの",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/16/news007.html",
-          "source": "@IT",
-          "published": "2026-08-15T23:00:00",
-          "excerpt": "サイバー攻撃への備えを「侵入を防ぐこと」だけで考えていないだろうか。ニチレイの事例が浮き彫りにしたのは、1社のシステム障害が取引先や顧客まで巻き込み、復旧の判断さえIT部門だけでは完結しない現実だ。…"
         }
       ]
     },
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。現在、現場でAWS CDKを使用していますが、CDKに深く携わっているわけではありません。そこで今回は、AWS CDKの公式ドキュメントを実際に読み解きながら、「CDKとは何なのか？」を自分なりに整理していこうと思います。…",
+      "summary": "開発ツールの新着が10件。はじめに CDKでインフラを書いていて、「これ、セキュリティ的に大丈夫なんだろうか...」と不安になることがよくあります。レビューをお願いするにしても、レビュワーがAWSに詳しくないと判断が難しいんですよね。…",
       "articles": [
+        {
+          "title": "cdk-nagが良さそうなので使ってみる",
+          "link": "https://qiita.com/yakumo_09/items/9c540e06512631ca0b39",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-16T14:01:50",
+          "excerpt": "はじめに CDKでインフラを書いていて、「これ、セキュリティ的に大丈夫なんだろうか...」と不安になることがよくあります。レビューをお願いするにしても、レビュワーがAWSに詳しくないと判断が難しいんですよね。…"
+        },
         {
           "title": "【超入門】AWS CDKとは何かを公式ドキュメントから読み解く",
           "link": "https://qiita.com/ki-cloud/items/163456743436d083a456",
@@ -162,45 +169,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-16T08:22:55",
           "excerpt": "EC2のインスタンスタイプを変更 インスタンスタイプを変更したタイミングで勝手に再起動が発生します。気を付けてください。…"
-        },
-        {
-          "title": "Terraform : 第1回 RDS(PostgreSQL)モジュールを設計する ― 最小構成から本番想定まで",
-          "link": "https://qiita.com/ham-nao/items/65035e4202f0241c6eb1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T07:54:32",
-          "excerpt": "はじめに RDSをTerraformで構築するとき、「とりあえず動くDB」を作るのは難しくありません。しかし、実際に運用に耐える構成にしようとすると、以下のような問いに一つずつ答えていく必要があります。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "Zed開発チームが「Delta」発表。人間とAIの全対話とコード変更履歴をコンテキストとして保存共有するコラボレーションツール",
+      "link": "https://www.publickey1.jp/blog/26/zeddeltaai.html",
+      "source": "Publickey",
+      "published": "2026-08-16T15:05:36",
+      "excerpt": "オープンソースとして開発されている高速なコードエディタ「Zed」の開発チームは、人間の開発チームとAIエージェントの議論や対話内容とコードの変更履歴をすべて共有し、コンテキストとして保存できる「Delta」を発表しました。Today we.…"
+    },
+    {
+      "title": "無料で使える「Delphi 13 Community Edtion」提供開始。Windows x86/Arm、Mac、iOS、Androidのネイティブアプリなど開発可能",
+      "link": "https://www.publickey1.jp/blog/26/delphi_13_community_edtionwindows_x86armmaciosandroid.html",
+      "source": "Publickey",
+      "published": "2026-08-16T15:01:16",
+      "excerpt": "米エンバカデロ・テクノロジーズは、無料で使える統合開発環境「Delphi 13 Community Edtion」の提供開始を発表しました。Delphi 13 Community Edition is now available!The .…"
+    },
+    {
+      "title": "Regional NAT Gatewayを検討して見送った話 — 何と比べて「良い」のかを確認する",
+      "link": "https://qiita.com/Omizu-25/items/555c6319df5a97d3c90f",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-16T14:02:58",
+      "excerpt": "はじめに こんにちは！KDDIアイレット株式会社の水野 永遠です。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の16日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。…"
+    },
+    {
       "title": "Tasklet (YC P26) が設計エンジニアリング責任者を募集しています",
       "link": "https://tasklet.ai/careers/head-of-design-engineering",
       "source": "Hacker News（英語）",
       "published": "2026-08-16T13:30:27",
       "excerpt": "記事の URL: https://tasklet.ai/careers/head-of-design-engineering コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "iOS 版 Firefox にネイティブ広告ブロッカーが追加されました",
-      "link": "https://support.mozilla.org/en-US/kb/block-ads-firefox-ios",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-16T12:58:10",
-      "excerpt": "記事の URL: https://support.mozilla.org/en-US/kb/block-ads-firefox-ios コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "業界はトークンに制約のある作業に対応する準備ができていますか?",
-      "link": "https://blog.alaindichiappari.dev/p/what-to-do-when-tokens-run-out",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-16T12:51:58",
-      "excerpt": "記事の URL: https://blog.alaindichiappari.dev/p/what-to-do-when-tokens-run-out コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "禁止用語リスト",
-      "link": "https://pen.org/banned-words-list/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-16T12:50:31",
-      "excerpt": "記事の URL: https://pen.org/banned-words-list/ コメント URL: https://news.ycombinator.com/item?id=49319573 ポイント: 47 コメント数: 17"
     }
   ]
 }
