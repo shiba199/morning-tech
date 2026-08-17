@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-17T15:46:12",
+  "generated_at": "2026-08-17T16:13:51",
   "window_hours": 24,
-  "total": 230,
+  "total": 236,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が40件。マイクロソフトはオープンソースで開発されているコードエディタの最新版「Visual Studio Code 1.133」（以下、VS Code 1.133）の正式リリースを発表しました。The latest @code release b.…",
+      "summary": "生成AIの新着が41件。先週、OpenSearch チームと Valkey チームは、オープンソース サミット コリア 2026 および MCP DevSummit ソウル 2026 のオープンソース開発者と貢献者に会うためにソウルを訪れました。…",
       "articles": [
+        {
+          "title": "AWS ウィークリーまとめ: EC2 アプリケーションのステータス チェック、IAM ロール マネージャー、Bedrock の OpenAI Daybreak など (2026 年 8 月 17 日)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-08-17T16:02:36",
+          "excerpt": "先週、OpenSearch チームと Valkey チームは、オープンソース サミット コリア 2026 および MCP DevSummit ソウル 2026 のオープンソース開発者と貢献者に会うためにソウルを訪れました。…"
+        },
         {
           "title": "Visual Studio Code 1.133正式リリース。プロンプトを見失わない固定スクロール、ローカルHTMLファイルの自動リロード、ClaudeとCopilotの混在可能など新機能",
           "link": "https://www.publickey1.jp/blog/26/visual_studio_code_1133htmlclaudecopilot.html",
@@ -29,21 +36,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-17T12:45:58",
           "excerpt": "最近、Bedrockのドキュメントにこのような記載が追加されました。…"
-        },
-        {
-          "title": "1 日 500 万打点を AI で全数評価。Audi の溶接検査セッションで語られたクラウド推論とエッジ推論の使い分け #AWSreInvent",
-          "link": "https://dev.classmethod.jp/articles/reinvent-2025-ind367-audi-welding-inspection/",
-          "source": "DevelopersIO",
-          "published": "2026-08-17T12:34:59",
-          "excerpt": "AWS re:Invent 2025 のセッション「Revolutionizing Audi's Welding Inspection System through AI (IND367)」をレポートします。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。アフリカの防衛技術企業Terra Industriesは、追加の1,800万ドルの資金調達を発表し、シードラウンドは5,200万ドルとなった。",
+      "summary": "クラウドの新着が19件。先週、OpenSearch チームと Valkey チームは、オープンソース サミット コリア 2026 および MCP DevSummit ソウル 2026 のオープンソース開発者と貢献者に会うためにソウルを訪れました。…",
       "articles": [
+        {
+          "title": "AWS ウィークリーまとめ: EC2 アプリケーションのステータス チェック、IAM ロール マネージャー、Bedrock の OpenAI Daybreak など (2026 年 8 月 17 日)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-08-17T16:02:36",
+          "excerpt": "先週、OpenSearch チームと Valkey チームは、オープンソース サミット コリア 2026 および MCP DevSummit ソウル 2026 のオープンソース開発者と貢献者に会うためにソウルを訪れました。…"
+        },
+        {
+          "title": "Amazon OpenSearch Service が VPC ドメインの自動セマンティックエンリッチメントをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-vpc/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-17T15:39:00",
+          "excerpt": "Amazon OpenSearch Service は、自動セマンティック エンリッチメントを VPC 対応ドメインに拡張し、プライベート ネットワーク構成を持つ顧客がドメインを公共のインターネットに公開することなく AI を活用したセマン…"
+        },
         {
           "title": "テラ・インダストリーズ、グローバル・サウスの防衛インフラ構築のため5,200万ドルのシードラウンドを終了",
           "link": "https://techcrunch.com/2026/08/17/terra-industries-closes-52m-seed-round-to-build-defense-infrastructure-for-the-global-south/",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-17T14:38:43",
           "excerpt": "はじめに 静的サイト（S3）からバックエンドの API（API Gateway）を fetch したら、ブラウザに CORS で弾かれました。Access to fetch at 'https://xxxx.execute-api...…"
-        },
-        {
-          "title": "RDS の集計をアプリ側のローカル SQLite に逃がして、レイテンシとコストを削減した話",
-          "link": "https://zenn.dev/garplab/articles/084ca534f07cfb",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-17T12:07:53",
-          "excerpt": "個人で typingtube という Web サービスを運営しています。YouTube の音楽動画でタイピング練習ができるサービスで、ページの大半がランキング・検索・楽曲一覧といった「読み取りの重い表示」でできています。…"
-        },
-        {
-          "title": "EC2 起動テンプレートからのインスタンス起動・SSM 接続・終了手順をまとめてみる",
-          "link": "https://dev.classmethod.jp/articles/ec2-launch-template-ssm-session-manager-guide/",
-          "source": "DevelopersIO",
-          "published": "2026-08-17T11:30:21",
-          "excerpt": "起動テンプレートから EC2 インスタンスを起動し、SSM Session Manager で接続して作業、終了するまでの一連の手順を紹介します。踏み台サーバーなどの運用に役立つ汎用的な手順をまとめました。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。ハードウェアウォレットの郵送に使用される運送会社へのハッキングにより、仮想通貨所有者は現実世界での攻撃のリスクが高まります。",
+      "summary": "セキュリティの新着が12件。先週、OpenSearch チームと Valkey チームは、オープンソース サミット コリア 2026 および MCP DevSummit ソウル 2026 のオープンソース開発者と貢献者に会うためにソウルを訪れました。…",
       "articles": [
+        {
+          "title": "AWS ウィークリーまとめ: EC2 アプリケーションのステータス チェック、IAM ロール マネージャー、Bedrock の OpenAI Daybreak など (2026 年 8 月 17 日)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-08-17T16:02:36",
+          "excerpt": "先週、OpenSearch チームと Valkey チームは、オープンソース サミット コリア 2026 および MCP DevSummit ソウル 2026 のオープンソース開発者と貢献者に会うためにソウルを訪れました。…"
+        },
         {
           "title": "最近個人データの盗難が相次ぎ、暗号ハードウェアウォレットの所有者は新たなセキュリティリスクに直面している",
           "link": "https://techcrunch.com/2026/08/17/crypto-hardware-wallet-owners-face-fresh-security-risks-after-recent-spate-of-personal-data-thefts/",
@@ -99,21 +106,21 @@
           "source": "はてなブックマーク（テクノロジー）",
           "published": "2026-08-17T08:24:53",
           "excerpt": "うんこミュージアムは8月14日、ウェブサイトが不正アクセスを受け、一部期間に問い合わせフォームから送信された内容が、第三者に傍受・取得された可能性があることを公表した。…"
-        },
-        {
-          "title": "攻撃手法から学ぶ OAuth セキュリティベストプラクティス",
-          "link": "https://zenn.dev/hidebike712/books/oauth-attacks-and-bcp",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-08-17T07:38:12",
-          "excerpt": "OAuth における代表的な攻撃手法とその対抗策を最新のベストプラクティスに基づいて解説します。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。Amazon DynamoDB、リアルタイムベクトル検索機能の一般提供を開始",
+      "summary": "データ分析の新着が3件。Amazon OpenSearch Service は、自動セマンティック エンリッチメントを VPC 対応ドメインに拡張し、プライベート ネットワーク構成を持つ顧客がドメインを公共のインターネットに公開することなく AI を活用したセマン…",
       "articles": [
+        {
+          "title": "Amazon OpenSearch Service が VPC ドメインの自動セマンティックエンリッチメントをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-vpc/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-17T15:39:00",
+          "excerpt": "Amazon OpenSearch Service は、自動セマンティック エンリッチメントを VPC 対応ドメインに拡張し、プライベート ネットワーク構成を持つ顧客がドメインを公共のインターネットに公開することなく AI を活用したセマン…"
+        },
         {
           "title": "Amazon DynamoDB、リアルタイムベクトル検索機能の一般提供を開始",
           "link": "https://codezine.jp/article/detail/29324",
@@ -127,13 +134,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-17T00:00:00",
           "excerpt": "G-gen の武井です。当記事では、Google SecOps で検知したアラートの是正対応を Playbooks で自動化する方法を解説します。…"
-        },
-        {
-          "title": "TechCrunch Mobility: 電動エアタクシーの飛行経路の変化",
-          "link": "https://techcrunch.com/2026/08/16/techcrunch-mobility-the-shifting-flight-path-of-electric-air-taxis/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-16T16:04:00",
-          "excerpt": "TechCrunch Mobility へようこそ。交通の未来に関するニュースと洞察の中心ハブです。"
         }
       ]
     },
@@ -175,6 +175,13 @@
   ],
   "uncategorized": [
     {
+      "title": "国民皆保険は年間1兆ドルと11万4,000人の命を救う可能性がある、エール大学の調査",
+      "link": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-17T15:49:57",
+      "excerpt": "記事の URL: https://ysph.yale.…"
+    },
+    {
       "title": "事例で学ぶ、SaaSの開発を加速しつつプロダクト品質も引き上げる上手な方法とは？［PR］",
       "link": "https://www.publickey1.jp/blog/26/saaspr_1.html",
       "source": "Publickey",
@@ -182,25 +189,18 @@
       "excerpt": ".jetform-wrapper { border: 2px solid #ccc; /* 枠線 / padding: 20px; / 内側の余白 / border-radius: 12p..."
     },
     {
+      "title": "Amazon Quick Microsoft 365 拡張機能が一般提供になりました",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-microsoft-365-extensions-generally-available",
+      "source": "AWS What's New（英語）",
+      "published": "2026-08-17T15:41:00",
+      "excerpt": "Amazon Quick は、Excel、PowerPoint、Word、Outlook 用の Microsoft 365 拡張機能の一般提供を発表します。…"
+    },
+    {
       "title": "Pythonライクで高速な「Mojo言語」がバージョン1.0に到達、今後はコンパイラをオープンソース化すると表明",
       "link": "https://www.publickey1.jp/blog/26/pythonmojo10.html",
       "source": "Publickey",
       "published": "2026-08-17T15:40:38",
       "excerpt": "Modular社は、AIを高速に実行することを目指したPythonライクなプログラミング言語「Mojo」がバージョン1.0に到達したことを発表しました。Mojo 1.0 is here.Since we open-sourced the .…"
-    },
-    {
-      "title": "HN: Speko (YC S26) を起動 – 音声 AI 用 OpenRouter",
-      "link": "https://news.ycombinator.com/item?id=49332751",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-17T15:36:18",
-      "excerpt": "こんにちは、HN!私は Speko の創設者、Bek です。このプラットフォームは、すべての公開ベンチマーク オプションの中から、制約を考慮して音声合成、LLM、および音声合成モデルの最適な組み合わせを見つけ、その理由を説明します。…"
-    },
-    {
-      "title": "秘密鍵はあるのに公開鍵がないとき",
-      "link": "https://qiita.com/rarara_dev/items/061656670ec1568c091a",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-17T14:59:39",
-      "excerpt": "まず、秘密鍵から公開鍵が作れます（すごい） ローカルのlinux内に秘密鍵があるとします そしたら、この一文で秘密鍵から公開鍵を作ります ubuntu ssh-keygen -y -f your_secret_key.…"
     }
   ]
 }
