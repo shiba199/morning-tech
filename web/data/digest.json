@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T14:23:04",
+  "generated_at": "2026-08-17T14:50:44",
   "window_hours": 24,
-  "total": 223,
+  "total": 227,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。起動テンプレートから EC2 インスタンスを起動し、SSM Session Manager で接続して作業、終了するまでの一連の手順を紹介します。踏み台サーバーなどの運用に役立つ汎用的な手順をまとめました。",
+      "summary": "クラウドの新着が16件。はじめに 静的サイト（S3）からバックエンドの API（API Gateway）を fetch したら、ブラウザに CORS で弾かれました。Access to fetch at 'https://xxxx.execute-api...…",
       "articles": [
+        {
+          "title": "【CloudFront】S3 と API Gateway を1つのドメインに束ねたら CORS が消えた話",
+          "link": "https://qiita.com/80-cloud/items/cb97919764d0705c66c1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-17T14:38:43",
+          "excerpt": "はじめに 静的サイト（S3）からバックエンドの API（API Gateway）を fetch したら、ブラウザに CORS で弾かれました。Access to fetch at 'https://xxxx.execute-api...…"
+        },
         {
           "title": "EC2 起動テンプレートからのインスタンス起動・SSM 接続・終了手順をまとめてみる",
           "link": "https://dev.classmethod.jp/articles/ec2-launch-template-ssm-session-manager-guide/",
@@ -64,13 +71,6 @@
           "source": "CodeZine",
           "published": "2026-08-17T07:00:00",
           "excerpt": "AWS Lambdaコンソール、KiroとCursorとのIDE統合を拡張"
-        },
-        {
-          "title": "Amazon RDS、ストレージボリューム初期化ステータスの可視化機能を提供",
-          "link": "https://codezine.jp/article/detail/29322",
-          "source": "CodeZine",
-          "published": "2026-08-17T03:00:00",
-          "excerpt": "Amazon RDS、ストレージボリューム初期化ステータスの可視化機能を提供"
         }
       ]
     },
@@ -140,8 +140,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。記事の URL: https://www.githubstatus.com/incidents/zkxwbgr0cnmx コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が15件。記事の URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "AI 生成の GitHub コパイロット「Autofix」により Snowflake の Jira が侵害される",
+          "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-17T14:18:38",
+          "excerpt": "記事の URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "HN に質問: GitHub の代替案",
+          "link": "https://news.ycombinator.com/item?id=49331033",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-17T13:59:17",
+          "excerpt": "Github は過去数か月間一貫してダウンしています。代替案に切り替えるのは意味がありますか?コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "Github.com に関するインシデント",
           "link": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
@@ -155,20 +169,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-17T13:37:28",
           "excerpt": "Githubstatus.com は現在、すべてが機能していると言っていますが、実際はそうではありません コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "HN に伝える: GitHub でパフォーマンスの低下が発生しています",
-          "link": "https://news.ycombinator.com/item?id=49330597",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-17T13:35:06",
-          "excerpt": "次のメッセージが表示されました: 「現在、リクエストを処理できるサーバーがありません。申し訳ありません。更新してみて、問題が解決しない場合はご連絡ください。」 編集: 投稿時点では、githubstatus.…"
-        },
-        {
-          "title": "Prompt Cacheから見るコーディングエージェント運用のTips | NCDC テックブログのフィード",
-          "link": "https://zenn.dev/ncdc/articles/4f19dc158486fa",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-17T11:03:17",
-          "excerpt": "Prompt Cacheという観点からコーディングエージェント運用のちょっとしたTipsいくつか紹介します。…"
         }
       ]
     }
@@ -189,18 +189,18 @@
       "excerpt": "Modular社は、AIを高速に実行することを目指したPythonライクなプログラミング言語「Mojo」がバージョン1.0に到達したことを発表しました。Mojo 1.0 is here.Since we open-sourced the .…"
     },
     {
-      "title": "歴史上唯一知られている投石器による犠牲者に会う",
-      "link": "https://arstechnica.com/science/2026/08/meet-the-only-known-trebuchet-casualty-in-history/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-17T13:41:35",
-      "excerpt": "「これは中世の戦争の残忍さを浮き彫りにしている」と古病理学者のジョー・バックベリー氏は語った。"
+      "title": "Apple のアプリ追跡の透明性は、自社のアプリをライバルよりも良く扱った",
+      "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-17T14:07:59",
+      "excerpt": "記事の URL: https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.…"
     },
     {
-      "title": "HN: 1667 を表示、言語モデルを使用して小説を書くための端末 UI",
-      "link": "https://1667.ai/",
+      "title": "侵入的な AI を無効化または回避する方法",
+      "link": "https://www.librarian.net/notoai/",
       "source": "Hacker News（英語）",
-      "published": "2026-08-17T13:35:31",
-      "excerpt": "こんにちは、HN。私は自分のフィクション作品のために 1667 を構築し、今では毎日使用しています。おそらくこれは対象者が限られていると思われます。おそらく聴衆は 1 人でしょう...…"
+      "published": "2026-08-17T14:07:56",
+      "excerpt": "記事の URL: https://www.librarian.net/notoai/ コメント URL: https://news.ycombinator.com/item?id=49331220 ポイント: 8 コメント数: 0"
     }
   ]
 }
