@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-17T16:13:51",
+  "generated_at": "2026-08-17T16:51:58",
   "window_hours": 24,
-  "total": 236,
+  "total": 244,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。先週、OpenSearch チームと Valkey チームは、オープンソース サミット コリア 2026 および MCP DevSummit ソウル 2026 のオープンソース開発者と貢献者に会うためにソウルを訪れました。…",
+      "summary": "生成AIの新着が42件。心配しないでください、これはバグ報奨金プログラムによるものです",
       "articles": [
+        {
+          "title": "AI が Snowflake のコードを解読しました。その後、別の AI エージェントがそれを悪用しました",
+          "link": "https://www.theregister.com/security/2026/08/17/an-ai-broke-snowflakes-code-then-another-ai-agent-exploited-it/5288666",
+          "source": "The Register（英語）",
+          "published": "2026-08-17T16:36:21",
+          "excerpt": "心配しないでください、これはバグ報奨金プログラムによるものです"
+        },
         {
           "title": "AWS ウィークリーまとめ: EC2 アプリケーションのステータス チェック、IAM ロール マネージャー、Bedrock の OpenAI Daybreak など (2026 年 8 月 17 日)",
           "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
@@ -29,13 +36,6 @@
           "source": "TechCrunch（英語）",
           "published": "2026-08-17T15:16:24",
           "excerpt": "Nvidia のSoftBank のデータセンター開発者への投資により、同社のチップが OpenAI データセンターに電力を供給することが保証されます。"
-        },
-        {
-          "title": "Bedrockのエンドポイント/APIはどれを選べばいいの？（2026/8）",
-          "link": "https://qiita.com/moritalous/items/b023919af9f9e3e205c5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-17T12:45:58",
-          "excerpt": "最近、Bedrockのドキュメントにこのような記載が追加されました。…"
         }
       ]
     },
@@ -140,7 +140,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。説明のとおりです。なぜこのような問題が起こり続けるのか、少し詳しく教えていただけますか?ほとんどの投稿や返信は、公開されているデータに基づいて独自の結論を導き出している人たちにすぎないことに気付きました。…",
+      "summary": "開発ツールの新着が17件。説明のとおりです。なぜこのような問題が起こり続けるのか、少し詳しく教えていただけますか?ほとんどの投稿や返信は、公開されているデータに基づいて独自の結論を導き出している人たちにすぎないことに気付きました。…",
       "articles": [
         {
           "title": "HN に尋ねます: GitHub の従業員に何が起こっているのですか?なぜ？",
@@ -148,6 +148,13 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-17T15:19:31",
           "excerpt": "説明のとおりです。なぜこのような問題が起こり続けるのか、少し詳しく教えていただけますか?ほとんどの投稿や返信は、公開されているデータに基づいて独自の結論を導き出している人たちにすぎないことに気付きました。…"
+        },
+        {
+          "title": "リポジトリのダウンロードのエラー率が 50% に達するため、GitHub に問題が発生",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/17/github-has-issues-as-repo-downloads-hit-50-error-rate/5288543",
+          "source": "The Register（英語）",
+          "published": "2026-08-17T15:04:20",
+          "excerpt": "さらなる機能停止で開発者の忍耐力が試されるため、Copilot もぐらつく"
         },
         {
           "title": "【書評】 Terraform: Up & Running",
@@ -162,45 +169,38 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-17T14:18:38",
           "excerpt": "記事の URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "HN に質問: GitHub の代替案",
-          "link": "https://news.ycombinator.com/item?id=49331033",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-17T13:59:17",
-          "excerpt": "Github は過去数か月間一貫してダウンしています。代替案に切り替えるのは意味がありますか?コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "かつてはオンライン書店だったアマゾンが、AIモデルを訓練するために希少本を破棄している",
+      "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-17T16:38:44",
+      "excerpt": "これらのモデルはオンラインで入手可能なものですでにトレーニングされているため、希少本は LLM のトレーニングに非常に価値があります。"
+    },
+    {
+      "title": "Groq が AI チップからネオクラウドへの軸足を加速するために 3 億 5,000 万ドルを調達",
+      "link": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-17T16:15:12",
+      "excerpt": "Groq は、元 AI チップメーカーがネオクラウド ビジネスに軸足を移し、Nvidia を活用したデータセンターの設置面積を拡大する中で、評価額 35 億ドルで 3 億 5,000 万ドルを調達しました。"
+    },
+    {
+      "title": "Mozilla、iOS 版 Firefox に広告ブロックを追加",
+      "link": "https://www.theregister.com/software/2026/08/17/mozilla-adds-ad-blocking-to-firefox-for-ios/5288585",
+      "source": "The Register（英語）",
+      "published": "2026-08-17T15:50:56",
+      "excerpt": "すべてではなく一部の広告をブロックする実験的な機能"
+    },
+    {
       "title": "国民皆保険は年間1兆ドルと11万4,000人の命を救う可能性がある、エール大学の調査",
       "link": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
       "source": "Hacker News（英語）",
       "published": "2026-08-17T15:49:57",
       "excerpt": "記事の URL: https://ysph.yale.…"
-    },
-    {
-      "title": "事例で学ぶ、SaaSの開発を加速しつつプロダクト品質も引き上げる上手な方法とは？［PR］",
-      "link": "https://www.publickey1.jp/blog/26/saaspr_1.html",
-      "source": "Publickey",
-      "published": "2026-08-17T15:46:49",
-      "excerpt": ".jetform-wrapper { border: 2px solid #ccc; /* 枠線 / padding: 20px; / 内側の余白 / border-radius: 12p..."
-    },
-    {
-      "title": "Amazon Quick Microsoft 365 拡張機能が一般提供になりました",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-microsoft-365-extensions-generally-available",
-      "source": "AWS What's New（英語）",
-      "published": "2026-08-17T15:41:00",
-      "excerpt": "Amazon Quick は、Excel、PowerPoint、Word、Outlook 用の Microsoft 365 拡張機能の一般提供を発表します。…"
-    },
-    {
-      "title": "Pythonライクで高速な「Mojo言語」がバージョン1.0に到達、今後はコンパイラをオープンソース化すると表明",
-      "link": "https://www.publickey1.jp/blog/26/pythonmojo10.html",
-      "source": "Publickey",
-      "published": "2026-08-17T15:40:38",
-      "excerpt": "Modular社は、AIを高速に実行することを目指したPythonライクなプログラミング言語「Mojo」がバージョン1.0に到達したことを発表しました。Mojo 1.0 is here.Since we open-sourced the .…"
     }
   ]
 }
