@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-17T09:09:16",
+  "generated_at": "2026-08-17T10:02:52",
   "window_hours": 24,
-  "total": 203,
+  "total": 208,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。みなさん、こんにちは。AWS ソリューションアーキテクトの三厨です。Kiro が公開から 1 周年を迎えまし […]…",
+      "summary": "生成AIの新着が36件。ChatGPT や Claude を使うとき、AI は自分のパソコンでは動いていません。質問を送ると、どこか遠くにあるコンピューターが答えを考えて、その結果だけが返ってきます。…",
       "articles": [
+        {
+          "title": "ローカル LLM の量子化を、仕組みから配布ファイルの選び方まで初心者向けに整理する | ソフトバンク株式会社_satto開発チームのフィード",
+          "link": "https://zenn.dev/satto_workspace/articles/f1c9eac067cd97",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-17T08:59:27",
+          "excerpt": "ChatGPT や Claude を使うとき、AI は自分のパソコンでは動いていません。質問を送ると、どこか遠くにあるコンピューターが答えを考えて、その結果だけが返ってきます。…"
+        },
         {
           "title": "週刊生成AI with AWS – 2026年8月10日週",
           "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260810/",
@@ -29,20 +36,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-17T08:00:07",
           "excerpt": "1.はじめに RAGでは、質問のたびに検索して関連情報を取り出し、その場で回答を組み立てる構成が一般的です。…"
-        },
-        {
-          "title": "Claude Fable 5が早速脱獄される　ある研究者が検証結果を公開",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/17/news040.html",
-          "source": "@IT",
-          "published": "2026-08-17T08:00:00",
-          "excerpt": "Mythosの一般利用を想定して改善されたAnthropicの新モデル「Claude Fable 5」に対し、研究者が複数の手法を組み合わせて検証し、ガードレールを突破したと報告した。一体どのような手法を使ったのか。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。AWS Lambdaコンソール、KiroとCursorとのIDE統合を拡張",
+      "summary": "クラウドの新着が20件。AWS Lambdaコンソール、KiroとCursorとのIDE統合を拡張",
       "articles": [
         {
           "title": "AWS Lambdaコンソール、KiroとCursorとのIDE統合を拡張",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。情報流出などの影響は「確認中」で、詳細は判明していない。",
+      "summary": "セキュリティの新着が11件。Cloudflare Accessでアクセス制限をかけているWebアプリについて、オリジン側で認証情報を取得する方法を調べてみました。ヘッダーやCookieから認証ユーザー情報やJWTトークンを取得する仕組みについて紹介します。",
       "articles": [
+        {
+          "title": "Cloudflare Accessで通した認証結果を取得してみる",
+          "link": "https://dev.classmethod.jp/articles/get-identity-by-cloudflare-access/",
+          "source": "DevelopersIO",
+          "published": "2026-08-17T09:43:52",
+          "excerpt": "Cloudflare Accessでアクセス制限をかけているWebアプリについて、オリジン側で認証情報を取得する方法を調べてみました。ヘッダーやCookieから認証ユーザー情報やJWTトークンを取得する仕組みについて紹介します。"
+        },
         {
           "title": "両毛システムズ、社内システムに不正アクセス被害",
           "link": "https://www.itmedia.co.jp/news/article/2608/17/2000000566/",
@@ -99,20 +106,13 @@
           "source": "@IT",
           "published": "2026-08-17T04:00:00",
           "excerpt": "macOSで動くアプリには、それぞれ与えられた権限の範囲がある。しかし、その境界を越えてroot権限に到達できる可能性のある脆弱性が見つかった。Appleが修正した問題を発見者が実演。何が“権限の壁”を崩したのか。"
-        },
-        {
-          "title": "AWS IAM role managerが変える、IAM ロール作成の出発点",
-          "link": "https://aws.amazon.com/jp/blogs/news/how-aws-iam-role-manager-rethinks-the-starting-point-for-iam-roles/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-17T03:58:28",
-          "excerpt": "本ブログは 2026 年 8 月 12 日に公開された AWS Blog「How AWS IAM role m […]"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Amazon DynamoDB、リアルタイムベクトル検索機能の一般提供を開始",
+      "summary": "データ分析の新着が3件。Amazon DynamoDB、リアルタイムベクトル検索機能の一般提供を開始",
       "articles": [
         {
           "title": "Amazon DynamoDB、リアルタイムベクトル検索機能の一般提供を開始",
@@ -134,13 +134,6 @@
           "source": "TechCrunch（英語）",
           "published": "2026-08-16T16:04:00",
           "excerpt": "TechCrunch Mobility へようこそ。交通の未来に関するニュースと洞察の中心ハブです。"
-        },
-        {
-          "title": "DynamoDBの基礎を振り返りながら、ベクトル検索機能を理解する | NCDC テックブログのフィード",
-          "link": "https://zenn.dev/ncdc/articles/eca88bdcdff576",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-16T09:17:43",
-          "excerpt": "はじめに2026年8月5日、Amazon DynamoDBでのベクトル検索の一般提供が発表されました。…"
         }
       ]
     },
@@ -182,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "【開催報告】第四北越銀行/AWS 共催データコラボレーションワークショップ in 新潟：地域産業のデータ連携による新たな価値創出",
-      "link": "https://aws.amazon.com/jp/blogs/news/data-collaboration-workshop-niigata/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-08-17T08:58:40",
-      "excerpt": "はじめに AWS では、データコラボレーションサービスの提供を超えて、様々な業界の企業間でのデータコラボレーシ […]"
+      "title": "Amazon Inspectorで意図的に手頃な検出をいっぱい出す",
+      "link": "https://dev.classmethod.jp/articles/amazon-inspector-generate-test-findings-old-ami/",
+      "source": "DevelopersIO",
+      "published": "2026-08-17T09:54:50",
+      "excerpt": "Amazon Inspectorの抑制ルールやSecurity Hubの自動化ルールを検証したいけど、手頃な検出がない…そんなお困りの方へ。古いAMIからEC2を起動するだけで、大量の検出を意図的に出す方法をご紹介します。…"
     },
     {
-      "title": "新人エンジニアがAWS Summitに参加して得た学びとベストな回り方",
-      "link": "https://qiita.com/tono_riku/items/70f2298f47ad32d8b740",
+      "title": "AWS】高額請求を防ぐ！クラウド初心者が最初に設定すべき「AWS Budgets」の設定手順",
+      "link": "https://qiita.com/EugeneTW/items/0e63712faf079621e82e",
       "source": "Qiita AWSタグ",
-      "published": "2026-08-17T08:56:59",
-      "excerpt": "本記事はあくまで個人の所感です。所属する会社の公式見解を示すものではありません。自己紹介 株式会社TOKAIコミュニケーションズ1年目の殿村と申します。…"
+      "published": "2026-08-17T09:24:04",
+      "excerpt": "初めまして!コウです。最近 AWS の学習を始めました！クラウド初心者が一番恐れているのは「リソースの消し忘れによる予期せぬ課金（高額請求）」ではないでしょうか？…"
     },
     {
-      "title": "【Amazon Connect】オペレーション時間のオーバーライド機能を活用して祝日を判定してみた",
-      "link": "https://dev.classmethod.jp/articles/amazon-connect-holiday-override-guide/",
-      "source": "DevelopersIO",
-      "published": "2026-08-17T08:49:32",
-      "excerpt": "Amazon Connect のオペレーション時間でオーバーライド機能を使い、祝日を営業時間外として判定する例をご紹介します。"
+      "title": "母子2人制作の中国CGアニメ「牛来」、粗削りさが話題で異例のヒット　興収17万円→6000万円超に",
+      "link": "https://www.itmedia.co.jp/news/article/2608/17/2000000570/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-17T09:07:52",
+      "excerpt": "中国で、CGのクオリティの低さが逆に話題を呼んだ国産アニメ映画「牛来」が異例のヒットとなっている。公開9日間の興行収入は7169元（約17万円）だったが、SNSで拡散した後は累計250万元（約6000万円）を超えたと中国メディアが報じた。"
     },
     {
-      "title": "電子カルテ標準仕様書で求められるアーキテクチャ・非機能要件を整理してみた",
-      "link": "https://dev.classmethod.jp/articles/iryo-karte-standard/",
-      "source": "DevelopersIO",
-      "published": "2026-08-17T08:40:38",
-      "excerpt": "さっぽろ医療IT勉強会をきっかけに、2026年3月に公表された電子カルテ標準仕様書の内容を読み込んでみました。アーキテクチャ要件から非機能要件、今後遵守に格上げが見込まれる要件まで、仕様書の全体像を整理して紹介します。"
+      "title": "社長「Kustomize便利ですよ」私「Helmあるし要らなくない？」からの、ArgoCD環境でDB切替を実装するまでの話 | Scalar Solution Engineer Blogのフィード",
+      "link": "https://zenn.dev/scalar_sol_blog/articles/fae18a13eb5219",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-17T09:00:07",
+      "excerpt": "はじめにある日、社長から突然Slackで https://kustomize.io/ のリンクとともに「環境毎の差異を管理する場合、Kustomize を使うと便利なので、一度調べてみてください」と言われました。…"
     }
   ]
 }
