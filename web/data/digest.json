@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-17T15:15:04",
+  "generated_at": "2026-08-17T15:46:12",
   "window_hours": 24,
-  "total": 228,
+  "total": 230,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が39件。マイクロソフトはオープンソースで開発されているコードエディタの最新版「Visual Studio Code 1.133」（以下、VS Code 1.133）の正式リリースを発表しました。The latest @code release b.…",
+      "summary": "生成AIの新着が40件。マイクロソフトはオープンソースで開発されているコードエディタの最新版「Visual Studio Code 1.133」（以下、VS Code 1.133）の正式リリースを発表しました。The latest @code release b.…",
       "articles": [
         {
           "title": "Visual Studio Code 1.133正式リリース。プロンプトを見失わない固定スクロール、ローカルHTMLファイルの自動リロード、ClaudeとCopilotの混在可能など新機能",
@@ -15,6 +15,13 @@
           "source": "Publickey",
           "published": "2026-08-17T15:42:34",
           "excerpt": "マイクロソフトはオープンソースで開発されているコードエディタの最新版「Visual Studio Code 1.133」（以下、VS Code 1.133）の正式リリースを発表しました。The latest @code release b.…"
+        },
+        {
+          "title": "Nvidia、OpenAIプロジェクトの背後にあるSoftBankデータセンター開発者に15億ドルを投資",
+          "link": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-17T15:16:24",
+          "excerpt": "Nvidia のSoftBank のデータセンター開発者への投資により、同社のチップが OpenAI データセンターに電力を供給することが保証されます。"
         },
         {
           "title": "Bedrockのエンドポイント/APIはどれを選べばいいの？（2026/8）",
@@ -29,13 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-17T12:34:59",
           "excerpt": "AWS re:Invent 2025 のセッション「Revolutionizing Audi's Welding Inspection System through AI (IND367)」をレポートします。…"
-        },
-        {
-          "title": "GPT 5.6 Sol は OpenAI がこれまでにリリースした最高の「ビジョン」モデルです",
-          "link": "https://blog.roboflow.com/openai-gpt-5-6/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-17T12:09:42",
-          "excerpt": "記事の URL: https://blog.roboflow.com/openai-gpt-5-6/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
@@ -59,25 +59,25 @@
           "excerpt": "はじめに 静的サイト（S3）からバックエンドの API（API Gateway）を fetch したら、ブラウザに CORS で弾かれました。Access to fetch at 'https://xxxx.execute-api...…"
         },
         {
+          "title": "RDS の集計をアプリ側のローカル SQLite に逃がして、レイテンシとコストを削減した話",
+          "link": "https://zenn.dev/garplab/articles/084ca534f07cfb",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-17T12:07:53",
+          "excerpt": "個人で typingtube という Web サービスを運営しています。YouTube の音楽動画でタイピング練習ができるサービスで、ページの大半がランキング・検索・楽曲一覧といった「読み取りの重い表示」でできています。…"
+        },
+        {
           "title": "EC2 起動テンプレートからのインスタンス起動・SSM 接続・終了手順をまとめてみる",
           "link": "https://dev.classmethod.jp/articles/ec2-launch-template-ssm-session-manager-guide/",
           "source": "DevelopersIO",
           "published": "2026-08-17T11:30:21",
           "excerpt": "起動テンプレートから EC2 インスタンスを起動し、SSM Session Manager で接続して作業、終了するまでの一連の手順を紹介します。踏み台サーバーなどの運用に役立つ汎用的な手順をまとめました。"
-        },
-        {
-          "title": "Windows11で利用できるWSLコンテナが便利でおススメです | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/08/17/194718",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-17T10:47:18",
-          "excerpt": "概要 WindowsでPowerShell上からコンテナを実行できるWSLコンテナが(プレビュー版ですが)リリースされたので便利に使ってみましょう。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。ハードウェアウォレットの郵送に使用される運送会社へのハッキングにより、仮想通貨所有者は現実世界での攻撃のリスクが高まります。",
+      "summary": "セキュリティの新着が11件。ハードウェアウォレットの郵送に使用される運送会社へのハッキングにより、仮想通貨所有者は現実世界での攻撃のリスクが高まります。",
       "articles": [
         {
           "title": "最近個人データの盗難が相次ぎ、暗号ハードウェアウォレットの所有者は新たなセキュリティリスクに直面している",
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。はじめに インフラをコードで管理する、という考え方自体はもう当たり前になりました。しかし「動くTerraformコード」と「チームで長期運用できるTerraformコード」の間には、かなり大きな隔たりがあります。…",
+      "summary": "開発ツールの新着が16件。説明のとおりです。なぜこのような問題が起こり続けるのか、少し詳しく教えていただけますか?ほとんどの投稿や返信は、公開されているデータに基づいて独自の結論を導き出している人たちにすぎないことに気付きました。…",
       "articles": [
+        {
+          "title": "HN に尋ねます: GitHub の従業員に何が起こっているのですか?なぜ？",
+          "link": "https://news.ycombinator.com/item?id=49332495",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-17T15:19:31",
+          "excerpt": "説明のとおりです。なぜこのような問題が起こり続けるのか、少し詳しく教えていただけますか?ほとんどの投稿や返信は、公開されているデータに基づいて独自の結論を導き出している人たちにすぎないことに気付きました。…"
+        },
         {
           "title": "【書評】 Terraform: Up & Running",
           "link": "https://qiita.com/io0323/items/6e93673a4c9aeac82477",
@@ -162,13 +169,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-17T13:59:17",
           "excerpt": "Github は過去数か月間一貫してダウンしています。代替案に切り替えるのは意味がありますか?コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Github.com に関するインシデント",
-          "link": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-17T13:40:55",
-          "excerpt": "記事の URL: https://www.githubstatus.com/incidents/zkxwbgr0cnmx コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     }
@@ -189,18 +189,18 @@
       "excerpt": "Modular社は、AIを高速に実行することを目指したPythonライクなプログラミング言語「Mojo」がバージョン1.0に到達したことを発表しました。Mojo 1.0 is here.Since we open-sourced the .…"
     },
     {
+      "title": "HN: Speko (YC S26) を起動 – 音声 AI 用 OpenRouter",
+      "link": "https://news.ycombinator.com/item?id=49332751",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-17T15:36:18",
+      "excerpt": "こんにちは、HN!私は Speko の創設者、Bek です。このプラットフォームは、すべての公開ベンチマーク オプションの中から、制約を考慮して音声合成、LLM、および音声合成モデルの最適な組み合わせを見つけ、その理由を説明します。…"
+    },
+    {
       "title": "秘密鍵はあるのに公開鍵がないとき",
       "link": "https://qiita.com/rarara_dev/items/061656670ec1568c091a",
       "source": "Qiita AWSタグ",
       "published": "2026-08-17T14:59:39",
       "excerpt": "まず、秘密鍵から公開鍵が作れます（すごい） ローカルのlinux内に秘密鍵があるとします そしたら、この一文で秘密鍵から公開鍵を作ります ubuntu ssh-keygen -y -f your_secret_key.…"
-    },
-    {
-      "title": "WordPress.com は無料の学生プランで次世代の Web クリエイターをターゲットにしています",
-      "link": "https://techcrunch.com/2026/08/17/wordpress-com-targets-the-next-generation-of-web-creators-with-a-free-student-plan/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-17T14:56:00",
-      "excerpt": "WordPress.com Education を使用すると、教師は生徒に無料のドメイン、プラグインのサポート、プロフェッショナルな Web サイト構築ツールを提供できます。"
     }
   ]
 }
