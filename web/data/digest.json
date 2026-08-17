@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-17T03:24:38",
+  "generated_at": "2026-08-17T04:08:55",
   "window_hours": 24,
-  "total": 159,
+  "total": 165,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。株式会社タップルで内定者アルバイトをしている及川寛太 (@kanta_cky) です。本記事では、 ...…",
+      "summary": "生成AIの新着が25件。Claude CodeとOpenCodeから、最近はPi coding agentへの切り替えを進めています。…",
       "articles": [
+        {
+          "title": "Pi coding agent を Switchyard につないで開発環境を組んでみた",
+          "link": "https://dev.classmethod.jp/articles/pi-switchyard-open-weight-coding-agent-environment/",
+          "source": "DevelopersIO",
+          "published": "2026-08-17T03:57:26",
+          "excerpt": "Claude CodeとOpenCodeから、最近はPi coding agentへの切り替えを進めています。…"
+        },
         {
           "title": "新旧MetricKitの共存 – iOS 27を見据えたタップルの戦略 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
           "link": "https://developers.cyberagent.co.jp/blog/archives/65298/",
@@ -24,26 +31,26 @@
           "excerpt": "はじめに この記事で扱う題材（ユースケース） 前提条件 設計の出発点：判断はエージェント、確定はコード ソリューションアーキテクチャ全体像 データフロー 設計上の選択とトレードオフ 1.…"
         },
         {
-          "title": "Amazon Bedrock AgentCore Gateway のステータスが Failed の理由を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-gateway-failed-reason-cli/",
-          "source": "DevelopersIO",
-          "published": "2026-08-17T00:35:08",
-          "excerpt": "Amazon Bedrock AgentCore Gateway のステータスが Failed になった際、AWS CLI の `get-gateway` コマンドで `statusReasons` を確認することで原因を特定できました。"
-        },
-        {
-          "title": "【AgentCore】Harness の inline_function で人間の承認を挟みたい",
-          "link": "https://qiita.com/ryu-ki/items/abbf520bd8cd628e4f55",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T23:29:16",
-          "excerpt": "はじめに エージェントにブラウザ操作や予約を任せるとしても、未だに最後の確定だけは人間が判断したいものです。Human-in-the-Loop（HITL）と呼ばれる設計です。…"
+          "title": "Amazon Bedrock AgentCore Runtime で実現する 非同期 / 長期実行エージェント",
+          "link": "https://zenn.dev/aws_japan/articles/agentcore-async-long-running-patterns",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-17T01:06:14",
+          "excerpt": "はじめに こんにちは、AWS Japan AI Specialist Solutions Architect の Narimoto です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が25件。株式会社リゾーム 業務ソリューション事業グループのあめぎです。2025年にBOND WORKSがリリースされもう1年以上経過しました。…",
+      "summary": "クラウドの新着が26件。Amazon RDS、ストレージボリューム初期化ステータスの可視化機能を提供",
       "articles": [
+        {
+          "title": "Amazon RDS、ストレージボリューム初期化ステータスの可視化機能を提供",
+          "link": "https://codezine.jp/article/detail/29322",
+          "source": "CodeZine",
+          "published": "2026-08-17T03:00:00",
+          "excerpt": "Amazon RDS、ストレージボリューム初期化ステータスの可視化機能を提供"
+        },
         {
           "title": "BOND GATEからBOND WORKSへの移行を支えるAWSインフラ改修 | リゾームのテックブログ",
           "link": "https://tech.rhizome-e.com/entry/2026/08/17/113723",
@@ -64,21 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-17T01:47:06",
           "excerpt": "AI駆動開発でHRMOS勤怠 API × AWS Lambda × Slackの有給取得リマインダーを作った 想定タグ HRMOS AWS Lambda Slack AI駆動開発 はじめに 今回は、HRMOS勤怠 API・AWS Lambd…"
-        },
-        {
-          "title": "[小ネタ] AWS Batch で ECS のネットワークモードはジョブタイプに応じて自動選択される",
-          "link": "https://dev.classmethod.jp/articles/aws-batch-network-mode-auto-selected-by-job-type/",
-          "source": "DevelopersIO",
-          "published": "2026-08-17T01:13:28",
-          "excerpt": "AWS Batch から起動する ECS タスクのネットワークモードはジョブタイプに応じて自動選択されます。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。ディスク上に秘密鍵ファイルを置かずに、TPM を使って SSH 認証を実現する方法を紹介します。…",
+      "summary": "セキュリティの新着が8件。本ブログは 2026 年 8 月 12 日に公開された AWS Blog「How AWS IAM role m […]",
       "articles": [
+        {
+          "title": "AWS IAM role managerが変える、IAM ロール作成の出発点",
+          "link": "https://aws.amazon.com/jp/blogs/news/how-aws-iam-role-manager-rethinks-the-starting-point-for-iam-roles/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-17T03:58:28",
+          "excerpt": "本ブログは 2026 年 8 月 12 日に公開された AWS Blog「How AWS IAM role m […]"
+        },
+        {
+          "title": "「さくらのレンタルサーバ」に不正アクセス　583アカウントが不正ログイン被害、個人データなど漏えいのおそれ",
+          "link": "https://www.itmedia.co.jp/news/article/2608/17/2000000563/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-17T03:13:57",
+          "excerpt": "現時点で583アカウントへの不正ログインが判明しており、一部の顧客情報を含む個人データが閲覧または取得されたおそれがあるという。"
+        },
         {
           "title": "TPM を使って秘密鍵をディスクに置かずに GitHub に SSH 認証してみた",
           "link": "https://dev.classmethod.jp/articles/dafujii-tpm2-pkcs11-github-ssh/",
@@ -92,20 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-17T00:40:57",
           "excerpt": "Amazon Quickの導入時に欠かせない「社内メンバーへのユーザー払い出し」について、IAMユーザーをベースにした実装フローを、自己プロビジョニングと手動登録の2つの方法で紹介します。"
-        },
-        {
-          "title": "Terraform : CodePipelineを構築する際に押さえておきたいポイント(1) — アーティファクト基盤とIAMロール設計",
-          "link": "https://qiita.com/ham-nao/items/3a620973c4cff86acf3b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T15:19:20",
-          "excerpt": "ECSのCI/CDパイプラインを、CodePipeline + CodeBuildで組む構成は定番パターンです。…"
-        },
-        {
-          "title": "AI エージェントの「認可疲れ」に効く処方箋 : 理論から実装まで",
-          "link": "https://zenn.dev/aws_japan/articles/2b62886aa8735e",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-16T13:18:26",
-          "excerpt": "皆さんは仕事でどれぐらいのアプリケーションを使用するでしょうか。GitHub、Slack、Notion、Outlook/Gmail・・・などの SaaS はもちろん、社内の業務システムもあるでしょう。…"
         }
       ]
     },
@@ -140,7 +140,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。はじめに この記事で扱う題材（ユースケース） 前提条件 設計の出発点：判断はエージェント、確定はコード ソリューションアーキテクチャ全体像 データフロー 設計上の選択とトレードオフ 1.…",
+      "summary": "開発ツールの新着が12件。はじめに この記事で扱う題材（ユースケース） 前提条件 設計の出発点：判断はエージェント、確定はコード ソリューションアーキテクチャ全体像 データフロー 設計上の選択とトレードオフ 1.…",
       "articles": [
         {
           "title": "Amazon Bedrock AgentCore で「ミスの許されない基幹業務」に AI エージェントを実装する ─ 本番アーキテクチャ・IaC・設計トレードオフ徹底解説 | サーバーワークスエンジニアブログ",
@@ -175,32 +175,32 @@
   ],
   "uncategorized": [
     {
+      "title": "AWS ジャパン地域創生支援プログラム（LEAP by AWS ジャパン）を発表 — 地域経済のAIトランスフォーメーションを包括支援",
+      "link": "https://aws.amazon.com/jp/blogs/news/local-economy-acceleration-program/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-08-17T04:02:14",
+      "excerpt": "アマゾン ウェブ サービス ジャパン（以下、AWS ジャパン）は本日、地域経済の自立的な成長を、クラウドや生成 […]"
+    },
+    {
+      "title": "Account Access ManagerでIdentity Centerをより柔軟に利用する",
+      "link": "https://qiita.com/hi_carbo/items/37bafa77922efa3a7303",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-17T04:01:52",
+      "excerpt": "はじめに 2026/8/10にAccount Access Managerがリリースされました。…"
+    },
+    {
+      "title": "他のショーン・コナーからメールを受信した原因の一部は Gmail にある可能性があります",
+      "link": "https://boston.conman.org/2026/08/11.1",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-17T03:21:37",
+      "excerpt": "記事の URL: https://boston.conman.org/2026/08/11.1 コメント URL: https://news.ycombinator.com/item?id=49326229 ポイント: 3 コメント数: 0"
+    },
+    {
       "title": "Amazon Connect で通話をモニタリングできるスーパーバイザーの同時接続上限人数を教えてください",
       "link": "https://dev.classmethod.jp/articles/tsnote-connect-monitoring-supervisor-limit/",
       "source": "DevelopersIO",
       "published": "2026-08-17T03:12:37",
       "excerpt": "Amazon Connect で通話を監視するスーパーバイザーの人数上限は、マルチパーティ通話設定で異なります。有効時は2名、無効時は5名まで同時監視可能です。設定変更手順を実際に試してみました。"
-    },
-    {
-      "title": "AI自身がJira上にグラフを構築し自走する — チケット駆動開発とグラフエンジニアリング | kubell Creator's Note",
-      "link": "https://creators-note.chatwork.com/entry/2026/08/17/120000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-17T03:00:00",
-      "excerpt": "こんにちは。認証チームのいまひろです。1 年ほど前、Claude CodeでJiraのチケット駆動開発を強固に加速させる！という記事で、Jira のチケットを起点に Claude Code を開発フローへ組み込んだ話を書きました。…"
-    },
-    {
-      "title": "【2026年版】AWS Managed Microsoft AD 環境で Entra Cloud Sync を使おうとして失敗した話",
-      "link": "https://dev.classmethod.jp/articles/failed-to-using-aws-managed-microsoft-ad-with-entra-cloud-sync-2026/",
-      "source": "DevelopersIO",
-      "published": "2026-08-17T02:59:03",
-      "excerpt": "AWS Managed Microsoft AD環境でEntra Cloud Syncの検証を4年ぶりに再チャレンジしました。"
-    },
-    {
-      "title": "リファラル入社のプレッシャーと複雑なドメインの壁。はじめてのスクラムマスター挑戦で「見えない不安」を晴らし始めた話 | jinjerテックブログのフィード",
-      "link": "https://zenn.dev/jinjer_techblog/articles/b60dc2edf19c25",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-17T02:55:05",
-      "excerpt": "はじめまして。こんにちは！jinjer株式会社、プロダクト開発部の ときじ です。1.期待と不安、現場に飛び込んだあとの話今年1月、私はリファラル（社員紹介）を通じてjinjerに入社しました。…"
     }
   ]
 }
