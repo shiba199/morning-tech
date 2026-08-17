@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T11:15:18",
+  "generated_at": "2026-08-17T11:46:31",
   "window_hours": 24,
   "total": 220,
   "topic_count": 5,
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。概要 WindowsでPowerShell上からコンテナを実行できるWSLコンテナが(プレビュー版ですが)リリースされたので便利に使ってみましょう。…",
+      "summary": "クラウドの新着が21件。起動テンプレートから EC2 インスタンスを起動し、SSM Session Manager で接続して作業、終了するまでの一連の手順を紹介します。踏み台サーバーなどの運用に役立つ汎用的な手順をまとめました。",
       "articles": [
+        {
+          "title": "EC2 起動テンプレートからのインスタンス起動・SSM 接続・終了手順をまとめてみる",
+          "link": "https://dev.classmethod.jp/articles/ec2-launch-template-ssm-session-manager-guide/",
+          "source": "DevelopersIO",
+          "published": "2026-08-17T11:30:21",
+          "excerpt": "起動テンプレートから EC2 インスタンスを起動し、SSM Session Manager で接続して作業、終了するまでの一連の手順を紹介します。踏み台サーバーなどの運用に役立つ汎用的な手順をまとめました。"
+        },
         {
           "title": "Windows11で利用できるWSLコンテナが便利でおススメです | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/2026/08/17/194718",
@@ -64,13 +71,6 @@
           "source": "CodeZine",
           "published": "2026-08-17T03:00:00",
           "excerpt": "Amazon RDS、ストレージボリューム初期化ステータスの可視化機能を提供"
-        },
-        {
-          "title": "BOND GATEからBOND WORKSへの移行を支えるAWSインフラ改修 | リゾームのテックブログ",
-          "link": "https://tech.rhizome-e.com/entry/2026/08/17/113723",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-17T02:37:23",
-          "excerpt": "株式会社リゾーム 業務ソリューション事業グループのあめぎです。2025年にBOND WORKSがリリースされもう1年以上経過しました。…"
         }
       ]
     },
@@ -175,6 +175,13 @@
   ],
   "uncategorized": [
     {
+      "title": "AWS Context Ontology Accelerator（COA）で業務オントロジーを構築してみた - なぜ今オントロジーなのか？",
+      "link": "https://dev.classmethod.jp/articles/20260817-aws-context-v020/",
+      "source": "DevelopersIO",
+      "published": "2026-08-17T11:12:47",
+      "excerpt": "AWS Context Ontology Accelerator は、AI を使ってオントロジーのドラフトを生成し、人のレビュー・承認を経て、エージェントが正確・一貫性があり・監査可能な意思決定を行えるようにするツールです。…"
+    },
+    {
       "title": "作って終わらせない戦略とは、プロダクトを市場に届ける言語化の技術を探る「Developers Online #2」",
       "link": "https://codezine.jp/article/detail/29340",
       "source": "CodeZine",
@@ -194,13 +201,6 @@
       "source": "企業テックブログまとめ",
       "published": "2026-08-17T10:27:14",
       "excerpt": "執筆日2026/8/17 はじめにApp Service や Azure Functions を Azure Container Registry（以降、ACR）から image を pull して動かすことがあると思います。…"
-    },
-    {
-      "title": "【Amazon Connect】オーバーライドの優先順位について",
-      "link": "https://dev.classmethod.jp/articles/amazon-connect-override-priority-guide/",
-      "source": "DevelopersIO",
-      "published": "2026-08-17T10:01:39",
-      "excerpt": "Amazon Connectのオーバーライド設定には優先順位があり、その理解を誤るとオペレーションミスにつながります。本記事では、定期イベントと一時的なイベントの優先順位について、実例を交えながら解説します。"
     }
   ]
 }
