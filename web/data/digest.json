@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-17T21:46:12",
+  "generated_at": "2026-08-17T22:12:28",
   "window_hours": 24,
-  "total": 264,
+  "total": 258,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が40件。社内規程や業務マニュアルを根拠に回答するAIを作るとき、RAGの検索処理だけでなく、認証、セッション分離、ツール権限、監査ログまで考える必要があります。…",
+      "summary": "生成AIの新着が40件。NVIDIAは、オハイオ州で建設中のAIデータセンター「PORTS-Pike Technology Campus」に計算基盤を独占提供すると発表した。OpenAIがテナントとなり、SB Energyが運営する。…",
       "articles": [
+        {
+          "title": "NVIDIA、OpenAIのオハイオAIデータセンターに最大1050億ドルの債務保証──SB Energyと提携",
+          "link": "https://www.itmedia.co.jp/news/article/2608/18/2000000572/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-17T21:55:32",
+          "excerpt": "NVIDIAは、オハイオ州で建設中のAIデータセンター「PORTS-Pike Technology Campus」に計算基盤を独占提供すると発表した。OpenAIがテナントとなり、SB Energyが運営する。…"
+        },
+        {
+          "title": "[アップデート] Amazon Quick でユーザーごとにエージェント時間とストレージの使用上限を設定できるようになったので確認してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-quick-per-user-resource-limits/",
+          "source": "DevelopersIO",
+          "published": "2026-08-17T21:47:01",
+          "excerpt": "Amazon Quickに新しく追加された「制限プロファイル」機能で、ユーザーごとのリソース消費上限を設定できるようになりました。インデックスストレージとエージェント時間の管理方法について、実際の操作画面を交えながら紹介します。"
+        },
         {
           "title": "AWS AgentCoreで社内文書RAGを試作する手順：Harness＋Gateway＋Managed Knowledge Bases",
           "link": "https://qiita.com/rootontech/items/7eeec6b95ce509ff33a2",
@@ -22,28 +36,21 @@
           "source": "AWS What's New（英語）",
           "published": "2026-08-17T20:29:00",
           "excerpt": "Amazon Bedrock は、Bedrock ランタイム エンドポイントで OpenAI GPT-5.…"
-        },
-        {
-          "title": "JTCにいる50代窓際サラリーマンをテーマにしたAIマンガの「動かない社員の代わりにAIエージェントを使う」回の「シニアがAIをうまく使いこなす」シーンに共感",
-          "link": "https://togetter.com/li/2734257",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-08-17T18:48:07",
-          "excerpt": "フォトリーマン @photoryman @jtc_ojisan2 長さんの言葉の選び方、特に行間を読ます表現にJTC特有の資料で鍛えられた強者感が感じられる。…"
-        },
-        {
-          "title": "AI が Snowflake のコードを解読しました。その後、別の AI エージェントがそれを悪用しました",
-          "link": "https://www.theregister.com/security/2026/08/17/an-ai-broke-snowflakes-code-then-another-ai-agent-exploited-it/5288666",
-          "source": "The Register（英語）",
-          "published": "2026-08-17T16:36:21",
-          "excerpt": "心配しないでください、これはバグ報奨金プログラムによるものです"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。Amazon EC2 Auto Scaling は、単一の API 呼び出しでのバッチインスタンスの終了をサポートするようになりました。…",
+      "summary": "クラウドの新着が20件。GitHub ActionsからECS Fargateに自動デプロイ — mainへのpushで本番反映まで全自動 はじめに 前回はDockerイメージをECRにpushするCIを構築しました。…",
       "articles": [
+        {
+          "title": "GitHub ActionsからECS Fargateに自動デプロイ — mainへのpushで本番反映まで全自動",
+          "link": "https://qiita.com/hitobussi/items/c97c7550aac641703f9d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-17T22:04:43",
+          "excerpt": "GitHub ActionsからECS Fargateに自動デプロイ — mainへのpushで本番反映まで全自動 はじめに 前回はDockerイメージをECRにpushするCIを構築しました。…"
+        },
         {
           "title": "Amazon EC2 Auto Scaling がバッチインスタンスの終了をサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination",
@@ -64,13 +71,6 @@
           "source": "AWS News Blog（英語）",
           "published": "2026-08-17T16:02:36",
           "excerpt": "先週、OpenSearch チームと Valkey チームは、オープンソース サミット コリア 2026 および MCP DevSummit ソウル 2026 のオープンソース開発者と貢献者に会うためにソウルを訪れました。…"
-        },
-        {
-          "title": "Amazon OpenSearch Service が VPC ドメインの自動セマンティックエンリッチメントをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-vpc/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-17T15:39:00",
-          "excerpt": "Amazon OpenSearch Service は、自動セマンティック エンリッチメントを VPC 対応ドメインに拡張し、プライベート ネットワーク構成を持つ顧客がドメインを公共のインターネットに公開することなく AI を活用したセマン…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が18件。説明のとおりです。なぜこのような問題が起こり続けるのか、少し詳しく教えていただけますか?ほとんどの投稿や返信は、公開されているデータに基づいて独自の結論を導き出している人たちにすぎないことに気付きました。…",
+      "summary": "開発ツールの新着が19件。GitHub ActionsからECS Fargateに自動デプロイ — mainへのpushで本番反映まで全自動 はじめに 前回はDockerイメージをECRにpushするCIを構築しました。…",
       "articles": [
+        {
+          "title": "GitHub ActionsからECS Fargateに自動デプロイ — mainへのpushで本番反映まで全自動",
+          "link": "https://qiita.com/hitobussi/items/c97c7550aac641703f9d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-17T22:04:43",
+          "excerpt": "GitHub ActionsからECS Fargateに自動デプロイ — mainへのpushで本番反映まで全自動 はじめに 前回はDockerイメージをECRにpushするCIを構築しました。…"
+        },
         {
           "title": "HN に尋ねます: GitHub の従業員に何が起こっているのですか?なぜ？",
           "link": "https://news.ycombinator.com/item?id=49332495",
@@ -169,13 +176,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-17T15:00:34",
           "excerpt": "はじめに インフラをコードで管理する、という考え方自体はもう当たり前になりました。しかし「動くTerraformコード」と「チームで長期運用できるTerraformコード」の間には、かなり大きな隔たりがあります。…"
-        },
-        {
-          "title": "AI 生成の GitHub コパイロット「Autofix」により Snowflake の Jira が侵害される",
-          "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-17T14:18:38",
-          "excerpt": "記事の URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     }
