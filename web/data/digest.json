@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-17T02:12:32",
+  "generated_at": "2026-08-17T03:24:38",
   "window_hours": 24,
-  "total": 154,
+  "total": 159,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。Amazon Bedrock AgentCore Gateway のステータスが Failed になった際、AWS CLI の `get-gateway` コマンドで `statusReasons` を確認することで原因を特定できました。",
+      "summary": "生成AIの新着が23件。株式会社タップルで内定者アルバイトをしている及川寛太 (@kanta_cky) です。本記事では、 ...…",
       "articles": [
+        {
+          "title": "新旧MetricKitの共存 – iOS 27を見据えたタップルの戦略 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
+          "link": "https://developers.cyberagent.co.jp/blog/archives/65298/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-17T03:00:30",
+          "excerpt": "株式会社タップルで内定者アルバイトをしている及川寛太 (@kanta_cky) です。本記事では、 ...…"
+        },
+        {
+          "title": "Amazon Bedrock AgentCore で「ミスの許されない基幹業務」に AI エージェントを実装する ─ 本番アーキテクチャ・IaC・設計トレードオフ徹底解説 | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp//agentcore-mission-critical-agent-architecture",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-17T02:29:44",
+          "excerpt": "はじめに この記事で扱う題材（ユースケース） 前提条件 設計の出発点：判断はエージェント、確定はコード ソリューションアーキテクチャ全体像 データフロー 設計上の選択とトレードオフ 1.…"
+        },
         {
           "title": "Amazon Bedrock AgentCore Gateway のステータスが Failed の理由を確認してみた",
           "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-gateway-failed-reason-cli/",
@@ -22,28 +36,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-16T23:29:16",
           "excerpt": "はじめに エージェントにブラウザ操作や予約を任せるとしても、未だに最後の確定だけは人間が判断したいものです。Human-in-the-Loop（HITL）と呼ばれる設計です。…"
-        },
-        {
-          "title": "Anthropic のクロードにおける「透かし」テキストの改ざんは執筆の倒錯である",
-          "link": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-16T21:53:43",
-          "excerpt": "記事の URL: https://daringfireball.…"
-        },
-        {
-          "title": "Amazon Bedrock AgentCore ランタイムを閉域ネットワークの VPC で動かしてみた",
-          "link": "https://qiita.com/takeda_h/items/bb7fabbb7376c6be3ae2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T21:52:10",
-          "excerpt": "Amazon Bedrock AgentCore のランタイムを使うと、開発した AI エージェントを簡単にクラウド環境へデプロイできます。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が25件。はじめに 最近、友人と「7 Days to Die」というゾンビサバイバルゲームにハマっていて、休日の夜な夜な集まってプレイしています。…",
+      "summary": "クラウドの新着が25件。株式会社リゾーム 業務ソリューション事業グループのあめぎです。2025年にBOND WORKSがリリースされもう1年以上経過しました。…",
       "articles": [
+        {
+          "title": "BOND GATEからBOND WORKSへの移行を支えるAWSインフラ改修 | リゾームのテックブログ",
+          "link": "https://tech.rhizome-e.com/entry/2026/08/17/113723",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-17T02:37:23",
+          "excerpt": "株式会社リゾーム 業務ソリューション事業グループのあめぎです。2025年にBOND WORKSがリリースされもう1年以上経過しました。…"
+        },
         {
           "title": "Webアプリエンジニアがゲーム用にEC2インスタンスを立ててみた",
           "link": "https://qiita.com/HERUESTA/items/fdb740410ef821eaa348",
@@ -64,21 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-17T01:13:28",
           "excerpt": "AWS Batch から起動する ECS タスクのネットワークモードはジョブタイプに応じて自動選択されます。"
-        },
-        {
-          "title": "AWS CLIでaws s3は成功するのにaws cloudfrontだけSSLエラーになる原因を特定した話",
-          "link": "https://qiita.com/shun123/items/c86456c17347fb3935a6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-17T01:03:29",
-          "excerpt": "はじめに 社内ネットワークからAWS CLIを使っていたところ、ある日突然 aws cloudfront コマンドだけがSSLエラーで失敗するようになりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。Amazon Quickの導入時に欠かせない「社内メンバーへのユーザー払い出し」について、IAMユーザーをベースにした実装フローを、自己プロビジョニングと手動登録の2つの方法で紹介します。",
+      "summary": "セキュリティの新着が7件。ディスク上に秘密鍵ファイルを置かずに、TPM を使って SSH 認証を実現する方法を紹介します。…",
       "articles": [
+        {
+          "title": "TPM を使って秘密鍵をディスクに置かずに GitHub に SSH 認証してみた",
+          "link": "https://dev.classmethod.jp/articles/dafujii-tpm2-pkcs11-github-ssh/",
+          "source": "DevelopersIO",
+          "published": "2026-08-17T02:23:56",
+          "excerpt": "ディスク上に秘密鍵ファイルを置かずに、TPM を使って SSH 認証を実現する方法を紹介します。…"
+        },
         {
           "title": "Amazon QuickでのIAMユーザーでのアカウント払い出し手順まとめ",
           "link": "https://dev.classmethod.jp/articles/amazon-quick-iam-user-provisioning/",
@@ -99,20 +106,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-16T13:18:26",
           "excerpt": "皆さんは仕事でどれぐらいのアプリケーションを使用するでしょうか。GitHub、Slack、Notion、Outlook/Gmail・・・などの SaaS はもちろん、社内の業務システムもあるでしょう。…"
-        },
-        {
-          "title": "犬の散歩中にサイバー攻撃を阻止 - 防衛的なAIセキュリティCEO、それは無謀ではないと語る",
-          "link": "https://www.theregister.com/security/2026/08/16/stopping-a-cyberattack-while-walking-your-dog-defensive-ai-security-ceo-says-its-not-ruff-to-do/5288126",
-          "source": "The Register（英語）",
-          "published": "2026-08-16T10:06:00",
-          "excerpt": "Corma CEOはThe Regに対し、「防御側がこの力を持つために、全員を支配するための1つのリング」を構築していると語った"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。G-gen の武井です。当記事では、Google SecOps で検知したアラートの是正対応を Playbooks で自動化する方法を解説します。…",
+      "summary": "データ分析の新着が3件。G-gen の武井です。当記事では、Google SecOps で検知したアラートの是正対応を Playbooks で自動化する方法を解説します。…",
       "articles": [
         {
           "title": "Google SecOpsのPlaybooksでアラート対応を自動化する(BigQuery編) | G-gen Tech Blog",
@@ -134,21 +134,28 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-16T09:17:43",
           "excerpt": "はじめに2026年8月5日、Amazon DynamoDBでのベクトル検索の一般提供が発表されました。…"
-        },
-        {
-          "title": "EKS CapabilitiesのマネージドArgo CD × EKS Auto Mode × GitHubでGitOpsを体感する",
-          "link": "https://qiita.com/yuki_ink/items/9d91f8b80269a1b5658e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T03:17:38",
-          "excerpt": "はじめに お疲れ様です。矢儀 @yuki_ink です。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。AWS CodeCommit、CodeBuild、CodePipelineを使ったCI/CDパイプラインの構築手順を、セットアップから動作確認までさっくりと解説します。",
+      "summary": "開発ツールの新着が14件。はじめに この記事で扱う題材（ユースケース） 前提条件 設計の出発点：判断はエージェント、確定はコード ソリューションアーキテクチャ全体像 データフロー 設計上の選択とトレードオフ 1.…",
       "articles": [
+        {
+          "title": "Amazon Bedrock AgentCore で「ミスの許されない基幹業務」に AI エージェントを実装する ─ 本番アーキテクチャ・IaC・設計トレードオフ徹底解説 | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp//agentcore-mission-critical-agent-architecture",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-17T02:29:44",
+          "excerpt": "はじめに この記事で扱う題材（ユースケース） 前提条件 設計の出発点：判断はエージェント、確定はコード ソリューションアーキテクチャ全体像 データフロー 設計上の選択とトレードオフ 1.…"
+        },
+        {
+          "title": "TPM を使って秘密鍵をディスクに置かずに GitHub に SSH 認証してみた",
+          "link": "https://dev.classmethod.jp/articles/dafujii-tpm2-pkcs11-github-ssh/",
+          "source": "DevelopersIO",
+          "published": "2026-08-17T02:23:56",
+          "excerpt": "ディスク上に秘密鍵ファイルを置かずに、TPM を使って SSH 認証を実現する方法を紹介します。…"
+        },
         {
           "title": "CodePipelineを使ってCloudFormationをDeployするCICD環境を作ってみた",
           "link": "https://dev.classmethod.jp/articles/codepipeline-deploy-cloudformation-without-codedeploy/",
@@ -162,52 +169,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-17T01:03:29",
           "excerpt": "はじめに 社内ネットワークからAWS CLIを使っていたところ、ある日突然 aws cloudfront コマンドだけがSSLエラーで失敗するようになりました。…"
-        },
-        {
-          "title": "Docker + GitHub ActionsでECRにイメージをpush — ビルドからプッシュまで自動化",
-          "link": "https://qiita.com/hitobussi/items/78b6fbec4a727a925896",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T22:18:24",
-          "excerpt": "Docker + GitHub ActionsでECRにイメージをpush — ビルドからプッシュまで自動化 はじめに 前回はSpring BootのテストをGitHub Actionsで自動実行する構成を紹介しました。…"
-        },
-        {
-          "title": "Terraform : CodePipelineを構築する際に押さえておきたいポイント(1) — アーティファクト基盤とIAMロール設計",
-          "link": "https://qiita.com/ham-nao/items/3a620973c4cff86acf3b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-16T15:19:20",
-          "excerpt": "ECSのCI/CDパイプラインを、CodePipeline + CodeBuildで組む構成は定番パターンです。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AGI-64 がコモドール 64 にシエラの冒険をもたらします",
-      "link": "https://meanhamster.com/news/agi-64-brings-sierra-adventures-to-the-commodore-64",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-17T01:45:36",
-      "excerpt": "記事の URL: https://meanhamster.com/news/agi-64-brings-sierra-adventures-to-the-commodore-64 コメント URL: https://news.…"
+      "title": "Amazon Connect で通話をモニタリングできるスーパーバイザーの同時接続上限人数を教えてください",
+      "link": "https://dev.classmethod.jp/articles/tsnote-connect-monitoring-supervisor-limit/",
+      "source": "DevelopersIO",
+      "published": "2026-08-17T03:12:37",
+      "excerpt": "Amazon Connect で通話を監視するスーパーバイザーの人数上限は、マルチパーティ通話設定で異なります。有効時は2名、無効時は5名まで同時監視可能です。設定変更手順を実際に試してみました。"
     },
     {
-      "title": "どの Kiro アプリを選べばいい？",
-      "link": "https://aws.amazon.com/jp/blogs/news/which-kiro-app-should-i-pick/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-08-17T01:30:58",
-      "excerpt": "Kiro は IDE、CLI、Web、Mobile、Kiro Crew という複数のアプリとして提供されるソフトウェアエンジニアリングエージェントです。…"
-    },
-    {
-      "title": "データ統合基盤開発チームが挑んだ、PythonによるWebページ・Web API統合クローラー基盤設計 | Sansan Tech Blog",
-      "link": "https://buildersbox.corp-sansan.com/entry/2026/08/17/100000",
+      "title": "AI自身がJira上にグラフを構築し自走する — チケット駆動開発とグラフエンジニアリング | kubell Creator's Note",
+      "link": "https://creators-note.chatwork.com/entry/2026/08/17/120000",
       "source": "企業テックブログまとめ",
-      "published": "2026-08-17T01:00:00",
-      "excerpt": "本記事は、有志によるPyCon JP盛り上げイベントの一環として執筆したテックブログです！残念ながら採択とはならなかったプロポーザルですが、Pythonによるデータ収集基盤設計の知見として公開します。buildersbox.…"
+      "published": "2026-08-17T03:00:00",
+      "excerpt": "こんにちは。認証チームのいまひろです。1 年ほど前、Claude CodeでJiraのチケット駆動開発を強固に加速させる！という記事で、Jira のチケットを起点に Claude Code を開発フローへ組み込んだ話を書きました。…"
     },
     {
-      "title": "PR： VMware vSphere 8.0のEOSまで猶予なし　アップグレード計画は何から始めるべきか？",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/17/news011.html",
-      "source": "@IT",
-      "published": "2026-08-17T01:00:00",
-      "excerpt": "「VMware vSphere 8.0」が2027年10月にサービス終了となる。アップグレード方式の選定やリソース確認など検討項目は多く、早期の着手が必要だ。…"
+      "title": "【2026年版】AWS Managed Microsoft AD 環境で Entra Cloud Sync を使おうとして失敗した話",
+      "link": "https://dev.classmethod.jp/articles/failed-to-using-aws-managed-microsoft-ad-with-entra-cloud-sync-2026/",
+      "source": "DevelopersIO",
+      "published": "2026-08-17T02:59:03",
+      "excerpt": "AWS Managed Microsoft AD環境でEntra Cloud Syncの検証を4年ぶりに再チャレンジしました。"
+    },
+    {
+      "title": "リファラル入社のプレッシャーと複雑なドメインの壁。はじめてのスクラムマスター挑戦で「見えない不安」を晴らし始めた話 | jinjerテックブログのフィード",
+      "link": "https://zenn.dev/jinjer_techblog/articles/b60dc2edf19c25",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-17T02:55:05",
+      "excerpt": "はじめまして。こんにちは！jinjer株式会社、プロダクト開発部の ときじ です。1.期待と不安、現場に飛び込んだあとの話今年1月、私はリファラル（社員紹介）を通じてjinjerに入社しました。…"
     }
   ]
 }
