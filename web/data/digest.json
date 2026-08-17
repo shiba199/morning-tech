@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T14:50:44",
+  "generated_at": "2026-08-17T15:15:04",
   "window_hours": 24,
-  "total": 227,
+  "total": 228,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。はじめに 静的サイト（S3）からバックエンドの API（API Gateway）を fetch したら、ブラウザに CORS で弾かれました。Access to fetch at 'https://xxxx.execute-api...…",
+      "summary": "クラウドの新着が17件。アフリカの防衛技術企業Terra Industriesは、追加の1,800万ドルの資金調達を発表し、シードラウンドは5,200万ドルとなった。",
       "articles": [
+        {
+          "title": "テラ・インダストリーズ、グローバル・サウスの防衛インフラ構築のため5,200万ドルのシードラウンドを終了",
+          "link": "https://techcrunch.com/2026/08/17/terra-industries-closes-52m-seed-round-to-build-defense-infrastructure-for-the-global-south/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-17T15:06:07",
+          "excerpt": "アフリカの防衛技術企業Terra Industriesは、追加の1,800万ドルの資金調達を発表し、シードラウンドは5,200万ドルとなった。"
+        },
         {
           "title": "【CloudFront】S3 と API Gateway を1つのドメインに束ねたら CORS が消えた話",
           "link": "https://qiita.com/80-cloud/items/cb97919764d0705c66c1",
@@ -64,13 +71,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-17T10:47:18",
           "excerpt": "概要 WindowsでPowerShell上からコンテナを実行できるWSLコンテナが(プレビュー版ですが)リリースされたので便利に使ってみましょう。…"
-        },
-        {
-          "title": "AWS Lambdaコンソール、KiroとCursorとのIDE統合を拡張",
-          "link": "https://codezine.jp/article/detail/29326",
-          "source": "CodeZine",
-          "published": "2026-08-17T07:00:00",
-          "excerpt": "AWS Lambdaコンソール、KiroとCursorとのIDE統合を拡張"
         }
       ]
     },
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。記事の URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が15件。はじめに インフラをコードで管理する、という考え方自体はもう当たり前になりました。しかし「動くTerraformコード」と「チームで長期運用できるTerraformコード」の間には、かなり大きな隔たりがあります。…",
       "articles": [
+        {
+          "title": "【書評】 Terraform: Up & Running",
+          "link": "https://qiita.com/io0323/items/6e93673a4c9aeac82477",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-17T15:00:34",
+          "excerpt": "はじめに インフラをコードで管理する、という考え方自体はもう当たり前になりました。しかし「動くTerraformコード」と「チームで長期運用できるTerraformコード」の間には、かなり大きな隔たりがあります。…"
+        },
         {
           "title": "AI 生成の GitHub コパイロット「Autofix」により Snowflake の Jira が侵害される",
           "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
@@ -162,13 +169,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-17T13:40:55",
           "excerpt": "記事の URL: https://www.githubstatus.com/incidents/zkxwbgr0cnmx コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "GitHub がまたダウンしますか? PR アクセスなし",
-          "link": "https://news.ycombinator.com/item?id=49330632",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-17T13:37:28",
-          "excerpt": "Githubstatus.com は現在、すべてが機能していると言っていますが、実際はそうではありません コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     }
@@ -189,18 +189,18 @@
       "excerpt": "Modular社は、AIを高速に実行することを目指したPythonライクなプログラミング言語「Mojo」がバージョン1.0に到達したことを発表しました。Mojo 1.0 is here.Since we open-sourced the .…"
     },
     {
-      "title": "Apple のアプリ追跡の透明性は、自社のアプリをライバルよりも良く扱った",
-      "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-17T14:07:59",
-      "excerpt": "記事の URL: https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.…"
+      "title": "秘密鍵はあるのに公開鍵がないとき",
+      "link": "https://qiita.com/rarara_dev/items/061656670ec1568c091a",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-17T14:59:39",
+      "excerpt": "まず、秘密鍵から公開鍵が作れます（すごい） ローカルのlinux内に秘密鍵があるとします そしたら、この一文で秘密鍵から公開鍵を作ります ubuntu ssh-keygen -y -f your_secret_key.…"
     },
     {
-      "title": "侵入的な AI を無効化または回避する方法",
-      "link": "https://www.librarian.net/notoai/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-17T14:07:56",
-      "excerpt": "記事の URL: https://www.librarian.net/notoai/ コメント URL: https://news.ycombinator.com/item?id=49331220 ポイント: 8 コメント数: 0"
+      "title": "WordPress.com は無料の学生プランで次世代の Web クリエイターをターゲットにしています",
+      "link": "https://techcrunch.com/2026/08/17/wordpress-com-targets-the-next-generation-of-web-creators-with-a-free-student-plan/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-17T14:56:00",
+      "excerpt": "WordPress.com Education を使用すると、教師は生徒に無料のドメイン、プラグインのサポート、プロフェッショナルな Web サイト構築ツールを提供できます。"
     }
   ]
 }
