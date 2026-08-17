@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T18:20:44",
+  "generated_at": "2026-08-17T19:05:08",
   "window_hours": 24,
-  "total": 249,
+  "total": 257,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。先週、OpenSearch チームと Valkey チームは、オープンソース サミット コリア 2026 および MCP DevSummit ソウル 2026 のオープンソース開発者と貢献者に会うためにソウルを訪れました。…",
+      "summary": "クラウドの新着が21件。Amazon EC2 Auto Scaling は、単一の API 呼び出しでのバッチインスタンスの終了をサポートするようになりました。…",
       "articles": [
+        {
+          "title": "Amazon EC2 Auto Scaling がバッチインスタンスの終了をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-17T18:11:00",
+          "excerpt": "Amazon EC2 Auto Scaling は、単一の API 呼び出しでのバッチインスタンスの終了をサポートするようになりました。…"
+        },
+        {
+          "title": "Amazon EC2 R8i および R8i-Flex インスタンスがカナダ西部 (カルガリー) リージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex-calgary/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-17T17:28:00",
+          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) R8i および R8i-flex インスタンスがカナダ西部 (カルガリー) リージョンで利用可能になります。…"
+        },
         {
           "title": "AWS ウィークリーまとめ: EC2 アプリケーションのステータス チェック、IAM ロール マネージャー、Bedrock の OpenAI Daybreak など (2026 年 8 月 17 日)",
           "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
@@ -57,20 +71,6 @@
           "source": "AWS What's New（英語）",
           "published": "2026-08-17T15:39:00",
           "excerpt": "Amazon OpenSearch Service は、自動セマンティック エンリッチメントを VPC 対応ドメインに拡張し、プライベート ネットワーク構成を持つ顧客がドメインを公共のインターネットに公開することなく AI を活用したセマン…"
-        },
-        {
-          "title": "テラ・インダストリーズ、グローバル・サウスの防衛インフラ構築のため5,200万ドルのシードラウンドを終了",
-          "link": "https://techcrunch.com/2026/08/17/terra-industries-closes-52m-seed-round-to-build-defense-infrastructure-for-the-global-south/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-17T15:06:07",
-          "excerpt": "アフリカの防衛技術企業Terra Industriesは、追加の1,800万ドルの資金調達を発表し、シードラウンドは5,200万ドルとなった。"
-        },
-        {
-          "title": "【CloudFront】S3 と API Gateway を1つのドメインに束ねたら CORS が消えた話",
-          "link": "https://qiita.com/80-cloud/items/cb97919764d0705c66c1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-17T14:38:43",
-          "excerpt": "はじめに 静的サイト（S3）からバックエンドの API（API Gateway）を fetch したら、ブラウザに CORS で弾かれました。Access to fetch at 'https://xxxx.execute-api...…"
         }
       ]
     },
@@ -175,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "隠れたエアタグでアマゾンがAIを訓練するために希少本を廃棄していることが判明",
-      "link": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-17T18:13:47",
-      "excerpt": "Amazon のチームは T.レックス はロゴとして本をむさぼり食う準備をしています。"
-    },
-    {
-      "title": "YouTube はビデオの再生が開始されるとすぐに再生回数をカウントするようになりました",
-      "link": "https://techcrunch.com/2026/08/17/youtube-will-now-count-a-view-as-soon-as-a-video-starts-playing/",
+      "title": "ヒッグスフィールドがシリーズ B で 4 億ドルを調達、8 か月で評価額が 4 倍の 54 億ドルに増加",
+      "link": "https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-17T18:09:33",
-      "excerpt": "この変更は、YouTube がショート動画の再生回数のカウントに同じアプローチを適用してから 1 年後に行われました。"
+      "published": "2026-08-17T19:04:27",
+      "excerpt": "Higgsfield は、元 Snap 幹部の Alex Mashrabov によって設立され、ユーザーが AI 画像やビデオを作成できるようにします。"
     },
     {
-      "title": "メモリ価格は 12 か月で 500% 上昇、過去最低価格の最大 10 倍に",
-      "link": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-17T17:52:37",
-      "excerpt": "記事の URL: https://www.tomshardware.…"
+      "title": "Reddit、人気の TikTok 動画と同様の新しいオーディオとビデオ体験のテストを開始",
+      "link": "https://techcrunch.com/2026/08/17/reddit-begins-testing-a-new-audio-and-video-experience-similar-to-popular-tiktok-videos/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-17T18:42:30",
+      "excerpt": "Redditは、人気の投稿のビデオとオーディオバージョンのテストを開始しており、ユーザーはRedditのストーリーを読むだけでなく見たり聞いたりできるようになります。"
     },
     {
-      "title": "Qwen3.8 27B は人工分析で 52 点を獲得",
-      "link": "https://artificialanalysis.ai/models/qwen3-8-27b",
+      "title": "世界の終わりのパタゴニアで働く孤独な男たち",
+      "link": "https://www.newyorker.com/culture/photo-booth/the-lonely-men-at-the-end-of-the-world",
       "source": "Hacker News（英語）",
-      "published": "2026-08-17T17:25:17",
-      "excerpt": "記事の URL: https://artificialanalogy.ai/models/qwen3-8-27b コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-17T18:34:09",
+      "excerpt": "記事の URL: https://www.newyorker.com/culture/photo-booth/the-lonely-men-at-the-end-of-the-world コメント URL: https://news.…"
+    },
+    {
+      "title": "音声を活用した防火スタートアップ、火災が大惨事になる前に鎮火するために 1,500 万ドルを獲得",
+      "link": "https://techcrunch.com/2026/08/17/sound-powered-fire-protection-startup-gets-15m-to-snuff-out-fires-before-they-turn-catastrophic/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-17T18:32:27",
+      "excerpt": "Sonic Fire Protection は、業務用キッチンからアパートの建物に至るまで、音響を利用した防火システムをあらゆるものに導入するために新たな資金を調達しました。"
     }
   ]
 }
