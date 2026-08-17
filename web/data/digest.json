@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-17T05:56:54",
+  "generated_at": "2026-08-17T06:37:54",
   "window_hours": 24,
-  "total": 181,
+  "total": 185,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が30件。Amazon Connect の統合で Amazon Bedrock AgentCore Gateway を設定しても Amazon Connect 側にツールが表示されませんでした。…",
+      "summary": "生成AIの新着が31件。Codex の config.toml に model_context_window を書くと、ChatGPT のサブスクプランでもコンテキストウィンドウを 258K から広げられます。…",
       "articles": [
+        {
+          "title": "Codex のコンテキストウィンドウを ChatGPT プランでも 1M に広げてみた",
+          "link": "https://dev.classmethod.jp/articles/codex-context-window-1m-chatgpt-plan/",
+          "source": "DevelopersIO",
+          "published": "2026-08-17T05:54:50",
+          "excerpt": "Codex の config.toml に model_context_window を書くと、ChatGPT のサブスクプランでもコンテキストウィンドウを 258K から広げられます。…"
+        },
         {
           "title": "Amazon Connect の統合で Amazon Bedrock AgentCore Gateway を設定したが、Amazon Connect 側にツールが反映されなかったのでその原因を特定してみた",
           "link": "https://dev.classmethod.jp/articles/amazon-connect-agentcore-gateway-tools-not-displayed/",
@@ -29,13 +36,6 @@
           "source": "CodeZine",
           "published": "2026-08-17T04:00:00",
           "excerpt": "Notion、ShareメニューからCustom Agentsへのコンテキスト共有が可能に"
-        },
-        {
-          "title": "サイバーエージェント、月3万円の“AI手当”で「Claude Code」「Codex」利用急増　代わりに“使われなくなった”のは？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/17/news053.html",
-          "source": "@IT",
-          "published": "2026-08-17T04:00:00",
-          "excerpt": "サイバーエージェントがソフトウェア開発向けAIエージェントの利用支援を始めて1年。開発におけるAIツールの“主役”が変わり、AIの役割までもが変化したという。それはどういうことなのか。実態を追う。"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。GKE Autopilotクラスタ上にNginxをデプロイし、Gateway APIとGlobal ALBで外部公開してGKEへ再入門してみました。",
+      "summary": "開発ツールの新着が14件。GitHub、個人リポジトリでコメントからユーザーのブロックが可能に",
       "articles": [
+        {
+          "title": "GitHub、個人リポジトリでコメントからユーザーのブロックが可能に",
+          "link": "https://codezine.jp/article/detail/29325",
+          "source": "CodeZine",
+          "published": "2026-08-17T06:00:00",
+          "excerpt": "GitHub、個人リポジトリでコメントからユーザーのブロックが可能に"
+        },
         {
           "title": "【GKE再入門】GKE Autopilotクラスタ上にNginxをデプロイしてGlobal external Application Load Balancer経由で外部からアクセスしてみた",
           "link": "https://dev.classmethod.jp/articles/gke-deploy-nginx-on-autopilot-cluster-and-access-via-global-external-application-load-balancer/",
@@ -169,45 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-08-17T02:23:56",
           "excerpt": "ディスク上に秘密鍵ファイルを置かずに、TPM を使って SSH 認証を実現する方法を紹介します。…"
-        },
-        {
-          "title": "CodePipelineを使ってCloudFormationをDeployするCICD環境を作ってみた",
-          "link": "https://dev.classmethod.jp/articles/codepipeline-deploy-cloudformation-without-codedeploy/",
-          "source": "DevelopersIO",
-          "published": "2026-08-17T01:06:13",
-          "excerpt": "AWS CodeCommit、CodeBuild、CodePipelineを使ったCI/CDパイプラインの構築手順を、セットアップから動作確認までさっくりと解説します。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "部品が合わなかったため、技術者はドライバーを取り出しました。するとマザーボードから何かが飛んできた",
+      "link": "https://www.theregister.com/systems/2026/08/17/part-didnt-fit-so-techie-got-out-his-screwdriver-then-something-flew-off-the-motherboard/5287692",
+      "source": "The Register（英語）",
+      "published": "2026-08-17T06:30:00",
+      "excerpt": "それが何であれ、PCを壊し、面目を保つような嘘をついた"
+    },
+    {
+      "title": "Linux 7.2 がデビュー、リーナス・トーバルズ氏は「新しい常態」とは今それを実行しなければならないことを意味すると語る...それとも絶対に実行しないのか?",
+      "link": "https://www.theregister.com/os-platforms/2026/08/17/linux-72-debuts-linus-torvalds-says-new-normal-means-he-had-to-do-it-now-or-never/5288250",
+      "source": "The Register（英語）",
+      "published": "2026-08-17T06:01:32",
+      "excerpt": "高速化のためのキャッシュの賢い使い方と、非常に奇妙なゲーム コントローラーをご紹介します。一部の PCMCIA サポートに別れを告げる"
+    },
+    {
+      "title": "米国の料金支払者の資金120億ドルがPJMのモデリングミスで無駄に",
+      "link": "https://newsletter.semianalysis.com/p/12b-of-us-ratepayers-money-wasted",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-17T05:22:49",
+      "excerpt": "記事の URL: https://newsletter.semianaosis.com/p/12b-of-us-ratepayers-money-wasted コメント URL: https://news.ycombinator.…"
+    },
+    {
       "title": "Amazon Quickのプラン(Professional/Enterprise)とユーザー招待画面の6ロールを整理してみた",
       "link": "https://dev.classmethod.jp/articles/amazon-quick-professional-enterprise-role-mapping/",
       "source": "DevelopersIO",
       "published": "2026-08-17T05:10:12",
       "excerpt": "Amazon Quickのユーザー招待時に表示される6つのロールが、実は2つの異なる料金体系に分かれていることをご存知ですか？…"
-    },
-    {
-      "title": "LINE着せかえ“デザイン崩れ”問題、返金フォーム設置　ただ「返金できない場合も」",
-      "link": "https://www.itmedia.co.jp/news/article/2608/17/2000000565/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-17T05:07:41",
-      "excerpt": "「調査の結果、返金できない場合がありますことを予めご了承ください」との注意書きも。"
-    },
-    {
-      "title": "「データがない」「スキルがない」「発想が広がらない」　味の素冷凍食品は“3つのない”をどう解消した？",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/17/news071.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-08-17T04:30:00",
-      "excerpt": "マーケティングにAIを活用することで、どのような課題をどう解消できるのか。キーワードは「AIペルソナ」だ。NECのBestMoveを利用する、味の素冷凍食品の事例から探る。"
-    },
-    {
-      "title": "千葉水害、半数以上が“ハザードマップの浸水エリア外”で起きていた　ウェザーニューズ調査より",
-      "link": "https://www.itmedia.co.jp/news/article/2608/17/2000000561/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-17T04:25:28",
-      "excerpt": "ウェザーニューズが千葉県内の約2万件の現地報告を分析したところ、被害報告の55.7％が浸水想定区域や低位地帯の「外」から寄せられていたという。"
     }
   ]
 }
