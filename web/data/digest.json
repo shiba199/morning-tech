@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-18T05:52:23",
+  "generated_at": "2026-08-18T06:22:22",
   "window_hours": 24,
-  "total": 273,
+  "total": 272,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が43件。Amazon Bedrock の bedrock-runtime エンドポイントで OpenAI GPT-5.6 が使えるようになりました。…",
+      "summary": "生成AIの新着が42件。Amazon Bedrock の bedrock-runtime エンドポイントで OpenAI GPT-5.6 が使えるようになりました。…",
       "articles": [
         {
           "title": "bedrock-runtime で OpenAI GPT-5.6 が使えるようになったので試してみた",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。AWS Certificate Manager (ACM) は、CA/B フォーラムによる業界全体での E メールベースのドメイン検証の廃止に合わせ、2027 年 9 月 30 日までに E メール検証済みパブリック証明書のサポートを終了し…",
+      "summary": "クラウドの新着が14件。AWS Backup で EC2 インスタンスをバックアップする際、特定の EBS ボリュームを除外できますか？EC2 単位のバックアップでは除外不可ですが、EBS ボリューム単位に変更することで対応可能です。…",
       "articles": [
+        {
+          "title": "AWS BackupでEC2をバックアップするときに特定のボリュームを除外することは可能ですか？",
+          "link": "https://dev.classmethod.jp/articles/tsnote-aws-backup-ec2-exclude-specific-volumes/",
+          "source": "DevelopersIO",
+          "published": "2026-08-18T06:01:31",
+          "excerpt": "AWS Backup で EC2 インスタンスをバックアップする際、特定の EBS ボリュームを除外できますか？EC2 単位のバックアップでは除外不可ですが、EBS ボリューム単位に変更することで対応可能です。…"
+        },
         {
           "title": "AWS Certificate Manager が E メールによるドメイン検証を終了、DNS 検証への移行をご案内します",
           "link": "https://aws.amazon.com/jp/blogs/news/aws-certificate-manager-will-discontinue-email-validation-to-prove-domain-validation-for-certificates/",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-17T22:04:43",
           "excerpt": "GitHub ActionsからECS Fargateに自動デプロイ — mainへのpushで本番反映まで全自動 はじめに 前回はDockerイメージをECRにpushするCIを構築しました。…"
-        },
-        {
-          "title": "Amazon EC2 Auto Scaling がバッチインスタンスの終了をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-17T18:11:00",
-          "excerpt": "Amazon EC2 Auto Scaling は、単一の API 呼び出しでのバッチインスタンスの終了をサポートするようになりました。…"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。AIエージェントのスキルを共有する仕組みに、GitHub CLIを取り入れました。その仕組みを紹介します。",
+      "summary": "開発ツールの新着が14件。AIエージェントのスキルを共有する仕組みに、GitHub CLIを取り入れました。その仕組みを紹介します。",
       "articles": [
         {
           "title": "GitHub CLIを使ったスキル共有 | GMO MAKESHOP engineer blog",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "一部テレビで「BSテレ東」など映らなかった問題、NHKが謝罪　信号データに古いチャンネル情報混入",
+      "link": "https://www.itmedia.co.jp/news/article/2608/18/2000000591/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-18T05:53:54",
+      "excerpt": "Sデジタルでは、他局も含めたチャンネル情報の信号データを放送波で送っている。その中に古いチャンネル情報が含まれていたため、一部機種の受信機で、対象のBSチャンネルが正常に選局できなくなったという。"
+    },
+    {
+      "title": "Google Meet、対面会議向け自動議事録機能「Take Notes for me」提供開始",
+      "link": "https://codezine.jp/article/detail/29334",
+      "source": "CodeZine",
+      "published": "2026-08-18T05:30:00",
+      "excerpt": "Google Meet、対面会議向け自動議事録機能「Take Notes for me」提供開始"
+    },
+    {
+      "title": "新顔相次ぐ小型電動モビリティー　優れた環境性能、免許返納した高齢者の「次の足」に注目",
+      "link": "https://www.itmedia.co.jp/news/article/2608/18/2000000590/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-18T05:29:55",
+      "excerpt": "優れた環境性能や利便性、低コストに加え、免許返納者の「次の足」といった特徴を打ち出す「小型電動モビリティー」の新商品が相次ぎ登場している。「クルマほど大きすぎず、バイクより安全」な、都市の移動手段として注目される。"
+    },
+    {
       "title": "Microsoft MVP は、Redmond が置き換えたすべてのブランドを思い出させるサイトを作成します",
       "link": "https://www.theregister.com/software/2026/08/18/microsoft-mvp-creates-site-to-remind-you-of-all-the-brands-redmond-replaced/5288937",
       "source": "The Register（英語）",
       "published": "2026-08-18T05:20:18",
       "excerpt": "まだ「Entra」ではなく「DirSync」または「Active Directory」について話していて、その理由を説明する必要がある場合は、このサイトが最適です。"
-    },
-    {
-      "title": "もうインターネットを楽しめない",
-      "link": "https://btao.org/posts/2026-08-17-i-dont-enjoy-the-internet/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-18T05:17:14",
-      "excerpt": "記事の URL: https://btao.org/posts/2026-08-17-i-dont-enjoy-the-internet/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "AWSでYouTube的サービスを検証してたら、電気通信事業法と著作権法の壁にぶつかった話",
-      "link": "https://qiita.com/yama3133/items/e60cb25d3b10d7a2f316",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-18T04:10:47",
-      "excerpt": "今、AWS環境でYouTube的な動画配信サービスがどこまで作れるかを検証している。動画のアップロード、トランスコード、配信基盤あたりはEC2やS3、CloudFrontを組み合わせれば技術的には普通に動く。…"
-    },
-    {
-      "title": "AWS の新ポリシー言語 Dogwood を試す | エクサウィザーズ Tech Blogのフィード",
-      "link": "https://zenn.dev/exwzd/articles/20260813-dogwood-agent-policy",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-18T04:07:05",
-      "excerpt": "先端技術開発グループ（WAND）の伊賀です。…"
     }
   ]
 }
