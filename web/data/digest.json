@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T14:02:28",
+  "generated_at": "2026-08-18T14:58:30",
   "window_hours": 24,
-  "total": 271,
+  "total": 266,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。はじめに 前回の記事では、TerraformでRDS(PostgreSQL)モジュールを構築する際の基本的な設計判断を、構築順に沿って解説しました。…",
+      "summary": "クラウドの新着が16件。Cloud Native Computing Foundation（CNCF）は、アプリケーションのソースコードから直接OCIコンテナメージを構築するツールである「Cloud Native Buildpacks」が十分成熟したとして、卒業プ…",
       "articles": [
+        {
+          "title": "コードからDockerfile不要でOCIコンテナをビルド。「Cloud Native Buildpacks」が十分成熟したとしてCNCFの卒業プロジェクトに",
+          "link": "https://www.publickey1.jp/blog/26/dockerfileocicloud_native_buildpackscncf.html",
+          "source": "Publickey",
+          "published": "2026-08-18T16:03:06",
+          "excerpt": "Cloud Native Computing Foundation（CNCF）は、アプリケーションのソースコードから直接OCIコンテナメージを構築するツールである「Cloud Native Buildpacks」が十分成熟したとして、卒業プ…"
+        },
+        {
+          "title": "CloudFormation で EC2 Auto Scaling の更新に `AutoScalingInstanceRefresh` ポリシーが使えるようになったので試してみた",
+          "link": "https://qiita.com/leomarokun/items/f75cb5a98b880f279fd8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-18T14:12:07",
+          "excerpt": "はじめに CloudFormationで「Auto Scalingグループ」を作っていると、設定を変えたときに裏でサーバーがどう入れ替わるかまで気にすることは少ないかもしれません。…"
+        },
         {
           "title": "Terraform : 第2回 RDS(PostgreSQL)モジュールを強化する ― バックアップ・監視・セキュリティの積み残しを埋める",
           "link": "https://qiita.com/ham-nao/items/632748cd60fbe4c8309b",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-18T11:17:33",
           "excerpt": "【2026年版】UdemyとInfraDojoを比較｜未経験からインフラエンジニアを目指す人におすすめの学習方法 未経験からインフラエンジニアを目指すとき、 「Udemyで勉強すればいい？」 「Linuxを実際に触れる学習サイトはある？…"
-        },
-        {
-          "title": "【2026年版】UdemyとInfraDojoを比較｜未経験からインフラを学ぶなら「見る」と「触る」をどう使い分ける？",
-          "link": "https://zenn.dev/reo_engineer/articles/48926fdcd6c10a",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-18T10:15:05",
-          "excerpt": "【2026年版】UdemyとInfraDojoを比較｜未経験からインフラを学ぶなら「見る」と「触る」をどう使い分ける？未経験からインフラエンジニアを目指して勉強を始めると、 「Udemyで勉強すればいい？…"
-        },
-        {
-          "title": "Snowflake Openflow Connector for PostgreSQL を SPCS で動かし、RDS for PostgreSQLに接続してみた",
-          "link": "https://dev.classmethod.jp/articles/tried-running-snowflake-openflow-connector-for-postgresql-on-spcs-and-connected-to-rds/",
-          "source": "DevelopersIO",
-          "published": "2026-08-18T10:11:47",
-          "excerpt": "SnowflakeのOpenflow Connector for PostgreSQLを使って、RDS for PostgreSQLからSnowflakeへCDCデータ転送を試してみました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。はじめに 前回の記事では、TerraformでRDS(PostgreSQL)モジュールを構築する際の基本的な設計判断を、構築順に沿って解説しました。…",
+      "summary": "セキュリティの新着が14件。Googleは、完全準同型暗号を利用したAIモデル用のオープンソースコンパイラ「HEIR」を発表しました。AIモデルをコンパイルする「HEIR」 HEIRはAIモデル用のコンパイラとツールチェーンであり、これを用いて学習済みAIモデルのP.…",
       "articles": [
+        {
+          "title": "Google、AIモデルをコンパイルして暗号データを復号せずに扱えるように変換する「HEIR」発表。完全準同型暗号を利用し、AIでのセキュリティやプライバシー保護など実現へ",
+          "link": "https://www.publickey1.jp/blog/26/googleaiheirai.html",
+          "source": "Publickey",
+          "published": "2026-08-18T15:55:25",
+          "excerpt": "Googleは、完全準同型暗号を利用したAIモデル用のオープンソースコンパイラ「HEIR」を発表しました。AIモデルをコンパイルする「HEIR」 HEIRはAIモデル用のコンパイラとツールチェーンであり、これを用いて学習済みAIモデルのP.…"
+        },
         {
           "title": "Terraform : 第2回 RDS(PostgreSQL)モジュールを強化する ― バックアップ・監視・セキュリティの積み残しを埋める",
           "link": "https://qiita.com/ham-nao/items/632748cd60fbe4c8309b",
@@ -99,13 +106,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-18T07:09:43",
           "excerpt": "こんにちは。SHIFTのAI・DX開発部の當眞です。続きをみる"
-        },
-        {
-          "title": "2.5次元アイドル「いれいす」事務所のBIツールに不正アクセス　ファンの氏名・電話番号や“推し”情報漏えい",
-          "link": "https://www.itmedia.co.jp/news/article/2608/18/2000000589/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-18T05:19:55",
-          "excerpt": "漏えいした情報は、氏名・住所・電話番号・メールアドレス・生年月日・性別の基本情報に加え、購入日時や商品名などの購買履歴、決済金額記録、サービス加入状況、応援対象タレントの選択情報。"
         }
       ]
     },
@@ -157,6 +157,13 @@
           "excerpt": "AIコードエディタのCursorなどを提供するAnysphereは、Gitに対応したコードホスティングサービス「Origin」を発表しました。Origin, our code hosting platform, is now live.I.…"
         },
         {
+          "title": "CloudFormation で EC2 Auto Scaling の更新に `AutoScalingInstanceRefresh` ポリシーが使えるようになったので試してみた",
+          "link": "https://qiita.com/leomarokun/items/f75cb5a98b880f279fd8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-18T14:12:07",
+          "excerpt": "はじめに CloudFormationで「Auto Scalingグループ」を作っていると、設定を変えたときに裏でサーバーがどう入れ替わるかまで気にすることは少ないかもしれません。…"
+        },
+        {
           "title": "第5回 Terraform講座 NAT Gateway",
           "link": "https://qiita.com/nyarusasu22/items/8576d2b4b1e7dba138d5",
           "source": "Qiita AWSタグ",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-18T12:14:10",
           "excerpt": "はじめに 前回の記事では、TerraformでRDS(PostgreSQL)モジュールを構築する際の基本的な設計判断を、構築順に沿って解説しました。…"
-        },
-        {
-          "title": "GitHub CLIを使ったスキル共有 | GMO MAKESHOP engineer blog",
-          "link": "https://tech.makeshop.co.jp/entry/2026/08/18/132617",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-18T04:26:17",
-          "excerpt": "AIエージェントのスキルを共有する仕組みに、GitHub CLIを取り入れました。その仕組みを紹介します。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "Apple、スパイウェア悪用の巣窟となった画像処理の穴を塞ぐ",
+      "link": "https://www.theregister.com/security/2026/08/18/apple-plugs-image-processing-hole-ripe-for-spyware-abuse/5289031",
+      "source": "The Register（英語）",
+      "published": "2026-08-18T14:56:00",
+      "excerpt": "パッチ バッチは現在のキット、古い iGadget、Mac、Vision Pro にまたがります"
+    },
+    {
+      "title": "AmigaDOS の王族、ティム・キング氏が 70 歳で死去",
+      "link": "https://www.theregister.com/software/2026/08/18/tim-king-amigados-royalty-dies-aged-70/5289101",
+      "source": "The Register（英語）",
+      "published": "2026-08-18T14:15:00",
+      "excerpt": "並列コンピューティングのパイオニアは、初期の英国 ISP UK Online を設立しました。"
+    },
+    {
+      "title": "砂糖の配給のもとで生まれた赤ちゃんは、がんのリスクが低い成人に成長した",
+      "link": "https://theconversation.com/babies-born-under-sugar-rationing-grew-into-adults-with-lower-cancer-risk-289873",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-18T14:06:50",
+      "excerpt": "記事の URL: https://theconversation.…"
+    },
+    {
       "title": "Warp の新しいシステムは、すぐに使える AI 開発用のソフトウェア ファクトリーです",
       "link": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
       "source": "TechCrunch（英語）",
       "published": "2026-08-18T14:00:00",
       "excerpt": "火曜日、Warp は、AI ソフトウェア ファクトリーの構築をできるだけ簡単にするように設計された新しいインフラストラクチャ システムである Warp Factory を導入しました。"
-    },
-    {
-      "title": "Anthro Energy、全固体電池への道を切り開く可能性のある工場の着工",
-      "link": "https://techcrunch.com/2026/08/18/anthro-energy-breaks-ground-on-factory-that-could-pave-the-road-to-solid-state-batteries/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-18T14:00:00",
-      "excerpt": "電池材料の新興企業アンスロ・エナジーは、全固体電池用を含む電解質を製造するルイビル工場の着工した。"
-    },
-    {
-      "title": "作業中: ベルリン、ハイデラバード、サンパウロの AWS ビルダー ロフト",
-      "link": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
-      "source": "AWS News Blog（英語）",
-      "published": "2026-08-18T13:58:41",
-      "excerpt": "各拠点は常設のコミュニティ スペースとなり、無料のワークショップ、ネットワーキング イベント、ピッチナイト、コンテンツ作成スペース、コラボレーション/コワーキング エリア、および実際に参加したい開発者、学生、技術専門家向けのイベント ホステ…"
-    },
-    {
-      "title": "Perplexity の無料 AI 提供により、インドではさらに数百万人のユーザーが利用できるようになりました",
-      "link": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-18T13:45:40",
-      "excerpt": "ダウンロード数が減少したにもかかわらず、Airtel の新規ユーザー向けオファーが終了した後、Perplexity のインドの収益は約 60% 増加しました。"
     }
   ]
 }
