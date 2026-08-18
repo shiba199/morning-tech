@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-18T03:13:42",
+  "generated_at": "2026-08-18T04:03:11",
   "window_hours": 24,
-  "total": 266,
+  "total": 263,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」 の18日目の投稿です！過去の投稿は以下の（リンク集）からご覧ください！https://qiita.…",
+      "summary": "生成AIの新着が42件。Claude Code v2.1.234がリリースされました。権限まわりの修正が充実した今回のアップデートと、デザインできるようになった新しい `/design` skill (research preview) について試してみます。",
       "articles": [
+        {
+          "title": "Claude Code v2.1.234 の主要アップデート - デザインできる新しい /design skill (research preview)",
+          "link": "https://dev.classmethod.jp/articles/20260818-cc-updates-v2-1-234/",
+          "source": "DevelopersIO",
+          "published": "2026-08-18T03:21:16",
+          "excerpt": "Claude Code v2.1.234がリリースされました。権限まわりの修正が充実した今回のアップデートと、デザインできるようになった新しい `/design` skill (research preview) について試してみます。"
+        },
+        {
+          "title": "Amazon Bedrock Knowledge Bases のセマンティックチャンキング利用時にどのモデルが使用されるのか教えてください",
+          "link": "https://dev.classmethod.jp/articles/tsnote-bedrock-knowledge-bases-semantic-chunking-model/",
+          "source": "DevelopersIO",
+          "published": "2026-08-18T03:13:47",
+          "excerpt": "Bedrock Knowledge Basesのセマンティックチャンキングで使用される基盤モデルについて、その正体と料金への影響を解説します。"
+        },
         {
           "title": "「過去の行動」を加味したAgentCore Temporal Policyはセッション分ければ突破できる？",
           "link": "https://qiita.com/R-You/items/aa678ab95f65a309f146",
@@ -22,20 +36,6 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-18T03:07:40",
           "excerpt": "Amazon Bedrock は、Anthropic や OpenAI をはじめとする主要モデルからオープンウ […]"
-        },
-        {
-          "title": "Anthropic、Claudeの生成テキストを判定可能にする「ウォーターマーク」導入",
-          "link": "https://codezine.jp/article/detail/29332",
-          "source": "CodeZine",
-          "published": "2026-08-18T02:30:00",
-          "excerpt": "Anthropic、Claudeの生成テキストを判定可能にする「ウォーターマーク」導入"
-        },
-        {
-          "title": "「作って終わり」のAIエージェントは死ぬ",
-          "link": "https://qiita.com/ta-ito0611/items/674a5246577f47b972d2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-18T01:36:38",
-          "excerpt": "はじめに こんにちは！KDDIアイレットの伊藤です。…"
         }
       ]
     },
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-08-18) GitHub / GCPセキュリティアップデートまとめ（2026年8月版） クラウドおよびDevSecOps領域における最新のセキュリティ情報を3件ピッ…",
+      "summary": "セキュリティの新着が11件。クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-08-18) GitHub / GCPセキュリティアップデートまとめ（2026年8月版） クラウドおよびDevSecOps領域における最新のセキュリティ情報を3件ピッ…",
       "articles": [
         {
           "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-08-18)",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "[アップデート] Amazon Quickでビジュアル用のカスタマイズ可能なデータなしメッセージのサポートが開始されました",
-      "link": "https://dev.classmethod.jp/articles/amazon-quick-custom-no-data-message/",
-      "source": "DevelopersIO",
-      "published": "2026-08-18T02:58:35",
-      "excerpt": "Amazon Quickでビジュアルのデータなしメッセージがカスタマイズできるようになりました。デフォルトメッセージから問い合わせ先やカスタムテキストを設定でき、ユーザー体験が向上します。実際に試してみました。"
+      "title": "Cloudflare Walletsが使う決済プロトコル x402 を理解する | every Tech Blog",
+      "link": "https://tech.every.tv/entry/2026/08/18/121350",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-18T03:13:50",
+      "excerpt": "Cloudflare Walletsが使う決済プロトコル x402 を理解する 目次 はじめに x402が対象とする課題 プロトコルフロー ② 402 Payment Required と PaymentRequirements schem…"
     },
     {
-      "title": "TwilioのMessaging Serviceで英数字送信者ID（Alpha Sender ID）を設定して送信してみた",
-      "link": "https://dev.classmethod.jp/articles/twilio-messaging-service-alphanumeric-sender-id/",
-      "source": "DevelopersIO",
-      "published": "2026-08-18T02:50:07",
-      "excerpt": "TwilioでMessaging ServiceのSender Poolに英数字送信者ID（Alphanumeric Sender ID）を登録し、実際にSMSを送信して送信者欄の表示まで確認してみました。…"
+      "title": "ライフカード、信用情報の不適切利用が判明　アイフルの顧客情報94万件超を保険営業の対象選定に",
+      "link": "https://www.itmedia.co.jp/news/article/2608/18/2000000585/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-18T03:13:36",
+      "excerpt": "ライフカードが、グループ会社のアイフルから顧客の信用情報の一部提供を受け、保険商品の案内対象の選定に利用していたことが分かった。対象は重複を除き94万6056件に上る。"
     },
     {
-      "title": "【ITエンジニアのための製造業知識入門 第1回】 PLC（プログラマブルロジックコントローラ）とは何か",
-      "link": "https://dev.classmethod.jp/articles/mfg-for-it-engineer-001/",
-      "source": "DevelopersIO",
-      "published": "2026-08-18T02:22:46",
-      "excerpt": "ITエンジニアが製造業のプロジェクトに関わる際、PLC・MES・BOMといった聞き慣れない用語に戸惑うことはありませんか？本シリーズでは、製造業でよく登場する用語をひとつずつ解説していきます。…"
+      "title": "MCPの仕組みと役割を理解する - 『MCP Deep Dive』社内講習会を実施 | Taste of Tech Topics",
+      "link": "https://acro-engineer.hatenablog.com/entry/2026/08/18/120000",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-18T03:00:00",
+      "excerpt": "こんにちは。YAMALEXのSsk1029Takashiです。…"
     },
     {
-      "title": "【AWS】アクセスキーを再発行してローカル環境に設定後、古いキーを削除する方法",
-      "link": "https://qiita.com/Ryuki4648/items/cd00fd16c466900baa9b",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-18T02:16:10",
-      "excerpt": "目次 はじめに やりたいこと アクセスキーを再発行 ローカル環境に設定 現在の設定を確認 新しい情報に変更 再確認 動作確認 エラー 古いアクセスキーを削除 はじめに 「アクセスキーの作成日から一定期間が経っているので、再発行して旧アクセス…"
+      "title": "カリフォルニア州の新しいタイヤ効率規則により、ドライバーは年間 10 億ドルを節約できる可能性がある",
+      "link": "https://grist.org/transportation/californias-new-tire-efficiency-rules-could-save-drivers-1b-a-year/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-18T02:58:42",
+      "excerpt": "記事の URL: https://grist.…"
     }
   ]
 }
