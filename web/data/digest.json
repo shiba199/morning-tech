@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-18T04:03:11",
+  "generated_at": "2026-08-18T04:58:51",
   "window_hours": 24,
-  "total": 263,
+  "total": 267,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が42件。Claude Code v2.1.234がリリースされました。権限まわりの修正が充実した今回のアップデートと、デザインできるようになった新しい `/design` skill (research preview) について試してみます。",
+      "summary": "生成AIの新着が41件。Googleは、同社のオンデバイス推論ライブラリ「LiteRT」のJavaScriptバインディングである「LiteRT.js」を発表した。…",
       "articles": [
+        {
+          "title": "ブラウザ内AI推論を「最大60倍」速く　Web AIランタイム「LiteRT.js」をGoogleが発表",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/18/news049.html",
+          "source": "@IT",
+          "published": "2026-08-18T04:00:00",
+          "excerpt": "Googleは、同社のオンデバイス推論ライブラリ「LiteRT」のJavaScriptバインディングである「LiteRT.js」を発表した。…"
+        },
         {
           "title": "Claude Code v2.1.234 の主要アップデート - デザインできる新しい /design skill (research preview)",
           "link": "https://dev.classmethod.jp/articles/20260818-cc-updates-v2-1-234/",
@@ -29,13 +36,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-18T03:11:54",
           "excerpt": "「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」 の18日目の投稿です！過去の投稿は以下の（リンク集）からご覧ください！https://qiita.…"
-        },
-        {
-          "title": "AWS Bedrock LLM Day Japan【開催報告】",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-bedrock-llm-day-japan%E3%80%90%E9%96%8B%E5%82%AC%E5%A0%B1%E5%91%8A%E3%80%91/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-18T03:07:40",
-          "excerpt": "Amazon Bedrock は、Anthropic や OpenAI をはじめとする主要モデルからオープンウ […]"
         }
       ]
     },
@@ -77,35 +77,35 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-08-18) GitHub / GCPセキュリティアップデートまとめ（2026年8月版） クラウドおよびDevSecOps領域における最新のセキュリティ情報を3件ピッ…",
+      "summary": "セキュリティの新着が14件。人手を増やせない中で、セキュリティの監視やインシデント対処までどう回すか――。少人数の情報システム部門が抱えがちな課題を、南条装備工業はどう解消したのか。",
       "articles": [
+        {
+          "title": "「セキュリティまで兼務なんて無理」「アラート見落としも不安」を解消　“少人数情シス”は何を変えた？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/18/news053.html",
+          "source": "@IT",
+          "published": "2026-08-18T04:00:00",
+          "excerpt": "人手を増やせない中で、セキュリティの監視やインシデント対処までどう回すか――。少人数の情報システム部門が抱えがちな課題を、南条装備工業はどう解消したのか。"
+        },
+        {
+          "title": "Microsoft Entra ID、パスキーをデフォルトの認証に　SMS・音声認証は廃止",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/18/news039.html",
+          "source": "@IT",
+          "published": "2026-08-18T04:00:00",
+          "excerpt": "Microsoftは、Entra IDのデフォルトのサインイン方法をパスキーに切り替える。Microsoftが提供するSMSおよび音声によるMFAは、2027年2月1日に提供を終了する。"
+        },
+        {
+          "title": "あなたの適職は「CISO」？　それとも「技術営業」？　9職種から“一押しセキュリティ職”が分かる無料診断",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/18/news048.html",
+          "source": "@IT",
+          "published": "2026-08-18T04:00:00",
+          "excerpt": "「セキュリティ人材」には、具体的にどのような職種があるのか。自分にとっての適職はどれなのか――。これらを知るために役立つ、無償で使える診断ツールが登場した。どのようなものなのか。"
+        },
         {
           "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-08-18)",
           "link": "https://qiita.com/iestudy/items/bc253f238562f5cdc4f3",
           "source": "Qiita AWSタグ",
           "published": "2026-08-18T02:46:43",
           "excerpt": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-08-18) GitHub / GCPセキュリティアップデートまとめ（2026年8月版） クラウドおよびDevSecOps領域における最新のセキュリティ情報を3件ピッ…"
-        },
-        {
-          "title": "【Security Hub修復手順】[Redshift.15] Redshift セキュリティグループは、制限されたオリジンからのみクラスターポートへの入力を許可する必要があります",
-          "link": "https://dev.classmethod.jp/articles/slug-securityhub-fsbp-remediation-redshift-15/",
-          "source": "DevelopersIO",
-          "published": "2026-08-18T01:18:33",
-          "excerpt": "AWS Security Hub で検出される Redshift の設定ミスについて、クラスターに紐付けたセキュリティグループを全体に開放してしまった場合の具体的な修復手順をご紹介します。"
-        },
-        {
-          "title": "泥棒をダマして守る？　攻撃者心理を逆手に取る最新セキュリティ戦略「サイバーデセプション」",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/18/news014.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-08-17T22:00:00",
-          "excerpt": "防御側は全ての資産を守り続けなければならないのに、攻撃者は一つの隙を見つければいい。この構造的な不利を覆す手段として、IPAが「サイバーデセプション」の資料を公開しました。攻撃者をだます防御とは何でしょうか。…"
-        },
-        {
-          "title": "「ネットワーク運用に追われる日々」を抜け出し、“ゼロトラスト前提”で考えるには？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/17/news014.html",
-          "source": "@IT",
-          "published": "2026-08-17T20:00:00",
-          "excerpt": "ネットワーク担当者はVLANの設定変更、トラブル対応など日々発生するネットワーク運用業務を抱える一方で、ゼロトラストをどう実践するかといった新たな課題にも向き合っています。…"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-08-18) GitHub / GCPセキュリティアップデートまとめ（2026年8月版） クラウドおよびDevSecOps領域における最新のセキュリティ情報を3件ピッ…",
+      "summary": "開発ツールの新着が14件。クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-08-18) GitHub / GCPセキュリティアップデートまとめ（2026年8月版） クラウドおよびDevSecOps領域における最新のセキュリティ情報を3件ピッ…",
       "articles": [
         {
           "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-08-18)",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Cloudflare Walletsが使う決済プロトコル x402 を理解する | every Tech Blog",
-      "link": "https://tech.every.tv/entry/2026/08/18/121350",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-18T03:13:50",
-      "excerpt": "Cloudflare Walletsが使う決済プロトコル x402 を理解する 目次 はじめに x402が対象とする課題 プロトコルフロー ② 402 Payment Required と PaymentRequirements schem…"
+      "title": "AWSでYouTube的サービスを検証してたら、電気通信事業法と著作権法の壁にぶつかった話",
+      "link": "https://qiita.com/yama3133/items/e60cb25d3b10d7a2f316",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-18T04:10:47",
+      "excerpt": "今、AWS環境でYouTube的な動画配信サービスがどこまで作れるかを検証している。動画のアップロード、トランスコード、配信基盤あたりはEC2やS3、CloudFrontを組み合わせれば技術的には普通に動く。…"
     },
     {
-      "title": "ライフカード、信用情報の不適切利用が判明　アイフルの顧客情報94万件超を保険営業の対象選定に",
-      "link": "https://www.itmedia.co.jp/news/article/2608/18/2000000585/",
+      "title": "災害便乗の“〇〇Pay詐欺”に注意喚起　最初は多めに返金→信用したら10万円被害　国民生活センター",
+      "link": "https://www.itmedia.co.jp/news/article/2608/18/2000000587/",
       "source": "ITmedia NEWS",
-      "published": "2026-08-18T03:13:36",
-      "excerpt": "ライフカードが、グループ会社のアイフルから顧客の信用情報の一部提供を受け、保険商品の案内対象の選定に利用していたことが分かった。対象は重複を除き94万6056件に上る。"
+      "published": "2026-08-18T04:01:18",
+      "excerpt": "国民生活センターは8月17日、「令和8年熊本地震」に便乗し、SNSのダイレクトメッセージ（DM）からコード決済による詐欺に誘導する手口について注意を呼び掛けた。「〇〇Payで返金します」と言われたら詐欺を疑うよう求めている。"
     },
     {
-      "title": "MCPの仕組みと役割を理解する - 『MCP Deep Dive』社内講習会を実施 | Taste of Tech Topics",
-      "link": "https://acro-engineer.hatenablog.com/entry/2026/08/18/120000",
+      "title": "Swift、7月に発表したアップデートをまとめて紹介",
+      "link": "https://codezine.jp/article/detail/29333",
+      "source": "CodeZine",
+      "published": "2026-08-18T04:00:00",
+      "excerpt": "Swift、7月に発表したアップデートをまとめて紹介"
+    },
+    {
+      "title": "Weekly Azure アップデート情報 - 2026/08/05 | ソフトバンク テックブログ（公式）のフィード",
+      "link": "https://zenn.dev/softbank/articles/5d35ca9c26f376",
       "source": "企業テックブログまとめ",
-      "published": "2026-08-18T03:00:00",
-      "excerpt": "こんにちは。YAMALEXのSsk1029Takashiです。…"
-    },
-    {
-      "title": "カリフォルニア州の新しいタイヤ効率規則により、ドライバーは年間 10 億ドルを節約できる可能性がある",
-      "link": "https://grist.org/transportation/californias-new-tire-efficiency-rules-could-save-drivers-1b-a-year/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-18T02:58:42",
-      "excerpt": "記事の URL: https://grist.…"
+      "published": "2026-08-18T03:54:33",
+      "excerpt": "Weekly Azure アップデート情報 - 2026/08/05 ～[プレビュー] Azure API Management の AI Gateway～皆さま、こんにちは。…"
     }
   ]
 }
