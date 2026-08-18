@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-18T21:43:54",
+  "generated_at": "2026-08-18T22:11:03",
   "window_hours": 24,
-  "total": 265,
+  "total": 262,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が42件。記事の URL: https://www.onethousandmeans.com/p/norway-Should-buy-openai コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が40件。記事の URL: https://www.onethousandmeans.com/p/norway-Should-buy-openai コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
           "title": "ノルウェーはOpenAIを買収すべきだ",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。ビジネスSNS「Wantedly」を提供するウォンテッドリーは、コンテナやKubernetes、マイクロサービスなど新しい技術を早くから取り入れ、サービス開発のスピードを高めてきた。…",
+      "summary": "クラウドの新着が15件。Oracle Database@AWS への移行では、ワークロードが SQL*Net レイテンシーの増加に敏感かどうかの見極めが重要です。…",
       "articles": [
+        {
+          "title": "Oracle Database@AWS 移行に向けてアプリケーションの SQL*Net レイテンシーを把握する",
+          "link": "https://aws.amazon.com/jp/blogs/news/characterizing-sqlnet-latency-in-your-application-for-oracle-databaseaws-migrations/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-18T21:54:07",
+          "excerpt": "Oracle Database@AWS への移行では、ワークロードが SQL*Net レイテンシーの増加に敏感かどうかの見極めが重要です。…"
+        },
         {
           "title": "Wantedlyのインフラチームは「挑戦を続けるための」開発・運用基盤をどう築いてきた？",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/19/news016.html",
@@ -59,25 +66,18 @@
           "excerpt": "Apache Airflow 用の Amazon マネージド ワークフロー (Amazon MWAA) サーバーレスは、PythonOperator と BashOperator を使用して、サーバーレス ランタイムでのカスタム Pytho…"
         },
         {
-          "title": "コードからDockerfile不要でOCIコンテナをビルド。「Cloud Native Buildpacks」が十分成熟したとしてCNCFの卒業プロジェクトに",
-          "link": "https://www.publickey1.jp/blog/26/dockerfileocicloud_native_buildpackscncf.html",
-          "source": "Publickey",
-          "published": "2026-08-18T16:03:06",
-          "excerpt": "Cloud Native Computing Foundation（CNCF）は、アプリケーションのソースコードから直接OCIコンテナメージを構築するツールである「Cloud Native Buildpacks」が十分成熟したとして、卒業プ…"
-        },
-        {
-          "title": "PostgreSQL 19 Beta 3 が Amazon RDS データベース プレビュー環境で利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/postgresql-19-beta-3-amazon-rds-database-preview-environment/",
+          "title": "Amazon EC2 R8i インスタンスがイスラエル (テルアビブ) リージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-israel-tel-aviv/",
           "source": "AWS What's New（英語）",
-          "published": "2026-08-18T16:00:00",
-          "excerpt": "本日より、 Amazon RDS for PostgreSQL 19 ベータ 3 が Amazon RDS データベース プレビュー環境 。…"
+          "published": "2026-08-18T17:24:00",
+          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) R8i インスタンスがイスラエル (テルアビブ) リージョンで利用可能になります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。IAM ポリシー オートパイロットは、Terraform プラン ファイルから直接ベースライン IAM ポリシーを生成できるようになりました。…",
+      "summary": "セキュリティの新着が12件。IAM ポリシー オートパイロットは、Terraform プラン ファイルから直接ベースライン IAM ポリシーを生成できるようになりました。…",
       "articles": [
         {
           "title": "IAM ポリシー オートパイロットが Terraform プラン ファイルをサポートするようになりました",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。IAM ポリシー オートパイロットは、Terraform プラン ファイルから直接ベースライン IAM ポリシーを生成できるようになりました。…",
+      "summary": "開発ツールの新着が9件。IAM ポリシー オートパイロットは、Terraform プラン ファイルから直接ベースライン IAM ポリシーを生成できるようになりました。…",
       "articles": [
         {
           "title": "IAM ポリシー オートパイロットが Terraform プラン ファイルをサポートするようになりました",
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "[アップデート] Amazon Quick のカスタムアクセス許可管理が刷新されてプロファイル割り当てまでコンソールで完結するようになっていた",
+      "link": "https://dev.classmethod.jp/articles/quick-new-custom-permission-console/",
+      "source": "DevelopersIO",
+      "published": "2026-08-18T21:49:03",
+      "excerpt": "Amazon Quickのカスタムアクセス許可管理画面が刷新されました。以前はCLIが必要だったプロファイルの割り当てがコンソール上で完結するようになり、スコープ別の優先順位も可視化されています。今回の更新内容を詳しく紹介します。"
+    },
+    {
+      "title": "フロックはホテルの予約をキャンセルするためにジャーナリストになりすました",
+      "link": "https://xcancel.com/bennjordan/status/2089430236945342508",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-18T21:48:12",
+      "excerpt": "記事の URL: https://xcancel.com/bennjordan/status/2089430236945342508 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
       "title": "macOS に HP Laser 1008a へのネイティブ印刷を教えるクロード コード",
       "link": "https://cdn.kuber.studio/chat/hp-laser-1008a-driver",
       "source": "Hacker News（英語）",
@@ -189,25 +203,11 @@
       "excerpt": "記事の URL: https://cdn.kuber.studio/chat/hp-laser-1008a-driver コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Kiro Crew の Slack 連携を試してみた",
-      "link": "https://qiita.com/s_moriyama/items/bd3cd57f2b69f5dccec1",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-18T20:36:30",
-      "excerpt": "はじめに Kiro、使ってますか？2025 年 7 月に AI IDE としてローンチされた Kiro ですが、先月1歳になり、ここ最近急成長しています！…"
-    },
-    {
-      "title": "取締役会の議席を巡るアンドリーセン・ホロヴィッツに対する司法省の捜査がベンチャーキャピタルを困惑させる",
-      "link": "https://techcrunch.com/2026/08/18/dojs-probe-into-andreessen-horowitz-over-board-seats-baffles-vcs/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-18T20:36:20",
-      "excerpt": "ポートフォリオ企業はしばしばピボットして競合市場に拡大するため、投資家は、大手VC企業にとって時折生じる利益相反は避けられないとみなしている。"
-    },
-    {
-      "title": "期限切れのクレジットカードが研究者によって復活し、不正な支払いが可能に",
-      "link": "https://www.theregister.com/security/2026/08/18/expired-credit-cards-revived-by-researchers-to-make-unauthorized-payments/5289229",
-      "source": "The Register（英語）",
-      "published": "2026-08-18T20:20:28",
-      "excerpt": "有効期限チェックにギャップがあると、死んだプラスチックが再び購入される可能性があります"
+      "title": "企業は無能な従業員を経営陣に昇進させて、彼らが及ぼす損害を最小限に抑える",
+      "link": "https://lawsofsoftwareengineering.com/laws/dilbert-principle/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-18T21:13:30",
+      "excerpt": "記事の URL: https://lawsofsoftwareengineering.com/laws/dilbert-principle/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
