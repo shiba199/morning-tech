@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-18T18:19:55",
+  "generated_at": "2026-08-18T19:04:26",
   "window_hours": 24,
-  "total": 266,
+  "total": 263,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が40件。新しい安全対策には、開発プロセス中のモデルのより詳細な監視や、トレーニング後のプロセス中の調整とセキュリティの強化が含まれます。",
+      "summary": "生成AIの新着が39件。新しい安全対策には、開発プロセス中のモデルのより詳細な監視や、トレーニング後のプロセス中の調整とセキュリティの強化が含まれます。",
       "articles": [
         {
           "title": "OpenAI、Hugging Face 侵害を受けて新たな保護措置を導入",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。Cloud Native Computing Foundation（CNCF）は、アプリケーションのソースコードから直接OCIコンテナメージを構築するツールである「Cloud Native Buildpacks」が十分成熟したとして、卒業プ…",
+      "summary": "クラウドの新着が12件。Apache Airflow 用の Amazon マネージド ワークフロー (Amazon MWAA) サーバーレスは、PythonOperator と BashOperator を使用して、サーバーレス ランタイムでのカスタム Pytho…",
       "articles": [
+        {
+          "title": "Amazon MWAA サーバーレスが PythonOperator と BashOperator をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-18T18:00:00",
+          "excerpt": "Apache Airflow 用の Amazon マネージド ワークフロー (Amazon MWAA) サーバーレスは、PythonOperator と BashOperator を使用して、サーバーレス ランタイムでのカスタム Pytho…"
+        },
         {
           "title": "コードからDockerfile不要でOCIコンテナをビルド。「Cloud Native Buildpacks」が十分成熟したとしてCNCFの卒業プロジェクトに",
           "link": "https://www.publickey1.jp/blog/26/dockerfileocicloud_native_buildpackscncf.html",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-18T12:14:10",
           "excerpt": "はじめに 前回の記事では、TerraformでRDS(PostgreSQL)モジュールを構築する際の基本的な設計判断を、構築順に沿って解説しました。…"
-        },
-        {
-          "title": "【2026年版】UdemyとInfraDojoを比較｜未経験からインフラエンジニアを目指す人におすすめの学習方法",
-          "link": "https://qiita.com/reo_infraengineer/items/b1c7f47f72c638a27bdf",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-18T11:17:33",
-          "excerpt": "【2026年版】UdemyとInfraDojoを比較｜未経験からインフラエンジニアを目指す人におすすめの学習方法 未経験からインフラエンジニアを目指すとき、 「Udemyで勉強すればいい？」 「Linuxを実際に触れる学習サイトはある？…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。これは、今年ソーシャル ネットワーキング サイトを襲った最新の大規模 DDoS 攻撃です。",
+      "summary": "セキュリティの新着が15件。IAM ポリシー オートパイロットは、Terraform プラン ファイルから直接ベースライン IAM ポリシーを生成できるようになりました。…",
       "articles": [
+        {
+          "title": "IAM ポリシー オートパイロットが Terraform プラン ファイルをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-policy-autopilot-now-supports-terraform-plan-files",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-18T17:19:00",
+          "excerpt": "IAM ポリシー オートパイロットは、Terraform プラン ファイルから直接ベースライン IAM ポリシーを生成できるようになりました。…"
+        },
         {
           "title": "Blueskyは、最近のサービス停止は別のDDoS攻撃が原因であると述べた",
           "link": "https://techcrunch.com/2026/08/18/bluesky-says-its-recent-outage-was-caused-by-another-ddos-attack/",
@@ -99,20 +106,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-18T12:14:10",
           "excerpt": "はじめに 前回の記事では、TerraformでRDS(PostgreSQL)モジュールを構築する際の基本的な設計判断を、構築順に沿って解説しました。…"
-        },
-        {
-          "title": "AWS WAFを使ってアプリ閉塞（メンテナンスモード）を実現する",
-          "link": "https://qiita.com/eddylee/items/fd461df04a535b06f64b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-18T07:29:21",
-          "excerpt": "はじめに 本番リリース時、 一般利用者からのアクセスを停止したい リリース担当者のみアクセスしたい メンテナンス画面を表示したい といった要件はよくあります。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。本記事は、Datadogのハイブリッドセミナーで学んだ内容のまとめと、それに関連して自身で調べた機能について記載したレポートです。はじめに Datadogとは？…",
+      "summary": "データ分析の新着が5件。本記事は、Datadogのハイブリッドセミナーで学んだ内容のまとめと、それに関連して自身で調べた機能について記載したレポートです。はじめに Datadogとは？…",
       "articles": [
         {
           "title": "【初心者向け】Datadogとは？Bits AI入門と2社の利用事例 | APC 技術ブログ",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。こんにちは、HN!私は machine0 ( https://machine0.io ) の創設者、Barnaby です。私は長期的なエージェント コンピューティング用の CLI を構築しています。…",
+      "summary": "開発ツールの新着が10件。IAM ポリシー オートパイロットは、Terraform プラン ファイルから直接ベースライン IAM ポリシーを生成できるようになりました。…",
       "articles": [
+        {
+          "title": "IAM ポリシー オートパイロットが Terraform プラン ファイルをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-policy-autopilot-now-supports-terraform-plan-files",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-18T17:19:00",
+          "excerpt": "IAM ポリシー オートパイロットは、Terraform プラン ファイルから直接ベースライン IAM ポリシーを生成できるようになりました。…"
+        },
         {
           "title": "HN: machine0 (YC S26) の起動 – CLI からの永続的な CPU および GPU VM",
           "link": "https://machine0.io",
@@ -169,18 +176,25 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-18T14:12:07",
           "excerpt": "はじめに CloudFormationで「Auto Scalingグループ」を作っていると、設定を変えたときに裏でサーバーがどう入れ替わるかまで気にすることは少ないかもしれません。…"
-        },
-        {
-          "title": "第5回 Terraform講座 NAT Gateway",
-          "link": "https://qiita.com/nyarusasu22/items/8576d2b4b1e7dba138d5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-18T12:56:25",
-          "excerpt": "今回は、AWS SAPでも超頻出だったNAT GatewayをTerraformで構築していく。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "IKEAはどのようにして商品の名前を決めているのでしょうか？",
+      "link": "https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-18T18:11:53",
+      "excerpt": "記事の URL: https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.…"
+    },
+    {
+      "title": "Turbovec – Rust でのベクトル検索のための Google の TurboQuant",
+      "link": "https://github.com/RyanCodrai/turbovec",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-18T18:07:21",
+      "excerpt": "記事の URL: https://github.com/RyanCodrai/turbovec コメント URL: https://news.ycombinator.com/item?…"
+    },
     {
       "title": "AWS サインイン画面の新しいエクスペリエンスを試してみた",
       "link": "https://dev.classmethod.jp/articles/aws-signin-new-experience-builder-id/",
@@ -194,20 +208,6 @@
       "source": "TechCrunch（英語）",
       "published": "2026-08-18T17:31:01",
       "excerpt": "Disrupt を周回している場合は、パスをロックして、10 月 13 日から 15 日までサンフランシスコのモスコーン ウェストで開催される残りのスタートアップ コミュニティに参加する準備を始めるのに最適な時期です。"
-    },
-    {
-      "title": "HN を表示: Electron アプリ用の macOS データ保護キーチェーン",
-      "link": "https://github.com/biw/keychain-store",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-18T17:25:19",
-      "excerpt": "HN さん、 私は Hansel [1] (エージェントでクエリできる暗号化された個人データ ストア) に取り組んできましたが、最新の macOS データ保護キーチェーンを使用する良い方法がありませんでした。…"
-    },
-    {
-      "title": "フェニックスではデータセンターにより近隣の気温が最大4度上昇",
-      "link": "https://asmedigitalcollection.asme.org/sustainablebuildings/article/7/2/024501/1233035/Data-Center-Waste-Heat-as-an-Emerging-Urban",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-18T17:24:53",
-      "excerpt": "記事の URL: https://asmedigitalcollection.asme.…"
     }
   ]
 }
