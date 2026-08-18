@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-18T06:22:22",
+  "generated_at": "2026-08-18T07:11:43",
   "window_hours": 24,
-  "total": 272,
+  "total": 274,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が42件。Amazon Bedrock の bedrock-runtime エンドポイントで OpenAI GPT-5.6 が使えるようになりました。…",
+      "summary": "生成AIの新着が41件。Amazon Bedrock の bedrock-runtime エンドポイントで OpenAI GPT-5.6 が使えるようになりました。…",
       "articles": [
         {
           "title": "bedrock-runtime で OpenAI GPT-5.6 が使えるようになったので試してみた",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。AWS Backup で EC2 インスタンスをバックアップする際、特定の EBS ボリュームを除外できますか？EC2 単位のバックアップでは除外不可ですが、EBS ボリューム単位に変更することで対応可能です。…",
+      "summary": "クラウドの新着が13件。AWS Backup で EC2 インスタンスをバックアップする際、特定の EBS ボリュームを除外できますか？EC2 単位のバックアップでは除外不可ですが、EBS ボリューム単位に変更することで対応可能です。…",
       "articles": [
         {
           "title": "AWS BackupでEC2をバックアップするときに特定のボリュームを除外することは可能ですか？",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。漏えいした情報は、氏名・住所・電話番号・メールアドレス・生年月日・性別の基本情報に加え、購入日時や商品名などの購買履歴、決済金額記録、サービス加入状況、応援対象タレントの選択情報。",
+      "summary": "データ分析の新着が5件。漏えいした情報は、氏名・住所・電話番号・メールアドレス・生年月日・性別の基本情報に加え、購入日時や商品名などの購買履歴、決済金額記録、サービス加入状況、応援対象タレントの選択情報。",
       "articles": [
         {
           "title": "2.5次元アイドル「いれいす」事務所のBIツールに不正アクセス　ファンの氏名・電話番号や“推し”情報漏えい",
@@ -120,6 +120,13 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-18T05:19:55",
           "excerpt": "漏えいした情報は、氏名・住所・電話番号・メールアドレス・生年月日・性別の基本情報に加え、購入日時や商品名などの購買履歴、決済金額記録、サービス加入状況、応援対象タレントの選択情報。"
+        },
+        {
+          "title": "「切れた」と「断られた」を混同すると、レート制限は永遠に開かない ― DynamoDBカウンタとWebSocket再接続の共鳴",
+          "link": "https://zenn.dev/halhalhal1/articles/ratelimit-livelock-resonance",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-18T04:02:26",
+          "excerpt": "登録不要で誰でも触れる音声通話デモを常設公開するにあたり、OpenAI課金の暴発を防ぐレート制限を入れた。IPごとに一時キー発行を毎時10回まで、超えたら429。どこにでもある設計だ。…"
         },
         {
           "title": "【Security Hub修復手順】[Redshift.15] Redshift セキュリティグループは、制限されたオリジンからのみクラスターポートへの入力を許可する必要があります",
@@ -134,13 +141,6 @@
           "source": "Ars Technica（英語）",
           "published": "2026-08-17T18:43:51",
           "excerpt": "Petlibro によると、給餌業者は計画された給餌をオフラインで実行します。ユーザーはそうでないと報告します。"
-        },
-        {
-          "title": "Amazon OpenSearch Service が VPC ドメインの自動セマンティックエンリッチメントをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-vpc/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-17T15:39:00",
-          "excerpt": "Amazon OpenSearch Service は、自動セマンティック エンリッチメントを VPC 対応ドメインに拡張し、プライベート ネットワーク構成を持つ顧客がドメインを公共のインターネットに公開することなく AI を活用したセマン…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "一部テレビで「BSテレ東」など映らなかった問題、NHKが謝罪　信号データに古いチャンネル情報混入",
-      "link": "https://www.itmedia.co.jp/news/article/2608/18/2000000591/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-18T05:53:54",
-      "excerpt": "Sデジタルでは、他局も含めたチャンネル情報の信号データを放送波で送っている。その中に古いチャンネル情報が含まれていたため、一部機種の受信機で、対象のBSチャンネルが正常に選局できなくなったという。"
+      "title": "なぜAIだけでは\"熟練の勘\"を継げないのか──身体知はセンサーで、脳内知は問いで獲る",
+      "link": "https://dev.classmethod.jp/articles/why-ai-alone-cannot-inherit-senses/",
+      "source": "DevelopersIO",
+      "published": "2026-08-18T07:05:11",
+      "excerpt": "ベテランの判断には、温度・匂い・音・感触といった「感覚」が混ざっている。AIは言語を受け取る装置なので、感覚そのものは真似できない。身体知を残すにはセンサーやログが要り、脳内知は実ケースで発火させて聞くしかない。…"
     },
     {
-      "title": "Google Meet、対面会議向け自動議事録機能「Take Notes for me」提供開始",
-      "link": "https://codezine.jp/article/detail/29334",
-      "source": "CodeZine",
-      "published": "2026-08-18T05:30:00",
-      "excerpt": "Google Meet、対面会議向け自動議事録機能「Take Notes for me」提供開始"
+      "title": "[アップデート] AWS CloudShell が組み込みのビジュアルファイルエディタをサポートしたので試してみた",
+      "link": "https://dev.classmethod.jp/articles/20260818-aws-cloudshell-visual-file-editor/",
+      "source": "DevelopersIO",
+      "published": "2026-08-18T06:56:02",
+      "excerpt": "AWS CloudShellに追加されたビジュアルファイルエディタを実際に試してみました。`edit`コマンド一つでブラウザ上のGUIエディタが起動し、シンタックスハイライトや検索・置換に対応しています。…"
     },
     {
-      "title": "新顔相次ぐ小型電動モビリティー　優れた環境性能、免許返納した高齢者の「次の足」に注目",
-      "link": "https://www.itmedia.co.jp/news/article/2608/18/2000000590/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-18T05:29:55",
-      "excerpt": "優れた環境性能や利便性、低コストに加え、免許返納者の「次の足」といった特徴を打ち出す「小型電動モビリティー」の新商品が相次ぎ登場している。「クルマほど大きすぎず、バイクより安全」な、都市の移動手段として注目される。"
+      "title": "[アップデート] Amazon Quickのアセット共有に「承認ポリシー」が追加されたので試してみた",
+      "link": "https://dev.classmethod.jp/articles/amazon-quick-approval-policies-for-sharing/",
+      "source": "DevelopersIO",
+      "published": "2026-08-18T06:49:01",
+      "excerpt": "Amazon Quickの新機能「共有に対する承認ポリシー」を実際に試してみました。組織内でアセットを共有する際に、承認者のチェックを必須にできるこのアップデートについて、セットアップから承認ワークフローの実行まで一連の流れをご紹介します。"
     },
     {
-      "title": "Microsoft MVP は、Redmond が置き換えたすべてのブランドを思い出させるサイトを作成します",
-      "link": "https://www.theregister.com/software/2026/08/18/microsoft-mvp-creates-site-to-remind-you-of-all-the-brands-redmond-replaced/5288937",
-      "source": "The Register（英語）",
-      "published": "2026-08-18T05:20:18",
-      "excerpt": "まだ「Entra」ではなく「DirSync」または「Active Directory」について話していて、その理由を説明する必要がある場合は、このサイトが最適です。"
+      "title": "【AWS CloudShell】ビジュアルファイルエディタ `edit` 機能が追加されました！",
+      "link": "https://dev.classmethod.jp/articles/aws-cloudshell-visual-file-editor/",
+      "source": "DevelopersIO",
+      "published": "2026-08-18T06:43:55",
+      "excerpt": "AWS CloudShell に新しく追加されたビジュアルファイルエディタ機能についてご紹介します。`edit`コマンド一つで起動でき、構文ハイライトや検索置換などのGUI機能が使えます。"
     }
   ]
 }
