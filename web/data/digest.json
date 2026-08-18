@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T23:11:50",
+  "generated_at": "2026-08-18T23:43:08",
   "window_hours": 24,
-  "total": 277,
+  "total": 280,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。Oracle Database@AWS への移行では、ワークロードが SQL*Net レイテンシーの増加に敏感かどうかの見極めが重要です。…",
+      "summary": "クラウドの新着が17件。対象読者: AWSをこれから触る人。AWS勉強シリーズの6本目で、今回はVPCです。全体の地図は索引記事にあります。EC2を立てたのに、こういう症状で止まった人向けに書きます。…",
       "articles": [
+        {
+          "title": "【図解】AWS VPCとは。5つの部品と、外から繋がらない原因を全部まとめた",
+          "link": "https://qiita.com/daisuke-nagata/items/beae13c9563f9fc6f7fb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-18T23:18:19",
+          "excerpt": "対象読者: AWSをこれから触る人。AWS勉強シリーズの6本目で、今回はVPCです。全体の地図は索引記事にあります。EC2を立てたのに、こういう症状で止まった人向けに書きます。…"
+        },
+        {
+          "title": "Route 53 で取得したドメインで Gmail を運用する",
+          "link": "https://qiita.com/ry-harada/items/5f5080f0751fb412b2bc",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-18T23:18:17",
+          "excerpt": "はじめに 長年使ってきたメールクライアントを Gmail に移行しました。…"
+        },
         {
           "title": "Oracle Database@AWS 移行に向けてアプリケーションの SQL*Net レイテンシーを把握する",
           "link": "https://aws.amazon.com/jp/blogs/news/characterizing-sqlnet-latency-in-your-application-for-oracle-databaseaws-migrations/",
@@ -57,20 +71,6 @@
           "source": "@IT",
           "published": "2026-08-18T20:00:00",
           "excerpt": "ビジネスSNS「Wantedly」を提供するウォンテッドリーは、コンテナやKubernetes、マイクロサービスなど新しい技術を早くから取り入れ、サービス開発のスピードを高めてきた。…"
-        },
-        {
-          "title": "Amazon MWAA サーバーレスが PythonOperator と BashOperator をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-18T18:00:00",
-          "excerpt": "Apache Airflow 用の Amazon マネージド ワークフロー (Amazon MWAA) サーバーレスは、PythonOperator と BashOperator を使用して、サーバーレス ランタイムでのカスタム Pytho…"
-        },
-        {
-          "title": "Amazon EC2 R8i インスタンスがイスラエル (テルアビブ) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-israel-tel-aviv/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-18T17:24:00",
-          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) R8i インスタンスがイスラエル (テルアビブ) リージョンで利用可能になります。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。AI コード エディターで知られる Cursor は、開発者に長年好まれてきた GitHub に匹敵する新しいコード ホスティング プラットフォームを立ち上げています。",
+      "summary": "開発ツールの新着が11件。GitHub Copilot、8月10日週に発表したアップデートをまとめて紹介",
       "articles": [
+        {
+          "title": "GitHub Copilot、8月10日週に発表したアップデートをまとめて紹介",
+          "link": "https://codezine.jp/article/detail/29345",
+          "source": "CodeZine",
+          "published": "2026-08-18T23:00:00",
+          "excerpt": "GitHub Copilot、8月10日週に発表したアップデートをまとめて紹介"
+        },
         {
           "title": "Cursor が GitHub の不満を利用し、ライバルのホスティング プラットフォームを立ち上げる",
           "link": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
@@ -169,18 +176,18 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-18T16:26:42",
           "excerpt": "こんにちは、HN!私は machine0 ( https://machine0.io ) の創設者、Barnaby です。私は長期的なエージェント コンピューティング用の CLI を構築しています。…"
-        },
-        {
-          "title": "AIエージェント時代のGitホスティングサービス「Origin」、Cursorが発表。Cursorとの統合、コマンドラインでの操作、GitHubとの同期など提供",
-          "link": "https://www.publickey1.jp/blog/26/aigitorigincursorcursorgithub.html",
-          "source": "Publickey",
-          "published": "2026-08-18T15:43:29",
-          "excerpt": "AIコードエディタのCursorなどを提供するAnysphereは、Gitに対応したコードホスティングサービス「Origin」を発表しました。Origin, our code hosting platform, is now live.I.…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "「AIに原始人っぽく話すとトークン65％削減」は本当か？　JetBrainsが検証してみた",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/19/news042.html",
+      "source": "@IT",
+      "published": "2026-08-18T23:00:00",
+      "excerpt": "JetBrainsは、AIエージェントの応答を圧縮するスキル「Caveman」の効果を検証したした結果を公式ブログで公開した。…"
+    },
     {
       "title": "人間に向けて文書を書こう | 弁護士ドットコム株式会社 Creators’ blog",
       "link": "https://creators.bengo4.com/entry/2026/08/19/080000",
@@ -201,13 +208,6 @@
       "source": "企業テックブログまとめ",
       "published": "2026-08-18T23:00:00",
       "excerpt": "皆さん、こんにちは！SHIFT 採用組織でHRBP統括部 統括部長を務める古澤 美月です。続きをみる"
-    },
-    {
-      "title": "「妨害行為」：医療研究を破壊したとして専門家や議員らがRFKジュニアを非難",
-      "link": "https://arstechnica.com/health/2026/08/sabotage-experts-lawmakers-blast-rfk-jr-for-destroying-healthcare-research/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-08-18T22:32:46",
-      "excerpt": "米国の医療は崩壊している。RFK Jr.の下で、研究機関も問題の修正に取り組んでいます。…"
     }
   ]
 }
