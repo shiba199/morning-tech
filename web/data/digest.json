@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-18T10:16:14",
+  "generated_at": "2026-08-18T10:52:05",
   "window_hours": 24,
-  "total": 269,
+  "total": 267,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が42件。NVIDIA が公開したエージェント構築フレームワーク「NOOA」をDGX Sparkのローカル LLM で動かし、公開されている capability test を追試してみました。…",
+      "summary": "生成AIの新着が42件。Claude Codeのプラグインが「already at the latest version」と表示されるのに変更が反映されない原因と、versionを省略してコミットSHAで更新判定させる方法を紹介します",
       "articles": [
+        {
+          "title": "Claude Codeプラグインを更新して「already at the latest version」と表示されているのに古いままだった原因",
+          "link": "https://dev.classmethod.jp/articles/claude-code-plugin-update-not-applied/",
+          "source": "DevelopersIO",
+          "published": "2026-08-18T10:30:12",
+          "excerpt": "Claude Codeのプラグインが「already at the latest version」と表示されるのに変更が反映されない原因と、versionを省略してコミットSHAで更新判定させる方法を紹介します"
+        },
         {
           "title": "NVIDIA の新エージェントフレームワーク NOOA を DGX Spark のローカル LLM で試してみた",
           "link": "https://dev.classmethod.jp/articles/nvidia-nooa-local-llm-capability/",
@@ -29,21 +36,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-18T09:00:00",
           "excerpt": "はじめに こんにちは、データ戦略室の丸山です。昨今、Claude Codeの使い方に関するナレッジや記事が至るところで共有されていると思います。…"
-        },
-        {
-          "title": "Claude Cowork のハンズオン環境をAWS上に構築してみた",
-          "link": "https://dev.classmethod.jp/articles/claudecowork-build-handson-environment/",
-          "source": "DevelopersIO",
-          "published": "2026-08-18T08:08:44",
-          "excerpt": "# 導入文 Claude Cowork のハンズオン環境構築に挑みました。デスクトップアプリを100名規模でブラウザから安全に配り、受講者ごとに予算管理する必要があり、前回の Claude Code の資産がほぼ使えず一から組むことに。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。Copilot Studioエージェントの所有者が退職、異動する場合、エージェントの管理を継続するために、別のユーザーへの所有者移行が必要となることがあります。…",
+      "summary": "クラウドの新着が14件。SnowflakeのOpenflow Connector for PostgreSQLを使って、RDS for PostgreSQLからSnowflakeへCDCデータ転送を試してみました。…",
       "articles": [
+        {
+          "title": "Snowflake Openflow Connector for PostgreSQL を SPCS で動かし、RDS for PostgreSQLに接続してみた",
+          "link": "https://dev.classmethod.jp/articles/tried-running-snowflake-openflow-connector-for-postgresql-on-spcs-and-connected-to-rds/",
+          "source": "DevelopersIO",
+          "published": "2026-08-18T10:11:47",
+          "excerpt": "SnowflakeのOpenflow Connector for PostgreSQLを使って、RDS for PostgreSQLからSnowflakeへCDCデータ転送を試してみました。…"
+        },
         {
           "title": "【Copilot Studio】エージェントの所有者を別ユーザーへ移行する方法と関連コンポーネントの確認ポイント | JBS Tech Blog",
           "link": "https://blog.jbs.co.jp/entry/2026/08/18/150204",
@@ -64,13 +71,6 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-18T01:11:48",
           "excerpt": "AWS Certificate Manager (ACM) は、CA/B フォーラムによる業界全体での E メールベースのドメイン検証の廃止に合わせ、2027 年 9 月 30 日までに E メール検証済みパブリック証明書のサポートを終了し…"
-        },
-        {
-          "title": "Amazon EC2、アプリケーションステータスチェック機能を追加",
-          "link": "https://codezine.jp/article/detail/29331",
-          "source": "CodeZine",
-          "published": "2026-08-18T01:00:00",
-          "excerpt": "Amazon EC2、アプリケーションステータスチェック機能を追加"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "スポンサーが KDE Plasma 6.6 に LTS 処理を与える",
+      "link": "https://www.theregister.com/software/2026/08/18/sponsor-gives-kde-plasma-66-the-lts-treatment/5288531",
+      "source": "The Register（英語）",
+      "published": "2026-08-18T10:34:00",
+      "excerpt": "Kubuntu 26.04 には、デスクトップ、フレームワーク、アプリに対する 3 年間の修正が含まれています"
+    },
+    {
+      "title": "Einride が保有車両に 500 Tesla Semis を追加する契約を締結",
+      "link": "https://techcrunch.com/2026/08/18/einride-strikes-deal-to-add-500-tesla-semis-to-its-fleet/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-18T10:30:00",
+      "excerpt": "アインライドはテスラセミを買収し、アマゾンや他の顧客向けに生産される予定だ。"
+    },
+    {
+      "title": "LINE Creditに業務改善命令、システム不備で貸金業法違反　一部顧客に過剰貸付けも　東京都",
+      "link": "https://www.itmedia.co.jp/news/article/2608/18/2000000603/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-18T10:14:09",
+      "excerpt": "LINE Creditは8月18日、個人向けローンサービス「LINEポケットマネー」を巡り、東京都から業務改善命令の行政処分を受けたと発表した。…"
+    },
+    {
       "title": "オートスケーリング「光と闇」：スパイクアクセスを制する最適閾値設定の極意",
       "link": "https://qiita.com/Maku-Inc/items/e6790a69b73bc1d9d6d4",
       "source": "Qiita AWSタグ",
       "published": "2026-08-18T10:04:37",
       "excerpt": "オートスケーリング「光と闇」：スパイクアクセスを制する最適閾値設定の極意 皆さん、こんにちは！システムの安定稼働とコスト削減は、私たちエンジニアにとって永遠のテーマですよね。その両立を可能にする強力な味方が「オートスケーリング」です。…"
-    },
-    {
-      "title": "デトロイトのスタートアップ、グラウンデッドが電気式とガソリン式のバンをカスタマイズするために500万ドルを調達",
-      "link": "https://techcrunch.com/2026/08/18/detroit-startup-grounded-raises-5m-to-customize-electric-and-gas-powered-vans/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-18T10:00:00",
-      "excerpt": "米国のEV情勢が劇的に変化する中、同社はバンライフの製造から中小企業向けのカスタム艤装車の製造に移行した。"
-    },
-    {
-      "title": "英国は飛行機雲を減らすための飛行経路にGoogle AIを導入",
-      "link": "https://www.theregister.com/public-sector/2026/08/18/uk-puts-google-ai-on-the-flight-path-to-fewer-contrails/5288516",
-      "source": "The Register（英語）",
-      "published": "2026-08-18T09:45:00",
-      "excerpt": "試験では、航路と高度の小さな調整で航空の温暖化影響を軽減できるかどうかをテストする"
-    },
-    {
-      "title": "npm代替を目指すパッケージマネージャvltを触ってみた",
-      "link": "https://dev.classmethod.jp/articles/vlt-replacing-npm-js-package-manager/",
-      "source": "DevelopersIO",
-      "published": "2026-08-18T09:30:13",
-      "excerpt": "npm互換で高速なパッケージマネージャ「vlt」がv1.0をリリースしたので、実際に使ってみました。セットアップからプロジェクト作成、そして詳しく計測したインストール速度まで、vltの実力を検証します。"
     }
   ]
 }
