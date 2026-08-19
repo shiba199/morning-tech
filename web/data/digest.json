@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-19T07:12:42",
+  "generated_at": "2026-08-19T07:59:06",
   "window_hours": 24,
-  "total": 272,
+  "total": 271,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が47件。はじめに AIエージェントのデモを作るところまでは、以前よりずっと簡単になりました。例えば、返金エージェントが丁寧で正しい文章を返しても、タイムアウト後の再試行で二重返金すれば、本番システムとしては失敗です。…",
+      "summary": "生成AIの新着が49件。社内向けの業務エージェントを作っていて、どうしても割り切れなかった問題がある。ツール呼び出しの1回1回はすべて権限的に正しいのに、並びが間違っているというケースだ。具体的にはこうだった。…",
       "articles": [
+        {
+          "title": "AWS の新ポリシー言語 Dogwood を読み解く ── AIエージェントの「ツール呼び出しの順番」を制御する",
+          "link": "https://qiita.com/softbase/items/0ce3285366c63d9423bf",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T07:57:57",
+          "excerpt": "社内向けの業務エージェントを作っていて、どうしても割り切れなかった問題がある。ツール呼び出しの1回1回はすべて権限的に正しいのに、並びが間違っているというケースだ。具体的にはこうだった。…"
+        },
+        {
+          "title": "Cloudflare Sandboxesが 一般提供を開始　AIエージェントに持続的で隔離された環境を提供",
+          "link": "https://www.infoq.com/jp/news/2026/08/cloudflare-sandboxes-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ（日本語）",
+          "published": "2026-08-19T07:30:00",
+          "excerpt": "Cloudflare社はAgents Weekの一環として、SandboxesおよびCloudflare Containersの一般提供を発表し、AIエージェントのワークロード向けに持続的で隔離されたLinux環境を提供すると明らかにした。…"
+        },
         {
           "title": "AIエージェントのPoCが本番に進まない理由――モデルではなく「システム」を設計する4つの柱：【AWS Summit 2026 - セッションレポート】",
           "link": "https://qiita.com/Tatsuki_Kurogi/items/3fcb02de1173780d76a1",
@@ -22,20 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-19T05:56:57",
           "excerpt": "Claude Code v2.1.235のリリースでは、セキュリティ修正と足回りの改善が中心になりました。許可プロンプト周りの問題解決や、バックグラウンド実行時のリソース改善など、実用性に直結するアップデート内容を紹介します。…"
-        },
-        {
-          "title": "Amazon Bedrock が SpaceXAI Grok 4.6 をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-19T05:18:00",
-          "excerpt": "Amazon Bedrock は、長期実行エージェントや野心的なインタラクティブでビジュアルな作業向けに構築された SpaceXAI の最新のフラッグシップ モデルである SpaceXAI Grok 4.6 をサポートするようになりました。…"
-        },
-        {
-          "title": "コーディングエージェント主体に実装の進め方を変え始めている話 | LayerX エンジニアブログ",
-          "link": "https://tech.layerx.co.jp/entry/coding-agent-driven-development",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-19T04:35:51",
-          "excerpt": "こんにちは。LayerX Ai Workforce 事業部 FDE部 エンジニアの古濵（@furu）です。ここ数ヶ月で、実装の進め方を少しずつ変えています。以前はエディタのウィンドウを複数開き、それぞれで別のタスクを進めていました。…"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。加賀ソルネットは8月17日、ECサイト「アカデミコナビ」への不正アクセスに関する調査結果を公表した。16万5587人分の個人データの漏えいを確認したほか、停止中のサイトは10月末の再開を予定する。",
+      "summary": "セキュリティの新着が13件。2026年8月17日に公表した「当社レンタルサーバーサービスの一部環境に対する不正なアクセスについて」に関して、調査を継続しておりましたところ、新たに判明した事項がありますのでお知らせいたします。…",
       "articles": [
+        {
+          "title": "当社システムへの不正アクセスに関するお知らせ（第二報） | さくらインターネット",
+          "link": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/08/19/1968225633/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-08-19T06:43:19",
+          "excerpt": "2026年8月17日に公表した「当社レンタルサーバーサービスの一部環境に対する不正なアクセスについて」に関して、調査を継続しておりましたところ、新たに判明した事項がありますのでお知らせいたします。…"
+        },
         {
           "title": "氏名・住所など16万人分漏えい　学生向けPC販売サイト、不正アクセスの影響判明　明大・帝京など利用",
           "link": "https://www.itmedia.co.jp/news/article/2608/19/2000000625/",
@@ -99,20 +106,13 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-19T05:31:52",
           "excerpt": "AWS Security Hub Extended に 10 番目のカテゴリとしてサプライチェーンセキュリティが加わりました。…"
-        },
-        {
-          "title": "OpenAI はセキュリティを強化するため、一部のワークロードでオーバーヘッドが 20% 増加します",
-          "link": "https://www.theregister.com/ai-and-ml/2026/08/19/openais-overhead-will-rise-20-percent-for-some-workloads-as-it-hardens-security/5289303",
-          "source": "The Register（英語）",
-          "published": "2026-08-18T23:36:36",
-          "excerpt": "多段階の思考連鎖監視の拡張により、フロンティアモデルの作業コストが高くなる"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。株式会社セガが開発・運用する『ソニックランブル パーティ』のバックエンドに Amazon DynamoDB と Amazon ElastiCache Serverless for Valkey を採用した経緯・技術的な工夫・得られた効果を、…",
+      "summary": "データ分析の新着が3件。株式会社セガが開発・運用する『ソニックランブル パーティ』のバックエンドに Amazon DynamoDB と Amazon ElastiCache Serverless for Valkey を採用した経緯・技術的な工夫・得られた効果を、…",
       "articles": [
         {
           "title": "株式会社セガ、グローバル展開タイトル『ソニックランブル パーティ』を少人数チームで支える Amazon DynamoDB / Amazon ElastiCache Serverless for Valkey 活用事例",
@@ -134,21 +134,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-18T08:35:30",
           "excerpt": "本記事は、Datadogのハイブリッドセミナーで学んだ内容のまとめと、それに関連して自身で調べた機能について記載したレポートです。はじめに Datadogとは？…"
-        },
-        {
-          "title": "【開催報告】AWS Summit Japan 2026 レポート：SUMCO が挑む、Amazon Redshift × 生成 AI による半導体ウェーハ製造 DX",
-          "link": "https://aws.amazon.com/jp/blogs/news/sumco-redshift-generative-ai-semiconductor-wafer-dx/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-18T07:23:15",
-          "excerpt": "本記事は 2026 年 6 月 25 日から 26 日に幕張メッセで開催された AWS Summit Japan 2026 の開催報告です。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。はじめに 先日、Amazon EVSでEVS 9.1の初期セットアップ編を作成しました【No.1】【No.2】 No.1とNo.2のBlogでは、Amazon EVSを稼働させるためのAWS環境の整備から、i7i.…",
+      "summary": "開発ツールの新着が15件。GitHub、OAuthアプリ向けに短期間利用のトークンに対応",
       "articles": [
+        {
+          "title": "GitHub、OAuthアプリ向けに短期間利用のトークンに対応",
+          "link": "https://codezine.jp/article/detail/29349",
+          "source": "CodeZine",
+          "published": "2026-08-19T07:00:00",
+          "excerpt": "GitHub、OAuthアプリ向けに短期間利用のトークンに対応"
+        },
         {
           "title": "Amazon EVSでVCF 9.1（SELF_DEPLOYED）を構築してみた【2ホスト＋FSxN構成】【番外編】",
           "link": "https://qiita.com/damepanda_supra/items/fe0dd10a0232f93703be",
@@ -169,13 +169,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-19T04:35:51",
           "excerpt": "こんにちは。LayerX Ai Workforce 事業部 FDE部 エンジニアの古濵（@furu）です。ここ数ヶ月で、実装の進め方を少しずつ変えています。以前はエディタのウィンドウを複数開き、それぞれで別のタスクを進めていました。…"
-        },
-        {
-          "title": "Gaia-X Digital Clearing Houseは何ができるのか、どこが新しくなったのか | NTT DATA TECHのフィード",
-          "link": "https://zenn.dev/nttdata_tech/articles/fc43fedbed0004",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-19T03:00:05",
-          "excerpt": "初めに近年、「データスペース」が世界で話題になっています。IPAによれば、データスペースとは「国境や分野の壁を越えた新しい経済空間、社会活動の空間」と定義されています[1]。…"
         }
       ]
     }
