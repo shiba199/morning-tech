@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T14:58:55",
+  "generated_at": "2026-08-19T15:28:29",
   "window_hours": 24,
-  "total": 273,
+  "total": 277,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が50件。最新版のGrok Build CLIにAmazon Bedrock（bedrock-mantle）用のカスタムモデルを設定し、AWS認証情報から生成したBearer TokenでGrok 4.6を呼び出してみました。…",
+      "summary": "生成AIの新着が51件。最新版のGrok Build CLIにAmazon Bedrock（bedrock-mantle）用のカスタムモデルを設定し、AWS認証情報から生成したBearer TokenでGrok 4.6を呼び出してみました。…",
       "articles": [
         {
           "title": "Grok Build CLIでAmazon Bedrock上のGrok 4.6を試してみた",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。はじめに 前回までの記事で、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…",
+      "summary": "データ分析の新着が9件。はじめに DynamoDB に埋め込みベクトルを保存して、そのまま類似度検索までできるようになったようです。…",
       "articles": [
+        {
+          "title": "DynamoDB がベクトル検索に対応したので試してみた",
+          "link": "https://qiita.com/leomarokun/items/b2e138e16c33d97938cb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T15:03:46",
+          "excerpt": "はじめに DynamoDB に埋め込みベクトルを保存して、そのまま類似度検索までできるようになったようです。…"
+        },
         {
           "title": "AWS S3上のApache IcebergをAthena経由で可視化する【発展編】",
           "link": "https://qiita.com/naritomo08/items/48f6e29c32071a5a0b28",
@@ -122,25 +129,18 @@
           "excerpt": "はじめに 前回までの記事で、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…"
         },
         {
+          "title": "「シークレット管理ゼロ」Glue から Snowflake Managed Iceberg に直接書き込みしたらみんなが幸せになった話",
+          "link": "https://zenn.dev/kubokazu/articles/snowflake-iceberg-glue-write",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-19T13:57:23",
+          "excerpt": "どうも、趣味で SE をやっている久保です。現職またぎ、前職は AWS で Glue おじさんとしてやってきた経験から、今回のアップデートはめっちゃええやんと思ったので検証してみました。…"
+        },
+        {
           "title": "AWS S3上のApache IcebergをAthena向けに運用する【運用編】",
           "link": "https://qiita.com/naritomo08/items/f84d266b7f2f3a53d6e0",
           "source": "Qiita AWSタグ",
           "published": "2026-08-19T13:00:51",
           "excerpt": "はじめに 前回までの記事で、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…"
-        },
-        {
-          "title": "自宅HDFS上のApache IcebergをAWS S3へ複製してAthenaで分析する構成を考える【設計編】",
-          "link": "https://qiita.com/naritomo08/items/72361dafc6bbd0640a11",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-19T12:38:31",
-          "excerpt": "はじめに 自宅で構築しているログ収集基盤では、分析用データの保存形式として Apache Iceberg を利用しています。現在は主に次の構成で、HDFS 上の Iceberg テーブルを Spark や Trino から参照しています。…"
-        },
-        {
-          "title": "自宅HDFS上のApache IcebergをAmazon S3へ複製しAthenaから分析してみる【構築編】",
-          "link": "https://qiita.com/naritomo08/items/d3db5aefc9a56cc2b2a6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-19T12:38:31",
-          "excerpt": "はじめに 前回の設計編では、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に分析用 Iceberg コピーを作る方針を整理しました。今回は構築編です。実際に次の流れで作ります。…"
         }
       ]
     },
@@ -189,25 +189,25 @@
       "excerpt": "Pythonライクな新言語「Mojo」の開発元であるModular社は、Mojoをオープンソースとして公開したことを、同社主催のイベント「ModCon 2026」で発表しました。具体的にはMojoのコンパイラとツールチェーンがGitHub.…"
     },
     {
+      "title": "サチン・バンサルのフィンテック・ナビが1億ドルのプロサス投資で初の外部資本を調達",
+      "link": "https://techcrunch.com/2026/08/19/sachin-bansals-fintech-navi-raises-first-outside-capital-with-100m-prosus-investment/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-19T15:01:41",
+      "excerpt": "この投資は、Navi の株式公開計画の中で行われた。"
+    },
+    {
+      "title": "Amazon、AIを活用したAlexa+をFire TVで無料化、プライムは不要",
+      "link": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-19T15:00:00",
+      "excerpt": "Amazonは、米国内の互換性のあるすべてのFire TVデバイスでAIを活用したAlexa+アシスタントを無料にし、ユーザーがプライムに登録しているかどうかに関係なく自動的にアップグレードする。"
+    },
+    {
       "title": "AmazonのPrime Airは米国の約500都市で普及中",
       "link": "https://techcrunch.com/2026/08/19/amazons-prime-air-is-taking-off-in-nearly-500-u-s-cities/",
       "source": "TechCrunch（英語）",
       "published": "2026-08-19T14:57:58",
       "excerpt": "AmazonはPrime Airドローン配送サービスを大幅に拡大しており、2026年末までに米国の約500都市にサービスを提供する予定だ。"
-    },
-    {
-      "title": "【Amazon API Gateway】ニッチかな？REST APIのレスポンスを少しずつ返すストリーミングをやってみる",
-      "link": "https://qiita.com/miruky/items/cfc83f7774589a3d56c1",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-19T14:30:45",
-      "excerpt": "はじめに こんばんは、mirukyです。今日は比較的ニッチなことをやります。数秒かかるAPIでは、最後まで何も返らない場合と、完成した部分から返る場合で待ち時間の見え方が変わりますよね。…"
-    },
-    {
-      "title": "会議のメモ取りサーカスに冷静に帽子を投げる",
-      "link": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-19T14:09:39",
-      "excerpt": "Calendly は、Callie と呼ばれる会議スケジュール アシスタントもリリースします。"
     }
   ]
 }
