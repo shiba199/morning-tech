@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-19T14:03:21",
+  "generated_at": "2026-08-19T14:58:55",
   "window_hours": 24,
-  "total": 276,
+  "total": 273,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が48件。概要 AWSでBedrockを使うとき、所属するControl Towerでリージョンが縛ってある場合、普通に使おうとしたら使えないって怒られました。そんなときどうするか？…",
+      "summary": "生成AIの新着が50件。最新版のGrok Build CLIにAmazon Bedrock（bedrock-mantle）用のカスタムモデルを設定し、AWS認証情報から生成したBearer TokenでGrok 4.6を呼び出してみました。…",
       "articles": [
+        {
+          "title": "Grok Build CLIでAmazon Bedrock上のGrok 4.6を試してみた",
+          "link": "https://dev.classmethod.jp/articles/grok-build-cli-amazon-bedrock-grok-46/",
+          "source": "DevelopersIO",
+          "published": "2026-08-19T14:48:00",
+          "excerpt": "最新版のGrok Build CLIにAmazon Bedrock（bedrock-mantle）用のカスタムモデルを設定し、AWS認証情報から生成したBearer TokenでGrok 4.6を呼び出してみました。…"
+        },
+        {
+          "title": "Claude Code + Amazon Bedrockで「AWS CLI操作先」と「Bedrock課金先」を別アカウントにする",
+          "link": "https://qiita.com/mmtakumma/items/b3120e663e97a954fc85",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T14:43:29",
+          "excerpt": "はじめに Claude CodeのバックエンドにAmazon Bedrockを使っていると、こんな構成にしたくなることがあります。…"
+        },
         {
           "title": "Bedrockをリージョン制限下のControl Towerにて、SCP制限とかでうまくBedrockだけ使えないか考えてみた",
           "link": "https://qiita.com/dais-w/items/b11756659000372b55d4",
@@ -22,20 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-19T12:04:48",
           "excerpt": "AWS DevOps Agentでセカンダリリソース登録の順序を逆にしても大丈夫か検証してみました。…"
-        },
-        {
-          "title": "Agentic AI でつなぐモノ・サービスの改善サイクル 〜 蓄積する運用フェーズのデータを Amazon Quick で次の開発に活用する方法を学ぼう",
-          "link": "https://aws.amazon.com/jp/blogs/news/smart-products-ai-sdlc-operation/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-19T12:03:50",
-          "excerpt": "モノやサービスが生まれる現場では、開発から運用に至るさまざまなフェーズで、日々多くのデータが生まれています。か […]"
-        },
-        {
-          "title": "AWS DevOps Agentの料金体系とコストの抑え方を実機で確認してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-evaluation-cost/",
-          "source": "DevelopersIO",
-          "published": "2026-08-19T11:56:47",
-          "excerpt": "AWS DevOps Agentの料金体系(Investigation/Evaluation/On-demand)を整理し、コストを抑えるポイントとエンタープライズサポート契約時に実質無料になり得る条件を試算した紹介記事。"
         }
       ]
     },
@@ -52,6 +52,13 @@
           "excerpt": "Docker社は独自開発したコンテナ向けの高性能な新ハイパーバイザ「Docker VMM」をパブリックベータとして公開しました。WindowsとmacOSに対応した最新の「Docker Desktop v4.86」で利用可能です。Toda.…"
         },
         {
+          "title": "AWS S3上のApache IcebergをAthena経由で可視化する【発展編】",
+          "link": "https://qiita.com/naritomo08/items/48f6e29c32071a5a0b28",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T14:25:46",
+          "excerpt": "はじめに 前回までの記事で、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…"
+        },
+        {
           "title": "AWS S3上のApache IcebergをAthena向けに運用する【運用編】",
           "link": "https://qiita.com/naritomo08/items/f84d266b7f2f3a53d6e0",
           "source": "Qiita AWSタグ",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-19T12:38:31",
           "excerpt": "はじめに 自宅で構築しているログ収集基盤では、分析用データの保存形式として Apache Iceberg を利用しています。現在は主に次の構成で、HDFS 上の Iceberg テーブルを Spark や Trino から参照しています。…"
-        },
-        {
-          "title": "自宅HDFS上のApache IcebergをAmazon S3へ複製しAthenaから分析してみる【構築編】",
-          "link": "https://qiita.com/naritomo08/items/d3db5aefc9a56cc2b2a6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-19T12:38:31",
-          "excerpt": "はじめに 前回の設計編では、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に分析用 Iceberg コピーを作る方針を整理しました。今回は構築編です。実際に次の流れで作ります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。ブランド変更された機能は、ビデオなしで家庭に通知することを約束しますが、小さな文字には注意してください",
+      "summary": "セキュリティの新着が18件。Terraformの実行権限、実質Admin権限になっていませんか？そんな悩みを解決してくれるIAM Policy Autopilotが、Terraform planファイルに対応しました。…",
       "articles": [
+        {
+          "title": "[アップデート] IAM Policy AutopilotがTerraformのplanファイルをサポートするようになりました",
+          "link": "https://dev.classmethod.jp/articles/iam-policy-autopilot-supports-terraform-plan-files/",
+          "source": "DevelopersIO",
+          "published": "2026-08-19T14:10:46",
+          "excerpt": "Terraformの実行権限、実質Admin権限になっていませんか？そんな悩みを解決してくれるIAM Policy Autopilotが、Terraform planファイルに対応しました。…"
+        },
         {
           "title": "Comcast が Wi-Fi モーション検知器のセキュリティを刷新",
           "link": "https://www.theregister.com/security/2026/08/19/comcast-gives-its-wi-fi-motion-detector-a-security-makeover/5289572",
@@ -99,21 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-19T08:54:12",
           "excerpt": "Zendesk が API トークンによる API 認証を廃止し、2027 年 4 月 30 日にすべての API トークンが停止します。…"
-        },
-        {
-          "title": "さくら、別のシステムでも不正アクセスか　会員情報136万アカウントが漏えいの可能性　調査で判明",
-          "link": "https://www.itmedia.co.jp/news/article/2608/19/2000000629/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-19T08:24:19",
-          "excerpt": "さくらインターネットは8月19日、同社販売管理システムへの不正アクセスによって、最大136万563アカウントの会員情報が第三者に閲覧または取得された可能性があると発表した。19日時点でデータの外部持ち出しは確認していない。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。はじめに 前回までの記事で、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…",
+      "summary": "データ分析の新着が7件。はじめに 前回までの記事で、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…",
       "articles": [
+        {
+          "title": "AWS S3上のApache IcebergをAthena経由で可視化する【発展編】",
+          "link": "https://qiita.com/naritomo08/items/48f6e29c32071a5a0b28",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T14:25:46",
+          "excerpt": "はじめに 前回までの記事で、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…"
+        },
         {
           "title": "AWS S3上のApache IcebergをAthena向けに運用する【運用編】",
           "link": "https://qiita.com/naritomo08/items/f84d266b7f2f3a53d6e0",
@@ -134,48 +141,41 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-19T12:38:31",
           "excerpt": "はじめに 前回の設計編では、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に分析用 Iceberg コピーを作る方針を整理しました。今回は構築編です。実際に次の流れで作ります。…"
-        },
-        {
-          "title": "Amazon OpenSearch Service と Microsoft Entra ID を SAML 連携し、複数アプリロールでテナント切り替えを実現してみた",
-          "link": "https://dev.classmethod.jp/articles/opensearch-entra-id-saml-tenant-switching/",
-          "source": "DevelopersIO",
-          "published": "2026-08-19T11:11:12",
-          "excerpt": "Microsoft Entra ID と SAML 連携することで、Amazon OpenSearch Service のロール設計を簡素化する方法を紹介します。複数テナント環境での管理を効率化したいとお考えの方は、ぜひご覧ください。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。監視の盲点によりトラフィックがスパイラル化され、ロード バランサーが座屈した",
+      "summary": "開発ツールの新着が17件。最新版のGrok Build CLIにAmazon Bedrock（bedrock-mantle）用のカスタムモデルを設定し、AWS認証情報から生成したBearer TokenでGrok 4.6を呼び出してみました。…",
       "articles": [
+        {
+          "title": "Grok Build CLIでAmazon Bedrock上のGrok 4.6を試してみた",
+          "link": "https://dev.classmethod.jp/articles/grok-build-cli-amazon-bedrock-grok-46/",
+          "source": "DevelopersIO",
+          "published": "2026-08-19T14:48:00",
+          "excerpt": "最新版のGrok Build CLIにAmazon Bedrock（bedrock-mantle）用のカスタムモデルを設定し、AWS認証情報から生成したBearer TokenでGrok 4.6を呼び出してみました。…"
+        },
+        {
+          "title": "Claude Code + Amazon Bedrockで「AWS CLI操作先」と「Bedrock課金先」を別アカウントにする",
+          "link": "https://qiita.com/mmtakumma/items/b3120e663e97a954fc85",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T14:43:29",
+          "excerpt": "はじめに Claude CodeのバックエンドにAmazon Bedrockを使っていると、こんな構成にしたくなることがあります。…"
+        },
+        {
+          "title": "[アップデート] IAM Policy AutopilotがTerraformのplanファイルをサポートするようになりました",
+          "link": "https://dev.classmethod.jp/articles/iam-policy-autopilot-supports-terraform-plan-files/",
+          "source": "DevelopersIO",
+          "published": "2026-08-19T14:10:46",
+          "excerpt": "Terraformの実行権限、実質Admin権限になっていませんか？そんな悩みを解決してくれるIAM Policy Autopilotが、Terraform planファイルに対応しました。…"
+        },
         {
           "title": "GitHub、8時間の停止は自動スケーリングの失敗とVS Codeの再試行嵐のせいだと主張",
           "link": "https://www.theregister.com/saas/2026/08/19/github-blames-8-hour-outage-on-autoscaling-fail-and-vs-code-retry-storm/5289547",
           "source": "The Register（英語）",
           "published": "2026-08-19T11:40:00",
           "excerpt": "監視の盲点によりトラフィックがスパイラル化され、ロード バランサーが座屈した"
-        },
-        {
-          "title": "GitHub ActionsとDiscord Webhookで定期通知システムを作ってみた",
-          "link": "https://dev.classmethod.jp/articles/github-actions-discord-webhook-notification/",
-          "source": "DevelopersIO",
-          "published": "2026-08-19T09:32:05",
-          "excerpt": "GitHub ActionsとDiscord Webhookを組み合わせて、サーバーレスで定期通知システムを作ってみました。"
-        },
-        {
-          "title": "GitHub、OAuthアプリ向けに短期間利用のトークンに対応",
-          "link": "https://codezine.jp/article/detail/29349",
-          "source": "CodeZine",
-          "published": "2026-08-19T07:00:00",
-          "excerpt": "GitHub、OAuthアプリ向けに短期間利用のトークンに対応"
-        },
-        {
-          "title": "Amazon EVSでVCF 9.1（SELF_DEPLOYED）を構築してみた【2ホスト＋FSxN構成】【番外編】",
-          "link": "https://qiita.com/damepanda_supra/items/fe0dd10a0232f93703be",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-19T05:42:50",
-          "excerpt": "はじめに 先日、Amazon EVSでEVS 9.1の初期セットアップ編を作成しました【No.1】【No.2】 No.1とNo.2のBlogでは、Amazon EVSを稼働させるためのAWS環境の整備から、i7i.…"
         }
       ]
     }
@@ -189,25 +189,25 @@
       "excerpt": "Pythonライクな新言語「Mojo」の開発元であるModular社は、Mojoをオープンソースとして公開したことを、同社主催のイベント「ModCon 2026」で発表しました。具体的にはMojoのコンパイラとツールチェーンがGitHub.…"
     },
     {
-      "title": "創業者の秘密兵器: TechCrunch Disrupt 2026 で働き、プロのやり方を学ぶ",
-      "link": "https://techcrunch.com/2026/08/19/the-founders-secret-weapon-work-at-techcrunch-disrupt-2026-and-learn-how-the-pros-do-it/",
+      "title": "AmazonのPrime Airは米国の約500都市で普及中",
+      "link": "https://techcrunch.com/2026/08/19/amazons-prime-air-is-taking-off-in-nearly-500-u-s-cities/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-19T14:02:00",
-      "excerpt": "TechCrunch Disrupt 2026 にボランティアとして参加し、世界クラスのテクノロジー イベントがどのように構築されるかなどについて内部関係者の視点から見てみましょう。"
+      "published": "2026-08-19T14:57:58",
+      "excerpt": "AmazonはPrime Airドローン配送サービスを大幅に拡大しており、2026年末までに米国の約500都市にサービスを提供する予定だ。"
     },
     {
-      "title": "[2026年8月19日号]個人的に気になったModern Data Stack情報まとめ",
-      "link": "https://dev.classmethod.jp/articles/modern-data-stack-info-summary-20260819/",
-      "source": "DevelopersIO",
-      "published": "2026-08-19T13:56:13",
-      "excerpt": "さがらです。Modern Data Stack界隈の日々の情報発信から、この2週間ほどの間で私が気になった関連情報を、**独断と偏見**でまとめてみました。"
+      "title": "【Amazon API Gateway】ニッチかな？REST APIのレスポンスを少しずつ返すストリーミングをやってみる",
+      "link": "https://qiita.com/miruky/items/cfc83f7774589a3d56c1",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-19T14:30:45",
+      "excerpt": "はじめに こんばんは、mirukyです。今日は比較的ニッチなことをやります。数秒かかるAPIでは、最後まで何も返らない場合と、完成した部分から返る場合で待ち時間の見え方が変わりますよね。…"
     },
     {
-      "title": "家庭用バッテリーが突然安くなり、どこでも買えるようになりました。その理由は次のとおりです。",
-      "link": "https://techcrunch.com/2026/08/19/home-batteries-are-suddenly-cheap-and-everywhere-heres-why/",
+      "title": "会議のメモ取りサーカスに冷静に帽子を投げる",
+      "link": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-19T13:40:00",
-      "excerpt": "テスラやベースパワーなどの企業は、急速に成長する家庭用蓄電池市場の一部を争っている。1 つのテクノロジーがすべてを可能にしました。…"
+      "published": "2026-08-19T14:09:39",
+      "excerpt": "Calendly は、Callie と呼ばれる会議スケジュール アシスタントもリリースします。"
     }
   ]
 }
