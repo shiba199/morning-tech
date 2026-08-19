@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-19T17:16:52",
+  "generated_at": "2026-08-19T17:46:43",
   "window_hours": 24,
-  "total": 271,
+  "total": 269,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が52件。HN さん、ジョナサンとガイです。OneCLI はチーム向けに構築されたエージェント ハーネスであり、すべての従業員に安全なサンドボックス化されたパーソナル エージェントを提供します。これでできることは次のとおりです。1.…",
+      "summary": "生成AIの新着が53件。私が取り組んでいる「Frugal Tokens」というプロジェクトを共有したいと思いました。私が最初にこれを構築したのは、すべてのセッションのコストと、キャッシュ ミスがその支出にどれだけ影響するかを知りたかったからです。…",
       "articles": [
+        {
+          "title": "Show HN: Frugal Tokens – コーディング エージェント全体のコストと使用状況を調査する",
+          "link": "https://demo.frugaltokens.com/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-19T17:07:35",
+          "excerpt": "私が取り組んでいる「Frugal Tokens」というプロジェクトを共有したいと思いました。私が最初にこれを構築したのは、すべてのセッションのコストと、キャッシュ ミスがその支出にどれだけ影響するかを知りたかったからです。…"
+        },
         {
           "title": "HN を開始: OneCLI (YC S26) – チーム向けの OSS サンドボックス エージェント ハーネス",
           "link": "https://github.com/onecli/onecli",
@@ -29,20 +36,13 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-19T16:18:57",
           "excerpt": "記事の URL: https://arxiv.org/abs/2503.08679 コメント URL: https://news.ycombinator.com/item?id=49363587 ポイント: 12 コメント数: 3"
-        },
-        {
-          "title": "BedrockでGrok4.6が使えるようになったので、コードを本気で酷評させるアプリを作った",
-          "link": "https://qiita.com/yama3133/items/6265c08f69c6b12f3d66",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-19T15:44:22",
-          "excerpt": "Amazon BedrockでxAIのGrok 4.6が使えるようになりました。2026年8月18日ローンチ、AWSの公式ドキュメントにもうモデルカードが出ています。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が26件。Docker社は独自開発したコンテナ向けの高性能な新ハイパーバイザ「Docker VMM」をパブリックベータとして公開しました。WindowsとmacOSに対応した最新の「Docker Desktop v4.86」で利用可能です。Toda.…",
+      "summary": "クラウドの新着が25件。Docker社は独自開発したコンテナ向けの高性能な新ハイパーバイザ「Docker VMM」をパブリックベータとして公開しました。WindowsとmacOSに対応した最新の「Docker Desktop v4.86」で利用可能です。Toda.…",
       "articles": [
         {
           "title": "Docker社、コンテナ向けの高性能な新ハイパーバイザ「Docker VMM」パブリックベータ公開",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。Terraformの実行権限、実質Admin権限になっていませんか？そんな悩みを解決してくれるIAM Policy Autopilotが、Terraform planファイルに対応しました。…",
+      "summary": "セキュリティの新着が15件。Terraformの実行権限、実質Admin権限になっていませんか？そんな悩みを解決してくれるIAM Policy Autopilotが、Terraform planファイルに対応しました。…",
       "articles": [
         {
           "title": "[アップデート] IAM Policy AutopilotがTerraformのplanファイルをサポートするようになりました",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。HN さん、ジョナサンとガイです。OneCLI はチーム向けに構築されたエージェント ハーネスであり、すべての従業員に安全なサンドボックス化されたパーソナル エージェントを提供します。これでできることは次のとおりです。1.…",
+      "summary": "開発ツールの新着が15件。HN さん、ジョナサンとガイです。OneCLI はチーム向けに構築されたエージェント ハーネスであり、すべての従業員に安全なサンドボックス化されたパーソナル エージェントを提供します。これでできることは次のとおりです。1.…",
       "articles": [
         {
           "title": "HN を開始: OneCLI (YC S26) – チーム向けの OSS サンドボックス エージェント ハーネス",
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "ウォール街が AI コンピューティングに価格を設定するのを支援するスタートアップを紹介します",
+      "link": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-19T17:26:48",
+      "excerpt": "AI の増強は衰える兆しがありません。そして、データセンターや GPU には年間数千億ドルが費やされており、コンピューティングは AI 製品を構築するすべての人にとって最大のコストとなっています。…"
+    },
+    {
+      "title": "Tモバイル、中国ハッカーをネットワークから排除するために「ケーブルを切断」",
+      "link": "https://techcrunch.com/2026/08/19/t-mobile-chopped-a-cable-to-expel-chinese-hackers-from-its-network/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-19T17:26:32",
+      "excerpt": "米国の電話プロバイダーは、中国が支援するハッカーを早い段階で特定した後、ネットワークへの大規模な侵害を免れた。"
+    },
+    {
       "title": "素晴らしいワイルドウッドのトレーラーで幻想的な旅が展開します",
       "link": "https://arstechnica.com/culture/2026/08/a-fantastical-journey-unfolds-in-gorgeous-wildwood-trailer/",
       "source": "Ars Technica（英語）",
@@ -189,25 +203,11 @@
       "excerpt": "「この森を引き裂いて、奪ったものを取り戻してやる。」"
     },
     {
-      "title": "mRNA cancer vaccine succeeded in Phase 3 melanoma trial, Moderna and Merck say",
+      "title": "mRNAがんワクチンが第3相黒色腫試験で成功、モデルナとメルクが発表",
       "link": "https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/",
       "source": "Ars Technica（英語）",
       "published": "2026-08-19T16:53:56",
-      "excerpt": "The vaccine reportedly thwarted the cancer's return and spread."
-    },
-    {
-      "title": "Epic Games、Appleの簡素化されたEU App Store手数料を「ジャンク」として却下",
-      "link": "https://www.theregister.com/personal-tech/2026/08/19/epic-games-dismisses-apples-simplified-eu-app-store-fees-as-junk/5289794",
-      "source": "The Register（英語）",
-      "published": "2026-08-19T16:21:48",
-      "excerpt": "消費者団体、机上では改善が見られるが、悪魔は細部に宿ると警告"
-    },
-    {
-      "title": "時間がなくなりました! 8 月 21 日まで TechCrunch Disrupt 2026 パスで 300 ドル割引",
-      "link": "https://techcrunch.com/2026/08/19/times-running-out-save-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-19T16:16:18",
-      "excerpt": "Disrupt を周回している場合は、パスをロックして、10 月 13 日から 15 日までサンフランシスコのモスコーン ウェストで開催される残りのスタートアップ コミュニティに参加する準備を始めるのに最適な時期です。"
+      "excerpt": "ワクチンはがんの再発と拡大を阻止したと報告されている。"
     }
   ]
 }
