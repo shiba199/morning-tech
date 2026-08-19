@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-19T15:28:29",
+  "generated_at": "2026-08-19T15:56:48",
   "window_hours": 24,
-  "total": 277,
+  "total": 273,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が51件。最新版のGrok Build CLIにAmazon Bedrock（bedrock-mantle）用のカスタムモデルを設定し、AWS認証情報から生成したBearer TokenでGrok 4.6を呼び出してみました。…",
+      "summary": "生成AIの新着が50件。Amazon BedrockでxAIのGrok 4.6が使えるようになりました。2026年8月18日ローンチ、AWSの公式ドキュメントにもうモデルカードが出ています。…",
       "articles": [
+        {
+          "title": "BedrockでGrok4.6が使えるようになったので、コードを本気で酷評させるアプリを作った",
+          "link": "https://qiita.com/yama3133/items/6265c08f69c6b12f3d66",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T15:44:22",
+          "excerpt": "Amazon BedrockでxAIのGrok 4.6が使えるようになりました。2026年8月18日ローンチ、AWSの公式ドキュメントにもうモデルカードが出ています。…"
+        },
         {
           "title": "Grok Build CLIでAmazon Bedrock上のGrok 4.6を試してみた",
           "link": "https://dev.classmethod.jp/articles/grok-build-cli-amazon-bedrock-grok-46/",
@@ -29,13 +36,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-19T13:00:46",
           "excerpt": "概要 AWSでBedrockを使うとき、所属するControl Towerでリージョンが縛ってある場合、普通に使おうとしたら使えないって怒られました。そんなときどうするか？…"
-        },
-        {
-          "title": "AWS DevOps Agentのセカンダリリソース登録のステータス遷移を検証してみた",
-          "link": "https://dev.classmethod.jp/articles/devops-agent-secondary-resource-status-transition/",
-          "source": "DevelopersIO",
-          "published": "2026-08-19T12:04:48",
-          "excerpt": "AWS DevOps Agentでセカンダリリソース登録の順序を逆にしても大丈夫か検証してみました。…"
         }
       ]
     },
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。Terraformの実行権限、実質Admin権限になっていませんか？そんな悩みを解決してくれるIAM Policy Autopilotが、Terraform planファイルに対応しました。…",
+      "summary": "セキュリティの新着が17件。Terraformの実行権限、実質Admin権限になっていませんか？そんな悩みを解決してくれるIAM Policy Autopilotが、Terraform planファイルに対応しました。…",
       "articles": [
         {
           "title": "[アップデート] IAM Policy AutopilotがTerraformのplanファイルをサポートするようになりました",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が17件。最新版のGrok Build CLIにAmazon Bedrock（bedrock-mantle）用のカスタムモデルを設定し、AWS認証情報から生成したBearer TokenでGrok 4.6を呼び出してみました。…",
+      "summary": "開発ツールの新着が16件。最新版のGrok Build CLIにAmazon Bedrock（bedrock-mantle）用のカスタムモデルを設定し、AWS認証情報から生成したBearer TokenでGrok 4.6を呼び出してみました。…",
       "articles": [
         {
           "title": "Grok Build CLIでAmazon Bedrock上のGrok 4.6を試してみた",
@@ -182,6 +182,13 @@
   ],
   "uncategorized": [
     {
+      "title": "TerraPower の原子炉には AI データセンターに電力を供給する秘密兵器がある",
+      "link": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-19T15:44:53",
+      "excerpt": "TerraPower の原子力発電所は、特にデータセンター取引を追いかける場合、競合他社よりも戦略的優位性を持っています。"
+    },
+    {
       "title": "Pythonライクな新言語「Mojo」がオープンソースで公開、コンパイラやツールチェーンなど。Windows版の開発も表明",
       "link": "https://www.publickey1.jp/blog/26/pythonmojowindows.html",
       "source": "Publickey",
@@ -189,25 +196,18 @@
       "excerpt": "Pythonライクな新言語「Mojo」の開発元であるModular社は、Mojoをオープンソースとして公開したことを、同社主催のイベント「ModCon 2026」で発表しました。具体的にはMojoのコンパイラとツールチェーンがGitHub.…"
     },
     {
-      "title": "サチン・バンサルのフィンテック・ナビが1億ドルのプロサス投資で初の外部資本を調達",
-      "link": "https://techcrunch.com/2026/08/19/sachin-bansals-fintech-navi-raises-first-outside-capital-with-100m-prosus-investment/",
+      "title": "Rivian のスピンアウトもさらに 1 億 5,000 万ドルを調達",
+      "link": "https://techcrunch.com/2026/08/19/rivian-spinout-also-raises-another-150-million/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-19T15:01:41",
-      "excerpt": "この投資は、Navi の株式公開計画の中で行われた。"
+      "published": "2026-08-19T15:39:47",
+      "excerpt": "プリズム・キャピタルが主導するこのラウンドは、ペダルアシスト電動自転車や商用四輪車から自動運転配送車までの同社の事業拡大に資金を提供する。"
     },
     {
-      "title": "Amazon、AIを活用したAlexa+をFire TVで無料化、プライムは不要",
-      "link": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-19T15:00:00",
-      "excerpt": "Amazonは、米国内の互換性のあるすべてのFire TVデバイスでAIを活用したAlexa+アシスタントを無料にし、ユーザーがプライムに登録しているかどうかに関係なく自動的にアップグレードする。"
-    },
-    {
-      "title": "AmazonのPrime Airは米国の約500都市で普及中",
-      "link": "https://techcrunch.com/2026/08/19/amazons-prime-air-is-taking-off-in-nearly-500-u-s-cities/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-19T14:57:58",
-      "excerpt": "AmazonはPrime Airドローン配送サービスを大幅に拡大しており、2026年末までに米国の約500都市にサービスを提供する予定だ。"
+      "title": "7,700人の従業員を対象とした調査で、リモートワーカーの幸福度が最も高かったと報告",
+      "link": "https://www.colorado.edu/today/2026/08/12/remote-workers-report-highest-well-being-study-7700-employees",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-19T15:32:08",
+      "excerpt": "記事の URL: https://www.colorado.…"
     }
   ]
 }
