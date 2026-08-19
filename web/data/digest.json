@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-19T21:15:19",
+  "generated_at": "2026-08-19T21:46:58",
   "window_hours": 24,
-  "total": 283,
+  "total": 284,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。Docker社は独自開発したコンテナ向けの高性能な新ハイパーバイザ「Docker VMM」をパブリックベータとして公開しました。WindowsとmacOSに対応した最新の「Docker Desktop v4.86」で利用可能です。Toda.…",
+      "summary": "クラウドの新着が24件。はじめに RDS for PostgreSQLを作成したあと、アプリケーションからマスターユーザーで接続していないでしょうか。マスターユーザーはRoleやデータベースを作成できる強い管理ユーザーです。…",
       "articles": [
+        {
+          "title": "RDS for PostgreSQL初期設計 マスターユーザーを避けRoleを用途別に分ける",
+          "link": "https://qiita.com/s_horikoshi/items/dbd86dde2fc5c7a8e5b7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T21:23:59",
+          "excerpt": "はじめに RDS for PostgreSQLを作成したあと、アプリケーションからマスターユーザーで接続していないでしょうか。マスターユーザーはRoleやデータベースを作成できる強い管理ユーザーです。…"
+        },
         {
           "title": "Docker社、コンテナ向けの高性能な新ハイパーバイザ「Docker VMM」パブリックベータ公開",
           "link": "https://www.publickey1.jp/blog/26/dockerdocker_vmm.html",
@@ -63,13 +70,6 @@
           "link": "https://qiita.com/naritomo08/items/48f6e29c32071a5a0b28",
           "source": "Qiita AWSタグ",
           "published": "2026-08-19T14:25:46",
-          "excerpt": "はじめに 前回までの記事で、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…"
-        },
-        {
-          "title": "AWS S3上のApache IcebergをAthena向けに運用する【運用編】",
-          "link": "https://qiita.com/naritomo08/items/f84d266b7f2f3a53d6e0",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-19T13:00:51",
           "excerpt": "はじめに 前回までの記事で、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…"
         }
       ]
