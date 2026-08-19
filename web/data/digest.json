@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T06:23:10",
+  "generated_at": "2026-08-19T07:12:42",
   "window_hours": 24,
-  "total": 278,
+  "total": 272,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が49件。はじめに AIエージェントのデモを作るところまでは、以前よりずっと簡単になりました。例えば、返金エージェントが丁寧で正しい文章を返しても、タイムアウト後の再試行で二重返金すれば、本番システムとしては失敗です。…",
+      "summary": "生成AIの新着が47件。はじめに AIエージェントのデモを作るところまでは、以前よりずっと簡単になりました。例えば、返金エージェントが丁寧で正しい文章を返しても、タイムアウト後の再試行で二重返金すれば、本番システムとしては失敗です。…",
       "articles": [
         {
           "title": "AIエージェントのPoCが本番に進まない理由――モデルではなく「システム」を設計する4つの柱：【AWS Summit 2026 - セッションレポート】",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。Claude Code v2.1.235のリリースでは、セキュリティ修正と足回りの改善が中心になりました。許可プロンプト周りの問題解決や、バックグラウンド実行時のリソース改善など、実用性に直結するアップデート内容を紹介します。…",
+      "summary": "セキュリティの新着が13件。加賀ソルネットは8月17日、ECサイト「アカデミコナビ」への不正アクセスに関する調査結果を公表した。16万5587人分の個人データの漏えいを確認したほか、停止中のサイトは10月末の再開を予定する。",
       "articles": [
+        {
+          "title": "氏名・住所など16万人分漏えい　学生向けPC販売サイト、不正アクセスの影響判明　明大・帝京など利用",
+          "link": "https://www.itmedia.co.jp/news/article/2608/19/2000000625/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-19T06:32:08",
+          "excerpt": "加賀ソルネットは8月17日、ECサイト「アカデミコナビ」への不正アクセスに関する調査結果を公表した。16万5587人分の個人データの漏えいを確認したほか、停止中のサイトは10月末の再開を予定する。"
+        },
         {
           "title": "Claude Code v2.1.235 の主要アップデート - spellcheck 設定の追加と許可まわりのセキュリティ修正",
           "link": "https://dev.classmethod.jp/articles/20260819-cc-updates-v2-1-235/",
@@ -99,13 +106,6 @@
           "source": "The Register（英語）",
           "published": "2026-08-18T23:36:36",
           "excerpt": "多段階の思考連鎖監視の拡張により、フロンティアモデルの作業コストが高くなる"
-        },
-        {
-          "title": "外部サービスへの AWS IAM ID フェデレーションが AWS 欧州ソブリン クラウド リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-european-sovereign-cloud/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-18T22:30:00",
-          "excerpt": "AWS Identity and Access Management (IAM) により、AWS 欧州ソブリンクラウド (ドイツ) リージョンの AWS ワークロードが、有効期間の短い JSON ウェブトークン (JWT) を使用して外部サ…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "AI時代のエンジニアの本質とは。Helpfeelが技術カンファレンスを9月12日開催、洛西CEOら登壇",
+      "link": "https://codezine.jp/article/detail/29362",
+      "source": "CodeZine",
+      "published": "2026-08-19T06:30:00",
+      "excerpt": "AI時代のエンジニアの本質とは。Helpfeelが技術カンファレンスを9月12日開催、洛西CEOら登壇"
+    },
+    {
+      "title": "NASA、SpaceXが月に開けた穴のサイズを推定",
+      "link": "https://www.theregister.com/offbeat/2026/08/19/nasa-estimates-the-size-of-the-hole-spacex-made-in-the-moon/5289425",
+      "source": "The Register（英語）",
+      "published": "2026-08-19T06:15:40",
+      "excerpt": "最新のスターシップが観測のためオーストラリアの目立たない場所へ向かう"
+    },
+    {
+      "title": "技術シーズは誰の課題を解くのか。CULUMUがR&D担当者向け当事者インタビュー講座を8月27日開催",
+      "link": "https://codezine.jp/article/detail/29357",
+      "source": "CodeZine",
+      "published": "2026-08-19T06:15:00",
+      "excerpt": "技術シーズは誰の課題を解くのか。CULUMUがR&D担当者向け当事者インタビュー講座を8月27日開催"
+    },
+    {
       "title": "【備忘】【AWS関連】公式ブログ および アップデートまとめ（ネットワーク関連のみ抽出）(2026/07/27)",
       "link": "https://qiita.com/dctsatopy/items/d5da6787ad5eafe63cfe",
       "source": "Qiita AWSタグ",
       "published": "2026-08-19T06:10:58",
       "excerpt": "この記事について AWS 公式が公表している週刊 AWS やアップデート情報の中から、ネットワークリソース関連の情報を集約して把握するため、Claude を活用してサマリーを生成・出力しています。…"
-    },
-    {
-      "title": "Bun 1.4 Rust の書き換えがうまくいかない",
-      "link": "https://tipiirai.com/writing/bun-rust-rewrite-worries",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-19T05:51:17",
-      "excerpt": "記事の URL: https://tipiirai.com/writing/bun-rust-rewrite-worries コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "「機能は良いのに売れない」に悩むB2B企業へ、ポジショニング言語化を実演するセミナーが8月26日開催",
-      "link": "https://codezine.jp/article/detail/29356",
-      "source": "CodeZine",
-      "published": "2026-08-19T05:45:00",
-      "excerpt": "「機能は良いのに売れない」に悩むB2B企業へ、ポジショニング言語化を実演するセミナーが8月26日開催"
-    },
-    {
-      "title": "Amazon Connect Customerでコンタクトセンターの運用状況を自然言語で確認できるマネージャー支援機能がプレビュー提供されました",
-      "link": "https://dev.classmethod.jp/articles/amazon-connect-customer-ai-manager-assistance-preview/",
-      "source": "DevelopersIO",
-      "published": "2026-08-19T05:39:09",
-      "excerpt": "Amazon Connect Customerの新機能「Connect アシスタント」がプレビューリリースされました。AI活用したマネージャー支援機能の実際の動作を、管理画面での検証をもとに紹介します。"
     }
   ]
 }
