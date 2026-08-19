@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T05:28:01",
+  "generated_at": "2026-08-19T05:54:57",
   "window_hours": 24,
-  "total": 276,
+  "total": 275,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が49件。こんにちは。LayerX Ai Workforce 事業部 FDE部 エンジニアの古濵（@furu）です。ここ数ヶ月で、実装の進め方を少しずつ変えています。以前はエディタのウィンドウを複数開き、それぞれで別のタスクを進めていました。…",
+      "summary": "生成AIの新着が47件。こんにちは。LayerX Ai Workforce 事業部 FDE部 エンジニアの古濵（@furu）です。ここ数ヶ月で、実装の進め方を少しずつ変えています。以前はエディタのウィンドウを複数開き、それぞれで別のタスクを進めていました。…",
       "articles": [
         {
           "title": "コーディングエージェント主体に実装の進め方を変え始めている話 | LayerX エンジニアブログ",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。みずほFGは、NVIDIAの製品と技術的知見を活用し、金融機関向けAI活用基盤の高度化に向けた検討を始めた。オンプレミスのGPU環境の強化と、AIエージェントを安全に実行・管理する仕組みの検証に取り組む。",
+      "summary": "クラウドの新着が24件。Amazon EKS、Kubernetesコントロールプレーンパラメータ設定を拡充",
       "articles": [
+        {
+          "title": "Amazon EKS、Kubernetesコントロールプレーンパラメータ設定を拡充",
+          "link": "https://codezine.jp/article/detail/29348",
+          "source": "CodeZine",
+          "published": "2026-08-19T05:30:00",
+          "excerpt": "Amazon EKS、Kubernetesコントロールプレーンパラメータ設定を拡充"
+        },
         {
           "title": "みずほFG、クラウドではなく「オンプレミスGPU」導入　AIエージェント活用も見据えた狙いとは？",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/19/news060.html",
@@ -64,21 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-19T02:55:42",
           "excerpt": "AWS CDK（Python版）とCloudShellを使い、Lambda と API Gateway でシンプルなサーバーレス API を構築してみました。…"
-        },
-        {
-          "title": "株式会社セガ、グローバル展開タイトル『ソニックランブル パーティ』を少人数チームで支える Amazon DynamoDB / Amazon ElastiCache Serverless for Valkey 活用事例",
-          "link": "https://aws.amazon.com/jp/blogs/news/sonic-rumble-party-dynamodb-elasticache/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-19T02:46:26",
-          "excerpt": "株式会社セガが開発・運用する『ソニックランブル パーティ』のバックエンドに Amazon DynamoDB と Amazon ElastiCache Serverless for Valkey を採用した経緯・技術的な工夫・得られた効果を、…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。多段階の思考連鎖監視の拡張により、フロンティアモデルの作業コストが高くなる",
+      "summary": "セキュリティの新着が12件。AWS Security Hub Extended に 10 番目のカテゴリとしてサプライチェーンセキュリティが加わりました。…",
       "articles": [
+        {
+          "title": "Security Hub Extended が 10 番目のカテゴリとしてサプライチェーンセキュリティを追加",
+          "link": "https://aws.amazon.com/jp/blogs/news/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-19T05:31:52",
+          "excerpt": "AWS Security Hub Extended に 10 番目のカテゴリとしてサプライチェーンセキュリティが加わりました。…"
+        },
         {
           "title": "OpenAI はセキュリティを強化するため、一部のワークロードでオーバーヘッドが 20% 増加します",
           "link": "https://www.theregister.com/ai-and-ml/2026/08/19/openais-overhead-will-rise-20-percent-for-some-workloads-as-it-hardens-security/5289303",
@@ -99,13 +106,6 @@
           "source": "CodeZine",
           "published": "2026-08-18T22:00:00",
           "excerpt": "AWS、Anthropic・OpenAIと提携し、コード脆弱性検出ツール「AWS Continuum」を開発者ワークフローに導入"
-        },
-        {
-          "title": "Amazon Corretto 2026 年 8 月の重要なセキュリティパッチの更新",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-corretto-august-2026-security-updates",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-18T21:48:00",
-          "excerpt": "2026 年 8 月 18 日、Amazon は、OpenJDK の Amazon Corretto 長期サポート (LTS) および機能リリース (FR) バージョンの重要なセキュリティ パッチ アップデート (CSPU) を発表しました…"
         }
       ]
     },
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。こんにちは。LayerX Ai Workforce 事業部 FDE部 エンジニアの古濵（@furu）です。ここ数ヶ月で、実装の進め方を少しずつ変えています。以前はエディタのウィンドウを複数開き、それぞれで別のタスクを進めていました。…",
+      "summary": "開発ツールの新着が14件。はじめに 先日、Amazon EVSでEVS 9.1の初期セットアップ編を作成しました【No.1】【No.2】 No.1とNo.2のBlogでは、Amazon EVSを稼働させるためのAWS環境の整備から、i7i.…",
       "articles": [
+        {
+          "title": "Amazon EVSでVCF 9.1（SELF_DEPLOYED）を構築してみた【2ホスト＋FSxN構成】【番外編】",
+          "link": "https://qiita.com/damepanda_supra/items/fe0dd10a0232f93703be",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T05:42:50",
+          "excerpt": "はじめに 先日、Amazon EVSでEVS 9.1の初期セットアップ編を作成しました【No.1】【No.2】 No.1とNo.2のBlogでは、Amazon EVSを稼働させるためのAWS環境の整備から、i7i.…"
+        },
+        {
+          "title": "AIを活用した特殊詐欺対策、官民から募集　警察庁×GENIAC、懸賞金総額5000万円",
+          "link": "https://www.itmedia.co.jp/news/article/2608/19/2000000621/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-19T05:13:13",
+          "excerpt": "金融機関、通信事業者、SNS事業者、警察、税務署などからの応募を想定して"
+        },
         {
           "title": "コーディングエージェント主体に実装の進め方を変え始めている話 | LayerX エンジニアブログ",
           "link": "https://tech.layerx.co.jp/entry/coding-agent-driven-development",
@@ -162,25 +176,25 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-19T03:00:05",
           "excerpt": "初めに近年、「データスペース」が世界で話題になっています。IPAによれば、データスペースとは「国境や分野の壁を越えた新しい経済空間、社会活動の空間」と定義されています[1]。…"
-        },
-        {
-          "title": "【 IaC 入門】 AWS CDK で「インフラのコード化」を体験してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-cdk-handson-beginner/",
-          "source": "DevelopersIO",
-          "published": "2026-08-19T02:55:42",
-          "excerpt": "AWS CDK（Python版）とCloudShellを使い、Lambda と API Gateway でシンプルなサーバーレス API を構築してみました。…"
-        },
-        {
-          "title": "「Bet AI」を掲げるLayerXが選んだLLM基盤──Langfuse×ClickHouseで実現する高速で柔軟な運用",
-          "link": "https://codezine.jp/article/detail/28936",
-          "source": "CodeZine",
-          "published": "2026-08-19T02:00:00",
-          "excerpt": "「バクラク」シリーズをはじめとするAI SaaSを展開するLayerX。同社では今、あらゆるプロダクトにAIエージェントやLLMが組み込まれつつある。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "Amazon Connect Customerでコンタクトセンターの運用状況を自然言語で確認できるマネージャー支援機能がプレビュー提供されました",
+      "link": "https://dev.classmethod.jp/articles/amazon-connect-customer-ai-manager-assistance-preview/",
+      "source": "DevelopersIO",
+      "published": "2026-08-19T05:39:09",
+      "excerpt": "Amazon Connect Customerの新機能「Connect アシスタント」がプレビューリリースされました。AI活用したマネージャー支援機能の実際の動作を、管理画面での検証をもとに紹介します。"
+    },
+    {
+      "title": "AWS Certificate Manager の ACME サポートで証明書の発行と更新を自動化",
+      "link": "https://aws.amazon.com/jp/blogs/news/automate-certificates-with-acme-support-in-aws-certificate-manager/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-08-19T05:34:37",
+      "excerpt": "AWS Certificate Manager (ACM) の ACME プロトコルサポートについて紹介します。…"
+    },
     {
       "title": "フードデリバリー「menu」終了へ　「持続的なサービス提供が困難」　9月末まで",
       "link": "https://www.itmedia.co.jp/news/article/2608/19/2000000620/",
@@ -194,20 +208,6 @@
       "source": "企業テックブログまとめ",
       "published": "2026-08-19T04:12:16",
       "excerpt": "XPをやっているチームに入って2ヶ月が経ちました。Product Teamで、私はここで初めてXPを経験し、多くのギャップを感じました。今まで自分が「良い仕事の仕方」だと信じていたものが、このチームではだいたい逆だったからです。…"
-    },
-    {
-      "title": "「Adobe半額」ヨドバシ、ビックカメラなどで　Proプラン12カ月版は5万1480円に",
-      "link": "https://www.itmedia.co.jp/news/article/2608/19/2000000618/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-19T04:09:57",
-      "excerpt": "ヨドバシカメラやビックカメラ、エディオン、Joshinにて、Adobe製品を正規価格の半額で販売する期間限定セールを実施している。Amazonでも同様のセールを実施していたが、売り切れている。"
-    },
-    {
-      "title": "株式会社日新 × AWS：人とAIが協働する新しい物流「オプティマAI」",
-      "link": "https://aws.amazon.com/jp/blogs/news/nissin-optimaai/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-08-19T04:08:49",
-      "excerpt": "物流業界では、貿易関連書類の作成・照合作業に多大な時間を要しています。情報を入手した後にシステムへ取り込み、別 […]"
     }
   ]
 }
