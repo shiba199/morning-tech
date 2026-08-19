@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:21:29",
+  "generated_at": "2026-08-19T09:54:59",
   "window_hours": 24,
   "total": 278,
   "topic_count": 5,
@@ -7,8 +7,15 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。社内向けの業務エージェントを作っていて、どうしても割り切れなかった問題がある。ツール呼び出しの1回1回はすべて権限的に正しいのに、並びが間違っているというケースだ。具体的にはこうだった。…",
+      "summary": "生成AIの新着が44件。顧客体験にこだわったLINEチャットボットを設計しデモを実装したので動くデモで紹介します。生成AIのモデルにはClaude Sonnet5を利用しています。",
       "articles": [
+        {
+          "title": "生成AI（Claude）で作る、顧客体験にこだわったLINEチャットボットの設計",
+          "link": "https://dev.classmethod.jp/articles/customer-experience-line-chatbot-claude/",
+          "source": "DevelopersIO",
+          "published": "2026-08-19T09:45:05",
+          "excerpt": "顧客体験にこだわったLINEチャットボットを設計しデモを実装したので動くデモで紹介します。生成AIのモデルにはClaude Sonnet5を利用しています。"
+        },
         {
           "title": "AWS の新ポリシー言語 Dogwood を読み解く ── AIエージェントの「ツール呼び出しの順番」を制御する",
           "link": "https://qiita.com/softbase/items/0ce3285366c63d9423bf",
@@ -29,21 +36,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-19T06:13:27",
           "excerpt": "はじめに AIエージェントのデモを作るところまでは、以前よりずっと簡単になりました。例えば、返金エージェントが丁寧で正しい文章を返しても、タイムアウト後の再試行で二重返金すれば、本番システムとしては失敗です。…"
-        },
-        {
-          "title": "Claude Code v2.1.235 の主要アップデート - spellcheck 設定の追加と許可まわりのセキュリティ修正",
-          "link": "https://dev.classmethod.jp/articles/20260819-cc-updates-v2-1-235/",
-          "source": "DevelopersIO",
-          "published": "2026-08-19T05:56:57",
-          "excerpt": "Claude Code v2.1.235のリリースでは、セキュリティ修正と足回りの改善が中心になりました。許可プロンプト周りの問題解決や、バックグラウンド実行時のリソース改善など、実用性に直結するアップデート内容を紹介します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が25件。Zendesk が API トークンによる API 認証を廃止し、2027 年 4 月 30 日にすべての API トークンが停止します。…",
+      "summary": "クラウドの新着が26件。はじめに AWSを勉強していると、S3の署名付きURL（Presigned URL） という言葉を目にすることがあります。…",
       "articles": [
+        {
+          "title": "S3の署名付きURLとは？仕組みを簡単に解説",
+          "link": "https://qiita.com/mshr_n17/items/44312904d4bccd67bc42",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T09:35:46",
+          "excerpt": "はじめに AWSを勉強していると、S3の署名付きURL（Presigned URL） という言葉を目にすることがあります。…"
+        },
         {
           "title": "Zendesk による API トークン認証の廃止予告について - 影響範囲の調べ方と OAuth 移行を試してみた",
           "link": "https://dev.classmethod.jp/articles/zendesk-api-token-eol-oauth-migration/",
@@ -64,13 +71,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-19T06:04:29",
           "excerpt": "Auto Scaling グループのインスタンスをスタンバイから復旧する際、操作の順序を誤ると意図しない新規インスタンスが起動されてしまう場合があります。今回、この挙動を実際に検証し、正しい復旧手順をご紹介します。"
-        },
-        {
-          "title": "Amazon EKS、Kubernetesコントロールプレーンパラメータ設定を拡充",
-          "link": "https://codezine.jp/article/detail/29348",
-          "source": "CodeZine",
-          "published": "2026-08-19T05:30:00",
-          "excerpt": "Amazon EKS、Kubernetesコントロールプレーンパラメータ設定を拡充"
         }
       ]
     },
@@ -133,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。GitHub、OAuthアプリ向けに短期間利用のトークンに対応",
+      "summary": "開発ツールの新着が16件。GitHub ActionsとDiscord Webhookを組み合わせて、サーバーレスで定期通知システムを作ってみました。",
       "articles": [
+        {
+          "title": "GitHub ActionsとDiscord Webhookで定期通知システムを作ってみた",
+          "link": "https://dev.classmethod.jp/articles/github-actions-discord-webhook-notification/",
+          "source": "DevelopersIO",
+          "published": "2026-08-19T09:32:05",
+          "excerpt": "GitHub ActionsとDiscord Webhookを組み合わせて、サーバーレスで定期通知システムを作ってみました。"
+        },
         {
           "title": "GitHub、OAuthアプリ向けに短期間利用のトークンに対応",
           "link": "https://codezine.jp/article/detail/29349",
@@ -155,18 +162,25 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-19T05:13:13",
           "excerpt": "金融機関、通信事業者、SNS事業者、警察、税務署などからの応募を想定して"
-        },
-        {
-          "title": "コーディングエージェント主体に実装の進め方を変え始めている話 | LayerX エンジニアブログ",
-          "link": "https://tech.layerx.co.jp/entry/coding-agent-driven-development",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-19T04:35:51",
-          "excerpt": "こんにちは。LayerX Ai Workforce 事業部 FDE部 エンジニアの古濵（@furu）です。ここ数ヶ月で、実装の進め方を少しずつ変えています。以前はエディタのウィンドウを複数開き、それぞれで別のタスクを進めていました。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "【Amazon Connect】エラー時の発信者番号をメール通知してみた（シンプル版）",
+      "link": "https://dev.classmethod.jp/articles/amazon-connect-error-notification-system-simple/",
+      "source": "DevelopersIO",
+      "published": "2026-08-19T09:49:51",
+      "excerpt": "Amazon Connectのエラー発生時に、発信者番号などのコンタクト属性をメール通知する方法をご紹介します。EventBridgeとSNSを組み合わせたシンプルな実装方法を試してみました。"
+    },
+    {
+      "title": "Raspberry Pi がバッチ CM5 プロビジョニングで不安定になる",
+      "link": "https://www.theregister.com/edge-and-iot/2026/08/19/raspberry-pi-gets-jiggy-with-batch-cm5-provisioning/5289499",
+      "source": "The Register（英語）",
+      "published": "2026-08-19T09:42:00",
+      "excerpt": "クランプ、フラッシュ、リピート - 別個の IO ボードやホスト コンピュータは必要ありません"
+    },
     {
       "title": "AWS Certified Data Engineer – Associate (DEA-C01) 合格体験記",
       "link": "https://qiita.com/wang_yuyao/items/8574501fb8949316f880",
@@ -180,20 +194,6 @@
       "source": "企業テックブログまとめ",
       "published": "2026-08-19T09:00:00",
       "excerpt": "こんにちは。AIエンジニアリング部の池本です。先日、社内のテック会議で「面倒くさがりになろう。」というタイトルで登壇したので、 その内容を共有しようかなと思います。いきなり本題ですが、皆さんは面倒くさがりでしょうか？…"
-    },
-    {
-      "title": "台湾のiOSカンファレンス\"iPlayground 2026\"で登壇してみた | Yappli Tech Blog",
-      "link": "https://tech.yappli.io/entry/iplayground_2026",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-19T09:00:00",
-      "excerpt": "はじめに 株式会社ヤプリでソフトウェアエンジニアと Tech PR を担当している freddi です。2026年7月25日から26日に台北で開催された「iPlayground 2026」で登壇したので、現地の様子などをお伝えします。…"
-    },
-    {
-      "title": "英国税務官、6億5,700万ポンドの賞金でローコードは低コストを意味しないことを発見",
-      "link": "https://www.theregister.com/public-sector/2026/08/19/uk-taxman-discovers-low-code-doesnt-mean-low-cost-with-657m-awards/5288634",
-      "source": "The Register（英語）",
-      "published": "2026-08-19T08:44:00",
-      "excerpt": "それらのレガシーシステムは自動的に修復されません"
     }
   ]
 }
