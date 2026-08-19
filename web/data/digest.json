@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T13:22:35",
+  "generated_at": "2026-08-19T14:03:21",
   "window_hours": 24,
-  "total": 280,
+  "total": 276,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が50件。概要 AWSでBedrockを使うとき、所属するControl Towerでリージョンが縛ってある場合、普通に使おうとしたら使えないって怒られました。そんなときどうするか？…",
+      "summary": "生成AIの新着が48件。概要 AWSでBedrockを使うとき、所属するControl Towerでリージョンが縛ってある場合、普通に使おうとしたら使えないって怒られました。そんなときどうするか？…",
       "articles": [
         {
           "title": "Bedrockをリージョン制限下のControl Towerにて、SCP制限とかでうまくBedrockだけ使えないか考えてみた",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が26件。はじめに 前回までの記事で、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…",
+      "summary": "クラウドの新着が27件。Docker社は独自開発したコンテナ向けの高性能な新ハイパーバイザ「Docker VMM」をパブリックベータとして公開しました。WindowsとmacOSに対応した最新の「Docker Desktop v4.86」で利用可能です。Toda.…",
       "articles": [
+        {
+          "title": "Docker社、コンテナ向けの高性能な新ハイパーバイザ「Docker VMM」パブリックベータ公開",
+          "link": "https://www.publickey1.jp/blog/26/dockerdocker_vmm.html",
+          "source": "Publickey",
+          "published": "2026-08-19T17:43:24",
+          "excerpt": "Docker社は独自開発したコンテナ向けの高性能な新ハイパーバイザ「Docker VMM」をパブリックベータとして公開しました。WindowsとmacOSに対応した最新の「Docker Desktop v4.86」で利用可能です。Toda.…"
+        },
         {
           "title": "AWS S3上のApache IcebergをAthena向けに運用する【運用編】",
           "link": "https://qiita.com/naritomo08/items/f84d266b7f2f3a53d6e0",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-19T12:38:31",
           "excerpt": "はじめに 前回の設計編では、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に分析用 Iceberg コピーを作る方針を整理しました。今回は構築編です。実際に次の流れで作ります。…"
-        },
-        {
-          "title": "【AWS解説 S3編 #4】Block Public Accessとバケットポリシーの基本",
-          "link": "https://qiita.com/suzunari900261/items/0293e251a7b2f01312ec",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-19T10:27:38",
-          "excerpt": "【AWS解説 S3編 #4】Block Public Accessとバケットポリシーの基本 S3編 #4（全7回予定） S3にファイルを保存できるようになると、次はアクセス制御が気になります。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "CareCloud、370万人の患者がデータ侵害で医療記録を盗まれたことを確認",
-      "link": "https://techcrunch.com/2026/08/19/carecloud-confirms-3-7m-patients-had-their-medical-records-stolen-in-data-breach/",
+      "title": "Pythonライクな新言語「Mojo」がオープンソースで公開、コンパイラやツールチェーンなど。Windows版の開発も表明",
+      "link": "https://www.publickey1.jp/blog/26/pythonmojowindows.html",
+      "source": "Publickey",
+      "published": "2026-08-19T15:40:43",
+      "excerpt": "Pythonライクな新言語「Mojo」の開発元であるModular社は、Mojoをオープンソースとして公開したことを、同社主催のイベント「ModCon 2026」で発表しました。具体的にはMojoのコンパイラとツールチェーンがGitHub.…"
+    },
+    {
+      "title": "創業者の秘密兵器: TechCrunch Disrupt 2026 で働き、プロのやり方を学ぶ",
+      "link": "https://techcrunch.com/2026/08/19/the-founders-secret-weapon-work-at-techcrunch-disrupt-2026-and-learn-how-the-pros-do-it/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-19T13:04:10",
-      "excerpt": "CareCloud でのサイバー攻撃は、今年米国の医療業界で報告された最大のデータ侵害の 1 つを引き起こしました。"
+      "published": "2026-08-19T14:02:00",
+      "excerpt": "TechCrunch Disrupt 2026 にボランティアとして参加し、世界クラスのテクノロジー イベントがどのように構築されるかなどについて内部関係者の視点から見てみましょう。"
     },
     {
-      "title": "Postgres の先駆者、Oracle がデータベースの世界制覇に貢献したと評価",
-      "link": "https://www.theregister.com/databases/2026/08/19/postgres-pioneer-credits-oracle-with-helping-his-database-take-over-the-world/5289087",
-      "source": "The Register（英語）",
-      "published": "2026-08-19T12:37:00",
-      "excerpt": "Big Red による MySQL の買収により、ユーザーはオープンソースの代替に走った、と Michael Stonebraker 氏は語る"
+      "title": "[2026年8月19日号]個人的に気になったModern Data Stack情報まとめ",
+      "link": "https://dev.classmethod.jp/articles/modern-data-stack-info-summary-20260819/",
+      "source": "DevelopersIO",
+      "published": "2026-08-19T13:56:13",
+      "excerpt": "さがらです。Modern Data Stack界隈の日々の情報発信から、この2週間ほどの間で私が気になった関連情報を、**独断と偏見**でまとめてみました。"
     },
     {
-      "title": "ジオメトリと CUDA プログラミングを使用してランダムな島の位置を特定する",
-      "link": "https://yassa9.github.io/osint/gralhix-004/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-19T12:19:52",
-      "excerpt": "記事の URL: https://yassa9.github.io/osint/gralhix-004/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "re:Invent 2026 入場チケット早期購入w",
-      "link": "https://qiita.com/taro-yamada/items/e864886dd9d06b201e99",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-19T12:15:12",
-      "excerpt": "ラスベガスが好きすぎて滅！背景 そういえば「ラスベガスにいきたいかー？」と弊社の偉いひとから お声かけいただいたのは気がつけば一年前。＃その節は感謝しかないです。…"
+      "title": "家庭用バッテリーが突然安くなり、どこでも買えるようになりました。その理由は次のとおりです。",
+      "link": "https://techcrunch.com/2026/08/19/home-batteries-are-suddenly-cheap-and-everywhere-heres-why/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-19T13:40:00",
+      "excerpt": "テスラやベースパワーなどの企業は、急速に成長する家庭用蓄電池市場の一部を争っている。1 つのテクノロジーがすべてを可能にしました。…"
     }
   ]
 }
