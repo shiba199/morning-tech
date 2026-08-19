@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-19T23:12:59",
+  "generated_at": "2026-08-19T23:42:57",
   "window_hours": 24,
-  "total": 283,
+  "total": 288,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が56件。はじめに こんにちは。グループIT推進本部の Roki です。Claude CodeやOpenAI ...…",
+      "summary": "生成AIの新着が56件。AWS でも多くの生成AIサービスがリリースされてきました。サービスの違いをよく理解して使い分ける必要がありますが、今回の記事ではその中でも「データレジデンシー」の違いに注目した記事となります。生成AIの推論処理がどこで実施されているのか？…",
       "articles": [
+        {
+          "title": "AWSの主要生成AIサービスのデータレジデンシー比較 ― 日本国内リージョンで「完結できる」のはどのサービスか（2026年8月時点）",
+          "link": "https://qiita.com/Masayuki-Goto/items/5280848a57ff0dee6c7f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T23:29:06",
+          "excerpt": "AWS でも多くの生成AIサービスがリリースされてきました。サービスの違いをよく理解して使い分ける必要がありますが、今回の記事ではその中でも「データレジデンシー」の違いに注目した記事となります。生成AIの推論処理がどこで実施されているのか？…"
+        },
         {
           "title": "chezmoiで始めるdotfile管理 〜AIエージェント設定を複数ツールと複数マシンで共有する〜 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
           "link": "https://developers.cyberagent.co.jp/blog/archives/65099/",
@@ -29,21 +36,21 @@
           "source": "AWS What's New（英語）",
           "published": "2026-08-19T23:00:00",
           "excerpt": "今月初め、Google は、データゼロで安全な AWS 環境内にデータを維持しながら、現在の Web 知識に基づいてモデルの応答を基底化できる組み込みのサーバーサイド ツールである Amazon Bedrock でのウェブ検索 を発表しまし…"
-        },
-        {
-          "title": "苦しみながら会得した経験知の集大成『LLM・AIエージェントシステムベストプラクティス』発売",
-          "link": "https://codezine.jp/article/detail/29126",
-          "source": "CodeZine",
-          "published": "2026-08-19T22:30:00",
-          "excerpt": "苦しみながら会得した経験知の集大成『LLM・AIエージェントシステムベストプラクティス』発売"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が25件。保守しているシステムのAuroraMySQLのマイナーバージョンアップにあたって調査を行ったところ、メジャーバージョンとマイナーバージョンが切れた場合の影響が分かりにくかったためAWSサポートへ問い合わせました。…",
+      "summary": "クラウドの新着が24件。対象読者: AWSをこれから触る人。AWS勉強シリーズの7本目で、今回はLambdaです。全体の地図は索引記事にあります。Lambdaの説明でよく出る「サーバーレス」で、こういう疑問に引っかかった人向けに書きます。…",
       "articles": [
+        {
+          "title": "【図解】AWS Lambdaとは。サーバーレスの正体は「呼ばれた時だけ来る出張シェフ」",
+          "link": "https://qiita.com/daisuke-nagata/items/75b62e88978937ff3585",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T23:20:26",
+          "excerpt": "対象読者: AWSをこれから触る人。AWS勉強シリーズの7本目で、今回はLambdaです。全体の地図は索引記事にあります。Lambdaの説明でよく出る「サーバーレス」で、こういう疑問に引っかかった人向けに書きます。…"
+        },
         {
           "title": "RDSのメジャーバージョンとマイナーバージョンが切れた場合の違い",
           "link": "https://qiita.com/yuyuueue/items/73f138539161847b41fe",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-19T21:23:59",
           "excerpt": "はじめに RDS for PostgreSQLを作成したあと、アプリケーションからマスターユーザーで接続していないでしょうか。マスターユーザーはRoleやデータベースを作成できる強い管理ユーザーです。…"
-        },
-        {
-          "title": "Docker社、コンテナ向けの高性能な新ハイパーバイザ「Docker VMM」パブリックベータ公開",
-          "link": "https://www.publickey1.jp/blog/26/dockerdocker_vmm.html",
-          "source": "Publickey",
-          "published": "2026-08-19T17:43:24",
-          "excerpt": "Docker社は独自開発したコンテナ向けの高性能な新ハイパーバイザ「Docker VMM」をパブリックベータとして公開しました。WindowsとmacOSに対応した最新の「Docker Desktop v4.86」で利用可能です。Toda.…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。はじめにGitHub Actions で Node 20 を利用していると次のような警告が表示されています。Node.js 20 is deprecated.The following actions target Node.…",
+      "summary": "開発ツールの新着が15件。Cursorは、コードホスティング機能「Origin」の初期β版を提供開始した。リポジトリ管理やPR作成、GitHubとの双方向リアルタイム同期に対応し、AIエージェントとコードを同一環境で扱えるようになる。",
       "articles": [
+        {
+          "title": "「脱GitHub」の受け皿となるか　Cursorがコードホスト機能「Origin」β版を公開",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news026.html",
+          "source": "@IT",
+          "published": "2026-08-19T23:00:00",
+          "excerpt": "Cursorは、コードホスティング機能「Origin」の初期β版を提供開始した。リポジトリ管理やPR作成、GitHubとの双方向リアルタイム同期に対応し、AIエージェントとコードを同一環境で扱えるようになる。"
+        },
         {
           "title": "GitHub Actions Node 24 対応状況 | ゆめみのフィード",
           "link": "https://zenn.dev/yumemi_inc/articles/github-actions-node-24",
@@ -169,45 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-08-19T14:48:00",
           "excerpt": "最新版のGrok Build CLIにAmazon Bedrock（bedrock-mantle）用のカスタムモデルを設定し、AWS認証情報から生成したBearer TokenでGrok 4.6を呼び出してみました。…"
-        },
-        {
-          "title": "Claude Code + Amazon Bedrockで「AWS CLI操作先」と「Bedrock課金先」を別アカウントにする",
-          "link": "https://qiita.com/mmtakumma/items/b3120e663e97a954fc85",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-19T14:43:29",
-          "excerpt": "はじめに Claude CodeのバックエンドにAmazon Bedrockを使っていると、こんな構成にしたくなることがあります。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "Stripe は「特異点」を理由に実際には OpenRouter を購入しませんでした",
+      "link": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-19T23:32:00",
+      "excerpt": "決済大手は、異なる AI モデル間でプロンプトをルーティングするスタートアップに対して何を望んでいるでしょうか?ストライプ社はその理由を「特異点」のせいだとしているが、実際にはもっと現実的で強力な理由がある。"
+    },
+    {
+      "title": "年収800万円を境に「刺さる誘い文句」が変わる　エンジニアがスカウトを承諾する本当の理由",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news044.html",
+      "source": "@IT",
+      "published": "2026-08-19T23:00:00",
+      "excerpt": "リブセンスがエンジニア採用広報戦略に関する調査結果を公表。スカウト前の企業や組織の認知が指名承諾率を約1.5倍に高めることや、年収帯によって承諾理由に違いがあることなどが明らかとなった。"
+    },
+    {
+      "title": "モデルの利用料金は安くなっているのに、AIの総コスト上昇　「パラドクス」の背景を解説",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/20/news022.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-08-19T23:00:00",
+      "excerpt": "AIモデルの利用料金の低下が、かえってAIの総コストを押し上げている。Gartnerはワークフロー1件当たりのAI推論コストが2028年までに5倍以上に上昇すると予測する。同社が「推論のパラドックス」と呼ぶ、この逆説の中身とは。…"
+    },
+    {
       "title": "AWS、8月10日週に発表した新機能をまとめて紹介",
       "link": "https://codezine.jp/article/detail/29365",
       "source": "CodeZine",
       "published": "2026-08-19T23:00:00",
       "excerpt": "AWS、8月10日週に発表した新機能をまとめて紹介"
-    },
-    {
-      "title": "複雑な日時操作から解放されよう。JavaScriptの新標準「Temporal」の核心",
-      "link": "https://codezine.jp/article/detail/29306",
-      "source": "CodeZine",
-      "published": "2026-08-19T23:00:00",
-      "excerpt": "前回ではTemporalの概要を示し、Dateの問題点（0始まりの月、存在しないタイムゾーン、ミュータブルなオブジェクトなど）をピックアップしながら、Temporalにおけるアプローチを紹介しました。…"
-    },
-    {
-      "title": "Waymo の安価な次世代ロボタクシーが、これら 3 都市のすべての乗客に利用可能になりました",
-      "link": "https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-19T22:25:01",
-      "excerpt": "Waymo Ojai と呼ばれる次世代ロボタクシーは、同社の大量規模化、そして最終的には収益性の向上を目指す中核となります。"
-    },
-    {
-      "title": "Snowflake、動的モデルルーティングでAIコスト最適化とモデル選択肢を拡充",
-      "link": "https://codezine.jp/article/detail/29372",
-      "source": "CodeZine",
-      "published": "2026-08-19T22:00:00",
-      "excerpt": "Snowflake、動的モデルルーティングでAIコスト最適化とモデル選択肢を拡充"
     }
   ]
 }
