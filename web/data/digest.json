@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T12:20:31",
+  "generated_at": "2026-08-19T13:22:35",
   "window_hours": 24,
   "total": 280,
   "topic_count": 5,
@@ -7,8 +7,15 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が48件。AWS DevOps Agentでセカンダリリソース登録の順序を逆にしても大丈夫か検証してみました。…",
+      "summary": "生成AIの新着が50件。概要 AWSでBedrockを使うとき、所属するControl Towerでリージョンが縛ってある場合、普通に使おうとしたら使えないって怒られました。そんなときどうするか？…",
       "articles": [
+        {
+          "title": "Bedrockをリージョン制限下のControl Towerにて、SCP制限とかでうまくBedrockだけ使えないか考えてみた",
+          "link": "https://qiita.com/dais-w/items/b11756659000372b55d4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T13:00:46",
+          "excerpt": "概要 AWSでBedrockを使うとき、所属するControl Towerでリージョンが縛ってある場合、普通に使おうとしたら使えないって怒られました。そんなときどうするか？…"
+        },
         {
           "title": "AWS DevOps Agentのセカンダリリソース登録のステータス遷移を検証してみた",
           "link": "https://dev.classmethod.jp/articles/devops-agent-secondary-resource-status-transition/",
@@ -29,56 +36,56 @@
           "source": "DevelopersIO",
           "published": "2026-08-19T11:56:47",
           "excerpt": "AWS DevOps Agentの料金体系(Investigation/Evaluation/On-demand)を整理し、コストを抑えるポイントとエンタープライズサポート契約時に実質無料になり得る条件を試算した紹介記事。"
-        },
-        {
-          "title": "生成AI画像で“架空の女性”に成り済まして政治投稿か　立憲栃木県連の男性党員　一部報道",
-          "link": "https://www.itmedia.co.jp/news/article/2608/19/2000000632/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-19T11:21:49",
-          "excerpt": "立憲民主党栃木県連に党員登録している男性が、架空の女性に成り済ましてXで選挙や政治活動について投稿していたことが8月19日までに分かった。女性の画像は生成AIで作成したとみられ、アカウントは既に凍結されている。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。【AWS解説 S3編 #4】Block Public Accessとバケットポリシーの基本 S3編 #4（全7回予定） S3にファイルを保存できるようになると、次はアクセス制御が気になります。…",
+      "summary": "クラウドの新着が26件。はじめに 前回までの記事で、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…",
       "articles": [
+        {
+          "title": "AWS S3上のApache IcebergをAthena向けに運用する【運用編】",
+          "link": "https://qiita.com/naritomo08/items/f84d266b7f2f3a53d6e0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T13:00:51",
+          "excerpt": "はじめに 前回までの記事で、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…"
+        },
+        {
+          "title": "自宅HDFS上のApache IcebergをAWS S3へ複製してAthenaで分析する構成を考える【設計編】",
+          "link": "https://qiita.com/naritomo08/items/72361dafc6bbd0640a11",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T12:38:31",
+          "excerpt": "はじめに 自宅で構築しているログ収集基盤では、分析用データの保存形式として Apache Iceberg を利用しています。現在は主に次の構成で、HDFS 上の Iceberg テーブルを Spark や Trino から参照しています。…"
+        },
+        {
+          "title": "自宅HDFS上のApache IcebergをAmazon S3へ複製しAthenaから分析してみる【構築編】",
+          "link": "https://qiita.com/naritomo08/items/d3db5aefc9a56cc2b2a6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T12:38:31",
+          "excerpt": "はじめに 前回の設計編では、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に分析用 Iceberg コピーを作る方針を整理しました。今回は構築編です。実際に次の流れで作ります。…"
+        },
         {
           "title": "【AWS解説 S3編 #4】Block Public Accessとバケットポリシーの基本",
           "link": "https://qiita.com/suzunari900261/items/0293e251a7b2f01312ec",
           "source": "Qiita AWSタグ",
           "published": "2026-08-19T10:27:38",
           "excerpt": "【AWS解説 S3編 #4】Block Public Accessとバケットポリシーの基本 S3編 #4（全7回予定） S3にファイルを保存できるようになると、次はアクセス制御が気になります。…"
-        },
-        {
-          "title": "S3の署名付きURLとは？仕組みを簡単に解説",
-          "link": "https://qiita.com/mshr_n17/items/44312904d4bccd67bc42",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-19T09:35:46",
-          "excerpt": "はじめに AWSを勉強していると、S3の署名付きURL（Presigned URL） という言葉を目にすることがあります。…"
-        },
-        {
-          "title": "Zendesk による API トークン認証の廃止予告について - 影響範囲の調べ方と OAuth 移行を試してみた",
-          "link": "https://dev.classmethod.jp/articles/zendesk-api-token-eol-oauth-migration/",
-          "source": "DevelopersIO",
-          "published": "2026-08-19T08:54:12",
-          "excerpt": "Zendesk が API トークンによる API 認証を廃止し、2027 年 4 月 30 日にすべての API トークンが停止します。…"
-        },
-        {
-          "title": "香川の私鉄「ことでん」、券売機をほぼ廃止　スマホで買う「デジタル切符」に移行　地方鉄道で全国初",
-          "link": "https://www.itmedia.co.jp/news/article/2608/19/2000000631/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-19T08:41:21",
-          "excerpt": "高松琴平電気鉄道（ことでん）とレシップは8月19日、一部主要駅を除いて物理券売機を廃止し、スマートフォンで購入するデジタル切符に移行すると発表した。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。セキュリティチームのhikaeです。普段はAIセキュリティを中心に開発者に寄り添うセキュリティをやっています。8/3~8/10に開催された2つの海外カンファレンスの参加レポートを書きました。1.Black Hat／DEF CONとは？2.…",
+      "summary": "セキュリティの新着が17件。ブランド変更された機能は、ビデオなしで家庭に通知することを約束しますが、小さな文字には注意してください",
       "articles": [
+        {
+          "title": "Comcast が Wi-Fi モーション検知器のセキュリティを刷新",
+          "link": "https://www.theregister.com/security/2026/08/19/comcast-gives-its-wi-fi-motion-detector-a-security-makeover/5289572",
+          "source": "The Register（英語）",
+          "published": "2026-08-19T13:14:00",
+          "excerpt": "ブランド変更された機能は、ビデオなしで家庭に通知することを約束しますが、小さな文字には注意してください"
+        },
         {
           "title": "Black Hat／DEF CONで体験した、AIセキュリティの現在地 | freee Developers Hub",
           "link": "https://developers.freee.co.jp/entry/blackhat-defcon-2026",
@@ -99,48 +106,48 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-19T08:24:19",
           "excerpt": "さくらインターネットは8月19日、同社販売管理システムへの不正アクセスによって、最大136万563アカウントの会員情報が第三者に閲覧または取得された可能性があると発表した。19日時点でデータの外部持ち出しは確認していない。"
-        },
-        {
-          "title": "当社システムへの不正アクセスに関するお知らせ（第二報） | さくらインターネット",
-          "link": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/08/19/1968225633/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-08-19T06:43:19",
-          "excerpt": "2026年8月17日に公表した「当社レンタルサーバーサービスの一部環境に対する不正なアクセスについて」に関して、調査を継続しておりましたところ、新たに判明した事項がありますのでお知らせいたします。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。Microsoft Entra ID と SAML 連携することで、Amazon OpenSearch Service のロール設計を簡素化する方法を紹介します。複数テナント環境での管理を効率化したいとお考えの方は、ぜひご覧ください。",
+      "summary": "データ分析の新着が6件。はじめに 前回までの記事で、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…",
       "articles": [
+        {
+          "title": "AWS S3上のApache IcebergをAthena向けに運用する【運用編】",
+          "link": "https://qiita.com/naritomo08/items/f84d266b7f2f3a53d6e0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T13:00:51",
+          "excerpt": "はじめに 前回までの記事で、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…"
+        },
+        {
+          "title": "自宅HDFS上のApache IcebergをAWS S3へ複製してAthenaで分析する構成を考える【設計編】",
+          "link": "https://qiita.com/naritomo08/items/72361dafc6bbd0640a11",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T12:38:31",
+          "excerpt": "はじめに 自宅で構築しているログ収集基盤では、分析用データの保存形式として Apache Iceberg を利用しています。現在は主に次の構成で、HDFS 上の Iceberg テーブルを Spark や Trino から参照しています。…"
+        },
+        {
+          "title": "自宅HDFS上のApache IcebergをAmazon S3へ複製しAthenaから分析してみる【構築編】",
+          "link": "https://qiita.com/naritomo08/items/d3db5aefc9a56cc2b2a6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-19T12:38:31",
+          "excerpt": "はじめに 前回の設計編では、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に分析用 Iceberg コピーを作る方針を整理しました。今回は構築編です。実際に次の流れで作ります。…"
+        },
         {
           "title": "Amazon OpenSearch Service と Microsoft Entra ID を SAML 連携し、複数アプリロールでテナント切り替えを実現してみた",
           "link": "https://dev.classmethod.jp/articles/opensearch-entra-id-saml-tenant-switching/",
           "source": "DevelopersIO",
           "published": "2026-08-19T11:11:12",
           "excerpt": "Microsoft Entra ID と SAML 連携することで、Amazon OpenSearch Service のロール設計を簡素化する方法を紹介します。複数テナント環境での管理を効率化したいとお考えの方は、ぜひご覧ください。"
-        },
-        {
-          "title": "株式会社セガ、グローバル展開タイトル『ソニックランブル パーティ』を少人数チームで支える Amazon DynamoDB / Amazon ElastiCache Serverless for Valkey 活用事例",
-          "link": "https://aws.amazon.com/jp/blogs/news/sonic-rumble-party-dynamodb-elasticache/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-19T02:46:26",
-          "excerpt": "株式会社セガが開発・運用する『ソニックランブル パーティ』のバックエンドに Amazon DynamoDB と Amazon ElastiCache Serverless for Valkey を採用した経緯・技術的な工夫・得られた効果を、…"
-        },
-        {
-          "title": "【Pythonで学ぶデータ分析】対応のあるデータの母平均に差があるかどうかをベイズt検定で調べる ～ ホラー映画を観ると握力は上がるのか？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/19/news004.html",
-          "source": "@IT",
-          "published": "2026-08-18T20:00:00",
-          "excerpt": "手に汗握るホラー映画を観た後では、観る前よりも握力が強くなったような気がしませんか？同じ人の2回の測定値の差を求め、ベイズ統計により検定します。事前分布のパラメーターを変えても結果が安定するかどうかを調べる「感度分析」にも触れます。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。監視の盲点によりトラフィックがスパイラル化され、ロード バランサーが座屈した",
+      "summary": "開発ツールの新着が15件。監視の盲点によりトラフィックがスパイラル化され、ロード バランサーが座屈した",
       "articles": [
         {
           "title": "GitHub、8時間の停止は自動スケーリングの失敗とVS Codeの再試行嵐のせいだと主張",
@@ -175,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "CareCloud、370万人の患者がデータ侵害で医療記録を盗まれたことを確認",
+      "link": "https://techcrunch.com/2026/08/19/carecloud-confirms-3-7m-patients-had-their-medical-records-stolen-in-data-breach/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-19T13:04:10",
+      "excerpt": "CareCloud でのサイバー攻撃は、今年米国の医療業界で報告された最大のデータ侵害の 1 つを引き起こしました。"
+    },
+    {
+      "title": "Postgres の先駆者、Oracle がデータベースの世界制覇に貢献したと評価",
+      "link": "https://www.theregister.com/databases/2026/08/19/postgres-pioneer-credits-oracle-with-helping-his-database-take-over-the-world/5289087",
+      "source": "The Register（英語）",
+      "published": "2026-08-19T12:37:00",
+      "excerpt": "Big Red による MySQL の買収により、ユーザーはオープンソースの代替に走った、と Michael Stonebraker 氏は語る"
+    },
+    {
+      "title": "ジオメトリと CUDA プログラミングを使用してランダムな島の位置を特定する",
+      "link": "https://yassa9.github.io/osint/gralhix-004/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-19T12:19:52",
+      "excerpt": "記事の URL: https://yassa9.github.io/osint/gralhix-004/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
       "title": "re:Invent 2026 入場チケット早期購入w",
       "link": "https://qiita.com/taro-yamada/items/e864886dd9d06b201e99",
       "source": "Qiita AWSタグ",
       "published": "2026-08-19T12:15:12",
       "excerpt": "ラスベガスが好きすぎて滅！背景 そういえば「ラスベガスにいきたいかー？」と弊社の偉いひとから お声かけいただいたのは気がつけば一年前。＃その節は感謝しかないです。…"
-    },
-    {
-      "title": "何らかの理由で、大学の学費を Venmo で取得できる",
-      "link": "https://techcrunch.com/2026/08/19/you-can-venmo-your-college-tuition-for-some-reason/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-19T12:00:00",
-      "excerpt": "最近の子供たちは自分たちがどれだけ優れているかを知りません。"
-    },
-    {
-      "title": "AI はがんの治療には程遠いです。このスタートアップは、何が必要かを分かっていると言う。",
-      "link": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-19T12:00:00",
-      "excerpt": "それはデータです、愚か者。"
-    },
-    {
-      "title": "2027 年に GrapheneOS が Motorola のハイエンド携帯電話で利用可能に",
-      "link": "https://grapheneos.social/@GrapheneOS/117078064184215730",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-19T11:46:58",
-      "excerpt": "記事の URL: https://grapheneos.social/@GrapheneOS/117078064184215730 コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
