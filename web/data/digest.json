@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-19T11:14:28",
+  "generated_at": "2026-08-19T11:46:25",
   "window_hours": 24,
-  "total": 274,
+  "total": 275,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が44件。Amazon BedrockでxAIのGrok 4.6が利用可能になりました。…",
+      "summary": "生成AIの新着が45件。立憲民主党栃木県連に党員登録している男性が、架空の女性に成り済ましてXで選挙や政治活動について投稿していたことが8月19日までに分かった。女性の画像は生成AIで作成したとみられ、アカウントは既に凍結されている。",
       "articles": [
+        {
+          "title": "生成AI画像で“架空の女性”に成り済まして政治投稿か　立憲栃木県連の男性党員　一部報道",
+          "link": "https://www.itmedia.co.jp/news/article/2608/19/2000000632/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-19T11:21:49",
+          "excerpt": "立憲民主党栃木県連に党員登録している男性が、架空の女性に成り済ましてXで選挙や政治活動について投稿していたことが8月19日までに分かった。女性の画像は生成AIで作成したとみられ、アカウントは既に凍結されている。"
+        },
         {
           "title": "Amazon Bedrockで利用可能になったxAIのGrok 4.6を試してみた",
           "link": "https://dev.classmethod.jp/articles/grok-4-6-amazon-bedrock-mantle-iam/",
@@ -29,20 +36,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-19T07:57:57",
           "excerpt": "社内向けの業務エージェントを作っていて、どうしても割り切れなかった問題がある。ツール呼び出しの1回1回はすべて権限的に正しいのに、並びが間違っているというケースだ。具体的にはこうだった。…"
-        },
-        {
-          "title": "Cloudflare Sandboxesが 一般提供を開始　AIエージェントに持続的で隔離された環境を提供",
-          "link": "https://www.infoq.com/jp/news/2026/08/cloudflare-sandboxes-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-08-19T07:30:00",
-          "excerpt": "Cloudflare社はAgents Weekの一環として、SandboxesおよびCloudflare Containersの一般提供を発表し、AIエージェントのワークロード向けに持続的で隔離されたLinux環境を提供すると明らかにした。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が25件。【AWS解説 S3編 #4】Block Public Accessとバケットポリシーの基本 S3編 #4（全7回予定） S3にファイルを保存できるようになると、次はアクセス制御が気になります。…",
+      "summary": "クラウドの新着が24件。【AWS解説 S3編 #4】Block Public Accessとバケットポリシーの基本 S3編 #4（全7回予定） S3にファイルを保存できるようになると、次はアクセス制御が気になります。…",
       "articles": [
         {
           "title": "【AWS解説 S3編 #4】Block Public Accessとバケットポリシーの基本",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。株式会社セガが開発・運用する『ソニックランブル パーティ』のバックエンドに Amazon DynamoDB と Amazon ElastiCache Serverless for Valkey を採用した経緯・技術的な工夫・得られた効果を、…",
+      "summary": "データ分析の新着が3件。Microsoft Entra ID と SAML 連携することで、Amazon OpenSearch Service のロール設計を簡素化する方法を紹介します。複数テナント環境での管理を効率化したいとお考えの方は、ぜひご覧ください。",
       "articles": [
+        {
+          "title": "Amazon OpenSearch Service と Microsoft Entra ID を SAML 連携し、複数アプリロールでテナント切り替えを実現してみた",
+          "link": "https://dev.classmethod.jp/articles/opensearch-entra-id-saml-tenant-switching/",
+          "source": "DevelopersIO",
+          "published": "2026-08-19T11:11:12",
+          "excerpt": "Microsoft Entra ID と SAML 連携することで、Amazon OpenSearch Service のロール設計を簡素化する方法を紹介します。複数テナント環境での管理を効率化したいとお考えの方は、ぜひご覧ください。"
+        },
         {
           "title": "株式会社セガ、グローバル展開タイトル『ソニックランブル パーティ』を少人数チームで支える Amazon DynamoDB / Amazon ElastiCache Serverless for Valkey 活用事例",
           "link": "https://aws.amazon.com/jp/blogs/news/sonic-rumble-party-dynamodb-elasticache/",
@@ -133,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。GitHub ActionsとDiscord Webhookを組み合わせて、サーバーレスで定期通知システムを作ってみました。",
+      "summary": "開発ツールの新着が17件。監視の盲点によりトラフィックがスパイラル化され、ロード バランサーが座屈した",
       "articles": [
+        {
+          "title": "GitHub、8時間の停止は自動スケーリングの失敗とVS Codeの再試行嵐のせいだと主張",
+          "link": "https://www.theregister.com/saas/2026/08/19/github-blames-8-hour-outage-on-autoscaling-fail-and-vs-code-retry-storm/5289547",
+          "source": "The Register（英語）",
+          "published": "2026-08-19T11:40:00",
+          "excerpt": "監視の盲点によりトラフィックがスパイラル化され、ロード バランサーが座屈した"
+        },
         {
           "title": "GitHub ActionsとDiscord Webhookで定期通知システムを作ってみた",
           "link": "https://dev.classmethod.jp/articles/github-actions-discord-webhook-notification/",
@@ -155,13 +169,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-19T05:42:50",
           "excerpt": "はじめに 先日、Amazon EVSでEVS 9.1の初期セットアップ編を作成しました【No.1】【No.2】 No.1とNo.2のBlogでは、Amazon EVSを稼働させるためのAWS環境の整備から、i7i.…"
-        },
-        {
-          "title": "AIを活用した特殊詐欺対策、官民から募集　警察庁×GENIAC、懸賞金総額5000万円",
-          "link": "https://www.itmedia.co.jp/news/article/2608/19/2000000621/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-19T05:13:13",
-          "excerpt": "金融機関、通信事業者、SNS事業者、警察、税務署などからの応募を想定して"
         }
       ]
     }
