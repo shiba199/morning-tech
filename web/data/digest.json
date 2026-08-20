@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-20T05:00:10",
+  "generated_at": "2026-08-20T05:31:46",
   "window_hours": 24,
-  "total": 274,
+  "total": 279,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が51件。Claude Code の v2.1.236 〜 v2.1.237 のアップデートをご紹介します。ANTHROPIC_DEFAULT_MODEL の追加、新しい出力スタイルの追加と、ゲートウェイ利用時のキャッシュ修正が入りました。…",
+      "summary": "生成AIの新着が50件。Claude Code の v2.1.236 〜 v2.1.237 のアップデートをご紹介します。ANTHROPIC_DEFAULT_MODEL の追加、新しい出力スタイルの追加と、ゲートウェイ利用時のキャッシュ修正が入りました。…",
       "articles": [
         {
           "title": "Claude Code v2.1.236〜v2.1.237 の主要アップデート -  ANTHROPIC_DEFAULT_MODEL と出力スタイル Concise の追加",
@@ -15,6 +15,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-20T04:14:06",
           "excerpt": "Claude Code の v2.1.236 〜 v2.1.237 のアップデートをご紹介します。ANTHROPIC_DEFAULT_MODEL の追加、新しい出力スタイルの追加と、ゲートウェイ利用時のキャッシュ修正が入りました。…"
+        },
+        {
+          "title": "Vercel Labs、Zig製の小型コーディングエージェント「fx」をオープンソースで公開",
+          "link": "https://gihyo.jp/article/2026/08/vercel-labs-fx?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-08-20T04:07:00",
+          "excerpt": "Vercel Labsは2026年8月18日、単一のネイティブバイナリとして動作するコンパクトなコーディングエージェントハーネス兼CLI「fx」をApache 2.0ライセンスのもと、GitHub上でオープンソースとして公開した。"
         },
         {
           "title": "AIエージェントが“成果を生まない”のはなぜ？　その最大の理由と「戦力化する方法」",
@@ -29,21 +36,21 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-20T03:22:15",
           "excerpt": "AI コーディングエージェントのチーム展開に向けた段階的な環境整備の実践例を紹介しています"
-        },
-        {
-          "title": "Microsoft FoundryのHosted Agentを使ってエージェントを簡単にデプロイする | Taste of Tech Topics",
-          "link": "https://acro-engineer.hatenablog.com/entry/2026/08/20/120000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-20T03:00:00",
-          "excerpt": "1.はじめに こんにちは、2年目の飯棲です。夏となりましたが関東は比較的涼しい日が続きますね。涼しさからか元気にセミが鳴いていました。今回は、Microsoft Foundry の新機能である Hosted Agent について紹介します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。はじめに CloudFront でエッジ処理を入れたいと思ったとき、選択肢は 2 つあります。…",
+      "summary": "クラウドの新着が20件。AWSの新機能、Lambda Durable Functionsの登場で、ステートフルな長期間ワークフローの実現がより手軽に。Step Functionsとの違いや適切な使い分けを詳しく解説。",
       "articles": [
+        {
+          "title": "AWS Lambda Durable Functionsとは？Step Functionsとの違いと使い分けを徹底解説 | Zenet Tech Blog",
+          "link": "https://media.zenet-web.co.jp/entry/2026/08/20/132124",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-20T04:21:24",
+          "excerpt": "AWSの新機能、Lambda Durable Functionsの登場で、ステートフルな長期間ワークフローの実現がより手軽に。Step Functionsとの違いや適切な使い分けを詳しく解説。"
+        },
         {
           "title": "CloudFront Functions と Lambda@Edge の違いとユースケース整理",
           "link": "https://qiita.com/supermasaya11/items/5a7eea5424bca6a79a03",
@@ -64,13 +71,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-20T01:20:05",
           "excerpt": "はじめに 以前、アプリ向けのプッシュ通知の送信処理を、AWS Lambdaへの非同期invokeに変更した記事を書きました。…"
-        },
-        {
-          "title": "AIがそれらしい文章を書く時代に、なぜ「質問の仕方」を学ぶのか【CEDEC2026】",
-          "link": "https://codezine.jp/article/detail/29297",
-          "source": "CodeZine",
-          "published": "2026-08-20T00:00:00",
-          "excerpt": "「生成AIを使えば簡単にそれらしい文章が書ける時代に、わざわざ文章構成を考える必要はあるの？」。CEDEC2026の公募セッションで、DeNAの山口晴美氏はこの質問から話を始めた。前年の講演を聞いた参加者から、実際に寄せられたものだという。…"
         }
       ]
     },
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。GitHub Copilot for JetBrains、エンタープライズ向け管理機能を拡充",
+      "summary": "開発ツールの新着が16件。Vercel Labsは2026年8月18日、単一のネイティブバイナリとして動作するコンパクトなコーディングエージェントハーネス兼CLI「fx」をApache 2.0ライセンスのもと、GitHub上でオープンソースとして公開した。",
       "articles": [
+        {
+          "title": "Vercel Labs、Zig製の小型コーディングエージェント「fx」をオープンソースで公開",
+          "link": "https://gihyo.jp/article/2026/08/vercel-labs-fx?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-08-20T04:07:00",
+          "excerpt": "Vercel Labsは2026年8月18日、単一のネイティブバイナリとして動作するコンパクトなコーディングエージェントハーネス兼CLI「fx」をApache 2.0ライセンスのもと、GitHub上でオープンソースとして公開した。"
+        },
+        {
+          "title": "サービスごとに異なる原本管理を、一つの仕組みへ ──Digitization部「原本管理プロジェクト」の裏側 | Sansan Tech Blog",
+          "link": "https://buildersbox.corp-sansan.com/entry/2026/08/20/130000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-20T04:00:00",
+          "excerpt": "Sansan株式会社では、名刺や請求書、契約書など、お客様からお預かりした紙の情報をデータ化しています。データ化の裏側では、スキャンセンターで紙そのものを受け取り、保管し、必要な場所へ届ける「原本管理」の業務があります。…"
+        },
         {
           "title": "GitHub Copilot for JetBrains、エンタープライズ向け管理機能を拡充",
           "link": "https://codezine.jp/article/detail/29369",
@@ -162,52 +176,38 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-20T03:22:15",
           "excerpt": "AI コーディングエージェントのチーム展開に向けた段階的な環境整備の実践例を紹介しています"
-        },
-        {
-          "title": "Microsoft FoundryのHosted Agentを使ってエージェントを簡単にデプロイする | Taste of Tech Topics",
-          "link": "https://acro-engineer.hatenablog.com/entry/2026/08/20/120000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-20T03:00:00",
-          "excerpt": "1.はじめに こんにちは、2年目の飯棲です。夏となりましたが関東は比較的涼しい日が続きますね。涼しさからか元気にセミが鳴いていました。今回は、Microsoft Foundry の新機能である Hosted Agent について紹介します。…"
-        },
-        {
-          "title": "GitHub、トークン種別ごとの認証情報を無効化できる新機能を追加",
-          "link": "https://codezine.jp/article/detail/29367",
-          "source": "CodeZine",
-          "published": "2026-08-20T01:00:00",
-          "excerpt": "GitHub、トークン種別ごとの認証情報を無効化できる新機能を追加"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "MFAは「9割超が導入」、それでも8割が「IDaaSのリプレースを考える」切実な理由",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news049.html",
-      "source": "@IT",
-      "published": "2026-08-20T04:00:00",
-      "excerpt": "エムオーテックスは「多要素認証および条件付きアクセスに関する実態調査」の結果を公表した。9割超の企業がIDaaSの導入・検討を進める一方、約8割がリプレースを検討・実施しているという。"
+      "title": "AWS Organizations における Amazon Inspector 抑制ルールのベストプラクティス",
+      "link": "https://aws.amazon.com/jp/blogs/news/amazon-inspector-suppression-rules-best-practices-for-aws-organizations/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-08-20T05:30:49",
+      "excerpt": "マルチアカウント環境で数千件におよぶ脆弱性の検出結果を効果的に管理するには、適切な優先順位付けが不可欠です。…"
     },
     {
-      "title": "日立「JP1」がIBMの技術を統合　アラートに追われる運用現場をどう変えるのか",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news048.html",
-      "source": "@IT",
-      "published": "2026-08-20T04:00:00",
-      "excerpt": "システムの複雑化に伴い、膨大なアラートの照合や原因特定に追われるIT運用現場。日立「JP1」が打ち出す次世代の障害対応アプローチとはどのようなものなのか。"
+      "title": "Amazon Inspector を使用したソフトウェア部品表 (SBOM) のエクスポート",
+      "link": "https://aws.amazon.com/jp/blogs/news/export-a-software-bill-of-materials-using-amazon-inspector/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-08-20T05:26:10",
+      "excerpt": "Amazon Inspector を使用して、組織全体のリソースの統合されたソフトウェア部品表 (SBOM) を CycloneDx や SPDX 形式で Amazon S3 にエクスポートする方法を紹介します。…"
     },
     {
-      "title": "「パスワードを変えてもまだ危ない」　Cookie盗難524億件超え、必要な“もう一つ”の対策",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news034.html",
-      "source": "@IT",
-      "published": "2026-08-20T04:00:00",
-      "excerpt": "NordVPNは、情報窃取型マルウェアによるCookie流出の調査結果を発表した。世界で524億件超、日本国内でも約1.89億件の流出を確認。…"
+      "title": "ALB の 502 対策で keepalive タイムアウトを長くする理由を、パケットキャプチャで確認してみた",
+      "link": "https://dev.classmethod.jp/articles/alb-502-packet-capture/",
+      "source": "DevelopersIO",
+      "published": "2026-08-20T05:19:19",
+      "excerpt": "ALB の背後にサーバーを置く際、keep-alive タイムアウトの設定で 502 エラーが発生する仕組みをパケットキャプチャで検証しました。…"
     },
     {
-      "title": "【CLF-C02学習ログ #1】クラウドの「6つの利点」は暗記しなくていい ─ 起点はひとつだった",
-      "link": "https://qiita.com/nikiyo/items/59ac8e1a6260249ce62b",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-20T03:36:50",
-      "excerpt": "CLF-C02の学習ログ、1週目です。8月13日に着手し、受験日は9月12日。今週はAWS Skill Builderの「AWS Cloud Practitioner Essentials（日本語版）」のモジュール1を消化しました。…"
+      "title": "【イベントレポート】PHPカンファレンス2026 リジェクトコン&amp;amp;アフターイベントを3社共同開催しました！ | コドモン Product Team Blog",
+      "link": "https://tech.codmon.com/entry/2026/08/20/131149",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-20T04:11:49",
+      "excerpt": "こんにちは！プロダクト開発部の村松です。2026年8月6日（木）、コドモンオフィスにて「PHPカンファレンス2026 リジェクトコン amp;アフターイベント」を開催しました！…"
     }
   ]
 }
