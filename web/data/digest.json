@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-20T04:04:25",
+  "generated_at": "2026-08-20T05:00:10",
   "window_hours": 24,
-  "total": 269,
+  "total": 274,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が49件。AI コーディングエージェントのチーム展開に向けた段階的な環境整備の実践例を紹介しています",
+      "summary": "生成AIの新着が51件。Claude Code の v2.1.236 〜 v2.1.237 のアップデートをご紹介します。ANTHROPIC_DEFAULT_MODEL の追加、新しい出力スタイルの追加と、ゲートウェイ利用時のキャッシュ修正が入りました。…",
       "articles": [
+        {
+          "title": "Claude Code v2.1.236〜v2.1.237 の主要アップデート -  ANTHROPIC_DEFAULT_MODEL と出力スタイル Concise の追加",
+          "link": "https://dev.classmethod.jp/articles/20260820-cc-updates-v2-1-237/",
+          "source": "DevelopersIO",
+          "published": "2026-08-20T04:14:06",
+          "excerpt": "Claude Code の v2.1.236 〜 v2.1.237 のアップデートをご紹介します。ANTHROPIC_DEFAULT_MODEL の追加、新しい出力スタイルの追加と、ゲートウェイ利用時のキャッシュ修正が入りました。…"
+        },
+        {
+          "title": "AIエージェントが“成果を生まない”のはなぜ？　その最大の理由と「戦力化する方法」",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news047.html",
+          "source": "@IT",
+          "published": "2026-08-20T04:00:00",
+          "excerpt": "AIエージェントなどの自律型AIへの投資を増やす企業は9割に上る。ところが成果を生み出す段階に到達した企業は、わずか7％にとどまる。投資と成果にこれほど差が生じるのはなぜか。調査結果から理由と対策を探る。"
+        },
         {
           "title": "AI コーディングエージェントのチーム展開に向けた段階的な環境整備の実践例",
           "link": "https://aws.amazon.com/jp/blogs/news/scaling-ai-coding-agents-across-teams/",
@@ -22,28 +36,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-20T03:00:00",
           "excerpt": "1.はじめに こんにちは、2年目の飯棲です。夏となりましたが関東は比較的涼しい日が続きますね。涼しさからか元気にセミが鳴いていました。今回は、Microsoft Foundry の新機能である Hosted Agent について紹介します。…"
-        },
-        {
-          "title": "Amazon Bedrock の呼び出しで AWS Marketplace のエラーが発生するときの対処方法",
-          "link": "https://dev.classmethod.jp/articles/tsnote-bedrock-marketplace-error-solution/",
-          "source": "DevelopersIO",
-          "published": "2026-08-20T02:58:31",
-          "excerpt": "Amazon Bedrock で Claude モデルを呼び出した際に発生する AWS Marketplace のエラーについて、その原因と対処法を紹介します。"
-        },
-        {
-          "title": "Amazon Bedrock とロボティクスで目指す「未来の実験室」  ― AWS Summit Japan 2026 の Physical AI ―",
-          "link": "https://aws.amazon.com/jp/blogs/news/konicaminolta-future-lab-summit2026/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-20T02:57:42",
-          "excerpt": "本ブログは、コニカミノルタ株式会社と Amazon Web Services Japan が共同で執筆しました […]"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。AIにレガシーシステムのモダナイズを任せると、成果物は完成品に見えるのに現行にあった機能が抜けていることがあります。なぜそんなことが起きるのか、実際の移行プロジェクトで得た知見をお話しします。",
+      "summary": "クラウドの新着が20件。はじめに CloudFront でエッジ処理を入れたいと思ったとき、選択肢は 2 つあります。…",
       "articles": [
+        {
+          "title": "CloudFront Functions と Lambda@Edge の違いとユースケース整理",
+          "link": "https://qiita.com/supermasaya11/items/5a7eea5424bca6a79a03",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-20T04:06:48",
+          "excerpt": "はじめに CloudFront でエッジ処理を入れたいと思ったとき、選択肢は 2 つあります。…"
+        },
         {
           "title": "AIに任せたレガシーシステムのモダナイズで、仕様の移行漏れに気づけないのはなぜか",
           "link": "https://dev.classmethod.jp/articles/legacy-modernization-ai-spec-gap/",
@@ -52,32 +59,25 @@
           "excerpt": "AIにレガシーシステムのモダナイズを任せると、成果物は完成品に見えるのに現行にあった機能が抜けていることがあります。なぜそんなことが起きるのか、実際の移行プロジェクトで得た知見をお話しします。"
         },
         {
+          "title": "ブラウザのプッシュ通知(Web Push)をAWS Lambda経由で送信する",
+          "link": "https://zenn.dev/peipei/articles/024daacb1b0a14",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-20T01:20:05",
+          "excerpt": "はじめに 以前、アプリ向けのプッシュ通知の送信処理を、AWS Lambdaへの非同期invokeに変更した記事を書きました。…"
+        },
+        {
           "title": "AIがそれらしい文章を書く時代に、なぜ「質問の仕方」を学ぶのか【CEDEC2026】",
           "link": "https://codezine.jp/article/detail/29297",
           "source": "CodeZine",
           "published": "2026-08-20T00:00:00",
           "excerpt": "「生成AIを使えば簡単にそれらしい文章が書ける時代に、わざわざ文章構成を考える必要はあるの？」。CEDEC2026の公募セッションで、DeNAの山口晴美氏はこの質問から話を始めた。前年の講演を聞いた参加者から、実際に寄せられたものだという。…"
-        },
-        {
-          "title": "【図解】AWS Lambdaとは。サーバーレスの正体は「呼ばれた時だけ来る出張シェフ」",
-          "link": "https://qiita.com/daisuke-nagata/items/75b62e88978937ff3585",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-19T23:20:26",
-          "excerpt": "対象読者: AWSをこれから触る人。AWS勉強シリーズの7本目で、今回はLambdaです。全体の地図は索引記事にあります。Lambdaの説明でよく出る「サーバーレス」で、こういう疑問に引っかかった人向けに書きます。…"
-        },
-        {
-          "title": "RDSのメジャーバージョンとマイナーバージョンが切れた場合の違い",
-          "link": "https://qiita.com/yuyuueue/items/73f138539161847b41fe",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-19T23:11:13",
-          "excerpt": "保守しているシステムのAuroraMySQLのマイナーバージョンアップにあたって調査を行ったところ、メジャーバージョンとマイナーバージョンが切れた場合の影響が分かりにくかったためAWSサポートへ問い合わせました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。こんにちは！セキュリティ部のkaworuです。先日開催された、セキュリティ・キャンプ2026全国大会にて、専門B プロダクトセキュリティクラスの講義をセキュリティ部のeiji, yamane, kaworu の3名で担当しました。…",
+      "summary": "セキュリティの新着が18件。こんにちは！セキュリティ部のkaworuです。先日開催された、セキュリティ・キャンプ2026全国大会にて、専門B プロダクトセキュリティクラスの講義をセキュリティ部のeiji, yamane, kaworu の3名で担当しました。…",
       "articles": [
         {
           "title": "セキュリティ・キャンプ2026全国大会 専門B1「プロダクトセキュリティの理想と現実」講義を担当しました。 | freee Developers Hub",
@@ -85,6 +85,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-20T03:00:00",
           "excerpt": "こんにちは！セキュリティ部のkaworuです。先日開催された、セキュリティ・キャンプ2026全国大会にて、専門B プロダクトセキュリティクラスの講義をセキュリティ部のeiji, yamane, kaworu の3名で担当しました。…"
+        },
+        {
+          "title": "Security Hub MCP App × Claude Desktop の機能が追加されたので使い所を考えてみた",
+          "link": "https://zenn.dev/cscloud_blog/articles/security-hub-mcp-app",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-20T01:42:14",
+          "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！皆さんは Security Hub の Finding、severity の高い順に対応していますか？…"
         },
         {
           "title": "GitHub、トークン種別ごとの認証情報を無効化できる新機能を追加",
@@ -99,20 +106,13 @@
           "source": "@IT",
           "published": "2026-08-19T22:30:00",
           "excerpt": "さくらインターネットは、システムへの不正アクセスについての調査結果の第2報を公表した。新たに販売管理システムへの不正アクセスの可能性を確認し、会員情報最大約136万件に影響が及んだ可能性があるという。"
-        },
-        {
-          "title": "「人がミスするから事故が起きる」はもう古い？　NISTが仕掛けるセキュリティ新構想",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news033.html",
-          "source": "@IT",
-          "published": "2026-08-19T22:00:00",
-          "excerpt": "「従業員がクリックした」「パスワードを使い回した」――サイバー攻撃では人間のミスが原因として語られがちだ。だが、人間に常に正しい判断を求めるセキュリティ設計そのものに問題はないのか。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が10件。中国の動画共有サービス「bilibili」は8月19日、グローバル版アプリの提供を開始したと発表した。まずAndroid版をGoogle Playで配信しており、本人確認書類なしでアカウントを登録できる。",
+      "summary": "データ分析の新着が11件。中国の動画共有サービス「bilibili」は8月19日、グローバル版アプリの提供を開始したと発表した。まずAndroid版をGoogle Playで配信しており、本人確認書類なしでアカウントを登録できる。",
       "articles": [
         {
           "title": "中国の動画サイト「bilibili」にグローバル版アプリ　日本でも配信開始　まずはAndroidから",
@@ -120,6 +120,13 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-20T03:45:42",
           "excerpt": "中国の動画共有サービス「bilibili」は8月19日、グローバル版アプリの提供を開始したと発表した。まずAndroid版をGoogle Playで配信しており、本人確認書類なしでアカウントを登録できる。"
+        },
+        {
+          "title": "Fluent Bit のチューニングで CloudWatch Logs のコストを月50万円削減した",
+          "link": "https://zenn.dev/primenumber/articles/20260819_fluent_bit_blog",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-19T23:48:48",
+          "excerpt": "サマリ Fluent Bit の Kubernetes フィルタが付与するメタデータはデータ量が多く、CloudWatch Logs のコストに直結します。…"
         },
         {
           "title": "BIOS アップデートにより Ryzen 7040 ラップトップが壊れるという苦情に Framework が対応",
@@ -134,21 +141,21 @@
           "source": "AWS What's New（英語）",
           "published": "2026-08-19T17:54:00",
           "excerpt": "本日より、お客様は AWS GovCloud (米国東部) と AWS GovCloud (米国西部) で Amazon OpenSearch Ingestion を使用して、Amazon OpenSearch Service 管理対象クラ…"
-        },
-        {
-          "title": "DynamoDB がベクトル検索に対応したので試してみた",
-          "link": "https://qiita.com/leomarokun/items/b2e138e16c33d97938cb",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-19T15:03:46",
-          "excerpt": "はじめに DynamoDB に埋め込みベクトルを保存して、そのまま類似度検索までできるようになったようです。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。AI コーディングエージェントのチーム展開に向けた段階的な環境整備の実践例を紹介しています",
+      "summary": "開発ツールの新着が15件。GitHub Copilot for JetBrains、エンタープライズ向け管理機能を拡充",
       "articles": [
+        {
+          "title": "GitHub Copilot for JetBrains、エンタープライズ向け管理機能を拡充",
+          "link": "https://codezine.jp/article/detail/29369",
+          "source": "CodeZine",
+          "published": "2026-08-20T04:00:00",
+          "excerpt": "GitHub Copilot for JetBrains、エンタープライズ向け管理機能を拡充"
+        },
         {
           "title": "AI コーディングエージェントのチーム展開に向けた段階的な環境整備の実践例",
           "link": "https://aws.amazon.com/jp/blogs/news/scaling-ai-coding-agents-across-teams/",
@@ -169,45 +176,38 @@
           "source": "CodeZine",
           "published": "2026-08-20T01:00:00",
           "excerpt": "GitHub、トークン種別ごとの認証情報を無効化できる新機能を追加"
-        },
-        {
-          "title": "「脱GitHub」の受け皿となるか　Cursorがコードホスト機能「Origin」β版を公開",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news026.html",
-          "source": "@IT",
-          "published": "2026-08-19T23:00:00",
-          "excerpt": "Cursorは、コードホスティング機能「Origin」の初期β版を提供開始した。リポジトリ管理やPR作成、GitHubとの双方向リアルタイム同期に対応し、AIエージェントとコードを同一環境で扱えるようになる。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "MFAは「9割超が導入」、それでも8割が「IDaaSのリプレースを考える」切実な理由",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news049.html",
+      "source": "@IT",
+      "published": "2026-08-20T04:00:00",
+      "excerpt": "エムオーテックスは「多要素認証および条件付きアクセスに関する実態調査」の結果を公表した。9割超の企業がIDaaSの導入・検討を進める一方、約8割がリプレースを検討・実施しているという。"
+    },
+    {
+      "title": "日立「JP1」がIBMの技術を統合　アラートに追われる運用現場をどう変えるのか",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news048.html",
+      "source": "@IT",
+      "published": "2026-08-20T04:00:00",
+      "excerpt": "システムの複雑化に伴い、膨大なアラートの照合や原因特定に追われるIT運用現場。日立「JP1」が打ち出す次世代の障害対応アプローチとはどのようなものなのか。"
+    },
+    {
+      "title": "「パスワードを変えてもまだ危ない」　Cookie盗難524億件超え、必要な“もう一つ”の対策",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news034.html",
+      "source": "@IT",
+      "published": "2026-08-20T04:00:00",
+      "excerpt": "NordVPNは、情報窃取型マルウェアによるCookie流出の調査結果を発表した。世界で524億件超、日本国内でも約1.89億件の流出を確認。…"
+    },
+    {
       "title": "【CLF-C02学習ログ #1】クラウドの「6つの利点」は暗記しなくていい ─ 起点はひとつだった",
       "link": "https://qiita.com/nikiyo/items/59ac8e1a6260249ce62b",
       "source": "Qiita AWSタグ",
       "published": "2026-08-20T03:36:50",
       "excerpt": "CLF-C02の学習ログ、1週目です。8月13日に着手し、受験日は9月12日。今週はAWS Skill Builderの「AWS Cloud Practitioner Essentials（日本語版）」のモジュール1を消化しました。…"
-    },
-    {
-      "title": "組織として技術的負債に立ち向かう — 「伝わらない問題」を乗り越えるために | 虎の穴ラボ技術ブログ",
-      "link": "https://toranoana-lab.hatenablog.com/entry/2026/08/20/120000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-20T03:00:00",
-      "excerpt": "はじめに 技術的負債は「あとから増える」ものではなく「その瞬間に生まれる」もの すべての負債が「悪」ではない — Fowlerの四象限 なぜステークホルダーに理解されないのか 動いているシステムは「問題ない」ように見える 機能追加・改善が常…"
-    },
-    {
-      "title": "Rustの所有権を学び直した — C#/C++出身のレビュアーとして | スパイダープラス Tech Blog",
-      "link": "https://techblog.spiderplus.co.jp/entry/2026/08/20/120000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-20T03:00:00",
-      "excerpt": "AIがコードを書き、別のAIがそれをレビューし、私が承認していました。あるとき、自分の名前で残っているレビュー指摘を読み返して、なぜそれが正しいのかを説明できないことに気づきました。…"
-    },
-    {
-      "title": "ggplot2で魅せる論文用Figure作図② ｜Volcano Plot | バイオインフォマティクス実践ラボ｜アメリエフ技術ブログ",
-      "link": "https://staffblog.amelieff.jp/entry/2026/08/20/120000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-20T03:00:00",
-      "excerpt": "RNA-seqにおけるVolcanoPlotをggplot2で論文級に美しく可視化する手法の解説記事。任意の遺伝子にラベルを表示させたり、発現量に応じた配色設定などをご紹介します。"
     }
   ]
 }
