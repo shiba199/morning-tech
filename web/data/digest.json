@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-19T23:42:57",
+  "generated_at": "2026-08-20T00:33:54",
   "window_hours": 24,
-  "total": 288,
+  "total": 290,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が56件。AWS でも多くの生成AIサービスがリリースされてきました。サービスの違いをよく理解して使い分ける必要がありますが、今回の記事ではその中でも「データレジデンシー」の違いに注目した記事となります。生成AIの推論処理がどこで実施されているのか？…",
+      "summary": "生成AIの新着が56件。Claude Codeの `effort` パラメータについて、公式ドキュメントの最新情報をもとに仕様や挙動、thinkingとの関係性をまとめました。タスクのユースケースに応じたレベル設定の考え方についても紹介します。",
       "articles": [
+        {
+          "title": "Claude Code の effort パラメータについて、公式ドキュメントを参考にまとめてみた（2026/8/20時点）",
+          "link": "https://dev.classmethod.jp/articles/claude-code-effort-202608/",
+          "source": "DevelopersIO",
+          "published": "2026-08-19T23:49:50",
+          "excerpt": "Claude Codeの `effort` パラメータについて、公式ドキュメントの最新情報をもとに仕様や挙動、thinkingとの関係性をまとめました。タスクのユースケースに応じたレベル設定の考え方についても紹介します。"
+        },
         {
           "title": "AWSの主要生成AIサービスのデータレジデンシー比較 ― 日本国内リージョンで「完結できる」のはどのサービスか（2026年8月時点）",
           "link": "https://qiita.com/Masayuki-Goto/items/5280848a57ff0dee6c7f",
@@ -29,21 +36,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-19T23:00:05",
           "excerpt": "今回はオススメの書籍を紹介します。ちなみに、私は読書があまり好きではありません。そんな私がオススメするのですから、相当気に入ったのだと思います（笑）!この記事は宣伝やアフィリエイト目的ではなく、個人の感想を述べる内容になっています。…"
-        },
-        {
-          "title": "Amazon Bedrock での Web 検索のための外部 Web アクセスの開始",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-19T23:00:00",
-          "excerpt": "今月初め、Google は、データゼロで安全な AWS 環境内にデータを維持しながら、現在の Web 知識に基づいてモデルの応答を基底化できる組み込みのサーバーサイド ツールである Amazon Bedrock でのウェブ検索 を発表しまし…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が24件。対象読者: AWSをこれから触る人。AWS勉強シリーズの7本目で、今回はLambdaです。全体の地図は索引記事にあります。Lambdaの説明でよく出る「サーバーレス」で、こういう疑問に引っかかった人向けに書きます。…",
+      "summary": "クラウドの新着が24件。「生成AIを使えば簡単にそれらしい文章が書ける時代に、わざわざ文章構成を考える必要はあるの？」。CEDEC2026の公募セッションで、DeNAの山口晴美氏はこの質問から話を始めた。前年の講演を聞いた参加者から、実際に寄せられたものだという。…",
       "articles": [
+        {
+          "title": "AIがそれらしい文章を書く時代に、なぜ「質問の仕方」を学ぶのか【CEDEC2026】",
+          "link": "https://codezine.jp/article/detail/29297",
+          "source": "CodeZine",
+          "published": "2026-08-20T00:00:00",
+          "excerpt": "「生成AIを使えば簡単にそれらしい文章が書ける時代に、わざわざ文章構成を考える必要はあるの？」。CEDEC2026の公募セッションで、DeNAの山口晴美氏はこの質問から話を始めた。前年の講演を聞いた参加者から、実際に寄せられたものだという。…"
+        },
         {
           "title": "【図解】AWS Lambdaとは。サーバーレスの正体は「呼ばれた時だけ来る出張シェフ」",
           "link": "https://qiita.com/daisuke-nagata/items/75b62e88978937ff3585",
@@ -64,20 +71,13 @@
           "source": "The Register（英語）",
           "published": "2026-08-19T22:38:41",
           "excerpt": "「それは積極的な脅威だ」"
-        },
-        {
-          "title": "RDS for PostgreSQL初期設計 マスターユーザーを避けRoleを用途別に分ける",
-          "link": "https://qiita.com/s_horikoshi/items/dbd86dde2fc5c7a8e5b7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-19T21:23:59",
-          "excerpt": "はじめに RDS for PostgreSQLを作成したあと、アプリケーションからマスターユーザーで接続していないでしょうか。マスターユーザーはRoleやデータベースを作成できる強い管理ユーザーです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。さくらインターネットは、システムへの不正アクセスについての調査結果の第2報を公表した。新たに販売管理システムへの不正アクセスの可能性を確認し、会員情報最大約136万件に影響が及んだ可能性があるという。",
+      "summary": "セキュリティの新着が15件。さくらインターネットは、システムへの不正アクセスについての調査結果の第2報を公表した。新たに販売管理システムへの不正アクセスの可能性を確認し、会員情報最大約136万件に影響が及んだ可能性があるという。",
       "articles": [
         {
           "title": "さくらインターネット、不正アクセス第二報　販管システムにも被害及ぶ",
@@ -94,18 +94,18 @@
           "excerpt": "「従業員がクリックした」「パスワードを使い回した」――サイバー攻撃では人間のミスが原因として語られがちだ。だが、人間に常に正しい判断を求めるセキュリティ設計そのものに問題はないのか。…"
         },
         {
+          "title": "さくらインターネットへの不正アクセスについてまとめてみた - piyolog",
+          "link": "https://piyolog.hatenadiary.jp/entry/2026/08/20/023850",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-08-19T21:37:29",
+          "excerpt": "2026年8月17日、さくらインターネット株式会社は、同社が提供する「さくらのレンタルサーバ」の一部が不正アクセスの被害にあったことを公表しました。…"
+        },
+        {
           "title": "「パスワード平文保存」が今なお繰り返される真因　徳丸浩が警告する「形だけのセキュリティ」",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news004.html",
           "source": "@IT",
           "published": "2026-08-19T20:00:00",
           "excerpt": "「パスワードの平文保存」や「トークンの誤公開」など、なぜ「やってはいけないこと」は繰り返されるのか。…"
-        },
-        {
-          "title": "[アップデート] IAM Policy AutopilotがTerraformのplanファイルをサポートするようになりました",
-          "link": "https://dev.classmethod.jp/articles/iam-policy-autopilot-supports-terraform-plan-files/",
-          "source": "DevelopersIO",
-          "published": "2026-08-19T14:10:46",
-          "excerpt": "Terraformの実行権限、実質Admin権限になっていませんか？そんな悩みを解決してくれるIAM Policy Autopilotが、Terraform planファイルに対応しました。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Stripe は「特異点」を理由に実際には OpenRouter を購入しませんでした",
-      "link": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-19T23:32:00",
-      "excerpt": "決済大手は、異なる AI モデル間でプロンプトをルーティングするスタートアップに対して何を望んでいるでしょうか?ストライプ社はその理由を「特異点」のせいだとしているが、実際にはもっと現実的で強力な理由がある。"
+      "title": "Amazon Connect Customerで大阪の06番号を取得、引き継げるようになっていました",
+      "link": "https://dev.classmethod.jp/articles/amazon-connect-osaka-06-phone-number/",
+      "source": "DevelopersIO",
+      "published": "2026-08-20T00:05:34",
+      "excerpt": "Amazon Connect Customerで大阪の06番号が利用できるようになりました。新規取得と番号ポータビリティの両方に対応した、その条件と手続きについて紹介します。"
     },
     {
-      "title": "年収800万円を境に「刺さる誘い文句」が変わる　エンジニアがスカウトを承諾する本当の理由",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news044.html",
-      "source": "@IT",
-      "published": "2026-08-19T23:00:00",
-      "excerpt": "リブセンスがエンジニア採用広報戦略に関する調査結果を公表。スカウト前の企業や組織の認知が指名承諾率を約1.5倍に高めることや、年収帯によって承諾理由に違いがあることなどが明らかとなった。"
+      "title": "Docker のビルドキャッシュの肥大化を自動削除設定で抑制する方法",
+      "link": "https://dev.classmethod.jp/articles/dafujii-docker-build-cache-garbage-collection/",
+      "source": "DevelopersIO",
+      "published": "2026-08-20T00:00:09",
+      "excerpt": "Docker のビルドキャッシュが膨らむのは GC が動いていないからではなく、削除条件が想像より寛容だからです。daemon.…"
     },
     {
-      "title": "モデルの利用料金は安くなっているのに、AIの総コスト上昇　「パラドクス」の背景を解説",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/20/news022.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-08-19T23:00:00",
-      "excerpt": "AIモデルの利用料金の低下が、かえってAIの総コストを押し上げている。Gartnerはワークフロー1件当たりのAI推論コストが2028年までに5倍以上に上昇すると予測する。同社が「推論のパラドックス」と呼ぶ、この逆説の中身とは。…"
-    },
-    {
-      "title": "AWS、8月10日週に発表した新機能をまとめて紹介",
-      "link": "https://codezine.jp/article/detail/29365",
+      "title": "Googleカレンダー、迷惑な招待をユーザーブロックで防止する新機能発表",
+      "link": "https://codezine.jp/article/detail/29366",
       "source": "CodeZine",
-      "published": "2026-08-19T23:00:00",
-      "excerpt": "AWS、8月10日週に発表した新機能をまとめて紹介"
+      "published": "2026-08-20T00:00:00",
+      "excerpt": "Googleカレンダー、迷惑な招待をユーザーブロックで防止する新機能発表"
+    },
+    {
+      "title": "スタートアップ時にAWSで最初にやるべきコスト削減のための設計② ～ NATゲートウェイ本当にいりますか？～",
+      "link": "https://qiita.com/lscrfts_info/items/3818ab6a1ee47883db1e",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-19T23:59:32",
+      "excerpt": "AWSの構成例を見ていると、よく登場するのがNAT Gatewayというサービスです。はて？何をするものでしょうか？簡単に言えば、プライベートサブネットから外部へ通信するための出口です。じゃあ、外部へ出なければ使わなくてもいいじゃない？…"
     }
   ]
 }
