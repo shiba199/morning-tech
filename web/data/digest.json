@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-20T09:04:53",
+  "generated_at": "2026-08-20T09:56:25",
   "window_hours": 24,
-  "total": 284,
+  "total": 287,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が53件。本ブログは 株式会社 PKUTECH と Amazon Web Services Japan 合同会社が共同で […]",
+      "summary": "生成AIの新着が56件。Amazon Bedrock Web Search の external_web_access が有効化されました。…",
       "articles": [
+        {
+          "title": "Amazon Bedrock Web Search の external_web_access が有効化されたので、GPT-5.6 Lunaで試してみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-web-search-external-web-access/",
+          "source": "DevelopersIO",
+          "published": "2026-08-20T09:53:11",
+          "excerpt": "Amazon Bedrock Web Search の external_web_access が有効化されました。…"
+        },
+        {
+          "title": "バイナンスは AI エージェントに取引を許可しているが、AI エージェントを抑制するかどうかは主にユーザーにかかっています",
+          "link": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-20T09:30:00",
+          "excerpt": "Binance のエージェント OS は、ChatGPT、Claude Code、Cursor などのツールと連携して動作します。"
+        },
         {
           "title": "PKUTECH が Amazon Bedrock を活用して実現した AI-CSPM「Egeria-Security」のセキュアな設計",
           "link": "https://aws.amazon.com/jp/blogs/news/genai-case-study-pkutech/",
@@ -22,27 +36,13 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-20T07:56:31",
           "excerpt": "2026 年8 月 10 日週、OpenSearch と Valkey のチームはソウルを訪問し、Open S […]"
-        },
-        {
-          "title": "AWS DevOps Agent のスキルで references/ は本当に効いているのか、あり・なしを比較して検証してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-skill-references/",
-          "source": "DevelopersIO",
-          "published": "2026-08-20T07:03:31",
-          "excerpt": "参照ファイルにしかない情報を答えられるか、3 パターンで比べました。"
-        },
-        {
-          "title": "AI エージェントはマルウェア パッケージのインストールを提案しました。エンジニアはアドバイスをほぼ受け入れた",
-          "link": "https://www.theregister.com/security/2026/08/20/ai-agent-suggested-installing-a-malware-package-engineer-almost-took-its-advice/5289849",
-          "source": "The Register（英語）",
-          "published": "2026-08-20T07:00:00",
-          "excerpt": "幸いなことに、同社は最初に GitHub でソースコードを確認するというポリシーを持っていました。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。はじめに DynamoDB の Zero-ETL 統合で、ターゲットを General Purpose S3 バケット（Apache Iceberg 形式） にする構成をクロスアカウントで構築しました。…",
+      "summary": "クラウドの新着が19件。はじめに DynamoDB の Zero-ETL 統合で、ターゲットを General Purpose S3 バケット（Apache Iceberg 形式） にする構成をクロスアカウントで構築しました。…",
       "articles": [
         {
           "title": "【クロスアカウント】DynamoDB Zero-ETL → S3（Iceberg）ターゲットの構築手順と注意点",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。Cursor、Git大規模ホスティング向けストレージ「Continuity」発表",
+      "summary": "開発ツールの新着が15件。Cursor、Git大規模ホスティング向けストレージ「Continuity」発表",
       "articles": [
         {
           "title": "Cursor、Git大規模ホスティング向けストレージ「Continuity」発表",
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "「AI開発環境をスモールスタート！Kiroで変える開発チームの生産性」というタイトルで登壇しました",
+      "link": "https://dev.classmethod.jp/articles/kiro-ai-spec-driven-development-webinar-20260729/",
+      "source": "DevelopersIO",
+      "published": "2026-08-20T09:30:30",
+      "excerpt": "Kiroのウェビナーに登壇しました。Kiroを用いた仕様駆動開発の嬉しいポイントと、Kiro独自の機能である「Spec」機能の使い方について、資料と実演デモを交えてご紹介します。"
+    },
+    {
+      "title": "Retention Messaging でサブスクリプションの解約画面から継続利用を促せるようになるらしい | every Tech Blog",
+      "link": "https://tech.every.tv/entry/2026/08/20/175228",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-20T08:52:28",
+      "excerpt": "title はじめに こんにちは、株式会社エブリーでデリッシュキッチンのiOSアプリの開発をしている成田です。現在は、プレミアムユーザーの登録数の向上やプレミアムユーザーの体験をより良くすることを目的としたチームで開発をしています。…"
+    },
+    {
       "title": "Kite、AWS HealthOmics を活用し細胞治療研究向けのスケーラブルなバイオインフォマティクスを推進",
       "link": "https://aws.amazon.com/jp/blogs/news/kite-advances-scalable-bioinformatics-for-cell-therapy-research-in-collaboration-with-aws-healthomics/",
       "source": "AWS 公式ブログ（日本語）",
@@ -189,25 +203,11 @@
       "excerpt": "Gilead 傘下の Kite は、プロジェクトごとに分断されていたバイオインフォマティクスのワークフローを、AWS HealthOmics を軸にした標準化されたクラウド基盤へ移行しました。…"
     },
     {
-      "title": "Isaac LabとPPOで始めるUnitree G1のボトル把持・持ち上げ強化学習プロジェクト：Object-Relative補正とDGX Spark・実機統合",
-      "link": "https://dev.classmethod.jp/articles/g1_bottle_pick_and_lift_rl_week_3/",
-      "source": "DevelopersIO",
-      "published": "2026-08-20T08:26:06",
-      "excerpt": "Week 3 progress of the G1 Bottle Pick-and-Lift Reinforcement Learning project!"
-    },
-    {
-      "title": "開発中: ベルリン、ハイデラバード、サンパウロの AWS Builder Lofts",
-      "link": "https://aws.amazon.com/jp/blogs/news/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-08-20T08:24:55",
-      "excerpt": "クラウドコンピューティングの初期の頃、AWS は世界中の都市で AWS Pop-up Lofts と呼ばれる物 […]"
-    },
-    {
-      "title": "AWSの小さな課金を、100倍になった時を想像して下げた",
-      "link": "https://qiita.com/chooser/items/7254cfac7312b1746413",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-20T08:21:44",
-      "excerpt": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。…"
+      "title": "SparkyLinux 8.4 は 32 ビット PC のサポートを再燃します",
+      "link": "https://www.theregister.com/os-platforms/2026/08/20/sparkylinux-84-rekindles-support-for-32-bit-pcs/5289203",
+      "source": "The Register（英語）",
+      "published": "2026-08-20T08:45:00",
+      "excerpt": "Debian 13 派生版は最小限の x86 イメージを提供し、CDE を再び利用できるようにします"
     }
   ]
 }
