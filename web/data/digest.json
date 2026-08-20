@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-20T13:24:31",
+  "generated_at": "2026-08-20T14:06:12",
   "window_hours": 24,
-  "total": 291,
+  "total": 300,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が55件。影響を受けたユーザーは、サポートが以前の承認を復元したり、新しい決定を無効にしたりすることはできないと述べている",
+      "summary": "生成AIの新着が56件。はじめに こんにちは。株式会社ファンリードの森 龍太です。いつもは活動名Martimでやらせてもらっていますが、今回Jr.Championに選出いただきました！この記事は「2026 Japan AWS Jr.…",
       "articles": [
+        {
+          "title": "生成AIに個人情報を送る前に一呼吸——Bedrock Guardrailsだけで作るPIIマスキングツール",
+          "link": "https://qiita.com/Martim500/items/f257a0fb27a3e4ed3cf4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-20T13:58:28",
+          "excerpt": "はじめに こんにちは。株式会社ファンリードの森 龍太です。いつもは活動名Martimでやらせてもらっていますが、今回Jr.Championに選出いただきました！この記事は「2026 Japan AWS Jr.…"
+        },
         {
           "title": "OpenAI の不具合により、精査されたサイバー研究者が締め出される - 中には戻れない人もいる",
           "link": "https://www.theregister.com/ai-and-ml/2026/08/20/openai-glitch-locks-out-vetted-cyber-researchers-and-some-cant-get-back-in/5290238",
@@ -29,21 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-20T09:59:45",
           "excerpt": "Claude Max 20xの非公開の週次上限は、Max 5xの何倍なのか。3アカウントのデータを使って検証した。"
-        },
-        {
-          "title": "Amazon Bedrock Web Search の external_web_access が有効化されたので、GPT-5.6 Lunaで試してみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-web-search-external-web-access/",
-          "source": "DevelopersIO",
-          "published": "2026-08-20T09:53:11",
-          "excerpt": "Amazon Bedrock Web Search の external_web_access が有効化されました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。はじめに Kafka から HDFS へ syslog / authlog の raw ログを保存しています。普段の処理は HDFS 上の raw ログを起点にしていますが、raw データを別の場所にもコピーしておけると少し安心です。…",
+      "summary": "クラウドの新着が19件。対象読者: AWSをこれから触る人。AWS勉強シリーズの8本目です。全体の地図は索引記事にあります。この記事を読むと、次の2つの症状が自分で切り分けられるようになります。「EC2にPostgreSQLを入れるのと何が違うの?…",
       "articles": [
+        {
+          "title": "【図解】AWS RDSとは。データベースの「管理人付き賃貸」と、止めたのに請求が来る理由",
+          "link": "https://qiita.com/daisuke-nagata/items/ba2af16cfe1ffccc0fcc",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-20T14:05:04",
+          "excerpt": "対象読者: AWSをこれから触る人。AWS勉強シリーズの8本目です。全体の地図は索引記事にあります。この記事を読むと、次の2つの症状が自分で切り分けられるようになります。「EC2にPostgreSQLを入れるのと何が違うの?…"
+        },
         {
           "title": "Hadoop distcpでHDFSのrawログをAmazon S3へバックアップしてみる",
           "link": "https://qiita.com/naritomo08/items/f1dcbe541ee7e416f6dd",
@@ -52,33 +59,33 @@
           "excerpt": "はじめに Kafka から HDFS へ syslog / authlog の raw ログを保存しています。普段の処理は HDFS 上の raw ログを起点にしていますが、raw データを別の場所にもコピーしておけると少し安心です。…"
         },
         {
+          "title": "サーバーレスDB×Lambdaで大量接続時にタイムアウト発生。スケールアップせずAPI Gatewayキャッシュで解決した話",
+          "link": "https://zenn.dev/suekichi_system/articles/0b0da7ea0c1a20",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-20T11:27:36",
+          "excerpt": "🚀 はじめに 従量課金型のマネージドDB（サーバーレスDB）をバックエンドに、AWS Lambda + API Gatewayでシステムを構築していると、アクセスが増えたタイミングでDBへの同時接続数が急増し、リクエストがタイムアウトするこ…"
+        },
+        {
           "title": "【クロスアカウント】DynamoDB Zero-ETL → S3（Iceberg）ターゲットの構築手順と注意点",
           "link": "https://qiita.com/swkky/items/4b4a0df5158153233a22",
           "source": "Qiita AWSタグ",
           "published": "2026-08-20T08:14:38",
           "excerpt": "はじめに DynamoDB の Zero-ETL 統合で、ターゲットを General Purpose S3 バケット（Apache Iceberg 形式） にする構成をクロスアカウントで構築しました。…"
-        },
-        {
-          "title": "【クロスアカウント】DynamoDB Zero-ETL → S3（Iceberg）ターゲットの構築手順と注意点",
-          "link": "https://zenn.dev/swkky/articles/dynamodb-zero-etl-s3-iceberg-cross-account",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-20T08:14:11",
-          "excerpt": "はじめに DynamoDB の Zero-ETL 統合で、ターゲットを General Purpose S3 バケット（Apache Iceberg 形式） にする構成をクロスアカウントで構築しました。…"
-        },
-        {
-          "title": "AWS Weekly Roundup: EC2 アプリケーションステータスチェック、IAM ロールマネージャー、OpenAI Daybreak on Bedrock など (2026 年 8 月 17 日)",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-20T07:56:31",
-          "excerpt": "2026 年8 月 10 日週、OpenSearch と Valkey のチームはソウルを訪問し、Open S […]"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。本ブログは 株式会社 PKUTECH と Amazon Web Services Japan 合同会社が共同で […]",
+      "summary": "セキュリティの新着が16件。暗号化コンテキスト インジェクションは、LLM の安全ガードレールを破る最新の方法にすぎません。",
       "articles": [
+        {
+          "title": "Grok は悪意のある命令が暗号化されている場合にユーザー データを抜き出す",
+          "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-08-20T13:00:35",
+          "excerpt": "暗号化コンテキスト インジェクションは、LLM の安全ガードレールを破る最新の方法にすぎません。"
+        },
         {
           "title": "PKUTECH が Amazon Bedrock を活用して実現した AI-CSPM「Egeria-Security」のセキュアな設計",
           "link": "https://aws.amazon.com/jp/blogs/news/genai-case-study-pkutech/",
@@ -99,20 +106,13 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-20T07:56:31",
           "excerpt": "2026 年8 月 10 日週、OpenSearch と Valkey のチームはソウルを訪問し、Open S […]"
-        },
-        {
-          "title": "AI エージェントはマルウェア パッケージのインストールを提案しました。エンジニアはアドバイスをほぼ受け入れた",
-          "link": "https://www.theregister.com/security/2026/08/20/ai-agent-suggested-installing-a-malware-package-engineer-almost-took-its-advice/5289849",
-          "source": "The Register（英語）",
-          "published": "2026-08-20T07:00:00",
-          "excerpt": "幸いなことに、同社は最初に GitHub でソースコードを確認するというポリシーを持っていました。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が11件。本記事の内容は 2026 年 8 月時点 の情報です。AWS のサービスは頻繁にアップデートされるため、最新の仕様は公式ドキュメントをご確認ください。…",
+      "summary": "データ分析の新着が10件。本記事の内容は 2026 年 8 月時点 の情報です。AWS のサービスは頻繁にアップデートされるため、最新の仕様は公式ドキュメントをご確認ください。…",
       "articles": [
         {
           "title": "ゼロ ETL 統合で自動生成される Glue 子カタログの制約まとめ（説明付与・削除）",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。Cursor、Git大規模ホスティング向けストレージ「Continuity」発表",
+      "summary": "開発ツールの新着が15件。はじめに 「特定の画面でIPアドレス制限はVPNのIPv4で許可しているのに、一部の人だけ403で入れない」 この状況に遭遇し、原因がIPv6だったという事例を共有します。…",
       "articles": [
+        {
+          "title": "IPv6版のAWS Client VPNの挙動について",
+          "link": "https://zenn.dev/normn/articles/f18118af46f65a",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-20T12:54:11",
+          "excerpt": "はじめに 「特定の画面でIPアドレス制限はVPNのIPv4で許可しているのに、一部の人だけ403で入れない」 この状況に遭遇し、原因がIPv6だったという事例を共有します。…"
+        },
         {
           "title": "Cursor、Git大規模ホスティング向けストレージ「Continuity」発表",
           "link": "https://codezine.jp/article/detail/29371",
@@ -169,45 +176,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-20T04:00:00",
           "excerpt": "Sansan株式会社では、名刺や請求書、契約書など、お客様からお預かりした紙の情報をデータ化しています。データ化の裏側では、スキャンセンターで紙そのものを受け取り、保管し、必要な場所へ届ける「原本管理」の業務があります。…"
-        },
-        {
-          "title": "GitHub Copilot for JetBrains、エンタープライズ向け管理機能を拡充",
-          "link": "https://codezine.jp/article/detail/29369",
-          "source": "CodeZine",
-          "published": "2026-08-20T04:00:00",
-          "excerpt": "GitHub Copilot for JetBrains、エンタープライズ向け管理機能を拡充"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AIデータ大手Alationがサイバー攻撃を認める",
-      "link": "https://techcrunch.com/2026/08/20/ai-data-giant-alation-confirms-cyberattack/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-20T13:01:24",
-      "excerpt": "データ検索とAIの巨人は火曜日の事件で自社システムへの不正アクセスを確認し、侵害を調査していると述べた。"
+      "title": "Fluter 3.47正式リリース。UIライブラリが分離され独立してアップデート可能、デフォルトでWebAssemblyを生成する方向に、など新機能",
+      "link": "https://www.publickey1.jp/blog/26/fluter_347uiwebassembly.html",
+      "source": "Publickey",
+      "published": "2026-08-20T15:02:15",
+      "excerpt": "Googleは、Dart言語によるアプリケーションフレームワークの最新版「Flutter 3.47」正式リリースを発表しました。We’ve pieced together something special...Flutter 3.47..…"
     },
     {
-      "title": "a16z では、AI により外国人創業者が有利になる",
-      "link": "https://techcrunch.com/2026/08/20/for-a16z-ai-gives-foreign-founders-an-advantage/",
+      "title": "アポロ・アトミックスは見過ごされている部分を縮小することで原子力発電を安くしたいと考えている",
+      "link": "https://techcrunch.com/2026/08/20/apollo-atomics-wants-to-make-nuclear-power-cheaper-by-shrinking-an-overlooked-part/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-20T13:00:00",
-      "excerpt": "a16z のボーダレス ファウンダー ネットワーク イニシアチブは、移民と海外のファウンダーをサポートしています。「片足を母国に、もう片足をシリコンバレーに置くこと」が利点だと同社は考えている。…"
+      "published": "2026-08-20T13:45:00",
+      "excerpt": "Yコンビネーターの卒業生であるアポロ・アトミックスは原子炉の主要部分を縮小しており、これにより電気料金が天然ガス以下に削減されると約束されている。"
     },
     {
-      "title": "Grok チャットがだまされて注入された命令を飲み込む",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/20/grok-chat-duped-into-swallowing-injected-instructions/5290019",
+      "title": "NetBSD 11 は RISC-V サポートと超高速 VM ブートを備えて登場",
+      "link": "https://www.theregister.com/os-platforms/2026/08/20/netbsd-11-lands-with-risc-v-support-and-lightning-fast-vm-boots/5289713",
       "source": "The Register（英語）",
-      "published": "2026-08-20T13:00:00",
-      "excerpt": "スプーン一杯の暗号化がマルウェアのダウンに役立ちます"
+      "published": "2026-08-20T13:45:00",
+      "excerpt": "努力する意欲があれば、由緒ある Unix ライクは安心できる昔ながらのものです。"
     },
     {
-      "title": "ESP32とDHT11で取得した温湿度をAWS IoT Coreへ送信してみた",
-      "link": "https://dev.classmethod.jp/articles/esp32-dht11-aws-iot-core-mqtt/",
-      "source": "DevelopersIO",
-      "published": "2026-08-20T12:58:19",
-      "excerpt": "ESP32とDHT11を使ってAWS IoT CoreへMQTT送信する方法を、環境構築から実装、つまずき解決まで全ステップでご紹介します。"
+      "title": "3,700万ポンドのSAP全面見直しにより、キャップジェミニの英国徴税官との業務期間は28年に延長される可能性がある",
+      "link": "https://www.theregister.com/public-sector/2026/08/20/37m-sap-overhaul-could-extend-capgeminis-run-with-uk-tax-collector-to-28-years/5290329",
+      "source": "The Register（英語）",
+      "published": "2026-08-20T13:26:00",
+      "excerpt": "英国の徴税官、最新の合意は公正で競争力のある調達に基づくものだと主張"
     }
   ]
 }
