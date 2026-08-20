@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-20T06:24:29",
+  "generated_at": "2026-08-20T07:13:57",
   "window_hours": 24,
-  "total": 275,
+  "total": 280,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が50件。シーケンスデータの急増により、ゲノムバリアントの解釈は複雑なパイプラインと専門知識を要する作業になっています。…",
+      "summary": "生成AIの新着が51件。参照ファイルにしかない情報を答えられるか、3 パターンで比べました。",
       "articles": [
+        {
+          "title": "AWS DevOps Agent のスキルで references/ は本当に効いているのか、あり・なしを比較して検証してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-skill-references/",
+          "source": "DevelopersIO",
+          "published": "2026-08-20T07:03:31",
+          "excerpt": "参照ファイルにしかない情報を答えられるか、3 パターンで比べました。"
+        },
         {
           "title": "AWS HealthOmics と Amazon Bedrock AgentCore によるゲノムバリアント解釈の高速化",
           "link": "https://aws.amazon.com/jp/blogs/news/accelerating-genomics-variant-interpretation-with-aws-healthomics-and-amazon-bedrock-agentcore/",
@@ -29,13 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-20T04:14:06",
           "excerpt": "Claude Code の v2.1.236 〜 v2.1.237 のアップデートをご紹介します。ANTHROPIC_DEFAULT_MODEL の追加、新しい出力スタイルの追加と、ゲートウェイ利用時のキャッシュ修正が入りました。…"
-        },
-        {
-          "title": "Vercel Labs、Zig製の小型コーディングエージェント「fx」をオープンソースで公開",
-          "link": "https://gihyo.jp/article/2026/08/vercel-labs-fx?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-08-20T04:07:00",
-          "excerpt": "Vercel Labsは2026年8月18日、単一のネイティブバイナリとして動作するコンパクトなコーディングエージェントハーネス兼CLI「fx」をApache 2.0ライセンスのもと、GitHub上でオープンソースとして公開した。"
         }
       ]
     },
@@ -77,8 +77,22 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。AWS IAM、IAMロールを自動セットアップするRole Managerを一般提供",
+      "summary": "セキュリティの新着が16件。NTTスマートコネクトは8月19日、不正アクセスを受けて一部停止中のレンタルサーバサービス「スマイルサーバ」について、9月中旬ごろの復旧環境の提供開始を目標にすると発表した。外部機関による調査の完了は8月末を見込む。",
       "articles": [
+        {
+          "title": "不正アクセスで一部停止中のNTT西子会社レンタルサーバ、復旧見通しを公表　調査完了は8月末見込み",
+          "link": "https://www.itmedia.co.jp/news/article/2608/20/2000000651/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-20T06:36:30",
+          "excerpt": "NTTスマートコネクトは8月19日、不正アクセスを受けて一部停止中のレンタルサーバサービス「スマイルサーバ」について、9月中旬ごろの復旧環境の提供開始を目標にすると発表した。外部機関による調査の完了は8月末を見込む。"
+        },
+        {
+          "title": "さくらインターネットで不正アクセス　583件不正ログインから「136万件影響の恐れ」に拡大",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/20/news078.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-08-20T05:55:00",
+          "excerpt": "さくらインターネットは販売管理システムへの不正アクセスの可能性を確認した。この影響が及ぶ可能性があるのは会員情報136万563アカウントで、うち30件はハッシュ化パスワードも含む。"
+        },
         {
           "title": "AWS IAM、IAMロールを自動セットアップするRole Managerを一般提供",
           "link": "https://codezine.jp/article/detail/29370",
@@ -92,20 +106,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-20T03:00:00",
           "excerpt": "こんにちは！セキュリティ部のkaworuです。先日開催された、セキュリティ・キャンプ2026全国大会にて、専門B プロダクトセキュリティクラスの講義をセキュリティ部のeiji, yamane, kaworu の3名で担当しました。…"
-        },
-        {
-          "title": "Security Hub MCP App × Claude Desktop の機能が追加されたので使い所を考えてみた",
-          "link": "https://zenn.dev/cscloud_blog/articles/security-hub-mcp-app",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-20T01:42:14",
-          "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！皆さんは Security Hub の Finding、severity の高い順に対応していますか？…"
-        },
-        {
-          "title": "GitHub、トークン種別ごとの認証情報を無効化できる新機能を追加",
-          "link": "https://codezine.jp/article/detail/29367",
-          "source": "CodeZine",
-          "published": "2026-08-20T01:00:00",
-          "excerpt": "GitHub、トークン種別ごとの認証情報を無効化できる新機能を追加"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。Vercel Labsは2026年8月18日、単一のネイティブバイナリとして動作するコンパクトなコーディングエージェントハーネス兼CLI「fx」をApache 2.0ライセンスのもと、GitHub上でオープンソースとして公開した。",
+      "summary": "開発ツールの新着が16件。Cursor、Git大規模ホスティング向けストレージ「Continuity」発表",
       "articles": [
+        {
+          "title": "Cursor、Git大規模ホスティング向けストレージ「Continuity」発表",
+          "link": "https://codezine.jp/article/detail/29371",
+          "source": "CodeZine",
+          "published": "2026-08-20T07:00:00",
+          "excerpt": "Cursor、Git大規模ホスティング向けストレージ「Continuity」発表"
+        },
         {
           "title": "Vercel Labs、Zig製の小型コーディングエージェント「fx」をオープンソースで公開",
           "link": "https://gihyo.jp/article/2026/08/vercel-labs-fx?utm_source=feed",
@@ -169,45 +176,38 @@
           "source": "CodeZine",
           "published": "2026-08-20T04:00:00",
           "excerpt": "GitHub Copilot for JetBrains、エンタープライズ向け管理機能を拡充"
-        },
-        {
-          "title": "Terraform 最初に覚えるべき内容",
-          "link": "https://zenn.dev/naoki_mm/articles/6226fb7d1109c9",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-20T03:33:03",
-          "excerpt": "Terraform 最初に覚えるべき内容 Terraformを使用する上で、最初に覚えるべき基礎的な内容をまとめています。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AIツールを導入したのに開発が速くならない理由―AI駆動開発ライフサイクルによる上流工程の変革：AIと人間の役割分担とは？―",
-      "link": "https://qiita.com/SuzukiH_KC/items/982b3fe8636403f51dcf",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-20T06:09:54",
-      "excerpt": "1.はじめに 生成AIを使えば、資料作成やコード生成、情報収集などを短時間で行えるようになりました。しかし、AIツールを導入しても、次のような課題が残ることがあります。…"
+      "title": "これが“ニューノーマル” ―Linux 7.2リリース、AIレビューによる大量の修正が常態化へ",
+      "link": "https://gihyo.jp/article/2026/08/daily-linux-260820?utm_source=feed",
+      "source": "gihyo.jp 開発",
+      "published": "2026-08-20T06:48:00",
+      "excerpt": "Linus Torvaldsは8月16日、「Linux 7.2」の公開をアナウンスした。"
     },
     {
-      "title": "エクセルソフトがIron Software製品の国内販売を開始、PDFやOffice文書処理に対応",
-      "link": "https://codezine.jp/article/detail/29378",
+      "title": "AI Slopを防ぐ実践的ガードレールの構築、AI NativeとLumilinksがデザインシステムの実演ウェビナー開催",
+      "link": "https://codezine.jp/article/detail/29379",
       "source": "CodeZine",
-      "published": "2026-08-20T06:05:00",
-      "excerpt": "エクセルソフトがIron Software製品の国内販売を開始、PDFやOffice文書処理に対応"
+      "published": "2026-08-20T06:45:00",
+      "excerpt": "AI Slopを防ぐ実践的ガードレールの構築、AI NativeとLumilinksがデザインシステムの実演ウェビナー開催"
     },
     {
-      "title": "Asana は Codex を使用して 5 年間のエンジニアリング作業を 2 週間で完了しました",
-      "link": "https://openai.com/index/asana/",
+      "title": "Amazon CloudWatch アラームをSlackで受け取りたい！",
+      "link": "https://qiita.com/wakahori/items/be8b33be03978c4751b4",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-20T06:32:07",
+      "excerpt": "現在携わらせていただいているプロジェクト。…"
+    },
+    {
+      "title": "Windows はあらゆる人のロールシャッハ テストを引き出す",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803",
       "source": "Hacker News（英語）",
-      "published": "2026-08-20T05:54:20",
-      "excerpt": "記事の URL: https://openai.com/index/asana/ コメント URL: https://news.ycombinator.com/item?id=49370862 ポイント: 3 コメント数: 0"
-    },
-    {
-      "title": "Amazon ElastiCache for Valkey 9.1のdb=によるデータベース単位ACLを検証してみた",
-      "link": "https://dev.classmethod.jp/articles/amazon-elasticache-valkey-9-1-database-acl-verification/",
-      "source": "DevelopersIO",
-      "published": "2026-08-20T05:40:01",
-      "excerpt": "Amazon ElastiCacheがValkey 9.1に対応し、ACLでアクセスできる論理データベースを限定できるようになりました。db=を書くとユーザーのMinimumEngineVersionが9.…"
+      "published": "2026-08-20T06:16:40",
+      "excerpt": "記事の URL: https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803 コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
