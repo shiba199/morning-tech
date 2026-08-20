@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T12:22:43",
+  "generated_at": "2026-08-20T13:24:31",
   "window_hours": 24,
-  "total": 289,
+  "total": 291,
   "topic_count": 5,
   "groups": [
     {
@@ -17,6 +17,13 @@
           "excerpt": "影響を受けたユーザーは、サポートが以前の承認を復元したり、新しい決定を無効にしたりすることはできないと述べている"
         },
         {
+          "title": "検出処理はわずか3%。衛星向けAIエージェント論文から学ぶ『本当のボトルネック』 | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/eead47bc724d4f",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-20T11:13:05",
+          "excerpt": "結論から言います「AIエージェントが遅い」と感じたとき、多くの人はまずLLMやモデルの推論速度を疑います。しかし2026年8月に公開されたある論文では、衝撃的な数字が出てきました。AIエージェントの全体処理時間29.…"
+        },
+        {
           "title": "Claude Max 20xの週次上限は5xの何倍なのか実測してみた",
           "link": "https://dev.classmethod.jp/articles/claude-max-20x-weekly-limit-not-4x/",
           "source": "DevelopersIO",
@@ -29,21 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-20T09:53:11",
           "excerpt": "Amazon Bedrock Web Search の external_web_access が有効化されました。…"
-        },
-        {
-          "title": "社会から「AIエージェント」は求められていないのかも | NCDC テックブログのフィード",
-          "link": "https://zenn.dev/ncdc/articles/773527ef075e36",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-20T09:30:05",
-          "excerpt": "はじめにみなさん、仕事でAIエージェントは使っていますか？最近のエンジニアならほぼ全員の答えが「Yes」になるかと思います。ですが、非エンジニアでは、そうでもなかったりします。最近聞いて個人的に驚いた話があります。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。はじめに DynamoDB の Zero-ETL 統合で、ターゲットを General Purpose S3 バケット（Apache Iceberg 形式） にする構成をクロスアカウントで構築しました。…",
+      "summary": "クラウドの新着が17件。はじめに Kafka から HDFS へ syslog / authlog の raw ログを保存しています。普段の処理は HDFS 上の raw ログを起点にしていますが、raw データを別の場所にもコピーしておけると少し安心です。…",
       "articles": [
+        {
+          "title": "Hadoop distcpでHDFSのrawログをAmazon S3へバックアップしてみる",
+          "link": "https://qiita.com/naritomo08/items/f1dcbe541ee7e416f6dd",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-20T12:39:29",
+          "excerpt": "はじめに Kafka から HDFS へ syslog / authlog の raw ログを保存しています。普段の処理は HDFS 上の raw ログを起点にしていますが、raw データを別の場所にもコピーしておけると少し安心です。…"
+        },
         {
           "title": "【クロスアカウント】DynamoDB Zero-ETL → S3（Iceberg）ターゲットの構築手順と注意点",
           "link": "https://qiita.com/swkky/items/4b4a0df5158153233a22",
@@ -64,20 +71,13 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-20T07:56:31",
           "excerpt": "2026 年8 月 10 日週、OpenSearch と Valkey のチームはソウルを訪問し、Open S […]"
-        },
-        {
-          "title": "AWS Lambda Durable Functionsとは？Step Functionsとの違いと使い分けを徹底解説 | Zenet Tech Blog",
-          "link": "https://media.zenet-web.co.jp/entry/2026/08/20/132124",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-20T04:21:24",
-          "excerpt": "AWSの新機能、Lambda Durable Functionsの登場で、ステートフルな長期間ワークフローの実現がより手軽に。Step Functionsとの違いや適切な使い分けを詳しく解説。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。本ブログは 株式会社 PKUTECH と Amazon Web Services Japan 合同会社が共同で […]",
+      "summary": "セキュリティの新着が15件。本ブログは 株式会社 PKUTECH と Amazon Web Services Japan 合同会社が共同で […]",
       "articles": [
         {
           "title": "PKUTECH が Amazon Bedrock を活用して実現した AI-CSPM「Egeria-Security」のセキュアな設計",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が14件。本記事の内容は 2026 年 8 月時点 の情報です。AWS のサービスは頻繁にアップデートされるため、最新の仕様は公式ドキュメントをご確認ください。…",
+      "summary": "データ分析の新着が11件。本記事の内容は 2026 年 8 月時点 の情報です。AWS のサービスは頻繁にアップデートされるため、最新の仕様は公式ドキュメントをご確認ください。…",
       "articles": [
         {
           "title": "ゼロ ETL 統合で自動生成される Glue 子カタログの制約まとめ（説明付与・削除）",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Meta AI の新しい Mac アプリは、アプリと対話できるようにすることを望んでいます",
-      "link": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+      "title": "AIデータ大手Alationがサイバー攻撃を認める",
+      "link": "https://techcrunch.com/2026/08/20/ai-data-giant-alation-confirms-cyberattack/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-20T12:11:57",
-      "excerpt": "Meta は、同社の Muse Spark モデルがディクテーション機能を強化していると述べました。"
+      "published": "2026-08-20T13:01:24",
+      "excerpt": "データ検索とAIの巨人は火曜日の事件で自社システムへの不正アクセスを確認し、侵害を調査していると述べた。"
     },
     {
-      "title": "Proof of Human (YC S23) が技術スタッフを募集しています",
-      "link": "https://www.ycombinator.com/companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-20T12:00:23",
-      "excerpt": "記事の URL: https://www.ycombinator.…"
+      "title": "a16z では、AI により外国人創業者が有利になる",
+      "link": "https://techcrunch.com/2026/08/20/for-a16z-ai-gives-foreign-founders-an-advantage/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-20T13:00:00",
+      "excerpt": "a16z のボーダレス ファウンダー ネットワーク イニシアチブは、移民と海外のファウンダーをサポートしています。「片足を母国に、もう片足をシリコンバレーに置くこと」が利点だと同社は考えている。…"
     },
     {
-      "title": "AI は若手エンジニアの価値を消去するのではなく、価値を高めました",
-      "link": "https://franciscotrindade.me/blog/the-kids-are-really-alright/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-20T11:42:20",
-      "excerpt": "記事の URL: https://franciscotrindade.me/blog/the-kids-are-really-alright/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Microsoft、ゲームがWindows 11の8月のアップデートを例外とする報告を調査",
-      "link": "https://www.theregister.com/os-platforms/2026/08/20/microsoft-probes-reports-of-games-taking-exception-to-windows-11s-august-update/5290214",
+      "title": "Grok チャットがだまされて注入された命令を飲み込む",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/20/grok-chat-duped-into-swallowing-injected-instructions/5290019",
       "source": "The Register（英語）",
-      "published": "2026-08-20T11:03:00",
-      "excerpt": "レドモンドが原因かどうかを調査する間、影響を受けるタイトルはクラッシュ、フリーズ、または PC を再起動します。"
+      "published": "2026-08-20T13:00:00",
+      "excerpt": "スプーン一杯の暗号化がマルウェアのダウンに役立ちます"
+    },
+    {
+      "title": "ESP32とDHT11で取得した温湿度をAWS IoT Coreへ送信してみた",
+      "link": "https://dev.classmethod.jp/articles/esp32-dht11-aws-iot-core-mqtt/",
+      "source": "DevelopersIO",
+      "published": "2026-08-20T12:58:19",
+      "excerpt": "ESP32とDHT11を使ってAWS IoT CoreへMQTT送信する方法を、環境構築から実装、つまずき解決まで全ステップでご紹介します。"
     }
   ]
 }
