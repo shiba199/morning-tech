@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-20T20:52:39",
+  "generated_at": "2026-08-20T21:17:20",
   "window_hours": 24,
-  "total": 295,
+  "total": 298,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が51件。AWS パートナーは、AWS サインインを通じて OAuth を使用し、Amazon Quick や Kiro などのすでに使用しているツールから AWS Partner Central エージェントにアクセスできるようになりました。…",
+      "summary": "生成AIの新着が52件。Private Safety Processing により、AI ビジネスは慎重かつ自動化された迅速な監視を約束します",
       "articles": [
+        {
+          "title": "OpenAI、データ保持ゼロの誓約で Anthropic のビジネス顧客を追いかける",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/20/openai-chases-anthropics-biz-customers-with-zero-data-retention-pledge/5290609",
+          "source": "The Register（英語）",
+          "published": "2026-08-20T19:59:00",
+          "excerpt": "Private Safety Processing により、AI ビジネスは慎重かつ自動化された迅速な監視を約束します"
+        },
         {
           "title": "AWS パートナーセントラルエージェントの MCP サーバーが AWS サインインによる OAuth をサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/8/aws-partner-central-mcp/",
@@ -29,13 +36,6 @@
           "source": "TechCrunch（英語）",
           "published": "2026-08-20T17:18:58",
           "excerpt": "ChatGPT およびその他の AI モデルは現在、新しい Web の多くを作成および編集しています。"
-        },
-        {
-          "title": "香港国際空港でClaude CodeもCodexも使えなかった話。原因はGreat Firewallじゃなかった",
-          "link": "https://qiita.com/yama3133/items/ab410695d4bbdfe62c76",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-20T16:18:34",
-          "excerpt": "昨日、香港国際空港の待ち時間、いつも通りClaude Codeを開いたら左下のアカウント表示はあるのにサインインできない。Codexも同じ症状。てっきりGreat Firewallに引っかかったと思って調べ始めたら、犯人は別のところにいた。…"
         }
       ]
     },
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が19件。大手仮想通貨ニュース Web サイトで働いているふりをしたハッカーが、マルウェアを配布する手段として Google ドキュメントを使用して数人のサイバーセキュリティ専門家を標的にしました。",
+      "summary": "セキュリティの新着が20件。大手仮想通貨ニュース Web サイトで働いているふりをしたハッカーが、マルウェアを配布する手段として Google ドキュメントを使用して数人のサイバーセキュリティ専門家を標的にしました。",
       "articles": [
         {
           "title": "何者かが偽の暗号カンファレンスをおとりとしてセキュリティ研究者をターゲットにしました",
@@ -94,18 +94,18 @@
           "excerpt": "本日、Amazon Elastic Kubernetes Service (Amazon EKS) は認証局 (CA) のローテーションを発表しました。…"
         },
         {
+          "title": "ランサムウェア犯罪者が支払い期限を設定しているため、米国銀行がロックビットの主張を調査",
+          "link": "https://www.theregister.com/security/2026/08/20/us-bank-investigates-lockbits-claims-as-ransomware-crims-set-pay-or-leak-deadline/5290560",
+          "source": "The Register（英語）",
+          "published": "2026-08-20T17:30:39",
+          "excerpt": "お金に従ってください"
+        },
+        {
           "title": "[アップデート] Amazon Corretto の初回 CSPU（月次セキュリティパッチ）がリリースされたのでアップデートして差分を確認してみた",
           "link": "https://dev.classmethod.jp/articles/amazon-corretto-august-2026-security-updates/",
           "source": "DevelopersIO",
           "published": "2026-08-20T16:01:35",
           "excerpt": "Java のセキュリティアップデートが四半期ごとから月次へ移行し、8月に初回の CSPU がリリースされました。Amazon Corretto 21 にアップデートして、セキュリティ設定の変更内容を確認してみます。"
-        },
-        {
-          "title": "セキュリティサービスの検知メールの本文に担当者情報などをいい感じに入れる",
-          "link": "https://dev.classmethod.jp/articles/security-alert-email-account-owner-enrichment/",
-          "source": "DevelopersIO",
-          "published": "2026-08-20T14:58:58",
-          "excerpt": "マルチアカウント環境でセキュリティ検知をメール通知する際、アカウントIDだけでは担当者が分かりません。EventBridgeとStep Functionsで担当者情報を本文に自動差し込みする3つのパターンをご紹介します。…"
         }
       ]
     },
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "エンハンスド・ゲーム（ハイテク界のステロイドの祭典）は報われず、同社は6,000万ドルの損失を計上",
+      "link": "https://techcrunch.com/2026/08/20/the-enhanced-games-techs-steroid-extravaganza-didnt-pay-off-as-company-posts-60-million-loss/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-20T21:08:34",
+      "excerpt": "ステロイドの使用を通じてスポーツの世界を変革しようとする取り組みは、必ずしも経済的な成果を上げているようには見えない。"
+    },
+    {
+      "title": "さて、実際におしっこでデータセンターを冷やすことができるでしょうか?",
+      "link": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-20T20:53:13",
+      "excerpt": "ジェイソン・ケルス氏は、人々は飲料水ではなく自分のおしっこでデータセンターを冷やすべきだと冗談を言ったが、彼の提案は完全にばかげているわけではない。"
+    },
+    {
       "title": "アーロン・スワーツはスクレイピングで起訴されたが、メタは何の影響もなくそれを行っている",
       "link": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
       "source": "Hacker News（英語）",
@@ -194,20 +208,6 @@
       "source": "@IT",
       "published": "2026-08-20T20:00:00",
       "excerpt": "AI向け先端半導体のトレンドとして急浮上する「光電融合」。通信分野から始まった光技術による電気の置き換えは、いまやチップ直近の数ミリ、数マイクロメートルの領域に迫る。…"
-    },
-    {
-      "title": "社内サービスにもSREが必須の時代へ　その理由とは",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/21/news007.html",
-      "source": "@IT",
-      "published": "2026-08-20T20:00:00",
-      "excerpt": "「システムを稼働させ続けること」に重点を置いた従来のIT運用では、もはや不十分だ。Gartnerは、SREを全社的に導入する企業の割合は、2024年の30％から2028年には80％へと急拡大すると予測している。…"
-    },
-    {
-      "title": "GoogleはAI競争に負けたのか　「最強のAI」ではなく「AIの“電力網”」を選ぶ賭け",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/21/news006.html",
-      "source": "@IT",
-      "published": "2026-08-20T20:00:00",
-      "excerpt": "GoogleからAI研究の中心人物が相次いで去った。「Geminiは終わった」という見方に対し、「最先端ではなく、AIを社会全体に行き渡らせる“電力網”で勝つ賭けだ」という別の解釈もある。電気の歴史になぞらえながら整理する。"
     }
   ]
 }
