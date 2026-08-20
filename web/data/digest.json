@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-20T05:31:46",
+  "generated_at": "2026-08-20T06:24:29",
   "window_hours": 24,
-  "total": 279,
+  "total": 275,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が50件。Claude Code の v2.1.236 〜 v2.1.237 のアップデートをご紹介します。ANTHROPIC_DEFAULT_MODEL の追加、新しい出力スタイルの追加と、ゲートウェイ利用時のキャッシュ修正が入りました。…",
+      "summary": "生成AIの新着が50件。シーケンスデータの急増により、ゲノムバリアントの解釈は複雑なパイプラインと専門知識を要する作業になっています。…",
       "articles": [
+        {
+          "title": "AWS HealthOmics と Amazon Bedrock AgentCore によるゲノムバリアント解釈の高速化",
+          "link": "https://aws.amazon.com/jp/blogs/news/accelerating-genomics-variant-interpretation-with-aws-healthomics-and-amazon-bedrock-agentcore/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-20T05:41:36",
+          "excerpt": "シーケンスデータの急増により、ゲノムバリアントの解釈は複雑なパイプラインと専門知識を要する作業になっています。…"
+        },
+        {
+          "title": "AIエージェント構築の面倒な部分を肩代わりするAmazon Bedrock AgentCore Harnessの始め方",
+          "link": "https://zenn.dev/kameoncloud/articles/8a76f1ed9cb87f",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-20T04:29:00",
+          "excerpt": "https://serverless.co.jp/blog/vhodh-0ah/ に投稿した記事の微修正版です。…"
+        },
         {
           "title": "Claude Code v2.1.236〜v2.1.237 の主要アップデート -  ANTHROPIC_DEFAULT_MODEL と出力スタイル Concise の追加",
           "link": "https://dev.classmethod.jp/articles/20260820-cc-updates-v2-1-237/",
@@ -22,27 +36,13 @@
           "source": "gihyo.jp 開発",
           "published": "2026-08-20T04:07:00",
           "excerpt": "Vercel Labsは2026年8月18日、単一のネイティブバイナリとして動作するコンパクトなコーディングエージェントハーネス兼CLI「fx」をApache 2.0ライセンスのもと、GitHub上でオープンソースとして公開した。"
-        },
-        {
-          "title": "AIエージェントが“成果を生まない”のはなぜ？　その最大の理由と「戦力化する方法」",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news047.html",
-          "source": "@IT",
-          "published": "2026-08-20T04:00:00",
-          "excerpt": "AIエージェントなどの自律型AIへの投資を増やす企業は9割に上る。ところが成果を生み出す段階に到達した企業は、わずか7％にとどまる。投資と成果にこれほど差が生じるのはなぜか。調査結果から理由と対策を探る。"
-        },
-        {
-          "title": "AI コーディングエージェントのチーム展開に向けた段階的な環境整備の実践例",
-          "link": "https://aws.amazon.com/jp/blogs/news/scaling-ai-coding-agents-across-teams/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-20T03:22:15",
-          "excerpt": "AI コーディングエージェントのチーム展開に向けた段階的な環境整備の実践例を紹介しています"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。AWSの新機能、Lambda Durable Functionsの登場で、ステートフルな長期間ワークフローの実現がより手軽に。Step Functionsとの違いや適切な使い分けを詳しく解説。",
+      "summary": "クラウドの新着が19件。AWSの新機能、Lambda Durable Functionsの登場で、ステートフルな長期間ワークフローの実現がより手軽に。Step Functionsとの違いや適切な使い分けを詳しく解説。",
       "articles": [
         {
           "title": "AWS Lambda Durable Functionsとは？Step Functionsとの違いと使い分けを徹底解説 | Zenet Tech Blog",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。こんにちは！セキュリティ部のkaworuです。先日開催された、セキュリティ・キャンプ2026全国大会にて、専門B プロダクトセキュリティクラスの講義をセキュリティ部のeiji, yamane, kaworu の3名で担当しました。…",
+      "summary": "セキュリティの新着が16件。AWS IAM、IAMロールを自動セットアップするRole Managerを一般提供",
       "articles": [
+        {
+          "title": "AWS IAM、IAMロールを自動セットアップするRole Managerを一般提供",
+          "link": "https://codezine.jp/article/detail/29370",
+          "source": "CodeZine",
+          "published": "2026-08-20T05:30:00",
+          "excerpt": "AWS IAM、IAMロールを自動セットアップするRole Managerを一般提供"
+        },
         {
           "title": "セキュリティ・キャンプ2026全国大会 専門B1「プロダクトセキュリティの理想と現実」講義を担当しました。 | freee Developers Hub",
           "link": "https://developers.freee.co.jp/entry/security-camp-2026-b1",
@@ -99,13 +106,6 @@
           "source": "CodeZine",
           "published": "2026-08-20T01:00:00",
           "excerpt": "GitHub、トークン種別ごとの認証情報を無効化できる新機能を追加"
-        },
-        {
-          "title": "さくらインターネット、不正アクセス第二報　販管システムにも被害及ぶ",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news036.html",
-          "source": "@IT",
-          "published": "2026-08-19T22:30:00",
-          "excerpt": "さくらインターネットは、システムへの不正アクセスについての調査結果の第2報を公表した。新たに販売管理システムへの不正アクセスの可能性を確認し、会員情報最大約136万件に影響が及んだ可能性があるという。"
         }
       ]
     },
@@ -171,43 +171,43 @@
           "excerpt": "GitHub Copilot for JetBrains、エンタープライズ向け管理機能を拡充"
         },
         {
-          "title": "AI コーディングエージェントのチーム展開に向けた段階的な環境整備の実践例",
-          "link": "https://aws.amazon.com/jp/blogs/news/scaling-ai-coding-agents-across-teams/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-20T03:22:15",
-          "excerpt": "AI コーディングエージェントのチーム展開に向けた段階的な環境整備の実践例を紹介しています"
+          "title": "Terraform 最初に覚えるべき内容",
+          "link": "https://zenn.dev/naoki_mm/articles/6226fb7d1109c9",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-20T03:33:03",
+          "excerpt": "Terraform 最初に覚えるべき内容 Terraformを使用する上で、最初に覚えるべき基礎的な内容をまとめています。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS Organizations における Amazon Inspector 抑制ルールのベストプラクティス",
-      "link": "https://aws.amazon.com/jp/blogs/news/amazon-inspector-suppression-rules-best-practices-for-aws-organizations/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-08-20T05:30:49",
-      "excerpt": "マルチアカウント環境で数千件におよぶ脆弱性の検出結果を効果的に管理するには、適切な優先順位付けが不可欠です。…"
+      "title": "AIツールを導入したのに開発が速くならない理由―AI駆動開発ライフサイクルによる上流工程の変革：AIと人間の役割分担とは？―",
+      "link": "https://qiita.com/SuzukiH_KC/items/982b3fe8636403f51dcf",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-20T06:09:54",
+      "excerpt": "1.はじめに 生成AIを使えば、資料作成やコード生成、情報収集などを短時間で行えるようになりました。しかし、AIツールを導入しても、次のような課題が残ることがあります。…"
     },
     {
-      "title": "Amazon Inspector を使用したソフトウェア部品表 (SBOM) のエクスポート",
-      "link": "https://aws.amazon.com/jp/blogs/news/export-a-software-bill-of-materials-using-amazon-inspector/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-08-20T05:26:10",
-      "excerpt": "Amazon Inspector を使用して、組織全体のリソースの統合されたソフトウェア部品表 (SBOM) を CycloneDx や SPDX 形式で Amazon S3 にエクスポートする方法を紹介します。…"
+      "title": "エクセルソフトがIron Software製品の国内販売を開始、PDFやOffice文書処理に対応",
+      "link": "https://codezine.jp/article/detail/29378",
+      "source": "CodeZine",
+      "published": "2026-08-20T06:05:00",
+      "excerpt": "エクセルソフトがIron Software製品の国内販売を開始、PDFやOffice文書処理に対応"
     },
     {
-      "title": "ALB の 502 対策で keepalive タイムアウトを長くする理由を、パケットキャプチャで確認してみた",
-      "link": "https://dev.classmethod.jp/articles/alb-502-packet-capture/",
+      "title": "Asana は Codex を使用して 5 年間のエンジニアリング作業を 2 週間で完了しました",
+      "link": "https://openai.com/index/asana/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-20T05:54:20",
+      "excerpt": "記事の URL: https://openai.com/index/asana/ コメント URL: https://news.ycombinator.com/item?id=49370862 ポイント: 3 コメント数: 0"
+    },
+    {
+      "title": "Amazon ElastiCache for Valkey 9.1のdb=によるデータベース単位ACLを検証してみた",
+      "link": "https://dev.classmethod.jp/articles/amazon-elasticache-valkey-9-1-database-acl-verification/",
       "source": "DevelopersIO",
-      "published": "2026-08-20T05:19:19",
-      "excerpt": "ALB の背後にサーバーを置く際、keep-alive タイムアウトの設定で 502 エラーが発生する仕組みをパケットキャプチャで検証しました。…"
-    },
-    {
-      "title": "【イベントレポート】PHPカンファレンス2026 リジェクトコン&amp;amp;アフターイベントを3社共同開催しました！ | コドモン Product Team Blog",
-      "link": "https://tech.codmon.com/entry/2026/08/20/131149",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-20T04:11:49",
-      "excerpt": "こんにちは！プロダクト開発部の村松です。2026年8月6日（木）、コドモンオフィスにて「PHPカンファレンス2026 リジェクトコン amp;アフターイベント」を開催しました！…"
+      "published": "2026-08-20T05:40:01",
+      "excerpt": "Amazon ElastiCacheがValkey 9.1に対応し、ACLでアクセスできる論理データベースを限定できるようになりました。db=を書くとユーザーのMinimumEngineVersionが9.…"
     }
   ]
 }
