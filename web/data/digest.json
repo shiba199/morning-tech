@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-20T15:55:20",
+  "generated_at": "2026-08-20T16:20:54",
   "window_hours": 24,
-  "total": 296,
+  "total": 300,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が55件。記事の URL: https://alex-jacobs.com/posts/claudemd/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が56件。昨日、香港国際空港の待ち時間、いつも通りClaude Codeを開いたら左下のアカウント表示はあるのにサインインできない。Codexも同じ症状。てっきりGreat Firewallに引っかかったと思って調べ始めたら、犯人は別のところにいた。…",
       "articles": [
+        {
+          "title": "香港国際空港でClaude CodeもCodexも使えなかった話。原因はGreat Firewallじゃなかった",
+          "link": "https://qiita.com/yama3133/items/ab410695d4bbdfe62c76",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-20T16:18:34",
+          "excerpt": "昨日、香港国際空港の待ち時間、いつも通りClaude Codeを開いたら左下のアカウント表示はあるのにサインインできない。Codexも同じ症状。てっきりGreat Firewallに引っかかったと思って調べ始めたら、犯人は別のところにいた。…"
+        },
+        {
+          "title": "【今日から俺もFDE #2】ChatGPTは「うちの会社」を知らない — 社内ChatBotを最短で作る方法（後編）",
+          "link": "https://qiita.com/udowanllc/items/489deb269045ae13299e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-20T16:04:15",
+          "excerpt": "はじめに 前編では、社内のことに答えるChatBotの最短ルートは自前実装ではなく、Google Drive / SharePointの権限を整えて付属のAI（Gemini / Copilot）につなぐことだと書いた。…"
+        },
         {
           "title": "私は道徳的に Claude.md を更新することに反対します",
           "link": "https://alex-jacobs.com/posts/claudemd/",
@@ -22,20 +36,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-20T15:35:10",
           "excerpt": "1.はじめに 最近、Yes!東京 で「わびさびニキ」が気になっているmakowareです。…"
-        },
-        {
-          "title": "クロード 5 のトークン嘔吐を別の LLM でクリーンアップする",
-          "link": "https://github.com/zachahn/vomit",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-20T15:26:02",
-          "excerpt": "記事の URL: https://github.com/zachahn/vomit コメント URL: https://news.ycombinator.com/item?id=49375996 ポイント: 15 コメント数: 4"
-        },
-        {
-          "title": "生成AIに個人情報を送る前に一呼吸——Bedrock Guardrailsだけで作るPIIマスキングツール",
-          "link": "https://qiita.com/Martim500/items/f257a0fb27a3e4ed3cf4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-20T13:58:28",
-          "excerpt": "はじめに こんにちは。株式会社ファンリードの森 龍太です。いつもは活動名Martimでやらせてもらっていますが、今回Jr.Championに選出いただきました！この記事は「2026 Japan AWS Jr.…"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。マルチアカウント環境でセキュリティ検知をメール通知する際、アカウントIDだけでは担当者が分かりません。EventBridgeとStep Functionsで担当者情報を本文に自動差し込みする3つのパターンをご紹介します。…",
+      "summary": "セキュリティの新着が18件。Java のセキュリティアップデートが四半期ごとから月次へ移行し、8月に初回の CSPU がリリースされました。Amazon Corretto 21 にアップデートして、セキュリティ設定の変更内容を確認してみます。",
       "articles": [
+        {
+          "title": "[アップデート] Amazon Corretto の初回 CSPU（月次セキュリティパッチ）がリリースされたのでアップデートして差分を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-corretto-august-2026-security-updates/",
+          "source": "DevelopersIO",
+          "published": "2026-08-20T16:01:35",
+          "excerpt": "Java のセキュリティアップデートが四半期ごとから月次へ移行し、8月に初回の CSPU がリリースされました。Amazon Corretto 21 にアップデートして、セキュリティ設定の変更内容を確認してみます。"
+        },
         {
           "title": "セキュリティサービスの検知メールの本文に担当者情報などをいい感じに入れる",
           "link": "https://dev.classmethod.jp/articles/security-alert-email-account-owner-enrichment/",
@@ -99,13 +106,6 @@
           "source": "Ars Technica（英語）",
           "published": "2026-08-20T13:00:35",
           "excerpt": "暗号化コンテキスト インジェクションは、LLM の安全ガードレールを破る最新の方法にすぎません。"
-        },
-        {
-          "title": "PKUTECH が Amazon Bedrock を活用して実現した AI-CSPM「Egeria-Security」のセキュアな設計",
-          "link": "https://aws.amazon.com/jp/blogs/news/genai-case-study-pkutech/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-20T08:27:24",
-          "excerpt": "本ブログは 株式会社 PKUTECH と Amazon Web Services Japan 合同会社が共同で […]"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "TechCrunch Disrupt 2026 チケットを最大 300 ドル節約するには 48 時間以内です",
-      "link": "https://techcrunch.com/2026/08/20/there-are-less-than-48-hours-to-save-up-to-300-on-your-techcrunch-disrupt-2026-ticket/",
+      "title": "Meta は、バイブコードを作成してゲームを共有できるアプリ、Pocket を米国のユーザーに提供します",
+      "link": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-20T15:53:49",
-      "excerpt": "Disrupt を周回している場合は、パスをロックして、10 月 13 日から 15 日までサンフランシスコのモスコーニ ウェストで開催される残りのスタートアップ コミュニティに参加する準備を始めるのに最適な時期です。"
+      "published": "2026-08-20T16:07:26",
+      "excerpt": "Meta は、インタラクティブ ゲームを作成および共有するための AI を活用した実験的アプリ、Pocket をブラジルで密かにテストした後、米国全土のユーザーに提供します。"
     },
     {
-      "title": "HN: Vendo (YC S26) を開始 – ユーザーが製品上に機能を構築できるようにします",
-      "link": "https://github.com/runvendo/vendo",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-20T15:29:52",
-      "excerpt": "HN さん、こんにちは。Vendo ( https://vendo.run ) の創設者である Yousef & Nour です。Vendo を使用すると、ユーザーはすでに使用しているソフトウェア内に新しい機能を作成できます。…"
+      "title": "Inertia Enterprises は核融合燃料を高速化する方法を発見",
+      "link": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-20T16:00:00",
+      "excerpt": "核融合発電の新興企業 Inertia Enterprises は、燃料充填プロセスを 1 週間からわずか数時間に短縮しました。これは、同社が収益性の高い発電所を作るために乗り越えなければならない10のハードルのうちの1つである。"
     },
     {
-      "title": "アンチ AI フォントは役に立たず、有害です",
-      "link": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-20T15:06:53",
-      "excerpt": "記事の URL: https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "Patreon、短編クリップや刷新されたディスカバリーなど、30 の新しいクリエイター機能を開始",
+      "link": "https://techcrunch.com/2026/08/20/patreon-launches-30-new-creator-features-including-short-form-clips-and-revamped-discovery/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-20T16:00:00",
+      "excerpt": "Patreon は、クリエイターが発見される方法を徹底的に見直し、短編クリップ、トピックベースのコミュニティ、小規模クリエイターの知名度を高めるために設計された改良されたレコメンデーション システムを追加しています。"
     },
     {
-      "title": "Fluter 3.47正式リリース。UIライブラリが分離され独立してアップデート可能、デフォルトでWebAssemblyを生成する方向に、など新機能",
-      "link": "https://www.publickey1.jp/blog/26/fluter_347uiwebassembly.html",
-      "source": "Publickey",
-      "published": "2026-08-20T15:02:15",
-      "excerpt": "Googleは、Dart言語によるアプリケーションフレームワークの最新版「Flutter 3.47」正式リリースを発表しました。We’ve pieced together something special...Flutter 3.47..…"
+      "title": "2026 年の Startup Battlefield 200 が登場 — 誰が勝ち残ったか見てみましょう",
+      "link": "https://techcrunch.com/2026/08/20/the-2026-startup-battlefield-200-is-here-see-who-made-the-cut/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-20T16:00:00",
+      "excerpt": "私たちは、世界中から最も有望な初期段階のスタートアップ 200 社を厳選した毎年恒例のリストである 2026 年の Startup Battlefield 200 を発表できることを嬉しく思います。"
     }
   ]
 }
