@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-08-20T02:09:57",
+  "generated_at": "2026-08-20T03:14:53",
   "window_hours": 24,
-  "total": 278,
+  "total": 268,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が52件。Amazon Connect Customerの新しい情報抽出機能について、音声通話から顧客の解約理由を抽出する設定方法と実運用での活用方法を紹介します。",
+      "summary": "生成AIの新着が50件。Amazon Bedrock で Claude モデルを呼び出した際に発生する AWS Marketplace のエラーについて、その原因と対処法を紹介します。",
       "articles": [
+        {
+          "title": "Amazon Bedrock の呼び出しで AWS Marketplace のエラーが発生するときの対処方法",
+          "link": "https://dev.classmethod.jp/articles/tsnote-bedrock-marketplace-error-solution/",
+          "source": "DevelopersIO",
+          "published": "2026-08-20T02:58:31",
+          "excerpt": "Amazon Bedrock で Claude モデルを呼び出した際に発生する AWS Marketplace のエラーについて、その原因と対処法を紹介します。"
+        },
+        {
+          "title": "Amazon Bedrock とロボティクスで目指す「未来の実験室」  ― AWS Summit Japan 2026 の Physical AI ―",
+          "link": "https://aws.amazon.com/jp/blogs/news/konicaminolta-future-lab-summit2026/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-20T02:57:42",
+          "excerpt": "本ブログは、コニカミノルタ株式会社と Amazon Web Services Japan が共同で執筆しました […]"
+        },
+        {
+          "title": "絶望から始まったAIエージェント超入門",
+          "link": "https://qiita.com/kyrieee/items/8f4c0e3596c2dd10f06e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-20T02:31:58",
+          "excerpt": "はじめに Amazon Bedrock Agent Core実践入門を読んだ背景 最近のAIの急成長ぶりについていけず、焦りを感じていたため、「AIを使う」というより「AIの仕組み」を理解することで根本から理解ができれば世の中の言っているこ…"
+        },
         {
           "title": "Amazon Connect Customerで会話から任意の情報を生成AIで自動抽出し、ACW中に確認できるようになりました",
           "link": "https://dev.classmethod.jp/articles/amazon-connect-customer-generative-ai-information-extraction/",
           "source": "DevelopersIO",
           "published": "2026-08-20T01:35:41",
           "excerpt": "Amazon Connect Customerの新しい情報抽出機能について、音声通話から顧客の解約理由を抽出する設定方法と実運用での活用方法を紹介します。"
-        },
-        {
-          "title": "Claude Code の effort パラメータについて、公式ドキュメントを参考にまとめてみた（2026/8/20時点）",
-          "link": "https://dev.classmethod.jp/articles/claude-code-effort-202608/",
-          "source": "DevelopersIO",
-          "published": "2026-08-19T23:49:50",
-          "excerpt": "Claude Codeの `effort` パラメータについて、公式ドキュメントの最新情報をもとに仕様や挙動、thinkingとの関係性をまとめました。タスクのユースケースに応じたレベル設定の考え方についても紹介します。"
-        },
-        {
-          "title": "AWSの主要生成AIサービスのデータレジデンシー比較 ― 日本国内リージョンで「完結できる」のはどのサービスか（2026年8月時点）",
-          "link": "https://qiita.com/Masayuki-Goto/items/5280848a57ff0dee6c7f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-19T23:29:06",
-          "excerpt": "AWS でも多くの生成AIサービスがリリースされてきました。サービスの違いをよく理解して使い分ける必要がありますが、今回の記事ではその中でも「データレジデンシー」の違いに注目した記事となります。生成AIの推論処理がどこで実施されているのか？…"
-        },
-        {
-          "title": "chezmoiで始めるdotfile管理 〜AIエージェント設定を複数ツールと複数マシンで共有する〜 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-          "link": "https://developers.cyberagent.co.jp/blog/archives/65099/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-19T23:00:40",
-          "excerpt": "はじめに こんにちは。グループIT推進本部の Roki です。Claude CodeやOpenAI ...…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。「生成AIを使えば簡単にそれらしい文章が書ける時代に、わざわざ文章構成を考える必要はあるの？」。CEDEC2026の公募セッションで、DeNAの山口晴美氏はこの質問から話を始めた。前年の講演を聞いた参加者から、実際に寄せられたものだという。…",
+      "summary": "クラウドの新着が20件。AIにレガシーシステムのモダナイズを任せると、成果物は完成品に見えるのに現行にあった機能が抜けていることがあります。なぜそんなことが起きるのか、実際の移行プロジェクトで得た知見をお話しします。",
       "articles": [
+        {
+          "title": "AIに任せたレガシーシステムのモダナイズで、仕様の移行漏れに気づけないのはなぜか",
+          "link": "https://dev.classmethod.jp/articles/legacy-modernization-ai-spec-gap/",
+          "source": "DevelopersIO",
+          "published": "2026-08-20T02:15:49",
+          "excerpt": "AIにレガシーシステムのモダナイズを任せると、成果物は完成品に見えるのに現行にあった機能が抜けていることがあります。なぜそんなことが起きるのか、実際の移行プロジェクトで得た知見をお話しします。"
+        },
         {
           "title": "AIがそれらしい文章を書く時代に、なぜ「質問の仕方」を学ぶのか【CEDEC2026】",
           "link": "https://codezine.jp/article/detail/29297",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-19T23:11:13",
           "excerpt": "保守しているシステムのAuroraMySQLのマイナーバージョンアップにあたって調査を行ったところ、メジャーバージョンとマイナーバージョンが切れた場合の影響が分かりにくかったためAWSサポートへ問い合わせました。…"
-        },
-        {
-          "title": "攻撃者がAIで作成したコードを使用して重要インフラ制御装置をハッキ​​ングすることに「理論上のリスクではない」と連邦政府が警告",
-          "link": "https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960",
-          "source": "The Register（英語）",
-          "published": "2026-08-19T22:38:41",
-          "excerpt": "「それは積極的な脅威だ」"
         }
       ]
     },
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が10件。Frameworkは、保証対象外のAMDメインボードの一部を交換するとしている。",
+      "summary": "データ分析の新着が9件。Frameworkは、保証対象外のAMDメインボードの一部を交換するとしている。",
       "articles": [
         {
           "title": "BIOS アップデートにより Ryzen 7040 ラップトップが壊れるという苦情に Framework が対応",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。GitHub、トークン種別ごとの認証情報を無効化できる新機能を追加",
+      "summary": "開発ツールの新着が13件。GitHub、トークン種別ごとの認証情報を無効化できる新機能を追加",
       "articles": [
         {
           "title": "GitHub、トークン種別ごとの認証情報を無効化できる新機能を追加",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "2026/08/20 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-      "link": "https://qiita.com/ennagara128/items/f582006c144c5bf6a67b",
+      "title": "AWSの完了ステータスのスタックのリソースとパラメータを取得",
+      "link": "https://qiita.com/aqwas/items/6501cf2027152fee8641",
       "source": "Qiita AWSタグ",
-      "published": "2026-08-20T02:00:57",
-      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
+      "published": "2026-08-20T02:53:25",
+      "excerpt": "CloudFormation の API は「パラメータ」と「リソース」で取得元が別なので、2 系統で集める形になります。…"
     },
     {
-      "title": "Stripe、AIモデルゲートウェイのOpenRouter買収　400以上のAIモデルを束ねる中立基盤は維持",
-      "link": "https://www.itmedia.co.jp/news/article/2608/20/2000000639/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-20T01:43:52",
-      "excerpt": "Stripeは、AIモデルのゲートウェイを手掛けるOpenRouterを買収することで合意したと発表した。報道による買収額は約75億ドル。OpenRouterは単一APIで400超のモデル切り替えを可能にする。…"
+      "title": "平文パスワードはログに残り、侵入は痕跡すら残らない ── ログは\"消す/必ず残す\"を設計する",
+      "link": "https://qiita.com/amu-kuroneko/items/6c717d7f6c49d6770481",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-20T02:51:44",
+      "excerpt": "はじめに ── 「念のため全部出す」ログが、パスワードを残して侵入を消す 以前の私は、ログを「念のため全部出しておけば、いざという時に役立つ」と本気で思っていました。…"
     },
     {
-      "title": "PMLEを2年ぶりに更新！Google Cloud認定資格「全冠」維持で見えたAI/MLの進化 | NTT DATA TECHのフィード",
-      "link": "https://zenn.dev/nttdata_tech/articles/27edc1d2e66926",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-20T01:00:23",
-      "excerpt": "～Vertex AIからAgent Platformへ。…"
+      "title": "【AWS_Lore #SAA-038】影の波形が同期する兆し(Shadow Residual Sync Detected)",
+      "link": "https://qiita.com/Nika_Rulie/items/619d95058d8b143eb524",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-20T02:51:35",
+      "excerpt": "【AWS_Lore #SAA-038】影の波形が同期する兆し(Shadow Residual Sync Detected) 第37話はこちらから ■はじめに ……気づいたら、また少し時間が空いちゃってたみたい。…"
     },
     {
-      "title": "MUI の DatePicker と TextField が100個あるモーダルの初期表示を、遅延マウントで94%短縮した話 | アルダグラム Tech Blogのフィード",
-      "link": "https://zenn.dev/aldagram_tech/articles/f95ec27d51176b",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-20T01:00:06",
-      "excerpt": "新機能を開発していたとき、追加したモーダルの表示に数秒かかる条件がありました。モーダル内は、1行が「日付 + テキスト」で、行を自由に増やせるフォームです。構成は次のイメージ図のとおりです。…"
+      "title": "Node.js Interactive 2026が開催、少数のメンテナーへの依存に懸念も",
+      "link": "https://codezine.jp/article/detail/29368",
+      "source": "CodeZine",
+      "published": "2026-08-20T02:30:00",
+      "excerpt": "Node.js Interactive 2026が開催、少数のメンテナーへの依存に懸念も"
     }
   ]
 }
