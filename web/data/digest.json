@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-21T09:57:12",
+  "generated_at": "2026-08-21T10:22:38",
   "window_hours": 24,
-  "total": 298,
+  "total": 295,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が51件。スプレッドシートからアプリを構築できるGemini新機能「Sheets canvas」がリリース",
+      "summary": "生成AIの新着が50件。スプレッドシートからアプリを構築できるGemini新機能「Sheets canvas」がリリース",
       "articles": [
         {
           "title": "スプレッドシートからアプリを構築できるGemini新機能「Sheets canvas」がリリース",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。ベテランの判断をAIに継いだあと、その人が辞めたら分身は誰のものか。ghoostは「本人のもの」という設計を採る。パブリシティ権の性質に沿った選択であり、同時に品質のための選択でもある。…",
+      "summary": "セキュリティの新着が18件。はじめに IAM Identity Center は組織全体の SSO 基盤なので、そのインスタンスがある 1 リージョンに障害が起きると、権限が正しく設定されていても AWS アカウントへサインインできなくなる、という単一障害点を抱えてい…",
       "articles": [
+        {
+          "title": "IAM Identity Center の組織インスタンスがワンクリックでマルチリージョン化できるようになりました",
+          "link": "https://qiita.com/leomarokun/items/29a2aca398d35a1aae1c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-21T10:12:14",
+          "excerpt": "はじめに IAM Identity Center は組織全体の SSO 基盤なので、そのインスタンスがある 1 リージョンに障害が起きると、権限が正しく設定されていても AWS アカウントへサインインできなくなる、という単一障害点を抱えてい…"
+        },
         {
           "title": "”自分”が流通する世界──AI分身の権利と、情報セキュリティの切り分け",
           "link": "https://dev.classmethod.jp/articles/whose-ai-persona-circulation/",
@@ -99,13 +106,6 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-21T04:16:17",
           "excerpt": "2.5次元アイドルグループ事務所のVOISING（東京都港区）は8月20日、同社が利用するBIツールへの不正アクセスによる個人情報漏えいについて、対象となる可能性がある人数が最大で約17万人に上ると発表した。"
-        },
-        {
-          "title": "IAM権限設計：「ConsoleFullAccess」の活用",
-          "link": "https://qiita.com/j-dai/items/622b04d715f6057ab65b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-21T03:29:20",
-          "excerpt": "社内勉強会でFSxには普通の AmazonFSxFullAccess もあるのに、わざわざ「Console」付きのポリシーが別にある。何が違うのかメモしておきます。…"
         }
       ]
     },
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "FANZA、成人向けAI創作・公開サービス「FANZAスタジオ」発表　先行体験は8月24日から",
+      "link": "https://www.itmedia.co.jp/news/article/2608/21/2000000691/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-21T09:52:57",
+      "excerpt": "デジタルコマースは8月17日、成人向けECサイト「FANZA」上で、AIコンテンツの創作・公開サービス「FANZAスタジオ」の先行体験を24日に始めると発表した。"
+    },
+    {
+      "title": "覚えておく価値のある小さなネイティブ Web トリック",
+      "link": "https://htmlcat.net/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-21T09:45:14",
+      "excerpt": "記事の URL: https://htmlcat.net/ コメント URL: https://news.ycombinator.com/item?id=49385860 ポイント: 7 コメント数: 0"
+    },
+    {
       "title": "Snowflakeのタグベースマスキングで部分マスクを検証してみた",
       "link": "https://dev.classmethod.jp/articles/snowflake-tag-based-masking-partial-mask-granularity/",
       "source": "DevelopersIO",
@@ -194,20 +208,6 @@
       "source": "DevelopersIO",
       "published": "2026-08-21T09:30:12",
       "excerpt": "Cloudflareの新しいヘッドレスブラウザ「Kitesurf」をCloudflare Workers上で動かす方法を試してみました。…"
-    },
-    {
-      "title": "Wi-Fi 7 の WPA3 保護には互換性の問題が付属しています",
-      "link": "https://www.theregister.com/networks/2026/08/21/wi-fi-7s-wpa3-protections-come-with-a-compatibility-catch/5289614",
-      "source": "The Register（英語）",
-      "published": "2026-08-21T09:14:00",
-      "excerpt": "CableLabs はハードウェア メーカーに対し、レガシー キットの接続を維持する回避策を採用することを望んでいます"
-    },
-    {
-      "title": "【Entra ID】優先順位がないなら、どう組むか｜後編・条件付きアクセスを要件レイヤーで重ねる | CloudNative BLOGs",
-      "link": "https://blog.cloudnative.co.jp/articles/entra-id-conditional-access-requirement-layers/",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-21T09:04:00",
-      "excerpt": "Entra IDの条件付きアクセスを、優先順位ではなく要件レイヤーで重ねる設計として解説。レポート専用モード、認証強度、ブレークグラス、ライセンスなど、インフラ出身者がつまずきやすい6つのポイントを整理します。"
     }
   ]
 }
