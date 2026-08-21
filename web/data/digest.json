@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-21T16:57:46",
+  "generated_at": "2026-08-21T17:23:05",
   "window_hours": 24,
-  "total": 272,
+  "total": 275,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が47件。記事の URL: https://github.com/Chong169/a-constitution-for-one コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が48件。記事の URL: https://jobs.ashbyhq.com/litellm/3f326076-7415-46a1-921e-8a1b1d6ee2b6 コメント URL: https://news.ycombinator.…",
       "articles": [
+        {
+          "title": "LiteLLM (YC W23) は Rust / パフォーマンス エンジニアを募集しています",
+          "link": "https://jobs.ashbyhq.com/litellm/3f326076-7415-46a1-921e-8a1b1d6ee2b6",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-21T17:00:23",
+          "excerpt": "記事の URL: https://jobs.ashbyhq.com/litellm/3f326076-7415-46a1-921e-8a1b1d6ee2b6 コメント URL: https://news.ycombinator.…"
+        },
         {
           "title": "私の AI エージェントは越えられない一線を越えようとし続けたので、私は彼らに規約を書きました",
           "link": "https://github.com/Chong169/a-constitution-for-one",
@@ -29,21 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-21T12:06:19",
           "excerpt": "FAQボットを導入しても電話の問い合わせが減らないのはなぜか。その理由と、問い合わせを3つに分類して最適な対応策を設計する考え方を紹介します。"
-        },
-        {
-          "title": "個人情報×生成AI入門 — Bedrockなら「学習されない」を出典付きで",
-          "link": "https://qiita.com/Xim2jp/items/c57a0fe642e339e05b4f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-21T11:20:48",
-          "excerpt": "「個人情報をAIに入れていいの？」と聞かれて、根拠付きで答えられますか。この記事では、Amazon Bedrockを使って個人情報（PII）を安全に処理する構成を、AWS公式の出典付きで整理しています。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…",
+      "summary": "クラウドの新着が23件。Amazon S3（ Simple Storage Service ） S3はバケットというスペースに、データをオブジェクト、階層データ、 表形式データとして保存するサービス。用語の説明はこのページに書いてありました。…",
       "articles": [
+        {
+          "title": "AWS S3 / AWS SDK for Ruby でオブジェクトを取得",
+          "link": "https://zenn.dev/tekitou/articles/d0685b8f6fd7d8",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-21T12:45:26",
+          "excerpt": "Amazon S3（ Simple Storage Service ） S3はバケットというスペースに、データをオブジェクト、階層データ、 表形式データとして保存するサービス。用語の説明はこのページに書いてありました。…"
+        },
         {
           "title": "S3への書き込み権限なしでAWS DevOps AgentにAthenaを使って調査をお願いしてみた",
           "link": "https://dev.classmethod.jp/articles/athena-devops-agent-verification/",
@@ -52,25 +59,18 @@
           "excerpt": "AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…"
         },
         {
+          "title": "【2026年版】未経験からインフラエンジニアへ転職可能？必要な資格・スキル・勉強方法を解説",
+          "link": "https://zenn.dev/reo_engineer/articles/0024fdd024347c",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-21T10:00:06",
+          "excerpt": "【2026年版】未経験からインフラエンジニアへ転職可能？必要な資格・スキル・勉強方法を解説 「未経験からインフラエンジニアへの転職は可能？」 「IT業界で働いたことがなくても大丈夫？…"
+        },
+        {
           "title": "Android CLIのスキルでXML ViewをJetpack Composeに移行させてみる",
           "link": "https://dev.classmethod.jp/articles/android-cli-skill-xml-to-compose/",
           "source": "DevelopersIO",
           "published": "2026-08-21T09:52:42",
           "excerpt": "AndroidのCompose First宣言に伴い、XML ViewからJetpack Composeへの移行を支援する公式スキルを試してみました。実際に動かしてみた結果を紹介します。"
-        },
-        {
-          "title": "VS Code Remote-SSHで、ポート22を開けずにプライベートサブネットのEC2に接続する（SSM Session Manager編）",
-          "link": "https://dev.classmethod.jp/articles/connect-ec2-vscode-remote-ssh-via-ssm-session-manager/",
-          "source": "DevelopersIO",
-          "published": "2026-08-21T09:42:54",
-          "excerpt": "AWS Systems Manager のSession Managerを使い、パブリックIPもインバウンド22番ポートも開けずにVS CodeからEC2へSSH接続する方法を、実際の検証結果とハマったポイントを含めて紹介します。"
-        },
-        {
-          "title": "【FastAPI × PostgreSQL】AlembicでDBマイグレーションを実施する | ヘッドウォータースのフィード",
-          "link": "https://zenn.dev/headwaters/articles/d51d2831255f2f",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-21T09:33:11",
-          "excerpt": "AlembicとはAlembic は SQLAlchemy 公式のマイグレーション管理ツールです。モデル変更内容をマイグレーションファイルとして管理し、DBスキーマ変更履歴をソースコードで管理できます。…"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。Amazon Bedrock で利用可能になった Grok 4.6 を、AWS CLI の aws bedrock-runtime converse から IAM 認証だけで呼び出してみました。…",
+      "summary": "開発ツールの新着が14件。Amazon Bedrock で利用可能になった Grok 4.6 を、AWS CLI の aws bedrock-runtime converse から IAM 認証だけで呼び出してみました。…",
       "articles": [
         {
           "title": "Amazon Bedrock RuntimeのGrok 4.6を AWS CLIで試してみた",
@@ -164,18 +164,18 @@
           "excerpt": "CTO、今月2回目の停止を受けてアーキテクチャの全面見直しを約束"
         },
         {
+          "title": "AWS S3 / AWS SDK for Ruby でオブジェクトを取得",
+          "link": "https://zenn.dev/tekitou/articles/d0685b8f6fd7d8",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-21T12:45:26",
+          "excerpt": "Amazon S3（ Simple Storage Service ） S3はバケットというスペースに、データをオブジェクト、階層データ、 表形式データとして保存するサービス。用語の説明はこのページに書いてありました。…"
+        },
+        {
           "title": "Android CLIのスキルでXML ViewをJetpack Composeに移行させてみる",
           "link": "https://dev.classmethod.jp/articles/android-cli-skill-xml-to-compose/",
           "source": "DevelopersIO",
           "published": "2026-08-21T09:52:42",
           "excerpt": "AndroidのCompose First宣言に伴い、XML ViewからJetpack Composeへの移行を支援する公式スキルを試してみました。実際に動かしてみた結果を紹介します。"
-        },
-        {
-          "title": "「Agent Plugins 1.0」、GitHub Copilotクライアント群で提供開始",
-          "link": "https://codezine.jp/article/detail/29354",
-          "source": "CodeZine",
-          "published": "2026-08-21T09:00:00",
-          "excerpt": "「Agent Plugins 1.0」、GitHub Copilotクライアント群で提供開始"
         }
       ]
     }
@@ -196,18 +196,18 @@
       "excerpt": "ウクライナのハクティビストがバグを悪用、しかしTrueConfの範囲は国内の領域をはるかに超えている"
     },
     {
-      "title": "マスク、スターシップ初捕獲のスケジュールを手探り",
-      "link": "https://www.theregister.com/offbeat/2026/08/21/musk-fumbles-the-timetable-for-first-starship-catch/5291201",
-      "source": "The Register（英語）",
-      "published": "2026-08-21T16:14:43",
-      "excerpt": "軌道試験が近づく中、億万長者が収益を取り下げ楽観論を呼び掛ける"
+      "title": "自己ホスト型 AI ソフトウェア ファクトリー",
+      "link": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-21T16:27:52",
+      "excerpt": "記事の URL: https://blog.jakesaunders.…"
     },
     {
-      "title": "Omacom財団が800万ドルで設立",
-      "link": "https://omarchy.org/news/2026/08/omacom-foundation-launches-with-8-million/",
+      "title": "kobo でアプリを実行できるようになりました",
+      "link": "https://bandarlabs.github.io/Cobalt/",
       "source": "Hacker News（英語）",
-      "published": "2026-08-21T16:03:47",
-      "excerpt": "記事の URL: https://omaarchy.org/news/2026/08/omacom-foundation-launches-with-8-million/ コメント URL: https://news.…"
+      "published": "2026-08-21T16:25:25",
+      "excerpt": "記事の URL: https://bandarlabs.github.io/Cobalt/ コメント URL: https://news.ycombinator.com/item?id=49390427 ポイント: 16 コメント数: 1"
     }
   ]
 }
