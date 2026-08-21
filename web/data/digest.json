@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-21T14:04:12",
+  "generated_at": "2026-08-21T15:00:03",
   "window_hours": 24,
-  "total": 284,
+  "total": 281,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が50件。FAQボットを導入しても電話の問い合わせが減らないのはなぜか。その理由と、問い合わせを3つに分類して最適な対応策を設計する考え方を紹介します。",
+      "summary": "生成AIの新着が52件。Amazon Bedrock で利用可能になった Grok 4.6 を、AWS CLI の aws bedrock-runtime converse から IAM 認証だけで呼び出してみました。…",
       "articles": [
+        {
+          "title": "Amazon Bedrock RuntimeのGrok 4.6を AWS CLIで試してみた",
+          "link": "https://dev.classmethod.jp/articles/grok-46-bedrock-runtime-converse/",
+          "source": "DevelopersIO",
+          "published": "2026-08-21T14:42:21",
+          "excerpt": "Amazon Bedrock で利用可能になった Grok 4.6 を、AWS CLI の aws bedrock-runtime converse から IAM 認証だけで呼び出してみました。…"
+        },
         {
           "title": "なぜFAQボットを導入しても、電話の問い合わせは減らないのか　〜生成AIチャットボットで問い合わせ削減を実現する3分類の考え方〜",
           "link": "https://dev.classmethod.jp/articles/faq-bot-triage/",
@@ -29,20 +36,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-21T10:28:48",
           "excerpt": "AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…"
-        },
-        {
-          "title": "スプレッドシートからアプリを構築できるGemini新機能「Sheets canvas」がリリース",
-          "link": "https://codezine.jp/article/detail/29377",
-          "source": "CodeZine",
-          "published": "2026-08-21T09:00:00",
-          "excerpt": "スプレッドシートからアプリを構築できるGemini新機能「Sheets canvas」がリリース"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…",
+      "summary": "クラウドの新着が22件。AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…",
       "articles": [
         {
           "title": "S3への書き込み権限なしでAWS DevOps AgentにAthenaを使って調査をお願いしてみた",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。SAML連携しているCognitoで認証して、PostmanからGraphQLリクエストを送信する AWS AppSyncの認証にAmazon Cognitoを使用しており、さらにCognitoが社内IdPなどとSAML連携している構成の場…",
+      "summary": "セキュリティの新着が16件。SAML連携しているCognitoで認証して、PostmanからGraphQLリクエストを送信する AWS AppSyncの認証にAmazon Cognitoを使用しており、さらにCognitoが社内IdPなどとSAML連携している構成の場…",
       "articles": [
         {
           "title": "SAML連携しているCognitoで認証して、PostmanからGraphQLリクエストを送信する",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。AndroidのCompose First宣言に伴い、XML ViewからJetpack Composeへの移行を支援する公式スキルを試してみました。実際に動かしてみた結果を紹介します。",
+      "summary": "開発ツールの新着が13件。Amazon Bedrock で利用可能になった Grok 4.6 を、AWS CLI の aws bedrock-runtime converse から IAM 認証だけで呼び出してみました。…",
       "articles": [
+        {
+          "title": "Amazon Bedrock RuntimeのGrok 4.6を AWS CLIで試してみた",
+          "link": "https://dev.classmethod.jp/articles/grok-46-bedrock-runtime-converse/",
+          "source": "DevelopersIO",
+          "published": "2026-08-21T14:42:21",
+          "excerpt": "Amazon Bedrock で利用可能になった Grok 4.6 を、AWS CLI の aws bedrock-runtime converse から IAM 認証だけで呼び出してみました。…"
+        },
         {
           "title": "Android CLIのスキルでXML ViewをJetpack Composeに移行させてみる",
           "link": "https://dev.classmethod.jp/articles/android-cli-skill-xml-to-compose/",
@@ -169,45 +176,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-21T06:09:07",
           "excerpt": "1.はじめに 実務で CloudFormation のテンプレートを読むことになったものの、どこから手をつければいいのか分からない。そんな経験はありませんか。…"
-        },
-        {
-          "title": "「10 分待ってデプロイ失敗」はもうやめよう: CDK Comprehensive Validation はデプロイ前に設定ミスを検出する",
-          "link": "https://zenn.dev/aws_japan/articles/cdk-comprehensive-validation",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-21T06:02:00",
-          "excerpt": "AWS の同僚の Pahud が、CDK の新しいバリデーション機能について dev.to に記事を書いています。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "打ち上げオプションが枯渇する中、スタークラウドは軌道データセンターのために2億5000万ドルを調達",
-      "link": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+      "title": "Ouraは、睡眠追跡の精度について消費者に誤解を与えたとして訴訟に直面している",
+      "link": "https://techcrunch.com/2026/08/21/oura-faces-lawsuit-accusing-it-of-misleading-consumers-about-sleep-tracking-accuracy/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-21T14:00:00",
-      "excerpt": "宇宙へのアクセスを確保するために大きな戦いが起ころうとしています。"
+      "published": "2026-08-21T14:39:24",
+      "excerpt": "訴状では、Oura リングは睡眠の質の評価や睡眠段階の決定に必要な生理学的信号を測定できないと主張している。"
     },
     {
-      "title": "テスラ、中国全土で隠しドアハンドル廃止推進の一環として300万台の車をリコール",
-      "link": "https://techcrunch.com/2026/08/21/tesla-recalls-3-million-cars-as-part-of-china-wide-push-to-stop-hidden-door-handles/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-21T13:48:26",
-      "excerpt": "テスラと他の自動車メーカー 8 社は、見つけにくい手動ドア リリースを乗員が識別できるようにする警告ラベルを設置する予定です。"
-    },
-    {
-      "title": "プライベートエクイティ会社アポロ、金融大手を標的としたハッキン​​グの波の中でデータ侵害を確認",
-      "link": "https://techcrunch.com/2026/08/21/private-equity-firm-apollo-confirms-data-breach-amid-hacking-wave-targeting-financial-giants/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-21T13:35:23",
-      "excerpt": "グーグルの研究者がハッカーが金融会社を標的にしていると発表してから数週間後、プライベートエクイティ大手は侵害を確認した。"
-    },
-    {
-      "title": "ハッブルへの放射線被害は太陽周期と4.3年ずれている",
-      "link": "https://arxiv.org/abs/2608.18214",
+      "title": "クローデット: クロードに BuzzFeed 記事のような話をやめさせる",
+      "link": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
       "source": "Hacker News（英語）",
-      "published": "2026-08-21T13:35:17",
-      "excerpt": "記事の URL: https://arxiv.org/abs/2608.18214 コメント URL: https://news.ycombinator.com/item?id=49387856 ポイント: 5 コメント数: 2"
+      "published": "2026-08-21T14:31:52",
+      "excerpt": "記事の URL: https://github.com/adnanakil/nobuzz/blob/main/README.md コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "ウォルマート、ついにApple PayとGoogle Payの受け入れを開始",
+      "link": "https://techcrunch.com/2026/08/21/walmart-to-finally-start-accepting-apple-pay-and-google-pay/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-21T14:30:23",
+      "excerpt": "豚って飛んでるの？ウォルマートはついに、Apple PayとGoogle Payのサポートを拒否したことに折れた。"
+    },
+    {
+      "title": "検索が思考を停止したときに失ったもの",
+      "link": "https://blog.8ball.space/what-we-lost-when-search/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-21T14:16:17",
+      "excerpt": "記事の URL: https://blog.8ball.space/what-we-lost-when-search/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
