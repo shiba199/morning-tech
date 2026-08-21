@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-21T18:20:20",
+  "generated_at": "2026-08-21T19:04:04",
   "window_hours": 24,
-  "total": 271,
+  "total": 267,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が47件。記事の URL: https://jobs.ashbyhq.com/litellm/3f326076-7415-46a1-921e-8a1b1d6ee2b6 コメント URL: https://news.ycombinator.…",
+      "summary": "生成AIの新着が48件。Amazon Bedrock AgentCore Web Search Toolの検索インデックスに、日本語記事がどの程度収録されているかを、DevelopersIOの記事を対象に調べました。",
       "articles": [
+        {
+          "title": "東京リージョンで利用可能になったAmazon Bedrock AgentCore Web Search Toolを日本語クエリで試してみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-web-search-tool-japanese-query/",
+          "source": "DevelopersIO",
+          "published": "2026-08-21T18:54:31",
+          "excerpt": "Amazon Bedrock AgentCore Web Search Toolの検索インデックスに、日本語記事がどの程度収録されているかを、DevelopersIOの記事を対象に調べました。"
+        },
         {
           "title": "LiteLLM (YC W23) は Rust / パフォーマンス エンジニアを募集しています",
           "link": "https://jobs.ashbyhq.com/litellm/3f326076-7415-46a1-921e-8a1b1d6ee2b6",
@@ -29,20 +36,13 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-21T15:48:32",
           "excerpt": "記事の URL: https://github.com/Chong169/a-constitution-for-one コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Amazon Bedrock RuntimeのGrok 4.6を AWS CLIで試してみた",
-          "link": "https://dev.classmethod.jp/articles/grok-46-bedrock-runtime-converse/",
-          "source": "DevelopersIO",
-          "published": "2026-08-21T14:42:21",
-          "excerpt": "Amazon Bedrock で利用可能になった Grok 4.6 を、AWS CLI の aws bedrock-runtime converse から IAM 認証だけで呼び出してみました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が24件。Amazon S3（ Simple Storage Service ） S3はバケットというスペースに、データをオブジェクト、階層データ、 表形式データとして保存するサービス。用語の説明はこのページに書いてありました。…",
+      "summary": "クラウドの新着が21件。Amazon S3（ Simple Storage Service ） S3はバケットというスペースに、データをオブジェクト、階層データ、 表形式データとして保存するサービス。用語の説明はこのページに書いてありました。…",
       "articles": [
         {
           "title": "AWS S3 / AWS SDK for Ruby でオブジェクトを取得",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。この安全性の審査はアイダホ国立研究所によって行われており、この研究には電気自動車および自動運転車業界の企業、または企業グループが資金提供している。",
+      "summary": "セキュリティの新着が13件。この安全性の審査はアイダホ国立研究所によって行われており、この研究には電気自動車および自動運転車業界の企業、または企業グループが資金提供している。",
       "articles": [
         {
           "title": "米国政府の研究所が中国製ライダーのセキュリティ脆弱性を調査中",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が9件。記事の URL: https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering コメント URL: https://news.…",
+      "summary": "データ分析の新着が10件。AWS Glue 6.0 は、完全に最新化されたランタイム、Apache Spark 4.1、Python 3.12、Scala 2.13 上に構築されており、以前の AWS Glue バージョンより 30% 低い料金設定を実現しています。",
       "articles": [
+        {
+          "title": "AWS Glue 6.0 が 30% 値下げされ、Apache Iceberg v3 を完全にサポートして利用可能になりました",
+          "link": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-08-21T18:53:26",
+          "excerpt": "AWS Glue 6.0 は、完全に最新化されたランタイム、Apache Spark 4.1、Python 3.12、Scala 2.13 上に構築されており、以前の AWS Glue バージョンより 30% 低い料金設定を実現しています。"
+        },
         {
           "title": "TigerBeetle コア システム アーキテクチャ: パフォーマンス エンジニアリングの解体",
           "link": "https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering",
@@ -134,13 +141,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-21T09:33:11",
           "excerpt": "AlembicとはAlembic は SQLAlchemy 公式のマイグレーション管理ツールです。モデル変更内容をマイグレーションファイルとして管理し、DBスキーマ変更履歴をソースコードで管理できます。…"
-        },
-        {
-          "title": "Debian は 33 歳、Haiku は 25 歳、どちらも立ち止まっていません",
-          "link": "https://www.theregister.com/os-platforms/2026/08/21/debian-is-33-haiku-is-25-and-neither-is-standing-still/5290144",
-          "source": "The Register（英語）",
-          "published": "2026-08-21T08:26:00",
-          "excerpt": "1 つは Linux の柱であり続け、もう 1 つは BeOS の夢を生き続けます。"
         }
       ]
     },
