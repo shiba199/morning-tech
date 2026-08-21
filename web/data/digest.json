@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-21T22:46:53",
+  "generated_at": "2026-08-21T23:13:06",
   "window_hours": 24,
-  "total": 255,
+  "total": 253,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。OpenAIは、AI投資の評価指標として成果額当たりの有用な知能を提示し、業務成果、成功費用、信頼性、拡張時の価値増加を軸に評価法を示した。モデルや計算資源の改善で成果向上と費用低減を図る方針を示した。",
+      "summary": "生成AIの新着が45件。Anthropic は、クロード モデルが性的に露骨なコンテンツを生成することを禁止しています。しかし、TechCrunchが実施した一連のテストでは、制限を突破するのにそれほど時間はかからないことが判明した。",
       "articles": [
+        {
+          "title": "Anthropic の Opus 4.6 はクソマシンです",
+          "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-21T23:07:25",
+          "excerpt": "Anthropic は、クロード モデルが性的に露骨なコンテンツを生成することを禁止しています。しかし、TechCrunchが実施した一連のテストでは、制限を突破するのにそれほど時間はかからないことが判明した。"
+        },
+        {
+          "title": "[Amazon Bedrock] 検査プロンプトを VLM 自身に書かせて外観検査をしてみました 〜欠陥の位置は座標ではなくグリッドのセル名で〜",
+          "link": "https://dev.classmethod.jp/articles/bedrock-vlm-visual-inspection-generated-prompt/",
+          "source": "DevelopersIO",
+          "published": "2026-08-21T22:45:49",
+          "excerpt": "VLM（Vision Language Model）で外観検査を始める際の課題である「検査キーワードの決定」と「欠陥位置の特定」を、VLM自身に解決させる方法を試してみました。…"
+        },
         {
           "title": "AI投資の費用対効果、どう測る？　OpenAIが示した4指標",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2608/22/news002.html",
@@ -22,28 +36,21 @@
           "source": "The Register（英語）",
           "published": "2026-08-21T20:50:00",
           "excerpt": "お金を見せてください"
-        },
-        {
-          "title": "東京リージョンで利用可能になったAmazon Bedrock AgentCore Web Search Toolを日本語クエリで試してみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-web-search-tool-japanese-query/",
-          "source": "DevelopersIO",
-          "published": "2026-08-21T18:54:31",
-          "excerpt": "Amazon Bedrock AgentCore Web Search Toolの検索インデックスに、日本語記事がどの程度収録されているかを、DevelopersIOの記事を対象に調べました。"
-        },
-        {
-          "title": "Claude Mythos 5 のサイバーセキュリティ機能をより多くの防御者に提供",
-          "link": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-21T18:48:28",
-          "excerpt": "記事の URL: https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。Amazon S3（ Simple Storage Service ） S3はバケットというスペースに、データをオブジェクト、階層データ、 表形式データとして保存するサービス。用語の説明はこのページに書いてありました。…",
+      "summary": "クラウドの新着が20件。Argo CD の Amazon Elastic Kubernetes Service (Amazon EKS) 機能は、クラスター内の標準の argocd-cm ConfigMap を介したカスタム設定をサポートするようになりました。…",
       "articles": [
+        {
+          "title": "Argo CD の Amazon EKS 機能がカスタム設定をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-21T17:00:00",
+          "excerpt": "Argo CD の Amazon Elastic Kubernetes Service (Amazon EKS) 機能は、クラスター内の標準の argocd-cm ConfigMap を介したカスタム設定をサポートするようになりました。…"
+        },
         {
           "title": "AWS S3 / AWS SDK for Ruby でオブジェクトを取得",
           "link": "https://zenn.dev/tekitou/articles/d0685b8f6fd7d8",
@@ -64,20 +71,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-21T10:00:06",
           "excerpt": "【2026年版】未経験からインフラエンジニアへ転職可能？必要な資格・スキル・勉強方法を解説 「未経験からインフラエンジニアへの転職は可能？」 「IT業界で働いたことがなくても大丈夫？…"
-        },
-        {
-          "title": "Android CLIのスキルでXML ViewをJetpack Composeに移行させてみる",
-          "link": "https://dev.classmethod.jp/articles/android-cli-skill-xml-to-compose/",
-          "source": "DevelopersIO",
-          "published": "2026-08-21T09:52:42",
-          "excerpt": "AndroidのCompose First宣言に伴い、XML ViewからJetpack Composeへの移行を支援する公式スキルを試してみました。実際に動かしてみた結果を紹介します。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。記事の URL: https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が11件。記事の URL: https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
           "title": "Claude Mythos 5 のサイバーセキュリティ機能をより多くの防御者に提供",
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "クローバーリーフ取引は、NvidiaがAIバブルの亀裂を修復するために軍資金を利用した最新の例である",
+      "link": "https://www.theregister.com/systems/2026/08/22/cloverleaf-deal-is-latest-example-of-nvidia-using-its-war-chest-to-patch-cracks-in-the-ai-bubble/5291369",
+      "source": "The Register（英語）",
+      "published": "2026-08-21T23:00:18",
+      "excerpt": "Nv の新しいチップには新しいデータセンターが必要ですが、電力がなければビットバーンを置くことはできません"
+    },
+    {
+      "title": "私は 28,000 冊の本を所有しています – これが私が学んだことです",
+      "link": "https://www.shelvd.org/blog/28000-books",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-21T22:59:27",
+      "excerpt": "記事の URL: https://www.shelvd.org/blog/28000-books コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
       "title": "Nvidia がデータセンター開発者の Cloverleaf と提携",
       "link": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
       "source": "TechCrunch（英語）",
@@ -189,25 +203,11 @@
       "excerpt": "AI データセンターが Nvidia に多額の資金をもたらしているのと同じように、Nvidia はデータセンター開発に資金を注ぎ続けています。"
     },
     {
-      "title": "AI 会計スタートアップの Rillet が 48 時間で 1 億ドルを調達しユニコーンになった方法",
-      "link": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-21T22:10:01",
-      "excerpt": "Rillet の CEO、Nicholas Koop 氏は取締役会で成長に関する数字を共有し、Iconiq、Sequoia などからの資金調達の熱狂を引き起こしました。努力もせずに。"
-    },
-    {
-      "title": "AWS Certified DevOps Engineer - Professional (DOP-C02)を更新しました",
-      "link": "https://qiita.com/user007/items/5ad16eeb595f793a0495",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-21T21:37:14",
-      "excerpt": "はじめに AWS Certified DevOps Engineer - Professionalが失効間近のため更新しました。…"
-    },
-    {
-      "title": "電動スクーターの遠隔ロック解除",
-      "link": "https://henriemategui.com/post/remotely-unlocking-electric-scooters",
+      "title": "「ゴーストジョブ」広告があまりにもひどいものになっているため、議員らは広告の禁止を求めている",
+      "link": "https://www.wsj.com/lifestyle/careers/ghost-job-ads-are-getting-so-bad-that-lawmakers-want-to-ban-them-2580bc3e",
       "source": "Hacker News（英語）",
-      "published": "2026-08-21T21:32:07",
-      "excerpt": "記事の URL: https://henriemategui.com/post/remotely-unlocking-electric-scooters コメント URL: https://news.ycombinator.…"
+      "published": "2026-08-21T22:15:46",
+      "excerpt": "記事の URL: https://www.wsj.…"
     }
   ]
 }
