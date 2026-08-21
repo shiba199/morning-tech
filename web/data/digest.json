@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-21T10:54:35",
+  "generated_at": "2026-08-21T11:15:28",
   "window_hours": 24,
-  "total": 295,
+  "total": 298,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が51件。AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…",
+      "summary": "生成AIの新着が50件。AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…",
       "articles": [
         {
           "title": "S3への書き込み権限なしでAWS DevOps AgentにAthenaを使って調査をお願いしてみた",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が24件。AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…",
+      "summary": "クラウドの新着が25件。AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…",
       "articles": [
         {
           "title": "S3への書き込み権限なしでAWS DevOps AgentにAthenaを使って調査をお願いしてみた",
@@ -66,19 +66,26 @@
           "excerpt": "AWS Systems Manager のSession Managerを使い、パブリックIPもインバウンド22番ポートも開けずにVS CodeからEC2へSSH接続する方法を、実際の検証結果とハマったポイントを含めて紹介します。"
         },
         {
-          "title": "Snowflake Community Awards のファイナリストに選出されたので、これまでの発信活動を振り返ってみた #Snowflake #SnowflakeCommunity #CommunityAwards",
-          "link": "https://dev.classmethod.jp/articles/snowflake-community-awards-finalist-activities-review/",
-          "source": "DevelopersIO",
-          "published": "2026-08-21T09:18:38",
-          "excerpt": "Snowflake Community Awards のファイナリストに選出いただきました。…"
+          "title": "【FastAPI × PostgreSQL】AlembicでDBマイグレーションを実施する | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/d51d2831255f2f",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-21T09:33:11",
+          "excerpt": "AlembicとはAlembic は SQLAlchemy 公式のマイグレーション管理ツールです。モデル変更内容をマイグレーションファイルとして管理し、DBスキーマ変更履歴をソースコードで管理できます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。はじめに IAM Identity Center は組織全体の SSO 基盤なので、そのインスタンスがある 1 リージョンに障害が起きると、権限が正しく設定されていても AWS アカウントへサインインできなくなる、という単一障害点を抱えてい…",
+      "summary": "セキュリティの新着が19件。SAML連携しているCognitoで認証して、PostmanからGraphQLリクエストを送信する AWS AppSyncの認証にAmazon Cognitoを使用しており、さらにCognitoが社内IdPなどとSAML連携している構成の場…",
       "articles": [
+        {
+          "title": "SAML連携しているCognitoで認証して、PostmanからGraphQLリクエストを送信する",
+          "link": "https://qiita.com/hideki/items/5556911abf3555a68cf3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-21T11:14:16",
+          "excerpt": "SAML連携しているCognitoで認証して、PostmanからGraphQLリクエストを送信する AWS AppSyncの認証にAmazon Cognitoを使用しており、さらにCognitoが社内IdPなどとSAML連携している構成の場…"
+        },
         {
           "title": "IAM Identity Center の組織インスタンスがワンクリックでマルチリージョン化できるようになりました",
           "link": "https://qiita.com/leomarokun/items/29a2aca398d35a1aae1c",
@@ -99,20 +106,13 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-21T06:20:20",
           "excerpt": "ポスト量子暗号 (PQC) への移行は、アルゴリズムの変更以上に組織横断の変革推進が課題です。…"
-        },
-        {
-          "title": "2.5次元アイドル「いれいす」事務所への不正アクセス、最大17万人に影響　“推し”情報や購買履歴も漏えいか",
-          "link": "https://www.itmedia.co.jp/news/article/2608/21/2000000677/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-21T04:16:17",
-          "excerpt": "2.5次元アイドルグループ事務所のVOISING（東京都港区）は8月20日、同社が利用するBIツールへの不正アクセスによる個人情報漏えいについて、対象となる可能性がある人数が最大で約17万人に上ると発表した。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…",
+      "summary": "データ分析の新着が9件。AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…",
       "articles": [
         {
           "title": "S3への書き込み権限なしでAWS DevOps AgentにAthenaを使って調査をお願いしてみた",
@@ -120,6 +120,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-21T10:28:48",
           "excerpt": "AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…"
+        },
+        {
+          "title": "【FastAPI × PostgreSQL】AlembicでDBマイグレーションを実施する | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/d51d2831255f2f",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-21T09:33:11",
+          "excerpt": "AlembicとはAlembic は SQLAlchemy 公式のマイグレーション管理ツールです。モデル変更内容をマイグレーションファイルとして管理し、DBスキーマ変更履歴をソースコードで管理できます。…"
         },
         {
           "title": "Debian は 33 歳、Haiku は 25 歳、どちらも立ち止まっていません",
@@ -134,13 +141,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-21T06:00:00",
           "excerpt": "DroidKaigiやiOSDCが近づく中、現在Sansanでは「モバイルブログリレー」を実施しています。…"
-        },
-        {
-          "title": "SageMaker Unified Studio で Glue テーブルのアセットを作成する手順",
-          "link": "https://qiita.com/swkky/items/092df5056ee13b7a9297",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-21T05:59:59",
-          "excerpt": "アセットとは?SageMaker Unified Studio（DataZone）における「アセット」とは、テーブルやビューなどのデータオブジェクト1つに対応するカタログ上の管理単位です。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "法務省、「ラヴ上等」とのタイアップ中止　「当初の意図を全うすることが難しい」",
+      "link": "https://www.itmedia.co.jp/news/article/2608/21/2000000695/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-21T10:51:06",
+      "excerpt": "法務省は8月21日、米Netflixの恋愛リアリティーショー「『ラヴ上等』シーズン2」と「更生保護」の取り組みとのタイアップを取りやめると発表した。…"
+    },
+    {
+      "title": "DeepSeek-v4-フラッシュビジョン-exp",
+      "link": "https://api-docs.deepseek.com/guides/vision/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-21T10:33:56",
+      "excerpt": "記事の URL: https://api-docs.deepseek.com/guides/vision/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "弊社を装ったSlackへの偽招待メールにご注意ください | プラチナゲームズ公式ブログ",
+      "link": "https://www.platinumgames.co.jp/official-blog/article/19270",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-21T10:27:23",
+      "excerpt": "平素より弊社をご愛顧いただき、誠にありがとうございます。最近、弊社の名を騙った第三者より、Slack（スラック）の招待を装う不審なメールが送付されている事例が確認されております。…"
+    },
+    {
       "title": "FANZA、成人向けAI創作・公開サービス「FANZAスタジオ」発表　先行体験は8月24日から",
       "link": "https://www.itmedia.co.jp/news/article/2608/21/2000000691/",
       "source": "ITmedia NEWS",
       "published": "2026-08-21T09:52:57",
       "excerpt": "デジタルコマースは8月17日、成人向けECサイト「FANZA」上で、AIコンテンツの創作・公開サービス「FANZAスタジオ」の先行体験を24日に始めると発表した。"
-    },
-    {
-      "title": "覚えておく価値のある小さなネイティブ Web トリック",
-      "link": "https://htmlcat.net/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-21T09:45:14",
-      "excerpt": "記事の URL: https://htmlcat.net/ コメント URL: https://news.ycombinator.com/item?id=49385860 ポイント: 7 コメント数: 0"
-    },
-    {
-      "title": "Snowflakeのタグベースマスキングで部分マスクを検証してみた",
-      "link": "https://dev.classmethod.jp/articles/snowflake-tag-based-masking-partial-mask-granularity/",
-      "source": "DevelopersIO",
-      "published": "2026-08-21T09:33:47",
-      "excerpt": "Snowflake のタグベースマスキングポリシーで `SYSTEM$GET_TAG_ON_CURRENT_COLUMN` を使い、タグの値によって部分マスクの粒度を切り替える構成を検証してみました。"
-    },
-    {
-      "title": "KitesurfをCloudflare Workersで動かす",
-      "link": "https://dev.classmethod.jp/articles/use-kitesurf-on-cloudflare-workers/",
-      "source": "DevelopersIO",
-      "published": "2026-08-21T09:30:12",
-      "excerpt": "Cloudflareの新しいヘッドレスブラウザ「Kitesurf」をCloudflare Workers上で動かす方法を試してみました。…"
     }
   ]
 }
