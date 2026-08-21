@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-21T03:27:15",
+  "generated_at": "2026-08-21T04:08:01",
   "window_hours": 24,
-  "total": 302,
+  "total": 292,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が50件。こんにちは。ソーイ株式会社、Webエンジニア2年目の村上です。AWS上のアプリケーションから基盤モデルを利用する場合、簡単に生成AIモデルを呼び出せるAmazon Bedrockを使う機会も多いと思います。…",
+      "summary": "生成AIの新着が48件。こんにちは。ソーイ株式会社、Webエンジニア2年目の村上です。AWS上のアプリケーションから基盤モデルを利用する場合、簡単に生成AIモデルを呼び出せるAmazon Bedrockを使う機会も多いと思います。…",
       "articles": [
         {
           "title": "LambdaでAmazon Bedrockに任意のトークン上限を設定してみた【80%で通知・上限到達でリクエスト拒否】",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。こんにちは。ソーイ株式会社、Webエンジニア2年目の村上です。AWS上のアプリケーションから基盤モデルを利用する場合、簡単に生成AIモデルを呼び出せるAmazon Bedrockを使う機会も多いと思います。…",
+      "summary": "クラウドの新着が18件。Amazon Redshift のシステムテーブルを S3 に長期保持できる新機能「System table integration with S3 Tables」を、Amazon Redshift Serverless で実際に試してみま…",
       "articles": [
+        {
+          "title": "[アップデート] Amazon Redshift のシステムテーブルを Amazon S3 Tables に自動配信できるようになったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/20260821-amazon-redshift-long-term-system-table-retention/",
+          "source": "DevelopersIO",
+          "published": "2026-08-21T03:30:20",
+          "excerpt": "Amazon Redshift のシステムテーブルを S3 に長期保持できる新機能「System table integration with S3 Tables」を、Amazon Redshift Serverless で実際に試してみま…"
+        },
         {
           "title": "LambdaでAmazon Bedrockに任意のトークン上限を設定してみた【80%で通知・上限到達でリクエスト拒否】",
           "link": "https://qiita.com/chaochire/items/80000bf7cf8bbe5b36ee",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-21T00:12:23",
           "excerpt": "1.はじめに 前回、VPC・EC2・RDS・ELB・S3の5サービスについて、それぞれの役割とハンズオンで行ったことを整理しました。その後も学習を進め、DNS・CDN・セキュリティ・運用ツールと、扱うサービスの幅が広がってきました。…"
-        },
-        {
-          "title": "【AWS入門】NAT Gatewayとは何か ─ S3への通信で気づいたVPCエンドポイントの必要性",
-          "link": "https://qiita.com/y-kojima-next/items/fa37c47a0f62aa02dc1a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-21T00:08:07",
-          "excerpt": "はじめに AWS認定ソリューションアーキテクト – アソシエイト（SAA）の勉強を進めていくとVPCの範囲では、NAT Gateway というサービスが出てきます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が20件。認証まわりでよく出るIdP・SSO・MFA・OAuth・OIDC・SAMLの6語を、意味と登場する場面から整理します。…",
+      "summary": "セキュリティの新着が21件。社内勉強会でFSxには普通の AmazonFSxFullAccess もあるのに、わざわざ「Console」付きのポリシーが別にある。何が違うのかメモしておきます。…",
       "articles": [
+        {
+          "title": "IAM権限設計：「ConsoleFullAccess」の活用",
+          "link": "https://qiita.com/j-dai/items/622b04d715f6057ab65b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-21T03:29:20",
+          "excerpt": "社内勉強会でFSxには普通の AmazonFSxFullAccess もあるのに、わざわざ「Console」付きのポリシーが別にある。何が違うのかメモしておきます。…"
+        },
         {
           "title": "今さら聞けない認証まわりの略語｜IdP・SSO・MFA・OAuth・OIDC・SAMLを新人向けに整理【2026】 | CloudNative BLOGs",
           "link": "https://blog.cloudnative.co.jp/articles/id-security-acronyms-01-auth-basics/",
@@ -99,21 +106,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-20T23:42:06",
           "excerpt": "この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の21日目の記事となります。過去の投稿（リンク集）・ 昨日の記事は以下リンクからご覧ください。…"
-        },
-        {
-          "title": "$OPENAI_API_KEY はもう不要 - Workload Identity Federation 🤝 AWS IAM アウトバウンド ID フェデレーション | Rettyテックブログ",
-          "link": "https://engineer.retty.me/entry/openai-aws-identity-federation",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-20T23:00:00",
-          "excerpt": "先日 Retty アプリ向けに公開したAI投稿サポート機能ですが、皆様使っていただけましたでしょうか。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。USBカメラで映像が見えた。…",
+      "summary": "データ分析の新着が7件。Amazon Redshift のシステムテーブルを S3 に長期保持できる新機能「System table integration with S3 Tables」を、Amazon Redshift Serverless で実際に試してみま…",
       "articles": [
+        {
+          "title": "[アップデート] Amazon Redshift のシステムテーブルを Amazon S3 Tables に自動配信できるようになったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/20260821-amazon-redshift-long-term-system-table-retention/",
+          "source": "DevelopersIO",
+          "published": "2026-08-21T03:30:20",
+          "excerpt": "Amazon Redshift のシステムテーブルを S3 に長期保持できる新機能「System table integration with S3 Tables」を、Amazon Redshift Serverless で実際に試してみま…"
+        },
         {
           "title": "ローカル配信だけのIPカメラをAWS Kinesis Video Streamsへつないだ ― 「映らない」を3区間に分ける",
           "link": "https://qiita.com/okakousuke1124/items/a6de67d9678a92e3cd20",
@@ -134,20 +141,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-20T08:43:30",
           "excerpt": "本記事の内容は 2026 年 8 月時点 の情報です。AWS のサービスは頻繁にアップデートされるため、最新の仕様は公式ドキュメントをご確認ください。…"
-        },
-        {
-          "title": "ゼロ ETL 統合で自動生成される Glue 子カタログの制約まとめ（説明付与・削除）",
-          "link": "https://zenn.dev/swkky/articles/glue-child-catalog-zero-etl-description",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-20T08:43:06",
-          "excerpt": "!本記事の内容は 2026 年 8 月時点 の情報です。AWS のサービスは頻繁にアップデートされるため、最新の仕様は公式ドキュメントをご確認ください。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。Googleは、オープンモデル「Gemma」ファミリーの累計ダウンロード数が10億回を突破したと発表した。派生モデルは10万種を超え、公式リポジトリ「Awesome Gemma」をGitHubで公開。…",
+      "summary": "開発ツールの新着が8件。Googleは、オープンモデル「Gemma」ファミリーの累計ダウンロード数が10億回を突破したと発表した。派生モデルは10万種を超え、公式リポジトリ「Awesome Gemma」をGitHubで公開。…",
       "articles": [
         {
           "title": "Googleのオープンモデル「Gemma」、累計10億ダウンロード超　GitHubに公式ディレクトリ公開",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "LINE、着せかえ表示問題を謝罪　希望者に返金へ",
+      "link": "https://www.itmedia.co.jp/news/article/2608/21/2000000675/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-21T03:51:16",
+      "excerpt": "LINEヤフーは8月20日、LINEアプリの一部の「着せかえ」でメニューアイコンがデフォルト表示になっている問題について経緯を説明し、謝罪した。返金を希望する日本国内のユーザーからは専用フォームで申請を受け付ける。"
+    },
+    {
+      "title": "AWS の Codex の根本的なバグにより 10 倍の料金が発生する",
+      "link": "https://github.com/openai/codex/issues/37674",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-21T03:17:43",
+      "excerpt": "記事の URL: https://github.com/openai/codex/issues/37674 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "Cloudera、NVIDIAと連携しSparkデータパイプラインをGPUで高速化",
+      "link": "https://codezine.jp/article/detail/29389",
+      "source": "CodeZine",
+      "published": "2026-08-21T03:10:00",
+      "excerpt": "Cloudera、NVIDIAと連携しSparkデータパイプラインをGPUで高速化"
+    },
+    {
       "title": "AWS Transform の SQL Server から PostgreSQL へのスキーマ検証",
       "link": "https://aws.amazon.com/jp/blogs/news/aws-transform-sql-server-to-postgresql-schema-validation-in-net-application-modernization/",
       "source": "AWS 公式ブログ（日本語）",
       "published": "2026-08-21T03:05:58",
       "excerpt": "AWS Transform が備える 3 層の検証モデル (構造的検証、意味的検証、動作検証) の仕組みを詳しく解説します。…"
-    },
-    {
-      "title": "Microsoft AI、新しいコーディングモデル「MAI-Code-1.1-Flash」を発表",
-      "link": "https://codezine.jp/article/detail/29376",
-      "source": "CodeZine",
-      "published": "2026-08-21T03:00:00",
-      "excerpt": "Microsoft AI、新しいコーディングモデル「MAI-Code-1.1-Flash」を発表"
-    },
-    {
-      "title": "AI開発向けの新プログラミング言語「Mojo」バージョン1.0がリリース",
-      "link": "https://codezine.jp/article/detail/29375",
-      "source": "CodeZine",
-      "published": "2026-08-21T03:00:00",
-      "excerpt": "AI開発向けの新プログラミング言語「Mojo」バージョン1.0がリリース"
-    },
-    {
-      "title": "福岡のエンジニアコミュニティが一同に集結！コミュニティLT【デブサミ2026福岡 注目セッション】",
-      "link": "https://codezine.jp/article/detail/29337",
-      "source": "CodeZine",
-      "published": "2026-08-21T03:00:00",
-      "excerpt": "福岡のエンジニアコミュニティが一同に集結！コミュニティLT【デブサミ2026福岡 注目セッション】"
     }
   ]
 }
