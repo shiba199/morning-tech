@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-22T05:49:26",
+  "generated_at": "2026-08-22T06:19:17",
   "window_hours": 24,
-  "total": 192,
+  "total": 186,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。Amazon Bedrock 上の OpenAI GPT-5.6 Sol の価格改定が発表され、出力トークンの単価が 33.3% 下がりました。7月の Terra / Luna の値下げに続く今回の改定で、GPT-5.…",
+      "summary": "生成AIの新着が32件。はじめに みなさん、AIエージェントは作っていますか？AWSにはAgentCoreというAIエージェントを動かすための便利なサービスがあります。…",
       "articles": [
+        {
+          "title": "毎朝 CloudWatch を見回るエージェントを作ってみたら、翌朝さっそく仕事をしてくれた話",
+          "link": "https://zenn.dev/ncdc/articles/4a54d0d95446ac",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-22T06:00:07",
+          "excerpt": "はじめに みなさん、AIエージェントは作っていますか？AWSにはAgentCoreというAIエージェントを動かすための便利なサービスがあります。…"
+        },
         {
           "title": "Amazon Bedrock の OpenAI GPT-5.6 Sol が値下げされました",
           "link": "https://dev.classmethod.jp/articles/bedrock-openai-gpt-56-sol-reduced-pricing/",
@@ -17,25 +24,18 @@
           "excerpt": "Amazon Bedrock 上の OpenAI GPT-5.6 Sol の価格改定が発表され、出力トークンの単価が 33.3% 下がりました。7月の Terra / Luna の値下げに続く今回の改定で、GPT-5.…"
         },
         {
+          "title": "GPT 5.6 ソル 20% 値下げ",
+          "link": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-22T04:33:06",
+          "excerpt": "記事の URL: https://developers.openai.com/api/docs/models/gpt-5.6-sol コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
           "title": "みのるん氏が語る！AIエージェント構築の最新動向とキャリア戦略【デブサミ2026福岡 注目セッション】",
           "link": "https://codezine.jp/article/detail/29265",
           "source": "CodeZine",
           "published": "2026-08-22T02:00:00",
           "excerpt": "みのるん氏が語る！AIエージェント構築の最新動向とキャリア戦略【デブサミ2026福岡 注目セッション】"
-        },
-        {
-          "title": "HN を表示: OzBrain、エージェントとチーム間の知識の共有頭脳",
-          "link": "https://ozbrain.com",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-21T23:09:06",
-          "excerpt": "エージェントファーストのチャット インターフェイスが主要なソフトウェア モダリティになり、煩雑なダッシュボード/UI は廃止されると思います。正確に誰が勝つかはわかりませんが、自分の知識を増やしていきたいと思っています。…"
-        },
-        {
-          "title": "Anthropic の Opus 4.6 はクソマシンです",
-          "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-21T23:07:25",
-          "excerpt": "Anthropic は、クロード モデルが性的に露骨なコンテンツを生成することを禁止しています。しかし、TechCrunchが実施した一連のテストでは、制限を突破するのにそれほど時間はかからないことが判明した。"
         }
       ]
     },
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。AWS Glue 6.0 は、完全に最新化されたランタイム、Apache Spark 4.1、Python 3.12、Scala 2.13 上に構築されており、以前の AWS Glue バージョンより 30% 低い料金設定を実現しています。",
+      "summary": "データ分析の新着が6件。AWS Glue 6.0 は、完全に最新化されたランタイム、Apache Spark 4.1、Python 3.12、Scala 2.13 上に構築されており、以前の AWS Glue バージョンより 30% 低い料金設定を実現しています。",
       "articles": [
         {
           "title": "AWS Glue 6.0 が 30% 値下げされ、Apache Iceberg v3 を完全にサポートして利用可能になりました",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。Amazon SES の SendEmail/SendBulkEmail API に追加された `ConfigurationOverrides` パラメータを使って、リクエスト単位で Open/Click トラッキングを制御できるようになり…",
+      "summary": "開発ツールの新着が7件。Amazon SES の SendEmail/SendBulkEmail API に追加された `ConfigurationOverrides` パラメータを使って、リクエスト単位で Open/Click トラッキングを制御できるようになり…",
       "articles": [
         {
           "title": "[アップデート] Amazon SES でメールごとに Open/Click トラッキングを個別制御できる ConfigurationOverrides パラメータが追加されました",
