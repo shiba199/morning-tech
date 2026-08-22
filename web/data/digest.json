@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-22T06:19:17",
+  "generated_at": "2026-08-22T07:06:43",
   "window_hours": 24,
-  "total": 186,
+  "total": 178,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が32件。はじめに みなさん、AIエージェントは作っていますか？AWSにはAgentCoreというAIエージェントを動かすための便利なサービスがあります。…",
+      "summary": "生成AIの新着が27件。はじめに みなさん、AIエージェントは作っていますか？AWSにはAgentCoreというAIエージェントを動かすための便利なサービスがあります。…",
       "articles": [
         {
           "title": "毎朝 CloudWatch を見回るエージェントを作ってみたら、翌朝さっそく仕事をしてくれた話",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。AMIでのリストア後にプライベートIPアドレスを紐づける方法 さっそくEC2を作成します。上司に言われたのですがこのステータスチェックはECでは必要だそうです。AMIでのバックアップを取得します。最初に作成したEC2を削除します。…",
+      "summary": "クラウドの新着が12件。AMIでのリストア後にプライベートIPアドレスを紐づける方法 さっそくEC2を作成します。上司に言われたのですがこのステータスチェックはECでは必要だそうです。AMIでのバックアップを取得します。最初に作成したEC2を削除します。…",
       "articles": [
         {
           "title": "EC2 プライベートIPアドレスを引き続き使用したい場合のリストア方法",
@@ -87,6 +87,13 @@
           "excerpt": "Next.js、8月26日に重要な脆弱性修正リリースを予定"
         },
         {
+          "title": "AWS セキュリティが不可解な選択を下す",
+          "link": "https://www.theregister.com/security/2026/08/22/aws-security-makes-an-inscrutable-choice-corey-quinn/5291446",
+          "source": "The Register（英語）",
+          "published": "2026-08-21T23:42:41",
+          "excerpt": "漏洩した認証情報の隔離だけでは十分ではない"
+        },
+        {
           "title": "Claude Mythos 5 のサイバーセキュリティ機能をより多くの防御者に提供",
           "link": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
           "source": "Hacker News（英語）",
@@ -99,13 +106,6 @@
           "source": "TechCrunch（英語）",
           "published": "2026-08-21T16:01:54",
           "excerpt": "この安全性の審査はアイダホ国立研究所によって行われており、この研究には電気自動車および自動運転車業界の企業、または企業グループが資金提供している。"
-        },
-        {
-          "title": "SAML連携しているCognitoで認証して、PostmanからGraphQLリクエストを送信する",
-          "link": "https://qiita.com/hideki/items/5556911abf3555a68cf3",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-21T11:14:16",
-          "excerpt": "SAML連携しているCognitoで認証して、PostmanからGraphQLリクエストを送信する AWS AppSyncの認証にAmazon Cognitoを使用しており、さらにCognitoが社内IdPなどとSAML連携している構成の場…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "(海外登壇レポート)在庫オーバーセルをゼロにする話をAWS Community Day Singapore 2026でしてきた",
+      "link": "https://qiita.com/yama3133/items/7552b1fe812fa92debee",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-22T06:31:46",
+      "excerpt": "2026年8月22日、AWS Community Day Singaporeで登壇してきた。…"
+    },
+    {
+      "title": "NVIDIA NeMo Switchyard の prefill router の仕組みについて調べてみた",
+      "link": "https://dev.classmethod.jp/articles/dgx-spark-switchyard-prefill-router-vs-judge/",
+      "source": "DevelopersIO",
+      "published": "2026-08-22T06:26:08",
+      "excerpt": "NVIDIA NeMo Switchyard のルーターに「prefill router」という学習型の判定役が来ようとしています。…"
+    },
+    {
+      "title": "通商交渉決裂でカナダ、米国の関税に「ドル対ドル」で匹敵へ",
+      "link": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-22T06:16:57",
+      "excerpt": "記事の URL: https://www.bbc.com/news/articles/cvgvyy4x2mvo コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
       "title": "旅行者の 10 人中 4 人はソーシャル メディア コンテンツをキャプチャするために観光地を訪れます",
       "link": "https://www.tuigroup.com/en/newsroom/news/travel-in-the-age-of-scrolling-tui-musement-research-reveals-4-in-10-travellers-visit-tourist-sites-to-capture-social-media-content",
       "source": "Hacker News（英語）",
       "published": "2026-08-22T04:42:19",
       "excerpt": "記事の URL: https://www.tuigroup.…"
-    },
-    {
-      "title": "AWS ParallelCluster 3.16.0 がリリースされ、診断ツール pcluster-diag が追加されたので試してみた",
-      "link": "https://dev.classmethod.jp/articles/aws-parallelcluster-3-16-0-released-pcluster-diag/",
-      "source": "DevelopersIO",
-      "published": "2026-08-22T04:36:12",
-      "excerpt": "AWS ParallelCluster 3.16.0がリリースされ、新しい診断ツール `pcluster-diag` が追加されました。このツールを使ってクラスターノードの健全性を簡単に検査できるようになります。…"
-    },
-    {
-      "title": "「出社しないとつながりが薄れる」は誤解？　約7700人の追跡調査が示す実態",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/22/news015.html",
-      "source": "@IT",
-      "published": "2026-08-22T04:00:00",
-      "excerpt": "コロラド大学ボルダー校は相次ぐ「出社回帰」の動きに対し、一律の出社義務化によるリスクを浮き彫りにした研究結果を発表した。「離職防止や生産性維持に必要なのは場所の統制ではなく自律性や柔軟性を保つことだ」と指摘している。"
-    },
-    {
-      "title": "初期の人類は炭水化物や甘い食べ物を食べていた可能性が高い",
-      "link": "https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-22T02:37:30",
-      "excerpt": "記事の URL: https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs コメント URL: https://news.ycombinator.…"
     }
   ]
 }
