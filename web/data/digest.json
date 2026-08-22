@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-22T10:45:47",
+  "generated_at": "2026-08-22T11:10:30",
   "window_hours": 24,
-  "total": 156,
+  "total": 157,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が26件。はじめに Amazon Bedrock AgentCore Runtime に自分の EC2 インスタンス上でエージェントを動かせる新しいコンピュートタイプ「Runtime Instances」が追加されました。…",
+      "summary": "生成AIの新着が28件。はじめに Amazon Bedrock AgentCore Runtime に自分の EC2 インスタンス上でエージェントを動かせる新しいコンピュートタイプ「Runtime Instances」が追加されました。…",
       "articles": [
         {
           "title": "Bedrock AgentCore Runtime Instances を試してみた",
@@ -17,6 +17,13 @@
           "excerpt": "はじめに Amazon Bedrock AgentCore Runtime に自分の EC2 インスタンス上でエージェントを動かせる新しいコンピュートタイプ「Runtime Instances」が追加されました。…"
         },
         {
+          "title": "Claude Code更新 セッション間メッセージ・auto mode既定化【8/7〜20】 | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/2026/08/22/190000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-22T10:00:00",
+          "excerpt": "はじめに サーバーワークスの池田です。今回は2週間分（8/7〜8/20）のまとめです。Claude Codeはv2.1.224からv2.1.237まで、13バージョンがリリースされました（v2.1.230はスキップ）。…"
+        },
+        {
           "title": "Claude Code v2.1.238〜v2.1.239 の主要アップデート - Remote Control の集中改善と keybindingFlavor 設定の追加",
           "link": "https://dev.classmethod.jp/articles/20260822-cc-updates-v2-1-239/",
           "source": "DevelopersIO",
@@ -24,26 +31,26 @@
           "excerpt": "Claude Code の v2.1.238〜v2.1.239 アップデートをまとめてご紹介します。Remote Control の信頼性が集中的に改善され、瞬断での切断やモバイルからの操作が反映されない問題などが解消されました。…"
         },
         {
-          "title": "LLM APIはどこから使うべきか？AWS・GCP・Azure・直API・AI Gatewayの選び方",
-          "link": "https://zenn.dev/yhay81/articles/202608-llm-api-landscape",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-22T07:37:41",
-          "excerpt": "LLMを業務システムへ導入するとき、「どのモデルが一番よいか」だけを考えると、選択を誤ることがあります。…"
-        },
-        {
-          "title": "Argentを使ってClaude Codeからモバイルアプリを動かしてみる（Flutter） | ENECHANGE Developer Blog",
-          "link": "https://tech.enechange.co.jp/entry/2026/08/22/155631",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-22T06:56:31",
-          "excerpt": "こんにちは！ENECHANGEでエンジニアリングマネージャー兼モバイルアプリエンジニアをしている片田（id:yuta_ktd）です。…"
+          "title": "Munder Difflin – クローンのオフィスを運営するためのエージェント ハーネス",
+          "link": "https://munderdiffl.in/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-22T09:49:14",
+          "excerpt": "記事の URL: https://munderdiffl.in/ コメント URL: https://news.ycombinator.com/item?id=49398152 ポイント: 3 コメント数: 0"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が6件。この記事について バックエンドAPIをAWS ECS Fargate上で稼働させる構成を題材に、ECSの構築から運用まで4回に分けて解説します。…",
+      "summary": "クラウドの新着が7件。AWSでサーバーレスな「未達成なら寄付Todoアプリ」を作ってみた #1(設計〜バックエンド基礎編) はじめに AWS SAA(Solutions Architect Associate)の学習を兼ねて、以下のようなアプリを個人開発すること…",
       "articles": [
+        {
+          "title": "AWSでサーバーレスな「未達成なら寄付Todoアプリ」を作ってみた #1(設計〜バックエンド基礎編)",
+          "link": "https://qiita.com/matrin/items/409e240d938f8b81a1c8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-22T10:55:20",
+          "excerpt": "AWSでサーバーレスな「未達成なら寄付Todoアプリ」を作ってみた #1(設計〜バックエンド基礎編) はじめに AWS SAA(Solutions Architect Associate)の学習を兼ねて、以下のようなアプリを個人開発すること…"
+        },
         {
           "title": "Terraform : ECS Fargate環境を構築する(1) ― クラスタ・ネットワーク・タスク定義の基本設計",
           "link": "https://qiita.com/ham-nao/items/26166245928411f82224",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-22T05:12:56",
           "excerpt": "AMIでのリストア後にプライベートIPアドレスを紐づける方法 さっそくEC2を作成します。上司に言われたのですがこのステータスチェックはECでは必要だそうです。AMIでのバックアップを取得します。最初に作成したEC2を削除します。…"
-        },
-        {
-          "title": "Amazon EC2 Auto Scalingがインスタンスの一括終了をサポート",
-          "link": "https://codezine.jp/article/detail/29395",
-          "source": "CodeZine",
-          "published": "2026-08-22T04:00:00",
-          "excerpt": "Amazon EC2 Auto Scalingがインスタンスの一括終了をサポート"
         }
       ]
     },
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "カナダ、米国との通商交渉を一時停止し、関税をドルに合わせる",
+      "link": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-22T10:26:09",
+      "excerpt": "記事の URL: https://www.pm.gc.…"
+    },
+    {
+      "title": "Z80 – 1970 年代のマイクロプロセッサは今も健在",
+      "link": "https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-22T09:49:57",
+      "excerpt": "記事の URL: https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi コメント URL: https://news.ycombinator.…"
+    },
+    {
       "title": "Skylab のコンプリストの皆様、DVD 26 枚を収納できる棚のスペースを空けてください",
       "link": "https://www.theregister.com/offbeat/2026/08/22/skylab-completists-clear-some-shelf-space-for-26-dvds/5290531",
       "source": "The Register（英語）",
@@ -194,20 +208,6 @@
       "source": "The Register（英語）",
       "published": "2026-08-22T08:43:00",
       "excerpt": "F-B100W は Bluetooth と歩数追跡を追加し、バッテリーは 2 年間持続します"
-    },
-    {
-      "title": "Apple Business API を使用して、デバイス情報取得の検証",
-      "link": "https://dev.classmethod.jp/articles/apple-business-api-device-info-get/",
-      "source": "DevelopersIO",
-      "published": "2026-08-22T08:28:12",
-      "excerpt": "Apple Business API を使用して、デバイス情報取得の検証を行いましたので記載します。"
-    },
-    {
-      "title": "Google Workspace、Allowlisted Domains APIを一般公開",
-      "link": "https://codezine.jp/article/detail/29396",
-      "source": "CodeZine",
-      "published": "2026-08-22T08:00:00",
-      "excerpt": "Google Workspace、Allowlisted Domains APIを一般公開"
     }
   ]
 }
