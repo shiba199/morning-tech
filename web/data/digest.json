@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T15:09:50",
+  "generated_at": "2026-08-22T15:42:04",
   "window_hours": 24,
   "total": 141,
   "topic_count": 5,
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が7件。はじめに 2026年8月、Claude Code の v2.1.239 がリリースされました。今回の目玉は機能追加よりも「気づかぬうちにコストが漏れていた」タイプの修正です。…",
+      "summary": "クラウドの新着が8件。はじめに Spring Bootで作成したWebアプリケーションを、AWSのEC2を利用してインターネット上に公開する手順をまとめることにします。SSHなどで操作するPCはWindowsを前提に作成しています。…",
       "articles": [
+        {
+          "title": "Spring Bootで作成したWebアプリをAWS EC2で公開する手順（パート1）",
+          "link": "https://qiita.com/ShineYamamoto/items/59941da1c9538807e356",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-22T15:13:14",
+          "excerpt": "はじめに Spring Bootで作成したWebアプリケーションを、AWSのEC2を利用してインターネット上に公開する手順をまとめることにします。SSHなどで操作するPCはWindowsを前提に作成しています。…"
+        },
         {
           "title": "Claude Code v2.1.239: Bedrock二重課金バグ修正とPython SDK移行コマンド追加",
           "link": "https://qiita.com/picnic/items/ff939c5e26e47d011a58",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-22T09:07:18",
           "excerpt": "この記事について バックエンドAPIをAWS ECS Fargate上で稼働させる構成を題材に、ECSの構築から運用まで4回に分けて解説します。…"
-        },
-        {
-          "title": "【データサイエンス環境構築】 SpyderでAWSのEC2インスタンスにリモートアクセスする",
-          "link": "https://qiita.com/TomoSub/items/933d7ad3e8aeaa044f9b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-22T08:26:27",
-          "excerpt": "はじめに 本記事では、Pythonのデータサイエンス特化IDEであるSpyderで、AWSのEC2インスタンスにリモートアクセスする手順を説明します。…"
         }
       ]
     },
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。Claude Code の v2.1.238〜v2.1.239 アップデートをまとめてご紹介します。Remote Control の信頼性が集中的に改善され、瞬断での切断やモバイルからの操作が反映されない問題などが解消されました。…",
+      "summary": "データ分析の新着が4件。AWS Glue 6.0 が一般提供開始となり、30% の価格削減と Apache Iceberg v3 サポートが追加されました。新機能は魅力的ですが、Spark 4.1 とのメジャーバージョンアップに伴う破壊的変更も多くあります。…",
       "articles": [
+        {
+          "title": "[アップデート] AWS Glue 6.0 が一般提供開始、30% の価格削減と Apache Iceberg v3 サポートが追加されたので試してみました",
+          "link": "https://dev.classmethod.jp/articles/20260823-aws-glue-6/",
+          "source": "DevelopersIO",
+          "published": "2026-08-22T15:20:47",
+          "excerpt": "AWS Glue 6.0 が一般提供開始となり、30% の価格削減と Apache Iceberg v3 サポートが追加されました。新機能は魅力的ですが、Spark 4.1 とのメジャーバージョンアップに伴う破壊的変更も多くあります。…"
+        },
         {
           "title": "Claude Code v2.1.238〜v2.1.239 の主要アップデート - Remote Control の集中改善と keybindingFlavor 設定の追加",
           "link": "https://dev.classmethod.jp/articles/20260822-cc-updates-v2-1-239/",
@@ -175,6 +182,13 @@
   ],
   "uncategorized": [
     {
+      "title": "米国の電池新興企業は防衛に生命線を見つけた",
+      "link": "https://techcrunch.com/2026/08/22/us-battery-startups-have-found-a-lifeline-in-defense/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-22T15:20:00",
+      "excerpt": "米国の電池新興企業はエネルギー省から5億ドルの補助金を集め、EVの奨励金が削減され窮地に陥っていた業界に命綱をつけた。"
+    },
+    {
       "title": "AI を使用して自分のシステムを攻撃していない場合、敵は",
       "link": "https://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
       "source": "The Register（英語）",
@@ -194,13 +208,6 @@
       "source": "DevelopersIO",
       "published": "2026-08-22T14:12:21",
       "excerpt": "AWS HealthOmics の Nextflow ワークフローで `time` ディレクティブを使ったタスクレベルのタイムアウト制御を実装し、その挙動を詳しく検証してみました。…"
-    },
-    {
-      "title": "ラケットのフレンドリーな紹介",
-      "link": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-22T14:08:19",
-      "excerpt": "記事の URL: https://geometridae.bearblog.dev/a-friend-introduction-to-racket/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
