@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T04:56:37",
+  "generated_at": "2026-08-22T05:18:07",
   "window_hours": 24,
-  "total": 198,
+  "total": 197,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。Amazon EC2 Auto Scalingがインスタンスの一括終了をサポート",
+      "summary": "クラウドの新着が13件。AMIでのリストア後にプライベートIPアドレスを紐づける方法 さっそくEC2を作成します。上司に言われたのですがこのステータスチェックはECでは必要だそうです。AMIでのバックアップを取得します。最初に作成したEC2を削除します。…",
       "articles": [
+        {
+          "title": "EC2 プライベートIPアドレスを引き続き使用したい場合のリストア方法",
+          "link": "https://qiita.com/XYZXYZXYZ/items/4486336dc090f68c3999",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-22T05:12:56",
+          "excerpt": "AMIでのリストア後にプライベートIPアドレスを紐づける方法 さっそくEC2を作成します。上司に言われたのですがこのステータスチェックはECでは必要だそうです。AMIでのバックアップを取得します。最初に作成したEC2を削除します。…"
+        },
         {
           "title": "Amazon EC2 Auto Scalingがインスタンスの一括終了をサポート",
           "link": "https://codezine.jp/article/detail/29395",
@@ -64,13 +71,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-21T12:45:26",
           "excerpt": "Amazon S3（ Simple Storage Service ） S3はバケットというスペースに、データをオブジェクト、階層データ、 表形式データとして保存するサービス。用語の説明はこのページに書いてありました。…"
-        },
-        {
-          "title": "S3への書き込み権限なしでAWS DevOps AgentにAthenaを使って調査をお願いしてみた",
-          "link": "https://dev.classmethod.jp/articles/athena-devops-agent-verification/",
-          "source": "DevelopersIO",
-          "published": "2026-08-21T10:28:48",
-          "excerpt": "AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…"
         }
       ]
     },
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が9件。AWS Glue 6.0 は、完全に最新化されたランタイム、Apache Spark 4.1、Python 3.12、Scala 2.13 上に構築されており、以前の AWS Glue バージョンより 30% 低い料金設定を実現しています。",
+      "summary": "データ分析の新着が8件。AWS Glue 6.0 は、完全に最新化されたランタイム、Apache Spark 4.1、Python 3.12、Scala 2.13 上に構築されており、以前の AWS Glue バージョンより 30% 低い料金設定を実現しています。",
       "articles": [
         {
           "title": "AWS Glue 6.0 が 30% 値下げされ、Apache Iceberg v3 を完全にサポートして利用可能になりました",
@@ -182,6 +182,13 @@
   ],
   "uncategorized": [
     {
+      "title": "旅行者の 10 人中 4 人はソーシャル メディア コンテンツをキャプチャするために観光地を訪れます",
+      "link": "https://www.tuigroup.com/en/newsroom/news/travel-in-the-age-of-scrolling-tui-musement-research-reveals-4-in-10-travellers-visit-tourist-sites-to-capture-social-media-content",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-22T04:42:19",
+      "excerpt": "記事の URL: https://www.tuigroup.…"
+    },
+    {
       "title": "AWS ParallelCluster 3.16.0 がリリースされ、診断ツール pcluster-diag が追加されたので試してみた",
       "link": "https://dev.classmethod.jp/articles/aws-parallelcluster-3-16-0-released-pcluster-diag/",
       "source": "DevelopersIO",
@@ -201,13 +208,6 @@
       "source": "Hacker News（英語）",
       "published": "2026-08-22T02:37:30",
       "excerpt": "記事の URL: https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs コメント URL: https://news.ycombinator.…"
-    },
-    {
-      "title": "SaaS向けapexドメイン対応の価格が桁違いになる理由",
-      "link": "https://qiita.com/mori-dev@github/items/aa48b4565487a3a80f63",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-22T02:28:12",
-      "excerpt": "apexドメインをAレコードで受けるための入口は、事業者によって価格が大きく違います。…"
     }
   ]
 }
