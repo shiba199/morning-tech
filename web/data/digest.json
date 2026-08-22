@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-22T04:01:41",
+  "generated_at": "2026-08-22T04:56:37",
   "window_hours": 24,
-  "total": 208,
+  "total": 198,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。みのるん氏が語る！AIエージェント構築の最新動向とキャリア戦略【デブサミ2026福岡 注目セッション】",
+      "summary": "生成AIの新着が34件。みのるん氏が語る！AIエージェント構築の最新動向とキャリア戦略【デブサミ2026福岡 注目セッション】",
       "articles": [
         {
           "title": "みのるん氏が語る！AIエージェント構築の最新動向とキャリア戦略【デブサミ2026福岡 注目セッション】",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。Argo CD の Amazon Elastic Kubernetes Service (Amazon EKS) 機能は、クラスター内の標準の argocd-cm ConfigMap を介したカスタム設定をサポートするようになりました。…",
+      "summary": "クラウドの新着が13件。Amazon EC2 Auto Scalingがインスタンスの一括終了をサポート",
       "articles": [
+        {
+          "title": "Amazon EC2 Auto Scalingがインスタンスの一括終了をサポート",
+          "link": "https://codezine.jp/article/detail/29395",
+          "source": "CodeZine",
+          "published": "2026-08-22T04:00:00",
+          "excerpt": "Amazon EC2 Auto Scalingがインスタンスの一括終了をサポート"
+        },
         {
           "title": "Argo CD の Amazon EKS 機能がカスタム設定をサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-21T10:28:48",
           "excerpt": "AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…"
-        },
-        {
-          "title": "【2026年版】未経験からインフラエンジニアへ転職可能？必要な資格・スキル・勉強方法を解説",
-          "link": "https://zenn.dev/reo_engineer/articles/0024fdd024347c",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-21T10:00:06",
-          "excerpt": "【2026年版】未経験からインフラエンジニアへ転職可能？必要な資格・スキル・勉強方法を解説 「未経験からインフラエンジニアへの転職は可能？」 「IT業界で働いたことがなくても大丈夫？…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。Next.js、8月26日に重要な脆弱性修正リリースを予定",
+      "summary": "セキュリティの新着が7件。Next.js、8月26日に重要な脆弱性修正リリースを予定",
       "articles": [
         {
           "title": "Next.js、8月26日に重要な脆弱性修正リリースを予定",
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "AWS ParallelCluster 3.16.0 がリリースされ、診断ツール pcluster-diag が追加されたので試してみた",
+      "link": "https://dev.classmethod.jp/articles/aws-parallelcluster-3-16-0-released-pcluster-diag/",
+      "source": "DevelopersIO",
+      "published": "2026-08-22T04:36:12",
+      "excerpt": "AWS ParallelCluster 3.16.0がリリースされ、新しい診断ツール `pcluster-diag` が追加されました。このツールを使ってクラスターノードの健全性を簡単に検査できるようになります。…"
+    },
+    {
+      "title": "「出社しないとつながりが薄れる」は誤解？　約7700人の追跡調査が示す実態",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/22/news015.html",
+      "source": "@IT",
+      "published": "2026-08-22T04:00:00",
+      "excerpt": "コロラド大学ボルダー校は相次ぐ「出社回帰」の動きに対し、一律の出社義務化によるリスクを浮き彫りにした研究結果を発表した。「離職防止や生産性維持に必要なのは場所の統制ではなく自律性や柔軟性を保つことだ」と指摘している。"
+    },
+    {
       "title": "初期の人類は炭水化物や甘い食べ物を食べていた可能性が高い",
       "link": "https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs",
       "source": "Hacker News（英語）",
@@ -194,20 +208,6 @@
       "source": "Qiita AWSタグ",
       "published": "2026-08-22T02:28:12",
       "excerpt": "apexドメインをAレコードで受けるための入口は、事業者によって価格が大きく違います。…"
-    },
-    {
-      "title": "固定IPが必要な環境でもRegional NAT Gatewayを使うメリット",
-      "link": "https://qiita.com/toumakido/items/7995c919b01736c36b54",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-22T02:21:48",
-      "excerpt": "はじめに こんにちは、Finatextでエンジニアをしているtoumakidoです。本記事は2026 Japan AWS Jr.Champions 真夏のQiitaリレーの22日目の記事になります。…"
-    },
-    {
-      "title": "AIはアジャイルを加速させるのか？ 開発組織のリアルを語る！【デブサミ2026福岡 注目セッション】",
-      "link": "https://codezine.jp/article/detail/29256",
-      "source": "CodeZine",
-      "published": "2026-08-22T02:00:00",
-      "excerpt": "AIはアジャイルを加速させるのか？ 開発組織のリアルを語る！【デブサミ2026福岡 注目セッション】"
     }
   ]
 }
