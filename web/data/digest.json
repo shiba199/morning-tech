@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-22T09:48:14",
+  "generated_at": "2026-08-22T10:11:43",
   "window_hours": 24,
-  "total": 161,
+  "total": 159,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が25件。LLMを業務システムへ導入するとき、「どのモデルが一番よいか」だけを考えると、選択を誤ることがあります。…",
+      "summary": "生成AIの新着が27件。はじめに Amazon Bedrock AgentCore Runtime に自分の EC2 インスタンス上でエージェントを動かせる新しいコンピュートタイプ「Runtime Instances」が追加されました。…",
       "articles": [
+        {
+          "title": "Bedrock AgentCore Runtime Instances を試してみた",
+          "link": "https://qiita.com/leomarokun/items/1c57a2ac520cc2fe4799",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-22T10:09:27",
+          "excerpt": "はじめに Amazon Bedrock AgentCore Runtime に自分の EC2 インスタンス上でエージェントを動かせる新しいコンピュートタイプ「Runtime Instances」が追加されました。…"
+        },
+        {
+          "title": "Claude Code v2.1.238〜v2.1.239 の主要アップデート - Remote Control の集中改善と keybindingFlavor 設定の追加",
+          "link": "https://dev.classmethod.jp/articles/20260822-cc-updates-v2-1-239/",
+          "source": "DevelopersIO",
+          "published": "2026-08-22T09:57:12",
+          "excerpt": "Claude Code の v2.1.238〜v2.1.239 アップデートをまとめてご紹介します。Remote Control の信頼性が集中的に改善され、瞬断での切断やモバイルからの操作が反映されない問題などが解消されました。…"
+        },
         {
           "title": "LLM APIはどこから使うべきか？AWS・GCP・Azure・直API・AI Gatewayの選び方",
           "link": "https://zenn.dev/yhay81/articles/202608-llm-api-landscape",
@@ -22,27 +36,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-22T06:56:31",
           "excerpt": "こんにちは！ENECHANGEでエンジニアリングマネージャー兼モバイルアプリエンジニアをしている片田（id:yuta_ktd）です。…"
-        },
-        {
-          "title": "毎朝 CloudWatch を見回るエージェントを作ってみたら、翌朝さっそく仕事をしてくれた話",
-          "link": "https://zenn.dev/ncdc/articles/4a54d0d95446ac",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-22T06:00:07",
-          "excerpt": "はじめに みなさん、AIエージェントは作っていますか？AWSにはAgentCoreというAIエージェントを動かすための便利なサービスがあります。…"
-        },
-        {
-          "title": "Amazon Bedrock の OpenAI GPT-5.6 Sol が値下げされました",
-          "link": "https://dev.classmethod.jp/articles/bedrock-openai-gpt-56-sol-reduced-pricing/",
-          "source": "DevelopersIO",
-          "published": "2026-08-22T05:37:16",
-          "excerpt": "Amazon Bedrock 上の OpenAI GPT-5.6 Sol の価格改定が発表され、出力トークンの単価が 33.3% 下がりました。7月の Terra / Luna の値下げに続く今回の改定で、GPT-5.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。この記事について バックエンドAPIをAWS ECS Fargate上で稼働させる構成を題材に、ECSの構築から運用まで4回に分けて解説します。…",
+      "summary": "クラウドの新着が7件。この記事について バックエンドAPIをAWS ECS Fargate上で稼働させる構成を題材に、ECSの構築から運用まで4回に分けて解説します。…",
       "articles": [
         {
           "title": "Terraform : ECS Fargate環境を構築する(1) ― クラスタ・ネットワーク・タスク定義の基本設計",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。AWS Glue 6.0 は、完全に最新化されたランタイム、Apache Spark 4.1、Python 3.12、Scala 2.13 上に構築されており、以前の AWS Glue バージョンより 30% 低い料金設定を実現しています。",
+      "summary": "データ分析の新着が5件。Claude Code の v2.1.238〜v2.1.239 アップデートをまとめてご紹介します。Remote Control の信頼性が集中的に改善され、瞬断での切断やモバイルからの操作が反映されない問題などが解消されました。…",
       "articles": [
+        {
+          "title": "Claude Code v2.1.238〜v2.1.239 の主要アップデート - Remote Control の集中改善と keybindingFlavor 設定の追加",
+          "link": "https://dev.classmethod.jp/articles/20260822-cc-updates-v2-1-239/",
+          "source": "DevelopersIO",
+          "published": "2026-08-22T09:57:12",
+          "excerpt": "Claude Code の v2.1.238〜v2.1.239 アップデートをまとめてご紹介します。Remote Control の信頼性が集中的に改善され、瞬断での切断やモバイルからの操作が反映されない問題などが解消されました。…"
+        },
         {
           "title": "AWS Glue 6.0 が 30% 値下げされ、Apache Iceberg v3 を完全にサポートして利用可能になりました",
           "link": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
@@ -134,21 +141,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-21T11:43:38",
           "excerpt": "記事の URL: https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering コメント URL: https://news.…"
-        },
-        {
-          "title": "S3への書き込み権限なしでAWS DevOps AgentにAthenaを使って調査をお願いしてみた",
-          "link": "https://dev.classmethod.jp/articles/athena-devops-agent-verification/",
-          "source": "DevelopersIO",
-          "published": "2026-08-21T10:28:48",
-          "excerpt": "AWS DevOps AgentでAthenaのクエリを実行させたいものの、S3への書き込み権限がガードレールで制限されてしまう課題に直面したことはありませんか？…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。この記事について バックエンドAPIをAWS ECS Fargate上で稼働させる構成を題材に、ECSの構築から運用まで4回に分けて解説します。…",
+      "summary": "開発ツールの新着が7件。Amazon Connect の主軸となるリソースの1つに「コンタクトフロー」がありますが、これを CDK で管理しようとすると、一筋縄ではいきません。…",
       "articles": [
+        {
+          "title": "Amazon Connect のコンタクトフローを CDK で管理しつつ、AWS アカウントに依存させない方法",
+          "link": "https://qiita.com/nskworld404/items/97dd44f85aa3152039f4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-22T09:51:28",
+          "excerpt": "Amazon Connect の主軸となるリソースの1つに「コンタクトフロー」がありますが、これを CDK で管理しようとすると、一筋縄ではいきません。…"
+        },
         {
           "title": "Terraform : ECS Fargate環境を構築する(1) ― クラスタ・ネットワーク・タスク定義の基本設計",
           "link": "https://qiita.com/ham-nao/items/26166245928411f82224",
@@ -169,13 +176,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-21T23:07:09",
           "excerpt": "はじめに 以前、Next.js App RouterをAWS Amplifyへデプロイする記事を書きました。Next.…"
-        },
-        {
-          "title": "Amazon Bedrock RuntimeのGrok 4.6を AWS CLIで試してみた",
-          "link": "https://dev.classmethod.jp/articles/grok-46-bedrock-runtime-converse/",
-          "source": "DevelopersIO",
-          "published": "2026-08-21T14:42:21",
-          "excerpt": "Amazon Bedrock で利用可能になった Grok 4.6 を、AWS CLI の aws bedrock-runtime converse から IAM 認証だけで呼び出してみました。…"
         }
       ]
     }
