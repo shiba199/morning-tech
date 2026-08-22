@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-22T10:11:43",
+  "generated_at": "2026-08-22T10:45:47",
   "window_hours": 24,
-  "total": 159,
+  "total": 156,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が27件。はじめに Amazon Bedrock AgentCore Runtime に自分の EC2 インスタンス上でエージェントを動かせる新しいコンピュートタイプ「Runtime Instances」が追加されました。…",
+      "summary": "生成AIの新着が26件。はじめに Amazon Bedrock AgentCore Runtime に自分の EC2 インスタンス上でエージェントを動かせる新しいコンピュートタイプ「Runtime Instances」が追加されました。…",
       "articles": [
         {
           "title": "Bedrock AgentCore Runtime Instances を試してみた",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が7件。この記事について バックエンドAPIをAWS ECS Fargate上で稼働させる構成を題材に、ECSの構築から運用まで4回に分けて解説します。…",
+      "summary": "クラウドの新着が6件。この記事について バックエンドAPIをAWS ECS Fargate上で稼働させる構成を題材に、ECSの構築から運用まで4回に分けて解説します。…",
       "articles": [
         {
           "title": "Terraform : ECS Fargate環境を構築する(1) ― クラスタ・ネットワーク・タスク定義の基本設計",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。Next.js、8月26日に重要な脆弱性修正リリースを予定",
+      "summary": "セキュリティの新着が5件。Next.js、8月26日に重要な脆弱性修正リリースを予定",
       "articles": [
         {
           "title": "Next.js、8月26日に重要な脆弱性修正リリースを予定",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。Claude Code の v2.1.238〜v2.1.239 アップデートをまとめてご紹介します。Remote Control の信頼性が集中的に改善され、瞬断での切断やモバイルからの操作が反映されない問題などが解消されました。…",
+      "summary": "データ分析の新着が4件。Claude Code の v2.1.238〜v2.1.239 アップデートをまとめてご紹介します。Remote Control の信頼性が集中的に改善され、瞬断での切断やモバイルからの操作が反映されない問題などが解消されました。…",
       "articles": [
         {
           "title": "Claude Code v2.1.238〜v2.1.239 の主要アップデート - Remote Control の集中改善と keybindingFlavor 設定の追加",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。Amazon Connect の主軸となるリソースの1つに「コンタクトフロー」がありますが、これを CDK で管理しようとすると、一筋縄ではいきません。…",
+      "summary": "開発ツールの新着が8件。先日、Amazon EVS 上で VCF 9.1 をエンドツーエンドに自動デプロイする流れを、3コマンド＋手動30分の全体像として書きました。…",
       "articles": [
+        {
+          "title": "Amazon EVS で VCF 9.1 のデプロイがさらに簡単に！CloudFormation スタック1つで構築",
+          "link": "https://qiita.com/mtoyoda/items/ef0d27674ac1af45355a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-22T10:37:14",
+          "excerpt": "先日、Amazon EVS 上で VCF 9.1 をエンドツーエンドに自動デプロイする流れを、3コマンド＋手動30分の全体像として書きました。…"
+        },
         {
           "title": "Amazon Connect のコンタクトフローを CDK で管理しつつ、AWS アカウントに依存させない方法",
           "link": "https://qiita.com/nskworld404/items/97dd44f85aa3152039f4",
@@ -169,13 +176,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-22T03:23:52",
           "excerpt": "Amazon SES の SendEmail/SendBulkEmail API に追加された `ConfigurationOverrides` パラメータを使って、リクエスト単位で Open/Click トラッキングを制御できるようになり…"
-        },
-        {
-          "title": "AWS Amplify Gen 2は何が違う？実装2例で理解する",
-          "link": "https://zenn.dev/yamato_snow/articles/1846c122905a",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-21T23:07:09",
-          "excerpt": "はじめに 以前、Next.js App RouterをAWS Amplifyへデプロイする記事を書きました。Next.…"
         }
       ]
     }
