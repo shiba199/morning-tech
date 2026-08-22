@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T18:12:33",
+  "generated_at": "2026-08-22T18:54:13",
   "window_hours": 24,
   "total": 121,
   "topic_count": 5,
@@ -7,7 +7,7 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。記事の URL: https://twitter.com/argofowl/status/2091150597374537729 コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が21件。記事の URL: https://twitter.com/argofowl/status/2091150597374537729 コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
           "title": "Anthropic は、Claude Code の A/B テストの労力レベルを削減しているようです",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が7件。はじめに Spring Bootで作成したWebアプリケーションを、AWSのEC2を利用してインターネット上に公開する手順をまとめることにします。SSHなどで操作するPCはWindowsを前提に作成しています。…",
+      "summary": "クラウドの新着が8件。Aurora MySQL の監査ログ、XML を含む JSON ログ、IP アドレスを含むアクセスログを CloudWatch pipelines で処理しました。…",
       "articles": [
+        {
+          "title": "Amazon CloudWatch pipelines の新機能、GeoIP・RDS・XML の3プロセッサを試してみた",
+          "link": "https://dev.classmethod.jp/articles/cloudwatch-pipelines-geoip-rds-xml/",
+          "source": "DevelopersIO",
+          "published": "2026-08-22T18:19:55",
+          "excerpt": "Aurora MySQL の監査ログ、XML を含む JSON ログ、IP アドレスを含むアクセスログを CloudWatch pipelines で処理しました。…"
+        },
         {
           "title": "Spring Bootで作成したWebアプリをAWS EC2で公開する手順（パート1）",
           "link": "https://qiita.com/ShineYamamoto/items/59941da1c9538807e356",
@@ -64,20 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-22T10:55:20",
           "excerpt": "AWSでサーバーレスな「未達成なら寄付Todoアプリ」を作ってみた #1(設計〜バックエンド基礎編) はじめに AWS SAA(Solutions Architect Associate)の学習を兼ねて、以下のようなアプリを個人開発すること…"
-        },
-        {
-          "title": "Terraform : ECS Fargate環境を構築する(1) ― クラスタ・ネットワーク・タスク定義の基本設計",
-          "link": "https://qiita.com/ham-nao/items/26166245928411f82224",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-22T09:07:18",
-          "excerpt": "この記事について バックエンドAPIをAWS ECS Fargate上で稼働させる構成を題材に、ECSの構築から運用まで4回に分けて解説します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が3件。Next.js、8月26日に重要な脆弱性修正リリースを予定",
+      "summary": "セキュリティの新着が2件。Next.js、8月26日に重要な脆弱性修正リリースを予定",
       "articles": [
         {
           "title": "Next.js、8月26日に重要な脆弱性修正リリースを予定",
@@ -92,20 +92,13 @@
           "source": "The Register（英語）",
           "published": "2026-08-21T23:42:41",
           "excerpt": "漏洩した認証情報の隔離だけでは十分ではない"
-        },
-        {
-          "title": "Claude Mythos 5 のサイバーセキュリティ機能をより多くの防御者に提供",
-          "link": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-21T18:48:28",
-          "excerpt": "記事の URL: https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。AWS Glue 6.0 が一般提供開始となり、30% の価格削減と Apache Iceberg v3 サポートが追加されました。新機能は魅力的ですが、Spark 4.1 とのメジャーバージョンアップに伴う破壊的変更も多くあります。…",
+      "summary": "データ分析の新着が2件。AWS Glue 6.0 が一般提供開始となり、30% の価格削減と Apache Iceberg v3 サポートが追加されました。新機能は魅力的ですが、Spark 4.1 とのメジャーバージョンアップに伴う破壊的変更も多くあります。…",
       "articles": [
         {
           "title": "[アップデート] AWS Glue 6.0 が一般提供開始、30% の価格削減と Apache Iceberg v3 サポートが追加されたので試してみました",
@@ -120,13 +113,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-22T09:57:12",
           "excerpt": "Claude Code の v2.1.238〜v2.1.239 アップデートをまとめてご紹介します。Remote Control の信頼性が集中的に改善され、瞬断での切断やモバイルからの操作が反映されない問題などが解消されました。…"
-        },
-        {
-          "title": "AWS Glue 6.0 が 30% 値下げされ、Apache Iceberg v3 を完全にサポートして利用可能になりました",
-          "link": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
-          "source": "AWS News Blog（英語）",
-          "published": "2026-08-21T18:53:26",
-          "excerpt": "AWS Glue 6.0 は、完全に最新化されたランタイム、Apache Spark 4.1、Python 3.12、Scala 2.13 上に構築されており、以前の AWS Glue バージョンより 30% 低い料金設定を実現しています。"
         }
       ]
     },
