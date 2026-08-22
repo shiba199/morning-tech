@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:53:53",
+  "generated_at": "2026-08-22T09:16:19",
   "window_hours": 24,
   "total": 168,
   "topic_count": 5,
@@ -7,8 +7,15 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が26件。こんにちは！ENECHANGEでエンジニアリングマネージャー兼モバイルアプリエンジニアをしている片田（id:yuta_ktd）です。…",
+      "summary": "生成AIの新着が25件。LLMを業務システムへ導入するとき、「どのモデルが一番よいか」だけを考えると、選択を誤ることがあります。…",
       "articles": [
+        {
+          "title": "LLM APIはどこから使うべきか？AWS・GCP・Azure・直API・AI Gatewayの選び方",
+          "link": "https://zenn.dev/yhay81/articles/202608-llm-api-landscape",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-22T07:37:41",
+          "excerpt": "LLMを業務システムへ導入するとき、「どのモデルが一番よいか」だけを考えると、選択を誤ることがあります。…"
+        },
         {
           "title": "Argentを使ってClaude Codeからモバイルアプリを動かしてみる（Flutter） | ENECHANGE Developer Blog",
           "link": "https://tech.enechange.co.jp/entry/2026/08/22/155631",
@@ -29,21 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-22T05:37:16",
           "excerpt": "Amazon Bedrock 上の OpenAI GPT-5.6 Sol の価格改定が発表され、出力トークンの単価が 33.3% 下がりました。7月の Terra / Luna の値下げに続く今回の改定で、GPT-5.…"
-        },
-        {
-          "title": "GPT 5.6 ソル 20% 値下げ",
-          "link": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-22T04:33:06",
-          "excerpt": "記事の URL: https://developers.openai.com/api/docs/models/gpt-5.6-sol コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。はじめに 本記事では、Pythonのデータサイエンス特化IDEであるSpyderで、AWSのEC2インスタンスにリモートアクセスする手順を説明します。…",
+      "summary": "クラウドの新着が12件。この記事について バックエンドAPIをAWS ECS Fargate上で稼働させる構成を題材に、ECSの構築から運用まで4回に分けて解説します。…",
       "articles": [
+        {
+          "title": "Terraform : ECS Fargate環境を構築する(1) ― クラスタ・ネットワーク・タスク定義の基本設計",
+          "link": "https://qiita.com/ham-nao/items/26166245928411f82224",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-22T09:07:18",
+          "excerpt": "この記事について バックエンドAPIをAWS ECS Fargate上で稼働させる構成を題材に、ECSの構築から運用まで4回に分けて解説します。…"
+        },
         {
           "title": "【データサイエンス環境構築】 SpyderでAWSのEC2インスタンスにリモートアクセスする",
           "link": "https://qiita.com/TomoSub/items/933d7ad3e8aeaa044f9b",
@@ -64,13 +71,6 @@
           "source": "CodeZine",
           "published": "2026-08-22T04:00:00",
           "excerpt": "Amazon EC2 Auto Scalingがインスタンスの一括終了をサポート"
-        },
-        {
-          "title": "Argo CD の Amazon EKS 機能がカスタム設定をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-21T17:00:00",
-          "excerpt": "Argo CD の Amazon Elastic Kubernetes Service (Amazon EKS) 機能は、クラスター内の標準の argocd-cm ConfigMap を介したカスタム設定をサポートするようになりました。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。Amazon SES の SendEmail/SendBulkEmail API に追加された `ConfigurationOverrides` パラメータを使って、リクエスト単位で Open/Click トラッキングを制御できるようになり…",
+      "summary": "開発ツールの新着が7件。この記事について バックエンドAPIをAWS ECS Fargate上で稼働させる構成を題材に、ECSの構築から運用まで4回に分けて解説します。…",
       "articles": [
+        {
+          "title": "Terraform : ECS Fargate環境を構築する(1) ― クラスタ・ネットワーク・タスク定義の基本設計",
+          "link": "https://qiita.com/ham-nao/items/26166245928411f82224",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-22T09:07:18",
+          "excerpt": "この記事について バックエンドAPIをAWS ECS Fargate上で稼働させる構成を題材に、ECSの構築から運用まで4回に分けて解説します。…"
+        },
         {
           "title": "[アップデート] Amazon SES でメールごとに Open/Click トラッキングを個別制御できる ConfigurationOverrides パラメータが追加されました",
           "link": "https://dev.classmethod.jp/articles/amazon-ses-adds-open-click-tracking-override/",
@@ -169,18 +176,18 @@
           "source": "DevelopersIO",
           "published": "2026-08-21T14:42:21",
           "excerpt": "Amazon Bedrock で利用可能になった Grok 4.6 を、AWS CLI の aws bedrock-runtime converse から IAM 認証だけで呼び出してみました。…"
-        },
-        {
-          "title": "「がっかりさせた」: GitHub は開発者が諦める前にスケールアップすることを約束",
-          "link": "https://www.theregister.com/devops/2026/08/21/we-let-you-down-github-pledges-to-scale-up-before-developers-give-up/5291031",
-          "source": "The Register（英語）",
-          "published": "2026-08-21T13:15:00",
-          "excerpt": "CTO、今月2回目の停止を受けてアーキテクチャの全面見直しを約束"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "Skylab のコンプリストの皆様、DVD 26 枚を収納できる棚のスペースを空けてください",
+      "link": "https://www.theregister.com/offbeat/2026/08/22/skylab-completists-clear-some-shelf-space-for-26-dvds/5290531",
+      "source": "The Register（英語）",
+      "published": "2026-08-22T09:15:00",
+      "excerpt": "数十年にわたるアーカイブ検索により、失われたと思われていたダウンリンク、サイレント リール、映像が回復"
+    },
     {
       "title": "カシオは、シンプルなデジタル時計をもう少し賢くする時期が来たと判断",
       "link": "https://www.theregister.com/personal-tech/2026/08/22/casio-decides-its-about-time-the-simple-digital-watch-got-a-little-smarter/5291223",
@@ -201,13 +208,6 @@
       "source": "CodeZine",
       "published": "2026-08-22T08:00:00",
       "excerpt": "Google Workspace、Allowlisted Domains APIを一般公開"
-    },
-    {
-      "title": "残業するくらいなら「年収100万円ダウン」でいい　“稼げるだけ”では入社しない今どきの人々",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/22/news014.html",
-      "source": "@IT",
-      "published": "2026-08-22T08:00:00",
-      "excerpt": "年収が100万円低くても残業が短い企業を選ぶなど、年収以外の要素も就職先の決定において強く影響している。エフペリが実施した調査で浮き彫りになった。"
     }
   ]
 }
