@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-22T22:44:13",
+  "generated_at": "2026-08-22T23:09:57",
   "window_hours": 24,
-  "total": 111,
+  "total": 107,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。DeepMind の卒業生によって構築された英国の AI ラボ Inherent は、科学論文を再現する能力がイノベーションへの足がかりとなる AI エージェント、Faraday をリリースしました。",
+      "summary": "生成AIの新着が17件。DeepMind の卒業生によって構築された英国の AI ラボ Inherent は、科学論文を再現する能力がイノベーションへの足がかりとなる AI エージェント、Faraday をリリースしました。",
       "articles": [
         {
           "title": "DeepMind の卒業生によって設立された Inherent は、その AI の「チームメイト」が研究の再現において Anthropic と OpenAI をちょうど上回ったと述べています",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。Aurora MySQL の監査ログ、XML を含む JSON ログ、IP アドレスを含むアクセスログを CloudWatch pipelines で処理しました。…",
+      "summary": "クラウドの新着が9件。はじめに これまでの記事では、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…",
       "articles": [
+        {
+          "title": "AWS S3上のApache Icebergコピーから自宅HDFS Icebergへリストアする【復旧編】",
+          "link": "https://qiita.com/naritomo08/items/3d1c6d0dbb5001d73609",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-22T22:58:50",
+          "excerpt": "はじめに これまでの記事では、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…"
+        },
         {
           "title": "Amazon CloudWatch pipelines の新機能、GeoIP・RDS・XML の3プロセッサを試してみた",
           "link": "https://dev.classmethod.jp/articles/cloudwatch-pipelines-geoip-rds-xml/",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-22T11:30:11",
           "excerpt": "はじめに 2026年8月、Claude Code の v2.1.239 がリリースされました。今回の目玉は機能追加よりも「気づかぬうちにコストが漏れていた」タイプの修正です。…"
-        },
-        {
-          "title": "AWSでサーバーレスな「未達成なら寄付Todoアプリ」を作ってみた #1(設計〜バックエンド基礎編)",
-          "link": "https://qiita.com/matrin/items/409e240d938f8b81a1c8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-22T10:55:20",
-          "excerpt": "AWSでサーバーレスな「未達成なら寄付Todoアプリ」を作ってみた #1(設計〜バックエンド基礎編) はじめに AWS SAA(Solutions Architect Associate)の学習を兼ねて、以下のようなアプリを個人開発すること…"
         }
       ]
     },
@@ -119,7 +119,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。概要 個人のAWSアカウントへのログインを、IAMユーザーのアクセスキーではなく「Googleアカウントでログイン」に置き換えた話です。…",
+      "summary": "開発ツールの新着が6件。概要 個人のAWSアカウントへのログインを、IAMユーザーのアクセスキーではなく「Googleアカウントでログイン」に置き換えた話です。…",
       "articles": [
         {
           "title": "Auth0 + Google + Terraformで個人のAWSアカウントをSSO化した",
@@ -154,32 +154,32 @@
   ],
   "uncategorized": [
     {
+      "title": "Sigma Publicは何をどこまで出来るのか〜Sigma製品版との機能比較・24項目で整理〜 | truestarテックブログのフィード",
+      "link": "https://zenn.dev/truestar/articles/63eef7a1355fd1",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-22T23:04:25",
+      "excerpt": "先日(2026年05月)、一般公開に合わせてSigma Publicそのものを紹介するエントリを書きました。…"
+    },
+    {
+      "title": "『AI-DLC の紹介』というタイトルでゆるWeb勉強会@札幌で登壇しました #ゆるWeb札幌",
+      "link": "https://dev.classmethod.jp/articles/yuruweb-31-iwasa/",
+      "source": "DevelopersIO",
+      "published": "2026-08-22T22:58:52",
+      "excerpt": "AWS が提唱する AI 駆動開発フレームワーク「AI-DLC」について、ゆるWeb勉強会での登壇内容とそこで寄せられた質問への調査結果をまとめました。"
+    },
+    {
+      "title": "TikTok、児童プライバシー訴訟で4億ドル支払いへ　米司法省と和解",
+      "link": "https://www.itmedia.co.jp/news/article/2608/23/2000000701/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-22T22:37:08",
+      "excerpt": "司法省は、TikTokの児童プライバシーを巡る訴訟で、TikTok側が総額4億ドルを支払うことで和解したと発表した。13歳未満の個人情報収集や保護者同意を巡る申し立てを受けたもので、COPPA関連では過去最大規模の和解となる。…"
+    },
+    {
       "title": "「comico」サ終にマンガ家が思う“縦読みマンガ”の弱点と戦略ミス",
       "link": "https://www.itmedia.co.jp/news/article/2608/23/2000000693/",
       "source": "ITmedia NEWS",
       "published": "2026-08-22T22:15:00",
       "excerpt": "基本フルカラーで、スマホで気楽に読める“縦読みマンガ”。ヒットしてアニメ化される作品も生み出しましたが、最近は調子がイマイチのようです。なぜそうなったのか。マンガ家の端くれであるボクなりに考えてみました。"
-    },
-    {
-      "title": "A New Kind of Science by Stephen Wolfram: Monster Raving Egomania",
-      "link": "https://bactra.org/reviews/wolfram/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-22T22:00:28",
-      "excerpt": "Article URL: https://bactra.org/reviews/wolfram/ Comments URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
-      "link": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-22T21:46:56",
-      "excerpt": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings."
-    },
-    {
-      "title": "Will the DOJ’s investigation into a16z spook other VCs?",
-      "link": "https://techcrunch.com/2026/08/22/will-the-dojs-investigation-into-a16z-spook-other-vcs/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-22T20:24:20",
-      "excerpt": "On the latest episode of Equity, we wonder why the DOJ is investigating startup board seats."
     }
   ]
 }
