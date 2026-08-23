@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T14:45:36",
+  "generated_at": "2026-08-23T15:11:13",
   "window_hours": 24,
-  "total": 110,
+  "total": 115,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。Salesforce傘下のSlack社は、同社のチャットサービス「Slack」の新機能として、開発チームの一員としてAIエージェントがチャットに加わり、それまでの開発チームの議論を把握してコーディングを行う「Slack Code」の提供開始…",
+      "summary": "生成AIの新着が19件。Salesforce傘下のSlack社は、同社のチャットサービス「Slack」の新機能として、開発チームの一員としてAIエージェントがチャットに加わり、それまでの開発チームの議論を把握してコーディングを行う「Slack Code」の提供開始…",
       "articles": [
         {
           "title": "Slack上の開発チームの会話をAIエージェントが把握してコーディング。ドキュメント作成もする「Slack Code」登場",
@@ -15,6 +15,13 @@
           "source": "Publickey",
           "published": "2026-08-23T15:52:28",
           "excerpt": "Salesforce傘下のSlack社は、同社のチャットサービス「Slack」の新機能として、開発チームの一員としてAIエージェントがチャットに加わり、それまでの開発チームの議論を把握してコーディングを行う「Slack Code」の提供開始…"
+        },
+        {
+          "title": "【AIエージェント構築入門】複数のAWSアカウントを自然言語で調査するチャットボットを作る（前編）",
+          "link": "https://qiita.com/eureka_/items/d72132589339abb739dd",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T14:51:50",
+          "excerpt": "はじめに 普段の業務では数十個のAWSアカウント環境の運用を担当しています。…"
         },
         {
           "title": "agentcore createでAgentCoreハーネス作成する",
@@ -29,13 +36,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-23T13:34:18",
           "excerpt": "概要 普段はAWSが提供しているAIエージェントのkiroを利用していますが、調査や文章の添削といった補助的な使い方がメインでした。…"
-        },
-        {
-          "title": "【AWS AIF】AWS AIプラクティショナー必勝法〜超ドパガキでもできる！ClaudeとAIコンテンツに学ぶ計10時間爆速合格術〜",
-          "link": "https://qiita.com/Sugar_Cu_be/items/b2e5c9c70c0589413b4f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-23T08:42:56",
-          "excerpt": "お疲れ様です。超ドパガキです。間違えました、SugarCubeです。前回のCLF合格体験記の投稿から1ヶ月近く経ちましたね。今回は先日AIFを受験、無事(?)合格してきたのでまた体験記を書いていこうと思います。…"
         }
       ]
     },
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。S3 は信頼できる情報源を保持し、ローカル NVMe リポジトリはレイテンシーに敏感な作業を実行します。",
+      "summary": "開発ツールの新着が7件。はじめに 個人で「AI模試ノート」というAWS認定試験をはじめとするベンダー資格の模試学習アプリをAWS Amplify Gen2(バックエンドはCDK)を使用して構築しています。…",
       "articles": [
+        {
+          "title": "【cdkd(CDK Direct)】CloudFormationを経由しないCDKデプロイは、通常デプロイ・Expressモードと比べてどれだけ速いのか検証してみた！",
+          "link": "https://qiita.com/yosuke-suzuki/items/e6970d4882b064216ee9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T14:58:33",
+          "excerpt": "はじめに 個人で「AI模試ノート」というAWS認定試験をはじめとするベンダー資格の模試学習アプリをAWS Amplify Gen2(バックエンドはCDK)を使用して構築しています。…"
+        },
         {
           "title": "Cursor が Git のスケーラビリティの欠点をどのように克服したか",
           "link": "https://www.theregister.com/devops/2026/08/23/how-cursor-beat-gits-scalability-shortcomings/5291421",
@@ -162,13 +169,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-23T08:43:20",
           "excerpt": "Terraformの考え方、HCL、CLI、state、module、テスト、AWSハンズオン、チーム運用までを一冊で学ぶための本です。"
-        },
-        {
-          "title": "【Amplify x AgentCore】業務で“本当に”使えるAWS運用アシスタントを作ってみた",
-          "link": "https://qiita.com/jus1730/items/a4dc88817d1e97ac0bf4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-23T04:16:47",
-          "excerpt": "はじめに Amplify Gen 2 と Amazon Bedrock AgentCore で、業務で使える AWS 運用アシスタントを作ってみました。ブラウザのチャットから自然言語で AWS リソースを問い合わせ・操作できるアプリです。…"
         }
       ]
     }
@@ -182,25 +182,25 @@
       "excerpt": "サーバサイドJavaScriptランタイムのBunの最新版となる「Bun 1.4」正式版のリリースが発表されました。Bun 1.4は、これまでZig言語で開発されていたものをClaude Codeを使ってRustに書き直した最初のバージョ.…"
     },
     {
-      "title": "Death to px, long live ch",
-      "link": "https://shkspr.mobi/blog/2026/08/death-to-px-long-live-ch/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-23T13:56:27",
-      "excerpt": "Article URL: https://shkspr.mobi/blog/2026/08/death-to-px-long-live-ch/ Comments URL: https://news.ycombinator.com/item?…"
+      "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
+      "link": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-23T15:00:00",
+      "excerpt": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools tha…"
     },
     {
-      "title": "My favorite nonfiction books about cults, scams, and schemes",
-      "link": "https://bookdna.com/best-books/nonfiction-about-cults-scams-and-schemes",
+      "title": "Slovakia finds Russian backdoor in traffic speed cameras",
+      "link": "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/",
       "source": "Hacker News（英語）",
-      "published": "2026-08-23T13:51:10",
-      "excerpt": "Article URL: https://bookdna.com/best-books/nonfiction-about-cults-scams-and-schemes Comments URL: https://news.…"
+      "published": "2026-08-23T14:38:25",
+      "excerpt": "Article URL: https://risky.…"
     },
     {
-      "title": "Microsoft の歴史の超レアな作品があなたの棚に隠れているかもしれません",
-      "link": "https://www.theregister.com/offbeat/2026/08/23/an-ultra-rare-piece-of-microsoft-history-could-be-hiding-on-your-shelf/5291118",
-      "source": "The Register（英語）",
-      "published": "2026-08-23T12:32:00",
-      "excerpt": "赤いテトリスのステッカーと上半身裸の Windows 95 の子供たち - 偶然収集したアイテムが埃をかぶっている"
+      "title": "Authoritarianism of Code",
+      "link": "https://zedshaw.com/blog/2020-10-07-authoritarianism-of-code/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-23T14:36:38",
+      "excerpt": "Article URL: https://zedshaw.com/blog/2020-10-07-authoritarianism-of-code/ Comments URL: https://news.ycombinator.…"
     }
   ]
 }
