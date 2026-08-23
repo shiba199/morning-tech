@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T15:43:33",
+  "generated_at": "2026-08-23T16:11:42",
   "window_hours": 24,
   "total": 113,
   "topic_count": 5,
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。Snowflake の Feature Policy に条件付きルール機能が GA となりました。…",
+      "summary": "クラウドの新着が11件。概要 Todoist の Inbox に追加されたタスクを webhook で検知し、特定のプロジェクトへ自動移動する仕組みを作った AWS Lambda + API Gateway + Systems Manager Parameter…",
       "articles": [
+        {
+          "title": "TodoistのInboxタスクをwebhookでAWS Lambdaから自動的にプロジェクトへ振り分けた",
+          "link": "https://zenn.dev/takuyima/articles/todoist-inbox-webhook-lambda",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-23T14:35:01",
+          "excerpt": "概要 Todoist の Inbox に追加されたタスクを webhook で検知し、特定のプロジェクトへ自動移動する仕組みを作った AWS Lambda + API Gateway + Systems Manager Parameter…"
+        },
+        {
+          "title": "オンプレサーバ運用設計書 監視・バックアップ・障害対応を、本番を止めないための運用ルールに落とし込む",
+          "link": "https://zenn.dev/noobaimo/books/66bee3894f1423",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-23T14:22:31",
+          "excerpt": "要件定義→基本設計→運用設計→詳細設計、全4部シリーズの第3部にあたる本書は、基本設計で組んだHAクラスタ・バックアップ方式・監視アーキテクチャを、誰が・いつ・どう回すかという運用の実務まで落とし込みます。…"
+        },
         {
           "title": "[新機能]Feature Policy Rules が一般提供となったので TEMPORARY テーブルとサーバーレスタスクの作成だけをブロックしてみた",
           "link": "https://dev.classmethod.jp/articles/snowflake-feature-policy-rules-ga/",
@@ -57,20 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-23T13:32:12",
           "excerpt": "背景 S3を非公開のままCloudFront経由で配信する構成をAWS SAMで構築しました。Lambda関数を含まない純粋なインフラ定義のSAMハンズオンです。…"
-        },
-        {
-          "title": "AWSハンズオン① EC2でWebサーバーを構築して公開してみた",
-          "link": "https://zenn.dev/takuya_cloud/articles/4d411b52dc7f30",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-23T11:47:47",
-          "excerpt": "今回はAWS学習のアウトプットとして、Amazon EC2（Elastic Compute Cloud）を使ってWebサーバーを構築し、インターネットからアクセスできるところまで試してみました。…"
-        },
-        {
-          "title": "【図解】AWS DynamoDBとは。使い方4手順とRDSとの違いまとめ",
-          "link": "https://qiita.com/daisuke-nagata/items/3ec6c90881ce2c1641c7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-23T10:06:05",
-          "excerpt": "対象読者: AWSをこれから触る人。AWS勉強シリーズの9本目で、今回はDynamoDBです。全体の地図は索引記事にあります。前回のRDSに続いてデータベースの2つ目です。…"
         }
       ]
     },
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。対象読者: AWSをこれから触る人。AWS勉強シリーズの9本目で、今回はDynamoDBです。全体の地図は索引記事にあります。前回のRDSに続いてデータベースの2つ目です。…",
+      "summary": "データ分析の新着が3件。Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
       "articles": [
+        {
+          "title": "TechCrunch Mobility: The custom chip driving Waymo’s robotaxi ambitions",
+          "link": "https://techcrunch.com/2026/08/23/techcrunch-mobility-the-custom-chip-driving-waymos-robotaxi-ambitions/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-23T16:03:00",
+          "excerpt": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation."
+        },
         {
           "title": "【図解】AWS DynamoDBとは。使い方4手順とRDSとの違いまとめ",
           "link": "https://qiita.com/daisuke-nagata/items/3ec6c90881ce2c1641c7",
