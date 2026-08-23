@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T09:48:49",
+  "generated_at": "2026-08-23T10:11:50",
   "window_hours": 24,
-  "total": 104,
+  "total": 100,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。お疲れ様です。超ドパガキです。間違えました、SugarCubeです。前回のCLF合格体験記の投稿から1ヶ月近く経ちましたね。今回は先日AIFを受験、無事(?)合格してきたのでまた体験記を書いていこうと思います。…",
+      "summary": "生成AIの新着が15件。お疲れ様です。超ドパガキです。間違えました、SugarCubeです。前回のCLF合格体験記の投稿から1ヶ月近く経ちましたね。今回は先日AIFを受験、無事(?)合格してきたのでまた体験記を書いていこうと思います。…",
       "articles": [
         {
           "title": "【AWS AIF】AWS AIプラクティショナー必勝法〜超ドパガキでもできる！ClaudeとAIコンテンツに学ぶ計10時間爆速合格術〜",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が7件。はじめに こんにちは！KDDIアイレット株式会社の水野 永遠です。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の23日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。…",
+      "summary": "クラウドの新着が8件。対象読者: AWSをこれから触る人。AWS勉強シリーズの9本目で、今回はDynamoDBです。全体の地図は索引記事にあります。前回のRDSに続いてデータベースの2つ目です。…",
       "articles": [
+        {
+          "title": "【図解】AWS DynamoDBとは。使い方4手順とRDSとの違いまとめ",
+          "link": "https://qiita.com/daisuke-nagata/items/3ec6c90881ce2c1641c7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T10:06:05",
+          "excerpt": "対象読者: AWSをこれから触る人。AWS勉強シリーズの9本目で、今回はDynamoDBです。全体の地図は索引記事にあります。前回のRDSに続いてデータベースの2つ目です。…"
+        },
         {
           "title": "SSM Parameter Storeの「分け方」と「Standard / Advanced」の決め方 — ECSとLambdaで変わる制約を実測して整理した",
           "link": "https://qiita.com/Omizu-25/items/41d5edd295915c8b6908",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-22T22:58:50",
           "excerpt": "はじめに これまでの記事では、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…"
-        },
-        {
-          "title": "Amazon CloudWatch pipelines の新機能、GeoIP・RDS・XML の3プロセッサを試してみた",
-          "link": "https://dev.classmethod.jp/articles/cloudwatch-pipelines-geoip-rds-xml/",
-          "source": "DevelopersIO",
-          "published": "2026-08-22T18:19:55",
-          "excerpt": "Aurora MySQL の監査ログ、XML を含む JSON ログ、IP アドレスを含むアクセスログを CloudWatch pipelines で処理しました。…"
         }
       ]
     },
@@ -105,8 +105,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。TL;DR AWS WAFはS3にログを流し込むところまでは数クリックで終わるが、「結局何件ブロックされたのか」「どのルールが一番効いているのか」を毎回コンソールでポチポチ確認するのは長続きしない。…",
+      "summary": "データ分析の新着が3件。対象読者: AWSをこれから触る人。AWS勉強シリーズの9本目で、今回はDynamoDBです。全体の地図は索引記事にあります。前回のRDSに続いてデータベースの2つ目です。…",
       "articles": [
+        {
+          "title": "【図解】AWS DynamoDBとは。使い方4手順とRDSとの違いまとめ",
+          "link": "https://qiita.com/daisuke-nagata/items/3ec6c90881ce2c1641c7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T10:06:05",
+          "excerpt": "対象読者: AWSをこれから触る人。AWS勉強シリーズの9本目で、今回はDynamoDBです。全体の地図は索引記事にあります。前回のRDSに続いてデータベースの2つ目です。…"
+        },
         {
           "title": "WAFログを「S3に置きっぱなし」から卒業する ― Athenaで攻撃系リクエストを自動集計してSlack通知するまで",
           "link": "https://qiita.com/devex12/items/c96f2ec9508c2c85e765",
@@ -120,20 +127,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-22T15:20:47",
           "excerpt": "AWS Glue 6.0 が一般提供開始となり、30% の価格削減と Apache Iceberg v3 サポートが追加されました。新機能は魅力的ですが、Spark 4.1 とのメジャーバージョンアップに伴う破壊的変更も多くあります。…"
-        },
-        {
-          "title": "Claude Code v2.1.238〜v2.1.239 の主要アップデート - Remote Control の集中改善と keybindingFlavor 設定の追加",
-          "link": "https://dev.classmethod.jp/articles/20260822-cc-updates-v2-1-239/",
-          "source": "DevelopersIO",
-          "published": "2026-08-22T09:57:12",
-          "excerpt": "Claude Code の v2.1.238〜v2.1.239 アップデートをまとめてご紹介します。Remote Control の信頼性が集中的に改善され、瞬断での切断やモバイルからの操作が反映されない問題などが解消されました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。はじめに Amplify Gen 2 と Amazon Bedrock AgentCore で、業務で使える AWS 運用アシスタントを作ってみました。ブラウザのチャットから自然言語で AWS リソースを問い合わせ・操作できるアプリです。…",
+      "summary": "開発ツールの新着が5件。はじめに Amplify Gen 2 と Amazon Bedrock AgentCore で、業務で使える AWS 運用アシスタントを作ってみました。ブラウザのチャットから自然言語で AWS リソースを問い合わせ・操作できるアプリです。…",
       "articles": [
         {
           "title": "【Amplify x AgentCore】業務で“本当に”使えるAWS運用アシスタントを作ってみた",
@@ -168,6 +168,13 @@
   ],
   "uncategorized": [
     {
+      "title": "はじめてのマネジメント：AIと組み立てた1on1",
+      "link": "https://dev.classmethod.jp/articles/1on1-design-with-ai/",
+      "source": "DevelopersIO",
+      "published": "2026-08-23T09:47:12",
+      "excerpt": "初めてのマネージャー業務で、グロースリード一人が職種の異なる3人の部下を担当することになりました。その中で、1on1をどう設計するか、AIとの壁打ちを通じて考えたプロセスを紹介します。"
+    },
+    {
       "title": "悲しいことに、10,000人中9,625人もの人が定型神経質である可能性があります。",
       "link": "https://erikengdahl.se/autism/isnt/",
       "source": "Hacker News（英語）",
@@ -187,13 +194,6 @@
       "source": "企業テックブログまとめ",
       "published": "2026-08-23T06:51:06",
       "excerpt": "はじめにGoに初めて触れたとき、ポインタを使うことに少し抵抗を感じていました。例えば、次のようなコードです。func update(user *User) {user.…"
-    },
-    {
-      "title": "Wi-Fi 8 はここ数年で速度を追求しない初めてのワイヤレス アップグレードです",
-      "link": "https://www.xda-developers.com/wi-fi-8-first-wireless-upgrade-years-isnt-chasing-speed-home-networks-need-it/",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-23T06:41:51",
-      "excerpt": "記事の URL: https://www.xda-developers.…"
     }
   ]
 }
