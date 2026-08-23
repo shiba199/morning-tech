@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T02:17:19",
+  "generated_at": "2026-08-23T03:26:51",
   "window_hours": 24,
-  "total": 98,
-  "topic_count": 4,
+  "total": 100,
+  "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。RAG構築の壁を越える！…",
+      "summary": "生成AIの新着が20件。RAG構築の壁を越える！…",
       "articles": [
         {
           "title": "RAG構築の壁を越える！ローカル×クラウドのハイブリッド構成とコスト戦略",
@@ -15,6 +15,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-23T02:05:57",
           "excerpt": "RAG構築の壁を越える！…"
+        },
+        {
+          "title": "Azure Content Understanding の Agentic モード（プレビュー）を試してみた | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/ddb7c836324146",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-23T01:16:44",
+          "excerpt": "執筆日2026/8/23 はじめにAzure Content Understandingは、ドキュメント・画像・音声・動画といった非構造データを、スキーマに沿った構造化データに変換してくれる Foundry Toolsのサービスです。…"
         },
         {
           "title": "Software Engineering in the Agentic Era",
@@ -29,21 +36,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-22T22:14:27",
           "excerpt": "Article URL: https://www.primeintellect.ai/research/nanogpt-speedrun Comments URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "DeepMind の卒業生によって設立された Inherent は、その AI の「チームメイト」が研究の再現において Anthropic と OpenAI をちょうど上回ったと述べています",
-          "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-22T19:00:00",
-          "excerpt": "DeepMind の卒業生によって構築された英国の AI ラボ Inherent は、科学論文を再現する能力がイノベーションへの足がかりとなる AI エージェント、Faraday をリリースしました。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。はじめに これまでの記事では、自宅 HDFS 上の Apache Iceberg を Source of Truth として残し、AWS 側に S3 + Glue Data Catalog + Athena の分析用コピーを作りました。…",
+      "summary": "クラウドの新着が10件。TL;DR AWS WAFはS3にログを流し込むところまでは数クリックで終わるが、「結局何件ブロックされたのか」「どのルールが一番効いているのか」を毎回コンソールでポチポチ確認するのは長続きしない。…",
       "articles": [
+        {
+          "title": "WAFログを「S3に置きっぱなし」から卒業する ― Athenaで攻撃系リクエストを自動集計してSlack通知するまで",
+          "link": "https://qiita.com/devex12/items/c96f2ec9508c2c85e765",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T03:11:41",
+          "excerpt": "TL;DR AWS WAFはS3にログを流し込むところまでは数クリックで終わるが、「結局何件ブロックされたのか」「どのルールが一番効いているのか」を毎回コンソールでポチポチ確認するのは長続きしない。…"
+        },
         {
           "title": "AWS S3上のApache Icebergコピーから自宅HDFS Icebergへリストアする【復旧編】",
           "link": "https://qiita.com/naritomo08/items/3d1c6d0dbb5001d73609",
@@ -64,21 +71,35 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-22T15:13:14",
           "excerpt": "はじめに Spring Bootで作成したWebアプリケーションを、AWSのEC2を利用してインターネット上に公開する手順をまとめることにします。SSHなどで操作するPCはWindowsを前提に作成しています。…"
-        },
+        }
+      ]
+    },
+    {
+      "id": "sec",
+      "label": "セキュリティ",
+      "summary": "セキュリティの新着が1件。TL;DR AWS WAFはS3にログを流し込むところまでは数クリックで終わるが、「結局何件ブロックされたのか」「どのルールが一番効いているのか」を毎回コンソールでポチポチ確認するのは長続きしない。…",
+      "articles": [
         {
-          "title": "Claude Code v2.1.239: Bedrock二重課金バグ修正とPython SDK移行コマンド追加",
-          "link": "https://qiita.com/picnic/items/ff939c5e26e47d011a58",
+          "title": "WAFログを「S3に置きっぱなし」から卒業する ― Athenaで攻撃系リクエストを自動集計してSlack通知するまで",
+          "link": "https://qiita.com/devex12/items/c96f2ec9508c2c85e765",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-22T11:30:11",
-          "excerpt": "はじめに 2026年8月、Claude Code の v2.1.239 がリリースされました。今回の目玉は機能追加よりも「気づかぬうちにコストが漏れていた」タイプの修正です。…"
+          "published": "2026-08-23T03:11:41",
+          "excerpt": "TL;DR AWS WAFはS3にログを流し込むところまでは数クリックで終わるが、「結局何件ブロックされたのか」「どのルールが一番効いているのか」を毎回コンソールでポチポチ確認するのは長続きしない。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。AWS Glue 6.0 が一般提供開始となり、30% の価格削減と Apache Iceberg v3 サポートが追加されました。新機能は魅力的ですが、Spark 4.1 とのメジャーバージョンアップに伴う破壊的変更も多くあります。…",
+      "summary": "データ分析の新着が3件。TL;DR AWS WAFはS3にログを流し込むところまでは数クリックで終わるが、「結局何件ブロックされたのか」「どのルールが一番効いているのか」を毎回コンソールでポチポチ確認するのは長続きしない。…",
       "articles": [
+        {
+          "title": "WAFログを「S3に置きっぱなし」から卒業する ― Athenaで攻撃系リクエストを自動集計してSlack通知するまで",
+          "link": "https://qiita.com/devex12/items/c96f2ec9508c2c85e765",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T03:11:41",
+          "excerpt": "TL;DR AWS WAFはS3にログを流し込むところまでは数クリックで終わるが、「結局何件ブロックされたのか」「どのルールが一番効いているのか」を毎回コンソールでポチポチ確認するのは長続きしない。…"
+        },
         {
           "title": "[アップデート] AWS Glue 6.0 が一般提供開始、30% の価格削減と Apache Iceberg v3 サポートが追加されたので試してみました",
           "link": "https://dev.classmethod.jp/articles/20260823-aws-glue-6/",
@@ -98,8 +119,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。概要 個人のAWSアカウントへのログインを、IAMユーザーのアクセスキーではなく「Googleアカウントでログイン」に置き換えた話です。…",
+      "summary": "開発ツールの新着が6件。はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。…",
       "articles": [
+        {
+          "title": "Terraform入門 第2回：入力変数と出力値で設定を使いやすくする",
+          "link": "https://qiita.com/k0ga/items/f0bff9cca56a4bf0080c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T02:48:31",
+          "excerpt": "はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。…"
+        },
         {
           "title": "Auth0 + Google + Terraformで個人のAWSアカウントをSSO化した",
           "link": "https://zenn.dev/takuyima/articles/aws-sso-via-auth0-google",
@@ -120,18 +148,25 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-22T10:37:14",
           "excerpt": "先日、Amazon EVS 上で VCF 9.1 をエンドツーエンドに自動デプロイする流れを、3コマンド＋手動30分の全体像として書きました。…"
-        },
-        {
-          "title": "Amazon Connect のコンタクトフローを CDK で管理しつつ、AWS アカウントに依存させない方法",
-          "link": "https://qiita.com/nskworld404/items/97dd44f85aa3152039f4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-22T09:51:28",
-          "excerpt": "Amazon Connect の主軸となるリソースの1つに「コンタクトフロー」がありますが、これを CDK で管理しようとすると、一筋縄ではいきません。…"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "Node.jsの仮想デバイスでAWS IoT Device Shadowを試してみた",
+      "link": "https://dev.classmethod.jp/articles/aws-iot-device-shadow-nodejs/",
+      "source": "DevelopersIO",
+      "published": "2026-08-23T03:24:56",
+      "excerpt": "AWS IoT Device Shadowを使い、オフライン中に指定した状態をNode.jsで再現してみました。…"
+    },
+    {
+      "title": "Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders",
+      "link": "https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-23T03:00:00",
+      "excerpt": "Flipkart's quick-commerce venture is delivering 1.1 million to 1.…"
+    },
     {
       "title": "Amazon Quick on Desktop を Okta のエンタープライズSSOで使う",
       "link": "https://qiita.com/ryosaan/items/3d1996cb1e291402d7a3",
@@ -145,20 +180,6 @@
       "source": "企業テックブログまとめ",
       "published": "2026-08-23T00:59:00",
       "excerpt": "MCPサーバーが誰に何へ接続されているか見えない課題に対し、棚卸しではなく常時可視化で統制する方法を解説します。PCはNetskope、IaaSはWizで監査する実務指針です。"
-    },
-    {
-      "title": "US Military newspaper editor voices censorship fears after being fired",
-      "link": "https://www.bbc.com/news/articles/cm2g23ng8p4o",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-23T00:19:17",
-      "excerpt": "Article URL: https://www.bbc.com/news/articles/cm2g23ng8p4o Comments URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Microsoft、Go 1.27.0-1のビルド版をリリース",
-      "link": "https://codezine.jp/article/detail/29398",
-      "source": "CodeZine",
-      "published": "2026-08-23T00:00:00",
-      "excerpt": "Microsoft、Go 1.27.0-1のビルド版をリリース"
     }
   ]
 }
