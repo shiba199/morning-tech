@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-23T19:41:53",
+  "generated_at": "2026-08-23T20:09:45",
   "window_hours": 24,
-  "total": 100,
+  "total": 101,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が15件。Salesforce傘下のSlack社は、同社のチャットサービス「Slack」の新機能として、開発チームの一員としてAIエージェントがチャットに加わり、それまでの開発チームの議論を把握してコーディングを行う「Slack Code」の提供開始…",
+      "summary": "生成AIの新着が16件。前回、香港国際空港でClaude CodeもCodexも使えなかった話を書いた。そのとき「Bedrock経由なら通るのか実際に調べてみた」という節で、AWS公式ドキュメントの記述だけを根拠に推測を書いて終わっていた。…",
       "articles": [
+        {
+          "title": "香港空港でAmazon Bedrockを4リージョン試してわかったこと: ブロックされるのはAnthropicとOpenAIのモデルだけだった",
+          "link": "https://qiita.com/yama3133/items/a60835f2c4bc3416a3a1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T20:07:49",
+          "excerpt": "前回、香港国際空港でClaude CodeもCodexも使えなかった話を書いた。そのとき「Bedrock経由なら通るのか実際に調べてみた」という節で、AWS公式ドキュメントの記述だけを根拠に推測を書いて終わっていた。…"
+        },
         {
           "title": "Slack上の開発チームの会話をAIエージェントが把握してコーディング。ドキュメント作成もする「Slack Code」登場",
           "link": "https://www.publickey1.jp/blog/26/slackaislack_code.html",
@@ -29,13 +36,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-23T14:31:21",
           "excerpt": "Amazon BedrockAgentCoreを学習するため、ClaudeCodeに学習計画を立ててもらいました。まずagentcore createでAgentCoreハーネスを作ろうという学習ステップを作ってくれたので記録を書きます。…"
-        },
-        {
-          "title": "『Amazon Bedrock AgentCore実践入門』ハンズオン完走レビュー｜エラー対応の手応えと費用感",
-          "link": "https://qiita.com/atsushi586/items/57d89523c32968842ece",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-23T13:34:18",
-          "excerpt": "概要 普段はAWSが提供しているAIエージェントのkiroを利用していますが、調査や文章の添削といった補助的な使い方がメインでした。…"
         }
       ]
     },
@@ -175,6 +175,13 @@
   ],
   "uncategorized": [
     {
+      "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+      "link": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-23T20:01:36",
+      "excerpt": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation."
+    },
+    {
       "title": "Uber faces fine of nearly $1B over automated driver suspensions",
       "link": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
       "source": "TechCrunch（英語）",
@@ -194,13 +201,6 @@
       "source": "Publickey",
       "published": "2026-08-23T15:58:41",
       "excerpt": "サーバサイドJavaScriptランタイムのBunの最新版となる「Bun 1.4」正式版のリリースが発表されました。Bun 1.4は、これまでZig言語で開発されていたものをClaude Codeを使ってRustに書き直した最初のバージョ.…"
-    },
-    {
-      "title": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
-      "link": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-23T15:30:00",
-      "excerpt": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused."
     }
   ]
 }
