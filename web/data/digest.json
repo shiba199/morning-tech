@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-08-23T22:44:12",
+  "generated_at": "2026-08-23T23:10:04",
   "window_hours": 24,
-  "total": 102,
+  "total": 104,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が15件。前回、香港国際空港でClaude CodeもCodexも使えなかった話を書いた。そのとき「Bedrock経由なら通るのか実際に調べてみた」という節で、AWS公式ドキュメントの記述だけを根拠に推測を書いて終わっていた。…",
+      "summary": "生成AIの新着が19件。はじめに 前回は、SageMaker の Training とハイパーパラメータチューニングについて整理しました。今回は、学習済みモデルを実際に使って予測するための仕組み、つまり 推論（Inference） について整理します。…",
       "articles": [
         {
-          "title": "香港空港でAmazon Bedrockを4リージョン試してわかったこと: ブロックされるのはAnthropicとOpenAIのモデルだけだった",
-          "link": "https://qiita.com/yama3133/items/a60835f2c4bc3416a3a1",
+          "title": "【簡単AWS MLA】【初心者向け】Day 11：SageMaker の推論方式を整理する — Endpoint / Real-time / Serverless / Async / Batch Transform",
+          "link": "https://qiita.com/MetaYuan/items/ae46fd24019e5f4ecb9a",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-23T20:07:49",
-          "excerpt": "前回、香港国際空港でClaude CodeもCodexも使えなかった話を書いた。そのとき「Bedrock経由なら通るのか実際に調べてみた」という節で、AWS公式ドキュメントの記述だけを根拠に推測を書いて終わっていた。…"
+          "published": "2026-08-23T23:07:41",
+          "excerpt": "はじめに 前回は、SageMaker の Training とハイパーパラメータチューニングについて整理しました。今回は、学習済みモデルを実際に使って予測するための仕組み、つまり 推論（Inference） について整理します。…"
         },
         {
-          "title": "Slack上の開発チームの会話をAIエージェントが把握してコーディング。ドキュメント作成もする「Slack Code」登場",
-          "link": "https://www.publickey1.jp/blog/26/slackaislack_code.html",
-          "source": "Publickey",
-          "published": "2026-08-23T15:52:28",
-          "excerpt": "Salesforce傘下のSlack社は、同社のチャットサービス「Slack」の新機能として、開発チームの一員としてAIエージェントがチャットに加わり、それまでの開発チームの議論を把握してコーディングを行う「Slack Code」の提供開始…"
+          "title": "AIエージェントにGoogle Cloudの操作を任せるためのガードレール ─ Google Cloud PAMの導入 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
+          "link": "https://developers.cyberagent.co.jp/blog/archives/65362/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-23T23:00:20",
+          "excerpt": "はじめに 株式会社AJA でバックエンドエンジニアをしている片山です。AJA DSP では、Goo ...…"
         },
         {
-          "title": "【AIエージェント構築入門】複数のAWSアカウントを自然言語で調査するチャットボットを作る（前編）",
-          "link": "https://qiita.com/eureka_/items/d72132589339abb739dd",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-23T14:51:50",
-          "excerpt": "はじめに 普段の業務では数十個のAWSアカウント環境の運用を担当しています。…"
+          "title": "Obsidian × Claude Code で相棒を作る — Slack 連携と安全設計",
+          "link": "https://dev.classmethod.jp/articles/obsidian-claude-code-slack-permission-guardrails/",
+          "source": "DevelopersIO",
+          "published": "2026-08-23T23:00:13",
+          "excerpt": "Claude Code に Slack を繋ぐとき、AI に何をさせて何を禁じるかを設計した記録です。allow / ask / deny の3層に仕分ける判断基準と、CLAUDE.md では実行を止められず settings.…"
         },
         {
-          "title": "agentcore createでAgentCoreハーネス作成する",
-          "link": "https://qiita.com/sagochiko/items/74e7c2121c0e3beb07d4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-23T14:31:21",
-          "excerpt": "Amazon BedrockAgentCoreを学習するため、ClaudeCodeに学習計画を立ててもらいました。まずagentcore createでAgentCoreハーネスを作ろうという学習ステップを作ってくれたので記録を書きます。…"
+          "title": "Amazon Bedrock Managed Knowledge Base が日本語 PDF を扱えない件 | 電通総研 テックブログ",
+          "link": "https://tech.dentsusoken.com/entry/managed-kb-jp-pdf",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-23T22:00:00",
+          "excerpt": "⚠️ 【注意】本記事の内容は2026年8月17日時点のものです。日本語PDFの対応状況はAWSのアップデートにより変わる可能性があるため、最新の状況は公式ドキュメント等をご確認ください。クロスイノベーション本部の大岡です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。はじめに EC2の「ステータスチェック」といえば、これまではインスタンス自体やホスト側の障害を見るものでした。…",
+      "summary": "クラウドの新着が12件。はじめに 前回は、SageMaker の Training とハイパーパラメータチューニングについて整理しました。今回は、学習済みモデルを実際に使って予測するための仕組み、つまり 推論（Inference） について整理します。…",
       "articles": [
+        {
+          "title": "【簡単AWS MLA】【初心者向け】Day 11：SageMaker の推論方式を整理する — Endpoint / Real-time / Serverless / Async / Batch Transform",
+          "link": "https://qiita.com/MetaYuan/items/ae46fd24019e5f4ecb9a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T23:07:41",
+          "excerpt": "はじめに 前回は、SageMaker の Training とハイパーパラメータチューニングについて整理しました。今回は、学習済みモデルを実際に使って予測するための仕組み、つまり 推論（Inference） について整理します。…"
+        },
+        {
+          "title": "Google ドライブの動画再生数を AWS で計測！サーバーレス動画再生カウンターの構築 | ForgeVision Engineer Blog",
+          "link": "https://techblog.forgevision.com/entry/cloudfront/kvs",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-23T22:31:42",
+          "excerpt": "こんにちは、AWS グループの尾谷です。本記事では、Amazon CloudFront KVS (KeyValueStore) を用いて、再生カウンターを作った事例をご紹介します。"
+        },
         {
           "title": "EC2 にアプリケーション層のヘルスチェック「Application status checks」が来たので実際に試してみた",
           "link": "https://qiita.com/leomarokun/items/3ff3f6110544bb1c31d1",
@@ -57,20 +71,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-23T14:35:01",
           "excerpt": "概要 Todoist の Inbox に追加されたタスクを webhook で検知し、特定のプロジェクトへ自動移動する仕組みを作った AWS Lambda + API Gateway + Systems Manager Parameter…"
-        },
-        {
-          "title": "オンプレサーバ運用設計書 監視・バックアップ・障害対応を、本番を止めないための運用ルールに落とし込む",
-          "link": "https://zenn.dev/noobaimo/books/66bee3894f1423",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-23T14:22:31",
-          "excerpt": "要件定義→基本設計→運用設計→詳細設計、全4部シリーズの第3部にあたる本書は、基本設計で組んだHAクラスタ・バックアップ方式・監視アーキテクチャを、誰が・いつ・どう回すかという運用の実務まで落とし込みます。…"
-        },
-        {
-          "title": "[新機能]Feature Policy Rules が一般提供となったので TEMPORARY テーブルとサーバーレスタスクの作成だけをブロックしてみた",
-          "link": "https://dev.classmethod.jp/articles/snowflake-feature-policy-rules-ga/",
-          "source": "DevelopersIO",
-          "published": "2026-08-23T13:40:14",
-          "excerpt": "Snowflake の Feature Policy に条件付きルール機能が GA となりました。…"
         }
       ]
     },
@@ -175,6 +175,20 @@
   ],
   "uncategorized": [
     {
+      "title": "AWS re:Invent 2026 に行こうか悩んでいるあなたへ（あるいは2年前の自分へ） | カミナシ エンジニアブログ",
+      "link": "https://kaminashi-developer.hatenablog.jp/entry/2026/08/24/reinvent",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-23T23:00:00",
+      "excerpt": "今年も AWS re:Invent がラスベガスで開催されますね。私は去年初めて現地参加し、今年も参加する予定です。この記事では、今まで現地参加に消極的だった私が、去年悩んだ末に初参加して感じた「現地参加すべき理由」を紹介します。…"
+    },
+    {
+      "title": "Snowflake Alertを使ってIoTデバイスから収集したデータのしきい値超過を検知する | Fusic 技術ブログのフィード",
+      "link": "https://zenn.dev/fusic/articles/snowflake-alert-temperature",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-23T22:30:05",
+      "excerpt": "はじめに以前の記事で、M5Stack + ENV3ユニットで計測した温度・湿度・気圧データを、AWS IoT Core → Kinesis Data Firehose → Snowpipe Streaming経由でSnowflakeへストリ…"
+    },
+    {
       "title": "AI-DLC v2 の承認ゲートや監査ログが Kiro のフックでどう実装されているか調べた",
       "link": "https://dev.classmethod.jp/articles/aidlcv2-hook/",
       "source": "DevelopersIO",
@@ -187,20 +201,6 @@
       "source": "CodeZine",
       "published": "2026-08-23T22:00:00",
       "excerpt": "「Delphi 13 Community Edition」が利用可能に"
-    },
-    {
-      "title": "ITエンジニア注目トレンドを総まとめ！週間ニュースランキングTOP10【8/7～8/20】",
-      "link": "https://codezine.jp/article/detail/29394",
-      "source": "CodeZine",
-      "published": "2026-08-23T22:00:00",
-      "excerpt": "毎日更新される、CodeZine、DeveloperZine、ProductZineの最新ニュースから、注目を集めたトピックスを紹介する本ランキング。今回は2026年8月7日～8月20日までの人気ランキングを発表します。"
-    },
-    {
-      "title": "「AIが答えたURL」も信用できない　公式サイトや警察まで偽装する新たな詐欺",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news035.html",
-      "source": "@IT",
-      "published": "2026-08-23T22:00:00",
-      "excerpt": "「AIが教えてくれたURL」が詐欺サイトにつながる――偽警察サイトでのディープフェイクや、生成AIを経由した悪質サイトへの誘導など、攻撃者は人が信頼するものを次々と攻撃の入り口に変えている。個人を狙うサイバー攻撃の最新動向と対策を解説する。"
     }
   ]
 }
