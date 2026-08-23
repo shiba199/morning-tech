@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T17:10:57",
+  "generated_at": "2026-08-23T17:41:56",
   "window_hours": 24,
-  "total": 107,
+  "total": 108,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。概要 Todoist の Inbox に追加されたタスクを webhook で検知し、特定のプロジェクトへ自動移動する仕組みを作った AWS Lambda + API Gateway + Systems Manager Parameter…",
+      "summary": "クラウドの新着が12件。はじめに EC2の「ステータスチェック」といえば、これまではインスタンス自体やホスト側の障害を見るものでした。…",
       "articles": [
+        {
+          "title": "EC2 にアプリケーション層のヘルスチェック「Application status checks」が来たので実際に試してみた",
+          "link": "https://qiita.com/leomarokun/items/3ff3f6110544bb1c31d1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T17:19:04",
+          "excerpt": "はじめに EC2の「ステータスチェック」といえば、これまではインスタンス自体やホスト側の障害を見るものでした。…"
+        },
         {
           "title": "TodoistのInboxタスクをwebhookでAWS Lambdaから自動的にプロジェクトへ振り分けた",
           "link": "https://zenn.dev/takuyima/articles/todoist-inbox-webhook-lambda",
@@ -64,13 +71,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-23T13:40:14",
           "excerpt": "Snowflake の Feature Policy に条件付きルール機能が GA となりました。…"
-        },
-        {
-          "title": "SAMでS3+CloudFront(OAC)を組むとき`OriginAccessIdentity: \"\"`が必要な理由",
-          "link": "https://qiita.com/caymezon/items/d642c68dc471a9d6ead9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-23T13:32:12",
-          "excerpt": "背景 S3を非公開のままCloudFront経由で配信する構成をAWS SAMで構築しました。Lambda関数を含まない純粋なインフラ定義のSAMハンズオンです。…"
         }
       ]
     },
