@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T22:10:16",
+  "generated_at": "2026-08-23T22:44:12",
   "window_hours": 24,
-  "total": 99,
+  "total": 102,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が16件。前回、香港国際空港でClaude CodeもCodexも使えなかった話を書いた。そのとき「Bedrock経由なら通るのか実際に調べてみた」という節で、AWS公式ドキュメントの記述だけを根拠に推測を書いて終わっていた。…",
+      "summary": "生成AIの新着が15件。前回、香港国際空港でClaude CodeもCodexも使えなかった話を書いた。そのとき「Bedrock経由なら通るのか実際に調べてみた」という節で、AWS公式ドキュメントの記述だけを根拠に推測を書いて終わっていた。…",
       "articles": [
         {
           "title": "香港空港でAmazon Bedrockを4リージョン試してわかったこと: ブロックされるのはAnthropicとOpenAIのモデルだけだった",
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。はじめに 個人で「AI模試ノート」というAWS認定試験をはじめとするベンダー資格の模試学習アプリをAWS Amplify Gen2(バックエンドはCDK)を使用して構築しています。…",
+      "summary": "開発ツールの新着が7件。分散アプリ開発ツール「Aspire 13.5」リリース",
       "articles": [
+        {
+          "title": "分散アプリ開発ツール「Aspire 13.5」リリース",
+          "link": "https://codezine.jp/article/detail/29406",
+          "source": "CodeZine",
+          "published": "2026-08-23T22:00:00",
+          "excerpt": "分散アプリ開発ツール「Aspire 13.5」リリース"
+        },
         {
           "title": "【cdkd(CDK Direct)】CloudFormationを経由しないCDKデプロイは、通常デプロイ・Expressモードと比べてどれだけ速いのか検証してみた！",
           "link": "https://qiita.com/yosuke-suzuki/items/e6970d4882b064216ee9",
@@ -162,45 +169,38 @@
           "source": "DevelopersIO",
           "published": "2026-08-23T10:37:17",
           "excerpt": "Cloudflare Workers を Terraform でデプロイし、tfstate を R2 に置いてみました。…"
-        },
-        {
-          "title": "【完全解説】Terraform入門から実践",
-          "link": "https://zenn.dev/miruky/books/terraform-complete-guide",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-23T08:43:20",
-          "excerpt": "Terraformの考え方、HCL、CLI、state、module、テスト、AWSハンズオン、チーム運用までを一冊で学ぶための本です。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
-      "link": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-23T20:01:36",
-      "excerpt": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation."
+      "title": "AI-DLC v2 の承認ゲートや監査ログが Kiro のフックでどう実装されているか調べた",
+      "link": "https://dev.classmethod.jp/articles/aidlcv2-hook/",
+      "source": "DevelopersIO",
+      "published": "2026-08-23T22:19:40",
+      "excerpt": "ゆるWeb勉強会での登壇準備でAI-DLC v2のソースコードを読んでいて、Kiroのフック機能の活用方法が気になったので、その実装パターンを紹介します。"
     },
     {
-      "title": "「CTFはAIによって終わりました」　現役ハッカーが見た「人間の敗北」",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news019.html",
+      "title": "「Delphi 13 Community Edition」が利用可能に",
+      "link": "https://codezine.jp/article/detail/29405",
+      "source": "CodeZine",
+      "published": "2026-08-23T22:00:00",
+      "excerpt": "「Delphi 13 Community Edition」が利用可能に"
+    },
+    {
+      "title": "ITエンジニア注目トレンドを総まとめ！週間ニュースランキングTOP10【8/7～8/20】",
+      "link": "https://codezine.jp/article/detail/29394",
+      "source": "CodeZine",
+      "published": "2026-08-23T22:00:00",
+      "excerpt": "毎日更新される、CodeZine、DeveloperZine、ProductZineの最新ニュースから、注目を集めたトピックスを紹介する本ランキング。今回は2026年8月7日～8月20日までの人気ランキングを発表します。"
+    },
+    {
+      "title": "「AIが答えたURL」も信用できない　公式サイトや警察まで偽装する新たな詐欺",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news035.html",
       "source": "@IT",
-      "published": "2026-08-23T20:00:00",
-      "excerpt": "「もうAIに勝てる人間はほとんどいない」。CTFは競技として崩壊し、脆弱性探索は“パチンコ”と化し、CVEの所持は何の実績にもならなくなった。日本有数の実績を持つ現役ハッカーが語る、AIの華々しい性能向上の裏にある負の側面とは。"
-    },
-    {
-      "title": "エンジニアがAI時代を生き抜くための2つの武器――「丁寧な対話」と「しなやかな挑戦」",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news007.html",
-      "source": "@IT",
-      "published": "2026-08-23T20:00:00",
-      "excerpt": "AI時代の到来でエンジニアの役割が変わる中、生き抜くために本当に必要な能力とは何か。「divx」の開発PMであるアレキサンドラ・フランシスコ（サンディ）さんが後天的につかんだ「丁寧な対話」と「挑戦」の真意に迫る。"
-    },
-    {
-      "title": "Uber faces fine of nearly $1B over automated driver suspensions",
-      "link": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-23T19:30:00",
-      "excerpt": "The Dutch Data Protection Authority is fining Uber €825 million in the second largest penalty issued under Europe’s GDPR…"
+      "published": "2026-08-23T22:00:00",
+      "excerpt": "「AIが教えてくれたURL」が詐欺サイトにつながる――偽警察サイトでのディープフェイクや、生成AIを経由した悪質サイトへの誘導など、攻撃者は人が信頼するものを次々と攻撃の入り口に変えている。個人を狙うサイバー攻撃の最新動向と対策を解説する。"
     }
   ]
 }
