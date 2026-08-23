@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-23T23:10:04",
+  "generated_at": "2026-08-23T23:41:48",
   "window_hours": 24,
-  "total": 104,
+  "total": 112,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。はじめに 前回は、SageMaker の Training とハイパーパラメータチューニングについて整理しました。今回は、学習済みモデルを実際に使って予測するための仕組み、つまり 推論（Inference） について整理します。…",
+      "summary": "生成AIの新着が21件。はじめに AgentCoreも最近話題になってきて、そろそろ置いていかれそうなので、いろいろ触ってみました。…",
       "articles": [
+        {
+          "title": "Bedrock AgentCoreって結局何ができるの？AIメンターを作って一通り触ってみた",
+          "link": "https://qiita.com/ryuta1005/items/66618214653c3e05c1c3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T23:35:54",
+          "excerpt": "はじめに AgentCoreも最近話題になってきて、そろそろ置いていかれそうなので、いろいろ触ってみました。…"
+        },
+        {
+          "title": "AWS Claude Codeの契約をAnthropic直から「Claude Platform on AWS」に移行した話",
+          "link": "https://qiita.com/magic10r/items/7614c0e998dfbb4499fb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T23:25:04",
+          "excerpt": "はじめに 最近、ターミナル上でAIと対話しながら開発を進められる「Claude Code」を活用する場面が増えてきました。…"
+        },
         {
           "title": "【簡単AWS MLA】【初心者向け】Day 11：SageMaker の推論方式を整理する — Endpoint / Real-time / Serverless / Async / Batch Transform",
           "link": "https://qiita.com/MetaYuan/items/ae46fd24019e5f4ecb9a",
@@ -22,28 +36,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-23T23:00:20",
           "excerpt": "はじめに 株式会社AJA でバックエンドエンジニアをしている片山です。AJA DSP では、Goo ...…"
-        },
-        {
-          "title": "Obsidian × Claude Code で相棒を作る — Slack 連携と安全設計",
-          "link": "https://dev.classmethod.jp/articles/obsidian-claude-code-slack-permission-guardrails/",
-          "source": "DevelopersIO",
-          "published": "2026-08-23T23:00:13",
-          "excerpt": "Claude Code に Slack を繋ぐとき、AI に何をさせて何を禁じるかを設計した記録です。allow / ask / deny の3層に仕分ける判断基準と、CLAUDE.md では実行を止められず settings.…"
-        },
-        {
-          "title": "Amazon Bedrock Managed Knowledge Base が日本語 PDF を扱えない件 | 電通総研 テックブログ",
-          "link": "https://tech.dentsusoken.com/entry/managed-kb-jp-pdf",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-23T22:00:00",
-          "excerpt": "⚠️ 【注意】本記事の内容は2026年8月17日時点のものです。日本語PDFの対応状況はAWSのアップデートにより変わる可能性があるため、最新の状況は公式ドキュメント等をご確認ください。クロスイノベーション本部の大岡です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。はじめに 前回は、SageMaker の Training とハイパーパラメータチューニングについて整理しました。今回は、学習済みモデルを実際に使って予測するための仕組み、つまり 推論（Inference） について整理します。…",
+      "summary": "クラウドの新着が13件。はじめに 最近、ターミナル上でAIと対話しながら開発を進められる「Claude Code」を活用する場面が増えてきました。…",
       "articles": [
+        {
+          "title": "AWS Claude Codeの契約をAnthropic直から「Claude Platform on AWS」に移行した話",
+          "link": "https://qiita.com/magic10r/items/7614c0e998dfbb4499fb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T23:25:04",
+          "excerpt": "はじめに 最近、ターミナル上でAIと対話しながら開発を進められる「Claude Code」を活用する場面が増えてきました。…"
+        },
         {
           "title": "【簡単AWS MLA】【初心者向け】Day 11：SageMaker の推論方式を整理する — Endpoint / Real-time / Serverless / Async / Batch Transform",
           "link": "https://qiita.com/MetaYuan/items/ae46fd24019e5f4ecb9a",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-23T17:19:04",
           "excerpt": "はじめに EC2の「ステータスチェック」といえば、これまではインスタンス自体やホスト側の障害を見るものでした。…"
-        },
-        {
-          "title": "TodoistのInboxタスクをwebhookでAWS Lambdaから自動的にプロジェクトへ振り分けた",
-          "link": "https://zenn.dev/takuyima/articles/todoist-inbox-webhook-lambda",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-23T14:35:01",
-          "excerpt": "概要 Todoist の Inbox に追加されたタスクを webhook で検知し、特定のプロジェクトへ自動移動する仕組みを作った AWS Lambda + API Gateway + Systems Manager Parameter…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。記事の URL: https://securelist.com/android-head-unit-malware/121106/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が5件。＠ITの人気記事を題材にした4コマ連載。IT現場で起こる、トラブルと対応の“あるある”を笑いと共感で生成します。第3話のテーマは「拡張機能のマルウェア化」。「公式ストアの認定済みだから安心ですよ♪」と新しい拡張機能に大喜びのdev子。…",
       "articles": [
+        {
+          "title": "「ChromeとEdgeで430万人感染、“認定済み”拡張機能がマルウェア化」　気付けた現場は多分こんな感じ",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news052.html",
+          "source": "@IT",
+          "published": "2026-08-23T23:00:00",
+          "excerpt": "＠ITの人気記事を題材にした4コマ連載。IT現場で起こる、トラブルと対応の“あるある”を笑いと共感で生成します。第3話のテーマは「拡張機能のマルウェア化」。「公式ストアの認定済みだから安心ですよ♪」と新しい拡張機能に大喜びのdev子。…"
+        },
         {
           "title": "マルウェアが Android ベースの自動車ヘッドユニットのファームウェアに感染",
           "link": "https://securelist.com/android-head-unit-malware/121106/",
@@ -99,13 +106,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-23T04:28:18",
           "excerpt": "記事の URL: https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html コメント URL: https://news.…"
-        },
-        {
-          "title": "WAFログを「S3に置きっぱなし」から卒業する ― Athenaで攻撃系リクエストを自動集計してSlack通知するまで",
-          "link": "https://qiita.com/devex12/items/c96f2ec9508c2c85e765",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-23T03:11:41",
-          "excerpt": "TL;DR AWS WAFはS3にログを流し込むところまでは数クリックで終わるが、「結局何件ブロックされたのか」「どのルールが一番効いているのか」を毎回コンソールでポチポチ確認するのは長続きしない。…"
         }
       ]
     },
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。分散アプリ開発ツール「Aspire 13.5」リリース",
+      "summary": "開発ツールの新着が8件。WhatsAppからAIエージェントに指示を出す――。個人の趣味から始まったツールは今、Microsoftの製品基盤にまで使われている。…",
       "articles": [
+        {
+          "title": "「非エンジニアに役立つかで価値が決まる」　たった1時間で開発したツール、なぜGitHub史上最速で伸びた？",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/24/news010.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-08-23T23:00:00",
+          "excerpt": "WhatsAppからAIエージェントに指示を出す――。個人の趣味から始まったツールは今、Microsoftの製品基盤にまで使われている。…"
+        },
         {
           "title": "分散アプリ開発ツール「Aspire 13.5」リリース",
           "link": "https://codezine.jp/article/detail/29406",
@@ -162,45 +169,38 @@
           "source": "The Register（英語）",
           "published": "2026-08-23T13:45:00",
           "excerpt": "S3 は信頼できる情報源を保持し、ローカル NVMe リポジトリはレイテンシーに敏感な作業を実行します。"
-        },
-        {
-          "title": "Terraform で Cloudflare Workers をデプロイし、tfstate を R2 に置いてみた",
-          "link": "https://dev.classmethod.jp/articles/terraform-remote-backend-cloudflare-r2/",
-          "source": "DevelopersIO",
-          "published": "2026-08-23T10:37:17",
-          "excerpt": "Cloudflare Workers を Terraform でデプロイし、tfstate を R2 に置いてみました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS re:Invent 2026 に行こうか悩んでいるあなたへ（あるいは2年前の自分へ） | カミナシ エンジニアブログ",
-      "link": "https://kaminashi-developer.hatenablog.jp/entry/2026/08/24/reinvent",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-23T23:00:00",
-      "excerpt": "今年も AWS re:Invent がラスベガスで開催されますね。私は去年初めて現地参加し、今年も参加する予定です。この記事では、今まで現地参加に消極的だった私が、去年悩んだ末に初参加して感じた「現地参加すべき理由」を紹介します。…"
+      "title": "【2026年版】AWS認定資格はどう変わった？ ～新設／廃止、難易度、おすすめ受験順序～",
+      "link": "https://qiita.com/tech-nami/items/93d37b898293388cee74",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-23T23:37:58",
+      "excerpt": "はじめに 以前、AWS認定資格を学習し、全冠を達成してから早いもので2年以上が経過しました。…"
     },
     {
-      "title": "Snowflake Alertを使ってIoTデバイスから収集したデータのしきい値超過を検知する | Fusic 技術ブログのフィード",
-      "link": "https://zenn.dev/fusic/articles/snowflake-alert-temperature",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-23T22:30:05",
-      "excerpt": "はじめに以前の記事で、M5Stack + ENV3ユニットで計測した温度・湿度・気圧データを、AWS IoT Core → Kinesis Data Firehose → Snowpipe Streaming経由でSnowflakeへストリ…"
-    },
-    {
-      "title": "AI-DLC v2 の承認ゲートや監査ログが Kiro のフックでどう実装されているか調べた",
-      "link": "https://dev.classmethod.jp/articles/aidlcv2-hook/",
-      "source": "DevelopersIO",
-      "published": "2026-08-23T22:19:40",
-      "excerpt": "ゆるWeb勉強会での登壇準備でAI-DLC v2のソースコードを読んでいて、Kiroのフック機能の活用方法が気になったので、その実装パターンを紹介します。"
-    },
-    {
-      "title": "「Delphi 13 Community Edition」が利用可能に",
-      "link": "https://codezine.jp/article/detail/29405",
+      "title": "AWS CloudShellに組み込みビジュアルファイルエディタ追加",
+      "link": "https://codezine.jp/article/detail/29401",
       "source": "CodeZine",
-      "published": "2026-08-23T22:00:00",
-      "excerpt": "「Delphi 13 Community Edition」が利用可能に"
+      "published": "2026-08-23T23:00:00",
+      "excerpt": "AWS CloudShellに組み込みビジュアルファイルエディタ追加"
+    },
+    {
+      "title": "「機能を作ることはマイナスである」──AIで作れる時代に、LayerX「バクラク」はなぜ「作らない」と言えるのか",
+      "link": "https://codezine.jp/article/detail/29298",
+      "source": "CodeZine",
+      "published": "2026-08-23T23:00:00",
+      "excerpt": "「機能を作ることはマイナスである」。そう言い切った1本の社内資料が、6月に公開されると、はてなブックマークなどで大きな反響を呼んだ。書いたのはLayerXでバクラクシリーズを率いるCPOである。…"
+    },
+    {
+      "title": "日本企業のAI投資「成果あり」はわずか13％　アクセンチュアが指摘する“人任せ”の限界",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news047.html",
+      "source": "@IT",
+      "published": "2026-08-23T23:00:00",
+      "excerpt": "アクセンチュアの調査によれば、日本企業の78％がAI投資拡大に意欲を示す一方、全社的な成果を実感する企業は13％にとどまり、世界平均を大きく下回っている。何が足りていないのか。"
     }
   ]
 }
