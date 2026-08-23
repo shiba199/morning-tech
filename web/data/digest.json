@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-23T13:07:57",
+  "generated_at": "2026-08-23T13:50:45",
   "window_hours": 24,
-  "total": 105,
+  "total": 107,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が15件。お疲れ様です。超ドパガキです。間違えました、SugarCubeです。前回のCLF合格体験記の投稿から1ヶ月近く経ちましたね。今回は先日AIFを受験、無事(?)合格してきたのでまた体験記を書いていこうと思います。…",
+      "summary": "生成AIの新着が16件。概要 普段はAWSが提供しているAIエージェントのkiroを利用していますが、調査や文章の添削といった補助的な使い方がメインでした。…",
       "articles": [
+        {
+          "title": "『Amazon Bedrock AgentCore実践入門』ハンズオン完走レビュー｜エラー対応の手応えと費用感",
+          "link": "https://qiita.com/atsushi586/items/57d89523c32968842ece",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T13:34:18",
+          "excerpt": "概要 普段はAWSが提供しているAIエージェントのkiroを利用していますが、調査や文章の添削といった補助的な使い方がメインでした。…"
+        },
         {
           "title": "【AWS AIF】AWS AIプラクティショナー必勝法〜超ドパガキでもできる！ClaudeとAIコンテンツに学ぶ計10時間爆速合格術〜",
           "link": "https://qiita.com/Sugar_Cu_be/items/b2e5c9c70c0589413b4f",
@@ -29,21 +36,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-23T04:16:47",
           "excerpt": "はじめに Amplify Gen 2 と Amazon Bedrock AgentCore で、業務で使える AWS 運用アシスタントを作ってみました。ブラウザのチャットから自然言語で AWS リソースを問い合わせ・操作できるアプリです。…"
-        },
-        {
-          "title": "Google ChatのGemini利用状況を管理者ダッシュボードで提供開始",
-          "link": "https://codezine.jp/article/detail/29399",
-          "source": "CodeZine",
-          "published": "2026-08-23T04:00:00",
-          "excerpt": "Google ChatのGemini利用状況を管理者ダッシュボードで提供開始"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。今回はAWS学習のアウトプットとして、Amazon EC2（Elastic Compute Cloud）を使ってWebサーバーを構築し、インターネットからアクセスできるところまで試してみました。…",
+      "summary": "クラウドの新着が10件。Snowflake の Feature Policy に条件付きルール機能が GA となりました。…",
       "articles": [
+        {
+          "title": "[新機能]Feature Policy Rules が一般提供となったので TEMPORARY テーブルとサーバーレスタスクの作成だけをブロックしてみた",
+          "link": "https://dev.classmethod.jp/articles/snowflake-feature-policy-rules-ga/",
+          "source": "DevelopersIO",
+          "published": "2026-08-23T13:40:14",
+          "excerpt": "Snowflake の Feature Policy に条件付きルール機能が GA となりました。…"
+        },
+        {
+          "title": "SAMでS3+CloudFront(OAC)を組むとき`OriginAccessIdentity: \"\"`が必要な理由",
+          "link": "https://qiita.com/caymezon/items/d642c68dc471a9d6ead9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-23T13:32:12",
+          "excerpt": "背景 S3を非公開のままCloudFront経由で配信する構成をAWS SAMで構築しました。Lambda関数を含まない純粋なインフラ定義のSAMハンズオンです。…"
+        },
         {
           "title": "AWSハンズオン① EC2でWebサーバーを構築して公開してみた",
           "link": "https://zenn.dev/takuya_cloud/articles/4d411b52dc7f30",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-23T10:06:05",
           "excerpt": "対象読者: AWSをこれから触る人。AWS勉強シリーズの9本目で、今回はDynamoDBです。全体の地図は索引記事にあります。前回のRDSに続いてデータベースの2つ目です。…"
-        },
-        {
-          "title": "AWS S3の基本事項についてまとめてみた",
-          "link": "https://zenn.dev/tsuzuki_s/articles/aws-s3-basics",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-23T07:43:09",
-          "excerpt": "今日のゴール S3の基本概念について理解する S3の主要機能について理解する（スケーラビリティ, 可用性, セキュリティ, パフォーマンス） S3 (Simple Storage Service) とはなにか 業界随一のスケーラビリティ、デ…"
-        },
-        {
-          "title": "SSM Parameter Storeの「分け方」と「Standard / Advanced」の決め方 — ECSとLambdaで変わる制約を実測して整理した",
-          "link": "https://qiita.com/Omizu-25/items/41d5edd295915c8b6908",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-23T04:18:09",
-          "excerpt": "はじめに こんにちは！KDDIアイレット株式会社の水野 永遠です。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の23日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が3件。皆さんこんにちは！本日未明に関東で大きめの地震がありましたが皆さん大丈夫でしょうか。私も飛び起きましたがTVがグラグラしてて慌てて支えました。最近地震多いので備蓄にも気を配って参りましょう！…",
+      "summary": "セキュリティの新着が4件。記事の URL: https://securelist.com/android-head-unit-malware/121106/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "マルウェアが Android ベースの自動車ヘッドユニットのファームウェアに感染",
+          "link": "https://securelist.com/android-head-unit-malware/121106/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-23T13:05:38",
+          "excerpt": "記事の URL: https://securelist.com/android-head-unit-malware/121106/ コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』で学ぶ『postgreSQL』のセキュリティ基礎についてその③",
           "link": "https://qiita.com/Veteran/items/16b8e86615cfa47514d5",
@@ -133,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。Cloudflare Workers を Terraform でデプロイし、tfstate を R2 に置いてみました。…",
+      "summary": "開発ツールの新着が6件。S3 は信頼できる情報源を保持し、ローカル NVMe リポジトリはレイテンシーに敏感な作業を実行します。",
       "articles": [
+        {
+          "title": "Cursor が Git のスケーラビリティの欠点をどのように克服したか",
+          "link": "https://www.theregister.com/devops/2026/08/23/how-cursor-beat-gits-scalability-shortcomings/5291421",
+          "source": "The Register（英語）",
+          "published": "2026-08-23T13:45:00",
+          "excerpt": "S3 は信頼できる情報源を保持し、ローカル NVMe リポジトリはレイテンシーに敏感な作業を実行します。"
+        },
         {
           "title": "Terraform で Cloudflare Workers をデプロイし、tfstate を R2 に置いてみた",
           "link": "https://dev.classmethod.jp/articles/terraform-remote-backend-cloudflare-r2/",
@@ -155,13 +169,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-23T04:16:47",
           "excerpt": "はじめに Amplify Gen 2 と Amazon Bedrock AgentCore で、業務で使える AWS 運用アシスタントを作ってみました。ブラウザのチャットから自然言語で AWS リソースを問い合わせ・操作できるアプリです。…"
-        },
-        {
-          "title": "Terraform入門 第2回：入力変数と出力値で設定を使いやすくする",
-          "link": "https://qiita.com/k0ga/items/f0bff9cca56a4bf0080c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-23T02:48:31",
-          "excerpt": "はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。…"
         }
       ]
     }
