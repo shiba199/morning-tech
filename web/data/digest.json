@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T10:11:50",
+  "generated_at": "2026-08-23T10:46:51",
   "window_hours": 24,
-  "total": 100,
+  "total": 102,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が15件。お疲れ様です。超ドパガキです。間違えました、SugarCubeです。前回のCLF合格体験記の投稿から1ヶ月近く経ちましたね。今回は先日AIFを受験、無事(?)合格してきたのでまた体験記を書いていこうと思います。…",
+      "summary": "生成AIの新着が16件。お疲れ様です。超ドパガキです。間違えました、SugarCubeです。前回のCLF合格体験記の投稿から1ヶ月近く経ちましたね。今回は先日AIFを受験、無事(?)合格してきたのでまた体験記を書いていこうと思います。…",
       "articles": [
         {
           "title": "【AWS AIF】AWS AIプラクティショナー必勝法〜超ドパガキでもできる！ClaudeとAIコンテンツに学ぶ計10時間爆速合格術〜",
@@ -133,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。はじめに Amplify Gen 2 と Amazon Bedrock AgentCore で、業務で使える AWS 運用アシスタントを作ってみました。ブラウザのチャットから自然言語で AWS リソースを問い合わせ・操作できるアプリです。…",
+      "summary": "開発ツールの新着が5件。Cloudflare Workers を Terraform でデプロイし、tfstate を R2 に置いてみました。…",
       "articles": [
+        {
+          "title": "Terraform で Cloudflare Workers をデプロイし、tfstate を R2 に置いてみた",
+          "link": "https://dev.classmethod.jp/articles/terraform-remote-backend-cloudflare-r2/",
+          "source": "DevelopersIO",
+          "published": "2026-08-23T10:37:17",
+          "excerpt": "Cloudflare Workers を Terraform でデプロイし、tfstate を R2 に置いてみました。…"
+        },
         {
           "title": "【Amplify x AgentCore】業務で“本当に”使えるAWS運用アシスタントを作ってみた",
           "link": "https://qiita.com/jus1730/items/a4dc88817d1e97ac0bf4",
@@ -155,13 +162,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-22T15:25:05",
           "excerpt": "概要 個人のAWSアカウントへのログインを、IAMユーザーのアクセスキーではなく「Googleアカウントでログイン」に置き換えた話です。…"
-        },
-        {
-          "title": "Claude Code v2.1.239: Bedrock二重課金バグ修正とPython SDK移行コマンド追加",
-          "link": "https://qiita.com/picnic/items/ff939c5e26e47d011a58",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-22T11:30:11",
-          "excerpt": "はじめに 2026年8月、Claude Code の v2.1.239 がリリースされました。今回の目玉は機能追加よりも「気づかぬうちにコストが漏れていた」タイプの修正です。…"
         }
       ]
     }
@@ -175,25 +175,25 @@
       "excerpt": "初めてのマネージャー業務で、グロースリード一人が職種の異なる3人の部下を担当することになりました。その中で、1on1をどう設計するか、AIとの壁打ちを通じて考えたプロセスを紹介します。"
     },
     {
+      "title": "ペプチドのずさんさ",
+      "link": "https://henryaj.substack.com/p/the-sloppification-of-peptides",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-23T09:32:54",
+      "excerpt": "記事の URL: https://henryaj.substack.com/p/the-sloppification-of-peptides コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "仕事中にドゥームスクロールするのは時間の無駄だが、本当の代償はその後に起こることだ",
+      "link": "https://stories.tamu.edu/news/2026/08/13/doomscrolling-at-work-wastes-time-but-the-real-cost-is-what-happens-after/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-23T09:26:55",
+      "excerpt": "記事の URL: https://stories.tamu.…"
+    },
+    {
       "title": "悲しいことに、10,000人中9,625人もの人が定型神経質である可能性があります。",
       "link": "https://erikengdahl.se/autism/isnt/",
       "source": "Hacker News（英語）",
       "published": "2026-08-23T08:48:34",
       "excerpt": "記事の URL: https://erikengdahl.se/autism/isnt/ コメント URL: https://news.ycombinator.com/item?id=49407143 ポイント: 13 コメント数: 3"
-    },
-    {
-      "title": "`requirements.txt`に日本語コメントを書くと`sam build`が`cp932`エラーで落ちる",
-      "link": "https://qiita.com/caymezon/items/68d1d72256816238deec",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-23T07:58:23",
-      "excerpt": "背景 Lambda + API Gateway + DynamoDBのメモアプリAPIをAWS SAMで構築する中で、Windows環境特有の2つのハマりどころに遭遇しました。…"
-    },
-    {
-      "title": "Goのポインタに抵抗を感じていた理由 | NCDC テックブログのフィード",
-      "link": "https://zenn.dev/ncdc/articles/661804f1bb2f95",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-23T06:51:06",
-      "excerpt": "はじめにGoに初めて触れたとき、ポインタを使うことに少し抵抗を感じていました。例えば、次のようなコードです。func update(user *User) {user.…"
     }
   ]
 }
