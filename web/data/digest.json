@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-24T14:09:36",
+  "generated_at": "2026-08-24T15:07:00",
   "window_hours": 24,
-  "total": 176,
+  "total": 169,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が42件。日報と稼働実績を毎日つけることができていない悩みを解決するため、複数のツールに散らばった作業記録をAIで自動整理する仕組みを作りました。役割が異なる2つの出力を分ける設計と、事実ベースの記録を守るための工夫についてまとめます。",
+      "summary": "生成AIの新着が41件。Inside the frontier lab’s push to bring AI agents from software engineers to the masses.",
       "articles": [
+        {
+          "title": "OpenAI is building AI agents for everything. Will everyone use them?",
+          "link": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-24T15:00:00",
+          "excerpt": "Inside the frontier lab’s push to bring AI agents from software engineers to the masses."
+        },
         {
           "title": "Claude Code のセッションログから日報と予実用の稼働記録を分けて作るスキルを作ってみた",
           "link": "https://dev.classmethod.jp/articles/claude-code-daily-report-timesheet-skill/",
@@ -29,21 +36,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-24T10:00:00",
           "excerpt": "今月誕生日の人、おめでとうございます🎉エデュケーショナルサービス課の森純子です。Claude Platform Docs のリリースノートを眺めていたら、Python SDK v1.0 がリリースされ、Python 3.…"
-        },
-        {
-          "title": "【夏休みの自由研究リレー】モデルが分からない状態でBedrockのLLMを当てるクイズを作ってみた",
-          "link": "https://dev.classmethod.jp/articles/summer-project-2026-bedrock-model-guess-quiz/",
-          "source": "DevelopersIO",
-          "published": "2026-08-24T09:30:17",
-          "excerpt": "Amazon Bedrockの複数モデルに同じお題を投げて、匿名化した回答から「どのモデルが書いたか」を当てるクイズアプリを作ってみました。遊びながらモデルごとの特徴や価格差を体験できます。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。Berry Street founder Noah Kotlove and Healthify founder Tushar Vashisht will act as co-CEOs of the new entity.",
+      "summary": "クラウドの新着が12件。背景 S3へのファイルアップロードをトリガーにLambdaを起動する構成をAWS SAMで構築しました。日本語ファイル名やフォルダ付きキーを扱う際に必要な処理を整理します。1.…",
       "articles": [
+        {
+          "title": "S3イベントのkeyは`unquote_plus`しないと日本語ファイル名が壊れる",
+          "link": "https://qiita.com/caymezon/items/f6ad05e73108caa0eb00",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-24T14:17:54",
+          "excerpt": "背景 S3へのファイルアップロードをトリガーにLambdaを起動する構成をAWS SAMで構築しました。日本語ファイル名やフォルダ付きキーを扱う際に必要な処理を整理します。1.…"
+        },
         {
           "title": "US nutrition startup Berry Street merges with India’s Healthify as GLP-1 trends upwards",
           "link": "https://techcrunch.com/2026/08/24/us-nutrition-startup-berry-street-merges-with-indias-healthify-as-glp-1-trends-upwards/",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-24T08:55:48",
           "excerpt": "なぜSSHではなくSSMにしたか SSHでEC2へ接続する場合、Public IPを付与したり、踏み台サーバーやVPNなどの接続経路を用意したりする必要があります。…"
-        },
-        {
-          "title": "Kubernetesにアプリ1つ追加するだけでなぜ大変なの？Kyverno・ArgoCD・Terraformの責任分離を整理してみた【後編】 | Scalar Solution Engineer Blogのフィード",
-          "link": "https://zenn.dev/scalar_sol_blog/articles/f3ce3db97c99ae",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-24T08:30:05",
-          "excerpt": "!⚠️ ご注意（記事の前提条件）本記事で紹介している設計案やコード例は、設計検討段階の調査に基づくものです。実際の運用環境で稼働しているコードそのものではないため、実装の際はご自身の環境に合わせて適宜調整してください。…"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。今月誕生日の人、おめでとうございます🎉エデュケーショナルサービス課の森純子です。Claude Platform Docs のリリースノートを眺めていたら、Python SDK v1.0 がリリースされ、Python 3.…",
+      "summary": "開発ツールの新着が14件。今月誕生日の人、おめでとうございます🎉エデュケーショナルサービス課の森純子です。Claude Platform Docs のリリースノートを眺めていたら、Python SDK v1.0 がリリースされ、Python 3.…",
       "articles": [
         {
           "title": "Anthropic Python SDK が v1.0 に！知らずに上げると壊れるとは？の検証 | サーバーワークスエンジニアブログ",
@@ -189,6 +189,13 @@
       "excerpt": "オープンソースとして開発されているOLAPデータベース「DuckDB」の開発を主導しているDuckDB Foundationは、今年の秋にリリース予定の「DuckDB 2.…"
     },
     {
+      "title": "Brake problems in GM EVs draw greater federal scrutiny",
+      "link": "https://techcrunch.com/2026/08/24/brake-problems-in-gm-evs-draw-greater-federal-scrutiny/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-24T14:18:47",
+      "excerpt": "In one crash, the driver of a 2024 Blazer EV said they had to \"deliberately steer the vehicle into a concrete curb\" to s…"
+    },
+    {
       "title": "ShinyHunters and ReliaQuest trade blows over claimed breach",
       "link": "https://www.theregister.com/cyber-crime/2026/08/24/shinyhunters-and-reliaquest-trade-blows-over-claimed-breach/5291702",
       "source": "The Register（英語）",
@@ -201,13 +208,6 @@
       "source": "TechCrunch（英語）",
       "published": "2026-08-24T13:47:26",
       "excerpt": "Hugging Face has reportedly been fielding acquisition offers that would value the company at around $13B.…"
-    },
-    {
-      "title": "Chipmakers laughing all the way to the vault as memory prices go stratospheric",
-      "link": "https://www.theregister.com/systems/2026/08/24/chipmakers-laughing-all-the-way-to-the-vault-as-memory-prices-go-stratospheric/5291690",
-      "source": "The Register（英語）",
-      "published": "2026-08-24T13:40:03",
-      "excerpt": "Gartner reckons $1.6 trillion year is just the start, and don't expect a bust anytime soon"
     }
   ]
 }
