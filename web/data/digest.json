@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-24T03:28:57",
+  "generated_at": "2026-08-24T04:13:18",
   "window_hours": 24,
-  "total": 130,
+  "total": 140,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が24件。こちらは以前に書いた記事の関連記事となります。https://zenn.…",
+      "summary": "生成AIの新着が24件。はじめに AI エージェントに外部ツールを接続すると、便利になる一方不安に思うことが多々発生します。例えば、「社内ナレッジのタスクを読んで」と頼んだだけなのに、勝手にページを削除されたらどうしよう。…",
       "articles": [
+        {
+          "title": "エージェントの情報漏洩とプロンプトインジェクションを止める — Bedrock Guardrails × MCP 権限設計",
+          "link": "https://qiita.com/shimitaro/items/b75814b9f022e0bc32e9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-24T04:10:23",
+          "excerpt": "はじめに AI エージェントに外部ツールを接続すると、便利になる一方不安に思うことが多々発生します。例えば、「社内ナレッジのタスクを読んで」と頼んだだけなのに、勝手にページを削除されたらどうしよう。…"
+        },
         {
           "title": "Gitで修正したコードが元に戻ったので、ChatGPTと一緒に原因を追ってみた | 株式会社BALEEN STUDIOのフィード",
           "link": "https://zenn.dev/baleenstudio/articles/e6189a86d75420",
@@ -29,21 +36,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-24T03:00:00",
           "excerpt": "こんにちは。テクノロジービジネス開発本部開発グループエンジニアのyuinaです。弊社ではエンジニア全員にClaudeが支給されており業務で利用することができます。今回はClaude Designを実際に業務で使いました。…"
-        },
-        {
-          "title": "東京・大阪リージョンから Amazon Bedrock の OpenAI GPT-5.6 を使う：グローバルクロスリージョン推論の仕組みと考慮点",
-          "link": "https://aws.amazon.com/jp/blogs/news/gpt-5-6-global-cross-region-inference-from-japan/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-24T02:42:12",
-          "excerpt": "Amazon Bedrock の OpenAI GPT-5.6 がクロスリージョン推論に対応し、東京リージョンと大阪リージョンがグローバル推論プロファイルのソースリージョンに含まれました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。はじめに 最近、ターミナル上でAIと対話しながら開発を進められる「Claude Code」を活用する場面が増えてきました。…",
+      "summary": "クラウドの新着が13件。概要 個人開発のある株式分析Webアプリで、認証基盤を「Django allauth + Simple JWT のメール/パスワード認証」から「AWS Cognito User Pool ベースの OAuth 2.…",
       "articles": [
+        {
+          "title": "Django標準のUserモデルを壊さずにCognito OAuthへ移行する",
+          "link": "https://zenn.dev/akinori901/articles/20260816-00msvj65",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-24T01:23:09",
+          "excerpt": "概要 個人開発のある株式分析Webアプリで、認証基盤を「Django allauth + Simple JWT のメール/パスワード認証」から「AWS Cognito User Pool ベースの OAuth 2.…"
+        },
         {
           "title": "AWS Claude Codeの契約をAnthropic直から「Claude Platform on AWS」に移行した話",
           "link": "https://qiita.com/magic10r/items/7614c0e998dfbb4499fb",
@@ -64,13 +71,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-23T22:31:42",
           "excerpt": "こんにちは、AWS グループの尾谷です。本記事では、Amazon CloudFront KVS (KeyValueStore) を用いて、再生カウンターを作った事例をご紹介します。"
-        },
-        {
-          "title": "EC2 にアプリケーション層のヘルスチェック「Application status checks」が来たので実際に試してみた",
-          "link": "https://qiita.com/leomarokun/items/3ff3f6110544bb1c31d1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-23T17:19:04",
-          "excerpt": "はじめに EC2の「ステータスチェック」といえば、これまではインスタンス自体やホスト側の障害を見るものでした。…"
         }
       ]
     },
@@ -168,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "流出した情報が世論操作の土台に！？ サイバー攻撃と影響工作の「つながり」を捉えるナレッジグラフ | fltech - 富士通研究所の技術ブログ",
-      "link": "https://blog.fltech.dev/entry/2026/08/24/hybrid-threat-kg-ja",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-24T03:00:00",
-      "excerpt": "サイバー攻撃と影響操作が連動するハイブリッド脅威。本記事では、攻撃間の機能的関係を検索可能にし、一連の作戦として分析するナレッジグラフモデルを紹介します。"
+      "title": "【開催報告】AI 時代のアジャイル ── 異業種 4 社が語る実践と挑戦",
+      "link": "https://aws.amazon.com/jp/blogs/news/fy26-aws-jp-csm-agile-meetup-event/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-08-24T03:59:52",
+      "excerpt": "イントロダクション 「変化を歓迎する」──それはアジャイルが一貫して大切にしてきた姿勢です。そしていま、生成 […]"
     },
     {
-      "title": "Google Chat、特定ユーザーのスペース作成を制限できる新設定を追加",
-      "link": "https://codezine.jp/article/detail/29404",
-      "source": "CodeZine",
-      "published": "2026-08-24T02:30:00",
-      "excerpt": "Google Chat、特定ユーザーのスペース作成を制限できる新設定を追加"
+      "title": "中国、人型ロボットが100メートルで9秒32　“ボルト超え”続出の北京「世界人型ロボット運動会」",
+      "link": "https://www.itmedia.co.jp/news/article/2608/24/2000000714/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-24T03:55:49",
+      "excerpt": "中国・北京で開催中の「世界人型ロボット運動会」で、陸上100メートルの予選でウサイン・ボルト選手の世界記録を上回るタイムが相次いだ。2回目となる今回は参加ロボットが約2000台と前回の4倍に増え、中国のロボット産業の勢いを映している。"
     },
     {
-      "title": "Prisma で model を view に変えると何が起きるのか - 二重書き込みの解消を検証する",
-      "link": "https://dev.classmethod.jp/articles/prisma-model-to-view-dual-write/",
-      "source": "DevelopersIO",
-      "published": "2026-08-24T02:26:11",
-      "excerpt": "二重書き込みによるデータの食い違いを防ぐため、写し側のテーブルをビューに置き換える方法を検証しました。…"
+      "title": "人気カフェ「BERG」も楽天市場撤退　「反戦の思いと相容れない」",
+      "link": "https://www.itmedia.co.jp/news/article/2608/24/2000000715/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-24T03:54:30",
+      "excerpt": "楽天の軍事ドローン参入を理由とした楽天市場からの撤退は、18日に「通販生活」を手掛けるカタログハウスに続き2例目とみられる。"
     },
     {
-      "title": "AIに書かせたそのAPI、信頼できますか？AI時代の開発は誰が責任を持つのか？【デブサミ2026福岡 注目セッション】",
-      "link": "https://codezine.jp/article/detail/29266",
-      "source": "CodeZine",
-      "published": "2026-08-24T02:00:00",
-      "excerpt": "AIに書かせたそのAPI、信頼できますか？AI時代の開発は誰が責任を持つのか？【デブサミ2026福岡 注目セッション】"
+      "title": "(空港荷物受取対策)スマホのカメラに自分のスーツケースを覚えさせてみた",
+      "link": "https://qiita.com/yama3133/items/b039c4f5f6e4c4f3ec0b",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-24T03:47:12",
+      "excerpt": "海外旅行において、手荷物受け取りで同じことを思う。似た色のスーツケースを一瞬人の荷物と間違えかけたり、なかなか自分の荷物が出てこなくて不安になったり。…"
     }
   ]
 }
