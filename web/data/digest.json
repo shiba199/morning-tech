@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-24T12:22:53",
+  "generated_at": "2026-08-24T13:28:07",
   "window_hours": 24,
-  "total": 170,
+  "total": 175,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が40件。今月誕生日の人、おめでとうございます🎉エデュケーショナルサービス課の森純子です。Claude Platform Docs のリリースノートを眺めていたら、Python SDK v1.0 がリリースされ、Python 3.…",
+      "summary": "生成AIの新着が42件。日報と稼働実績を毎日つけることができていない悩みを解決するため、複数のツールに散らばった作業記録をAIで自動整理する仕組みを作りました。役割が異なる2つの出力を分ける設計と、事実ベースの記録を守るための工夫についてまとめます。",
       "articles": [
+        {
+          "title": "Claude Code のセッションログから日報と予実用の稼働記録を分けて作るスキルを作ってみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-daily-report-timesheet-skill/",
+          "source": "DevelopersIO",
+          "published": "2026-08-24T13:22:19",
+          "excerpt": "日報と稼働実績を毎日つけることができていない悩みを解決するため、複数のツールに散らばった作業記録をAIで自動整理する仕組みを作りました。役割が異なる2つの出力を分ける設計と、事実ベースの記録を守るための工夫についてまとめます。"
+        },
         {
           "title": "Anthropic Python SDK が v1.0 に！知らずに上げると壊れるとは？の検証 | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/anthropic-python-sdk-v1-migration",
@@ -29,21 +36,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-24T09:06:24",
           "excerpt": "はじめに 今回の構成 1.AWSマネジメントコンソールで準備する 許可セットとモデル セッション時間の設定 2.SSOログインをしてAWSプロファイルを設定する 3.Claude Desktopを設定する 4.…"
-        },
-        {
-          "title": "【MCP Apps入門】Claudeの回答にグラフを埋め込む | Virtual Craft Tech Blogのフィード",
-          "link": "https://zenn.dev/virtualcraft/articles/d7de8cc64c86f2",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-24T08:53:52",
-          "excerpt": "はじめにClaudeに「このPCのCPU使用率を教えて」と聞けるようにしたとします。返ってくるのは例えば、こんな答えです。直近10分のCPU使用率は平均18.3%、最大62.1%でした。知りたいことには答えています。でも、62.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。なぜSSHではなくSSMにしたか SSHでEC2へ接続する場合、Public IPを付与したり、踏み台サーバーやVPNなどの接続経路を用意したりする必要があります。…",
+      "summary": "クラウドの新着が14件。1.はじめに 本ポートフォリオでは、以前Google Cloud（GKE）で構築した「Go×Pythonによる非同期OCRバックエンド基盤」をベースに、AWS（EKS）環境への完全リプレイスおよびアーキテクチャの最適化を行いました。…",
       "articles": [
+        {
+          "title": "【AWS移行編】スケーラブルなOCR基盤 (Go×Python×EasyOCR×EKS) の詳細説明",
+          "link": "https://qiita.com/watapy/items/5ba78921ccbf2cddb289",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-24T13:11:05",
+          "excerpt": "1.はじめに 本ポートフォリオでは、以前Google Cloud（GKE）で構築した「Go×Pythonによる非同期OCRバックエンド基盤」をベースに、AWS（EKS）環境への完全リプレイスおよびアーキテクチャの最適化を行いました。…"
+        },
         {
           "title": "Private EC2からSSM接続するために必要な構成を整理してみた",
           "link": "https://qiita.com/twswj815/items/22f478916d35ba4d4295",
@@ -64,20 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-24T05:23:18",
           "excerpt": "はじめに Spring Bootで作成したWebアプリケーションを、AWSのEC2を利用してインターネット上に公開する手順をまとめることにします。なお、今回はパート2ですので、パート1のこちらの記事から読むのが望ましいです。…"
-        },
-        {
-          "title": "Django標準のUserモデルを壊さずにCognito OAuthへ移行する",
-          "link": "https://zenn.dev/akinori901/articles/20260816-00msvj65",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-24T01:23:09",
-          "excerpt": "概要 個人開発のある株式分析Webアプリで、認証基盤を「Django allauth + Simple JWT のメール/パスワード認証」から「AWS Cognito User Pool ベースの OAuth 2.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。Once shunned by the IT crowd, pen-and-paper password vaults are getting the love they deserve in 2026",
+      "summary": "セキュリティの新着が10件。Once shunned by the IT crowd, pen-and-paper password vaults are getting the love they deserve in 2026",
       "articles": [
         {
           "title": "Security vets rally around $4 paper password books for sale in Australia",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。Chang'e 7 didn’t meet unspecified ‘launch requirements’",
+      "summary": "データ分析の新着が4件。はじめに Amazon Linux 2023 では、rsyslogが初期インストールされておらず、journalctlでログを確認する形となっています。…",
       "articles": [
+        {
+          "title": "【AWS】AL2023にFluent BitをインストールしCloudWatch Logsに転送する",
+          "link": "https://qiita.com/ooki/items/5980a1f1c9007c5dfb2f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-24T13:24:45",
+          "excerpt": "はじめに Amazon Linux 2023 では、rsyslogが初期インストールされておらず、journalctlでログを確認する形となっています。…"
+        },
         {
           "title": "China calls off ambitious ice-hunting moonshot a day before flight",
           "link": "https://www.theregister.com/science/2026/08/24/china-calls-off-ambitious-ice-hunting-moonshot-a-day-before-flight/5291536",
@@ -175,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "「まるで奇行種」――とある人型ロボの爆走フォームが話題に　中国のロボット運動会400m走で優勝",
+      "link": "https://www.itmedia.co.jp/news/article/2608/24/2000000730/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-24T12:54:36",
+      "excerpt": "人型ロボットが独特なフォームでトラックを駆け抜ける映像が、SNSで話題だ。ロボットは、中国の北京人形機器人創新中心（TianGong Robotics）が開発した「天工 Omni」。…"
+    },
+    {
+      "title": "Amazon FSx for Windows File Serverを構築してみた",
+      "link": "https://qiita.com/jowoooon/items/3d1bd8edb8418a333559",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-24T12:45:50",
+      "excerpt": "はじめに 最近、ファイルサーバーの移行案件に携わることが増えてきました。…"
+    },
+    {
       "title": "US datacenters tripled their water footprint in 10 years",
       "link": "https://www.theregister.com/on-prem/2026/08/24/us-datacenters-tripled-their-water-footprint-in-10-years/5291564",
       "source": "The Register（英語）",
@@ -187,20 +208,6 @@
       "source": "The Register（英語）",
       "published": "2026-08-24T11:29:00",
       "excerpt": "Hackers spent four days inside the org's cloud platforms after apparently talking their way in"
-    },
-    {
-      "title": "AI vendors are turning to custom hardware as Microsoft winds back the clock on Windows",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/24/ai-vendors-are-turning-to-custom-hardware-as-microsoft-winds-back-the-clock-on-windows/5291293",
-      "source": "The Register（英語）",
-      "published": "2026-08-24T10:57:00",
-      "excerpt": "Vendors are moving way beyond Nvidia’s GPUs in the datacenter"
-    },
-    {
-      "title": "就職先の選定「SNSを参考にした」83％　27年春の大卒生「閲覧で入社意欲増した」",
-      "link": "https://www.itmedia.co.jp/news/article/2608/24/2000000729/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-24T10:51:11",
-      "excerpt": "2027年春の卒業を予定している就職活動中の大学生らを対象に行ったアンケートで、就職先の企業を選ぶ際に企業が開設しているSNSを参考にしたという就活生が83.5％に上った。"
     }
   ]
 }
