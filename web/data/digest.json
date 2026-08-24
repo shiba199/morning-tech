@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T16:02:28",
+  "generated_at": "2026-08-24T17:02:19",
   "window_hours": 24,
-  "total": 175,
+  "total": 179,
   "topic_count": 5,
   "groups": [
     {
@@ -42,35 +42,35 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。背景 S3へのファイルアップロードをトリガーにLambdaを起動する構成をAWS SAMで構築しました。日本語ファイル名やフォルダ付きキーを扱う際に必要な処理を整理します。1.…",
+      "summary": "クラウドの新着が16件。はじめに 2026 年 8 月 12 日、AWS は Amazon EKS に対して、Kubernetes コントロールプレーンの高度な設定パラメータのサポートを発表しました。…",
       "articles": [
         {
-          "title": "S3イベントのkeyは`unquote_plus`しないと日本語ファイル名が壊れる",
-          "link": "https://qiita.com/caymezon/items/f6ad05e73108caa0eb00",
+          "title": "Amazon EKS が Kubernetes コントロールプレーンの高度な設定パラメータに対応",
+          "link": "https://qiita.com/Haruki-N/items/7049acb210e638e2a595",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-24T14:17:54",
-          "excerpt": "背景 S3へのファイルアップロードをトリガーにLambdaを起動する構成をAWS SAMで構築しました。日本語ファイル名やフォルダ付きキーを扱う際に必要な処理を整理します。1.…"
+          "published": "2026-08-24T16:43:56",
+          "excerpt": "はじめに 2026 年 8 月 12 日、AWS は Amazon EKS に対して、Kubernetes コントロールプレーンの高度な設定パラメータのサポートを発表しました。…"
         },
         {
-          "title": "GLP-1の上昇傾向を受けて、米国の栄養補給スタートアップのベリーストリートがインドのヘルスファイと合併",
-          "link": "https://techcrunch.com/2026/08/24/us-nutrition-startup-berry-street-merges-with-indias-healthify-as-glp-1-trends-upwards/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-24T13:45:15",
-          "excerpt": "Berry Streetの創設者であるNoah Kotlove氏とHealthifyの創設者Tushar Vashsht氏が新会社の共同CEOを務める。"
+          "title": "Amazon Aurora DSQL がサポートした CloudWatch Database Insights を試してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-aurora-dsql-cloudwatch-database-insights/",
+          "source": "DevelopersIO",
+          "published": "2026-08-24T16:35:31",
+          "excerpt": "Amazon Aurora DSQL が Amazon CloudWatch Database Insights に対応しました。…"
         },
         {
-          "title": "【AWS移行編】スケーラブルなOCR基盤 (Go×Python×EasyOCR×EKS) の詳細説明",
-          "link": "https://qiita.com/watapy/items/5ba78921ccbf2cddb289",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-24T13:11:05",
-          "excerpt": "1.はじめに 本ポートフォリオでは、以前Google Cloud（GKE）で構築した「Go×Pythonによる非同期OCRバックエンド基盤」をベースに、AWS（EKS）環境への完全リプレイスおよびアーキテクチャの最適化を行いました。…"
+          "title": "AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-08-24T16:20:15",
+          "excerpt": "During my time at AWS, I have always looked for opportunities to work with students.…"
         },
         {
-          "title": "Private EC2からSSM接続するために必要な構成を整理してみた",
-          "link": "https://qiita.com/twswj815/items/22f478916d35ba4d4295",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-24T08:55:48",
-          "excerpt": "なぜSSHではなくSSMにしたか SSHでEC2へ接続する場合、Public IPを付与したり、踏み台サーバーやVPNなどの接続経路を用意したりする必要があります。…"
+          "title": "Users mash LinkedIn's AI slop button 1M+ times in 3 weeks",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/24/users-mash-linkedins-ai-slop-button-1m-times-in-3-weeks/5291802",
+          "source": "The Register（英語）",
+          "published": "2026-08-24T16:15:00",
+          "excerpt": "Or: Shock as users of world's largest slop repository report lots of slop"
         }
       ]
     },
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。はじめに Amazon Linux 2023 では、rsyslogが初期インストールされておらず、journalctlでログを確認する形となっています。…",
+      "summary": "データ分析の新着が3件。はじめに Amazon Linux 2023 では、rsyslogが初期インストールされておらず、journalctlでログを確認する形となっています。…",
       "articles": [
         {
           "title": "【AWS】AL2023にFluent BitをインストールしCloudWatch Logsに転送する",
@@ -134,13 +134,6 @@
           "source": "CodeZine",
           "published": "2026-08-24T05:30:00",
           "excerpt": "AWS Glue 6.0が一般提供開始、価格30％低下とIceberg v3対応"
-        },
-        {
-          "title": "TechCrunch Mobility: Waymo のロボタクシーの野望を推進するカスタム チップ",
-          "link": "https://techcrunch.com/2026/08/23/techcrunch-mobility-the-custom-chip-driving-waymos-robotaxi-ambitions/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-23T16:03:00",
-          "excerpt": "TechCrunch Mobility へようこそ。交通の未来に関するニュースと洞察の中心ハブです。"
         }
       ]
     },
