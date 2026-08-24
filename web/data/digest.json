@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-08-24T04:13:18",
+  "generated_at": "2026-08-24T05:07:50",
   "window_hours": 24,
-  "total": 140,
+  "total": 145,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が24件。はじめに AI エージェントに外部ツールを接続すると、便利になる一方不安に思うことが多々発生します。例えば、「社内ナレッジのタスクを読んで」と頼んだだけなのに、勝手にページを削除されたらどうしよう。…",
+      "summary": "生成AIの新着が29件。こんにちは！最近、Amazon Bedrock AgentCoreのWeb Search Toolが東京リージョンでも利用できるようになったという話を見かけました。…",
       "articles": [
         {
-          "title": "エージェントの情報漏洩とプロンプトインジェクションを止める — Bedrock Guardrails × MCP 権限設計",
-          "link": "https://qiita.com/shimitaro/items/b75814b9f022e0bc32e9",
+          "title": "Amazon Bedrock AgentCore Web Searchを東京リージョンで試してみた",
+          "link": "https://qiita.com/s-sakano/items/b9b56644833b36f7e12d",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-24T04:10:23",
-          "excerpt": "はじめに AI エージェントに外部ツールを接続すると、便利になる一方不安に思うことが多々発生します。例えば、「社内ナレッジのタスクを読んで」と頼んだだけなのに、勝手にページを削除されたらどうしよう。…"
+          "published": "2026-08-24T04:59:58",
+          "excerpt": "こんにちは！最近、Amazon Bedrock AgentCoreのWeb Search Toolが東京リージョンでも利用できるようになったという話を見かけました。…"
         },
         {
-          "title": "Gitで修正したコードが元に戻ったので、ChatGPTと一緒に原因を追ってみた | 株式会社BALEEN STUDIOのフィード",
-          "link": "https://zenn.dev/baleenstudio/articles/e6189a86d75420",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-24T03:00:16",
-          "excerpt": "こちらは以前に書いた記事の関連記事となります。https://zenn.…"
+          "title": "Claude Code に手伝ってもらって AWS Well-Architected レビューをやってみた",
+          "link": "https://dev.classmethod.jp/articles/well-architected-review-with-claude-code/",
+          "source": "DevelopersIO",
+          "published": "2026-08-24T04:45:15",
+          "excerpt": "AWS Well-Architected Framework のレビューは設問数が多く、本番構成の把握が大変です。今年は Claude Code に情報収集・整理・言い換えを手伝ってもらい、かなり省力化できました。…"
         },
         {
-          "title": "Claude Codeのサブエージェントが増えすぎたので、観点を外に出しました | SIOS Tech Lab",
-          "link": "https://tech-lab.sios.jp/archives/54210",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-24T03:00:00",
-          "excerpt": "Claude Code のサブエージェントが増えすぎる原因は、観点を agent に書いていることでした。使い回すと混ざり、混ざらないようにすると鈍る。観点をファイルに出して、実行環境だけを使い回す設計に変えた実録です。…"
+          "title": "ソフトウェア開発を AI エージェントで加速する ── TOPPAN が体験した SDLC 主要フェーズの手応え",
+          "link": "https://aws.amazon.com/jp/blogs/news/sdlc-ai-workshop-20260612/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-24T04:35:12",
+          "excerpt": "2026 年 6 月 12 日、TOPPAN 株式会社の皆さまを対象に、AWS のハンズオンワークショップ A […]"
         },
         {
-          "title": "Claude Designを使ってみた | SO Technologies 開発者ブログ",
-          "link": "https://developer.so-tech.co.jp/entry/2026/08/24/120000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-24T03:00:00",
-          "excerpt": "こんにちは。テクノロジービジネス開発本部開発グループエンジニアのyuinaです。弊社ではエンジニア全員にClaudeが支給されており業務で利用することができます。今回はClaude Designを実際に業務で使いました。…"
+          "title": "AIエージェント活用を阻む“予算の壁”　セールスフォースらの新機能は打開策になり得るか？",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/24/news075.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-08-24T04:30:00",
+          "excerpt": "企業にとってはあらかじめAI利用コストを想定できないと投資が決まらない。そうなると予算が立てられず、ROIの見通しもつかない。そんな企業のAIエージェント活用に立ちはだかる“予算の壁”を打破するにはどうすればよいのか。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。概要 個人開発のある株式分析Webアプリで、認証基盤を「Django allauth + Simple JWT のメール/パスワード認証」から「AWS Cognito User Pool ベースの OAuth 2.…",
+      "summary": "クラウドの新着が12件。概要 個人開発のある株式分析Webアプリで、認証基盤を「Django allauth + Simple JWT のメール/パスワード認証」から「AWS Cognito User Pool ベースの OAuth 2.…",
       "articles": [
         {
           "title": "Django標準のUserモデルを壊さずにCognito OAuthへ移行する",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。どうもこんにちはセキュリティエンジニアの西川です。…",
+      "summary": "セキュリティの新着が8件。2026年上半期のランサムウェア攻撃は、どのグループが猛威を振るったのか。アサヒグループホールディングスへの攻撃で知られるQilinが首位となる一方、攻撃グループの数や勢力図にも変化が起きている。…",
       "articles": [
+        {
+          "title": "2026年上半期ランサムウェア動向まとめ　アサヒを襲ったQilinが首位",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news023.html",
+          "source": "@IT",
+          "published": "2026-08-24T04:00:00",
+          "excerpt": "2026年上半期のランサムウェア攻撃は、どのグループが猛威を振るったのか。アサヒグループホールディングスへの攻撃で知られるQilinが首位となる一方、攻撃グループの数や勢力図にも変化が起きている。…"
+        },
         {
           "title": "MITRE ATT&amp;amp;CK の7つの戦術からみた AWS のセキュリティに関するイベント | 株式会社サイバーセキュリティクラウド　テックブログのフィード",
           "link": "https://zenn.dev/cscloud_blog/articles/b42eeb86af4d06",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-24T01:30:46",
           "excerpt": "AWS Marketplace 製品のサブスクライブを承認制にしたいというニーズはありませんか？…"
-        },
-        {
-          "title": "PR TIMESの認証認可を再設計するときに考えたこと | PR TIMES 開発者ブログ",
-          "link": "https://developers.prtimes.com/2026/08/24/authentication-authorization-redesign/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-24T01:00:00",
-          "excerpt": "PR TIMESでCTOをやっている金子 (@catatsuy) です。2023年に、PR TIMESのログインシステムへJWTを導入したことを開発者ブログで紹介しました。この記事では、JWTの仕様や移行の進め方など […]…"
         }
       ]
     },
@@ -133,8 +133,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。こちらは以前に書いた記事の関連記事となります。https://zenn.…",
+      "summary": "開発ツールの新着が11件。AWS Well-Architected Framework のレビューは設問数が多く、本番構成の把握が大変です。今年は Claude Code に情報収集・整理・言い換えを手伝ってもらい、かなり省力化できました。…",
       "articles": [
+        {
+          "title": "Claude Code に手伝ってもらって AWS Well-Architected レビューをやってみた",
+          "link": "https://dev.classmethod.jp/articles/well-architected-review-with-claude-code/",
+          "source": "DevelopersIO",
+          "published": "2026-08-24T04:45:15",
+          "excerpt": "AWS Well-Architected Framework のレビューは設問数が多く、本番構成の把握が大変です。今年は Claude Code に情報収集・整理・言い換えを手伝ってもらい、かなり省力化できました。…"
+        },
+        {
+          "title": "GitHub CopilotがSlackと連携、会話から共同開発が可能に",
+          "link": "https://codezine.jp/article/detail/29414",
+          "source": "CodeZine",
+          "published": "2026-08-24T04:00:00",
+          "excerpt": "GitHub CopilotがSlackと連携、会話から共同開発が可能に"
+        },
         {
           "title": "Gitで修正したコードが元に戻ったので、ChatGPTと一緒に原因を追ってみた | 株式会社BALEEN STUDIOのフィード",
           "link": "https://zenn.dev/baleenstudio/articles/e6189a86d75420",
@@ -148,52 +162,38 @@
           "source": "DevelopersIO",
           "published": "2026-08-24T02:06:40",
           "excerpt": "GitHub Organization内で、特定のテンプレートリポジトリから生成されたリポジトリの件数を確認する方法を、`gh repo list`と`jq`を組み合わせて実装してみました。"
-        },
-        {
-          "title": "GitHub Stacked PRs で実現する「小さな PR」とレビューを溜めない開発スタイル | 豆蔵デベロッパーサイト",
-          "link": "https://developer.mamezou-tech.com/blogs/2026/08/24/github-stacked-prs/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-24T00:00:00",
-          "excerpt": "はじめに#先月、GitHub のスタック PRs (Stacked pull requests) がパブリックプレビューになりました。https://github.…"
-        },
-        {
-          "title": "「非エンジニアに役立つかで価値が決まる」　たった1時間で開発したツール、なぜGitHub史上最速で伸びた？",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/24/news010.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-08-23T23:00:00",
-          "excerpt": "WhatsAppからAIエージェントに指示を出す――。個人の趣味から始まったツールは今、Microsoftの製品基盤にまで使われている。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【開催報告】AI 時代のアジャイル ── 異業種 4 社が語る実践と挑戦",
-      "link": "https://aws.amazon.com/jp/blogs/news/fy26-aws-jp-csm-agile-meetup-event/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-08-24T03:59:52",
-      "excerpt": "イントロダクション 「変化を歓迎する」──それはアジャイルが一貫して大切にしてきた姿勢です。そしていま、生成 […]"
+      "title": "Amazon Connect Customer の CCP 画面でオーディオデバイスの設定を変更する方法を教えてください",
+      "link": "https://dev.classmethod.jp/articles/amazon-connect-ccp-audio-device/",
+      "source": "DevelopersIO",
+      "published": "2026-08-24T05:04:43",
+      "excerpt": "Amazon Connectでヘッドセットが正常に認識されているか確認したいときの対応方法を紹介します。"
     },
     {
-      "title": "中国、人型ロボットが100メートルで9秒32　“ボルト超え”続出の北京「世界人型ロボット運動会」",
-      "link": "https://www.itmedia.co.jp/news/article/2608/24/2000000714/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-24T03:55:49",
-      "excerpt": "中国・北京で開催中の「世界人型ロボット運動会」で、陸上100メートルの予選でウサイン・ボルト選手の世界記録を上回るタイムが相次いだ。2回目となる今回は参加ロボットが約2000台と前回の4倍に増え、中国のロボット産業の勢いを映している。"
-    },
-    {
-      "title": "人気カフェ「BERG」も楽天市場撤退　「反戦の思いと相容れない」",
-      "link": "https://www.itmedia.co.jp/news/article/2608/24/2000000715/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-24T03:54:30",
-      "excerpt": "楽天の軍事ドローン参入を理由とした楽天市場からの撤退は、18日に「通販生活」を手掛けるカタログハウスに続き2例目とみられる。"
-    },
-    {
-      "title": "(空港荷物受取対策)スマホのカメラに自分のスーツケースを覚えさせてみた",
-      "link": "https://qiita.com/yama3133/items/b039c4f5f6e4c4f3ec0b",
+      "title": "2026/08/24 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "link": "https://qiita.com/ennagara128/items/133e3b5aea90cc31235f",
       "source": "Qiita AWSタグ",
-      "published": "2026-08-24T03:47:12",
-      "excerpt": "海外旅行において、手荷物受け取りで同じことを思う。似た色のスーツケースを一瞬人の荷物と間違えかけたり、なかなか自分の荷物が出てこなくて不安になったり。…"
+      "published": "2026-08-24T04:15:16",
+      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
+    },
+    {
+      "title": "新規事業のメンタリングが単なる相談会になっていないか。Relicが事業案を前進させる伴走設計のガイドを公開",
+      "link": "https://codezine.jp/article/detail/29419",
+      "source": "CodeZine",
+      "published": "2026-08-24T04:15:00",
+      "excerpt": "新規事業のメンタリングが単なる相談会になっていないか。Relicが事業案を前進させる伴走設計のガイドを公開"
+    },
+    {
+      "title": "優秀なAIでも「ファイル破壊」は防げない？　Dockerが説く「モデルの性能」より重要なこと",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news028.html",
+      "source": "@IT",
+      "published": "2026-08-24T04:00:00",
+      "excerpt": "Dockerは、AIエージェントの仕組みと安全に運用するための条件を解説した。自律的に動くAIエージェントは誤作動時の被害範囲が広がることから、モデルの性能よりもインフラ環境が重要だと指摘する。"
     }
   ]
 }
