@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-08-24T05:07:50",
+  "generated_at": "2026-08-24T06:00:08",
   "window_hours": 24,
-  "total": 145,
+  "total": 155,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が29件。こんにちは！最近、Amazon Bedrock AgentCoreのWeb Search Toolが東京リージョンでも利用できるようになったという話を見かけました。…",
+      "summary": "生成AIの新着が34件。週刊生成AI with AWS, 朝晩は少し涼しい気がする2026年8月17日週号 – PKUTECH様・日新様・サンリオ様・コニカミノルタ様・SUMCO様などお客様事例を中心に8件のブログ記事を紹介。…",
       "articles": [
         {
-          "title": "Amazon Bedrock AgentCore Web Searchを東京リージョンで試してみた",
-          "link": "https://qiita.com/s-sakano/items/b9b56644833b36f7e12d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-24T04:59:58",
-          "excerpt": "こんにちは！最近、Amazon Bedrock AgentCoreのWeb Search Toolが東京リージョンでも利用できるようになったという話を見かけました。…"
-        },
-        {
-          "title": "Claude Code に手伝ってもらって AWS Well-Architected レビューをやってみた",
-          "link": "https://dev.classmethod.jp/articles/well-architected-review-with-claude-code/",
-          "source": "DevelopersIO",
-          "published": "2026-08-24T04:45:15",
-          "excerpt": "AWS Well-Architected Framework のレビューは設問数が多く、本番構成の把握が大変です。今年は Claude Code に情報収集・整理・言い換えを手伝ってもらい、かなり省力化できました。…"
-        },
-        {
-          "title": "ソフトウェア開発を AI エージェントで加速する ── TOPPAN が体験した SDLC 主要フェーズの手応え",
-          "link": "https://aws.amazon.com/jp/blogs/news/sdlc-ai-workshop-20260612/",
+          "title": "週刊生成AI with AWS – 2026/8/17週",
+          "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260817/",
           "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-24T04:35:12",
-          "excerpt": "2026 年 6 月 12 日、TOPPAN 株式会社の皆さまを対象に、AWS のハンズオンワークショップ A […]"
+          "published": "2026-08-24T05:54:30",
+          "excerpt": "週刊生成AI with AWS, 朝晩は少し涼しい気がする2026年8月17日週号 – PKUTECH様・日新様・サンリオ様・コニカミノルタ様・SUMCO様などお客様事例を中心に8件のブログ記事を紹介。…"
         },
         {
-          "title": "AIエージェント活用を阻む“予算の壁”　セールスフォースらの新機能は打開策になり得るか？",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/24/news075.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-08-24T04:30:00",
-          "excerpt": "企業にとってはあらかじめAI利用コストを想定できないと投資が決まらない。そうなると予算が立てられず、ROIの見通しもつかない。そんな企業のAIエージェント活用に立ちはだかる“予算の壁”を打破するにはどうすればよいのか。…"
+          "title": "SageMaker Unified Studio のアセットに付与すべきビジネスコンテキストと優先度",
+          "link": "https://qiita.com/swkky/items/9bbb5a7251b3a8adf063",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-24T05:46:03",
+          "excerpt": "はじめに SageMaker Unified Studio（DataZone V2）では、Glue テーブルを「アセット」としてカタログに登録し、ビジネスコンテキスト（メタデータ）を付与できます。…"
+        },
+        {
+          "title": "AWS WorkSpacesがAIエージェントによるレガシー・デスクトップアプリケーション操作を可能に、API不要",
+          "link": "https://www.infoq.com/jp/news/2026/08/aws-workspaces-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ（日本語）",
+          "published": "2026-08-24T05:30:00",
+          "excerpt": "AWSはAmazon WorkSpacesがAIエージェント向けのマネージド仮想デスクトップとして利用可能になったと発表した。…"
+        },
+        {
+          "title": "AWS DevOps Agent に障害の調査結果から GitHub Issue を起票させてみた",
+          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-github-issue/",
+          "source": "DevelopersIO",
+          "published": "2026-08-24T05:28:01",
+          "excerpt": "チャットとインシデントレスポンスの調査、どちらからも起票できました。ランブックで手順も指定可能。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。概要 個人開発のある株式分析Webアプリで、認証基盤を「Django allauth + Simple JWT のメール/パスワード認証」から「AWS Cognito User Pool ベースの OAuth 2.…",
+      "summary": "クラウドの新着が13件。はじめに Spring Bootで作成したWebアプリケーションを、AWSのEC2を利用してインターネット上に公開する手順をまとめることにします。なお、今回はパート2ですので、パート1のこちらの記事から読むのが望ましいです。…",
       "articles": [
+        {
+          "title": "Spring Bootで作成したWebアプリをAWS EC2で公開する手順（パート2）",
+          "link": "https://qiita.com/ShineYamamoto/items/8f9b4431d7ebe7f289f4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-24T05:23:18",
+          "excerpt": "はじめに Spring Bootで作成したWebアプリケーションを、AWSのEC2を利用してインターネット上に公開する手順をまとめることにします。なお、今回はパート2ですので、パート1のこちらの記事から読むのが望ましいです。…"
+        },
         {
           "title": "Django標準のUserモデルを壊さずにCognito OAuthへ移行する",
           "link": "https://zenn.dev/akinori901/articles/20260816-00msvj65",
@@ -64,13 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-23T23:07:41",
           "excerpt": "はじめに 前回は、SageMaker の Training とハイパーパラメータチューニングについて整理しました。今回は、学習済みモデルを実際に使って予測するための仕組み、つまり 推論（Inference） について整理します。…"
-        },
-        {
-          "title": "Google ドライブの動画再生数を AWS で計測！サーバーレス動画再生カウンターの構築 | ForgeVision Engineer Blog",
-          "link": "https://techblog.forgevision.com/entry/cloudfront/kvs",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-23T22:31:42",
-          "excerpt": "こんにちは、AWS グループの尾谷です。本記事では、Amazon CloudFront KVS (KeyValueStore) を用いて、再生カウンターを作った事例をご紹介します。"
         }
       ]
     },
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
+      "summary": "データ分析の新着が3件。AWS Glue 6.0が一般提供開始、価格30％低下とIceberg v3対応",
       "articles": [
+        {
+          "title": "AWS Glue 6.0が一般提供開始、価格30％低下とIceberg v3対応",
+          "link": "https://codezine.jp/article/detail/29415",
+          "source": "CodeZine",
+          "published": "2026-08-24T05:30:00",
+          "excerpt": "AWS Glue 6.0が一般提供開始、価格30％低下とIceberg v3対応"
+        },
         {
           "title": "TechCrunch Mobility: The custom chip driving Waymo’s robotaxi ambitions",
           "link": "https://techcrunch.com/2026/08/23/techcrunch-mobility-the-custom-chip-driving-waymos-robotaxi-ambitions/",
@@ -133,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。AWS Well-Architected Framework のレビューは設問数が多く、本番構成の把握が大変です。今年は Claude Code に情報収集・整理・言い換えを手伝ってもらい、かなり省力化できました。…",
+      "summary": "開発ツールの新着が13件。チャットとインシデントレスポンスの調査、どちらからも起票できました。ランブックで手順も指定可能。",
       "articles": [
+        {
+          "title": "AWS DevOps Agent に障害の調査結果から GitHub Issue を起票させてみた",
+          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-github-issue/",
+          "source": "DevelopersIO",
+          "published": "2026-08-24T05:28:01",
+          "excerpt": "チャットとインシデントレスポンスの調査、どちらからも起票できました。ランブックで手順も指定可能。"
+        },
         {
           "title": "Claude Code に手伝ってもらって AWS Well-Architected レビューをやってみた",
           "link": "https://dev.classmethod.jp/articles/well-architected-review-with-claude-code/",
@@ -143,25 +157,18 @@
           "excerpt": "AWS Well-Architected Framework のレビューは設問数が多く、本番構成の把握が大変です。今年は Claude Code に情報収集・整理・言い換えを手伝ってもらい、かなり省力化できました。…"
         },
         {
+          "title": "Figma MCP × Code Connect × GitHub Copilot で実現するデザインからのコード生成 | JBS Tech Blog",
+          "link": "https://blog.jbs.co.jp/entry/2026/08/24/131511",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-24T04:15:11",
+          "excerpt": "「Figma のデザインからの実装をもっと効率化したい」「整備した共通コンポーネントを、AI によるコード生成でも活用したい」といった課題は、デザインシステムを運用するチームに共通しています。…"
+        },
+        {
           "title": "GitHub CopilotがSlackと連携、会話から共同開発が可能に",
           "link": "https://codezine.jp/article/detail/29414",
           "source": "CodeZine",
           "published": "2026-08-24T04:00:00",
           "excerpt": "GitHub CopilotがSlackと連携、会話から共同開発が可能に"
-        },
-        {
-          "title": "Gitで修正したコードが元に戻ったので、ChatGPTと一緒に原因を追ってみた | 株式会社BALEEN STUDIOのフィード",
-          "link": "https://zenn.dev/baleenstudio/articles/e6189a86d75420",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-24T03:00:16",
-          "excerpt": "こちらは以前に書いた記事の関連記事となります。https://zenn.…"
-        },
-        {
-          "title": "GitHub Organizationで特定テンプレートから生成されたリポジトリ数をGitHub CLIとjqで調べてみた",
-          "link": "https://dev.classmethod.jp/articles/github-template-repo-count-jq/",
-          "source": "DevelopersIO",
-          "published": "2026-08-24T02:06:40",
-          "excerpt": "GitHub Organization内で、特定のテンプレートリポジトリから生成されたリポジトリの件数を確認する方法を、`gh repo list`と`jq`を組み合わせて実装してみました。"
         }
       ]
     }
@@ -175,25 +182,25 @@
       "excerpt": "Amazon Connectでヘッドセットが正常に認識されているか確認したいときの対応方法を紹介します。"
     },
     {
+      "title": "不具合情報の集約基盤を整え、品質改善に活かすまで | SmartHR Tech Blog",
+      "link": "https://tech.smarthr.jp/entry/2026/08/24/133642",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-24T04:36:42",
+      "excerpt": "こんにちは、SmartHR 品質保証本部 Directorのtarappoです。最近は組織周りの話を多くしてきましたが、今回は「不具合に関する情報を集める基盤」を整えたことについて、かんたんに紹介しようかと思います。…"
+    },
+    {
+      "title": "個人レベルにとどまっていたAI活用を、開発フロー全体に広げて手戻りを減らした話 | atama plus techblogのフィード",
+      "link": "https://zenn.dev/atamaplus/articles/f1da6aadf1b218",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-24T04:23:49",
+      "excerpt": "こんにちは！atama plusでエンジニアをしているnaoshiです。AIで実装スピードは確かに上がったのに、リードタイムが思ったほど縮まらない。AI活用の恩恵が個人のレベルで止まっていて、チーム全体には広がっていない。…"
+    },
+    {
       "title": "2026/08/24 今日のQiitaトレンド記事をポッドキャストで聴こう！",
       "link": "https://qiita.com/ennagara128/items/133e3b5aea90cc31235f",
       "source": "Qiita AWSタグ",
       "published": "2026-08-24T04:15:16",
       "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
-    },
-    {
-      "title": "新規事業のメンタリングが単なる相談会になっていないか。Relicが事業案を前進させる伴走設計のガイドを公開",
-      "link": "https://codezine.jp/article/detail/29419",
-      "source": "CodeZine",
-      "published": "2026-08-24T04:15:00",
-      "excerpt": "新規事業のメンタリングが単なる相談会になっていないか。Relicが事業案を前進させる伴走設計のガイドを公開"
-    },
-    {
-      "title": "優秀なAIでも「ファイル破壊」は防げない？　Dockerが説く「モデルの性能」より重要なこと",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news028.html",
-      "source": "@IT",
-      "published": "2026-08-24T04:00:00",
-      "excerpt": "Dockerは、AIエージェントの仕組みと安全に運用するための条件を解説した。自律的に動くAIエージェントは誤作動時の被害範囲が広がることから、モデルの性能よりもインフラ環境が重要だと指摘する。"
     }
   ]
 }
