@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T20:52:01",
+  "generated_at": "2026-08-25T21:16:36",
   "window_hours": 24,
-  "total": 265,
+  "total": 263,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が26件。20 周年を迎えるにあたり、AWS が汎用および AI ワークロード用のカスタム シリコンを構築し、2006 年のお客様が想像できなかった新しいフォーム ファクターと展開モデルに EC2 を拡張するなど、クラウド コンピューティングが提供で…",
+      "summary": "クラウドの新着が28件。AWS Batch now supports Amazon ECS Managed Instances (ECS MI) as a new compute option, enabling you to run GPU-accelerate…",
       "articles": [
+        {
+          "title": "AWS Batch now supports Amazon ECS Managed Instances",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-batch-on-ecs-managed-instances/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-25T19:36:00",
+          "excerpt": "AWS Batch now supports Amazon ECS Managed Instances (ECS MI) as a new compute option, enabling you to run GPU-accelerate…"
+        },
         {
           "title": "Amazon EC2 20 歳の誕生日おめでとう",
           "link": "https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/",
@@ -64,20 +71,13 @@
           "source": "The Register（英語）",
           "published": "2026-08-25T15:53:00",
           "excerpt": "現在の Exchange コネクタは廃止されます - アップグレードしないと新しいコネクタは機能しません"
-        },
-        {
-          "title": "[アップデート] Amazon Aurora PostgreSQL 18.4 がリリースされたので、Babelfish 6.1 のアップデート内容を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/aurora-postgresql-18-4-babelfish-6-1/",
-          "source": "DevelopersIO",
-          "published": "2026-08-25T15:24:50",
-          "excerpt": "Aurora PostgreSQL 18.4 のリリースに伴い、Babelfish 6.1.0 も同時にリリースされました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。グランド・セフト・オートのファンは、史上最も期待されているビデオゲームの 1 つについてのニュースを待ち望んでおり、この新たなサイバー攻撃に対して特に脆弱であるようです。",
+      "summary": "セキュリティの新着が18件。グランド・セフト・オートのファンは、史上最も期待されているビデオゲームの 1 つについてのニュースを待ち望んでおり、この新たなサイバー攻撃に対して特に脆弱であるようです。",
       "articles": [
         {
           "title": "あの偽の『グランド・セフト・オート VI』デモは、実はただのマルウェアだった",
@@ -101,11 +101,11 @@
           "excerpt": "記事の URL: https://www.businessinsider.…"
         },
         {
-          "title": "WhatsApp、より強力な 2 段階認証などでアカウントのセキュリティを強化",
-          "link": "https://techcrunch.com/2026/08/25/whatsapp-tightens-account-security-with-stronger-two-step-verification-and-more/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-25T13:00:00",
-          "excerpt": "WhatsApp の 2 段階認証は以前は 6 桁の PIN に依存していましたが、現在ではユーザーは特殊文字を含む長い英数字のパスワードを選択できるようになりました。"
+          "title": "IAM Roles Anywhere now provides a Java plugin for the AWS SDK",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-roles-anywhere-java/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-25T13:18:00",
+          "excerpt": "AWS Identity and Access Management (IAM) Roles Anywhere now provides a plugin for the AWS SDK for Java v2 that enables w…"
         }
       ]
     },
@@ -157,6 +157,13 @@
           "excerpt": "記事の URL: https://nil.wallyjones.com/run-openbsd-on-digitalocean-for-4month/ コメント URL: https://news.ycombinator.com/item?…"
         },
         {
+          "title": "IAM Roles Anywhere now provides a Java plugin for the AWS SDK",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-roles-anywhere-java/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-25T13:18:00",
+          "excerpt": "AWS Identity and Access Management (IAM) Roles Anywhere now provides a plugin for the AWS SDK for Java v2 that enables w…"
+        },
+        {
           "title": "Amazon Cognito 入門 — Terraform で作る Hosted UI ログイン基盤",
           "link": "https://zenn.dev/inventit/articles/cognito-getting-started",
           "source": "Zenn AWSトピック",
@@ -169,13 +176,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-25T12:44:23",
           "excerpt": "1.はじめに 最近 DevOps Agentの検証をしている。マネコンからインストールしてもよいが、Terraformでリソース管理しているシステム向けに、Terraformでのインストール手順を確認する。2.…"
-        },
-        {
-          "title": "GitHub Copilot CLIのBYOK機能でBedrock APIからOpus5を使ってみた",
-          "link": "https://dev.classmethod.jp/articles/github-copilot-cli-byok-bedrock-api-opus5/",
-          "source": "DevelopersIO",
-          "published": "2026-08-25T12:19:30",
-          "excerpt": "GitHub Copilot CLIのBYOK機能を使ってAmazon BedrockのClaude Opus5を動かしてみました。…"
         }
       ]
     }
