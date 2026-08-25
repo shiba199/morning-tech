@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-08-25T09:05:05",
+  "generated_at": "2026-08-25T09:58:00",
   "window_hours": 24,
-  "total": 222,
+  "total": 225,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が44件。「AIが脆弱性を見つける」ことが現実になった2026年。AnthropicのClaude Mythos Preview発表後、重大なCVEの公開件数が異例のペースで増えていることが調査結果で示された。これを踏まえて脆弱性対策を考える。",
+      "summary": "生成AIの新着が46件。スポンサー付き検索の結果は、開発者を ClickFix マルウェアの罠に直接導きます",
       "articles": [
         {
-          "title": "Claude Mythos発表後、CVEが異常増加　7月は発表前の5倍に",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news036.html",
-          "source": "@IT",
-          "published": "2026-08-25T08:00:00",
-          "excerpt": "「AIが脆弱性を見つける」ことが現実になった2026年。AnthropicのClaude Mythos Preview発表後、重大なCVEの公開件数が異例のペースで増えていることが調査結果で示された。これを踏まえて脆弱性対策を考える。"
+          "title": "詐欺師が偽の OpenAI Codex 広告を通じて Mac マルウェアをプッシュ",
+          "link": "https://www.theregister.com/security/2026/08/25/crooks-push-mac-malware-through-fake-openai-codex-ads/5291899",
+          "source": "The Register（英語）",
+          "published": "2026-08-25T09:15:00",
+          "excerpt": "スポンサー付き検索の結果は、開発者を ClickFix マルウェアの罠に直接導きます"
         },
         {
-          "title": "Claude Code v2.1.240〜v2.1.245 の主要アップデート - modelPicker と promptCacheTtl の追加",
-          "link": "https://dev.classmethod.jp/articles/20260825-cc-updates-v2-1-245/",
+          "title": "Claude CoworkのLive Artifactsで「Backlog通知トリアージ」を作ってみた",
+          "link": "https://dev.classmethod.jp/articles/claude-cowork-liveartifacts-backlog-notification-sort/",
           "source": "DevelopersIO",
-          "published": "2026-08-25T07:04:46",
-          "excerpt": "Claude Code の v2.1.240 〜 v2.1.245（8 月 22 日〜25 日）のアップデートをまとめました。…"
+          "published": "2026-08-25T09:11:25",
+          "excerpt": "Claude Coworkで複数Backlogスペースの通知を自動仕分けするダッシュボードを作ってみました。実際の運用から見えた改善点や、AIと一緒に進めるときのコツをまとめます。"
         },
         {
-          "title": "本番インシデントのトリアージを AI エージェントに任せられるようになるまで",
-          "link": "https://aws.amazon.com/jp/blogs/news/trust-agent-triage/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-25T06:59:27",
-          "excerpt": "ある日曜日の午前 2 時 33 分（PDT）、フロンティアモデルの可用性アラームが発報しました。本番のレスポンスがストリームの途中で止まりはじめ、監視システムが自動でチケットを起票しました。…"
+          "title": "Claude CodeとAWS 公式ワークフローを用いたAI-DLCの実践 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
+          "link": "https://recruit.group.gmo/engineer/jisedai/blog/ai-dlc/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-25T08:49:44",
+          "excerpt": "導入 こんにちは。グループ研究開発本部 次世代システム研究室のH.Oです。…"
         },
         {
-          "title": "継続的なプロンプト評価: LLM ジャッジとライブシグナルを使って Kiro エージェントの品質を高める方法",
-          "link": "https://aws.amazon.com/jp/blogs/news/continuous-prompt-evaluation/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-25T06:51:27",
-          "excerpt": "本記事は、人手で作成されたシステムプロンプトや設定の変更を評価することに焦点を当てています。自動的なトラジェクトリマイニング、変更の自動生成、ハーネス全体の自己改善については扱いません。…"
+          "title": "AIコーディングエージェントのための、ファイルベースのメモリシステム | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
+          "link": "https://recruit.group.gmo/engineer/jisedai/blog/file-based-memory-for-coding-agents/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-25T08:28:14",
+          "excerpt": "こんにちは、次世代システム研究室のN.M.です。この半年、日常的に使っているコーディングエージェントのために、メモリシステムを作り続けてきました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が25件。前回構築したEC2 + code-server + Bedrock環境の前段にCloudFrontを置き、自己署名証明書によるブラウザ警告と拡張機能のインストール制限を解消しました。…",
+      "summary": "クラウドの新着が26件。はじめに：試験のVPCと、現場のVPCは違う SAAでVPCは最重要テーマです。試験では「パブリックサブネットはIGWへのルートを持つ」と覚えます。…",
       "articles": [
+        {
+          "title": "「とりあえずパブリックサブネット」が事故る理由 ── 現場のVPC設計",
+          "link": "https://zenn.dev/riverwell2359/articles/aws-04-vpc-design-in-practice",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-25T08:27:08",
+          "excerpt": "はじめに：試験のVPCと、現場のVPCは違う SAAでVPCは最重要テーマです。試験では「パブリックサブネットはIGWへのルートを持つ」と覚えます。…"
+        },
         {
           "title": "ブラウザだけで使えるClaude Code環境（EC2 + code-server + Bedrock）にCloudFrontを追加して、拡張機能もインストールできるようにしてみた",
           "link": "https://dev.classmethod.jp/articles/202608-ec2-code-server-claude-code-bedrock-cloudfront/",
@@ -64,21 +71,28 @@
           "source": "DevelopersIO",
           "published": "2026-08-25T03:32:39",
           "excerpt": "ECS Fargate で固定のパブリック IP アドレスを利用したい場合、NLB もしくは NAT ゲートウェイを使用します。"
-        },
-        {
-          "title": "EC2インスタンスのスケールアップ・ダウン手順",
-          "link": "https://dev.classmethod.jp/articles/ec2-scale-up-down-guide/",
-          "source": "DevelopersIO",
-          "published": "2026-08-25T03:01:25",
-          "excerpt": "AWS EC2インスタンスのスケールアップ・ダウン方法を実践的に解説。インスタンス停止→タイプ変更→起動の3ステップで実施。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。「AIが脆弱性を見つける」ことが現実になった2026年。AnthropicのClaude Mythos Preview発表後、重大なCVEの公開件数が異例のペースで増えていることが調査結果で示された。これを踏まえて脆弱性対策を考える。",
+      "summary": "セキュリティの新着が12件。スポンサー付き検索の結果は、開発者を ClickFix マルウェアの罠に直接導きます",
       "articles": [
+        {
+          "title": "詐欺師が偽の OpenAI Codex 広告を通じて Mac マルウェアをプッシュ",
+          "link": "https://www.theregister.com/security/2026/08/25/crooks-push-mac-malware-through-fake-openai-codex-ads/5291899",
+          "source": "The Register（英語）",
+          "published": "2026-08-25T09:15:00",
+          "excerpt": "スポンサー付き検索の結果は、開発者を ClickFix マルウェアの罠に直接導きます"
+        },
+        {
+          "title": "MCPが最新ロードマップを発表　エージェンティックAI、非同期通信、セキュリティなど5つの重点分野を定義",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news095.html",
+          "source": "@IT",
+          "published": "2026-08-25T08:59:00",
+          "excerpt": "「Model Context Protocol（MCP）」のコアメンテナーチームが新たなロードマップを公開した。…"
+        },
         {
           "title": "Claude Mythos発表後、CVEが異常増加　7月は発表前の5倍に",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news036.html",
@@ -92,28 +106,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-25T05:00:05",
           "excerpt": "こんにちは。アカウント基盤開発部でエンジニアをしている tkmt (たくまつ) です。今回は、IETF で標準化が進んでいる Transaction Tokens について調査してまとめてみました。…"
-        },
-        {
-          "title": "Capital One事件から学ぶAWSセキュリティ：公開資料で読み解く多層防御",
-          "link": "https://zenn.dev/reina_aida/articles/capital-one-aws-security",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-25T03:27:31",
-          "excerpt": "はじめに 2019年に公表されたCapital Oneのサイバー事件は、AWSを利用するエンジニアにとって重要な事例です。しかし、この事件はしばしば「SSRFによってAWSの認証情報が盗まれた事件」と短く説明されます。…"
-        },
-        {
-          "title": "Entra IDにCVSS 10.0の脆弱性　認証不要でコード実行の恐れ、必要な対策は？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news046.html",
-          "source": "@IT",
-          "published": "2026-08-25T02:30:00",
-          "excerpt": "認証もユーザー操作も必要ない。Microsoft Entra IDで、ネットワーク経由の攻撃によってコードを実行される恐れのある脆弱性が見つかった。CVSS基本値は10.0だ。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。そして、2028年には「大幅な規模」で飛行する – この主張は完全にばかげているわけではないが、しっかりと割り引いて考える必要がある",
+      "summary": "データ分析の新着が7件。毎晩18時、翌日の商談ブリーフがSlackに届く。作っているのはAIエージェントで、その中には「舘野ならどこに賭けるか」という戦略提言まで入っている。書いたのは私ではなく、私のghoostだ。…",
       "articles": [
+        {
+          "title": "AIでAIを動かす　～BizDev編",
+          "link": "https://dev.classmethod.jp/articles/wiring-ghoost-into-workflow-via-mcp/",
+          "source": "DevelopersIO",
+          "published": "2026-08-25T09:18:45",
+          "excerpt": "毎晩18時、翌日の商談ブリーフがSlackに届く。作っているのはAIエージェントで、その中には「舘野ならどこに賭けるか」という戦略提言まで入っている。書いたのは私ではなく、私のghoostだ。…"
+        },
         {
           "title": "SpaceXは、Vera Rubin NVL72ラックスケールシステムを来年軌道に投入すると主張している",
           "link": "https://www.theregister.com/off-prem/2026/08/25/spacex-claims-it-will-put-a-vera-rubin-nvl72-rack-scale-system-into-orbit-next-year/5292067",
@@ -134,21 +141,21 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-25T00:54:44",
           "excerpt": "2026 年 8 月 21 日、AWS Glue 6.0 の一般提供について発表しました。これにより、価格が以 […]"
-        },
-        {
-          "title": "TechCrunch Disrupt 2026 でスタートアップを紹介し、まだスペースがあるうちに展示テーブルを予約しましょう",
-          "link": "https://techcrunch.com/2026/08/24/showcase-your-startup-at-techcrunch-disrupt-2026-and-book-an-exhibit-table-while-theres-still-space/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-24T20:16:34",
-          "excerpt": "10 月 13 日から 15 日まであなたのスタートアップを展示して、Disrupt に集まる潜在的な投資家やパートナーを最大限に活用してください。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。はじめに こんにちは。普段は@niftyトップページの開発運用をしている宮本です。最近git worktreeで並行して開発していたところ、.terraform や node_modules フォルダが大量に作成され、 […]…",
+      "summary": "開発ツールの新着が15件。こんにちは、次世代システム研究室のN.M.です。この半年、日常的に使っているコーディングエージェントのために、メモリシステムを作り続けてきました。…",
       "articles": [
+        {
+          "title": "AIコーディングエージェントのための、ファイルベースのメモリシステム | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
+          "link": "https://recruit.group.gmo/engineer/jisedai/blog/file-based-memory-for-coding-agents/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-25T08:28:14",
+          "excerpt": "こんにちは、次世代システム研究室のN.M.です。この半年、日常的に使っているコーディングエージェントのために、メモリシステムを作り続けてきました。…"
+        },
         {
           "title": "AWS Amplifyを使って単純な構成のサイト運用をしてみた感想 | NIFTY engineering",
           "link": "https://engineering.nifty.co.jp/blog/38273",
@@ -169,45 +176,38 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-25T01:52:22",
           "excerpt": "本ブログは、仰星監査法人様のご協力のもと、株式会社 Sapeet と Amazon Web Services […]"
-        },
-        {
-          "title": "SageMaker Unified Studio アセットにビジネスメタデータをAWS CLIから付与する",
-          "link": "https://qiita.com/swkky/items/d84b98fceff972c14fa4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-25T00:47:27",
-          "excerpt": "はじめに 本記事は以下のシリーズ記事の続編です。アセットやビジネスコンテキストの概要についてはそれぞれこちらを参照ください。SageMaker Unified Studio におけるアセットとは？…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "東京23区で「徒歩10分以内」に駅がない地域はどこ？　駅空白地帯マップが話題",
+      "link": "https://www.itmedia.co.jp/news/article/2608/25/2000000759/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-25T09:15:41",
+      "excerpt": "東京23区周辺で「徒歩10分内に駅がない地域」を示した地図が、Xで注目を集めている。統計データの地図表示サービス「47maps」が公式Xアカウントで公開した。"
+    },
+    {
+      "title": "サブコン派遣記【前編・施工部編】 | vicc blog",
+      "link": "https://blog.vicc.jp/entry/dispatch-report-part1",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-25T09:00:00",
+      "excerpt": "VICCからサブコン工事部へ1年半派遣された社員の体験記（前編）。デジタル完結の生産設計とフィジカルな建築現場の違い、流動する情報への苦労や、職人の調整力から学んだ「建てやすい図面」について語ります。"
+    },
+    {
+      "title": "ハイヤールー、エンジニア向けAI協働力の評価設計を無償公開",
+      "link": "https://codezine.jp/article/detail/29442",
+      "source": "CodeZine",
+      "published": "2026-08-25T09:00:00",
+      "excerpt": "ハイヤールー、エンジニア向けAI協働力の評価設計を無償公開"
+    },
+    {
       "title": "楽天版SHEIN？　若者向けプチプラ通販「ラクヨコ」開設　SNS感覚で数百円から商品探し",
       "link": "https://www.itmedia.co.jp/news/article/2608/25/2000000757/",
       "source": "ITmedia NEWS",
       "published": "2026-08-25T08:51:52",
       "excerpt": "楽天グループは8月25日、低価格なファッションアイテムや雑貨などを集めたオンラインストア「楽天ラクヨコ」を開設した。若年層向けに約6万点の商品を数百円から販売する。品ぞろえは今後順次拡充する予定。"
-    },
-    {
-      "title": "HMRC、国民保険制度改革に5億ポンドの人参をぶら下げる",
-      "link": "https://www.theregister.com/software/2026/08/25/hmrc-dangles-500m-carrot-for-national-insurance-system-revamp/5291869",
-      "source": "The Register（英語）",
-      "published": "2026-08-25T08:30:00",
-      "excerpt": "Taxman は不安定な NPS をアジャイル時代に引き込みたいと考えている"
-    },
-    {
-      "title": "仮想化のモダナイゼーションとは何ですか?",
-      "link": "https://www.theregister.com/virtualization/2026/08/25/sponsored-what-is-virtualization-modernization/5290459",
-      "source": "The Register（英語）",
-      "published": "2026-08-25T08:00:00",
-      "excerpt": "スポンサー付き解説: 仮想化ポートフォリオを再考するために長期的なアプローチを取る必要がある理由"
-    },
-    {
-      "title": "【4M変更管理】 Excel・メール・FAXの伝言ゲームに疲れていませんか？ サプライチェーン品質を守る統合ツールのご紹介",
-      "link": "https://dev.classmethod.jp/articles/20260825_MBT_4m_pcn_tool/",
-      "source": "DevelopersIO",
-      "published": "2026-08-25T07:48:10",
-      "excerpt": "製造業のサプライチェーンにおいて頻発する4M変更管理の課題を、実例を交えながら解説し、その解決策となる4M変更管理ツールについてご紹介します。"
     }
   ]
 }
