@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-25T08:04:54",
+  "generated_at": "2026-08-25T09:05:05",
   "window_hours": 24,
-  "total": 227,
+  "total": 222,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が44件。Claude Code の v2.1.240 〜 v2.1.245（8 月 22 日〜25 日）のアップデートをまとめました。…",
+      "summary": "生成AIの新着が44件。「AIが脆弱性を見つける」ことが現実になった2026年。AnthropicのClaude Mythos Preview発表後、重大なCVEの公開件数が異例のペースで増えていることが調査結果で示された。これを踏まえて脆弱性対策を考える。",
       "articles": [
+        {
+          "title": "Claude Mythos発表後、CVEが異常増加　7月は発表前の5倍に",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news036.html",
+          "source": "@IT",
+          "published": "2026-08-25T08:00:00",
+          "excerpt": "「AIが脆弱性を見つける」ことが現実になった2026年。AnthropicのClaude Mythos Preview発表後、重大なCVEの公開件数が異例のペースで増えていることが調査結果で示された。これを踏まえて脆弱性対策を考える。"
+        },
         {
           "title": "Claude Code v2.1.240〜v2.1.245 の主要アップデート - modelPicker と promptCacheTtl の追加",
           "link": "https://dev.classmethod.jp/articles/20260825-cc-updates-v2-1-245/",
@@ -29,20 +36,13 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-25T06:51:27",
           "excerpt": "本記事は、人手で作成されたシステムプロンプトや設定の変更を評価することに焦点を当てています。自動的なトラジェクトリマイニング、変更の自動生成、ハーネス全体の自己改善については扱いません。…"
-        },
-        {
-          "title": "ブラウザだけで使えるClaude Code環境（EC2 + code-server + Bedrock）にCloudFrontを追加して、拡張機能もインストールできるようにしてみた",
-          "link": "https://dev.classmethod.jp/articles/202608-ec2-code-server-claude-code-bedrock-cloudfront/",
-          "source": "DevelopersIO",
-          "published": "2026-08-25T06:00:36",
-          "excerpt": "前回構築したEC2 + code-server + Bedrock環境の前段にCloudFrontを置き、自己署名証明書によるブラウザ警告と拡張機能のインストール制限を解消しました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が28件。前回構築したEC2 + code-server + Bedrock環境の前段にCloudFrontを置き、自己署名証明書によるブラウザ警告と拡張機能のインストール制限を解消しました。…",
+      "summary": "クラウドの新着が25件。前回構築したEC2 + code-server + Bedrock環境の前段にCloudFrontを置き、自己署名証明書によるブラウザ警告と拡張機能のインストール制限を解消しました。…",
       "articles": [
         {
           "title": "ブラウザだけで使えるClaude Code環境（EC2 + code-server + Bedrock）にCloudFrontを追加して、拡張機能もインストールできるようにしてみた",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。こんにちは。アカウント基盤開発部でエンジニアをしている tkmt (たくまつ) です。今回は、IETF で標準化が進んでいる Transaction Tokens について調査してまとめてみました。…",
+      "summary": "セキュリティの新着が11件。「AIが脆弱性を見つける」ことが現実になった2026年。AnthropicのClaude Mythos Preview発表後、重大なCVEの公開件数が異例のペースで増えていることが調査結果で示された。これを踏まえて脆弱性対策を考える。",
       "articles": [
+        {
+          "title": "Claude Mythos発表後、CVEが異常増加　7月は発表前の5倍に",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news036.html",
+          "source": "@IT",
+          "published": "2026-08-25T08:00:00",
+          "excerpt": "「AIが脆弱性を見つける」ことが現実になった2026年。AnthropicのClaude Mythos Preview発表後、重大なCVEの公開件数が異例のペースで増えていることが調査結果で示された。これを踏まえて脆弱性対策を考える。"
+        },
         {
           "title": "マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた | LayerXのフィード",
           "link": "https://zenn.dev/layerx/articles/e01465a15e79c2",
@@ -99,27 +106,20 @@
           "source": "@IT",
           "published": "2026-08-25T02:30:00",
           "excerpt": "認証もユーザー操作も必要ない。Microsoft Entra IDで、ネットワーク経由の攻撃によってコードを実行される恐れのある脆弱性が見つかった。CVSS基本値は10.0だ。…"
-        },
-        {
-          "title": "新「マイナアプリ」きょうスタート　「デジタル認証アプリ」統合、水色→ピンクに",
-          "link": "https://www.itmedia.co.jp/news/article/2608/25/2000000732/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-24T23:37:03",
-          "excerpt": "マイナちゃん入りアイコンは期間限定。一定期間後はマイナちゃんが消え、桜と枠線、マイナの文字だけになる予定だ。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。And fly ‘significant scale’ in 2028 – a claim that isn’t entirely bonkers, but needs a solid grain of salt",
+      "summary": "データ分析の新着が6件。そして、2028年には「大幅な規模」で飛行する – この主張は完全にばかげているわけではないが、しっかりと割り引いて考える必要がある",
       "articles": [
         {
-          "title": "SpaceX claims it will put a Vera Rubin NVL72 rack-scale system into orbit next year",
+          "title": "SpaceXは、Vera Rubin NVL72ラックスケールシステムを来年軌道に投入すると主張している",
           "link": "https://www.theregister.com/off-prem/2026/08/25/spacex-claims-it-will-put-a-vera-rubin-nvl72-rack-scale-system-into-orbit-next-year/5292067",
           "source": "The Register（英語）",
           "published": "2026-08-25T05:21:05",
-          "excerpt": "And fly ‘significant scale’ in 2028 – a claim that isn’t entirely bonkers, but needs a solid grain of salt"
+          "excerpt": "そして、2028年には「大幅な規模」で飛行する – この主張は完全にばかげているわけではないが、しっかりと割り引いて考える必要がある"
         },
         {
           "title": "OpenSearch Serverless で「近くの道の駅」を距離順に返す施設検索 API を CDK で作ってみた",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が17件。はじめに こんにちは。普段は@niftyトップページの開発運用をしている宮本です。最近git worktreeで並行して開発していたところ、.terraform や node_modules フォルダが大量に作成され、 […]…",
+      "summary": "開発ツールの新着が16件。はじめに こんにちは。普段は@niftyトップページの開発運用をしている宮本です。最近git worktreeで並行して開発していたところ、.terraform や node_modules フォルダが大量に作成され、 […]…",
       "articles": [
         {
           "title": "AWS Amplifyを使って単純な構成のサイト運用をしてみた感想 | NIFTY engineering",
@@ -182,11 +182,25 @@
   ],
   "uncategorized": [
     {
-      "title": "What is virtualization modernization?",
+      "title": "楽天版SHEIN？　若者向けプチプラ通販「ラクヨコ」開設　SNS感覚で数百円から商品探し",
+      "link": "https://www.itmedia.co.jp/news/article/2608/25/2000000757/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-25T08:51:52",
+      "excerpt": "楽天グループは8月25日、低価格なファッションアイテムや雑貨などを集めたオンラインストア「楽天ラクヨコ」を開設した。若年層向けに約6万点の商品を数百円から販売する。品ぞろえは今後順次拡充する予定。"
+    },
+    {
+      "title": "HMRC、国民保険制度改革に5億ポンドの人参をぶら下げる",
+      "link": "https://www.theregister.com/software/2026/08/25/hmrc-dangles-500m-carrot-for-national-insurance-system-revamp/5291869",
+      "source": "The Register（英語）",
+      "published": "2026-08-25T08:30:00",
+      "excerpt": "Taxman は不安定な NPS をアジャイル時代に引き込みたいと考えている"
+    },
+    {
+      "title": "仮想化のモダナイゼーションとは何ですか?",
       "link": "https://www.theregister.com/virtualization/2026/08/25/sponsored-what-is-virtualization-modernization/5290459",
       "source": "The Register（英語）",
       "published": "2026-08-25T08:00:00",
-      "excerpt": "SPONSORED EXPLAINER: Why you should take a long-term approach to rethinking your virtualization portfolio"
+      "excerpt": "スポンサー付き解説: 仮想化ポートフォリオを再考するために長期的なアプローチを取る必要がある理由"
     },
     {
       "title": "【4M変更管理】 Excel・メール・FAXの伝言ゲームに疲れていませんか？ サプライチェーン品質を守る統合ツールのご紹介",
@@ -194,20 +208,6 @@
       "source": "DevelopersIO",
       "published": "2026-08-25T07:48:10",
       "excerpt": "製造業のサプライチェーンにおいて頻発する4M変更管理の課題を、実例を交えながら解説し、その解決策となる4M変更管理ツールについてご紹介します。"
-    },
-    {
-      "title": "Australia’s record industry won’t chart tunes recorded in the key of AI",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/25/australias-record-industry-wont-chart-tunes-recorded-in-the-key-of-ai/5292074",
-      "source": "The Register（英語）",
-      "published": "2026-08-25T07:15:43",
-      "excerpt": "This is basically a riff on ‘You wouldn’t steal a car’ and means only the human league can have a hit"
-    },
-    {
-      "title": "Amazon Quick と Snowflake Cortex AI によるマネーロンダリング対策のアラートトリアージの自動化",
-      "link": "https://aws.amazon.com/jp/blogs/news/automate-aml-alert-triage-with-amazon-quick-and-snowflake-cortex-ai/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-08-25T07:10:06",
-      "excerpt": "金融機関のマネーロンダリング対策では、1 件のアラート調査に 30〜90 分を要し、その 90〜95% が誤検知とされます。…"
     }
   ]
 }
