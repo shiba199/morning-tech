@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-24T23:43:00",
+  "generated_at": "2026-08-25T00:34:55",
   "window_hours": 24,
-  "total": 221,
+  "total": 223,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が48件。この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の25日目の記事となります。過去の投稿（リンク集）は以下リンクからご覧ください。…",
+      "summary": "生成AIの新着が48件。Amazon Connect Customer AIエージェントのエージェント支援でフローモジュールツールを実行する際、「Tool is not allowed」エラーが発生してしまいました。…",
       "articles": [
+        {
+          "title": "Amazon Connect Customer AIエージェントのエージェントアシスタンスでは、ログインユーザーにもツール権限が必要です",
+          "link": "https://dev.classmethod.jp/articles/amazon-connect-customer-ai-agent-tool-permissions/",
+          "source": "DevelopersIO",
+          "published": "2026-08-25T00:04:11",
+          "excerpt": "Amazon Connect Customer AIエージェントのエージェント支援でフローモジュールツールを実行する際、「Tool is not allowed」エラーが発生してしまいました。…"
+        },
         {
           "title": "【AgentCore】Runtime の命名で混乱したのでルールを整理する",
           "link": "https://qiita.com/ryu-ki/items/d345d6ce05f0e5d9436a",
@@ -29,56 +36,56 @@
           "source": "CodeZine",
           "published": "2026-08-24T23:00:00",
           "excerpt": "GitHub Copilotクラウドエージェント、Microsoft Teamsでの共同作業に対応"
-        },
-        {
-          "title": "建築業でも「Claudeの有料導入」が急増　AI導入レベルが上がった企業を悩ます「新たな壁」とは",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news041.html",
-          "source": "@IT",
-          "published": "2026-08-24T23:00:00",
-          "excerpt": "建築AI経営研究会は、「建築AI経営実態調査」の結果を公開した。特定部署以上でAIを活用する企業が68.5％に達したことが判明した。課題は導入初期の試行錯誤から「新たな壁」にシフトしている。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。はじめに この記事では、私がデータ移行・バッチ処理のプロジェクトで遭遇した「Foreign Data Wrapper（以下、FDW）を介したクエリ実行時におけるパフォーマンス低下（タイムアウト）とデータ欠落」という問題について、解決に至るま…",
+      "summary": "クラウドの新着が20件。こんにちは。大規模金融システムでSREを担当しているshungineerです。担当しているプロジェクトでは、Google Kubernetes Engine（GKE）を本番環境で利用しています。…",
       "articles": [
+        {
+          "title": "今マネージドKubernetesを使うなら？ 2019年に大規模金融システムで行った比較を2026年にやり直してみた",
+          "link": "https://qiita.com/shungineer/items/8de0c005f65567e85f43",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-25T00:08:36",
+          "excerpt": "こんにちは。大規模金融システムでSREを担当しているshungineerです。担当しているプロジェクトでは、Google Kubernetes Engine（GKE）を本番環境で利用しています。…"
+        },
+        {
+          "title": "【Day1】クラウドプラクティショナー取得後の第一歩！サーバーレス読書記録アプリを1週間で作ってみた",
+          "link": "https://qiita.com/matsurin/items/365f0eec1f6dffbc30ed",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-24T23:52:05",
+          "excerpt": "はじめに 7月にAWS認定クラウドプラクティショナー（CLF）を取得した知識を活かし、実際に「動くシステム」を構築していくための開発ログです。…"
+        },
+        {
+          "title": "Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health",
+          "source": "AWS What's New（英語）",
+          "published": "2026-08-24T22:42:00",
+          "excerpt": "Amazon Elastic Container Service (Amazon ECS) now automatically detects and repairs container instances, enabling custom…"
+        },
         {
           "title": "SQL ServerとAurora PostgreSQLを繋ぐ！FDWとVIEWを活用した異種DB連携アーキテクチャの構築とハマりどころ | [公開中] AQ Tech Blog",
           "link": "https://techblog.asia-quest.jp/202608/aurora-postgresql-fdw-sqlserver-troubleshooting",
           "source": "企業テックブログまとめ",
           "published": "2026-08-24T22:30:00",
           "excerpt": "はじめに この記事では、私がデータ移行・バッチ処理のプロジェクトで遭遇した「Foreign Data Wrapper（以下、FDW）を介したクエリ実行時におけるパフォーマンス低下（タイムアウト）とデータ欠落」という問題について、解決に至るま…"
-        },
-        {
-          "title": "Amazon EKS がクラスターごとに複数の外部 OIDC ID プロバイダーをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-24T18:29:00",
-          "excerpt": "Amazon Elastic Kubernetes Service (Amazon EKS) は、クラスターごとに複数の外部 OpenID Connect (OIDC) ID プロバイダーをサポートするようになりました。…"
-        },
-        {
-          "title": "HN を表示: Kern – 1.5 MB バイナリのコンテナーとリソースのランタイム、デーモンなし",
-          "link": "https://github.com/getkern/kern",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-24T18:24:59",
-          "excerpt": "記事の URL: https://github.com/getkern/kern コメント URL: https://news.ycombinator.com/item?id=49423927 ポイント: 5 コメント数: 0"
-        },
-        {
-          "title": "Amazon EKS が Kubernetes コントロールプレーンの高度な設定パラメータに対応",
-          "link": "https://qiita.com/Haruki-N/items/7049acb210e638e2a595",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-24T16:43:56",
-          "excerpt": "はじめに 2026 年 8 月 12 日、AWS は Amazon EKS に対して、Kubernetes コントロールプレーンの高度な設定パラメータのサポートを発表しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。背景 SQS（メインキュー＋DLQ）とLambdaによるメッセージキュー処理をAWS SAMで構築しました。VisibilityTimeoutの計算根拠と、DLQへの振り分け条件を実装ベースで整理します。1.…",
+      "summary": "セキュリティの新着が14件。マイナちゃん入りアイコンは期間限定。一定期間後はマイナちゃんが消え、桜と枠線、マイナの文字だけになる予定だ。",
       "articles": [
+        {
+          "title": "新「マイナアプリ」きょうスタート　「デジタル認証アプリ」統合、水色→ピンクに",
+          "link": "https://www.itmedia.co.jp/news/article/2608/25/2000000732/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-24T23:37:03",
+          "excerpt": "マイナちゃん入りアイコンは期間限定。一定期間後はマイナちゃんが消え、桜と枠線、マイナの文字だけになる予定だ。"
+        },
         {
           "title": "SAMの`SQSPollerPolicy`が1行で肩代わりしている3つのIAM権限",
           "link": "https://qiita.com/caymezon/items/44ae3869b0d1e6f378cd",
@@ -99,13 +106,6 @@
           "source": "ITmedia エンタープライズ",
           "published": "2026-08-24T22:00:00",
           "excerpt": "Microsoftは「Microsoft Entra ID」に存在した深刻度「CVSS 10.0」の脆弱性「CVE-2026-69836」を公表した。Microsoft側で既に緩和が完了しており、利用者側の対応は不要とされている。…"
-        },
-        {
-          "title": "Instinct の強力な AI アシスタントがプライバシーとセキュリティの懸念を引き起こしている",
-          "link": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-24T18:03:55",
-          "excerpt": "初期のテスターは Instinct の機能を絶賛していますが、AI アシスタントの広範囲にわたるアクセス、広範な条件、ユーザーに代わって行動する機能には不快なトレードオフが伴うと言う人もいます。"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が18件。GitHub Copilotクラウドエージェント、Microsoft Teamsでの共同作業に対応",
+      "summary": "開発ツールの新着が18件。一言で 1つのCloudFormationテンプレートを、複数のAWSアカウント・複数のリージョンに対して一括でデプロイ・更新・削除できる機能。…",
       "articles": [
+        {
+          "title": "【AWS AIP】CloudFormation StackSets",
+          "link": "https://qiita.com/tomet/items/fdede522268843395735",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-25T00:30:14",
+          "excerpt": "一言で 1つのCloudFormationテンプレートを、複数のAWSアカウント・複数のリージョンに対して一括でデプロイ・更新・削除できる機能。…"
+        },
         {
           "title": "GitHub Copilotクラウドエージェント、Microsoft Teamsでの共同作業に対応",
           "link": "https://codezine.jp/article/detail/29421",
@@ -169,45 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-08-24T21:15:52",
           "excerpt": "AWS VPN Clientがv6.0にアップデートされ、CLIコマンドが追加されました。…"
-        },
-        {
-          "title": "AWS Service CatalogとCloudFormationで標準テンプレートを配布する考え方",
-          "link": "https://qiita.com/s_horikoshi/items/1a7781d0e70dc187c2d9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-24T20:03:27",
-          "excerpt": "はじめに CloudFormationテンプレートを作れるようになると、次に出てくる悩みがあります。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "大浦氏は9月のIPOを検討していると伝えられており、その価値は160億ドルを超える可能性がある",
-      "link": "https://techcrunch.com/2026/08/24/oura-is-reportedly-eyeing-a-september-ipo-that-could-value-it-at-more-than-16b/",
+      "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+      "link": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
       "source": "TechCrunch（英語）",
-      "published": "2026-08-24T23:05:44",
-      "excerpt": "私たちは皆、それが来ることを知っていました。ただし、予想される評価額は驚くかもしれません。"
+      "published": "2026-08-25T00:23:12",
+      "excerpt": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversi…"
     },
     {
-      "title": "Bookshelf – オブジェクト ストレージ上で実行される自己ホスト型の電子書籍ライブラリ",
-      "link": "https://github.com/murerkinn/bookshelf",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-24T23:00:37",
-      "excerpt": "記事の URL: https://github.com/murerkinn/bookshelf コメント URL: https://news.ycombinator.com/item?id=49427001 ポイント: 4 コメント数: 0"
+      "title": "新たなスキル証明の方法 ~ マイクロクレデンシャルと AWS 認定の関係性について ~",
+      "link": "https://aws.amazon.com/jp/blogs/news/microcredential-certification-relationship/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-08-25T00:22:37",
+      "excerpt": "AWS Skill Builder で取得できる新しいスキル証明「マイクロクレデンシャル」をご存知ですか ?…"
     },
     {
-      "title": "SaaSの技術的難しさはホリゾンタルとバーティカルで異なる | カミナシ エンジニアブログ",
-      "link": "https://kaminashi-developer.hatenablog.jp/entry/2026/08/25/two-battles-of-saas",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-24T23:00:00",
-      "excerpt": "はじめに カミナシでSWEをしている osuzu です。筆者はSaaSと呼ばれる業務ソフトウェア開発を前職含め6年ちょっと経験し、最近ようやく言語化できたことがあります。…"
+      "title": "週刊AWS – 2026/8/17週",
+      "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260817/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-08-25T00:19:40",
+      "excerpt": "AWS CloudShell にビジュアルファイルエディタを追加、AWS Console-to-Code が 26 サービスを追加し計 32 サービスに対応、Amazon ECR のレプリケーションルール上限を 25 個に引き上げ、Amaz…"
     },
     {
-      "title": "iCloud+ Hide My Email アドレスは icloud.com に残ります",
-      "link": "https://developer.apple.com/news/?id=1ptvdtcm",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-24T22:13:40",
-      "excerpt": "記事の URL: https://developer.apple.com/news/?id=1ptvdtcm コメント URL: https://news.ycombinator.com/item?…"
+      "title": "Google Workspace、8月17日週に発表したアップデートをまとめて紹介",
+      "link": "https://codezine.jp/article/detail/29422",
+      "source": "CodeZine",
+      "published": "2026-08-25T00:00:00",
+      "excerpt": "Google Workspace、8月17日週に発表したアップデートをまとめて紹介"
     }
   ]
 }
