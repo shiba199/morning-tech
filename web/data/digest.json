@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-25T11:50:57",
+  "generated_at": "2026-08-25T12:23:33",
   "window_hours": 24,
-  "total": 234,
+  "total": 239,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が47件。auto modeのClaude CodeがRead/Edit/Writeを使わずcat/sedで編集するのは故障ではなく、v2.1.221から無告知で入った仕様です。changelogにも記載がありません。…",
+      "summary": "生成AIの新着が49件。GitHub Copilot CLIのBYOK機能を使ってAmazon BedrockのClaude Opus5を動かしてみました。…",
       "articles": [
+        {
+          "title": "GitHub Copilot CLIのBYOK機能でBedrock APIからOpus5を使ってみた",
+          "link": "https://dev.classmethod.jp/articles/github-copilot-cli-byok-bedrock-api-opus5/",
+          "source": "DevelopersIO",
+          "published": "2026-08-25T12:19:30",
+          "excerpt": "GitHub Copilot CLIのBYOK機能を使ってAmazon BedrockのClaude Opus5を動かしてみました。…"
+        },
+        {
+          "title": "「世界は準備ができているようです」: OpenAI 製品責任者 Thibault Sottiaux 氏へのインタビュー",
+          "link": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-25T12:00:00",
+          "excerpt": "TechCrunch では、エージェント、UX、レポートについて、OpenAI の製品責任者である Greg Brockman 氏に語ります。"
+        },
         {
           "title": "Claude CodeがBashを優先的に使う仕様にいつの間にか変わっていた | SIOS Tech Lab",
           "link": "https://tech-lab.sios.jp/archives/54275",
@@ -22,20 +36,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-25T10:00:00",
           "excerpt": "今月誕生日の人、おめでとうございます🎉エデュケーショナルサービス課の森純子です。2026年8月25日リリースの v2.1.243 で、地味だけどコストに直結しそうな設定が追加されていました。Claude Code Changelog（v2.…"
-        },
-        {
-          "title": "詐欺師が偽の OpenAI Codex 広告を通じて Mac マルウェアをプッシュ",
-          "link": "https://www.theregister.com/security/2026/08/25/crooks-push-mac-malware-through-fake-openai-codex-ads/5291899",
-          "source": "The Register（英語）",
-          "published": "2026-08-25T09:15:00",
-          "excerpt": "スポンサー付き検索の結果は、開発者を ClickFix マルウェアの罠に直接導きます"
-        },
-        {
-          "title": "Claude CoworkのLive Artifactsで「Backlog通知トリアージ」を作ってみた",
-          "link": "https://dev.classmethod.jp/articles/claude-cowork-liveartifacts-backlog-notification-sort/",
-          "source": "DevelopersIO",
-          "published": "2026-08-25T09:11:25",
-          "excerpt": "Claude Coworkで複数Backlogスペースの通知を自動仕分けするダッシュボードを作ってみました。実際の運用から見えた改善点や、AIと一緒に進めるときのコツをまとめます。"
         }
       ]
     },
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。毎晩18時、翌日の商談ブリーフがSlackに届く。作っているのはAIエージェントで、その中には「舘野ならどこに賭けるか」という戦略提言まで入っている。書いたのは私ではなく、私のghoostだ。…",
+      "summary": "データ分析の新着が8件。Luffu Link は、終日の健康状態のセンシング、音声ログ、位置認識、信頼できる連絡先から支援を受ける機能を 1 つのデバイスに統合しており、近くに電話を置く必要はありません。",
       "articles": [
+        {
+          "title": "Fitbit の創設者が LTE の健康と安全バンドである Luffu Link を発売",
+          "link": "https://techcrunch.com/2026/08/25/fitbit-founders-launch-luffu-link-an-lte-health-and-safety-band/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-08-25T12:00:00",
+          "excerpt": "Luffu Link は、終日の健康状態のセンシング、音声ログ、位置認識、信頼できる連絡先から支援を受ける機能を 1 つのデバイスに統合しており、近くに電話を置く必要はありません。"
+        },
         {
           "title": "AIでAIを動かす　～BizDev編",
           "link": "https://dev.classmethod.jp/articles/wiring-ghoost-into-workflow-via-mcp/",
@@ -134,21 +141,21 @@
           "source": "DevelopersIO",
           "published": "2026-08-25T01:57:35",
           "excerpt": "カーナビの施設検索（POI 検索）に必要な「距離での絞り込み」「距離順の並べ替え」「設備での絞り込み」「日本語の名称検索」を、Amazon OpenSearch Serverless の geo_point と kuromoji で 1 つ…"
-        },
-        {
-          "title": "AWS Glue 6.0 が 30% 低価格で利用可能になり、Apache Iceberg v3 が完全にサポートされます",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-25T00:54:44",
-          "excerpt": "2026 年 8 月 21 日、AWS Glue 6.0 の一般提供について発表しました。これにより、価格が以 […]"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。こんにちは、次世代システム研究室のN.M.です。この半年、日常的に使っているコーディングエージェントのために、メモリシステムを作り続けてきました。…",
+      "summary": "開発ツールの新着が15件。GitHub Copilot CLIのBYOK機能を使ってAmazon BedrockのClaude Opus5を動かしてみました。…",
       "articles": [
+        {
+          "title": "GitHub Copilot CLIのBYOK機能でBedrock APIからOpus5を使ってみた",
+          "link": "https://dev.classmethod.jp/articles/github-copilot-cli-byok-bedrock-api-opus5/",
+          "source": "DevelopersIO",
+          "published": "2026-08-25T12:19:30",
+          "excerpt": "GitHub Copilot CLIのBYOK機能を使ってAmazon BedrockのClaude Opus5を動かしてみました。…"
+        },
         {
           "title": "AIコーディングエージェントのための、ファイルベースのメモリシステム | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
           "link": "https://recruit.group.gmo/engineer/jisedai/blog/file-based-memory-for-coding-agents/",
@@ -169,13 +176,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-25T01:57:35",
           "excerpt": "カーナビの施設検索（POI 検索）に必要な「距離での絞り込み」「距離順の並べ替え」「設備での絞り込み」「日本語の名称検索」を、Amazon OpenSearch Serverless の geo_point と kuromoji で 1 つ…"
-        },
-        {
-          "title": "株式会社 Sapeet がプロダクトの成長に合わせて生成 AI 基盤をコードベースへ ― Dify で築いた資産を活かし、Amazon Bedrock AgentCore と Strands Agents SDK への移行を 2 週間で実現",
-          "link": "https://aws.amazon.com/jp/blogs/news/sapeet-migrate-to-agentcore/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-25T01:52:22",
-          "excerpt": "本ブログは、仰星監査法人様のご協力のもと、株式会社 Sapeet と Amazon Web Services […]"
         }
       ]
     }
@@ -189,25 +189,25 @@
       "excerpt": "Amazon Connect のフローモジュール機能を活用して、ループ処理を簡潔に実装する方法をご紹介します。パスワード入力の例を通じて、複雑になりがちなコンタクトフロー構築をシンプルにするテクニックです。"
     },
     {
+      "title": "HelloAssembly 可能な限り最小の完全な Windows アプリケーション",
+      "link": "https://github.com/PlummersSoftwareLLC/HelloAssembly",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-25T11:40:00",
+      "excerpt": "記事の URL: https://github.com/PlummersSoftwareLLC/HelloAssembly コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "クレジットカード特典が92億ドルの富の移転に",
+      "link": "https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-25T11:37:24",
+      "excerpt": "記事の URL: https://www.library.hbs.…"
+    },
+    {
       "title": "「まるでキャバクラ」――「ライザのアトリエ」主人公と話せるAIアプリに「課金圧強すぎ」の声　「10日に会話15回」で月額980円",
       "link": "https://www.itmedia.co.jp/news/article/2608/25/2000000774/",
       "source": "ITmedia NEWS",
       "published": "2026-08-25T11:23:23",
       "excerpt": "人気RPG「ライザのアトリエ」のキャラクター「ライザ」と会話できるAIアプリ「RyzaChat ライザと創るあなただけのひと夏の夢物語」が8月25日、正式に配信を開始した。…"
-    },
-    {
-      "title": "【2026年版】AWS初心者におすすめの勉強方法5選｜未経験から何を学ぶ？学習ロードマップも解説",
-      "link": "https://qiita.com/reo_infraengineer/items/992ae89e171cae6ff43d",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-25T11:08:05",
-      "excerpt": "「AWSのおすすめの勉強方法を知りたい」 「AWS初心者は何から勉強すればいい？」 「未経験からインフラエンジニアを目指すなら、AWSはどこまで勉強するべき？…"
-    },
-    {
-      "title": "【Amazon Connect】Amazon Polly で電話番号を区切って読み上げさせてみた",
-      "link": "https://dev.classmethod.jp/articles/amazon-polly-phone-number-reading/",
-      "source": "DevelopersIO",
-      "published": "2026-08-25T11:01:50",
-      "excerpt": "Amazon ConnectでAmazon Pollyに電話番号を読み上げさせる際、SSMLで指定する方法と番号を区切る方法のどちらが効果的なのか、実際に試して比較してみました。"
     }
   ]
 }
