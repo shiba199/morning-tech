@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T11:21:30",
+  "generated_at": "2026-08-25T11:50:57",
   "window_hours": 24,
-  "total": 231,
+  "total": 234,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が29件。บทความนี้จะแนะนำวิธีรับม ือเมื่อได้รับการแจ้งเตือนメンテナンス EC2 サービス AWS サービスインスタンスの再起動とシステムの再起動続きを読むメンテナンスのお知らせ",
+      "summary": "クラウドの新着が30件。症状 EC2にSSH/HTTPで繋がらない。タイムアウトする。VPC系の「繋がらない」は、確認する順番さえ知っていれば大半が数分で切り分けられます。診断フロー（上から順に） 1.…",
       "articles": [
+        {
+          "title": "EC2に繋がらないときのVPC診断フロー（SG / NACL / ルートテーブル）",
+          "link": "https://qiita.com/riverwell2359/items/4d7eb0f7ce6487ff062b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-25T11:23:16",
+          "excerpt": "症状 EC2にSSH/HTTPで繋がらない。タイムアウトする。VPC系の「繋がらない」は、確認する順番さえ知っていれば大半が数分で切り分けられます。診断フロー（上から順に） 1.…"
+        },
         {
           "title": "[AWS テクニカルサポートノート] EC2 メンテナンス EC2 再起動",
           "link": "https://dev.classmethod.jp/articles/tsnote-thai-ec2-maintenance-reboot/",
@@ -64,13 +71,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-25T08:27:08",
           "excerpt": "はじめに：試験のVPCと、現場のVPCは違う SAAでVPCは最重要テーマです。試験では「パブリックサブネットはIGWへのルートを持つ」と覚えます。…"
-        },
-        {
-          "title": "ブラウザだけで使えるClaude Code環境（EC2 + code-server + Bedrock）にCloudFrontを追加して、拡張機能もインストールできるようにしてみた",
-          "link": "https://dev.classmethod.jp/articles/202608-ec2-code-server-claude-code-bedrock-cloudfront/",
-          "source": "DevelopersIO",
-          "published": "2026-08-25T06:00:36",
-          "excerpt": "前回構築したEC2 + code-server + Bedrock環境の前段にCloudFrontを置き、自己署名証明書によるブラウザ警告と拡張機能のインストール制限を解消しました。…"
         }
       ]
     },
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "【Amazon Connect】フローモジュールでループ処理を実装してみた",
+      "link": "https://dev.classmethod.jp/articles/amazon-connect-flow-module-loop/",
+      "source": "DevelopersIO",
+      "published": "2026-08-25T11:43:03",
+      "excerpt": "Amazon Connect のフローモジュール機能を活用して、ループ処理を簡潔に実装する方法をご紹介します。パスワード入力の例を通じて、複雑になりがちなコンタクトフロー構築をシンプルにするテクニックです。"
+    },
+    {
+      "title": "「まるでキャバクラ」――「ライザのアトリエ」主人公と話せるAIアプリに「課金圧強すぎ」の声　「10日に会話15回」で月額980円",
+      "link": "https://www.itmedia.co.jp/news/article/2608/25/2000000774/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-25T11:23:23",
+      "excerpt": "人気RPG「ライザのアトリエ」のキャラクター「ライザ」と会話できるAIアプリ「RyzaChat ライザと創るあなただけのひと夏の夢物語」が8月25日、正式に配信を開始した。…"
+    },
+    {
       "title": "【2026年版】AWS初心者におすすめの勉強方法5選｜未経験から何を学ぶ？学習ロードマップも解説",
       "link": "https://qiita.com/reo_infraengineer/items/992ae89e171cae6ff43d",
       "source": "Qiita AWSタグ",
@@ -194,20 +208,6 @@
       "source": "DevelopersIO",
       "published": "2026-08-25T11:01:50",
       "excerpt": "Amazon ConnectでAmazon Pollyに電話番号を読み上げさせる際、SSMLで指定する方法と番号を区切る方法のどちらが効果的なのか、実際に試して比較してみました。"
-    },
-    {
-      "title": "ReactDOM.browser() APIとは何か: ブラウザ依存UIをSSRから切り離す | Algomatic Tech Blog",
-      "link": "https://tech.algomatic.jp/entry/2026/08/25/195821",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-25T10:58:21",
-      "excerpt": "こんにちは。AlgomaticでソフトウェアエンジニアをしているGo（@53able）です。localStorage、DOM、Canvas、Web AudioなどのブラウザAPIは、サーバーでは利用できません。…"
-    },
-    {
-      "title": "防衛装備庁、テラドローンと迎撃ドローンの量産契約を正式締結　国産機「Terra B1」を調達へ",
-      "link": "https://www.itmedia.co.jp/news/article/2608/25/2000000772/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-25T10:33:17",
-      "excerpt": "防衛装備庁は8月25日、「迎撃ドローン早期取得プログラム」に基づき、テラドローン（東京都渋谷区）と量産調達契約を結んだと発表した。自爆型無人機への対処を想定した国産機「Terra B1」を調達する。"
     }
   ]
 }
