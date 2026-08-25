@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T16:05:59",
+  "generated_at": "2026-08-25T17:02:49",
   "window_hours": 24,
-  "total": 259,
+  "total": 254,
   "topic_count": 5,
   "groups": [
     {
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が28件。Aurora PostgreSQL 18.4 のリリースに伴い、Babelfish 6.1.0 も同時にリリースされました。…",
+      "summary": "クラウドの新着が25件。20 周年を迎えるにあたり、AWS が汎用および AI ワークロード用のカスタム シリコンを構築し、2006 年のお客様が想像できなかった新しいフォーム ファクターと展開モデルに EC2 を拡張するなど、クラウド コンピューティングが提供で…",
       "articles": [
+        {
+          "title": "Amazon EC2 20 歳の誕生日おめでとう",
+          "link": "https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-08-25T16:11:02",
+          "excerpt": "20 周年を迎えるにあたり、AWS が汎用および AI ワークロード用のカスタム シリコンを構築し、2006 年のお客様が想像できなかった新しいフォーム ファクターと展開モデルに EC2 を拡張するなど、クラウド コンピューティングが提供で…"
+        },
         {
           "title": "[アップデート] Amazon Aurora PostgreSQL 18.4 がリリースされたので、Babelfish 6.1 のアップデート内容を確認してみた",
           "link": "https://dev.classmethod.jp/articles/aurora-postgresql-18-4-babelfish-6-1/",
@@ -64,27 +71,20 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-25T13:49:26",
           "excerpt": "TOAI System 開発陣営、IDE Gemini CTO（影分身）です。私たち「結社」は現在、「命の地球プロジェクト」という壮大なミッションの下、システムアーキテクチャの極限の最適化と自律運用を追求しています。…"
-        },
-        {
-          "title": "EC2に繋がらないときのVPC診断フロー（SG / NACL / ルートテーブル）",
-          "link": "https://qiita.com/riverwell2359/items/4d7eb0f7ce6487ff062b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-25T11:23:16",
-          "excerpt": "症状 EC2にSSH/HTTPで繋がらない。タイムアウトする。VPC系の「繋がらない」は、確認する順番さえ知っていれば大半が数分で切り分けられます。診断フロー（上から順に） 1.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。Grand Theft Auto fans, eager for news about one of the most anticipated video games of all time, appear especially vulne…",
+      "summary": "セキュリティの新着が17件。グランド・セフト・オートのファンは、史上最も期待されているビデオゲームの 1 つについてのニュースを待ち望んでおり、この新たなサイバー攻撃に対して特に脆弱であるようです。",
       "articles": [
         {
-          "title": "That fake Grand Theft Auto VI demo is actually just malware",
+          "title": "あの偽の『グランド・セフト・オート VI』デモは、実はただのマルウェアだった",
           "link": "https://techcrunch.com/2026/08/25/that-fake-grand-theft-auto-vi-demo-is-actually-just-malware/",
           "source": "TechCrunch（英語）",
           "published": "2026-08-25T15:48:38",
-          "excerpt": "Grand Theft Auto fans, eager for news about one of the most anticipated video games of all time, appear especially vulne…"
+          "excerpt": "グランド・セフト・オートのファンは、史上最も期待されているビデオゲームの 1 つについてのニュースを待ち望んでおり、この新たなサイバー攻撃に対して特に脆弱であるようです。"
         },
         {
           "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』で学ぶ『postgreSQL』のセキュリティ基礎についてその④",
@@ -122,11 +122,11 @@
           "excerpt": "Amazon Kinesis Data Streams に接続したストリーミングマテリアライズドビューの更新が、パッチ P203 以降で並行スケーリングの対象になりました。実際に試してみたので、動作検証の結果をお伝えします。"
         },
         {
-          "title": "MySQL CDC to BigQuery: what periodic syncs miss, and how binlog avoids it",
+          "title": "MySQL CDC から BigQuery へ: 定期的な同期で見逃されるものと、binlog がそれを回避する方法",
           "link": "https://www.erathos.com/en/blog/mysql-cdc-to-bigquery",
           "source": "Hacker News（英語）",
           "published": "2026-08-25T14:18:29",
-          "excerpt": "Article URL: https://www.erathos.com/en/blog/mysql-cdc-to-bigquery Comments URL: https://news.ycombinator.com/item?…"
+          "excerpt": "記事の URL: https://www.erathos.com/en/blog/mysql-cdc-to-bigquery コメント URL: https://news.ycombinator.com/item?…"
         },
         {
           "title": "Apple、パフォーマンスと AI コンピューティングの大幅な飛躍のために M6 および M5 Ultra を発表",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。本シリーズでは、Amazon Cognito を土台に「ブラウザ認証」から「CLI・ヘッドレス環境向けの PAT(Personal Access Token)認証」、さらに「認証付き社内向け MCP サーバ」までを段階的に構築していきます。…",
+      "summary": "開発ツールの新着が14件。本シリーズでは、Amazon Cognito を土台に「ブラウザ認証」から「CLI・ヘッドレス環境向けの PAT(Personal Access Token)認証」、さらに「認証付き社内向け MCP サーバ」までを段階的に構築していきます。…",
       "articles": [
         {
           "title": "Amazon Cognito 入門 — Terraform で作る Hosted UI ログイン基盤",
@@ -189,11 +189,18 @@
       "excerpt": "Vercelは同社が開発するWebアプリケーションフレームワークの最新版となる「Next.js 16.3」をリリースしました。Next.jsは、ReactをベースとしたオープンソースのWebアプリケーションフレームワークです。ルーティング.…"
     },
     {
-      "title": "New bootloader lets you take the \"Meta\" out of the original Meta Quest",
+      "title": "Life360 は、新しい 8 ドルのスキャン可能なタグとズーミー アラートでペット追跡を拡張します",
+      "link": "https://techcrunch.com/2026/08/25/life360-expands-pet-tracking-with-new-8-scannable-tags-and-zoomie-alerts/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-25T16:35:00",
+      "excerpt": "Life360 の新しい $7.99 のスキャン可能なペット タグは、迷子のペットが発見されると家族に警告し、最後にわかった位置を共有します。また、新しいケア追跡機能は、家族が餌やり、散歩、投薬などを監視するのに役立ちます。"
+    },
+    {
+      "title": "新しいブートローダーにより、元のメタクエストから「メタ」を取り出すことができます",
       "link": "https://arstechnica.com/gaming/2026/08/new-bootloader-lets-you-take-the-meta-out-of-the-original-meta-quest/",
       "source": "Ars Technica（英語）",
       "published": "2026-08-25T16:04:37",
-      "excerpt": "Privilege escalation attack grants \"full control\" and freedom from Meta's servers/apps."
+      "excerpt": "権限昇格攻撃により、Meta のサーバー/アプリからの「フル コントロール」と自由が与えられます。"
     },
     {
       "title": "新型「Mac mini」登場　M6チップに刷新、1万5000円アップの14万9800円から　上位はM5 Proに",
@@ -201,13 +208,6 @@
       "source": "ITmedia NEWS",
       "published": "2026-08-25T15:44:23",
       "excerpt": "米Appleが、新型「Mac mini」を発表した。標準モデルには同社初の2nmチップ「M6」、上位モデルには「M5 Pro」を搭載する。…"
-    },
-    {
-      "title": "Pacific Fusion’s next fusion machine could clear a key hurdle to commercial power",
-      "link": "https://techcrunch.com/2026/08/25/pacific-fusion-next-fusion-machine-could-clear-key-hurdle-to-commercial-power/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-25T15:30:00",
-      "excerpt": "Fusion startup Pacific Fusion broke ground on a demonstration facility in New Mexico that it says will generate enough e…"
     }
   ]
 }
