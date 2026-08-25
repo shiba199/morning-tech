@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-25T10:57:35",
+  "generated_at": "2026-08-25T11:21:30",
   "window_hours": 24,
-  "total": 225,
+  "total": 231,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。スポンサー付き検索の結果は、開発者を ClickFix マルウェアの罠に直接導きます",
+      "summary": "生成AIの新着が47件。auto modeのClaude CodeがRead/Edit/Writeを使わずcat/sedで編集するのは故障ではなく、v2.1.221から無告知で入った仕様です。changelogにも記載がありません。…",
       "articles": [
+        {
+          "title": "Claude CodeがBashを優先的に使う仕様にいつの間にか変わっていた | SIOS Tech Lab",
+          "link": "https://tech-lab.sios.jp/archives/54275",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-25T10:08:27",
+          "excerpt": "auto modeのClaude CodeがRead/Edit/Writeを使わずcat/sedで編集するのは故障ではなく、v2.1.221から無告知で入った仕様です。changelogにも記載がありません。…"
+        },
+        {
+          "title": "Claude Code に subagentPromptCacheTtl 登場！サブエージェントのキャッシュが1時間？！ | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/claude-code-subagent-prompt-cache-ttl",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-25T10:00:00",
+          "excerpt": "今月誕生日の人、おめでとうございます🎉エデュケーショナルサービス課の森純子です。2026年8月25日リリースの v2.1.243 で、地味だけどコストに直結しそうな設定が追加されていました。Claude Code Changelog（v2.…"
+        },
         {
           "title": "詐欺師が偽の OpenAI Codex 広告を通じて Mac マルウェアをプッシュ",
           "link": "https://www.theregister.com/security/2026/08/25/crooks-push-mac-malware-through-fake-openai-codex-ads/5291899",
@@ -22,20 +36,6 @@
           "source": "DevelopersIO",
           "published": "2026-08-25T09:11:25",
           "excerpt": "Claude Coworkで複数Backlogスペースの通知を自動仕分けするダッシュボードを作ってみました。実際の運用から見えた改善点や、AIと一緒に進めるときのコツをまとめます。"
-        },
-        {
-          "title": "Claude CodeとAWS 公式ワークフローを用いたAI-DLCの実践 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-          "link": "https://recruit.group.gmo/engineer/jisedai/blog/ai-dlc/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-25T08:49:44",
-          "excerpt": "導入 こんにちは。グループ研究開発本部 次世代システム研究室のH.Oです。…"
-        },
-        {
-          "title": "AIコーディングエージェントのための、ファイルベースのメモリシステム | エンジニアブログ - GMOインターネットグループ グループ研究開発本部",
-          "link": "https://recruit.group.gmo/engineer/jisedai/blog/file-based-memory-for-coding-agents/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-25T08:28:14",
-          "excerpt": "こんにちは、次世代システム研究室のN.M.です。この半年、日常的に使っているコーディングエージェントのために、メモリシステムを作り続けてきました。…"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。スポンサー付き検索の結果は、開発者を ClickFix マルウェアの罠に直接導きます",
+      "summary": "セキュリティの新着が13件。こんにちは Cloud 担当の Specialist 花田です。access.redhat.…",
       "articles": [
+        {
+          "title": "ROSA Classic/HCP における OCM IAM Role の必須化について | 赤帽エンジニアブログ",
+          "link": "https://rheb.hatenablog.com/entry/2026/08/25/191049",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-25T10:10:49",
+          "excerpt": "こんにちは Cloud 担当の Specialist 花田です。access.redhat.…"
+        },
         {
           "title": "詐欺師が偽の OpenAI Codex 広告を通じて Mac マルウェアをプッシュ",
           "link": "https://www.theregister.com/security/2026/08/25/crooks-push-mac-malware-through-fake-openai-codex-ads/5291899",
@@ -99,13 +106,6 @@
           "source": "@IT",
           "published": "2026-08-25T08:00:00",
           "excerpt": "「AIが脆弱性を見つける」ことが現実になった2026年。AnthropicのClaude Mythos Preview発表後、重大なCVEの公開件数が異例のペースで増えていることが調査結果で示された。これを踏まえて脆弱性対策を考える。"
-        },
-        {
-          "title": "マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた | LayerXのフィード",
-          "link": "https://zenn.dev/layerx/articles/e01465a15e79c2",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-25T05:00:05",
-          "excerpt": "こんにちは。アカウント基盤開発部でエンジニアをしている tkmt (たくまつ) です。今回は、IETF で標準化が進んでいる Transaction Tokens について調査してまとめてみました。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "米国の一部のレストランがチップを禁止している理由",
-      "link": "https://www.bbc.com/news/articles/c4g36yze692o",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-25T10:09:47",
-      "excerpt": "記事の URL: https://www.bbc.com/news/articles/c4g36yze692o コメント URL: https://news.ycombinator.com/item?…"
+      "title": "【2026年版】AWS初心者におすすめの勉強方法5選｜未経験から何を学ぶ？学習ロードマップも解説",
+      "link": "https://qiita.com/reo_infraengineer/items/992ae89e171cae6ff43d",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-25T11:08:05",
+      "excerpt": "「AWSのおすすめの勉強方法を知りたい」 「AWS初心者は何から勉強すればいい？」 「未経験からインフラエンジニアを目指すなら、AWSはどこまで勉強するべき？…"
     },
     {
-      "title": "ウクライナ、自国のジェット推進ドローン迎撃機を発表",
-      "link": "https://www.theregister.com/offbeat/2026/08/25/ukraine-unveils-native-jet-powered-drone-interceptor/5292081",
-      "source": "The Register（英語）",
-      "published": "2026-08-25T10:00:00",
-      "excerpt": "高速かつ軽量の無人航空機は展開が容易なように設計されており、ピックアップ トラックに収まります"
+      "title": "【Amazon Connect】Amazon Polly で電話番号を区切って読み上げさせてみた",
+      "link": "https://dev.classmethod.jp/articles/amazon-polly-phone-number-reading/",
+      "source": "DevelopersIO",
+      "published": "2026-08-25T11:01:50",
+      "excerpt": "Amazon ConnectでAmazon Pollyに電話番号を読み上げさせる際、SSMLで指定する方法と番号を区切る方法のどちらが効果的なのか、実際に試して比較してみました。"
     },
     {
-      "title": "被害総額約2億円か　「中野ブロードウェイ」の時計店で窃盗、電動キックボードで逃走",
-      "link": "https://www.itmedia.co.jp/news/article/2608/25/2000000766/",
+      "title": "ReactDOM.browser() APIとは何か: ブラウザ依存UIをSSRから切り離す | Algomatic Tech Blog",
+      "link": "https://tech.algomatic.jp/entry/2026/08/25/195821",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-25T10:58:21",
+      "excerpt": "こんにちは。AlgomaticでソフトウェアエンジニアをしているGo（@53able）です。localStorage、DOM、Canvas、Web AudioなどのブラウザAPIは、サーバーでは利用できません。…"
+    },
+    {
+      "title": "防衛装備庁、テラドローンと迎撃ドローンの量産契約を正式締結　国産機「Terra B1」を調達へ",
+      "link": "https://www.itmedia.co.jp/news/article/2608/25/2000000772/",
       "source": "ITmedia NEWS",
-      "published": "2026-08-25T09:56:44",
-      "excerpt": "8月25日午前11時55分ごろ、東京都中野区の商業施設「中野ブロードウェイ」にある時計店で「ショーケースを割って物を取って逃げている」と110番通報があった。捜査関係者によると、腕時計4本が盗まれ、被害総額は約2億円に上るとみられる。"
-    },
-    {
-      "title": "1歳から8歳までの画面視聴時間とその後の学業成績",
-      "link": "https://link.springer.com/article/10.1007/s12519-026-01046-1",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-25T09:17:33",
-      "excerpt": "記事の URL: https://link.springer.com/article/10.1007/s12519-026-01046-1 コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-25T10:33:17",
+      "excerpt": "防衛装備庁は8月25日、「迎撃ドローン早期取得プログラム」に基づき、テラドローン（東京都渋谷区）と量産調達契約を結んだと発表した。自爆型無人機への対処を想定した国産機「Terra B1」を調達する。"
     }
   ]
 }
