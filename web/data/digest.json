@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-25T22:51:17",
+  "generated_at": "2026-08-25T23:15:33",
   "window_hours": 24,
-  "total": 273,
+  "total": 271,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が49件。Google Cloud、エージェント型モバイルアプリ開発のための「Developer Device Platform」をパブリックプレビュー",
+      "summary": "生成AIの新着が46件。はじめに こんにちは、AIテクノロジーグループの検索チームです。昨年公開した エニグモのAI活用を支える「AIテクノロジーグループ」について紹介します！では、グループ全体の体制と各チームの役割を紹介しました。…",
       "articles": [
+        {
+          "title": "BUYMA検索・MLOps基盤の裏側を紹介します～マイクロサービス化から生成AI活用まで～ | エニグモ開発者ブログ",
+          "link": "https://tech.enigmo.co.jp/entry/2026/08/26/070000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-25T22:00:00",
+          "excerpt": "はじめに こんにちは、AIテクノロジーグループの検索チームです。昨年公開した エニグモのAI活用を支える「AIテクノロジーグループ」について紹介します！では、グループ全体の体制と各チームの役割を紹介しました。…"
+        },
         {
           "title": "Google Cloud、エージェント型モバイルアプリ開発のための「Developer Device Platform」をパブリックプレビュー",
           "link": "https://codezine.jp/article/detail/29426",
@@ -29,20 +36,13 @@
           "source": "ITmedia エンタープライズ",
           "published": "2026-08-25T22:00:00",
           "excerpt": "Asanaは5年、600万ドルかかるとされた旧式ライブラリ「Enzyme」からの移行をAIで約1.5週間に短縮、費用1.2万ドルで完了させた。成功のカギは長文指示ではなく「5文のプロンプト」と既存コードの品質の高さにあった。"
-        },
-        {
-          "title": "「AIエージェントが暴走した」責任まで負わされる時代、企業は「IDと権限」をどう扱うべきか",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/26/news011.html",
-          "source": "@IT",
-          "published": "2026-08-25T20:00:00",
-          "excerpt": "AIエージェントが自律的に判断して実行する処理について、その責任は誰が負うのか。AIエージェント特有のリスクを抑制するには、どのような統制が必要なのか。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が30件。「持たないIT」であるクラウド化への流れは止まらないが、それでも「持つIT」であるオンプレミスをあえて選ぶ理由もある。運用設計ラボが提唱する持続可能な事業成長を実現するためのインフラ再構築戦略とは。",
+      "summary": "クラウドの新着が31件。「持たないIT」であるクラウド化への流れは止まらないが、それでも「持つIT」であるオンプレミスをあえて選ぶ理由もある。運用設計ラボが提唱する持続可能な事業成長を実現するためのインフラ再構築戦略とは。",
       "articles": [
         {
           "title": "なぜ今「あえてオンプレ」なのか？　AI時代に見直すハイブリッドインフラ戦略",
@@ -77,8 +77,22 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。はじめに 2026 年 8 月 20 日、AWS は Amazon EKS に対して certificate authority(CA)rotation を発表しました。…",
+      "summary": "セキュリティの新着が19件。はじめに こんにちは、ほうき星 @H0ukiStar です。皆さんは DynamoDB を暗号化して利用していますでしょうか？DynamoDB を暗号化なしで作成することはできませんので、この問いに「暗号化してなーい！…",
       "articles": [
+        {
+          "title": "DynamoDB の暗号化を改めて考える：属性レベル暗号化から Beacons まで",
+          "link": "https://qiita.com/h0uk1st4r/items/703c17bd22bcf33e1d39",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-25T23:00:23",
+          "excerpt": "はじめに こんにちは、ほうき星 @H0ukiStar です。皆さんは DynamoDB を暗号化して利用していますでしょうか？DynamoDB を暗号化なしで作成することはできませんので、この問いに「暗号化してなーい！…"
+        },
+        {
+          "title": "Intel's 256-core Xeon 7 CPUs are a Diamond in the rough",
+          "link": "https://www.theregister.com/hpc/2026/08/25/intel-diamond-rapids-xeon-7-cpu-deep-dive/5292427",
+          "source": "The Register（英語）",
+          "published": "2026-08-25T22:54:37",
+          "excerpt": "Delayed, flawed, yet still beautiful"
+        },
         {
           "title": "Amazon EKS が認証局(CA)ローテーションと自動化されたライフサイクル管理をサポート",
           "link": "https://qiita.com/Haruki-N/items/4404cd5951791dc3d116",
@@ -92,28 +106,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-25T20:49:03",
           "excerpt": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.…"
-        },
-        {
-          "title": "あの偽の『グランド・セフト・オート VI』デモは、実はただのマルウェアだった",
-          "link": "https://techcrunch.com/2026/08/25/that-fake-grand-theft-auto-vi-demo-is-actually-just-malware/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-25T15:48:38",
-          "excerpt": "グランド・セフト・オートのファンは、史上最も期待されているビデオゲームの 1 つについてのニュースを待ち望んでおり、この新たなサイバー攻撃に対して特に脆弱であるようです。"
-        },
-        {
-          "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』で学ぶ『postgreSQL』のセキュリティ基礎についてその④",
-          "link": "https://qiita.com/Veteran/items/4769ba4482be3ed7d3bf",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-25T15:07:59",
-          "excerpt": "皆さんこんにちは！最近豪雨や地震で不安な日々を過ごしているポンコツエンジニアのGONです。昔、善福寺川沿いに住んでいたころ、豪雨に見舞われて近くのコンビニが水浸しになっていた事を思い出しました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が12件。Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.…",
+      "summary": "データ分析の新着が13件。はじめに こんにちは、ほうき星 @H0ukiStar です。皆さんは DynamoDB を暗号化して利用していますでしょうか？DynamoDB を暗号化なしで作成することはできませんので、この問いに「暗号化してなーい！…",
       "articles": [
+        {
+          "title": "DynamoDB の暗号化を改めて考える：属性レベル暗号化から Beacons まで",
+          "link": "https://qiita.com/h0uk1st4r/items/703c17bd22bcf33e1d39",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-25T23:00:23",
+          "excerpt": "はじめに こんにちは、ほうき星 @H0ukiStar です。皆さんは DynamoDB を暗号化して利用していますでしょうか？DynamoDB を暗号化なしで作成することはできませんので、この問いに「暗号化してなーい！…"
+        },
         {
           "title": "When str.lower() is a security vulnerability in Python – Seth Larson",
           "link": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
@@ -134,20 +141,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-25T15:39:31",
           "excerpt": "Amazon Kinesis Data Streams に接続したストリーミングマテリアライズドビューの更新が、パッチ P203 以降で並行スケーリングの対象になりました。実際に試してみたので、動作検証の結果をお伝えします。"
-        },
-        {
-          "title": "MySQL CDC から BigQuery へ: 定期的な同期で見逃されるものと、binlog がそれを回避する方法",
-          "link": "https://www.erathos.com/en/blog/mysql-cdc-to-bigquery",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-25T14:18:29",
-          "excerpt": "記事の URL: https://www.erathos.com/en/blog/mysql-cdc-to-bigquery コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。Microsoft、「Windows App Development CLI v0.6」リリース",
+      "summary": "開発ツールの新着が13件。Microsoft、「Windows App Development CLI v0.6」リリース",
       "articles": [
         {
           "title": "Microsoft、「Windows App Development CLI v0.6」リリース",
@@ -182,6 +182,13 @@
   ],
   "uncategorized": [
     {
+      "title": "約半年間、設計について輪読会をした話 | LIVESENSE ENGINEER BLOG",
+      "link": "https://made.livesense.co.jp/entry/2026/08/26/080000",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-25T23:00:00",
+      "excerpt": "はじめに 初めましての方ははじめまして、お久しぶりの方はお久しぶりです。去年からマッハバイトでAndroidエンジニアをしている設計大好きおじさんお兄さんこと木内です。…"
+    },
+    {
       "title": "AWS SAA合格を目指すが何から手をつけるか分からない人へ。SAA-C03対応の体系的な学習ができる教科書",
       "link": "https://qiita.com/yasu1109/items/7dfd8eb0ad1dac0451a5",
       "source": "Qiita AWSタグ",
@@ -189,25 +196,18 @@
       "excerpt": "AWSの資格試験を受けたいが、出題範囲が広すぎてどこから学べばいいか迷う——その悩みを解消するために、試験範囲を体系的にカバーしながら実務にも役立つ知識を積み上げられる教科書がある。…"
     },
     {
+      "title": "The world's busiest spaceport is about to get a lot quieter, at least for now",
+      "link": "https://arstechnica.com/space/2026/08/the-worlds-busiest-spaceport-is-about-to-get-a-lot-quieter-at-least-for-now/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-08-25T22:21:06",
+      "excerpt": "SpaceX aims to launch Starship from Florida by the end of the year.2027 seems more likely.…"
+    },
+    {
       "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
       "link": "https://github.com/swimmingbrain/texbrain",
       "source": "Hacker News（英語）",
       "published": "2026-08-25T22:08:50",
       "excerpt": "I'm a master's engineering student and a big fan of LaTeX, which I used for my thesis and research articles.…"
-    },
-    {
-      "title": "「全ポイントに完璧はいらない」　ロジャー・フェデラー氏の意思決定とAI活用の最前線",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/25/news083.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-08-25T22:00:00",
-      "excerpt": "2ポイントに1つは落としていた──テニス王者ロジャー・フェデラー氏が明かした意外な数字が示すのは、力の入れどころを見極める思考法だ。…"
-    },
-    {
-      "title": "サーバ調達費はまだ上がるのか　半導体市場92％成長が示す構図",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/26/news027.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-08-25T22:00:00",
-      "excerpt": "Gartnerの予測によると、世界の半導体市場が2026年に前年比92％増と、1年で約2倍に膨らむという。これを生んでいるのは何か。企業のサーバやPCの調達費にはどう跳ね返るのか。"
     }
   ]
 }
