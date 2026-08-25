@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-25T05:54:16",
+  "generated_at": "2026-08-25T06:24:57",
   "window_hours": 24,
-  "total": 226,
+  "total": 224,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が45件。「@adobe」と打つだけで、PhotoshopもPremiereもChatGPTの中から呼び出せる。8月7日に公開されたAdobeの統合プラグインは、アプリの使い方を覚えなくても作りたいものが作れる世界の入口に見える。…",
+      "summary": "生成AIの新着が44件。前回構築したEC2 + code-server + Bedrock環境の前段にCloudFrontを置き、自己署名証明書によるブラウザ警告と拡張機能のインストール制限を解消しました。…",
       "articles": [
+        {
+          "title": "ブラウザだけで使えるClaude Code環境（EC2 + code-server + Bedrock）にCloudFrontを追加して、拡張機能もインストールできるようにしてみた",
+          "link": "https://dev.classmethod.jp/articles/202608-ec2-code-server-claude-code-bedrock-cloudfront/",
+          "source": "DevelopersIO",
+          "published": "2026-08-25T06:00:36",
+          "excerpt": "前回構築したEC2 + code-server + Bedrock環境の前段にCloudFrontを置き、自己署名証明書によるブラウザ警告と拡張機能のインストール制限を解消しました。…"
+        },
         {
           "title": "「ChatGPTでAdobeツールを動かす」を検証　静止画の編集は快適、一方で動画は……",
           "link": "https://www.itmedia.co.jp/news/article/2608/25/2000000736/",
@@ -29,21 +36,21 @@
           "source": "@IT",
           "published": "2026-08-25T04:00:00",
           "excerpt": "「ChatGPT」に加えて「ChatGPT Work」「Codex」も使える、Linux版のデスクトップアプリケーションのプレビュー版が登場した。できることと、できないことを整理しよう。"
-        },
-        {
-          "title": "真っ向勝負: 常駐エージェント用のマイクロハーネス",
-          "link": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-25T03:54:19",
-          "excerpt": "記事の URL: https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents コメント URL: https://news.ycombinator.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が27件。はじめに 8月から中途で入社して、イチからクラウド(AWS)を勉強しています。前職で新卒入社時にも類似の研修は受けたのですが、経験を積んで解像度が上がった状態で研修を受けなおすと分かりやすさが全く違いますね。…",
+      "summary": "クラウドの新着が28件。前回構築したEC2 + code-server + Bedrock環境の前段にCloudFrontを置き、自己署名証明書によるブラウザ警告と拡張機能のインストール制限を解消しました。…",
       "articles": [
+        {
+          "title": "ブラウザだけで使えるClaude Code環境（EC2 + code-server + Bedrock）にCloudFrontを追加して、拡張機能もインストールできるようにしてみた",
+          "link": "https://dev.classmethod.jp/articles/202608-ec2-code-server-claude-code-bedrock-cloudfront/",
+          "source": "DevelopersIO",
+          "published": "2026-08-25T06:00:36",
+          "excerpt": "前回構築したEC2 + code-server + Bedrock環境の前段にCloudFrontを置き、自己署名証明書によるブラウザ警告と拡張機能のインストール制限を解消しました。…"
+        },
         {
           "title": "【S3/EBS/EFS】AWSの主要ストレージ3種類の違いを整理してみた",
           "link": "https://qiita.com/gosling-goldwyn/items/027f69123289d3e45de5",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-25T03:01:25",
           "excerpt": "AWS EC2インスタンスのスケールアップ・ダウン方法を実践的に解説。インスタンス停止→タイプ変更→起動の3ステップで実施。"
-        },
-        {
-          "title": "Auroraバックアップを「取れているはず」で終わらせない監視の仕組み | Timee Product Team Blog",
-          "link": "https://tech.timee.co.jp/entry/2026/08/25/120000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-25T03:00:00",
-          "excerpt": "こんにちは。タイミーでプラットフォームエンジニアをしている菅原です。普段はAWSを中心に、インフラの設計と運用に取り組んでいます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。こんにちは。アカウント基盤開発部でエンジニアをしている tkmt (たくまつ) です。今回は、IETF で標準化が進んでいる Transaction Tokens について調査してまとめてみました。…",
+      "summary": "セキュリティの新着が10件。こんにちは。アカウント基盤開発部でエンジニアをしている tkmt (たくまつ) です。今回は、IETF で標準化が進んでいる Transaction Tokens について調査してまとめてみました。…",
       "articles": [
         {
           "title": "マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた | LayerXのフィード",
@@ -182,6 +182,13 @@
   ],
   "uncategorized": [
     {
+      "title": "ANS-C01 を勉強して学んだこと ― 備忘録",
+      "link": "https://qiita.com/y_ozeki/items/7fe798a3ba956c3ed16e",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-25T06:04:28",
+      "excerpt": "AWS Certified Advanced Networking – Specialty（ANS-C01）を受け終えたので、勉強の中で学んだことを備忘録としてまとめておきます。…"
+    },
+    {
       "title": "金融リファレンスアーキテクチャ日本版 v2 リリース",
       "link": "https://aws.amazon.com/jp/blogs/news/fsi-reference-architecture-jp-v2-release/",
       "source": "AWS 公式ブログ（日本語）",
@@ -201,13 +208,6 @@
       "source": "CodeZine",
       "published": "2026-08-25T04:50:00",
       "excerpt": "Slack上で人とAIが協働開発できる「Slack Code」が提供開始"
-    },
-    {
-      "title": "新「マイナアプリ」登場、旧「マイナポータルアプリ」との違いは　一通り触ってみた",
-      "link": "https://www.itmedia.co.jp/news/article/2608/25/2000000742/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-25T04:49:36",
-      "excerpt": "デジタル庁は8月25日、「マイナポータルアプリ」と「デジタル認証アプリ」を統合した新「マイナアプリ」の提供を始めた。移行にどれだけ手間がかかるのか、記者のiPhoneで実際に試した。"
     }
   ]
 }
