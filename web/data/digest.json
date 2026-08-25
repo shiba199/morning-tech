@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-08-25T06:24:57",
+  "generated_at": "2026-08-25T07:17:13",
   "window_hours": 24,
-  "total": 224,
+  "total": 222,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が44件。前回構築したEC2 + code-server + Bedrock環境の前段にCloudFrontを置き、自己署名証明書によるブラウザ警告と拡張機能のインストール制限を解消しました。…",
+      "summary": "生成AIの新着が45件。Claude Code の v2.1.240 〜 v2.1.245（8 月 22 日〜25 日）のアップデートをまとめました。…",
       "articles": [
+        {
+          "title": "Claude Code v2.1.240〜v2.1.245 の主要アップデート - modelPicker と promptCacheTtl の追加",
+          "link": "https://dev.classmethod.jp/articles/20260825-cc-updates-v2-1-245/",
+          "source": "DevelopersIO",
+          "published": "2026-08-25T07:04:46",
+          "excerpt": "Claude Code の v2.1.240 〜 v2.1.245（8 月 22 日〜25 日）のアップデートをまとめました。…"
+        },
+        {
+          "title": "本番インシデントのトリアージを AI エージェントに任せられるようになるまで",
+          "link": "https://aws.amazon.com/jp/blogs/news/trust-agent-triage/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-25T06:59:27",
+          "excerpt": "ある日曜日の午前 2 時 33 分（PDT）、フロンティアモデルの可用性アラームが発報しました。本番のレスポンスがストリームの途中で止まりはじめ、監視システムが自動でチケットを起票しました。…"
+        },
+        {
+          "title": "継続的なプロンプト評価: LLM ジャッジとライブシグナルを使って Kiro エージェントの品質を高める方法",
+          "link": "https://aws.amazon.com/jp/blogs/news/continuous-prompt-evaluation/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-25T06:51:27",
+          "excerpt": "本記事は、人手で作成されたシステムプロンプトや設定の変更を評価することに焦点を当てています。自動的なトラジェクトリマイニング、変更の自動生成、ハーネス全体の自己改善については扱いません。…"
+        },
         {
           "title": "ブラウザだけで使えるClaude Code環境（EC2 + code-server + Bedrock）にCloudFrontを追加して、拡張機能もインストールできるようにしてみた",
           "link": "https://dev.classmethod.jp/articles/202608-ec2-code-server-claude-code-bedrock-cloudfront/",
           "source": "DevelopersIO",
           "published": "2026-08-25T06:00:36",
           "excerpt": "前回構築したEC2 + code-server + Bedrock環境の前段にCloudFrontを置き、自己署名証明書によるブラウザ警告と拡張機能のインストール制限を解消しました。…"
-        },
-        {
-          "title": "「ChatGPTでAdobeツールを動かす」を検証　静止画の編集は快適、一方で動画は……",
-          "link": "https://www.itmedia.co.jp/news/article/2608/25/2000000736/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-25T04:36:55",
-          "excerpt": "「@adobe」と打つだけで、PhotoshopもPremiereもChatGPTの中から呼び出せる。8月7日に公開されたAdobeの統合プラグインは、アプリの使い方を覚えなくても作りたいものが作れる世界の入口に見える。…"
-        },
-        {
-          "title": "Copilot Studioで開発したエージェントの回答品質をDatabricksのMLflowで継続的に評価する。 | Vポイントマーケティング｜TECH LABの Tech Blog",
-          "link": "https://techblog.vpoint.co.jp/entry/2026/08/25/132751",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-25T04:27:51",
-          "excerpt": "こんにちは、VポイントマーケティングAIエンジニアの三浦諒一です。…"
-        },
-        {
-          "title": "Linux版の「ChatGPTデスクトップアプリ」ついに登場　何ができて、何ができない？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news033.html",
-          "source": "@IT",
-          "published": "2026-08-25T04:00:00",
-          "excerpt": "「ChatGPT」に加えて「ChatGPT Work」「Codex」も使える、Linux版のデスクトップアプリケーションのプレビュー版が登場した。できることと、できないことを整理しよう。"
         }
       ]
     },
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。カーナビの施設検索（POI 検索）に必要な「距離での絞り込み」「距離順の並べ替え」「設備での絞り込み」「日本語の名称検索」を、Amazon OpenSearch Serverless の geo_point と kuromoji で 1 つ…",
+      "summary": "データ分析の新着が6件。And fly ‘significant scale’ in 2028 – a claim that isn’t entirely bonkers, but needs a solid grain of salt",
       "articles": [
+        {
+          "title": "SpaceX claims it will put a Vera Rubin NVL72 rack-scale system into orbit next year",
+          "link": "https://www.theregister.com/off-prem/2026/08/25/spacex-claims-it-will-put-a-vera-rubin-nvl72-rack-scale-system-into-orbit-next-year/5292067",
+          "source": "The Register（英語）",
+          "published": "2026-08-25T05:21:05",
+          "excerpt": "And fly ‘significant scale’ in 2028 – a claim that isn’t entirely bonkers, but needs a solid grain of salt"
+        },
         {
           "title": "OpenSearch Serverless で「近くの道の駅」を距離順に返す施設検索 API を CDK で作ってみた",
           "link": "https://dev.classmethod.jp/articles/amazon-opensearch-serverless-poi-search-cdk/",
@@ -134,13 +141,6 @@
           "source": "TechCrunch（英語）",
           "published": "2026-08-24T20:16:34",
           "excerpt": "10 月 13 日から 15 日まであなたのスタートアップを展示して、Disrupt に集まる潜在的な投資家やパートナーを最大限に活用してください。"
-        },
-        {
-          "title": "YouTuber の裏庭ファブの野心は RAM から自作 LED まで拡大",
-          "link": "https://www.theregister.com/systems/2026/08/24/youtubers-backyard-fab-ambitions-expand-from-ram-to-homebrew-leds/5291956",
-          "source": "The Register（英語）",
-          "published": "2026-08-24T17:22:00",
-          "excerpt": "ドクター・セミコンダクターの最新プロジェクトは、彼が私たちに望む家庭内チップ産業への道を照らす"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "Amazon Quick と Snowflake Cortex AI によるマネーロンダリング対策のアラートトリアージの自動化",
+      "link": "https://aws.amazon.com/jp/blogs/news/automate-aml-alert-triage-with-amazon-quick-and-snowflake-cortex-ai/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-08-25T07:10:06",
+      "excerpt": "金融機関のマネーロンダリング対策では、1 件のアラート調査に 30〜90 分を要し、その 90〜95% が誤検知とされます。…"
+    },
+    {
+      "title": "AWSの仮想案件を使って、構成を自分で考える練習をしてみた",
+      "link": "https://qiita.com/seenew01/items/e7e83de90931ce39c05f",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-25T07:00:01",
+      "excerpt": "1.はじめに 今回は、仮想案件をもとに、自分なりにAWSの設計をしてみました。これまで、他の人が設計した内容をもとに構築した経験はありましたが、要件から自分で考えて設計する経験はほとんどありませんでした。…"
+    },
+    {
+      "title": "AIと対話してネイティブiOS/Androidアプリをリアルタイムに構築、SwiftUI対応コーディングプラットフォーム「Dactyl」発表",
+      "link": "https://gihyo.jp/article/2026/08/dactyl?utm_source=feed",
+      "source": "gihyo.jp 開発",
+      "published": "2026-08-25T06:59:00",
+      "excerpt": "Deno開発チームは2026年8月23日、ネイティブのiOS/Androidアプリを開発できるバイブコーディングプラットフォーム「Dactyl」を発表した。"
+    },
+    {
       "title": "ANS-C01 を勉強して学んだこと ― 備忘録",
       "link": "https://qiita.com/y_ozeki/items/7fe798a3ba956c3ed16e",
       "source": "Qiita AWSタグ",
       "published": "2026-08-25T06:04:28",
       "excerpt": "AWS Certified Advanced Networking – Specialty（ANS-C01）を受け終えたので、勉強の中で学んだことを備忘録としてまとめておきます。…"
-    },
-    {
-      "title": "金融リファレンスアーキテクチャ日本版 v2 リリース",
-      "link": "https://aws.amazon.com/jp/blogs/news/fsi-reference-architecture-jp-v2-release/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-08-25T05:15:10",
-      "excerpt": "「金融リファレンスアーキテクチャ日本版」は、2022 年 10 月に v1.0 を公開して以来、多くの金融機関 […]"
-    },
-    {
-      "title": "テクテクテック#7DB勉強会を行いました",
-      "link": "https://zenn.dev/spookies/articles/6f36950d9654f7",
-      "source": "Zenn AWSトピック",
-      "published": "2026-08-25T05:10:05",
-      "excerpt": "!この記事ははてなブログ（2019年1月18日公開）からの移行記事です。内容が古い場合がありますのでご注意ください。アンバサダーの masayuki14 です。先日京都オフィスでテクテクテックを開催しました。…"
-    },
-    {
-      "title": "Slack上で人とAIが協働開発できる「Slack Code」が提供開始",
-      "link": "https://codezine.jp/article/detail/29428",
-      "source": "CodeZine",
-      "published": "2026-08-25T04:50:00",
-      "excerpt": "Slack上で人とAIが協働開発できる「Slack Code」が提供開始"
     }
   ]
 }
