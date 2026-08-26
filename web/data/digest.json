@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-08-26T06:31:06",
+  "generated_at": "2026-08-26T07:36:24",
   "window_hours": 24,
-  "total": 261,
+  "total": 259,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。一言で モデルの回答が「与えた根拠（ソース）に基づいているか」「質問と関連しているか」を自動スコアリングし、根拠のない出力（ハルシネーション）を抑制するBedrock Guardrailsの機能。…",
+      "summary": "生成AIの新着が40件。Geminiアプリ、対話内でインタラクティブなシミュレーション生成に対応",
       "articles": [
+        {
+          "title": "Geminiアプリ、対話内でインタラクティブなシミュレーション生成に対応",
+          "link": "https://codezine.jp/article/detail/29440",
+          "source": "CodeZine",
+          "published": "2026-08-26T07:00:00",
+          "excerpt": "Geminiアプリ、対話内でインタラクティブなシミュレーション生成に対応"
+        },
+        {
+          "title": "Claude Code v2.1.246 の主要アップデート - Bash 許可ルールの警告と API キーの送信先修正",
+          "link": "https://dev.classmethod.jp/articles/20260826-cc-updates-v2-1-246/",
+          "source": "DevelopersIO",
+          "published": "2026-08-26T06:44:30",
+          "excerpt": "Claude Code v2.1.246がリリースされました。パーミッションと資格情報の扱いに関する変更が目立つリリースで、新機能の「Auto mode タブ」と「Bash警告機能」を試しています。2つの新機能について試しています。"
+        },
         {
           "title": "【AWS AIP】Bedrock Guardrails コンテキストグラウンディングチェック",
           "link": "https://qiita.com/tomet/items/ffb2187b0220e2f78b11",
@@ -22,28 +36,21 @@
           "source": "@IT",
           "published": "2026-08-26T04:00:00",
           "excerpt": "Okta Japanは、企業におけるAIツールの利用実態をまとめたレポートを発表した。Okta Platformの2万以上の組織における4年間の匿名化されたアクセスデータを分析したものだ。"
-        },
-        {
-          "title": "「AIエージェントを本番運用中」日本が最下位　“PoC止まり”の原因と、抜け出す方法は？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/26/news040.html",
-          "source": "@IT",
-          "published": "2026-08-26T04:00:00",
-          "excerpt": "AIエージェントなど自律型AIを本番運用している日本企業は17％にとどまることが、Confluentの調査で分かった。活用を進める上での課題とは何か。その解決策とは。"
-        },
-        {
-          "title": "学生はブラインドテストでの AI エッセイでは ChatGPT や Claude よりも Gemini を好みます。",
-          "link": "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-26T03:23:50",
-          "excerpt": "記事の URL: https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026 コメント URL: https://news.ycombinator.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が24件。Amazon Connectで入力された電話番号をAWS Lambdaで整形し、Amazon Pollyに句読点で区切って読み上げさせる実装方法をご紹介します。…",
+      "summary": "クラウドの新着が24件。AWS IoT Coreを触ってみたいと思い、Linuxコンテナから接続キットを使ってThingへの接続を試してみました。Fedoraコンテナでセットアップする際のハマりポイントと、実行成功までの流れを紹介します。",
       "articles": [
+        {
+          "title": "AWS IoT CoreにローカルLinuxコンテナから接続してみた",
+          "link": "https://dev.classmethod.jp/articles/try-out-iot-core-from-local-linux-container/",
+          "source": "DevelopersIO",
+          "published": "2026-08-26T06:32:04",
+          "excerpt": "AWS IoT Coreを触ってみたいと思い、Linuxコンテナから接続キットを使ってThingへの接続を試してみました。Fedoraコンテナでセットアップする際のハマりポイントと、実行成功までの流れを紹介します。"
+        },
         {
           "title": "【Amazon Connect】入力してもらった電話番号を AWS Lambda で整形し、Amazon Polly に句読点で区切って読み上げさせてみた",
           "link": "https://dev.classmethod.jp/articles/amazon-connect-lambda-phone-number-polly/",
@@ -64,20 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-26T04:05:43",
           "excerpt": "マルチアカウント環境の自動タグ付与 ── EKSリソースの除外とコストで4案を比較した設計判断 はじめに 1.なぜ自動タグ付与が必要だったのか 1.1 タグ運用の限界 1.2 発想の転換：「自動で取れる情報は、自動で付ける」 1.…"
-        },
-        {
-          "title": "CloudFront + S3 + CRR + OAC で作る静的サイトDR構成",
-          "link": "https://qiita.com/ryoichi_izumi/items/96e24cc04ed66fe617bc",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-26T03:38:35",
-          "excerpt": "はじめに 本記事では、CloudFront + S3 + CRR + Origin Group + OAC を使って、静的サイトの DR（Disaster Recovery）構成 を AWS CDK v2 で作成する方法を紹介します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。Amazon、Corretto LTSおよびFR版の重要なセキュリティパッチを公開",
+      "summary": "セキュリティの新着が17件。Amazon、Corretto LTSおよびFR版の重要なセキュリティパッチを公開",
       "articles": [
         {
           "title": "Amazon、Corretto LTSおよびFR版の重要なセキュリティパッチを公開",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "More than half of adults in U.S. say they lack basic statistical understanding",
-      "link": "https://www.psu.edu/news/research/story/more-half-adults-us-say-they-lack-basic-statistical-understanding",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-26T05:49:20",
-      "excerpt": "Article URL: https://www.psu.…"
-    },
-    {
-      "title": "「nanacoクレジットカード」登場　利用額に応じATMで現金還元、日本初",
-      "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000805/",
+      "title": "「洋服の青山」初の空調ウェア、自腹レビュー　“きちんと感”なのに涼しい、よく考えられたデザインに驚いた",
+      "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000795/",
       "source": "ITmedia NEWS",
-      "published": "2026-08-26T05:18:52",
-      "excerpt": "カード利用額に応じてATMで現金を受け取れるクレカ特典の付帯は日本初という。"
+      "published": "2026-08-26T07:22:11",
+      "excerpt": "「洋服の青山」が発売ファン付きウェアを購入して何度か使ってみたところ、とてもよく考えられたデザインに驚いたので報告したい。"
     },
     {
-      "title": "「レベル5大雨特別警報」出たらどうする？　政府がチラシ公表　車での避難は……",
-      "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000804/",
+      "title": "「ペンギン入りSuicaカード」、在庫限りで販売終了　26年度末に卒業",
+      "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000808/",
       "source": "ITmedia NEWS",
-      "published": "2026-08-26T04:59:25",
-      "excerpt": "発表時点で「すでに安全な避難ができず、命が危険な状況」とし、むやみに移動せず身の安全を確保すること、やむを得ず車を使う場合は脱出用ハンマーをすぐ使える位置に備えることなどを促している。"
+      "published": "2026-08-26T07:04:42",
+      "excerpt": "JR東日本は8月26日、11月に誕生25周年を迎えるSuicaの記念企画を発表した。「Suicaのペンギン」を描いた現行のSuicaカードは、各発売箇所の在庫がなくなり次第、発売を終了。以降は無地のカードを発売する。"
     },
     {
-      "title": "【小ネタ】 AWS Config で費用が増加した原因を調べるときのやつ",
-      "link": "https://dev.classmethod.jp/articles/investigate-config-cost-increase/",
-      "source": "DevelopersIO",
-      "published": "2026-08-26T04:55:35",
-      "excerpt": "AWS Configを有効にすると、予期せぬコスト増に直面することがあります。…"
+      "title": "Starlinkはレベル4大雨危険警報でも使えているか？検証しました | IIJ Engineers Blog",
+      "link": "https://eng-blog.iij.ad.jp/archives/37490",
+      "source": "企業テックブログまとめ",
+      "published": "2026-08-26T07:01:46",
+      "excerpt": "2026年8月22日、東京都内で「警戒レベル4（危険な場所から全員避難）」に相当する大雨に関する発表がありました。台風や集中豪雨等により浸水害の発生リスクが非常に高まった状況です。IIJエンジニアリ...…"
+    },
+    {
+      "title": "Ventures Platform は 2 つ目のアフリカファンドでさらに大きく、より広範囲に",
+      "link": "https://techcrunch.com/2026/08/26/ventures-platform-goes-bigger-and-broader-with-its-second-africa-fund/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-26T07:00:00",
+      "excerpt": "この汎アフリカのベンチャー企業は8,300万ドルを調達しており、本拠地であるナイジェリア市場以外の新興企業にも投資する予定だ。"
     }
   ]
 }
