@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-26T05:01:40",
+  "generated_at": "2026-08-26T05:56:07",
   "window_hours": 24,
-  "total": 254,
+  "total": 261,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が39件。Okta Japanは、企業におけるAIツールの利用実態をまとめたレポートを発表した。Okta Platformの2万以上の組織における4年間の匿名化されたアクセスデータを分析したものだ。",
+      "summary": "生成AIの新着が42件。一言で モデルの回答が「与えた根拠（ソース）に基づいているか」「質問と関連しているか」を自動スコアリングし、根拠のない出力（ハルシネーション）を抑制するBedrock Guardrailsの機能。…",
       "articles": [
+        {
+          "title": "【AWS AIP】Bedrock Guardrails コンテキストグラウンディングチェック",
+          "link": "https://qiita.com/tomet/items/ffb2187b0220e2f78b11",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-26T05:34:12",
+          "excerpt": "一言で モデルの回答が「与えた根拠（ソース）に基づいているか」「質問と関連しているか」を自動スコアリングし、根拠のない出力（ハルシネーション）を抑制するBedrock Guardrailsの機能。…"
+        },
         {
           "title": "「取りあえずChatGPT」はもう古い？　2社に1社が複数AIを併用、企業はどう管理すべきか",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/26/news044.html",
@@ -24,26 +31,33 @@
           "excerpt": "AIエージェントなど自律型AIを本番運用している日本企業は17％にとどまることが、Confluentの調査で分かった。活用を進める上での課題とは何か。その解決策とは。"
         },
         {
-          "title": "HN に質問してください: LLM が非常に苦手な単純な点は何ですか?",
-          "link": "https://news.ycombinator.com/item?id=49443820",
+          "title": "学生はブラインドテストでの AI エッセイでは ChatGPT や Claude よりも Gemini を好みます。",
+          "link": "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
           "source": "Hacker News（英語）",
-          "published": "2026-08-26T03:17:51",
-          "excerpt": "特化したモデルを何のためにトレーニングするかについてのアイデアを探しています。ChatGPT、Claude、または別のモデルに繰り返し要求して、それでも何らかの問題が発生する単純なことは何ですか?…"
-        },
-        {
-          "title": "「SQLite + xangi」で始める軽量RAG：個人利用から仕事利用へ広げるアプローチ | ENGINEER TECH BLOG",
-          "link": "https://note.com/wa_zuki/n/n981366c4b6ea",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-26T03:03:51",
-          "excerpt": "こんにちは、zukiです。この記事がテックブログ初投稿になります。最近個人で取り組んでいるRAG環境について、書いてみようと思います。続きをみる"
+          "published": "2026-08-26T03:23:50",
+          "excerpt": "記事の URL: https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026 コメント URL: https://news.ycombinator.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。マルチアカウント環境の自動タグ付与 ── EKSリソースの除外とコストで4案を比較した設計判断 はじめに 1.なぜ自動タグ付与が必要だったのか 1.1 タグ運用の限界 1.2 発想の転換：「自動で取れる情報は、自動で付ける」 1.…",
+      "summary": "クラウドの新着が25件。Amazon Connectで入力された電話番号をAWS Lambdaで整形し、Amazon Pollyに句読点で区切って読み上げさせる実装方法をご紹介します。…",
       "articles": [
+        {
+          "title": "【Amazon Connect】入力してもらった電話番号を AWS Lambda で整形し、Amazon Polly に句読点で区切って読み上げさせてみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-connect-lambda-phone-number-polly/",
+          "source": "DevelopersIO",
+          "published": "2026-08-26T05:48:24",
+          "excerpt": "Amazon Connectで入力された電話番号をAWS Lambdaで整形し、Amazon Pollyに句読点で区切って読み上げさせる実装方法をご紹介します。…"
+        },
+        {
+          "title": "MonotaRO が基幹データベースを Amazon Aurora Global Database に移行し、マルチリージョン DR とフルマネージド運用を実現",
+          "link": "https://aws.amazon.com/jp/blogs/news/monotaro-core-database-migration-to-amazon-aurora-global-database/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-26T05:06:42",
+          "excerpt": "株式会社MonotaRO （モノタロウ）は、工具、部品、消耗品をはじめとする間接資材のインターネット通販を展開し、連結売上高 3,338 億円（2025 年 12 月期）、登録ユーザー数 1,100 万以上、取扱商品点数 2,800 万点以…"
+        },
         {
           "title": "マルチアカウント環境の自動タグ付与 ── EKSリソースの除外とコストで4案を比較した設計判断",
           "link": "https://qiita.com/NTTDATA-Kyushu-Cloud/items/b111914b876c7f8dc1dd",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-26T03:38:35",
           "excerpt": "はじめに 本記事では、CloudFront + S3 + CRR + Origin Group + OAC を使って、静的サイトの DR（Disaster Recovery）構成 を AWS CDK v2 で作成する方法を紹介します。…"
-        },
-        {
-          "title": "Aurora MySQL を Blue/Green Deployment でマイナーバージョンアップしてみた",
-          "link": "https://dev.classmethod.jp/articles/aurora-mysql-blue-green-deployment-version-upgrade/",
-          "source": "DevelopersIO",
-          "published": "2026-08-26T03:01:54",
-          "excerpt": "Aurora MySQL 3.09 から 3.10 へのバージョンアップをBlue/Green Deploymentで実施しました。実際の手順や、ダウンタイム約5秒で完了した実績などを詳しく紹介します。"
-        },
-        {
-          "title": "なぜ今「あえてオンプレ」なのか？　AI時代に見直すハイブリッドインフラ戦略",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/21/news003.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-08-25T22:00:00",
-          "excerpt": "「持たないIT」であるクラウド化への流れは止まらないが、それでも「持つIT」であるオンプレミスをあえて選ぶ理由もある。運用設計ラボが提唱する持続可能な事業成長を実現するためのインフラ再構築戦略とは。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。全日空商事は8月24日、法人向けデジタルギフトサービス「選べるe-GIFT」が不正アクセスを受け、契約企業の担当者の個人情報が漏えいした可能性があると発表した。第三者がギフトを不正に交換した被害も確認している。",
+      "summary": "セキュリティの新着が17件。Amazon、Corretto LTSおよびFR版の重要なセキュリティパッチを公開",
       "articles": [
+        {
+          "title": "Amazon、Corretto LTSおよびFR版の重要なセキュリティパッチを公開",
+          "link": "https://codezine.jp/article/detail/29441",
+          "source": "CodeZine",
+          "published": "2026-08-26T05:30:00",
+          "excerpt": "Amazon、Corretto LTSおよびFR版の重要なセキュリティパッチを公開"
+        },
         {
           "title": "ANA子会社のデジタルギフト「選べるe-GIFT」に不正アクセス　担当者情報漏えいか、不正交換も",
           "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000798/",
@@ -99,20 +106,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-25T23:00:23",
           "excerpt": "はじめに こんにちは、ほうき星 @H0ukiStar です。皆さんは DynamoDB を暗号化して利用していますでしょうか？DynamoDB を暗号化なしで作成することはできませんので、この問いに「暗号化してなーい！…"
-        },
-        {
-          "title": "Intel の 256 コア Xeon 7 CPU はダイヤモンドの原石です",
-          "link": "https://www.theregister.com/hpc/2026/08/25/intel-diamond-rapids-xeon-7-cpu-deep-dive/5292427",
-          "source": "The Register（英語）",
-          "published": "2026-08-25T22:54:37",
-          "excerpt": "遅れていて欠陥もある、それでも美しい"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が14件。ThinkingAIが翔泳社刊行の書籍『ゲームを進化させるデータ分析完全ガイド』を先着50名に無料献本",
+      "summary": "データ分析の新着が13件。ThinkingAIが翔泳社刊行の書籍『ゲームを進化させるデータ分析完全ガイド』を先着50名に無料献本",
       "articles": [
         {
           "title": "ThinkingAIが翔泳社刊行の書籍『ゲームを進化させるデータ分析完全ガイド』を先着50名に無料献本",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "ワンマーケティング、BtoBの売上創出プロセスをデータとAIで再設計するGTMエンジニアリング専門サイトを公開",
-      "link": "https://codezine.jp/article/detail/29449",
-      "source": "CodeZine",
-      "published": "2026-08-26T04:15:00",
-      "excerpt": "ワンマーケティング、BtoBの売上創出プロセスをデータとAIで再設計するGTMエンジニアリング専門サイトを公開"
-    },
-    {
-      "title": "AWSコスト試算入門 Pricing Calculatorで月額料金を見積もる手順",
-      "link": "https://qiita.com/s_horikoshi/items/b74d35a15c4ed0c0424a",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-26T03:55:27",
-      "excerpt": "はじめに AWSの料金を聞かれたとき、EC2の時間単価だけを調べても、月額料金は正しく見積もれません。実際の請求には、ストレージ、パブリックIPv4アドレス、ロードバランサー、NAT Gateway、ログ、データ転送なども関係します。…"
-    },
-    {
-      "title": "中野の2億円腕時計窃盗、犯人はLUUPで逃走か　追跡可否を同社に聞いた",
-      "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000793/",
+      "title": "「nanacoクレジットカード」登場　利用額に応じATMで現金還元、日本初",
+      "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000805/",
       "source": "ITmedia NEWS",
-      "published": "2026-08-26T03:52:39",
-      "excerpt": "8月25日に東京都中野区の商業施設「中野ブロードウェイ」で起きた高級腕時計の窃盗事件を巡り、逃走に使用したとみられる電動キックボードに「LUUP」のロゴが入っていたとテレビ朝日などが報じている。…"
+      "published": "2026-08-26T05:18:52",
+      "excerpt": "カード利用額に応じてATMで現金を受け取れるクレカ特典の付帯は日本初という。"
     },
     {
-      "title": "デジタルハリウッド、Yahoo!フリマを題材にしたUI/UX改善の実践型講義を10月より開始",
-      "link": "https://codezine.jp/article/detail/29448",
-      "source": "CodeZine",
-      "published": "2026-08-26T03:45:00",
-      "excerpt": "デジタルハリウッド、Yahoo!フリマを題材にしたUI/UX改善の実践型講義を10月より開始"
+      "title": "「レベル5大雨特別警報」出たらどうする？　政府がチラシ公表　車での避難は……",
+      "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000804/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-26T04:59:25",
+      "excerpt": "発表時点で「すでに安全な避難ができず、命が危険な状況」とし、むやみに移動せず身の安全を確保すること、やむを得ず車を使う場合は脱出用ハンマーをすぐ使える位置に備えることなどを促している。"
+    },
+    {
+      "title": "【小ネタ】 AWS Config で費用が増加した原因を調べるときのやつ",
+      "link": "https://dev.classmethod.jp/articles/investigate-config-cost-increase/",
+      "source": "DevelopersIO",
+      "published": "2026-08-26T04:55:35",
+      "excerpt": "AWS Configを有効にすると、予期せぬコスト増に直面することがあります。…"
+    },
+    {
+      "title": "秋田県“ラブホからバスローブ会見”、実は謝罪会見も突っ込みどころ満載だった　危機管理広報のプロが解説",
+      "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000761/",
+      "source": "ITmedia NEWS",
+      "published": "2026-08-26T04:30:00",
+      "excerpt": "物議を醸した秋田県の“ラブホからバスローブ会見”。実は、その後の謝罪会見にも改善点が多々あった。危機管理広報のプロによる指摘。"
     }
   ]
 }
