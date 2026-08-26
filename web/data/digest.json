@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-26T07:36:24",
+  "generated_at": "2026-08-26T08:28:44",
   "window_hours": 24,
-  "total": 259,
+  "total": 262,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が40件。Geminiアプリ、対話内でインタラクティブなシミュレーション生成に対応",
+      "summary": "生成AIの新着が39件。Claude Codeで権限確認や入力待ちに気づかず放置してしまう問題を、`settings.json`のhooks機能を使ったmacOS標準コマンドだけで解決する方法を試してみました。",
       "articles": [
+        {
+          "title": "Claude Codeの権限確認・応答完了をポップアップで通知する (macOS)",
+          "link": "https://dev.classmethod.jp/articles/claude-code-notification-mac/",
+          "source": "DevelopersIO",
+          "published": "2026-08-26T07:48:40",
+          "excerpt": "Claude Codeで権限確認や入力待ちに気づかず放置してしまう問題を、`settings.json`のhooks機能を使ったmacOS標準コマンドだけで解決する方法を試してみました。"
+        },
         {
           "title": "Geminiアプリ、対話内でインタラクティブなシミュレーション生成に対応",
           "link": "https://codezine.jp/article/detail/29440",
@@ -29,20 +36,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-26T05:34:12",
           "excerpt": "一言で モデルの回答が「与えた根拠（ソース）に基づいているか」「質問と関連しているか」を自動スコアリングし、根拠のない出力（ハルシネーション）を抑制するBedrock Guardrailsの機能。…"
-        },
-        {
-          "title": "「取りあえずChatGPT」はもう古い？　2社に1社が複数AIを併用、企業はどう管理すべきか",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/26/news044.html",
-          "source": "@IT",
-          "published": "2026-08-26T04:00:00",
-          "excerpt": "Okta Japanは、企業におけるAIツールの利用実態をまとめたレポートを発表した。Okta Platformの2万以上の組織における4年間の匿名化されたアクセスデータを分析したものだ。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が24件。AWS IoT Coreを触ってみたいと思い、Linuxコンテナから接続キットを使ってThingへの接続を試してみました。Fedoraコンテナでセットアップする際のハマりポイントと、実行成功までの流れを紹介します。",
+      "summary": "クラウドの新着が25件。AWS IoT Coreを触ってみたいと思い、Linuxコンテナから接続キットを使ってThingへの接続を試してみました。Fedoraコンテナでセットアップする際のハマりポイントと、実行成功までの流れを紹介します。",
       "articles": [
         {
           "title": "AWS IoT CoreにローカルLinuxコンテナから接続してみた",
@@ -50,6 +50,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-26T06:32:04",
           "excerpt": "AWS IoT Coreを触ってみたいと思い、Linuxコンテナから接続キットを使ってThingへの接続を試してみました。Fedoraコンテナでセットアップする際のハマりポイントと、実行成功までの流れを紹介します。"
+        },
+        {
+          "title": "React × AWS Fargate 入門ハンズオン",
+          "link": "https://zenn.dev/nyondev/articles/3558626c6499c8",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-26T05:56:06",
+          "excerpt": "はじめに ReactアプリをAWS Fargate上で公開するハンズオンを、生成AIに手順を聞きながら実践しました。結論から言うと、アプリ開発とDocker化は1時間で終わったのに、Fargateでの起動にハマりました。…"
         },
         {
           "title": "【Amazon Connect】入力してもらった電話番号を AWS Lambda で整形し、Amazon Polly に句読点で区切って読み上げさせてみた",
@@ -64,20 +71,13 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-08-26T05:06:42",
           "excerpt": "株式会社MonotaRO （モノタロウ）は、工具、部品、消耗品をはじめとする間接資材のインターネット通販を展開し、連結売上高 3,338 億円（2025 年 12 月期）、登録ユーザー数 1,100 万以上、取扱商品点数 2,800 万点以…"
-        },
-        {
-          "title": "マルチアカウント環境の自動タグ付与 ── EKSリソースの除外とコストで4案を比較した設計判断",
-          "link": "https://qiita.com/NTTDATA-Kyushu-Cloud/items/b111914b876c7f8dc1dd",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-26T04:05:43",
-          "excerpt": "マルチアカウント環境の自動タグ付与 ── EKSリソースの除外とコストで4案を比較した設計判断 はじめに 1.なぜ自動タグ付与が必要だったのか 1.1 タグ運用の限界 1.2 発想の転換：「自動で取れる情報は、自動で付ける」 1.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。Amazon、Corretto LTSおよびFR版の重要なセキュリティパッチを公開",
+      "summary": "セキュリティの新着が16件。Amazon、Corretto LTSおよびFR版の重要なセキュリティパッチを公開",
       "articles": [
         {
           "title": "Amazon、Corretto LTSおよびFR版の重要なセキュリティパッチを公開",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。GitHub、ブロックユーザー管理機能を改善し検索・フィルタ精度向上",
+      "summary": "開発ツールの新着が10件。GitHub、ブロックユーザー管理機能を改善し検索・フィルタ精度向上",
       "articles": [
         {
           "title": "GitHub、ブロックユーザー管理機能を改善し検索・フィルタ精度向上",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "Amazon Macie に「日本」が存在しない件 ─ 実測で確かめる日本の金融機関の落とし穴",
+      "link": "https://zenn.dev/nyondev/articles/8f547fc5227297",
+      "source": "Zenn AWSトピック",
+      "published": "2026-08-26T08:07:06",
+      "excerpt": "結論から Amazon Macie のマネージドデータ識別子には、日本向けのものが1つも存在しません。マイナンバーも、日本の口座番号も、日本語の氏名も住所も電話番号も、デフォルト設定では検出されません。…"
+    },
+    {
+      "title": "ロシアによる新たな秘密の影響力キャンペーンを阻止",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-26T07:31:31",
+      "excerpt": "記事の URL: https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia/ コメント URL: https://news.…"
+    },
+    {
+      "title": "Cognito と連携する PAT 管理・検証基盤 — 設計編",
+      "link": "https://zenn.dev/inventit/articles/pat-platform-design",
+      "source": "Zenn AWSトピック",
+      "published": "2026-08-26T07:27:03",
+      "excerpt": "前回は Amazon Cognito の Hosted UI でブラウザログインを構築し、JWT を手に入れるところまでを解説しました。…"
+    },
+    {
       "title": "「洋服の青山」初の空調ウェア、自腹レビュー　“きちんと感”なのに涼しい、よく考えられたデザインに驚いた",
       "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000795/",
       "source": "ITmedia NEWS",
       "published": "2026-08-26T07:22:11",
       "excerpt": "「洋服の青山」が発売ファン付きウェアを購入して何度か使ってみたところ、とてもよく考えられたデザインに驚いたので報告したい。"
-    },
-    {
-      "title": "「ペンギン入りSuicaカード」、在庫限りで販売終了　26年度末に卒業",
-      "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000808/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-26T07:04:42",
-      "excerpt": "JR東日本は8月26日、11月に誕生25周年を迎えるSuicaの記念企画を発表した。「Suicaのペンギン」を描いた現行のSuicaカードは、各発売箇所の在庫がなくなり次第、発売を終了。以降は無地のカードを発売する。"
-    },
-    {
-      "title": "Starlinkはレベル4大雨危険警報でも使えているか？検証しました | IIJ Engineers Blog",
-      "link": "https://eng-blog.iij.ad.jp/archives/37490",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-26T07:01:46",
-      "excerpt": "2026年8月22日、東京都内で「警戒レベル4（危険な場所から全員避難）」に相当する大雨に関する発表がありました。台風や集中豪雨等により浸水害の発生リスクが非常に高まった状況です。IIJエンジニアリ...…"
-    },
-    {
-      "title": "Ventures Platform は 2 つ目のアフリカファンドでさらに大きく、より広範囲に",
-      "link": "https://techcrunch.com/2026/08/26/ventures-platform-goes-bigger-and-broader-with-its-second-africa-fund/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-26T07:00:00",
-      "excerpt": "この汎アフリカのベンチャー企業は8,300万ドルを調達しており、本拠地であるナイジェリア市場以外の新興企業にも投資する予定だ。"
     }
   ]
 }
