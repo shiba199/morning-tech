@@ -1,20 +1,34 @@
 {
-  "generated_at": "2026-08-26T04:10:07",
+  "generated_at": "2026-08-26T05:01:40",
   "window_hours": 24,
-  "total": 255,
+  "total": 254,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が39件。I am looking for ideas on what to train a specialized model for!…",
+      "summary": "生成AIの新着が39件。Okta Japanは、企業におけるAIツールの利用実態をまとめたレポートを発表した。Okta Platformの2万以上の組織における4年間の匿名化されたアクセスデータを分析したものだ。",
       "articles": [
         {
-          "title": "Ask HN: What is one simple thing LLMs are insanely bad at?",
+          "title": "「取りあえずChatGPT」はもう古い？　2社に1社が複数AIを併用、企業はどう管理すべきか",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/26/news044.html",
+          "source": "@IT",
+          "published": "2026-08-26T04:00:00",
+          "excerpt": "Okta Japanは、企業におけるAIツールの利用実態をまとめたレポートを発表した。Okta Platformの2万以上の組織における4年間の匿名化されたアクセスデータを分析したものだ。"
+        },
+        {
+          "title": "「AIエージェントを本番運用中」日本が最下位　“PoC止まり”の原因と、抜け出す方法は？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/26/news040.html",
+          "source": "@IT",
+          "published": "2026-08-26T04:00:00",
+          "excerpt": "AIエージェントなど自律型AIを本番運用している日本企業は17％にとどまることが、Confluentの調査で分かった。活用を進める上での課題とは何か。その解決策とは。"
+        },
+        {
+          "title": "HN に質問してください: LLM が非常に苦手な単純な点は何ですか?",
           "link": "https://news.ycombinator.com/item?id=49443820",
           "source": "Hacker News（英語）",
           "published": "2026-08-26T03:17:51",
-          "excerpt": "I am looking for ideas on what to train a specialized model for!…"
+          "excerpt": "特化したモデルを何のためにトレーニングするかについてのアイデアを探しています。ChatGPT、Claude、または別のモデルに繰り返し要求して、それでも何らかの問題が発生する単純なことは何ですか?…"
         },
         {
           "title": "「SQLite + xangi」で始める軽量RAG：個人利用から仕事利用へ広げるアプローチ | ENGINEER TECH BLOG",
@@ -22,20 +36,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-26T03:03:51",
           "excerpt": "こんにちは、zukiです。この記事がテックブログ初投稿になります。最近個人で取り組んでいるRAG環境について、書いてみようと思います。続きをみる"
-        },
-        {
-          "title": "ターミナルにこもってもPdM業務が完結する仕組みをClaude Codeで作った | バイセル Tech Blog",
-          "link": "https://tech.buysell-technologies.com/entry/2026/08/26/120000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-26T03:00:00",
-          "excerpt": "title はじめに こんにちは！株式会社BuySell Technologiesテクノロジー統括本部で、店舗買取システム「Store」のPdMをしている馬塲です。23卒として入社し、現在はプロダクトマネジメントを担当しています。…"
-        },
-        {
-          "title": "Agentic Context Management: Memory and Cost as Architecture Problems",
-          "link": "https://arxiv.org/abs/2607.21503",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-26T02:35:25",
-          "excerpt": "Article URL: https://arxiv.org/abs/2607.21503 Comments URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。デジタル庁、マイナポータルにデジタル認証アプリ機能を統合し提供",
+      "summary": "セキュリティの新着が16件。全日空商事は8月24日、法人向けデジタルギフトサービス「選べるe-GIFT」が不正アクセスを受け、契約企業の担当者の個人情報が漏えいした可能性があると発表した。第三者がギフトを不正に交換した被害も確認している。",
       "articles": [
+        {
+          "title": "ANA子会社のデジタルギフト「選べるe-GIFT」に不正アクセス　担当者情報漏えいか、不正交換も",
+          "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000798/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-26T04:24:59",
+          "excerpt": "全日空商事は8月24日、法人向けデジタルギフトサービス「選べるe-GIFT」が不正アクセスを受け、契約企業の担当者の個人情報が漏えいした可能性があると発表した。第三者がギフトを不正に交換した被害も確認している。"
+        },
         {
           "title": "デジタル庁、マイナポータルにデジタル認証アプリ機能を統合し提供",
           "link": "https://codezine.jp/article/detail/29437",
@@ -99,21 +106,21 @@
           "source": "The Register（英語）",
           "published": "2026-08-25T22:54:37",
           "excerpt": "遅れていて欠陥もある、それでも美しい"
-        },
-        {
-          "title": "Amazon EKS が認証局(CA)ローテーションと自動化されたライフサイクル管理をサポート",
-          "link": "https://qiita.com/Haruki-N/items/4404cd5951791dc3d116",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-25T21:43:11",
-          "excerpt": "はじめに 2026 年 8 月 20 日、AWS は Amazon EKS に対して certificate authority(CA)rotation を発表しました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が13件。日程調整ゼロで24時間調査、AGREEBITが音声AIインタビューSaaSを提供",
+      "summary": "データ分析の新着が14件。ThinkingAIが翔泳社刊行の書籍『ゲームを進化させるデータ分析完全ガイド』を先着50名に無料献本",
       "articles": [
+        {
+          "title": "ThinkingAIが翔泳社刊行の書籍『ゲームを進化させるデータ分析完全ガイド』を先着50名に無料献本",
+          "link": "https://codezine.jp/article/detail/29450",
+          "source": "CodeZine",
+          "published": "2026-08-26T04:30:00",
+          "excerpt": "ThinkingAIが翔泳社刊行の書籍『ゲームを進化させるデータ分析完全ガイド』を先着50名に無料献本"
+        },
         {
           "title": "日程調整ゼロで24時間調査、AGREEBITが音声AIインタビューSaaSを提供",
           "link": "https://codezine.jp/article/detail/29446",
@@ -134,21 +141,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-25T23:00:23",
           "excerpt": "はじめに こんにちは、ほうき星 @H0ukiStar です。皆さんは DynamoDB を暗号化して利用していますでしょうか？DynamoDB を暗号化なしで作成することはできませんので、この問いに「暗号化してなーい！…"
-        },
-        {
-          "title": "str. lower() が Python のセキュリティ脆弱性である場合 – Seth Larson",
-          "link": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-25T20:49:03",
-          "excerpt": "記事の URL: https://sethmlarson.dev/when-str- lower-is-a-security-vulnerability コメント URL: https://news.ycombinator.…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。Aurora MySQL 3.09 から 3.10 へのバージョンアップをBlue/Green Deploymentで実施しました。実際の手順や、ダウンタイム約5秒で完了した実績などを詳しく紹介します。",
+      "summary": "開発ツールの新着が11件。GitHub、ブロックユーザー管理機能を改善し検索・フィルタ精度向上",
       "articles": [
+        {
+          "title": "GitHub、ブロックユーザー管理機能を改善し検索・フィルタ精度向上",
+          "link": "https://codezine.jp/article/detail/29439",
+          "source": "CodeZine",
+          "published": "2026-08-26T04:00:00",
+          "excerpt": "GitHub、ブロックユーザー管理機能を改善し検索・フィルタ精度向上"
+        },
         {
           "title": "Aurora MySQL を Blue/Green Deployment でマイナーバージョンアップしてみた",
           "link": "https://dev.classmethod.jp/articles/aurora-mysql-blue-green-deployment-version-upgrade/",
@@ -169,18 +176,18 @@
           "source": "CodeZine",
           "published": "2026-08-25T22:00:00",
           "excerpt": "Microsoft、「Windows App Development CLI v0.6」リリース"
-        },
-        {
-          "title": "3D XRアプリ開発向け「Jetpack XR SDK」のコアライブラリがベータ版に到達",
-          "link": "https://codezine.jp/article/detail/29424",
-          "source": "CodeZine",
-          "published": "2026-08-25T22:00:00",
-          "excerpt": "3D XRアプリ開発向け「Jetpack XR SDK」のコアライブラリがベータ版に到達"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "ワンマーケティング、BtoBの売上創出プロセスをデータとAIで再設計するGTMエンジニアリング専門サイトを公開",
+      "link": "https://codezine.jp/article/detail/29449",
+      "source": "CodeZine",
+      "published": "2026-08-26T04:15:00",
+      "excerpt": "ワンマーケティング、BtoBの売上創出プロセスをデータとAIで再設計するGTMエンジニアリング専門サイトを公開"
+    },
     {
       "title": "AWSコスト試算入門 Pricing Calculatorで月額料金を見積もる手順",
       "link": "https://qiita.com/s_horikoshi/items/b74d35a15c4ed0c0424a",
@@ -196,18 +203,11 @@
       "excerpt": "8月25日に東京都中野区の商業施設「中野ブロードウェイ」で起きた高級腕時計の窃盗事件を巡り、逃走に使用したとみられる電動キックボードに「LUUP」のロゴが入っていたとテレビ朝日などが報じている。…"
     },
     {
-      "title": "ダークパターン規制記事に、閉じにくい巨大広告　「これもダークパターンでは」ツッコミ殺到",
-      "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000794/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-26T03:44:45",
-      "excerpt": "消費者庁がネット上の「ダークパターン」を包括規制する方針を打ち出したと伝える「47NEWS」の速報記事ページに、大きなオーバーレイ広告が出て本文が読みづらく、「これもダークパターンでは」などとツッコミや皮肉が殺到している。"
-    },
-    {
-      "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
-      "link": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-08-26T03:30:00",
-      "excerpt": "Ringg has raised $10 million from Peak XV as a part of its Series A extension."
+      "title": "デジタルハリウッド、Yahoo!フリマを題材にしたUI/UX改善の実践型講義を10月より開始",
+      "link": "https://codezine.jp/article/detail/29448",
+      "source": "CodeZine",
+      "published": "2026-08-26T03:45:00",
+      "excerpt": "デジタルハリウッド、Yahoo!フリマを題材にしたUI/UX改善の実践型講義を10月より開始"
     }
   ]
 }
