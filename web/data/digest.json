@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:56:07",
+  "generated_at": "2026-08-26T06:31:06",
   "window_hours": 24,
   "total": 261,
   "topic_count": 5,
@@ -7,7 +7,7 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が42件。一言で モデルの回答が「与えた根拠（ソース）に基づいているか」「質問と関連しているか」を自動スコアリングし、根拠のない出力（ハルシネーション）を抑制するBedrock Guardrailsの機能。…",
+      "summary": "生成AIの新着が41件。一言で モデルの回答が「与えた根拠（ソース）に基づいているか」「質問と関連しているか」を自動スコアリングし、根拠のない出力（ハルシネーション）を抑制するBedrock Guardrailsの機能。…",
       "articles": [
         {
           "title": "【AWS AIP】Bedrock Guardrails コンテキストグラウンディングチェック",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が25件。Amazon Connectで入力された電話番号をAWS Lambdaで整形し、Amazon Pollyに句読点で区切って読み上げさせる実装方法をご紹介します。…",
+      "summary": "クラウドの新着が24件。Amazon Connectで入力された電話番号をAWS Lambdaで整形し、Amazon Pollyに句読点で区切って読み上げさせる実装方法をご紹介します。…",
       "articles": [
         {
           "title": "【Amazon Connect】入力してもらった電話番号を AWS Lambda で整形し、Amazon Polly に句読点で区切って読み上げさせてみた",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。Amazon、Corretto LTSおよびFR版の重要なセキュリティパッチを公開",
+      "summary": "セキュリティの新着が18件。Amazon、Corretto LTSおよびFR版の重要なセキュリティパッチを公開",
       "articles": [
         {
           "title": "Amazon、Corretto LTSおよびFR版の重要なセキュリティパッチを公開",
@@ -94,26 +94,33 @@
           "excerpt": "全日空商事は8月24日、法人向けデジタルギフトサービス「選べるe-GIFT」が不正アクセスを受け、契約企業の担当者の個人情報が漏えいした可能性があると発表した。第三者がギフトを不正に交換した被害も確認している。"
         },
         {
+          "title": "Secrets Managerのシークレットはどんな粒度で分けるべき？ | GENDAのフィード",
+          "link": "https://zenn.dev/genda_jp/articles/e7e831636a769d",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-26T03:34:37",
+          "excerpt": "はじめにSecrets Managerでは、1つのシークレットの中でJSON形式を用いて複数のKey-Valueが登録できます。どんな粒度で分けるべきか疑問に思い調べたところ、意外と情報が見つからなかったので書いてみました。…"
+        },
+        {
           "title": "デジタル庁、マイナポータルにデジタル認証アプリ機能を統合し提供",
           "link": "https://codezine.jp/article/detail/29437",
           "source": "CodeZine",
           "published": "2026-08-26T00:30:00",
           "excerpt": "デジタル庁、マイナポータルにデジタル認証アプリ機能を統合し提供"
-        },
-        {
-          "title": "DynamoDB の暗号化を改めて考える：属性レベル暗号化から Beacons まで",
-          "link": "https://qiita.com/h0uk1st4r/items/703c17bd22bcf33e1d39",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-25T23:00:23",
-          "excerpt": "はじめに こんにちは、ほうき星 @H0ukiStar です。皆さんは DynamoDB を暗号化して利用していますでしょうか？DynamoDB を暗号化なしで作成することはできませんので、この問いに「暗号化してなーい！…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が13件。ThinkingAIが翔泳社刊行の書籍『ゲームを進化させるデータ分析完全ガイド』を先着50名に無料献本",
+      "summary": "データ分析の新着が14件。Fivetran Activations を使ってSnowflakeのデータをSFTPサーバーに連携するreverse ETLの設定方法を、実際の設定手順とともに紹介します。",
       "articles": [
+        {
+          "title": "Fivetran Activations を利用して、Snowflake のデータを SFTP サーバーまで reverse ETL する",
+          "link": "https://dev.classmethod.jp/articles/fivetran_activations_snowflake_sftp/",
+          "source": "DevelopersIO",
+          "published": "2026-08-26T06:05:09",
+          "excerpt": "Fivetran Activations を使ってSnowflakeのデータをSFTPサーバーに連携するreverse ETLの設定方法を、実際の設定手順とともに紹介します。"
+        },
         {
           "title": "ThinkingAIが翔泳社刊行の書籍『ゲームを進化させるデータ分析完全ガイド』を先着50名に無料献本",
           "link": "https://codezine.jp/article/detail/29450",
@@ -134,13 +141,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-08-26T01:00:00",
           "excerpt": "キャリアは、選択の積み重ねでできています。どんな経験を経て、なぜSansanを選び、いまどんな挑戦に向き合っているのか。…"
-        },
-        {
-          "title": "DynamoDB の暗号化を改めて考える：属性レベル暗号化から Beacons まで",
-          "link": "https://qiita.com/h0uk1st4r/items/703c17bd22bcf33e1d39",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-25T23:00:23",
-          "excerpt": "はじめに こんにちは、ほうき星 @H0ukiStar です。皆さんは DynamoDB を暗号化して利用していますでしょうか？DynamoDB を暗号化なしで作成することはできませんので、この問いに「暗号化してなーい！…"
         }
       ]
     },
@@ -182,6 +182,13 @@
   ],
   "uncategorized": [
     {
+      "title": "More than half of adults in U.S. say they lack basic statistical understanding",
+      "link": "https://www.psu.edu/news/research/story/more-half-adults-us-say-they-lack-basic-statistical-understanding",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-26T05:49:20",
+      "excerpt": "Article URL: https://www.psu.…"
+    },
+    {
       "title": "「nanacoクレジットカード」登場　利用額に応じATMで現金還元、日本初",
       "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000805/",
       "source": "ITmedia NEWS",
@@ -201,13 +208,6 @@
       "source": "DevelopersIO",
       "published": "2026-08-26T04:55:35",
       "excerpt": "AWS Configを有効にすると、予期せぬコスト増に直面することがあります。…"
-    },
-    {
-      "title": "秋田県“ラブホからバスローブ会見”、実は謝罪会見も突っ込みどころ満載だった　危機管理広報のプロが解説",
-      "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000761/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-26T04:30:00",
-      "excerpt": "物議を醸した秋田県の“ラブホからバスローブ会見”。実は、その後の謝罪会見にも改善点が多々あった。危機管理広報のプロによる指摘。"
     }
   ]
 }
