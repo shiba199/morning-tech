@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-08-26T10:03:33",
+  "generated_at": "2026-08-26T10:57:59",
   "window_hours": 24,
-  "total": 265,
+  "total": 264,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が41件。Claude CodeのプラグインをCodexに対応させるための設定変更について、実装例を交えて詳しく解説します。",
+      "summary": "生成AIの新着が41件。Amazon Bedrock Managed Knowledge Base に Web Crawler でデータソースを登録する手順を、実際の操作画面を交えながらご紹介します。",
       "articles": [
+        {
+          "title": "【Amazon Bedrock】Managed Knowledge Base のデータソースに Web Crawler を登録してみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-managed-knowledge-base-web/",
+          "source": "DevelopersIO",
+          "published": "2026-08-26T10:40:34",
+          "excerpt": "Amazon Bedrock Managed Knowledge Base に Web Crawler でデータソースを登録する手順を、実際の操作画面を交えながらご紹介します。"
+        },
         {
           "title": "Claude Code用に作成し公開したPluginをCodexでもインストールできるように公開する",
           "link": "https://dev.classmethod.jp/articles/publish-claude-code-plugin-to-codex/",
@@ -29,13 +36,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-26T08:56:03",
           "excerpt": "Xのタイムラインで、緑地に黒文字のシンプルな宣伝画像が流れてきた。…"
-        },
-        {
-          "title": "RAG Is Simpler Than You Think",
-          "link": "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-26T08:39:17",
-          "excerpt": "Article URL: https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think Comments URL: https://news.…"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。カバー（東京都港区）が企画・開発するトレーディングカードゲーム「hololive OFFICIAL CARD GAME」の公式サイトは8月25日、第三者による不正アクセスの痕跡が見つかったと発表した。…",
+      "summary": "セキュリティの新着が15件。Security-JAWS 第42回のレポートです。",
       "articles": [
+        {
+          "title": "Security-JAWS 第42回レポート #secjaws #secjaws42 #jawsug",
+          "link": "https://dev.classmethod.jp/articles/security-jaws-42-report/",
+          "source": "DevelopersIO",
+          "published": "2026-08-26T10:25:38",
+          "excerpt": "Security-JAWS 第42回のレポートです。"
+        },
         {
           "title": "「ホロライブ」カードゲームの公式サイトに不正アクセスの痕跡　CMSの脆弱性突かれたか",
           "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000811/",
@@ -99,21 +106,21 @@
           "source": "ITmedia NEWS",
           "published": "2026-08-26T04:24:59",
           "excerpt": "全日空商事は8月24日、法人向けデジタルギフトサービス「選べるe-GIFT」が不正アクセスを受け、契約企業の担当者の個人情報が漏えいした可能性があると発表した。第三者がギフトを不正に交換した被害も確認している。"
-        },
-        {
-          "title": "Secrets Managerのシークレットはどんな粒度で分けるべき？ | GENDAのフィード",
-          "link": "https://zenn.dev/genda_jp/articles/e7e831636a769d",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-26T03:34:37",
-          "excerpt": "はじめにSecrets Managerでは、1つのシークレットの中でJSON形式を用いて複数のKey-Valueが登録できます。どんな粒度で分けるべきか疑問に思い調べたところ、意外と情報が見つからなかったので書いてみました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が15件。はじめに なぜ移行したか アーキテクチャ 進め方 運用とコストの現実 ハマりどころ Terraform プロバイダのバグ カスタムパッケージの Content-Type tar コマンドの実装差 自動スナップショットと運用タスクの競合 おわ…",
+      "summary": "データ分析の新着が16件。Eight-way ballot on AI code puts the distro's fractious democracy through its paces",
       "articles": [
+        {
+          "title": "Debian polls its developers on whether to burn the bots, tame the bots, or let 'em loose",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/26/debian-polls-its-developers-on-whether-to-burn-the-bots-tame-the-bots-or-let-em-loose/5292270",
+          "source": "The Register（英語）",
+          "published": "2026-08-26T09:15:00",
+          "excerpt": "Eight-way ballot on AI code puts the distro's fractious democracy through its paces"
+        },
         {
           "title": "EC2 上の Elasticsearch を AWS マネージドの OpenSearch に無停止で移行した記録（インフラ目線） | MNTSQ Techブログ",
           "link": "https://tech.mntsq.co.jp/entry/2026/08/26/180213",
@@ -134,13 +141,6 @@
           "source": "CodeZine",
           "published": "2026-08-26T04:30:00",
           "excerpt": "ThinkingAIが翔泳社刊行の書籍『ゲームを進化させるデータ分析完全ガイド』を先着50名に無料献本"
-        },
-        {
-          "title": "日程調整ゼロで24時間調査、AGREEBITが音声AIインタビューSaaSを提供",
-          "link": "https://codezine.jp/article/detail/29446",
-          "source": "CodeZine",
-          "published": "2026-08-26T03:15:00",
-          "excerpt": "日程調整ゼロで24時間調査、AGREEBITが音声AIインタビューSaaSを提供"
         }
       ]
     },
@@ -182,6 +182,20 @@
   ],
   "uncategorized": [
     {
+      "title": "Z.aiはOx Alphaが新しいGLMシリーズモデルであり、そのウェイトをリリースすることを確認",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-26T10:04:55",
+      "excerpt": "Article URL: https://www.bloomberg.…"
+    },
+    {
+      "title": "UK supermarket scales go 404 on shoppers",
+      "link": "https://www.theregister.com/offbeat/2026/08/26/uk-supermarket-scales-go-404-on-shoppers/5292088",
+      "source": "The Register（英語）",
+      "published": "2026-08-26T10:00:00",
+      "excerpt": "Tesco produce not found?But beware the forbidden scales...…"
+    },
+    {
       "title": "Datadog のAWS インテグレーションでCloudWatch メトリクスの収集対象Namespace が自動的に増える原因と対処法",
       "link": "https://dev.classmethod.jp/articles/datadog-aws-integration-namespace-filters-include-only/",
       "source": "DevelopersIO",
@@ -194,20 +208,6 @@
       "source": "DevelopersIO",
       "published": "2026-08-26T09:41:39",
       "excerpt": "Advantech 社のデバイス管理サービス DeviceOn をトライアルで試してみました。"
-    },
-    {
-      "title": "Dependabot auto-triage rules の書き方と挙動を検証してみた",
-      "link": "https://dev.classmethod.jp/articles/dependabot-auto-triage-rules-sandbox-test/",
-      "source": "DevelopersIO",
-      "published": "2026-08-26T09:30:15",
-      "excerpt": "Dependabot alerts はパスで除外できないので、auto-triage rules による自動 dismiss を検証しました。書き方の落とし穴と適用タイミングの仕様をまとめています。"
-    },
-    {
-      "title": "AWS PCS(Parallel Computing Service)로 로그인 노드, 작업 노드를 구축하고 자동 스케일링까지 검증해봤습니다.",
-      "link": "https://dev.classmethod.jp/articles/jw-aws-pcs-auto-scaling/",
-      "source": "DevelopersIO",
-      "published": "2026-08-26T09:29:58",
-      "excerpt": "AWS PCS(Parallel Computing Service)로 로그인 노드, 작업 노드를 구축하고 자동 스케일링까지 검증해봤습니다."
     }
   ]
 }
