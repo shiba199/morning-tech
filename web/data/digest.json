@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T15:41:38",
+  "generated_at": "2026-08-29T18:58:40",
   "window_hours": 24,
   "total": 97,
   "topic_count": 5,
@@ -7,7 +7,7 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。coding agent のチーム利用に要る AI Gateway を課金経路・窓口・振り分け・実行側・観測の五層に分け、Claude Code の配備 6 経路と構成 7 パターンを比べました。…",
+      "summary": "生成AIの新着が18件。coding agent のチーム利用に要る AI Gateway を課金経路・窓口・振り分け・実行側・観測の五層に分け、Claude Code の配備 6 経路と構成 7 パターンを比べました。…",
       "articles": [
         {
           "title": "チームで coding agent を使うための AI Gateway とルーターの理想形を考えてみた",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。LocalStack代替のAWSエミュレータFlociの2026年8月分まとめ。1.6.0と1.7.…",
+      "summary": "クラウドの新着が14件。この記事について ここまででサービスの構築・デプロイ・監視が整いました。最後に、日次バッチ処理をどう組み立てるか、そしてコード化しきれない運用面(コスト、クリーンアップ、障害時の復旧手順)をどう設計するかを扱います。…",
       "articles": [
+        {
+          "title": "Terraform : ECS Fargate環境を構築する(4) ― バッチオーケストレーションと運用設計",
+          "link": "https://qiita.com/ham-nao/items/ff38df5d6b1bec1aae59",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-29T17:20:22",
+          "excerpt": "この記事について ここまででサービスの構築・デプロイ・監視が整いました。最後に、日次バッチ処理をどう組み立てるか、そしてコード化しきれない運用面(コスト、クリーンアップ、障害時の復旧手順)をどう設計するかを扱います。…"
+        },
         {
           "title": "2026年8月 Flociアップデートまとめ、CloudFrontの配信とAppSyncのGraphQLエンドポイントが動くようになった",
           "link": "https://dev.classmethod.jp/articles/floci-2026-08-cloudfront-appsync-update/",
@@ -64,20 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-29T10:20:06",
           "excerpt": "はじめに FastAPIとECSの構成でデータベースをどれにするか調べた。選択肢は主に3つ。RDS（PostgreSQL）、Aurora PostgreSQL、Aurora Serverless v2。「RDSで十分じゃないの?…"
-        },
-        {
-          "title": "AWS ECS + FastAPIをデプロイした — ECRとFargateの構成",
-          "link": "https://qiita.com/cozy_666_tech/items/31f28866d2c7d162911c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-29T10:19:52",
-          "excerpt": "はじめに FastAPIのアプリをAWSで本番運用するにあたってECSを使った構成を作った。Lambdaも試したが（前の記事参照）、常時トラフィックがあるAPIにはECSのほうが向いている。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。これまでに以下2本の記事を書きました。…",
+      "summary": "セキュリティの新着が7件。これまでに以下2本の記事を書きました。…",
       "articles": [
         {
           "title": "【コツコツAWS】AWS CDK - 認証関係のリソースを実装する際の対応 -",
@@ -85,6 +85,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-29T14:53:46",
           "excerpt": "これまでに以下2本の記事を書きました。…"
+        },
+        {
+          "title": "「スタートアップだから」が通用しない、大手製造業向けSaaSのAWSセキュリティ設計",
+          "link": "https://zenn.dev/facraft/articles/aws-org-security-for-enterprise-saas",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-29T14:29:27",
+          "excerpt": "はじめに 株式会社FAcraftの山本です。FAcraftは、大手製造業向けのSaaSを開発・運用している小規模なスタートアップです。サービス基盤の一つとして、AWSを利用しています。…"
         },
         {
           "title": "Azure Databricks - Entra ID の認証情報でAzure Databricks のエージェントを外部から実行する | ヘッドウォータースのフィード",
@@ -99,13 +106,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-29T10:20:22",
           "excerpt": "はじめに AWSを使い始めてから一番「ちゃんと理解しないといけない」と感じたのがIAMだった。最初はとりあえずAdministratorAccessを付けて動かしていたが、それがどれだけ危険かを理解してから設計を見直した。…"
-        },
-        {
-          "title": "アップロードされたファイルを検査前に配っていないか - GuardDutyに任せるマルウェア検査とFail Closed設計",
-          "link": "https://zenn.dev/okamyuji/articles/aws-secure-file-upload-with-guardduty",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-29T00:04:47",
-          "excerpt": "ファイルアップロード機能は、利用者が管理するデータをシステムへ持ち込む入口になります。攻撃者は、この入口からマルウェアを保存させ、そのファイルを別の利用者にダウンロードさせる可能性があります。…"
         }
       ]
     },
@@ -133,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。これまでに以下2本の記事を書きました。…",
+      "summary": "開発ツールの新着が9件。この記事について ここまででサービスの構築・デプロイ・監視が整いました。最後に、日次バッチ処理をどう組み立てるか、そしてコード化しきれない運用面(コスト、クリーンアップ、障害時の復旧手順)をどう設計するかを扱います。…",
       "articles": [
+        {
+          "title": "Terraform : ECS Fargate環境を構築する(4) ― バッチオーケストレーションと運用設計",
+          "link": "https://qiita.com/ham-nao/items/ff38df5d6b1bec1aae59",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-29T17:20:22",
+          "excerpt": "この記事について ここまででサービスの構築・デプロイ・監視が整いました。最後に、日次バッチ処理をどう組み立てるか、そしてコード化しきれない運用面(コスト、クリーンアップ、障害時の復旧手順)をどう設計するかを扱います。…"
+        },
         {
           "title": "【コツコツAWS】AWS CDK - 認証関係のリソースを実装する際の対応 -",
           "link": "https://qiita.com/guupys/items/95e993667ea2810e108e",
@@ -150,50 +157,43 @@
           "excerpt": "Slack CLI に追加された api コマンドを使って手軽に Slack API を呼び出す方法をご紹介します。Slack CLI のインストールから実際にメッセージを投稿するまでの手順をまとめました。"
         },
         {
-          "title": "AWS CDK入門 — インフラをPythonで書けるのが面白かった",
-          "link": "https://qiita.com/cozy_666_tech/items/6e83d768b633b7db6928",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-29T10:20:35",
-          "excerpt": "はじめに ECSやRDSの設定をAWS CLIやマネジメントコンソールで手作業でやっていたが、「インフラをコードで管理したい」と思うようになってきた。選択肢はTerraformとAWS CDKが主要どころ。…"
-        },
-        {
-          "title": "AWS ECS + FastAPIをデプロイした — ECRとFargateの構成",
-          "link": "https://qiita.com/cozy_666_tech/items/31f28866d2c7d162911c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-29T10:19:52",
-          "excerpt": "はじめに FastAPIのアプリをAWSで本番運用するにあたってECSを使った構成を作った。Lambdaも試したが（前の記事参照）、常時トラフィックがあるAPIにはECSのほうが向いている。…"
+          "title": "AWSの重要通知をBedrockのClaudeで日本語要約してSlackに流す仕組みをTerraformで作る",
+          "link": "https://zenn.dev/ho377/articles/2026-08-29-tech",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-29T13:16:05",
+          "excerpt": "はじめに AWSアカウントを運用していると、Health のメンテナンス通知、セキュリティの Finding、コスト異常など、見逃したくない通知が複数のサービスからバラバラに届きます。しかも原文は英語で、メールボックスの中に埋もれがちです。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "[新機能]Snowflake のMulti-value tagsが GA になったので複数値の管理からタグ伝播のマージまで試してみた",
-      "link": "https://dev.classmethod.jp/articles/snowflake-multi-value-tags-ga/",
-      "source": "DevelopersIO",
-      "published": "2026-08-29T14:25:07",
-      "excerpt": "Snowflake の新機能「マルチバリュータグ」が 2026年8月に GA となりました。1つのタグに複数の値を割り当てられる仕様を、実際の操作や MERGE 伝播、マスキングポリシーとの連携まで詳しく検証します。"
+      "title": "ソニー・ミュージックとワーナー、知的財産窃盗の「厚かましいキャンペーン」を主張してアンスロピックを提訴",
+      "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-29T18:41:59",
+      "excerpt": "この最新の訴訟は特に広範囲にわたり、違法な著作権侵害の告発に焦点を当てている。"
     },
     {
-      "title": "実行可能スタックを使用しない GCC での入れ子関数の間接呼び出し",
-      "link": "https://uecker.codeberg.page/2026-08-29.html",
+      "title": "インターネットは今や略奪的な汚水の巣のようなもの",
+      "link": "https://www.stephendiehl.com/posts/internet_predatory_cesspit/",
       "source": "Hacker News（英語）",
-      "published": "2026-08-29T14:20:33",
-      "excerpt": "記事の URL: https://uecker.codeberg.page/2026-08-29.html コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-08-29T18:40:56",
+      "excerpt": "記事の URL: https://www.stephendiehl.com/posts/internet_predatory_cesspit/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "FSx for OpenZFSのメモリ使用率が高い理由 - ZFS ARCの仕組みと監視設計",
-      "link": "https://qiita.com/ike_s_muramatsu/items/dba7f78397a12671e51b",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-29T13:33:51",
-      "excerpt": "はじめに Amazon FSx for OpenZFSを本番導入する前、CloudWatchの監視設定(アラームのしきい値など)を決めるために、実際にファイルを書き込みながら各種メトリクスの動きを見る検証をしていました。…"
+      "title": "TechBBQ では、ヨーロッパの AI に関する会話は「実際に誰がコントロールしているのか?」という話題に戻りました。",
+      "link": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-08-29T17:51:10",
+      "excerpt": "ヨーロッパ全土から投資家、創設者、運営者が毎年恒例の Nordic TechBBQ カンファレンスに集まり、人間が AI に対してどのように主体性を持つことができるかについて話し合いました。"
     },
     {
-      "title": "AWS は、コストを浪費するネットワーク技術について叫ばなければならないときにつぶやく",
-      "link": "https://www.theregister.com/networks/2026/08/29/aws-mumbles-about-its-cost-busting-networking-tech-when-it-should-be-shouting/5293379",
-      "source": "The Register（英語）",
-      "published": "2026-08-29T13:30:00",
-      "excerpt": "多くのデータセンター ネットワークは絶対的なピエロによって運営されています。アマゾンのものではありません"
+      "title": "加速する前に調整する: 新しい役割における行動に対する偏見",
+      "link": "https://tucker.wales/writing/bias-towards-action/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-29T17:39:18",
+      "excerpt": "記事の URL: https://tucker.wales/writing/bias-towards-action/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
