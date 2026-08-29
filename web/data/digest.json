@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-08-29T11:13:18",
+  "generated_at": "2026-08-29T15:41:38",
   "window_hours": 24,
-  "total": 98,
+  "total": 97,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。はじめに サーバーワークスの池田です。今週（8/21〜8/27）のClaude Codeは、v2.1.238からv2.1.250まで10バージョンがリリースされました（v2.1.242、v2.1.244、v2.1.249はスキップ）。…",
+      "summary": "生成AIの新着が19件。coding agent のチーム利用に要る AI Gateway を課金経路・窓口・振り分け・実行側・観測の五層に分け、Claude Code の配備 6 経路と構成 7 パターンを比べました。…",
       "articles": [
         {
-          "title": "Claude Code更新 restrictedモード追加・feedback自動下書き【8/21〜27】 | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/08/29/190000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-29T10:00:00",
-          "excerpt": "はじめに サーバーワークスの池田です。今週（8/21〜8/27）のClaude Codeは、v2.1.238からv2.1.250まで10バージョンがリリースされました（v2.1.242、v2.1.244、v2.1.249はスキップ）。…"
+          "title": "チームで coding agent を使うための AI Gateway とルーターの理想形を考えてみた",
+          "link": "https://dev.classmethod.jp/articles/coding-agent-team-ai-gateway-ideal/",
+          "source": "DevelopersIO",
+          "published": "2026-08-29T15:21:44",
+          "excerpt": "coding agent のチーム利用に要る AI Gateway を課金経路・窓口・振り分け・実行側・観測の五層に分け、Claude Code の配備 6 経路と構成 7 パターンを比べました。…"
         },
         {
-          "title": "Claude Codeのスキル内インラインシェル実行もBashツールと同じくpermissionsチェックを通る",
-          "link": "https://dev.classmethod.jp/articles/claude-code-inline-shell-execution-permissions-check/",
-          "source": "DevelopersIO",
-          "published": "2026-08-29T09:53:42",
-          "excerpt": "Claude Codeのスキル内インラインシェル実行もBashツールと同じくpermissionsチェックを通る"
+          "title": "【AWS DevOps Agent】コードレビューと自動検証テストの検証",
+          "link": "https://qiita.com/aliean/items/bec57a9a20c7f9e60f79",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-29T14:48:38",
+          "excerpt": "この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の29日目の記事となります。過去の投稿（リンク集）は以下リンクからご覧ください。…"
         },
         {
-          "title": "Claude Code v2.1.250〜v2.1.251 の主要アップデート - プロジェクト設定の env 制限とプロンプトキャッシュの可視化",
-          "link": "https://dev.classmethod.jp/articles/20260829-cc-updates-v2-1-251/",
+          "title": "CloudWatch エージェントが journald に対応したので Amazon Linux 2023 で試してみた",
+          "link": "https://dev.classmethod.jp/articles/cloudwatch-agent-journald-al2023/",
           "source": "DevelopersIO",
-          "published": "2026-08-29T09:38:52",
-          "excerpt": "Claude Code のv2.1.250〜v2.1.251アップデートをまとめました。権限まわりの修正が目立つ回で、プロンプトキャッシュの可視化など注目の機能も追加されています。今日は、プロンプトキャッシュの可視化について試してみました。"
+          "published": "2026-08-29T14:39:08",
+          "excerpt": "CloudWatch エージェントが systemd ジャーナルの直接収集に対応しました。…"
         },
         {
-          "title": "Amazon SageMaker HyperPod のディープヘルスチェックをオンデマンドで実行してみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-sagemaker-hyperpod-on-demand-deep-health-check/",
-          "source": "DevelopersIO",
-          "published": "2026-08-29T09:20:34",
-          "excerpt": "Amazon SageMaker HyperPod のオンデマンド対応ディープヘルスチェックを実際に試してみました。…"
+          "title": "Debian が「生成 AI の責任ある使用」を許可することに投票",
+          "link": "https://lwn.net/Articles/1091231/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-29T14:02:10",
+          "excerpt": "記事の URL: https://lwn.net/Articles/1091231/ コメント URL: https://news.ycombinator.com/item?id=49489982 ポイント: 174 コメント数: 109"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。はじめに ECSやRDSの設定をAWS CLIやマネジメントコンソールで手作業でやっていたが、「インフラをコードで管理したい」と思うようになってきた。選択肢はTerraformとAWS CDKが主要どころ。…",
+      "summary": "クラウドの新着が16件。LocalStack代替のAWSエミュレータFlociの2026年8月分まとめ。1.6.0と1.7.…",
       "articles": [
+        {
+          "title": "2026年8月 Flociアップデートまとめ、CloudFrontの配信とAppSyncのGraphQLエンドポイントが動くようになった",
+          "link": "https://dev.classmethod.jp/articles/floci-2026-08-cloudfront-appsync-update/",
+          "source": "DevelopersIO",
+          "published": "2026-08-29T12:33:38",
+          "excerpt": "LocalStack代替のAWSエミュレータFlociの2026年8月分まとめ。1.6.0と1.7.…"
+        },
         {
           "title": "AWS CDK入門 — インフラをPythonで書けるのが面白かった",
           "link": "https://qiita.com/cozy_666_tech/items/6e83d768b633b7db6928",
@@ -64,21 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-29T10:19:52",
           "excerpt": "はじめに FastAPIのアプリをAWSで本番運用するにあたってECSを使った構成を作った。Lambdaも試したが（前の記事参照）、常時トラフィックがあるAPIにはECSのほうが向いている。…"
-        },
-        {
-          "title": "Amazon Aurora MySQL 3.13 が GA になったので Data API でバージョンを確認してみた",
-          "link": "https://dev.classmethod.jp/articles/aurora-mysql-3-13-ga-data-api/",
-          "source": "DevelopersIO",
-          "published": "2026-08-29T09:17:31",
-          "excerpt": "Amazon Aurora MySQL 3.13.0（MySQL 8.0.45 互換）の一般提供が始まりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。はじめに AWSを使い始めてから一番「ちゃんと理解しないといけない」と感じたのがIAMだった。最初はとりあえずAdministratorAccessを付けて動かしていたが、それがどれだけ危険かを理解してから設計を見直した。…",
+      "summary": "セキュリティの新着が6件。これまでに以下2本の記事を書きました。…",
       "articles": [
+        {
+          "title": "【コツコツAWS】AWS CDK - 認証関係のリソースを実装する際の対応 -",
+          "link": "https://qiita.com/guupys/items/95e993667ea2810e108e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-29T14:53:46",
+          "excerpt": "これまでに以下2本の記事を書きました。…"
+        },
+        {
+          "title": "Azure Databricks - Entra ID の認証情報でAzure Databricks のエージェントを外部から実行する | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/e5a485b673f269",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-29T11:29:11",
+          "excerpt": "執筆日2026/8/29 やりたいことAzure Databricks 上に構築したエージェントを、ローカル環境（外部アプリケーション）から Entra ID の認証情報を使って呼び出したい。…"
+        },
         {
           "title": "AWS IAMを整理した — 最小権限原則とロール設計",
           "link": "https://qiita.com/cozy_666_tech/items/5d8e368c65da329a2e09",
@@ -92,49 +106,49 @@
           "source": "Zenn AWSトピック",
           "published": "2026-08-29T00:04:47",
           "excerpt": "ファイルアップロード機能は、利用者が管理するデータをシステムへ持ち込む入口になります。攻撃者は、この入口からマルウェアを保存させ、そのファイルを別の利用者にダウンロードさせる可能性があります。…"
-        },
-        {
-          "title": "大人向け「スーパーカー自転車」は和テイストだった　リトラクタブルライトにRFID認証など装備満載",
-          "link": "https://www.itmedia.co.jp/news/article/2608/29/2000000934/",
-          "source": "ITmedia NEWS",
-          "published": "2026-08-28T23:32:34",
-          "excerpt": "昭和50年代に男の子達が熱狂した通称「スーパーカー自転車」をご存知でしょうか。多くの自転車メーカーがクルマをモチーフにした装備の児童向け自転車を投入し、それが大ヒットしました。そんな昭和の自転車が、令和版になって復活。…"
-        },
-        {
-          "title": "AIを\"守る\"セキュリティ市場が68.7％増加、最も伸びる「4つの分野」は？",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/27/news039.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-08-28T22:00:00",
-          "excerpt": "AIシステムそのものを守るためのセキュリティ製品市場が急拡大している。Gartnerは2027年に前年比68.7％増と予測した。従来のセキュリティ製品では守り切れない領域はどこにあるのか。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots.…",
+      "summary": "データ分析の新着が2件。記事の URL: https://lwn.net/Articles/1091231/ コメント URL: https://news.ycombinator.com/item?id=49489982 ポイント: 174 コメント数: 109",
       "articles": [
         {
-          "title": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+          "title": "Debian が「生成 AI の責任ある使用」を許可することに投票",
+          "link": "https://lwn.net/Articles/1091231/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-29T14:02:10",
+          "excerpt": "記事の URL: https://lwn.net/Articles/1091231/ コメント URL: https://news.ycombinator.com/item?id=49489982 ポイント: 174 コメント数: 109"
+        },
+        {
+          "title": "中国の自動車メーカーは、ロボットが次に大きな利益をもたらす機械であるというテスラの賭けに追随している",
           "link": "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/",
           "source": "TechCrunch（英語）",
           "published": "2026-08-28T23:24:27",
-          "excerpt": "Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots.…"
-        },
-        {
-          "title": "CISA: 悪用された脆弱性のほとんどは数十年前に根絶されるべきだった",
-          "link": "https://www.theregister.com/security/2026/08/28/cisa-most-exploited-vulnerabilities-should-have-been-eradicated-decades-ago/5293194",
-          "source": "The Register（英語）",
-          "published": "2026-08-28T11:29:00",
-          "excerpt": "Secure by Designの採用における組織文化とシステム上のギャップが悲惨な状況の原因であると非難される"
+          "excerpt": "技術の進歩により、人型ロボットからの利益を期待して新たな企業が飛びつくようになりました。そして、それらはすべて中国の自動車メーカーです。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。はじめに ECSやRDSの設定をAWS CLIやマネジメントコンソールで手作業でやっていたが、「インフラをコードで管理したい」と思うようになってきた。選択肢はTerraformとAWS CDKが主要どころ。…",
+      "summary": "開発ツールの新着が7件。これまでに以下2本の記事を書きました。…",
       "articles": [
+        {
+          "title": "【コツコツAWS】AWS CDK - 認証関係のリソースを実装する際の対応 -",
+          "link": "https://qiita.com/guupys/items/95e993667ea2810e108e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-29T14:53:46",
+          "excerpt": "これまでに以下2本の記事を書きました。…"
+        },
+        {
+          "title": "Slack CLI の api コマンドで Slack API を直接呼び出せるようになりました",
+          "link": "https://dev.classmethod.jp/articles/slack-cli-slack-api/",
+          "source": "DevelopersIO",
+          "published": "2026-08-29T14:16:42",
+          "excerpt": "Slack CLI に追加された api コマンドを使って手軽に Slack API を呼び出す方法をご紹介します。Slack CLI のインストールから実際にメッセージを投稿するまでの手順をまとめました。"
+        },
         {
           "title": "AWS CDK入門 — インフラをPythonで書けるのが面白かった",
           "link": "https://qiita.com/cozy_666_tech/items/6e83d768b633b7db6928",
@@ -148,52 +162,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-29T10:19:52",
           "excerpt": "はじめに FastAPIのアプリをAWSで本番運用するにあたってECSを使った構成を作った。Lambdaも試したが（前の記事参照）、常時トラフィックがあるAPIにはECSのほうが向いている。…"
-        },
-        {
-          "title": "AWS Organizationsによるマルチアカウント運用の基本設計とSCP・Terraformによる管理手法",
-          "link": "https://qiita.com/blinkgroup_jp/items/1db77365fc04a66ce081",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-29T00:22:23",
-          "excerpt": "AWS Organizationsを利用したマルチアカウント管理は、セキュリティ境界の分離やコスト管理の観点から、現在のAWS運用における標準的なアプローチとなっています。…"
-        },
-        {
-          "title": "Does the Sumerian King List Align with Paleoclimate Events?",
-          "link": "https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-28T23:46:10",
-          "excerpt": "Article URL: https://www.vectorian.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Startup bags $7M to build drone-interceptor-in-a-backpack systems",
-      "link": "https://www.theregister.com/offbeat/2026/08/29/startup-bags-7m-to-build-drone-interceptor-in-a-backpack-systems/5293176",
+      "title": "[新機能]Snowflake のMulti-value tagsが GA になったので複数値の管理からタグ伝播のマージまで試してみた",
+      "link": "https://dev.classmethod.jp/articles/snowflake-multi-value-tags-ga/",
+      "source": "DevelopersIO",
+      "published": "2026-08-29T14:25:07",
+      "excerpt": "Snowflake の新機能「マルチバリュータグ」が 2026年8月に GA となりました。1つのタグに複数の値を割り当てられる仕様を、実際の操作や MERGE 伝播、マスキングポリシーとの連携まで詳しく検証します。"
+    },
+    {
+      "title": "実行可能スタックを使用しない GCC での入れ子関数の間接呼び出し",
+      "link": "https://uecker.codeberg.page/2026-08-29.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-29T14:20:33",
+      "excerpt": "記事の URL: https://uecker.codeberg.page/2026-08-29.html コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "FSx for OpenZFSのメモリ使用率が高い理由 - ZFS ARCの仕組みと監視設計",
+      "link": "https://qiita.com/ike_s_muramatsu/items/dba7f78397a12671e51b",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-29T13:33:51",
+      "excerpt": "はじめに Amazon FSx for OpenZFSを本番導入する前、CloudWatchの監視設定(アラームのしきい値など)を決めるために、実際にファイルを書き込みながら各種メトリクスの動きを見る検証をしていました。…"
+    },
+    {
+      "title": "AWS は、コストを浪費するネットワーク技術について叫ばなければならないときにつぶやく",
+      "link": "https://www.theregister.com/networks/2026/08/29/aws-mumbles-about-its-cost-busting-networking-tech-when-it-should-be-shouting/5293379",
       "source": "The Register（英語）",
-      "published": "2026-08-29T10:15:00",
-      "excerpt": "Spike drone defense system is designed to be carried in a rucksack or mounted on top of a vehicle"
-    },
-    {
-      "title": "Node.js 26.8.1をリリース、バージョン誤表示の不具合を修正",
-      "link": "https://codezine.jp/article/detail/29492",
-      "source": "CodeZine",
-      "published": "2026-08-29T08:00:00",
-      "excerpt": "Node.js 26.8.1をリリース、バージョン誤表示の不具合を修正"
-    },
-    {
-      "title": "「トークン単価50％減でもAI請求額が跳ね上がる」なぜ？　Uberは4月で年間予算が枯渇",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/29/news009.html",
-      "source": "@IT",
-      "published": "2026-08-29T08:00:00",
-      "excerpt": "IDCが生成AIやAIエージェントの利用拡大に伴うコスト管理の課題とガバナンスの重要性を解説した。トークン単価が下落しても予算超過が頻発する実態を指摘し、ワークロードごとの責任明確化を提言している。"
-    },
-    {
-      "title": "Xbox respawns IKEA furniture with gaming range",
-      "link": "https://www.theregister.com/offbeat/2026/08/29/xbox-respawns-ikea-furniture-with-gaming-range/5292911",
-      "source": "The Register（英語）",
-      "published": "2026-08-29T07:28:00",
-      "excerpt": "At last, somewhere comfy to sit while your PlayStation 5 game loads"
+      "published": "2026-08-29T13:30:00",
+      "excerpt": "多くのデータセンター ネットワークは絶対的なピエロによって運営されています。アマゾンのものではありません"
     }
   ]
 }
