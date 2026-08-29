@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-08-29T04:12:33",
+  "generated_at": "2026-08-29T11:13:18",
   "window_hours": 24,
-  "total": 122,
+  "total": 98,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が24件。OpenAI、独自AI推論チップ「Jalapeño」の初期性能を発表",
+      "summary": "生成AIの新着が18件。はじめに サーバーワークスの池田です。今週（8/21〜8/27）のClaude Codeは、v2.1.238からv2.1.250まで10バージョンがリリースされました（v2.1.242、v2.1.244、v2.1.249はスキップ）。…",
       "articles": [
         {
-          "title": "OpenAI、独自AI推論チップ「Jalapeño」の初期性能を発表",
-          "link": "https://codezine.jp/article/detail/29490",
-          "source": "CodeZine",
-          "published": "2026-08-29T00:00:00",
-          "excerpt": "OpenAI、独自AI推論チップ「Jalapeño」の初期性能を発表"
+          "title": "Claude Code更新 restrictedモード追加・feedback自動下書き【8/21〜27】 | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/2026/08/29/190000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-29T10:00:00",
+          "excerpt": "はじめに サーバーワークスの池田です。今週（8/21〜8/27）のClaude Codeは、v2.1.238からv2.1.250まで10バージョンがリリースされました（v2.1.242、v2.1.244、v2.1.249はスキップ）。…"
         },
         {
-          "title": "「メルカリのClaude Code全社展開」と「学んで損しない言語」から読み解く、生成AI時代のエンジニア生存戦略",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/29/news011.html",
-          "source": "@IT",
-          "published": "2026-08-28T23:00:00",
-          "excerpt": "2026年8月10日～16日に＠ITで公開された記事のうち、特に注目を集めた10本をランキング形式でご紹介します。読者の関心はどこにあるのでしょうか。"
+          "title": "Claude Codeのスキル内インラインシェル実行もBashツールと同じくpermissionsチェックを通る",
+          "link": "https://dev.classmethod.jp/articles/claude-code-inline-shell-execution-permissions-check/",
+          "source": "DevelopersIO",
+          "published": "2026-08-29T09:53:42",
+          "excerpt": "Claude Codeのスキル内インラインシェル実行もBashツールと同じくpermissionsチェックを通る"
         },
         {
-          "title": "Amazon Bedrock AgentCore Memory が柔軟な名前空間変数をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-flexible-namespaces",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-28T20:00:00",
-          "excerpt": "Amazon Bedrock AgentCore Memory を使用すると、開発者は柔軟な名前空間変数を定義して、重複した戦略を作成したり、組み込み変数をオーバーロードしたりすることなく、組織、テナント、チーム、環境などのアプリケーション…"
+          "title": "Claude Code v2.1.250〜v2.1.251 の主要アップデート - プロジェクト設定の env 制限とプロンプトキャッシュの可視化",
+          "link": "https://dev.classmethod.jp/articles/20260829-cc-updates-v2-1-251/",
+          "source": "DevelopersIO",
+          "published": "2026-08-29T09:38:52",
+          "excerpt": "Claude Code のv2.1.250〜v2.1.251アップデートをまとめました。権限まわりの修正が目立つ回で、プロンプトキャッシュの可視化など注目の機能も追加されています。今日は、プロンプトキャッシュの可視化について試してみました。"
         },
         {
-          "title": "Amazon Bedrock AgentCore Memory がきめ細かいアクセス制御をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-28T20:00:00",
-          "excerpt": "Amazon Bedrock AgentCore Memory は、きめ細かいアクセス制御 (FGAC) をサポートするようになり、カスタム認証ロジックを構築せずに、AgentCore Gateway を通じてユーザーごとおよびテナントごと…"
+          "title": "Amazon SageMaker HyperPod のディープヘルスチェックをオンデマンドで実行してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-sagemaker-hyperpod-on-demand-deep-health-check/",
+          "source": "DevelopersIO",
+          "published": "2026-08-29T09:20:34",
+          "excerpt": "Amazon SageMaker HyperPod のオンデマンド対応ディープヘルスチェックを実際に試してみました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。こんにちは、タカサオです！2026年8月12日のアップデートで、Amazon EKS が Kubernetes コントロールプレーンのパラメータ設定に対応しました。…",
+      "summary": "クラウドの新着が17件。はじめに ECSやRDSの設定をAWS CLIやマネジメントコンソールで手作業でやっていたが、「インフラをコードで管理したい」と思うようになってきた。選択肢はTerraformとAWS CDKが主要どころ。…",
       "articles": [
         {
-          "title": "【図解】EKSでPodの詰め方を選べるようになった！スコアリング戦略をやさしく解説",
-          "link": "https://qiita.com/daitak/items/980322a0e0630c46868d",
+          "title": "AWS CDK入門 — インフラをPythonで書けるのが面白かった",
+          "link": "https://qiita.com/cozy_666_tech/items/6e83d768b633b7db6928",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-29T02:38:08",
-          "excerpt": "こんにちは、タカサオです！2026年8月12日のアップデートで、Amazon EKS が Kubernetes コントロールプレーンのパラメータ設定に対応しました。…"
+          "published": "2026-08-29T10:20:35",
+          "excerpt": "はじめに ECSやRDSの設定をAWS CLIやマネジメントコンソールで手作業でやっていたが、「インフラをコードで管理したい」と思うようになってきた。選択肢はTerraformとAWS CDKが主要どころ。…"
         },
         {
-          "title": "[アップデート] キャパシティ予約リソースグループが Amazon EC2 Capacity Blocks for ML と中断可能なキャパシティ予約に対応しました",
-          "link": "https://dev.classmethod.jp/articles/amazon-ec2-capacity-reservation-resource-groups-support-all-reservation-types/",
+          "title": "RDS vs Aurora Serverless — データ案件でどっちを選ぶか",
+          "link": "https://qiita.com/cozy_666_tech/items/30a5d8f54aa29e3368d3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-29T10:20:06",
+          "excerpt": "はじめに FastAPIとECSの構成でデータベースをどれにするか調べた。選択肢は主に3つ。RDS（PostgreSQL）、Aurora PostgreSQL、Aurora Serverless v2。「RDSで十分じゃないの?…"
+        },
+        {
+          "title": "AWS ECS + FastAPIをデプロイした — ECRとFargateの構成",
+          "link": "https://qiita.com/cozy_666_tech/items/31f28866d2c7d162911c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-29T10:19:52",
+          "excerpt": "はじめに FastAPIのアプリをAWSで本番運用するにあたってECSを使った構成を作った。Lambdaも試したが（前の記事参照）、常時トラフィックがあるAPIにはECSのほうが向いている。…"
+        },
+        {
+          "title": "Amazon Aurora MySQL 3.13 が GA になったので Data API でバージョンを確認してみた",
+          "link": "https://dev.classmethod.jp/articles/aurora-mysql-3-13-ga-data-api/",
           "source": "DevelopersIO",
-          "published": "2026-08-29T00:08:30",
-          "excerpt": "キャパシティ予約リソースグループが2026年8月のアップデートで進化し、オンデマンド、中断可能、Capacity Blocks for MLの3種類の予約を1つのグループに混在させられるようになりました。…"
-        },
-        {
-          "title": "ECSの最小構成を手で動かす：FargateでNGINXを公開する",
-          "link": "https://zenn.dev/tmtk/articles/ba88a8c839fd85",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-28T23:10:08",
-          "excerpt": "はじめに ECSを学び始めると、「クラスター」「タスク定義」「タスク」「サービス」といった言葉が一度に出てきます。用語を読んだだけでは、それぞれがコンテナの実行にどう関わるのか、なかなかつかめません。…"
-        },
-        {
-          "title": "Amazon EC2 C8gn インスタンスが AWS ヨーロッパ (パリ) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gn-europe-paris/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-08-28T22:00:00",
-          "excerpt": "本日より、最新世代の AWS Graviton4 プロセッサを搭載した Amazon Elastic Compute Cloud (Amazon EC2) C8gn インスタンスが AWS ヨーロッパ (パリ) リージョンで利用可能になりま…"
+          "published": "2026-08-29T09:17:31",
+          "excerpt": "Amazon Aurora MySQL 3.13.0（MySQL 8.0.45 互換）の一般提供が始まりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。昭和50年代に男の子達が熱狂した通称「スーパーカー自転車」をご存知でしょうか。多くの自転車メーカーがクルマをモチーフにした装備の児童向け自転車を投入し、それが大ヒットしました。そんな昭和の自転車が、令和版になって復活。…",
+      "summary": "セキュリティの新着が4件。はじめに AWSを使い始めてから一番「ちゃんと理解しないといけない」と感じたのがIAMだった。最初はとりあえずAdministratorAccessを付けて動かしていたが、それがどれだけ危険かを理解してから設計を見直した。…",
       "articles": [
+        {
+          "title": "AWS IAMを整理した — 最小権限原則とロール設計",
+          "link": "https://qiita.com/cozy_666_tech/items/5d8e368c65da329a2e09",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-29T10:20:22",
+          "excerpt": "はじめに AWSを使い始めてから一番「ちゃんと理解しないといけない」と感じたのがIAMだった。最初はとりあえずAdministratorAccessを付けて動かしていたが、それがどれだけ危険かを理解してから設計を見直した。…"
+        },
+        {
+          "title": "アップロードされたファイルを検査前に配っていないか - GuardDutyに任せるマルウェア検査とFail Closed設計",
+          "link": "https://zenn.dev/okamyuji/articles/aws-secure-file-upload-with-guardduty",
+          "source": "Zenn AWSトピック",
+          "published": "2026-08-29T00:04:47",
+          "excerpt": "ファイルアップロード機能は、利用者が管理するデータをシステムへ持ち込む入口になります。攻撃者は、この入口からマルウェアを保存させ、そのファイルを別の利用者にダウンロードさせる可能性があります。…"
+        },
         {
           "title": "大人向け「スーパーカー自転車」は和テイストだった　リトラクタブルライトにRFID認証など装備満載",
           "link": "https://www.itmedia.co.jp/news/article/2608/29/2000000934/",
@@ -92,27 +106,13 @@
           "source": "ITmedia エンタープライズ",
           "published": "2026-08-28T22:00:00",
           "excerpt": "AIシステムそのものを守るためのセキュリティ製品市場が急拡大している。Gartnerは2027年に前年比68.7％増と予測した。従来のセキュリティ製品では守り切れない領域はどこにあるのか。…"
-        },
-        {
-          "title": "Account Access Managerで割り当てるIAMロールの配置先と運用構成を検証してみた",
-          "link": "https://dev.classmethod.jp/articles/2026-08-28-aam-iam-role-placement-and-operation/",
-          "source": "DevelopersIO",
-          "published": "2026-08-28T11:04:12",
-          "excerpt": "新機能Account Access Managerについて、割り当てるIAMロールを委任管理アカウントとは別のメンバーアカウントに配置したまま運用できるか、信頼ポリシーでのIPアドレス制限ができるかを検証しました！"
-        },
-        {
-          "title": "Cognito 認証失敗時の通知を実現するため、Plus プランを導入して通知検証してみた話 | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/cognito-plus-notification",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-28T09:54:11",
-          "excerpt": "はじめに Amazon Cognito で認証失敗が発生した際に通知を飛ばしたい、という要件がありました。具体的には以下の構成を想定していました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots.…",
+      "summary": "データ分析の新着が2件。Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots.…",
       "articles": [
         {
           "title": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
@@ -127,21 +127,28 @@
           "source": "The Register（英語）",
           "published": "2026-08-28T11:29:00",
           "excerpt": "Secure by Designの採用における組織文化とシステム上のギャップが悲惨な状況の原因であると非難される"
-        },
-        {
-          "title": "パート2: Amazon AthenaとCUDOSを使用したAmazon Bedrockのコスト配分",
-          "link": "https://aws.amazon.com/jp/blogs/news/part-2-amazon-bedrock-cost-attribution-with-amazon-athena-and-cudos/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-08-28T07:24:33",
-          "excerpt": "本記事は2026年8月12日に公開された「Part 2: Amazon Bedrock cost attrib […]"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。AWS Organizationsを利用したマルチアカウント管理は、セキュリティ境界の分離やコスト管理の観点から、現在のAWS運用における標準的なアプローチとなっています。…",
+      "summary": "開発ツールの新着が8件。はじめに ECSやRDSの設定をAWS CLIやマネジメントコンソールで手作業でやっていたが、「インフラをコードで管理したい」と思うようになってきた。選択肢はTerraformとAWS CDKが主要どころ。…",
       "articles": [
+        {
+          "title": "AWS CDK入門 — インフラをPythonで書けるのが面白かった",
+          "link": "https://qiita.com/cozy_666_tech/items/6e83d768b633b7db6928",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-29T10:20:35",
+          "excerpt": "はじめに ECSやRDSの設定をAWS CLIやマネジメントコンソールで手作業でやっていたが、「インフラをコードで管理したい」と思うようになってきた。選択肢はTerraformとAWS CDKが主要どころ。…"
+        },
+        {
+          "title": "AWS ECS + FastAPIをデプロイした — ECRとFargateの構成",
+          "link": "https://qiita.com/cozy_666_tech/items/31f28866d2c7d162911c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-29T10:19:52",
+          "excerpt": "はじめに FastAPIのアプリをAWSで本番運用するにあたってECSを使った構成を作った。Lambdaも試したが（前の記事参照）、常時トラフィックがあるAPIにはECSのほうが向いている。…"
+        },
         {
           "title": "AWS Organizationsによるマルチアカウント運用の基本設計とSCP・Terraformによる管理手法",
           "link": "https://qiita.com/blinkgroup_jp/items/1db77365fc04a66ce081",
@@ -155,52 +162,38 @@
           "source": "Hacker News（英語）",
           "published": "2026-08-28T23:46:10",
           "excerpt": "Article URL: https://www.vectorian.…"
-        },
-        {
-          "title": "GitのPRレビューとTerraformのplan/apply、実は繋がっていた",
-          "link": "https://zenn.dev/yasutomo7974/articles/terraform-plan-apply-ci-cd-pr-review",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-28T22:53:31",
-          "excerpt": "おはようございます、YASUです。…"
-        },
-        {
-          "title": "ソースコードでの本番・ローカル環境でのアクセス(AWS SDK)の切り替えを辞めた話",
-          "link": "https://zenn.dev/miyamony/articles/e9f8adacad6899",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-28T15:38:15",
-          "excerpt": "以前の構成と課題 本番環境とローカル環境のAWS SDKを使ったAWSリソースへのアクセスを環境変数を使用して切り替えていた。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AppSync Eventsを用いたイベントドリブンなUI更新",
-      "link": "https://qiita.com/Nirai_Hayakawa/items/6e35d756130821cfab46",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-29T03:19:06",
-      "excerpt": "画面に「処理が終わったよ」「新しいデータがあるよ」という通知をリアルタイムに届けたい場面はよくあります。ただ、これを真面目に作ろうとすると途端にインフラと実装の負担が増えます。…"
+      "title": "Startup bags $7M to build drone-interceptor-in-a-backpack systems",
+      "link": "https://www.theregister.com/offbeat/2026/08/29/startup-bags-7m-to-build-drone-interceptor-in-a-backpack-systems/5293176",
+      "source": "The Register（英語）",
+      "published": "2026-08-29T10:15:00",
+      "excerpt": "Spike drone defense system is designed to be carried in a rucksack or mounted on top of a vehicle"
     },
     {
-      "title": "TurboKV: Insanely fast Rust key-value store",
-      "link": "https://github.com/kingroryg/turbokv",
-      "source": "Hacker News（英語）",
-      "published": "2026-08-29T02:23:37",
-      "excerpt": "Article URL: https://github.com/kingroryg/turbokv Comments URL: https://news.ycombinator.com/item?…"
+      "title": "Node.js 26.8.1をリリース、バージョン誤表示の不具合を修正",
+      "link": "https://codezine.jp/article/detail/29492",
+      "source": "CodeZine",
+      "published": "2026-08-29T08:00:00",
+      "excerpt": "Node.js 26.8.1をリリース、バージョン誤表示の不具合を修正"
     },
     {
-      "title": "SentryアラートをAIで自動調査するSlack Botを作った話 | BASEプロダクトチームブログ",
-      "link": "https://devblog.thebase.in/entry/2026/08/29/110000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-08-29T02:00:00",
-      "excerpt": "はじめに この記事は、BASE夏のブログリレー5日目の記事です。こんにちは、BASE でバックエンドエンジニアをしている大塚です。…"
+      "title": "「トークン単価50％減でもAI請求額が跳ね上がる」なぜ？　Uberは4月で年間予算が枯渇",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/29/news009.html",
+      "source": "@IT",
+      "published": "2026-08-29T08:00:00",
+      "excerpt": "IDCが生成AIやAIエージェントの利用拡大に伴うコスト管理の課題とガバナンスの重要性を解説した。トークン単価が下落しても予算超過が頻発する実態を指摘し、ワークロードごとの責任明確化を提言している。"
     },
     {
-      "title": "WordPressからMoodleへ",
-      "link": "https://qiita.com/ozekihiroshi/items/db10c55d87e42a1100eb",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-29T01:57:49",
-      "excerpt": "S3バックアッププラグインを横展開して分かったこと はじめに WordPress向けに Ozeki Database Backup for S3 を作成した後、同じ考え方をMoodleにも展開してみることにしました。…"
+      "title": "Xbox respawns IKEA furniture with gaming range",
+      "link": "https://www.theregister.com/offbeat/2026/08/29/xbox-respawns-ikea-furniture-with-gaming-range/5292911",
+      "source": "The Register（英語）",
+      "published": "2026-08-29T07:28:00",
+      "excerpt": "At last, somewhere comfy to sit while your PlayStation 5 game loads"
     }
   ]
 }
