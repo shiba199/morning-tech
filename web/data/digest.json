@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-08-30T08:25:04",
+  "generated_at": "2026-08-30T13:51:54",
   "window_hours": 24,
-  "total": 97,
+  "total": 99,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。やること Amazon BedrockAgentCoreを学習するため、ClaudeCodeに学習計画を立ててもらいました。agentcore createでAgentCore ランタイムを作る内容を実施します。…",
+      "summary": "生成AIの新着が22件。Article URL: https://github.com/anthropics/claude-code/issues/66504 Comments URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
-          "title": "BedrockAgentCoreランタイムの実行環境を自作ツールで確認する",
-          "link": "https://qiita.com/sagochiko/items/d0f8636c8dff51ae20e1",
+          "title": "Claude Session URL appended to commit messages and PR descriptions by default",
+          "link": "https://github.com/anthropics/claude-code/issues/66504",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-30T12:50:54",
+          "excerpt": "Article URL: https://github.com/anthropics/claude-code/issues/66504 Comments URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "Claude Desktop から Claude Platform on AWS＋Fabric MCP 経由で Microsoft Fabric を操作してみた",
+          "link": "https://qiita.com/mshdtksk/items/d1f36c8166ef0eafa08b",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-30T07:06:27",
-          "excerpt": "やること Amazon BedrockAgentCoreを学習するため、ClaudeCodeに学習計画を立ててもらいました。agentcore createでAgentCore ランタイムを作る内容を実施します。…"
+          "published": "2026-08-30T12:05:16",
+          "excerpt": "1.…"
         },
         {
-          "title": "Claudeに100個のツールを渡すとどうなる？4つの渡し方で費用・精度・速度比較 | Money Forward Developersのフィード",
-          "link": "https://zenn.dev/moneyforward/articles/74d02008ab9ec8",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-30T05:55:17",
-          "excerpt": "本記事は、Claude（Sonnet 5）へのツール定義の渡し方によって、精度・費用・速度がどう変わるかを実測した結果をまとめたものです。​Claude APIでは、ツール定義は毎回のリクエストで入力トークンとして読み込まれます。…"
+          "title": "2 週間で 12 万人規模へ – NEC が Claude Desktop on Amazon Bedrock で実現したセキュアな全社 AI 環境",
+          "link": "https://aws.amazon.com/jp/blogs/news/nec-claude-desktop-bedrock-120k-users-2-weeks/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-30T11:26:55",
+          "excerpt": "NEC は 2026 年 6 月 1 日、全社員（最大 12 万人）が利用できる Claude Cowork […]"
         },
         {
-          "title": "IAM Identity Center × Amazon Bedrockで ChatGPTと Codex を使う | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/08/30/102412",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-30T01:24:12",
-          "excerpt": "はじめに 1.AWSマネジメントコンソールで準備する 許可セットとモデル 2.モデルの有効化 3.SSOログインをしてAWSプロファイルを設定する 4.ChatGPT と Codex CLI をインストール 5.…"
-        },
-        {
-          "title": "DevOps Agentでカスタムメモリストアを作成してカスタムエージェントにメモリを持たせてみた",
-          "link": "https://dev.classmethod.jp/articles/devops-agent-memory-updates/",
-          "source": "DevelopersIO",
-          "published": "2026-08-30T00:17:26",
-          "excerpt": "DevOps Agentのメモリ機能が大幅にアップデートされました。…"
+          "title": "Amazon SageMaker Unified Studio のノートブックで、より速くインサイトに到達する",
+          "link": "https://aws.amazon.com/jp/blogs/news/get-to-insights-faster-using-notebooks-in-amazon-sagemaker-unified-studio/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-30T10:50:01",
+          "excerpt": "Amazon SageMaker Unified Studio のノートブックは、インフラ設定を簡素化し、インサイト獲得までの時間を短縮します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。背景 GitHub ActionsからAWS（EC2・S3・Lambda）へ自動デプロイする構成を組む中で、GitHub Secretsに保存したSSH秘密鍵が原因で認証に失敗するトラブルに遭遇しました。…",
+      "summary": "クラウドの新着が6件。中古で売っていた本を購入したのでやってみる。特にVPCや踏み台サーバを建てるっていうのは意外とやったことないので楽しみ。お金を使いすぎないようにしたい。…",
       "articles": [
         {
-          "title": "GitHub ActionsでEC2にSSHデプロイすると`Permission denied (publickey)`になる理由",
-          "link": "https://qiita.com/caymezon/items/3c4228b8f1b3df28a36f",
+          "title": "AWSで始めるインフラ構築入門やってみる1",
+          "link": "https://qiita.com/TowaYokoyama/items/0d6cc0d2954d58379152",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-30T00:29:10",
-          "excerpt": "背景 GitHub ActionsからAWS（EC2・S3・Lambda）へ自動デプロイする構成を組む中で、GitHub Secretsに保存したSSH秘密鍵が原因で認証に失敗するトラブルに遭遇しました。…"
+          "published": "2026-08-30T13:11:59",
+          "excerpt": "中古で売っていた本を購入したのでやってみる。特にVPCや踏み台サーバを建てるっていうのは意外とやったことないので楽しみ。お金を使いすぎないようにしたい。…"
         },
         {
-          "title": "Terraform : ECS Fargate環境を構築する(4) ― バッチオーケストレーションと運用設計",
-          "link": "https://qiita.com/ham-nao/items/ff38df5d6b1bec1aae59",
+          "title": "【CloudFront OAC × Lambda Function URL】SSRアプリのPOSTだけ403になった話",
+          "link": "https://qiita.com/yosuke-suzuki/items/3cbd19db1e33853a2f91",
           "source": "Qiita AWSタグ",
-          "published": "2026-08-29T17:20:22",
-          "excerpt": "この記事について ここまででサービスの構築・デプロイ・監視が整いました。最後に、日次バッチ処理をどう組み立てるか、そしてコード化しきれない運用面(コスト、クリーンアップ、障害時の復旧手順)をどう設計するかを扱います。…"
+          "published": "2026-08-30T12:15:55",
+          "excerpt": "はじめに 個人で運用している「AI模試ノート」(AWS認定試験の学習アプリ)を、ビルド時間に対する課金が膨らんできたため、AWS Amplify HostingからAWS CDK(Lambda Web Adapter + CloudFron…"
         },
         {
-          "title": "2026年8月 Flociアップデートまとめ、CloudFrontの配信とAppSyncのGraphQLエンドポイントが動くようになった",
-          "link": "https://dev.classmethod.jp/articles/floci-2026-08-cloudfront-appsync-update/",
-          "source": "DevelopersIO",
-          "published": "2026-08-29T12:33:38",
-          "excerpt": "LocalStack代替のAWSエミュレータFlociの2026年8月分まとめ。1.6.0と1.7.…"
+          "title": "【図解】AWS Route 53とは。DNSの用語3つと使い方まとめ",
+          "link": "https://qiita.com/daisuke-nagata/items/4221dea058e3c519f7b3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-30T12:01:28",
+          "excerpt": "対象読者: AWSをこれから触る人。AWS勉強シリーズの13本目で、今回からシリーズ後半の「公開編」です。今回はRoute 53。全体の地図は索引記事にあります。…"
         },
         {
-          "title": "AWS CDK入門 — インフラをPythonで書けるのが面白かった",
-          "link": "https://qiita.com/cozy_666_tech/items/6e83d768b633b7db6928",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-29T10:20:35",
-          "excerpt": "はじめに ECSやRDSの設定をAWS CLIやマネジメントコンソールで手作業でやっていたが、「インフラをコードで管理したい」と思うようになってきた。選択肢はTerraformとAWS CDKが主要どころ。…"
+          "title": "DuckDB で Amazon S3 Tables に格納された表形式データセットへのアクセスを効率化する",
+          "link": "https://aws.amazon.com/jp/blogs/news/streamlining-access-to-tabular-datasets-stored-in-amazon-s3-tables-with-duckdb/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-08-30T10:56:07",
+          "excerpt": "DuckDB は軽量なインメモリ SQL エンジンで、追加のサーバー運用なしに対話型のデータ分析を実現します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。AWS Security HubのECR.5コントロール対応について、カスタマーマネージドキーによる暗号化が必須な理由と、見落としやすいAWSマネージドキーとの判別方法から修復手順まで、実践的な対応策をご紹介します。",
+      "summary": "セキュリティの新着が7件。AWS Security HubのECR.5コントロール対応について、カスタマーマネージドキーによる暗号化が必須な理由と、見落としやすいAWSマネージドキーとの判別方法から修復手順まで、実践的な対応策をご紹介します。",
       "articles": [
         {
           "title": "【Security Hub修復手順】[ECR.5] ECR リポジトリはカスタマーマネージド AWS KMS keys で暗号化する必要があります",
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。GitHubがブロックユーザーの全コンテンツ自動クローズ機能を追加",
+      "summary": "開発ツールの新着が10件。Slack CLI の slack api コマンドを活用した実用的なユースケースを紹介します。変数による動的メソッド呼び出しやプロジェクト移動による自動トークン切り替え等で開発効率が向上します。",
       "articles": [
+        {
+          "title": "Slack CLI で Slack API を効率的に操作する実践テクニック",
+          "link": "https://dev.classmethod.jp/articles/slack-cli-api-command-practical/",
+          "source": "DevelopersIO",
+          "published": "2026-08-30T08:21:16",
+          "excerpt": "Slack CLI の slack api コマンドを活用した実用的なユースケースを紹介します。変数による動的メソッド呼び出しやプロジェクト移動による自動トークン切り替え等で開発効率が向上します。"
+        },
         {
           "title": "GitHubがブロックユーザーの全コンテンツ自動クローズ機能を追加",
           "link": "https://codezine.jp/article/detail/29491",
@@ -162,45 +169,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-30T07:29:33",
           "excerpt": "この記事でできること AWS CodeBuildが「そもそも何をするサービスなのか」を、前提知識なしで説明できるようになる なぜCodeBuildが「便利」とされるのか、その本質的な理由がわかる Jenkins、GitHub Enterpr…"
-        },
-        {
-          "title": "Python も Node.js も Terraform も入れずに、AWS フルスタックアプリを作ってデプロイした",
-          "link": "https://zenn.dev/torudev/articles/388053a79b6acf",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-30T05:15:04",
-          "excerpt": "新しくプロジェクトに参加した人の初日が、環境構築だけで終わってしまう。READMEに並んだ「Python 3.12 を入れて、Node.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Microsoft Entra ID と SAML フェデレーションでジャンプアカウント経由の個人識別ログインを実現してみた",
-      "link": "https://dev.classmethod.jp/articles/202608-entra-id-saml-jump-account-federation/",
+      "title": "AWS Context Ontology Accelerator（COA）で日本語のオントロジーを構築してみた - 多言語検索等のサポート",
+      "link": "https://dev.classmethod.jp/articles/20260830-aws-context-v022/",
       "source": "DevelopersIO",
-      "published": "2026-08-30T08:05:35",
-      "excerpt": "AWS Organizations も IAM Identity Center も使えない環境で、Microsoft Entra ID と SAML フェデレーションを組み合わせ、IAM ユーザーを作らずにジャンプアカウント経由で各アカウン…"
+      "published": "2026-08-30T13:42:26",
+      "excerpt": "AWS の OSS「Context Ontology Accelerator」v0.2.2 で、日本語のような分かち書きしない言語の質問がオントロジーのラベルに到達できるようになりました。…"
     },
     {
-      "title": "AWS の free5GC",
-      "link": "https://zenn.dev/kennygt51/books/free5gc-on-aws",
-      "source": "Zenn AWSトピック",
-      "published": "2026-08-30T07:41:47",
-      "excerpt": "Amazon EC2 に MicroK8s 環境を構築し、その上で free5GC を動かすことで、5G SA Core の構成、UE Registration、PDU Session などのフローを学ぶハンズオンです。"
+      "title": "Slack Block Kit の新ブロックを試してみた【汎用表示編】",
+      "link": "https://dev.classmethod.jp/articles/slack-block-kit-new-general-display-blocks-guide/",
+      "source": "DevelopersIO",
+      "published": "2026-08-30T13:18:43",
+      "excerpt": "Slack Block Kit に追加された新ブロックを紹介します。…"
     },
     {
-      "title": "AWS CLF-C02 クラウドの基礎",
-      "link": "https://zenn.dev/async_inc/books/aws-clfc02-study-guide",
-      "source": "Zenn AWSトピック",
-      "published": "2026-08-30T07:29:57",
-      "excerpt": "AWS Certified Cloud Practitioner (CLF-C02) の出題範囲を、IT の前提知識がない人に向けて解説します。…"
+      "title": "monty-go: Pure-Go wrapper for Pydantic's Monty Python Interpreter",
+      "link": "https://github.com/fugue-labs/monty-go",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-30T12:02:09",
+      "excerpt": "Article URL: https://github.com/fugue-labs/monty-go Comments URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "AWS Certified AI Practitioner 受験の振り返り",
-      "link": "https://qiita.com/aruki/items/0f5f9e05c78029593c59",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-30T07:26:50",
-      "excerpt": "AWS Certified Cloud Practitioner、AWS Certified Developer Associate に続いて、今回は AWS Certified AI Practitioner（AIF-C01）を受験しまし…"
+      "title": "Automating Immersive Reading",
+      "link": "https://smoores.dev/post/automating_immersive_reading/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-30T11:46:23",
+      "excerpt": "Article URL: https://smoores.dev/post/automating_immersive_reading/ Comments URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
