@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T23:30:48",
+  "generated_at": "2026-08-30T02:09:07",
   "window_hours": 24,
   "total": 82,
   "topic_count": 5,
@@ -7,43 +7,50 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。記事の URL: https://defrag98.com コメント URL: https://news.ycombinator.com/item?id=49494036 ポイント: 15 コメント数: 9",
+      "summary": "生成AIの新着が20件。DevOps Agentのメモリ機能が大幅にアップデートされました。…",
       "articles": [
         {
-          "title": "Defrag98: オンライン Windows 98 ディスク デフラグ シミュレーター",
-          "link": "https://defrag98.com",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-29T22:51:17",
-          "excerpt": "記事の URL: https://defrag98.com コメント URL: https://news.ycombinator.com/item?id=49494036 ポイント: 15 コメント数: 9"
-        },
-        {
-          "title": "ドメイン駆動型エージェント",
-          "link": "https://coldtake.dev/blog/domain-driven-agents",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-29T19:28:28",
-          "excerpt": "記事の URL: https://coldtake.dev/blog/domain-driven-agents コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "チームで coding agent を使うための AI Gateway とルーターの理想形を考えてみた",
-          "link": "https://dev.classmethod.jp/articles/coding-agent-team-ai-gateway-ideal/",
+          "title": "DevOps Agentでカスタムメモリストアを作成してカスタムエージェントにメモリを持たせてみた",
+          "link": "https://dev.classmethod.jp/articles/devops-agent-memory-updates/",
           "source": "DevelopersIO",
-          "published": "2026-08-29T15:21:44",
-          "excerpt": "coding agent のチーム利用に要る AI Gateway を課金経路・窓口・振り分け・実行側・観測の五層に分け、Claude Code の配備 6 経路と構成 7 パターンを比べました。…"
+          "published": "2026-08-30T00:17:26",
+          "excerpt": "DevOps Agentのメモリ機能が大幅にアップデートされました。…"
         },
         {
-          "title": "【AWS DevOps Agent】コードレビューと自動検証テストの検証",
-          "link": "https://qiita.com/aliean/items/bec57a9a20c7f9e60f79",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-29T14:48:38",
-          "excerpt": "この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の29日目の記事となります。過去の投稿（リンク集）は以下リンクからご覧ください。…"
+          "title": "[Amazon Bedrock] 洗濯ばさみで外観検査AIを試してみました 〜つまずいたのは「正常の定義」でした〜",
+          "link": "https://dev.classmethod.jp/articles/bedrock-vlm-visual-inspection-clothespin/",
+          "source": "DevelopersIO",
+          "published": "2026-08-29T23:41:58",
+          "excerpt": "前回の金属表面欠陥検査から一歩進めて、自分で欠陥を作った洗濯ばさみで同じ仕組みを試してみました。検出できたものと見逃したものから、VLMによる外観検査の実際の限界と可能性が見えてきました。"
+        },
+        {
+          "title": "OpenAI、Cursorへのモデル提供を11月12日に終了　SpaceXによる買収が理由",
+          "link": "https://www.itmedia.co.jp/news/article/2608/30/2000000945/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-29T23:12:23",
+          "excerpt": "OpenAIは、AIコードエディタ「Cursor」へのモデル提供契約を11月12日に終了すると発表した。SpaceXによるCursor買収を受け、イーロン・マスク氏の過去の契約違反実績から規約順守を確信できないことを理由に挙げている。…"
+        },
+        {
+          "title": "「脱メインフレーム、約7割が失敗」の衝撃――“生成AIを使うだけ”ではむしろ泥沼化も",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/30/news002.html",
+          "source": "@IT",
+          "published": "2026-08-29T23:00:00",
+          "excerpt": "富士通に続き、日立製作所もメインフレーム事業からの撤退に向けて動き始めました。生成AIによる刷新への期待が高まる一方、「脱メインフレーム」の7割超が失敗するとの予測もあります。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。この記事について ここまででサービスの構築・デプロイ・監視が整いました。最後に、日次バッチ処理をどう組み立てるか、そしてコード化しきれない運用面(コスト、クリーンアップ、障害時の復旧手順)をどう設計するかを扱います。…",
+      "summary": "クラウドの新着が10件。背景 GitHub ActionsからAWS（EC2・S3・Lambda）へ自動デプロイする構成を組む中で、GitHub Secretsに保存したSSH秘密鍵が原因で認証に失敗するトラブルに遭遇しました。…",
       "articles": [
+        {
+          "title": "GitHub ActionsでEC2にSSHデプロイすると`Permission denied (publickey)`になる理由",
+          "link": "https://qiita.com/caymezon/items/3c4228b8f1b3df28a36f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-30T00:29:10",
+          "excerpt": "背景 GitHub ActionsからAWS（EC2・S3・Lambda）へ自動デプロイする構成を組む中で、GitHub Secretsに保存したSSH秘密鍵が原因で認証に失敗するトラブルに遭遇しました。…"
+        },
         {
           "title": "Terraform : ECS Fargate環境を構築する(4) ― バッチオーケストレーションと運用設計",
           "link": "https://qiita.com/ham-nao/items/ff38df5d6b1bec1aae59",
@@ -64,20 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-08-29T10:20:35",
           "excerpt": "はじめに ECSやRDSの設定をAWS CLIやマネジメントコンソールで手作業でやっていたが、「インフラをコードで管理したい」と思うようになってきた。選択肢はTerraformとAWS CDKが主要どころ。…"
-        },
-        {
-          "title": "RDS vs Aurora Serverless — データ案件でどっちを選ぶか",
-          "link": "https://qiita.com/cozy_666_tech/items/30a5d8f54aa29e3368d3",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-29T10:20:06",
-          "excerpt": "はじめに FastAPIとECSの構成でデータベースをどれにするか調べた。選択肢は主に3つ。RDS（PostgreSQL）、Aurora PostgreSQL、Aurora Serverless v2。「RDSで十分じゃないの?…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。米CISAは2つの重要インフラ組織に対し、同様の手口でレッドチーム評価を同時に実施した。一方は侵入に気付けず、もう一方は初動で端末を隔離して封じ込めた。技術的な弱点は両組織に共通していた。明暗を分けたものは何か。",
+      "summary": "セキュリティの新着が6件。米CISAは2つの重要インフラ組織に対し、同様の手口でレッドチーム評価を同時に実施した。一方は侵入に気付けず、もう一方は初動で端末を隔離して封じ込めた。技術的な弱点は両組織に共通していた。明暗を分けたものは何か。",
       "articles": [
         {
           "title": "セキュリティチームの明暗を分けたのは“あれ”だった　同じ手口で正反対の結果に",
@@ -101,19 +101,26 @@
           "excerpt": "はじめに 株式会社FAcraftの山本です。FAcraftは、大手製造業向けのSaaSを開発・運用している小規模なスタートアップです。サービス基盤の一つとして、AWSを利用しています。…"
         },
         {
-          "title": "Azure Databricks - Entra ID の認証情報でAzure Databricks のエージェントを外部から実行する | ヘッドウォータースのフィード",
-          "link": "https://zenn.dev/headwaters/articles/e5a485b673f269",
-          "source": "企業テックブログまとめ",
-          "published": "2026-08-29T11:29:11",
-          "excerpt": "執筆日2026/8/29 やりたいことAzure Databricks 上に構築したエージェントを、ローカル環境（外部アプリケーション）から Entra ID の認証情報を使って呼び出したい。…"
+          "title": "無料でDiscordのようなチャットサーバーをセルフホストできる「Chatto」、消費リソースが極めて少なく軽快な動作でチャットデータは暗号化されているのが特徴",
+          "link": "https://gigazine.net/news/20260829-chatto/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-08-29T14:25:04",
+          "excerpt": "Discordなどのチャットサービスでは手軽にサーバーを作成してグループ内で会話できますが、メッセージや個人情報を含むチャットデータはサービス提供者のインフラ上で管理されるため、社内の機密情報などを扱う場合はデータの保存先や管理方法が課題に…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が1件。記事の URL: https://lwn.net/Articles/1091231/ コメント URL: https://news.ycombinator.com/item?id=49489982 ポイント: 174 コメント数: 109",
+      "summary": "データ分析の新着が2件。Sigmaを使ったことがないユーザー向けにおすすめ出来そうな概要紹介、実践コンテンツを探してたところ、Sigmaコミュニティ内の下記記事を見つけました。…",
       "articles": [
+        {
+          "title": "新規Sigmaユーザー向けに伝えたい『Sigmaと他BIツールとの違い』について | truestarテックブログのフィード",
+          "link": "https://zenn.dev/truestar/articles/249c3ff098bfe5",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-30T00:33:00",
+          "excerpt": "Sigmaを使ったことがないユーザー向けにおすすめ出来そうな概要紹介、実践コンテンツを探してたところ、Sigmaコミュニティ内の下記記事を見つけました。…"
+        },
         {
           "title": "Debian が「生成 AI の責任ある使用」を許可することに投票",
           "link": "https://lwn.net/Articles/1091231/",
@@ -126,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。この記事について ここまででサービスの構築・デプロイ・監視が整いました。最後に、日次バッチ処理をどう組み立てるか、そしてコード化しきれない運用面(コスト、クリーンアップ、障害時の復旧手順)をどう設計するかを扱います。…",
+      "summary": "開発ツールの新着が7件。背景 GitHub ActionsからAWS（EC2・S3・Lambda）へ自動デプロイする構成を組む中で、GitHub Secretsに保存したSSH秘密鍵が原因で認証に失敗するトラブルに遭遇しました。…",
       "articles": [
+        {
+          "title": "GitHub ActionsでEC2にSSHデプロイすると`Permission denied (publickey)`になる理由",
+          "link": "https://qiita.com/caymezon/items/3c4228b8f1b3df28a36f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-30T00:29:10",
+          "excerpt": "背景 GitHub ActionsからAWS（EC2・S3・Lambda）へ自動デプロイする構成を組む中で、GitHub Secretsに保存したSSH秘密鍵が原因で認証に失敗するトラブルに遭遇しました。…"
+        },
         {
           "title": "Terraform : ECS Fargate環境を構築する(4) ― バッチオーケストレーションと運用設計",
           "link": "https://qiita.com/ham-nao/items/ff38df5d6b1bec1aae59",
@@ -148,45 +162,38 @@
           "source": "DevelopersIO",
           "published": "2026-08-29T14:16:42",
           "excerpt": "Slack CLI に追加された api コマンドを使って手軽に Slack API を呼び出す方法をご紹介します。Slack CLI のインストールから実際にメッセージを投稿するまでの手順をまとめました。"
-        },
-        {
-          "title": "AWSの重要通知をBedrockのClaudeで日本語要約してSlackに流す仕組みをTerraformで作る",
-          "link": "https://zenn.dev/ho377/articles/2026-08-29-tech",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-29T13:16:05",
-          "excerpt": "はじめに AWSアカウントを運用していると、Health のメンテナンス通知、セキュリティの Finding、コスト異常など、見逃したくない通知が複数のサービスからバラバラに届きます。しかも原文は英語で、メールボックスの中に埋もれがちです。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "「FANZAスタジオ」爆誕へ　成人向けAIマンガに違和感を覚えるマンガ家も期待する部分とは？",
-      "link": "https://www.itmedia.co.jp/news/article/2608/30/2000000911/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-29T22:16:00",
-      "excerpt": "成人向けECサイトである「FANZA」で、生成AIを使って作品を作り、公開できるサービス「FANZAスタジオ」の先行体験がスタートしました。"
-    },
-    {
-      "title": "AIシステム侵害の行き着く先　Microsoftが突き止めた攻撃者の「真の目的」",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/30/news005.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-08-29T22:00:00",
-      "excerpt": "社内のAI活用を支える基盤には、APIキーや社内データへの経路、プログラムを実行する権限が集中している。Microsoftはこの基盤を直接狙った侵害を3件観測した。攻撃者は何を奪おうとしたのか。では、企業はどこから対策に手を付けるべきか。"
-    },
-    {
-      "title": "３年越しのリベンジ合格！AWS SAA-C03に再チャレンジした話",
-      "link": "https://qiita.com/phenyo_dikgomo/items/6954317fe960ef06d961",
-      "source": "Qiita AWSタグ",
-      "published": "2026-08-29T20:35:31",
-      "excerpt": "はじめに 3年前に一度落ちてから、正直「もういいかな」と受験のことは頭の片隅に凍結していました。それでも今回、転職のタイミングでまとまった休みが取れたのをきっかけに再チャレンジし、無事合格できました。…"
-    },
-    {
-      "title": "Tencent のリリースとオープンソース Tencent Hy4 プレビュー",
-      "link": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+      "title": "FreeCORE TrueNAS コア – 続き",
+      "link": "https://freecore.org/",
       "source": "Hacker News（英語）",
-      "published": "2026-08-29T19:33:23",
-      "excerpt": "記事の URL: https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/ コメント URL: https://news.…"
+      "published": "2026-08-30T01:31:32",
+      "excerpt": "記事の URL: https://freecore.org/ コメント URL: https://news.ycombinator.com/item?id=49494856 ポイント: 20 コメント数: 6"
+    },
+    {
+      "title": "AWS CloudWatchで障害を早期検知するアラーム設計と通知ルールの実践ガイド",
+      "link": "https://qiita.com/blinkgroup_jp/items/9ba3638e6271ab07e89a",
+      "source": "Qiita AWSタグ",
+      "published": "2026-08-30T00:22:03",
+      "excerpt": "AWS環境の運用において、システムの異常を早期に検知し、適切な担当者へ迅速に通知することは、サービスの信頼性を維持するために不可欠です。…"
+    },
+    {
+      "title": "バグブラインドネス",
+      "link": "https://danluu.com/bug-blind/",
+      "source": "Hacker News（英語）",
+      "published": "2026-08-30T00:21:40",
+      "excerpt": "記事の URL: https://danluu.com/bug-blind/ コメント URL: https://news.ycombinator.com/item?id=49494520 ポイント: 49 コメント数: 15"
+    },
+    {
+      "title": "LINE Social Plugins、「友だち追加」等のボタン仕様を変更",
+      "link": "https://codezine.jp/article/detail/29496",
+      "source": "CodeZine",
+      "published": "2026-08-30T00:00:00",
+      "excerpt": "LINE Social Plugins、「友だち追加」等のボタン仕様を変更"
     }
   ]
 }
