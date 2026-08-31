@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-08-30T22:51:05",
+  "generated_at": "2026-08-31T00:58:21",
   "window_hours": 24,
-  "total": 106,
+  "total": 119,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。Microsoft、「Visual Studio Debugger Agent」にテスト駆動型の調査機能を追加",
+      "summary": "生成AIの新着が24件。Slack Block Kit に追加された新ブロックを紹介します。…",
       "articles": [
         {
-          "title": "Microsoft、「Visual Studio Debugger Agent」にテスト駆動型の調査機能を追加",
-          "link": "https://codezine.jp/article/detail/29481",
-          "source": "CodeZine",
-          "published": "2026-08-30T22:00:00",
-          "excerpt": "Microsoft、「Visual Studio Debugger Agent」にテスト駆動型の調査機能を追加"
+          "title": "Slack Block Kit の新ブロックを試してみた【エージェント編】",
+          "link": "https://dev.classmethod.jp/articles/slack-block-kit-agent-blocks-guide/",
+          "source": "DevelopersIO",
+          "published": "2026-08-31T00:00:09",
+          "excerpt": "Slack Block Kit に追加された新ブロックを紹介します。…"
         },
         {
-          "title": "「連携できないツール」をAIが自律操作　Claude拡張機能が一般提供開始",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/31/news025.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-08-30T22:00:00",
-          "excerpt": "Anthropicは「Claude」のChrome拡張機能の一般提供を開始した。連携機能のない社内ダッシュボードやレガシーシステムもAIが読み取り、操作ごとのユーザー承認なしで自律的に操作する。…"
+          "title": "ソニー・ミュージックパブリッシングとワーナー・チャペル、Anthropicを著作権侵害で提訴",
+          "link": "https://www.itmedia.co.jp/news/article/2608/31/2000000950/",
+          "source": "ITmedia NEWS",
+          "published": "2026-08-30T23:21:28",
+          "excerpt": "Sony Music PublishingやWarner Chappell Musicなどの音楽出版社グループは、Anthropicと同社幹部を著作権侵害で提訴した。…"
         },
         {
-          "title": "生成AIと海外人材が日本の組織に突き付ける「共通課題」――メルカリが直面した「組織の暗黙知」の壁",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/31/news005.html",
-          "source": "@IT",
-          "published": "2026-08-30T20:00:00",
-          "excerpt": "元メルカリCTOが日本企業のグローバル開発とAI時代の組織づくりについて、当事者としての経験を語る連載。第1回は、2018年にメルカリが実施したインド工科大学卒業生の大型一括採用と、その後の組織立ち上げについて。"
+          "title": "【応用情報】R7春 午後（問１１：システム監査）その３：設問２ | Agent Grow Tech Notesのフィード",
+          "link": "https://zenn.dev/agent_grow/articles/fd5b080dc04e6a",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-30T23:00:10",
+          "excerpt": "はじめに令和７年度春期 応用情報技術者試験（午後：問１１ システム監査） について解説します。今回は続編です。前回までの記事をまだ読んでいない場合は、下記のリンクへどうぞ。その１：全体像の把握その２：設問１!…"
         },
         {
-          "title": "【AIエージェント構築入門】Bedrock AgentCoreで複数のAWSアカウントを自然言語で調査するチャットボットを作る（後編）",
-          "link": "https://qiita.com/eureka_/items/d60ad5361df82ae24e94",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-30T15:11:43",
-          "excerpt": "はじめに 前回、Strands AgentsとStreamlitを使って、複数のAWSアカウントを横断調査できるチャットボットをローカル環境で構築しました。…"
+          "title": "面倒な Tableau の保守作業を、Desktop を開かずに Claude の自作 skill で自動化するまでの全記録 | 弁護士ドットコム株式会社 Creators’ blog",
+          "link": "https://creators.bengo4.com/entry/2026/08/31/080000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-08-30T23:00:00",
+          "excerpt": "実際、どう頼んでいるか 読む道具はあっても、書く道具がなかった 使ったのは、公開されている仕様と根気だけ 所詮は XML なのだから、その気になれば書き換えられるはず 作ってはみたが、まったく開かない より効率的で、より安定した仕組みを作り…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。Mountpoint for Amazon S3 の `--memory-target` でメモリを制限すると読み取りスループットがどれだけ落ちるのか、実際に測定した結果をご紹介します。",
+      "summary": "クラウドの新着が11件。Amazon S3（以下、S3）は、静的ファイルの配信やバックアップ、データレイクなど多用途に利用される非常に便利なストレージサービスです。しかし、設定ミスによる意図しないデータの外部公開（情報漏洩）が後を絶ちません。…",
       "articles": [
+        {
+          "title": "Amazon S3の意図しない公開を防ぐための設定確認チェックリストとIAM・バケットポリシー設定例",
+          "link": "https://qiita.com/blinkgroup_jp/items/2d841a6eef5ce0aa2a90",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-31T00:22:05",
+          "excerpt": "Amazon S3（以下、S3）は、静的ファイルの配信やバックアップ、データレイクなど多用途に利用される非常に便利なストレージサービスです。しかし、設定ミスによる意図しないデータの外部公開（情報漏洩）が後を絶ちません。…"
+        },
+        {
+          "title": "S3の実体が消えたファイルが404ではなく403で返ってきて、非同期ジョブが止まった話",
+          "link": "https://qiita.com/nozomir/items/6c61b93da4bcf1ee2af1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-31T00:10:07",
+          "excerpt": "添付ファイルをまとめてZIPに固めてダウンロードさせる、という機能を運用しています。ある日、この機能が特定のユーザーでだけ「出力中」の表示のまま、いつまで経っても終わらないという問い合わせが来ました。…"
+        },
+        {
+          "title": "“I just chose words carefully”",
+          "link": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
+          "source": "Hacker News（英語）",
+          "published": "2026-08-30T22:49:48",
+          "excerpt": "Article URL: https://unsung.aresluna.org/i-just-chose-words-carefully/ Comments URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "Mountpoint for Amazon S3 のメモリ使用量を絞るとスループットがどの程度落ちるのか確認してみた",
           "link": "https://dev.classmethod.jp/articles/mountpoint-s3-memory-target-throughput/",
           "source": "DevelopersIO",
           "published": "2026-08-30T22:06:29",
           "excerpt": "Mountpoint for Amazon S3 の `--memory-target` でメモリを制限すると読み取りスループットがどれだけ落ちるのか、実際に測定した結果をご紹介します。"
-        },
-        {
-          "title": "Running SQLite Apps on Docker and Kubernetes with Litestream",
-          "link": "https://openrun.dev/blog/litestream/",
-          "source": "Hacker News（英語）",
-          "published": "2026-08-30T18:05:06",
-          "excerpt": "Article URL: https://openrun.dev/blog/litestream/ Comments URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Amazon EKS Capability for Argo CD がカスタム設定をサポート",
-          "link": "https://qiita.com/Haruki-N/items/0333b94da9acda8a9810",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-30T16:34:54",
-          "excerpt": "はじめに 2026 年 8 月 21 日、AWS は Amazon EKS Capability for Argo CD に対して、argocd-cm ConfigMap によるカスタム設定のサポートを発表しました。…"
-        },
-        {
-          "title": "AWSで始めるインフラ構築入門やってみる1",
-          "link": "https://qiita.com/TowaYokoyama/items/0d6cc0d2954d58379152",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-30T13:11:59",
-          "excerpt": "中古で売っていた本を購入したのでやってみる。特にVPCや踏み台サーバを建てるっていうのは意外とやったことないので楽しみ。お金を使いすぎないようにしたい。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。Article URL: https://reclaimthenet.…",
+      "summary": "セキュリティの新着が6件。Amazon S3（以下、S3）は、静的ファイルの配信やバックアップ、データレイクなど多用途に利用される非常に便利なストレージサービスです。しかし、設定ミスによる意図しないデータの外部公開（情報漏洩）が後を絶ちません。…",
       "articles": [
+        {
+          "title": "Amazon S3の意図しない公開を防ぐための設定確認チェックリストとIAM・バケットポリシー設定例",
+          "link": "https://qiita.com/blinkgroup_jp/items/2d841a6eef5ce0aa2a90",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-31T00:22:05",
+          "excerpt": "Amazon S3（以下、S3）は、静的ファイルの配信やバックアップ、データレイクなど多用途に利用される非常に便利なストレージサービスです。しかし、設定ミスによる意図しないデータの外部公開（情報漏洩）が後を絶ちません。…"
+        },
         {
           "title": "European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy",
           "link": "https://reclaimthenet.org/eu-protecteu-strategy-encryption-backdoor-law-enforcement",
@@ -99,20 +106,13 @@
           "source": "DevelopersIO",
           "published": "2026-08-30T07:59:48",
           "excerpt": "AWS Security HubのECR.5コントロール対応について、カスタマーマネージドキーによる暗号化が必須な理由と、見落としやすいAWSマネージドキーとの判別方法から修復手順まで、実践的な対応策をご紹介します。"
-        },
-        {
-          "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』で学ぶ『postgreSQL』のセキュリティ基礎についてその⑤",
-          "link": "https://qiita.com/Veteran/items/017801b42a55504a6be6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-08-30T07:49:13",
-          "excerpt": "皆さんこんにちは！東京はようやく猛暑が終わりそうですね。例年に比べると比較的過ごしやすかった気もしますがいかがでしょうか。もう9月になりますが今年も残り4か月頑張っていきましょう。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が9件。Disclosure optional, quality mandatory",
+      "summary": "データ分析の新着が8件。Disclosure optional, quality mandatory",
       "articles": [
         {
           "title": "Debian votes to let contributors code with AI",
@@ -147,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。JetBrainsは、ローカルで動作するAIコーディングエージェント「Junie Local」の提供開始を発表しました。Junie Localはその名称の通り完全にローカルマシン上で動作し、API使用料やモデル使用料などは一切不要。ソフト.…",
+      "summary": "開発ツールの新着が14件。GitHub Copilotのコードレビュー機能、自動ボットや大型プルリクエストに対応",
       "articles": [
+        {
+          "title": "GitHub Copilotのコードレビュー機能、自動ボットや大型プルリクエストに対応",
+          "link": "https://codezine.jp/article/detail/29497",
+          "source": "CodeZine",
+          "published": "2026-08-31T00:00:00",
+          "excerpt": "GitHub Copilotのコードレビュー機能、自動ボットや大型プルリクエストに対応"
+        },
+        {
+          "title": "【簡単AWS MLA】【初心者向け】Day 12：Model Monitor と Data Drift を整理する — デプロイ後の監視の基本",
+          "link": "https://qiita.com/MetaYuan/items/1797614bbe61e747a627",
+          "source": "Qiita AWSタグ",
+          "published": "2026-08-30T23:19:02",
+          "excerpt": "はじめに 前回は、SageMaker の推論方式として Real-time Endpoint Serverless Endpoint Asynchronous Endpoint Batch Transform について整理しました。…"
+        },
+        {
+          "title": "Microsoft、Azure Repos向けのGitHub Copilotコードレビューをパブリックプレビュー版でリリース",
+          "link": "https://codezine.jp/article/detail/29483",
+          "source": "CodeZine",
+          "published": "2026-08-30T23:00:00",
+          "excerpt": "Microsoft、Azure Repos向けのGitHub Copilotコードレビューをパブリックプレビュー版でリリース"
+        },
         {
           "title": "JetBrains、Mac上で動作するコーディングエージェント「Junie Local」提供開始。Claude Sonnet 4.5と同等の能力、RTX5909対応も開発中",
           "link": "https://www.publickey1.jp/blog/26/jetbrainsmacjunie_localclaude_sonnet_45rtx5909.html",
           "source": "Publickey",
           "published": "2026-08-30T15:07:47",
           "excerpt": "JetBrainsは、ローカルで動作するAIコーディングエージェント「Junie Local」の提供開始を発表しました。Junie Localはその名称の通り完全にローカルマシン上で動作し、API使用料やモデル使用料などは一切不要。ソフト.…"
-        },
-        {
-          "title": "GitHub から Cloud Run に自動デプロイしてみた",
-          "link": "https://dev.classmethod.jp/articles/github-actions-cloud-run-auto-deploy/",
-          "source": "DevelopersIO",
-          "published": "2026-08-30T15:02:15",
-          "excerpt": "GitHub で管理しているソースコードが、Cloud Run に自動デプロイできるように設定をしてみました。慣れていない人でも試しやすいよう、GUIベースで設定を行ってみました。"
-        },
-        {
-          "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
-          "link": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-08-30T15:00:00",
-          "excerpt": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites.…"
-        },
-        {
-          "title": "IAMロールの管理ポリシー上限がデフォルト20個になったのでTerraformで検証してみた",
-          "link": "https://zenn.dev/ho377/articles/2026-08-30-tech",
-          "source": "Zenn AWSトピック",
-          "published": "2026-08-30T12:01:14",
-          "excerpt": "はじめに 2026年8月19日、1ロールあたりの管理ポリシーのデフォルトクォータが10個から20個に引き上げられたと発表されました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ITエンジニア注目トレンドを総まとめ！週間ニュースランキングTOP10【8/21～8/27】",
-      "link": "https://codezine.jp/article/detail/29486",
+      "title": "Amazon Connect Customer のプレビュー機能「Authentication Profiles API」で無操作時の自動ログアウトを設定してみた",
+      "link": "https://dev.classmethod.jp/articles/amazon-connect-authentication-profiles-inactivity-timeout/",
+      "source": "DevelopersIO",
+      "published": "2026-08-31T00:25:23",
+      "excerpt": "Amazon Connect の無操作時自動ログアウトを実現する「Authentication Profiles API」のプレビュー機能を、実際に試しながら設定方法と動作を検証した結果をご紹介します。"
+    },
+    {
+      "title": "2026年9月に開催される注目のITエンジニア向けカンファレンス6選",
+      "link": "https://codezine.jp/article/detail/29503",
       "source": "CodeZine",
-      "published": "2026-08-30T22:00:00",
-      "excerpt": "毎日更新される、CodeZine、DeveloperZine、ProductZineの最新ニュースから、注目を集めたトピックスを紹介する本ランキング。今回は2026年8月21日～8月27日までの人気ランキングを発表します。"
+      "published": "2026-08-31T00:00:00",
+      "excerpt": "2026年9月、エンジニアコミュニティが主催する大規模なカンファレンスが多数開催されます。ITエンジニアの皆さんにとって、最新技術や開発トレンドを学び、エンジニアコミュニティの絆を深める絶好の機会です。…"
     },
     {
-      "title": "EDRを入れても侵入される　405社調査が示す日本企業の「構造的欠陥」",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2608/31/news027.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-08-30T22:00:00",
-      "excerpt": "EDRなどの検知ツールへの投資は進んだ。それでも重大インシデント寸前の事案は絶えない。サイバーリーズンが国内405社の成熟度診断とSOC観測データを突き合わせたところ、攻撃者が狙う共通の「死角」が浮かんだ。"
+      "title": "Amazon EVS と NSX Federation によるディザスタリカバリとマルチサイトネットワーク",
+      "link": "https://aws.amazon.com/jp/blogs/news/amazon-evs-with-nsx-federation-for-disaster-recovery-and-multi-site-networking/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-08-30T23:47:42",
+      "excerpt": "Amazon Elastic VMware Service (Amazon EVS) が NSX Federation をサポートしました。…"
     },
     {
-      "title": "AIが生成した“存在しない病名”、研修医の44％が信用　見抜けた医師との差は？　仏大学病院が検証",
-      "link": "https://www.itmedia.co.jp/news/article/2608/31/2000000865/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-30T22:00:00",
-      "excerpt": "フランスの大学病院「Lille University Hospital」などに所属する研究者らが発表した論文「Hallucination by proxy in LLM-assisted differential diagnosis」は、大…"
-    },
-    {
-      "title": "“リソースの上位集中”は文字・貨幣が根付く前からあった？　成城大准教授が古墳の体積から導出",
-      "link": "https://www.itmedia.co.jp/news/article/2608/31/2000000867/",
-      "source": "ITmedia NEWS",
-      "published": "2026-08-30T22:00:00",
-      "excerpt": "成城大学の渡邊隼史准教授が発表したプレプリント論文「Zipf’s law before the monetary economy and written administration: volume distribution of kofu…"
+      "title": "「数万曲の歌詞を生成ＡＩが無断学習」…ソニーＧ傘下の音楽出版など３５社、アンソロピックとＣＥＯらを提訴（読売新聞オンライン） - Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/articles/2490663bdfd440b8083dc2af35532a6817f85681",
+      "source": "はてなブックマーク（テクノロジー）",
+      "published": "2026-08-30T23:10:19",
+      "excerpt": "【ニューヨーク＝木瀬武】ソニーグループ傘下の音楽出版大手など３５社は、数万曲の歌詞を無断で生成ＡＩ（人工知能）の学習に利用した行為などが著作権侵害にあたるとして、米ＡＩ開発企業アンソロピックと同社のダリオ・アモデイ最高経営責任者（ＣＥＯ）ら…"
     }
   ]
 }
