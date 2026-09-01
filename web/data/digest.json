@@ -1,20 +1,34 @@
 {
-  "generated_at": "2026-09-01T17:29:42",
+  "generated_at": "2026-09-01T20:04:05",
   "window_hours": 24,
-  "total": 210,
+  "total": 211,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。OpenAI said that the integration provides read-only access to health records for clinicians.",
+      "summary": "生成AIの新着が37件。Fable 5.1 には、トークンのコストとモデルの安全対策による誤検知の制限を削減することを目的とした変更が含まれています。",
       "articles": [
         {
-          "title": "ChatGPT Health adds Epic integration for clinicians to import patient data",
+          "title": "Anthropic の新しい Fable リリースは安価で、制限が緩和されています",
+          "link": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-01T19:39:22",
+          "excerpt": "Fable 5.1 には、トークンのコストとモデルの安全対策による誤検知の制限を削減することを目的とした変更が含まれています。"
+        },
+        {
+          "title": "Canvaに対するGoogleの答えは、デザインではなくプロンプトを表示するAIツールです",
+          "link": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-01T17:35:37",
+          "excerpt": "Google は Google Pics により、Canva と Adob​​e が独占するクリエイティブ ソフトウェア市場にさらに深く進出していますが、その際には明らかに AI ファーストのアプローチを採用しています。"
+        },
+        {
+          "title": "ChatGPT Health に臨床医が患者データをインポートするための Epic 統合を追加",
           "link": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
           "source": "TechCrunch（英語）",
           "published": "2026-09-01T17:00:00",
-          "excerpt": "OpenAI said that the integration provides read-only access to health records for clinicians."
+          "excerpt": "OpenAIによると、この統合により臨床医は医療記録への読み取り専用アクセスが提供されるという。"
         },
         {
           "title": "AIエージェントがRedshiftを操作してDWH構築や集計分析など可能に、Amazon RedshiftがAgent Toolkit for AWSと統合",
@@ -22,34 +36,27 @@
           "source": "Publickey",
           "published": "2026-09-01T15:07:04",
           "excerpt": "Amazon Web Services（AWS）は、同社がフルマネージドで提供するデータウェアハウスサービス「Amazon Redshift」が、Agent Toolkit for AWSと統合されたことを明らかにしました。Agent T.…"
-        },
-        {
-          "title": "VS Code上で開発のセカンドオピニオンを別のAIエージェントから得られる「Rubber Duck」機能が実験的実装",
-          "link": "https://www.publickey1.jp/blog/26/vs_codeairubber_duck.html",
-          "source": "Publickey",
-          "published": "2026-09-01T15:01:52",
-          "excerpt": "オープンソースで開発されているコードエディタ「Visual Studio Code」（以下、VS Code）の最新版となる「VS Code 1.…"
-        },
-        {
-          "title": "Entra Agent IDでAzureリソースに認証・アクセスする | ヘッドウォータースのフィード",
-          "link": "https://zenn.dev/headwaters/articles/213f43dbf9a484",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-01T15:01:00",
-          "excerpt": "Microsoft Foundry で発行される Entra Agent ID（エージェント専用のID）を使って、Azureリソース（Azure Blob Storage）に認証・アクセスできるかを検証しました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。Article URL: https://gitlab.com/AuroraOSS/AuroraStore/-/work_items/1566 Comments URL: https://news.ycombinator.com/item?…",
+      "summary": "クラウドの新着が14件。Kinesis Data Streams から S3 の汎用バケットへ、Firehose を挟まず直接配信できるようになりました。…",
       "articles": [
         {
-          "title": "Play Store blocks AuroraStore, hurting GrapheneOS users",
+          "title": "Kinesis Data Streams が S3 汎用バケットへの直接配信をサポートしたので試してみた",
+          "link": "https://dev.classmethod.jp/articles/kinesis-data-streams-s3-general-purpose-delivery/",
+          "source": "DevelopersIO",
+          "published": "2026-09-01T19:46:30",
+          "excerpt": "Kinesis Data Streams から S3 の汎用バケットへ、Firehose を挟まず直接配信できるようになりました。…"
+        },
+        {
+          "title": "Play ストアが AuroraStore をブロックし、GrapheneOS ユーザーに損害を与える",
           "link": "https://gitlab.com/AuroraOSS/AuroraStore/-/work_items/1566",
           "source": "Hacker News（英語）",
           "published": "2026-09-01T15:55:53",
-          "excerpt": "Article URL: https://gitlab.com/AuroraOSS/AuroraStore/-/work_items/1566 Comments URL: https://news.ycombinator.com/item?…"
+          "excerpt": "記事の URL: https://gitlab.com/AuroraOSS/AuroraStore/-/work_items/1566 コメント URL: https://news.ycombinator.com/item?…"
         },
         {
           "title": "S3 + CloudFront 構成の Web 配信における nosniff オプションの考慮事項",
@@ -64,20 +71,13 @@
           "source": "@IT",
           "published": "2026-09-01T08:00:00",
           "excerpt": "量子コンピュータの実用化はまだ先。それでも企業は今、暗号の見直しを迫られている。攻撃者がデータを先に盗み、将来の復号を狙う「HNDL」への警戒が高まる中、PQC移行を阻むのは、意外にも「自社の暗号が分からない」という問題だった。"
-        },
-        {
-          "title": "Amazon AuroraがPostgreSQL最新版18.4含む複数バージョンを新たにサポート",
-          "link": "https://codezine.jp/article/detail/29521",
-          "source": "CodeZine",
-          "published": "2026-09-01T07:00:00",
-          "excerpt": "Amazon AuroraがPostgreSQL最新版18.4含む複数バージョンを新たにサポート"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が23件。Microsoft Foundry で発行される Entra Agent ID（エージェント専用のID）を使って、Azureリソース（Azure Blob Storage）に認証・アクセスできるかを検証しました。…",
+      "summary": "セキュリティの新着が19件。Microsoft Foundry で発行される Entra Agent ID（エージェント専用のID）を使って、Azureリソース（Azure Blob Storage）に認証・アクセスできるかを検証しました。…",
       "articles": [
         {
           "title": "Entra Agent IDでAzureリソースに認証・アクセスする | ヘッドウォータースのフィード",
@@ -87,11 +87,11 @@
           "excerpt": "Microsoft Foundry で発行される Entra Agent ID（エージェント専用のID）を使って、Azureリソース（Azure Blob Storage）に認証・アクセスできるかを検証しました。…"
         },
         {
-          "title": "It turns out that Orion's much-maligned heat shield performed really well",
+          "title": "大いに中傷されたオリオンの熱シールドが非常に優れた性能を発揮したことが判明",
           "link": "https://arstechnica.com/space/2026/09/it-turns-out-that-orions-much-maligned-heat-shield-performed-really-well/",
           "source": "Ars Technica（英語）",
           "published": "2026-09-01T14:46:28",
-          "excerpt": "Independent safety officials also have high praise for changes by NASA leadership."
+          "excerpt": "独立した安全当局者も、NASA指導部による変化を高く評価している。"
         },
         {
           "title": "【IAM Identity Center】許可セット内にカスタムポリシーを追加する場合の注意点①",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。Amazon Web Services（AWS）は、同社がフルマネージドで提供するデータウェアハウスサービス「Amazon Redshift」が、Agent Toolkit for AWSと統合されたことを明らかにしました。Agent T.…",
+      "summary": "データ分析の新着が7件。Kinesis Data Streams から S3 の汎用バケットへ、Firehose を挟まず直接配信できるようになりました。…",
       "articles": [
+        {
+          "title": "Kinesis Data Streams が S3 汎用バケットへの直接配信をサポートしたので試してみた",
+          "link": "https://dev.classmethod.jp/articles/kinesis-data-streams-s3-general-purpose-delivery/",
+          "source": "DevelopersIO",
+          "published": "2026-09-01T19:46:30",
+          "excerpt": "Kinesis Data Streams から S3 の汎用バケットへ、Firehose を挟まず直接配信できるようになりました。…"
+        },
         {
           "title": "AIエージェントがRedshiftを操作してDWH構築や集計分析など可能に、Amazon RedshiftがAgent Toolkit for AWSと統合",
           "link": "https://www.publickey1.jp/blog/26/airedshiftdwhamazon_redshiftagent_toolkit_for_aws.html",
@@ -134,27 +141,20 @@
           "source": "企業テックブログまとめ",
           "published": "2026-09-01T09:40:31",
           "excerpt": "こんにちは！2026年度新卒として入社したshimizuです。先日、広島国際会議場にて開催された「PyCon JP 2026」に参加してきました。…"
-        },
-        {
-          "title": "【SageMaker Unified Studio】 Glue テーブルに対してアセットを作成する",
-          "link": "https://qiita.com/swkky/items/f7db750d1d5d8ff7254b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-01T01:27:45",
-          "excerpt": "はじめに 本記事は、AWS CLI を使って Glue テーブルからアセットを作成する具体的な手順（データソース作成 → データソースラン実行 → アセット確認）をまとめたハンズオン記事です。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。OpenAI said that the integration provides read-only access to health records for clinicians.",
+      "summary": "開発ツールの新着が12件。OpenAIによると、この統合により臨床医は医療記録への読み取り専用アクセスが提供されるという。",
       "articles": [
         {
-          "title": "ChatGPT Health adds Epic integration for clinicians to import patient data",
+          "title": "ChatGPT Health に臨床医が患者データをインポートするための Epic 統合を追加",
           "link": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
           "source": "TechCrunch（英語）",
           "published": "2026-09-01T17:00:00",
-          "excerpt": "OpenAI said that the integration provides read-only access to health records for clinicians."
+          "excerpt": "OpenAIによると、この統合により臨床医は医療記録への読み取り専用アクセスが提供されるという。"
         },
         {
           "title": "【初心者向け】AWS CloudFormation StackSets を試して理解しよう",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "AWSのAI系新試験「AI Business Strategist (AIB-C01)」について",
-      "link": "https://qiita.com/Maruchin/items/84c2b4e1d51ebc37b59c",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-01T17:01:11",
-      "excerpt": "こんにちは、Udemy講師のMaruchin Techです。…"
-    },
-    {
-      "title": "Quill (YC W20) Is Hiring a Fullstack SWE",
-      "link": "https://news.ycombinator.com/item?id=49524704",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-01T17:00:14",
-      "excerpt": "Comments URL: https://news.ycombinator.com/item?id=49524704 Points: 0 # Comments: 0"
-    },
-    {
-      "title": "Waymo goes on offense ahead of Tesla’s Cybercab launch",
-      "link": "https://techcrunch.com/2026/09/01/waymo-goes-on-offense-ahead-of-teslas-cybercab-launch/",
+      "title": "ジョン・ターナス氏、Apple CEOとしての最初のメモで「来週の大規模な発売」を誇張",
+      "link": "https://techcrunch.com/2026/09/01/john-ternus-hypes-huge-launch-next-week-in-first-memo-as-apple-ceo/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-01T16:49:12",
-      "excerpt": "Waymo argued that fully autonomous vehicles aren't possible without using a mix of sensors and warned that pure end-to-e…"
+      "published": "2026-09-01T19:45:28",
+      "excerpt": "Appleは来週iPhoneリリースイベントを開催するが、そのイベントでは史上初の折り畳み式iPhoneが登場すると噂されている。"
     },
     {
-      "title": "ReactOS 0.4.16 serves '90s Windows nostalgia with fewer bugs",
-      "link": "https://www.theregister.com/os-platforms/2026/09/01/reactos-0416-serves-90s-windows-nostalgia-with-fewer-bugs/5293694",
-      "source": "The Register（英語）",
-      "published": "2026-09-01T16:43:19",
-      "excerpt": "30 years on, it's still alpha, but 0.4.…"
+      "title": "スライヴのクシュナー氏、FIFA騒動への関与を擁護、イーロン氏の頼りになる弁護士を雇う",
+      "link": "https://techcrunch.com/2026/09/01/thrives-kushner-defends-involvement-in-fifa-mess-hires-elons-go-to-lawyer/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-01T19:30:24",
+      "excerpt": "ニューヨークの名門ながら秘密主義のベンチャー企業スライブ・キャピタルが、国際サッカーを一変させるこの厄介なドラマへの自社の関与についてついに声を大にして語った。"
+    },
+    {
+      "title": "詐欺って何？",
+      "link": "https://www.schneier.com/blog/archives/2026/09/whats-the-scam.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-01T18:46:59",
+      "excerpt": "記事の URL: https://www.schneier.com/blog/archives/2026/09/whats-the-scam.html コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "エド・ジトロンの AI 懐疑論的予測はどれくらい正確でしたか?",
+      "link": "https://danluu.com/zitron/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-01T18:35:15",
+      "excerpt": "記事の URL: https://danluu.com/zitron/ コメント URL: https://news.ycombinator.com/item?id=49526069 ポイント: 39 コメント数: 11"
     }
   ]
 }
