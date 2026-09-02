@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-02T17:30:52",
+  "generated_at": "2026-09-02T20:00:55",
   "window_hours": 24,
-  "total": 206,
+  "total": 202,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。「米国は、堅牢で競争力のある国家の開発を継続することに強い関心を持っている。AI 使用の実践と手順の標準を設定する人工知能産業 世界中で」と概要には書かれている。…",
+      "summary": "生成AIの新着が28件。GoogleのProモデルのアップデートは一時停止されているようだが、今日はまたGemini Flashが登場する。",
       "articles": [
+        {
+          "title": "Google、6週間で3番目のFlashモデルとなるGemini 3.8 Flashをリリース",
+          "link": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-09-02T18:13:54",
+          "excerpt": "GoogleのProモデルのアップデートは一時停止されているようだが、今日はまたGemini Flashが登場する。"
+        },
+        {
+          "title": "Amazon Bedrock のウェブ検索が AWS GovCloud (米国西部) で利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-02T17:52:00",
+          "excerpt": "Amazon Bedrock の Web 検索組み込みサーバー側ツールが AWS GovCloud (米国西部) で利用できるようになり、コンプライアンスに敏感な政府および公共部門のワークロードに根拠のある Web 結果をもたらすのに役立ち…"
+        },
         {
           "title": "米国政府は、著作権で保護されたマテリアルに関する LLM のトレーニングの問題で OpenAI を支持します",
           "link": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
@@ -22,28 +36,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-09-02T17:04:58",
           "excerpt": "記事の URL: https://successsoftware.net/2026/09/02/chatgpt-ad-targeting-is-garbage/ コメント URL: https://news.ycombinator.…"
-        },
-        {
-          "title": "LLM を使用したキノコ狩り: 何が問題になるのでしょうか?",
-          "link": "https://quesma.com/blog/mushroom-llm-vision/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-02T16:58:34",
-          "excerpt": "記事の URL: https://quesma.com/blog/mushroom-llm-vision/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Amazon Connect Customer がエージェント CX デザイナーの一般提供を発表",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-02T16:00:00",
-          "excerpt": "Amazon Connect Customer は、AI を活用したセルフサービス エクスペリエンスを設計およびデプロイするためのノーコード キャンバスであるエージェント CX デザイナーの一般提供を発表しました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が29件。Xは、米国のクリエイターへの支払いはX Money支払いサービスを通じて処理されると述べており、これは以前のStripeを利用した支払いシステムに代わるものと思われる変更である。",
+      "summary": "クラウドの新着が28件。Amazon Kinesis Data Streams が Streaming tables を発表し、ストリームのデータを S3 Tables 上の Apache Iceberg テーブルへ直接配信できるようになりました。…",
       "articles": [
+        {
+          "title": "Kinesis Data Streams の新機能 「Streaming tables」 で S3 Tables への直接配信を試してみた",
+          "link": "https://dev.classmethod.jp/articles/kinesis-data-streams-streaming-tables-s3-tables/",
+          "source": "DevelopersIO",
+          "published": "2026-09-02T19:10:09",
+          "excerpt": "Amazon Kinesis Data Streams が Streaming tables を発表し、ストリームのデータを S3 Tables 上の Apache Iceberg テーブルへ直接配信できるようになりました。…"
+        },
+        {
+          "title": "AWS Lambdaをコンテナイメージで動かす際、SnapStartが利用可能になったよ",
+          "link": "https://qiita.com/Kanahiro/items/2718e1a6e93730746fb7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-02T18:01:11",
+          "excerpt": "LambdaとSnapStart 2024年にこんな記事を寄稿させていただいたくらいにはAWS Lambdaのことをコンテナを動かす何かだと思っています 2026-09-03、ついにコンテナイメージのLambdaでもSnapStartが利用…"
+        },
         {
           "title": "Xが米国のクリエイターへの支払いをStripeからX Moneyに移行",
           "link": "https://techcrunch.com/2026/09/02/x-shifts-us-creator-payouts-from-stripe-to-x-money/",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-02T16:45:44",
           "excerpt": "TL;DR; この記事を読めば、Terraformを用いてLambdaリソースを管理することができるようになり、その周辺技術に対する知識がつきます。AWSの当たり前であり、「IAM」の考え方などです。…"
-        },
-        {
-          "title": "S3に格納したcsvデータをAmazon Aurora MySQLにインサートする",
-          "link": "https://qiita.com/natsumi_a/items/9cae592af5e644e28d46",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-02T16:43:43",
-          "excerpt": "閲覧ありがとうございます。本記事は、S3バケットに保存したcsvテーブルをAmazon Aurora MySQLに取り込んでみた際の手順を記事にしたものです。…"
-        },
-        {
-          "title": "【図解】AWS CloudFrontとは。近所のコンビニ方式と「更新したのに古いまま」の直し方",
-          "link": "https://qiita.com/daisuke-nagata/items/d26b3884fe80144371f2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-02T15:02:27",
-          "excerpt": "対象読者: AWSをこれから触る人。AWS勉強シリーズの11本目です。全体の地図は索引記事にあります。この記事を読むと、次の2つの症状が自分で切り分けられるようになります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。三井不動産は9月1日、同社グループが利用する一部システムが不正アクセスを受け、役職員や社外関係者の個人情報が最大5万5000件、外部に漏えいした可能性があると発表した。",
+      "summary": "セキュリティの新着が10件。個人情報盗難検索サイトは、ID 検証サービスから 1 億 5,000 万枚以上の運転免許証の写真が盗まれたと主張しました。犯罪現場は現在閉鎖されている。",
       "articles": [
+        {
+          "title": "確かにハッカーが大手IDカード認証サービスに侵入したようだ",
+          "link": "https://techcrunch.com/2026/09/02/it-sure-looks-like-hackers-breached-a-major-id-card-verification-service/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-02T19:35:09",
+          "excerpt": "個人情報盗難検索サイトは、ID 検証サービスから 1 億 5,000 万枚以上の運転免許証の写真が盗まれたと主張しました。犯罪現場は現在閉鎖されている。"
+        },
         {
           "title": "三井不動産に不正アクセス　社員・社外関係者の情報最大5万5000件漏えいか",
           "link": "https://www.itmedia.co.jp/news/article/2609/02/2000001091/",
@@ -99,21 +106,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-02T06:39:14",
           "excerpt": "はじめに AWSの学習のため、自作Spring BootアプリをAWS上に段階的にデプロイしています。この記事では、個人開発時に実装した最低限のセキュリティ対策を説明します。間違い等あれば、指摘いただけると助かります。…"
-        },
-        {
-          "title": "Google Drive、ブラウザ内で暗号化されたPDFや画像のプレビューが可能に",
-          "link": "https://codezine.jp/article/detail/29538",
-          "source": "CodeZine",
-          "published": "2026-09-02T05:30:00",
-          "excerpt": "Google Drive、ブラウザ内で暗号化されたPDFや画像のプレビューが可能に"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が10件。ペースが速すぎる場合は自動更新を無効にしないでください – それが ESR の目的です",
+      "summary": "データ分析の新着が8件。Amazon Kinesis Data Streams が Streaming tables を発表し、ストリームのデータを S3 Tables 上の Apache Iceberg テーブルへ直接配信できるようになりました。…",
       "articles": [
+        {
+          "title": "Kinesis Data Streams の新機能 「Streaming tables」 で S3 Tables への直接配信を試してみた",
+          "link": "https://dev.classmethod.jp/articles/kinesis-data-streams-streaming-tables-s3-tables/",
+          "source": "DevelopersIO",
+          "published": "2026-09-02T19:10:09",
+          "excerpt": "Amazon Kinesis Data Streams が Streaming tables を発表し、ストリームのデータを S3 Tables 上の Apache Iceberg テーブルへ直接配信できるようになりました。…"
+        },
         {
           "title": "Firefox と Thunderbird が隔週リリースのトレッドミルに登場",
           "link": "https://www.theregister.com/software/2026/09/02/firefox-and-thunderbird-hit-the-fortnightly-release-treadmill/5293953",
@@ -134,13 +141,6 @@
           "source": "Publickey",
           "published": "2026-09-02T02:43:59",
           "excerpt": "SalesforceとAnthropicが「Claudeforce」を発表しました。第一弾となる「Salesforce in Claude」では、Claudeの画面からプロンプトを入力するだけで、Salesforceのデータやワークフロー.…"
-        },
-        {
-          "title": "【さくらのクラウド】K3s上でOpenTelemetry eBPF Instrumentation(OBI)を検証しSDK自動計装との棲み分けを確認した | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/sakuracloud-monitoring-suite-k8s-ebpf-obi",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-02T00:00:00",
-          "excerpt": "さくらのクラウドの「モニタリングスイート」とOTel eBPF Instrumentation（OBI）を組み合わせ、K3s環境におけるeBPFベースの自動計装を検証。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Pangram の Max Spero 氏が語る、AI 検出が「本物か偽物か」よりも難しい理由",
-      "link": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-02T17:18:13",
-      "excerpt": "インターネットには信頼性の問題がありますが、それはソーシャル メディア フィードが AI のスロップで埋め尽くされているからだけではありません。…"
+      "title": "NASAはアルテミスIVのタイムラインを警戒し、月面宇宙服のデザインを変更中",
+      "link": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-09-02T19:37:08",
+      "excerpt": "「短期的なミッションのニーズを反映するために要件が調整されています。」"
     },
     {
-      "title": "ブラックホール博物館: ロスアラモスコミュニティのための新しいアイデア (2025)",
-      "link": "https://losalamosreporter.com/2025/06/29/black-hole-museum-a-new-idea-for-the-los-alamos-community/",
+      "title": "ミューズスパーク 1.3",
+      "link": "https://developer.meta.com/ai/models/muse-spark/",
       "source": "Hacker News（英語）",
-      "published": "2026-09-02T17:02:54",
-      "excerpt": "記事の URL: https://losalamosreporter.…"
+      "published": "2026-09-02T19:35:04",
+      "excerpt": "記事の URL: https://developer.meta.com/ai/models/muse-spark/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "GoogleがFervoから400MWを購入、強化された地熱ノッチがさらなる勝利をもたらす",
-      "link": "https://techcrunch.com/2026/09/02/enhanced-geothermal-notches-another-win-as-google-buys-400-mw-from-fervo/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-02T16:54:23",
-      "excerpt": "FervoとGoogleの契約は、ユタ州の非常に大規模なAIデータセンターに電力を供給するのに十分な1ギガワットの地熱発電まで拡大する可能性がある。"
-    },
-    {
-      "title": "踏切の仕組み",
-      "link": "https://practical.engineering/blog/2023/12/29/how-railroad-crossings-work",
+      "title": "Muse Spark 1.3 の紹介",
+      "link": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
       "source": "Hacker News（英語）",
-      "published": "2026-09-02T16:52:20",
-      "excerpt": "記事の URL: https://practical.engineering/blog/2023/12/29/how-railroad-crossings-work コメント URL: https://news.ycombinator.…"
+      "published": "2026-09-02T19:25:47",
+      "excerpt": "記事の URL: https://research.meta.ai/blog/introducing-muse-spark-1-3 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "デリバリーヒーロー取締役会、ウーバーの150億ドルの買収提案を支持",
+      "link": "https://techcrunch.com/2026/09/02/delivery-hero-board-backs-ubers-15b-takeover-bid/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-02T19:25:35",
+      "excerpt": "承認されれば、合併後の会社は世界最大の食品配達プラットフォームの一つとなる。"
     }
   ]
 }
