@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-09-02T09:45:39",
+  "generated_at": "2026-09-02T13:56:36",
   "window_hours": 24,
-  "total": 200,
+  "total": 204,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。はじめに 以前、【図解あり】SnowflakeのStorage Integrationとは？5分で理解するS3連携の仕組みという記事で、Storage Integrationの役割について書きました。…",
+      "summary": "生成AIの新着が27件。記事の URL: https://openteams.com/intelligence-vs-cost/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "LLM: インテリジェンスとコスト",
+          "link": "https://openteams.com/intelligence-vs-cost/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-02T13:03:50",
+          "excerpt": "記事の URL: https://openteams.com/intelligence-vs-cost/ コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "OpenAI、タンブラーリッジ銃乱射事件に関連してさらに30件の訴訟に直面",
+          "link": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-02T12:09:42",
+          "excerpt": "エデルソンPCは、タンブラーリッジ銃乱射事件をめぐってOpenAIに対して新たに30件の訴訟を起こしており、クリス・ルヘインの幇助や教唆、名指しなどの主張をエスカレートさせているが、証拠は未確認のままだ。"
+        },
+        {
+          "title": "AgentCore Web Searchのドメインフィルタを実測 — 範囲外要求は「エラー」と「silent drop」に分かれる",
+          "link": "https://zenn.dev/nttdata_tech/articles/a8e6f6018f107b",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-02T09:28:47",
+          "excerpt": "1.はじめに エージェントに Web 検索させるとき、検索先ドメインを制限したい要件は多いです。社内ポリシーで参照先を公式ドキュメントに限定したい、古い情報を拾わせたくない、といったものです。…"
+        },
         {
           "title": "SnowflakeのStorage Integrationをもう一歩深掘りしてみた ～IAMロールとの信頼関係・GCS/Azure対応・複数クラウド設定まで～",
           "link": "https://qiita.com/Sho5_Matsu/items/c4e1b8c66b950d17b311",
           "source": "Qiita AWSタグ",
           "published": "2026-09-02T08:18:38",
           "excerpt": "はじめに 以前、【図解あり】SnowflakeのStorage Integrationとは？5分で理解するS3連携の仕組みという記事で、Storage Integrationの役割について書きました。…"
-        },
-        {
-          "title": "「AIエージェントキャッチアップ #90 - Agent Plugins」を開催しました | Generative Agents Tech Blog",
-          "link": "https://blog.generative-agents.co.jp/entry/2026/09/02/154502",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-02T06:45:02",
-          "excerpt": "ジェネラティブエージェンツの大嶋です。「AIエージェントキャッチアップ #90 - Agent Plugins」という勉強会を開催しました。generative-agents.connpass.com アーカイブ動画はこちらです。www.…"
-        },
-        {
-          "title": "LINEをAIチャットボットの「入口」にする — LIFF・Messaging API・Bedrockで組む最小構成と、初心者が詰まる4点",
-          "link": "https://qiita.com/Xim2jp/items/5cecaa0ded256f778ce0",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-02T04:57:01",
-          "excerpt": "「AIチャットボットは面白いが、うちのお客さんは使わない」。事業者の方からよく返ってくる言葉で、ブラウザで開くAIに対しては正しい指摘です。…"
-        },
-        {
-          "title": "Bedrock の Grok 4.6 の課金分類を Cost Explorer で確認してみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-grok-4-6-cost-explorer-credit/",
-          "source": "DevelopersIO",
-          "published": "2026-09-02T04:56:53",
-          "excerpt": "イベントなどで配布される AWS クレジットは、Bedrock で使うモデルによっては、その利用料が適用対象外となることがあります。SpaceXAI の Grok 4.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。Amazon WorkSpaces で Office 2021 から 2024 への移行を複数台（2台）で検証しました。前回の1台検証に続き、2台並列での展開方法とそのタイムラインを紹介します。",
+      "summary": "クラウドの新着が24件。予算は最小限で、FedEx がボトルネックで、もちろん DNS がトラブルの原因でした",
       "articles": [
         {
-          "title": "WorkSpaces の Office 2021 が EOL を迎えるので、2024 に移行した話（複数台まとめて実施編）",
-          "link": "https://dev.classmethod.jp/articles/multiple-workspaces-migrate-application-bundle/",
-          "source": "DevelopersIO",
-          "published": "2026-09-02T08:51:35",
-          "excerpt": "Amazon WorkSpaces で Office 2021 から 2024 への移行を複数台（2台）で検証しました。前回の1台検証に続き、2台並列での展開方法とそのタイムラインを紹介します。"
+          "title": "クラウド エンジニアがバーに入ったところ、冗談ではなく、データセンターを移行することになりました。",
+          "link": "https://www.theregister.com/virtualization/2026/09/02/a-cloud-engineer-walked-into-a-bar-and-no-joke-ended-up-having-to-migrate-a-datacenter/5293835",
+          "source": "The Register（英語）",
+          "published": "2026-09-02T12:00:00",
+          "excerpt": "予算は最小限で、FedEx がボトルネックで、もちろん DNS がトラブルの原因でした"
         },
         {
-          "title": "【AWS設計パターン】オリジンサーバー不要！Route 53 × CloudFront × Lambda@Edgeによる10ドメイン一括エッジリダイレクト基盤",
-          "link": "https://qiita.com/mooreyxia/items/81e485a43ff14d4ffa68",
+          "title": "AWSデプロイ後に見る3画面メモ（CloudFormation / Lambda / CloudWatch）",
+          "link": "https://qiita.com/inoyu-qiita/items/265f457ecbdede41cd52",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-02T08:41:57",
-          "excerpt": "📌 はじめに 企業のマーケティングキャンペーンやブランド統合の際、複数の旧ドメインやキャンペーン用ドメイン（10個以上）を特定のターゲットURLへHTTP/HTTPS問わずリダイレクトさせたいケースが頻繁に発生します。…"
+          "published": "2026-09-02T11:34:28",
+          "excerpt": "はじめに デプロイといえば Vercel しか触ったことがありませんでした。git push したら勝手にビルドされて URL が出てくる、あの世界です。ところが仕事のプロジェクトのデプロイ先は AWS。…"
         },
         {
-          "title": "Amazon ECS の ECSpresso の機能",
-          "link": "https://dev.classmethod.jp/articles/about-ecspresso-kr/",
-          "source": "DevelopersIO",
-          "published": "2026-09-02T07:36:31",
-          "excerpt": "ECS を使用して ECS を使用し、ecspresso を使用します。글입니다…"
-        },
-        {
-          "title": "【AWSインフラ設計】Route 53 × NLB静的EIP × Multi-AZによる固定IPホワイトリスト＆高スループットTCP基盤の実装パターン",
-          "link": "https://qiita.com/mooreyxia/items/9da46a519dd700d28942",
+          "title": "【AWS CloudFormation】Express modeとStandard modeをCloudFrontで比べてみる",
+          "link": "https://qiita.com/miruky/items/6099f605af4ff4cedc30",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-02T07:18:36",
-          "excerpt": "📌 はじめに 金融機関や大手エンタープライズ企業とのB2Bシステム間連携において、接続先エンドポイントに**「固定IPアドレスによるファイアウォール（FW）ホワイトリスト登録」**を要求されるケースは非常に多く存在します。…"
+          "published": "2026-09-02T10:12:23",
+          "excerpt": "はじめに こんばんは、mirukyです。CloudFormationのExpress modeは、リソースへ設定を適用した時点でスタック操作を完了します。…"
+        },
+        {
+          "title": "ECS デプロイパイプラインと構成管理を GitHub Actionsと ecspresso に移行しました",
+          "link": "https://zenn.dev/mybest_dev/articles/2cd71bc64ad380",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-02T09:00:32",
+          "excerpt": "マイベスト1人目の専任 SRE の秋吉です。ポメラニアンと暮らしています。概要 マイベストでは、ステージング環境を含めて100個弱の ECS サービスを運用しています。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。はじめに 以前、【図解あり】SnowflakeのStorage Integrationとは？5分で理解するS3連携の仕組みという記事で、Storage Integrationの役割について書きました。…",
+      "summary": "セキュリティの新着が11件。三井不動産は9月1日、同社グループが利用する一部システムが不正アクセスを受け、役職員や社外関係者の個人情報が最大5万5000件、外部に漏えいした可能性があると発表した。",
       "articles": [
+        {
+          "title": "三井不動産に不正アクセス　社員・社外関係者の情報最大5万5000件漏えいか",
+          "link": "https://www.itmedia.co.jp/news/article/2609/02/2000001091/",
+          "source": "ITmedia NEWS",
+          "published": "2026-09-02T09:50:53",
+          "excerpt": "三井不動産は9月1日、同社グループが利用する一部システムが不正アクセスを受け、役職員や社外関係者の個人情報が最大5万5000件、外部に漏えいした可能性があると発表した。"
+        },
         {
           "title": "SnowflakeのStorage Integrationをもう一歩深掘りしてみた ～IAMロールとの信頼関係・GCS/Azure対応・複数クラウド設定まで～",
           "link": "https://qiita.com/Sho5_Matsu/items/c4e1b8c66b950d17b311",
@@ -99,20 +106,13 @@
           "source": "CodeZine",
           "published": "2026-09-02T05:30:00",
           "excerpt": "Google Drive、ブラウザ内で暗号化されたPDFや画像のプレビューが可能に"
-        },
-        {
-          "title": "AIのデリバリー層としてのLINE — 認証境界・排他制御・データ所在で特集を読み直す",
-          "link": "https://zenn.dev/xim2jp_tokyo/articles/beac4c2a6dade6",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-02T04:59:54",
-          "excerpt": "生成AIの導入で詰まるのはモデルではなくデリバリー層だ、という立場で全7章の「LINEプラットフォーム」特集を書いた。その動機を説明するブログ記事を公開したので、ここでは設計論点だけを圧縮する。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が11件。2025年11月に追加された ALB のヘルスチェックログ機能を活用し、ターゲットの状態を詳しく分析。CloudFormation と Amazon Athena での設定方法を詳解。",
+      "summary": "データ分析の新着が10件。2025年11月に追加された ALB のヘルスチェックログ機能を活用し、ターゲットの状態を詳しく分析。CloudFormation と Amazon Athena での設定方法を詳解。",
       "articles": [
         {
           "title": "ALB ヘルスチェックログを Athena で検索できるようにする | MOTEX TECH BLOG",
@@ -147,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。GitHubは2026年9月1日、GitHub CLIにローカルの画像や動画をアップロードできる--attachフラグを追加したと発表した。",
+      "summary": "開発ツールの新着が14件。1.はじめに オントロジーの学習を始めた。…",
       "articles": [
         {
-          "title": "GitHub CLIに​-​-​​attachフラグ、コマンドラインからIssueやPull Requestへ画像・動画を添付可能に",
-          "link": "https://gihyo.jp/article/2026/09/github-cli-attach-flag?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-09-02T07:47:00",
-          "excerpt": "GitHubは2026年9月1日、GitHub CLIにローカルの画像や動画をアップロードできる--attachフラグを追加したと発表した。"
-        },
-        {
-          "title": "MediaConvert の Video Passthrough で映像フレームは保持されるのか、FFmpeg で比較してみた",
-          "link": "https://dev.classmethod.jp/articles/mediaconvert-video-passthrough-frame-comparison/",
-          "source": "DevelopersIO",
-          "published": "2026-09-02T07:30:15",
-          "excerpt": "AWS Elemental MediaConvert の Video Passthrough 機能を使用して、H.264 / MP4 入力を MP4 へ再パッケージ化した際に、映像フレームが本当に保持されているかを複数の方法で検証しました。…"
-        },
-        {
-          "title": "【AWS】EC2にSpring Bootアプリをデプロイする際に行った最低限のセキュリティ対策",
-          "link": "https://qiita.com/wakinoza/items/c5e5f81fc2c243fafbbb",
+          "title": "Context Ontology Accelerator (COA) を使ってみる #1： デプロイと動作確認",
+          "link": "https://qiita.com/mksamba/items/bc18e35b407b15d1f630",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-02T06:39:14",
-          "excerpt": "はじめに AWSの学習のため、自作Spring BootアプリをAWS上に段階的にデプロイしています。この記事では、個人開発時に実装した最低限のセキュリティ対策を説明します。間違い等あれば、指摘いただけると助かります。…"
+          "published": "2026-09-02T12:46:38",
+          "excerpt": "1.はじめに オントロジーの学習を始めた。…"
         },
         {
-          "title": "【AWSマルチアカウント設計】Route 53 Private Hosted ZoneをクロスアカウントVPCへ関連付ける標準2ステップ手順（CLI実装付き）",
-          "link": "https://qiita.com/mooreyxia/items/7669ee1710394ed7c3da",
+          "title": "AWSデプロイ後に見る3画面メモ（CloudFormation / Lambda / CloudWatch）",
+          "link": "https://qiita.com/inoyu-qiita/items/265f457ecbdede41cd52",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-02T05:10:57",
-          "excerpt": "📌 はじめに AWSのマルチアカウント環境において、ネットワーク基盤や共通DNSを一元管理するアカウント（共通インフラアカウント）と、アプリケーションを稼働させるワークロードアカウントを分離する構成は一般的です。…"
+          "published": "2026-09-02T11:34:28",
+          "excerpt": "はじめに デプロイといえば Vercel しか触ったことがありませんでした。git push したら勝手にビルドされて URL が出てくる、あの世界です。ところが仕事のプロジェクトのデプロイ先は AWS。…"
+        },
+        {
+          "title": "【AWS CloudFormation】Express modeとStandard modeをCloudFrontで比べてみる",
+          "link": "https://qiita.com/miruky/items/6099f605af4ff4cedc30",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-02T10:12:23",
+          "excerpt": "はじめに こんばんは、mirukyです。CloudFormationのExpress modeは、リソースへ設定を適用した時点でスタック操作を完了します。…"
+        },
+        {
+          "title": "plan前にやるべき地味な確認、terraform fmt と validate",
+          "link": "https://zenn.dev/yasutomo7974/articles/terraform-fmt-validate",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-02T10:04:04",
+          "excerpt": "おはようございます、YASUです。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "英国のサイバー法案はAIを構築するベンダーではなくAIユーザーをターゲットにしている",
-      "link": "https://www.theregister.com/security/2026/09/02/uk-cyber-bill-targets-ai-users-not-the-vendors-building-it/5293738",
+      "title": "AWSとAzureが最大100Gbpsでの相互接続を開始。これでAWSはAzure、Google Cloud、Oracle Cloudとのマルチクラウドをサポート",
+      "link": "https://www.publickey1.jp/blog/26/awsazure100gbpsawsazuregoogle_cloudoracle_cloud.html",
+      "source": "Publickey",
+      "published": "2026-09-02T15:53:23",
+      "excerpt": "Amzon Web Services（AWS）とマイクロソフトは、両社が協力してAWSとMicrosoft Azureを最大100Gbpsの高速な閉域網で相互接続することを発表しました（AWSの発表、マイクロソフトの発表）。両社ともにプレ.…"
+    },
+    {
+      "title": "ボットの振る舞いを動的に学習して防御を改善し続ける、「Adaptive Intelligence」ボット検出エンジン、Cloudflareが発表",
+      "link": "https://www.publickey1.jp/blog/26/adaptive_intelligencecloudflare.html",
+      "source": "Publickey",
+      "published": "2026-09-02T15:48:38",
+      "excerpt": "Cloudflareは、ボットの侵入手段を同社のネットワーク全体から動的に学習し、防御を継続的に改善し続ける「Adaptive Intelligence」という仕組みを採用した新しいボット検出エンジンを発表しました。Cloudflare&.…"
+    },
+    {
+      "title": "キャンセルされた TrueNAS Core の FreeBSD 15 へのアップグレードの派生",
+      "link": "https://www.theregister.com/storage/2026/09/02/offshoots-of-cancelled-truenas-core-upgrade-to-freebsd-15/5293725",
       "source": "The Register（英語）",
-      "published": "2026-09-02T09:44:00",
-      "excerpt": "大臣らは提案されているレッドラインと緊急停止権限を拒否し、代わりに自主的な安全策を指摘"
+      "published": "2026-09-02T13:49:00",
+      "excerpt": "zVault ステージを右から実行します。FreeCORE と BSDnas に入る…"
     },
     {
-      "title": "【macOS】pipxで環境構築を行うとpythonのPATHも変更される",
-      "link": "https://dev.classmethod.jp/articles/env-macos-pipx-python-path-20260902/",
-      "source": "DevelopersIO",
-      "published": "2026-09-02T09:31:36",
-      "excerpt": "おはようございます。gio です。以前 pipx を使った環境構築を行ったのですが、いつの間にか python の PATH の変更が行われていたのでその調査内容を共有いたします。…"
-    },
-    {
-      "title": "英国のデジタル ID は死んだかもしれないが、その伝統的な IT 問題は生き続けている",
-      "link": "https://www.theregister.com/public-sector/2026/09/02/uk-digital-id-may-be-dead-but-its-legacy-it-problem-lives-on/5293677",
-      "source": "The Register（英語）",
-      "published": "2026-09-02T09:03:00",
-      "excerpt": "支出監視団体は、断片化したデータと一貫性のない基準が今後のあらゆる試みを制約すると述べている"
-    },
-    {
-      "title": "委託業者が無断でAI利用か――ヨルシカ、ライブ映像上映会のチケットサンプル画像が文字化け　デザインにも影響",
-      "link": "https://www.itmedia.co.jp/news/article/2609/02/2000001082/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-02T08:49:15",
-      "excerpt": "音楽ユニット「ヨルシカ」の公式Xは9月1日、ライブ映像作品「ヨルシカ LIVE『盗作』」のプレミアム上映会で配布するメモリアルチケットのサンプル画像に、Xの「AIで生成」ラベルが表示された件について経緯を説明した。…"
+      "title": "プロファイリングのための環境づくり",
+      "link": "https://zenn.dev/tosshi/articles/8ab01bc40f627a",
+      "source": "Zenn AWSトピック",
+      "published": "2026-09-02T13:24:23",
+      "excerpt": "はじめに LLM 推論周りのプロファイリングをしたいのでそのための環境を作りました。プロファイルを取った後に数 GB の .…"
     }
   ]
 }
