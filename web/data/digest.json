@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-02T05:13:05",
+  "generated_at": "2026-09-02T09:45:39",
   "window_hours": 24,
-  "total": 201,
+  "total": 200,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が30件。「AIチャットボットは面白いが、うちのお客さんは使わない」。事業者の方からよく返ってくる言葉で、ブラウザで開くAIに対しては正しい指摘です。…",
+      "summary": "生成AIの新着が28件。はじめに 以前、【図解あり】SnowflakeのStorage Integrationとは？5分で理解するS3連携の仕組みという記事で、Storage Integrationの役割について書きました。…",
       "articles": [
+        {
+          "title": "SnowflakeのStorage Integrationをもう一歩深掘りしてみた ～IAMロールとの信頼関係・GCS/Azure対応・複数クラウド設定まで～",
+          "link": "https://qiita.com/Sho5_Matsu/items/c4e1b8c66b950d17b311",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-02T08:18:38",
+          "excerpt": "はじめに 以前、【図解あり】SnowflakeのStorage Integrationとは？5分で理解するS3連携の仕組みという記事で、Storage Integrationの役割について書きました。…"
+        },
+        {
+          "title": "「AIエージェントキャッチアップ #90 - Agent Plugins」を開催しました | Generative Agents Tech Blog",
+          "link": "https://blog.generative-agents.co.jp/entry/2026/09/02/154502",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-02T06:45:02",
+          "excerpt": "ジェネラティブエージェンツの大嶋です。「AIエージェントキャッチアップ #90 - Agent Plugins」という勉強会を開催しました。generative-agents.connpass.com アーカイブ動画はこちらです。www.…"
+        },
         {
           "title": "LINEをAIチャットボットの「入口」にする — LIFF・Messaging API・Bedrockで組む最小構成と、初心者が詰まる4点",
           "link": "https://qiita.com/Xim2jp/items/5cecaa0ded256f778ce0",
@@ -22,97 +36,83 @@
           "source": "DevelopersIO",
           "published": "2026-09-02T04:56:53",
           "excerpt": "イベントなどで配布される AWS クレジットは、Bedrock で使うモデルによっては、その利用料が適用対象外となることがあります。SpaceXAI の Grok 4.…"
-        },
-        {
-          "title": "Claude Fable 5.1登場　値下げしながら性能を高めた仕組みとは",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/02/news066.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-09-02T02:45:00",
-          "excerpt": "AnthropicがAIモデルClaude Fable 5.1を発表した。コーディングや長時間の自律処理で前モデルを上回る性能を示す一方、利用コストは引き下げるという。相反しがちな性能向上と値下げを、同社はどう両立させたのか。"
-        },
-        {
-          "title": "ClaudeにSalesforceを統合した「Claudeforce」、AnthropicとSalesforceが発表。Claudeから営業データ分析や顧客対応を実現",
-          "link": "https://www.publickey1.jp/blog/26/claudesalesforceclaudeforceanthropicsalesforceclaude.html",
-          "source": "Publickey",
-          "published": "2026-09-02T02:43:59",
-          "excerpt": "SalesforceとAnthropicが「Claudeforce」を発表しました。第一弾となる「Salesforce in Claude」では、Claudeの画面からプロンプトを入力するだけで、Salesforceのデータやワークフロー.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。📌 はじめに AWSのマルチアカウント環境において、ネットワーク基盤や共通DNSを一元管理するアカウント（共通インフラアカウント）と、アプリケーションを稼働させるワークロードアカウントを分離する構成は一般的です。…",
+      "summary": "クラウドの新着が20件。Amazon WorkSpaces で Office 2021 から 2024 への移行を複数台（2台）で検証しました。前回の1台検証に続き、2台並列での展開方法とそのタイムラインを紹介します。",
       "articles": [
         {
-          "title": "【AWSマルチアカウント設計】Route 53 Private Hosted ZoneをクロスアカウントVPCへ関連付ける標準2ステップ手順（CLI実装付き）",
-          "link": "https://qiita.com/mooreyxia/items/7669ee1710394ed7c3da",
+          "title": "WorkSpaces の Office 2021 が EOL を迎えるので、2024 に移行した話（複数台まとめて実施編）",
+          "link": "https://dev.classmethod.jp/articles/multiple-workspaces-migrate-application-bundle/",
+          "source": "DevelopersIO",
+          "published": "2026-09-02T08:51:35",
+          "excerpt": "Amazon WorkSpaces で Office 2021 から 2024 への移行を複数台（2台）で検証しました。前回の1台検証に続き、2台並列での展開方法とそのタイムラインを紹介します。"
+        },
+        {
+          "title": "【AWS設計パターン】オリジンサーバー不要！Route 53 × CloudFront × Lambda@Edgeによる10ドメイン一括エッジリダイレクト基盤",
+          "link": "https://qiita.com/mooreyxia/items/81e485a43ff14d4ffa68",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-02T05:10:57",
-          "excerpt": "📌 はじめに AWSのマルチアカウント環境において、ネットワーク基盤や共通DNSを一元管理するアカウント（共通インフラアカウント）と、アプリケーションを稼働させるワークロードアカウントを分離する構成は一般的です。…"
+          "published": "2026-09-02T08:41:57",
+          "excerpt": "📌 はじめに 企業のマーケティングキャンペーンやブランド統合の際、複数の旧ドメインやキャンペーン用ドメイン（10個以上）を特定のターゲットURLへHTTP/HTTPS問わずリダイレクトさせたいケースが頻繁に発生します。…"
         },
         {
-          "title": "Rails × Aurora MySQL に gh-ost を導入する ― LOCK=NONE では守れなかった本番と、Aurora で踏んだ壁 | Spacely Tech Blog",
-          "link": "https://tech.spacely.co.jp/entry/2026/09/02/134816",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-02T04:48:16",
-          "excerpt": "株式会社スペースリー Railsエンジニアの大津です。以前、150万レコードを持つ画像テーブルの移行という記事で物件画像テーブルの統合を紹介しました。…"
+          "title": "Amazon ECS の ECSpresso の機能",
+          "link": "https://dev.classmethod.jp/articles/about-ecspresso-kr/",
+          "source": "DevelopersIO",
+          "published": "2026-09-02T07:36:31",
+          "excerpt": "ECS を使用して ECS を使用し、ecspresso を使用します。글입니다…"
         },
         {
-          "title": "Mountpoint for Amazon S3、メモリ使用量制御機能を追加",
-          "link": "https://codezine.jp/article/detail/29537",
-          "source": "CodeZine",
-          "published": "2026-09-02T04:00:00",
-          "excerpt": "Mountpoint for Amazon S3、メモリ使用量制御機能を追加"
-        },
-        {
-          "title": "desiredCount=1のECSでデプロイ中だけ503になったので、ローリング更新を見直した",
-          "link": "https://qiita.com/yu_AppliPark/items/c3b9f949e03f68871c48",
+          "title": "【AWSインフラ設計】Route 53 × NLB静的EIP × Multi-AZによる固定IPホワイトリスト＆高スループットTCP基盤の実装パターン",
+          "link": "https://qiita.com/mooreyxia/items/9da46a519dd700d28942",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-02T00:03:46",
-          "excerpt": "普段はバックエンド・インフラ寄りのエンジニアをしながら、 個人開発サイト Appli Park を運営しています。小さなWebアプリを作って公開しているので、よければ覗いてみてください。…"
+          "published": "2026-09-02T07:18:36",
+          "excerpt": "📌 はじめに 金融機関や大手エンタープライズ企業とのB2Bシステム間連携において、接続先エンドポイントに**「固定IPアドレスによるファイアウォール（FW）ホワイトリスト登録」**を要求されるケースは非常に多く存在します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。Vercelのproduction domainに、Next.js Middlewareを使った自前のBasic認証を実装してみました。Vercel標準のDeployment Protectionとの使い分けや、実装時の注意点をまとめます。",
+      "summary": "セキュリティの新着が14件。はじめに 以前、【図解あり】SnowflakeのStorage Integrationとは？5分で理解するS3連携の仕組みという記事で、Storage Integrationの役割について書きました。…",
       "articles": [
         {
-          "title": "Vercelの公開URLに、自前でBasic認証をかけてみた話",
-          "link": "https://dev.classmethod.jp/articles/how-to-setup-basic-auth-on-vercel/",
-          "source": "DevelopersIO",
-          "published": "2026-09-02T04:58:12",
-          "excerpt": "Vercelのproduction domainに、Next.js Middlewareを使った自前のBasic認証を実装してみました。Vercel標準のDeployment Protectionとの使い分けや、実装時の注意点をまとめます。"
+          "title": "SnowflakeのStorage Integrationをもう一歩深掘りしてみた ～IAMロールとの信頼関係・GCS/Azure対応・複数クラウド設定まで～",
+          "link": "https://qiita.com/Sho5_Matsu/items/c4e1b8c66b950d17b311",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-02T08:18:38",
+          "excerpt": "はじめに 以前、【図解あり】SnowflakeのStorage Integrationとは？5分で理解するS3連携の仕組みという記事で、Storage Integrationの役割について書きました。…"
         },
         {
-          "title": "PR： 「見えないOT資産、見えないセキュリティリスク」を解消する　IT/OTの分断を解消する方法とは",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/01/news005.html",
-          "source": "@IT",
-          "published": "2026-09-02T01:00:00",
-          "excerpt": "実態が把握できず、本社IT部門／情報セキュリティ部門が対策にも十分に介入できないことがOTセキュリティの難しいところだ。工場の稼働に影響を与えずに十分な対策をとる方法を探る。"
+          "title": "【AWS】EC2にSpring Bootアプリをデプロイする際に行った最低限のセキュリティ対策",
+          "link": "https://qiita.com/wakinoza/items/c5e5f81fc2c243fafbbb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-02T06:39:14",
+          "excerpt": "はじめに AWSの学習のため、自作Spring BootアプリをAWS上に段階的にデプロイしています。この記事では、個人開発時に実装した最低限のセキュリティ対策を説明します。間違い等あれば、指摘いただけると助かります。…"
         },
         {
-          "title": "連携とセキュリティへの取り組みを改善する",
-          "link": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-01T23:12:45",
-          "excerpt": "記事の URL: https://www.anthropic.com/news/improving-alignment-security-efforts コメント URL: https://news.ycombinator.…"
+          "title": "Google Drive、ブラウザ内で暗号化されたPDFや画像のプレビューが可能に",
+          "link": "https://codezine.jp/article/detail/29538",
+          "source": "CodeZine",
+          "published": "2026-09-02T05:30:00",
+          "excerpt": "Google Drive、ブラウザ内で暗号化されたPDFや画像のプレビューが可能に"
         },
         {
-          "title": "AI エージェントまたは人間による攻撃を受ける別の Artifactory CVE",
-          "link": "https://www.theregister.com/security/2026/09/01/another-artifactory-cve-under-attack-by-ai-agents-or-humans/5293769",
-          "source": "The Register（英語）",
-          "published": "2026-09-01T21:07:13",
-          "excerpt": "認証されていない侵入者が管理者トークンを鋳造する可能性があり、公開されたサーバーはすでに攻撃を受けています"
+          "title": "AIのデリバリー層としてのLINE — 認証境界・排他制御・データ所在で特集を読み直す",
+          "link": "https://zenn.dev/xim2jp_tokyo/articles/beac4c2a6dade6",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-02T04:59:54",
+          "excerpt": "生成AIの導入で詰まるのはモデルではなくデリバリー層だ、という立場で全7章の「LINEプラットフォーム」特集を書いた。その動機を説明するブログ記事を公開したので、ここでは設計論点だけを圧縮する。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が12件。2025年11月に追加された ALB のヘルスチェックログ機能を活用し、ターゲットの状態を詳しく分析。CloudFormation と Amazon Athena での設定方法を詳解。",
+      "summary": "データ分析の新着が11件。2025年11月に追加された ALB のヘルスチェックログ機能を活用し、ターゲットの状態を詳しく分析。CloudFormation と Amazon Athena での設定方法を詳解。",
       "articles": [
         {
           "title": "ALB ヘルスチェックログを Athena で検索できるようにする | MOTEX TECH BLOG",
@@ -147,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。📌 はじめに AWSのマルチアカウント環境において、ネットワーク基盤や共通DNSを一元管理するアカウント（共通インフラアカウント）と、アプリケーションを稼働させるワークロードアカウントを分離する構成は一般的です。…",
+      "summary": "開発ツールの新着が11件。GitHubは2026年9月1日、GitHub CLIにローカルの画像や動画をアップロードできる--attachフラグを追加したと発表した。",
       "articles": [
+        {
+          "title": "GitHub CLIに​-​-​​attachフラグ、コマンドラインからIssueやPull Requestへ画像・動画を添付可能に",
+          "link": "https://gihyo.jp/article/2026/09/github-cli-attach-flag?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-09-02T07:47:00",
+          "excerpt": "GitHubは2026年9月1日、GitHub CLIにローカルの画像や動画をアップロードできる--attachフラグを追加したと発表した。"
+        },
+        {
+          "title": "MediaConvert の Video Passthrough で映像フレームは保持されるのか、FFmpeg で比較してみた",
+          "link": "https://dev.classmethod.jp/articles/mediaconvert-video-passthrough-frame-comparison/",
+          "source": "DevelopersIO",
+          "published": "2026-09-02T07:30:15",
+          "excerpt": "AWS Elemental MediaConvert の Video Passthrough 機能を使用して、H.264 / MP4 入力を MP4 へ再パッケージ化した際に、映像フレームが本当に保持されているかを複数の方法で検証しました。…"
+        },
+        {
+          "title": "【AWS】EC2にSpring Bootアプリをデプロイする際に行った最低限のセキュリティ対策",
+          "link": "https://qiita.com/wakinoza/items/c5e5f81fc2c243fafbbb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-02T06:39:14",
+          "excerpt": "はじめに AWSの学習のため、自作Spring BootアプリをAWS上に段階的にデプロイしています。この記事では、個人開発時に実装した最低限のセキュリティ対策を説明します。間違い等あれば、指摘いただけると助かります。…"
+        },
         {
           "title": "【AWSマルチアカウント設計】Route 53 Private Hosted ZoneをクロスアカウントVPCへ関連付ける標準2ステップ手順（CLI実装付き）",
           "link": "https://qiita.com/mooreyxia/items/7669ee1710394ed7c3da",
           "source": "Qiita AWSタグ",
           "published": "2026-09-02T05:10:57",
           "excerpt": "📌 はじめに AWSのマルチアカウント環境において、ネットワーク基盤や共通DNSを一元管理するアカウント（共通インフラアカウント）と、アプリケーションを稼働させるワークロードアカウントを分離する構成は一般的です。…"
-        },
-        {
-          "title": "【AWS】IaC未経験者がTerraformを触ってみた",
-          "link": "https://qiita.com/UK-44/items/b9b47ecf5eba62943be3",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-02T04:20:33",
-          "excerpt": "はじめに これまで IaC を触る機会がなかったので、代表的なツールである Terraform を使用してAWSリソースを作成してみました。…"
-        },
-        {
-          "title": "desiredCount=1のECSでデプロイ中だけ503になったので、ローリング更新を見直した",
-          "link": "https://qiita.com/yu_AppliPark/items/c3b9f949e03f68871c48",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-02T00:03:46",
-          "excerpt": "普段はバックエンド・インフラ寄りのエンジニアをしながら、 個人開発サイト Appli Park を運営しています。小さなWebアプリを作って公開しているので、よければ覗いてみてください。…"
-        },
-        {
-          "title": "【さくらのクラウド】K3s上でOpenTelemetry eBPF Instrumentation(OBI)を検証しSDK自動計装との棲み分けを確認した | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/sakuracloud-monitoring-suite-k8s-ebpf-obi",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-02T00:00:00",
-          "excerpt": "さくらのクラウドの「モニタリングスイート」とOTel eBPF Instrumentation（OBI）を組み合わせ、K3s環境におけるeBPFベースの自動計装を検証。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "CloudWatch アラームの warm-up period で起動直後の誤発報を止めてみた | サーバーワークスエンジニアブログ",
-      "link": "https://blog.serverworks.co.jp/cloudwatch-alarm-warmup-period",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-02T05:00:00",
-      "excerpt": "今月誕生日の人、おめでとうございます🎉 エデュケーショナルサービス課の森純子です。新しいEC2やサービスを立ち上げた直後、まだメトリクスが出ていないのにアラームがデータ不足で発報してしまった。…"
+      "title": "英国のサイバー法案はAIを構築するベンダーではなくAIユーザーをターゲットにしている",
+      "link": "https://www.theregister.com/security/2026/09/02/uk-cyber-bill-targets-ai-users-not-the-vendors-building-it/5293738",
+      "source": "The Register（英語）",
+      "published": "2026-09-02T09:44:00",
+      "excerpt": "大臣らは提案されているレッドラインと緊急停止権限を拒否し、代わりに自主的な安全策を指摘"
     },
     {
-      "title": "「放射能問題、福島大には触らせたくない」で炎上した学歴系YouTuber、謝罪・動画削除も批判続く",
-      "link": "https://www.itmedia.co.jp/news/article/2609/02/2000001067/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-02T04:57:36",
-      "excerpt": "学歴系YouTuberが「放射能とか原子力って、エネルギーで超重要な問題なわけですよ。福島大には触らせたくない」と発言して炎上。"
-    },
-    {
-      "title": "ホテル・旅館滞在中の顧客体験を向上させるLINE公式アカウントとLINEミニアプリの活用方法",
-      "link": "https://dev.classmethod.jp/articles/hotel-line-oficial-account-and-line-miniapp-practical-use/",
+      "title": "【macOS】pipxで環境構築を行うとpythonのPATHも変更される",
+      "link": "https://dev.classmethod.jp/articles/env-macos-pipx-python-path-20260902/",
       "source": "DevelopersIO",
-      "published": "2026-09-02T04:54:58",
-      "excerpt": "ホテル・旅館の滞在中の顧客体験をLINE公式アカウントとLINEミニアプリで向上させる方法を検証しました。…"
+      "published": "2026-09-02T09:31:36",
+      "excerpt": "おはようございます。gio です。以前 pipx を使った環境構築を行ったのですが、いつの間にか python の PATH の変更が行われていたのでその調査内容を共有いたします。…"
     },
     {
-      "title": "Google CloudのOrganization・Projectについて理解する",
-      "link": "https://qiita.com/har1101/items/963dd521a75317c895e4",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-02T04:40:27",
-      "excerpt": "こんにちは、ふくちです。普段AWSを使っているんですが、最近Google Cloudを使う機会が増えてきました。ただAWSとは似ているようで違う部分も出てくるので、それを少しずつ整理していこうと思います。…"
+      "title": "英国のデジタル ID は死んだかもしれないが、その伝統的な IT 問題は生き続けている",
+      "link": "https://www.theregister.com/public-sector/2026/09/02/uk-digital-id-may-be-dead-but-its-legacy-it-problem-lives-on/5293677",
+      "source": "The Register（英語）",
+      "published": "2026-09-02T09:03:00",
+      "excerpt": "支出監視団体は、断片化したデータと一貫性のない基準が今後のあらゆる試みを制約すると述べている"
+    },
+    {
+      "title": "委託業者が無断でAI利用か――ヨルシカ、ライブ映像上映会のチケットサンプル画像が文字化け　デザインにも影響",
+      "link": "https://www.itmedia.co.jp/news/article/2609/02/2000001082/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-02T08:49:15",
+      "excerpt": "音楽ユニット「ヨルシカ」の公式Xは9月1日、ライブ映像作品「ヨルシカ LIVE『盗作』」のプレミアム上映会で配布するメモリアルチケットのサンプル画像に、Xの「AIで生成」ラベルが表示された件について経緯を説明した。…"
     }
   ]
 }
