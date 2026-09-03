@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-09-03T05:17:21",
+  "generated_at": "2026-09-03T09:58:28",
   "window_hours": 24,
-  "total": 193,
+  "total": 187,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が31件。はじめに 先に白状します。この記事は失敗談だけです。…",
+      "summary": "生成AIの新着が37件。2026 年 8 月 24 日週に私が最も興味を持ったニュースは、DuckLabs の買収でした。AWS は、 […]",
       "articles": [
         {
-          "title": "Bedrock Model Distillation と RFT に5回投入して全部失敗した話",
-          "link": "https://qiita.com/shimitaro/items/f60754ad633df81fb80c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-03T04:53:53",
-          "excerpt": "はじめに 先に白状します。この記事は失敗談だけです。…"
+          "title": "AWS ウィークリー総まとめ: DuckLabs のチームへようこそ、エージェント・リソース・ディスカバリー (ARD) など (2026 年 8 月 31 日)",
+          "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-09-03T08:36:21",
+          "excerpt": "2026 年 8 月 24 日週に私が最も興味を持ったニュースは、DuckLabs の買収でした。AWS は、 […]"
         },
         {
-          "title": "【ガバメントクラウド対応】検証済みの最新Agentバージョンを1週間後に全台展開する自動サイクル",
-          "link": "https://qiita.com/CloudMonkeyV/items/0cee6d859bf11839f130",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-03T04:35:08",
-          "excerpt": "はじめに ガバメントクラウド上のマルチアカウントでインフラ運用保守を担当している窪田 修太です。…"
-        },
-        {
-          "title": "Claudeの“見えない透かし”運用開始　Fable 5.1とMythos 5.1が出力する文やコード、画像に付与　日本も対象",
-          "link": "https://www.itmedia.co.jp/news/article/2609/03/2000001110/",
-          "source": "ITmedia NEWS",
-          "published": "2026-09-03T04:25:20",
-          "excerpt": "米Anthropicが「Claude」の出力に埋め込むと予告していた機械可読な透かしが、9月1日（現地時間）提供開始の最新モデル「Claude Fable 5.1」と「Claude Mythos 5.1」で有効になった。…"
-        },
-        {
-          "title": "Claude Enterprise の組織設定をどう決めるか、セキュリティポリシーから考えてみた",
-          "link": "https://dev.classmethod.jp/articles/claude-enterprise-org-settings-security-policy/",
+          "title": "【小ネタ】SCP のリージョン制限から Bedrock の Global クロスリージョン推論だけ許可するように設定してみた",
+          "link": "https://dev.classmethod.jp/articles/scp-region-deny-bedrock-global-cross-region-inference-unspecified/",
           "source": "DevelopersIO",
-          "published": "2026-09-03T04:17:37",
-          "excerpt": "Claude を組織に導入する際のセキュリティ設定やガバナンスについて、Enterprise プランで利用できる管理機能と Claude Code の Managed settings を整理し、実際のセキュリティポリシーをどう設定に落とし…"
+          "published": "2026-09-03T08:25:03",
+          "excerpt": "Control Tower のリージョン制限がかかった環境で Bedrock の Global クロスリージョン推論を使おうとしてエラーになった経験はありませんか？"
+        },
+        {
+          "title": "トランプ政権「記事のAI学習は著作権侵害ではない」　OpenAIを支持する意見書、対New York Timesなどとの訴訟で",
+          "link": "https://www.itmedia.co.jp/news/article/2609/03/2000001130/",
+          "source": "ITmedia NEWS",
+          "published": "2026-09-03T08:20:04",
+          "excerpt": "「著作権で保護された文章をLLMの学習に利用することはフェアユース（公正利用）に当たり、著作権法に違反しない」"
+        },
+        {
+          "title": "ニューヨーク市、公立校で生成AI利用を1年間禁止　8年生まで約60万人が対象",
+          "link": "https://www.itmedia.co.jp/news/article/2609/03/2000001115/",
+          "source": "ITmedia NEWS",
+          "published": "2026-09-03T08:13:59",
+          "excerpt": "米ニューヨーク市は9月2日（現地時間）、公立学校の児童・生徒による生成AIの利用を、今後1年間禁止すると発表した。対象は2歳児（就学前教育）から8年生（13?14歳）まで。約60万人に影響するという。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。AWS Lambda の SnapStart がコンテナイメージ関数に対応しました。Next.…",
+      "summary": "クラウドの新着が20件。現在、AWS Graviton5 プロセッサを搭載した Amazon EC2 の R9g インスタンスと R […]",
       "articles": [
         {
-          "title": "Lambda SnapStart のコンテナイメージ対応を Next.js + Lambda Web Adapter で試してみた",
-          "link": "https://dev.classmethod.jp/articles/nextjs-lambda-web-adapter-snapstart/",
-          "source": "DevelopersIO",
-          "published": "2026-09-03T03:28:18",
-          "excerpt": "AWS Lambda の SnapStart がコンテナイメージ関数に対応しました。Next.…"
-        },
-        {
-          "title": "「どう動く」「どう使う」が理解できる Aurora DSQL 事例セミナー開催",
-          "link": "https://aws.amazon.com/jp/blogs/news/dsql_day_tokyo_2026/",
+          "title": "AWS Graviton5 プロセッサを搭載した Amazon EC2 の R9g インスタンスと R9gd インスタンスが一般公開されました",
+          "link": "https://aws.amazon.com/jp/blogs/news/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
           "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-09-03T02:54:53",
-          "excerpt": "イベント概要 Amazon Aurora DSQL に関心をお持ちのお客様に向けて、「Aurora DSQL […]"
+          "published": "2026-09-03T09:15:06",
+          "excerpt": "現在、AWS Graviton5 プロセッサを搭載した Amazon EC2 の R9g インスタンスと R […]"
         },
         {
-          "title": "【AWS大規模移行設計】Application Discovery Service × Migration Hubによる資産棚卸し・サイジング・依存関係可視化の標準パイプライン",
-          "link": "https://qiita.com/mooreyxia/items/fb94964573b0d7841cdb",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-03T02:21:19",
-          "excerpt": "📌 はじめに 数百〜数千台規模のオンプレミス仮想マシンや物理サーバーをAWSへ移行する際、最も重大な障害リスクとなるのが**「把握しきれていないサーバー間ネットワーク依存関係」と「オンプレミスの過剰スペックをそのままリフトすることによるコス…"
+          "title": "英国の風力発電がマースクのコンテナ船を動かす",
+          "link": "https://www.theregister.com/offbeat/2026/09/03/british-wind-power-to-drive-maersk-container-ship/5293962",
+          "source": "The Register（英語）",
+          "published": "2026-09-03T08:30:00",
+          "excerpt": "ローターセイルは燃料と排出ガスを 21% 削減すると主張"
         },
         {
-          "title": "Amazon QuickからEC2上のMySQLにVPC接続する方法",
-          "link": "https://qiita.com/k-mizuno-aws/items/db65d3ad4f12e084ef08",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-03T00:25:25",
-          "excerpt": "はじめに この記事は「2026 Japan AWS Jr.Champions 真夏のQiitaリレー」の33日目の記事となります。過去の投稿（リンク集）・昨日の投稿は以下リンクからご覧ください。https://qiita.…"
+          "title": "オフラインProxmox環境にAWS Glueのローカル開発コンテナを構築する",
+          "link": "https://zenn.dev/nyondev/articles/proxmox-glue-docker-zenn-article",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-03T07:35:34",
+          "excerpt": "はじめに AWSのGlue/PySparkを使ったETLのハンズオンを、課金を最小限に抑えつつ「実務に近い環境」で試したいと考えました。目指したゴールはシンプルです。…"
+        },
+        {
+          "title": "VPCエンドポイントは「リソース」ではなく「サービス」につながる",
+          "link": "https://zenn.dev/terraform_log/articles/vpc-endpoint-connects-to-service",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-03T07:26:37",
+          "excerpt": "「自分で作ってないS3に、なぜ届くの？」 VPCエンドポイントを初めて自分で書いたとき、どうしても飲み込めない疑問がありました。プライベートなEC2から、S3にアクセスできる。でも私は、そのS3バケットを自分で作っていません。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。Claude を組織に導入する際のセキュリティ設定やガバナンスについて、Enterprise プランで利用できる管理機能と Claude Code の Managed settings を整理し、実際のセキュリティポリシーをどう設定に落とし…",
+      "summary": "セキュリティの新着が9件。Anthropicが、厳格なデータ保護を必要とする企業向けに、セキュリティとプライバシーを両立するサービスを発表した。入力データや利用履歴などのデータが顧客環境から出ることはない。…",
       "articles": [
+        {
+          "title": "AnthropicがフロンティアAIセキュリティサービス「EFS」を発表　履歴データを顧客環境に保持しながら自動監視で誤用を検知",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/03/news087.html",
+          "source": "@IT",
+          "published": "2026-09-03T05:42:00",
+          "excerpt": "Anthropicが、厳格なデータ保護を必要とする企業向けに、セキュリティとプライバシーを両立するサービスを発表した。入力データや利用履歴などのデータが顧客環境から出ることはない。…"
+        },
         {
           "title": "Claude Enterprise の組織設定をどう決めるか、セキュリティポリシーから考えてみた",
           "link": "https://dev.classmethod.jp/articles/claude-enterprise-org-settings-security-policy/",
@@ -99,56 +106,63 @@
           "source": "CodeZine",
           "published": "2026-09-03T02:45:00",
           "excerpt": "NECとAnthropic、フロンティアAI活用でサイバーセキュリティ強化の協業を拡大"
-        },
-        {
-          "title": "[アップデート] Kiro が AWS の ISO/IEC 27001 認証スコープに含まれるようになりました",
-          "link": "https://dev.classmethod.jp/articles/kiro-iso-iec-27001/",
-          "source": "DevelopersIO",
-          "published": "2026-09-03T00:31:59",
-          "excerpt": "Kiro が AWS の ISO/IEC 27001:2022 認証の対象に加わりました。認証の仕組みや競合他社との比較を含めて、これが組織導入時にどう役立つのか確認していきます。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。はじめに Amazon Quickでは、2026/5/8のアップデートにより、Quickとは別のAWSアカウントにあるAthenaをデータソースとして利用できるようになっています。…",
+      "summary": "データ分析の新着が7件。はじめに AWSのGlue/PySparkを使ったETLのハンズオンを、課金を最小限に抑えつつ「実務に近い環境」で試したいと考えました。目指したゴールはシンプルです。…",
       "articles": [
+        {
+          "title": "オフラインProxmox環境にAWS Glueのローカル開発コンテナを構築する",
+          "link": "https://zenn.dev/nyondev/articles/proxmox-glue-docker-zenn-article",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-03T07:35:34",
+          "excerpt": "はじめに AWSのGlue/PySparkを使ったETLのハンズオンを、課金を最小限に抑えつつ「実務に近い環境」で試したいと考えました。目指したゴールはシンプルです。…"
+        },
+        {
+          "title": "AWS未経験から、物販の在庫管理をサーバーレスで自動化してみた話(DynamoDB・文字コードエラーとの格闘記)",
+          "link": "https://qiita.com/cloud-nao/items/f900cb4c92108223812c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-03T06:55:59",
+          "excerpt": "はじめに 普段はL1アラート監視・ジョブスケジューラー運用の業務をしていますが、副業でスポーツ用品(ラケット・ラバーなど)の販売も行っています。…"
+        },
+        {
+          "title": "Amazon Redshift が Apache Iceberg v3 テーブルをサポートしたので rg.large で試してみた",
+          "link": "https://dev.classmethod.jp/articles/redshift-iceberg-v3-tables-rg-large/",
+          "source": "DevelopersIO",
+          "published": "2026-09-03T05:29:05",
+          "excerpt": "Amazon Redshift が Apache Iceberg v3 テーブルの読み書きに対応しました。RG インスタンスタイプの rg.…"
+        },
         {
           "title": "Quickデータソース作成ではまった話 ~クロスアカウントAthenaアクセス~",
           "link": "https://qiita.com/hi_carbo/items/eafb15ecbcff2dbe9966",
           "source": "Qiita AWSタグ",
           "published": "2026-09-02T23:23:50",
           "excerpt": "はじめに Amazon Quickでは、2026/5/8のアップデートにより、Quickとは別のAWSアカウントにあるAthenaをデータソースとして利用できるようになっています。…"
-        },
-        {
-          "title": "DatadogがAIエージェント時代の運用基盤を強化、自律型「Bits AI」で検知から修復まで自動化",
-          "link": "https://codezine.jp/article/detail/29476",
-          "source": "CodeZine",
-          "published": "2026-09-02T22:00:00",
-          "excerpt": "DatadogがAIエージェント時代の運用基盤を強化、自律型「Bits AI」で検知から修復まで自動化"
-        },
-        {
-          "title": "Kinesis Data Streams の新機能 「Streaming tables」 で S3 Tables への直接配信を試してみた",
-          "link": "https://dev.classmethod.jp/articles/kinesis-data-streams-streaming-tables-s3-tables/",
-          "source": "DevelopersIO",
-          "published": "2026-09-02T19:10:09",
-          "excerpt": "Amazon Kinesis Data Streams が Streaming tables を発表し、ストリームのデータを S3 Tables 上の Apache Iceberg テーブルへ直接配信できるようになりました。…"
-        },
-        {
-          "title": "Firefox と Thunderbird が隔週リリースのトレッドミルに登場",
-          "link": "https://www.theregister.com/software/2026/09/02/firefox-and-thunderbird-hit-the-fortnightly-release-treadmill/5293953",
-          "source": "The Register（英語）",
-          "published": "2026-09-02T14:53:46",
-          "excerpt": "ペースが速すぎる場合は自動更新を無効にしないでください – それが ESR の目的です"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。ヌーラボの開発者が、Backlogをターミナルから操作できるCLIツール「bee」を独自に開発し、オープンソースとして公開した。課題管理やWikiなど90超のサブコマンドを備え、AIエージェントからの操作にも対応するという。",
+      "summary": "開発ツールの新着が12件。単一のEC2を、章ごとに機能を足して3層Webアプリへ育てる記録。「動いた」ではなく、一行ごとに「なぜこう書いたか」を説明できることを目指します。資格はあるが手を動かした経験のない状態からの実践です。",
       "articles": [
+        {
+          "title": "Terraformで3層Webアプリを育てる —— 資格は取った、けれど作ったことはなかった",
+          "link": "https://zenn.dev/terraform_log/books/terraform-3tier-web",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-03T05:50:55",
+          "excerpt": "単一のEC2を、章ごとに機能を足して3層Webアプリへ育てる記録。「動いた」ではなく、一行ごとに「なぜこう書いたか」を説明できることを目指します。資格はあるが手を動かした経験のない状態からの実践です。"
+        },
+        {
+          "title": "GitHub、ユーザーごとの個別予算に有効期限設定機能を追加",
+          "link": "https://codezine.jp/article/detail/29552",
+          "source": "CodeZine",
+          "published": "2026-09-03T05:30:00",
+          "excerpt": "GitHub、ユーザーごとの個別予算に有効期限設定機能を追加"
+        },
         {
           "title": "BacklogをCLIから操作　ヌーラボ開発者が「bee」をOSSで公開",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/03/news027.html",
@@ -162,52 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-09-03T00:39:37",
           "excerpt": "Public Preview で対応した4リージョンについて、Environment の状態と選べる帯域を AWS CLI で確認し、Connection の作成前に決めることを整理します。"
-        },
-        {
-          "title": "【Secrets Manager】terraform destroy したのに secret が作り直せない話",
-          "link": "https://qiita.com/80-cloud/items/033e7495a5cf382b1ad8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-03T00:15:27",
-          "excerpt": "はじめに CD パイプラインを通して terraform apply を回したら、VPC や ALB は問題なく作られたのに、Secrets Manager の secret 作成だけがエラーで止まりました。…"
-        },
-        {
-          "title": "GitHub CopilotでClaude Fable 5.1が利用可能に",
-          "link": "https://codezine.jp/article/detail/29547",
-          "source": "CodeZine",
-          "published": "2026-09-02T23:00:00",
-          "excerpt": "GitHub CopilotでClaude Fable 5.1が利用可能に"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Adobe、Slackから「Photoshop」などのツールを使える「Adobe for Slack」提供開始　会話からPDFや動画を生成",
-      "link": "https://www.itmedia.co.jp/news/article/2609/03/2000001114/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-03T04:51:58",
-      "excerpt": "Adobeは、Slack上で「Photoshop」や「Firefly」など70種以上のツールを使える「Adobe for Slack」の提供を開始した。…"
+      "title": "英国のオンライン安全法は「まったく変化がない」と子供たちは言う",
+      "link": "https://www.theregister.com/security/2026/09/03/uks-online-safety-act-has-made-absolutely-no-difference-kids-say/5293893",
+      "source": "The Register（英語）",
+      "published": "2026-09-03T09:14:00",
+      "excerpt": "児童委員も一連の失敗でオフコムに激怒"
     },
     {
-      "title": "「空いてる号車はこちら」駅の床に投影　東京メトロが実験、シャープの技術採用",
-      "link": "https://www.itmedia.co.jp/news/article/2609/03/2000001112/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-03T04:44:07",
-      "excerpt": "「空いてる号車はこちら」駅の床に投影　東京メトロが実験、シャープの技術採用"
-    },
-    {
-      "title": "楽天にGMO……防衛産業に近づく民間IT企業　反発の声も",
-      "link": "https://www.itmedia.co.jp/news/article/2609/02/2000001041/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-03T03:15:01",
-      "excerpt": "AIやドローンを中心とした防衛関連産業の加速に伴い、同様の事業への関与を強める企業が増えている。一方、戦争や虐殺の懸念につながるとして、こうした動きに反発する企業やユーザーも見られる。"
-    },
-    {
-      "title": "【AWS】新資格「AWS Certified AI Business Strategist」登場！公式問題20問解いてみた(AIB-C01)",
-      "link": "https://qiita.com/Ryuki4648/items/5eb54d26cfeeb81770d3",
+      "title": "【みんな大好き】AWSのCloudWatchでログインの必要なサイトの正常性を監視する02【CloudWatch】",
+      "link": "https://qiita.com/hidekko/items/2a856136f51a24f15d00",
       "source": "Qiita AWSタグ",
-      "published": "2026-09-03T03:04:33",
-      "excerpt": "目次 新資格の発表 概要 試験ガイド ベータ試験とは 模擬試験 模擬試験を解いてみた 結果 日本語訳を使う際の注意点 新資格の発表 2026年9月1日、AWSから新しい認定資格 「AWS Certified AI Business Stra…"
+      "published": "2026-09-03T08:41:09",
+      "excerpt": "前回の記事の続きです。やっと本体の監視基盤の構築です。構成図 全体の構成図はこの通り変わりありませんが、今回は以下の赤枠内のAWS側を設定します。監視基盤構築 では早速AWSの監視基盤を構築します。…"
+    },
+    {
+      "title": "WebMCPがアツいので見てほしい",
+      "link": "https://dev.classmethod.jp/articles/webmcp-introduction/",
+      "source": "DevelopersIO",
+      "published": "2026-09-03T08:28:54",
+      "excerpt": "WebMCPがアチアチという話"
+    },
+    {
+      "title": "AWS からの請求書 PDF をメールで受け取る方法を教えてください",
+      "link": "https://dev.classmethod.jp/articles/tsnote-aws-pdf-invoice-email-delivery/",
+      "source": "DevelopersIO",
+      "published": "2026-09-03T08:00:28",
+      "excerpt": "AWS から支払金額のメールは届くけど、請求内容の詳細が確認できないんですよね。経理処理や税理士への提出用に、AWS 請求書 PDF をメール配信する方法を紹介します。"
     }
   ]
 }
