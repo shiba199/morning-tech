@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-04T09:12:05",
+  "generated_at": "2026-09-04T13:37:28",
   "window_hours": 24,
-  "total": 204,
+  "total": 210,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。ワークスアプリケーションズの「HUE」がAI連携規格「MCP」に対応、AIエージェント活用を拡大",
+      "summary": "生成AIの新着が34件。GuardDuty の検知対応を AWS DevOps Agent で自動化した仕組みについて、勉強会での発表内容を共有します",
       "articles": [
+        {
+          "title": "GuardDuty 検知対応を DevOps Agent で効率化しようとしている話 #opsmethod 登壇資料",
+          "link": "https://dev.classmethod.jp/articles/opsmethod-3-guardduty-with-devops-agent/",
+          "source": "DevelopersIO",
+          "published": "2026-09-04T12:00:11",
+          "excerpt": "GuardDuty の検知対応を AWS DevOps Agent で自動化した仕組みについて、勉強会での発表内容を共有します"
+        },
+        {
+          "title": "サントリー新商品の店頭POPに“生成AI疑惑”　成分表示にも誤りで物議……同社に事実関係を聞いた",
+          "link": "https://www.itmedia.co.jp/news/article/2609/04/2000001197/",
+          "source": "ITmedia NEWS",
+          "published": "2026-09-04T09:40:29",
+          "excerpt": "「サントリーの新商品の店頭POPが、生成AIで作られている」──Xでこんな投稿が話題だ。コンビニ内の店頭POPにある商品画像が独特の質感だったといい、成分表示も事実と異なっていたことから物議を醸している。…"
+        },
         {
           "title": "ワークスアプリケーションズの「HUE」がAI連携規格「MCP」に対応、AIエージェント活用を拡大",
           "link": "https://codezine.jp/article/detail/29587",
@@ -22,28 +36,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-04T07:50:38",
           "excerpt": "AWSのAIエージェント開発ツール「Kiro」のセッションログを外部から扱うために内部構造を調査した記録です。…"
-        },
-        {
-          "title": "AI推論時代のデータファブリック課題　Equinixが2つのサービスを発表",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/04/news089.html",
-          "source": "@IT",
-          "published": "2026-09-04T07:47:00",
-          "excerpt": "企業におけるAI推論のニーズは、単一のクラウドにユーザーがアクセスする従来型の構成だけでは満たしにくくなっている。分散するデータやAIモデルを低遅延で柔軟に接続する必要性に応えるとして、Equinixは2つのサービスを発表した。"
-        },
-        {
-          "title": "Kiro Crew - 自作のllm-wikiを、Kiro Crewの内蔵RAG（Knowledge Library）で作り直してみた",
-          "link": "https://qiita.com/REALKTMR/items/b289624c6fd143094ea7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-04T06:47:32",
-          "excerpt": "はじめに — 前回のおさらい 前回の第1部『Kiro Crew — AIエージェントを「チーム」として運用する新しいワークスタイル』では、Kiro Crew（Amazonが中心に開発するApache 2.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が28件。CloudFront Functions のテスト機能を使用して、HTTP ヘッダー名の大文字・小文字の扱いを確認してみました。イベントオブジェクト内でのヘッダー名の指定方法や、実装時の注意点をご紹介します。",
+      "summary": "クラウドの新着が27件。AWSの構成を調べていて、正直「RDSって何じゃい」となりました。調べた結論を先に書くと、RDSはAWSがPostgreSQLやMySQLを「運用込みで」貸してくれるサービスです。…",
       "articles": [
+        {
+          "title": "AWS RDSとは？ DBを運用込みで借りるサービス",
+          "link": "https://qiita.com/inoyu-qiita/items/536dfd5b335c96e7f32d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-04T09:48:42",
+          "excerpt": "AWSの構成を調べていて、正直「RDSって何じゃい」となりました。調べた結論を先に書くと、RDSはAWSがPostgreSQLやMySQLを「運用込みで」貸してくれるサービスです。…"
+        },
+        {
+          "title": "S3のバージョニングが無効なバケットで、ライフサイクルの削除ルールを正しく作る",
+          "link": "https://zenn.dev/cvl/articles/89de56f1a74aff",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-04T09:30:05",
+          "excerpt": "この記事で解決すること S3のライフサイクルルールで「◯日経ったオブジェクトを消す」を設定しようとしたとき、こんなところで手が止まったことはないでしょうか。…"
+        },
         {
           "title": "CloudFront Functions のテスト機能で HTTP ヘッダー名の大文字・小文字を確認してみた",
           "link": "https://dev.classmethod.jp/articles/cloudfront-functions-lowercase-header/",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-04T08:10:27",
           "excerpt": "📌 はじめに オンプレミスの VMware vSphere 環境で稼働している仮想マシンを AWS へ移行する際、最もシンプルかつ確実な手法が 「リホスト（Rehost / Lift-and-Shift）」 です。…"
-        },
-        {
-          "title": "Kiro（AWSのAIエージェント）のセッション保存構造を調べてみた ── ローカルJSONからサーバー側管理への移行まで",
-          "link": "https://qiita.com/caymezon/items/90dd0641f32dbffe6227",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-04T07:50:38",
-          "excerpt": "AWSのAIエージェント開発ツール「Kiro」のセッションログを外部から扱うために内部構造を調査した記録です。…"
-        },
-        {
-          "title": "[Typescript] Lambda SnapStart がコンテナイメージに対応したので試してみた [Rust]",
-          "link": "https://dev.classmethod.jp/articles/lambda-snapstart-container-benchmark/",
-          "source": "DevelopersIO",
-          "published": "2026-09-04T07:41:43",
-          "excerpt": "[AI要約] AWS Lambda SnapStart がコンテナイメージに対応。Rust・Node.js での実測結果から、Init 2秒以上で 68から90%以上 の cold start 削減を確認"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。はじめに 生成 AI の API キーを窃取され、高額請求につながったという話を耳にする機会が増えました。…",
+      "summary": "セキュリティの新着が8件。GuardDuty の検知対応を AWS DevOps Agent で自動化した仕組みについて、勉強会での発表内容を共有します",
       "articles": [
+        {
+          "title": "GuardDuty 検知対応を DevOps Agent で効率化しようとしている話 #opsmethod 登壇資料",
+          "link": "https://dev.classmethod.jp/articles/opsmethod-3-guardduty-with-devops-agent/",
+          "source": "DevelopersIO",
+          "published": "2026-09-04T12:00:11",
+          "excerpt": "GuardDuty の検知対応を AWS DevOps Agent で自動化した仕組みについて、勉強会での発表内容を共有します"
+        },
         {
           "title": "AWS 外のアプリケーションから Bedrock API をセキュアに呼び出す方法とセキュリティのポイント",
           "link": "https://zenn.dev/aws_japan/articles/bedrock-secure-external-access",
@@ -99,21 +106,28 @@
           "source": "DevelopersIO",
           "published": "2026-09-04T04:17:03",
           "excerpt": "Claude Code v2.1.259と260の2つのリリースで100件超の変更が入りました。権限ルール周りの重要な修正が多いほか、会話の横で差分を確認できる新しいパネルも登場しています。…"
-        },
-        {
-          "title": "GuardDuty の Custom Detection Rules は「ルールを書く」のではなく「この環境では異常」を定義する機能だった件",
-          "link": "https://zenn.dev/cscloud_blog/articles/guardduty-custom-detection-rules-use-case",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-04T00:39:45",
-          "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！GuardDuty に Custom Detection Rules という機能が追加されました。https://docs.…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。CloudTrail の S3 データイベントを Amazon Athena で直接クエリし、特定の IAM エンティティがどのオブジェクトに対してどの操作を行ったかを特定する方法を解説します。…",
+      "summary": "データ分析の新着が7件。Article URL: https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer Comments URL: https://news.…",
       "articles": [
+        {
+          "title": "SubImage (YC W25) Is Hiring a Founding Engineer in SF",
+          "link": "https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-04T12:01:07",
+          "excerpt": "Article URL: https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer Comments URL: https://news.…"
+        },
+        {
+          "title": "[アップデート] Amazon Redshift の rg.large インスタンスがシングルノードクラスターをサポートしました",
+          "link": "https://dev.classmethod.jp/articles/20260903-redshift-rg-large-single-node/",
+          "source": "DevelopersIO",
+          "published": "2026-09-04T11:00:26",
+          "excerpt": "AWS Graviton プロセッサ搭載の Amazon Redshift RG インスタンスが、シングルノード構成に対応しました。…"
+        },
         {
           "title": "Athena で CloudTrail ログ（S3 データイベント）を直接クエリして、IAM ユーザーやロールが操作したオブジェクトを特定する",
           "link": "https://dev.classmethod.jp/articles/aws-athena-cloudtrail-query-s3-dataevent/",
@@ -127,28 +141,28 @@
           "source": "CodeZine",
           "published": "2026-09-04T01:00:00",
           "excerpt": "これまでのデータベースは「人が使う」想定で設計されてきた。しかしいまはAIエージェントが自らクエリを投げて動く時代。データベースは「AIが使う」ようになり、超高速でデータが読み書きされる場所へと変わりつつある。…"
-        },
-        {
-          "title": "CERN が数千台のアクセラレータ制御コンピュータを Debian に移行",
-          "link": "https://www.theregister.com/os-platforms/2026/09/03/cern-moves-thousands-of-accelerator-control-computers-to-debian/5294312",
-          "source": "The Register（英語）",
-          "published": "2026-09-03T17:52:21",
-          "excerpt": "CentOS 8 の早期終了によって引き起こされた、これは Red Hat エコシステムにとって非常に目に見える損失です"
-        },
-        {
-          "title": "Amazon Redshift rg.large インスタンスが単一ノードクラスターをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/redshift-rg-large-single-node",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-03T16:03:00",
-          "excerpt": "AWS Graviton プロセッサを搭載した Amazon Redshift rg.large インスタンスが単一ノード クラスターをサポートするようになりました。rg.…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。👋 はじめに 開発環境向けの CDK デプロイ（GitHub Actions）を回したら、いつもは10分ちょっとで終わるはずが1時間経っても終わらず、最後は次のエラーで落ちました。…",
+      "summary": "開発ツールの新着が12件。The investigation was launched just a few hours after Tesla put the first production Cybercabs on the road in Austin.",
       "articles": [
+        {
+          "title": "Feds launch investigation into Tesla’s Cybercab deployment",
+          "link": "https://techcrunch.com/2026/09/04/feds-launch-investigation-into-teslas-cybercab-deployment/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-04T12:01:14",
+          "excerpt": "The investigation was launched just a few hours after Tesla put the first production Cybercabs on the road in Austin."
+        },
+        {
+          "title": "Github Actionsで他リポジトリのワークフローを実行する",
+          "link": "https://dev.classmethod.jp/articles/call-github-actions-workflow/",
+          "source": "DevelopersIO",
+          "published": "2026-09-04T09:30:04",
+          "excerpt": "別リポジトリのワークフローを実行したいときは、`workflow_dispatch`か`repository_dispatch`のどちらかをトリガーに指定することで実現できます。今回は、この2つの違いと使い分けについてまとめました。"
+        },
         {
           "title": "CDKデプロイが10分→1時間超に急になった話",
           "link": "https://qiita.com/Tom-Panasonic/items/9fa17278bf63982c66fb",
@@ -162,52 +176,38 @@
           "source": "CodeZine",
           "published": "2026-09-04T07:00:00",
           "excerpt": "GitHub Copilot、エンタープライズ管理の除外ポリシーに対応"
-        },
-        {
-          "title": "AWS Modular Data Center のデプロイ: 発注から配送、設置まで",
-          "link": "https://aws.amazon.com/jp/blogs/news/deploying-aws-modular-data-center-from-ordering-to-delivery-and-installation-jp/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-09-04T06:55:13",
-          "excerpt": "AWS Modular Data Center (MDC) は、ICD-705準拠のSCIF要件を満たし、最高機密(TS/SCI)レベルの情報も扱えるデータセンターを現地に迅速展開できるサービス。発注から設置までを6ステージで解説します。"
-        },
-        {
-          "title": "Grep が LSP に勝つ？コーディングエージェントがあなたの高性能ツールを無視する理由",
-          "link": "https://www.agentconnect.md/blog/grep-beat-lsp-harness/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-04T03:40:26",
-          "excerpt": "記事の URL: https://www.agentconnect.md/blog/grep-beat-lsp-harness/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "NemoHermes に Backlog でのタスク管理を任せてみる",
-      "link": "https://dev.classmethod.jp/articles/reona-03-dgx-spark-backlog-skill/",
-      "source": "DevelopersIO",
-      "published": "2026-09-04T08:51:49",
-      "excerpt": "エージェントに Backlog を操作させる仕組みを作りました。読み取り専用から始めて、削除は通さない粒度で更新を段階的に開き、実運用の改善ループを回していくまでの設計判断と、そこで見つかったセキュリティ上の落とし穴を紹介します。"
+      "title": "US military disabled ad tracking on troops’ devices following reports of targeted attacks",
+      "link": "https://techcrunch.com/2026/09/04/us-military-disabled-ad-tracking-on-troops-devices-following-reports-of-targeted-attacks/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-04T13:21:37",
+      "excerpt": "A senator's letter confirms the U.S.…"
     },
     {
-      "title": "配布前の「ちいかわ」グッズがメルカリに？　くら寿司コラボ第2弾、初日から“内部犯”の臆測呼ぶ　第1弾に続き",
-      "link": "https://www.itmedia.co.jp/news/article/2609/04/2000001194/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-04T08:39:47",
-      "excerpt": "くら寿司の「ちいかわ」コラボ第2弾が9月4日に始まった。しかしSNS上では、特典の湯呑みが配布開始前からフリマアプリ「メルカリ」に出品されていたと指摘する投稿が拡散。…"
-    },
-    {
-      "title": "Raspberry Pi インタラクティブ タイムライン · 2006 ～ 2026 年",
-      "link": "https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-history-timeline",
+      "title": "IBM Bob",
+      "link": "https://bob.ibm.com/",
       "source": "Hacker News（英語）",
-      "published": "2026-09-04T08:35:15",
-      "excerpt": "記事の URL: https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-history-timeline コメント URL: https://news.ycombinator.…"
+      "published": "2026-09-04T12:50:29",
+      "excerpt": "Article URL: https://bob.ibm.com/ Comments URL: https://news.ycombinator.com/item?id=49563851 Points: 18 # Comments: 12"
     },
     {
-      "title": "英国軍は、弾薬を切らさずにドローンの群れを阻止するためのレーザーを望んでいる",
-      "link": "https://www.theregister.com/offbeat/2026/09/04/uk-military-wants-lasers-to-stop-drone-swarms-without-running-out-of-ammo/5294176",
-      "source": "The Register（英語）",
-      "published": "2026-09-04T08:30:00",
-      "excerpt": "プロジェクト PANOPTES は自律型車両搭載型防衛システムに 500 万ポンドを投入"
+      "title": "Restoring 5 GHz Wi-Fi on an LG C5 by changing its webOS region",
+      "link": "https://github.com/hawshemi/lg-c5-webos25-region-change",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-04T12:49:44",
+      "excerpt": "Article URL: https://github.com/hawshemi/lg-c5-webos25-region-change Comments URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "Rocket Report: Engines installed for Artemis III; Long March 6C breakup in LEO",
+      "link": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-09-04T12:48:36",
+      "excerpt": "Two of Europe's leading launch startups announced new fundraising this week."
     }
   ]
 }
