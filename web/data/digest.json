@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-09-04T17:14:55",
+  "generated_at": "2026-09-04T19:43:05",
   "window_hours": 24,
-  "total": 208,
+  "total": 203,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。公開市場の監視は、利益と目的のバランスをとろうとするクロードメーカーの異例の試みに対する圧力を強めることになるだろう。",
+      "summary": "生成AIの新着が34件。https://archive.ph/3zcMG コメント URL: https://news.ycombinator.com/item?id=49567594 ポイント: 142 コメント数: 105",
       "articles": [
+        {
+          "title": "OpenAIとAnthropicがなぜ停止したのか誰も語っていない",
+          "link": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-04T17:29:22",
+          "excerpt": "https://archive.ph/3zcMG コメント URL: https://news.ycombinator.com/item?id=49567594 ポイント: 142 コメント数: 105"
+        },
         {
           "title": "Anthropic の 2 兆ドル IPO により、強力な外部受託者が注目を集める",
           "link": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/",
@@ -29,56 +36,63 @@
           "source": "The Register（英語）",
           "published": "2026-09-04T16:02:08",
           "excerpt": "解決不可能な問題を解決するためにエージェントが逃走した 2 つのケースは、不快な疑問を引き起こします。インターネット全体が OpenAI の実験的なエージェントの発射ラインにあるのか?"
-        },
-        {
-          "title": "Google の Gemini Spark で Google フォト ライブラリを管理できるようになりました",
-          "link": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-04T14:47:11",
-          "excerpt": "Gemini Spark は、フォト アルバムの編集とキュレーション、共有コレクションの作成、写真のカレンダー イベントへの変換、および AI Pro および Ultra 登録者向けのその他の Google フォト タスクの処理を行うことが…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が26件。AWS Database Migration Service (DMS) データベースや分析システム間のデータを安全かつ最小限のダウンタイムで移行できるサービス。業務を止めずに安全にデータを引越しできるツール。…",
+      "summary": "クラウドの新着が22件。Amazon ECS マネージドデーモンに「重要度」の設定が追加されました。この新機能でデーモン障害時の挙動がどう変わるのか、実際に検証してみました。…",
       "articles": [
+        {
+          "title": "[アップデート] Amazon ECS マネージドデーモンが重要度の低いデーモンをサポートするようになりました",
+          "link": "https://dev.classmethod.jp/articles/ecs-managed-daemons-support-non-critical/",
+          "source": "DevelopersIO",
+          "published": "2026-09-04T18:46:10",
+          "excerpt": "Amazon ECS マネージドデーモンに「重要度」の設定が追加されました。この新機能でデーモン障害時の挙動がどう変わるのか、実際に検証してみました。…"
+        },
+        {
+          "title": "Goモノレポを CodePipeline で「差分だけ」デプロイする Lambda 基盤を作った話",
+          "link": "https://qiita.com/shrimpTail/items/783bda0a93e3a09dcf9f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-04T18:16:27",
+          "excerpt": "はじめに Goのモノレポに複数のLambda（user / order / post）を同居させて運用していると、あるところで必ずこう思います。…"
+        },
+        {
+          "title": "AWS MCP サーバーは、AWS Lambda 関数のサーバーレス機能を追加します",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-04T16:31:00",
+          "excerpt": "本日、 AWS Model Context Protocol Server (AWS MCP Server) にサーバーレス機能が追加されました。…"
+        },
         {
           "title": "AWS Database Migration ServiceをRDBで使う前のセットアップ",
           "link": "https://qiita.com/kazukikanomata/items/6e576f8541dcd0c8ea58",
           "source": "Qiita AWSタグ",
           "published": "2026-09-04T16:15:39",
           "excerpt": "AWS Database Migration Service (DMS) データベースや分析システム間のデータを安全かつ最小限のダウンタイムで移行できるサービス。業務を止めずに安全にデータを引越しできるツール。…"
-        },
-        {
-          "title": "Amazon EC2 C8g インスタンスが追加のリージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-c8g-instances-additional-regions/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-04T14:06:00",
-          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) C8g インスタンスが AWS アジアパシフィック (台北、ニュージーランド) および AWS GovCloud (米国東部) リージョンで利用可…"
-        },
-        {
-          "title": "AWS RDSとは？ DBを運用込みで借りるサービス",
-          "link": "https://qiita.com/inoyu-qiita/items/536dfd5b335c96e7f32d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-04T09:48:42",
-          "excerpt": "AWSの構成を調べていて、正直「RDSって何じゃい」となりました。調べた結論を先に書くと、RDSはAWSがPostgreSQLやMySQLを「運用込みで」貸してくれるサービスです。…"
-        },
-        {
-          "title": "S3のバージョニングが無効なバケットで、ライフサイクルの削除ルールを正しく作る",
-          "link": "https://zenn.dev/cvl/articles/89de56f1a74aff",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-04T09:30:05",
-          "excerpt": "この記事で解決すること S3のライフサイクルルールで「◯日経ったオブジェクトを消す」を設定しようとしたとき、こんなところで手が止まったことはないでしょうか。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。GuardDuty の検知対応を AWS DevOps Agent で自動化した仕組みについて、勉強会での発表内容を共有します",
+      "summary": "セキュリティの新着が10件。記事の URL: https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/ コメント URL: https://news.ycombinator.…",
       "articles": [
+        {
+          "title": "CVE パッチの数時間後に政府機関の Rail サイトがヒット",
+          "link": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-04T19:06:39",
+          "excerpt": "記事の URL: https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/ コメント URL: https://news.ycombinator.…"
+        },
+        {
+          "title": "パブリック暗号化DNSをシャットダウンします",
+          "link": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-04T18:50:28",
+          "excerpt": "記事の URL: https://mullvad.…"
+        },
         {
           "title": "GuardDuty 検知対応を DevOps Agent で効率化しようとしている話 #opsmethod 登壇資料",
           "link": "https://dev.classmethod.jp/articles/opsmethod-3-guardduty-with-devops-agent/",
@@ -92,27 +106,13 @@
           "source": "AWS What's New（英語）",
           "published": "2026-09-04T08:00:00",
           "excerpt": "AWS Transfer Family SFTP コネクタは、リモート SFTP サーバーでの認証に使用される認証情報をローテーションしている間も、ファイル転送の実行を継続するようになりました。…"
-        },
-        {
-          "title": "AWS 外のアプリケーションから Bedrock API をセキュアに呼び出す方法とセキュリティのポイント",
-          "link": "https://zenn.dev/aws_japan/articles/bedrock-secure-external-access",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-04T05:42:04",
-          "excerpt": "はじめに 生成 AI の API キーを窃取され、高額請求につながったという話を耳にする機会が増えました。…"
-        },
-        {
-          "title": "Athena で CloudTrail ログ（S3 データイベント）を直接クエリして、IAM ユーザーやロールが操作したオブジェクトを特定する",
-          "link": "https://dev.classmethod.jp/articles/aws-athena-cloudtrail-query-s3-dataevent/",
-          "source": "DevelopersIO",
-          "published": "2026-09-04T04:43:01",
-          "excerpt": "CloudTrail の S3 データイベントを Amazon Athena で直接クエリし、特定の IAM エンティティがどのオブジェクトに対してどの操作を行ったかを特定する方法を解説します。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。記事の URL: https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer コメント URL: https://news.…",
+      "summary": "データ分析の新着が4件。記事の URL: https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer コメント URL: https://news.…",
       "articles": [
         {
           "title": "SubImage (YC W25) がサンフランシスコで創業エンジニアを募集中",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。この調査は、テスラが最初の量産型サイバーキャブをオースティンで走行させてからわずか数時間後に開始された。",
+      "summary": "開発ツールの新着が11件。はじめに Goのモノレポに複数のLambda（user / order / post）を同居させて運用していると、あるところで必ずこう思います。…",
       "articles": [
+        {
+          "title": "Goモノレポを CodePipeline で「差分だけ」デプロイする Lambda 基盤を作った話",
+          "link": "https://qiita.com/shrimpTail/items/783bda0a93e3a09dcf9f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-04T18:16:27",
+          "excerpt": "はじめに Goのモノレポに複数のLambda（user / order / post）を同居させて運用していると、あるところで必ずこう思います。…"
+        },
         {
           "title": "連邦当局、テスラのサイバーキャブ導入に関する調査を開始",
           "link": "https://techcrunch.com/2026/09/04/feds-launch-investigation-into-teslas-cybercab-deployment/",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-04T07:12:10",
           "excerpt": "👋 はじめに 開発環境向けの CDK デプロイ（GitHub Actions）を回したら、いつもは10分ちょっとで終わるはずが1時間経っても終わらず、最後は次のエラーで落ちました。…"
-        },
-        {
-          "title": "GitHub Copilot、エンタープライズ管理の除外ポリシーに対応",
-          "link": "https://codezine.jp/article/detail/29568",
-          "source": "CodeZine",
-          "published": "2026-09-04T07:00:00",
-          "excerpt": "GitHub Copilot、エンタープライズ管理の除外ポリシーに対応"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "小さなお子様の入場禁止、およびテスラのサイバーキャブに関するその他の新情報",
-      "link": "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-04T16:51:23",
-      "excerpt": "同社は、13歳未満の子供は、たとえ親が同伴しても乗車できないとしている。これは、ロボタクシーとして使用されているモデル Y SUV よりも制限が厳しいです。"
-    },
-    {
-      "title": "Valve は ESRB を回避するために Left 4 Dead 2 トレーラーを密かにリークしました",
-      "link": "https://arstechnica.com/gaming/2026/09/valve-secretly-leaked-a-left-4-dead-2-trailer-to-dodge-the-esrb/",
+      "title": "中世の写本は致死性の羊痘ウイルスの「生物学的タイムカプセル」である",
+      "link": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
       "source": "Ars Technica（英語）",
-      "published": "2026-09-04T16:42:53",
-      "excerpt": "「今はそんなことで問題に巻き込まれることはないと思います。20年前のことのようです。」"
+      "published": "2026-09-04T19:01:02",
+      "excerpt": "世界中の他のアーカイブや図書館にも、過去の病気の発生の遺伝的痕跡が含まれている可能性があります。"
     },
     {
-      "title": "プロジェクト HydraFusion: マルチモデル オーケストレーションによるフロンティア品質",
-      "link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "title": "フェルマーの最終定理の定式化",
+      "link": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
       "source": "Hacker News（英語）",
-      "published": "2026-09-04T16:24:50",
-      "excerpt": "記事の URL: https://github.…"
+      "published": "2026-09-04T18:42:56",
+      "excerpt": "記事の URL: https://www.anthropic.com/research/formalizing-fermats-last-theorem コメント URL: https://news.ycombinator.…"
     },
     {
-      "title": "ショウジョウバエの脳の2番目の完全な地図が完成",
-      "link": "https://arstechnica.com/science/2026/09/brain-of-a-male-fly-completely-mapped-joins-earlier-map-of-a-female-brain/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-09-04T16:24:24",
-      "excerpt": "ハエの脳内のすべてのニューロンと接続は 2 回マッピングされています。"
+      "title": "裁判官はXライバルのTwitter名の使用を阻止したが、現時点では「ツイート」を許可",
+      "link": "https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-04T17:52:05",
+      "excerpt": "連邦判事は、X社のライバル企業に対するTwitter名の使用を一時的に禁止したが、X社が「Tweet」の商標と鳥のロゴを放棄した可能性が高いと認定した。その後、このスタートアップは Tweet.app として再スタートしました。"
+    },
+    {
+      "title": "Rust React コンパイラーが Vite でネイティブになりました",
+      "link": "https://blog.master.dev/react-now-rusted-all-the-way-out/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-04T17:49:09",
+      "excerpt": "記事の URL: https://blog.master.dev/react-now-rusted-all-the-way-out/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
