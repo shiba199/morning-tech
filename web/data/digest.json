@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-09-04T04:56:30",
+  "generated_at": "2026-09-04T09:12:05",
   "window_hours": 24,
-  "total": 202,
+  "total": 204,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。Claude Code v2.1.259と260の2つのリリースで100件超の変更が入りました。権限ルール周りの重要な修正が多いほか、会話の横で差分を確認できる新しいパネルも登場しています。…",
+      "summary": "生成AIの新着が33件。ワークスアプリケーションズの「HUE」がAI連携規格「MCP」に対応、AIエージェント活用を拡大",
       "articles": [
         {
-          "title": "Claude Code v2.1.259〜v2.1.260 の主要アップデート - 差分パネルの追加と権限ルールのセキュリティ修正",
-          "link": "https://dev.classmethod.jp/articles/20260904-cc-updates-v2-1-260/",
-          "source": "DevelopersIO",
-          "published": "2026-09-04T04:17:03",
-          "excerpt": "Claude Code v2.1.259と260の2つのリリースで100件超の変更が入りました。権限ルール周りの重要な修正が多いほか、会話の横で差分を確認できる新しいパネルも登場しています。…"
-        },
-        {
-          "title": "AI攻撃の脅威は「これから数カ月」で変わる　OpenAIらが共同声明",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/04/news027.html",
-          "source": "@IT",
-          "published": "2026-09-04T04:00:00",
-          "excerpt": "OpenAIは「今後数カ月でAIを使ったサイバー攻撃がより広範かつ高度になる」とし、企業が「やるべきこと」を示した公開書簡を発表した。同書簡では「従来のセキュリティ対策は不十分になる」という厳しい見方を示している。"
-        },
-        {
-          "title": "Grep が LSP に勝つ？コーディングエージェントがあなたの高性能ツールを無視する理由",
-          "link": "https://www.agentconnect.md/blog/grep-beat-lsp-harness/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-04T03:40:26",
-          "excerpt": "記事の URL: https://www.agentconnect.md/blog/grep-beat-lsp-harness/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "RAGは動くのに、なぜ本番のAIエージェントは間違えるのか──DevRevが説く、AIに渡す記憶の設計",
-          "link": "https://codezine.jp/article/detail/29038",
+          "title": "ワークスアプリケーションズの「HUE」がAI連携規格「MCP」に対応、AIエージェント活用を拡大",
+          "link": "https://codezine.jp/article/detail/29587",
           "source": "CodeZine",
-          "published": "2026-09-04T03:00:00",
-          "excerpt": "RAGを組み、デモは完璧に動いた。それでも本番環境に出すと、AIエージェントは自信満々に間違える──多くのチームがこの壁にぶつかっている。…"
+          "published": "2026-09-04T08:00:00",
+          "excerpt": "ワークスアプリケーションズの「HUE」がAI連携規格「MCP」に対応、AIエージェント活用を拡大"
+        },
+        {
+          "title": "Kiro（AWSのAIエージェント）のセッション保存構造を調べてみた ── ローカルJSONからサーバー側管理への移行まで",
+          "link": "https://qiita.com/caymezon/items/90dd0641f32dbffe6227",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-04T07:50:38",
+          "excerpt": "AWSのAIエージェント開発ツール「Kiro」のセッションログを外部から扱うために内部構造を調査した記録です。…"
+        },
+        {
+          "title": "AI推論時代のデータファブリック課題　Equinixが2つのサービスを発表",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/04/news089.html",
+          "source": "@IT",
+          "published": "2026-09-04T07:47:00",
+          "excerpt": "企業におけるAI推論のニーズは、単一のクラウドにユーザーがアクセスする従来型の構成だけでは満たしにくくなっている。分散するデータやAIモデルを低遅延で柔軟に接続する必要性に応えるとして、Equinixは2つのサービスを発表した。"
+        },
+        {
+          "title": "Kiro Crew - 自作のllm-wikiを、Kiro Crewの内蔵RAG（Knowledge Library）で作り直してみた",
+          "link": "https://qiita.com/REALKTMR/items/b289624c6fd143094ea7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-04T06:47:32",
+          "excerpt": "はじめに — 前回のおさらい 前回の第1部『Kiro Crew — AIエージェントを「チーム」として運用する新しいワークスタイル』では、Kiro Crew（Amazonが中心に開発するApache 2.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が27件。CloudTrail の S3 データイベントを Amazon Athena で直接クエリし、特定の IAM エンティティがどのオブジェクトに対してどの操作を行ったかを特定する方法を解説します。…",
+      "summary": "クラウドの新着が28件。CloudFront Functions のテスト機能を使用して、HTTP ヘッダー名の大文字・小文字の扱いを確認してみました。イベントオブジェクト内でのヘッダー名の指定方法や、実装時の注意点をご紹介します。",
       "articles": [
         {
-          "title": "Athena で CloudTrail ログ（S3 データイベント）を直接クエリして、IAM ユーザーやロールが操作したオブジェクトを特定する",
-          "link": "https://dev.classmethod.jp/articles/aws-athena-cloudtrail-query-s3-dataevent/",
+          "title": "CloudFront Functions のテスト機能で HTTP ヘッダー名の大文字・小文字を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/cloudfront-functions-lowercase-header/",
           "source": "DevelopersIO",
-          "published": "2026-09-04T04:43:01",
-          "excerpt": "CloudTrail の S3 データイベントを Amazon Athena で直接クエリし、特定の IAM エンティティがどのオブジェクトに対してどの操作を行ったかを特定する方法を解説します。…"
+          "published": "2026-09-04T08:35:28",
+          "excerpt": "CloudFront Functions のテスト機能を使用して、HTTP ヘッダー名の大文字・小文字の扱いを確認してみました。イベントオブジェクト内でのヘッダー名の指定方法や、実装時の注意点をご紹介します。"
         },
         {
-          "title": "UIレビューを楽にするためにPR作成をトリガーにしたStorybookをS3 + CloudFrontへ自動デプロイの仕組みを作った",
-          "link": "https://dev.classmethod.jp/articles/storybook-pr-preview-github-actions-s3-cloudfront/",
-          "source": "DevelopersIO",
-          "published": "2026-09-04T02:56:50",
-          "excerpt": "PR作成をトリガーにStorybookをS3 + CloudFrontへ自動デプロイし、PRコメントのURLを開くだけでUIを確認できるようにした仕組みを紹介します。"
-        },
-        {
-          "title": "Amazon S3のストレージクラスをもう一歩深掘りしてみた ～最低保存期間・最小課金サイズ・S3 Express One Zoneまで～",
-          "link": "https://qiita.com/Sho5_Matsu/items/cbf65968bcd411840d7b",
+          "title": "【AWS移行設計】VMware環境からEC2へソフトウェア・設定を完全保持したまま移行するVM Import/Export標準手順",
+          "link": "https://qiita.com/mooreyxia/items/80909ea82920a6d52e71",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-04T02:33:42",
-          "excerpt": "はじめに 以前、【AWS初心者向け】Amazon S3のストレージクラスとは？…"
+          "published": "2026-09-04T08:10:27",
+          "excerpt": "📌 はじめに オンプレミスの VMware vSphere 環境で稼働している仮想マシンを AWS へ移行する際、最もシンプルかつ確実な手法が 「リホスト（Rehost / Lift-and-Shift）」 です。…"
         },
         {
-          "title": "ECS Blue/Green デプロイを適用しました",
-          "link": "https://zenn.dev/sompojapan_dx/articles/ddd6a397294de3",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-04T01:41:07",
-          "excerpt": "こんにちは。SOMPO Digital Lab でインフラエンジニアをしている藤野です。…"
+          "title": "Kiro（AWSのAIエージェント）のセッション保存構造を調べてみた ── ローカルJSONからサーバー側管理への移行まで",
+          "link": "https://qiita.com/caymezon/items/90dd0641f32dbffe6227",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-04T07:50:38",
+          "excerpt": "AWSのAIエージェント開発ツール「Kiro」のセッションログを外部から扱うために内部構造を調査した記録です。…"
+        },
+        {
+          "title": "[Typescript] Lambda SnapStart がコンテナイメージに対応したので試してみた [Rust]",
+          "link": "https://dev.classmethod.jp/articles/lambda-snapstart-container-benchmark/",
+          "source": "DevelopersIO",
+          "published": "2026-09-04T07:41:43",
+          "excerpt": "[AI要約] AWS Lambda SnapStart がコンテナイメージに対応。Rust・Node.js での実測結果から、Init 2秒以上で 68から90%以上 の cold start 削減を確認"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。CloudTrail の S3 データイベントを Amazon Athena で直接クエリし、特定の IAM エンティティがどのオブジェクトに対してどの操作を行ったかを特定する方法を解説します。…",
+      "summary": "セキュリティの新着が7件。はじめに 生成 AI の API キーを窃取され、高額請求につながったという話を耳にする機会が増えました。…",
       "articles": [
+        {
+          "title": "AWS 外のアプリケーションから Bedrock API をセキュアに呼び出す方法とセキュリティのポイント",
+          "link": "https://zenn.dev/aws_japan/articles/bedrock-secure-external-access",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-04T05:42:04",
+          "excerpt": "はじめに 生成 AI の API キーを窃取され、高額請求につながったという話を耳にする機会が増えました。…"
+        },
         {
           "title": "Athena で CloudTrail ログ（S3 データイベント）を直接クエリして、IAM ユーザーやロールが操作したオブジェクトを特定する",
           "link": "https://dev.classmethod.jp/articles/aws-athena-cloudtrail-query-s3-dataevent/",
@@ -99,20 +106,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-09-04T00:39:45",
           "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！GuardDuty に Custom Detection Rules という機能が追加されました。https://docs.…"
-        },
-        {
-          "title": "AWSに初めてログインしたら何をする？ IAMユーザーを作ってみた",
-          "link": "https://zenn.dev/kuze_note/articles/cc348f64021d81",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-03T22:00:05",
-          "excerpt": "AWSに初めてログインしたら何をする？IAMユーザーを作ってみた AWSアカウントの作成が終わり、AWSマネジメントコンソールへログインできるようになりました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。CloudTrail の S3 データイベントを Amazon Athena で直接クエリし、特定の IAM エンティティがどのオブジェクトに対してどの操作を行ったかを特定する方法を解説します。…",
+      "summary": "データ分析の新着が5件。CloudTrail の S3 データイベントを Amazon Athena で直接クエリし、特定の IAM エンティティがどのオブジェクトに対してどの操作を行ったかを特定する方法を解説します。…",
       "articles": [
         {
           "title": "Athena で CloudTrail ログ（S3 データイベント）を直接クエリして、IAM ユーザーやロールが操作したオブジェクトを特定する",
@@ -147,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。記事の URL: https://www.agentconnect.md/blog/grep-beat-lsp-harness/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が12件。👋 はじめに 開発環境向けの CDK デプロイ（GitHub Actions）を回したら、いつもは10分ちょっとで終わるはずが1時間経っても終わらず、最後は次のエラーで落ちました。…",
       "articles": [
+        {
+          "title": "CDKデプロイが10分→1時間超に急になった話",
+          "link": "https://qiita.com/Tom-Panasonic/items/9fa17278bf63982c66fb",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-04T07:12:10",
+          "excerpt": "👋 はじめに 開発環境向けの CDK デプロイ（GitHub Actions）を回したら、いつもは10分ちょっとで終わるはずが1時間経っても終わらず、最後は次のエラーで落ちました。…"
+        },
+        {
+          "title": "GitHub Copilot、エンタープライズ管理の除外ポリシーに対応",
+          "link": "https://codezine.jp/article/detail/29568",
+          "source": "CodeZine",
+          "published": "2026-09-04T07:00:00",
+          "excerpt": "GitHub Copilot、エンタープライズ管理の除外ポリシーに対応"
+        },
+        {
+          "title": "AWS Modular Data Center のデプロイ: 発注から配送、設置まで",
+          "link": "https://aws.amazon.com/jp/blogs/news/deploying-aws-modular-data-center-from-ordering-to-delivery-and-installation-jp/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-09-04T06:55:13",
+          "excerpt": "AWS Modular Data Center (MDC) は、ICD-705準拠のSCIF要件を満たし、最高機密(TS/SCI)レベルの情報も扱えるデータセンターを現地に迅速展開できるサービス。発注から設置までを6ステージで解説します。"
+        },
         {
           "title": "Grep が LSP に勝つ？コーディングエージェントがあなたの高性能ツールを無視する理由",
           "link": "https://www.agentconnect.md/blog/grep-beat-lsp-harness/",
           "source": "Hacker News（英語）",
           "published": "2026-09-04T03:40:26",
           "excerpt": "記事の URL: https://www.agentconnect.md/blog/grep-beat-lsp-harness/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "UIレビューを楽にするためにPR作成をトリガーにしたStorybookをS3 + CloudFrontへ自動デプロイの仕組みを作った",
-          "link": "https://dev.classmethod.jp/articles/storybook-pr-preview-github-actions-s3-cloudfront/",
-          "source": "DevelopersIO",
-          "published": "2026-09-04T02:56:50",
-          "excerpt": "PR作成をトリガーにStorybookをS3 + CloudFrontへ自動デプロイし、PRコメントのURLを開くだけでUIを確認できるようにした仕組みを紹介します。"
-        },
-        {
-          "title": "ECS Blue/Green デプロイを適用しました",
-          "link": "https://zenn.dev/sompojapan_dx/articles/ddd6a397294de3",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-04T01:41:07",
-          "excerpt": "こんにちは。SOMPO Digital Lab でインフラエンジニアをしている藤野です。…"
-        },
-        {
-          "title": "AWS環境の不要リソースを自動検出して削除する運用ルールとTerraform/CLI実装手順",
-          "link": "https://qiita.com/blinkgroup_jp/items/c8faf12f9a067b8b1243",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-04T00:22:03",
-          "excerpt": "読者が抱える課題 クラウド環境（特にAWS）の運用において、検証目的で作成したEC2インスタンスや、削除し忘れたEBSボリューム、アタッチされていないElastic IP（EIP）などが放置され、不要なコストが発生し続けるケースが多々ありま…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【PostgreSQL】SELECT結果がshared_buffers / OSキャッシュ / ディスクのどこから来ているか実行時間で検証してみた",
-      "link": "https://dev.classmethod.jp/articles/postgresql-shared-buffers-os-cache-disk-verification/",
+      "title": "NemoHermes に Backlog でのタスク管理を任せてみる",
+      "link": "https://dev.classmethod.jp/articles/reona-03-dgx-spark-backlog-skill/",
       "source": "DevelopersIO",
-      "published": "2026-09-04T04:39:58",
-      "excerpt": "PostgreSQL の shared_buffers、OS メモリキャッシュ、実ディスクの3層構造における実行時間の差を、実際の検証を通じて確認してみました。"
+      "published": "2026-09-04T08:51:49",
+      "excerpt": "エージェントに Backlog を操作させる仕組みを作りました。読み取り専用から始めて、削除は通さない粒度で更新を段階的に開き、実運用の改善ループを回していくまでの設計判断と、そこで見つかったセキュリティ上の落とし穴を紹介します。"
     },
     {
-      "title": "AI が生成した食欲をそそらないメニューの背後にある同一性の問題",
-      "link": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-04T04:21:03",
-      "excerpt": "レストランのオーナーはメニューを改良するための近道として生成 AI に注目するかもしれませんが、顧客は食べ物に何か問題があることを直感的に感じることができます。"
+      "title": "配布前の「ちいかわ」グッズがメルカリに？　くら寿司コラボ第2弾、初日から“内部犯”の臆測呼ぶ　第1弾に続き",
+      "link": "https://www.itmedia.co.jp/news/article/2609/04/2000001194/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-04T08:39:47",
+      "excerpt": "くら寿司の「ちいかわ」コラボ第2弾が9月4日に始まった。しかしSNS上では、特典の湯呑みが配布開始前からフリマアプリ「メルカリ」に出品されていたと指摘する投稿が拡散。…"
     },
     {
-      "title": "AWSコスト管理に役立つタグ運用のコツ5選",
-      "link": "https://qiita.com/handson-lab/items/ab9405a0e97879ecd6ef",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-04T04:15:44",
-      "excerpt": "こんにちは！ハンズオンラボ運営のえむです。月末にAWSの請求書を眺めていて、「このEC2インスタンス、どのプロジェクトのものだっけ」「このS3バケット、誰が作ったんだろう」と困った経験はありませんか。…"
+      "title": "Raspberry Pi インタラクティブ タイムライン · 2006 ～ 2026 年",
+      "link": "https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-history-timeline",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-04T08:35:15",
+      "excerpt": "記事の URL: https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-history-timeline コメント URL: https://news.ycombinator.…"
     },
     {
-      "title": "うっかりBacklog MCP Server経由で別プロジェクトに課題を登録しないようにhooksでガードレールを設定してみた",
-      "link": "https://dev.classmethod.jp/articles/backlog-add-issue-guardrail-by-hooks/",
-      "source": "DevelopersIO",
-      "published": "2026-09-04T04:09:25",
-      "excerpt": "AIの意図せぬ挙動によってインシデントが発生しないようにhooksを設定してみました。Backlog MCP Serverのadd_issueを題材にしていますが、考え方は他のMCP Server/ツールにも応用可能です。…"
+      "title": "英国軍は、弾薬を切らさずにドローンの群れを阻止するためのレーザーを望んでいる",
+      "link": "https://www.theregister.com/offbeat/2026/09/04/uk-military-wants-lasers-to-stop-drone-swarms-without-running-out-of-ammo/5294176",
+      "source": "The Register（英語）",
+      "published": "2026-09-04T08:30:00",
+      "excerpt": "プロジェクト PANOPTES は自律型車両搭載型防衛システムに 500 万ポンドを投入"
     }
   ]
 }
