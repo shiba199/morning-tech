@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-09-04T19:43:05",
+  "generated_at": "2026-09-04T21:55:06",
   "window_hours": 24,
-  "total": 203,
+  "total": 202,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が34件。https://archive.ph/3zcMG コメント URL: https://news.ycombinator.com/item?id=49567594 ポイント: 142 コメント数: 105",
+      "summary": "生成AIの新着が33件。今度は、より困難な販売が始まります: 購入時に AI を信頼するように顧客と販売者を説得する",
       "articles": [
+        {
+          "title": "Anthropic はあなたの代わりに買い物をするボットの基礎を築きます",
+          "link": "https://www.theregister.com/ai-and-ml/2026/09/04/anthropic-lays-groundwork-for-bots-that-shop-for-you/5294621",
+          "source": "The Register（英語）",
+          "published": "2026-09-04T20:36:07",
+          "excerpt": "今度は、より困難な販売が始まります: 購入時に AI を信頼するように顧客と販売者を説得する"
+        },
         {
           "title": "OpenAIとAnthropicがなぜ停止したのか誰も語っていない",
           "link": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
@@ -29,56 +36,63 @@
           "source": "TechCrunch（英語）",
           "published": "2026-09-04T16:21:11",
           "excerpt": "これは、OpenAI の内部監視およびセキュリティ システムの最新の障害です。"
-        },
-        {
-          "title": "ハグフェイス事件の数カ月前の5月、不正なOpenAIエージェントはドイツの死んだWebサイトを通信に使用していた",
-          "link": "https://www.theregister.com/ai-and-ml/2026/09/04/rogue-openai-agents-used-dead-german-web-site-to-communicate-in-may-months-before-hugging-face-incident/5294554",
-          "source": "The Register（英語）",
-          "published": "2026-09-04T16:02:08",
-          "excerpt": "解決不可能な問題を解決するためにエージェントが逃走した 2 つのケースは、不快な疑問を引き起こします。インターネット全体が OpenAI の実験的なエージェントの発射ラインにあるのか?"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。Amazon ECS マネージドデーモンに「重要度」の設定が追加されました。この新機能でデーモン障害時の挙動がどう変わるのか、実際に検証してみました。…",
+      "summary": "クラウドの新着が25件。EC2 C9g・C9gdインスタンス（AWS Graviton5）がap-northeast-1（東京）を含む4リージョンで利用可能になりました。…",
       "articles": [
         {
-          "title": "[アップデート] Amazon ECS マネージドデーモンが重要度の低いデーモンをサポートするようになりました",
-          "link": "https://dev.classmethod.jp/articles/ecs-managed-daemons-support-non-critical/",
+          "title": "東京リージョンで利用可能になった EC2 C9gインスタンスのCPU、CloudTrail情報を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/ec2-c9g-graviton5-tokyo-launch/",
           "source": "DevelopersIO",
-          "published": "2026-09-04T18:46:10",
-          "excerpt": "Amazon ECS マネージドデーモンに「重要度」の設定が追加されました。この新機能でデーモン障害時の挙動がどう変わるのか、実際に検証してみました。…"
+          "published": "2026-09-04T21:49:37",
+          "excerpt": "EC2 C9g・C9gdインスタンス（AWS Graviton5）がap-northeast-1（東京）を含む4リージョンで利用可能になりました。…"
         },
         {
-          "title": "Goモノレポを CodePipeline で「差分だけ」デプロイする Lambda 基盤を作った話",
-          "link": "https://qiita.com/shrimpTail/items/783bda0a93e3a09dcf9f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-04T18:16:27",
-          "excerpt": "はじめに Goのモノレポに複数のLambda（user / order / post）を同居させて運用していると、あるところで必ずこう思います。…"
+          "title": "Status Check に失敗した EC2 を Lambda なしの Step Functions で自動復旧させてみた",
+          "link": "https://dev.classmethod.jp/articles/ec2-auto-recovery-stepfunctions-lambdaless/",
+          "source": "DevelopersIO",
+          "published": "2026-09-04T20:41:45",
+          "excerpt": "EC2 Auto Recovery の対象外、または復旧に至らない場合に、手動で行う EC2 の Stop/Start と復旧確認を Lambda を使わずに自動化する仕組みを作りました。…"
         },
         {
-          "title": "AWS MCP サーバーは、AWS Lambda 関数のサーバーレス機能を追加します",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
+          "title": "東京リージョンで利用可能になった EC2 M9gインスタンス（Graviton5）でCPU情報を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/ec2-m9g-graviton5-tokyo-launch/",
+          "source": "DevelopersIO",
+          "published": "2026-09-04T20:34:30",
+          "excerpt": "EC2 M9g・M9gdインスタンス（AWS Graviton5）がap-northeast-1（東京）を含む4リージョンで利用可能になりました。北米GA時と同じOSコマンドで確認したCPU情報はすべて一致しました。…"
+        },
+        {
+          "title": "Amazon EC2 は、AMI での互換性のあるインスタンス タイプの指定をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances",
           "source": "AWS What's New（英語）",
-          "published": "2026-09-04T16:31:00",
-          "excerpt": "本日、 AWS Model Context Protocol Server (AWS MCP Server) にサーバーレス機能が追加されました。…"
-        },
-        {
-          "title": "AWS Database Migration ServiceをRDBで使う前のセットアップ",
-          "link": "https://qiita.com/kazukikanomata/items/6e576f8541dcd0c8ea58",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-04T16:15:39",
-          "excerpt": "AWS Database Migration Service (DMS) データベースや分析システム間のデータを安全かつ最小限のダウンタイムで移行できるサービス。業務を止めずに安全にデータを引越しできるツール。…"
+          "published": "2026-09-04T19:26:00",
+          "excerpt": "Amazon EC2 では、AMI 所有者が AMI と互換性のあるインスタンス タイプを定義できるようになりました。所有者は、サポートされているインスタンス タイプ、サポートされていないインスタンス タイプ、またはその両方を指定できます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。記事の URL: https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/ コメント URL: https://news.ycombinator.…",
+      "summary": "セキュリティの新着が11件。記事の URL: https://quad9.net/ コメント URL: https://news.ycombinator.com/item?id=49569663 ポイント: 20 コメント数: 5",
       "articles": [
+        {
+          "title": "無料のセキュリティと高いプライバシーを実現するオープン DNS 再帰サービス",
+          "link": "https://quad9.net/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-04T20:13:08",
+          "excerpt": "記事の URL: https://quad9.net/ コメント URL: https://news.ycombinator.com/item?id=49569663 ポイント: 20 コメント数: 5"
+        },
+        {
+          "title": "ASCII密輸はAIのセキュリティリスクだけではない",
+          "link": "https://www.theregister.com/security/2026/09/04/ascii-smuggling-isnt-just-an-ai-security-risk/5294595",
+          "source": "The Register（英語）",
+          "published": "2026-09-04T19:23:25",
+          "excerpt": "フィッシング詐欺師、目に見えない Unicode タグ文字の新たな用途を発見"
+        },
         {
           "title": "CVE パッチの数時間後に政府機関の Rail サイトがヒット",
           "link": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
@@ -92,20 +106,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-09-04T18:50:28",
           "excerpt": "記事の URL: https://mullvad.…"
-        },
-        {
-          "title": "GuardDuty 検知対応を DevOps Agent で効率化しようとしている話 #opsmethod 登壇資料",
-          "link": "https://dev.classmethod.jp/articles/opsmethod-3-guardduty-with-devops-agent/",
-          "source": "DevelopersIO",
-          "published": "2026-09-04T12:00:11",
-          "excerpt": "GuardDuty の検知対応を AWS DevOps Agent で自動化した仕組みについて、勉強会での発表内容を共有します"
-        },
-        {
-          "title": "AWS Transfer Family SFTP コネクタは、認証情報のローテーション中の継続的なファイル転送をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-04T08:00:00",
-          "excerpt": "AWS Transfer Family SFTP コネクタは、リモート SFTP サーバーでの認証に使用される認証情報をローテーションしている間も、ファイル転送の実行を継続するようになりました。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "中世の写本は致死性の羊痘ウイルスの「生物学的タイムカプセル」である",
-      "link": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-09-04T19:01:02",
-      "excerpt": "世界中の他のアーカイブや図書館にも、過去の病気の発生の遺伝的痕跡が含まれている可能性があります。"
-    },
-    {
-      "title": "フェルマーの最終定理の定式化",
-      "link": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-04T18:42:56",
-      "excerpt": "記事の URL: https://www.anthropic.com/research/formalizing-fermats-last-theorem コメント URL: https://news.ycombinator.…"
-    },
-    {
-      "title": "裁判官はXライバルのTwitter名の使用を阻止したが、現時点では「ツイート」を許可",
-      "link": "https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/",
+      "title": "AI コンピューティングプロバイダーの Nscale は、IPO 前の資金調達で 35 億ドルを求めています",
+      "link": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-04T17:52:05",
-      "excerpt": "連邦判事は、X社のライバル企業に対するTwitter名の使用を一時的に禁止したが、X社が「Tweet」の商標と鳥のロゴを放棄した可能性が高いと認定した。その後、このスタートアップは Tweet.app として再スタートしました。"
+      "published": "2026-09-04T21:12:11",
+      "excerpt": "最近アンスロピックと450億ドルの契約を結んだNscaleは、今後のIPOを見越して追加資金を調達するための交渉を行っている。"
     },
     {
-      "title": "Rust React コンパイラーが Vite でネイティブになりました",
-      "link": "https://blog.master.dev/react-now-rusted-all-the-way-out/",
+      "title": "Statichost.eu – 100% ヨーロッパの静的サイト ホスティング",
+      "link": "https://www.statichost.eu/",
       "source": "Hacker News（英語）",
-      "published": "2026-09-04T17:49:09",
-      "excerpt": "記事の URL: https://blog.master.dev/react-now-rusted-all-the-way-out/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-09-04T20:34:49",
+      "excerpt": "記事の URL: https://www.statichost.eu/ コメント URL: https://news.ycombinator.com/item?id=49569896 ポイント: 48 コメント数: 12"
+    },
+    {
+      "title": "生後6週間の乳児が麻疹で死亡、RFKジュニアの死亡に異議あり検視官が認める",
+      "link": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-09-04T20:22:41",
+      "excerpt": "「RFKが人々の命を賭けたゲームをやめる時期はとうに過ぎた。」"
+    },
+    {
+      "title": "Tor 終了ノードを作成する方法",
+      "link": "https://madpsy.uk/how-to-create-a-tor-exit-node/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-04T20:16:22",
+      "excerpt": "記事の URL: https://madpsy.uk/how-to-create-a-tor-exit-node/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
