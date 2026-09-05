@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-09-04T23:31:20",
+  "generated_at": "2026-09-05T01:48:02",
   "window_hours": 24,
-  "total": 193,
+  "total": 188,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。OpenAIの最新のエージェント群事件は、研究者や議員がAI研究所が独自の安全性審査の範囲を管理すべきかどうか疑問を呈しており、独立した調査を求める声がさらに緊急性を増している。",
+      "summary": "生成AIの新着が35件。AWS DevOps Agentの調査中にチャットでメッセージを送れるようになり、調査の進行状況を見ながらリアルタイムで軌道修正できるようになりました",
       "articles": [
         {
-          "title": "OpenAIの不正エージェントは逃亡を続けており、正式な調査プロセスは存在しない",
-          "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-04T23:15:11",
-          "excerpt": "OpenAIの最新のエージェント群事件は、研究者や議員がAI研究所が独自の安全性審査の範囲を管理すべきかどうか疑問を呈しており、独立した調査を求める声がさらに緊急性を増している。"
+          "title": "DevOps Agentの調査（Investigation）中にチャットでメッセージを追加できるようになりました",
+          "link": "https://dev.classmethod.jp/articles/devops-agent-chat-with-an-investigation/",
+          "source": "DevelopersIO",
+          "published": "2026-09-05T01:17:14",
+          "excerpt": "AWS DevOps Agentの調査中にチャットでメッセージを送れるようになり、調査の進行状況を見ながらリアルタイムで軌道修正できるようになりました"
         },
         {
-          "title": "OpenAI エージェントはサンドボックスから脱出する方法を公開 Wiki で議論しました",
-          "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-09-04T22:17:36",
-          "excerpt": "合計 3,700 人の内部エージェントが、テストでの不正行為について議論する 18,000 件のメッセージを投稿しました。"
+          "title": "Anthropic、顧客環境でデータ管理可能な「Enterprise Frontier Safeguards」を発表",
+          "link": "https://codezine.jp/article/detail/29579",
+          "source": "CodeZine",
+          "published": "2026-09-05T00:00:00",
+          "excerpt": "Anthropic、顧客環境でデータ管理可能な「Enterprise Frontier Safeguards」を発表"
         },
         {
-          "title": "OpenAI「GPT-6 Astra」発表　\"重大\"と判定された使用不可の能力とは",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/05/news006.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-09-04T22:00:00",
-          "excerpt": "OpenAIは最新AIモデル「GPT-6 Astra」の提供を始めた。幅広い業務での性能向上をうたう一方、同社は一部の機能を制限し、監視の仕組みを組み込んだ上で段階的に展開する。同社が“重大”と判定した能力とは何か。"
-        },
-        {
-          "title": "OpenRouter 上の GPT-6 アストラ",
-          "link": "https://openrouter.ai/openai/gpt-6-astra",
+          "title": "HN を表示: Moadim.io – エージェント用のスケジューラー",
+          "link": "https://moadim.io/",
           "source": "Hacker News（英語）",
-          "published": "2026-09-04T21:39:19",
-          "excerpt": "記事の URL: https://openrouter.ai/openai/gpt-6-astra コメント URL: https://news.ycombinator.com/item?…"
+          "published": "2026-09-04T23:50:29",
+          "excerpt": "なぜ次のすべてをサポートするエージェント スケジューラを入手できないのですか: - git 互換 - エージェントに依存しない - 100% オープン ソース - OS およびシステムに依存しない - マルチランナー サポート - mcp/…"
+        },
+        {
+          "title": "Portal by Spotify により、Claude Code トークンの使用量が 90% 削減されました",
+          "link": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-04T23:38:50",
+          "excerpt": "記事の URL: https://engineering.atspotify.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。EC2 C9g・C9gdインスタンス（AWS Graviton5）がap-northeast-1（東京）を含む4リージョンで利用可能になりました。…",
+      "summary": "クラウドの新着が23件。📌 はじめに クラウドにおける高可用性（HA）とディザスタリカバリ（DR）設計では、「単一リージョン内でのアベイラビリティゾーン（AZ）障害」と「リージョン全体の全損障害」を明確に切り分けて対策を講じる必要があります。…",
       "articles": [
+        {
+          "title": "【AWS DR設計】Route 53 フェイルオーバールーティング × ALB × ASGによるアクティブ/パッシブ型クロスリージョンDR構成",
+          "link": "https://qiita.com/mooreyxia/items/9f78ca3a51d932b469c2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-05T01:04:49",
+          "excerpt": "📌 はじめに クラウドにおける高可用性（HA）とディザスタリカバリ（DR）設計では、「単一リージョン内でのアベイラビリティゾーン（AZ）障害」と「リージョン全体の全損障害」を明確に切り分けて対策を講じる必要があります。…"
+        },
+        {
+          "title": "Anthropic、顧客環境でデータ管理可能な「Enterprise Frontier Safeguards」を発表",
+          "link": "https://codezine.jp/article/detail/29579",
+          "source": "CodeZine",
+          "published": "2026-09-05T00:00:00",
+          "excerpt": "Anthropic、顧客環境でデータ管理可能な「Enterprise Frontier Safeguards」を発表"
+        },
         {
           "title": "東京リージョンで利用可能になった EC2 C9gインスタンスのCPU、CloudTrail情報を確認してみた",
           "link": "https://dev.classmethod.jp/articles/ec2-c9g-graviton5-tokyo-launch/",
@@ -57,27 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-09-04T20:41:45",
           "excerpt": "EC2 Auto Recovery の対象外、または復旧に至らない場合に、手動で行う EC2 の Stop/Start と復旧確認を Lambda を使わずに自動化する仕組みを作りました。…"
-        },
-        {
-          "title": "東京リージョンで利用可能になった EC2 M9gインスタンス（Graviton5）でCPU情報を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/ec2-m9g-graviton5-tokyo-launch/",
-          "source": "DevelopersIO",
-          "published": "2026-09-04T20:34:30",
-          "excerpt": "EC2 M9g・M9gdインスタンス（AWS Graviton5）がap-northeast-1（東京）を含む4リージョンで利用可能になりました。北米GA時と同じOSコマンドで確認したCPU情報はすべて一致しました。…"
-        },
-        {
-          "title": "Amazon EC2 は、AMI での互換性のあるインスタンス タイプの指定をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-04T19:26:00",
-          "excerpt": "Amazon EC2 では、AMI 所有者が AMI と互換性のあるインスタンス タイプを定義できるようになりました。所有者は、サポートされているインスタンス タイプ、サポートされていないインスタンス タイプ、またはその両方を指定できます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。記事の URL: https://www.jeremykun.com/2026/09/04/updates-on-heir-homomorphic-encryption/ コメント URL: https://news.…",
+      "summary": "セキュリティの新着が10件。記事の URL: https://www.jeremykun.com/2026/09/04/updates-on-heir-homomorphic-encryption/ コメント URL: https://news.…",
       "articles": [
         {
           "title": "HEIR (準同型暗号化コンパイラ プロジェクト) に関する最新情報",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。記事の URL: https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer コメント URL: https://news.…",
+      "summary": "データ分析の新着が3件。記事の URL: https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer コメント URL: https://news.…",
       "articles": [
         {
           "title": "SubImage (YC W25) がサンフランシスコで創業エンジニアを募集中",
@@ -134,21 +134,21 @@
           "source": "DevelopersIO",
           "published": "2026-09-04T04:43:01",
           "excerpt": "CloudTrail の S3 データイベントを Amazon Athena で直接クエリし、特定の IAM エンティティがどのオブジェクトに対してどの操作を行ったかを特定する方法を解説します。…"
-        },
-        {
-          "title": "要求が桁違いに上がるAIエージェント時代。スピード、スケール、コストを満たすデータ基盤とは",
-          "link": "https://codezine.jp/article/detail/29184",
-          "source": "CodeZine",
-          "published": "2026-09-04T01:00:00",
-          "excerpt": "これまでのデータベースは「人が使う」想定で設計されてきた。しかしいまはAIエージェントが自らクエリを投げて動く時代。データベースは「AIが使う」ようになり、超高速でデータが読み書きされる場所へと変わりつつある。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。はじめに Goのモノレポに複数のLambda（user / order / post）を同居させて運用していると、あるところで必ずこう思います。…",
+      "summary": "開発ツールの新着が9件。おはようございます、YASUです。これまでplan・apply・fmt・validateと、作る・確認する系のコマンドを見てきましたが、今日は逆に「壊す」コマンド、terraform destroyについて整理します。…",
       "articles": [
+        {
+          "title": "terraform destroy、「元に戻せない」の重みを知った",
+          "link": "https://zenn.dev/yasutomo7974/articles/terraform-destroy-caution",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-04T23:37:12",
+          "excerpt": "おはようございます、YASUです。これまでplan・apply・fmt・validateと、作る・確認する系のコマンドを見てきましたが、今日は逆に「壊す」コマンド、terraform destroyについて整理します。…"
+        },
         {
           "title": "Goモノレポを CodePipeline で「差分だけ」デプロイする Lambda 基盤を作った話",
           "link": "https://qiita.com/shrimpTail/items/783bda0a93e3a09dcf9f",
@@ -169,45 +169,38 @@
           "source": "DevelopersIO",
           "published": "2026-09-04T09:30:04",
           "excerpt": "別リポジトリのワークフローを実行したいときは、`workflow_dispatch`か`repository_dispatch`のどちらかをトリガーに指定することで実現できます。今回は、この2つの違いと使い分けについてまとめました。"
-        },
-        {
-          "title": "CDKデプロイが10分→1時間超に急になった話",
-          "link": "https://qiita.com/Tom-Panasonic/items/9fa17278bf63982c66fb",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-04T07:12:10",
-          "excerpt": "👋 はじめに 開発環境向けの CDK デプロイ（GitHub Actions）を回したら、いつもは10分ちょっとで終わるはずが1時間経っても終わらず、最後は次のエラーで落ちました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "8年を経て、ヨーロッパのベピコロンボ計画が水星への最終接近へ",
-      "link": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-09-04T22:49:17",
-      "excerpt": "「基本的に、私たちはこの惑星の起源と、どのようにしてこの惑星になったのかを知りたいのです。」"
+      "title": "少なくとも2030年まではCloudflare Workersがどう考えても最強っぽい",
+      "link": "https://zenn.dev/ikuosaito1989/articles/bf20f58d2cc7cc",
+      "source": "Zenn AWSトピック",
+      "published": "2026-09-05T01:00:05",
+      "excerpt": "!Cloudflare WorkersのヤバさをAIと熱く語ってたら最強であることの理由が無限に出てきたのでこの記事で発散します。…"
     },
     {
-      "title": "米国では過去最高の89％が政府の汚職が蔓延していると回答",
-      "link": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
+      "title": "マルチクラウド構成の採用判断基準：データ転送コスト試算と運用負荷評価チェックリスト",
+      "link": "https://qiita.com/blinkgroup_jp/items/793aa2c3e26439a7acc4",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-05T00:22:03",
+      "excerpt": "読者が抱える課題 「可用性の向上」や「ベンダーロックインの回避」を目的としてマルチクラウド構成（AWS、Azure、Google Cloudなどの併用）が検討されるケースが増えています。…"
+    },
+    {
+      "title": "人工分析インテリジェンス インデックス v4.2",
+      "link": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
       "source": "Hacker News（英語）",
-      "published": "2026-09-04T22:03:16",
-      "excerpt": "記事の URL: https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.…"
+      "published": "2026-09-05T00:04:14",
+      "excerpt": "記事の URL: https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2 コメント URL: https://news.…"
     },
     {
-      "title": "[アップデート] Amazon SES で S/MIME 署名が使えるようになったので試してみた",
-      "link": "https://dev.classmethod.jp/articles/amazon-ses-supports-smime-signing/",
-      "source": "DevelopersIO",
-      "published": "2026-09-04T22:03:14",
-      "excerpt": "証明書を ACM に入れて設定セットで有効にしたあと、実際にメールを送って署名パートが付くところまで確認しました"
-    },
-    {
-      "title": "サポート詐欺2.5倍増、標的は法人従業員にも　詐欺の「新たな入口」とは",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2609/05/news002.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-09-04T22:00:00",
-      "excerpt": "トレンドマイクロが2026年上半期の個人向け脅威動向レポートを公開した。サポート詐欺の報告件数は前年同期比2.5倍に増え、標的は法人の従業員にも広がっている。同社が警告する、詐欺の「新たな入口」とは何か。"
+      "title": "MikroTik のサイレント パッチを無効にする: RouterOS 7.23.4 の修正は説明されない",
+      "link": "https://npratley.net/reversing-mikrotiks-silent-patch-the-routeros-7-23-4-fix-they-wouldnt-explain/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-05T00:03:08",
+      "excerpt": "記事の URL: https://npratley.…"
     }
   ]
 }
