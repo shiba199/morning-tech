@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-09-05T06:27:01",
+  "generated_at": "2026-09-05T10:47:55",
   "window_hours": 24,
-  "total": 162,
+  "total": 133,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。Jetson で推論型モデルを現場に配置する考え方を、NVIDIA の公開資料から整理しました。…",
+      "summary": "生成AIの新着が30件。AIに敬語を使うとトークン消費は増えるのか、試しに測ってみた はじめに Claude や Copilot を毎日使っていて、ふと「自分は結構丁寧な言葉遣いでプロンプトを書いているけど、これって地味にトークンを食っているのでは」と気になったの…",
       "articles": [
+        {
+          "title": "AI AgentとのLLM会話で敬語を排除した結果、トークン消費量が27%削減された実測データと運用指針",
+          "link": "https://qiita.com/RyugaMisono/items/1cc407415fd912f16724",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-05T09:59:32",
+          "excerpt": "AIに敬語を使うとトークン消費は増えるのか、試しに測ってみた はじめに Claude や Copilot を毎日使っていて、ふと「自分は結構丁寧な言葉遣いでプロンプトを書いているけど、これって地味にトークンを食っているのでは」と気になったの…"
+        },
         {
           "title": "NVIDIA Jetson で推論型モデルを現場へ届ける構成を考えてみた",
           "link": "https://dev.classmethod.jp/articles/jetson-edge-reasoning-model-deployment/",
@@ -17,33 +24,40 @@
           "excerpt": "Jetson で推論型モデルを現場に配置する考え方を、NVIDIA の公開資料から整理しました。…"
         },
         {
+          "title": "【今さら聞けない】MCPを周回遅れで学び直す〜AWSでの活用とAIエージェントの共通規格〜",
+          "link": "https://zenn.dev/dai_cloud_aws/articles/cb424b106c50a3",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-05T05:37:01",
+          "excerpt": "はじめに 最近、会社の後輩がMCP（Model Context Protocol）を使ってデータを取得し、AIエージェントに受け渡すシステムを開発していました。…"
+        },
+        {
           "title": "Claude Code v2.1.261 の主要アップデート - /skill-doctor 追加と単語編集キーの Bash 準拠化",
           "link": "https://dev.classmethod.jp/articles/20260905-cc-updates-v2-1-261/",
           "source": "DevelopersIO",
           "published": "2026-09-05T04:46:29",
           "excerpt": "Claude Code v2.1.261がリリースされました。…"
-        },
-        {
-          "title": "「最大45％コスト減」　Anthropicが「Claude Fable 5.1」発表　脆弱性検知にも対応",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html",
-          "source": "@IT",
-          "published": "2026-09-05T04:00:00",
-          "excerpt": "Anthropicは、新AIモデル「Claude Fable 5.1」および「Claude Mythos 5.1」を発表した。キャッシュ読み取り価格の引き下げによりFable 5.1は最大約45％のコスト削減が見込めるとしている。…"
-        },
-        {
-          "title": "GPT-6 Astra のコードレビュー: 利益、プライバシー、コスト",
-          "link": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-05T03:38:56",
-          "excerpt": "記事の URL: https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。📌 はじめに クラウドにおける高可用性（HA）とディザスタリカバリ（DR）設計では、「単一リージョン内でのアベイラビリティゾーン（AZ）障害」と「リージョン全体の全損障害」を明確に切り分けて対策を講じる必要があります。…",
+      "summary": "クラウドの新着が14件。アラート発生時、1段階目は SSM でサービスを再起動し、それで戻らなければ2段階目で EC2 を Stop/Start します。…",
       "articles": [
+        {
+          "title": "EC2 アプリケーションステータスチェックと Step Functions で Nginx の2段階自動復旧を試してみた",
+          "link": "https://dev.classmethod.jp/articles/ec2-application-status-check-stepfunctions-two-stage-recovery/",
+          "source": "DevelopersIO",
+          "published": "2026-09-05T08:46:22",
+          "excerpt": "アラート発生時、1段階目は SSM でサービスを再起動し、それで戻らなければ2段階目で EC2 を Stop/Start します。…"
+        },
+        {
+          "title": "品質も性能も上げて、費用は移行前より安く — AIネイティブ開発が通ったAWSコストの山と谷",
+          "link": "https://zenn.dev/fixu/articles/ai-native-aws-cost-peaks-and-valleys",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-05T02:50:43",
+          "excerpt": "はじめに 以前「AIネイティブ開発の基盤ができるまで」という総集編を書きました。長年運用してきた Laravel モノリスを複数のマイクロサービスに分割し、EC2 から ECS Fargate へ移行するまでの物語です。…"
+        },
         {
           "title": "【AWS DR設計】Route 53 フェイルオーバールーティング × ALB × ASGによるアクティブ/パッシブ型クロスリージョンDR構成",
           "link": "https://qiita.com/mooreyxia/items/9f78ca3a51d932b469c2",
@@ -57,55 +71,41 @@
           "source": "CodeZine",
           "published": "2026-09-05T00:00:00",
           "excerpt": "Anthropic、顧客環境でデータ管理可能な「Enterprise Frontier Safeguards」を発表"
-        },
-        {
-          "title": "東京リージョンで利用可能になった EC2 C9gインスタンスのCPU、CloudTrail情報を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/ec2-c9g-graviton5-tokyo-launch/",
-          "source": "DevelopersIO",
-          "published": "2026-09-04T21:49:37",
-          "excerpt": "EC2 C9g・C9gdインスタンス（AWS Graviton5）がap-northeast-1（東京）を含む4リージョンで利用可能になりました。…"
-        },
-        {
-          "title": "Status Check に失敗した EC2 を Lambda なしの Step Functions で自動復旧させてみた",
-          "link": "https://dev.classmethod.jp/articles/ec2-auto-recovery-stepfunctions-lambdaless/",
-          "source": "DevelopersIO",
-          "published": "2026-09-04T20:41:45",
-          "excerpt": "EC2 Auto Recovery の対象外、または復旧に至らない場合に、手動で行う EC2 の Stop/Start と復旧確認を Lambda を使わずに自動化する仕組みを作りました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。Anthropicは、新AIモデル「Claude Fable 5.1」および「Claude Mythos 5.1」を発表した。キャッシュ読み取り価格の引き下げによりFable 5.1は最大約45％のコスト削減が見込めるとしている。…",
+      "summary": "セキュリティの新着が12件。GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化",
       "articles": [
         {
-          "title": "「最大45％コスト減」　Anthropicが「Claude Fable 5.1」発表　脆弱性検知にも対応",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html",
-          "source": "@IT",
-          "published": "2026-09-05T04:00:00",
-          "excerpt": "Anthropicは、新AIモデル「Claude Fable 5.1」および「Claude Mythos 5.1」を発表した。キャッシュ読み取り価格の引き下げによりFable 5.1は最大約45％のコスト削減が見込めるとしている。…"
+          "title": "GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化",
+          "link": "https://codezine.jp/article/detail/29578",
+          "source": "CodeZine",
+          "published": "2026-09-05T08:00:00",
+          "excerpt": "GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化"
         },
         {
-          "title": "HEIR (準同型暗号化コンパイラ プロジェクト) に関する最新情報",
-          "link": "https://www.jeremykun.com/2026/09/04/updates-on-heir-homomorphic-encryption/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-04T21:16:16",
-          "excerpt": "記事の URL: https://www.jeremykun.com/2026/09/04/updates-on-heir-homomorphic-encryption/ コメント URL: https://news.…"
+          "title": "【Security Hub修復手順】[SecretsManager.2] 自動ローテーションを設定した Secrets Manager のシークレットは正常にローテーションする必要があります",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-secretsmanager-2/",
+          "source": "DevelopersIO",
+          "published": "2026-09-05T06:39:27",
+          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
         },
         {
-          "title": "無料のセキュリティと高いプライバシーを実現するオープン DNS 再帰サービス",
-          "link": "https://quad9.net/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-04T20:13:08",
-          "excerpt": "記事の URL: https://quad9.net/ コメント URL: https://news.ycombinator.com/item?id=49569663 ポイント: 20 コメント数: 5"
+          "title": "AWS ParallelCluster の Slurm を CVE 対応の 25.11.8 にアップグレードしてみた",
+          "link": "https://dev.classmethod.jp/articles/aws-parallelcluster-slurm-25-11-8-inplace-upgrade/",
+          "source": "DevelopersIO",
+          "published": "2026-09-05T06:35:28",
+          "excerpt": "AWS ParallelCluster で Slurm の複数の CVE が報告されました。クラスターを作り直さずに対応する方法として、稼働中のシステムで Slurm 25.11.6 から 25.11.…"
         },
         {
-          "title": "ASCII密輸はAIのセキュリティリスクだけではない",
-          "link": "https://www.theregister.com/security/2026/09/04/ascii-smuggling-isnt-just-an-ai-security-risk/5294595",
-          "source": "The Register（英語）",
-          "published": "2026-09-04T19:23:25",
-          "excerpt": "フィッシング詐欺師、目に見えない Unicode タグ文字の新たな用途を発見"
+          "title": "サイバーセキュリティ報告書 | 東芝 サイバーセキュリティ | 東芝",
+          "link": "https://www.global.toshiba/jp/cybersecurity/corporate/report.html",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-09-05T06:08:47",
+          "excerpt": "東芝グループにおけるサイバーセキュリティに対する取り組みについて、2025年度の活動報告を「サイバーセキュリティ報告書 2026」としてPDFで提供しています。"
         }
       ]
     },
@@ -133,8 +133,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。おはようございます、YASUです。これまでplan・apply・fmt・validateと、作る・確認する系のコマンドを見てきましたが、今日は逆に「壊す」コマンド、terraform destroyについて整理します。…",
+      "summary": "開発ツールの新着が5件。GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化",
       "articles": [
+        {
+          "title": "GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化",
+          "link": "https://codezine.jp/article/detail/29578",
+          "source": "CodeZine",
+          "published": "2026-09-05T08:00:00",
+          "excerpt": "GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化"
+        },
+        {
+          "title": "ヨーロッパを離れることのない Git ホスティング",
+          "link": "https://pushin.eu",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-05T06:31:49",
+          "excerpt": "記事の URL: https://pushin.eu コメント URL: https://news.ycombinator.com/item?id=49573680 ポイント: 96 コメント数: 68"
+        },
         {
           "title": "terraform destroy、「元に戻せない」の重みを知った",
           "link": "https://zenn.dev/yasutomo7974/articles/terraform-destroy-caution",
@@ -148,52 +162,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-04T18:16:27",
           "excerpt": "はじめに Goのモノレポに複数のLambda（user / order / post）を同居させて運用していると、あるところで必ずこう思います。…"
-        },
-        {
-          "title": "連邦当局、テスラのサイバーキャブ導入に関する調査を開始",
-          "link": "https://techcrunch.com/2026/09/04/feds-launch-investigation-into-teslas-cybercab-deployment/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-04T12:01:14",
-          "excerpt": "この調査は、テスラが最初の量産型サイバーキャブをオースティンで走行させてからわずか数時間後に開始された。"
-        },
-        {
-          "title": "Github Actionsで他リポジトリのワークフローを実行する",
-          "link": "https://dev.classmethod.jp/articles/call-github-actions-workflow/",
-          "source": "DevelopersIO",
-          "published": "2026-09-04T09:30:04",
-          "excerpt": "別リポジトリのワークフローを実行したいときは、`workflow_dispatch`か`repository_dispatch`のどちらかをトリガーに指定することで実現できます。今回は、この2つの違いと使い分けについてまとめました。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "なぜヨーロッパ諸国は金を北米から移動させているのでしょうか?",
-      "link": "https://www.bbc.com/news/articles/cvgyn8q8gqxo",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-05T05:52:09",
-      "excerpt": "記事の URL: https://www.bbc.com/news/articles/cvgyn8q8gqxo コメント URL: https://news.ycombinator.com/item?…"
+      "title": "くら寿司、「ちいかわ」コラボ中止　従業員による不正行為判明で",
+      "link": "https://www.itmedia.co.jp/news/article/2609/05/2000001201/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-05T10:22:20",
+      "excerpt": "くら寿司が、開催中の「ちいかわ」コラボキャンペーンについて中止する。同コラボを巡っては、配布開始前にもかかわらずコラボグッズがフリマアプリに出品されていることなどがSNS上で問題視されていた。…"
     },
     {
-      "title": "Google DeepMind、気象AIモデル「WeatherNext 3」を発表",
-      "link": "https://codezine.jp/article/detail/29580",
-      "source": "CodeZine",
-      "published": "2026-09-05T04:00:00",
-      "excerpt": "Google DeepMind、気象AIモデル「WeatherNext 3」を発表"
-    },
-    {
-      "title": "[プレビュー] AWS Interconnect - multicloud で AWS と Microsoft Azure のネットワークを接続してみる",
-      "link": "https://dev.classmethod.jp/articles/aws-interconnect-multicloud-microsoft-azure-preview/",
+      "title": "Snowflake Gateway による A/B テスト用トラフィック分割を試してみた",
+      "link": "https://dev.classmethod.jp/articles/snowflake-model-monitoring-ab-testing-try/",
       "source": "DevelopersIO",
-      "published": "2026-09-05T03:55:21",
-      "excerpt": "AWS と Azure を簡単に専用線で接続可能になったので試してみたら、Azure の設定で躓きました。。。。。。"
+      "published": "2026-09-05T08:59:16",
+      "excerpt": "Snowflake の2026年8月アップデートで一般提供されたGateway Monitoring と A/B Testing について、ゲートウェイの作成からトラフィック分割までを実際に試してみましたので、その内容をまとめてみます。"
     },
     {
-      "title": "リージョナル NAT Gateway はどの AZ で課金されますか",
-      "link": "https://dev.classmethod.jp/articles/tsnote-regional-nat-gateway-eni-az-pricing/",
-      "source": "DevelopersIO",
-      "published": "2026-09-05T02:54:19",
-      "excerpt": "リージョナル NAT Gateway の課金対象となるアベイラビリティーゾーン（AZ）を確認する方法について説明します。"
+      "title": "Amazon Linux 2027(プレビュー)とAmazon Linux 2023で何が違うのかをまとめてみる",
+      "link": "https://qiita.com/ike_s_muramatsu/items/bc460eda8da93d702eed",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-05T08:58:56",
+      "excerpt": "導入・背景 2026年9月、AWSからAmazon Linux 2027(以下、AL2027)のパブリックプレビュー開始が発表されました。…"
+    },
+    {
+      "title": "「AI＝GPU」がもはや昔の常識に　「CPU」に何が起きるのか",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news010.html",
+      "source": "@IT",
+      "published": "2026-09-05T08:00:00",
+      "excerpt": "生成AIの急速な普及によって、存在感を高めている「GPU」。ではAI時代には、「CPU」の重要性は低下していくのだろうか。そうではないとArmは指摘する。"
     }
   ]
 }
