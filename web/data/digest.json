@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-09-05T01:48:02",
+  "generated_at": "2026-09-05T06:27:01",
   "window_hours": 24,
-  "total": 188,
+  "total": 162,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。AWS DevOps Agentの調査中にチャットでメッセージを送れるようになり、調査の進行状況を見ながらリアルタイムで軌道修正できるようになりました",
+      "summary": "生成AIの新着が35件。Jetson で推論型モデルを現場に配置する考え方を、NVIDIA の公開資料から整理しました。…",
       "articles": [
         {
-          "title": "DevOps Agentの調査（Investigation）中にチャットでメッセージを追加できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/devops-agent-chat-with-an-investigation/",
+          "title": "NVIDIA Jetson で推論型モデルを現場へ届ける構成を考えてみた",
+          "link": "https://dev.classmethod.jp/articles/jetson-edge-reasoning-model-deployment/",
           "source": "DevelopersIO",
-          "published": "2026-09-05T01:17:14",
-          "excerpt": "AWS DevOps Agentの調査中にチャットでメッセージを送れるようになり、調査の進行状況を見ながらリアルタイムで軌道修正できるようになりました"
+          "published": "2026-09-05T06:24:33",
+          "excerpt": "Jetson で推論型モデルを現場に配置する考え方を、NVIDIA の公開資料から整理しました。…"
         },
         {
-          "title": "Anthropic、顧客環境でデータ管理可能な「Enterprise Frontier Safeguards」を発表",
-          "link": "https://codezine.jp/article/detail/29579",
-          "source": "CodeZine",
-          "published": "2026-09-05T00:00:00",
-          "excerpt": "Anthropic、顧客環境でデータ管理可能な「Enterprise Frontier Safeguards」を発表"
+          "title": "Claude Code v2.1.261 の主要アップデート - /skill-doctor 追加と単語編集キーの Bash 準拠化",
+          "link": "https://dev.classmethod.jp/articles/20260905-cc-updates-v2-1-261/",
+          "source": "DevelopersIO",
+          "published": "2026-09-05T04:46:29",
+          "excerpt": "Claude Code v2.1.261がリリースされました。…"
         },
         {
-          "title": "HN を表示: Moadim.io – エージェント用のスケジューラー",
-          "link": "https://moadim.io/",
+          "title": "「最大45％コスト減」　Anthropicが「Claude Fable 5.1」発表　脆弱性検知にも対応",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html",
+          "source": "@IT",
+          "published": "2026-09-05T04:00:00",
+          "excerpt": "Anthropicは、新AIモデル「Claude Fable 5.1」および「Claude Mythos 5.1」を発表した。キャッシュ読み取り価格の引き下げによりFable 5.1は最大約45％のコスト削減が見込めるとしている。…"
+        },
+        {
+          "title": "GPT-6 Astra のコードレビュー: 利益、プライバシー、コスト",
+          "link": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
           "source": "Hacker News（英語）",
-          "published": "2026-09-04T23:50:29",
-          "excerpt": "なぜ次のすべてをサポートするエージェント スケジューラを入手できないのですか: - git 互換 - エージェントに依存しない - 100% オープン ソース - OS およびシステムに依存しない - マルチランナー サポート - mcp/…"
-        },
-        {
-          "title": "Portal by Spotify により、Claude Code トークンの使用量が 90% 削減されました",
-          "link": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-04T23:38:50",
-          "excerpt": "記事の URL: https://engineering.atspotify.…"
+          "published": "2026-09-05T03:38:56",
+          "excerpt": "記事の URL: https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。📌 はじめに クラウドにおける高可用性（HA）とディザスタリカバリ（DR）設計では、「単一リージョン内でのアベイラビリティゾーン（AZ）障害」と「リージョン全体の全損障害」を明確に切り分けて対策を講じる必要があります。…",
+      "summary": "クラウドの新着が18件。📌 はじめに クラウドにおける高可用性（HA）とディザスタリカバリ（DR）設計では、「単一リージョン内でのアベイラビリティゾーン（AZ）障害」と「リージョン全体の全損障害」を明確に切り分けて対策を講じる必要があります。…",
       "articles": [
         {
           "title": "【AWS DR設計】Route 53 フェイルオーバールーティング × ALB × ASGによるアクティブ/パッシブ型クロスリージョンDR構成",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。記事の URL: https://www.jeremykun.com/2026/09/04/updates-on-heir-homomorphic-encryption/ コメント URL: https://news.…",
+      "summary": "セキュリティの新着が8件。Anthropicは、新AIモデル「Claude Fable 5.1」および「Claude Mythos 5.1」を発表した。キャッシュ読み取り価格の引き下げによりFable 5.1は最大約45％のコスト削減が見込めるとしている。…",
       "articles": [
+        {
+          "title": "「最大45％コスト減」　Anthropicが「Claude Fable 5.1」発表　脆弱性検知にも対応",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html",
+          "source": "@IT",
+          "published": "2026-09-05T04:00:00",
+          "excerpt": "Anthropicは、新AIモデル「Claude Fable 5.1」および「Claude Mythos 5.1」を発表した。キャッシュ読み取り価格の引き下げによりFable 5.1は最大約45％のコスト削減が見込めるとしている。…"
+        },
         {
           "title": "HEIR (準同型暗号化コンパイラ プロジェクト) に関する最新情報",
           "link": "https://www.jeremykun.com/2026/09/04/updates-on-heir-homomorphic-encryption/",
@@ -99,20 +106,13 @@
           "source": "The Register（英語）",
           "published": "2026-09-04T19:23:25",
           "excerpt": "フィッシング詐欺師、目に見えない Unicode タグ文字の新たな用途を発見"
-        },
-        {
-          "title": "CVE パッチの数時間後に政府機関の Rail サイトがヒット",
-          "link": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-04T19:06:39",
-          "excerpt": "記事の URL: https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/ コメント URL: https://news.ycombinator.…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。記事の URL: https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer コメント URL: https://news.…",
+      "summary": "データ分析の新着が2件。記事の URL: https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer コメント URL: https://news.…",
       "articles": [
         {
           "title": "SubImage (YC W25) がサンフランシスコで創業エンジニアを募集中",
@@ -127,20 +127,13 @@
           "source": "DevelopersIO",
           "published": "2026-09-04T11:00:26",
           "excerpt": "AWS Graviton プロセッサ搭載の Amazon Redshift RG インスタンスが、シングルノード構成に対応しました。…"
-        },
-        {
-          "title": "Athena で CloudTrail ログ（S3 データイベント）を直接クエリして、IAM ユーザーやロールが操作したオブジェクトを特定する",
-          "link": "https://dev.classmethod.jp/articles/aws-athena-cloudtrail-query-s3-dataevent/",
-          "source": "DevelopersIO",
-          "published": "2026-09-04T04:43:01",
-          "excerpt": "CloudTrail の S3 データイベントを Amazon Athena で直接クエリし、特定の IAM エンティティがどのオブジェクトに対してどの操作を行ったかを特定する方法を解説します。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。おはようございます、YASUです。これまでplan・apply・fmt・validateと、作る・確認する系のコマンドを見てきましたが、今日は逆に「壊す」コマンド、terraform destroyについて整理します。…",
+      "summary": "開発ツールの新着が7件。おはようございます、YASUです。これまでplan・apply・fmt・validateと、作る・確認する系のコマンドを見てきましたが、今日は逆に「壊す」コマンド、terraform destroyについて整理します。…",
       "articles": [
         {
           "title": "terraform destroy、「元に戻せない」の重みを知った",
@@ -175,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "少なくとも2030年まではCloudflare Workersがどう考えても最強っぽい",
-      "link": "https://zenn.dev/ikuosaito1989/articles/bf20f58d2cc7cc",
-      "source": "Zenn AWSトピック",
-      "published": "2026-09-05T01:00:05",
-      "excerpt": "!Cloudflare WorkersのヤバさをAIと熱く語ってたら最強であることの理由が無限に出てきたのでこの記事で発散します。…"
-    },
-    {
-      "title": "マルチクラウド構成の採用判断基準：データ転送コスト試算と運用負荷評価チェックリスト",
-      "link": "https://qiita.com/blinkgroup_jp/items/793aa2c3e26439a7acc4",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-05T00:22:03",
-      "excerpt": "読者が抱える課題 「可用性の向上」や「ベンダーロックインの回避」を目的としてマルチクラウド構成（AWS、Azure、Google Cloudなどの併用）が検討されるケースが増えています。…"
-    },
-    {
-      "title": "人工分析インテリジェンス インデックス v4.2",
-      "link": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
+      "title": "なぜヨーロッパ諸国は金を北米から移動させているのでしょうか?",
+      "link": "https://www.bbc.com/news/articles/cvgyn8q8gqxo",
       "source": "Hacker News（英語）",
-      "published": "2026-09-05T00:04:14",
-      "excerpt": "記事の URL: https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2 コメント URL: https://news.…"
+      "published": "2026-09-05T05:52:09",
+      "excerpt": "記事の URL: https://www.bbc.com/news/articles/cvgyn8q8gqxo コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "MikroTik のサイレント パッチを無効にする: RouterOS 7.23.4 の修正は説明されない",
-      "link": "https://npratley.net/reversing-mikrotiks-silent-patch-the-routeros-7-23-4-fix-they-wouldnt-explain/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-05T00:03:08",
-      "excerpt": "記事の URL: https://npratley.…"
+      "title": "Google DeepMind、気象AIモデル「WeatherNext 3」を発表",
+      "link": "https://codezine.jp/article/detail/29580",
+      "source": "CodeZine",
+      "published": "2026-09-05T04:00:00",
+      "excerpt": "Google DeepMind、気象AIモデル「WeatherNext 3」を発表"
+    },
+    {
+      "title": "[プレビュー] AWS Interconnect - multicloud で AWS と Microsoft Azure のネットワークを接続してみる",
+      "link": "https://dev.classmethod.jp/articles/aws-interconnect-multicloud-microsoft-azure-preview/",
+      "source": "DevelopersIO",
+      "published": "2026-09-05T03:55:21",
+      "excerpt": "AWS と Azure を簡単に専用線で接続可能になったので試してみたら、Azure の設定で躓きました。。。。。。"
+    },
+    {
+      "title": "リージョナル NAT Gateway はどの AZ で課金されますか",
+      "link": "https://dev.classmethod.jp/articles/tsnote-regional-nat-gateway-eni-az-pricing/",
+      "source": "DevelopersIO",
+      "published": "2026-09-05T02:54:19",
+      "excerpt": "リージョナル NAT Gateway の課金対象となるアベイラビリティーゾーン（AZ）を確認する方法について説明します。"
     }
   ]
 }
