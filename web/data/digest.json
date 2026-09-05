@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-05T16:21:29",
+  "generated_at": "2026-09-05T18:27:07",
   "window_hours": 24,
-  "total": 108,
-  "topic_count": 4,
+  "total": 104,
+  "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が26件。概要 先日、ついに AmazonBedrock AgentCore paymentsがGAされました！！！プレビュー期間中に一度挑戦してみましたが設定がむず過ぎて途中で挫折していたのでGAに合わせてリベンジしてみました！…",
+      "summary": "生成AIの新着が28件。OpenAI は、最近報告された、AI エージェントがドイツの wiki フォーラムを乗っ取った事件における自社の役割を認めました。",
       "articles": [
+        {
+          "title": "OpenAI、「ウィキ事件」を認め、さらなる情報開示に向けて「フレームワークに取り組んでいる」と語る",
+          "link": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-05T18:05:27",
+          "excerpt": "OpenAI は、最近報告された、AI エージェントがドイツの wiki フォーラムを乗っ取った事件における自社の役割を認めました。"
+        },
+        {
+          "title": "AgentCore MemoryのFGACを実測 — Cedarでactor分離、permit合成の落とし穴はforbidで塞ぐ",
+          "link": "https://zenn.dev/kashiwabaray/articles/ecca09f13b1146",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-05T13:07:21",
+          "excerpt": "1.…"
+        },
         {
           "title": "Amazon Bedrock AgentCore payments と Privyで体験するx402！！",
           "link": "https://qiita.com/mashharuki/items/bfd2d873b7d247c0caa9",
@@ -17,33 +31,26 @@
           "excerpt": "概要 先日、ついに AmazonBedrock AgentCore paymentsがGAされました！！！プレビュー期間中に一度挑戦してみましたが設定がむず過ぎて途中で挫折していたのでGAに合わせてリベンジしてみました！…"
         },
         {
-          "title": "AI AgentとのLLM会話で敬語を排除した結果、トークン消費量が27%削減された実測データと運用指針",
-          "link": "https://qiita.com/RyugaMisono/items/1cc407415fd912f16724",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-05T09:59:32",
-          "excerpt": "AIに敬語を使うとトークン消費は増えるのか、試しに測ってみた はじめに Claude や Copilot を毎日使っていて、ふと「自分は結構丁寧な言葉遣いでプロンプトを書いているけど、これって地味にトークンを食っているのでは」と気になったの…"
-        },
-        {
-          "title": "NVIDIA Jetson で推論型モデルを現場へ届ける構成を考えてみた",
-          "link": "https://dev.classmethod.jp/articles/jetson-edge-reasoning-model-deployment/",
-          "source": "DevelopersIO",
-          "published": "2026-09-05T06:24:33",
-          "excerpt": "Jetson で推論型モデルを現場に配置する考え方を、NVIDIA の公開資料から整理しました。…"
-        },
-        {
-          "title": "【今さら聞けない】MCPを周回遅れで学び直す〜AWSでの活用とAIエージェントの共通規格〜",
-          "link": "https://zenn.dev/dai_cloud_aws/articles/cb424b106c50a3",
+          "title": "Amazon Bedrock AgentCore payments と Privyで体験するx402！！",
+          "link": "https://zenn.dev/mashharuki/articles/aws_agentcore-payments-x402-cdk",
           "source": "Zenn AWSトピック",
-          "published": "2026-09-05T05:37:01",
-          "excerpt": "はじめに 最近、会社の後輩がMCP（Model Context Protocol）を使ってデータを取得し、AIエージェントに受け渡すシステムを開発していました。…"
+          "published": "2026-09-05T12:12:10",
+          "excerpt": "概要 先日、ついに AmazonBedrock AgentCore paymentsがGAされました！！！https://aws.amazon.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。はじめに 2026 年 8 月 24 日、AWS は Amazon EKS に対して複数の外部 OIDC アイデンティティプロバイダーのサポートを発表しました。…",
+      "summary": "クラウドの新着が13件。はじめに この記事ではEC2にデプロイしたSpringBoot Webアプリへのアクセス手段を、 http://EC2のパブリックIP:8080 ↓ http://example.com に切り替える方法を学びます。…",
       "articles": [
+        {
+          "title": "EC2にデプロイしたSpringBoot WebアプリをNginxを使って独自ドメインへのアクセスに切りかえる",
+          "link": "https://qiita.com/ShineYamamoto/items/82ccb5a7564164d2ff58",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-05T17:24:36",
+          "excerpt": "はじめに この記事ではEC2にデプロイしたSpringBoot Webアプリへのアクセス手段を、 http://EC2のパブリックIP:8080 ↓ http://example.com に切り替える方法を学びます。…"
+        },
         {
           "title": "Amazon EKS がクラスターごとに複数の外部 OIDC ID プロバイダーをサポート",
           "link": "https://qiita.com/Haruki-N/items/84e774c331174a9b6dd4",
@@ -64,21 +71,28 @@
           "source": "DevelopersIO",
           "published": "2026-09-05T08:46:22",
           "excerpt": "アラート発生時、1段階目は SSM でサービスを再起動し、それで戻らなければ2段階目で EC2 を Stop/Start します。…"
-        },
-        {
-          "title": "品質も性能も上げて、費用は移行前より安く — AIネイティブ開発が通ったAWSコストの山と谷",
-          "link": "https://zenn.dev/fixu/articles/ai-native-aws-cost-peaks-and-valleys",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-05T02:50:43",
-          "excerpt": "はじめに 以前「AIネイティブ開発の基盤ができるまで」という総集編を書きました。長年運用してきた Laravel モノリスを複数のマイクロサービスに分割し、EC2 から ECS Fargate へ移行するまでの物語です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化",
+      "summary": "セキュリティの新着が13件。皆さんこんばんわ！ここ一週間メンタル不調の鬱で寝込んでいたポンコツエンジニアのGONです。更新を待ってくれていた方（いないか..） いきなりですが、食料品の消費減税のニュース見ましたか？きたる来年2027年4月。…",
       "articles": [
+        {
+          "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』構築時に学んだAWS運用のセキュリティ基礎と落とし穴回避術について",
+          "link": "https://qiita.com/Veteran/items/ef881f0bd3a8e9069681",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-05T16:26:39",
+          "excerpt": "皆さんこんばんわ！ここ一週間メンタル不調の鬱で寝込んでいたポンコツエンジニアのGONです。更新を待ってくれていた方（いないか..） いきなりですが、食料品の消費減税のニュース見ましたか？きたる来年2027年4月。…"
+        },
+        {
+          "title": "AWS IAM Identity CenterのIdPにMicrosoft Entra IDを用いた構成の構築",
+          "link": "https://zenn.dev/tmiki/books/15a45bdc4f5d13",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-05T12:48:57",
+          "excerpt": "AWS IAM Identity CenterのIdentity sourceとして、Microsoft Entra IDを用いて、SAML 2.0によるSingle Sign-onを実現する構成を構築します。"
+        },
         {
           "title": "GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化",
           "link": "https://codezine.jp/article/detail/29578",
@@ -92,28 +106,42 @@
           "source": "DevelopersIO",
           "published": "2026-09-05T06:39:27",
           "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "label": "データ分析",
+      "summary": "データ分析の新着が2件。1.…",
+      "articles": [
+        {
+          "title": "AgentCore MemoryのFGACを実測 — Cedarでactor分離、permit合成の落とし穴はforbidで塞ぐ",
+          "link": "https://zenn.dev/kashiwabaray/articles/ecca09f13b1146",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-05T13:07:21",
+          "excerpt": "1.…"
         },
         {
-          "title": "AWS ParallelCluster の Slurm を CVE 対応の 25.11.8 にアップグレードしてみた",
-          "link": "https://dev.classmethod.jp/articles/aws-parallelcluster-slurm-25-11-8-inplace-upgrade/",
-          "source": "DevelopersIO",
-          "published": "2026-09-05T06:35:28",
-          "excerpt": "AWS ParallelCluster で Slurm の複数の CVE が報告されました。クラスターを作り直さずに対応する方法として、稼働中のシステムで Slurm 25.11.6 から 25.11.…"
-        },
-        {
-          "title": "サイバーセキュリティ報告書 | 東芝 サイバーセキュリティ | 東芝",
-          "link": "https://www.global.toshiba/jp/cybersecurity/corporate/report.html",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-05T06:08:47",
-          "excerpt": "東芝グループにおけるサイバーセキュリティに対する取り組みについて、2025年度の活動報告を「サイバーセキュリティ報告書 2026」としてPDFで提供しています。"
+          "title": "金融機関の電算部門を想定した、監査に耐えるデータ基盤の作り方(S3×Iceberg実践) (1) アーキテクチャ選定編",
+          "link": "https://zenn.dev/nyondev/articles/01-architecture",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-05T08:25:16",
+          "excerpt": "この記事は誰のためのものか この記事は、金融機関の電算部門・システム部門で「クラウド上のデータ基盤(データレイク)を触ることになったが、何から手をつけていいかわからない」という新人・若手担当者を対象にしています。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が4件。GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化",
+      "summary": "開発ツールの新着が4件。はじめに この記事ではEC2にデプロイしたSpringBoot Webアプリへのアクセス手段を、 http://EC2のパブリックIP:8080 ↓ http://example.com に切り替える方法を学びます。…",
       "articles": [
+        {
+          "title": "EC2にデプロイしたSpringBoot WebアプリをNginxを使って独自ドメインへのアクセスに切りかえる",
+          "link": "https://qiita.com/ShineYamamoto/items/82ccb5a7564164d2ff58",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-05T17:24:36",
+          "excerpt": "はじめに この記事ではEC2にデプロイしたSpringBoot Webアプリへのアクセス手段を、 http://EC2のパブリックIP:8080 ↓ http://example.com に切り替える方法を学びます。…"
+        },
         {
           "title": "GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化",
           "link": "https://codezine.jp/article/detail/29578",
@@ -134,45 +162,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-09-04T23:37:12",
           "excerpt": "おはようございます、YASUです。これまでplan・apply・fmt・validateと、作る・確認する系のコマンドを見てきましたが、今日は逆に「壊す」コマンド、terraform destroyについて整理します。…"
-        },
-        {
-          "title": "Goモノレポを CodePipeline で「差分だけ」デプロイする Lambda 基盤を作った話",
-          "link": "https://qiita.com/shrimpTail/items/783bda0a93e3a09dcf9f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-04T18:16:27",
-          "excerpt": "はじめに Goのモノレポに複数のLambda（user / order / post）を同居させて運用していると、あるところで必ずこう思います。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Telstra'd にならないように 1995 年の GPS タイム サーバーを再構築する",
-      "link": "https://www.jeffgeerling.com/blog/2026/truetime-xl-gps-time-server-restomod/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-05T15:22:02",
-      "excerpt": "記事の URL: https://www.jeffgeerling.com/blog/2026/truetime-xl-gps-time-server-restomod/ コメント URL: https://news.…"
-    },
-    {
-      "title": "テスラのサイバーキャブは導入され、すでに調査中です",
-      "link": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-09-05T15:17:36",
-      "excerpt": "米国政府はサイバーキャブが車両の安全基準を満たしているかどうかを調査している。"
-    },
-    {
-      "title": "Oura は上場するが、これらのスマートリング企業はその栄冠を狙ってやってくる",
-      "link": "https://techcrunch.com/2026/09/05/oura-is-going-public-but-these-smart-ring-companies-are-coming-for-its-crown/",
+      "title": "Clucky の新しいアラーム アプリは、鶏の鳴き声であなたを起こします",
+      "link": "https://techcrunch.com/2026/09/05/cluckys-new-alarm-app-wakes-you-up-with-a-crowing-rooster/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-05T15:00:00",
-      "excerpt": "Oura は長年にわたってスマートリング市場をほぼ独占してきましたが、現在ではますます多くのライバルが、市場で優位に立つためにあらゆる種類のアプローチを試み、市場の座を奪おうと競い合っています。"
+      "published": "2026-09-05T17:00:00",
+      "excerpt": "Clucky の新しい目覚ましアプリには、ユーザーが鶏の鳴き声で起きるオプションがあります。その後、彼らはそれをオフにするというミッションを完了します。"
     },
     {
-      "title": "地球を変える災害「フォーエバー・ケミカルズ」はどのようにして秘密にされたのか",
-      "link": "https://www.propublica.org/podcast/forever-chemicals-pfas-pfos-3m-secret-kris-hansen",
+      "title": "ボブとヴァン",
+      "link": "https://marco.org/2026/09/04/bob-and-van",
       "source": "Hacker News（英語）",
-      "published": "2026-09-05T14:40:52",
-      "excerpt": "記事の URL: https://www.propublica.org/podcast/forever-chemicals-pfas-pfos-3m-secret-kris-hansen コメント URL: https://news.…"
+      "published": "2026-09-05T16:30:35",
+      "excerpt": "記事の URL: https://marco.org/2026/09/04/bob-and-van コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "タバコ産業はどのようにして超加工食品の台頭を推進したか (2025 年)",
+      "link": "https://vcresearch.berkeley.edu/news/how-tobacco-industry-drove-rise-ultra-processed-foods",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-05T16:14:34",
+      "excerpt": "記事の URL: https://vcresearch.berkeley.…"
+    },
+    {
+      "title": "ウィキメディア財団職員が圧倒的多数でCWAとの組合結成に投票",
+      "link": "https://wikiworkersunited.org/announcements/2026-09-04-us-wikimedia-foundation-workers-overwhelmingly-vote-to-form-union-with-cwa/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-05T16:13:57",
+      "excerpt": "記事の URL: https://wikiworkersunited.…"
     }
   ]
 }
