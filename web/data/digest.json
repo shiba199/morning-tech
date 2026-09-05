@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-09-05T10:47:55",
+  "generated_at": "2026-09-05T13:35:33",
   "window_hours": 24,
-  "total": 133,
-  "topic_count": 5,
+  "total": 123,
+  "topic_count": 4,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が30件。AIに敬語を使うとトークン消費は増えるのか、試しに測ってみた はじめに Claude や Copilot を毎日使っていて、ふと「自分は結構丁寧な言葉遣いでプロンプトを書いているけど、これって地味にトークンを食っているのでは」と気になったの…",
+      "summary": "生成AIの新着が30件。概要 先日、ついに AmazonBedrock AgentCore paymentsがGAされました！！！プレビュー期間中に一度挑戦してみましたが設定がむず過ぎて途中で挫折していたのでGAに合わせてリベンジしてみました！…",
       "articles": [
+        {
+          "title": "Amazon Bedrock AgentCore payments と Privyで体験するx402！！",
+          "link": "https://qiita.com/mashharuki/items/bfd2d873b7d247c0caa9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-05T12:19:16",
+          "excerpt": "概要 先日、ついに AmazonBedrock AgentCore paymentsがGAされました！！！プレビュー期間中に一度挑戦してみましたが設定がむず過ぎて途中で挫折していたのでGAに合わせてリベンジしてみました！…"
+        },
         {
           "title": "AI AgentとのLLM会話で敬語を排除した結果、トークン消費量が27%削減された実測データと運用指針",
           "link": "https://qiita.com/RyugaMisono/items/1cc407415fd912f16724",
@@ -29,21 +36,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-09-05T05:37:01",
           "excerpt": "はじめに 最近、会社の後輩がMCP（Model Context Protocol）を使ってデータを取得し、AIエージェントに受け渡すシステムを開発していました。…"
-        },
-        {
-          "title": "Claude Code v2.1.261 の主要アップデート - /skill-doctor 追加と単語編集キーの Bash 準拠化",
-          "link": "https://dev.classmethod.jp/articles/20260905-cc-updates-v2-1-261/",
-          "source": "DevelopersIO",
-          "published": "2026-09-05T04:46:29",
-          "excerpt": "Claude Code v2.1.261がリリースされました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。アラート発生時、1段階目は SSM でサービスを再起動し、それで戻らなければ2段階目で EC2 を Stop/Start します。…",
+      "summary": "クラウドの新着が15件。EC2のAMIで起動可能なインスタンスタイプを明示的に指定できるようになりました。この機能で意図しないインスタンスタイプでの起動を防ぎ、コスト削減やインスタンスタイプ起因のトラブルを防止しましょう。…",
       "articles": [
+        {
+          "title": "[アップデート] Amazon EC2のAMIで起動可能なインスタンスタイプを制限できるようになりました",
+          "link": "https://dev.classmethod.jp/articles/ec2-ami-allowed-instance-types/",
+          "source": "DevelopersIO",
+          "published": "2026-09-05T13:15:01",
+          "excerpt": "EC2のAMIで起動可能なインスタンスタイプを明示的に指定できるようになりました。この機能で意図しないインスタンスタイプでの起動を防ぎ、コスト削減やインスタンスタイプ起因のトラブルを防止しましょう。…"
+        },
         {
           "title": "EC2 アプリケーションステータスチェックと Step Functions で Nginx の2段階自動復旧を試してみた",
           "link": "https://dev.classmethod.jp/articles/ec2-application-status-check-stepfunctions-two-stage-recovery/",
@@ -64,20 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-05T01:04:49",
           "excerpt": "📌 はじめに クラウドにおける高可用性（HA）とディザスタリカバリ（DR）設計では、「単一リージョン内でのアベイラビリティゾーン（AZ）障害」と「リージョン全体の全損障害」を明確に切り分けて対策を講じる必要があります。…"
-        },
-        {
-          "title": "Anthropic、顧客環境でデータ管理可能な「Enterprise Frontier Safeguards」を発表",
-          "link": "https://codezine.jp/article/detail/29579",
-          "source": "CodeZine",
-          "published": "2026-09-05T00:00:00",
-          "excerpt": "Anthropic、顧客環境でデータ管理可能な「Enterprise Frontier Safeguards」を発表"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化",
+      "summary": "セキュリティの新着が11件。GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化",
       "articles": [
         {
           "title": "GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化",
@@ -110,30 +110,9 @@
       ]
     },
     {
-      "id": "data",
-      "label": "データ分析",
-      "summary": "データ分析の新着が2件。記事の URL: https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer コメント URL: https://news.…",
-      "articles": [
-        {
-          "title": "SubImage (YC W25) がサンフランシスコで創業エンジニアを募集中",
-          "link": "https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-04T12:01:07",
-          "excerpt": "記事の URL: https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer コメント URL: https://news.…"
-        },
-        {
-          "title": "[アップデート] Amazon Redshift の rg.large インスタンスがシングルノードクラスターをサポートしました",
-          "link": "https://dev.classmethod.jp/articles/20260903-redshift-rg-large-single-node/",
-          "source": "DevelopersIO",
-          "published": "2026-09-04T11:00:26",
-          "excerpt": "AWS Graviton プロセッサ搭載の Amazon Redshift RG インスタンスが、シングルノード構成に対応しました。…"
-        }
-      ]
-    },
-    {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化",
+      "summary": "開発ツールの新着が4件。GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化",
       "articles": [
         {
           "title": "GitHub Actions、REST APIやセキュリティ権限など3つの機能を強化",
@@ -168,6 +147,20 @@
   ],
   "uncategorized": [
     {
+      "title": "AWSのDB、コンソールで中身が見えるやつと見えないやつがありました",
+      "link": "https://qiita.com/inoyu-qiita/items/a13df7f6019996e06ea3",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-05T11:34:21",
+      "excerpt": "Webアプリから社内APIを繋ぎこんだあと、「画面には出てるけど、これ本当にAWS側のDBに入ってる?」が気になって、AWSコンソールを開いて片っ端から確認してみました。…"
+    },
+    {
+      "title": "テルプストラ キーボード",
+      "link": "http://terpstrakeyboard.com/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-05T10:33:01",
+      "excerpt": "記事の URL: http://terpstrakeyboard.com/ コメント URL: https://news.ycombinator.com/item?id=49575150 ポイント: 10 コメント数: 4"
+    },
+    {
       "title": "くら寿司、「ちいかわ」コラボ中止　従業員による不正行為判明で",
       "link": "https://www.itmedia.co.jp/news/article/2609/05/2000001201/",
       "source": "ITmedia NEWS",
@@ -175,25 +168,11 @@
       "excerpt": "くら寿司が、開催中の「ちいかわ」コラボキャンペーンについて中止する。同コラボを巡っては、配布開始前にもかかわらずコラボグッズがフリマアプリに出品されていることなどがSNS上で問題視されていた。…"
     },
     {
-      "title": "Snowflake Gateway による A/B テスト用トラフィック分割を試してみた",
-      "link": "https://dev.classmethod.jp/articles/snowflake-model-monitoring-ab-testing-try/",
-      "source": "DevelopersIO",
-      "published": "2026-09-05T08:59:16",
-      "excerpt": "Snowflake の2026年8月アップデートで一般提供されたGateway Monitoring と A/B Testing について、ゲートウェイの作成からトラフィック分割までを実際に試してみましたので、その内容をまとめてみます。"
-    },
-    {
-      "title": "Amazon Linux 2027(プレビュー)とAmazon Linux 2023で何が違うのかをまとめてみる",
-      "link": "https://qiita.com/ike_s_muramatsu/items/bc460eda8da93d702eed",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-05T08:58:56",
-      "excerpt": "導入・背景 2026年9月、AWSからAmazon Linux 2027(以下、AL2027)のパブリックプレビュー開始が発表されました。…"
-    },
-    {
-      "title": "「AI＝GPU」がもはや昔の常識に　「CPU」に何が起きるのか",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news010.html",
-      "source": "@IT",
-      "published": "2026-09-05T08:00:00",
-      "excerpt": "生成AIの急速な普及によって、存在感を高めている「GPU」。ではAI時代には、「CPU」の重要性は低下していくのだろうか。そうではないとArmは指摘する。"
+      "title": "オランダ、「地政学的不安」を懸念して米国から金を引き揚げる",
+      "link": "https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-05T10:14:28",
+      "excerpt": "記事の URL: https://www.abc.net.…"
     }
   ]
 }
