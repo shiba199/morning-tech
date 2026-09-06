@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-06T04:52:36",
+  "generated_at": "2026-09-06T09:01:14",
   "window_hours": 24,
-  "total": 86,
+  "total": 78,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。記事の URL: https://openai.robocurve.org/gpt-6-astra/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が15件。記事の URL: https://openai.robocurve.org/gpt-6-astra/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
           "title": "ロボットアーム上の GPT-6 アストラ",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が5件。はじめに この記事ではEC2にデプロイしたSpringBoot Webアプリへのアクセス手段を、 http://EC2のパブリックIP:8080 ↓ http://example.com に切り替える方法を学びます。…",
+      "summary": "クラウドの新着が4件。# はじめにどうも、わたしです。最近、安価なVPS上で複数のワークロードをいい感じに収容する方法について考えています。こんなツイートが伸びるくらいなので、もしかしたら多くの人が気になっているのではないでしょうか。…",
       "articles": [
+        {
+          "title": "やはりKubernetesからは逃れられない - まいの雑記帳",
+          "link": "https://mq1.dev/entry/U0w-0MgT8IhM",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-09-05T18:30:52",
+          "excerpt": "# はじめにどうも、わたしです。最近、安価なVPS上で複数のワークロードをいい感じに収容する方法について考えています。こんなツイートが伸びるくらいなので、もしかしたら多くの人が気になっているのではないでしょうか。…"
+        },
         {
           "title": "EC2にデプロイしたSpringBoot WebアプリをNginxを使って独自ドメインへのアクセスに切りかえる",
           "link": "https://qiita.com/ShineYamamoto/items/82ccb5a7564164d2ff58",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-09-05T13:15:01",
           "excerpt": "EC2のAMIで起動可能なインスタンスタイプを明示的に指定できるようになりました。この機能で意図しないインスタンスタイプでの起動を防ぎ、コスト削減やインスタンスタイプ起因のトラブルを防止しましょう。…"
-        },
-        {
-          "title": "EC2 アプリケーションステータスチェックと Step Functions で Nginx の2段階自動復旧を試してみた",
-          "link": "https://dev.classmethod.jp/articles/ec2-application-status-check-stepfunctions-two-stage-recovery/",
-          "source": "DevelopersIO",
-          "published": "2026-09-05T08:46:22",
-          "excerpt": "アラート発生時、1段階目は SSM でサービスを再起動し、それで戻らなければ2段階目で EC2 を Stop/Start します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。Security Hubが自動作成する未使用アクセスアナライザーはアーカイブルールが設定できないため、Security Hubの自動化ルールを使った検知の抑制方法を試してみました。",
+      "summary": "セキュリティの新着が4件。Security Hubが自動作成する未使用アクセスアナライザーはアーカイブルールが設定できないため、Security Hubの自動化ルールを使った検知の抑制方法を試してみました。",
       "articles": [
         {
           "title": "Security Hubが自動作成するIAM Access Analyzerの未使用アナライザーはアーカイブルールが設定できないのでSecurity Hubの自動化ルールで抑制してみる",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。1.…",
+      "summary": "データ分析の新着が1件。1.…",
       "articles": [
         {
           "title": "AgentCore MemoryのFGACを実測 — Cedarでactor分離、permit合成の落とし穴はforbidで塞ぐ",
@@ -120,20 +120,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-09-05T13:07:21",
           "excerpt": "1.…"
-        },
-        {
-          "title": "金融機関の電算部門を想定した、監査に耐えるデータ基盤の作り方(S3×Iceberg実践) (1) アーキテクチャ選定編",
-          "link": "https://zenn.dev/nyondev/articles/01-architecture",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-05T08:25:16",
-          "excerpt": "この記事は誰のためのものか この記事は、金融機関の電算部門・システム部門で「クラウド上のデータ基盤(データレイク)を触ることになったが、何から手をつけていいかわからない」という新人・若手担当者を対象にしています。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。Lambdaで関数は作れた。なのにブラウザから呼べるURLが無い。この記事はAWS勉強シリーズの15本目で、関数を「世界中から呼べるURL」に変えるAPI Gatewayを扱います。…",
+      "summary": "開発ツールの新着が4件。Lambdaで関数は作れた。なのにブラウザから呼べるURLが無い。この記事はAWS勉強シリーズの15本目で、関数を「世界中から呼べるURL」に変えるAPI Gatewayを扱います。…",
       "articles": [
         {
           "title": "【図解】AWS API Gatewayとは。デプロイまで公開されない4階層まとめ",
@@ -168,32 +161,32 @@
   ],
   "uncategorized": [
     {
-      "title": "【備忘】【AWS関連】公式ブログ および アップデートまとめ（ネットワーク関連のみ抽出）(2026/08/03)",
-      "link": "https://qiita.com/dctsatopy/items/6e24da4d4d3446a8736c",
+      "title": "AWSでALBとAuto Scalingを使ったAPIサーバーの冗長化構成を作る",
+      "link": "https://qiita.com/kb8864/items/9e5401e306428eb49bf0",
       "source": "Qiita AWSタグ",
-      "published": "2026-09-06T04:21:35",
-      "excerpt": "この記事について AWS 公式が公表している週刊 AWS やアップデート情報の中から、ネットワークリソース関連の情報を集約して把握するため、Claude を活用してサマリーを生成・出力しています。…"
+      "published": "2026-09-06T08:38:06",
+      "excerpt": "はじめに この記事は個人の学習用として作成してます。間違いがあればご指摘ください。前回はWebサーバーとAPIサーバーを1台ずつ構築し、VPC内で通信できるところまで確認した。…"
     },
     {
-      "title": "いざAWS re:Inventへ！！！実体験から学ぶ最適な持ち物選び",
-      "link": "https://qiita.com/ec2_on_aws/items/8d863c441b396592f5d8",
+      "title": "【AWS初心者向け】AWSを勉強する前にLinuxを学んだ方がいい5つの理由",
+      "link": "https://qiita.com/reo_infraengineer/items/6b2489d32a516a9258d2",
       "source": "Qiita AWSタグ",
-      "published": "2026-09-06T04:17:07",
-      "excerpt": "はじめに 2025年に作成したAWS Summitのおすすめ持ち物記事を、AWS Summit Japan 2026の前に結構見ていただいた、、ということもあり、AWS re:Inventバージョンも作成してみました 海外旅行出張のため、基…"
+      "published": "2026-09-06T08:28:53",
+      "excerpt": "こんにちは、Reoです。現在はフリーランスのインフラエンジニアとして現場で働きながら、インフラ特化の学習サービス「InfraDojo（インフラ道場）」を運営しています。…"
     },
     {
-      "title": "バンクーバーのストリップクラブのインスタグラムが湖のジョークをフィーチャーした看板で削除される",
-      "link": "https://www.vancouverisawesome.com/local-news/vancouver-strip-club-instagram-taken-down-sign-calls-out-trump-12725993",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-06T04:07:40",
-      "excerpt": "記事の URL: https://www.vancouverisawesome.…"
+      "title": "タイムロードたちは次の千年紀に閏秒を刻む準備をしている",
+      "link": "https://www.theregister.com/offbeat/2026/09/06/time-lords-prepare-to-kick-leap-seconds-into-the-next-millennium/5294538",
+      "source": "The Register（英語）",
+      "published": "2026-09-06T08:09:00",
+      "excerpt": "前例のないマイナス調整のリスクにより、UTCを最大1時間ずらす計画を急ぐ"
     },
     {
-      "title": "npm、複数の信頼性の高い公開設定など新機能を一般公開",
-      "link": "https://codezine.jp/article/detail/29582",
+      "title": "Apple、Intel MacアプリのRosettaサポート終了時期を発表",
+      "link": "https://codezine.jp/article/detail/29583",
       "source": "CodeZine",
-      "published": "2026-09-06T04:00:00",
-      "excerpt": "npm、複数の信頼性の高い公開設定など新機能を一般公開"
+      "published": "2026-09-06T08:00:00",
+      "excerpt": "Apple、Intel MacアプリのRosettaサポート終了時期を発表"
     }
   ]
 }
