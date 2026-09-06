@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-09-06T12:58:25",
+  "generated_at": "2026-09-06T15:57:30",
   "window_hours": 24,
-  "total": 83,
+  "total": 88,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が11件。記事の URL: https://openai.robocurve.org/gpt-6-astra/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が12件。Bedrockという窓口 システムにLLMを組み込むと聞いて最初に思い浮かぶのは、OpenAIやAnthropicのAPIを直接叩く方法でしょう。実際、それが一番手数が少ないです。…",
       "articles": [
+        {
+          "title": "AWS Bedrock 推論プロファイルとは何か",
+          "link": "https://zenn.dev/suit9/articles/36842bf4aba124",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-06T01:58:27",
+          "excerpt": "Bedrockという窓口 システムにLLMを組み込むと聞いて最初に思い浮かぶのは、OpenAIやAnthropicのAPIを直接叩く方法でしょう。実際、それが一番手数が少ないです。…"
+        },
         {
           "title": "ロボットアーム上の GPT-6 アストラ",
           "link": "https://openai.robocurve.org/gpt-6-astra/",
@@ -17,68 +24,75 @@
           "excerpt": "記事の URL: https://openai.robocurve.org/gpt-6-astra/ コメント URL: https://news.ycombinator.com/item?…"
         },
         {
+          "title": "Amazon BedrockとLINE Messaging APIでAWS試験対策チャットボットを作ってみた",
+          "link": "https://zenn.dev/eggplant/articles/5487944a10e002",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-06T01:30:18",
+          "excerpt": "はじめに AWS認定の学習を進める中で、座学だけでなく実際に手を動かして理解を深めたいと考え、Amazon Bedrockを使ったLINEチャットボットのハンズオンに取り組みました。…"
+        },
+        {
           "title": "SageMaker Studio とSageMaker ノートブックの違い",
           "link": "https://qiita.com/DaijiroNozaki-afk/items/2e1d7a74c9347394eb2a",
           "source": "Qiita AWSタグ",
           "published": "2026-09-06T00:51:10",
           "excerpt": "前提 AWS Certified Machine Learning Engineer – Associateの問題集を解いていると、Amazon SageMaker StudioとAmazon SageMaker ノートブックの違いが判らな…"
-        },
-        {
-          "title": "Google Workspace、Gemini Notebookの包括的な監査ログが利用可能に",
-          "link": "https://codezine.jp/article/detail/29581",
-          "source": "CodeZine",
-          "published": "2026-09-06T00:00:00",
-          "excerpt": "Google Workspace、Gemini Notebookの包括的な監査ログが利用可能に"
-        },
-        {
-          "title": "GPT-6 Astra で飛躍的に向上したBlender 制作能力｜npaka",
-          "link": "https://note.com/npaka/n/n9635d06c377f",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-05T23:12:07",
-          "excerpt": "「GPT-6 Astra」で飛躍的に向上した「Blender」 制作能力についてまとめました。1.はじめにOpenAIは2026年9月3日、新モデル「GPT-6 Astra」を発表しました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が6件。iOS 27で新しく追加された`reorderable()`と`reorderContainer()`というAPIを実際に使ってみました。…",
+      "summary": "クラウドの新着が8件。はじめに 2026年9月4日、AWS MCP Serverに Serverless capability が追加されました。Lambda関数とその接続先リソースの障害を、AIエージェントが診断できるようにする機能です。…",
       "articles": [
+        {
+          "title": "AWS MCP Serverに追加されたServerless capabilityを試してみる",
+          "link": "https://qiita.com/eureka_/items/185757f71c71ad819ca4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-06T15:21:59",
+          "excerpt": "はじめに 2026年9月4日、AWS MCP Serverに Serverless capability が追加されました。Lambda関数とその接続先リソースの障害を、AIエージェントが診断できるようにする機能です。…"
+        },
+        {
+          "title": "Aurora MySQL 8.4.8 の新機能「遅延レプリケーション」で DROP TABLE からの復旧を試してみた",
+          "link": "https://dev.classmethod.jp/articles/aurora-mysql-delayed-replication/",
+          "source": "DevelopersIO",
+          "published": "2026-09-06T15:09:14",
+          "excerpt": "Aurora MySQL 8.4.8 のクラスター間に 300 秒の遅延レプリケーションを設定し、ソースで DROP TABLE を実行した場合の復旧を試しました。…"
+        },
+        {
+          "title": "【AWS/IaC】AWS IAM OIDC 認証を活用した ECS Fargate の安全な CI/CD 環境構築ガイド",
+          "link": "https://qiita.com/kentaro_abe/items/972fdce6ad59e3f8577e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-06T14:34:33",
+          "excerpt": "1.…"
+        },
         {
           "title": "iOS 27のreorderable container APIで並べ替えを試してみる",
           "link": "https://dev.classmethod.jp/articles/ios27-reorderable-api/",
           "source": "DevelopersIO",
           "published": "2026-09-06T12:29:57",
           "excerpt": "iOS 27で新しく追加された`reorderable()`と`reorderContainer()`というAPIを実際に使ってみました。…"
-        },
-        {
-          "title": "Amazon Aurora MySQL 8.4.8 が GA したので 8.4.7 からの変更点を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/aurora-mysql-848-ga-diff-from-847/",
-          "source": "DevelopersIO",
-          "published": "2026-09-06T11:23:24",
-          "excerpt": "2026年9月3日に GA となった Amazon Aurora MySQL 8.4.8 を東京リージョンで起動し、8.4.7 からの主要な変更点を確認しました。…"
-        },
-        {
-          "title": "やはりKubernetesからは逃れられない - まいの雑記帳",
-          "link": "https://mq1.dev/entry/U0w-0MgT8IhM",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-05T18:30:52",
-          "excerpt": "# はじめにどうも、わたしです。最近、安価なVPS上で複数のワークロードをいい感じに収容する方法について考えています。こんなツイートが伸びるくらいなので、もしかしたら多くの人が気になっているのではないでしょうか。…"
-        },
-        {
-          "title": "EC2にデプロイしたSpringBoot WebアプリをNginxを使って独自ドメインへのアクセスに切りかえる",
-          "link": "https://qiita.com/ShineYamamoto/items/82ccb5a7564164d2ff58",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-05T17:24:36",
-          "excerpt": "はじめに この記事ではEC2にデプロイしたSpringBoot Webアプリへのアクセス手段を、 http://EC2のパブリックIP:8080 ↓ http://example.com に切り替える方法を学びます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が3件。Security Hubが自動作成する未使用アクセスアナライザーはアーカイブルールが設定できないため、Security Hubの自動化ルールを使った検知の抑制方法を試してみました。",
+      "summary": "セキュリティの新着が5件。はじめに こんにちは。マルチアカウント運用を楽にしたいすずきです。AWS Organizationsの一人アドミン検証シリーズの3本目です。…",
       "articles": [
+        {
+          "title": "【AWS IAM Identity Center】個人アカウントで一人アドミンに挑戦してみた！(IAM Identity Center編)",
+          "link": "https://qiita.com/yosuke-suzuki/items/6aa8e6cf04ea330cb597",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-06T14:53:44",
+          "excerpt": "はじめに こんにちは。マルチアカウント運用を楽にしたいすずきです。AWS Organizationsの一人アドミン検証シリーズの3本目です。…"
+        },
+        {
+          "title": "【AWS/IaC】AWS IAM OIDC 認証を活用した ECS Fargate の安全な CI/CD 環境構築ガイド",
+          "link": "https://qiita.com/kentaro_abe/items/972fdce6ad59e3f8577e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-06T14:34:33",
+          "excerpt": "1.…"
+        },
         {
           "title": "Security Hubが自動作成するIAM Access Analyzerの未使用アナライザーはアーカイブルールが設定できないのでSecurity Hubの自動化ルールで抑制してみる",
           "link": "https://dev.classmethod.jp/articles/security-hub-automation-rules-suppress-unused-access-findings/",
@@ -92,35 +106,35 @@
           "source": "はてなブックマーク（テクノロジー）",
           "published": "2026-09-06T00:42:44",
           "excerpt": "Product Engineering Conference 2026の登壇資料。https://product-engineering.jp/2026/ プロポーザル。https://fortee.…"
-        },
-        {
-          "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』構築時に学んだAWS運用のセキュリティ基礎と落とし穴回避術について",
-          "link": "https://qiita.com/Veteran/items/ef881f0bd3a8e9069681",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-05T16:26:39",
-          "excerpt": "皆さんこんばんわ！ここ一週間メンタル不調の鬱で寝込んでいたポンコツエンジニアのGONです。更新を待ってくれていた方（いないか..） いきなりですが、食料品の消費減税のニュース見ましたか？きたる来年2027年4月。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が1件。1.…",
+      "summary": "データ分析の新着が1件。はじめに 2026年9月4日、AWS MCP Serverに Serverless capability が追加されました。Lambda関数とその接続先リソースの障害を、AIエージェントが診断できるようにする機能です。…",
       "articles": [
         {
-          "title": "AgentCore MemoryのFGACを実測 — Cedarでactor分離、permit合成の落とし穴はforbidで塞ぐ",
-          "link": "https://zenn.dev/kashiwabaray/articles/ecca09f13b1146",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-05T13:07:21",
-          "excerpt": "1.…"
+          "title": "AWS MCP Serverに追加されたServerless capabilityを試してみる",
+          "link": "https://qiita.com/eureka_/items/185757f71c71ad819ca4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-06T15:21:59",
+          "excerpt": "はじめに 2026年9月4日、AWS MCP Serverに Serverless capability が追加されました。Lambda関数とその接続先リソースの障害を、AIエージェントが診断できるようにする機能です。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。はじめに 普段の業務で何気なく利用しているAWS CDK。おさらいの意味も込めて、実行環境の構築からVPC, 各種AWSリソースの構築などの導入となる部分を振り返る。プログラム言語はPythonとする。環境 OS：Ubuntu 24.…",
+      "summary": "開発ツールの新着が5件。1.…",
       "articles": [
+        {
+          "title": "【AWS/IaC】AWS IAM OIDC 認証を活用した ECS Fargate の安全な CI/CD 環境構築ガイド",
+          "link": "https://qiita.com/kentaro_abe/items/972fdce6ad59e3f8577e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-06T14:34:33",
+          "excerpt": "1.…"
+        },
         {
           "title": "AWS CDKをPythonでやってみる　実行環境構築からリソース作成まで",
           "link": "https://qiita.com/citrus_jp/items/c4345c60ce34d2ebed1e",
@@ -141,45 +155,38 @@
           "source": "Hacker News（英語）",
           "published": "2026-09-05T22:15:52",
           "excerpt": "記事の URL: https://github.com/okf-memory/okf-agent-memory コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "EC2にデプロイしたSpringBoot WebアプリをNginxを使って独自ドメインへのアクセスに切りかえる",
-          "link": "https://qiita.com/ShineYamamoto/items/82ccb5a7564164d2ff58",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-05T17:24:36",
-          "excerpt": "はじめに この記事ではEC2にデプロイしたSpringBoot Webアプリへのアクセス手段を、 http://EC2のパブリックIP:8080 ↓ http://example.com に切り替える方法を学びます。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "月額固定費を削るために ALB から public IPv4 を外した話",
-      "link": "https://qiita.com/toaru_website/items/e2de287d51dd1b40505b",
+      "title": "AWS素人がAWSアイコンクイズアプリを作ってみた",
+      "link": "https://qiita.com/apteryx-nz/items/9ce7374ddae5c874a916",
       "source": "Qiita AWSタグ",
-      "published": "2026-09-06T12:16:41",
-      "excerpt": "要約 個人運営の Web サービス (Go + Next.js を ECS Fargate で運用) から NAT Gateway と public IPv4 をほぼ全廃した。…"
+      "published": "2026-09-06T15:18:24",
+      "excerpt": "はじめに 業務を通じてAWSの構成図を見る機会は多いのですが、1枚の図にサービスが詰め込まれすぎて配置に困ったり、時間がなかったのかアイコンだけが置かれてサービス名が書かれていない構成図に出会うことがあります。…"
     },
     {
-      "title": "創造性のペンケースモデル",
-      "link": "https://dub.uu.nl/en/column/pencil-case-model-creativity",
+      "title": "アルバータ州（カナダ）が太陽光パネルに懲罰的な税金を課す",
+      "link": "https://albertapolitics.ca/2026/09/ucp-slaps-punitive-tax-on-solar-panels-opening-new-front-in-its-war-on-renewable-energy/",
       "source": "Hacker News（英語）",
-      "published": "2026-09-06T12:05:34",
-      "excerpt": "記事の URL: https://dub.uu.nl/en/column/pencil-case-model-creativity コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-09-06T15:14:06",
+      "excerpt": "記事の URL: https://albertapolitics.…"
     },
     {
-      "title": "インテリジェント・フライはオープンです",
-      "link": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-06T11:56:43",
-      "excerpt": "記事の URL: https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/ コメント URL: https://news.ycombinator.…"
+      "title": "VS Code誕生から現在までの物語「The Story of VS Code」YouTubeで公開。作者のエリック・ガンマ氏はなぜIBMからMSへ移籍してVS Codeを作ることになったか",
+      "link": "https://www.publickey1.jp/blog/26/vs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html",
+      "source": "Publickey",
+      "published": "2026-09-06T15:07:10",
+      "excerpt": "Visual Studio Code（以下、VS Code）はいまやITエンジニアのあいだで最も人気のあるコードエディタの地位を確立しています。VS Codeはオープンソースであり、そしてWindows、Mac、Linuxのマルチプラット.…"
     },
     {
-      "title": "ドイツの会社がヨーロッパで初めて完全に商業的な軌道ロケットを打ち上げた",
-      "link": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-09-06T11:55:26",
-      "excerpt": "「私たちは、ヨーロッパの宇宙産業が数十年前にかかっていたことを数年以内に達成しました。」"
+      "title": "JavaScriptをC言語にコンパイルする「porffor」がアルファ版に到達。ネイティブやWASMを生成可能",
+      "link": "https://www.publickey1.jp/blog/26/javascriptcporfforwasm.html",
+      "source": "Publickey",
+      "published": "2026-09-06T15:04:34",
+      "excerpt": "JavaScriptを事前コンパイルしてC言語に変換するコンパイラ「porffor」（発音はpoor-for）がアルファ版に到達したことが発表されました（公式サイト、GitHubリポジトリ）。作者のOliver Medhurst氏が明らか.…"
     }
   ]
 }
