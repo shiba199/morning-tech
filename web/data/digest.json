@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-06T17:56:46",
+  "generated_at": "2026-09-06T19:48:51",
   "window_hours": 24,
-  "total": 92,
+  "total": 98,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が14件。記事の URL: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/ コメント URL: https://news.…",
+      "summary": "生成AIの新着が12件。記事の URL: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/ コメント URL: https://news.…",
       "articles": [
         {
           "title": "内部コーディングエージェントの位置ずれを監視します",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。はじめに 2026年9月4日、AWS MCP Serverに Serverless capability が追加されました。Lambda関数とその接続先リソースの障害を、AIエージェントが診断できるようにする機能です。…",
+      "summary": "クラウドの新着が10件。はじめに AWSの学習環境を片付けたあと、次のように不安になることがあります。…",
       "articles": [
+        {
+          "title": "AWS CloudTrailでEC2停止と削除履歴を確認する手順",
+          "link": "https://qiita.com/s_horikoshi/items/598765fa49aab238a322",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-06T18:59:24",
+          "excerpt": "はじめに AWSの学習環境を片付けたあと、次のように不安になることがあります。…"
+        },
         {
           "title": "AWS MCP Serverに追加されたServerless capabilityを試してみる",
           "link": "https://qiita.com/eureka_/items/185757f71c71ad819ca4",
@@ -59,18 +66,11 @@
           "excerpt": "Aurora MySQL 8.4.8 のクラスター間に 300 秒の遅延レプリケーションを設定し、ソースで DROP TABLE を実行した場合の復旧を試しました。…"
         },
         {
-          "title": "【AWS/IaC】AWS IAM OIDC 認証を活用した ECS Fargate の安全な CI/CD 環境構築ガイド",
-          "link": "https://qiita.com/kentaro_abe/items/972fdce6ad59e3f8577e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-06T14:34:33",
-          "excerpt": "1.…"
-        },
-        {
-          "title": "iOS 27のreorderable container APIで並べ替えを試してみる",
-          "link": "https://dev.classmethod.jp/articles/ios27-reorderable-api/",
-          "source": "DevelopersIO",
-          "published": "2026-09-06T12:29:57",
-          "excerpt": "iOS 27で新しく追加された`reorderable()`と`reorderContainer()`というAPIを実際に使ってみました。…"
+          "title": "Step FunctionsでEC2バックアップ｜AMIがavailableになるまで本当に待つ必要がある？",
+          "link": "https://zenn.dev/takuyousou/articles/step-functions-ami-backup-waiting",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-06T14:35:04",
+          "excerpt": "はじめに こんにちは、宋です。今回、EC2 の定期バックアップとして、AWS Step Functions を利用して AMI を自動作成する仕組みを構築しました。…"
         }
       ]
     },
@@ -175,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "ブラウザ上で動作する任意の Nix パッケージ",
-      "link": "https://fzakaria.com/2026/09/04/any-nix-package-live-in-your-browser",
+      "title": "Finder は非常にイライラしており、初日からイライラしています",
+      "link": "https://kepter.app/finder",
       "source": "Hacker News（英語）",
-      "published": "2026-09-06T17:00:56",
-      "excerpt": "記事の URL: https://frakuria.com/2026/09/04/any-nix-package-live-in-your-browser コメント URL: https://news.ycombinator.…"
+      "published": "2026-09-06T19:06:09",
+      "excerpt": "記事の URL: https://kepter.app/finder コメント URL: https://news.ycombinator.com/item?id=49589722 ポイント: 32 コメント数: 25"
     },
     {
-      "title": "Opalite Health (YC W26) が人材を募集しています – GTM の創設者",
-      "link": "https://www.ycombinator.com/companies/opalite-health/jobs/bNedVAD-founding-gtm",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-06T17:00:28",
-      "excerpt": "記事の URL: https://www.ycombinator.com/companies/opalite-health/jobs/bNedVAD-founding-gtm コメント URL: https://news.…"
+      "title": "Kiro Webから別AWSアカウントへスイッチロールできるか検証してみた[できた]",
+      "link": "https://dev.classmethod.jp/articles/kiro-web-role-chaining/",
+      "source": "DevelopersIO",
+      "published": "2026-09-06T18:27:06",
+      "excerpt": "Kiro Webから別のAWSアカウントのIAM Roleへのスイッチロールはできまぁす！信頼ポリシーにの設定がミソです。"
     },
     {
-      "title": "トラヴィス・カラニックのアトムズがロボタクシー事業に参入するかもしれない",
-      "link": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-06T16:45:00",
-      "excerpt": "ウーバー創設者はアトムズによって「未完の仕事」を完了できると述べた。"
+      "title": "法的アドバイスに従って、Nitter プロジェクトは継続されます",
+      "link": "https://github.com/zedeus/nitter",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-06T17:51:23",
+      "excerpt": "記事の URL: https://github.com/zedeus/nitter コメント URL: https://news.ycombinator.com/item?id=49589003 ポイント: 202 コメント数: 43"
     },
     {
-      "title": "エイリアンの心",
-      "link": "https://openai.com/index/an-alien-mind/",
+      "title": "Nitter はアーカイブされてお​​らず、今後も継続します",
+      "link": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
       "source": "Hacker News（英語）",
-      "published": "2026-09-06T16:27:05",
-      "excerpt": "記事の URL: https://openai.com/index/an-alien-mind/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-09-06T17:49:47",
+      "excerpt": "記事の URL: https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3 コメント URL: https://news.…"
     }
   ]
 }
