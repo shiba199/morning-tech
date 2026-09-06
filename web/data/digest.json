@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-06T09:01:14",
+  "generated_at": "2026-09-06T12:58:25",
   "window_hours": 24,
-  "total": 78,
+  "total": 83,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が15件。記事の URL: https://openai.robocurve.org/gpt-6-astra/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が11件。記事の URL: https://openai.robocurve.org/gpt-6-astra/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
           "title": "ロボットアーム上の GPT-6 アストラ",
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が4件。# はじめにどうも、わたしです。最近、安価なVPS上で複数のワークロードをいい感じに収容する方法について考えています。こんなツイートが伸びるくらいなので、もしかしたら多くの人が気になっているのではないでしょうか。…",
+      "summary": "クラウドの新着が6件。iOS 27で新しく追加された`reorderable()`と`reorderContainer()`というAPIを実際に使ってみました。…",
       "articles": [
+        {
+          "title": "iOS 27のreorderable container APIで並べ替えを試してみる",
+          "link": "https://dev.classmethod.jp/articles/ios27-reorderable-api/",
+          "source": "DevelopersIO",
+          "published": "2026-09-06T12:29:57",
+          "excerpt": "iOS 27で新しく追加された`reorderable()`と`reorderContainer()`というAPIを実際に使ってみました。…"
+        },
+        {
+          "title": "Amazon Aurora MySQL 8.4.8 が GA したので 8.4.7 からの変更点を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/aurora-mysql-848-ga-diff-from-847/",
+          "source": "DevelopersIO",
+          "published": "2026-09-06T11:23:24",
+          "excerpt": "2026年9月3日に GA となった Amazon Aurora MySQL 8.4.8 を東京リージョンで起動し、8.4.7 からの主要な変更点を確認しました。…"
+        },
         {
           "title": "やはりKubernetesからは逃れられない - まいの雑記帳",
           "link": "https://mq1.dev/entry/U0w-0MgT8IhM",
@@ -57,27 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-05T17:24:36",
           "excerpt": "はじめに この記事ではEC2にデプロイしたSpringBoot Webアプリへのアクセス手段を、 http://EC2のパブリックIP:8080 ↓ http://example.com に切り替える方法を学びます。…"
-        },
-        {
-          "title": "Amazon EKS がクラスターごとに複数の外部 OIDC ID プロバイダーをサポート",
-          "link": "https://qiita.com/Haruki-N/items/84e774c331174a9b6dd4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-05T14:23:07",
-          "excerpt": "はじめに 2026 年 8 月 24 日、AWS は Amazon EKS に対して複数の外部 OIDC アイデンティティプロバイダーのサポートを発表しました。…"
-        },
-        {
-          "title": "[アップデート] Amazon EC2のAMIで起動可能なインスタンスタイプを制限できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/ec2-ami-allowed-instance-types/",
-          "source": "DevelopersIO",
-          "published": "2026-09-05T13:15:01",
-          "excerpt": "EC2のAMIで起動可能なインスタンスタイプを明示的に指定できるようになりました。この機能で意図しないインスタンスタイプでの起動を防ぎ、コスト削減やインスタンスタイプ起因のトラブルを防止しましょう。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。Security Hubが自動作成する未使用アクセスアナライザーはアーカイブルールが設定できないため、Security Hubの自動化ルールを使った検知の抑制方法を試してみました。",
+      "summary": "セキュリティの新着が3件。Security Hubが自動作成する未使用アクセスアナライザーはアーカイブルールが設定できないため、Security Hubの自動化ルールを使った検知の抑制方法を試してみました。",
       "articles": [
         {
           "title": "Security Hubが自動作成するIAM Access Analyzerの未使用アナライザーはアーカイブルールが設定できないのでSecurity Hubの自動化ルールで抑制してみる",
@@ -99,13 +99,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-05T16:26:39",
           "excerpt": "皆さんこんばんわ！ここ一週間メンタル不調の鬱で寝込んでいたポンコツエンジニアのGONです。更新を待ってくれていた方（いないか..） いきなりですが、食料品の消費減税のニュース見ましたか？きたる来年2027年4月。…"
-        },
-        {
-          "title": "AWS IAM Identity CenterのIdPにMicrosoft Entra IDを用いた構成の構築",
-          "link": "https://zenn.dev/tmiki/books/15a45bdc4f5d13",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-05T12:48:57",
-          "excerpt": "AWS IAM Identity CenterのIdentity sourceとして、Microsoft Entra IDを用いて、SAML 2.0によるSingle Sign-onを実現する構成を構築します。"
         }
       ]
     },
@@ -126,8 +119,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が4件。Lambdaで関数は作れた。なのにブラウザから呼べるURLが無い。この記事はAWS勉強シリーズの15本目で、関数を「世界中から呼べるURL」に変えるAPI Gatewayを扱います。…",
+      "summary": "開発ツールの新着が5件。はじめに 普段の業務で何気なく利用しているAWS CDK。おさらいの意味も込めて、実行環境の構築からVPC, 各種AWSリソースの構築などの導入となる部分を振り返る。プログラム言語はPythonとする。環境 OS：Ubuntu 24.…",
       "articles": [
+        {
+          "title": "AWS CDKをPythonでやってみる　実行環境構築からリソース作成まで",
+          "link": "https://qiita.com/citrus_jp/items/c4345c60ce34d2ebed1e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-06T10:19:38",
+          "excerpt": "はじめに 普段の業務で何気なく利用しているAWS CDK。おさらいの意味も込めて、実行環境の構築からVPC, 各種AWSリソースの構築などの導入となる部分を振り返る。プログラム言語はPythonとする。環境 OS：Ubuntu 24.…"
+        },
         {
           "title": "【図解】AWS API Gatewayとは。デプロイまで公開されない4階層まとめ",
           "link": "https://qiita.com/daisuke-nagata/items/15505f18f2c7e7edd04a",
@@ -148,45 +148,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-05T17:24:36",
           "excerpt": "はじめに この記事ではEC2にデプロイしたSpringBoot Webアプリへのアクセス手段を、 http://EC2のパブリックIP:8080 ↓ http://example.com に切り替える方法を学びます。…"
-        },
-        {
-          "title": ".gitignore デフォルトですべてを無視",
-          "link": "https://packagemain.tech/p/gitignore-everything-by-default",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-05T14:58:37",
-          "excerpt": "誰もがそこに行ったことがあると思います。プロジェクトに取り組んでコミットを行っているときに、突然、リポジトリにあるべきではない .…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWSでALBとAuto Scalingを使ったAPIサーバーの冗長化構成を作る",
-      "link": "https://qiita.com/kb8864/items/9e5401e306428eb49bf0",
+      "title": "月額固定費を削るために ALB から public IPv4 を外した話",
+      "link": "https://qiita.com/toaru_website/items/e2de287d51dd1b40505b",
       "source": "Qiita AWSタグ",
-      "published": "2026-09-06T08:38:06",
-      "excerpt": "はじめに この記事は個人の学習用として作成してます。間違いがあればご指摘ください。前回はWebサーバーとAPIサーバーを1台ずつ構築し、VPC内で通信できるところまで確認した。…"
+      "published": "2026-09-06T12:16:41",
+      "excerpt": "要約 個人運営の Web サービス (Go + Next.js を ECS Fargate で運用) から NAT Gateway と public IPv4 をほぼ全廃した。…"
     },
     {
-      "title": "【AWS初心者向け】AWSを勉強する前にLinuxを学んだ方がいい5つの理由",
-      "link": "https://qiita.com/reo_infraengineer/items/6b2489d32a516a9258d2",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-06T08:28:53",
-      "excerpt": "こんにちは、Reoです。現在はフリーランスのインフラエンジニアとして現場で働きながら、インフラ特化の学習サービス「InfraDojo（インフラ道場）」を運営しています。…"
+      "title": "創造性のペンケースモデル",
+      "link": "https://dub.uu.nl/en/column/pencil-case-model-creativity",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-06T12:05:34",
+      "excerpt": "記事の URL: https://dub.uu.nl/en/column/pencil-case-model-creativity コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "タイムロードたちは次の千年紀に閏秒を刻む準備をしている",
-      "link": "https://www.theregister.com/offbeat/2026/09/06/time-lords-prepare-to-kick-leap-seconds-into-the-next-millennium/5294538",
-      "source": "The Register（英語）",
-      "published": "2026-09-06T08:09:00",
-      "excerpt": "前例のないマイナス調整のリスクにより、UTCを最大1時間ずらす計画を急ぐ"
+      "title": "インテリジェント・フライはオープンです",
+      "link": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-06T11:56:43",
+      "excerpt": "記事の URL: https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/ コメント URL: https://news.ycombinator.…"
     },
     {
-      "title": "Apple、Intel MacアプリのRosettaサポート終了時期を発表",
-      "link": "https://codezine.jp/article/detail/29583",
-      "source": "CodeZine",
-      "published": "2026-09-06T08:00:00",
-      "excerpt": "Apple、Intel MacアプリのRosettaサポート終了時期を発表"
+      "title": "ドイツの会社がヨーロッパで初めて完全に商業的な軌道ロケットを打ち上げた",
+      "link": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-09-06T11:55:26",
+      "excerpt": "「私たちは、ヨーロッパの宇宙産業が数十年前にかかっていたことを数年以内に達成しました。」"
     }
   ]
 }
