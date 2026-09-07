@@ -1,119 +1,126 @@
 {
-  "generated_at": "2026-09-07T06:15:50",
+  "generated_at": "2026-09-07T12:49:44",
   "window_hours": 24,
-  "total": 142,
+  "total": 152,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。記事の URL: https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9 コメント URL: https://news.…",
+      "summary": "生成AIの新着が27件。NVIDIA の Memory 設計の記事を出発点に、業務の変化に合わせて記憶を更新する運用を考えます。…",
       "articles": [
         {
-          "title": "Nvidia の Jensen Huang 氏は「AGI が到着した」と OpenAI を祝福",
-          "link": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-07T05:23:31",
-          "excerpt": "記事の URL: https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9 コメント URL: https://news.…"
+          "title": "AI エージェントの Memory を、訂正・検査・削除から考えてみた",
+          "link": "https://dev.classmethod.jp/articles/nemohermes-memory-lifecycle/",
+          "source": "DevelopersIO",
+          "published": "2026-09-07T10:43:35",
+          "excerpt": "NVIDIA の Memory 設計の記事を出発点に、業務の変化に合わせて記憶を更新する運用を考えます。…"
         },
         {
-          "title": "GitHub Copilot、GPT-6 Astraが一般提供開始",
-          "link": "https://codezine.jp/article/detail/29591",
-          "source": "CodeZine",
-          "published": "2026-09-07T04:00:00",
-          "excerpt": "GitHub Copilot、GPT-6 Astraが一般提供開始"
+          "title": "AWS MCP Server(GA)をClaude Codeに接続してIAMでガードレールをかける",
+          "link": "https://zenn.dev/bamtech1904/articles/20260905_aws-mcp-server-iam-guardrail",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-07T10:25:43",
+          "excerpt": "2026年5月に一般提供(GA)が始まった、AWS公式のマネージドMCP Serverを実際にClaude Codeにつないで触ってみました。…"
         },
         {
-          "title": "IBMはAIエージェントを“人材”としてどう運用している？　企業経営の基盤としてのAI活用を考察",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news049.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-09-07T02:20:00",
-          "excerpt": "IBMが「人とデジタルワーカーの協働」について自社のユースケースを説明するとともに、これからの企業経営の在り方を示した。AIによる成果の全社展開を阻む4つの課題の解消方法とともに紹介し、考察する。"
+          "title": "LiteLLMとAWS Bedrockで社内向けLLM環境を作ってみた | SHIFT Group 技術ブログ",
+          "link": "https://note.shiftinc.jp/n/n3a605cc9b40a",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-07T09:58:17",
+          "excerpt": "株式会社SHIFT ITソリューション部の中冨です。続きをみる"
         },
         {
-          "title": "単一のアクションを越えてエージェントの振る舞いとコストを制御する: Amazon Bedrock AgentCore の新機能",
-          "link": "https://aws.amazon.com/jp/blogs/news/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-amazon-bedrock-agentcore/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-09-07T02:13:11",
-          "excerpt": "AI エージェントは自ら実行パスを決めるため、個々の呼び出しは正当でも全体として危険な振る舞いが生まれます。…"
+          "title": "（検証したものの実際に確認できていません）Amazon ECS の「ゾンビノード」問題と、新しく発表された AGENT_CONNECTIVITY。 — 何が解決されるのか、これまでどうだったのか | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/ECS-AGENT_CONNECTIVITY",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-07T09:28:14",
+          "excerpt": "こんにちは😺 アプリケーションサービス部の山本です。いつも読んでいただき、ありがとうございます。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。Amazon Aurora DSQL の分散アーキテクチャでスケールするアプリケーションの設計方法を解説します。…",
+      "summary": "クラウドの新着が17件。前回までのおさらい 第1回でS3バケットを、第2回で最小権限のIAMユーザー(glue-etl-handson-user)を作成しました。今回はいよいよ、設計してきた内容を実際のPySparkスクリプトに落とし込みます。…",
       "articles": [
         {
-          "title": "Amazon Aurora DSQL でスケーラブルなアプリケーションを構築する",
-          "link": "https://aws.amazon.com/jp/blogs/news/building-scalable-applications-on-amazon-aurora-dsql/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-09-07T05:37:58",
-          "excerpt": "Amazon Aurora DSQL の分散アーキテクチャでスケールするアプリケーションの設計方法を解説します。…"
+          "title": "金融機関の電算部門を想定した、監査に耐えるデータ基盤の作り方(S3×Iceberg実践) (3) 実装編",
+          "link": "https://zenn.dev/nyondev/articles/03-implementation",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-07T12:29:40",
+          "excerpt": "前回までのおさらい 第1回でS3バケットを、第2回で最小権限のIAMユーザー(glue-etl-handson-user)を作成しました。今回はいよいよ、設計してきた内容を実際のPySparkスクリプトに落とし込みます。…"
         },
         {
-          "title": "Gartner、日本における未来志向型インフラ・テクノロジの最新動向を発表",
-          "link": "https://codezine.jp/article/detail/29588",
-          "source": "CodeZine",
-          "published": "2026-09-07T02:30:00",
-          "excerpt": "Gartner、日本における未来志向型インフラ・テクノロジの最新動向を発表"
+          "title": "GAS をやめて Slackワークフローを Cloud Run に移行した話 | コミューン株式会社のフィード",
+          "link": "https://zenn.dev/dev_commune/articles/gas-to-cloud-run-slack-workflow",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-07T11:40:09",
+          "excerpt": "はじめにある日突然 Slack ワークフローの後続処理が動かなくなりました。…"
         },
         {
-          "title": "PR： 万能AIの単体運用では限界？　マルチエージェントの可能性と必要なインフラ",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/04/news001.html",
-          "source": "@IT",
-          "published": "2026-09-07T01:00:00",
-          "excerpt": "AIエージェントの活用は複雑な業務フローで壁に突き当たる。人間同様スーパーマン一人で全てをこなすのは難しい。精度低下や高コスト化、ガバナンスの欠如。これらのリスクを回避し、AIを真の戦力に変えるにはどうすればいいのか。"
+          "title": "Aurora MySQL 8.4.8 でサポートされた PQ 鍵交換を用いる TLS 接続を検証してみた",
+          "link": "https://dev.classmethod.jp/articles/aurora-mysql-pqtls-jdk27/",
+          "source": "DevelopersIO",
+          "published": "2026-09-07T09:35:26",
+          "excerpt": "Aurora MySQL 8.4.8 で、耐量子暗号（以下、PQC）によるハイブリッド鍵交換（以下、PQ 鍵交換）がサポートされました。…"
         },
         {
-          "title": "【AWSサーバーレス設計】Textract × Step Functions × Lambdaによる帳票OCR自動抽出＆API連携パイプライン",
-          "link": "https://qiita.com/mooreyxia/items/cc43eaab763d2964afa7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-07T00:56:05",
-          "excerpt": "📌 はじめに 紙帳票やスキャンされたPDFファイルを扱う業務システムにおいて、「ファイルのアップロード後に担当者が目視で値を確認し、基幹システムの画面へ手動入力する」という運用は、人的ミスの温床であり業務効率化の大きなボトルネックとなります…"
+          "title": "（検証したものの実際に確認できていません）Amazon ECS の「ゾンビノード」問題と、新しく発表された AGENT_CONNECTIVITY。 — 何が解決されるのか、これまでどうだったのか | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/ECS-AGENT_CONNECTIVITY",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-07T09:28:14",
+          "excerpt": "こんにちは😺 アプリケーションサービス部の山本です。いつも読んでいただき、ありがとうございます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。IAM ユーザーの権限を最小化するためのステップを段階ごとに紹介します。…",
+      "summary": "セキュリティの新着が10件。新旧2つの SSH 鍵を用意し、リモート役の SFTP サーバーとコネクターの間で鍵を入れ替えて、シークレットのバージョンが `AWSCURRENT` から `AWSPREVIOUS` へ切り替わってもコネクターを更新せず転送が続くことを確…",
       "articles": [
+        {
+          "title": "[アップデート] AWS Transfer Family の SFTP コネクターが認証情報のローテーション中も転送を継続できるようになりました",
+          "link": "https://dev.classmethod.jp/articles/transfer-family-sftp-credential-rotation/",
+          "source": "DevelopersIO",
+          "published": "2026-09-07T11:59:13",
+          "excerpt": "新旧2つの SSH 鍵を用意し、リモート役の SFTP サーバーとコネクターの間で鍵を入れ替えて、シークレットのバージョンが `AWSCURRENT` から `AWSPREVIOUS` へ切り替わってもコネクターを更新せず転送が続くことを確…"
+        },
+        {
+          "title": "AWS MCP Server(GA)をClaude Codeに接続してIAMでガードレールをかける",
+          "link": "https://zenn.dev/bamtech1904/articles/20260905_aws-mcp-server-iam-guardrail",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-07T10:25:43",
+          "excerpt": "2026年5月に一般提供(GA)が始まった、AWS公式のマネージドMCP Serverを実際にClaude Codeにつないで触ってみました。…"
+        },
+        {
+          "title": "キャッシュを入れても速くならなかった ── 毎回タイムアウトする脆弱性スキャンCIを2分にするまで | イエソド テックブログのフィード",
+          "link": "https://zenn.dev/yesodco/articles/yesod-owasp-dependency-check-ci-speedup",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-07T10:04:00",
+          "excerpt": "こんにちは、株式会社イエソドでバックエンドエンジニアをしているik-fib（@ik11235）です。はじめに弊社が開発しているサービス「YESOD」のバックエンドには、依存ライブラリの脆弱性を検査するCIジョブがあります。…"
+        },
         {
           "title": "【AWS中級へのステップ】IAM ユーザーの権限を最小化するための３ステップ",
           "link": "https://dev.classmethod.jp/articles/aws-step-to-intermediate-iam-reduce-permissions/",
           "source": "DevelopersIO",
           "published": "2026-09-07T04:58:21",
           "excerpt": "IAM ユーザーの権限を最小化するためのステップを段階ごとに紹介します。…"
-        },
-        {
-          "title": "Cloudflare、OpenAIと連携したAIセキュリティサービスを発表",
-          "link": "https://codezine.jp/article/detail/29586",
-          "source": "CodeZine",
-          "published": "2026-09-07T01:00:00",
-          "excerpt": "Cloudflare、OpenAIと連携したAIセキュリティサービスを発表"
-        },
-        {
-          "title": "企業資産の「36％」が“脆弱性ゾーン”で放置　AI攻撃時代に旧来の防御モデルは限界か",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/07/news017.html",
-          "source": "@IT",
-          "published": "2026-09-06T23:00:00",
-          "excerpt": "「重要資産さえ固めておけば大丈夫」というセキュリティ対策の前提が崩れつつある。EYが実施したグローバル調査によると、企業資産の平均36％が、把握も対策も不十分な「脆弱性ゾーン」に放置されていることが判明。…"
-        },
-        {
-          "title": "「パッチを全部当てる」時代の終焉　Check PointのCTOが語る、AI時代の脆弱性管理",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news015.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-09-06T22:00:00",
-          "excerpt": "生成AIの進化に伴い脆弱性の発見と悪用が進む中、「全脆弱性にパッチを当てる」従来型の対策は限界を迎えているという。Check PointのCTOらが、継続的な脅威管理「CTEM」とAIを活用したアプローチを語る。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。Terraformを複数人のチームで運用する際、Stateファイル（terraform.tfstate）の管理方法は極めて重要です。…",
+      "summary": "データ分析の新着が5件。前回までのおさらい 第1回でS3バケットを、第2回で最小権限のIAMユーザー(glue-etl-handson-user)を作成しました。今回はいよいよ、設計してきた内容を実際のPySparkスクリプトに落とし込みます。…",
       "articles": [
+        {
+          "title": "金融機関の電算部門を想定した、監査に耐えるデータ基盤の作り方(S3×Iceberg実践) (3) 実装編",
+          "link": "https://zenn.dev/nyondev/articles/03-implementation",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-07T12:29:40",
+          "excerpt": "前回までのおさらい 第1回でS3バケットを、第2回で最小権限のIAMユーザー(glue-etl-handson-user)を作成しました。今回はいよいよ、設計してきた内容を実際のPySparkスクリプトに落とし込みます。…"
+        },
         {
           "title": "Terraform StateをAWS S3とDynamoDBで安全に管理するリモートバックエンド設計と移行手順",
           "link": "https://qiita.com/blinkgroup_jp/items/d24049c51e22f7dadf37",
@@ -134,21 +141,28 @@
           "source": "TechCrunch（英語）",
           "published": "2026-09-06T16:08:00",
           "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。"
-        },
-        {
-          "title": "AWS MCP Serverに追加されたServerless capabilityを試してみる",
-          "link": "https://qiita.com/eureka_/items/185757f71c71ad819ca4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-06T15:21:59",
-          "excerpt": "はじめに 2026年9月4日、AWS MCP Serverに Serverless capability が追加されました。Lambda関数とその接続先リソースの障害を、AIエージェントが診断できるようにする機能です。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。記事の URL: https://github.com/timgordontg/engrim コメント URL: https://news.ycombinator.com/item?id=49594008 ポイント: 5 コメント数: 0",
+      "summary": "開発ツールの新着が12件。はじめに お久しぶりです。shellfishです。最近はクラウドについての学習を行っておりTerraformを使用する機会がありました。…",
       "articles": [
+        {
+          "title": "Terraform Registryの読み方",
+          "link": "https://zenn.dev/shellfish_haru/articles/b6960f07ccb88b",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-07T11:03:14",
+          "excerpt": "はじめに お久しぶりです。shellfishです。最近はクラウドについての学習を行っておりTerraformを使用する機会がありました。…"
+        },
+        {
+          "title": "GitHub Copilot、BusinessとEnterpriseの新規申し込み受付を再開",
+          "link": "https://codezine.jp/article/detail/29589",
+          "source": "CodeZine",
+          "published": "2026-09-07T07:00:00",
+          "excerpt": "GitHub Copilot、BusinessとEnterpriseの新規申し込み受付を再開"
+        },
         {
           "title": "Show HN: Engrim – AI CLI 用のローカルファーストのユニバーサル SQLite メモリ エンジン",
           "link": "https://github.com/timgordontg/engrim",
@@ -162,52 +176,38 @@
           "source": "CodeZine",
           "published": "2026-09-07T04:00:00",
           "excerpt": "GitHub Copilot、GPT-6 Astraが一般提供開始"
-        },
-        {
-          "title": "【opsmethod #3】 「KIRO に Well-Architected レビューを組み込んで、IaC の不備を直してみた話」というテーマで登壇しました",
-          "link": "https://dev.classmethod.jp/articles/opsmethod-kiro-wa-review/",
-          "source": "DevelopersIO",
-          "published": "2026-09-07T00:27:11",
-          "excerpt": "先日のopsmethod登壇で紹介した「Well-Architected Skills & Steering for AI Coding Agents」というAIスキルについて、実際のデモ結果を交えながら紹介します。"
-        },
-        {
-          "title": "Terraform StateをAWS S3とDynamoDBで安全に管理するリモートバックエンド設計と移行手順",
-          "link": "https://qiita.com/blinkgroup_jp/items/d24049c51e22f7dadf37",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-07T00:22:04",
-          "excerpt": "Terraformを複数人のチームで運用する際、Stateファイル（terraform.tfstate）の管理方法は極めて重要です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Signed URL / Presigned URL ,\t Signed Cookie とは",
-      "link": "https://qiita.com/ykj/items/485a54c859f3f799cdb2",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-07T05:59:11",
-      "excerpt": "ざっくり言うと、どちらも 「本来は非公開のファイルを、認証済みユーザーだけに一時的に見せる」 ときに使います。違いは、1個のファイルにアクセスさせたいか、複数のファイルにまとめてアクセスさせたいかです。…"
-    },
-    {
-      "title": "AWS サミット 2026",
-      "link": "https://qiita.com/kana_1166/items/3a5bc8c73a3adfaa1437",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-07T05:41:18",
-      "excerpt": "【AWS Summit Japan 2026】AI エージェント「構築元年」を体感した2日間！…"
-    },
-    {
-      "title": "ジェンセンの新しいおもちゃの購入は AI 業界全体を再構築する可能性がある",
-      "link": "https://www.theregister.com/ai-and-ml/2026/09/07/jensens-purchase-of-a-new-toy-could-reshape-the-entire-ai-industry/5294610",
+      "title": "ニッターは法的アドバイスを受けた後、別の日に代理人として生きます",
+      "link": "https://www.theregister.com/personal-tech/2026/09/07/nitter-lives-to-proxy-another-day-after-taking-legal-advice/5294754",
       "source": "The Register（英語）",
-      "published": "2026-09-07T05:30:00",
-      "excerpt": "今週の The Kettle では、Nvidia の Hugging Face 買収と、それが AI 開発の新たな、より細分化され、サイロ化された時代を引き起こす可能性がある理由について考察します。"
+      "published": "2026-09-07T12:30:00",
+      "excerpt": "公開インスタンス XCancel は X Corp の停止キャンペーン後にキャンセルされず、他のインスタンスも間もなく約束される"
     },
     {
-      "title": "Amazon DocumentDB、3.6および4.0から8.0への直接バージョンアップを開始",
-      "link": "https://codezine.jp/article/detail/29592",
-      "source": "CodeZine",
-      "published": "2026-09-07T05:30:00",
-      "excerpt": "Amazon DocumentDB、3.6および4.0から8.0への直接バージョンアップを開始"
+      "title": "【備忘】【AWS関連】公式ブログ および アップデートまとめ（ネットワーク関連のみ抽出）(2026/08/10)",
+      "link": "https://qiita.com/dctsatopy/items/7fad2c6cd18246046e9b",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-07T12:04:20",
+      "excerpt": "この記事について AWS 公式が公表している週刊 AWS やアップデート情報の中から、ネットワークリソース関連の情報を集約して把握するため、Claude を活用してサマリーを生成・出力しています。…"
+    },
+    {
+      "title": "ターゲット追跡は何を追うべきか ―― CPUかリクエスト数か",
+      "link": "https://zenn.dev/terraform_log/articles/target-tracking-cpu-vs-requests",
+      "source": "Zenn AWSトピック",
+      "published": "2026-09-07T11:43:15",
+      "excerpt": "「CPUで50%」を選んだが、それは本当に正しい物差しか Auto Scalingのターゲット追跡ポリシーを書くとき、こう書きました。…"
+    },
+    {
+      "title": "AWS SAA(SAA-C03)合格体験記",
+      "link": "https://qiita.com/natsukawa/items/d9353b61eb4c58de356d",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-07T11:36:57",
+      "excerpt": "はじめに AWS Certified Solutions Architect - Associate（SAA-C03）を受験し、無事合格しました。これからAWS SAAを受験する方の参考になれば幸いです。…"
     }
   ]
 }
