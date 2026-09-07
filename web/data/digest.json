@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-09-07T12:49:44",
+  "generated_at": "2026-09-07T17:59:18",
   "window_hours": 24,
-  "total": 152,
+  "total": 153,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が27件。NVIDIA の Memory 設計の記事を出発点に、業務の変化に合わせて記憶を更新する運用を考えます。…",
+      "summary": "生成AIの新着が30件。はじめに AWS マネジメントコンソールをみると AgentCore optimization に AgentCore Insights（プレビュー中）がしれっとあるのに今更ですが気づきました。…",
       "articles": [
         {
-          "title": "AI エージェントの Memory を、訂正・検査・削除から考えてみた",
-          "link": "https://dev.classmethod.jp/articles/nemohermes-memory-lifecycle/",
-          "source": "DevelopersIO",
-          "published": "2026-09-07T10:43:35",
-          "excerpt": "NVIDIA の Memory 設計の記事を出発点に、業務の変化に合わせて記憶を更新する運用を考えます。…"
+          "title": "Amazon Bedrock AgentCore Insights でエージェントの失敗パターンを自動分析して Recommendations までしてみた",
+          "link": "https://qiita.com/leomarokun/items/8b78ec07a04e63783c01",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-07T16:57:33",
+          "excerpt": "はじめに AWS マネジメントコンソールをみると AgentCore optimization に AgentCore Insights（プレビュー中）がしれっとあるのに今更ですが気づきました。…"
         },
         {
-          "title": "AWS MCP Server(GA)をClaude Codeに接続してIAMでガードレールをかける",
-          "link": "https://zenn.dev/bamtech1904/articles/20260905_aws-mcp-server-iam-guardrail",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-07T10:25:43",
-          "excerpt": "2026年5月に一般提供(GA)が始まった、AWS公式のマネージドMCP Serverを実際にClaude Codeにつないで触ってみました。…"
+          "title": "HN に伝える: OpenAI はプラスおよびビジネス スタンダード ユーザーの制限を 5 時間に戻します",
+          "link": "https://news.ycombinator.com/item?id=49600233",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-07T16:40:32",
+          "excerpt": "なぜ制限の動作が先週と大きく異なるのか疑問に思っている方のために説明します。また、これにより制限リセットの種類が大幅に減ります。コメント URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "LiteLLMとAWS Bedrockで社内向けLLM環境を作ってみた | SHIFT Group 技術ブログ",
-          "link": "https://note.shiftinc.jp/n/n3a605cc9b40a",
+          "title": "AWS ウィークリーまとめ: AWS の Claude Fable 5.1、Amazon Linux 2027 プレビュー、AWS 認定 AI ビジネス ストラテジストなど (2026 年 9 月 7 日)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-09-07T14:24:08",
+          "excerpt": "先週、Claude Fable 5.1 が AWS で利用可能になりました。Anthropic によると、Claude Fable 5.…"
+        },
+        {
+          "title": "【情シスのSkill】ClaudeでメールドメインチェックSkillを作ってみた | GENDAのフィード",
+          "link": "https://zenn.dev/genda_jp/articles/6c9ea779e7dae9",
           "source": "企業テックブログまとめ",
-          "published": "2026-09-07T09:58:17",
-          "excerpt": "株式会社SHIFT ITソリューション部の中冨です。続きをみる"
-        },
-        {
-          "title": "（検証したものの実際に確認できていません）Amazon ECS の「ゾンビノード」問題と、新しく発表された AGENT_CONNECTIVITY。 — 何が解決されるのか、これまでどうだったのか | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/ECS-AGENT_CONNECTIVITY",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-07T09:28:14",
-          "excerpt": "こんにちは😺 アプリケーションサービス部の山本です。いつも読んでいただき、ありがとうございます。…"
+          "published": "2026-09-07T12:07:45",
+          "excerpt": "【情シスのSkill】ClaudeでメールドメインチェックSkillを作ってみた はじめに皆さんこんにちは！株式会社GENDA IT戦略部所属CorpEngのアサノです！…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。前回までのおさらい 第1回でS3バケットを、第2回で最小権限のIAMユーザー(glue-etl-handson-user)を作成しました。今回はいよいよ、設計してきた内容を実際のPySparkスクリプトに落とし込みます。…",
+      "summary": "クラウドの新着が17件。宇宙を舞台にした世界最大級の大規模オンラインゲーム「EVE Online」が、ゲームを支える240万行のPythonコードをPython 3に移行すると発表しました。We have officially started our codeb.…",
       "articles": [
         {
-          "title": "金融機関の電算部門を想定した、監査に耐えるデータ基盤の作り方(S3×Iceberg実践) (3) 実装編",
-          "link": "https://zenn.dev/nyondev/articles/03-implementation",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-07T12:29:40",
-          "excerpt": "前回までのおさらい 第1回でS3バケットを、第2回で最小権限のIAMユーザー(glue-etl-handson-user)を作成しました。今回はいよいよ、設計してきた内容を実際のPySparkスクリプトに落とし込みます。…"
+          "title": "巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表",
+          "link": "https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html",
+          "source": "Publickey",
+          "published": "2026-09-08T14:28:02",
+          "excerpt": "宇宙を舞台にした世界最大級の大規模オンラインゲーム「EVE Online」が、ゲームを支える240万行のPythonコードをPython 3に移行すると発表しました。We have officially started our codeb.…"
         },
         {
-          "title": "GAS をやめて Slackワークフローを Cloud Run に移行した話 | コミューン株式会社のフィード",
-          "link": "https://zenn.dev/dev_commune/articles/gas-to-cloud-run-slack-workflow",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-07T11:40:09",
-          "excerpt": "はじめにある日突然 Slack ワークフローの後続処理が動かなくなりました。…"
+          "title": "AWSのRDSに作成したMySQLとEC2にあるSpringBootアプリを紐づける",
+          "link": "https://qiita.com/ShineYamamoto/items/ee89705712755b337729",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-07T17:09:27",
+          "excerpt": "はじめに 今回は、EC2で公開しているSpring BootのWebアプリに、Amazon RDS for MySQLを接続する手順をまとめます。…"
         },
         {
-          "title": "Aurora MySQL 8.4.8 でサポートされた PQ 鍵交換を用いる TLS 接続を検証してみた",
-          "link": "https://dev.classmethod.jp/articles/aurora-mysql-pqtls-jdk27/",
-          "source": "DevelopersIO",
-          "published": "2026-09-07T09:35:26",
-          "excerpt": "Aurora MySQL 8.4.8 で、耐量子暗号（以下、PQC）によるハイブリッド鍵交換（以下、PQ 鍵交換）がサポートされました。…"
+          "title": "Amazon FSx のコスト削減で、スループット使用率0.25%を削っても年9.5万円にしかならなかった話 ― 効いたのはSSD→HDD移行だった",
+          "link": "https://qiita.com/devex12/items/05a5962a33c7c46f9b60",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-07T15:59:20",
+          "excerpt": "TL;DR Amazon FSx for Windows File Server（7.…"
         },
         {
-          "title": "（検証したものの実際に確認できていません）Amazon ECS の「ゾンビノード」問題と、新しく発表された AGENT_CONNECTIVITY。 — 何が解決されるのか、これまでどうだったのか | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/ECS-AGENT_CONNECTIVITY",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-07T09:28:14",
-          "excerpt": "こんにちは😺 アプリケーションサービス部の山本です。いつも読んでいただき、ありがとうございます。…"
+          "title": "HTMX 4.0正式リリース。内部実装がXHRからfetchに移行しStreaming HTMLが可能に、属性はデフォルトで子要素に継承されないように変更など",
+          "link": "https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html",
+          "source": "Publickey",
+          "published": "2026-09-07T15:39:27",
+          "excerpt": "HTMLに属性を追加するだけで、Webページにサーバと連動した動的なアプリケーションの機能を追加できるJavaScriptライブラリ「HTMX」の最新バージョンとなる「HTMX 4.0」正式版のリリースが発表されました。very happ.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。新旧2つの SSH 鍵を用意し、リモート役の SFTP サーバーとコネクターの間で鍵を入れ替えて、シークレットのバージョンが `AWSCURRENT` から `AWSPREVIOUS` へ切り替わってもコネクターを更新せず転送が続くことを確…",
+      "summary": "セキュリティの新着が9件。道路と政府内で車輪が回転する",
       "articles": [
+        {
+          "title": "米国の監視機関がテスラのサイバーキャブの自己認証に関する調査を開始",
+          "link": "https://www.theregister.com/offbeat/2026/09/07/us-watchdog-opens-probe-into-teslas-cybercab-self-certification/5294833",
+          "source": "The Register（英語）",
+          "published": "2026-09-07T15:53:00",
+          "excerpt": "道路と政府内で車輪が回転する"
+        },
         {
           "title": "[アップデート] AWS Transfer Family の SFTP コネクターが認証情報のローテーション中も転送を継続できるようになりました",
           "link": "https://dev.classmethod.jp/articles/transfer-family-sftp-credential-rotation/",
@@ -99,21 +106,28 @@
           "source": "企業テックブログまとめ",
           "published": "2026-09-07T10:04:00",
           "excerpt": "こんにちは、株式会社イエソドでバックエンドエンジニアをしているik-fib（@ik11235）です。はじめに弊社が開発しているサービス「YESOD」のバックエンドには、依存ライブラリの脆弱性を検査するCIジョブがあります。…"
-        },
-        {
-          "title": "【AWS中級へのステップ】IAM ユーザーの権限を最小化するための３ステップ",
-          "link": "https://dev.classmethod.jp/articles/aws-step-to-intermediate-iam-reduce-permissions/",
-          "source": "DevelopersIO",
-          "published": "2026-09-07T04:58:21",
-          "excerpt": "IAM ユーザーの権限を最小化するためのステップを段階ごとに紹介します。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。前回までのおさらい 第1回でS3バケットを、第2回で最小権限のIAMユーザー(glue-etl-handson-user)を作成しました。今回はいよいよ、設計してきた内容を実際のPySparkスクリプトに落とし込みます。…",
+      "summary": "データ分析の新着が5件。記事の URL: https://www.thurrott.…",
       "articles": [
+        {
+          "title": "ハリー・ポッターとファンタスティック・ビーストのボックス セットの広告を表示する Bing の壁紙",
+          "link": "https://www.thurrott.com/forums/microsoft/windows/thread/bing-wallpaper-showing-ad-for-harry-potter-and-fantastic-beasts-box-set",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-07T15:50:37",
+          "excerpt": "記事の URL: https://www.thurrott.…"
+        },
+        {
+          "title": "クラスメソッド データアナリティクス通信(AWSデータ分析編) – 2026年9月号",
+          "link": "https://dev.classmethod.jp/articles/cm-news-analytics-202609/",
+          "source": "DevelopersIO",
+          "published": "2026-09-07T13:09:37",
+          "excerpt": "2026年8月のAWSデータ分析関連アップデートをお届けします。Apache Iceberg v3とAmazon S3 Tablesを軸に、各サービスがマネージドな連携でパイプラインの自前実装を減らす方向に揃ってきた1か月。…"
+        },
         {
           "title": "金融機関の電算部門を想定した、監査に耐えるデータ基盤の作り方(S3×Iceberg実践) (3) 実装編",
           "link": "https://zenn.dev/nyondev/articles/03-implementation",
@@ -127,28 +141,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-07T00:22:04",
           "excerpt": "Terraformを複数人のチームで運用する際、Stateファイル（terraform.tfstate）の管理方法は極めて重要です。…"
-        },
-        {
-          "title": "Anubis で WebAssembly を出荷するのに 1 年かかりました",
-          "link": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-06T20:32:38",
-          "excerpt": "記事の URL: https://anubis.techaro.lol/blog/2026/anubis-wasm/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "TechCrunch Mobility: Tesla Cyber​​cab が道路に登場 – そして障害に",
-          "link": "https://techcrunch.com/2026/09/06/techcrunch-mobility-tesla-cybercab-hits-the-road-and-a-snag/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-06T16:08:00",
-          "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。はじめに お久しぶりです。shellfishです。最近はクラウドについての学習を行っておりTerraformを使用する機会がありました。…",
+      "summary": "開発ツールの新着が11件。先日起票した以下のIssueのきっかけとなるお話です。Issueが解決したらここに追記します。https://github.…",
       "articles": [
+        {
+          "title": "「そのページ、消えるよ」AWS Blocksで1ヶ月以上デプロイしてないアプリにアクセスできなくなる話",
+          "link": "https://qiita.com/shimagaji/items/a5373b841b1bade13f59",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-07T15:16:04",
+          "excerpt": "先日起票した以下のIssueのきっかけとなるお話です。Issueが解決したらここに追記します。https://github.…"
+        },
         {
           "title": "Terraform Registryの読み方",
           "link": "https://zenn.dev/shellfish_haru/articles/b6960f07ccb88b",
@@ -169,45 +176,38 @@
           "source": "Hacker News（英語）",
           "published": "2026-09-07T04:49:36",
           "excerpt": "記事の URL: https://github.com/timgordontg/engrim コメント URL: https://news.ycombinator.com/item?id=49594008 ポイント: 5 コメント数: 0"
-        },
-        {
-          "title": "GitHub Copilot、GPT-6 Astraが一般提供開始",
-          "link": "https://codezine.jp/article/detail/29591",
-          "source": "CodeZine",
-          "published": "2026-09-07T04:00:00",
-          "excerpt": "GitHub Copilot、GPT-6 Astraが一般提供開始"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ニッターは法的アドバイスを受けた後、別の日に代理人として生きます",
-      "link": "https://www.theregister.com/personal-tech/2026/09/07/nitter-lives-to-proxy-another-day-after-taking-legal-advice/5294754",
+      "title": "マット・クリフォード、人類の役割が「気を散らす」ようになる前にARIAを降板へ",
+      "link": "https://www.theregister.com/public-sector/2026/09/07/matt-clifford-to-leave-aria-before-anthropic-role-becomes-a-distraction/5294861",
       "source": "The Register（英語）",
-      "published": "2026-09-07T12:30:00",
-      "excerpt": "公開インスタンス XCancel は X Corp の停止キャンペーン後にキャンセルされず、他のインスタンスも間もなく約束される"
+      "published": "2026-09-07T16:02:47",
+      "excerpt": "国会議員らはこの動きを歓迎しているが、利益相反がどのようにして生じたのかについての回答を求めている"
     },
     {
-      "title": "【備忘】【AWS関連】公式ブログ および アップデートまとめ（ネットワーク関連のみ抽出）(2026/08/10)",
-      "link": "https://qiita.com/dctsatopy/items/7fad2c6cd18246046e9b",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-07T12:04:20",
-      "excerpt": "この記事について AWS 公式が公表している週刊 AWS やアップデート情報の中から、ネットワークリソース関連の情報を集約して把握するため、Claude を活用してサマリーを生成・出力しています。…"
+      "title": "今後の Apple の発売に期待すること",
+      "link": "https://techcrunch.com/2026/09/07/what-we-expect-from-the-upcoming-apple-launch/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-07T15:58:00",
+      "excerpt": "Apple初の折りたたみ式iPhone Ultraが9月9日の発売の目玉となる一方、AirPodsとHomePodsに関するニュースも期待されている。"
     },
     {
-      "title": "ターゲット追跡は何を追うべきか ―― CPUかリクエスト数か",
-      "link": "https://zenn.dev/terraform_log/articles/target-tracking-cpu-vs-requests",
-      "source": "Zenn AWSトピック",
-      "published": "2026-09-07T11:43:15",
-      "excerpt": "「CPUで50%」を選んだが、それは本当に正しい物差しか Auto Scalingのターゲット追跡ポリシーを書くとき、こう書きました。…"
+      "title": "ネルトリンガー リース インパクト クレーター",
+      "link": "https://en.wikipedia.org/wiki/Nördlinger_Ries",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-07T15:56:07",
+      "excerpt": "記事の URL: https://en.wikipedia.org/wiki/Nördlinger_Ries コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "AWS SAA(SAA-C03)合格体験記",
-      "link": "https://qiita.com/natsukawa/items/d9353b61eb4c58de356d",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-07T11:36:57",
-      "excerpt": "はじめに AWS Certified Solutions Architect - Associate（SAA-C03）を受験し、無事合格しました。これからAWS SAAを受験する方の参考になれば幸いです。…"
+      "title": "ビル・ゲイツは MovieMaker をインストールしようとします",
+      "link": "https://www.techemails.com/p/bill-gates-tries-to-install-movie-maker",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-07T15:27:03",
+      "excerpt": "記事の URL: https://www.techemails.com/p/bill-gates-tries-to-install-movie-maker コメント URL: https://news.ycombinator.…"
     }
   ]
 }
