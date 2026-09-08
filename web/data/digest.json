@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-08T11:51:46",
+  "generated_at": "2026-09-08T15:34:20",
   "window_hours": 24,
-  "total": 155,
+  "total": 164,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が25件。源内のクエリ拡張 RAG は 1 問 1 答で会話が続かないので、会話履歴を受け取ってプロンプトに渡すよう改修し、源内 Web の「会話を続ける」ボタンで実際に文脈が引き継がれるところまで確認しました。",
+      "summary": "生成AIの新着が25件。本記事では、AWSのマネージドサービス「Amazon Bedrock AgentCore Evaluations」を使って、学習用にサンプルとして構築したAIエージェントを評価してみた内容を紹介します。…",
       "articles": [
+        {
+          "title": "AWS AgentCore Evaluationsを使ってAIエージェントを評価してみた",
+          "link": "https://qiita.com/ko_koyama_w/items/6531c511b4058d69d839",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-08T12:01:33",
+          "excerpt": "本記事では、AWSのマネージドサービス「Amazon Bedrock AgentCore Evaluations」を使って、学習用にサンプルとして構築したAIエージェントを評価してみた内容を紹介します。…"
+        },
+        {
+          "title": "LLM乗っ取りでサイバー攻撃者がコスト節約　知財流出の危険性も高まる「LLMジャッキング」の深刻度",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news083.html",
+          "source": "@IT",
+          "published": "2026-09-08T12:00:00",
+          "excerpt": "AIアカウント乗っ取りを起点とし、サイバー攻撃者が被害企業のコスト負担で、LLMや計算資源を自身のAI処理に使う「LLMジャッキング」が広がっている。Googleの脅威分析グループが、その実態をレポートで説明している。"
+        },
         {
           "title": "源内の拡張RAGアプリに会話継続機能を実装して、源内Webの「会話を続ける」ボタンと連携させてみた",
           "link": "https://dev.classmethod.jp/articles/gennai-conversion-continue/",
@@ -17,32 +31,18 @@
           "excerpt": "源内のクエリ拡張 RAG は 1 問 1 答で会話が続かないので、会話履歴を受け取ってプロンプトに渡すよう改修し、源内 Web の「会話を続ける」ボタンで実際に文脈が引き継がれるところまで確認しました。"
         },
         {
-          "title": "AWS Weekly Roundup: AWS 版 Claude Fable 5.1、Amazon Linux 2027 プレビュー、AWS Certified AI Business Strategist など (2026 年 9 月 7 日)",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-09-08T09:58:54",
-          "excerpt": "2026 年 8 月 31 日週、Claude Fable 5.1 が AWS で利用可能になりました。Ant […]"
-        },
-        {
-          "title": "AWS DevOps Agentのマルチアカウント構成をTerraformでデプロイしてみた",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-multi-account-terraform/",
-          "source": "DevelopersIO",
-          "published": "2026-09-08T08:45:21",
-          "excerpt": "AWS DevOps Agentのマルチアカウント構成をTerraformでデプロイしてみた"
-        },
-        {
-          "title": "【クラウド初心者】サーバー管理不要！S3 / Cloud Storage で静的ウェブサイトを激安構築してみた",
-          "link": "https://qiita.com/EugeneTW/items/cbc7041f9118d09ff010",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-08T08:35:56",
-          "excerpt": "こんにちは！コウです。AWS や GCP の学習を始めたばかりの頃、ウェブサイトを公開するには「まず仮想マシン（EC2 など）を立ち上げるべき」だと思っていました。しかし、静的サイトであればサーバーを用意する必要すらありません！…"
+          "title": "AWS Security Agentの新機能でペネトレーションテストに挑戦 | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/aws-security-agent-budget-revalidation",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-08T10:30:00",
+          "excerpt": "今月誕生日の人、おめでとうございます🎉 エデュケーショナルサービス課の森純子です。私はこれまで、ペネトレーションテストを検証したことがありませんでした。理由は「いくらかかるか分からないから」です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。宇宙を舞台にした世界最大級の大規模オンラインゲーム「EVE Online」が、ゲームを支える240万行のPythonコードをPython 3に移行すると発表しました。We have officially started our codeb.…",
+      "summary": "クラウドの新着が14件。宇宙を舞台にした世界最大級の大規模オンラインゲーム「EVE Online」が、ゲームを支える240万行のPythonコードをPython 3に移行すると発表しました。We have officially started our codeb.…",
       "articles": [
         {
           "title": "巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表",
@@ -52,11 +52,18 @@
           "excerpt": "宇宙を舞台にした世界最大級の大規模オンラインゲーム「EVE Online」が、ゲームを支える240万行のPythonコードをPython 3に移行すると発表しました。We have officially started our codeb.…"
         },
         {
-          "title": "Oracle VirtualBox의 VM을 AWS Transform MGN으로 EC2에 옮겨보기",
+          "title": "クラウド移行戦略（Lift & Shift / Re-platform / Re-architect）をPD試験問題で整理する",
+          "link": "https://qiita.com/pds_siken/items/fd13fc8fe875de1ac35b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-08T12:27:59",
+          "excerpt": "クラウド移行戦略をPD試験形式で整理する クラウド移行戦略の選定はPD試験（システム区分）の頻出テーマです。適切な移行パターンを選ぶ判断力が問われます。…"
+        },
+        {
+          "title": "Oracle VirtualBox の VM AWS Transform MGN の EC2 のサポート",
           "link": "https://dev.classmethod.jp/articles/oracle-virtualbox-to-ec2-using-aws-transform-mgn-kr/",
           "source": "DevelopersIO",
           "published": "2026-09-08T08:59:28",
-          "excerpt": "Oracle VirtualBox의 VM에 Ubuntu에 AWS Replication Agent를 설치하고, AWS Transform MGN을 사용하여 EC2 테스트 인스턴스에서 실행하기까지의 절차를 소개합니다.…"
+          "excerpt": "Oracle VirtualBox、VM、Ubuntu、AWS Replication Agent、AWS Transform MGN、EC2 테스트 인스턴스에서 실행하기까지의 절차를 소개합니다。…"
         },
         {
           "title": "【クラウド初心者】サーバー管理不要！S3 / Cloud Storage で静的ウェブサイトを激安構築してみた",
@@ -64,62 +71,62 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-08T08:35:56",
           "excerpt": "こんにちは！コウです。AWS や GCP の学習を始めたばかりの頃、ウェブサイトを公開するには「まず仮想マシン（EC2 など）を立ち上げるべき」だと思っていました。しかし、静的サイトであればサーバーを用意する必要すらありません！…"
-        },
-        {
-          "title": "# AWS Lambdaの実行の仕組みを理解する",
-          "link": "https://qiita.com/CEC_Cloud_Community/items/29404e6901091ca3c1c8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-08T05:57:58",
-          "excerpt": "AWS Lambdaの実行の仕組みを理解する はじめに こんにちは。株式会社シーイーシーのAWSコミュニティチームです。今回は、2026 Japan AWS Jr.Championsの荒木が担当いたします。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。記事の URL: https://jyn.dev/a-year-to-fix-security/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が12件。Google は、セキュリティ パッチと新機能をより迅速に提供するために、Chrome のリリース スケジュールを早めています。",
       "articles": [
         {
-          "title": "あらゆる場所のセキュリティを修正するのに 1 年あります",
-          "link": "https://jyn.dev/a-year-to-fix-security/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-08T04:48:10",
-          "excerpt": "記事の URL: https://jyn.dev/a-year-to-fix-security/ コメント URL: https://news.ycombinator.com/item?…"
+          "title": "AI によるセキュリティ環境の変化に伴い、Chrome は 2 週間ごとにアップデートを配信しています",
+          "link": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-08T15:04:09",
+          "excerpt": "Google は、セキュリティ パッチと新機能をより迅速に提供するために、Chrome のリリース スケジュールを早めています。"
         },
         {
-          "title": "【AWSセキュリティ＆DB設計】Aurora IAM認証 × S3 ゲートウェイVPCエンドポイントによる完全閉域化と「DB+S3」ゴールデンコンビパターン",
-          "link": "https://qiita.com/mooreyxia/items/3af33abfbc0d8bd85335",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-08T01:48:45",
-          "excerpt": "📌 はじめに 金融・決済や個人情報を取り扱うエンタープライズシステムでは、「ハードコードされた静的パスワードの完全撤廃」と「トラフィックを一切インターネットへ出さない完全閉域化」が厳格に求められます。…"
+          "title": "ハッカーが暗号通貨強盗で3億4,000万ドルを盗み、そのほとんどを取り戻した",
+          "link": "https://techcrunch.com/2026/09/08/a-hacker-stole-340m-in-a-crypto-heist-then-returned-most-of-it/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-08T14:11:29",
+          "excerpt": "今回の強盗は、これまでで最大規模の仮想通貨盗難の一つである。"
         },
         {
-          "title": "90 年代の認証局の RSA キーを因数分解してみました",
-          "link": "https://mcpherrin.ca/2026/09/07/rsa.html",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-08T01:16:59",
-          "excerpt": "記事の URL: https://mcpherrin.ca/2026/09/07/rsa.html コメント URL: https://news.ycombinator.com/item?…"
+          "title": "BigBear フィッシング詐欺師が数千の Microsoft 365 認証情報を入手",
+          "link": "https://www.theregister.com/security/2026/09/08/bigbear-phishing-crew-nets-thousands-of-microsoft-365-credentials/5294944",
+          "source": "The Register（英語）",
+          "published": "2026-09-08T13:26:00",
+          "excerpt": "研究者らは犯罪者の管理パネルに侵入し、461の組織に関連付けられた5,137件の盗難記録を発見した"
         },
         {
-          "title": "東京科学大に不正アクセス、個人情報漏えいか　東工大・医科歯科大統合当時の学生・教職員情報も",
-          "link": "https://www.itmedia.co.jp/news/article/2609/08/2000001244/",
-          "source": "ITmedia NEWS",
-          "published": "2026-09-08T01:02:59",
-          "excerpt": "漏えいの疑いがあるのは、東京科学大学と、統合当時に在籍していた学生・教職員などに関する氏名・住所・メールアドレスを含む個人情報だ。"
+          "title": "AWS Security Agentの新機能でペネトレーションテストに挑戦 | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/aws-security-agent-budget-revalidation",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-08T10:30:00",
+          "excerpt": "今月誕生日の人、おめでとうございます🎉 エデュケーショナルサービス課の森純子です。私はこれまで、ペネトレーションテストを検証したことがありませんでした。理由は「いくらかかるか分からないから」です。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。Stoke has \"completed the initial closing\" of a $1B Series E round intended to help it reach orbit and prepare a new, lar…",
+      "summary": "データ分析の新着が5件。研究者らは犯罪者の管理パネルに侵入し、461の組織に関連付けられた5,137件の盗難記録を発見した",
       "articles": [
         {
-          "title": "Stoke Space raises another billion to rival SpaceX at re-flying rockets",
+          "title": "BigBear フィッシング詐欺師が数千の Microsoft 365 認証情報を入手",
+          "link": "https://www.theregister.com/security/2026/09/08/bigbear-phishing-crew-nets-thousands-of-microsoft-365-credentials/5294944",
+          "source": "The Register（英語）",
+          "published": "2026-09-08T13:26:00",
+          "excerpt": "研究者らは犯罪者の管理パネルに侵入し、461の組織に関連付けられた5,137件の盗難記録を発見した"
+        },
+        {
+          "title": "ストーク・スペース、ロケット再飛行でスペースXに匹敵するためにさらに10億ドルを調達",
           "link": "https://techcrunch.com/2026/09/08/stoke-space-raises-another-billion-to-rival-spacex-at-re-flying-rockets/",
           "source": "TechCrunch（英語）",
           "published": "2026-09-08T09:00:00",
-          "excerpt": "Stoke has \"completed the initial closing\" of a $1B Series E round intended to help it reach orbit and prepare a new, lar…"
+          "excerpt": "ストークは、軌道に到達し、新しい大型ロケットの運用準備を支援することを目的とした10億ドルのシリーズEラウンドの「最初のクロージングを完了」した。"
         },
         {
           "title": "PostgreSQLとDynamoDBの違いをもう一歩深掘りしてみた ～トランザクション・GSIの整合性・キャパシティモードまで～",
@@ -134,21 +141,28 @@
           "source": "企業テックブログまとめ",
           "published": "2026-09-08T04:54:10",
           "excerpt": "この記事はコンシューマーチームブログリレー 4日目の記事です。Embulk 0.9.25 で動かしていた担当プロジェクトの ETL を、dlt + dbt と Step Functions に全面移行しました。…"
-        },
-        {
-          "title": "ハリー・ポッターとファンタスティック・ビーストのボックス セットの広告を表示する Bing の壁紙",
-          "link": "https://www.thurrott.com/forums/microsoft/windows/thread/bing-wallpaper-showing-ad-for-harry-potter-and-fantastic-beasts-box-set",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-07T15:50:37",
-          "excerpt": "記事の URL: https://www.thurrott.…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。Github Appを使ってGithub Actions内で一時的なPATを生成する方法について試してみました。別リポジトリのワークフロー実行に必要な認証情報を、セキュアに取得できる手法をご紹介します。",
+      "summary": "開発ツールの新着が11件。JAWS-UG CDK支部のイベントで初めてのLT登壇をしました。",
       "articles": [
+        {
+          "title": "「JAWS-UG CDK支部 #26 〜CDKに関する真夏のLT大会〜」 にて「PMに『CDK使わなくていいよ』と言われて気付いたCDKの権限周りの話」 というテーマでLT発表しました！",
+          "link": "https://dev.classmethod.jp/articles/jaws-ug-cdk-0908-beginner-lt/",
+          "source": "DevelopersIO",
+          "published": "2026-09-08T12:05:09",
+          "excerpt": "JAWS-UG CDK支部のイベントで初めてのLT登壇をしました。"
+        },
+        {
+          "title": "Well-Architected IaC Analyzer で Well-Architected Framework レビューをしよう | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/wa-iac-analyzer",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-08T10:57:29",
+          "excerpt": "はじめに こんにちは。日本スピッツを飼っている深瀬です。白モフに日々癒されています。…"
+        },
         {
           "title": "Github Appを使って別リポジトリのワークフローを実行するための一時的なPATを発行する",
           "link": "https://dev.classmethod.jp/articles/generate-temporary-pat-by-github-app-on-github-actions/",
@@ -162,52 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-09-08T08:45:21",
           "excerpt": "AWS DevOps Agentのマルチアカウント構成をTerraformでデプロイしてみた"
-        },
-        {
-          "title": "AI生成コードが増加する中、GitHub Code Qualityは保守性の確保に注力",
-          "link": "https://www.infoq.com/jp/news/2026/09/github-code-quality/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-09-08T08:30:00",
-          "excerpt": "GitHubの発表によると、GitHub Code QualityがGitHub Enterprise CloudおよびGitHub Teamで一般提供（GA）となった。…"
-        },
-        {
-          "title": "GitHub、Copilot CLIで複数AIモデルを使い分けてコスト削減を図る「Project HydraFusion」を研究プレビューで提供",
-          "link": "https://gihyo.jp/article/2026/09/github-copilot-hydrafusion?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-09-08T05:38:00",
-          "excerpt": "GitHubは2026年9月4日、コーディングタスクに応じてAIモデルと処理の進め方を選ぶ「Project HydraFusion」を公式ブログで紹介した。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "UK energy operator sticks with Palantir in £21M direct award",
-      "link": "https://www.theregister.com/public-sector/2026/09/08/uk-energy-operator-sticks-with-palantir-in-21m-direct-award/5294947",
-      "source": "The Register（英語）",
-      "published": "2026-09-08T11:17:00",
-      "excerpt": "Proprietary platform keeps incumbent in place while NESO prepares a future competition"
+      "title": "Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに",
+      "link": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
+      "source": "Publickey",
+      "published": "2026-09-08T15:54:55",
+      "excerpt": "Amazon Web Services（AWS）は、AWSに最適化されたLinux OSの4年ぶりとなるメジャーバージョンアップ「Amazon Linux 2027」をパブリックプレビューとしてリリースしました。現時点の正式版はAmazo.…"
     },
     {
-      "title": "Grindr pays £26M to settle UK privacy class action",
-      "link": "https://www.theregister.com/legal/2026/09/08/grindr-pays-26m-to-settle-uk-privacy-class-action/5294935",
-      "source": "The Register（英語）",
-      "published": "2026-09-08T10:27:00",
-      "excerpt": "Dating app admits no liability over allegations that it shared sensitive user data, including HIV status, with third par…"
+      "title": "グーグルの原子力発電所が復活、米国政府から19億ドルの融資を受ける",
+      "link": "https://techcrunch.com/2026/09/08/googles-revived-nuclear-power-plant-gets-1-9b-loan-from-us-government/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-08T15:25:35",
+      "excerpt": "グーグルはアイオワ州の原子力発電所を死から取り戻すと発表した。現在、発電所の所有者は米国エネルギー省から19億ドルの融資を受けている。"
     },
     {
-      "title": "「ペンギンを返して」　Suica新キャラ候補3案公開でSNSに戸惑いの声　一般投票は8日から",
-      "link": "https://www.itmedia.co.jp/news/article/2609/08/2000001290/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-08T10:20:13",
-      "excerpt": "JR東日本が9月8日に公開したSuicaの新イメージキャラクター候補3案のデザインが、XなどのSNSで波紋を広げている。…"
+      "title": "失望した楽観主義者",
+      "link": "https://cwodtke.com/disappointed-optimists/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-08T15:13:56",
+      "excerpt": "記事の URL: https://cwodtke.com/disappointed-optimists/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "「離婚してから自分が性格悪いことに気づいた」の人が誤解していること - いつか電池がきれるまで",
-      "link": "https://fujipon.hatenablog.com/entry/2026/09/08/170251",
-      "source": "はてなブックマーク（テクノロジー）",
-      "published": "2026-09-08T09:51:14",
-      "excerpt": "anond.hatelabo.jp いまネット界隈でかなり話題のこの『はてな匿名ダイアリー』のエントリについて。読みながら、これAI？が半分、こういう「理由責め」しないと気が済まない人っているよな、が半分。…"
+      "title": "予算をかけずに「改ざんできない」ログ保全を作る——最小構成と、その限界",
+      "link": "https://qiita.com/securoi_koyama/items/d7d74a822686280e2978",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-08T15:10:03",
+      "excerpt": "「ログは残していますか」と「改ざんできない形で残していますか」は、別の質問です。前者にはたいていの会社が「はい」と答えられます。問題は後者で、ここで詰まります。…"
     }
   ]
 }
