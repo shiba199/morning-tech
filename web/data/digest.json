@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-09-09T16:47:29",
+  "generated_at": "2026-09-09T19:33:51",
   "window_hours": 24,
-  "total": 191,
+  "total": 197,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が32件。Article URL: https://prospect.…",
+      "summary": "生成AIの新着が33件。Amazon Bedrock 経由の Claude Code で auto mode が使えるか試しました。使えるモデルと使えないもモデルがあります。",
       "articles": [
         {
-          "title": "Anthropic Is Building a Predictive Surveillance System to Monitor Activists",
+          "title": "Amazon Bedrock 経由の Claude Code で auto mode を試したら、モデルによって出たり出なかったりした",
+          "link": "https://dev.classmethod.jp/articles/claude-code-auto-mode-bedrock/",
+          "source": "DevelopersIO",
+          "published": "2026-09-09T18:39:21",
+          "excerpt": "Amazon Bedrock 経由の Claude Code で auto mode が使えるか試しました。使えるモデルと使えないもモデルがあります。"
+        },
+        {
+          "title": "HN を表示: 部門内のセルフホスト型企業 OS、Claude Code および Codex エージェント",
+          "link": "https://github.com/OtoDock/oto-dock",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-09T17:57:55",
+          "excerpt": "こんにちは、HN、私はディミトリスです。これは私がビジネスを運営するために構築して使用している会社用 OS で、誰でも無料でインストールしてセルフホストできます。…"
+        },
+        {
+          "title": "Amazon Bedrock Managed Knowledge Base に、ドキュメントレベルのアクセス制御をデバッグするための API とコンソールのサポートが追加されました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-knowledge-base-debugging-document-access-control/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-09T16:03:00",
+          "excerpt": "AWS は、Amazon Bedrock マネージド ナレッジベース用の CheckIngestedDocumentAcl および GetIngestedDocumentAcl API を発表し、ドキュメント アクセスの問題をデバッグし、ド…"
+        },
+        {
+          "title": "Anthropic は活動家を監視する予測監視システムを構築中",
           "link": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/",
           "source": "Hacker News（英語）",
           "published": "2026-09-09T16:01:41",
-          "excerpt": "Article URL: https://prospect.…"
-        },
-        {
-          "title": "Claude Code を Amazon Bedrock 経由で使う環境を作る（WSL + aws-vault + 国内リージョン）",
-          "link": "https://dev.classmethod.jp/articles/claude-code-bedrock-jp-region/",
-          "source": "DevelopersIO",
-          "published": "2026-09-09T15:37:28",
-          "excerpt": "既に Claude Enterprise を使っていましたが、Bedrock 経由の Claude も同じ WSL 上で使いたかったので、切り替えられるようにセットアップしました！"
-        },
-        {
-          "title": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI",
-          "link": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-09T15:02:47",
-          "excerpt": "Anthropic researcher Jacob Coxon resigned over AI extinction fears, calling for pacing agreements between labs."
-        },
-        {
-          "title": "男性はChatGPTに妄想を感じていると語った。 ChatGPTは自分がイエスであると主張した。",
-          "link": "https://arstechnica.com/tech-policy/2026/09/man-told-chatgpt-he-was-feeling-delusional-chatgpt-insisted-he-was-jesus/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-09-09T11:00:10",
-          "excerpt": "双極性障害の男性が、ChatGPT関連の自殺未遂を乗り越えた後、OpenAIを訴えた。"
+          "excerpt": "記事の URL: https://prospect.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。Amazon Web Services（AWS）は、AIがフルスタックのAWSアプリケーションに必要なアプリケーションの基本的なコードに加えて、セキュリティや可観測性などの要件も備えたインフラ構成のコードもまとめて生成してくれるツール「Nx…",
+      "summary": "クラウドの新着が15件。AWS Lambda は、 Lambda マネージド インスタンス で AWS Graviton5 を利用した C9g、C9gd、M9g、および M9gd インスタンスをサポートするようになりました。…",
       "articles": [
+        {
+          "title": "AWS Lambda が Lambda マネージド インスタンス上で Graviton5 を利用した EC2 インスタンスをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-09T18:00:00",
+          "excerpt": "AWS Lambda は、 Lambda マネージド インスタンス で AWS Graviton5 を利用した C9g、C9gd、M9g、および M9gd インスタンスをサポートするようになりました。…"
+        },
         {
           "title": "AWS、AIがフルスタックAWSアプリの基本コードを、セキュリティ、可観測性、インフラまで一気通貫で生成する「Nx Plugin for AWS 1.0」、オープンソースで公開",
           "link": "https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html",
@@ -64,27 +71,27 @@
           "source": "DevelopersIO",
           "published": "2026-09-09T09:51:44",
           "excerpt": "公式のサンプルをClaude Platform on AWS向けに微修正しつつ、Lambda MicroVMs上にClaude Managed Agentsのセルフホスト型サンドボックス環境を構築してみました。"
-        },
-        {
-          "title": "Chrome、バージョン153を公開。2週間ごとのリリースに移行 ——EdgeとFirefoxもすでに2週間周期に",
-          "link": "https://gihyo.jp/article/2026/09/chrome-two-week-release-cycle?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-09-09T09:37:00",
-          "excerpt": "Googleは9月8日、WebブラウザーChrome 153（安定版）を公開し、リリース周期を4週間から2週間へ短縮した。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。Article URL: https://about.readthedocs.com/blog/2026/09/2026-ddos-attack/ Comments URL: https://news.ycombinator.…",
+      "summary": "セキュリティの新着が16件。記事の URL: https://about.readthedocs.com/blog/2026/09/2026-ddos-攻撃/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
-          "title": "Understanding the Recent DDoS Attack Against Read the Docs",
+          "title": "最近の DDoS 攻撃について理解する ドキュメントを読む",
           "link": "https://about.readthedocs.com/blog/2026/09/2026-ddos-attack/",
           "source": "Hacker News（英語）",
           "published": "2026-09-09T15:55:53",
-          "excerpt": "Article URL: https://about.readthedocs.com/blog/2026/09/2026-ddos-attack/ Comments URL: https://news.ycombinator.…"
+          "excerpt": "記事の URL: https://about.readthedocs.com/blog/2026/09/2026-ddos-攻撃/ コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "【IAM Identity Center】Permission setsの仕組み・仕様について",
+          "link": "https://zenn.dev/tmiki/articles/b6f795dc720d93",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-09T15:48:32",
+          "excerpt": "はじめに IAM Identity Centerにおける権限付与の中核には \"Permission sets\" があります。…"
         },
         {
           "title": "AWS、AIがフルスタックAWSアプリの基本コードを、セキュリティ、可観測性、インフラまで一気通貫で生成する「Nx Plugin for AWS 1.0」、オープンソースで公開",
@@ -99,13 +106,6 @@
           "source": "The Register（英語）",
           "published": "2026-09-09T11:14:00",
           "excerpt": "研究者は、過剰な権限を与えられた Iterable 認証により 880 万の顧客レコードが公開され、大量削除が可能になった可能性があると考えています"
-        },
-        {
-          "title": "Huawei Watch D3はヘルスモニタリングの認証情報を強化",
-          "link": "https://www.theregister.com/personal-tech/2026/09/09/huawei-watch-d3-pumps-up-its-health-monitoring-credentials/5294920",
-          "source": "The Register（英語）",
-          "published": "2026-09-09T09:45:00",
-          "excerpt": "膨張可能なリストカフは、デザインは分厚いままですが、24 時間血圧測定値を提供します"
         }
       ]
     },
@@ -133,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。背景 EC2間のSG参照（SG-to-SG）をCloudFormationでコード化する際、「なんとなく!Refで書いたらエラーになった」という、CloudFormation特有の仕様に起因するハマりどころがありました。1.…",
+      "summary": "開発ツールの新着が10件。前提 下記のCLIツールがインストール済み - AWS CLI v2 curl -fsSL https://awscli.amazonaws.com/v2/install.sh | bash ~/.…",
       "articles": [
+        {
+          "title": "環境設定：AWSログインCLI設定",
+          "link": "https://zenn.dev/ops_awsdevspace/articles/ed549c1d983488",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-09T14:55:02",
+          "excerpt": "前提 下記のCLIツールがインストール済み - AWS CLI v2 curl -fsSL https://awscli.amazonaws.com/v2/install.sh | bash ~/.…"
+        },
         {
           "title": "CloudFormationでSG参照を書くとき`!Ref`ではなく`!GetAtt ... .GroupId`を使う理由",
           "link": "https://qiita.com/caymezon/items/2d198ad709372b243e1e",
@@ -155,45 +162,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-09-09T07:27:06",
           "excerpt": "Terraformのinit・plan・applyと実行結果を理解する Terraformを使う際、基本となるコマンドが以下の3つです。…"
-        },
-        {
-          "title": "CloudFormationでAMI IDをハードコードせず、常に最新版を自動取得する",
-          "link": "https://qiita.com/caymezon/items/ff23fb73c3f321e27941",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-09T07:18:09",
-          "excerpt": "背景 EC2 + ApacheをCloudFormationでコード化する際、AMI IDの扱いに実務でも使える工夫がありました。AMI IDは通常リージョンごと・更新のたびに変わる値なので、そのままハードコードすると保守性が下がります。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "DOJ wants more answers on Fox’s $22B Roku deal",
-      "link": "https://techcrunch.com/2026/09/09/doj-wants-more-answers-on-foxs-22b-roku-deal/",
+      "title": "Apple の新しい折りたたみ式携帯電話のヒンジは AI で構築されました",
+      "link": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-09T16:44:21",
-      "excerpt": "Fox’s $22 billion plan to buy Roku has hit a new hurdle.…"
+      "published": "2026-09-09T19:21:48",
+      "excerpt": "Appleは、待望の折りたたみ式携帯電話の製造プロセスでAIと3Dプリンティングを使用したと発表した。"
     },
     {
-      "title": "「あの提案書どこだっけ」を言わなくなるように、Embeddingで意味検索するシステムを自作した",
-      "link": "https://qiita.com/daichannel/items/c9bbbe4282f6cf8019c4",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-09T16:31:02",
-      "excerpt": "システム提案作業を行っていると、「あの業界向けに作った提案書どこだっけ」となることがあります。…"
-    },
-    {
-      "title": "Defining AI Psychosis. Part 2: \"Prolific AI Psychosis\"",
-      "link": "https://jeffs.blog/p/defining-ai-psychosis-part-2-prolific",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-09T16:13:11",
-      "excerpt": "Article URL: https://jeffs.blog/p/defining-ai-psychosis-part-2-prolific Comments URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Superintelligence is coming. Should we let it?",
-      "link": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
+      "title": "Apple Watchの新機能はチャットを聞いて要約します",
+      "link": "https://techcrunch.com/2026/09/09/apple-watchs-new-feature-listens-to-your-chats-and-recaps-them/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-09T16:05:35",
-      "excerpt": "AI companies have been talking about superintelligent AI like it s inevitable, but recent safety incidents like OpenAI s…"
+      "published": "2026-09-09T19:08:59",
+      "excerpt": "Siri Recap 機能は、Granola などの他のメモアプリと似ています。"
+    },
+    {
+      "title": "「iPhone Duo」発表　Apple初の折りたたみスマホ　36万4800円から",
+      "link": "https://www.itmedia.co.jp/news/article/2609/10/2000001335/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-09T18:54:57",
+      "excerpt": "米Appleは9月9日（現地時間）、同社初の折りたたみスマートフォン「iPhone Duo」を発表した。閉じれば5.4インチ、開けばiPhone史上最大の7.6インチの2画面構成。価格は36万4800円からで、10月23日に発売する。"
+    },
+    {
+      "title": "iPhone 18シリーズ発表、今年はPro・Pro Maxのみ　なんと“無印”なし",
+      "link": "https://www.itmedia.co.jp/news/article/2609/10/2000001336/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-09T18:36:16",
+      "excerpt": "米Appleは9月9日（現地時間）、iPhoneの最新モデル「iPhone 18」シリーズを発表した。"
     }
   ]
 }
