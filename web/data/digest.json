@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-09T19:33:51",
+  "generated_at": "2026-09-09T22:04:33",
   "window_hours": 24,
-  "total": 197,
+  "total": 192,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。Amazon Bedrock 経由の Claude Code で auto mode が使えるか試しました。使えるモデルと使えないもモデルがあります。",
+      "summary": "生成AIの新着が29件。Anthropicの研究幹部2人が、超知能開発への危機感を訴えて退社した研究員の主張に同意する見解を個人として投稿した。…",
       "articles": [
+        {
+          "title": "Anthropic在籍の研究者2人も同調──「AIが人類を滅ぼしかねないと本気で考えている」",
+          "link": "https://www.itmedia.co.jp/news/article/2609/10/2000001342/",
+          "source": "ITmedia NEWS",
+          "published": "2026-09-09T21:26:33",
+          "excerpt": "Anthropicの研究幹部2人が、超知能開発への危機感を訴えて退社した研究員の主張に同意する見解を個人として投稿した。…"
+        },
+        {
+          "title": "サムスン、OpenAIの半導体サプライチェーンの強化を支援",
+          "link": "https://www.theregister.com/systems/2026/09/09/samsung-to-help-fortify-openais-semiconductor-supply-chain/5295374",
+          "source": "The Register（英語）",
+          "published": "2026-09-09T20:18:35",
+          "excerpt": "半導体サプライチェーンは厳しいが、サムスンはコンピューティングとメモリにわたるさまざまな形で OpenAI 救済を提供"
+        },
         {
           "title": "Amazon Bedrock 経由の Claude Code で auto mode を試したら、モデルによって出たり出なかったりした",
           "link": "https://dev.classmethod.jp/articles/claude-code-auto-mode-bedrock/",
@@ -22,28 +36,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-09-09T17:57:55",
           "excerpt": "こんにちは、HN、私はディミトリスです。これは私がビジネスを運営するために構築して使用している会社用 OS で、誰でも無料でインストールしてセルフホストできます。…"
-        },
-        {
-          "title": "Amazon Bedrock Managed Knowledge Base に、ドキュメントレベルのアクセス制御をデバッグするための API とコンソールのサポートが追加されました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-knowledge-base-debugging-document-access-control/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-09T16:03:00",
-          "excerpt": "AWS は、Amazon Bedrock マネージド ナレッジベース用の CheckIngestedDocumentAcl および GetIngestedDocumentAcl API を発表し、ドキュメント アクセスの問題をデバッグし、ド…"
-        },
-        {
-          "title": "Anthropic は活動家を監視する予測監視システムを構築中",
-          "link": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-09T16:01:41",
-          "excerpt": "記事の URL: https://prospect.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。AWS Lambda は、 Lambda マネージド インスタンス で AWS Graviton5 を利用した C9g、C9gd、M9g、および M9gd インスタンスをサポートするようになりました。…",
+      "summary": "クラウドの新着が17件。はじめに 2026年9月9日、AWS LambdaがLambda Managed Instances(LMI)上の非同期呼び出しとイベントソースマッピング(ESM)呼び出しについて、タイムアウトの上限を15分から90分に拡張したと発表しまし…",
       "articles": [
+        {
+          "title": "(速報)Lambda Managed Instances上の非同期呼び出しとイベントソースマッピング(ESM)呼び出しが90分に拡張",
+          "link": "https://qiita.com/yama3133/items/eec52fce419ddde79df5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-09T20:23:15",
+          "excerpt": "はじめに 2026年9月9日、AWS LambdaがLambda Managed Instances(LMI)上の非同期呼び出しとイベントソースマッピング(ESM)呼び出しについて、タイムアウトの上限を15分から90分に拡張したと発表しまし…"
+        },
+        {
+          "title": "AWS Lambda が Lambda マネージド インスタンスで 90 分の関数タイムアウトをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-09T18:00:00",
+          "excerpt": "AWS Lambda は、 非同期 および イベント ソース マッピング (ESM) 呼び出しの 90 分の関数タイムアウトをサポートするようになりました。Lambda マネージド インスタンス (LMI) 。…"
+        },
         {
           "title": "AWS Lambda が Lambda マネージド インスタンス上で Graviton5 を利用した EC2 インスタンスをサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/",
@@ -57,27 +71,13 @@
           "source": "Publickey",
           "published": "2026-09-09T15:30:50",
           "excerpt": "Amazon Web Services（AWS）は、AIがフルスタックのAWSアプリケーションに必要なアプリケーションの基本的なコードに加えて、セキュリティや可観測性などの要件も備えたインフラ構成のコードもまとめて生成してくれるツール「Nx…"
-        },
-        {
-          "title": "Amazon MWAA ServerlessのタスクからAWSサービスに到達できる範囲をVPCの有無で確認してみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-mwaa-serverless-vpc-network-reachability/",
-          "source": "DevelopersIO",
-          "published": "2026-09-09T11:03:44",
-          "excerpt": "Amazon MWAA ServerlessのタスクからどのAWSサービスへ到達できるかを構成別に確認しました。VPCなしで届いたのはS3とCloudWatch Logsだけです。…"
-        },
-        {
-          "title": "Lambda MicroVMs × Claude Platform on AWSでClaude Managed Agentsサンドボックスを起動してみた",
-          "link": "https://dev.classmethod.jp/articles/claude-managed-agents-sandbox-on-lambda-micro-vms/",
-          "source": "DevelopersIO",
-          "published": "2026-09-09T09:51:44",
-          "excerpt": "公式のサンプルをClaude Platform on AWS向けに微修正しつつ、Lambda MicroVMs上にClaude Managed Agentsのセルフホスト型サンドボックス環境を構築してみました。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。記事の URL: https://about.readthedocs.com/blog/2026/09/2026-ddos-攻撃/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が15件。記事の URL: https://about.readthedocs.com/blog/2026/09/2026-ddos-攻撃/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
           "title": "最近の DDoS 攻撃について理解する ドキュメントを読む",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。Amazon Web Services（AWS）は、データ分析プラットフォーム「Amazon Quick」の新機能として、データ分析と表示を行うカスタムアプリケーションを自然言語の指示だけで構築できる新機能を発表しました。Amazon Q.…",
+      "summary": "データ分析の新着が1件。Amazon Web Services（AWS）は、データ分析プラットフォーム「Amazon Quick」の新機能として、データ分析と表示を行うカスタムアプリケーションを自然言語の指示だけで構築できる新機能を発表しました。Amazon Q.…",
       "articles": [
         {
           "title": "AWS、自然言語でデータ分析アプリを構築可能に、「Amazon Quick」に新機能",
@@ -120,21 +120,21 @@
           "source": "Publickey",
           "published": "2026-09-09T15:27:47",
           "excerpt": "Amazon Web Services（AWS）は、データ分析プラットフォーム「Amazon Quick」の新機能として、データ分析と表示を行うカスタムアプリケーションを自然言語の指示だけで構築できる新機能を発表しました。Amazon Q.…"
-        },
-        {
-          "title": "Bing 壁紙アプリがハリー ポッターの広告の部屋を開く",
-          "link": "https://www.theregister.com/os-platforms/2026/09/08/bing-wallpaper-app-opens-harry-potters-chamber-of-ads/5295118",
-          "source": "The Register（英語）",
-          "published": "2026-09-08T20:22:36",
-          "excerpt": "Microsoft が壁紙で実践している闇の芸術に対する防御策はありません"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。前提 下記のCLIツールがインストール済み - AWS CLI v2 curl -fsSL https://awscli.amazonaws.com/v2/install.sh | bash ~/.…",
+      "summary": "開発ツールの新着が11件。本日、AWS は、1 行の CLI コマンドでトリガーできる AWS Transform カスタムでの .NET モダナイゼーションのための AWS 管理の変換の一般提供を発表しました。…",
       "articles": [
+        {
+          "title": "AWS Transform for .NET のモダナイゼーションが CLI 経由で一般提供されるようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-dotnet-cli",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-09T20:00:00",
+          "excerpt": "本日、AWS は、1 行の CLI コマンドでトリガーできる AWS Transform カスタムでの .NET モダナイゼーションのための AWS 管理の変換の一般提供を発表しました。…"
+        },
         {
           "title": "環境設定：AWSログインCLI設定",
           "link": "https://zenn.dev/ops_awsdevspace/articles/ed549c1d983488",
@@ -155,45 +155,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-09T07:50:24",
           "excerpt": "はじめに AWS labsが公開しているOSSツール「IAM Policy Autopilot」が、Terraformのplanファイルを読んでベースラインのIAMポリシーを生成できるようになったので試してみました。…"
-        },
-        {
-          "title": "Terraform init・plan・applyで何が起きるのかを理解する",
-          "link": "https://zenn.dev/naoki_mm/articles/7421c40f99de18",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-09T07:27:06",
-          "excerpt": "Terraformのinit・plan・applyと実行結果を理解する Terraformを使う際、基本となるコマンドが以下の3つです。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Apple の新しい折りたたみ式携帯電話のヒンジは AI で構築されました",
-      "link": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/",
+      "title": "マサチューセッツ州は新しいクリーン電力ルールをデータセンターに導入",
+      "link": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-09T19:21:48",
-      "excerpt": "Appleは、待望の折りたたみ式携帯電話の製造プロセスでAIと3Dプリンティングを使用したと発表した。"
+      "published": "2026-09-09T21:43:34",
+      "excerpt": "マサチューセッツ州はここ数カ月でデータセンター開発に新たな制限を課した３番目の州となった。"
     },
     {
-      "title": "Apple Watchの新機能はチャットを聞いて要約します",
-      "link": "https://techcrunch.com/2026/09/09/apple-watchs-new-feature-listens-to-your-chats-and-recaps-them/",
+      "title": "Automattic CEOのマット・マレンウェグ氏が「休職」",
+      "link": "https://www.404media.co/wordpress-automattic-ceo-matt-mullenweg-put-on-leave-of-absence/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-09T21:28:56",
+      "excerpt": "記事の URL: https://www.404media.…"
+    },
+    {
+      "title": "「iPhone 18」シリーズ徹底比較　「17」シリーズとの違いをチェック",
+      "link": "https://www.itmedia.co.jp/news/article/2609/10/2000001341/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-09T21:23:21",
+      "excerpt": "米Appleが「iPhone 18 Pro」「iPhone 18 Pro Max」を発表した。6.3インチのProと6.9インチのPro Maxの2機種で、今年はいわゆる“無印”モデルの発表がない異例のラインアップとなった。…"
+    },
+    {
+      "title": "Appleの新CEOは25年前のスティーブ・ジョブズ戦略を復活させている",
+      "link": "https://techcrunch.com/2026/09/09/apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-09T19:08:59",
-      "excerpt": "Siri Recap 機能は、Granola などの他のメモアプリと似ています。"
-    },
-    {
-      "title": "「iPhone Duo」発表　Apple初の折りたたみスマホ　36万4800円から",
-      "link": "https://www.itmedia.co.jp/news/article/2609/10/2000001335/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-09T18:54:57",
-      "excerpt": "米Appleは9月9日（現地時間）、同社初の折りたたみスマートフォン「iPhone Duo」を発表した。閉じれば5.4インチ、開けばiPhone史上最大の7.6インチの2画面構成。価格は36万4800円からで、10月23日に発売する。"
-    },
-    {
-      "title": "iPhone 18シリーズ発表、今年はPro・Pro Maxのみ　なんと“無印”なし",
-      "link": "https://www.itmedia.co.jp/news/article/2609/10/2000001336/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-09T18:36:16",
-      "excerpt": "米Appleは9月9日（現地時間）、iPhoneの最新モデル「iPhone 18」シリーズを発表した。"
+      "published": "2026-09-09T20:58:09",
+      "excerpt": "ジョン・ターナス氏は、Apple CEOとしての最初の基調講演で、iPhoneはどこにも行かないと主張した。"
     }
   ]
 }
