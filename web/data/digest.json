@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-08T23:46:40",
+  "generated_at": "2026-09-09T01:56:17",
   "window_hours": 24,
-  "total": 202,
+  "total": 207,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が38件。Microsoft Agent Frameworkエージェントに永続的なセッション間メモリ機能追加",
+      "summary": "生成AIの新着が35件。OpenAIは、社内の未公開モデルがミレニアム懸賞問題の「ナビエ・ストークス方程式」の特異点発生を証明したと発表した。一方、先行研究を行っていた数学者は、自らの成果伝達後に着手され手法が酷似していると不正疑惑を主張。…",
       "articles": [
+        {
+          "title": "OpenAI、ミレニアム懸賞問題「ナビエ・ストークス方程式」をAIが解決したと発表　数学者は経緯に反発",
+          "link": "https://www.itmedia.co.jp/news/article/2609/09/2000001300/",
+          "source": "ITmedia NEWS",
+          "published": "2026-09-09T00:55:27",
+          "excerpt": "OpenAIは、社内の未公開モデルがミレニアム懸賞問題の「ナビエ・ストークス方程式」の特異点発生を証明したと発表した。一方、先行研究を行っていた数学者は、自らの成果伝達後に着手され手法が酷似していると不正疑惑を主張。…"
+        },
+        {
+          "title": "Amazon Connect Customer AI エージェントセルフサービスの会話を ListMessages API で取得してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-connect-customer-ai-agent-list-messages/",
+          "source": "DevelopersIO",
+          "published": "2026-09-08T23:49:30",
+          "excerpt": "Amazon Connect の AI エージェントとの会話履歴を Contact ID から取得する方法を紹介します。…"
+        },
         {
           "title": "Microsoft Agent Frameworkエージェントに永続的なセッション間メモリ機能追加",
           "link": "https://codezine.jp/article/detail/29617",
@@ -22,28 +36,21 @@
           "source": "@IT",
           "published": "2026-09-08T23:00:00",
           "excerpt": "Linux Foundationは、エージェント型AIのセキュリティインシデントを業界で共有するためのガイドライン「SAFE」について意見募集を始めた。NVIDIAやCisco、CrowdStrikeなどが初期案の作成に参加している。"
-        },
-        {
-          "title": "Geminiを抜き2位へ　縮小する生成AI市場で利用者を増やした意外なアプリ",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/09/news032.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-09-08T22:00:00",
-          "excerpt": "米国の生成AIチャットbotアプリ市場は成長の鈍化が続いている。大半のアプリが利用者を減らした2026年8月、逆に利用者を増やし、GoogleのGeminiを抜いて2位に浮上したアプリがある。首位ChatGPTを追う新たな2番手はどれか。"
-        },
-        {
-          "title": "「AI検出」を「不正」と見なす危険　“Claude電子透かし”の技術的限界と企業の正しい運用設計",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/09/news013.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-09-08T22:00:00",
-          "excerpt": "AnthropicがClaudeへの導入を決めたテキスト電子透かし。検出結果のみでAI不正利用を判断すると正規利用者の負担となる懸念がある。透かし技術の実態とEU規制の意図をひもとき、企業が講じるべき現実的な運用設計を考える。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。AWS Lambdaはリクエストを受け付けてから実行環境を立ち上げて処理する為、初回のリクエストは2回目以降と比べて遅くなります。これをコールドスタートと言います。…",
+      "summary": "クラウドの新着が17件。こんにちは、PR TIMESでインターンをしている河野拓真です。今回は、PR TIMESのサービスで一部使用しているAmazon ECS on Fargateに、CloudWatch Alarmと連携した自動ロールバッ […]…",
       "articles": [
+        {
+          "title": "Amazon ECS のデプロイをCloudWatch Alarm で自動ロールバックする | PR TIMES 開発者ブログ",
+          "link": "https://developers.prtimes.com/2026/09/09/amazon-ecs-cloudwatch-alarm/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-09T01:00:00",
+          "excerpt": "こんにちは、PR TIMESでインターンをしている河野拓真です。今回は、PR TIMESのサービスで一部使用しているAmazon ECS on Fargateに、CloudWatch Alarmと連携した自動ロールバッ […]…"
+        },
         {
           "title": "Lambdaのコールドスタートで、boost host CPUはどこまで有効なのか",
           "link": "https://qiita.com/yasuaki9973/items/1249555e82eacbfb5369",
@@ -64,21 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-08T15:58:30",
           "excerpt": "はじめに 2026 年 8 月 24 日、AWS は Amazon ECS に対して、コンテナインスタンスのエージェント接続障害を自動検出・修復する新機能を発表しました。…"
-        },
-        {
-          "title": "Amazon CloudFront の Dynamic Image Transformation に 4 つの新機能が追加",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transfromation-adds-new-features/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-08T14:32:00",
-          "excerpt": "本日、AWS は、Amazon CloudFront (DIT) の Dynamic Image Transformation の 4 つの新機能を発表しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。はじめに 結論：CloudTechとGemini＋Keepメモで AWS Certified Security - Specialty (SCS-C03)に合格！…",
+      "summary": "セキュリティの新着が13件。はじめに 以前、【図解あり】External Stageとは？…",
       "articles": [
+        {
+          "title": "External Stageをもう少し深掘りしてみた ～暗号化・Directory Table・Snowpipeとの自動連携まで～",
+          "link": "https://qiita.com/Sho5_Matsu/items/3e7539113f40573c8bd0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-09T01:31:47",
+          "excerpt": "はじめに 以前、【図解あり】External Stageとは？…"
+        },
+        {
+          "title": "エージェンティックセキュリティ: マシンスピードでの検出と対応",
+          "link": "https://aws.amazon.com/jp/blogs/news/agentic-security-detection-and-response-at-machine-speed/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-09-09T01:29:18",
+          "excerpt": "自律型 AI エージェントの台頭は、セキュリティポスチャにとってクラウドへの移行以来最大の変化です。…"
+        },
         {
           "title": "2回の不合格を乗り越えて執念でAWS Certified Security - Specialty (SCS-C03)に合格した話",
           "link": "https://qiita.com/kanekane/items/66828e6ae5971238bcb1",
@@ -92,20 +106,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-08T17:46:18",
           "excerpt": "はじめに AWS の事故の多くは、難しい攻撃ではなく「うっかり全公開」で起きます。S3 が public だった、Security Group が 0.0.0.0/0 で全開だった、IAM が *:* だった——。…"
-        },
-        {
-          "title": "IAM 権限は足りているのに AWS の請求画面が開けないので改善",
-          "link": "https://zenn.dev/kazusa_nakagawa/articles/article17_aws_billing_iam_access",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-08T15:10:55",
-          "excerpt": "要点 IAM ユーザに ReadOnlyAccess や PowerUserAccess があっても、請求とコスト管理のコンソールは開けない 鍵はアカウント設定の「IAM ユーザーとロールの請求情報へのアクセス」で、root ユーザーでしか…"
-        },
-        {
-          "title": "強すぎる IAM ユーザで調査するのをやめる — MFA 必須の read-only 調査用ユーザを CLI で作る",
-          "link": "https://zenn.dev/kazusa_nakagawa/articles/article16_aws_readonly_iam_user",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-08T15:10:53",
-          "excerpt": "要点 個人開発の AWS アカウントで、PowerUserAccess + IAMFullAccess を持つ IAM ユーザ 1 つだけで作業していた ただ、障害調査や機能拡張の下調べでも同じユーザを使うのはよろしくない。…"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。GitHub、GitHub Copilotの新機能「Project HydraFusion」のプレビュー版リリース",
+      "summary": "開発ツールの新着が15件。こんにちは、PR TIMESでインターンをしている河野拓真です。今回は、PR TIMESのサービスで一部使用しているAmazon ECS on Fargateに、CloudWatch Alarmと連携した自動ロールバッ […]…",
       "articles": [
+        {
+          "title": "Amazon ECS のデプロイをCloudWatch Alarm で自動ロールバックする | PR TIMES 開発者ブログ",
+          "link": "https://developers.prtimes.com/2026/09/09/amazon-ecs-cloudwatch-alarm/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-09T01:00:00",
+          "excerpt": "こんにちは、PR TIMESでインターンをしている河野拓真です。今回は、PR TIMESのサービスで一部使用しているAmazon ECS on Fargateに、CloudWatch Alarmと連携した自動ロールバッ […]…"
+        },
         {
           "title": "GitHub、GitHub Copilotの新機能「Project HydraFusion」のプレビュー版リリース",
           "link": "https://codezine.jp/article/detail/29616",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-08T15:56:59",
           "excerpt": "はじめに 今回は、2026年8月12日(水)に開催されました「JAWS-UG CDK支部 #26 〜CDKに関する真夏のLT大会〜」にて登壇の機会をいただけましたので資料を共有します。登壇資料 コメント CDK支部では初の登壇でした。…"
-        },
-        {
-          "title": "強すぎる IAM ユーザで調査するのをやめる — MFA 必須の read-only 調査用ユーザを CLI で作る",
-          "link": "https://zenn.dev/kazusa_nakagawa/articles/article16_aws_readonly_iam_user",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-08T15:10:53",
-          "excerpt": "要点 個人開発の AWS アカウントで、PowerUserAccess + IAMFullAccess を持つ IAM ユーザ 1 つだけで作業していた ただ、障害調査や機能拡張の下調べでも同じユーザを使うのはよろしくない。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "“地下神殿”への濁流動画をダウンロード公開　Xでの反響受け……「首都圏外郭放水路」に称賛",
-      "link": "https://www.itmedia.co.jp/news/article/2609/09/2000001297/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-08T23:27:30",
-      "excerpt": "「地下神殿すごい」。7日に投稿された首都圏外郭放水路の動画に称賛が集まったことを受け、国交省はこの動画を、ダウンロード可能な形で再投稿した。"
+      "title": "AWS学習後に消し忘れやすい課金リソース ALB・NAT Gateway・EBS確認",
+      "link": "https://qiita.com/s_horikoshi/items/93ab5eb32c739a9d5559",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-09T01:53:44",
+      "excerpt": "はじめに AWSの個人学習でEC2を停止しても、料金が完全に止まるとは限りません。…"
     },
     {
-      "title": "テトリス会社の苦情を受け、ホワイトハウスが「ビルド・ザ・ウォール」ゲームを削除",
-      "link": "https://techcrunch.com/2026/09/08/white-house-takes-down-build-the-wall-game-after-the-tetris-company-complains/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-08T23:23:23",
-      "excerpt": "トランプ政権が短期間運営したアーケードゲーム「ビルド・ザ・ウォール」は、テトリス社が「著作権侵害を非常に深刻に受け止めている」と投稿した後、現在どこにも見当たらない。"
+      "title": "2026年9月9日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "link": "https://qiita.com/ennagara128/items/cfc552f21779d0e163b1",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-09T01:20:57",
+      "excerpt": "2026年9月9日 今日のQiitaトレンド記事をポッドキャストで聴こう！AI AWS ClaudeCode 初心者 生成AI 前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
     },
     {
-      "title": "Google DeepMind、90億通りの全塩基変異の影響を予測した「AlphaGenome Atlas」　学術向けに無償提供",
-      "link": "https://www.itmedia.co.jp/news/article/2609/09/2000001296/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-08T23:13:49",
-      "excerpt": "Google DeepMindは、ヒトゲノムで起こり得る約90億通り全ての一塩基変異の影響を事前予測したデータベース「AlphaGenome Atlas」を公開した。…"
+      "title": "米国、カナダの乳製品、アルコール、自動車の輸入を9月29日に禁止",
+      "link": "https://www.reuters.com/business/us-ban-canadian-dairy-alcohol-motor-vehicle-imports-september-29-2026-09-08/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-09T01:13:57",
+      "excerpt": "記事の URL: https://www.reuters.…"
     },
     {
-      "title": "複雑なコーディングに優れた「GLM-5.3」、オープンウェイトとして公開",
-      "link": "https://codezine.jp/article/detail/29610",
-      "source": "CodeZine",
-      "published": "2026-09-08T23:00:00",
-      "excerpt": "複雑なコーディングに優れた「GLM-5.3」、オープンウェイトとして公開"
+      "title": "Vector Database を幾何学的に解釈する試み | フレクトのクラウドblog",
+      "link": "https://cloud.flect.co.jp/entry/2026/09/09/101157",
+      "source": "企業テックブログまとめ",
+      "published": "2026-09-09T01:11:57",
+      "excerpt": "こんにちは、エンジニアの浅見です。今回は、かなり個人的な趣味によった話をします。…"
     }
   ]
 }
