@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-09-10T04:57:51",
+  "generated_at": "2026-09-10T09:20:16",
   "window_hours": 24,
-  "total": 200,
+  "total": 195,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。エージェントの実行環境を移すとき、次の処理を決めるロジックまで書き換える必要はない。…",
+      "summary": "生成AIの新着が32件。GPU CPU比較 はじめに こんにちは、APCのSAT室PE推進チームに所属している簗田です。AzureでGPU推論環境を評価するとき、VMが作れただけでは実運用の判断はできません。…",
       "articles": [
         {
-          "title": "AgentCore移行で比べるLangGraphとStrands：実行基盤と計画を分けて設計する",
-          "link": "https://qiita.com/emi_ndk/items/f16b0b2aaa77d114a43c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-10T02:57:49",
-          "excerpt": "エージェントの実行環境を移すとき、次の処理を決めるロジックまで書き換える必要はない。…"
-        },
-        {
-          "title": "Kaggleのセキュリティコンペ「AI Agent Security - Multi-Step Tool Attacks」のふり返りと供養 | 松尾研究所テックブログのフィード",
-          "link": "https://zenn.dev/mkj/articles/4d7621a39feb0a",
+          "title": "Azure GPU VMで小型LLM推論を実測して、CPUと比較してみた | APC 技術ブログ",
+          "link": "https://techblog.ap-com.co.jp/entry/2026/09/10/173000",
           "source": "企業テックブログまとめ",
-          "published": "2026-09-10T02:50:05",
-          "excerpt": "TL;DROpenAI 主催の Kaggle コンペ「AI Agent Security - Multi-Step Tool Attacks」（AI エージェントへのレッドチーミング）に参加しました。…"
+          "published": "2026-09-10T08:30:00",
+          "excerpt": "GPU CPU比較 はじめに こんにちは、APCのSAT室PE推進チームに所属している簗田です。AzureでGPU推論環境を評価するとき、VMが作れただけでは実運用の判断はできません。…"
         },
         {
-          "title": "(新機能)Amazon Bedrock Knowledge BaseにConfluence Data Center向けネイティブコネクタが登場",
-          "link": "https://qiita.com/yama3133/items/69176cbd6464c3d61964",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-10T02:22:55",
-          "excerpt": "はじめに AWSから、Amazon Bedrock Managed Knowledge Base向けの新しいデータソースコネクタが発表されました。…"
+          "title": "AAIF、Agent Routerの参加を発表 ——AIモデルとMCPツールへの接続を仲介するOSS",
+          "link": "https://gihyo.jp/article/2026/09/agent-router?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-09-10T08:19:00",
+          "excerpt": "Agentic AI Foundation（AAIF）は9月9日、オープンソースのAIゲートウェイ「Agent Router」（旧称：Envoy AI Gateway）の参加を発表した。"
         },
         {
-          "title": "ChatGPTで機密資料を扱う前に --- 学習オフ・一時チャット・プロジェクト限定メモリの使い分け",
-          "link": "https://qiita.com/ootakazuhiko/items/d3e6a741aaac9868dd81",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-10T02:12:44",
-          "excerpt": "はじめに GPT-6を使っていると、複雑な相談への回答が以前より的確になったと感じます。そうなると、一般的な技術情報を聞くだけでなく、実際のシステム設計にも使いたくなります。例えばAWSのクラウドインフラを考えます。…"
+          "title": "DroidKaigi 2026に参加しました | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
+          "link": "https://developers.cyberagent.co.jp/blog/archives/66153/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-10T07:58:11",
+          "excerpt": "こんにちは。株式会社サイバーエージェントのAmebaLIFE事業部でAndroidアプリエンジニアを ..."
+        },
+        {
+          "title": "Show HN: Botbin.io – pastebin for AI agent artifacts",
+          "link": "https://botbin.io/?v=next",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-10T07:00:22",
+          "excerpt": "Article URL: https://botbin.io/?v=next Comments URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。AWS Lambda、コンテナイメージ関数のSnapStartが利用可能に",
+      "summary": "クラウドの新着が20件。ECS Fargateに置いたLoki / Tempoのタスクが落ちたときのデータ損失を検証してみました。…",
       "articles": [
+        {
+          "title": "ECS FargateのLoki / Tempoが落ちたときに失うデータを検証してみた",
+          "link": "https://dev.classmethod.jp/articles/loki-tempo-ecs-fargate-data-loss/",
+          "source": "DevelopersIO",
+          "published": "2026-09-10T08:26:57",
+          "excerpt": "ECS Fargateに置いたLoki / Tempoのタスクが落ちたときのデータ損失を検証してみました。…"
+        },
+        {
+          "title": "AWS VPCエンドポイント入門 5種類とPrivateLinkの関係を整理する",
+          "link": "https://qiita.com/s_horikoshi/items/514052df73c69246ce58",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-10T07:58:20",
+          "excerpt": "はじめに private subnetからS3やAWS APIへ接続したいとき、どのVPCエンドポイントを選ぶべきか迷っていないでしょうか。…"
+        },
+        {
+          "title": "Dental contractor set up secret account with access to 4,000 patient records then left the company",
+          "link": "https://www.theregister.com/security/2026/09/10/dental-contractor-set-up-secret-account-with-access-to-4000-patient-records-then-left-the-company/5295361",
+          "source": "The Register（英語）",
+          "published": "2026-09-10T07:00:00",
+          "excerpt": "Toothless security"
+        },
         {
           "title": "AWS Lambda、コンテナイメージ関数のSnapStartが利用可能に",
           "link": "https://codezine.jp/article/detail/29623",
           "source": "CodeZine",
           "published": "2026-09-10T04:00:00",
           "excerpt": "AWS Lambda、コンテナイメージ関数のSnapStartが利用可能に"
-        },
-        {
-          "title": "クラウドAIを信頼できないのは“中身が分からない”から？　ならば「AIインフラ」を自作して検証しよう",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/10/news035.html",
-          "source": "@IT",
-          "published": "2026-09-10T04:00:00",
-          "excerpt": "企業がクラウドAIの利用を禁止・制限する背景には、「中で何が起きているか分からない」という不信があるのではないか――。IPAはこの仮説を確かめるために、AIインフラを構築して検証した。どのように進めたのか。"
-        },
-        {
-          "title": "Windowsから秘密鍵を使ってSCPでEC2のファイルを取得する方法",
-          "link": "https://qiita.com/chamie_l/items/74bdb60b0dae4a1ece74",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-10T03:51:47",
-          "excerpt": "AWS EC2上にあるファイルをWindows PCへ取得したいとき、PowerShellからscpコマンドを使って簡単に転送できます。今回は、EC2へのSSH接続に使用している秘密鍵（.…"
-        },
-        {
-          "title": "microCMSの開発環境：開発に集中できる環境をDev Containerやmiseで整える | 株式会社microCMSのフィード",
-          "link": "https://zenn.dev/microcms/articles/microcms-dev-environment",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-10T03:34:41",
-          "excerpt": "はじめにmicroCMS では、バックエンド（Go / Node.js）やフロントエンド（React / TypeScript）、インフラ（OpenTofu / Terragrunt）などを 1 つのモノレポで管理しています。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。アクセス・権限まわりでよく出るIAM・ACL・RBAC・ABAC・PAMの5語を、最小権限の原則を軸に、意味と登場する場面から整理します。…",
+      "summary": "セキュリティの新着が13件。IAMのベストプラクティス — 最小権限の原則から始めるAWSアクセス管理 概要 AWSを使い始めると必ず向き合うことになるのが IAM（Identity and Access Management）です。…",
       "articles": [
+        {
+          "title": "IAMのベストプラクティス — 最小権限の原則から始めるAWSアクセス管理",
+          "link": "https://zenn.dev/akinori901/articles/20260903-plan011",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-10T05:23:17",
+          "excerpt": "IAMのベストプラクティス — 最小権限の原則から始めるAWSアクセス管理 概要 AWSを使い始めると必ず向き合うことになるのが IAM（Identity and Access Management）です。…"
+        },
         {
           "title": "今さら聞けないアクセス・権限の略語｜IAM・ACL・RBAC・ABAC・PAMを新人向けに整理【2026】 | CloudNative BLOGs",
           "link": "https://blog.cloudnative.co.jp/articles/id-security-acronyms-02-access-control/",
@@ -94,26 +101,26 @@
           "excerpt": "TL;DROpenAI 主催の Kaggle コンペ「AI Agent Security - Multi-Step Tool Attacks」（AI エージェントへのレッドチーミング）に参加しました。…"
         },
         {
-          "title": "ホンダが「28万人＆1600アプリのID管理がバラバラ」から脱却　セキュリティの不安と手間をどう解消？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/10/news039.html",
-          "source": "@IT",
-          "published": "2026-09-10T02:00:00",
-          "excerpt": "本社や研究所などで認証システムが異なり、IDや権限の管理も分散していたホンダ。グローバル規模で認証システムを見直し、セキュリティを確保しつつ、IDや権限の管理作業を効率化した。何をどう変えたのか。"
-        },
-        {
-          "title": "AWS Shield Advanced が AWS WAF Anti-DDoS マネージドルールグループを採用: 変更点と準備方法",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-shield-advanced-is-embracing-the-aws-waf-anti-ddos-managed-rule-group-what-changes-and-how-to-prepare/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-09-10T00:47:18",
-          "excerpt": "AWS Shield Advanced は、アプリケーションレイヤー (L7) DDoS 保護のデフォルトとして AWS WAF Anti-DDoS マネージドルールグループを採用し、将来的には唯一の保護機能とします。…"
+          "title": "当社システムへの不正アクセスに関する調査結果および再発防止策について（第三報） | さくらインターネット",
+          "link": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/09/10/1968225692/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-09-10T02:46:26",
+          "excerpt": "当社は、2026年8月17日に公表した「当社レンタルサーバーサービスの一部環境に対する不正なアクセスについて」および2026年8月19日に公表した「当社システムへの不正アクセスに関するお知らせ（第二報）」に関し、外部のサイバーセキュリティ専…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。こんにちは。2026年5月にカケハシに入社した、Pocket Musubiチームの田中です。チームメンバーからは「たいよー」と呼ばれています。どうぞよろしくお願いします。…",
+      "summary": "データ分析の新着が4件。Article URL: https://botbin.io/?v=next Comments URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "Show HN: Botbin.io – pastebin for AI agent artifacts",
+          "link": "https://botbin.io/?v=next",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-10T07:00:22",
+          "excerpt": "Article URL: https://botbin.io/?v=next Comments URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "Pocket Musubiの配信処理を2時間半→11分に短縮した記録 | KAKEHASHI Tech Blog",
           "link": "https://kakehashi-dev.hatenablog.com/entry/2026/09/10/090000",
@@ -140,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。本日、AWS は、1 行の CLI コマンドでトリガーできる AWS Transform カスタムでの .NET モダナイゼーションのための AWS 管理の変換の一般提供を発表しました。…",
+      "summary": "開発ツールの新着が6件。Most organizations say tech independence is unrealistic – and one in ten can't replace a critical provider at all",
       "articles": [
+        {
+          "title": "Digital sovereignty sounds great until you try ditching your suppliers",
+          "link": "https://www.theregister.com/paas-and-iaas/2026/09/10/digital-sovereignty-sounds-great-until-you-try-ditching-your-suppliers/5294997",
+          "source": "The Register（英語）",
+          "published": "2026-09-10T09:05:00",
+          "excerpt": "Most organizations say tech independence is unrealistic – and one in ten can't replace a critical provider at all"
+        },
+        {
+          "title": "CloudFormationのUserDataにheredocを丸ごと埋め込んでTomcatをサービス化する",
+          "link": "https://qiita.com/caymezon/items/45981a35a236d20e9117",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-10T07:32:54",
+          "excerpt": "背景 EC2 + TomcatをCloudFormationでコード化する際、UserData内で複数のheredoc（シェルスクリプトのファイル生成テクニック）を使う必要がありました。…"
+        },
+        {
+          "title": "VMware defends ending downloads of SDK that helps VM backups– or migrations to rivals",
+          "link": "https://www.theregister.com/virtualization/2026/09/10/vmware-defends-ending-downloads-of-sdk-that-helps-vm-backups-or-migrations-to-rivals/5295421",
+          "source": "The Register（英語）",
+          "published": "2026-09-10T02:05:58",
+          "excerpt": "Says license was never about moving VMs"
+        },
         {
           "title": "AWS Transform for .NET のモダナイゼーションが CLI 経由で一般提供されるようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-dotnet-cli",
           "source": "AWS What's New（英語）",
           "published": "2026-09-09T20:00:00",
           "excerpt": "本日、AWS は、1 行の CLI コマンドでトリガーできる AWS Transform カスタムでの .NET モダナイゼーションのための AWS 管理の変換の一般提供を発表しました。…"
-        },
-        {
-          "title": "環境設定：AWSログインCLI設定",
-          "link": "https://zenn.dev/ops_awsdevspace/articles/ed549c1d983488",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-09T14:55:02",
-          "excerpt": "前提 下記のCLIツールがインストール済み - AWS CLI v2 curl -fsSL https://awscli.amazonaws.com/v2/install.sh | bash ~/.…"
-        },
-        {
-          "title": "CloudFormationでSG参照を書くとき`!Ref`ではなく`!GetAtt ... .GroupId`を使う理由",
-          "link": "https://qiita.com/caymezon/items/2d198ad709372b243e1e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-09T09:41:07",
-          "excerpt": "背景 EC2間のSG参照（SG-to-SG）をCloudFormationでコード化する際、「なんとなく!Refで書いたらエラーになった」という、CloudFormation特有の仕様に起因するハマりどころがありました。1.…"
-        },
-        {
-          "title": "IAM Policy Autopilot が Terraform の plan ファイルから IAM ポリシーを生成できるようになったので試してみた",
-          "link": "https://qiita.com/leomarokun/items/9b584242ca64607e5e2b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-09T07:50:24",
-          "excerpt": "はじめに AWS labsが公開しているOSSツール「IAM Policy Autopilot」が、Terraformのplanファイルを読んでベースラインのIAMポリシーを生成できるようになったので試してみました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "「iPhone Duo」純正ケース話題、「面白いけど高い」……1万4800円と2万4800円",
-      "link": "https://www.itmedia.co.jp/news/article/2609/10/2000001355/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-10T03:39:55",
-      "excerpt": "「スタンド付きiPhone Duo Folio（フォリオ）」が2万4800円、スタンドのない「iPhone Duoケース」が1万4800円。SNSでは「機構は面白いけど高いな……」といった感想が出ている。"
-    },
-    {
-      "title": "iOSDC Japan 2026 へ出展します！ | スパイダープラス Tech Blog",
-      "link": "https://techblog.spiderplus.co.jp/entry/2026/09/10/123507",
+      "title": "プルリクエストで最新のSwift Evolutionを提案する技術 | Yappli Tech Blog",
+      "link": "https://tech.yappli.io/entry/swift-evolution-review",
       "source": "企業テックブログまとめ",
-      "published": "2026-09-10T03:35:07",
-      "excerpt": "iOSDC Japan への参加も2026年でなんと4年連続となりました！スパイダープラスのブースの見どころを一挙紹介いたします。"
+      "published": "2026-09-10T09:00:00",
+      "excerpt": "ヤプリのSwiftコードベースをアップデートし続ける、AIを利用した仕組みについて、 @___freddi___ が解説しました。"
     },
     {
-      "title": "【Rデータ操作②】separate()による列分割・dplyrでデータ集計＆抽出 | バイオインフォマティクス実践ラボ｜アメリエフ技術ブログ",
-      "link": "https://staffblog.amelieff.jp/entry/2026/09/10/115915",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-10T02:59:15",
-      "excerpt": "RNA-seqデータをseparate()でサンプル名を条件やリピート情報に分割する方法と、group_by()やsummarise()といったdplyr関数を用いて条件別の平均値算出や抽出・並べ替えを行う集計手順を解説します。"
-    },
-    {
-      "title": "「ランジェリーパープルじゃない」「買おうと思ってたのに」　iPhone 18 Pro／Pro Maxの色に落胆の声",
-      "link": "https://www.itmedia.co.jp/news/article/2609/10/2000001353/",
+      "title": "「AI社員」活用、NECは無人部署・DeNAには17体　南場社長「けなげ」と太鼓判",
+      "link": "https://www.itmedia.co.jp/news/article/2609/10/2000001380/",
       "source": "ITmedia NEWS",
-      "published": "2026-09-10T02:50:46",
-      "excerpt": "10日に米Appleが発表したiPhone新モデルの色を巡り、一部SNSで落胆の声が上がっている。リーク情報として発表前にネットに流れた色と微妙に異なる印象だったからだ。"
+      "published": "2026-09-10T08:47:19",
+      "excerpt": "IT大手が人工知能（AI）に一般社員と同じ権限を付与して業務を任せる「AI社員」の活用に乗り出している。NECは8月にAIだけで運営する無人部署を新設。DeNAも6月からAI社員を配属した。…"
+    },
+    {
+      "title": "【ハンズオン】実務未経験&事務職出身の私が、ゼロからAWSでブログを作ってみた",
+      "link": "https://qiita.com/akiyo/items/1ec220574168d925b656",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-10T08:44:14",
+      "excerpt": "はじめに 書籍『Amazon Web Services 基礎からのネットワーク＆サーバー構築』を読みながら、実際にAWS上にWordPressブログを立ち上げてみました。…"
+    },
+    {
+      "title": "Ruby Webアプリケーションで使うセルフホスティングサーバーをセットアップする（翻訳） | TechRacho",
+      "link": "https://techracho.bpsinc.jp/hachi8833/2026_09_10/159297",
+      "source": "企業テックブログまとめ",
+      "published": "2026-09-10T08:30:54",
+      "excerpt": "概要 原著者の許諾を得て翻訳・公開いたします。…"
     }
   ]
 }
