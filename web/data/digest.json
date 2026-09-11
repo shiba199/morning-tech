@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-09-11T17:25:26",
+  "generated_at": "2026-09-11T19:53:18",
   "window_hours": 24,
-  "total": 185,
+  "total": 184,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。OpenAI のナンバー 2 幹部は、2023 年の IPO までインスタカートを率いました。",
+      "summary": "生成AIの新着が33件。Amazon SageMaker HyperPod は、モデルの重みとコンテナイメージをクラスターノードに事前ロードする推論の最適化であるモデルキャッシュをサポートするようになり、ポッドが数分ではなく数秒で開始されます。…",
       "articles": [
+        {
+          "title": "Amazon SageMaker HyperPod は、推論の自動スケーリングの高速化とコールド スタートの削減のためのモデル キャッシュをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-11T18:25:00",
+          "excerpt": "Amazon SageMaker HyperPod は、モデルの重みとコンテナイメージをクラスターノードに事前ロードする推論の最適化であるモデルキャッシュをサポートするようになり、ポッドが数分ではなく数秒で開始されます。…"
+        },
+        {
+          "title": "Litelm: 肥大化のない LiteLLM",
+          "link": "https://github.com/kennethwolters/litelm",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-11T18:10:20",
+          "excerpt": "記事の URL: https://github.com/kennethwolters/litelm コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "AgentCore Memory が Gateway の背後に置けるようになったので、ユーザーごとの記憶の分離を試してみた",
+          "link": "https://qiita.com/leomarokun/items/017864307dd76f5823cd",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-11T17:33:16",
+          "excerpt": "はじめに チャットボットのようなサービスを複数ユーザーに提供する場合、当然「Aさんの記憶をBさんに見せてはいけない」という区別が必要になります。Memoryを呼び出せるのはAWSのIAM認証(SigV4)を持つバックエンドサービスだけです。…"
+        },
         {
           "title": "Nscale、IPOの可能性を前に、元OpenAI幹部のFidji Simoを取締役会に追加",
           "link": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
           "source": "TechCrunch（英語）",
           "published": "2026-09-11T16:46:25",
           "excerpt": "OpenAI のナンバー 2 幹部は、2023 年の IPO までインスタカートを率いました。"
-        },
-        {
-          "title": "AWS DevOps Agent は調査用に双方向の Slack 通信を追加します",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-bidirectional-slack-communication",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-11T15:00:00",
-          "excerpt": "AWS DevOps Agent により、エンジニアは完全な調査ライフサイクルを Slack 内で直接管理できるようになりました。…"
-        },
-        {
-          "title": "NemoHermes にチーム共通 RAG と Web 検索をつないで、知見を溜めながら外の情報も取りに行かせる",
-          "link": "https://dev.classmethod.jp/articles/reona-04-dgx-spark-team-rag-web-search/",
-          "source": "DevelopersIO",
-          "published": "2026-09-11T09:55:28",
-          "excerpt": "チーム RAG と Web 検索の 2 つの知識の入口を、同じ sandbox で両立させる方法をご紹介します。ビルドの課題から認証の設計、エージェントの信頼境界まで、実装の細部を詰めた知見をまとめました。"
-        },
-        {
-          "title": "Strands Agentsのプロンプトキャッシュで 社内RAG Agentの入力コストを半減させてみた | Fusic 技術ブログのフィード",
-          "link": "https://zenn.dev/fusic/articles/50a7b980a8e9bc",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-11T09:28:10",
-          "excerpt": "背景こんにちは、Fusicの大宮です。私は、社内向けSlack Botである「Fusicマン+」の運営をしています。Fusicマン+は、Confluenceの社内ハンドブックを検索して質問に答えるRAG AI エージェントです。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が6件。こんにちは。AWS Lambda が大好き1な志田です。…",
+      "summary": "クラウドの新着が4件。こんにちは。AWS Lambda が大好き1な志田です。…",
       "articles": [
         {
           "title": "話題の「90分Lambda」を最小構成で作ってみよう",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。背景 Cognito + API Gateway + LambdaでSAMを使い認証付きAPIを構築する際、「全エンドポイントに認証をかけつつ、特定のエンドポイントだけ認証なしにする」という制御が、SAMでは驚くほど簡潔に書けました。1.…",
+      "summary": "セキュリティの新着が11件。KiroだけでIAMレビューはどこまでできる？IAM Access Analyzerとの77 Run比較で見えた役割分担 「KiroでAWS開発ライフサイクルをどこまでAgentic化できるのか」シリーズ第4弾です。…",
       "articles": [
+        {
+          "title": "KiroだけでIAMレビューはどこまでできる？ IAM Access Analyzerとの77 Run比較で見えた役割分担",
+          "link": "https://zenn.dev/nobu_13/articles/fe8e1f1d10de4a",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-11T14:01:20",
+          "excerpt": "KiroだけでIAMレビューはどこまでできる？IAM Access Analyzerとの77 Run比較で見えた役割分担 「KiroでAWS開発ライフサイクルをどこまでAgentic化できるのか」シリーズ第4弾です。…"
+        },
         {
           "title": "SAMの`DefaultAuthorizer`1行で全エンドポイントに認証をかけ、特定箇所だけ除外する",
           "link": "https://qiita.com/caymezon/items/2148b3a7fa49e19d192e",
@@ -99,20 +106,13 @@
           "source": "ITmedia NEWS",
           "published": "2026-09-11T07:55:52",
           "excerpt": "デジタル庁が運用する政府共通の業務基盤「ガバメントソリューションサービス」（GSS）が不正アクセスを受け、約24万6000件の個人情報が漏えいした可能性がある問題で、松本尚デジタル相は9月11日の記者会見で、悪用されたVPN機器の脆弱性を事…"
-        },
-        {
-          "title": "Claude Code v2.1.268 の主要アップデート - タスク管理ツールのモデル別提供と権限ルールのセキュリティ修正",
-          "link": "https://dev.classmethod.jp/articles/20260911-cc-updates-v2-1-268/",
-          "source": "DevelopersIO",
-          "published": "2026-09-11T05:29:21",
-          "excerpt": "Claude Code v2.1.268がリリースされました。96件の変更が入った今回は、権限ルールのセキュリティ修正やタスク管理ツールのモデル別提供など、設定見直しが必要な変更も含まれています。主要なアップデート内容をご紹介します。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。BINDで構築したDNSサーバーを移行する際、既存サーバーの設定ファイルをまとめてバックアップする必要がありました。今回はtarコマンドを使って、BINDの設定ファイルやゾーンファイルをtar.gz形式でまとめる方法を備忘録として残します。…",
+      "summary": "データ分析の新着が1件。BINDで構築したDNSサーバーを移行する際、既存サーバーの設定ファイルをまとめてバックアップする必要がありました。今回はtarコマンドを使って、BINDの設定ファイルやゾーンファイルをtar.gz形式でまとめる方法を備忘録として残します。…",
       "articles": [
         {
           "title": "BINDの設定ファイルをtar.gzでバックアップする方法【Linux】",
@@ -120,13 +120,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-11T04:16:42",
           "excerpt": "BINDで構築したDNSサーバーを移行する際、既存サーバーの設定ファイルをまとめてバックアップする必要がありました。今回はtarコマンドを使って、BINDの設定ファイルやゾーンファイルをtar.gz形式でまとめる方法を備忘録として残します。…"
-        },
-        {
-          "title": "Amazon MQ が RabbitMQ 4.3 をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mq-rabbitmq-43/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-10T18:08:00",
-          "excerpt": "Amazon MQ は、RabbitMQ バージョン 4.3 をサポートするようになりました。…"
         }
       ]
     },
@@ -168,32 +161,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Zep AI (YC W24) が前方展開エンジニアリング責任者を募集",
-      "link": "https://www.getzep.com/careers/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-11T17:00:17",
-      "excerpt": "記事の URL: https://www.getzep.com/careers/ コメント URL: https://news.ycombinator.com/item?id=49661645 ポイント: 0 コメント数: 0"
+      "title": "キミメーカー ムーンショット AI、年間収益 20 億ドルを目指す",
+      "link": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-11T19:35:54",
+      "excerpt": "K3 の使用量はここ数カ月でわずかに減少していますが、OpenRouter データによると、現在、システム上の K3 モデルによって毎日 3,000 億ものトークンが生成されています。"
     },
     {
-      "title": "AIについて悲しい気持ち",
-      "link": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-11T16:50:51",
-      "excerpt": "記事の URL: https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "Roblox は AI を使ったゲームの構築を容易にし、Roblox の外でプレイできるようにしています",
+      "link": "https://techcrunch.com/2026/09/11/roblox-is-making-it-easier-to-build-games-with-ai-and-play-them-outside-roblox/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-11T19:00:00",
+      "excerpt": "年次 Roblox 開発者カンファレンス (RDC) で、同社は、新しいゲーム作成ツール、NPC 機能の拡張、Web を含むプラットフォーム間でゲームを利用できるようにする機能など、いくつかの新機能を発表しました。"
     },
     {
-      "title": "火星の宇宙飛行士は酵母とゼリーでできた家に住める可能性があると科学者が発表",
-      "link": "https://www.theregister.com/offbeat/2026/09/11/mars-astronauts-could-live-in-houses-made-of-yeast-and-jello-say-scientists/5295931",
-      "source": "The Register（英語）",
-      "published": "2026-09-11T16:50:01",
-      "excerpt": "低エネルギー 3D プリントで火星の土を頑丈な構造物に変える可能性"
+      "title": "中央ユーラシアは、2026 年の Road to Battlefield の勝者に Cerberus、WeGlobal AI、LOOQ を指名",
+      "link": "https://techcrunch.com/2026/09/11/central-eurasia-names-its-2026-road-to-battlefield-winners-cerberus-weglobal-ai-and-looq/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-11T18:58:01",
+      "excerpt": "Cerberus、WeGlobal AI、LOOQ は、Road to TechCrunch Startup Battlefield 2026 の地域決勝で上位 3 位を獲得し、今年 10 月にサンフランシスコで開催される TechCrun…"
     },
     {
-      "title": "トリプル H がスパイダーマン #1000 の記念ストーリーを執筆",
-      "link": "https://cultaholic.com/posts/triple-h-writes-anniversary-story-for-amazing-spider-man-1000",
+      "title": "GrapheneOS の書き換えられたメッセージ アプリがリリースされました",
+      "link": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
       "source": "Hacker News（英語）",
-      "published": "2026-09-11T16:13:51",
-      "excerpt": "記事の URL: https://cultaholic.…"
+      "published": "2026-09-11T18:50:36",
+      "excerpt": "記事の URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
