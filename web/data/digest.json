@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-11T13:41:00",
+  "generated_at": "2026-09-11T17:25:26",
   "window_hours": 24,
-  "total": 190,
+  "total": 185,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。チーム RAG と Web 検索の 2 つの知識の入口を、同じ sandbox で両立させる方法をご紹介します。ビルドの課題から認証の設計、エージェントの信頼境界まで、実装の細部を詰めた知見をまとめました。",
+      "summary": "生成AIの新着が33件。OpenAI のナンバー 2 幹部は、2023 年の IPO までインスタカートを率いました。",
       "articles": [
+        {
+          "title": "Nscale、IPOの可能性を前に、元OpenAI幹部のFidji Simoを取締役会に追加",
+          "link": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-11T16:46:25",
+          "excerpt": "OpenAI のナンバー 2 幹部は、2023 年の IPO までインスタカートを率いました。"
+        },
+        {
+          "title": "AWS DevOps Agent は調査用に双方向の Slack 通信を追加します",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-bidirectional-slack-communication",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-11T15:00:00",
+          "excerpt": "AWS DevOps Agent により、エンジニアは完全な調査ライフサイクルを Slack 内で直接管理できるようになりました。…"
+        },
         {
           "title": "NemoHermes にチーム共通 RAG と Web 検索をつないで、知見を溜めながら外の情報も取りに行かせる",
           "link": "https://dev.classmethod.jp/articles/reona-04-dgx-spark-team-rag-web-search/",
@@ -22,27 +36,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-09-11T09:28:10",
           "excerpt": "背景こんにちは、Fusicの大宮です。私は、社内向けSlack Botである「Fusicマン+」の運営をしています。Fusicマン+は、Confluenceの社内ハンドブックを検索して質問に答えるRAG AI エージェントです。…"
-        },
-        {
-          "title": "OpenAI、ChatGPT WorkのDataエージェントを紹介 ——自然言語で企業データを分析、ダッシュボードも作成",
-          "link": "https://gihyo.jp/article/2026/09/chatgpt-work-data-agent?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-09-11T08:21:00",
-          "excerpt": "OpenAIは2026年9月10日、ChatGPT Workの「Dataエージェント」の機能と活用事例を紹介した。…"
-        },
-        {
-          "title": "今週の新着ブログ 5本_cc-sdd仕様駆動開発の実戦記録_LiteLLMとAWS Bedrockで社内向けLLM環境を作ってみた(2026.9.4~9.10) | SHIFT Group 技術ブログ",
-          "link": "https://note.shiftinc.jp/n/n975b9f67eaea",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-11T07:50:37",
-          "excerpt": "こんにちは！「SHIFTグループ技術ブログ」編集部です。お役立ち記事を発信していますので、ぜひご注目ください！！…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。こんにちは。AWS Lambda が大好き1な志田です。…",
+      "summary": "クラウドの新着が6件。こんにちは。AWS Lambda が大好き1な志田です。…",
       "articles": [
         {
           "title": "話題の「90分Lambda」を最小構成で作ってみよう",
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。BINDで構築したDNSサーバーを移行する際、既存サーバーの設定ファイルをまとめてバックアップする必要がありました。今回はtarコマンドを使って、BINDの設定ファイルやゾーンファイルをtar.gz形式でまとめる方法を備忘録として残します。…",
+      "summary": "データ分析の新着が2件。BINDで構築したDNSサーバーを移行する際、既存サーバーの設定ファイルをまとめてバックアップする必要がありました。今回はtarコマンドを使って、BINDの設定ファイルやゾーンファイルをtar.gz形式でまとめる方法を備忘録として残します。…",
       "articles": [
         {
           "title": "BINDの設定ファイルをtar.gzでバックアップする方法【Linux】",
@@ -127,28 +127,28 @@
           "source": "AWS What's New（英語）",
           "published": "2026-09-10T18:08:00",
           "excerpt": "Amazon MQ は、RabbitMQ バージョン 4.3 をサポートするようになりました。…"
-        },
-        {
-          "title": "Amazon Redshift RG インスタンスがヨーロッパ (チューリッヒ) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-redshift-rg-available-zurich",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-10T16:00:00",
-          "excerpt": "AWS Graviton プロセッサを搭載した Amazon Redshift RG インスタンスが、AWS ヨーロッパ (チューリッヒ) リージョンで利用できるようになりました。…"
-        },
-        {
-          "title": "【小ネタ】Amazon QuickのAI推論はApp Storageのデータ分析は可能でダッシュボード分析は出来ませんでした",
-          "link": "https://dev.classmethod.jp/articles/amazon-quick-apps-ai-inference-dashboard/",
-          "source": "DevelopersIO",
-          "published": "2026-09-10T15:30:00",
-          "excerpt": "Amazon QuickのアプリにAI推論を組み込んでみたところ、埋め込みダッシュボードのデータは分析できないという制限があることがわかりました。その理由と、AI推論に渡せるデータについて紹介します。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が3件。X11対ウェイランドのゴルディアスの結び目を解決する根本的な新しい方法",
+      "summary": "開発ツールの新着が5件。はじめに Nx Plugin for AWSは、コマンドを1つ打つだけで「Webサイト」「API(サーバー側のプログラム)」「データベース」のひな形をまとめて作ってくれるツールです。…",
       "articles": [
+        {
+          "title": "(ハンズオン)nx-plugin-for-awsで積読管理アプリを作ってAWSにデプロイしてみよう",
+          "link": "https://qiita.com/yama3133/items/a758e66f0c4269ab5b54",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-11T15:18:16",
+          "excerpt": "はじめに Nx Plugin for AWSは、コマンドを1つ打つだけで「Webサイト」「API(サーバー側のプログラム)」「データベース」のひな形をまとめて作ってくれるツールです。…"
+        },
+        {
+          "title": "PC や Mac に感染する ClickFix 攻撃が急速に広まっている",
+          "link": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-09-11T11:30:58",
+          "excerpt": "ClickFix は、そのシンプルさと実行の難しさの組み合わせにより理想的なものとなっています。"
+        },
         {
           "title": "Digital Research の GEM が Linux の新しいウィンドウを開く",
           "link": "https://www.theregister.com/software/2026/09/11/digital-researchs-gem-opens-a-new-window-on-linux/5295546",
@@ -162,45 +162,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-09-11T00:00:46",
           "excerpt": "Copilot in Excelの「ブックルール」（.Rulesシート）を実際に使い、ルールの作り方と、ルールの有無でCopilotの整形結果がどう変わるかを検証しました。利用シーンや注意点も紹介します。"
-        },
-        {
-          "title": "[アップデート] AWS Transform for .NET のモダナイゼーションが GA となり CLI でも実行できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/aws-transform-dotnet-cli/",
-          "source": "DevelopersIO",
-          "published": "2026-09-10T23:57:09",
-          "excerpt": ".NET、ATX CLI対応してなかったのか"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Trezorが電子メールプロバイダーのデータ侵害を確認した後、詐欺師は数十万人の仮想通貨所有者を標的にする",
-      "link": "https://techcrunch.com/2026/09/11/scammers-target-hundreds-of-thousands-of-crypto-owners-after-trezor-confirms-data-breach-of-email-provider/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-11T13:32:54",
-      "excerpt": "これは、ハードウェア暗号通貨ウォレットメーカー Trezor が依存している企業に影響を与える 2 件目のデータ侵害です。"
-    },
-    {
-      "title": "「AI書類審査ソリューションRAPID」で自治体業務は効率化されるのか考えてみた",
-      "link": "https://dev.classmethod.jp/articles/rapid_localgovernment/",
-      "source": "DevelopersIO",
-      "published": "2026-09-11T13:24:29",
-      "excerpt": "AWS公式のOSS「RAPID」が自治体業務の効率化にどう役立つのか、実例と法制度の観点から調べてみました。"
-    },
-    {
-      "title": "HN に質問: AI ニュースの洪水を制限してもらえませんか?",
-      "link": "https://news.ycombinator.com/item?id=49657850",
+      "title": "Zep AI (YC W24) が前方展開エンジニアリング責任者を募集",
+      "link": "https://www.getzep.com/careers/",
       "source": "Hacker News（英語）",
-      "published": "2026-09-11T13:11:04",
-      "excerpt": "ここ数か月間、HN フィードはほぼ AI または AI 関連のニュースだけであることに気づきました。一方、正当な広範なハッカーのものは、ほとんどの場合無視されます。…"
+      "published": "2026-09-11T17:00:17",
+      "excerpt": "記事の URL: https://www.getzep.com/careers/ コメント URL: https://news.ycombinator.com/item?id=49661645 ポイント: 0 コメント数: 0"
     },
     {
-      "title": "[新機能]dbt Projects on Snowflakeで同一プロジェクトオブジェクトに対してdbtコマンドの並列実行が可能となりました",
-      "link": "https://dev.classmethod.jp/articles/dbt-projects-on-snowflake-run-one-project-concurrently/",
-      "source": "DevelopersIO",
-      "published": "2026-09-11T13:06:38",
-      "excerpt": "dbt Projects on Snowflakeの新機能**並行実行機能**を試してみました。…"
+      "title": "AIについて悲しい気持ち",
+      "link": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-11T16:50:51",
+      "excerpt": "記事の URL: https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "火星の宇宙飛行士は酵母とゼリーでできた家に住める可能性があると科学者が発表",
+      "link": "https://www.theregister.com/offbeat/2026/09/11/mars-astronauts-could-live-in-houses-made-of-yeast-and-jello-say-scientists/5295931",
+      "source": "The Register（英語）",
+      "published": "2026-09-11T16:50:01",
+      "excerpt": "低エネルギー 3D プリントで火星の土を頑丈な構造物に変える可能性"
+    },
+    {
+      "title": "トリプル H がスパイダーマン #1000 の記念ストーリーを執筆",
+      "link": "https://cultaholic.com/posts/triple-h-writes-anniversary-story-for-amazing-spider-man-1000",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-11T16:13:51",
+      "excerpt": "記事の URL: https://cultaholic.…"
     }
   ]
 }
