@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-11T09:14:29",
+  "generated_at": "2026-09-11T13:41:00",
   "window_hours": 24,
-  "total": 203,
+  "total": 190,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。OpenAIは2026年9月10日、ChatGPT Workの「Dataエージェント」の機能と活用事例を紹介した。…",
+      "summary": "生成AIの新着が36件。チーム RAG と Web 検索の 2 つの知識の入口を、同じ sandbox で両立させる方法をご紹介します。ビルドの課題から認証の設計、エージェントの信頼境界まで、実装の細部を詰めた知見をまとめました。",
       "articles": [
+        {
+          "title": "NemoHermes にチーム共通 RAG と Web 検索をつないで、知見を溜めながら外の情報も取りに行かせる",
+          "link": "https://dev.classmethod.jp/articles/reona-04-dgx-spark-team-rag-web-search/",
+          "source": "DevelopersIO",
+          "published": "2026-09-11T09:55:28",
+          "excerpt": "チーム RAG と Web 検索の 2 つの知識の入口を、同じ sandbox で両立させる方法をご紹介します。ビルドの課題から認証の設計、エージェントの信頼境界まで、実装の細部を詰めた知見をまとめました。"
+        },
+        {
+          "title": "Strands Agentsのプロンプトキャッシュで 社内RAG Agentの入力コストを半減させてみた | Fusic 技術ブログのフィード",
+          "link": "https://zenn.dev/fusic/articles/50a7b980a8e9bc",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-11T09:28:10",
+          "excerpt": "背景こんにちは、Fusicの大宮です。私は、社内向けSlack Botである「Fusicマン+」の運営をしています。Fusicマン+は、Confluenceの社内ハンドブックを検索して質問に答えるRAG AI エージェントです。…"
+        },
         {
           "title": "OpenAI、ChatGPT WorkのDataエージェントを紹介 ——自然言語で企業データを分析、ダッシュボードも作成",
           "link": "https://gihyo.jp/article/2026/09/chatgpt-work-data-agent?utm_source=feed",
@@ -22,27 +36,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-09-11T07:50:37",
           "excerpt": "こんにちは！「SHIFTグループ技術ブログ」編集部です。お役立ち記事を発信していますので、ぜひご注目ください！！…"
-        },
-        {
-          "title": "DeepSeek の新しいモデルは、リーンで実行される強力な LLM のテンプレートを設定します",
-          "link": "https://www.theregister.com/ai-and-ml/2026/09/11/deepseeks-new-model-sets-a-template-for-powerful-llms-that-run-lean/5295715",
-          "source": "The Register（英語）",
-          "published": "2026-09-11T07:15:00",
-          "excerpt": "DeepSeek V4.1 Flash は、より大きなモデルを構築したからといって、それを提供するためにより多くの GPU が必要になるわけではないことを証明しています"
-        },
-        {
-          "title": "OpenAI、最先端AI開発の減速を検討か　アルトマンCEOが社員に説明と米報道",
-          "link": "https://www.itmedia.co.jp/news/article/2609/11/2000001418/",
-          "source": "ITmedia NEWS",
-          "published": "2026-09-11T06:57:36",
-          "excerpt": "米Bloombergは9月11日、米OpenAIが最先端AIの開発ペースを緩めることを検討していると報じた。サム・アルトマンCEOが全社会議で従業員に説明したという。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。こんにちは。AWS Lambda が大好き1な志田です。…",
+      "summary": "クラウドの新着が8件。こんにちは。AWS Lambda が大好き1な志田です。…",
       "articles": [
         {
           "title": "話題の「90分Lambda」を最小構成で作ってみよう",
@@ -77,8 +77,22 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。デジタル庁が運用する政府共通の業務基盤「ガバメントソリューションサービス」（GSS）が不正アクセスを受け、約24万6000件の個人情報が漏えいした可能性がある問題で、松本尚デジタル相は9月11日の記者会見で、悪用されたVPN機器の脆弱性を事…",
+      "summary": "セキュリティの新着が10件。背景 Cognito + API Gateway + LambdaでSAMを使い認証付きAPIを構築する際、「全エンドポイントに認証をかけつつ、特定のエンドポイントだけ認証なしにする」という制御が、SAMでは驚くほど簡潔に書けました。1.…",
       "articles": [
+        {
+          "title": "SAMの`DefaultAuthorizer`1行で全エンドポイントに認証をかけ、特定箇所だけ除外する",
+          "link": "https://qiita.com/caymezon/items/2148b3a7fa49e19d192e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-11T10:17:15",
+          "excerpt": "背景 Cognito + API Gateway + LambdaでSAMを使い認証付きAPIを構築する際、「全エンドポイントに認証をかけつつ、特定のエンドポイントだけ認証なしにする」という制御が、SAMでは驚くほど簡潔に書けました。1.…"
+        },
+        {
+          "title": "【HITCON 2026 参加レポート】ハッカーが集うカンファレンスの雰囲気や驚いたこと | 株式会社サイバーセキュリティクラウド　テックブログのフィード",
+          "link": "https://zenn.dev/cscloud_blog/articles/hitcon2026-report01",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-11T08:54:09",
+          "excerpt": "はじめにこんにちは、日々セキュリティエンジニアとして従事している新卒2年目です。先日、台湾で開催されたセキュリティカンファレンス「HITCON 2026」に初めて参加してきました。…"
+        },
         {
           "title": "松本デジタル相、24.6万件漏えい可能性について説明　「既知の脆弱性を対応前に悪用」",
           "link": "https://www.itmedia.co.jp/news/article/2609/11/2000001419/",
@@ -92,27 +106,13 @@
           "source": "DevelopersIO",
           "published": "2026-09-11T05:29:21",
           "excerpt": "Claude Code v2.1.268がリリースされました。96件の変更が入った今回は、権限ルールのセキュリティ修正やタスク管理ツールのモデル別提供など、設定見直しが必要な変更も含まれています。主要なアップデート内容をご紹介します。…"
-        },
-        {
-          "title": "さくらインターネットへの侵入は「3年前」にさかのぼるか　不正アクセス調査が完了",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/11/news067.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-09-11T05:00:00",
-          "excerpt": "さくらインターネットは、2026年8月に公表した一連の不正アクセスに関する調査を完了し、最終的な影響範囲と再発防止策を発表した。影響を受けた可能性のあるアカウントは当初の公表から増えた。不正アクセスはいつ発生していたのか。"
-        },
-        {
-          "title": "デジタル庁に不正アクセス、個人情報24.6万件漏えいか　各府省庁の職員情報など",
-          "link": "https://www.itmedia.co.jp/news/article/2609/11/2000001406/",
-          "source": "ITmedia NEWS",
-          "published": "2026-09-11T04:15:32",
-          "excerpt": "デジタル庁は9月11日、同庁が運用する「ガバメントソリューションサービス」（GSS）が外部から不正アクセスを受け、氏名やメールアドレスなど約24万6000件の個人情報が漏えいした可能性があると発表した。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。BINDで構築したDNSサーバーを移行する際、既存サーバーの設定ファイルをまとめてバックアップする必要がありました。今回はtarコマンドを使って、BINDの設定ファイルやゾーンファイルをtar.gz形式でまとめる方法を備忘録として残します。…",
+      "summary": "データ分析の新着が4件。BINDで構築したDNSサーバーを移行する際、既存サーバーの設定ファイルをまとめてバックアップする必要がありました。今回はtarコマンドを使って、BINDの設定ファイルやゾーンファイルをtar.gz形式でまとめる方法を備忘録として残します。…",
       "articles": [
         {
           "title": "BINDの設定ファイルをtar.gzでバックアップする方法【Linux】",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が4件。Copilot in Excelの「ブックルール」（.Rulesシート）を実際に使い、ルールの作り方と、ルールの有無でCopilotの整形結果がどう変わるかを検証しました。利用シーンや注意点も紹介します。",
+      "summary": "開発ツールの新着が3件。X11対ウェイランドのゴルディアスの結び目を解決する根本的な新しい方法",
       "articles": [
+        {
+          "title": "Digital Research の GEM が Linux の新しいウィンドウを開く",
+          "link": "https://www.theregister.com/software/2026/09/11/digital-researchs-gem-opens-a-new-window-on-linux/5295546",
+          "source": "The Register（英語）",
+          "published": "2026-09-11T09:16:00",
+          "excerpt": "X11対ウェイランドのゴルディアスの結び目を解決する根本的な新しい方法"
+        },
         {
           "title": "【Microsoft×生成AI連載】【やってみた】Copilot in Excelの「ブックルール」（.Rulesシート）でブック専用の指示書を作ってみた | JBS Tech Blog",
           "link": "https://blog.jbs.co.jp/entry/2026/09/11/090046",
@@ -162,52 +169,38 @@
           "source": "DevelopersIO",
           "published": "2026-09-10T23:57:09",
           "excerpt": ".NET、ATX CLI対応してなかったのか"
-        },
-        {
-          "title": "Kiro Hooks × cfn-lintでCloudFormationのQuality Gateは自動化できる？8ケースで検証した",
-          "link": "https://zenn.dev/nobu_13/articles/05619921c34806",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-10T13:03:52",
-          "excerpt": "Kiro Hooks × cfn-lintでCloudFormationのQuality Gateは自動化できる？…"
-        },
-        {
-          "title": "サーバレスで CloudHSM を構築・操作する ― CodeBuild と Lambda による鍵管理（CloudHSM Client SDK 5）",
-          "link": "https://qiita.com/yuki_ink/items/2a2f985b40924c643836",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-10T12:53:42",
-          "excerpt": "はじめに この記事はAIの助けを借りて執筆しました。記載内容は全て検証済みです。お疲れ様です。矢儀 @yuki_ink です。AWS CloudHSM、使ってますか？…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ボフ：いやあ！ CMS は 500 ページの企業文書を消費しました",
-      "link": "https://www.theregister.com/bofh/2026/09/11/bofh-oh-no-the-cms-ate-500-pages-of-corporate-documentation/5295201",
-      "source": "The Register（英語）",
-      "published": "2026-09-11T08:31:00",
-      "excerpt": "どうしてこのような悲惨な悲劇が起こったのでしょうか？"
+      "title": "Trezorが電子メールプロバイダーのデータ侵害を確認した後、詐欺師は数十万人の仮想通貨所有者を標的にする",
+      "link": "https://techcrunch.com/2026/09/11/scammers-target-hundreds-of-thousands-of-crypto-owners-after-trezor-confirms-data-breach-of-email-provider/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-11T13:32:54",
+      "excerpt": "これは、ハードウェア暗号通貨ウォレットメーカー Trezor が依存している企業に影響を与える 2 件目のデータ侵害です。"
     },
     {
-      "title": "本物そっくり“AI生成レシート“が経費精算の脅威に　マネフォ「自力で見破るのは難しい」　企業はどう備える？",
-      "link": "https://www.itmedia.co.jp/news/article/2609/11/2000001409/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-11T08:28:06",
-      "excerpt": "「AIで偽造された領収書画像を見せられた場合、企業側が自力で見破ることは難しい」――生成AIで作ったコンビニのレシート画像が、本物と見分けにくいほど精巧だとしてXで話題になっている。…"
+      "title": "「AI書類審査ソリューションRAPID」で自治体業務は効率化されるのか考えてみた",
+      "link": "https://dev.classmethod.jp/articles/rapid_localgovernment/",
+      "source": "DevelopersIO",
+      "published": "2026-09-11T13:24:29",
+      "excerpt": "AWS公式のOSS「RAPID」が自治体業務の効率化にどう役立つのか、実例と法制度の観点から調べてみました。"
     },
     {
-      "title": "イラン供給ショックで米国のディーゼルが1ガロン当たり6ドルの記録を更新",
-      "link": "https://www.ft.com/content/ebfa69a3-323b-450d-8bfd-0b12e01d2a5b",
+      "title": "HN に質問: AI ニュースの洪水を制限してもらえませんか?",
+      "link": "https://news.ycombinator.com/item?id=49657850",
       "source": "Hacker News（英語）",
-      "published": "2026-09-11T08:03:59",
-      "excerpt": "記事の URL: https://www.ft.com/content/ebfa69a3-323b-450d-8bfd-0b12e01d2a5b コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-09-11T13:11:04",
+      "excerpt": "ここ数か月間、HN フィードはほぼ AI または AI 関連のニュースだけであることに気づきました。一方、正当な広範なハッカーのものは、ほとんどの場合無視されます。…"
     },
     {
-      "title": "npmパッケージのライセンス管理を自動化する：node_modules の構造と license-checker の活用 | 株式会社アクトビのフィード",
-      "link": "https://zenn.dev/actbe_tech/articles/bddd9be1624fde",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-11T08:00:07",
-      "excerpt": "はじめに受託開発やウェブ制作の案件において、納品時に利用ライセンスの一覧表（OSS利用状況確認書など）の提出を求められるケースは少なくありません。…"
+      "title": "[新機能]dbt Projects on Snowflakeで同一プロジェクトオブジェクトに対してdbtコマンドの並列実行が可能となりました",
+      "link": "https://dev.classmethod.jp/articles/dbt-projects-on-snowflake-run-one-project-concurrently/",
+      "source": "DevelopersIO",
+      "published": "2026-09-11T13:06:38",
+      "excerpt": "dbt Projects on Snowflakeの新機能**並行実行機能**を試してみました。…"
     }
   ]
 }
