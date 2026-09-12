@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-09-12T08:55:31",
+  "generated_at": "2026-09-12T12:29:44",
   "window_hours": 24,
-  "total": 130,
+  "total": 127,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が24件。はじめに エージェントの長期記憶(メモリ)をどうやってテナントごとに分離するか Amazon Bedrock AgentCore Memoryは、エージェントの会話から長期記憶を自動抽出してくれる便利な機能ですが、これまでは記憶の整理に使え…",
+      "summary": "生成AIの新着が26件。1.はじめに 少し前に、『Amazon Bedrock AgentCore 実践入門』の書評を書きました1。エージェントを作る側ではなかったインフラ屋の視点で読む、という角度のものです。…",
       "articles": [
         {
-          "title": "Bedrock AgentCore Memory にカスタム名前空間変数が追加されたので、マルチテナントAIエージェントのメモリ分離を試してみた",
-          "link": "https://qiita.com/leomarokun/items/ec629bcabd0046ec0ce5",
+          "title": "AgentCore に DBA アシスタントを載せてみた",
+          "link": "https://qiita.com/asahide/items/902a38f03c0f5a9734b6",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-12T08:47:05",
-          "excerpt": "はじめに エージェントの長期記憶(メモリ)をどうやってテナントごとに分離するか Amazon Bedrock AgentCore Memoryは、エージェントの会話から長期記憶を自動抽出してくれる便利な機能ですが、これまでは記憶の整理に使え…"
+          "published": "2026-09-12T12:11:33",
+          "excerpt": "1.はじめに 少し前に、『Amazon Bedrock AgentCore 実践入門』の書評を書きました1。エージェントを作る側ではなかったインフラ屋の視点で読む、という角度のものです。…"
         },
         {
-          "title": "Claude Code v2.1.269 の主要アップデート - claude plugin eval の追加と権限ルールの適用漏れ修正",
-          "link": "https://dev.classmethod.jp/articles/20260912-cc-updates-v2-1-269/",
-          "source": "DevelopersIO",
-          "published": "2026-09-12T07:07:59",
-          "excerpt": "Claude Code v2.1.269 がリリースされました。98 件の変更のうち、プラグイン周りの新機能とセキュリティ修正が大きな特徴です。…"
+          "title": "コードを書いてツールを呼ぶ！エージェント、Cloudflare・Claude・AWS・Azureを同じ土俵で並べてみた",
+          "link": "https://qiita.com/startdevin/items/60ce5325b435b439f260",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-12T11:56:44",
+          "excerpt": "「コードを書いてツールを呼ぶ」エージェント、Cloudflare・Claude・AWS・Azureを同じ土俵で並べてみた はじめに 前回、CloudflareのCode Modeを掘りました。…"
         },
         {
-          "title": "Microsoft Copilot Studio で社内のFAQ問い合わせエージェントを作ってみた",
-          "link": "https://dev.classmethod.jp/articles/shoma-tried-building-internal-faq-inquiry-agent-with-microsoft-copilot-studio/",
-          "source": "DevelopersIO",
-          "published": "2026-09-12T02:22:40",
-          "excerpt": "Microsoft Copilot Studio で社内問い合わせ対応エージェントを作ってみました。ナレッジ、ツール、認証が揃った環境で、コード不要でチャットボットを公開できる手軽さが魅力です。作り方から公開まで、実践的に解説します。"
+          "title": "アルトマン氏はスタッフに対し、OpenAI は AI 開発の減速に前向きであると語った",
+          "link": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-12T11:33:02",
+          "excerpt": "記事の URL: https://www.reuters.…"
         },
         {
-          "title": "Amazon Bedrockのモデルが日本リージョン内で推論されるか確認する方法 | NCDC テックブログのフィード",
-          "link": "https://zenn.dev/ncdc/articles/b4c782e2503539",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-12T01:20:01",
-          "excerpt": "はじめにGoogle Cloud上に構築していたAIエージェントのシステムを、最近AWSに移行しました。移行の理由は、使いたいClaudeのモデルがVertex AIでは日本国内に閉じた推論処理ができなかったためです。…"
+          "title": "最悪のスパムメール: iLands の AI エージェント ハッスルの内部",
+          "link": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-12T11:13:38",
+          "excerpt": "記事の URL: https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
@@ -77,8 +77,22 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。今回もIAM Identity Centerを利用する際の注意点を整理してみる。前回の記事はこちら。…",
+      "summary": "セキュリティの新着が9件。この記事で伝えること AWSの権限管理における「アイデンティティベースポリシー」や「リソースベースポリシー」、「サービスコントロールポリシー」など各ポリシーの 違い / 使い分けについて、SAA対策として自分なりの認識整理を行ったときの備忘…",
       "articles": [
+        {
+          "title": "【AWS SAA】『全部IAMポリシーでしょ？』と目を背けていた私がポリシーの全体像を整理してみた",
+          "link": "https://qiita.com/koddy-company/items/1a0854fe84e06628726e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-12T11:52:11",
+          "excerpt": "この記事で伝えること AWSの権限管理における「アイデンティティベースポリシー」や「リソースベースポリシー」、「サービスコントロールポリシー」など各ポリシーの 違い / 使い分けについて、SAA対策として自分なりの認識整理を行ったときの備忘…"
+        },
+        {
+          "title": "FSx for Lustre クライアントの DKMS 化",
+          "link": "https://zenn.dev/tosshi/articles/73cedcb6add298",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-12T06:49:17",
+          "excerpt": "はじめに Amazon FSx for Lustre を Ubuntu からマウントする手順は、ドキュメントに従うと次の 1 行から始まります。…"
+        },
         {
           "title": "【IAM Identity Center】許可セット内にカスタムポリシーを追加する場合の注意点②",
           "link": "https://qiita.com/tadanotsubuyaki/items/b4157c579491c2194215",
@@ -92,28 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-09-12T05:58:12",
           "excerpt": "AWS ParallelCluster 3.16.1 でクラスターを作成し、Slurm の CVE 対応版である 25.11.8 が正しく動作するか確認してみました。"
-        },
-        {
-          "title": "[AWS] ManagedKBで部署単位の文書レベル認可を考えてみた",
-          "link": "https://qiita.com/kikuziro/items/69088558a6d24d95ebb8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-12T01:12:47",
-          "excerpt": "👋 はじめに 社内向けのRAGを作るとき一番最初に上司から飛んでくる質問 「で、経営陣しか見ちゃダメな資料はどうすんの？」 これです。100%これ。検索精度がどうとかチャンクサイズがどうとかそういう楽しい話をする前に権限の話が来ます。…"
-        },
-        {
-          "title": "「人間の敗北」を告げるCTFの終焉と『徳丸本』第3版――激変するセキュリティと基盤運用のリアル",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/12/news004.html",
-          "source": "@IT",
-          "published": "2026-09-11T23:00:00",
-          "excerpt": "＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が1件。CentOSのEOLに伴い、CERNは制御基盤OSをCentOS 7からDebian 13へ移行すると公表。商用ディストリビューションではなくコミュニティー主導のOSを選択した背景には何があったのか。",
+      "summary": "データ分析の新着が2件。DynamoDBを使っていると、次のような現象に遭遇することがあります。UpdateItem は成功したのに、直後に読み直したら古い値が返ってきた。これは必ずしも不具合ではありません。…",
       "articles": [
+        {
+          "title": "DynamoDBで『更新したのに古い値が返る』を理解する：結果整合性と強い整合性の使い分け",
+          "link": "https://qiita.com/sponge841841/items/ab164f290f5f91a6d00b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-12T10:03:54",
+          "excerpt": "DynamoDBを使っていると、次のような現象に遭遇することがあります。UpdateItem は成功したのに、直後に読み直したら古い値が返ってきた。これは必ずしも不具合ではありません。…"
+        },
         {
           "title": "CERNが巨大加速器の制御基盤OSを「CentOS 7」から「Debian 13」に全面移行　コミュニティー主導OSを選ぶ理由",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/12/news005.html",
@@ -126,7 +133,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。Vercel、Next.jsのGitHub issueをAI活用で整理",
+      "summary": "開発ツールの新着が6件。Vercel、Next.jsのGitHub issueをAI活用で整理",
       "articles": [
         {
           "title": "Vercel、Next.jsのGitHub issueをAI活用で整理",
@@ -136,11 +143,11 @@
           "excerpt": "Vercel、Next.jsのGitHub issueをAI活用で整理"
         },
         {
-          "title": "WeWorm: Zero-Click WeChat Worm",
+          "title": "WeWorm: ゼロクリック WeChat ワーム",
           "link": "https://calif.io/research/weworm",
           "source": "Hacker News（英語）",
           "published": "2026-09-12T05:49:10",
-          "excerpt": "Article URL: https://calif.io/research/weworm Comments URL: https://news.ycombinator.com/item?…"
+          "excerpt": "記事の URL: https://calif.io/research/weworm コメント URL: https://news.ycombinator.com/item?id=49669276 ポイント: 16 コメント数: 1"
         },
         {
           "title": "IaCツール比較: Terraform vs Pulumi、どちらを選ぶ？",
@@ -150,43 +157,43 @@
           "excerpt": "Terraform vs Pulumi: GCP/VercelのIaC、最適な選択は？IaC（Infrastructure as Code）導入を検討する際、多くのエンジニアが「結局、TerraformとPulumi、どちらが良いのか？…"
         },
         {
-          "title": "今さら聞けないGitHub Dependabot入門 〜Amazon Inspectorとの違いと使い分け〜",
-          "link": "https://qiita.com/Kodak_tmo/items/885589c7dadff82779eb",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-12T01:35:12",
-          "excerpt": "はじめに 今更ですが、GitHub Dependabot を真面目に活用しようと色々と試したので、備忘録として残そうかと思います。なぜ、GitHub Dependabot なのか？…"
+          "title": "欲しいスマホアプリもコーディングエージェントで自分で作ろう",
+          "link": "https://zenn.dev/cyberbose/articles/build-your-own-app",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-12T02:49:19",
+          "excerpt": "生成 AI モデルと AI エージェントの進歩によって、普段の仕事は AI エージェントなしでは考えられない時代になり、skills やエージェントに頼る日々です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
-      "link": "https://eiln.github.io/posts/ane.html",
+      "title": "くたばれ、とにかく作ってください",
+      "link": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
       "source": "Hacker News（英語）",
-      "published": "2026-09-12T07:54:03",
-      "excerpt": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?…"
+      "published": "2026-09-12T11:42:32",
+      "excerpt": "記事の URL: https://www.joelotter.com/posts/2026/09/make-it-anyway/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "レベルファイブ日野社長、“AI盛り込みトレイラー発表会”について「派手にしたかった」ためと弁明。ただ発売するゲームには、“安易なAI出力データ”は入れない - AUTOMATON",
-      "link": "https://automaton-media.com/articles/newsjp/20260912-467049/",
-      "source": "はてなブックマーク（テクノロジー）",
-      "published": "2026-09-12T07:36:59",
-      "excerpt": "レベルファイブ日野社長、“AI盛り込みトレイラー発表会”について「派手にしたかった」ためと弁明。…"
+      "title": "メキシコの山中の仮想通貨ファームがカルテル資金調達に注目",
+      "link": "https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-12T11:37:22",
+      "excerpt": "記事の URL: https://www.reuters.…"
     },
     {
-      "title": "Usenet rewind archive search engine",
-      "link": "https://www.usenet-rewind.com/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-12T04:19:52",
-      "excerpt": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?…"
+      "title": "デルの 52 インチの巨大モニターは非現実的な楽しみの津波です",
+      "link": "https://www.theregister.com/personal-tech/2026/09/12/dells-52-inch-enormo-monitor-is-a-tsunami-of-impractical-fun/5290753",
+      "source": "The Register（英語）",
+      "published": "2026-09-12T11:20:00",
+      "excerpt": "おそらく必要ないかもしれませんが、印象に残る可能性の例として"
     },
     {
-      "title": "Navier-Stokes Announcement",
-      "link": "https://www.claymath.org/news/navier-stokes-announcement/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-12T04:09:43",
-      "excerpt": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?…"
+      "title": "中国からのロボット犬に4,000ドルを費やした",
+      "link": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-09-12T11:00:53",
+      "excerpt": "Unitree は世界で最も重要なロボット企業かもしれません。"
     }
   ]
 }
