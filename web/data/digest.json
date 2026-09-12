@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-09-12T21:54:40",
+  "generated_at": "2026-09-12T23:32:05",
   "window_hours": 24,
-  "total": 105,
+  "total": 110,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。OpenAIは極秘にIPOを申請したが、同社CEOのサム・アルトマン氏によると、今年は上場しない予定だという。",
+      "summary": "生成AIの新着が23件。V3だけだがレスポンスも対象に検索できるようになった。というか今までできなかったのか。",
       "articles": [
+        {
+          "title": "[アップデート] Kiro CLI v3 のセッション検索がエージェントの応答も対象にできるようになったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-cli-v3-sessions-search-mode/",
+          "source": "DevelopersIO",
+          "published": "2026-09-12T22:54:38",
+          "excerpt": "V3だけだがレスポンスも対象に検索できるようになった。というか今までできなかったのか。"
+        },
         {
           "title": "OpenAIのサム・アルトマン氏、2026年に株式を公開するのは「賢明ではない」と語る",
           "link": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
@@ -29,13 +36,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-09-12T16:31:30",
           "excerpt": "はじめに こんにちは、AWS Japan でソリューションアーキテクトをしているいなりくです。…"
-        },
-        {
-          "title": "Anthropic CEO、「フロンティアに歩調を合わせる」計画を概説",
-          "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-12T15:52:11",
-          "excerpt": "実際に「フロンティアを歩む」とはどのようなものでしょうか?"
         }
       ]
     },
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。この記事の位置づけ ある企業がAWS Organizationsで12の本番アカウントを運用しているという想定で、次の4点を満たすセキュリティ基盤の設計を検証した。…",
+      "summary": "セキュリティの新着が10件。クラウドストライクが年次の「脅威ハンティングレポート」2026年版を発表した。全世界の顧客環境を24時間365日監視する同社チームは、この1年で不審な振る舞いにこれまでにない変化を観測したという。人間の操作を上回ったものは何か。",
       "articles": [
+        {
+          "title": "セキュリティ監視の現場に異変？　\"人間の2.5倍に増えた\"不審な挙動の主とは",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/11/news066.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-09-12T22:00:00",
+          "excerpt": "クラウドストライクが年次の「脅威ハンティングレポート」2026年版を発表した。全世界の顧客環境を24時間365日監視する同社チームは、この1年で不審な振る舞いにこれまでにない変化を観測したという。人間の操作を上回ったものは何か。"
+        },
         {
           "title": "GuardDuty×EventBridge×Lambdaで組む、Organizationsクロスアカウント自動封じ込め ― 設計編",
           "link": "https://zenn.dev/nyondev/articles/zenn-article-design",
@@ -99,26 +106,26 @@
           "source": "Hacker News（英語）",
           "published": "2026-09-12T14:07:58",
           "excerpt": "記事の URL: https://davidbombal.com/your-compiler-can-undo-your-security-checks/ コメント URL: https://news.ycombinator.…"
-        },
-        {
-          "title": "セキュリティグループの「SG参照」でIPではなくEC2の役割単位で通信を許可する",
-          "link": "https://qiita.com/caymezon/items/5f0ab94f83083fcf323d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-12T12:49:31",
-          "excerpt": "背景 EC2上にMariaDB（MySQL互換）を構築し、別のEC2からDB接続するハンズオンをコンソールで実施しました。ここで使った「SG参照（SG-to-SG）」という設定方法は、本番環境でも使われるセキュアな設計パターンです。1.…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。DynamoDBを使っていると、次のような現象に遭遇することがあります。UpdateItem は成功したのに、直後に読み直したら古い値が返ってきた。これは必ずしも不具合ではありません。…",
+      "summary": "データ分析の新着が3件。DynamoDBを使っていると、次のような現象に遭遇することがあります。UpdateItem は成功したのに、直後に読み直したら古い値が返ってきた。これは必ずしも不具合ではありません。…",
       "articles": [
         {
           "title": "DynamoDBで『更新したのに古い値が返る』を理解する：結果整合性と強い整合性の使い分け",
           "link": "https://qiita.com/sponge841841/items/ab164f290f5f91a6d00b",
           "source": "Qiita AWSタグ",
           "published": "2026-09-12T10:03:54",
+          "excerpt": "DynamoDBを使っていると、次のような現象に遭遇することがあります。UpdateItem は成功したのに、直後に読み直したら古い値が返ってきた。これは必ずしも不具合ではありません。…"
+        },
+        {
+          "title": "DynamoDBで『更新したのに古い値が返る』を理解する：結果整合性と強い整合性の使い分け",
+          "link": "https://zenn.dev/sponge841841/articles/2026-09-12-dynamodb-read-consistency",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-12T10:03:46",
           "excerpt": "DynamoDBを使っていると、次のような現象に遭遇することがあります。UpdateItem は成功したのに、直後に読み直したら古い値が返ってきた。これは必ずしも不具合ではありません。…"
         },
         {
@@ -133,8 +140,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。この記事は誰向けか ふだんインフラコードは生成AIに書かせることが多い人が、あえて自分の手だけでTerraformを書いてみると実際どこで詰まるのかを知りたい人向けの記事です。…",
+      "summary": "開発ツールの新着が9件。V3だけだがレスポンスも対象に検索できるようになった。というか今までできなかったのか。",
       "articles": [
+        {
+          "title": "[アップデート] Kiro CLI v3 のセッション検索がエージェントの応答も対象にできるようになったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-cli-v3-sessions-search-mode/",
+          "source": "DevelopersIO",
+          "published": "2026-09-12T22:54:38",
+          "excerpt": "V3だけだがレスポンスも対象に検索できるようになった。というか今までできなかったのか。"
+        },
+        {
+          "title": "【AWS CloudFormation】構造・主要セクション・組み込み関数・用語の整理シート（SAA対策）",
+          "link": "https://qiita.com/koddy-company/items/08d45a684fdd9aee7373",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-12T22:04:33",
+          "excerpt": "概要 AWS Solutions Architect - Associate (SAA) 対策や実務において、CloudFormationの用語や構造（セクション、プロパティ、組み込み関数）で混乱しやすかったポイントを論理的に整理したまとめ…"
+        },
         {
           "title": "AIに頼っていた自分が、TerraformでLambda+IAM+CloudWatch Logsを手書きしてみた",
           "link": "https://zenn.dev/satoru_o/articles/2485602b8cb770",
@@ -148,52 +169,38 @@
           "source": "CodeZine",
           "published": "2026-09-12T08:00:00",
           "excerpt": "Vercel、Next.jsのGitHub issueをAI活用で整理"
-        },
-        {
-          "title": "WeWorm: ゼロクリック WeChat ワーム",
-          "link": "https://calif.io/research/weworm",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-12T05:49:10",
-          "excerpt": "記事の URL: https://calif.io/research/weworm コメント URL: https://news.ycombinator.com/item?id=49669276 ポイント: 16 コメント数: 1"
-        },
-        {
-          "title": "IaCツール比較: Terraform vs Pulumi、どちらを選ぶ？",
-          "link": "https://qiita.com/fd_ai_teacher/items/0044ceea7d41fb99b5e7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-12T04:47:29",
-          "excerpt": "Terraform vs Pulumi: GCP/VercelのIaC、最適な選択は？IaC（Infrastructure as Code）導入を検討する際、多くのエンジニアが「結局、TerraformとPulumi、どちらが良いのか？…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "はじめてのAWS",
-      "link": "https://qiita.com/tri-ponte/items/b0732725c6142a69809a",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-12T21:09:55",
-      "excerpt": "AWS のアカウントを作りました。仕事で AWS の名前が出てくることが増えたので、自分の手でゼロから一度作ってみようと思ったのがきっかけです。…"
+      "title": "Automattic、マレンウェグ氏が取締役会による解任未遂を受けてCEOに復帰したことを確認",
+      "link": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-12T23:25:38",
+      "excerpt": "Automatticによれば、マレンウェグ氏は「取締役会の全面的な支援を受けてAutomatticの会長兼CEO」として復帰したという。"
     },
     {
-      "title": "Real-SWE: プライベートの現実世界のエンタープライズ コードベースで AI モデルのベンチマークを行う",
-      "link": "https://withspecific.com/benchmarks/real-swe",
+      "title": "車による殺人には160万ドルの費用がかかる、カリフォルニアではドライバーに3万ドルの携行を義務付ける",
+      "link": "https://maxmautner.com/2026/09/11/liability-coverage.html",
       "source": "Hacker News（英語）",
-      "published": "2026-09-12T20:25:48",
-      "excerpt": "記事の URL: https://withspecific.com/benchmarks/real-swe コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-09-12T22:22:31",
+      "excerpt": "記事の URL: https://maxmautner.com/2026/09/11/liability-coverage.html コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "LG、我々はフェイクニュースだと発言 [ビデオ]",
-      "link": "https://www.youtube.com/watch?v=ToP9xfLDSME",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-12T19:35:36",
-      "excerpt": "記事の URL: https://www.youtube.com/watch?v=ToP9xfLDSME コメント URL: https://news.ycombinator.com/item?…"
+      "title": "映画「バックルームズ」が怖くなかったマンガ家、基になったネット都市伝説にハマって本作の楽しみ方を理解する",
+      "link": "https://www.itmedia.co.jp/news/article/2609/13/2000001423/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-12T22:16:00",
+      "excerpt": "4日に日本でも公開された映画「バックルームズ」が、世界中で大ヒットしています。個人的にあまり怖くなかったのですが、基になった都市伝説を調べるうちに見方が変わりました。"
     },
     {
-      "title": "ジミー・キンメルがジェームズ・タラリコにインタビュー",
-      "link": "https://www.youtube.com/watch?v=WLDE9LrGpNk",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-12T19:28:24",
-      "excerpt": "記事の URL: https://www.youtube.com/watch?v=WLDE9LrGpNk コメント URL: https://news.ycombinator.com/item?…"
+      "title": "クロスプラットフォーム開発が解決するコスト、解決しないコスト",
+      "link": "https://zenn.dev/nkzn/articles/cross-platform-development-costs-2026",
+      "source": "はてなブックマーク（テクノロジー）",
+      "published": "2026-09-12T22:07:35",
+      "excerpt": "2026年9月、Shopify Engineeringから「Native is now the future of mobile at Shopify」という記事が公開されました。…"
     }
   ]
 }
