@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-09-12T12:29:44",
+  "generated_at": "2026-09-12T15:43:54",
   "window_hours": 24,
-  "total": 127,
+  "total": 123,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が26件。1.はじめに 少し前に、『Amazon Bedrock AgentCore 実践入門』の書評を書きました1。エージェントを作る側ではなかったインフラ屋の視点で読む、という角度のものです。…",
+      "summary": "生成AIの新着が25件。Claude Enterprise プランでモバイルアプリの利用制御がどのように機能するのか、実際に確認してみました。Chat、Cowork、Code それぞれの設定の違いと制御可能な範囲について、検証結果をお伝えします。",
       "articles": [
+        {
+          "title": "Claude Enterprise プランでモバイルアプリに対してどれだけ制御できるか確認してみた",
+          "link": "https://dev.classmethod.jp/articles/slug-claude-enterprise-mobile-desktop-web/",
+          "source": "DevelopersIO",
+          "published": "2026-09-12T14:47:53",
+          "excerpt": "Claude Enterprise プランでモバイルアプリの利用制御がどのように機能するのか、実際に確認してみました。Chat、Cowork、Code それぞれの設定の違いと制御可能な範囲について、検証結果をお伝えします。"
+        },
+        {
+          "title": "Claude Code on Bedrockの利用料金を個人単位で可視化＆制御",
+          "link": "https://qiita.com/yosimitu/items/bc9ab3d0763c2ed29e43",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-12T14:36:42",
+          "excerpt": "はじめに Claude Code on Bedrock 環境を複数の IAM ユーザー・ロールで共有していると、Cost Explorer ではサービス単位の合計しか分からず、「誰が」「どのモデルを」「どれだけ」使ったのかが見えません。…"
+        },
+        {
+          "title": "Amazon社内で2,000人以上が使うAIエージェント受信箱、Pizza Botを実際に動かしてみた",
+          "link": "https://qiita.com/yama3133/items/4d893d81352be3484fe7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-12T13:45:44",
+          "excerpt": "はじめに AWSの公式ブログに、Pizza Botというオープンソースプロジェクトの紹介記事が載っていました。…"
+        },
         {
           "title": "AgentCore に DBA アシスタントを載せてみた",
           "link": "https://qiita.com/asahide/items/902a38f03c0f5a9734b6",
           "source": "Qiita AWSタグ",
           "published": "2026-09-12T12:11:33",
           "excerpt": "1.はじめに 少し前に、『Amazon Bedrock AgentCore 実践入門』の書評を書きました1。エージェントを作る側ではなかったインフラ屋の視点で読む、という角度のものです。…"
-        },
-        {
-          "title": "コードを書いてツールを呼ぶ！エージェント、Cloudflare・Claude・AWS・Azureを同じ土俵で並べてみた",
-          "link": "https://qiita.com/startdevin/items/60ce5325b435b439f260",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-12T11:56:44",
-          "excerpt": "「コードを書いてツールを呼ぶ」エージェント、Cloudflare・Claude・AWS・Azureを同じ土俵で並べてみた はじめに 前回、CloudflareのCode Modeを掘りました。…"
-        },
-        {
-          "title": "アルトマン氏はスタッフに対し、OpenAI は AI 開発の減速に前向きであると語った",
-          "link": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-12T11:33:02",
-          "excerpt": "記事の URL: https://www.reuters.…"
-        },
-        {
-          "title": "最悪のスパムメール: iLands の AI エージェント ハッスルの内部",
-          "link": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-12T11:13:38",
-          "excerpt": "記事の URL: https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が7件。CentOSのEOLに伴い、CERNは制御基盤OSをCentOS 7からDebian 13へ移行すると公表。商用ディストリビューションではなくコミュニティー主導のOSを選択した背景には何があったのか。",
+      "summary": "クラウドの新着が10件。Amazon MWAA Serverless で PythonOperator と BashOperator が使えるようになり、カスタムの Python 関数やシェルスクリプトをサーバーレスランタイム上で直接実行できます。…",
       "articles": [
+        {
+          "title": "Amazon MWAA Serverless で PythonOperator と BashOperator が利用可能に",
+          "link": "https://aws.amazon.com/jp/blogs/news/pythonoperator-and-bashoperator-now-available-on-amazon-managed-workflows-for-apache-airflow-amazon-mwaa-serverless/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-09-12T14:43:12",
+          "excerpt": "Amazon MWAA Serverless で PythonOperator と BashOperator が使えるようになり、カスタムの Python 関数やシェルスクリプトをサーバーレスランタイム上で直接実行できます。…"
+        },
+        {
+          "title": "Amazon ECS Managed Daemons が non-critical 設定に対応",
+          "link": "https://qiita.com/Haruki-N/items/feea1cff4d55638788dd",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-12T13:25:11",
+          "excerpt": "はじめに 2026 年 9 月 3 日、AWS は Amazon ECS Managed Daemons に対して、デーモンを「非クリティカル」として構成できる新しいオプションを発表しました。…"
+        },
+        {
+          "title": "セキュリティグループの「SG参照」でIPではなくEC2の役割単位で通信を許可する",
+          "link": "https://qiita.com/caymezon/items/5f0ab94f83083fcf323d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-12T12:49:31",
+          "excerpt": "背景 EC2上にMariaDB（MySQL互換）を構築し、別のEC2からDB接続するハンズオンをコンソールで実施しました。ここで使った「SG参照（SG-to-SG）」という設定方法は、本番環境でも使われるセキュアな設計パターンです。1.…"
+        },
         {
           "title": "CERNが巨大加速器の制御基盤OSを「CentOS 7」から「Debian 13」に全面移行　コミュニティー主導OSを選ぶ理由",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/12/news005.html",
           "source": "@IT",
           "published": "2026-09-12T08:00:00",
           "excerpt": "CentOSのEOLに伴い、CERNは制御基盤OSをCentOS 7からDebian 13へ移行すると公表。商用ディストリビューションではなくコミュニティー主導のOSを選択した背景には何があったのか。"
-        },
-        {
-          "title": "筋トレの分析をするために、M5StickS3のIMUデータを収集して可視化するパイプラインを作ってみた",
-          "link": "https://dev.classmethod.jp/articles/m5sticks3-iot-core-firehose-athena-grafana/",
-          "source": "DevelopersIO",
-          "published": "2026-09-12T07:04:19",
-          "excerpt": "M5StickS3のIMUデータをIoT Core経由でS3に保存し、AthenaとGrafanaで可視化するまでの実装を紹介します。…"
-        },
-        {
-          "title": "EC2 + Apacheをコンソールで構築するときに守るべき依存関係の順序",
-          "link": "https://qiita.com/caymezon/items/76c4e0fd3524cec221af",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-12T06:59:59",
-          "excerpt": "背景 EC2上にApacheを構築するハンズオンをコンソールで実施しました。キーペア・IAMロール・セキュリティグループ・EC2インスタンスという4リソースには依存関係があり、順番を間違えると詰まります。1.…"
-        },
-        {
-          "title": "Chrome153、CSS「単一軸スクロールコンテナ」機能がテスト可能に",
-          "link": "https://codezine.jp/article/detail/29629",
-          "source": "CodeZine",
-          "published": "2026-09-12T04:00:00",
-          "excerpt": "Chrome153、CSS「単一軸スクロールコンテナ」機能がテスト可能に"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。この記事で伝えること AWSの権限管理における「アイデンティティベースポリシー」や「リソースベースポリシー」、「サービスコントロールポリシー」など各ポリシーの 違い / 使い分けについて、SAA対策として自分なりの認識整理を行ったときの備忘…",
+      "summary": "セキュリティの新着が8件。Article URL: https://davidbombal.com/your-compiler-can-undo-your-security-checks/ Comments URL: https://news.…",
       "articles": [
+        {
+          "title": "Compiler Can Undo Your Security Checks",
+          "link": "https://davidbombal.com/your-compiler-can-undo-your-security-checks/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-12T14:07:58",
+          "excerpt": "Article URL: https://davidbombal.com/your-compiler-can-undo-your-security-checks/ Comments URL: https://news.…"
+        },
+        {
+          "title": "セキュリティグループの「SG参照」でIPではなくEC2の役割単位で通信を許可する",
+          "link": "https://qiita.com/caymezon/items/5f0ab94f83083fcf323d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-12T12:49:31",
+          "excerpt": "背景 EC2上にMariaDB（MySQL互換）を構築し、別のEC2からDB接続するハンズオンをコンソールで実施しました。ここで使った「SG参照（SG-to-SG）」という設定方法は、本番環境でも使われるセキュアな設計パターンです。1.…"
+        },
         {
           "title": "【AWS SAA】『全部IAMポリシーでしょ？』と目を背けていた私がポリシーの全体像を整理してみた",
           "link": "https://qiita.com/koddy-company/items/1a0854fe84e06628726e",
@@ -92,20 +106,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-09-12T06:49:17",
           "excerpt": "はじめに Amazon FSx for Lustre を Ubuntu からマウントする手順は、ドキュメントに従うと次の 1 行から始まります。…"
-        },
-        {
-          "title": "【IAM Identity Center】許可セット内にカスタムポリシーを追加する場合の注意点②",
-          "link": "https://qiita.com/tadanotsubuyaki/items/b4157c579491c2194215",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-12T06:45:27",
-          "excerpt": "今回もIAM Identity Centerを利用する際の注意点を整理してみる。前回の記事はこちら。…"
-        },
-        {
-          "title": "AWS ParallelCluster 3.16.1 がリリースされ Slurm の CVE 問題が解消したので確認してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-parallelcluster-3-16-1-slurm-cve-fixed/",
-          "source": "DevelopersIO",
-          "published": "2026-09-12T05:58:12",
-          "excerpt": "AWS ParallelCluster 3.16.1 でクラスターを作成し、Slurm の CVE 対応版である 25.11.8 が正しく動作するか確認してみました。"
         }
       ]
     },
@@ -133,7 +133,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。Vercel、Next.jsのGitHub issueをAI活用で整理",
+      "summary": "開発ツールの新着が5件。Vercel、Next.jsのGitHub issueをAI活用で整理",
       "articles": [
         {
           "title": "Vercel、Next.jsのGitHub issueをAI活用で整理",
@@ -168,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "くたばれ、とにかく作ってください",
-      "link": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
+      "title": "Ask HN: What default model do you use and why?",
+      "link": "https://news.ycombinator.com/item?id=49672966",
       "source": "Hacker News（英語）",
-      "published": "2026-09-12T11:42:32",
-      "excerpt": "記事の URL: https://www.joelotter.com/posts/2026/09/make-it-anyway/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-09-12T14:58:44",
+      "excerpt": "I use claude for most of what I do, and Fable is largely overkill for me and frequently burns through my Max plan's sess…"
     },
     {
-      "title": "メキシコの山中の仮想通貨ファームがカルテル資金調達に注目",
-      "link": "https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-12T11:37:22",
-      "excerpt": "記事の URL: https://www.reuters.…"
+      "title": "Amazon MWAA と Airflow 3.0 によるイベント駆動のパイプラインオーケストレーション",
+      "link": "https://aws.amazon.com/jp/blogs/news/event-driven-pipeline-orchestration-with-amazon-mwaa-and-airflow-3-0/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-09-12T14:41:43",
+      "excerpt": "Apache Airflow 3.0 の Asset Watcher と Amazon SQS を組み合わせて、複数の Amazon MWAA 環境や AWS アカウントをまたぐイベント駆動のオーケストレーションを実現する方法を解説します。…"
     },
     {
-      "title": "デルの 52 インチの巨大モニターは非現実的な楽しみの津波です",
-      "link": "https://www.theregister.com/personal-tech/2026/09/12/dells-52-inch-enormo-monitor-is-a-tsunami-of-impractical-fun/5290753",
-      "source": "The Register（英語）",
-      "published": "2026-09-12T11:20:00",
-      "excerpt": "おそらく必要ないかもしれませんが、印象に残る可能性の例として"
+      "title": "【アップデート】Amazon QuickのデスクトップアプリがGAになったのでプレビューからの変更点をまとめてみた",
+      "link": "https://dev.classmethod.jp/articles/amazon-quick-desktop-app-ga/",
+      "source": "DevelopersIO",
+      "published": "2026-09-12T14:40:17",
+      "excerpt": "Amazon QuickのデスクトップアプリがGA（一般提供）になりました。プレビューからの変更点を中心にご紹介します。"
     },
     {
-      "title": "中国からのロボット犬に4,000ドルを費やした",
-      "link": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-09-12T11:00:53",
-      "excerpt": "Unitree は世界で最も重要なロボット企業かもしれません。"
+      "title": "Revolut confirms customer data breach through fake government requests",
+      "link": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-12T14:40:00",
+      "excerpt": "Revolut said it notified affected customers and alerted the relevant government agency, law enforcement, and financial r…"
     }
   ]
 }
