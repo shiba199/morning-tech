@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-09-12T19:57:48",
+  "generated_at": "2026-09-12T21:54:40",
   "window_hours": 24,
-  "total": 104,
+  "total": 105,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が21件。実際に「フロンティアを歩む」とはどのようなものでしょうか?",
+      "summary": "生成AIの新着が23件。OpenAIは極秘にIPOを申請したが、同社CEOのサム・アルトマン氏によると、今年は上場しない予定だという。",
       "articles": [
+        {
+          "title": "OpenAIのサム・アルトマン氏、2026年に株式を公開するのは「賢明ではない」と語る",
+          "link": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-12T20:19:16",
+          "excerpt": "OpenAIは極秘にIPOを申請したが、同社CEOのサム・アルトマン氏によると、今年は上場しない予定だという。"
+        },
+        {
+          "title": "ベンチマーク: エージェントによる CAD 作業における CadQuery と OpenSCAD",
+          "link": "https://modelrift.com/blog/cadquery-vs-openscad/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-12T19:57:19",
+          "excerpt": "記事の URL: https://modelrift.com/blog/cadquery-vs-openscad/ コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "AgentCore Gateway は必要？Amazon Quick から MCP 直結と比較した",
+          "link": "https://zenn.dev/aws_japan/articles/amazon-quick-agentcore-gateway-vs-direct-mcp",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-12T16:31:30",
+          "excerpt": "はじめに こんにちは、AWS Japan でソリューションアーキテクトをしているいなりくです。…"
+        },
         {
           "title": "Anthropic CEO、「フロンティアに歩調を合わせる」計画を概説",
           "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
           "source": "TechCrunch（英語）",
           "published": "2026-09-12T15:52:11",
           "excerpt": "実際に「フロンティアを歩む」とはどのようなものでしょうか?"
-        },
-        {
-          "title": "Claude Enterprise プランでモバイルアプリに対してどれだけ制御できるか確認してみた",
-          "link": "https://dev.classmethod.jp/articles/slug-claude-enterprise-mobile-desktop-web/",
-          "source": "DevelopersIO",
-          "published": "2026-09-12T14:47:53",
-          "excerpt": "Claude Enterprise プランでモバイルアプリの利用制御がどのように機能するのか、実際に確認してみました。Chat、Cowork、Code それぞれの設定の違いと制御可能な範囲について、検証結果をお伝えします。"
-        },
-        {
-          "title": "Claude Code on Bedrockの利用料金を個人単位で可視化＆制御",
-          "link": "https://qiita.com/yosimitu/items/bc9ab3d0763c2ed29e43",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-12T14:36:42",
-          "excerpt": "はじめに Claude Code on Bedrock 環境を複数の IAM ユーザー・ロールで共有していると、Cost Explorer ではサービス単位の合計しか分からず、「誰が」「どのモデルを」「どれだけ」使ったのかが見えません。…"
-        },
-        {
-          "title": "Amazon社内で2,000人以上が使うAIエージェント受信箱、Pizza Botを実際に動かしてみた",
-          "link": "https://qiita.com/yama3133/items/4d893d81352be3484fe7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-12T13:45:44",
-          "excerpt": "はじめに AWSの公式ブログに、Pizza Botというオープンソースプロジェクトの紹介記事が載っていました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。Amazon MWAA Serverless で PythonOperator と BashOperator が使えるようになり、カスタムの Python 関数やシェルスクリプトをサーバーレスランタイム上で直接実行できます。…",
+      "summary": "クラウドの新着が12件。この記事の位置づけ ある企業がAWS Organizationsで12の本番アカウントを運用しているという想定で、次の4点を満たすセキュリティ基盤の設計を検証した。…",
       "articles": [
+        {
+          "title": "GuardDuty×EventBridge×Lambdaで組む、Organizationsクロスアカウント自動封じ込め ― 設計編",
+          "link": "https://zenn.dev/nyondev/articles/zenn-article-design",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-12T16:01:34",
+          "excerpt": "この記事の位置づけ ある企業がAWS Organizationsで12の本番アカウントを運用しているという想定で、次の4点を満たすセキュリティ基盤の設計を検証した。…"
+        },
+        {
+          "title": "S3ライフサイクルの最小オブジェクトサイズ・最大オブジェクトサイズを検証してみた",
+          "link": "https://zenn.dev/vibe_coder/articles/s3-lifecycle-minmax-test",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-12T15:55:26",
+          "excerpt": "はじめに S3のライフサイクルルールでオブジェクトを自動削除するとき、「フォルダーが消えてしまう」という話をよく見かけます。その回避策として、ルールの最小オブジェクトサイズに1バイトを指定する方法が紹介されています。…"
+        },
+        {
+          "title": "AIに頼っていた自分が、TerraformでLambda+IAM+CloudWatch Logsを手書きしてみた",
+          "link": "https://zenn.dev/satoru_o/articles/2485602b8cb770",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-12T15:39:56",
+          "excerpt": "この記事は誰向けか ふだんインフラコードは生成AIに書かせることが多い人が、あえて自分の手だけでTerraformを書いてみると実際どこで詰まるのかを知りたい人向けの記事です。…"
+        },
         {
           "title": "Amazon MWAA Serverless で PythonOperator と BashOperator が利用可能に",
           "link": "https://aws.amazon.com/jp/blogs/news/pythonoperator-and-bashoperator-now-available-on-amazon-managed-workflows-for-apache-airflow-amazon-mwaa-serverless/",
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-09-12T14:43:12",
           "excerpt": "Amazon MWAA Serverless で PythonOperator と BashOperator が使えるようになり、カスタムの Python 関数やシェルスクリプトをサーバーレスランタイム上で直接実行できます。…"
-        },
-        {
-          "title": "Amazon ECS Managed Daemons が non-critical 設定に対応",
-          "link": "https://qiita.com/Haruki-N/items/feea1cff4d55638788dd",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-12T13:25:11",
-          "excerpt": "はじめに 2026 年 9 月 3 日、AWS は Amazon ECS Managed Daemons に対して、デーモンを「非クリティカル」として構成できる新しいオプションを発表しました。…"
-        },
-        {
-          "title": "セキュリティグループの「SG参照」でIPではなくEC2の役割単位で通信を許可する",
-          "link": "https://qiita.com/caymezon/items/5f0ab94f83083fcf323d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-12T12:49:31",
-          "excerpt": "背景 EC2上にMariaDB（MySQL互換）を構築し、別のEC2からDB接続するハンズオンをコンソールで実施しました。ここで使った「SG参照（SG-to-SG）」という設定方法は、本番環境でも使われるセキュアな設計パターンです。1.…"
-        },
-        {
-          "title": "CERNが巨大加速器の制御基盤OSを「CentOS 7」から「Debian 13」に全面移行　コミュニティー主導OSを選ぶ理由",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/12/news005.html",
-          "source": "@IT",
-          "published": "2026-09-12T08:00:00",
-          "excerpt": "CentOSのEOLに伴い、CERNは制御基盤OSをCentOS 7からDebian 13へ移行すると公表。商用ディストリビューションではなくコミュニティー主導のOSを選択した背景には何があったのか。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。記事の URL: https://davidbombal.com/your-compiler-can-undo-your-security-checks/ コメント URL: https://news.ycombinator.…",
+      "summary": "セキュリティの新着が10件。この記事の位置づけ ある企業がAWS Organizationsで12の本番アカウントを運用しているという想定で、次の4点を満たすセキュリティ基盤の設計を検証した。…",
       "articles": [
+        {
+          "title": "GuardDuty×EventBridge×Lambdaで組む、Organizationsクロスアカウント自動封じ込め ― 設計編",
+          "link": "https://zenn.dev/nyondev/articles/zenn-article-design",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-12T16:01:34",
+          "excerpt": "この記事の位置づけ ある企業がAWS Organizationsで12の本番アカウントを運用しているという想定で、次の4点を満たすセキュリティ基盤の設計を検証した。…"
+        },
+        {
+          "title": "AIに頼っていた自分が、TerraformでLambda+IAM+CloudWatch Logsを手書きしてみた",
+          "link": "https://zenn.dev/satoru_o/articles/2485602b8cb770",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-12T15:39:56",
+          "excerpt": "この記事は誰向けか ふだんインフラコードは生成AIに書かせることが多い人が、あえて自分の手だけでTerraformを書いてみると実際どこで詰まるのかを知りたい人向けの記事です。…"
+        },
         {
           "title": "コンパイラはセキュリティチェックを元に戻すことができます",
           "link": "https://davidbombal.com/your-compiler-can-undo-your-security-checks/",
@@ -92,20 +106,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-12T12:49:31",
           "excerpt": "背景 EC2上にMariaDB（MySQL互換）を構築し、別のEC2からDB接続するハンズオンをコンソールで実施しました。ここで使った「SG参照（SG-to-SG）」という設定方法は、本番環境でも使われるセキュアな設計パターンです。1.…"
-        },
-        {
-          "title": "【AWS SAA】『全部IAMポリシーでしょ？』と目を背けていた私がポリシーの全体像を整理してみた",
-          "link": "https://qiita.com/koddy-company/items/1a0854fe84e06628726e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-12T11:52:11",
-          "excerpt": "この記事で伝えること AWSの権限管理における「アイデンティティベースポリシー」や「リソースベースポリシー」、「サービスコントロールポリシー」など各ポリシーの 違い / 使い分けについて、SAA対策として自分なりの認識整理を行ったときの備忘…"
-        },
-        {
-          "title": "FSx for Lustre クライアントの DKMS 化",
-          "link": "https://zenn.dev/tosshi/articles/73cedcb6add298",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-12T06:49:17",
-          "excerpt": "はじめに Amazon FSx for Lustre を Ubuntu からマウントする手順は、ドキュメントに従うと次の 1 行から始まります。…"
         }
       ]
     },
@@ -133,8 +133,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。Vercel、Next.jsのGitHub issueをAI活用で整理",
+      "summary": "開発ツールの新着が7件。この記事は誰向けか ふだんインフラコードは生成AIに書かせることが多い人が、あえて自分の手だけでTerraformを書いてみると実際どこで詰まるのかを知りたい人向けの記事です。…",
       "articles": [
+        {
+          "title": "AIに頼っていた自分が、TerraformでLambda+IAM+CloudWatch Logsを手書きしてみた",
+          "link": "https://zenn.dev/satoru_o/articles/2485602b8cb770",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-12T15:39:56",
+          "excerpt": "この記事は誰向けか ふだんインフラコードは生成AIに書かせることが多い人が、あえて自分の手だけでTerraformを書いてみると実際どこで詰まるのかを知りたい人向けの記事です。…"
+        },
         {
           "title": "Vercel、Next.jsのGitHub issueをAI活用で整理",
           "link": "https://codezine.jp/article/detail/29630",
@@ -155,45 +162,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-12T04:47:29",
           "excerpt": "Terraform vs Pulumi: GCP/VercelのIaC、最適な選択は？IaC（Infrastructure as Code）導入を検討する際、多くのエンジニアが「結局、TerraformとPulumi、どちらが良いのか？…"
-        },
-        {
-          "title": "欲しいスマホアプリもコーディングエージェントで自分で作ろう",
-          "link": "https://zenn.dev/cyberbose/articles/build-your-own-app",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-12T02:49:19",
-          "excerpt": "生成 AI モデルと AI エージェントの進歩によって、普段の仕事は AI エージェントなしでは考えられない時代になり、skills やエージェントに頼る日々です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "はじめてのAWS",
+      "link": "https://qiita.com/tri-ponte/items/b0732725c6142a69809a",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-12T21:09:55",
+      "excerpt": "AWS のアカウントを作りました。仕事で AWS の名前が出てくることが増えたので、自分の手でゼロから一度作ってみようと思ったのがきっかけです。…"
+    },
+    {
+      "title": "Real-SWE: プライベートの現実世界のエンタープライズ コードベースで AI モデルのベンチマークを行う",
+      "link": "https://withspecific.com/benchmarks/real-swe",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-12T20:25:48",
+      "excerpt": "記事の URL: https://withspecific.com/benchmarks/real-swe コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "LG、我々はフェイクニュースだと発言 [ビデオ]",
+      "link": "https://www.youtube.com/watch?v=ToP9xfLDSME",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-12T19:35:36",
+      "excerpt": "記事の URL: https://www.youtube.com/watch?v=ToP9xfLDSME コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
       "title": "ジミー・キンメルがジェームズ・タラリコにインタビュー",
       "link": "https://www.youtube.com/watch?v=WLDE9LrGpNk",
       "source": "Hacker News（英語）",
       "published": "2026-09-12T19:28:24",
       "excerpt": "記事の URL: https://www.youtube.com/watch?v=WLDE9LrGpNk コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "テスラ、ついに第2世代ロードスターを10月1日に発表すると発表",
-      "link": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-12T19:21:19",
-      "excerpt": "テスラのハロー スポーツカーは、2017 年 11 月に初めて発表されました。"
-    },
-    {
-      "title": "ダリオへの公開書簡: 本気で言うなら、重みを明らかにしてください",
-      "link": "https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-12T19:15:32",
-      "excerpt": "記事の URL: https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/ コメント URL: https://news.ycombinator.…"
-    },
-    {
-      "title": "7Gは登場するのか？",
-      "link": "https://arxiv.org/abs/2609.01877",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-12T17:05:31",
-      "excerpt": "記事の URL: https://arxiv.org/abs/2609.01877 コメント URL: https://news.ycombinator.com/item?id=49674498 ポイント: 19 コメント数: 17"
     }
   ]
 }
