@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-12T04:47:06",
+  "generated_at": "2026-09-12T08:55:31",
   "window_hours": 24,
-  "total": 154,
-  "topic_count": 4,
+  "total": 130,
+  "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。Microsoft Copilot Studio で社内問い合わせ対応エージェントを作ってみました。ナレッジ、ツール、認証が揃った環境で、コード不要でチャットボットを公開できる手軽さが魅力です。作り方から公開まで、実践的に解説します。",
+      "summary": "生成AIの新着が24件。はじめに エージェントの長期記憶(メモリ)をどうやってテナントごとに分離するか Amazon Bedrock AgentCore Memoryは、エージェントの会話から長期記憶を自動抽出してくれる便利な機能ですが、これまでは記憶の整理に使え…",
       "articles": [
+        {
+          "title": "Bedrock AgentCore Memory にカスタム名前空間変数が追加されたので、マルチテナントAIエージェントのメモリ分離を試してみた",
+          "link": "https://qiita.com/leomarokun/items/ec629bcabd0046ec0ce5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-12T08:47:05",
+          "excerpt": "はじめに エージェントの長期記憶(メモリ)をどうやってテナントごとに分離するか Amazon Bedrock AgentCore Memoryは、エージェントの会話から長期記憶を自動抽出してくれる便利な機能ですが、これまでは記憶の整理に使え…"
+        },
+        {
+          "title": "Claude Code v2.1.269 の主要アップデート - claude plugin eval の追加と権限ルールの適用漏れ修正",
+          "link": "https://dev.classmethod.jp/articles/20260912-cc-updates-v2-1-269/",
+          "source": "DevelopersIO",
+          "published": "2026-09-12T07:07:59",
+          "excerpt": "Claude Code v2.1.269 がリリースされました。98 件の変更のうち、プラグイン周りの新機能とセキュリティ修正が大きな特徴です。…"
+        },
         {
           "title": "Microsoft Copilot Studio で社内のFAQ問い合わせエージェントを作ってみた",
           "link": "https://dev.classmethod.jp/articles/shoma-tried-building-internal-faq-inquiry-agent-with-microsoft-copilot-studio/",
@@ -22,63 +36,63 @@
           "source": "企業テックブログまとめ",
           "published": "2026-09-12T01:20:01",
           "excerpt": "はじめにGoogle Cloud上に構築していたAIエージェントのシステムを、最近AWSに移行しました。移行の理由は、使いたいClaudeのモデルがVertex AIでは日本国内に閉じた推論処理ができなかったためです。…"
-        },
-        {
-          "title": "Show HN: Graphify C# – Compiler-accurate Find Usages for coding agents",
-          "link": "https://github.com/zachsaw/graphify-csharp",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-12T00:16:10",
-          "excerpt": "Article URL: https://github.com/zachsaw/graphify-csharp Comments URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "[アップデート] Kiro Crew 0.6 のエージェントバックエンドに Claude Code / Codex / KAS が追加されたので試してみた",
-          "link": "https://dev.classmethod.jp/articles/kiro-crew-0_6-agentbackend-claudecode/",
-          "source": "DevelopersIO",
-          "published": "2026-09-11T23:49:26",
-          "excerpt": "Kiro 無料プラン + Claude Code 有料プランとかで使えるかもしれない"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が6件。Chrome153、CSS「単一軸スクロールコンテナ」機能がテスト可能に",
+      "summary": "クラウドの新着が7件。CentOSのEOLに伴い、CERNは制御基盤OSをCentOS 7からDebian 13へ移行すると公表。商用ディストリビューションではなくコミュニティー主導のOSを選択した背景には何があったのか。",
       "articles": [
+        {
+          "title": "CERNが巨大加速器の制御基盤OSを「CentOS 7」から「Debian 13」に全面移行　コミュニティー主導OSを選ぶ理由",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/12/news005.html",
+          "source": "@IT",
+          "published": "2026-09-12T08:00:00",
+          "excerpt": "CentOSのEOLに伴い、CERNは制御基盤OSをCentOS 7からDebian 13へ移行すると公表。商用ディストリビューションではなくコミュニティー主導のOSを選択した背景には何があったのか。"
+        },
+        {
+          "title": "筋トレの分析をするために、M5StickS3のIMUデータを収集して可視化するパイプラインを作ってみた",
+          "link": "https://dev.classmethod.jp/articles/m5sticks3-iot-core-firehose-athena-grafana/",
+          "source": "DevelopersIO",
+          "published": "2026-09-12T07:04:19",
+          "excerpt": "M5StickS3のIMUデータをIoT Core経由でS3に保存し、AthenaとGrafanaで可視化するまでの実装を紹介します。…"
+        },
+        {
+          "title": "EC2 + Apacheをコンソールで構築するときに守るべき依存関係の順序",
+          "link": "https://qiita.com/caymezon/items/76c4e0fd3524cec221af",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-12T06:59:59",
+          "excerpt": "背景 EC2上にApacheを構築するハンズオンをコンソールで実施しました。キーペア・IAMロール・セキュリティグループ・EC2インスタンスという4リソースには依存関係があり、順番を間違えると詰まります。1.…"
+        },
         {
           "title": "Chrome153、CSS「単一軸スクロールコンテナ」機能がテスト可能に",
           "link": "https://codezine.jp/article/detail/29629",
           "source": "CodeZine",
           "published": "2026-09-12T04:00:00",
           "excerpt": "Chrome153、CSS「単一軸スクロールコンテナ」機能がテスト可能に"
-        },
-        {
-          "title": "オンプレVDIやDaaSにしがみつく必要はもうない？　「1人当たり月1万円安くなる」代替策の実態",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/12/news008.html",
-          "source": "@IT",
-          "published": "2026-09-12T04:00:00",
-          "excerpt": "社内外で活用する端末のセキュリティ対策として、オンプレミスVDIやDaaSではなく「データレスクライアント」にすると、どれだけ費用が下がるのか。調査結果を基に探る。"
-        },
-        {
-          "title": "Amazon EC2 X2idn インスタンスがアジアパシフィック (香港) で利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-11T18:35:00",
-          "excerpt": "メモリ最適化された Amazon Elastic Compute Cloud (Amazon EC2) X2idn インスタンスがアジアパシフィック (香港) リージョンで利用できるようになりました。…"
-        },
-        {
-          "title": "AWS Lambda が Amazon S3 ファイルの直接読み取り設定をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-11T17:00:00",
-          "excerpt": "AWS Lambda は、Amazon S3 Files の 直接読み取り 設定をサポートするようになり、関数がどのストレージから読み取るかを設定できるようになりました: S3 Files 高性能ストレージまたは S3 バケット。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。👋 はじめに 社内向けのRAGを作るとき一番最初に上司から飛んでくる質問 「で、経営陣しか見ちゃダメな資料はどうすんの？」 これです。100%これ。検索精度がどうとかチャンクサイズがどうとかそういう楽しい話をする前に権限の話が来ます。…",
+      "summary": "セキュリティの新着が8件。今回もIAM Identity Centerを利用する際の注意点を整理してみる。前回の記事はこちら。…",
       "articles": [
+        {
+          "title": "【IAM Identity Center】許可セット内にカスタムポリシーを追加する場合の注意点②",
+          "link": "https://qiita.com/tadanotsubuyaki/items/b4157c579491c2194215",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-12T06:45:27",
+          "excerpt": "今回もIAM Identity Centerを利用する際の注意点を整理してみる。前回の記事はこちら。…"
+        },
+        {
+          "title": "AWS ParallelCluster 3.16.1 がリリースされ Slurm の CVE 問題が解消したので確認してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-parallelcluster-3-16-1-slurm-cve-fixed/",
+          "source": "DevelopersIO",
+          "published": "2026-09-12T05:58:12",
+          "excerpt": "AWS ParallelCluster 3.16.1 でクラスターを作成し、Slurm の CVE 対応版である 25.11.8 が正しく動作するか確認してみました。"
+        },
         {
           "title": "[AWS] ManagedKBで部署単位の文書レベル認可を考えてみた",
           "link": "https://qiita.com/kikuziro/items/69088558a6d24d95ebb8",
@@ -92,60 +106,74 @@
           "source": "@IT",
           "published": "2026-09-11T23:00:00",
           "excerpt": "＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "label": "データ分析",
+      "summary": "データ分析の新着が1件。CentOSのEOLに伴い、CERNは制御基盤OSをCentOS 7からDebian 13へ移行すると公表。商用ディストリビューションではなくコミュニティー主導のOSを選択した背景には何があったのか。",
+      "articles": [
         {
-          "title": "KiroだけでIAMレビューはどこまでできる？ IAM Access Analyzerとの77 Run比較で見えた役割分担",
-          "link": "https://zenn.dev/nobu_13/articles/fe8e1f1d10de4a",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-11T14:01:20",
-          "excerpt": "KiroだけでIAMレビューはどこまでできる？IAM Access Analyzerとの77 Run比較で見えた役割分担 「KiroでAWS開発ライフサイクルをどこまでAgentic化できるのか」シリーズ第4弾です。…"
-        },
-        {
-          "title": "デジタル庁のガバメントソリューションサービス(GSS)への不正アクセスについてまとめてみた - piyolog",
-          "link": "https://piyolog.hatenadiary.jp/entry/2026/09/11/220855",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-11T13:54:08",
-          "excerpt": "2026年9月11日、デジタル庁は、政府共通の業務実施環境「ガバメントソリューションサービス(GSS)」が外部からの不正アクセスを受け、取り扱っていた個人情報を含むファイルの一部が外部に漏えいした可能性があると公表しました。…"
+          "title": "CERNが巨大加速器の制御基盤OSを「CentOS 7」から「Debian 13」に全面移行　コミュニティー主導OSを選ぶ理由",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/12/news005.html",
+          "source": "@IT",
+          "published": "2026-09-12T08:00:00",
+          "excerpt": "CentOSのEOLに伴い、CERNは制御基盤OSをCentOS 7からDebian 13へ移行すると公表。商用ディストリビューションではなくコミュニティー主導のOSを選択した背景には何があったのか。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が4件。はじめに 今更ですが、GitHub Dependabot を真面目に活用しようと色々と試したので、備忘録として残そうかと思います。なぜ、GitHub Dependabot なのか？…",
+      "summary": "開発ツールの新着が7件。Vercel、Next.jsのGitHub issueをAI活用で整理",
       "articles": [
+        {
+          "title": "Vercel、Next.jsのGitHub issueをAI活用で整理",
+          "link": "https://codezine.jp/article/detail/29630",
+          "source": "CodeZine",
+          "published": "2026-09-12T08:00:00",
+          "excerpt": "Vercel、Next.jsのGitHub issueをAI活用で整理"
+        },
+        {
+          "title": "WeWorm: Zero-Click WeChat Worm",
+          "link": "https://calif.io/research/weworm",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-12T05:49:10",
+          "excerpt": "Article URL: https://calif.io/research/weworm Comments URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "IaCツール比較: Terraform vs Pulumi、どちらを選ぶ？",
+          "link": "https://qiita.com/fd_ai_teacher/items/0044ceea7d41fb99b5e7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-12T04:47:29",
+          "excerpt": "Terraform vs Pulumi: GCP/VercelのIaC、最適な選択は？IaC（Infrastructure as Code）導入を検討する際、多くのエンジニアが「結局、TerraformとPulumi、どちらが良いのか？…"
+        },
         {
           "title": "今さら聞けないGitHub Dependabot入門 〜Amazon Inspectorとの違いと使い分け〜",
           "link": "https://qiita.com/Kodak_tmo/items/885589c7dadff82779eb",
           "source": "Qiita AWSタグ",
           "published": "2026-09-12T01:35:12",
           "excerpt": "はじめに 今更ですが、GitHub Dependabot を真面目に活用しようと色々と試したので、備忘録として残そうかと思います。なぜ、GitHub Dependabot なのか？…"
-        },
-        {
-          "title": "(ハンズオン)nx-plugin-for-awsで積読管理アプリを作ってAWSにデプロイしてみよう",
-          "link": "https://qiita.com/yama3133/items/a758e66f0c4269ab5b54",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-11T15:18:16",
-          "excerpt": "はじめに Nx Plugin for AWSは、コマンドを1つ打つだけで「Webサイト」「API(サーバー側のプログラム)」「データベース」のひな形をまとめて作ってくれるツールです。…"
-        },
-        {
-          "title": "PC や Mac に感染する ClickFix 攻撃が急速に広まっている",
-          "link": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-09-11T11:30:58",
-          "excerpt": "ClickFix は、そのシンプルさと実行の難しさの組み合わせにより理想的なものとなっています。"
-        },
-        {
-          "title": "Digital Research の GEM が Linux の新しいウィンドウを開く",
-          "link": "https://www.theregister.com/software/2026/09/11/digital-researchs-gem-opens-a-new-window-on-linux/5295546",
-          "source": "The Register（英語）",
-          "published": "2026-09-11T09:16:00",
-          "excerpt": "X11対ウェイランドのゴルディアスの結び目を解決する根本的な新しい方法"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "link": "https://eiln.github.io/posts/ane.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-12T07:54:03",
+      "excerpt": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "レベルファイブ日野社長、“AI盛り込みトレイラー発表会”について「派手にしたかった」ためと弁明。ただ発売するゲームには、“安易なAI出力データ”は入れない - AUTOMATON",
+      "link": "https://automaton-media.com/articles/newsjp/20260912-467049/",
+      "source": "はてなブックマーク（テクノロジー）",
+      "published": "2026-09-12T07:36:59",
+      "excerpt": "レベルファイブ日野社長、“AI盛り込みトレイラー発表会”について「派手にしたかった」ためと弁明。…"
+    },
     {
       "title": "Usenet rewind archive search engine",
       "link": "https://www.usenet-rewind.com/",
@@ -154,25 +182,11 @@
       "excerpt": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "(新機能)AWS Elemental/MediaTailorにきた5つの新機能を配信の流れで整理してみた",
-      "link": "https://qiita.com/yama3133/items/7d66c6498e536cf3838d",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-12T03:17:23",
-      "excerpt": "はじめに 2026年9月、AWSのライブ動画配信まわりで5件の新機能が立て続けに発表されました。…"
-    },
-    {
-      "title": "Google no longer provides direct URLs in search results",
-      "link": "https://www.autom.dev/blog/google-search-goto-links",
+      "title": "Navier-Stokes Announcement",
+      "link": "https://www.claymath.org/news/navier-stokes-announcement/",
       "source": "Hacker News（英語）",
-      "published": "2026-09-12T03:14:20",
-      "excerpt": "Article URL: https://www.autom.dev/blog/google-search-goto-links Comments URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Pandas Should Go Extinct",
-      "link": "https://eddie.codes/posts/pandas-should-go-extinct/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-12T02:42:08",
-      "excerpt": "Article URL: https://eddie.codes/posts/pandas-should-go-extinct/ Comments URL: https://news.ycombinator.com/item?…"
+      "published": "2026-09-12T04:09:43",
+      "excerpt": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
