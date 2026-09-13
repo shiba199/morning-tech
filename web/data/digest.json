@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-09-13T01:50:03",
+  "generated_at": "2026-09-13T06:55:34",
   "window_hours": 24,
-  "total": 106,
+  "total": 107,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。記事の URL: https://agentsdock.net/ コメント URL: https://news.ycombinator.com/item?id=49678435 ポイント: 4 コメント数: 2",
+      "summary": "生成AIの新着が20件。端末をキオスク化するときなど、ブラウザに設定値を持たせて、次の起動でそれを読ませたいことがある。端末ごとの識別子や画面の初期設定を、例えば localStorage に入れておく。…",
       "articles": [
+        {
+          "title": "localStorage は書き込んだ直後にはディスクに保存されていない | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/0670bb426d9cbe",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-13T04:35:17",
+          "excerpt": "端末をキオスク化するときなど、ブラウザに設定値を持たせて、次の起動でそれを読ませたいことがある。端末ごとの識別子や画面の初期設定を、例えば localStorage に入れておく。…"
+        },
         {
           "title": "AgentsDock: エージェント AI 研究用に設計された IDE",
           "link": "https://agentsdock.net/",
@@ -29,55 +36,48 @@
           "source": "@IT",
           "published": "2026-09-12T23:00:00",
           "excerpt": "生成AIやAIエージェントの活用が広がる一方、トークン課金による想定外のコスト増が企業を悩ませています。なぜ浪費が起こるのか、その原因と、現場で取り組める対策を5本の記事から探ります。"
-        },
-        {
-          "title": "[アップデート] Kiro CLI v3 のセッション検索がエージェントの応答も対象にできるようになったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/kiro-cli-v3-sessions-search-mode/",
-          "source": "DevelopersIO",
-          "published": "2026-09-12T22:54:38",
-          "excerpt": "V3だけだがレスポンスも対象に検索できるようになった。というか今までできなかったのか。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。Amazon Quickの S3 ナレッジベースに実装されたドキュメントレベルの ACL（アクセスコントロールリスト）について、実際に検証してみました。…",
+      "summary": "クラウドの新着が14件。はじめに 本番で動いている RDS MySQL を、Blue/Green Deployments を使って 8.0 から 8.4（LTS）へメジャーアップグレードしてみました。…",
       "articles": [
         {
-          "title": "Amazon Quick の S3 ナレッジベースのドキュメントレベル ACL を検証してみた - ユーザーごとに機密文書を出し分ける",
-          "link": "https://dev.classmethod.jp/articles/20260911-amazon-quick-s3-acl/",
+          "title": "【AWS】RDS Blue/Green デプロイメントでMySQLをメジャーアップグレードしてみた",
+          "link": "https://qiita.com/jus1730/items/236c19abc98cce3c458b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-13T06:34:04",
+          "excerpt": "はじめに 本番で動いている RDS MySQL を、Blue/Green Deployments を使って 8.0 から 8.4（LTS）へメジャーアップグレードしてみました。…"
+        },
+        {
+          "title": "Lambda の S3 Files でダイレクトリードを設定できるようになったので効果を測ってみた",
+          "link": "https://dev.classmethod.jp/articles/lambda-s3files-direct-read/",
           "source": "DevelopersIO",
-          "published": "2026-09-13T00:13:20",
-          "excerpt": "Amazon Quickの S3 ナレッジベースに実装されたドキュメントレベルの ACL（アクセスコントロールリスト）について、実際に検証してみました。…"
+          "published": "2026-09-13T04:38:07",
+          "excerpt": "AWS Lambda の S3 Files マウントで、ファイルの読み取り経路を明示的に選べる DirectS3Read がサポートされました。この読み取り経路は、これまでメモリ 512MB を境に自動で決まっていました。…"
         },
         {
-          "title": "GuardDuty×EventBridge×Lambdaで組む、Organizationsクロスアカウント自動封じ込め ― 設計編",
-          "link": "https://zenn.dev/nyondev/articles/zenn-article-design",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-12T16:01:34",
-          "excerpt": "この記事の位置づけ ある企業がAWS Organizationsで12の本番アカウントを運用しているという想定で、次の4点を満たすセキュリティ基盤の設計を検証した。…"
+          "title": "Lambda のネットワーク帯域幅を Service Quotas で 3,000 Mbps に引き上げて実測してみた",
+          "link": "https://dev.classmethod.jp/articles/lambda-network-bandwidth-3000mbps/",
+          "source": "DevelopersIO",
+          "published": "2026-09-13T04:01:52",
+          "excerpt": "VPC外の Lambda 関数のネットワーク帯域幅が、デフォルトの 625 Mbps から最大 3,000 Mbps まで、申請により拡張できるようになりました。…"
         },
         {
-          "title": "S3ライフサイクルの最小オブジェクトサイズ・最大オブジェクトサイズを検証してみた",
-          "link": "https://zenn.dev/vibe_coder/articles/s3-lifecycle-minmax-test",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-12T15:55:26",
-          "excerpt": "はじめに S3のライフサイクルルールでオブジェクトを自動削除するとき、「フォルダーが消えてしまう」という話をよく見かけます。その回避策として、ルールの最小オブジェクトサイズに1バイトを指定する方法が紹介されています。…"
-        },
-        {
-          "title": "AIに頼っていた自分が、TerraformでLambda+IAM+CloudWatch Logsを手書きしてみた",
-          "link": "https://zenn.dev/satoru_o/articles/2485602b8cb770",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-12T15:39:56",
-          "excerpt": "この記事は誰向けか ふだんインフラコードは生成AIに書かせることが多い人が、あえて自分の手だけでTerraformを書いてみると実際どこで詰まるのかを知りたい人向けの記事です。…"
+          "title": "S3 VectorsからDynamoDBのベクトル検索に寄せられるか実機で確かめてみる",
+          "link": "https://dev.classmethod.jp/articles/dynamodb-vector-s3vectors-diff/",
+          "source": "DevelopersIO",
+          "published": "2026-09-13T02:00:09",
+          "excerpt": "Amazon DynamoDBのベクトル検索がGAになったので、既存で使っているAmazon S3 Vectorsと同じデータを両方に入れて、仕様表では見落としやすい差を実機で確認してみました。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。クラウドストライクが年次の「脅威ハンティングレポート」2026年版を発表した。全世界の顧客環境を24時間365日監視する同社チームは、この1年で不審な振る舞いにこれまでにない変化を観測したという。人間の操作を上回ったものは何か。",
+      "summary": "セキュリティの新着が6件。クラウドストライクが年次の「脅威ハンティングレポート」2026年版を発表した。全世界の顧客環境を24時間365日監視する同社チームは、この1年で不審な振る舞いにこれまでにない変化を観測したという。人間の操作を上回ったものは何か。",
       "articles": [
         {
           "title": "セキュリティ監視の現場に異変？　\"人間の2.5倍に増えた\"不審な挙動の主とは",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。DynamoDBを使っていると、次のような現象に遭遇することがあります。UpdateItem は成功したのに、直後に読み直したら古い値が返ってきた。これは必ずしも不具合ではありません。…",
+      "summary": "データ分析の新着が4件。Amazon DynamoDBのベクトル検索がGAになったので、既存で使っているAmazon S3 Vectorsと同じデータを両方に入れて、仕様表では見落としやすい差を実機で確認してみました。",
       "articles": [
+        {
+          "title": "S3 VectorsからDynamoDBのベクトル検索に寄せられるか実機で確かめてみる",
+          "link": "https://dev.classmethod.jp/articles/dynamodb-vector-s3vectors-diff/",
+          "source": "DevelopersIO",
+          "published": "2026-09-13T02:00:09",
+          "excerpt": "Amazon DynamoDBのベクトル検索がGAになったので、既存で使っているAmazon S3 Vectorsと同じデータを両方に入れて、仕様表では見落としやすい差を実機で確認してみました。"
+        },
         {
           "title": "DynamoDBで『更新したのに古い値が返る』を理解する：結果整合性と強い整合性の使い分け",
           "link": "https://qiita.com/sponge841841/items/ab164f290f5f91a6d00b",
@@ -140,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。V3だけだがレスポンスも対象に検索できるようになった。というか今までできなかったのか。",
+      "summary": "開発ツールの新着が6件。はじめに 本番で動いている RDS MySQL を、Blue/Green Deployments を使って 8.0 から 8.4（LTS）へメジャーアップグレードしてみました。…",
       "articles": [
+        {
+          "title": "【AWS】RDS Blue/Green デプロイメントでMySQLをメジャーアップグレードしてみた",
+          "link": "https://qiita.com/jus1730/items/236c19abc98cce3c458b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-13T06:34:04",
+          "excerpt": "はじめに 本番で動いている RDS MySQL を、Blue/Green Deployments を使って 8.0 から 8.4（LTS）へメジャーアップグレードしてみました。…"
+        },
+        {
+          "title": "はじめてのAWS CLI（2/2）",
+          "link": "https://qiita.com/tri-ponte/items/39010af4f5b909509b78",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-13T05:06:36",
+          "excerpt": "AWS のアカウントを作った次の日に、Mac のターミナルから AWS を触れるようにしました。ブラウザの画面でもだいたいのことはできます。それでもコマンドから打てるようにしたかったのは、あとで手順をそのまま残せるからです。…"
+        },
         {
           "title": "[アップデート] Kiro CLI v3 のセッション検索がエージェントの応答も対象にできるようになったので試してみた",
           "link": "https://dev.classmethod.jp/articles/kiro-cli-v3-sessions-search-mode/",
@@ -155,52 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-12T22:04:33",
           "excerpt": "概要 AWS Solutions Architect - Associate (SAA) 対策や実務において、CloudFormationの用語や構造（セクション、プロパティ、組み込み関数）で混乱しやすかったポイントを論理的に整理したまとめ…"
-        },
-        {
-          "title": "AIに頼っていた自分が、TerraformでLambda+IAM+CloudWatch Logsを手書きしてみた",
-          "link": "https://zenn.dev/satoru_o/articles/2485602b8cb770",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-12T15:39:56",
-          "excerpt": "この記事は誰向けか ふだんインフラコードは生成AIに書かせることが多い人が、あえて自分の手だけでTerraformを書いてみると実際どこで詰まるのかを知りたい人向けの記事です。…"
-        },
-        {
-          "title": "Vercel、Next.jsのGitHub issueをAI活用で整理",
-          "link": "https://codezine.jp/article/detail/29630",
-          "source": "CodeZine",
-          "published": "2026-09-12T08:00:00",
-          "excerpt": "Vercel、Next.jsのGitHub issueをAI活用で整理"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AI と数学を調整する – 別のものに合わせる",
-      "link": "https://liorpachter.wordpress.com/2026/09/12/align-ai-and-mathematics-to-something-else/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-13T00:47:48",
-      "excerpt": "記事の URL: https://liorpachter.wordpress.…"
+      "title": "受験体験記（AWS Certified Foundational Cloud Practitioner）",
+      "link": "https://qiita.com/mujulle/items/3e2f82282a6adcfe2384",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-13T05:55:22",
+      "excerpt": "誰かの参考になれば。…"
     },
     {
-      "title": "私を除いて誰もがAI開発を遅らせるべきです",
-      "link": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-13T00:30:44",
-      "excerpt": "記事の URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "受験体験記（AWS Certified Foundational AI Practitioner）",
+      "link": "https://qiita.com/mujulle/items/54fc8baf83746f3c93b8",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-13T05:43:18",
+      "excerpt": "誰かの参考になれば。…"
     },
     {
-      "title": "1996 年のベセスダ シューター 2 作品を Godot 4 に移植",
-      "link": "https://github.com/nemo22/skynet-godot",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-13T00:18:03",
-      "excerpt": "記事の URL: https://github.com/nemo22/skynet-godot コメント URL: https://news.ycombinator.com/item?id=49678606 ポイント: 5 コメント数: 1"
+      "title": "デブサミにエーザイが登壇！グローバル開発をどう進めるか【デブクロ2026 注目セッション】",
+      "link": "https://codezine.jp/article/detail/29634",
+      "source": "CodeZine",
+      "published": "2026-09-13T04:00:00",
+      "excerpt": "デブサミにエーザイが登壇！グローバル開発をどう進めるか【デブクロ2026 注目セッション】"
     },
     {
-      "title": "循環型ループ変圧器",
-      "link": "https://yifanzhang-pro.github.io/recurrent-looped-tranformer/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-13T00:05:22",
-      "excerpt": "記事の URL: https://yifanzhang-pro.github.io/recurrent-looped-tranformer/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "【AGNTCon + MCPCon Japan 2026】 標準に準拠する重要性 | APC 技術ブログ",
+      "link": "https://techblog.ap-com.co.jp/entry/2026/09/13/123456",
+      "source": "企業テックブログまとめ",
+      "published": "2026-09-13T03:34:56",
+      "excerpt": "標準に準拠する重要性 みなさんこんにちは。エーピーコミュニケーションズACS事業部の亀崎です。…"
     }
   ]
 }
