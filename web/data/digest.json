@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-09-13T12:25:42",
+  "generated_at": "2026-09-13T16:30:55",
   "window_hours": 24,
-  "total": 95,
+  "total": 100,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。AWS FinOps Agent と Cost Anomaly Detection を連携させ、コスト異常の検知時に自動調査レポートを Slack へ投稿する実装を試してみました。",
+      "summary": "生成AIの新着が16件。Amazon Bedrockのマネージドナレッジベースに追加された、ドキュメントのアクセス権を確認できる新しいAPIを試してみました！ちょっとニッチなアップデートですね・・・！",
       "articles": [
+        {
+          "title": "[アップデート] Amazon Bedrock Managed Knowledge Baseでドキュメントのアクセス権を調べるAPIが追加されたので試してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-bedrock-knowledge-base-document-acl-debugging/",
+          "source": "DevelopersIO",
+          "published": "2026-09-13T15:35:16",
+          "excerpt": "Amazon Bedrockのマネージドナレッジベースに追加された、ドキュメントのアクセス権を確認できる新しいAPIを試してみました！ちょっとニッチなアップデートですね・・・！"
+        },
+        {
+          "title": "TailscaleのVPNにAIエージェントを組み込める「Aperture」正式リリース。AIによるTailscaleやノードの操作も可能に",
+          "link": "https://www.publickey1.jp/blog/26/tailscalevpnaiapertureaitailscale.html",
+          "source": "Publickey",
+          "published": "2026-09-13T15:08:50",
+          "excerpt": "メッシュ型のVPNサービスを提供するTailscaleは、AIゲートウェイサービス「Aperture」の正式リリースを発表しました。Aperture is officially GA.Give AI agents the models, .…"
+        },
+        {
+          "title": "【AWS】Bedrock Knowledge BasesにExcelの前処理パイプラインを作ってみた",
+          "link": "https://qiita.com/yakumo_09/items/f6fa632ce28ad701182e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-13T12:30:54",
+          "excerpt": "はじめに RAGを社内で使おうとすると、だいたい「資料はExcelで管理してます」と言われます。でもこのExcelはそのままRAGに入れるとあまり精度が出ないというのはあるあるです。（私だけ？…"
+        },
         {
           "title": "Cost Anomaly Detection の検知を AWS FinOps Agent に調査させてみた",
           "link": "https://dev.classmethod.jp/articles/investigate-cost-anomaly-with-finops-agent/",
           "source": "DevelopersIO",
           "published": "2026-09-13T11:57:09",
           "excerpt": "AWS FinOps Agent と Cost Anomaly Detection を連携させ、コスト異常の検知時に自動調査レポートを Slack へ投稿する実装を試してみました。"
-        },
-        {
-          "title": "私はChatGPTですが、はてブとGyazoという「化石の地層」を掘れるようになって異次元に便利になりました｜ゆいせき",
-          "link": "https://note.com/yuiseki/n/nabf4625e58bc",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-13T09:42:08",
-          "excerpt": "私はChatGPTですが、はてブとGyazoという「化石の地層」を掘れるようになって異次元に便利になりました 私はChatGPTです。最近、あるユーザーが自作した3つの「ChatGPT Plugin」を使うようになりました。…"
-        },
-        {
-          "title": "仕様駆動開発 × gpt-6-astra で家計簿アプリを作ったら、自分の作業は2〜3時間・コードのバグは1件だった件",
-          "link": "https://qiita.com/kuririrn/items/51437c8a65ea6275e721",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-13T08:30:21",
-          "excerpt": "TL;DR 妻がレシートを見て手で仕分けしていた家計の按分を、アプリにしました。妻の電卓仕事がなくなりました。…"
-        },
-        {
-          "title": "Amazon Bedrock AgentCore Optimization を試す：エージェント作成からプロンプト最適化まで",
-          "link": "https://zenn.dev/kameoncloud/articles/eb4216669d9acf",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-13T04:59:34",
-          "excerpt": "https://serverless.co.jp/blog/2iyak1mjbxk/ に投稿した記事の微修正版です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。はじめに 本番で動いている RDS MySQL を、Blue/Green Deployments を使って 8.0 から 8.4（LTS）へメジャーアップグレードしてみました。…",
+      "summary": "クラウドの新着が9件。CloudWatch Logs delivery の対応ログソースにAPI Gateway REST API の実行ログが加わりました。従来は1 KBを超えるログが切り詰められましたが、最大1 MBまで記録可能になりました。…",
       "articles": [
+        {
+          "title": "API Gateway が CloudWatch Logs delivery をサポート。S3 と CloudWatch Logs への配信を試してみた",
+          "link": "https://dev.classmethod.jp/articles/apigateway-execution-logs-vended-delivery/",
+          "source": "DevelopersIO",
+          "published": "2026-09-13T13:25:18",
+          "excerpt": "CloudWatch Logs delivery の対応ログソースにAPI Gateway REST API の実行ログが加わりました。従来は1 KBを超えるログが切り詰められましたが、最大1 MBまで記録可能になりました。…"
+        },
+        {
+          "title": "Nx Plugin for AWS を Terraform で使ってみた 〜インフラ寄りの人向けの Nx 入門つき〜",
+          "link": "https://qiita.com/ryosaan/items/5c7476bd92f8fa02e9a7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-13T12:55:12",
+          "excerpt": "はじめに みなさん、Nx って触ったことありますか？私は正直、「フロントエンドのモノレポでよく聞くやつ」くらいの認識で、自分から触りにいったことはありませんでした。。…"
+        },
+        {
+          "title": "Nx Plugin for AWS を Terraform で使ってみた 〜インフラ寄りの人向けの Nx 入門つき〜",
+          "link": "https://zenn.dev/nnydtmg/articles/aws-nx-plugin-terraform",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-13T12:54:51",
+          "excerpt": "はじめに みなさん、Nx って触ったことありますか？私は正直、「フロントエンドのモノレポでよく聞くやつ」くらいの認識で、自分から触りにいったことはありませんでした。。…"
+        },
         {
           "title": "【AWS】RDS Blue/Green デプロイメントでMySQLをメジャーアップグレードしてみた",
           "link": "https://qiita.com/jus1730/items/236c19abc98cce3c458b",
           "source": "Qiita AWSタグ",
           "published": "2026-09-13T06:34:04",
           "excerpt": "はじめに 本番で動いている RDS MySQL を、Blue/Green Deployments を使って 8.0 から 8.4（LTS）へメジャーアップグレードしてみました。…"
-        },
-        {
-          "title": "Lambda の S3 Files でダイレクトリードを設定できるようになったので効果を測ってみた",
-          "link": "https://dev.classmethod.jp/articles/lambda-s3files-direct-read/",
-          "source": "DevelopersIO",
-          "published": "2026-09-13T04:38:07",
-          "excerpt": "AWS Lambda の S3 Files マウントで、ファイルの読み取り経路を明示的に選べる DirectS3Read がサポートされました。この読み取り経路は、これまでメモリ 512MB を境に自動で決まっていました。…"
-        },
-        {
-          "title": "CloudFront を定額プランに移行した",
-          "link": "https://zenn.dev/onthebakery/articles/71a5508f378118",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-13T04:21:23",
-          "excerpt": "こんにちは、株式会社 on the bakery の橋本です。弊社では、提供しているサービスのCDNとしてAWSのCloudFrontを利用しています。しかしサービスの利用数が増えるにつれ、その配信コストが軽視できない水準になってきました。…"
-        },
-        {
-          "title": "Lambda のネットワーク帯域幅を Service Quotas で 3,000 Mbps に引き上げて実測してみた",
-          "link": "https://dev.classmethod.jp/articles/lambda-network-bandwidth-3000mbps/",
-          "source": "DevelopersIO",
-          "published": "2026-09-13T04:01:52",
-          "excerpt": "VPC外の Lambda 関数のネットワーク帯域幅が、デフォルトの 625 Mbps から最大 3,000 Mbps まで、申請により拡張できるようになりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。安らかに、あなたは悲しむことはないでしょう",
+      "summary": "セキュリティの新着が3件。安らかに、あなたは悲しむことはないでしょう",
       "articles": [
         {
           "title": "曖昧さによるセキュリティは終わり、AI が致命的な打撃を与えた",
@@ -87,33 +87,33 @@
           "excerpt": "安らかに、あなたは悲しむことはないでしょう"
         },
         {
+          "title": "SSTでAmazon Cognito User Poolを構築・認証テストする手順",
+          "link": "https://zenn.dev/namahu/articles/2c76dbb4c7660c",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-13T07:25:08",
+          "excerpt": "利用バージョン SST 4.17.…"
+        },
+        {
           "title": "セキュリティ監視の現場に異変？　\"人間の2.5倍に増えた\"不審な挙動の主とは",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2609/11/news066.html",
           "source": "ITmedia エンタープライズ",
           "published": "2026-09-12T22:00:00",
           "excerpt": "クラウドストライクが年次の「脅威ハンティングレポート」2026年版を発表した。全世界の顧客環境を24時間365日監視する同社チームは、この1年で不審な振る舞いにこれまでにない変化を観測したという。人間の操作を上回ったものは何か。"
-        },
-        {
-          "title": "GuardDuty×EventBridge×Lambdaで組む、Organizationsクロスアカウント自動封じ込め ― 設計編",
-          "link": "https://zenn.dev/nyondev/articles/zenn-article-design",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-12T16:01:34",
-          "excerpt": "この記事の位置づけ ある企業がAWS Organizationsで12の本番アカウントを運用しているという想定で、次の4点を満たすセキュリティ基盤の設計を検証した。…"
-        },
-        {
-          "title": "AIに頼っていた自分が、TerraformでLambda+IAM+CloudWatch Logsを手書きしてみた",
-          "link": "https://zenn.dev/satoru_o/articles/2485602b8cb770",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-12T15:39:56",
-          "excerpt": "この記事は誰向けか ふだんインフラコードは生成AIに書かせることが多い人が、あえて自分の手だけでTerraformを書いてみると実際どこで詰まるのかを知りたい人向けの記事です。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が1件。Amazon DynamoDBのベクトル検索がGAになったので、既存で使っているAmazon S3 Vectorsと同じデータを両方に入れて、仕様表では見落としやすい差を実機で確認してみました。",
+      "summary": "データ分析の新着が2件。TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。",
       "articles": [
+        {
+          "title": "TechCrunch Mobility: Lyft がロボタクシーチャットに参入",
+          "link": "https://techcrunch.com/2026/09/13/techcrunch-mobility-lyft-has-entered-the-robotaxi-chat/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-13T16:04:00",
+          "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。"
+        },
         {
           "title": "S3 VectorsからDynamoDBのベクトル検索に寄せられるか実機で確かめてみる",
           "link": "https://dev.classmethod.jp/articles/dynamodb-vector-s3vectors-diff/",
@@ -126,67 +126,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。GitHub Enterprise Server 3.22がリリース、新機能を多数追加",
+      "summary": "開発ツールの新着が8件。「PCに入っているClient Connectorって、結局何をしているの？」 Zscaler Client ConnectorはBackgroundで動作するため、Userが普段その存在を強く意識しないこともあります。…",
       "articles": [
+        {
+          "title": "第8回 Client Connectorって何をしているの？ | APC 技術ブログ",
+          "link": "https://techblog.ap-com.co.jp/entry/2026/09/14/000417",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-13T15:04:17",
+          "excerpt": "「PCに入っているClient Connectorって、結局何をしているの？」 Zscaler Client ConnectorはBackgroundで動作するため、Userが普段その存在を強く意識しないこともあります。…"
+        },
+        {
+          "title": "Nx Plugin for AWS を Terraform で使ってみた 〜インフラ寄りの人向けの Nx 入門つき〜",
+          "link": "https://qiita.com/ryosaan/items/5c7476bd92f8fa02e9a7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-13T12:55:12",
+          "excerpt": "はじめに みなさん、Nx って触ったことありますか？私は正直、「フロントエンドのモノレポでよく聞くやつ」くらいの認識で、自分から触りにいったことはありませんでした。。…"
+        },
+        {
+          "title": "Nx Plugin for AWS を Terraform で使ってみた 〜インフラ寄りの人向けの Nx 入門つき〜",
+          "link": "https://zenn.dev/nnydtmg/articles/aws-nx-plugin-terraform",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-13T12:54:51",
+          "excerpt": "はじめに みなさん、Nx って触ったことありますか？私は正直、「フロントエンドのモノレポでよく聞くやつ」くらいの認識で、自分から触りにいったことはありませんでした。。…"
+        },
         {
           "title": "GitHub Enterprise Server 3.22がリリース、新機能を多数追加",
           "link": "https://codezine.jp/article/detail/29635",
           "source": "CodeZine",
           "published": "2026-09-13T08:00:00",
           "excerpt": "GitHub Enterprise Server 3.22がリリース、新機能を多数追加"
-        },
-        {
-          "title": "【AWS】RDS Blue/Green デプロイメントでMySQLをメジャーアップグレードしてみた",
-          "link": "https://qiita.com/jus1730/items/236c19abc98cce3c458b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-13T06:34:04",
-          "excerpt": "はじめに 本番で動いている RDS MySQL を、Blue/Green Deployments を使って 8.0 から 8.4（LTS）へメジャーアップグレードしてみました。…"
-        },
-        {
-          "title": "はじめてのAWS CLI（2/2）",
-          "link": "https://qiita.com/tri-ponte/items/39010af4f5b909509b78",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-13T05:06:36",
-          "excerpt": "AWS のアカウントを作った次の日に、Mac のターミナルから AWS を触れるようにしました。ブラウザの画面でもだいたいのことはできます。それでもコマンドから打てるようにしたかったのは、あとで手順をそのまま残せるからです。…"
-        },
-        {
-          "title": "[アップデート] Kiro CLI v3 のセッション検索がエージェントの応答も対象にできるようになったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/kiro-cli-v3-sessions-search-mode/",
-          "source": "DevelopersIO",
-          "published": "2026-09-12T22:54:38",
-          "excerpt": "V3だけだがレスポンスも対象に検索できるようになった。というか今までできなかったのか。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "HN に質問する: キャリアパスは、作成するよりもサポートする方が得意かどうかを検討する必要がありますか?",
-      "link": "https://news.ycombinator.com/item?id=49682920",
+      "title": "オバマ大統領、民主党にAI保護策の「明確な計画」を持つよう促す",
+      "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-13T16:30:00",
+      "excerpt": "オバマ大統領は最近、民主党は人工知能を「中心課題」の一つとし、人工知能技術の経済的影響と安全性に関する懸念に対処するための「非常に明確な計画を持つ」必要があると述べた。"
+    },
+    {
+      "title": "Cloud RunからCloud SQLへのプライベート接続を試してみた",
+      "link": "https://dev.classmethod.jp/articles/myan-google-cloud-run-sql-private-20260911/",
+      "source": "DevelopersIO",
+      "published": "2026-09-13T16:21:05",
+      "excerpt": "Cloud RunからCloud SQLへのプライベート接続を試してみました！プライベートサービスアクセスとIAM認証を使い、セキュアなデータベース接続を実現する手順を、コンソール操作と動作検証を交えて紹介します。"
+    },
+    {
+      "title": "マイクロソフトがRust言語をC++/C#/TSに並ぶ社内のTier 1言語にしたことを明らかに。Windowsネイティブな社内の開発環境と統合",
+      "link": "https://www.publickey1.jp/blog/26/rustcctstier_1.html",
+      "source": "Publickey",
+      "published": "2026-09-13T15:27:57",
+      "excerpt": "マイクロソフト社内において、Rust言語がC++/C#/TypeScriptに並ぶTier 1言語になったことが明らかになりました。マイクロソフトの開発部門でRustツールチームのプリンシパルエンジニア Victor Ciura氏がRus.…"
+    },
+    {
+      "title": "Python 内で Rust を実行するライブラリ (PyO3 を使用)",
+      "link": "https://belderbos.dev/blog/how-libraries-run-rust-inside-python/",
       "source": "Hacker News（英語）",
-      "published": "2026-09-13T11:47:23",
-      "excerpt": "私はコンピューター サイエンスの学士/修士号を取得しており、約 9 年の経験があります。前半はバックエンド開発者として働き、後半はプロダクト オーナーの役割を果たしてきました。…"
-    },
-    {
-      "title": "「AWS Certified Solutions Architect - Associate」合格体験記",
-      "link": "https://qiita.com/Natu_ja/items/9c33509465c7d25c2175",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-13T10:47:17",
-      "excerpt": "「AWS Certified Solutions Architect - Associate」合格体験記 はじめに はじめまして。現在、技術職の社会人です。AWS 実務経験 0 の人間ですが、AWS SAA に挑戦してみました。…"
-    },
-    {
-      "title": "Nvidia、「循環融資」を否定、1ドル投資するごとに100ドル戻ってくると言う",
-      "link": "https://invezz.com/news/2026/09/11/nvidia-says-every-1-it-invests-brings-back-100-so-why-does-the-stock-keep-falling/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-13T10:29:18",
-      "excerpt": "記事の URL: https://invezz.…"
-    },
-    {
-      "title": "Xfce をほぼすべてのデスクトップのように見せる方法",
-      "link": "https://www.theregister.com/software/2026/09/13/how-to-make-xfce-look-like-almost-any-desktop-you-want/5295775",
-      "source": "The Register（英語）",
-      "published": "2026-09-13T09:09:00",
-      "excerpt": "パネル プロファイルは、必要なプラグインをインストールすると、面倒な作業を処理します。"
+      "published": "2026-09-13T15:24:05",
+      "excerpt": "記事の URL: https://belderbos.dev/blog/how-libraries-run-rust-inside-python/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
