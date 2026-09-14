@@ -1,111 +1,118 @@
 {
-  "generated_at": "2026-09-14T01:17:06",
+  "generated_at": "2026-09-14T06:33:16",
   "window_hours": 24,
-  "total": 125,
+  "total": 143,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が15件。はじめに 前回は、SageMaker Feature Store について整理しました。Feature Store は、機械学習で使う特徴量を管理・再利用するための仕組みでした。…",
+      "summary": "生成AIの新着が20件。Amazon Science の研究領域に新たに加わった自動推論について、予備知識のない方に向けてわかりやすく解説します。…",
       "articles": [
         {
-          "title": "【簡単AWS MLA】【初心者向け】Day 14：SageMaker Pipelines と MLOps を整理する — ML ワークフローを自動化する考え方",
-          "link": "https://qiita.com/MetaYuan/items/e70e9498b57337cd9357",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-14T00:44:35",
-          "excerpt": "はじめに 前回は、SageMaker Feature Store について整理しました。Feature Store は、機械学習で使う特徴量を管理・再利用するための仕組みでした。…"
+          "title": "はじめての自動推論",
+          "link": "https://aws.amazon.com/jp/blogs/news/a-gentle-introduction-to-automated-reasoning/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-09-14T06:27:40",
+          "excerpt": "Amazon Science の研究領域に新たに加わった自動推論について、予備知識のない方に向けてわかりやすく解説します。…"
         },
         {
-          "title": "Amazon Bedrock AgentCore Policyに追加された「Temporal Policies」を試してみた",
-          "link": "https://dev.classmethod.jp/articles/agentcore-gateway-dogwood-temporal-policies/",
+          "title": "Claude Code で auto mode を起動時のデフォルトにしたら、対応モデルと非対応モデルで挙動が分かれた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-auto-mode-default-bedrock/",
           "source": "DevelopersIO",
-          "published": "2026-09-13T23:59:59",
-          "excerpt": "Amazon Bedrock AgentCore Policyに追加された「Temporal Policies（時間的ポリシー）」という新機能を検証してみました！日本語の機能名が何やらかっこいいですね・・・！"
+          "published": "2026-09-14T06:21:10",
+          "excerpt": "Claude Code on Bedrock の auto mode をデフォルトに設定したときの挙動を、対応モデルと非対応モデルで比較しました。"
         },
         {
-          "title": "悪意のあるアプリケーションの懸念により、GPT2 はリリースされません (2019)",
-          "link": "https://openai.com/index/better-language-models/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-13T23:11:17",
-          "excerpt": "記事の URL: https://openai.com/index/better- language-models/ コメント URL: https://news.ycombinator.com/item?…"
+          "title": "OpenCode、pi、DeepSeek Harness を同じモデルにつないで、モデル非依存のコーディングエージェントハーネスの違いを比べてみる",
+          "link": "https://dev.classmethod.jp/articles/reona-coding-harness-opencode-pi-dsh/",
+          "source": "DevelopersIO",
+          "published": "2026-09-14T06:10:38",
+          "excerpt": "モデルを差し替えられるコーディングエージェントのハーネス、OpenCode・pi・DeepSeek Harness の 3 つの設計思想と動き方の違いを調べました。実際に同じモデルにつないで同じ課題を解かせ、ハーネス選びの根拠を整理します。"
         },
         {
-          "title": "“最強エージェント”は、まさかのポンコツだった　業務の30％をAIに任せるIT運用部門が明かす「つまずきポイント」",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/21/news015.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-09-13T23:00:00",
-          "excerpt": "さまざまな業務を一手に担う“最強”の万能型エージェントが、なぜ期待を下回る結果しか返せないのか。NTTドコモソリューションズのIT運用部門のトップに、AIエージェント実装を成功させた道のりを聞いた。"
+          "title": "Bedrock AgentCoreで気分から曲を探してくれるチャットを作った",
+          "link": "https://qiita.com/tomonop551/items/0e35bb8d488a39fbda49",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-14T05:05:23",
+          "excerpt": "はじめに：Discordの音楽チャンネルを一覧化したかった 友達と参加しているDiscordサーバーに、好きな音楽を共有するチャンネルがあります。せっかく共有された曲のURLがそのまま流れていってしまうのがもったいなかったので、Next.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。Aurora PostgreSQLのメジャーバージョンアップグレード（14→15）を本番で実施したときの話です。事前に調べた限りでは「オンラインで実行でき、数分から十数分程度のオフライン時間で完了する」という理解でした。…",
+      "summary": "クラウドの新着が12件。こんにちは。初めてAWSを触ってみようと思い、これまでバックエンドエンジニアでまったくインフラのことがわからず、まずは以下の教材でインフラの外観をつかんでみた。印象に残った単語を復習的にまとめてみる。…",
       "articles": [
+        {
+          "title": "はじめてインフラに興味を持ってみた",
+          "link": "https://qiita.com/monyo318/items/64a6b8764249943da754",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-14T06:22:26",
+          "excerpt": "こんにちは。初めてAWSを触ってみようと思い、これまでバックエンドエンジニアでまったくインフラのことがわからず、まずは以下の教材でインフラの外観をつかんでみた。印象に残った単語を復習的にまとめてみる。…"
+        },
+        {
+          "title": "はじめてのEC2（3/3）",
+          "link": "https://qiita.com/tri-ponte/items/d0d19f853dd3e37ea833",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-14T06:02:33",
+          "excerpt": "AWS にサーバーを1台立てて、自分のパソコンで書いた Python をそこで動かしました。前の記事で S3 にファイルを置けるようにしたので、今回はその続きです。S3 に置いたプログラムを、立てたばかりのサーバーへ渡して動かします。…"
+        },
+        {
+          "title": "Amazon API GatewayでのLambdaプロキシ統合、関数URL、Lambda Invoke APIの違いを整理してみた | TechTimes By JOPSのフィード",
+          "link": "https://zenn.dev/jops/articles/7928eec2ef24c3",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-14T04:00:07",
+          "excerpt": "やりたいこと本記事では、実務でよく利用されるAWS Lambda（以下、Lambda）を呼び出す次の3つの方法を比較します。…"
+        },
         {
           "title": "Auroraのメジャーバージョンアップグレードは完了イベントが出てからが本番だった話",
           "link": "https://qiita.com/nozomir/items/467e0012abadc3885e72",
           "source": "Qiita AWSタグ",
           "published": "2026-09-14T00:19:01",
           "excerpt": "Aurora PostgreSQLのメジャーバージョンアップグレード（14→15）を本番で実施したときの話です。事前に調べた限りでは「オンラインで実行でき、数分から十数分程度のオフライン時間で完了する」という理解でした。…"
-        },
-        {
-          "title": "Amazon S3で「ストレージコスト80％削減」――たった6カ月で成功した“再現性のある方法”とは？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/14/news027.html",
-          "source": "@IT",
-          "published": "2026-09-13T23:00:00",
-          "excerpt": "クラウドストレージの利用では、長く使い続けているうちにどこにコストの無駄があるのかを把握しにくくなり、気付けばコストが膨らんでいたという状況が起こりがちだ。…"
-        },
-        {
-          "title": "Lambda不要！Step FunctionsでEC2バックアップ｜UTC・JST日時付きのAMI名を生成する",
-          "link": "https://zenn.dev/takuyousou/articles/step-functions-ec2-backup-ami-name",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-13T16:05:38",
-          "excerpt": "はじめに こんにちは、宋です。前回、Step Functions を利用した EC2 の AMI バックアップを検証し、AMI 作成時の待機処理について記事を書きました。https://zenn.…"
-        },
-        {
-          "title": "Nx Plugin for AWS 1.0 を Dev Containers で動かしてAWSにデプロイするまで",
-          "link": "https://zenn.dev/satoru_o/articles/84604548c45427",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-13T15:19:08",
-          "excerpt": "TL;DR Nx Plugin for AWS 1.0.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が3件。Microsoftが修正したWindows Defenderの脆弱性を巡り、修正後のWindowsでも同じ問題につながる攻撃経路が残っていたとするPoCが公開された。わずか数日で登場した新たなPoCに対し、ユーザーができることはあるか。",
+      "summary": "セキュリティの新着が6件。セキュリティ業務で AI を活用する際、脆弱性を発見できるかだけでなく、安全なコードを誤検出しないかが信頼の鍵になります。…",
       "articles": [
+        {
+          "title": "セキュリティにおける AI の現在地: 信頼構築に最も重要な指標の測定",
+          "link": "https://aws.amazon.com/jp/blogs/news/the-state-of-ai-for-security-measuring-what-matters-most-for-building-trust/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-09-14T06:24:48",
+          "excerpt": "セキュリティ業務で AI を活用する際、脆弱性を発見できるかだけでなく、安全なコードを誤検出しないかが信頼の鍵になります。…"
+        },
+        {
+          "title": "WAF AutomatorでAWS WAFのWeb ACLを新規作成してみた",
+          "link": "https://dev.classmethod.jp/articles/waf-automator-aws-waf-web-acl-create/",
+          "source": "DevelopersIO",
+          "published": "2026-09-14T06:13:55",
+          "excerpt": "WAF AutomatorでAWS WAFのWeb ACLを新規作成する手順を紹介します。…"
+        },
+        {
+          "title": "「ゼロトラスト」でも防げず？　政府共通基盤GSSで24.6万件が漏えいか",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/14/news038.html",
+          "source": "@IT",
+          "published": "2026-09-14T02:00:00",
+          "excerpt": "「ゼロトラスト」を取り入れた政府共通の業務基盤で、不正アクセスが発生した。侵入の足掛かりとなったのはVPNの脆弱性。攻撃者は保守運用担当者のアカウントを使って大量のファイルにアクセスした。約24.…"
+        },
         {
           "title": "Windows Defenderの脆弱性　修正からわずか数日で修正回避のPoC登場",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/14/news031.html",
           "source": "@IT",
           "published": "2026-09-13T23:00:00",
           "excerpt": "Microsoftが修正したWindows Defenderの脆弱性を巡り、修正後のWindowsでも同じ問題につながる攻撃経路が残っていたとするPoCが公開された。わずか数日で登場した新たなPoCに対し、ユーザーができることはあるか。"
-        },
-        {
-          "title": "曖昧さによるセキュリティは終わり、AI が致命的な打撃を与えた",
-          "link": "https://www.theregister.com/security/2026/09/13/security-through-obscurity-is-dead-and-ai-delivered-the-fatal-blow/5296000",
-          "source": "The Register（英語）",
-          "published": "2026-09-13T11:21:00",
-          "excerpt": "安らかに、あなたは悲しむことはないでしょう"
-        },
-        {
-          "title": "SSTでAmazon Cognito User Poolを構築・認証テストする手順",
-          "link": "https://zenn.dev/namahu/articles/2c76dbb4c7660c",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-13T07:25:08",
-          "excerpt": "利用バージョン SST 4.17.…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。オラクルは以前、エリソン氏が約75億ドル相当の5000万株の売却を計画していることを明らかにしていた。",
+      "summary": "データ分析の新着が3件。オラクルは以前、エリソン氏が約75億ドル相当の5000万株の売却を計画していることを明らかにしていた。",
       "articles": [
         {
           "title": "ラリー・エリソン氏、オラクル株の75億ドル売却を中止",
@@ -127,80 +134,73 @@
           "source": "TechCrunch（英語）",
           "published": "2026-09-13T16:04:00",
           "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。"
-        },
-        {
-          "title": "S3 VectorsからDynamoDBのベクトル検索に寄せられるか実機で確かめてみる",
-          "link": "https://dev.classmethod.jp/articles/dynamodb-vector-s3vectors-diff/",
-          "source": "DevelopersIO",
-          "published": "2026-09-13T02:00:09",
-          "excerpt": "Amazon DynamoDBのベクトル検索がGAになったので、既存で使っているAmazon S3 Vectorsと同じデータを両方に入れて、仕様表では見落としやすい差を実機で確認してみました。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。社内では GitHub Enterprise Cloud を使っていて、いくつかの社内向けサイトを GitHub Pages の private 公開でホスティングしています。…",
+      "summary": "開発ツールの新着が11件。モデルを差し替えられるコーディングエージェントのハーネス、OpenCode・pi・DeepSeek Harness の 3 つの設計思想と動き方の違いを調べました。実際に同じモデルにつないで同じ課題を解かせ、ハーネス選びの根拠を整理します。",
       "articles": [
+        {
+          "title": "OpenCode、pi、DeepSeek Harness を同じモデルにつないで、モデル非依存のコーディングエージェントハーネスの違いを比べてみる",
+          "link": "https://dev.classmethod.jp/articles/reona-coding-harness-opencode-pi-dsh/",
+          "source": "DevelopersIO",
+          "published": "2026-09-14T06:10:38",
+          "excerpt": "モデルを差し替えられるコーディングエージェントのハーネス、OpenCode・pi・DeepSeek Harness の 3 つの設計思想と動き方の違いを調べました。実際に同じモデルにつないで同じ課題を解かせ、ハーネス選びの根拠を整理します。"
+        },
+        {
+          "title": "「FDE」「ハーネス」「オープンウェイト」って何？　AI時代に現場で飛び交う10用語をGitHubが整理",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/14/news037.html",
+          "source": "@IT",
+          "published": "2026-09-14T04:00:00",
+          "excerpt": "GitHubは、ソフトウェア開発の現場で急速に広がるAI関連の新用語を解説するガイドを公開した。「FDE」「ハーネス」「オープンウェイト」など、主要な10の用語を整理している。"
+        },
+        {
+          "title": "ObsidianのCEO、Markdown生成向けの「Knap」を紹介 ——Web Clipperから独立したテンプレート言語",
+          "link": "https://gihyo.jp/article/2026/09/knap?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-09-14T02:21:00",
+          "excerpt": "ObsidianのCEOを務めるSteph Ango氏（kepano）は9月10日、データからMarkdownを生成するテンプレート言語「Knap」をXで紹介した。"
+        },
         {
           "title": "private な GitHub Pages に独自ドメインを当てるときに気をつけること | GENDAのフィード",
           "link": "https://zenn.dev/genda_jp/articles/11abdf42c756e8",
           "source": "企業テックブログまとめ",
           "published": "2026-09-13T23:30:05",
           "excerpt": "社内では GitHub Enterprise Cloud を使っていて、いくつかの社内向けサイトを GitHub Pages の private 公開でホスティングしています。…"
-        },
-        {
-          "title": "Snowflake CLIもmiseで管理したい！pipxバックエンドでインストールする | Fusic 技術ブログのフィード",
-          "link": "https://zenn.dev/fusic/articles/snowflake-cli-install-with-mise",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-13T22:30:05",
-          "excerpt": "はじめにSnowflake CLIとは、Snowflakeが提供する開発者向けのコマンドラインツールです。スピーディにアプリケーションを構築したり、SQLを実行したりすることができます。https://docs.snowflake.…"
-        },
-        {
-          "title": "Nx Plugin for AWS 1.0 を Dev Containers で動かしてAWSにデプロイするまで",
-          "link": "https://zenn.dev/satoru_o/articles/84604548c45427",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-13T15:19:08",
-          "excerpt": "TL;DR Nx Plugin for AWS 1.0.…"
-        },
-        {
-          "title": "第8回 Client Connectorって何をしているの？ | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/2026/09/14/000417",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-13T15:04:17",
-          "excerpt": "「PCに入っているClient Connectorって、結局何をしているの？」 Zscaler Client ConnectorはBackgroundで動作するため、Userが普段その存在を強く意識しないこともあります。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "巨大 AI は規制上の取り締まりの条件を定め、それを「フロンティアのペースを保つ」と呼ぶ",
-      "link": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
+      "title": "誰、私？技術チームは間違ってオフボタンを押した同僚を立って笑った",
+      "link": "https://www.theregister.com/systems/2026/09/14/who-me-tech-team-stood-and-laughed-at-colleague-who-pressed-the-wrong-off-button/5295749",
       "source": "The Register（英語）",
-      "published": "2026-09-14T01:15:16",
-      "excerpt": "アモデイ、アルトマン、イーロン・マスク、政府が自分たちが生み出した怪物をどうやって手懐けるかについて青ざめている"
+      "published": "2026-09-14T06:30:00",
+      "excerpt": "くすぐったい状況は緊急メンテナンスの嘘で解決"
     },
     {
-      "title": "AWS Organizations の SCP を Config から確認してみた",
-      "link": "https://dev.classmethod.jp/articles/organizations-scp-from-config/",
-      "source": "DevelopersIO",
-      "published": "2026-09-14T01:11:59",
-      "excerpt": "AWS Config が新たにサポートを開始した `AWS::Organizations::Policy` リソースタイプを使い、Config から SCP の設定内容を確認できるか試してみました。"
+      "title": "Product Engineering Conference 2026 参加レポート | Timee Product Team Blog",
+      "link": "https://tech.timee.co.jp/entry/2026/09/14/144335",
+      "source": "企業テックブログまとめ",
+      "published": "2026-09-14T05:43:35",
+      "excerpt": "はじめに タイミーでは、世界中で開催される技術系カンファレンスの参加を支援する「Kaigi Pass」という制度があります。…"
     },
     {
-      "title": "週刊AWS – 2026/9/7週",
-      "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260907/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-09-14T01:10:30",
-      "excerpt": "Amazon S3 Object Lock がイベントホールドによる可変リテンションに対応、Amazon EMR が旧リリースからの移行中のお客様向けに無償でサポート延長、Amazon API Gateway がバックエンド統合向け mut…"
+      "title": "DroidKaigi 2026 にブース出展＆ポスターセッション登壇してきました！ | kubell Creator's Note",
+      "link": "https://creators-note.chatwork.com/entry/2026/09/14/142848",
+      "source": "企業テックブログまとめ",
+      "published": "2026-09-14T05:28:48",
+      "excerpt": "こんにちは！株式会社kubellでAndroidエンジニアをしている竹内です。…"
     },
     {
-      "title": "Blenderのスカルプトモードの操作方法を知ろう 〜ブラシの設定や便利なマスク機能など〜",
-      "link": "https://gihyo.jp/article/2026/09/blender-basics-85?utm_source=feed",
-      "source": "gihyo.jp 開発",
-      "published": "2026-09-14T00:32:00",
-      "excerpt": "第85回目は、Blenderに用意されているスカルプトモードの実際の操作方法について見ていきます。"
+      "title": "3分でわかる Azure Database for PostgreSQL Flexible Server",
+      "link": "https://qiita.com/cats_person/items/3030445e97e4d04aeab8",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-14T05:26:31",
+      "excerpt": "👀概要 パーソルホールディングス エンジニアリング部 Technical Alliance室の三好です。…"
     }
   ]
 }
