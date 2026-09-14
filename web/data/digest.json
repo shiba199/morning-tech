@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-09-13T23:21:27",
+  "generated_at": "2026-09-14T01:17:06",
   "window_hours": 24,
-  "total": 115,
+  "total": 125,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が13件。Article URL: https://openai.com/index/better-language-models/ Comments URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が15件。はじめに 前回は、SageMaker Feature Store について整理しました。Feature Store は、機械学習で使う特徴量を管理・再利用するための仕組みでした。…",
       "articles": [
         {
-          "title": "Due to concerns about malicious applications, GPT2 will not be released (2019)",
+          "title": "【簡単AWS MLA】【初心者向け】Day 14：SageMaker Pipelines と MLOps を整理する — ML ワークフローを自動化する考え方",
+          "link": "https://qiita.com/MetaYuan/items/e70e9498b57337cd9357",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-14T00:44:35",
+          "excerpt": "はじめに 前回は、SageMaker Feature Store について整理しました。Feature Store は、機械学習で使う特徴量を管理・再利用するための仕組みでした。…"
+        },
+        {
+          "title": "Amazon Bedrock AgentCore Policyに追加された「Temporal Policies」を試してみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-gateway-dogwood-temporal-policies/",
+          "source": "DevelopersIO",
+          "published": "2026-09-13T23:59:59",
+          "excerpt": "Amazon Bedrock AgentCore Policyに追加された「Temporal Policies（時間的ポリシー）」という新機能を検証してみました！日本語の機能名が何やらかっこいいですね・・・！"
+        },
+        {
+          "title": "悪意のあるアプリケーションの懸念により、GPT2 はリリースされません (2019)",
           "link": "https://openai.com/index/better-language-models/",
           "source": "Hacker News（英語）",
           "published": "2026-09-13T23:11:17",
-          "excerpt": "Article URL: https://openai.com/index/better-language-models/ Comments URL: https://news.ycombinator.com/item?…"
+          "excerpt": "記事の URL: https://openai.com/index/better- language-models/ コメント URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
-          "link": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-13T21:30:00",
-          "excerpt": "Insight Partners' Devin Parekh opens up about losing Legora to General Catalyst, why he's fine holding stakes in rival A…"
-        },
-        {
-          "title": "デビッド・サックス: OpenAI と Anthropic にはフロンティア モデルのペースに合わせるための規制は必要ありません",
-          "link": "https://twitter.com/DavidSacks/status/2098973625252708460",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-13T16:52:33",
-          "excerpt": "記事の URL: https://twitter.com/DavidSacks/status/2098973625252708460 コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "[アップデート] Amazon Bedrock Managed Knowledge Baseでドキュメントのアクセス権を調べるAPIが追加されたので試してみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-bedrock-knowledge-base-document-acl-debugging/",
-          "source": "DevelopersIO",
-          "published": "2026-09-13T15:35:16",
-          "excerpt": "Amazon Bedrockのマネージドナレッジベースに追加された、ドキュメントのアクセス権を確認できる新しいAPIを試してみました！ちょっとニッチなアップデートですね・・・！"
+          "title": "“最強エージェント”は、まさかのポンコツだった　業務の30％をAIに任せるIT運用部門が明かす「つまずきポイント」",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2608/21/news015.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-09-13T23:00:00",
+          "excerpt": "さまざまな業務を一手に担う“最強”の万能型エージェントが、なぜ期待を下回る結果しか返せないのか。NTTドコモソリューションズのIT運用部門のトップに、AIエージェント実装を成功させた道のりを聞いた。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。はじめに こんにちは、宋です。前回、Step Functions を利用した EC2 の AMI バックアップを検証し、AMI 作成時の待機処理について記事を書きました。https://zenn.…",
+      "summary": "クラウドの新着が13件。Aurora PostgreSQLのメジャーバージョンアップグレード（14→15）を本番で実施したときの話です。事前に調べた限りでは「オンラインで実行でき、数分から十数分程度のオフライン時間で完了する」という理解でした。…",
       "articles": [
+        {
+          "title": "Auroraのメジャーバージョンアップグレードは完了イベントが出てからが本番だった話",
+          "link": "https://qiita.com/nozomir/items/467e0012abadc3885e72",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-14T00:19:01",
+          "excerpt": "Aurora PostgreSQLのメジャーバージョンアップグレード（14→15）を本番で実施したときの話です。事前に調べた限りでは「オンラインで実行でき、数分から十数分程度のオフライン時間で完了する」という理解でした。…"
+        },
+        {
+          "title": "Amazon S3で「ストレージコスト80％削減」――たった6カ月で成功した“再現性のある方法”とは？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/14/news027.html",
+          "source": "@IT",
+          "published": "2026-09-13T23:00:00",
+          "excerpt": "クラウドストレージの利用では、長く使い続けているうちにどこにコストの無駄があるのかを把握しにくくなり、気付けばコストが膨らんでいたという状況が起こりがちだ。…"
+        },
         {
           "title": "Lambda不要！Step FunctionsでEC2バックアップ｜UTC・JST日時付きのAMI名を生成する",
           "link": "https://zenn.dev/takuyousou/articles/step-functions-ec2-backup-ami-name",
@@ -57,28 +71,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-09-13T15:19:08",
           "excerpt": "TL;DR Nx Plugin for AWS 1.0.…"
-        },
-        {
-          "title": "KiroでAWS Serverless開発をどこまで任せられるか？Pure KiroとGuardrailed Kiroを比較した",
-          "link": "https://zenn.dev/nobu_13/articles/2746075494abf7",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-13T14:16:56",
-          "excerpt": "KiroでAWS Serverless SDLCをどこまでAgentic化できるか？Pure KiroとGuardrailed Kiroを比較した Kiroを使えば、AWS開発をどこまでAI Agentへ任せられるのでしょうか。…"
-        },
-        {
-          "title": "API Gateway が CloudWatch Logs delivery をサポート。S3 と CloudWatch Logs への配信を試してみた",
-          "link": "https://dev.classmethod.jp/articles/apigateway-execution-logs-vended-delivery/",
-          "source": "DevelopersIO",
-          "published": "2026-09-13T13:25:18",
-          "excerpt": "CloudWatch Logs delivery の対応ログソースにAPI Gateway REST API の実行ログが加わりました。従来は1 KBを超えるログが切り詰められましたが、最大1 MBまで記録可能になりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が2件。安らかに、あなたは悲しむことはないでしょう",
+      "summary": "セキュリティの新着が3件。Microsoftが修正したWindows Defenderの脆弱性を巡り、修正後のWindowsでも同じ問題につながる攻撃経路が残っていたとするPoCが公開された。わずか数日で登場した新たなPoCに対し、ユーザーができることはあるか。",
       "articles": [
+        {
+          "title": "Windows Defenderの脆弱性　修正からわずか数日で修正回避のPoC登場",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/14/news031.html",
+          "source": "@IT",
+          "published": "2026-09-13T23:00:00",
+          "excerpt": "Microsoftが修正したWindows Defenderの脆弱性を巡り、修正後のWindowsでも同じ問題につながる攻撃経路が残っていたとするPoCが公開された。わずか数日で登場した新たなPoCに対し、ユーザーができることはあるか。"
+        },
         {
           "title": "曖昧さによるセキュリティは終わり、AI が致命的な打撃を与えた",
           "link": "https://www.theregister.com/security/2026/09/13/security-through-obscurity-is-dead-and-ai-delivered-the-fatal-blow/5296000",
@@ -98,21 +105,21 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Oracle had previously disclosed that Ellison planned to sell 50 million shares worth around $7.5 billion.",
+      "summary": "データ分析の新着が4件。オラクルは以前、エリソン氏が約75億ドル相当の5000万株の売却を計画していることを明らかにしていた。",
       "articles": [
         {
-          "title": "Larry Ellison cancels $7.5 billion sale of Oracle stock",
+          "title": "ラリー・エリソン氏、オラクル株の75億ドル売却を中止",
           "link": "https://techcrunch.com/2026/09/13/larry-ellison-cancels-7-5-billion-sale-of-oracle-stock/",
           "source": "TechCrunch（英語）",
           "published": "2026-09-13T20:49:38",
-          "excerpt": "Oracle had previously disclosed that Ellison planned to sell 50 million shares worth around $7.5 billion."
+          "excerpt": "オラクルは以前、エリソン氏が約75億ドル相当の5000万株の売却を計画していることを明らかにしていた。"
         },
         {
-          "title": "The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs",
+          "title": "VC によると、Y Combinator の最新のデモデーで最も話題になったスタートアップ 9 社",
           "link": "https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/",
           "source": "TechCrunch（英語）",
           "published": "2026-09-13T20:28:00",
-          "excerpt": "From floating reactors to brain chips: VCs picked their favorite YC startups from the summer batch."
+          "excerpt": "浮遊リアクターから頭脳チップまで: VC は夏のバッチからお気に入りの YC スタートアップを選びました。"
         },
         {
           "title": "TechCrunch Mobility: Lyft がロボタクシーチャットに参入",
@@ -133,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。はじめにSnowflake CLIとは、Snowflakeが提供する開発者向けのコマンドラインツールです。スピーディにアプリケーションを構築したり、SQLを実行したりすることができます。https://docs.snowflake.…",
+      "summary": "開発ツールの新着が9件。社内では GitHub Enterprise Cloud を使っていて、いくつかの社内向けサイトを GitHub Pages の private 公開でホスティングしています。…",
       "articles": [
+        {
+          "title": "private な GitHub Pages に独自ドメインを当てるときに気をつけること | GENDAのフィード",
+          "link": "https://zenn.dev/genda_jp/articles/11abdf42c756e8",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-13T23:30:05",
+          "excerpt": "社内では GitHub Enterprise Cloud を使っていて、いくつかの社内向けサイトを GitHub Pages の private 公開でホスティングしています。…"
+        },
         {
           "title": "Snowflake CLIもmiseで管理したい！pipxバックエンドでインストールする | Fusic 技術ブログのフィード",
           "link": "https://zenn.dev/fusic/articles/snowflake-cli-install-with-mise",
@@ -155,45 +169,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-09-13T15:04:17",
           "excerpt": "「PCに入っているClient Connectorって、結局何をしているの？」 Zscaler Client ConnectorはBackgroundで動作するため、Userが普段その存在を強く意識しないこともあります。…"
-        },
-        {
-          "title": "Nx Plugin for AWS を Terraform で使ってみた 〜インフラ寄りの人向けの Nx 入門つき〜",
-          "link": "https://qiita.com/ryosaan/items/5c7476bd92f8fa02e9a7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-13T12:55:12",
-          "excerpt": "はじめに みなさん、Nx って触ったことありますか？私は正直、「フロントエンドのモノレポでよく聞くやつ」くらいの認識で、自分から触りにいったことはありませんでした。。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "It's All Fun and Games Until You Give AI Your Credit Card",
-      "link": "https://www.theatlantic.com/technology/2026/09/instinct-ai-personal-assistant-credit-card/688607/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-13T23:05:13",
-      "excerpt": "Article URL: https://www.theatlantic.…"
+      "title": "巨大 AI は規制上の取り締まりの条件を定め、それを「フロンティアのペースを保つ」と呼ぶ",
+      "link": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
+      "source": "The Register（英語）",
+      "published": "2026-09-14T01:15:16",
+      "excerpt": "アモデイ、アルトマン、イーロン・マスク、政府が自分たちが生み出した怪物をどうやって手懐けるかについて青ざめている"
     },
     {
-      "title": "フロントエンドなんてバイブコーディングで良いこの時代に、私は | カミナシ エンジニアブログ",
-      "link": "https://kaminashi-developer.hatenablog.jp/entry/2026/09/14/frontend-beyond-vibe-coding",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-13T23:00:00",
-      "excerpt": "カミナシでソフトウェアエンジニアをしている osuzu です。「フロントエンドエンジニアとしてのキャリアは終わりなのではないか」という話を、最近よく見かけるようになりました。…"
+      "title": "AWS Organizations の SCP を Config から確認してみた",
+      "link": "https://dev.classmethod.jp/articles/organizations-scp-from-config/",
+      "source": "DevelopersIO",
+      "published": "2026-09-14T01:11:59",
+      "excerpt": "AWS Config が新たにサポートを開始した `AWS::Organizations::Policy` リソースタイプを使い、Config から SCP の設定内容を確認できるか試してみました。"
     },
     {
-      "title": "Slack、ワークスペース招待を悪用したフィッシング対策を強化",
-      "link": "https://codezine.jp/article/detail/29641",
-      "source": "CodeZine",
-      "published": "2026-09-13T23:00:00",
-      "excerpt": "Slack、ワークスペース招待を悪用したフィッシング対策を強化"
+      "title": "週刊AWS – 2026/9/7週",
+      "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260907/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-09-14T01:10:30",
+      "excerpt": "Amazon S3 Object Lock がイベントホールドによる可変リテンションに対応、Amazon EMR が旧リリースからの移行中のお客様向けに無償でサポート延長、Amazon API Gateway がバックエンド統合向け mut…"
     },
     {
-      "title": "わずか1年半でフルスタックAI駆動開発プロセスを築いたみずほ証券、原動力は「AIを使わないリスク」への危機感",
-      "link": "https://codezine.jp/article/detail/29413",
-      "source": "CodeZine",
-      "published": "2026-09-13T23:00:00",
-      "excerpt": "みずほ証券は2025年1月にGitHub Copilotを導入して以来、わずか1年半でDevin、Kiro、Genesis／Nexus、Snowflakeを組み合わせたフルスタックのAI駆動開発プロセスを築き上げた。…"
+      "title": "Blenderのスカルプトモードの操作方法を知ろう 〜ブラシの設定や便利なマスク機能など〜",
+      "link": "https://gihyo.jp/article/2026/09/blender-basics-85?utm_source=feed",
+      "source": "gihyo.jp 開発",
+      "published": "2026-09-14T00:32:00",
+      "excerpt": "第85回目は、Blenderに用意されているスカルプトモードの実際の操作方法について見ていきます。"
     }
   ]
 }
