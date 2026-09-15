@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-09-15T00:44:45",
+  "generated_at": "2026-09-15T05:33:24",
   "window_hours": 24,
-  "total": 188,
+  "total": 187,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。G-gen の杉村です。当記事には、Gemini Enterprise のライセンスに関する重要な仕様やよくある質問について記載します。…",
+      "summary": "生成AIの新着が38件。Amazon Bedrock AgentCoreに追加されたIngestData APIを試してみました。このAPIを使うと、外部で収集したデータを短期記憶を経由せず直接長期記憶に取り込めます！",
       "articles": [
         {
-          "title": "Gemini Enterpriseのライセンスに関するよくある質問 | G-gen Tech Blog",
-          "link": "https://blog.g-gen.co.jp/entry/faq-for-gemini-enterprise-license",
+          "title": "[アップデート] AgentCore Memoryの長期記憶にデータを直接取り込めるIngestData APIを試してみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-memory-ingest-data-api/",
+          "source": "DevelopersIO",
+          "published": "2026-09-15T04:00:31",
+          "excerpt": "Amazon Bedrock AgentCoreに追加されたIngestData APIを試してみました。このAPIを使うと、外部で収集したデータを短期記憶を経由せず直接長期記憶に取り込めます！"
+        },
+        {
+          "title": "Google、Windows向けGeminiデスクトップアプリを提供開始",
+          "link": "https://codezine.jp/article/detail/29677",
+          "source": "CodeZine",
+          "published": "2026-09-15T04:00:00",
+          "excerpt": "Google、Windows向けGeminiデスクトップアプリを提供開始"
+        },
+        {
+          "title": "Claude Code の Agent Teams を単一セッションと比較検証してみた | JBS Tech Blog",
+          "link": "https://blog.jbs.co.jp/entry/2026/09/15/125408",
           "source": "企業テックブログまとめ",
-          "published": "2026-09-15T00:00:00",
-          "excerpt": "G-gen の杉村です。当記事には、Gemini Enterprise のライセンスに関する重要な仕様やよくある質問について記載します。…"
+          "published": "2026-09-15T03:54:08",
+          "excerpt": "Claude Code には、複数のセッションをチームとして並列稼働させる Agent Teams という機能があります。…"
         },
         {
-          "title": "自動推論に立ちはだかる 3 つの難題",
-          "link": "https://aws.amazon.com/jp/blogs/news/three-challenges-in-machine-based-reasoning/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-09-14T23:54:52",
-          "excerpt": "自動推論の分野に 30 年以上携わってきた著者が、生成 AI で正しい推論を実現するうえで最も厄介だと考える 3 つの難題を紹介します。…"
-        },
-        {
-          "title": "生成AIを「別画面」で使い続けて本当によいのか？　300人調査で見えた活用定着の“壁”",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/15/news042.html",
-          "source": "@IT",
-          "published": "2026-09-14T23:00:00",
-          "excerpt": "生成AIの活用が広がる一方、最も定着している業務でも、7割は業務システムとは別の画面で生成AIを利用していた。こうした状況は、生成AI活用にどのような影響を及ぼしているのか。調査結果から実態を探る。"
-        },
-        {
-          "title": "Google Chat × Claude Agent SDK × AWS Lambdaで「事業部向けのAIエージェント」を作った話",
-          "link": "https://zenn.dev/wwwave/articles/50f7450f5d13bf",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-14T22:00:05",
-          "excerpt": "はじめに こんにちは、塚本です。弊社では、自社で管理しているコンテンツ（商品データ）を、提携先の企業（クライアント）へ届ける業務を「納品」と呼んでいます。…"
+          "title": "メシウス、AIコーディングエージェント向け「MCPサーバー」パブリックプレビューを公開",
+          "link": "https://codezine.jp/article/detail/29691",
+          "source": "CodeZine",
+          "published": "2026-09-15T03:00:00",
+          "excerpt": "メシウス、AIコーディングエージェント向け「MCPサーバー」パブリックプレビューを公開"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。Amazon ECS（Elastic Container Service）を運用する中で、タスクが突然停止（STOPPED）したり、起動直後に異常終了したりするトラブルは頻繁に発生します。…",
+      "summary": "クラウドの新着が15件。AWS MCPサーバー、Lambda関数を診断するサーバーレス機能を追加",
       "articles": [
+        {
+          "title": "AWS MCPサーバー、Lambda関数を診断するサーバーレス機能を追加",
+          "link": "https://codezine.jp/article/detail/29676",
+          "source": "CodeZine",
+          "published": "2026-09-15T02:30:00",
+          "excerpt": "AWS MCPサーバー、Lambda関数を診断するサーバーレス機能を追加"
+        },
+        {
+          "title": "AIの「脱クラウド・オンプレミス回帰」が66％、「AI案件の中止」も多数――その原因は？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/15/news031.html",
+          "source": "@IT",
+          "published": "2026-09-15T02:00:00",
+          "excerpt": "AI活用の本格化に伴い、企業のITインフラに変化が起きている。AIプロジェクトの延期や中止、クラウドから別の環境への移行も相次ぐ。何が企業のAI活用の障壁となっているのか。Clouderaが調査した。"
+        },
         {
           "title": "ECSタスク異常終了時の原因究明フローとAWS CLIによる調査コマンド・チェックリスト",
           "link": "https://qiita.com/blinkgroup_jp/items/1d1381f1e5c0a1fb1ec2",
@@ -57,63 +71,56 @@
           "source": "企業テックブログまとめ",
           "published": "2026-09-15T00:00:00",
           "excerpt": "株式会社Fusicとの共催オフラインイベント「AIは運用の相棒になれるか？実際の現場目線で語る、これからの運用のかたち」を2026年10月15日（木）に福岡のFusicオープンオフィスにて開催いたします。…"
-        },
-        {
-          "title": "Amazon ECS、サービスデプロイの早期成功基準を導入",
-          "link": "https://codezine.jp/article/detail/29671",
-          "source": "CodeZine",
-          "published": "2026-09-15T00:00:00",
-          "excerpt": "Amazon ECS、サービスデプロイの早期成功基準を導入"
-        },
-        {
-          "title": "Google Chat × Claude Agent SDK × AWS Lambdaで「事業部向けのAIエージェント」を作った話",
-          "link": "https://zenn.dev/wwwave/articles/50f7450f5d13bf",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-14T22:00:05",
-          "excerpt": "はじめに こんにちは、塚本です。弊社では、自社で管理しているコンテンツ（商品データ）を、提携先の企業（クライアント）へ届ける業務を「納品」と呼んでいます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。はじめに 認可って、実際にはどういう仕組みで実現されているのか 理解するべく、 そんな中でAWSの権限管理について調べてみると、 誰が 何を 何に対して どんな条件で 実行してよいのかを判定する仕組みが、かなり具体的に見えてきました。…",
+      "summary": "セキュリティの新着が16件。AWS CLI にて、IAM Identity Center（旧 AWS SSO）でログインした状態から、さらに別の IAM ロールへスイッチロール（AssumeRole）して作業したいことがありました。…",
       "articles": [
         {
-          "title": "認可って結局何。AWSの権限管理から仕組みをざっくり理解する",
-          "link": "https://qiita.com/Shoya-Miyata/items/0b1c251f612c2bccaa39",
+          "title": "AWS CLI で SSO ログインを起点に任意の IAM ロールにスイッチロールする設定",
+          "link": "https://qiita.com/swkky/items/c851b5dddbed2efaf8a9",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-15T00:34:30",
-          "excerpt": "はじめに 認可って、実際にはどういう仕組みで実現されているのか 理解するべく、 そんな中でAWSの権限管理について調べてみると、 誰が 何を 何に対して どんな条件で 実行してよいのかを判定する仕組みが、かなり具体的に見えてきました。…"
+          "published": "2026-09-15T04:54:41",
+          "excerpt": "AWS CLI にて、IAM Identity Center（旧 AWS SSO）でログインした状態から、さらに別の IAM ロールへスイッチロール（AssumeRole）して作業したいことがありました。…"
         },
         {
-          "title": "人間介入ゼロで「Jiraの認証情報」が流出　Copilotが見逃した1行の改修",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/15/news046.html",
-          "source": "@IT",
-          "published": "2026-09-14T23:00:00",
-          "excerpt": "Wizは、同社のセキュリティ研究特化型AIエージェントが、Snowflakeが公開しているGitHubリポジトリで脆弱性を発見し、Snowflake社内の「Jira」の認証情報アクセスに至った事例を公表した。…"
+          "title": "Cloud SQL for MySQLにおけるIAM認証の仕組みと設定手順 | Google Cloud Japanのフィード",
+          "link": "https://zenn.dev/google_cloud_jp/articles/fd3512f0492595",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-15T03:58:19",
+          "excerpt": "Cloud SQLにおけるIAM認証の役割オンプレミスやIaaS上に構築したセルフマネージドのデータベース運用では、データベース内部に静的なユーザー名とパスワードを発行して管理してきました。…"
         },
         {
-          "title": "セキュリティ製品を増やすほど守れなくなる？　75.4％が実感する「セキュリティ疲れ」の正体",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/15/news034.html",
-          "source": "@IT",
-          "published": "2026-09-14T23:00:00",
-          "excerpt": "セキュリティ対策を強化するほど、現場の負担が増える。そんな「セキュリティ疲れ」が企業のIT部門をむしばんでいる。TD SYNNEXの調査では75.4％が疲弊感・限界感を実感。…"
+          "title": "不正アクセスで「当選」が「落選」に改ざん　ウルトラマンショップのLINE整理券システムで被害",
+          "link": "https://www.itmedia.co.jp/news/article/2609/15/2000001480/",
+          "source": "ITmedia NEWS",
+          "published": "2026-09-15T03:33:53",
+          "excerpt": "LINE整理券システム「モギリー」に外部から不正アクセスがあり、本来「当選」だった客133人のステータスが「落選」に書き換えられた。"
         },
         {
-          "title": "「セキュリティは結局誰の仕事なのか」　日本企業のAIリスクをガートナーの矢野氏が指摘",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/15/news022.html",
-          "source": "@IT",
-          "published": "2026-09-14T20:00:00",
-          "excerpt": "日本企業はセキュリティに関する責任を再設計する必要がある。本質的な課題を解決しない限り、AIエージェントの取り組みがセキュリティリスクの急速な増大をもたらしかねないと、ガートナーの矢野薫氏は指摘する。"
+          "title": "初代Switchに脆弱性　QRコード読み取りで情報漏えいの恐れ　深刻度「高」",
+          "link": "https://www.itmedia.co.jp/news/article/2609/15/2000001474/",
+          "source": "ITmedia NEWS",
+          "published": "2026-09-15T01:32:52",
+          "excerpt": "一部の機能を利用する際に表示されるQRコードを悪意のある第三者に直接読み取られると、不正なコードを実行されたり、本体内の情報を取得されたりする恐れがある。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。数時間前、私は Astra に私の 10 か月前のリポジトリ https://github.com/callbacked/neural-band-poc/ を担当させました。…",
+      "summary": "データ分析の新着が3件。SNOWFLAKE WORLD TOUR 2026で紹介された、沖縄の小売大手サンエーがSnowflakeとAIの力を活用してデータ基盤を内製化した実例をレポートします。…",
       "articles": [
+        {
+          "title": "[レポート]沖縄の小売業が挑んだデータ基盤内製化 〜データエンジニア未経験者のSnowflake AI活用事例〜 #SWTTokyo26",
+          "link": "https://dev.classmethod.jp/articles/snowflake-sana-swttokyo26/",
+          "source": "DevelopersIO",
+          "published": "2026-09-15T00:50:13",
+          "excerpt": "SNOWFLAKE WORLD TOUR 2026で紹介された、沖縄の小売大手サンエーがSnowflakeとAIの力を活用してデータ基盤を内製化した実例をレポートします。…"
+        },
         {
           "title": "HN を表示: Kinesis – メタ ニューラル バンドで Mac を制御",
           "link": "https://github.com/callbacked/kinesis",
@@ -122,78 +129,78 @@
           "excerpt": "数時間前、私は Astra に私の 10 か月前のリポジトリ https://github.com/callbacked/neural-band-poc/ を担当させました。…"
         },
         {
-          "title": "[スタパ齋藤の「スタパトロニクスMobile」] スマホホルダーの「17mmボールジョイント」が超便利！　車載も自転車もパーツ交換で自由自在ッ!!",
-          "link": "https://k-tai.watch.impress.co.jp/docs/column/stapa/2139559.html",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-14T03:55:10",
-          "excerpt": "[スタパ齋藤の「スタパトロニクスMobile」] スマホホルダーの「17mmボールジョイント」が超便利！　車載も自転車もパーツ交換で自由自在ッ!!"
+          "title": "AWS Glue ゼロ ETL により、ターゲットテーブルのプロパティの所有権と競合検出が追加されました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-ownership-conflicts/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-14T08:00:00",
+          "excerpt": "AWS Glue のゼロ ETL 統合は、テーブルプロパティの競合を検出し、統合の所有権を追跡するようになりました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。Amazon ECS（Elastic Container Service）を運用する中で、タスクが突然停止（STOPPED）したり、起動直後に異常終了したりするトラブルは頻繁に発生します。…",
+      "summary": "開発ツールの新着が16件。AWS CLI にて、IAM Identity Center（旧 AWS SSO）でログインした状態から、さらに別の IAM ロールへスイッチロール（AssumeRole）して作業したいことがありました。…",
       "articles": [
         {
-          "title": "ECSタスク異常終了時の原因究明フローとAWS CLIによる調査コマンド・チェックリスト",
-          "link": "https://qiita.com/blinkgroup_jp/items/1d1381f1e5c0a1fb1ec2",
+          "title": "AWS CLI で SSO ログインを起点に任意の IAM ロールにスイッチロールする設定",
+          "link": "https://qiita.com/swkky/items/c851b5dddbed2efaf8a9",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-15T00:22:01",
-          "excerpt": "Amazon ECS（Elastic Container Service）を運用する中で、タスクが突然停止（STOPPED）したり、起動直後に異常終了したりするトラブルは頻繁に発生します。…"
+          "published": "2026-09-15T04:54:41",
+          "excerpt": "AWS CLI にて、IAM Identity Center（旧 AWS SSO）でログインした状態から、さらに別の IAM ロールへスイッチロール（AssumeRole）して作業したいことがありました。…"
         },
         {
-          "title": "CI runnerを0台にしたかっただけなのに、2GBの壁とTerraformの「正解」にぶつかった",
-          "link": "https://qiita.com/mizzz-ivr/items/a9f22a303c22b774963c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-15T00:06:07",
-          "excerpt": "CI runnerを0台にしたかっただけなのに、2GBの壁とTerraformの「正解」にぶつかった 最初に消したかったのは、EC2の待機コストでした。ところが、移行を始めて最初に消えたのはコストではなく、runnerそのものでした。…"
+          "title": "CodeCommitのPRマージをCodeBuildの成功だけで承認させ、手動承認を防ぐ構成を構築した",
+          "link": "https://dev.classmethod.jp/articles/2026-09-15-codecommit-ci-only-approval-pool/",
+          "source": "DevelopersIO",
+          "published": "2026-09-15T04:26:13",
+          "excerpt": "AWS CodeCommitの承認ルールで、承認プールをCodeBuildのサービスロールに限定し、人の承認を挟まずにCIが成功したPRだけマージできる構成を検証し、あわせて、承認ルールの上書きによる迂回をIAMのDenyで防げることも紹介…"
         },
         {
-          "title": "Amazon ECS、サービスデプロイの早期成功基準を導入",
-          "link": "https://codezine.jp/article/detail/29671",
+          "title": "メシウス、AIコーディングエージェント向け「MCPサーバー」パブリックプレビューを公開",
+          "link": "https://codezine.jp/article/detail/29691",
           "source": "CodeZine",
-          "published": "2026-09-15T00:00:00",
-          "excerpt": "Amazon ECS、サービスデプロイの早期成功基準を導入"
+          "published": "2026-09-15T03:00:00",
+          "excerpt": "メシウス、AIコーディングエージェント向け「MCPサーバー」パブリックプレビューを公開"
         },
         {
-          "title": "Google Chat × Claude Agent SDK × AWS Lambdaで「事業部向けのAIエージェント」を作った話",
-          "link": "https://zenn.dev/wwwave/articles/50f7450f5d13bf",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-14T22:00:05",
-          "excerpt": "はじめに こんにちは、塚本です。弊社では、自社で管理しているコンテンツ（商品データ）を、提携先の企業（クライアント）へ届ける業務を「納品」と呼んでいます。…"
+          "title": "オープンソースのコーディングエージェントClineのデスクトップアプリ「Cline Desktop」が登場",
+          "link": "https://gihyo.jp/article/2026/09/cline-desktop?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-09-15T02:56:00",
+          "excerpt": "Cline Bot Inc.は2026年9月14日、オープンソースのコーディングエージェントClineのデスクトップ版「Cline Desktop」をベータ版として公開した。macOSおよびWindows上で動作する。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "私はインターネットやスマホにはまっていません。情報中毒です",
-      "link": "https://explorator.dev/addiction/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-14T23:52:14",
-      "excerpt": "記事の URL: https://explorator.dev/addiction/ コメント URL: https://news.ycombinator.com/item?id=49705868 ポイント: 48 コメント数: 14"
+      "title": "AWSもAnsibleもよく分からない状態から、AIと一緒にWebサーバを構築して冪等性まで確認した",
+      "link": "https://qiita.com/baiyeheiri/items/a4e188c848cfba4ae7e5",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-15T04:53:42",
+      "excerpt": "AWSもAnsibleもよく分からない状態から、AIと一緒に「動くところ」まで作ってみた この記事は、筆者と対話AI「カレン」との共同作業です。…"
     },
     {
-      "title": "AlmaLinuxにSquidをインストールして使ってみた -PART.2- HTTPアクセス制御編 | JBS Tech Blog",
-      "link": "https://blog.jbs.co.jp/entry/2026/09/15/083759",
+      "title": "AWS Marketplace の購入者を SCP で制限する方法と Private Marketplace の違いを整理してみた",
+      "link": "https://dev.classmethod.jp/articles/aws-marketplace-scp-private-marketplace-comparison/",
+      "source": "DevelopersIO",
+      "published": "2026-09-15T04:52:25",
+      "excerpt": "AWS Marketplace の購入制限には SCP と Private Marketplace という 2 つの方法があります。この記事では、それぞれの違いや使い分けについて整理します。"
+    },
+    {
+      "title": "就業型インターン参加レポート: ライブ配信基盤の裏側に迫る一ヶ月 | PLAY DEVELOPERS BLOG",
+      "link": "https://developers.play.jp/entry/2026/09/15/132753",
       "source": "企業テックブログまとめ",
-      "published": "2026-09-14T23:37:59",
-      "excerpt": "前回の記事ではAlmaLinuxにSquidをインストールするところまでを紹介しました。blog.jbs.co.…"
+      "published": "2026-09-15T04:27:53",
+      "excerpt": "こんにちは！プラットフォーム本部 技術基盤部 配信基盤グループ インターン生の浦山です。今回は、1ヶ月の就業型インターンの参加レポートをお届けします。…"
     },
     {
-      "title": "トランプ大統領、アモデイ氏を名指しで「完璧な小さい天使のふり」　「AIに必要なガードレールは強く賢い大統領だけ」",
-      "link": "https://www.itmedia.co.jp/news/article/2609/15/2000001470/",
+      "title": "パナのBDレコーダーが“クラウド録画”に対応　何ができて、何ができない？",
+      "link": "https://www.itmedia.co.jp/news/article/2609/15/2000001482/",
       "source": "ITmedia NEWS",
-      "published": "2026-09-14T23:15:18",
-      "excerpt": "トランプ米大統領はSNSへの投稿で、AIに必要なガードレールは強く賢い大統領だけで十分だと述べ、AI企業に対する刑事・規制上の強い権限を強調した。…"
-    },
-    {
-      "title": "HN を表示: macOS での Behringer FCB1010 MIDI ペダルボードを使用したマクロ",
-      "link": "https://github.com/JamesRyanATX/fcbnerd",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-14T23:01:36",
-      "excerpt": "記事の URL: https://github.com/JamesRyanATX/fcbnerd コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-09-15T04:05:57",
+      "excerpt": "パナソニックは14日、初の“クラウド録画”に対応した「全自動ディーガ」を発表した。クラウド録画ではどんなことができるのか。"
     }
   ]
 }
