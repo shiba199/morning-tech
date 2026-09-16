@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-09-16T18:58:21",
+  "generated_at": "2026-09-16T21:51:14",
   "window_hours": 24,
-  "total": 187,
+  "total": 203,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が31件。Google は、Google Home 用の新しい MCP サーバーへの早期アクセスを開始します。…",
+      "summary": "生成AIの新着が35件。Claude Code の settings.json にある deny ルールがどのように機能するのか、rm コマンドと類似コマンドで検証してみました。",
       "articles": [
         {
-          "title": "AI エージェントが Google Home デバイスを制御できるようになりました",
-          "link": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-16T17:00:00",
-          "excerpt": "Google は、Google Home 用の新しい MCP サーバーへの早期アクセスを開始します。…"
-        },
-        {
-          "title": "Anthropic は、Claude チャットと Cowork を 1 つのインターフェイスに統合します",
-          "link": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-16T16:30:00",
-          "excerpt": "Anthropic は当初、これらの機能を Pro および Max プランの加入者にリリースします。"
-        },
-        {
-          "title": "コンテキストレイヤーの実装である Agents Schema を dbt・OSI プロバイダーで試してみた",
-          "link": "https://dev.classmethod.jp/articles/context-layer-dbt-agents-schema-try/",
+          "title": "Claude Code の settings.json で deny を設定した場合の挙動を rm で試してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-settings-permissions-deny-verify/",
           "source": "DevelopersIO",
-          "published": "2026-09-16T16:01:40",
-          "excerpt": "dbt LabsとFivetranのオープンスタンダード「Agents Schema」をSnowflake上で実装し、AIエージェントがビジネスコンテキストを参照できる仕組みを試してみました。…"
+          "published": "2026-09-16T21:14:36",
+          "excerpt": "Claude Code の settings.json にある deny ルールがどのように機能するのか、rm コマンドと類似コマンドで検証してみました。"
         },
         {
-          "title": "GitHub ActionsのClaude自動レビューでコメントしてくれない問題とその対処法",
-          "link": "https://dev.classmethod.jp/articles/claude-code-action-pr/",
-          "source": "DevelopersIO",
-          "published": "2026-09-16T15:04:49",
-          "excerpt": "Github Actions + Claude Codeの運用でPRコメント投稿に失敗していた問題に遭遇しました。原因と解決方法を紹介します。"
+          "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+          "link": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-16T21:07:24",
+          "excerpt": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs.…"
+        },
+        {
+          "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+          "link": "https://arxiv.org/abs/2609.16338",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-16T20:59:24",
+          "excerpt": "Article URL: https://arxiv.org/abs/2609.16338 Comments URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "OpenAI's new sponsored agents are happy to chat about selling you things",
+          "link": "https://www.theregister.com/ai-and-ml/2026/09/16/openais-new-sponsored-agents-are-happy-to-chat-about-selling-you-things/5296946",
+          "source": "The Register（英語）",
+          "published": "2026-09-16T18:32:37",
+          "excerpt": "Advertisers can now ask ChatGPT to help create their ChatGPT ads, because what's more relatable than an ad crafted by a…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。Amazon Elastic Container Service (Amazon ECS) は、Amazon EC2 起動タイプで実行されるタスクに対して Amazon S3 ファイルをサポートするようになり、お客様はコンテナ化されたアプリ…",
+      "summary": "クラウドの新着が22件。Aurora Serverless v2は、オートスケールできるクラウドDBとして魅力的な選択肢です。一方で、「オートスケールするなら安く済む」と考えて選ぶと、想定外のコストや接続数の制約に直面することもあります。…",
       "articles": [
+        {
+          "title": "「オートスケールするなら安く済む」は本当か　Aurora Serverless v2で見直すクラウドDBの判断軸",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/17/news008.html",
+          "source": "@IT",
+          "published": "2026-09-16T20:00:00",
+          "excerpt": "Aurora Serverless v2は、オートスケールできるクラウドDBとして魅力的な選択肢です。一方で、「オートスケールするなら安く済む」と考えて選ぶと、想定外のコストや接続数の制約に直面することもあります。…"
+        },
+        {
+          "title": "ECS Express Mode のサービス作成時に ARM64 を指定できるようになったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/ecs-express-mode-cpu-architecture-arm64/",
+          "source": "DevelopersIO",
+          "published": "2026-09-16T19:17:45",
+          "excerpt": "ECS Express Mode では、初回サービスの作成時に Fargate タスクの CPU アーキテクチャとして ARM64 を指定できるようになりました。…"
+        },
         {
           "title": "Amazon ECS は、Amazon S3 ファイルのサポートを Amazon EC2 コンピューティング タイプに拡張します",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-s3-files-ec2/",
@@ -57,20 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-16T15:05:09",
           "excerpt": "はじめに Kinesis でストリーミングデータを受けて、それを Apache Iceberg のテーブルとしてクエリできるようにしたい これまでこの経路を作るには、Firehose や Flink、あるいは自前のコンシューマアプリを用意し…"
-        },
-        {
-          "title": "一人で100台規模のEC2にSSHして更新するのは無理なので、Amazon Linux 2023 のOSパッケージ更新をAnsibleに任せた話",
-          "link": "https://qiita.com/shumasod/items/e86f1fcc7512686da99f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-16T13:42:30",
-          "excerpt": "Amazon Linux 2023(以下AL2023)のEC2を100台規模で運用しています。運用しているのは私一人で、全台にSSHで入って手で更新して回るのは現実的ではありませんでした。…"
-        },
-        {
-          "title": "【第6編】AWS S3移行後にHDFSを安全に停止・撤去してみる",
-          "link": "https://qiita.com/naritomo08/items/a5fbca0045295a286f3a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-16T12:41:30",
-          "excerpt": "はじめに 前回の記事では、ログ分析基盤に残っていたHDFS入出力をAWS S3またはS3上のIcebergテーブルへ移行しました。本記事では、その後にHDFSを安全に停止し、不要になったモジュールを撤去します。…"
         }
       ]
     },
@@ -112,43 +112,57 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。Googleは、Android上で利用可能なパスワードマネージャの間で、パスキーの転送を可能にしたと発表しました。これにより、例えばGoogleパスワードマネージャに登録したパスキーを1PasswordやBitwardenなどの他のパスワ.…",
+      "summary": "データ分析の新着が10件。Article URL: https://arxiv.org/abs/2609.16338 Comments URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+          "link": "https://arxiv.org/abs/2609.16338",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-16T20:59:24",
+          "excerpt": "Article URL: https://arxiv.org/abs/2609.16338 Comments URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "CISA decides weekly vulnerability bulletin isn't necessary anymore",
+          "link": "https://www.theregister.com/security/2026/09/16/cisa-decides-weekly-vulnerability-bulletin-isnt-necessary-anymore/5296968",
+          "source": "The Register（英語）",
+          "published": "2026-09-16T20:33:48",
+          "excerpt": "Agency's shift from static CVSS scores to risk-based prioritization sends the old format packing September 28"
+        },
+        {
+          "title": "Not just Proton: Getting to know Valve's new SteamOS compatibility layers",
+          "link": "https://arstechnica.com/gaming/2026/09/not-just-proton-getting-to-know-valves-new-steamos-compatibility-layers/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-09-16T20:23:16",
+          "excerpt": "New system-level tools bring Arm chipsets, Android APKs into the Steam ecosystem."
+        },
         {
           "title": "Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応",
           "link": "https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html",
           "source": "Publickey",
           "published": "2026-09-16T15:51:54",
           "excerpt": "Googleは、Android上で利用可能なパスワードマネージャの間で、パスキーの転送を可能にしたと発表しました。これにより、例えばGoogleパスワードマネージャに登録したパスキーを1PasswordやBitwardenなどの他のパスワ.…"
-        },
-        {
-          "title": "Kinesis Data Streams が「ストリーミングテーブル」で S3 Tables(Iceberg) へ直接配信できるようになったので試してみた",
-          "link": "https://qiita.com/leomarokun/items/72e17a807959ead2adbc",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-16T15:05:09",
-          "excerpt": "はじめに Kinesis でストリーミングデータを受けて、それを Apache Iceberg のテーブルとしてクエリできるようにしたい これまでこの経路を作るには、Firehose や Flink、あるいは自前のコンシューマアプリを用意し…"
-        },
-        {
-          "title": "【第5編】ログ分析基盤に残るHDFS依存をAWS S3へ移行してみる",
-          "link": "https://qiita.com/naritomo08/items/0630a554cbe9c8f6e2c9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-16T12:41:30",
-          "excerpt": "はじめに これまでの記事で、次の移行経路を作成した。…"
-        },
-        {
-          "title": "2026年8月21日開催｜DataOps Night #11 〜金融データ基盤と、現場を支えるデータエンジニアリング〜 | Finatext Tech Blogのフィード",
-          "link": "https://zenn.dev/finatext/articles/2e47814137e8ae",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-16T10:00:05",
-          "excerpt": "こんにちは！Finatextホールディングス/ナウキャスト 広報担当の及川です！…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。記事の URL: https://chuckgreenman.com/2026/09/16/counting-at-github コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が12件。CISA gives federal agencies just 3 days to patch",
       "articles": [
+        {
+          "title": "Google Pixel phones pwned in zero-click attacks",
+          "link": "https://www.theregister.com/security/2026/09/16/google-pixel-phones-pwned-in-zero-click-attacks/5296936",
+          "source": "The Register（英語）",
+          "published": "2026-09-16T17:56:31",
+          "excerpt": "CISA gives federal agencies just 3 days to patch"
+        },
+        {
+          "title": "AWS Client VPN is now supporting MacOS 27 Golden Gate",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-client-vpn-macos-golden-gate/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-16T17:56:00",
+          "excerpt": "AWS Client VPN now supports MacOS 27 Golden Gate client with versions 6.…"
+        },
         {
           "title": "GitHub は物事を数えるのに苦労しています",
           "link": "https://chuckgreenman.com/2026/09/16/counting-at-github",
@@ -162,52 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-09-16T15:04:49",
           "excerpt": "Github Actions + Claude Codeの運用でPRコメント投稿に失敗していた問題に遭遇しました。原因と解決方法を紹介します。"
-        },
-        {
-          "title": "Github Actionsの中でollamaを動かしてみる",
-          "link": "https://dev.classmethod.jp/articles/running-ollama-on-github-actions/",
-          "source": "DevelopersIO",
-          "published": "2026-09-16T09:57:32",
-          "excerpt": "Github Actions上でollamaを使ってLLMの定期実行を実現する方法を試してみました。セットアップから実装まで、2つの便利なアクションと具体的な使い方を紹介します。"
-        },
-        {
-          "title": "Lovable、ViteからRust製開発ツール「OJ」への切り替えを紹介",
-          "link": "https://gihyo.jp/article/2026/09/oj?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-09-16T09:14:00",
-          "excerpt": "AIによるアプリ開発サービスを提供するLovableは9月15日、開発中のアプリを動かして画面や動作を確認するプレビュー機能で、Rust製の開発ツール「OJ」の導入を進めていると発表した。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Science Corp CEO の Max Hodak 氏が TechCrunch Disrupt 2026 でスクリーン時代は終わりだと語る理由を聞いてください。",
-      "link": "https://techcrunch.com/2026/09/16/hear-why-science-corp-ceo-max-hodak-says-the-screen-era-is-ending-at-techcrunch-disrupt-2026/",
+      "title": "Noise wants to help everyday people  become paid content creators",
+      "link": "https://techcrunch.com/2026/09/16/noise-wants-to-help-everyday-people-become-paid-content-creators/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-16T18:45:35",
-      "excerpt": "今年の Disrupt では、Science Corp CEO の Max Hodak 氏が、医療支援も提供できる画面のないインターフェイスのビジョンを発表します。9 月 25 日までに登録すると、パスが最大 200 ドル割引になります。…"
+      "published": "2026-09-16T21:35:00",
+      "excerpt": "Marketing platform Noise is on a mission to help anyone with a smart phone make money from their content."
     },
     {
-      "title": "最初のベクトル化されたクイックソートを作成しました",
-      "link": "https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-16T18:31:35",
-      "excerpt": "記事の URL: https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.…"
+      "title": "Pulley, a Carta rival, is shutting down",
+      "link": "https://techcrunch.com/2026/09/16/pulley-a-carta-rival-is-shutting-down/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-16T21:23:19",
+      "excerpt": "Cap table management platform Pulley, backed by General Catalyst, Stripe, and Founders Fund, announced that it's closing…"
     },
     {
-      "title": "AI 研究所は社内監査人を望んでいますが、最初に門戸を閉めるべきかもしれません",
-      "link": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-16T18:25:25",
-      "excerpt": "目立たないところに隠れている不正エージェントに対する、より簡単で効果的な修正方法があるかもしれません。"
+      "title": "[アップデート] 請求とコスト管理のダッシュボードに Cost Anomaly Detection のウィジェットが追加されました",
+      "link": "https://dev.classmethod.jp/articles/monitor-detected-anomalies-using-dashboards/",
+      "source": "DevelopersIO",
+      "published": "2026-09-16T21:17:15",
+      "excerpt": "Cost Anomaly Detection の内容がそのまま確認できる感じ"
     },
     {
-      "title": "ハッカーがフロリダ州の自動車データベースに侵入し、数千人のドライバーのデータを公開",
-      "link": "https://techcrunch.com/2026/09/16/hackers-publish-thousands-of-drivers-data-after-breaching-florida-motor-vehicle-database/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-16T18:00:54",
-      "excerpt": "ShinyHunters ギャングは、フロリダ州当局が身代金要求を支払わなかったと主張し、ファイルをオンラインに流出させました。"
+      "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
+      "link": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-09-16T21:08:14",
+      "excerpt": "Group plans to be largely out of commission for several weeks."
     }
   ]
 }
