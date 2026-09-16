@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-09-16T10:07:18",
+  "generated_at": "2026-09-16T15:05:03",
   "window_hours": 24,
-  "total": 190,
+  "total": 189,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。Claude でコストを削減しながらパフォーマンスを保つ方法について、公式ブログを参考にまとめました。プロンプトキャッシュの活用、プロンプト内のアンチパターン除去、effortパラメータの最適化という3つのアプローチを、実際のCLAUDE.…",
+      "summary": "生成AIの新着が30件。ロボット産業は依然として、日常生活へのロボットの躍進を待っています。Nvidia の Les Karpas が、TechCrunch Disrupt 2026 でその理由について答えています。…",
       "articles": [
+        {
+          "title": "ロボットは ChatGPT の瞬間を待っている: Nvidia の Les Karpas 氏が TechCrunch Disrupt 2026 でその理由を説明",
+          "link": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-16T15:00:00",
+          "excerpt": "ロボット産業は依然として、日常生活へのロボットの躍進を待っています。Nvidia の Les Karpas が、TechCrunch Disrupt 2026 でその理由について答えています。…"
+        },
+        {
+          "title": "OpenAI がスポンサー付きエージェントを使用して ChatGPT 広告を拡張",
+          "link": "https://openai.com/index/reimagining-advertising-with-ai/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-16T13:51:15",
+          "excerpt": "記事の URL: https://openai.com/index/reimagining-advertising-with-ai/ コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "Gemini Notebook、モバイルアプリに音声対話や録音機能を順次追加へ ——レポート作成に「学習の概要」機能も",
+          "link": "https://gihyo.jp/article/2026/09/gemini-notebook-study-updates?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-09-16T10:08:00",
+          "excerpt": "Googleは2026年9月15日、登録した資料（ソース）を使って調査や学習ができる「Gemini Notebook」に新機能を順次追加すると発表した。モバイルアプリには、リアルタイム音声対話や録音機能を追加する。…"
+        },
         {
           "title": "コストとパフォーマンスはトレードオフなのか？Claude 公式ブログから、ポイントを整理してみた",
           "link": "https://dev.classmethod.jp/articles/claude-reducing-cost-and-improving-performance/",
           "source": "DevelopersIO",
           "published": "2026-09-16T09:26:53",
           "excerpt": "Claude でコストを削減しながらパフォーマンスを保つ方法について、公式ブログを参考にまとめました。プロンプトキャッシュの活用、プロンプト内のアンチパターン除去、effortパラメータの最適化という3つのアプローチを、実際のCLAUDE.…"
-        },
-        {
-          "title": "BT Email users hit by barrage of unsolicited password reset PINs",
-          "link": "https://www.theregister.com/networks/2026/09/16/bt-email-users-hit-by-barrage-of-unsolicited-password-reset-pins/5296616",
-          "source": "The Register（英語）",
-          "published": "2026-09-16T09:15:00",
-          "excerpt": "Telco says accounts are secure as customers report hundreds of mystery codes arriving in rapid bursts"
-        },
-        {
-          "title": "Learning Programming in an Age of LLMs",
-          "link": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-16T09:12:34",
-          "excerpt": "Article URL: https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/ Comments URL: https://news.…"
-        },
-        {
-          "title": "Kiro Crew でエージェントに CloudFormation 操作を拒否されたのでセキュリティ設定を変更してみた",
-          "link": "https://dev.classmethod.jp/articles/kiro-crew-security-deny-commands/",
-          "source": "DevelopersIO",
-          "published": "2026-09-16T09:01:15",
-          "excerpt": "エージェントに CloudFormation の create-stack を実行させたら拒否されたので、ダッシュボードのセキュリティ設定で該当ルールを無効化してしまいました"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。技術系メディア「石ころのニュースレター」に掲載された動画共有アプリ「setlog」の創業者インタビューを読んでいて、そのインフラ費用に目を疑いました。毎月のインフラ費用が、およそ40万ドル（$400k）。…",
+      "summary": "クラウドの新着が15件。Amazon Linux 2023(以下AL2023)のEC2を100台規模で運用しています。運用しているのは私一人で、全台にSSHで入って手で更新して回るのは現実的ではありませんでした。…",
       "articles": [
+        {
+          "title": "一人で100台規模のEC2にSSHして更新するのは無理なので、Amazon Linux 2023 のOSパッケージ更新をAnsibleに任せた話",
+          "link": "https://qiita.com/shumasod/items/e86f1fcc7512686da99f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-16T13:42:30",
+          "excerpt": "Amazon Linux 2023(以下AL2023)のEC2を100台規模で運用しています。運用しているのは私一人で、全台にSSHで入って手で更新して回るのは現実的ではありませんでした。…"
+        },
+        {
+          "title": "【第6編】AWS S3移行後にHDFSを安全に停止・撤去してみる",
+          "link": "https://qiita.com/naritomo08/items/a5fbca0045295a286f3a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-16T12:41:30",
+          "excerpt": "はじめに 前回の記事では、ログ分析基盤に残っていたHDFS入出力をAWS S3またはS3上のIcebergテーブルへ移行しました。本記事では、その後にHDFSを安全に停止し、不要になったモジュールを撤去します。…"
+        },
+        {
+          "title": "【第5編】ログ分析基盤に残るHDFS依存をAWS S3へ移行してみる",
+          "link": "https://qiita.com/naritomo08/items/0630a554cbe9c8f6e2c9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-16T12:41:30",
+          "excerpt": "はじめに これまでの記事で、次の移行経路を作成した。…"
+        },
         {
           "title": "月6,000万円の動画インフラ、構成を見直したら「最大80%削減」できる計算になった話",
           "link": "https://qiita.com/kentawata/items/b6576a32bd57cdc83cc2",
           "source": "Qiita AWSタグ",
           "published": "2026-09-16T06:50:52",
           "excerpt": "技術系メディア「石ころのニュースレター」に掲載された動画共有アプリ「setlog」の創業者インタビューを読んでいて、そのインフラ費用に目を疑いました。毎月のインフラ費用が、およそ40万ドル（$400k）。…"
-        },
-        {
-          "title": "Aurora の自動バックアップとスナップショットの違い。30分毎をやめました",
-          "link": "https://qiita.com/kenimo49/items/f44062b674eee5ca4ba9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-16T05:37:31",
-          "excerpt": "Aurora のクラスタで、30分毎にスナップショットを取っていました。今はやめています。きっかけは障害でも請求でもありません。運用しながらバックアップの仕様を読み直したことです。…"
-        },
-        {
-          "title": "【ECS】FireLensでログをCloudWatchからS3へ逃がす",
-          "link": "https://qiita.com/simoyama2323/items/704603bfe390912b8c9d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-16T04:49:26",
-          "excerpt": "はじめに CloudWatch高いですよねー CloudWatch Logsは取り込んだ量で課金されるので、入れた時点で課金が発生します。…"
-        },
-        {
-          "title": "共有DBユーザーを卒業し、「いつ・誰が・どんなクエリ」を追えるようRDS監査ログを整備した | クロスマート Tech Blog",
-          "link": "https://xmart-techblog.hatenablog.com/entry/2026/09/16/130335",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-16T04:03:35",
-          "excerpt": "こんにちは、クロスマートで SRE をしている渡辺です。最近、社内では DB に関する書籍の輪読会が盛り上がっています。DB に対して「いつ・誰が・どんなクエリを実行したか」を後から追える状態は、監査やインシデント対応の観点で欠かせません。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。エージェントに CloudFormation の create-stack を実行させたら拒否されたので、ダッシュボードのセキュリティ設定で該当ルールを無効化してしまいました",
+      "summary": "セキュリティの新着が13件。AIを活用したナレッジ共有サービスなどを手掛けるHelpfeelは9月16日、画像共有サービス「Gyazo（ギャゾー）」が不正アクセスを受け、ユーザー情報約2362万件と、アップロードされた画像に関するメタデータ約4億9000万件が外部に流…",
       "articles": [
+        {
+          "title": "Gyazoに不正アクセス　ユーザー情報約2362万件、画像メタデータ約4.9億件が流出",
+          "link": "https://www.itmedia.co.jp/news/article/2609/16/2000001560/",
+          "source": "ITmedia NEWS",
+          "published": "2026-09-16T10:59:05",
+          "excerpt": "AIを活用したナレッジ共有サービスなどを手掛けるHelpfeelは9月16日、画像共有サービス「Gyazo（ギャゾー）」が不正アクセスを受け、ユーザー情報約2362万件と、アップロードされた画像に関するメタデータ約4億9000万件が外部に流…"
+        },
         {
           "title": "Kiro Crew でエージェントに CloudFormation 操作を拒否されたのでセキュリティ設定を変更してみた",
           "link": "https://dev.classmethod.jp/articles/kiro-crew-security-deny-commands/",
@@ -99,48 +106,41 @@
           "source": "CodeZine",
           "published": "2026-09-16T05:00:00",
           "excerpt": "New Relicが脆弱性管理ソリューション「Security RX」を国内提供開始、AIが修正PRを自動生成"
-        },
-        {
-          "title": "【小ネタ】 AWS Marketplace 版 WAFCharm キャンセル・設定削除する際の備忘録",
-          "link": "https://dev.classmethod.jp/articles/marketplace-wafcharm-cancel/",
-          "source": "DevelopersIO",
-          "published": "2026-09-16T04:24:32",
-          "excerpt": "AWSマーケットプレイス版のWAFCharmをキャンセルする機会があり、設定削除の際の留意点を、備忘録として簡易的にまとめました。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。CodeRabbit検証の第3弾。Cursor向けIDE拡張機能でのリアルタイムレビュー、CodeRabbit CLIの使い方、Claude Codeプラグインとの連携までを検証。…",
+      "summary": "データ分析の新着が7件。Googleは、Android上で利用可能なパスワードマネージャの間で、パスキーの転送を可能にしたと発表しました。これにより、例えばGoogleパスワードマネージャに登録したパスキーを1PasswordやBitwardenなどの他のパスワ.…",
       "articles": [
+        {
+          "title": "Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応",
+          "link": "https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html",
+          "source": "Publickey",
+          "published": "2026-09-16T15:51:54",
+          "excerpt": "Googleは、Android上で利用可能なパスワードマネージャの間で、パスキーの転送を可能にしたと発表しました。これにより、例えばGoogleパスワードマネージャに登録したパスキーを1PasswordやBitwardenなどの他のパスワ.…"
+        },
+        {
+          "title": "【第5編】ログ分析基盤に残るHDFS依存をAWS S3へ移行してみる",
+          "link": "https://qiita.com/naritomo08/items/0630a554cbe9c8f6e2c9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-16T12:41:30",
+          "excerpt": "はじめに これまでの記事で、次の移行経路を作成した。…"
+        },
+        {
+          "title": "2026年8月21日開催｜DataOps Night #11 〜金融データ基盤と、現場を支えるデータエンジニアリング〜 | Finatext Tech Blogのフィード",
+          "link": "https://zenn.dev/finatext/articles/2e47814137e8ae",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-16T10:00:05",
+          "excerpt": "こんにちは！Finatextホールディングス/ナウキャスト 広報担当の及川です！…"
+        },
         {
           "title": "CodeRabbit を試す　第3弾 | NEXTSCAPE blog",
           "link": "https://blog.nextscape.net/archives/2026/09/16/175223",
           "source": "企業テックブログまとめ",
           "published": "2026-09-16T08:52:23",
           "excerpt": "CodeRabbit検証の第3弾。Cursor向けIDE拡張機能でのリアルタイムレビュー、CodeRabbit CLIの使い方、Claude Codeプラグインとの連携までを検証。…"
-        },
-        {
-          "title": "自社ノウハウをどうSaaSに落とし込む？　富士フイルムBIが実践する、汎用モデルと独自AIの並行活用",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/02/news064.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-09-15T22:00:00",
-          "excerpt": "富士フイルムBIは、専門的な業務知見をSaaSへ組み込み、汎用モデルと独自AIを組み合わせたサービスを展開している。汎用チャットと一線を画す価値を生み出し、市場ニーズに即した機能を迅速に提供するための開発アプローチを紹介する。"
-        },
-        {
-          "title": "【Pythonで学ぶデータ分析】独立性の検定をベイズ統計で行う ～ 雨男・雨女は本当にいるのか？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/16/news003.html",
-          "source": "@IT",
-          "published": "2026-09-15T20:00:00",
-          "excerpt": "その人が行事に参加すると高い確率で雨が降る、そんな「雨男・雨女」が身近にいるという人は少なくないと思います。冷静に考えれば、そういう印象が強いだけかもしれません。そこで、本当に雨男・雨女がいるのかをベイズ検定してみましょう。…"
-        },
-        {
-          "title": "AWS Billing Conductor がカスタム料金と使用量階層の価格設定をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/AWS-Billing-Conductor-custom-rates-usage-tier",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-15T18:58:00",
-          "excerpt": "AWS Billing Conductor では、希望する使用量に応じて料金を設定するためのカスタム使用量層の定義など、AWS サービスのカスタム料金設定を定義できるようになりました。…"
         }
       ]
     },
@@ -157,6 +157,13 @@
           "excerpt": "Github Actions上でollamaを使ってLLMの定期実行を実現する方法を試してみました。セットアップから実装まで、2つの便利なアクションと具体的な使い方を紹介します。"
         },
         {
+          "title": "Lovable、ViteからRust製開発ツール「OJ」への切り替えを紹介",
+          "link": "https://gihyo.jp/article/2026/09/oj?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-09-16T09:14:00",
+          "excerpt": "AIによるアプリ開発サービスを提供するLovableは9月15日、開発中のアプリを動かして画面や動作を確認するプレビュー機能で、Rust製の開発ツール「OJ」の導入を進めていると発表した。"
+        },
+        {
           "title": "Kiro Crew でエージェントに CloudFormation 操作を拒否されたのでセキュリティ設定を変更してみた",
           "link": "https://dev.classmethod.jp/articles/kiro-crew-security-deny-commands/",
           "source": "DevelopersIO",
@@ -169,45 +176,38 @@
           "source": "Hacker News（英語）",
           "published": "2026-09-16T04:58:36",
           "excerpt": "記事の URL: https://github.com/rapiddweller/datamimic コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "GitHub Copilot、自動モデル選択に3つのティアを追加",
-          "link": "https://codezine.jp/article/detail/29692",
-          "source": "CodeZine",
-          "published": "2026-09-16T02:30:00",
-          "excerpt": "GitHub Copilot、自動モデル選択に3つのティアを追加"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "[GPU] CUDA Rustを試してみる",
-      "link": "https://dev.classmethod.jp/articles/cuda-rust-complete-guide-gpu-programming/",
-      "source": "DevelopersIO",
-      "published": "2026-09-16T09:58:58",
-      "excerpt": "[AI要約] NVIDIAが2026年9月に発表したCUDA Rustの解説。cuda-oxideとcutile-rsを使ってみる。"
+      "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
+      "link": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
+      "source": "Publickey",
+      "published": "2026-09-16T16:00:51",
+      "excerpt": "コーディングAIエージェントを提供するDevinが、Devinがホストする仮想環境内でのmacOSの提供を開始しました。Devinはこれまで仮想環境内でUbuntu LinuxおよびWindowsを提供しており、ここにmacOSが加わりま.…"
     },
     {
-      "title": "角張ったデザインの狙いは？　ボディ内手ブレ補正も搭載したキヤノン「EOS R8 Mark II」を触ってきた",
-      "link": "https://www.itmedia.co.jp/news/article/2609/16/2000001558/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-16T09:57:06",
-      "excerpt": "キヤノンのフルサイズミラーレス一眼のエントリーモデル「EOS R8」がフルモデルチェンジして「EOS R8 Mark II」となったのである。デザインも一新した。"
+      "title": "Google、Pixelスマートフォン所有者の一部がゼロデイ攻撃でハッキングされたと発表",
+      "link": "https://techcrunch.com/2026/09/16/google-says-some-pixel-phone-owners-were-hacked-in-zero-day-attacks/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-16T14:47:07",
+      "excerpt": "Pixel携帯電話メーカーは、携帯電話のモデムのバグが「限定的かつ標的を絞った悪用の対象となっている可能性がある」兆候があると述べた。"
     },
     {
-      "title": "「なぜパスワードなしで安全に繋がるの？」公開鍵と秘密鍵の仕組みを鍵生成から理解するSSH入門 | サーバーワークスエンジニアブログ",
-      "link": "https://blog.serverworks.co.jp/ssh-public-private-key-basics",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-16T08:57:19",
-      "excerpt": "はじめに SSHとは何か？SSH（Secure Shell）の基本 なぜSSHが必要なのか？SSHが保証する3つの安全機能 公開鍵と秘密鍵の役割 秘密鍵を送信しない？…"
+      "title": "アマゾン、従業員に時給1ドルの昇給を与える",
+      "link": "https://techcrunch.com/2026/09/16/amazon-gives-its-workers-a-raise-of-1-per-hour/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-16T14:32:08",
+      "excerpt": "これらの資金調達に対するアマゾンの投資額は15億ドル以上となり、これは同社の時価総額2兆6800億ドルの約0.06％に相当する。"
     },
     {
-      "title": "“ほったらかしAI動画編集”を「DaVinci Resolve」で試す　これが今のベストチョイスかも",
-      "link": "https://www.itmedia.co.jp/news/article/2609/16/2000001551/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-16T08:32:51",
-      "excerpt": "「人がしゃべっていない部分を消して」と頼むと、AIは自ら文字起こし機能を呼び出し、音声のない区間を割り出して削った――。9月8日公開の「DaVinci Resolve Studio 21.1」は外部のAIエージェントから操作可能に。…"
+      "title": "「モデル福祉」についての警告",
+      "link": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-16T14:27:47",
+      "excerpt": "記事の URL: https://mustafa-suleyman.ai/a-warning-about-model-welfare コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
