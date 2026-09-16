@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-09-16T05:26:19",
+  "generated_at": "2026-09-16T10:07:18",
   "window_hours": 24,
-  "total": 191,
+  "total": 190,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が39件。記事の URL: https://github.com/rapiddweller/datamimic コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が36件。Claude でコストを削減しながらパフォーマンスを保つ方法について、公式ブログを参考にまとめました。プロンプトキャッシュの活用、プロンプト内のアンチパターン除去、effortパラメータの最適化という3つのアプローチを、実際のCLAUDE.…",
       "articles": [
         {
-          "title": "Datamimic – コーディングエージェントに独自のテスト世界を作らせないでください",
-          "link": "https://github.com/rapiddweller/datamimic",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-16T04:58:36",
-          "excerpt": "記事の URL: https://github.com/rapiddweller/datamimic コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Claude Code v2.1.273 の主要アップデート - auto-compact の早期発動修正と権限まわりのセキュリティ修正",
-          "link": "https://dev.classmethod.jp/articles/20260916-cc-updates-v2-1-273/",
+          "title": "コストとパフォーマンスはトレードオフなのか？Claude 公式ブログから、ポイントを整理してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-reducing-cost-and-improving-performance/",
           "source": "DevelopersIO",
-          "published": "2026-09-16T04:16:13",
-          "excerpt": "Claude Code v2.1.273がリリースされました。64件の変更が入った今回は、長いセッションでの不具合修正とセキュリティ改善が中心です。…"
+          "published": "2026-09-16T09:26:53",
+          "excerpt": "Claude でコストを削減しながらパフォーマンスを保つ方法について、公式ブログを参考にまとめました。プロンプトキャッシュの活用、プロンプト内のアンチパターン除去、effortパラメータの最適化という3つのアプローチを、実際のCLAUDE.…"
         },
         {
-          "title": "LLMを業務に入れて分かった「オントロジー」の効き方 — 運に頼らないAI運用の骨組み | 株式会社ソニックムーブのフィード",
-          "link": "https://zenn.dev/sonicmoov/articles/4d6fbacee2d458",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-16T03:41:56",
-          "excerpt": "はじめに私たちはLINE公式アカウントを使った顧客育成SaaSを開発・運用しています。1年ほど前から、社内の問い合わせ対応・調査・資料作成・コードレビューといった業務に、Claudeベースの常駐AIエージェントを複数体入れて回してきました。…"
+          "title": "BT Email users hit by barrage of unsolicited password reset PINs",
+          "link": "https://www.theregister.com/networks/2026/09/16/bt-email-users-hit-by-barrage-of-unsolicited-password-reset-pins/5296616",
+          "source": "The Register（英語）",
+          "published": "2026-09-16T09:15:00",
+          "excerpt": "Telco says accounts are secure as customers report hundreds of mystery codes arriving in rapid bursts"
         },
         {
-          "title": "仕様の考慮漏れをClaude Codeで洗い出す | QA視点による仕様策定フェーズでの不具合抑制 | Yappli Tech Blog",
-          "link": "https://tech.yappli.io/entry/create-qa-plan",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-16T03:30:00",
-          "excerpt": "こんにちは、ヤプリでQAをしている今西(@TKNW_Hitsuji)です。弊社ではQAフェーズになって考慮できていない仕様が見つかり、リリース後の後追い対応、場合によってはリリース遅延という状態になったことが過去数件ありました。…"
+          "title": "Learning Programming in an Age of LLMs",
+          "link": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-16T09:12:34",
+          "excerpt": "Article URL: https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/ Comments URL: https://news.…"
+        },
+        {
+          "title": "Kiro Crew でエージェントに CloudFormation 操作を拒否されたのでセキュリティ設定を変更してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-crew-security-deny-commands/",
+          "source": "DevelopersIO",
+          "published": "2026-09-16T09:01:15",
+          "excerpt": "エージェントに CloudFormation の create-stack を実行させたら拒否されたので、ダッシュボードのセキュリティ設定で該当ルールを無効化してしまいました"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。はじめに CloudWatch高いですよねー CloudWatch Logsは取り込んだ量で課金されるので、入れた時点で課金が発生します。…",
+      "summary": "クラウドの新着が14件。技術系メディア「石ころのニュースレター」に掲載された動画共有アプリ「setlog」の創業者インタビューを読んでいて、そのインフラ費用に目を疑いました。毎月のインフラ費用が、およそ40万ドル（$400k）。…",
       "articles": [
+        {
+          "title": "月6,000万円の動画インフラ、構成を見直したら「最大80%削減」できる計算になった話",
+          "link": "https://qiita.com/kentawata/items/b6576a32bd57cdc83cc2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-16T06:50:52",
+          "excerpt": "技術系メディア「石ころのニュースレター」に掲載された動画共有アプリ「setlog」の創業者インタビューを読んでいて、そのインフラ費用に目を疑いました。毎月のインフラ費用が、およそ40万ドル（$400k）。…"
+        },
+        {
+          "title": "Aurora の自動バックアップとスナップショットの違い。30分毎をやめました",
+          "link": "https://qiita.com/kenimo49/items/f44062b674eee5ca4ba9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-16T05:37:31",
+          "excerpt": "Aurora のクラスタで、30分毎にスナップショットを取っていました。今はやめています。きっかけは障害でも請求でもありません。運用しながらバックアップの仕様を読み直したことです。…"
+        },
         {
           "title": "【ECS】FireLensでログをCloudWatchからS3へ逃がす",
           "link": "https://qiita.com/simoyama2323/items/704603bfe390912b8c9d",
@@ -57,28 +71,28 @@
           "source": "企業テックブログまとめ",
           "published": "2026-09-16T04:03:35",
           "excerpt": "こんにちは、クロスマートで SRE をしている渡辺です。最近、社内では DB に関する書籍の輪読会が盛り上がっています。DB に対して「いつ・誰が・どんなクエリを実行したか」を後から追える状態は、監査やインシデント対応の観点で欠かせません。…"
-        },
-        {
-          "title": "AuroraとRDSの違いをもう一歩深掘りしてみた ～Multi-AZ DBクラスターとフェイルオーバー時間・移行方法まで～",
-          "link": "https://qiita.com/Sho5_Matsu/items/0f7e652e173c3279698a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-16T02:43:44",
-          "excerpt": "はじめに 以前、AuroraとRDSの違いを調べてみた という記事で、AuroraとRDSの違いについて「対応エンジン」「性能」「可用性」「コスト」といった機能面をざっくり比較しました。…"
-        },
-        {
-          "title": "デフォルト証明書（*.cloudfront.net）を使う CloudFront で TLS 1.0 / 1.1 を無効化できますか？",
-          "link": "https://dev.classmethod.jp/articles/tsnote-cloudfront-default-certificate-tls-v1_0_1/",
-          "source": "DevelopersIO",
-          "published": "2026-09-16T02:43:32",
-          "excerpt": "CloudFront のデフォルト証明書では TLS バージョンを変更できない理由と、TLS 1.0 / 1.1 を無効化する方法について紹介します。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。New Relicが脆弱性管理ソリューション「Security RX」を国内提供開始、AIが修正PRを自動生成",
+      "summary": "セキュリティの新着が13件。エージェントに CloudFormation の create-stack を実行させたら拒否されたので、ダッシュボードのセキュリティ設定で該当ルールを無効化してしまいました",
       "articles": [
+        {
+          "title": "Kiro Crew でエージェントに CloudFormation 操作を拒否されたのでセキュリティ設定を変更してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-crew-security-deny-commands/",
+          "source": "DevelopersIO",
+          "published": "2026-09-16T09:01:15",
+          "excerpt": "エージェントに CloudFormation の create-stack を実行させたら拒否されたので、ダッシュボードのセキュリティ設定で該当ルールを無効化してしまいました"
+        },
+        {
+          "title": "「Gyazo」への不正アクセスによる情報漏えいに関するお知らせとお詫び",
+          "link": "https://corp.helpfeel.com/news/news-20260916-1",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-09-16T06:39:20",
+          "excerpt": "株式会社Helpfeel（本社：京都府京都市、代表取締役 CEO：洛西一周、以下：当社）が提供する画像共有サービス「Gyazo」において、第三者による不正アクセスが発生し、ユーザー情報およびアップロードされた画像に関するメタデータの一部が外…"
+        },
         {
           "title": "New Relicが脆弱性管理ソリューション「Security RX」を国内提供開始、AIが修正PRを自動生成",
           "link": "https://codezine.jp/article/detail/29705",
@@ -92,28 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-09-16T04:24:32",
           "excerpt": "AWSマーケットプレイス版のWAFCharmをキャンセルする機会があり、設定削除の際の留意点を、備忘録として簡易的にまとめました。"
-        },
-        {
-          "title": "Claude Code v2.1.273 の主要アップデート - auto-compact の早期発動修正と権限まわりのセキュリティ修正",
-          "link": "https://dev.classmethod.jp/articles/20260916-cc-updates-v2-1-273/",
-          "source": "DevelopersIO",
-          "published": "2026-09-16T04:16:13",
-          "excerpt": "Claude Code v2.1.273がリリースされました。64件の変更が入った今回は、長いセッションでの不具合修正とセキュリティ改善が中心です。…"
-        },
-        {
-          "title": "AWS root サインインのリージョン耐障害性向上は、IAM ユーザーゼロ化をどう支えるか",
-          "link": "https://qiita.com/yama3133/items/5458ebb84826537e8c8e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-16T02:56:19",
-          "excerpt": "はじめに 2026 年 9 月、AWS は root ユーザーのコンソールサインインを us-east-1（バージニア北部）だけに依存しない構成へ変更しました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。富士フイルムBIは、専門的な業務知見をSaaSへ組み込み、汎用モデルと独自AIを組み合わせたサービスを展開している。汎用チャットと一線を画す価値を生み出し、市場ニーズに即した機能を迅速に提供するための開発アプローチを紹介する。",
+      "summary": "データ分析の新着が4件。CodeRabbit検証の第3弾。Cursor向けIDE拡張機能でのリアルタイムレビュー、CodeRabbit CLIの使い方、Claude Codeプラグインとの連携までを検証。…",
       "articles": [
+        {
+          "title": "CodeRabbit を試す　第3弾 | NEXTSCAPE blog",
+          "link": "https://blog.nextscape.net/archives/2026/09/16/175223",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-16T08:52:23",
+          "excerpt": "CodeRabbit検証の第3弾。Cursor向けIDE拡張機能でのリアルタイムレビュー、CodeRabbit CLIの使い方、Claude Codeプラグインとの連携までを検証。…"
+        },
         {
           "title": "自社ノウハウをどうSaaSに落とし込む？　富士フイルムBIが実践する、汎用モデルと独自AIの並行活用",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2609/02/news064.html",
@@ -134,21 +141,28 @@
           "source": "AWS What's New（英語）",
           "published": "2026-09-15T18:58:00",
           "excerpt": "AWS Billing Conductor では、希望する使用量に応じて料金を設定するためのカスタム使用量層の定義など、AWS サービスのカスタム料金設定を定義できるようになりました。…"
-        },
-        {
-          "title": "Athenaコアリション、オープンソースセキュリティ分野に協調的な防衛体制をもたらす",
-          "link": "https://www.infoq.com/jp/news/2026/09/athena-security-coalition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ（日本語）",
-          "published": "2026-09-15T07:30:00",
-          "excerpt": "サイバーセキュリティ企業のChainguardは、人工知能（AI）を活用して、広く利用されているオープンソースソフトウェアの脆弱性を、攻撃者が悪用する前に発見・修正することを目的とした業界連合Athenaの発足を発表した。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。記事の URL: https://github.com/rapiddweller/datamimic コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が7件。Github Actions上でollamaを使ってLLMの定期実行を実現する方法を試してみました。セットアップから実装まで、2つの便利なアクションと具体的な使い方を紹介します。",
       "articles": [
+        {
+          "title": "Github Actionsの中でollamaを動かしてみる",
+          "link": "https://dev.classmethod.jp/articles/running-ollama-on-github-actions/",
+          "source": "DevelopersIO",
+          "published": "2026-09-16T09:57:32",
+          "excerpt": "Github Actions上でollamaを使ってLLMの定期実行を実現する方法を試してみました。セットアップから実装まで、2つの便利なアクションと具体的な使い方を紹介します。"
+        },
+        {
+          "title": "Kiro Crew でエージェントに CloudFormation 操作を拒否されたのでセキュリティ設定を変更してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-crew-security-deny-commands/",
+          "source": "DevelopersIO",
+          "published": "2026-09-16T09:01:15",
+          "excerpt": "エージェントに CloudFormation の create-stack を実行させたら拒否されたので、ダッシュボードのセキュリティ設定で該当ルールを無効化してしまいました"
+        },
         {
           "title": "Datamimic – コーディングエージェントに独自のテスト世界を作らせないでください",
           "link": "https://github.com/rapiddweller/datamimic",
@@ -162,52 +176,38 @@
           "source": "CodeZine",
           "published": "2026-09-16T02:30:00",
           "excerpt": "GitHub Copilot、自動モデル選択に3つのティアを追加"
-        },
-        {
-          "title": "CDKのec2.NatProvider.instanceV2でNAT Instanceを作成している場合は今後、最小インスタンスのt4g.nanoでは起動できなくなる？",
-          "link": "https://qiita.com/Hiroto_Aso/items/509dd17c118287724b28",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-16T00:07:47",
-          "excerpt": "はじめに コスト削減のためにNAT GatewayではなくNAT Instanceを使っている方、それなりにいるのではないでしょうか。私もその一人で、CDKのec2.NatProvider.instanceV2を使ってt4g.…"
-        },
-        {
-          "title": "25 分で Baseten の実稼働 GitHub への管理者アクセスを取得しました",
-          "link": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-15T18:11:24",
-          "excerpt": "記事の URL: https://www.strix.ai/blog/baseten-harbor-github-pat-takeover コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "第21回情報危機管理コンテスト チームITソルーション室_げんこつ へのインタビュー",
-      "link": "https://aws.amazon.com/jp/blogs/news/21st-crisis-management-contest-team-its-genkotsu/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-09-16T05:07:04",
-      "excerpt": "2026 年 5 月 21 日から 23 日に開催された「第 21 回情報危機管理コンテスト」にて経済産業大臣 […]"
-    },
-    {
-      "title": "Java 27 は成長し、より良い選択を行う",
-      "link": "https://www.theregister.com/devops/2026/09/16/java-27-grows-up-makes-better-choices/5296707",
-      "source": "The Register（英語）",
-      "published": "2026-09-16T04:50:00",
-      "excerpt": "JDK ガベージ コレクション、ヘッダー サイズ、データ セキュリティ、量子鍵サポートのすべての改善により、開発者の負担は最小限に抑えられます。"
-    },
-    {
-      "title": "WorkSpaces のタイムゾーンを変更するにはどうすればいいですか？",
-      "link": "https://dev.classmethod.jp/articles/tsnote-workspaces-timezone-change-001/",
+      "title": "[GPU] CUDA Rustを試してみる",
+      "link": "https://dev.classmethod.jp/articles/cuda-rust-complete-guide-gpu-programming/",
       "source": "DevelopersIO",
-      "published": "2026-09-16T04:44:49",
-      "excerpt": "タイムゾーンを変更したい場合は、グループポリシーでタイムゾーンリダイレクトを無効にする必要があります。"
+      "published": "2026-09-16T09:58:58",
+      "excerpt": "[AI要約] NVIDIAが2026年9月に発表したCUDA Rustの解説。cuda-oxideとcutile-rsを使ってみる。"
     },
     {
-      "title": "Amazon SES（共有IP）からiCloud宛て送信時に発生する「554 5.7.1 Command rejected」の検証結果と対策",
-      "link": "https://qiita.com/asd_m/items/bab87ad04f817f9a03bd",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-16T04:42:03",
-      "excerpt": "今回は、Amazon SESからiCloud（@icloud.com）へ送信しているメールで、8月から急にエラー（バウンス）が増えた件について、この1か月ほど調査・検証した結果と、その対応についてまとめてみたいと思います。…"
+      "title": "角張ったデザインの狙いは？　ボディ内手ブレ補正も搭載したキヤノン「EOS R8 Mark II」を触ってきた",
+      "link": "https://www.itmedia.co.jp/news/article/2609/16/2000001558/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-16T09:57:06",
+      "excerpt": "キヤノンのフルサイズミラーレス一眼のエントリーモデル「EOS R8」がフルモデルチェンジして「EOS R8 Mark II」となったのである。デザインも一新した。"
+    },
+    {
+      "title": "「なぜパスワードなしで安全に繋がるの？」公開鍵と秘密鍵の仕組みを鍵生成から理解するSSH入門 | サーバーワークスエンジニアブログ",
+      "link": "https://blog.serverworks.co.jp/ssh-public-private-key-basics",
+      "source": "企業テックブログまとめ",
+      "published": "2026-09-16T08:57:19",
+      "excerpt": "はじめに SSHとは何か？SSH（Secure Shell）の基本 なぜSSHが必要なのか？SSHが保証する3つの安全機能 公開鍵と秘密鍵の役割 秘密鍵を送信しない？…"
+    },
+    {
+      "title": "“ほったらかしAI動画編集”を「DaVinci Resolve」で試す　これが今のベストチョイスかも",
+      "link": "https://www.itmedia.co.jp/news/article/2609/16/2000001551/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-16T08:32:51",
+      "excerpt": "「人がしゃべっていない部分を消して」と頼むと、AIは自ら文字起こし機能を呼び出し、音声のない区間を割り出して削った――。9月8日公開の「DaVinci Resolve Studio 21.1」は外部のAIエージェントから操作可能に。…"
     }
   ]
 }
