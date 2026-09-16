@@ -1,118 +1,118 @@
 {
-  "generated_at": "2026-09-16T00:34:25",
+  "generated_at": "2026-09-16T05:26:19",
   "window_hours": 24,
-  "total": 188,
+  "total": 191,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が43件。Automated Reasoning Group (ARG) の発足から 10 年の歩みを振り返ります。…",
+      "summary": "生成AIの新着が39件。記事の URL: https://github.com/rapiddweller/datamimic コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
-          "title": "自動推論による数学的確実性の 10 年: Automated Reasoning Group が歩んだ道",
-          "link": "https://aws.amazon.com/jp/blogs/news/a-decade-of-mathematical-certainty-reflections-on-the-automated-reasoning-group/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-09-16T00:15:36",
-          "excerpt": "Automated Reasoning Group (ARG) の発足から 10 年の歩みを振り返ります。…"
+          "title": "Datamimic – コーディングエージェントに独自のテスト世界を作らせないでください",
+          "link": "https://github.com/rapiddweller/datamimic",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-16T04:58:36",
+          "excerpt": "記事の URL: https://github.com/rapiddweller/datamimic コメント URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "AWS×UserDataでvLLMを自動起動！停止時コストほぼゼロのローカルLLM環境 | 豆蔵デベロッパーサイト",
-          "link": "https://developer.mamezou-tech.com/blogs/2026/09/16/vllm_autolaunch/",
+          "title": "Claude Code v2.1.273 の主要アップデート - auto-compact の早期発動修正と権限まわりのセキュリティ修正",
+          "link": "https://dev.classmethod.jp/articles/20260916-cc-updates-v2-1-273/",
+          "source": "DevelopersIO",
+          "published": "2026-09-16T04:16:13",
+          "excerpt": "Claude Code v2.1.273がリリースされました。64件の変更が入った今回は、長いセッションでの不具合修正とセキュリティ改善が中心です。…"
+        },
+        {
+          "title": "LLMを業務に入れて分かった「オントロジー」の効き方 — 運に頼らないAI運用の骨組み | 株式会社ソニックムーブのフィード",
+          "link": "https://zenn.dev/sonicmoov/articles/4d6fbacee2d458",
           "source": "企業テックブログまとめ",
-          "published": "2026-09-16T00:00:00",
-          "excerpt": "はじめに#オープンソースLLMが急速に進化する中、「機密情報や社内コードも気にせず扱える、自分専用のローカルLLM環境が欲しいな」と思い立ちました。…"
+          "published": "2026-09-16T03:41:56",
+          "excerpt": "はじめに私たちはLINE公式アカウントを使った顧客育成SaaSを開発・運用しています。1年ほど前から、社内の問い合わせ対応・調査・資料作成・コードレビューといった業務に、Claudeベースの常駐AIエージェントを複数体入れて回してきました。…"
         },
         {
-          "title": "【社内ハッカソン】AI初心者が1日でゲーム開発！？Gemini×Antigravity IDEで挑む「Vibe Coding」体験記 | アドグローブブログ | 渋谷のIT会社",
-          "link": "https://blog.adglobe.co.jp/entry/2026/09/16/090000",
+          "title": "仕様の考慮漏れをClaude Codeで洗い出す | QA視点による仕様策定フェーズでの不具合抑制 | Yappli Tech Blog",
+          "link": "https://tech.yappli.io/entry/create-qa-plan",
           "source": "企業テックブログまとめ",
-          "published": "2026-09-16T00:00:00",
-          "excerpt": "Vibe Codingでゲームを作ろう！初心者がAIで爆速プロトタイピングに挑んだ初のハッカソン、その成功と課題を徹底レポート。"
-        },
-        {
-          "title": "ヒューマン・イン・ザ・ループ万能説崩壊　NISTが提唱するAIエージェント運用のあるべき姿",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/16/news017.html",
-          "source": "@IT",
-          "published": "2026-09-15T23:00:00",
-          "excerpt": "AIエージェントに人間の資格情報を渡し、必要なときだけ「承認」を押す。そんな運用は一見、安全そうに見える。しかしNISTによると、この人間が絡む運用には大きな穴があるという。一体それは何だろうか。"
+          "published": "2026-09-16T03:30:00",
+          "excerpt": "こんにちは、ヤプリでQAをしている今西(@TKNW_Hitsuji)です。弊社ではQAフェーズになって考慮できていない仕様が見つかり、リリース後の後追い対応、場合によってはリリース遅延という状態になったことが過去数件ありました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。はじめに コスト削減のためにNAT GatewayではなくNAT Instanceを使っている方、それなりにいるのではないでしょうか。私もその一人で、CDKのec2.NatProvider.instanceV2を使ってt4g.…",
+      "summary": "クラウドの新着が14件。はじめに CloudWatch高いですよねー CloudWatch Logsは取り込んだ量で課金されるので、入れた時点で課金が発生します。…",
       "articles": [
         {
-          "title": "CDKのec2.NatProvider.instanceV2でNAT Instanceを作成している場合は今後、最小インスタンスのt4g.nanoでは起動できなくなる？",
-          "link": "https://qiita.com/Hiroto_Aso/items/509dd17c118287724b28",
+          "title": "【ECS】FireLensでログをCloudWatchからS3へ逃がす",
+          "link": "https://qiita.com/simoyama2323/items/704603bfe390912b8c9d",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-16T00:07:47",
-          "excerpt": "はじめに コスト削減のためにNAT GatewayではなくNAT Instanceを使っている方、それなりにいるのではないでしょうか。私もその一人で、CDKのec2.NatProvider.instanceV2を使ってt4g.…"
+          "published": "2026-09-16T04:49:26",
+          "excerpt": "はじめに CloudWatch高いですよねー CloudWatch Logsは取り込んだ量で課金されるので、入れた時点で課金が発生します。…"
         },
         {
-          "title": "Cloud SQL for PostgreSQLをオンプレミスから移行する際のデータベースフラグ設計 | G-gen Tech Blog",
-          "link": "https://blog.g-gen.co.jp/entry/postgres-database-flags-for-cloud-sql",
+          "title": "共有DBユーザーを卒業し、「いつ・誰が・どんなクエリ」を追えるようRDS監査ログを整備した | クロスマート Tech Blog",
+          "link": "https://xmart-techblog.hatenablog.com/entry/2026/09/16/130335",
           "source": "企業テックブログまとめ",
-          "published": "2026-09-16T00:00:00",
-          "excerpt": "G-gen の今村です。オンプレミスの PostgreSQL から Cloud SQL for PostgreSQL への移行において、postgresql.…"
+          "published": "2026-09-16T04:03:35",
+          "excerpt": "こんにちは、クロスマートで SRE をしている渡辺です。最近、社内では DB に関する書籍の輪読会が盛り上がっています。DB に対して「いつ・誰が・どんなクエリを実行したか」を後から追える状態は、監査やインシデント対応の観点で欠かせません。…"
         },
         {
-          "title": "AWS Lambda のイベントソースマッピングが紐づく関数バージョンやエイリアスを確認する方法を教えてください",
-          "link": "https://dev.classmethod.jp/articles/tsnote-lambda-how-do-i-check-the-function-version-or-alias-associated-with-an-aws-lambda-event-source-mapping/",
+          "title": "AuroraとRDSの違いをもう一歩深掘りしてみた ～Multi-AZ DBクラスターとフェイルオーバー時間・移行方法まで～",
+          "link": "https://qiita.com/Sho5_Matsu/items/0f7e652e173c3279698a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-16T02:43:44",
+          "excerpt": "はじめに 以前、AuroraとRDSの違いを調べてみた という記事で、AuroraとRDSの違いについて「対応エンジン」「性能」「可用性」「コスト」といった機能面をざっくり比較しました。…"
+        },
+        {
+          "title": "デフォルト証明書（*.cloudfront.net）を使う CloudFront で TLS 1.0 / 1.1 を無効化できますか？",
+          "link": "https://dev.classmethod.jp/articles/tsnote-cloudfront-default-certificate-tls-v1_0_1/",
           "source": "DevelopersIO",
-          "published": "2026-09-15T23:52:19",
-          "excerpt": "AWS Lambda のイベントソースマッピングが紐づく関数バージョンやエイリアスを確認する方法を教えてください"
-        },
-        {
-          "title": "TechCrunch Disrupt 2026 でスタートアップをプロトタイプから本番環境に移行する方法を発見してください。",
-          "link": "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-15T14:30:00",
-          "excerpt": "TechCrunch Disrupt 2026 では、スケーリング リーダーである Adrian Macneil (Foxglove)、John Mackey (MBRYONICS)、Boris Sofman (Bedrock Roboti…"
+          "published": "2026-09-16T02:43:32",
+          "excerpt": "CloudFront のデフォルト証明書では TLS バージョンを変更できない理由と、TLS 1.0 / 1.1 を無効化する方法について紹介します。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。WAF AutomatorでAWS WAFのWeb ACLを新規作成した際、AWSアカウント内でどのような処理が行われるのかをCloudTrailで確認しました。…",
+      "summary": "セキュリティの新着が13件。New Relicが脆弱性管理ソリューション「Security RX」を国内提供開始、AIが修正PRを自動生成",
       "articles": [
         {
-          "title": "WAF AutomatorでWeb ACLを新規作成したとき、他に何が作られる？CloudTrailでAWS APIと作成されたリソースを確認してみた",
-          "link": "https://dev.classmethod.jp/articles/waf-automator-web-acl-cloudtrail-aws-api-resources/",
+          "title": "New Relicが脆弱性管理ソリューション「Security RX」を国内提供開始、AIが修正PRを自動生成",
+          "link": "https://codezine.jp/article/detail/29705",
+          "source": "CodeZine",
+          "published": "2026-09-16T05:00:00",
+          "excerpt": "New Relicが脆弱性管理ソリューション「Security RX」を国内提供開始、AIが修正PRを自動生成"
+        },
+        {
+          "title": "【小ネタ】 AWS Marketplace 版 WAFCharm キャンセル・設定削除する際の備忘録",
+          "link": "https://dev.classmethod.jp/articles/marketplace-wafcharm-cancel/",
           "source": "DevelopersIO",
-          "published": "2026-09-15T23:53:24",
-          "excerpt": "WAF AutomatorでAWS WAFのWeb ACLを新規作成した際、AWSアカウント内でどのような処理が行われるのかをCloudTrailで確認しました。…"
+          "published": "2026-09-16T04:24:32",
+          "excerpt": "AWSマーケットプレイス版のWAFCharmをキャンセルする機会があり、設定削除の際の留意点を、備忘録として簡易的にまとめました。"
         },
         {
-          "title": "イランのスパイが Windows マシンを攻撃し、Chosen Brick データを盗むマルウェアを攻撃",
-          "link": "https://www.theregister.com/security/2026/09/15/iranian-spies-hit-windows-machines-with-chosen-brick-data-stealing-malware/5296646",
-          "source": "The Register（英語）",
-          "published": "2026-09-15T18:01:57",
-          "excerpt": "「政権の敵」との通告"
+          "title": "Claude Code v2.1.273 の主要アップデート - auto-compact の早期発動修正と権限まわりのセキュリティ修正",
+          "link": "https://dev.classmethod.jp/articles/20260916-cc-updates-v2-1-273/",
+          "source": "DevelopersIO",
+          "published": "2026-09-16T04:16:13",
+          "excerpt": "Claude Code v2.1.273がリリースされました。64件の変更が入った今回は、長いセッションでの不具合修正とセキュリティ改善が中心です。…"
         },
         {
-          "title": "Cisco 電子メール セキュリティ ボックスは電子メールによってルート化できます",
-          "link": "https://www.theregister.com/security/2026/09/15/cisco-email-security-boxes-can-be-rooted-by-an-email/5296604",
-          "source": "The Register（英語）",
-          "published": "2026-09-15T16:01:00",
-          "excerpt": "攻撃者はすでにこの重大な欠陥を悪用しており、侵入すれば痕跡を隠蔽できる可能性があるとシスコは警告している"
-        },
-        {
-          "title": "「Java 27」正式リリース。全環境でG1 GCがデフォルトに、TLS 1.3用に耐量子暗号のハイブリッドキー交換など新機能",
-          "link": "https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html",
-          "source": "Publickey",
-          "published": "2026-09-15T15:52:17",
-          "excerpt": "オラクルはJavaの最新バージョン「Java 27」正式版をリリースしました。Java 27 is now available!#Java27 #JDK27 #OpenJDK Download now: https://t.co/0Zw..…"
+          "title": "AWS root サインインのリージョン耐障害性向上は、IAM ユーザーゼロ化をどう支えるか",
+          "link": "https://qiita.com/yama3133/items/5458ebb84826537e8c8e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-16T02:56:19",
+          "excerpt": "はじめに 2026 年 9 月、AWS は root ユーザーのコンソールサインインを us-east-1（バージニア北部）だけに依存しない構成へ変更しました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。富士フイルムBIは、専門的な業務知見をSaaSへ組み込み、汎用モデルと独自AIを組み合わせたサービスを展開している。汎用チャットと一線を画す価値を生み出し、市場ニーズに即した機能を迅速に提供するための開発アプローチを紹介する。",
+      "summary": "データ分析の新着が4件。富士フイルムBIは、専門的な業務知見をSaaSへ組み込み、汎用モデルと独自AIを組み合わせたサービスを展開している。汎用チャットと一線を画す価値を生み出し、市場ニーズに即した機能を迅速に提供するための開発アプローチを紹介する。",
       "articles": [
         {
           "title": "自社ノウハウをどうSaaSに落とし込む？　富士フイルムBIが実践する、汎用モデルと独自AIの並行活用",
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。はじめに コスト削減のためにNAT GatewayではなくNAT Instanceを使っている方、それなりにいるのではないでしょうか。私もその一人で、CDKのec2.NatProvider.instanceV2を使ってt4g.…",
+      "summary": "開発ツールの新着が9件。記事の URL: https://github.com/rapiddweller/datamimic コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "Datamimic – コーディングエージェントに独自のテスト世界を作らせないでください",
+          "link": "https://github.com/rapiddweller/datamimic",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-16T04:58:36",
+          "excerpt": "記事の URL: https://github.com/rapiddweller/datamimic コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "GitHub Copilot、自動モデル選択に3つのティアを追加",
+          "link": "https://codezine.jp/article/detail/29692",
+          "source": "CodeZine",
+          "published": "2026-09-16T02:30:00",
+          "excerpt": "GitHub Copilot、自動モデル選択に3つのティアを追加"
+        },
         {
           "title": "CDKのec2.NatProvider.instanceV2でNAT Instanceを作成している場合は今後、最小インスタンスのt4g.nanoでは起動できなくなる？",
           "link": "https://qiita.com/Hiroto_Aso/items/509dd17c118287724b28",
@@ -162,52 +176,38 @@
           "source": "Hacker News（英語）",
           "published": "2026-09-15T18:11:24",
           "excerpt": "記事の URL: https://www.strix.ai/blog/baseten-harbor-github-pat-takeover コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "CDKで既存ログを残したままロググループ名を変える方法を確かめてみた",
-          "link": "https://dev.classmethod.jp/articles/cdk-loggroup-rename-keep-old-logs/",
-          "source": "DevelopersIO",
-          "published": "2026-09-15T13:13:38",
-          "excerpt": "既存ログを残したままロググループ名を変える方法を検証しました。既存の Construct には手を付けず、新しい名前のロググループを別の Construct として定義します。…"
-        },
-        {
-          "title": "Claude CodeとTerraformを組み合わせて気づいた、CLAUDE.mdとsettings.jsonの設計メモ",
-          "link": "https://qiita.com/Martim500/items/fd18211aef9e09a147e5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-15T09:16:26",
-          "excerpt": "こんにちは！Martimです！今回は、Terraform×Notion管理の構成にClaude Codeを組み込んでいく中で、CLAUDE.mdとsettings.jsonの設計についてハマりながら分かったことを共有していきます！…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS アカウント間での Amazon EBS Volume Clones の提供開始",
-      "link": "https://aws.amazon.com/jp/blogs/news/introducing-amazon-ebs-volume-clones-across-aws-accounts/",
+      "title": "第21回情報危機管理コンテスト チームITソルーション室_げんこつ へのインタビュー",
+      "link": "https://aws.amazon.com/jp/blogs/news/21st-crisis-management-contest-team-its-genkotsu/",
       "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-09-16T00:32:40",
-      "excerpt": "2025 年、Amazon Elastic Block Store (Amazon EBS) の新機能であるボ […]"
+      "published": "2026-09-16T05:07:04",
+      "excerpt": "2026 年 5 月 21 日から 23 日に開催された「第 21 回情報危機管理コンテスト」にて経済産業大臣 […]"
     },
     {
-      "title": "AI 規制は必要ありません – 安全は私たちに任せてください、Nvidia のジェンセン・ファン氏は言う",
-      "link": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-16T00:20:39",
-      "excerpt": "ジェンセン・ファン氏によれば、AIはある種の新しい形の「エイリアン・マインド」ではないという。ハードウェアとソフトウェアだけなので、安全性は各 AI 製品メーカーが設計できます。"
+      "title": "Java 27 は成長し、より良い選択を行う",
+      "link": "https://www.theregister.com/devops/2026/09/16/java-27-grows-up-makes-better-choices/5296707",
+      "source": "The Register（英語）",
+      "published": "2026-09-16T04:50:00",
+      "excerpt": "JDK ガベージ コレクション、ヘッダー サイズ、データ セキュリティ、量子鍵サポートのすべての改善により、開発者の負担は最小限に抑えられます。"
     },
     {
-      "title": "AWS IoT Coreの意外な使い方：Macを「IoTデバイス」として扱う",
-      "link": "https://qiita.com/yama3133/items/5bc3dc60d92c691dfe63",
+      "title": "WorkSpaces のタイムゾーンを変更するにはどうすればいいですか？",
+      "link": "https://dev.classmethod.jp/articles/tsnote-workspaces-timezone-change-001/",
+      "source": "DevelopersIO",
+      "published": "2026-09-16T04:44:49",
+      "excerpt": "タイムゾーンを変更したい場合は、グループポリシーでタイムゾーンリダイレクトを無効にする必要があります。"
+    },
+    {
+      "title": "Amazon SES（共有IP）からiCloud宛て送信時に発生する「554 5.7.1 Command rejected」の検証結果と対策",
+      "link": "https://qiita.com/asd_m/items/bab87ad04f817f9a03bd",
       "source": "Qiita AWSタグ",
-      "published": "2026-09-16T00:10:59",
-      "excerpt": "はじめに この記事はほとんど人間が書いてますが、一部Codexに手伝ってもらっています AWS IoT Coreと聞くと、温湿度センサーやスマート家電、工場の機器などを思い浮かべます。…"
-    },
-    {
-      "title": "【ミスを減らす！】 本番作業の心得 6選 | NRIネットコムBlog",
-      "link": "https://tech.nri-net.com/entry/6key_tips_for_live_operations",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-16T00:00:00",
-      "excerpt": "こんにちは。NRIネットコム2025年入社の井上です。今回は、障害を起こさないために意識しているTipsを「作業前・作業中・作業後」で分けてご紹介します。"
+      "published": "2026-09-16T04:42:03",
+      "excerpt": "今回は、Amazon SESからiCloud（@icloud.com）へ送信しているメールで、8月から急にエラー（バウンス）が増えた件について、この1か月ほど調査・検証した結果と、その対応についてまとめてみたいと思います。…"
     }
   ]
 }
