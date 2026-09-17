@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-17T13:38:23",
+  "generated_at": "2026-09-17T17:49:36",
   "window_hours": 24,
-  "total": 211,
+  "total": 200,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が47件。記事の URL: https://heyjonny.dev/posts/gave-my-ai-agent-a-calendar/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が43件。プロバイダーのデフォルト スキーマは、認証情報がなくても簡単に検出できます (スキーマはバイナリに組み込まれているため)。特定のインスタンスのカスタマイズを取得したい場合は、組織に認証情報を与えます。リポジトリには詳細が記載されています。…",
       "articles": [
+        {
+          "title": "Show HN: Aclif – エージェント CLI フレームワーク: 1 つの文法、SaaS 全体での正規名",
+          "link": "https://www.aclif.ai/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-17T16:48:17",
+          "excerpt": "プロバイダーのデフォルト スキーマは、認証情報がなくても簡単に検出できます (スキーマはバイナリに組み込まれているため)。特定のインスタンスのカスタマイズを取得したい場合は、組織に認証情報を与えます。リポジトリには詳細が記載されています。…"
+        },
+        {
+          "title": "HN を開始: Skillsync (YC W26) – AI チャット セッションをエージェント間でポータブルに",
+          "link": "https://news.ycombinator.com/item?id=49743049",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-17T16:22:15",
+          "excerpt": "HN さん、私たちは Skillsync ( https://skillsync.com ) の創設者である Nars & Nishant です。…"
+        },
         {
           "title": "AI エージェントが独自のカレンダーを取得",
           "link": "https://heyjonny.dev/posts/gave-my-ai-agent-a-calendar/",
@@ -22,28 +36,28 @@
           "source": "The Register（英語）",
           "published": "2026-09-17T13:00:00",
           "excerpt": "Lasso Security はツールの処理とモデルの拒否に違いがあると認識しています"
-        },
-        {
-          "title": "Microsoft AI責任者、Anthropicに対し、クロードの頭にアイデアを入れないよう警告",
-          "link": "https://www.theregister.com/ai-and-ml/2026/09/17/microsoft-ai-chief-warns-anthropic-not-to-put-ideas-in-claudes-head/5297149",
-          "source": "The Register（英語）",
-          "published": "2026-09-17T12:15:00",
-          "excerpt": "ムスタファ・スレイマン氏は、OpenAIの同様の監視を免れる一方で、モデル福祉言語は将来のシステムの制御を困難にする可能性があると主張する"
-        },
-        {
-          "title": "Comp AI は、セキュリティとコンプライアンスの継続的なエージェントの未来を見据えています",
-          "link": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-17T11:00:00",
-          "excerpt": "サイバーセキュリティとコンプライアンスのスタートアップである Comp AI は、Roo Capital と Grand Ventures が主導する 3,400 万ドルのシリーズ A ラウンドを発表しました。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。この記事で学ぶこと 前回、ECS / Fargate でアプリを「動かし続ける」仕組みを組みました。コンテナは家畜として扱い、落ちたら調整ループが黙って入れ替える。あの戦略が通用しない層が1つだけ残っています。データベースです。…",
+      "summary": "クラウドの新着が21件。トークン認証が必要な Lambda MicroVMs サイトを起動し、指定した期間後に停止する仕組みを、StepFunctions の SDK 統合と JSONata だけで作ってみました。Lambda 関数は使いません",
       "articles": [
+        {
+          "title": "Lambda MicroVMs に対応した Step Functions の SDK 統合を試してみた",
+          "link": "https://dev.classmethod.jp/articles/stepfunctions-lambda-microvms-sdk-integration/",
+          "source": "DevelopersIO",
+          "published": "2026-09-17T14:45:14",
+          "excerpt": "トークン認証が必要な Lambda MicroVMs サイトを起動し、指定した期間後に停止する仕組みを、StepFunctions の SDK 統合と JSONata だけで作ってみました。Lambda 関数は使いません"
+        },
+        {
+          "title": "IAM Roles AnywhereでオンプレミスKubernetesからECRのImageをPullする方法",
+          "link": "https://zenn.dev/metalmental/articles/20260917_kubernetes-ecr-auth-iam-roles-anywhere",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-17T14:27:34",
+          "excerpt": "はじめに 最近、Raspberry PiやミニPCでオンプレミス環境 (自宅サーバ) のKubernetesを構築しました オンプレミス環境のKubernetesでセキュアにAWS認証してECRのImageをPullする方法を調べた結果、ネ…"
+        },
         {
           "title": "42日でバックエンドエンジニアの基礎を完全に理解する #36 - AWS③ Aurora / RDS",
           "link": "https://qiita.com/iketani45664566/items/1c8ce8714492bd8ace96",
@@ -52,33 +66,26 @@
           "excerpt": "この記事で学ぶこと 前回、ECS / Fargate でアプリを「動かし続ける」仕組みを組みました。コンテナは家畜として扱い、落ちたら調整ループが黙って入れ替える。あの戦略が通用しない層が1つだけ残っています。データベースです。…"
         },
         {
-          "title": "GLM は独自の推論インフラストラクチャを構築しました",
-          "link": "https://z.ai/blog/glm-built-its-inference-infrastructure",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-17T08:27:09",
-          "excerpt": "記事の URL: https://z.ai/blog/glm-built-its-inference-infra Structure コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Lambda の「高度なログ制御」は何をしているのか",
-          "link": "https://dev.classmethod.jp/articles/taking-apart-lambda-logging-controls/",
-          "source": "DevelopersIO",
-          "published": "2026-09-17T07:42:05",
-          "excerpt": "AWS Lambda の高度なログ制御機能が、各ランタイムの Runtime Interface Client でどのように実装されているのかを、実際の実験を通じて徹底解説します。"
-        },
-        {
-          "title": "EC2にTomcatをUserDataだけでインストールしてsystemdサービス化する",
-          "link": "https://qiita.com/caymezon/items/ae7867ac39691a1b43a7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-17T06:27:56",
-          "excerpt": "背景 EC2上にTomcat（APサーバー）を構築するハンズオンをコンソールで実施しました。…"
+          "title": "42日でバックエンドエンジニアの基礎を完全に理解する #36 - AWS③ Aurora / RDS",
+          "link": "https://zenn.dev/kipcop/articles/b42-go-36-aurora-rds",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-17T13:27:42",
+          "excerpt": "この記事で学ぶこと 前回、ECS / Fargate でアプリを「動かし続ける」仕組みを組みました。コンテナは家畜として扱い、落ちたら調整ループが黙って入れ替える。あの戦略が通用しない層が1つだけ残っています。データベースです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。サイバーセキュリティとコンプライアンスのスタートアップである Comp AI は、Roo Capital と Grand Ventures が主導する 3,400 万ドルのシリーズ A ラウンドを発表しました。",
+      "summary": "セキュリティの新着が6件。はじめに 最近、Raspberry PiやミニPCでオンプレミス環境 (自宅サーバ) のKubernetesを構築しました オンプレミス環境のKubernetesでセキュアにAWS認証してECRのImageをPullする方法を調べた結果、ネ…",
       "articles": [
+        {
+          "title": "IAM Roles AnywhereでオンプレミスKubernetesからECRのImageをPullする方法",
+          "link": "https://zenn.dev/metalmental/articles/20260917_kubernetes-ecr-auth-iam-roles-anywhere",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-17T14:27:34",
+          "excerpt": "はじめに 最近、Raspberry PiやミニPCでオンプレミス環境 (自宅サーバ) のKubernetesを構築しました オンプレミス環境のKubernetesでセキュアにAWS認証してECRのImageをPullする方法を調べた結果、ネ…"
+        },
         {
           "title": "Comp AI は、セキュリティとコンプライアンスの継続的なエージェントの未来を見据えています",
           "link": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/",
@@ -99,21 +106,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-09-17T04:36:55",
           "excerpt": "記事の URL: https://github.com/cloudflare/security-audit-skill コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "ランサムウェア被害は過去最多　警察庁が明かした2026年上半期の異変",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/17/news010.html",
-          "source": "@IT",
-          "published": "2026-09-17T04:00:00",
-          "excerpt": "警察庁は「令和8年上半期におけるサイバー空間をめぐる脅威の情勢等について」を公表した。最近のサイバー脅威状況をまとめたこの調査によると、国内のランサムウェア被害は過去最多となった。判明した攻撃手法の最新動向とは。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が10件。Apache Iceberg の普及に伴い、複数エンジン間でのデータ相互運用と統一ガバナンスが企業データ基盤の課題となっています。…",
+      "summary": "データ分析の新着が10件。QuitGPT主導の公約目標 Leading the Futureは中間選挙に先立って規制緩和を推進",
       "articles": [
+        {
+          "title": "草の根連合、政治家にBig AIの1億4,000万ドルのマシンではなく有権者を選ぶよう要請",
+          "link": "https://www.theregister.com/ai-and-ml/2026/09/17/grassroots-coalition-asks-politicians-to-choose-voters-over-big-ais-140m-machine/5297186",
+          "source": "The Register（英語）",
+          "published": "2026-09-17T14:29:00",
+          "excerpt": "QuitGPT主導の公約目標 Leading the Futureは中間選挙に先立って規制緩和を推進"
+        },
+        {
+          "title": "2 glue リソースの作り方",
+          "link": "https://zenn.dev/079aefdf/articles/623f70347133e0",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-17T10:01:00",
+          "excerpt": "TerraformでGlueアーカイブ基盤を構築する 以下はGlue構成のIaC、パッケージ処理、アプリケーションコード、ASLテンプレート、単体テストである。…"
+        },
         {
           "title": "[レポート]AI-Ready なデータ基盤の最新形 - Iceberg で拓くマルチエンジン相互運用 #SWTTokyo26",
           "link": "https://dev.classmethod.jp/articles/snowflake-ai-ready-data-platform-iceberg-multi-engine-swttokyo26/",
@@ -127,87 +141,73 @@
           "source": "DevelopersIO",
           "published": "2026-09-17T09:36:55",
           "excerpt": "EKS や ECS で Fluent Bit を運用していると、broken connection エラーが出ることがあります。…"
-        },
-        {
-          "title": "Amazon Linux 2023 のシステムログを Fluent Bit で S3 に転送してみた",
-          "link": "https://dev.classmethod.jp/articles/ec2-asg-fluent-bit-s3/",
-          "source": "DevelopersIO",
-          "published": "2026-09-17T06:25:19",
-          "excerpt": "Fluent Bit の設定から AMI 作成、Auto Scaling 環境での設定手順をご紹介します。"
-        },
-        {
-          "title": "SBIがライブドアを買収か　親会社のミンカブ「概ね報道の通り」",
-          "link": "https://www.itmedia.co.jp/news/article/2609/17/2000001582/",
-          "source": "ITmedia NEWS",
-          "published": "2026-09-17T05:54:41",
-          "excerpt": "SBIホールディングスがライブドアを買収するという一部報道に対し、ライブドアの親会社であるミンカブ・ジ・インフォノイドは「概ね報道のとおり」と認めた。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。GitHub Copilot、リポジトリのカスタムプロパティの値を提案する機能を公開",
+      "summary": "開発ツールの新着が15件。プロバイダーのデフォルト スキーマは、認証情報がなくても簡単に検出できます (スキーマはバイナリに組み込まれているため)。特定のインスタンスのカスタマイズを取得したい場合は、組織に認証情報を与えます。リポジトリには詳細が記載されています。…",
       "articles": [
+        {
+          "title": "Show HN: Aclif – エージェント CLI フレームワーク: 1 つの文法、SaaS 全体での正規名",
+          "link": "https://www.aclif.ai/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-17T16:48:17",
+          "excerpt": "プロバイダーのデフォルト スキーマは、認証情報がなくても簡単に検出できます (スキーマはバイナリに組み込まれているため)。特定のインスタンスのカスタマイズを取得したい場合は、組織に認証情報を与えます。リポジトリには詳細が記載されています。…"
+        },
+        {
+          "title": "1人開発者のためのローカル環境退避CLI：実戦的エッジケース対策",
+          "link": "https://qiita.com/TOAI/items/2773442a96662ef542b6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-17T16:48:09",
+          "excerpt": "【CTO視点】1人開発者のためのローカル環境退避CLI「LocalDev-BackupGuard」 ── 実運用で得たエッジケースとアーキテクチャ設計のベストプラクティス TOAI System テクニカルエバンジェリスト兼CTOです。…"
+        },
+        {
+          "title": "Lambda MicroVMs に対応した Step Functions の SDK 統合を試してみた",
+          "link": "https://dev.classmethod.jp/articles/stepfunctions-lambda-microvms-sdk-integration/",
+          "source": "DevelopersIO",
+          "published": "2026-09-17T14:45:14",
+          "excerpt": "トークン認証が必要な Lambda MicroVMs サイトを起動し、指定した期間後に停止する仕組みを、StepFunctions の SDK 統合と JSONata だけで作ってみました。Lambda 関数は使いません"
+        },
         {
           "title": "GitHub Copilot、リポジトリのカスタムプロパティの値を提案する機能を公開",
           "link": "https://codezine.jp/article/detail/29721",
           "source": "CodeZine",
           "published": "2026-09-17T07:00:00",
           "excerpt": "GitHub Copilot、リポジトリのカスタムプロパティの値を提案する機能を公開"
-        },
-        {
-          "title": "【Tanium】Tanium CloudにおけるTanium Clientアップグレードの方法と推奨運用 | JBS Tech Blog",
-          "link": "https://blog.jbs.co.jp/entry/2026/09/17/151757",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-17T06:17:57",
-          "excerpt": "Tanium Cloudを安定的に運用するためには、Tanium Clientのアップグレード方針を適切に設計することが重要です。…"
-        },
-        {
-          "title": "Claude Code v2.1.274 の主要アップデート - type: sdk の MCP 設定廃止と MCP 接続の安定化",
-          "link": "https://dev.classmethod.jp/articles/20260917-cc-updates-v2-1-274/",
-          "source": "DevelopersIO",
-          "published": "2026-09-17T04:49:04",
-          "excerpt": "Claude Code v2.1.274 がリリースされました。…"
-        },
-        {
-          "title": "Lambda Managed Instances の90分を cdkd で CDK のまま書く",
-          "link": "https://zenn.dev/nix/articles/576d08d8e2ca9a",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-17T03:44:23",
-          "excerpt": "はじめに AWS から 「OpenAI 製品に関するお知らせ」が山のように届いても、いつも仏の心の @___nix___ です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Lucid Motors にはヨーロッパ向けのロボットタクシー パートナーの可能性があります",
-      "link": "https://techcrunch.com/2026/09/17/lucid-motors-has-a-potential-robotaxi-partner-for-europe/",
+      "title": "英国国王もAIについては躊躇している",
+      "link": "https://techcrunch.com/2026/09/17/even-the-king-of-england-has-his-hesitations-about-ai/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-17T13:26:32",
-      "excerpt": "同社はモビリティプラットフォームのBoltと提携しているが、車両の注文はまだ行われていない。"
+      "published": "2026-09-17T17:26:25",
+      "excerpt": "チャールズ国王は木曜日、AIおよび英国政府の最も著名な人物らとの非公開サミットを主催した。"
     },
     {
-      "title": "Bain Capital Ventures は新たに 16 億ドルの資金をどのように展開する予定ですか",
-      "link": "https://techcrunch.com/2026/09/17/how-bain-capital-ventures-plans-to-deploy-its-fresh-1-6b-fund/",
+      "title": "Base Labs が Hugging Face および Goodfire と無差別 AI 安全パートナーシップを開始",
+      "link": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-17T12:57:46",
-      "excerpt": "BCV の最新ファンドは、AGI を活用し、それを効率的に運営するためのインフラストラクチャを構築する初期段階の創業者をターゲットとしています。"
+      "published": "2026-09-17T17:15:59",
+      "excerpt": "Base Labs は、Baseten が今年初めに立ち上げた研究グループで、オープン モデルのトレーニングとモニタリングの方法を開発、公開する予定です。"
     },
     {
-      "title": "Show HN: 楽しい空間 3D オンライン会議アプリの新しいバージョンを構築しました",
-      "link": "https://flat.social",
+      "title": "Pinterest、AI で部屋を再デザインできる新しい「Restyle」機能を予告",
+      "link": "https://techcrunch.com/2026/09/17/pinterest-teases-a-new-restyle-feature-that-lets-you-redesign-your-room-with-ai/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-17T17:15:00",
+      "excerpt": "Pinterest は、ユーザーが自分の部屋の写真で家具、装飾、照明などを視覚化できる、AI を活用した新しい機能である Restyle をテスト中です。これは、保存されたインスピレーションを購入に結びつけるのに役立つ可能性があります。"
+    },
+    {
+      "title": "Zettascale (YC S24) は、ASI 用チップを構築するために ASIC/FPGA エンジニアを雇用しています",
+      "link": "https://zscc.ai/careers?job_id=109821",
       "source": "Hacker News（英語）",
-      "published": "2026-09-17T12:57:09",
-      "excerpt": "こんにちは、HN!flat.social は、リモート チームやコミュニティ向けの楽しい空間オンライン会議アプリです。…"
-    },
-    {
-      "title": "シスコ、新たな悪用されたゼロデイを削除、今度はパーフェクト 10",
-      "link": "https://www.theregister.com/security/2026/09/17/cisco-drops-another-exploited-zero-day-this-time-a-perfect-10/5297180",
-      "source": "The Register（英語）",
-      "published": "2026-09-17T12:40:00",
-      "excerpt": "別の Cisco ゼロデイ攻撃から数日後、管理者がパッチの適用に奔走した数日後に、アクティブな攻撃による ISE 認証バイパスが発生"
+      "published": "2026-09-17T17:00:59",
+      "excerpt": "記事の URL: https://zscc.ai/careers?job_id=109821 コメント URL: https://news.ycombinator.com/item?id=49743567 ポイント: 0 コメント数: 0"
     }
   ]
 }
