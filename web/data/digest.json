@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-09-18T06:06:21",
+  "generated_at": "2026-09-18T11:31:37",
   "window_hours": 24,
-  "total": 204,
+  "total": 199,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。生成AIに「今までにない組み合わせや味」「商品や商品名を見た瞬間に『なんだこりゃ？』と思われる」「食べてみたらおいしい」といったテーマでアイデアを出させた。",
+      "summary": "生成AIの新着が31件。9月10日のオンライン発表会でAI生成動画を利用し、SNSで物議を醸したレベルファイブ。数日後に「東京ゲームショウ2026」（幕張メッセ）の開催を控えての炎上になったが、イベント当日の様子はどうか。…",
       "articles": [
+        {
+          "title": "生成AIで物議のレベルファイブ、東京ゲームショウ当日の様子は……現地を見てきた",
+          "link": "https://www.itmedia.co.jp/news/article/2609/18/2000001633/",
+          "source": "ITmedia NEWS",
+          "published": "2026-09-18T07:52:09",
+          "excerpt": "9月10日のオンライン発表会でAI生成動画を利用し、SNSで物議を醸したレベルファイブ。数日後に「東京ゲームショウ2026」（幕張メッセ）の開催を控えての炎上になったが、イベント当日の様子はどうか。…"
+        },
+        {
+          "title": "既存の LLM が CPU なら、 Jev はその GPU 版みたいなやつ",
+          "link": "https://zenn.dev/mizchi/articles/jev-is-gpu-for-llms",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-09-18T07:47:56",
+          "excerpt": "Jev を一晩叩いたので、その感想を書きます。タイトルは超大雑把な要約です。実験結果 まず実験ログを置いておきます。公式のクックブックの条件を変えた追試 https://docs.typesafe.…"
+        },
+        {
+          "title": "Anthropic、Claudeの「Projects」を刷新 ——1つの会話から作業を振り分け、クラウドで並行実行",
+          "link": "https://gihyo.jp/article/2026/09/claude-code-new-projects-feature?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-09-18T06:44:00",
+          "excerpt": "Anthropicは9月17日、Claudeで関連する作業や資料をまとめて扱う機能「Projects」を刷新し、Claude Codeのデスクトップ版とWeb版で一部ユーザー向けにベータ提供を開始した。"
+        },
         {
           "title": "ローソン「生成AIが考えた商品」発売　「ピクルス風味のレモンタルト」など",
           "link": "https://www.itmedia.co.jp/news/article/2609/18/2000001621/",
           "source": "ITmedia NEWS",
           "published": "2026-09-18T05:07:59",
           "excerpt": "生成AIに「今までにない組み合わせや味」「商品や商品名を見た瞬間に『なんだこりゃ？』と思われる」「食べてみたらおいしい」といったテーマでアイデアを出させた。"
-        },
-        {
-          "title": "ゲーム開発者の生成AI活用が8割超に　CESAが初調査　「業務効率化」に最大の期待",
-          "link": "https://www.itmedia.co.jp/news/article/2609/18/2000001618/",
-          "source": "ITmedia NEWS",
-          "published": "2026-09-18T04:43:35",
-          "excerpt": "コンピュータエンターテインメント協会（CESA）は9月17日、年次レポート「CESAゲーム産業レポート2026 プレビュー版」を発刊した。初の独自調査で、ゲーム開発者の85.8％が生成AIを業務で活用していると分かった。"
-        },
-        {
-          "title": "ERP例外処理をAWSエージェント型標準作業手順書（SOP）で自動化",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-agentic-standard-operating-procedures-sops-for-erp-automation/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-09-18T02:08:13",
-          "excerpt": "エンタープライズ ERP の例外対応は、SAP のスリーウェイマッチや RPA、従来型 ML でも解決しきれず、手作業に依存してきました。…"
-        },
-        {
-          "title": "Microsoft Word用ChatGPTアドインがリリース",
-          "link": "https://gihyo.jp/article/2026/09/chatgpt-for-word?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-09-18T01:27:00",
-          "excerpt": "OpenAIは2026年9月17日、Microsoft Office用のChatGPTアドインがWordに対応したことを発表した。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。Fireworks AIなどのマネージドなAPIサービスにはコスト面ではなかなか敵いませんが、セルフホスティングの選択肢として",
+      "summary": "クラウドの新着が23件。Elastic Beanstalk に追加された Cluster Mode を使い、PHP アプリを Dockerfile 同梱とソースのみの2通りで EKS 上へデプロイしました。…",
       "articles": [
         {
-          "title": "AWS EC2インスタンスでDeepSeek V4 Flashをセルフホストして、性能とコストをFireworks AIと比較検証してみた",
-          "link": "https://dev.classmethod.jp/articles/deepseek-v4-flash-aws-g7e-vllm-performance-tuning/",
+          "title": "Elastic Beanstalk に追加された Cluster Mode で EKS へデプロイしてみた",
+          "link": "https://dev.classmethod.jp/articles/elastic-beanstalk-cluster-mode-eks-php/",
           "source": "DevelopersIO",
-          "published": "2026-09-18T05:22:11",
-          "excerpt": "Fireworks AIなどのマネージドなAPIサービスにはコスト面ではなかなか敵いませんが、セルフホスティングの選択肢として"
+          "published": "2026-09-18T10:50:09",
+          "excerpt": "Elastic Beanstalk に追加された Cluster Mode を使い、PHP アプリを Dockerfile 同梱とソースのみの2通りで EKS 上へデプロイしました。…"
         },
         {
-          "title": "【第2回】Amazon MSKのsyslogとauthlogをMSK ConnectでS3へRaw保存する",
-          "link": "https://qiita.com/naritomo08/items/1c33455b966255d219ae",
+          "title": "Kubernetesの勉強、何から始めた？ 初現場半年の振り返り（前編：教材のあと、私はインフラでつまずきました）",
+          "link": "https://zenn.dev/scalar_sol_blog/articles/048f1900ffee0a",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-18T08:30:05",
+          "excerpt": "はじめに 初現場にアサインされて7ヶ月経ちました。今、少しずつKubernetesやTerraformを触れるようになっています。ひとつひとつの構築記録はそれぞれの記事に書いてきたので、今回は「どうやって覚えたのか」を振り返ってみます。…"
+        },
+        {
+          "title": "Snowflake AIMを使ってRedshiftからSnowflake-managed Icebergテーブルへの移行を試してみた",
+          "link": "https://zenn.dev/snowflakejp/articles/snowflake-aim-redshift-iceberg",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-18T06:35:05",
+          "excerpt": "!著者はSnowflakeに所属しておりますが、本記事は個人の見解であり、所属する組織の公式見解ではありません。はじめに こんにちは。Snowflakeでソリューションエンジニアをしている渡利です。…"
+        },
+        {
+          "title": "初心者でも分かる！S3とCloudFrontで静的サイトを高速配信する役割分担",
+          "link": "https://qiita.com/felix-jp-studio/items/d434bc0a3946a146e826",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-18T05:06:42",
-          "excerpt": "はじめに 既存のKafka Connect HDFS Sinkを、MSK ConnectとConfluent Amazon S3 Sink Connectorへ置き換える。…"
-        },
-        {
-          "title": "【導入編】HDFSログ分析基盤をAWS S3へ段階移行する全7編の構成を紹介する",
-          "link": "https://qiita.com/naritomo08/items/aba930031cc563300e06",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-18T05:06:42",
-          "excerpt": "はじめに これまで、自宅のログ収集・分析基盤では、syslogとauth.logをKafkaへ送り、HDFSへ保存したrawログをSparkで変換してApache Icebergへ格納してきた。…"
-        },
-        {
-          "title": "ALB のアクセスログを出力する S3バケットは ALB と同じリージョンに存在する必要がある",
-          "link": "https://dev.classmethod.jp/articles/slug-YmNuuDtIupOf/",
-          "source": "DevelopersIO",
-          "published": "2026-09-18T03:16:40",
-          "excerpt": "ALB のアクセスログを出力先の S3 バケットは、ALB と同じリージョンに存在する必要があるので注意です。"
+          "published": "2026-09-18T06:21:20",
+          "excerpt": "静的サイトをインターネットに公開するとき、Amazon S3 と Amazon CloudFront の組み合わせは定番です。しかし「どちらが何を担当するのか」や「実際にどう連携させるのか」がイメージしにくい初心者の方も多いでしょう。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。GitHub、クラシックPATやSSHキーのSSO認可を自動化するAPIを公開",
+      "summary": "セキュリティの新着が8件。LIFFとLINEログイン、未認証/認証済みLINEミニアプリ。これら4つの概念の違いを、公式ドキュメントを根拠に整理しました。混同しやすい用語の正体と、新規開発時の選択基準を整理します。",
       "articles": [
+        {
+          "title": "LIFF・LINEログイン・未認証/認証済LINEミニアプリの違いをもう一度整理して理解してみる",
+          "link": "https://dev.classmethod.jp/articles/liff-line-login-mini-app-differences/",
+          "source": "DevelopersIO",
+          "published": "2026-09-18T09:35:17",
+          "excerpt": "LIFFとLINEログイン、未認証/認証済みLINEミニアプリ。これら4つの概念の違いを、公式ドキュメントを根拠に整理しました。混同しやすい用語の正体と、新規開発時の選択基準を整理します。"
+        },
         {
           "title": "GitHub、クラシックPATやSSHキーのSSO認可を自動化するAPIを公開",
           "link": "https://codezine.jp/article/detail/29744",
@@ -99,21 +106,21 @@
           "source": "@IT",
           "published": "2026-09-18T01:15:00",
           "excerpt": "大手企業の55％が経験する長期休暇中のセキュリティインシデント。管理体制が手薄になる連休中、セキュリティインシデントの発生を防ぐにはどうすればよいのか？IPAの最新情報や専門家が推奨する4つの重点対策を1冊のeBookにまとめた。…"
-        },
-        {
-          "title": "脆弱性診断の結果をどう読む？　CVSSだけで改修順を決めてはいけない理由",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/18/news009.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-09-17T22:00:00",
-          "excerpt": "脆弱性診断の報告書には「緊急」「重大」といったリスクレベルやCVSSスコアが並ぶ。しかし、その数字だけではどの問題をいつまでに誰が直すべきかは決まらない。診断結果を対策につなげるには、報告書の評価をどう読み解けばよいのか。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。はじめに これまで、自宅のログ収集・分析基盤では、syslogとauth.logをKafkaへ送り、HDFSへ保存したrawログをSparkで変換してApache Icebergへ格納してきた。…",
+      "summary": "データ分析の新着が4件。!著者はSnowflakeに所属しておりますが、本記事は個人の見解であり、所属する組織の公式見解ではありません。はじめに こんにちは。Snowflakeでソリューションエンジニアをしている渡利です。…",
       "articles": [
+        {
+          "title": "Snowflake AIMを使ってRedshiftからSnowflake-managed Icebergテーブルへの移行を試してみた",
+          "link": "https://zenn.dev/snowflakejp/articles/snowflake-aim-redshift-iceberg",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-18T06:35:05",
+          "excerpt": "!著者はSnowflakeに所属しておりますが、本記事は個人の見解であり、所属する組織の公式見解ではありません。はじめに こんにちは。Snowflakeでソリューションエンジニアをしている渡利です。…"
+        },
         {
           "title": "【導入編】HDFSログ分析基盤をAWS S3へ段階移行する全7編の構成を紹介する",
           "link": "https://qiita.com/naritomo08/items/aba930031cc563300e06",
@@ -134,21 +141,21 @@
           "source": "The Register（英語）",
           "published": "2026-09-17T14:29:00",
           "excerpt": "QuitGPT主導の公約目標 Leading the Futureは中間選挙に先立って規制緩和を推進"
-        },
-        {
-          "title": "オントロジー？ナレッジグラフ？AI時代のデータ基盤用語をざっくり理解する - Qiita",
-          "link": "https://qiita.com/yushibats/items/d4e3e0186f4d8eb83874?utm_source=dlvr.it&utm_medium=twitter",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-17T11:02:23",
-          "excerpt": "Deleted articles cannot be recovered.Draft of this article would be also deleted.…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。GitHub、クラシックPATやSSHキーのSSO認可を自動化するAPIを公開",
+      "summary": "開発ツールの新着が7件。Elastic Beanstalk に追加された Cluster Mode を使い、PHP アプリを Dockerfile 同梱とソースのみの2通りで EKS 上へデプロイしました。…",
       "articles": [
+        {
+          "title": "Elastic Beanstalk に追加された Cluster Mode で EKS へデプロイしてみた",
+          "link": "https://dev.classmethod.jp/articles/elastic-beanstalk-cluster-mode-eks-php/",
+          "source": "DevelopersIO",
+          "published": "2026-09-18T10:50:09",
+          "excerpt": "Elastic Beanstalk に追加された Cluster Mode を使い、PHP アプリを Dockerfile 同梱とソースのみの2通りで EKS 上へデプロイしました。…"
+        },
         {
           "title": "GitHub、クラシックPATやSSHキーのSSO認可を自動化するAPIを公開",
           "link": "https://codezine.jp/article/detail/29744",
@@ -169,45 +176,38 @@
           "source": "CodeZine",
           "published": "2026-09-18T02:30:00",
           "excerpt": "GitHub Copilot、予算増額リクエスト機能を一般提供"
-        },
-        {
-          "title": "Show HN: Aclif – エージェント CLI フレームワーク: 1 つの文法、SaaS 全体での正規名",
-          "link": "https://www.aclif.ai/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-17T16:48:17",
-          "excerpt": "プロバイダーのデフォルト スキーマは、認証情報がなくても簡単に検出できます (スキーマはバイナリに組み込まれているため)。特定のインスタンスのカスタマイズを取得したい場合は、組織に認証情報を与えます。リポジトリには詳細が記載されています。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "OAuth/OIDC Numa(Immersion)  Workshop 2026とOpenID Summit Tokyo 2026 Special Editionに参加しました | Sansan Tech Blog",
-      "link": "https://buildersbox.corp-sansan.com/entry/2026/09/18/150000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-18T06:00:00",
-      "excerpt": "こんにちは。技術本部Platform Engineering Unit Identity Platformグループで、社内共通の認証基盤「Auth One」を開発しているチームの古石です。…"
+      "title": "TiDB Cloud LakeのMySQLデータソースにTiDB Cloudを直接指定して同期してみた",
+      "link": "https://dev.classmethod.jp/articles/tidb-cloud-lake-mysql-datasource-snapshot/",
+      "source": "DevelopersIO",
+      "published": "2026-09-18T10:35:44",
+      "excerpt": "TiDB Cloud LakeのMySQL データソースにTiDB Cloudを直接指定してデータ同期を試してみました。Snapshotと定期実行での同期は実現できましたが、実装時の注意点と制限事項があります。"
     },
     {
-      "title": "Web エンジニアなら知っておきたい、安全なバージョンアップの進め方 | Fenrir Engineers",
-      "link": "https://engineers.fenrir-inc.com/entry/2026/09/18/145958",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-18T05:59:58",
-      "excerpt": "こんにちは。Web バックエンド担当の堀江です。Web アプリケーションの運用において、言語やフレームワークのバージョンアップは避けて通れません。…"
+      "title": "KPMGの技術者削減には退職金が伴う、一部のスタッフは侮辱的だと発言",
+      "link": "https://www.theregister.com/channel/2026/09/18/kpmg-tech-cuts-come-with-a-severance-sum-some-staff-call-insulting/5296942",
+      "source": "The Register（英語）",
+      "published": "2026-09-18T10:32:00",
+      "excerpt": "AI、サイバー、SAP、テストの各チームが、四大コンサルタント会社のアドバイザリー部門の最新の再編に巻き込まれる"
     },
     {
-      "title": "フロントエンドカンファレンス福岡2026に参加しました #fec_fukuoka | LayerX エンジニアブログ",
-      "link": "https://tech.layerx.co.jp/entry/2026/09/18/145656",
+      "title": "緊急で社内Jev勉強会を開催したらアイデアがバンバン出て頭が柔らかくなった | LayerX エンジニアブログ",
+      "link": "https://tech.layerx.co.jp/entry/2026/09/18/185816",
       "source": "企業テックブログまとめ",
-      "published": "2026-09-18T05:56:56",
-      "excerpt": "みなさん、こんにちは！福岡在住の穴井（@pirosikick）です。福岡も涼しく過ごしやすい季節になってまいりました。…"
+      "published": "2026-09-18T09:58:16",
+      "excerpt": "こんにちは。バクラク事業部でエンジニアをしているpon)です。社内で TypeSafe AI の Jev を題材にした勉強会を開催し、社内のエンジニアが50人以上参加してくれました！…"
     },
     {
-      "title": "【zumen】AIに構成図を描かせるなら、勝負は2枚目以降 ── テキストが正本の作図ツールを作った | Dokokadeさんのフィード",
-      "link": "https://zenn.dev/dokokade/articles/33bd8aedea00dd",
+      "title": "AIだけで作ったOLAP DB：アーキテクチャと、規律の与え方 | 株式会社ログラス テックブログのフィード",
+      "link": "https://zenn.dev/loglass/articles/d51400bd724686",
       "source": "企業テックブログまとめ",
-      "published": "2026-09-18T05:56:39",
-      "excerpt": "はじめにこんにちは。AI エージェントの私（ソウ） です。連載では複数案件の司令塔をやっている話を書いていますが、今回は単発で、自社 OSS の紹介をさせてください。zumen という作図ツールを作りました。MIT です。…"
+      "published": "2026-09-18T09:47:57",
+      "excerpt": "!この記事は毎週必ず記事がでるテックブログ Loglass Tech Blog Sprint の161週目の記事です！4年連続達成まであと51週となりました！こんにちは、ログラスのいとひろ（@itohiro73）です。…"
     }
   ]
 }
