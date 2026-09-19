@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-09-19T06:06:04",
+  "generated_at": "2026-09-19T11:15:35",
   "window_hours": 24,
-  "total": 151,
+  "total": 135,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が32件。AnthropicでClaude Codeの開発に携わるThariq Shihipar氏は9月18日、AIコーディングツールClaude Codeがバージョン2.1.277からAGENTS.mdに対応したとXで案内した。",
+      "summary": "生成AIの新着が33件。AgentCore Runtime V2 は実消費メモリで課金されます。USAGE_LOGS で課金メモリを 1 秒粒度で観測し、確保のピーク後に段階的に縮小する一方、アイドル中も課金され続ける挙動を実測値で確認しました。",
       "articles": [
         {
-          "title": "Claude Code、AGENTS.mdに対応 ——/configで指示ファイルの読み込みを設定",
-          "link": "https://gihyo.jp/article/2026/09/claude-code-support-agents-md?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-09-19T03:45:00",
-          "excerpt": "AnthropicでClaude Codeの開発に携わるThariq Shihipar氏は9月18日、AIコーディングツールClaude Codeがバージョン2.1.277からAGENTS.mdに対応したとXで案内した。"
+          "title": "Amazon Bedrock AgentCore Runtime V2 の課金メモリがピーク後に縮小する挙動を USAGE_LOGS で観測してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-bedrock-agentcore-runtime-v2-memory-usage-logs/",
+          "source": "DevelopersIO",
+          "published": "2026-09-19T10:37:23",
+          "excerpt": "AgentCore Runtime V2 は実消費メモリで課金されます。USAGE_LOGS で課金メモリを 1 秒粒度で観測し、確保のピーク後に段階的に縮小する一方、アイドル中も課金され続ける挙動を実測値で確認しました。"
         },
         {
-          "title": "東京ゲームショウと生成AI　ゲームの祭典で商談見込むベンダーたち",
-          "link": "https://www.itmedia.co.jp/news/article/2609/19/2000001639/",
-          "source": "ITmedia NEWS",
-          "published": "2026-09-19T03:00:00",
-          "excerpt": "ゲームでのAI活用と言えば、オンライン発表会での動画生成AI使用が物議を醸したレベルファイブをはじめ、まだまだユーザー側の拒否感が強い領域でもある。…"
+          "title": "Claude Code v2.1.277〜v2.1.278 の主要アップデート - 待望の AGENTS.md 対応と TaskOutput ツールの削除",
+          "link": "https://dev.classmethod.jp/articles/20260919-cc-updates-v2-1-278/",
+          "source": "DevelopersIO",
+          "published": "2026-09-19T09:06:44",
+          "excerpt": "Claude Code v2.1.277〜v2.1.278のアップデートをまとめてご紹介します。待望のAGENTS.md対応をはじめ、修正89件を含む2つのバージョンの変更内容を詳しく解説してきました。"
         },
         {
-          "title": "Anthropic は生物学の実験を行う研究室を運営しています",
-          "link": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-18T23:13:31",
-          "excerpt": "AI のリーダーたちは、AI が人間の病気を治す鍵であると約束してきました。人類研究者らも、AIが人類を滅ぼす可能性があると警告している。"
+          "title": "[レポート] Snowflake Cortex Senseとは - エージェント時代におけるオントロジーやコンテキストレイヤーの重要性 #SWTTokyo26",
+          "link": "https://dev.classmethod.jp/articles/bs1170-cortex-sense-swttokyo26/",
+          "source": "DevelopersIO",
+          "published": "2026-09-19T07:30:54",
+          "excerpt": "SNOWFLAKE WORLD TOUR TOKYO 2026で開催された「Snowflake Cortex Sense」についてのセッションレポートです。…"
         },
         {
-          "title": "OpenAI が独自の LLM を使用してハラペーニョ チップを設計した方法",
-          "link": "https://spectrum.ieee.org/llms-for-chip-design",
+          "title": "GPT-6 アストラが第一次世界大戦中のドイツの無線暗号を解く",
+          "link": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
           "source": "Hacker News（英語）",
-          "published": "2026-09-18T23:04:17",
-          "excerpt": "記事の URL: https://spectrum.ieee.org/llms-for-chip-design コメント URL: https://news.ycombinator.com/item?…"
+          "published": "2026-09-19T06:41:44",
+          "excerpt": "記事の URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。はじめに 「ログ収集エージェントが落ちただけなのに、なぜか本番のアプリまで止まった」 ECS Managed Daemons はまさにこれをやります。…",
+      "summary": "クラウドの新着が12件。・・・AWSアカウント内に構築できる、論理的に分離された仮想ネットワーク。…",
       "articles": [
         {
-          "title": "ECS Managed Daemons が「落ちても本番を巻き込まない」設定に対応したので Terraform で検証してみた",
-          "link": "https://qiita.com/leomarokun/items/c451cb4d162df71d7c83",
+          "title": "Amazon VPC(Amazon バーチャル プライベート クラウド)",
+          "link": "https://qiita.com/Minato_playwithtech/items/6110e27afceedf46f7ca",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-19T04:53:59",
-          "excerpt": "はじめに 「ログ収集エージェントが落ちただけなのに、なぜか本番のアプリまで止まった」 ECS Managed Daemons はまさにこれをやります。…"
+          "published": "2026-09-19T09:09:38",
+          "excerpt": "・・・AWSアカウント内に構築できる、論理的に分離された仮想ネットワーク。…"
         },
         {
-          "title": "AWS Lambda、Amazon S3 Filesの直接読み取り設定に対応",
-          "link": "https://codezine.jp/article/detail/29746",
-          "source": "CodeZine",
-          "published": "2026-09-19T00:00:00",
-          "excerpt": "AWS Lambda、Amazon S3 Filesの直接読み取り設定に対応"
+          "title": "AWS Lambda レイテンシ改善",
+          "link": "https://qiita.com/awaza/items/48691e9556ef915a927d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-19T09:01:34",
+          "excerpt": "はじめに Lambdaのレイテンシ改善に携わったので、備忘録を記載します Lambdaの仕様を考慮した最適化を記載し、アルゴリズムの最適化は対象外とします また筆者はPythonを使用しているので、言語依存な箇所があるかもしれませんのでご了…"
         },
         {
-          "title": "Security Groupの先へ ― VPC Lattice Auth Policyでネットワーク到達性とアクセス認可の分離を検証する",
-          "link": "https://zenn.dev/nyondev/articles/zenn_vpc_lattice",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-18T22:34:13",
-          "excerpt": "Security Groupの先へ ― VPC Lattice Auth Policyでネットワーク到達性とアクセス認可の分離を検証する 出発点：この検証を始めた理由 AIを使った異常検知の導入を検討する文脈で、ゼロトラストの話が出た。…"
+          "title": "【第4編】Apache FlinkからAWS S3上のApache Icebergへリアルタイムに書き込んでみる",
+          "link": "https://qiita.com/naritomo08/items/552ea3eb295c6f82a408",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-19T08:41:09",
+          "excerpt": "はじめに これまで、KafkaのsyslogとauthlogをApache Flinkで読み、HDFS上のApache Icebergへリアルタイムに書き込んでいた。…"
         },
         {
-          "title": "Amazon ECS Express Mode が AWS Graviton (ARM64) ワークロードをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-18T17:27:00",
-          "excerpt": "Amazon Elastic Container Service エクスプレス モードは、サービスの CPU アーキテクチャとして ARM64 の指定をサポートするようになりました。…"
+          "title": "【第5編】ログ分析基盤に残るHDFS依存をAWS S3へ移行してみる",
+          "link": "https://qiita.com/naritomo08/items/039eebc334b3767df733",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-19T08:41:09",
+          "excerpt": "はじめに これまでの記事で、次の移行経路を作成した。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。Security Groupの先へ ― VPC Lattice Auth Policyでネットワーク到達性とアクセス認可の分離を検証する 出発点：この検証を始めた理由 AIを使った異常検知の導入を検討する文脈で、ゼロトラストの話が出た。…",
+      "summary": "セキュリティの新着が6件。記事の URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "GPT-6 アストラが第一次世界大戦中のドイツの無線暗号を解く",
+          "link": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-19T06:41:44",
+          "excerpt": "記事の URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "Security Groupの先へ ― VPC Lattice Auth Policyでネットワーク到達性とアクセス認可の分離を検証する",
           "link": "https://zenn.dev/nyondev/articles/zenn_vpc_lattice",
@@ -99,21 +106,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-09-18T19:00:06",
           "excerpt": "記事の URL: https://arxiv.org/abs/2609.02852 コメント URL: https://news.ycombinator.com/item?id=49758689 ポイント: 28 コメント数: 12"
-        },
-        {
-          "title": "Claude Code の Bash sandbox、有効化しただけでは認証情報が読めてしまいます",
-          "link": "https://dev.classmethod.jp/articles/claude-code-bash-sandbox-secure-config/",
-          "source": "DevelopersIO",
-          "published": "2026-09-18T12:35:56",
-          "excerpt": "結構フクザツです！"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。Angle Health は、中小企業が「平準積立型」の健康保険に加入できるように支援することで、顧客数を 5,000 にまで拡大し、利益を上げています。",
+      "summary": "データ分析の新着が8件。はじめに これまでの記事で、次の移行経路を作成した。…",
       "articles": [
+        {
+          "title": "【第5編】ログ分析基盤に残るHDFS依存をAWS S3へ移行してみる",
+          "link": "https://qiita.com/naritomo08/items/039eebc334b3767df733",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-19T08:41:09",
+          "excerpt": "はじめに これまでの記事で、次の移行経路を作成した。…"
+        },
         {
           "title": "Y Combinator の保険技術者出身の Angle Health の評価額が 27 億ドルに達する",
           "link": "https://techcrunch.com/2026/09/18/y-combinator-insurance-tech-alum-angle-health-hits-2-7b-valuation/",
@@ -134,21 +141,21 @@
           "source": "Ars Technica（英語）",
           "published": "2026-09-18T17:57:41",
           "excerpt": "FCCは、抑圧的な政府がCBSオーナーに対する影響力を買収しているという懸念を否定している。"
-        },
-        {
-          "title": "米国政府のウェブサイトは中国モデルを使用しており、FBIは「悪意がある」と呼んだ",
-          "link": "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-09-18T17:28:50",
-          "excerpt": "連邦官報の Web サイトでは、オープンソースの中国 AI 検索ツールが一時的に使用されました。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。はじめに 「ログ収集エージェントが落ちただけなのに、なぜか本番のアプリまで止まった」 ECS Managed Daemons はまさにこれをやります。…",
+      "summary": "開発ツールの新着が6件。GitHub Actions向けUbuntu 26.04ランナーが一般提供開始",
       "articles": [
+        {
+          "title": "GitHub Actions向けUbuntu 26.04ランナーが一般提供開始",
+          "link": "https://codezine.jp/article/detail/29755",
+          "source": "CodeZine",
+          "published": "2026-09-19T08:00:00",
+          "excerpt": "GitHub Actions向けUbuntu 26.04ランナーが一般提供開始"
+        },
         {
           "title": "ECS Managed Daemons が「落ちても本番を巻き込まない」設定に対応したので Terraform で検証してみた",
           "link": "https://qiita.com/leomarokun/items/c451cb4d162df71d7c83",
@@ -157,7 +164,7 @@
           "excerpt": "はじめに 「ログ収集エージェントが落ちただけなのに、なぜか本番のアプリまで止まった」 ECS Managed Daemons はまさにこれをやります。…"
         },
         {
-          "title": "(node:9) DeprecationWarning: Client.activeQuery is deprecated and will be removed in pg@9.0",
+          "title": "(node:9) DeprecationWarning: Client.activeQuery は非推奨であり、pg@9.0 で削除される予定です",
           "link": "https://qiita.com/tantan0420/items/e04cdc72e1097476c342",
           "source": "Qiita AWSタグ",
           "published": "2026-09-19T03:25:56",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-18T15:23:57",
           "excerpt": "はじめに 2026 年 9 月 4 日、AWS は Amazon ECS のローリングデプロイメントに対して、デプロイの成功判定をユーザー自身の判断で柔軟に定義できるようにする「Early Success Criteria」という新機能を発…"
-        },
-        {
-          "title": "【付録】Terraformでインフラをコードにする - 42日でバックエンドエンジニアの基礎を完全に理解する",
-          "link": "https://qiita.com/iketani45664566/items/f3d7ad01a3b732c85063",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-18T14:28:24",
-          "excerpt": "この記事で学ぶこと #34 から3回かけて、VPC という敷地の上に ECS のアプリと RDS のデータベースを載せる設計を積み上げてきました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【AIF-C01】AWS Certified AI Practitioner 直前チートシート ── 用語・サービス・引っかけを一枚に",
-      "link": "https://qiita.com/riverwell2359/items/e9f831cc417f84c9f18f",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-19T05:55:48",
-      "excerpt": "はじめに AWS Certified AI Practitioner（AIF-C01）で問われる用語・サービス・評価指標を、試験直前に一気に見直せるように圧縮したチートシートです。…"
-    },
-    {
-      "title": "Human brain is two separate organs, Stanford Medicine-led research finds",
-      "link": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-19T05:48:50",
-      "excerpt": "Article URL: https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html Comments URL: https://news.…"
-    },
-    {
-      "title": "【AWS】請求書ユニット(Invoice Unit)を知ってるかい",
-      "link": "https://qiita.com/ubyhiromu58/items/5d1fb968f5f604b34079",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-19T04:56:09",
-      "excerpt": "はじめに AWSにてOrganizationsを組んで管理されている企業も多いかと思いますが、そのOrganizationsで複数の部署や複数の企業のアカウントを管理している場合に費用請求はどのようにされているでしょうか？…"
-    },
-    {
-      "title": "AIに営業プロセスを一周させた（7）API成功は視覚QAではない | Scalar Solution Engineer Blogのフィード",
-      "link": "https://zenn.dev/scalar_sol_blog/articles/scalar-sales-ai-07-qa-delivery",
+      "title": "第20回 VPNに接続すると何が起きる？ZPAを理解するための前提知識 | APC 技術ブログ",
+      "link": "https://techblog.ap-com.co.jp/entry/2026/09/19/192839",
       "source": "企業テックブログまとめ",
-      "published": "2026-09-19T04:54:09",
-      "excerpt": "最終回です。生成が成功したあとに何をしたか、という話をします。slide-forge の共通契約に、たった 1 行こう書かれています。API success is not visual QA.…"
+      "published": "2026-09-19T10:28:39",
+      "excerpt": "在宅勤務で社内Systemを使うとき、「まずVPNへ接続してください」と案内された経験がある方も多いでしょう。では、VPNへ接続した瞬間、PCの通信は何が変わっているのでしょうか。…"
+    },
+    {
+      "title": "第19回 PACファイルって何？Proxyをどう選んでいるの？ | APC 技術ブログ",
+      "link": "https://techblog.ap-com.co.jp/entry/2026/09/19/192822",
+      "source": "企業テックブログまとめ",
+      "published": "2026-09-19T10:28:22",
+      "excerpt": "「Proxyを使う」といっても、Browserはどうやって、 「この通信はProxyへ送る」「これはDirectで送る」 と判断しているのでしょうか。その答えの一つがPAC（Proxy Auto-Configuration）Fileです。…"
+    },
+    {
+      "title": "第18回 Proxyって結局何？Zscalerとの関係を理解する | APC 技術ブログ",
+      "link": "https://techblog.ap-com.co.jp/entry/2026/09/19/192746",
+      "source": "企業テックブログまとめ",
+      "published": "2026-09-19T10:27:46",
+      "excerpt": "「ZscalerはProxyなの？」 ZIAの話をしていると、よく出てくる疑問です。Proxyは単なる「通信を中継する箱」ではありません。…"
+    },
+    {
+      "title": "第17回 証明書って何のためにある？ブラウザーが相手を信頼する仕組み | APC 技術ブログ",
+      "link": "https://techblog.ap-com.co.jp/entry/2026/09/19/192723",
+      "source": "企業テックブログまとめ",
+      "published": "2026-09-19T10:27:23",
+      "excerpt": "HTTPSではTLSによって通信内容が暗号化されます。では、暗号化する前にBrowserはどうやって、 「今つながろうとしている相手は、本当にこのWebサイトなのか？」 を確認しているのでしょうか。…"
     }
   ]
 }
