@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-18T23:24:53",
+  "generated_at": "2026-09-19T01:19:49",
   "window_hours": 24,
-  "total": 176,
+  "total": 172,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。AI のリーダーたちは、AI が人間の病気を治す鍵であると約束してきました。人類研究者らも、AIが人類を滅ぼす可能性があると警告している。",
+      "summary": "生成AIの新着が34件。AI のリーダーたちは、AI が人間の病気を治す鍵であると約束してきました。人類研究者らも、AIが人類を滅ぼす可能性があると警告している。",
       "articles": [
         {
           "title": "Anthropic は生物学の実験を行う研究室を運営しています",
@@ -24,26 +24,40 @@
           "excerpt": "記事の URL: https://spectrum.ieee.org/llms-for-chip-design コメント URL: https://news.ycombinator.com/item?…"
         },
         {
+          "title": "「サポートの切れるRHELを使い続ける方法」「君のCLAUDE.mdは盛り過ぎ」――“新旧IT”の実践知を探る",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/19/news011.html",
+          "source": "@IT",
+          "published": "2026-09-18T23:00:00",
+          "excerpt": "＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。"
+        },
+        {
           "title": "ChatGPTのMac向け新機能に「データ丸見え」のリスク？ 　セキュリティベンダーが指摘",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2609/19/news004.html",
           "source": "ITmedia エンタープライズ",
           "published": "2026-09-18T22:00:00",
           "excerpt": "OpenAIが生成AIツール「ChatGPT」のmacOS向けアプリに、PCでの操作を記録してAIに作業の文脈を引き継ぐ新機能を追加した。セキュリティ企業Kasperskyはその仕組みを検証し、利用には注意が必要だと指摘する。…"
-        },
-        {
-          "title": "Anthropic の最初の組み込み評価器は… Accenture?",
-          "link": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-18T21:44:33",
-          "excerpt": "アクセンチュアは、これまでで最もリスクの高いコンサルティング業務に取り組もうとしている。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。Amazon Elastic Container Service エクスプレス モードは、サービスの CPU アーキテクチャとして ARM64 の指定をサポートするようになりました。…",
+      "summary": "クラウドの新着が21件。AWS Lambda、Amazon S3 Filesの直接読み取り設定に対応",
       "articles": [
+        {
+          "title": "AWS Lambda、Amazon S3 Filesの直接読み取り設定に対応",
+          "link": "https://codezine.jp/article/detail/29746",
+          "source": "CodeZine",
+          "published": "2026-09-19T00:00:00",
+          "excerpt": "AWS Lambda、Amazon S3 Filesの直接読み取り設定に対応"
+        },
+        {
+          "title": "Security Groupの先へ ― VPC Lattice Auth Policyでネットワーク到達性とアクセス認可の分離を検証する",
+          "link": "https://zenn.dev/nyondev/articles/zenn_vpc_lattice",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-18T22:34:13",
+          "excerpt": "Security Groupの先へ ― VPC Lattice Auth Policyでネットワーク到達性とアクセス認可の分離を検証する 出発点：この検証を始めた理由 AIを使った異常検知の導入を検討する文脈で、ゼロトラストの話が出た。…"
+        },
         {
           "title": "Amazon ECS Express Mode が AWS Graviton (ARM64) ワークロードをサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-18T15:23:57",
           "excerpt": "はじめに 2026 年 9 月 4 日、AWS は Amazon ECS のローリングデプロイメントに対して、デプロイの成功判定をユーザー自身の判断で柔軟に定義できるようにする「Early Success Criteria」という新機能を発…"
-        },
-        {
-          "title": "【付録】Terraformでインフラをコードにする - 42日でバックエンドエンジニアの基礎を完全に理解する",
-          "link": "https://qiita.com/iketani45664566/items/f3d7ad01a3b732c85063",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-18T14:28:24",
-          "excerpt": "この記事で学ぶこと #34 から3回かけて、VPC という敷地の上に ECS のアプリと RDS のデータベースを載せる設計を積み上げてきました。…"
-        },
-        {
-          "title": "【付録】Terraformでインフラをコードにする - 42日でバックエンドエンジニアの基礎を完全に理解する",
-          "link": "https://zenn.dev/kipcop/articles/b42-go-36x-terraform",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-18T14:28:10",
-          "excerpt": "この記事で学ぶこと #34 から3回かけて、VPC という敷地の上に ECS のアプリと RDS のデータベースを載せる設計を積み上げてきました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。OpenAIが生成AIツール「ChatGPT」のmacOS向けアプリに、PCでの操作を記録してAIに作業の文脈を引き継ぐ新機能を追加した。セキュリティ企業Kasperskyはその仕組みを検証し、利用には注意が必要だと指摘する。…",
+      "summary": "セキュリティの新着が8件。Security Groupの先へ ― VPC Lattice Auth Policyでネットワーク到達性とアクセス認可の分離を検証する 出発点：この検証を始めた理由 AIを使った異常検知の導入を検討する文脈で、ゼロトラストの話が出た。…",
       "articles": [
+        {
+          "title": "Security Groupの先へ ― VPC Lattice Auth Policyでネットワーク到達性とアクセス認可の分離を検証する",
+          "link": "https://zenn.dev/nyondev/articles/zenn_vpc_lattice",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-18T22:34:13",
+          "excerpt": "Security Groupの先へ ― VPC Lattice Auth Policyでネットワーク到達性とアクセス認可の分離を検証する 出発点：この検証を始めた理由 AIを使った異常検知の導入を検討する文脈で、ゼロトラストの話が出た。…"
+        },
         {
           "title": "ChatGPTのMac向け新機能に「データ丸見え」のリスク？ 　セキュリティベンダーが指摘",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2609/19/news004.html",
@@ -99,20 +106,13 @@
           "source": "DevelopersIO",
           "published": "2026-09-18T12:35:56",
           "excerpt": "結構フクザツです！"
-        },
-        {
-          "title": "AIエージェントのセキュリティは何から手を付けるか｜英NCSC中間ガイダンスの読み方 | CloudNative BLOGs",
-          "link": "https://blog.cloudnative.co.jp/articles/ai-agent-security-ncsc-interim-guidance/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-18T11:58:00",
-          "excerpt": "英NCSCが2026年8月に公開したエージェント型AIの中間ガイダンスを、情シス・セキュリティ担当者向けに解説します。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が10件。Angle Health は、中小企業が「平準積立型」の健康保険に加入できるように支援することで、顧客数を 5,000 にまで拡大し、利益を上げています。",
+      "summary": "データ分析の新着が9件。Angle Health は、中小企業が「平準積立型」の健康保険に加入できるように支援することで、顧客数を 5,000 にまで拡大し、利益を上げています。",
       "articles": [
         {
           "title": "Y Combinator の保険技術者出身の Angle Health の評価額が 27 億ドルに達する",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "AI幻覚が米軍作戦をほぼ誘発",
-      "link": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+      "title": "AWS SAMの基本と、実際のテンプレートでの使い方",
+      "link": "https://qiita.com/badorisu0555/items/43d06b69e0ee71b6af35",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-19T01:02:56",
+      "excerpt": "この記事について 子育て世代向けに、毎朝その日役立ちそうな情報をLINEで届ける、というアプリを個人開発しています。…"
+    },
+    {
+      "title": "インドは発信者番号通知アプリにスパムレポートを通信会社に送信するよう強制する",
+      "link": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-18T23:12:32",
-      "excerpt": "「軍人にとってLLMに固有の不確実性を理解することが重要です」とGovAIの研究者は警告する。"
+      "published": "2026-09-19T01:00:00",
+      "excerpt": "Truecaller は、一方向の共有要件により、商業的に価値のある専有資産が通信事業者に渡されることになると述べています。"
     },
     {
-      "title": "イラン戦争中の米軍死者数、国防総省の死者数を少なくとも4人上回る",
-      "link": "https://www.reuters.com/world/middle-east/us-troop-deaths-iran-war-exceed-pentagon-count-by-least-four-washington-post-2026-09-18/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-18T22:35:10",
-      "excerpt": "記事の URL: https://www.reuters.…"
+      "title": "ティリー・ノーウッドのプレスツアーはAIに期待される通りに進んでいる",
+      "link": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-19T00:12:07",
+      "excerpt": "ある特に奇妙なインタビューでは、ノーウッドは誤作動を起こして中国語を話し始めたようだ。"
     },
     {
-      "title": "イランの学校を破壊した米国の「キルチェーン」",
-      "link": "https://www.bloomberg.com/graphics/2026-iran-school-attack",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-18T22:29:16",
-      "excerpt": "記事の URL: https://www.bloomberg.com/graphics/2026-iran-school-攻撃 コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "中国の核部品に対するAIの幻覚が米国の軍事攻撃につながりそうになった",
-      "link": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-09-18T20:26:33",
-      "excerpt": "しかし、軍全体のAI活用は加速しているようだ。"
+      "title": "AppleがiOS 27.2などのベータ版を公開、iPhone Duo対応はXcode 27.1で",
+      "link": "https://codezine.jp/article/detail/29754",
+      "source": "CodeZine",
+      "published": "2026-09-19T00:00:00",
+      "excerpt": "AppleがiOS 27.2などのベータ版を公開、iPhone Duo対応はXcode 27.1で"
     }
   ]
 }
