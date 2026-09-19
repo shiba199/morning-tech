@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-19T11:15:35",
+  "generated_at": "2026-09-19T14:33:18",
   "window_hours": 24,
-  "total": 135,
+  "total": 134,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。AgentCore Runtime V2 は実消費メモリで課金されます。USAGE_LOGS で課金メモリを 1 秒粒度で観測し、確保のピーク後に段階的に縮小する一方、アイドル中も課金され続ける挙動を実測値で確認しました。",
+      "summary": "生成AIの新着が29件。投資家はThe Regに、証券取引をやめる時期は近いと語る",
       "articles": [
+        {
+          "title": "エージェントセキュリティは、賢い新興企業が解決すべき数十億ドル規模の課題です",
+          "link": "https://www.theregister.com/security/2026/09/19/agentic-security-is-the-billion-dollar-challenge-for-some-clever-startup-to-solve/5297546",
+          "source": "The Register（英語）",
+          "published": "2026-09-19T14:25:00",
+          "excerpt": "投資家はThe Regに、証券取引をやめる時期は近いと語る"
+        },
+        {
+          "title": "# [AWS] DevOpsAgent × M5StackChan で対話指示＆報告をやってみた",
+          "link": "https://qiita.com/kikuziro/items/8ee76227681010b6f413",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-19T13:34:43",
+          "excerpt": "対象者 DevOpsAgentが好きな方 でもチャットやSlackの指示では物足りなくなってきて音声でやりとりしたい方 この記事でやらないこと M5スタックちゃん側の実装紹介とLambdaの細かいコードの説明はしません。…"
+        },
         {
           "title": "Amazon Bedrock AgentCore Runtime V2 の課金メモリがピーク後に縮小する挙動を USAGE_LOGS で観測してみた",
           "link": "https://dev.classmethod.jp/articles/amazon-bedrock-agentcore-runtime-v2-memory-usage-logs/",
@@ -22,28 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-09-19T09:06:44",
           "excerpt": "Claude Code v2.1.277〜v2.1.278のアップデートをまとめてご紹介します。待望のAGENTS.md対応をはじめ、修正89件を含む2つのバージョンの変更内容を詳しく解説してきました。"
-        },
-        {
-          "title": "[レポート] Snowflake Cortex Senseとは - エージェント時代におけるオントロジーやコンテキストレイヤーの重要性 #SWTTokyo26",
-          "link": "https://dev.classmethod.jp/articles/bs1170-cortex-sense-swttokyo26/",
-          "source": "DevelopersIO",
-          "published": "2026-09-19T07:30:54",
-          "excerpt": "SNOWFLAKE WORLD TOUR TOKYO 2026で開催された「Snowflake Cortex Sense」についてのセッションレポートです。…"
-        },
-        {
-          "title": "GPT-6 アストラが第一次世界大戦中のドイツの無線暗号を解く",
-          "link": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-19T06:41:44",
-          "excerpt": "記事の URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。・・・AWSアカウント内に構築できる、論理的に分離された仮想ネットワーク。…",
+      "summary": "クラウドの新着が11件。コンソールにいないEC2に課金され続けた話 Cost Explorerには課金、コンソールにはインスタンスなし ある日、AWSのCost Explorerを眺めていたところ、EC2の課金が発生していることに気づく。こわい 合計コスト：$5.…",
       "articles": [
+        {
+          "title": "コンソールにいないEC2に課金され続けた話",
+          "link": "https://qiita.com/satsho/items/591afe7abb0c4be72443",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-19T14:04:45",
+          "excerpt": "コンソールにいないEC2に課金され続けた話 Cost Explorerには課金、コンソールにはインスタンスなし ある日、AWSのCost Explorerを眺めていたところ、EC2の課金が発生していることに気づく。こわい 合計コスト：$5.…"
+        },
+        {
+          "title": "【Terraform × AWS】Todoアプリのインフラをゼロから理解する（3/3）",
+          "link": "https://qiita.com/tseno/items/4621aee6401f2ebe0d51",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-19T13:13:11",
+          "excerpt": "この記事は、Todoリストアプリのインフラ構成を初心者の視点で解説するシリーズの3つ目です。バックエンド編（1/3）・フロントエンド編（2/3）を先に読むと理解がスムーズです。…"
+        },
         {
           "title": "Amazon VPC(Amazon バーチャル プライベート クラウド)",
           "link": "https://qiita.com/Minato_playwithtech/items/6110e27afceedf46f7ca",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-19T09:01:34",
           "excerpt": "はじめに Lambdaのレイテンシ改善に携わったので、備忘録を記載します Lambdaの仕様を考慮した最適化を記載し、アルゴリズムの最適化は対象外とします また筆者はPythonを使用しているので、言語依存な箇所があるかもしれませんのでご了…"
-        },
-        {
-          "title": "【第4編】Apache FlinkからAWS S3上のApache Icebergへリアルタイムに書き込んでみる",
-          "link": "https://qiita.com/naritomo08/items/552ea3eb295c6f82a408",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-19T08:41:09",
-          "excerpt": "はじめに これまで、KafkaのsyslogとauthlogをApache Flinkで読み、HDFS上のApache Icebergへリアルタイムに書き込んでいた。…"
-        },
-        {
-          "title": "【第5編】ログ分析基盤に残るHDFS依存をAWS S3へ移行してみる",
-          "link": "https://qiita.com/naritomo08/items/039eebc334b3767df733",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-19T08:41:09",
-          "excerpt": "はじめに これまでの記事で、次の移行経路を作成した。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。記事の URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が5件。投資家はThe Regに、証券取引をやめる時期は近いと語る",
       "articles": [
+        {
+          "title": "エージェントセキュリティは、賢い新興企業が解決すべき数十億ドル規模の課題です",
+          "link": "https://www.theregister.com/security/2026/09/19/agentic-security-is-the-billion-dollar-challenge-for-some-clever-startup-to-solve/5297546",
+          "source": "The Register（英語）",
+          "published": "2026-09-19T14:25:00",
+          "excerpt": "投資家はThe Regに、証券取引をやめる時期は近いと語る"
+        },
         {
           "title": "GPT-6 アストラが第一次世界大戦中のドイツの無線暗号を解く",
           "link": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
@@ -99,13 +106,6 @@
           "source": "ITmedia エンタープライズ",
           "published": "2026-09-18T22:00:00",
           "excerpt": "OpenAIが生成AIツール「ChatGPT」のmacOS向けアプリに、PCでの操作を記録してAIに作業の文脈を引き継ぐ新機能を追加した。セキュリティ企業Kasperskyはその仕組みを検証し、利用には注意が必要だと指摘する。…"
-        },
-        {
-          "title": "LLM セキュリティに対する言語的難読性の影響",
-          "link": "https://arxiv.org/abs/2609.02852",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-18T19:00:06",
-          "excerpt": "記事の URL: https://arxiv.org/abs/2609.02852 コメント URL: https://news.ycombinator.com/item?id=49758689 ポイント: 28 コメント数: 12"
         }
       ]
     },
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。GitHub Actions向けUbuntu 26.04ランナーが一般提供開始",
+      "summary": "開発ツールの新着が6件。対象者 DevOpsAgentが好きな方 でもチャットやSlackの指示では物足りなくなってきて音声でやりとりしたい方 この記事でやらないこと M5スタックちゃん側の実装紹介とLambdaの細かいコードの説明はしません。…",
       "articles": [
+        {
+          "title": "# [AWS] DevOpsAgent × M5StackChan で対話指示＆報告をやってみた",
+          "link": "https://qiita.com/kikuziro/items/8ee76227681010b6f413",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-19T13:34:43",
+          "excerpt": "対象者 DevOpsAgentが好きな方 でもチャットやSlackの指示では物足りなくなってきて音声でやりとりしたい方 この記事でやらないこと M5スタックちゃん側の実装紹介とLambdaの細かいコードの説明はしません。…"
+        },
+        {
+          "title": "【Terraform × AWS】Todoアプリのインフラをゼロから理解する（3/3）",
+          "link": "https://qiita.com/tseno/items/4621aee6401f2ebe0d51",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-19T13:13:11",
+          "excerpt": "この記事は、Todoリストアプリのインフラ構成を初心者の視点で解説するシリーズの3つ目です。バックエンド編（1/3）・フロントエンド編（2/3）を先に読むと理解がスムーズです。…"
+        },
         {
           "title": "GitHub Actions向けUbuntu 26.04ランナーが一般提供開始",
           "link": "https://codezine.jp/article/detail/29755",
@@ -162,52 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-19T04:53:59",
           "excerpt": "はじめに 「ログ収集エージェントが落ちただけなのに、なぜか本番のアプリまで止まった」 ECS Managed Daemons はまさにこれをやります。…"
-        },
-        {
-          "title": "(node:9) DeprecationWarning: Client.activeQuery は非推奨であり、pg@9.0 で削除される予定です",
-          "link": "https://qiita.com/tantan0420/items/e04cdc72e1097476c342",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-19T03:25:56",
-          "excerpt": "pg の DeprecationWarning と AWS X-Ray SDK の互換性問題 CloudWatchに、以下のような警告が大量に出力されていました。(node:9) DeprecationWarning: Client.…"
-        },
-        {
-          "title": "Amazon ECS がローリングデプロイに Early Success Criteria を導入",
-          "link": "https://qiita.com/Haruki-N/items/c504e7efa8790d8568fd",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-18T15:23:57",
-          "excerpt": "はじめに 2026 年 9 月 4 日、AWS は Amazon ECS のローリングデプロイメントに対して、デプロイの成功判定をユーザー自身の判断で柔軟に定義できるようにする「Early Success Criteria」という新機能を発…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "第20回 VPNに接続すると何が起きる？ZPAを理解するための前提知識 | APC 技術ブログ",
-      "link": "https://techblog.ap-com.co.jp/entry/2026/09/19/192839",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-19T10:28:39",
-      "excerpt": "在宅勤務で社内Systemを使うとき、「まずVPNへ接続してください」と案内された経験がある方も多いでしょう。では、VPNへ接続した瞬間、PCの通信は何が変わっているのでしょうか。…"
+      "title": "ZX Spectrum のグラフィカル デスクトップ",
+      "link": "https://github.com/mindbox77/zxdesk",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-19T14:01:58",
+      "excerpt": "記事の URL: https://github.com/mindbox77/zxdesk コメント URL: https://news.ycombinator.com/item?id=49766676 ポイント: 4 コメント数: 2"
     },
     {
-      "title": "第19回 PACファイルって何？Proxyをどう選んでいるの？ | APC 技術ブログ",
-      "link": "https://techblog.ap-com.co.jp/entry/2026/09/19/192822",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-19T10:28:22",
-      "excerpt": "「Proxyを使う」といっても、Browserはどうやって、 「この通信はProxyへ送る」「これはDirectで送る」 と判断しているのでしょうか。その答えの一つがPAC（Proxy Auto-Configuration）Fileです。…"
+      "title": "Rust から来た Zig はどんな感じだったのか",
+      "link": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-19T13:55:18",
+      "excerpt": "記事の URL: https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "第18回 Proxyって結局何？Zscalerとの関係を理解する | APC 技術ブログ",
-      "link": "https://techblog.ap-com.co.jp/entry/2026/09/19/192746",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-19T10:27:46",
-      "excerpt": "「ZscalerはProxyなの？」 ZIAの話をしていると、よく出てくる疑問です。Proxyは単なる「通信を中継する箱」ではありません。…"
+      "title": "Tin: Postgres の全文検索",
+      "link": "https://planetscale.com/blog/introducing-tin",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-19T13:52:06",
+      "excerpt": "記事の URL: https://planetscale.com/blog/introducing-tin コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "第17回 証明書って何のためにある？ブラウザーが相手を信頼する仕組み | APC 技術ブログ",
-      "link": "https://techblog.ap-com.co.jp/entry/2026/09/19/192723",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-19T10:27:23",
-      "excerpt": "HTTPSではTLSによって通信内容が暗号化されます。では、暗号化する前にBrowserはどうやって、 「今つながろうとしている相手は、本当にこのWebサイトなのか？」 を確認しているのでしょうか。…"
+      "title": "AIブームは地球を6周する電子廃棄物の痕跡を残す可能性がある",
+      "link": "https://www.theregister.com/off-prem/2026/09/19/ai-boom-could-leave-an-e-waste-trail-that-wraps-6-times-around-earth/5297451",
+      "source": "The Register（英語）",
+      "published": "2026-09-19T13:30:00",
+      "excerpt": "レポートによると、GPU に焦点を当てた見積もりでは、廃棄される予定の電源、冷却、ネットワーキング機器の山が見逃されている"
     }
   ]
 }
