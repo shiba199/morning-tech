@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-20T16:36:54",
+  "generated_at": "2026-09-20T19:10:14",
   "window_hours": 24,
-  "total": 91,
+  "total": 95,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が12件。記事の URL: https://pirateface.co/ コメント URL: https://news.ycombinator.com/item?id=49776699 ポイント: 38 コメント数: 6",
+      "summary": "生成AIの新着が10件。記事の URL: https://pirateface.co/ コメント URL: https://news.ycombinator.com/item?id=49776699 ポイント: 38 コメント数: 6",
       "articles": [
         {
           "title": "Pirate Face が LLM モデルを削除から救出",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。この記事の位置づけ SAA-C03 直前チートシート全 6 回の第 5 回（管理・監視・移行／高可用性・DR・コスト最適化）です。当日戦略・早見表 200 行・シリーズ目次は 第 1 回 にあります。…",
+      "summary": "クラウドの新着が11件。はじめに 友人とValheimをやるために、AWSでマルチプレイ用のサーバーを立てた。ローカルでポート開放し、立ててもよかったけど、この記事をみて、AWSに挑戦してみました！…",
       "articles": [
+        {
+          "title": "AWS初心者が友達とゲームがしたいからEC2でサーバーを立ててみた",
+          "link": "https://qiita.com/bridgebook1125/items/91d6046619a0b8ce6e5c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-20T17:20:22",
+          "excerpt": "はじめに 友人とValheimをやるために、AWSでマルチプレイ用のサーバーを立てた。ローカルでポート開放し、立ててもよかったけど、この記事をみて、AWSに挑戦してみました！…"
+        },
         {
           "title": "【SAA-C03】直前チートシート (5/6) 管理・監視・移行／高可用性・DR・コスト最適化",
           "link": "https://qiita.com/naoto_tech_AI/items/ede8a1868d6c5b0101bb",
@@ -59,25 +66,18 @@
           "excerpt": "AWS PrivateLink トンネルエンドポイントで、両側が同じ CIDR（10.0.0.0/16）の VPC 間の HTTP 疎通を確認しました。…"
         },
         {
-          "title": "【AWS 初学者向け】マネジメントコンソールで CloudWatch エージェントを設定して Amazon EC2 のメモリ使用率を取得する",
-          "link": "https://dev.classmethod.jp/articles/amazon-ec2-memory-metrics-management-console/",
-          "source": "DevelopersIO",
-          "published": "2026-09-20T07:23:33",
-          "excerpt": "EC2のメモリ使用率をCloudWatchで監視したい場合、CloudWatchエージェントの導入が必須です。マネジメントコンソールとSystems Managerだけでシンプルに設定する手順を紹介します。"
-        },
-        {
-          "title": "VPCエンドポイント 〜ゲートウェイ型とインターフェース型の違い〜",
-          "link": "https://qiita.com/nabeo_ji/items/1548dea46fdab9ceee4b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-20T00:22:46",
-          "excerpt": "この記事の前提 対象読者: AWSのネットワークを触っている人。…"
+          "title": "IAM Roles AnywhereでオンプレミスKubernetes PodからAWSリソースを利用する方法",
+          "link": "https://zenn.dev/metalmental/articles/20260920_kubernetes-pod-use-iam-roles-anywhere",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-20T11:36:17",
+          "excerpt": "はじめに 前回はオンプレミス環境のKubernetesからECRのImageをPullしました 今回はKubernetesのPodからAWSリソースを利用します 具体的にはaws cliが実行可能なImageでPodを起動し、aws s3…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。この記事の位置づけ SAA-C03 直前チートシート全 6 回の第 4 回（セキュリティ・アプリケーション統合・分析）です。当日戦略・早見表 200 行・シリーズ目次は 第 1 回 にあります。…",
+      "summary": "セキュリティの新着が6件。この記事の位置づけ SAA-C03 直前チートシート全 6 回の第 4 回（セキュリティ・アプリケーション統合・分析）です。当日戦略・早見表 200 行・シリーズ目次は 第 1 回 にあります。…",
       "articles": [
         {
           "title": "【SAA-C03】直前チートシート (4/6) セキュリティ・アプリケーション統合・分析",
@@ -85,6 +85,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-20T12:25:00",
           "excerpt": "この記事の位置づけ SAA-C03 直前チートシート全 6 回の第 4 回（セキュリティ・アプリケーション統合・分析）です。当日戦略・早見表 200 行・シリーズ目次は 第 1 回 にあります。…"
+        },
+        {
+          "title": "IAM Roles AnywhereでオンプレミスKubernetes PodからAWSリソースを利用する方法",
+          "link": "https://zenn.dev/metalmental/articles/20260920_kubernetes-pod-use-iam-roles-anywhere",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-20T11:36:17",
+          "excerpt": "はじめに 前回はオンプレミス環境のKubernetesからECRのImageをPullしました 今回はKubernetesのPodからAWSリソースを利用します 具体的にはaws cliが実行可能なImageでPodを起動し、aws s3…"
         },
         {
           "title": "AWS IAM まとめ",
@@ -99,20 +106,13 @@
           "source": "DevelopersIO",
           "published": "2026-09-20T01:44:39",
           "excerpt": "これで無駄なテストを減らせるぞ...！"
-        },
-        {
-          "title": "公開エンドポイントの扱いとセキュリティ設計― Lambda Function URL を直埋めしたときに起きる運用リスクと、初期対策の考え方",
-          "link": "https://qiita.com/yadeharuun1226-collab/items/9f9c2f2ba3259f6cfdcf",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-19T23:38:46",
-          "excerpt": "結論 公開エンドポイントをフロントに直埋めすると、 認証なしアクセス・悪用・レート無制限といった運用リスクが一気に跳ね上がる。本番運用では必ず「認証」「レート制限」「監視」の三点セットが必要になる。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。これを受信箱に受け取るには、ここから無料でサインアップしてください。…",
+      "summary": "データ分析の新着が1件。TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。これを受信箱に受け取るには、ここから無料でサインアップしてください。…",
       "articles": [
         {
           "title": "TechCrunch Mobility: AV が十分に安全であるかどうかをどうやって判断するのでしょうか?",
@@ -120,13 +120,6 @@
           "source": "TechCrunch（英語）",
           "published": "2026-09-20T16:02:00",
           "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。これを受信箱に受け取るには、ここから無料でサインアップしてください。…"
-        },
-        {
-          "title": "[アップデート] Amazon Quick で画像やプロンプトからBI画面を自動生成できるようになったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/20260919-amazon-quick-generate-sheets-and-analysis-from-an-image/",
-          "source": "DevelopersIO",
-          "published": "2026-09-19T16:52:26",
-          "excerpt": "Amazon Quick に新しく追加された「Generate Sheet」と「画像からの分析生成」機能を実際に試してみました。マイグレーションが捗る画期的なアップデートです。…"
         }
       ]
     },
@@ -143,6 +136,13 @@
           "excerpt": "はじめに CloudFormationを実行する際、準拠しているリソースかどうかチェックしてくれる CloudFormation Hook を使ってみました。設定は自作もできるようですが、ここではAWSにて出来合いのものを指定しました。…"
         },
         {
+          "title": "Terraform S3ライフサイクル inconsistent result after apply の原因と正しい filter",
+          "link": "https://zenn.dev/riverwell2359/articles/aws-terraform-s3-lifecycle-inconsistent-result",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-20T11:18:59",
+          "excerpt": "aws_s3_bucket_lifecycle_configuration を apply したときに出る Provider produced inconsistent result after apply について、原因になった prov…"
+        },
+        {
           "title": "CodeBuild hosted GitHub Actions runner で宣言的スキーマ管理を回す",
           "link": "https://zenn.dev/winebarrel/articles/181f9fc57a75ae",
           "source": "Zenn AWSトピック",
@@ -155,45 +155,38 @@
           "source": "CodeZine",
           "published": "2026-09-20T08:00:00",
           "excerpt": "GitHub Copilot CLIのカスタマイズ利用状況を利用メトリクスAPIに追加"
-        },
-        {
-          "title": "us-east-1 に作られる AWS Chatbot のロググループに、CDK で保持期間を入れる方法を確かめてみた",
-          "link": "https://dev.classmethod.jp/articles/cdk-chatbot-loggroup-retention/",
-          "source": "DevelopersIO",
-          "published": "2026-09-20T05:23:28",
-          "excerpt": "AWS Chatbot のロググループは、スタックが東京リージョンでも us-east-1 に作られます。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "カリフォルニア州の新法、インフルエンサーが政治広告を公開しないと罰則へ",
-      "link": "https://techcrunch.com/2026/09/20/new-california-law-will-penalize-influencers-dont-disclose-political-ads/",
+      "title": "AI 業界は本当に減速する準備ができているのでしょうか?",
+      "link": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-20T16:30:00",
-      "excerpt": "新しい法律は、政治についての投稿で報酬を得ているオンラインインフルエンサーに対する開示要件に歯止めを加えた。"
+      "published": "2026-09-20T18:56:04",
+      "excerpt": "エクイティについては、Ai の幹部が本気で減速したいと考えているかどうかについて議論しました。"
     },
     {
-      "title": "一電子宇宙",
-      "link": "https://en.wikipedia.org/wiki/One-electron_universe",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-20T15:28:05",
-      "excerpt": "記事の URL: https://en.wikipedia.org/wiki/One-electron_universe コメント URL: https://news.ycombinator.com/item?…"
+      "title": "Vocci のリングは会議のメモ取りに新しいフォームファクターを追加します",
+      "link": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-20T18:32:52",
+      "excerpt": "Vocci の軽量リングの価格は 249 ドルだが、プライバシーの問題が生じる可能性がある"
     },
     {
-      "title": "シンガポール、人々に携帯電話を置いて本を読むためにお金を払っている",
-      "link": "https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-20T15:18:05",
-      "excerpt": "記事の URL: https://www.gadgetreview.…"
+      "title": "「L4 プロキシがあればグローバル IP は要らない」とは何か：公開するのは入口だけ、を AWS の構成で整理する",
+      "link": "https://qiita.com/gtakairo/items/433200bfc8ee2721539d",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-20T18:03:19",
+      "excerpt": "はじめに インフラの会話で「L4 プロキシを入れるから、サーバーにグローバル IP は要らないよ」と聞いた。分かったような、分からないような一文である。何が「要らない」のか。…"
     },
     {
-      "title": "シャーライン・ツールズが廃業へ",
-      "link": "https://toolguyd.com/sherline-tools-shutting-down-usa-production/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-20T15:09:41",
-      "excerpt": "記事の URL: https://toolguyd.com/sherline-tools-shutting-down-usa-production/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "ScrollEdは教科書をTikTokに変えたいと考えている",
+      "link": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-20T18:00:00",
+      "excerpt": "ScrollEd は教科書をビデオ、音声、クイズを備えたスクロール可能な Instagram のようなフィードに変えます。…"
     }
   ]
 }
