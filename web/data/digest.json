@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-20T19:10:14",
+  "generated_at": "2026-09-20T21:40:57",
   "window_hours": 24,
-  "total": 95,
+  "total": 96,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が10件。記事の URL: https://pirateface.co/ コメント URL: https://news.ycombinator.com/item?id=49776699 ポイント: 38 コメント数: 6",
+      "summary": "生成AIの新着が13件。記事の URL: https://www.reuters.…",
       "articles": [
+        {
+          "title": "OpenAIのサム・アルトマン氏、来週国連安全保障理事会で報告へ",
+          "link": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-20T20:32:43",
+          "excerpt": "記事の URL: https://www.reuters.…"
+        },
+        {
+          "title": "Bedrock マネージドナレッジベースの自動同期スケジュールを Terraform で設定してみた",
+          "link": "https://qiita.com/leomarokun/items/dfaafc8a547ece40b938",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-20T19:14:05",
+          "excerpt": "はじめに RAG のナレッジベースを運用していると、地味に面倒なのが同期です。S3 にファイルを置き直した、Confluence のページを直した、そのたびに「同期」を手で叩かないと、エージェントは古い情報のまま答え続けます。…"
+        },
         {
           "title": "Pirate Face が LLM モデルを削除から救出",
           "link": "https://pirateface.co/",
@@ -17,25 +31,11 @@
           "excerpt": "記事の URL: https://pirateface.co/ コメント URL: https://news.ycombinator.com/item?id=49776699 ポイント: 38 コメント数: 6"
         },
         {
-          "title": "Slack MCPとClaude Coworkで提案書作成を半自動化してみた",
-          "link": "https://dev.classmethod.jp/articles/sliding-with-claude-cowork-and-slack/",
-          "source": "DevelopersIO",
-          "published": "2026-09-20T13:46:53",
-          "excerpt": "Slackの案件スレッドをClaude Coworkに読ませて、提案書スライド作成を3～5時間から35分に短縮した運用を紹介します。コンテキスト管理からスライド自動生成、実装手順まで、プリセールスの時間をAIに返す仕組みをお伝えします。"
-        },
-        {
-          "title": "AWSの最軽量LLM「Amazon Nova Micro」がJevの代わりとなるか検証してみた",
-          "link": "https://qiita.com/nasuvitz/items/4d27833640ff36b5d8c5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-20T12:47:53",
-          "excerpt": "はじめに 判断や評価を確率として返すAIモデル「Jev」が注目を集めています。Jevは、用途を絞ることで、高速なレスポンスを実現している点も特徴です。…"
-        },
-        {
-          "title": "【AWS 初学者向け】マネジメントコンソールで CloudWatch エージェントを設定して Amazon EC2 のメモリ使用率を取得する",
-          "link": "https://dev.classmethod.jp/articles/amazon-ec2-memory-metrics-management-console/",
-          "source": "DevelopersIO",
-          "published": "2026-09-20T07:23:33",
-          "excerpt": "EC2のメモリ使用率をCloudWatchで監視したい場合、CloudWatchエージェントの導入が必須です。マネジメントコンソールとSystems Managerだけでシンプルに設定する手順を紹介します。"
+          "title": "AgentCore Runtime V2 のコールドスタート実測 - 18 秒から 1.8 秒へ",
+          "link": "https://zenn.dev/aws_japan/articles/sdpm-agentcore-runtime-v2-cold-start",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-20T14:21:11",
+          "excerpt": "Spec-Driven Presentation Maker 開発チームの片岡です。…"
         }
       ]
     },
@@ -52,6 +52,13 @@
           "excerpt": "はじめに 友人とValheimをやるために、AWSでマルチプレイ用のサーバーを立てた。ローカルでポート開放し、立ててもよかったけど、この記事をみて、AWSに挑戦してみました！…"
         },
         {
+          "title": "1 ユーザで運用していた RDS for MySQL に、ロールを切って admin を常用しない",
+          "link": "https://zenn.dev/kazusa_nakagawa/articles/202609-mysql-role-design",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-20T12:50:53",
+          "excerpt": "要点 採った設計はこれだけです。ロール名は自作せず、公式マニュアルの app_developer / app_read / app_write に寄せた。ロールとユーザは mysql.…"
+        },
+        {
           "title": "【SAA-C03】直前チートシート (5/6) 管理・監視・移行／高可用性・DR・コスト最適化",
           "link": "https://qiita.com/naoto_tech_AI/items/ede8a1868d6c5b0101bb",
           "source": "Qiita AWSタグ",
@@ -64,13 +71,6 @@
           "source": "DevelopersIO",
           "published": "2026-09-20T12:24:45",
           "excerpt": "AWS PrivateLink トンネルエンドポイントで、両側が同じ CIDR（10.0.0.0/16）の VPC 間の HTTP 疎通を確認しました。…"
-        },
-        {
-          "title": "IAM Roles AnywhereでオンプレミスKubernetes PodからAWSリソースを利用する方法",
-          "link": "https://zenn.dev/metalmental/articles/20260920_kubernetes-pod-use-iam-roles-anywhere",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-20T11:36:17",
-          "excerpt": "はじめに 前回はオンプレミス環境のKubernetesからECRのImageをPullしました 今回はKubernetesのPodからAWSリソースを利用します 具体的にはaws cliが実行可能なImageでPodを起動し、aws s3…"
         }
       ]
     },
@@ -126,8 +126,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。はじめに CloudFormationを実行する際、準拠しているリソースかどうかチェックしてくれる CloudFormation Hook を使ってみました。設定は自作もできるようですが、ここではAWSにて出来合いのものを指定しました。…",
+      "summary": "開発ツールの新着が8件。はじめに RAG のナレッジベースを運用していると、地味に面倒なのが同期です。S3 にファイルを置き直した、Confluence のページを直した、そのたびに「同期」を手で叩かないと、エージェントは古い情報のまま答え続けます。…",
       "articles": [
+        {
+          "title": "Bedrock マネージドナレッジベースの自動同期スケジュールを Terraform で設定してみた",
+          "link": "https://qiita.com/leomarokun/items/dfaafc8a547ece40b938",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-20T19:14:05",
+          "excerpt": "はじめに RAG のナレッジベースを運用していると、地味に面倒なのが同期です。S3 にファイルを置き直した、Confluence のページを直した、そのたびに「同期」を手で叩かないと、エージェントは古い情報のまま答え続けます。…"
+        },
+        {
+          "title": "TerraformによるPCI DSS学習ラボ構築（1）～ CDE分離・監査ログ・OpenVAS環境と、休止までのIaC管理 ～",
+          "link": "https://zenn.dev/nyondev/articles/zenn_part1_article",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-20T17:29:36",
+          "excerpt": "!本記事の構成は学習用ラボです。この構成を作っただけでPCI DSS準拠を証明できるものではありません。…"
+        },
         {
           "title": "CloudFormation Hookを使ってみた",
           "link": "https://qiita.com/a_b_/items/43091ff95061a97005f6",
@@ -141,52 +155,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-09-20T11:18:59",
           "excerpt": "aws_s3_bucket_lifecycle_configuration を apply したときに出る Provider produced inconsistent result after apply について、原因になった prov…"
-        },
-        {
-          "title": "CodeBuild hosted GitHub Actions runner で宣言的スキーマ管理を回す",
-          "link": "https://zenn.dev/winebarrel/articles/181f9fc57a75ae",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-20T08:38:58",
-          "excerpt": "管理対象の RDS が VPC の中にいる場合に、VPC に置いた CodeBuild プロジェクトを CodeBuild hosted GitHub Actions runner として使い、DB マイグレーションを動かすサンプルを作って…"
-        },
-        {
-          "title": "GitHub Copilot CLIのカスタマイズ利用状況を利用メトリクスAPIに追加",
-          "link": "https://codezine.jp/article/detail/29757",
-          "source": "CodeZine",
-          "published": "2026-09-20T08:00:00",
-          "excerpt": "GitHub Copilot CLIのカスタマイズ利用状況を利用メトリクスAPIに追加"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AI 業界は本当に減速する準備ができているのでしょうか?",
-      "link": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-20T18:56:04",
-      "excerpt": "エクイティについては、Ai の幹部が本気で減速したいと考えているかどうかについて議論しました。"
+      "title": "FOSS にお金を払う人は誰もいません、私たちは彼らに強制することができます",
+      "link": "https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-20T21:04:32",
+      "excerpt": "記事の URL: https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/ コメント URL: https://news.ycombinator.…"
     },
     {
-      "title": "Vocci のリングは会議のメモ取りに新しいフォームファクターを追加します",
-      "link": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/",
+      "title": "世界モデル企業は多くの秘密を隠している",
+      "link": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-20T18:32:52",
-      "excerpt": "Vocci の軽量リングの価格は 249 ドルだが、プライバシーの問題が生じる可能性がある"
+      "published": "2026-09-20T20:29:07",
+      "excerpt": "ワールド モデルの分野に携わる誰もが、多額の現金と大量の話題に座っていますが、創設者から自社のデータ サプライヤーに至るまで、誰にでも実際に何を構築しているのかを語ってもらえるのは幸運です。"
     },
     {
-      "title": "「L4 プロキシがあればグローバル IP は要らない」とは何か：公開するのは入口だけ、を AWS の構成で整理する",
-      "link": "https://qiita.com/gtakairo/items/433200bfc8ee2721539d",
+      "title": "AWS DVAに合格しました！参考書なし・CloudTechを5周した勉強法",
+      "link": "https://qiita.com/HiruK/items/55409a84a7322e711512",
       "source": "Qiita AWSタグ",
-      "published": "2026-09-20T18:03:19",
-      "excerpt": "はじめに インフラの会話で「L4 プロキシを入れるから、サーバーにグローバル IP は要らないよ」と聞いた。分かったような、分からないような一文である。何が「要らない」のか。…"
+      "published": "2026-09-20T20:00:04",
+      "excerpt": "はじめに AWS Certified Developer - Associate（DVA）に合格しました！今回は、参考書を使わず、CloudTechの問題集をひたすら周回する方法で勉強しました。…"
     },
     {
-      "title": "ScrollEdは教科書をTikTokに変えたいと考えている",
-      "link": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-20T18:00:00",
-      "excerpt": "ScrollEd は教科書をビデオ、音声、クイズを備えたスクロール可能な Instagram のようなフィードに変えます。…"
+      "title": "フロンティアラボはワシントンで愚か者にゴミを売っている",
+      "link": "https://deadneurons.substack.com/p/frontier-labs-are-selling-garbage",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-20T19:55:36",
+      "excerpt": "記事の URL: https://deadneurons.substack.com/p/frontier-labs-are- Selling-garbage コメント URL: https://news.ycombinator.…"
     }
   ]
 }
