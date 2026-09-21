@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-21T08:04:15",
+  "generated_at": "2026-09-21T15:12:25",
   "window_hours": 24,
-  "total": 117,
+  "total": 116,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。はじめに 「Kiro × AWS Agentic Engineering」をテーマに、AWS開発ライフサイクルをどこまでAgenticにできるのかを10の検証で確かめています。今回はその第7弾です。これまでの検証はこちらです。…",
+      "summary": "生成AIの新着が15件。Google の AI ネイティブ Googlebook は、Gemini をカーソル、ディクテーション、ウィジェット、およびデスクトップ エクスペリエンスのその他の部分と結び付けます。",
       "articles": [
+        {
+          "title": "Google の 899 ドルの Googlebook は、Gemini 用に新しいラップトップを購入する賭けです",
+          "link": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-21T14:39:22",
+          "excerpt": "Google の AI ネイティブ Googlebook は、Gemini をカーソル、ディクテーション、ウィジェット、およびデスクトップ エクスペリエンスのその他の部分と結び付けます。"
+        },
+        {
+          "title": "Amazon が Meta の Muse AI ショッピング エージェントに扉を開く",
+          "link": "https://www.theregister.com/ai-and-ml/2026/09/21/amazon-shows-metas-muse-ai-shopping-agent-the-door/5297777",
+          "source": "The Register（英語）",
+          "published": "2026-09-21T13:28:00",
+          "excerpt": "小売業者は、収益性の高いカスタマー ジャーニーを守る一方で、資格情報と透明性への懸念を指摘"
+        },
         {
           "title": "KiroをArchitect Agentとして専門化すると、Architecture Designに必要な「判断」をどこまで委任できるか",
           "link": "https://zenn.dev/nobu_13/articles/afd98477df218a",
@@ -22,62 +36,48 @@
           "source": "The Register（英語）",
           "published": "2026-09-21T03:50:54",
           "excerpt": "OpenAIが大騒ぎした後も、何か月も秘密にしていた"
-        },
-        {
-          "title": "Amazon Bedrock で一般提供になった Moonshot AI の Kimi K3 を試してみた",
-          "link": "https://dev.classmethod.jp/articles/moonshot-ai-kimi-k3-bedrock/",
-          "source": "DevelopersIO",
-          "published": "2026-09-21T03:43:44",
-          "excerpt": "Amazon Bedrock で一般提供が開始された Moonshot AI の Kimi K3 について、Converse や OpenAI 互換 API、明示的なプロンプトキャッシュなど複数の呼び出し方法を実際に試してみました。"
-        },
-        {
-          "title": "【脱マルチクラウド】Amazon Connect × Azure OpenAI を Amazon Bedrock に一本化した話 〜金融FAQ回答支援の再設計と効果検証〜",
-          "link": "https://qiita.com/Yasunae-Terada/items/1c233edbaaedb6e472be",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-21T02:34:14",
-          "excerpt": "本記事の数値は実プロジェクトの実測に基づいていますが、顧客・案件が特定されないよう一部を加工しています。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。AWS Transform customを使ったPython 3.10からPython 3.13へのランタイムアップグレードを試してみました。…",
+      "summary": "クラウドの新着が8件。はじめに 2026年9月18日、AWS PrivateLinkに新しいVPCエンドポイントのタイプ「トンネルエンドポイント」が追加されました。…",
       "articles": [
         {
-          "title": "AWS Transform custom で Lambda のランタイムを Python 3.10 から 3.13 にアップグレードしてみた",
-          "link": "https://dev.classmethod.jp/articles/shoma-aws-transform-custom-lambda-runtime-upgrade-python-3-10-to-3-13/",
-          "source": "DevelopersIO",
-          "published": "2026-09-21T07:18:17",
-          "excerpt": "AWS Transform customを使ったPython 3.10からPython 3.13へのランタイムアップグレードを試してみました。…"
-        },
-        {
-          "title": "【ハンズオン】AWSを実際に操作してみた #1-2（アカウント作成、EC2起動）",
-          "link": "https://zenn.dev/hitakaha/articles/bfd0b5b6273d4b",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-21T06:29:21",
-          "excerpt": "はじめに こんにちは、hitakahaです。AWS SAAの学習を始めた当初は、ハンズオンも少しだけ並行して進めていましたが、学習要素に注力するあまり、ハンズオンは後回しになってしまっていました。…"
-        },
-        {
-          "title": "Spring BootをECSにデプロイしてCloudWatch Logsでログを確認する",
-          "link": "https://zenn.dev/sawa_tech/articles/4294b8f41e2080",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-21T05:52:44",
-          "excerpt": "こんにちは、sawaです。前回の記事では、Spring Bootで作成したアプリをLinux上でsystemdサービスとして起動し、アプリのログをsystemd-journaldで確認できるようにしました。https://zenn.…"
-        },
-        {
-          "title": "AWS初心者が友達とゲームがしたいからEC2でサーバーを立ててみた",
-          "link": "https://qiita.com/bridgebook1125/items/91d6046619a0b8ce6e5c",
+          "title": "PrivateLinkの新しいVPCエンドポイント「トンネルタイプ」を2アカウント構成で試して、VPCピアリングと比較してみた",
+          "link": "https://qiita.com/mtmt_factory/items/7cd7c22ded71f772ce45",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-20T17:20:22",
-          "excerpt": "はじめに 友人とValheimをやるために、AWSでマルチプレイ用のサーバーを立てた。ローカルでポート開放し、立ててもよかったけど、この記事をみて、AWSに挑戦してみました！…"
+          "published": "2026-09-21T14:19:51",
+          "excerpt": "はじめに 2026年9月18日、AWS PrivateLinkに新しいVPCエンドポイントのタイプ「トンネルエンドポイント」が追加されました。…"
+        },
+        {
+          "title": "【AWS/DVA学習】注文処理APIをDVAの学習で作成してみる（①DynamoDB連携とLambdaの作成）",
+          "link": "https://qiita.com/keitakei777/items/65b9f14c615e2353abe2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-21T12:52:53",
+          "excerpt": "AWSのDVAというAWSの開発者向けのアソシエイト系の資格に挑戦するにあたり、軽くサービスをハンズオンしたいと思い、記事でまとめていこうと思います。…"
+        },
+        {
+          "title": "MATLAB を EC2 インスタンスに CLI でインストールを試してみた",
+          "link": "https://dev.classmethod.jp/articles/matlab-ec2-install-mpm-cli/",
+          "source": "DevelopersIO",
+          "published": "2026-09-21T11:47:38",
+          "excerpt": "EC2上のUbuntuでMATLABをコマンドラインツール（mpm）を使ってインストールしてみました。評価版ライセンスの取得からスクリプト実行まで、GUI不要でセットアップできる手順をまとめています。"
+        },
+        {
+          "title": "[AWS テクニカル サポート ノート] EC2 バックアップ AWS バックアップ ボリュームเฉพาะบางรายการได้หรือไม่",
+          "link": "https://dev.classmethod.jp/articles/tsnote-thai-aws-backup-ec2-exclude-specific-volumes/",
+          "source": "DevelopersIO",
+          "published": "2026-09-21T08:54:19",
+          "excerpt": "EC2 インスタンスのバックアップ AWS バックアップ EBS ボリューム何か?バックアップ EC2 バックアップバックアップEBS ボリュームの計算"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。・・・AWSリソースへのアクセスを管理するサービス。…",
+      "summary": "セキュリティの新着が5件。・・・AWSリソースへのアクセスを管理するサービス。…",
       "articles": [
         {
           "title": "AWS IAM（AWS ID およびアクセス管理）",
@@ -112,8 +112,22 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。エンタープライズ ネットワーキング ハードウェア ビジネスから撤退し、ユーザーにできるだけ早くオンプレミス ソフトウェアをインストールするよう指示",
+      "summary": "データ分析の新着が5件。AWSのDVAというAWSの開発者向けのアソシエイト系の資格に挑戦するにあたり、軽くサービスをハンズオンしたいと思い、記事でまとめていこうと思います。…",
       "articles": [
+        {
+          "title": "【AWS/DVA学習】注文処理APIをDVAの学習で作成してみる（①DynamoDB連携とLambdaの作成）",
+          "link": "https://qiita.com/keitakei777/items/65b9f14c615e2353abe2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-21T12:52:53",
+          "excerpt": "AWSのDVAというAWSの開発者向けのアソシエイト系の資格に挑戦するにあたり、軽くサービスをハンズオンしたいと思い、記事でまとめていこうと思います。…"
+        },
+        {
+          "title": "DynamoDBでベクトル検索を導入する際は既存のGSIの射影タイプの確認が大事だと思った | NCDC テックブログのフィード",
+          "link": "https://zenn.dev/ncdc/articles/84f508118f0532",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-21T11:15:54",
+          "excerpt": "はじめに2026年8月5日に、DynamoDB のネイティブベクトル検索が GA になりました。https://aws.amazon.…"
+        },
         {
           "title": "失敗したネットワーキング ベンダーの Cambium はクラウド管理ポータルを廃止する予定",
           "link": "https://www.theregister.com/networks/2026/09/21/failed-networking-vendor-cambium-set-to-turn-off-its-cloudy-management-portal/5297647",
@@ -127,80 +141,73 @@
           "source": "DevelopersIO",
           "published": "2026-09-21T01:51:23",
           "excerpt": "AWS Glue の zero-ETL integration で、ターゲットテーブルのプロパティに所有権が記録されるようになり、同じテーブルへの二重書き込みが作成時点で検出・拒否されるようになりました。実際に競合を起こして確かめてみます。"
-        },
-        {
-          "title": "TechCrunch Mobility: AV が十分に安全であるかどうかをどうやって判断するのでしょうか?",
-          "link": "https://techcrunch.com/2026/09/20/techcrunch-mobility-how-do-we-know-when-an-av-is-safe-enough/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-20T16:02:00",
-          "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。これを受信箱に受け取るには、ここから無料でサインアップしてください。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。こんにちは、sawaです。前回の記事では、Spring Bootで作成したアプリをLinux上でsystemdサービスとして起動し、アプリのログをsystemd-journaldで確認できるようにしました。https://zenn.…",
+      "summary": "開発ツールの新着が11件。EC2上のUbuntuでMATLABをコマンドラインツール（mpm）を使ってインストールしてみました。評価版ライセンスの取得からスクリプト実行まで、GUI不要でセットアップできる手順をまとめています。",
       "articles": [
         {
-          "title": "Spring BootをECSにデプロイしてCloudWatch Logsでログを確認する",
-          "link": "https://zenn.dev/sawa_tech/articles/4294b8f41e2080",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-21T05:52:44",
-          "excerpt": "こんにちは、sawaです。前回の記事では、Spring Bootで作成したアプリをLinux上でsystemdサービスとして起動し、アプリのログをsystemd-journaldで確認できるようにしました。https://zenn.…"
-        },
-        {
-          "title": "[レポート] データの隣で AI アプリを爆速デプロイ - App Runtime & Cortex SDK ご紹介 #SWTTokyo26",
-          "link": "https://dev.classmethod.jp/articles/bs1149-app-runtime-cortex-sdk-swttokyo26/",
+          "title": "MATLAB を EC2 インスタンスに CLI でインストールを試してみた",
+          "link": "https://dev.classmethod.jp/articles/matlab-ec2-install-mpm-cli/",
           "source": "DevelopersIO",
-          "published": "2026-09-21T01:34:23",
-          "excerpt": "SNOWFLAKE WORLD TOUR TOKYO 2026で紹介されたSnowflake App RuntimeとCoCo Agent SDK についてのセッションのレポートです。…"
+          "published": "2026-09-21T11:47:38",
+          "excerpt": "EC2上のUbuntuでMATLABをコマンドラインツール（mpm）を使ってインストールしてみました。評価版ライセンスの取得からスクリプト実行まで、GUI不要でセットアップできる手順をまとめています。"
         },
         {
-          "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-09-21)",
-          "link": "https://qiita.com/iestudy/items/64c0660085c4b0153f8d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-21T00:02:21",
-          "excerpt": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-09-21) はじめに 本記事では、GitHub・GCP（Compute Engine / GKE）から公開された直近のセキュリティ関連情報を3件取り上げ、内容の解説…"
+          "title": "CDK（Python）でよく見る self / props / __init__.py を徹底整理してみた",
+          "link": "https://zenn.dev/sf_tech_1026/articles/cdk-python-self-props-init",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-21T08:29:11",
+          "excerpt": "はじめに 実務では、すでに完成しているリポジトリのコードを読み解きながら修正を加える機会が多いのですが、その中で毎回のように登場するのが self、props、__init__.py といったものです。…"
         },
         {
-          "title": "GitHub issueの添付画像がAPIトークンで404になる理由とgh CLIでの回避策 | KENTEM TechBlog",
-          "link": "https://tech.kentem.jp/entry/2026/09/21/090000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-21T00:00:00",
-          "excerpt": "こんにちは！Claude一途の3年目エンジニアのH.Rです！今回は、GitHubのissue添付画像がAPIトークンでは404になってしまう仕様と、gh CLIの認証を使った回避策、そして実際に作ったCLIツールについて紹介します。…"
+          "title": "cdk-real-driftを使ったCDKでのstate管理",
+          "link": "https://zenn.dev/yuuyass/articles/9fe347cbb06a9f",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-21T08:25:37",
+          "excerpt": "cdk-real-drift とは？cdk-real-drift（cdkrd）は @365_step_tech 氏が開発した OSS ツール（Apache-2.…"
+        },
+        {
+          "title": "AIが得意な言語、苦手な言語はどれ？　AWS・GitHub・Googleの分析から読み解く",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/21/news025.html",
+          "source": "@IT",
+          "published": "2026-09-21T08:00:00",
+          "excerpt": "AIに任せる業務を増やすことでスピードが向上する一方、品質保証への不安も増大しています。そんな中、開発者の間では「AIをいかに制御、管理するか」を考える上で、「どのプログミラング言語のコードを生成するか」も注目されています。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "あなたのクラウドは現実世界以外のすべてを生き延びました",
-      "link": "https://www.theregister.com/columnists/2026/09/21/your-cloud-survived-everything-except-the-real-world/5297423",
-      "source": "The Register（英語）",
-      "published": "2026-09-21T08:03:00",
-      "excerpt": "戦争被害、航空交通の混乱、貯蔵不足により、レジリエンスを他人事として扱うコストが明らかになっている"
+      "title": "次のブレイクアウトスタートアップはどこから生まれるのでしょうか? Benchmark の完全なパートナーシップが TechCrunch Disrupt 2026 に影響を与える",
+      "link": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-21T15:00:00",
+      "excerpt": "次のブレイクアウトスタートアップはどこから生まれるのでしょうか?TechCrunch Disrupt 2026 のメインステージでは、Benchmark の完全なパートナーシップが重視されます。…"
     },
     {
-      "title": "AI に書かせるほど DB が詰まる — コネクションプールは「1本ずつ正しい」では足りない",
-      "link": "https://zenn.dev/maruchi777/articles/f07e5483fb24e4",
-      "source": "Zenn AWSトピック",
-      "published": "2026-09-21T07:55:21",
-      "excerpt": "AI に機能を足してもらう速度が上がったあと、最初に壊れたのは DB でした。コードは1つずつ見れば全部正しい。テストも通る。それでも remaining connection slots are reserved が出る。…"
-    },
-    {
-      "title": "【徹底比較】Linux環境にOCIを選んだ話｜OCI・AWS・Azure・Google CloudとRaspberry Pi・ミニPC",
-      "link": "https://zenn.dev/rioseccaloca/articles/d14f23a79060e8",
-      "source": "Zenn AWSトピック",
-      "published": "2026-09-21T07:36:36",
-      "excerpt": "はじめに 今回は、個人用途でLinux環境を用意するにあたって、IaaSと物理端末を比較した話を書きます。…"
-    },
-    {
-      "title": "Kev: Qwen3.5 上に構築された小さな Jev のような意思決定モデル ファミリ",
-      "link": "https://github.com/jaredpalmer/kev/tree/main",
+      "title": "メタがスペインでヴァージニア・ウルフのプレーの広告を禁止",
+      "link": "https://www.theguardian.com/technology/2026/sep/21/meta-ban-virginia-woolf-a-room-of-ones-own-barcelona-teatre-raval",
       "source": "Hacker News（英語）",
-      "published": "2026-09-21T07:11:55",
-      "excerpt": "記事の URL: https://github.com/jaredpalmer/kev/tree/main コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-09-21T14:30:39",
+      "excerpt": "記事の URL: https://www.theguardian.…"
+    },
+    {
+      "title": "クロードの妄想",
+      "link": "https://pluralistic.net/2026/09/21/sunsetting/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-21T14:30:24",
+      "excerpt": "記事の URL: https://pluralistic.net/2026/09/21/sunsetting/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "最初のユーザーから数十億人へ: Google の Robby Stein が TechCrunch Disrupt 2026 に参加",
+      "link": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-21T14:30:00",
+      "excerpt": "最初のユーザーから数十億人まで: Google の Robby Stein が TechCrunch Disrupt 2026 に参加します。この Builders Stage セッションに参加してください。…"
     }
   ]
 }
