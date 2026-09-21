@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-09-21T02:07:36",
+  "generated_at": "2026-09-21T08:04:15",
   "window_hours": 24,
-  "total": 108,
+  "total": 117,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。Jev との比較から見えた、生成型LLMの意外な弱点。出力を極限まで絞ってもなお、速度とコストで大きな差が出た理由を、107ケースの検証結果から探ります。",
+      "summary": "生成AIの新着が17件。はじめに 「Kiro × AWS Agentic Engineering」をテーマに、AWS開発ライフサイクルをどこまでAgenticにできるのかを10の検証で確かめています。今回はその第7弾です。これまでの検証はこちらです。…",
       "articles": [
         {
-          "title": "【TypeSafe】出力を絞ればLLMも速くなる？ Gemini 3.8 Flash と Jev で同じ107ケースの速度・コストを比較してみた",
-          "link": "https://dev.classmethod.jp/articles/jev-vs-gemini-flash-cross-match/",
+          "title": "KiroをArchitect Agentとして専門化すると、Architecture Designに必要な「判断」をどこまで委任できるか",
+          "link": "https://zenn.dev/nobu_13/articles/afd98477df218a",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-21T04:29:32",
+          "excerpt": "はじめに 「Kiro × AWS Agentic Engineering」をテーマに、AWS開発ライフサイクルをどこまでAgenticにできるのかを10の検証で確かめています。今回はその第7弾です。これまでの検証はこちらです。…"
+        },
+        {
+          "title": "Google、パートナーのインターネット アクセス エラーを受けて「おっと、エージェントが誰かをハッキングした」クラブに参加",
+          "link": "https://www.theregister.com/ai-and-ml/2026/09/21/google-joins-the-oops-our-agents-hacked-someone-club-after-partners-internet-access-error/5297640",
+          "source": "The Register（英語）",
+          "published": "2026-09-21T03:50:54",
+          "excerpt": "OpenAIが大騒ぎした後も、何か月も秘密にしていた"
+        },
+        {
+          "title": "Amazon Bedrock で一般提供になった Moonshot AI の Kimi K3 を試してみた",
+          "link": "https://dev.classmethod.jp/articles/moonshot-ai-kimi-k3-bedrock/",
           "source": "DevelopersIO",
-          "published": "2026-09-21T01:18:35",
-          "excerpt": "Jev との比較から見えた、生成型LLMの意外な弱点。出力を極限まで絞ってもなお、速度とコストで大きな差が出た理由を、107ケースの検証結果から探ります。"
+          "published": "2026-09-21T03:43:44",
+          "excerpt": "Amazon Bedrock で一般提供が開始された Moonshot AI の Kimi K3 について、Converse や OpenAI 互換 API、明示的なプロンプトキャッシュなど複数の呼び出し方法を実際に試してみました。"
         },
         {
-          "title": "【簡単AWS MLA】【初心者向け】Day 15：SageMaker Model Registry を整理する — モデルのバージョン管理と承認フロー",
-          "link": "https://qiita.com/MetaYuan/items/1d2b283d8b7d23b1bd43",
+          "title": "【脱マルチクラウド】Amazon Connect × Azure OpenAI を Amazon Bedrock に一本化した話 〜金融FAQ回答支援の再設計と効果検証〜",
+          "link": "https://qiita.com/Yasunae-Terada/items/1c233edbaaedb6e472be",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-20T23:28:41",
-          "excerpt": "はじめに 前回は、SageMaker Pipelines と MLOps について整理しました。…"
-        },
-        {
-          "title": "「毎日使う68％」　AIコーディングエージェントの現在地　プロフェッショナル開発者1万5000人に聞いた",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/21/news019.html",
-          "source": "@IT",
-          "published": "2026-09-20T23:00:00",
-          "excerpt": "JetBrainsは開発者が利用するツールセット、実践、技術、意識を幅広く調べている年次調査「Developer Ecosystem Survey 2026」の結果を公表した。"
-        },
-        {
-          "title": "Google のオープン エージェント オーケストレーター",
-          "link": "https://agentexecutor.io",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-20T22:32:43",
-          "excerpt": "記事の URL: https://agentexecutor.io コメント URL: https://news.ycombinator.com/item?id=49780797 ポイント: 53 コメント数: 10"
+          "published": "2026-09-21T02:34:14",
+          "excerpt": "本記事の数値は実プロジェクトの実測に基づいていますが、顧客・案件が特定されないよう一部を加工しています。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。はじめに 友人とValheimをやるために、AWSでマルチプレイ用のサーバーを立てた。ローカルでポート開放し、立ててもよかったけど、この記事をみて、AWSに挑戦してみました！…",
+      "summary": "クラウドの新着が10件。AWS Transform customを使ったPython 3.10からPython 3.13へのランタイムアップグレードを試してみました。…",
       "articles": [
+        {
+          "title": "AWS Transform custom で Lambda のランタイムを Python 3.10 から 3.13 にアップグレードしてみた",
+          "link": "https://dev.classmethod.jp/articles/shoma-aws-transform-custom-lambda-runtime-upgrade-python-3-10-to-3-13/",
+          "source": "DevelopersIO",
+          "published": "2026-09-21T07:18:17",
+          "excerpt": "AWS Transform customを使ったPython 3.10からPython 3.13へのランタイムアップグレードを試してみました。…"
+        },
+        {
+          "title": "【ハンズオン】AWSを実際に操作してみた #1-2（アカウント作成、EC2起動）",
+          "link": "https://zenn.dev/hitakaha/articles/bfd0b5b6273d4b",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-21T06:29:21",
+          "excerpt": "はじめに こんにちは、hitakahaです。AWS SAAの学習を始めた当初は、ハンズオンも少しだけ並行して進めていましたが、学習要素に注力するあまり、ハンズオンは後回しになってしまっていました。…"
+        },
+        {
+          "title": "Spring BootをECSにデプロイしてCloudWatch Logsでログを確認する",
+          "link": "https://zenn.dev/sawa_tech/articles/4294b8f41e2080",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-21T05:52:44",
+          "excerpt": "こんにちは、sawaです。前回の記事では、Spring Bootで作成したアプリをLinux上でsystemdサービスとして起動し、アプリのログをsystemd-journaldで確認できるようにしました。https://zenn.…"
+        },
         {
           "title": "AWS初心者が友達とゲームがしたいからEC2でサーバーを立ててみた",
           "link": "https://qiita.com/bridgebook1125/items/91d6046619a0b8ce6e5c",
           "source": "Qiita AWSタグ",
           "published": "2026-09-20T17:20:22",
           "excerpt": "はじめに 友人とValheimをやるために、AWSでマルチプレイ用のサーバーを立てた。ローカルでポート開放し、立ててもよかったけど、この記事をみて、AWSに挑戦してみました！…"
-        },
-        {
-          "title": "GitHub - minorun365/agent-builder-skills: AWSでAIエージェントのWebアプリを作るためのスキル集（Bedrock AgentCore・Strands Agents・AWS CDK・Lambda Web Adapter・Cognito・SSE）",
-          "link": "https://github.com/minorun365/agent-builder-skills",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-20T14:59:58",
-          "excerpt": "You signed in with another tab or window.Reload to refresh your session.You signed out in another tab or window.…"
-        },
-        {
-          "title": "1 ユーザで運用していた RDS for MySQL に、ロールを切って admin を常用しない",
-          "link": "https://zenn.dev/kazusa_nakagawa/articles/202609-mysql-role-design",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-20T12:50:53",
-          "excerpt": "要点 採った設計はこれだけです。ロール名は自作せず、公式マニュアルの app_developer / app_read / app_write に寄せた。ロールとユーザは mysql.…"
-        },
-        {
-          "title": "【SAA-C03】直前チートシート (5/6) 管理・監視・移行／高可用性・DR・コスト最適化",
-          "link": "https://qiita.com/naoto_tech_AI/items/ede8a1868d6c5b0101bb",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-20T12:24:59",
-          "excerpt": "この記事の位置づけ SAA-C03 直前チートシート全 6 回の第 5 回（管理・監視・移行／高可用性・DR・コスト最適化）です。当日戦略・早見表 200 行・シリーズ目次は 第 1 回 にあります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-09-21) はじめに 本記事では、GitHub・GCP（Compute Engine / GKE）から公開された直近のセキュリティ関連情報を3件取り上げ、内容の解説…",
+      "summary": "セキュリティの新着が7件。・・・AWSリソースへのアクセスを管理するサービス。…",
       "articles": [
+        {
+          "title": "AWS IAM（AWS ID およびアクセス管理）",
+          "link": "https://qiita.com/Minato_playwithtech/items/49ffadd6673eda218fc2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-21T03:45:20",
+          "excerpt": "・・・AWSリソースへのアクセスを管理するサービス。…"
+        },
+        {
+          "title": "【Security Hub修復手順】[NetworkFirewall.6] ステートレス Network Firewall のルールグループを空にしないでください",
+          "link": "https://dev.classmethod.jp/articles/slug-securityhub-fsbp-remediation-networkfirewall-6/",
+          "source": "DevelopersIO",
+          "published": "2026-09-21T02:50:28",
+          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
+        },
         {
           "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-09-21)",
           "link": "https://qiita.com/iestudy/items/64c0660085c4b0153f8d",
@@ -92,28 +106,21 @@
           "source": "ITmedia エンタープライズ",
           "published": "2026-09-20T22:00:00",
           "excerpt": "CVEの登録数が年4万件を超える中、優先順位で対処を進める脆弱性情報データベース「NVD」の新方針と、取引先に求める水準が上がるSBOM新要件。セキュリティ担当者が知っておきたい2つの制度変更をまとめた。"
-        },
-        {
-          "title": "AIエージェント時代、ゼロトラストはどう変わる？　「マシンスピード」で対抗するデータ管理とSOCの未来",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/21/news007.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-09-20T22:00:00",
-          "excerpt": "AIエージェントの本格運用が進む中、モデルや挙動まで検証する「拡張型ゼロトラスト」への移行が急務だ。ClouderaのフィールドCTOが、AI時代のセキュリティ対策におけるデータガバナンスの役割とSOC改革の必要性を語る。"
-        },
-        {
-          "title": "【SAA-C03】直前チートシート (4/6) セキュリティ・アプリケーション統合・分析",
-          "link": "https://qiita.com/naoto_tech_AI/items/02f87b167bc739d35f48",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-20T12:25:00",
-          "excerpt": "この記事の位置づけ SAA-C03 直前チートシート全 6 回の第 4 回（セキュリティ・アプリケーション統合・分析）です。当日戦略・早見表 200 行・シリーズ目次は 第 1 回 にあります。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。AWS Glue の zero-ETL integration で、ターゲットテーブルのプロパティに所有権が記録されるようになり、同じテーブルへの二重書き込みが作成時点で検出・拒否されるようになりました。実際に競合を起こして確かめてみます。",
+      "summary": "データ分析の新着が3件。エンタープライズ ネットワーキング ハードウェア ビジネスから撤退し、ユーザーにできるだけ早くオンプレミス ソフトウェアをインストールするよう指示",
       "articles": [
+        {
+          "title": "失敗したネットワーキング ベンダーの Cambium はクラウド管理ポータルを廃止する予定",
+          "link": "https://www.theregister.com/networks/2026/09/21/failed-networking-vendor-cambium-set-to-turn-off-its-cloudy-management-portal/5297647",
+          "source": "The Register（英語）",
+          "published": "2026-09-21T05:17:02",
+          "excerpt": "エンタープライズ ネットワーキング ハードウェア ビジネスから撤退し、ユーザーにできるだけ早くオンプレミス ソフトウェアをインストールするよう指示"
+        },
         {
           "title": "[アップデート] AWS Glue zero-ETL integration で同じテーブルへの二重書き込みが ConflictException で止まるようになったので試してみた",
           "link": "https://dev.classmethod.jp/articles/20260921-aws-glue-zero-etl-ownership-conflicts/",
@@ -133,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。SNOWFLAKE WORLD TOUR TOKYO 2026で紹介されたSnowflake App RuntimeとCoCo Agent SDK についてのセッションのレポートです。…",
+      "summary": "開発ツールの新着が12件。こんにちは、sawaです。前回の記事では、Spring Bootで作成したアプリをLinux上でsystemdサービスとして起動し、アプリのログをsystemd-journaldで確認できるようにしました。https://zenn.…",
       "articles": [
+        {
+          "title": "Spring BootをECSにデプロイしてCloudWatch Logsでログを確認する",
+          "link": "https://zenn.dev/sawa_tech/articles/4294b8f41e2080",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-21T05:52:44",
+          "excerpt": "こんにちは、sawaです。前回の記事では、Spring Bootで作成したアプリをLinux上でsystemdサービスとして起動し、アプリのログをsystemd-journaldで確認できるようにしました。https://zenn.…"
+        },
         {
           "title": "[レポート] データの隣で AI アプリを爆速デプロイ - App Runtime & Cortex SDK ご紹介 #SWTTokyo26",
           "link": "https://dev.classmethod.jp/articles/bs1149-app-runtime-cortex-sdk-swttokyo26/",
@@ -155,45 +169,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-09-21T00:00:00",
           "excerpt": "こんにちは！Claude一途の3年目エンジニアのH.Rです！今回は、GitHubのissue添付画像がAPIトークンでは404になってしまう仕様と、gh CLIの認証を使った回避策、そして実際に作ったCLIツールについて紹介します。…"
-        },
-        {
-          "title": "「毎日使う68％」　AIコーディングエージェントの現在地　プロフェッショナル開発者1万5000人に聞いた",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/21/news019.html",
-          "source": "@IT",
-          "published": "2026-09-20T23:00:00",
-          "excerpt": "JetBrainsは開発者が利用するツールセット、実践、技術、意識を幅広く調べている年次調査「Developer Ecosystem Survey 2026」の結果を公表した。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "トランプ大統領、「AI Force」創設を表明　「AI脅威論はでっちあげだ」",
-      "link": "https://www.itmedia.co.jp/news/article/2609/21/2000001666/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-21T00:45:19",
-      "excerpt": "トランプ大統領はSNSへの投稿で、AIを担当する新組織「AI Force」の創設と責任者“AI皇帝”の指名を表明した。AI脅威論を否定して業界の成長支援を掲げ、AIの新たな呼称案の投票も呼び掛けた。…"
+      "title": "あなたのクラウドは現実世界以外のすべてを生き延びました",
+      "link": "https://www.theregister.com/columnists/2026/09/21/your-cloud-survived-everything-except-the-real-world/5297423",
+      "source": "The Register（英語）",
+      "published": "2026-09-21T08:03:00",
+      "excerpt": "戦争被害、航空交通の混乱、貯蔵不足により、レジリエンスを他人事として扱うコストが明らかになっている"
     },
     {
-      "title": "バックプロパゲーションが逆方向に進む理由",
-      "link": "https://gregorygundersen.com/blog/2018/04/15/backprop/",
+      "title": "AI に書かせるほど DB が詰まる — コネクションプールは「1本ずつ正しい」では足りない",
+      "link": "https://zenn.dev/maruchi777/articles/f07e5483fb24e4",
+      "source": "Zenn AWSトピック",
+      "published": "2026-09-21T07:55:21",
+      "excerpt": "AI に機能を足してもらう速度が上がったあと、最初に壊れたのは DB でした。コードは1つずつ見れば全部正しい。テストも通る。それでも remaining connection slots are reserved が出る。…"
+    },
+    {
+      "title": "【徹底比較】Linux環境にOCIを選んだ話｜OCI・AWS・Azure・Google CloudとRaspberry Pi・ミニPC",
+      "link": "https://zenn.dev/rioseccaloca/articles/d14f23a79060e8",
+      "source": "Zenn AWSトピック",
+      "published": "2026-09-21T07:36:36",
+      "excerpt": "はじめに 今回は、個人用途でLinux環境を用意するにあたって、IaaSと物理端末を比較した話を書きます。…"
+    },
+    {
+      "title": "Kev: Qwen3.5 上に構築された小さな Jev のような意思決定モデル ファミリ",
+      "link": "https://github.com/jaredpalmer/kev/tree/main",
       "source": "Hacker News（英語）",
-      "published": "2026-09-21T00:42:14",
-      "excerpt": "記事の URL: https://gregorygundersen.com/blog/2018/04/15/backprop/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "【図解】CIDR単位で別アカウントに接続できるPrivateLinkトンネルエンドポイントの仕組み",
-      "link": "https://qiita.com/infra365/items/a356e5bd7aa1d6b26c2e",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-21T00:08:35",
-      "excerpt": "概要 VPCエンドポイントのトンネルエンドポイントがリリースされました。これまでのリソースエンドポイントは、Resource Configurationをリソース単位で作成する方式でした。…"
-    },
-    {
-      "title": "AWS、第2世代のシングルラック「AWS Outposts」を一般提供開始",
-      "link": "https://codezine.jp/article/detail/29748",
-      "source": "CodeZine",
-      "published": "2026-09-21T00:00:00",
-      "excerpt": "AWS、第2世代のシングルラック「AWS Outposts」を一般提供開始"
+      "published": "2026-09-21T07:11:55",
+      "excerpt": "記事の URL: https://github.com/jaredpalmer/kev/tree/main コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
