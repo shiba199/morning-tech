@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-21T20:02:34",
+  "generated_at": "2026-09-21T23:24:58",
   "window_hours": 24,
-  "total": 125,
+  "total": 123,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。Appfigures の新しい推定によると、Meta の新しい AI エージェント Muse は、モバイル デビュー後の同じ期間に米国とカナダで ChatGPT よりも多くのダウンロード数とデイリー アクティブ ユーザーを獲得しました。",
+      "summary": "生成AIの新着が18件。このグループには、OpenAI が進行中の数学的研究の速度を落としたり方向転換したりする余地は与えられない。",
       "articles": [
+        {
+          "title": "OpenAI が 100 を超える未解決の問題を AI で解決するため、数学諮問グループを設立",
+          "link": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-21T20:15:58",
+          "excerpt": "このグループには、OpenAI が進行中の数学的研究の速度を落としたり方向転換したりする余地は与えられない。"
+        },
+        {
+          "title": "中国AIのKimi、米Claudeに｢代理回答｣させる　アンソロピックが指摘 - 日本経済新聞",
+          "link": "https://www.nikkei.com/article/DGXZQOGN15BV70V10C26A9000000/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-09-21T19:48:44",
+          "excerpt": "【シリコンバレー=山田遼太郎】米アンソロピックが中国企業による人工知能（AI）の新たな不正使用を指摘している。利用者の質問をアンソロピックの高性能AI「クロード」に転送し、その回答を自社AIの回答だと装って示すケースが確認されたという。…"
+        },
         {
           "title": "Meta の Muse は ChatGPT の初期のモバイル版リリースを上回っています",
           "link": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
@@ -17,25 +31,11 @@
           "excerpt": "Appfigures の新しい推定によると、Meta の新しい AI エージェント Muse は、モバイル デビュー後の同じ期間に米国とカナダで ChatGPT よりも多くのダウンロード数とデイリー アクティブ ユーザーを獲得しました。"
         },
         {
-          "title": "Meta’s AI agent has been blocked from using Amazon.com",
+          "title": "Meta の AI エージェントは Amazon.com の使用をブロックされています",
           "link": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
           "source": "TechCrunch（英語）",
           "published": "2026-09-21T17:55:18",
-          "excerpt": "Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet.…"
-        },
-        {
-          "title": "Google confirms Gemini models hacked three companies in May 2026",
-          "link": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-09-21T16:57:26",
-          "excerpt": "A third-party cybersecurity firm accidentally gave experimental Gemini models access to the Internet."
-        },
-        {
-          "title": "AWS bolts together open source agent harness, says it sips fewer tokens than rivals",
-          "link": "https://www.theregister.com/ai-and-ml/2026/09/21/aws-bolts-together-open-source-agent-harness-says-it-sips-fewer-tokens-than-rivals/5297915",
-          "source": "The Register（英語）",
-          "published": "2026-09-21T16:00:00",
-          "excerpt": "Strands claims near-parity with Claude Code and Codex on benchmarks, though it only raced coding agents and marked its o…"
+          "excerpt": "Amazon には、インターネット上で最も人気のある推論プラットフォームの 1 つとともに、独自の基礎モデルのコホートがあります。彼らに Muse への扉を開く法的義務がない限り、なぜそうするのでしょうか?"
         }
       ]
     },
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。はじめに 2026 年 9 月、AWS は Amazon ECS に対して、RunTask および StartTask API に IAM 条件キー ecs:task-cpu と ecs:task-memory のサポートを追加したと発表し…",
+      "summary": "セキュリティの新着が6件。はじめに 2026 年 9 月、AWS は Amazon ECS に対して、RunTask および StartTask API に IAM 条件キー ecs:task-cpu と ecs:task-memory のサポートを追加したと発表し…",
       "articles": [
         {
           "title": "ECS の RunTask/StartTask 向け IAM 条件キー拡張、公式発表と実際の挙動に相違",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。はじめに AWS のリソースを Terraform で書こうとして、Unsupported argument で止まったことはないでしょうか。回避策はいくつかありますが、質に差があります。…",
+      "summary": "開発ツールの新着が12件。はじめに ネットワーク機器やオンプレの経験はあるがIaCは未経験、という状態から、AIと壁打ちしながらCloudFormation（以下CFN）のテンプレートを書けるようになるまでの学習記録です。…",
       "articles": [
+        {
+          "title": "IaC未経験がCloudFormationのYAMLを1日で腹落ちさせた記録（データ構造・!Ref・!Sub編）",
+          "link": "https://qiita.com/p-q_na/items/156698135edeece83264",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-21T22:04:12",
+          "excerpt": "はじめに ネットワーク機器やオンプレの経験はあるがIaCは未経験、という状態から、AIと壁打ちしながらCloudFormation（以下CFN）のテンプレートを書けるようになるまでの学習記録です。…"
+        },
         {
           "title": "Terraform が AWS の新機能に未対応のときどう回避するか",
           "link": "https://qiita.com/leomarokun/items/211b39ca7f0096b43508",
@@ -164,50 +171,43 @@
           "excerpt": "EC2上のUbuntuでMATLABをコマンドラインツール（mpm）を使ってインストールしてみました。評価版ライセンスの取得からスクリプト実行まで、GUI不要でセットアップできる手順をまとめています。"
         },
         {
-          "title": "CDK（Python）でよく見る self / props / __init__.py を徹底整理してみた",
-          "link": "https://zenn.dev/sf_tech_1026/articles/cdk-python-self-props-init",
+          "title": "AWS の ARN を組み立てる Terraform の関数 terraform-provider-arn を作った",
+          "link": "https://zenn.dev/winebarrel/articles/a6576f72901f2d",
           "source": "Zenn AWSトピック",
-          "published": "2026-09-21T08:29:11",
-          "excerpt": "はじめに 実務では、すでに完成しているリポジトリのコードを読み解きながら修正を加える機会が多いのですが、その中で毎回のように登場するのが self、props、__init__.py といったものです。…"
-        },
-        {
-          "title": "cdk-real-driftを使ったCDKでのstate管理",
-          "link": "https://zenn.dev/yuuyass/articles/9fe347cbb06a9f",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-21T08:25:37",
-          "excerpt": "cdk-real-drift とは？cdk-real-drift（cdkrd）は @365_step_tech 氏が開発した OSS ツール（Apache-2.…"
+          "published": "2026-09-21T09:15:55",
+          "excerpt": "aws_caller_identity を使って ARN を書くと、こんな感じになります。Resource = \"arn:aws:iam::${data.aws_caller_identity.current.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "次のイベントをご覧ください: TechCrunch Disrupt 2026 チケットを最大 200 ドル節約できる残り 5 日",
-      "link": "https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-21T19:25:00",
-      "excerpt": "5 days left to save up to $200 on your TechCrunch Disrupt 2026 pass + 50% off a second one.…"
+      "title": "ウォーターマークではなくスパイマーク",
+      "link": "https://brand.io/article/spymarks/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-21T23:03:49",
+      "excerpt": "記事の URL: https://brand.io/article/spymarks/ コメント URL: https://news.ycombinator.com/item?id=49794615 ポイント: 4 コメント数: 1"
     },
     {
-      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
-      "link": "https://linear.app/now/ci-bottleneck-reworked",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-21T19:23:33",
-      "excerpt": "Article URL: https://linear.app/now/ci-bottleneck-reworked Comments URL: https://news.ycombinator.com/item?…"
+      "title": "「遅延インポート」　～マンガでプログラミング用語解説",
+      "link": "https://codezine.jp/article/detail/24561",
+      "source": "CodeZine",
+      "published": "2026-09-21T23:00:00",
+      "excerpt": "この連載は、マンガで分かるプログラミング用語辞典です。気軽に読み流せるマンガと、テキストによる詳しい解説で、プログラミング未経験者がつまづきがちな専門用語・概念をやさしく読み解き、よりスムーズな学習を手助けします。…"
     },
     {
-      "title": "The Advisory Group on Mathematics and Artificial Intelligence",
-      "link": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-21T19:17:42",
-      "excerpt": "Article URL: https://terrytao.wordpress.…"
+      "title": "AWSコストを最速で正確に把握するための基礎設計 — Cost Explorer・Usage Type・CUR をどう使い分けるか",
+      "link": "https://qiita.com/yadeharuun1226-collab/items/65f0927708ecb3810547",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-21T22:55:17",
+      "excerpt": "導入 AWS のコスト管理は、サービスが増えるほど複雑になり、 「どこで何に課金されているのか」が見えにくくなる。アーキテクトとして重要なのは、 “どのレイヤーで何を確認すべきか” を構造化して理解すること。…"
     },
     {
-      "title": "Wall Street Is Growing Skeptical of the Data Center Boom",
-      "link": "https://www.nytimes.com/2026/09/21/business/ai-data-center-ipos.html",
+      "title": "データ保護委員会、位置データの処理を巡りGoogleに4億300万ユーロの罰金を科す",
+      "link": "https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-google-eu403-million-following-inquiry-googles-processing-location",
       "source": "Hacker News（英語）",
-      "published": "2026-09-21T19:14:30",
-      "excerpt": "Article URL: https://www.nytimes.com/2026/09/21/business/ai-data-center-ipos.html Comments URL: https://news.…"
+      "published": "2026-09-21T22:33:45",
+      "excerpt": "記事の URL: https://www.dataprotection.…"
     }
   ]
 }
