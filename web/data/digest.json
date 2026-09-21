@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-09-20T23:40:21",
+  "generated_at": "2026-09-21T02:07:36",
   "window_hours": 24,
-  "total": 103,
+  "total": 108,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。はじめに 前回は、SageMaker Pipelines と MLOps について整理しました。…",
+      "summary": "生成AIの新着が17件。Jev との比較から見えた、生成型LLMの意外な弱点。出力を極限まで絞ってもなお、速度とコストで大きな差が出た理由を、107ケースの検証結果から探ります。",
       "articles": [
+        {
+          "title": "【TypeSafe】出力を絞ればLLMも速くなる？ Gemini 3.8 Flash と Jev で同じ107ケースの速度・コストを比較してみた",
+          "link": "https://dev.classmethod.jp/articles/jev-vs-gemini-flash-cross-match/",
+          "source": "DevelopersIO",
+          "published": "2026-09-21T01:18:35",
+          "excerpt": "Jev との比較から見えた、生成型LLMの意外な弱点。出力を極限まで絞ってもなお、速度とコストで大きな差が出た理由を、107ケースの検証結果から探ります。"
+        },
         {
           "title": "【簡単AWS MLA】【初心者向け】Day 15：SageMaker Model Registry を整理する — モデルのバージョン管理と承認フロー",
           "link": "https://qiita.com/MetaYuan/items/1d2b283d8b7d23b1bd43",
@@ -29,20 +36,13 @@
           "source": "Hacker News（英語）",
           "published": "2026-09-20T22:32:43",
           "excerpt": "記事の URL: https://agentexecutor.io コメント URL: https://news.ycombinator.com/item?id=49780797 ポイント: 53 コメント数: 10"
-        },
-        {
-          "title": "AIエージェント時代、ゼロトラストはどう変わる？　「マシンスピード」で対抗するデータ管理とSOCの未来",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/21/news007.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-09-20T22:00:00",
-          "excerpt": "AIエージェントの本格運用が進む中、モデルや挙動まで検証する「拡張型ゼロトラスト」への移行が急務だ。ClouderaのフィールドCTOが、AI時代のセキュリティ対策におけるデータガバナンスの役割とSOC改革の必要性を語る。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。はじめに 友人とValheimをやるために、AWSでマルチプレイ用のサーバーを立てた。ローカルでポート開放し、立ててもよかったけど、この記事をみて、AWSに挑戦してみました！…",
+      "summary": "クラウドの新着が8件。はじめに 友人とValheimをやるために、AWSでマルチプレイ用のサーバーを立てた。ローカルでポート開放し、立ててもよかったけど、この記事をみて、AWSに挑戦してみました！…",
       "articles": [
         {
           "title": "AWS初心者が友達とゲームがしたいからEC2でサーバーを立ててみた",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。CVEの登録数が年4万件を超える中、優先順位で対処を進める脆弱性情報データベース「NVD」の新方針と、取引先に求める水準が上がるSBOM新要件。セキュリティ担当者が知っておきたい2つの制度変更をまとめた。",
+      "summary": "セキュリティの新着が6件。クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-09-21) はじめに 本記事では、GitHub・GCP（Compute Engine / GKE）から公開された直近のセキュリティ関連情報を3件取り上げ、内容の解説…",
       "articles": [
+        {
+          "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-09-21)",
+          "link": "https://qiita.com/iestudy/items/64c0660085c4b0153f8d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-21T00:02:21",
+          "excerpt": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-09-21) はじめに 本記事では、GitHub・GCP（Compute Engine / GKE）から公開された直近のセキュリティ関連情報を3件取り上げ、内容の解説…"
+        },
         {
           "title": "脆弱性対応の「前提」が変わる？　脆弱性情報データベース刷新とSBOM新要件",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2609/21/news020.html",
@@ -99,21 +106,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-20T12:25:00",
           "excerpt": "この記事の位置づけ SAA-C03 直前チートシート全 6 回の第 4 回（セキュリティ・アプリケーション統合・分析）です。当日戦略・早見表 200 行・シリーズ目次は 第 1 回 にあります。…"
-        },
-        {
-          "title": "IAM Roles AnywhereでオンプレミスKubernetes PodからAWSリソースを利用する方法",
-          "link": "https://zenn.dev/metalmental/articles/20260920_kubernetes-pod-use-iam-roles-anywhere",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-20T11:36:17",
-          "excerpt": "はじめに 前回はオンプレミス環境のKubernetesからECRのImageをPullしました 今回はKubernetesのPodからAWSリソースを利用します 具体的にはaws cliが実行可能なImageでPodを起動し、aws s3…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が1件。TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。これを受信箱に受け取るには、ここから無料でサインアップしてください。…",
+      "summary": "データ分析の新着が2件。AWS Glue の zero-ETL integration で、ターゲットテーブルのプロパティに所有権が記録されるようになり、同じテーブルへの二重書き込みが作成時点で検出・拒否されるようになりました。実際に競合を起こして確かめてみます。",
       "articles": [
+        {
+          "title": "[アップデート] AWS Glue zero-ETL integration で同じテーブルへの二重書き込みが ConflictException で止まるようになったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/20260921-aws-glue-zero-etl-ownership-conflicts/",
+          "source": "DevelopersIO",
+          "published": "2026-09-21T01:51:23",
+          "excerpt": "AWS Glue の zero-ETL integration で、ターゲットテーブルのプロパティに所有権が記録されるようになり、同じテーブルへの二重書き込みが作成時点で検出・拒否されるようになりました。実際に競合を起こして確かめてみます。"
+        },
         {
           "title": "TechCrunch Mobility: AV が十分に安全であるかどうかをどうやって判断するのでしょうか?",
           "link": "https://techcrunch.com/2026/09/20/techcrunch-mobility-how-do-we-know-when-an-av-is-safe-enough/",
@@ -126,67 +133,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。JetBrainsは開発者が利用するツールセット、実践、技術、意識を幅広く調べている年次調査「Developer Ecosystem Survey 2026」の結果を公表した。",
+      "summary": "開発ツールの新着が13件。SNOWFLAKE WORLD TOUR TOKYO 2026で紹介されたSnowflake App RuntimeとCoCo Agent SDK についてのセッションのレポートです。…",
       "articles": [
+        {
+          "title": "[レポート] データの隣で AI アプリを爆速デプロイ - App Runtime & Cortex SDK ご紹介 #SWTTokyo26",
+          "link": "https://dev.classmethod.jp/articles/bs1149-app-runtime-cortex-sdk-swttokyo26/",
+          "source": "DevelopersIO",
+          "published": "2026-09-21T01:34:23",
+          "excerpt": "SNOWFLAKE WORLD TOUR TOKYO 2026で紹介されたSnowflake App RuntimeとCoCo Agent SDK についてのセッションのレポートです。…"
+        },
+        {
+          "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-09-21)",
+          "link": "https://qiita.com/iestudy/items/64c0660085c4b0153f8d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-21T00:02:21",
+          "excerpt": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-09-21) はじめに 本記事では、GitHub・GCP（Compute Engine / GKE）から公開された直近のセキュリティ関連情報を3件取り上げ、内容の解説…"
+        },
+        {
+          "title": "GitHub issueの添付画像がAPIトークンで404になる理由とgh CLIでの回避策 | KENTEM TechBlog",
+          "link": "https://tech.kentem.jp/entry/2026/09/21/090000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-21T00:00:00",
+          "excerpt": "こんにちは！Claude一途の3年目エンジニアのH.Rです！今回は、GitHubのissue添付画像がAPIトークンでは404になってしまう仕様と、gh CLIの認証を使った回避策、そして実際に作ったCLIツールについて紹介します。…"
+        },
         {
           "title": "「毎日使う68％」　AIコーディングエージェントの現在地　プロフェッショナル開発者1万5000人に聞いた",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/21/news019.html",
           "source": "@IT",
           "published": "2026-09-20T23:00:00",
           "excerpt": "JetBrainsは開発者が利用するツールセット、実践、技術、意識を幅広く調べている年次調査「Developer Ecosystem Survey 2026」の結果を公表した。"
-        },
-        {
-          "title": "Bedrock マネージドナレッジベースの自動同期スケジュールを Terraform で設定してみた",
-          "link": "https://qiita.com/leomarokun/items/dfaafc8a547ece40b938",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-20T19:14:05",
-          "excerpt": "はじめに RAG のナレッジベースを運用していると、地味に面倒なのが同期です。S3 にファイルを置き直した、Confluence のページを直した、そのたびに「同期」を手で叩かないと、エージェントは古い情報のまま答え続けます。…"
-        },
-        {
-          "title": "TerraformによるPCI DSS学習ラボ構築（1）～ CDE分離・監査ログ・OpenVAS環境と、休止までのIaC管理 ～",
-          "link": "https://zenn.dev/nyondev/articles/zenn_part1_article",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-20T17:29:36",
-          "excerpt": "!本記事の構成は学習用ラボです。この構成を作っただけでPCI DSS準拠を証明できるものではありません。…"
-        },
-        {
-          "title": "GitHub - minorun365/agent-builder-skills: AWSでAIエージェントのWebアプリを作るためのスキル集（Bedrock AgentCore・Strands Agents・AWS CDK・Lambda Web Adapter・Cognito・SSE）",
-          "link": "https://github.com/minorun365/agent-builder-skills",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-20T14:59:58",
-          "excerpt": "You signed in with another tab or window.Reload to refresh your session.You signed out in another tab or window.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AIに聞くだけだった自分が、AIと一緒に開発するようになるまで | ユニファ開発者ブログ",
-      "link": "https://tech.unifa-e.com/entry/2026/09/21/080000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-20T23:00:00",
-      "excerpt": "こんにちは、サーバーサイドエンジニアのピーターです。最近は、AIと一緒にコードを書くことがすっかり日常になりました。ここ1〜2年で、生成AIを取り巻く環境は大きく変わりました。…"
+      "title": "トランプ大統領、「AI Force」創設を表明　「AI脅威論はでっちあげだ」",
+      "link": "https://www.itmedia.co.jp/news/article/2609/21/2000001666/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-21T00:45:19",
+      "excerpt": "トランプ大統領はSNSへの投稿で、AIを担当する新組織「AI Force」の創設と責任者“AI皇帝”の指名を表明した。AI脅威論を否定して業界の成長支援を掲げ、AIの新たな呼称案の投票も呼び掛けた。…"
     },
     {
-      "title": "デジタル庁、さくらインターネット、三重県　3つの事件に共通した“盲点”",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/21/news014.html",
-      "source": "@IT",
-      "published": "2026-09-20T23:00:00",
-      "excerpt": "デジタル庁のGSS、さくらインターネット、三重県。2026年に明らかになった3つのセキュリティ事案は、VPNの脆弱性、初期パスワード、私物USBと一見すると別々の問題に見えます。ところが、横並びで見ると意外な共通点がありました。"
+      "title": "バックプロパゲーションが逆方向に進む理由",
+      "link": "https://gregorygundersen.com/blog/2018/04/15/backprop/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-21T00:42:14",
+      "excerpt": "記事の URL: https://gregorygundersen.com/blog/2018/04/15/backprop/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "「法改正のたびに改修依頼」からの脱却　日立は約5000人が利用する輸出管理システムをどう刷新した？",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/21/news012.html",
-      "source": "@IT",
-      "published": "2026-09-20T23:00:00",
-      "excerpt": "世界各国で安全保障貿易管理に関する規制が強化される中、企業には輸出規制の変更や法改正に素早く的確に対応する体制作りが求められている。各事業部門が担う輸出取引の審査と関連帳票の管理を1つのシステムで運用してきた日立製作所はどう対応したのか。"
+      "title": "【図解】CIDR単位で別アカウントに接続できるPrivateLinkトンネルエンドポイントの仕組み",
+      "link": "https://qiita.com/infra365/items/a356e5bd7aa1d6b26c2e",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-21T00:08:35",
+      "excerpt": "概要 VPCエンドポイントのトンネルエンドポイントがリリースされました。これまでのリソースエンドポイントは、Resource Configurationをリソース単位で作成する方式でした。…"
     },
     {
-      "title": "ソフトウェアサプライチェーン攻撃の1年　「npm大量汚染」から「axios侵害」まで……開発現場にできる対策は？",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/21/news008.html",
-      "source": "@IT",
-      "published": "2026-09-20T23:00:00",
-      "excerpt": "npm汚染やaxios侵害など激化するソフトウェアサプライチェーン攻撃の動向を整理。攻撃手法が開発者の権限奪取へ変化する中、個人の注意に頼らないCI/CD環境保護など、開発組織が講じるべき実践的対策を解説します。"
+      "title": "AWS、第2世代のシングルラック「AWS Outposts」を一般提供開始",
+      "link": "https://codezine.jp/article/detail/29748",
+      "source": "CodeZine",
+      "published": "2026-09-21T00:00:00",
+      "excerpt": "AWS、第2世代のシングルラック「AWS Outposts」を一般提供開始"
     }
   ]
 }
