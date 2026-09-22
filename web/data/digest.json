@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-09-22T06:59:23",
+  "generated_at": "2026-09-22T12:22:06",
   "window_hours": 24,
-  "total": 141,
+  "total": 139,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。Claude Codeが起動時に読み込む「記憶」の仕組みを、公式ドキュメントと実測から整理しました。CLAUDE.…",
+      "summary": "生成AIの新着が19件。記事の URL: https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/ コメント URL: https://news.ycombinator.…",
       "articles": [
+        {
+          "title": "JetBrains Air: エージェントソフトウェア開発のための製品システム",
+          "link": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-22T11:00:58",
+          "excerpt": "記事の URL: https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/ コメント URL: https://news.ycombinator.…"
+        },
+        {
+          "title": "イラストで理解するAmazon Bedrock AgentCore",
+          "link": "https://dev.classmethod.jp/articles/Illust-bedrock-agentcore/",
+          "source": "DevelopersIO",
+          "published": "2026-09-22T10:29:40",
+          "excerpt": "Amazon Bedrock AgentCoreが分からなかったので絵にしてみました。細かいことは書いていません。概要を知りたい方向けです。"
+        },
+        {
+          "title": "JevをStrands Agentsの権限管理に組み込んでみる",
+          "link": "https://qiita.com/ShotaOki/items/7403d7bae56b312ac190",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-22T10:23:07",
+          "excerpt": "この記事について この記事では以下のことを扱います StrandsのツールとフックにJevを挟んで、権限のコントロールをします Jevの代わりに、Bedrockの高速化オプションを全盛で使ってみて、どのくらい性能が近づくかを見てみます この…"
+        },
         {
           "title": "Claude Codeのメモリーを公式ドキュメントと実測で整理して、プロジェクトの記憶を初期読み込みさせる仕組みを構築してみた",
           "link": "https://dev.classmethod.jp/articles/claude-code-memory-at-import-project-index/",
           "source": "DevelopersIO",
           "published": "2026-09-22T06:39:51",
           "excerpt": "Claude Codeが起動時に読み込む「記憶」の仕組みを、公式ドキュメントと実測から整理しました。CLAUDE.…"
-        },
-        {
-          "title": "OpenAI、数学者の独立諮問グループと連携　内部モデルは「100件超の未解決問題を解決」",
-          "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001671/",
-          "source": "ITmedia NEWS",
-          "published": "2026-09-22T02:49:24",
-          "excerpt": "OpenAIは、数学者が設立した独立組織「AGMAI」と連携し、AIによる数学的成果の評価や公表方法について助言を受けると発表した。…"
-        },
-        {
-          "title": "AWS DevOps Agentの全体構造と設定箇所を図解してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-Illustration/",
-          "source": "DevelopersIO",
-          "published": "2026-09-22T02:25:17",
-          "excerpt": "AWS DevOps Agentの設定はCapability Providers、Agent Space、Web Appの3階層に分かれます。…"
-        },
-        {
-          "title": "Claude Codeのコミット・プルリクエストの帰属表示(attribution)を非表示にしてみた",
-          "link": "https://dev.classmethod.jp/articles/claude-code-attribution-setting/",
-          "source": "DevelopersIO",
-          "published": "2026-09-22T02:20:49",
-          "excerpt": "Claude Codeがコミットやプルリクエストに自動で付与する帰属表示。これをコントロールする`attribution`設定について、3つのサブキーの役割から実際の設定方法まで詳しく解説します！"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。AWS の認定試験勉強中にわからなくなって調べたのでまとめておく。S3 のバケットは大きな箱で、そのなかに特にフォルダ分けせず、ポイポイデータを投げ込んでいく形式。しかしこれだとアクセスが集中したときにパフォーマンスが下がってしまう。…",
+      "summary": "クラウドの新着が10件。こんにちは、ふくちです。下記ハンズオンをしていて気づいたことがあるので備忘録的にまとめておきます。…",
       "articles": [
+        {
+          "title": "Lambda MicroVMのヘルスチェックポートは結構自由に決められる",
+          "link": "https://qiita.com/har1101/items/2822a4e3837f0be0729f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-22T12:20:00",
+          "excerpt": "こんにちは、ふくちです。下記ハンズオンをしていて気づいたことがあるので備忘録的にまとめておきます。…"
+        },
+        {
+          "title": "Step FunctionsのParallelステート後、Lambdaが受け取るeventは配列になる",
+          "link": "https://qiita.com/caymezon/items/f3de1fd4ef9fa2aaf799",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-22T11:16:02",
+          "excerpt": "背景 Step Functionsで受注処理ワークフロー（検証→並列処理→確定）をコンソールで構築しました。Parallelステートの出力をどう次のLambdaが受け取るか、実装時に見落としやすいポイントでした。1.…"
+        },
         {
           "title": "AWS S3 のプレフィックスって？",
           "link": "https://qiita.com/waewae96/items/3f5633ca2b41299bebc0",
@@ -57,20 +71,6 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-22T00:16:53",
           "excerpt": "背景 S3への画像アップロードをトリガーにRekognitionで物体検出するハンズオンをコンソールで実施しました。画像データをどうRekognitionに渡すかで、パフォーマンスが大きく変わる設計ポイントがありました。1.…"
-        },
-        {
-          "title": "Amazon OpenSearch ServerlessがVercelのv0で利用可能に",
-          "link": "https://codezine.jp/article/detail/29749",
-          "source": "CodeZine",
-          "published": "2026-09-22T00:00:00",
-          "excerpt": "Amazon OpenSearch ServerlessがVercelのv0で利用可能に"
-        },
-        {
-          "title": "Amazon ECS は、AWS マネジメントコンソールでリアルタイムのデプロイメントの監視機能を提供するようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-09-21T20:05:00",
-          "excerpt": "Amazon Elastic Container Service (Amazon ECS) は、Amazon ECS コンソールでネイティブの Linear、Canary、Blue/Green デプロイメント戦略に対してリアルタイムのサービ…"
         }
       ]
     },
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Amazon OpenSearch ServerlessがVercelのv0で利用可能に",
+      "summary": "データ分析の新着が3件。Amazon OpenSearch ServerlessがVercelのv0で利用可能に",
       "articles": [
         {
           "title": "Amazon OpenSearch ServerlessがVercelのv0で利用可能に",
@@ -134,20 +134,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-21T12:52:53",
           "excerpt": "AWSのDVAというAWSの開発者向けのアソシエイト系の資格に挑戦するにあたり、軽くサービスをハンズオンしたいと思い、記事でまとめていこうと思います。…"
-        },
-        {
-          "title": "DynamoDBでベクトル検索を導入する際は既存のGSIの射影タイプの確認が大事だと思った | NCDC テックブログのフィード",
-          "link": "https://zenn.dev/ncdc/articles/84f508118f0532",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-21T11:15:54",
-          "excerpt": "はじめに2026年8月5日に、DynamoDB のネイティブベクトル検索が GA になりました。https://aws.amazon.…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。先日、Amazon EVS 上での VCF 9.1 デプロイが EVS Deployment Orchestrator で CloudFormation スタック1つにまで簡単になった、という全体像を整理しました。…",
+      "summary": "開発ツールの新着が8件。先日、Amazon EVS 上での VCF 9.1 デプロイが EVS Deployment Orchestrator で CloudFormation スタック1つにまで簡単になった、という全体像を整理しました。…",
       "articles": [
         {
           "title": "Amazon EVS で VCF 9.1 を CloudFormation スタック1つで構築してみた（東京リージョン・実践編）",
@@ -171,43 +164,43 @@
           "excerpt": "!この記事の内容は 2026年9月時点 の情報です。仕様は変更される可能性があります。記事は業務上の経験をもとに、構成を考えた上で、AIに依頼して作成しています。間違いなどがありましたら、ご指摘いただけると幸いです。…"
         },
         {
-          "title": "Git 2.56 – および 3.0 を楽しみにしています",
-          "link": "https://lwn.net/SubscriberLink/1094575/2385e98583715c2b/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-21T23:16:51",
-          "excerpt": "記事の URL: https://lwn.net/SubscriberLink/1094575/2385e98583715c2b/ コメント URL: https://news.ycombinator.com/item?…"
+          "title": "AI Agent版Lovableを作った——自然言語から実装・テスト・Self-hostedデプロイまで",
+          "link": "https://zenn.dev/zerotry_iwata/articles/agent-studio-factoring-builder",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-21T23:55:24",
+          "excerpt": "AI Agentを作るAI Agent シンプルに説明すると、**Agent Studioは「AI Agent版Lovable」**です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【AWS/DVA学習】注文処理APIをDVAの学習で作成してみる（②API Gateway × Amazon Cognito Authorizer）",
-      "link": "https://qiita.com/keitakei777/items/a0b9de3d11541f240e58",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-22T06:54:00",
-      "excerpt": "AWS Certified Developer - Associate (DVA) の資格勉強の一環として、サーバーレスアーキテクチャのハンズオンを実施しています。…"
+      "title": "Civo は英国の主権 AI を強化するために 40 のエッジ データセンターを計画",
+      "link": "https://www.theregister.com/off-prem/2026/09/22/civo-plots-40-edge-datacenters-to-power-britains-sovereign-ai/5298141",
+      "source": "The Register（英語）",
+      "published": "2026-09-22T12:13:00",
+      "excerpt": "最初のサイトは来年 3 月にハートフォードシャーに建設される予定で、Nvidia の Vera Rubin システムと長期的な 1 GW の目標を採用しています。"
     },
     {
-      "title": "AWS SAA 完全初心者の教科書 — 用語をたとえ話でイメージする",
-      "link": "https://zenn.dev/mokaronda/books/aws-saa-beginner",
-      "source": "Zenn AWSトピック",
-      "published": "2026-09-22T06:24:13",
-      "excerpt": "AWSのサービス名を1つも知らない状態から読める、SAA-C03の対策本。暗号鍵・VPC・ENIのようなつかみどころのない用語を、郵便受け・差し込み口・仕立て工房といったたとえ話で像にしてから、仕様と判断条件へ降ろす。…"
+      "title": "運動家らはバーナムに対し、トランプ大統領を喜ばせるために英国のハイテク税を犠牲にしないよう要請",
+      "link": "https://www.theregister.com/public-sector/2026/09/22/campaigners-tell-burnham-not-to-trade-away-the-uks-tech-tax-to-please-trump/5298124",
+      "source": "The Register（英語）",
+      "published": "2026-09-22T11:38:02",
+      "excerpt": "書簡は首相と米大統領の初対面会談に先立って到着"
     },
     {
-      "title": "CodeCommit で Renovate を動かして依存関係の更新 PR を自動作成してみた",
-      "link": "https://dev.classmethod.jp/articles/shoma-run-renovate-on-codecommit-to-auto-create-dependency-update-pr/",
-      "source": "DevelopersIO",
-      "published": "2026-09-22T06:18:01",
-      "excerpt": "# 導入文 GitHub の Dependabot のように、CodeCommit でも依存関係の自動更新を実現できます。Renovate をセルフホスト実行し、CodeBuild で動かすところまでを試してみました。"
+      "title": "C および C++ における型の語呂合わせ",
+      "link": "https://blog.pwkf.org/2026/09/21/correct-type-punning-in-c.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-22T11:29:47",
+      "excerpt": "記事の URL: https://blog.pwkf.org/2026/09/21/correct-type-punning-in-c.html コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Amazon Quick のデータ損失防止 (DLP) 機能を使ってみた",
-      "link": "https://dev.classmethod.jp/articles/amazon-quick-dlp-purview/",
-      "source": "DevelopersIO",
-      "published": "2026-09-22T06:13:34",
-      "excerpt": "Microsoft Purview 導入さえクリアできれば、とても良い機能だと思いました。"
+      "title": "NASA長官「私は国際パートナーからの「良い取引」にしか興味がない",
+      "link": "https://arstechnica.com/space/2026/09/nasa-chief-im-only-interested-in-good-deals-from-international-partners/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-09-22T11:00:37",
+      "excerpt": "「私たちがみんなを幸せにしようとしていた時期は絶対にありました。」"
     }
   ]
 }
