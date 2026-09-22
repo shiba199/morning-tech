@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-21T23:24:58",
+  "generated_at": "2026-09-22T01:40:27",
   "window_hours": 24,
-  "total": 123,
+  "total": 134,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。このグループには、OpenAI が進行中の数学的研究の速度を落としたり方向転換したりする余地は与えられない。",
+      "summary": "生成AIの新着が18件。AmazonがMetaのAIエージェント「Muse」による自社サイトでの代理購入をブロックしたと報じられた。無断アクセスやセキュリティ上のリスクを理由としている。一方、MetaはShopify全ストアへの対応を発表するなど連携拡大を進める。…",
       "articles": [
+        {
+          "title": "Amazon、MetaのAIエージェント「Muse」による代理購入をブロック　Shopifyは全店舗で対応へ",
+          "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001669/",
+          "source": "ITmedia NEWS",
+          "published": "2026-09-22T00:43:43",
+          "excerpt": "AmazonがMetaのAIエージェント「Muse」による自社サイトでの代理購入をブロックしたと報じられた。無断アクセスやセキュリティ上のリスクを理由としている。一方、MetaはShopify全ストアへの対応を発表するなど連携拡大を進める。…"
+        },
+        {
+          "title": "脱メインフレーム、7割超が失敗　背景に「生成AIへの過信」　2026年度上半期システム刷新記事ランキング",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/22/news018.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-09-21T23:00:00",
+          "excerpt": "生成AIがあればレガシー刷新は楽になる――。この期待に冷や水を浴びせる予測が発表されました。…"
+        },
         {
           "title": "OpenAI が 100 を超える未解決の問題を AI で解決するため、数学諮問グループを設立",
           "link": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
@@ -22,63 +36,63 @@
           "source": "はてなブックマーク（テクノロジー）",
           "published": "2026-09-21T19:48:44",
           "excerpt": "【シリコンバレー=山田遼太郎】米アンソロピックが中国企業による人工知能（AI）の新たな不正使用を指摘している。利用者の質問をアンソロピックの高性能AI「クロード」に転送し、その回答を自社AIの回答だと装って示すケースが確認されたという。…"
-        },
-        {
-          "title": "Meta の Muse は ChatGPT の初期のモバイル版リリースを上回っています",
-          "link": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-21T19:19:21",
-          "excerpt": "Appfigures の新しい推定によると、Meta の新しい AI エージェント Muse は、モバイル デビュー後の同じ期間に米国とカナダで ChatGPT よりも多くのダウンロード数とデイリー アクティブ ユーザーを獲得しました。"
-        },
-        {
-          "title": "Meta の AI エージェントは Amazon.com の使用をブロックされています",
-          "link": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-21T17:55:18",
-          "excerpt": "Amazon には、インターネット上で最も人気のある推論プラットフォームの 1 つとともに、独自の基礎モデルのコホートがあります。彼らに Muse への扉を開く法的義務がない限り、なぜそうするのでしょうか?"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。はじめに 2026 年 9 月、AWS は Amazon ECS に対して、RunTask および StartTask API に IAM 条件キー ecs:task-cpu と ecs:task-memory のサポートを追加したと発表し…",
+      "summary": "クラウドの新着が13件。AWS の認定試験勉強中にわからなくなって調べたのでまとめておく。S3 のバケットは大きな箱で、そのなかに特にフォルダ分けせず、ポイポイデータを投げ込んでいく形式。しかしこれだとアクセスが集中したときにパフォーマンスが下がってしまう。…",
       "articles": [
         {
-          "title": "ECS の RunTask/StartTask 向け IAM 条件キー拡張、公式発表と実際の挙動に相違",
-          "link": "https://qiita.com/Haruki-N/items/8cf59594f8a974931293",
+          "title": "AWS S3 のプレフィックスって？",
+          "link": "https://qiita.com/waewae96/items/3f5633ca2b41299bebc0",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-21T16:36:22",
-          "excerpt": "はじめに 2026 年 9 月、AWS は Amazon ECS に対して、RunTask および StartTask API に IAM 条件キー ecs:task-cpu と ecs:task-memory のサポートを追加したと発表し…"
+          "published": "2026-09-22T01:12:20",
+          "excerpt": "AWS の認定試験勉強中にわからなくなって調べたのでまとめておく。S3 のバケットは大きな箱で、そのなかに特にフォルダ分けせず、ポイポイデータを投げ込んでいく形式。しかしこれだとアクセスが集中したときにパフォーマンスが下がってしまう。…"
         },
         {
-          "title": "PrivateLinkの新しいVPCエンドポイント「トンネルタイプ」を2アカウント構成で試して、VPCピアリングと比較してみた",
-          "link": "https://qiita.com/mtmt_factory/items/7cd7c22ded71f772ce45",
+          "title": "RekognitionにS3の画像を渡すとき、Lambdaにデータを転送しなくていい理由",
+          "link": "https://qiita.com/caymezon/items/b09f464761e7a724bd8d",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-21T14:19:51",
-          "excerpt": "はじめに 2026年9月18日、AWS PrivateLinkに新しいVPCエンドポイントのタイプ「トンネルエンドポイント」が追加されました。…"
+          "published": "2026-09-22T00:16:53",
+          "excerpt": "背景 S3への画像アップロードをトリガーにRekognitionで物体検出するハンズオンをコンソールで実施しました。画像データをどうRekognitionに渡すかで、パフォーマンスが大きく変わる設計ポイントがありました。1.…"
         },
         {
-          "title": "AWS Lambdaのリトライと失敗時の挙動を整理する",
-          "link": "https://zenn.dev/h_t/articles/lambda-retry-failure-20260921",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-21T14:17:16",
-          "excerpt": "!この記事の内容は 2026年9月時点 の情報です。仕様は変更される可能性があります。記事は業務上の経験をもとに、構成を考えた上で、AIに依頼して作成しています。間違いなどがありましたら、ご指摘いただけると幸いです。…"
+          "title": "Amazon OpenSearch ServerlessがVercelのv0で利用可能に",
+          "link": "https://codezine.jp/article/detail/29749",
+          "source": "CodeZine",
+          "published": "2026-09-22T00:00:00",
+          "excerpt": "Amazon OpenSearch ServerlessがVercelのv0で利用可能に"
         },
         {
-          "title": "【AWS/DVA学習】注文処理APIをDVAの学習で作成してみる（①DynamoDB連携とLambdaの作成）",
-          "link": "https://qiita.com/keitakei777/items/65b9f14c615e2353abe2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-21T12:52:53",
-          "excerpt": "AWSのDVAというAWSの開発者向けのアソシエイト系の資格に挑戦するにあたり、軽くサービスをハンズオンしたいと思い、記事でまとめていこうと思います。…"
+          "title": "Amazon ECS は、AWS マネジメントコンソールでリアルタイムのデプロイメントの監視機能を提供するようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-21T20:05:00",
+          "excerpt": "Amazon Elastic Container Service (Amazon ECS) は、Amazon ECS コンソールでネイティブの Linear、Canary、Blue/Green デプロイメント戦略に対してリアルタイムのサービ…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。はじめに 2026 年 9 月、AWS は Amazon ECS に対して、RunTask および StartTask API に IAM 条件キー ecs:task-cpu と ecs:task-memory のサポートを追加したと発表し…",
+      "summary": "セキュリティの新着が7件。Glasswing によって発見され、VulnCheck 研究者によって追跡された 225 の欠陥のうち、実際に悪用されたことが確認されたのは 1 つだけです",
       "articles": [
+        {
+          "title": "人間に関連した CVE が山積み、攻撃者はほとんどが肩をすくめる",
+          "link": "https://www.theregister.com/security/2026/09/21/anthropic-linked-cves-pile-up-attackers-mostly-shrug/5298018",
+          "source": "The Register（英語）",
+          "published": "2026-09-21T22:32:51",
+          "excerpt": "Glasswing によって発見され、VulnCheck 研究者によって追跡された 225 の欠陥のうち、実際に悪用されたことが確認されたのは 1 つだけです"
+        },
+        {
+          "title": "Meta Muse AI アプリの欠陥により、ローカルのマルウェアがディクテーション トラフィックをリダイレクトさせる",
+          "link": "https://www.theregister.com/ai-and-ml/2026/09/21/meta-muse-ai-app-flaw-lets-local-malware-redirect-dictation-traffic/5297980",
+          "source": "The Register（英語）",
+          "published": "2026-09-21T19:59:52",
+          "excerpt": "バグにより音声プロンプトが公開される可能性がある一方で、広告ビジネスはユーザーが制御できることを約束"
+        },
         {
           "title": "ECS の RunTask/StartTask 向け IAM 条件キー拡張、公式発表と実際の挙動に相違",
           "link": "https://qiita.com/Haruki-N/items/8cf59594f8a974931293",
@@ -92,28 +106,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-09-21T16:30:47",
           "excerpt": "この記事で学ぶこと #34 から3回かけて、VPC の敷地にアプリ（ECS）とデータベース（RDS）を載せ、形としてのインフラは完成しました。しかし大穴が1つ残っています。「誰がこれらを操作できるのか」です。…"
-        },
-        {
-          "title": "42日でバックエンドエンジニアの基礎を完全に理解する #37 - AWS④ IAMと最小権限",
-          "link": "https://qiita.com/iketani45664566/items/5a302b462338f6243170",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-21T16:30:12",
-          "excerpt": "この記事で学ぶこと #34 から3回かけて、VPC の敷地にアプリ（ECS）とデータベース（RDS）を載せ、形としてのインフラは完成しました。しかし大穴が1つ残っています。「誰がこれらを操作できるのか」です。…"
-        },
-        {
-          "title": "AWS IAM（AWS ID およびアクセス管理）",
-          "link": "https://qiita.com/Minato_playwithtech/items/49ffadd6673eda218fc2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-21T03:45:20",
-          "excerpt": "・・・AWSリソースへのアクセスを管理するサービス。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。AWSのDVAというAWSの開発者向けのアソシエイト系の資格に挑戦するにあたり、軽くサービスをハンズオンしたいと思い、記事でまとめていこうと思います。…",
+      "summary": "データ分析の新着が5件。Amazon OpenSearch ServerlessがVercelのv0で利用可能に",
       "articles": [
+        {
+          "title": "Amazon OpenSearch ServerlessがVercelのv0で利用可能に",
+          "link": "https://codezine.jp/article/detail/29749",
+          "source": "CodeZine",
+          "published": "2026-09-22T00:00:00",
+          "excerpt": "Amazon OpenSearch ServerlessがVercelのv0で利用可能に"
+        },
         {
           "title": "【AWS/DVA学習】注文処理APIをDVAの学習で作成してみる（①DynamoDB連携とLambdaの作成）",
           "link": "https://qiita.com/keitakei777/items/65b9f14c615e2353abe2",
@@ -134,21 +141,21 @@
           "source": "The Register（英語）",
           "published": "2026-09-21T05:17:02",
           "excerpt": "エンタープライズ ネットワーキング ハードウェア ビジネスから撤退し、ユーザーにできるだけ早くオンプレミス ソフトウェアをインストールするよう指示"
-        },
-        {
-          "title": "[アップデート] AWS Glue zero-ETL integration で同じテーブルへの二重書き込みが ConflictException で止まるようになったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/20260921-aws-glue-zero-etl-ownership-conflicts/",
-          "source": "DevelopersIO",
-          "published": "2026-09-21T01:51:23",
-          "excerpt": "AWS Glue の zero-ETL integration で、ターゲットテーブルのプロパティに所有権が記録されるようになり、同じテーブルへの二重書き込みが作成時点で検出・拒否されるようになりました。実際に競合を起こして確かめてみます。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。はじめに ネットワーク機器やオンプレの経験はあるがIaCは未経験、という状態から、AIと壁打ちしながらCloudFormation（以下CFN）のテンプレートを書けるようになるまでの学習記録です。…",
+      "summary": "開発ツールの新着が11件。記事の URL: https://lwn.net/SubscriberLink/1094575/2385e98583715c2b/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "Git 2.56 – および 3.0 を楽しみにしています",
+          "link": "https://lwn.net/SubscriberLink/1094575/2385e98583715c2b/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-21T23:16:51",
+          "excerpt": "記事の URL: https://lwn.net/SubscriberLink/1094575/2385e98583715c2b/ コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "IaC未経験がCloudFormationのYAMLを1日で腹落ちさせた記録（データ構造・!Ref・!Sub編）",
           "link": "https://qiita.com/p-q_na/items/156698135edeece83264",
@@ -157,57 +164,50 @@
           "excerpt": "はじめに ネットワーク機器やオンプレの経験はあるがIaCは未経験、という状態から、AIと壁打ちしながらCloudFormation（以下CFN）のテンプレートを書けるようになるまでの学習記録です。…"
         },
         {
+          "title": "Amazon ECS は、AWS マネジメントコンソールでリアルタイムのデプロイメントの監視機能を提供するようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-21T20:05:00",
+          "excerpt": "Amazon Elastic Container Service (Amazon ECS) は、Amazon ECS コンソールでネイティブの Linear、Canary、Blue/Green デプロイメント戦略に対してリアルタイムのサービ…"
+        },
+        {
           "title": "Terraform が AWS の新機能に未対応のときどう回避するか",
           "link": "https://qiita.com/leomarokun/items/211b39ca7f0096b43508",
           "source": "Qiita AWSタグ",
           "published": "2026-09-21T17:22:35",
           "excerpt": "はじめに AWS のリソースを Terraform で書こうとして、Unsupported argument で止まったことはないでしょうか。回避策はいくつかありますが、質に差があります。…"
-        },
-        {
-          "title": "MATLAB を EC2 インスタンスに CLI でインストールを試してみた",
-          "link": "https://dev.classmethod.jp/articles/matlab-ec2-install-mpm-cli/",
-          "source": "DevelopersIO",
-          "published": "2026-09-21T11:47:38",
-          "excerpt": "EC2上のUbuntuでMATLABをコマンドラインツール（mpm）を使ってインストールしてみました。評価版ライセンスの取得からスクリプト実行まで、GUI不要でセットアップできる手順をまとめています。"
-        },
-        {
-          "title": "AWS の ARN を組み立てる Terraform の関数 terraform-provider-arn を作った",
-          "link": "https://zenn.dev/winebarrel/articles/a6576f72901f2d",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-21T09:15:55",
-          "excerpt": "aws_caller_identity を使って ARN を書くと、こんな感じになります。Resource = \"arn:aws:iam::${data.aws_caller_identity.current.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ウォーターマークではなくスパイマーク",
-      "link": "https://brand.io/article/spymarks/",
+      "title": "クロード ステータス – 複数のモデルでエラーが増加しました",
+      "link": "https://status.claude.com/incidents/7g1qpkyz5gxh",
       "source": "Hacker News（英語）",
-      "published": "2026-09-21T23:03:49",
-      "excerpt": "記事の URL: https://brand.io/article/spymarks/ コメント URL: https://news.ycombinator.com/item?id=49794615 ポイント: 4 コメント数: 1"
+      "published": "2026-09-22T01:05:19",
+      "excerpt": "記事の URL: https://status.claude.com/incidents/7g1qpkyz5gxh コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "「遅延インポート」　～マンガでプログラミング用語解説",
-      "link": "https://codezine.jp/article/detail/24561",
-      "source": "CodeZine",
-      "published": "2026-09-21T23:00:00",
-      "excerpt": "この連載は、マンガで分かるプログラミング用語辞典です。気軽に読み流せるマンガと、テキストによる詳しい解説で、プログラミング未経験者がつまづきがちな専門用語・概念をやさしく読み解き、よりスムーズな学習を手助けします。…"
+      "title": "【デブサミ福岡】Postmanのアップデートを間近で体験しました | Alternative Architecture DOJO",
+      "link": "https://aadojo.alterbooth.com/entry/2026/09/22/100000",
+      "source": "企業テックブログまとめ",
+      "published": "2026-09-22T01:00:00",
+      "excerpt": "指定記事の内容と要約スキルの指示を確認し、SEOを意識した100～200字程度の概要に整えます。…"
     },
     {
-      "title": "AWSコストを最速で正確に把握するための基礎設計 — Cost Explorer・Usage Type・CUR をどう使い分けるか",
-      "link": "https://qiita.com/yadeharuun1226-collab/items/65f0927708ecb3810547",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-21T22:55:17",
-      "excerpt": "導入 AWS のコスト管理は、サービスが増えるほど複雑になり、 「どこで何に課金されているのか」が見えにくくなる。アーキテクトとして重要なのは、 “どのレイヤーで何を確認すべきか” を構造化して理解すること。…"
+      "title": "SpaceXAI、「Grok 4.7」発表　コーディングと知識労働向けで同社最高性能、価格は据え置き",
+      "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001668/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-21T23:46:47",
+      "excerpt": "SpaceXAIはAIモデル「Grok 4.7」を発表した。前モデルと同価格・同速度を維持しつつ大規模なベースモデルを採用し、コーディングや長時間の業務タスク性能、安全性を強化した。[Cursor](https://www.itmedia.…"
     },
     {
-      "title": "データ保護委員会、位置データの処理を巡りGoogleに4億300万ユーロの罰金を科す",
-      "link": "https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-google-eu403-million-following-inquiry-googles-processing-location",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-21T22:33:45",
-      "excerpt": "記事の URL: https://www.dataprotection.…"
+      "title": "Appleの店舗を建てた男はAIショッピングへのシリコンバレーの賭けに乗らない",
+      "link": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-21T23:44:28",
+      "excerpt": "Apple Store の設計者である Ron Johnson 氏は、Apple の秘密のソースは常に従業員にあると述べています。"
     }
   ]
 }
