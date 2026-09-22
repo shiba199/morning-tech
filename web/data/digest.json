@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-09-22T17:06:45",
+  "generated_at": "2026-09-22T20:18:00",
   "window_hours": 24,
-  "total": 134,
+  "total": 143,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。Anthropic はこれを「これまでにテストした中で最もパフォーマンスの高いモデル」と呼んでいます。",
+      "summary": "生成AIの新着が23件。ブリティッシュコロンビア州はOpenAIを訴え、Tumbler Ridge銃撃犯のChatGPTログを要求した。",
       "articles": [
+        {
+          "title": "ChatGPTが銃撃に使用された後、OpenAIに新しい学校の費用の支払いを求める訴訟",
+          "link": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-09-22T19:28:23",
+          "excerpt": "ブリティッシュコロンビア州はOpenAIを訴え、Tumbler Ridge銃撃犯のChatGPTログを要求した。"
+        },
+        {
+          "title": "OpenAI GPT-6 Sol と GPT-6 Luna が Amazon Bedrock で一般入手可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-sol-luna-on-amazon-bedrock/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-22T18:09:00",
+          "excerpt": "本日、AWS は、Amazon Bedrock 上の OpenAI から GPT-6 Sol と GPT-6 Luna の一般提供を発表しました。…"
+        },
         {
           "title": "Anthropic が低価格と寓話レベルのパフォーマンスを備えた Opus 5.5 をリリース",
           "link": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
@@ -22,28 +36,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-09-22T16:15:06",
           "excerpt": "HN さん、こんにちは。私が ai·rete·rag を構築したのは、チームが監査可能である必要がある決定 (融資、詐欺、臨床トリアージ) を担当する LLM を配置し、事後に「ガードレール」をボルトで取り付けるのを何度も見たからです。…"
-        },
-        {
-          "title": "[アップデート] Bedrock Managed Knowledge BaseのユーザーマネージドセットアップでConfluenceをつないでみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-managed-kb-confluence-user-managed-setup-3lo/",
-          "source": "DevelopersIO",
-          "published": "2026-09-22T16:07:20",
-          "excerpt": "Amazon Bedrock Managed Knowledge BaseのConfluence向けユーザーマネージドセットアップ（3LO）ができるようになりました！なにが便利になったのでしょうか・・・！！実際に試してみました！…"
-        },
-        {
-          "title": "Amazon Bedrock AgentCore を試してみた",
-          "link": "https://qiita.com/HKA/items/a59872a58289bad546a7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-22T15:07:52",
-          "excerpt": "Amazon Bedrock AgentCoreとは簡単に言うとAIエージェントを簡単に構築・テスト・運用できるサービスのようです。詳細は以下を参照して下さい。https://aws.amazon.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。どうもこんにちは。先日ですね、ServerlessDays Tokyo 2026というイベントに参加させていただきまして、Day2のワークショップに参加させていただきました。…",
+      "summary": "クラウドの新着が11件。Fargate の Canary デプロイで、10% / 90% のトラフィックシフト、イメージ取得失敗時のロールバック、Amazon Q による原因調査を試しました。…",
       "articles": [
+        {
+          "title": "Canary / Linear / Blue-Green に対応した Amazon ECS コンソールの「デプロイ」タブを試してみた",
+          "link": "https://dev.classmethod.jp/articles/ecs-console-deployment-tab-canary-linear-blue-green/",
+          "source": "DevelopersIO",
+          "published": "2026-09-22T17:39:13",
+          "excerpt": "Fargate の Canary デプロイで、10% / 90% のトラフィックシフト、イメージ取得失敗時のロールバック、Amazon Q による原因調査を試しました。…"
+        },
         {
           "title": "【AWS】Lambda Durable FunctionsのSDKの使い方まとめ",
           "link": "https://qiita.com/PDC-Kurashinak/items/2a0684a98638a0b83e66",
@@ -64,21 +71,28 @@
           "source": "DevelopersIO",
           "published": "2026-09-22T13:50:59",
           "excerpt": "DuckDB v2.0 のプレビューが公開され、ほぼ同じ時期に開発元の DuckLabs が AWS に加わることが発表されました。本日は、v2.…"
-        },
-        {
-          "title": "Amazon MWAA ServerlessのPythonOperatorで複数のSSMパラメーターを1タスクで取得してみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-mwaa-serverless-pythonoperator-ssm-multi-parameters/",
-          "source": "DevelopersIO",
-          "published": "2026-09-22T13:06:57",
-          "excerpt": "MWAA ServerlessのPythonOperatorでSSMの複数パラメーターを一括取得し、辞書XComのブラケットアクセスで下流タスクへ渡す構成を確認しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。記事の URL: https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp コメント URL: https://news.…",
+      "summary": "セキュリティの新着が10件。この記事で学ぶこと #37 で「AKIA で始まる文字列を見たら事故として扱う」と書きました。では、そもそも漏らさないためにどんな仕組みを置くのか。漏れたら最初の10分で何をするのか。そして、漏れたことにどうやって気づくのか。…",
       "articles": [
+        {
+          "title": "【付録】AWSセキュリティベストプラクティス - 42日でバックエンドエンジニアの基礎を完全に理解する",
+          "link": "https://qiita.com/iketani45664566/items/cd88cd2a226bb98f2a21",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-22T17:25:35",
+          "excerpt": "この記事で学ぶこと #37 で「AKIA で始まる文字列を見たら事故として扱う」と書きました。では、そもそも漏らさないためにどんな仕組みを置くのか。漏れたら最初の10分で何をするのか。そして、漏れたことにどうやって気づくのか。…"
+        },
+        {
+          "title": "【付録】AWSセキュリティベストプラクティス - 42日でバックエンドエンジニアの基礎を完全に理解する",
+          "link": "https://zenn.dev/kipcop/articles/b42-go-37x-aws-security",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-22T17:25:29",
+          "excerpt": "この記事で学ぶこと #37 で「AKIA で始まる文字列を見たら事故として扱う」と書きました。では、そもそも漏らさないためにどんな仕組みを置くのか。漏れたら最初の10分で何をするのか。そして、漏れたことにどうやって気づくのか。…"
+        },
         {
           "title": "スコア 9.2/10 の WordPress 脆弱性は、2016 年以降のすべてのバージョンに存在します。",
           "link": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
@@ -87,54 +101,54 @@
           "excerpt": "記事の URL: https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp コメント URL: https://news.…"
         },
         {
-          "title": "7割が“知っているだけ”の総務省AIセキュリティガイドライン　“放置リスク”を避ける第一歩とは？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/22/news011.html",
-          "source": "@IT",
-          "published": "2026-09-22T04:00:00",
-          "excerpt": "AIが普及する一方、そのセキュリティリスクも顕在化しています。総務省は対策のガイドラインを公開したものの、その活用は十分に広がっていないようです。AIセキュリティ対策をどこから始めればよいのでしょうか。"
-        },
-        {
-          "title": "Aikido、オープンウェイトのセキュリティ向けAIモデル「Altar-1」を公開",
-          "link": "https://gihyo.jp/article/2026/09/aikido-altar-1?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-09-22T03:45:00",
-          "excerpt": "Aikido Securityは2026年9月21日、同社初のオープンウェイトのセキュリティ向けAIモデル「Altar-1」を発表した。"
-        },
-        {
-          "title": "Amazon Quick の認証を4軸で整理して、Entra ID とデスクトップ SSO を繋いでみた【前編：4軸の整理】",
-          "link": "https://zenn.dev/aws_japan/articles/amazon-quick-auth-4-axes-part1",
+          "title": "TerraformによるPCI DSS学習ラボ構築（2）～ VPC Flow Logsによる分離検証とOpenVAS内部脆弱性スキャン ～",
+          "link": "https://zenn.dev/nyondev/articles/pcidss-aws-part2",
           "source": "Zenn AWSトピック",
-          "published": "2026-09-22T00:30:45",
-          "excerpt": "はじめに こんにちは！AWS でソリューションアーキテクトをしている町田です。…"
+          "published": "2026-09-22T13:32:57",
+          "excerpt": "本稿の位置づけ 前回 では、Terraform で CDE（Cardholder Data Environment）と Non-CDE を分離した AWS 環境を構築し、CloudTrail や VPC Flow Logs などの監査基盤を…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。Amazon OpenSearch ServerlessがVercelのv0で利用可能に",
+      "summary": "データ分析の新着が2件。工作員の個人情報の盗難は、工作員とその家族が外国政府への協力を強要されるという重大な対諜報脅威となる可能性がある。",
       "articles": [
+        {
+          "title": "ハッキンググループ ShinyHunters が FBI に侵入し、捜査員と申請者のデータを盗んだと主張",
+          "link": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-09-22T18:40:30",
+          "excerpt": "工作員の個人情報の盗難は、工作員とその家族が外国政府への協力を強要されるという重大な対諜報脅威となる可能性がある。"
+        },
         {
           "title": "Amazon OpenSearch ServerlessがVercelのv0で利用可能に",
           "link": "https://codezine.jp/article/detail/29749",
           "source": "CodeZine",
           "published": "2026-09-22T00:00:00",
           "excerpt": "Amazon OpenSearch ServerlessがVercelのv0で利用可能に"
-        },
-        {
-          "title": "「Linuxデスクトップ元年」到来か。Debianが使えるGooglebook OS発表 - すまほん!!",
-          "link": "https://smhn.info/202609-googlebook-os-debian-linux-environment-launch",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-21T17:11:26",
-          "excerpt": "Googleは9月21日、Androidの技術基盤とChromeOSのデスクトップ基盤を組み合わせた「Googlebook OS」の詳細を発表し、このOSを搭載したノートPC「Googlebook」の予約受付を開始しました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。どうもこんにちは。先日ですね、ServerlessDays Tokyo 2026というイベントに参加させていただきまして、Day2のワークショップに参加させていただきました。…",
+      "summary": "開発ツールの新着が10件。Fargate の Canary デプロイで、10% / 90% のトラフィックシフト、イメージ取得失敗時のロールバック、Amazon Q による原因調査を試しました。…",
       "articles": [
+        {
+          "title": "Canary / Linear / Blue-Green に対応した Amazon ECS コンソールの「デプロイ」タブを試してみた",
+          "link": "https://dev.classmethod.jp/articles/ecs-console-deployment-tab-canary-linear-blue-green/",
+          "source": "DevelopersIO",
+          "published": "2026-09-22T17:39:13",
+          "excerpt": "Fargate の Canary デプロイで、10% / 90% のトラフィックシフト、イメージ取得失敗時のロールバック、Amazon Q による原因調査を試しました。…"
+        },
+        {
+          "title": "NightmareEclipse の最新のゼロデイにより、Microsoft Defender は過去に囚われたままになります",
+          "link": "https://www.theregister.com/security/2026/09/22/nightmareeclipses-latest-zero-day-leaves-microsoft-defender-stuck-in-the-past/5298320",
+          "source": "The Register（英語）",
+          "published": "2026-09-22T16:36:00",
+          "excerpt": "BigDiskBuster は Microsoft のウイルス対策プログラムを実行したままにするが、アップデートをインストールできない"
+        },
         {
           "title": "【AWS】Lambda Durable FunctionsのSDKの使い方まとめ",
           "link": "https://qiita.com/PDC-Kurashinak/items/2a0684a98638a0b83e66",
@@ -143,57 +157,43 @@
           "excerpt": "どうもこんにちは。先日ですね、ServerlessDays Tokyo 2026というイベントに参加させていただきまして、Day2のワークショップに参加させていただきました。…"
         },
         {
-          "title": "Amazon EVS で VCF 9.1 を CloudFormation スタック1つで構築してみた（東京リージョン・実践編）",
-          "link": "https://qiita.com/mtoyoda/items/78cbd198993c798dca9d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-22T04:30:22",
-          "excerpt": "先日、Amazon EVS 上での VCF 9.1 デプロイが EVS Deployment Orchestrator で CloudFormation スタック1つにまで簡単になった、という全体像を整理しました。…"
-        },
-        {
-          "title": "Next.jsのビルドは通るのにAmplifyへ出せない。成果物を254.2→168.3 MiBに減らした話",
-          "link": "https://zenn.dev/yamato_snow/articles/amplify-nextjs-build-output-size",
+          "title": "TerraformによるPCI DSS学習ラボ構築（2）～ VPC Flow Logsによる分離検証とOpenVAS内部脆弱性スキャン ～",
+          "link": "https://zenn.dev/nyondev/articles/pcidss-aws-part2",
           "source": "Zenn AWSトピック",
-          "published": "2026-09-22T02:29:23",
-          "excerpt": "AWS Amplify のログには Build completed successfully と出ているのに、画面では「失敗」になっていました🧐 ビルドは成功したはずなのに、どこで止まっているんでしょうか。…"
-        },
-        {
-          "title": "Terraformのディレクトリ構成とtfstateの粒度について",
-          "link": "https://zenn.dev/h_t/articles/terraform-directory-structure-20260922",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-22T02:16:22",
-          "excerpt": "!この記事の内容は 2026年9月時点 の情報です。仕様は変更される可能性があります。記事は業務上の経験をもとに、構成を考えた上で、AIに依頼して作成しています。間違いなどがありましたら、ご指摘いただけると幸いです。…"
+          "published": "2026-09-22T13:32:57",
+          "excerpt": "本稿の位置づけ 前回 では、Terraform で CDE（Cardholder Data Environment）と Non-CDE を分離した AWS 環境を構築し、CloudTrail や VPC Flow Logs などの監査基盤を…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "老化は故障ではなくプログラムかもしれない",
-      "link": "https://www.quantamagazine.org/why-aging-may-be-a-program-not-a-breakdown-20260814/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-22T16:48:33",
-      "excerpt": "記事の URL: https://www.quantamagazine.org/why-aging-may-be-a-program-not-a-breakdown-20260814/ コメント URL: https://news.…"
-    },
-    {
-      "title": "アメリカ人の飲酒量は記録的な低水準にとどまる：ギャラップ世論調査",
-      "link": "https://news.gallup.com/poll/713534/americans-drinking-remains-record-low.aspx",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-22T16:29:11",
-      "excerpt": "記事の URL: https://news.gallup.com/poll/713534/americans-driking-remains-record-low.aspx コメント URL: https://news.…"
-    },
-    {
-      "title": "クロード 作品5.5",
-      "link": "https://www.anthropic.com/claude-opus-5-5",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-22T16:27:30",
-      "excerpt": "https://github.com/anthropics/ClaudeForFoundationModels/comm...コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "盗まれたパスワードにより、アメリカの水道事業者がハッカーにさらされている",
-      "link": "https://techcrunch.com/2026/09/22/stolen-passwords-are-exposing-americas-water-providers-to-hackers/",
+      "title": "クアルコム、AIに重点を置いた2つの新しいスマートフォンチップを発表",
+      "link": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-22T15:50:58",
-      "excerpt": "研究者らは、米国の最も重要な重要インフラの一部に別の差し迫った脅威が迫っていると述べている。"
+      "published": "2026-09-22T20:00:00",
+      "excerpt": "クアルコムは、新しい最上位チップはローカルで30Bの混合エキスパートモデルを実行できると述べた"
+    },
+    {
+      "title": "TypeScript と CSS で書かれたネイティブ アプリ",
+      "link": "https://github.com/geastack/examples",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-22T19:42:20",
+      "excerpt": "記事の URL: https://github.com/geastack/examples コメント URL: https://news.ycombinator.com/item?id=49807021 ポイント: 11 コメント数: 0"
+    },
+    {
+      "title": "Obscura: アクティビティを記録できない初の VPN",
+      "link": "https://obscura.com/#faq-technical",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-22T19:40:28",
+      "excerpt": "記事の URL: https://obscura.com/#faq-technical コメント URL: https://news.ycombinator.com/item?id=49807003 ポイント: 12 コメント数: 7"
+    },
+    {
+      "title": "Appleは新しいフィットネストラッカーでWhoopに対抗する可能性があるとレポートが報じている",
+      "link": "https://techcrunch.com/2026/09/22/apple-could-take-on-whoop-with-a-new-fitness-tracker-report-says/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-22T19:27:57",
+      "excerpt": "Appleは、新世代のハードウェアデバイスの一部として、新しいフィットネストラッカーを開発している可能性があります。"
     }
   ]
 }
