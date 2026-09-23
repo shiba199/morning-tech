@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-09-22T23:03:40",
+  "generated_at": "2026-09-23T01:34:25",
   "window_hours": 24,
-  "total": 144,
+  "total": 151,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。Amazon CloudWatch Omni が、生成 AI およびエージェントワークロード専用に構築された AI を活用した可観測性をどのように提供するかを学びます。…",
+      "summary": "生成AIの新着が34件。はじめに Amazon Bedrock Guardrails 攻撃をブロックしたりの検証をしたりはするのですが、実際に検出した場合の通知や結果の分析をどうすれば良いのだろうと思いました。…",
       "articles": [
         {
-          "title": "Amazon CloudWatch Omni の紹介: 生成 AI およびエージェントワークロードのための AI を活用した可観測性",
-          "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-ai-powered-observability-for-generative-ai-and-agentic-workloads/",
-          "source": "AWS News Blog（英語）",
-          "published": "2026-09-22T22:21:13",
-          "excerpt": "Amazon CloudWatch Omni が、生成 AI およびエージェントワークロード専用に構築された AI を活用した可観測性をどのように提供するかを学びます。…"
+          "title": "Bedrock Guardrails の運用レポートを AI に書かせてみた",
+          "link": "https://qiita.com/panshaka30/items/98622eee8f01cfc277c1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-23T00:53:53",
+          "excerpt": "はじめに Amazon Bedrock Guardrails 攻撃をブロックしたりの検証をしたりはするのですが、実際に検出した場合の通知や結果の分析をどうすれば良いのだろうと思いました。…"
         },
         {
-          "title": "Anthropic、「Claude Opus 5.5」公開　Fable 5.1並みの性能で利用コスト4割減",
-          "link": "https://www.itmedia.co.jp/news/article/2609/23/2000001673/",
+          "title": "AIB-C01の予想問題集をClaudeに作ってもらった",
+          "link": "https://qiita.com/fudiscreet/items/811d3d016e3fa5228e6c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-23T00:22:14",
+          "excerpt": "はじめに AWSから新しい資格、 AWS Certified AI Business Strategist（AIB-C01） が発表された。…"
+        },
+        {
+          "title": "Claude Code v2.1.280 の主要アップデート - Fable 5.1 と GPT-6 Astra 超えの最新モデル Opus 5.5 の登場",
+          "link": "https://dev.classmethod.jp/articles/20260923-cc-updates-v2-1-280/",
+          "source": "DevelopersIO",
+          "published": "2026-09-23T00:20:09",
+          "excerpt": "Claude Code v2.1.280がリリースされました。Opus 5.5が既定モデルになり、料金が20%削減される一方、既定モデルの変更やキーバインドの動作変更など、複数の破壊的変更が含まれています。実際に試してみました。"
+        },
+        {
+          "title": "OpenAI、「GPT-6 Sol」と「GPT-6 Luna」公開　API料金は前世代の半額に",
+          "link": "https://www.itmedia.co.jp/news/article/2609/23/2000001674/",
           "source": "ITmedia NEWS",
-          "published": "2026-09-22T21:57:43",
-          "excerpt": "Anthropicは「Claude Opus 5.5」を発表した。多くの作業で「Fable 5.1」並みの性能を持ち、利用コストは「Opus 5」より約40％低い。Pro以上の有料プランとAPIで即日提供を始めた。…"
-        },
-        {
-          "title": "Amazon Bedrock で利用可能になった GPT-6 Sol/Luna を試してみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-openai-gpt6-sol-luna/",
-          "source": "DevelopersIO",
-          "published": "2026-09-22T21:03:14",
-          "excerpt": "Bedrock で OpenAI GPT-6 Sol / Luna を呼び出した検証結果です。…"
-        },
-        {
-          "title": "Amazon Bedrock で利用可能になった Claude Opus 5.5 を試してみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-claude-opus-5-5/",
-          "source": "DevelopersIO",
-          "published": "2026-09-22T20:45:03",
-          "excerpt": "Bedrock の Converse API で Claude Opus 5.5 を呼び出した検証結果です。…"
+          "published": "2026-09-23T00:12:02",
+          "excerpt": "OpenAIは新モデル「GPT-6 Sol」と「GPT-6 Luna」を公開した。最上位のAstraと同様の手法で訓練し、前世代からAPI料金を半額に引き下げた。ChatGPTやCodexで順次提供する。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。三井住友信託銀行は、勘定系はホスト・オンプレミスに残しつつ、情報系システムはAWSに集約する方針を採る。既に250以上のシステムをAWSで稼働させ、AWSと立ち上げた共同組織を中心にクラウドネイティブ化を推進する。同行の戦略の全体像とは。",
+      "summary": "クラウドの新着が11件。はじめに 「AWSに興味はある。でもクレジットカード登録の画面で、手が止まった」——そんな経験はありませんか？私自身、以前からAWSに興味がありながら、クレジットカードを登録して触ることへの怖さから、一歩を踏み出せずにいました。…",
       "articles": [
+        {
+          "title": "AWS入門！S3でのサイト公開からリソース削除まで迷わず体験",
+          "link": "https://qiita.com/TechSpace-engineer/items/a9e02664b1dfc0ad9567",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-23T01:18:01",
+          "excerpt": "はじめに 「AWSに興味はある。でもクレジットカード登録の画面で、手が止まった」——そんな経験はありませんか？私自身、以前からAWSに興味がありながら、クレジットカードを登録して触ることへの怖さから、一歩を踏み出せずにいました。…"
+        },
+        {
+          "title": "SAMの`S3ReadPolicy`はコンソールでのIAM手動設定2箇所を1行に圧縮する",
+          "link": "https://qiita.com/caymezon/items/23e630b94221a990d049",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-22T23:26:01",
+          "excerpt": "背景 S3 + Lambda + RekognitionでSAMを使い画像認識パイプラインを構築する際、IAM権限まわりの記述量がコンソール版と比べて劇的に少なくなりました。…"
+        },
         {
           "title": "三井住友信託銀行、勘定系はオンプレ維持で情報系はAWS集約へ　残す判断と寄せる判断の線引きとは",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2609/23/news013.html",
@@ -57,55 +71,41 @@
           "source": "DevelopersIO",
           "published": "2026-09-22T17:39:13",
           "excerpt": "Fargate の Canary デプロイで、10% / 90% のトラフィックシフト、イメージ取得失敗時のロールバック、Amazon Q による原因調査を試しました。…"
-        },
-        {
-          "title": "【AWS】Lambda Durable FunctionsのSDKの使い方まとめ",
-          "link": "https://qiita.com/PDC-Kurashinak/items/2a0684a98638a0b83e66",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-22T15:55:28",
-          "excerpt": "どうもこんにちは。先日ですね、ServerlessDays Tokyo 2026というイベントに参加させていただきまして、Day2のワークショップに参加させていただきました。…"
-        },
-        {
-          "title": "Aurora DSQL を行単位のアクセス制御なしで家族ごとに分ける：主キー先頭の家族の識別子、条件の無い問い合わせを落とす契約テスト、衝突だけの再試行、課金単位の 5 原則",
-          "link": "https://qiita.com/Takenori-Kusaka/items/395fd9429f34c0023e59",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-22T14:57:02",
-          "excerpt": "この記事は、生成AIを使って作成し、筆者が内容を確認・修正したうえで公開しています。はじめに 家族ごとにデータを分ける子供向けのウェブアプリを、本番は Aurora DSQL で動かしています。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。偽のエラー警告、ホテルWi-Fi、そして「たまたま選ばれる」被害。2026年、サイバー攻撃の手口は昨年の常識が通用しないほど変わった。2026年度上期（4～9月）のセキュリティ記事から、トップ5を紹介する。",
+      "summary": "セキュリティの新着が13件。特定のコンプライアンス対応が必要な時に役に立つ",
       "articles": [
+        {
+          "title": "[アップデート] Amazon API Gateway の REST API にポスト量子暗号を含む TLS セキュリティポリシーが2つ追加されました",
+          "link": "https://dev.classmethod.jp/articles/api-gateway-tls-security-rest-apis-ext2-fips/",
+          "source": "DevelopersIO",
+          "published": "2026-09-23T01:25:26",
+          "excerpt": "特定のコンプライアンス対応が必要な時に役に立つ"
+        },
+        {
+          "title": "SAMの`S3ReadPolicy`はコンソールでのIAM手動設定2箇所を1行に圧縮する",
+          "link": "https://qiita.com/caymezon/items/23e630b94221a990d049",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-22T23:26:01",
+          "excerpt": "背景 S3 + Lambda + RekognitionでSAMを使い画像認識パイプラインを構築する際、IAM権限まわりの記述量がコンソール版と比べて劇的に少なくなりました。…"
+        },
+        {
+          "title": "クラウドもシャドーITも「見えない」　千葉銀行はグループ20以上の組織のセキュリティを、どう一元化した？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/23/news010.html",
+          "source": "@IT",
+          "published": "2026-09-22T23:00:00",
+          "excerpt": "クラウド利用の広がりによってアタックサーフェスが拡大し、シャドーITのリスクも浮上している。ID、端末、データ、クラウドの利用状況を一元的に把握、管理してリスクを統合的にコントロールするセキュリティ体制の構築が急務だ。…"
+        },
         {
           "title": "ClickFixからホテルWi-Fiの異変まで　2026年度上期セキュリティ記事トップ5",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2609/23/news015.html",
           "source": "ITmedia エンタープライズ",
           "published": "2026-09-22T22:00:00",
           "excerpt": "偽のエラー警告、ホテルWi-Fi、そして「たまたま選ばれる」被害。2026年、サイバー攻撃の手口は昨年の常識が通用しないほど変わった。2026年度上期（4～9月）のセキュリティ記事から、トップ5を紹介する。"
-        },
-        {
-          "title": "Windows CLOSEDQUORUM マルウェアは AI モデルを使用して侵害後のアクションを自律的に選択します",
-          "link": "https://www.theregister.com/security/2026/09/22/windows-closedquorum-malware-uses-ai-models-to-autonomously-select-post-compromise-actions/5298435",
-          "source": "The Register（英語）",
-          "published": "2026-09-22T21:33:29",
-          "excerpt": "C2 に LLM を使用するための Windows インプラントが「最初に」公的に文書化されました"
-        },
-        {
-          "title": "セキュリティ会社は、サインフェルドのキャラクターがボットのチームへの参加にちなんで AI エージェントに名前を付けていることを発見",
-          "link": "https://www.theregister.com/ai-and-ml/2026/09/22/security-firm-finds-naming-ai-agents-after-seinfeld-characters-helps-bots-join-the-team/5298424",
-          "source": "The Register（英語）",
-          "published": "2026-09-22T20:43:17",
-          "excerpt": "何か問題があるわけではない"
-        },
-        {
-          "title": "【付録】AWSセキュリティベストプラクティス - 42日でバックエンドエンジニアの基礎を完全に理解する",
-          "link": "https://qiita.com/iketani45664566/items/cd88cd2a226bb98f2a21",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-22T17:25:35",
-          "excerpt": "この記事で学ぶこと #37 で「AKIA で始まる文字列を見たら事故として扱う」と書きました。では、そもそも漏らさないためにどんな仕組みを置くのか。漏れたら最初の10分で何をするのか。そして、漏れたことにどうやって気づくのか。…"
         }
       ]
     },
@@ -122,6 +122,13 @@
           "excerpt": "AWS Billing Transfer ユーザーは、2 レベルの請求転送手配で手動の請求グループ設定を不要にする新しい AWS Billing Conductor 設定である自動請求転送請求グループ作成を有効にできるようになりました。…"
         },
         {
+          "title": "Amazon Athena のワークグループについて",
+          "link": "https://zenn.dev/toriteki121/articles/2026-09-aws-athena-workgroup",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-22T18:43:24",
+          "excerpt": "学び ワークグループは、Athena での分析作業のグルーピング。扱うデータ、分析の目的 (障害調査、コスト分析、監査など)、チーム単位でワークグループを分けるのがよさそう。…"
+        },
+        {
           "title": "ハッキンググループ ShinyHunters が FBI に侵入し、捜査員と申請者のデータを盗んだと主張",
           "link": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/",
           "source": "TechCrunch（英語）",
@@ -134,21 +141,21 @@
           "source": "The Register（英語）",
           "published": "2026-09-22T17:24:13",
           "excerpt": "今回は個人的な話です"
-        },
-        {
-          "title": "Amazon OpenSearch ServerlessがVercelのv0で利用可能に",
-          "link": "https://codezine.jp/article/detail/29749",
-          "source": "CodeZine",
-          "published": "2026-09-22T00:00:00",
-          "excerpt": "Amazon OpenSearch ServerlessがVercelのv0で利用可能に"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。偽のエラー警告、ホテルWi-Fi、そして「たまたま選ばれる」被害。2026年、サイバー攻撃の手口は昨年の常識が通用しないほど変わった。2026年度上期（4～9月）のセキュリティ記事から、トップ5を紹介する。",
+      "summary": "開発ツールの新着が9件。「ネットワークが遅い」と言われたら帯域を確認する。「Wi-Fiがつながらない」と言われたら原因を調べる。障害が起きればCLIをたたいて問題を切り分ける――。…",
       "articles": [
+        {
+          "title": "「ネットワークが遅い＝帯域不足」「Wi-Fi障害に手動対応」「CLIで問題特定」――その常識はもう古い？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/23/news012.html",
+          "source": "@IT",
+          "published": "2026-09-22T23:00:00",
+          "excerpt": "「ネットワークが遅い」と言われたら帯域を確認する。「Wi-Fiがつながらない」と言われたら原因を調べる。障害が起きればCLIをたたいて問題を切り分ける――。…"
+        },
         {
           "title": "ClickFixからホテルWi-Fiの異変まで　2026年度上期セキュリティ記事トップ5",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2609/23/news015.html",
@@ -169,45 +176,38 @@
           "source": "The Register（英語）",
           "published": "2026-09-22T16:36:00",
           "excerpt": "BigDiskBuster は Microsoft のウイルス対策プログラムを実行したままにするが、アップデートをインストールできない"
-        },
-        {
-          "title": "【AWS】Lambda Durable FunctionsのSDKの使い方まとめ",
-          "link": "https://qiita.com/PDC-Kurashinak/items/2a0684a98638a0b83e66",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-22T15:55:28",
-          "excerpt": "どうもこんにちは。先日ですね、ServerlessDays Tokyo 2026というイベントに参加させていただきまして、Day2のワークショップに参加させていただきました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Amazon CloudWatch Omni の紹介: AI を活用した協調的なアプリケーションの可観測性",
-      "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
-      "source": "AWS News Blog（英語）",
-      "published": "2026-09-22T22:23:14",
-      "excerpt": "Amazon CloudWatch Omni は、CloudWatch の次の進化版です。…"
+      "title": "Microsoft、Xboxで新たに268人削減　次期「Halo」はActivisionが開発、Ninja Theoryは閉鎖案",
+      "link": "https://www.itmedia.co.jp/news/article/2609/23/2000001675/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-23T00:55:58",
+      "excerpt": "MicrosoftのXbox部門はHalo Studiosや管理部門などで268人を削減すると発表した。7月発表の大規模再編の約4分の3が完了した形だ。…"
     },
     {
-      "title": "AI トレーニング データの需要が急増し、Snorkel AI の評価額が 3 倍の 35 億ドルに",
-      "link": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-22T21:56:43",
-      "excerpt": "創業7年のこのスタートアップは、Data-as-a-Serviceアプローチを推進するためにシリーズEで3億5000万ドルを調達した。"
+      "title": "Playwrightのカバレッジをlcovで出力する | KENTEM TechBlog",
+      "link": "https://tech.kentem.jp/entry/2026/09/23/090000",
+      "source": "企業テックブログまとめ",
+      "published": "2026-09-23T00:00:00",
+      "excerpt": "フロントエンドを担当しているK.Sです。Playwrightにはカバレッジを計測するAPIがあります。公式ドキュメントには取得したデータをistanbul形式へ変換する例が載っていますが、結果をファイルとして出力する話は出てきません。…"
     },
     {
-      "title": "UV指数は素肌に当たる太陽光の温かさではありません。",
-      "link": "https://blog.asciitweezers.com/the-uv-index-is-not-the-warm-sensation-of-sunlight-on-bare-skin/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-22T21:06:40",
-      "excerpt": "記事の URL: https://blog.asciitweezers.…"
+      "title": "AWS Marketplace、デモ・プライベートオファーのリクエストを数分で出品者に通知",
+      "link": "https://codezine.jp/article/detail/29750",
+      "source": "CodeZine",
+      "published": "2026-09-23T00:00:00",
+      "excerpt": "AWS Marketplace、デモ・プライベートオファーのリクエストを数分で出品者に通知"
     },
     {
-      "title": "Microsoft は 2007 年に FoxPro を廃止しました。とにかく、FoxPro が復活しました。",
-      "link": "https://foxscript.org/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-22T21:00:30",
-      "excerpt": "記事の URL: https://foxscript.org/ コメント URL: https://news.ycombinator.com/item?id=49808023 ポイント: 105 コメント数: 75"
+      "title": "パーミッションのルールを知ろう",
+      "link": "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-04?utm_source=feed",
+      "source": "gihyo.jp 開発",
+      "published": "2026-09-22T23:59:00",
+      "excerpt": "本連載は2026年9月刊行の『Claude Codeで作って学ぶ AI駆動アプリ開発入門』から一部、抜粋・編集してお届けします。…"
     }
   ]
 }
