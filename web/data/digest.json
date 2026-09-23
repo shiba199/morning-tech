@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-09-23T06:53:20",
+  "generated_at": "2026-09-23T12:23:52",
   "window_hours": 24,
-  "total": 150,
+  "total": 152,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が34件。2026 年 9 月 18 日に Amazon Bedrock AgentCore Runtime の platformVersion V2 がリリースされました。…",
+      "summary": "生成AIの新着が35件。Codex CLIとClaude Codeで始めるAI-DLC AI-DLC WorkflowsをCodex CLIとClaude Codeで使い始める手順を、インストールから最初のワークフロー起動までまとめます。…",
       "articles": [
         {
-          "title": "AgentCore Runtime V2 を試してみた",
-          "link": "https://qiita.com/musa_rock/items/cabde9a7cb6dd35e645f",
+          "title": "Codex CLIとClaude Codeで始めるAI-DLC",
+          "link": "https://qiita.com/mkydk/items/c90a8454e6ae581d07d3",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-23T06:24:42",
-          "excerpt": "2026 年 9 月 18 日に Amazon Bedrock AgentCore Runtime の platformVersion V2 がリリースされました。…"
+          "published": "2026-09-23T11:13:47",
+          "excerpt": "Codex CLIとClaude Codeで始めるAI-DLC AI-DLC WorkflowsをCodex CLIとClaude Codeで使い始める手順を、インストールから最初のワークフロー起動までまとめます。…"
         },
         {
-          "title": "OpenAI、「GPT-6 Sol」「GPT-6 Luna」を発表 ——速度と費用効率を重視、API入出力単価はGPT-5.6版比でSolが半額、Lunaが半額以下に",
-          "link": "https://gihyo.jp/article/2026/09/gpt-6-sol-and-luna?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-09-23T04:47:00",
-          "excerpt": "OpenAIは9月22日、GPT-6シリーズの新モデル「GPT-6 Sol」と「GPT-6 Luna」を発表した。"
+          "title": "【AWS Builder Center】Claude Codeの無料サンドボックス環境でClaude Desktopも動かしてみよう",
+          "link": "https://qiita.com/ubyhiromu58/items/60ff08a64b79ad608f92",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-23T09:35:09",
+          "excerpt": "はじめに AWS Builder Centerにて無料のサンドボックス環境が用意されているClaude Codeのワークショップがあります。AWSもClaude Codeも学べて一石二鳥ですね！…"
         },
         {
-          "title": "【無料】AIコーディングを「より速く省トークンに」　Claude Code・VS Code・GitHub Copilot・Cursorが明かす「トークン浪費」防止術まとめeBook40ページ",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/23/news017.html",
+          "title": "Geminiのノートブック機能、学校や組織向けに提供開始",
+          "link": "https://codezine.jp/article/detail/29760",
+          "source": "CodeZine",
+          "published": "2026-09-23T08:00:00",
+          "excerpt": "Geminiのノートブック機能、学校や組織向けに提供開始"
+        },
+        {
+          "title": "「ヒューマン・イン・ザ・ループ万能説」崩壊　AIエージェント時代に企業が迫られる“防御の再設計”",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/23/news006.html",
           "source": "@IT",
-          "published": "2026-09-23T04:00:00",
-          "excerpt": "生成AIやAIエージェントの活用が広がる一方、トークン課金による想定外のコスト増が企業を悩ませています。AIコーディングが広まった開発現場にも、品質が高いコードの生成に加え、無駄なトークンの削減が求められるようになりました。…"
-        },
-        {
-          "title": "Claude Fable 5.1・Opus 5.5 と GPT-6 を従量課金で使う AWS 構成（2026 年 9 月時点）",
-          "link": "https://zenn.dev/cyberbose/articles/claude-code-codex-on-aws-payg",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-23T02:34:42",
-          "excerpt": "Anthropic と OpenAI の各種モデルを従量課金で使用するために AWS（Bedrock）で推論する構成を作ったので、構成やコストを整理します。…"
+          "published": "2026-09-23T08:00:00",
+          "excerpt": "AIエージェントが企業インフラを操作し、攻撃側もAIで侵入作業を分単位に圧縮する時代。従来の静的な権限管理や「人間が最後に承認すれば安全」という前提は崩れ去ろうとしています。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。はじめに AWS で VPC を触っていると、かなり早い段階で Route Table が出てくる。ただ、最初は次のあたりが分かりにくかった。VPC の 10.0.0.0/16 と Subnet の 10.0.1.…",
+      "summary": "クラウドの新着が14件。AWS Lambdaを使っていると、「同じイベントがもう一度届いたらどうするか」を考える必要があります。たとえば注文処理でLambdaが決済APIを呼び出した直後、レスポンスを返す前にタイムアウトしたとします。…",
       "articles": [
+        {
+          "title": "Lambdaの二重実行を防ぐ：Javaで冪等性を実装するPowertools入門",
+          "link": "https://qiita.com/sponge841841/items/d2072199fcc27722d066",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-23T10:02:04",
+          "excerpt": "AWS Lambdaを使っていると、「同じイベントがもう一度届いたらどうするか」を考える必要があります。たとえば注文処理でLambdaが決済APIを呼び出した直後、レスポンスを返す前にタイムアウトしたとします。…"
+        },
         {
           "title": "AWSのRoute Tableを「宛先→次の転送先」で理解する：VPCのIP・Subnet・NAT・SNAT/DNATまで",
           "link": "https://qiita.com/gtakairo/items/1c551f84c7794d63f2a6",
@@ -64,20 +71,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-09-23T06:20:56",
           "excerpt": "はじめに この記事で紹介すること 本記事では、Spring Bootで作成したREST APIをDockerコンテナ化し、Amazon ECRへ登録した後、Amazon ECS / AWS Fargate上で実行します。…"
-        },
-        {
-          "title": "AWS入門！S3でのサイト公開からリソース削除まで迷わず体験",
-          "link": "https://qiita.com/TechSpace-engineer/items/a9e02664b1dfc0ad9567",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-23T01:18:01",
-          "excerpt": "はじめに 「AWSに興味はある。でもクレジットカード登録の画面で、手が止まった」——そんな経験はありませんか？私自身、以前からAWSに興味がありながら、クレジットカードを登録して触ることへの怖さから、一歩を踏み出せずにいました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。IAMロールに s3:GetObject を付けたのに、S3からのダウンロードが AccessDenied になる。そんなときは、どこから確認すればよいでしょうか。…",
+      "summary": "セキュリティの新着が13件。IAMロールに s3:GetObject を付けたのに、S3からのダウンロードが AccessDenied になる。そんなときは、どこから確認すればよいでしょうか。…",
       "articles": [
         {
           "title": "s3:GetObjectがあるのに403？クロスアカウントS3アクセスをIAM・バケットポリシー・KMSで整理する",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。はじめに この記事で紹介すること 本記事では、Spring Bootで作成したREST APIをDockerコンテナ化し、Amazon ECRへ登録した後、Amazon ECS / AWS Fargate上で実行します。…",
+      "summary": "開発ツールの新着が11件。Codex CLIとClaude Codeで始めるAI-DLC AI-DLC WorkflowsをCodex CLIとClaude Codeで使い始める手順を、インストールから最初のワークフロー起動までまとめます。…",
       "articles": [
+        {
+          "title": "Codex CLIとClaude Codeで始めるAI-DLC",
+          "link": "https://qiita.com/mkydk/items/c90a8454e6ae581d07d3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-23T11:13:47",
+          "excerpt": "Codex CLIとClaude Codeで始めるAI-DLC AI-DLC WorkflowsをCodex CLIとClaude Codeで使い始める手順を、インストールから最初のワークフロー起動までまとめます。…"
+        },
         {
           "title": "Spring BootをAWSにデプロイするまで ─ RDS・ECR・ECS/Fargateで学ぶAWS #1",
           "link": "https://zenn.dev/mohu_mohu/articles/8e82cec527d524",
@@ -169,45 +176,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-09-23T03:18:34",
           "excerpt": "aws_secretsmanager_secret_version の secret_string に random_password や tls_private_key の値を渡している構成で、AWS provider 6.45.0〜6.…"
-        },
-        {
-          "title": "【AWS 障害対応】わざとアラートを出して復旧する自作自演やってみた",
-          "link": "https://zenn.dev/silver252/articles/7ca85e26f9a6e5",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-23T01:01:13",
-          "excerpt": "何をやったか 今回はAWS CDKで、EC2・RDS・ElastiCache・CloudWatchを使った小さなWebシステムを構築します。その後、意図的に障害を発生させます。そこから調査→復旧までを行いました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AI の時代においても、ネットワークの原則を教えることは、プロトコルを学ぶことよりも依然として重要です",
-      "link": "https://www.theregister.com/networks/2026/09/23/in-the-age-of-ai-teaching-networking-principles-remains-more-important-than-learning-protocols/5298478",
-      "source": "The Register（英語）",
-      "published": "2026-09-23T06:25:26",
-      "excerpt": "子どもたちは一学期で BGP が重要である理由を学ぶことができますが、それだけでは BGP を実装する準備ができません。"
-    },
-    {
-      "title": "[UE5] 新しくなったプロジェクトランチャーをみてみよう！ | historia Inc – 株式会社ヒストリア",
-      "link": "https://historia.co.jp/archives/66619/",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-23T06:00:28",
-      "excerpt": "執筆バージョン: Unreal Engine 5.8.1 プロジェクトランチャーをご存じでしょうか。ビルド、デプロイ、テストなどが行えるUnreal Engineが提供しているツールです。…"
-    },
-    {
-      "title": "SAMだとSQSキューポリシーを自分で書く必要がある、というコンソールとの逆転現象",
-      "link": "https://qiita.com/caymezon/items/9d9231156fc5b15e8953",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-23T05:46:19",
-      "excerpt": "背景 SNS + SQS + LambdaのファンアウトパターンをSAMで構築する際、「コンソールでは自動でやってくれるのに、SAMでは明示的に書かないといけない」という珍しい逆転現象に遭遇しました。…"
-    },
-    {
-      "title": "「我々はすでに昨日の戦いを戦っている」：ギリシャ首相がAIについて率直に語る",
-      "link": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
+      "title": "Commaの自動運転技術は2件の死亡事故を受けて調査中",
+      "link": "https://techcrunch.com/2026/09/23/commas-hands-off-driving-tech-under-investigation-after-2-fatal-crashes/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-23T04:59:08",
-      "excerpt": "通商任務に携わるほとんどの指導者は現場に固執するが、今週ギリシャのキリアコス・ミツォタキス首相にインタビューした際、同首相もAIがしようとしていることに対応する準備ができている政府はないと認めた。"
+      "published": "2026-09-23T12:12:39",
+      "excerpt": "調査には、ドライバが Comma のソフトウェアの「フォークされた」バージョンを使用していたと思われる少なくともいくつかのクラッシュが含まれています。"
+    },
+    {
+      "title": "QuestDB (YC S20) がセールス エンジニアを募集しています",
+      "link": "https://questdb.com/careers/pre-sales-engineer-north-america/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-23T12:01:04",
+      "excerpt": "記事の URL: https://questdb.com/careers/pre-sales-engineer-north-america/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "AI が企業のソフトウェアやサービスに食い込み始める中、Ema が 7,700 万ドルを調達",
+      "link": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-23T12:00:00",
+      "excerpt": "Ema はこれまでに 1 億 4,000 万ドルを調達しており、Google や Microsoft を含む 50 以上の企業顧客を抱えています。"
+    },
+    {
+      "title": "AIFに関連するこの３つの「メトリクス」差別化できますか？",
+      "link": "https://qiita.com/aoiku/items/9889118afcf95ab419d8",
+      "source": "Qiita AWSタグ",
+      "published": "2026-09-23T11:53:48",
+      "excerpt": "はじめに これから紹介する３つのメトリクス、それは基盤モデルのパフォーマンスを評価するための代表的なものです。…"
     }
   ]
 }
