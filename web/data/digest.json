@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-09-24T12:23:35",
+  "generated_at": "2026-09-24T17:24:07",
   "window_hours": 24,
-  "total": 208,
+  "total": 203,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が51件。記事の URL: https://medium.…",
+      "summary": "生成AIの新着が46件。開発ツールベンダのUnstablebuildは、Go言語製のIDE「Rune」をオープンソースで公開したことを発表しました。Runeの画面 RuneはGo言語によるネイティブアプリケーションとして提供される高速なIDEです。GPUによる描.…",
       "articles": [
+        {
+          "title": "Go言語で書かれた高速なIDE「Rune」、オープンソースで公開。ターミナルとコマンドプロンプト中心の開発環境、複数リモートノードをローカルのように操作可能",
+          "link": "https://www.publickey1.jp/blog/26/goiderune.html",
+          "source": "Publickey",
+          "published": "2026-09-24T15:45:08",
+          "excerpt": "開発ツールベンダのUnstablebuildは、Go言語製のIDE「Rune」をオープンソースで公開したことを発表しました。Runeの画面 RuneはGo言語によるネイティブアプリケーションとして提供される高速なIDEです。GPUによる描.…"
+        },
         {
           "title": "ハッカーは ChatGPT と Gemini に影響を与え、ユーザーを詐欺センターに誘導します",
           "link": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
@@ -29,56 +36,63 @@
           "source": "The Register（英語）",
           "published": "2026-09-24T10:00:00",
           "excerpt": "ベクトル検索の準備は整っているが、コーディングアシスタントは開発者に他のデータベースを誘導し続けている、と財団理事長は語る"
-        },
-        {
-          "title": "Claude Code はあなたのメールアドレスを毎回モデルに渡している — 出口をフックで機械的に塞いだ話 | 株式会社マインディア テックブログのフィード",
-          "link": "https://zenn.dev/minedia/articles/07dab654a07022",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-24T09:05:05",
-          "excerpt": "3秒まとめ 📝Claude Code はログイン中アカウントのメールアドレスを毎セッション、モデルのコンテキストへ自動注入します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。数十万オブジェクトが格納されたS3バケットの棚卸しを行う際に、AWS CLIとシェルスクリプトを使って「最終更新日時が古いオブジェクト」をフォルダ単位で集計し、削除候補のリストを作成してみました。",
+      "summary": "クラウドの新着が13件。AI 支援のバグハンティングにより、防御側がパッチを適用するよりも早く脆弱性が蓄積されるため、Canonical はペースを上げています",
       "articles": [
         {
-          "title": "S3バケットから最終更新日が古いオブジェクトを洗い出してリスト化してみた",
-          "link": "https://dev.classmethod.jp/articles/s3-bucket-list/",
+          "title": "CVE フラッドにより、Ubuntu は毎週のカーネル リリース サイクルに移行",
+          "link": "https://www.theregister.com/os-platforms/2026/09/24/cve-flood-pushes-ubuntu-onto-weekly-kernel-release-cycle/5298912",
+          "source": "The Register（英語）",
+          "published": "2026-09-24T16:33:00",
+          "excerpt": "AI 支援のバグハンティングにより、防御側がパッチを適用するよりも早く脆弱性が蓄積されるため、Canonical はペースを上げています"
+        },
+        {
+          "title": "Amazon RDS for PostgreSQL がポスト量子 TLS キー交換をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-post-quantum-tls-key-exchange/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-24T16:00:00",
+          "excerpt": "本日より、 Amazon RDS for PostgreSQL に量子後 TLS (PQ-TLS) キー交換のサポートが導入され、転送中のデータを暗号化するための量子後暗号化オプションが提供されます。…"
+        },
+        {
+          "title": "Amazon RDS for MySQL が延長サポートのマイナー バージョン 5.7.44-rds.20260902 および 8.0.46-rds.20260908 を発表",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mysql-extended-support-minor-5744-8046-rds/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-24T16:00:00",
+          "excerpt": "Amazon Relational Database Service (RDS) for MySQL は、Amazon RDS 延長サポートのマイナー バージョン 5.7.44-rds.20260902 および 8.0.46-rds.…"
+        },
+        {
+          "title": "AWS Graviton 向けに pixi で Bioconda コンテナを作ってみた",
+          "link": "https://dev.classmethod.jp/articles/bioconda-container-with-pix/",
           "source": "DevelopersIO",
-          "published": "2026-09-24T10:19:38",
-          "excerpt": "数十万オブジェクトが格納されたS3バケットの棚卸しを行う際に、AWS CLIとシェルスクリプトを使って「最終更新日時が古いオブジェクト」をフォルダ単位で集計し、削除候補のリストを作成してみました。"
-        },
-        {
-          "title": "(AmazonConnectSalesforceLambda)CVE-2026-94384を修正コードから読む",
-          "link": "https://qiita.com/yama3133/items/3c23a206196708956ab8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-24T08:25:14",
-          "excerpt": "はじめに Amazon ConnectとSalesforceをつなぐAmazonConnectSalesforceLambdaについて、CVE-2026-94384が公開されました。…"
-        },
-        {
-          "title": "Amazon CloudFront で SAP S/4HANA に mTLS 認証を実装する",
-          "link": "https://aws.amazon.com/jp/blogs/news/implement-mtls-authentication-with-amazon-cloudfront-for-sap-s-4hana/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-09-24T02:08:01",
-          "excerpt": "グローバルに SAP S/4HANA を運用する企業では、単一リージョンへのアクセスによる TLS ハンドシェイクの遅延と、パスワード頼みの認証によるセキュリティリスクが課題となります。…"
-        },
-        {
-          "title": "AWS BackupでEC2をリストアしたときに引き継がれる設定・再設定が必要な設定（2026年版）",
-          "link": "https://dev.classmethod.jp/articles/202609-aws-backup-ec2-restore-settings-check/",
-          "source": "DevelopersIO",
-          "published": "2026-09-24T00:58:25",
-          "excerpt": "AWS BackupからEC2を復元すると、停止保護やタグなど一部の設定は引き継がれません。コンソールとAWS CLIで復元した結果を比較し、どの項目が引き継がれ、どの項目が既定値に戻るかをまとめました。…"
+          "published": "2026-09-24T14:06:50",
+          "excerpt": "pixi を使って Bioconda のツールを含む arm64 向け Docker イメージを作成してみました。ロックファイルの準備からマルチステージビルド、実際の動作確認まで、その手順と結果を紹介します。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。記事の URL: https://macanorak.com/two-tier-encryption-in-the-uk/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が12件。セキュリティ研究者の報告によると、Microsoftはファイルイベントのサイドチャネル漏洩は仕様によるものであると考えている",
       "articles": [
+        {
+          "title": "Android、Linux、macOS、Windows で数十年前のファイル セキュリティの欠陥が発見",
+          "link": "https://www.theregister.com/security/2026/09/24/decades-old-file-security-flaws-found-in-android-linux-macos-and-windows/5298672",
+          "source": "The Register（英語）",
+          "published": "2026-09-24T17:00:00",
+          "excerpt": "セキュリティ研究者の報告によると、Microsoftはファイルイベントのサイドチャネル漏洩は仕様によるものであると考えている"
+        },
+        {
+          "title": "CVE フラッドにより、Ubuntu は毎週のカーネル リリース サイクルに移行",
+          "link": "https://www.theregister.com/os-platforms/2026/09/24/cve-flood-pushes-ubuntu-onto-weekly-kernel-release-cycle/5298912",
+          "source": "The Register（英語）",
+          "published": "2026-09-24T16:33:00",
+          "excerpt": "AI 支援のバグハンティングにより、防御側がパッチを適用するよりも早く脆弱性が蓄積されるため、Canonical はペースを上げています"
+        },
         {
           "title": "英国における 2 層暗号化 - 同じ Apple デバイス、異なる保護",
           "link": "https://macanorak.com/two-tier-encryption-in-the-uk/",
@@ -92,28 +106,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-24T08:25:14",
           "excerpt": "はじめに Amazon ConnectとSalesforceをつなぐAmazonConnectSalesforceLambdaについて、CVE-2026-94384が公開されました。…"
-        },
-        {
-          "title": "長年解読できなかった82文字のエニグマ暗号を「GPT-6 Astra」が解読、独自に解読プログラムも作成",
-          "link": "https://gigazine.net/news/20260924-enigma-mvueh-break/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-24T06:44:51",
-          "excerpt": "1941年にドイツ軍が送信し、長年にわたって解読が試みられていた82文字のエニグマ暗号「MVUEH」が、OpenAIのAIモデル「GPT-6 Astra」を使った調査によって解読されました。…"
-        },
-        {
-          "title": "OpenAIのAIエージェントが豪政府サイトに不正アクセス　同社の通知は3カ月後、首相「失望した」",
-          "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001694/",
-          "source": "ITmedia NEWS",
-          "published": "2026-09-24T05:33:35",
-          "excerpt": "OpenAIのAIエージェントが豪政府サイトに不正アクセス　同社の通知は3カ月後、首相「失望した」"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。ライオンは基幹システムのSAPデータをBigQueryで活用するため、GeminiでABAPやCDS ViewからSQL文への変換に取り組み、初心者エンジニアでも扱えるようにした。…",
+      "summary": "データ分析の新着が5件。pixi を使って Bioconda のツールを含む arm64 向け Docker イメージを作成してみました。ロックファイルの準備からマルチステージビルド、実際の動作確認まで、その手順と結果を紹介します。",
       "articles": [
+        {
+          "title": "AWS Graviton 向けに pixi で Bioconda コンテナを作ってみた",
+          "link": "https://dev.classmethod.jp/articles/bioconda-container-with-pix/",
+          "source": "DevelopersIO",
+          "published": "2026-09-24T14:06:50",
+          "excerpt": "pixi を使って Bioconda のツールを含む arm64 向け Docker イメージを作成してみました。ロックファイルの準備からマルチステージビルド、実際の動作確認まで、その手順と結果を紹介します。"
+        },
         {
           "title": "ライオンの「時短90％」内製化術　ABAPを読めない開発者がSAPデータをBigQueryで活用",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2609/24/news010.html",
@@ -134,80 +141,73 @@
           "source": "Ars Technica（英語）",
           "published": "2026-09-23T21:46:36",
           "excerpt": "FBIがシャイニーハンターズの締め切りに間に合わなかった場合に何が起こるかは不明だ。"
-        },
-        {
-          "title": "誰かが F5 BIG-IP APM のクリティカル 0-day RCE を攻撃しています",
-          "link": "https://www.theregister.com/security/2026/09/23/someones-attacking-a-critical-0-day-rce-in-f5-big-ip-apm/5298659",
-          "source": "The Register（英語）",
-          "published": "2026-09-23T18:09:28",
-          "excerpt": "良いニュース: パッチがあります。悪いニュース: CISA と F5 の両方が、積極的に搾取されていると警告"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。GitHub Copilot、エンタープライズ管理設定によるOpenTelemetryの構成に対応",
+      "summary": "開発ツールの新着が11件。記事の URL: https://successsoftware.…",
       "articles": [
+        {
+          "title": "GitHubは3週間経っても悪意のある模倣ソフトウェアを削除していない",
+          "link": "https://successfulsoftware.net/2026/09/24/github-has-not-removed-malicious-imitation-software-after-3-weeks/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-24T15:50:26",
+          "excerpt": "記事の URL: https://successsoftware.…"
+        },
+        {
+          "title": "【AWS/DVA学習】AWS CodePipeline と AWS CodeBuild を組み合わせた CI/CD パイプラインを試してみた",
+          "link": "https://qiita.com/keitakei777/items/923f46843efb63ef2225",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-24T14:48:49",
+          "excerpt": "AWS Certified Developer – Associate（DVA-C02）の試験対策および実践学習として、AWS CodePipeline と AWS CodeBuild を組み合わせた CI/CD パイプラインを構築・検証し…"
+        },
+        {
+          "title": "【AWS/DVA学習】AWS AppConfig × Lambda Layer で実現するコード再デプロイ不要の動的機能フラグ管理",
+          "link": "https://qiita.com/keitakei777/items/4135e66251fdf2a2095d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-24T13:40:55",
+          "excerpt": "AWS Certified Developer – Associate（DVA-C02）の試験対策および実践学習として、AWS AppConfig と AWS Lambda (AppConfig Lambda Extension) を組み合…"
+        },
         {
           "title": "GitHub Copilot、エンタープライズ管理設定によるOpenTelemetryの構成に対応",
           "link": "https://codezine.jp/article/detail/29777",
           "source": "CodeZine",
           "published": "2026-09-24T06:00:00",
           "excerpt": "GitHub Copilot、エンタープライズ管理設定によるOpenTelemetryの構成に対応"
-        },
-        {
-          "title": "Vue→Reactリプレイス、仕様駆動(cc-sdd)でやってみた | iimon TECH BLOG",
-          "link": "https://tech.iimon.co.jp/entry/2026/09/24/141603",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-24T05:16:03",
-          "excerpt": "はじめに なぜ「仕様駆動」でリプレイスしたかったか cc-sddとは 特徴 導入方法 実際の進め方 1./kiro-steering でプロジェクトの前提を記録する 2.移行対象を仕様化する 3.設計・タスクへの分解 4.…"
-        },
-        {
-          "title": "GitHub Actions、ワークフロー実行保護が一般提供に",
-          "link": "https://codezine.jp/article/detail/29764",
-          "source": "CodeZine",
-          "published": "2026-09-24T04:00:00",
-          "excerpt": "GitHub Actions、ワークフロー実行保護が一般提供に"
-        },
-        {
-          "title": "Cloudflare、Gitブランチごとに実行環境を作る「Worker Previews」を提供開始",
-          "link": "https://gihyo.jp/article/2026/09/cloudflare-worker-previews?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-09-24T02:47:00",
-          "excerpt": "Cloudflareは9月22日、Cloudflare Workers向けの「Worker Previews」の提供を開始した。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "メタ広告がポーランドの Android ユーザーを高額請求の罠に誘導",
-      "link": "https://www.theregister.com/cyber-crime/2026/09/24/meta-ads-steered-polish-android-users-into-a-premium-rate-billing-trap/5298790",
-      "source": "The Register（英語）",
-      "published": "2026-09-24T11:26:00",
-      "excerpt": "CERT Polska は、852 のプロモーションを 17 の Google Play アプリにリンクし、高価なテキストの送信や定期購読の開始を可能にしました"
+      "title": "Databricks が Row Zero を買収し、さらに買収するスタートアップを探している",
+      "link": "https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-24T17:07:55",
+      "excerpt": "Databricks は、クラウド スプレッドシートの新興企業 Row Zero を 2026 年のショッピングにさらに追加する買収をもたらしました。"
     },
     {
-      "title": "「モンスト」キャラの声をAI生成、MIXIのニュース紹介企画に批判続出　実施見合わせへ",
-      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001720/",
-      "source": "ITmedia NEWS",
-      "published": "2026-09-24T11:10:44",
-      "excerpt": "スマートフォンゲーム「モンスターストライク」（モンスト）のキャラクター「ガブリエル」を模したAI音声で、MIXIのニュースリリース（報道発表）を紹介する──同社が予告したこんな企画に対し、Xで批判が相次いでいる。…"
+      "title": "Google フォトの「Clueless」にインスピレーションを得た仮想クローゼットが Android と iOS で利用可能になりました",
+      "link": "https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-24T17:00:00",
+      "excerpt": "AI を活用したこの機能は、写真から仮想ワードローブを構築し、6 月に Android ユーザーに初めて公開されて以来、広く利用できるようになりました。"
     },
     {
-      "title": "最新の ESP32 は Linux を実行でき、Raspberry Pi に近づいています",
-      "link": "https://www.xda-developers.com/newest-esp32-run-linux-close-to-raspberry-pi/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-24T11:08:39",
-      "excerpt": "記事の URL: https://www.xda-developers.com/newest-esp32-run-linux-close-to-raspberry-pi/ コメント URL: https://news.…"
+      "title": "TechCrunch Founder Summit 2026: 知っておくべきことすべて",
+      "link": "https://techcrunch.com/2026/09/24/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-24T16:46:47",
+      "excerpt": "TechCrunch Founder Summit は 11 月 4 日にボストンで開催される終日の集まりで、あらゆる段階の創業者がトップ VC や経験豊富な起業家とつながり、会社の構築と拡大に関する戦術的な洞察を得ることができます。"
     },
     {
-      "title": "HSBC、Samsung Secure FolderとAndroidのPrivate Spaceはバンキングアプリを置く場所ではないと判断",
-      "link": "https://www.theregister.com/applications/2026/09/24/hsbc-decides-samsung-secure-folder-and-androids-private-space-are-no-place-for-a-banking-app/5298542",
-      "source": "The Register（英語）",
-      "published": "2026-09-24T10:45:00",
-      "excerpt": "顧客は、予告されていない変更により、モバイル認証に依存した Web アクセスも遮断されたと述べています"
+      "title": "現在の価値が220億ドルと伝えられているイレブンラボのCEOと20分",
+      "link": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-24T16:35:13",
+      "excerpt": "イレブンラボは、多くの顧客サービス電話の相手側で AI 音声を強化しています。同社の CEO は今週、企業はおそらくそのことを伝えるべきだと私に言いました。少なくとも、いずれにせよ誰もが期待するマシンを手に入れるまでは。"
     }
   ]
 }
