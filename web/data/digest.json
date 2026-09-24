@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-09-24T06:53:38",
+  "generated_at": "2026-09-24T12:23:35",
   "window_hours": 24,
-  "total": 193,
+  "total": 208,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が48件。Claude Code v2.1.281がリリースされました。危険なrmコマンドの確認強化やautoモードの挙動変更など、無人実行に関わる重要な変更もまとめています。…",
+      "summary": "生成AIの新着が51件。記事の URL: https://medium.…",
       "articles": [
         {
-          "title": "Claude Code v2.1.281 の主要アップデート - attribution: false の追加と rm -rf の確認強化",
-          "link": "https://dev.classmethod.jp/articles/20260924-cc-updates-v2-1-281/",
-          "source": "DevelopersIO",
-          "published": "2026-09-24T06:21:47",
-          "excerpt": "Claude Code v2.1.281がリリースされました。危険なrmコマンドの確認強化やautoモードの挙動変更など、無人実行に関わる重要な変更もまとめています。…"
-        },
-        {
-          "title": "OpenAIのAIエージェントが豪政府サイトに不正アクセス　同社の通知は3カ月後、首相「失望した」",
-          "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001694/",
-          "source": "ITmedia NEWS",
-          "published": "2026-09-24T05:33:35",
-          "excerpt": "OpenAIのAIエージェントが豪政府サイトに不正アクセス　同社の通知は3カ月後、首相「失望した」"
-        },
-        {
-          "title": "Google、Gemini Notebookで書籍を情報源にできる「Expert Intelligence」を提供開始",
-          "link": "https://codezine.jp/article/detail/29756",
-          "source": "CodeZine",
-          "published": "2026-09-24T05:30:00",
-          "excerpt": "Google、Gemini Notebookで書籍を情報源にできる「Expert Intelligence」を提供開始"
-        },
-        {
-          "title": "初期の不正な AI エージェントの活動とハッキングの試みが urlquery.net で発見されました",
-          "link": "https://transluce.org/agent-activity",
+          "title": "ハッカーは ChatGPT と Gemini に影響を与え、ユーザーを詐欺センターに誘導します",
+          "link": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
           "source": "Hacker News（英語）",
-          "published": "2026-09-24T05:21:10",
-          "excerpt": "記事の URL: https://transluce.org/agent-activity コメント URL: https://news.ycombinator.com/item?id=49826565 ポイント: 11 コメント数: 1"
+          "published": "2026-09-24T11:54:38",
+          "excerpt": "記事の URL: https://medium.…"
+        },
+        {
+          "title": "【社内ハッカソン】8時間・1人で社内SNSを作った話 ― AI（Claude Code）に何を任せ、何を任せなかったか",
+          "link": "https://qiita.com/MaikuTsuha/items/ece7cc6cea4b9414cf15",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-24T10:15:34",
+          "excerpt": "社内のAI駆動開発ハッカソンで、AIと一緒にアプリを1本作りました。この記事では、AIにどう頼み、何を禁止し、どこでつまずいたかをまとめます。AIには Anthropic 社の Claude Code を使いました。…"
+        },
+        {
+          "title": "MariaDB にとって、LLM は支持される新しい検索エンジンです",
+          "link": "https://www.theregister.com/databases/2026/09/24/for-mariadb-llms-are-the-new-search-engines-to-win-over/5298104",
+          "source": "The Register（英語）",
+          "published": "2026-09-24T10:00:00",
+          "excerpt": "ベクトル検索の準備は整っているが、コーディングアシスタントは開発者に他のデータベースを誘導し続けている、と財団理事長は語る"
+        },
+        {
+          "title": "Claude Code はあなたのメールアドレスを毎回モデルに渡している — 出口をフックで機械的に塞いだ話 | 株式会社マインディア テックブログのフィード",
+          "link": "https://zenn.dev/minedia/articles/07dab654a07022",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-24T09:05:05",
+          "excerpt": "3秒まとめ 📝Claude Code はログイン中アカウントのメールアドレスを毎セッション、モデルのコンテキストへ自動注入します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。グローバルに SAP S/4HANA を運用する企業では、単一リージョンへのアクセスによる TLS ハンドシェイクの遅延と、パスワード頼みの認証によるセキュリティリスクが課題となります。…",
+      "summary": "クラウドの新着が9件。数十万オブジェクトが格納されたS3バケットの棚卸しを行う際に、AWS CLIとシェルスクリプトを使って「最終更新日時が古いオブジェクト」をフォルダ単位で集計し、削除候補のリストを作成してみました。",
       "articles": [
+        {
+          "title": "S3バケットから最終更新日が古いオブジェクトを洗い出してリスト化してみた",
+          "link": "https://dev.classmethod.jp/articles/s3-bucket-list/",
+          "source": "DevelopersIO",
+          "published": "2026-09-24T10:19:38",
+          "excerpt": "数十万オブジェクトが格納されたS3バケットの棚卸しを行う際に、AWS CLIとシェルスクリプトを使って「最終更新日時が古いオブジェクト」をフォルダ単位で集計し、削除候補のリストを作成してみました。"
+        },
+        {
+          "title": "(AmazonConnectSalesforceLambda)CVE-2026-94384を修正コードから読む",
+          "link": "https://qiita.com/yama3133/items/3c23a206196708956ab8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-24T08:25:14",
+          "excerpt": "はじめに Amazon ConnectとSalesforceをつなぐAmazonConnectSalesforceLambdaについて、CVE-2026-94384が公開されました。…"
+        },
         {
           "title": "Amazon CloudFront で SAP S/4HANA に mTLS 認証を実装する",
           "link": "https://aws.amazon.com/jp/blogs/news/implement-mtls-authentication-with-amazon-cloudfront-for-sap-s-4hana/",
@@ -57,62 +71,48 @@
           "source": "DevelopersIO",
           "published": "2026-09-24T00:58:25",
           "excerpt": "AWS BackupからEC2を復元すると、停止保護やタグなど一部の設定は引き継がれません。コンソールとAWS CLIで復元した結果を比較し、どの項目が引き継がれ、どの項目が既定値に戻るかをまとめました。…"
-        },
-        {
-          "title": "LINE Webhook 先で動作している Lambda から外部 API へ転送しようとしてハマった話",
-          "link": "https://dev.classmethod.jp/articles/stucked-on-sending-api-from-line-webhook-lambda/",
-          "source": "DevelopersIO",
-          "published": "2026-09-24T00:52:39",
-          "excerpt": "Lambda から外部 API にペイロードを転送する際、応答を待たずに非同期で試みたもののうまく動かなかったため対応をしたお話です。"
-        },
-        {
-          "title": "Terraform入門 第3回：StateをS3リモートバックエンドで管理する",
-          "link": "https://qiita.com/k0ga/items/7e07540ce4bb6a713ed8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-23T22:34:26",
-          "excerpt": "はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。第2回では、入力変数と出力値を使ってTerraform設定を使いやすくしました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。OpenAIのAIエージェントが豪政府サイトに不正アクセス　同社の通知は3カ月後、首相「失望した」",
+      "summary": "セキュリティの新着が11件。記事の URL: https://macanorak.com/two-tier-encryption-in-the-uk/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "英国における 2 層暗号化 - 同じ Apple デバイス、異なる保護",
+          "link": "https://macanorak.com/two-tier-encryption-in-the-uk/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-24T10:39:19",
+          "excerpt": "記事の URL: https://macanorak.com/two-tier-encryption-in-the-uk/ コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "(AmazonConnectSalesforceLambda)CVE-2026-94384を修正コードから読む",
+          "link": "https://qiita.com/yama3133/items/3c23a206196708956ab8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-24T08:25:14",
+          "excerpt": "はじめに Amazon ConnectとSalesforceをつなぐAmazonConnectSalesforceLambdaについて、CVE-2026-94384が公開されました。…"
+        },
+        {
+          "title": "長年解読できなかった82文字のエニグマ暗号を「GPT-6 Astra」が解読、独自に解読プログラムも作成",
+          "link": "https://gigazine.net/news/20260924-enigma-mvueh-break/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-09-24T06:44:51",
+          "excerpt": "1941年にドイツ軍が送信し、長年にわたって解読が試みられていた82文字のエニグマ暗号「MVUEH」が、OpenAIのAIモデル「GPT-6 Astra」を使った調査によって解読されました。…"
+        },
         {
           "title": "OpenAIのAIエージェントが豪政府サイトに不正アクセス　同社の通知は3カ月後、首相「失望した」",
           "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001694/",
           "source": "ITmedia NEWS",
           "published": "2026-09-24T05:33:35",
           "excerpt": "OpenAIのAIエージェントが豪政府サイトに不正アクセス　同社の通知は3カ月後、首相「失望した」"
-        },
-        {
-          "title": "ProwlerCheck を使ってAWS環境のセキュリティチェックを実施してみよう！",
-          "link": "https://qiita.com/ReQ_HY/items/3d8605742edce868a1d7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-24T03:39:24",
-          "excerpt": "みなさん、こんにちは！今回はAWS環境の設定不備を自動でスキャンしてくれるOSSツール「ProwlerCheck」をCloudShell上で動かしてみます。…"
-        },
-        {
-          "title": "Amazon CloudFront で SAP S/4HANA に mTLS 認証を実装する",
-          "link": "https://aws.amazon.com/jp/blogs/news/implement-mtls-authentication-with-amazon-cloudfront-for-sap-s-4hana/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-09-24T02:08:01",
-          "excerpt": "グローバルに SAP S/4HANA を運用する企業では、単一リージョンへのアクセスによる TLS ハンドシェイクの遅延と、パスワード頼みの認証によるセキュリティリスクが課題となります。…"
-        },
-        {
-          "title": "【応用情報】R7秋 午後（問１：情報セキュリティ）その２：設問１（空欄a,b） | Agent Grow Tech Notesのフィード",
-          "link": "https://zenn.dev/agent_grow/articles/404fe3169812ad",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-23T23:00:06",
-          "excerpt": "はじめに令和７年度秋期 応用情報技術者試験（午後：問１ 情報セキュリティ）について解説します。今回は続編です。前回の記事をまだ読んでいない場合は、下記のリンクへどうぞ。その１：全体像の把握!この記事では問題文と設問は一部のみ掲載します。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。ライオンは基幹システムのSAPデータをBigQueryで活用するため、GeminiでABAPやCDS ViewからSQL文への変換に取り組み、初心者エンジニアでも扱えるようにした。…",
+      "summary": "データ分析の新着が7件。ライオンは基幹システムのSAPデータをBigQueryで活用するため、GeminiでABAPやCDS ViewからSQL文への変換に取り組み、初心者エンジニアでも扱えるようにした。…",
       "articles": [
         {
           "title": "ライオンの「時短90％」内製化術　ABAPを読めない開発者がSAPデータをBigQueryで活用",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。GitHub Copilot、エンタープライズ管理設定によるOpenTelemetryの構成に対応",
+      "summary": "開発ツールの新着が8件。GitHub Copilot、エンタープライズ管理設定によるOpenTelemetryの構成に対応",
       "articles": [
         {
           "title": "GitHub Copilot、エンタープライズ管理設定によるOpenTelemetryの構成に対応",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "OCIとAWSによるマルチクラウド構成“Oracle Database@AWS”を検証しました ～性能検証編～",
-      "link": "https://qiita.com/Hitachi_Takumi/items/3a5203ab0573e69f5a43",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-24T06:42:04",
-      "excerpt": "はじめに 最近、ビジネス環境の変化に対応するため、異なるクラウドベンダの多様なサービスを適切に組み合わせるマルチクラウドを検討する企業が増えています。…"
+      "title": "メタ広告がポーランドの Android ユーザーを高額請求の罠に誘導",
+      "link": "https://www.theregister.com/cyber-crime/2026/09/24/meta-ads-steered-polish-android-users-into-a-premium-rate-billing-trap/5298790",
+      "source": "The Register（英語）",
+      "published": "2026-09-24T11:26:00",
+      "excerpt": "CERT Polska は、852 のプロモーションを 17 の Google Play アプリにリンクし、高価なテキストの送信や定期購読の開始を可能にしました"
     },
     {
-      "title": "メールのデザインをフロントエンドで管理できるようにしました | noteエンジニアチーム 公式マガジン",
-      "link": "https://engineerteam.note.jp/n/n6d2e8e7b5935",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-24T06:00:00",
-      "excerpt": "この記事は、note社で隔週開催している社内LT大会「Multi-week Tech Meetup（MTM）」での発表をもとにした連載シリーズです。今回はエンジニアのtachibanaさんのLTをお届けします。続きをみる"
+      "title": "「モンスト」キャラの声をAI生成、MIXIのニュース紹介企画に批判続出　実施見合わせへ",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001720/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-24T11:10:44",
+      "excerpt": "スマートフォンゲーム「モンスターストライク」（モンスト）のキャラクター「ガブリエル」を模したAI音声で、MIXIのニュースリリース（報道発表）を紹介する──同社が予告したこんな企画に対し、Xで批判が相次いでいる。…"
     },
     {
-      "title": "ECCV 2026参加＆ワークショップ開催報告 | Sansan Tech Blog",
-      "link": "https://buildersbox.corp-sansan.com/entry/2026/09/24/150000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-24T06:00:00",
-      "excerpt": "はじめに こんにちは。Sansan株式会社研究開発部の大竹ひなです。…"
+      "title": "最新の ESP32 は Linux を実行でき、Raspberry Pi に近づいています",
+      "link": "https://www.xda-developers.com/newest-esp32-run-linux-close-to-raspberry-pi/",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-24T11:08:39",
+      "excerpt": "記事の URL: https://www.xda-developers.com/newest-esp32-run-linux-close-to-raspberry-pi/ コメント URL: https://news.…"
     },
     {
-      "title": "EBSスナップショットは増分なのに、古いものを削除しても復元できるのはなぜ？",
-      "link": "https://qiita.com/tei_choyu/items/6b1999cb60c9225b7df0",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-24T05:35:17",
-      "excerpt": "EBSスナップショットの説明を読むと、「2回目以降は変更されたブロックだけを保存する」と出てきます。それなら、最初のスナップショットを消したら、あとのスナップショットも使えなくなるのでは？と気になりますよね。…"
+      "title": "HSBC、Samsung Secure FolderとAndroidのPrivate Spaceはバンキングアプリを置く場所ではないと判断",
+      "link": "https://www.theregister.com/applications/2026/09/24/hsbc-decides-samsung-secure-folder-and-androids-private-space-are-no-place-for-a-banking-app/5298542",
+      "source": "The Register（英語）",
+      "published": "2026-09-24T10:45:00",
+      "excerpt": "顧客は、予告されていない変更により、モバイル認証に依存した Web アクセスも遮断されたと述べています"
     }
   ]
 }
