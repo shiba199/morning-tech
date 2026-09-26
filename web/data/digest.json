@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-09-26T17:19:42",
+  "generated_at": "2026-09-26T19:59:33",
   "window_hours": 24,
-  "total": 141,
+  "total": 119,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。OpenCodeでGPT-6を使いたくなったので、ChatGPT Plusを契約して試してみました。ブラウザ認可だけでOpenAIと接続でき、定額プランで最新モデルが利用できることがわかったので、その手順と結果をまとめます。",
+      "summary": "生成AIの新着が19件。AWS Startup Advisor プラグインを Claude Code で試してみました。…",
       "articles": [
+        {
+          "title": "[アップデート] Agent Toolkit for AWS で AWS Startup Advisor プラグインが利用可能になったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/20260927-aws-startup-advisor/",
+          "source": "DevelopersIO",
+          "published": "2026-09-26T17:16:10",
+          "excerpt": "AWS Startup Advisor プラグインを Claude Code で試してみました。…"
+        },
         {
           "title": "OpenCode で ChatGPT Plus のサブスクリプションを使って OpenAI のモデルを動かしてみた",
           "link": "https://dev.classmethod.jp/articles/opencode-chatgpt-plus-subscription/",
@@ -29,21 +36,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-09-26T10:00:00",
           "excerpt": "はじめに サーバーワークスの池田です。今週（9/18〜9/24）のClaude Codeは、v2.1.276からv2.1.282まで6バージョンが公開されました（v2.1.279は欠番）。大きな話題は2つです。1つはv2.1.…"
-        },
-        {
-          "title": "ChatGPTと学ぶvLLMの基礎：AWSでQwen3-4Bを動かしてLLM Servingを理解する",
-          "link": "https://zenn.dev/yukiko_50135/articles/b878a974b52e25",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-26T09:55:54",
-          "excerpt": "はじめに ローカルLLMを自分で動かしてみたいと思い、Serving基盤としてよく名前を見かける vLLM を触ってみることにしました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。はじめに Amazon ECS は、Amazon S3 Files のサポート対象を EC2 起動タイプにも拡張したと発表しました。…",
+      "summary": "クラウドの新着が9件。AWS CloudTrailで操作履歴を調査する方法｜EC2・RDS・ECSのイベント名一覧 AWSを運用していると、 「EC2が停止しているけど、誰が止めた？」 「RDSの設定が変更されているけど、いつ変更された？…",
       "articles": [
+        {
+          "title": "AWS CloudTrailで操作履歴を調査する方法｜EC2・RDS・ECSのイベント名一覧",
+          "link": "https://qiita.com/namnam3225/items/4193d19b0d97a0f78682",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-26T18:38:08",
+          "excerpt": "AWS CloudTrailで操作履歴を調査する方法｜EC2・RDS・ECSのイベント名一覧 AWSを運用していると、 「EC2が停止しているけど、誰が止めた？」 「RDSの設定が変更されているけど、いつ変更された？…"
+        },
         {
           "title": "Amazon ECS S3 Files、EC2 起動タイプ対応を実機で検証",
           "link": "https://qiita.com/Haruki-N/items/b09bf924f4d20512f7b6",
@@ -64,20 +71,13 @@
           "source": "Ars Technica（英語）",
           "published": "2026-09-26T10:45:09",
           "excerpt": "充電ギャップにより電気トラックの輸送が依然として制限される中、500マイルのセミが登場する。"
-        },
-        {
-          "title": "Postgres への移行は安全ですか、それとも安全ではありませんか?",
-          "link": "https://safenotsafe.dev/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-26T07:33:12",
-          "excerpt": "記事の URL: https://safenotsafe.dev/ コメント URL: https://news.ycombinator.com/item?id=49854161 ポイント: 3 コメント数: 0"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。はじめに サーバーレス構成を学び始めると、まず出てくるのが「API Gateway + Lambda」です。チュートリアル通りに動かすところまでは簡単なのですが、いざ実務で使おうとすると次のような壁にぶつかります。…",
+      "summary": "セキュリティの新着が6件。はじめに サーバーレス構成を学び始めると、まず出てくるのが「API Gateway + Lambda」です。チュートリアル通りに動かすところまでは簡単なのですが、いざ実務で使おうとすると次のような壁にぶつかります。…",
       "articles": [
         {
           "title": "【AWS初学者向け】Amazon API Gateway 徹底入門 ― APIタイプの選び方、Lambda / EC2 / ECS バックエンド、認証・CORS・ログ設定まで",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Hugging FaceのAdithya S Kolavi氏は9月24日、コードを使ったデータ分析を小型AIモデルに学習させるための強化学習（RL）環境「SmolDataEnvs」の公開をXで告知した。…",
+      "summary": "データ分析の新着が4件。AWSの属性ベースのインスタンスタイプ選択（ABIS）とは？仕組みとメリットをわかりやすく解説 AWSでEC2を利用するときは、 m7i.large c7i.large r7i.…",
       "articles": [
+        {
+          "title": "AWSの属性ベースのインスタンスタイプ選択（ABIS）とは？仕組みとメリットをわかりやすく解説",
+          "link": "https://qiita.com/namnam3225/items/8132fbb76185cd84432d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-26T18:46:31",
+          "excerpt": "AWSの属性ベースのインスタンスタイプ選択（ABIS）とは？仕組みとメリットをわかりやすく解説 AWSでEC2を利用するときは、 m7i.large c7i.large r7i.…"
+        },
         {
           "title": "Hugging Face、小型AIモデルにデータ分析を学習させる強化学習環境「SmolDataEnvs」を公開",
           "link": "https://gihyo.jp/article/2026/09/smoldataenvs?utm_source=feed",
@@ -134,13 +141,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-09-26T01:24:40",
           "excerpt": "DynamoDB Streamsを本番で扱う：順序・重複・失敗処理の設計 DynamoDB StreamsからLambdaへ変更を渡すときは、レコードの形式を知るだけでは足りません。…"
-        },
-        {
-          "title": "ShinyHunters が The Reg に語る：我々は「ビジネスを守るため」に FBI をハッキングした",
-          "link": "https://www.theregister.com/cyber-crime/2026/09/25/shinyhunters-tells-the-reg-we-hacked-the-fbi-to-protect-our-business/5299250",
-          "source": "The Register（英語）",
-          "published": "2026-09-25T18:23:31",
-          "excerpt": "データ窃盗と恐喝ビジネス、つまり"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
+      "title": "結局のところ、メタとYouTubeは「マスク」ドキュメンタリーの広告を掲載すると発表",
+      "link": "https://techcrunch.com/2026/09/26/meta-says-it-will-run-ads-for-musk-documentary-after-all/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-26T17:44:00",
+      "excerpt": "多くのソーシャルメディアプラットフォームが広告を拒否したとの以前の報道を受けて、2社は現在、アレックス・ギブニー監督によるイーロン・マスクに関する次期ドキュメンタリーの広告を受け入れると発表した。"
+    },
+    {
+      "title": "判断特化型AI「Jev」互換のOSSモデル「Kev」を Docker上で試してみた",
+      "link": "https://dev.classmethod.jp/articles/kev-oss-jev-compatible-docker/",
+      "source": "DevelopersIO",
+      "published": "2026-09-26T17:29:47",
+      "excerpt": "TypeSafe AI の判断特化型 AI「Jev」と同じ `POST /v1/systemone` API を持つ OSS モデル「Kev」を、Apple M1・メモリ 16GB・GPU なしの Linux 環境で Docker から起動…"
+    },
+    {
+      "title": "Show HN: Reladraw – 物を配置する場所を決定する図言語",
+      "link": "https://github.com/reladraw/reladraw",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-26T17:10:40",
+      "excerpt": "私は理解や計画などに役立つ図を作成するのが大好きです。…"
+    },
+    {
       "title": "Levoit の新しい空気清浄機は、アパートに蔓延するペットの臭いを除去します",
       "link": "https://techcrunch.com/2026/09/26/levoits-new-air-purifier-is-for-the-pet-odors-that-have-taken-over-your-apartment/",
       "source": "TechCrunch（英語）",
       "published": "2026-09-26T17:00:00",
       "excerpt": "この 189.99 ドルの空気清浄機は、ペットの臭いに対処するために特別に設計されており、1 時間で最大 70% を除去します。"
-    },
-    {
-      "title": "AWSで、仮想ネットワークを作る",
-      "link": "https://zenn.dev/yukiesann39/articles/de3dddae8d7a2b",
-      "source": "Zenn AWSトピック",
-      "published": "2026-09-26T16:42:47",
-      "excerpt": "今回作成する仮想ネットワークの構成 新たにVPC(Virtual Private Cloud)を作成し、その中に4つのサブネットを作成します。4つのサブネットは、「外部に公開するサブネットと内部に隠すサブネットのセット」が2組です。…"
-    },
-    {
-      "title": "生成しない決定モデル CLM を、Switchyard の判定役として DGX Spark で試してみた",
-      "link": "https://dev.classmethod.jp/articles/clm-contrastive-language-model-switchyard-judge/",
-      "source": "DevelopersIO",
-      "published": "2026-09-26T16:36:27",
-      "excerpt": "決定モデル CLM を DGX Spark で動かし、Switchyard の weak / strong 判定を Jev と同じ 528 件で測りました。zero-shot では届かず。…"
-    },
-    {
-      "title": "[SO-ARM101] 模倣学習のデータセット（LeRobot Dataset v3.0 / v2.1）の中身を実データで確認してみました",
-      "link": "https://dev.classmethod.jp/articles/lerobot-dataset-so-arm101/",
-      "source": "DevelopersIO",
-      "published": "2026-09-26T16:14:55",
-      "excerpt": "LeRobotの2つのデータセット形式（v3.0とv2.1）を開いて、画像・関節角・言語指示がどこにどのように保存されているのか、その内部構造を確認してみました。"
     }
   ]
 }
