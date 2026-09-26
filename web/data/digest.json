@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-25T23:59:31",
+  "generated_at": "2026-09-26T03:45:21",
   "window_hours": 24,
-  "total": 185,
+  "total": 170,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。OpenAI の研究環境で動作する AI エージェントは、研究室の知らないうちにユーザーの画像を公開画像ホスティング サイトに投稿しました。",
+      "summary": "生成AIの新着が26件。OpenAI の研究環境で動作する AI エージェントは、研究室の知らないうちにユーザーの画像を公開画像ホスティング サイトに投稿しました。",
       "articles": [
         {
           "title": "安全でない OpenAI エージェントがラボの知らないうちに 53 枚のユーザー画像をインターネット上に投稿",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。この記事で学ぶこと 前回 #39 では、勉強会の予約サービスを題材に、要件の文章からテーブル設計と API 仕様を作りました。今回はその続きです。同じサービスを「どこで、どう動かすか」。…",
+      "summary": "クラウドの新着が10件。概要 この記事は生成AIで作成した記事を人間により加筆修正しています。「Macでメモしたことを、出先でiPhoneでも読みたい」 最近メモアプリとしてObsidianを使ってみようとしています。…",
       "articles": [
+        {
+          "title": "公式Syncを使わずにObsidianをAmazon S3で同期する",
+          "link": "https://qiita.com/_YukiOgawa/items/00d1dec52e838ee6b0fa",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-26T02:04:13",
+          "excerpt": "概要 この記事は生成AIで作成した記事を人間により加筆修正しています。「Macでメモしたことを、出先でiPhoneでも読みたい」 最近メモアプリとしてObsidianを使ってみようとしています。…"
+        },
         {
           "title": "42日でバックエンドエンジニアの基礎を完全に理解する #40 - 設計演習② インフラ構成設計",
           "link": "https://qiita.com/iketani45664566/items/f8348917580dfac1fc8f",
@@ -52,25 +59,18 @@
           "excerpt": "この記事で学ぶこと 前回 #39 では、勉強会の予約サービスを題材に、要件の文章からテーブル設計と API 仕様を作りました。今回はその続きです。同じサービスを「どこで、どう動かすか」。…"
         },
         {
-          "title": "AWS IAM アウトバウンド ID フェデレーションが、OIDC 検出用のインターフェイス VPC エンドポイントをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
+          "title": "Amazon EC2 M8i および M8i-flex インスタンスが追加のリージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
           "source": "AWS What's New（英語）",
-          "published": "2026-09-25T17:54:00",
-          "excerpt": "AWS Identity and Access Management (IAM) アウトバウンド ID フェデレーション は、OpenID Connect (OIDC) 検出 API の Amazon Virtual Private Clo…"
+          "published": "2026-09-25T18:40:00",
+          "excerpt": "本日より、Amazon EC2 M8i および M8i-flex インスタンスが AWS European Sovereign Cloud (ドイツ) リージョンで利用できるようになりました。…"
         },
         {
-          "title": "【AWS】EFSとS3、どっちも「ファイル置き場」なのに何が違うの？",
-          "link": "https://qiita.com/ktdatascience/items/a84bd8ef503862026815",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-25T11:21:34",
-          "excerpt": "はじめに 対象読者：EFSとS3の名前は知っているけれど、どちらも「ファイルを置く場所」に見えて違いを説明できない人 AWSのストレージの説明を読むと、「EFSはファイルシステム、S3はオブジェクトストレージ」と書かれています。…"
-        },
-        {
-          "title": "ServerlessDays Tokyo 2026 Day2 TiDB ワークショップ — drive9 って激アツ | コラボスタイル Developersのフィード",
-          "link": "https://zenn.dev/collabostyle/articles/e2e3a26291f9ce",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-25T10:07:33",
-          "excerpt": "2026/9/20、ServerlessDays Tokyo 2026 の Day2 にて TiDB のワークショップを受講しました。https://connpass.…"
+          "title": "Amazon EC2 R8i および R8i-flex インスタンスが追加のリージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-09-25T18:37:00",
+          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) R8i および R8i-flex インスタンスが AWS European Sovereign Cloud (ドイツ) リージョンで利用可能になり…"
         }
       ]
     },
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。データ窃盗と恐喝ビジネス、つまり",
+      "summary": "データ分析の新着が3件。DynamoDB Streamsを本番で扱う：順序・重複・失敗処理の設計 DynamoDB StreamsからLambdaへ変更を渡すときは、レコードの形式を知るだけでは足りません。…",
       "articles": [
+        {
+          "title": "DynamoDB Streamsを本番で扱う：順序・重複・失敗処理の設計",
+          "link": "https://qiita.com/mkydk/items/8880e5466a2dcc717150",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-26T01:25:03",
+          "excerpt": "DynamoDB Streamsを本番で扱う：順序・重複・失敗処理の設計 DynamoDB StreamsからLambdaへ変更を渡すときは、レコードの形式を知るだけでは足りません。…"
+        },
         {
           "title": "ShinyHunters が The Reg に語る：我々は「ビジネスを守るため」に FBI をハッキングした",
           "link": "https://www.theregister.com/cyber-crime/2026/09/25/shinyhunters-tells-the-reg-we-hacked-the-fbi-to-protect-our-business/5299250",
@@ -127,28 +134,21 @@
           "source": "DevelopersIO",
           "published": "2026-09-25T05:30:03",
           "excerpt": "kintoneからAmazon Redshiftへのデータ連携方法を、ezpipeを使って紹介します。接続元・接続先・パイプラインの3つの設定手順と、実際の連携結果までを順を追って見ていきます。"
-        },
-        {
-          "title": "Amazon Kinesis Data Streams の新機能「サービス管理パーティションキー」を CLI で試してみた",
-          "link": "https://dev.classmethod.jp/articles/kinesis-data-streams-service-managed-partition-keys-cli/",
-          "source": "DevelopersIO",
-          "published": "2026-09-25T02:50:53",
-          "excerpt": "On-Demand ストリームの戦略を AUTO に切り替えると、パーティションキーを省略した put-record が成功し、シャード偏りによるスロットルをキー設計なしで回避できます。…"
-        },
-        {
-          "title": "「データがバラバラ」を解消、Oracle＆Redshiftをやめてコスト6割減――保険会社はどう実現？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/25/news047.html",
-          "source": "@IT",
-          "published": "2026-09-25T02:00:00",
-          "excerpt": "データを活用したくても、複数のシステムにデータが分散していては横断的な管理や活用は難しくなる。アクサ・ジャパンはデータインフラの刷新によって、こうしたデータのサイロ化を解消した。どう変えたのか。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。はじめに VSCodeServer環境で、今まで普通に使えていた git pull が急にエラーになりました。remote: Invalid username or token.…",
+      "summary": "開発ツールの新着が10件。背景 CodeDeployで単一EC2にWARを自動デプロイする構成を、Auto Scaling Group（ASG）に昇格させるハンズオンをやりました。…",
       "articles": [
+        {
+          "title": "ASGでスケールアウトした新インスタンスにも、CodeDeployが自動でWARをデプロイする仕組み",
+          "link": "https://qiita.com/caymezon/items/f68f609cd3384a9c489f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-26T03:39:42",
+          "excerpt": "背景 CodeDeployで単一EC2にWARを自動デプロイする構成を、Auto Scaling Group（ASG）に昇格させるハンズオンをやりました。…"
+        },
         {
           "title": "VSCodeServer環境でGitHubのgit操作が急に認証エラーになった時の対処法",
           "link": "https://qiita.com/_YukiOgawa/items/d69020dbeaabfd6f24d3",
@@ -169,45 +169,38 @@
           "source": "はてなブックマーク（テクノロジー）",
           "published": "2026-09-25T13:15:56",
           "excerpt": "こんにちは、ぷらす(@p1ass)です。最近、Agent を「使う側」ではなく「作る側」に興味を持ち始めています。…"
-        },
-        {
-          "title": "Git-bug: Git に埋め込まれた、オフラインファーストの分散型バグ トラッカー",
-          "link": "https://github.com/git-bug/git-bug",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-25T11:38:31",
-          "excerpt": "記事の URL: https://github.com/git-bug/git-bug コメント URL: https://news.ycombinator.com/item?id=49843174 ポイント: 42 コメント数: 7"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS_MCP_PROXY_PROFILES で、AWS MCP のアカウントごとの面倒な設定を 1 つにまとめた",
-      "link": "https://qiita.com/kio-ku/items/5b426ffca0eda550e042",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-25T23:41:30",
-      "excerpt": "Claude Code + AWS MCP Server をマルチアカウントで使っていて、 気づいたら12 個 のブロックが.mcp.…"
+      "title": "顔面に電気を流すと記憶力アップ？　あごにパッチ電極を貼り人間で実験、結果は……",
+      "link": "https://www.itmedia.co.jp/news/article/2609/26/2000001710/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-26T03:00:00",
+      "excerpt": "ベルギーのルーヴェン・カトリック大学や中国の浙江大学などに所属する研究者らが発表した論文「Temporal patterning of trigeminal nerve stimulation gates hippocampal plast…"
     },
     {
-      "title": "負荷試験はAWS Distibution Load Testingがめちゃ便利",
-      "link": "https://qiita.com/kio-ku/items/0a36f027a9311024ccb5",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-25T23:41:11",
-      "excerpt": "最近なにかと負荷試験をしているSREエンジニアの @kio-ku です 突然ですが、どのようにして負荷試験の実行環境を用意しているでしょうか？…"
+      "title": "ナッツを多く食べる人、認知テストで高成績の傾向　豪州チームが1700人以上を分析",
+      "link": "https://www.itmedia.co.jp/news/article/2609/26/2000001711/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-26T03:00:00",
+      "excerpt": "オーストラリアのモナシュ大学に所属する研究者らが発表した論文「Nut consumption, cognitive function and brain health markers in individuals with and with…"
     },
     {
-      "title": "クルーソー、AIデータセンターでブームタービンを使用する12億5000万ドルの計画を放棄",
-      "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-25T23:11:10",
-      "excerpt": "ブーム・スーパーソニックのブレイク・ショール最高経営責任者（CEO）は、同社の新しい定置型発電所はもはやクルーソーの短期計画には含まれていないと述べた。"
+      "title": "Kiro Web にローカルの .kiro 設定をアップロードしてみた",
+      "link": "https://dev.classmethod.jp/articles/kiro-web-upload-local-kiro/",
+      "source": "DevelopersIO",
+      "published": "2026-09-26T02:33:51",
+      "excerpt": "ローカルの Kiro グローバル設定をクラウドセッションに反映できる"
     },
     {
-      "title": "Automattic、CEOを休職させる試みが失敗し、新たな取締役会を設置",
-      "link": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-25T23:04:34",
-      "excerpt": "CEOのMatt Mullenweg氏を解任しようとして失敗し、Automattic社では数日間の混乱を経て、同社には新しい取締役会が設置された。"
+      "title": "アニメを支える外国人材に“逆風”　日本在住の声優・アニメーターが抱く「不安の正体」とは",
+      "link": "https://www.itmedia.co.jp/news/article/2609/26/2000001672/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-26T02:00:00",
+      "excerpt": "日本のアニメのクレジットには、外国出身のスタッフの名前が数多く並ぶ。しかし永住許可の手数料は10月から一気に20倍へ引き上げられる。ロシア出身で来日20年近いベテラン声優と、フランスから来て7カ月の新人アニメーター。…"
     }
   ]
 }
