@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-09-26T13:27:36",
+  "generated_at": "2026-09-26T17:19:42",
   "window_hours": 24,
-  "total": 140,
+  "total": 141,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。2026年9月22日にOktaが12社と結成したBlueprint Allianceを解説します。…",
+      "summary": "生成AIの新着が19件。OpenCodeでGPT-6を使いたくなったので、ChatGPT Plusを契約して試してみました。ブラウザ認可だけでOpenAIと接続でき、定額プランで最新モデルが利用できることがわかったので、その手順と結果をまとめます。",
       "articles": [
+        {
+          "title": "OpenCode で ChatGPT Plus のサブスクリプションを使って OpenAI のモデルを動かしてみた",
+          "link": "https://dev.classmethod.jp/articles/opencode-chatgpt-plus-subscription/",
+          "source": "DevelopersIO",
+          "published": "2026-09-26T15:04:33",
+          "excerpt": "OpenCodeでGPT-6を使いたくなったので、ChatGPT Plusを契約して試してみました。ブラウザ認可だけでOpenAIと接続でき、定額プランで最新モデルが利用できることがわかったので、その手順と結果をまとめます。"
+        },
         {
           "title": "Blueprint Allianceが示すAIエージェント統制の4つの問いを紐解く | CloudNative BLOGs",
           "link": "https://blog.cloudnative.co.jp/articles/okta-blueprint-alliance-ai-agent-governance/",
@@ -24,26 +31,26 @@
           "excerpt": "はじめに サーバーワークスの池田です。今週（9/18〜9/24）のClaude Codeは、v2.1.276からv2.1.282まで6バージョンが公開されました（v2.1.279は欠番）。大きな話題は2つです。1つはv2.1.…"
         },
         {
-          "title": "Claude Code、/usageによる推定費用の確認とエフォートの使い分けを解説 ——Opus 5.5の料金とキャッシュの利用",
-          "link": "https://gihyo.jp/article/2026/09/claude-code-usage-and-effort?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-09-26T09:18:00",
-          "excerpt": "Anthropicは2026年9月25日、開発者向けブログで、Claude Opus 5.5を使った作業の費用と、推論などにかける計算量を調整するエフォート（effort）の使い分けを解説した。"
-        },
-        {
-          "title": "NVIDIA OpenShell 0.1.0 系で Pi の sub-agent を sandbox ごとに動かしてみた",
-          "link": "https://dev.classmethod.jp/articles/openshell-0-1-0-pi-subagent-sandbox/",
-          "source": "DevelopersIO",
-          "published": "2026-09-26T08:33:28",
-          "excerpt": "OpenShell 0.1.…"
+          "title": "ChatGPTと学ぶvLLMの基礎：AWSでQwen3-4Bを動かしてLLM Servingを理解する",
+          "link": "https://zenn.dev/yukiko_50135/articles/b878a974b52e25",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-26T09:55:54",
+          "excerpt": "はじめに ローカルLLMを自分で動かしてみたいと思い、Serving基盤としてよく名前を見かける vLLM を触ってみることにしました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。はじめに サーバーレス構成を学び始めると、まず出てくるのが「API Gateway + Lambda」です。チュートリアル通りに動かすところまでは簡単なのですが、いざ実務で使おうとすると次のような壁にぶつかります。…",
+      "summary": "クラウドの新着が12件。はじめに Amazon ECS は、Amazon S3 Files のサポート対象を EC2 起動タイプにも拡張したと発表しました。…",
       "articles": [
+        {
+          "title": "Amazon ECS S3 Files、EC2 起動タイプ対応を実機で検証",
+          "link": "https://qiita.com/Haruki-N/items/b09bf924f4d20512f7b6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-26T16:21:08",
+          "excerpt": "はじめに Amazon ECS は、Amazon S3 Files のサポート対象を EC2 起動タイプにも拡張したと発表しました。…"
+        },
         {
           "title": "【AWS初学者向け】Amazon API Gateway 徹底入門 ― APIタイプの選び方、Lambda / EC2 / ECS バックエンド、認証・CORS・ログ設定まで",
           "link": "https://qiita.com/OhkuboT/items/ca981b1c4a0781af8e19",
@@ -52,32 +59,25 @@
           "excerpt": "はじめに サーバーレス構成を学び始めると、まず出てくるのが「API Gateway + Lambda」です。チュートリアル通りに動かすところまでは簡単なのですが、いざ実務で使おうとすると次のような壁にぶつかります。…"
         },
         {
+          "title": "テスラの大型電気トラックはさらに大きなインフラストラクチャの課題に直面している",
+          "link": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-09-26T10:45:09",
+          "excerpt": "充電ギャップにより電気トラックの輸送が依然として制限される中、500マイルのセミが登場する。"
+        },
+        {
           "title": "Postgres への移行は安全ですか、それとも安全ではありませんか?",
           "link": "https://safenotsafe.dev/",
           "source": "Hacker News（英語）",
           "published": "2026-09-26T07:33:12",
           "excerpt": "記事の URL: https://safenotsafe.dev/ コメント URL: https://news.ycombinator.com/item?id=49854161 ポイント: 3 コメント数: 0"
-        },
-        {
-          "title": "公式Syncを使わずにObsidianをAmazon S3で同期する",
-          "link": "https://qiita.com/_YukiOgawa/items/00d1dec52e838ee6b0fa",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-26T02:04:13",
-          "excerpt": "概要 この記事は生成AIで作成した記事を人間により加筆修正しています。「Macでメモしたことを、出先でiPhoneでも読みたい」 最近メモアプリとしてObsidianを使ってみようとしています。…"
-        },
-        {
-          "title": "Lambdaの二重実行を防ぐ：Javaで冪等性を実装するPowertools入門",
-          "link": "https://zenn.dev/sponge841841/articles/2026-09-23-lambda-java-idempotency-powertools",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-25T20:58:38",
-          "excerpt": "AWS Lambdaを使っていると、「同じイベントがもう一度届いたらどうするか」を考える必要があります。たとえば注文処理でLambdaが決済APIを呼び出した直後、レスポンスを返す前にタイムアウトしたとします。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。はじめに サーバーレス構成を学び始めると、まず出てくるのが「API Gateway + Lambda」です。チュートリアル通りに動かすところまでは簡単なのですが、いざ実務で使おうとすると次のような壁にぶつかります。…",
+      "summary": "セキュリティの新着が9件。はじめに サーバーレス構成を学び始めると、まず出てくるのが「API Gateway + Lambda」です。チュートリアル通りに動かすところまでは簡単なのですが、いざ実務で使おうとすると次のような壁にぶつかります。…",
       "articles": [
         {
           "title": "【AWS初学者向け】Amazon API Gateway 徹底入門 ― APIタイプの選び方、Lambda / EC2 / ECS バックエンド、認証・CORS・ログ設定まで",
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。背景 ALB + EC2 + RDSの3層構成をCDK Pipelinesで CI/CD化するハンズオンをやりました。…",
+      "summary": "開発ツールの新着が8件。背景 ALB + EC2 + RDSの3層構成をCDK Pipelinesで CI/CD化するハンズオンをやりました。…",
       "articles": [
         {
           "title": "CDK Pipelinesの「セルフミューテーション」でパイプライン自身もgit push対象にする",
@@ -155,6 +155,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-26T12:10:25",
           "excerpt": "背景 ALB + EC2 + RDSの3層構成をCDK Pipelinesで CI/CD化するハンズオンをやりました。…"
+        },
+        {
+          "title": "CIが自分のデプロイ権限を消した",
+          "link": "https://zenn.dev/miyakona/articles/deploy-identity-outside-target-stack",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-26T10:19:32",
+          "excerpt": "静的サイトを手元からAWS CDKでデプロイしていました。変更のたびに同じコマンドを実行するより、既定ブランチへマージしたらCIが反映する方が、手順の抜けを減らせます。…"
         },
         {
           "title": "GitHub、Copilot Business／Enterpriseに新機能のデフォルトポリシーを導入",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-26T07:28:59",
           "excerpt": "背景 ALB + EC2(Tomcat) + RDSの3層構成を、CDKのカスタムL3 Constructとして切り出すハンズオンをやりました。インフラの構成自体は単一スタック版と完全に同じですが、コードの設計だけが変わります。1.…"
-        },
-        {
-          "title": "GitHub ActionsのOIDCトークンの形式が変更されていてAssume Roleが失敗した話",
-          "link": "https://qiita.com/kobayashi_0226/items/6f32522edd8eceae366c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-26T05:13:04",
-          "excerpt": "GitHub ActionsでECSへのデプロイを自動化しようとIAMロールの設定を行いテスト実行をしたところエラーが出たので記録として残します。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ミストラル CEO: AI はソフトウェアです。それは制御できる",
-      "link": "https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-26T12:52:04",
-      "excerpt": "記事の URL: https://www.lemonde.…"
+      "title": "Levoit の新しい空気清浄機は、アパートに蔓延するペットの臭いを除去します",
+      "link": "https://techcrunch.com/2026/09/26/levoits-new-air-purifier-is-for-the-pet-odors-that-have-taken-over-your-apartment/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-26T17:00:00",
+      "excerpt": "この 189.99 ドルの空気清浄機は、ペットの臭いに対処するために特別に設計されており、1 時間で最大 70% を除去します。"
     },
     {
-      "title": "AWS CUR CSVで未使用課金(EIP・EBS)を抽出する手順",
-      "link": "https://qiita.com/infraone/items/277e69f9f90b375a5a0a",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-26T12:05:05",
-      "excerpt": "この記事について この記事は、AWSのCost and Usage Report（CUR）をCSV形式で受け取っているインフラ・SRE担当者向けです。…"
+      "title": "AWSで、仮想ネットワークを作る",
+      "link": "https://zenn.dev/yukiesann39/articles/de3dddae8d7a2b",
+      "source": "Zenn AWSトピック",
+      "published": "2026-09-26T16:42:47",
+      "excerpt": "今回作成する仮想ネットワークの構成 新たにVPC(Virtual Private Cloud)を作成し、その中に4つのサブネットを作成します。4つのサブネットは、「外部に公開するサブネットと内部に隠すサブネットのセット」が2組です。…"
     },
     {
-      "title": "【iOS 27】赤ちゃんのミルクとおむつを話して育児記録の下書きにする機能を作って、iPhone 15 Proで測ってみた",
-      "link": "https://dev.classmethod.jp/articles/apple-intelligence-baby-care-log-trial/",
+      "title": "生成しない決定モデル CLM を、Switchyard の判定役として DGX Spark で試してみた",
+      "link": "https://dev.classmethod.jp/articles/clm-contrastive-language-model-switchyard-judge/",
       "source": "DevelopersIO",
-      "published": "2026-09-26T11:30:28",
-      "excerpt": "育児記録アプリに話しかけるだけで記録できる機能をApple Intelligenceで実装し、iPhone 15 Proで実測してみました。記録すべき項目の91.7%が正しく入り、話していない出来事は作られませんでした。"
+      "published": "2026-09-26T16:36:27",
+      "excerpt": "決定モデル CLM を DGX Spark で動かし、Switchyard の weak / strong 判定を Jev と同じ 528 件で測りました。zero-shot では届かず。…"
     },
     {
-      "title": "【iOS 27】現場で話した1日の作業を日報の要約にする機能を作って、iPhone 15 Proで測ってみた",
-      "link": "https://dev.classmethod.jp/articles/apple-intelligence-construction-daily-report-trial/",
+      "title": "[SO-ARM101] 模倣学習のデータセット（LeRobot Dataset v3.0 / v2.1）の中身を実データで確認してみました",
+      "link": "https://dev.classmethod.jp/articles/lerobot-dataset-so-arm101/",
       "source": "DevelopersIO",
-      "published": "2026-09-26T11:30:28",
-      "excerpt": "建設現場の日報作成を自動化するため、現場担当者の話した内容をApple Intelligenceで要約する機能を作り、iPhone 15 Proで実際に測ってみました。…"
+      "published": "2026-09-26T16:14:55",
+      "excerpt": "LeRobotの2つのデータセット形式（v3.0とv2.1）を開いて、画像・関節角・言語指示がどこにどのように保存されているのか、その内部構造を確認してみました。"
     }
   ]
 }
