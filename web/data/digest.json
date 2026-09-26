@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-09-26T19:59:33",
+  "generated_at": "2026-09-26T22:24:12",
   "window_hours": 24,
-  "total": 119,
+  "total": 112,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。AWS Startup Advisor プラグインを Claude Code で試してみました。…",
+      "summary": "生成AIの新着が17件。私の OpenAI CODEX アカウントが不正になり、単純なリクエストにより、私の側で何の承認もなく、いかなる結果も報告することなく 826 個の並列エージェント/スレッドを起動する自律的な決定が下されました。…",
       "articles": [
+        {
+          "title": "OpenAI Codex エージェントが不正行為を行い、許可なく 78,000 米ドルを消費",
+          "link": "https://news.ycombinator.com/item?id=49861047",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-26T22:15:32",
+          "excerpt": "私の OpenAI CODEX アカウントが不正になり、単純なリクエストにより、私の側で何の承認もなく、いかなる結果も報告することなく 826 個の並列エージェント/スレッドを起動する自律的な決定が下されました。…"
+        },
         {
           "title": "[アップデート] Agent Toolkit for AWS で AWS Startup Advisor プラグインが利用可能になったので試してみた",
           "link": "https://dev.classmethod.jp/articles/20260927-aws-startup-advisor/",
@@ -29,20 +36,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-09-26T11:31:00",
           "excerpt": "2026年9月22日にOktaが12社と結成したBlueprint Allianceを解説します。…"
-        },
-        {
-          "title": "Claude Code更新 AGENTS.md対応・クラウドセッション正式提供【9/18〜24】 | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/09/26/190000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-09-26T10:00:00",
-          "excerpt": "はじめに サーバーワークスの池田です。今週（9/18〜9/24）のClaude Codeは、v2.1.276からv2.1.282まで6バージョンが公開されました（v2.1.279は欠番）。大きな話題は2つです。1つはv2.1.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。AWS CloudTrailで操作履歴を調査する方法｜EC2・RDS・ECSのイベント名一覧 AWSを運用していると、 「EC2が停止しているけど、誰が止めた？」 「RDSの設定が変更されているけど、いつ変更された？…",
+      "summary": "クラウドの新着が6件。AWS CloudTrailで操作履歴を調査する方法｜EC2・RDS・ECSのイベント名一覧 AWSを運用していると、 「EC2が停止しているけど、誰が止めた？」 「RDSの設定が変更されているけど、いつ変更された？…",
       "articles": [
         {
           "title": "AWS CloudTrailで操作履歴を調査する方法｜EC2・RDS・ECSのイベント名一覧",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。はじめに サーバーレス構成を学び始めると、まず出てくるのが「API Gateway + Lambda」です。チュートリアル通りに動かすところまでは簡単なのですが、いざ実務で使おうとすると次のような壁にぶつかります。…",
+      "summary": "セキュリティの新着が7件。このノックについて 42日シリーズの演習編、CTF形式の総力戦です。…",
       "articles": [
+        {
+          "title": "【演習ノック編】Webセキュリティ CTF - JWT・認可・CSRF/XSS・クラウドを破る",
+          "link": "https://qiita.com/iketani45664566/items/33dcb9fb37e7847ac694",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-26T21:25:39",
+          "excerpt": "このノックについて 42日シリーズの演習編、CTF形式の総力戦です。…"
+        },
         {
           "title": "【AWS初学者向け】Amazon API Gateway 徹底入門 ― APIタイプの選び方、Lambda / EC2 / ECS バックエンド、認証・CORS・ログ設定まで",
           "link": "https://qiita.com/OhkuboT/items/ca981b1c4a0781af8e19",
@@ -99,13 +106,6 @@
           "source": "Zenn AWSトピック",
           "published": "2026-09-26T05:33:15",
           "excerpt": "はじめに Bedrock を呼び出す認証情報が漏れたとき、典型的に発生する挙動としていつもと違う場所から呼び出されたり、いつもと異なるトラフィックパターンが発生する、といったものが挙げられますです。…"
-        },
-        {
-          "title": "Amazon Bedrock の基本セキュリティ設定: モデル呼び出しログでプロンプトと応答を残す",
-          "link": "https://zenn.dev/aws_japan/articles/bedrock-security-invocation-logging",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-26T04:16:15",
-          "excerpt": "はじめに Amazon Bedrock には、モデルに送ったプロンプトと返ってきた応答を、そのまま CloudWatch Logs や S3 に書き出す「モデル呼び出しのログ記録」（Model invocation logging）という設…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "結局のところ、メタとYouTubeは「マスク」ドキュメンタリーの広告を掲載すると発表",
-      "link": "https://techcrunch.com/2026/09/26/meta-says-it-will-run-ads-for-musk-documentary-after-all/",
+      "title": "保険会社はAIがすでに医療費を増加させていると主張している",
+      "link": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-26T17:44:00",
-      "excerpt": "多くのソーシャルメディアプラットフォームが広告を拒否したとの以前の報道を受けて、2社は現在、アレックス・ギブニー監督によるイーロン・マスクに関する次期ドキュメンタリーの広告を受け入れると発表した。"
+      "published": "2026-09-26T21:02:06",
+      "excerpt": "Blue Cross Blue Shield は、病院での AI ツールの使用により、2 年間で医療支出がさらに 9 億 4,200 万ドル増加したと述べています。"
     },
     {
-      "title": "判断特化型AI「Jev」互換のOSSモデル「Kev」を Docker上で試してみた",
-      "link": "https://dev.classmethod.jp/articles/kev-oss-jev-compatible-docker/",
-      "source": "DevelopersIO",
-      "published": "2026-09-26T17:29:47",
-      "excerpt": "TypeSafe AI の判断特化型 AI「Jev」と同じ `POST /v1/systemone` API を持つ OSS モデル「Kev」を、Apple M1・メモリ 16GB・GPU なしの Linux 環境で Docker から起動…"
+      "title": "TikTok、アラバマ州和解で少なくとも1億ドルを支払うことに合意",
+      "link": "https://techcrunch.com/2026/09/26/tiktok-agrees-to-pay-at-least-100m-in-alabama-settlement/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-26T20:24:45",
+      "excerpt": "TikTokは、短編動画プラットフォームがユーザーに安全性について誤解を与え、子供を中毒にするように設計されているとの申し立てに関連した和解金として、アラバマ州に少なくとも1億ドルを支払う予定だ。"
     },
     {
-      "title": "Show HN: Reladraw – 物を配置する場所を決定する図言語",
-      "link": "https://github.com/reladraw/reladraw",
+      "title": "惑星間中継基地の診療所へようこそ",
+      "link": "https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/",
       "source": "Hacker News（英語）",
-      "published": "2026-09-26T17:10:40",
-      "excerpt": "私は理解や計画などに役立つ図を作成するのが大好きです。…"
+      "published": "2026-09-26T20:08:50",
+      "excerpt": "記事の URL: https://www.lightspeedmagazine.…"
     },
     {
-      "title": "Levoit の新しい空気清浄機は、アパートに蔓延するペットの臭いを除去します",
-      "link": "https://techcrunch.com/2026/09/26/levoits-new-air-purifier-is-for-the-pet-odors-that-have-taken-over-your-apartment/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-26T17:00:00",
-      "excerpt": "この 189.99 ドルの空気清浄機は、ペットの臭いに対処するために特別に設計されており、1 時間で最大 70% を除去します。"
+      "title": "DeepSeek エラスティック コンピューティング (DSec)",
+      "link": "https://arxiv.org/abs/2609.22978",
+      "source": "Hacker News（英語）",
+      "published": "2026-09-26T18:22:41",
+      "excerpt": "Article URL: https://arxiv.org/abs/2609.22978 Comments URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
