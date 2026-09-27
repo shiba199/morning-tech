@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-09-27T19:23:31",
+  "generated_at": "2026-09-27T22:24:21",
   "window_hours": 24,
-  "total": 80,
+  "total": 91,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。記事の URL: https://www.youtube.com/watch?v=-Nvne3LzBls コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が20件。Google、Android Studioの新機能「Bring Your Own Agent」（BYOA）を発表",
       "articles": [
+        {
+          "title": "Google、Android Studioの新機能「Bring Your Own Agent」（BYOA）を発表",
+          "link": "https://codezine.jp/article/detail/29803",
+          "source": "CodeZine",
+          "published": "2026-09-27T22:00:00",
+          "excerpt": "Google、Android Studioの新機能「Bring Your Own Agent」（BYOA）を発表"
+        },
         {
           "title": "SNL 週末最新情報: Anthropic CEO のダリオ・アモデイ氏が人類に対する AI の脅威について語る [ビデオ]",
           "link": "https://www.youtube.com/watch?v=-Nvne3LzBls",
@@ -29,21 +36,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-09-27T16:19:46",
           "excerpt": "記事の URL: https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "「Docker Cloud Snadboxes」発表、AIエージェント向けサンドボックスをローカルとクラウド間で自由に移動可能に",
-          "link": "https://www.publickey1.jp/blog/26/docker_cloud_snadboxesai.html",
-          "source": "Publickey",
-          "published": "2026-09-27T16:02:18",
-          "excerpt": "Docker社はAIエージェント向けのサンドボックス環境をクラウド上で提供する「Docker Cloud Sandboxes」を発表しました。同社はすでにローカルで動作するサンドボックス環境の「Docker Sandboxes」を今年（2.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が5件。プレイスメントグループとは AWSのデータセンター内で、複数のEC2インスタンスが物理的にどのサーバー上で動くかを制御する機能です。この機能を設定することによって、それぞれのインスタンスの通信性能や耐障害性を向上させることができます！…",
+      "summary": "クラウドの新着が8件。はじめに こんにちは！AWS でソリューションアーキテクトをしている齋藤 拓巳です。…",
       "articles": [
+        {
+          "title": "Lambda MicroVMs で AI コーディングエージェントのサンドボックス環境を整備する",
+          "link": "https://zenn.dev/aws_japan/articles/lambda-microvms-sandbox-mcp-for-coding-agents",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-27T15:49:59",
+          "excerpt": "はじめに こんにちは！AWS でソリューションアーキテクトをしている齋藤 拓巳です。…"
+        },
         {
           "title": "【AWS】 EC2 プレイスメントグループについてざっくり解説してみた",
           "link": "https://qiita.com/takuwankirai/items/d746b58923e58e0abc7e",
@@ -52,33 +59,33 @@
           "excerpt": "プレイスメントグループとは AWSのデータセンター内で、複数のEC2インスタンスが物理的にどのサーバー上で動くかを制御する機能です。この機能を設定することによって、それぞれのインスタンスの通信性能や耐障害性を向上させることができます！…"
         },
         {
-          "title": "Cloudflare R2 vs AWS S3 — データ転送費用ゼロの恩恵を確かめた",
-          "link": "https://qiita.com/cozy_666_tech/items/c8d5579e922886204c48",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-27T04:56:30",
-          "excerpt": "はじめに S3をメインのファイルストレージとして使っていたが、Cloudflare R2という選択肢を調べた。「データ転送費用がゼロ」という言葉が気になっていた。…"
-        },
-        {
-          "title": "【Security Hub修復手順】[CloudFront.16] CloudFront ディストリビューションでは、Lambda 関数 URL オリジンのオリジンアクセスコントロールを使用する必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-cloudfront-16/",
-          "source": "DevelopersIO",
-          "published": "2026-09-27T02:36:28",
-          "excerpt": "AWS Security HubのCloudFront.16コントロール（Lambda関数URLオリジン向けオリジンアクセスコントロール設定）について、修復手順をご紹介します。"
-        },
-        {
-          "title": "CloudFormation 管理下の RDS を Step Functions で自動復旧する",
-          "link": "https://zenn.dev/y___u/articles/cfn-rds-auto-recovery",
+          "title": "AWSのサーバーレス環境を構築",
+          "link": "https://zenn.dev/uttnaoki/articles/48e2e4e4a0d10f",
           "source": "Zenn AWSトピック",
-          "published": "2026-09-27T02:19:27",
-          "excerpt": "はじめに CloudFormation で管理している RDS を復旧する場合、復旧後も CloudFormation 管理を維持しようとすると少しめんどくさいです。…"
+          "published": "2026-09-27T13:01:26",
+          "excerpt": "インフラの勉強をしたい 私の現在の仕事ではモバイル側を開発することが多く、インフラ側を設計・構築する機会がないため、インフラの勉強をしたいと思いました。学習方針 今回はAWSでインフラ構築の勉強をしようと思います。…"
+        },
+        {
+          "title": "【ハンズオン：#5-6】AWSを実際に操作してみた(RDS、ELB、AutoScaling)",
+          "link": "https://zenn.dev/hitakaha/articles/5d00be7b9207dd",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-27T11:49:12",
+          "excerpt": "はじめに こんにちは、hitakahaです。引き続きハンズオンを進めているので、今回も作業の振り返りとしてアウトプットしていきます。ハンズオン講座で触れたAWSの主要なマネージドサービス一覧は以下の通りです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。Cursor、デプロイ監視とセキュリティレビューを担うボット2種をリリース",
+      "summary": "セキュリティの新着が3件。こんにちは、sawa です。最近 Terraform を学習しているのですが、AWS リソースを定義する中で IAM や権限周りの概念に混乱することがありました。…",
       "articles": [
+        {
+          "title": "【AWS】IAM のロールとポリシーが混乱したので整理してみた",
+          "link": "https://zenn.dev/sawa_tech/articles/18e0bb6147d8b5",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-27T14:20:58",
+          "excerpt": "こんにちは、sawa です。最近 Terraform を学習しているのですが、AWS リソースを定義する中で IAM や権限周りの概念に混乱することがありました。…"
+        },
         {
           "title": "Cursor、デプロイ監視とセキュリティレビューを担うボット2種をリリース",
           "link": "https://codezine.jp/article/detail/29812",
@@ -92,28 +99,21 @@
           "source": "DevelopersIO",
           "published": "2026-09-27T02:36:28",
           "excerpt": "AWS Security HubのCloudFront.16コントロール（Lambda関数URLオリジン向けオリジンアクセスコントロール設定）について、修復手順をご紹介します。"
-        },
-        {
-          "title": "AIの「見つけた」をうのみにしない　Google、誤検知“ほぼゼロ”で脆弱性500件超を発見した検証の仕組み",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/27/news006.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-09-26T22:00:00",
-          "excerpt": "AIに脆弱性を探させると、未検証の仮説や誤検知が大量に届く。Googleは社内のAIエージェントで自社Webアプリからクロスサイトスクリプティングの脆弱性を500件超発見しながら、誤検知をほぼゼロに抑えたという。…"
-        },
-        {
-          "title": "【演習ノック編】Webセキュリティ CTF - JWT・認可・CSRF/XSS・クラウドを破る",
-          "link": "https://qiita.com/iketani45664566/items/33dcb9fb37e7847ac694",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-26T21:25:39",
-          "excerpt": "このノックについて 42日シリーズの演習編、CTF形式の総力戦です。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。Amazon DynamoDB Streams はじめに 前回は、Kiro Roasters の EC 注文処理パイプライン（DynamoDB Strea...",
+      "summary": "データ分析の新着が4件。記事の URL: https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11 コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "「ENIAC には BIOS がありましたか?」に対する Alan Kay の答え",
+          "link": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-27T19:37:05",
+          "excerpt": "記事の URL: https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11 コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "【DynamoDB Streams】イベント駆動アプリに負荷をかけ続けたらどうなるか確かめてみる",
           "link": "https://qiita.com/jus1730/items/fd51262b0ceadfe8f122",
@@ -140,67 +140,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。この記事でやること この記事では、AWS の Web 3層構成図を、AI（Kiro）に指示しながら draw.io の形式で作り、公式アイコンを使って、最後は高解像度の PNG に書き出すまでの流れを、実際の作業ログに沿って追います。…",
+      "summary": "開発ツールの新着が9件。GitHub、GitHub Enterprise Cloudの「proof of presence」機能のパブリックプレビュー",
       "articles": [
+        {
+          "title": "GitHub、GitHub Enterprise Cloudの「proof of presence」機能のパブリックプレビュー",
+          "link": "https://codezine.jp/article/detail/29802",
+          "source": "CodeZine",
+          "published": "2026-09-27T22:00:00",
+          "excerpt": "GitHub、GitHub Enterprise Cloudの「proof of presence」機能のパブリックプレビュー"
+        },
+        {
+          "title": "「ENIAC には BIOS がありましたか?」に対する Alan Kay の答え",
+          "link": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-27T19:37:05",
+          "excerpt": "記事の URL: https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11 コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "Lambda MicroVMs で AI コーディングエージェントのサンドボックス環境を整備する",
+          "link": "https://zenn.dev/aws_japan/articles/lambda-microvms-sandbox-mcp-for-coding-agents",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-27T15:49:59",
+          "excerpt": "はじめに こんにちは！AWS でソリューションアーキテクトをしている齋藤 拓巳です。…"
+        },
         {
           "title": "draw.io で AWS の Web 3層構成図を作る — 公式アイコン・プロトコル注釈・CLI で PNG 出力まで",
           "link": "https://zenn.dev/pero_nw0125/articles/drawio-aws-3tier-20260926",
           "source": "Zenn AWSトピック",
           "published": "2026-09-27T09:31:05",
           "excerpt": "この記事でやること この記事では、AWS の Web 3層構成図を、AI（Kiro）に指示しながら draw.io の形式で作り、公式アイコンを使って、最後は高解像度の PNG に書き出すまでの流れを、実際の作業ログに沿って追います。…"
-        },
-        {
-          "title": "Cursor、デプロイ監視とセキュリティレビューを担うボット2種をリリース",
-          "link": "https://codezine.jp/article/detail/29812",
-          "source": "CodeZine",
-          "published": "2026-09-27T08:00:00",
-          "excerpt": "Cursor、デプロイ監視とセキュリティレビューを担うボット2種をリリース"
-        },
-        {
-          "title": "Cognito のマネージドログインで App Client をまたいだ SSO を試してみた",
-          "link": "https://dev.classmethod.jp/articles/slug-aws-cognito-sso-oidc/",
-          "source": "DevelopersIO",
-          "published": "2026-09-27T06:16:26",
-          "excerpt": "Cognito ユーザープールを認証基盤にした Web アプリにログインしたあと、別アプリへ OIDC でログインするとログイン画面なしで入れるのかを検証しました。マネージドログインと Cookie の動きを確認しています。"
-        },
-        {
-          "title": "【GitHub Actions】environment を付けると OIDC の sub が変わる──承認と AWS のロール引き受けを結び付けた話",
-          "link": "https://qiita.com/80-cloud/items/2ea05f11b516629fec0a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-27T05:27:51",
-          "excerpt": "はじめに GitHub Actions から Terraform で AWS を操作する CD を、長期キーを置かず OIDC で組みました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Show HN: Lofi Cities – ブラウザーで生成された lofi によるピクセルアートの都市の夜",
-      "link": "https://loficities.com/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-27T18:44:30",
-      "excerpt": "記事の URL: https://loficities.com/ コメント URL: https://news.ycombinator.com/item?id=49869574 ポイント: 25 コメント数: 4"
+      "title": "ITエンジニア注目トレンドを総まとめ！週間ニュースランキングTOP10【9/18～9/24】",
+      "link": "https://codezine.jp/article/detail/29797",
+      "source": "CodeZine",
+      "published": "2026-09-27T22:00:00",
+      "excerpt": "毎日更新される、CodeZine、DeveloperZine、ProductZineの最新ニュースから、注目を集めたトピックスを紹介する本ランキング。今回は2026年9月18日～9月24日までの人気ランキングを発表します。"
     },
     {
-      "title": "FM 合成の発明者、ジョン・チョーニングのオーラル・ヒストリー [ビデオ]",
-      "link": "https://www.youtube.com/watch?v=e1Xn3030IvM",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-27T18:02:43",
-      "excerpt": "https://en.wikipedia.org/wiki/John_Chowning コメント URL: https://news.ycombinator.com/item?id=49869142 ポイント: 4 コメント数: 0"
+      "title": "トランプ大統領と習主席、AIを「超知能（SI）」と呼ぶことで合意　「米中SI対話」も創設",
+      "link": "https://www.itmedia.co.jp/news/article/2609/28/2000001776/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-27T21:38:20",
+      "excerpt": "米連邦政府は、習近平国家主席の国賓訪問に関するファクトシートを公開した。首脳会談でAIを「超知能（SI）」と呼ぶことで合意し、リスク対応の定期対話や連絡チャネルを創設した。公式晩餐会にはマスク氏やザッカーバーグ氏らIT首脳が集結した。"
     },
     {
-      "title": "残り火-1",
-      "link": "https://fireworks.ai/blog/ember-1",
+      "title": "ルナーターミネーターのパラドックス",
+      "link": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
       "source": "Hacker News（英語）",
-      "published": "2026-09-27T17:31:53",
-      "excerpt": "記事の URL: https://fireworks.ai/blog/ember-1 コメント URL: https://news.ycombinator.com/item?id=49868830 ポイント: 121 コメント数: 56"
+      "published": "2026-09-27T21:06:17",
+      "excerpt": "記事の URL: https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html コメント URL: https://news.…"
     },
     {
-      "title": "アンスロピックのダリオ・アモデイがSNLの治療を受ける",
-      "link": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+      "title": "アンスロピックのCEOはトランプ大統領と夕食をとろうとしている",
+      "link": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
       "source": "TechCrunch（英語）",
-      "published": "2026-09-27T16:30:00",
-      "excerpt": "「AIは悪魔であり、それを作ったのは私だ。」"
+      "published": "2026-09-27T20:34:28",
+      "excerpt": "ダリオ・アモデイ氏とドナルド・トランプ氏の一対一の会談はこれが初めてとなる。"
     }
   ]
 }
