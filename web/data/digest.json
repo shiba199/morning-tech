@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-09-27T05:57:11",
+  "generated_at": "2026-09-27T11:08:42",
   "window_hours": 24,
-  "total": 92,
+  "total": 87,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。自作しようとしてたやつ公式が出してきたパターン",
+      "summary": "生成AIの新着が14件。記事の URL: https://arxiv.org/abs/2609.25021 コメント URL: https://news.ycombinator.com/item?id=49865343 ポイント: 14 コメント数: 0",
       "articles": [
+        {
+          "title": "「言語モデルとして」: チャット テンプレート スイッチ LLM 自己参照音声",
+          "link": "https://arxiv.org/abs/2609.25021",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-27T10:26:25",
+          "excerpt": "記事の URL: https://arxiv.org/abs/2609.25021 コメント URL: https://news.ycombinator.com/item?id=49865343 ポイント: 14 コメント数: 0"
+        },
+        {
+          "title": "OpenAIはハッカーニュースに掲載される可能性のある「光学」を恐れた",
+          "link": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+          "source": "Hacker News（英語）",
+          "published": "2026-09-27T06:19:33",
+          "excerpt": "記事の URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ コメント URL: https://news.…"
+        },
+        {
+          "title": "VS Code の Claude Code 拡張機能、なんか更新多い…？ | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/15875671106c54",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-27T04:48:33",
+          "excerpt": "VS Code を開くと Claude Code の拡張機能が更新されている。翌朝に開くとまた更新されている。さすがに多くないかと思って、実際に数えた。…"
+        },
         {
           "title": "[プレビュー] AWS Well-Architected Agent が登場したので触ってみた",
           "link": "https://dev.classmethod.jp/articles/aws-wa-agent-preview/",
           "source": "DevelopersIO",
           "published": "2026-09-27T02:29:32",
           "excerpt": "自作しようとしてたやつ公式が出してきたパターン"
-        },
-        {
-          "title": "GoogleはインドでGeminiとAIモードを通じたウォルマート所有のFlipkartからの購入をテストする",
-          "link": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-09-27T01:30:00",
-          "excerpt": "この限定的なテストは一部の製品とユーザーを対象とし、10 月後半にはより広範な展開が予定されています。"
-        },
-        {
-          "title": "OpenAI エージェントが国連 Web サイトの API フィールドにブルートフォース攻撃を試みた",
-          "link": "https://swarmcha.se/posts/openai-unctad",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-27T01:08:07",
-          "excerpt": "記事の URL: https://swarmcha.se/posts/openai-unctad コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "ChatGPTやClaudeの有料プランに課金できる人だけが正しい検索結果に辿り着き、貧乏人はハルシネーションだらけの嘘と本当の区別がつかない世界に突き落とされると主張する",
-          "link": "https://togetter.com/li/2750963",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-27T01:03:59",
-          "excerpt": "Rootport🔥 @rootport 無料版Geminiの性能は本当にひどい。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。はじめに S3をメインのファイルストレージとして使っていたが、Cloudflare R2という選択肢を調べた。「データ転送費用がゼロ」という言葉が気になっていた。…",
+      "summary": "クラウドの新着が6件。はじめに S3をメインのファイルストレージとして使っていたが、Cloudflare R2という選択肢を調べた。「データ転送費用がゼロ」という言葉が気になっていた。…",
       "articles": [
         {
           "title": "Cloudflare R2 vs AWS S3 — データ転送費用ゼロの恩恵を確かめた",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。AWS Security HubのCloudFront.16コントロール（Lambda関数URLオリジン向けオリジンアクセスコントロール設定）について、修復手順をご紹介します。",
+      "summary": "セキュリティの新着が5件。Cursor、デプロイ監視とセキュリティレビューを担うボット2種をリリース",
       "articles": [
+        {
+          "title": "Cursor、デプロイ監視とセキュリティレビューを担うボット2種をリリース",
+          "link": "https://codezine.jp/article/detail/29812",
+          "source": "CodeZine",
+          "published": "2026-09-27T08:00:00",
+          "excerpt": "Cursor、デプロイ監視とセキュリティレビューを担うボット2種をリリース"
+        },
         {
           "title": "【Security Hub修復手順】[CloudFront.16] CloudFront ディストリビューションでは、Lambda 関数 URL オリジンのオリジンアクセスコントロールを使用する必要があります",
           "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-cloudfront-16/",
@@ -99,101 +106,101 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-26T21:25:39",
           "excerpt": "このノックについて 42日シリーズの演習編、CTF形式の総力戦です。…"
-        },
-        {
-          "title": "【AWS初学者向け】Amazon API Gateway 徹底入門 ― APIタイプの選び方、Lambda / EC2 / ECS バックエンド、認証・CORS・ログ設定まで",
-          "link": "https://qiita.com/OhkuboT/items/ca981b1c4a0781af8e19",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-26T11:55:21",
-          "excerpt": "はじめに サーバーレス構成を学び始めると、まず出てくるのが「API Gateway + Lambda」です。チュートリアル通りに動かすところまでは簡単なのですが、いざ実務で使おうとすると次のような壁にぶつかります。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。AWSの属性ベースのインスタンスタイプ選択（ABIS）とは？仕組みとメリットをわかりやすく解説 AWSでEC2を利用するときは、 m7i.large c7i.large r7i.…",
+      "summary": "データ分析の新着が3件。https://youtu.be/pq_8N6-IJ68 この記事は、同じ内容で作ったYouTubeハンズオン動画「DynamoDBハンズオン入門」に合わせて用意したテキスト版です。…",
       "articles": [
+        {
+          "title": "初めてのDynamoDBハンズオン入門: キーだけで小さく始めるNoSQLを手を動かして理解する",
+          "link": "https://zenn.dev/bamtech1904/articles/20260925_dynamodb-basics-handson-intro",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-27T08:34:20",
+          "excerpt": "https://youtu.be/pq_8N6-IJ68 この記事は、同じ内容で作ったYouTubeハンズオン動画「DynamoDBハンズオン入門」に合わせて用意したテキスト版です。…"
+        },
+        {
+          "title": "【初心者向け】Amazon Kinesis Data Streams 入門！完全ガイド",
+          "link": "https://zenn.dev/issy/articles/zenn-kinesisdatastreams-overview",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-27T02:21:09",
+          "excerpt": "Amazon Kinesis Data Streams ☘️ はじめに 本ページは、AWS に関する個人の勉強および勉強会で使用することを目的に、AWS ドキュメントなどを参照し作成しておりますが、記載の誤り等が含まれる場合がございます。…"
+        },
         {
           "title": "AWSの属性ベースのインスタンスタイプ選択（ABIS）とは？仕組みとメリットをわかりやすく解説",
           "link": "https://qiita.com/namnam3225/items/8132fbb76185cd84432d",
           "source": "Qiita AWSタグ",
           "published": "2026-09-26T18:46:31",
           "excerpt": "AWSの属性ベースのインスタンスタイプ選択（ABIS）とは？仕組みとメリットをわかりやすく解説 AWSでEC2を利用するときは、 m7i.large c7i.large r7i.…"
-        },
-        {
-          "title": "Hugging Face、小型AIモデルにデータ分析を学習させる強化学習環境「SmolDataEnvs」を公開",
-          "link": "https://gihyo.jp/article/2026/09/smoldataenvs?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-09-26T06:45:00",
-          "excerpt": "Hugging FaceのAdithya S Kolavi氏は9月24日、コードを使ったデータ分析を小型AIモデルに学習させるための強化学習（RL）環境「SmolDataEnvs」の公開をXで告知した。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。はじめに GitHub Actions から Terraform で AWS を操作する CD を、長期キーを置かず OIDC で組みました。…",
+      "summary": "開発ツールの新着が6件。この記事でやること この記事では、AWS の Web 3層構成図を、AI（Kiro）に指示しながら draw.io の形式で作り、公式アイコンを使って、最後は高解像度の PNG に書き出すまでの流れを、実際の作業ログに沿って追います。…",
       "articles": [
+        {
+          "title": "draw.io で AWS の Web 3層構成図を作る — 公式アイコン・プロトコル注釈・CLI で PNG 出力まで",
+          "link": "https://zenn.dev/pero_nw0125/articles/drawio-aws-3tier-20260926",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-27T09:31:05",
+          "excerpt": "この記事でやること この記事では、AWS の Web 3層構成図を、AI（Kiro）に指示しながら draw.io の形式で作り、公式アイコンを使って、最後は高解像度の PNG に書き出すまでの流れを、実際の作業ログに沿って追います。…"
+        },
+        {
+          "title": "Cursor、デプロイ監視とセキュリティレビューを担うボット2種をリリース",
+          "link": "https://codezine.jp/article/detail/29812",
+          "source": "CodeZine",
+          "published": "2026-09-27T08:00:00",
+          "excerpt": "Cursor、デプロイ監視とセキュリティレビューを担うボット2種をリリース"
+        },
+        {
+          "title": "Cognito のマネージドログインで App Client をまたいだ SSO を試してみた",
+          "link": "https://dev.classmethod.jp/articles/slug-aws-cognito-sso-oidc/",
+          "source": "DevelopersIO",
+          "published": "2026-09-27T06:16:26",
+          "excerpt": "Cognito ユーザープールを認証基盤にした Web アプリにログインしたあと、別アプリへ OIDC でログインするとログイン画面なしで入れるのかを検証しました。マネージドログインと Cookie の動きを確認しています。"
+        },
         {
           "title": "【GitHub Actions】environment を付けると OIDC の sub が変わる──承認と AWS のロール引き受けを結び付けた話",
           "link": "https://qiita.com/80-cloud/items/2ea05f11b516629fec0a",
           "source": "Qiita AWSタグ",
           "published": "2026-09-27T05:27:51",
           "excerpt": "はじめに GitHub Actions から Terraform で AWS を操作する CD を、長期キーを置かず OIDC で組みました。…"
-        },
-        {
-          "title": "ALB・ターゲットグループ・リスナーもCloudFormationで一括定義する",
-          "link": "https://qiita.com/caymezon/items/81ee941ff61269f5816f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-27T03:52:04",
-          "excerpt": "背景 ALB + EC2(Tomcat) + RDS MySQLの3層構成をCloudFormationで自動構築しました。…"
-        },
-        {
-          "title": "CDK Pipelinesの「セルフミューテーション」でパイプライン自身もgit push対象にする",
-          "link": "https://qiita.com/caymezon/items/6915fb4c0ea38acb44f2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-26T12:10:25",
-          "excerpt": "背景 ALB + EC2 + RDSの3層構成をCDK Pipelinesで CI/CD化するハンズオンをやりました。…"
-        },
-        {
-          "title": "CIが自分のデプロイ権限を消した",
-          "link": "https://zenn.dev/miyakona/articles/deploy-identity-outside-target-stack",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-26T10:19:32",
-          "excerpt": "静的サイトを手元からAWS CDKでデプロイしていました。変更のたびに同じコマンドを実行するより、既定ブランチへマージしたらCIが反映する方が、手順の抜けを減らせます。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【早期特典〆切は本日！】みずほFGのAI活用、東レのAI駆動開発、三菱重工業の内製開発組織",
-      "link": "https://codezine.jp/article/detail/29805",
-      "source": "CodeZine",
-      "published": "2026-09-27T04:00:00",
-      "excerpt": "【早期特典〆切は本日！】みずほFGのAI活用、東レのAI駆動開発、三菱重工業の内製開発組織"
-    },
-    {
-      "title": "もし私たちがお互いを助けるために立ち止まらなかったら、私たちはどうなってしまうでしょうか？",
-      "link": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-27T03:20:46",
-      "excerpt": "記事の URL: https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/ コメント URL: https://news.…"
-    },
-    {
-      "title": "2026年9月27日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-      "link": "https://qiita.com/ennagara128/items/be4211214a6852cfe503",
+      "title": "【登壇レポート】「JAWS-UG 栃木 オフライン # 10 -秋の登壇祭り-」 で1人アドミンしてきました",
+      "link": "https://qiita.com/yosuke-suzuki/items/ee49363cc0e75ff5e940",
       "source": "Qiita AWSタグ",
-      "published": "2026-09-27T02:42:51",
-      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
+      "published": "2026-09-27T11:05:52",
+      "excerpt": "はじめに 2026年9月26日 栃木県小山市で開催された「JAWS-UG 栃木 オフライン # 10 -秋の登壇祭り-」にて、登壇させていただきました。…"
     },
     {
-      "title": "イエメンの大きさはどれくらいですか？ (2024年)",
-      "link": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
+      "title": "アップルは30年前にコープランドを埋葬した。失敗した OS がブラウザで起動するようになりました",
+      "link": "https://www.theregister.com/os-platforms/2026/09/27/apple-buried-copland-30-years-ago-now-the-failed-os-boots-in-a-browser/5299201",
+      "source": "The Register（英語）",
+      "published": "2026-09-27T10:30:00",
+      "excerpt": "最終的な開発者向けビルドは、NeXT のために放棄された将来のクパチーノを垣間見ることができます"
+    },
+    {
+      "title": "HN を表示: LightCloud – ファイル システムのように構成されたクラウド コンソール",
+      "link": "https://www.light-cloud.com/",
       "source": "Hacker News（英語）",
-      "published": "2026-09-27T02:40:26",
-      "excerpt": "記事の URL: https://theborys.substack.com/p/what-is-the-size-of-yemen コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-09-27T09:45:15",
+      "excerpt": "HN さん、Light Cloud は、組織の単位がフォルダーであるホスティング プラットフォームです。…"
+    },
+    {
+      "title": "大きな AI のコンテンツの問題: 仕事を引き受けて、お金を確保する",
+      "link": "https://www.theregister.com/columnists/2026/09/27/big-ais-content-problem-take-the-work-keep-the-money/5299007",
+      "source": "The Register（英語）",
+      "published": "2026-09-27T09:35:00",
+      "excerpt": "AI がどのようにビジネスを行うかについて学べば学ぶほど、AI はより不公平に見えます"
     }
   ]
 }
