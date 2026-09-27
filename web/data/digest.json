@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-09-27T11:08:42",
+  "generated_at": "2026-09-27T15:42:37",
   "window_hours": 24,
-  "total": 87,
+  "total": 90,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が14件。記事の URL: https://arxiv.org/abs/2609.25021 コメント URL: https://news.ycombinator.com/item?id=49865343 ポイント: 14 コメント数: 0",
+      "summary": "生成AIの新着が16件。Docker社はAIエージェント向けのサンドボックス環境をクラウド上で提供する「Docker Cloud Sandboxes」を発表しました。同社はすでにローカルで動作するサンドボックス環境の「Docker Sandboxes」を今年（2.…",
       "articles": [
         {
-          "title": "「言語モデルとして」: チャット テンプレート スイッチ LLM 自己参照音声",
-          "link": "https://arxiv.org/abs/2609.25021",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-27T10:26:25",
-          "excerpt": "記事の URL: https://arxiv.org/abs/2609.25021 コメント URL: https://news.ycombinator.com/item?id=49865343 ポイント: 14 コメント数: 0"
+          "title": "「Docker Cloud Snadboxes」発表、AIエージェント向けサンドボックスをローカルとクラウド間で自由に移動可能に",
+          "link": "https://www.publickey1.jp/blog/26/docker_cloud_snadboxesai.html",
+          "source": "Publickey",
+          "published": "2026-09-27T16:02:18",
+          "excerpt": "Docker社はAIエージェント向けのサンドボックス環境をクラウド上で提供する「Docker Cloud Sandboxes」を発表しました。同社はすでにローカルで動作するサンドボックス環境の「Docker Sandboxes」を今年（2.…"
         },
         {
-          "title": "OpenAIはハッカーニュースに掲載される可能性のある「光学」を恐れた",
-          "link": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-27T06:19:33",
-          "excerpt": "記事の URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ コメント URL: https://news.…"
-        },
-        {
-          "title": "VS Code の Claude Code 拡張機能、なんか更新多い…？ | ヘッドウォータースのフィード",
-          "link": "https://zenn.dev/headwaters/articles/15875671106c54",
+          "title": "Claude Codeで作る「自分専用ニュースウィジェット」——費用ゼロで個人開発してみた | 電通総研 テックブログ",
+          "link": "https://tech.dentsusoken.com/entry/2026/09/28/Claude_Code%E3%81%A7%E4%BD%9C%E3%82%8B%E3%80%8C%E8%87%AA%E5%88%86%E5%B0%82%E7%94%A8%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%80%8D%E2%80%94%E2%80%94",
           "source": "企業テックブログまとめ",
-          "published": "2026-09-27T04:48:33",
-          "excerpt": "VS Code を開くと Claude Code の拡張機能が更新されている。翌朝に開くとまた更新されている。さすがに多くないかと思って、実際に数えた。…"
+          "published": "2026-09-27T15:00:00",
+          "excerpt": "はじめまして。エンタープライズ会計ソリューション本部 第2ユニット 製品開発部の段下 幸太郎です。現在は2年目社員として、会計ソリューションアプリの基盤開発に従事しています。…"
         },
         {
-          "title": "[プレビュー] AWS Well-Architected Agent が登場したので触ってみた",
-          "link": "https://dev.classmethod.jp/articles/aws-wa-agent-preview/",
+          "title": "Strands Agentsに「Strands harness」が追加されました！",
+          "link": "https://dev.classmethod.jp/articles/strands-harness-vs-agent/",
           "source": "DevelopersIO",
-          "published": "2026-09-27T02:29:32",
-          "excerpt": "自作しようとしてたやつ公式が出してきたパターン"
+          "published": "2026-09-27T14:11:49",
+          "excerpt": "Strands Agentsから新しく「Strands harness」が公開されました！今までのSDKと何が違うんでしょうか・・・！実際に触ってみました！Strands CLIのカエルが可愛いです！"
+        },
+        {
+          "title": "Amazon Bedrock で実現する AWS 最新情報の自動翻訳及び要約・配信システム",
+          "link": "https://qiita.com/kiwi-dev/items/168b7cefc11e2b99abd9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-27T13:34:06",
+          "excerpt": "どんなシステム？AWS What's Newで公開される情報を翻訳、要約してWeb公開、希望の方にはメールで配信するWebシステムです。https://awsnews.kiwi-cloud.com/ なんで作ったの？…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が6件。はじめに S3をメインのファイルストレージとして使っていたが、Cloudflare R2という選択肢を調べた。「データ転送費用がゼロ」という言葉が気になっていた。…",
+      "summary": "クラウドの新着が7件。プレイスメントグループとは AWSのデータセンター内で、複数のEC2インスタンスが物理的にどのサーバー上で動くかを制御する機能です。この機能を設定することによって、それぞれのインスタンスの通信性能や耐障害性を向上させることができます！…",
       "articles": [
+        {
+          "title": "【AWS】 EC2 プレイスメントグループについてざっくり解説してみた",
+          "link": "https://qiita.com/takuwankirai/items/d746b58923e58e0abc7e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-27T14:56:52",
+          "excerpt": "プレイスメントグループとは AWSのデータセンター内で、複数のEC2インスタンスが物理的にどのサーバー上で動くかを制御する機能です。この機能を設定することによって、それぞれのインスタンスの通信性能や耐障害性を向上させることができます！…"
+        },
         {
           "title": "Cloudflare R2 vs AWS S3 — データ転送費用ゼロの恩恵を確かめた",
           "link": "https://qiita.com/cozy_666_tech/items/c8d5579e922886204c48",
@@ -59,25 +66,18 @@
           "excerpt": "AWS Security HubのCloudFront.16コントロール（Lambda関数URLオリジン向けオリジンアクセスコントロール設定）について、修復手順をご紹介します。"
         },
         {
-          "title": "脱VMwareで顕在化した「ITインフラを任せられる人」不足――“AI頼み”で本当に解決できるのか",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/27/news004.html",
-          "source": "@IT",
-          "published": "2026-09-26T23:00:00",
-          "excerpt": "ITインフラ人材の不足は、単に人数を増やせば解消できるものではありません。対策としてAIに期待する向きもありますが、AIを使うこと自体にも実は難しさがあります。では、どうすればよいのでしょうか。"
-        },
-        {
-          "title": "AWS CloudTrailで操作履歴を調査する方法｜EC2・RDS・ECSのイベント名一覧",
-          "link": "https://qiita.com/namnam3225/items/4193d19b0d97a0f78682",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-26T18:38:08",
-          "excerpt": "AWS CloudTrailで操作履歴を調査する方法｜EC2・RDS・ECSのイベント名一覧 AWSを運用していると、 「EC2が停止しているけど、誰が止めた？」 「RDSの設定が変更されているけど、いつ変更された？…"
+          "title": "CloudFormation 管理下の RDS を Step Functions で自動復旧する",
+          "link": "https://zenn.dev/y___u/articles/cfn-rds-auto-recovery",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-27T02:19:27",
+          "excerpt": "はじめに CloudFormation で管理している RDS を復旧する場合、復旧後も CloudFormation 管理を維持しようとすると少しめんどくさいです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。Cursor、デプロイ監視とセキュリティレビューを担うボット2種をリリース",
+      "summary": "セキュリティの新着が4件。Cursor、デプロイ監視とセキュリティレビューを担うボット2種をリリース",
       "articles": [
         {
           "title": "Cursor、デプロイ監視とセキュリティレビューを担うボット2種をリリース",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。https://youtu.be/pq_8N6-IJ68 この記事は、同じ内容で作ったYouTubeハンズオン動画「DynamoDBハンズオン入門」に合わせて用意したテキスト版です。…",
+      "summary": "データ分析の新着が4件。Amazon DynamoDB Streams はじめに 前回は、Kiro Roasters の EC 注文処理パイプライン（DynamoDB Strea...",
       "articles": [
+        {
+          "title": "【DynamoDB Streams】イベント駆動アプリに負荷をかけ続けたらどうなるか確かめてみる",
+          "link": "https://qiita.com/jus1730/items/fd51262b0ceadfe8f122",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-27T14:34:26",
+          "excerpt": "Amazon DynamoDB Streams はじめに 前回は、Kiro Roasters の EC 注文処理パイプライン（DynamoDB Strea..."
+        },
         {
           "title": "初めてのDynamoDBハンズオン入門: キーだけで小さく始めるNoSQLを手を動かして理解する",
           "link": "https://zenn.dev/bamtech1904/articles/20260925_dynamodb-basics-handson-intro",
@@ -175,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "【登壇レポート】「JAWS-UG 栃木 オフライン # 10 -秋の登壇祭り-」 で1人アドミンしてきました",
-      "link": "https://qiita.com/yosuke-suzuki/items/ee49363cc0e75ff5e940",
-      "source": "Qiita AWSタグ",
-      "published": "2026-09-27T11:05:52",
-      "excerpt": "はじめに 2026年9月26日 栃木県小山市で開催された「JAWS-UG 栃木 オフライン # 10 -秋の登壇祭り-」にて、登壇させていただきました。…"
+      "title": "マイクロソフト、企業内アプリの実行基盤「Copilot Managed Runtime」プレビュー公開。Microsoft 365と同じテナント内でコード実行、管理者による集中管理も",
+      "link": "https://www.publickey1.jp/blog/26/copilot_managed_runtimemicrosoft_365.html",
+      "source": "Publickey",
+      "published": "2026-09-27T15:59:50",
+      "excerpt": "マイクロソフトは、AIコーディングエージェントのMicrosoft Copilotなどで開発した社内アプリケーションを実行するためのセキュアな基盤「Copilot Managed Runtime」をパブリックプレビューとして公開しました。.…"
     },
     {
-      "title": "アップルは30年前にコープランドを埋葬した。失敗した OS がブラウザで起動するようになりました",
-      "link": "https://www.theregister.com/os-platforms/2026/09/27/apple-buried-copland-30-years-ago-now-the-failed-os-boots-in-a-browser/5299201",
-      "source": "The Register（英語）",
-      "published": "2026-09-27T10:30:00",
-      "excerpt": "最終的な開発者向けビルドは、NeXT のために放棄された将来のクパチーノを垣間見ることができます"
+      "title": "ゼンハイザー Momentum 5 レビュー: 素晴らしいサウンド、驚異的なバッテリー寿命、そしてほとんど妥協なし",
+      "link": "https://techcrunch.com/2026/09/27/sennheiser-momentum-5-review-great-sound-incredible-battery-life-and-few-compromises/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-09-27T15:00:00",
+      "excerpt": "私はここ数週間ゼンハイザー Momentum 5 を使い、このペアが実際に優れているかどうかを判断するために、音質やノイズキャンセリングから快適性やバッテリー寿命に至るまであらゆるものをテストしました。"
     },
     {
-      "title": "HN を表示: LightCloud – ファイル システムのように構成されたクラウド コンソール",
-      "link": "https://www.light-cloud.com/",
+      "title": "Cognito で AdminInitiateAuth を使ったときの SSO を試してみた",
+      "link": "https://dev.classmethod.jp/articles/slug-aws-cognito-sso-oidc-adminInitiateAuth/",
+      "source": "DevelopersIO",
+      "published": "2026-09-27T14:57:14",
+      "excerpt": "Cognito ユーザープールを認証基盤にした Web アプリが AdminInitiateAuth でログインしている場合に、別アプリへ OIDC でログインするとどうなるかを検証しました。"
+    },
+    {
+      "title": "「彼らにはユーザーに対する配慮義務という概念がありませんでした。」",
+      "link": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
       "source": "Hacker News（英語）",
-      "published": "2026-09-27T09:45:15",
-      "excerpt": "HN さん、Light Cloud は、組織の単位がフォルダーであるホスティング プラットフォームです。…"
-    },
-    {
-      "title": "大きな AI のコンテンツの問題: 仕事を引き受けて、お金を確保する",
-      "link": "https://www.theregister.com/columnists/2026/09/27/big-ais-content-problem-take-the-work-keep-the-money/5299007",
-      "source": "The Register（英語）",
-      "published": "2026-09-27T09:35:00",
-      "excerpt": "AI がどのようにビジネスを行うかについて学べば学ぶほど、AI はより不公平に見えます"
+      "published": "2026-09-27T14:45:07",
+      "excerpt": "記事の URL: https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/ コメント URL: https://news.…"
     }
   ]
 }
