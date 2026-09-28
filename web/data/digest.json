@@ -1,112 +1,133 @@
 {
-  "generated_at": "2026-09-27T22:24:21",
+  "generated_at": "2026-09-28T00:58:07",
   "window_hours": 24,
-  "total": 91,
+  "total": 116,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。Google、Android Studioの新機能「Bring Your Own Agent」（BYOA）を発表",
+      "summary": "生成AIの新着が28件。はじめに 前回は、SageMaker Model Registry について整理しました。Model Registry は、学習済みモデルをバージョン管理し、評価結果や承認状態と一緒に管理するための仕組みでした。…",
       "articles": [
         {
-          "title": "Google、Android Studioの新機能「Bring Your Own Agent」（BYOA）を発表",
-          "link": "https://codezine.jp/article/detail/29803",
+          "title": "【簡単AWS MLA】【初心者向け】Day 16：SageMaker Clarify を整理する — Bias / Explainability / Feature Importance",
+          "link": "https://qiita.com/MetaYuan/items/d1892f30bedb00b2c94e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-28T00:13:37",
+          "excerpt": "はじめに 前回は、SageMaker Model Registry について整理しました。Model Registry は、学習済みモデルをバージョン管理し、評価結果や承認状態と一緒に管理するための仕組みでした。…"
+        },
+        {
+          "title": "AIエージェントに権限をどこまで渡す?　Indirect Prompt Injectionに備える「できること・届く範囲・鍵」設計術",
+          "link": "https://codezine.jp/article/detail/29701",
           "source": "CodeZine",
-          "published": "2026-09-27T22:00:00",
-          "excerpt": "Google、Android Studioの新機能「Bring Your Own Agent」（BYOA）を発表"
+          "published": "2026-09-28T00:00:00",
+          "excerpt": "AIエージェントに仕事を任せるほど、渡さなければならない権限は広がっていく。自律的に動いてほしいという期待と、セキュリティやガバナンスへの不安、この相反する要求にどう向き合うか。…"
         },
         {
-          "title": "SNL 週末最新情報: Anthropic CEO のダリオ・アモデイ氏が人類に対する AI の脅威について語る [ビデオ]",
-          "link": "https://www.youtube.com/watch?v=-Nvne3LzBls",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-27T17:32:02",
-          "excerpt": "記事の URL: https://www.youtube.com/watch?v=-Nvne3LzBls コメント URL: https://news.ycombinator.com/item?…"
+          "title": "QA テストケースの AI 生成をスキル化し、精度検証から実運用まで行った話 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
+          "link": "https://developers.cyberagent.co.jp/blog/archives/66091/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-27T23:00:47",
+          "excerpt": "QA テストケースの AI 生成をスキル化し、精度検証から実運用まで行った話 目次 はじめに 結論 ..."
         },
         {
-          "title": "AWS DevOps AgentをClaude Codeから使えるようにセットアップしてみた（Agent Toolkit for AWS）",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-claude-code-agent-toolkit-setup/",
-          "source": "DevelopersIO",
-          "published": "2026-09-27T16:21:24",
-          "excerpt": "AWS DevOps Agentのユーザーガイドにある「エージェントのセットアップ」からClaude Codeをセットアップし、プラグインでDevOps Agentに接続して調査を実行してみました。"
-        },
-        {
-          "title": "「不正な」AI エージェントは存在しません",
-          "link": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-27T16:19:46",
-          "excerpt": "記事の URL: https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents コメント URL: https://news.ycombinator.com/item?…"
+          "title": "Claude CodeのSkillで複数案件を回すために出力先を固定するディレクトリ標準化をやってみた | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/multi-project-directory-skill",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-27T23:00:00",
+          "excerpt": "AIエージェントと働く上で、ディレクトリ設計について改めて考えてみました。プロジェクトをまたいでも同じようにタスクを進めるためのスキルの書き方も記載しています。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。はじめに こんにちは！AWS でソリューションアーキテクトをしている齋藤 拓巳です。…",
+      "summary": "クラウドの新着が10件。AWS BackupでEC2をリストアするとき、コンソールではプライベートIPを指定できません。AWS CLIを使い、別のAZへプライベートIPを指定してリストアする手順を紹介します。",
       "articles": [
+        {
+          "title": "AWS Backupの復旧ポイントからEC2を別のAZへ、プライベートIPを指定してリストアする",
+          "link": "https://dev.classmethod.jp/articles/202609-aws-backup-ec2-restore-to-another-az/",
+          "source": "DevelopersIO",
+          "published": "2026-09-28T00:30:28",
+          "excerpt": "AWS BackupでEC2をリストアするとき、コンソールではプライベートIPを指定できません。AWS CLIを使い、別のAZへプライベートIPを指定してリストアする手順を紹介します。"
+        },
+        {
+          "title": "strongSwan を使って AWS VPC 間で Site-to-Site VPN を構築してみた",
+          "link": "https://dev.classmethod.jp/articles/strongswan-site-to-site-vpn/",
+          "source": "DevelopersIO",
+          "published": "2026-09-28T00:19:45",
+          "excerpt": "strongSwan初めて使った"
+        },
+        {
+          "title": "Aurora MySQL の PITR 手順",
+          "link": "https://dev.classmethod.jp/articles/aurora-mysql-pitr-procedure/",
+          "source": "DevelopersIO",
+          "published": "2026-09-27T23:17:27",
+          "excerpt": "AWS Aurora MySQLのポイントインタイムリカバリ（PITR）の手順を解説。リーダーインスタンス自動作成、設定引き継ぎ、認証情報管理など、復元時の重要なポイントと検証結果をまとめました。"
+        },
         {
           "title": "Lambda MicroVMs で AI コーディングエージェントのサンドボックス環境を整備する",
           "link": "https://zenn.dev/aws_japan/articles/lambda-microvms-sandbox-mcp-for-coding-agents",
           "source": "Zenn AWSトピック",
           "published": "2026-09-27T15:49:59",
           "excerpt": "はじめに こんにちは！AWS でソリューションアーキテクトをしている齋藤 拓巳です。…"
-        },
-        {
-          "title": "【AWS】 EC2 プレイスメントグループについてざっくり解説してみた",
-          "link": "https://qiita.com/takuwankirai/items/d746b58923e58e0abc7e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-27T14:56:52",
-          "excerpt": "プレイスメントグループとは AWSのデータセンター内で、複数のEC2インスタンスが物理的にどのサーバー上で動くかを制御する機能です。この機能を設定することによって、それぞれのインスタンスの通信性能や耐障害性を向上させることができます！…"
-        },
-        {
-          "title": "AWSのサーバーレス環境を構築",
-          "link": "https://zenn.dev/uttnaoki/articles/48e2e4e4a0d10f",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-27T13:01:26",
-          "excerpt": "インフラの勉強をしたい 私の現在の仕事ではモバイル側を開発することが多く、インフラ側を設計・構築する機会がないため、インフラの勉強をしたいと思いました。学習方針 今回はAWSでインフラ構築の勉強をしようと思います。…"
-        },
-        {
-          "title": "【ハンズオン：#5-6】AWSを実際に操作してみた(RDS、ELB、AutoScaling)",
-          "link": "https://zenn.dev/hitakaha/articles/5d00be7b9207dd",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-27T11:49:12",
-          "excerpt": "はじめに こんにちは、hitakahaです。引き続きハンズオンを進めているので、今回も作業の振り返りとしてアウトプットしていきます。ハンズオン講座で触れたAWSの主要なマネージドサービス一覧は以下の通りです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が3件。こんにちは、sawa です。最近 Terraform を学習しているのですが、AWS リソースを定義する中で IAM や権限周りの概念に混乱することがありました。…",
+      "summary": "セキュリティの新着が6件。漏えいした可能性があるのは、会員と退会済みの会員の氏名、住所、生年月日、電話番号、メールアドレス、会員番号、免許情報、本人確認書類、法人会員情報、連携サービスIDなど。",
       "articles": [
+        {
+          "title": "タイムズカー、会員の免許情報や本人確認書類が漏えいの可能性　不正アクセスで",
+          "link": "https://www.itmedia.co.jp/news/article/2609/28/2000001780/",
+          "source": "ITmedia NEWS",
+          "published": "2026-09-28T00:28:15",
+          "excerpt": "漏えいした可能性があるのは、会員と退会済みの会員の氏名、住所、生年月日、電話番号、メールアドレス、会員番号、免許情報、本人確認書類、法人会員情報、連携サービスIDなど。"
+        },
+        {
+          "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-09-28)",
+          "link": "https://qiita.com/iestudy/items/f95ffb8051a5996328a4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-28T00:01:15",
+          "excerpt": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-09-28) GitHub/GCPセキュリティアップデート解析（2026年版） 本記事では、GitHub Security BlogおよびGoogle Cloud（G…"
+        },
+        {
+          "title": "東京メトロ、不正アクセスで会員メアド約5万9000件漏えいのおそれ　海外からか",
+          "link": "https://www.itmedia.co.jp/news/article/2609/28/2000001778/",
+          "source": "ITmedia NEWS",
+          "published": "2026-09-27T23:46:53",
+          "excerpt": "メトロを装った不審なメールに注意するよう呼びかけている。"
+        },
         {
           "title": "【AWS】IAM のロールとポリシーが混乱したので整理してみた",
           "link": "https://zenn.dev/sawa_tech/articles/18e0bb6147d8b5",
           "source": "Zenn AWSトピック",
           "published": "2026-09-27T14:20:58",
           "excerpt": "こんにちは、sawa です。最近 Terraform を学習しているのですが、AWS リソースを定義する中で IAM や権限周りの概念に混乱することがありました。…"
-        },
-        {
-          "title": "Cursor、デプロイ監視とセキュリティレビューを担うボット2種をリリース",
-          "link": "https://codezine.jp/article/detail/29812",
-          "source": "CodeZine",
-          "published": "2026-09-27T08:00:00",
-          "excerpt": "Cursor、デプロイ監視とセキュリティレビューを担うボット2種をリリース"
-        },
-        {
-          "title": "【Security Hub修復手順】[CloudFront.16] CloudFront ディストリビューションでは、Lambda 関数 URL オリジンのオリジンアクセスコントロールを使用する必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-cloudfront-16/",
-          "source": "DevelopersIO",
-          "published": "2026-09-27T02:36:28",
-          "excerpt": "AWS Security HubのCloudFront.16コントロール（Lambda関数URLオリジン向けオリジンアクセスコントロール設定）について、修復手順をご紹介します。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。記事の URL: https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11 コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "データ分析の新着が6件。はじめに 前回は、SageMaker Model Registry について整理しました。Model Registry は、学習済みモデルをバージョン管理し、評価結果や承認状態と一緒に管理するための仕組みでした。…",
       "articles": [
+        {
+          "title": "【簡単AWS MLA】【初心者向け】Day 16：SageMaker Clarify を整理する — Bias / Explainability / Feature Importance",
+          "link": "https://qiita.com/MetaYuan/items/d1892f30bedb00b2c94e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-28T00:13:37",
+          "excerpt": "はじめに 前回は、SageMaker Model Registry について整理しました。Model Registry は、学習済みモデルをバージョン管理し、評価結果や承認状態と一緒に管理するための仕組みでした。…"
+        },
+        {
+          "title": "職種の境界が溶けた先、プロダクトマネージャーはどこへ行くのか──ログラス・Ubie・RightTouchが出した3つの答え",
+          "link": "https://codezine.jp/article/detail/29771",
+          "source": "CodeZine",
+          "published": "2026-09-27T23:00:00",
+          "excerpt": "AIによって「作る」コストが下がり、プロダクトづくりの職種の境界は溶けていく。8月31日にログラスが開いた公開イベントで、登壇した3社はこの前提を共有していた。…"
+        },
         {
           "title": "「ENIAC には BIOS がありましたか?」に対する Alan Kay の答え",
           "link": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
@@ -120,87 +141,73 @@
           "source": "Qiita AWSタグ",
           "published": "2026-09-27T14:34:26",
           "excerpt": "Amazon DynamoDB Streams はじめに 前回は、Kiro Roasters の EC 注文処理パイプライン（DynamoDB Strea..."
-        },
-        {
-          "title": "初めてのDynamoDBハンズオン入門: キーだけで小さく始めるNoSQLを手を動かして理解する",
-          "link": "https://zenn.dev/bamtech1904/articles/20260925_dynamodb-basics-handson-intro",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-27T08:34:20",
-          "excerpt": "https://youtu.be/pq_8N6-IJ68 この記事は、同じ内容で作ったYouTubeハンズオン動画「DynamoDBハンズオン入門」に合わせて用意したテキスト版です。…"
-        },
-        {
-          "title": "【初心者向け】Amazon Kinesis Data Streams 入門！完全ガイド",
-          "link": "https://zenn.dev/issy/articles/zenn-kinesisdatastreams-overview",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-27T02:21:09",
-          "excerpt": "Amazon Kinesis Data Streams ☘️ はじめに 本ページは、AWS に関する個人の勉強および勉強会で使用することを目的に、AWS ドキュメントなどを参照し作成しておりますが、記載の誤り等が含まれる場合がございます。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。GitHub、GitHub Enterprise Cloudの「proof of presence」機能のパブリックプレビュー",
+      "summary": "開発ツールの新着が13件。クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-09-28) GitHub/GCPセキュリティアップデート解析（2026年版） 本記事では、GitHub Security BlogおよびGoogle Cloud（G…",
       "articles": [
         {
-          "title": "GitHub、GitHub Enterprise Cloudの「proof of presence」機能のパブリックプレビュー",
-          "link": "https://codezine.jp/article/detail/29802",
+          "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-09-28)",
+          "link": "https://qiita.com/iestudy/items/f95ffb8051a5996328a4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-28T00:01:15",
+          "excerpt": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-09-28) GitHub/GCPセキュリティアップデート解析（2026年版） 本記事では、GitHub Security BlogおよびGoogle Cloud（G…"
+        },
+        {
+          "title": "Obsidian Web Clipper で保存時にフォルダ仕分け・タグ付与・要約まで自動化する",
+          "link": "https://dev.classmethod.jp/articles/obsidian-web-clipper-auto-folder-tag-summary/",
+          "source": "DevelopersIO",
+          "published": "2026-09-28T00:00:11",
+          "excerpt": "Obsidian Web Clipperのテンプレート設定で、URLによるサイト別フォルダ振り分けとAIによるタグ付け・要約を自動化してみました。設定手順と動作確認をご紹介します。"
+        },
+        {
+          "title": "Claude CodeのSkillで複数案件を回すために出力先を固定するディレクトリ標準化をやってみた | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/multi-project-directory-skill",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-27T23:00:00",
+          "excerpt": "AIエージェントと働く上で、ディレクトリ設計について改めて考えてみました。プロジェクトをまたいでも同じようにタスクを進めるためのスキルの書き方も記載しています。"
+        },
+        {
+          "title": "GitHub Copilot、「GPT-6 Sol」と「GPT-6 Luna」が利用可能に",
+          "link": "https://codezine.jp/article/detail/29813",
           "source": "CodeZine",
-          "published": "2026-09-27T22:00:00",
-          "excerpt": "GitHub、GitHub Enterprise Cloudの「proof of presence」機能のパブリックプレビュー"
-        },
-        {
-          "title": "「ENIAC には BIOS がありましたか?」に対する Alan Kay の答え",
-          "link": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
-          "source": "Hacker News（英語）",
-          "published": "2026-09-27T19:37:05",
-          "excerpt": "記事の URL: https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11 コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Lambda MicroVMs で AI コーディングエージェントのサンドボックス環境を整備する",
-          "link": "https://zenn.dev/aws_japan/articles/lambda-microvms-sandbox-mcp-for-coding-agents",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-27T15:49:59",
-          "excerpt": "はじめに こんにちは！AWS でソリューションアーキテクトをしている齋藤 拓巳です。…"
-        },
-        {
-          "title": "draw.io で AWS の Web 3層構成図を作る — 公式アイコン・プロトコル注釈・CLI で PNG 出力まで",
-          "link": "https://zenn.dev/pero_nw0125/articles/drawio-aws-3tier-20260926",
-          "source": "Zenn AWSトピック",
-          "published": "2026-09-27T09:31:05",
-          "excerpt": "この記事でやること この記事では、AWS の Web 3層構成図を、AI（Kiro）に指示しながら draw.io の形式で作り、公式アイコンを使って、最後は高解像度の PNG に書き出すまでの流れを、実際の作業ログに沿って追います。…"
+          "published": "2026-09-27T23:00:00",
+          "excerpt": "GitHub Copilot、「GPT-6 Sol」と「GPT-6 Luna」が利用可能に"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ITエンジニア注目トレンドを総まとめ！週間ニュースランキングTOP10【9/18～9/24】",
-      "link": "https://codezine.jp/article/detail/29797",
-      "source": "CodeZine",
-      "published": "2026-09-27T22:00:00",
-      "excerpt": "毎日更新される、CodeZine、DeveloperZine、ProductZineの最新ニュースから、注目を集めたトピックスを紹介する本ランキング。今回は2026年9月18日～9月24日までの人気ランキングを発表します。"
-    },
-    {
-      "title": "トランプ大統領と習主席、AIを「超知能（SI）」と呼ぶことで合意　「米中SI対話」も創設",
-      "link": "https://www.itmedia.co.jp/news/article/2609/28/2000001776/",
+      "title": "京王グループにランサム攻撃、京王ストアの決済やホテル予約などに影響……鉄道は影響なし",
+      "link": "https://www.itmedia.co.jp/news/article/2609/28/2000001779/",
       "source": "ITmedia NEWS",
-      "published": "2026-09-27T21:38:20",
-      "excerpt": "米連邦政府は、習近平国家主席の国賓訪問に関するファクトシートを公開した。首脳会談でAIを「超知能（SI）」と呼ぶことで合意し、リスク対応の定期対話や連絡チャネルを創設した。公式晩餐会にはマスク氏やザッカーバーグ氏らIT首脳が集結した。"
+      "published": "2026-09-28T00:11:20",
+      "excerpt": "京王ストアでのカード決済やポイント付与、京王プラザホテルの問い合わせフォーム、京王プレッソインの予約、京王バスの定期券販売などに影響。"
     },
     {
-      "title": "ルナーターミネーターのパラドックス",
-      "link": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-09-27T21:06:17",
-      "excerpt": "記事の URL: https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html コメント URL: https://news.…"
+      "title": "AIで仕事は速くなった。なぜ忙しさは減らないのか　#2",
+      "link": "https://codezine.jp/article/detail/29769",
+      "source": "CodeZine",
+      "published": "2026-09-27T23:00:00",
+      "excerpt": "「早く終わらせれば、その分楽になる」 そう信じて作業を速くしても、空いた時間には次の仕事が入り込み、忙しさは変わりません。本連載は、どれだけ努力しても同じ結果になる構造をシステム思考で読み解きます。…"
     },
     {
-      "title": "アンスロピックのCEOはトランプ大統領と夕食をとろうとしている",
-      "link": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-09-27T20:34:28",
-      "excerpt": "ダリオ・アモデイ氏とドナルド・トランプ氏の一対一の会談はこれが初めてとなる。"
+      "title": "「AIがSaaSを消す」は根本的な誤解　IDCが示す“本当に起こる変化”とは",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/28/news036.html",
+      "source": "@IT",
+      "published": "2026-09-27T23:00:00",
+      "excerpt": "IDCは、AIエージェントの普及に伴う「SaaS終焉論」を分析したレポートを公開した。AIはSaaSを代替するのではなくデータモデルを拡張すると指摘。市場ごとの浸透格差や成果型課金の急増など、真の構造変化を解説した。"
+    },
+    {
+      "title": "AIを一番使う最多工程は「情報収集」で53.2％、では「コーディング」は？　あなたの知らない開発現場の実態",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/28/news024.html",
+      "source": "@IT",
+      "published": "2026-09-27T23:00:00",
+      "excerpt": "ファインディは、ソフトウェア開発組織を対象にしたAI活用の市場調査結果を公表した。AIが使われている工程は情報収集・技術調査が53.2％で最も多かった。"
     }
   ]
 }
