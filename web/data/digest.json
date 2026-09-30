@@ -1,119 +1,126 @@
 {
-  "generated_at": "2026-09-30T01:43:37",
+  "generated_at": "2026-09-30T07:39:15",
   "window_hours": 24,
-  "total": 203,
+  "total": 202,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が57件。9月10日、Snowflake World Tour Tokyoの基調講演でSnowflake EVPのクリスチャン・クライナマン氏は、「エージェンティック・エンタープライズ」という言葉で、あらゆる組織が目指すべき姿を語った。…",
+      "summary": "生成AIの新着が55件。Claude Codeのサンドボックスを有効にしたところ、1Password CLIプラグイン経由の `gh` が「1Passwordアプリに接続できない」というエラーで失敗するようになりました。…",
       "articles": [
         {
-          "title": "SnowflakeのAIエージェントが体現する「エージェンティック・エンタープライズ」",
-          "link": "https://codezine.jp/article/detail/29697",
-          "source": "CodeZine",
-          "published": "2026-09-30T01:00:00",
-          "excerpt": "9月10日、Snowflake World Tour Tokyoの基調講演でSnowflake EVPのクリスチャン・クライナマン氏は、「エージェンティック・エンタープライズ」という言葉で、あらゆる組織が目指すべき姿を語った。…"
-        },
-        {
-          "title": "GPT-2で追うprefill・decodeとKVキャッシュ",
-          "link": "https://dev.classmethod.jp/articles/shuntaka-gpt2-prefill-decode-kv-cache/",
+          "title": "Claude Codeサンドボックスを設定したら、1Password経由のgh/gitが動かなくなった話",
+          "link": "https://dev.classmethod.jp/articles/claude-code-sandbox-1password-gh/",
           "source": "DevelopersIO",
-          "published": "2026-09-30T00:33:08",
-          "excerpt": "LLMの推論処理を「prefill」と「decode」に分け、Attentionの計算を追いながらKVキャッシュの仕組みを詳しく解説します。…"
+          "published": "2026-09-30T07:22:58",
+          "excerpt": "Claude Codeのサンドボックスを有効にしたところ、1Password CLIプラグイン経由の `gh` が「1Passwordアプリに接続できない」というエラーで失敗するようになりました。…"
         },
         {
-          "title": "【開催報告】組み込みソフトウェア開発でも AI エージェントは活用できる ─ 日立産業制御ソリューションズ様とのワークショップ",
-          "link": "https://aws.amazon.com/jp/blogs/news/hiics-ai-sdlc-workshop/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-09-30T00:00:45",
-          "excerpt": "長期にわたって保守される組み込みソフトウェアの開発でも、AI エージェントは活用できます。…"
+          "title": "Postman、AIエージェントの統制基盤「Fabric Gateway」の一般提供を開始",
+          "link": "https://codezine.jp/article/detail/29865",
+          "source": "CodeZine",
+          "published": "2026-09-30T06:45:00",
+          "excerpt": "Postman、AIエージェントの統制基盤「Fabric Gateway」の一般提供を開始"
         },
         {
-          "title": "オレのClaude Code作業環境、控えめにいって最高すぎる〜Stream Deckでherdrを操作、完了はずんだもんが読み上げ〜 | SIOS Tech Lab",
-          "link": "https://tech-lab.sios.jp/archives/54936",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-29T23:26:36",
-          "excerpt": "手元のボタンを見るだけで、どの Claude Code が作業中で、どれが確認待ちで、どれが終わったのかが一目で分かる。ボタンを押せば、そのターミナルに一発で飛べる。…"
+          "title": "「先月なんで請求上がったの？」をチャットで聞ける AWS FinOps Agent を試してみた",
+          "link": "https://dev.classmethod.jp/articles/try-aws-finops-agent-cost-inquiry/",
+          "source": "DevelopersIO",
+          "published": "2026-09-30T06:30:00",
+          "excerpt": "AWS コスト異常のアラート通知が来たけど、原因が分からない・・ そんな時に AI チャットへ自然言語で聞ける、AWS FinOps Agent（プレビュー版）の初期設定からコスト調査までを試してみました。"
+        },
+        {
+          "title": "VSCode + Session Manager + DevContainerで構築するAIエージェント向けAWS開発環境 | 株式会社エムニのフィード",
+          "link": "https://zenn.dev/emuni/articles/ai-agent-aws-dev-environment",
+          "source": "企業テックブログまとめ",
+          "published": "2026-09-30T06:00:50",
+          "excerpt": "コーディングエージェントを使った開発が当たり前になり、エージェントなしの開発に戻るのは難しくなりました。一方で、使い続ける中で次の課題が出てきました。オフライン環境では使えない。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。はじめに 普段の業務でAmazon RDS / Aurora（psql） へ接続する際に、AWS Systems Manager（SSM）のポートフォワーディング機能を利用しています。…",
+      "summary": "クラウドの新着が17件。コーディングエージェントを使った開発が当たり前になり、エージェントなしの開発に戻るのは難しくなりました。一方で、使い続ける中で次の課題が出てきました。オフライン環境では使えない。…",
       "articles": [
         {
-          "title": "AWS SSM ポートフォワーディングで踏み台サーバなしに RDS/Aurora へローカル接続する方法",
-          "link": "https://qiita.com/ryo_cresc/items/d60eaaafd60e847a5d38",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-30T01:27:42",
-          "excerpt": "はじめに 普段の業務でAmazon RDS / Aurora（psql） へ接続する際に、AWS Systems Manager（SSM）のポートフォワーディング機能を利用しています。…"
-        },
-        {
-          "title": "Amazon S3の「アカウントのリージョン名前空間」とは？バケット名の競合を解消する新機能を試してみた | Zenet Tech Blog",
-          "link": "https://media.zenet-web.co.jp/entry/2026/09/30/100950",
+          "title": "VSCode + Session Manager + DevContainerで構築するAIエージェント向けAWS開発環境 | 株式会社エムニのフィード",
+          "link": "https://zenn.dev/emuni/articles/ai-agent-aws-dev-environment",
           "source": "企業テックブログまとめ",
-          "published": "2026-09-30T01:09:50",
-          "excerpt": "従来のグローバル名前空間に加え、AWSアカウント＆リージョンに基づく新しい名前空間を利用可能に。マルチアカウント環境でのS3管理が簡便に。"
+          "published": "2026-09-30T06:00:50",
+          "excerpt": "コーディングエージェントを使った開発が当たり前になり、エージェントなしの開発に戻るのは難しくなりました。一方で、使い続ける中で次の課題が出てきました。オフライン環境では使えない。…"
         },
         {
-          "title": "PR： 自ら動き出すネットワーク　AIが求める次世代インフラとは",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/01/news002.html",
-          "source": "@IT",
-          "published": "2026-09-30T01:00:00",
-          "excerpt": "AI技術の進展は通信事業者に「決定論的な性能」「AIスケールによる自動化」「持続可能な収益化」の3つの課題を突き付けている。…"
+          "title": "[小ネタ] 日本語版Windows EC2のユーザーデータに日本語コメントを書いたら、スクリプトが1行も実行されなかった",
+          "link": "https://dev.classmethod.jp/articles/202609-windows-userdata-japanese-comment-parse-error/",
+          "source": "DevelopersIO",
+          "published": "2026-09-30T05:44:31",
+          "excerpt": "日本語版Windows EC2のユーザーデータで、PowerShellスクリプトに日本語コメントを書くと、スクリプトが1行も実行されないことがあります。エラーの調べ方と、ユーザーデータで取れる対策をまとめました。"
         },
         {
-          "title": "Amazon S3 Filesを使ってみた",
-          "link": "https://qiita.com/miyazakiiiiii/items/bdc0c0aa0b90b89ea892",
-          "source": "Qiita AWSタグ",
-          "published": "2026-09-29T23:38:24",
-          "excerpt": "はじめに Amazon S3といえば、AWSでよく利用されるオブジェクトストレージです。画像やログ、バックアップ、アプリケーションのデータなどを保存でき、AWSのさまざまなサービスから利用できます。…"
+          "title": "WindowsでLinuxコンテナの作成や実行を可能にする「WSL Containers」正式リリース。コマンドラインとAPIから利用可能",
+          "link": "https://www.publickey1.jp/blog/26/windowslinuxwsl_containersapi.html",
+          "source": "Publickey",
+          "published": "2026-09-30T02:43:18",
+          "excerpt": "マイクロソフトはWSL（Windows Subsystem for Linux）の新機能として、WindowsでLinuxコンテナの作成や実行を可能にする「WSL Containers」の正式リリースを発表しました（発表ブログ、アーキテクチ…"
+        },
+        {
+          "title": "2026年9月29日に終了・移行に関する告知が出た7サービス（DevOps Guruなど）の移行ガイドを確認してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-service-availability-updates-2026-09-migration-guides/",
+          "source": "DevelopersIO",
+          "published": "2026-09-30T02:19:18",
+          "excerpt": "Amazon Chime SDK SIP media applications、Amazon WorkSpaces Secure Browser、Amazon Managed Blockchain、Amazon DevOps Guru、AW…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。目次 目次 はじめに MCP 2026-07-28での認可関連の変更点(おさらい) 1.PRM (RFC 9728) → API Managementでの記述方法 2.…",
+      "summary": "セキュリティの新着が17件。はじめに こんにちは、リテールハブ開発部の杉森です。…",
       "articles": [
         {
-          "title": "MCP 2026-07-28の認可仕様に、Entra IDはどこまで応えているのか | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/2026/09/30/100059",
+          "title": "Amazon Cognito で MCP サーバーを認可するときのクライアント登録について | every Tech Blog",
+          "link": "https://tech.every.tv/entry/2026/09/30/150126",
           "source": "企業テックブログまとめ",
-          "published": "2026-09-30T01:00:59",
-          "excerpt": "目次 目次 はじめに MCP 2026-07-28での認可関連の変更点(おさらい) 1.PRM (RFC 9728) → API Managementでの記述方法 2.…"
+          "published": "2026-09-30T06:01:26",
+          "excerpt": "はじめに こんにちは、リテールハブ開発部の杉森です。…"
         },
         {
-          "title": "タイムズカーで不正アクセス　「退会済み」含む約660万件の情報が流出",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/30/news038.html",
+          "title": "トークン消費85％減　Googleが脆弱性を自動修正するオープンソースハーネス「Mantis」公開",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/30/news056.html",
           "source": "@IT",
-          "published": "2026-09-29T23:00:00",
-          "excerpt": "タイムズカーは、Webシステムへの不正アクセスについての調査結果を発表した。退会者を含む約660万件のアカウント情報が第三者に取得され、運転免許証画像などが流出したという。漏えい情報を悪用した二次被害についても注意が必要だ。"
+          "published": "2026-09-30T06:00:00",
+          "excerpt": "Googleは、ソフトウェアの脆弱性の発見から修正までを自動化するオープンソースのハーネス「Mantis」を公開した。"
         },
         {
-          "title": "OpenAI、豪政府サイトへの不正アクセスで謝罪　最先端AI学習の安全指針も公開",
-          "link": "https://www.itmedia.co.jp/news/article/2609/30/2000001869/",
-          "source": "ITmedia NEWS",
-          "published": "2026-09-29T22:41:40",
-          "excerpt": "OpenAIは、学習中のAIモデルが豪政府サイトへ不正アクセスした問題で、通知の遅れを認め謝罪した。ネットワーク制限の強化や最上位モデルの学習停止に加え、航空や原子力分野にならい学習前に安全性を体系的に検証する仕組みを導入する。…"
+          "title": "IAMユーザーでCost Explorerが見られない？権限設定でハマったポイントと解決までの記録",
+          "link": "https://zenn.dev/pythona/articles/5521e1727c199e",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-30T03:29:54",
+          "excerpt": "はじめに 日本の企業で、Webシステムの開発・保守とAWSの運用を担当しています。先日、開発メンバーからAWSの利用料金を自分のIAMユーザーで確認できるようにしてほしいという依頼を受けました。…"
         },
         {
-          "title": "シャドーAIへの機密流出をブロック　Microsoftがセキュリティ製品群をアップデート",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2609/29/news035.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-09-29T22:00:00",
-          "excerpt": "Microsoftがセキュリティ製品群のアップデートを発表した。PurviewとEntraの連携で、利用者の代理で動くAIエージェントの通信も含め、未承認のAIツールへの機密データ流出をネットワーク層で止める機能を一般提供した。"
+          "title": "未認証ユーザに LLM を叩かせる API をどう守るか",
+          "link": "https://zenn.dev/studist/articles/unauthenticated-ai-search-defense-in-depth",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-30T03:00:08",
+          "excerpt": "こんにちは、スタディストで Teachme Biz の開発をしている水野です。利用者が書いたコンテンツについて LLM に質問できる機能を、ログインしていない閲覧者にも開きたい。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。こんにちは。株式会社 hokan で、データ基盤の構築を担当しているエンジニアの水谷です。今年から、社内のユースケース収集、データ基盤の構築、開発プロセスづくりを一通り担当しています。…",
+      "summary": "データ分析の新着が5件。Also requires name change to 'Superintelligence'",
       "articles": [
+        {
+          "title": "Trump administration gets Big Tech to sign weak, non-binding, AI regulations",
+          "link": "https://www.theregister.com/ai-and-ml/2026/09/30/trump-administration-gets-big-tech-to-sign-weak-non-binding-ai-regulations/5299955",
+          "source": "The Register（英語）",
+          "published": "2026-09-30T02:11:23",
+          "excerpt": "Also requires name change to 'Superintelligence'"
+        },
         {
           "title": "データ基盤作りたてで Snowflake World Tour Tokyo 2026 に参加してみた | hokan Tech Blogのフィード",
           "link": "https://zenn.dev/hokan_blog/articles/20260917-snowflake-world-tour-tokyo-2026",
@@ -134,80 +141,73 @@
           "source": "TechCrunch（英語）",
           "published": "2026-09-29T17:20:00",
           "excerpt": "Wabi は、プロンプトベースのアプリ ビルダーを、チャット、アプリ、進行中のタスクを組み合わせてオンデマンドでインターフェイスを作成できるパーソナル AI エージェントとして再配置しています。"
-        },
-        {
-          "title": "AIコーディング時代にRubyは何を生む？　まつもとゆきひろ氏が審査する「Ruby biz Grand prix 2026」に19事例が集結",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/29/news049.html",
-          "source": "@IT",
-          "published": "2026-09-29T08:00:00",
-          "excerpt": "Ruby biz グランプリ実行委員会は、「Ruby biz Grand prix 2026」の応募事例19件を発表した。プログラミング言語「Ruby」を活用して継続的に展開されているビジネス事例を表彰する。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。Microsoft、Windowsアプリ開発のためのコマンドラインツール「WinAppCLI v0.7.0」リリース",
+      "summary": "開発ツールの新着が11件。Claude Codeのサンドボックスを有効にしたところ、1Password CLIプラグイン経由の `gh` が「1Passwordアプリに接続できない」というエラーで失敗するようになりました。…",
       "articles": [
         {
-          "title": "Microsoft、Windowsアプリ開発のためのコマンドラインツール「WinAppCLI v0.7.0」リリース",
-          "link": "https://codezine.jp/article/detail/29845",
-          "source": "CodeZine",
-          "published": "2026-09-29T22:00:00",
-          "excerpt": "Microsoft、Windowsアプリ開発のためのコマンドラインツール「WinAppCLI v0.7.0」リリース"
+          "title": "Claude Codeサンドボックスを設定したら、1Password経由のgh/gitが動かなくなった話",
+          "link": "https://dev.classmethod.jp/articles/claude-code-sandbox-1password-gh/",
+          "source": "DevelopersIO",
+          "published": "2026-09-30T07:22:58",
+          "excerpt": "Claude Codeのサンドボックスを有効にしたところ、1Password CLIプラグイン経由の `gh` が「1Passwordアプリに接続できない」というエラーで失敗するようになりました。…"
         },
         {
-          "title": "GitHub - mizchi/説明者",
-          "link": "https://github.com/mizchi/explainer",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-09-29T19:12:08",
-          "excerpt": "English | 日本語 Skills and tools for explaining concepts from an AI to a human.…"
-        },
-        {
-          "title": "コーディングエージェントにGoogle Cloudの専門知識とツールを組み込む「Google Cloud Developer Plugin for AI Coding Agents」発表",
-          "link": "https://www.publickey1.jp/blog/26/google_cloudgoogle_cloud_developer_plugin_for_ai_coding_agents.html",
-          "source": "Publickey",
-          "published": "2026-09-29T15:44:15",
-          "excerpt": "Google Cloudは、Claude CodeなどのコーディングエージェントにGoogle Cloudの専門知識とツールなどを組み込める「Google Cloud Developer Plugin for AI Coding Agent…"
-        },
-        {
-          "title": "AWSコンソールでの構築経験をもとにTerraformを学ぶ【②EC2・ALB・RDS編】",
-          "link": "https://qiita.com/km_1018/items/925fcde0656c3e9a0e8f",
+          "title": "WARのデプロイもUserDataで自動化する。SCP+SSHの手作業をゼロにする設計",
+          "link": "https://qiita.com/caymezon/items/129a1a3f30cc22e8e70e",
           "source": "Qiita AWSタグ",
-          "published": "2026-09-29T12:58:12",
-          "excerpt": "1.…"
+          "published": "2026-09-30T04:58:24",
+          "excerpt": "背景 Spring Boot WebアプリをALB + EC2(Tomcat) + RDSに自動デプロイするCloudFormationハンズオンをやりました。…"
+        },
+        {
+          "title": "AWS CLIの 新機能 aws login コマンド",
+          "link": "https://qiita.com/Kagesyu/items/5959c8e89f1802648bb2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-09-30T04:50:05",
+          "excerpt": "イントロダクション 従来IAMユーザでローカルからAWSリソースを操作したい場合、アクセスキーを発行し、端末に設定する必要がありましたが、アクセスキーは長期認証情報にあたり、漏洩した場合は大きなセキュリティ被害につながるため、管理する上で十…"
+        },
+        {
+          "title": "CDK 2.253.0 で「Exports cannot be updated」── クロスリージョン参照の回帰と weak 参照",
+          "link": "https://zenn.dev/riverwell2359/articles/aws-cdk-cross-region-exports-cannot-be-updated",
+          "source": "Zenn AWSトピック",
+          "published": "2026-09-30T03:57:58",
+          "excerpt": "crossRegionReferences: true で運用している AWS CDK アプリを aws-cdk-lib 2.253.0 に上げると、既存スタックのデプロイが Exports cannot be updated: ...…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Dreamforce2026参加レポート | Sodech Developer Blog",
-      "link": "https://sodech.hatenablog.com/entry/2026/09/30/102117",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-30T01:21:17",
-      "excerpt": "Dreamforce2026 Dreamforce 2026に参加しました:AI時代に求められる「人」の役割とは 9月15日から17日までの3日間、Dreamforce 2026に参加してまいりました。…"
-    },
-    {
-      "title": "# 「何が問題なの？」と言われがちな監査指摘の背景を考える　〜監査でありがちな会話から見る認識ギャップ〜 | NTT DATA TECHのフィード",
-      "link": "https://zenn.dev/nttdata_tech/articles/7e75f41b3eb6e4",
-      "source": "企業テックブログまとめ",
-      "published": "2026-09-30T01:00:06",
-      "excerpt": "はじめに本記事は、以下のような方を主な想定読者としています。…"
-    },
-    {
-      "title": "AWS、9月21日週に発表したアップデートをまとめて紹介",
-      "link": "https://codezine.jp/article/detail/29851",
-      "source": "CodeZine",
-      "published": "2026-09-30T01:00:00",
-      "excerpt": "AWS、9月21日週に発表したアップデートをまとめて紹介"
-    },
-    {
-      "title": "免許証の悪用防ぐ届出集中、CIC・JICCで手続き遅延　タイムズカー情報流出直後に",
-      "link": "https://www.itmedia.co.jp/news/article/2609/30/2000001873/",
+      "title": "ヤマレコ、投稿写真を地図上でまとめて確認できる「みんなの写真マップ」提供開始　登山前の情報収集に",
+      "link": "https://www.itmedia.co.jp/news/article/2609/30/2000001895/",
       "source": "ITmedia NEWS",
-      "published": "2026-09-30T00:54:36",
-      "excerpt": "タイムズカーの漏えいを受け、本人申告で今後の悪用に備えたり、自分の名義で勝手にカードやローンを申し込まれていないかを確かめたりしている影響がありそうだ。"
+      "published": "2026-09-30T07:09:27",
+      "excerpt": "登山専用コミュニティサイト「ヤマレコ」を運営するヤマレコは、サイトに投稿された登山写真を地図上で探せる新機能「みんなの写真マップ」の提供をWeb版で始めた。スタンダードプラン（無料）のユーザーも一部機能を利用できる。"
+    },
+    {
+      "title": "Spectre bug is back, this time to haunt JIT engines",
+      "link": "https://www.theregister.com/security/2026/09/30/spectre-bug-is-back-this-time-to-haunt-jit-engines/5299937",
+      "source": "The Register（英語）",
+      "published": "2026-09-30T07:01:00",
+      "excerpt": "Researchers find a way to recover stale indirect branch prediction entries"
+    },
+    {
+      "title": "LINEヤフー、Messaging APIなどのデモアプリを9月30日で提供終了",
+      "link": "https://codezine.jp/article/detail/29855",
+      "source": "CodeZine",
+      "published": "2026-09-30T07:00:00",
+      "excerpt": "LINEヤフー、Messaging APIなどのデモアプリを9月30日で提供終了"
+    },
+    {
+      "title": "タイムズカー、退会者の免許証画像も「7年」保存していた理由　パーク24に聞いた",
+      "link": "https://www.itmedia.co.jp/news/article/2609/30/2000001877/",
+      "source": "ITmedia NEWS",
+      "published": "2026-09-30T06:50:01",
+      "excerpt": "「法人税法に基づく取引記録の保管義務のため」保存していたと説明するが、免許証画像の保存は法人税法に根拠はない。"
     }
   ]
 }
