@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-10-01T21:30:31",
+  "generated_at": "2026-10-02T01:01:00",
   "window_hours": 24,
-  "total": 174,
+  "total": 175,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が32件。AWS Well-Architected Agent のパブリック プレビューを紹介します。…",
+      "summary": "生成AIの新着が30件。DX本部システム開発第二事業部の冨永です。現在、主にiOS/Flutterアプリの開発を担当しております。…",
       "articles": [
         {
-          "title": "クラウド環境を最適化する AI を活用したインテリジェンスである AWS Well-Architected Agent を発表 (プレビュー)",
-          "link": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
-          "source": "AWS News Blog（英語）",
-          "published": "2026-10-01T20:04:04",
-          "excerpt": "AWS Well-Architected Agent のパブリック プレビューを紹介します。…"
+          "title": "「RAGA Tokyo 2026」参加レポート(前編) ― マネタイズ戦略を学ぶために参加！！ | テコテック開発者ブログ",
+          "link": "https://tec.tecotec.co.jp/entry/2026/10/02/090000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-02T00:00:00",
+          "excerpt": "DX本部システム開発第二事業部の冨永です。現在、主にiOS/Flutterアプリの開発を担当しております。…"
         },
         {
-          "title": "Hugging FaceのローカルLLMモデル名「Q4_K_M」「A3B」の読み方と失敗しない選び方",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/02/news004.html",
+          "title": "AIエージェントについて調べたことをもう一歩深掘りしてみた ～評価・可観測性・コスト管理・ガードレールまで～",
+          "link": "https://qiita.com/Sho5_Matsu/items/91dde7ad6280c182cf21",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-01T23:10:47",
+          "excerpt": "はじめに 以前、「AIエージェントについて自分で調べてみてわかったこと」という記事を書きました。…"
+        },
+        {
+          "title": "「DMに逃げる理由は秘密保持ではない」　人とAIエージェントの“最強チーム”を作るベストプラクティス",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/02/news009.html",
           "source": "@IT",
-          "published": "2026-10-01T20:00:00",
-          "excerpt": "Hugging FaceでローカルLLMを探すと、「Qwen3.8-27B-Q4_K_M.gguf」のような英数字の羅列に戸惑うだろう。実はモデル名には、規模や世代、圧縮の度合い、ファイル形式といった情報が詰まっている。…"
+          "published": "2026-10-01T23:00:00",
+          "excerpt": "Anthropicは、人間とAIエージェントによる効果的なチームを構築するためのベストプラクティスをまとめたブログ記事を公開した。Slack社の最高製品責任者（CPO）へのインタビューに基づいている。"
         },
         {
-          "title": "データ管理へのAIコーディングエージェント導入で陥りやすい「過大評価」と「意味情報的負債」のわな",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/02/news001.html",
-          "source": "@IT",
-          "published": "2026-10-01T20:00:00",
-          "excerpt": "AIコーディングエージェントの進化につれ、データ管理の自動化にも期待が高まっている。だが、データ管理は単なるコーディング作業ではなく、ビジネスデータの意味やガバナンス、組織固有の知識を継続的に維持する取り組みだ。…"
-        },
-        {
-          "title": "AWS Well-Architected エージェントがプレビューで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-01T20:00:00",
-          "excerpt": "AWS は、AWS Trusted Advisor と AWS Well-Architected Tool の次世代進化版である AI を活用したサービスである AWS Well-Architected Agent のプレビューを発表しまし…"
+          "title": "ChatGPTにAIでバーチャル試着機能とカメラでの書類スキャン→PDF化機能",
+          "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001945/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-01T22:17:12",
+          "excerpt": "OpenAIは、ChatGPTにバーチャル試着やお気に入り保存などの新機能を追加した。商品情報カードから自身の写真を使って服やアクセサリーを着用した姿を生成できる。気になった商品の整理機能も備える。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。Amazon S3 Vectors の ENHANCED モードで、公開年や文字列の前方一致によるメタデータプレフィルタリングを 60,785件の実データで検証しました。…",
+      "summary": "クラウドの新着が21件。WSL 3.0.1のコンテナ機能を使って、現在のRancher Desktop環境をWSLコンテナへ切り替えることに挑戦しました。VSCodeの設定変更やdocker-composeの対応状況など、実際に試した結果をまとめています。",
       "articles": [
+        {
+          "title": "VSCode + WSL Containerでコンテナ接続してみた",
+          "link": "https://dev.classmethod.jp/articles/connect-vscode-wslc/",
+          "source": "DevelopersIO",
+          "published": "2026-10-02T00:14:44",
+          "excerpt": "WSL 3.0.1のコンテナ機能を使って、現在のRancher Desktop環境をWSLコンテナへ切り替えることに挑戦しました。VSCodeの設定変更やdocker-composeの対応状況など、実際に試した結果をまとめています。"
+        },
+        {
+          "title": "Amazon EC2、最大120日前からキャパシティ予約が可能に",
+          "link": "https://codezine.jp/article/detail/29880",
+          "source": "CodeZine",
+          "published": "2026-10-02T00:00:00",
+          "excerpt": "Amazon EC2、最大120日前からキャパシティ予約が可能に"
+        },
         {
           "title": "S3 Vectors の新機能「メタデータプレフィルタリング」を試してみた",
           "link": "https://dev.classmethod.jp/articles/s3-vectors-enhanced-metadata-prefiltering/",
@@ -57,63 +71,63 @@
           "source": "DevelopersIO",
           "published": "2026-10-01T19:17:03",
           "excerpt": "2026年9月30日に発表された Aurora Serverless v2 のスケーリング強化を実測しました。MinCapacity の変更から18秒後に 1 ACU から 17 ACU へ1秒で急増し、30 ACU には178秒で到達。…"
-        },
-        {
-          "title": "ElastiCache Serverless の新機能「パブリックエンドポイント」のスループットを計測してみた",
-          "link": "https://dev.classmethod.jp/articles/elasticache-serverless-public-endpoint-benchmark/",
-          "source": "DevelopersIO",
-          "published": "2026-10-01T18:05:45",
-          "excerpt": "ElastiCache for Valkey Serverless のパブリックエンドポイントの性能をレイテンシ・スループットで計測しました。接続を使い回せば VPC 内の Serverless とほぼ同水準で利用できます。…"
-        },
-        {
-          "title": "go:embedによる辞書同梱とLambdaコールドスタートのコスト",
-          "link": "https://zenn.dev/sohohold/articles/go-embed-lambda-cold-start",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-01T17:16:20",
-          "excerpt": "GoのWebアプリで、読み取り専用の辞書データをDBに置かず、go:embed でGoのバイナリに同梱しています。辞書のサイズはgzip後で1.9MBほどです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。Amazon GuardDuty が AWS Organizations の宣言型ポリシーをサポートするようになり、AWS 組織内のすべてのアカウントとリージョンにわたって GuardDuty の脅威検出を一元的に有効化できるようになりまし…",
+      "summary": "セキュリティの新着が15件。カケハシではサプライチェーン攻撃対策の一環として、Takumi Guardの利用を進めています。…",
       "articles": [
         {
-          "title": "Amazon GuardDuty が、AWS Organizations の宣言型ポリシーを使用した一元管理をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-org-enablement-policies/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-01T16:01:00",
-          "excerpt": "Amazon GuardDuty が AWS Organizations の宣言型ポリシーをサポートするようになり、AWS 組織内のすべてのアカウントとリージョンにわたって GuardDuty の脅威検出を一元的に有効化できるようになりまし…"
+          "title": "AWS AmplifyからOIDC認証でTakumi Guardを利用する | KAKEHASHI Tech Blog",
+          "link": "https://kakehashi-dev.hatenablog.com/entry/2026/10/02/090000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-02T00:00:00",
+          "excerpt": "カケハシではサプライチェーン攻撃対策の一環として、Takumi Guardの利用を進めています。…"
         },
         {
-          "title": "NASAはスウィフトを救うために財務省を圧迫し、雰囲気を暗号化し、型を破った",
-          "link": "https://arstechnica.com/space/2026/10/heres-why-nasa-is-celebrating-the-failed-mission-to-save-the-swift-observatory/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-10-01T11:15:15",
-          "excerpt": "「私たちは本当に、本当に素晴らしいことをいくつかできました。これ以上前進できなかったのは本当に残念です。」"
+          "title": "Linux カーネルにいくつかの脆弱性が発見されました",
+          "link": "https://lwn.net/Articles/1097401/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-01T23:10:44",
+          "excerpt": "記事の URL: https://lwn.net/Articles/1097401/ コメント URL: https://news.ycombinator.com/item?id=49928121 ポイント: 43 コメント数: 12"
         },
         {
-          "title": "日本原子力機構に不正アクセス　研究者の顔写真付き身分証など漏えい",
-          "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001942/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-01T10:25:43",
-          "excerpt": "日本原子力研究開発機構（JAEA）が、研究者向けのWebサイトが不正アクセスを受け、情報が漏えいしたと発表した。茨城県東海村にある原子力科学研究所の利用者175人分の顔写真付き身分証明証や健康診断の結果などが漏えいした。"
+          "title": "AIが脆弱性を探す時代に何が変わる？　IPA白書2026が示す「防御」の転換点",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/02/news021.html",
+          "source": "@IT",
+          "published": "2026-10-01T23:00:00",
+          "excerpt": "AIが脆弱性を探し、攻撃にも防御にも使われる時代、企業が取るべき具体的な道筋は何か。IPAは「情報セキュリティ白書2026」を公開し、サイバーセキュリティの現状を整理した。本稿は全208ページの中から押さえておきたいポイントをまとめた。"
         },
         {
-          "title": "日本原子力機構に不正アクセス　研究者の個人情報が漏えい | NEWSjp",
-          "link": "https://news.jp/i/1478318653420880862",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-01T10:02:04",
-          "excerpt": "日本原子力研究開発機構は1日、茨城県東海村にある研究用原子炉「JRR3」の利用手続きサイトに不正アクセスがあり、外部の研究者の運転免許証画像など計2419件の登録情報が漏えいしたと公表した。施設の安全や警備に影響する情報は含まれないという。…"
+          "title": "なぜ気付けない？　侵入後にDLL偽装で正規ソフトに潜むマルウェアの手口と対策",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2610/02/news013.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-10-01T22:00:00",
+          "excerpt": "攻撃者の侵入後に展開され、長期間潜伏するマルウェアをMicrosoftが解析した。このマルウェアは業務環境でよく使われる複数の正規ソフトウェアになりすまし、通常の通信に紛れて指令を受け取る。どう見抜き、どう備えればいいのか。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。Amazon DynamoDB を Amazon S3 にエクスポートすると、分析、データ共有、その他のオフラインでの使用のためにテーブル データを完全エクスポートまたは一定期間にわたる増分エクスポートとしてエクスポートできます。…",
+      "summary": "データ分析の新着が5件。はじめに 以前、DynamoDBを使うなら最初に設定しておきたい5つのポイントという記事を書きました。…",
       "articles": [
+        {
+          "title": "DynamoDBの設定ポイントをもう一歩深掘りしてみた ～パーティションキー設計・オンデマンドとプロビジョンドの違い・DAXの仕組みまで～",
+          "link": "https://qiita.com/Sho5_Matsu/items/07771636e19fd28e3808",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-01T23:10:31",
+          "excerpt": "はじめに 以前、DynamoDBを使うなら最初に設定しておきたい5つのポイントという記事を書きました。…"
+        },
+        {
+          "title": "Amazon Redshift がデータレイクのクロスリージョンクエリをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake",
+          "source": "AWS What's New（英語）",
+          "published": "2026-10-01T18:41:00",
+          "excerpt": "Amazon Redshift は、別の AWS リージョンにある Amazon S3 データ レイク テーブルのクエリをサポートするようになりました。…"
+        },
         {
           "title": "Amazon DynamoDB が Amazon S3 へのフィルターされたエクスポートを導入",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/",
@@ -127,87 +141,73 @@
           "source": "AWS What's New（英語）",
           "published": "2026-10-01T16:44:00",
           "excerpt": "本日、AWS は、追加の 17 の AWS リージョンで Amazon DynamoDB Accelerator (DAX) が利用可能になったことを発表します: アジアパシフィック (香港)、アジアパシフィック (ハイデラバード)、アジア…"
-        },
-        {
-          "title": "Aurora の複数テーブルを結合して CDC できる？OpenSearch Ingestion の joins を検証",
-          "link": "https://zenn.dev/aws_japan/articles/aurora-osis-joins",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-01T03:38:24",
-          "excerpt": "はじめに 顧客情報や商品情報、注文履歴といった業務データの多くは RDB に蓄積されています。…"
-        },
-        {
-          "title": "トラフィック変化、証明書47日問題、BIMI対応を解説（IIR Vol.71） | IIJ Engineers Blog",
-          "link": "https://eng-blog.iij.ad.jp/archives/37851",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-01T00:02:40",
-          "excerpt": "IIJは2026年9月30日に技術レポート「Internet Infrastructure Review（IIR）」Vol.71を公開しました。今号では、ブロードバンドトラフィックの変化、サーバ証明書..."
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。AIコーディングエージェントの進化につれ、データ管理の自動化にも期待が高まっている。だが、データ管理は単なるコーディング作業ではなく、ビジネスデータの意味やガバナンス、組織固有の知識を継続的に維持する取り組みだ。…",
+      "summary": "開発ツールの新着が10件。はじめに CDK Pipelines で、東京リージョン（ap-northeast-1）のパイプラインから バージニア北部（us-east-1） にデプロイする構成を組みました。…",
       "articles": [
+        {
+          "title": "CDK Pipelines クロスリージョンの bootstrapで本当に必要なのは1箇所だけ",
+          "link": "https://qiita.com/shimitaro/items/dbaac5944d0a0111166f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-02T00:25:04",
+          "excerpt": "はじめに CDK Pipelines で、東京リージョン（ap-northeast-1）のパイプラインから バージニア北部（us-east-1） にデプロイする構成を組みました。…"
+        },
+        {
+          "title": "AWS AmplifyからOIDC認証でTakumi Guardを利用する | KAKEHASHI Tech Blog",
+          "link": "https://kakehashi-dev.hatenablog.com/entry/2026/10/02/090000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-02T00:00:00",
+          "excerpt": "カケハシではサプライチェーン攻撃対策の一環として、Takumi Guardの利用を進めています。…"
+        },
+        {
+          "title": "Git 2.56.0がリリース、解決済みコンフリクトのみをステージする機能など追加",
+          "link": "https://codezine.jp/article/detail/29879",
+          "source": "CodeZine",
+          "published": "2026-10-01T23:00:00",
+          "excerpt": "Git 2.56.0がリリース、解決済みコンフリクトのみをステージする機能など追加"
+        },
         {
           "title": "データ管理へのAIコーディングエージェント導入で陥りやすい「過大評価」と「意味情報的負債」のわな",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/02/news001.html",
           "source": "@IT",
           "published": "2026-10-01T20:00:00",
           "excerpt": "AIコーディングエージェントの進化につれ、データ管理の自動化にも期待が高まっている。だが、データ管理は単なるコーディング作業ではなく、ビジネスデータの意味やガバナンス、組織固有の知識を継続的に維持する取り組みだ。…"
-        },
-        {
-          "title": "Amazon ECS Managed Daemons、デプロイメントビューの中身",
-          "link": "https://qiita.com/Haruki-N/items/38e11d7ba2b49809de76",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-01T15:39:53",
-          "excerpt": "はじめに 2026 年 9 月 16 日、AWS は Amazon ECS の Managed Daemons に対して、デプロイ状況をコンソール上で一元的に確認できる新しいビューを発表しました。…"
-        },
-        {
-          "title": "Terraform の module ブロックは必要？ resource で書けるのに使う理由確かめる",
-          "link": "https://qiita.com/leomarokun/items/fd7c815467f1161df6aa",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-01T14:01:29",
-          "excerpt": "はじめに 前回の記事で Terraform の 12 のブロックを復習しました。module ブロックでやっていることは、resource ブロックだけでも書けるのでは？実際、module は必須ではありません。…"
-        },
-        {
-          "title": "Terraform の 12 のブロックを AWS で 1 つずつ動かして復習してみた",
-          "link": "https://qiita.com/leomarokun/items/1a44f228c808cb2d06a5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-01T08:22:32",
-          "excerpt": "はじめに 普段なんとなく書いているブロックを復習するために、よく使う 9 個と、リファクタや運用で使う 3 個の合計 12 個を、実際に AWS 上で 1 つずつ動かして整理してみました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "マスク氏のAIチャットボット「グロク」はトランプ氏にベネズエラ大統領を逮捕するよう奨励したと伝えられている",
-      "link": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+      "title": "ロボタクシーのオペレーターは初期対応者をブロックすると罰金を科される",
+      "link": "https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/",
       "source": "TechCrunch（英語）",
-      "published": "2026-10-01T21:08:11",
-      "excerpt": "伝えられるところによると、トランプ大統領はベネズエラに侵攻してニコラス・マドゥロ大統領を拘束する前に、グロク氏の意見を求めたという。"
+      "published": "2026-10-02T00:57:57",
+      "excerpt": "カリフォルニア州の新法は自動運転車の運転者に新たな規則を課す"
     },
     {
-      "title": "Web開発教育の終焉",
-      "link": "https://molily.de/web-dev-education/",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-01T21:07:37",
-      "excerpt": "記事の URL: https://molily.de/web-dev-education/ コメント URL: https://news.ycombinator.com/item?id=49927100 ポイント: 8 コメント数: 1"
+      "title": "【AWS】 イベント駆動アーキテクチャにおけるイベントの検知・取得方式",
+      "link": "https://qiita.com/wakinoza/items/f58b46263285c521f369",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-02T00:52:48",
+      "excerpt": "はじめに AWS SOAの取得を目指して勉強中です。AWSのイベント駆動アーキテクチャについて学習する中で、イベント駆動の起点にはどのような方式があるのか気になりました。…"
     },
     {
-      "title": "Cloudflareは無差別ウェイトClefモデルでJevを上回ることを試みる",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/01/cloudflare-tries-to-outplay-jev-with-open-weight-clef-models/5300649",
-      "source": "The Register（英語）",
-      "published": "2026-10-01T20:39:49",
-      "excerpt": "確かに、コストは高くなりますが、画像やビデオを処理でき、ローカルで実行するハードウェアの能力があれば、Hugging Face で利用できます。"
+      "title": "ServiceNowで「Web service access only」を有効化したユーザーを作成してみた",
+      "link": "https://dev.classmethod.jp/articles/servicenow-identity-type-web-service-access-only/",
+      "source": "DevelopersIO",
+      "published": "2026-10-02T00:46:01",
+      "excerpt": "ServiceNowで外部システム連携用のサービスアカウントを作成する際、APIアクセスのみに制限する「Web service access only」の有効化方法を紹介します。…"
     },
     {
-      "title": "Show HN: Janus – AMD/Intel/Nvidia 上の Vulkan 経由で GGUF モデルを実行する Go バイナリ",
-      "link": "https://github.com/Vibra-Ingenn/Janus",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-01T20:36:47",
-      "excerpt": "記事の URL: https://github.com/Vibra-Ingenn/Janus コメント URL: https://news.ycombinator.com/item?…"
+      "title": "クラスメソッド製造ビジネステクノロジー部にジョインしました、うさぎです！",
+      "link": "https://dev.classmethod.jp/articles/usagi-entry/",
+      "source": "DevelopersIO",
+      "published": "2026-10-02T00:36:40",
+      "excerpt": "クラスメソッドにジョインしたデザイナーのうさぎです。VMDやEC UIデザインの経験を経て、新しい領域での挑戦を決めました。入社のきっかけから、これからの目標、そしてSTAR WARSやTeslaなど個性的な趣味についてお話しします！"
     }
   ]
 }
