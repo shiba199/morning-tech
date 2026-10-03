@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-03T19:35:09",
+  "generated_at": "2026-10-03T22:30:36",
   "window_hours": 24,
-  "total": 97,
+  "total": 92,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。本人も認めているが、デイビッド・ロビンソンは「ありきたりな人物」だ。大手AI企業の従業員が、退職の際に重大な警告を発したのだ。",
+      "summary": "生成AIの新着が16件。本人も認めているが、デイビッド・ロビンソンは「ありきたりな人物」だ。大手AI企業の従業員が、退職の際に重大な警告を発したのだ。",
       "articles": [
         {
           "title": "OpenAIの安全担当社員が辞任、会社の「文化が壊れている」と主張",
@@ -42,35 +42,35 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。DynamoDBのExport to S3に追加されたフィルタ指定を、FullとIncrementalで試しました。更新の多いテーブルのスナップショットなどで、必要な項目だけを出力できるかを確認しています。",
+      "summary": "クラウドの新着が14件。AWS Lambda Web Functions（lambda-web）を botocore と AWS CLI v2 のソースから読み解きました。Node.…",
       "articles": [
+        {
+          "title": "リリース前のAWS Lambda Web Functions（lambda-web）の仕組みを公開ソースから読み解いてみた",
+          "link": "https://dev.classmethod.jp/articles/aws-lambda-web-functions-source-analysis/",
+          "source": "DevelopersIO",
+          "published": "2026-10-03T21:28:37",
+          "excerpt": "AWS Lambda Web Functions（lambda-web）を botocore と AWS CLI v2 のソースから読み解きました。Node.…"
+        },
+        {
+          "title": "ECS が VPC Lattice 経由で公開されているサービスの blue/green デプロイに対応したので試してみた",
+          "link": "https://dev.classmethod.jp/articles/ecs-vpc-lattice-blue-green-deployment/",
+          "source": "DevelopersIO",
+          "published": "2026-10-03T21:06:12",
+          "excerpt": "Amazon ECS の VPC Lattice 対応がアップデートされ、ALB を省いた構成でも blue/green デプロイが可能になりました。その動作を確認しました。"
+        },
+        {
+          "title": "AWS PrivateLink トンネルエンドポイントで閉域 VPC からインターネットへ出られるか試してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-privatelink-tunnel-endpoint-internet-egress/",
+          "source": "DevelopersIO",
+          "published": "2026-10-03T20:51:05",
+          "excerpt": "AWS PrivateLink のトンネルエンドポイントで、IGW も NAT Gateway もない VPC からインターネットへ出られるか試しました。HTTP/1.…"
+        },
         {
           "title": "DynamoDBのS3エクスポートにフィルタ指定が追加。FullとIncrementalで試してみた",
           "link": "https://dev.classmethod.jp/articles/dynamodb-filtered-export-s3/",
           "source": "DevelopersIO",
           "published": "2026-10-03T17:05:42",
           "excerpt": "DynamoDBのExport to S3に追加されたフィルタ指定を、FullとIncrementalで試しました。更新の多いテーブルのスナップショットなどで、必要な項目だけを出力できるかを確認しています。"
-        },
-        {
-          "title": "[AWS]S3Vectors フィルタ次第で文書を取りこぼしやすくなる件",
-          "link": "https://qiita.com/kikuziro/items/749c659267a9b2614d11",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-03T16:59:24",
-          "excerpt": "対象読者 S3Vectorsでベクトル検索やRAGを始めてみたまたはこれから始める方 「検索すれば、意味が近い順で文書が必ず返ってくる」と思っている方 メタデータフィルタでテナントIDとかで検索を絞り込みたい方 🤔 意味が近い文書が抽出され…"
-        },
-        {
-          "title": "第9回 Terraform講座  Target Group EC2",
-          "link": "https://qiita.com/nyarusasu22/items/1321ee59c095c9db07a6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-03T14:38:34",
-          "excerpt": "Target GroupにEC2を登録する ― 「作る」と「つなぐ」は別 前回までで、ここまで構成ができました。…"
-        },
-        {
-          "title": "RecSys 2026の論文を紹介するぜ！ | エムスリーテックブログ",
-          "link": "https://www.m3tech.blog/entry/2026/10/03/210914",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-03T12:09:14",
-          "excerpt": "こんにちは。エンジニアリンググループのAI・機械学習チームに所属している鴨田 です。弊チームでは毎週1時間の技術共有会を実施しており、各自が担当するプロダクトの技術や、最近読んだ論文を紹介しています。…"
         }
       ]
     },
@@ -133,67 +133,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。Target GroupにEC2を登録する ― 「作る」と「つなぐ」は別 前回までで、ここまで構成ができました。…",
+      "summary": "開発ツールの新着が13件。Amazon ECS の VPC Lattice 対応がアップデートされ、ALB を省いた構成でも blue/green デプロイが可能になりました。その動作を確認しました。",
       "articles": [
+        {
+          "title": "ECS が VPC Lattice 経由で公開されているサービスの blue/green デプロイに対応したので試してみた",
+          "link": "https://dev.classmethod.jp/articles/ecs-vpc-lattice-blue-green-deployment/",
+          "source": "DevelopersIO",
+          "published": "2026-10-03T21:06:12",
+          "excerpt": "Amazon ECS の VPC Lattice 対応がアップデートされ、ALB を省いた構成でも blue/green デプロイが可能になりました。その動作を確認しました。"
+        },
+        {
+          "title": "Cloudflare上に次のGitプラットフォームを構築してほしい",
+          "link": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-03T19:33:16",
+          "excerpt": "記事の URL: https://blog.cloudflare.com/next-git-platform-on-cloudflare/ コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "TerraformによるPCI DSS検証ラボ構築（4）～ Cloudflare Zero TrustとSplunkによる通信制御の実証 ～",
+          "link": "https://zenn.dev/nyondev/articles/pcidss-lab-part4",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-03T15:44:11",
+          "excerpt": "はじめに この連載では、カード会員データ環境（CDE）を模した小さなネットワークをAWS上に作り、PCI DSSで扱われる技術要素――ネットワークの分離、アクセス制御、ログの収集と確認――を、自分の手で構築・検証してきました。…"
+        },
         {
           "title": "第9回 Terraform講座  Target Group EC2",
           "link": "https://qiita.com/nyarusasu22/items/1321ee59c095c9db07a6",
           "source": "Qiita AWSタグ",
           "published": "2026-10-03T14:38:34",
           "excerpt": "Target GroupにEC2を登録する ― 「作る」と「つなぐ」は別 前回までで、ここまで構成ができました。…"
-        },
-        {
-          "title": "【UE5】学生時代、PlayFabを手作業で組んでいた自分に教えたい。対戦ゲームのサーバー環境はすべてTerraformで書ける",
-          "link": "https://qiita.com/EXPEVODEV/items/9559c6705a87248d7c0b",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-03T14:26:05",
-          "excerpt": "はじめに 個人開発の対戦ゲームのAWSインフラをすべてTerraformで構築しました。この記事ではその構成と設計判断をまとめます。対象のゲーム「The Suitcase Agents」の特徴は次のとおりです。…"
-        },
-        {
-          "title": "AWS Site-to-Site VPN × FRR で BGP の経路制御（Local Preference / AS_PATH / MED）を手で触って試せる環境を Terraform で作った",
-          "link": "https://qiita.com/silv224/items/c93bb267a065a51310a8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-03T12:13:30",
-          "excerpt": "背景・狙い BGP の Local Preference、MED、AS_PATH prepend といった経路制御の属性は、仕様を読めば「どちらの経路が選ばれるか」は分かります。…"
-        },
-        {
-          "title": "同じAWSアカウントに似た名前のスタックが同居しているときのデプロイの守り方",
-          "link": "https://qiita.com/NaokinTV/items/f65c2f4bcf8b3a5a1293",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-03T12:07:42",
-          "excerpt": "はじめに ExcelのWBSを進捗管理ツールに置き換えた話の3本目です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "連邦判事、フロック氏を「無差別大量監視」と非難",
-      "link": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-03T19:33:15",
-      "excerpt": "連邦判事は、保安官代理が令状なしでフロックを使用して女性のナンバープレートを捜索した際、女性の憲法修正第4条の権利を侵害したとの判決を下した。"
-    },
-    {
-      "title": "Amazon、データセンターの反発に対応、NDAはもう使用しないと発表",
-      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-03T18:43:57",
-      "excerpt": "アマゾン ウェブ サービスの CEO は、データセンターに対する広範な疑惑に対して抵抗しようとしました。"
-    },
-    {
-      "title": "ADHD、自閉症、それとも複雑なトラウマ? [pdf]",
-      "link": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/30CC4826561366615BFAEC807CDE28A7/S0007125026108046a.pdf/adhd-autism-or-complex-trauma-the-complicated-nature-of-the-question.pdf",
+      "title": "私が救急救命士になれなかった理由、ランキング",
+      "link": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-03T18:08:28",
-      "excerpt": "記事の URL: https://www.cambridge.…"
+      "published": "2026-10-03T20:49:15",
+      "excerpt": "記事の URL: https://ben.stolovitz.com/posts/reasons-not-emt-ranked/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "ホールパンチ: 宇宙船を重力場の周りで投げます。",
-      "link": "https://notoriousbfg.com/hole-punch/",
+      "title": "あなたのゴミ箱にも超広帯域無線機が入っているでしょうか?",
+      "link": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-03T18:06:45",
-      "excerpt": "記事の URL: https://notoriousbfg.com/hole-punch/ コメント URL: https://news.ycombinator.com/item?id=49946393 ポイント: 27 コメント数: 7"
+      "published": "2026-10-03T20:27:44",
+      "excerpt": "記事の URL: https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/ コメント URL: https://news.ycombinator.…"
+    },
+    {
+      "title": "HN を表示: ローカルの事前トレーニングされた分類子、GPU は不要",
+      "link": "https://github.com/nicobrenner/jeffy",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-03T20:19:09",
+      "excerpt": "私は分類器で何ができるのかに興味がありました。実際、多くの場合、場合によっては Doom をプレイすることもあります。…"
+    },
+    {
+      "title": "アポロ13号の救出に貢献したNASAフライトディレクターのミルト・ウィンドラー氏が94歳で死去",
+      "link": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-10-03T19:45:17",
+      "excerpt": "「...私たちは歴史を作っていたのです。」"
     }
   ]
 }
