@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-03T16:50:31",
+  "generated_at": "2026-10-03T19:35:09",
   "window_hours": 24,
-  "total": 114,
+  "total": 97,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が21件。本人も認めているが、デイビッド・ロビンソンは「ありきたりな人物」だ。大手AI企業の従業員が、退職の際に重大な警告を発したのだ。",
+      "summary": "生成AIの新着が18件。本人も認めているが、デイビッド・ロビンソンは「ありきたりな人物」だ。大手AI企業の従業員が、退職の際に重大な警告を発したのだ。",
       "articles": [
         {
           "title": "OpenAIの安全担当社員が辞任、会社の「文化が壊れている」と主張",
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。Target GroupにEC2を登録する ― 「作る」と「つなぐ」は別 前回までで、ここまで構成ができました。…",
+      "summary": "クラウドの新着が12件。DynamoDBのExport to S3に追加されたフィルタ指定を、FullとIncrementalで試しました。更新の多いテーブルのスナップショットなどで、必要な項目だけを出力できるかを確認しています。",
       "articles": [
+        {
+          "title": "DynamoDBのS3エクスポートにフィルタ指定が追加。FullとIncrementalで試してみた",
+          "link": "https://dev.classmethod.jp/articles/dynamodb-filtered-export-s3/",
+          "source": "DevelopersIO",
+          "published": "2026-10-03T17:05:42",
+          "excerpt": "DynamoDBのExport to S3に追加されたフィルタ指定を、FullとIncrementalで試しました。更新の多いテーブルのスナップショットなどで、必要な項目だけを出力できるかを確認しています。"
+        },
+        {
+          "title": "[AWS]S3Vectors フィルタ次第で文書を取りこぼしやすくなる件",
+          "link": "https://qiita.com/kikuziro/items/749c659267a9b2614d11",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-03T16:59:24",
+          "excerpt": "対象読者 S3Vectorsでベクトル検索やRAGを始めてみたまたはこれから始める方 「検索すれば、意味が近い順で文書が必ず返ってくる」と思っている方 メタデータフィルタでテナントIDとかで検索を絞り込みたい方 🤔 意味が近い文書が抽出され…"
+        },
         {
           "title": "第9回 Terraform講座  Target Group EC2",
           "link": "https://qiita.com/nyarusasu22/items/1321ee59c095c9db07a6",
@@ -57,20 +71,6 @@
           "source": "企業テックブログまとめ",
           "published": "2026-10-03T12:09:14",
           "excerpt": "こんにちは。エンジニアリンググループのAI・機械学習チームに所属している鴨田 です。弊チームでは毎週1時間の技術共有会を実施しており、各自が担当するプロダクトの技術や、最近読んだ論文を紹介しています。…"
-        },
-        {
-          "title": "ExcelのWBSを捨てずに、AWSサーバーレスの進捗管理ツールへ置き換えた",
-          "link": "https://qiita.com/NaokinTV/items/00d0589ddb1bb472f159",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-03T12:07:38",
-          "excerpt": "はじめに 仕事のプロジェクトで、WBS（作業分解構成図）を Excel で管理していました。困っていたのは次の3つです。どのファイルが最新か分からない（WBS_最新_修正版(2).…"
-        },
-        {
-          "title": "[アップデート] Amazon Aurora DSQL でパーシャルインデックスが使えるようになりました",
-          "link": "https://dev.classmethod.jp/articles/aurora-dsql-partial-indexes/",
-          "source": "DevelopersIO",
-          "published": "2026-10-03T08:42:46",
-          "excerpt": "また互換性がひとつ向上しました"
         }
       ]
     },
@@ -105,8 +105,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。規制の影響で、インドではBitchatをほとんど利用できなくなった。",
+      "summary": "データ分析の新着が3件。DynamoDBのExport to S3に追加されたフィルタ指定を、FullとIncrementalで試しました。更新の多いテーブルのスナップショットなどで、必要な項目だけを出力できるかを確認しています。",
       "articles": [
+        {
+          "title": "DynamoDBのS3エクスポートにフィルタ指定が追加。FullとIncrementalで試してみた",
+          "link": "https://dev.classmethod.jp/articles/dynamodb-filtered-export-s3/",
+          "source": "DevelopersIO",
+          "published": "2026-10-03T17:05:42",
+          "excerpt": "DynamoDBのExport to S3に追加されたフィルタ指定を、FullとIncrementalで試しました。更新の多いテーブルのスナップショットなどで、必要な項目だけを出力できるかを確認しています。"
+        },
         {
           "title": "ジャック・ドーシー氏の「Bitchat」が政府命令を受けてインドのアプリストアから消える",
           "link": "https://techcrunch.com/2026/10/03/jack-dorseys-bitchat-disappears-from-app-stores-in-india-after-government-order/",
@@ -126,7 +133,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。Target GroupにEC2を登録する ― 「作る」と「つなぐ」は別 前回までで、ここまで構成ができました。…",
+      "summary": "開発ツールの新着が11件。Target GroupにEC2を登録する ― 「作る」と「つなぐ」は別 前回までで、ここまで構成ができました。…",
       "articles": [
         {
           "title": "第9回 Terraform講座  Target Group EC2",
@@ -161,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』で学んだ、AWS請求額を抑えたコスパ最強な設計方法",
-      "link": "https://qiita.com/Veteran/items/70d23307b9a2c49780a5",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-03T16:31:56",
-      "excerpt": "皆さんこんにちは！10月に入って、朝晩はすっかり涼しくなってきましたね。衣替えのついでに、クローゼットの奥から去年買ったまま一度も着ていない服が出てきて、そっと戻したのは私です。…"
+      "title": "連邦判事、フロック氏を「無差別大量監視」と非難",
+      "link": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-03T19:33:15",
+      "excerpt": "連邦判事は、保安官代理が令状なしでフロックを使用して女性のナンバープレートを捜索した際、女性の憲法修正第4条の権利を侵害したとの判決を下した。"
     },
     {
-      "title": "街づくりゲームには魂の問題がある pt.2",
-      "link": "https://www.radical-elements.com/minor-epiphanies/city-building-games-have-a-soul-problem-pt2",
+      "title": "Amazon、データセンターの反発に対応、NDAはもう使用しないと発表",
+      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-03T18:43:57",
+      "excerpt": "アマゾン ウェブ サービスの CEO は、データセンターに対する広範な疑惑に対して抵抗しようとしました。"
+    },
+    {
+      "title": "ADHD、自閉症、それとも複雑なトラウマ? [pdf]",
+      "link": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/30CC4826561366615BFAEC807CDE28A7/S0007125026108046a.pdf/adhd-autism-or-complex-trauma-the-complicated-nature-of-the-question.pdf",
       "source": "Hacker News（英語）",
-      "published": "2026-10-03T15:52:07",
-      "excerpt": "記事の URL: https://www.radical-elements.…"
+      "published": "2026-10-03T18:08:28",
+      "excerpt": "記事の URL: https://www.cambridge.…"
     },
     {
-      "title": "Decision 2.0 を Strands Decider と同じ 20 問で M4 Mac の MPS で試してみた",
-      "link": "https://dev.classmethod.jp/articles/decision2-strands-decider-20q-m4-mps/",
-      "source": "DevelopersIO",
-      "published": "2026-10-03T15:25:45",
-      "excerpt": "判定専用モデル Decision 2.0 の Eos-0.8B・Sol-2B・Nox-4B を Strands Decider 2B と同じ 20 問で動かし、想定内の件数、応答時間、メモリを並べました。…"
-    },
-    {
-      "title": "FTL: クラウド用の新しいオペレーティング システム",
-      "link": "https://ftl-os.org/",
+      "title": "ホールパンチ: 宇宙船を重力場の周りで投げます。",
+      "link": "https://notoriousbfg.com/hole-punch/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-03T15:02:36",
-      "excerpt": "記事の URL: https://ftl-os.org/ コメント URL: https://news.ycombinator.com/item?id=49944912 ポイント: 27 コメント数: 9"
+      "published": "2026-10-03T18:06:45",
+      "excerpt": "記事の URL: https://notoriousbfg.com/hole-punch/ コメント URL: https://news.ycombinator.com/item?id=49946393 ポイント: 27 コメント数: 7"
     }
   ]
 }
