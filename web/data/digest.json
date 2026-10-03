@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-10-03T07:12:51",
+  "generated_at": "2026-10-03T12:39:19",
   "window_hours": 24,
-  "total": 136,
+  "total": 115,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が29件。はじめに キーボードを使わずに文章を入力する方法として、話そうとしたときの脳活動を読み取って文字にする「脳から文字へのデコーダー」の研究が進んでいます。…",
+      "summary": "生成AIの新着が23件。Claude Code の v2.1.288（2026-10-02 公開）がリリースされました。本記事では主要な変更点を整理し、本日は`/code-review` に追加された `--max-findings` を試してみました。",
       "articles": [
         {
-          "title": "脳から文字へのデコーダー：公開データ・CPU・Amazon Bedrockで再現",
-          "link": "https://qiita.com/yama3133/items/5a1cf892174fff87abe1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-03T06:40:00",
-          "excerpt": "はじめに キーボードを使わずに文章を入力する方法として、話そうとしたときの脳活動を読み取って文字にする「脳から文字へのデコーダー」の研究が進んでいます。…"
+          "title": "Claude Code v2.1.288 の主要アップデート - /code-review の --max-findings 追加と bash -c 内の危険な rm の確認漏れ修正",
+          "link": "https://dev.classmethod.jp/articles/20261003-cc-updates-v2-1-288/",
+          "source": "DevelopersIO",
+          "published": "2026-10-03T11:17:35",
+          "excerpt": "Claude Code の v2.1.288（2026-10-02 公開）がリリースされました。本記事では主要な変更点を整理し、本日は`/code-review` に追加された `--max-findings` を試してみました。"
         },
         {
-          "title": "AWS DevOps Agent Skills を作成するためのベストプラクティス",
-          "link": "https://aws.amazon.com/jp/blogs/news/best-practices-for-writing-aws-devops-agent-skills/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-03T06:18:08",
-          "excerpt": "深夜のインシデント対応の質は、誰が呼び出されるかによって変わってしまいがちです。…"
+          "title": "Claude Code の blockReadsOutsideWorkingDirectories で作業ディレクトリ外の読み取りを拒否してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-block-reads-outside-working-directories/",
+          "source": "DevelopersIO",
+          "published": "2026-10-03T10:37:00",
+          "excerpt": "Claude Code の blockReadsOutsideWorkingDirectories で作業ディレクトリ外の読み取りを拒否してみた"
         },
         {
-          "title": "Meta、AIエージェント「Muse」とつながる自作ガジェット向けSDKをオープンソースで公開　「Raspberry Pi」などに対応",
-          "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001984/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-03T01:41:21",
-          "excerpt": "Metaは、パーソナルAI「Muse」と連携するガジェットを自作できるプロジェクト「Muse Gadgets」を発表した。ESP32やRaspberry Pi向けSDKをGitHubでオープンソース公開。…"
+          "title": "Claude Code更新 Ultracode独立切替【9/25〜10/1】 | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/2026/10/03/190000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-03T10:00:00",
+          "excerpt": "はじめに サーバーワークスの池田です。今週（9/25〜10/1）のClaude Codeは、v2.1.283からv2.1.287まで5バージョンが公開されました（欠番はありません）。日付と版は公式CHANGELOGの表記に合わせています。…"
         },
         {
-          "title": "Apple、macOSの「フルディスクアクセス」に追加の制御を導入へ　「AIエージェントの進化でリスクが大幅に増大」",
-          "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001983/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-03T00:38:06",
-          "excerpt": "Appleは、macOSの「フルディスクアクセス」権限の付与手順を厳格化する方針を発表した。AIエージェントの自律化に伴うデータ流出リスクを抑えるため、明示的な操作や追加制御を導入する。…"
+          "title": "Show HN: Offrun – 1 つのワークスペースからすべてのコーディング エージェントを管理",
+          "link": "https://offrun.dev/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-03T08:40:17",
+          "excerpt": "Claude Code、Codex、AGY、Grok Build を並行して実行します。誰が働いているか、誰があなたを必要としているか、各アカウントに何が残っているかを確認します。コメント URL: https://news.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。背景 パブリックサブネット（APサーバ）とプライベートサブネット（DBサーバ）に分離した2層構成をCloudFormationで自動構築しました。…",
+      "summary": "クラウドの新着が12件。はじめに 仕事のプロジェクトで、WBS（作業分解構成図）を Excel で管理していました。困っていたのは次の3つです。どのファイルが最新か分からない（WBS_最新_修正版(2).…",
       "articles": [
+        {
+          "title": "ExcelのWBSを捨てずに、AWSサーバーレスの進捗管理ツールへ置き換えた",
+          "link": "https://qiita.com/NaokinTV/items/00d0589ddb1bb472f159",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-03T12:07:38",
+          "excerpt": "はじめに 仕事のプロジェクトで、WBS（作業分解構成図）を Excel で管理していました。困っていたのは次の3つです。どのファイルが最新か分からない（WBS_最新_修正版(2).…"
+        },
+        {
+          "title": "[アップデート] Amazon Aurora DSQL でパーシャルインデックスが使えるようになりました",
+          "link": "https://dev.classmethod.jp/articles/aurora-dsql-partial-indexes/",
+          "source": "DevelopersIO",
+          "published": "2026-10-03T08:42:46",
+          "excerpt": "また互換性がひとつ向上しました"
+        },
         {
           "title": "`DependsOn`で「S3 VPC Endpointが有効になってからDBサーバを起動する」を保証する",
           "link": "https://qiita.com/caymezon/items/42e9e740f330e247eed7",
@@ -57,27 +71,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-03T05:10:48",
           "excerpt": "はじめに AWSを勉強していると、 Docker コンテナ ECR ECS Task Definition Task Service Fargate など、似たような単語がたくさん出てきます。最初は「結局それぞれ何なの？…"
-        },
-        {
-          "title": "EC2（t3.micro）でrbenv installが失敗した原因（OOM Killer／tmpfs不足）と対処法",
-          "link": "https://qiita.com/tota_0214/items/d0e6e02f9619213dbc01",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-03T04:28:17",
-          "excerpt": "日々、書きたい記事が溜まっていく今日この頃、今朝は早起きしたので、失敗からの学びにつながった記事を書きます。EC2（t3.micro）にRuby 3.1.4をインストールする際、 rbenv install 3.1.…"
-        },
-        {
-          "title": "Amazon EC2 の将来日付のオンデマンドキャパシティ予約が開始日の延期に対応したので試してみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-ec2-future-dated-capacity-reservations-postpone-start-date/",
-          "source": "DevelopersIO",
-          "published": "2026-10-03T01:00:33",
-          "excerpt": "Amazon EC2の将来日付のキャパシティ予約で、開始日を延期できるようになりました。キャンセル料なしで柔軟に日程調整できるこの新機能を、実際に試しながら詳しく解説します。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。こんにちは、アプリケーションサービス本部、DevOps担当の兼安です。今回は、GitHubとAWSの間のOIDC認証で、immutable subject claimsが原因でつまずきました。…",
+      "summary": "セキュリティの新着が4件。こんにちは、アプリケーションサービス本部、DevOps担当の兼安です。今回は、GitHubとAWSの間のOIDC認証で、immutable subject claimsが原因でつまずきました。…",
       "articles": [
         {
           "title": "GitHubのimmutable subject claimsにより、GitHubとAWS間のOIDC認証がちょっと変わったのに気づきました | サーバーワークスエンジニアブログ",
@@ -112,95 +112,88 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。DynamoDBで同じアイテムを複数の処理が同時に更新すると、後から書いた処理が先の変更を上書きする「更新消失」が起きることがあります。この対策に使えるのが、ConditionExpressionを使った楽観ロックです。…",
+      "summary": "データ分析の新着が2件。2026年9月のAWSデータ分析関連アップデートについてお届けします。…",
       "articles": [
+        {
+          "title": "クラスメソッド データアナリティクス通信(AWSデータ分析編) – 2026年10月号",
+          "link": "https://dev.classmethod.jp/articles/cm-news-analytics-202610/",
+          "source": "DevelopersIO",
+          "published": "2026-10-03T08:10:35",
+          "excerpt": "2026年9月のAWSデータ分析関連アップデートについてお届けします。…"
+        },
         {
           "title": "DynamoDBのConditionExpressionで更新競合を防ぐ：Javaで楽観ロックを実装する",
           "link": "https://zenn.dev/sponge841841/articles/2026-09-30-dynamodb-optimistic-locking-java",
           "source": "Zenn AWSトピック",
           "published": "2026-10-02T15:08:37",
           "excerpt": "DynamoDBで同じアイテムを複数の処理が同時に更新すると、後から書いた処理が先の変更を上書きする「更新消失」が起きることがあります。この対策に使えるのが、ConditionExpressionを使った楽観ロックです。…"
-        },
-        {
-          "title": "Cloudflare WorkersのService Bindingsを使って別Workerの関数を呼び出す",
-          "link": "https://dev.classmethod.jp/articles/calling-functions-in-another-worker-using-cloudflare-workers-service-bindings/",
-          "source": "DevelopersIO",
-          "published": "2026-10-02T09:34:03",
-          "excerpt": "Cloudflare Workersで複数のWorker間の処理を共有したいとき、Service Bindingsという機能を使うと便利です。…"
-        },
-        {
-          "title": "Cloudflare、Apache Icebergベースのデータ分析基盤「Basin」を一般提供",
-          "link": "https://codezine.jp/article/detail/29898",
-          "source": "CodeZine",
-          "published": "2026-10-02T08:00:00",
-          "excerpt": "Cloudflare、Apache Icebergベースのデータ分析基盤「Basin」を一般提供"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。Metaは、パーソナルAI「Muse」と連携するガジェットを自作できるプロジェクト「Muse Gadgets」を発表した。ESP32やRaspberry Pi向けSDKをGitHubでオープンソース公開。…",
+      "summary": "開発ツールの新着が10件。背景・狙い BGP の Local Preference、MED、AS_PATH prepend といった経路制御の属性は、仕様を読めば「どちらの経路が選ばれるか」は分かります。…",
       "articles": [
         {
-          "title": "Meta、AIエージェント「Muse」とつながる自作ガジェット向けSDKをオープンソースで公開　「Raspberry Pi」などに対応",
-          "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001984/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-03T01:41:21",
-          "excerpt": "Metaは、パーソナルAI「Muse」と連携するガジェットを自作できるプロジェクト「Muse Gadgets」を発表した。ESP32やRaspberry Pi向けSDKをGitHubでオープンソース公開。…"
+          "title": "AWS Site-to-Site VPN × FRR で BGP の経路制御（Local Preference / AS_PATH / MED）を手で触って試せる環境を Terraform で作った",
+          "link": "https://qiita.com/silv224/items/c93bb267a065a51310a8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-03T12:13:30",
+          "excerpt": "背景・狙い BGP の Local Preference、MED、AS_PATH prepend といった経路制御の属性は、仕様を読めば「どちらの経路が選ばれるか」は分かります。…"
         },
         {
-          "title": "GitHub Copilotに「computer use」が登場、デスクトップアプリを操作",
-          "link": "https://codezine.jp/article/detail/29899",
-          "source": "CodeZine",
-          "published": "2026-10-03T00:00:00",
-          "excerpt": "GitHub Copilotに「computer use」が登場、デスクトップアプリを操作"
+          "title": "同じAWSアカウントに似た名前のスタックが同居しているときのデプロイの守り方",
+          "link": "https://qiita.com/NaokinTV/items/f65c2f4bcf8b3a5a1293",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-03T12:07:42",
+          "excerpt": "はじめに ExcelのWBSを進捗管理ツールに置き換えた話の3本目です。…"
         },
         {
-          "title": "GitHubのimmutable subject claimsにより、GitHubとAWS間のOIDC認証がちょっと変わったのに気づきました | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/github-aws-oidc-immutable-subject-claims",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-02T23:39:51",
-          "excerpt": "こんにちは、アプリケーションサービス本部、DevOps担当の兼安です。今回は、GitHubとAWSの間のOIDC認証で、immutable subject claimsが原因でつまずきました。…"
+          "title": "AWS Client VPNをコスト控えめで運用する",
+          "link": "https://qiita.com/k-kojima-yumemi/items/9aabefd39a4a91f3bbd1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-03T12:05:18",
+          "excerpt": "はじめに なぜかモバイル用のVPNを構築する必要が出てきたので、AWSでTerraformを使いながら構築します。主にモバイル端末から新規固定IPでアクセスするための方法です。…"
         },
         {
-          "title": "Amazon ECS は、ブルー/グリーン、リニア、カナリア デプロイメントに対する Amazon VPC Lattice サポートを追加します",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-02T20:18:00",
-          "excerpt": "Amazon Elastic Container Service (Amazon ECS) は、 Amazon VPC Lattice を使用した ECS サービスの組み込みのブルー/グリーン、リニア、カナリア デプロイ戦略をサポートするよ…"
+          "title": "GitHub の新しいダッシュボード エクスペリエンスがデフォルトになりました",
+          "link": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-03T09:59:01",
+          "excerpt": "記事の URL: https://github.blog/changelog/2026-10-01-new-dashboard- experience-now-the-default/ コメント URL: https://news.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Qwik 2.0 RC で何が変わったのか、HTML コメントまで削った設計のこだわりを読んでみた",
-      "link": "https://dev.classmethod.jp/articles/qwik-2-rc-changes/",
-      "source": "DevelopersIO",
-      "published": "2026-10-03T04:10:14",
-      "excerpt": "RC が出た Qwik 2.0 を v1 と同じ starter でビルドし、SSR HTML を比べました。HTML コメント 60 個が 0 個になり、状態は末尾の qwik/state と qwik/vnode へ。…"
-    },
-    {
-      "title": "【”綺麗事”で終わらないカンファレンス】デブクロは11月25日・東京開催",
-      "link": "https://codezine.jp/article/detail/29895",
-      "source": "CodeZine",
-      "published": "2026-10-03T04:00:00",
-      "excerpt": "【”綺麗事”で終わらないカンファレンス】デブクロは11月25日・東京開催"
-    },
-    {
-      "title": "韓国6行に「AIハッキング」、4行で個人情報流出",
-      "link": "https://www.chosunonline.com/site/data/html_dir/2026/10/03/2026100380012.html",
-      "source": "はてなブックマーク（テクノロジー）",
-      "published": "2026-10-03T03:45:48",
-      "excerpt": "韓国6行に「AIハッキング」、4行で個人情報流出 1日から2日にかけて、新韓銀行・KB国民銀行・ハナ銀行・ウリ銀行・NH農協銀行・BNK釜山銀行など、韓国国内の少なくとも6つの銀行で、AI（人工知能）ツールを活用したとみられるハッキング攻撃…"
-    },
-    {
-      "title": "エクストラビッグアスインテリジェンス",
-      "link": "https://www.extrabigassintelligence.com/",
+      "title": "Great Question (YC W21) がカナダでプロダクト エンジニアを募集しています (リモート)",
+      "link": "https://www.ycombinator.com/companies/great-question/jobs/agEqBYD-product-engineer-ai-full-stack",
       "source": "Hacker News（英語）",
-      "published": "2026-10-03T03:19:10",
-      "excerpt": "記事の URL: https://www.extrabigassintelligence.com/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-10-03T12:02:10",
+      "excerpt": "記事の URL: https://www.ycombinator.…"
+    },
+    {
+      "title": "賢いデータベースですが、Doom を実行できるでしょうか?",
+      "link": "https://www.theregister.com/databases/2026/10/03/clever-database-but-can-it-run-doom/5300506",
+      "source": "The Register（英語）",
+      "published": "2026-10-03T12:02:00",
+      "excerpt": "レグハックは「望むものには気をつけろ」の意味を学ぶ"
+    },
+    {
+      "title": "Amazon、データセンター批判に反論　10億ドル超の地域支援策も発表",
+      "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001985/",
+      "source": "ITmedia NEWS",
+      "published": "2026-10-03T08:52:00",
+      "excerpt": "AWSのマット・ガーマンCEOは、データセンター建設批判に反論する声明を出した。水資源枯渇などの懸念を「迷信”と否定しつつ、電力料金負担や自治体とのNDA撤廃を含む行動指針を発表。…"
+    },
+    {
+      "title": "パランティアのフランス料理好きがテクノロジー業界の最新の流行を作り上げた – 前方展開するエンジニア",
+      "link": "https://www.theregister.com/channel/2026/10/03/palantirs-fondness-for-french-food-cooked-up-techs-latest-fad-forward-deployed-engineers/5300360",
+      "source": "The Register（英語）",
+      "published": "2026-10-03T08:02:00",
+      "excerpt": "新しいテクノロジーの最新情報を迅速に提供してくれる組み込みコンサルタントは新しいものではありませんが、AI の時代に対応しています"
     }
   ]
 }
