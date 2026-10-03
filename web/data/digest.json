@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-10-03T12:39:19",
+  "generated_at": "2026-10-03T16:50:31",
   "window_hours": 24,
-  "total": 115,
+  "total": 114,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。Claude Code の v2.1.288（2026-10-02 公開）がリリースされました。本記事では主要な変更点を整理し、本日は`/code-review` に追加された `--max-findings` を試してみました。",
+      "summary": "生成AIの新着が21件。本人も認めているが、デイビッド・ロビンソンは「ありきたりな人物」だ。大手AI企業の従業員が、退職の際に重大な警告を発したのだ。",
       "articles": [
         {
-          "title": "Claude Code v2.1.288 の主要アップデート - /code-review の --max-findings 追加と bash -c 内の危険な rm の確認漏れ修正",
-          "link": "https://dev.classmethod.jp/articles/20261003-cc-updates-v2-1-288/",
+          "title": "OpenAIの安全担当社員が辞任、会社の「文化が壊れている」と主張",
+          "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-03T16:30:01",
+          "excerpt": "本人も認めているが、デイビッド・ロビンソンは「ありきたりな人物」だ。大手AI企業の従業員が、退職の際に重大な警告を発したのだ。"
+        },
+        {
+          "title": "Anthropic のスーパー バグハンティング モデル Mythos は、攻撃を受けている最新の脆弱性が示すように、数学が得意です。",
+          "link": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
+          "source": "The Register（英語）",
+          "published": "2026-10-03T15:27:00",
+          "excerpt": "VulnCheckの研究者によると、悪用の試みは中国でホストされているIPからのものだった"
+        },
+        {
+          "title": "テキスト メッセージ内に存在できるすべての AI エージェント",
+          "link": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-03T14:00:00",
+          "excerpt": "一般的なアシスタントから家族、旅行、仕事向けに設計されたエージェントまで、テキスト メッセージ内に存在できる最も注目すべき AI エージェントのリストを作成しました。"
+        },
+        {
+          "title": "【登壇資料】DevelopersIO 2026 Osakaで「Claude Code × 複数タスクで セッション乱⽴！「Orca」の意外な使い⽅で まるごと整理してみた」というタイトルで登壇しました！ #devio2026",
+          "link": "https://dev.classmethod.jp/articles/devio2026-osaka-claude-code-orca-task-organization/",
           "source": "DevelopersIO",
-          "published": "2026-10-03T11:17:35",
-          "excerpt": "Claude Code の v2.1.288（2026-10-02 公開）がリリースされました。本記事では主要な変更点を整理し、本日は`/code-review` に追加された `--max-findings` を試してみました。"
-        },
-        {
-          "title": "Claude Code の blockReadsOutsideWorkingDirectories で作業ディレクトリ外の読み取りを拒否してみた",
-          "link": "https://dev.classmethod.jp/articles/claude-code-block-reads-outside-working-directories/",
-          "source": "DevelopersIO",
-          "published": "2026-10-03T10:37:00",
-          "excerpt": "Claude Code の blockReadsOutsideWorkingDirectories で作業ディレクトリ外の読み取りを拒否してみた"
-        },
-        {
-          "title": "Claude Code更新 Ultracode独立切替【9/25〜10/1】 | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/10/03/190000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-03T10:00:00",
-          "excerpt": "はじめに サーバーワークスの池田です。今週（9/25〜10/1）のClaude Codeは、v2.1.283からv2.1.287まで5バージョンが公開されました（欠番はありません）。日付と版は公式CHANGELOGの表記に合わせています。…"
-        },
-        {
-          "title": "Show HN: Offrun – 1 つのワークスペースからすべてのコーディング エージェントを管理",
-          "link": "https://offrun.dev/",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-03T08:40:17",
-          "excerpt": "Claude Code、Codex、AGY、Grok Build を並行して実行します。誰が働いているか、誰があなたを必要としているか、各アカウントに何が残っているかを確認します。コメント URL: https://news.…"
+          "published": "2026-10-03T12:57:26",
+          "excerpt": "DevelopersIO 2026 Osakaで登壇した「Claude Code × 複数タスク」についてのセッション内容をご紹介します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。はじめに 仕事のプロジェクトで、WBS（作業分解構成図）を Excel で管理していました。困っていたのは次の3つです。どのファイルが最新か分からない（WBS_最新_修正版(2).…",
+      "summary": "クラウドの新着が13件。Target GroupにEC2を登録する ― 「作る」と「つなぐ」は別 前回までで、ここまで構成ができました。…",
       "articles": [
+        {
+          "title": "第9回 Terraform講座  Target Group EC2",
+          "link": "https://qiita.com/nyarusasu22/items/1321ee59c095c9db07a6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-03T14:38:34",
+          "excerpt": "Target GroupにEC2を登録する ― 「作る」と「つなぐ」は別 前回までで、ここまで構成ができました。…"
+        },
+        {
+          "title": "RecSys 2026の論文を紹介するぜ！ | エムスリーテックブログ",
+          "link": "https://www.m3tech.blog/entry/2026/10/03/210914",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-03T12:09:14",
+          "excerpt": "こんにちは。エンジニアリンググループのAI・機械学習チームに所属している鴨田 です。弊チームでは毎週1時間の技術共有会を実施しており、各自が担当するプロダクトの技術や、最近読んだ論文を紹介しています。…"
+        },
         {
           "title": "ExcelのWBSを捨てずに、AWSサーバーレスの進捗管理ツールへ置き換えた",
           "link": "https://qiita.com/NaokinTV/items/00d0589ddb1bb472f159",
@@ -57,28 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-10-03T08:42:46",
           "excerpt": "また互換性がひとつ向上しました"
-        },
-        {
-          "title": "`DependsOn`で「S3 VPC Endpointが有効になってからDBサーバを起動する」を保証する",
-          "link": "https://qiita.com/caymezon/items/42e9e740f330e247eed7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-03T06:16:15",
-          "excerpt": "背景 パブリックサブネット（APサーバ）とプライベートサブネット（DBサーバ）に分離した2層構成をCloudFormationで自動構築しました。…"
-        },
-        {
-          "title": "【AWS初心者】Docker・ECR・ECSの関係を図で理解する",
-          "link": "https://qiita.com/yamayuri/items/6a8c76855b83be141c1f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-03T05:10:48",
-          "excerpt": "はじめに AWSを勉強していると、 Docker コンテナ ECR ECS Task Definition Task Service Fargate など、似たような単語がたくさん出てきます。最初は「結局それぞれ何なの？…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。こんにちは、アプリケーションサービス本部、DevOps担当の兼安です。今回は、GitHubとAWSの間のOIDC認証で、immutable subject claimsが原因でつまずきました。…",
+      "summary": "セキュリティの新着が3件。VulnCheckの研究者によると、悪用の試みは中国でホストされているIPからのものだった",
       "articles": [
+        {
+          "title": "Anthropic のスーパー バグハンティング モデル Mythos は、攻撃を受けている最新の脆弱性が示すように、数学が得意です。",
+          "link": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
+          "source": "The Register（英語）",
+          "published": "2026-10-03T15:27:00",
+          "excerpt": "VulnCheckの研究者によると、悪用の試みは中国でホストされているIPからのものだった"
+        },
         {
           "title": "GitHubのimmutable subject claimsにより、GitHubとAWS間のOIDC認証がちょっと変わったのに気づきました | サーバーワークスエンジニアブログ",
           "link": "https://blog.serverworks.co.jp/github-aws-oidc-immutable-subject-claims",
@@ -92,49 +99,49 @@
           "source": "ITmedia NEWS",
           "published": "2026-10-02T23:38:07",
           "excerpt": "複数の顧客から「注文情報と一致する不審な返金案内メールを受信した」との問い合わせが寄せられ、同社が調査を始めて判明した。"
-        },
-        {
-          "title": "7 年前の Nvidia Shield TV は AI のせいで 100 ドル高くなっています",
-          "link": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-10-02T14:52:16",
-          "excerpt": "2019 年に初めて発売された Nvidia Shield TV Pro の価格は、現在 299.99 ドルです。"
-        },
-        {
-          "title": "医療記録大手エピック、患者データを危険にさらすセキュリティバグを修正するため製品開発を一時停止",
-          "link": "https://techcrunch.com/2026/10/02/medical-records-giant-epic-pauses-product-development-to-fix-security-bugs-that-risk-patients-data/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-02T13:23:09",
-          "excerpt": "医療データにアクセスするために広く使用されている MyChart システムを開発しているヘルステック ソフトウェアの巨人は、今後数週間セキュリティ バグの修正に注力する予定です。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。2026年9月のAWSデータ分析関連アップデートについてお届けします。…",
+      "summary": "データ分析の新着が2件。規制の影響で、インドではBitchatをほとんど利用できなくなった。",
       "articles": [
+        {
+          "title": "ジャック・ドーシー氏の「Bitchat」が政府命令を受けてインドのアプリストアから消える",
+          "link": "https://techcrunch.com/2026/10/03/jack-dorseys-bitchat-disappears-from-app-stores-in-india-after-government-order/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-03T15:02:01",
+          "excerpt": "規制の影響で、インドではBitchatをほとんど利用できなくなった。"
+        },
         {
           "title": "クラスメソッド データアナリティクス通信(AWSデータ分析編) – 2026年10月号",
           "link": "https://dev.classmethod.jp/articles/cm-news-analytics-202610/",
           "source": "DevelopersIO",
           "published": "2026-10-03T08:10:35",
           "excerpt": "2026年9月のAWSデータ分析関連アップデートについてお届けします。…"
-        },
-        {
-          "title": "DynamoDBのConditionExpressionで更新競合を防ぐ：Javaで楽観ロックを実装する",
-          "link": "https://zenn.dev/sponge841841/articles/2026-09-30-dynamodb-optimistic-locking-java",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-02T15:08:37",
-          "excerpt": "DynamoDBで同じアイテムを複数の処理が同時に更新すると、後から書いた処理が先の変更を上書きする「更新消失」が起きることがあります。この対策に使えるのが、ConditionExpressionを使った楽観ロックです。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。背景・狙い BGP の Local Preference、MED、AS_PATH prepend といった経路制御の属性は、仕様を読めば「どちらの経路が選ばれるか」は分かります。…",
+      "summary": "開発ツールの新着が12件。Target GroupにEC2を登録する ― 「作る」と「つなぐ」は別 前回までで、ここまで構成ができました。…",
       "articles": [
+        {
+          "title": "第9回 Terraform講座  Target Group EC2",
+          "link": "https://qiita.com/nyarusasu22/items/1321ee59c095c9db07a6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-03T14:38:34",
+          "excerpt": "Target GroupにEC2を登録する ― 「作る」と「つなぐ」は別 前回までで、ここまで構成ができました。…"
+        },
+        {
+          "title": "【UE5】学生時代、PlayFabを手作業で組んでいた自分に教えたい。対戦ゲームのサーバー環境はすべてTerraformで書ける",
+          "link": "https://qiita.com/EXPEVODEV/items/9559c6705a87248d7c0b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-03T14:26:05",
+          "excerpt": "はじめに 個人開発の対戦ゲームのAWSインフラをすべてTerraformで構築しました。この記事ではその構成と設計判断をまとめます。対象のゲーム「The Suitcase Agents」の特徴は次のとおりです。…"
+        },
         {
           "title": "AWS Site-to-Site VPN × FRR で BGP の経路制御（Local Preference / AS_PATH / MED）を手で触って試せる環境を Terraform で作った",
           "link": "https://qiita.com/silv224/items/c93bb267a065a51310a8",
@@ -148,52 +155,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-03T12:07:42",
           "excerpt": "はじめに ExcelのWBSを進捗管理ツールに置き換えた話の3本目です。…"
-        },
-        {
-          "title": "AWS Client VPNをコスト控えめで運用する",
-          "link": "https://qiita.com/k-kojima-yumemi/items/9aabefd39a4a91f3bbd1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-03T12:05:18",
-          "excerpt": "はじめに なぜかモバイル用のVPNを構築する必要が出てきたので、AWSでTerraformを使いながら構築します。主にモバイル端末から新規固定IPでアクセスするための方法です。…"
-        },
-        {
-          "title": "GitHub の新しいダッシュボード エクスペリエンスがデフォルトになりました",
-          "link": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-03T09:59:01",
-          "excerpt": "記事の URL: https://github.blog/changelog/2026-10-01-new-dashboard- experience-now-the-default/ コメント URL: https://news.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Great Question (YC W21) がカナダでプロダクト エンジニアを募集しています (リモート)",
-      "link": "https://www.ycombinator.com/companies/great-question/jobs/agEqBYD-product-engineer-ai-full-stack",
+      "title": "【IT業界25年目】ADHDポンコツ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』で学んだ、AWS請求額を抑えたコスパ最強な設計方法",
+      "link": "https://qiita.com/Veteran/items/70d23307b9a2c49780a5",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-03T16:31:56",
+      "excerpt": "皆さんこんにちは！10月に入って、朝晩はすっかり涼しくなってきましたね。衣替えのついでに、クローゼットの奥から去年買ったまま一度も着ていない服が出てきて、そっと戻したのは私です。…"
+    },
+    {
+      "title": "街づくりゲームには魂の問題がある pt.2",
+      "link": "https://www.radical-elements.com/minor-epiphanies/city-building-games-have-a-soul-problem-pt2",
       "source": "Hacker News（英語）",
-      "published": "2026-10-03T12:02:10",
-      "excerpt": "記事の URL: https://www.ycombinator.…"
+      "published": "2026-10-03T15:52:07",
+      "excerpt": "記事の URL: https://www.radical-elements.…"
     },
     {
-      "title": "賢いデータベースですが、Doom を実行できるでしょうか?",
-      "link": "https://www.theregister.com/databases/2026/10/03/clever-database-but-can-it-run-doom/5300506",
-      "source": "The Register（英語）",
-      "published": "2026-10-03T12:02:00",
-      "excerpt": "レグハックは「望むものには気をつけろ」の意味を学ぶ"
+      "title": "Decision 2.0 を Strands Decider と同じ 20 問で M4 Mac の MPS で試してみた",
+      "link": "https://dev.classmethod.jp/articles/decision2-strands-decider-20q-m4-mps/",
+      "source": "DevelopersIO",
+      "published": "2026-10-03T15:25:45",
+      "excerpt": "判定専用モデル Decision 2.0 の Eos-0.8B・Sol-2B・Nox-4B を Strands Decider 2B と同じ 20 問で動かし、想定内の件数、応答時間、メモリを並べました。…"
     },
     {
-      "title": "Amazon、データセンター批判に反論　10億ドル超の地域支援策も発表",
-      "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001985/",
-      "source": "ITmedia NEWS",
-      "published": "2026-10-03T08:52:00",
-      "excerpt": "AWSのマット・ガーマンCEOは、データセンター建設批判に反論する声明を出した。水資源枯渇などの懸念を「迷信”と否定しつつ、電力料金負担や自治体とのNDA撤廃を含む行動指針を発表。…"
-    },
-    {
-      "title": "パランティアのフランス料理好きがテクノロジー業界の最新の流行を作り上げた – 前方展開するエンジニア",
-      "link": "https://www.theregister.com/channel/2026/10/03/palantirs-fondness-for-french-food-cooked-up-techs-latest-fad-forward-deployed-engineers/5300360",
-      "source": "The Register（英語）",
-      "published": "2026-10-03T08:02:00",
-      "excerpt": "新しいテクノロジーの最新情報を迅速に提供してくれる組み込みコンサルタントは新しいものではありませんが、AI の時代に対応しています"
+      "title": "FTL: クラウド用の新しいオペレーティング システム",
+      "link": "https://ftl-os.org/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-03T15:02:36",
+      "excerpt": "記事の URL: https://ftl-os.org/ コメント URL: https://news.ycombinator.com/item?id=49944912 ポイント: 27 コメント数: 9"
     }
   ]
 }
