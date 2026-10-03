@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-10-03T01:31:18",
+  "generated_at": "2026-10-03T07:12:51",
   "window_hours": 24,
-  "total": 165,
+  "total": 136,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が30件。Appleは、macOSの「フルディスクアクセス」権限の付与手順を厳格化する方針を発表した。AIエージェントの自律化に伴うデータ流出リスクを抑えるため、明示的な操作や追加制御を導入する。…",
+      "summary": "生成AIの新着が29件。はじめに キーボードを使わずに文章を入力する方法として、話そうとしたときの脳活動を読み取って文字にする「脳から文字へのデコーダー」の研究が進んでいます。…",
       "articles": [
+        {
+          "title": "脳から文字へのデコーダー：公開データ・CPU・Amazon Bedrockで再現",
+          "link": "https://qiita.com/yama3133/items/5a1cf892174fff87abe1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-03T06:40:00",
+          "excerpt": "はじめに キーボードを使わずに文章を入力する方法として、話そうとしたときの脳活動を読み取って文字にする「脳から文字へのデコーダー」の研究が進んでいます。…"
+        },
+        {
+          "title": "AWS DevOps Agent Skills を作成するためのベストプラクティス",
+          "link": "https://aws.amazon.com/jp/blogs/news/best-practices-for-writing-aws-devops-agent-skills/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-03T06:18:08",
+          "excerpt": "深夜のインシデント対応の質は、誰が呼び出されるかによって変わってしまいがちです。…"
+        },
+        {
+          "title": "Meta、AIエージェント「Muse」とつながる自作ガジェット向けSDKをオープンソースで公開　「Raspberry Pi」などに対応",
+          "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001984/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-03T01:41:21",
+          "excerpt": "Metaは、パーソナルAI「Muse」と連携するガジェットを自作できるプロジェクト「Muse Gadgets」を発表した。ESP32やRaspberry Pi向けSDKをGitHubでオープンソース公開。…"
+        },
         {
           "title": "Apple、macOSの「フルディスクアクセス」に追加の制御を導入へ　「AIエージェントの進化でリスクが大幅に増大」",
           "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001983/",
           "source": "ITmedia NEWS",
           "published": "2026-10-03T00:38:06",
           "excerpt": "Appleは、macOSの「フルディスクアクセス」権限の付与手順を厳格化する方針を発表した。AIエージェントの自律化に伴うデータ流出リスクを抑えるため、明示的な操作や追加制御を導入する。…"
-        },
-        {
-          "title": "「AIの同僚」をどう管理する？　OpenAIが企業ITに与えるインパクト",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2610/03/news002.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-10-02T22:00:00",
-          "excerpt": "OpenAIは年次イベント「DevDay 2026」で20を超える発表をした。中でも企業の働き方に直結するのが、常時稼働エージェント「dots」と協働拠点「ChatGPT Space」だ。AIを同僚として迎える環境は何を変えるのか。"
-        },
-        {
-          "title": "Kiro で Claude Sonnet 5.5 が選択可能になったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/kiro-claude-sonnet-5-5/",
-          "source": "DevelopersIO",
-          "published": "2026-10-02T21:17:50",
-          "excerpt": "Kiro の IDE と CLI で、最新の Sonnet である Claude Sonnet 5.5 を選べます。倍率は Sonnet 5 と同じ 1.3x です。…"
-        },
-        {
-          "title": "LLMの多段処理をforループで回すのをやめる — Step Functionsで並列要約・リトライ・人間承認を組む入門",
-          "link": "https://qiita.com/Xim2jp/items/5174d50c53e307a4d3e6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-02T21:15:53",
-          "excerpt": "LLMで100件の文書を要約するスクリプトを書いたら、途中でスロットリングに当たって止まり、どこまで終わったか分からなくなった。こういうときに使えるのが AWS Step Functions です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。Amazon EC2の将来日付のキャパシティ予約で、開始日を延期できるようになりました。キャンセル料なしで柔軟に日程調整できるこの新機能を、実際に試しながら詳しく解説します。",
+      "summary": "クラウドの新着が13件。背景 パブリックサブネット（APサーバ）とプライベートサブネット（DBサーバ）に分離した2層構成をCloudFormationで自動構築しました。…",
       "articles": [
+        {
+          "title": "`DependsOn`で「S3 VPC Endpointが有効になってからDBサーバを起動する」を保証する",
+          "link": "https://qiita.com/caymezon/items/42e9e740f330e247eed7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-03T06:16:15",
+          "excerpt": "背景 パブリックサブネット（APサーバ）とプライベートサブネット（DBサーバ）に分離した2層構成をCloudFormationで自動構築しました。…"
+        },
+        {
+          "title": "【AWS初心者】Docker・ECR・ECSの関係を図で理解する",
+          "link": "https://qiita.com/yamayuri/items/6a8c76855b83be141c1f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-03T05:10:48",
+          "excerpt": "はじめに AWSを勉強していると、 Docker コンテナ ECR ECS Task Definition Task Service Fargate など、似たような単語がたくさん出てきます。最初は「結局それぞれ何なの？…"
+        },
+        {
+          "title": "EC2（t3.micro）でrbenv installが失敗した原因（OOM Killer／tmpfs不足）と対処法",
+          "link": "https://qiita.com/tota_0214/items/d0e6e02f9619213dbc01",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-03T04:28:17",
+          "excerpt": "日々、書きたい記事が溜まっていく今日この頃、今朝は早起きしたので、失敗からの学びにつながった記事を書きます。EC2（t3.micro）にRuby 3.1.4をインストールする際、 rbenv install 3.1.…"
+        },
         {
           "title": "Amazon EC2 の将来日付のオンデマンドキャパシティ予約が開始日の延期に対応したので試してみた",
           "link": "https://dev.classmethod.jp/articles/amazon-ec2-future-dated-capacity-reservations-postpone-start-date/",
           "source": "DevelopersIO",
           "published": "2026-10-03T01:00:33",
           "excerpt": "Amazon EC2の将来日付のキャパシティ予約で、開始日を延期できるようになりました。キャンセル料なしで柔軟に日程調整できるこの新機能を、実際に試しながら詳しく解説します。"
-        },
-        {
-          "title": "Amazon ECS は、ブルー/グリーン、リニア、カナリア デプロイメントに対する Amazon VPC Lattice サポートを追加します",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-02T20:18:00",
-          "excerpt": "Amazon Elastic Container Service (Amazon ECS) は、 Amazon VPC Lattice を使用した ECS サービスの組み込みのブルー/グリーン、リニア、カナリア デプロイ戦略をサポートするよ…"
-        },
-        {
-          "title": "VercelからS3＋CloudFrontへ移行した。Cloudflare DNSのままTerraformで管理する",
-          "link": "https://qiita.com/kaito071831/items/4469900c84a548bbe7b4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-02T18:13:17",
-          "excerpt": "はじめに どうもとーくんです。…"
-        },
-        {
-          "title": "Amazon Aurora DSQL が部分インデックスをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-02T17:30:00",
-          "excerpt": "Amazon Aurora DSQL では、テーブルの特定のサブセットに対してインデックスを構築し、テーブル全体のすべての行ではなく条件を満たす行のみを保存できるようになりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。こんにちは、アプリケーションサービス本部、DevOps担当の兼安です。今回は、GitHubとAWSの間のOIDC認証で、immutable subject claimsが原因でつまずきました。…",
+      "summary": "セキュリティの新着が10件。こんにちは、アプリケーションサービス本部、DevOps担当の兼安です。今回は、GitHubとAWSの間のOIDC認証で、immutable subject claimsが原因でつまずきました。…",
       "articles": [
         {
           "title": "GitHubのimmutable subject claimsにより、GitHubとAWS間のOIDC認証がちょっと変わったのに気づきました | サーバーワークスエンジニアブログ",
@@ -140,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。GitHub Copilotに「computer use」が登場、デスクトップアプリを操作",
+      "summary": "開発ツールの新着が8件。Metaは、パーソナルAI「Muse」と連携するガジェットを自作できるプロジェクト「Muse Gadgets」を発表した。ESP32やRaspberry Pi向けSDKをGitHubでオープンソース公開。…",
       "articles": [
+        {
+          "title": "Meta、AIエージェント「Muse」とつながる自作ガジェット向けSDKをオープンソースで公開　「Raspberry Pi」などに対応",
+          "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001984/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-03T01:41:21",
+          "excerpt": "Metaは、パーソナルAI「Muse」と連携するガジェットを自作できるプロジェクト「Muse Gadgets」を発表した。ESP32やRaspberry Pi向けSDKをGitHubでオープンソース公開。…"
+        },
         {
           "title": "GitHub Copilotに「computer use」が登場、デスクトップアプリを操作",
           "link": "https://codezine.jp/article/detail/29899",
@@ -162,45 +169,38 @@
           "source": "AWS What's New（英語）",
           "published": "2026-10-02T20:18:00",
           "excerpt": "Amazon Elastic Container Service (Amazon ECS) は、 Amazon VPC Lattice を使用した ECS サービスの組み込みのブルー/グリーン、リニア、カナリア デプロイ戦略をサポートするよ…"
-        },
-        {
-          "title": "VercelからS3＋CloudFrontへ移行した。Cloudflare DNSのままTerraformで管理する",
-          "link": "https://qiita.com/kaito071831/items/4469900c84a548bbe7b4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-02T18:13:17",
-          "excerpt": "はじめに どうもとーくんです。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "2026年10月3日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-      "link": "https://qiita.com/ennagara128/items/a23a18e206916a4b95dc",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-03T01:00:58",
-      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
+      "title": "Qwik 2.0 RC で何が変わったのか、HTML コメントまで削った設計のこだわりを読んでみた",
+      "link": "https://dev.classmethod.jp/articles/qwik-2-rc-changes/",
+      "source": "DevelopersIO",
+      "published": "2026-10-03T04:10:14",
+      "excerpt": "RC が出た Qwik 2.0 を v1 と同じ starter でビルドし、SSR HTML を比べました。HTML コメント 60 個が 0 個になり、状態は末尾の qwik/state と qwik/vnode へ。…"
     },
     {
-      "title": "Meta は次のガジェットに Muse を導入することを望んでいます",
-      "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-03T00:45:39",
-      "excerpt": "Meta はテレビやトースターに Muse を搭載したいと考えており、コードを無料で配布しています。"
+      "title": "【”綺麗事”で終わらないカンファレンス】デブクロは11月25日・東京開催",
+      "link": "https://codezine.jp/article/detail/29895",
+      "source": "CodeZine",
+      "published": "2026-10-03T04:00:00",
+      "excerpt": "【”綺麗事”で終わらないカンファレンス】デブクロは11月25日・東京開催"
     },
     {
-      "title": "靴のムーンスター、顧客情報漏えいの可能性　氏名や住所、注文情報など",
-      "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001982/",
-      "source": "ITmedia NEWS",
-      "published": "2026-10-03T00:34:33",
-      "excerpt": "3月26日に公表した不正アクセスの疑いの続報。約半年後に漏えいの可能性を報告した。"
+      "title": "韓国6行に「AIハッキング」、4行で個人情報流出",
+      "link": "https://www.chosunonline.com/site/data/html_dir/2026/10/03/2026100380012.html",
+      "source": "はてなブックマーク（テクノロジー）",
+      "published": "2026-10-03T03:45:48",
+      "excerpt": "韓国6行に「AIハッキング」、4行で個人情報流出 1日から2日にかけて、新韓銀行・KB国民銀行・ハナ銀行・ウリ銀行・NH農協銀行・BNK釜山銀行など、韓国国内の少なくとも6つの銀行で、AI（人工知能）ツールを活用したとみられるハッキング攻撃…"
     },
     {
-      "title": "惑星はどこにあるのか",
-      "link": "http://whereistheplanet.com",
+      "title": "エクストラビッグアスインテリジェンス",
+      "link": "https://www.extrabigassintelligence.com/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-03T00:26:19",
-      "excerpt": "記事の URL: http://whereistheplanet.com コメント URL: https://news.ycombinator.com/item?id=49940233 ポイント: 5 コメント数: 0"
+      "published": "2026-10-03T03:19:10",
+      "excerpt": "記事の URL: https://www.extrabigassintelligence.com/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
