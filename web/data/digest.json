@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T14:29:12",
+  "generated_at": "2026-10-04T18:16:56",
   "window_hours": 24,
   "total": 92,
   "topic_count": 5,
@@ -7,8 +7,22 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が11件。PostgreSQLをベースにしたデータベースサービス「Supabase」などを提供しているSupabaseは、SQLiteをベースとしたデータベースサービスを提供する「Turso」を買収したことを発表しました。Turso is join.…",
+      "summary": "生成AIの新着が11件。記事の URL: https://blog.jetbrains.…",
       "articles": [
+        {
+          "title": "セマンティック コード検索のための RAG パイプラインの構築",
+          "link": "https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-04T17:51:48",
+          "excerpt": "記事の URL: https://blog.jetbrains.…"
+        },
+        {
+          "title": "「知らないと大損！Opus 5.5とコーディングエージェントで枠を溶かさない3つの対策」～【claude】人気記事（2026/10/04） | CareNet Engineersのフィード",
+          "link": "https://zenn.dev/carenet/articles/zenn-weekly-claude-articles-2026-10",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-04T16:10:17",
+          "excerpt": "!この記事はZennからclaudeのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「知らないと大損！Opus 5.…"
+        },
         {
           "title": "Supabase、1サーバあたり数百万ものSQLiteをホストする「Turso」買収を発表。AIエージェントで加速するDB需要に対応",
           "link": "https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html",
@@ -22,27 +36,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-04T13:17:09",
           "excerpt": "2026年7月にKubeCon + CloudNativeCon Japan 2026で、Liz Rice氏の「Detecting Compromised CI with eBPF and Cilium Tetragon」を聞きました。…"
-        },
-        {
-          "title": "[アップデート] AWS Security Agent の PR 自動レビューが対象ブランチやラベルで絞れるようになりました",
-          "link": "https://dev.classmethod.jp/articles/security-agent-pr-review-condition/",
-          "source": "DevelopersIO",
-          "published": "2026-10-04T10:49:55",
-          "excerpt": "今までは対象リポジトリであれば全部対象だった"
-        },
-        {
-          "title": "BedrockのTokenomicsを実践してみた requestMetadataとModel Invocation Loggingを使ってリクエスト単位で可視化",
-          "link": "https://qiita.com/R-You/items/c56c43dacba4bc41b5e2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-04T07:50:29",
-          "excerpt": "はじめに 内容は執筆時点の情報です。記事はClaudeと一緒に作りましたが、最終調整・確認は人間がしてます。生成AIアプリケーションを運用していくうえで、 「誰が・何に・どれだけ利用しているのか」を把握することは、コスト管理の第一歩です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。Lambda Version Lambdaではコードを更新したあと、Versionを発行して特定状態の関数を固定できます。例えば、 $LATEST │ ├─ publish ▼ Version 1 コード更新 $LATEST │ ├─ ..…",
+      "summary": "クラウドの新着が8件。Lambda Version Lambdaではコードを更新したあと、Versionを発行して特定状態の関数を固定できます。例えば、 $LATEST │ ├─ publish ▼ Version 1 コード更新 $LATEST │ ├─ ..…",
       "articles": [
         {
           "title": "Lambdaの機能と設計パターンについてDVA対策としてまとめてみる",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が3件。今までは対象リポジトリであれば全部対象だった",
+      "summary": "セキュリティの新着が2件。今までは対象リポジトリであれば全部対象だった",
       "articles": [
         {
           "title": "[アップデート] AWS Security Agent の PR 自動レビューが対象ブランチやラベルで絞れるようになりました",
@@ -92,21 +92,28 @@
           "source": "はてなブックマーク（テクノロジー）",
           "published": "2026-10-04T03:07:44",
           "excerpt": "PC上で開発中のWebアプリを外部から確認するには、ポート開放やサーバー設定などの手間がかかります。…"
-        },
-        {
-          "title": "Anthropic のスーパー バグハンティング モデル Mythos は、攻撃を受けている最新の脆弱性が示すように、数学が得意です。",
-          "link": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
-          "source": "The Register（英語）",
-          "published": "2026-10-03T15:27:00",
-          "excerpt": "VulnCheckの研究者によると、悪用の試みは中国でホストされているIPからのものだった"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Amazon DynamoDB Streams はじめに 連載の最終回です。前回は、DynamoDB Streams + Lambda の消費能力が S ...",
+      "summary": "データ分析の新着が4件。TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。",
       "articles": [
+        {
+          "title": "TechCrunch Mobility: ロボタクシーの制御",
+          "link": "https://techcrunch.com/2026/10/04/techcrunch-mobility-reining-in-robotaxis/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-04T16:05:00",
+          "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。"
+        },
+        {
+          "title": "DynamoDBの機能と設計パターンについてDVA対策としてまとめてみる",
+          "link": "https://qiita.com/keitakei777/items/bc3f7619ccd2a4fa5090",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-04T15:14:52",
+          "excerpt": "Partition Key DynamoDBでは、データを識別するためにPrimary Keyを設定します。最もシンプルなのがPartition Keyだけを使用する構成です。…"
+        },
         {
           "title": "【DynamoDB Streams】シャードを増やして Lambda の同時実行数を増やせるか確かめてみる",
           "link": "https://qiita.com/jus1730/items/a342013246b1da55b730",
@@ -120,28 +127,28 @@
           "source": "CodeZine",
           "published": "2026-10-04T04:00:00",
           "excerpt": "AWS、請求コンテキストを返す「ListBillingViewSegments API」を提供開始"
-        },
-        {
-          "title": "DynamoDBのS3エクスポートにフィルタ指定が追加。FullとIncrementalで試してみた",
-          "link": "https://dev.classmethod.jp/articles/dynamodb-filtered-export-s3/",
-          "source": "DevelopersIO",
-          "published": "2026-10-03T17:05:42",
-          "excerpt": "DynamoDBのExport to S3に追加されたフィルタ指定を、FullとIncrementalで試しました。更新の多いテーブルのスナップショットなどで、必要な項目だけを出力できるかを確認しています。"
-        },
-        {
-          "title": "ジャック・ドーシー氏の「Bitchat」が政府命令を受けてインドのアプリストアから消える",
-          "link": "https://techcrunch.com/2026/10/03/jack-dorseys-bitchat-disappears-from-app-stores-in-india-after-government-order/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-03T15:02:01",
-          "excerpt": "規制の影響で、インドではBitchatをほとんど利用できなくなった。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。2026年7月にKubeCon + CloudNativeCon Japan 2026で、Liz Rice氏の「Detecting Compromised CI with eBPF and Cilium Tetragon」を聞きました。…",
+      "summary": "開発ツールの新着が9件。記事の URL: https://awesomedataviz.com/ コメント URL: https://news.ycombinator.com/item?id=49956183 ポイント: 3 コメント数: 0",
       "articles": [
+        {
+          "title": "Show HN: Dataviz、GitHub、NPM、PyPI、CRAN から毎日ランク付けされます",
+          "link": "https://awesomedataviz.com/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-04T17:54:49",
+          "excerpt": "記事の URL: https://awesomedataviz.com/ コメント URL: https://news.ycombinator.com/item?id=49956183 ポイント: 3 コメント数: 0"
+        },
+        {
+          "title": "「知らないと大損！Opus 5.5とコーディングエージェントで枠を溶かさない3つの対策」～【claude】人気記事（2026/10/04） | CareNet Engineersのフィード",
+          "link": "https://zenn.dev/carenet/articles/zenn-weekly-claude-articles-2026-10",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-04T16:10:17",
+          "excerpt": "!この記事はZennからclaudeのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「知らないと大損！Opus 5.…"
+        },
         {
           "title": "AWS CodeBuildでTetragonを動かしてnpm postinstallの通信を止めてみた",
           "link": "https://qiita.com/suzuki0430/items/f1f02240694651d37fe1",
@@ -155,25 +162,25 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-04T07:41:33",
           "excerpt": "背景 Spring Boot + Maven + Tomcat + RDS MySQLでCRUDアプリを構築するハンズオンをAWSコンソールで手動実施しました。…"
-        },
-        {
-          "title": "ずんだもんと学ぶTerraform：実践編",
-          "link": "https://zenn.dev/bonobono/books/zundamon-terraform-jissen",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-04T07:32:41",
-          "excerpt": "入門編を読み終えたエンジニアに向けて、ずんだもん（学ぶ側）と四国めたん（教える側）の対話形式でTerraformのチーム運用を解説する実践書。…"
-        },
-        {
-          "title": "GitHub Copilot、9月に発表したVS Code向けの新機能をまとめて紹介",
-          "link": "https://codezine.jp/article/detail/29896",
-          "source": "CodeZine",
-          "published": "2026-10-04T00:00:00",
-          "excerpt": "GitHub Copilot、9月に発表したVS Code向けの新機能をまとめて紹介"
         }
       ]
     }
   ],
   "uncategorized": [
+    {
+      "title": "法務およびガバナンスの実践のための AI 安全性ブートキャンプを共同主導して学んだこと",
+      "link": "https://www.lesswrong.com/posts/KtAug62dYRgAS8sqJ/what-i-learnt-co-leading-an-ai-safety-bootcamp-for-legal-and",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-04T17:21:26",
+      "excerpt": "記事の URL: https://www.lesswrong.…"
+    },
+    {
+      "title": "ブラインドサイト (ワッツ・ノベル)",
+      "link": "https://en.wikipedia.org/wiki/Blindsight_(Watts_novel)",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-04T16:25:17",
+      "excerpt": "記事の URL: https://en.wikipedia.org/wiki/Blindsight_(Watts_novel) コメント URL: https://news.ycombinator.com/item?…"
+    },
     {
       "title": "世界中のソフトウェア開発者の実態を調べた「State of Devs 2026」公開。何歳？ 年収は？ モニタは何枚？ AIにどのくらいコードを書かせている？ 趣味は？ など集計結果",
       "link": "https://www.publickey1.jp/blog/26/state_of_devs_2026_ai.html",
@@ -182,25 +189,11 @@
       "excerpt": "IT関連の各種調査を行っているプロジェクトDevographicsは、世界中のソフトウェア開発者の実態などをアンケートで調査した「State of Devs 2026」の結果を公開しました。ここでは全体の結果から興味深いところをいくつか抜.…"
     },
     {
-      "title": "【登壇レポート】「JAWS-UG 茨城 #17 秋の推しAWSサービスLTまつり！」でAmazon Connect Customerを推してきました",
-      "link": "https://qiita.com/yosuke-suzuki/items/57944289a533bd6a7585",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-04T14:18:56",
-      "excerpt": "はじめに こんにちは！アマコネ芸人です。2026年9月30日にオンラインで開催された、JAWS-UG茨城の第17回「秋の推しAWSサービスLTまつり！」にて、登壇させていただきました。本記事では発表した内容を簡単にまとめます。…"
-    },
-    {
-      "title": "Qwen 3.8 Flash Next (125B) を民生用ハードウェア (RTX 4090) 上で 100T/s で実行",
-      "link": "https://github.com/Niko1221/Strata",
+      "title": "車は車輪の付いたスマートフォンです。聞いている人はここです",
+      "link": "https://automatictransmission.khoury.northeastern.edu/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-04T12:51:53",
-      "excerpt": "記事の URL: https://github.com/Niko1221/Strata コメント URL: https://news.ycombinator.com/item?id=49953495 ポイント: 107 コメント数: 38"
-    },
-    {
-      "title": "ギフテッドおよび二度優秀な子供における拒絶感受性",
-      "link": "https://teachyourkids.substack.com/p/rejection-sensitivity-in-gifted-and",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-04T11:58:47",
-      "excerpt": "記事の URL: https://teachyourkids.substack.com/p/rejection-sensitivity-in-gifted-and コメント URL: https://news.ycombinator.…"
+      "published": "2026-10-04T15:43:14",
+      "excerpt": "記事の URL: https://automatictransmission.khoury.northeastern.edu/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
