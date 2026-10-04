@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-10-03T22:30:36",
+  "generated_at": "2026-10-04T02:12:30",
   "window_hours": 24,
-  "total": 92,
+  "total": 96,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が16件。本人も認めているが、デイビッド・ロビンソンは「ありきたりな人物」だ。大手AI企業の従業員が、退職の際に重大な警告を発したのだ。",
+      "summary": "生成AIの新着が16件。設備トラブル対応を支援するAIアシスタントを、Amazon Bedrockで構築しました。マニュアルと過去の対応履歴という2種類の情報源をどう組み合わせるかで、回答精度がどう変わるか、5段階で検証してみました。",
       "articles": [
+        {
+          "title": "[Amazon Bedrock] 設備が止まった。マニュアルと過去トラブル履歴を組み合わせたトラブル対応アシスタントを、50 問で評価しながら作ってみました",
+          "link": "https://dev.classmethod.jp/articles/bedrock-troubleshooting-assistant-search-both-sources/",
+          "source": "DevelopersIO",
+          "published": "2026-10-04T00:32:02",
+          "excerpt": "設備トラブル対応を支援するAIアシスタントを、Amazon Bedrockで構築しました。マニュアルと過去の対応履歴という2種類の情報源をどう組み合わせるかで、回答精度がどう変わるか、5段階で検証してみました。"
+        },
+        {
+          "title": "「OpenAIの文化は壊れている」──安全性報告書を統括した従業員が退社し、寄稿",
+          "link": "https://www.itmedia.co.jp/news/article/2610/04/2000001986/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-03T23:05:47",
+          "excerpt": "OpenAIで安全性報告の執筆を統括したデビッド・ロビンソン氏が退社し、企業文化の崩壊を訴える記事を寄稿した。現行の反復開発手法は失敗を前提としており、能力向上に伴いリスクが拡大すると指摘。…"
+        },
+        {
+          "title": "OpenAIの安全リーダーが辞任、AI企業の文化が「壊れている」と警告",
+          "link": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-03T22:18:13",
+          "excerpt": "記事の URL: https://www.theguardian.…"
+        },
         {
           "title": "OpenAIの安全担当社員が辞任、会社の「文化が壊れている」と主張",
           "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
           "source": "TechCrunch（英語）",
           "published": "2026-10-03T16:30:01",
           "excerpt": "本人も認めているが、デイビッド・ロビンソンは「ありきたりな人物」だ。大手AI企業の従業員が、退職の際に重大な警告を発したのだ。"
-        },
-        {
-          "title": "Anthropic のスーパー バグハンティング モデル Mythos は、攻撃を受けている最新の脆弱性が示すように、数学が得意です。",
-          "link": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
-          "source": "The Register（英語）",
-          "published": "2026-10-03T15:27:00",
-          "excerpt": "VulnCheckの研究者によると、悪用の試みは中国でホストされているIPからのものだった"
-        },
-        {
-          "title": "テキスト メッセージ内に存在できるすべての AI エージェント",
-          "link": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-03T14:00:00",
-          "excerpt": "一般的なアシスタントから家族、旅行、仕事向けに設計されたエージェントまで、テキスト メッセージ内に存在できる最も注目すべき AI エージェントのリストを作成しました。"
-        },
-        {
-          "title": "【登壇資料】DevelopersIO 2026 Osakaで「Claude Code × 複数タスクで セッション乱⽴！「Orca」の意外な使い⽅で まるごと整理してみた」というタイトルで登壇しました！ #devio2026",
-          "link": "https://dev.classmethod.jp/articles/devio2026-osaka-claude-code-orca-task-organization/",
-          "source": "DevelopersIO",
-          "published": "2026-10-03T12:57:26",
-          "excerpt": "DevelopersIO 2026 Osakaで登壇した「Claude Code × 複数タスク」についてのセッション内容をご紹介します。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。AWS Lambda Web Functions（lambda-web）を botocore と AWS CLI v2 のソースから読み解きました。Node.…",
+      "summary": "クラウドの新着が13件。ライターを直接変更すると、その間ずっと書き込みが止まる Aurora PostgreSQLのスケールアップで、コンソールからライターを選んでインスタンスクラスを変更する手順は、作業ステップ数だけ見ればいちばん短く済みます。…",
       "articles": [
+        {
+          "title": "Auroraインスタンスクラス変更で書き込みを止めない順序",
+          "link": "https://qiita.com/techdbblog/items/37f2a1f655cedb708cf6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-04T00:43:12",
+          "excerpt": "ライターを直接変更すると、その間ずっと書き込みが止まる Aurora PostgreSQLのスケールアップで、コンソールからライターを選んでインスタンスクラスを変更する手順は、作業ステップ数だけ見ればいちばん短く済みます。…"
+        },
         {
           "title": "リリース前のAWS Lambda Web Functions（lambda-web）の仕組みを公開ソースから読み解いてみた",
           "link": "https://dev.classmethod.jp/articles/aws-lambda-web-functions-source-analysis/",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-10-03T20:51:05",
           "excerpt": "AWS PrivateLink のトンネルエンドポイントで、IGW も NAT Gateway もない VPC からインターネットへ出られるか試しました。HTTP/1.…"
-        },
-        {
-          "title": "DynamoDBのS3エクスポートにフィルタ指定が追加。FullとIncrementalで試してみた",
-          "link": "https://dev.classmethod.jp/articles/dynamodb-filtered-export-s3/",
-          "source": "DevelopersIO",
-          "published": "2026-10-03T17:05:42",
-          "excerpt": "DynamoDBのExport to S3に追加されたフィルタ指定を、FullとIncrementalで試しました。更新の多いテーブルのスナップショットなどで、必要な項目だけを出力できるかを確認しています。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が3件。VulnCheckの研究者によると、悪用の試みは中国でホストされているIPからのものだった",
+      "summary": "セキュリティの新着が1件。VulnCheckの研究者によると、悪用の試みは中国でホストされているIPからのものだった",
       "articles": [
         {
           "title": "Anthropic のスーパー バグハンティング モデル Mythos は、攻撃を受けている最新の脆弱性が示すように、数学が得意です。",
@@ -85,20 +85,6 @@
           "source": "The Register（英語）",
           "published": "2026-10-03T15:27:00",
           "excerpt": "VulnCheckの研究者によると、悪用の試みは中国でホストされているIPからのものだった"
-        },
-        {
-          "title": "GitHubのimmutable subject claimsにより、GitHubとAWS間のOIDC認証がちょっと変わったのに気づきました | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/github-aws-oidc-immutable-subject-claims",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-02T23:39:51",
-          "excerpt": "こんにちは、アプリケーションサービス本部、DevOps担当の兼安です。今回は、GitHubとAWSの間のOIDC認証で、immutable subject claimsが原因でつまずきました。…"
-        },
-        {
-          "title": "「アバハウス」全顧客の情報漏えいか　会員・受注DBに不正アクセス　「不審な返金メール届いた」報告で判明",
-          "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001981/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-02T23:38:07",
-          "excerpt": "複数の顧客から「注文情報と一致する不審な返金案内メールを受信した」との問い合わせが寄せられ、同社が調査を始めて判明した。"
         }
       ]
     },
@@ -133,8 +119,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。Amazon ECS の VPC Lattice 対応がアップデートされ、ALB を省いた構成でも blue/green デプロイが可能になりました。その動作を確認しました。",
+      "summary": "開発ツールの新着が11件。GitHub Copilot、9月に発表したVS Code向けの新機能をまとめて紹介",
       "articles": [
+        {
+          "title": "GitHub Copilot、9月に発表したVS Code向けの新機能をまとめて紹介",
+          "link": "https://codezine.jp/article/detail/29896",
+          "source": "CodeZine",
+          "published": "2026-10-04T00:00:00",
+          "excerpt": "GitHub Copilot、9月に発表したVS Code向けの新機能をまとめて紹介"
+        },
         {
           "title": "ECS が VPC Lattice 経由で公開されているサービスの blue/green デプロイに対応したので試してみた",
           "link": "https://dev.classmethod.jp/articles/ecs-vpc-lattice-blue-green-deployment/",
@@ -155,45 +148,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-10-03T15:44:11",
           "excerpt": "はじめに この連載では、カード会員データ環境（CDE）を模した小さなネットワークをAWS上に作り、PCI DSSで扱われる技術要素――ネットワークの分離、アクセス制御、ログの収集と確認――を、自分の手で構築・検証してきました。…"
-        },
-        {
-          "title": "第9回 Terraform講座  Target Group EC2",
-          "link": "https://qiita.com/nyarusasu22/items/1321ee59c095c9db07a6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-03T14:38:34",
-          "excerpt": "Target GroupにEC2を登録する ― 「作る」と「つなぐ」は別 前回までで、ここまで構成ができました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "私が救急救命士になれなかった理由、ランキング",
-      "link": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-03T20:49:15",
-      "excerpt": "記事の URL: https://ben.stolovitz.com/posts/reasons-not-emt-ranked/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "Snowflakeアカウントのアカウント予算にカスタムアクションによる通知を追加する",
+      "link": "https://dev.classmethod.jp/articles/snowflake-set-notification-custom-actions-to-root-account-budget/",
+      "source": "DevelopersIO",
+      "published": "2026-10-04T02:03:49",
+      "excerpt": "Snowflakeのアカウント予算で複数の閾値での通知を実現したい場合、SQLを使ってカスタムアクションを追加することが可能です。この記事では、実際にカスタムアクションを設定して、通知閾値を設定した具体例をご紹介します。"
     },
     {
-      "title": "あなたのゴミ箱にも超広帯域無線機が入っているでしょうか?",
-      "link": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-03T20:27:44",
-      "excerpt": "記事の URL: https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/ コメント URL: https://news.ycombinator.…"
+      "title": "第50回 MFAとZero Trustはどう組み合わせて考える？ | APC 技術ブログ",
+      "link": "https://techblog.ap-com.co.jp/entry/2026/10/04/102241",
+      "source": "企業テックブログまとめ",
+      "published": "2026-10-04T01:22:41",
+      "excerpt": "「Zero Trustを進めるならMFAを入れればよい」 そう聞くことがあります。…"
     },
     {
-      "title": "HN を表示: ローカルの事前トレーニングされた分類子、GPU は不要",
-      "link": "https://github.com/nicobrenner/jeffy",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-03T20:19:09",
-      "excerpt": "私は分類器で何ができるのかに興味がありました。実際、多くの場合、場合によっては Doom をプレイすることもあります。…"
+      "title": "第49回 Device Postureって何？「誰」だけでなく「どの端末」も見る理由 | APC 技術ブログ",
+      "link": "https://techblog.ap-com.co.jp/entry/2026/10/04/102237",
+      "source": "企業テックブログまとめ",
+      "published": "2026-10-04T01:22:37",
+      "excerpt": "正しいUser IDとPasswordでLoginできたなら、そのUserからのAccessはすべて同じように扱ってよいのでしょうか。…"
     },
     {
-      "title": "アポロ13号の救出に貢献したNASAフライトディレクターのミルト・ウィンドラー氏が94歳で死去",
-      "link": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-10-03T19:45:17",
-      "excerpt": "「...私たちは歴史を作っていたのです。」"
+      "title": "第48回 SCIMって何？ユーザーやグループ情報を連携する仕組み | APC 技術ブログ",
+      "link": "https://techblog.ap-com.co.jp/entry/2026/10/04/102234",
+      "source": "企業テックブログまとめ",
+      "published": "2026-10-04T01:22:34",
+      "excerpt": "SAMLを使えば、UserがAccessしたときに「この人は誰か」というAuthentication結果をZscalerへ伝えられます。…"
     }
   ]
 }
