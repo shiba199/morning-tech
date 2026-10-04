@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-10-04T08:36:34",
+  "generated_at": "2026-10-04T14:29:12",
   "window_hours": 24,
-  "total": 97,
+  "total": 92,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が15件。はじめに 内容は執筆時点の情報です。記事はClaudeと一緒に作りましたが、最終調整・確認は人間がしてます。生成AIアプリケーションを運用していくうえで、 「誰が・何に・どれだけ利用しているのか」を把握することは、コスト管理の第一歩です。…",
+      "summary": "生成AIの新着が11件。PostgreSQLをベースにしたデータベースサービス「Supabase」などを提供しているSupabaseは、SQLiteをベースとしたデータベースサービスを提供する「Turso」を買収したことを発表しました。Turso is join.…",
       "articles": [
+        {
+          "title": "Supabase、1サーバあたり数百万ものSQLiteをホストする「Turso」買収を発表。AIエージェントで加速するDB需要に対応",
+          "link": "https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html",
+          "source": "Publickey",
+          "published": "2026-10-04T15:56:27",
+          "excerpt": "PostgreSQLをベースにしたデータベースサービス「Supabase」などを提供しているSupabaseは、SQLiteをベースとしたデータベースサービスを提供する「Turso」を買収したことを発表しました。Turso is join.…"
+        },
+        {
+          "title": "AWS CodeBuildでTetragonを動かしてnpm postinstallの通信を止めてみた",
+          "link": "https://qiita.com/suzuki0430/items/f1f02240694651d37fe1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-04T13:17:09",
+          "excerpt": "2026年7月にKubeCon + CloudNativeCon Japan 2026で、Liz Rice氏の「Detecting Compromised CI with eBPF and Cilium Tetragon」を聞きました。…"
+        },
+        {
+          "title": "[アップデート] AWS Security Agent の PR 自動レビューが対象ブランチやラベルで絞れるようになりました",
+          "link": "https://dev.classmethod.jp/articles/security-agent-pr-review-condition/",
+          "source": "DevelopersIO",
+          "published": "2026-10-04T10:49:55",
+          "excerpt": "今までは対象リポジトリであれば全部対象だった"
+        },
         {
           "title": "BedrockのTokenomicsを実践してみた requestMetadataとModel Invocation Loggingを使ってリクエスト単位で可視化",
           "link": "https://qiita.com/R-You/items/c56c43dacba4bc41b5e2",
           "source": "Qiita AWSタグ",
           "published": "2026-10-04T07:50:29",
           "excerpt": "はじめに 内容は執筆時点の情報です。記事はClaudeと一緒に作りましたが、最終調整・確認は人間がしてます。生成AIアプリケーションを運用していくうえで、 「誰が・何に・どれだけ利用しているのか」を把握することは、コスト管理の第一歩です。…"
-        },
-        {
-          "title": "【登壇資料】「LLM機能を自作して分かるSnowflake Cortex AIの強み」というタイトルで DevelopersIO 2026 Osaka Day 2に登壇しました #devio2026",
-          "link": "https://dev.classmethod.jp/articles/strengths-snowflake-cortex-ai-developersio-2026-osaka-day2-devio2026/",
-          "source": "DevelopersIO",
-          "published": "2026-10-04T04:05:52",
-          "excerpt": "DevelopersIO 2026 Osakaで「LLM機能を自作して分かるSnowflake Cortex AIの強み」というタイトルで登壇しました。…"
-        },
-        {
-          "title": "個人向けGeminiのモデル選択が厳格化　無料ユーザーが使えるのは「Flash-Lite」のみに",
-          "link": "https://www.itmedia.co.jp/news/article/2610/04/2000001987/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-04T02:27:25",
-          "excerpt": "Googleは、個人向けGeminiで利用可能なモデルを契約プランごとに見直すと告知した。…"
-        },
-        {
-          "title": "[Amazon Bedrock] 設備が止まった。マニュアルと過去トラブル履歴を組み合わせたトラブル対応アシスタントを、50 問で評価しながら作ってみました",
-          "link": "https://dev.classmethod.jp/articles/bedrock-troubleshooting-assistant-search-both-sources/",
-          "source": "DevelopersIO",
-          "published": "2026-10-04T00:32:02",
-          "excerpt": "設備トラブル対応を支援するAIアシスタントを、Amazon Bedrockで構築しました。マニュアルと過去の対応履歴という2種類の情報源をどう組み合わせるかで、回答精度がどう変わるか、5段階で検証してみました。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。AWS SCTとDMSの違いとは？「スキーマ変換」と「データ移行」を初心者向けに解説 AWSでデータベース移行について調べていると、AWS SCTとAWS DMSという名前がよく登場します。…",
+      "summary": "クラウドの新着が11件。Lambda Version Lambdaではコードを更新したあと、Versionを発行して特定状態の関数を固定できます。例えば、 $LATEST │ ├─ publish ▼ Version 1 コード更新 $LATEST │ ├─ ..…",
       "articles": [
+        {
+          "title": "Lambdaの機能と設計パターンについてDVA対策としてまとめてみる",
+          "link": "https://qiita.com/keitakei777/items/97c7440aed3cf7fc88d4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-04T14:16:12",
+          "excerpt": "Lambda Version Lambdaではコードを更新したあと、Versionを発行して特定状態の関数を固定できます。例えば、 $LATEST │ ├─ publish ▼ Version 1 コード更新 $LATEST │ ├─ ..…"
+        },
+        {
+          "title": "【DynamoDB Streams】シャードを増やして Lambda の同時実行数を増やせるか確かめてみる",
+          "link": "https://qiita.com/jus1730/items/a342013246b1da55b730",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-04T14:00:38",
+          "excerpt": "Amazon DynamoDB Streams はじめに 連載の最終回です。前回は、DynamoDB Streams + Lambda の消費能力が S ..."
+        },
         {
           "title": "AWS SCTとDMSの違いとは？「スキーマ変換」と「データ移行」を初心者向けに解説",
           "link": "https://qiita.com/namnam3225/items/da891f848f9509acb82f",
@@ -57,28 +71,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-10-04T00:43:21",
           "excerpt": "オンプレミスのデータベースをAurora PostgreSQLへ移行するとき、インスタンス料金とストレージ料金はスペックが決まれば計算できます。残るのがAurora Standardの「I/Oリクエスト」料金です。…"
-        },
-        {
-          "title": "Auroraインスタンスクラス変更で書き込みを止めない順序",
-          "link": "https://qiita.com/techdbblog/items/37f2a1f655cedb708cf6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-04T00:43:12",
-          "excerpt": "ライターを直接変更すると、その間ずっと書き込みが止まる Aurora PostgreSQLのスケールアップで、コンソールからライターを選んでインスタンスクラスを変更する手順は、作業ステップ数だけ見ればいちばん短く済みます。…"
-        },
-        {
-          "title": "リリース前のAWS Lambda Web Functions（lambda-web）の仕組みを公開ソースから読み解いてみた",
-          "link": "https://dev.classmethod.jp/articles/aws-lambda-web-functions-source-analysis/",
-          "source": "DevelopersIO",
-          "published": "2026-10-03T21:28:37",
-          "excerpt": "AWS Lambda Web Functions（lambda-web）を botocore と AWS CLI v2 のソースから読み解きました。Node.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が2件。PC上で開発中のWebアプリを外部から確認するには、ポート開放やサーバー設定などの手間がかかります。…",
+      "summary": "セキュリティの新着が3件。今までは対象リポジトリであれば全部対象だった",
       "articles": [
+        {
+          "title": "[アップデート] AWS Security Agent の PR 自動レビューが対象ブランチやラベルで絞れるようになりました",
+          "link": "https://dev.classmethod.jp/articles/security-agent-pr-review-condition/",
+          "source": "DevelopersIO",
+          "published": "2026-10-04T10:49:55",
+          "excerpt": "今までは対象リポジトリであれば全部対象だった"
+        },
         {
           "title": "localhostを爆速でインターネットへ安全に公開する「Cloudflare Quick Tunnels」、たった1つのコマンドで暗号化された公開URLを作成可能でアカウント・DNSレコード・ポート開放は一切不要",
           "link": "https://gigazine.net/news/20261004-cloudflare-quick-tunnels/",
@@ -98,8 +105,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。AWS、請求コンテキストを返す「ListBillingViewSegments API」を提供開始",
+      "summary": "データ分析の新着が4件。Amazon DynamoDB Streams はじめに 連載の最終回です。前回は、DynamoDB Streams + Lambda の消費能力が S ...",
       "articles": [
+        {
+          "title": "【DynamoDB Streams】シャードを増やして Lambda の同時実行数を増やせるか確かめてみる",
+          "link": "https://qiita.com/jus1730/items/a342013246b1da55b730",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-04T14:00:38",
+          "excerpt": "Amazon DynamoDB Streams はじめに 連載の最終回です。前回は、DynamoDB Streams + Lambda の消費能力が S ..."
+        },
         {
           "title": "AWS、請求コンテキストを返す「ListBillingViewSegments API」を提供開始",
           "link": "https://codezine.jp/article/detail/29900",
@@ -126,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。背景 Spring Boot + Maven + Tomcat + RDS MySQLでCRUDアプリを構築するハンズオンをAWSコンソールで手動実施しました。…",
+      "summary": "開発ツールの新着が9件。2026年7月にKubeCon + CloudNativeCon Japan 2026で、Liz Rice氏の「Detecting Compromised CI with eBPF and Cilium Tetragon」を聞きました。…",
       "articles": [
+        {
+          "title": "AWS CodeBuildでTetragonを動かしてnpm postinstallの通信を止めてみた",
+          "link": "https://qiita.com/suzuki0430/items/f1f02240694651d37fe1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-04T13:17:09",
+          "excerpt": "2026年7月にKubeCon + CloudNativeCon Japan 2026で、Liz Rice氏の「Detecting Compromised CI with eBPF and Cilium Tetragon」を聞きました。…"
+        },
         {
           "title": "TomcatにDB接続情報を渡すなら`setenv.sh`、WARのデプロイはSCPで",
           "link": "https://qiita.com/caymezon/items/7d57e6459bf406e66244",
@@ -136,57 +157,50 @@
           "excerpt": "背景 Spring Boot + Maven + Tomcat + RDS MySQLでCRUDアプリを構築するハンズオンをAWSコンソールで手動実施しました。…"
         },
         {
+          "title": "ずんだもんと学ぶTerraform：実践編",
+          "link": "https://zenn.dev/bonobono/books/zundamon-terraform-jissen",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-04T07:32:41",
+          "excerpt": "入門編を読み終えたエンジニアに向けて、ずんだもん（学ぶ側）と四国めたん（教える側）の対話形式でTerraformのチーム運用を解説する実践書。…"
+        },
+        {
           "title": "GitHub Copilot、9月に発表したVS Code向けの新機能をまとめて紹介",
           "link": "https://codezine.jp/article/detail/29896",
           "source": "CodeZine",
           "published": "2026-10-04T00:00:00",
           "excerpt": "GitHub Copilot、9月に発表したVS Code向けの新機能をまとめて紹介"
-        },
-        {
-          "title": "CDKかTerraformかは「誰が状態を持ち、何をレビューするか」で決める — 2026年版の選定軸",
-          "link": "https://zenn.dev/xim2jp_tokyo/articles/neta-10-zenn-summary",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-03T23:26:21",
-          "excerpt": "AWS CDKとTerraformの比較は言語の好みで語られがちですが、運用で効いてくるのは状態管理、差分の形式、管理対象の範囲の3点です。2026年10月時点の一次情報で前提を更新し、選定軸を整理しました。…"
-        },
-        {
-          "title": "ECS が VPC Lattice 経由で公開されているサービスの blue/green デプロイに対応したので試してみた",
-          "link": "https://dev.classmethod.jp/articles/ecs-vpc-lattice-blue-green-deployment/",
-          "source": "DevelopersIO",
-          "published": "2026-10-03T21:06:12",
-          "excerpt": "Amazon ECS の VPC Lattice 対応がアップデートされ、ALB を省いた構成でも blue/green デプロイが可能になりました。その動作を確認しました。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "スパイ、首相、ボール: BBC ドゥームズデイ プロジェクト @ 40",
-      "link": "https://www.theregister.com/offbeat/2026/10/04/spies-prime-ministers-and-balls-the-bbc-domesday-project-40/5300383",
-      "source": "The Register（英語）",
-      "published": "2026-10-04T08:29:00",
-      "excerpt": "Center for Computing History には、プロジェクトの背後にいる人々と、それを今日も生かしている人々が集まっています。"
+      "title": "世界中のソフトウェア開発者の実態を調べた「State of Devs 2026」公開。何歳？ 年収は？ モニタは何枚？ AIにどのくらいコードを書かせている？ 趣味は？ など集計結果",
+      "link": "https://www.publickey1.jp/blog/26/state_of_devs_2026_ai.html",
+      "source": "Publickey",
+      "published": "2026-10-04T15:59:31",
+      "excerpt": "IT関連の各種調査を行っているプロジェクトDevographicsは、世界中のソフトウェア開発者の実態などをアンケートで調査した「State of Devs 2026」の結果を公開しました。ここでは全体の結果から興味深いところをいくつか抜.…"
     },
     {
-      "title": "「Obsidian × AIで始める「第二の脳」〜忘れても大丈夫なメモ環境を手軽につくる〜」というタイトルでDevelopersIO 2026 Okinawaに登壇しました #devio2026",
-      "link": "https://dev.classmethod.jp/articles/obsidian-ai-second-brain-devio2026/",
-      "source": "DevelopersIO",
-      "published": "2026-10-04T08:00:10",
-      "excerpt": "DevelopersIO 2026 Okinawanで登壇した「Obsidian × AIで始める『第二の脳』」セッションの内容をお届けします。…"
-    },
-    {
-      "title": "Microsoft、Data API builder 2.1.5が安定版に",
-      "link": "https://codezine.jp/article/detail/29901",
-      "source": "CodeZine",
-      "published": "2026-10-04T08:00:00",
-      "excerpt": "Microsoft、Data API builder 2.1.5が安定版に"
-    },
-    {
-      "title": "AmazonLinux2023にGenerative AIをインストールしてみた（2026/10/4）",
-      "link": "https://qiita.com/u-san-777/items/0c59ffff0955517d6059",
+      "title": "【登壇レポート】「JAWS-UG 茨城 #17 秋の推しAWSサービスLTまつり！」でAmazon Connect Customerを推してきました",
+      "link": "https://qiita.com/yosuke-suzuki/items/57944289a533bd6a7585",
       "source": "Qiita AWSタグ",
-      "published": "2026-10-04T05:47:44",
-      "excerpt": "概要 AIの学習のため、AWSのサンプルアプリケーション「Generative AI Use Cases（以下、GenU）」をインストールしてみました。類似記事はいくらでもあると思いますので、そちらも参考にしてください。…"
+      "published": "2026-10-04T14:18:56",
+      "excerpt": "はじめに こんにちは！アマコネ芸人です。2026年9月30日にオンラインで開催された、JAWS-UG茨城の第17回「秋の推しAWSサービスLTまつり！」にて、登壇させていただきました。本記事では発表した内容を簡単にまとめます。…"
+    },
+    {
+      "title": "Qwen 3.8 Flash Next (125B) を民生用ハードウェア (RTX 4090) 上で 100T/s で実行",
+      "link": "https://github.com/Niko1221/Strata",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-04T12:51:53",
+      "excerpt": "記事の URL: https://github.com/Niko1221/Strata コメント URL: https://news.ycombinator.com/item?id=49953495 ポイント: 107 コメント数: 38"
+    },
+    {
+      "title": "ギフテッドおよび二度優秀な子供における拒絶感受性",
+      "link": "https://teachyourkids.substack.com/p/rejection-sensitivity-in-gifted-and",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-04T11:58:47",
+      "excerpt": "記事の URL: https://teachyourkids.substack.com/p/rejection-sensitivity-in-gifted-and コメント URL: https://news.ycombinator.…"
     }
   ]
 }
