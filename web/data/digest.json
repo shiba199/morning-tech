@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-10-05T00:17:36",
+  "generated_at": "2026-10-05T05:58:10",
   "window_hours": 24,
-  "total": 112,
+  "total": 132,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が14件。IBMのAIエージェント？BobのCLIを使って開発タスクを自動化するハンズオン",
+      "summary": "生成AIの新着が18件。ジャンプアカウント＋スイッチロール環境でAWS CLIを安全に運用するため、aws-vaultと1Passwordを組み合わせた認証構成を検討・構築しました。…",
       "articles": [
         {
-          "title": "IBMのAIエージェント？BobのCLIを使って開発タスクを自動化するハンズオン",
-          "link": "https://codezine.jp/article/detail/29889",
-          "source": "CodeZine",
-          "published": "2026-10-05T00:00:00",
-          "excerpt": "IBMのAIエージェント？BobのCLIを使って開発タスクを自動化するハンズオン"
+          "title": "ジャンプアカウント運用下でAWS CLI（+ AIエージェント）の認証情報を安全に扱う",
+          "link": "https://dev.classmethod.jp/articles/aws-vault-mfa-claude-code/",
+          "source": "DevelopersIO",
+          "published": "2026-10-05T05:26:34",
+          "excerpt": "ジャンプアカウント＋スイッチロール環境でAWS CLIを安全に運用するため、aws-vaultと1Passwordを組み合わせた認証構成を検討・構築しました。…"
         },
         {
-          "title": "【応用情報】R7秋 午後（問１：情報セキュリティ）その４：設問２、設問３（１） | Agent Grow Tech Notesのフィード",
-          "link": "https://zenn.dev/agent_grow/articles/8fbe0a65182df2",
+          "title": "cognee CEOの講演で聞いたナレッジグラフの話 ── エージェントの記憶は「増える」から「良くなる」へ | LayerX エンジニアブログ",
+          "link": "https://tech.layerx.co.jp/entry/cognee-kg",
           "source": "企業テックブログまとめ",
-          "published": "2026-10-04T23:00:05",
-          "excerpt": "はじめに令和７年度秋期 応用情報技術者試験（午後：問１ 情報セキュリティ）について解説します。今回は続編です。前回までの記事をまだ読んでいない場合は、下記のリンクへどうぞ。…"
+          "published": "2026-10-05T05:03:25",
+          "excerpt": "こんにちは、LayerX の Ai Workforce事業部でFDE（Forward Deployed Engineer）をやっているakioです！…"
         },
         {
-          "title": "AWSで「Claude Sonnet 5.5」が利用可能に",
-          "link": "https://codezine.jp/article/detail/29902",
-          "source": "CodeZine",
-          "published": "2026-10-04T23:00:00",
-          "excerpt": "AWSで「Claude Sonnet 5.5」が利用可能に"
+          "title": "週刊生成AI with AWS – 2026/9/28週",
+          "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260928/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-05T04:42:37",
+          "excerpt": "週刊生成AI with AWS, 朝晩すっかり涼しくなった2026年9月28日週号 – オリックス様のAmazon Bedrock AgentCore GatewayによるPATPOSTのMCPサーバー化事例、日立産業制御ソリューションズ様…"
         },
         {
-          "title": "AWS AI Practitioner超入門 #3: 機械学習・責任あるAI",
-          "link": "https://qiita.com/ryuta1005/items/ea2152d89f37a1600b9f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-04T22:31:04",
-          "excerpt": "はじめに この記事は、前回の記事の続きです。今回は、機械学習の学習方法や評価指標、責任あるAIの考え方と、それらに対応するAWSサービスを取り上げます。…"
+          "title": "API Management 経由で Codex・Claude Code を利用するためのクライアント設定- Azure を活用したコーディングエージェント基盤 連載第6回 | JBS Tech Blog",
+          "link": "https://blog.jbs.co.jp/entry/2026/10/05/134048",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-05T04:40:48",
+          "excerpt": "Codex や Claude Code を API で利用する際の Windows でのクライアントの設定方法を紹介しています。CLI、VS Code 機能拡張、デスクトップアプリを扱っています。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が6件。はじめに 弊社はサーバー側の開発を担当していて、インフラは別のベンダー様が受け持つ体制で案件を進めることが多いです。こういった開発体制のときEC2やk8sならマニフェストファイルなどがあるのでサーバーとインフラの責務がはっきりしています。…",
+      "summary": "クラウドの新着が5件。S3インベントリとAthenaを組み合わせることで、S3バケット内のオブジェクトをプレフィックス単位で日次集計できます。今回はその設定方法と実践的なクエリ例を紹介します。",
       "articles": [
+        {
+          "title": "S3バケット上のオブジェクトのサイズをS3インベントリとAthenaを使って集計してみた",
+          "link": "https://dev.classmethod.jp/articles/s3-inventory-athena-console/",
+          "source": "DevelopersIO",
+          "published": "2026-10-05T05:01:17",
+          "excerpt": "S3インベントリとAthenaを組み合わせることで、S3バケット内のオブジェクトをプレフィックス単位で日次集計できます。今回はその設定方法と実践的なクエリ例を紹介します。"
+        },
+        {
+          "title": "Lambda流の「API ごと」の負荷試験では、コンテナのOOMに気付けない",
+          "link": "https://qiita.com/kuisyuki/items/fd3c7f613f46fca195c0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-05T02:21:14",
+          "excerpt": "はじめに AWSのLambda + DynamoDB構成では、負荷試験は「API（関数）ごとに負荷を掛けて、性能を測る」形になりがちだと思います。Lambdaは関数ごとにメモリが独立していてオートスケールも任せられます。…"
+        },
         {
           "title": "【AWS】ECSだと開発会社とインフラ側で責務が混ざる話",
           "link": "https://qiita.com/simoyama2323/items/1b00a2140b889bfedf63",
@@ -57,63 +71,63 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-04T14:16:12",
           "excerpt": "Lambda Version Lambdaではコードを更新したあと、Versionを発行して特定状態の関数を固定できます。例えば、 $LATEST │ ├─ publish ▼ Version 1 コード更新 $LATEST │ ├─ ..…"
-        },
-        {
-          "title": "【DynamoDB Streams】シャードを増やして Lambda の同時実行数を増やせるか確かめてみる",
-          "link": "https://qiita.com/jus1730/items/a342013246b1da55b730",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-04T14:00:38",
-          "excerpt": "Amazon DynamoDB Streams はじめに 連載の最終回です。前回は、DynamoDB Streams + Lambda の消費能力が S ..."
-        },
-        {
-          "title": "AWS SCTとDMSの違いとは？「スキーマ変換」と「データ移行」を初心者向けに解説",
-          "link": "https://qiita.com/namnam3225/items/da891f848f9509acb82f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-04T05:43:49",
-          "excerpt": "AWS SCTとDMSの違いとは？「スキーマ変換」と「データ移行」を初心者向けに解説 AWSでデータベース移行について調べていると、AWS SCTとAWS DMSという名前がよく登場します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-10-05) クラウド／GitHubセキュリティ関連アップデートまとめ（2026年9月版） 本記事では、GitHub Security BlogおよびGoogle C…",
+      "summary": "セキュリティの新着が11件。ジャンプアカウント＋スイッチロール環境でAWS CLIを安全に運用するため、aws-vaultと1Passwordを組み合わせた認証構成を検討・構築しました。…",
       "articles": [
         {
-          "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-10-05)",
-          "link": "https://qiita.com/iestudy/items/b0d4a27345efa2734e55",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-05T00:02:18",
-          "excerpt": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-10-05) クラウド／GitHubセキュリティ関連アップデートまとめ（2026年9月版） 本記事では、GitHub Security BlogおよびGoogle C…"
-        },
-        {
-          "title": "【応用情報】R7秋 午後（問１：情報セキュリティ）その４：設問２、設問３（１） | Agent Grow Tech Notesのフィード",
-          "link": "https://zenn.dev/agent_grow/articles/8fbe0a65182df2",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-04T23:00:05",
-          "excerpt": "はじめに令和７年度秋期 応用情報技術者試験（午後：問１ 情報セキュリティ）について解説します。今回は続編です。前回までの記事をまだ読んでいない場合は、下記のリンクへどうぞ。…"
-        },
-        {
-          "title": "[アップデート] AWS Security Agent の PR 自動レビューが対象ブランチやラベルで絞れるようになりました",
-          "link": "https://dev.classmethod.jp/articles/security-agent-pr-review-condition/",
+          "title": "ジャンプアカウント運用下でAWS CLI（+ AIエージェント）の認証情報を安全に扱う",
+          "link": "https://dev.classmethod.jp/articles/aws-vault-mfa-claude-code/",
           "source": "DevelopersIO",
-          "published": "2026-10-04T10:49:55",
-          "excerpt": "今までは対象リポジトリであれば全部対象だった"
+          "published": "2026-10-05T05:26:34",
+          "excerpt": "ジャンプアカウント＋スイッチロール環境でAWS CLIを安全に運用するため、aws-vaultと1Passwordを組み合わせた認証構成を検討・構築しました。…"
         },
         {
-          "title": "localhostを爆速でインターネットへ安全に公開する「Cloudflare Quick Tunnels」、たった1つのコマンドで暗号化された公開URLを作成可能でアカウント・DNSレコード・ポート開放は一切不要",
-          "link": "https://gigazine.net/news/20261004-cloudflare-quick-tunnels/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-04T03:07:44",
-          "excerpt": "PC上で開発中のWebアプリを外部から確認するには、ポート開放やサーバー設定などの手間がかかります。…"
+          "title": "パチンコ店の入場抽選アプリ「777CON-PASS」に不正アクセス　行動エリアやプロフ写真など流出か",
+          "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002003/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-05T05:24:53",
+          "excerpt": "オンラインゲームの開発・運営を手掛けるサミーネットワークス（東京都品川区）は10月2日、同社が運営するパチンコ・パチスロ店向け入場抽選アプリ「777CON-PASS」で第三者による不正アクセスがあり、利用者の個人情報が流出した可能性があると…"
+        },
+        {
+          "title": "GitHub、プライベート脆弱性報告に新規報告のレート制限を導入",
+          "link": "https://codezine.jp/article/detail/29905",
+          "source": "CodeZine",
+          "published": "2026-10-05T04:00:00",
+          "excerpt": "GitHub、プライベート脆弱性報告に新規報告のレート制限を導入"
+        },
+        {
+          "title": "Google Workspace、クライアントサイド暗号化の簡易セットアップが可能に",
+          "link": "https://codezine.jp/article/detail/29904",
+          "source": "CodeZine",
+          "published": "2026-10-05T02:30:00",
+          "excerpt": "Google Workspace、クライアントサイド暗号化の簡易セットアップが可能に"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。この記事は、VPS や EC2 で Web サイトを運用していて、サーバに SSH で入る Web 担当者・制作会社向けです。Web サーバの設定は固めたのに、SSH は「インストールしたときのまま」になっていないでしょうか。…",
+      "summary": "データ分析の新着が6件。S3インベントリとAthenaを組み合わせることで、S3バケット内のオブジェクトをプレフィックス単位で日次集計できます。今回はその設定方法と実践的なクエリ例を紹介します。",
       "articles": [
+        {
+          "title": "S3バケット上のオブジェクトのサイズをS3インベントリとAthenaを使って集計してみた",
+          "link": "https://dev.classmethod.jp/articles/s3-inventory-athena-console/",
+          "source": "DevelopersIO",
+          "published": "2026-10-05T05:01:17",
+          "excerpt": "S3インベントリとAthenaを組み合わせることで、S3バケット内のオブジェクトをプレフィックス単位で日次集計できます。今回はその設定方法と実践的なクエリ例を紹介します。"
+        },
+        {
+          "title": "[アップデート] Amazon DynamoDB Accelerator (DAX) が大阪リージョンで使えるようになりました",
+          "link": "https://dev.classmethod.jp/articles/dynamodb-accelerator-osaka/",
+          "source": "DevelopersIO",
+          "published": "2026-10-05T01:29:04",
+          "excerpt": "東京のDAXより大阪の素のDynamoDBのほうが速いっぽい"
+        },
         {
           "title": "SSHの不正ログインを防ぐ7つの設定(sshd_config・fail2ban・Ubuntu/Debian・コピペOK)",
           "link": "https://qiita.com/jiis-sasaki/items/cc97c75c869e1425cb94",
@@ -127,87 +141,73 @@
           "source": "TechCrunch（英語）",
           "published": "2026-10-04T16:05:00",
           "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。"
-        },
-        {
-          "title": "DynamoDBの機能と設計パターンについてDVA対策としてまとめてみる",
-          "link": "https://qiita.com/keitakei777/items/bc3f7619ccd2a4fa5090",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-04T15:14:52",
-          "excerpt": "Partition Key DynamoDBでは、データを識別するためにPrimary Keyを設定します。最もシンプルなのがPartition Keyだけを使用する構成です。…"
-        },
-        {
-          "title": "【DynamoDB Streams】シャードを増やして Lambda の同時実行数を増やせるか確かめてみる",
-          "link": "https://qiita.com/jus1730/items/a342013246b1da55b730",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-04T14:00:38",
-          "excerpt": "Amazon DynamoDB Streams はじめに 連載の最終回です。前回は、DynamoDB Streams + Lambda の消費能力が S ..."
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-10-05) クラウド／GitHubセキュリティ関連アップデートまとめ（2026年9月版） 本記事では、GitHub Security BlogおよびGoogle C…",
+      "summary": "開発ツールの新着が16件。ジャンプアカウント＋スイッチロール環境でAWS CLIを安全に運用するため、aws-vaultと1Passwordを組み合わせた認証構成を検討・構築しました。…",
       "articles": [
         {
-          "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-10-05)",
-          "link": "https://qiita.com/iestudy/items/b0d4a27345efa2734e55",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-05T00:02:18",
-          "excerpt": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-10-05) クラウド／GitHubセキュリティ関連アップデートまとめ（2026年9月版） 本記事では、GitHub Security BlogおよびGoogle C…"
+          "title": "ジャンプアカウント運用下でAWS CLI（+ AIエージェント）の認証情報を安全に扱う",
+          "link": "https://dev.classmethod.jp/articles/aws-vault-mfa-claude-code/",
+          "source": "DevelopersIO",
+          "published": "2026-10-05T05:26:34",
+          "excerpt": "ジャンプアカウント＋スイッチロール環境でAWS CLIを安全に運用するため、aws-vaultと1Passwordを組み合わせた認証構成を検討・構築しました。…"
         },
         {
-          "title": "IBMのAIエージェント？BobのCLIを使って開発タスクを自動化するハンズオン",
-          "link": "https://codezine.jp/article/detail/29889",
+          "title": "API Management 経由で Codex・Claude Code を利用するためのクライアント設定- Azure を活用したコーディングエージェント基盤 連載第6回 | JBS Tech Blog",
+          "link": "https://blog.jbs.co.jp/entry/2026/10/05/134048",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-05T04:40:48",
+          "excerpt": "Codex や Claude Code を API で利用する際の Windows でのクライアントの設定方法を紹介しています。CLI、VS Code 機能拡張、デスクトップアプリを扱っています。"
+        },
+        {
+          "title": "GitHub、プライベート脆弱性報告に新規報告のレート制限を導入",
+          "link": "https://codezine.jp/article/detail/29905",
           "source": "CodeZine",
-          "published": "2026-10-05T00:00:00",
-          "excerpt": "IBMのAIエージェント？BobのCLIを使って開発タスクを自動化するハンズオン"
+          "published": "2026-10-05T04:00:00",
+          "excerpt": "GitHub、プライベート脆弱性報告に新規報告のレート制限を導入"
         },
         {
-          "title": "「シークレットスキャン」とは？漏れた API キー、誰が止めてくれるのか？ 業務システム 65 件と GitHub・GitLab を調べてみた",
-          "link": "https://qiita.com/songchong/items/5ee39ef5b71510e36c2a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-04T19:05:48",
-          "excerpt": "API キーをうっかり GitHub に公開してしまったら、誰かが気づいて止めてくれるのでしょうか。GitHub には「シークレットスキャン」という仕組みがあります。…"
-        },
-        {
-          "title": "Show HN: Dataviz、GitHub、NPM、PyPI、CRAN から毎日ランク付けされます",
-          "link": "https://awesomedataviz.com/",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-04T17:54:49",
-          "excerpt": "記事の URL: https://awesomedataviz.com/ コメント URL: https://news.ycombinator.com/item?id=49956183 ポイント: 3 コメント数: 0"
+          "title": "GitHub Copilot、CLIなどでエージェント処理をコードで定義する機能を提供",
+          "link": "https://codezine.jp/article/detail/29903",
+          "source": "CodeZine",
+          "published": "2026-10-05T01:00:00",
+          "excerpt": "GitHub Copilot、CLIなどでエージェント処理をコードで定義する機能を提供"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "日経社員アカウントからなりすましメール9000件　「Microsoft 365」に不正ログインか",
-      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000001991/",
+      "title": "現場と人をつなぐネットワークエンジニアの仕事 | ASKUL Engineering BLOG",
+      "link": "https://tech.askul.co.jp/entry/2026/10/05/141319",
+      "source": "企業テックブログまとめ",
+      "published": "2026-10-05T05:13:19",
+      "excerpt": "Interviewee ヨン 2025年中途入社 トラスト＆セキュリティ セキュリティエンジニアリング 2025年度アスクルに入社。現在、ネットワークエンジニアとして、社内ネットワーク基盤の構築・運用を担当。…"
+    },
+    {
+      "title": "NRIネットコムBlog　9月アクセス数ランキング!! | NRIネットコムBlog",
+      "link": "https://tech.nri-net.com/entry/access_ranking_2026_09",
+      "source": "企業テックブログまとめ",
+      "published": "2026-10-05T04:53:18",
+      "excerpt": "こんにちは、ブログ運営担当の池部です。9月のブログアクセス数ランキングをご紹介します！！（2026年9月1日~9月30日計測） 9月アクセス数TOP10 第1位 カバレッジの種類～C0・C1・C2・MCC～ tech.nri-net.…"
+    },
+    {
+      "title": "大阪公立大、システム障害で1週間近く休講に　出願期間中で入試にも影響",
+      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002001/",
       "source": "ITmedia NEWS",
-      "published": "2026-10-04T23:38:32",
-      "excerpt": "9月30日、社内や、社員とやりとりがあった複数の取材先などに、「悪性サイト」へ誘導するメールが届いた。"
+      "published": "2026-10-05T04:50:34",
+      "excerpt": "大阪公立大学は10月2日、情報基盤システムの大規模障害を受け、8日までの授業を休講にすると発表した。"
     },
     {
-      "title": "何これ、すごすぎる！！ PhotoshopやIllustratorをオープンソースで再構築、しかもWin、Mac、Linux、Web対応で無料",
-      "link": "https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html",
-      "source": "はてなブックマーク（テクノロジー）",
-      "published": "2026-10-04T23:05:07",
-      "excerpt": "これには思わず二度見、いや三度見しました！…"
-    },
-    {
-      "title": "フルリモートでも成果は出せる？元情シスが苦労と工夫でなんとかやってきた1年を振り返る | CloudNative BLOGs",
-      "link": "https://blog.cloudnative.co.jp/articles/full-remote-success-year/",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-04T23:03:00",
-      "excerpt": "フルリモートでも成果は出せる？元情シスが苦労と工夫でなんとかやってきた1年を振り返る | CloudNative BLOGs"
-    },
-    {
-      "title": "AWSのボドゲが出たのでボードゲーマーがガチレビューする | 電通総研 テックブログ",
-      "link": "https://tech.dentsusoken.com/entry/2026/10/05/AWS%E3%81%AE%E3%83%9C%E3%83%89%E3%82%B2%E3%81%8C%E5%87%BA%E3%81%9F%E3%81%AE%E3%81%A7%E3%83%9C%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%9E%E3%83%BC%E3%81%8C%E3%82%AC%E3%83%81%E3%83%AC%E3%83%93%E3%83%A5",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-04T23:00:00",
-      "excerpt": "こんにちは。エンタープライズ第一本部 戦略ソリューション 1 部の英です。普段はAWSでWebアプリ作るなどしています。趣味ではボードゲームを嗜んでおり、なんと自宅に約200種類以上のボドゲを所有しています。ボードゲーマーです。…"
+      "title": "「SpaceXAI」→「SpaceXSI」に改名へ　マスク氏、トランプ大統領の“AI呼称廃止”に追随",
+      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002000/",
+      "source": "ITmedia NEWS",
+      "published": "2026-10-05T04:38:51",
+      "excerpt": "米SpaceXのイーロン・マスクCEOは10月4日、傘下のAI部門SpaceXAIを「SpaceXSI」に改名する意向をXで示した。…"
     }
   ]
 }
