@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-10-05T05:58:10",
+  "generated_at": "2026-10-05T13:27:48",
   "window_hours": 24,
-  "total": 132,
+  "total": 149,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。ジャンプアカウント＋スイッチロール環境でAWS CLIを安全に運用するため、aws-vaultと1Passwordを組み合わせた認証構成を検討・構築しました。…",
+      "summary": "生成AIの新着が23件。DevelopersIO 2026 Osaka で登壇した「AIエージェントに買い物をさせる ― Universal Commerce Protocol（UCP）の紹介」について、登壇資料と発表の要点をまとめました。",
       "articles": [
         {
-          "title": "ジャンプアカウント運用下でAWS CLI（+ AIエージェント）の認証情報を安全に扱う",
-          "link": "https://dev.classmethod.jp/articles/aws-vault-mfa-claude-code/",
+          "title": "「AIエージェントに買い物をさせる ― Universal Commerce Protocol（UCP）の紹介」というタイトルで DevelopersIO 2026 【会場・Day】に登壇しました #devio2026",
+          "link": "https://dev.classmethod.jp/articles/ai-agent-shopping-universal-commerce-protocol-developersio-2026-osaka-day2-devio2026/",
           "source": "DevelopersIO",
-          "published": "2026-10-05T05:26:34",
-          "excerpt": "ジャンプアカウント＋スイッチロール環境でAWS CLIを安全に運用するため、aws-vaultと1Passwordを組み合わせた認証構成を検討・構築しました。…"
+          "published": "2026-10-05T12:31:01",
+          "excerpt": "DevelopersIO 2026 Osaka で登壇した「AIエージェントに買い物をさせる ― Universal Commerce Protocol（UCP）の紹介」について、登壇資料と発表の要点をまとめました。"
         },
         {
-          "title": "cognee CEOの講演で聞いたナレッジグラフの話 ── エージェントの記憶は「増える」から「良くなる」へ | LayerX エンジニアブログ",
-          "link": "https://tech.layerx.co.jp/entry/cognee-kg",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-05T05:03:25",
-          "excerpt": "こんにちは、LayerX の Ai Workforce事業部でFDE（Forward Deployed Engineer）をやっているakioです！…"
+          "title": "Anthropicは、IPOは私たちが知っている世界の終わりを告げる可能性があると述べています",
+          "link": "https://www.theregister.com/ai-and-ml/2026/10/05/anthropic-says-its-ipo-could-herald-the-end-of-the-world-as-we-know-it/5300908",
+          "source": "The Register（英語）",
+          "published": "2026-10-05T12:27:00",
+          "excerpt": "カーテンの背後にある、より実際的なリスクには注意を払わないでください。それがまさに今週のケトルで私たちがやっていることです。"
         },
         {
-          "title": "週刊生成AI with AWS – 2026/9/28週",
-          "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260928/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-05T04:42:37",
-          "excerpt": "週刊生成AI with AWS, 朝晩すっかり涼しくなった2026年9月28日週号 – オリックス様のAmazon Bedrock AgentCore GatewayによるPATPOSTのMCPサーバー化事例、日立産業制御ソリューションズ様…"
+          "title": "Ubuntu「Stonking Stingray」ベータ版が終了：Deeper Rustの「酸化」とLLM音声認識機能",
+          "link": "https://www.theregister.com/os-platforms/2026/10/05/ubuntu-stonking-stingray-beta-swims-out-deeper-rust-oxidization-plus-llm-speech-to-text/5301023",
+          "source": "The Register（英語）",
+          "published": "2026-10-05T11:25:00",
+          "excerpt": "GNOME 51 が登場し、Ubuntu の暫定リリースが再び面白くなってきています"
         },
         {
-          "title": "API Management 経由で Codex・Claude Code を利用するためのクライアント設定- Azure を活用したコーディングエージェント基盤 連載第6回 | JBS Tech Blog",
-          "link": "https://blog.jbs.co.jp/entry/2026/10/05/134048",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-05T04:40:48",
-          "excerpt": "Codex や Claude Code を API で利用する際の Windows でのクライアントの設定方法を紹介しています。CLI、VS Code 機能拡張、デスクトップアプリを扱っています。"
+          "title": "AgentCoreで使うブラウザ選定 -AgentCore Browser-",
+          "link": "https://zenn.dev/riku0120/articles/ed74ef9c3d7882",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-05T11:08:58",
+          "excerpt": "導入 agentcoreでweb検索機能を実装ようと思った際に方法がいくつもあったため、それらの使用感をまとめることにしました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が5件。S3インベントリとAthenaを組み合わせることで、S3バケット内のオブジェクトをプレフィックス単位で日次集計できます。今回はその設定方法と実践的なクエリ例を紹介します。",
+      "summary": "クラウドの新着が6件。はじめに サーフィンの波情報を通知する Wave アプリ（WavePilot）に CloudWatch のログ管理を導入した記録です。Terraform の書き方やハマったエラーも含めて残しておきます。…",
       "articles": [
+        {
+          "title": "【Terraform】AWS LambdaにCloudWatchログ管理を導入した記録",
+          "link": "https://qiita.com/mugicha0141/items/ff76414c4220f2bf0e37",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-05T13:11:29",
+          "excerpt": "はじめに サーフィンの波情報を通知する Wave アプリ（WavePilot）に CloudWatch のログ管理を導入した記録です。Terraform の書き方やハマったエラーも含めて残しておきます。…"
+        },
         {
           "title": "S3バケット上のオブジェクトのサイズをS3インベントリとAthenaを使って集計してみた",
           "link": "https://dev.classmethod.jp/articles/s3-inventory-athena-console/",
@@ -64,48 +71,41 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-04T23:23:20",
           "excerpt": "はじめに 弊社はサーバー側の開発を担当していて、インフラは別のベンダー様が受け持つ体制で案件を進めることが多いです。こういった開発体制のときEC2やk8sならマニフェストファイルなどがあるのでサーバーとインフラの責務がはっきりしています。…"
-        },
-        {
-          "title": "Lambdaの機能と設計パターンについてDVA対策としてまとめてみる",
-          "link": "https://qiita.com/keitakei777/items/97c7440aed3cf7fc88d4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-04T14:16:12",
-          "excerpt": "Lambda Version Lambdaではコードを更新したあと、Versionを発行して特定状態の関数を固定できます。例えば、 $LATEST │ ├─ publish ▼ Version 1 コード更新 $LATEST │ ├─ ..…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。ジャンプアカウント＋スイッチロール環境でAWS CLIを安全に運用するため、aws-vaultと1Passwordを組み合わせた認証構成を検討・構築しました。…",
+      "summary": "セキュリティの新着が14件。歯のホワイトニングサービスなどを展開するホワイトエッセンス（東京都渋谷区）は10月5日、8月に公表した予約サイトと基幹システムへの不正アクセスにより、約105万アカウント分の個人情報が漏えいしたと発表した。…",
       "articles": [
         {
-          "title": "ジャンプアカウント運用下でAWS CLI（+ AIエージェント）の認証情報を安全に扱う",
-          "link": "https://dev.classmethod.jp/articles/aws-vault-mfa-claude-code/",
-          "source": "DevelopersIO",
-          "published": "2026-10-05T05:26:34",
-          "excerpt": "ジャンプアカウント＋スイッチロール環境でAWS CLIを安全に運用するため、aws-vaultと1Passwordを組み合わせた認証構成を検討・構築しました。…"
-        },
-        {
-          "title": "パチンコ店の入場抽選アプリ「777CON-PASS」に不正アクセス　行動エリアやプロフ写真など流出か",
-          "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002003/",
+          "title": "ホワイトエッセンス、約105万アカウントの個人情報流出　8月発表の不正アクセス調査で判明",
+          "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002016/",
           "source": "ITmedia NEWS",
-          "published": "2026-10-05T05:24:53",
-          "excerpt": "オンラインゲームの開発・運営を手掛けるサミーネットワークス（東京都品川区）は10月2日、同社が運営するパチンコ・パチスロ店向け入場抽選アプリ「777CON-PASS」で第三者による不正アクセスがあり、利用者の個人情報が流出した可能性があると…"
+          "published": "2026-10-05T10:34:48",
+          "excerpt": "歯のホワイトニングサービスなどを展開するホワイトエッセンス（東京都渋谷区）は10月5日、8月に公表した予約サイトと基幹システムへの不正アクセスにより、約105万アカウント分の個人情報が漏えいしたと発表した。…"
         },
         {
-          "title": "GitHub、プライベート脆弱性報告に新規報告のレート制限を導入",
-          "link": "https://codezine.jp/article/detail/29905",
-          "source": "CodeZine",
-          "published": "2026-10-05T04:00:00",
-          "excerpt": "GitHub、プライベート脆弱性報告に新規報告のレート制限を導入"
+          "title": "「焼肉きんぐ」個人情報約1079万件が漏えい　公式アプリのシステムに不正アクセス　ほぼ全会員分に相当",
+          "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002011/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-05T09:39:42",
+          "excerpt": "「焼肉きんぐ」を運営する物語コーポレーションは10月5日、公式アプリの会員管理システムが第三者による不正アクセスを受け、会員情報1078万8963件が漏えいしたと発表した。氏名やメールアドレス、電話番号が含まれる。"
         },
         {
-          "title": "Google Workspace、クライアントサイド暗号化の簡易セットアップが可能に",
-          "link": "https://codezine.jp/article/detail/29904",
-          "source": "CodeZine",
-          "published": "2026-10-05T02:30:00",
-          "excerpt": "Google Workspace、クライアントサイド暗号化の簡易セットアップが可能に"
+          "title": "焼肉きんぐに不正アクセス、1078万人分の情報流出　アプリ登録者ほぼ全員が対象",
+          "link": "https://ascii.jp/elem/000/004/440/4440100/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-10-05T09:05:31",
+          "excerpt": "焼肉きんぐを運営する物語コーポレーションは10月5日、公式アプリの会員管理システムが第三者から不正アクセスを受け、会員情報1078万8963件が流出したと発表した。…"
+        },
+        {
+          "title": "AWSしか触ってこなかった私が、GCPで手が止まった話(後編:Vault・GKEの認可)",
+          "link": "https://zenn.dev/scalar_sol_blog/articles/9a679c1caeea44",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-05T08:30:06",
+          "excerpt": "この記事について AWSの感覚のままGCPを触って手が止まった場面の記録、その後編です。前編・中編のおさらいはこうです。…"
         }
       ]
     },
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が16件。ジャンプアカウント＋スイッチロール環境でAWS CLIを安全に運用するため、aws-vaultと1Passwordを組み合わせた認証構成を検討・構築しました。…",
+      "summary": "開発ツールの新着が14件。はじめに サーフィンの波情報を通知する Wave アプリ（WavePilot）に CloudWatch のログ管理を導入した記録です。Terraform の書き方やハマったエラーも含めて残しておきます。…",
       "articles": [
+        {
+          "title": "【Terraform】AWS LambdaにCloudWatchログ管理を導入した記録",
+          "link": "https://qiita.com/mugicha0141/items/ff76414c4220f2bf0e37",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-05T13:11:29",
+          "excerpt": "はじめに サーフィンの波情報を通知する Wave アプリ（WavePilot）に CloudWatch のログ管理を導入した記録です。Terraform の書き方やハマったエラーも含めて残しておきます。…"
+        },
+        {
+          "title": "Meta、米国などで提供中の個人向けAIエージェント「Muse」と連携するガジェット向けSDK「Muse Gadgets」公開",
+          "link": "https://gihyo.jp/article/2026/10/meta-muse-gadgets?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-10-05T08:47:00",
+          "excerpt": "Metaは2026年10月2日、個人向けAIエージェント「Muse」と連携するハードウェアを自作するための「Muse Gadgets」を公開した。"
+        },
         {
           "title": "ジャンプアカウント運用下でAWS CLI（+ AIエージェント）の認証情報を安全に扱う",
           "link": "https://dev.classmethod.jp/articles/aws-vault-mfa-claude-code/",
@@ -162,52 +176,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-10-05T04:40:48",
           "excerpt": "Codex や Claude Code を API で利用する際の Windows でのクライアントの設定方法を紹介しています。CLI、VS Code 機能拡張、デスクトップアプリを扱っています。"
-        },
-        {
-          "title": "GitHub、プライベート脆弱性報告に新規報告のレート制限を導入",
-          "link": "https://codezine.jp/article/detail/29905",
-          "source": "CodeZine",
-          "published": "2026-10-05T04:00:00",
-          "excerpt": "GitHub、プライベート脆弱性報告に新規報告のレート制限を導入"
-        },
-        {
-          "title": "GitHub Copilot、CLIなどでエージェント処理をコードで定義する機能を提供",
-          "link": "https://codezine.jp/article/detail/29903",
-          "source": "CodeZine",
-          "published": "2026-10-05T01:00:00",
-          "excerpt": "GitHub Copilot、CLIなどでエージェント処理をコードで定義する機能を提供"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "現場と人をつなぐネットワークエンジニアの仕事 | ASKUL Engineering BLOG",
-      "link": "https://tech.askul.co.jp/entry/2026/10/05/141319",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-05T05:13:19",
-      "excerpt": "Interviewee ヨン 2025年中途入社 トラスト＆セキュリティ セキュリティエンジニアリング 2025年度アスクルに入社。現在、ネットワークエンジニアとして、社内ネットワーク基盤の構築・運用を担当。…"
+      "title": "CloudWatch Logs の新機能「自動インデックス」を試してみた",
+      "link": "https://dev.classmethod.jp/articles/amazon-cloudwatch-logs-auto-indexing/",
+      "source": "DevelopersIO",
+      "published": "2026-10-05T12:45:03",
+      "excerpt": "CloudTrail のログを出力した CloudWatch Logs のロググループで、自動インデックスを試しました。…"
     },
     {
-      "title": "NRIネットコムBlog　9月アクセス数ランキング!! | NRIネットコムBlog",
-      "link": "https://tech.nri-net.com/entry/access_ranking_2026_09",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-05T04:53:18",
-      "excerpt": "こんにちは、ブログ運営担当の池部です。9月のブログアクセス数ランキングをご紹介します！！（2026年9月1日~9月30日計測） 9月アクセス数TOP10 第1位 カバレッジの種類～C0・C1・C2・MCC～ tech.nri-net.…"
+      "title": "ソフトウェア品質の時代か、それともダチョウの時代か?",
+      "link": "https://blogs.gnome.org/mcatanzaro/2026/10/02/the-era-of-software-quality-or-the-era-of-ostriches/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-05T12:33:15",
+      "excerpt": "記事の URL: https://blogs.gnome.…"
     },
     {
-      "title": "大阪公立大、システム障害で1週間近く休講に　出願期間中で入試にも影響",
-      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002001/",
-      "source": "ITmedia NEWS",
-      "published": "2026-10-05T04:50:34",
-      "excerpt": "大阪公立大学は10月2日、情報基盤システムの大規模障害を受け、8日までの授業を休講にすると発表した。"
+      "title": "AWS Organizations の「委任」の全体像と、信頼されたアクセス（トラステッドアクセス）の仕組み",
+      "link": "https://qiita.com/yuta-katayama-23/items/6eef659a8cbb2919823d",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-05T12:28:40",
+      "excerpt": "AWS Organizations で「委任管理者」を調べると、名前の似た仕組みがいくつも出てきて混乱しがちです。…"
     },
     {
-      "title": "「SpaceXAI」→「SpaceXSI」に改名へ　マスク氏、トランプ大統領の“AI呼称廃止”に追随",
-      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002000/",
-      "source": "ITmedia NEWS",
-      "published": "2026-10-05T04:38:51",
-      "excerpt": "米SpaceXのイーロン・マスクCEOは10月4日、傘下のAI部門SpaceXAIを「SpaceXSI」に改名する意向をXで示した。…"
+      "title": "カード・PayPay・Suica・レシートを1つにまとめる家計簿をサーバレスで作った",
+      "link": "https://qiita.com/NaokinTV/items/63ca8301881ef275284b",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-05T12:25:05",
+      "excerpt": "はじめに 家計簿が続かない理由は、入力ではなく集約でした。クレジットカードの明細はPDF、PayPayはCSV、Suicaは印刷用のPDF、現金はレシートの紙。置き場所がばらばらで、月末にまとめようとして毎回やめていました。…"
     }
   ]
 }
