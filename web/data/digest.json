@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-10-09T15:23:55",
+  "generated_at": "2026-10-09T20:10:33",
   "window_hours": 24,
-  "total": 182,
+  "total": 176,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が37件。はじめに AWS Security Hub CSPM を有効にすると、検出結果（Findings）が数百件単位で上がってくる経験を何度かしまして。…",
+      "summary": "生成AIの新着が33件。Anthropic は、AI が誤った情報を提出してから 2 か月以上かかるまで、この動作を発見しませんでした。",
       "articles": [
         {
-          "title": "Security Hub CSPM の大量の検出結果を Strands harness のエージェントにトリアージさせてみた",
-          "link": "https://qiita.com/mtmt_factory/items/36b33c5b45799e6bc0cc",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-09T14:44:52",
-          "excerpt": "はじめに AWS Security Hub CSPM を有効にすると、検出結果（Findings）が数百件単位で上がってくる経験を何度かしまして。…"
+          "title": "Anthropic AI モデルがフィラデルフィア警察に虚偽の殺人情報を送信",
+          "link": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-09T19:36:56",
+          "excerpt": "Anthropic は、AI が誤った情報を提出してから 2 か月以上かかるまで、この動作を発見しませんでした。"
         },
         {
-          "title": "オラクルは、Big Red の世界に留まる限り、AI エージェントに仕事をさせます",
-          "link": "https://www.theregister.com/ai-and-ml/2026/10/09/oracle-lets-ai-agents-do-the-work-provided-you-stay-in-big-reds-world/5302270",
-          "source": "The Register（英語）",
-          "published": "2026-10-09T14:44:00",
-          "excerpt": "アナリストはFusion Clawのより厳格な管理を歓迎しているが、早期導入とクラウドロックインには警告している"
+          "title": "Amazon Bedrock が OpenAI モデルの推論サマリーをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-reasoning-summaries-openai/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-10-09T17:44:00",
+          "excerpt": "Amazon Bedrock は、Responses API を通じて OpenAI モデルのreasoning.summary パラメータをサポートするようになりました。…"
         },
         {
-          "title": "Amazon Bedrock の GPT-6.1 Sol が サポートした Ultrafast mode を試してみた",
-          "link": "https://dev.classmethod.jp/articles/gpt-6-1-sol-ultrafast-mode-bedrock/",
+          "title": "Anthropic Claude Sonnet 5.5 と Claude Opus 5.5 が AWS GovCloud (米国) の Kiro で利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-claude-5-5-aws-govcloud-us/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-10-09T17:13:00",
+          "excerpt": "2 つの新しい Anthropic モデルが、AWS GovCloud (米国) リージョンの Kiro IDE および CLI で利用できるようになりました。Claude Opus 5.…"
+        },
+        {
+          "title": "Cost Explorer の Amazon Bedrock product attributes でモデル別に集計してみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-product-attributes-cost-explorer/",
           "source": "DevelopersIO",
-          "published": "2026-10-09T12:54:18",
-          "excerpt": "Standard の 6 倍の単価で GPT モデルを低レイテンシで利用できる Ultrafast mode が、Amazon Bedrock の GPT-6.1 Sol でも利用可能になりました。…"
-        },
-        {
-          "title": "AWS MCP Server 経由のエージェントを IAM で絞る",
-          "link": "https://qiita.com/asahide/items/050edb6e7a9496c6b207",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-09T11:30:02",
-          "excerpt": "この記事の英語版を AWS Builder Center に公開しています: Scoping an AI Agent on the AWS MCP Server with IAM 1.…"
+          "published": "2026-10-09T16:28:23",
+          "excerpt": "Cost Explorer の Amazon Bedrock product attributes を、コンソールと AWS CLI で試しました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。― 「ALBからだけ許可」をコードにする ― 前回は、ALB用のSecurity Groupを作った。今回はその続き。今度は、 EC2専用のSecurity Group を作っていく。…",
+      "summary": "クラウドの新着が14件。Amazon Elastic Compute Cloud (Amazon EC2) R8gd インスタンスは、AWS 欧州ソブリン クラウド (ドイツ) リージョンで利用できます。これらのインスタンスは、最大 11.…",
       "articles": [
+        {
+          "title": "Amazon EC2 R8gd インスタンスが追加のリージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8gd-thf/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-10-09T19:29:00",
+          "excerpt": "Amazon Elastic Compute Cloud (Amazon EC2) R8gd インスタンスは、AWS 欧州ソブリン クラウド (ドイツ) リージョンで利用できます。これらのインスタンスは、最大 11.…"
+        },
+        {
+          "title": "Amazon EC2 R8g インスタンスが追加のリージョンで利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8g-instances-thf/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-10-09T19:19:00",
+          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) R8g インスタンスが AWS European Sovereign Cloud (ドイツ) リージョンで利用可能になります。…"
+        },
         {
           "title": "第12回 Terraform講座｜EC2のSecurity Groupを作る",
           "link": "https://qiita.com/nyarusasu22/items/9b52425b81a983e1be38",
@@ -57,27 +71,13 @@
           "source": "gihyo.jp 開発",
           "published": "2026-10-09T10:36:00",
           "excerpt": "Anthropicは2026年10月8日、重要インフラとオープンソースソフトウェア（OSS）をサイバー攻撃から守る長期的な取り組み、Anthropic Cyber Missionを発表した。"
-        },
-        {
-          "title": "誰も操作していないRDSの再起動、原因はCA証明書の自動ローテーション",
-          "link": "https://zenn.dev/techdbblog/articles/techdb-rds-certificate-rotation-restart",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-09T09:18:57",
-          "excerpt": "RDSのイベント履歴に「DB instance restarted」が残っているのに、チームの誰も再起動を実行していない。アプリ側には一時的な接続エラーが出ていて、原因を説明しないと話が終わらない。…"
-        },
-        {
-          "title": "【Snowflake｜Aurora MySQL】数億件超の集計基盤比較 | truestarテックブログのフィード",
-          "link": "https://zenn.dev/truestar/articles/233a8c84938425",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-09T06:32:24",
-          "excerpt": "こんにちは。s.sumiです。商圏分析GSI「MarketAnalyzer®」などを提供する技研商事インターナショナル株式会社様（以下、GSI様）では、開発中のアプリケーションに向けて、大規模データの集計基盤を検討しています。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が21件。はじめに AWS Security Hub CSPM を有効にすると、検出結果（Findings）が数百件単位で上がってくる経験を何度かしまして。…",
+      "summary": "セキュリティの新着が22件。はじめに AWS Security Hub CSPM を有効にすると、検出結果（Findings）が数百件単位で上がってくる経験を何度かしまして。…",
       "articles": [
         {
           "title": "Security Hub CSPM の大量の検出結果を Strands harness のエージェントにトリアージさせてみた",
@@ -112,28 +112,35 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。アナリストはFusion Clawのより厳格な管理を歓迎しているが、早期導入とクラウドロックインには警告している",
+      "summary": "データ分析の新着が7件。Debian Linux は、次のリリースである Forky に向けてアーティストの投稿を募集しています。",
       "articles": [
         {
-          "title": "オラクルは、Big Red の世界に留まる限り、AI エージェントに仕事をさせます",
-          "link": "https://www.theregister.com/ai-and-ml/2026/10/09/oracle-lets-ai-agents-do-the-work-provided-you-stay-in-big-reds-world/5302270",
+          "title": "あなたのアートワークは次の Debian リリースで紹介される可能性があります",
+          "link": "https://arstechnica.com/gadgets/2026/10/your-artwork-could-be-featured-in-the-next-debian-release/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-10-09T18:33:26",
+          "excerpt": "Debian Linux は、次のリリースである Forky に向けてアーティストの投稿を募集しています。"
+        },
+        {
+          "title": "Starlinkの周波数帯契約でAT&T、T-Mobile、Verizonに勝つというマスク氏の計画が後押しされる",
+          "link": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-10-09T18:24:39",
+          "excerpt": "全国規模の 800 MHz スペクトルにより、Starlink が屋内でモバイル カバレッジを提供できるようになります。"
+        },
+        {
+          "title": "AWSのデータ連携サービス | Firehose・SQS・Kinesis Data Streamsの違い",
+          "link": "https://qiita.com/namnam3225/items/a22e953d6ac11a87b4c3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-09T17:35:04",
+          "excerpt": "AWSのデータ連携サービス | Firehose・SQS・Kinesis Data Streamsの違い AWSには、データの転送や受け渡し、リアルタイム処理を行うサービスがある。…"
+        },
+        {
+          "title": "SpaceX、Starlink Mobileが米国の大手携帯電話会社になるのに役立つ重要な周波数帯を購入へ",
+          "link": "https://www.theregister.com/networks/2026/10/09/spacex-to-buy-key-spectrum-that-could-help-starlink-mobile-become-major-us-cell-carrier/5302393",
           "source": "The Register（英語）",
-          "published": "2026-10-09T14:44:00",
-          "excerpt": "アナリストはFusion Clawのより厳格な管理を歓迎しているが、早期導入とクラウドロックインには警告している"
-        },
-        {
-          "title": "社外の人はPower BIのゲートウェイを立てられなかった話",
-          "link": "https://zenn.dev/tomojoz/articles/dac7b46967c993",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-09T13:08:24",
-          "excerpt": "はじめに 社外のベンダーを Entra ID にゲスト（B2B）として招き、AWS の EC2 にオンプレミス データ ゲートウェイを立ててもらう構成で、ゲートウェイの登録が2回止まりました。…"
-        },
-        {
-          "title": "「パスキーだから安心」が危ない？　SBI証券が警告したGoogle・Appleアカウント経由の口座乗っ取り",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/09/news034.html",
-          "source": "@IT",
-          "published": "2026-10-09T08:00:00",
-          "excerpt": "証券口座を狙う攻撃なのに、最初に狙われるのは証券会社とは限らない。SBI証券が注意を呼び掛けたのは、GoogleやAppleなどのアカウントを足掛かりに、クラウドの認証情報が悪用されるケースだ。…"
+          "published": "2026-10-09T15:55:31",
+          "excerpt": "低帯域周波数は建物内のデバイスに到達できますが、2 GHz オービターは携帯電話の塔を越えてカバレッジを拡大できる可能性があります。"
         }
       ]
     },
@@ -175,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Automattic、取締役会の刷新からわずか数週間で暫定CFOを失う",
-      "link": "https://techcrunch.com/2026/10/09/automattic-loses-its-interim-cfo-just-weeks-after-boardroom-shakeup/",
+      "title": "バッテリーは現在、多くのデータセンターで使用されている天然ガスタービンよりも安価です",
+      "link": "https://techcrunch.com/2026/10/09/batteries-are-now-cheaper-than-natural-gas-turbines-used-at-many-data-centers/",
       "source": "TechCrunch（英語）",
-      "published": "2026-10-09T15:02:30",
-      "excerpt": "Automatticの暫定最高財務責任者であるJeremy Klaperman氏が、就任から1カ月も経たずに同社を退職したことがTechCrunchの調べでわかった。…"
+      "published": "2026-10-09T18:57:58",
+      "excerpt": "データセンターブームで価格が上昇しているため、バッテリーは現在、天然ガスタービンよりも安価になっています。"
     },
     {
-      "title": "成長の痛み: 分散 AI トレーニングがデータセンター間のネットワークをどのように変えるか",
-      "link": "https://www.theregister.com/networks/2026/10/09/sponsored-growing-pains-how-distributed-ai-training-changes-the-network-between-datacenters/5301554",
-      "source": "The Register（英語）",
-      "published": "2026-10-09T15:00:00",
-      "excerpt": "スポンサー付き特集: データセンター内の GPU をリンクするのは困難ですが、何千もの GPU を調整して数百キロメートルにわたって効率的に動作させるには、新たな困難が伴います。"
+      "title": "PC出荷台数は20.1%減、2023年第1四半期以来「最も急激な減少」",
+      "link": "https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-10-09T18:54:52",
+      "excerpt": "「現在の下落は新たな下降サイクルの始まりに過ぎないかもしれない。」"
     },
     {
-      "title": "TechCrunch Disrupt 2026 を超えて: 見逃せないサイドイベント、パーティー、ネットワーキング",
-      "link": "https://techcrunch.com/2026/10/09/beyond-techcrunch-disrupt-2026-the-side-events-parties-networking-you-cant-miss/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-09T14:42:34",
-      "excerpt": "TechCrunch Disrupt 2026 は始まりにすぎません。…"
+      "title": "AI失格により新たなニコン・スモールワールド・イン・モーション優勝者が誕生",
+      "link": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-10-09T18:44:06",
+      "excerpt": "新しい受賞者は、回虫と単細胞ディレプタスのビデオでベトナムのグエン・ナム・ニャットさんです。"
     },
     {
-      "title": "Python 3.15.0",
-      "link": "https://www.python.org/downloads/release/python-3150/",
+      "title": "あまりクリエイティブにならないようにしてみるのもいいかもしれません",
+      "link": "https://blog.bawolf.com/p/you-might-want-to-try-being-less",
       "source": "Hacker News（英語）",
-      "published": "2026-10-09T14:35:42",
-      "excerpt": "Article URL: https://www.python.org/downloads/release/python-3150/ Comments URL: https://news.ycombinator.com/item?…"
+      "published": "2026-10-09T18:39:47",
+      "excerpt": "記事の URL: https://blog.bawolf.com/p/you-might-want-to-try-being-less コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
