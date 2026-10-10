@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-10-10T06:05:01",
+  "generated_at": "2026-10-10T12:46:41",
   "window_hours": 24,
-  "total": 139,
+  "total": 118,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。Microsoftは2026年10月9日、分類や処理の振り分けなどの判断に特化したAIモデルMicrosoft-Decision-1を発表した。",
+      "summary": "生成AIの新着が23件。記事の URL: https://deadsimpletech.com/blog/llms-arent-inevitable コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
-          "title": "Microsoft、選択肢ごとに確率を返すAIモデルMicrosoft-Decision-1を発表 ——分類やAIエージェントの行動評価に対応",
-          "link": "https://gihyo.jp/article/2026/10/microsoft-decision-1?utm_source=feed",
+          "title": "LLM は避けられない",
+          "link": "https://deadsimpletech.com/blog/llms-arent-inevitable",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-10T12:04:04",
+          "excerpt": "記事の URL: https://deadsimpletech.com/blog/llms-arent-inevitable コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "BedrockのGPT-6.1 Solに「どう考えたか」を要約してもらった話",
+          "link": "https://qiita.com/manaty/items/8550890fa6506854fdbc",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-10T11:47:40",
+          "excerpt": "はじめに こんにちは、マナティです！2026年10月9日、Amazon Bedrock上のOpenAIモデルがResponses APIの reasoning.summary パラメータに対応しました。…"
+        },
+        {
+          "title": "Talorys – Cloudflare の無料枠の自己ホスト型パーソナル AI エージェント",
+          "link": "https://github.com/rociiu/talorys",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-10T10:52:09",
+          "excerpt": "記事の URL: https://github.com/rociiu/talorys コメント URL: https://news.ycombinator.com/item?id=50031614 ポイント: 46 コメント数: 20"
+        },
+        {
+          "title": "Windows版CodexがMXCに対応、セットアップを高速化 ——ChatGPTの全プランでオートレビューを無料化、Pro向けにメッセージ予測機能をベータ提供",
+          "link": "https://gihyo.jp/article/2026/10/windows-codex-mxc?utm_source=feed",
           "source": "gihyo.jp 開発",
-          "published": "2026-10-10T03:27:00",
-          "excerpt": "Microsoftは2026年10月9日、分類や処理の振り分けなどの判断に特化したAIモデルMicrosoft-Decision-1を発表した。"
-        },
-        {
-          "title": "OpenAI の Decisions API に書類の種類を分類させて Clef と比べてみた",
-          "link": "https://dev.classmethod.jp/articles/openai-decisions-doc-classification/",
-          "source": "DevelopersIO",
-          "published": "2026-10-10T01:07:41",
-          "excerpt": "Cloudflareの Clef と OpenAI の Decisions API で書類分類の精度を比較してみました。28枚のビジネス書類を同じ条件で判定させ、正解率・確信度・処理時間・費用をそれぞれ検証した結果をお紹介します。"
-        },
-        {
-          "title": "Microsoft Foundry で Rubric evaluator による エージェント評価を行う | ヘッドウォータースのフィード",
-          "link": "https://zenn.dev/headwaters/articles/b338da5bf6f8a4",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-10T00:44:32",
-          "excerpt": "執筆日2026/10/10 最初にAIエージェントの開発では評価が重要です。その際によく登場するのが、ルーブリック（rubric） という言葉です。…"
-        },
-        {
-          "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-          "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-10T00:18:32",
-          "excerpt": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice."
+          "published": "2026-10-10T10:23:00",
+          "excerpt": "OpenAIは2026年10月9日、公式XアカウントのOpenAI Developersで、Windows上のCodex向けに、Microsoft Execution Containers（MXC）を使う新しいサンドボックスモードを開発した…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。Zabbix のメジャーバージョンアップにおいて、インフラエンジニアが常に頭を抱えるのが 「DBスキーマコンバートとヒストリ移行に伴う監視停止」 です。…",
+      "summary": "クラウドの新着が6件。Resolver DNS Firewall 触る良い機会になった",
       "articles": [
+        {
+          "title": "[アップデート] Route 53 Global Resolver DNS Firewall に 分析タブが追加されたので確認してみた",
+          "link": "https://dev.classmethod.jp/articles/route-53-dns-analytics-insights/",
+          "source": "DevelopersIO",
+          "published": "2026-10-10T09:07:32",
+          "excerpt": "Resolver DNS Firewall 触る良い機会になった"
+        },
         {
           "title": "Zabbixバージョンアップの「DBコンバート監視停止」をAIで過去にする：AL2(MariaDB)→AL2023(PostgreSQL)無停止移行と8年越しのDB調査",
           "link": "https://qiita.com/qryuu/items/5e2b33dcfd060695719c",
@@ -64,48 +71,41 @@
           "source": "AWS What's New（英語）",
           "published": "2026-10-09T22:00:00",
           "excerpt": "本日、AWS Security Hub は、CSV または JSON (OCSF) 形式での Amazon S3 への結果のエクスポートのサポートを発表しました。…"
-        },
-        {
-          "title": "Amazon EC2 R8gd インスタンスが追加のリージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8gd-thf/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-09T19:29:00",
-          "excerpt": "Amazon Elastic Compute Cloud (Amazon EC2) R8gd インスタンスは、AWS 欧州ソブリン クラウド (ドイツ) リージョンで利用できます。これらのインスタンスは、最大 11.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。問い合わせ情報の管理を委託していた1社への不正アクセスにより、5社に影響が及んだ。委託先で何が起き、どのような情報が流出した恐れがあるのか。各社への影響と、不正アクセス後の動きを追う。",
+      "summary": "セキュリティの新着が13件。GitHub ActionsからAWSへデプロイする際、AWSアクセスキーをSecretsに保存する方法だけが選択肢ではありません。…",
       "articles": [
+        {
+          "title": "GitHub ActionsからAWSへ安全に接続する：OIDCとIAMロールの実装手順",
+          "link": "https://qiita.com/sponge841841/items/c16e5d3c201c578267c9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-10T12:24:35",
+          "excerpt": "GitHub ActionsからAWSへデプロイする際、AWSアクセスキーをSecretsに保存する方法だけが選択肢ではありません。…"
+        },
+        {
+          "title": "GuardDutyのCustom Detection Rules入門：「このアカウントでは起きない操作」を検知する",
+          "link": "https://qiita.com/Xim2jp/items/c767926763f3c9599930",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-10T11:35:37",
+          "excerpt": "どんな機能か 2026年9月4日、Amazon GuardDutyにCustom Detection Rulesが追加されました。…"
+        },
+        {
+          "title": "GitHub ActionsのOIDCでAWS認証が通らない時にsubクレームを確認して信頼ポリシーを直してみた",
+          "link": "https://dev.classmethod.jp/articles/try-github-actions-oidc-immutable-subject-claim/",
+          "source": "DevelopersIO",
+          "published": "2026-10-10T06:43:42",
+          "excerpt": "GitHub ActionsからAWSへのOIDC認証が新しいリポジトリだけ失敗する場合、GitHubの仕様変更「immutable subject claim」が原因かもしれません。…"
+        },
         {
           "title": "大和証券、シチズン、損保ジャパン、東武鉄道、オリックス生命――5社に影響した「同じ委託先」への不正アクセス　各社はどう動いた？",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/10/news007.html",
           "source": "@IT",
           "published": "2026-10-10T04:00:00",
           "excerpt": "問い合わせ情報の管理を委託していた1社への不正アクセスにより、5社に影響が及んだ。委託先で何が起き、どのような情報が流出した恐れがあるのか。各社への影響と、不正アクセス後の動きを追う。"
-        },
-        {
-          "title": "「コミューン」不正アクセスでLINEヤフー、Sansan、パナソニックでも会員情報漏えいの可能性",
-          "link": "https://www.itmedia.co.jp/news/article/2610/10/2000002190/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-10T00:02:14",
-          "excerpt": "情報漏えいの公表が相次ぐ中、委託先の外部サービスが攻撃を受けて情報が流出するケースも目立ってきている。"
-        },
-        {
-          "title": "ココナラ、会員の履歴書など2294件漏えい　スキルマーケットに不正アクセス",
-          "link": "https://www.itmedia.co.jp/news/article/2610/10/2000002188/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-09T23:13:39",
-          "excerpt": "「ココナラスキルマーケット」が第三者による不正アクセスを受け、会員の履歴書449件と、職務経歴書関連書類1845件が流出したと発表した。"
-        },
-        {
-          "title": "不正アクセス被害激増、今、何をすべきか？　IPAから緊急の点検要請",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/10/news008.html",
-          "source": "@IT",
-          "published": "2026-10-09T23:00:00",
-          "excerpt": "IPAは相次ぐ不正アクセス被害に向けて、公表事例から判明した、今狙われているシステムや攻撃手法の傾向から企業が直近でやるべき具体的なセキュリティ対策を示した。企業は今すぐチェックしてほしい。"
         }
       ]
     },
@@ -122,11 +122,11 @@
           "excerpt": "Zabbix のメジャーバージョンアップにおいて、インフラエンジニアが常に頭を抱えるのが 「DBスキーマコンバートとヒストリ移行に伴う監視停止」 です。…"
         },
         {
-          "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+          "title": "Telegram Desktop の脆弱性により、あらゆるユーザーのファイルが盗まれる可能性がある",
           "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
           "source": "Hacker News（英語）",
           "published": "2026-10-10T03:02:47",
-          "excerpt": "Article URL: https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/ Comments URL: https://news.…"
+          "excerpt": "記事の URL: https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/ コメント URL: https://news.…"
         },
         {
           "title": "Golden Analyticsは何を目指すBIなのか：公式サイトの「Why Golden」と「Product」を読み解く | truestarテックブログのフィード",
@@ -136,71 +136,78 @@
           "excerpt": "前回の記事では、元Tableau CPOのFrancois Ajenstat氏が創業したAIネイティブBI『Golden Analytics』について、会社概要から料金、セキュリティ、開発ペースまでをひととおりまとめました。…"
         },
         {
-          "title": "Windowsにもエアドロしたい。Raspberry PiでAirDrop受信機「LilBitDrop」を作った（CloseBox） | テクノエッジ TechnoEdge",
-          "link": "https://www.techno-edge.net/article/2026/10/10/5571.html",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-09T21:44:57",
-          "excerpt": "AirDropは今では少なくなってしまった、Appleエコシステムの「ないとなると困る」機能の1つです。何かイベントがあったときに写真をその場にいる人に送るのに著しく便利。…"
+          "title": "DynamoDBのGSIとLSI、「どのキーを変えるか」で整理したらスッキリした",
+          "link": "https://zenn.dev/yasutomo7974/articles/dva-dynamodb-gsi-lsi-capacity-dax",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-09T23:31:11",
+          "excerpt": "おはようございます、YASUです。以前、DynamoDBのQueryとScanの違いを整理しましたが、DVAの模擬試験ではその先の「インデックス」「キャパシティ」「キャッシュ」まで問われます。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が3件。CI（Continuous Integration） CIは、継続的インテグレーションのことです。開発者がコードを変更した際に、ビルドやテストを自動実行し、不具合を早期に検出します。…",
+      "summary": "開発ツールの新着が5件。GitHub ActionsからAWSへデプロイする際、AWSアクセスキーをSecretsに保存する方法だけが選択肢ではありません。…",
       "articles": [
+        {
+          "title": "GitHub ActionsからAWSへ安全に接続する：OIDCとIAMロールの実装手順",
+          "link": "https://qiita.com/sponge841841/items/c16e5d3c201c578267c9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-10T12:24:35",
+          "excerpt": "GitHub ActionsからAWSへデプロイする際、AWSアクセスキーをSecretsに保存する方法だけが選択肢ではありません。…"
+        },
+        {
+          "title": "Kiro CLI V3 をデフォルトのエクスペリエンスとして順次展開します",
+          "link": "https://aws.amazon.com/jp/blogs/news/cli-3/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-10T12:22:45",
+          "excerpt": "Kiro CLI V3 は、Kiro IDE と Kiro Web を動かしているものと同じエージェントハーネスをターミナルで使えるようにします。…"
+        },
+        {
+          "title": "GitHub ActionsのOIDCでAWS認証が通らない時にsubクレームを確認して信頼ポリシーを直してみた",
+          "link": "https://dev.classmethod.jp/articles/try-github-actions-oidc-immutable-subject-claim/",
+          "source": "DevelopersIO",
+          "published": "2026-10-10T06:43:42",
+          "excerpt": "GitHub ActionsからAWSへのOIDC認証が新しいリポジトリだけ失敗する場合、GitHubの仕様変更「immutable subject claim」が原因かもしれません。…"
+        },
         {
           "title": "CodePipeline・CodeBuild・CodeDeploy・Elastic BeanstalkについてDVA対策としてまとめてみる",
           "link": "https://qiita.com/keitakei777/items/820c7823d01300c35a11",
           "source": "Qiita AWSタグ",
           "published": "2026-10-10T05:02:53",
           "excerpt": "CI（Continuous Integration） CIは、継続的インテグレーションのことです。開発者がコードを変更した際に、ビルドやテストを自動実行し、不具合を早期に検出します。…"
-        },
-        {
-          "title": "SAM・CloudFormation・CDKについてDVA対策としてまとめてみる",
-          "link": "https://qiita.com/keitakei777/items/1937b10026ea122be2ae",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-10T03:51:04",
-          "excerpt": "サービスの違い AWSでは、インフラ構成をコードで管理する仕組みを IaC（Infrastructure as Code） と呼ぶ。…"
-        },
-        {
-          "title": "第12回 Terraform講座｜EC2のSecurity Groupを作る",
-          "link": "https://qiita.com/nyarusasu22/items/9b52425b81a983e1be38",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-09T11:51:51",
-          "excerpt": "― 「ALBからだけ許可」をコードにする ― 前回は、ALB用のSecurity Groupを作った。今回はその続き。今度は、 EC2専用のSecurity Group を作っていく。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "draw.ioのSkillsで AWS の Web 3層構成図を作る — KIROで指示だしから PNG 出力まで",
-      "link": "https://qiita.com/Takenori_TAKENOKO_Style-LLC/items/99f0d15f0c5754ddef05",
+      "title": "世界と一つ？サイケデリックによって変化した脳についての新たな視点。",
+      "link": "https://arstechnica.com/science/2026/10/the-psychedelic-brain-looks-like-chaos-underneath-theres-order/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-10-10T11:15:35",
+      "excerpt": "参加者は、シロシビンの有無にかかわらず、MRI チューブ内で瞑想しました。"
+    },
+    {
+      "title": "AWS ハンズオン 料金見積ツール",
+      "link": "https://qiita.com/Kagesyu/items/30d2e428631a0052ea92",
       "source": "Qiita AWSタグ",
-      "published": "2026-10-10T04:53:37",
-      "excerpt": "この記事でやること この記事では、AWS の Web 3層構成図を、AI（Kiro）に指示しながら draw.io の形式で作り、公式アイコンを使って、最後は高解像度の PNG に書き出すまでの流れを、実際の作業ログに沿って追います。…"
+      "published": "2026-10-10T11:09:01",
+      "excerpt": "イントロダクション この記事では、以下を参考記事等を活用しながらAWSのハンズオンした内容をまとめます。…"
     },
     {
-      "title": "If AI is conscient, then we are making slaves",
-      "link": "https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
+      "title": "Apple/macOS が公式 Unix レジストリから静かに削除",
+      "link": "https://www.opengroup.org//openbrand/register/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-10T04:51:26",
-      "excerpt": "Article URL: https://www.groundlevel-ai.…"
+      "published": "2026-10-10T10:57:31",
+      "excerpt": "記事の URL: https://www.opengroup.org//openbrand/register/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Data Center Darling's $30B IPO Dream Crushed in 48 Hours",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-09/data-center-darling-s-30-billion-ipo-dream-crushed-in-48-hours",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-10T04:04:17",
-      "excerpt": "Article URL: https://www.bloomberg.…"
-    },
-    {
-      "title": "言葉、文化、要件──エーザイがグローバルクラウド統合の泥臭い裏側を伝える",
-      "link": "https://codezine.jp/article/detail/29967",
-      "source": "CodeZine",
-      "published": "2026-10-10T04:00:00",
-      "excerpt": "言葉、文化、要件──エーザイがグローバルクラウド統合の泥臭い裏側を伝える"
+      "title": "2 人のキャラクターが Chromium ブラウザでタイポスクワッティングの世界を開く",
+      "link": "https://www.theregister.com/security/2026/10/10/two-characters-open-up-a-world-of-typosquatting-opportunities-in-chromium-browsers/5302383",
+      "source": "The Register（英語）",
+      "published": "2026-10-10T10:15:00",
+      "excerpt": "攻撃者が希少なキリル文字とラテン文字を悪用して人気の Web サイトになりすます"
     }
   ]
 }
