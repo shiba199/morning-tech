@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-10-10T12:46:41",
+  "generated_at": "2026-10-10T17:31:15",
   "window_hours": 24,
-  "total": 118,
+  "total": 106,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。記事の URL: https://deadsimpletech.com/blog/llms-arent-inevitable コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が19件。OpenAI モデルの推論過程の要約を受け取る reasoning summaries の利用が Amazon Bedrock でも可能になったので、curl と AWS CLI でその動作を試しました。",
       "articles": [
+        {
+          "title": "Bedrock の OpenAI モデルでも reasoning summaries が使えるようになったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-openai-reasoning-summaries/",
+          "source": "DevelopersIO",
+          "published": "2026-10-10T15:16:18",
+          "excerpt": "OpenAI モデルの推論過程の要約を受け取る reasoning summaries の利用が Amazon Bedrock でも可能になったので、curl と AWS CLI でその動作を試しました。"
+        },
+        {
+          "title": "テキスト メッセージ内に常駐できる上位の AI エージェントは次のとおりです",
+          "link": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-10T14:00:00",
+          "excerpt": "一般的なアシスタントから家族、旅行、仕事向けに設計されたエージェントまで、テキスト メッセージ内に存在できる最も注目すべき AI エージェントのリストを作成しました。"
+        },
         {
           "title": "LLM は避けられない",
           "link": "https://deadsimpletech.com/blog/llms-arent-inevitable",
@@ -22,28 +36,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-10T11:47:40",
           "excerpt": "はじめに こんにちは、マナティです！2026年10月9日、Amazon Bedrock上のOpenAIモデルがResponses APIの reasoning.summary パラメータに対応しました。…"
-        },
-        {
-          "title": "Talorys – Cloudflare の無料枠の自己ホスト型パーソナル AI エージェント",
-          "link": "https://github.com/rociiu/talorys",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-10T10:52:09",
-          "excerpt": "記事の URL: https://github.com/rociiu/talorys コメント URL: https://news.ycombinator.com/item?id=50031614 ポイント: 46 コメント数: 20"
-        },
-        {
-          "title": "Windows版CodexがMXCに対応、セットアップを高速化 ——ChatGPTの全プランでオートレビューを無料化、Pro向けにメッセージ予測機能をベータ提供",
-          "link": "https://gihyo.jp/article/2026/10/windows-codex-mxc?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-10-10T10:23:00",
-          "excerpt": "OpenAIは2026年10月9日、公式XアカウントのOpenAI Developersで、Windows上のCodex向けに、Microsoft Execution Containers（MXC）を使う新しいサンドボックスモードを開発した…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が6件。Resolver DNS Firewall 触る良い機会になった",
+      "summary": "クラウドの新着が8件。前回の続きになります。・AWS閉鎖網+Snowflakeを作る + ADサーバを利用する場合 https://qiita.…",
       "articles": [
+        {
+          "title": "AWS閉鎖網+Snowflake 内部ステージのS3への接続設定",
+          "link": "https://qiita.com/Cache-Hit/items/61a5aac9a66bda5f0aa8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-10T14:26:11",
+          "excerpt": "前回の続きになります。・AWS閉鎖網+Snowflakeを作る + ADサーバを利用する場合 https://qiita.…"
+        },
         {
           "title": "[アップデート] Route 53 Global Resolver DNS Firewall に 分析タブが追加されたので確認してみた",
           "link": "https://dev.classmethod.jp/articles/route-53-dns-analytics-insights/",
@@ -52,33 +59,33 @@
           "excerpt": "Resolver DNS Firewall 触る良い機会になった"
         },
         {
+          "title": "Zabbix 5.0→7.0 × AL2→AL2023 × MariaDB→PostgreSQL：AI無停止移行の全実装",
+          "link": "https://zenn.dev/qryuu/articles/185e6c806201ab",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-10T04:20:36",
+          "excerpt": "Zabbix のメジャーバージョンアップにおいて、長年の課題となっているのが 「DBスキーマコンバートと大量ヒストリ移行に伴う監視停止」 です。…"
+        },
+        {
           "title": "Zabbixバージョンアップの「DBコンバート監視停止」をAIで過去にする：AL2(MariaDB)→AL2023(PostgreSQL)無停止移行と8年越しのDB調査",
           "link": "https://qiita.com/qryuu/items/5e2b33dcfd060695719c",
           "source": "Qiita AWSタグ",
           "published": "2026-10-10T03:23:43",
           "excerpt": "Zabbix のメジャーバージョンアップにおいて、インフラエンジニアが常に頭を抱えるのが 「DBスキーマコンバートとヒストリ移行に伴う監視停止」 です。…"
-        },
-        {
-          "title": "出社回帰で離職リスク？　AI得意言語の分析からインフラ人手不足解消まで、エンジニアの本音と課題",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/10/news003.html",
-          "source": "@IT",
-          "published": "2026-10-09T23:00:00",
-          "excerpt": "＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。"
-        },
-        {
-          "title": "AWS Security Hub は、結果を CSV または JSON 形式で S3 にエクスポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-exports-s3-csv-json/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-09T22:00:00",
-          "excerpt": "本日、AWS Security Hub は、CSV または JSON (OCSF) 形式での Amazon S3 への結果のエクスポートのサポートを発表しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。GitHub ActionsからAWSへデプロイする際、AWSアクセスキーをSecretsに保存する方法だけが選択肢ではありません。…",
+      "summary": "セキュリティの新着が13件。2026年10月7日から9日にかけて、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの各機関が、国内組織で相次ぐ不正アクセスによる個人情報の漏えいを受けた注意喚起を公表しました。ここでは関連する情報をまとめます。…",
       "articles": [
+        {
+          "title": "国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた - piyolog",
+          "link": "https://piyolog.hatenadiary.jp/entry/2026/10/11/004353",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-10-10T15:48:52",
+          "excerpt": "2026年10月7日から9日にかけて、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの各機関が、国内組織で相次ぐ不正アクセスによる個人情報の漏えいを受けた注意喚起を公表しました。ここでは関連する情報をまとめます。…"
+        },
         {
           "title": "GitHub ActionsからAWSへ安全に接続する：OIDCとIAMロールの実装手順",
           "link": "https://qiita.com/sponge841841/items/c16e5d3c201c578267c9",
@@ -99,21 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-10-10T06:43:42",
           "excerpt": "GitHub ActionsからAWSへのOIDC認証が新しいリポジトリだけ失敗する場合、GitHubの仕様変更「immutable subject claim」が原因かもしれません。…"
-        },
-        {
-          "title": "大和証券、シチズン、損保ジャパン、東武鉄道、オリックス生命――5社に影響した「同じ委託先」への不正アクセス　各社はどう動いた？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/10/news007.html",
-          "source": "@IT",
-          "published": "2026-10-10T04:00:00",
-          "excerpt": "問い合わせ情報の管理を委託していた1社への不正アクセスにより、5社に影響が及んだ。委託先で何が起き、どのような情報が流出した恐れがあるのか。各社への影響と、不正アクセス後の動きを追う。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が11件。Zabbix のメジャーバージョンアップにおいて、インフラエンジニアが常に頭を抱えるのが 「DBスキーマコンバートとヒストリ移行に伴う監視停止」 です。…",
+      "summary": "データ分析の新着が9件。Zabbix のメジャーバージョンアップにおいて、長年の課題となっているのが 「DBスキーマコンバートと大量ヒストリ移行に伴う監視停止」 です。…",
       "articles": [
+        {
+          "title": "Zabbix 5.0→7.0 × AL2→AL2023 × MariaDB→PostgreSQL：AI無停止移行の全実装",
+          "link": "https://zenn.dev/qryuu/articles/185e6c806201ab",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-10T04:20:36",
+          "excerpt": "Zabbix のメジャーバージョンアップにおいて、長年の課題となっているのが 「DBスキーマコンバートと大量ヒストリ移行に伴う監視停止」 です。…"
+        },
         {
           "title": "Zabbixバージョンアップの「DBコンバート監視停止」をAIで過去にする：AL2(MariaDB)→AL2023(PostgreSQL)無停止移行と8年越しのDB調査",
           "link": "https://qiita.com/qryuu/items/5e2b33dcfd060695719c",
@@ -134,21 +141,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-10-10T01:00:02",
           "excerpt": "前回の記事では、元Tableau CPOのFrancois Ajenstat氏が創業したAIネイティブBI『Golden Analytics』について、会社概要から料金、セキュリティ、開発ペースまでをひととおりまとめました。…"
-        },
-        {
-          "title": "DynamoDBのGSIとLSI、「どのキーを変えるか」で整理したらスッキリした",
-          "link": "https://zenn.dev/yasutomo7974/articles/dva-dynamodb-gsi-lsi-capacity-dax",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-09T23:31:11",
-          "excerpt": "おはようございます、YASUです。以前、DynamoDBのQueryとScanの違いを整理しましたが、DVAの模擬試験ではその先の「インデックス」「キャパシティ」「キャッシュ」まで問われます。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。GitHub ActionsからAWSへデプロイする際、AWSアクセスキーをSecretsに保存する方法だけが選択肢ではありません。…",
+      "summary": "開発ツールの新着が6件。Version・Alias・監視でリリースを安全にする（運用編） 🐈🐈🐈 作成した内容は👆こちら 🐈🐈🐈 1.…",
       "articles": [
+        {
+          "title": "【CICD入門】AWSでシンプルなCICDを作る（第3回：運用編）",
+          "link": "https://qiita.com/mkthrkw/items/d16250ff9e369374cb44",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-10T13:01:56",
+          "excerpt": "Version・Alias・監視でリリースを安全にする（運用編） 🐈🐈🐈 作成した内容は👆こちら 🐈🐈🐈 1.…"
+        },
         {
           "title": "GitHub ActionsからAWSへ安全に接続する：OIDCとIAMロールの実装手順",
           "link": "https://qiita.com/sponge841841/items/c16e5d3c201c578267c9",
@@ -169,45 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-10-10T06:43:42",
           "excerpt": "GitHub ActionsからAWSへのOIDC認証が新しいリポジトリだけ失敗する場合、GitHubの仕様変更「immutable subject claim」が原因かもしれません。…"
-        },
-        {
-          "title": "CodePipeline・CodeBuild・CodeDeploy・Elastic BeanstalkについてDVA対策としてまとめてみる",
-          "link": "https://qiita.com/keitakei777/items/820c7823d01300c35a11",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-10T05:02:53",
-          "excerpt": "CI（Continuous Integration） CIは、継続的インテグレーションのことです。開発者がコードを変更した際に、ビルドやテストを自動実行し、不具合を早期に検出します。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "世界と一つ？サイケデリックによって変化した脳についての新たな視点。",
-      "link": "https://arstechnica.com/science/2026/10/the-psychedelic-brain-looks-like-chaos-underneath-theres-order/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-10-10T11:15:35",
-      "excerpt": "参加者は、シロシビンの有無にかかわらず、MRI チューブ内で瞑想しました。"
+      "title": "Petra Power はデータセンターと防衛車両のエネルギーの最新化を目指しています",
+      "link": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-10T17:00:00",
+      "excerpt": "同社は、自社の燃料電池は非常に効率的で、ハイテク業界が十分な電力を入手できない時代に燃料コストを削減できると述べている。"
     },
     {
-      "title": "AWS ハンズオン 料金見積ツール",
-      "link": "https://qiita.com/Kagesyu/items/30d2e428631a0052ea92",
+      "title": "Amazon Personalizeで映画の視聴履歴からグッズを推薦し、効果測定まで試してみた",
+      "link": "https://dev.classmethod.jp/articles/2026-10-11-amazon-personalize-cross-catalog/",
+      "source": "DevelopersIO",
+      "published": "2026-10-10T16:52:00",
+      "excerpt": "Amazon Personalizeで、映画の評価しかないユーザーにECサイトのグッズをレコメンドできるかを、バッチ推論での配信、レコメンドの入れ替え、効果測定の仕組みまで含めて検証しました。"
+    },
+    {
+      "title": "DVA-C03 対策：DVA-C02 からの変更点と学習の進め方（練習問題 5 問付き）",
+      "link": "https://qiita.com/legacy2latest/items/207e4d33c9eaa1ee3c97",
       "source": "Qiita AWSタグ",
-      "published": "2026-10-10T11:09:01",
-      "excerpt": "イントロダクション この記事では、以下を参考記事等を活用しながらAWSのハンズオンした内容をまとめます。…"
+      "published": "2026-10-10T16:43:30",
+      "excerpt": "Daniel（シニアフルスタックエンジニア）です。AWS 認定デベロッパー – アソシエイトが DVA-C02 から DVA-C03 に更新されます。…"
     },
     {
-      "title": "Apple/macOS が公式 Unix レジストリから静かに削除",
-      "link": "https://www.opengroup.org//openbrand/register/",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-10T10:57:31",
-      "excerpt": "記事の URL: https://www.opengroup.org//openbrand/register/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "2 人のキャラクターが Chromium ブラウザでタイポスクワッティングの世界を開く",
-      "link": "https://www.theregister.com/security/2026/10/10/two-characters-open-up-a-world-of-typosquatting-opportunities-in-chromium-browsers/5302383",
-      "source": "The Register（英語）",
-      "published": "2026-10-10T10:15:00",
-      "excerpt": "攻撃者が希少なキリル文字とラテン文字を悪用して人気の Web サイトになりすます"
+      "title": "Cloudflareがワーカープログラミングモデルを改善するためにDenoを買収",
+      "link": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-10T16:25:42",
+      "excerpt": "Cloudflareはこの買収を利用して、ワーカープログラミングモデルとプラットフォームを改善します。"
     }
   ]
 }
