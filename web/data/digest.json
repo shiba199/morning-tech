@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-10T20:49:10",
+  "generated_at": "2026-10-10T23:56:34",
   "window_hours": 24,
-  "total": 98,
+  "total": 84,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が16件。OpenAI モデルの推論過程の要約を受け取る reasoning summaries の利用が Amazon Bedrock でも可能になったので、curl と AWS CLI でその動作を試しました。",
+      "summary": "生成AIの新着が12件。OpenAI モデルの推論過程の要約を受け取る reasoning summaries の利用が Amazon Bedrock でも可能になったので、curl と AWS CLI でその動作を試しました。",
       "articles": [
         {
           "title": "Bedrock の OpenAI モデルでも reasoning summaries が使えるようになったので試してみた",
@@ -42,7 +42,7 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が6件。前回の続きになります。・AWS閉鎖網+Snowflakeを作る + ADサーバを利用する場合 https://qiita.…",
+      "summary": "クラウドの新着が4件。前回の続きになります。・AWS閉鎖網+Snowflakeを作る + ADサーバを利用する場合 https://qiita.…",
       "articles": [
         {
           "title": "AWS閉鎖網+Snowflake 内部ステージのS3への接続設定",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。2026年10月7日から9日にかけて、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの各機関が、国内組織で相次ぐ不正アクセスによる個人情報の漏えいを受けた注意喚起を公表しました。ここでは関連する情報をまとめます。…",
+      "summary": "セキュリティの新着が10件。2026年9月、不正アクセス被害の公表が相次ぎました。その理由を説明できる仮説が、AIエージェントによる攻撃の高速化です。「魔の9月」は、AIを悪用したサイバー攻撃が本格化する序章なのでしょうか。",
       "articles": [
+        {
+          "title": "タイムズ、デジタル庁、不正アクセス続出の“魔の9月”　一連の背景にはAIの悪用？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/11/news002.html",
+          "source": "@IT",
+          "published": "2026-10-10T22:00:00",
+          "excerpt": "2026年9月、不正アクセス被害の公表が相次ぎました。その理由を説明できる仮説が、AIエージェントによる攻撃の高速化です。「魔の9月」は、AIを悪用したサイバー攻撃が本格化する序章なのでしょうか。"
+        },
         {
           "title": "国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた - piyolog",
           "link": "https://piyolog.hatenadiary.jp/entry/2026/10/11/004353",
@@ -99,20 +106,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-10T12:24:35",
           "excerpt": "GitHub ActionsからAWSへデプロイする際、AWSアクセスキーをSecretsに保存する方法だけが選択肢ではありません。…"
-        },
-        {
-          "title": "GuardDuty Custom Detection Rulesは検知ロジックではなく『業務上の想定』を書く場所",
-          "link": "https://zenn.dev/xim2jp_tokyo/articles/neta-35-zenn-summary",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-10T11:35:42",
-          "excerpt": "2026年9月に追加されたGuardDuty Custom Detection Rulesを、運用設計の観点で整理した記事の紹介です。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。はじめに AWS Lake Formationは、AWS上のデータレイクできめ細かな権限制御を実現するために必須のサービスとなっていますが、いまいち細かな仕組みや仕様が分からないものがあります。…",
+      "summary": "データ分析の新着が5件。はじめに AWS Lake Formationは、AWS上のデータレイクできめ細かな権限制御を実現するために必須のサービスとなっていますが、いまいち細かな仕組みや仕様が分からないものがあります。…",
       "articles": [
         {
           "title": "【AWS Lake Formation】Glue Data Catalogに対するIAMAllowedPrincipals権限について",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Apple、パーソナライズされたポッドキャストのスタートアップ Huxe からチームを雇用し技術ライセンスを供与する契約を明らかに",
-      "link": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "title": "Build your own decision model",
+      "link": "https://nishtahir.com/build-your-own-decision-model/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-10T22:50:10",
+      "excerpt": "Article URL: https://nishtahir.com/build-your-own-decision-model/ Comments URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "新作映画「バイオハザード」公開で原作ゲームも大盛り上がり？　劇場でマンガ家が頷いた、その理由とは",
+      "link": "https://www.itmedia.co.jp/news/article/2610/11/2000002191/",
+      "source": "ITmedia NEWS",
+      "published": "2026-10-10T22:15:00",
+      "excerpt": "日本でも公開された「バイオハザード」の新作映画。海外では公開3日で興行収入が約6000万ドル（約95億円）を超え、原作であるゲームシリーズの販売にも影響したようです。ボクも見てきました。"
+    },
+    {
+      "title": "AIの文章を見抜けた専門家はわずか36％　「ヒューマンファイアウォール」崩壊の現実",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2610/11/news006.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-10-10T22:00:00",
+      "excerpt": "セキュリティ専門家に人間とAIが書いたメッセージの判別を求めたところ、正しく見抜けたのは36％だった。YubicoとOktaの共同調査は、従業員の警戒心を防御の要とする「ヒューマンファイアウォール」の限界を示す。"
+    },
+    {
+      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "link": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
       "source": "TechCrunch（英語）",
-      "published": "2026-10-10T19:50:00",
-      "excerpt": "AppleはAI生成のポッドキャストビジネスに参入したいのだろうか？"
-    },
-    {
-      "title": "たけし城",
-      "link": "https://en.wikipedia.org/wiki/Takeshi%27s_Castle",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-10T19:12:55",
-      "excerpt": "記事の URL: https://en.wikipedia.org/wiki/Takeshi%27s_Castle コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "「知識の地図を描く ─ オントロジーとは何か？」というタイトルで DevelopersIO 2026 Sapporo に登壇しました #devio2026",
-      "link": "https://dev.classmethod.jp/articles/20261009-devio2026-ontology/",
-      "source": "DevelopersIO",
-      "published": "2026-10-10T18:55:36",
-      "excerpt": "AI エージェントに正しい判断をさせるには、データに隠れた意味を機械が読める形で渡す必要があります。…"
-    },
-    {
-      "title": "Nvidia、米国の「オープン」モデルスタートアップReflection AIの買収交渉中",
-      "link": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-10T18:48:35",
-      "excerpt": "記事の URL: https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-10-10T21:47:51",
+      "excerpt": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI."
     }
   ]
 }
