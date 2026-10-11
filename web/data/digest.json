@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-10-11T16:22:16",
+  "generated_at": "2026-10-11T20:25:20",
   "window_hours": 24,
-  "total": 82,
+  "total": 87,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。このガイドでは AI Chatbot, Agents MCP for Amazon Bedrock を設定し、WordPress サイトが自分のページの内容から、参照したページへのリンクつきで訪問者に答えるようにします。…",
+      "summary": "生成AIの新着が19件。Claude Codeに複数のAWSアカウントを参照させたいという思いから、AWS MCP Serverを使った設定方法をまとめました。安全かつ効率的にマルチアカウント環境を参照させる方法を紹介します。…",
       "articles": [
+        {
+          "title": "Claude CodeにMCP経由で複数のAWSアカウントを参照させてみる",
+          "link": "https://dev.classmethod.jp/articles/claude-code-aws-mcp-multi-account/",
+          "source": "DevelopersIO",
+          "published": "2026-10-11T17:03:36",
+          "excerpt": "Claude Codeに複数のAWSアカウントを参照させたいという思いから、AWS MCP Serverを使った設定方法をまとめました。安全かつ効率的にマルチアカウント環境を参照させる方法を紹介します。…"
+        },
         {
           "title": "AWS 上の WordPress に、出典つきで答える AI チャットボットを追加する（Amazon Bedrock）",
           "link": "https://qiita.com/noteflowai/items/ba6ad598419b3d671762",
@@ -29,21 +36,28 @@
           "source": "Zenn AWSトピック",
           "published": "2026-10-11T12:53:37",
           "excerpt": "1.はじめに 推論モデルをチャット UI や業務アプリに組み込むと、回答が出るまでの数秒をどう埋めるか、モデルがどのようなアプローチを取ったかをどう説明するかが課題になります。…"
-        },
-        {
-          "title": "Claude Code で Slack MCP を複数ワークスペースにつなぐ",
-          "link": "https://dev.classmethod.jp/articles/claude-code-slack-mcp-multi-workspace/",
-          "source": "DevelopersIO",
-          "published": "2026-10-11T11:23:44",
-          "excerpt": "Claude Code から複数の Slack ワークスペースを使う、現状おそらく一番簡単な方法を紹介します。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。RDS ProxyとElastiCacheの違い 項目 Amazon RDS Proxy Amazon ElastiCache 主な目的 データベース接続の効率化 データアクセスの高速化 主な機能 接続プーリング・接続の再利用 インメモリキ…",
+      "summary": "クラウドの新着が11件。役割別でコンテナを用意するとは？DockerfileからAWS ECSまで解説 Dockerでは、Web・アプリ・Workerなど、役割ごとにコンテナを分ける構成がよく使われます。…",
       "articles": [
+        {
+          "title": "役割別でコンテナを用意するとは？DockerfileからAWS ECSまで解説",
+          "link": "https://qiita.com/namnam3225/items/940a8f16a6e29ac796ff",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-11T17:09:53",
+          "excerpt": "役割別でコンテナを用意するとは？DockerfileからAWS ECSまで解説 Dockerでは、Web・アプリ・Workerなど、役割ごとにコンテナを分ける構成がよく使われます。…"
+        },
+        {
+          "title": "AWS S3の権限一覧｜よく使うActionとResourceの違いをわかりやすく解説",
+          "link": "https://qiita.com/namnam3225/items/753b90937cc86ad5e493",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-11T17:09:41",
+          "excerpt": "AWS S3の権限一覧｜よく使うActionとResourceの違いをわかりやすく解説 S3でファイルの取得・アップロード・削除などを行うには、用途に応じた権限が必要です。…"
+        },
         {
           "title": "RDS Proxy・ElastiCacheについてDVA対策としてまとめてみる",
           "link": "https://qiita.com/keitakei777/items/6aa741487de024db46c6",
@@ -57,28 +71,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-11T15:12:20",
           "excerpt": "Amazon ECR Amazon ECR（Elastic Container Registry）は、コンテナイメージを保存・管理するマネージドサービスです。…"
-        },
-        {
-          "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
-          "link": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-11T14:00:00",
-          "excerpt": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break"
-        },
-        {
-          "title": "ChatGPTと作るAWSの使い捨てKubernetes検証環境とその苦しみ",
-          "link": "https://zenn.dev/degurum/articles/aws-kubeadm-lab-build-and-destroy",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-11T10:59:44",
-          "excerpt": "KubernetesやCNIを試すために、AWSのEC2上にkubeadmでクラスタを作り、使い終わったら削除する環境を作りました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が2件。はじめに Amazon GuardDuty の新機能追加や新しい検出結果タイプのリリース、仕様変更などは、AWS が公開している SNS トピック GuardDutyAnnouncements で通知されています。…",
+      "summary": "セキュリティの新着が3件。AWSのセキュリティ対策、結局何をすればいい？…",
       "articles": [
+        {
+          "title": "AWSのセキュリティ対策、結局何をすればいい？最初に実施する設定と運用",
+          "link": "https://qiita.com/namnam3225/items/770c2c5440f76102b981",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-11T17:07:59",
+          "excerpt": "AWSのセキュリティ対策、結局何をすればいい？…"
+        },
         {
           "title": "GuardDutyのアップデート情報をSNS（GuardDutyAnnouncements）でメール受信する",
           "link": "https://zenn.dev/toge510/articles/21d6d263a02173",
@@ -133,8 +140,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が2件。Article URL: https://insideclimatenews.…",
+      "summary": "開発ツールの新着が4件。Article URL: https://mdelcaro.substack.com/p/cognitive-decline-or-sanity-incline Comments URL: https://news.ycombinator.…",
       "articles": [
+        {
+          "title": "Cognitive Decline or Sanity Incline?",
+          "link": "https://mdelcaro.substack.com/p/cognitive-decline-or-sanity-incline",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-11T20:05:03",
+          "excerpt": "Article URL: https://mdelcaro.substack.com/p/cognitive-decline-or-sanity-incline Comments URL: https://news.ycombinator.…"
+        },
+        {
+          "title": "AWS Control TowerのメンバーアカウントをTerraformとYAMLでいい感じに管理する（AFTなし）",
+          "link": "https://dev.classmethod.jp/articles/control-tower-member-account-terraform-yaml/",
+          "source": "DevelopersIO",
+          "published": "2026-10-11T16:17:42",
+          "excerpt": "AFTを使わずにControl TowerのメンバーアカウントをYAMLでアカウントを定義し、Terraformで管理する方法を試してみました。メンバーアカウントをTerraformで管理したいけどAFTはちょっと…という方におすすめです。…"
+        },
         {
           "title": "Internal files add to evidence of an ExxonMobil climate deception campaign",
           "link": "https://insideclimatenews.org/news/07102026/exxonmobil-climate-deception-new-evidence/",
@@ -154,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Dawn Myers is making it easier to style, detangle, and care for curly hair",
-      "link": "https://techcrunch.com/2026/10/11/dawn-myers-is-making-it-easier-to-style-detangle-and-care-for-curly-hair/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-11T16:00:00",
-      "excerpt": "Richualist is one of TechCrunch's Battlefield 200 Companies!"
-    },
-    {
-      "title": "How I reverse engineering a commercial spatial audio effect",
-      "link": "http://epestr.com/blog/reverse-engineering-a-commercial-spatial-audio-effect/",
+      "title": "Cartographers of North Korea",
+      "link": "https://cartographers-nk.wonyoung.so/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-11T15:21:58",
-      "excerpt": "Article URL: http://epestr.com/blog/reverse-engineering-a-commercial-spatial-audio-effect/ Comments URL: https://news.…"
+      "published": "2026-10-11T19:46:40",
+      "excerpt": "Article URL: https://cartographers-nk.wonyoung.so/ Comments URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Efferon wants to eradicate the devastating toll of pediatric sepsis",
-      "link": "https://techcrunch.com/2026/10/11/efferon-wants-to-eradicate-the-devastating-toll-of-pediatric-sepsis/",
+      "title": "Be The Onion's Hero for Once",
+      "link": "https://mailchi.mp/email.theonion.com/archivehunt",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-11T19:43:32",
+      "excerpt": "Article URL: https://mailchi.mp/email.theonion.com/archivehunt Comments URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "The Unreasonable Effectiveness of Vex in NixOS",
+      "link": "https://blog.kammel.dev/post/nixos_vex/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-11T19:23:07",
+      "excerpt": "Article URL: https://blog.kammel.dev/post/nixos_vex/ Comments URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+      "link": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
       "source": "TechCrunch（英語）",
-      "published": "2026-10-11T15:00:00",
-      "excerpt": "This Battlefield 200 startup has developed blood-purification tech to save children"
-    },
-    {
-      "title": "【AWS Organizations × Slack】個人アカウントで一人アドミンに挑戦してみた！(アカウント払い出し編)",
-      "link": "https://qiita.com/yosuke-suzuki/items/8c0af6d1dfa8f2d230dc",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-11T14:58:02",
-      "excerpt": "はじめに こんにちは。組織でのAWSアカウントの払い出しを楽にしたいすずきです。AWSアカウントを「作る人」=「使う人」=「自分」となる個人検証では、払い出しで困ることはあまりありません。…"
+      "published": "2026-10-11T19:00:00",
+      "excerpt": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West.…"
     }
   ]
 }
