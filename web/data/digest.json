@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-10-10T23:56:34",
+  "generated_at": "2026-10-11T03:05:15",
   "window_hours": 24,
-  "total": 84,
+  "total": 86,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が12件。OpenAI モデルの推論過程の要約を受け取る reasoning summaries の利用が Amazon Bedrock でも可能になったので、curl と AWS CLI でその動作を試しました。",
+      "summary": "生成AIの新着が16件。Article URL: https://momo5502.com/posts/2026-10-09-game-decompilation/ Comments URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
-          "title": "Bedrock の OpenAI モデルでも reasoning summaries が使えるようになったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-openai-reasoning-summaries/",
-          "source": "DevelopersIO",
-          "published": "2026-10-10T15:16:18",
-          "excerpt": "OpenAI モデルの推論過程の要約を受け取る reasoning summaries の利用が Amazon Bedrock でも可能になったので、curl と AWS CLI でその動作を試しました。"
-        },
-        {
-          "title": "テキスト メッセージ内に常駐できる上位の AI エージェントは次のとおりです",
-          "link": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-10T14:00:00",
-          "excerpt": "一般的なアシスタントから家族、旅行、仕事向けに設計されたエージェントまで、テキスト メッセージ内に存在できる最も注目すべき AI エージェントのリストを作成しました。"
-        },
-        {
-          "title": "LLM は避けられない",
-          "link": "https://deadsimpletech.com/blog/llms-arent-inevitable",
+          "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+          "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
           "source": "Hacker News（英語）",
-          "published": "2026-10-10T12:04:04",
-          "excerpt": "記事の URL: https://deadsimpletech.com/blog/llms-arent-inevitable コメント URL: https://news.ycombinator.com/item?…"
+          "published": "2026-10-11T02:02:38",
+          "excerpt": "Article URL: https://momo5502.com/posts/2026-10-09-game-decompilation/ Comments URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "BedrockのGPT-6.1 Solに「どう考えたか」を要約してもらった話",
-          "link": "https://qiita.com/manaty/items/8550890fa6506854fdbc",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-10T11:47:40",
-          "excerpt": "はじめに こんにちは、マナティです！2026年10月9日、Amazon Bedrock上のOpenAIモデルがResponses APIの reasoning.summary パラメータに対応しました。…"
+          "title": "OpenAI の Decisions API に書類画像(日本語)を見せて、OCR 結果の誤りを見つけさせてみた",
+          "link": "https://dev.classmethod.jp/articles/openai-decisions-ocr-verification-ja/",
+          "source": "DevelopersIO",
+          "published": "2026-10-11T01:44:12",
+          "excerpt": "OpenAI の Decisions API が日本語の書類検証で Clef とどう比較されるのか、実際に検証してみました。その結果と特徴をまとめます。"
+        },
+        {
+          "title": "Python・MLflow・FastAPIで始めるMLOps入門：モデル作成から推論APIの構築まで",
+          "link": "https://zenn.dev/yoshihiro_iwato/articles/3f48c3450e2b39",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-11T01:39:33",
+          "excerpt": "Python・MLflow・FastAPIで始めるMLOps入門：モデル作成から推論APIの構築まで 1.はじめに 機械学習モデルを作成するだけでなく、学習結果を管理し、外部から利用できる仕組みを構築することも重要です。…"
+        },
+        {
+          "title": "OpenAI の Decisions API に書類画像(英語)を見せて、OCR 結果の誤りを見つけさせてみた",
+          "link": "https://dev.classmethod.jp/articles/openai-decisions-ocr-verification/",
+          "source": "DevelopersIO",
+          "published": "2026-10-11T01:27:09",
+          "excerpt": "VLM で書類から抽出した値の検証精度を確かめるため、OpenAI の Decisions API と Cloudflare の Clef を比較してみました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が4件。前回の続きになります。・AWS閉鎖網+Snowflakeを作る + ADサーバを利用する場合 https://qiita.…",
+      "summary": "クラウドの新着が6件。「DBが遅い」の切り分けは5層を上から下へ RDSやAuroraを使うと、OSパッチやレプリケーション構築といった作業はなくなります。消えるのは作業だけで、データベースエンジンの仕組みはそのまま残ります。…",
       "articles": [
+        {
+          "title": "RDS・Aurora障害切り分けの勘所｜接続・待機イベント・肥大化",
+          "link": "https://zenn.dev/techdbblog/articles/techdb-rds-aurora-operations-troubleshooting-guide",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-11T01:09:14",
+          "excerpt": "「DBが遅い」の切り分けは5層を上から下へ RDSやAuroraを使うと、OSパッチやレプリケーション構築といった作業はなくなります。消えるのは作業だけで、データベースエンジンの仕組みはそのまま残ります。…"
+        },
+        {
+          "title": "くろうどんと学ぶ Bedrock RAGのベクトルストア選び ― S3 Vectors vs OpenSearch Serverless",
+          "link": "https://zenn.dev/kei314/articles/937112da0094b0",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-11T00:29:55",
+          "excerpt": "くろうどん「RAGを作ろうとしたら、ベクトルストアの料金で手が止まった…」 はじめに Amazon Bedrockで、PostgreSQLの運用に関する質問に答えるQ Aエージェントを作りました。…"
+        },
         {
           "title": "AWS閉鎖網+Snowflake 内部ステージのS3への接続設定",
           "link": "https://qiita.com/Cache-Hit/items/61a5aac9a66bda5f0aa8",
@@ -57,27 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-10-10T09:07:32",
           "excerpt": "Resolver DNS Firewall 触る良い機会になった"
-        },
-        {
-          "title": "Zabbix 5.0→7.0 × AL2→AL2023 × MariaDB→PostgreSQL：AI無停止移行の全実装",
-          "link": "https://zenn.dev/qryuu/articles/185e6c806201ab",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-10T04:20:36",
-          "excerpt": "Zabbix のメジャーバージョンアップにおいて、長年の課題となっているのが 「DBスキーマコンバートと大量ヒストリ移行に伴う監視停止」 です。…"
-        },
-        {
-          "title": "Zabbixバージョンアップの「DBコンバート監視停止」をAIで過去にする：AL2(MariaDB)→AL2023(PostgreSQL)無停止移行と8年越しのDB調査",
-          "link": "https://qiita.com/qryuu/items/5e2b33dcfd060695719c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-10T03:23:43",
-          "excerpt": "Zabbix のメジャーバージョンアップにおいて、インフラエンジニアが常に頭を抱えるのが 「DBスキーマコンバートとヒストリ移行に伴う監視停止」 です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。2026年9月、不正アクセス被害の公表が相次ぎました。その理由を説明できる仮説が、AIエージェントによる攻撃の高速化です。「魔の9月」は、AIを悪用したサイバー攻撃が本格化する序章なのでしょうか。",
+      "summary": "セキュリティの新着が9件。2026年9月、不正アクセス被害の公表が相次ぎました。その理由を説明できる仮説が、AIエージェントによる攻撃の高速化です。「魔の9月」は、AIを悪用したサイバー攻撃が本格化する序章なのでしょうか。",
       "articles": [
         {
           "title": "タイムズ、デジタル庁、不正アクセス続出の“魔の9月”　一連の背景にはAIの悪用？",
@@ -112,8 +112,15 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。はじめに AWS Lake Formationは、AWS上のデータレイクできめ細かな権限制御を実現するために必須のサービスとなっていますが、いまいち細かな仕組みや仕様が分からないものがあります。…",
+      "summary": "データ分析の新着が4件。くろうどん「RAGを作ろうとしたら、ベクトルストアの料金で手が止まった…」 はじめに Amazon Bedrockで、PostgreSQLの運用に関する質問に答えるQ Aエージェントを作りました。…",
       "articles": [
+        {
+          "title": "くろうどんと学ぶ Bedrock RAGのベクトルストア選び ― S3 Vectors vs OpenSearch Serverless",
+          "link": "https://zenn.dev/kei314/articles/937112da0094b0",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-11T00:29:55",
+          "excerpt": "くろうどん「RAGを作ろうとしたら、ベクトルストアの料金で手が止まった…」 はじめに Amazon Bedrockで、PostgreSQLの運用に関する質問に答えるQ Aエージェントを作りました。…"
+        },
         {
           "title": "【AWS Lake Formation】Glue Data Catalogに対するIAMAllowedPrincipals権限について",
           "link": "https://zenn.dev/tmiki/articles/7dde5a979fabe1",
@@ -134,21 +141,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-10T03:23:43",
           "excerpt": "Zabbix のメジャーバージョンアップにおいて、インフラエンジニアが常に頭を抱えるのが 「DBスキーマコンバートとヒストリ移行に伴う監視停止」 です。…"
-        },
-        {
-          "title": "Telegram Desktop の脆弱性により、あらゆるユーザーのファイルが盗まれる可能性がある",
-          "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-10T03:02:47",
-          "excerpt": "記事の URL: https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/ コメント URL: https://news.…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。Version・Alias・監視でリリースを安全にする（運用編） 🐈🐈🐈 作成した内容は👆こちら 🐈🐈🐈 1.…",
+      "summary": "開発ツールの新着が7件。引き継いだ Terraform のリポジトリに checks.tf というファイルがありました。…",
       "articles": [
+        {
+          "title": "Terraform の check ブロックは apply を止めなかったから precondition に置き換えた",
+          "link": "https://zenn.dev/kana001_bit/articles/terraform-check-does-not-stop-apply",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-10T21:17:10",
+          "excerpt": "引き継いだ Terraform のリポジトリに checks.tf というファイルがありました。…"
+        },
         {
           "title": "【CICD入門】AWSでシンプルなCICDを作る（第3回：運用編）",
           "link": "https://qiita.com/mkthrkw/items/d16250ff9e369374cb44",
@@ -169,45 +176,38 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-10-10T12:22:45",
           "excerpt": "Kiro CLI V3 は、Kiro IDE と Kiro Web を動かしているものと同じエージェントハーネスをターミナルで使えるようにします。…"
-        },
-        {
-          "title": "GitHub ActionsのOIDCでAWS認証が通らない時にsubクレームを確認して信頼ポリシーを直してみた",
-          "link": "https://dev.classmethod.jp/articles/try-github-actions-oidc-immutable-subject-claim/",
-          "source": "DevelopersIO",
-          "published": "2026-10-10T06:43:42",
-          "excerpt": "GitHub ActionsからAWSへのOIDC認証が新しいリポジトリだけ失敗する場合、GitHubの仕様変更「immutable subject claim」が原因かもしれません。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Build your own decision model",
-      "link": "https://nishtahir.com/build-your-own-decision-model/",
+      "title": "ゴール裏年パス勢が、架空スタジアムのチケットサイトを作る理由 ― 架空サカスタのチケットサイトで学ぶ（0）",
+      "link": "https://qiita.com/macchi23/items/5b9f5670c841f5c41be8",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-11T02:11:18",
+      "excerpt": "なぜ架空スタジアムのチケットサイトを作るのか ― 架空サカスタのチケットサイトで学ぶ（0） はじめに 架空のサッカースタジアム「ペヌソニックスタジアム（通称ペヌスタ）」のチケット販売サイトを、遊び場として作っています。…"
+    },
+    {
+      "title": "個人開発でVPSとAWSを選ぶ基準を7つの軸で整理する",
+      "link": "https://qiita.com/techdbblog/items/e743cc829dc42160f9b0",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-11T01:06:49",
+      "excerpt": "公開先の選択で手が止まる理由 自作のWebアプリを初めて公開するとき、VPSを1台借りるかAWSを使うかで迷います。月数千円という予算では金額が近いのに、契約の単位、障害時に誰が何をするか、あとから規模を広げられるかが異なります。…"
+    },
+    {
+      "title": "WallHop – 12ft.io is gone, so I built a replacement",
+      "link": "https://wallhop.io/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-10T22:50:10",
-      "excerpt": "Article URL: https://nishtahir.com/build-your-own-decision-model/ Comments URL: https://news.ycombinator.com/item?…"
+      "published": "2026-10-11T00:46:48",
+      "excerpt": "Article URL: https://wallhop.io/ Comments URL: https://news.ycombinator.com/item?id=50038634 Points: 123 # Comments: 54"
     },
     {
-      "title": "新作映画「バイオハザード」公開で原作ゲームも大盛り上がり？　劇場でマンガ家が頷いた、その理由とは",
-      "link": "https://www.itmedia.co.jp/news/article/2610/11/2000002191/",
-      "source": "ITmedia NEWS",
-      "published": "2026-10-10T22:15:00",
-      "excerpt": "日本でも公開された「バイオハザード」の新作映画。海外では公開3日で興行収入が約6000万ドル（約95億円）を超え、原作であるゲームシリーズの販売にも影響したようです。ボクも見てきました。"
-    },
-    {
-      "title": "AIの文章を見抜けた専門家はわずか36％　「ヒューマンファイアウォール」崩壊の現実",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2610/11/news006.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-10-10T22:00:00",
-      "excerpt": "セキュリティ専門家に人間とAIが書いたメッセージの判別を求めたところ、正しく見抜けたのは36％だった。YubicoとOktaの共同調査は、従業員の警戒心を防御の要とする「ヒューマンファイアウォール」の限界を示す。"
-    },
-    {
-      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
-      "link": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-10T21:47:51",
-      "excerpt": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI."
+      "title": "PSPi 6 – Raspberry Pi in a PSP",
+      "link": "https://github.com/othermod/PSPi-Version-6",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-11T00:45:49",
+      "excerpt": "Article URL: https://github.com/othermod/PSPi-Version-6 Comments URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
