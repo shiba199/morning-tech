@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-11T20:25:20",
+  "generated_at": "2026-10-11T23:48:03",
   "window_hours": 24,
-  "total": 87,
+  "total": 92,
   "topic_count": 5,
   "groups": [
     {
@@ -24,11 +24,11 @@
           "excerpt": "このガイドでは AI Chatbot, Agents MCP for Amazon Bedrock を設定し、WordPress サイトが自分のページの内容から、参照したページへのリンクつきで訪問者に答えるようにします。…"
         },
         {
-          "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+          "title": "これらの幹部は、音声 AI はまだ ChatGPT の瞬間に達していないと考えています",
           "link": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
           "source": "TechCrunch（英語）",
           "published": "2026-10-11T14:00:00",
-          "excerpt": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break"
+          "excerpt": "音声 AI はコンテキスト層の重要なポイントを見逃すことが多く、パイプライン全体が壊れてしまいます。"
         },
         {
           "title": "BedrockのOpenAIモデルでreasoning.summaryを実測 — トークン計上・応答速度・Guardrailsを検証",
@@ -77,8 +77,15 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が3件。AWSのセキュリティ対策、結局何をすればいい？…",
+      "summary": "セキュリティの新着が3件。はじめにSnowflake CLI（snow コマンド）からSnowflakeに接続する際、パスワード認証は手軽ですが、MFAの有効化や、パスワードそのものの管理が悩みの種になります。そこで有力な選択肢となるのがキーペア認証です。…",
       "articles": [
+        {
+          "title": "Snowflake CLIのキーペア認証を1Password CLIと連携して、秘密鍵をPCに残さず使い分ける | Fusic 技術ブログのフィード",
+          "link": "https://zenn.dev/fusic/articles/snowflake-cli-openssl-auth-1password",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-11T22:30:07",
+          "excerpt": "はじめにSnowflake CLI（snow コマンド）からSnowflakeに接続する際、パスワード認証は手軽ですが、MFAの有効化や、パスワードそのものの管理が悩みの種になります。そこで有力な選択肢となるのがキーペア認証です。…"
+        },
         {
           "title": "AWSのセキュリティ対策、結局何をすればいい？最初に実施する設定と運用",
           "link": "https://qiita.com/namnam3225/items/770c2c5440f76102b981",
@@ -92,34 +99,27 @@
           "source": "Zenn AWSトピック",
           "published": "2026-10-11T08:00:17",
           "excerpt": "はじめに Amazon GuardDuty の新機能追加や新しい検出結果タイプのリリース、仕様変更などは、AWS が公開している SNS トピック GuardDutyAnnouncements で通知されています。…"
-        },
-        {
-          "title": "タイムズ、デジタル庁、不正アクセス続出の“魔の9月”　一連の背景にはAIの悪用？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/11/news002.html",
-          "source": "@IT",
-          "published": "2026-10-10T22:00:00",
-          "excerpt": "2026年9月、不正アクセス被害の公表が相次ぎました。その理由を説明できる仮説が、AIエージェントによる攻撃の高速化です。「魔の9月」は、AIを悪用したサイバー攻撃が本格化する序章なのでしょうか。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is p…",
+      "summary": "データ分析の新着が4件。TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。",
       "articles": [
         {
-          "title": "TechCrunch Mobility: A roadblock clears for self-driving trucks",
+          "title": "TechCrunch Mobility: 自動運転トラックの障害が解消される",
           "link": "https://techcrunch.com/2026/10/11/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks/",
           "source": "TechCrunch（英語）",
           "published": "2026-10-11T16:02:00",
-          "excerpt": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is p…"
+          "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。"
         },
         {
-          "title": "Internal files add to evidence of an ExxonMobil climate deception campaign",
+          "title": "内部ファイルによりエクソンモービルの気候変動詐欺キャンペーンの証拠が増える",
           "link": "https://insideclimatenews.org/news/07102026/exxonmobil-climate-deception-new-evidence/",
           "source": "Hacker News（英語）",
           "published": "2026-10-11T14:28:39",
-          "excerpt": "Article URL: https://insideclimatenews.…"
+          "excerpt": "記事の URL: https://insideclimatenews.org/news/07102026/exxonmobile-climate-deception-new-evidence/ コメント URL: https://news.…"
         },
         {
           "title": "くろうどんと学ぶ Bedrock RAGのベクトルストア選び ― S3 Vectors vs OpenSearch Serverless",
@@ -140,14 +140,21 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が4件。Article URL: https://mdelcaro.substack.com/p/cognitive-decline-or-sanity-incline Comments URL: https://news.ycombinator.…",
+      "summary": "開発ツールの新着が4件。はじめにSnowflake CLI（snow コマンド）からSnowflakeに接続する際、パスワード認証は手軽ですが、MFAの有効化や、パスワードそのものの管理が悩みの種になります。そこで有力な選択肢となるのがキーペア認証です。…",
       "articles": [
         {
-          "title": "Cognitive Decline or Sanity Incline?",
+          "title": "Snowflake CLIのキーペア認証を1Password CLIと連携して、秘密鍵をPCに残さず使い分ける | Fusic 技術ブログのフィード",
+          "link": "https://zenn.dev/fusic/articles/snowflake-cli-openssl-auth-1password",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-11T22:30:07",
+          "excerpt": "はじめにSnowflake CLI（snow コマンド）からSnowflakeに接続する際、パスワード認証は手軽ですが、MFAの有効化や、パスワードそのものの管理が悩みの種になります。そこで有力な選択肢となるのがキーペア認証です。…"
+        },
+        {
+          "title": "認知力の低下か正気度の低下か?",
           "link": "https://mdelcaro.substack.com/p/cognitive-decline-or-sanity-incline",
           "source": "Hacker News（英語）",
           "published": "2026-10-11T20:05:03",
-          "excerpt": "Article URL: https://mdelcaro.substack.com/p/cognitive-decline-or-sanity-incline Comments URL: https://news.ycombinator.…"
+          "excerpt": "記事の URL: https://mdelcaro.substack.com/p/cognitive-decline-or-sanity-incline コメント URL: https://news.ycombinator.…"
         },
         {
           "title": "AWS Control TowerのメンバーアカウントをTerraformとYAMLでいい感じに管理する（AFTなし）",
@@ -157,50 +164,43 @@
           "excerpt": "AFTを使わずにControl TowerのメンバーアカウントをYAMLでアカウントを定義し、Terraformで管理する方法を試してみました。メンバーアカウントをTerraformで管理したいけどAFTはちょっと…という方におすすめです。…"
         },
         {
-          "title": "Internal files add to evidence of an ExxonMobil climate deception campaign",
+          "title": "内部ファイルによりエクソンモービルの気候変動詐欺キャンペーンの証拠が増える",
           "link": "https://insideclimatenews.org/news/07102026/exxonmobil-climate-deception-new-evidence/",
           "source": "Hacker News（英語）",
           "published": "2026-10-11T14:28:39",
-          "excerpt": "Article URL: https://insideclimatenews.…"
-        },
-        {
-          "title": "Terraform の check ブロックは apply を止めなかったから precondition に置き換えた",
-          "link": "https://zenn.dev/kana001_bit/articles/terraform-check-does-not-stop-apply",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-10T21:17:10",
-          "excerpt": "引き継いだ Terraform のリポジトリに checks.tf というファイルがありました。…"
+          "excerpt": "記事の URL: https://insideclimatenews.org/news/07102026/exxonmobile-climate-deception-new-evidence/ コメント URL: https://news.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Cartographers of North Korea",
-      "link": "https://cartographers-nk.wonyoung.so/",
+      "title": "世界中の Google データセンター",
+      "link": "https://datacenters.google/locations/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-11T19:46:40",
-      "excerpt": "Article URL: https://cartographers-nk.wonyoung.so/ Comments URL: https://news.ycombinator.com/item?…"
+      "published": "2026-10-11T22:45:40",
+      "excerpt": "記事の URL: https://datacenters.google/locations/ コメント URL: https://news.ycombinator.com/item?id=50048768 ポイント: 19 コメント数: 7"
     },
     {
-      "title": "Be The Onion's Hero for Once",
-      "link": "https://mailchi.mp/email.theonion.com/archivehunt",
+      "title": "指紋は新しい Cookie です",
+      "link": "https://royfish.dev/fingerprints-are-the-new-cookies",
       "source": "Hacker News（英語）",
-      "published": "2026-10-11T19:43:32",
-      "excerpt": "Article URL: https://mailchi.mp/email.theonion.com/archivehunt Comments URL: https://news.ycombinator.com/item?…"
+      "published": "2026-10-11T22:33:39",
+      "excerpt": "記事の URL: https://royfish.dev/fingerprints-are-the-new-cookies コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "The Unreasonable Effectiveness of Vex in NixOS",
-      "link": "https://blog.kammel.dev/post/nixos_vex/",
+      "title": "グーグルはデータセンター建設のために森林を違法伐採している",
+      "link": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
       "source": "Hacker News（英語）",
-      "published": "2026-10-11T19:23:07",
-      "excerpt": "Article URL: https://blog.kammel.dev/post/nixos_vex/ Comments URL: https://news.ycombinator.com/item?…"
+      "published": "2026-10-11T22:33:30",
+      "excerpt": "記事の URL: https://www.theguardian.…"
     },
     {
-      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
-      "link": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-11T19:00:00",
-      "excerpt": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West.…"
+      "title": "集合知による再帰的自己改善",
+      "link": "https://pub.sakana.ai/mass/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-11T22:22:10",
+      "excerpt": "記事の URL: https://pub.sakana.ai/mass/ コメント URL: https://news.ycombinator.com/item?id=50048522 ポイント: 21 コメント数: 1"
     }
   ]
 }
