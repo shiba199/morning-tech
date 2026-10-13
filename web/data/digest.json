@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-10-12T20:22:33",
+  "generated_at": "2026-10-13T02:08:57",
   "window_hours": 24,
-  "total": 101,
+  "total": 122,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が14件。CPU のみおよび CPU/GPU 混合構成は 11 月にパートナーから提供される予定です",
+      "summary": "生成AIの新着が23件。LangGraphで書いてきたエージェント実装を、Pydantic AIで書き直して両者を比較してみました。基本的なエージェント、構造化出力、依存注入、プロバイダー切り替えの4つのパターンで、どこが対応していてどこが異なるのかを確認します。",
       "articles": [
         {
-          "title": "AMD、OCP サミットで AI エージェント用の Helion ラックを発表",
-          "link": "https://www.theregister.com/systems/2026/10/12/amd-unveils-helion-racks-for-ai-agents-at-ocp-summit/5302652",
-          "source": "The Register（英語）",
-          "published": "2026-10-12T15:51:36",
-          "excerpt": "CPU のみおよび CPU/GPU 混合構成は 11 月にパートナーから提供される予定です"
+          "title": "Pydantic AIとLangGraphで同じエージェントを書き比べてみる",
+          "link": "https://dev.classmethod.jp/articles/pydantic-ai-vs-langgraph/",
+          "source": "DevelopersIO",
+          "published": "2026-10-13T02:00:10",
+          "excerpt": "LangGraphで書いてきたエージェント実装を、Pydantic AIで書き直して両者を比較してみました。基本的なエージェント、構造化出力、依存注入、プロバイダー切り替えの4つのパターンで、どこが対応していてどこが異なるのかを確認します。"
         },
         {
-          "title": "【日替わりITトレンド：火曜 \"クラウド\"】AWSに「クラウドの健康診断AI」登場！Deno Deployは半年で終了へ、今週のクラウドニュースと「Well-Architected Agent」入門",
-          "link": "https://qiita.com/mt_caddi/items/1fa5f5e1b8bfd8517afa",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-12T15:16:58",
-          "excerpt": "※この記事はおよそ11分で読むことができます（文字数：5,262文字） この記事を見つけてくれてありがとうございます！またお会いしましたね、こんにちは。相変わらずうだつの上がらないブラック社畜です。初めて御覧いただいた方は初めまして。…"
+          "title": "[小ネタ] Strands Agents に Model Routing が追加されていたので試してみた",
+          "link": "https://dev.classmethod.jp/articles/strands-agents-model-routing/",
+          "source": "DevelopersIO",
+          "published": "2026-10-13T01:49:17",
+          "excerpt": "Strands Agents の新機能「Model Routing」を試してみました！"
         },
         {
-          "title": "【簡単AWS MLA】【初心者向け】Day 18：SageMaker のコスト最適化を整理する — Training / Endpoint / Batch / Spot / Auto Scaling",
-          "link": "https://qiita.com/MetaYuan/items/2d88e1f7e74c13a09ecb",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-12T14:35:41",
-          "excerpt": "はじめに 前回は、ML ワークロードのセキュリティとして、 IAM KMS VPC VPC Endpoint CloudTrail CloudWatch Logs について整理しました。…"
+          "title": "動画生成できないClaudeに「ゆっくり解説動画」を作らせてみた | SIOS Tech Lab",
+          "link": "https://tech-lab.sios.jp/archives/55122",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-13T01:07:48",
+          "excerpt": "はじめに こんにちは、PS-SLの織田です。今回は2人のキャラクターが掛け合いで題材を説明する「ゆっくり解説動画」を、Claude Code と動画編集ソフトの「ゆっくりMovieMaker4（YMM4）」を組み合わせて ...…"
         },
         {
-          "title": "Claude Haiku 5.5はTerraformコーディングでSonnet 5.5に迫れるか検証してみた",
-          "link": "https://qiita.com/moriryota62/items/2769a6cbeda27ff6c8b2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-12T10:28:31",
-          "excerpt": "はじめに Claude Haiku 5.5 がリリースされました。…"
+          "title": "ソニー銀行が勘定系システムの開発に AI エージェントを適用し基本設計から結合テストまでの開発期間を 30% 短縮",
+          "link": "https://aws.amazon.com/jp/blogs/news/casestudy-sonybank-agent-in-development/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-13T01:03:34",
+          "excerpt": "このブログ記事は、AWS ソリューションアーキテクト 小塚が執筆し、ソニー銀行株式会社および富士通株式会社に監 […]"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が6件。HPE および NVIDIA との The Register のワシントン ディナーの 2 週間強前に、テーブルに上がった質問がアーキテクチャを決定するものになります。",
+      "summary": "クラウドの新着が16件。AWS Community Builder Serverlessカテゴリの @Kanahiro です。Lambdaでコンテナを動かすことに心血を注いでいます。…",
       "articles": [
         {
-          "title": "実際に境界となるのはどの AI インフラストラクチャ オプションでしょうか?",
-          "link": "https://www.theregister.com/ai-and-ml/2026/10/12/sponsored-which-ai-infrastructure-option-actually-holds-a-boundary/5300433",
-          "source": "The Register（英語）",
-          "published": "2026-10-12T15:00:00",
-          "excerpt": "HPE および NVIDIA との The Register のワシントン ディナーの 2 週間強前に、テーブルに上がった質問がアーキテクチャを決定するものになります。"
-        },
-        {
-          "title": "[アップデート] Amazon S3 Tables で Apache Iceberg V3 の全データ型が利用可能になったので AWS Glue 6.0 の Interactive Session で試してみた",
-          "link": "https://dev.classmethod.jp/articles/20261012-amazon-s3-tables-iceberg-v3/",
-          "source": "DevelopersIO",
-          "published": "2026-10-12T14:53:52",
-          "excerpt": "Amazon S3 Tables が Apache Iceberg V3 の新しいデータ型をサポートしました。AWS Glue 6.…"
-        },
-        {
-          "title": "【ハンズオン：#7-9】AWSを実際に操作してみた(S3、Route53、CloudFront、WAF)",
-          "link": "https://zenn.dev/hitakaha/articles/09885591264e89",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-12T10:24:00",
-          "excerpt": "はじめに こんにちは、hitakahaです。引き続きハンズオンを進めているので、作業の振り返りを兼ねて、今回学んだ内容をアウトプットしてみます。ハンズオン講座で触れたAWSの主要なマネージドサービスと、現在の対応状況は以下の通りです。…"
-        },
-        {
-          "title": "事務職20年から、Docker・AWS未経験のままEC2デプロイまでやってみた話(拡張①開発記)",
-          "link": "https://qiita.com/Junko-Takahashi-Cloud/items/ae735c8a572c9ea1a2a2",
+          "title": "AWS Lambda Web FunctionsをHonoで使ってみる",
+          "link": "https://qiita.com/Kanahiro/items/9cefcba4acc5e6ce11c0",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-12T09:42:43",
-          "excerpt": "きっかけ 第三弾の開発記で「店舗側のメンテナンス管理は今後の課題」と書いていました。あれから時間が経ち、気づけば拡張①は完成し、AWSにデプロイされ、第三弾・第四弾とAPIで繋がっていました。今回はその完結報告です。…"
+          "published": "2026-10-13T01:56:27",
+          "excerpt": "AWS Community Builder Serverlessカテゴリの @Kanahiro です。Lambdaでコンテナを動かすことに心血を注いでいます。…"
+        },
+        {
+          "title": "AWSサービス解説(VPC編)",
+          "link": "https://qiita.com/Kagesyu/items/0dfc56aaac4a7e9708cd",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-13T01:50:58",
+          "excerpt": "イントロダクション 今回はAWSサービスVPCについて子供にでもわかるように学校をイメージして解説します。VPC VPCは「町（リージョン）の中に作る学校の敷地です AWS ＝国 関連用語 ・リージョン 学校を建てる町。…"
+        },
+        {
+          "title": "CUR 2.0でECSのタスク費用を調べる Fargate・EC2と分割配賦の違い",
+          "link": "https://qiita.com/s_horikoshi/items/bad2264d153be19a86fc",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-13T01:46:28",
+          "excerpt": "はじめに ECSの費用を見ようとして、請求画面のサービス別合計だけでは「どのタスクに、どれだけかかったか」が分からず困ることがあります。そこで使うのが、詳細なコストと使用量を出力するCURです。…"
+        },
+        {
+          "title": "GAになった Lambda Web Functions を東京リージョンで試してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-lambda-web-functions-ga-express/",
+          "source": "DevelopersIO",
+          "published": "2026-10-13T01:40:41",
+          "excerpt": "東京リージョンを含む 5 リージョンで利用可能になった AWS Lambda Web Functions で、Express アプリをデプロイしました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。Amazon GuardDutyとは Amazon GuardDutyは、 AWS環境内の不審なアクティビティや セキュリティ上の脅威を継続的に検出するサービスです。主に以下の用途で利用します。…",
+      "summary": "セキュリティの新着が9件。「自社は攻撃されていないのに、サービスが止まる」――そんな事態が現実になった。IDCフロンティアの「IDCFクラウド」がランサムウェア攻撃を受け、495の企業や自治体に影響が及んでいる。…",
       "articles": [
+        {
+          "title": "一部顧客のデータは復旧困難　IDCフロンティアにランサムウェア、495社・自治体に影響",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/09/news036.html",
+          "source": "@IT",
+          "published": "2026-10-12T23:00:00",
+          "excerpt": "「自社は攻撃されていないのに、サービスが止まる」――そんな事態が現実になった。IDCフロンティアの「IDCFクラウド」がランサムウェア攻撃を受け、495の企業や自治体に影響が及んでいる。…"
+        },
+        {
+          "title": "Entra ID＋IAM Identity Center構成におけるLake Formation権限管理の実際",
+          "link": "https://zenn.dev/tmiki/books/5ed62ded0f0d6c",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-12T15:42:20",
+          "excerpt": "AWS Lake Formationの権限管理を行うにあたり、Entra IDのグループ単位で権限を付与する構成を実現します。その上で、実務上想定されるシナリオを幾つか想定し、それを実現できる具体的な構成を構築・検証します。"
+        },
         {
           "title": "Amazon GuardDutyの設定とコンソール画面の確認",
           "link": "https://qiita.com/namnam3225/items/6a018c974293a9ba8c30",
@@ -87,33 +101,26 @@
           "excerpt": "Amazon GuardDutyとは Amazon GuardDutyは、 AWS環境内の不審なアクティビティや セキュリティ上の脅威を継続的に検出するサービスです。主に以下の用途で利用します。…"
         },
         {
-          "title": "耐量子暗号ML-KEMとは？Cloudflare WorkersのWeb Cryptoで共有秘密を生成・復元してみた",
-          "link": "https://dev.classmethod.jp/articles/workers-ml-kem-local-shared-secret/",
-          "source": "DevelopersIO",
-          "published": "2026-10-12T12:42:05",
-          "excerpt": "NISTが標準化した耐量子暗号ML-KEMの仕組みと用途を整理し、Cloudflare WorkersのWeb Crypto APIでML-KEM-768をローカル実行しました。…"
-        },
-        {
-          "title": "【ハンズオン：#7-9】AWSを実際に操作してみた(S3、Route53、CloudFront、WAF)",
-          "link": "https://zenn.dev/hitakaha/articles/09885591264e89",
+          "title": "AIの設定レビュー、答え合わせはどこまで必要？｜AWS WAFで検証してみた",
+          "link": "https://zenn.dev/takuyousou/articles/waf-ai-review",
           "source": "Zenn AWSトピック",
-          "published": "2026-10-12T10:24:00",
-          "excerpt": "はじめに こんにちは、hitakahaです。引き続きハンズオンを進めているので、作業の振り返りを兼ねて、今回学んだ内容をアウトプットしてみます。ハンズオン講座で触れたAWSの主要なマネージドサービスと、現在の対応状況は以下の通りです。…"
-        },
-        {
-          "title": "Django、HackerOne経由での新規セキュリティ報告の受け付けを終了",
-          "link": "https://codezine.jp/article/detail/29987",
-          "source": "CodeZine",
-          "published": "2026-10-12T08:00:00",
-          "excerpt": "Django、HackerOne経由での新規セキュリティ報告の受け付けを終了"
+          "published": "2026-10-12T14:59:18",
+          "excerpt": "はじめに 設定ファイルを AI に渡して、「この設定で問題ないですか？」と聞くことがあります。説明を読んで、自分でも確認する。気になるところがあれば、もう少し詳しく聞く。私も、そういう使い方をしています。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。Amazon S3 Tables が Apache Iceberg V3 の新しいデータ型をサポートしました。AWS Glue 6.…",
+      "summary": "データ分析の新着が7件。TL;DR AWS Glue Python Shell 3.9 のランタイム環境の OpenSSL が 1.0.2k であり、urllib3 v2（OpenSSL 1.1.1+ を要求）に依存するライブラリが動作しません。…",
       "articles": [
+        {
+          "title": "Glue Python 3.9のOpenSSL制約に応じたsnowflake-connectorの選び方",
+          "link": "https://zenn.dev/everrise_blog/articles/aws-glue-python39-openssl-snowflake-connector",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-13T01:00:05",
+          "excerpt": "TL;DR AWS Glue Python Shell 3.9 のランタイム環境の OpenSSL が 1.0.2k であり、urllib3 v2（OpenSSL 1.1.1+ を要求）に依存するライブラリが動作しません。…"
+        },
         {
           "title": "[アップデート] Amazon S3 Tables で Apache Iceberg V3 の全データ型が利用可能になったので AWS Glue 6.0 の Interactive Session で試してみた",
           "link": "https://dev.classmethod.jp/articles/20261012-amazon-s3-tables-iceberg-v3/",
@@ -134,21 +141,21 @@
           "source": "Ars Technica（英語）",
           "published": "2026-10-12T13:00:52",
           "excerpt": "Fitbit Edge は Air より多くの機能を提供しますが、本物のスマートウォッチではありません。"
-        },
-        {
-          "title": "【BizDev入門】事業開発の知識ゼロのエンジニアが、Claude Code を使って新規事業に必要な最低限の知識を学んでみた",
-          "link": "https://dev.classmethod.jp/articles/bizdev-primer-with-claude-code/",
-          "source": "DevelopersIO",
-          "published": "2026-10-12T09:04:54",
-          "excerpt": "社会人3年目、エンジニア出身の新規事業責任者が、Claude Codeに自分専用のBizDev入門書を書かせ、章ごとに読んで感想を壁打ちする座学を2日間実施。事業開発の知識ゼロから、フレームワーク・用語・全体像を一気に習得した体験記です。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。記事の URL: https://github.com/openai/codex/issues/48195 コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が7件。GitHub、Issue／PRのタイムラインをスクリーンリーダーでリストとして操作可能に",
       "articles": [
+        {
+          "title": "GitHub、Issue／PRのタイムラインをスクリーンリーダーでリストとして操作可能に",
+          "link": "https://codezine.jp/article/detail/29989",
+          "source": "CodeZine",
+          "published": "2026-10-13T01:30:00",
+          "excerpt": "GitHub、Issue／PRのタイムラインをスクリーンリーダーでリストとして操作可能に"
+        },
         {
           "title": "Codex CLI はデフォルトで永続的な自己更新バックグラウンド デーモンをインストールします",
           "link": "https://github.com/openai/codex/issues/48195",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-12T10:28:31",
           "excerpt": "はじめに Claude Haiku 5.5 がリリースされました。…"
-        },
-        {
-          "title": "事務職20年から、Docker・AWS未経験のままEC2デプロイまでやってみた話(拡張①開発記)",
-          "link": "https://qiita.com/Junko-Takahashi-Cloud/items/ae735c8a572c9ea1a2a2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-12T09:42:43",
-          "excerpt": "きっかけ 第三弾の開発記で「店舗側のメンテナンス管理は今後の課題」と書いていました。あれから時間が経ち、気づけば拡張①は完成し、AWSにデプロイされ、第三弾・第四弾とAPIで繋がっていました。今回はその完結報告です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ZX Spectrum のデモシーン イントロを作成する",
-      "link": "https://www.markround.com/blog/2026/zx-spectrum-intro",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-12T19:40:00",
-      "excerpt": "記事の URL: https://www.markround.com/blog/2026/zx-spectrum-intro コメント URL: https://news.ycombinator.com/item?…"
+      "title": "Amazon Connect Customer に評価フォームの改善点を提示する機能が追加されたので試してみた",
+      "link": "https://dev.classmethod.jp/articles/amazon-connect-customer-evaluation-form-validation/",
+      "source": "DevelopersIO",
+      "published": "2026-10-13T01:33:29",
+      "excerpt": "Amazon Connect Customer に追加された、AI が応対を評価する際に使う評価フォームをチェックする機能を試してみました。設問の改善点を提示するこの機能の使い方と、実際の検証結果を紹介します。"
     },
     {
-      "title": "AI モデルはデータセンターにアクセスせずに自己複製できる可能性がある",
-      "link": "https://www.anthropic.com/research/self-replicating-ai",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-12T19:25:29",
-      "excerpt": "記事の URL: https://www.anthropic.com/research/self-replicating-ai コメント URL: https://news.ycombinator.com/item?…"
+      "title": "【合格体験記】AWSクラウドプラクティショナー798点、教科書読むだけで10時間浪費",
+      "link": "https://qiita.com/Shinn_Matsumoto/items/4c8b0e2d0482c5aeb002",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-13T01:28:41",
+      "excerpt": "初級資格だからと思って舐めていましたが、想像より大分難しかったです。10月の3連休を使って、AWS Certified Cloud Practitioner（CLF-C02）にようやく合格しました。…"
     },
     {
-      "title": "OpenFatigue の紹介",
-      "link": "https://openfatigue.ai/",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-12T19:08:21",
-      "excerpt": "記事の URL: https://openfatigue.ai/ コメント URL: https://news.ycombinator.com/item?id=50061278 ポイント: 72 コメント数: 13"
+      "title": "VRTをCIで動かしたら、日本語が中国語フォントで描かれていた話 | FURYU Tech Blog - フリュー株式会社",
+      "link": "https://tech.furyu.jp/entry/2026/10/13/102438",
+      "source": "企業テックブログまとめ",
+      "published": "2026-10-13T01:24:38",
+      "excerpt": "ピクトリンク開発部でiOSアプリの開発を担当している牛尾です。今回は、VRT（Visual Regression Test）をCIで動かしたところ、画面の日本語テキストが中国語フォントで描かれてしまい、テストが失敗した話を紹介します。…"
     },
     {
-      "title": "出版社はペーパーバックを潰し、その後読者を非難した",
-      "link": "https://jacobin.com/2026/10/books-publishing-reading-mass-market-paperback",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-12T18:27:26",
-      "excerpt": "記事の URL: https://jacobin.com/2026/10/books-publishing-reading-mass-market-paperback コメント URL: https://news.ycombinator.…"
+      "title": "フランスのスーパー数百店舗で冷蔵設備にサイバー攻撃　温度が最高50度に上昇し食品大量廃棄に",
+      "link": "https://www.itmedia.co.jp/news/article/2610/13/2000002201/",
+      "source": "ITmedia NEWS",
+      "published": "2026-10-13T01:20:42",
+      "excerpt": "フランスのスーパーマーケット数百店舗で、冷蔵・冷凍設備の霜取り機能を不正操作するサイバー攻撃が発生した。庫内温度が最高50度まで上昇して食品が大量廃棄され、一部店舗では火災も発生した。…"
     }
   ]
 }
