@@ -1,118 +1,118 @@
 {
-  "generated_at": "2026-10-15T01:03:36",
+  "generated_at": "2026-10-15T06:01:29",
   "window_hours": 24,
-  "total": 219,
+  "total": 220,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が48件。このリポジトリには Zenn の記事が 33 本あります。…",
+      "summary": "生成AIの新着が48件。Amazon Bedrock、OpenAIモデルの推論の要約に対応",
       "articles": [
         {
-          "title": "技術記事が 5 週間止まったので、Claude Code に「毎日 1 本の下書き」を自動で書かせる仕組みを 1 日で作った",
-          "link": "https://zenn.dev/norman6464/articles/claude-code-daily-article-pipeline",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-15T00:51:53",
-          "excerpt": "このリポジトリには Zenn の記事が 33 本あります。…"
-        },
-        {
-          "title": "【ローカル破壊を防ぐ】Dockerでつくる安全なClaude Codeの社内展開ガイド",
-          "link": "https://qiita.com/ReQ_HY/items/882eec40d102dd1a8950",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-15T00:43:44",
-          "excerpt": "みなさん、こんにちは！Claude Code に社内の作業フォルダを渡したら、認証情報や隣のプロジェクトのファイルまで読めてしまった、という経験はないでしょうか。実はこれ、特別な事故ではなく、対策をしていないと普通に起きてしまいます。…"
-        },
-        {
-          "title": "Anthropic Japan設立から1年、サイバーセキュリティとフィジカルAIにおける日本での取り組みを推進",
-          "link": "https://codezine.jp/article/detail/30014",
+          "title": "Amazon Bedrock、OpenAIモデルの推論の要約に対応",
+          "link": "https://codezine.jp/article/detail/30012",
           "source": "CodeZine",
-          "published": "2026-10-15T00:00:00",
-          "excerpt": "Anthropic Japan合同会社（以下、Anthropic Japan）は10月14日、日本法人の設立1周年を記念したメディア説明会を、東京ステーションホテルで開催した。…"
+          "published": "2026-10-15T05:30:00",
+          "excerpt": "Amazon Bedrock、OpenAIモデルの推論の要約に対応"
         },
         {
-          "title": "LFM2.5-24B-A2B: 高速なオンデバイス エージェント向けに構築",
-          "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-14T23:59:37",
-          "excerpt": "記事の URL: https://www.liquid.ai/blog/lfm2-5-24b-a2b コメント URL: https://news.ycombinator.com/item?…"
+          "title": "株式会社東京会計パートナーズ様が Amazon Bedrock で実現した、事業承継相談の入口を開く生成 AI チャットボット",
+          "link": "https://aws.amazon.com/jp/blogs/news/tokyo-kaikei-partners-bedrock-business-succession/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-15T05:11:22",
+          "excerpt": "本ブログは 株式会社東京会計パートナーズ 様、株式会社ゼネット 様と Amazon Web Services […]"
+        },
+        {
+          "title": "Figma がプラットフォーム上でエージェントがどのように動作するかを定義する新機能を発表",
+          "link": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-15T04:30:00",
+          "excerpt": "Figma はコード レイヤー機能もオープン ベータ版でリリースします。"
+        },
+        {
+          "title": "エージェント開発、Antigravity、本番運用の設計まで。開発者のための Agentic AI Summit '26 Fall | Google Developers Japan",
+          "link": "https://developers-jp.googleblog.com/2026/10/antigravity-agentic-ai-summit-26-fall.html",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-15T04:00:00",
+          "excerpt": "こんにちは、Google Cloud Japan です。AI エージェントは、動くものを作るところまでは驚くほど速く進みます。難しいのはその先です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が25件。DS検定で問われるクラウドサービスの分類のひとつに「IaaS」があります。クラウドの提供形態は IaaS / PaaS / SaaS の3層に分けて整理されることが多く、その最下層にあたるのが IaaS です。…",
+      "summary": "クラウドの新着が24件。ECS Fargateでメモリ使用率が単調増加していた話 ――「床」と「ピーク」は別の原因だった はじめに ECS Fargate で動かしている内部 API で、メモリ使用率が日単位で単調増加し、さらに夜間のバッチ処理で巨大なスパイクが乗…",
       "articles": [
+        {
+          "title": "ECS Fargateでメモリ使用率が単調増加していた話 ――「床」と「ピーク」は別の原因だった",
+          "link": "https://qiita.com/tm-onishi/items/c403750dc2be843c0968",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-15T05:56:58",
+          "excerpt": "ECS Fargateでメモリ使用率が単調増加していた話 ――「床」と「ピーク」は別の原因だった はじめに ECS Fargate で動かしている内部 API で、メモリ使用率が日単位で単調増加し、さらに夜間のバッチ処理で巨大なスパイクが乗…"
+        },
+        {
+          "title": "既存WebアプリのAWS移行に向けた構成比較と選定",
+          "link": "https://qiita.com/makiog/items/2a3d0a2a3e8e03e4c5c1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-15T05:01:46",
+          "excerpt": "はじめに AWSの学習の一環として、既存のWebアプリケーションをAWS環境へ移行する取り組みを行っています。これまでAWS CDKを使用して各種リソースの構築を進め、VPCの概要や構築についても記事にしてきました。…"
+        },
+        {
+          "title": "「サーバ調達に数カ月」からどう脱却？　ナブテスコが実現した“待たないITインフラ”とは",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/15/news029.html",
+          "source": "@IT",
+          "published": "2026-10-15T02:00:00",
+          "excerpt": "サーバの増強に時間がかかり、新技術の導入も容易ではなかったナブテスコ。DCサービスの終了を機にITインフラの刷新を決断した同社は、サーバ調達の迅速化と運用負荷の軽減を実現したという。どう進めたのか。"
+        },
         {
           "title": "IaaSとは？クラウドのインフラ提供形態",
           "link": "https://zenn.dev/h888s/articles/dscert-iaas-dscert",
           "source": "Zenn AWSトピック",
           "published": "2026-10-15T00:17:59",
           "excerpt": "DS検定で問われるクラウドサービスの分類のひとつに「IaaS」があります。クラウドの提供形態は IaaS / PaaS / SaaS の3層に分けて整理されることが多く、その最下層にあたるのが IaaS です。…"
-        },
-        {
-          "title": "【11/5（木）ウェビナー】年末年始や夜間休日のアクセス急増に誰が対応しますか？ 〜対応遅れを事業リスクにしない負荷対策と24時間365日の有人監視〜 | 株式会社ハートビーツ（HEARTBEATS Corporation）｜AWS・クラウド・サーバーなどのインフラ運用を24時間365日サポート",
-          "link": "https://heartbeats.jp/info/event-webinar/event-20261015/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-15T00:00:00",
-          "excerpt": "ウェビナーのお知らせです。11月5日（木）11:00より、「年末年始や夜間休日のアクセス急増に誰が対応しますか？〜対応遅れを事業リスクにしない負荷対策と24時間365日の有人監視〜」と題したウェビナーを開催いたします。…"
-        },
-        {
-          "title": "Amazon ECS マネージドインスタンスに SSH などでアクセスできますか？",
-          "link": "https://dev.classmethod.jp/articles/tsnote-ecs-can-i-access-amazon-ecs-managed-instances-via-ssh-etc/",
-          "source": "DevelopersIO",
-          "published": "2026-10-14T22:40:55",
-          "excerpt": "Amazon ECS マネージドインスタンスに SSH などでアクセスできますか？"
-        },
-        {
-          "title": "Amazon S3 が Vercel Marketplace および Vercel の v0 で入手可能になりました",
-          "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
-          "source": "AWS News Blog（英語）",
-          "published": "2026-10-14T19:30:48",
-          "excerpt": "Amazon S3 の既存の Apache Hive データセットを Amazon S3 テーブルのフルマネージド Apache Iceberg テーブルに移行できるようになりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。ウクライナ政府高官はSpaceXの軍事版Starlink「Starshield」に時速160km超で通信不能となる速度制限が導入され作戦に支障が出たと明かした。時速160kmまでの接続は一部復旧中だが制限は残る。…",
+      "summary": "セキュリティの新着が14件。4機種ともサポートが終了しており、使用をやめて他製品を利用するよう推奨している。",
       "articles": [
         {
-          "title": "SpaceX、ウクライナ軍の「Starshield」に移動速度制限　マスク氏「決めるのは米軍と大統領」",
-          "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002285/",
+          "title": "「Rakuten Mini」など4機種に脆弱性　楽天モバイル、他製品への切り替え推奨",
+          "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002295/",
           "source": "ITmedia NEWS",
-          "published": "2026-10-15T00:24:14",
-          "excerpt": "ウクライナ政府高官はSpaceXの軍事版Starlink「Starshield」に時速160km超で通信不能となる速度制限が導入され作戦に支障が出たと明かした。時速160kmまでの接続は一部復旧中だが制限は残る。…"
+          "published": "2026-10-15T04:44:10",
+          "excerpt": "4機種ともサポートが終了しており、使用をやめて他製品を利用するよう推奨している。"
         },
         {
-          "title": "Anthropic Japan設立から1年、サイバーセキュリティとフィジカルAIにおける日本での取り組みを推進",
-          "link": "https://codezine.jp/article/detail/30014",
-          "source": "CodeZine",
-          "published": "2026-10-15T00:00:00",
-          "excerpt": "Anthropic Japan合同会社（以下、Anthropic Japan）は10月14日、日本法人の設立1周年を記念したメディア説明会を、東京ステーションホテルで開催した。…"
+          "title": "Kiro CLI でセキュリティ調査を迅速化",
+          "link": "https://aws.amazon.com/jp/blogs/news/accelerate-security-investigations-with-kiro-cli/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-15T02:41:29",
+          "excerpt": "Kiro CLI を使用して、「AWS セキュリティインシデント対応ガイド」のフレームワークに沿ってセキュリティ調査を迅速化する方法を紹介します。…"
         },
         {
-          "title": "「強いパスワードが分かる」だけでは危険、“24問のテスト”で見えたセキュリティ知識の穴",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/15/news031.html",
-          "source": "@IT",
-          "published": "2026-10-14T23:00:00",
-          "excerpt": "強いパスワードの見分け方は知っていても、フィッシングサイトを見分ける方法は正しく理解していない――。サイバーセキュリティに関する知識は、基本的なテーマでも知識に偏りがあるようだ。…"
+          "title": "Kiro と Amazon Q でセキュリティポスチャを強化する 5 つの方法",
+          "link": "https://aws.amazon.com/jp/blogs/news/five-ways-to-use-kiro-and-amazon-q-to-strengthen-your-security-posture/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-15T02:39:51",
+          "excerpt": "この記事では、Kiro と Amazon Q Developer を使用して AWS のセキュリティポスチャを強化する 5 つの方法を紹介します。…"
         },
         {
-          "title": "「一般公開していないから安全」は通用しない　JPCERT/CCが示した不正アクセス4つの手口",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/15/news021.html",
-          "source": "@IT",
-          "published": "2026-10-14T23:00:00",
-          "excerpt": "「一般公開していないシステムだから安全」と考えていないだろうか。JPCERT/CCは、国内組織で相次ぐ不正アクセスによる情報漏えいを巡り、攻撃の痕跡や手口を公表した。…"
+          "title": "メドレーの産婦人科向けシステムに不正アクセス、患者の個人情報漏えいか　最大787の医療機関が対象",
+          "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002293/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-15T02:16:16",
+          "excerpt": "漏えいの有無や範囲は、外部の専門機関の協力を得て調査中。対象サービスを利用している医療機関は全787件あるという。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Colossal は、絶滅撲滅の取り組みを加速するために新しい AI プラットフォームを発表し、Peter Diamandis はそれを使用するスタートアップを支援する新しい基金を立ち上げました。",
+      "summary": "データ分析の新着が3件。Colossal は、絶滅撲滅の取り組みを加速するために新しい AI プラットフォームを発表し、Peter Diamandis はそれを使用するスタートアップを支援する新しい基金を立ち上げました。",
       "articles": [
         {
           "title": "Colossal Biosciences が絶滅撲滅の取り組みを加速する新しい AI プラットフォームを発表",
@@ -134,80 +134,73 @@
           "source": "企業テックブログまとめ",
           "published": "2026-10-14T09:00:00",
           "excerpt": "こんにちは、nyancoです。今週末の10月16日（金）・17日（土）に、Kaigi on Rails 2026が開催されます。スマートバンクからは、nissyi・chobishiba・occhiの3人が登壇します。…"
-        },
-        {
-          "title": "SBI証券のFXで“誤ロスカット”　再委託先IIJが作業ミス、システムでも検知できず　779口座が対象",
-          "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002249/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-14T03:15:50",
-          "excerpt": "IIJの担当者の勘違いにより代用有価証券情報ファイルが取り込まれず、必要なファイルがそろっているかを確認しないまま次の処理へ進むシステムになっていたため、誤りがあっても処理は止まらなかった。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。GitHub Actions で Docker ビルド + ECR push を自動化する 概要 アプリケーションを ECS や Lambda（コンテナイメージ）にデプロイする際、コンテナイメージのビルドと Amazon ECR への pu…",
+      "summary": "開発ツールの新着が10件。この記事は2024年2月1日に執筆されたものです。こんにちは。InflabのDevOpsエンジニア、SunBです。…",
       "articles": [
+        {
+          "title": "InflabのIaC構築記（Part 1）",
+          "link": "https://qiita.com/inflab_official/items/4c397feebf3e57ae2db9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-15T05:17:43",
+          "excerpt": "この記事は2024年2月1日に執筆されたものです。こんにちは。InflabのDevOpsエンジニア、SunBです。…"
+        },
+        {
+          "title": "Kiro CLI でセキュリティ調査を迅速化",
+          "link": "https://aws.amazon.com/jp/blogs/news/accelerate-security-investigations-with-kiro-cli/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-15T02:41:29",
+          "excerpt": "Kiro CLI を使用して、「AWS セキュリティインシデント対応ガイド」のフレームワークに沿ってセキュリティ調査を迅速化する方法を紹介します。…"
+        },
+        {
+          "title": "GitHub Copilotで「Gemini 4 Argon」が一般提供開始",
+          "link": "https://codezine.jp/article/detail/30009",
+          "source": "CodeZine",
+          "published": "2026-10-15T01:00:00",
+          "excerpt": "GitHub Copilotで「Gemini 4 Argon」が一般提供開始"
+        },
         {
           "title": "GitHub Actions で Docker ビルド + ECR push を自動化する",
           "link": "https://zenn.dev/akinori901/articles/20260918-plan040",
           "source": "Zenn AWSトピック",
           "published": "2026-10-14T23:29:24",
           "excerpt": "GitHub Actions で Docker ビルド + ECR push を自動化する 概要 アプリケーションを ECS や Lambda（コンテナイメージ）にデプロイする際、コンテナイメージのビルドと Amazon ECR への pu…"
-        },
-        {
-          "title": "Kiro CLI の新機能「/sandbox」で、スクリプトとローカル MCP サーバーの通信制限などを試してみた",
-          "link": "https://dev.classmethod.jp/articles/kiro-cli-local-command-sandbox/",
-          "source": "DevelopersIO",
-          "published": "2026-10-14T17:13:46",
-          "excerpt": "Kiro CLI 2.31.0 のローカルコマンドサンドボックス（/sandbox）を試しました。sandbox.json を置くと、パッケージのインストールなど、エージェントが実行するコマンドの通信先を制御できます。…"
-        },
-        {
-          "title": "IPAの注意喚起を受けて、IaCから外部公開の入口を一覧にする手順",
-          "link": "https://zenn.dev/96logger/articles/9b292279fc34e6",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-14T11:31:57",
-          "excerpt": "自社やクライアントのシステムで、外部に公開している入口を点検したい皆様へ。IPA（情報処理推進機構）は2026年10月9日に「不正アクセスによる漏えい等の事案を踏まえ、速やかに実施すべき対策等について」を公開しました。…"
-        },
-        {
-          "title": "IPAの注意喚起を受けて、IaCから外部公開の入口を一覧にする手順",
-          "link": "https://qiita.com/96logger/items/23d424c84abc03b02eda",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-14T11:20:16",
-          "excerpt": "自社やクライアントのシステムで、外部に公開している入口を点検したい皆様へ。IPA（情報処理推進機構）は2026年10月9日に「不正アクセスによる漏えい等の事案を踏まえ、速やかに実施すべき対策等について」を公開しました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Ricursive Intelligence は、コンピューティング危機の解決に役立つ AI 設計のチップに賭けています",
-      "link": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-15T01:01:32",
-      "excerpt": "創設者らは、チップ設計プロセスの自動化と高速化をすべての目標として、チップを設計し、各反復から学習し、その後の設計を改善できる AI を自社のスタートアップがどのように開発しているかを詳しく説明しました。"
+      "title": "AWS SAA 合格体験記",
+      "link": "https://qiita.com/furuya_tech/items/6b930eb60611f8b6068f",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-15T05:33:12",
+      "excerpt": "こんにちは。フルヤです。…"
     },
     {
-      "title": "フロックCEO、全国的な反発の中監視技術を擁護「進歩を止めるべきではない」",
-      "link": "https://techcrunch.com/2026/10/14/flock-ceo-defends-surveillance-technology-amid-national-backlash-we-shouldnt-pause-progress/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-15T00:49:31",
-      "excerpt": "TechCrunch Disruptで、Flock CEOのギャレット・ラングレー氏は、プライバシーへの懸念が高まっているにもかかわらず、同社の監視技術を擁護し、犯罪と戦う利点は悪用のリスクを上回ると主張した。"
+      "title": "Kaigi on Rails 2026にSilver Sponsorとして協賛します！ | Sansan Tech Blog",
+      "link": "https://buildersbox.corp-sansan.com/entry/2026/10/15/140000",
+      "source": "企業テックブログまとめ",
+      "published": "2026-10-15T05:00:00",
+      "excerpt": "こんにちは。名刺アプリ「Eight」でエンジニアをしている鳥山（@pvcresin）です。…"
     },
     {
-      "title": "dbt platform から Snowflake へ AWS PrivateLink で接続し、Network Policy で経路を制限してみた",
-      "link": "https://dev.classmethod.jp/articles/dbt-platform-snowflake-aws-privatelink-network-policy/",
-      "source": "DevelopersIO",
-      "published": "2026-10-15T00:43:26",
-      "excerpt": "dbt platformからSnowflakeへのAWS PrivateLink接続を、自身の検証環境で設定してみました。…"
+      "title": "Sakana AI、Sakana Chatのメモリー機能の働きを可視化する新機能「My Fish」を追加",
+      "link": "https://gihyo.jp/article/2026/10/sakana-ai-my-fish?utm_source=feed",
+      "source": "gihyo.jp 開発",
+      "published": "2026-10-15T04:31:00",
+      "excerpt": "Sakana AIは2026年10月15日、AIチャットサービスSakana Chatにメモリー機能の働き方を詳細に表示する「My Fish（マイ・フィッシュ）」機能が追加されたことを発表した。"
     },
     {
-      "title": "Disrupt 2026 の Startup Battlefield 決勝に出場する 5 社を紹介します",
-      "link": "https://techcrunch.com/2026/10/14/meet-the-five-companies-competing-in-the-startup-battlefield-finals-at-disrupt-2026/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-15T00:30:00",
-      "excerpt": "Startup Battlefield 決勝に出場する 5 社を発表する時が来ました。"
+      "title": "お詫び",
+      "link": "https://www.elevationlab.com/blogs/news/an-apology",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-15T04:23:27",
+      "excerpt": "記事の URL: https://www.elevationlab.com/blogs/news/an-apology コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
