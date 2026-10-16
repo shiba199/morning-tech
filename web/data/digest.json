@@ -1,119 +1,126 @@
 {
-  "generated_at": "2026-10-16T10:00:44",
+  "generated_at": "2026-10-16T14:31:19",
   "window_hours": 24,
-  "total": 200,
+  "total": 213,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が29件。自律型ペネトレーションテストエージェントである AWS Security Agent (now part of AWS Continuum) を、最近公開された実在の CVE 37 件で評価しました。その結果、37 件中 33 件 (89.…",
+      "summary": "生成AIの新着が29件。Amazon Bedrock における Anthropic 利用ポリシーの更新について通知があったので、新旧の Usage Policy を確認しました。…",
       "articles": [
         {
-          "title": "AWS Security Agent (now part of AWS Continuum) が新たに公開された実在の CVE 37 件中 33 件のエクスプロイトに成功",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-security-agent-now-part-of-aws-continuum-exploited-33-of-37-new-real-world-cves/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-16T08:09:03",
-          "excerpt": "自律型ペネトレーションテストエージェントである AWS Security Agent (now part of AWS Continuum) を、最近公開された実在の CVE 37 件で評価しました。その結果、37 件中 33 件 (89.…"
+          "title": "AWS Health に届いた Anthropic Usage Policy の更新（2026年11月12日施行）を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/anthropic-usage-policy-update-bedrock-health/",
+          "source": "DevelopersIO",
+          "published": "2026-10-16T13:50:59",
+          "excerpt": "Amazon Bedrock における Anthropic 利用ポリシーの更新について通知があったので、新旧の Usage Policy を確認しました。…"
         },
         {
-          "title": "Sakana AI、「The AI Scientist」の第3世代を公開 ——複数エージェントで仮説検証から論文執筆まで、図生成ツール「AutoIllustrate」もオープンソース化",
-          "link": "https://gihyo.jp/article/2026/10/the-agentic-scientist-v3?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-10-16T08:08:00",
-          "excerpt": "Sakana AIは2026年10月15日、科学研究を自動化するThe AI Scientistの第3世代「The Agentic Scientist」を公開した。"
+          "title": "arXiv・GitHub・Hacker Newsの新着を、LLMなしで「読む／見送り」に自動仕分けする（Python × Jev） | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/133c233cc7eb6f",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-16T12:01:16",
+          "excerpt": "論文の新着は1日80件超：読むものを自動で選ぶツールを作るarXivの新着一覧（cs.AI・cs.CL）を見ると、新規投稿の論文は、2026-10-12付の cs.AI で83件、2026-10-09付の cs.CL で88件ありました。…"
         },
         {
-          "title": "BCGが「Applied AI Index 2026」を発表、AIエージェントへの自律的な権限移譲とガバナンスの現状",
-          "link": "https://codezine.jp/article/detail/30040",
-          "source": "CodeZine",
-          "published": "2026-10-16T07:15:00",
-          "excerpt": "BCGが「Applied AI Index 2026」を発表、AIエージェントへの自律的な権限移譲とガバナンスの現状"
+          "title": "KiroでAWS開発をどこまでAgentに任せられる？9つの検証で分かった「できる」と「任せてよい」の差",
+          "link": "https://zenn.dev/nobu_13/articles/cc7c8b39c63b59",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-16T11:38:41",
+          "excerpt": "はじめに 「KiroでAWS Software Development Lifecycleをどこまで自動化・Agentic化できるのか？」 この問いから、9つの検証を始めました。…"
         },
         {
-          "title": "GitHub、複数モデルを組み合わせる「HydraFusion」にGPT-6 Astra、Opus 5.5など追加",
-          "link": "https://codezine.jp/article/detail/30025",
-          "source": "CodeZine",
-          "published": "2026-10-16T07:00:00",
-          "excerpt": "GitHub、複数モデルを組み合わせる「HydraFusion」にGPT-6 Astra、Opus 5.5など追加"
+          "title": "「AIエージェントキャッチアップ #93 - DeepSeek Harness」を開催しました | Generative Agents Tech Blog",
+          "link": "https://blog.generative-agents.co.jp/entry/2026/10/16/184107",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-16T09:41:07",
+          "excerpt": "ジェネラティブエージェンツの大嶋です。「AIエージェントキャッチアップ #93 - DeepSeek Harness」という勉強会を開催しました。generative-agents.connpass.com アーカイブ動画はこちらです。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。はじめに 稼働時間が限定されているEC2を監視していて、インスタンスを意図的に停止しているのにCloudWatchアラームが発報されてしまう、という経験はないでしょうか。…",
+      "summary": "クラウドの新着が22件。はじめに 医学生エンジニアとしてスタートアップで働いています。この記事は自分の備忘録として書いたもので、内容は個人の見解です。所属組織を代表するものではなく、法的助言でもありません。…",
       "articles": [
         {
-          "title": "CloudWatchだけで「平日8:00～20:00」のEC2死活監視を実現してみた",
-          "link": "https://qiita.com/RioTakasu/items/2af5fbe164ef83ddbfda",
+          "title": "医療データとAWS RDS",
+          "link": "https://qiita.com/kuct/items/92178f4715573ee609a2",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-16T07:07:26",
-          "excerpt": "はじめに 稼働時間が限定されているEC2を監視していて、インスタンスを意図的に停止しているのにCloudWatchアラームが発報されてしまう、という経験はないでしょうか。…"
+          "published": "2026-10-16T13:47:13",
+          "excerpt": "はじめに 医学生エンジニアとしてスタートアップで働いています。この記事は自分の備忘録として書いたもので、内容は個人の見解です。所属組織を代表するものではなく、法的助言でもありません。…"
         },
         {
-          "title": "AWS Security Hub、検出結果をCSV/JSON形式でS3へエクスポート可能に",
-          "link": "https://codezine.jp/article/detail/30024",
-          "source": "CodeZine",
-          "published": "2026-10-16T05:30:00",
-          "excerpt": "AWS Security Hub、検出結果をCSV/JSON形式でS3へエクスポート可能に"
+          "title": "AWS の請求が伸びたら全 Lambda を止める仕組みを Terraform で作った",
+          "link": "https://zenn.dev/kohei03/articles/8c1e4868877c8b",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-16T12:04:53",
+          "excerpt": "予算を超えたら全部止まる仕組みを Terraform で作った 個人開発で AWS を使っていて一番怖いのは、寝ている間に請求が伸びていることです。…"
         },
         {
-          "title": "Amazon S3 が Vercel Marketplace と v0 by Vercel で入手可能になりました",
-          "link": "https://aws.amazon.com/jp/blogs/news/amazon-s3-vercel-marketplace-v0/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-16T04:32:19",
-          "excerpt": "Vercel でウェブおよび AI アプリケーションを構築している開発者は、Vercel Marketplac […]"
+          "title": "Amazon EC2 Capacity Blocks for ML の価格改定 2026 年 10 月版",
+          "link": "https://dev.classmethod.jp/articles/ec2-capacity-blocks-for-ml-pricing-update-2026-10/",
+          "source": "DevelopersIO",
+          "published": "2026-10-16T10:35:20",
+          "excerpt": "AWS EC2 Capacity Blocks for ML の2026年10月7日の料金改定で前回に引き続き値上げとなりました。"
         },
         {
-          "title": "Amazon Bedrock AgentCoreの短期メモリが従量制料金に移行",
-          "link": "https://codezine.jp/article/detail/30022",
-          "source": "CodeZine",
-          "published": "2026-10-16T02:30:00",
-          "excerpt": "Amazon Bedrock AgentCoreの短期メモリが従量制料金に移行"
+          "title": "S3 Files に SQLite を置いた Lambda はどこまで耐えるか — 天井・コストと代替案の比較",
+          "link": "https://zenn.dev/ino_h/articles/2026-10-16-s3-files-sqlite-lambda-capacity",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-16T09:11:08",
+          "excerpt": "はじめに ここ1〜2年、AWS で「とりあえず立ち上げるだけなら一瞬」というサービスが目に見えて増えています。公式の発表で日付を確認できたものだけでも、次のとおりです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が23件。AWS Control Tower で Security OU にリージョン拒否コントロール（CT.MULTISERVICE.PV.1）を有効化できない問題について、現在の扱いを公式ドキュメントで確認し、ランディングゾーン 4.…",
+      "summary": "セキュリティの新着が27件。工程 担当 課題提示・取捨選択・内容チェック 筆者 原案作成・編成 Claude Fable 5.1 事実検証（検証メモ） GPT-6 Astra 一次資料照合・最終稿 Claude Fable 5.…",
       "articles": [
         {
-          "title": "Security OU に OU単位のリージョン拒否コントロール（CT.MULTISERVICE.PV.1） を有効化できないときの対処法を調査してみた",
-          "link": "https://dev.classmethod.jp/articles/control-tower-security-ou-pv1-workaround/",
-          "source": "DevelopersIO",
-          "published": "2026-10-16T08:55:40",
-          "excerpt": "AWS Control Tower で Security OU にリージョン拒否コントロール（CT.MULTISERVICE.PV.1）を有効化できない問題について、現在の扱いを公式ドキュメントで確認し、ランディングゾーン 4.…"
-        },
-        {
-          "title": "相次ぐ不正アクセス「実態解明進めなければならない」　警察庁長官、担当幹部会議で指示",
-          "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002341/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-16T08:29:39",
-          "excerpt": "警察庁は10月16日、全国警察のサイバー担当課長らを集めた会議を東京都内で開いた。楠芳伸長官は、相次ぐ企業などへの不正アクセスについて「所要の捜査を推進し、実態解明と注意喚起を進めなければならない」と訴えた。"
-        },
-        {
-          "title": "AWSサービス解説(GuardDuty編)",
-          "link": "https://qiita.com/Kagesyu/items/8f7fb9c2913c77df200b",
+          "title": "CVE-2026-99999（PwnEscape）を読み解く──「KVMの脆弱性」ではなく、Linuxネットワークスタックの脆弱性",
+          "link": "https://qiita.com/k2_naka/items/fa87685231377f15e7e3",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-16T08:20:11",
-          "excerpt": "イントロダクション 今回はAWSサービスGuardDutyについて子供にでもわかるように学校をイメージして解説します。…"
+          "published": "2026-10-16T12:48:39",
+          "excerpt": "工程 担当 課題提示・取捨選択・内容チェック 筆者 原案作成・編成 Claude Fable 5.1 事実検証（検証メモ） GPT-6 Astra 一次資料照合・最終稿 Claude Fable 5.…"
         },
         {
-          "title": "ファンケルとアテニア、計約83万件の会員情報漏えい　ECサイトに不正アクセス",
-          "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002340/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-16T08:17:41",
-          "excerpt": "漏えいしたのは、氏名、住所、メールアドレスに加え、電話番号、生年月日、性別、サブメールアドレスとそのハッシュ化したパスワード、本人認証質問項目（回答は含まない）など。"
+          "title": "AI チャットをプライベートに保ちたいですか? Brave TEE によるエンドツーエンド暗号化",
+          "link": "https://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462",
+          "source": "The Register（英語）",
+          "published": "2026-10-16T12:15:00",
+          "excerpt": "信頼できるハードウェアを使用して GLM 5.3 Flash との会話を保護するブラウザ メーカー"
+        },
+        {
+          "title": "Amazon Cognitoの認証設計で押さえたい6つの注意点｜パスキー・MFA・セッション管理",
+          "link": "https://qiita.com/gerrard15/items/29d62c11c26945570e82",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-16T10:35:43",
+          "excerpt": "Cognitoの認証設計では、求める操作フローが標準仕様に収まるか、アプリ側で何を補う必要があるかを確認しておきたいところです。無操作ログアウト、再認証、パスワード再設定など、6つの要件について結論と対応方法をまとめます。…"
+        },
+        {
+          "title": "【重要】Linuxカーネルの脆弱性（CVE-2026-99999）に関する当社サービスへの影響について | さくらインターネット",
+          "link": "https://www.sakura.ad.jp/corporate/information/announcements/2026/10/16/1968226051/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-10-16T09:57:11",
+          "excerpt": "お客さま各位 平素よりさくらインターネットをご利用いただき、誠にありがとうございます。Linuxカーネルのネットワーク処理に関する脆弱性（CVE-2026-99999）が公開されました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。DynamoDBのレスポンスUnmarshalのアロケーション数を減らすために Unmarshalerを自作する | Pairs Engineering - Medium",
+      "summary": "データ分析の新着が8件。避けられない選挙をテーマにしたサイバー攻撃が再び渦巻いている、連邦政府が警戒すべきサイバー攻撃についてPSAを発行",
       "articles": [
+        {
+          "title": "詐欺おじさんがあなたに現金と個人データを吐き出させようとしている、FBIが中間選挙を前に警告",
+          "link": "https://www.theregister.com/cyber-crime/2026/10/16/uncle-scam-wants-you-to-cough-up-your-cash-and-personal-data-fbi-warns-ahead-of-midterms/5303512",
+          "source": "The Register（英語）",
+          "published": "2026-10-16T14:30:00",
+          "excerpt": "避けられない選挙をテーマにしたサイバー攻撃が再び渦巻いている、連邦政府が警戒すべきサイバー攻撃についてPSAを発行"
+        },
         {
           "title": "DynamoDBのレスポンスUnmarshalのアロケーション数を減らすために Unmarshalerを自作する | Pairs Engineering - Medium",
           "link": "https://medium.com/eureka-engineering/dynamodb%E3%81%AE%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B9unmarshal%E3%81%AE%E3%82%A2%E3%83%AD%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E6%95%B0%E3%82%92%E6%B8%9B%E3%82%89%E3%81%99%E3%81%9F%E3%82%81%E3%81%AB-unmarshaler%E3%82%92%E8%87%AA%E4%BD%9C%E3%81%99%E3%82%8B-d5ee79d69d60",
@@ -134,80 +141,73 @@
           "source": "gihyo.jp 開発",
           "published": "2026-10-15T23:00:00",
           "excerpt": "Ruby biz Grand prixは、プログラミング言語Rubyの特徴を活かして新たなサービスを生み出し、ビジネスとして継続的に展開している事例を顕彰するグランプリです。…"
-        },
-        {
-          "title": "ヘグセスの疑わしい低温度検査は陸軍の最大25パーセントに警告を与える可能性がある",
-          "link": "https://arstechnica.com/health/2026/10/hegseths-dubious-low-t-screening-may-flag-up-to-25-percent-of-the-army/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-10-15T21:09:57",
-          "excerpt": "医療専門家は、全面的なスクリーニングを行わないことを明確に推奨しています。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。GitHub、複数モデルを組み合わせる「HydraFusion」にGPT-6 Astra、Opus 5.5など追加",
+      "summary": "開発ツールの新着が15件。予算を超えたら全部止まる仕組みを Terraform で作った 個人開発で AWS を使っていて一番怖いのは、寝ている間に請求が伸びていることです。…",
       "articles": [
+        {
+          "title": "AWS の請求が伸びたら全 Lambda を止める仕組みを Terraform で作った",
+          "link": "https://zenn.dev/kohei03/articles/8c1e4868877c8b",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-16T12:04:53",
+          "excerpt": "予算を超えたら全部止まる仕組みを Terraform で作った 個人開発で AWS を使っていて一番怖いのは、寝ている間に請求が伸びていることです。…"
+        },
+        {
+          "title": "arXiv・GitHub・Hacker Newsの新着を、LLMなしで「読む／見送り」に自動仕分けする（Python × Jev） | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/133c233cc7eb6f",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-16T12:01:16",
+          "excerpt": "論文の新着は1日80件超：読むものを自動で選ぶツールを作るarXivの新着一覧（cs.AI・cs.CL）を見ると、新規投稿の論文は、2026-10-12付の cs.AI で83件、2026-10-09付の cs.CL で88件ありました。…"
+        },
+        {
+          "title": "GitHub Copilotに登場した「HydraFusion」とは？複数のAIモデルを組み合わせる新機能を解説 | Alternative Architecture DOJO",
+          "link": "https://aadojo.alterbooth.com/entry/2026/10/16/200737",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-16T11:07:37",
+          "excerpt": "GitHub Copilotでは、GPTやClaudeなど、複数のAIモデルを選択して利用できます。また、タスクに応じてモデルを自動選択する「Auto」も提供されています。…"
+        },
         {
           "title": "GitHub、複数モデルを組み合わせる「HydraFusion」にGPT-6 Astra、Opus 5.5など追加",
           "link": "https://codezine.jp/article/detail/30025",
           "source": "CodeZine",
           "published": "2026-10-16T07:00:00",
           "excerpt": "GitHub、複数モデルを組み合わせる「HydraFusion」にGPT-6 Astra、Opus 5.5など追加"
-        },
-        {
-          "title": "返信したら攻撃が始まる　GmailからGitHubまで悪用する情報窃取の手口",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/16/news037.html",
-          "source": "@IT",
-          "published": "2026-10-16T06:00:00",
-          "excerpt": "不審なリンクも添付ファイルもないメールなら、安全だと思っていないだろうか。警戒心を解いてから攻撃に移る巧妙な標的型メール攻撃が見つかった。正規の開発者向けサービスまで悪用する手口を解説する。"
-        },
-        {
-          "title": "富士山登頂記念に、AWS Blocks という山も少しずつ登ってみる（第2弾：ご来光 ── 同じコードを AWS にデプロイし「本物の Amazon Location Service」で動かす）",
-          "link": "https://qiita.com/ShikoMaehara/items/eb3c2d77526db12aca80",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-16T04:53:41",
-          "excerpt": "AWS Blocks は 2026年10月時点でパブリックプレビュー段階のサービスです。本記事で使う CLI・API・自動生成されるコードや挙動は、今後のバージョンで変更される可能性があります。…"
-        },
-        {
-          "title": "GitHub、GitHub Appsに「リポジトリを作成するための権限」を追加",
-          "link": "https://codezine.jp/article/detail/30023",
-          "source": "CodeZine",
-          "published": "2026-10-16T04:00:00",
-          "excerpt": "GitHub、GitHub Appsに「リポジトリを作成するための権限」を追加"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "泥棒が学校のスナッパーのSDカードをスマッシュ＆グラブで強奪",
-      "link": "https://www.theregister.com/security/2026/10/16/thief-snatches-school-snappers-sd-cards-in-smash-grab/5303379",
+      "title": "マーク・ウォールバーグが映画でAIを「正しい方法」で使用し、彼の遺産を引き継ぐAIクローンにオープンであることについて語る",
+      "link": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-16T14:26:51",
+      "excerpt": "俳優でエンジェル投資家でもあるマーク・ウォールバーグ氏は、「自分のやっていることを強化するため」であれば、映画製作にAIを使うのは構わないと述べている。"
+    },
+    {
+      "title": "ベリタス、偽造防止チップをジュエリー、トロフィー、フレグランスボトルに拡大",
+      "link": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-16T14:00:00",
+      "excerpt": "偽造者は、ブランドのマークを複製し、「スーパーフェイク」として知られる模倣品を本物のように偽装するのが上手になってきています。Veritas という新興企業は、商品を検証する独自のチップを使ってこの問題に取り組みたいと考えています。…"
+    },
+    {
+      "title": "BAE管理のシステムへの攻撃で米国破産裁判所が混乱",
+      "link": "https://www.theregister.com/security/2026/10/16/attack-on-bae-managed-system-disrupts-us-bankruptcy-courts/5303487",
       "source": "The Register（英語）",
-      "published": "2026-10-16T09:15:00",
-      "excerpt": "英国の学校、児童のデータが危険にさらされているとしてデータ保護の失敗を認める"
+      "published": "2026-10-16T13:29:00",
+      "excerpt": "合法的なワシはまだいくつかの作戦をとぼとぼと進めているが、紙と電子通知は追って通知があるまで延期される"
     },
     {
-      "title": "本番DBに不要なレコードを数千万件登録してしまった話 | Geekplus Tech Blogのフィード",
-      "link": "https://zenn.dev/geekplus/articles/a615dfe41557d8",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-16T09:00:09",
-      "excerpt": "ある日、普段数分以内で完了するはずのバッチジョブからレイテンシーアラートが上がってきました。調査すると、出荷明細の補足情報を登録する処理で、大量のINSERTが発生しています。…"
-    },
-    {
-      "title": "うるう秒、27年5月に廃止　国際度量衡総会で決定　通信や情報システムの障害防止へ",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002343/",
-      "source": "ITmedia NEWS",
-      "published": "2026-10-16T08:48:15",
-      "excerpt": "仏ベルサイユで開かれた計量単位などを決める国際会議「国際度量衡総会」は15日（現地時間）、時刻調整に使う「うるう秒」を27年5月20日に廃止する決議を採択した。1972年の導入以来27回実施してきた仕組みが半世紀余りで役目を終える。"
-    },
-    {
-      "title": "オープンソース主権は、それを機能させるという退屈な作業にまで及びます",
-      "link": "https://www.theregister.com/software/2026/10/16/open-source-sovereignty-gets-down-to-the-boring-business-of-making-it-work/5303206",
-      "source": "The Register（英語）",
-      "published": "2026-10-16T08:30:00",
-      "excerpt": "今年のイベントでは、移行ターゲット、セキュリティ ルール、管理指標が中心的な役割を果たします"
+      "title": "アムステルダムにある米国当局のサーバー「Autistici/Inventati (A/I)」を押収",
+      "link": "https://nltimes.nl/2026/10/14/amsterdam-server-seized-request-us-authorities-antifa-allegations",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-16T13:09:25",
+      "excerpt": "記事の URL: https://nltimes.…"
     }
   ]
 }
