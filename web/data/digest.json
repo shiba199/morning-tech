@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-10-16T05:15:13",
+  "generated_at": "2026-10-16T10:00:44",
   "window_hours": 24,
-  "total": 193,
+  "total": 200,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。Claude Code v2.1.301がリリースされました。OpenTelemetry対応の強化やバイナリファイル判定の修正など、運用環境に大きく関わる51件の変更について、注目アップデートと試した内容をまとめます。…",
+      "summary": "生成AIの新着が29件。自律型ペネトレーションテストエージェントである AWS Security Agent (now part of AWS Continuum) を、最近公開された実在の CVE 37 件で評価しました。その結果、37 件中 33 件 (89.…",
       "articles": [
         {
-          "title": "Claude Code v2.1.301 の主要アップデート - auto mode の判定を OpenTelemetry で区別可能に",
-          "link": "https://dev.classmethod.jp/articles/20261016-cc-updates-v2-1-301/",
-          "source": "DevelopersIO",
-          "published": "2026-10-16T05:03:54",
-          "excerpt": "Claude Code v2.1.301がリリースされました。OpenTelemetry対応の強化やバイナリファイル判定の修正など、運用環境に大きく関わる51件の変更について、注目アップデートと試した内容をまとめます。…"
-        },
-        {
-          "title": "SAP ネットワークのトラブルシューティングを数時間から数分へ加速する：エージェント型 AI アプローチ",
-          "link": "https://aws.amazon.com/jp/blogs/news/accelerate-sap-network-troubleshooting-from-hours-to-minutes-agentic-ai-approach/",
+          "title": "AWS Security Agent (now part of AWS Continuum) が新たに公開された実在の CVE 37 件中 33 件のエクスプロイトに成功",
+          "link": "https://aws.amazon.com/jp/blogs/news/aws-security-agent-now-part-of-aws-continuum-exploited-33-of-37-new-real-world-cves/",
           "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-16T03:26:37",
-          "excerpt": "Kiro-CLI と AWS MCP Servers を組み合わせ、複雑な SAP ランドスケープのネットワークトラブルシューティングを数時間から数分へ短縮するエージェント型 AI アプローチを解説します。…"
+          "published": "2026-10-16T08:09:03",
+          "excerpt": "自律型ペネトレーションテストエージェントである AWS Security Agent (now part of AWS Continuum) を、最近公開された実在の CVE 37 件で評価しました。その結果、37 件中 33 件 (89.…"
         },
         {
-          "title": "Microsoft、社内エンジニア数万人を対象に「Claude Code」「Copilot CLI」導入の影響を分析　生産性どう変わる",
-          "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002277/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-16T03:00:00",
-          "excerpt": "米Microsoftに所属する研究者らが発表した論文「Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft’s Early 2026 Rollo…"
+          "title": "Sakana AI、「The AI Scientist」の第3世代を公開 ——複数エージェントで仮説検証から論文執筆まで、図生成ツール「AutoIllustrate」もオープンソース化",
+          "link": "https://gihyo.jp/article/2026/10/the-agentic-scientist-v3?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-10-16T08:08:00",
+          "excerpt": "Sakana AIは2026年10月15日、科学研究を自動化するThe AI Scientistの第3世代「The Agentic Scientist」を公開した。"
         },
         {
-          "title": "Amazon Bedrock AgentCoreの短期メモリが従量制料金に移行",
-          "link": "https://codezine.jp/article/detail/30022",
+          "title": "BCGが「Applied AI Index 2026」を発表、AIエージェントへの自律的な権限移譲とガバナンスの現状",
+          "link": "https://codezine.jp/article/detail/30040",
           "source": "CodeZine",
-          "published": "2026-10-16T02:30:00",
-          "excerpt": "Amazon Bedrock AgentCoreの短期メモリが従量制料金に移行"
+          "published": "2026-10-16T07:15:00",
+          "excerpt": "BCGが「Applied AI Index 2026」を発表、AIエージェントへの自律的な権限移譲とガバナンスの現状"
+        },
+        {
+          "title": "GitHub、複数モデルを組み合わせる「HydraFusion」にGPT-6 Astra、Opus 5.5など追加",
+          "link": "https://codezine.jp/article/detail/30025",
+          "source": "CodeZine",
+          "published": "2026-10-16T07:00:00",
+          "excerpt": "GitHub、複数モデルを組み合わせる「HydraFusion」にGPT-6 Astra、Opus 5.5など追加"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が23件。Vercel でウェブおよび AI アプリケーションを構築している開発者は、Vercel Marketplac […]",
+      "summary": "クラウドの新着が21件。はじめに 稼働時間が限定されているEC2を監視していて、インスタンスを意図的に停止しているのにCloudWatchアラームが発報されてしまう、という経験はないでしょうか。…",
       "articles": [
+        {
+          "title": "CloudWatchだけで「平日8:00～20:00」のEC2死活監視を実現してみた",
+          "link": "https://qiita.com/RioTakasu/items/2af5fbe164ef83ddbfda",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-16T07:07:26",
+          "excerpt": "はじめに 稼働時間が限定されているEC2を監視していて、インスタンスを意図的に停止しているのにCloudWatchアラームが発報されてしまう、という経験はないでしょうか。…"
+        },
+        {
+          "title": "AWS Security Hub、検出結果をCSV/JSON形式でS3へエクスポート可能に",
+          "link": "https://codezine.jp/article/detail/30024",
+          "source": "CodeZine",
+          "published": "2026-10-16T05:30:00",
+          "excerpt": "AWS Security Hub、検出結果をCSV/JSON形式でS3へエクスポート可能に"
+        },
         {
           "title": "Amazon S3 が Vercel Marketplace と v0 by Vercel で入手可能になりました",
           "link": "https://aws.amazon.com/jp/blogs/news/amazon-s3-vercel-marketplace-v0/",
@@ -57,69 +71,62 @@
           "source": "CodeZine",
           "published": "2026-10-16T02:30:00",
           "excerpt": "Amazon Bedrock AgentCoreの短期メモリが従量制料金に移行"
-        },
-        {
-          "title": "Amazon S3 Access Points で Amazon FSx for NetApp ONTAP 上のデータに AWS サービスからゼロコピーでアクセスする",
-          "link": "https://aws.amazon.com/jp/blogs/news/enable-zero-copy-access-to-aws-services-on-amazon-fsx-for-netapp-ontap-with-amazon-s3-access-points/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-16T00:56:58",
-          "excerpt": "半導体の検証チームが毎晩生成する大量の EDA ログを、データを移動せずに AI で分析するアーキテクチャを紹介します。…"
-        },
-        {
-          "title": "PostgreSQL 19 RC1 を Amazon RDS Database Preview Environment で試してみた",
-          "link": "https://dev.classmethod.jp/articles/rds-preview-postgresql-19-rc1/",
-          "source": "DevelopersIO",
-          "published": "2026-10-16T00:33:05",
-          "excerpt": "Amazon RDS Database Preview Environment の PostgreSQL 19 RC1 で、COPY の JSON 出力キーが別名になること、SQL/PGQ が含まれないことを確認しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が20件。電子書籍ストア「コミックシーモア」を運営するNTTソルマーレは10月15日、同サービスのサーバに外部から不正アクセスがあった可能性が高いと発表した。原因究明のためサービスを停止し、緊急メンテナンスを実施している。…",
+      "summary": "セキュリティの新着が23件。AWS Control Tower で Security OU にリージョン拒否コントロール（CT.MULTISERVICE.PV.1）を有効化できない問題について、現在の扱いを公式ドキュメントで確認し、ランディングゾーン 4.…",
       "articles": [
         {
-          "title": "コミックシーモア、不正アクセスの可能性でサービス停止　メンテ終了時期は未定",
-          "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002321/",
+          "title": "Security OU に OU単位のリージョン拒否コントロール（CT.MULTISERVICE.PV.1） を有効化できないときの対処法を調査してみた",
+          "link": "https://dev.classmethod.jp/articles/control-tower-security-ou-pv1-workaround/",
+          "source": "DevelopersIO",
+          "published": "2026-10-16T08:55:40",
+          "excerpt": "AWS Control Tower で Security OU にリージョン拒否コントロール（CT.MULTISERVICE.PV.1）を有効化できない問題について、現在の扱いを公式ドキュメントで確認し、ランディングゾーン 4.…"
+        },
+        {
+          "title": "相次ぐ不正アクセス「実態解明進めなければならない」　警察庁長官、担当幹部会議で指示",
+          "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002341/",
           "source": "ITmedia NEWS",
-          "published": "2026-10-16T04:24:33",
-          "excerpt": "電子書籍ストア「コミックシーモア」を運営するNTTソルマーレは10月15日、同サービスのサーバに外部から不正アクセスがあった可能性が高いと発表した。原因究明のためサービスを停止し、緊急メンテナンスを実施している。…"
+          "published": "2026-10-16T08:29:39",
+          "excerpt": "警察庁は10月16日、全国警察のサイバー担当課長らを集めた会議を東京都内で開いた。楠芳伸長官は、相次ぐ企業などへの不正アクセスについて「所要の捜査を推進し、実態解明と注意喚起を進めなければならない」と訴えた。"
         },
         {
-          "title": "Security Hub にリソースの重要度（Criticality）が追加され、Exposure の優先度付けに使われるようになりました | 株式会社サイバーセキュリティクラウド　テックブログのフィード",
-          "link": "https://zenn.dev/cscloud_blog/articles/security-hub-resource-criticality-support",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-16T04:19:56",
-          "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！…"
+          "title": "AWSサービス解説(GuardDuty編)",
+          "link": "https://qiita.com/Kagesyu/items/8f7fb9c2913c77df200b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-16T08:20:11",
+          "excerpt": "イントロダクション 今回はAWSサービスGuardDutyについて子供にでもわかるように学校をイメージして解説します。…"
         },
         {
-          "title": "「ランサムウェア攻撃を失敗させる」VPN、PC、Active Directoryなどの設定チェックシート",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/16/news072.html",
-          "source": "@IT",
-          "published": "2026-10-16T04:00:00",
-          "excerpt": "一般社団法人ソフトウェア協会、大阪急性期・総合医療センター、日本マイクロソフトの3者は、「Cyber A2/AD ランサムウェア防御チェックシート」を公表した。医療機関に限らず、一般の中小・中堅企業や大企業でも十分に適用可能だという。"
-        },
-        {
-          "title": "「『楽天カード公式』から詐欺メール」報告相次ぐ　ドコモメールに公式マーク付きフィッシング、一部企業の認証設定に脆弱性",
-          "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002314/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-16T01:57:36",
-          "excerpt": "「楽天カードの認証マーク付き詐欺メールが、ドコモメールに届いた」といった報告が、10月15日ごろからXで相次いでいる。送信ドメイン認証をすり抜けたとみられるフィッシングメールが出回っているようだ。…"
+          "title": "ファンケルとアテニア、計約83万件の会員情報漏えい　ECサイトに不正アクセス",
+          "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002340/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-16T08:17:41",
+          "excerpt": "漏えいしたのは、氏名、住所、メールアドレスに加え、電話番号、生年月日、性別、サブメールアドレスとそのハッシュ化したパスワード、本人認証質問項目（回答は含まない）など。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。Intero Biosystems beat out 199 other Startup Battlefield companies to take home the $100,000 grand prize at TechCrunch D…",
+      "summary": "データ分析の新着が7件。DynamoDBのレスポンスUnmarshalのアロケーション数を減らすために Unmarshalerを自作する | Pairs Engineering - Medium",
       "articles": [
         {
-          "title": "And the winner of Startup Battlefield at Disrupt 2026 is: Intero Biosystems",
+          "title": "DynamoDBのレスポンスUnmarshalのアロケーション数を減らすために Unmarshalerを自作する | Pairs Engineering - Medium",
+          "link": "https://medium.com/eureka-engineering/dynamodb%E3%81%AE%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B9unmarshal%E3%81%AE%E3%82%A2%E3%83%AD%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E6%95%B0%E3%82%92%E6%B8%9B%E3%82%89%E3%81%99%E3%81%9F%E3%82%81%E3%81%AB-unmarshaler%E3%82%92%E8%87%AA%E4%BD%9C%E3%81%99%E3%82%8B-d5ee79d69d60",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-16T07:41:08",
+          "excerpt": "DynamoDBのレスポンスUnmarshalのアロケーション数を減らすために Unmarshalerを自作する | Pairs Engineering - Medium"
+        },
+        {
+          "title": "Disrupt 2026 の Startup Battlefield の勝者は Intero Biosystems です。",
           "link": "https://techcrunch.com/2026/10/15/and-the-winner-of-startup-battlefield-at-disrupt-2026-is-intero-biosystems/",
           "source": "TechCrunch（英語）",
           "published": "2026-10-15T23:33:45",
-          "excerpt": "Intero Biosystems beat out 199 other Startup Battlefield companies to take home the $100,000 grand prize at TechCrunch D…"
+          "excerpt": "Intero Biosystems は、TechCrunch Disrupt 2026 で他の Startup Battlefield 企業 199 社を破り、賞金 10 万ドルを獲得しました。"
         },
         {
           "title": "Ruby biz Grand prix 2026 ［後編］",
@@ -129,26 +136,33 @@
           "excerpt": "Ruby biz Grand prixは、プログラミング言語Rubyの特徴を活かして新たなサービスを生み出し、ビジネスとして継続的に展開している事例を顕彰するグランプリです。…"
         },
         {
-          "title": "Hegseth’s dubious low-T screening may flag up to 25 percent of the Army",
+          "title": "ヘグセスの疑わしい低温度検査は陸軍の最大25パーセントに警告を与える可能性がある",
           "link": "https://arstechnica.com/health/2026/10/hegseths-dubious-low-t-screening-may-flag-up-to-25-percent-of-the-army/",
           "source": "Ars Technica（英語）",
           "published": "2026-10-15T21:09:57",
-          "excerpt": "Medical experts explicitly recommend against blanket screenings."
-        },
-        {
-          "title": "Amazon DynamoDB Streams now supports timestamp-based stream processing",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-streams-timestamp-processing",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-15T18:30:00",
-          "excerpt": "Amazon DynamoDB Streams now supports timestamp-based stream processing, enabling you to begin reading stream records fro…"
+          "excerpt": "医療専門家は、全面的なスクリーニングを行わないことを明確に推奨しています。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。AWS Blocks は 2026年10月時点でパブリックプレビュー段階のサービスです。本記事で使う CLI・API・自動生成されるコードや挙動は、今後のバージョンで変更される可能性があります。…",
+      "summary": "開発ツールの新着が13件。GitHub、複数モデルを組み合わせる「HydraFusion」にGPT-6 Astra、Opus 5.5など追加",
       "articles": [
+        {
+          "title": "GitHub、複数モデルを組み合わせる「HydraFusion」にGPT-6 Astra、Opus 5.5など追加",
+          "link": "https://codezine.jp/article/detail/30025",
+          "source": "CodeZine",
+          "published": "2026-10-16T07:00:00",
+          "excerpt": "GitHub、複数モデルを組み合わせる「HydraFusion」にGPT-6 Astra、Opus 5.5など追加"
+        },
+        {
+          "title": "返信したら攻撃が始まる　GmailからGitHubまで悪用する情報窃取の手口",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/16/news037.html",
+          "source": "@IT",
+          "published": "2026-10-16T06:00:00",
+          "excerpt": "不審なリンクも添付ファイルもないメールなら、安全だと思っていないだろうか。警戒心を解いてから攻撃に移る巧妙な標的型メール攻撃が見つかった。正規の開発者向けサービスまで悪用する手口を解説する。"
+        },
         {
           "title": "富士山登頂記念に、AWS Blocks という山も少しずつ登ってみる（第2弾：ご来光 ── 同じコードを AWS にデプロイし「本物の Amazon Location Service」で動かす）",
           "link": "https://qiita.com/ShikoMaehara/items/eb3c2d77526db12aca80",
@@ -162,52 +176,38 @@
           "source": "CodeZine",
           "published": "2026-10-16T04:00:00",
           "excerpt": "GitHub、GitHub Appsに「リポジトリを作成するための権限」を追加"
-        },
-        {
-          "title": "Microsoft、社内エンジニア数万人を対象に「Claude Code」「Copilot CLI」導入の影響を分析　生産性どう変わる",
-          "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002277/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-16T03:00:00",
-          "excerpt": "米Microsoftに所属する研究者らが発表した論文「Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft’s Early 2026 Rollo…"
-        },
-        {
-          "title": "経済産業省 GENIAC ロボット基盤モデルの研究開発における採択事業者への支援を開始",
-          "link": "https://aws.amazon.com/jp/blogs/news/geniac-cycle4-robotics-kick-off/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-16T01:18:56",
-          "excerpt": "2026年9月9日、経済産業省と国立研究開発法人新エネルギー・産業技術総合開発機構 (NEDO) が実施する […]"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【STEM×ミライ応援プロジェクト｜真夏の女子中高生編 #2】身近な疑問をデータで紐解く！ 合宿型キャリア教育プログラム「夏学2026」参加レポート  | Platinum Data Blog by BrainPad ブレインパッド",
-      "link": "https://blog.brainpad.co.jp/entry/2026/10/16/140007",
+      "title": "泥棒が学校のスナッパーのSDカードをスマッシュ＆グラブで強奪",
+      "link": "https://www.theregister.com/security/2026/10/16/thief-snatches-school-snappers-sd-cards-in-smash-grab/5303379",
+      "source": "The Register（英語）",
+      "published": "2026-10-16T09:15:00",
+      "excerpt": "英国の学校、児童のデータが危険にさらされているとしてデータ保護の失敗を認める"
+    },
+    {
+      "title": "本番DBに不要なレコードを数千万件登録してしまった話 | Geekplus Tech Blogのフィード",
+      "link": "https://zenn.dev/geekplus/articles/a615dfe41557d8",
       "source": "企業テックブログまとめ",
-      "published": "2026-10-16T05:00:07",
-      "excerpt": "ブレインパッドは、NPO法人女子中高生理工系キャリアパスプロジェクト（以下、GSTEM-CPP）が主催するキャリア教育プログラム「女子中高生 夏の学校 〜科学・技術・人との出会い〜（以下、夏学） 」に2023年より参画を開始し、今年が4回目…"
+      "published": "2026-10-16T09:00:09",
+      "excerpt": "ある日、普段数分以内で完了するはずのバッチジョブからレイテンシーアラートが上がってきました。調査すると、出荷明細の補足情報を登録する処理で、大量のINSERTが発生しています。…"
     },
     {
-      "title": "DevFest 2026 日本各地で開催！最寄りの会場を見つけて今すぐ参加登録しよう! | Google Developers Japan",
-      "link": "https://developers-jp.googleblog.com/2026/10/blog-post.html",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-16T05:00:00",
-      "excerpt": "AI、クラウド、最新の開発トレンドに飛び込む準備はできていますか？日本各地で「DevFest 2026」が開催され始めました！…"
-    },
-    {
-      "title": "Tesla makes cars that fly? [video]",
-      "link": "https://www.youtube.com/watch?v=7p5LxFdc-Qg",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-16T04:27:54",
-      "excerpt": "Article URL: https://www.youtube.com/watch?v=7p5LxFdc-Qg Comments URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "「カレー作りたい」と注文→ロボが野菜をピックする「未来の八百屋」　AWS×安川電機が披露",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002326/",
+      "title": "うるう秒、27年5月に廃止　国際度量衡総会で決定　通信や情報システムの障害防止へ",
+      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002343/",
       "source": "ITmedia NEWS",
-      "published": "2026-10-16T04:23:05",
-      "excerpt": "幕張メッセで開催中の「CEATEC 2026」で、米Amazon Web Services（AWS）と安川電機が「未来の八百屋」と題したデモを共同で展示している。…"
+      "published": "2026-10-16T08:48:15",
+      "excerpt": "仏ベルサイユで開かれた計量単位などを決める国際会議「国際度量衡総会」は15日（現地時間）、時刻調整に使う「うるう秒」を27年5月20日に廃止する決議を採択した。1972年の導入以来27回実施してきた仕組みが半世紀余りで役目を終える。"
+    },
+    {
+      "title": "オープンソース主権は、それを機能させるという退屈な作業にまで及びます",
+      "link": "https://www.theregister.com/software/2026/10/16/open-source-sovereignty-gets-down-to-the-boring-business-of-making-it-work/5303206",
+      "source": "The Register（英語）",
+      "published": "2026-10-16T08:30:00",
+      "excerpt": "今年のイベントでは、移行ターゲット、セキュリティ ルール、管理指標が中心的な役割を果たします"
     }
   ]
 }
