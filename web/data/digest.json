@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-10-16T14:31:19",
+  "generated_at": "2026-10-16T18:30:29",
   "window_hours": 24,
-  "total": 213,
+  "total": 203,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が29件。Amazon Bedrock における Anthropic 利用ポリシーの更新について通知があったので、新旧の Usage Policy を確認しました。…",
+      "summary": "生成AIの新着が34件。エージェントは、アプリ構成、パブリック コード リポジトリ、および過度に寛容なクラウド ロールに公開されたままになっている資格情報と接続設定を介して侵入しました。",
       "articles": [
         {
-          "title": "AWS Health に届いた Anthropic Usage Policy の更新（2026年11月12日施行）を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/anthropic-usage-policy-update-bedrock-health/",
+          "title": "インドが不正AIエージェントの活動を報告した最新の国となる",
+          "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-16T17:52:24",
+          "excerpt": "エージェントは、アプリ構成、パブリック コード リポジトリ、および過度に寛容なクラウド ロールに公開されたままになっている資格情報と接続設定を介して侵入しました。"
+        },
+        {
+          "title": "Claude CodeのCVE-2026-86063を手元で確かめる。git checkoutはコミットSHAより同名ブランチを優先する",
+          "link": "https://dev.classmethod.jp/articles/claude-code-plugin-sha-pin-bypass/",
           "source": "DevelopersIO",
-          "published": "2026-10-16T13:50:59",
-          "excerpt": "Amazon Bedrock における Anthropic 利用ポリシーの更新について通知があったので、新旧の Usage Policy を確認しました。…"
+          "published": "2026-10-16T17:26:05",
+          "excerpt": "Claude Codeのプラグイン導入でコミットSHAの固定をすり抜けられた問題を、空コミットだけのローカルリポジトリで確かめました。git checkoutが同名ブランチを優先する仕組みと、SHA固定の取得を安全に書く方法を整理します。"
         },
         {
-          "title": "arXiv・GitHub・Hacker Newsの新着を、LLMなしで「読む／見送り」に自動仕分けする（Python × Jev） | ヘッドウォータースのフィード",
-          "link": "https://zenn.dev/headwaters/articles/133c233cc7eb6f",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-16T12:01:16",
-          "excerpt": "論文の新着は1日80件超：読むものを自動で選ぶツールを作るarXivの新着一覧（cs.AI・cs.CL）を見ると、新規投稿の論文は、2026-10-12付の cs.AI で83件、2026-10-09付の cs.CL で88件ありました。…"
+          "title": "Nvidia インサイダーから VC に転身したロボット工学が ChatGPT の瞬間にまだ達していない理由について語る",
+          "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-16T16:30:00",
+          "excerpt": "NVIDIA のロボット プラットフォームの製品マーケティングを 7 年間指揮してきた Amulya Vishwanath 氏は、ロボット工学は現在「レゴ時代」にあり、アクチュエーター、ロボット ハンド、ソフトウェア、安全基準などの基本的な…"
         },
         {
-          "title": "KiroでAWS開発をどこまでAgentに任せられる？9つの検証で分かった「できる」と「任せてよい」の差",
-          "link": "https://zenn.dev/nobu_13/articles/cc7c8b39c63b59",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-16T11:38:41",
-          "excerpt": "はじめに 「KiroでAWS Software Development Lifecycleをどこまで自動化・Agentic化できるのか？」 この問いから、9つの検証を始めました。…"
-        },
-        {
-          "title": "「AIエージェントキャッチアップ #93 - DeepSeek Harness」を開催しました | Generative Agents Tech Blog",
-          "link": "https://blog.generative-agents.co.jp/entry/2026/10/16/184107",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-16T09:41:07",
-          "excerpt": "ジェネラティブエージェンツの大嶋です。「AIエージェントキャッチアップ #93 - DeepSeek Harness」という勉強会を開催しました。generative-agents.connpass.com アーカイブ動画はこちらです。…"
+          "title": "Elorian の最初の AI モデルは、画像だけでなく画像を使って推論したいと考えています",
+          "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-16T16:01:37",
+          "excerpt": "Elorian の評価によれば、Glimpse は科学図の推論と短編ビデオのキャプションにおいて GPT-6 Astra よりも優れており、その他の視覚的推論タスクでも同等の結果をもたらしています。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。はじめに 医学生エンジニアとしてスタートアップで働いています。この記事は自分の備忘録として書いたもので、内容は個人の見解です。所属組織を代表するものではなく、法的助言でもありません。…",
+      "summary": "クラウドの新着が18件。変更履歴 2026-10-17：公開 初めに Lambda に Web Functions（Lambda で普通の HTTP サーバーが動く機能）が来た。最初に浮かんだのは「API Gateway、もう要らないのでは？」という疑問。…",
       "articles": [
+        {
+          "title": "インフラ屋が書く Lambda Web Functions：API Gateway＋Lambda を置き換えるか、動かして判断する",
+          "link": "https://qiita.com/yuki_1012_1101/items/793368a704ff47e7a348",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-16T18:04:45",
+          "excerpt": "変更履歴 2026-10-17：公開 初めに Lambda に Web Functions（Lambda で普通の HTTP サーバーが動く機能）が来た。最初に浮かんだのは「API Gateway、もう要らないのでは？」という疑問。…"
+        },
+        {
+          "title": "AWS セキュリティ速報 2026-137-AWS（CVE-2026-99999）は通常の EC2 は対象外。影響範囲を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-security-bulletin-2026-137-kvm-kernel/",
+          "source": "DevelopersIO",
+          "published": "2026-10-16T16:47:32",
+          "excerpt": "CVE-2026-99999 の対象を整理しました。EC2、Lambda、Fargate は対象外で、影響を受けるのは KVM を自己管理するホストです。…"
+        },
         {
           "title": "医療データとAWS RDS",
           "link": "https://qiita.com/kuct/items/92178f4715573ee609a2",
@@ -57,28 +71,28 @@
           "source": "Zenn AWSトピック",
           "published": "2026-10-16T12:04:53",
           "excerpt": "予算を超えたら全部止まる仕組みを Terraform で作った 個人開発で AWS を使っていて一番怖いのは、寝ている間に請求が伸びていることです。…"
-        },
-        {
-          "title": "Amazon EC2 Capacity Blocks for ML の価格改定 2026 年 10 月版",
-          "link": "https://dev.classmethod.jp/articles/ec2-capacity-blocks-for-ml-pricing-update-2026-10/",
-          "source": "DevelopersIO",
-          "published": "2026-10-16T10:35:20",
-          "excerpt": "AWS EC2 Capacity Blocks for ML の2026年10月7日の料金改定で前回に引き続き値上げとなりました。"
-        },
-        {
-          "title": "S3 Files に SQLite を置いた Lambda はどこまで耐えるか — 天井・コストと代替案の比較",
-          "link": "https://zenn.dev/ino_h/articles/2026-10-16-s3-files-sqlite-lambda-capacity",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-16T09:11:08",
-          "excerpt": "はじめに ここ1〜2年、AWS で「とりあえず立ち上げるだけなら一瞬」というサービスが目に見えて増えています。公式の発表で日付を確認できたものだけでも、次のとおりです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が27件。工程 担当 課題提示・取捨選択・内容チェック 筆者 原案作成・編成 Claude Fable 5.1 事実検証（検証メモ） GPT-6 Astra 一次資料照合・最終稿 Claude Fable 5.…",
+      "summary": "セキュリティの新着が29件。Claude Codeのプラグイン導入でコミットSHAの固定をすり抜けられた問題を、空コミットだけのローカルリポジトリで確かめました。git checkoutが同名ブランチを優先する仕組みと、SHA固定の取得を安全に書く方法を整理します。",
       "articles": [
+        {
+          "title": "Claude CodeのCVE-2026-86063を手元で確かめる。git checkoutはコミットSHAより同名ブランチを優先する",
+          "link": "https://dev.classmethod.jp/articles/claude-code-plugin-sha-pin-bypass/",
+          "source": "DevelopersIO",
+          "published": "2026-10-16T17:26:05",
+          "excerpt": "Claude Codeのプラグイン導入でコミットSHAの固定をすり抜けられた問題を、空コミットだけのローカルリポジトリで確かめました。git checkoutが同名ブランチを優先する仕組みと、SHA固定の取得を安全に書く方法を整理します。"
+        },
+        {
+          "title": "AWS セキュリティ速報 2026-137-AWS（CVE-2026-99999）は通常の EC2 は対象外。影響範囲を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-security-bulletin-2026-137-kvm-kernel/",
+          "source": "DevelopersIO",
+          "published": "2026-10-16T16:47:32",
+          "excerpt": "CVE-2026-99999 の対象を整理しました。EC2、Lambda、Fargate は対象外で、影響を受けるのは KVM を自己管理するホストです。…"
+        },
         {
           "title": "CVE-2026-99999（PwnEscape）を読み解く──「KVMの脆弱性」ではなく、Linuxネットワークスタックの脆弱性",
           "link": "https://qiita.com/k2_naka/items/fa87685231377f15e7e3",
@@ -92,27 +106,13 @@
           "source": "The Register（英語）",
           "published": "2026-10-16T12:15:00",
           "excerpt": "信頼できるハードウェアを使用して GLM 5.3 Flash との会話を保護するブラウザ メーカー"
-        },
-        {
-          "title": "Amazon Cognitoの認証設計で押さえたい6つの注意点｜パスキー・MFA・セッション管理",
-          "link": "https://qiita.com/gerrard15/items/29d62c11c26945570e82",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-16T10:35:43",
-          "excerpt": "Cognitoの認証設計では、求める操作フローが標準仕様に収まるか、アプリ側で何を補う必要があるかを確認しておきたいところです。無操作ログアウト、再認証、パスワード再設定など、6つの要件について結論と対応方法をまとめます。…"
-        },
-        {
-          "title": "【重要】Linuxカーネルの脆弱性（CVE-2026-99999）に関する当社サービスへの影響について | さくらインターネット",
-          "link": "https://www.sakura.ad.jp/corporate/information/announcements/2026/10/16/1968226051/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-16T09:57:11",
-          "excerpt": "お客さま各位 平素よりさくらインターネットをご利用いただき、誠にありがとうございます。Linuxカーネルのネットワーク処理に関する脆弱性（CVE-2026-99999）が公開されました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。避けられない選挙をテーマにしたサイバー攻撃が再び渦巻いている、連邦政府が警戒すべきサイバー攻撃についてPSAを発行",
+      "summary": "データ分析の新着が5件。避けられない選挙をテーマにしたサイバー攻撃が再び渦巻いている、連邦政府が警戒すべきサイバー攻撃についてPSAを発行",
       "articles": [
         {
           "title": "詐欺おじさんがあなたに現金と個人データを吐き出させようとしている、FBIが中間選挙を前に警告",
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。予算を超えたら全部止まる仕組みを Terraform で作った 個人開発で AWS を使っていて一番怖いのは、寝ている間に請求が伸びていることです。…",
+      "summary": "開発ツールの新着が15件。Claude Codeのプラグイン導入でコミットSHAの固定をすり抜けられた問題を、空コミットだけのローカルリポジトリで確かめました。git checkoutが同名ブランチを優先する仕組みと、SHA固定の取得を安全に書く方法を整理します。",
       "articles": [
+        {
+          "title": "Claude CodeのCVE-2026-86063を手元で確かめる。git checkoutはコミットSHAより同名ブランチを優先する",
+          "link": "https://dev.classmethod.jp/articles/claude-code-plugin-sha-pin-bypass/",
+          "source": "DevelopersIO",
+          "published": "2026-10-16T17:26:05",
+          "excerpt": "Claude Codeのプラグイン導入でコミットSHAの固定をすり抜けられた問題を、空コミットだけのローカルリポジトリで確かめました。git checkoutが同名ブランチを優先する仕組みと、SHA固定の取得を安全に書く方法を整理します。"
+        },
+        {
+          "title": "Strands harness を AgentCore にデプロイしたら、ローカルでは起きない落とし穴があった",
+          "link": "https://qiita.com/mtmt_factory/items/3b0304e539a09ac0a0c2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-16T15:05:15",
+          "excerpt": "はじめに 前回の記事では、Strands harness で Security Hub CSPM の検出結果をトリアージするエージェントを作りました。ただ、このエージェントはローカルPC（Mac） で動かしていただけです。…"
+        },
         {
           "title": "AWS の請求が伸びたら全 Lambda を止める仕組みを Terraform で作った",
           "link": "https://zenn.dev/kohei03/articles/8c1e4868877c8b",
@@ -162,52 +176,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-10-16T12:01:16",
           "excerpt": "論文の新着は1日80件超：読むものを自動で選ぶツールを作るarXivの新着一覧（cs.AI・cs.CL）を見ると、新規投稿の論文は、2026-10-12付の cs.AI で83件、2026-10-09付の cs.CL で88件ありました。…"
-        },
-        {
-          "title": "GitHub Copilotに登場した「HydraFusion」とは？複数のAIモデルを組み合わせる新機能を解説 | Alternative Architecture DOJO",
-          "link": "https://aadojo.alterbooth.com/entry/2026/10/16/200737",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-16T11:07:37",
-          "excerpt": "GitHub Copilotでは、GPTやClaudeなど、複数のAIモデルを選択して利用できます。また、タスクに応じてモデルを自動選択する「Auto」も提供されています。…"
-        },
-        {
-          "title": "GitHub、複数モデルを組み合わせる「HydraFusion」にGPT-6 Astra、Opus 5.5など追加",
-          "link": "https://codezine.jp/article/detail/30025",
-          "source": "CodeZine",
-          "published": "2026-10-16T07:00:00",
-          "excerpt": "GitHub、複数モデルを組み合わせる「HydraFusion」にGPT-6 Astra、Opus 5.5など追加"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "マーク・ウォールバーグが映画でAIを「正しい方法」で使用し、彼の遺産を引き継ぐAIクローンにオープンであることについて語る",
-      "link": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-16T14:26:51",
-      "excerpt": "俳優でエンジェル投資家でもあるマーク・ウォールバーグ氏は、「自分のやっていることを強化するため」であれば、映画製作にAIを使うのは構わないと述べている。"
-    },
-    {
-      "title": "ベリタス、偽造防止チップをジュエリー、トロフィー、フレグランスボトルに拡大",
-      "link": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-16T14:00:00",
-      "excerpt": "偽造者は、ブランドのマークを複製し、「スーパーフェイク」として知られる模倣品を本物のように偽装するのが上手になってきています。Veritas という新興企業は、商品を検証する独自のチップを使ってこの問題に取り組みたいと考えています。…"
-    },
-    {
-      "title": "BAE管理のシステムへの攻撃で米国破産裁判所が混乱",
-      "link": "https://www.theregister.com/security/2026/10/16/attack-on-bae-managed-system-disrupts-us-bankruptcy-courts/5303487",
-      "source": "The Register（英語）",
-      "published": "2026-10-16T13:29:00",
-      "excerpt": "合法的なワシはまだいくつかの作戦をとぼとぼと進めているが、紙と電子通知は追って通知があるまで延期される"
-    },
-    {
-      "title": "アムステルダムにある米国当局のサーバー「Autistici/Inventati (A/I)」を押収",
-      "link": "https://nltimes.nl/2026/10/14/amsterdam-server-seized-request-us-authorities-antifa-allegations",
+      "title": "eBay、無線機器の出品を制限、ハムバンド専用機器は除外",
+      "link": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
       "source": "Hacker News（英語）",
-      "published": "2026-10-16T13:09:25",
-      "excerpt": "記事の URL: https://nltimes.…"
+      "published": "2026-10-16T18:06:17",
+      "excerpt": "記事の URL: https://www.arrl.org/arrlletterissue?…"
+    },
+    {
+      "title": "クロードとともにより効率的な量子回路を設計する",
+      "link": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-16T18:00:18",
+      "excerpt": "記事の URL: https://www.anthropic.com/research/designing-efficient-quantum-circuits コメント URL: https://news.ycombinator.…"
+    },
+    {
+      "title": "API GatewayでMockを統合したWebSocket APIを作成",
+      "link": "https://qiita.com/HierarTree/items/843df033191622c2295d",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-16T17:41:30",
+      "excerpt": "API GatewayでMockを統合したWebSocket APIを作成 やりたいこと API Gatewayを使ってWebSocket通信を実装できるらしい。…"
+    },
+    {
+      "title": "ピラミダル (YC W24) が人材を募集しています",
+      "link": "https://job-boards.greenhouse.io/piramidalinc/jobs/4443102009",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-16T17:08:55",
+      "excerpt": "記事の URL: https://job-boards.greenhouse.io/piramidalinc/jobs/4443102009 コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
