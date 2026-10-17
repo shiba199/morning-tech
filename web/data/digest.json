@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-10-17T00:01:13",
+  "generated_at": "2026-10-17T04:44:01",
   "window_hours": 24,
-  "total": 175,
+  "total": 156,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。",
+      "summary": "生成AIの新着が28件。AWS Agent Registry、レジストリレコードのカスタムメタデータに対応",
       "articles": [
+        {
+          "title": "AWS Agent Registry、レジストリレコードのカスタムメタデータに対応",
+          "link": "https://codezine.jp/article/detail/30044",
+          "source": "CodeZine",
+          "published": "2026-10-17T04:00:00",
+          "excerpt": "AWS Agent Registry、レジストリレコードのカスタムメタデータに対応"
+        },
+        {
+          "title": "Slack通知のボタンから、Lambda経由でAWS DevOps Agentの調査を起動してみた",
+          "link": "https://dev.classmethod.jp/articles/hasuto-devops-agent-slack-button-lambda/",
+          "source": "DevelopersIO",
+          "published": "2026-10-17T02:32:12",
+          "excerpt": "Slackのアラーム通知にAmazon Qのカスタムアクションでボタンを付け、押したときだけLambda経由でAWS DevOps Agentの調査を起動する構成を作りました。…"
+        },
         {
           "title": "「NECが全社員にClaude Cowork導入」「AIで人月モデルは崩壊」――AI活用の“壁”を突破する実践知",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/17/news008.html",
@@ -22,28 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-10-16T21:34:35",
           "excerpt": "Kiro で Kimi K3 が選べるようになったので、Claude と GPT の4モデルと同じ依頼で比べました。脆弱性の指摘はほぼ同じ件数で、構成図は図の整理のされ方に差が出ました。"
-        },
-        {
-          "title": "CEOはReplitはAnthropicとの提携を終了したと述べた",
-          "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-16T21:22:28",
-          "excerpt": "ReplitのCEO兼共同創設者であるAmjadmasad氏はTechCrunch Disrupt 2026中にコメントした。"
-        },
-        {
-          "title": "OpenAI モデルが仮想通貨ウォレットをハッキングし、さらに多くの Web サイトに侵入",
-          "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-10-16T20:59:01",
-          "excerpt": "もし人間がキーボードの後ろにいたとしたら、この行為は刑事告訴につながる可能性がありました。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。AWS Lambda 永続関数が AWS GovCloud (米国西部) および AWS GovCloud (米国東部) リージョンで利用できるようになりました。…",
+      "summary": "クラウドの新着が11件。Slackのアラーム通知にAmazon Qのカスタムアクションでボタンを付け、押したときだけLambda経由でAWS DevOps Agentの調査を起動する構成を作りました。…",
       "articles": [
+        {
+          "title": "Slack通知のボタンから、Lambda経由でAWS DevOps Agentの調査を起動してみた",
+          "link": "https://dev.classmethod.jp/articles/hasuto-devops-agent-slack-button-lambda/",
+          "source": "DevelopersIO",
+          "published": "2026-10-17T02:32:12",
+          "excerpt": "Slackのアラーム通知にAmazon Qのカスタムアクションでボタンを付け、押したときだけLambda経由でAWS DevOps Agentの調査を起動する構成を作りました。…"
+        },
         {
           "title": "AWS Lambda 永続関数が AWS GovCloud (米国) リージョンで利用可能になりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/",
@@ -64,20 +71,13 @@
           "source": "DevelopersIO",
           "published": "2026-10-16T16:47:32",
           "excerpt": "CVE-2026-99999 の対象を整理しました。EC2、Lambda、Fargate は対象外で、影響を受けるのは KVM を自己管理するホストです。…"
-        },
-        {
-          "title": "Docker入門：イメージ・コンテナ・Composeから本番デプロイまで整理する",
-          "link": "https://zenn.dev/nu0044/articles/jaehong-docker-fundamentals-guide",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-16T15:20:50",
-          "excerpt": "チーム開発でDockerを使っていても、docker compose upを実行するツールという理解だけでは、イメージとコンテナの違いやデプロイで使う理由が分かりにくいことがあります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が24件。Claude Codeのプラグイン導入でコミットSHAの固定をすり抜けられた問題を、空コミットだけのローカルリポジトリで確かめました。git checkoutが同名ブランチを優先する仕組みと、SHA固定の取得を安全に書く方法を整理します。",
+      "summary": "セキュリティの新着が18件。Claude Codeのプラグイン導入でコミットSHAの固定をすり抜けられた問題を、空コミットだけのローカルリポジトリで確かめました。git checkoutが同名ブランチを優先する仕組みと、SHA固定の取得を安全に書く方法を整理します。",
       "articles": [
         {
           "title": "Claude CodeのCVE-2026-86063を手元で確かめる。git checkoutはコミットSHAより同名ブランチを優先する",
@@ -133,7 +133,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。Claude Codeのプラグイン導入でコミットSHAの固定をすり抜けられた問題を、空コミットだけのローカルリポジトリで確かめました。git checkoutが同名ブランチを優先する仕組みと、SHA固定の取得を安全に書く方法を整理します。",
+      "summary": "開発ツールの新着が9件。Claude Codeのプラグイン導入でコミットSHAの固定をすり抜けられた問題を、空コミットだけのローカルリポジトリで確かめました。git checkoutが同名ブランチを優先する仕組みと、SHA固定の取得を安全に書く方法を整理します。",
       "articles": [
         {
           "title": "Claude CodeのCVE-2026-86063を手元で確かめる。git checkoutはコミットSHAより同名ブランチを優先する",
@@ -168,32 +168,32 @@
   ],
   "uncategorized": [
     {
-      "title": "ソースネクストで2251万件超の情報流出　退会者含めたユーザーパスワードも漏えい",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/17/news010.html",
+      "title": "「この問題を考慮したあらゆる研究において」",
+      "link": "https://unsung.aresluna.org/in-every-study-that-considered-the-question/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-17T04:08:27",
+      "excerpt": "記事の URL: https://unsung.aresluna.org/in-every-study-that-considered-the-question/ コメント URL: https://news.ycombinator.…"
+    },
+    {
+      "title": "「ダークWebで個人情報を検出しました」　アカウント“流出”の原因と、その予防策",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/17/news006.html",
       "source": "@IT",
-      "published": "2026-10-16T23:00:00",
-      "excerpt": "2251万件超の会員情報が、サイバー攻撃の標的になった。ソースネクストへの不正アクセスでは、メールアドレスやパスワードだけでなく、住所や電話番号、生年月日、勤務先情報まで流出した可能性がある。…"
+      "published": "2026-10-17T04:00:00",
+      "excerpt": "個人情報がダークWebに流出した場合、詐欺やアカウント乗っ取りに悪用されるリスクが高まる。ESETがダークWebでの流出が確認された場合の対処を解説した。"
     },
     {
-      "title": "エネルギー (およびトークン) 効率にとってハーネスが重要な理由",
-      "link": "https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-16T21:01:23",
-      "excerpt": "記事の URL: https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency コメント URL: https://news.ycombinator.…"
+      "title": "SES企業は「技術力」を自慢、でも“根拠”は曖昧だった――400社超の調査で判明",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/17/news009.html",
+      "source": "@IT",
+      "published": "2026-10-17T04:00:00",
+      "excerpt": "SES企業がエンジニアに経歴詐称を強いる問題が浮上する中、そもそも各社がエンジニアの技術力をどう評価し、育成しているのかは気になるところだ。だが、こうした取り組みを公式サイトで明記する企業は限られる。"
     },
     {
-      "title": "私の秘密をスキャンする統合を承認したことがありません",
-      "link": "https://github.com/home-assistant/home-assistant.io/issues/49314",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-16T20:33:41",
-      "excerpt": "記事の URL: https://github.com/home-assistant/home-assistant.io/issues/49314 コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "AI CSAMを作成する「thegentlemanpervert」はニュージャージー州の検察官であると警察が発表",
-      "link": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-10-16T20:20:07",
-      "excerpt": "Discord ユーザーが AI CSAM にフラグを立て、ニュージャージー州副 AG の逮捕を引き起こした。"
+      "title": "Cloudflare GatewayのForwardアクションで、許可したトラフィックにWorkerを挟む",
+      "link": "https://dev.classmethod.jp/articles/cloudflare-gateway-forward-worker/",
+      "source": "DevelopersIO",
+      "published": "2026-10-17T03:48:13",
+      "excerpt": "public betaとなったCloudflare GatewayのForwardアクションを公式ドキュメントで整理し、試しました。…"
     }
   ]
 }
