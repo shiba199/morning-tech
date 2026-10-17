@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T12:32:38",
+  "generated_at": "2026-10-17T16:01:00",
   "window_hours": 24,
   "total": 114,
   "topic_count": 5,
@@ -7,8 +7,15 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。さがらです。Looker Data Appsというプレビュー機能が登場しました。自然言語でアプリを指示するとAIがReactアプリを生成し、Lookerにホストしてくれるという優れた機能です。…",
+      "summary": "生成AIの新着が20件。変更履歴 2026-10-17：公開 2026-10-17：文言修正 初めに これから仕事で AgentCore に触れる機会がある。ただ、正直あまり知らない。…",
       "articles": [
+        {
+          "title": "インフラ屋が書く Amazon Bedrock AgentCore の主要機能を動かして確かめる（1）Runtime・Memory・Code Interpreter・Browser・Observability",
+          "link": "https://qiita.com/yuki_1012_1101/items/c1e625000df1b289dc49",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-17T13:21:08",
+          "excerpt": "変更履歴 2026-10-17：公開 2026-10-17：文言修正 初めに これから仕事で AgentCore に触れる機会がある。ただ、正直あまり知らない。…"
+        },
         {
           "title": "自然言語でLooker上にカスタムアプリを構築できる「Looker Data Apps」をClaude Codeから試してみた",
           "link": "https://dev.classmethod.jp/articles/looker-try-data-apps/",
@@ -17,117 +24,124 @@
           "excerpt": "さがらです。Looker Data Appsというプレビュー機能が登場しました。自然言語でアプリを指示するとAIがReactアプリを生成し、Lookerにホストしてくれるという優れた機能です。…"
         },
         {
+          "title": "AI感のないAWS構成図をAIエージェントに描かせる実践法",
+          "link": "https://zenn.dev/sunsun_eng/articles/aws-architecture-diagram-ai-agent",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-17T11:44:48",
+          "excerpt": "AI感のないAWS構成図をAIエージェントに描かせる実践法 AWS構成図をAIエージェントに描かせたら、なんとなく「AIっぽい」絵になった経験はないでしょうか。曖昧な矢印、崩れたアイコン、公式感のないデザイン。…"
+        },
+        {
           "title": "Claude Code v2.1.302 の主要アップデート - fork サブエージェントの既定有効化と claude -p の権限モード変更",
           "link": "https://dev.classmethod.jp/articles/20261017-cc-updates-v2-1-302/",
           "source": "DevelopersIO",
           "published": "2026-10-17T11:39:18",
           "excerpt": "Claude Code v2.1.302 がリリースされました。…"
-        },
-        {
-          "title": "「そもそも親にAIなんて必要ない」　65歳以上の生成AI利用、子世代の7割が拒否する理由",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/17/news007.html",
-          "source": "@IT",
-          "published": "2026-10-17T08:00:00",
-          "excerpt": "SHIFT AIが65歳以上の親を持つ全国の30～50代男女723人を対象とした「シニア×AIの意識調査」の結果を発表。親に生成AIを使ってほしくない子世代が69.…"
-        },
-        {
-          "title": "Anthropicの自己複製AIレポートを読む：小さなモデルはデータセンターなしでIoT機器を足場に自己複製できるのか",
-          "link": "https://dev.classmethod.jp/articles/anthropic-self-replicating-ai-iot-report/",
-          "source": "DevelopersIO",
-          "published": "2026-10-17T05:43:50",
-          "excerpt": "Anthropic Frontier Red Teamが2026年10月12日に公開した、小さなAIモデルがIoT機器を足場に自己複製できるかを調べたレポートを読みました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。マルチテナントの SaaS の dev 環境を、AWS 上に Terraform で組んでいます。アプリ側は TypeScript です。ある日の昼前、管理画面にログインできなくなりました。…",
+      "summary": "クラウドの新着が11件。AWSでMATLABを使いたいとき向けに動作確認したときの記録です。",
       "articles": [
         {
-          "title": "RDS のパスワード自動更新で ECS が落ちて、後回しにしていた RLS の対応をやった",
-          "link": "https://zenn.dev/kana001_bit/articles/rds-master-connection-rotation-rls",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-17T11:00:06",
-          "excerpt": "マルチテナントの SaaS の dev 環境を、AWS 上に Terraform で組んでいます。アプリ側は TypeScript です。ある日の昼前、管理画面にログインできなくなりました。…"
-        },
-        {
-          "title": "CVE-2026-99999（PwnEscape）はDockerやAWS ECSに影響する？構成別の判定まとめ",
-          "link": "https://qiita.com/Xim2jp/items/6afb445910d1d8ea4c09",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-17T10:41:08",
-          "excerpt": "この記事でわかること 2026年10月15日に公開されたLinuxカーネルの脆弱性 CVE-2026-99999（通称 PwnEscape）について、「自分の環境は影響を受けるのか」を構成ごとに判定できるよう整理しました。…"
-        },
-        {
-          "title": "EC2しか使えない環境で、コンテナ的に構築・運用する",
-          "link": "https://qiita.com/yutaka_kozuka/items/63cb382c1e3f60f7e92e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-17T08:53:54",
-          "excerpt": "はじめに 普段はECS、EKS、Lambdaをメインに使っており、EC2を本格的に運用する機会はほとんどありませんでした。しかし、制約により「EC2のみ使用可能」という条件での構築が必要になりました。…"
-        },
-        {
-          "title": "Slack通知のボタンから、Lambda経由でAWS DevOps Agentの調査を起動してみた",
-          "link": "https://dev.classmethod.jp/articles/hasuto-devops-agent-slack-button-lambda/",
+          "title": "Amazon DCV で接続した EC2 に MATLAB を GUI インストーラーで入れる手順",
+          "link": "https://dev.classmethod.jp/articles/matlab-ec2-install-gui-dcv/",
           "source": "DevelopersIO",
-          "published": "2026-10-17T02:32:12",
-          "excerpt": "Slackのアラーム通知にAmazon Qのカスタムアクションでボタンを付け、押したときだけLambda経由でAWS DevOps Agentの調査を起動する構成を作りました。…"
+          "published": "2026-10-17T13:56:13",
+          "excerpt": "AWSでMATLABを使いたいとき向けに動作確認したときの記録です。"
+        },
+        {
+          "title": "インフラ屋が書く Amazon Bedrock AgentCore の主要機能を動かして確かめる（1）Runtime・Memory・Code Interpreter・Browser・Observability",
+          "link": "https://qiita.com/yuki_1012_1101/items/c1e625000df1b289dc49",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-17T13:21:08",
+          "excerpt": "変更履歴 2026-10-17：公開 2026-10-17：文言修正 初めに これから仕事で AgentCore に触れる機会がある。ただ、正直あまり知らない。…"
+        },
+        {
+          "title": "EFSからS3へ移行してコスト92%削減、金額にして年1.19ドル。それでも移行した理由",
+          "link": "https://qiita.com/zucky-quest/items/62602d395a04cc675b6c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-17T13:20:15",
+          "excerpt": "TL;DR 機械学習（ML）バッチの共有ストレージを EFS から S3 へ移行しました。ストレージ単価は 14.4 倍差、月額は 92% 減です ところが削減額を実測すると年 1.19 ドルでした。…"
+        },
+        {
+          "title": "Chapter 6｜第68回 VPNやProxyからZscalerへ移行するとき、何が難しい？ | APC 技術ブログ",
+          "link": "https://techblog.ap-com.co.jp/entry/2026/10/17/213906",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-17T12:39:06",
+          "excerpt": "「いまのVPNをZPAへ置き換える」 「いまのProxyをZIAへ切り替える」 言葉だけなら、とても単純に聞こえます。しかし既存のVPNやProxyは、長年の運用の中で多くのRule、例外、業務依存を抱えています。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。この記事でわかること 2026年10月15日に公開されたLinuxカーネルの脆弱性 CVE-2026-99999（通称 PwnEscape）について、「自分の環境は影響を受けるのか」を構成ごとに判定できるよう整理しました。…",
+      "summary": "セキュリティの新着が7件。悪意のある攻撃者がLinuxの仮想マシンを不正に操作することで、仮想マシンの境界を抜けてホスト側のLinux OSで不正なコードを実行できる可能性がある脆弱性「PwnEscape」（CVE-2026-99999）の情報が公開されています。.…",
       "articles": [
+        {
+          "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性",
+          "link": "https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html",
+          "source": "Publickey",
+          "published": "2026-10-17T15:27:18",
+          "excerpt": "悪意のある攻撃者がLinuxの仮想マシンを不正に操作することで、仮想マシンの境界を抜けてホスト側のLinux OSで不正なコードを実行できる可能性がある脆弱性「PwnEscape」（CVE-2026-99999）の情報が公開されています。.…"
+        },
+        {
+          "title": "AWS初心者が0円で本番環境を作れるようになるまで #1【IAM編】ルートユーザーを卒業して作業用IAMユーザーを作る",
+          "link": "https://qiita.com/matrin/items/649fed8ee01a4f134f5a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-17T12:56:45",
+          "excerpt": "AWS初心者が0円で本番環境を作れるようになるまで #1【IAM編】ルートユーザーを卒業して作業用IAMユーザーを作る はじめに AWSの資格（CLF / SAA / SOA）は取ったものの、マネジメントコンソール（以下「マネコン」）はほと…"
+        },
+        {
+          "title": "Chapter 6｜第70回 「セキュリティを強くすればよい」ではない？利便性とのバランス | APC 技術ブログ",
+          "link": "https://techblog.ap-com.co.jp/entry/2026/10/17/213912",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-17T12:39:12",
+          "excerpt": "「Securityを強くするなら、できるだけ多くBlockすればよい」 一見すると正しそうです。しかし、業務で必要なApplicationまで使いにくくなれば、Userは別の方法を探したり、問い合わせが増えたりします。…"
+        },
         {
           "title": "CVE-2026-99999（PwnEscape）はDockerやAWS ECSに影響する？構成別の判定まとめ",
           "link": "https://qiita.com/Xim2jp/items/6afb445910d1d8ea4c09",
           "source": "Qiita AWSタグ",
           "published": "2026-10-17T10:41:08",
           "excerpt": "この記事でわかること 2026年10月15日に公開されたLinuxカーネルの脆弱性 CVE-2026-99999（通称 PwnEscape）について、「自分の環境は影響を受けるのか」を構成ごとに判定できるよう整理しました。…"
-        },
-        {
-          "title": "ソースネクスト　暗号化されていないパスワードが流出した理由とは（山口健太） - エキスパート - Yahoo!ニュース",
-          "link": "https://news.yahoo.co.jp/expert/articles/b3e710c60d79d276a00321906fa87ac9243f5530",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-17T08:05:29",
-          "excerpt": "ソースネクストへの不正アクセスで会員情報が流出した問題では、「暗号化がない状態のパスワード」が含まれていたことをNHKなどが報じており、注目を集めています。どのような方式でパスワードを管理していたのか、運営会社に聞いてみました。…"
-        },
-        {
-          "title": "Claude CodeのCVE-2026-86063を手元で確かめる。git checkoutはコミットSHAより同名ブランチを優先する",
-          "link": "https://dev.classmethod.jp/articles/claude-code-plugin-sha-pin-bypass/",
-          "source": "DevelopersIO",
-          "published": "2026-10-16T17:26:05",
-          "excerpt": "Claude Codeのプラグイン導入でコミットSHAの固定をすり抜けられた問題を、空コミットだけのローカルリポジトリで確かめました。git checkoutが同名ブランチを優先する仕組みと、SHA固定の取得を安全に書く方法を整理します。"
-        },
-        {
-          "title": "AWS セキュリティ速報 2026-137-AWS（CVE-2026-99999）は通常の EC2 は対象外。影響範囲を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-security-bulletin-2026-137-kvm-kernel/",
-          "source": "DevelopersIO",
-          "published": "2026-10-16T16:47:32",
-          "excerpt": "CVE-2026-99999 の対象を整理しました。EC2、Lambda、Fargate は対象外で、影響を受けるのは KVM を自己管理するホストです。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が1件。避けられない選挙をテーマにしたサイバー攻撃が再び渦巻いている、連邦政府が警戒すべきサイバー攻撃についてPSAを発行",
+      "summary": "データ分析の新着が2件。変更履歴 2026-10-17：公開 2026-10-17：文言修正 初めに これから仕事で AgentCore に触れる機会がある。ただ、正直あまり知らない。…",
       "articles": [
         {
-          "title": "詐欺おじさんがあなたに現金と個人データを吐き出させようとしている、FBIが中間選挙を前に警告",
-          "link": "https://www.theregister.com/cyber-crime/2026/10/16/uncle-scam-wants-you-to-cough-up-your-cash-and-personal-data-fbi-warns-ahead-of-midterms/5303512",
-          "source": "The Register（英語）",
-          "published": "2026-10-16T14:30:00",
-          "excerpt": "避けられない選挙をテーマにしたサイバー攻撃が再び渦巻いている、連邦政府が警戒すべきサイバー攻撃についてPSAを発行"
+          "title": "インフラ屋が書く Amazon Bedrock AgentCore の主要機能を動かして確かめる（1）Runtime・Memory・Code Interpreter・Browser・Observability",
+          "link": "https://qiita.com/yuki_1012_1101/items/c1e625000df1b289dc49",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-17T13:21:08",
+          "excerpt": "変更履歴 2026-10-17：公開 2026-10-17：文言修正 初めに これから仕事で AgentCore に触れる機会がある。ただ、正直あまり知らない。…"
+        },
+        {
+          "title": "BioWare の NeverWinter Nights に今でも数千人のアクティブプレイヤーがいる理由",
+          "link": "https://arstechnica.com/gaming/2026/10/why-biowares-neverwinter-nights-still-has-thousands-of-active-players/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-10-17T11:00:21",
+          "excerpt": "シングルプレイヤーでも問題ありませんが、プレイヤーによると、それは問題ではありません。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。RDSを本当に完成させる！ここまで、AWSのネットワークからアプリケーション、そしてRDSまで、一つずつTerraformで作ってきた。…",
+      "summary": "開発ツールの新着が6件。Client Connectorを100台、1,000台、1万台へ入れるとき、単に「Installできれば終わり」でしょうか。…",
       "articles": [
+        {
+          "title": "Chapter 6｜第66回 Client Connectorの展開では何を考える？ | APC 技術ブログ",
+          "link": "https://techblog.ap-com.co.jp/entry/2026/10/17/213859",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-17T12:38:59",
+          "excerpt": "Client Connectorを100台、1,000台、1万台へ入れるとき、単に「Installできれば終わり」でしょうか。…"
+        },
         {
           "title": "第16回 Terraform講座",
           "link": "https://qiita.com/nyarusasu22/items/fd8217b318135c7aa980",
@@ -148,45 +162,38 @@
           "source": "CodeZine",
           "published": "2026-10-17T08:00:00",
           "excerpt": "GitHub、プルリクエスト向け「AI Scan」を一般提供"
-        },
-        {
-          "title": "pre-commit と gitleaks でシークレットのコミットを止める",
-          "link": "https://dev.classmethod.jp/articles/precommit-gitleaks-secret/",
-          "source": "DevelopersIO",
-          "published": "2026-10-17T06:53:39",
-          "excerpt": "AI エージェントが生成したコードにシークレットが混ざることがあります。pre-commit と gitleaks で、コミット直前に検出して止める仕組みを検証しました。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS MLA試験対策 サービス用語整理",
-      "link": "https://qiita.com/Kagesyu/items/3e1fcbc05613154ed27f",
+      "title": "【合格体験記】Beta - AWS Certified AI Business Strategistに合格しました(2026/10/09)【AB1-C01,AIB-C01】",
+      "link": "https://qiita.com/ss_IT_study/items/51b7092f6fac9d02a4b9",
       "source": "Qiita AWSタグ",
-      "published": "2026-10-17T11:42:26",
-      "excerpt": "イントロダクション 今回はAWS MLA試験に出題する用語についてについて子供にでもわかるように学校をイメージして解説します。参考記事として以下を参照致します。https://qiita.…"
+      "published": "2026-10-17T15:42:41",
+      "excerpt": "目次 #1.はじめに #2.前提 #3.学習内容 #4.試験当日 #5.あとがき 1.はじめに 題名の通り、Beta - AWS Certified AI Business Strategistに合格しました。…"
     },
     {
-      "title": "サイバー犯罪はデータを盗むだけでなく、物理的な建物システムを攻撃します。",
-      "link": "https://www.theregister.com/security/2026/10/17/cybercrims-go-beyond-stealing-data-to-attack-physical-building-systems/5303677",
-      "source": "The Register（英語）",
-      "published": "2026-10-17T11:30:00",
-      "excerpt": "「ビールを待って、オフィスに入るのを楽しんでください」"
+      "title": "Ember の新しい温度制御マグカップで、夜のお茶の習慣がさらに良くなります",
+      "link": "https://techcrunch.com/2026/10/17/embers-new-temperature-controlled-mug-makes-my-nightly-tea-ritual-even-better/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-17T15:30:00",
+      "excerpt": "Ember の新しいマグカップの最大の変更点は、飲み物の温度を調整するためにアプリを開く必要がなくなったことです。"
     },
     {
-      "title": "『AIとはじめるAWS設計・構築』というタイトルで SAPPORO ENGINEER BASE #17 クラウド で登壇しました #seb_sapporo",
-      "link": "https://dev.classmethod.jp/articles/sapporo-engineer-base-17-ai-aws/",
+      "title": "アドテク会社は「傭兵スパイウェア」の配信システムだった",
+      "link": "https://pluralistic.net/2026/10/17/mercenary-spyware/#discover-tech",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-17T15:17:32",
+      "excerpt": "記事の URL: https://pluralistic.net/2026/10/17/mercenary-spyware/#discover-tech コメント URL: https://news.ycombinator.…"
+    },
+    {
+      "title": "JavaScriptの非同期処理はepollで成り立っているのか、Node.js、Deno、Bunそれぞれで覗いてみた",
+      "link": "https://dev.classmethod.jp/articles/hasuto-js-async-epoll-node-deno-bun/",
       "source": "DevelopersIO",
-      "published": "2026-10-17T10:51:12",
-      "excerpt": "おしゃカフェで登壇しました"
-    },
-    {
-      "title": "Contentful Appから外部APIを呼ぶと遅い？App Action経由の約3秒を署名付きリクエストで約1秒にした",
-      "link": "https://dev.classmethod.jp/articles/contentful-app-signed-request/",
-      "source": "DevelopersIO",
-      "published": "2026-10-17T10:51:06",
-      "excerpt": "DevelopersIO のタグ推薦機能を Clef に切り替えたら、API単体では高速化したのに CMS画面では逆に遅くなってしまいました。その原因と解決方法の記事です。"
+      "published": "2026-10-17T14:55:39",
+      "excerpt": "Node.js、Deno、Bunをstraceし、非同期処理がLinuxのepollで待っているかを比べました。…"
     }
   ]
 }
