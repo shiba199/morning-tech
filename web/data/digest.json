@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-10-17T08:54:10",
+  "generated_at": "2026-10-17T12:32:38",
   "window_hours": 24,
-  "total": 120,
+  "total": 114,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。SHIFT AIが65歳以上の親を持つ全国の30～50代男女723人を対象とした「シニア×AIの意識調査」の結果を発表。親に生成AIを使ってほしくない子世代が69.…",
+      "summary": "生成AIの新着が22件。さがらです。Looker Data Appsというプレビュー機能が登場しました。自然言語でアプリを指示するとAIがReactアプリを生成し、Lookerにホストしてくれるという優れた機能です。…",
       "articles": [
+        {
+          "title": "自然言語でLooker上にカスタムアプリを構築できる「Looker Data Apps」をClaude Codeから試してみた",
+          "link": "https://dev.classmethod.jp/articles/looker-try-data-apps/",
+          "source": "DevelopersIO",
+          "published": "2026-10-17T12:29:54",
+          "excerpt": "さがらです。Looker Data Appsというプレビュー機能が登場しました。自然言語でアプリを指示するとAIがReactアプリを生成し、Lookerにホストしてくれるという優れた機能です。…"
+        },
+        {
+          "title": "Claude Code v2.1.302 の主要アップデート - fork サブエージェントの既定有効化と claude -p の権限モード変更",
+          "link": "https://dev.classmethod.jp/articles/20261017-cc-updates-v2-1-302/",
+          "source": "DevelopersIO",
+          "published": "2026-10-17T11:39:18",
+          "excerpt": "Claude Code v2.1.302 がリリースされました。…"
+        },
         {
           "title": "「そもそも親にAIなんて必要ない」　65歳以上の生成AI利用、子世代の7割が拒否する理由",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/17/news007.html",
@@ -22,28 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-10-17T05:43:50",
           "excerpt": "Anthropic Frontier Red Teamが2026年10月12日に公開した、小さなAIモデルがIoT機器を足場に自己複製できるかを調べたレポートを読みました。…"
-        },
-        {
-          "title": "HN を表示: Llmspeed – ハードウェアを購入する前に、ローカル LLM がどれだけ速く動作するかを確認してください",
-          "link": "https://llmspeed.dev/",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-17T04:36:53",
-          "excerpt": "記事の URL: https://llmspeed.dev/ コメント URL: https://news.ycombinator.com/item?id=50127979 ポイント: 52 コメント数: 21"
-        },
-        {
-          "title": "AWS Agent Registry、レジストリレコードのカスタムメタデータに対応",
-          "link": "https://codezine.jp/article/detail/30044",
-          "source": "CodeZine",
-          "published": "2026-10-17T04:00:00",
-          "excerpt": "AWS Agent Registry、レジストリレコードのカスタムメタデータに対応"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。はじめに 普段はECS、EKS、Lambdaをメインに使っており、EC2を本格的に運用する機会はほとんどありませんでした。しかし、制約により「EC2のみ使用可能」という条件での構築が必要になりました。…",
+      "summary": "クラウドの新着が9件。マルチテナントの SaaS の dev 環境を、AWS 上に Terraform で組んでいます。アプリ側は TypeScript です。ある日の昼前、管理画面にログインできなくなりました。…",
       "articles": [
+        {
+          "title": "RDS のパスワード自動更新で ECS が落ちて、後回しにしていた RLS の対応をやった",
+          "link": "https://zenn.dev/kana001_bit/articles/rds-master-connection-rotation-rls",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-17T11:00:06",
+          "excerpt": "マルチテナントの SaaS の dev 環境を、AWS 上に Terraform で組んでいます。アプリ側は TypeScript です。ある日の昼前、管理画面にログインできなくなりました。…"
+        },
+        {
+          "title": "CVE-2026-99999（PwnEscape）はDockerやAWS ECSに影響する？構成別の判定まとめ",
+          "link": "https://qiita.com/Xim2jp/items/6afb445910d1d8ea4c09",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-17T10:41:08",
+          "excerpt": "この記事でわかること 2026年10月15日に公開されたLinuxカーネルの脆弱性 CVE-2026-99999（通称 PwnEscape）について、「自分の環境は影響を受けるのか」を構成ごとに判定できるよう整理しました。…"
+        },
         {
           "title": "EC2しか使えない環境で、コンテナ的に構築・運用する",
           "link": "https://qiita.com/yutaka_kozuka/items/63cb382c1e3f60f7e92e",
@@ -57,28 +71,28 @@
           "source": "DevelopersIO",
           "published": "2026-10-17T02:32:12",
           "excerpt": "Slackのアラーム通知にAmazon Qのカスタムアクションでボタンを付け、押したときだけLambda経由でAWS DevOps Agentの調査を起動する構成を作りました。…"
-        },
-        {
-          "title": "AWS Lambda 永続関数が AWS GovCloud (米国) リージョンで利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-16T18:26:00",
-          "excerpt": "AWS Lambda 永続関数が AWS GovCloud (米国西部) および AWS GovCloud (米国東部) リージョンで利用できるようになりました。…"
-        },
-        {
-          "title": "インフラ屋が書く Lambda Web Functions：API Gateway＋Lambda を置き換えるか、動かして判断する",
-          "link": "https://qiita.com/yuki_1012_1101/items/793368a704ff47e7a348",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-16T18:04:45",
-          "excerpt": "変更履歴 2026-10-17：公開 初めに Lambda に Web Functions（Lambda で普通の HTTP サーバーが動く機能）が来た。最初に浮かんだのは「API Gateway、もう要らないのでは？」という疑問。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。Claude Codeのプラグイン導入でコミットSHAの固定をすり抜けられた問題を、空コミットだけのローカルリポジトリで確かめました。git checkoutが同名ブランチを優先する仕組みと、SHA固定の取得を安全に書く方法を整理します。",
+      "summary": "セキュリティの新着が5件。この記事でわかること 2026年10月15日に公開されたLinuxカーネルの脆弱性 CVE-2026-99999（通称 PwnEscape）について、「自分の環境は影響を受けるのか」を構成ごとに判定できるよう整理しました。…",
       "articles": [
+        {
+          "title": "CVE-2026-99999（PwnEscape）はDockerやAWS ECSに影響する？構成別の判定まとめ",
+          "link": "https://qiita.com/Xim2jp/items/6afb445910d1d8ea4c09",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-17T10:41:08",
+          "excerpt": "この記事でわかること 2026年10月15日に公開されたLinuxカーネルの脆弱性 CVE-2026-99999（通称 PwnEscape）について、「自分の環境は影響を受けるのか」を構成ごとに判定できるよう整理しました。…"
+        },
+        {
+          "title": "ソースネクスト　暗号化されていないパスワードが流出した理由とは（山口健太） - エキスパート - Yahoo!ニュース",
+          "link": "https://news.yahoo.co.jp/expert/articles/b3e710c60d79d276a00321906fa87ac9243f5530",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-10-17T08:05:29",
+          "excerpt": "ソースネクストへの不正アクセスで会員情報が流出した問題では、「暗号化がない状態のパスワード」が含まれていたことをNHKなどが報じており、注目を集めています。どのような方式でパスワードを管理していたのか、運営会社に聞いてみました。…"
+        },
         {
           "title": "Claude CodeのCVE-2026-86063を手元で確かめる。git checkoutはコミットSHAより同名ブランチを優先する",
           "link": "https://dev.classmethod.jp/articles/claude-code-plugin-sha-pin-bypass/",
@@ -92,20 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-10-16T16:47:32",
           "excerpt": "CVE-2026-99999 の対象を整理しました。EC2、Lambda、Fargate は対象外で、影響を受けるのは KVM を自己管理するホストです。…"
-        },
-        {
-          "title": "CVE-2026-99999（PwnEscape）を読み解く──「KVMの脆弱性」ではなく、Linuxネットワークスタックの脆弱性",
-          "link": "https://qiita.com/k2_naka/items/fa87685231377f15e7e3",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-16T12:48:39",
-          "excerpt": "工程 担当 課題提示・取捨選択・内容チェック 筆者 原案作成・編成 Claude Fable 5.1 事実検証（検証メモ） GPT-6 Astra 一次資料照合・最終稿 Claude Fable 5.…"
-        },
-        {
-          "title": "AI チャットをプライベートに保ちたいですか? Brave TEE によるエンドツーエンド暗号化",
-          "link": "https://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462",
-          "source": "The Register（英語）",
-          "published": "2026-10-16T12:15:00",
-          "excerpt": "信頼できるハードウェアを使用して GLM 5.3 Flash との会話を保護するブラウザ メーカー"
         }
       ]
     },
@@ -126,8 +126,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。GitHub、プルリクエスト向け「AI Scan」を一般提供",
+      "summary": "開発ツールの新着が7件。RDSを本当に完成させる！ここまで、AWSのネットワークからアプリケーション、そしてRDSまで、一つずつTerraformで作ってきた。…",
       "articles": [
+        {
+          "title": "第16回 Terraform講座",
+          "link": "https://qiita.com/nyarusasu22/items/fd8217b318135c7aa980",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-17T09:48:44",
+          "excerpt": "RDSを本当に完成させる！ここまで、AWSのネットワークからアプリケーション、そしてRDSまで、一つずつTerraformで作ってきた。…"
+        },
+        {
+          "title": "GitHub Copilotはどう使われている？OpenTelemetryで見える組織の利用実態 | Alternative Architecture DOJO",
+          "link": "https://aadojo.alterbooth.com/entry/2026/10/17/182558",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-17T09:25:58",
+          "excerpt": "GitHub Copilotでは、AIエージェントに実装や修正を任せる機会も増えています。企業での利用が広がるほど、「どのモデルが使われたのか」「開発者は何を依頼し、どんな回答を得たのか」が気になるところです。…"
+        },
         {
           "title": "GitHub、プルリクエスト向け「AI Scan」を一般提供",
           "link": "https://codezine.jp/article/detail/30045",
@@ -141,52 +155,38 @@
           "source": "DevelopersIO",
           "published": "2026-10-17T06:53:39",
           "excerpt": "AI エージェントが生成したコードにシークレットが混ざることがあります。pre-commit と gitleaks で、コミット直前に検出して止める仕組みを検証しました。"
-        },
-        {
-          "title": "Claude CodeのCVE-2026-86063を手元で確かめる。git checkoutはコミットSHAより同名ブランチを優先する",
-          "link": "https://dev.classmethod.jp/articles/claude-code-plugin-sha-pin-bypass/",
-          "source": "DevelopersIO",
-          "published": "2026-10-16T17:26:05",
-          "excerpt": "Claude Codeのプラグイン導入でコミットSHAの固定をすり抜けられた問題を、空コミットだけのローカルリポジトリで確かめました。git checkoutが同名ブランチを優先する仕組みと、SHA固定の取得を安全に書く方法を整理します。"
-        },
-        {
-          "title": "Docker入門：イメージ・コンテナ・Composeから本番デプロイまで整理する",
-          "link": "https://zenn.dev/nu0044/articles/jaehong-docker-fundamentals-guide",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-16T15:20:50",
-          "excerpt": "チーム開発でDockerを使っていても、docker compose upを実行するツールという理解だけでは、イメージとコンテナの違いやデプロイで使う理由が分かりにくいことがあります。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【IT業界25年目】ADHDポンコ鬱エンジニアが人生賭けて運営中の求人サービス『ヴェテラン』では絶対に避けたいので考えた「なぜ情報漏洩はなくならないのか？」",
-      "link": "https://qiita.com/Veteran/items/d4e62ddbf3fee23b4daa",
+      "title": "AWS MLA試験対策 サービス用語整理",
+      "link": "https://qiita.com/Kagesyu/items/3e1fcbc05613154ed27f",
       "source": "Qiita AWSタグ",
-      "published": "2026-10-17T08:27:55",
-      "excerpt": "皆さん、こんにちは！先週まで半袖で生活していましたが、すれ違う人に変な目で見られる様になったので ようやく衣替えをしました。ポンコツエンジニアのGONです！最近は秋晴れといった感じの気候が続き過ごしやすいですね。…"
+      "published": "2026-10-17T11:42:26",
+      "excerpt": "イントロダクション 今回はAWS MLA試験に出題する用語についてについて子供にでもわかるように学校をイメージして解説します。参考記事として以下を参照致します。https://qiita.…"
     },
     {
-      "title": "ゴミ箱に入れてください！英国宇宙庁、デブリ除去ミッションの名前を一般公開したい",
-      "link": "https://www.theregister.com/science/2026/10/17/get-in-the-bin-uk-space-agency-wants-public-to-name-its-debris-removal-mission/5303555",
+      "title": "サイバー犯罪はデータを盗むだけでなく、物理的な建物システムを攻撃します。",
+      "link": "https://www.theregister.com/security/2026/10/17/cybercrims-go-beyond-stealing-data-to-attack-physical-building-systems/5303677",
       "source": "The Register（英語）",
-      "published": "2026-10-17T07:29:00",
-      "excerpt": "ClearSpace UKは2029年の運用開始を目指しており、宇宙船の側面には一般からの提案が刻まれている"
+      "published": "2026-10-17T11:30:00",
+      "excerpt": "「ビールを待って、オフィスに入るのを楽しんでください」"
     },
     {
-      "title": "iOSアプリ開発の気になる変更まとめ（2026/10/17）：Xcode 27.1正式リリース、App Review Guidelines改定ほか",
-      "link": "https://dev.classmethod.jp/articles/ios-dev-weekly-changes-20261017/",
+      "title": "『AIとはじめるAWS設計・構築』というタイトルで SAPPORO ENGINEER BASE #17 クラウド で登壇しました #seb_sapporo",
+      "link": "https://dev.classmethod.jp/articles/sapporo-engineer-base-17-ai-aws/",
       "source": "DevelopersIO",
-      "published": "2026-10-17T07:20:54",
-      "excerpt": "Xcode 27.1の正式リリースとApp Review Guidelinesの改定、iOS 27.2 Beta 4・Xcode 27.2 Beta 3の変更点を整理した。…"
+      "published": "2026-10-17T10:51:12",
+      "excerpt": "おしゃカフェで登壇しました"
     },
     {
-      "title": "AWS閉鎖網+Snowflake タイムトラベルの有用性",
-      "link": "https://qiita.com/Cache-Hit/items/b9d463637eadb68f0de8",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-17T05:21:10",
-      "excerpt": "この構成の続きです。・構成 https://qiita.…"
+      "title": "Contentful Appから外部APIを呼ぶと遅い？App Action経由の約3秒を署名付きリクエストで約1秒にした",
+      "link": "https://dev.classmethod.jp/articles/contentful-app-signed-request/",
+      "source": "DevelopersIO",
+      "published": "2026-10-17T10:51:06",
+      "excerpt": "DevelopersIO のタグ推薦機能を Clef に切り替えたら、API単体では高速化したのに CMS画面では逆に遅くなってしまいました。その原因と解決方法の記事です。"
     }
   ]
 }
