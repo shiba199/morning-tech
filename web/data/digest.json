@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-10-17T16:01:00",
+  "generated_at": "2026-10-17T18:15:35",
   "window_hours": 24,
-  "total": 114,
+  "total": 103,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。変更履歴 2026-10-17：公開 2026-10-17：文言修正 初めに これから仕事で AgentCore に触れる機会がある。ただ、正直あまり知らない。…",
+      "summary": "生成AIの新着が17件。記事の URL: https://fortune.…",
       "articles": [
+        {
+          "title": "OpenAI、さらに4件の不正事件を公開",
+          "link": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-17T16:31:12",
+          "excerpt": "記事の URL: https://fortune.…"
+        },
         {
           "title": "インフラ屋が書く Amazon Bedrock AgentCore の主要機能を動かして確かめる（1）Runtime・Memory・Code Interpreter・Browser・Observability",
           "link": "https://qiita.com/yuki_1012_1101/items/c1e625000df1b289dc49",
@@ -29,20 +36,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-10-17T11:44:48",
           "excerpt": "AI感のないAWS構成図をAIエージェントに描かせる実践法 AWS構成図をAIエージェントに描かせたら、なんとなく「AIっぽい」絵になった経験はないでしょうか。曖昧な矢印、崩れたアイコン、公式感のないデザイン。…"
-        },
-        {
-          "title": "Claude Code v2.1.302 の主要アップデート - fork サブエージェントの既定有効化と claude -p の権限モード変更",
-          "link": "https://dev.classmethod.jp/articles/20261017-cc-updates-v2-1-302/",
-          "source": "DevelopersIO",
-          "published": "2026-10-17T11:39:18",
-          "excerpt": "Claude Code v2.1.302 がリリースされました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。AWSでMATLABを使いたいとき向けに動作確認したときの記録です。",
+      "summary": "クラウドの新着が9件。AWSでMATLABを使いたいとき向けに動作確認したときの記録です。",
       "articles": [
         {
           "title": "Amazon DCV で接続した EC2 に MATLAB を GUI インストーラーで入れる手順",
@@ -77,7 +77,7 @@
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。悪意のある攻撃者がLinuxの仮想マシンを不正に操作することで、仮想マシンの境界を抜けてホスト側のLinux OSで不正なコードを実行できる可能性がある脆弱性「PwnEscape」（CVE-2026-99999）の情報が公開されています。.…",
+      "summary": "セキュリティの新着が5件。悪意のある攻撃者がLinuxの仮想マシンを不正に操作することで、仮想マシンの境界を抜けてホスト側のLinux OSで不正なコードを実行できる可能性がある脆弱性「PwnEscape」（CVE-2026-99999）の情報が公開されています。.…",
       "articles": [
         {
           "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性",
@@ -150,50 +150,50 @@
           "excerpt": "RDSを本当に完成させる！ここまで、AWSのネットワークからアプリケーション、そしてRDSまで、一つずつTerraformで作ってきた。…"
         },
         {
+          "title": "すべてのAIコーディングエージェントのコストを閲覧・検索・追跡しローカルで動作する「AgentsView」、Claude Code・Codex・Cursor・Copilot・Geminiなど60種類以上のエージェントを自動検出し全文検索も可能",
+          "link": "https://gigazine.net/news/20261017-agentsview/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-10-17T09:27:07",
+          "excerpt": "Claude CodeやCodexなどを並行して利用すると、どのAIコーディングエージェントやモデルへどれだけトークンを使ったのか全体像を把握しにくくなります。…"
+        },
+        {
           "title": "GitHub Copilotはどう使われている？OpenTelemetryで見える組織の利用実態 | Alternative Architecture DOJO",
           "link": "https://aadojo.alterbooth.com/entry/2026/10/17/182558",
           "source": "企業テックブログまとめ",
           "published": "2026-10-17T09:25:58",
           "excerpt": "GitHub Copilotでは、AIエージェントに実装や修正を任せる機会も増えています。企業での利用が広がるほど、「どのモデルが使われたのか」「開発者は何を依頼し、どんな回答を得たのか」が気になるところです。…"
-        },
-        {
-          "title": "GitHub、プルリクエスト向け「AI Scan」を一般提供",
-          "link": "https://codezine.jp/article/detail/30045",
-          "source": "CodeZine",
-          "published": "2026-10-17T08:00:00",
-          "excerpt": "GitHub、プルリクエスト向け「AI Scan」を一般提供"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【合格体験記】Beta - AWS Certified AI Business Strategistに合格しました(2026/10/09)【AB1-C01,AIB-C01】",
-      "link": "https://qiita.com/ss_IT_study/items/51b7092f6fac9d02a4b9",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-17T15:42:41",
-      "excerpt": "目次 #1.はじめに #2.前提 #3.学習内容 #4.試験当日 #5.あとがき 1.はじめに 題名の通り、Beta - AWS Certified AI Business Strategistに合格しました。…"
-    },
-    {
-      "title": "Ember の新しい温度制御マグカップで、夜のお茶の習慣がさらに良くなります",
-      "link": "https://techcrunch.com/2026/10/17/embers-new-temperature-controlled-mug-makes-my-nightly-tea-ritual-even-better/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-17T15:30:00",
-      "excerpt": "Ember の新しいマグカップの最大の変更点は、飲み物の温度を調整するためにアプリを開く必要がなくなったことです。"
-    },
-    {
-      "title": "アドテク会社は「傭兵スパイウェア」の配信システムだった",
-      "link": "https://pluralistic.net/2026/10/17/mercenary-spyware/#discover-tech",
+      "title": "時間の経過とともにリリースごとに修正された Linux のバグ: 2026 年 4 月以降、2 倍以上増加",
+      "link": "https://lwn.net/Articles/1088776/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-17T15:17:32",
-      "excerpt": "記事の URL: https://pluralistic.net/2026/10/17/mercenary-spyware/#discover-tech コメント URL: https://news.ycombinator.…"
+      "published": "2026-10-17T17:14:12",
+      "excerpt": "記事の URL: https://lwn.net/Articles/1088776/ コメント URL: https://news.ycombinator.com/item?id=50132950 ポイント: 36 コメント数: 8"
     },
     {
-      "title": "JavaScriptの非同期処理はepollで成り立っているのか、Node.js、Deno、Bunそれぞれで覗いてみた",
-      "link": "https://dev.classmethod.jp/articles/hasuto-js-async-epoll-node-deno-bun/",
-      "source": "DevelopersIO",
-      "published": "2026-10-17T14:55:39",
-      "excerpt": "Node.js、Deno、Bunをstraceし、非同期処理がLinuxのepollで待っているかを比べました。…"
+      "title": "Artie (YC S23) はエンタープライズ AES およびシニア エンジニアを募集しています",
+      "link": "https://www.artie.com/careers",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-17T17:02:50",
+      "excerpt": "記事の URL: https://www.artie.com/careers コメント URL: https://news.ycombinator.com/item?id=50132839 ポイント: 0 コメント数: 0"
+    },
+    {
+      "title": "GLP-1は生物学的老化を遅らせる可能性がある",
+      "link": "https://www.universityofcalifornia.edu/news/new-study-shows-popular-glp-1-weight-loss-drug-may-slow-biological-aging",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-17T16:10:21",
+      "excerpt": "記事の URL: https://www.universityofcalifornia.…"
+    },
+    {
+      "title": "アマゾン、AIを活用して英国の倉庫における組合リスクを監視",
+      "link": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-17T16:04:23",
+      "excerpt": "記事の URL: https://www.opendemocracy.…"
     }
   ]
 }
