@@ -1,119 +1,133 @@
 {
-  "generated_at": "2026-10-19T02:11:59",
+  "generated_at": "2026-10-19T07:57:23",
   "window_hours": 24,
-  "total": 120,
+  "total": 153,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が24件。TL;DR 本番DBの障害調査を「調査できますか」の一言で任せたところ、原因特定から修正まで完遂した 見る指標や遡る期間は指定していないため、どう判断したのかを聞き返して型として取り出した 出てきたのは「日次の最小値の形で慢性と急性を切り分…",
+      "summary": "生成AIの新着が27件。週刊生成AI with AWS, 国内事例が 5 件そろった2026年10月12日号 - ソニー銀行様、日本通運様、東京会計パートナーズ様、エナリス様、インフキュリオン様の国内事例ブログを紹介。…",
       "articles": [
         {
-          "title": "LLMの思考過程から学ぶ、障害時の原因特定に役立つ４つの観点",
-          "link": "https://qiita.com/mmoriastron/items/2469a511cb5084cc465c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-19T01:14:17",
-          "excerpt": "TL;DR 本番DBの障害調査を「調査できますか」の一言で任せたところ、原因特定から修正まで完遂した 見る指標や遡る期間は指定していないため、どう判断したのかを聞き返して型として取り出した 出てきたのは「日次の最小値の形で慢性と急性を切り分…"
-        },
-        {
-          "title": "Anthropic、株式の5％を公益目的の新組織に拠出　企業価値の上昇に応じて割合を拡大",
-          "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002359/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-19T00:38:54",
-          "excerpt": "Anthropicは、自社株の一部を新組織「Anthropic Public Benefit Fund」に拠出すると発表した。まず株式の5％を拠出し、企業価値の上昇に応じて追加する。…"
-        },
-        {
-          "title": "Amazon Bedrock における最小権限アクセスの実装",
-          "link": "https://aws.amazon.com/jp/blogs/news/implementing-least-privilege-access-for-amazon-bedrock/",
+          "title": "週刊生成AI with AWS – 2026年10月12日週",
+          "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20261012/",
           "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-19T00:08:27",
-          "excerpt": "生成 AI アプリケーションでは、Amazon Bedrock や大規模言語モデル (LLM) などを組み合わせるため、さまざまなレベルでのアクセスコントロールが欠かせません。…"
+          "published": "2026-10-19T07:36:35",
+          "excerpt": "週刊生成AI with AWS, 国内事例が 5 件そろった2026年10月12日号 - ソニー銀行様、日本通運様、東京会計パートナーズ様、エナリス様、インフキュリオン様の国内事例ブログを紹介。…"
         },
         {
-          "title": "Amazon Bedrock API キーの保護: 実装と管理のベストプラクティス",
-          "link": "https://aws.amazon.com/jp/blogs/news/securing-amazon-bedrock-api-keys-best-practices-for-implementation-and-management/",
+          "title": "株式会社コーテッグ様の「聞くだけ」で分析が完結する AI 分析基盤「Dotta」を Amazon Bedrock AgentCore で実現",
+          "link": "https://aws.amazon.com/jp/blogs/news/cotegg/",
           "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-19T00:04:08",
-          "excerpt": "Amazon Bedrock API キーを安全に実装、管理するためのベストプラクティスを紹介します。…"
+          "published": "2026-10-19T06:04:17",
+          "excerpt": "本記事は、株式会社コーテッグ様と Amazon Web Services Japan による共同執筆です。み […]…"
+        },
+        {
+          "title": "仕事を進めるだけでは、仕事しか進まない。木こりのジレンマを Claude Code で解いた5ヶ月の記録 | RAKUS Developers Blog | ラクス エンジニアブログ",
+          "link": "https://tech-blog.rakus.co.jp/entry/20261019/weekly-reflection",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-19T06:00:00",
+          "excerpt": "朝、森を歩いていた旅人が、木を切っている木こりを見かけました。夕方、同じ道を戻ると、木こりはまだ同じ木を切っています。見ると、ノコギリの刃はぼろぼろに欠けていました。旅人が声をかけます。「木こりさん、ノコギリの刃を研いだらどうですか」。…"
+        },
+        {
+          "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+          "link": "https://crystl.dev/guides/tmux-for-ai-agents/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-19T05:55:31",
+          "excerpt": "Article URL: https://crystl.dev/guides/tmux-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。Next.js を Vercel 以外で動かすと、ISR（Incremental Static Regeneration）や画像最適化のキャッシュなど、プラットフォームに任せていた部分を自分で用意することになります。…",
+      "summary": "クラウドの新着が15件。Amazon ECS、LiveTaskCountを追加しRunningTaskCountを無料化",
       "articles": [
         {
-          "title": "Next.js の Vercel 依存機能は、Lambda Web Functions で動くのか？ ISR・画像最適化・キャッシュを実測した",
-          "link": "https://qiita.com/ma-shiratori/items/84bde8abd326cf52bf9e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-19T01:18:20",
-          "excerpt": "Next.js を Vercel 以外で動かすと、ISR（Incremental Static Regeneration）や画像最適化のキャッシュなど、プラットフォームに任せていた部分を自分で用意することになります。…"
+          "title": "Amazon ECS、LiveTaskCountを追加しRunningTaskCountを無料化",
+          "link": "https://codezine.jp/article/detail/30054",
+          "source": "CodeZine",
+          "published": "2026-10-19T05:30:00",
+          "excerpt": "Amazon ECS、LiveTaskCountを追加しRunningTaskCountを無料化"
         },
         {
-          "title": "【AWS SES メール認証・なりすまし対策③】Route 53で未使用サブドメインのメールなりすまし対策 ～Wildcard SPF・Null MX・Hosted Zone分離～",
-          "link": "https://qiita.com/kooohei/items/7d80cf7f3235808ee9ea",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-19T00:19:39",
-          "excerpt": "はじめに これまでの記事では、Amazon SESを利用したメール送信について、 第1回：DMARCの p / sp / np 第2回：SPF / DKIM / Custom MAIL FROM を整理しました。…"
+          "title": "DevelopersIO のバックエンドを ECS から Lambda Web Functions に移行して、マルチリージョン化してみた",
+          "link": "https://dev.classmethod.jp/articles/developersio-lambda-web-functions-multiregion/",
+          "source": "DevelopersIO",
+          "published": "2026-10-19T05:29:19",
+          "excerpt": "ECS で稼働していた DevelopersIO の Next.js バックエンドを AWS Lambda Web Functions へ移行しました。…"
         },
         {
-          "title": "Time Lords kill leap seconds, before they become the new Y2K bug",
-          "link": "https://www.theregister.com/networks/2026/10/19/time-lords-kill-leap-seconds-before-they-become-the-new-y2k-bug/5303711",
-          "source": "The Register（英語）",
-          "published": "2026-10-18T23:01:00",
-          "excerpt": "Cite difficulty of updating IoT devices as major reason to stop adding time"
+          "title": "AWS Lambda Web FunctionsでImpossible Location検知の課題をまとめて解決！ + 昨今の攻撃への有効性",
+          "link": "https://zenn.dev/cscloud_blog/articles/f4ce99ffeb8ee3",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-19T04:08:01",
+          "excerpt": "これまで下記の 2 本の記事で、Amazon CloudFront を使ってセッションハイジャックを検知・ブロックする仕組みを紹介してきました。CloudFront Functions + KVS 編：エッジで高速に検証できる。…"
         },
         {
-          "title": "Server-Side Kotlin Meetup vol.20 登壇レポート ~ Kotlin + Quarkus を Lambda SnapStart で動かす ~ | Nealle Developer's Blog",
-          "link": "https://nealle-dev.hatenablog.com/entry/2026/10/19/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-18T23:00:00",
-          "excerpt": "こんにちは、ソフトウェアエンジニアの宮後（miya10kei）です。最近、年明けのフルマラソンに向けてランニングの日々を送っています🏃💨 2026年10月14日に開催された「Server-Side Kotlin Meetup vol.…"
+          "title": "Amazon EKS のネットワークポリシー機能を強化",
+          "link": "https://aws.amazon.com/jp/blogs/news/amazon-eks-introduces-enhanced-network-policy-capabilities/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-19T03:34:34",
+          "excerpt": "2025 年 12 月に、Amazon EKS におけるネイティブなネットワークポリシーのサポートを拡張し、Admin Policy と Application Network Policy の両方に対応したことを発表しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。Google Drive、クライアントサイド暗号化されたPDFと画像ファイルのプレビューを一般提供",
+      "summary": "セキュリティの新着が14件。企業向け「KUSANAGI」新エディションが提供開始、WordPressのセキュリティ運用を自動化",
       "articles": [
         {
-          "title": "Google Drive、クライアントサイド暗号化されたPDFと画像ファイルのプレビューを一般提供",
-          "link": "https://codezine.jp/article/detail/30051",
+          "title": "企業向け「KUSANAGI」新エディションが提供開始、WordPressのセキュリティ運用を自動化",
+          "link": "https://codezine.jp/article/detail/30055",
           "source": "CodeZine",
-          "published": "2026-10-19T01:00:00",
-          "excerpt": "Google Drive、クライアントサイド暗号化されたPDFと画像ファイルのプレビューを一般提供"
+          "published": "2026-10-19T06:10:00",
+          "excerpt": "企業向け「KUSANAGI」新エディションが提供開始、WordPressのセキュリティ運用を自動化"
         },
         {
-          "title": "PR： 「ネットワーク構成図にない端末」が普通？　OTセキュリティを難しくする工場の現実と“泥臭い”対策",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/19/news007.html",
-          "source": "@IT",
-          "published": "2026-10-19T01:00:00",
-          "excerpt": "工場のOTネットワークには、サポート期限切れのOSや現場導入のIoT機器、構成図にない端末など、ITの常識だけでは扱い切れない“OTあるある”が存在する。こうした制約を前提に、何を守り、誰が判断し、どう対応するのか。…"
+          "title": "「Renta!」停止は「不正アクセスの可能性」のため　詳細は調査中、再開未定",
+          "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002379/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-19T04:53:22",
+          "excerpt": "「Renta!」が18日から一時サービス停止。「Renta!のサーバに対して外部からの不正なアクセスの可能性があることを把握したため」"
         },
         {
-          "title": "【AWS SES メール認証・なりすまし対策③】Route 53で未使用サブドメインのメールなりすまし対策 ～Wildcard SPF・Null MX・Hosted Zone分離～",
-          "link": "https://qiita.com/kooohei/items/7d80cf7f3235808ee9ea",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-19T00:19:39",
-          "excerpt": "はじめに これまでの記事では、Amazon SESを利用したメール送信について、 第1回：DMARCの p / sp / np 第2回：SPF / DKIM / Custom MAIL FROM を整理しました。…"
+          "title": "ConnectWise turns off its SaaS-y backup, security, and management services to probe security SNAFU",
+          "link": "https://www.theregister.com/security/2026/10/19/connectwise-turns-off-its-saas-y-backup-security-and-management-services-to-probe-security-snafu/5303758",
+          "source": "The Register（英語）",
+          "published": "2026-10-19T04:31:00",
+          "excerpt": "Huntress alleges takeover of M365 accounts"
         },
         {
-          "title": "AWS セキュリティサービスでアクセスキーの漏えいリスクを最小限に抑える実践的な手順",
-          "link": "https://aws.amazon.com/jp/blogs/news/practical-steps-to-minimize-key-exposure-using-aws-security-services/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-19T00:06:18",
-          "excerpt": "漏えいした長期的な認証情報 (アクセスキー) は、AWS Customer Incident Response Team (CIRT) が観測したセキュリティインシデントで、現在も脅威アクターに最も多く使われる侵入経路です。…"
+          "title": "ソースネクスト、パスワードなぜ平文で流出　「暗号化していたが、鍵にアクセスできるシステムに侵入された」",
+          "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002372/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-19T03:38:11",
+          "excerpt": "「暗号化されたパスワードを復号するための鍵にアクセス可能なシステム（API）に対して、不正アクセスが行われた」「復号鍵そのものは流出していないが、パスワードが復号された状態で外部に流出したことを確認している」とソースネクスト。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。",
+      "summary": "データ分析の新着が4件。本記事は、株式会社コーテッグ様と Amazon Web Services Japan による共同執筆です。み […]…",
       "articles": [
+        {
+          "title": "株式会社コーテッグ様の「聞くだけ」で分析が完結する AI 分析基盤「Dotta」を Amazon Bedrock AgentCore で実現",
+          "link": "https://aws.amazon.com/jp/blogs/news/cotegg/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-19T06:04:17",
+          "excerpt": "本記事は、株式会社コーテッグ様と Amazon Web Services Japan による共同執筆です。み […]…"
+        },
+        {
+          "title": "[アップデート] Amazon Redshift で Apache Iceberg マテリアライズドビューが作成できるようになったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/20261019-amazon-redshift-iceberg-materialized-views/",
+          "source": "DevelopersIO",
+          "published": "2026-10-19T03:49:10",
+          "excerpt": "Amazon Redshift で Apache Iceberg マテリアライズドビューが作成できるようになったので、増分リフレッシュの動作やAthena との連携を中心に、実際に試してみた結果をまとめます。"
+        },
         {
           "title": "TechCrunch Mobility: Rivian の次なる活動",
           "link": "https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
@@ -133,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。Playwright CLIがWSL上で動作するのか気になったので、実際に検証してみました。必要な環境構築手順から、Claude Codeでの使用方法、さらにスキル設定の最適化まで、実践的な知見をまとめています。",
+      "summary": "開発ツールの新着が5件。Cloudflare CLIのcf docs searchで公式ドキュメントを検索し、結果のURLからMarkdown本文を取得します。ログイン不要の検索をbeta.…",
       "articles": [
+        {
+          "title": "Cloudflare CLIで公式ドキュメントを検索し、Markdownで取得する",
+          "link": "https://dev.classmethod.jp/articles/cloudflare-cf-docs-search/",
+          "source": "DevelopersIO",
+          "published": "2026-10-19T06:50:10",
+          "excerpt": "Cloudflare CLIのcf docs searchで公式ドキュメントを検索し、結果のURLからMarkdown本文を取得します。ログイン不要の検索をbeta.…"
+        },
         {
           "title": "Playwright CLIをWSLで動かしてみた",
           "link": "https://dev.classmethod.jp/articles/playwright-cli-wsl-setup/",
@@ -155,45 +176,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-10-18T13:14:40",
           "excerpt": "事業のサービス仕様やマニュアルを顧客に提供するために、クローズドなポータルサイトが必要になりました。最初は「ログインできるCMSを使えば、それほど難しくないだろう」と考えていたのですが、調べてみると、意外とちょうどいいサービスが見つからず。…"
-        },
-        {
-          "title": "CodePipeline V2でビルドを1つ足すと、月額が最大2.7倍になる ― 同じ1分が「アクション分」と「CodeBuild分」で2回数えられる（東京リージョンの単価で試算）",
-          "link": "https://qiita.com/devex12/items/4ebc1e20793d7fd7dcd2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-18T12:26:24",
-          "excerpt": "TL;DR 2026年10月17日時点の東京リージョンのCodePipeline作成画面では、パイプラインの種類を選ぶ欄がなく、作ると V2 になる（レビュー画面に「V2」と表示される）。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【簡単AWS MLA】【初心者向け】Day 19：MLA 試験で押さえたい補足キーワード整理 — Time-series CV / X-Ray / Inference Pipeline / SMOTE / Hyperband",
-      "link": "https://qiita.com/MetaYuan/items/ff2b9e7633852ec9b6f9",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-19T02:06:18",
-      "excerpt": "はじめに これまでの 18 日間では、AWS の機械学習系資格や実務で重要になる内容を、基礎から順番に整理してきました。…"
+      "title": "Khosla Ventures doubles down on Even Healthcare to challenge India’s hospital economics",
+      "link": "https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-19T07:30:00",
+      "excerpt": "Even Healthcare reaches a $300 million valuation in a Khosla Ventures-led round as it plans to expand its hospital netwo…"
     },
     {
-      "title": "判定特化AI「Jev」に音楽のジャンルを判定させてみた ─ librosa で測って Jev で決める | GMO Developers",
-      "link": "https://developers.gmo.jp/technology/86545/",
+      "title": "AI時代のプロジェクト管理とチームのあり方を探る「Backlog World 2026」、11月28日に横浜で開催",
+      "link": "https://codezine.jp/article/detail/30058",
+      "source": "CodeZine",
+      "published": "2026-10-19T07:30:00",
+      "excerpt": "AI時代のプロジェクト管理とチームのあり方を探る「Backlog World 2026」、11月28日に横浜で開催"
+    },
+    {
+      "title": "iOSDC Japan 2026 参加レポート：Foundation Modelsでメロディを作る | Fenrir Engineers",
+      "link": "https://engineers.fenrir-inc.com/entry/2026/10/19/161653",
       "source": "企業テックブログまとめ",
-      "published": "2026-10-19T01:00:00",
-      "excerpt": "はじめに GMOペパボの黒瀧です。ロリポップ！AIゲートウェイが TypeSafe AI の判定特化モデル Jev に対応しました（お知らせ）。Jev は「生成」ではなく「判定」に特化したモデルで、選択肢から選ぶ・段階 […]…"
+      "published": "2026-10-19T07:16:53",
+      "excerpt": "はじめに こんにちは、iOSエンジニアのズェーマン アウンソーです。iOSエンジニアとして働き始めたばかりの私にとって、今回が初めてのiOSDC参加でした。…"
     },
     {
-      "title": "PR： 「Windows Server 2016の期限切れ」をAI基盤整備の機会に変える方法",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/19/news006.html",
-      "source": "@IT",
-      "published": "2026-10-19T01:00:00",
-      "excerpt": "AI利活用が進む一方、オンプレミスとクラウドの混在によるインフラの断片化が課題だ。「Windows Server 2016」サポート終了を見据え、今取り組むべき基盤管理の最適解に迫る。"
-    },
-    {
-      "title": "PR： SIerでの知識と経験を生かして、金融ITでエンジニアとしてキャリアアップ",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/14/news003.html",
-      "source": "@IT",
-      "published": "2026-10-19T01:00:00",
-      "excerpt": "PR： SIerでの知識と経験を生かして、金融ITでエンジニアとしてキャリアアップ"
+      "title": "事業開発のリサーチから実行までを一気通貫で支援、博報堂とビザスクが新サービス提供開始",
+      "link": "https://codezine.jp/article/detail/30057",
+      "source": "CodeZine",
+      "published": "2026-10-19T07:15:00",
+      "excerpt": "事業開発のリサーチから実行までを一気通貫で支援、博報堂とビザスクが新サービス提供開始"
     }
   ]
 }
