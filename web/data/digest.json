@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-10-19T15:12:46",
+  "generated_at": "2026-10-19T20:39:53",
   "window_hours": 24,
-  "total": 157,
+  "total": 167,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。Amazon SageMaker Studioのスペースにあるコードやデータのバックアップを検討しました。…",
+      "summary": "生成AIの新着が28件。本稿の読み方： 本稿は、入門者のタロウくんと専任講師の対話篇です。Executive Summary に結論をまとめ、第1章から順に結論に至る理由を説明します。本文の各所に、折り畳みの「【上級者向けコラム】」を置いています。…",
       "articles": [
+        {
+          "title": "AI Agentと業務自動化ツールの分業設計 ── Agentforce・Quick Automate・Copilot StudioがPower Automate・Salesforce Flow・PL/SQL・PL/pgSQLを呼び出す連携設計",
+          "link": "https://qiita.com/etale_cohomology/items/390d0515864c6f224b54",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-19T18:30:33",
+          "excerpt": "本稿の読み方： 本稿は、入門者のタロウくんと専任講師の対話篇です。Executive Summary に結論をまとめ、第1章から順に結論に至る理由を説明します。本文の各所に、折り畳みの「【上級者向けコラム】」を置いています。…"
+        },
+        {
+          "title": "LLM を混乱させるように設計されたプログラミング言語 KillSwitch を使用して、ボット耐性のあるコードを作成します。",
+          "link": "https://www.theregister.com/ai-and-ml/2026/10/19/write-bot-resistant-code-with-killswitch-a-programming-language-designed-to-confuse-llms/5303919",
+          "source": "The Register（英語）",
+          "published": "2026-10-19T17:10:47",
+          "excerpt": "嘘、副詞の多さ、平凡な話は、あまり機械可読なコードにはならないことが判明"
+        },
         {
           "title": "【コツコツAWS】Amazon SageMaker Studio - スペースのデータをS3にバックアップ -",
           "link": "https://qiita.com/guupys/items/a07c4997e251699efa93",
@@ -22,28 +36,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-19T13:32:12",
           "excerpt": "はじめに 社内システムは、会社が自前で発行した証明書（プライベート CA の証明書） で HTTPS 化されていることがよくあります。…"
-        },
-        {
-          "title": "Claude Code SkillsでLambda Durable Functionsを使いこなす",
-          "link": "https://zenn.dev/geneg/articles/2026-10-19-aws-lambda-durable-functions-are",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-19T13:07:27",
-          "excerpt": "はじめに 以前書いた「Claude Code の Skills 機能を AWS 開発で使い倒す」は想定以上に反応が良く、Skills を使って社内のアーキテクチャ規約や Terraform のお作法を Claude Code に覚えさせる、…"
-        },
-        {
-          "title": "Gemini Intelligence 入門 ― AppFunctions と Gemini Nano #DevelopersIO 2026 Hiroshima #登壇レポート",
-          "link": "https://dev.classmethod.jp/articles/gemini-intelligence-developersio-2026-hiroshima/",
-          "source": "DevelopersIO",
-          "published": "2026-10-19T10:30:28",
-          "excerpt": "AI がアプリを操作する時代が近づいています。アプリ側で実装が必要な AppFunctions と それを支える Gemini Nano（オンデバイスのAIモデル） について、検証結果を交えて紹介した登壇の内容をまとめました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。Amazon Web Services（AWS）は、サーバレス基盤のAWS Lambda上でNext.jsやExpress、Hono、FastifyなどのNode.…",
+      "summary": "クラウドの新着が20件。EC2 Image Builder は、イメージの構築に Auto Scaling Group (ASG) の既存のインスタンスの使用をサポートするようになりました。…",
       "articles": [
+        {
+          "title": "EC2 Image Builder が ASG と統合され、イメージのビルドが高速化されました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-image-builder-asg-faster-builds/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-10-19T17:30:00",
+          "excerpt": "EC2 Image Builder は、イメージの構築に Auto Scaling Group (ASG) の既存のインスタンスの使用をサポートするようになりました。…"
+        },
         {
           "title": "AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表",
           "link": "https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html",
@@ -59,60 +66,53 @@
           "excerpt": "Amazon Web Services（AWS）は、Azure SDKで書かれた.NETアプリケーションをAWS SDKを用いたコードに変換する新機能をAWS Transformに搭載したと発表しました。これによりMicrosoft Az.…"
         },
         {
-          "title": "【コツコツAWS】Amazon SageMaker Studio - スペースのデータをS3にバックアップ -",
-          "link": "https://qiita.com/guupys/items/a07c4997e251699efa93",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-19T13:35:43",
-          "excerpt": "Amazon SageMaker Studioのスペースにあるコードやデータのバックアップを検討しました。…"
-        },
-        {
-          "title": "AgentCore Gateway が社内 CA の証明書を信頼できるようになったので ALB なしで VPC 内の MCP サーバーにつないでみた",
-          "link": "https://qiita.com/leomarokun/items/5d7628378489c8a77ff4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-19T13:32:12",
-          "excerpt": "はじめに 社内システムは、会社が自前で発行した証明書（プライベート CA の証明書） で HTTPS 化されていることがよくあります。…"
+          "title": "AWS ウィークリーまとめ: AWS Lambda Web 関数、Vercel Marketplace の Amazon S3 など (2026 年 10 月 19 日)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-10-19T15:34:59",
+          "excerpt": "先週は新しい種類のコンピューティングが追加されることはありませんでした。代わりに、既存のコードとそのコードが生きている間の距離を縮めることができました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が19件。ニフティが、同社の回線申し込みや受付管理に関するシステムが不正アクセスを受け、最大54万2513件の情報が漏えいした可能性があると発表した。",
+      "summary": "セキュリティの新着が22件。脆弱性の発見数が対処のスピードを上回ることが確実になった今、あきらめてしまう以外の方法を考える必要がある。脆弱性を評価する方法を「点数」ではなく「リスクマネジメント」の観点から考えるに当たり、参考になる指標や文書を紹介する。",
       "articles": [
+        {
+          "title": "脆弱性対応は「点数」から「リスク」へ――CVSS、KEV、BOD 26-04を踏まえた優先順位の付け方",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/13/news014.html",
+          "source": "@IT",
+          "published": "2026-10-19T20:00:00",
+          "excerpt": "脆弱性の発見数が対処のスピードを上回ることが確実になった今、あきらめてしまう以外の方法を考える必要がある。脆弱性を評価する方法を「点数」ではなく「リスクマネジメント」の観点から考えるに当たり、参考になる指標や文書を紹介する。"
+        },
+        {
+          "title": "攻撃者が AI を持っている今、セキュリティ パッチにはパッチが必要です",
+          "link": "https://www.theregister.com/patches/2026/10/19/security-patches-need-patches-now-that-attackers-have-ai/5303927",
+          "source": "The Register（英語）",
+          "published": "2026-10-19T18:23:40",
+          "excerpt": "Terra は、90 日以内に壊れたと報告された GitHub セキュリティ修正が急増していることを発見しました"
+        },
+        {
+          "title": "Amazon GuardDuty がランタイムモニタリング用のオプションの脅威検出ルールを追加",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-runtime-optional-detection-rules/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-10-19T16:01:00",
+          "excerpt": "Amazon GuardDuty は、ランタイムモニタリングのオプションの検出ルールをサポートするようになりました。…"
+        },
         {
           "title": "ニフティ、54万件超漏えいの可能性　光回線の申し込みシステムに不正アクセス",
           "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002399/",
           "source": "ITmedia NEWS",
           "published": "2026-10-19T10:34:36",
           "excerpt": "ニフティが、同社の回線申し込みや受付管理に関するシステムが不正アクセスを受け、最大54万2513件の情報が漏えいした可能性があると発表した。"
-        },
-        {
-          "title": "阪急阪神百貨店などの共通ID、ほぼ全会員分漏えい　約126万件　予約サイトに不正アクセス",
-          "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002398/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-19T09:53:08",
-          "excerpt": "エイチ・ツー・オー リテイリングは10月19日、子会社の阪急阪神百貨店が運営する予約サイトなどが不正アクセスを受け、グループ企業の共通会員ID「H2O ID」に関する個人情報約126万件の一部が漏えいしたと発表した。"
-        },
-        {
-          "title": "「ゲオ」「セカスト」運営元に不正アクセス　公式アプリや通販を停止、メンテナンス実施中",
-          "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002392/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-19T08:08:39",
-          "excerpt": "ゲームやスマートフォンなどを販売する「ゲオ」や、リユースショップ「セカンドストリート」などを展開するセカンドリテイリングは10月17日、社内システムへの不正アクセスを確認したと発表した。…"
-        },
-        {
-          "title": "Teamsに届く「パスキーを更新してください」――“不正アクセスのわな”だった",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/19/news022.html",
-          "source": "@IT",
-          "published": "2026-10-19T08:00:00",
-          "excerpt": "パスワードに代わる安全な認証手段として普及が進む「パスキー」。その設定を更新するよう求める案内が、企業へのサイバー攻撃の入り口になっていた。Microsoftが報告した。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Amazon DynamoDB この記事で伝えたいこと 「音楽に集中できるイヤホン」で検索したら、「ノイズキャンセリング機能付きのワイヤレスヘッドホン」が見つかる。…",
+      "summary": "データ分析の新着が3件。Amazon DynamoDB この記事で伝えたいこと 「音楽に集中できるイヤホン」で検索したら、「ノイズキャンセリング機能付きのワイヤレスヘッドホン」が見つかる。…",
       "articles": [
         {
           "title": "Amazon DynamoDBの新機能で意味検索を簡単に作る | サーバーワークスエンジニアブログ",
@@ -134,21 +134,21 @@
           "source": "DevelopersIO",
           "published": "2026-10-19T03:49:10",
           "excerpt": "Amazon Redshift で Apache Iceberg マテリアライズドビューが作成できるようになったので、増分リフレッシュの動作やAthena との連携を中心に、実際に試してみた結果をまとめます。"
-        },
-        {
-          "title": "TechCrunch Mobility: Rivian の次なる活動",
-          "link": "https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-18T16:05:00",
-          "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。Amazon Web Services（AWS）は、サーバレス基盤のAWS Lambda上でNext.jsやExpress、Hono、FastifyなどのNode.…",
+      "summary": "開発ツールの新着が8件。Amazonは、ほとんどのAIアプリの構築に使用される無料ツールキットであるPyTorchに対するNvidiaの支配を打破し、より多くの開発者が自社のような代替チップでアプリを実行できるようにしたいと考えている。",
       "articles": [
+        {
+          "title": "Amazonは新しいTorchNeuron開発ツールを使ってNvidiaに最大の攻撃を仕掛けている",
+          "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-19T20:09:24",
+          "excerpt": "Amazonは、ほとんどのAIアプリの構築に使用される無料ツールキットであるPyTorchに対するNvidiaの支配を打破し、より多くの開発者が自社のような代替チップでアプリを実行できるようにしたいと考えている。"
+        },
         {
           "title": "AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表",
           "link": "https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html",
@@ -169,45 +169,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-19T12:14:11",
           "excerpt": "はじめに この記事では、 GitHub に push → GitHub Actions がイメージを作る → ECS が Blue/Green で切り替える という流れを Terraform で組み、実際に切り替わる様子を確認してみました。…"
-        },
-        {
-          "title": "AWS・Terraformでサーバーレス環境を構築したハンズオン",
-          "link": "https://zenn.dev/kazs1000/articles/c5ba1c0cc00018",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-19T10:44:59",
-          "excerpt": "目的 AWSの資格学習で見かけた構成を実際に構築して理解することと、Terraformによるインフラ構築・管理を学ぶことを目的に、ハンズオンに取り組みました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ウーバー、ドライバーが法的期限を守らなかったため、タクシー運転手に対する3億4,000万ポンドの訴訟を回避",
-      "link": "https://www.theregister.com/offbeat/2026/10/19/uber-dodges-340m-cabbie-lawsuit-after-drivers-miss-legal-deadline/5303872",
-      "source": "The Register（英語）",
-      "published": "2026-10-19T14:47:24",
-      "excerpt": "ブラックタクシーの運転手らは配車サービス大手がロンドンの交通規制当局を誤解させたとして告発したが、裁判官は訴訟を起こすには遅すぎたと指摘"
+      "title": "ハッカーが AI コーディング ツール OpenCode を攻撃し、ユーザーの AI アカウントへの料金が高騰",
+      "link": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-19T19:28:34",
+      "excerpt": "OpenCode は、Claude Code や Cursor の代替として人気のあるオープンソースの AI コーディング エージェントです。…"
     },
     {
-      "title": "ディズニーは訴訟を起こさずにCharacter.AIを買収する方法を見つけた",
-      "link": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+      "title": "スタートアップ、「プルーフポイント」テストでエネルギー源として海底火山を活用",
+      "link": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
       "source": "Ars Technica（英語）",
-      "published": "2026-10-19T14:45:43",
-      "excerpt": "Character.AI は、そのボットが未成年者に自傷行為や親の殺害を奨励したと主張しています。"
+      "published": "2026-10-19T19:27:24",
+      "excerpt": "海底地熱発電は環太平洋諸国の石油輸入削減に役立つでしょうか?"
     },
     {
-      "title": "中国のロケットがミネソタ上空で軌道を外れ、農家のトウモロコシ畑に放置",
-      "link": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-10-19T14:35:01",
-      "excerpt": "すべての証拠は、その破片が中国の Zhuque-2E ロケットの一部であることを示しています。"
+      "title": "Amazon CloudWatch Omni が追加の AWS リージョンで利用可能になりました",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-omni-8-regions/",
+      "source": "AWS What's New（英語）",
+      "published": "2026-10-19T19:10:00",
+      "excerpt": "AWS は、Amazon CloudWatch Omni が追加の 8 つの AWS リージョンで利用可能になったことを発表しました。…"
     },
     {
-      "title": "結局のところ卵カルテルがあったのかもしれない",
-      "link": "https://www.politico.com/news/magazine/2026/10/18/egg-prices-conspiracy-affordability-issue-01100411",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-19T14:31:11",
-      "excerpt": "記事の URL: https://www.politico.…"
+      "title": "Tolan、ユーザーの生活を支援する AI コンパニオンに 3,000 万ドルを獲得",
+      "link": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-19T19:00:12",
+      "excerpt": "AI コンパニオン アプリ Tolan は、25 万人以上のアクティブ ユーザーを獲得し、さらに 3,000 万ドルを調達しました。"
     }
   ]
 }
