@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-10-20T15:14:06",
+  "generated_at": "2026-10-20T19:25:38",
   "window_hours": 24,
-  "total": 190,
+  "total": 192,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。記事の URL: https://github.com/deepseek-ai/DeepInfer コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が27件。同社によれば、この機能は、ユーザーが個人的なことについて話し合ったり、サプライズを計画したりする可能性があり、別のチャットで何かを見せるために友人や家族にデバイスを渡すときに、それらの会話をプライベートに保ちたいという状況向けに設計されてい…",
       "articles": [
+        {
+          "title": "ChatGPT でチャットをロックできるようになりました",
+          "link": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-20T18:36:53",
+          "excerpt": "同社によれば、この機能は、ユーザーが個人的なことについて話し合ったり、サプライズを計画したりする可能性があり、別のチャットで何かを見せるために友人や家族にデバイスを渡すときに、それらの会話をプライベートに保ちたいという状況向けに設計されてい…"
+        },
+        {
+          "title": "Amazon Bedrock で利用可能なクロード モデルの構造化出力",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-10-20T14:00:00",
+          "excerpt": "Amazon Bedrock は、Bedrock-Runtime と Bedrock-Mantle エンドポイントの両方にわたって、すべての Anthropic Claude モデルの構造化出力をサポートするようになりました。…"
+        },
         {
           "title": "DeepSeek は推論エンジンをオープンソース化しました",
           "link": "https://github.com/deepseek-ai/DeepInfer",
@@ -22,90 +36,76 @@
           "source": "InfoQ（日本語）",
           "published": "2026-10-20T08:30:00",
           "excerpt": "Googleは先日、フルスタックAIアプリケーションを構築するためのオープンソース基盤「Genkit」向けに、Agents APIのプレビュー版をリリースした。…"
-        },
-        {
-          "title": "デジタル庁、政府職員18万人にAIエージェント環境を展開──「源内」で提供開始、独自の安全基準も",
-          "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002428/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-20T08:14:44",
-          "excerpt": "デジタル庁は10月20日、政府職員向けの生成AI利用環境「源内」で、職員が自らAIエージェントを作って動かせる環境を順次導入すると発表した。安全に使うためのルール「源内基準」も併せて公表した。"
-        },
-        {
-          "title": "Microsoft Agent 365 管理ガイド | ヘッドウォータースのフィード",
-          "link": "https://zenn.dev/headwaters/articles/f10d6e17496b52",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-20T08:09:16",
-          "excerpt": "はじめにMicrosoft Agent365は、組織内のAIエージェントの台帳・権限・活動・リスクを、ひとつの管理面にまとめるための仕組みです。ただ、実際に導入を考えると、次のような点で迷います。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。スポンサー特集: Nutanix は、同じオペレーティング環境内で VM とコンテナを実行することが AI への野望を妨げるべきではないと主張",
+      "summary": "クラウドの新着が19件。Lambda Web Functions で別リージョンの S3 を参照したときの遅延改善に、Origin Shield が有効かを検証しました。…",
       "articles": [
+        {
+          "title": "CloudFront の Origin Shield で S3 へのクロスリージョン参照性能が改善するか試してみた",
+          "link": "https://dev.classmethod.jp/articles/cloudfront-origin-shield-s3-cross-region-latency/",
+          "source": "DevelopersIO",
+          "published": "2026-10-20T19:19:53",
+          "excerpt": "Lambda Web Functions で別リージョンの S3 を参照したときの遅延改善に、Origin Shield が有効かを検証しました。…"
+        },
+        {
+          "title": "Amazon ECS Gateway の紹介: ECS サービス向けのフルマネージド Ingress ソリューション",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-10-20T17:03:38",
+          "excerpt": "Amazon ECS Gateway は、アカウント内で直接作成されたすべてのリソースを使用して、ユーザーに代わって必要なインフラストラクチャを動的にプロビジョニングおよび管理することで、コンテナ化されたワークロードのイングレス ネットワー…"
+        },
+        {
+          "title": "Remotion Lambda と ElevenLabs の音声合成 API で PR の受け入れを動画化してみた",
+          "link": "https://dev.classmethod.jp/articles/pr-acceptance-test-video-remotion-lambda-elevenlabs/",
+          "source": "DevelopersIO",
+          "published": "2026-10-20T16:35:13",
+          "excerpt": "AI エージェントが出したプルリクエストの受け入れテストを、Remotion・Remotion Lambda・ElevenLabs でナレーション付きの動画にして確かめる流れを、TODO アプリを題材に実際に作ってみました。…"
+        },
         {
           "title": "デュアルネイティブ化が AI 時代における VM/コンテナの共存と主権セキュリティをどのように意味するか",
           "link": "https://www.theregister.com/ai-and-ml/2026/10/20/sponsored-how-going-dual-native-means-vm/container-co-existence-and-sovereign-security-in-the-ai-era/5303862",
           "source": "The Register（英語）",
           "published": "2026-10-20T15:00:00",
           "excerpt": "スポンサー特集: Nutanix は、同じオペレーティング環境内で VM とコンテナを実行することが AI への野望を妨げるべきではないと主張"
-        },
-        {
-          "title": "【AWS 初心者向け】Lambda を使って CloudWatch メトリクスの見方を確認してみる",
-          "link": "https://dev.classmethod.jp/articles/cloudwatch-metrics-basics/",
-          "source": "DevelopersIO",
-          "published": "2026-10-20T12:56:05",
-          "excerpt": "CloudWatch でグラフを表示してみたものの、「この数値は何を表しているの？」「どの統計を見ればいいの?」と迷ったことはありませんか？…"
-        },
-        {
-          "title": "オンプレKubernetesのServiceAccountにS3+CloudFrontだけでAWS IAMロールを割り当てる（IRSA相当）",
-          "link": "https://qiita.com/tebichi/items/76f91173a8b549056062",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-20T11:39:51",
-          "excerpt": "はじめに オンプレのKubernetesから、Podにアクセスキーを持たせずにAWS（S3やSSM Parameter Storeなど）を使いたい場面があります。…"
-        },
-        {
-          "title": "Lambda Web Functionsのログの挙動を調べてみた",
-          "link": "https://dev.classmethod.jp/articles/lambda-web-functions-logging-behavior/",
-          "source": "DevelopersIO",
-          "published": "2026-10-20T09:51:40",
-          "excerpt": "Lambda Web Functionsのログ挙動について調べてみました。consoleメソッドが自動的に構造化ログに変換される仕組みは便利ですが、logtapeなどのロギングライブラリを使う場合は工夫が必要です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が20件。スポンサー特集: Nutanix は、同じオペレーティング環境内で VM とコンテナを実行することが AI への野望を妨げるべきではないと主張",
+      "summary": "セキュリティの新着が22件。Lambda Web Functions で別リージョンの S3 を参照したときの遅延改善に、Origin Shield が有効かを検証しました。…",
       "articles": [
+        {
+          "title": "CloudFront の Origin Shield で S3 へのクロスリージョン参照性能が改善するか試してみた",
+          "link": "https://dev.classmethod.jp/articles/cloudfront-origin-shield-s3-cross-region-latency/",
+          "source": "DevelopersIO",
+          "published": "2026-10-20T19:19:53",
+          "excerpt": "Lambda Web Functions で別リージョンの S3 を参照したときの遅延改善に、Origin Shield が有効かを検証しました。…"
+        },
+        {
+          "title": "パロアルトのファイアウォール OS は 6 月以来、複数のランサムウェア グループから攻撃を受けています",
+          "link": "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226",
+          "source": "The Register（英語）",
+          "published": "2026-10-20T17:33:26",
+          "excerpt": "Unit 42 は、さまざまな業界にわたるネットワーク侵害を調査します"
+        },
+        {
+          "title": "沼地に陥ったカールのメンテナーは脆弱性「雪崩」を生き延びるために低レベルの欠陥を公開する",
+          "link": "https://www.theregister.com/security/2026/10/20/swamped-curl-maintainers-take-low-level-flaws-public-to-survive-vulnerability-avalanche/5304198",
+          "source": "The Register（英語）",
+          "published": "2026-10-20T16:30:00",
+          "excerpt": "10 月 26 日以降、プロジェクトはワークロードの共有への支援を求めているため、重大なケースのみが非公開になります。"
+        },
         {
           "title": "デュアルネイティブ化が AI 時代における VM/コンテナの共存と主権セキュリティをどのように意味するか",
           "link": "https://www.theregister.com/ai-and-ml/2026/10/20/sponsored-how-going-dual-native-means-vm/container-co-existence-and-sovereign-security-in-the-ai-era/5303862",
           "source": "The Register（英語）",
           "published": "2026-10-20T15:00:00",
           "excerpt": "スポンサー特集: Nutanix は、同じオペレーティング環境内で VM とコンテナを実行することが AI への野望を妨げるべきではないと主張"
-        },
-        {
-          "title": "オンプレKubernetesのServiceAccountにS3+CloudFrontだけでAWS IAMロールを割り当てる（IRSA相当）",
-          "link": "https://qiita.com/tebichi/items/76f91173a8b549056062",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-20T11:39:51",
-          "excerpt": "はじめに オンプレのKubernetesから、Podにアクセスキーを持たせずにAWS（S3やSSM Parameter Storeなど）を使いたい場面があります。…"
-        },
-        {
-          "title": "栃木県警、全職員の情報流出か　アルカディア不正アクセス、他県警でも被害判明相次ぐ　報道",
-          "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002435/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-20T10:51:58",
-          "excerpt": "防災情報配信サービスのアルカディアが不正アクセスを受けた問題を巡り、栃木県警の全職員約3900人分の個人情報が流出した可能性があると複数のメディアが報じた。神奈川や埼玉、福岡など他の県警でも同様の被害が相次ぎ判明している。"
-        },
-        {
-          "title": "NECの委託先にサイバー攻撃　正規アカウント悪用し顧客のサーバ暗号化、個人情報の漏えいも",
-          "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002433/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-20T09:00:53",
-          "excerpt": "NECは10月20日、システム開発・保守業務の委託先が9月下旬にサイバー攻撃を受け、その影響でNECの顧客に不正アクセスや情報漏えいの被害が出たと発表した。漏えいした情報には個人情報も含まれるという。"
         }
       ]
     },
@@ -140,7 +140,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。Cloudflareは、AIを活用した業務のためのプラットフォームとなる「Cloudflare OS」のマネージドサービスを発表しました。現在ウェイティングリストへの登録を募集しています。AIを活用した業務アプリのプラットフォーム Clo.…",
+      "summary": "開発ツールの新着が11件。Cloudflareは、AIを活用した業務のためのプラットフォームとなる「Cloudflare OS」のマネージドサービスを発表しました。現在ウェイティングリストへの登録を募集しています。AIを活用した業務アプリのプラットフォーム Clo.…",
       "articles": [
         {
           "title": "「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など",
@@ -175,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "TikTokスタッフは子供の安全への懸念を表明したが、幹部は行動を起こさなかったと伝えられている",
-      "link": "https://techcrunch.com/2026/10/20/tiktok-staff-raised-child-safety-concerns-but-executives-reportedly-failed-to-act/",
+      "title": "GoogleはAmazonに加わり、AIアプリ開発者とともにNvidiaの牙城を攻撃した",
+      "link": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
       "source": "TechCrunch（英語）",
-      "published": "2026-10-20T15:03:41",
-      "excerpt": "裁判所文書によると、TikTok従業員は子供へのリスクに関する懸念に対する経営陣の対応に不満を抱いていた。"
+      "published": "2026-10-20T18:38:24",
+      "excerpt": "Google は Amazon と共同で、PyTorch ユーザーがアプリを Nvidia GPU から簡単に移動できるようにする開発者ツールをリリースしました。"
     },
     {
-      "title": "Show HN: VoidAccess – オープンソースのダークウェブ OSINT、クエリからグラフまで",
-      "link": "https://github.com/KatrielMoses/voidaccess",
+      "title": "シムシティ、ただし許可あり",
+      "link": "https://permit.petercai.com/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-20T14:49:33",
-      "excerpt": "こんにちは、HN!私は Katriel です。セキュリティ研究者/愛好家であり、AI の波の中で、現在のツールを超え、さらにはオープンソース エンジンを備えた有料産業をも超える次世代のセキュリティ ツールを構築したいと考えていました。…"
+      "published": "2026-10-20T18:29:09",
+      "excerpt": "記事の URL: https://permit.petercai.com/ コメント URL: https://news.ycombinator.com/item?id=50170593 ポイント: 38 コメント数: 7"
     },
     {
-      "title": "企業は求めてもいないアップグレードにソフトウェア予算の 3 分の 1 近くを費やしています",
-      "link": "https://www.theregister.com/software/2026/10/20/enterprises-blow-nearly-a-third-of-software-budgets-on-upgrades-they-never-asked-for/5304181",
-      "source": "The Register（英語）",
-      "published": "2026-10-20T14:43:00",
-      "excerpt": "ベンダーを満足させるには、最初はすべてがうまく機能していたとしても、企業に数百万ドルのコストがかかります"
+      "title": "エリック・シュミット氏はダリオ・アモデイCEOの約半分のアンスロピック株を所有していると伝えられている",
+      "link": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-20T17:55:12",
+      "excerpt": "ブルームバーグの報道によると、元グーグルCEOは大手AI研究所の株式の約1％を所有している。"
     },
     {
-      "title": "Ofcom、4chan訴訟で敗北を認める",
-      "link": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/",
+      "title": "低リソースプログラミング言語による高度なコーディング",
+      "link": "https://openai.com/index/low-resource-programming-languages/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-20T14:30:31",
-      "excerpt": "記事の URL: https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-10-20T17:43:11",
+      "excerpt": "記事の URL: https://openai.com/index/low-resource-programming-langages/ コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
