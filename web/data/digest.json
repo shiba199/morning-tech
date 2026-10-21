@@ -1,147 +1,154 @@
 {
-  "generated_at": "2026-10-21T00:43:27",
+  "generated_at": "2026-10-21T05:30:12",
   "window_hours": 24,
-  "total": 205,
+  "total": 213,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が24件。Kiro などの AI コーディングエージェントは開発を加速させる一方で、プロンプトインジェクションや過度に緩い設定、サプライチェーンリスク、スコープクリープなどのリスクをもたらします。…",
+      "summary": "生成AIの新着が24件。アクセンチュアとGoogle Cloud、「Gemini Enterprise」専門の新組織を設立",
       "articles": [
         {
-          "title": "スピードと安全性の両立: AI コーディングエージェントのためのコントロールフレームワーク",
-          "link": "https://aws.amazon.com/jp/blogs/news/balancing-speed-and-safety-a-control-framework-for-ai-coding-agents/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-21T00:15:14",
-          "excerpt": "Kiro などの AI コーディングエージェントは開発を加速させる一方で、プロンプトインジェクションや過度に緩い設定、サプライチェーンリスク、スコープクリープなどのリスクをもたらします。…"
-        },
-        {
-          "title": "Anthropic、50人以上が死亡する可能性がある場合モデルを阻止する可能性のあるAI安全法案を提案",
-          "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-20T23:01:23",
-          "excerpt": "提案された政策はAIの暴走に対する保護を提供しているように見えるが、実際には連邦政府機関が裁判官の許可なしにモデルの公開を阻止することを禁じている。"
-        },
-        {
-          "title": "Geminiで作成したアプリをGoogle Sitesへ直接エクスポート可能に",
-          "link": "https://codezine.jp/article/detail/30072",
+          "title": "アクセンチュアとGoogle Cloud、「Gemini Enterprise」専門の新組織を設立",
+          "link": "https://codezine.jp/article/detail/30084",
           "source": "CodeZine",
-          "published": "2026-10-20T23:00:00",
-          "excerpt": "Geminiで作成したアプリをGoogle Sitesへ直接エクスポート可能に"
+          "published": "2026-10-21T04:40:00",
+          "excerpt": "アクセンチュアとGoogle Cloud、「Gemini Enterprise」専門の新組織を設立"
         },
         {
-          "title": "ハグフェイスCEO、NetflixのOpenAIハッキングドキュメンタリーは正確ではないと警告",
-          "link": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-20T22:24:02",
-          "excerpt": "Netflix ドキュメンタリー「AI Gone Rogue」を共有する前に注意してください。映画に登場するハギング・フェイスの共同創設者クレム・デラング氏は、それが「完全に破滅モード」になったと述べたが、それは正確ではない。"
+          "title": "Anthropic、ハッカソン「Built with Claude: Japan 2026」を開催、参加者にMax 5x PlanとAPIクレジットを提供",
+          "link": "https://codezine.jp/article/detail/30083",
+          "source": "CodeZine",
+          "published": "2026-10-21T04:30:00",
+          "excerpt": "Anthropic、ハッカソン「Built with Claude: Japan 2026」を開催、参加者にMax 5x PlanとAPIクレジットを提供"
+        },
+        {
+          "title": "Google スプレッドシートのGeminiがiOSデバイスで利用可能に",
+          "link": "https://codezine.jp/article/detail/30076",
+          "source": "CodeZine",
+          "published": "2026-10-21T04:00:00",
+          "excerpt": "Google スプレッドシートのGeminiがiOSデバイスで利用可能に"
+        },
+        {
+          "title": "DevOps Agent のイベントトリガとスキップ用スキルで、低優先度アラームをカスタムエージェントに振り分けてみる",
+          "link": "https://dev.classmethod.jp/articles/devops-agent-event-trigger-skip-low-priority/",
+          "source": "DevelopersIO",
+          "published": "2026-10-21T02:37:43",
+          "excerpt": "AWS DevOps Agent のカスタムエージェントにイベントトリガが追加されたので、動作検証してみました。Webhook で届いたイベントに応じて軽量なエージェントを起動し、優先度に応じた効率的な対応ができるか？…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。Amazon GuardDuty の RDS Protection に新機能が追加されました。これまでのログイン監視に加えて、データアクティビティ（クエリパターン）の監視に対応し、大量データの取得や削除・破壊を検知できるようになりました。…",
+      "summary": "クラウドの新着が20件。Amazon RDSの自動バックアップにタグを付けようとしたとき、予期しないエラーが発生しました。本記事では、実機検証を通じて、自動バックアップへのタグ付け方法を状況別に整理し、ドキュメントとの関係性を解説します。",
       "articles": [
         {
-          "title": "[アップデート] GuardDuty RDS Protection がデータアクティビティの監視に対応し、データ流出・破壊を検知できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/guardduty-update-rds-protection-data-activity/",
+          "title": "RDS 自動バックアップにタグを付けるには？既存バックアップと保持期間変更時の違い",
+          "link": "https://dev.classmethod.jp/articles/yutaka-memo-rds-auto-backup-add-tags/",
           "source": "DevelopersIO",
-          "published": "2026-10-21T00:12:48",
-          "excerpt": "Amazon GuardDuty の RDS Protection に新機能が追加されました。これまでのログイン監視に加えて、データアクティビティ（クエリパターン）の監視に対応し、大量データの取得や削除・破壊を検知できるようになりました。…"
+          "published": "2026-10-21T03:24:44",
+          "excerpt": "Amazon RDSの自動バックアップにタグを付けようとしたとき、予期しないエラーが発生しました。本記事では、実機検証を通じて、自動バックアップへのタグ付け方法を状況別に整理し、ドキュメントとの関係性を解説します。"
         },
         {
-          "title": "個人開発の次の一歩に、AWS移行をすすめたい —— 月1,000円で「運用できる」に手が届く",
-          "link": "https://qiita.com/Nagi_5417/items/d0b130bb3951b9d7787f",
+          "title": "CloudFront Functions のテスト機能で HTTP ヘッダー名の大文字・小文字を確認してみた",
+          "link": "https://qiita.com/Kagesyu/items/889cec1a31e80f530116",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-20T23:59:56",
-          "excerpt": "はじめに 個人開発で、動くものはひととおり作れるようになった。次は何をやるといいんだろう。私はその答えのひとつとして、すでに動いているアプリを Vercel から AWS へ移してみることをやりました。結論から言うと、やってよかったです。…"
+          "published": "2026-10-21T03:02:02",
+          "excerpt": "CloudFront Functions のテスト機能を使用して、HTTP ヘッダー名の大文字・小文字の扱いを確認したナレッジ紹介いたします。…"
         },
         {
-          "title": "S3 の Multi-Region Access Points でクロスリージョン参照性能が改善するか試してみた",
-          "link": "https://dev.classmethod.jp/articles/s3-multi-region-access-points-cross-region-latency/",
-          "source": "DevelopersIO",
-          "published": "2026-10-20T21:03:12",
-          "excerpt": "複数リージョンの Lambda からバージニア北部（us-east-1）の S3 を参照する構成で、Amazon S3 Multi-Region Access Points（MRAP）を使うと取得時間がどう変わるかを測りました。…"
+          "title": "EKS に Graviton を導入して、arm64 と amd64 を混ぜて運用を始めました | Social PLUS Tech Blogのフィード",
+          "link": "https://zenn.dev/socialplus/articles/eks-graviton-arm64-migration",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-21T03:00:07",
+          "excerpt": "こんにちは、ソーシャルPLUSの三口です!弊社では Amazon EKS 上で Rails のアプリケーションを動かしていますが、これまでノードはすべて Intel/AMD (amd64) のインスタンスでした。…"
         },
         {
-          "title": "CloudFront の Origin Shield で S3 へのクロスリージョン参照性能が改善するか試してみた",
-          "link": "https://dev.classmethod.jp/articles/cloudfront-origin-shield-s3-cross-region-latency/",
-          "source": "DevelopersIO",
-          "published": "2026-10-20T19:19:53",
-          "excerpt": "Lambda Web Functions で別リージョンの S3 を参照したときの遅延改善に、Origin Shield が有効かを検証しました。…"
+          "title": "大規模情報漏洩が相次ぐ背景と、インフラ側でできる対策",
+          "link": "https://qiita.com/N-Kyo/items/85d3b6880b05c628e3b9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-21T02:36:32",
+          "excerpt": "はじめに 近年、数百万件から1,000万件規模に及ぶ個人情報や機密データの漏洩インシデントが国内外で相次いで報じられています。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が27件。インドの認証局eMudhraの中間証明書8件で、秘密鍵が第三者でも瞬時に復元可能な状態だったと判明した。悪用されればWebサイトのなりすましが可能になる。…",
+      "summary": "セキュリティの新着が30件。記事の URL: https://jackalsyn.com/posts/php-up-2026.html コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
-          "title": "認証局eMudhraの中間証明書、秘密鍵が「数ミリ秒」で復元可能な脆弱性　大手各社が緊急遮断",
-          "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002444/",
+          "title": "PHPの重大な脆弱性が流出",
+          "link": "https://jackalsyn.com/posts/php-up-2026.html",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-21T04:26:56",
+          "excerpt": "記事の URL: https://jackalsyn.com/posts/php-up-2026.html コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "「侵入4分後にデータが消える」　AI悪用で“攻撃が速過ぎる”今、セキュリティチームが勝つには",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/21/news043.html",
+          "source": "@IT",
+          "published": "2026-10-21T04:00:00",
+          "excerpt": "サイバーセキュリティ企業CrowdStrikeは「2026年版グローバル脅威レポート」を発表した。AIを活用した攻撃者の活動が前年比89％増加し、偵察や認証情報の窃取、検知回避といった領域でAIを武器化する動きが加速しているという。"
+        },
+        {
+          "title": "「カーセンサー」などに不正アクセス、最大371万件の個人情報漏えいか　問い合わせ客の氏名・住所など",
+          "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002456/",
           "source": "ITmedia NEWS",
-          "published": "2026-10-21T00:17:27",
-          "excerpt": "インドの認証局eMudhraの中間証明書8件で、秘密鍵が第三者でも瞬時に復元可能な状態だったと判明した。悪用されればWebサイトのなりすましが可能になる。…"
+          "published": "2026-10-21T03:41:07",
+          "excerpt": "リクルートは10月21日、中古車情報サイト「カーセンサーnet」などへの不正アクセスにより、最大約371万件の個人情報が漏えいした可能性があると発表した。中古車販売店に問い合わせた利用者の氏名や住所などが対象で、販売店側の情報も含まれる。"
         },
         {
-          "title": "[アップデート] GuardDuty RDS Protection がデータアクティビティの監視に対応し、データ流出・破壊を検知できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/guardduty-update-rds-protection-data-activity/",
-          "source": "DevelopersIO",
-          "published": "2026-10-21T00:12:48",
-          "excerpt": "Amazon GuardDuty の RDS Protection に新機能が追加されました。これまでのログイン監視に加えて、データアクティビティ（クエリパターン）の監視に対応し、大量データの取得や削除・破壊を検知できるようになりました。…"
-        },
-        {
-          "title": "AWS Well-Architected フレームワークに基づくソフトウェアサプライチェーンセキュリティのベストプラクティス",
-          "link": "https://aws.amazon.com/jp/blogs/news/well-architected-best-practices-for-software-supply-chain-security/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-21T00:09:38",
-          "excerpt": "2025 年 9 月以降に相次ぐ、npm Registry を悪用した Shai-Hulud などのサプライチェーン攻撃を踏まえ、AWS Well-Architected フレームワークのセキュリティの柱に沿ったパッケージ利用者向けのベスト…"
-        },
-        {
-          "title": "CVE公表数は1ヵ月に1万件──フロンティアAI時代のセキュリティ課題にデジタル庁はどう向き合うか",
-          "link": "https://codezine.jp/article/detail/30015",
-          "source": "CodeZine",
-          "published": "2026-10-21T00:00:00",
-          "excerpt": "デジタル庁は、ガバメントクラウド上にGitLabを構築した開発基盤「GCAS DevStack」を提供している。CI/CDパイプラインにセキュリティ検査を組み込み、それをリポジトリのオーナーでも解除できない形で標準適用している。…"
+          "title": "PHPの重大な脆弱性「php2shell」（CVE-2026-109618、CVE-2026-109619）の概要と対応指針 - GMO Flatt Security Blog",
+          "link": "https://blog.flatt.tech/entry/php2shell",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-10-21T02:15:43",
+          "excerpt": "PHP開発チームは2026年10月20日（日本時間で深夜）、重大な脆弱性2件の修正パッチを、2026年10月21日 23時（日本時間）にリリース予定と告知しました。両件のCVSS v4.0スコアは9.2とされています。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。OpenAIは、ライフサイエンス研究用のAIモデルであるRosalindと、研究者が実験を計画し、結果を分析するのを支援することを目的とした関連ハーネスであるRosalind Workbenchツールに取り組むために、Orchestraのチ…",
+      "summary": "データ分析の新着が2件。Amazon DynamoDB グローバル テーブルでは、テーブルやデータを削除せずにレプリカの関連付けを解除できるようになりました。グローバル テーブルは、フルマネージド、マルチリージョン、マルチアクティブ レプリケーションを提供します。…",
       "articles": [
+        {
+          "title": "Amazon DynamoDB グローバル テーブルがレプリカの関連付け解除をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/dynamodb-global-tables-disassociate/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-10-20T23:00:00",
+          "excerpt": "Amazon DynamoDB グローバル テーブルでは、テーブルやデータを削除せずにレプリカの関連付けを解除できるようになりました。グローバル テーブルは、フルマネージド、マルチリージョン、マルチアクティブ レプリケーションを提供します。…"
+        },
         {
           "title": "OpenAI、バイオテクノロジー事業を強化するためにスタートアップの Or​​chestra Bio⁠ を買収",
           "link": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
           "source": "TechCrunch（英語）",
           "published": "2026-10-20T20:35:10",
           "excerpt": "OpenAIは、ライフサイエンス研究用のAIモデルであるRosalindと、研究者が実験を計画し、結果を分析するのを支援することを目的とした関連ハーネスであるRosalind Workbenchツールに取り組むために、Orchestraのチ…"
-        },
-        {
-          "title": "シングルセルRNA-seq応用解析：擬似系譜、RNA Velocity、サンプル間比較【BI入門⑭】 | バイオインフォマティクス実践ラボ｜アメリエフ技術ブログ",
-          "link": "https://staffblog.amelieff.jp/entry/2026/10/20/120000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-20T03:00:00",
-          "excerpt": "シングルセルRNA-seq解析におけるる、細胞の「時間的な変化」を追うための応用解析手法と、統合データを用いたサンプル間の高度な比較解析について解説します。"
-        },
-        {
-          "title": "ウォルマートのフリップカートはインドでフードデリバリーの挑戦者を静かに構築中",
-          "link": "https://techcrunch.com/2026/10/19/walmarts-flipkart-is-quietly-building-a-food-delivery-challenger-in-india/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-20T02:00:00",
-          "excerpt": "Flipkartは、一般公開に先立ち、食品配達サービスへのアクセスを数千人の従業員に拡大した。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。Kiro などの AI コーディングエージェントは開発を加速させる一方で、プロンプトインジェクションや過度に緩い設定、サプライチェーンリスク、スコープクリープなどのリスクをもたらします。…",
+      "summary": "開発ツールの新着が8件。記事の URL: https://github.com/xamrayev/nexus-cli コメント URL: https://news.ycombinator.com/item?id=50176129 ポイント: 3 コメント数: 0",
       "articles": [
+        {
+          "title": "Nexus-CLI – クロード コードと Ollama サポートを使用した DeepSeek R1/V3 への Pure Go ブリッジ",
+          "link": "https://github.com/xamrayev/nexus-cli",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-21T04:37:18",
+          "excerpt": "記事の URL: https://github.com/xamrayev/nexus-cli コメント URL: https://news.ycombinator.com/item?id=50176129 ポイント: 3 コメント数: 0"
+        },
+        {
+          "title": "GitHubのbranch protectionをrulesetへ一括移行する: Import branch protection rulesの挙動を確かめる",
+          "link": "https://dev.classmethod.jp/articles/github-branch-protection-convert-to-ruleset/",
+          "source": "DevelopersIO",
+          "published": "2026-10-21T02:21:05",
+          "excerpt": "branch protection ruleをrulesetへまとめて変換するImport branch protection rulesを試し、1ルールが2つに分かれる理由、FreeプランでのEvaluateの扱い、元のルールの残し方、会…"
+        },
         {
           "title": "スピードと安全性の両立: AI コーディングエージェントのためのコントロールフレームワーク",
           "link": "https://aws.amazon.com/jp/blogs/news/balancing-speed-and-safety-a-control-framework-for-ai-coding-agents/",
@@ -155,52 +162,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-10-21T00:00:07",
           "excerpt": "はじめに「field-reflection」は、1 つのヘッダファイルで構成された C++ ライブラリです。構造体のデータメンバー (以下、フィールド) の名前と型や、列挙子の名前を、コンパイル時に取り出します。…"
-        },
-        {
-          "title": "「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など",
-          "link": "https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html",
-          "source": "Publickey",
-          "published": "2026-10-20T15:10:05",
-          "excerpt": "Cloudflareは、AIを活用した業務のためのプラットフォームとなる「Cloudflare OS」のマネージドサービスを発表しました。現在ウェイティングリストへの登録を募集しています。AIを活用した業務アプリのプラットフォーム Clo.…"
-        },
-        {
-          "title": "第18回 Terraform講座｜実務演習② 高可用性を意識したAWS設計",
-          "link": "https://qiita.com/nyarusasu22/items/6749afc67bbeeef51252",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-20T09:12:35",
-          "excerpt": "前回は、会社から与えられた要件をもとに、 要件 → AWS構成 → Terraformリソース という順番で考える練習をした。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【AWS SOA-C03】約30時間で合格した勉強方法とAIを活用した苦手分野の克服",
-      "link": "https://qiita.com/hiroto15/items/86617e9839b9b2e091de",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-21T00:31:35",
-      "excerpt": "はじめに 新卒1年目エンジニアのhirotoです。この記事では、AWS Certified CloudOps Engineer - Associate（SOA-C03）に約1か月・30時間の学習で合格した際の勉強方法を紹介します。…"
-    },
-    {
-      "title": "JevでAWS AI Business Strategistの自作問題の質を上げてみた",
-      "link": "https://qiita.com/news_it_enj/items/35737c4d6947770e9f62",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-21T00:16:15",
-      "excerpt": "はじめに 前回、AI-DLC（AI駆動開発ライフサイクル）でAWSの新認定「AWS Certified AI Business Strategist」の模擬試験サイトを作りました。…"
-    },
-    {
-      "title": "Amazon Linux で npm と pip のパッケージ更新を安全にする方法",
-      "link": "https://aws.amazon.com/jp/blogs/news/secure-your-npm-and-pip-package-updates-in-amazon-linux/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-10-21T00:12:31",
-      "excerpt": "npm や PyPI のパッケージは、公開直後の数時間に最もサプライチェーンのリスクが高くなります。…"
-    },
-    {
-      "title": "Microagi: 身体的 AGI を加速する",
-      "link": "https://www.microagi.ai/",
+      "title": "ピローフォートは閉店します",
+      "link": "https://www.pillowfort.social/posts/8413273",
       "source": "Hacker News（英語）",
-      "published": "2026-10-21T00:11:30",
-      "excerpt": "記事の URL: https://www.microagi.ai/ コメント URL: https://news.ycombinator.com/item?id=50174448 ポイント: 3 コメント数: 0"
+      "published": "2026-10-21T05:05:37",
+      "excerpt": "記事の URL: https://www.pillowfort.social/posts/8413273 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "バトルゾーン オンライン: ブラウザーの BZFlag",
+      "link": "https://github.com/timriker/bzo",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-21T05:05:19",
+      "excerpt": "記事の URL: https://github.com/timriker/bzo コメント URL: https://news.ycombinator.com/item?id=50176298 ポイント: 3 コメント数: 0"
+    },
+    {
+      "title": "CircleCI、AIコーディングワークフローにCI検証機能を直接組み込む「Chunk Sidecars」を導入",
+      "link": "https://www.infoq.com/jp/news/2026/10/circleci-chunk-sidecars/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ（日本語）",
+      "published": "2026-10-21T04:30:00",
+      "excerpt": "CircleCIは、「Chunk Sidecars」という新機能をリリースした。これは、CIスタイルの検証をAIコーディングエージェントの内部開発ループに直接組み込むことを目的としたものだ。…"
+    },
+    {
+      "title": "漏えい公表ラッシュは「検知の向上」か「攻撃の増加」か　専門家に聞いた",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2610/21/news032.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-10-21T04:30:00",
+      "excerpt": "2026年9月下旬から情報漏えいやサイバー被害の公表が途切れなく続く。攻撃が増えたのか、検知精度が上がったのか、そもそも企業側の何が変わったのか。"
     }
   ]
 }
