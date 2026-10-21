@@ -1,119 +1,133 @@
 {
-  "generated_at": "2026-10-21T05:30:12",
+  "generated_at": "2026-10-21T10:27:18",
   "window_hours": 24,
-  "total": 213,
+  "total": 205,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が24件。アクセンチュアとGoogle Cloud、「Gemini Enterprise」専門の新組織を設立",
+      "summary": "生成AIの新着が19件。1PasswordのSSH Agentを使ってSSHの秘密鍵を端末に保存せずにsshしていたのですが、急にエラーが出ました。どういうエラーだったのか、どう対処したのかまとめました。",
       "articles": [
         {
-          "title": "アクセンチュアとGoogle Cloud、「Gemini Enterprise」専門の新組織を設立",
-          "link": "https://codezine.jp/article/detail/30084",
-          "source": "CodeZine",
-          "published": "2026-10-21T04:40:00",
-          "excerpt": "アクセンチュアとGoogle Cloud、「Gemini Enterprise」専門の新組織を設立"
-        },
-        {
-          "title": "Anthropic、ハッカソン「Built with Claude: Japan 2026」を開催、参加者にMax 5x PlanとAPIクレジットを提供",
-          "link": "https://codezine.jp/article/detail/30083",
-          "source": "CodeZine",
-          "published": "2026-10-21T04:30:00",
-          "excerpt": "Anthropic、ハッカソン「Built with Claude: Japan 2026」を開催、参加者にMax 5x PlanとAPIクレジットを提供"
-        },
-        {
-          "title": "Google スプレッドシートのGeminiがiOSデバイスで利用可能に",
-          "link": "https://codezine.jp/article/detail/30076",
-          "source": "CodeZine",
-          "published": "2026-10-21T04:00:00",
-          "excerpt": "Google スプレッドシートのGeminiがiOSデバイスで利用可能に"
-        },
-        {
-          "title": "DevOps Agent のイベントトリガとスキップ用スキルで、低優先度アラームをカスタムエージェントに振り分けてみる",
-          "link": "https://dev.classmethod.jp/articles/devops-agent-event-trigger-skip-low-priority/",
+          "title": "1PasswordのSSH Agentを使ってLinuxサーバーにログインしようとしたらToo many authentication failuresとエラーが出た",
+          "link": "https://dev.classmethod.jp/articles/1password-ssh-agent-too-many-authentication-failures/",
           "source": "DevelopersIO",
-          "published": "2026-10-21T02:37:43",
-          "excerpt": "AWS DevOps Agent のカスタムエージェントにイベントトリガが追加されたので、動作検証してみました。Webhook で届いたイベントに応じて軽量なエージェントを起動し、優先度に応じた効率的な対応ができるか？…"
+          "published": "2026-10-21T09:30:14",
+          "excerpt": "1PasswordのSSH Agentを使ってSSHの秘密鍵を端末に保存せずにsshしていたのですが、急にエラーが出ました。どういうエラーだったのか、どう対処したのかまとめました。"
+        },
+        {
+          "title": "AWS DevOps Agent で調査コストを事前に制御する",
+          "link": "https://aws.amazon.com/jp/blogs/news/control-investigation-costs-before-they-start-with-aws-devops-agent/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-21T08:03:15",
+          "excerpt": "AWS DevOps Agent のような自律型 AI エージェントは、調査中に呼び出す API、回数、対象スコープを動的に判断します。そのため、調査能力だけでなく、実行前にコストを把握して制御する仕組みも重要です。…"
+        },
+        {
+          "title": "Pendo、AIエージェントの体験向上と投資対効果を高める「Pendo for Agents」を提供開始",
+          "link": "https://codezine.jp/article/detail/30085",
+          "source": "CodeZine",
+          "published": "2026-10-21T05:30:00",
+          "excerpt": "Pendo、AIエージェントの体験向上と投資対効果を高める「Pendo for Agents」を提供開始"
+        },
+        {
+          "title": "Amazon Bedrock Guardrails を AnswerCarefully で試してみた",
+          "link": "https://zenn.dev/aws_japan/articles/bedrock-guardrails-japanese-tier",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-21T05:08:24",
+          "excerpt": "Amazon Bedrock Guardrails は、生成 AI モデルに届く前の入力と、モデルが生成した後の出力を検査します。有害だと判定した内容は、利用者へ渡さずにブロックできます。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。Amazon RDSの自動バックアップにタグを付けようとしたとき、予期しないエラーが発生しました。本記事では、実機検証を通じて、自動バックアップへのタグ付け方法を状況別に整理し、ドキュメントとの関係性を解説します。",
+      "summary": "クラウドの新着が20件。はじめに 多要素認証（MFA）の理解が浅い部分があったので、仕様を詰める前に一度動くものを触ってみたくなりました。…",
       "articles": [
         {
-          "title": "RDS 自動バックアップにタグを付けるには？既存バックアップと保持期間変更時の違い",
-          "link": "https://dev.classmethod.jp/articles/yutaka-memo-rds-auto-backup-add-tags/",
-          "source": "DevelopersIO",
-          "published": "2026-10-21T03:24:44",
-          "excerpt": "Amazon RDSの自動バックアップにタグを付けようとしたとき、予期しないエラーが発生しました。本記事では、実機検証を通じて、自動バックアップへのタグ付け方法を状況別に整理し、ドキュメントとの関係性を解説します。"
-        },
-        {
-          "title": "CloudFront Functions のテスト機能で HTTP ヘッダー名の大文字・小文字を確認してみた",
-          "link": "https://qiita.com/Kagesyu/items/889cec1a31e80f530116",
+          "title": "S3 + CloudFront + Lambda で、メールOTPの多要素認証を小さく作ってみた",
+          "link": "https://qiita.com/Tom-Panasonic/items/f6352289ec4114a8c26d",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-21T03:02:02",
-          "excerpt": "CloudFront Functions のテスト機能を使用して、HTTP ヘッダー名の大文字・小文字の扱いを確認したナレッジ紹介いたします。…"
+          "published": "2026-10-21T09:54:29",
+          "excerpt": "はじめに 多要素認証（MFA）の理解が浅い部分があったので、仕様を詰める前に一度動くものを触ってみたくなりました。…"
         },
         {
-          "title": "EKS に Graviton を導入して、arm64 と amd64 を混ぜて運用を始めました | Social PLUS Tech Blogのフィード",
-          "link": "https://zenn.dev/socialplus/articles/eks-graviton-arm64-migration",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-21T03:00:07",
-          "excerpt": "こんにちは、ソーシャルPLUSの三口です!弊社では Amazon EKS 上で Rails のアプリケーションを動かしていますが、これまでノードはすべて Intel/AMD (amd64) のインスタンスでした。…"
-        },
-        {
-          "title": "大規模情報漏洩が相次ぐ背景と、インフラ側でできる対策",
-          "link": "https://qiita.com/N-Kyo/items/85d3b6880b05c628e3b9",
+          "title": "Lambda Web Functionsについて！",
+          "link": "https://qiita.com/PDC-Kurashinak/items/510620a2938af38f319d",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-21T02:36:32",
-          "excerpt": "はじめに 近年、数百万件から1,000万件規模に及ぶ個人情報や機密データの漏洩インシデントが国内外で相次いで報じられています。…"
+          "published": "2026-10-21T07:47:02",
+          "excerpt": "どうもこんにちは。2026/10/12にLambda Web Functionsが発表されましたね。ついこの前、Lambda Web Adapterの記事を書いた僕にとっては、「この記事もうおじゃんになるんじゃね！…"
+        },
+        {
+          "title": "[AWS]NATゲートウェイを使ってプライベートサブネットのEC2から外に出る",
+          "link": "https://zenn.dev/77nnaapp/articles/ea51e2df1f96f4",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-21T04:15:56",
+          "excerpt": "STEP 1：プライベートサブネットを作成する 項目 設定値 VPC aws-lab-vpc サブネット名 aws-lab-private-subnet-1a アベイラビリティーゾーン ap-northeast-1a IPv4 CIDR 1…"
+        },
+        {
+          "title": "リモート MCP サーバーを AWS Lambda Web Functions で動かす",
+          "link": "https://zenn.dev/aws_japan/articles/9ff1e66545dae4",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-21T04:14:07",
+          "excerpt": "ちょこっと自己紹介 こんにちは！AWS Japan の yumano です。新卒で AWS Japan に Solutions Architect として入社してから 1 年と 2 ヶ月が経ちました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が30件。記事の URL: https://jackalsyn.com/posts/php-up-2026.html コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が32件。はじめに 多要素認証（MFA）の理解が浅い部分があったので、仕様を詰める前に一度動くものを触ってみたくなりました。…",
       "articles": [
         {
-          "title": "PHPの重大な脆弱性が流出",
-          "link": "https://jackalsyn.com/posts/php-up-2026.html",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-21T04:26:56",
-          "excerpt": "記事の URL: https://jackalsyn.com/posts/php-up-2026.html コメント URL: https://news.ycombinator.com/item?…"
+          "title": "S3 + CloudFront + Lambda で、メールOTPの多要素認証を小さく作ってみた",
+          "link": "https://qiita.com/Tom-Panasonic/items/f6352289ec4114a8c26d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-21T09:54:29",
+          "excerpt": "はじめに 多要素認証（MFA）の理解が浅い部分があったので、仕様を詰める前に一度動くものを触ってみたくなりました。…"
         },
         {
-          "title": "「侵入4分後にデータが消える」　AI悪用で“攻撃が速過ぎる”今、セキュリティチームが勝つには",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/21/news043.html",
-          "source": "@IT",
-          "published": "2026-10-21T04:00:00",
-          "excerpt": "サイバーセキュリティ企業CrowdStrikeは「2026年版グローバル脅威レポート」を発表した。AIを活用した攻撃者の活動が前年比89％増加し、偵察や認証情報の窃取、検知回避といった領域でAIを武器化する動きが加速しているという。"
-        },
-        {
-          "title": "「カーセンサー」などに不正アクセス、最大371万件の個人情報漏えいか　問い合わせ客の氏名・住所など",
-          "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002456/",
+          "title": "PHP緊急脆弱性「php2shell」パッチ今夜11時公開、その前にできる対策は……GMO系セキュリティ企業が提唱【更新】",
+          "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002462/",
           "source": "ITmedia NEWS",
-          "published": "2026-10-21T03:41:07",
-          "excerpt": "リクルートは10月21日、中古車情報サイト「カーセンサーnet」などへの不正アクセスにより、最大約371万件の個人情報が漏えいした可能性があると発表した。中古車販売店に問い合わせた利用者の氏名や住所などが対象で、販売店側の情報も含まれる。"
+          "published": "2026-10-21T09:51:40",
+          "excerpt": "GMO Flatt Securityは、脆弱性を「メモリ破壊系バグ」と推定。今回の脆弱性が同社の独自調査の結果と一致していれば、PHPのSession Upload Progress機能に関わるものだとみる。【更新】"
         },
         {
-          "title": "PHPの重大な脆弱性「php2shell」（CVE-2026-109618、CVE-2026-109619）の概要と対応指針 - GMO Flatt Security Blog",
-          "link": "https://blog.flatt.tech/entry/php2shell",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-21T02:15:43",
-          "excerpt": "PHP開発チームは2026年10月20日（日本時間で深夜）、重大な脆弱性2件の修正パッチを、2026年10月21日 23時（日本時間）にリリース予定と告知しました。両件のCVSS v4.0スコアは9.2とされています。…"
+          "title": "著名ITサービス相次いで緊急メンテへ　コドモン、シャドバ、BASE、さくらのレンタルサーバなど　「PHP」脆弱性に起因か",
+          "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002472/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-21T08:47:19",
+          "excerpt": "保育園向けSaaS「コドモン」、ゲーム「Shadowverse: Worlds Beyond」「さくらのレンタルサーバ」といった著名サービスが相次いで緊急メンテナンスに入ったり、同日午後11時ごろからのメンテナンスを予告したりしている。…"
+        },
+        {
+          "title": "php2shell の告知を受けて、ALB の AWS WAF で multipart POST を止める・絞るルールを試してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-waf-alb-block-multipart-post/",
+          "source": "DevelopersIO",
+          "published": "2026-10-21T07:33:26",
+          "excerpt": "ALB 配下の PHP アプリを想定して、AWS WAF で multipart/form-data の POST を止める・絞るルールを試しました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。Amazon DynamoDB グローバル テーブルでは、テーブルやデータを削除せずにレプリカの関連付けを解除できるようになりました。グローバル テーブルは、フルマネージド、マルチリージョン、マルチアクティブ レプリケーションを提供します。…",
+      "summary": "データ分析の新着が4件。Article URL: https://scotthelme.co.…",
       "articles": [
+        {
+          "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+          "link": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-21T09:08:08",
+          "excerpt": "Article URL: https://scotthelme.co.…"
+        },
+        {
+          "title": "AWS Glue StudioでVisual ETLの編集作業をする際はインタラクティブセッションの課金に注意しよう",
+          "link": "https://dev.classmethod.jp/articles/glue-studio-visual-etl-interactive-session-cost/",
+          "source": "DevelopersIO",
+          "published": "2026-10-21T07:14:15",
+          "excerpt": "他の人が踏み抜いた地雷があるということは、自分もそれを踏み抜く可能性があるということ。知っていれば避けられるものの、知らなければ明日は我が身。Glue Studioを利用する場合はインタラクティブセッションの存在に注意しましょう。…"
+        },
         {
           "title": "Amazon DynamoDB グローバル テーブルがレプリカの関連付け解除をサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/dynamodb-global-tables-disassociate/",
@@ -133,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。記事の URL: https://github.com/xamrayev/nexus-cli コメント URL: https://news.ycombinator.com/item?id=50176129 ポイント: 3 コメント数: 0",
+      "summary": "開発ツールの新着が7件。本日、Kiro IDE と CLI にメモリ機能を導入します。Kiro は、あなたが好む作業の進め方、リポジトリ固有のコマンドや規約、受けた訂正、デバッグで得た知見、すでに除外したアプローチを覚えておけるようになります。…",
       "articles": [
+        {
+          "title": "Kiro IDE と CLI にメモリ機能が登場",
+          "link": "https://aws.amazon.com/jp/blogs/news/memory-in-ide-cli/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-21T09:38:21",
+          "excerpt": "本日、Kiro IDE と CLI にメモリ機能を導入します。Kiro は、あなたが好む作業の進め方、リポジトリ固有のコマンドや規約、受けた訂正、デバッグで得た知見、すでに除外したアプローチを覚えておけるようになります。…"
+        },
+        {
+          "title": "GitHub、異常トラフィック時に一部のHTTPS経由のGit操作で一時的に認証を要求",
+          "link": "https://codezine.jp/article/detail/30078",
+          "source": "CodeZine",
+          "published": "2026-10-21T07:00:00",
+          "excerpt": "GitHub、異常トラフィック時に一部のHTTPS経由のGit操作で一時的に認証を要求"
+        },
         {
           "title": "Nexus-CLI – クロード コードと Ollama サポートを使用した DeepSeek R1/V3 への Pure Go ブリッジ",
           "link": "https://github.com/xamrayev/nexus-cli",
@@ -148,52 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-10-21T02:21:05",
           "excerpt": "branch protection ruleをrulesetへまとめて変換するImport branch protection rulesを試し、1ルールが2つに分かれる理由、FreeプランでのEvaluateの扱い、元のルールの残し方、会…"
-        },
-        {
-          "title": "スピードと安全性の両立: AI コーディングエージェントのためのコントロールフレームワーク",
-          "link": "https://aws.amazon.com/jp/blogs/news/balancing-speed-and-safety-a-control-framework-for-ai-coding-agents/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-21T00:15:14",
-          "excerpt": "Kiro などの AI コーディングエージェントは開発を加速させる一方で、プロンプトインジェクションや過度に緩い設定、サプライチェーンリスク、スコープクリープなどのリスクをもたらします。…"
-        },
-        {
-          "title": "構造体のフィールド名を取り出す field-reflection: C++20 の黒魔術から C++26 の静的リフレクションへ | Fixstars Amplify テックブログのフィード",
-          "link": "https://zenn.dev/amplify/articles/8de064ebea337c",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-21T00:00:07",
-          "excerpt": "はじめに「field-reflection」は、1 つのヘッダファイルで構成された C++ ライブラリです。構造体のデータメンバー (以下、フィールド) の名前と型や、列挙子の名前を、コンパイル時に取り出します。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ピローフォートは閉店します",
-      "link": "https://www.pillowfort.social/posts/8413273",
+      "title": "Whatever Happened to Fire Escapes",
+      "link": "https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes",
       "source": "Hacker News（英語）",
-      "published": "2026-10-21T05:05:37",
-      "excerpt": "記事の URL: https://www.pillowfort.social/posts/8413273 コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-10-21T10:14:43",
+      "excerpt": "Article URL: https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes Comments URL: https://news.…"
     },
     {
-      "title": "バトルゾーン オンライン: ブラウザーの BZFlag",
-      "link": "https://github.com/timriker/bzo",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-21T05:05:19",
-      "excerpt": "記事の URL: https://github.com/timriker/bzo コメント URL: https://news.ycombinator.com/item?id=50176298 ポイント: 3 コメント数: 0"
+      "title": "The spec is the new code, so brush up on your prose, says Kaseya CTO",
+      "link": "https://www.theregister.com/software/2026/10/21/the-spec-is-the-new-code-so-brush-up-on-your-prose-says-kaseya-cto/5304002",
+      "source": "The Register（英語）",
+      "published": "2026-10-21T10:00:00",
+      "excerpt": "Domain expertise and clear writing will matter more than syntax, and yes, that means documentation"
     },
     {
-      "title": "CircleCI、AIコーディングワークフローにCI検証機能を直接組み込む「Chunk Sidecars」を導入",
-      "link": "https://www.infoq.com/jp/news/2026/10/circleci-chunk-sidecars/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ（日本語）",
-      "published": "2026-10-21T04:30:00",
-      "excerpt": "CircleCIは、「Chunk Sidecars」という新機能をリリースした。これは、CIスタイルの検証をAIコーディングエージェントの内部開発ループに直接組み込むことを目的としたものだ。…"
+      "title": "Kiro はどのように自らを修正し、その修正の正しさをどう担保しているか",
+      "link": "https://aws.amazon.com/jp/blogs/news/how-kiro-fixes-itself/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-10-21T09:41:47",
+      "excerpt": "Kiro のファイル読み取りツールと検索ツールの説明に、ハーネスの動作について事実と異なる主張をする一文がありました。この一文は数百のセッションで 61,742 回モデルに届いていました。…"
     },
     {
-      "title": "漏えい公表ラッシュは「検知の向上」か「攻撃の増加」か　専門家に聞いた",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2610/21/news032.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-10-21T04:30:00",
-      "excerpt": "2026年9月下旬から情報漏えいやサイバー被害の公表が途切れなく続く。攻撃が増えたのか、検知精度が上がったのか、そもそも企業側の何が変わったのか。"
+      "title": "Happiness is the next AI KPI if Oxford boffins have their way",
+      "link": "https://www.theregister.com/offbeat/2026/10/21/happiness-is-the-next-ai-kpi-if-oxford-boffins-have-their-way/5304253",
+      "source": "The Register（英語）",
+      "published": "2026-10-21T09:15:00",
+      "excerpt": "Researchers say public subsidies for AI should be repaid in wellbeing, not just economic growth"
     }
   ]
 }
