@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-10-21T15:28:22",
+  "generated_at": "2026-10-21T19:26:42",
   "window_hours": 24,
-  "total": 208,
+  "total": 212,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が24件。https://patchtheplanet.org/ コメント URL: https://news.ycombinator.com/item?id=50181175 ポイント: 75 コメント数: 35",
+      "summary": "生成AIの新着が27件。Article URL: https://claude.com/product/claude-duet Comments URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
-          "title": "Patch the Planet: エージェントが脆弱性を発見する際の世界的な対応調整",
-          "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "title": "Claude Duet",
+          "link": "https://claude.com/product/claude-duet",
           "source": "Hacker News（英語）",
-          "published": "2026-10-21T14:03:43",
-          "excerpt": "https://patchtheplanet.org/ コメント URL: https://news.ycombinator.com/item?id=50181175 ポイント: 75 コメント数: 35"
+          "published": "2026-10-21T19:14:01",
+          "excerpt": "Article URL: https://claude.com/product/claude-duet Comments URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "PyPI 上の侵害された LiteLLM 1.107.0 により、資格情報スティーラーとバックドアがインストールされる",
-          "link": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+          "title": "Anthropic's Public Benefit Charter",
+          "link": "https://www.anthropic.com/public-benefit-charter",
           "source": "Hacker News（英語）",
-          "published": "2026-10-21T14:00:26",
-          "excerpt": "記事の URL: https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/ コメント URL: https://news.ycombinator.…"
+          "published": "2026-10-21T18:29:54",
+          "excerpt": "Article URL: https://www.anthropic.com/public-benefit-charter Comments URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "LiteLLMパッケージ 再侵害の概要と対策指針 | GMO Flatt Security Blog",
-          "link": "https://blog.flatt.tech/entry/litellm_2nd_compromise",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-21T12:27:33",
-          "excerpt": "2026年10月21日、PyPI パッケージ litellm に悪性コードが注入されました。2026年3月に発生した事案とは別の再侵害が発生しています。注入された悪性コードは、Infostealer機能を持つマルウェアです。…"
+          "title": "LiteLLM supply chain attack hoovers up passwords and secrets",
+          "link": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
+          "source": "The Register（英語）",
+          "published": "2026-10-21T18:22:20",
+          "excerpt": "Plus a RAT for good measure - get threat hunting now"
         },
         {
-          "title": "Claude Code v2.1.305〜v2.1.306 の主要アップデート - allowedMcpServers の挙動変更と tool search 回帰修正",
-          "link": "https://dev.classmethod.jp/articles/20261021-cc-updates-v2-1-306/",
-          "source": "DevelopersIO",
-          "published": "2026-10-21T10:52:07",
-          "excerpt": "Claude Code v2.1.305〜v2.1.306（2026年10月20日〜21日公開）のアップデートをまとめてご紹介します。…"
+          "title": "PHP armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+          "link": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-21T17:59:12",
+          "excerpt": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI."
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。TL;DR Playwright の E2E が、テストの途中で DB を直接読み、バッチも起動する作りでした。…",
+      "summary": "クラウドの新着が18件。Plus a RAT for good measure - get threat hunting now",
       "articles": [
+        {
+          "title": "LiteLLM supply chain attack hoovers up passwords and secrets",
+          "link": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
+          "source": "The Register（英語）",
+          "published": "2026-10-21T18:22:20",
+          "excerpt": "Plus a RAT for good measure - get threat hunting now"
+        },
+        {
+          "title": "Amazon Aurora and Amazon RDS now support On-Demand Capacity Reservations",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-aurora-rds-on-demand-capacity-reservations/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-10-21T17:00:00",
+          "excerpt": "Starting today, you can reserve compute capacity for your Amazon Aurora and Amazon RDS DB instances in one or more Avail…"
+        },
         {
           "title": "DBを直接引くPlaywright E2Eを、GitHub ActionsからVPC内の使い捨てECSタスク1つで回す",
           "link": "https://qiita.com/zucky-quest/items/615b446b2d93a2214a13",
@@ -57,63 +71,56 @@
           "source": "The Register（英語）",
           "published": "2026-10-21T12:00:00",
           "excerpt": "これは警鐘だと考えてください"
-        },
-        {
-          "title": "S3 + CloudFront + Lambda で、メールOTPの多要素認証を小さく作ってみた",
-          "link": "https://qiita.com/Tom-Panasonic/items/f6352289ec4114a8c26d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-21T09:54:29",
-          "excerpt": "はじめに 多要素認証（MFA）の理解が浅い部分があったので、仕様を詰める前に一度動くものを触ってみたくなりました。…"
-        },
-        {
-          "title": "Lambda Web Functionsについて！",
-          "link": "https://qiita.com/PDC-Kurashinak/items/510620a2938af38f319d",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-21T07:47:02",
-          "excerpt": "どうもこんにちは。2026/10/12にLambda Web Functionsが発表されましたね。ついこの前、Lambda Web Adapterの記事を書いた僕にとっては、「この記事もうおじゃんになるんじゃね！…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が36件。Amazon Linux 2023 の PHP を CVE-2026-109618 / 109619 の修正版へ自前ビルドで上げる（公式パッケージ配布前の暫定対応） はじめに 2026-10-21 に PHP の修正版 8.2.…",
+      "summary": "セキュリティの新着が36件。From AI-discovered PHP vulnerabilities to flaws in Node.…",
       "articles": [
+        {
+          "title": "The internet is having a very bad cybersecurity day",
+          "link": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-21T19:03:28",
+          "excerpt": "From AI-discovered PHP vulnerabilities to flaws in Node.…"
+        },
+        {
+          "title": "PHP脆弱性php2shell対応、7.4本番を止めずに守った夜と実際の攻撃",
+          "link": "https://qiita.com/kenimo49/items/30f290bf0f4fff021fb3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-21T17:15:15",
+          "excerpt": "2026 年 10 月 21 日 21 時 55 分、高市総理が X にこう投稿しました。修正パッチを速やかに適用することが困難な場合は、例えばウェブサイト等を一時的に停止させることも、リスクを低減させるための有効策の一つと考えられます。…"
+        },
+        {
+          "title": "PHPの「緊急」レベルの脆弱性、開発元が修正バージョン公開　「直ちにアップデートを」",
+          "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002480/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-21T15:53:13",
+          "excerpt": "PHPの開発プロジェクトは、「緊急」レベルの脆弱性2件を修正したPHP 8.5.12／8.4.27／8.3.36／8.2.35を公開した。20日に予告していたアップデートで、リモートコード実行に関する脆弱性を修正したという。…"
+        },
         {
           "title": "Amazon Linux 2023 の PHP を CVE-2026-109618 修正版へ先行ビルドする",
           "link": "https://qiita.com/amu-kuroneko/items/46f00fbe8b5bac009c1c",
           "source": "Qiita AWSタグ",
           "published": "2026-10-21T15:02:18",
           "excerpt": "Amazon Linux 2023 の PHP を CVE-2026-109618 / 109619 の修正版へ自前ビルドで上げる（公式パッケージ配布前の暫定対応） はじめに 2026-10-21 に PHP の修正版 8.2.…"
-        },
-        {
-          "title": "Patch the Planet: エージェントが脆弱性を発見する際の世界的な対応調整",
-          "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-21T14:03:43",
-          "excerpt": "https://patchtheplanet.org/ コメント URL: https://news.ycombinator.com/item?id=50181175 ポイント: 75 コメント数: 35"
-        },
-        {
-          "title": "LiteLLMパッケージ 再侵害の概要と対策指針 | GMO Flatt Security Blog",
-          "link": "https://blog.flatt.tech/entry/litellm_2nd_compromise",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-21T12:27:33",
-          "excerpt": "2026年10月21日、PyPI パッケージ litellm に悪性コードが注入されました。2026年3月に発生した事案とは別の再侵害が発生しています。注入された悪性コードは、Infostealer機能を持つマルウェアです。…"
-        },
-        {
-          "title": "[AWS]セキュリティグループとNACLの違いを実際に試す",
-          "link": "https://zenn.dev/77nnaapp/articles/b830b79235a53e",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-21T11:35:15",
-          "excerpt": "[AWS]セキュリティグループとNACLの違いを実際に試す インターネットからパブリックに設置したEC2とSSH接続を可能にする。現状NACLなしのところにNACLを適用したうえ通信できること。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。記事の URL: https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/ コメント URL: https://news.…",
+      "summary": "データ分析の新着が6件。OpenEvidence is booming despite questions about accuracy and ads.",
       "articles": [
+        {
+          "title": "The $15 billion ad-powered AI startup your doctor may already be using",
+          "link": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-10-21T15:14:07",
+          "excerpt": "OpenEvidence is booming despite questions about accuracy and ads."
+        },
         {
           "title": "8 ビットの信頼。 eMudhraのCAキーはミリ秒でクラックされる",
           "link": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
@@ -134,21 +141,21 @@
           "source": "DevelopersIO",
           "published": "2026-10-21T07:14:15",
           "excerpt": "他の人が踏み抜いた地雷があるということは、自分もそれを踏み抜く可能性があるということ。知っていれば避けられるものの、知らなければ明日は我が身。Glue Studioを利用する場合はインタラクティブセッションの存在に注意しましょう。…"
-        },
-        {
-          "title": "Amazon DynamoDB グローバル テーブルがレプリカの関連付け解除をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/dynamodb-global-tables-disassociate/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-20T23:00:00",
-          "excerpt": "Amazon DynamoDB グローバル テーブルでは、テーブルやデータを削除せずにレプリカの関連付けを解除できるようになりました。グローバル テーブルは、フルマネージド、マルチリージョン、マルチアクティブ レプリケーションを提供します。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。TL;DR Playwright の E2E が、テストの途中で DB を直接読み、バッチも起動する作りでした。…",
+      "summary": "開発ツールの新着が10件。Article URL: https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/ Comments URL: https://news.…",
       "articles": [
+        {
+          "title": "GitLab CVSS 10.0 Integer Overflow issue",
+          "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-21T19:01:12",
+          "excerpt": "Article URL: https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/ Comments URL: https://news.…"
+        },
         {
           "title": "DBを直接引くPlaywright E2Eを、GitHub ActionsからVPC内の使い捨てECSタスク1つで回す",
           "link": "https://qiita.com/zucky-quest/items/615b446b2d93a2214a13",
@@ -169,45 +176,38 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-10-21T09:38:21",
           "excerpt": "本日、Kiro IDE と CLI にメモリ機能を導入します。Kiro は、あなたが好む作業の進め方、リポジトリ固有のコマンドや規約、受けた訂正、デバッグで得た知見、すでに除外したアプローチを覚えておけるようになります。…"
-        },
-        {
-          "title": "Amplify Gen 2で作る業務システム、DynamoDBよりRDBの方が扱いやすいのでは？",
-          "link": "https://zenn.dev/ky_iwanami/articles/amplify-gen2-rdb-business-system",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-21T08:42:45",
-          "excerpt": "TL;DR 小規模な業務システムでも、柔軟な検索条件への対応や継続的な要件変更が求められるなら、Amplify Gen 2でRDBを使う構成を選びたい。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定",
-      "link": "https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html",
-      "source": "Publickey",
-      "published": "2026-10-21T15:42:36",
-      "excerpt": "Cloudflareは、TypeScriptをRustに移植した「tsrs」を発表しました。下記は、Cloudflareに買収されたVoidZeroによるtsrsに関するポストです。VoidZeroもこのtsrsの開発に関わっています。..…"
-    },
-    {
-      "title": "サイト所有者が警告したように PHP 開発者が重大なバグ修正を公開: パッチが適用されていない場合はオフラインにする",
-      "link": "https://www.theregister.com/security/2026/10/21/php-devs-publish-critical-bug-fix-as-site-owners-warned-pull-em-offline-if-youre-unpatched/5304519",
+      "title": "Nvidia woos wary Europeans with more open weights models",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/21/nvidia-woos-wary-europeans-with-more-open-weights-models/5304552",
       "source": "The Register（英語）",
-      "published": "2026-10-21T15:08:51",
-      "excerpt": "エクスプロイトがすでに公開されているため、予防措置としてウェブサイトを停止"
+      "published": "2026-10-21T19:00:00",
+      "excerpt": "New embedding, parsing, and reranking models promise smarter agentic RAG workflows"
     },
     {
-      "title": "ジェンセン・ファンは、Nvidia の AI どこでもビジョンを売り込むためにアヒルのロボットを送り込む",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/21/jensen-huang-sends-in-the-robot-ducks-to-sell-nvidias-ai-everywhere-vision/5304472",
-      "source": "The Register（英語）",
-      "published": "2026-10-21T15:00:00",
-      "excerpt": "ベルリンの基調講演ではコンテナ化されたデータセンター、アンドロイド、通信がすべて取り上げられ、環境抗議活動参加者によって中断された"
+      "title": "Legal AI startup Legora raises $550M Series E at $8.8B valuation",
+      "link": "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-21T18:51:56",
+      "excerpt": "Legal AI startup Legora announced Wednesday that it raised a $550 million Series E round, valuing it at $8.8 billion."
     },
     {
-      "title": "GTC Berlin 2026 の Jensen Huang 基調講演をまとめてみた",
-      "link": "https://dev.classmethod.jp/articles/nvidia-gtc-berlin-2026-keynote-report/",
-      "source": "DevelopersIO",
-      "published": "2026-10-21T14:09:15",
-      "excerpt": "GTC Berlin 2026 の基調講演を同日の公式発表をもとに整理しました。…"
+      "title": "Canary Tokens",
+      "link": "https://canarytokens.org/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-21T18:45:04",
+      "excerpt": "https://docs.canarytokens.org/guide/ Comments URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "Corporate Linux",
+      "link": "https://lpar.ATH0.com/posts/2026/10/corporate-linux/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-21T18:27:54",
+      "excerpt": "Article URL: https://lpar.ATH0.com/posts/2026/10/corporate-linux/ Comments URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
