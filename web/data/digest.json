@@ -1,125 +1,132 @@
 {
-  "generated_at": "2026-10-22T12:09:50",
+  "generated_at": "2026-10-22T17:24:24",
   "window_hours": 24,
-  "total": 189,
+  "total": 188,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が27件。AWS Provider に aws_devopsagent_agent_space が追加されたので、AWS DevOps Agent の Agent Space を Terraform で作ってみた",
+      "summary": "生成AIの新着が29件。記事の URL: https://intenex.github.io/personhood/ コメント URL: https://news.ycombinator.com/item?id=50198056 ポイント: 8 コメント数: 1",
       "articles": [
         {
-          "title": "AWS Provider に aws_devopsagent_agent_space が追加されたので、AWS DevOps Agent の Agent Space を Terraform で作ってみた",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-terraform-aws-provider-agent-space/",
+          "title": "命を繋ぎ続けるクロードエージェントの公開ノート",
+          "link": "https://intenex.github.io/personhood/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-22T16:57:56",
+          "excerpt": "記事の URL: https://intenex.github.io/personhood/ コメント URL: https://news.ycombinator.com/item?id=50198056 ポイント: 8 コメント数: 1"
+        },
+        {
+          "title": "[アップデート] AgentCore Gatewayのレート制限をリクエストのヘッダーやボディの値ごとに分けられるようになりました",
+          "link": "https://dev.classmethod.jp/articles/agentcore-gateway-rate-limit-header-body/",
           "source": "DevelopersIO",
-          "published": "2026-10-22T11:32:09",
-          "excerpt": "AWS Provider に aws_devopsagent_agent_space が追加されたので、AWS DevOps Agent の Agent Space を Terraform で作ってみた"
+          "published": "2026-10-22T16:07:39",
+          "excerpt": "Amazon Bedrock AgentCore Gatewayのレート制限がリクエストのヘッダーやボディの値ごとに枠を分けられるようになりました！"
         },
         {
-          "title": "Anthropic、パーソナルAIアシスタントClaude Duetのリサーチプレビューを発表、米国で先行提供 ——必要な対応を通知、依頼した作業を離席中も継続",
-          "link": "https://gihyo.jp/article/2026/10/claude-duet?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-10-22T10:59:00",
-          "excerpt": "Anthropicは2026年10月21日、パーソナルAIアシスタントClaude Duetのリサーチプレビューを発表した。利用者の対応が必要なことを自ら知らせるエージェントとして動作する。"
+          "title": "Uber、全従業員 30,000 人を ChatGPT Work に導入",
+          "link": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-22T16:00:00",
+          "excerpt": "ライドシェアの巨人は以前、ChatGPT Work のはるかに小規模な試験運用を展開していましたが、現在はエンタープライズ エージェントを全社的に導入しています。"
         },
         {
-          "title": "Reactのレビュー基準を公式ドキュメントに揃えたいので、Claude Codeで50項目のチェックリストを作ってみた話",
-          "link": "https://dev.classmethod.jp/articles/react-review-checklist-claude-code/",
-          "source": "DevelopersIO",
-          "published": "2026-10-22T09:07:00",
-          "excerpt": "React公式ドキュメントを基にした、50項目のコードレビューチェックリストを作成しました。感覚的なコメントから脱却し、公式の推奨事項を根拠にしたレビューを実現する方法と、実際の適用結果を共有します。"
-        },
-        {
-          "title": "豪州でAI「Claude」に保育施設銃撃を予告したら逮捕　弁護側「耳感染症でストレス」",
-          "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002517/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-22T06:44:40",
-          "excerpt": "オーストラリア・シドニー在住の29歳の男が、生成人工知能（AI）「Claude」とのチャットで保育施設での銃乱射を予告したとして逮捕・起訴された。豪紙シドニー・モーニング・ヘラルドが19日報じた。"
+          "title": "モデルの重みは一切触らずにエージェントを「自己改善」させるRSIAgentの設計を読み、LangGraphで再現してみた | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/ed85ec2c1b8364",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-22T12:31:25",
+          "excerpt": "モデルを再学習せずに「経験」だけを蓄積するRSIAgent（論文、2026年9月15日のHugging Face Daily Papersは、モデルのパラメータを一切更新せずに、新しい環境での立ち回りを自己改善していくフレームワークです。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。はじめに 2026年10月20日に、Amazon ECS Gateway が発表されました。ECS サービスを外部に公開するための入口(イングレス)を、ECS が ALB ごと作って管理してくれる機能です。…",
+      "summary": "クラウドの新着が18件。プラットフォームチームが Amazon Elastic Container Service (Amazon E […]",
       "articles": [
         {
-          "title": "Amazon ECS Gateway で1台の ALB に26個目のサービスを入れてみた",
-          "link": "https://qiita.com/yama3133/items/dff29ff06e8895f940e4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-22T11:09:14",
-          "excerpt": "はじめに 2026年10月20日に、Amazon ECS Gateway が発表されました。ECS サービスを外部に公開するための入口(イングレス)を、ECS が ALB ごと作って管理してくれる機能です。…"
-        },
-        {
-          "title": "Auroraスナップショット復元後にANALYZEは不要と言える根拠",
-          "link": "https://qiita.com/techdbblog/items/1f1e4700d583cb0b9bbf",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-22T08:42:48",
-          "excerpt": "Aurora PostgreSQLのスナップショットを検証環境や別アカウントへ復元したあと、pg_stat_user_tablesを見るとlast_analyzeがNULL、n_live_tupが0になっています。…"
-        },
-        {
-          "title": "詳解: Amazon EKS Auto Mode によるノード障害の検出、修復、診断の仕組み",
-          "link": "https://aws.amazon.com/jp/blogs/news/under-the-hood-how-amazon-eks-auto-mode-detects-repairs-and-diagnoses-node-failures/",
+          "title": "Amazon ECS ゲートウェイの紹介：ECS サービス向けの完全マネージド型イングレスソリューション",
+          "link": "https://aws.amazon.com/jp/blogs/news/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
           "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-22T08:03:52",
-          "excerpt": "Amazon EKS Auto Mode では、ノードに障害が起きても、誰かがノート PC を開くより先に、そのノードが自動的に検出され、ドレインされ、置き換えられます。…"
+          "published": "2026-10-22T14:45:10",
+          "excerpt": "プラットフォームチームが Amazon Elastic Container Service (Amazon E […]"
         },
         {
-          "title": "GitHub、ブランチ保護ルールをルールセットへ一括移行可能に",
-          "link": "https://codezine.jp/article/detail/30094",
-          "source": "CodeZine",
-          "published": "2026-10-22T07:00:00",
-          "excerpt": "GitHub、ブランチ保護ルールをルールセットへ一括移行可能に"
+          "title": "AWS Config入門：複数アカウントのVPCフローログ設定漏れを探す（vpc-flow-logs-enabledでは分からないこと）",
+          "link": "https://qiita.com/Xim2jp/items/d496c930c70548b3382c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-22T14:40:48",
+          "excerpt": "この記事でわかること 調査を始めてから「そのVPCはフローログが無効だった」と分かっても遅い、という問題を、AWS Configで事前に確かめる方法を初学者向けにまとめました。…"
+        },
+        {
+          "title": "【AWS初心者向け】EC2のセキュリティグループをAWS CLIで確認する",
+          "link": "https://qiita.com/reo_infraengineer/items/9d9f4fb87de7d24b142a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-22T14:25:54",
+          "excerpt": "こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、学習サービス「InfraDojo（インフラ道場）」を運営しています。「EC2にSSH接続できない」 「セキュリティグループの、どこを確認すればいい？…"
+        },
+        {
+          "title": "AWS ウィークリーラウンドアップ: AWS Lambda Web Functions、Vercel Marketplace の Amazon S3 など (2026 年 10 月 19 日)",
+          "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-22T14:22:55",
+          "excerpt": "2026 年 10 月 13 日週に起きたことは、新しい種類のコンピュートを追加したわけではありません。代わり […]"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が34件。PHP脆弱性がこれほどまでに世間を騒がせたのは、その緊急性はもちろん、本来伏せておくべきだった情報の先出しが影響している。開発プロジェクトを支援するThe PHP Foundation（PHP財団）が経緯を公開した。",
+      "summary": "セキュリティの新着が34件。AWS Security Hubの「KMS.1」コントロールに対応するため、IAMカスタマー管理ポリシーでKMS復号アクションの権限を特定キーに限定する修復手順をご紹介します。",
       "articles": [
         {
-          "title": "PHP脆弱性“PoCフライング公開”の経緯、支援財団が公表　混乱広げた企業を名指しで批判",
-          "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002525/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-22T09:29:19",
-          "excerpt": "PHP脆弱性がこれほどまでに世間を騒がせたのは、その緊急性はもちろん、本来伏せておくべきだった情報の先出しが影響している。開発プロジェクトを支援するThe PHP Foundation（PHP財団）が経緯を公開した。"
-        },
-        {
-          "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
-          "link": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-22T08:51:31",
-          "excerpt": "Article URL: https://nvd.nist.gov/vuln/detail/cve-2026-111943 Comments URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Alteryx 製品のセキュリティ関連通知を確認する方法を教えてください",
-          "link": "https://dev.classmethod.jp/articles/tsnote-howto-alteryx-security-notification-page/",
+          "title": "【Security Hub修復手順】[KMS.1] IAM カスタマー管理ポリシーでは、すべての KMS キーの復号アクションを許可しないでください",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-kms-1/",
           "source": "DevelopersIO",
-          "published": "2026-10-22T08:32:32",
-          "excerpt": "Alteryx製品のセキュリティ関連通知を確認する方法について紹介します。MyAlteryxのセキュリティ速報ページで最新のセキュリティアドバイザリをチェックし、Preference Centerで通知設定を行う方法をご説明します。"
+          "published": "2026-10-22T16:07:46",
+          "excerpt": "AWS Security Hubの「KMS.1」コントロールに対応するため、IAMカスタマー管理ポリシーでKMS復号アクションの権限を特定キーに限定する修復手順をご紹介します。"
         },
         {
-          "title": "カプコン、1177万件漏えい　不正アクセスで",
-          "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002523/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-22T08:24:50",
-          "excerpt": "カプコンは10月22日、不正アクセスにより会員サービス「CAPCOM ID」の情報が1177万4247件漏えいしたと発表した。"
+          "title": "【Security Hub修復手順】[KMS.2] IAM プリンシパルは、すべての KMS キーで復号アクションを許可する IAM インラインポリシーを使用しないでください",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-kms-2/",
+          "source": "DevelopersIO",
+          "published": "2026-10-22T16:06:57",
+          "excerpt": "AWS Security HubのKMS.2コントロールで検出されたIAMインラインポリシーの修復手順をご紹介します。すべてのKMSキーへの復号を許可するポリシーを特定のキーに限定する方法を、実際の設定例とともに説明します。"
+        },
+        {
+          "title": "【AWS初心者向け】EC2のセキュリティグループをAWS CLIで確認する",
+          "link": "https://qiita.com/reo_infraengineer/items/9d9f4fb87de7d24b142a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-22T14:25:54",
+          "excerpt": "こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、学習サービス「InfraDojo（インフラ道場）」を運営しています。「EC2にSSH接続できない」 「セキュリティグループの、どこを確認すればいい？…"
+        },
+        {
+          "title": "AWS Security Hub CSPM 経由の検出結果を特定 OU 配下のアカウントに絞って通知する仕組みを Lambda で作ってみた",
+          "link": "https://dev.classmethod.jp/articles/security-hub-cspm-notify-specific-ou-lambda/",
+          "source": "DevelopersIO",
+          "published": "2026-10-22T14:07:52",
+          "excerpt": "Security Hub CSPM 経由の検出結果を特定 OU 配下のアカウントに絞って通知する仕組みを Lambda で実装してみました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。Article URL: https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities Comments URL: https://news.ycombinator.…",
+      "summary": "データ分析の新着が5件。Bitnami WordPress AMIのPHPを修正版へアップグレードする方法をご紹介します。パッケージ管理外で動作しているPHPの脆弱性対応に、ソースからのビルドと差し替えで対応した手順をまとめました。",
       "articles": [
         {
-          "title": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+          "title": "Bitnami WordPress AMI の PHP を同じ系列の修正版に差し替えてみた",
+          "link": "https://dev.classmethod.jp/articles/php-bitnami-version-update-csv-ks/",
+          "source": "DevelopersIO",
+          "published": "2026-10-22T16:08:46",
+          "excerpt": "Bitnami WordPress AMIのPHPを修正版へアップグレードする方法をご紹介します。パッケージ管理外で動作しているPHPの脆弱性対応に、ソースからのビルドと差し替えで対応した手順をまとめました。"
+        },
+        {
+          "title": "いくつかの Linux カーネルの脆弱性が誤って公開メーリング リストに投稿される",
           "link": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
           "source": "Hacker News（英語）",
           "published": "2026-10-22T11:12:37",
-          "excerpt": "Article URL: https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities Comments URL: https://news.ycombinator.…"
+          "excerpt": "記事の URL: https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities コメント URL: https://news.ycombinator.com/item?…"
         },
         {
           "title": "この PHP の脆弱性を簡単に悪用する方法はありません",
@@ -134,21 +141,21 @@
           "source": "The Register（英語）",
           "published": "2026-10-21T23:02:57",
           "excerpt": "「実際に悪用されている証拠がない限り、脆弱性は組織的に開示される」と Chainguard の CEO が The Reg に語った"
-        },
-        {
-          "title": "BioWare よ、安らかに：EA が 30 年以上続いた名高い RPG スタジオを閉鎖",
-          "link": "https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-10-21T19:12:16",
-          "excerpt": "次の マスエフェクト プロジェクトは、親会社が400人を解雇したためキャンセルされました。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。AWS Provider に aws_devopsagent_agent_space が追加されたので、AWS DevOps Agent の Agent Space を Terraform で作ってみた",
+      "summary": "開発ツールの新着が12件。こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、学習サービス「InfraDojo（インフラ道場）」を運営しています。「EC2にSSH接続できない」 「セキュリティグループの、どこを確認すればいい？…",
       "articles": [
+        {
+          "title": "【AWS初心者向け】EC2のセキュリティグループをAWS CLIで確認する",
+          "link": "https://qiita.com/reo_infraengineer/items/9d9f4fb87de7d24b142a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-22T14:25:54",
+          "excerpt": "こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、学習サービス「InfraDojo（インフラ道場）」を運営しています。「EC2にSSH接続できない」 「セキュリティグループの、どこを確認すればいい？…"
+        },
         {
           "title": "AWS Provider に aws_devopsagent_agent_space が追加されたので、AWS DevOps Agent の Agent Space を Terraform で作ってみた",
           "link": "https://dev.classmethod.jp/articles/aws-devops-agent-terraform-aws-provider-agent-space/",
@@ -157,57 +164,50 @@
           "excerpt": "AWS Provider に aws_devopsagent_agent_space が追加されたので、AWS DevOps Agent の Agent Space を Terraform で作ってみた"
         },
         {
-          "title": "UK government hasn't the foggiest how much it's spending on digital transformation",
+          "title": "英国政府はデジタル変革にどれだけの費用を費やしているのか全く分かっていない",
           "link": "https://www.theregister.com/public-sector/2026/10/22/uk-government-hasnt-the-foggiest-how-much-its-spending-on-digital-transformation/5304662",
           "source": "The Register（英語）",
           "published": "2026-10-22T09:15:00",
-          "excerpt": "Years of promises, but officials unable to put a figure on investment"
+          "excerpt": "何年も約束してきたが、当局者は投資額を明らかにできない"
         },
         {
-          "title": "Vendors asking forward deployed engineers to make good on trillion-dollar AI bet",
+          "title": "ベンダーは前方配備されたエンジニアに数兆ドル規模の AI への賭けを成功させるよう要求",
           "link": "https://www.theregister.com/ai-and-ml/2026/10/22/vendors-asking-forward-deployed-engineers-to-make-good-on-trillion-dollar-ai-bet/5304366",
           "source": "The Register（英語）",
           "published": "2026-10-22T08:30:00",
-          "excerpt": "They might earn more than $200k but who do they work for?Tech buyers need to put some checks in place on FDEs…"
-        },
-        {
-          "title": "GitHub、ブランチ保護ルールをルールセットへ一括移行可能に",
-          "link": "https://codezine.jp/article/detail/30094",
-          "source": "CodeZine",
-          "published": "2026-10-22T07:00:00",
-          "excerpt": "GitHub、ブランチ保護ルールをルールセットへ一括移行可能に"
+          "excerpt": "彼らは20万ドル以上稼いでいるかもしれないが、誰のために働いているのだろうか？ハイテクバイヤーはFDEに対して何らかのチェックを行う必要がある"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "333 Tor exit nodes hijacked to intercept SSH traffic and retrieve plaintext email",
-      "link": "https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-10-22T11:30:33",
-      "excerpt": "For 3 days this month, 333 exit nodes were hacked in hopes of stealing sensitive data."
+      "title": "不名誉なインドの証明書発行会社が証明書発行事業から撤退",
+      "link": "https://www.theregister.com/security/2026/10/22/disgraced-indian-cert-issuer-leaves-the-cert-issuing-business/5304848",
+      "source": "The Register（英語）",
+      "published": "2026-10-22T16:58:25",
+      "excerpt": "いずれにしても SSL/TLS 証明書を発行したくなかった、インドの企業は 1 つの秘密鍵が 4 番であることが判明したことを受けて示唆"
     },
     {
-      "title": "UN says we're going to blow past 1.5º warming, offers a \"now what?\" answer",
-      "link": "https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-10-22T11:15:36",
-      "excerpt": "Best case is now an overshoot to 1.8º C, accompanied by massive carbon removal."
+      "title": "中国のハッカーがIT大手ConnectWiseに侵入後、数千社をスパイ",
+      "link": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-22T16:47:17",
+      "excerpt": "Microsoftは、ConnectWiseの侵害の責任を、AIエージェントを利用して数千人の顧客を迅速にハッキングした中国系ハッカーにあると指摘している。"
     },
     {
-      "title": "PHP 8.5.12の緊急リリースにpixivはどう対応したか - pixiv inside",
-      "link": "https://inside.pixiv.blog/2026/10/22/193321",
-      "source": "はてなブックマーク（テクノロジー）",
-      "published": "2026-10-22T10:38:41",
-      "excerpt": "こんにちは、Platform Division Infrastructure Unitのpicopicoです。2026年10月21日、PHPに深刻な脆弱性（通称PHP2Shell）が見つかり、緊急のセキュリティリリースが予告されました。…"
+      "title": "アーク・イズ・サンセット",
+      "link": "https://arc.net/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-22T16:27:47",
+      "excerpt": "記事の URL: https://arc.net/ コメント URL: https://news.ycombinator.com/item?id=50197601 ポイント: 61 コメント数: 41"
     },
     {
-      "title": "Cloudflareがリリースした抽出モデルClairicを試してみた",
-      "link": "https://dev.classmethod.jp/articles/trying-cloudflare-clairic/",
-      "source": "DevelopersIO",
-      "published": "2026-10-22T10:36:26",
-      "excerpt": "Cloudflareがリリースした新しい抽出モデル「Clairic」を試してみました。テキストや画像から指定したスキーマに従って情報を抽出・計算・推定・予測できるこのモデルの仕組みや使用例、実際の使ってみた結果をご紹介します。"
+      "title": "ドイツで GNU Taler を運用する準備を進めています",
+      "link": "https://www.taler.net/en/news/2026-13.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-22T16:14:31",
+      "excerpt": "記事の URL: https://www.taler.net/en/news/2026-13.html コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
