@@ -1,111 +1,111 @@
 {
-  "generated_at": "2026-10-22T23:45:42",
+  "generated_at": "2026-10-23T02:21:28",
   "window_hours": 24,
-  "total": 193,
+  "total": 201,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が31件。OpenAI、PHPの脆弱性発見の経緯を公表",
+      "summary": "生成AIの新着が34件。Claude Code v2.1.309 がリリースされました。今回は `sed -i` の挙動変更や `claude ultrareview` のセキュリティ強化など、運用に影響する破壊的変更が含まれています。…",
       "articles": [
         {
-          "title": "OpenAI、PHPの脆弱性発見の経緯を公表",
-          "link": "https://codezine.jp/article/detail/30107",
-          "source": "CodeZine",
-          "published": "2026-10-22T23:00:00",
-          "excerpt": "OpenAI、PHPの脆弱性発見の経緯を公表"
+          "title": "Claude Code v2.1.308〜v2.1.309 の主要アップデート - ultrareview の信頼確認必須化と sed -i の挙動変更",
+          "link": "https://dev.classmethod.jp/articles/20261023-cc-updates-v2-1-309/",
+          "source": "DevelopersIO",
+          "published": "2026-10-23T02:09:43",
+          "excerpt": "Claude Code v2.1.309 がリリースされました。今回は `sed -i` の挙動変更や `claude ultrareview` のセキュリティ強化など、運用に影響する破壊的変更が含まれています。…"
         },
         {
-          "title": "中国系攻撃者がAIエージェントで攻撃を自動化、「ConnectWise」のサプライチェーン攻撃に関与　Microsoftが警告",
-          "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002531/",
+          "title": "Amazon Bedrock コンソールの「sagemaker:ListHubContents」エラーを回避するには",
+          "link": "https://dev.classmethod.jp/articles/tsnote-bedrock-console-sagemaker-listhubcontents-error-avoid/",
+          "source": "DevelopersIO",
+          "published": "2026-10-23T01:45:15",
+          "excerpt": "AWS マネジメントコンソールで Bedrock を使用する際、bedrock:* だけでは不十分で、SageMaker のアクセス許可も必要な理由と、その対応方法をご紹介します。"
+        },
+        {
+          "title": "「Muse」日本で提供開始　MetaのAIエージェント、メルカリやマネフォ、ぴあと連携へ",
+          "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002535/",
           "source": "ITmedia NEWS",
-          "published": "2026-10-22T22:45:34",
-          "excerpt": "Microsoftは、中国連携の攻撃者「Storm-0940」がオープンソースのAI侵入テストツール「ARTEX」で攻撃を自動化し、世界で数百の組織を標的にしていると発表した。…"
+          "published": "2026-10-23T01:33:41",
+          "excerpt": "ユーザーに代わり、メール送信や旅行の予約などさまざまなタスクを進めるエージェント。Gmailなど既に連携済みのサービスに加え、日本では今後、メルカリ、マネーフォワード ME、チケットぴあのサービスと連携する予定だ。"
         },
         {
-          "title": "HN を表示: CATT 0.2.1: CI での Muse/Instinct 類似物に対するエージェント/サービスのテスト",
-          "link": "https://github.com/Coverage-Cat/consumer-agent-testing-tool",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-22T22:18:40",
-          "excerpt": "HN さん、私たちは最近、チームが Muse や Instinct などの独自のアシスタントに対して反復処理できるように、コンシューマー エージェント テスト ツールをオープンソース化しました。…"
-        },
-        {
-          "title": "OpenAI、IPOに先立って評価額1.25兆ドルで新たに300億ドルの調達に取り組んでいる",
-          "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-22T22:08:24",
-          "excerpt": "OpenAIがこのラウンドで1兆ドルを超える評価額を獲得すれば、これまでで最も評価の高い非上場企業としての記録を更新することになるだろう。"
+          "title": "useEffect も switch も禁止する lint で、コーディングエージェントの書き方を縛る | Finatext Tech Blogのフィード",
+          "link": "https://zenn.dev/finatext/articles/2d8517a285385e",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-23T01:09:44",
+          "excerpt": "useEffect も switch も禁止する lint で、コーディングエージェントの書き方を縛る!Finatextグループは「Vue Fes Japan 2026」にゴールドスポンサーで協賛しています！…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。金融商品の評価やリスク計算を支える、みずほ証券のITインフラ。計算件数が増え続ける中、同社は性能向上と安定稼働、将来の拡張を見据えて、「液冷」を採用したITインフラへの刷新を決めた。どう実現するのか。",
+      "summary": "クラウドの新着が23件。RDS for Oracle のライセンス込みインスタンス数の上限値を確認する方法について説明します。Service Quotas では確認できないため、AWS サポートへの問い合わせが必要です。…",
       "articles": [
+        {
+          "title": "アカウントに適用されている RDS for Oracle ライセンス込み (License Included) インスタンス数の上限値を確認したい",
+          "link": "https://dev.classmethod.jp/articles/tsnote-service-quotas-rds-for-oracle-license-included-db-instance/",
+          "source": "DevelopersIO",
+          "published": "2026-10-23T02:00:35",
+          "excerpt": "RDS for Oracle のライセンス込みインスタンス数の上限値を確認する方法について説明します。Service Quotas では確認できないため、AWS サポートへの問い合わせが必要です。…"
+        },
+        {
+          "title": "Platform Engineering Kaigi 2026で「Argo CDとAtlantisで実現するインフラ管理のセルフサービス化」というタイトルで発表しました！ | ANDPAD Tech Blog",
+          "link": "https://tech.andpad.co.jp/entry/2026/10/23/100000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-23T01:00:00",
+          "excerpt": "サービスプラットフォーム部 部長の角井です。2026年9月26日(土)に開催されたPlatform Engineering Kaigi 2026で、アンドパッドは初めてスポンサーを務め、ブースを出展しました。…"
+        },
+        {
+          "title": "Step Functions で開発環境の NAT Gateway・EC2・RDS を夜間停止して料金を削減する",
+          "link": "https://dev.classmethod.jp/articles/stepfunctions-nat-ec2-rds-schedule-stop/",
+          "source": "DevelopersIO",
+          "published": "2026-10-23T00:42:06",
+          "excerpt": "Step Functionsを使ってNAT Gateway・EC2・RDSをまとめて制御し、開発環境を自動で起動・停止する方法を紹介します。特に予算が限られた環境で、夜間や休日の料金を削減したい方必見です。"
+        },
         {
           "title": "みずほ証券が「液冷」採用、性能1.6倍へ――“1日3億6000万件超”の計算インフラをどう刷新？",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/23/news024.html",
           "source": "@IT",
           "published": "2026-10-22T22:45:00",
           "excerpt": "金融商品の評価やリスク計算を支える、みずほ証券のITインフラ。計算件数が増え続ける中、同社は性能向上と安定稼働、将来の拡張を見据えて、「液冷」を採用したITインフラへの刷新を決めた。どう実現するのか。"
-        },
-        {
-          "title": "インフラ屋が書く Regional NAT Gateway で何が変わった？従来の Zonal NAT Gateway と並べて確かめる",
-          "link": "https://qiita.com/yuki_1012_1101/items/0e75dcd56132f40adcf1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-22T18:50:21",
-          "excerpt": "変更履歴 2026-10-23：公開 初めに 2025 年 11 月に、AWS の NAT Gateway に Regional NAT Gateway が加わった。…"
-        },
-        {
-          "title": "Amazon OpenSearch Serverless が 5 秒のデフォルト更新間隔をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-serverless-supports-5-second-refresh-interval/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-22T18:34:00",
-          "excerpt": "本日より、Amazon OpenSearch Serverless は、検索とベクター コレクションの両方でデフォルトの更新間隔を 5 秒に短縮します。更新間隔は、新しく取り込まれたドキュメントが検索可能になるまでの時間を制御します。…"
-        },
-        {
-          "title": "Amazon SageMaker AI がサーバーレスモデルカスタマイズ用のトレーニングセッション API を発表",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/training-session-apis-on-sagemaker-ai",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-22T16:30:00",
-          "excerpt": "Amazon SageMaker AI サーバーレス モデルのカスタマイズでトレーニング セッション API がサポートされるようになり、顧客は GPU インフラストラクチャのプロビジョニングや管理を行わずにトレーニング後のアルゴリズムを完…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が35件。OpenAI、PHPの脆弱性発見の経緯を公表",
+      "summary": "セキュリティの新着が38件。Node.jsが26.x・24.x・22.x向けにセキュリティリリースを公開、深刻度「高」4件を修正",
       "articles": [
         {
-          "title": "OpenAI、PHPの脆弱性発見の経緯を公表",
-          "link": "https://codezine.jp/article/detail/30107",
+          "title": "Node.jsが26.x・24.x・22.x向けにセキュリティリリースを公開、深刻度「高」4件を修正",
+          "link": "https://codezine.jp/article/detail/30109",
           "source": "CodeZine",
-          "published": "2026-10-22T23:00:00",
-          "excerpt": "OpenAI、PHPの脆弱性発見の経緯を公表"
+          "published": "2026-10-23T01:00:00",
+          "excerpt": "Node.jsが26.x・24.x・22.x向けにセキュリティリリースを公開、深刻度「高」4件を修正"
         },
         {
-          "title": "PHP脆弱性問題は“また起こる”　事件の裏にあったエンジニアの根深い課題",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/23/news038.html",
-          "source": "@IT",
-          "published": "2026-10-22T23:00:00",
-          "excerpt": "多くの日本企業を混乱の渦に巻き込んだPHP脆弱性問題。深夜のアップデート対応に追われた担当者もいることだろう。この問題はなぜ起きたのか。その背景には一朝一夕ではいかない開発者全体に関わる根深い課題があった。"
+          "title": "認証局eMudhra、SSL/TLS証明書事業から撤退へ　秘密鍵問題受け──既存顧客の証明書は無償で置き換え",
+          "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002534/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-23T00:29:08",
+          "excerpt": "eMudhraは、世界向けSSL/TLS証明書事業から自主的に撤退すると発表した。中間証明書の秘密鍵が容易に復元可能だった問題を受けた措置。対象事業の売上比率は約1％と低く収益性も悪化していた。…"
         },
         {
-          "title": "コードの脆弱性に対する AWS Continuum が一般提供になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-22T21:00:00",
-          "excerpt": "本日、AWS は、コードの脆弱性に対する AWS Continuum の一般提供を発表しました。コードの脆弱性の Continuum は、マシンの速度でコードの脆弱性を発見、検証、優先順位付け、修復します。…"
+          "title": "「お名前.com」 のFX自動売買VPS、不正アクセスで金銭被害か　「600万円の損失」「55万円なくなった」……報告相次ぐ",
+          "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002532/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-23T00:24:14",
+          "excerpt": "不正アクセスを受けたFX自動売買用VPS「お名前.com デスクトップクラウド」ユーザーから、自分のアカウントで勝手に取引され、数十万?数百万円の損失が出た、といった報告がXに相次いでいる。"
         },
         {
-          "title": "コードの脆弱性に対する AWS Continuum が一般提供になりました",
-          "link": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
-          "source": "AWS News Blog（英語）",
-          "published": "2026-10-22T20:33:10",
-          "excerpt": "コードの脆弱性に対する AWS Continuum は、AI を使用して環境内のコードの脆弱性を自動的に検出、検証、優先順位付けし、これまで数時間の手動調査と数日を要していたチーム間調整に代わって、すぐにレビューできる修正をプルリクエストと…"
+          "title": "Ubuntu 27.04 “Tenacious T-Rex” の開発、PHPや証明書失効、CVE-2026-99999（PwnEscape）への対応",
+          "link": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202610/23?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-10-23T00:06:00",
+          "excerpt": "Ubuntu 27.04の開発がスタートしました。コードネームは“Tenacious T-Rex”（粘り強いティラノサウルス）、リポジトリ名や愛称としては「tenacious」が用いられることになります。"
         }
       ]
     },
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。ベンダーは「できるだけ早く」修正バージョンにアップグレードすることを「強く推奨」",
+      "summary": "開発ツールの新着が12件。useEffect も switch も禁止する lint で、コーディングエージェントの書き方を縛る!Finatextグループは「Vue Fes Japan 2026」にゴールドスポンサーで協賛しています！…",
       "articles": [
+        {
+          "title": "useEffect も switch も禁止する lint で、コーディングエージェントの書き方を縛る | Finatext Tech Blogのフィード",
+          "link": "https://zenn.dev/finatext/articles/2d8517a285385e",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-23T01:09:44",
+          "excerpt": "useEffect も switch も禁止する lint で、コーディングエージェントの書き方を縛る!Finatextグループは「Vue Fes Japan 2026」にゴールドスポンサーで協賛しています！…"
+        },
         {
           "title": "最大重大度の GitLab のバグにより、12 年間のリリースにわたってリモートでコードが実行される可能性がある",
           "link": "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-22T14:25:54",
           "excerpt": "こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、学習サービス「InfraDojo（インフラ道場）」を運営しています。「EC2にSSH接続できない」 「セキュリティグループの、どこを確認すればいい？…"
-        },
-        {
-          "title": "AWS Provider に aws_devopsagent_agent_space が追加されたので、AWS DevOps Agent の Agent Space を Terraform で作ってみた",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-terraform-aws-provider-agent-space/",
-          "source": "DevelopersIO",
-          "published": "2026-10-22T11:32:09",
-          "excerpt": "AWS Provider に aws_devopsagent_agent_space が追加されたので、AWS DevOps Agent の Agent Space を Terraform で作ってみた"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ウォーハウンドが軍用犬を設計し、アンドゥリル装備で武装させるために 2 億ドルを調達",
-      "link": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-22T23:15:00",
-      "excerpt": "ベン・ラムとパーマー・ラッキーの発案であるウォーハウンドは、軍や法執行機関のために遺伝子操作された犬をステルスから誕生させた。"
+      "title": "AWS気になった参考文献(備忘録)",
+      "link": "https://qiita.com/Kagesyu/items/3222a52819859ca12ba3",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-23T01:42:04",
+      "excerpt": "気になったAWS記事について備忘録として記載いたします。(1)https://aws.amazon.com/jp/architecture/reference-architecture-diagrams/?solutions-all.…"
     },
     {
-      "title": "“すぐに買えない最新GPU”なんて実は要らない――現実解は「再利用」か？",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/23/news026.html",
-      "source": "@IT",
-      "published": "2026-10-22T23:15:00",
-      "excerpt": "調達が難しくなる最新GPU。それはユーザー企業が本当に必要としているものなのか。用途によっては、最新GPU以外でもニーズを満たせる可能性がある。その具体的な選択肢と、採用時に検討すべき点とは。"
-    },
-    {
-      "title": "あなたはQA/品質保証に向いている、という話 | TOKIUMプロダクトチーム テックブログのフィード",
-      "link": "https://zenn.dev/tokium_dev/articles/2436a17903f2dd",
+      "title": "[Flutter]main()を通らない起動ルートで初期化漏れした話（Android着信のヒヤリハット） | Linc'well, inc.のフィード",
+      "link": "https://zenn.dev/lincwell_inc/articles/ab2a642ea8f6f0",
       "source": "企業テックブログまとめ",
-      "published": "2026-10-22T23:00:05",
-      "excerpt": "はじめに株式会社TOKIUMでQAエンジニアをしている西田です。今回は、これまで公開してきたような技術共有とは趣向を変えて、軽めの雑談を持ってきました。個人の勝手な想像も含めた見解なので、その点ご容赦ください。…"
+      "published": "2026-10-23T01:30:05",
+      "excerpt": "はじめにFlutterアプリの初期化はmain()に書いておけばOK……と思っていたら、実はmain()を通らない起動ルートがありました。…"
     },
     {
-      "title": "2026年11月に開催される注目のITエンジニア向けカンファレンス5選",
-      "link": "https://codezine.jp/article/detail/30030",
-      "source": "CodeZine",
-      "published": "2026-10-22T23:00:00",
-      "excerpt": "2026年11月、エンジニアコミュニティが主催する大規模なカンファレンスが多数開催されます。ITエンジニアの皆さんにとって、最新技術や開発トレンドを学び、エンジニアコミュニティの絆を深める絶好の機会です。…"
+      "title": "Web Application Proxyファームの構成確認とサーバー削除方法 | JBS Tech Blog",
+      "link": "https://blog.jbs.co.jp/entry/2026/10/23/101141",
+      "source": "企業テックブログまとめ",
+      "published": "2026-10-23T01:11:41",
+      "excerpt": "Web Application Proxy（WAP）は、Windows Serverで提供されるリバースプロキシ機能です。…"
+    },
+    {
+      "title": "2026年10月23日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "link": "https://qiita.com/ennagara128/items/b9d8253e6f8ee145426e",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-23T01:08:05",
+      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
     }
   ]
 }
