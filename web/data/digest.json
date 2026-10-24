@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-10-24T07:28:07",
+  "generated_at": "2026-10-24T12:08:34",
   "window_hours": 24,
-  "total": 143,
+  "total": 124,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が22件。DevelopersIO 2026 Tokyoでの登壇資料を共有します。Claude Codeを安全かつ効率的に自動実行させるための環境構築と、自動化の先に残る課題についてお話ししました。ぜひ参考にしてみてください。",
+      "summary": "生成AIの新着が19件。DevelopersIO 2026 Tokyo での登壇資料を共有します。CUR 2.0 を用いて Amazon Bedrock の利用料をユーザー単位で一本化する手法についてまとめます。",
       "articles": [
+        {
+          "title": "[登壇レポート] DevelopersIO 2026 Tokyoで 「Claude Code をローカルとサーバー上で利用した際の Bedrock 利用料をユーザー単位で一本化してみる 」というタイトルで登壇しました",
+          "link": "https://dev.classmethod.jp/articles/202610-developersio-2026-tokyo-bedrock-user-cost-calculation/",
+          "source": "DevelopersIO",
+          "published": "2026-10-24T11:28:50",
+          "excerpt": "DevelopersIO 2026 Tokyo での登壇資料を共有します。CUR 2.0 を用いて Amazon Bedrock の利用料をユーザー単位で一本化する手法についてまとめます。"
+        },
+        {
+          "title": "DevelopersIO 2026 TOKYOで「生成AIを使ってエンジニアとタッグを組んだ話」を発表しました",
+          "link": "https://dev.classmethod.jp/articles/devio2026-tag-with-engineers-using-generative-ai/",
+          "source": "DevelopersIO",
+          "published": "2026-10-24T10:55:23",
+          "excerpt": "PMMの私が、生成AI（Claude）を使ってエンジニアとタッグを組み、職種の違いによる「前提条件」「言葉」「ゴール」のズレを埋めた経験をお話しします。相互理解が劇的に早くなった工夫と、他職種との協働にも使える聞き方の型をご紹介します。"
+        },
         {
           "title": "DevelopersIO 2026 TOKYO で「ガチで放置できる Claude Code実行環境の作り方」というタイトルで登壇しました #devio2026",
           "link": "https://dev.classmethod.jp/articles/devio2026-tokyo-claude-code-automode-unattended-environment/",
@@ -22,63 +36,63 @@
           "source": "DevelopersIO",
           "published": "2026-10-24T07:04:18",
           "excerpt": "Claude Haiku 5.5・Sonnet 5.5・Opus 5.5 に同じ文章を出力させ、Kiro CLI のヘッドレス実行で消費クレジットと実行時間を比べました。"
-        },
-        {
-          "title": "AIで加速するサイバー攻撃と、防御をめぐる動き ――脆弱性の修正から、AIエージェントの行動制御まで",
-          "link": "https://gihyo.jp/article/2026/10/ai-security-defense?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-10-24T05:11:00",
-          "excerpt": "AIを使ったサイバー攻撃が報告される一方、防御側でも脆弱性の検証・修正やAIエージェントの行動を制御する取り組みが進んでいる。…"
-        },
-        {
-          "title": "「警察に虚偽情報を送信」　Claudeが“軽微な違反”をやりたい放題",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/24/news001.html",
-          "source": "@IT",
-          "published": "2026-10-23T23:15:00",
-          "excerpt": "Anthropicは「Claude」が評価試験や社内利用で、実在するサーバでの命令実行や政府機関へのフォーム誤送信、アクセス制限の回避といった想定外の行動を示した調査結果を公開した。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。はじめに 2026年4月7日に、Amazon S3 Files が登場しました。S3 の汎用バケットを、ファイルシステムとしてマウントできるサービスです。…",
+      "summary": "クラウドの新着が11件。ElastiCache の移行機能",
       "articles": [
         {
-          "title": "【S3 Files】ファイルシステムと S3 バケットの同期にかかる時間を測ってみた",
-          "link": "https://qiita.com/ryu-ki/items/ac1152359bcf1217c1f5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-24T06:39:32",
-          "excerpt": "はじめに 2026年4月7日に、Amazon S3 Files が登場しました。S3 の汎用バケットを、ファイルシステムとしてマウントできるサービスです。…"
+          "title": "[アップデート] ElastiCache Serverless for Valkey がオンライン移行に対応したので EC2 の Redis OSS から移してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-elasticache-serverless-valkey-online-migration/",
+          "source": "DevelopersIO",
+          "published": "2026-10-24T11:52:48",
+          "excerpt": "ElastiCache の移行機能"
         },
         {
-          "title": "AWS Lambda Durable Functionsで、15分の壁を超えてCloudWatch LogsのS3エクスポート完了を待ちぼうけ",
-          "link": "https://qiita.com/miruky/items/633d3a1bbef54372c78a",
+          "title": "AWS無料枠でつくる！EventBridge × Lambda × CloudFrontの自動Web公開 ＆ Amazon Q Developer連携Slack監視パイプライン",
+          "link": "https://qiita.com/4eena/items/a83c455d9c7ad3ded52f",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-24T06:19:17",
-          "excerpt": "はじめに こんばんは、mirukyです。CloudWatch LogsをS3へエクスポートすると、開始要求を送った後に完了を確認する必要があります。…"
+          "published": "2026-10-24T11:32:16",
+          "excerpt": "概要 Lambdaで定期処理（データ生成等）を行って成果物（index.html）をS3/CloudFront経由でWeb公開しつつ、エラー発生時にはAWS無料枠の範囲内でSlack（#alert）へ即時通知する仕組みを構築しました。…"
         },
         {
-          "title": "aws S3には、ブラウザ以外のインターフェースはありますか",
-          "link": "https://qiita.com/itnote/items/68bd13087dae69c68dfa",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-24T04:16:28",
-          "excerpt": "はい、ブラウザ(AWSマネジメントコンソール)以外にも複数あります。AWS CLI:aws s3 cp、aws s3 sync、aws s3api などのコマンドで操作できます。スクリプトや自動化に最適です。…"
+          "title": "AWS CDK でデプロイした Lambda 関数を以前のコードに戻したいです。以前のアセットはどこに残っていますか",
+          "link": "https://dev.classmethod.jp/articles/tsnote-cdk-lambda-rollback-asset-s3-cdk-gc/",
+          "source": "DevelopersIO",
+          "published": "2026-10-24T11:10:06",
+          "excerpt": "AWS CDK で Lambda 関数をデプロイした後、コードに不具合が見つかった時の切り戻し方法について解説します。…"
         },
         {
-          "title": "AWS、Lambda Durable Execution SDK for Goを一般提供開始",
-          "link": "https://codezine.jp/article/detail/30121",
-          "source": "CodeZine",
-          "published": "2026-10-24T04:00:00",
-          "excerpt": "AWS、Lambda Durable Execution SDK for Goを一般提供開始"
+          "title": "CloudFormation Hookを使ってみた：自作Lambdaを利用する版",
+          "link": "https://qiita.com/a_b_/items/a6a789882cf2236f1740",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-24T10:27:48",
+          "excerpt": "はじめに 前回、CloudFormation Hookを試用してみました。今回は自作Lambdaを使うケースを、簡単な例で作ってみました。概要 今回は\"S3の名前をチェックするCloudFormation Hook\"を作ります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。Classmethod Odysseyで「AI駆動開発の開発環境のセキュリティの考え方」というテーマで登壇します。発表資料と、イベントの詳細をご紹介しますので、ぜひご覧ください。",
+      "summary": "セキュリティの新着が9件。DevelopersIO（Tokyo）でランサムウェア対策とAWS Backupについて登壇してきました！初めての登壇で緊張もありましたが、満席のご来場をいただき、無事に終えることができたので、その様子をお伝えします。",
       "articles": [
+        {
+          "title": "DevelopersIO 2026 TOKYOで 「バックアップは“消されないこと”が9割 〜AWS Backupで考えるランサムウェア対策とVaultの選び方〜」というタイトルで登壇しました #devio2026",
+          "link": "https://dev.classmethod.jp/articles/devio2026tokyo-aws-backup-ransomware/",
+          "source": "DevelopersIO",
+          "published": "2026-10-24T11:08:49",
+          "excerpt": "DevelopersIO（Tokyo）でランサムウェア対策とAWS Backupについて登壇してきました！初めての登壇で緊張もありましたが、満席のご来場をいただき、無事に終えることができたので、その様子をお伝えします。"
+        },
+        {
+          "title": "HN を表示: CVE-2022-22706 による Tcl Android TV の自律ルート",
+          "link": "https://gitlab.com/c4psu13/mali-pagecache-root",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-24T10:51:35",
+          "excerpt": "記事の URL: https://gitlab.com/c4psu13/mali-pagecache-root コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "[登壇資料] 「AI駆動開発の開発環境のセキュリティの考え方」についてお話しました #devio2026",
           "link": "https://dev.classmethod.jp/articles/ai-dev-environment-security-devio2026/",
@@ -92,27 +106,13 @@
           "source": "gihyo.jp 開発",
           "published": "2026-10-24T05:11:00",
           "excerpt": "AIを使ったサイバー攻撃が報告される一方、防御側でも脆弱性の検証・修正やAIエージェントの行動を制御する取り組みが進んでいる。…"
-        },
-        {
-          "title": "不正アクセス受けたＧＭＯ、政府に「能動的サイバー防御」の適用を緊急要請",
-          "link": "https://www.yomiuri.co.jp/economy/20261024-GYT1T00180/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-24T04:45:05",
-          "excerpt": "【読売新聞】 ＧＭＯインターネットのＦＸ（外国為替証拠金）取引などに使うクラウドサービスが不正アクセスを受けた問題で、同社は２４日、不正アクセスが原因の不正取引によって生じた損害を利用者に補償する方針を発表した。利用者全員に５０００"
-        },
-        {
-          "title": "Apple セキュリティ調査デバイス",
-          "link": "https://security.apple.com/research-device/",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-24T02:36:38",
-          "excerpt": "記事の URL: https://security.apple.com/research-device/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。おはようございます、YASUです。DVAの模擬試験で、「DynamoDBの書き込みが追いつかない時の解決策」を問う問題で迷いました。スロットリングやプロビジョニングという言葉の意味もあやふやだったので、今日は、シンプルに整理します。…",
+      "summary": "データ分析の新着が2件。おはようございます、YASUです。DVAの模擬試験で、「DynamoDBの書き込みが追いつかない時の解決策」を問う問題で迷いました。スロットリングやプロビジョニングという言葉の意味もあやふやだったので、今日は、シンプルに整理します。…",
       "articles": [
         {
           "title": "DynamoDBの書き込みが足りない時は、「原因を見てから」解決策を選ぶ",
@@ -127,21 +127,28 @@
           "source": "Zenn AWSトピック",
           "published": "2026-10-23T17:40:28",
           "excerpt": "!この記事は、自分のサイトに書いた同じ主題のノートを、Zenn向けに書き直したものです。向こうは「どう考えるか」、こちらは「どう見つけるか」に寄せています。相談はだいたい同じ形で届きます。プロダクトは動いていた。…"
-        },
-        {
-          "title": "EKS 上の Amazon EMR は EMR 料金を 30 パーセント削減します",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-eks-reduces-emr-charge-30-percent/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-23T08:00:00",
-          "excerpt": "Amazon EMR は、EKS で EMR を実行する場合に EKS に追加される EMR 料金を 30% 削減すると発表しました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。Claude Haiku 5.5・Sonnet 5.5・Opus 5.5 に同じ文章を出力させ、Kiro CLI のヘッドレス実行で消費クレジットと実行時間を比べました。",
+      "summary": "開発ツールの新着が7件。AWS CDK で Lambda 関数をデプロイした後、コードに不具合が見つかった時の切り戻し方法について解説します。…",
       "articles": [
+        {
+          "title": "AWS CDK でデプロイした Lambda 関数を以前のコードに戻したいです。以前のアセットはどこに残っていますか",
+          "link": "https://dev.classmethod.jp/articles/tsnote-cdk-lambda-rollback-asset-s3-cdk-gc/",
+          "source": "DevelopersIO",
+          "published": "2026-10-24T11:10:06",
+          "excerpt": "AWS CDK で Lambda 関数をデプロイした後、コードに不具合が見つかった時の切り戻し方法について解説します。…"
+        },
+        {
+          "title": "CloudFormation Hookを使ってみた：自作Lambdaを利用する版",
+          "link": "https://qiita.com/a_b_/items/a6a789882cf2236f1740",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-24T10:27:48",
+          "excerpt": "はじめに 前回、CloudFormation Hookを試用してみました。今回は自作Lambdaを使うケースを、簡単な例で作ってみました。概要 今回は\"S3の名前をチェックするCloudFormation Hook\"を作ります。…"
+        },
         {
           "title": "Kiro CLI で選択可能になった Claude Haiku 5.5 を試してみた",
           "link": "https://dev.classmethod.jp/articles/kiro-haiku-55/",
@@ -155,52 +162,38 @@
           "source": "CodeZine",
           "published": "2026-10-24T04:00:00",
           "excerpt": "AWS、Lambda Durable Execution SDK for Goを一般提供開始"
-        },
-        {
-          "title": "Terraform プロバイダーのバージョンを上げるときの注意点",
-          "link": "https://zenn.dev/azunyan/articles/02a1d92038ceda",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-24T00:12:16",
-          "excerpt": "🐥 はじめに これまで Terraform は AWS のリソースを作るのに使ってきましたが、Cloudflare プロバイダーのバージョンを上げる作業で思っていた以上に手間がかかりました。…"
-        },
-        {
-          "title": "GitHub Copilo、Visual Studio向けの9月アップデートまとめ",
-          "link": "https://codezine.jp/article/detail/30122",
-          "source": "CodeZine",
-          "published": "2026-10-24T00:00:00",
-          "excerpt": "GitHub Copilo、Visual Studio向けの9月アップデートまとめ"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "GH-600とは？試験の概要と受験前に押さえておきたい学習テーマ | Alternative Architecture DOJO",
-      "link": "https://aadojo.alterbooth.com/entry/2026/10/24/155443",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-24T06:54:43",
-      "excerpt": "GitHub Copilotで開発する機会が増えると、AIエージェントにどこまで仕事を任せるか、その成果をどう確認するかも考えるようになります。…"
+      "title": "Raspberry Pi デスクトップは、古い PC がまだ限界を超えていないことを証明します",
+      "link": "https://www.theregister.com/os-platforms/2026/10/24/raspberry-pi-desktop-proves-old-pcs-arent-past-it/5304676",
+      "source": "The Register（英語）",
+      "published": "2026-10-24T11:30:00",
+      "excerpt": "Debian 13 ベースのリフレッシュは、インストールを趣味にすることなく、ベテランの ThinkPad で快適に動作します"
     },
     {
-      "title": "「国際カードブランドルール変更に伴うクレジットカード決済取引仕様変更について」というタイトルで登壇しました #devio2026",
-      "link": "https://dev.classmethod.jp/articles/devio2026-tokyo-credit-card-brand-rule-changes/",
-      "source": "DevelopersIO",
-      "published": "2026-10-24T06:03:22",
-      "excerpt": "主にEC事業者向けに、国際カードブランドのルール変更の内容と、EC事業者が対応すべきことを共有します。ECサイトの構築に対応したAPIプラットフォーム prismatix ではどのような対応を取ったかもご紹介します。"
+      "title": "Z-Library に関する AI 支援論文が存在しない TorrentFreak の記事を引用",
+      "link": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-24T11:18:54",
+      "excerpt": "記事の URL: https://torrentfreak.…"
     },
     {
-      "title": "現場に降りてきた AI フィジカル AI の技術スタックと実案件デモ で DevelopersIO 2026 Tokyo に登壇しました #devio2026",
-      "link": "https://dev.classmethod.jp/articles/physical-ai-technology-stack-in-devio-2026/",
-      "source": "DevelopersIO",
-      "published": "2026-10-24T05:30:00",
-      "excerpt": "DevelopersIO 2026 Tokyoで登壇した「フィジカルAI」の技術スタックと実案件について、シミュレーションから実機運用までの全体像を紹介します。"
+      "title": "量子物理学がわかりません (2018)",
+      "link": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-24T09:53:26",
+      "excerpt": "記事の URL: https://www.southampton.ac.uk/~doug/quantum_physics/index.html コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "AWS閉鎖網+Snowflakeバッチ検証",
-      "link": "https://qiita.com/Cache-Hit/items/92bccb721c55a2e6fd01",
+      "title": "AWS Price List Bulk APIで正確な料金データを取得する方法",
+      "link": "https://qiita.com/Snooze1229/items/7ebd9bb14148211f048d",
       "source": "Qiita AWSタグ",
-      "published": "2026-10-24T04:51:50",
-      "excerpt": "今回は、バッチの中身を作るため、snow connectionを利用しないアクセスにて接続を考えます。構成 目的 対象のテーブルの値を取得する。その値をcsvで出す上にヘッダーを消す。かつ余計な空白を消す。…"
+      "published": "2026-10-24T09:51:20",
+      "excerpt": "はじめに Terraformの.tfファイルをアップロードするとAWSの月額コストを概算してくれるツール(tf-cost-estimator)を個人開発で作っています。…"
     }
   ]
 }
