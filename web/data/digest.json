@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-10-24T16:07:43",
+  "generated_at": "2026-10-24T18:53:07",
   "window_hours": 24,
-  "total": 124,
+  "total": 116,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。新しい研究によると、GrokのAIは圧倒的に共和党候補者を推奨しているのに対し、OpenAIのGPTは民主党を支持しており、2つのAIモデルは約500の選挙戦のうち90％以上で一致していないことが判明した。",
+      "summary": "生成AIの新着が20件。Amazon Bedrock AgentCore Gatewayの推論ターゲットがBedrockのInvokeModel APIに対応し、フォールバック機能が追加されたので試してみました！",
       "articles": [
+        {
+          "title": "[アップデート] AgentCore GatewayがBedrockのInvokeModel APIとモデルのフォールバックに対応したので試してみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-gateway-model-fallback/",
+          "source": "DevelopersIO",
+          "published": "2026-10-24T16:51:41",
+          "excerpt": "Amazon Bedrock AgentCore Gatewayの推論ターゲットがBedrockのInvokeModel APIに対応し、フォールバック機能が追加されたので試してみました！"
+        },
+        {
+          "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
+          "link": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-24T15:35:17",
+          "excerpt": "Article URL: https://terrytao.wordpress.…"
+        },
         {
           "title": "選択を迫られると、Grok の AI モデルは共和党を選択します。 OpenAIは民主党を選ぶ。",
           "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
@@ -22,20 +36,6 @@
           "source": "The Register（英語）",
           "published": "2026-10-24T13:02:00",
           "excerpt": "人間の承認なしで 100,000 歩を実行するように設計されています"
-        },
-        {
-          "title": "「その判定、LLM じゃなくていい」というタイトルで DevelopersIO 2026 Tokyo で登壇しました #devio2026",
-          "link": "https://dev.classmethod.jp/articles/devio2026-tokyo-decision-model-report/",
-          "source": "DevelopersIO",
-          "published": "2026-10-24T12:48:37",
-          "excerpt": "DevelopersIO 2026 Tokyoでの登壇内容をスライドに沿ってまとめます。…"
-        },
-        {
-          "title": "[登壇レポート] DevelopersIO 2026 Tokyoで 「Claude Code をローカルとサーバー上で利用した際の Bedrock 利用料をユーザー単位で一本化してみる 」というタイトルで登壇しました",
-          "link": "https://dev.classmethod.jp/articles/202610-developersio-2026-tokyo-bedrock-user-cost-calculation/",
-          "source": "DevelopersIO",
-          "published": "2026-10-24T11:28:50",
-          "excerpt": "DevelopersIO 2026 Tokyo での登壇資料を共有します。CUR 2.0 を用いて Amazon Bedrock の利用料をユーザー単位で一本化する手法についてまとめます。"
         }
       ]
     },
@@ -112,7 +112,7 @@
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。おはようございます、YASUです。DVAの模擬試験で、「DynamoDBの書き込みが追いつかない時の解決策」を問う問題で迷いました。スロットリングやプロビジョニングという言葉の意味もあやふやだったので、今日は、シンプルに整理します。…",
+      "summary": "データ分析の新着が1件。おはようございます、YASUです。DVAの模擬試験で、「DynamoDBの書き込みが追いつかない時の解決策」を問う問題で迷いました。スロットリングやプロビジョニングという言葉の意味もあやふやだったので、今日は、シンプルに整理します。…",
       "articles": [
         {
           "title": "DynamoDBの書き込みが足りない時は、「原因を見てから」解決策を選ぶ",
@@ -120,21 +120,28 @@
           "source": "Zenn AWSトピック",
           "published": "2026-10-23T23:17:06",
           "excerpt": "おはようございます、YASUです。DVAの模擬試験で、「DynamoDBの書き込みが追いつかない時の解決策」を問う問題で迷いました。スロットリングやプロビジョニングという言葉の意味もあやふやだったので、今日は、シンプルに整理します。…"
-        },
-        {
-          "title": "DynamoDBが遅くなる5つのパターンと、コードでの見つけ方",
-          "link": "https://zenn.dev/aligator527/articles/dynamodb-slow-five-patterns",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-23T17:40:28",
-          "excerpt": "!この記事は、自分のサイトに書いた同じ主題のノートを、Zenn向けに書き直したものです。向こうは「どう考えるか」、こちらは「どう見つけるか」に寄せています。相談はだいたい同じ形で届きます。プロダクトは動いていた。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。前回は、AWSの高可用性を意識した構成を設計した。今回はそこから一歩進んで、 «「同じようなAWSリソースを、Terraformで効率よく管理するにはどうするか？」» を学んでいく。…",
+      "summary": "開発ツールの新着が10件。GitHub CLI 2.103.0で、数時間で失効するアクセストークンを gh が自動更新する認証がPublic Previewとして加わりました。…",
       "articles": [
+        {
+          "title": "有効期限なしだったGitHub CLIのトークンが、数時間で失効して自動更新される方式を選べるようになりました",
+          "link": "https://dev.classmethod.jp/articles/gh-cli-expiring-oauth-tokens/",
+          "source": "DevelopersIO",
+          "published": "2026-10-24T16:29:23",
+          "excerpt": "GitHub CLI 2.103.0で、数時間で失効するアクセストークンを gh が自動更新する認証がPublic Previewとして加わりました。…"
+        },
+        {
+          "title": "Roku developer repositories moved from GitHub to GitLab",
+          "link": "https://blog.roku.com/developer/gitlab-move",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-24T16:06:26",
+          "excerpt": "Article URL: https://blog.roku.com/developer/gitlab-move Comments URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "第19回 Terraform講座｜countで同じリソースをまとめて管理する",
           "link": "https://qiita.com/nyarusasu22/items/3e4a4af3ae3fe1e302f0",
@@ -148,52 +155,38 @@
           "source": "DevelopersIO",
           "published": "2026-10-24T12:39:17",
           "excerpt": "DevelopersIO 2026 Tokyoにて、入社後初めての登壇でCloudFormationのスタック分割についてお話ししました。運用性を考慮したスタック設計の考え方や、実務での試行錯誤の経験を共有します。…"
-        },
-        {
-          "title": "AWS CDK でデプロイした Lambda 関数を以前のコードに戻したいです。以前のアセットはどこに残っていますか",
-          "link": "https://dev.classmethod.jp/articles/tsnote-cdk-lambda-rollback-asset-s3-cdk-gc/",
-          "source": "DevelopersIO",
-          "published": "2026-10-24T11:10:06",
-          "excerpt": "AWS CDK で Lambda 関数をデプロイした後、コードに不具合が見つかった時の切り戻し方法について解説します。…"
-        },
-        {
-          "title": "CloudFormation Hookを使ってみた：自作Lambdaを利用する版",
-          "link": "https://qiita.com/a_b_/items/a6a789882cf2236f1740",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-24T10:27:48",
-          "excerpt": "はじめに 前回、CloudFormation Hookを試用してみました。今回は自作Lambdaを使うケースを、簡単な例で作ってみました。概要 今回は\"S3の名前をチェックするCloudFormation Hook\"を作ります。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ブロックの新しい音声モデルは不気味に人間的に聞こえる",
-      "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-24T16:00:00",
-      "excerpt": "ブロック氏は、音声モデルはMacBook M4 Max上でローカルに実行できると述べた。"
-    },
-    {
-      "title": "PHP のオカリプス: 2 つの重大な Web バグがどのようにしてインターネットを破壊しかけたのか",
-      "link": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-24T15:30:00",
-      "excerpt": "インターネットの大部分で使用されている Web プログラミング言語 PHP の 2 つの重大なバグは、インターネットを混乱させる恐れがありましたが、これがソフトウェアの最後の大きな脅威になる可能性は低いです。"
-    },
-    {
-      "title": "FreeDNS",
-      "link": "https://freedns.afraid.org/",
+      "title": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
+      "link": "https://de.numista.com/9866",
       "source": "Hacker News（英語）",
-      "published": "2026-10-24T15:20:01",
-      "excerpt": "Article URL: https://freedns.afraid.org/ Comments URL: https://news.ycombinator.com/item?…"
+      "published": "2026-10-24T16:41:55",
+      "excerpt": "Article URL: https://de.numista.com/9866 Comments URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "JAWS-UG東京LT参加レポート(Cognito入門とAIのガードレール)",
-      "link": "https://qiita.com/A0yyy36/items/a3f5bd0dc1f5ccf1133e",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-24T15:17:02",
-      "excerpt": "はじめに JAWS-UG東京 2026秋 〜AWSライトニングトークNight〜に参加しました。…"
+      "title": "Instacart reportedly discussed selling itself with DoorDash and Uber",
+      "link": "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-24T16:30:00",
+      "excerpt": "Instacart might sell itself to a larger competitor."
+    },
+    {
+      "title": "組み込み未経験でもAIでロボットは動かせる？StackChanライブデモ #devio2026",
+      "link": "https://dev.classmethod.jp/articles/ai-real-m5stack/",
+      "source": "DevelopersIO",
+      "published": "2026-10-24T16:19:08",
+      "excerpt": "DevelopersIO 2026 Tokyoの登壇内容です。M5StackとStackChanの基礎、Claude CodeでC++を書かずにロボットを動かしたライブデモ、現実世界へ広がる活用アイディアを紹介します。"
+    },
+    {
+      "title": "[アップデート] Amazon Quick でブランドテンプレートが使えるようになったので、提案書テンプレートから資料を作ってみた",
+      "link": "https://dev.classmethod.jp/articles/20261025-amazon-quick-brand-templates/",
+      "source": "DevelopersIO",
+      "published": "2026-10-24T16:00:20",
+      "excerpt": "Amazon Quick のブランドテンプレート機能を試してみました。PowerPoint や Word のテンプレートから配色・フォント・ロゴを読み取り、組織全体で統一した資料作成ができる機能です。…"
     }
   ]
 }
