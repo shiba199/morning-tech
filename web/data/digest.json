@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-24T18:53:07",
+  "generated_at": "2026-10-24T21:17:57",
   "window_hours": 24,
-  "total": 116,
+  "total": 109,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。Amazon Bedrock AgentCore Gatewayの推論ターゲットがBedrockのInvokeModel APIに対応し、フォールバック機能が追加されたので試してみました！",
+      "summary": "生成AIの新着が17件。Amazon Bedrock AgentCore Gatewayの推論ターゲットがBedrockのInvokeModel APIに対応し、フォールバック機能が追加されたので試してみました！",
       "articles": [
         {
           "title": "[アップデート] AgentCore GatewayがBedrockのInvokeModel APIとモデルのフォールバックに対応したので試してみた",
@@ -17,11 +17,11 @@
           "excerpt": "Amazon Bedrock AgentCore Gatewayの推論ターゲットがBedrockのInvokeModel APIに対応し、フォールバック機能が追加されたので試してみました！"
         },
         {
-          "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
+          "title": "Oai-math-revized: OpenAI の数学に関する記事を改訂するためのコミュニティ ハブ",
           "link": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
           "source": "Hacker News（英語）",
           "published": "2026-10-24T15:35:17",
-          "excerpt": "Article URL: https://terrytao.wordpress.…"
+          "excerpt": "記事の URL: https://terrytao.wordpress.…"
         },
         {
           "title": "選択を迫られると、Grok の AI モデルは共和党を選択します。 OpenAIは民主党を選ぶ。",
@@ -42,8 +42,22 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。【ハンズオン】AWS無料枠で完結！EventBridge×Lambda×S3×CloudFrontでWeb死活・検索モニタリング環境をゼロから構築する完全ガイド 1.…",
+      "summary": "クラウドの新着が13件。インターネットが「ノリと夢で繋がれている」ことに気づいた瞬間。",
       "articles": [
+        {
+          "title": "AI はインターネットの不安定なインフラストラクチャを暴露するでしょうか?",
+          "link": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-24T20:15:33",
+          "excerpt": "インターネットが「ノリと夢で繋がれている」ことに気づいた瞬間。"
+        },
+        {
+          "title": "AWSにデプロイせず、FastAPI製Lambdaのarm64実行をCIで検証する",
+          "link": "https://zenn.dev/shingokumon/articles/4da5acb9697d56",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-24T16:07:43",
+          "excerpt": "はじめに FastAPIで開発している案件判定API「SUMI Job Engine」に、AWSへデプロイせずにLambda向けパッケージを検証するCIを追加しました。今回確認したかったのは、「SAMでビルドできるか」の一歩先です。…"
+        },
         {
           "title": "【ハンズオン】AWS無料枠で完結！EventBridge×Lambda×S3×CloudFrontでWeb死活・検索モニタリング環境をゼロから構築する完全ガイド",
           "link": "https://qiita.com/4eena/items/b2225d1399d482c0ba27",
@@ -52,33 +66,26 @@
           "excerpt": "【ハンズオン】AWS無料枠で完結！EventBridge×Lambda×S3×CloudFrontでWeb死活・検索モニタリング環境をゼロから構築する完全ガイド 1.…"
         },
         {
-          "title": "[アップデート] ElastiCache Serverless for Valkey がオンライン移行に対応したので EC2 の Redis OSS から移してみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-elasticache-serverless-valkey-online-migration/",
-          "source": "DevelopersIO",
-          "published": "2026-10-24T11:52:48",
-          "excerpt": "ElastiCache の移行機能"
-        },
-        {
-          "title": "AWS無料枠でつくる！EventBridge × Lambda × CloudFrontの自動Web公開 ＆ Amazon Q Developer連携Slack監視パイプライン",
-          "link": "https://qiita.com/4eena/items/a83c455d9c7ad3ded52f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-24T11:32:16",
-          "excerpt": "概要 Lambdaで定期処理（データ生成等）を行って成果物（index.html）をS3/CloudFront経由でWeb公開しつつ、エラー発生時にはAWS無料枠の範囲内でSlack（#alert）へ即時通知する仕組みを構築しました。…"
-        },
-        {
-          "title": "AWS CDK でデプロイした Lambda 関数を以前のコードに戻したいです。以前のアセットはどこに残っていますか",
-          "link": "https://dev.classmethod.jp/articles/tsnote-cdk-lambda-rollback-asset-s3-cdk-gc/",
-          "source": "DevelopersIO",
-          "published": "2026-10-24T11:10:06",
-          "excerpt": "AWS CDK で Lambda 関数をデプロイした後、コードに不具合が見つかった時の切り戻し方法について解説します。…"
+          "title": "マルチアカウントのフローログ監査設計：vpc-flow-logs-enabledの限界と、AWS Configで補う範囲",
+          "link": "https://zenn.dev/xim2jp_tokyo/articles/neta-48-zenn-summary",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-24T12:35:55",
+          "excerpt": "フローログが「有効」であることと、調査に使えるログが残っていることは別です。AWS Configで何が見えて何が見えないかを、設計の論点に絞って整理しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。DevelopersIO（Tokyo）でランサムウェア対策とAWS Backupについて登壇してきました！初めての登壇で緊張もありましたが、満席のご来場をいただき、無事に終えることができたので、その様子をお伝えします。",
+      "summary": "セキュリティの新着が8件。「HTTP2Shell」CVE-2026-111497、Node.js・Python・Bun・Envoyに影響 Brotliの重大脆弱性と修正版を確認 2026年10月21日、Node.…",
       "articles": [
+        {
+          "title": "「HTTP2Shell」CVE-2026-111497、Node.js・Python・Bun・Envoyに影響 Brotliの重大脆弱性と修正版を確認|セキュリティニュースのセキュリティ対策Lab",
+          "link": "https://rocket-boys.co.jp/security-measures-lab/brotli_cve-2026-111497_http2shell_20261024/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-10-24T12:12:42",
+          "excerpt": "「HTTP2Shell」CVE-2026-111497、Node.js・Python・Bun・Envoyに影響 Brotliの重大脆弱性と修正版を確認 2026年10月21日、Node.…"
+        },
         {
           "title": "DevelopersIO 2026 TOKYOで 「バックアップは“消されないこと”が9割 〜AWS Backupで考えるランサムウェア対策とVaultの選び方〜」というタイトルで登壇しました #devio2026",
           "link": "https://dev.classmethod.jp/articles/devio2026tokyo-aws-backup-ransomware/",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-10-24T07:13:32",
           "excerpt": "Classmethod Odysseyで「AI駆動開発の開発環境のセキュリティの考え方」というテーマで登壇します。発表資料と、イベントの詳細をご紹介しますので、ぜひご覧ください。"
-        },
-        {
-          "title": "AIで加速するサイバー攻撃と、防御をめぐる動き ――脆弱性の修正から、AIエージェントの行動制御まで",
-          "link": "https://gihyo.jp/article/2026/10/ai-security-defense?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-10-24T05:11:00",
-          "excerpt": "AIを使ったサイバー攻撃が報告される一方、防御側でも脆弱性の検証・修正やAIエージェントの行動を制御する取り組みが進んでいる。…"
         }
       ]
     },
@@ -126,7 +126,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。GitHub CLI 2.103.0で、数時間で失効するアクセストークンを gh が自動更新する認証がPublic Previewとして加わりました。…",
+      "summary": "開発ツールの新着が12件。GitHub CLI 2.103.0で、数時間で失効するアクセストークンを gh が自動更新する認証がPublic Previewとして加わりました。…",
       "articles": [
         {
           "title": "有効期限なしだったGitHub CLIのトークンが、数時間で失効して自動更新される方式を選べるようになりました",
@@ -136,11 +136,18 @@
           "excerpt": "GitHub CLI 2.103.0で、数時間で失効するアクセストークンを gh が自動更新する認証がPublic Previewとして加わりました。…"
         },
         {
-          "title": "Roku developer repositories moved from GitHub to GitLab",
+          "title": "AWSにデプロイせず、FastAPI製Lambdaのarm64実行をCIで検証する",
+          "link": "https://zenn.dev/shingokumon/articles/4da5acb9697d56",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-24T16:07:43",
+          "excerpt": "はじめに FastAPIで開発している案件判定API「SUMI Job Engine」に、AWSへデプロイせずにLambda向けパッケージを検証するCIを追加しました。今回確認したかったのは、「SAMでビルドできるか」の一歩先です。…"
+        },
+        {
+          "title": "Roku 開発者リポジトリが GitHub から GitLab に移動されました",
           "link": "https://blog.roku.com/developer/gitlab-move",
           "source": "Hacker News（英語）",
           "published": "2026-10-24T16:06:26",
-          "excerpt": "Article URL: https://blog.roku.com/developer/gitlab-move Comments URL: https://news.ycombinator.com/item?…"
+          "excerpt": "記事の URL: https://blog.Roku.com/developer/gitlab-move コメント URL: https://news.ycombinator.com/item?…"
         },
         {
           "title": "第19回 Terraform講座｜countで同じリソースをまとめて管理する",
@@ -148,45 +155,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-24T12:41:32",
           "excerpt": "前回は、AWSの高可用性を意識した構成を設計した。今回はそこから一歩進んで、 «「同じようなAWSリソースを、Terraformで効率よく管理するにはどうするか？」» を学んでいく。…"
-        },
-        {
-          "title": "【登壇レポート】 DevelopersIO 2026 Tokyo で 「CloudFormation のスタック、 どこで分けていますか？」 というタイトルで登壇しました",
-          "link": "https://dev.classmethod.jp/articles/myan-devio-tokyo-2026/",
-          "source": "DevelopersIO",
-          "published": "2026-10-24T12:39:17",
-          "excerpt": "DevelopersIO 2026 Tokyoにて、入社後初めての登壇でCloudFormationのスタック分割についてお話ししました。運用性を考慮したスタック設計の考え方や、実務での試行錯誤の経験を共有します。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
-      "link": "https://de.numista.com/9866",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-24T16:41:55",
-      "excerpt": "Article URL: https://de.numista.com/9866 Comments URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Instacart reportedly discussed selling itself with DoorDash and Uber",
-      "link": "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
+      "title": "Starlinkはウクライナで再び正常に動作しているようです",
+      "link": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
       "source": "TechCrunch（英語）",
-      "published": "2026-10-24T16:30:00",
-      "excerpt": "Instacart might sell itself to a larger competitor."
+      "published": "2026-10-24T20:46:34",
+      "excerpt": "イーロン・マスク氏はスペースX社にウクライナのスターリンクへのアクセスを制限するよう命令したと伝えられている。"
     },
     {
-      "title": "組み込み未経験でもAIでロボットは動かせる？StackChanライブデモ #devio2026",
-      "link": "https://dev.classmethod.jp/articles/ai-real-m5stack/",
-      "source": "DevelopersIO",
-      "published": "2026-10-24T16:19:08",
-      "excerpt": "DevelopersIO 2026 Tokyoの登壇内容です。M5StackとStackChanの基礎、Claude CodeでC++を書かずにロボットを動かしたライブデモ、現実世界へ広がる活用アイディアを紹介します。"
+      "title": "私のビットコインを盗んでください",
+      "link": "https://stealmybitcoin.com/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-24T20:30:31",
+      "excerpt": "記事の URL: https://stealmybitcoin.com/ コメント URL: https://news.ycombinator.com/item?id=50224916 ポイント: 68 コメント数: 11"
     },
     {
-      "title": "[アップデート] Amazon Quick でブランドテンプレートが使えるようになったので、提案書テンプレートから資料を作ってみた",
-      "link": "https://dev.classmethod.jp/articles/20261025-amazon-quick-brand-templates/",
-      "source": "DevelopersIO",
-      "published": "2026-10-24T16:00:20",
-      "excerpt": "Amazon Quick のブランドテンプレート機能を試してみました。PowerPoint や Word のテンプレートから配色・フォント・ロゴを読み取り、組織全体で統一した資料作成ができる機能です。…"
+      "title": "テクノロジーセクター以外では AI が利益をもたらす兆候はない",
+      "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-24T19:47:19",
+      "excerpt": "記事の URL: https://www.apollo.…"
+    },
+    {
+      "title": "11175 kHz で聞こえる米国核軍の緊急行動メッセージを聞いて読んでください",
+      "link": "https://missileer.watch",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-24T19:43:27",
+      "excerpt": "記事の URL: https://missileer.watch コメント URL: https://news.ycombinator.com/item?id=50224422 ポイント: 52 コメント数: 23"
     }
   ]
 }
