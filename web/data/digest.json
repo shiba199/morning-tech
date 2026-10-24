@@ -1,119 +1,126 @@
 {
-  "generated_at": "2026-10-24T02:19:41",
+  "generated_at": "2026-10-24T07:28:07",
   "window_hours": 24,
-  "total": 155,
+  "total": 143,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が24件。Anthropicは「Claude」が評価試験や社内利用で、実在するサーバでの命令実行や政府機関へのフォーム誤送信、アクセス制限の回避といった想定外の行動を示した調査結果を公開した。…",
+      "summary": "生成AIの新着が22件。DevelopersIO 2026 Tokyoでの登壇資料を共有します。Claude Codeを安全かつ効率的に自動実行させるための環境構築と、自動化の先に残る課題についてお話ししました。ぜひ参考にしてみてください。",
       "articles": [
+        {
+          "title": "DevelopersIO 2026 TOKYO で「ガチで放置できる Claude Code実行環境の作り方」というタイトルで登壇しました #devio2026",
+          "link": "https://dev.classmethod.jp/articles/devio2026-tokyo-claude-code-automode-unattended-environment/",
+          "source": "DevelopersIO",
+          "published": "2026-10-24T07:08:50",
+          "excerpt": "DevelopersIO 2026 Tokyoでの登壇資料を共有します。Claude Codeを安全かつ効率的に自動実行させるための環境構築と、自動化の先に残る課題についてお話ししました。ぜひ参考にしてみてください。"
+        },
+        {
+          "title": "Kiro CLI で選択可能になった Claude Haiku 5.5 を試してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-haiku-55/",
+          "source": "DevelopersIO",
+          "published": "2026-10-24T07:04:18",
+          "excerpt": "Claude Haiku 5.5・Sonnet 5.5・Opus 5.5 に同じ文章を出力させ、Kiro CLI のヘッドレス実行で消費クレジットと実行時間を比べました。"
+        },
+        {
+          "title": "AIで加速するサイバー攻撃と、防御をめぐる動き ――脆弱性の修正から、AIエージェントの行動制御まで",
+          "link": "https://gihyo.jp/article/2026/10/ai-security-defense?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-10-24T05:11:00",
+          "excerpt": "AIを使ったサイバー攻撃が報告される一方、防御側でも脆弱性の検証・修正やAIエージェントの行動を制御する取り組みが進んでいる。…"
+        },
         {
           "title": "「警察に虚偽情報を送信」　Claudeが“軽微な違反”をやりたい放題",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/24/news001.html",
           "source": "@IT",
           "published": "2026-10-23T23:15:00",
           "excerpt": "Anthropicは「Claude」が評価試験や社内利用で、実在するサーバでの命令実行や政府機関へのフォーム誤送信、アクセス制限の回避といった想定外の行動を示した調査結果を公開した。…"
-        },
-        {
-          "title": "OpenAIは「重大なリスク」を理由に、今後はライブインターネット上でAIモデルをトレーニングしないと発表",
-          "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-23T23:05:49",
-          "excerpt": "OpenAIは、エンジニアの1人がソリューションが機能しないと発言してから数週間後、フロンティアモデルをインターネットから遮断する予定だ。"
-        },
-        {
-          "title": "OpenAI がモデルのトレーニング中にインターネット アクセスを無効にし、Anthropic が別の重大な責任を負う",
-          "link": "https://www.theregister.com/ai-and-ml/2026/10/23/openai-disables-internet-access-during-model-training-while-anthropic-issues-another-mea-culpa/5305238",
-          "source": "The Register（英語）",
-          "published": "2026-10-23T22:36:11",
-          "excerpt": "私たちは物事を完全にコントロールしています"
-        },
-        {
-          "title": "「Claude Mythos 5」、危害の兆候を顧みず実在の開発者を標的に──AnthropicとAISIが分析結果を公開",
-          "link": "https://www.itmedia.co.jp/news/article/2610/24/2000002564/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-23T22:28:08",
-          "excerpt": "Anthropicと英AI安全保障研究所AISIは、「Claude Mythos 5」がサイバー能力評価中に実在の開発者を標的とした事案の分析報告を公開した。GitHub経由で無許可の攻撃を行い偽身元で承認を迫った経緯を報告。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。AWSのコンソールを開いても、VPCやEC2やRDSをどの順番で、どんな設定で組めば本番で使える形になるのかが見えない。自己流で作り始めると、あとからセキュリティや監視の抜けに気づいて、作り直しになりやすい。…",
+      "summary": "クラウドの新着が10件。はじめに 2026年4月7日に、Amazon S3 Files が登場しました。S3 の汎用バケットを、ファイルシステムとしてマウントできるサービスです。…",
       "articles": [
         {
-          "title": "AWSを触り始めたいが、VPCから監視までどの順で組めば本番に耐えるか分からないインフラ担当者へ。手順を追ってWebアプリの基盤を作れる一冊",
-          "link": "https://qiita.com/yasu1109/items/cbe370aab6216bff89ed",
+          "title": "【S3 Files】ファイルシステムと S3 バケットの同期にかかる時間を測ってみた",
+          "link": "https://qiita.com/ryu-ki/items/ac1152359bcf1217c1f5",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-24T00:10:37",
-          "excerpt": "AWSのコンソールを開いても、VPCやEC2やRDSをどの順番で、どんな設定で組めば本番で使える形になるのかが見えない。自己流で作り始めると、あとからセキュリティや監視の抜けに気づいて、作り直しになりやすい。…"
+          "published": "2026-10-24T06:39:32",
+          "excerpt": "はじめに 2026年4月7日に、Amazon S3 Files が登場しました。S3 の汎用バケットを、ファイルシステムとしてマウントできるサービスです。…"
         },
         {
-          "title": "systemd-nspawn コンテナのめまぐるしいツアー",
-          "link": "https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-23T20:37:12",
-          "excerpt": "記事の URL: https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/ コメント URL: https://news.ycombinator.…"
-        },
-        {
-          "title": "PHPの緊急脆弱性「php2shell」で攻撃されていないか？サーバーに残る3つの痕跡と確認方法 - インフラ学習サイト「InfraAcademy」",
-          "link": "https://engineer-ninaritai.com/php2shell-attack-detection/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-23T12:23:05",
-          "excerpt": "こんにちは、インフラエンジニアのryuです。前回の記事「PHPの緊急脆弱性「php2shell」とは？」では、2026年10月21日に公開されたPHPの脆弱性の仕組みと、アップデートの進め方を解説しました。今回はその続きです。…"
-        },
-        {
-          "title": "【AWS】DNS 切り替え前に本番ドメインで新環境を確認する方法｜hosts 不要・ALB / CloudFront の IP 変更にも自動追従",
-          "link": "https://qiita.com/hya2026/items/ccff03572410b871d034",
+          "title": "AWS Lambda Durable Functionsで、15分の壁を超えてCloudWatch LogsのS3エクスポート完了を待ちぼうけ",
+          "link": "https://qiita.com/miruky/items/633d3a1bbef54372c78a",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-23T10:02:31",
-          "excerpt": "TL;DR AWS 移行や DNS 切り替えの前に「本番と同じドメインで AWS の検証環境を確認したい」とき、hosts ファイルは不要です。…"
+          "published": "2026-10-24T06:19:17",
+          "excerpt": "はじめに こんばんは、mirukyです。CloudWatch LogsをS3へエクスポートすると、開始要求を送った後に完了を確認する必要があります。…"
+        },
+        {
+          "title": "aws S3には、ブラウザ以外のインターフェースはありますか",
+          "link": "https://qiita.com/itnote/items/68bd13087dae69c68dfa",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-24T04:16:28",
+          "excerpt": "はい、ブラウザ(AWSマネジメントコンソール)以外にも複数あります。AWS CLI:aws s3 cp、aws s3 sync、aws s3api などのコマンドで操作できます。スクリプトや自動化に最適です。…"
+        },
+        {
+          "title": "AWS、Lambda Durable Execution SDK for Goを一般提供開始",
+          "link": "https://codezine.jp/article/detail/30121",
+          "source": "CodeZine",
+          "published": "2026-10-24T04:00:00",
+          "excerpt": "AWS、Lambda Durable Execution SDK for Goを一般提供開始"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。記事の URL: https://cve.0xosprey.com/ コメント URL: https://news.ycombinator.com/item?id=50215530 ポイント: 59 コメント数: 6",
+      "summary": "セキュリティの新着が12件。Classmethod Odysseyで「AI駆動開発の開発環境のセキュリティの考え方」というテーマで登壇します。発表資料と、イベントの詳細をご紹介しますので、ぜひご覧ください。",
       "articles": [
         {
-          "title": "CVEトラッカー",
-          "link": "https://cve.0xosprey.com/",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-23T21:21:47",
-          "excerpt": "記事の URL: https://cve.0xosprey.com/ コメント URL: https://news.ycombinator.com/item?id=50215530 ポイント: 59 コメント数: 6"
+          "title": "[登壇資料] 「AI駆動開発の開発環境のセキュリティの考え方」についてお話しました #devio2026",
+          "link": "https://dev.classmethod.jp/articles/ai-dev-environment-security-devio2026/",
+          "source": "DevelopersIO",
+          "published": "2026-10-24T07:13:32",
+          "excerpt": "Classmethod Odysseyで「AI駆動開発の開発環境のセキュリティの考え方」というテーマで登壇します。発表資料と、イベントの詳細をご紹介しますので、ぜひご覧ください。"
         },
         {
-          "title": "PHP脆弱性、利用サイトの半分が修正困難　バージョン古くサポート終了 - 日本経済新聞",
-          "link": "https://www.nikkei.com/article/DGXZQOUC236ST0T21C26A0000000/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-23T20:43:19",
-          "excerpt": "プログラム言語「PHP」に深刻な脆弱性が発覚した問題で、利用サイトの半数では運営団体の公表した修正作業が難しいことが分かった。長期間更新されていない「休眠サイト」も多数含まれるとみられ、閉鎖が急務となっている。…"
-        },
-        {
-          "title": "PHPの緊急脆弱性「php2shell」で攻撃されていないか？サーバーに残る3つの痕跡と確認方法 - インフラ学習サイト「InfraAcademy」",
-          "link": "https://engineer-ninaritai.com/php2shell-attack-detection/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-23T12:23:05",
-          "excerpt": "こんにちは、インフラエンジニアのryuです。前回の記事「PHPの緊急脆弱性「php2shell」とは？」では、2026年10月21日に公開されたPHPの脆弱性の仕組みと、アップデートの進め方を解説しました。今回はその続きです。…"
-        },
-        {
-          "title": "Ruby 4.0.9、3.4.12、3.3.13公開、正規表現エンジンの不具合を修正 ——GitLabの任意コード実行の脆弱性に関連",
-          "link": "https://gihyo.jp/article/2026/10/ruby-regexp-fixes-gitlab-cves?utm_source=feed",
+          "title": "AIで加速するサイバー攻撃と、防御をめぐる動き ――脆弱性の修正から、AIエージェントの行動制御まで",
+          "link": "https://gihyo.jp/article/2026/10/ai-security-defense?utm_source=feed",
           "source": "gihyo.jp 開発",
-          "published": "2026-10-23T11:13:00",
-          "excerpt": "Rubyの開発チームは2026年10月23日、プログラミング言語Rubyのバージョン4.0.9、3.4.12、3.3.13を公開した。"
+          "published": "2026-10-24T05:11:00",
+          "excerpt": "AIを使ったサイバー攻撃が報告される一方、防御側でも脆弱性の検証・修正やAIエージェントの行動を制御する取り組みが進んでいる。…"
+        },
+        {
+          "title": "不正アクセス受けたＧＭＯ、政府に「能動的サイバー防御」の適用を緊急要請",
+          "link": "https://www.yomiuri.co.jp/economy/20261024-GYT1T00180/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-10-24T04:45:05",
+          "excerpt": "【読売新聞】 ＧＭＯインターネットのＦＸ（外国為替証拠金）取引などに使うクラウドサービスが不正アクセスを受けた問題で、同社は２４日、不正アクセスが原因の不正取引によって生じた損害を利用者に補償する方針を発表した。利用者全員に５０００"
+        },
+        {
+          "title": "Apple セキュリティ調査デバイス",
+          "link": "https://security.apple.com/research-device/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-24T02:36:38",
+          "excerpt": "記事の URL: https://security.apple.com/research-device/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。!この記事は、自分のサイトに書いた同じ主題のノートを、Zenn向けに書き直したものです。向こうは「どう考えるか」、こちらは「どう見つけるか」に寄せています。相談はだいたい同じ形で届きます。プロダクトは動いていた。…",
+      "summary": "データ分析の新着が3件。おはようございます、YASUです。DVAの模擬試験で、「DynamoDBの書き込みが追いつかない時の解決策」を問う問題で迷いました。スロットリングやプロビジョニングという言葉の意味もあやふやだったので、今日は、シンプルに整理します。…",
       "articles": [
+        {
+          "title": "DynamoDBの書き込みが足りない時は、「原因を見てから」解決策を選ぶ",
+          "link": "https://zenn.dev/yasutomo7974/articles/dva-dynamodb-write-throttling",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-23T23:17:06",
+          "excerpt": "おはようございます、YASUです。DVAの模擬試験で、「DynamoDBの書き込みが追いつかない時の解決策」を問う問題で迷いました。スロットリングやプロビジョニングという言葉の意味もあやふやだったので、今日は、シンプルに整理します。…"
+        },
         {
           "title": "DynamoDBが遅くなる5つのパターンと、コードでの見つけ方",
           "link": "https://zenn.dev/aligator527/articles/dynamodb-slow-five-patterns",
@@ -127,87 +134,73 @@
           "source": "AWS What's New（英語）",
           "published": "2026-10-23T08:00:00",
           "excerpt": "Amazon EMR は、EKS で EMR を実行する場合に EKS に追加される EMR 料金を 30% 削減すると発表しました。…"
-        },
-        {
-          "title": "[アップデート] Amazon DynamoDB グローバルテーブルでレプリカの関連付けを解除できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/dynamodb-global-tables-disassociate/",
-          "source": "DevelopersIO",
-          "published": "2026-10-23T06:51:10",
-          "excerpt": "レプリカを削除じゃなくて対象リージョンで単独テーブルに移行できるようになった感じ"
-        },
-        {
-          "title": "サーバを Debian 13 (trixie) にアップデートして手作業で修正したところ",
-          "link": "https://zenn.dev/19931/articles/aea1330284f04e",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-23T02:53:11",
-          "excerpt": "趣味用サーバを Debian 12 (bookworm) から 13 (trixie) にアップデートして、そのままでは動かなかったところのメモ テックスタック Base system Amazon Lightsail (VPS, fire…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。GitHub Copilo、Visual Studio向けの9月アップデートまとめ",
+      "summary": "開発ツールの新着が6件。Claude Haiku 5.5・Sonnet 5.5・Opus 5.5 に同じ文章を出力させ、Kiro CLI のヘッドレス実行で消費クレジットと実行時間を比べました。",
       "articles": [
+        {
+          "title": "Kiro CLI で選択可能になった Claude Haiku 5.5 を試してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-haiku-55/",
+          "source": "DevelopersIO",
+          "published": "2026-10-24T07:04:18",
+          "excerpt": "Claude Haiku 5.5・Sonnet 5.5・Opus 5.5 に同じ文章を出力させ、Kiro CLI のヘッドレス実行で消費クレジットと実行時間を比べました。"
+        },
+        {
+          "title": "AWS、Lambda Durable Execution SDK for Goを一般提供開始",
+          "link": "https://codezine.jp/article/detail/30121",
+          "source": "CodeZine",
+          "published": "2026-10-24T04:00:00",
+          "excerpt": "AWS、Lambda Durable Execution SDK for Goを一般提供開始"
+        },
+        {
+          "title": "Terraform プロバイダーのバージョンを上げるときの注意点",
+          "link": "https://zenn.dev/azunyan/articles/02a1d92038ceda",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-24T00:12:16",
+          "excerpt": "🐥 はじめに これまで Terraform は AWS のリソースを作るのに使ってきましたが、Cloudflare プロバイダーのバージョンを上げる作業で思っていた以上に手間がかかりました。…"
+        },
         {
           "title": "GitHub Copilo、Visual Studio向けの9月アップデートまとめ",
           "link": "https://codezine.jp/article/detail/30122",
           "source": "CodeZine",
           "published": "2026-10-24T00:00:00",
           "excerpt": "GitHub Copilo、Visual Studio向けの9月アップデートまとめ"
-        },
-        {
-          "title": "Muse Gadget SDKをM5Stack Core2 for AWSで試す",
-          "link": "https://dev.classmethod.jp/articles/shuntaka-muse-gadget-sdk-m5stack-core2/",
-          "source": "DevelopersIO",
-          "published": "2026-10-23T15:16:30",
-          "excerpt": "2026年10月、Metaがパーソナルエージェント「Muse」を日本でも利用可能にしました。公開されたSDKを使って、昔のM5Stack本体をMuseに接続し、音声で質問できるようにしてみます。"
-        },
-        {
-          "title": "Ruby 4.0.9、3.4.12、3.3.13公開、正規表現エンジンの不具合を修正 ——GitLabの任意コード実行の脆弱性に関連",
-          "link": "https://gihyo.jp/article/2026/10/ruby-regexp-fixes-gitlab-cves?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-10-23T11:13:00",
-          "excerpt": "Rubyの開発チームは2026年10月23日、プログラミング言語Rubyのバージョン4.0.9、3.4.12、3.3.13を公開した。"
-        },
-        {
-          "title": "GitHub CLI、有効期限付きで自動更新されるOAuthトークンをプレビュー提供",
-          "link": "https://codezine.jp/article/detail/30112",
-          "source": "CodeZine",
-          "published": "2026-10-23T07:00:00",
-          "excerpt": "GitHub CLI、有効期限付きで自動更新されるOAuthトークンをプレビュー提供"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "マーク・ザッカーバーグ、カリフォルニア州提案の富裕税から自分を守るようメタに圧力をかけた",
-      "link": "https://www.nytimes.com/2026/10/21/technology/mark-zuckerberg-meta-california-wealth-tax.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-24T01:35:49",
-      "excerpt": "記事の URL: https://www.nytimes.com/2026/10/21/technology/mark-zuckerberg-meta-california-wealth-tax.…"
-    },
-    {
-      "title": "AWS Parallel Computing Service がノードライフサイクルアクションをサポートしたので試してみた",
-      "link": "https://dev.classmethod.jp/articles/aws-pcs-node-lifecycle-actions/",
-      "source": "DevelopersIO",
-      "published": "2026-10-24T01:34:28",
-      "excerpt": "AWS PCS にも ParallelCluster でおなじみのカスタムブートストラップが追加されました。"
-    },
-    {
-      "title": "Vueの好きで、街を作ろう。 - Vue Fes Japan 2026のブース向け企画 | Finatext Tech Blogのフィード",
-      "link": "https://zenn.dev/finatext/articles/vue-fes-japan-2026-town",
+      "title": "GH-600とは？試験の概要と受験前に押さえておきたい学習テーマ | Alternative Architecture DOJO",
+      "link": "https://aadojo.alterbooth.com/entry/2026/10/24/155443",
       "source": "企業テックブログまとめ",
-      "published": "2026-10-24T00:00:05",
-      "excerpt": "株式会社Finatextで技術広報 兼 エンジニアをしている五十嵐です！Finatextグループで協賛している、Vue Fes Japan 2026でのブース向けに、「Vueの好きで、街をつくろう。」という企画を作りました。…"
+      "published": "2026-10-24T06:54:43",
+      "excerpt": "GitHub Copilotで開発する機会が増えると、AIエージェントにどこまで仕事を任せるか、その成果をどう確認するかも考えるようになります。…"
     },
     {
-      "title": "進化する脅威: http2shell はノード、Python などの RCE です",
-      "link": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-23T23:30:17",
-      "excerpt": "記事の URL: https://nitter.click/AikidoSecurity/status/2113759110625906950?…"
+      "title": "「国際カードブランドルール変更に伴うクレジットカード決済取引仕様変更について」というタイトルで登壇しました #devio2026",
+      "link": "https://dev.classmethod.jp/articles/devio2026-tokyo-credit-card-brand-rule-changes/",
+      "source": "DevelopersIO",
+      "published": "2026-10-24T06:03:22",
+      "excerpt": "主にEC事業者向けに、国際カードブランドのルール変更の内容と、EC事業者が対応すべきことを共有します。ECサイトの構築に対応したAPIプラットフォーム prismatix ではどのような対応を取ったかもご紹介します。"
+    },
+    {
+      "title": "現場に降りてきた AI フィジカル AI の技術スタックと実案件デモ で DevelopersIO 2026 Tokyo に登壇しました #devio2026",
+      "link": "https://dev.classmethod.jp/articles/physical-ai-technology-stack-in-devio-2026/",
+      "source": "DevelopersIO",
+      "published": "2026-10-24T05:30:00",
+      "excerpt": "DevelopersIO 2026 Tokyoで登壇した「フィジカルAI」の技術スタックと実案件について、シミュレーションから実機運用までの全体像を紹介します。"
+    },
+    {
+      "title": "AWS閉鎖網+Snowflakeバッチ検証",
+      "link": "https://qiita.com/Cache-Hit/items/92bccb721c55a2e6fd01",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-24T04:51:50",
+      "excerpt": "今回は、バッチの中身を作るため、snow connectionを利用しないアクセスにて接続を考えます。構成 目的 対象のテーブルの値を取得する。その値をcsvで出す上にヘッダーを消す。かつ余計な空白を消す。…"
     }
   ]
 }
