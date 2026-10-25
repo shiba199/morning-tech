@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-10-25T11:51:06",
+  "generated_at": "2026-10-25T15:11:09",
   "window_hours": 24,
-  "total": 102,
+  "total": 106,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が12件。Claude APIやClaude Codeを仕事で使っているなら、10月7日の記録を一度だけ見てほしい。Claudeの公式ステータスページには、2026年9月1日から10月25日までの55日間に、26件の障害が載っている。…",
+      "summary": "生成AIの新着が12件。登壇内容自体は既にできていましたが、スライド化は諦めていました。まさか当日スライド作成し始めて間に合うとは…！！",
       "articles": [
+        {
+          "title": "登壇当日に Claude for Google Workspace で Markdown 原稿をスライドに変換して間に合わせた話",
+          "link": "https://dev.classmethod.jp/articles/claude-for-google-workspace-slide-conversion/",
+          "source": "DevelopersIO",
+          "published": "2026-10-25T14:56:06",
+          "excerpt": "登壇内容自体は既にできていましたが、スライド化は諦めていました。まさか当日スライド作成し始めて間に合うとは…！！"
+        },
+        {
+          "title": "R/オープンソースはすべてのソロプロジェクトとLLMを使用したプロジェクトを禁止します",
+          "link": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-25T14:05:03",
+          "excerpt": "記事の URL: https://www.reddit.…"
+        },
+        {
+          "title": "Azure OpenAI で Decisions API が一般提供（GA）されたので早速試してみた",
+          "link": "https://dev.classmethod.jp/articles/azure-openai-decisions-api-ga/",
+          "source": "DevelopersIO",
+          "published": "2026-10-25T12:06:53",
+          "excerpt": "OpenAI の Decisions API が Azure OpenAI でも利用できるようになりました。本記事では、公式ドキュメントの要点をまとめつつ、実際に手元のリソースで動作確認した結果をお見せします。"
+        },
         {
           "title": "【26件を全集計】Claudeの障害記録で「影響度none」はお金まわりの2件だけ。API・Claude Codeまで止めた支出上限の誤判定に、公式の自動回復4機能が1つも効かないのはなぜか。今日やるべき4つの備えと、請求が別の経路5選",
           "link": "https://qiita.com/emi_ndk/items/af2d2dbbb0a7cb33ba65",
           "source": "Qiita AWSタグ",
           "published": "2026-10-25T08:55:44",
           "excerpt": "Claude APIやClaude Codeを仕事で使っているなら、10月7日の記録を一度だけ見てほしい。Claudeの公式ステータスページには、2026年9月1日から10月25日までの55日間に、26件の障害が載っている。…"
-        },
-        {
-          "title": "AWS DevOps AgentをSlackのメンションで起動し、読み取り調査させてみた",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-slack-mention-read-only-investigation/",
-          "source": "DevelopersIO",
-          "published": "2026-10-25T08:10:21",
-          "excerpt": "CloudWatchアラームが鳴ったときの一次調査を、SlackでAWS DevOps Agentにメンションして頼んでみました。依頼から調査の作成、途中経過、根本原因と緩和策が届くまでの流れをまとめます。"
-        },
-        {
-          "title": "（簡単）Claude Code から Amazon Bedrock を使う設定方法【CLI / Desktop】",
-          "link": "https://qiita.com/nabeo_ji/items/91f506f37481fc3b1424",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-25T06:12:33",
-          "excerpt": "こんにちは わたくし、AWS歴1年くらいで基本的なサービスは理解している状態なのですが、Amazon Bedrockは少し敷居が高いと感じていました。…"
-        },
-        {
-          "title": "Bedrock RAG を本番向けに：Cognito 認証・テナント ACL・Docker/Terraform まで",
-          "link": "https://zenn.dev/kensudo1203/articles/9248efd636350b",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-25T05:47:03",
-          "excerpt": "はじめに 生成 AI を業務で使うとき、モデル API を叩くだけでは足りません。誰が・どのテナントの文書を参照できるか、トークンは本物か、ローカルと AWS で同じ境界を再現できるかが揃って初めて「試作」から「運用」に近づきます。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。作ったもの 親戚が経営している民泊清掃代行会社のために制作した、シフト管理Webアプリです。ググると同名のサービスがいくつかヒットしますが、全て無関係です。主な機能は次のとおり。…",
+      "summary": "クラウドの新着が13件。はじめに 2026年10月21日、PHP と Node.js でリモートコード実行（RCE）の緊急パッチが出ました。…",
       "articles": [
+        {
+          "title": "【AWS】プライベート EC2 のセキュリティを守る - PHP/Node.js の脆弱性騒動を受けて",
+          "link": "https://qiita.com/jus1730/items/9b53eb1aa6de4b34c63a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-25T12:50:22",
+          "excerpt": "はじめに 2026年10月21日、PHP と Node.js でリモートコード実行（RCE）の緊急パッチが出ました。…"
+        },
         {
           "title": "民泊清掃のシフト管理アプリをAWSサーバーレスで作った話",
           "link": "https://qiita.com/EPNOS/items/5e997274bc1ae04f42fb",
@@ -52,33 +59,33 @@
           "excerpt": "作ったもの 親戚が経営している民泊清掃代行会社のために制作した、シフト管理Webアプリです。ググると同名のサービスがいくつかヒットしますが、全て無関係です。主な機能は次のとおり。…"
         },
         {
+          "title": "さよならWordPress。ゲ制工房は新時代のCMS、EmDashに移行しました。",
+          "link": "https://yurinchi2525.com/20261025emdash/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-10-25T09:02:39",
+          "excerpt": "「Posts」と「Pages」の違いEmDashの管理画面を開くと、記事を書く場所が「Posts」と「Pages」の2つに分かれています。WordPressでいう「投稿」と「固定ページ」にあたるものです。…"
+        },
+        {
           "title": "【RDS for PostgreSQL】Database Insights で負荷の高いクエリを見つけて index を張るまでの一連の流れを試してみた",
           "link": "https://dev.classmethod.jp/articles/rds-postgresql-database-insights-top-sql-index/",
           "source": "DevelopersIO",
           "published": "2026-10-25T08:50:27",
           "excerpt": "Database Insights を使ってインデックス追加による性能改善を実践してみました。わざと遅くなる状況を作り、問題のクエリを特定して改善する流れを体験します。"
-        },
-        {
-          "title": "Lambda Web Functionsのロググループが2つできる件とコストを調べてみた",
-          "link": "https://zenn.dev/nagatoshi/articles/lambda-web-functions-log-cost",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-25T07:50:09",
-          "excerpt": "はじめに Lambda Web Functionsを作成してCloudWatch Logsを覗くと、ロググループが2つできています。片方は複数リージョンのログを集中管理するための集約用ロググループ、もう片方は末尾に.…"
-        },
-        {
-          "title": "[AWS]EC2のディスクにデータを保存して、スナップショットでバックアップし、復元",
-          "link": "https://zenn.dev/77nnaapp/articles/1cdc17e8ed3bf5",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-25T07:15:16",
-          "excerpt": "[AWS]EC2のディスクにデータを保存して、スナップショットでバックアップし、復元 手順 学習内容 1 EBSボリュームを作成 2 EC2にEBSをアタッチ 3 Linuxでディスクを認識・マウント 4 ファイルを保存 5 EBSスナップ…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。はじめに AWS ContinuumでOWASP Juice Shopに対してペネトレーションテストを実施したので、検出結果をOWASP Top 10のカテゴリベースで分析。…",
+      "summary": "セキュリティの新着が6件。はじめに 2026年10月21日、PHP と Node.js でリモートコード実行（RCE）の緊急パッチが出ました。…",
       "articles": [
+        {
+          "title": "【AWS】プライベート EC2 のセキュリティを守る - PHP/Node.js の脆弱性騒動を受けて",
+          "link": "https://qiita.com/jus1730/items/9b53eb1aa6de4b34c63a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-25T12:50:22",
+          "excerpt": "はじめに 2026年10月21日、PHP と Node.js でリモートコード実行（RCE）の緊急パッチが出ました。…"
+        },
         {
           "title": "AWS ContinuumのAIペンテストはJuice Shopの脆弱性を何割見つけるか ― 正解データとOWASP Top 10:2025で採点してみた",
           "link": "https://qiita.com/Pretzelisa/items/6464a4780afa37de74ee",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-10-25T05:07:51",
           "excerpt": "AI駆動開発時代の開発環境におけるセキュリティ上の課題と対策について、Classmethod Odysseyでの登壇資料を共有します。"
-        },
-        {
-          "title": "第77回 セキュリティインシデント時にZscalerの情報はどう役立つ？ | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/2026/10/25/133429",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-25T04:34:29",
-          "excerpt": "「不審なサイトへAccessしたかもしれない」 「機密情報を外部へ送った可能性がある」 Security Incidentでは、まず「何が起きたのか」を時間軸で確認します。…"
         }
       ]
     },
@@ -147,7 +147,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。GitHub CopilotのAgentモードでは、コードの編集からコマンド実行、テストまで、さまざまな作業をAIエージェントに任せられます。一方、自律的な実行が進むと、作業対象外のファイル変更や意図しない外部通信への備えが必要になります。…",
+      "summary": "開発ツールの新着が11件。GitHub CopilotのAgentモードでは、コードの編集からコマンド実行、テストまで、さまざまな作業をAIエージェントに任せられます。一方、自律的な実行が進むと、作業対象外のファイル変更や意図しない外部通信への備えが必要になります。…",
       "articles": [
         {
           "title": "GitHub Copilotのローカルサンドボックスとは？VS Codeでの検証も踏まえて解説します | Alternative Architecture DOJO",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "AWS Parallel Computing Service がスケーリングログに対応したので試してみた",
-      "link": "https://dev.classmethod.jp/articles/aws-pcs-scaling-logs/",
-      "source": "DevelopersIO",
-      "published": "2026-10-25T10:53:08",
-      "excerpt": "AWS PCS でコンピュートノードの起動や終了が理由付きでログに残るようになりました。"
+      "title": "「DuckDB 2.0 LTS」正式リリース。Quackプロトコルによるクライアント/サーバ機能や非同期処理による高速化など",
+      "link": "https://www.publickey1.jp/blog/26/duckdb_20_ltsquack.html",
+      "source": "Publickey",
+      "published": "2026-10-25T15:44:47",
+      "excerpt": "DuckDB Foundationは、シングルバイナリで高速なデータ分析を実現するOLAP型データベース「DuckDB 2.0 LTS」（コード名：Cinnamon Teal）の正式リリースを発表しました。Announcing Duck..…"
     },
     {
-      "title": "Samsung は 960x540 画像で TensorFlow lite モデルを実行してあなたを追跡します",
-      "link": "https://twitter.com/mike64_t/status/2114150399406202896",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-25T10:42:01",
-      "excerpt": "記事の URL: https://twitter.com/mike64_t/status/2114150399406202896 コメント URL: https://news.ycombinator.com/item?…"
+      "title": "【登壇レポート】「JAWS-UG 茨城 #18 祝！2周年記念祭」 で承認依頼を電話で鳴らしてきました📞",
+      "link": "https://qiita.com/yosuke-suzuki/items/cd8e63528eb5958d8c3d",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-25T14:59:54",
+      "excerpt": "はじめに 2026年10月24日 茨城県水戸市で開催された「JAWS-UG 茨城 #18 祝！2周年記念祭」にて、登壇させていただきました。登壇資料 工事中 （一部修正中ですので後ほどあげます！…"
     },
     {
-      "title": "英国にデータセンターを構築したいですか?ホワイトホールが転送するまでお待ちください",
-      "link": "https://www.theregister.com/public-sector/2026/10/25/want-to-build-a-uk-datacenter-please-hold-while-whitehall-transfers-you/5304956",
-      "source": "The Register（英語）",
-      "published": "2026-10-25T10:39:00",
-      "excerpt": "大臣、建設、通信、エネルギーは別の部門に属するため責任は明確だと主張"
+      "title": "AWS素人がやらかしたコスト管理を振り返る",
+      "link": "https://qiita.com/apteryx-nz/items/c9cd43684eba9eba4fa9",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-25T14:58:44",
+      "excerpt": "はじめに ふと気づくと想定外にコストが膨らんでいたというのは、AWS初心者ならば陥りがちな失敗です。私はまだまだ初心者マーク🔰が外せない実力なのですが、久々にやらかしてしまいました。私がこれまでにやらかしたコスト管理ミスは、以下があります。…"
     },
     {
-      "title": "フランスはISPに対し、主要なソーシャルプラットフォーム向けに一時的なDNSブロックを準備するよう要請した",
-      "link": "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-25T09:56:49",
-      "excerpt": "記事の URL: https://www.blast-info.…"
+      "title": "Kiroを使ってAI駆動開発をしてみたpart2",
+      "link": "https://qiita.com/pg_ss36105/items/4178b2942520abbd4029",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-25T14:25:20",
+      "excerpt": "Kiroを使った社内向けAIチャット開発 前回まではKiroを使った要件定義、設計までを行いました。ここからはプログラムの実装に入っていきます。…"
     }
   ]
 }
