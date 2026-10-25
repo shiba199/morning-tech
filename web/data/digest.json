@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-10-25T21:04:51",
+  "generated_at": "2026-10-25T23:23:41",
   "window_hours": 24,
-  "total": 105,
+  "total": 113,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が15件。皆さん、今日、インターネット上でエージェントのトラフィックが人間のトラフィックを上回っているという統計を読みました。その統計は私にとって非常に衝撃的でした。…",
+      "summary": "生成AIの新着が17件。GitHubのソースコードには見当たらない悪性コードが、Pythonパッケージ「LiteLLM」の配布物から見つかった。認証情報を盗み出すだけでなく、外部からコードを実行するバックドアも仕込まれていたという。…",
       "articles": [
+        {
+          "title": "Pythonを起動するだけで認証情報が盗まれる　LiteLLMに混入した悪性コードの正体",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/26/news025.html",
+          "source": "@IT",
+          "published": "2026-10-25T22:45:00",
+          "excerpt": "GitHubのソースコードには見当たらない悪性コードが、Pythonパッケージ「LiteLLM」の配布物から見つかった。認証情報を盗み出すだけでなく、外部からコードを実行するバックドアも仕込まれていたという。…"
+        },
+        {
+          "title": "OpenAI と Anthropic は、数カ月以内に LLM 価格を最大 80% 引き下げました。なぜ？",
+          "link": "https://minimaxir.com/2026/10/cheap-llms/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-25T21:11:31",
+          "excerpt": "記事の URL: https://minimaxir.com/2026/10/cheap-llms/ コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "AWS DevOps Agent に障害を調査させたら、仕込んだ脆弱性を特定してくれた話",
+          "link": "https://zenn.dev/secondselection/articles/_aws_devopsagent",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-25T21:00:06",
+          "excerpt": "はじめに 今回はわざと脆弱性を仕込んだWebアプリを攻撃し、人手を介さずGitHub Issueが立つまでを作りました。…"
+        },
         {
           "title": "HN に質問: 現在 Agentic AI が直面している主なボトルネックは何ですか?",
           "link": "https://news.ycombinator.com/item?id=50234108",
           "source": "Hacker News（英語）",
           "published": "2026-10-25T17:52:28",
           "excerpt": "皆さん、今日、インターネット上でエージェントのトラフィックが人間のトラフィックを上回っているという統計を読みました。その統計は私にとって非常に衝撃的でした。…"
-        },
-        {
-          "title": "10 年前の CNN が皮膚がん診断でフロンティア LLM を上回った",
-          "link": "https://lynchlab.net/llm-skin-cancer",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-25T17:15:38",
-          "excerpt": "記事の URL: https://lynchlab.net/llm-skin-cancer コメント URL: https://news.ycombinator.com/item?id=50233779 ポイント: 95 コメント数: 45"
-        },
-        {
-          "title": "Amazon Bedrock Web Search のドメインフィルタで、DevelopersIO を許可・除外してみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-web-search-domain-filtering/",
-          "source": "DevelopersIO",
-          "published": "2026-10-25T16:18:07",
-          "excerpt": "Amazon Bedrock Web Search のドメインフィルタ（allowed_domains / blocked_domains）を試しました。DevelopersIO の除外で引用から dev.classmethod.…"
-        },
-        {
-          "title": "[アップデート] Amazon Bedrock の Advanced Prompt Optimization でプロンプト短縮が利用可能になったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/20261026-amazon-bedrock-prompt-optimization-shortening/",
-          "source": "DevelopersIO",
-          "published": "2026-10-25T15:14:52",
-          "excerpt": "Amazon Bedrock の Advanced Prompt Optimization に追加された「プロンプト短縮」機能を、短縮なしの最適化と並べて検証してみました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。はじめに PHPの脆弱性対応をきっかけに、Lightsail上のBitnami版WordPressからLightsail提供版へ移行しました。…",
+      "summary": "クラウドの新着が16件。By Patryk Antkiewicz, backend engineer at Unifa.In some of our products we have a photo upload feature.…",
       "articles": [
+        {
+          "title": "Lambda for photo processing - migrating from ImageMagick to Libvips | ユニファ開発者ブログ",
+          "link": "https://tech.unifa-e.com/entry/2026/10/26/070000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-25T22:00:00",
+          "excerpt": "By Patryk Antkiewicz, backend engineer at Unifa.In some of our products we have a photo upload feature.…"
+        },
+        {
+          "title": "EC2のEBSを別のEC2に付け替えてマウントしてまた戻す",
+          "link": "https://zenn.dev/acucumber3429/articles/14e7e6e0457df3",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-25T16:19:01",
+          "excerpt": "AI時代においてもなお残るじみーな仕事として、数年間放置されて誰も接続できなくなったサーバの調査が必要になった。対象サーバのOSはUbuntu 18.04である。ひさびさに見た。…"
+        },
         {
           "title": "PHPを更新するつもりが環境移行に【後編】WordPress移行の問題とSlackアプリの実装",
           "link": "https://zenn.dev/hotaka_noda/articles/74a3b28185af5c",
@@ -57,28 +71,28 @@
           "source": "Zenn AWSトピック",
           "published": "2026-10-25T13:52:37",
           "excerpt": "はじめに PHPの脆弱性に対応しようとしたら、WordPressの環境移行が必要になりました。先日、PHPの脆弱性対応を行った際に、利用していた環境の制約から、WordPressを新しい環境へ移すことになりました。…"
-        },
-        {
-          "title": "AI Agentの処理は成功したのに、また実行？AgentCore × Lambda Durable Functionsで再実行を検証する",
-          "link": "https://zenn.dev/takuyousou/articles/agentcore-lambda-durable-retry",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-25T13:04:14",
-          "excerpt": "はじめに AI Agentに設定情報を調べてもらい、その結果をS3に保存する。そんな処理を作っていると、少し気になることがあります。Agentの分析は終わっているのに、その後のS3保存だけ失敗したらどうなるんだろう？…"
-        },
-        {
-          "title": "【AWS】プライベート EC2 のセキュリティを守る - PHP/Node.js の脆弱性騒動を受けて",
-          "link": "https://qiita.com/jus1730/items/9b53eb1aa6de4b34c63a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-25T12:50:22",
-          "excerpt": "はじめに 2026年10月21日、PHP と Node.js でリモートコード実行（RCE）の緊急パッチが出ました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。はじめに 2026年10月21日、PHP と Node.js でリモートコード実行（RCE）の緊急パッチが出ました。…",
+      "summary": "セキュリティの新着が9件。GitHubのソースコードには見当たらない悪性コードが、Pythonパッケージ「LiteLLM」の配布物から見つかった。認証情報を盗み出すだけでなく、外部からコードを実行するバックドアも仕込まれていたという。…",
       "articles": [
+        {
+          "title": "Pythonを起動するだけで認証情報が盗まれる　LiteLLMに混入した悪性コードの正体",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/26/news025.html",
+          "source": "@IT",
+          "published": "2026-10-25T22:45:00",
+          "excerpt": "GitHubのソースコードには見当たらない悪性コードが、Pythonパッケージ「LiteLLM」の配布物から見つかった。認証情報を盗み出すだけでなく、外部からコードを実行するバックドアも仕込まれていたという。…"
+        },
+        {
+          "title": "AWS DevOps Agent に障害を調査させたら、仕込んだ脆弱性を特定してくれた話",
+          "link": "https://zenn.dev/secondselection/articles/_aws_devopsagent",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-25T21:00:06",
+          "excerpt": "はじめに 今回はわざと脆弱性を仕込んだWebアプリを攻撃し、人手を介さずGitHub Issueが立つまでを作りました。…"
+        },
         {
           "title": "【AWS】プライベート EC2 のセキュリティを守る - PHP/Node.js の脆弱性騒動を受けて",
           "link": "https://qiita.com/jus1730/items/9b53eb1aa6de4b34c63a",
@@ -87,25 +101,11 @@
           "excerpt": "はじめに 2026年10月21日、PHP と Node.js でリモートコード実行（RCE）の緊急パッチが出ました。…"
         },
         {
-          "title": "手を動かしながら学ぶAWS IAMの基礎",
-          "link": "https://zenn.dev/najah/books/iam-fundamentals",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-25T11:32:36",
-          "excerpt": "AWSで開発していて「AccessDenied」に悩まされたことはありませんか？…"
-        },
-        {
-          "title": "AWS ContinuumのAIペンテストはJuice Shopの脆弱性を何割見つけるか ― 正解データとOWASP Top 10:2025で採点してみた",
-          "link": "https://qiita.com/Pretzelisa/items/6464a4780afa37de74ee",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-25T10:25:13",
-          "excerpt": "はじめに AWS ContinuumでOWASP Juice Shopに対してペネトレーションテストを実施したので、検出結果をOWASP Top 10のカテゴリベースで分析。…"
-        },
-        {
-          "title": "Bedrock RAG を本番向けに：Cognito 認証・テナント ACL・Docker/Terraform まで",
-          "link": "https://zenn.dev/kensudo1203/articles/9248efd636350b",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-25T05:47:03",
-          "excerpt": "はじめに 生成 AI を業務で使うとき、モデル API を叩くだけでは足りません。誰が・どのテナントの文書を参照できるか、トークンは本物か、ローカルと AWS で同じ境界を再現できるかが揃って初めて「試作」から「運用」に近づきます。…"
+          "title": "ソフトウェアの脆弱性情報をいち早く入手する - CVE・CISA KEV・JPCERT/CC・OSV｜npaka",
+          "link": "https://note.com/npaka/n/na5ad6472d68c",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-10-25T12:07:57",
+          "excerpt": "1.はじめにソフトウェアの「脆弱性」は、悪用されると不正アクセスや情報漏洩につながる危険性があります。そのため、脆弱性情報をいち早く入手し、対策することが重要です。…"
         }
       ]
     },
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "アニメーション映画の制作には何が行われますか?",
-      "link": "https://www.disneyanimation.com/process/",
+      "title": "【Zenn力執筆】＃14　権限（仮タイトル） | ヘッドウォータースのフィード",
+      "link": "https://zenn.dev/headwaters/articles/180d017cc94434",
+      "source": "企業テックブログまとめ",
+      "published": "2026-10-25T23:00:06",
+      "excerpt": "a"
+    },
+    {
+      "title": "kamakura.go #10 で「続・コーディングルールの鮮度を保ちたい」というLTをしてきました | Nature Engineering Blog",
+      "link": "https://engineering.nature.global/entry/2026/10/keep-fresh-go-internal-conventions-again",
+      "source": "企業テックブログまとめ",
+      "published": "2026-10-25T23:00:00",
+      "excerpt": "コーディングルールを継続的に更新していく仕組みについて、運用を続けた結果見えてきた課題と、その解消のために試行錯誤していることについて。"
+    },
+    {
+      "title": "ヨーロッパの夏の熱波で都市部の漢人5万人以上が死亡",
+      "link": "https://www.science.org/content/article/europe-s-summer-heat-wave-killed-more-50-000-people-urban-areas",
       "source": "Hacker News（英語）",
-      "published": "2026-10-25T20:27:09",
-      "excerpt": "記事の URL: https://www.disneyanimation.com/process/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-10-25T22:02:33",
+      "excerpt": "記事の URL: https://www.science.…"
     },
     {
-      "title": "「その手作業、AI に任せませんか？ Google Workspace Studio ではじめる業務改善」というタイトルで DevelopersIO 2026 Tokyo で登壇しました #devio2026",
-      "link": "https://dev.classmethod.jp/articles/devio2026-automate-manual-tasks-with-google-workspace-studio/",
-      "source": "DevelopersIO",
-      "published": "2026-10-25T20:20:31",
-      "excerpt": "DevelopersIO 2026 Tokyoで、Google Workspace Studioを使った、業務自動化についてお話しさせていただきました。登壇当日にお話しできなかったアップデート情報も記載しているのでよろしければご覧ください。"
-    },
-    {
-      "title": "「サイバー利己的」著者、著書が死から甦りシリコンバレーの自由主義者を標的に",
-      "link": "https://techcrunch.com/2026/10/25/cyberselfish-author-takes-aim-at-techno-libertarianism-as-her-book-returns-from-the-dead/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-25T20:20:08",
-      "excerpt": "「それは12年前の世界観です。」"
-    },
-    {
-      "title": "Kiro の Haiku 5.5 でクレジット倍率 0.06x が 0.3x に変わる境界を確かめてみた",
-      "link": "https://dev.classmethod.jp/articles/kiro-haiku-55-100k-multiplier/",
-      "source": "DevelopersIO",
-      "published": "2026-10-25T20:02:48",
-      "excerpt": "Kiro の Haiku 5.5 を 0.06x で使える範囲を、ヘッドレス実行での記事要約で測りました。コンテキスト使用率が 10〜11% を超えると消費クレジットが 4〜7 倍に増え、クレジット倍率が 0.…"
+      "title": "VPSのWebアプリにワイルドカードSSLを付ける lego + nginx + Route53のDocker構成",
+      "link": "https://qiita.com/miyanaga/items/ec61db293f66e1115883",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-25T22:02:31",
+      "excerpt": "VPSなどの素のサーバーでWebアプリを公開するとき、必ず引っかかるのがSSLをどうするかという問題です。マネージドサービスなら当たり前に付いてくるものを、自分で用意しなければなりません。…"
     }
   ]
 }
