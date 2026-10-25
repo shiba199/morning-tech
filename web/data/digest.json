@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-10-25T06:22:20",
+  "generated_at": "2026-10-25T11:51:06",
   "window_hours": 24,
-  "total": 108,
+  "total": 102,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が13件。こんにちは わたくし、AWS歴1年くらいで基本的なサービスは理解している状態なのですが、Amazon Bedrockは少し敷居が高いと感じていました。…",
+      "summary": "生成AIの新着が12件。Claude APIやClaude Codeを仕事で使っているなら、10月7日の記録を一度だけ見てほしい。Claudeの公式ステータスページには、2026年9月1日から10月25日までの55日間に、26件の障害が載っている。…",
       "articles": [
+        {
+          "title": "【26件を全集計】Claudeの障害記録で「影響度none」はお金まわりの2件だけ。API・Claude Codeまで止めた支出上限の誤判定に、公式の自動回復4機能が1つも効かないのはなぜか。今日やるべき4つの備えと、請求が別の経路5選",
+          "link": "https://qiita.com/emi_ndk/items/af2d2dbbb0a7cb33ba65",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-25T08:55:44",
+          "excerpt": "Claude APIやClaude Codeを仕事で使っているなら、10月7日の記録を一度だけ見てほしい。Claudeの公式ステータスページには、2026年9月1日から10月25日までの55日間に、26件の障害が載っている。…"
+        },
+        {
+          "title": "AWS DevOps AgentをSlackのメンションで起動し、読み取り調査させてみた",
+          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-slack-mention-read-only-investigation/",
+          "source": "DevelopersIO",
+          "published": "2026-10-25T08:10:21",
+          "excerpt": "CloudWatchアラームが鳴ったときの一次調査を、SlackでAWS DevOps Agentにメンションして頼んでみました。依頼から調査の作成、途中経過、根本原因と緩和策が届くまでの流れをまとめます。"
+        },
         {
           "title": "（簡単）Claude Code から Amazon Bedrock を使う設定方法【CLI / Desktop】",
           "link": "https://qiita.com/nabeo_ji/items/91f506f37481fc3b1424",
@@ -17,68 +31,68 @@
           "excerpt": "こんにちは わたくし、AWS歴1年くらいで基本的なサービスは理解している状態なのですが、Amazon Bedrockは少し敷居が高いと感じていました。…"
         },
         {
-          "title": "Kiro で Claude Sonnet 5.5 などが GA になったので、現在のモデル一覧をまとめてみた",
-          "link": "https://dev.classmethod.jp/articles/kiro-claude-sonnet-5-5-ga-model-list/",
-          "source": "DevelopersIO",
-          "published": "2026-10-25T03:03:59",
-          "excerpt": "Kiro で Claude Sonnet 5.5、GPT-5.6 Terra・Luna、Claude Fable 5.1 が GA になったのを機に、現在のモデルの提供日とクレジット倍率を一覧にしました。"
-        },
-        {
-          "title": "Chrome 155/156のDevTools新機能を公開、エージェント向けのCSSスタイル検査など",
-          "link": "https://codezine.jp/article/detail/30124",
-          "source": "CodeZine",
-          "published": "2026-10-25T00:00:00",
-          "excerpt": "Chrome 155/156のDevTools新機能を公開、エージェント向けのCSSスタイル検査など"
-        },
-        {
-          "title": "Argus – 無料のオープンソース エージェント セキュリティ オペレーション プラットフォーム – MIT",
-          "link": "https://thomasunise.com/argus",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-24T21:54:16",
-          "excerpt": "記事の URL: https://thomasunise.com/argus コメント URL: https://news.ycombinator.com/item?id=50225748 ポイント: 18 コメント数: 3"
+          "title": "Bedrock RAG を本番向けに：Cognito 認証・テナント ACL・Docker/Terraform まで",
+          "link": "https://zenn.dev/kensudo1203/articles/9248efd636350b",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-25T05:47:03",
+          "excerpt": "はじめに 生成 AI を業務で使うとき、モデル API を叩くだけでは足りません。誰が・どのテナントの文書を参照できるか、トークンは本物か、ローカルと AWS で同じ境界を再現できるかが揃って初めて「試作」から「運用」に近づきます。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。Transit Gateway の 1:1 NAT で、同じ CIDR（10.0.0.0/16）の 2 つの VPC をつないでみました。…",
+      "summary": "クラウドの新着が13件。作ったもの 親戚が経営している民泊清掃代行会社のために制作した、シフト管理Webアプリです。ググると同名のサービスがいくつかヒットしますが、全て無関係です。主な機能は次のとおり。…",
       "articles": [
         {
-          "title": "Transit Gateway の 1:1 NAT で CIDR が重複した 2 つの VPC をつないでみた",
-          "link": "https://dev.classmethod.jp/articles/transit-gateway-1to1-nat-overlapping-cidr/",
-          "source": "DevelopersIO",
-          "published": "2026-10-25T05:45:24",
-          "excerpt": "Transit Gateway の 1:1 NAT で、同じ CIDR（10.0.0.0/16）の 2 つの VPC をつないでみました。…"
-        },
-        {
-          "title": "Minecraft Fabric サーバーは MOD でメモリがどれだけ増えるか（AWS EC2 で実測）",
-          "link": "https://qiita.com/haisaba/items/d928009a059e242d5ae5",
+          "title": "民泊清掃のシフト管理アプリをAWSサーバーレスで作った話",
+          "link": "https://qiita.com/EPNOS/items/5e997274bc1ae04f42fb",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-25T05:25:50",
-          "excerpt": "目的 Minecraft Java版の Fabric サーバーに MOD を入れると、サーバーのメモリがどれだけ増えるのかを確かめます。「MODを入れたら何GB用意すればよいか」を、感覚ではなく実測の数字で判断できるようにするのが目的です。…"
+          "published": "2026-10-25T09:57:18",
+          "excerpt": "作ったもの 親戚が経営している民泊清掃代行会社のために制作した、シフト管理Webアプリです。ググると同名のサービスがいくつかヒットしますが、全て無関係です。主な機能は次のとおり。…"
         },
         {
-          "title": "AI はインターネットの不安定なインフラストラクチャを暴露するでしょうか?",
-          "link": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-24T20:15:33",
-          "excerpt": "インターネットが「ノリと夢で繋がれている」ことに気づいた瞬間。"
+          "title": "【RDS for PostgreSQL】Database Insights で負荷の高いクエリを見つけて index を張るまでの一連の流れを試してみた",
+          "link": "https://dev.classmethod.jp/articles/rds-postgresql-database-insights-top-sql-index/",
+          "source": "DevelopersIO",
+          "published": "2026-10-25T08:50:27",
+          "excerpt": "Database Insights を使ってインデックス追加による性能改善を実践してみました。わざと遅くなる状況を作り、問題のクエリを特定して改善する流れを体験します。"
         },
         {
-          "title": "AWSにデプロイせず、FastAPI製Lambdaのarm64実行をCIで検証する",
-          "link": "https://zenn.dev/shingokumon/articles/4da5acb9697d56",
+          "title": "Lambda Web Functionsのロググループが2つできる件とコストを調べてみた",
+          "link": "https://zenn.dev/nagatoshi/articles/lambda-web-functions-log-cost",
           "source": "Zenn AWSトピック",
-          "published": "2026-10-24T16:07:43",
-          "excerpt": "はじめに FastAPIで開発している案件判定API「SUMI Job Engine」に、AWSへデプロイせずにLambda向けパッケージを検証するCIを追加しました。今回確認したかったのは、「SAMでビルドできるか」の一歩先です。…"
+          "published": "2026-10-25T07:50:09",
+          "excerpt": "はじめに Lambda Web Functionsを作成してCloudWatch Logsを覗くと、ロググループが2つできています。片方は複数リージョンのログを集中管理するための集約用ロググループ、もう片方は末尾に.…"
+        },
+        {
+          "title": "[AWS]EC2のディスクにデータを保存して、スナップショットでバックアップし、復元",
+          "link": "https://zenn.dev/77nnaapp/articles/1cdc17e8ed3bf5",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-25T07:15:16",
+          "excerpt": "[AWS]EC2のディスクにデータを保存して、スナップショットでバックアップし、復元 手順 学習内容 1 EBSボリュームを作成 2 EC2にEBSをアタッチ 3 Linuxでディスクを認識・マウント 4 ファイルを保存 5 EBSスナップ…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。AI駆動開発時代の開発環境におけるセキュリティ上の課題と対策について、Classmethod Odysseyでの登壇資料を共有します。",
+      "summary": "セキュリティの新着が6件。はじめに AWS ContinuumでOWASP Juice Shopに対してペネトレーションテストを実施したので、検出結果をOWASP Top 10のカテゴリベースで分析。…",
       "articles": [
+        {
+          "title": "AWS ContinuumのAIペンテストはJuice Shopの脆弱性を何割見つけるか ― 正解データとOWASP Top 10:2025で採点してみた",
+          "link": "https://qiita.com/Pretzelisa/items/6464a4780afa37de74ee",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-25T10:25:13",
+          "excerpt": "はじめに AWS ContinuumでOWASP Juice Shopに対してペネトレーションテストを実施したので、検出結果をOWASP Top 10のカテゴリベースで分析。…"
+        },
+        {
+          "title": "Bedrock RAG を本番向けに：Cognito 認証・テナント ACL・Docker/Terraform まで",
+          "link": "https://zenn.dev/kensudo1203/articles/9248efd636350b",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-25T05:47:03",
+          "excerpt": "はじめに 生成 AI を業務で使うとき、モデル API を叩くだけでは足りません。誰が・どのテナントの文書を参照できるか、トークンは本物か、ローカルと AWS で同じ境界を再現できるかが揃って初めて「試作」から「運用」に近づきます。…"
+        },
         {
           "title": "[登壇資料] 「AI駆動開発の開発環境のセキュリティの考え方」についてお話しました #devio2026",
           "link": "https://dev.classmethod.jp/articles/ai-dev-environment-security-devio2026-rev/",
@@ -92,28 +106,28 @@
           "source": "企業テックブログまとめ",
           "published": "2026-10-25T04:34:29",
           "excerpt": "「不審なサイトへAccessしたかもしれない」 「機密情報を外部へ送った可能性がある」 Security Incidentでは、まず「何が起きたのか」を時間軸で確認します。…"
-        },
-        {
-          "title": "Argus – 無料のオープンソース エージェント セキュリティ オペレーション プラットフォーム – MIT",
-          "link": "https://thomasunise.com/argus",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-24T21:54:16",
-          "excerpt": "記事の URL: https://thomasunise.com/argus コメント URL: https://news.ycombinator.com/item?id=50225748 ポイント: 18 コメント数: 3"
-        },
-        {
-          "title": "「HTTP2Shell」CVE-2026-111497、Node.js・Python・Bun・Envoyに影響 Brotliの重大脆弱性と修正版を確認|セキュリティニュースのセキュリティ対策Lab",
-          "link": "https://rocket-boys.co.jp/security-measures-lab/brotli_cve-2026-111497_http2shell_20261024/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-24T12:12:42",
-          "excerpt": "「HTTP2Shell」CVE-2026-111497、Node.js・Python・Bun・Envoyに影響 Brotliの重大脆弱性と修正版を確認 2026年10月21日、Node.…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。DevelopersIO 2026 Tokyoで登壇した「薬学部出身の新卒営業がAmazon Bio Discoveryで自由研究してみた」セッションについて、登壇資料と実際に触ってみた感想を紹介します！",
+      "summary": "データ分析の新着が4件。銀河系宇宙戦士、それとも軌道上のゴミ箱?",
       "articles": [
+        {
+          "title": "<span class=\"italic m-italic\">Reg</span> 読者は英国の宇宙浄化ミッションの名前として「Binface」にたどり着きます",
+          "link": "https://www.theregister.com/offbeat/2026/10/25/reg-readers-land-on-binface-as-name-for-uk-space-cleanup-mission/5305144",
+          "source": "The Register（英語）",
+          "published": "2026-10-25T09:00:00",
+          "excerpt": "銀河系宇宙戦士、それとも軌道上のゴミ箱?"
+        },
+        {
+          "title": "Amazon DynamoDB Streams、タイムスタンプ指定でのストリーム処理に対応",
+          "link": "https://codezine.jp/article/detail/30126",
+          "source": "CodeZine",
+          "published": "2026-10-25T08:00:00",
+          "excerpt": "Amazon DynamoDB Streams、タイムスタンプ指定でのストリーム処理に対応"
+        },
         {
           "title": "「薬学部出身の新卒営業がAmazon Bio Discoveryで自由研究してみた！」というタイトルで登壇しました #devio2026",
           "link": "https://dev.classmethod.jp/articles/devio2026-amazon-bio-discovery/",
@@ -122,78 +136,78 @@
           "excerpt": "DevelopersIO 2026 Tokyoで登壇した「薬学部出身の新卒営業がAmazon Bio Discoveryで自由研究してみた」セッションについて、登壇資料と実際に触ってみた感想を紹介します！"
         },
         {
-          "title": "Tailworm – Tailscale Vulnerabilities",
+          "title": "Tailworm – Tailscale の脆弱性",
           "link": "https://tailworm.com/",
           "source": "Hacker News（英語）",
           "published": "2026-10-25T00:59:48",
-          "excerpt": "Article URL: https://tailworm.com/ Comments URL: https://news.ycombinator.com/item?id=50227138 Points: 11 # Comments: 1"
+          "excerpt": "記事の URL: https://tailworm.com/ コメント URL: https://news.ycombinator.com/item?id=50227138 ポイント: 11 コメント数: 1"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。こんにちは わたくし、AWS歴1年くらいで基本的なサービスは理解している状態なのですが、Amazon Bedrockは少し敷居が高いと感じていました。…",
+      "summary": "開発ツールの新着が14件。GitHub CopilotのAgentモードでは、コードの編集からコマンド実行、テストまで、さまざまな作業をAIエージェントに任せられます。一方、自律的な実行が進むと、作業対象外のファイル変更や意図しない外部通信への備えが必要になります。…",
       "articles": [
+        {
+          "title": "GitHub Copilotのローカルサンドボックスとは？VS Codeでの検証も踏まえて解説します | Alternative Architecture DOJO",
+          "link": "https://aadojo.alterbooth.com/entry/2026/10/25/191638",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-25T10:16:38",
+          "excerpt": "GitHub CopilotのAgentモードでは、コードの編集からコマンド実行、テストまで、さまざまな作業をAIエージェントに任せられます。一方、自律的な実行が進むと、作業対象外のファイル変更や意図しない外部通信への備えが必要になります。…"
+        },
+        {
+          "title": "[アップデート] AWS CloudFormation の「更新ロールバックを続ける」の高度なトラブルシューティングオプションに「強制ロールバック」が追加され、戻せないリソースをまとめてスキップできるようになりました",
+          "link": "https://dev.classmethod.jp/articles/cloudformation-force-rollback/",
+          "source": "DevelopersIO",
+          "published": "2026-10-25T10:03:04",
+          "excerpt": "この What's New の URL ちょっと雑だな、と思いました。"
+        },
+        {
+          "title": "第20回 Terraform講座｜for_eachで異なる設定のリソースを管理する",
+          "link": "https://qiita.com/nyarusasu22/items/9e551519badbba1d7b18",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-25T09:54:31",
+          "excerpt": "前回は\"count\"を学んだ。count = 3 と書くことで、同じようなリソースを複数作成できた。しかし、実務ではこんなケースもある。…"
+        },
         {
           "title": "（簡単）Claude Code から Amazon Bedrock を使う設定方法【CLI / Desktop】",
           "link": "https://qiita.com/nabeo_ji/items/91f506f37481fc3b1424",
           "source": "Qiita AWSタグ",
           "published": "2026-10-25T06:12:33",
           "excerpt": "こんにちは わたくし、AWS歴1年くらいで基本的なサービスは理解している状態なのですが、Amazon Bedrockは少し敷居が高いと感じていました。…"
-        },
-        {
-          "title": "GitHub Copilotのグローバルデフォルトポリシーを一般提供",
-          "link": "https://codezine.jp/article/detail/30125",
-          "source": "CodeZine",
-          "published": "2026-10-25T04:00:00",
-          "excerpt": "GitHub Copilotのグローバルデフォルトポリシーを一般提供"
-        },
-        {
-          "title": "Cerebras Deploys Trillion-Parameter AI Models",
-          "link": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-25T01:33:49",
-          "excerpt": "Article URL: https://www.cerebras.…"
-        },
-        {
-          "title": "AWS SDK for JavaScript v3 で requestTimeout を設定したのに、時間切れにならない原因を教えてください",
-          "link": "https://dev.classmethod.jp/articles/tsnote-sdk-js-v3-requesttimeout-throwonrequesttimeout/",
-          "source": "DevelopersIO",
-          "published": "2026-10-25T01:00:10",
-          "excerpt": "AWS SDK for JavaScript v3 で `requestTimeout` を設定しても効かなくなった問題と、その解決方法を紹介します。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWSのインスタンスを借りてStrataでDeepSeek V4.1-Flashを動かす",
-      "link": "https://qiita.com/muk-ai/items/3e3071583410fba19d66",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-25T05:58:31",
-      "excerpt": "AWS EC2のGPU付きインスタンスで、StrataとDeepSeek V4.1-Flash IQ2_XSを試した。モデルをローカルNVMeに置くと約15〜16 tokens/sで生成できた一方、EBSに置くと1.…"
+      "title": "AWS Parallel Computing Service がスケーリングログに対応したので試してみた",
+      "link": "https://dev.classmethod.jp/articles/aws-pcs-scaling-logs/",
+      "source": "DevelopersIO",
+      "published": "2026-10-25T10:53:08",
+      "excerpt": "AWS PCS でコンピュートノードの起動や終了が理由付きでログに残るようになりました。"
     },
     {
-      "title": "シャドーAIを「技術的に」阻止する方法 | CloudNative BLOGs",
-      "link": "https://blog.cloudnative.co.jp/articles/shadow-ai-technical-control-comparison/",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-25T04:57:00",
-      "excerpt": "AIの利用ルールだけでは足りず、シャドーAIを技術的に制御する必要がある組織に向けて、エンドポイント・ID・IaaSとアプリ・ネットワークの4レイヤーで考え方を整理します。…"
+      "title": "Samsung は 960x540 画像で TensorFlow lite モデルを実行してあなたを追跡します",
+      "link": "https://twitter.com/mike64_t/status/2114150399406202896",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-25T10:42:01",
+      "excerpt": "記事の URL: https://twitter.com/mike64_t/status/2114150399406202896 コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Oracle Database@AWS の Exadata Dedicated Infrastructure への接続方式を整理してみる。",
-      "link": "https://qiita.com/ora_gonsuke777/items/25bef1613f1ca7df58be",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-25T04:54:10",
-      "excerpt": "Oracle Database@AWS の Exadata Database Service on Dedicated Infrastructure(以下、ExaDB-D@AWS)への接続方法について、ODB Peering や Trans…"
+      "title": "英国にデータセンターを構築したいですか?ホワイトホールが転送するまでお待ちください",
+      "link": "https://www.theregister.com/public-sector/2026/10/25/want-to-build-a-uk-datacenter-please-hold-while-whitehall-transfers-you/5304956",
+      "source": "The Register（英語）",
+      "published": "2026-10-25T10:39:00",
+      "excerpt": "大臣、建設、通信、エネルギーは別の部門に属するため責任は明確だと主張"
     },
     {
-      "title": "第80回 導入後にZero Trustを育てるとはどういうこと？ | APC 技術ブログ",
-      "link": "https://techblog.ap-com.co.jp/entry/2026/10/25/133439",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-25T04:34:39",
-      "excerpt": "Zero Trustは、一度設計して導入すれば完成するのでしょうか。導入時にはUser、Device、Application、Policyを整理し、その時点のAccess Controlを設計します。しかし時間がたてば環境は変わります。…"
+      "title": "フランスはISPに対し、主要なソーシャルプラットフォーム向けに一時的なDNSブロックを準備するよう要請した",
+      "link": "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-25T09:56:49",
+      "excerpt": "記事の URL: https://www.blast-info.…"
     }
   ]
 }
