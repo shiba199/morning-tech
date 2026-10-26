@@ -1,118 +1,118 @@
 {
-  "generated_at": "2026-10-26T06:32:01",
+  "generated_at": "2026-10-26T13:41:54",
   "window_hours": 24,
-  "total": 157,
+  "total": 161,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。Jetson / 産業用PCとAWS IoT Greengrassを連携させたエッジ推論基盤の実装レシピ はじめに こんにちは、NKKTech Global 技術チームです。…",
+      "summary": "生成AIの新着が29件。記事の URL: https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
-          "title": "Jetson / 産業用PCとAWS IoT Greengrassを連携させたエッジ推論基盤の実装レシピ",
-          "link": "https://qiita.com/NKKTechGlobal/items/fcfb75e0d65f1f14d9e3",
+          "title": "vLLM でのツール呼び出し精度の修正",
+          "link": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-26T12:59:48",
+          "excerpt": "記事の URL: https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "実際に試したClaude便利術20選 まとめ",
+          "link": "https://qiita.com/N-Kyo/items/bf4a3a2185db2d28eee5",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-26T06:10:30",
-          "excerpt": "Jetson / 産業用PCとAWS IoT Greengrassを連携させたエッジ推論基盤の実装レシピ はじめに こんにちは、NKKTech Global 技術チームです。…"
+          "published": "2026-10-26T11:05:51",
+          "excerpt": "はじめに Claudeを使い始めたので、実際に試した作業効率の上がりそうな機能を20個まとめました。この記事の特徴は、1つの Terraform コードを通して試していることです。…"
         },
         {
-          "title": "AWS Security Agentでペネトレーションテストを開発サイクルに組み込んでみた | MOTEX TECH BLOG",
-          "link": "https://tech.motex.co.jp/entry/2026/10/26/150053",
+          "title": "Codexから始めるAIエージェント入門：Skill・MCP・Pluginの役割を整理する | SB OAI Japan Tech Blogのフィード",
+          "link": "https://zenn.dev/sboai_tech/articles/b92ef480a0d14e",
           "source": "企業テックブログまとめ",
-          "published": "2026-10-26T06:00:53",
-          "excerpt": "2026年3月にGAとなった「AWS Security Agent」のオンデマンドペネトレーションテスト機能を使用し、マルチテナント型Webアプリケーションに対して検証を行った取り組みを紹介します。…"
+          "published": "2026-10-26T10:40:37",
+          "excerpt": "こんにちは、ソフトバンクグループとOpenAIの合弁会社であるSB OAI JapanでSoftware Engineer(SWE)をしている井上です。最近、AIエージェントという言葉を耳にする機会が増えてきました。…"
         },
         {
-          "title": "TeamプランのClaude Code の利用ログを OpenTelemetry で CloudWatch Logs に直接送って貯めてみた",
-          "link": "https://dev.classmethod.jp/articles/claude-code-otel-cloudwatch-logs/",
+          "title": "Supabase MCP を読み取り専用にするなら claude.ai のコネクタも止めておくと安心という話",
+          "link": "https://dev.classmethod.jp/articles/claude-code-supabase-mcp-read-only-connector/",
           "source": "DevelopersIO",
-          "published": "2026-10-26T05:57:39",
-          "excerpt": "Claude Code の OpenTelemetry ログを AWS CloudWatch Logs に直接送信し、組織の利用状況を一元管理する方法を紹介します。コレクターなしで実装できます。"
-        },
-        {
-          "title": "Amazon MWAA、AIエージェントスキルの提供を開始",
-          "link": "https://codezine.jp/article/detail/30131",
-          "source": "CodeZine",
-          "published": "2026-10-26T05:30:00",
-          "excerpt": "Amazon MWAA、AIエージェントスキルの提供を開始"
+          "published": "2026-10-26T08:13:38",
+          "excerpt": "Claude Code に Supabase MCP を読み取り専用でつなぎ、データの削除を頼みました。読み取り専用の接続では削除が拒否され、別の経路として残っていた claude.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。CloudWatch Logs の新機能「マネージド Syslog 取り込み」を検証し、VPC エンドポイント経由でオンプレミス機器のログを直接取り込める仕組みを試してみました。構築手順から実際に届いたログ、つまずいた点までをまとめます。",
+      "summary": "クラウドの新着が13件。はじめに S3の署名付きURLは、URLに含まれる署名で認証するため、取得する側にS3の権限がなくてもオブジェクトを取得できます。インターネットに接続できないVPCでは、S3への通信をVPCエンドポイント経由にする必要があります。…",
       "articles": [
+        {
+          "title": "S3のインターフェイスエンドポイントを構築して、閉域から署名付きURLを利用できるか検証する",
+          "link": "https://qiita.com/infra365/items/842220f9fa172963999a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-26T11:29:17",
+          "excerpt": "はじめに S3の署名付きURLは、URLに含まれる署名で認証するため、取得する側にS3の権限がなくてもオブジェクトを取得できます。インターネットに接続できないVPCでは、S3への通信をVPCエンドポイント経由にする必要があります。…"
+        },
+        {
+          "title": "S3 Object Lock のバケットに、監査の記録を 1 日 1 つにまとめて保管する仕組みを作ってみた",
+          "link": "https://dev.classmethod.jp/articles/s3-object-lock-eventbridge-scheduler-daily-archive/",
+          "source": "DevelopersIO",
+          "published": "2026-10-26T09:00:10",
+          "excerpt": "Amazon S3 Object Lock と条件付き書き込みを使い、監査ログの重複保管を防ぐ仕組みを実装しました。…"
+        },
+        {
+          "title": "AWS CLI コマンドの基本操作を EC2 インスタンスの情報取得で試してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-cli-ec2-basic-options/",
+          "source": "DevelopersIO",
+          "published": "2026-10-26T08:08:34",
+          "excerpt": "AWS CLI を使って EC2 インスタンスの情報取得や絞り込み、出力形式の変更を実際に試しながら、基本的なオプションの使い方を試してみました。"
+        },
         {
           "title": "CloudWatch Logs のマネージド Syslog 取り込みを EC2 から擬似送信して試してみた",
           "link": "https://dev.classmethod.jp/articles/cloudwatch-logs-managed-syslog-ingestion-test-from-ec2/",
           "source": "DevelopersIO",
           "published": "2026-10-26T06:20:41",
           "excerpt": "CloudWatch Logs の新機能「マネージド Syslog 取り込み」を検証し、VPC エンドポイント経由でオンプレミス機器のログを直接取り込める仕組みを試してみました。構築手順から実際に届いたログ、つまずいた点までをまとめます。"
-        },
-        {
-          "title": "【2026 年版】EC2 インスタンスタイプの名前の読み方と比較の観点を整理してみた",
-          "link": "https://dev.classmethod.jp/articles/ec2-instance-type-comparison-points/",
-          "source": "DevelopersIO",
-          "published": "2026-10-26T03:06:57",
-          "excerpt": "EC2のインスタンスタイプは1000件以上もある中から選ぶ必要があります。この記事では、インスタンスタイプ名の読み方から比較のポイント、実践的なヒアリング項目まで、選定時の迷いを解消するための知識をまとめました。"
-        },
-        {
-          "title": "【AWS】ELBがなくてもアプリケーション障害を検知できる？ EC2 Auto Scalingの新しい選択肢",
-          "link": "https://qiita.com/wakinoza/items/19e1b96f22dafa2a79d6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-26T02:32:50",
-          "excerpt": "はじめに AWS SOAの取得を目指して勉強中です。間違い等あれば、指摘いただけると助かります。SOAの勉強のため公式ドキュメントを読んでいると、以前SAA取得のため府学習していた時と仕様が変わっていることに気づきました。…"
-        },
-        {
-          "title": "【AWS】ELBがなくてもアプリケーション障害を検知できる？ EC2 Auto Scalingの新しい選択肢",
-          "link": "https://zenn.dev/wakinoza/articles/4daa04876fa1a1",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-26T02:30:33",
-          "excerpt": "はじめに AWS SOAの取得を目指して勉強中です。間違い等あれば、指摘いただけると助かります。SOAの勉強のため公式ドキュメントを読んでいると、以前SAA取得のため府学習していた時と仕様が変わっていることに気づきました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。2026年3月にGAとなった「AWS Security Agent」のオンデマンドペネトレーションテスト機能を使用し、マルチテナント型Webアプリケーションに対して検証を行った取り組みを紹介します。…",
+      "summary": "セキュリティの新着が17件。楽天グループが運営する旅行予約サービス「楽天トラベル」は26日、海外ホテル予約サイトにログインした最大約260万件の顧客情報が不正アクセスを受けたと発表した。氏名やメールアドレス、電話番号、社内用の識別番号が漏れた恐れがある。…",
       "articles": [
         {
-          "title": "AWS Security Agentでペネトレーションテストを開発サイクルに組み込んでみた | MOTEX TECH BLOG",
-          "link": "https://tech.motex.co.jp/entry/2026/10/26/150053",
+          "title": "楽天トラベルに不正アクセス、顧客情報260万件流出か　クレカ3万件も - 日本経済新聞",
+          "link": "https://www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-10-26T11:57:24",
+          "excerpt": "楽天グループが運営する旅行予約サービス「楽天トラベル」は26日、海外ホテル予約サイトにログインした最大約260万件の顧客情報が不正アクセスを受けたと発表した。氏名やメールアドレス、電話番号、社内用の識別番号が漏れた恐れがある。…"
+        },
+        {
+          "title": "ジョーシンへの不正アクセス、最大623万件漏えいか　運転免許証2件・マイナカード1件なども",
+          "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002601/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-26T11:06:41",
+          "excerpt": "ジョーシンを運営するJoshinは10月26日、不正アクセスにより最大約623万件の会員情報等が漏えいした可能性を発表。氏名・住所のほか運転免許証画像やマイナンバー情報、ログイン情報なども含み、影響範囲は調査中。カード情報は保持していない。"
+        },
+        {
+          "title": "イメージスキャン結果をDevinに投げて脆弱性対応してもらう | SMARTCAMP Engineer Blogのフィード",
+          "link": "https://zenn.dev/smartcamp/articles/97ac804043530e",
           "source": "企業テックブログまとめ",
-          "published": "2026-10-26T06:00:53",
-          "excerpt": "2026年3月にGAとなった「AWS Security Agent」のオンデマンドペネトレーションテスト機能を使用し、マルチテナント型Webアプリケーションに対して検証を行った取り組みを紹介します。…"
+          "published": "2026-10-26T11:00:05",
+          "excerpt": "https://github.com/aquasecurity/trivyTrivyは、コンテナイメージやファイルシステムの脆弱性を検出できるOSSのスキャナーです。…"
         },
         {
-          "title": "グッスマに不正アクセス、公式EC閉鎖　会員の住所や注文履歴など漏えいか　再開目処立たず",
-          "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002577/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-26T03:33:18",
-          "excerpt": "グッドスマイルカンパニーは10月23日、同社が運営するECサイト「グッドスマイルカンパニー公式ショップ」で不正アクセスが発生し、会員の個人情報などが第三者に閲覧されたと発表した。サイトは現在閉鎖しており、再開時期は未定としている。…"
-        },
-        {
-          "title": "「漏えい」の一言で素通り客が振り返る──相次ぐ情報流出の中で開幕のセキュリティ展示会　来場者の態度も激変",
-          "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002476/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-26T03:11:36",
-          "excerpt": "国内企業で不正アクセスや情報漏えいが相次ぐ中、幕張メッセで「情報セキュリティEXPO」が開催された。出展企業からは、来場者の関心の高まりに加え、9月下旬以降、問い合わせが急増し、経営層からの相談も増えたとの声が上がった。現場の変化を聞いた。"
-        },
-        {
-          "title": "無料で読めるセキュリティ入門教材、LPIが公開　演習問題と解答付きで基礎から学べる",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/26/news026.html",
-          "source": "@IT",
-          "published": "2026-10-26T03:00:00",
-          "excerpt": "セキュリティ対策の土台となる知識を、体系的に学び直したい――。認定資格「Security Essentials v1.0」向けにLPIが無償公開した学習資料は、こうしたニーズに応える可能性がある。どのような内容なのか。"
+          "title": "php2shellを正しく恐れる - よくある質問にまとめて答えます - | 株式会社サイバーセキュリティクラウド　テックブログのフィード",
+          "link": "https://zenn.dev/cscloud_blog/articles/82081ce83616b8",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-26T10:24:22",
+          "excerpt": "はじめに10/22 の夜に修正がリリースされた、phpの任意コード実行が可能となる脆弱性php2shellが、連日話題になっています。非常に危険な脆弱性ですが、正確な情報が流れているとは言いがたい状況です。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Amazon DynamoDBのネイティブベクトル検索機能を使い、外観検査で未知の不良を検出する仕組みを実装してみました。ベクトルと検査記録を同じアイテムに置くことで、異常スコアと根拠となった良品記録を1回の検索で返せます。",
+      "summary": "データ分析の新着が2件。Amazon DynamoDBのネイティブベクトル検索機能を使い、外観検査で未知の不良を検出する仕組みを実装してみました。ベクトルと検査記録を同じアイテムに置くことで、異常スコアと根拠となった良品記録を1回の検索で返せます。",
       "articles": [
         {
           "title": "[DynamoDB] ネイティブベクトル検索で、外観検査の良品記録を業務データごと引いて、未知の不良を見つけてみました",
@@ -127,28 +127,28 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-10-25T23:34:06",
           "excerpt": "契約書、製品マニュアル、調査レポートなど、企業の価値ある知識は Amazon S3 に保存されたドキュメントに蓄積されています。…"
-        },
-        {
-          "title": "<span class=\"italic m-italic\">Reg</span> 読者は英国の宇宙浄化ミッションの名前として「Binface」にたどり着きます",
-          "link": "https://www.theregister.com/offbeat/2026/10/25/reg-readers-land-on-binface-as-name-for-uk-space-cleanup-mission/5305144",
-          "source": "The Register（英語）",
-          "published": "2026-10-25T09:00:00",
-          "excerpt": "銀河系宇宙戦士、それとも軌道上のゴミ箱?"
-        },
-        {
-          "title": "Amazon DynamoDB Streams、タイムスタンプ指定でのストリーム処理に対応",
-          "link": "https://codezine.jp/article/detail/30126",
-          "source": "CodeZine",
-          "published": "2026-10-25T08:00:00",
-          "excerpt": "Amazon DynamoDB Streams、タイムスタンプ指定でのストリーム処理に対応"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。Muse Gadget SDKにAmazon Pollyを使った日本語読み上げを追加し、M5Stack Core2 for AWSからMuseの返答を音声で聞けるようにしました。…",
+      "summary": "開発ツールの新着が10件。AWS CLI を使って EC2 インスタンスの情報取得や絞り込み、出力形式の変更を実際に試しながら、基本的なオプションの使い方を試してみました。",
       "articles": [
+        {
+          "title": "AWS CLI コマンドの基本操作を EC2 インスタンスの情報取得で試してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-cli-ec2-basic-options/",
+          "source": "DevelopersIO",
+          "published": "2026-10-26T08:08:34",
+          "excerpt": "AWS CLI を使って EC2 インスタンスの情報取得や絞り込み、出力形式の変更を実際に試しながら、基本的なオプションの使い方を試してみました。"
+        },
+        {
+          "title": "GitHub、データレジデンシー環境でパブリックモニタリングをプレビュー提供",
+          "link": "https://codezine.jp/article/detail/30132",
+          "source": "CodeZine",
+          "published": "2026-10-26T07:00:00",
+          "excerpt": "GitHub、データレジデンシー環境でパブリックモニタリングをプレビュー提供"
+        },
         {
           "title": "Muse Gadget SDKにAmazon Pollyで日本語読み上げを追加する ― M5Stack Core2 for AWS",
           "link": "https://dev.classmethod.jp/articles/shuntaka-muse-gadget-sdk-m5stack-core2-japanese-voice/",
@@ -162,52 +162,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-26T04:53:56",
           "excerpt": "1.はじめに 6/30(火)に日本マイクロソフト品川本社にて開催されたGitHub Copilot Quest Lv3：Hack the Legacyに、日立製作所として参加させていただきました！本記事では 2.…"
-        },
-        {
-          "title": "Show HN: Proc-CLI – プロセスおよびポート管理のためのエージェントフレンドリーな CLI ツール",
-          "link": "https://proc-cli.com/",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-26T04:14:35",
-          "excerpt": "記事の URL: https://proc-cli.com/ コメント URL: https://news.ycombinator.com/item?id=50239041 ポイント: 6 コメント数: 0"
-        },
-        {
-          "title": "[アップデート] AgentCore CLI v1.0.0がリリースされました！",
-          "link": "https://dev.classmethod.jp/articles/agentcore-cli-v1-release/",
-          "source": "DevelopersIO",
-          "published": "2026-10-26T03:44:32",
-          "excerpt": "AgentCore CLI v1.0.0がついにリリースされました！プロジェクト外からもコマンドが実行できるようになったので、主な変更点と実際に試してみた結果をご紹介します！"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "「もっと大きなファンをそこに押し込んで、何が起こるか見てみましょう」",
-      "link": "https://www.theregister.com/systems/2026/10/26/lets-just-shove-a-bigger-fan-in-there-and-see-what-happens/5304654",
+      "title": "インターネットは棒と接着剤で構築されているため、PHPocalypse について驚くべきではありません。",
+      "link": "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186",
       "source": "The Register（英語）",
-      "published": "2026-10-26T06:30:00",
-      "excerpt": "会社が沈没する中、技術者たちはサーバーの周りを忍び足で動き続けてサーバーを稼働させ続けた"
+      "published": "2026-10-26T13:14:00",
+      "excerpt": "サイバーセキュリティ啓発月間を祝うのに、Web の 4 分の 3 が炎上しようとしていると警告するより良い方法はあるでしょうか?"
     },
     {
-      "title": "PostgreSQLのEOL対応、確認の順番と3択の絞り込み方",
-      "link": "https://qiita.com/techdbblog/items/3f6c71efca511df2987c",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-26T06:28:13",
-      "excerpt": "セキュリティ診断で「EOLバージョンを使用」と指摘された、RDSから延長サポートの課金通知が届いた。PostgreSQLのサポート終了が課題として浮上するのは、たいていこのタイミングです。EOL日を過ぎてもデータベースは止まりません。…"
+      "title": "アントロピック S-1",
+      "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-26T13:04:50",
+      "excerpt": "記事の URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm コメント URL: https://news.…"
     },
     {
-      "title": "定期更新をやめて「聞かれたとき」に最新にする ── 社内ナレッジを AI につなぐ MCP サーバーで工夫したこと | RAKUS Developers Blog | ラクス エンジニアブログ",
-      "link": "https://tech-blog.rakus.co.jp/entry/20261026/mcp",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-26T06:00:00",
-      "excerpt": "■ 目次 はじめに 社内ドキュメント検索MCPとは MCP は「AI が外部データ/サービスを使うための共通ルール」 中身は、社内ドキュメントを索引にした RAG 何ができるようになったか 聞くだけで探せる 「探す役」と「読む役」を分担する…"
+      "title": "テスラは完全自動運転（監視あり）の導入促進のためにTuroに頼る",
+      "link": "https://techcrunch.com/2026/10/26/tesla-turns-to-turo-to-boost-adoption-of-full-self-driving-supervised/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-26T12:58:40",
+      "excerpt": "対象となる Turo ホストは、Tesla の FSD ソフトウェアの 1 か月間無料トライアルも受けられます。"
     },
     {
-      "title": "Tesco は店舗とエッジで VMware を Proxmox に置き換えます",
-      "link": "https://www.theregister.com/virtualization/2026/10/26/tesco-replacing-vmware-with-proxmox-in-its-stores-and-on-the-edge/5305281",
-      "source": "The Register（英語）",
-      "published": "2026-10-26T05:24:02",
-      "excerpt": "「費用対効果の高い代替仮想化プラットフォームを所有」するよう宣伝する"
+      "title": "ピーター・ティール、反キリストを信じるテクノロジー寡頭政治家",
+      "link": "https://english.elpais.com/technology/2026-10-25/peter-thiel-the-tech-oligarch-who-believes-in-the-antichrist.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-26T12:49:31",
+      "excerpt": "記事の URL: https://english.elpais.com/technology/2026-10-25/peter-thiel-the-tech-oligarch-who-believes-in-the-antichrist.…"
     }
   ]
 }
