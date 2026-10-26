@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-10-26T19:39:04",
+  "generated_at": "2026-10-26T23:26:37",
   "window_hours": 24,
-  "total": 175,
+  "total": 190,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が31件。本日、AWS は、Amazon Bedrock での OpenAI GPT-6.1 Terra の一般提供を発表しました。GPT-6.…",
+      "summary": "生成AIの新着が34件。ハイライト OpenAI が「GPT-6.1 Terra」を公開：computer use を強化した高速・低価格モデル。標準 API 価格（入力・出力）は GPT-5.6 Terra 比で 50% 安い。…",
       "articles": [
         {
-          "title": "OpenAI GPT-6.1 Terra が Amazon Bedrock で一般入手可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-26T18:27:00",
-          "excerpt": "本日、AWS は、Amazon Bedrock での OpenAI GPT-6.1 Terra の一般提供を発表しました。GPT-6.…"
+          "title": "AI・クラウド アップデートまとめ（2026/10/27）：GPT-6.1 Terra、Anthropic S-1、Workers AI の KV キャッシュ問題",
+          "link": "https://qiita.com/hathibei7/items/73b4b18270301f482e99",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-26T23:23:41",
+          "excerpt": "ハイライト OpenAI が「GPT-6.1 Terra」を公開：computer use を強化した高速・低価格モデル。標準 API 価格（入力・出力）は GPT-5.6 Terra 比で 50% 安い。…"
         },
         {
-          "title": "GPT-6.1 テラ",
-          "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-26T18:01:17",
-          "excerpt": "記事の URL: https://openai.com/index/introducing-gpt-6-1-terra/ コメント URL: https://news.ycombinator.com/item?…"
+          "title": "Systems Manager AgentがインストールされたPCを紛失した時の対策を考えてみた",
+          "link": "https://qiita.com/amarelo_n24/items/c5e1c8761a78063ea6a1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-26T22:08:04",
+          "excerpt": "はじめに 前回、Systems Manager Agent（以下、SSM Agent）とCloudWatch Agent をインストールした記事を書きました。記事の中で、「端末の盗難リスクは残るので対策しなければならない」と書きました。…"
         },
         {
-          "title": "GPT 6.1 テラ",
-          "link": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-26T17:58:24",
-          "excerpt": "記事の URL: https://developers.openai.com/api/docs/models/gpt-6.1-terra コメント URL: https://news.ycombinator.com/item?…"
+          "title": "Amazon Bedrock で GPT-6.1 の新モデル「Terra」を試してみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-openai-gpt61-terra/",
+          "source": "DevelopersIO",
+          "published": "2026-10-26T22:00:26",
+          "excerpt": "Amazon Bedrock の GPT-6.1 Terra は、グローバル推論プロファイルで Bedrock Runtime の Converse、Responses、Chat Completions から呼び出せました。…"
         },
         {
-          "title": "Anthropic の IPO 申請書は、企業顧客を魅了し続けるための戦略を明らかにしています",
-          "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-26T16:49:42",
-          "excerpt": "Anthropic の S-1 は、10 万ドル以上の顧客の半数以上が現在、Claude Platform と自社アプリの両方を使用していることを示しています。…"
+          "title": "マネージャーエージェントにツールを持たせてはいけない　ADKで学ぶマルチエージェント協調5パターン",
+          "link": "https://codezine.jp/article/detail/29611",
+          "source": "CodeZine",
+          "published": "2026-10-26T22:00:00",
+          "excerpt": "ADKの機能を覚えることと、エージェントを設計できることは別です。LLMラッパーとエージェントを分ける3要件、観測から評価までの実行ループ、6つの中核コンポーネント、マルチエージェント協調の5パターン、品質を測る6指標、開発の7フェーズ。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。10月20日と21日に米カリフォルニア州で行われたイベント「PyTorch Conference 2026」において、AWSとGoogle Cloudが相次いでPyTorchの自社AIプロセッサ対応版をオープンソースとして発表しました。A.…",
+      "summary": "クラウドの新着が17件。TL;DR テナント単位でデータを整理するバッチで、DB の一括処理と、S3 のオブジェクトの削除を行っていました S3 にはプレフィックスを指定して消す API がありません。…",
       "articles": [
+        {
+          "title": "S3の大量削除をメンテナンス時間から切り離す - DBの一括処理と別の実行モードにし、バッチサイズの上限は計測で決めた",
+          "link": "https://qiita.com/zucky-quest/items/63c9204846db52ea4d22",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-26T23:08:40",
+          "excerpt": "TL;DR テナント単位でデータを整理するバッチで、DB の一括処理と、S3 のオブジェクトの削除を行っていました S3 にはプレフィックスを指定して消す API がありません。…"
+        },
+        {
+          "title": "「COBOLを読める」と「移行できる」は別問題――AIでは越えられない“レガシーの壁”",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/26/news012.html",
+          "source": "@IT",
+          "published": "2026-10-26T20:00:00",
+          "excerpt": "AIは、長年使われてきたCOBOLのプログラムをどこまで理解できるのか。レガシーシステムの刷新にAIを活用する上で、その能力をどう評価すべきかは重要な課題だ。とはいえAIの読解力が高くても、システム全体を正しく理解できるとは言えない。…"
+        },
         {
           "title": "AWSとGoogle Cloudが「PyTorch」のAWS Trainium、Google Cloud TPU対応版をオープンソースで公開。NVIDIAからの移行に挑む",
           "link": "https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html",
@@ -57,28 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-26T15:54:54",
           "excerpt": "この記事でわかること S3の「静的ウェブサイトホスティングを有効にして公開」は入門としては正しいのですが、本番で運用するには3つの壁（HTTPSが使えない／バケットが直接見える／キャッシュ設計がない）があります。…"
-        },
-        {
-          "title": "S3のインターフェイスエンドポイントを構築して、閉域から署名付きURLを利用できるか検証する",
-          "link": "https://qiita.com/infra365/items/842220f9fa172963999a",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-26T11:29:17",
-          "excerpt": "はじめに S3の署名付きURLは、URLに含まれる署名で認証するため、取得する側にS3の権限がなくてもオブジェクトを取得できます。インターネットに接続できないVPCでは、S3への通信をVPCエンドポイント経由にする必要があります。…"
-        },
-        {
-          "title": "S3 Object Lock のバケットに、監査の記録を 1 日 1 つにまとめて保管する仕組みを作ってみた",
-          "link": "https://dev.classmethod.jp/articles/s3-object-lock-eventbridge-scheduler-daily-archive/",
-          "source": "DevelopersIO",
-          "published": "2026-10-26T09:00:10",
-          "excerpt": "Amazon S3 Object Lock と条件付き書き込みを使い、監査ログの重複保管を防ぐ仕組みを実装しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が20件。レドモンド氏、圧縮欠陥の修正に奔走するソフトウェア管理者の増加するリストに加わる",
+      "summary": "セキュリティの新着が19件。海外予約サイトの一部ページと、楽天グループが運営する多言語予約サイトが対象。最大約3万6000件の予約者のクレジットカード下4ケタや名義、有効期限などの情報が流出した可能性。",
       "articles": [
+        {
+          "title": "「楽天トラベル」に不正アクセス　顧客情報最大約260万件など流出か　予約者約3.6万件のクレカ情報も",
+          "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002606/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-26T22:44:55",
+          "excerpt": "海外予約サイトの一部ページと、楽天グループが運営する多言語予約サイトが対象。最大約3万6000件の予約者のクレジットカード下4ケタや名義、有効期限などの情報が流出した可能性。"
+        },
+        {
+          "title": "ペンタセキュリティ、PHP脆弱性「PHP2Shell」の影響を確認できる無料診断サービスを提供開始",
+          "link": "https://codezine.jp/article/detail/30146",
+          "source": "CodeZine",
+          "published": "2026-10-26T22:00:00",
+          "excerpt": "ペンタセキュリティ、PHP脆弱性「PHP2Shell」の影響を確認できる無料診断サービスを提供開始"
+        },
         {
           "title": "Microsoft、Google Brotli のバグに対する .NET セキュリティの緊急修正をリリース",
           "link": "https://www.theregister.com/security/2026/10/26/microsoft-releases-emergency-net-security-fixes-for-google-brotli-bug/5305515",
@@ -92,28 +106,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-26T15:54:54",
           "excerpt": "この記事でわかること S3の「静的ウェブサイトホスティングを有効にして公開」は入門としては正しいのですが、本番で運用するには3つの壁（HTTPSが使えない／バケットが直接見える／キャッシュ設計がない）があります。…"
-        },
-        {
-          "title": "楽天トラベルに不正アクセス、顧客情報260万件流出か　クレカ3万件も - 日本経済新聞",
-          "link": "https://www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-26T11:57:24",
-          "excerpt": "楽天グループが運営する旅行予約サービス「楽天トラベル」は26日、海外ホテル予約サイトにログインした最大約260万件の顧客情報が不正アクセスを受けたと発表した。氏名やメールアドレス、電話番号、社内用の識別番号が漏れた恐れがある。…"
-        },
-        {
-          "title": "ジョーシンへの不正アクセス、最大623万件漏えいか　運転免許証2件・マイナカード1件なども",
-          "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002601/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-26T11:06:41",
-          "excerpt": "ジョーシンを運営するJoshinは10月26日、不正アクセスにより最大約623万件の会員情報等が漏えいした可能性を発表。氏名・住所のほか運転免許証画像やマイナンバー情報、ログイン情報なども含み、影響範囲は調査中。カード情報は保持していない。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。Amazon DynamoDBのネイティブベクトル検索機能を使い、外観検査で未知の不良を検出する仕組みを実装してみました。ベクトルと検査記録を同じアイテムに置くことで、異常スコアと根拠となった良品記録を1回の検索で返せます。",
+      "summary": "データ分析の新着が3件。🚀 はじめに 受託でデータベースを含むシステムを作るとき、お客様からよく聞かれるのが「作った後、毎月いくらかかるのか」です。開発費の見積もりは出せても、DBの原価は構成次第で桁が変わるため、根拠を持って説明するのは意外と難しいものです。…",
       "articles": [
+        {
+          "title": "DBの月額原価をRDS・Supabase・DynamoDBで比較【東京リージョン試算・2026年10月】",
+          "link": "https://zenn.dev/suekichi_system/articles/database-cost-rds-supabase-dynamodb",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-26T13:28:51",
+          "excerpt": "🚀 はじめに 受託でデータベースを含むシステムを作るとき、お客様からよく聞かれるのが「作った後、毎月いくらかかるのか」です。開発費の見積もりは出せても、DBの原価は構成次第で桁が変わるため、根拠を持って説明するのは意外と難しいものです。…"
+        },
         {
           "title": "[DynamoDB] ネイティブベクトル検索で、外観検査の良品記録を業務データごと引いて、未知の不良を見つけてみました",
           "link": "https://dev.classmethod.jp/articles/dynamodb-vector-search-defect-inspection/",
@@ -168,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "ああ、iPhone Duo は頻繁にクラックが発生し、ユーザーはそれについて不満を抱いているようですね",
-      "link": "https://techcrunch.com/2026/10/26/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-happy-about-it/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-26T19:22:40",
-      "excerpt": "大々的に宣伝された Apple の新しい折りたたみ式携帯電話を早期に購入した少数の人々が、画面がひび割れると不満を漏らしています。"
-    },
-    {
-      "title": "EPA はひっそりとウェブ アーカイブを廃止している",
-      "link": "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/",
+      "title": "トレーニングを想像するだけで強くなれる",
+      "link": "https://nautil.us/just-imagining-a-workout-can-make-you-stronger-236068",
       "source": "Hacker News（英語）",
-      "published": "2026-10-26T19:05:41",
-      "excerpt": "記事の URL: https://www.motherjones.…"
+      "published": "2026-10-26T23:08:27",
+      "excerpt": "記事の URL: https://nautil.us/just-imagining-a-workout-can-make-you-stronger-236068 コメント URL: https://news.ycombinator.…"
     },
     {
-      "title": "核融合スタートアップは賞と引き換えに政府株を提供している。それだけの価値はありますか?",
-      "link": "https://techcrunch.com/2026/10/26/fusion-startups-are-giving-the-government-shares-in-exchange-for-awards-is-it-worth-it/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-26T18:59:52",
-      "excerpt": "核融合スタートアップは、プラズマ物理学とは関係のない新たな課題に直面している。資金提供と引き換えに政府株を与えるのか、それとも単独で進めるのか?"
+      "title": "現場の実践知と Datadog の最新マニアック機能を知れた Japan Datadog User Group Meetup 参加レポ | カミナシ エンジニアブログ",
+      "link": "https://kaminashi-developer.hatenablog.jp/entry/2026/10/27/datadog",
+      "source": "企業テックブログまとめ",
+      "published": "2026-10-26T23:00:00",
+      "excerpt": "こんにちは、最近は「世界の窮地を救うため5年前の過去に戻って英雄を集める」ゲームをしている furuya です。…"
     },
     {
-      "title": "ボストン・ダイナミクスの従業員、ICEへのロボット犬の販売阻止を希望",
-      "link": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-10-26T18:50:41",
-      "excerpt": "米国のロボット企業は、300人以上の従業員がリスクを警告する中、ICE契約を支持している。"
+      "title": "Google Workspace、10月18日週に発表したアップデートをまとめて紹介",
+      "link": "https://codezine.jp/article/detail/30139",
+      "source": "CodeZine",
+      "published": "2026-10-26T23:00:00",
+      "excerpt": "Google Workspace、10月18日週に発表したアップデートをまとめて紹介"
+    },
+    {
+      "title": "AIが作ったUIはなぜ「使いづらい」のか？ 「操作できる」と「使える」を分けて、100点に引き上げる「4つの評価観点」",
+      "link": "https://codezine.jp/article/detail/29762",
+      "source": "CodeZine",
+      "published": "2026-10-26T23:00:00",
+      "excerpt": "最近では、エンジニアがデザインをAIで生成してそのまま実装に落とし込むケースが増えています。しかし、その際に直面するのは、見た目は整っているのにUI/UXが機能せず、サイトが想定通りに使われないという問題です。…"
     }
   ]
 }
