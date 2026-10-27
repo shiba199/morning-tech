@@ -1,192 +1,178 @@
 {
-  "generated_at": "2026-10-27T08:05:29",
+  "generated_at": "2026-10-27T14:44:10",
   "window_hours": 24,
-  "total": 177,
-  "topic_count": 5,
+  "total": 178,
+  "topic_count": 4,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が35件。先端技術開発グループ（WAND）の伊賀です。…",
+      "summary": "生成AIの新着が36件。骨太のBedrock AgentCore本が出た！！クラスメソッドの神野雄大さんが書かれた『Amazon Bedrock実践ガイド 〜RAGとAIエージェントで進める業務効率化』が、技術評論社から出版されます。…",
       "articles": [
         {
-          "title": "AAIF に加わった Open Responses を Amazon Bedrock で試す",
-          "link": "https://zenn.dev/exwzd/articles/20261023-open-responses",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-27T06:52:28",
-          "excerpt": "先端技術開発グループ（WAND）の伊賀です。…"
-        },
-        {
-          "title": "OpenAI、視覚的理解とコンピューター操作を強化した「GPT-6.1 Terra」の提供を開始 ―APIコストはGPT-5.6 Terraの半額に",
-          "link": "https://gihyo.jp/article/2026/10/gpt-6-1-terra?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-10-27T04:44:00",
-          "excerpt": "OpenAIは2026年10月26日、パフォーマンスとコストの両立を重視したAIモデルの新バージョン「GPT-6.1 Terra」を発表、提供を開始した。"
-        },
-        {
-          "title": "SageMaker SDK v3で構築する、カメラごとの環境差異に対応したモデル管理手法",
-          "link": "https://qiita.com/goyle/items/672cfb8ca07d0bf0815e",
+          "title": "【宇宙最速書評】AWSでRAGとAIエージェントをがっつり業務実践できる名著「Amazon Bedrock実践ガイド」",
+          "link": "https://qiita.com/minorun365/items/84cd50fda97df62cff88",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-27T03:55:39",
-          "excerpt": "この記事でわかること 大量のエッジデバイス（カメラ）ごとに異なる環境に適応したモデル管理の仕組み SageMaker SDK v3を用いた、学習からエッジ最適化までの自動化パイプライン 品質ゲート（Quality Gate）による、低品質な…"
+          "published": "2026-10-27T14:30:49",
+          "excerpt": "骨太のBedrock AgentCore本が出た！！クラスメソッドの神野雄大さんが書かれた『Amazon Bedrock実践ガイド 〜RAGとAIエージェントで進める業務効率化』が、技術評論社から出版されます。…"
         },
         {
-          "title": "Bedrock の Web Search がドメインフィルタと位置情報の指定に対応したので試してみた",
-          "link": "https://zenn.dev/aws_japan/articles/bedrock-web-search-domain-location",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-27T03:29:14",
-          "excerpt": "はじめに 2026 年 10 月 23 日、Web Search on Amazon Bedrock で、検索結果のドメインを絞り込むドメインフィルタと、利用者のおおよその位置を渡す user_location が使えるようになりました[1…"
+          "title": "チャット フィードバックを提供すると、Anthropic にデータが提供されます",
+          "link": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-27T13:56:15",
+          "excerpt": "記事の URL: https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training コメント URL: https://news.…"
+        },
+        {
+          "title": "Here Be Monsters: エージェントが仕事をするときに知っておくべきことは何ですか?",
+          "link": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-27T13:23:22",
+          "excerpt": "記事の URL: https://blog.adrq.…"
+        },
+        {
+          "title": "SSMを使えば、ローカルのClaude Codeからサーバー調査ができる",
+          "link": "https://qiita.com/riiiii/items/295a4d71203fdcf1ddb9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-27T13:22:32",
+          "excerpt": "はじめに リモートのサーバーの調査も、ローカルのClaude Codeからできたらいいのに、と思うことがありました。調べてみたところ、AWS Systems Manager（SSM）を使えばできそうです。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。AWS Lambda から RDS for PostgreSQL への接続が拒否されるエラーについて、原因と対応方法を検証結果とともに紹介します。…",
+      "summary": "クラウドの新着が12件。Lambda の同期呼び出しで `TooManyRequestsException` エラーが発生したとき、再試行で関数が二重実行されるのかについて確認してみました。実際の検証結果をもとに、エラー時の適切な対応方法を紹介します。",
       "articles": [
+        {
+          "title": "Lambda 関数の呼び出し（Invoke）で TooManyRequestsException（429）が返りました。再試行しても二重に実行されませんか。",
+          "link": "https://dev.classmethod.jp/articles/tsnote-lambda-invoke-429-retry-idempotent/",
+          "source": "DevelopersIO",
+          "published": "2026-10-27T13:57:31",
+          "excerpt": "Lambda の同期呼び出しで `TooManyRequestsException` エラーが発生したとき、再試行で関数が二重実行されるのかについて確認してみました。実際の検証結果をもとに、エラー時の適切な対応方法を紹介します。"
+        },
+        {
+          "title": "ファイルインフラストラクチャがボトルネックになる場合",
+          "link": "https://www.theregister.com/storage/2026/10/27/sponsored-when-file-infrastructure-becomes-the-bottleneck/5305523",
+          "source": "The Register（英語）",
+          "published": "2026-10-27T13:00:00",
+          "excerpt": "従来の NAS、VPN、ファイル同期ワークフローでは、隠れたコストが発生します。あなたの組織のファイル管理方法は依然として目的に適合していますか?"
+        },
+        {
+          "title": "GitHub ActionsからSSM経由でプライベートEC2上のコマンドを実行する | APC 技術ブログ",
+          "link": "https://techblog.ap-com.co.jp/entry/2026/10/27/205937",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-27T11:59:37",
+          "excerpt": "はじめに こんにちは、クラウド事業部の松岡です。GitHub ActionsからAWS上のEC2に処理を実行させたい場合、EC2にSSH接続する方法がよく使われます。…"
+        },
         {
           "title": "AWS Lambda から Amazon RDS for PostgreSQL への接続が \"remaining connection slots are reserved\" で失敗します。同時実行と max_connections の見積もり方を教えてください",
           "link": "https://dev.classmethod.jp/articles/tsnote-rds-postgresql--lambda-max-connections-reserved-concurrency/",
           "source": "DevelopersIO",
           "published": "2026-10-27T07:00:11",
           "excerpt": "AWS Lambda から RDS for PostgreSQL への接続が拒否されるエラーについて、原因と対応方法を検証結果とともに紹介します。…"
-        },
-        {
-          "title": "クラウドインフラの外部監査をクリアするためのログ集約とトレーサビリティ設計の基本",
-          "link": "https://qiita.com/NKKTechGlobal/items/26a9a85584e89cf06156",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-27T06:26:15",
-          "excerpt": "クラウドインフラの外部監査をクリアするためのログ集約とトレーサビリティ設計の基本 はじめに こんにちは、NKKTech Global 技術チームです。…"
-        },
-        {
-          "title": "個人ブログを Lambda Web Functions + CloudFront に移行して、実際の料金を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/shuntaka-lambda-web-functions-blog-cost/",
-          "source": "DevelopersIO",
-          "published": "2026-10-27T06:24:05",
-          "excerpt": "個人ブログをLambda Web Functions + CloudFront OACに移行し、料金と性能がどう変わったか実測データで比較します。…"
-        },
-        {
-          "title": "Office on EC2 のバックアップとリストアを検証する",
-          "link": "https://zenn.dev/aws_japan/articles/aws-license-manager-office-on-ec2-backup",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-27T03:53:47",
-          "excerpt": "Office on EC2 のバックアップとリストアを検証する こんにちは！AWS でソリューションアーキテクトをしている杉山です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が20件。Amazon GuardDuty の導入手順を、有効化からサンプル検出結果の確認、S3 へのエクスポート、メール通知設定までマネジメントコンソールで実際にやってみました。…",
+      "summary": "セキュリティの新着が19件。iPhone および iPad 用の最新の Apple ソフトウェア アップデートには、新機能と重要なセキュリティ アップデートが含まれています。",
       "articles": [
         {
-          "title": "【初心者向け】 Amazon GuardDuty をマネジメントコンソールから導入してみた",
-          "link": "https://dev.classmethod.jp/articles/guardduty-setup-console/",
-          "source": "DevelopersIO",
-          "published": "2026-10-27T07:50:12",
-          "excerpt": "Amazon GuardDuty の導入手順を、有効化からサンプル検出結果の確認、S3 へのエクスポート、メール通知設定までマネジメントコンソールで実際にやってみました。…"
+          "title": "Apple、新しい Siri AI 言語とセキュリティ修正を備えた iOS 27.2 を公開",
+          "link": "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-27T13:54:51",
+          "excerpt": "iPhone および iPad 用の最新の Apple ソフトウェア アップデートには、新機能と重要なセキュリティ アップデートが含まれています。"
         },
         {
-          "title": "IAMのポリシーは3つのルールで判断する。許可がなければ拒否、Denyが最優先",
-          "link": "https://zenn.dev/yasutomo7974/articles/dva-iam-policy-evaluation-rules",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-27T05:36:13",
-          "excerpt": "おはようございます、YASUです。DVAの勉強で、IAMのポリシーが複数ある時に、許可されるのか拒否されるのかを判断する問題が苦手でした。基本のルールだけに絞って、整理しました。結論 覚えるのは3つです。…"
+          "title": "PHP2Shell（CVE-2026-109618）とは？脆弱性対策が必要な理由を歴史から学ぶ【初心者向け】 | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/b7a07d0c98d3fe",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-27T12:43:03",
+          "excerpt": "この記事でわかること話題になった PHP2Shell が、何がどう問題なのか脆弱性対策が、なぜ「必須」と言われるのか1988年から現在まで、脆弱性対策の仕組みがどう変わってきたのかAIやSNSの普及で、対策に残された時間がなぜ短くなっている…"
         },
         {
-          "title": "中国製AI「Qwen3.8」にセキュリティ対策を命じたら勝手に北京のサーバーへデータ送信を試みたことが判明",
-          "link": "https://gigazine.net/news/20261027-concerning-behaviour-open-weight-ai-model/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-27T04:07:06",
-          "excerpt": "中国のアリババが開発したAIモデル「Qwen3.8-Flash-Next」にセキュリティ対策用のルールを作成させたところ、指示されていないコンピューター内部の調査を始め、中国・北京にあるサーバーへデータを送信しようとしたことが判明しました。…"
+          "title": "GMO、不正アクセス実行犯の手がかりに懸賞金　1億5000万円規模",
+          "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002642/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-27T10:58:09",
+          "excerpt": "GMOインターネットグループが、傘下のGMOインターネットが提供するFX自動売買用VPS「お名前.…"
         },
         {
-          "title": "Amazon Inspector の脆弱性データベース検索が「AccessDeniedException」エラーになったときの対処方法",
-          "link": "https://dev.classmethod.jp/articles/tsnote-inspector-vulnerability-database-search-accessdeniedexception/",
-          "source": "DevelopersIO",
-          "published": "2026-10-27T03:07:32",
-          "excerpt": "AWS CLI で Inspector の脆弱性検索が AccessDeniedException で失敗する場合、IAM ポリシーの権限不足ではなく、Amazon Inspector がアクティブになっていない可能性があります。"
-        }
-      ]
-    },
-    {
-      "id": "data",
-      "label": "データ分析",
-      "summary": "データ分析の新着が1件。🚀 はじめに 受託でデータベースを含むシステムを作るとき、お客様からよく聞かれるのが「作った後、毎月いくらかかるのか」です。開発費の見積もりは出せても、DBの原価は構成次第で桁が変わるため、根拠を持って説明するのは意外と難しいものです。…",
-      "articles": [
-        {
-          "title": "DBの月額原価をRDS・Supabase・DynamoDBで比較【東京リージョン試算・2026年10月】",
-          "link": "https://zenn.dev/suekichi_system/articles/database-cost-rds-supabase-dynamodb",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-26T13:28:51",
-          "excerpt": "🚀 はじめに 受託でデータベースを含むシステムを作るとき、お客様からよく聞かれるのが「作った後、毎月いくらかかるのか」です。開発費の見積もりは出せても、DBの原価は構成次第で桁が変わるため、根拠を持って説明するのは意外と難しいものです。…"
+          "title": "2028年には1社15万エージェント。IBM、身元管理と短命な認証情報でAIエージェントを統制する新機能",
+          "link": "https://codezine.jp/article/detail/30155",
+          "source": "CodeZine",
+          "published": "2026-10-27T10:45:00",
+          "excerpt": "2028年には1社15万エージェント。IBM、身元管理と短命な認証情報でAIエージェントを統制する新機能"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。Chrome 155、Digital Credentials APIの発行機能をデフォルトで有効に",
+      "summary": "開発ツールの新着が8件。Snowflakeの新機能Pipeline Builderを使ってデータパイプラインをGUIで構築してみました。…",
       "articles": [
         {
-          "title": "Chrome 155、Digital Credentials APIの発行機能をデフォルトで有効に",
-          "link": "https://codezine.jp/article/detail/30144",
-          "source": "CodeZine",
-          "published": "2026-10-27T05:30:00",
-          "excerpt": "Chrome 155、Digital Credentials APIの発行機能をデフォルトで有効に"
+          "title": "[新機能]Snowflake の Pipeline Builder で SQL + Python パイプラインを GUI で組んで Deploy してみた",
+          "link": "https://dev.classmethod.jp/articles/snowflake-pipeline-builder-sql-python-task-graph-deploy/",
+          "source": "DevelopersIO",
+          "published": "2026-10-27T13:07:26",
+          "excerpt": "Snowflakeの新機能Pipeline Builderを使ってデータパイプラインをGUIで構築してみました。…"
         },
         {
-          "title": "GitHub、Teams向け新アプリで通知からCopilotによるコード修正が可能に",
-          "link": "https://codezine.jp/article/detail/30143",
-          "source": "CodeZine",
-          "published": "2026-10-27T04:00:00",
-          "excerpt": "GitHub、Teams向け新アプリで通知からCopilotによるコード修正が可能に"
+          "title": "GitHub ActionsからSSM経由でプライベートEC2上のコマンドを実行する | APC 技術ブログ",
+          "link": "https://techblog.ap-com.co.jp/entry/2026/10/27/205937",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-27T11:59:37",
+          "excerpt": "はじめに こんにちは、クラウド事業部の松岡です。GitHub ActionsからAWS上のEC2に処理を実行させたい場合、EC2にSSH接続する方法がよく使われます。…"
         },
         {
-          "title": "SageMaker SDK v3で構築する、カメラごとの環境差異に対応したモデル管理手法",
-          "link": "https://qiita.com/goyle/items/672cfb8ca07d0bf0815e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-27T03:55:39",
-          "excerpt": "この記事でわかること 大量のエッジデバイス（カメラ）ごとに異なる環境に適応したモデル管理の仕組み SageMaker SDK v3を用いた、学習からエッジ最適化までの自動化パイプライン 品質ゲート（Quality Gate）による、低品質な…"
+          "title": "Github AppのWebhookを使って使用できるOrganizationを制限する",
+          "link": "https://dev.classmethod.jp/articles/restrict-github-app-installations-with-webhooks/",
+          "source": "DevelopersIO",
+          "published": "2026-10-27T10:14:50",
+          "excerpt": "複数のOrganizationで使用するGitHub Appを全公開で公開しつつ、特定のOrganization以外での利用を制限する方法を紹介します。Webhookとサスペンド機能を組み合わせた実装方法について解説します。"
         },
         {
-          "title": "GitHub Apps、エンタープライズへのインストールを一般提供開始",
-          "link": "https://codezine.jp/article/detail/30141",
-          "source": "CodeZine",
-          "published": "2026-10-27T01:00:00",
-          "excerpt": "GitHub Apps、エンタープライズへのインストールを一般提供開始"
+          "title": "VS Code使いは要注意　GitHub経由で送られる「悪意あるリポジトリ」を見分けるポイント",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/27/news081.html",
+          "source": "@IT",
+          "published": "2026-10-27T08:15:00",
+          "excerpt": "Jamf Threat Labsは、北朝鮮に関連するとされる脅威アクターが悪意あるGitリポジトリを送付する手法を分析した結果を公開した。偽の採用プロセスを装って開発者を標的にしているという。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "専門AIで肌カウンセリング、ファンケルが新サービス　チャットと顔画像解析で",
-      "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002629/",
-      "source": "ITmedia NEWS",
-      "published": "2026-10-27T07:24:32",
-      "excerpt": "ファンケルは10月27日、肌専門の人工知能（AI）を使った肌のカウンセリングサービスを始めた。スマートフォンなどで、同社の公式アプリから無料で利用できる。"
+      "title": "JavaScriptランタイムの「Bun」がPrettier互換で300倍以上高速なフォーマッタに。Prettier設定ファイルもそのまま利用可能",
+      "link": "https://www.publickey1.jp/blog/26/javascriptbunprettier300prettier.html",
+      "source": "Publickey",
+      "published": "2026-10-27T15:27:52",
+      "excerpt": "Anthropicが開発しているJavaScriptランタイムの「Bun」の新機能として、Prettier互換のフォーマッタ搭載が発表されました。2026年10月22日付けでリリースされたBun v1.4.4に搭載されたPrettier互.…"
     },
     {
-      "title": "今週の新着ブログ6本_「最後発のSIer」が挑むモダナイゼーション事業_SIPOC / 業務プロセス分解で大きな問いを現場サイズへ(2026.10.17~10.22) | SHIFT Group 技術ブログ",
-      "link": "https://note.shiftinc.jp/n/n320124791d51",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-27T07:09:09",
-      "excerpt": "こんにちは！「SHIFTグループ技術ブログ」編集部です。お役立ち記事を発信していますので、ぜひご注目ください！！…"
+      "title": "米国政府は、ハッカーが現在重大な PHP Web バグを悪用していると発表",
+      "link": "https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-27T14:40:39",
+      "excerpt": "米国政府サイバー庁は、ハッカーがウェブのソフトウェアの 70% で使用されている人気の PHP ソフトウェアを悪用する方法を見つけ出したと警告しています。"
     },
     {
-      "title": "相手の反応まで背負わなくていい。でも「相手が悪い」で終わらせない | SHIFT Group 技術ブログ",
-      "link": "https://note.shiftinc.jp/n/n4358d419af35",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-27T07:00:51",
-      "excerpt": "「正しく伝えること」がゴールではない続きをみる"
+      "title": "Apple、M6チップを搭載した新しい14インチMacBook Proを発表",
+      "link": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-27T14:25:11",
+      "excerpt": "新しい MacBook Pro は 24 時間のバッテリー寿命を備え、Wi-Fi 7 および Bluetooth 6 接続のサポートを備えています。"
     },
     {
-      "title": "AWS、Trainium向けPyTorchバックエンド「TorchNeuron」のベータ版を公開",
-      "link": "https://codezine.jp/article/detail/30145",
-      "source": "CodeZine",
-      "published": "2026-10-27T07:00:00",
-      "excerpt": "AWS、Trainium向けPyTorchバックエンド「TorchNeuron」のベータ版を公開"
+      "title": "米国政府は米国人に対するスパイ行為に関する秘密裁判所の判決を隠している",
+      "link": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-27T14:06:42",
+      "excerpt": "記事の URL: https://www.wired.…"
     }
   ]
 }
