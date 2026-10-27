@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-10-27T14:44:10",
+  "generated_at": "2026-10-27T19:44:27",
   "window_hours": 24,
-  "total": 178,
+  "total": 172,
   "topic_count": 4,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。骨太のBedrock AgentCore本が出た！！クラスメソッドの神野雄大さんが書かれた『Amazon Bedrock実践ガイド 〜RAGとAIエージェントで進める業務効率化』が、技術評論社から出版されます。…",
+      "summary": "生成AIの新着が29件。変更履歴 2026-10-28：公開 初めに AWS DevOps Agent（障害の調査を支援する AWS のサービス）に、障害を調査させる検証を始めた。その結果を記事にする前に、DevOps Agent の基礎知識をまとめておく。…",
       "articles": [
+        {
+          "title": "【AWS】【DevOps Agent】できることを画面で一通り見る（基礎編）",
+          "link": "https://qiita.com/yuki_1012_1101/items/9cdec7869bf3e3a1af6c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-27T15:04:16",
+          "excerpt": "変更履歴 2026-10-28：公開 初めに AWS DevOps Agent（障害の調査を支援する AWS のサービス）に、障害を調査させる検証を始めた。その結果を記事にする前に、DevOps Agent の基礎知識をまとめておく。…"
+        },
         {
           "title": "【宇宙最速書評】AWSでRAGとAIエージェントをがっつり業務実践できる名著「Amazon Bedrock実践ガイド」",
           "link": "https://qiita.com/minorun365/items/84cd50fda97df62cff88",
@@ -29,21 +36,28 @@
           "source": "Hacker News（英語）",
           "published": "2026-10-27T13:23:22",
           "excerpt": "記事の URL: https://blog.adrq.…"
-        },
-        {
-          "title": "SSMを使えば、ローカルのClaude Codeからサーバー調査ができる",
-          "link": "https://qiita.com/riiiii/items/295a4d71203fdcf1ddb9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-27T13:22:32",
-          "excerpt": "はじめに リモートのサーバーの調査も、ローカルのClaude Codeからできたらいいのに、と思うことがありました。調べてみたところ、AWS Systems Manager（SSM）を使えばできそうです。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。Lambda の同期呼び出しで `TooManyRequestsException` エラーが発生したとき、再試行で関数が二重実行されるのかについて確認してみました。実際の検証結果をもとに、エラー時の適切な対応方法を紹介します。",
+      "summary": "クラウドの新着が12件。クラシックなプラチナか、なめられるマーベリックス時代のアクア – それはあなたの選択です",
       "articles": [
+        {
+          "title": "ZacOS 9 と Mavernix: 2 つのクラシックな Apple デスクトップが Wayland から Linux に移行",
+          "link": "https://www.theregister.com/os-platforms/2026/10/27/zacos-9-and-mavernix-two-classic-apple-desktops-find-their-wayland-to-linux/5305710",
+          "source": "The Register（英語）",
+          "published": "2026-10-27T17:00:00",
+          "excerpt": "クラシックなプラチナか、なめられるマーベリックス時代のアクア – それはあなたの選択です"
+        },
+        {
+          "title": "【初心者向け】ECSのAPIをAPI Gateway経由で公開する手順（HTTP API + VPCリンク + ALB）",
+          "link": "https://qiita.com/badorisu0555/items/e778d7440760deb05aba",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-27T14:44:16",
+          "excerpt": "はじめに ECS（Fargate）で動かしているAPIを、ALBに直接アクセスする形で公開していました。この記事では、ALBの前にAPI Gatewayを置いて、API Gateway経由でアクセスできるようにする手順を紹介します。…"
+        },
         {
           "title": "Lambda 関数の呼び出し（Invoke）で TooManyRequestsException（429）が返りました。再試行しても二重に実行されませんか。",
           "link": "https://dev.classmethod.jp/articles/tsnote-lambda-invoke-429-retry-idempotent/",
@@ -57,28 +71,21 @@
           "source": "The Register（英語）",
           "published": "2026-10-27T13:00:00",
           "excerpt": "従来の NAS、VPN、ファイル同期ワークフローでは、隠れたコストが発生します。あなたの組織のファイル管理方法は依然として目的に適合していますか?"
-        },
-        {
-          "title": "GitHub ActionsからSSM経由でプライベートEC2上のコマンドを実行する | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/2026/10/27/205937",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-27T11:59:37",
-          "excerpt": "はじめに こんにちは、クラウド事業部の松岡です。GitHub ActionsからAWS上のEC2に処理を実行させたい場合、EC2にSSH接続する方法がよく使われます。…"
-        },
-        {
-          "title": "AWS Lambda から Amazon RDS for PostgreSQL への接続が \"remaining connection slots are reserved\" で失敗します。同時実行と max_connections の見積もり方を教えてください",
-          "link": "https://dev.classmethod.jp/articles/tsnote-rds-postgresql--lambda-max-connections-reserved-concurrency/",
-          "source": "DevelopersIO",
-          "published": "2026-10-27T07:00:11",
-          "excerpt": "AWS Lambda から RDS for PostgreSQL への接続が拒否されるエラーについて、原因と対応方法を検証結果とともに紹介します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が19件。iPhone および iPad 用の最新の Apple ソフトウェア アップデートには、新機能と重要なセキュリティ アップデートが含まれています。",
+      "summary": "セキュリティの新着が18件。はじめに ECS Fargate のハンズオン用に、Organizations でアカウントを分け、IAM Identity Center で作業用のユーザーを用意しました。…",
       "articles": [
+        {
+          "title": "SCP で許可したのに AccessDenied。許可セットを見落としていた話（Organizations × IAM Identity C",
+          "link": "https://zenn.dev/aws_iac_notes/articles/c574ec52ce408f",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-27T14:34:32",
+          "excerpt": "はじめに ECS Fargate のハンズオン用に、Organizations でアカウントを分け、IAM Identity Center で作業用のユーザーを用意しました。…"
+        },
         {
           "title": "Apple、新しい Siri AI 言語とセキュリティ修正を備えた iOS 27.2 を公開",
           "link": "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/",
@@ -99,21 +106,21 @@
           "source": "ITmedia NEWS",
           "published": "2026-10-27T10:58:09",
           "excerpt": "GMOインターネットグループが、傘下のGMOインターネットが提供するFX自動売買用VPS「お名前.…"
-        },
-        {
-          "title": "2028年には1社15万エージェント。IBM、身元管理と短命な認証情報でAIエージェントを統制する新機能",
-          "link": "https://codezine.jp/article/detail/30155",
-          "source": "CodeZine",
-          "published": "2026-10-27T10:45:00",
-          "excerpt": "2028年には1社15万エージェント。IBM、身元管理と短命な認証情報でAIエージェントを統制する新機能"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。Snowflakeの新機能Pipeline Builderを使ってデータパイプラインをGUIで構築してみました。…",
+      "summary": "開発ツールの新着が9件。はじめに オンプレ（VMware）中心のインフラエンジニアが、AWS × Terraform を触り始めて最初につまずいたのが terraform plan と terraform apply でした。…",
       "articles": [
+        {
+          "title": "Terraform初心者がつまずいた plan と apply の違い、plan結果の読み方",
+          "link": "https://zenn.dev/infra_eng/articles/2987b757f312ec",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-27T15:03:39",
+          "excerpt": "はじめに オンプレ（VMware）中心のインフラエンジニアが、AWS × Terraform を触り始めて最初につまずいたのが terraform plan と terraform apply でした。…"
+        },
         {
           "title": "[新機能]Snowflake の Pipeline Builder で SQL + Python パイプラインを GUI で組んで Deploy してみた",
           "link": "https://dev.classmethod.jp/articles/snowflake-pipeline-builder-sql-python-task-graph-deploy/",
@@ -134,45 +141,38 @@
           "source": "DevelopersIO",
           "published": "2026-10-27T10:14:50",
           "excerpt": "複数のOrganizationで使用するGitHub Appを全公開で公開しつつ、特定のOrganization以外での利用を制限する方法を紹介します。Webhookとサスペンド機能を組み合わせた実装方法について解説します。"
-        },
-        {
-          "title": "VS Code使いは要注意　GitHub経由で送られる「悪意あるリポジトリ」を見分けるポイント",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/27/news081.html",
-          "source": "@IT",
-          "published": "2026-10-27T08:15:00",
-          "excerpt": "Jamf Threat Labsは、北朝鮮に関連するとされる脅威アクターが悪意あるGitリポジトリを送付する手法を分析した結果を公開した。偽の採用プロセスを装って開発者を標的にしているという。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "JavaScriptランタイムの「Bun」がPrettier互換で300倍以上高速なフォーマッタに。Prettier設定ファイルもそのまま利用可能",
-      "link": "https://www.publickey1.jp/blog/26/javascriptbunprettier300prettier.html",
-      "source": "Publickey",
-      "published": "2026-10-27T15:27:52",
-      "excerpt": "Anthropicが開発しているJavaScriptランタイムの「Bun」の新機能として、Prettier互換のフォーマッタ搭載が発表されました。2026年10月22日付けでリリースされたBun v1.4.4に搭載されたPrettier互.…"
-    },
-    {
-      "title": "米国政府は、ハッカーが現在重大な PHP Web バグを悪用していると発表",
-      "link": "https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-27T14:40:39",
-      "excerpt": "米国政府サイバー庁は、ハッカーがウェブのソフトウェアの 70% で使用されている人気の PHP ソフトウェアを悪用する方法を見つけ出したと警告しています。"
-    },
-    {
-      "title": "Apple、M6チップを搭載した新しい14インチMacBook Proを発表",
-      "link": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-27T14:25:11",
-      "excerpt": "新しい MacBook Pro は 24 時間のバッテリー寿命を備え、Wi-Fi 7 および Bluetooth 6 接続のサポートを備えています。"
-    },
-    {
-      "title": "米国政府は米国人に対するスパイ行為に関する秘密裁判所の判決を隠している",
-      "link": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+      "title": "アメリカ大統領、「人工知能」という用語を禁止すると発言",
+      "link": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-27T14:06:42",
-      "excerpt": "記事の URL: https://www.wired.…"
+      "published": "2026-10-27T19:11:31",
+      "excerpt": "記事の URL: https://thehill.…"
+    },
+    {
+      "title": "Disruptive、少なくとも10社に大きな賭けをするために100億ドルの資金を調達",
+      "link": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-27T18:55:35",
+      "excerpt": "Disruptiveは近年、チップスタートアップのGroqやAI音声生成スタートアップのイレブンラボなどの企業に資金をつぎ込んでいることで話題になった。"
+    },
+    {
+      "title": "Discordはまもなく誰でもGoogleを通じてパブリックサーバーメッセージを検索できるようになります",
+      "link": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-27T18:44:17",
+      "excerpt": "記事の URL: https://discord.com/blog/making-content-from-discoverable-servers-easyer-to-discover コメント URL: https://news.…"
+    },
+    {
+      "title": "GoAhead の 3 つの TLS バグ",
+      "link": "https://foxio.io/blog/choose-your-backend-three-tls-bugs-in-goahead",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-27T18:33:48",
+      "excerpt": "記事の URL: https://foxio.io/blog/choose-your-backend-three-tls-bugs-in-goahead コメント URL: https://news.ycombinator.…"
     }
   ]
 }
