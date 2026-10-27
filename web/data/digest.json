@@ -1,111 +1,111 @@
 {
-  "generated_at": "2026-10-27T02:13:23",
+  "generated_at": "2026-10-27T08:05:29",
   "window_hours": 24,
-  "total": 183,
+  "total": 177,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が36件。OpenAI のドット担当幹部であるアレクサンダー エンビリコス氏は、他人の AI エージェントとの会議を決して望んでいません。",
+      "summary": "生成AIの新着が35件。先端技術開発グループ（WAND）の伊賀です。…",
       "articles": [
         {
-          "title": "OpenAI はどのようにしてコーディング ツールをドット、つまり常時接続のパーソナル アシスタントに変えたのか",
-          "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-27T02:00:00",
-          "excerpt": "OpenAI のドット担当幹部であるアレクサンダー エンビリコス氏は、他人の AI エージェントとの会議を決して望んでいません。"
+          "title": "AAIF に加わった Open Responses を Amazon Bedrock で試す",
+          "link": "https://zenn.dev/exwzd/articles/20261023-open-responses",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-27T06:52:28",
+          "excerpt": "先端技術開発グループ（WAND）の伊賀です。…"
         },
         {
-          "title": "Claude Code v2.1.311 の主要アップデート - ultrathink の xhigh effort 化と DISABLE_COMPACT の変更",
-          "link": "https://dev.classmethod.jp/articles/20261027-cc-updates-v2-1-311/",
-          "source": "DevelopersIO",
-          "published": "2026-10-27T01:54:02",
-          "excerpt": "Claude Code v2.1.311がリリースされました。このバージョンでは、`ultrathink`がターンをxhigh effortで実行するようになるなど、注目のアップデートが複数あります。…"
+          "title": "OpenAI、視覚的理解とコンピューター操作を強化した「GPT-6.1 Terra」の提供を開始 ―APIコストはGPT-5.6 Terraの半額に",
+          "link": "https://gihyo.jp/article/2026/10/gpt-6-1-terra?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-10-27T04:44:00",
+          "excerpt": "OpenAIは2026年10月26日、パフォーマンスとコストの両立を重視したAIモデルの新バージョン「GPT-6.1 Terra」を発表、提供を開始した。"
         },
         {
-          "title": "LLMで日常会話に攻撃者の指示を紛れ込ませることはできるのか？（DEF CON 34登壇記） | NTT docomo Business Engineers' Blog",
-          "link": "https://engineers.ntt.com/entry/202610-steganoC2/entry",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-27T01:09:12",
-          "excerpt": "Offensive Securityプロジェクトの紹介 DEF CONとは？発表内容の紹介 研究の背景：C2通信が普通の文章に見えたら？…"
+          "title": "SageMaker SDK v3で構築する、カメラごとの環境差異に対応したモデル管理手法",
+          "link": "https://qiita.com/goyle/items/672cfb8ca07d0bf0815e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-27T03:55:39",
+          "excerpt": "この記事でわかること 大量のエッジデバイス（カメラ）ごとに異なる環境に適応したモデル管理の仕組み SageMaker SDK v3を用いた、学習からエッジ最適化までの自動化パイプライン 品質ゲート（Quality Gate）による、低品質な…"
         },
         {
-          "title": "Amazon Connect Customer AIエージェントでGPT 5.6 TerraとGPT 5.6 Lunaを選択できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/amazon-connect-ai-agent-gpt-5-6-terra-luna/",
-          "source": "DevelopersIO",
-          "published": "2026-10-27T00:31:07",
-          "excerpt": "Amazon Connect Customer AI エージェントの管理画面で新しいモデル「GPT 5.6 Terra」「GPT 5.…"
+          "title": "Bedrock の Web Search がドメインフィルタと位置情報の指定に対応したので試してみた",
+          "link": "https://zenn.dev/aws_japan/articles/bedrock-web-search-domain-location",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-27T03:29:14",
+          "excerpt": "はじめに 2026 年 10 月 23 日、Web Search on Amazon Bedrock で、検索結果のドメインを絞り込むドメインフィルタと、利用者のおおよその位置を渡す user_location が使えるようになりました[1…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。TL;DR テナント単位でデータを整理するバッチで、DB の一括処理と、S3 のオブジェクトの削除を行っていました S3 にはプレフィックスを指定して消す API がありません。…",
+      "summary": "クラウドの新着が14件。AWS Lambda から RDS for PostgreSQL への接続が拒否されるエラーについて、原因と対応方法を検証結果とともに紹介します。…",
       "articles": [
         {
-          "title": "S3の大量削除をメンテナンス時間から切り離す - DBの一括処理と別の実行モードにし、バッチサイズの上限は計測で決めた",
-          "link": "https://qiita.com/zucky-quest/items/63c9204846db52ea4d22",
+          "title": "AWS Lambda から Amazon RDS for PostgreSQL への接続が \"remaining connection slots are reserved\" で失敗します。同時実行と max_connections の見積もり方を教えてください",
+          "link": "https://dev.classmethod.jp/articles/tsnote-rds-postgresql--lambda-max-connections-reserved-concurrency/",
+          "source": "DevelopersIO",
+          "published": "2026-10-27T07:00:11",
+          "excerpt": "AWS Lambda から RDS for PostgreSQL への接続が拒否されるエラーについて、原因と対応方法を検証結果とともに紹介します。…"
+        },
+        {
+          "title": "クラウドインフラの外部監査をクリアするためのログ集約とトレーサビリティ設計の基本",
+          "link": "https://qiita.com/NKKTechGlobal/items/26a9a85584e89cf06156",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-26T23:08:40",
-          "excerpt": "TL;DR テナント単位でデータを整理するバッチで、DB の一括処理と、S3 のオブジェクトの削除を行っていました S3 にはプレフィックスを指定して消す API がありません。…"
+          "published": "2026-10-27T06:26:15",
+          "excerpt": "クラウドインフラの外部監査をクリアするためのログ集約とトレーサビリティ設計の基本 はじめに こんにちは、NKKTech Global 技術チームです。…"
         },
         {
-          "title": "「COBOLを読める」と「移行できる」は別問題――AIでは越えられない“レガシーの壁”",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/26/news012.html",
-          "source": "@IT",
-          "published": "2026-10-26T20:00:00",
-          "excerpt": "AIは、長年使われてきたCOBOLのプログラムをどこまで理解できるのか。レガシーシステムの刷新にAIを活用する上で、その能力をどう評価すべきかは重要な課題だ。とはいえAIの読解力が高くても、システム全体を正しく理解できるとは言えない。…"
+          "title": "個人ブログを Lambda Web Functions + CloudFront に移行して、実際の料金を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/shuntaka-lambda-web-functions-blog-cost/",
+          "source": "DevelopersIO",
+          "published": "2026-10-27T06:24:05",
+          "excerpt": "個人ブログをLambda Web Functions + CloudFront OACに移行し、料金と性能がどう変わったか実測データで比較します。…"
         },
         {
-          "title": "AWSとGoogle Cloudが「PyTorch」のAWS Trainium、Google Cloud TPU対応版をオープンソースで公開。NVIDIAからの移行に挑む",
-          "link": "https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html",
-          "source": "Publickey",
-          "published": "2026-10-26T15:59:52",
-          "excerpt": "10月20日と21日に米カリフォルニア州で行われたイベント「PyTorch Conference 2026」において、AWSとGoogle Cloudが相次いでPyTorchの自社AIプロセッサ対応版をオープンソースとして発表しました。A.…"
-        },
-        {
-          "title": "S3静的サイトを本番品質にする：CloudFront＋OAC＋非公開バケットへの上げ方（HTTPS・キャッシュ・セキュリティ）",
-          "link": "https://qiita.com/Xim2jp/items/8dcbd06834d1d186d363",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-26T15:54:54",
-          "excerpt": "この記事でわかること S3の「静的ウェブサイトホスティングを有効にして公開」は入門としては正しいのですが、本番で運用するには3つの壁（HTTPSが使えない／バケットが直接見える／キャッシュ設計がない）があります。…"
+          "title": "Office on EC2 のバックアップとリストアを検証する",
+          "link": "https://zenn.dev/aws_japan/articles/aws-license-manager-office-on-ec2-backup",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-27T03:53:47",
+          "excerpt": "Office on EC2 のバックアップとリストアを検証する こんにちは！AWS でソリューションアーキテクトをしている杉山です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が21件。設定画面「クイック設定Web」のURLに「/index.php」と表示される場合があるが、PHPは使っていないため、今回の脆弱性による影響はないという。",
+      "summary": "セキュリティの新着が20件。Amazon GuardDuty の導入手順を、有効化からサンプル検出結果の確認、S3 へのエクスポート、メール通知設定までマネジメントコンソールで実際にやってみました。…",
       "articles": [
         {
-          "title": "NECのルータ「Aterm」、PHP脆弱性の影響なし　設定画面URLの「.php」は無関係",
-          "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002614/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-27T01:53:22",
-          "excerpt": "設定画面「クイック設定Web」のURLに「/index.php」と表示される場合があるが、PHPは使っていないため、今回の脆弱性による影響はないという。"
-        },
-        {
-          "title": "[アップデート] Amazon Lightsail のディストリビューションで WAF が使えるようになりました",
-          "link": "https://dev.classmethod.jp/articles/lightsail-distribution-waf/",
+          "title": "【初心者向け】 Amazon GuardDuty をマネジメントコンソールから導入してみた",
+          "link": "https://dev.classmethod.jp/articles/guardduty-setup-console/",
           "source": "DevelopersIO",
-          "published": "2026-10-27T00:11:58",
-          "excerpt": "ついに Lightsail にも WAF が！！"
+          "published": "2026-10-27T07:50:12",
+          "excerpt": "Amazon GuardDuty の導入手順を、有効化からサンプル検出結果の確認、S3 へのエクスポート、メール通知設定までマネジメントコンソールで実際にやってみました。…"
         },
         {
-          "title": "GMO不正アクセス、犯人側は「27日に顧客のPC攻撃」予告　GMOが端末回収、ホワイトハッカーが解析中",
-          "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002610/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-27T00:07:08",
-          "excerpt": "GMOの従業員が全国に出向いて顧客の端末を預かり、グループのホワイトハッカーチームが調査・解析を進めているという。"
+          "title": "IAMのポリシーは3つのルールで判断する。許可がなければ拒否、Denyが最優先",
+          "link": "https://zenn.dev/yasutomo7974/articles/dva-iam-policy-evaluation-rules",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-27T05:36:13",
+          "excerpt": "おはようございます、YASUです。DVAの勉強で、IAMのポリシーが複数ある時に、許可されるのか拒否されるのかを判断する問題が苦手でした。基本のルールだけに絞って、整理しました。結論 覚えるのは3つです。…"
         },
         {
-          "title": "「一番くじ ONLINE」の配送情報漏えいか　バンダイナムコの物流子会社に不正アクセス",
-          "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002608/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-26T23:07:15",
-          "excerpt": "バンダイロジパルが管理するシステムが不正アクセスを受け、「一番くじ ONLINE」の配送情報が漏えいした可能性。"
+          "title": "中国製AI「Qwen3.8」にセキュリティ対策を命じたら勝手に北京のサーバーへデータ送信を試みたことが判明",
+          "link": "https://gigazine.net/news/20261027-concerning-behaviour-open-weight-ai-model/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-10-27T04:07:06",
+          "excerpt": "中国のアリババが開発したAIモデル「Qwen3.8-Flash-Next」にセキュリティ対策用のルールを作成させたところ、指示されていないコンピューター内部の調査を始め、中国・北京にあるサーバーへデータを送信しようとしたことが判明しました。…"
+        },
+        {
+          "title": "Amazon Inspector の脆弱性データベース検索が「AccessDeniedException」エラーになったときの対処方法",
+          "link": "https://dev.classmethod.jp/articles/tsnote-inspector-vulnerability-database-search-accessdeniedexception/",
+          "source": "DevelopersIO",
+          "published": "2026-10-27T03:07:32",
+          "excerpt": "AWS CLI で Inspector の脆弱性検索が AccessDeniedException で失敗する場合、IAM ポリシーの権限不足ではなく、Amazon Inspector がアクティブになっていない可能性があります。"
         }
       ]
     },
@@ -126,67 +126,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。GitHub Apps、エンタープライズへのインストールを一般提供開始",
+      "summary": "開発ツールの新着が6件。Chrome 155、Digital Credentials APIの発行機能をデフォルトで有効に",
       "articles": [
+        {
+          "title": "Chrome 155、Digital Credentials APIの発行機能をデフォルトで有効に",
+          "link": "https://codezine.jp/article/detail/30144",
+          "source": "CodeZine",
+          "published": "2026-10-27T05:30:00",
+          "excerpt": "Chrome 155、Digital Credentials APIの発行機能をデフォルトで有効に"
+        },
+        {
+          "title": "GitHub、Teams向け新アプリで通知からCopilotによるコード修正が可能に",
+          "link": "https://codezine.jp/article/detail/30143",
+          "source": "CodeZine",
+          "published": "2026-10-27T04:00:00",
+          "excerpt": "GitHub、Teams向け新アプリで通知からCopilotによるコード修正が可能に"
+        },
+        {
+          "title": "SageMaker SDK v3で構築する、カメラごとの環境差異に対応したモデル管理手法",
+          "link": "https://qiita.com/goyle/items/672cfb8ca07d0bf0815e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-27T03:55:39",
+          "excerpt": "この記事でわかること 大量のエッジデバイス（カメラ）ごとに異なる環境に適応したモデル管理の仕組み SageMaker SDK v3を用いた、学習からエッジ最適化までの自動化パイプライン 品質ゲート（Quality Gate）による、低品質な…"
+        },
         {
           "title": "GitHub Apps、エンタープライズへのインストールを一般提供開始",
           "link": "https://codezine.jp/article/detail/30141",
           "source": "CodeZine",
           "published": "2026-10-27T01:00:00",
           "excerpt": "GitHub Apps、エンタープライズへのインストールを一般提供開始"
-        },
-        {
-          "title": "GitHub - yuiseki/map-from-scratch: 「Xをしたいから地図を作って」という依頼ごとに、その目的だけを満たす最小・最速の地図描画器をほぼゼロから作り、性能と正しさを計測して確かめる、 AI エージェントのためのスキルとハーネス",
-          "link": "https://github.com/yuiseki/map-from-scratch",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-26T12:01:11",
-          "excerpt": "「X をしたいから地図を作って」という依頼ごとに、その目的だけを満たす最小で最速の地図の描画器をほぼゼロから作り、計測で確かめるためのスキルとハーネスです。汎用の地図エンジンは作らず、依頼ごとに描画器そのものを作り直します。…"
-        },
-        {
-          "title": "AWS CLI コマンドの基本操作を EC2 インスタンスの情報取得で試してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-cli-ec2-basic-options/",
-          "source": "DevelopersIO",
-          "published": "2026-10-26T08:08:34",
-          "excerpt": "AWS CLI を使って EC2 インスタンスの情報取得や絞り込み、出力形式の変更を実際に試しながら、基本的なオプションの使い方を試してみました。"
-        },
-        {
-          "title": "GitHub、データレジデンシー環境でパブリックモニタリングをプレビュー提供",
-          "link": "https://codezine.jp/article/detail/30132",
-          "source": "CodeZine",
-          "published": "2026-10-26T07:00:00",
-          "excerpt": "GitHub、データレジデンシー環境でパブリックモニタリングをプレビュー提供"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "64 ビット Windows 上の 16 ビット Windows (Windows 1.x、2.x、3.0、3.1 など)",
-      "link": "https://github.com/otya128/winevdm",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-27T01:15:04",
-      "excerpt": "記事の URL: https://github.com/otya128/winevdm コメント URL: https://news.ycombinator.com/item?id=50253529 ポイント: 14 コメント数: 1"
+      "title": "専門AIで肌カウンセリング、ファンケルが新サービス　チャットと顔画像解析で",
+      "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002629/",
+      "source": "ITmedia NEWS",
+      "published": "2026-10-27T07:24:32",
+      "excerpt": "ファンケルは10月27日、肌専門の人工知能（AI）を使った肌のカウンセリングサービスを始めた。スマートフォンなどで、同社の公式アプリから無料で利用できる。"
     },
     {
-      "title": "コヒア氏は、アリババのクウェンモデルが北京にファイルを送信しようとしたと主張",
-      "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-27T01:12:21",
-      "excerpt": "AIモデルは、ツールは一切使用しないと述べ、とにかく北京のサーバーに何かを送信しようとした。…"
-    },
-    {
-      "title": "Macの使い捨てメモ、下書きエディタ環境をAntinoteに移した話 | CloudNative BLOGs",
-      "link": "https://blog.cloudnative.co.jp/articles/antinote-macos-scratchpad-draft-editor/",
+      "title": "今週の新着ブログ6本_「最後発のSIer」が挑むモダナイゼーション事業_SIPOC / 業務プロセス分解で大きな問いを現場サイズへ(2026.10.17~10.22) | SHIFT Group 技術ブログ",
+      "link": "https://note.shiftinc.jp/n/n320124791d51",
       "source": "企業テックブログまとめ",
-      "published": "2026-10-27T01:10:00",
-      "excerpt": "Slack やメールの下書きを本文の入力欄の外で書くために、macOS 向けのスクラッチパッド Antinote を使い始めました。…"
+      "published": "2026-10-27T07:09:09",
+      "excerpt": "こんにちは！「SHIFTグループ技術ブログ」編集部です。お役立ち記事を発信していますので、ぜひご注目ください！！…"
     },
     {
-      "title": "YAZ 27卒内定者研修vol.1 | アプリ開発・制作／システム開発のYAZ",
-      "link": "https://www.yaz.co.jp/news/10916",
+      "title": "相手の反応まで背負わなくていい。でも「相手が悪い」で終わらせない | SHIFT Group 技術ブログ",
+      "link": "https://note.shiftinc.jp/n/n4358d419af35",
       "source": "企業テックブログまとめ",
-      "published": "2026-10-27T01:00:21",
-      "excerpt": "皆さん初めまして！YAZ27卒内定者の石川です。今回は27卒内定者ブログの一回目の投稿を書かせて頂きます！【1 自己紹介】 最初に自己紹介からさせて頂きます。私は福島で生まれ、福島で育ちました。…"
+      "published": "2026-10-27T07:00:51",
+      "excerpt": "「正しく伝えること」がゴールではない続きをみる"
+    },
+    {
+      "title": "AWS、Trainium向けPyTorchバックエンド「TorchNeuron」のベータ版を公開",
+      "link": "https://codezine.jp/article/detail/30145",
+      "source": "CodeZine",
+      "published": "2026-10-27T07:00:00",
+      "excerpt": "AWS、Trainium向けPyTorchバックエンド「TorchNeuron」のベータ版を公開"
     }
   ]
 }
