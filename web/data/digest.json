@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-10-28T02:27:57",
+  "generated_at": "2026-10-28T08:48:29",
   "window_hours": 24,
-  "total": 183,
+  "total": 181,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が30件。全社的な生成AI導入を推進しようとしたところ、個別ツールの審査業務がボトルネックとなり、AI推進室が「止める部署」として見られてしまった──。…",
+      "summary": "生成AIの新着が33件。Claude Code の作業完了を見落とさないように、フックと terminal-notifier を組み合わせて macOS 通知の仕組みを作ってみました。通知をクリックすればプロジェクトのウィンドウに戻れる工夫を紹介します。",
       "articles": [
         {
-          "title": "AI活用の本当の課題は、AIではなくデータだった。生成AIの全社展開を加速するガバナンスと責任分解",
-          "link": "https://codezine.jp/article/detail/29666",
-          "source": "CodeZine",
-          "published": "2026-10-28T02:00:00",
-          "excerpt": "全社的な生成AI導入を推進しようとしたところ、個別ツールの審査業務がボトルネックとなり、AI推進室が「止める部署」として見られてしまった──。…"
+          "title": "Claude Code の回答完了を macOS の通知で受け取り、クリックで作業中のウィンドウに戻れるようにしてみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-hooks-macos-notification/",
+          "source": "DevelopersIO",
+          "published": "2026-10-28T06:55:42",
+          "excerpt": "Claude Code の作業完了を見落とさないように、フックと terminal-notifier を組み合わせて macOS 通知の仕組みを作ってみました。通知をクリックすればプロジェクトのウィンドウに戻れる工夫を紹介します。"
         },
         {
-          "title": "VCはAnthropicのIPOで数十億ドルを稼ぐだろうが、Amazonはそれ以上の利益を得る予定だ",
-          "link": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-28T01:15:28",
-          "excerpt": "大量のメモの変換により、Anthropic における Amazon の所有権の本当の範囲が明らかになります。"
+          "title": "「禁止」するだけでは防げない？　パナソニックグループで約33万人分の個人情報が外部生成AIに",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2610/28/news060.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-10-28T06:30:00",
+          "excerpt": "パナソニックグループで、従業員や元従業員とその家族約33万人分の個人情報が、社内で利用を禁止している外部の生成AIサービスにアップロードされた。同グループは、データについて「今後二次利用されない」と説明する。その根拠は何か。"
         },
         {
-          "title": "GitHub Copilotで「GPT-6.1 Terra」の一般提供を開始",
-          "link": "https://codezine.jp/article/detail/30150",
-          "source": "CodeZine",
-          "published": "2026-10-28T01:00:00",
-          "excerpt": "GitHub Copilotで「GPT-6.1 Terra」の一般提供を開始"
+          "title": "DeepSeek-V4-Flash-0731のデプロイを試してスループットを計ってみる #sglang #LLM #DeepSeek | GameWith Developer Blog",
+          "link": "https://tech.gamewith.co.jp/entry/2026/10/28/152516",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-28T06:25:16",
+          "excerpt": "はじめに 2026年7月31日に公開された DeepSeek-V4-Flash-0731 を、GCE で借りた NVIDIA RTX PRO 6000 Blackwell 8枚に載せて、スループットを計ってみました。…"
         },
         {
-          "title": "AndurilとQualcomm、米国製PC「BlueChip」を発表　Snapdragon X搭載、2027年に受注開始へ",
-          "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002653/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-28T00:48:10",
-          "excerpt": "Anduril IndustriesとQualcommは、米国製コンピュータ製造基盤の再構築を目指す製品ライン「BlueChip」を共同発表した。…"
+          "title": "「AIエージェントキャッチアップ #95 - Pi」を開催しました | Generative Agents Tech Blog",
+          "link": "https://blog.generative-agents.co.jp/entry/2026/10/28/151803",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-28T06:18:03",
+          "excerpt": "ジェネラティブエージェンツの大嶋です。「AIエージェントキャッチアップ #95 - Pi」という勉強会を開催しました。generative-agents.connpass.com アーカイブ動画はこちらです。www.youtube.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。きっかけ 決済の不正検知のように「届いたらすぐ判定したい」処理を、Kinesis Data Streams と Lambda で組む構成はよく見かけます。…",
+      "summary": "クラウドの新着が20件。EC2 への接続方法として一般的な Session Manager、EC2 Instance Connect Endpointの経路を、ログ、準備、コストの観点から比較し、どの方法を選ぶべきか根拠を持って判断できるようにまとめました。",
       "articles": [
         {
-          "title": "壊れた決済イベント 1 件で、後ろの不正な決済はどうなるのか。Kinesis + Lambda のリトライ設定を LocalStack で比べた",
-          "link": "https://qiita.com/Nekorock/items/ed173fb261c971c2d4c7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-28T01:55:55",
-          "excerpt": "きっかけ 決済の不正検知のように「届いたらすぐ判定したい」処理を、Kinesis Data Streams と Lambda で組む構成はよく見かけます。…"
-        },
-        {
-          "title": "【RDS for PostgreSQL】idle_in_transaction_session_timeout で切断されたとき、未コミットの INSERT がどうなるか確認してみた",
-          "link": "https://dev.classmethod.jp/articles/rds-postgresql-idle-in-transaction-session-timeout-rollback/",
+          "title": "EC2 への接続方法の選び方：Session Manager と EC2 Instance Connect を比較してみた",
+          "link": "https://dev.classmethod.jp/articles/ec2-instance-connect-vs-session-manager/",
           "source": "DevelopersIO",
-          "published": "2026-10-28T01:48:17",
-          "excerpt": "RDS for PostgreSQL で idle_in_transaction_session_timeout を設定し、トランザクション中に放置した接続が切断されたとき、未コミットの INSERT がどうなるかを psql で確認してみ…"
+          "published": "2026-10-28T08:24:09",
+          "excerpt": "EC2 への接続方法として一般的な Session Manager、EC2 Instance Connect Endpointの経路を、ログ、準備、コストの観点から比較し、どの方法を選ぶべきか根拠を持って判断できるようにまとめました。"
         },
         {
-          "title": "Amazon S3の保管コストと画像CDNトラフィックの最適化",
-          "link": "https://qiita.com/inflab_official/items/bea1d076fb04153f4b6c",
+          "title": "Aurora PostgreSQL の拡張機能のアップグレード方法について教えてください",
+          "link": "https://dev.classmethod.jp/articles/tsnote-aurora-postgresql-extension-upgrades/",
+          "source": "DevelopersIO",
+          "published": "2026-10-28T07:00:17",
+          "excerpt": "PostgreSQL の拡張機能のアップグレード方法を紹介します。アップグレードパスの確認から実施までの手順を、実際の SQL コマンドを交えて解説していきます。"
+        },
+        {
+          "title": "AWS Transform、S3/EBS/EFS/FSxへのストレージ移行評価に対応",
+          "link": "https://codezine.jp/article/detail/30153",
+          "source": "CodeZine",
+          "published": "2026-10-28T07:00:00",
+          "excerpt": "AWS Transform、S3/EBS/EFS/FSxへのストレージ移行評価に対応"
+        },
+        {
+          "title": "AWS EC2がどのWebサイト・URLを担当しているか特定する方法",
+          "link": "https://qiita.com/namnam3225/items/c278696cd6c16e487a38",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-28T01:15:41",
-          "excerpt": "この記事は2025年10月29日に執筆されたものです。こんにちは、InflabのDevOpsエンジニアのJakeとGoofyです。Inflabは最近、Amazon S3の保管コストとCDNトラフィックの最適化で成果を上げました。…"
-        },
-        {
-          "title": "AWS移行後の次なる挑戦！BIGLOBEにおけるAWSコスト最適化の道のり | TechBlog - BIGLOBE Style ｜ BIGLOBEの「はたらく人」と「トガッた技術」",
-          "link": "https://style.biglobe.co.jp/entry/2026/10/28/100000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-28T01:00:00",
-          "excerpt": "BIGLOBEのAWSコスト最適化事例です。移行後の利用料高止まりに対し、不要リソースの削除や割引プランの一括管理、機械学習による異常検知などを実施し、1年間で約21%のコスト削減とガバナンス強化を達成した軌跡を紹介しています。"
+          "published": "2026-10-28T06:47:27",
+          "excerpt": "AWS EC2がどのWebサイト・URLを担当しているか特定する方法 会社のAWS環境でEC2一覧を見たとき、「このEC2はどのWebサイトで使われているのか？」を調べる方法です。ゴールは以下の情報を特定することです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。AWS KMS の ML-KEM 鍵を、ECDH 鍵の置き換えとして試しました。入れ替わるのは共有秘密を作る部分だけで、HKDF と AES-256-GCM はそのまま使え、どちらも元の平文に復号できました。…",
+      "summary": "セキュリティの新着が14件。不正アクセスが相次ぐ中、ラックの倉持浩明CTOは「KDDI SUMMIT 2026」に登壇。被害対応の現場の実態として、脆弱性診断などを後回しにしたシステムが狙われていると指摘した。…",
       "articles": [
+        {
+          "title": "「対策を後回しにしたサーバが軒並み狙われている」　相次ぐ不正アクセスにラックCTOが警鐘",
+          "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002675/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-28T08:19:23",
+          "excerpt": "不正アクセスが相次ぐ中、ラックの倉持浩明CTOは「KDDI SUMMIT 2026」に登壇。被害対応の現場の実態として、脆弱性診断などを後回しにしたシステムが狙われていると指摘した。…"
+        },
+        {
+          "title": "OS、アプリケーションの脆弱性管理ってどうしてる | SIOS Tech Lab",
+          "link": "https://tech-lab.sios.jp/archives/55828",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-28T07:07:25",
+          "excerpt": "こんにちは。サイオステクノロジーの橋本です。昨今、各ソフトウェアで深刻な脆弱性が多数報告されており、セキュリティ担当者の方は日々の対応に追われているのではないでしょうか。本記事では、Linuxサーバーにおけるパッケージ ...…"
+        },
         {
           "title": "KMS が ML-KEM 鍵をサポートしたので試してみた",
           "link": "https://dev.classmethod.jp/articles/kms-ml-kem-key-support/",
@@ -92,20 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-10-28T01:21:17",
           "excerpt": "WAF Automatorの管理画面から設定できる項目について、Web ACL詳細画面の「検知」「ネットワークアクセス」「URLアクセス」「トラフィック」の設定項目を一覧で整理し、各機能の概要と設定内容をご紹介します。"
-        },
-        {
-          "title": "IDCFクラウドのランサム被害、OSSの脆弱性悪用される　サーバ内データ流出なし　再発防止へSBOM化",
-          "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002655/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-28T01:13:58",
-          "excerpt": "IDCFクラウドポータル」の認証システムで使用していたOSSの脆弱性が悪用され、侵入の起点となった。"
-        },
-        {
-          "title": "「攻撃者に権限なし」でも危険　BIND 9の脆弱性、回避策なく更新必須",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/28/news021.html",
-          "source": "@IT",
-          "published": "2026-10-27T22:45:00",
-          "excerpt": "DNSは企業のシステムやインターネットサービスを支える基盤だ。そのDNSサーバソフトウェア「BIND 9」に、メモリ破損を引き起こし、リモートコード実行につながる恐れのある脆弱性が見つかった。深刻度はCVSS 8.1で、既知の回避策はない。…"
         }
       ]
     },
@@ -147,8 +147,22 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。記事の URL: https://lexifina.com/blog/git-for-the-us-code コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "開発ツールの新着が9件。はじめに 2026年7月31日に公開された DeepSeek-V4-Flash-0731 を、GCE で借りた NVIDIA RTX PRO 6000 Blackwell 8枚に載せて、スループットを計ってみました。…",
       "articles": [
+        {
+          "title": "DeepSeek-V4-Flash-0731のデプロイを試してスループットを計ってみる #sglang #LLM #DeepSeek | GameWith Developer Blog",
+          "link": "https://tech.gamewith.co.jp/entry/2026/10/28/152516",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-28T06:25:16",
+          "excerpt": "はじめに 2026年7月31日に公開された DeepSeek-V4-Flash-0731 を、GCE で借りた NVIDIA RTX PRO 6000 Blackwell 8枚に載せて、スループットを計ってみました。…"
+        },
+        {
+          "title": "GitHub Copilotの「assisted permissions」が一般提供開始",
+          "link": "https://codezine.jp/article/detail/30152",
+          "source": "CodeZine",
+          "published": "2026-10-28T05:30:00",
+          "excerpt": "GitHub Copilotの「assisted permissions」が一般提供開始"
+        },
         {
           "title": "米国の法律に対応した Git",
           "link": "https://lexifina.com/blog/git-for-the-us-code",
@@ -162,52 +176,38 @@
           "source": "CodeZine",
           "published": "2026-10-28T01:00:00",
           "excerpt": "GitHub Copilotで「GPT-6.1 Terra」の一般提供を開始"
-        },
-        {
-          "title": "コーディングエージェントで変わったOSS開発 ——pecoの改修から3Dモデリング、開発ループの整備とメンテナンスの課題まで",
-          "link": "https://gihyo.jp/article/2026/10/life-with-ai-agents-01?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-10-28T00:27:00",
-          "excerpt": "この記事では、私がOSSの開発・メンテナンスの現場でコーディングエージェントをどう使っているかを紹介します。"
-        },
-        {
-          "title": "Terraform初心者がつまずいた plan と apply の違い、plan結果の読み方",
-          "link": "https://zenn.dev/infra_eng/articles/2987b757f312ec",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-27T15:03:39",
-          "excerpt": "はじめに オンプレ（VMware）中心のインフラエンジニアが、AWS × Terraform を触り始めて最初につまずいたのが terraform plan と terraform apply でした。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【速報版】SAP-C03 / DVA-C03 試験ガイド公開：C02からの変更点まとめ（SAPは5ドメインに再編・合格点720？）",
-      "link": "https://qiita.com/Maruchin/items/17eb1e6d64fbee2c8e5e",
+      "title": "7割が「シャドーAI」未対策　Gartner提言・メルカリ事例に学ぶ、正攻法",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/28/news026.html",
+      "source": "@IT",
+      "published": "2026-10-28T08:15:00",
+      "excerpt": "企業で生成AIやAIエージェントの活用が広がる一方、IT部門が把握していない「シャドーAI」のリスクが顕在化しています。経営層と現場の認識にはなぜズレが生じるのでしょうか。AI活用とガバナンスを両立させる方法を考えます。"
+    },
+    {
+      "title": "「AIで攻撃コード生成はたったの数時間に」　Fortinetが5製品を緊急更新＆警鐘",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/28/news020.html",
+      "source": "@IT",
+      "published": "2026-10-28T08:00:00",
+      "excerpt": "Fortinetは複数のセキュリティ製品を対象に修正プログラムを公開し、外部公開機器の迅速な更新を呼び掛けた。同社によると、AIの進化で、脆弱性を突く攻撃コードの生成はわずか数時間で実現する可能性がある。これにどう備えればいいか。"
+    },
+    {
+      "title": "「推しがそばにいる日常」を　ソニー、5万円台の裸眼3Dディスプレイ　アニメ公式コンテンツに対応",
+      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002670/",
+      "source": "ITmedia NEWS",
+      "published": "2026-10-28T07:06:07",
+      "excerpt": "ホロモデルに対応し、「アニメの公式キャラクターを中心とした3Dデジタルフィギュアを手軽に鑑賞できる」。"
+    },
+    {
+      "title": "AWSのガバナンスとリソース管理の基本",
+      "link": "https://qiita.com/namnam3225/items/b4ed9d97d6c34d5dd653",
       "source": "Qiita AWSタグ",
-      "published": "2026-10-28T02:17:01",
-      "excerpt": "こんにちは、Udemy講師のMaruchin Techです。…"
-    },
-    {
-      "title": "事業会社に20年いた私がクラスメソッドでの受託開発をたのしめている理由",
-      "link": "https://dev.classmethod.jp/articles/why-i-enjoy-client-work-at-classmethod/",
-      "source": "DevelopersIO",
-      "published": "2026-10-28T02:11:21",
-      "excerpt": "事業会社から受託開発企業への転職で、私のキャリアはどう変わったのか。5年以上クラスメソッドで過ごした今、改めてその経験と成長を振り返ってみます。"
-    },
-    {
-      "title": "2026年10月28日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-      "link": "https://qiita.com/ennagara128/items/3b3bf871cf038c5bbcfa",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-28T01:45:09",
-      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
-    },
-    {
-      "title": "public previewのPostgreSQL互換TiDB Cloud Starterを触ってみた",
-      "link": "https://dev.classmethod.jp/articles/tidb-cloud-starter-postgresql-trial/",
-      "source": "DevelopersIO",
-      "published": "2026-10-28T01:16:16",
-      "excerpt": "PostgreSQL互換のTiDB Cloud Starterがpublic previewを始めたので、MySQL版との違いをコンソール画面とpsqlで確認してみました。"
+      "published": "2026-10-28T06:51:16",
+      "excerpt": "AWSのガバナンスとリソース管理の基本 AWSを複数の部門やチームで使う場合は、 アカウントの整理と、リソースを作成・利用するときのルールが必要になる。こうした利用ルールを組織全体で管理することを、ガバナンスと呼ぶ。…"
     }
   ]
 }
