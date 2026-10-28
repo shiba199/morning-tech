@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-10-28T08:48:29",
+  "generated_at": "2026-10-28T15:35:27",
   "window_hours": 24,
-  "total": 181,
+  "total": 173,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が33件。Claude Code の作業完了を見落とさないように、フックと terminal-notifier を組み合わせて macOS 通知の仕組みを作ってみました。通知をクリックすればプロジェクトのウィンドウに戻れる工夫を紹介します。",
+      "summary": "生成AIの新着が25件。Project Quarry は、エージェントの行動を評価するための「共有言語」を提供することを目指しています",
       "articles": [
+        {
+          "title": "ハッキング行為中の AI エージェントを検出するシスコのオープンソース ツール",
+          "link": "https://www.theregister.com/security/2026/10/28/cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees/5305867",
+          "source": "The Register（英語）",
+          "published": "2026-10-28T12:00:00",
+          "excerpt": "Project Quarry は、エージェントの行動を評価するための「共有言語」を提供することを目指しています"
+        },
+        {
+          "title": "dotsとCodexの活用を紹介 ——OpenAI DevDay Exchange Tokyoレポート",
+          "link": "https://gihyo.jp/article/2026/10/openai-devday-exchange-tokyo-report?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-10-28T09:38:00",
+          "excerpt": "OpenAIは2026年10月20日、東京で開発者向けイベント「DevDay Exchange Tokyo」を開催しました。"
+        },
         {
           "title": "Claude Code の回答完了を macOS の通知で受け取り、クリックで作業中のウィンドウに戻れるようにしてみた",
           "link": "https://dev.classmethod.jp/articles/claude-code-hooks-macos-notification/",
@@ -22,98 +36,91 @@
           "source": "ITmedia エンタープライズ",
           "published": "2026-10-28T06:30:00",
           "excerpt": "パナソニックグループで、従業員や元従業員とその家族約33万人分の個人情報が、社内で利用を禁止している外部の生成AIサービスにアップロードされた。同グループは、データについて「今後二次利用されない」と説明する。その根拠は何か。"
-        },
-        {
-          "title": "DeepSeek-V4-Flash-0731のデプロイを試してスループットを計ってみる #sglang #LLM #DeepSeek | GameWith Developer Blog",
-          "link": "https://tech.gamewith.co.jp/entry/2026/10/28/152516",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-28T06:25:16",
-          "excerpt": "はじめに 2026年7月31日に公開された DeepSeek-V4-Flash-0731 を、GCE で借りた NVIDIA RTX PRO 6000 Blackwell 8枚に載せて、スループットを計ってみました。…"
-        },
-        {
-          "title": "「AIエージェントキャッチアップ #95 - Pi」を開催しました | Generative Agents Tech Blog",
-          "link": "https://blog.generative-agents.co.jp/entry/2026/10/28/151803",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-28T06:18:03",
-          "excerpt": "ジェネラティブエージェンツの大嶋です。「AIエージェントキャッチアップ #95 - Pi」という勉強会を開催しました。generative-agents.connpass.com アーカイブ動画はこちらです。www.youtube.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。EC2 への接続方法として一般的な Session Manager、EC2 Instance Connect Endpointの経路を、ログ、準備、コストの観点から比較し、どの方法を選ぶべきか根拠を持って判断できるようにまとめました。",
+      "summary": "クラウドの新着が22件。概要既存のアプリケーションが持つ SQL と PL/SQL は、長年の運用で育った資産です。ScalarDB へ移行するとき、数百から数千の SQL を人手で書き直すのは現実的ではありません。…",
       "articles": [
         {
-          "title": "EC2 への接続方法の選び方：Session Manager と EC2 Instance Connect を比較してみた",
-          "link": "https://dev.classmethod.jp/articles/ec2-instance-connect-vs-session-manager/",
+          "title": "【既存のSQL, PL/SQLをAIを用いて移行する】第1回：SQLGlot で既存の SQL を ScalarDB SQL に変換する | Scalar Solution Engineer Blogのフィード",
+          "link": "https://zenn.dev/scalar_sol_blog/articles/20260923-100100-scalardb-migrate-1-sqlglot",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-28T13:44:36",
+          "excerpt": "概要既存のアプリケーションが持つ SQL と PL/SQL は、長年の運用で育った資産です。ScalarDB へ移行するとき、数百から数千の SQL を人手で書き直すのは現実的ではありません。…"
+        },
+        {
+          "title": "Docker ComposeからECS・Fargateへ ── 対応関係で理解するAWSコンテナデプロイ",
+          "link": "https://zenn.dev/yamato_snow/books/compose-to-ecs-fargate",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-28T12:11:42",
+          "excerpt": "docker composeで動くアプリを、ECS・Fargateへデプロイするための入門書です。…"
+        },
+        {
+          "title": "AWS EC2 Auto Scaling の「終了前に起動」をアカウントレベルで有効にしてみた | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/ec2-auto-scaling-launch-before-terminate",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-28T11:00:00",
+          "excerpt": "今日誕生日の人、おめでとうございます🎉 エデュケーショナルサービス課の森純子です。…"
+        },
+        {
+          "title": "[小ネタ] Amazon RDSをIaCで作成する際は EnablePerformanceInsights = true にしておいた方が良いはなし",
+          "link": "https://dev.classmethod.jp/articles/amazon-rds-still-require-enableperfomanceinsights-true/",
           "source": "DevelopersIO",
-          "published": "2026-10-28T08:24:09",
-          "excerpt": "EC2 への接続方法として一般的な Session Manager、EC2 Instance Connect Endpointの経路を、ログ、準備、コストの観点から比較し、どの方法を選ぶべきか根拠を持って判断できるようにまとめました。"
-        },
-        {
-          "title": "Aurora PostgreSQL の拡張機能のアップグレード方法について教えてください",
-          "link": "https://dev.classmethod.jp/articles/tsnote-aurora-postgresql-extension-upgrades/",
-          "source": "DevelopersIO",
-          "published": "2026-10-28T07:00:17",
-          "excerpt": "PostgreSQL の拡張機能のアップグレード方法を紹介します。アップグレードパスの確認から実施までの手順を、実際の SQL コマンドを交えて解説していきます。"
-        },
-        {
-          "title": "AWS Transform、S3/EBS/EFS/FSxへのストレージ移行評価に対応",
-          "link": "https://codezine.jp/article/detail/30153",
-          "source": "CodeZine",
-          "published": "2026-10-28T07:00:00",
-          "excerpt": "AWS Transform、S3/EBS/EFS/FSxへのストレージ移行評価に対応"
-        },
-        {
-          "title": "AWS EC2がどのWebサイト・URLを担当しているか特定する方法",
-          "link": "https://qiita.com/namnam3225/items/c278696cd6c16e487a38",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-28T06:47:27",
-          "excerpt": "AWS EC2がどのWebサイト・URLを担当しているか特定する方法 会社のAWS環境でEC2一覧を見たとき、「このEC2はどのWebサイトで使われているのか？」を調べる方法です。ゴールは以下の情報を特定することです。…"
+          "published": "2026-10-28T10:53:56",
+          "excerpt": "Performance Insights廃止後のRDS設定の変更でIaCを使った環境構築時に遭遇した経験を共有します。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。不正アクセスが相次ぐ中、ラックの倉持浩明CTOは「KDDI SUMMIT 2026」に登壇。被害対応の現場の実態として、脆弱性診断などを後回しにしたシステムが狙われていると指摘した。…",
+      "summary": "セキュリティの新着が10件。日本航空（JAL）と日本トランスオーシャン航空（JTA）は10月28日、予約や搭乗手続きなどを管理するシステムの提供元が不正アクセスを受け、利用者約9万2000人の予約情報が外部から閲覧された形跡があったと発表した。",
       "articles": [
+        {
+          "title": "JALの予約システムに不正アクセス　約9万人分の予約情報が漏えい　一部ではパスポート番号も",
+          "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002687/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-28T11:52:00",
+          "excerpt": "日本航空（JAL）と日本トランスオーシャン航空（JTA）は10月28日、予約や搭乗手続きなどを管理するシステムの提供元が不正アクセスを受け、利用者約9万2000人の予約情報が外部から閲覧された形跡があったと発表した。"
+        },
+        {
+          "title": "NEC、委託先の情報漏えいで謝罪　「セキュリティ事業を手掛ける企業として反省」",
+          "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002686/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-28T11:32:12",
+          "excerpt": "NECの雨宮邦和副社長兼CFOは、10月28日の第2四半期決算説明会で、委託先を経由したセキュリティインシデントについて謝罪した。…"
+        },
+        {
+          "title": "IAMロールは「必要な時だけ借りる役割」。STSの一時的な認証情報を整理した",
+          "link": "https://zenn.dev/yasutomo7974/articles/dva-iam-role-sts-temporary-credentials",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-28T09:52:13",
+          "excerpt": "おはようございます、YASUです。DVAの勉強で、「IAMロールを引き受ける」「一時的な認証情報」という言葉が何度も出てきます。意味をはっきりさせたかったので、シンプルに整理しました。結論 IAMロールは、必要な時だけ借りる「役割」です。…"
+        },
         {
           "title": "「対策を後回しにしたサーバが軒並み狙われている」　相次ぐ不正アクセスにラックCTOが警鐘",
           "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002675/",
           "source": "ITmedia NEWS",
           "published": "2026-10-28T08:19:23",
           "excerpt": "不正アクセスが相次ぐ中、ラックの倉持浩明CTOは「KDDI SUMMIT 2026」に登壇。被害対応の現場の実態として、脆弱性診断などを後回しにしたシステムが狙われていると指摘した。…"
-        },
-        {
-          "title": "OS、アプリケーションの脆弱性管理ってどうしてる | SIOS Tech Lab",
-          "link": "https://tech-lab.sios.jp/archives/55828",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-28T07:07:25",
-          "excerpt": "こんにちは。サイオステクノロジーの橋本です。昨今、各ソフトウェアで深刻な脆弱性が多数報告されており、セキュリティ担当者の方は日々の対応に追われているのではないでしょうか。本記事では、Linuxサーバーにおけるパッケージ ...…"
-        },
-        {
-          "title": "KMS が ML-KEM 鍵をサポートしたので試してみた",
-          "link": "https://dev.classmethod.jp/articles/kms-ml-kem-key-support/",
-          "source": "DevelopersIO",
-          "published": "2026-10-28T01:29:56",
-          "excerpt": "AWS KMS の ML-KEM 鍵を、ECDH 鍵の置き換えとして試しました。入れ替わるのは共有秘密を作る部分だけで、HKDF と AES-256-GCM はそのまま使え、どちらも元の平文に復号できました。…"
-        },
-        {
-          "title": "WAF Automatorの管理画面から設定できるルールをまとめてみた",
-          "link": "https://dev.classmethod.jp/articles/waf-automator-console-settings/",
-          "source": "DevelopersIO",
-          "published": "2026-10-28T01:21:17",
-          "excerpt": "WAF Automatorの管理画面から設定できる項目について、Web ACL詳細画面の「検知」「ネットワークアクセス」「URLアクセス」「トラフィック」の設定項目を一覧で整理し、各機能の概要と設定内容をご紹介します。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。きっかけ 決済の不正検知のように「届いたらすぐ判定したい」処理を、Kinesis Data Streams と Lambda で組む構成はよく見かけます。…",
+      "summary": "データ分析の新着が6件。今まではクラスター作り直しだった",
       "articles": [
+        {
+          "title": "[アップデート] Amazon ElastiCache for Valkey で既存クラスターの耐久性（durability）を変更できるようになりました",
+          "link": "https://dev.classmethod.jp/articles/elasticache-changing-durability/",
+          "source": "DevelopersIO",
+          "published": "2026-10-28T13:10:18",
+          "excerpt": "今まではクラスター作り直しだった"
+        },
         {
           "title": "壊れた決済イベント 1 件で、後ろの不正な決済はどうなるのか。Kinesis + Lambda のリトライ設定を LocalStack で比べた",
           "link": "https://qiita.com/Nekorock/items/ed173fb261c971c2d4c7",
@@ -134,80 +141,73 @@
           "source": "@IT",
           "published": "2026-10-27T22:45:00",
           "excerpt": "DNSは企業のシステムやインターネットサービスを支える基盤だ。そのDNSサーバソフトウェア「BIND 9」に、メモリ破損を引き起こし、リモートコード実行につながる恐れのある脆弱性が見つかった。深刻度はCVSS 8.1で、既知の回避策はない。…"
-        },
-        {
-          "title": "Big Red、AI 顧客への TPU 提供で Google に好意的",
-          "link": "https://www.theregister.com/ai-and-ml/2026/10/27/big-red-gets-cozy-with-google-to-offer-tpus-to-ai-customers/5305846",
-          "source": "The Register（英語）",
-          "published": "2026-10-27T20:20:27",
-          "excerpt": "企業が AI の成果を待つ中、オラクルはこれらのチップを新しい Nvidia ハードウェアや OpenAI サービスと併せて追加する予定です"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。はじめに 2026年7月31日に公開された DeepSeek-V4-Flash-0731 を、GCE で借りた NVIDIA RTX PRO 6000 Blackwell 8枚に載せて、スループットを計ってみました。…",
+      "summary": "開発ツールの新着が13件。はじめに AWS CDKでインフラを変更するとき、デプロイ前に差分を確認する手段として cdk diff があります。では、差分が表示されたからといって、変更の影響をすべて把握できるのでしょうか。…",
       "articles": [
         {
-          "title": "DeepSeek-V4-Flash-0731のデプロイを試してスループットを計ってみる #sglang #LLM #DeepSeek | GameWith Developer Blog",
-          "link": "https://tech.gamewith.co.jp/entry/2026/10/28/152516",
+          "title": "cdk diff はどこまで変更を検知できるのか？AWS CDKで検証してみた",
+          "link": "https://qiita.com/ryoichi_izumi/items/f1e76979e50521bdea79",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-28T14:14:35",
+          "excerpt": "はじめに AWS CDKでインフラを変更するとき、デプロイ前に差分を確認する手段として cdk diff があります。では、差分が表示されたからといって、変更の影響をすべて把握できるのでしょうか。…"
+        },
+        {
+          "title": "Docker ComposeからECS・Fargateへ ── 対応関係で理解するAWSコンテナデプロイ",
+          "link": "https://zenn.dev/yamato_snow/books/compose-to-ecs-fargate",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-28T12:11:42",
+          "excerpt": "docker composeで動くアプリを、ECS・Fargateへデプロイするための入門書です。…"
+        },
+        {
+          "title": "kiro-cli ログインがAWS CloudShellで出来ない場合のトラブルシュート",
+          "link": "https://qiita.com/norihito_wada/items/a69f818497e0bf3ffc26",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-28T11:47:47",
+          "excerpt": "0.はじめに この記事は、AWS CloudShellでKiroを使用しようとした際に、ログインのところでつまづいてしまった場合にトラブルシュートして解決するまでの経験談になります。…"
+        },
+        {
+          "title": "git タグで固定すれば skills update でも変わらない | Algomatic Tech Blog",
+          "link": "https://tech.algomatic.jp/entry/2026/10/28/201006",
           "source": "企業テックブログまとめ",
-          "published": "2026-10-28T06:25:16",
-          "excerpt": "はじめに 2026年7月31日に公開された DeepSeek-V4-Flash-0731 を、GCE で借りた NVIDIA RTX PRO 6000 Blackwell 8枚に載せて、スループットを計ってみました。…"
-        },
-        {
-          "title": "GitHub Copilotの「assisted permissions」が一般提供開始",
-          "link": "https://codezine.jp/article/detail/30152",
-          "source": "CodeZine",
-          "published": "2026-10-28T05:30:00",
-          "excerpt": "GitHub Copilotの「assisted permissions」が一般提供開始"
-        },
-        {
-          "title": "米国の法律に対応した Git",
-          "link": "https://lexifina.com/blog/git-for-the-us-code",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-28T01:47:50",
-          "excerpt": "記事の URL: https://lexifina.com/blog/git-for-the-us-code コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "GitHub Copilotで「GPT-6.1 Terra」の一般提供を開始",
-          "link": "https://codezine.jp/article/detail/30150",
-          "source": "CodeZine",
-          "published": "2026-10-28T01:00:00",
-          "excerpt": "GitHub Copilotで「GPT-6.1 Terra」の一般提供を開始"
+          "published": "2026-10-28T11:10:06",
+          "excerpt": "こんにちは。AlgomaticでソフトウェアエンジニアをしているGo（@53able）です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "7割が「シャドーAI」未対策　Gartner提言・メルカリ事例に学ぶ、正攻法",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/28/news026.html",
-      "source": "@IT",
-      "published": "2026-10-28T08:15:00",
-      "excerpt": "企業で生成AIやAIエージェントの活用が広がる一方、IT部門が把握していない「シャドーAI」のリスクが顕在化しています。経営層と現場の認識にはなぜズレが生じるのでしょうか。AI活用とガバナンスを両立させる方法を考えます。"
+      "title": "Google、Elephant-Goldfish Modelプラグインを公開 ——AIが設計文書の作成と検証を分担",
+      "link": "https://gihyo.jp/article/2026/10/elephant-goldfish-model-plugin?utm_source=feed",
+      "source": "gihyo.jp 開発",
+      "published": "2026-10-29T11:04:00",
+      "excerpt": "Googleは2026年10月22日、AIを使ったソフトウェア開発で、実装前の設計とレビューを支援するElephant-Goldfish Model（EGM）プラグインのオープンソース公開を発表した。"
     },
     {
-      "title": "「AIで攻撃コード生成はたったの数時間に」　Fortinetが5製品を緊急更新＆警鐘",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/28/news020.html",
-      "source": "@IT",
-      "published": "2026-10-28T08:00:00",
-      "excerpt": "Fortinetは複数のセキュリティ製品を対象に修正プログラムを公開し、外部公開機器の迅速な更新を呼び掛けた。同社によると、AIの進化で、脆弱性を突く攻撃コードの生成はわずか数時間で実現する可能性がある。これにどう備えればいいか。"
+      "title": "オラクル、社員が業務アプリをAIで自動作成、Oracle Cloud上で共有できる「Oracle App Composer」発表。Oracle AI World 2026",
+      "link": "https://www.publickey1.jp/blog/26/aioracle_cloudoracle_app_composeroracle_ai_world_2026.html",
+      "source": "Publickey",
+      "published": "2026-10-28T15:39:53",
+      "excerpt": "オラクルは、社員が業務アプリをAIで自動的に生成しOracle Cloudにデプロイして利用できる「Oracle App Composer」を、米国ラスベガスで開催中の年次イベント「Oracle AI World 2026」で発表しました。…"
     },
     {
-      "title": "「推しがそばにいる日常」を　ソニー、5万円台の裸眼3Dディスプレイ　アニメ公式コンテンツに対応",
-      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002670/",
-      "source": "ITmedia NEWS",
-      "published": "2026-10-28T07:06:07",
-      "excerpt": "ホロモデルに対応し、「アニメの公式キャラクターを中心とした3Dデジタルフィギュアを手軽に鑑賞できる」。"
+      "title": "Google が Angular 2 でフロントエンドをどのようにいじったか",
+      "link": "https://www.theregister.com/devops/2026/10/28/how-google-fumbled-the-frontend-with-angular-2/5306030",
+      "source": "The Register（英語）",
+      "published": "2026-10-28T15:11:46",
+      "excerpt": "All Things Open Talk は、ソフトウェア パッケージをアップグレードしない方法についての教訓を提供しました"
     },
     {
-      "title": "AWSのガバナンスとリソース管理の基本",
-      "link": "https://qiita.com/namnam3225/items/b4ed9d97d6c34d5dd653",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-28T06:51:16",
-      "excerpt": "AWSのガバナンスとリソース管理の基本 AWSを複数の部門やチームで使う場合は、 アカウントの整理と、リソースを作成・利用するときのルールが必要になる。こうした利用ルールを組織全体で管理することを、ガバナンスと呼ぶ。…"
+      "title": "Cloudflare WorkersのspanContext()でtraceIdをレスポンスに入れる：setStatus・updateNameとあわせて挙動を確かめる",
+      "link": "https://dev.classmethod.jp/articles/cloudflare-workers-span-context-status/",
+      "source": "DevelopersIO",
+      "published": "2026-10-28T15:04:32",
+      "excerpt": "Workersのカスタムspanに追加されたspanContext()、setStatus()、updateName()を試し、traceIdがダッシュボードのトレースと一致するか、名前とstatusが本番とLocal Explorerでど…"
     }
   ]
 }
