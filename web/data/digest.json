@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-10-29T13:25:41",
+  "generated_at": "2026-10-29T19:04:02",
   "window_hours": 24,
-  "total": 158,
+  "total": 155,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。記事の URL: https://artificialanalogy.ai/articles/gemini-4-carbon-new-number-1 コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が19件。記事の URL: https://github.com/phpclaw-php/phpclaw-monorepo コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
-          "title": "Gemini 4 Carbon は、Artificial Analysis Intelligence Index v5 で新たに第 1 位になりました",
-          "link": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "title": "Show HN: phpClaw – ツール、メモリ、ガードを備えた PHP 用 AI エージェント ランタイム",
+          "link": "https://github.com/phpclaw-php/phpclaw-monorepo",
           "source": "Hacker News（英語）",
-          "published": "2026-10-29T12:41:56",
-          "excerpt": "記事の URL: https://artificialanalogy.ai/articles/gemini-4-carbon-new-number-1 コメント URL: https://news.ycombinator.com/item?…"
+          "published": "2026-10-29T18:06:22",
+          "excerpt": "記事の URL: https://github.com/phpclaw-php/phpclaw-monorepo コメント URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "LibreOffice の「AI なし」のスタンスと LLM 支援コードの融合",
-          "link": "https://www.theregister.com/ai-and-ml/2026/10/29/libreoffices-no-ai-stance-meets-llm-assisted-code/5306084",
-          "source": "The Register（英語）",
-          "published": "2026-10-29T11:29:00",
-          "excerpt": "コア開発者はAIコーディングアシスタントを避ける一方、コミュニティ貢献者は情報開示とレビュールールに直面する"
+          "title": "通知を推論が終わった時刻ではなく予定日で配る - EventBridge Schedulerのscheduled-timeをDBまで運ぶ設計",
+          "link": "https://qiita.com/zucky-quest/items/8b7ebbc63a8ff581b736",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-29T15:36:15",
+          "excerpt": "TL;DR 推論バッチの結果を、テナントごとに通知メールで配っています。以前は、推論が終わった時刻をもとに配信日を決めていました そのせいで、処理が日付をまたぐと配信が 1 日ずれました。…"
         },
         {
-          "title": "OpenAI、ChatGPT Pro・Businessに月最大500ドル分のAPIクレジット",
-          "link": "https://gihyo.jp/article/2026/10/chatgpt-pro-business-api-credits?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-10-29T10:00:00",
-          "excerpt": "OpenAIは2026年10月28日、対象のChatGPT Pro・Businessプラン契約者に、月最大500ドル分のAPIクレジットを提供する特典を開始した。"
-        },
-        {
-          "title": "Claude の「組織の指示」でどこまで統制できるか試してみた",
-          "link": "https://dev.classmethod.jp/articles/claude-team-enterprise-organization-instructions-refuse-off-topic/",
+          "title": "[アップデート] Amazon Quick でエージェントのアクションを自動承認する Smart Approvals が利用可能になったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/20261029-amazon-quick-smart-approvals-agentic-actions/",
           "source": "DevelopersIO",
-          "published": "2026-10-29T09:26:01",
-          "excerpt": "Claude Enterprise の「組織の指示」機能を使って、業務に関係ない質問を断らせる設定に挑戦してみました。実際の動作確認を通じて、この機能の有効性と限界を紹介します。"
+          "published": "2026-10-29T15:08:54",
+          "excerpt": "Amazon Quickの新機能「Smart Approvals」を、デスクトップアプリで試してみました。エージェントが実行するアクションを自動承認するかユーザーに確認するかを振り分ける仕組みについて、設定方法と検証結果をまとめます。"
+        },
+        {
+          "title": "Bedrock AgentCore Memory の長期記憶に TTL を設定できるようになったので仕様を確認してみた",
+          "link": "https://qiita.com/leomarokun/items/b024b7cc384ecd873fa7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-29T14:01:17",
+          "excerpt": "はじめに AgentCore Memory の長期記憶に、TTL を設定できるようになりました。これまで長期記憶には有効期限がなく、削除 API で消さない限り古い情報も残り続けていました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が21件。2026 年 8 月に、Amazon EKS で、Kubernetes のコントロールプレーンのコンポーネント (API サーバー、スケジューラ、コントローラーマネージャー) を EKS API で直接設定できるようになりました。…",
+      "summary": "クラウドの新着が20件。SSM Session Manager経由でプライベートサブネットのEC2にVS Codeで接続する際、EC2 Instance Connectを使って公開鍵を一時登録する方法を試しました。…",
       "articles": [
+        {
+          "title": "【EC2 Instance Connect × SSM】 EC2 に公開鍵を保管しない VS Code Remote - SSH 接続を作ってみた（通常のキーペア方式と比較）",
+          "link": "https://dev.classmethod.jp/articles/ec2-instance-connect-ssm-vscode-remote-ssh/",
+          "source": "DevelopersIO",
+          "published": "2026-10-29T14:40:02",
+          "excerpt": "SSM Session Manager経由でプライベートサブネットのEC2にVS Codeで接続する際、EC2 Instance Connectを使って公開鍵を一時登録する方法を試しました。…"
+        },
         {
           "title": "Amazon EKS の高度な Kubernetes コントロールプレーン設定の紹介",
           "link": "https://aws.amazon.com/jp/blogs/news/introducing-advanced-kubernetes-control-plane-configuration-in-amazon-eks/",
@@ -59,26 +66,33 @@
           "excerpt": "Deepgram は、Pipecat をオープンソースにし続けることに尽力していると述べた。"
         },
         {
-          "title": "【コツコツAWS】Security Hubの検出結果に対するS3の自動修復",
-          "link": "https://qiita.com/guupys/items/bab114cc96c8144e5cca",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-29T11:37:02",
-          "excerpt": "AWS Security Hub CSPMでセキュリティ基準を有効にすると、さまざまな検出結果が出てきます。…"
-        },
-        {
-          "title": "Lambda Web Functions のリージョンを 4 つから 5 つに入れ替えてみた（オハイオ追加）",
-          "link": "https://dev.classmethod.jp/articles/lambda-web-functions-multiregion-add-ohio/",
-          "source": "DevelopersIO",
-          "published": "2026-10-29T09:47:07",
-          "excerpt": "Lambda Web Functions の MultiRegion エンドポイントを、4 リージョン構成からオハイオを加えた 5 リージョン構成へ切り替えました。…"
+          "title": "【既存のSQL, PL/SQLをAIを用いて移行する】第2回：変換できない SQL を H2 と組み合わせて動かす | Scalar Solution Engineer Blogのフィード",
+          "link": "https://zenn.dev/scalar_sol_blog/articles/20260923-100200-scalardb-migrate-2-h2-residual",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-29T12:52:42",
+          "excerpt": "概要この連載では、Oracle / MySQL / PostgreSQL 向けに書かれた既存の SQL と PL/SQL を ScalarDB へ移すために試作した仕組み(https://github.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が24件。大人の中には証明する必要がない人もいるかもしれないが、多くの人は証明する必要があるだろう",
+      "summary": "セキュリティの新着が26件。ミストラル社は、その新しいモデルにより、組織はクローズドモデルでは不可能なサイバー防御の一種の制御が可能になると述べている。",
       "articles": [
+        {
+          "title": "ミストラル、サイバーセキュリティをターゲットとした、兆パラメータの AI モデルの重みをリリース",
+          "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-29T17:00:00",
+          "excerpt": "ミストラル社は、その新しいモデルにより、組織はクローズドモデルでは不可能なサイバー防御の一種の制御が可能になると述べている。"
+        },
+        {
+          "title": "Security Hub CSPM のマルチアカウント管理は「中央設定」 — ローカル設定との違いと最新のベストプラクティスを今更図解で整理",
+          "link": "https://qiita.com/leomarokun/items/f5c67aea681f4e972bb2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-29T16:29:57",
+          "excerpt": "はじめに Security Hub CSPM を複数アカウントで管理する方法には、「中央設定（推奨）」と「ローカル設定」の 2 種類があります。…"
+        },
         {
           "title": "英国の16歳未満ソーシャルメディア禁止のための年齢確認の最終候補リストが発表、「一部の」成人は認証が必要となる",
           "link": "https://www.theregister.com/security/2026/10/29/shortlist-of-age-checks-for-the-uks-under-16-social-media-ban-is-out-some-adults-will-need-verifying/5306282",
@@ -87,32 +101,18 @@
           "excerpt": "大人の中には証明する必要がない人もいるかもしれないが、多くの人は証明する必要があるだろう"
         },
         {
-          "title": "【コツコツAWS】Security Hubの検出結果に対するS3の自動修復",
-          "link": "https://qiita.com/guupys/items/bab114cc96c8144e5cca",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-29T11:37:02",
-          "excerpt": "AWS Security Hub CSPMでセキュリティ基準を有効にすると、さまざまな検出結果が出てきます。…"
-        },
-        {
-          "title": "[アップデート] AWS Secrets Manager コンソールの推奨アクションで何が指摘されるか試してみた",
-          "link": "https://dev.classmethod.jp/articles/secrets-manager-console-recommended-actions/",
-          "source": "DevelopersIO",
-          "published": "2026-10-29T11:28:22",
-          "excerpt": "AWS Secrets Manager のコンソールに推奨アクションが追加されました。暗号化キーとローテーションの設定を変えた色々なシークレットを作り、どんな推奨が表示されるかを検証しました。"
-        },
-        {
-          "title": "不正アクセスによる漏えい人数、半年余りでのべ2億6000万人に　日本人口の2倍超",
-          "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002730/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-29T10:18:19",
-          "excerpt": "個人情報保護委員会によると、2026年4月1日から10月16日までに報告された不正アクセスによる個人情報の漏えい、または漏えいの恐れがある事案について、対象者数は延べ約2億6000万人だったという。…"
+          "title": "コーディング AI の導入を判断する情報セキュリティ担当者のための参考書",
+          "link": "https://zenn.dev/mika_and_coco/books/coding-ai-infosec-guide",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-29T11:40:46",
+          "excerpt": "Claude Code などのコーディング AI に、社内のコードや顧客の資料を読ませてよいか。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！…",
+      "summary": "データ分析の新着が2件。こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！…",
       "articles": [
         {
           "title": "PHP2Shell の影響調査を Amazon Inspector の SBOM エクスポートと Athena で組織横断で検証してみた",
@@ -127,21 +127,21 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-10-29T02:08:58",
           "excerpt": "本日、Amazon OpenSearch Serverless NextGen が時系列コレクションに対応したことを発表します。…"
-        },
-        {
-          "title": "次世代の Amazon OpenSearch サーバーレス向けの時系列コレクションの導入",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-28T18:35:00",
-          "excerpt": "本日、次世代の Amazon OpenSearch Serverless での時系列コレクションのサポートを発表します。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。「ワークフローは 1 秒以内に自動的にトリガーされ、ワー​​クフローが実際に脆弱であれば、攻撃は成功します。」",
+      "summary": "開発ツールの新着が8件。はじめに 私は普段から Claude Code を使って開発しています。リポジトリにあるコードを読んで、既存の実装に沿ったコードを書いてくれるので、とても助かっています。…",
       "articles": [
+        {
+          "title": "【AWS】AI にインフラを把握させるため、手作業で作った環境を CDK 化した",
+          "link": "https://zenn.dev/linkedge/articles/0c14017ab7446c",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-29T12:41:20",
+          "excerpt": "はじめに 私は普段から Claude Code を使って開発しています。リポジトリにあるコードを読んで、既存の実装に沿ったコードを書いてくれるので、とても助かっています。…"
+        },
         {
           "title": "攻撃者は GitHub の問題を 1 時間以内に 61 のパブリック リポジトリに対するサプライ チェーン キャンペーンに変える",
           "link": "https://www.theregister.com/security/2026/10/29/attackers-turn-github-issues-into-supply-chain-campaign-against-61-public-repos-in-less-than-an-hour/5306153",
@@ -157,50 +157,43 @@
           "excerpt": "新しい Pi Zero 3 W と Pi 4 Model A がリポジトリに潜んでいるのが確認される"
         },
         {
-          "title": "月間70億件超のコミットを、GitHubは新しいGitアーキテクチャで支える──Copilot Fusionなど新機能も発表【GitHub Universe 2026】",
-          "link": "https://codezine.jp/article/detail/30168",
-          "source": "CodeZine",
-          "published": "2026-10-29T07:00:00",
-          "excerpt": "2026年10月28日（現地時間）、米サンフランシスコで年次イベント「GitHub Universe 2026」が開幕した。…"
-        },
-        {
-          "title": "GitHub Copilot、GitHub Appによるサーバー間認証をパブリックプレビューで提供開始",
-          "link": "https://codezine.jp/article/detail/30167",
-          "source": "CodeZine",
-          "published": "2026-10-29T07:00:00",
-          "excerpt": "GitHub Copilot、GitHub Appによるサーバー間認証をパブリックプレビューで提供開始"
+          "title": "数日前まで通っていた Amplify のビルドが Repository not found で落ちた",
+          "link": "https://zenn.dev/trust/articles/amplify-repository-not-found-github-outage",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-29T09:07:25",
+          "excerpt": "はじめに 株式会社トラストでエンジニアをやっている黒澤です。2026年10月27日、機能追加の PR を dev ブランチにマージしたところ、Amplify Hosting（Gen2・東京リージョン）のビルドが落ちました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ULAが13日金曜日を標的としてバルカンの重要な発射",
-      "link": "https://www.theregister.com/offbeat/2026/10/29/critical-launch-for-vulcan-as-ula-targets-friday-the-13th/5306243",
-      "source": "The Register（英語）",
-      "published": "2026-10-29T13:15:00",
-      "excerpt": "できればSRBノズルの崩壊なしで"
+      "title": "ElastiCache for Valkey の新機能、耐久性の変更が可能になったので試してみた",
+      "link": "https://dev.classmethod.jp/articles/elasticache-valkey-durability-change/",
+      "source": "DevelopersIO",
+      "published": "2026-10-29T18:30:05",
+      "excerpt": "Amazon ElastiCache for Valkey で、既存クラスターの耐久性を作り直さずに変更できるようになりました。Valkey 9.…"
     },
     {
-      "title": "TechCrunch Founder Summit の 6 日間で誰から学びますか?ステージに上がる創設者と投資家を紹介する",
-      "link": "https://techcrunch.com/2026/10/29/who-will-you-learn-from-in-6-days-at-techcrunch-founder-summit-meet-the-founders-and-investors-taking-the-stage/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-29T13:00:00",
-      "excerpt": "今から6日後の11月4日、TechCrunch Founder Summitでは経験豊富な創業者、投資家、経営者がボストンに集まり、企業を形作った決断、失敗、軸、教訓を共有する。…"
+      "title": "レポート：中国がNVIDIA CEOの近くにスパイを仕掛けたという情報について、トランプ大統領は何もしなかった",
+      "link": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-10-29T18:29:12",
+      "excerpt": "スパイはトランプ大統領と黄氏の関係を悪用し、機密を中国に漏洩したとして告発された。"
     },
     {
-      "title": "Amazon が Alexa をアップデートし、買い物リストや定期購入の管理、配達指示の更新を支援",
-      "link": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-29T13:00:00",
-      "excerpt": "このアップデートにより、Alexa を使用してリストの作成、登録、リストの内容の確認、項目の追加または編集ができるようになります。AI ボットを使用してサブスクリプションを管理することもできます。…"
+      "title": "太陽光発電システムを独自のバックアップに変える",
+      "link": "https://arstechnica.com/science/2026/10/turning-a-solar-power-system-into-its-own-backup/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-10-29T18:02:26",
+      "excerpt": "プラントの設計により、蓄えた太陽熱または燃焼のいずれかで稼働することができます。"
     },
     {
-      "title": "DoorDash、Instacartを買収へ",
-      "link": "https://ir.doordash.com/news/news-details/2026/DoorDash-to-Acquire-Instacart-to-Help-Local-Stores-Win/default.aspx",
+      "title": "私は FL Studio からインスピレーションを得た、無料のクロスプラットフォームのオープンソース DAW である LYNX を構築しています。",
+      "link": "https://github.com/Ka1-S/LYNX-SHARE",
       "source": "Hacker News（英語）",
-      "published": "2026-10-29T12:33:05",
-      "excerpt": "記事の URL: https://ir.doordash.com/news/news-details/2026/DoorDash-to-Acquire-Instacart-to-Help-Local-Stores-Win/default.…"
+      "published": "2026-10-29T18:02:17",
+      "excerpt": "記事の URL: https://github.com/Ka1-S/LYNX-SHARE コメント URL: https://news.ycombinator.com/item?id=50293308 ポイント: 18 コメント数: 9"
     }
   ]
 }
