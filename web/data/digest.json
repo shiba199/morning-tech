@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-10-29T23:26:38",
+  "generated_at": "2026-10-30T02:44:25",
   "window_hours": 24,
-  "total": 163,
+  "total": 191,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。記事の URL: https://labs.ycombinator.com/projects/games/index.html コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が29件。MCPという言葉はあちこちで目にするのに、AWSを使っている自分の環境で、何を作ればAIエージェントが外部のツールにつながるのかが分からない。しくみを押さえずに試していると、動いたとしても、認証や運用の部分で行き詰まる。…",
       "articles": [
         {
-          "title": "Minecraft と Mindustry で AI エージェントの群れを実行しました",
-          "link": "https://labs.ycombinator.com/projects/games/index.html",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-29T21:40:28",
-          "excerpt": "記事の URL: https://labs.ycombinator.com/projects/games/index.html コメント URL: https://news.ycombinator.com/item?…"
+          "title": "MCPという言葉は知っているが、AWSの上でAIエージェントにどう組み込めばいいか分からないエンジニアへ。基礎から実運用を見据えたハンズオンまで追える一冊",
+          "link": "https://qiita.com/yasu1109/items/52ad7ca8bfeaab0ce703",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-30T01:29:19",
+          "excerpt": "MCPという言葉はあちこちで目にするのに、AWSを使っている自分の環境で、何を作ればAIエージェントが外部のツールにつながるのかが分からない。しくみを押さえずに試していると、動いたとしても、認証や運用の部分で行き詰まる。…"
         },
         {
-          "title": "設計時のレビューでは拾えない、バグるAIエージェントに共通する5つの特徴",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/30/news015.html",
-          "source": "@IT",
-          "published": "2026-10-29T20:00:00",
-          "excerpt": "AIエージェントを導入して開発や運用効率を改善したい――。そう思う方は多いでしょう。しかしAIエージェントが暴走して意図しない動作を引き起こす可能性は決して低くありません。…"
+          "title": "AI エージェントに書き込みを任せるとき、境界をどこに置くか ― Kiro CLI で仕組みを作り、1 か月運用した記録",
+          "link": "https://aws.amazon.com/jp/blogs/news/kiro-cli-agent-write-boundaries/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-30T01:04:45",
+          "excerpt": "AI エージェント同士を組み合わせること自体は、いまではさまざまな方法で実現できます。2 つのコーディングエージェントを対話させる方法もあれば、Kiro のように公式の機能で複数のエージェントを段階的に動かす方法もあります。…"
         },
         {
-          "title": "AIエージェントワークフローに人間のチェックをどう組み込むか",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/30/news005.html",
-          "source": "@IT",
-          "published": "2026-10-29T20:00:00",
-          "excerpt": "複数のシステムにまたがるAIエージェントを人間はどこで、いつチェックするのか。各段階に適切なチェックポイントを設け、リスクに応じて人間が関与する仕組みを整えることが重要だ。…"
+          "title": "2026年自分流AIエージェント環境構築の秋 | レスキューナウテックブログのフィード",
+          "link": "https://zenn.dev/rescuenow/articles/49826fc6cc2713",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-30T00:55:31",
+          "excerpt": "はじめにこんにちは、しもちです。最近は自分でコードを書くことがめっきり減り、毎日開いていた VS Code も気づけばしばらく起動していません。長く付き合ってきたエディタとお別れして、少し寂しさを感じる秋です。…"
         },
         {
-          "title": "Show HN: phpClaw – ツール、メモリ、ガードを備えた PHP 用 AI エージェント ランタイム",
-          "link": "https://github.com/phpclaw-php/phpclaw-monorepo",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-29T18:06:22",
-          "excerpt": "記事の URL: https://github.com/phpclaw-php/phpclaw-monorepo コメント URL: https://news.ycombinator.com/item?…"
+          "title": "AIエージェント用サーバーとしてのヘッドレスMac mini運用 - セットアップ編 | KENTEM TechBlog",
+          "link": "https://tech.kentem.jp/entry/2026/10/30/090000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-30T00:00:00",
+          "excerpt": "AIエージェント用サーバーとしてのヘッドレスMac mini運用のセットアップ編です。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が22件。Redditの検索トラフィックは前四半期に「大幅に減少した」。",
+      "summary": "クラウドの新着が19件。RDS DB インスタンスをパブリックサブネットからプライベートサブネットへ移行する時は、シングルAZ構成でも一時的にマルチAZ配置にする必要があるのだ",
       "articles": [
+        {
+          "title": "【Security Hub CSPM修復手順】 [RDS.46] RDS DB インスタンスは、インターネットゲートウェイへのルートを持つパブリックサブネットにデプロイすべきではありません",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-rds-46/",
+          "source": "DevelopersIO",
+          "published": "2026-10-30T02:31:44",
+          "excerpt": "RDS DB インスタンスをパブリックサブネットからプライベートサブネットへ移行する時は、シングルAZ構成でも一時的にマルチAZ配置にする必要があるのだ"
+        },
         {
           "title": "Redditは「ログインのみのエクスペリエンス」に移行しているとCEOは語る",
           "link": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
@@ -64,136 +71,122 @@
           "source": "AWS What's New（英語）",
           "published": "2026-10-29T16:00:00",
           "excerpt": "本日より、 Amazon Aurora PostgreSQL 互換エディション では、量子後 TLS (PQ-TLS) キー交換のサポートが導入され、転送中のデータを暗号化するための量子後暗号化オプションが提供されます。…"
-        },
-        {
-          "title": "【EC2 Instance Connect × SSM】 EC2 に公開鍵を保管しない VS Code Remote - SSH 接続を作ってみた（通常のキーペア方式と比較）",
-          "link": "https://dev.classmethod.jp/articles/ec2-instance-connect-ssm-vscode-remote-ssh/",
-          "source": "DevelopersIO",
-          "published": "2026-10-29T14:40:02",
-          "excerpt": "SSM Session Manager経由でプライベートサブネットのEC2にVS Codeで接続する際、EC2 Instance Connectを使って公開鍵を一時登録する方法を試しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が25件。ミストラル社は、その新しいモデルにより、組織はクローズドモデルでは不可能なサイバー防御の一種の制御が可能になると述べている。",
+      "summary": "セキュリティの新着が27件。RDS DB インスタンスをパブリックサブネットからプライベートサブネットへ移行する時は、シングルAZ構成でも一時的にマルチAZ配置にする必要があるのだ",
       "articles": [
         {
-          "title": "ミストラル、サイバーセキュリティをターゲットとした、兆パラメータの AI モデルの重みをリリース",
-          "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-29T17:00:00",
-          "excerpt": "ミストラル社は、その新しいモデルにより、組織はクローズドモデルでは不可能なサイバー防御の一種の制御が可能になると述べている。"
+          "title": "【Security Hub CSPM修復手順】 [RDS.46] RDS DB インスタンスは、インターネットゲートウェイへのルートを持つパブリックサブネットにデプロイすべきではありません",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-rds-46/",
+          "source": "DevelopersIO",
+          "published": "2026-10-30T02:31:44",
+          "excerpt": "RDS DB インスタンスをパブリックサブネットからプライベートサブネットへ移行する時は、シングルAZ構成でも一時的にマルチAZ配置にする必要があるのだ"
         },
         {
-          "title": "Security Hub CSPM のマルチアカウント管理は「中央設定」 — ローカル設定との違いと最新のベストプラクティスを今更図解で整理",
-          "link": "https://qiita.com/leomarokun/items/f5c67aea681f4e972bb2",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-29T16:29:57",
-          "excerpt": "はじめに Security Hub CSPM を複数アカウントで管理する方法には、「中央設定（推奨）」と「ローカル設定」の 2 種類があります。…"
+          "title": "AL2023 で CVE-2026-98432 のカーネル更新を確認してみた（Linux カーネルの TCP の脆弱性）",
+          "link": "https://dev.classmethod.jp/articles/al2023-cve-2026-98432-kernel-update/",
+          "source": "DevelopersIO",
+          "published": "2026-10-30T02:24:07",
+          "excerpt": "Amazon Linux 2023 の CVE-2026-98432 でカーネルを更新しました。cve.org では CVSS 9.8、Amazon では 7.0 です。kernel6.18 と kernel6.…"
         },
         {
-          "title": "1週間以上メンテだった『神撃のバハムート』、「PHP脆弱性」対応が無事完了。“複数世代にわたる大幅なバージョンアップ”を経て、老舗ゲームが大改修 - AUTOMATON",
-          "link": "https://automaton-media.com/articles/newsjp/20261029-476529/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-29T13:06:34",
-          "excerpt": "1週間以上メンテだった『神撃のバハムート』、「PHP脆弱性」対応が無事完了。…"
+          "title": "ヤクルト本社、個人情報約4万件漏えい　公式サイトへの不正アクセスで",
+          "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002739/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-30T01:27:47",
+          "excerpt": "問い合わせフォームの利用者に加え、栄養士向けに給食レシピなどを紹介する会員制サイト「たのしい給食」会員の情報などが漏えいしたという。"
         },
         {
-          "title": "英国の16歳未満ソーシャルメディア禁止のための年齢確認の最終候補リストが発表、「一部の」成人は認証が必要となる",
-          "link": "https://www.theregister.com/security/2026/10/29/shortlist-of-age-checks-for-the-uks-under-16-social-media-ban-is-out-some-adults-will-need-verifying/5306282",
-          "source": "The Register（英語）",
-          "published": "2026-10-29T12:33:00",
-          "excerpt": "大人の中には証明する必要がない人もいるかもしれないが、多くの人は証明する必要があるだろう"
+          "title": "アイリスオーヤマの通販サイトに不正アクセス　情報漏えいは「調査中」",
+          "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002737/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-30T00:43:10",
+          "excerpt": "現時点の調査では、クレジットカード情報の漏えいは確認していない。その他の情報については引き続き調べる。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！…",
+      "summary": "データ分析の新着が1件。2026 年 10 月 22 日、AWS Continuum for code vulnerabilities […]",
       "articles": [
         {
-          "title": "PHP2Shell の影響調査を Amazon Inspector の SBOM エクスポートと Athena で組織横断で検証してみた",
-          "link": "https://zenn.dev/cscloud_blog/articles/inspector-sbom-php-research",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-29T02:18:02",
-          "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！…"
-        },
-        {
-          "title": "Amazon OpenSearch Serverless NextGen の時系列コレクションのご紹介",
-          "link": "https://aws.amazon.com/jp/blogs/news/introducing-the-next-generation-of-serverless-time-series-for-amazon-opensearch-service/",
+          "title": "AWS Continuum for code vulnerabilities が一般提供を開始しました",
+          "link": "https://aws.amazon.com/jp/blogs/news/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
           "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-29T02:08:58",
-          "excerpt": "本日、Amazon OpenSearch Serverless NextGen が時系列コレクションに対応したことを発表します。…"
+          "published": "2026-10-30T01:55:47",
+          "excerpt": "2026 年 10 月 22 日、AWS Continuum for code vulnerabilities […]"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。GitHub、AIプロトタイピングツール「Replica」をオープンソースで公開",
+      "summary": "開発ツールの新着が11件。RDS DB インスタンスをパブリックサブネットからプライベートサブネットへ移行する時は、シングルAZ構成でも一時的にマルチAZ配置にする必要があるのだ",
       "articles": [
+        {
+          "title": "【Security Hub CSPM修復手順】 [RDS.46] RDS DB インスタンスは、インターネットゲートウェイへのルートを持つパブリックサブネットにデプロイすべきではありません",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-rds-46/",
+          "source": "DevelopersIO",
+          "published": "2026-10-30T02:31:44",
+          "excerpt": "RDS DB インスタンスをパブリックサブネットからプライベートサブネットへ移行する時は、シングルAZ構成でも一時的にマルチAZ配置にする必要があるのだ"
+        },
+        {
+          "title": "AI エージェントに書き込みを任せるとき、境界をどこに置くか ― Kiro CLI で仕組みを作り、1 か月運用した記録",
+          "link": "https://aws.amazon.com/jp/blogs/news/kiro-cli-agent-write-boundaries/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-10-30T01:04:45",
+          "excerpt": "AI エージェント同士を組み合わせること自体は、いまではさまざまな方法で実現できます。2 つのコーディングエージェントを対話させる方法もあれば、Kiro のように公式の機能で複数のエージェントを段階的に動かす方法もあります。…"
+        },
+        {
+          "title": "GitHub、Issueに成果物を添付する「Issue artifacts」をプレビュー公開",
+          "link": "https://codezine.jp/article/detail/30174",
+          "source": "CodeZine",
+          "published": "2026-10-30T01:00:00",
+          "excerpt": "GitHub、Issueに成果物を添付する「Issue artifacts」をプレビュー公開"
+        },
         {
           "title": "GitHub、AIプロトタイピングツール「Replica」をオープンソースで公開",
           "link": "https://codezine.jp/article/detail/30176",
           "source": "CodeZine",
           "published": "2026-10-29T23:00:00",
           "excerpt": "GitHub、AIプロトタイピングツール「Replica」をオープンソースで公開"
-        },
-        {
-          "title": "一般提供されたGitHub Actionsのロックファイルを既存のワークフローに適用する | Alternative Architecture DOJO",
-          "link": "https://aadojo.alterbooth.com/entry/2026/10/29/232942",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-29T14:29:42",
-          "excerpt": "GitHub Actionsのワークフローロックファイルが一般提供されました。…"
-        },
-        {
-          "title": "【AWS】AI にインフラを把握させるため、手作業で作った環境を CDK 化した",
-          "link": "https://zenn.dev/linkedge/articles/0c14017ab7446c",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-29T12:41:20",
-          "excerpt": "はじめに 私は普段から Claude Code を使って開発しています。リポジトリにあるコードを読んで、既存の実装に沿ったコードを書いてくれるので、とても助かっています。…"
-        },
-        {
-          "title": "攻撃者は GitHub の問題を 1 時間以内に 61 のパブリック リポジトリに対するサプライ チェーン キャンペーンに変える",
-          "link": "https://www.theregister.com/security/2026/10/29/attackers-turn-github-issues-into-supply-chain-campaign-against-61-public-repos-in-less-than-an-hour/5306153",
-          "source": "The Register（英語）",
-          "published": "2026-10-29T12:00:00",
-          "excerpt": "「ワークフローは 1 秒以内に自動的にトリガーされ、ワー​​クフローが実際に脆弱であれば、攻撃は成功します。」"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "バイナリ、リポジトリ、その次は？ AI時代に開発者が共有する「成果物」をティム・オライリー氏らが問う",
-      "link": "https://codezine.jp/article/detail/30170",
+      "title": "AWS Weekly Roundup: Amazon Polly の Generative エンジン、Trainium 向け TorchNeuron など (2026 年 10 月 26 日)",
+      "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-10-30T02:42:40",
+      "excerpt": "数週間前、サンパウロにある AWS オフィスで、ブラジルの農業関連ビジネスに携わるビジネス部門と技術部門のリー […]"
+    },
+    {
+      "title": "最大21倍の効率化の衝撃！エンタープライズにAI駆動開発は導入できるか",
+      "link": "https://codezine.jp/article/detail/30175",
       "source": "CodeZine",
-      "published": "2026-10-29T23:00:00",
-      "excerpt": "AIのコーディング支援で、ソフトウェアを作る速さは大きく変わった。その一方で、自分の環境ではうまく動いたスキルやプロンプトを同僚に渡しても、同じようには動かない。そんな経験をした開発者もいるだろう。…"
+      "published": "2026-10-30T02:30:00",
+      "excerpt": "最大21倍の効率化の衝撃！エンタープライズにAI駆動開発は導入できるか"
     },
     {
-      "title": "個人情報、漏れたらまず何する？　ID／PW、クレカ、免許証、メールアドレス、情報別やることまとめ",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/30/news022.html",
-      "source": "@IT",
-      "published": "2026-10-29T22:45:00",
-      "excerpt": "不正アクセス被害が続出する昨今、情報漏えいの被害者になった読者も多いだろう。ではそうなったとき何をすればいいのか。漏えいした情報ごとにやるべきことは違う。IPAが、漏えいした場合の対処法と日頃から気を付けるべきことをまとめた。"
-    },
-    {
-      "title": "ハッカーが数十億ドルの仮想通貨を盗んだ疑いでバイナンスが出金を一時停止",
-      "link": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-29T22:27:23",
-      "excerpt": "木曜日のサイバー攻撃でハッカーが世界最大の仮想通貨取引所バイナンスから数十億ドルの仮想通貨を盗んだとの推定もある。"
-    },
-    {
-      "title": "豚と国家と戦争 紅の豚 (2014)",
-      "link": "https://journal.animationstudies.org/article/id/66/",
+      "title": "Pico CSS はメンテナンスされなくなりました",
+      "link": "https://github.com/picocss/pico/discussions/754",
       "source": "Hacker News（英語）",
-      "published": "2026-10-29T22:26:38",
-      "excerpt": "記事の URL: https://journal.animationstudies.org/article/id/66/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-10-30T01:58:44",
+      "excerpt": "記事の URL: https://github.com/picocss/pico/Discussions/754 コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "仕事での AI の使用について宗教上の免除を受けるために神を信じる必要はない",
+      "link": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-30T01:20:48",
+      "excerpt": "ケンタッキー大学の管理者であるデイビッド・ダーマン氏は最近、職場での AI の使用に対する宗教上の免除を獲得しました。"
     }
   ]
 }
