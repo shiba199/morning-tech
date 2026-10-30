@@ -1,118 +1,118 @@
 {
-  "generated_at": "2026-10-30T09:13:05",
+  "generated_at": "2026-10-30T16:06:15",
   "window_hours": 24,
-  "total": 193,
+  "total": 181,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が29件。Claude Code v2.1.314がリリースされました。今回は119件の変更が入り、特に権限とサンドボックスまわりの改善が目立ちます。…",
+      "summary": "生成AIの新着が29件。記事の URL: https://skypilot.ai/blog/flying-roadster-rl コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
-          "title": "Claude Code v2.1.314 の主要アップデート - 作業ディレクトリ外の書き込み拒否とサンドボックス・フックの適用漏れ修正",
-          "link": "https://dev.classmethod.jp/articles/20261030-cc-updates-v2-1-314/",
+          "title": "RL を使用したトレーニング後の 4B モデルは、GPT-6 アストラよりも 21% 優れた Tesla Roadster の飛行を可能にしました",
+          "link": "https://skypilot.ai/blog/flying-roadster-rl",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-30T15:27:16",
+          "excerpt": "記事の URL: https://skypilot.ai/blog/flying-roadster-rl コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "【書評】 「Amazon Bedrock実践ガイド」を読みながらRAGの精度改善をしてみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-practical-guide-book-review/",
           "source": "DevelopersIO",
-          "published": "2026-10-30T08:53:06",
-          "excerpt": "Claude Code v2.1.314がリリースされました。今回は119件の変更が入り、特に権限とサンドボックスまわりの改善が目立ちます。…"
+          "published": "2026-10-30T14:37:19",
+          "excerpt": "待ちに待った同僚のBedrock実践ガイドが出版されます！おめでとう！ということで書評を書きましたす"
         },
         {
-          "title": "【Claude】 BIツール風のダッシュボードを、Google Drive の Excel を更新するだけで動かしてみた！",
-          "link": "https://dev.classmethod.jp/articles/claude-artifact-dashboard-google-drive-xlsx/",
-          "source": "DevelopersIO",
-          "published": "2026-10-30T08:17:12",
-          "excerpt": "Google DriveのExcelを読み込んで、数値を書き換えると自動的にグラフ・KPI・コメントまで変わるダッシュボードをClaudeで作ってみました。毎月の手作業から解放される仕組みを紹介します。"
+          "title": "DoorDashは、AIエージェントから「数百」の注文しか受けていないと言った",
+          "link": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-30T13:54:25",
+          "excerpt": "DoorDashは、サードパーティのエージェントメーカーと協力することに前向きであると述べた。"
         },
         {
-          "title": "エージェント時代の運用：re:Invent 2026 の AIOps セッション",
-          "link": "https://aws.amazon.com/jp/blogs/news/operating-in-the-agentic-era-aiops-sessions-at-reinvent-2026/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-30T08:00:12",
-          "excerpt": "re:Invent 2026 のクラウド運用トラックから、AI エージェントによるインシデント調査、修復、リリース検証、監査、モダナイゼーションを扱う AIOps セッションをテーマ別に紹介します。…"
-        },
-        {
-          "title": "Gemini Notebook、米国・インドの一部教科書を無料で追加可能に",
-          "link": "https://gihyo.jp/article/2026/10/gemini-notebook-free-textbooks?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-10-30T06:07:00",
-          "excerpt": "Googleは2026年10月29日、AIによる調査・学習支援サービス「Gemini Notebook」（旧NotebookLM）に、数百の教科書を無料で追加できるようになったと発表した。"
+          "title": "Step Functions のワークフローを AgentCore Gateway 経由で AI エージェントのツールにしてみた【コンソールで検証】 | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/agentcore_gateway-stepfunctions-connector",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-30T12:50:44",
+          "excerpt": "はじめに 今回の結論（先に） 実際にチャットで話しかけてみた 背景: なぜ「エージェント × ワークフロー」なのか 構成（概要図） 3 つの層で整理する: 自然言語・MCP ツール・ワークフロー ① ユーザーの言葉（自然言語） ② MCP…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が20件。AWSエミュレータFlociの2.2.0と2.3.0の更新をまとめました。Lambda durable functions、CognitoのTOTP MFA、S3のバケットポリシー評価、EventBridgeの再試行とDLQを2.3.…",
+      "summary": "クラウドの新着が13件。こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、インフラ学習サービス「InfraDojo（インフラ道場）」を運営しています。S3を使い始めると、こんな疑問が出てきます。…",
       "articles": [
         {
-          "title": "2026年10月 Flociアップデートまとめ、Lambda durable functionsとCognitoのMFAが入った",
-          "link": "https://dev.classmethod.jp/articles/floci-2026-10-lambda-durable-functions-cognito-mfa-update/",
-          "source": "DevelopersIO",
-          "published": "2026-10-30T08:29:00",
-          "excerpt": "AWSエミュレータFlociの2.2.0と2.3.0の更新をまとめました。Lambda durable functions、CognitoのTOTP MFA、S3のバケットポリシー評価、EventBridgeの再試行とDLQを2.3.…"
-        },
-        {
-          "title": "RDS Data APIを使ってNAT不要構成にしてみた",
-          "link": "https://qiita.com/j-yasukawa/items/bd3785861c0e0bfc2f7e",
+          "title": "【AWS初心者向け】S3のフォルダとプレフィックスの違いをAWS CLIで確認する",
+          "link": "https://qiita.com/reo_infraengineer/items/5e955795b5909d9883c9",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-30T06:38:34",
-          "excerpt": "はじめに プロダクト開発時に、以下のようなケースで悩んだことがありました。…"
+          "published": "2026-10-30T12:38:35",
+          "excerpt": "こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、インフラ学習サービス「InfraDojo（インフラ道場）」を運営しています。S3を使い始めると、こんな疑問が出てきます。…"
         },
         {
-          "title": "Node.js 26.x系がLTSに移行、コードネームは「Lithium」",
-          "link": "https://codezine.jp/article/detail/30177",
-          "source": "CodeZine",
-          "published": "2026-10-30T05:30:00",
-          "excerpt": "Node.js 26.x系がLTSに移行、コードネームは「Lithium」"
+          "title": "サーバー移行で決済だけ死んだ — GMOイプシロン908と逆引きの罠",
+          "link": "https://zenn.dev/pythona/articles/gmo-epsilon-err908-reverse-dns",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-30T11:58:39",
+          "excerpt": "はじめに 運用中の EC-CUBE サイトを新しいクラウドインスタンスへ移行する作業中、新サーバーで決済確定を押した瞬間にこれが出ました。…"
         },
         {
-          "title": "KDDI における Amazon EKS Auto Mode 商用導入：カスタムコントローラーによる運用課題の解決",
-          "link": "https://aws.amazon.com/jp/blogs/news/202611-kddi-eks-auto-mode-case-study/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-30T04:12:08",
-          "excerpt": "KDDI 株式会社では 2026 年 7 月、通信事業のお客さま向けサービスを支える Amazon EKS のクラスタを、マネージドノードグループから Amazon EKS Auto Mode へ移行しました。…"
+          "title": "LambdaをVPCの中と外の2つに分けるデュアルLambda構成にして学んだこと",
+          "link": "https://qiita.com/shusaku009/items/f63bb5af714800ddbbc0",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-30T11:56:57",
+          "excerpt": "はじめに LINEと連携するWebアプリを作った際に、バックエンドを次の構成にしました。…"
+        },
+        {
+          "title": "Auroraクローンが作れないときのエラー切り分け手順",
+          "link": "https://zenn.dev/techdbblog/articles/techdb-aurora-clone-error-s1",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-30T09:14:25",
+          "excerpt": "Auroraのクローン作成が失敗したとき、原因がソースクラスター側の条件なのか、IAMやKMSの権限なのかは、エラー文だけ見ても判断しづらいです。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が28件。プログラミング言語「PHP」に重大な脆弱（ぜいじゃく）性が見つかった問題で、少なくとも全国31市町村がWebサイトの公開を一時停止・縮小していることが10月30日、分かった。",
+      "summary": "セキュリティの新着が22件。北朝鮮に関連した記録的なハッキングを受け、バイナンスは数十億ドルの凍結を急いでいる。",
       "articles": [
         {
-          "title": "「ITノウハウ持つ人材少なく」　PHP脆弱性問題、31市町村でサイト一時停止継続",
-          "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002766/",
+          "title": "ハッカーがバイナンスから63億ドルを盗む記録的な暗号通貨強盗",
+          "link": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-10-30T13:46:39",
+          "excerpt": "北朝鮮に関連した記録的なハッキングを受け、バイナンスは数十億ドルの凍結を急いでいる。"
+        },
+        {
+          "title": "今後のセキュリティの考え方",
+          "link": "https://zenn.dev/cscloud_blog/articles/a987163efae5d8",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-30T10:30:27",
+          "excerpt": "どうもサイバーセキュリティクラウド 脅威インテリジェンスグループの西川です。…"
+        },
+        {
+          "title": "GitHub、AIモデルを自動選択・連携するCopilot Fusionを一般提供、資料とエージェントの作業をまとめるCopilot Projectsをパブリックプレビューに ——GitHub Universe 2026で自動化・コードレビュー・セキュリティも更新",
+          "link": "https://gihyo.jp/article/2026/10/github-universe-2026?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-10-30T09:30:00",
+          "excerpt": "GitHubは、2026年10月28・29日に開催した「GitHub Universe 2026」にあわせ、自動モデル選択と複数モデルの連携を統合したCopilot Fusionの一般提供を発表した。…"
+        },
+        {
+          "title": "セガのスマホゲーム「チェンクロ」、セキュリティ問題で1?2カ月の長期メンテ　13年続く長寿タイトル",
+          "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002768/",
           "source": "ITmedia NEWS",
-          "published": "2026-10-30T08:38:01",
-          "excerpt": "プログラミング言語「PHP」に重大な脆弱（ぜいじゃく）性が見つかった問題で、少なくとも全国31市町村がWebサイトの公開を一時停止・縮小していることが10月30日、分かった。"
-        },
-        {
-          "title": "もう「CVSSで重大→修正急務」は限界　「即対応」脆弱性を9割減らすGitHub推奨の優先順位付け基準",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/30/news060.html",
-          "source": "@IT",
-          "published": "2026-10-30T08:15:00",
-          "excerpt": "GitHubは自社の「Advisory Database」のデータを基に、2025年のOSSの脆弱性動向に関するレポートを発表した。"
-        },
-        {
-          "title": "【Security Hub修復手順】[NetworkFirewall.9] Network Firewall は削除保護を有効にする必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-networkfirewall-9/",
-          "source": "DevelopersIO",
-          "published": "2026-10-30T08:04:56",
-          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
-        },
-        {
-          "title": "無印良品、「MUJIアプリ」の利用者情報最大約2726万件が不正アクセスにより流出の可能性",
-          "link": "https://internet.watch.impress.co.jp/docs/news/2152666.html",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-30T06:32:44",
-          "excerpt": "無印良品、「MUJIアプリ」の利用者情報最大約2726万件が不正アクセスにより流出の可能性"
+          "published": "2026-10-30T09:00:59",
+          "excerpt": "セガが運営するスマホRPG「チェインクロニクル」で、10月23日から緊急メンテナンスが続いている。同社は30日、一部システムでセキュリティ上の問題を確認したため、少なくとも1?2カ月、メンテナンスが続く見通しだと発表した。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。Google DriveのExcelを読み込んで、数値を書き換えると自動的にグラフ・KPI・コメントまで変わるダッシュボードをClaudeで作ってみました。毎月の手作業から解放される仕組みを紹介します。",
+      "summary": "データ分析の新着が6件。Google DriveのExcelを読み込んで、数値を書き換えると自動的にグラフ・KPI・コメントまで変わるダッシュボードをClaudeで作ってみました。毎月の手作業から解放される仕組みを紹介します。",
       "articles": [
         {
           "title": "【Claude】 BIツール風のダッシュボードを、Google Drive の Excel を更新するだけで動かしてみた！",
@@ -122,11 +122,18 @@
           "excerpt": "Google DriveのExcelを読み込んで、数値を書き換えると自動的にグラフ・KPI・コメントまで変わるダッシュボードをClaudeで作ってみました。毎月の手作業から解放される仕組みを紹介します。"
         },
         {
-          "title": "'Elite North Korean hackers' blamed for $6.3B Binance hack",
+          "title": "AWS Glue データカタログが米国西部 (北カリフォルニア) リージョンで Apache Iceberg テーブルの最適化をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-10-30T08:00:00",
+          "excerpt": "AWS Glue データ カタログは、米国西部 (北カリフォルニア) リージョンの Apache Iceberg テーブルの自動テーブル最適化をサポートするようになりました。…"
+        },
+        {
+          "title": "63億ドルのバイナンスハッキングで「北朝鮮のエリートハッカー」が非難される",
           "link": "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates",
           "source": "Hacker News（英語）",
           "published": "2026-10-30T07:41:13",
-          "excerpt": "Article URL: https://www.theguardian.…"
+          "excerpt": "記事の URL: https://www.theguardian.…"
         },
         {
           "title": "Apache IcebergとSnowflakeを用いた本番向けデータレイクハウス構築ハンズオンガイド",
@@ -134,80 +141,73 @@
           "source": "Qiita AWSタグ",
           "published": "2026-10-30T07:12:09",
           "excerpt": "Apache IcebergとSnowflakeを用いた本番向けデータレイクハウス構築ハンズオンガイド はじめに こんにちは、NKKTech Global 技術チームです。…"
-        },
-        {
-          "title": "AWS Continuum for code vulnerabilities が一般提供を開始しました",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-30T01:55:47",
-          "excerpt": "2026 年 10 月 22 日、AWS Continuum for code vulnerabilities […]"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が14件。GitHubは自社の「Advisory Database」のデータを基に、2025年のOSSの脆弱性動向に関するレポートを発表した。",
+      "summary": "開発ツールの新着が14件。Kiro アプリケーションには IDE、CLI、Crew という 3 つの異なるアプリケーションがあるため、どれを使用すればよいかを判断するのが難しい場合があります。…",
       "articles": [
+        {
+          "title": "[キロ]キロIDE? CLI?クルー？自分のスタイルに合わせてアプリを選ぶ",
+          "link": "https://dev.classmethod.jp/articles/kiro-product-compare/",
+          "source": "DevelopersIO",
+          "published": "2026-10-30T16:00:00",
+          "excerpt": "Kiro アプリケーションには IDE、CLI、Crew という 3 つの異なるアプリケーションがあるため、どれを使用すればよいかを判断するのが難しい場合があります。…"
+        },
+        {
+          "title": "【AWS初心者向け】S3のフォルダとプレフィックスの違いをAWS CLIで確認する",
+          "link": "https://qiita.com/reo_infraengineer/items/5e955795b5909d9883c9",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-30T12:38:35",
+          "excerpt": "こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、インフラ学習サービス「InfraDojo（インフラ道場）」を運営しています。S3を使い始めると、こんな疑問が出てきます。…"
+        },
+        {
+          "title": "GitHub、AIモデルを自動選択・連携するCopilot Fusionを一般提供、資料とエージェントの作業をまとめるCopilot Projectsをパブリックプレビューに ——GitHub Universe 2026で自動化・コードレビュー・セキュリティも更新",
+          "link": "https://gihyo.jp/article/2026/10/github-universe-2026?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-10-30T09:30:00",
+          "excerpt": "GitHubは、2026年10月28・29日に開催した「GitHub Universe 2026」にあわせ、自動モデル選択と複数モデルの連携を統合したCopilot Fusionの一般提供を発表した。…"
+        },
         {
           "title": "もう「CVSSで重大→修正急務」は限界　「即対応」脆弱性を9割減らすGitHub推奨の優先順位付け基準",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/30/news060.html",
           "source": "@IT",
           "published": "2026-10-30T08:15:00",
           "excerpt": "GitHubは自社の「Advisory Database」のデータを基に、2025年のOSSの脆弱性動向に関するレポートを発表した。"
-        },
-        {
-          "title": "「AIは物語を書かない。あなたが書く」AI slopに向き合うGitHubが示した、メンテナーを守る機能と人間の役割【GitHub Universe 2026】",
-          "link": "https://codezine.jp/article/detail/30183",
-          "source": "CodeZine",
-          "published": "2026-10-30T07:00:00",
-          "excerpt": "ずっと作りたかったアプリを、時間やスキルがなくても作れるようになった。その速さは、メンテナーを埋める質の低いPR（slop）も生んでいる。…"
-        },
-        {
-          "title": "GitHub、PR数制限にアカウント経過日数やマージ実績による除外ルールを追加",
-          "link": "https://codezine.jp/article/detail/30172",
-          "source": "CodeZine",
-          "published": "2026-10-30T07:00:00",
-          "excerpt": "GitHub、PR数制限にアカウント経過日数やマージ実績による除外ルールを追加"
-        },
-        {
-          "title": "第22回 Terraform講座｜Outputsで「作ったリソースの必要な情報」を取り出す",
-          "link": "https://qiita.com/nyarusasu22/items/6b183518af3688d4d282",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-30T06:55:47",
-          "excerpt": "Terraformの学習も、少しずつ「AWSリソースを作る」だけではなくなってきました。前回は Variables を学びました。Variablesでは、 «Terraformの外から設定値を渡す» という考え方を学びました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【Amazon Connect】顧客情報 CSV を Customer Profiles に登録してみた",
-      "link": "https://dev.classmethod.jp/articles/amazon-connect-customer-profiles-csv-s3/",
+      "title": "セラノスの内部告発者タイラー・シュルツ氏、AIブームは「人々を騙す絶好のチャンス」だと警告",
+      "link": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-30T16:03:45",
+      "excerpt": "警告を発するセラノスの物語は、これまで一度も利益を上げたことのない企業が数兆ドルの評価額で資本を調達しているAI時代において、新たな重要性を帯びている。"
+    },
+    {
+      "title": "CloudflareのWaiting RoomでHTTPヘッダを参照するバイパスルールをダッシュボードから作成してみた",
+      "link": "https://dev.classmethod.jp/articles/cloudflare-waiting-room-http-request-headers-bypass-rule/",
       "source": "DevelopersIO",
-      "published": "2026-10-30T09:00:48",
-      "excerpt": "Amazon Connect Customer Profiles に顧客情報を登録する手順を紹介します。CSV ファイルから簡単にデータを取り込み、エージェントワークスペースで顧客情報を活用する方法をまとめました。"
+      "published": "2026-10-30T15:54:46",
+      "excerpt": "CloudflareのWaiting Roomで、あるHTTPリクエストヘッダが特定の値の場合に待合室をバイパスするルールを作成してみました。…"
     },
     {
-      "title": "総務省、GMO攻撃者サイトの「ブロッキング」を通信各社に要請　報道",
-      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002765/",
-      "source": "ITmedia NEWS",
-      "published": "2026-10-30T08:13:12",
-      "excerpt": "総務省が10月27日付で、GMOインターネットへの不正アクセス問題を巡り、攻撃者のものとみられるWebサイトの「ブロッキング」を通信事業者に要請していたことが、朝日新聞や読売新聞などの報道で分かった。"
+      "title": "ガイストセリフ",
+      "link": "https://vercel.com/blog/introducing-geist-serif",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-30T15:46:42",
+      "excerpt": "記事の URL: https://vercel.com/blog/introducing-geist-serif コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "こんな勉強法はNG！～基本情報技術者試験ギリギリ合格体験記～ | 分析屋",
-      "link": "https://note.com/bunsekiya_tech/n/ncb0b638bcf78",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-30T08:00:00",
-      "excerpt": "こんにちは。SAC部の東口です。この度、基本情報技術者試験に合格点スレスレで合格しました。合格こそしたものの、振り返ってみれば効率の良くない勉強法をしてしまいました...反面教師の勉強法として参考にしていただければと思います(笑)。…"
-    },
-    {
-      "title": "Jev の社内勉強会をした | LIVESENSE ENGINEER BLOG",
-      "link": "https://made.livesense.co.jp/entry/2026/10/30/170000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-30T08:00:00",
-      "excerpt": "「人の噂も七十五日」とはよく言ったもので、一世を風靡した Jev の話題も少し落ち着いてきました。データソース: Google トレンド（https://www.google.…"
+      "title": "SnowflakeのExternal Volumeで設定するExternal IDの意味を整理してみる",
+      "link": "https://zenn.dev/penginpenguin/articles/b7286a9ee3e48b",
+      "source": "Zenn AWSトピック",
+      "published": "2026-10-30T15:36:25",
+      "excerpt": "はじめに AWS Community Builderのぺんぎん（@jitepengin）です。以前の記事で、S3上のIcebergテーブルとSnowflakeを連携する方法を紹介しました。https://zenn.…"
     }
   ]
 }
