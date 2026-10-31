@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-10-31T11:49:45",
+  "generated_at": "2026-10-31T16:27:46",
   "window_hours": 24,
-  "total": 132,
+  "total": 123,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が27件。記事の URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が25件。OpenAIの最新の資金調達ラウンドは期待に応えていないようだ。",
       "articles": [
+        {
+          "title": "OpenAI、新たなラウンドの資金調達目標を引き下げたと報じられている",
+          "link": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-10-31T16:12:55",
+          "excerpt": "OpenAIの最新の資金調達ラウンドは期待に応えていないようだ。"
+        },
+        {
+          "title": "マルウェアは LLM を使用して、被害者の価値に基づいて被害者をランク付けします",
+          "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-31T14:29:03",
+          "excerpt": "記事の URL: https://blog.talosintelligence.…"
+        },
         {
           "title": "ChatGPT アカウントを引き継ぎました",
           "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
@@ -22,63 +36,56 @@
           "source": "DevelopersIO",
           "published": "2026-10-31T09:53:16",
           "excerpt": "Claude Code v2.1.316 がリリースされました。サブエージェントの effort を環境変数で指定できるようになり、セキュリティ関連の修正も多数含まれています。…"
-        },
-        {
-          "title": "CORTEX_USER ・CORTEX_AGENT_USERデータベースロールによるCoCo in Snowsightの表示制御を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/display-control-coco-in-snowsight-with-cortex_user-cortex_agent_user/",
-          "source": "DevelopersIO",
-          "published": "2026-10-31T09:29:04",
-          "excerpt": "Snowflake CoCo in Snowsightの利用制御向けのロールが変更されるため、新しい方法と、一部ユーザーのみに表示させる具体的な実装方法を確認してみました。"
-        },
-        {
-          "title": "OpenAIの「GPT-6.1 Terra」、Amazon Bedrockで一般提供開始",
-          "link": "https://codezine.jp/article/detail/30188",
-          "source": "CodeZine",
-          "published": "2026-10-31T04:00:00",
-          "excerpt": "OpenAIの「GPT-6.1 Terra」、Amazon Bedrockで一般提供開始"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。Aurora PostgreSQL 18 でポスト量子 TLS が利用可能になりました。クラスタパラメータ `ssl_groups` の設定方法を Terraform で試しましたので、その結果をお伝えします。",
+      "summary": "クラウドの新着が17件。Amazon Redshift Serverlessの自動クロスリージョンバックアップ機能を東京から大阪へのコピーで試してみました。…",
       "articles": [
         {
-          "title": "Terraform で Aurora PostgreSQL のポスト量子 TLS 鍵交換を設定できるか検証してみた",
-          "link": "https://dev.classmethod.jp/articles/aurora-postgresql-pq-tls-terraform/",
+          "title": "[アップデート] Amazon Redshift の自動クロスリージョンバックアップを Redshift Serverless で試してみた",
+          "link": "https://dev.classmethod.jp/articles/20261031-amazon-redshift-automated-cross-region-backups/",
           "source": "DevelopersIO",
-          "published": "2026-10-31T10:14:29",
-          "excerpt": "Aurora PostgreSQL 18 でポスト量子 TLS が利用可能になりました。クラスタパラメータ `ssl_groups` の設定方法を Terraform で試しましたので、その結果をお伝えします。"
+          "published": "2026-10-31T15:09:47",
+          "excerpt": "Amazon Redshift Serverlessの自動クロスリージョンバックアップ機能を東京から大阪へのコピーで試してみました。…"
         },
         {
-          "title": "Aurora PostgreSQLとRDSの違いはストレージ層とレプリカ構造にある",
-          "link": "https://qiita.com/techdbblog/items/37915d7e89fd97310dae",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-31T08:30:44",
-          "excerpt": "RDS for PostgreSQLで時間をかけてmax_wal_sizeやチェックポイント周りを詰めた設定を、そのままAurora PostgreSQLへ持ち込んでも期待した効果が出ません。…"
+          "title": "Amazon CloudFront の CloudFront-Viewer-ISP と CloudFront-Viewer-TLS-Details をオリジンで受け取ってみた",
+          "link": "https://dev.classmethod.jp/articles/cloudfront-viewer-isp-tls-details/",
+          "source": "DevelopersIO",
+          "published": "2026-10-31T15:00:11",
+          "excerpt": "Amazon CloudFront の CloudFront-Viewer-ISP と CloudFront-Viewer-TLS-Details ヘッダーを、オリジンで受け取って確認しました。…"
         },
         {
-          "title": "AWS閉鎖網+Snowflake 内部ステージ→AWS S3への道のり",
-          "link": "https://qiita.com/Cache-Hit/items/90bf72f3dea9cba81dff",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-31T08:00:13",
-          "excerpt": "前提構築 今回行いたい条件は下記。①Snowflkeのバックアップとして外部S3に保存したい。②外部ステージは利用したくない ③AWS EC2に落としたのち、S3に送る。まずは…"
+          "title": "【登壇レポート】DevelopersIO 2026 Tokyo に「コンテナサービスは ECS だけじゃない！Google Cloud の Cloud Runの魅力」というタイトルで登壇しました  #devio2026",
+          "link": "https://dev.classmethod.jp/articles/devio2026-tokyo-cloud-run/",
+          "source": "DevelopersIO",
+          "published": "2026-10-31T14:59:20",
+          "excerpt": "ECS をメインで扱う人に Google Cloud の Cloud Run の魅力を知ってもらいたくて、ECS と比較した Cloud Run の魅力をテーマに発表しました"
         },
         {
-          "title": "EC2のRIは「台数」じゃなくて「ポイント」で数えるらしい",
-          "link": "https://qiita.com/jin_0802/items/17165712ebbb41c63b21",
+          "title": "EC2ユーザデータの存在意義を体感した",
+          "link": "https://qiita.com/sasachan/items/bb07cca8d3e061f4c45e",
           "source": "Qiita AWSタグ",
-          "published": "2026-10-31T03:34:16",
-          "excerpt": "最近、EC2に「正規化係数」というものがあると知りました。きっかけは、RI（リザーブドインスタンス）の購入を調べていたときです。m5.…"
+          "published": "2026-10-31T14:58:37",
+          "excerpt": "はじめに RHEL10のEC2を使って○○を検証してほしいと言われたので、いつものようにインスタンスを起動してSession Managerで接続しようとしました。ところが、接続できません。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。Microsoftは、予防可能な攻撃が多くの被害を生んでいる現状を踏まえ、サイバー攻撃対策として優先すべき4つの戦略を公開した。",
+      "summary": "セキュリティの新着が11件。記事の URL: https://blog.talosintelligence.…",
       "articles": [
+        {
+          "title": "マルウェアは LLM を使用して、被害者の価値に基づいて被害者をランク付けします",
+          "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-31T14:29:03",
+          "excerpt": "記事の URL: https://blog.talosintelligence.…"
+        },
         {
           "title": "「基本を忘れてはならない」　優先すべき4つのセキュリティ戦略をMicrosoftが提言",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/31/news014.html",
@@ -99,21 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-10-31T05:06:39",
           "excerpt": "AWSセキュリティを基礎から積み上げていき、どうやってAWSのセキュリティサービスに任せつつ運用していくのか、という話をしました。一朝一夕ではうまくいきませんが、現在地を把握して進んでいきましょう！"
-        },
-        {
-          "title": "Spec it safe：セキュリティ要件で仕様をハードニングし、シフトレフトを実現する",
-          "link": "https://aws.amazon.com/jp/blogs/news/spec-it-safe/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-10-31T02:33:02",
-          "excerpt": "spec 駆動開発 (SDD) は、大規模なチームのソフトウェア開発のやり方を変えつつあります。プロンプトだけに頼るのではなく spec を書き、それに沿って AI コーディングエージェントに設計、タスク、実装を進めさせます。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。Binanceから約60億ドルの暗号資産が流出した事件で、TRM LabsとChainalysisは北朝鮮のサイバー集団「TraderTraitor」の関与を指摘した。…",
+      "summary": "データ分析の新着が3件。Amazon Redshift Serverlessの自動クロスリージョンバックアップ機能を東京から大阪へのコピーで試してみました。…",
       "articles": [
+        {
+          "title": "[アップデート] Amazon Redshift の自動クロスリージョンバックアップを Redshift Serverless で試してみた",
+          "link": "https://dev.classmethod.jp/articles/20261031-amazon-redshift-automated-cross-region-backups/",
+          "source": "DevelopersIO",
+          "published": "2026-10-31T15:09:47",
+          "excerpt": "Amazon Redshift Serverlessの自動クロスリージョンバックアップ機能を東京から大阪へのコピーで試してみました。…"
+        },
         {
           "title": "Binanceの約1兆円流出、北朝鮮ハッカー集団「TraderTraitor」の犯行か",
           "link": "https://www.itmedia.co.jp/news/article/2610/31/2000002775/",
@@ -133,8 +140,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。Terraform 1.17 で追加された `-minimal-refresh` オプションを実際に試してみました。3 階層構成で refresh 回数がどれだけ削減され、plan 時間が短くなるかを検証した結果をお伝えします。",
+      "summary": "開発ツールの新着が8件。はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。第3回では、Terraform StateをS3のリモートバックエンドで管理しました。…",
       "articles": [
+        {
+          "title": "Terraform入門 第4回：モジュールでTerraform設定を再利用する",
+          "link": "https://qiita.com/k0ga/items/7d2e4cd2936c4de59057",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-31T14:21:08",
+          "excerpt": "はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。第3回では、Terraform StateをS3のリモートバックエンドで管理しました。…"
+        },
         {
           "title": "Terraform の -minimal-refresh で plan 時間を短縮できるか検証してみた",
           "link": "https://dev.classmethod.jp/articles/terraform-minimal-refresh/",
@@ -155,45 +169,38 @@
           "source": "DevelopersIO",
           "published": "2026-10-31T10:14:29",
           "excerpt": "Aurora PostgreSQL 18 でポスト量子 TLS が利用可能になりました。クラスタパラメータ `ssl_groups` の設定方法を Terraform で試しましたので、その結果をお伝えします。"
-        },
-        {
-          "title": "GitHub Enterprise、全ライセンスユーザーがGitHub Copilotを利用可能に",
-          "link": "https://codezine.jp/article/detail/30191",
-          "source": "CodeZine",
-          "published": "2026-10-31T08:00:00",
-          "excerpt": "GitHub Enterprise、全ライセンスユーザーがGitHub Copilotを利用可能に"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "光る物体症候群",
-      "link": "https://en.wikipedia.org/wiki/Shiny_object_syndrome",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-31T11:02:14",
-      "excerpt": "記事の URL: https://en.wikipedia.org/wiki/Shiny_object_syndrome コメント URL: https://news.ycombinator.com/item?…"
+      "title": "レストランガイドから支払いまで、TikTokがスーパーアプリを構築する方法を紹介します",
+      "link": "https://techcrunch.com/2026/10/31/tiktoks-road-to-becoming-a-super-app/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-31T15:41:57",
+      "excerpt": "TikTokは、人々がデジタル活動のほとんどに使用するアプリになるよう取り組んでいるのかもしれない。"
     },
     {
-      "title": "アマゾン、AI利用に関するさまざまなメッセージメモで従業員に悪寒を与える",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/31/amazon-sends-chills-through-its-workforce-with-mixed-message-memo-about-ai-use-corey-quinn/5306804",
+      "title": "GoogleのAI衛星が非常に高価な俳句を地球に送信",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/31/googles-ai-satellite-sends-a-very-expensive-haiku-to-earth/5306818",
       "source": "The Register（英語）",
-      "published": "2026-10-31T11:00:00",
-      "excerpt": "多くのソフトウェア エンジニアはこの職業の将来について暗い気持ちを抱いています"
+      "published": "2026-10-31T15:36:14",
+      "excerpt": "実験用軌道データセンターのプロトタイプで TPU を稼働させて詩を生成"
     },
     {
-      "title": "【AWS】AWS Certified Generative AI Developer - Professional (AIP-C01) に合格したので所感を綴る | APC 技術ブログ",
-      "link": "https://techblog.ap-com.co.jp/entry/2026/10/31/193000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-31T10:30:00",
-      "excerpt": "目次 目次 はじめに 関連記事 試験について 点数 勉強期間 教材 試験の感想 お知らせ はじめに こんにちは、クラウド事業部の坂口です。…"
+      "title": "AWS試験を初めて英語で受けて分かったこと",
+      "link": "https://qiita.com/kenken38/items/bd9ac1951e42b4fb8aa7",
+      "source": "Qiita AWSタグ",
+      "published": "2026-10-31T15:23:04",
+      "excerpt": "この記事は、私のような英語に自信がない人に向けて書いています。私はAWSの新試験 AI Business Strategist（AIB-C01） を初めて英語で受けて、合格しました。…"
     },
     {
-      "title": "Molly(Signal fork) は 3 か月間更新されておらず、脆弱です",
-      "link": "https://piefed.world/post/1503394",
+      "title": "元メタ研究者が海賊版書籍をトレント、「訴訟のため」削除",
+      "link": "https://torrentfreak.com/ex-meta-researcher-torrented-pirated-books-dataset-deleted-it-due-to-all-this-litigation/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-31T10:23:41",
-      "excerpt": "記事の URL: https://piefed.world/post/1503394 コメント URL: https://news.ycombinator.com/item?id=50314666 ポイント: 14 コメント数: 1"
+      "published": "2026-10-31T14:57:33",
+      "excerpt": "記事の URL: https://torrentfreak.…"
     }
   ]
 }
