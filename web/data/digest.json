@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-10-30T20:56:25",
+  "generated_at": "2026-10-31T00:15:19",
   "window_hours": 24,
-  "total": 171,
+  "total": 165,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が31件。このデモでは、通常のアテンションを表現するだけの、約 25 行の SQL を含む FlashAttendant カーネルを自動的に推定します。これは、私たちが構築している 3 つの移植可能な SQL 拡張機能によって可能になります。…",
+      "summary": "生成AIの新着が30件。OpenAIが80万件超のメッセージを分析し、ChatGPTの利用実態を明らかにした。「以前は誰かに頼んでいた仕事を、AIで自分でこなす」――この動きが最も強い職種とは。AI依存の最新研究と合わせて紹介する。",
       "articles": [
         {
-          "title": "Show HN: 約 25 行の SQL からの FlashAttendant カーネルの自動推論",
-          "link": "https://github.com/xqlsystems/xarray-sql/blob/6debe2495dcb4e8fac20ab97df5b89baae2a31a6/benchmarks/ml/01_attention.py",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-30T20:09:47",
-          "excerpt": "このデモでは、通常のアテンションを表現するだけの、約 25 行の SQL を含む FlashAttendant カーネルを自動的に推定します。これは、私たちが構築している 3 つの移植可能な SQL 拡張機能によって可能になります。…"
+          "title": "ChatGPTは「誰のどんな仕事」に使われているのか　OpenAIが80万件超のログを解析",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2610/31/news012.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-10-30T23:00:00",
+          "excerpt": "OpenAIが80万件超のメッセージを分析し、ChatGPTの利用実態を明らかにした。「以前は誰かに頼んでいた仕事を、AIで自分でこなす」――この動きが最も強い職種とは。AI依存の最新研究と合わせて紹介する。"
         },
         {
-          "title": "OpenAI の Daybreak Red が、AWS GovCloud (米国東部) の Amazon Bedrock で対象顧客に利用可能になりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-daybreak-red-govcloud-east/",
+          "title": "AIエージェントは「実運用」が主流に　「明確な成果」を得る企業の共通点は？",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2610/31/news008.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-10-30T22:00:00",
+          "excerpt": "生成AIの活用は「試す」段階から「使い広げる」段階へ移り、AIエージェントも実運用が主流になった。一方で、企業規模による差は広がっている。INDUSTRIAL-Xの調査が示す、成果を分ける“技術以外の要因”とは。"
+        },
+        {
+          "title": "Cursor の Anthropic VS コード拡張が 12 時間近くにわたってバックドア化された",
+          "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-10-30T21:09:54",
+          "excerpt": "攻撃者がどのようにして Anthropic の検証済み Cursor アカウントにアクセスしたのかはまだ不明です。"
+        },
+        {
+          "title": "Amazon Bedrock が API サポートを拡張し、AWS GovCloud (米国) で OpenAI モデルのクロスリージョン推論を導入",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
           "source": "AWS What's New（英語）",
-          "published": "2026-10-30T18:20:00",
-          "excerpt": "セキュリティ チームには、脆弱性を発見し、エクスプロイトをテストし、防御を構築するための強力なツールが必要です。…"
-        },
-        {
-          "title": "Zest の新しい AI エージェントはテキスト経由でレストランを見つけて予約します",
-          "link": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-30T17:47:12",
-          "excerpt": "どこで食事をするかについて意見が一致しない場合は、 Zest の AI コンシェルジュは、全員の好みを組み合わせてレストランの選択肢を投票し、予約を行うことができます。"
-        },
-        {
-          "title": "【AgentCore】時刻を決めてハンズオン環境をお掃除する仕組みを用意してみた",
-          "link": "https://qiita.com/ryu-ki/items/b28dca1867058156de46",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-30T17:42:21",
-          "excerpt": "はじめに 社内勉強会向けに、Amazon Bedrock AgentCore のハンズオン環境を Terraform で作っています。ベタではありますが、受講者1人に1台の EC2 を人数分立てて、ALB で受講者ごとに振り分けています。…"
+          "published": "2026-10-30T20:43:00",
+          "excerpt": "Amazon Bedrock は、AWS GovCloud (米国) の Responses、Converse、Chat Completions API のサポートとともに、Bedrock ランタイム エンドポイントで OpenAI GPT…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。はじめに Kiro Workflows が登場して、Kiro で並列開発がしやすくなり、前回ブログでも紹介させていただきました。…",
+      "summary": "クラウドの新着が15件。＠ITで公開された記事の中で、特に注目を集めた10本をランキング形式で紹介します。読者の関心はどこにあるのでしょうか。",
       "articles": [
+        {
+          "title": "「ニトリがオンプレ脱却」「旧マルハニチロは販売計画を自動化」　インフラ刷新、AIと自動化のリアル",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/31/news004.html",
+          "source": "@IT",
+          "published": "2026-10-30T23:00:00",
+          "excerpt": "＠ITで公開された記事の中で、特に注目を集めた10本をランキング形式で紹介します。読者の関心はどこにあるのでしょうか。"
+        },
+        {
+          "title": "企業がAIデータセンターへの電力供給に移行する中、超音速旅客機の運航が危ぶまれる",
+          "link": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-10-30T21:41:54",
+          "excerpt": "ブームの旅客機は遅れる可能性があり、データセンターの電力事業は顧客を失った。"
+        },
         {
           "title": "AWS Lambda MicroVMs 上で Kiro CLI を走らせて、成果物を S3 で受け取るまでの PoC を作る。",
           "link": "https://qiita.com/s_moriyama/items/93e576438ce10704cf05",
@@ -52,33 +66,33 @@
           "excerpt": "はじめに Kiro Workflows が登場して、Kiro で並列開発がしやすくなり、前回ブログでも紹介させていただきました。…"
         },
         {
-          "title": "Amazon RDS for Oracle では、JVM、空間、ロケーター、OLAP オプションの自動マイナー バージョン アップグレードが不要になりました。",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-jvm-spatial-locator-olap-options-amvu-optional/",
+          "title": "Amazon CloudFront がビューア ISP とポスト量子 TLS の詳細を提供するようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-viewer-isp-post-quantum-visbility/",
           "source": "AWS What's New（英語）",
-          "published": "2026-10-30T17:00:00",
-          "excerpt": "Amazon Relational Database Service (Amazon RDS) for Oracle では、JVM、Spatial、Locator、または OLAP オプションを使用する新規および既存の DB インスタンスの…"
-        },
-        {
-          "title": "【AWS初心者向け】S3のフォルダとプレフィックスの違いをAWS CLIで確認する",
-          "link": "https://qiita.com/reo_infraengineer/items/5e955795b5909d9883c9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-30T12:38:35",
-          "excerpt": "こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、インフラ学習サービス「InfraDojo（インフラ道場）」を運営しています。S3を使い始めると、こんな疑問が出てきます。…"
-        },
-        {
-          "title": "サーバー移行で決済だけ死んだ — GMOイプシロン908と逆引きの罠",
-          "link": "https://zenn.dev/pythona/articles/gmo-epsilon-err908-reverse-dns",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-30T11:58:39",
-          "excerpt": "はじめに 運用中の EC-CUBE サイトを新しいクラウドインスタンスへ移行する作業中、新サーバーで決済確定を押した瞬間にこれが出ました。…"
+          "published": "2026-10-30T18:15:00",
+          "excerpt": "Amazon CloudFront は、2 つの新しいオプションのヘッダーをオリジンに転送できるようになりました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が22件。はじめに AWSを利用する際、これまではIAMユーザーを作成し、アクセスキーやシークレットアクセスキーを使ってAWSにアクセスする方法が一般的だと思っていました。…",
+      "summary": "セキュリティの新着が22件。GMOインターネットのVPSサービスへの不正アクセスは、顧客情報の漏えいだけでなく、攻撃者による情報公開、企業の対抗措置、SNSでの真偽不明情報の拡散を招いた。攻撃者が仕掛ける「劇場型」の情報戦に、企業も報道も巻き込まれていないか。…",
       "articles": [
+        {
+          "title": "GMO不正アクセスで“SNSをやめたくなった”　攻撃者の仕掛ける情報戦に企業と報道はどう向き合うべきか？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/31/news003.html",
+          "source": "@IT",
+          "published": "2026-10-30T22:15:00",
+          "excerpt": "GMOインターネットのVPSサービスへの不正アクセスは、顧客情報の漏えいだけでなく、攻撃者による情報公開、企業の対抗措置、SNSでの真偽不明情報の拡散を招いた。攻撃者が仕掛ける「劇場型」の情報戦に、企業も報道も巻き込まれていないか。…"
+        },
+        {
+          "title": "Linode セキュリティ インシデント",
+          "link": "https://status.linode.com/incidents/nt58zhx3pmgm",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-30T21:57:40",
+          "excerpt": "記事の URL: https://status.linode.com/incidents/nt58zhx3pmgm コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "【初心者向け】AWS IAM Identity Centerとは？IAMユーザーとの違いを整理してみた",
           "link": "https://qiita.com/shiida-tech/items/91c9aa2e7df26dcc23c8",
@@ -92,28 +106,21 @@
           "source": "Ars Technica（英語）",
           "published": "2026-10-30T13:46:39",
           "excerpt": "北朝鮮に関連した記録的なハッキングを受け、バイナンスは数十億ドルの凍結を急いでいる。"
-        },
-        {
-          "title": "今後のセキュリティの考え方",
-          "link": "https://zenn.dev/cscloud_blog/articles/a987163efae5d8",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-30T10:30:27",
-          "excerpt": "どうもサイバーセキュリティクラウド 脅威インテリジェンスグループの西川です。…"
-        },
-        {
-          "title": "GitHub、AIモデルを自動選択・連携するCopilot Fusionを一般提供、資料とエージェントの作業をまとめるCopilot Projectsをパブリックプレビューに ——GitHub Universe 2026で自動化・コードレビュー・セキュリティも更新",
-          "link": "https://gihyo.jp/article/2026/10/github-universe-2026?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-10-30T09:30:00",
-          "excerpt": "GitHubは、2026年10月28・29日に開催した「GitHub Universe 2026」にあわせ、自動モデル選択と複数モデルの連携を統合したCopilot Fusionの一般提供を発表した。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。Google DriveのExcelを読み込んで、数値を書き換えると自動的にグラフ・KPI・コメントまで変わるダッシュボードをClaudeで作ってみました。毎月の手作業から解放される仕組みを紹介します。",
+      "summary": "データ分析の新着が6件。Binanceから約60億ドルの暗号資産が流出した事件で、TRM LabsとChainalysisは北朝鮮のサイバー集団「TraderTraitor」の関与を指摘した。…",
       "articles": [
+        {
+          "title": "Binanceの約1兆円流出、北朝鮮ハッカー集団「TraderTraitor」の犯行か",
+          "link": "https://www.itmedia.co.jp/news/article/2610/31/2000002775/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-30T22:13:43",
+          "excerpt": "Binanceから約60億ドルの暗号資産が流出した事件で、TRM LabsとChainalysisは北朝鮮のサイバー集団「TraderTraitor」の関与を指摘した。…"
+        },
         {
           "title": "【Claude】 BIツール風のダッシュボードを、Google Drive の Excel を更新するだけで動かしてみた！",
           "link": "https://dev.classmethod.jp/articles/claude-artifact-dashboard-google-drive-xlsx/",
@@ -134,21 +141,21 @@
           "source": "Hacker News（英語）",
           "published": "2026-10-30T07:41:13",
           "excerpt": "記事の URL: https://www.theguardian.…"
-        },
-        {
-          "title": "Apache IcebergとSnowflakeを用いた本番向けデータレイクハウス構築ハンズオンガイド",
-          "link": "https://qiita.com/NKKTechGlobal/items/068aad0d73e24619758e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-30T07:12:09",
-          "excerpt": "Apache IcebergとSnowflakeを用いた本番向けデータレイクハウス構築ハンズオンガイド はじめに こんにちは、NKKTech Global 技術チームです。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が15件。はじめに Kiro Workflows が登場して、Kiro で並列開発がしやすくなり、前回ブログでも紹介させていただきました。…",
+      "summary": "開発ツールの新着が15件。GitHubは年次レポート「Octoverse 2026」を公開した。過去1年間のコードプッシュ数は179億回に達し、Pull Requestの40％以上がAIエージェント起点で作成されている。開発ワークフローや言語選択はどう変化したのか。",
       "articles": [
+        {
+          "title": "「Pythonは今年も2位」　いま人とAIが“最も使える”言語とは――GitHub年次調査「Octoverse 2026」",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/31/news006.html",
+          "source": "@IT",
+          "published": "2026-10-30T23:15:00",
+          "excerpt": "GitHubは年次レポート「Octoverse 2026」を公開した。過去1年間のコードプッシュ数は179億回に達し、Pull Requestの40％以上がAIエージェント起点で作成されている。開発ワークフローや言語選択はどう変化したのか。"
+        },
         {
           "title": "AWS Lambda MicroVMs 上で Kiro CLI を走らせて、成果物を S3 で受け取るまでの PoC を作る。",
           "link": "https://qiita.com/s_moriyama/items/93e576438ce10704cf05",
@@ -169,45 +176,38 @@
           "source": "DevelopersIO",
           "published": "2026-10-30T16:00:00",
           "excerpt": "Kiro アプリケーションには IDE、CLI、Crew という 3 つの異なるアプリケーションがあるため、どれを使用すればよいかを判断するのが難しい場合があります。…"
-        },
-        {
-          "title": "【AWS初心者向け】S3のフォルダとプレフィックスの違いをAWS CLIで確認する",
-          "link": "https://qiita.com/reo_infraengineer/items/5e955795b5909d9883c9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-30T12:38:35",
-          "excerpt": "こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、インフラ学習サービス「InfraDojo（インフラ道場）」を運営しています。S3を使い始めると、こんな疑問が出てきます。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "パトリック・スチュワートは、ジャン＝リュック・ピカード大尉を通して、人間の尺度を私たちに教えてくれました。",
-      "link": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+      "title": "Show HN: パトリック・スチュワート卿に敬意を表して、TNG エピソード当てゲームをお楽しみください",
+      "link": "https://tng.episodle.com/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-30T20:23:30",
-      "excerpt": "記事の URL: https://www.bostonglobe.…"
+      "published": "2026-10-30T23:51:24",
+      "excerpt": "記事の URL: https://tng.episodle.com/ コメント URL: https://news.ycombinator.com/item?id=50311686 ポイント: 3 コメント数: 0"
     },
     {
-      "title": "エンブラエルのAtechはドローン交通管制で2030年までに規模を2倍にすることを目指す",
-      "link": "https://www.bloomberglinea.com.br/negocios/atech-da-embraer-quer-dobrar-de-tamanho-ate-2030-com-controle-de-trafego-de-drones/",
+      "title": "フェアユースはすべての人に利益をもたらします",
+      "link": "https://openai.com/index/fair-use-benefits-everyone/",
       "source": "Hacker News（英語）",
-      "published": "2026-10-30T20:18:18",
-      "excerpt": "記事の URL: https://www.bloomberglinea.com.…"
+      "published": "2026-10-30T23:33:55",
+      "excerpt": "記事の URL: https://openai.com/index/fair-use-benefits-everyone/ コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "光速のプログラミング: Gravity クエリ エンジンの構築",
-      "link": "https://pgrust.com/blog/programming-at-light-speed/",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-30T20:18:10",
-      "excerpt": "記事の URL: https://pgrust.com/blog/programming-at-light-speed/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "“完全テレワーク時代の終わり”で出社、なのに結局「オンライン会議ばかり」――調査で見えた若手の不満",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/31/news007.html",
+      "source": "@IT",
+      "published": "2026-10-30T23:30:00",
+      "excerpt": "テレワークからオフィスワークへの回帰が進む中、オフィスに集まる機会を設けるだけで、従業員同士の連携は深まるのか。調査結果から見えた、“出社回帰”の理想と現実とは。"
     },
     {
-      "title": "プロダクトマネージャーも安全ではない",
-      "link": "https://lucaskostka.com/posts/ai-challenges-more-than-devs",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-30T20:14:39",
-      "excerpt": "記事の URL: https://lucaskostka.com/posts/ai-challenges-more-than-devs コメント URL: https://news.ycombinator.com/item?…"
+      "title": "SalesforceのM&Aは続き、防衛技術スタートアップRuneとの3億7,500万ドルの取引が報じられている",
+      "link": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-10-30T23:21:23",
+      "excerpt": "この AI 物流スタートアップは、CRM 巨人の Missionforce 防御プラットフォームを強化します。"
     }
   ]
 }
