@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-10-31T16:27:46",
+  "generated_at": "2026-10-31T20:09:31",
   "window_hours": 24,
-  "total": 123,
+  "total": 116,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が25件。OpenAIの最新の資金調達ラウンドは期待に応えていないようだ。",
+      "summary": "生成AIの新着が24件。記事の URL: https://ryanmadden.net/gpt-56-beats-factorio/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "GPT-5.6 Sol は平和モードで Factorio に勝つことができます",
+          "link": "https://ryanmadden.net/gpt-56-beats-factorio/",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-31T18:50:34",
+          "excerpt": "記事の URL: https://ryanmadden.net/gpt-56-beats-factorio/ コメント URL: https://news.ycombinator.com/item?…"
+        },
         {
           "title": "OpenAI、新たなラウンドの資金調達目標を引き下げたと報じられている",
           "link": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
@@ -17,33 +24,40 @@
           "excerpt": "OpenAIの最新の資金調達ラウンドは期待に応えていないようだ。"
         },
         {
+          "title": "LambdaとBedrockで自作するLLMプロキシ(キー発行・予算・管理UI)",
+          "link": "https://zenn.dev/upgradetech/articles/2026-10-simple-llm-proxy-lambda-bedrock",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-31T14:46:00",
+          "excerpt": "社内でClaude CodeやCodex CLIを使う人が増えてくると、「誰がどのモデルにいくら使っているかわからない」「キーを配るしくみがない」「危ないツールを禁止したい」という話になります。…"
+        },
+        {
           "title": "マルウェアは LLM を使用して、被害者の価値に基づいて被害者をランク付けします",
           "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
           "source": "Hacker News（英語）",
           "published": "2026-10-31T14:29:03",
           "excerpt": "記事の URL: https://blog.talosintelligence.…"
-        },
-        {
-          "title": "ChatGPT アカウントを引き継ぎました",
-          "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-31T10:30:11",
-          "excerpt": "記事の URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "Claude Code v2.1.316 の主要アップデート - サブエージェントの effort 指定と Opus 4.8 fast mode の非推奨",
-          "link": "https://dev.classmethod.jp/articles/20261031-cc-updates-v2-1-316/",
-          "source": "DevelopersIO",
-          "published": "2026-10-31T09:53:16",
-          "excerpt": "Claude Code v2.1.316 がリリースされました。サブエージェントの effort を環境変数で指定できるようになり、セキュリティ関連の修正も多数含まれています。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。Amazon Redshift Serverlessの自動クロスリージョンバックアップ機能を東京から大阪へのコピーで試してみました。…",
+      "summary": "クラウドの新着が20件。アプリケーションや CI/CD にタグを組み込むことなく、web ACL の設定だけで WAF SDK のシグナルを Bot Control などの判定に利用できます。一方で、ETag と Range 要求の扱いにも影響します。",
       "articles": [
+        {
+          "title": "CloudFront の AWS WAF SDK 自動統合を有効にして、HTML への script タグ挿入と応答の変化を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/waf-cloudfront-automatic-sdk-integration/",
+          "source": "DevelopersIO",
+          "published": "2026-10-31T17:55:11",
+          "excerpt": "アプリケーションや CI/CD にタグを組み込むことなく、web ACL の設定だけで WAF SDK のシグナルを Bot Control などの判定に利用できます。一方で、ETag と Range 要求の扱いにも影響します。"
+        },
+        {
+          "title": "Amazon ECS の新機能 「ECS Gateway」 を試してみた",
+          "link": "https://dev.classmethod.jp/articles/try-amazon-ecs-gateway/",
+          "source": "DevelopersIO",
+          "published": "2026-10-31T17:03:26",
+          "excerpt": "Amazon ECS Gateway でパブリック用とプライベート用のゲートウェイを作り、サービスの入口を分けました。接続したサービスには、AWS が管理するドメイン（on.aws）の HTTPS エンドポイントが割り当てられました。"
+        },
         {
           "title": "[アップデート] Amazon Redshift の自動クロスリージョンバックアップを Redshift Serverless で試してみた",
           "link": "https://dev.classmethod.jp/articles/20261031-amazon-redshift-automated-cross-region-backups/",
@@ -57,28 +71,28 @@
           "source": "DevelopersIO",
           "published": "2026-10-31T15:00:11",
           "excerpt": "Amazon CloudFront の CloudFront-Viewer-ISP と CloudFront-Viewer-TLS-Details ヘッダーを、オリジンで受け取って確認しました。…"
-        },
-        {
-          "title": "【登壇レポート】DevelopersIO 2026 Tokyo に「コンテナサービスは ECS だけじゃない！Google Cloud の Cloud Runの魅力」というタイトルで登壇しました  #devio2026",
-          "link": "https://dev.classmethod.jp/articles/devio2026-tokyo-cloud-run/",
-          "source": "DevelopersIO",
-          "published": "2026-10-31T14:59:20",
-          "excerpt": "ECS をメインで扱う人に Google Cloud の Cloud Run の魅力を知ってもらいたくて、ECS と比較した Cloud Run の魅力をテーマに発表しました"
-        },
-        {
-          "title": "EC2ユーザデータの存在意義を体感した",
-          "link": "https://qiita.com/sasachan/items/bb07cca8d3e061f4c45e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-31T14:58:37",
-          "excerpt": "はじめに RHEL10のEC2を使って○○を検証してほしいと言われたので、いつものようにインスタンスを起動してSession Managerで接続しようとしました。ところが、接続できません。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が11件。記事の URL: https://blog.talosintelligence.…",
+      "summary": "セキュリティの新着が12件。記事の URL: https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "TCP 解放後の使用: CVE-2026-98432 / CVSS 9.8",
+          "link": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-31T19:16:30",
+          "excerpt": "記事の URL: https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "CloudFront の AWS WAF SDK 自動統合を有効にして、HTML への script タグ挿入と応答の変化を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/waf-cloudfront-automatic-sdk-integration/",
+          "source": "DevelopersIO",
+          "published": "2026-10-31T17:55:11",
+          "excerpt": "アプリケーションや CI/CD にタグを組み込むことなく、web ACL の設定だけで WAF SDK のシグナルを Bot Control などの判定に利用できます。一方で、ETag と Range 要求の扱いにも影響します。"
+        },
         {
           "title": "マルウェアは LLM を使用して、被害者の価値に基づいて被害者をランク付けします",
           "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
@@ -92,27 +106,13 @@
           "source": "@IT",
           "published": "2026-10-31T08:15:00",
           "excerpt": "Microsoftは、予防可能な攻撃が多くの被害を生んでいる現状を踏まえ、サイバー攻撃対策として優先すべき4つの戦略を公開した。"
-        },
-        {
-          "title": "GMO不正侵入、システム脆弱性を2年前に把握　子会社指摘も対策後手 - 日本経済新聞",
-          "link": "https://www.nikkei.com/article/DGXZQOUC30A460Q6A031C2000000/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-31T08:05:25",
-          "excerpt": "GMOインターネットグループのサービスが不正アクセスを受けた問題で、子会社のセキュリティー企業が2024年4月にシステムの欠陥（脆弱性）を指摘していたことがGMO幹部への取材でわかった。…"
-        },
-        {
-          "title": "「基本から分かる！AWSセキュリティ運用の考え方と任せ方」というタイトルで登壇しました",
-          "link": "https://dev.classmethod.jp/articles/aws-security-operations-basics/",
-          "source": "DevelopersIO",
-          "published": "2026-10-31T05:06:39",
-          "excerpt": "AWSセキュリティを基礎から積み上げていき、どうやってAWSのセキュリティサービスに任せつつ運用していくのか、という話をしました。一朝一夕ではうまくいきませんが、現在地を把握して進んでいきましょう！"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。Amazon Redshift Serverlessの自動クロスリージョンバックアップ機能を東京から大阪へのコピーで試してみました。…",
+      "summary": "データ分析の新着が2件。Amazon Redshift Serverlessの自動クロスリージョンバックアップ機能を東京から大阪へのコピーで試してみました。…",
       "articles": [
         {
           "title": "[アップデート] Amazon Redshift の自動クロスリージョンバックアップを Redshift Serverless で試してみた",
@@ -127,21 +127,21 @@
           "source": "ITmedia NEWS",
           "published": "2026-10-30T22:13:43",
           "excerpt": "Binanceから約60億ドルの暗号資産が流出した事件で、TRM LabsとChainalysisは北朝鮮のサイバー集団「TraderTraitor」の関与を指摘した。…"
-        },
-        {
-          "title": "BIツール（Metabase等）を自社ホストするなら、インターネットから直接アクセスできないようにしよう",
-          "link": "https://zenn.dev/delt/articles/1bba3171849791",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-30T17:36:10",
-          "excerpt": "最近何かとセキュリティが話題ですね。MetabaseのようなBIツールは、オープンソースで手軽に立てられる反面、 「EC2に立てて、IDとパスワードだけで守っている」 というようなあまり良くない構成を見かけることが多いです。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。第3回では、Terraform StateをS3のリモートバックエンドで管理しました。…",
+      "summary": "開発ツールの新着が9件。アプリケーションや CI/CD にタグを組み込むことなく、web ACL の設定だけで WAF SDK のシグナルを Bot Control などの判定に利用できます。一方で、ETag と Range 要求の扱いにも影響します。",
       "articles": [
+        {
+          "title": "CloudFront の AWS WAF SDK 自動統合を有効にして、HTML への script タグ挿入と応答の変化を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/waf-cloudfront-automatic-sdk-integration/",
+          "source": "DevelopersIO",
+          "published": "2026-10-31T17:55:11",
+          "excerpt": "アプリケーションや CI/CD にタグを組み込むことなく、web ACL の設定だけで WAF SDK のシグナルを Bot Control などの判定に利用できます。一方で、ETag と Range 要求の扱いにも影響します。"
+        },
         {
           "title": "Terraform入門 第4回：モジュールでTerraform設定を再利用する",
           "link": "https://qiita.com/k0ga/items/7d2e4cd2936c4de59057",
@@ -150,57 +150,50 @@
           "excerpt": "はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。第3回では、Terraform StateをS3のリモートバックエンドで管理しました。…"
         },
         {
+          "title": "Spring BootをAWSにデプロイするまで ─ RDS・ECR・ECS/Fargateで学ぶAWS #2",
+          "link": "https://zenn.dev/mohu_mohu/articles/46329de6723ccc",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-31T14:12:31",
+          "excerpt": "Amazon ECRにDockerイメージを登録 AWSにログイン AWSにログインしたら、リージョンが下記の通りになっていることを確認します Asia Pacific (Tokyo) ap-northeast-1 リポジトリの作成 ECR…"
+        },
+        {
           "title": "Terraform の -minimal-refresh で plan 時間を短縮できるか検証してみた",
           "link": "https://dev.classmethod.jp/articles/terraform-minimal-refresh/",
           "source": "DevelopersIO",
           "published": "2026-10-31T11:20:52",
           "excerpt": "Terraform 1.17 で追加された `-minimal-refresh` オプションを実際に試してみました。3 階層構成で refresh 回数がどれだけ削減され、plan 時間が短くなるかを検証した結果をお伝えします。"
-        },
-        {
-          "title": "GitHub Copilot Hooksで何ができる？4つのユースケースと組織での活用方法 | Alternative Architecture DOJO",
-          "link": "https://aadojo.alterbooth.com/entry/2026/10/31/195211",
-          "source": "企業テックブログまとめ",
-          "published": "2026-10-31T10:52:11",
-          "excerpt": "GitHub Copilotのカスタマイズには、Custom Instructions、Custom Agents、Agent Skills、MCPなどがあります。…"
-        },
-        {
-          "title": "Terraform で Aurora PostgreSQL のポスト量子 TLS 鍵交換を設定できるか検証してみた",
-          "link": "https://dev.classmethod.jp/articles/aurora-postgresql-pq-tls-terraform/",
-          "source": "DevelopersIO",
-          "published": "2026-10-31T10:14:29",
-          "excerpt": "Aurora PostgreSQL 18 でポスト量子 TLS が利用可能になりました。クラスタパラメータ `ssl_groups` の設定方法を Terraform で試しましたので、その結果をお伝えします。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
+      "title": "学者の義務",
+      "link": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-31T19:07:36",
+      "excerpt": "記事の URL: https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html コメント URL: https://news.ycombinator.…"
+    },
+    {
+      "title": "それはメモリレイテンシです、愚か者",
+      "link": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-31T18:38:16",
+      "excerpt": "記事の URL: https://pivotlake.io/blog/its-the-memory-latency-stupid/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "トレーニングしたモデルを Demoscenes に投稿しました",
+      "link": "https://datavorous.com/writing/demoscener/",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-31T18:08:24",
+      "excerpt": "記事の URL: https://datavorous.com/writing/demoscener/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
       "title": "レストランガイドから支払いまで、TikTokがスーパーアプリを構築する方法を紹介します",
       "link": "https://techcrunch.com/2026/10/31/tiktoks-road-to-becoming-a-super-app/",
       "source": "TechCrunch（英語）",
       "published": "2026-10-31T15:41:57",
       "excerpt": "TikTokは、人々がデジタル活動のほとんどに使用するアプリになるよう取り組んでいるのかもしれない。"
-    },
-    {
-      "title": "GoogleのAI衛星が非常に高価な俳句を地球に送信",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/31/googles-ai-satellite-sends-a-very-expensive-haiku-to-earth/5306818",
-      "source": "The Register（英語）",
-      "published": "2026-10-31T15:36:14",
-      "excerpt": "実験用軌道データセンターのプロトタイプで TPU を稼働させて詩を生成"
-    },
-    {
-      "title": "AWS試験を初めて英語で受けて分かったこと",
-      "link": "https://qiita.com/kenken38/items/bd9ac1951e42b4fb8aa7",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-31T15:23:04",
-      "excerpt": "この記事は、私のような英語に自信がない人に向けて書いています。私はAWSの新試験 AI Business Strategist（AIB-C01） を初めて英語で受けて、合格しました。…"
-    },
-    {
-      "title": "元メタ研究者が海賊版書籍をトレント、「訴訟のため」削除",
-      "link": "https://torrentfreak.com/ex-meta-researcher-torrented-pirated-books-dataset-deleted-it-due-to-all-this-litigation/",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-31T14:57:33",
-      "excerpt": "記事の URL: https://torrentfreak.…"
     }
   ]
 }
