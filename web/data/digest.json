@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-10-31T06:00:10",
+  "generated_at": "2026-10-31T11:49:45",
   "window_hours": 24,
-  "total": 149,
+  "total": 132,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が30件。OpenAIの「GPT-6.1 Terra」、Amazon Bedrockで一般提供開始",
+      "summary": "生成AIの新着が27件。記事の URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
+        {
+          "title": "ChatGPT アカウントを引き継ぎました",
+          "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+          "source": "Hacker News（英語）",
+          "published": "2026-10-31T10:30:11",
+          "excerpt": "記事の URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai コメント URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "Claude Code v2.1.316 の主要アップデート - サブエージェントの effort 指定と Opus 4.8 fast mode の非推奨",
+          "link": "https://dev.classmethod.jp/articles/20261031-cc-updates-v2-1-316/",
+          "source": "DevelopersIO",
+          "published": "2026-10-31T09:53:16",
+          "excerpt": "Claude Code v2.1.316 がリリースされました。サブエージェントの effort を環境変数で指定できるようになり、セキュリティ関連の修正も多数含まれています。…"
+        },
+        {
+          "title": "CORTEX_USER ・CORTEX_AGENT_USERデータベースロールによるCoCo in Snowsightの表示制御を確認してみた",
+          "link": "https://dev.classmethod.jp/articles/display-control-coco-in-snowsight-with-cortex_user-cortex_agent_user/",
+          "source": "DevelopersIO",
+          "published": "2026-10-31T09:29:04",
+          "excerpt": "Snowflake CoCo in Snowsightの利用制御向けのロールが変更されるため、新しい方法と、一部ユーザーのみに表示させる具体的な実装方法を確認してみました。"
+        },
         {
           "title": "OpenAIの「GPT-6.1 Terra」、Amazon Bedrockで一般提供開始",
           "link": "https://codezine.jp/article/detail/30188",
           "source": "CodeZine",
           "published": "2026-10-31T04:00:00",
           "excerpt": "OpenAIの「GPT-6.1 Terra」、Amazon Bedrockで一般提供開始"
-        },
-        {
-          "title": "OpenAIが調達した資金は目標300億ドルの半分にも満たない",
-          "link": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-31T03:22:44",
-          "excerpt": "記事の URL: https://www.wsj.…"
-        },
-        {
-          "title": "Security AgentのPRレビューを使い倒したら月250回で止まったので、有料版の費用も試算してみた",
-          "link": "https://qiita.com/ec2_on_aws/items/73f1c70739e03aca2ff9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-31T02:21:22",
-          "excerpt": "はじめに 2026年10月22日に「AWS Continuum for code vulnerabilities」がGAしました。…"
-        },
-        {
-          "title": "Windows の ChatGPT デスクトップアプリを Amazon Bedrock Runtime に接続して利用する設定手順",
-          "link": "https://dev.classmethod.jp/articles/chatgpt-desktop-windows-bedrock-runtime-setup/",
-          "source": "DevelopersIO",
-          "published": "2026-10-31T02:15:13",
-          "excerpt": "Mac ユーザーが Windows で試したときの備忘録です。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が15件。最近、EC2に「正規化係数」というものがあると知りました。きっかけは、RI（リザーブドインスタンス）の購入を調べていたときです。m5.…",
+      "summary": "クラウドの新着が14件。Aurora PostgreSQL 18 でポスト量子 TLS が利用可能になりました。クラスタパラメータ `ssl_groups` の設定方法を Terraform で試しましたので、その結果をお伝えします。",
       "articles": [
+        {
+          "title": "Terraform で Aurora PostgreSQL のポスト量子 TLS 鍵交換を設定できるか検証してみた",
+          "link": "https://dev.classmethod.jp/articles/aurora-postgresql-pq-tls-terraform/",
+          "source": "DevelopersIO",
+          "published": "2026-10-31T10:14:29",
+          "excerpt": "Aurora PostgreSQL 18 でポスト量子 TLS が利用可能になりました。クラスタパラメータ `ssl_groups` の設定方法を Terraform で試しましたので、その結果をお伝えします。"
+        },
+        {
+          "title": "Aurora PostgreSQLとRDSの違いはストレージ層とレプリカ構造にある",
+          "link": "https://qiita.com/techdbblog/items/37915d7e89fd97310dae",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-31T08:30:44",
+          "excerpt": "RDS for PostgreSQLで時間をかけてmax_wal_sizeやチェックポイント周りを詰めた設定を、そのままAurora PostgreSQLへ持ち込んでも期待した効果が出ません。…"
+        },
+        {
+          "title": "AWS閉鎖網+Snowflake 内部ステージ→AWS S3への道のり",
+          "link": "https://qiita.com/Cache-Hit/items/90bf72f3dea9cba81dff",
+          "source": "Qiita AWSタグ",
+          "published": "2026-10-31T08:00:13",
+          "excerpt": "前提構築 今回行いたい条件は下記。①Snowflkeのバックアップとして外部S3に保存したい。②外部ステージは利用したくない ③AWS EC2に落としたのち、S3に送る。まずは…"
+        },
         {
           "title": "EC2のRIは「台数」じゃなくて「ポイント」で数えるらしい",
           "link": "https://qiita.com/jin_0802/items/17165712ebbb41c63b21",
           "source": "Qiita AWSタグ",
           "published": "2026-10-31T03:34:16",
           "excerpt": "最近、EC2に「正規化係数」というものがあると知りました。きっかけは、RI（リザーブドインスタンス）の購入を調べていたときです。m5.…"
-        },
-        {
-          "title": "AI 時代の新たなCMS「EmDash」を AWS 環境で動かして、WordPress からの移行を試してみた",
-          "link": "https://dev.classmethod.jp/articles/emdash-cms-mcp-wordpress-migration/",
-          "source": "DevelopersIO",
-          "published": "2026-10-31T00:45:00",
-          "excerpt": "WordPress に近い操作感ながら AI にも対応したCMS 「EmDash」 を AWS へデプロイして、AI エージェントからの記事投稿と WordPress からの移行を試しました。"
-        },
-        {
-          "title": "Ping-t×Geminiで18日：インフラ実務者のAWS SAA合格体験",
-          "link": "https://zenn.dev/fk2000/books/aws-saa-18days-pingt-gemini",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-30T23:33:43",
-          "excerpt": "インフラ実務者が AWS SAA-C03 に18日で合格したときの個人体験記。道具分担・学習地図に加え、勤務先の研修枠が役に立った点にも触れる。一つのやり方であり唯一の正解ではありません。…"
-        },
-        {
-          "title": "「ニトリがオンプレ脱却」「旧マルハニチロは販売計画を自動化」　インフラ刷新、AIと自動化のリアル",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/31/news004.html",
-          "source": "@IT",
-          "published": "2026-10-30T23:00:00",
-          "excerpt": "＠ITで公開された記事の中で、特に注目を集めた10本をランキング形式で紹介します。読者の関心はどこにあるのでしょうか。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が17件。AWSセキュリティを基礎から積み上げていき、どうやってAWSのセキュリティサービスに任せつつ運用していくのか、という話をしました。一朝一夕ではうまくいきませんが、現在地を把握して進んでいきましょう！",
+      "summary": "セキュリティの新着が10件。Microsoftは、予防可能な攻撃が多くの被害を生んでいる現状を踏まえ、サイバー攻撃対策として優先すべき4つの戦略を公開した。",
       "articles": [
+        {
+          "title": "「基本を忘れてはならない」　優先すべき4つのセキュリティ戦略をMicrosoftが提言",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/31/news014.html",
+          "source": "@IT",
+          "published": "2026-10-31T08:15:00",
+          "excerpt": "Microsoftは、予防可能な攻撃が多くの被害を生んでいる現状を踏まえ、サイバー攻撃対策として優先すべき4つの戦略を公開した。"
+        },
+        {
+          "title": "GMO不正侵入、システム脆弱性を2年前に把握　子会社指摘も対策後手 - 日本経済新聞",
+          "link": "https://www.nikkei.com/article/DGXZQOUC30A460Q6A031C2000000/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-10-31T08:05:25",
+          "excerpt": "GMOインターネットグループのサービスが不正アクセスを受けた問題で、子会社のセキュリティー企業が2024年4月にシステムの欠陥（脆弱性）を指摘していたことがGMO幹部への取材でわかった。…"
+        },
         {
           "title": "「基本から分かる！AWSセキュリティ運用の考え方と任せ方」というタイトルで登壇しました",
           "link": "https://dev.classmethod.jp/articles/aws-security-operations-basics/",
@@ -92,27 +106,13 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-10-31T02:33:02",
           "excerpt": "spec 駆動開発 (SDD) は、大規模なチームのソフトウェア開発のやり方を変えつつあります。プロンプトだけに頼るのではなく spec を書き、それに沿って AI コーディングエージェントに設計、タスク、実装を進めさせます。"
-        },
-        {
-          "title": "Security AgentのPRレビューを使い倒したら月250回で止まったので、有料版の費用も試算してみた",
-          "link": "https://qiita.com/ec2_on_aws/items/73f1c70739e03aca2ff9",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-31T02:21:22",
-          "excerpt": "はじめに 2026年10月22日に「AWS Continuum for code vulnerabilities」がGAしました。…"
-        },
-        {
-          "title": "GMO不正アクセスの件で見つけた不審なXアカウントと「被害者フォーラム」について | ActiveTK's Note",
-          "link": "https://note.activetk.jp/hacks/onamae-desktop-cloud-v3",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-30T22:33:17",
-          "excerpt": "GMO不正アクセスの件で見つけた不審なXアカウントと「被害者フォーラム」について解説しました。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。Binanceから約60億ドルの暗号資産が流出した事件で、TRM LabsとChainalysisは北朝鮮のサイバー集団「TraderTraitor」の関与を指摘した。…",
+      "summary": "データ分析の新着が2件。Binanceから約60億ドルの暗号資産が流出した事件で、TRM LabsとChainalysisは北朝鮮のサイバー集団「TraderTraitor」の関与を指摘した。…",
       "articles": [
         {
           "title": "Binanceの約1兆円流出、北朝鮮ハッカー集団「TraderTraitor」の犯行か",
@@ -127,87 +127,73 @@
           "source": "Zenn AWSトピック",
           "published": "2026-10-30T17:36:10",
           "excerpt": "最近何かとセキュリティが話題ですね。MetabaseのようなBIツールは、オープンソースで手軽に立てられる反面、 「EC2に立てて、IDとパスワードだけで守っている」 というようなあまり良くない構成を見かけることが多いです。…"
-        },
-        {
-          "title": "【Claude】 BIツール風のダッシュボードを、Google Drive の Excel を更新するだけで動かしてみた！",
-          "link": "https://dev.classmethod.jp/articles/claude-artifact-dashboard-google-drive-xlsx/",
-          "source": "DevelopersIO",
-          "published": "2026-10-30T08:17:12",
-          "excerpt": "Google DriveのExcelを読み込んで、数値を書き換えると自動的にグラフ・KPI・コメントまで変わるダッシュボードをClaudeで作ってみました。毎月の手作業から解放される仕組みを紹介します。"
-        },
-        {
-          "title": "AWS Glue データカタログが米国西部 (北カリフォルニア) リージョンで Apache Iceberg テーブルの最適化をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-10-30T08:00:00",
-          "excerpt": "AWS Glue データ カタログは、米国西部 (北カリフォルニア) リージョンの Apache Iceberg テーブルの自動テーブル最適化をサポートするようになりました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。GitHubは年次レポート「Octoverse 2026」を公開した。過去1年間のコードプッシュ数は179億回に達し、Pull Requestの40％以上がAIエージェント起点で作成されている。開発ワークフローや言語選択はどう変化したのか。",
+      "summary": "開発ツールの新着が9件。Terraform 1.17 で追加された `-minimal-refresh` オプションを実際に試してみました。3 階層構成で refresh 回数がどれだけ削減され、plan 時間が短くなるかを検証した結果をお伝えします。",
       "articles": [
         {
-          "title": "「Pythonは今年も2位」　いま人とAIが“最も使える”言語とは――GitHub年次調査「Octoverse 2026」",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/31/news006.html",
-          "source": "@IT",
-          "published": "2026-10-30T23:15:00",
-          "excerpt": "GitHubは年次レポート「Octoverse 2026」を公開した。過去1年間のコードプッシュ数は179億回に達し、Pull Requestの40％以上がAIエージェント起点で作成されている。開発ワークフローや言語選択はどう変化したのか。"
-        },
-        {
-          "title": "AWS Lambda MicroVMs 上で Kiro CLI を走らせて、成果物を S3 で受け取るまでの PoC を作る。",
-          "link": "https://qiita.com/s_moriyama/items/93e576438ce10704cf05",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-30T20:21:16",
-          "excerpt": "はじめに Kiro Workflows が登場して、Kiro で並列開発がしやすくなり、前回ブログでも紹介させていただきました。…"
-        },
-        {
-          "title": "[アップデート] AWS SAM CLI の sam build で、npm workspaces モノレポの依存インストールが1回で済むようになりました",
-          "link": "https://dev.classmethod.jp/articles/samcli-11710-npm-workspaces-monorepo-build/",
+          "title": "Terraform の -minimal-refresh で plan 時間を短縮できるか検証してみた",
+          "link": "https://dev.classmethod.jp/articles/terraform-minimal-refresh/",
           "source": "DevelopersIO",
-          "published": "2026-10-30T17:23:37",
-          "excerpt": "速くなった"
+          "published": "2026-10-31T11:20:52",
+          "excerpt": "Terraform 1.17 で追加された `-minimal-refresh` オプションを実際に試してみました。3 階層構成で refresh 回数がどれだけ削減され、plan 時間が短くなるかを検証した結果をお伝えします。"
         },
         {
-          "title": "[キロ]キロIDE? CLI?クルー？自分のスタイルに合わせてアプリを選ぶ",
-          "link": "https://dev.classmethod.jp/articles/kiro-product-compare/",
+          "title": "GitHub Copilot Hooksで何ができる？4つのユースケースと組織での活用方法 | Alternative Architecture DOJO",
+          "link": "https://aadojo.alterbooth.com/entry/2026/10/31/195211",
+          "source": "企業テックブログまとめ",
+          "published": "2026-10-31T10:52:11",
+          "excerpt": "GitHub Copilotのカスタマイズには、Custom Instructions、Custom Agents、Agent Skills、MCPなどがあります。…"
+        },
+        {
+          "title": "Terraform で Aurora PostgreSQL のポスト量子 TLS 鍵交換を設定できるか検証してみた",
+          "link": "https://dev.classmethod.jp/articles/aurora-postgresql-pq-tls-terraform/",
           "source": "DevelopersIO",
-          "published": "2026-10-30T16:00:00",
-          "excerpt": "Kiro アプリケーションには IDE、CLI、Crew という 3 つの異なるアプリケーションがあるため、どれを使用すればよいかを判断するのが難しい場合があります。…"
+          "published": "2026-10-31T10:14:29",
+          "excerpt": "Aurora PostgreSQL 18 でポスト量子 TLS が利用可能になりました。クラスタパラメータ `ssl_groups` の設定方法を Terraform で試しましたので、その結果をお伝えします。"
+        },
+        {
+          "title": "GitHub Enterprise、全ライセンスユーザーがGitHub Copilotを利用可能に",
+          "link": "https://codezine.jp/article/detail/30191",
+          "source": "CodeZine",
+          "published": "2026-10-31T08:00:00",
+          "excerpt": "GitHub Enterprise、全ライセンスユーザーがGitHub Copilotを利用可能に"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS閉鎖+Snowflake クエリの実行の動作を確認するためのプロシージャ作成",
-      "link": "https://qiita.com/Cache-Hit/items/25485b8fef3895d3c2ab",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-31T04:31:09",
-      "excerpt": "これの続きになります。今回の検証はSnowflakeで実施したクエリがうまくいっているかを確認するプロシージャを作成します。★Snowsightに手作業 今回の情報 タイプ 値 Snowfl...…"
+      "title": "光る物体症候群",
+      "link": "https://en.wikipedia.org/wiki/Shiny_object_syndrome",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-31T11:02:14",
+      "excerpt": "記事の URL: https://en.wikipedia.org/wiki/Shiny_object_syndrome コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "パイルイン、ペイアウト、ペース調整のプレッシャー: VC の背後にある投資家がオープンに",
-      "link": "https://techcrunch.com/2026/10/30/pile-ins-payouts-and-pacing-pressure-the-investors-behind-the-vcs-open-up/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-10-31T04:16:50",
-      "excerpt": "お金の背後にあるお金は、ほとんどの場合、興奮しています。"
+      "title": "アマゾン、AI利用に関するさまざまなメッセージメモで従業員に悪寒を与える",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/31/amazon-sends-chills-through-its-workforce-with-mixed-message-memo-about-ai-use-corey-quinn/5306804",
+      "source": "The Register（英語）",
+      "published": "2026-10-31T11:00:00",
+      "excerpt": "多くのソフトウェア エンジニアはこの職業の将来について暗い気持ちを抱いています"
     },
     {
-      "title": "【DOP-C02/SAP-C02】Control Tower徹底解説：概要・主要機能・試験で問われるポイント",
-      "link": "https://qiita.com/naoto_tech_AI/items/196aca4e2f3d4d65f0f4",
-      "source": "Qiita AWSタグ",
-      "published": "2026-10-31T04:01:35",
-      "excerpt": "この記事の位置づけ AWS 認定 DevOps Engineer – Professional（DOP-C02）と Solutions Architect – Professional（SAP-C02）で頻出する 3 領域を「概要 → 主要…"
+      "title": "【AWS】AWS Certified Generative AI Developer - Professional (AIP-C01) に合格したので所感を綴る | APC 技術ブログ",
+      "link": "https://techblog.ap-com.co.jp/entry/2026/10/31/193000",
+      "source": "企業テックブログまとめ",
+      "published": "2026-10-31T10:30:00",
+      "excerpt": "目次 目次 はじめに 関連記事 試験について 点数 勉強期間 教材 試験の感想 お知らせ はじめに こんにちは、クラウド事業部の坂口です。…"
     },
     {
-      "title": "Kiro のハロウィンハッカソン Kiroween 2026 が始まりました",
-      "link": "https://aws.amazon.com/jp/blogs/news/kiroween-2026/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-10-31T03:37:54",
-      "excerpt": "Kiro が毎年ハロウィンの時期に開いているハッカソン Kiroween が、今年も始まりました。提出の締め切りは日本時間 2026 年 12 月 5 日（土）午前 7 時で、賞金の総額は 10 万ドルです。"
+      "title": "Molly(Signal fork) は 3 か月間更新されておらず、脆弱です",
+      "link": "https://piefed.world/post/1503394",
+      "source": "Hacker News（英語）",
+      "published": "2026-10-31T10:23:41",
+      "excerpt": "記事の URL: https://piefed.world/post/1503394 コメント URL: https://news.ycombinator.com/item?id=50314666 ポイント: 14 コメント数: 1"
     }
   ]
 }
