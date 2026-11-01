@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-10-31T23:30:40",
+  "generated_at": "2026-11-01T02:27:49",
   "window_hours": 24,
-  "total": 95,
+  "total": 99,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。記事の URL: https://ryanmadden.net/gpt-56-beats-factorio/ コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "生成AIの新着が16件。Snowflakeの`AI_PARSE_DOCUMENT`に新しく追加された**`AGENTIC`モード**を使い、PDFのテキストだけでなくグラフや表などの視覚要素も抽出して検索可能にする方法を試してみました。…",
       "articles": [
+        {
+          "title": "[新機能]AI_PARSE_DOCUMENTのAGENTICモードで図表付きPDFを解析し、Cortex Agentでテーブルと横断分析する構成を試してみた",
+          "link": "https://dev.classmethod.jp/articles/snowflake-try-ai-parse-document-with-agentic-mode/",
+          "source": "DevelopersIO",
+          "published": "2026-11-01T02:19:09",
+          "excerpt": "Snowflakeの`AI_PARSE_DOCUMENT`に新しく追加された**`AGENTIC`モード**を使い、PDFのテキストだけでなくグラフや表などの視覚要素も抽出して検索可能にする方法を試してみました。…"
+        },
+        {
+          "title": "OpenAI、Hugging Faceでのインシデントなどを受けフロンティアモデルの監視システムを拡充",
+          "link": "https://codezine.jp/article/detail/30187",
+          "source": "CodeZine",
+          "published": "2026-11-01T00:00:00",
+          "excerpt": "OpenAI、Hugging Faceでのインシデントなどを受けフロンティアモデルの監視システムを拡充"
+        },
+        {
+          "title": "AI学習への利用拒否をrobots.txtで一括指定へ　OpenAIやGoogleなどが対応表明",
+          "link": "https://www.itmedia.co.jp/news/article/2611/01/2000002776/",
+          "source": "ITmedia NEWS",
+          "published": "2026-10-31T23:31:07",
+          "excerpt": "OpenAI、Google、Microsoftは、Webサイト運営者がAI学習へのコンテンツ利用に関する意向を一括で指定できる共通の仕組みへの対応を発表した。Anthropicも担当者が個人名義で実装を表明している。robots.…"
+        },
         {
           "title": "GPT-5.6 Sol は平和モードで Factorio に勝つことができます",
           "link": "https://ryanmadden.net/gpt-56-beats-factorio/",
           "source": "Hacker News（英語）",
           "published": "2026-10-31T18:50:34",
           "excerpt": "記事の URL: https://ryanmadden.net/gpt-56-beats-factorio/ コメント URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "OpenAI、新たなラウンドの資金調達目標を引き下げたと報じられている",
-          "link": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-10-31T16:12:55",
-          "excerpt": "OpenAIの最新の資金調達ラウンドは期待に応えていないようだ。"
-        },
-        {
-          "title": "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点）",
-          "link": "https://zenn.dev/kauche/articles/f3736c660aab77",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-10-31T15:02:52",
-          "excerpt": "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点） この記事の下書きは、メンバーの 1 人が使っていた Claude Code が、当日の Slack、リポジトリ、G…"
-        },
-        {
-          "title": "LambdaとBedrockで自作するLLMプロキシ(キー発行・予算・管理UI)",
-          "link": "https://zenn.dev/upgradetech/articles/2026-10-simple-llm-proxy-lambda-bedrock",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-31T14:46:00",
-          "excerpt": "社内でClaude CodeやCodex CLIを使う人が増えてくると、「誰がどのモデルにいくら使っているかわからない」「キーを配るしくみがない」「危ないツールを禁止したい」という話になります。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が18件。こんにちは。ファインディでFindy Freelanceの開発をしている甲斐（@karukan013L23）です。…",
+      "summary": "クラウドの新着が17件。おはようございます、YASUです。DynamoDBのスロットリングの記事で、「上限を超えると断られる」という話を書きましたが、Lambdaにも同じように、同時に処理できる数の上限があります。…",
       "articles": [
+        {
+          "title": "Lambdaの同時実行、予約済みとプロビジョニング済みの違い",
+          "link": "https://zenn.dev/yasutomo7974/articles/dva-lambda-reserved-provisioned-concurrency",
+          "source": "Zenn AWSトピック",
+          "published": "2026-10-31T23:45:45",
+          "excerpt": "おはようございます、YASUです。DynamoDBのスロットリングの記事で、「上限を超えると断られる」という話を書きましたが、Lambdaにも同じように、同時に処理できる数の上限があります。…"
+        },
         {
           "title": "100以上のプロジェクトを持つNxモノレポのTypeScript 7移行の実践 | Findy Tech Blog",
           "link": "https://tech.findy.co.jp/entry/2026/11/01/070000",
@@ -64,21 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-10-31T17:03:26",
           "excerpt": "Amazon ECS Gateway でパブリック用とプライベート用のゲートウェイを作り、サービスの入口を分けました。接続したサービスには、AWS が管理するドメイン（on.aws）の HTTPS エンドポイントが割り当てられました。"
-        },
-        {
-          "title": "[アップデート] Amazon Redshift の自動クロスリージョンバックアップを Redshift Serverless で試してみた",
-          "link": "https://dev.classmethod.jp/articles/20261031-amazon-redshift-automated-cross-region-backups/",
-          "source": "DevelopersIO",
-          "published": "2026-10-31T15:09:47",
-          "excerpt": "Amazon Redshift Serverlessの自動クロスリージョンバックアップ機能を東京から大阪へのコピーで試してみました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。記事の URL: https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が9件。はじめに システムに脆弱性が発見されたとき、こんな経験はないでしょうか。…",
       "articles": [
+        {
+          "title": "脆弱性対応で迷わないために、システム構成図を2種類に分けてみた",
+          "link": "https://zenn.dev/gachigachi/articles/vulnerability-response-map",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-01T00:00:06",
+          "excerpt": "はじめに システムに脆弱性が発見されたとき、こんな経験はないでしょうか。…"
+        },
         {
           "title": "TCP 解放後の使用: CVE-2026-98432 / CVSS 9.8",
           "link": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
@@ -99,13 +106,6 @@
           "source": "Hacker News（英語）",
           "published": "2026-10-31T14:29:03",
           "excerpt": "記事の URL: https://blog.talosintelligence.…"
-        },
-        {
-          "title": "「基本を忘れてはならない」　優先すべき4つのセキュリティ戦略をMicrosoftが提言",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/31/news014.html",
-          "source": "@IT",
-          "published": "2026-10-31T08:15:00",
-          "excerpt": "Microsoftは、予防可能な攻撃が多くの被害を生んでいる現状を踏まえ、サイバー攻撃対策として優先すべき4つの戦略を公開した。"
         }
       ]
     },
@@ -161,32 +161,32 @@
   ],
   "uncategorized": [
     {
-      "title": "電気自動車が女性のものだった頃",
-      "link": "https://spectrum.ieee.org/early-electric-vehicles",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-31T23:08:12",
-      "excerpt": "記事の URL: https://spectrum.ieee.org/early-electric-vehicles コメント URL: https://news.ycombinator.com/item?…"
+      "title": "【AWS CLF合格体験記】未経験からのステップアップ！1か月でゆるっとAWS CLFに合格する",
+      "link": "https://qiita.com/kanzo18/items/ab96df290a440f6e3b66",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-01T02:23:10",
+      "excerpt": "読むにあたって AWS Certified Cloud Practitioner（CLF）に合格しました！勉強期間は約1か月。今回は、文系・未経験からAWSの勉強を始めた私が、どのような教材を使い、どうやって勉強を進めたのかを紹介します。…"
     },
     {
-      "title": "TypeScript 7.0でbaseUrlが使えなくなった今、パスエイリアスをどうするか 〜subpath importsという選択肢〜 | Findy Tech Blog",
-      "link": "https://tech.findy.co.jp/entry/2026/11/01/080000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-10-31T23:00:00",
-      "excerpt": "こんにちは。ファインディでフロントエンドエンジニアをしている大石（@bicstone）です。2026年11月1日に開催されるTSKaigi Sendai 2026で、「TS 7.…"
-    },
-    {
-      "title": "イタリアの農家が屋根裏部屋で未知の種子を見つけて植えた",
-      "link": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
-      "source": "Hacker News（英語）",
-      "published": "2026-10-31T22:41:06",
-      "excerpt": "記事の URL: https://www.smithsonianmag.…"
-    },
-    {
-      "title": "Apple CEO、同社は「AIのためにAIを出荷するつもりはない」と語る",
-      "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "title": "データセンターは現在、ブルックリンでも中期的な課題となっている",
+      "link": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
       "source": "TechCrunch（英語）",
-      "published": "2026-10-31T21:41:00",
-      "excerpt": "Appleの新CEOは、AI分野における同社の現在の立場を擁護した。"
+      "published": "2026-11-01T02:22:10",
+      "excerpt": "投票日の 5 日前にブルックリンで開かれた中間パーティーでは、議員らの炉端での雑談から民主党についての討論に至るまで、あらゆる会話が AI とデータセンターの話題に戻り続けた。"
+    },
+    {
+      "title": "AWS Continuumで閉域のアプリをペンテストする",
+      "link": "https://qiita.com/Pretzelisa/items/b03c061c1aafcac5cbc5",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-01T01:36:01",
+      "excerpt": "はじめに AWS Continuumのペネトレーションテストは、インターネットからアクセスできるエンドポイントに対しても、VPC内でプライベートに動いているアプリに対しても実行できる。…"
+    },
+    {
+      "title": "Amazon Linux 2023をupgradeできない->再起動->起動しない",
+      "link": "https://qiita.com/nkojima/items/aa9f2a4ed927a1eb903a",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-01T01:12:44",
+      "excerpt": "はじめに Amazon Linux 2023の環境でOSをupgradeしようとしたところ、以下のように「Killed」とだけ表示されて更新処理が中断してしまいました。今回はこの原因と対応方法を記事としてまとめてみました。…"
     }
   ]
 }
