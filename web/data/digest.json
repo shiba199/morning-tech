@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-11-01T02:27:49",
+  "generated_at": "2026-11-01T09:29:11",
   "window_hours": 24,
-  "total": 99,
+  "total": 91,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が16件。Snowflakeの`AI_PARSE_DOCUMENT`に新しく追加された**`AGENTIC`モード**を使い、PDFのテキストだけでなくグラフや表などの視覚要素も抽出して検索可能にする方法を試してみました。…",
+      "summary": "生成AIの新着が14件。Snowflake の Cortex Agents を Microsoft Teams と Microsoft 365 Copilot から利用するセットアップ方法と、ユーザー紐づけやネットワークポリシーの挙動を検証した内容をまとめました。",
       "articles": [
+        {
+          "title": "Snowflake Cortex Agents の Microsoft Teams・Microsoft 365 Copilot 連携を試してみた",
+          "link": "https://dev.classmethod.jp/articles/cortex-agents-microsoft-teams-integration/",
+          "source": "DevelopersIO",
+          "published": "2026-11-01T06:30:09",
+          "excerpt": "Snowflake の Cortex Agents を Microsoft Teams と Microsoft 365 Copilot から利用するセットアップ方法と、ユーザー紐づけやネットワークポリシーの挙動を検証した内容をまとめました。"
+        },
+        {
+          "title": "agent-desktop にデスクトップ操作をどこまで任せられるか：Linux で確かめた範囲と条件 | Algomatic Tech Blog",
+          "link": "https://tech.algomatic.jp/entry/2026/11/01/131053",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-01T04:10:53",
+          "excerpt": "こんにちは。AlgomaticでソフトウェアエンジニアをしているGo（@53able）です。2026年10月31日に、agent-desktop という CLI が発表されました。…"
+        },
+        {
+          "title": "Bedrockのプロンプトキャッシュは何を再利用するのか、図で整理した",
+          "link": "https://zenn.dev/hknote/articles/bedrock-claude-prompt-caching",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-01T04:00:05",
+          "excerpt": "AIエージェントは、1つの依頼を処理するために、モデルを複数回呼び出すことがあります。そのたびにツール定義やシステムプロンプト、会話履歴を送るため、入力の多くが前回と重複します。この共通部分を再利用できるのが、プロンプトキャッシュです。…"
+        },
         {
           "title": "[新機能]AI_PARSE_DOCUMENTのAGENTICモードで図表付きPDFを解析し、Cortex Agentでテーブルと横断分析する構成を試してみた",
           "link": "https://dev.classmethod.jp/articles/snowflake-try-ai-parse-document-with-agentic-mode/",
           "source": "DevelopersIO",
           "published": "2026-11-01T02:19:09",
           "excerpt": "Snowflakeの`AI_PARSE_DOCUMENT`に新しく追加された**`AGENTIC`モード**を使い、PDFのテキストだけでなくグラフや表などの視覚要素も抽出して検索可能にする方法を試してみました。…"
-        },
-        {
-          "title": "OpenAI、Hugging Faceでのインシデントなどを受けフロンティアモデルの監視システムを拡充",
-          "link": "https://codezine.jp/article/detail/30187",
-          "source": "CodeZine",
-          "published": "2026-11-01T00:00:00",
-          "excerpt": "OpenAI、Hugging Faceでのインシデントなどを受けフロンティアモデルの監視システムを拡充"
-        },
-        {
-          "title": "AI学習への利用拒否をrobots.txtで一括指定へ　OpenAIやGoogleなどが対応表明",
-          "link": "https://www.itmedia.co.jp/news/article/2611/01/2000002776/",
-          "source": "ITmedia NEWS",
-          "published": "2026-10-31T23:31:07",
-          "excerpt": "OpenAI、Google、Microsoftは、Webサイト運営者がAI学習へのコンテンツ利用に関する意向を一括で指定できる共通の仕組みへの対応を発表した。Anthropicも担当者が個人名義で実装を表明している。robots.…"
-        },
-        {
-          "title": "GPT-5.6 Sol は平和モードで Factorio に勝つことができます",
-          "link": "https://ryanmadden.net/gpt-56-beats-factorio/",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-31T18:50:34",
-          "excerpt": "記事の URL: https://ryanmadden.net/gpt-56-beats-factorio/ コメント URL: https://news.ycombinator.com/item?…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。おはようございます、YASUです。DynamoDBのスロットリングの記事で、「上限を超えると断られる」という話を書きましたが、Lambdaにも同じように、同時に処理できる数の上限があります。…",
+      "summary": "クラウドの新着が14件。はじめに 業務の中でプライベート環境のEC2インスタンスへAWS CLIを導入（構築）する機会がありましたので、自身の備忘録を兼ねて記事にまとめました。…",
       "articles": [
+        {
+          "title": "プライベート環境のEC2インスタンスへAWS CLIを導入する手順について",
+          "link": "https://qiita.com/tomoya0117/items/10202d16e6efe974b2fa",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-01T07:18:02",
+          "excerpt": "はじめに 業務の中でプライベート環境のEC2インスタンスへAWS CLIを導入（構築）する機会がありましたので、自身の備忘録を兼ねて記事にまとめました。…"
+        },
+        {
+          "title": "初めてのAWS-Architect-セクション7(S3)",
+          "link": "https://qiita.com/akihira/items/081471bc54c412e0b745",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-01T06:59:37",
+          "excerpt": "Amazon S3完全ガイド: オブジェクトストレージの基礎からデータ分析まで AWSで最も利用されるサービスの1つが Amazon S3（Simple Storage Service） です。…"
+        },
         {
           "title": "Lambdaの同時実行、予約済みとプロビジョニング済みの違い",
           "link": "https://zenn.dev/yasutomo7974/articles/dva-lambda-reserved-provisioned-concurrency",
@@ -57,27 +71,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-10-31T22:00:00",
           "excerpt": "こんにちは。ファインディでFindy Freelanceの開発をしている甲斐（@karukan013L23）です。…"
-        },
-        {
-          "title": "CloudFront の AWS WAF SDK 自動統合を有効にして、HTML への script タグ挿入と応答の変化を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/waf-cloudfront-automatic-sdk-integration/",
-          "source": "DevelopersIO",
-          "published": "2026-10-31T17:55:11",
-          "excerpt": "アプリケーションや CI/CD にタグを組み込むことなく、web ACL の設定だけで WAF SDK のシグナルを Bot Control などの判定に利用できます。一方で、ETag と Range 要求の扱いにも影響します。"
-        },
-        {
-          "title": "Amazon ECS の新機能 「ECS Gateway」 を試してみた",
-          "link": "https://dev.classmethod.jp/articles/try-amazon-ecs-gateway/",
-          "source": "DevelopersIO",
-          "published": "2026-10-31T17:03:26",
-          "excerpt": "Amazon ECS Gateway でパブリック用とプライベート用のゲートウェイを作り、サービスの入口を分けました。接続したサービスには、AWS が管理するドメイン（on.aws）の HTTPS エンドポイントが割り当てられました。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。はじめに システムに脆弱性が発見されたとき、こんな経験はないでしょうか。…",
+      "summary": "セキュリティの新着が5件。はじめに システムに脆弱性が発見されたとき、こんな経験はないでしょうか。…",
       "articles": [
         {
           "title": "脆弱性対応で迷わないために、システム構成図を2種類に分けてみた",
@@ -85,6 +85,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-11-01T00:00:06",
           "excerpt": "はじめに システムに脆弱性が発見されたとき、こんな経験はないでしょうか。…"
+        },
+        {
+          "title": "楽天証券、顧客情報流出の可能性　NTTデータ委託先不正アクセスで",
+          "link": "https://japan.cnet.com/article/35254251/",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-10-31T23:27:23",
+          "excerpt": "不正アクセスを受けたのは、特典の申し込みなどに使われる外部サービスの提供元、NTTデータの委託先が提供する「デジタル証券プラットフォーム」。楽天証券はNTTデータから、システム内の情報が外部に持ち出された可能性があるとの報告を受けた。…"
         },
         {
           "title": "TCP 解放後の使用: CVE-2026-98432 / CVSS 9.8",
@@ -99,13 +106,6 @@
           "source": "DevelopersIO",
           "published": "2026-10-31T17:55:11",
           "excerpt": "アプリケーションや CI/CD にタグを組み込むことなく、web ACL の設定だけで WAF SDK のシグナルを Bot Control などの判定に利用できます。一方で、ETag と Range 要求の扱いにも影響します。"
-        },
-        {
-          "title": "マルウェアは LLM を使用して、被害者の価値に基づいて被害者をランク付けします",
-          "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-          "source": "Hacker News（英語）",
-          "published": "2026-10-31T14:29:03",
-          "excerpt": "記事の URL: https://blog.talosintelligence.…"
         }
       ]
     },
@@ -126,67 +126,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。アプリケーションや CI/CD にタグを組み込むことなく、web ACL の設定だけで WAF SDK のシグナルを Bot Control などの判定に利用できます。一方で、ETag と Range 要求の扱いにも影響します。",
+      "summary": "開発ツールの新着が9件。GitHub CopilotのAgentモードでは、ターミナルコマンドの実行などでユーザーの承認が必要になることがあります。操作内容を確認できる一方、頻繁な承認要求は開発作業の効率を下げる要因にもなります。…",
       "articles": [
+        {
+          "title": "GitHub Copilot Assisted permissionsを検証｜企業利用での注意点 | Alternative Architecture DOJO",
+          "link": "https://aadojo.alterbooth.com/entry/2026/11/01/175820",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-01T08:58:20",
+          "excerpt": "GitHub CopilotのAgentモードでは、ターミナルコマンドの実行などでユーザーの承認が必要になることがあります。操作内容を確認できる一方、頻繁な承認要求は開発作業の効率を下げる要因にもなります。…"
+        },
+        {
+          "title": "プライベート環境のEC2インスタンスへAWS CLIを導入する手順について",
+          "link": "https://qiita.com/tomoya0117/items/10202d16e6efe974b2fa",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-01T07:18:02",
+          "excerpt": "はじめに 業務の中でプライベート環境のEC2インスタンスへAWS CLIを導入（構築）する機会がありましたので、自身の備忘録を兼ねて記事にまとめました。…"
+        },
+        {
+          "title": "GitHub Copilotアプリ、「Projects」とコンピューター操作機能をプレビュー公開",
+          "link": "https://codezine.jp/article/detail/30190",
+          "source": "CodeZine",
+          "published": "2026-11-01T04:00:00",
+          "excerpt": "GitHub Copilotアプリ、「Projects」とコンピューター操作機能をプレビュー公開"
+        },
         {
           "title": "CloudFront の AWS WAF SDK 自動統合を有効にして、HTML への script タグ挿入と応答の変化を確認してみた",
           "link": "https://dev.classmethod.jp/articles/waf-cloudfront-automatic-sdk-integration/",
           "source": "DevelopersIO",
           "published": "2026-10-31T17:55:11",
           "excerpt": "アプリケーションや CI/CD にタグを組み込むことなく、web ACL の設定だけで WAF SDK のシグナルを Bot Control などの判定に利用できます。一方で、ETag と Range 要求の扱いにも影響します。"
-        },
-        {
-          "title": "Terraform入門 第4回：モジュールでTerraform設定を再利用する",
-          "link": "https://qiita.com/k0ga/items/7d2e4cd2936c4de59057",
-          "source": "Qiita AWSタグ",
-          "published": "2026-10-31T14:21:08",
-          "excerpt": "はじめに Terraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。第3回では、Terraform StateをS3のリモートバックエンドで管理しました。…"
-        },
-        {
-          "title": "Spring BootをAWSにデプロイするまで ─ RDS・ECR・ECS/Fargateで学ぶAWS #2",
-          "link": "https://zenn.dev/mohu_mohu/articles/46329de6723ccc",
-          "source": "Zenn AWSトピック",
-          "published": "2026-10-31T14:12:31",
-          "excerpt": "Amazon ECRにDockerイメージを登録 AWSにログイン AWSにログインしたら、リージョンが下記の通りになっていることを確認します Asia Pacific (Tokyo) ap-northeast-1 リポジトリの作成 ECR…"
-        },
-        {
-          "title": "Terraform の -minimal-refresh で plan 時間を短縮できるか検証してみた",
-          "link": "https://dev.classmethod.jp/articles/terraform-minimal-refresh/",
-          "source": "DevelopersIO",
-          "published": "2026-10-31T11:20:52",
-          "excerpt": "Terraform 1.17 で追加された `-minimal-refresh` オプションを実際に試してみました。3 階層構成で refresh 回数がどれだけ削減され、plan 時間が短くなるかを検証した結果をお伝えします。"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【AWS CLF合格体験記】未経験からのステップアップ！1か月でゆるっとAWS CLFに合格する",
-      "link": "https://qiita.com/kanzo18/items/ab96df290a440f6e3b66",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-01T02:23:10",
-      "excerpt": "読むにあたって AWS Certified Cloud Practitioner（CLF）に合格しました！勉強期間は約1か月。今回は、文系・未経験からAWSの勉強を始めた私が、どのような教材を使い、どうやって勉強を進めたのかを紹介します。…"
+      "title": "固定電話は100日以内に英国全土で内線なしで停止 – Openreach",
+      "link": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
+      "source": "The Register（英語）",
+      "published": "2026-11-01T09:04:00",
+      "excerpt": "従来の公衆交換電話網サービスは 2027 年 1 月 31 日に廃止されます"
     },
     {
-      "title": "データセンターは現在、ブルックリンでも中期的な課題となっている",
-      "link": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-11-01T02:22:10",
-      "excerpt": "投票日の 5 日前にブルックリンで開かれた中間パーティーでは、議員らの炉端での雑談から民主党についての討論に至るまで、あらゆる会話が AI とデータセンターの話題に戻り続けた。"
+      "title": "Amazon MemoryDB のシャードを書き込み中にフェイルオーバーさせ、止まった時間と再試行の結果を確認してみた",
+      "link": "https://dev.classmethod.jp/articles/memorydb-failover-shard-during-writes-retry/",
+      "source": "DevelopersIO",
+      "published": "2026-11-01T08:00:31",
+      "excerpt": "AWS MemoryDB でプライマリノードのフェイルオーバーが発生したとき、アプリケーションの書き込みが実際に何秒止まるのか、どんなエラーが返されるのか、再試行でデータを取りこぼさないようにするにはどうすればいいのかを、実際に検証してみま…"
     },
     {
-      "title": "AWS Continuumで閉域のアプリをペンテストする",
-      "link": "https://qiita.com/Pretzelisa/items/b03c061c1aafcac5cbc5",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-01T01:36:01",
-      "excerpt": "はじめに AWS Continuumのペネトレーションテストは、インターネットからアクセスできるエンドポイントに対しても、VPC内でプライベートに動いているアプリに対しても実行できる。…"
+      "title": "Amazon Connect Customer、顧客維持や収益につながる成果を測定可能に",
+      "link": "https://codezine.jp/article/detail/30189",
+      "source": "CodeZine",
+      "published": "2026-11-01T08:00:00",
+      "excerpt": "Amazon Connect Customer、顧客維持や収益につながる成果を測定可能に"
     },
     {
-      "title": "Amazon Linux 2023をupgradeできない->再起動->起動しない",
-      "link": "https://qiita.com/nkojima/items/aa9f2a4ed927a1eb903a",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-01T01:12:44",
-      "excerpt": "はじめに Amazon Linux 2023の環境でOSをupgradeしようとしたところ、以下のように「Killed」とだけ表示されて更新処理が中断してしまいました。今回はこの原因と対応方法を記事としてまとめてみました。…"
+      "title": "中古パーツで自作PCを組むときに確認すること",
+      "link": "https://dev.classmethod.jp/articles/diy-pc-used-parts-buying-guide/",
+      "source": "DevelopersIO",
+      "published": "2026-11-01T07:38:07",
+      "excerpt": "余ったメモリを活用するために久々に自作PCを組んでみました。今回は中古パーツで自作PCを組む際に確認すべきポイントや、実際に組み上げた構成について紹介します。"
     }
   ]
 }
