@@ -1,111 +1,111 @@
 {
-  "generated_at": "2026-11-02T04:53:26",
+  "generated_at": "2026-11-02T12:57:04",
   "window_hours": 24,
-  "total": 119,
+  "total": 141,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が23件。インターンでは、AIエージェントの機能追加の設計・実装に携わりました。この記事では、その中でもRAG（Retrieval-Augmented Generation）の検索の部分に焦点を当てます。…",
+      "summary": "生成AIの新着が27件。はじめに AWS上の開発環境の構築を、Claude Codeを使って3ヶ月→1ヶ月で終えました。この記事では、何をClaude Codeに任せ、何を任せなかったのか、なぜ短縮できたのかを書きます。…",
       "articles": [
         {
-          "title": "RAGとJevで「ベクトルDBに根拠となる答えがない」ことを見分ける仕組みを作った話 | every Tech Blog",
-          "link": "https://tech.every.tv/entry/2026/11/02/120000",
+          "title": "インフラの開発環境構築を3ヶ月→1ヶ月にしたClaude Codeの使い方（AWS / ECS 9サービス）",
+          "link": "https://qiita.com/shainfra07/items/c149c06162ab1f3b136a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-02T12:25:03",
+          "excerpt": "はじめに AWS上の開発環境の構築を、Claude Codeを使って3ヶ月→1ヶ月で終えました。この記事では、何をClaude Codeに任せ、何を任せなかったのか、なぜ短縮できたのかを書きます。…"
+        },
+        {
+          "title": "ビンテージの楽しみ: できるという理由だけで、レトロなハードウェアを使用して AI エージェントを挑発する",
+          "link": "https://www.theregister.com/offbeat/2026/11/02/vintage-fun-prodding-ai-agents-using-retro-hardware-just-because-you-can/5306705",
+          "source": "The Register（英語）",
+          "published": "2026-11-02T11:00:00",
+          "excerpt": "「AI コーディングの現在の時代に自分ができることを広げるのに役立ち、好奇心を維持し続けることができます。」"
+        },
+        {
+          "title": "Claude Securityプラグインが何をやっているか覗いてみた👁️ | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/2026/11/02/190349",
           "source": "企業テックブログまとめ",
-          "published": "2026-11-02T03:00:00",
-          "excerpt": "インターンでは、AIエージェントの機能追加の設計・実装に携わりました。この記事では、その中でもRAG（Retrieval-Augmented Generation）の検索の部分に焦点を当てます。…"
+          "published": "2026-11-02T10:03:49",
+          "excerpt": "（本記事の本文は作者が概ね作成していますが、レビュー時にAIを活用しています） MS部サービス基盤開発課兼ドラクエ部のくればやしです。…"
         },
         {
-          "title": "OpenAI・Google・Microsoft、robots.txtでAI学習への利用を許可・拒否する指定に対応へ",
-          "link": "https://gihyo.jp/article/2026/11/robots-txt-ai-training-controls?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-11-02T02:47:00",
-          "excerpt": "OpenAI、Google、Microsoftは2026年10月30日、robots.txtでWebコンテンツのAI学習利用を指定する新たな仕組みに対応する方針を発表した。"
-        },
-        {
-          "title": "ワールド子会社に不正アクセス、会員情報のべ約120万件が流出の可能性　「RAGTAG」運営元",
-          "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002783/",
-          "source": "ITmedia NEWS",
-          "published": "2026-11-02T02:06:13",
-          "excerpt": "氏名、住所、電話番号、生年月日、性別、メールアドレスを含む。"
-        },
-        {
-          "title": "特定リージョンで利用できる Bedrock の推論プロファイルを確認する方法を教えてください",
-          "link": "https://dev.classmethod.jp/articles/tsnote-bedrock-check-inference-profiles-in-region/",
-          "source": "DevelopersIO",
-          "published": "2026-11-02T00:55:33",
-          "excerpt": "Amazon Bedrock で東京リージョンから推論する際、モデルのサポート状況や日本国内に閉じた推論が可能かどうかを確認する方法を紹介します。"
+          "title": "Claude Code更新 MCPタスク・ultrathink【10/23〜29】 | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/2026/11/02/190000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-02T10:00:00",
+          "excerpt": "はじめに サーバーワークスの池田です。今週（2026年10月23日〜29日）は、v2.1.310・v2.1.311・v2.1.312の3バージョンが対象です。公式CHANGELOGは計157項目で、順に26・92・39項目です。v2.1.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。TL;DR CIをCircleCIからGitHub Actions（以下GHA）に移行し、テストジョブを本番と共通のベースイメージで動かすようにしたところ、ECRのデータ転送料金がだいたい5倍に増えた 原因は、AWSの外にあるGHAのランナ…",
+      "summary": "クラウドの新着が7件。はじめに AWS上の開発環境の構築を、Claude Codeを使って3ヶ月→1ヶ月で終えました。この記事では、何をClaude Codeに任せ、何を任せなかったのか、なぜ短縮できたのかを書きます。…",
       "articles": [
         {
-          "title": "CircleCIからGitHub Actionsに移行したらECRの料金が跳ね上がった話",
-          "link": "https://qiita.com/gorgonzola731/items/06129cd19fc4fa47b3dd",
+          "title": "インフラの開発環境構築を3ヶ月→1ヶ月にしたClaude Codeの使い方（AWS / ECS 9サービス）",
+          "link": "https://qiita.com/shainfra07/items/c149c06162ab1f3b136a",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-02T00:52:53",
-          "excerpt": "TL;DR CIをCircleCIからGitHub Actions（以下GHA）に移行し、テストジョブを本番と共通のベースイメージで動かすようにしたところ、ECRのデータ転送料金がだいたい5倍に増えた 原因は、AWSの外にあるGHAのランナ…"
+          "published": "2026-11-02T12:25:03",
+          "excerpt": "はじめに AWS上の開発環境の構築を、Claude Codeを使って3ヶ月→1ヶ月で終えました。この記事では、何をClaude Codeに任せ、何を任せなかったのか、なぜ短縮できたのかを書きます。…"
         },
         {
-          "title": "API Gatewayのステージ変数とは?dev・prodでLambdaのエイリアスを切り替える",
-          "link": "https://zenn.dev/yasutomo7974/articles/dva-api-gateway-stage-variables",
+          "title": "Amazon Data FirehoseのLambda変換で、失敗・破棄したレコードがどこへ行くのか確かめてみた",
+          "link": "https://dev.classmethod.jp/articles/202611-mitsuguchi-firehose-to-lambda-kensho/",
+          "source": "DevelopersIO",
+          "published": "2026-11-02T09:20:43",
+          "excerpt": "Amazon Data FirehoseのLambda変換で、失敗したレコードがS3のどこに、どんな形で残るのかを実際に検証してみました。…"
+        },
+        {
+          "title": "S3への画像アップロード、署名付きPUTとPOSTはどう使い分ける？",
+          "link": "https://qiita.com/pengin_r/items/d3f3fbe1b4ba1e648ed7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-02T08:30:25",
+          "excerpt": "はじめに エンジニア未経験で入社し、初めてAWSに触れる中で、画像をAmazon S3にアップロードする方法が複数あることを知りました。…"
+        },
+        {
+          "title": "Inflearnが自動で字幕を生成するまで（AI/インフラ編）",
+          "link": "https://zenn.dev/inflab/articles/1e7abee854ffb6",
           "source": "Zenn AWSトピック",
-          "published": "2026-11-02T00:19:02",
-          "excerpt": "おはようございます、YASUです。前に、Lambdaのバージョンとエイリアスを整理しました。DVAの勉強を進めると、API Gatewayの「ステージ変数」が、そのエイリアスと組み合わせて出てきます。…"
-        },
-        {
-          "title": "コピーではなく翻訳する 〜Amebaブログのレガシー Node.js アプリを止めずに Next.js / EKS へ移した話〜 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-          "link": "https://developers.cyberagent.co.jp/blog/archives/66932/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-01T23:00:09",
-          "excerpt": "はじめに こんにちは、2026 年入社のソフトウェアエンジニア、イム・ヒョンギュです。5 月にドット ..."
-        },
-        {
-          "title": "【CloudWatch】Logs Insights(ログ分析)を使って、”なんとなく”のログ探しを卒業する【Lambda】",
-          "link": "https://zenn.dev/yoss_k3/articles/2dc24648854632",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-01T12:00:07",
-          "excerpt": "!本記事の執筆は2026年11月に行っています。執筆時点と最新とで情報に変化がある可能性があります。…"
+          "published": "2026-11-02T03:17:34",
+          "excerpt": "!この記事は2023年10月31日に執筆されたものです。こんにちは。InflabのDevOpsエンジニア、SunBです。2023年9月、Inflearnに字幕とスクリプトの機能が追加されました。皆さん、活用されていますか？…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。GitHub、Copilotアプリ向けセキュリティ拡張機能をパブリックプレビューで公開",
+      "summary": "セキュリティの新着が14件。はじめに 2026年10月に公表された PHPの脆弱性「php2shell」に、公表当日の夜に対応しましたので、備忘録としてやったことを記載していきます！…",
       "articles": [
         {
-          "title": "GitHub、Copilotアプリ向けセキュリティ拡張機能をパブリックプレビューで公開",
-          "link": "https://codezine.jp/article/detail/30196",
-          "source": "CodeZine",
-          "published": "2026-11-02T04:00:00",
-          "excerpt": "GitHub、Copilotアプリ向けセキュリティ拡張機能をパブリックプレビューで公開"
+          "title": "PHPの脆弱性「php2shell」が来たので、Amazonの公式パッケージを待たずにPHPを自分でビルドして本番に入れた話",
+          "link": "https://qiita.com/Tukirukiki/items/beec6fedd37f63e1c231",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-02T11:05:13",
+          "excerpt": "はじめに 2026年10月に公表された PHPの脆弱性「php2shell」に、公表当日の夜に対応しましたので、備忘録としてやったことを記載していきます！…"
         },
         {
-          "title": "ランサムウェアに会計データを暗号化されたトンボ飲料、被害経験から導いた「再発防止策」とは？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/02/news022.html",
-          "source": "@IT",
-          "published": "2026-11-02T03:45:00",
-          "excerpt": "ランサムウェア被害を経験したトンボ飲料は、同様の被害を繰り返さないためにセキュリティ対策を強化している。脆弱性情報の把握を効率化するなど、既に具体的な成果も上がっているという。対策をどう見直したのか。"
+          "title": "Claude Securityプラグインが何をやっているか覗いてみた👁️ | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/2026/11/02/190349",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-02T10:03:49",
+          "excerpt": "（本記事の本文は作者が概ね作成していますが、レビュー時にAIを活用しています） MS部サービス基盤開発課兼ドラクエ部のくればやしです。…"
         },
         {
-          "title": "楽天証券、顧客情報362件が漏えいか　NTTデータ委託先に不正アクセス",
-          "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002785/",
+          "title": "【開催報告】フロンティア AI 時代のサイバー攻撃に備える ― 臨時開催 AWS セキュリティセミナー",
+          "link": "https://aws.amazon.com/jp/blogs/news/aws-security-seminar-frontier-ai-report/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-11-02T07:10:46",
+          "excerpt": "2026年10月23日と30日に、臨時のAWSセキュリティセミナー「フロンティアAI時代のサイバー攻撃に備える」をオンラインで開催しました。…"
+        },
+        {
+          "title": "アットコスメ、会員約300万人分の情報漏えい　不正アクセスで",
+          "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002795/",
           "source": "ITmedia NEWS",
-          "published": "2026-11-02T03:02:40",
-          "excerpt": "漏えいした可能性がある項目は明らかにしていない。"
-        },
-        {
-          "title": "OSを更新しても防げない　「Brotli」に重大脆弱性、Node.jsに潜む“見えない侵入口”",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/02/news020.html",
-          "source": "@IT",
-          "published": "2026-11-02T03:00:00",
-          "excerpt": "OSやアプリケーションを更新しても、脆弱性が残っているかもしれない。Googleの圧縮ライブラリ「Brotli」に、CVSS 9.2の重大脆弱性が見つかった。Node.jsではコード実行も実証され、攻撃の試みも観測されている。…"
+          "published": "2026-11-02T05:40:09",
+          "excerpt": "「@cosme共通ID」に登録された会員情報の一部・約300万人分が漏えいした。名前や住所、生年月日、肌質、髪質などが含まれている。"
         }
       ]
     },
@@ -140,7 +140,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表しました。Copilot Fusi.…",
+      "summary": "開発ツールの新着が10件。GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表しました。Copilot Fusi.…",
       "articles": [
         {
           "title": "GitHub、「Copilot Fusion」正式リリース。タスクに応じて最適なAIモデル選択で高性能かつ低コストに。GitHub Universe 2026",
@@ -148,6 +148,13 @@
           "source": "Publickey",
           "published": "2026-11-02T14:36:38",
           "excerpt": "GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表しました。Copilot Fusi.…"
+        },
+        {
+          "title": "Amazon EVS と FSx for ONTAP における Oracle Database のデプロイステップ",
+          "link": "https://aws.amazon.com/jp/blogs/news/deploy-oracle-database-step-by-step-on-amazon-evs-with-fsx-for-ontap/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-11-02T07:51:05",
+          "excerpt": "この記事では、NFS データストアストレージとして Amazon FSx for NetApp ONTAP を使用して、Amazon Elastic VMware Service (Amazon EVS) 上に Oracle Databas…"
         },
         {
           "title": "GitHub、Copilotアプリ向けセキュリティ拡張機能をパブリックプレビューで公開",
@@ -162,45 +169,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-02T03:52:05",
           "excerpt": "はじめに これまでの4回で、 SpecKit の導入 Constitution Specification Plan Tasks Implement まで一通り体験しました。最終回となる今回は、 実際に使ってみて感じたこと をまとめます。…"
-        },
-        {
-          "title": "クラウドが状態を把握してもIaCがなくならない理由 - YAMAGUCHI::weblog",
-          "link": "https://ymotongpoo.hatenablog.com/entry/2026/11/02/093500",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-02T01:05:51",
-          "excerpt": "はじめに こんにちは、Grafana Labsでデベロッパーアドボケイトをしているものです。2026年10月31日、元同僚のJames Ward*1が、Xで「IaC is dead」と投稿しました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "インド、「データがモデルに移動するのではなく、モデルがデータに移動する」という AI 計画が浮上",
-      "link": "https://www.theregister.com/public-sector/2026/11/02/india-floats-ai-plan-under-which-the-model-travels-to-the-data-rather-than-the-data-travelling-to-the-model/5306872",
-      "source": "The Register（英語）",
-      "published": "2026-11-02T04:39:50",
-      "excerpt": "ビッグテックがあらゆるものにオープンアクセスすることなく、よりローカルな AI を望んでいる"
+      "title": "フロリダでプライベートジェット機が墜落",
+      "link": "https://www.cbc.ca/news/world/florida-plane-crash-9.7404996",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-02T12:26:13",
+      "excerpt": "記事の URL: https://www.cbc.ca/news/world/florida-plane-crash-9.7404996 コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "借りた読書: 私たちの同僚からの物語",
-      "link": "https://techcrunch.com/2026/11/01/borrowed-reading-stories-from-our-extended-colleagues/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-11-02T04:23:48",
-      "excerpt": "CIO、Computerworld、Macworld、PCWorld の同僚からの 5 つのストーリーは、時間をかけて読む価値があります。"
+      "title": "「命の砂時計」連呼のGMO会見──熊谷代表の発言にXではツッコミ続出",
+      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002828/",
+      "source": "ITmedia NEWS",
+      "published": "2026-11-02T11:57:33",
+      "excerpt": "GMOインターネットグループの熊谷正寿代表は11月2日の記者会見で、AIの説明に時間を割いた理由を記者が尋ねると、自身の「命の砂時計」をインターネットとグループに捧げていると語った。Xでの発信を一定期間休止することも表明した。"
     },
     {
-      "title": "Patch Manager で適用した .NET Framework の KB 番号が Get-HotFix の KB 番号と一致しないときにパッチが正しく適用されたか確認する方法",
-      "link": "https://dev.classmethod.jp/articles/tsnote-ssm-patch-manager-kb-mismatch/",
-      "source": "DevelopersIO",
-      "published": "2026-11-02T03:28:27",
-      "excerpt": "AWS Systems Manager Patch Manager で EC2 の Windows Server に .…"
+      "title": "決して文句を言わない、決して説明しない",
+      "link": "https://en.wikipedia.org/wiki/Never_complain,_never_explain",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-02T11:55:48",
+      "excerpt": "記事の URL: https://en.wikipedia.org/wiki/Never_complain,_never_explain コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "TorchNeuronの公開ベータを確認：PyTorchのCUDA依存を静的点検する",
-      "link": "https://qiita.com/sin-aiagent/items/00ecb18babcf98e9adb2",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-02T03:27:55",
-      "excerpt": "発表：2026年10月19日／AWS公開ベータ告知：10月20日／公式資料の再確認：11月2日。本稿は過去の発表を現在の仕様と照合する技術メモです。…"
+      "title": "ヨーロッパ全土のスーパーマーケットの冷凍庫が二度目のサイバー攻撃の疑いで被害に遭う",
+      "link": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-02T11:50:13",
+      "excerpt": "記事の URL: https://www.theguardian.…"
     }
   ]
 }
