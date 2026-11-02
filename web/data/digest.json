@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-11-02T12:57:04",
+  "generated_at": "2026-11-02T22:02:11",
   "window_hours": 24,
-  "total": 141,
+  "total": 143,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が27件。はじめに AWS上の開発環境の構築を、Claude Codeを使って3ヶ月→1ヶ月で終えました。この記事では、何をClaude Codeに任せ、何を任せなかったのか、なぜ短縮できたのかを書きます。…",
+      "summary": "生成AIの新着が21件。先週印象に残ったエージェントの起動は、モデルの能力とは何の関係もありませんでした。それらはもう手の届くところだった。…",
       "articles": [
+        {
+          "title": "AWS ウィークリーまとめ: Bedrock 上の GPT-6.1 Terra、エージェントツールとしての Step Functions など (2026 年 11 月 2 日)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/",
+          "source": "AWS News Blog（英語）",
+          "published": "2026-11-02T16:45:48",
+          "excerpt": "先週印象に残ったエージェントの起動は、モデルの能力とは何の関係もありませんでした。それらはもう手の届くところだった。…"
+        },
+        {
+          "title": "Bedrock AgentCore CLI 1.0 の agentcore migrate で、デプロイ済みのエージェントを作り直さずに v1 へ移行してみた",
+          "link": "https://qiita.com/leomarokun/items/be67841e243f0adb5e67",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-02T13:49:54",
+          "excerpt": "はじめに Amazon Bedrock AgentCore の CLI が、バージョン 1.0 として GA になりました。コマンド体系が作り直されていて、0.x（以下 v0）で作ったプロジェクトはそのままでは v1 で扱えません。…"
+        },
         {
           "title": "インフラの開発環境構築を3ヶ月→1ヶ月にしたClaude Codeの使い方（AWS / ECS 9サービス）",
           "link": "https://qiita.com/shainfra07/items/c149c06162ab1f3b136a",
@@ -22,63 +36,63 @@
           "source": "The Register（英語）",
           "published": "2026-11-02T11:00:00",
           "excerpt": "「AI コーディングの現在の時代に自分ができることを広げるのに役立ち、好奇心を維持し続けることができます。」"
-        },
-        {
-          "title": "Claude Securityプラグインが何をやっているか覗いてみた👁️ | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/11/02/190349",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-02T10:03:49",
-          "excerpt": "（本記事の本文は作者が概ね作成していますが、レビュー時にAIを活用しています） MS部サービス基盤開発課兼ドラクエ部のくればやしです。…"
-        },
-        {
-          "title": "Claude Code更新 MCPタスク・ultrathink【10/23〜29】 | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/2026/11/02/190000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-02T10:00:00",
-          "excerpt": "はじめに サーバーワークスの池田です。今週（2026年10月23日〜29日）は、v2.1.310・v2.1.311・v2.1.312の3バージョンが対象です。公式CHANGELOGは計157項目で、順に26・92・39項目です。v2.1.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が7件。はじめに AWS上の開発環境の構築を、Claude Codeを使って3ヶ月→1ヶ月で終えました。この記事では、何をClaude Codeに任せ、何を任せなかったのか、なぜ短縮できたのかを書きます。…",
+      "summary": "クラウドの新着が13件。本日より、Amazon RDS は Amazon RDS スナップショットのスナップショットごとの課金をサポートします。スナップショットごとの課金により、個々のスナップショットのコストを取得できます。…",
       "articles": [
         {
-          "title": "インフラの開発環境構築を3ヶ月→1ヶ月にしたClaude Codeの使い方（AWS / ECS 9サービス）",
-          "link": "https://qiita.com/shainfra07/items/c149c06162ab1f3b136a",
+          "title": "Amazon RDS がスナップショットごとの課金をサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-11-02T18:43:00",
+          "excerpt": "本日より、Amazon RDS は Amazon RDS スナップショットのスナップショットごとの課金をサポートします。スナップショットごとの課金により、個々のスナップショットのコストを取得できます。…"
+        },
+        {
+          "title": "Amazon Aurora MySQL 8.4.10 が一般提供になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8410-available/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-11-02T17:00:00",
+          "excerpt": "本日より、 Amazon Aurora MySQL 互換エディション 8.4 は MySQL 8.4.10 をサポートします。…"
+        },
+        {
+          "title": "Amazon Aurora MySQL 3.14 (MySQL 8.0.46 と互換性あり) が一般提供されました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-314-available/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-11-02T17:00:00",
+          "excerpt": "本日より、Amazon Aurora MySQL 互換エディション 3 (MySQL 8.0 と互換性のある) は、コミュニティ MySQL 修正と Aurora 固有の改善を含む MySQL 8.0.46 をサポートします。…"
+        },
+        {
+          "title": "Bedrock AgentCore CLI 1.0 の agentcore migrate で、デプロイ済みのエージェントを作り直さずに v1 へ移行してみた",
+          "link": "https://qiita.com/leomarokun/items/be67841e243f0adb5e67",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-02T12:25:03",
-          "excerpt": "はじめに AWS上の開発環境の構築を、Claude Codeを使って3ヶ月→1ヶ月で終えました。この記事では、何をClaude Codeに任せ、何を任せなかったのか、なぜ短縮できたのかを書きます。…"
-        },
-        {
-          "title": "Amazon Data FirehoseのLambda変換で、失敗・破棄したレコードがどこへ行くのか確かめてみた",
-          "link": "https://dev.classmethod.jp/articles/202611-mitsuguchi-firehose-to-lambda-kensho/",
-          "source": "DevelopersIO",
-          "published": "2026-11-02T09:20:43",
-          "excerpt": "Amazon Data FirehoseのLambda変換で、失敗したレコードがS3のどこに、どんな形で残るのかを実際に検証してみました。…"
-        },
-        {
-          "title": "S3への画像アップロード、署名付きPUTとPOSTはどう使い分ける？",
-          "link": "https://qiita.com/pengin_r/items/d3f3fbe1b4ba1e648ed7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-02T08:30:25",
-          "excerpt": "はじめに エンジニア未経験で入社し、初めてAWSに触れる中で、画像をAmazon S3にアップロードする方法が複数あることを知りました。…"
-        },
-        {
-          "title": "Inflearnが自動で字幕を生成するまで（AI/インフラ編）",
-          "link": "https://zenn.dev/inflab/articles/1e7abee854ffb6",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-02T03:17:34",
-          "excerpt": "!この記事は2023年10月31日に執筆されたものです。こんにちは。InflabのDevOpsエンジニア、SunBです。2023年9月、Inflearnに字幕とスクリプトの機能が追加されました。皆さん、活用されていますか？…"
+          "published": "2026-11-02T13:49:54",
+          "excerpt": "はじめに Amazon Bedrock AgentCore の CLI が、バージョン 1.0 として GA になりました。コマンド体系が作り直されていて、0.x（以下 v0）で作ったプロジェクトはそのままでは v1 で扱えません。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が14件。はじめに 2026年10月に公表された PHPの脆弱性「php2shell」に、公表当日の夜に対応しましたので、備忘録としてやったことを記載していきます！…",
+      "summary": "セキュリティの新着が15件。こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、インフラ学習サービス「InfraDojo（インフラ道場）」を運営しています。AWSの学習でIAMポリシーを開くと、こんな項目が並びます。…",
       "articles": [
+        {
+          "title": "【AWS初心者向け】IAMポリシーのActionとResourceとは？S3の権限を例に読み解く",
+          "link": "https://qiita.com/reo_infraengineer/items/7bdf9785d1f40bf84e68",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-02T12:57:50",
+          "excerpt": "こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、インフラ学習サービス「InfraDojo（インフラ道場）」を運営しています。AWSの学習でIAMポリシーを開くと、こんな項目が並びます。…"
+        },
+        {
+          "title": "Node.jsのBrotli解凍の脆弱性CVE-2026-111497の仕組みを理解する：コードに書かなくても解凍は起きる",
+          "link": "https://dev.classmethod.jp/articles/nodejs-brotli-decoder-auto-decompression/",
+          "source": "DevelopersIO",
+          "published": "2026-11-02T12:52:02",
+          "excerpt": "Node.js 22/24/26に同梱されたBrotliのデコーダーには、不正な圧縮データを「入力待ち」と誤判定し、内部バッファの外へ書き込む問題がありました。…"
+        },
         {
           "title": "PHPの脆弱性「php2shell」が来たので、Amazonの公式パッケージを待たずにPHPを自分でビルドして本番に入れた話",
           "link": "https://qiita.com/Tukirukiki/items/beec6fedd37f63e1c231",
@@ -92,27 +106,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-11-02T10:03:49",
           "excerpt": "（本記事の本文は作者が概ね作成していますが、レビュー時にAIを活用しています） MS部サービス基盤開発課兼ドラクエ部のくればやしです。…"
-        },
-        {
-          "title": "【開催報告】フロンティア AI 時代のサイバー攻撃に備える ― 臨時開催 AWS セキュリティセミナー",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-security-seminar-frontier-ai-report/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-11-02T07:10:46",
-          "excerpt": "2026年10月23日と30日に、臨時のAWSセキュリティセミナー「フロンティアAI時代のサイバー攻撃に備える」をオンラインで開催しました。…"
-        },
-        {
-          "title": "アットコスメ、会員約300万人分の情報漏えい　不正アクセスで",
-          "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002795/",
-          "source": "ITmedia NEWS",
-          "published": "2026-11-02T05:40:09",
-          "excerpt": "「@cosme共通ID」に登録された会員情報の一部・約300万人分が漏えいした。名前や住所、生年月日、肌質、髪質などが含まれている。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。FBIは、暗号資産取引所Binanceから60億ドル超の暗号資産が盗まれた事件を北朝鮮のサイバー攻撃活動「TraderTraitor」による犯行と発表した。FBIなどは民間事業者に資金洗浄の阻止を要請。…",
+      "summary": "データ分析の新着が1件。FBIは、暗号資産取引所Binanceから60億ドル超の暗号資産が盗まれた事件を北朝鮮のサイバー攻撃活動「TraderTraitor」による犯行と発表した。FBIなどは民間事業者に資金洗浄の阻止を要請。…",
       "articles": [
         {
           "title": "FBI、Binanceからの60億ドル超の暗号資産窃盗は北朝鮮「TraderTraitor」の犯行と発表",
@@ -120,28 +120,21 @@
           "source": "ITmedia NEWS",
           "published": "2026-11-01T22:28:21",
           "excerpt": "FBIは、暗号資産取引所Binanceから60億ドル超の暗号資産が盗まれた事件を北朝鮮のサイバー攻撃活動「TraderTraitor」による犯行と発表した。FBIなどは民間事業者に資金洗浄の阻止を要請。…"
-        },
-        {
-          "title": "TechCrunch Mobility: 新しく大きな AV ブームが到来",
-          "link": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-01T17:04:00",
-          "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。"
-        },
-        {
-          "title": "【DynamoDB Streams x SQS】ストリームの接続方式を整理する",
-          "link": "https://qiita.com/jus1730/items/29add8e1b8e2c9f295d6",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-01T13:41:34",
-          "excerpt": "Amazon SQS はじめに 前回まで、DynamoDB Streams x Lambda のイベント駆動がどこまでスケールするかを確かめてきました。結..."
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表しました。Copilot Fusi.…",
+      "summary": "開発ツールの新着が11件。GitHub Actionsのworkflow lockfileがGAになりました。…",
       "articles": [
+        {
+          "title": "GitHub Actionsのworkflow lockfileがGA。更新漏れとオンボードし忘れを、CI・Dependabot・ポリシーでどう止めるか試す",
+          "link": "https://dev.classmethod.jp/articles/github-actions-lockfile-ga-operations/",
+          "source": "DevelopersIO",
+          "published": "2026-11-02T15:24:44",
+          "excerpt": "GitHub Actionsのworkflow lockfileがGAになりました。…"
+        },
         {
           "title": "GitHub、「Copilot Fusion」正式リリース。タスクに応じて最適なAIモデル選択で高性能かつ低コストに。GitHub Universe 2026",
           "link": "https://www.publickey1.jp/blog/26/githubcopilot_fusionaigithub_universe_2026.html",
@@ -150,57 +143,50 @@
           "excerpt": "GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表しました。Copilot Fusi.…"
         },
         {
-          "title": "Amazon EVS と FSx for ONTAP における Oracle Database のデプロイステップ",
-          "link": "https://aws.amazon.com/jp/blogs/news/deploy-oracle-database-step-by-step-on-amazon-evs-with-fsx-for-ontap/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-11-02T07:51:05",
-          "excerpt": "この記事では、NFS データストアストレージとして Amazon FSx for NetApp ONTAP を使用して、Amazon Elastic VMware Service (Amazon EVS) 上に Oracle Databas…"
-        },
-        {
-          "title": "GitHub、Copilotアプリ向けセキュリティ拡張機能をパブリックプレビューで公開",
-          "link": "https://codezine.jp/article/detail/30196",
-          "source": "CodeZine",
-          "published": "2026-11-02T04:00:00",
-          "excerpt": "GitHub、Copilotアプリ向けセキュリティ拡張機能をパブリックプレビューで公開"
-        },
-        {
-          "title": "【第5回】Cursor × SpecKitではじめる仕様駆動開発（実践編）～AIと仕様を育てながらTerraform開発して分かったこと～",
-          "link": "https://qiita.com/kooohei/items/af25d69df45b0dd118c3",
+          "title": "Bedrock AgentCore CLI 1.0 の agentcore migrate で、デプロイ済みのエージェントを作り直さずに v1 へ移行してみた",
+          "link": "https://qiita.com/leomarokun/items/be67841e243f0adb5e67",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-02T03:52:05",
-          "excerpt": "はじめに これまでの4回で、 SpecKit の導入 Constitution Specification Plan Tasks Implement まで一通り体験しました。最終回となる今回は、 実際に使ってみて感じたこと をまとめます。…"
+          "published": "2026-11-02T13:49:54",
+          "excerpt": "はじめに Amazon Bedrock AgentCore の CLI が、バージョン 1.0 として GA になりました。コマンド体系が作り直されていて、0.x（以下 v0）で作ったプロジェクトはそのままでは v1 で扱えません。…"
+        },
+        {
+          "title": "GitHub ActionsのSHAピン留めを設定で強制する。何が止まるか、lockfileならタグのまま通せるかを試す",
+          "link": "https://dev.classmethod.jp/articles/github-actions-require-sha-pinning/",
+          "source": "DevelopersIO",
+          "published": "2026-11-02T13:20:23",
+          "excerpt": "GitHub ActionsのSHAピン留めは設定で強制できます。タグ参照のほか、composite actionの中のタグ参照でも止まりました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "フロリダでプライベートジェット機が墜落",
-      "link": "https://www.cbc.ca/news/world/florida-plane-crash-9.7404996",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-02T12:26:13",
-      "excerpt": "記事の URL: https://www.cbc.ca/news/world/florida-plane-crash-9.7404996 コメント URL: https://news.ycombinator.com/item?…"
+      "title": "このスマートグラスは、あなたの沈黙の口の動きをテキストに変えることを約束します",
+      "link": "https://www.theregister.com/offbeat/2026/11/02/these-smart-glasses-promise-to-turn-your-silent-mouth-movements-into-text/5307070",
+      "source": "The Register（英語）",
+      "published": "2026-11-02T21:50:00",
+      "excerpt": "頭のおかしい人、それとも有能な社員?いつものように、それは彼らが着ているものによって異なります"
     },
     {
-      "title": "「命の砂時計」連呼のGMO会見──熊谷代表の発言にXではツッコミ続出",
-      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002828/",
-      "source": "ITmedia NEWS",
-      "published": "2026-11-02T11:57:33",
-      "excerpt": "GMOインターネットグループの熊谷正寿代表は11月2日の記者会見で、AIの説明に時間を割いた理由を記者が尋ねると、自身の「命の砂時計」をインターネットとグループに捧げていると語った。Xでの発信を一定期間休止することも表明した。"
+      "title": "BYDは先月、米国が四半期を通じて販売したよりも多くのEVを販売し、30万台を突破した",
+      "link": "https://electrek.co/2026/11/02/byd-sold-more-evs-last-month-than-the-us-did-all-quarter/",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-02T21:38:49",
+      "excerpt": "記事の URL: https://electrek.…"
     },
     {
-      "title": "決して文句を言わない、決して説明しない",
-      "link": "https://en.wikipedia.org/wiki/Never_complain,_never_explain",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-02T11:55:48",
-      "excerpt": "記事の URL: https://en.wikipedia.org/wiki/Never_complain,_never_explain コメント URL: https://news.ycombinator.com/item?…"
+      "title": "ウイルスが家畜に飛び始めて以来、鳥インフルエンザで3人目が死亡",
+      "link": "https://arstechnica.com/health/2026/11/third-person-dies-of-bird-flu-since-virus-started-jumping-to-livestock/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-11-02T21:21:43",
+      "excerpt": "脅威はまだ低いと考えられていますが、ウイルスは広がり続けています。"
     },
     {
-      "title": "ヨーロッパ全土のスーパーマーケットの冷凍庫が二度目のサイバー攻撃の疑いで被害に遭う",
-      "link": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-02T11:50:13",
-      "excerpt": "記事の URL: https://www.theguardian.…"
+      "title": "AIはこれまで隠されていた抜け穴を見つけて法制度を破壊する可能性がある",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/02/ai-could-break-legal-systems-by-finding-previously-hidden-loopholes/5307066",
+      "source": "The Register（英語）",
+      "published": "2026-11-02T21:12:21",
+      "excerpt": "法律にもバグがある可能性があることが判明"
     }
   ]
 }
