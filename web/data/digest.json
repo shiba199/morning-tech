@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-11-02T00:00:26",
+  "generated_at": "2026-11-02T04:53:26",
   "window_hours": 24,
-  "total": 91,
+  "total": 119,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。はじめに こんにちは、2026 年入社のソフトウェアエンジニア、イム・ヒョンギュです。5 月にドット ...",
+      "summary": "生成AIの新着が23件。インターンでは、AIエージェントの機能追加の設計・実装に携わりました。この記事では、その中でもRAG（Retrieval-Augmented Generation）の検索の部分に焦点を当てます。…",
       "articles": [
         {
-          "title": "コピーではなく翻訳する 〜Amebaブログのレガシー Node.js アプリを止めずに Next.js / EKS へ移した話〜 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-          "link": "https://developers.cyberagent.co.jp/blog/archives/66932/",
+          "title": "RAGとJevで「ベクトルDBに根拠となる答えがない」ことを見分ける仕組みを作った話 | every Tech Blog",
+          "link": "https://tech.every.tv/entry/2026/11/02/120000",
           "source": "企業テックブログまとめ",
-          "published": "2026-11-01T23:00:09",
-          "excerpt": "はじめに こんにちは、2026 年入社のソフトウェアエンジニア、イム・ヒョンギュです。5 月にドット ..."
+          "published": "2026-11-02T03:00:00",
+          "excerpt": "インターンでは、AIエージェントの機能追加の設計・実装に携わりました。この記事では、その中でもRAG（Retrieval-Augmented Generation）の検索の部分に焦点を当てます。…"
         },
         {
-          "title": "【応用情報】R7秋 午後（問２：経営戦略）その３：設問２（２）と（３） | Agent Grow Tech Notesのフィード",
-          "link": "https://zenn.dev/agent_grow/articles/8788a315b7231f",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-01T23:00:06",
-          "excerpt": "はじめに令和７年度秋期 応用情報技術者試験（午後：問２ 経営戦略） について解説します。今回は続編です。前回までの記事をまだ読んでいない場合は、下記のリンクへどうぞ。その１：全体像の把握その２：設問１、設問２（１）!…"
+          "title": "OpenAI・Google・Microsoft、robots.txtでAI学習への利用を許可・拒否する指定に対応へ",
+          "link": "https://gihyo.jp/article/2026/11/robots-txt-ai-training-controls?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-11-02T02:47:00",
+          "excerpt": "OpenAI、Google、Microsoftは2026年10月30日、robots.txtでWebコンテンツのAI学習利用を指定する新たな仕組みに対応する方針を発表した。"
         },
         {
-          "title": "Google Cloud、ロボット向け推論モデル「Gemini Robotics ER 2」をプレビュー提供",
-          "link": "https://codezine.jp/article/detail/30192",
-          "source": "CodeZine",
-          "published": "2026-11-01T23:00:00",
-          "excerpt": "Google Cloud、ロボット向け推論モデル「Gemini Robotics ER 2」をプレビュー提供"
+          "title": "ワールド子会社に不正アクセス、会員情報のべ約120万件が流出の可能性　「RAGTAG」運営元",
+          "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002783/",
+          "source": "ITmedia NEWS",
+          "published": "2026-11-02T02:06:13",
+          "excerpt": "氏名、住所、電話番号、生年月日、性別、メールアドレスを含む。"
         },
         {
-          "title": "Amazon Bedrockのコスト管理を最適化する5段階の運用モデルと実践ガイド",
-          "link": "https://qiita.com/goyle/items/4a7acbc60c9517854a93",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-01T22:56:38",
-          "excerpt": "この記事でわかること Amazon Bedrockのコストを「誰が・何に」使ったか特定するための属性付与の手法 コストの可視化と、予算超過を防ぐための3つの強制（Enforcement）レベル プラットフォーム側で一括してコストを最適化する…"
+          "title": "特定リージョンで利用できる Bedrock の推論プロファイルを確認する方法を教えてください",
+          "link": "https://dev.classmethod.jp/articles/tsnote-bedrock-check-inference-profiles-in-region/",
+          "source": "DevelopersIO",
+          "published": "2026-11-02T00:55:33",
+          "excerpt": "Amazon Bedrock で東京リージョンから推論する際、モデルのサポート状況や日本国内に閉じた推論が可能かどうかを確認する方法を紹介します。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が7件。はじめに こんにちは、2026 年入社のソフトウェアエンジニア、イム・ヒョンギュです。5 月にドット ...",
+      "summary": "クラウドの新着が9件。TL;DR CIをCircleCIからGitHub Actions（以下GHA）に移行し、テストジョブを本番と共通のベースイメージで動かすようにしたところ、ECRのデータ転送料金がだいたい5倍に増えた 原因は、AWSの外にあるGHAのランナ…",
       "articles": [
+        {
+          "title": "CircleCIからGitHub Actionsに移行したらECRの料金が跳ね上がった話",
+          "link": "https://qiita.com/gorgonzola731/items/06129cd19fc4fa47b3dd",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-02T00:52:53",
+          "excerpt": "TL;DR CIをCircleCIからGitHub Actions（以下GHA）に移行し、テストジョブを本番と共通のベースイメージで動かすようにしたところ、ECRのデータ転送料金がだいたい5倍に増えた 原因は、AWSの外にあるGHAのランナ…"
+        },
+        {
+          "title": "API Gatewayのステージ変数とは?dev・prodでLambdaのエイリアスを切り替える",
+          "link": "https://zenn.dev/yasutomo7974/articles/dva-api-gateway-stage-variables",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-02T00:19:02",
+          "excerpt": "おはようございます、YASUです。前に、Lambdaのバージョンとエイリアスを整理しました。DVAの勉強を進めると、API Gatewayの「ステージ変数」が、そのエイリアスと組み合わせて出てきます。…"
+        },
         {
           "title": "コピーではなく翻訳する 〜Amebaブログのレガシー Node.js アプリを止めずに Next.js / EKS へ移した話〜 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
           "link": "https://developers.cyberagent.co.jp/blog/archives/66932/",
@@ -57,55 +71,41 @@
           "source": "Zenn AWSトピック",
           "published": "2026-11-01T12:00:07",
           "excerpt": "!本記事の執筆は2026年11月に行っています。執筆時点と最新とで情報に変化がある可能性があります。…"
-        },
-        {
-          "title": "ユーザー移行 Lambda トリガーで別アカウントの Cognito ユーザープールへパスワードごとユーザーを移行してみた",
-          "link": "https://dev.classmethod.jp/articles/shoma-migrated-users-with-passwords-to-cognito-user-pool-in-another-account-using-user-migration-lambda-trigger/",
-          "source": "DevelopersIO",
-          "published": "2026-11-01T11:41:00",
-          "excerpt": "Amazon Cognito のユーザープールを別アカウントに移行する際、パスワードを引き継げるユーザー移行 Lambda トリガーの実装方法を、MFA 必須のプール対応で詳しく紹介します。"
-        },
-        {
-          "title": "Aurora DSQL対応のテストを、本物のクラスタなしでCIで回す",
-          "link": "https://zenn.dev/winebarrel/articles/3d516e1c119748",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-01T11:00:52",
-          "excerpt": "PostgreSQL用の宣言的スキーマ管理ツールpistachioを、Amazon Aurora DSQLに対応させました。--engine dsqlを付けると、plan、apply、dumpがDSQLを相手に動きます。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が8件。既存のREST APIをMCPサーバ化する際、利用者ごとのアクセス制御や、ツールの呼び出し回数に伴うトークン消費が課題となる。オリックスはAWSのサービスを使った検証で、既存APIを改修せずにこれらの課題に対処する方法を探った。",
+      "summary": "セキュリティの新着が14件。GitHub、Copilotアプリ向けセキュリティ拡張機能をパブリックプレビューで公開",
       "articles": [
         {
-          "title": "「REST API→MCP化」で何が問題に？　オリックスが探った“認証・認可とトークン消費”への対処法",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/02/news018.html",
+          "title": "GitHub、Copilotアプリ向けセキュリティ拡張機能をパブリックプレビューで公開",
+          "link": "https://codezine.jp/article/detail/30196",
+          "source": "CodeZine",
+          "published": "2026-11-02T04:00:00",
+          "excerpt": "GitHub、Copilotアプリ向けセキュリティ拡張機能をパブリックプレビューで公開"
+        },
+        {
+          "title": "ランサムウェアに会計データを暗号化されたトンボ飲料、被害経験から導いた「再発防止策」とは？",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/02/news022.html",
           "source": "@IT",
-          "published": "2026-11-01T23:00:00",
-          "excerpt": "既存のREST APIをMCPサーバ化する際、利用者ごとのアクセス制御や、ツールの呼び出し回数に伴うトークン消費が課題となる。オリックスはAWSのサービスを使った検証で、既存APIを改修せずにこれらの課題に対処する方法を探った。"
+          "published": "2026-11-02T03:45:00",
+          "excerpt": "ランサムウェア被害を経験したトンボ飲料は、同様の被害を繰り返さないためにセキュリティ対策を強化している。脆弱性情報の把握を効率化するなど、既に具体的な成果も上がっているという。対策をどう見直したのか。"
         },
         {
-          "title": "【AWS】Step Functionsをエージェントのツールにしてみた：ピン・IAM・トークンの効き方を検証【AgentCore】",
-          "link": "https://qiita.com/Nana_777/items/4df8731bd53a6ab7a31f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-01T22:39:42",
-          "excerpt": "はじめに 2026年10月29日、AWS Step Functionsのワークフローを、AIエージェントのツールとして使えるようになりました。Amazon Bedrock AgentCore Gatewayの組み込みコネクタを経由します。…"
-        },
-        {
-          "title": "FBI、Binanceからの60億ドル超の暗号資産窃盗は北朝鮮「TraderTraitor」の犯行と発表",
-          "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002778/",
+          "title": "楽天証券、顧客情報362件が漏えいか　NTTデータ委託先に不正アクセス",
+          "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002785/",
           "source": "ITmedia NEWS",
-          "published": "2026-11-01T22:28:21",
-          "excerpt": "FBIは、暗号資産取引所Binanceから60億ドル超の暗号資産が盗まれた事件を北朝鮮のサイバー攻撃活動「TraderTraitor」による犯行と発表した。FBIなどは民間事業者に資金洗浄の阻止を要請。…"
+          "published": "2026-11-02T03:02:40",
+          "excerpt": "漏えいした可能性がある項目は明らかにしていない。"
         },
         {
-          "title": "Lenovo の「暗号化された」指紋認証 USB は、ケースに入った暗号化されていない SD カードに過ぎません",
-          "link": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-01T14:34:43",
-          "excerpt": "記事の URL: https://www.reddit.…"
+          "title": "OSを更新しても防げない　「Brotli」に重大脆弱性、Node.jsに潜む“見えない侵入口”",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/02/news020.html",
+          "source": "@IT",
+          "published": "2026-11-02T03:00:00",
+          "excerpt": "OSやアプリケーションを更新しても、脆弱性が残っているかもしれない。Googleの圧縮ライブラリ「Brotli」に、CVSS 9.2の重大脆弱性が見つかった。Node.jsではコード実行も実証され、攻撃の試みも観測されている。…"
         }
       ]
     },
@@ -140,7 +140,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表しました。Copilot Fusi.…",
+      "summary": "開発ツールの新着が11件。GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表しました。Copilot Fusi.…",
       "articles": [
         {
           "title": "GitHub、「Copilot Fusion」正式リリース。タスクに応じて最適なAIモデル選択で高性能かつ低コストに。GitHub Universe 2026",
@@ -150,57 +150,57 @@
           "excerpt": "GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表しました。Copilot Fusi.…"
         },
         {
-          "title": "毎週数十万人が使うターミナル型AIコーディングエージェント「Pi」が1.0に　何ができる？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/02/news017.html",
-          "source": "@IT",
-          "published": "2026-11-01T22:45:00",
-          "excerpt": "Earendilは、最小限の機能を備え、拡張性の高く堅牢とするエージェントハーネス「Pi 1.0」を提供開始した。併せて、長時間稼働するエージェント型アプリケーションを構築するための新たな実験的パッケージ「Pi Durable」も公開した。"
+          "title": "GitHub、Copilotアプリ向けセキュリティ拡張機能をパブリックプレビューで公開",
+          "link": "https://codezine.jp/article/detail/30196",
+          "source": "CodeZine",
+          "published": "2026-11-02T04:00:00",
+          "excerpt": "GitHub、Copilotアプリ向けセキュリティ拡張機能をパブリックプレビューで公開"
         },
         {
-          "title": "Kiro CLIとKiro Crewを改めて入門してAWSで動かすまで",
-          "link": "https://zenn.dev/upgradetech/articles/2026-11-kiro-crew-api-key-intro",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-01T14:43:42",
-          "excerpt": "KiroはIDEだけの製品ではなくなりました。2026年11月時点では、IDE、CLI、Web、Mobile、そしてCrewの5つの入口があります。…"
+          "title": "【第5回】Cursor × SpecKitではじめる仕様駆動開発（実践編）～AIと仕様を育てながらTerraform開発して分かったこと～",
+          "link": "https://qiita.com/kooohei/items/af25d69df45b0dd118c3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-02T03:52:05",
+          "excerpt": "はじめに これまでの4回で、 SpecKit の導入 Constitution Specification Plan Tasks Implement まで一通り体験しました。最終回となる今回は、 実際に使ってみて感じたこと をまとめます。…"
         },
         {
-          "title": "GitHub Universe 2026 参加レポート：今日から試せるエージェント駆動開発 | Alternative Architecture DOJO",
-          "link": "https://aadojo.alterbooth.com/entry/2026/11/01/230000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-01T14:00:00",
-          "excerpt": "エンジニアのみっつーです！今回サンフランシスコで開催された GitHub Universe 2026 の各セッションに参加して、全体的に感じたことと新機能の活用方法をまとめます！…"
+          "title": "クラウドが状態を把握してもIaCがなくならない理由 - YAMAGUCHI::weblog",
+          "link": "https://ymotongpoo.hatenablog.com/entry/2026/11/02/093500",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-02T01:05:51",
+          "excerpt": "はじめに こんにちは、Grafana Labsでデベロッパーアドボケイトをしているものです。2026年10月31日、元同僚のJames Ward*1が、Xで「IaC is dead」と投稿しました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "米国の労働者が持ち帰った資本の取り分は、少なくとも1947年以来最小となった",
-      "link": "https://fortune.com/article/why-did-us-workers-just-take-home-smallest-share-of-capital-since-1947-lowest-ever-recorded/",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-01T23:20:31",
-      "excerpt": "記事の URL: https://fortune.…"
-    },
-    {
-      "title": "リーナス・トーバルズ氏、Linuxカーネルは「安定化段階」を過ぎており、AI貢献のために「より健全なモデル」を使用していると語る",
-      "link": "https://www.theregister.com/os-platforms/2026/11/01/linus-torvalds-says-linux-kernel-is-out-of-stabilization-phase-and-using-much-healthier-model-for-ai-contributions/5306852",
+      "title": "インド、「データがモデルに移動するのではなく、モデルがデータに移動する」という AI 計画が浮上",
+      "link": "https://www.theregister.com/public-sector/2026/11/02/india-floats-ai-plan-under-which-the-model-travels-to-the-data-rather-than-the-data-travelling-to-the-model/5306872",
       "source": "The Register（英語）",
-      "published": "2026-11-01T23:11:41",
-      "excerpt": "しかし、機械で作成されたパッチは「頻繁に書き換えられる」"
+      "published": "2026-11-02T04:39:50",
+      "excerpt": "ビッグテックがあらゆるものにオープンアクセスすることなく、よりローカルな AI を望んでいる"
     },
     {
-      "title": "Kaggle で Master になった話 | 弁護士ドットコム株式会社 Creators’ blog",
-      "link": "https://creators.bengo4.com/entry/2026/11/02/080000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-11-01T23:00:00",
-      "excerpt": "こんにちは。弁護士ドットコム株式会社データ本部 AI 技術開発部の宇野です。2026 年 10 月、Kaggle の Kaggriculture コンペで金メダルを獲得し、Kaggle Competitions Master になりました。…"
+      "title": "借りた読書: 私たちの同僚からの物語",
+      "link": "https://techcrunch.com/2026/11/01/borrowed-reading-stories-from-our-extended-colleagues/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-02T04:23:48",
+      "excerpt": "CIO、Computerworld、Macworld、PCWorld の同僚からの 5 つのストーリーは、時間をかけて読む価値があります。"
     },
     {
-      "title": "リーダーシップは、朝の「おはよう」から始まっているのかもしれない | SHIFT Group 技術ブログ",
-      "link": "https://note.shiftinc.jp/n/n41e05e1eb337",
-      "source": "企業テックブログまとめ",
-      "published": "2026-11-01T23:00:00",
-      "excerpt": "はじめに続きをみる"
+      "title": "Patch Manager で適用した .NET Framework の KB 番号が Get-HotFix の KB 番号と一致しないときにパッチが正しく適用されたか確認する方法",
+      "link": "https://dev.classmethod.jp/articles/tsnote-ssm-patch-manager-kb-mismatch/",
+      "source": "DevelopersIO",
+      "published": "2026-11-02T03:28:27",
+      "excerpt": "AWS Systems Manager Patch Manager で EC2 の Windows Server に .…"
+    },
+    {
+      "title": "TorchNeuronの公開ベータを確認：PyTorchのCUDA依存を静的点検する",
+      "link": "https://qiita.com/sin-aiagent/items/00ecb18babcf98e9adb2",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-02T03:27:55",
+      "excerpt": "発表：2026年10月19日／AWS公開ベータ告知：10月20日／公式資料の再確認：11月2日。本稿は過去の発表を現在の仕様と照合する技術メモです。…"
     }
   ]
 }
