@@ -1,213 +1,213 @@
 {
-  "generated_at": "2026-11-04T03:42:58",
+  "generated_at": "2026-11-04T11:41:29",
   "window_hours": 24,
-  "total": 152,
+  "total": 160,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が21件。Androidエンジニアの藤井です。Google Sheetsに書かれたリグレッションテストを、Claude Codeとagent-deviceで実行する取り組みを進めています。…",
+      "summary": "生成AIの新着が24件。If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there…",
       "articles": [
         {
-          "title": "Claude CodeでAndroidの回帰テストを回して分かった、データ・トークン・シナリオ化の課題 | 株式会社フォトラクションのフィード",
-          "link": "https://zenn.dev/photoruction_bl/articles/f00875d067c782",
+          "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+          "link": "https://news.ycombinator.com/item?id=50363461",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-04T10:10:27",
+          "excerpt": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there…"
+        },
+        {
+          "title": "Agent Skillsで「今回だけの対応」を残しすぎないようにしたい | Algomatic Tech Blog",
+          "link": "https://tech.algomatic.jp/entry/2026/11/04/184845",
           "source": "企業テックブログまとめ",
-          "published": "2026-11-04T03:00:06",
-          "excerpt": "Androidエンジニアの藤井です。Google Sheetsに書かれたリグレッションテストを、Claude Codeとagent-deviceで実行する取り組みを進めています。…"
+          "published": "2026-11-04T09:48:45",
+          "excerpt": "こんにちは。AlgomaticでソフトウェアエンジニアをしているGo（@53able）です。エージェントに、ある実行に限って適用してほしい対応を頼むことがあります。この記事ではこれを「今回だけの対応」と呼びます。…"
         },
         {
-          "title": "Google Cloud、金融・法務向けGemini活用の無料動画講座をGoogle Skillsで公開",
-          "link": "https://codezine.jp/article/detail/30211",
+          "title": "【明日〆切！】荏原製作所が2名で始めた生成AI内製開発PJ、どうAIエージェント構築にまで漕ぎつけた？",
+          "link": "https://codezine.jp/article/detail/30239",
           "source": "CodeZine",
-          "published": "2026-11-04T02:30:00",
-          "excerpt": "Google Cloud、金融・法務向けGemini活用の無料動画講座をGoogle Skillsで公開"
+          "published": "2026-11-04T09:30:00",
+          "excerpt": "【明日〆切！】荏原製作所が2名で始めた生成AI内製開発PJ、どうAIエージェント構築にまで漕ぎつけた？"
         },
         {
-          "title": "D3-edgeでLLMを自動選択してみた：vLLM Semantic RouterをAWSで検証",
-          "link": "https://zenn.dev/tatsuyaaaaaaa/articles/346b04134937a7",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-04T01:43:23",
-          "excerpt": "背景 LLMをサービスで利用する際、すべての質問に大きなモデルを使う必要があるのか？という疑問がある。例えば、「Pythonとは何ですか？」という質問には比較的小さなモデルでも対応できそうだ。…"
-        },
-        {
-          "title": "Claude Codeに任せたDockerfileを、後から自分で読み直す ー Dockerの基礎",
-          "link": "https://zenn.dev/nagi_dev/articles/dockerfile-basics-multistage",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-04T00:07:06",
-          "excerpt": "はじめに 以下の記事にて、VercelからAWSへの移行を行ったことを説明したのですが、今回はDockerfileについての記事となります。https://zenn.…"
+          "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock、エージェントツールとしての Step Functions など (2026 年 11 月 2 日)",
+          "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-11-04T09:25:26",
+          "excerpt": "2026 年 10 月 26 日週、特に印象に残ったエージェント関連の発表は、モデルの性能そのものとはまったく […]"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。Aurora DSQLはPostgreSQL互換と紹介されるため、Aurora PostgreSQLと同じ感覚で触ると接続、SQL、コミットのそれぞれで失敗します。やりにくいのは失敗の見え方です。…",
+      "summary": "クラウドの新着が11件。はじめに CloudWatch のアラームを設定して、障害に気づけるようにしました。アラーム自体は今までもあったのですが、Slack への通知にメンションが付かず、アラームも整理されていませんでした。…",
       "articles": [
         {
-          "title": "Aurora DSQLの接続・SQL・コミットでつまずく4点",
-          "link": "https://qiita.com/techdbblog/items/b17ae447bc44d7cf6d51",
+          "title": "【インシデント対策】CloudWatchアラームの通知からAmazon Q Developerではメンションが付かないのでLambdaで付けて障害に気づける確率を上げた",
+          "link": "https://qiita.com/Tukirukiki/items/88ed501f6f34fff1abaa",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-04T03:00:22",
-          "excerpt": "Aurora DSQLはPostgreSQL互換と紹介されるため、Aurora PostgreSQLと同じ感覚で触ると接続、SQL、コミットのそれぞれで失敗します。やりにくいのは失敗の見え方です。…"
+          "published": "2026-11-04T11:28:43",
+          "excerpt": "はじめに CloudWatch のアラームを設定して、障害に気づけるようにしました。アラーム自体は今までもあったのですが、Slack への通知にメンションが付かず、アラームも整理されていませんでした。…"
         },
         {
-          "title": "EC2 インスタンスタイプの選び方：M シリーズを基準に要件から考える | Fusic 技術ブログのフィード",
-          "link": "https://zenn.dev/fusic/articles/34bcae8bc3edbc",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-03T22:30:05",
-          "excerpt": "はじめにこんにちは、Fusicの北野です。EC2のインスタンスを起動する際、インスタンスタイプが多すぎて「どのインスタンスタイプを使えばいいのだろうか。」となった経験はありませんか？mとついてるのは汎用型。rとついているのはメモリ最適型。…"
+          "title": "【AWS初心者向け】EC2のIAMロールをAWS CLIで確認する｜インスタンスプロファイルとの違い",
+          "link": "https://qiita.com/reo_infraengineer/items/d21c4ea202c6e860851e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-04T11:10:21",
+          "excerpt": "こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、インフラ学習サービス「InfraDojo（インフラ道場）」を運営しています。「このEC2には、どのIAMロールが付いているんだろう？…"
         },
         {
-          "title": "Aurora MySQL 3.14 がリリースされたので、変更点を確認して PQ 鍵交換を試してみた",
-          "link": "https://dev.classmethod.jp/articles/aurora-mysql-314-pq-tls/",
-          "source": "DevelopersIO",
-          "published": "2026-11-03T15:49:52",
-          "excerpt": "Aurora MySQL 3.14.0 の PQ 鍵交換を Amazon Corretto 27 から試しました。デフォルトのパラメータグループのまま、設定変更なしで X25519MLKEM768 がネゴシエートされました。"
+          "title": "Told to reboot a server, it destroyed systemd, destroyed containers, ran random",
+          "link": "https://github.com/openai/codex/issues/59060",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-04T10:43:51",
+          "excerpt": "Article URL: https://github.com/openai/codex/issues/59060 Comments URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "Aurora MySQL 8.4.10 がリリースされたので、変更点を確かめてみた",
-          "link": "https://dev.classmethod.jp/articles/aurora-mysql-8410-release-changes/",
-          "source": "DevelopersIO",
-          "published": "2026-11-03T15:14:10",
-          "excerpt": "Aurora MySQL 8.4.10 で max_connections の上限が 50,000 になりました。…"
+          "title": "デニーズアプリに不正アクセス　旧アプリ移行処理で認証情報を不正作成される　個人情報漏えいか",
+          "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002878/",
+          "source": "ITmedia NEWS",
+          "published": "2026-11-04T07:55:18",
+          "excerpt": "旧デニーズアプリから新アプリへの移行に関するシステム処理で、第三者が認証情報を不正に作成し、一部の利用者のアカウントにアクセスできる状態になっていたという。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が18件。こんにちは、ソーイ株式会社の髙﨑です。私は業務でIAMロールやIAMポリシー、IAMユーザーを作成することがありますが、それぞれの役割や違いについては曖昧な理解のままでした。…",
+      "summary": "セキュリティの新着が22件。こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、インフラ学習サービス「InfraDojo（インフラ道場）」を運営しています。「このEC2には、どのIAMロールが付いているんだろう？…",
       "articles": [
         {
-          "title": "AWS IAMポリシーのAllowとDenyの違いを検証してみた",
-          "link": "https://qiita.com/AkiraTakasaki/items/e8f4f15d941a213a718f",
+          "title": "【AWS初心者向け】EC2のIAMロールをAWS CLIで確認する｜インスタンスプロファイルとの違い",
+          "link": "https://qiita.com/reo_infraengineer/items/d21c4ea202c6e860851e",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-04T03:02:13",
-          "excerpt": "こんにちは、ソーイ株式会社の髙﨑です。私は業務でIAMロールやIAMポリシー、IAMユーザーを作成することがありますが、それぞれの役割や違いについては曖昧な理解のままでした。…"
+          "published": "2026-11-04T11:10:21",
+          "excerpt": "こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、インフラ学習サービス「InfraDojo（インフラ道場）」を運営しています。「このEC2には、どのIAMロールが付いているんだろう？…"
         },
         {
-          "title": "AWSもAzureもGoogle Cloudも触ることになったが、クラウドごとのセキュリティ設定をどう揃えればいいか分からないエンジニアへ。4大クラウドを横断して設計と運用を見渡せる一冊",
-          "link": "https://qiita.com/yasu1109/items/831524ff23f26c5ee179",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-04T01:47:49",
-          "excerpt": "案件ごとに使うクラウドが違って、AWSの次はAzure、さらにGoogle Cloud、という状況になることがある。クラウドごとにセキュリティの用語や設定の作法が違うので、片方の感覚で触ると抜けが出やすい。…"
+          "title": "セキュリティインシデント事例10選｜大手企業の被害・原因から学ぶ対策 | テックファーム株式会社",
+          "link": "https://www.techfirm.co.jp/blog/security-incident-casestudy",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-04T10:08:45",
+          "excerpt": "近年、日本企業ではランサムウェアや情報漏えいをはじめ、事業継続に影響を及ぼすセキュリティインシデントが相次いでいます。警察庁によると、2026年上半期に報告されたランサムウェア被害は123件と、半期として過去最多を記録しました。…"
         },
         {
-          "title": "メルアド7700万件流出か　アララメッセージの不正アクセスで続報　共通環境から契約企業のサーバへ侵入　悪用も確認",
-          "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002861/",
+          "title": "無印良品、クレカ「MUJI Card」カード番号全ケタ、約109万件漏えいか　不正アクセスで続報",
+          "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002885/",
           "source": "ITmedia NEWS",
-          "published": "2026-11-04T01:41:58",
-          "excerpt": "アララ（東京都港区）が提供するメール配信サービス「アララメッセージ」への不正アクセスを巡り、新たに約7700万件のメールアドレスが外部に流出、またはその恐れがある。…"
+          "published": "2026-11-04T09:33:11",
+          "excerpt": "「無印良品」を展開する良品計画は11月4日、10月30日に公表した公式アプリ「MUJIアプリ」への不正アクセスについて、当初は対象外としていたクレジットカード情報や氏名、住所なども外部からアクセスされた可能性があると発表した。…"
         },
         {
-          "title": "ずんだもんと学ぶセキュリティ：実践編",
-          "link": "https://zenn.dev/bonobono/books/zundamon-security-jissen",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-04T01:19:30",
-          "excerpt": "ずんだもん（学ぶ側）と四国めたん（教える側）の対話形式で、インフラ・クラウドの守りを「組織として続ける」段階まで進めるオリジナル教材。…"
+          "title": "デニーズアプリに不正アクセス　旧アプリ移行処理で認証情報を不正作成される　個人情報漏えいか",
+          "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002878/",
+          "source": "ITmedia NEWS",
+          "published": "2026-11-04T07:55:18",
+          "excerpt": "旧デニーズアプリから新アプリへの移行に関するシステム処理で、第三者が認証情報を不正に作成し、一部の利用者のアカウントにアクセスできる状態になっていたという。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。こんにちは。データ分析エンジニアの木介です。今回は、2026年8月に一般提供が開始されたAmazon DynamoDBのベクトル検索について紹介していきたいと思います。…",
+      "summary": "データ分析の新着が6件。Amazon Athena で Iceberg テーブルへ複数のクライアントから同時に UPDATE すると、`ICEBERG_COMMIT_ERROR` で失敗することがあります。…",
       "articles": [
+        {
+          "title": "Amazon Athena の Iceberg テーブルへの同時 UPDATE で ICEBERG_COMMIT_ERROR になったクエリを再試行してみた",
+          "link": "https://dev.classmethod.jp/articles/athena-iceberg-update-commit-error-exponential-backoff/",
+          "source": "DevelopersIO",
+          "published": "2026-11-04T07:30:11",
+          "excerpt": "Amazon Athena で Iceberg テーブルへ複数のクライアントから同時に UPDATE すると、`ICEBERG_COMMIT_ERROR` で失敗することがあります。…"
+        },
+        {
+          "title": "Security Hub修復手順】[Redshift.15] Redshift セキュリティグループは、制限されたオリジンからのみクラスターポートへの入力を許可する必要があります",
+          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-redshift-15/",
+          "source": "DevelopersIO",
+          "published": "2026-11-04T06:48:23",
+          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
+        },
+        {
+          "title": "AMD on track to overtake Intel as biggest x86 outfit",
+          "link": "https://www.theregister.com/systems/2026/11/04/amd-on-track-to-overtake-intel-as-biggest-x86-outfit/5307448",
+          "source": "The Register（英語）",
+          "published": "2026-11-04T04:24:06",
+          "excerpt": "CEO says supply chain can cope with surging datacenter and AI demand"
+        },
         {
           "title": "Amazon DynamoDB のベクトル検索機能を検証 | Taste of Tech Topics",
           "link": "https://acro-engineer.hatenablog.com/entry/2026/11/04/120000",
           "source": "企業テックブログまとめ",
           "published": "2026-11-04T03:00:00",
           "excerpt": "こんにちは。データ分析エンジニアの木介です。今回は、2026年8月に一般提供が開始されたAmazon DynamoDBのベクトル検索について紹介していきたいと思います。…"
-        },
-        {
-          "title": "Orbital Matter 宇宙の真空中で最初の剛体ビームを 3D プリント",
-          "link": "https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-03T20:57:17",
-          "excerpt": "まずは宇宙内での建設が、将来の宇宙データセンターの実現につながる可能性があります。"
-        },
-        {
-          "title": "Aurora とDynamoDBとTimestreamとBigQueryを2400万レコードで性能比較してみた | NCDC テックブログのフィード",
-          "link": "https://zenn.dev/ncdc/articles/c47df2c1f32e0c",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-03T09:39:55",
-          "excerpt": "はじめに私が働いているNCDCでは、年に1回会社でハッカソンをやっています。興味ある技術を使って、なんか作るみたいなイベントです。私はDBに最近興味を持っているので、DBの性能を比較するWEBアプリを構築しました。…"
-        },
-        {
-          "title": "「GoogleやAppleのアカウントを守るためにYubiKeyを使っている」物理キーが注目を集め、売り切れが相次いでいる→導入前に知っておきたい注意点は？",
-          "link": "https://togetter.com/li/2766080",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-03T03:56:08",
-          "excerpt": "でこ @DEKO_MUGEN GoogleとAppleアカウントの乗っ取り対策に、物理キー「YubiKey 5C NFC」を使っています。普段はキーホルダーに。薄くて軽いので気になりません。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。OpenAIのGit互換バックエンドPandoの設計を、pushからfetchまで具体例で解説します。…",
+      "summary": "開発ツールの新着が11件。こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、インフラ学習サービス「InfraDojo（インフラ道場）」を運営しています。「このEC2には、どのIAMロールが付いているんだろう？…",
       "articles": [
         {
-          "title": "OpenAIがGitサーバーを作り直した「Pando」について調べてみた",
-          "link": "https://dev.classmethod.jp/articles/openai-pando-git-backend/",
-          "source": "DevelopersIO",
-          "published": "2026-11-03T16:06:03",
-          "excerpt": "OpenAIのGit互換バックエンドPandoの設計を、pushからfetchまで具体例で解説します。…"
-        },
-        {
-          "title": "GitHubが従来比180倍のスループット性能向上を実現へ、来年初頭に。AIエージェント時代に対応。GitHub Universe 2026",
-          "link": "https://www.publickey1.jp/blog/26/github180aigithub_universe_2026.html",
-          "source": "Publickey",
-          "published": "2026-11-03T15:16:22",
-          "excerpt": "GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、AIエージェント時代に対応した大幅な性能向上を実現することを明らかにしました。性能向上はGitHubの基盤.…"
-        },
-        {
-          "title": "GitHub、より高度なコードレビューを行う「Copilot Code Review Max」発表。GitHub Universe 2026",
-          "link": "https://www.publickey1.jp/blog/26/githubcopilot_code_review_maxgithub_universe_2026.html",
-          "source": "Publickey",
-          "published": "2026-11-03T15:14:57",
-          "excerpt": "GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、より高度なコードレビューを行う新機能「Copilot Code Review Max」を発表しました。Gi.…"
-        },
-        {
-          "title": "手作業で育った AWS を、AI と一緒に「作り直さずに」IaC 化した",
-          "link": "https://qiita.com/ten-056/items/c14210b3afe388125c63",
+          "title": "【AWS初心者向け】EC2のIAMロールをAWS CLIで確認する｜インスタンスプロファイルとの違い",
+          "link": "https://qiita.com/reo_infraengineer/items/d21c4ea202c6e860851e",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-03T14:01:38",
-          "excerpt": "はじめに 個人で開発している旅行のサービス（Web と iPhone のアプリ）の AWS を、3 週間ほどで CloudFormation の管理下に入れた。…"
+          "published": "2026-11-04T11:10:21",
+          "excerpt": "こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、インフラ学習サービス「InfraDojo（インフラ道場）」を運営しています。「このEC2には、どのIAMロールが付いているんだろう？…"
+        },
+        {
+          "title": "RTX 5090 Street Prices Top $9k as Nvidia GPU Costs Climb",
+          "link": "https://aroundprague.cz/en/news/us/rtx-5090-street-prices-top-9-000-as-nvidia-gpu-costs-climb",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-04T11:02:23",
+          "excerpt": "Article URL: https://aroundprague.…"
+        },
+        {
+          "title": "Incident with Pull Requests, Git Operations and Issues",
+          "link": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-04T10:00:06",
+          "excerpt": "Article URL: https://www.githubstatus.com/incidents/smtdswd1h2w4 Comments URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "Azure Developer CLI、デプロイのプレビュー機能などを追加した10月リリースを公開",
+          "link": "https://codezine.jp/article/detail/30214",
+          "source": "CodeZine",
+          "published": "2026-11-04T07:00:00",
+          "excerpt": "Azure Developer CLI、デプロイのプレビュー機能などを追加した10月リリースを公開"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "SaaSへのAI組み込みにおける「境界設計」を学ぶ、フリーとSansanの開発現場に迫るイベントが11月11日開催",
-      "link": "https://codezine.jp/article/detail/30223",
-      "source": "CodeZine",
-      "published": "2026-11-04T03:30:00",
-      "excerpt": "SaaSへのAI組み込みにおける「境界設計」を学ぶ、フリーとSansanの開発現場に迫るイベントが11月11日開催"
-    },
-    {
-      "title": "オープンワークやファストドクターなどスタートアップ6社が登壇、AI時代のプロダクトマネージャー像を語るイベント開催",
-      "link": "https://codezine.jp/article/detail/30222",
-      "source": "CodeZine",
-      "published": "2026-11-04T03:15:00",
-      "excerpt": "オープンワークやファストドクターなどスタートアップ6社が登壇、AI時代のプロダクトマネージャー像を語るイベント開催"
-    },
-    {
-      "title": "矢印から矢印へ、カテゴリーからクエリへ (2025)",
-      "link": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-04T03:11:27",
-      "excerpt": "記事の URL: https://reasonivelypolymorphic.com/blog/arrows-to-arrows/ コメント URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Apache DorisをAWS Graviton5で検証：最大78%高速化",
-      "link": "https://qiita.com/VeloDB_IO/items/7485d0161debbb7cb45a",
+      "title": "AI駆動開発の次の段階: ソフトウェアファクトリー",
+      "link": "https://qiita.com/Syoitu/items/9364a0a175893bb15219",
       "source": "Qiita AWSタグ",
-      "published": "2026-11-04T03:10:04",
-      "excerpt": "本記事は「Apache Doris on AWS Graviton5: Up to 78% Higher Query Performance」（https://www.velodb.…"
+      "published": "2026-11-04T11:38:50",
+      "excerpt": "前書き 最近、Claude Codeの開発者であるFelix Riesebergさんの記事『AIモデルを扱う人類のための「志を高く持つ」チュートリアル』を読みました。その考え方に刺激を受けたので、少し引用して紹介します。…"
+    },
+    {
+      "title": "Achieving nirvana: Enlightenment 0.28 hits the desktop",
+      "link": "https://www.theregister.com/os-platforms/2026/11/04/achieving-nirvana-enlightenment-028-hits-the-desktop/5307329",
+      "source": "The Register（英語）",
+      "published": "2026-11-04T11:00:00",
+      "excerpt": "Very nearly 30something environment gets spruced up… and there's a new Trinity, too"
+    },
+    {
+      "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+      "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-04T10:23:34",
+      "excerpt": "Article URL: https://www.theguardian.…"
+    },
+    {
+      "title": "Microsoft's AI PC push meets a wall of RAM prices, but Redmond is still beating the drum",
+      "link": "https://www.theregister.com/personal-tech/2026/11/04/microsofts-ai-pc-push-meets-a-wall-of-ram-prices-but-redmond-is-still-beating-the-drum/5307335",
+      "source": "The Register（英語）",
+      "published": "2026-11-04T10:15:00",
+      "excerpt": "Customers are sweating assets amid tight budgets, yet that doesn't stop an exec from Redmond getting creative with the s…"
     }
   ]
 }
