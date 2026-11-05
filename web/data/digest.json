@@ -1,119 +1,133 @@
 {
-  "generated_at": "2026-11-05T07:05:47",
+  "generated_at": "2026-11-05T15:40:25",
   "window_hours": 24,
-  "total": 165,
+  "total": 173,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。OpenAIは2026年11月4日、開発中のサイバーセキュリティ向けAIモデルを活用し、Linuxカーネルの脆弱性をエージェントが自律的に発見し検証した結果を発表した。",
+      "summary": "生成AIの新着が17件。Aina の着信音は電話に出たり、Mac でメモを書き取るのにも役立ちます。",
       "articles": [
         {
-          "title": "OpenAI、Linuxカーネルを最新セキュリティAIモデルで調査、ローカル権限昇格の脆弱性948件を実証 ―エクスプロイト、パッチまで生成",
-          "link": "https://gihyo.jp/article/2026/11/openai-linux-vulnerabilitiy-investigation?utm_source=feed",
+          "title": "Aina のスマート リングには画面、ジョイスティック、マイクが付いているので、AI エージェントと会話できます",
+          "link": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-05T14:42:00",
+          "excerpt": "Aina の着信音は電話に出たり、Mac でメモを書き取るのにも役立ちます。"
+        },
+        {
+          "title": "Anthropicは、攻撃者が企業の境界を越えてリモートコマンドを実行できる可能性があるClaude Dispatchの欠陥を修正しない",
+          "link": "https://www.theregister.com/research/2026/11/05/anthropic-wont-fix-a-claude-dispatch-flaw-that-could-let-attackers-execute-remote-commands-across-corporate-boundaries/5307684",
+          "source": "The Register（英語）",
+          "published": "2026-11-05T13:00:00",
+          "excerpt": "6 つの簡単なステップで EOP から RCE まで"
+        },
+        {
+          "title": "PFN、翻訳特化LLM「PLaMo 3 Translate」のモデル重みを公開、0.8Bから31Bまで4サイズ",
+          "link": "https://gihyo.jp/article/2026/11/plamo-3-translate-open-weights?utm_source=feed",
           "source": "gihyo.jp 開発",
-          "published": "2026-11-05T06:53:00",
-          "excerpt": "OpenAIは2026年11月4日、開発中のサイバーセキュリティ向けAIモデルを活用し、Linuxカーネルの脆弱性をエージェントが自律的に発見し検証した結果を発表した。"
+          "published": "2026-11-05T11:27:18",
+          "excerpt": "Preferred Networks（PFN）は2026年11月5日、翻訳特化LLM「PLaMo 3 Translate」のモデル重みをHugging Faceで公開した。0.…"
         },
         {
-          "title": "ChatGPT Images 2.6がアニメーションGIFの作成に対応、APIではFlareとSunburstの新バージョンを提供",
-          "link": "https://gihyo.jp/article/2026/11/chatgpt-images-2-6?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-11-05T03:12:57",
-          "excerpt": "OpenAIは2026年11月4日、ChatGPTの画像生成機能「ChatGPT Images 2.6」の提供を開始した。文章や静止画からアニメーションGIFを作る機能を順次提供している。"
-        },
-        {
-          "title": "「未知の既知」を掘り起こす技術：知能爆発時代に、Claudeを単なる時短ツールで終わらせないために",
-          "link": "https://qiita.com/yoshisen/items/c503f5c915ae854e19d7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-05T02:34:57",
-          "excerpt": "〜POSの需要予測・顧客インサイトを例に、AWS上の「信頼できるMLOps」と「研究できるエージェント」を設計する〜 本稿は、Anthropicの「Claude-shaped science」（Matthew Schwartz氏）と、Fel…"
-        },
-        {
-          "title": "Agent Runtimeのエージェントデプロイ手法を解説 | G-gen Tech Blog",
-          "link": "https://blog.g-gen.co.jp/entry/agent-runtime-deploy-pattern",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-05T00:00:00",
-          "excerpt": "G-genの本間です。…"
+          "title": "自作AIエージェントの開発をやめた - 無駄と文化",
+          "link": "https://blog.mudatobunka.org/entry/2026/11/05/100000",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-05T09:16:13",
+          "excerpt": "今年の6月まで、データ分析用途の AI エージェント (以下、分析エージェント) をスクラッチで開発していた。が、思うところがあり開発をスッパリとやめた。この記事でいろいろと振り返ってみようと思う。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が19件。DevelopersIO を ECS から Lambda Web Functions へ移した際、Next.…",
+      "summary": "クラウドの新着が17件。この契約は、AI モデルとエージェントを構築する開発者を対象とした新しいストレージ プラットフォームである DBX Agent Cloud の開発をサポートすることが期待されています。",
       "articles": [
         {
-          "title": "Lambda Web Functions のキャッシュを ElastiCache Serverless for Valkey に置いてみた",
-          "link": "https://dev.classmethod.jp/articles/lambda-web-functions-valkey-serverless-cda-cache/",
-          "source": "DevelopersIO",
-          "published": "2026-11-05T04:42:18",
-          "excerpt": "DevelopersIO を ECS から Lambda Web Functions へ移した際、Next.…"
+          "title": "Dropbox が AI インフラストラクチャを強化するために Tigris Data を 3 億 5,000 万ドルで買収",
+          "link": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-05T15:19:05",
+          "excerpt": "この契約は、AI モデルとエージェントを構築する開発者を対象とした新しいストレージ プラットフォームである DBX Agent Cloud の開発をサポートすることが期待されています。"
         },
         {
-          "title": "Amazon RDS のスナップショット費用がスナップショットごとに見られるようになったので、Cost Explorer の課金行を確認してみた",
-          "link": "https://dev.classmethod.jp/articles/rds-per-snapshot-billing/",
-          "source": "DevelopersIO",
-          "published": "2026-11-05T04:38:51",
-          "excerpt": "Amazon RDS のスナップショット費用が、Cost Explorer でスナップショットごとの行に分かれました。東京リージョンの手動スナップショットで、11月1日の課金行にスナップショットの ARN が確認できました。"
-        },
-        {
-          "title": "【AWS SOA】EC2の Invalid device name エラーとブロックデバイスマッピング",
-          "link": "https://qiita.com/wakinoza/items/39579fc750861dbc74ff",
+          "title": "ROSAとAmazon EKSとKubernetesの違いを整理してみた",
+          "link": "https://qiita.com/yama3133/items/d6cefd795fef01831106",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-05T02:21:45",
-          "excerpt": "はじめに AWS SOA（SysOps Administrator - Associate）の取得を目指して勉強しています。…"
+          "published": "2026-11-05T15:05:37",
+          "excerpt": "はじめに AWSでKubernetesを動かそうとすると、Amazon EKSとROSA(Red Hat OpenShift Service on AWS)という2つのマネージドサービスが候補に挙がります。…"
         },
         {
-          "title": "【AWS SOA】EC2の Invalid device name エラーとブロックデバイスマッピング",
-          "link": "https://zenn.dev/wakinoza/articles/21f321604d9eb5",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-05T02:19:37",
-          "excerpt": "はじめに AWS SOA（SysOps Administrator - Associate）の取得を目指して勉強しています。…"
+          "title": "ALB を使わず EC2 単体でゼロダウンデプロイする方法",
+          "link": "https://qiita.com/kuto110/items/d07b9594a7908d40ba70",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-05T14:56:15",
+          "excerpt": "どうも、Kutoです。皆さんは普段 nginx 使ってますか？Web 系のサービスに携わっているのであれば使ったことのある人が多いでしょう。今日は nginx を使用して EC2 単体でのデプロイ戦略の設定を行ったので、書きたいと思います。…"
+        },
+        {
+          "title": "Vite+ 1.5 がリリースされたので、vp migrate は ts-node をどこまで移行してくれるのか試してみた",
+          "link": "https://dev.classmethod.jp/articles/hasuto-vite-plus-1-5-migrate-ts-node/",
+          "source": "DevelopersIO",
+          "published": "2026-11-05T12:58:57",
+          "excerpt": "Vite+ 1.5 の vp migrate で ts-node のプロジェクトを移行してみました。自動で移るのは型チェックをしない ts-node だけで、型チェックありは vp check と分けて手で移す必要がありました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が16件。OpenAIは2026年11月4日、開発中のサイバーセキュリティ向けAIモデルを活用し、Linuxカーネルの脆弱性をエージェントが自律的に発見し検証した結果を発表した。",
+      "summary": "セキュリティの新着が19件。2026年の9月から10月にかけては、タイムズカーから自動車免許証の画像を含む大規模な個人情報の漏洩があり、Linuxの深刻な脆弱性が発見され、PHPの脆弱について高市総理がXにポストするなど、ITの分野で社会的に大きな問題がありました。.…",
       "articles": [
         {
-          "title": "OpenAI、Linuxカーネルを最新セキュリティAIモデルで調査、ローカル権限昇格の脆弱性948件を実証 ―エクスプロイト、パッチまで生成",
-          "link": "https://gihyo.jp/article/2026/11/openai-linux-vulnerabilitiy-investigation?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-11-05T06:53:00",
-          "excerpt": "OpenAIは2026年11月4日、開発中のサイバーセキュリティ向けAIモデルを活用し、Linuxカーネルの脆弱性をエージェントが自律的に発見し検証した結果を発表した。"
+          "title": "Linuxカーネルの深刻な脆弱性／FDEの名前で単なるコンサルティングが販売／TypeScriptをRustに移植した「tsrs」発表ほか、2026年10月の人気記事",
+          "link": "https://www.publickey1.jp/blog/26/linuxfdetypescriptrusttsrs202610.html",
+          "source": "Publickey",
+          "published": "2026-11-05T15:37:44",
+          "excerpt": "2026年の9月から10月にかけては、タイムズカーから自動車免許証の画像を含む大規模な個人情報の漏洩があり、Linuxの深刻な脆弱性が発見され、PHPの脆弱について高市総理がXにポストするなど、ITの分野で社会的に大きな問題がありました。.…"
         },
         {
-          "title": "不正アクセスで停止の「ふるさとチョイス」6日再開　まずWeb版から",
-          "link": "https://www.itmedia.co.jp/news/article/2611/05/2000002910/",
-          "source": "ITmedia NEWS",
-          "published": "2026-11-05T06:06:01",
-          "excerpt": "同サイトは19日にサービスを停止。20日には、会員の氏名や住所、電話番号、ハッシュ化された寄附控除試算額など445万4097件の個人情報が外部に流出したと発表していた。"
+          "title": "Alpine Linux セキュリティ アドバイザリ: OpenSSH サーバーのパスワード認証バイパス",
+          "link": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-05T14:44:20",
+          "excerpt": "記事の URL: https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/ コメント URL: https://news.…"
         },
         {
-          "title": "公表済みの脆弱性に気づかず39万6920人分漏えい　採用サービスApplyNow　一部マイナンバーや口座情報も",
-          "link": "https://www.itmedia.co.jp/news/article/2611/05/2000002908/",
-          "source": "ITmedia NEWS",
-          "published": "2026-11-05T05:23:32",
-          "excerpt": "採用関連サービスを手掛けるApplyNowは11月4日、9月9日に公表した同社サービスへの不正アクセスについて、39万6920人の個人情報が漏えいしたと発表した。"
+          "title": "新機能 AWS Continuum Code Vulnerabilitiesを使って最近の脆弱性を見つけられるのか試してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-continuum-code-vulnerabilities-ga/",
+          "source": "DevelopersIO",
+          "published": "2026-11-05T13:28:47",
+          "excerpt": "# AWS Continuum for code vulnerabilities の要約 ## サービス概要 2026年10月23日にAWSが**Continuum for code vulnerabilities**をGA（一般提供）開始…"
         },
         {
-          "title": "AWS Cognito 認証認可 🔰",
-          "link": "https://zenn.dev/reitonkyoj/articles/4002955cfea79b",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-05T03:30:19",
-          "excerpt": "最近のこと 最近ニュースを見るたびに個人情報が盗み出されるという穏やかじゃない内容の記事のオンパレードになっています。見るたびに「自分が利用しているサービスじゃなくてよかった」など安堵したり、「自分が使っているサービスだ。…"
+          "title": "ニューヨークのクイーンズ公共図書館がランサムウェア犯罪と戦う: Wi-Fi、レジ、ウェブサイトが真っ暗になる",
+          "link": "https://www.theregister.com/cyber-crime/2026/11/05/new-yorks-queens-public-library-battles-ransomware-crims-wi-fi-checkouts-and-website-go-dark/5307796",
+          "source": "The Register（英語）",
+          "published": "2026-11-05T12:10:15",
+          "excerpt": "驚くべき近隣資源への攻撃を主張するギャングはまだいない"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。Amazon Redshift の自動クロスリージョンスナップショットコピーを東京から大阪へ有効化し、スナップショットが届くまでを観測しました。…",
+      "summary": "データ分析の新着が4件。# AWS Continuum for code vulnerabilities の要約 ## サービス概要 2026年10月23日にAWSが**Continuum for code vulnerabilities**をGA（一般提供）開始…",
       "articles": [
+        {
+          "title": "新機能 AWS Continuum Code Vulnerabilitiesを使って最近の脆弱性を見つけられるのか試してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-continuum-code-vulnerabilities-ga/",
+          "source": "DevelopersIO",
+          "published": "2026-11-05T13:28:47",
+          "excerpt": "# AWS Continuum for code vulnerabilities の要約 ## サービス概要 2026年10月23日にAWSが**Continuum for code vulnerabilities**をGA（一般提供）開始…"
+        },
+        {
+          "title": "Observabilityの土台としてのログ：AIと調査できるイベントを5つのloggerで検証した | Algomatic Tech Blog",
+          "link": "https://tech.algomatic.jp/entry/2026/11/05/194657",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-05T10:46:57",
+          "excerpt": "こんにちは。AlgomaticでソフトウェアエンジニアをしているGo（@53able）です。AI エージェントに「この失敗を調べて」と頼んだのに、返ってきたのは推測ばかりだった。そんな経験はないでしょうか。…"
+        },
         {
           "title": "Amazon Redshift が、自動化されたクロスリージョンでのバックアップをサポートしたので試してみた。",
           "link": "https://dev.classmethod.jp/articles/redshift-automated-cross-region-snapshot-copy/",
@@ -127,87 +141,73 @@
           "source": "ITmedia NEWS",
           "published": "2026-11-04T23:01:39",
           "excerpt": "Qualcommは、SpaceXと複数年契約を結び、モバイル通信サービス「Starlink Mobile」向けに5G基地局用の半導体プラットフォームを提供すると発表した。…"
-        },
-        {
-          "title": "[アップデート] AWS Backup の復元テストが Amazon Redshift に対応したので試してみた",
-          "link": "https://dev.classmethod.jp/articles/20261104-aws-backup-adds-redshift-restore-testing/",
-          "source": "DevelopersIO",
-          "published": "2026-11-04T14:28:35",
-          "excerpt": "AWS Backup の復元テスト機能が Amazon Redshift のプロビジョニングクラスターに対応しました。実際に復元テスト計画を作成し、復元からデータ確認、自動削除までを試してみた結果をお伝えします。"
-        },
-        {
-          "title": "日本語プログラミングフォント「Cyroit」とそのファミリー8種が一斉アップデート／「Inconsolata」＋「Circle M+」＋「BIZ UDゴシック」、コード特有の可読性にも配慮",
-          "link": "https://forest.watch.impress.co.jp/docs/news/2153421.html",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-04T09:09:14",
-          "excerpt": "日本語プログラミングフォント「Cyroit」とそのファミリー8種が一斉アップデート／「Inconsolata」＋「Circle M+」＋「BIZ UDゴシック」、コード特有の可読性にも配慮"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が13件。はじめに AWS CDK で、construct ID（CloudFormation の論理 ID の元になる名前）をまとめてリネームしました。Firehose や S3 バケットが後から増えて、名前だけでは区別がつきにくくなったためです。…",
+      "summary": "開発ツールの新着が11件。どうも、Kutoです。皆さんは普段 nginx 使ってますか？Web 系のサービスに携わっているのであれば使ったことのある人が多いでしょう。今日は nginx を使用して EC2 単体でのデプロイ戦略の設定を行ったので、書きたいと思います。…",
       "articles": [
         {
-          "title": "cdk refactor で論理 ID を付け替えるときにハマったポイント",
-          "link": "https://zenn.dev/virtualcraft/articles/97e3b3bd3fe6db",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-05T03:40:08",
-          "excerpt": "はじめに AWS CDK で、construct ID（CloudFormation の論理 ID の元になる名前）をまとめてリネームしました。Firehose や S3 バケットが後から増えて、名前だけでは区別がつきにくくなったためです。…"
+          "title": "ALB を使わず EC2 単体でゼロダウンデプロイする方法",
+          "link": "https://qiita.com/kuto110/items/d07b9594a7908d40ba70",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-05T14:56:15",
+          "excerpt": "どうも、Kutoです。皆さんは普段 nginx 使ってますか？Web 系のサービスに携わっているのであれば使ったことのある人が多いでしょう。今日は nginx を使用して EC2 単体でのデプロイ戦略の設定を行ったので、書きたいと思います。…"
         },
         {
-          "title": "InflabのIaC構築記（Part 1）",
-          "link": "https://zenn.dev/inflab/articles/3f6520af51b6b5",
+          "title": "GitHub ActionsでTerraformのCIを改善する",
+          "link": "https://zenn.dev/4no/articles/dd2409575ef321",
           "source": "Zenn AWSトピック",
-          "published": "2026-11-05T03:19:05",
-          "excerpt": "!この記事は2024年2月1日に執筆されたものです。こんにちは。InflabのDevOpsエンジニア、SunBです。…"
+          "published": "2026-11-05T11:20:59",
+          "excerpt": "はじめに これまで、GitHub Actionsを使ってTerraformの品質チェックやセキュリティチェックを自動化する方法を試して見ました！これまでに書いた記事は以下の2つです。…"
         },
         {
-          "title": "[AWS]セキュリティグループ設定のTerraform化",
-          "link": "https://zenn.dev/77nnaapp/articles/89a1448b8e95a7",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-05T02:22:33",
-          "excerpt": "手順1：新しい作業フォルダを作成 mkdir C:\\Users\\haruk\\terraform-sg-lab cd C:\\Users\\haruk\\terraform-sg-lab 手順2：Terraformの初期設定ファイルを作成 note…"
+          "title": "GitHub Next、AI生成コードが仕様を満たすことを証明する「PDD Kit」を紹介",
+          "link": "https://gihyo.jp/article/2026/11/pdd-kit?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-11-05T10:19:56",
+          "excerpt": "GitHub Nextは、Microsoft Researchと共同開発するProof-Driven Development Kit（PDD Kit）を紹介した。…"
         },
         {
-          "title": "GitHub Immutable Releases を設定したリポジトリのリリース用パイプラインが静かに壊れたので直した話 | 豆蔵デベロッパーサイト",
-          "link": "https://developer.mamezou-tech.com/blogs/2026/11/05/changes-to-github-immutable-release-broken-my-ci-workflow-silently/",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-05T00:00:00",
-          "excerpt": "はじめに#リリースの改竄を防ぎソフトウェアサプライチェーンのセキュリティを確保する Immutable releases を試すため、個人開発の Electron アプリのリポジトリに適用したのが1年前..."
+          "title": "GitHub Actions、pull_request_targetを12月2日から既定でブロック",
+          "link": "https://codezine.jp/article/detail/30246",
+          "source": "CodeZine",
+          "published": "2026-11-05T07:00:00",
+          "excerpt": "GitHub Actions、pull_request_targetを12月2日から既定でブロック"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ピクシブの自動翻訳システムのテクノロジーとアーキテクチャの選択 |ピクシブ内",
-      "link": "https://inside.pixiv.blog/2026/11/05/160000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-11-05T07:00:00",
-      "excerpt": "2026年10月29日より、デスクトップ版とモバイル版のpixivの作品詳細ページで、タイトル・キャプション・コメントの自動翻訳が利用できるようになります。(この機能はトラッキングされません…"
+      "title": "TikTok、スタンドアロンのTikTok Shopアプリを静かにローンチ",
+      "link": "https://techcrunch.com/2026/11/05/tiktok-quietly-launches-a-standalone-tiktok-shop-app/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-05T15:33:58",
+      "excerpt": "このアプリでは、パーソナライズされた製品の推奨、ライブ ストリームや短編ビデオを通じたショッピング、アプリ限定のセール、アプリ内チェックアウト、注文追跡、カスタマー サポートが提供されます。"
     },
     {
-      "title": "関西Ruby会議09に参加しました | STORES Product Blog",
-      "link": "https://product.st.inc/entry/2026/11/05/153851",
-      "source": "企業テックブログまとめ",
-      "published": "2026-11-05T06:38:51",
-      "excerpt": "こんにちは、ima1zumiです。すっかり季節も変わってしまいましたが、7月に参加した関西Ruby会議09の振り返りを今さらながら書きました。7月18日、大津で開催された関西Ruby会議09に参加してきました。…"
+      "title": "メモリメーカーがメガバックを鋳造する一方、バイヤーは慈悲を乞う",
+      "link": "https://www.theregister.com/systems/2026/11/05/memory-makers-mint-megabucks-while-buyers-beg-for-mercy/5307846",
+      "source": "The Register（英語）",
+      "published": "2026-11-05T15:07:34",
+      "excerpt": "AI 需要により供給が逼迫し、価格が上昇する中、DRAM の収益が 369% 増加"
     },
     {
-      "title": "【更新】ドコモ、全国で通信障害　通話・データとも利用しづらく",
-      "link": "https://www.itmedia.co.jp/news/article/2611/05/2000002904/",
-      "source": "ITmedia NEWS",
-      "published": "2026-11-05T06:27:38",
-      "excerpt": "音声通話、データ通信、SMSが利用しづらい状態だ。【更新】"
+      "title": "イレブンラボでは、ユーザーが AI で生成した音楽を SoundCloud で直接公開できるようになりました",
+      "link": "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-05T15:00:00",
+      "excerpt": "イレブンラボズは、同社の音楽モデルを使用して2500万曲以上が生成されたと述べた。"
     },
     {
-      "title": "個人開発サービスのAWS月額を80USDから40USDくらいまで下げた話",
-      "link": "https://qiita.com/pkxlulu/items/82c189272a65c8d11e8c",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-05T06:25:51",
-      "excerpt": "趣味でWebサービスを個人でちまちま運営しています。大してアクセスがあるわけでもないのに、AWSの請求が月80USDくらいになっていて、さすがにこれはまずいなと思い構成を見直しました。結果、11月は40USDくらいに収まりそうな見込みです。…"
+      "title": "Instagram は編集機能をデスクトップに導入し、CapCut に対応します",
+      "link": "https://techcrunch.com/2026/11/05/instagram-brings-edits-to-desktop-to-take-on-capcut/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-05T15:00:00",
+      "excerpt": "この動きにより、Editsは、Metaが昨年Editsを立ち上げた際に挑戦しようとしていたビデオ編集アプリであるByteDanceのCapCutと、より直接的な競争にさらされることになる。"
     }
   ]
 }
