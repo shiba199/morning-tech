@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-11-05T21:40:15",
+  "generated_at": "2026-11-06T01:53:14",
   "window_hours": 24,
-  "total": 174,
+  "total": 184,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。Linux Foundation傘下のAgentic AI Foundation（AAIF）が「AGNTCon + MCPCon Japan 2026」を東京・渋谷で開催した。同イベントとしては日本初開催となる。…",
+      "summary": "生成AIの新着が26件。前回は Amazon Bedrock ガードレールを使ってマイナンバーなどの機密情報をどこまで検出できるかを調べました。…",
       "articles": [
         {
-          "title": "「48ドルの返金が4800ドルに」　AIエージェントの暴走を止める、本番運用の勘所",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/06/news012.html",
-          "source": "@IT",
-          "published": "2026-11-05T20:00:00",
-          "excerpt": "Linux Foundation傘下のAgentic AI Foundation（AAIF）が「AGNTCon + MCPCon Japan 2026」を東京・渋谷で開催した。同イベントとしては日本初開催となる。…"
+          "title": "AgentCore Runtime と Bedrock ガードレールを使ったアプリで機密情報がどのログに残るのか調べてみた",
+          "link": "https://qiita.com/takeda_h/items/704ce614cc51f67b863c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-06T01:18:52",
+          "excerpt": "前回は Amazon Bedrock ガードレールを使ってマイナンバーなどの機密情報をどこまで検出できるかを調べました。…"
         },
         {
-          "title": "AIエージェント時代の「ゼロトラスト」　5つの基本原則で再考を",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/06/news002.html",
-          "source": "@IT",
-          "published": "2026-11-05T20:00:00",
-          "excerpt": "AIエージェントの利用拡大を見据え、その自律的なアクセスを制御するという新たな課題に対応する必要性が生まれている。では、企業はゼロトラストをどう強化していけばいいのか。Gartnerが推奨する5つの基本原則を具体的に解説する。"
+          "title": "Claude CodeもCopilotもある今、IBM Bobは何が違うのか。TechXchange 2026で見えた「捨てられないコード」と「選ばせないモデル」",
+          "link": "https://codezine.jp/article/detail/30219",
+          "source": "CodeZine",
+          "published": "2026-11-06T01:00:00",
+          "excerpt": "AIコーディングツールは、Claude Code、GitHub Copilot、Cursorなどと選択肢が出そろい、個人でもチームでも使うのが当たり前になった。…"
         },
         {
-          "title": "OpenAI は新しいサイバーセキュリティ モデルをリリースしました。それで十分ですか？",
-          "link": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-05T19:06:12",
-          "excerpt": "AI ラボがデジタル インフラストラクチャを保護する取り組みの精査に直面する中、OpenAI の最新サイバーセキュリティ モデルが発表されました。"
+          "title": "ClaudeのChatとCoworkの統合は、実行基盤がクラウドに揃ったということ",
+          "link": "https://dev.classmethod.jp/articles/claude-unified-chat-cowork/",
+          "source": "DevelopersIO",
+          "published": "2026-11-06T00:30:05",
+          "excerpt": "ClaudeのChatとCoworkの統合を、実行環境の変遷から整理します。PC上のVMで動いていたCoworkがクラウドで動くようになり、必要なときだけVMを使うChatのセッションとして1つにまとまりました。"
         },
         {
-          "title": "OpenAI が GPT-6 Cyber​​ をリリース、これが「関与規則」内にとどまることを約束",
-          "link": "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855",
-          "source": "The Register（英語）",
-          "published": "2026-11-05T17:00:00",
-          "excerpt": "最新のバグハンティング モデルは「99 パーセント以上の確率で範囲外のサービスの悪用を回避した」と House of Altman が主張"
+          "title": "Anthropic、「Claude」に家計管理機能「Personal Finance」　銀行口座と連携、米国でβ提供",
+          "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002935/",
+          "source": "ITmedia NEWS",
+          "published": "2026-11-05T23:49:28",
+          "excerpt": "Anthropicは、AI「Claude」に個人の財務状況を把握できる新機能「Personal Finance」β版を追加した。Plaid経由で銀行やカード口座を連携し、支出のカテゴリ分けや家計分析を自然言語で行える。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。AWS Lambda Web Functionsの実行環境スケーリングについて、I/O待ち主体の負荷で実測してみました。…",
+      "summary": "クラウドの新着が11件。Amazon Connectで複数の電話番号を移行する際、インスタンスあたりの電話番号クォータに注意が必要です。移行前にクォータ値を確認し、必要に応じて上限緩和をリクエストする方法について解説します。",
       "articles": [
+        {
+          "title": "Amazon Connect Customer のインスタンスに移行可能な電話番号数の上限について教えてください",
+          "link": "https://dev.classmethod.jp/articles/tsnote-connect-phone-number-migration-quota-limit/",
+          "source": "DevelopersIO",
+          "published": "2026-11-06T00:00:11",
+          "excerpt": "Amazon Connectで複数の電話番号を移行する際、インスタンスあたりの電話番号クォータに注意が必要です。移行前にクォータ値を確認し、必要に応じて上限緩和をリクエストする方法について解説します。"
+        },
         {
           "title": "[AWS Lambda] Web Functions は I/O 待ちの負荷で実行環境がいくつ立つのか、スロットリングまで実測してみました",
           "link": "https://dev.classmethod.jp/articles/lambda-web-functions-scaling-throttling-io-bound/",
@@ -64,55 +71,48 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-05T15:05:37",
           "excerpt": "はじめに AWSでKubernetesを動かそうとすると、Amazon EKSとROSA(Red Hat OpenShift Service on AWS)という2つのマネージドサービスが候補に挙がります。…"
-        },
-        {
-          "title": "ALB を使わず EC2 単体でゼロダウンデプロイする方法",
-          "link": "https://qiita.com/kuto110/items/d07b9594a7908d40ba70",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-05T14:56:15",
-          "excerpt": "どうも、Kutoです。皆さんは普段 nginx 使ってますか？Web 系のサービスに携わっているのであれば使ったことのある人が多いでしょう。今日は nginx を使用して EC2 単体でのデプロイ戦略の設定を行ったので、書きたいと思います。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が25件。記事の URL: https://www.cve.org/CVERecord?id=CVE-2026-83844 コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が28件。Vercel、プッシュごとに脆弱性を検査する「Vercel Security Review」をベータ公開",
       "articles": [
         {
-          "title": "MS ペイントのリモートコード実行の脆弱性",
-          "link": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-05T20:43:42",
-          "excerpt": "記事の URL: https://www.cve.org/CVERecord?id=CVE-2026-83844 コメント URL: https://news.ycombinator.com/item?…"
+          "title": "Vercel、プッシュごとに脆弱性を検査する「Vercel Security Review」をベータ公開",
+          "link": "https://codezine.jp/article/detail/30254",
+          "source": "CodeZine",
+          "published": "2026-11-06T01:00:00",
+          "excerpt": "Vercel、プッシュごとに脆弱性を検査する「Vercel Security Review」をベータ公開"
         },
         {
-          "title": "AIエージェント時代の「ゼロトラスト」　5つの基本原則で再考を",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/06/news002.html",
-          "source": "@IT",
-          "published": "2026-11-05T20:00:00",
-          "excerpt": "AIエージェントの利用拡大を見据え、その自律的なアクセスを制御するという新たな課題に対応する必要性が生まれている。では、企業はゼロトラストをどう強化していけばいいのか。Gartnerが推奨する5つの基本原則を具体的に解説する。"
+          "title": "脆弱性に対する AWS サービスの関連情報を確認する方法を教えてください。",
+          "link": "https://dev.classmethod.jp/articles/tsnote-aws-health-vulnerability-related-information-check/",
+          "source": "DevelopersIO",
+          "published": "2026-11-06T00:45:57",
+          "excerpt": "セキュリティ速報を活用すれば、AWS サービスへの影響範囲や必要な対応方法を確認できます。"
         },
         {
-          "title": "OpenAI は新しいサイバーセキュリティ モデルをリリースしました。それで十分ですか？",
-          "link": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-05T19:06:12",
-          "excerpt": "AI ラボがデジタル インフラストラクチャを保護する取り組みの精査に直面する中、OpenAI の最新サイバーセキュリティ モデルが発表されました。"
+          "title": "Ubuntu 27.04（tenacious）の開発：Rustのための環境整備、LXDのセキュリティ更新、CVE-2026-98432",
+          "link": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202611/06?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-11-06T00:41:00",
+          "excerpt": "Rust製ソフトウェアの利用環境の整備と、「Ubuntu上での、Rustを利用した開発」を支えるための基盤の整備が進められています。"
         },
         {
-          "title": "10 月の暗号トラッカー ハッキング: アクセスがクラックされ、法執行機関のトークンが詰め込まれた",
-          "link": "https://www.theregister.com/cyber-crime/2026/11/05/october-crypto-tracker-hack-access-cracked-law-enforcement-tokens-packed/5307852",
-          "source": "The Register（英語）",
-          "published": "2026-11-05T18:03:00",
-          "excerpt": "エージェントによる「路上攻撃」は、警察の捜査を支援するために定期的に呼び出されるチェイナリシスのツールを狙ったものでした"
+          "title": "AWS Security Hub がコンピューティング リソースの SBOM インベントリを提供するようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-11-06T00:30:00",
+          "excerpt": "本日、AWS は、AWS Security Hub がソフトウェア部品表 (SBOM) インベントリを提供するようになり、中央セキュリティ チームがコンピューティング リソースにインストールされているソフトウェア パッケージとアプリケーショ…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。本日、AWS は、Amazon S3 から既存の DynamoDB テーブルにデータを書き込むフルマネージド機能である Amazon DynamoDB のバルク プット アイテムの一般提供を発表しました。…",
+      "summary": "データ分析の新着が4件。本日、AWS は、Amazon S3 から既存の DynamoDB テーブルにデータを書き込むフルマネージド機能である Amazon DynamoDB のバルク プット アイテムの一般提供を発表しました。…",
       "articles": [
         {
           "title": "Amazon DynamoDB が一括入力アイテムをサポートするようになりました",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。どうも、Kutoです。皆さんは普段 nginx 使ってますか？Web 系のサービスに携わっているのであれば使ったことのある人が多いでしょう。今日は nginx を使用して EC2 単体でのデプロイ戦略の設定を行ったので、書きたいと思います。…",
+      "summary": "開発ツールの新着が8件。第1回では、デザイン判定のうち機械に任せられる領域をプロセスも含めて整理しました。第2回となる今回は、生成された画面の仕分け方を解説します。ハーネスにおける検知には事前検知と事後検知が存在します。…",
       "articles": [
+        {
+          "title": "専任デザイナー不在でも破綻しない、AI生成画面を安全にデプロイするためのハーネス設計",
+          "link": "https://codezine.jp/article/detail/29978",
+          "source": "CodeZine",
+          "published": "2026-11-05T23:00:00",
+          "excerpt": "第1回では、デザイン判定のうち機械に任せられる領域をプロセスも含めて整理しました。第2回となる今回は、生成された画面の仕分け方を解説します。ハーネスにおける検知には事前検知と事後検知が存在します。…"
+        },
         {
           "title": "ALB を使わず EC2 単体でゼロダウンデプロイする方法",
           "link": "https://qiita.com/kuto110/items/d07b9594a7908d40ba70",
@@ -169,45 +176,38 @@
           "source": "gihyo.jp 開発",
           "published": "2026-11-05T10:19:56",
           "excerpt": "GitHub Nextは、Microsoft Researchと共同開発するProof-Driven Development Kit（PDD Kit）を紹介した。…"
-        },
-        {
-          "title": "GitHub Actions、pull_request_targetを12月2日から既定でブロック",
-          "link": "https://codezine.jp/article/detail/30246",
-          "source": "CodeZine",
-          "published": "2026-11-05T07:00:00",
-          "excerpt": "GitHub Actions、pull_request_targetを12月2日から既定でブロック"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Serve Robotics がロボットの AWS となる新事業を立ち上げる",
-      "link": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-11-05T21:15:00",
-      "excerpt": "Serve Robotics は、第 3 四半期の収益と併せて、顧客に接続およびデータ ツールを提供するために Physical AI Services と呼ばれる新しいビジネス ラインを立ち上げることを発表しました。"
+      "title": "NVIDIAの音声強調モデル「NemotronLabs RE-USE」を公式実装で動かしてみた（9.6Mパラメータで商用利用可）",
+      "link": "https://dev.classmethod.jp/articles/nvidia-nemotronlabs-re-use-overview/",
+      "source": "DevelopersIO",
+      "published": "2026-11-06T01:26:40",
+      "excerpt": "NVIDIAの音声強調モデル「NVIDIA NemotronLabs RE-USE」が公開されたので、モデル群の整理から実装検証、L40Sでの速度・メモリ測定まで、実運用を想定した導入ガイドをお届けします。"
     },
     {
-      "title": "1896年以来最悪の中間決算日となり、チップ株がウォール街と同様に大暴落",
-      "link": "https://finance.yahoo.com/markets/article/chip-stocks-get-slaughtered-as-wall-street-heads-for-its-worst-post-midterm-day-since-1896-163413900.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-05T20:58:36",
-      "excerpt": "記事の URL: https://finance.yahoo.…"
+      "title": "攻撃者は防御側が見ていない週末にインドのフィンテック企業を狙う",
+      "link": "https://www.theregister.com/security/2026/11/06/threat-actor-targets-indian-fintechs-on-weekends-when-defenders-arent-watching/5308000",
+      "source": "The Register（英語）",
+      "published": "2026-11-06T01:17:40",
+      "excerpt": "CERT-IN、AIを利用した攻撃の「大幅なエスカレーション」を警告、被害者が防御を強化しようとしたことを受けてのものもある"
     },
     {
-      "title": "テンセント、主要なオープンソース AI モデルの 1 つである Hy4 を発表",
-      "link": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-05T20:21:43",
-      "excerpt": "記事の URL: https://www.tencent.…"
+      "title": "Google、ワイオミング州のデータセンターなどに170億ドル投資へ　電力費全額負担を約束",
+      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002936/",
+      "source": "ITmedia NEWS",
+      "published": "2026-11-06T00:43:37",
+      "excerpt": "Googleは、ワイオミング州にデータセンターを建設すると発表した。投資額は長期で170億ドルを見込む。米国内でAIデータセンター建設への住民の反発が強まる中、同社は電力費やインフラ整備費の全額負担を約束した。…"
     },
     {
-      "title": "ブログのコスト",
-      "link": "https://onlinegoddess.net/2026/11/the-cost-of-blogging/",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-05T20:14:25",
-      "excerpt": "記事の URL: https://onlinegoddess.net/2026/11/the-cost-of-blogging/ コメント URL: https://news.ycombinator.com/item?…"
+      "title": "妖怪ウォッチの「カセット抜き増殖」から学ぶ分散システム（2）AWS も銀行も50年前の通信も、同じことで悩んでた",
+      "link": "https://qiita.com/happiitsumo/items/c4d4dab5d8f064a64268",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-06T00:42:04",
+      "excerpt": "🕶️🚲 470（ヨンナナマル）くん ヨットの帆なのに、陸で三輪車を漕いでいるこのブログの案内役です。今回も、わからないとテルテールがバタバタします。…"
     }
   ]
 }
