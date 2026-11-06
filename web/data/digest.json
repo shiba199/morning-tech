@@ -1,154 +1,168 @@
 {
-  "generated_at": "2026-11-06T01:53:14",
+  "generated_at": "2026-11-06T08:42:34",
   "window_hours": 24,
-  "total": 184,
+  "total": 174,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が26件。前回は Amazon Bedrock ガードレールを使ってマイナンバーなどの機密情報をどこまで検出できるかを調べました。…",
+      "summary": "生成AIの新着が29件。Snowflake、AIエージェントの「CoCo」と「CoWork」を強化──常時稼働の「Snowflake Bots」も発表",
       "articles": [
         {
-          "title": "AgentCore Runtime と Bedrock ガードレールを使ったアプリで機密情報がどのログに残るのか調べてみた",
-          "link": "https://qiita.com/takeda_h/items/704ce614cc51f67b863c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-06T01:18:52",
-          "excerpt": "前回は Amazon Bedrock ガードレールを使ってマイナンバーなどの機密情報をどこまで検出できるかを調べました。…"
-        },
-        {
-          "title": "Claude CodeもCopilotもある今、IBM Bobは何が違うのか。TechXchange 2026で見えた「捨てられないコード」と「選ばせないモデル」",
-          "link": "https://codezine.jp/article/detail/30219",
+          "title": "Snowflake、AIエージェントの「CoCo」と「CoWork」を強化──常時稼働の「Snowflake Bots」も発表",
+          "link": "https://codezine.jp/article/detail/30290",
           "source": "CodeZine",
-          "published": "2026-11-06T01:00:00",
-          "excerpt": "AIコーディングツールは、Claude Code、GitHub Copilot、Cursorなどと選択肢が出そろい、個人でもチームでも使うのが当たり前になった。…"
+          "published": "2026-11-06T07:30:00",
+          "excerpt": "Snowflake、AIエージェントの「CoCo」と「CoWork」を強化──常時稼働の「Snowflake Bots」も発表"
         },
         {
-          "title": "ClaudeのChatとCoworkの統合は、実行基盤がクラウドに揃ったということ",
-          "link": "https://dev.classmethod.jp/articles/claude-unified-chat-cowork/",
-          "source": "DevelopersIO",
-          "published": "2026-11-06T00:30:05",
-          "excerpt": "ClaudeのChatとCoworkの統合を、実行環境の変遷から整理します。PC上のVMで動いていたCoworkがクラウドで動くようになり、必要なときだけVMを使うChatのセッションとして1つにまとまりました。"
+          "title": "Google Classroom、Geminiの「Guided Learning」を任意の課題に追加可能に",
+          "link": "https://codezine.jp/article/detail/30259",
+          "source": "CodeZine",
+          "published": "2026-11-06T07:00:00",
+          "excerpt": "Google Classroom、Geminiの「Guided Learning」を任意の課題に追加可能に"
         },
         {
-          "title": "Anthropic、「Claude」に家計管理機能「Personal Finance」　銀行口座と連携、米国でβ提供",
-          "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002935/",
+          "title": "パロアルトネットワークス、AIエージェントセキュリティスタートアップのClutchを5億ドルで買収交渉中",
+          "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-06T06:28:32",
+          "excerpt": "情報筋によると、ライトスピードとシグナルファイアの支援を受けたクラッチの最終評価額は8500万ドルだったという。"
+        },
+        {
+          "title": "フジテレビ、27年に全ドラマで生成AI活用へ　一部工程で工数を最大8割削減も",
+          "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002962/",
           "source": "ITmedia NEWS",
-          "published": "2026-11-05T23:49:28",
-          "excerpt": "Anthropicは、AI「Claude」に個人の財務状況を把握できる新機能「Personal Finance」β版を追加した。Plaid経由で銀行やカード口座を連携し、支出のカテゴリ分けや家計分析を自然言語で行える。…"
+          "published": "2026-11-06T05:13:16",
+          "excerpt": "フジテレビは11月5日、2027年10月までに、同社が制作する全てのドラマで生成AIを活用できる体制を整えると発表した。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。Amazon Connectで複数の電話番号を移行する際、インスタンスあたりの電話番号クォータに注意が必要です。移行前にクォータ値を確認し、必要に応じて上限緩和をリクエストする方法について解説します。",
+      "summary": "クラウドの新着が9件。はじめに EC2 がダウンしていても、ユーザーにメンテナンスの案内を出せるようにしました。ALB（Application Load Balancer）のリスナールールで「固定レスポンス」を返す設定にして実現しています。…",
       "articles": [
+        {
+          "title": "EC2 がダウンしていてもメンテナンス画面を出せるようにした（ALB の固定レスポンス）",
+          "link": "https://qiita.com/Tukirukiki/items/c8ee91004e6d47c5f0a4",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-06T07:03:57",
+          "excerpt": "はじめに EC2 がダウンしていても、ユーザーにメンテナンスの案内を出せるようにしました。ALB（Application Load Balancer）のリスナールールで「固定レスポンス」を返す設定にして実現しています。…"
+        },
+        {
+          "title": "Amazon RDS for Oracle/SQL Server、追加ボリュームの自動スケーリングに対応",
+          "link": "https://codezine.jp/article/detail/30257",
+          "source": "CodeZine",
+          "published": "2026-11-06T05:30:00",
+          "excerpt": "Amazon RDS for Oracle/SQL Server、追加ボリュームの自動スケーリングに対応"
+        },
+        {
+          "title": "開発の Issue 管理を Linear に移行した | Feedforce Developer Blog",
+          "link": "https://developer.feedforce.jp/entry/2026/11/06/134131",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-06T04:41:31",
+          "excerpt": "こんにちは､ Omni Hub チームの shunten31 です.Omni Hub チームでは､ 開発のタスク管理を GitHub Projects から Linear に移しました.…"
+        },
         {
           "title": "Amazon Connect Customer のインスタンスに移行可能な電話番号数の上限について教えてください",
           "link": "https://dev.classmethod.jp/articles/tsnote-connect-phone-number-migration-quota-limit/",
           "source": "DevelopersIO",
           "published": "2026-11-06T00:00:11",
           "excerpt": "Amazon Connectで複数の電話番号を移行する際、インスタンスあたりの電話番号クォータに注意が必要です。移行前にクォータ値を確認し、必要に応じて上限緩和をリクエストする方法について解説します。"
-        },
-        {
-          "title": "[AWS Lambda] Web Functions は I/O 待ちの負荷で実行環境がいくつ立つのか、スロットリングまで実測してみました",
-          "link": "https://dev.classmethod.jp/articles/lambda-web-functions-scaling-throttling-io-bound/",
-          "source": "DevelopersIO",
-          "published": "2026-11-05T17:29:19",
-          "excerpt": "AWS Lambda Web Functionsの実行環境スケーリングについて、I/O待ち主体の負荷で実測してみました。…"
-        },
-        {
-          "title": "Dropbox が AI インフラストラクチャを強化するために Tigris Data を 3 億 5,000 万ドルで買収",
-          "link": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-05T15:19:05",
-          "excerpt": "この契約は、AI モデルとエージェントを構築する開発者を対象とした新しいストレージ プラットフォームである DBX Agent Cloud の開発をサポートすることが期待されています。"
-        },
-        {
-          "title": "ROSAとAmazon EKSとKubernetesの違いを整理してみた",
-          "link": "https://qiita.com/yama3133/items/d6cefd795fef01831106",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-05T15:05:37",
-          "excerpt": "はじめに AWSでKubernetesを動かそうとすると、Amazon EKSとROSA(Red Hat OpenShift Service on AWS)という2つのマネージドサービスが候補に挙がります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が28件。Vercel、プッシュごとに脆弱性を検査する「Vercel Security Review」をベータ公開",
+      "summary": "セキュリティの新着が25件。日本ネットワークセキュリティ協会は11月6日、同協会が運営する「情報セキュリティ理解度チェックサービス」が第三者による不正アクセスを受け、最大1万5128件の個人情報が漏えいした可能性があると発表した。",
       "articles": [
         {
-          "title": "Vercel、プッシュごとに脆弱性を検査する「Vercel Security Review」をベータ公開",
-          "link": "https://codezine.jp/article/detail/30254",
-          "source": "CodeZine",
-          "published": "2026-11-06T01:00:00",
-          "excerpt": "Vercel、プッシュごとに脆弱性を検査する「Vercel Security Review」をベータ公開"
+          "title": "セキュリティ啓発団体に不正アクセス　個人情報最大1.5万件漏えいか",
+          "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002978/",
+          "source": "ITmedia NEWS",
+          "published": "2026-11-06T08:24:24",
+          "excerpt": "日本ネットワークセキュリティ協会は11月6日、同協会が運営する「情報セキュリティ理解度チェックサービス」が第三者による不正アクセスを受け、最大1万5128件の個人情報が漏えいした可能性があると発表した。"
         },
         {
-          "title": "脆弱性に対する AWS サービスの関連情報を確認する方法を教えてください。",
-          "link": "https://dev.classmethod.jp/articles/tsnote-aws-health-vulnerability-related-information-check/",
-          "source": "DevelopersIO",
-          "published": "2026-11-06T00:45:57",
-          "excerpt": "セキュリティ速報を活用すれば、AWS サービスへの影響範囲や必要な対応方法を確認できます。"
+          "title": "分散開発チームのためのTerraformとAWS IAM Identity Centerによるセキュアな最小権限アクセス設計",
+          "link": "https://qiita.com/NKKTechGlobal/items/64f0c13219ec3ff198a1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-06T07:18:38",
+          "excerpt": "分散開発チームのためのTerraformとAWS IAM Identity Centerによるセキュアな最小権限アクセス設計 はじめに こんにちは、NKKTech Global 技術チームです。…"
         },
         {
-          "title": "Ubuntu 27.04（tenacious）の開発：Rustのための環境整備、LXDのセキュリティ更新、CVE-2026-98432",
-          "link": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202611/06?utm_source=feed",
+          "title": "パロアルトネットワークス、AIエージェントセキュリティスタートアップのClutchを5億ドルで買収交渉中",
+          "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-06T06:28:32",
+          "excerpt": "情報筋によると、ライトスピードとシグナルファイアの支援を受けたクラッチの最終評価額は8500万ドルだったという。"
+        },
+        {
+          "title": "OpenAI、サイバーセキュリティ向けフロンティアモデル「GPT-6 Cyber」を発表 ―脆弱性の自律的な検出・検証・修正に対応、スコープ外への攻撃・逸脱を厳格に防止",
+          "link": "https://gihyo.jp/article/2026/11/gpt-6-cyber?utm_source=feed",
           "source": "gihyo.jp 開発",
-          "published": "2026-11-06T00:41:00",
-          "excerpt": "Rust製ソフトウェアの利用環境の整備と、「Ubuntu上での、Rustを利用した開発」を支えるための基盤の整備が進められています。"
-        },
-        {
-          "title": "AWS Security Hub がコンピューティング リソースの SBOM インベントリを提供するようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-06T00:30:00",
-          "excerpt": "本日、AWS は、AWS Security Hub がソフトウェア部品表 (SBOM) インベントリを提供するようになり、中央セキュリティ チームがコンピューティング リソースにインストールされているソフトウェア パッケージとアプリケーショ…"
+          "published": "2026-11-06T04:42:00",
+          "excerpt": "OpenAIは2026年11月5日、サイバーセキュリティ向けフロンティアモデルの最新バージョンGPT-6 Cyberを発表した。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。本日、AWS は、Amazon S3 から既存の DynamoDB テーブルにデータを書き込むフルマネージド機能である Amazon DynamoDB のバルク プット アイテムの一般提供を発表しました。…",
+      "summary": "データ分析の新着が6件。Zabbix 8.0 LTSリリース、OpenTelemetry対応やMCPサーバー提供",
       "articles": [
+        {
+          "title": "Zabbix 8.0 LTSリリース、OpenTelemetry対応やMCPサーバー提供",
+          "link": "https://codezine.jp/article/detail/30284",
+          "source": "CodeZine",
+          "published": "2026-11-06T07:00:00",
+          "excerpt": "Zabbix 8.0 LTSリリース、OpenTelemetry対応やMCPサーバー提供"
+        },
+        {
+          "title": "Observability 実現の代表格「OpenTelemetry」って何だ？ | SIOS Tech Lab",
+          "link": "https://tech-lab.sios.jp/archives/56113",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-06T04:44:19",
+          "excerpt": "こんにちは。サイオステクノロジー OSS サポート担当 山本です。今回は OpenTelemetry について、他の「監視」関連の OSS を交えながら概要をざっくり見ていこうと思います。■OpenTelemetry ...…"
+        },
+        {
+          "title": "Security Hub の SBOM インベントリで、Athena を使わずに組織全体のソフトウェアを調べてみた",
+          "link": "https://zenn.dev/cscloud_blog/articles/securityhub-sbom-inventory",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-06T00:00:00",
+          "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！…"
+        },
         {
           "title": "Amazon DynamoDB が一括入力アイテムをサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-dynamodb-now-supports-bulk-put-items/",
           "source": "AWS What's New（英語）",
           "published": "2026-11-05T18:00:00",
           "excerpt": "本日、AWS は、Amazon S3 から既存の DynamoDB テーブルにデータを書き込むフルマネージド機能である Amazon DynamoDB のバルク プット アイテムの一般提供を発表しました。…"
-        },
-        {
-          "title": "新機能 AWS Continuum Code Vulnerabilitiesを使って最近の脆弱性を見つけられるのか試してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-continuum-code-vulnerabilities-ga/",
-          "source": "DevelopersIO",
-          "published": "2026-11-05T13:28:47",
-          "excerpt": "# AWS Continuum for code vulnerabilities の要約 ## サービス概要 2026年10月23日にAWSが**Continuum for code vulnerabilities**をGA（一般提供）開始…"
-        },
-        {
-          "title": "Observabilityの土台としてのログ：AIと調査できるイベントを5つのloggerで検証した | Algomatic Tech Blog",
-          "link": "https://tech.algomatic.jp/entry/2026/11/05/194657",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-05T10:46:57",
-          "excerpt": "こんにちは。AlgomaticでソフトウェアエンジニアをしているGo（@53able）です。AI エージェントに「この失敗を調べて」と頼んだのに、返ってきたのは推測ばかりだった。そんな経験はないでしょうか。…"
-        },
-        {
-          "title": "Amazon Redshift が、自動化されたクロスリージョンでのバックアップをサポートしたので試してみた。",
-          "link": "https://dev.classmethod.jp/articles/redshift-automated-cross-region-snapshot-copy/",
-          "source": "DevelopersIO",
-          "published": "2026-11-05T04:26:22",
-          "excerpt": "Amazon Redshift の自動クロスリージョンスナップショットコピーを東京から大阪へ有効化し、スナップショットが届くまでを観測しました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。第1回では、デザイン判定のうち機械に任せられる領域をプロセスも含めて整理しました。第2回となる今回は、生成された画面の仕分け方を解説します。ハーネスにおける検知には事前検知と事後検知が存在します。…",
+      "summary": "開発ツールの新着が6件。分散開発チームのためのTerraformとAWS IAM Identity Centerによるセキュアな最小権限アクセス設計 はじめに こんにちは、NKKTech Global 技術チームです。…",
       "articles": [
+        {
+          "title": "分散開発チームのためのTerraformとAWS IAM Identity Centerによるセキュアな最小権限アクセス設計",
+          "link": "https://qiita.com/NKKTechGlobal/items/64f0c13219ec3ff198a1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-06T07:18:38",
+          "excerpt": "分散開発チームのためのTerraformとAWS IAM Identity Centerによるセキュアな最小権限アクセス設計 はじめに こんにちは、NKKTech Global 技術チームです。…"
+        },
+        {
+          "title": "fine-grained PAT が使えない GitHub Packages に gh auth token と pnpm tokenHelper で向き合う | kickflow Tech Blog",
+          "link": "https://tech.kickflow.co.jp/entry/2026/11/06/141052",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-06T05:10:52",
+          "excerpt": "こんにちは、プロダクト開発本部でエンジニアをしている秋山です。みなさんは GitHub の Personal Access Token、まだ classic を使っていますか？kickflowでも、以前は使用していました。…"
+        },
         {
           "title": "専任デザイナー不在でも破綻しない、AI生成画面を安全にデプロイするためのハーネス設計",
           "link": "https://codezine.jp/article/detail/29978",
@@ -162,52 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-05T14:56:15",
           "excerpt": "どうも、Kutoです。皆さんは普段 nginx 使ってますか？Web 系のサービスに携わっているのであれば使ったことのある人が多いでしょう。今日は nginx を使用して EC2 単体でのデプロイ戦略の設定を行ったので、書きたいと思います。…"
-        },
-        {
-          "title": "GitHub ActionsでTerraformのCIを改善する",
-          "link": "https://zenn.dev/4no/articles/dd2409575ef321",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-05T11:20:59",
-          "excerpt": "はじめに これまで、GitHub Actionsを使ってTerraformの品質チェックやセキュリティチェックを自動化する方法を試して見ました！これまでに書いた記事は以下の2つです。…"
-        },
-        {
-          "title": "GitHub Next、AI生成コードが仕様を満たすことを証明する「PDD Kit」を紹介",
-          "link": "https://gihyo.jp/article/2026/11/pdd-kit?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-11-05T10:19:56",
-          "excerpt": "GitHub Nextは、Microsoft Researchと共同開発するProof-Driven Development Kit（PDD Kit）を紹介した。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "NVIDIAの音声強調モデル「NemotronLabs RE-USE」を公式実装で動かしてみた（9.6Mパラメータで商用利用可）",
-      "link": "https://dev.classmethod.jp/articles/nvidia-nemotronlabs-re-use-overview/",
+      "title": "Kiro のクレジットプーリングで月額はどう変わるか、先月の利用ログで試算してみた",
+      "link": "https://dev.classmethod.jp/articles/kiro-credit-pooling-cost/",
       "source": "DevelopersIO",
-      "published": "2026-11-06T01:26:40",
-      "excerpt": "NVIDIAの音声強調モデル「NVIDIA NemotronLabs RE-USE」が公開されたので、モデル群の整理から実装検証、L40Sでの速度・メモリ測定まで、実運用を想定した導入ガイドをお届けします。"
+      "published": "2026-11-06T08:29:22",
+      "excerpt": "先月の Kiro 利用ログから、月 500 クレジット以下の Pro ユーザー 20人と、月 7,600 クレジットを使うヘビーユーザー1人を共有プールに移した場合の月額を試算しました。…"
     },
     {
-      "title": "攻撃者は防御側が見ていない週末にインドのフィンテック企業を狙う",
-      "link": "https://www.theregister.com/security/2026/11/06/threat-actor-targets-indian-fintechs-on-weekends-when-defenders-arent-watching/5308000",
-      "source": "The Register（英語）",
-      "published": "2026-11-06T01:17:40",
-      "excerpt": "CERT-IN、AIを利用した攻撃の「大幅なエスカレーション」を警告、被害者が防御を強化しようとしたことを受けてのものもある"
+      "title": "もし「社長」から怪しい指示が来たら？　2～3月も続く「CEO詐欺」メールをラックが分析、対策を提言",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/06/news058.html",
+      "source": "@IT",
+      "published": "2026-11-06T08:15:00",
+      "excerpt": "2025年末から、企業代表者の実名をかたってLINEのグループ作成やアカウント情報の提供を求める「CEO詐欺」メールが相次いでいる。サイバーセキュリティ企業ラックの調査では、150社以上が注意喚起していることが判明した。…"
     },
     {
-      "title": "Google、ワイオミング州のデータセンターなどに170億ドル投資へ　電力費全額負担を約束",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002936/",
-      "source": "ITmedia NEWS",
-      "published": "2026-11-06T00:43:37",
-      "excerpt": "Googleは、ワイオミング州にデータセンターを建設すると発表した。投資額は長期で170億ドルを見込む。米国内でAIデータセンター建設への住民の反発が強まる中、同社は電力費やインフラ整備費の全額負担を約束した。…"
+      "title": "サイバー攻撃は「侵入」から始まらない　攻撃者が仕掛ける準備段階をどう見抜くか",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/06/news028.html",
+      "source": "@IT",
+      "published": "2026-11-06T08:00:00",
+      "excerpt": "サイバー攻撃は、システムへの侵入が始まってから動き出すわけではない。攻撃者は標的を探り、侵入に使えるアクセス権や脆弱性を調べるなど、事前に準備を進めている。こうした兆候を捉え、被害が発生する前に手を打つにはどうすればよいのか。…"
     },
     {
-      "title": "妖怪ウォッチの「カセット抜き増殖」から学ぶ分散システム（2）AWS も銀行も50年前の通信も、同じことで悩んでた",
-      "link": "https://qiita.com/happiitsumo/items/c4d4dab5d8f064a64268",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-06T00:42:04",
-      "excerpt": "🕶️🚲 470（ヨンナナマル）くん ヨットの帆なのに、陸で三輪車を漕いでいるこのブログの案内役です。今回も、わからないとテルテールがバタバタします。…"
+      "title": "数字で見る App Store 2026: AI、価格設定、放棄されたアプリ",
+      "link": "https://obelisk.club/research/app-store-2026",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-06T07:59:19",
+      "excerpt": "記事の URL: https://obelisk.club/research/app-store-2026 コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
