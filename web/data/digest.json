@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-07T01:24:43",
+  "generated_at": "2026-11-07T07:25:22",
   "window_hours": 24,
-  "total": 146,
+  "total": 131,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が27件。＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。",
+      "summary": "生成AIの新着が18件。＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。",
       "articles": [
         {
           "title": "「PHP重大脆弱性でEOL版にも異例パッチ」「勘定系にClaude Code適用」、現場を揺るがすセキュリティと生成AI最前線",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。はじめに こんにちは、松延です。ZEN大学（通信制）の2年生で、AIエンジニアを目指して勉強しています。個人で、iOSアプリ「カミメグ」を作っています。御朱印を写真で残して、近くの神社を探し、参拝を記録できるデジタル御朱印帳です。…",
+      "summary": "クラウドの新着が9件。はじめに FaaS（Function as a Service）を横並びで比較検討するシリーズを始めます。初回は、2014年に登場してFaaSの基準を作った AWS Lambda を整理します。…",
       "articles": [
+        {
+          "title": "【FaaS比較シリーズ #1】AWS Lambda を整理する ― 2026年11月版・5つの形態と制約・料金・設計のツボ",
+          "link": "https://qiita.com/Doc-Tanukichi/items/0d62a69743f03f01a294",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-07T02:48:59",
+          "excerpt": "はじめに FaaS（Function as a Service）を横並びで比較検討するシリーズを始めます。初回は、2014年に登場してFaaSの基準を作った AWS Lambda を整理します。…"
+        },
         {
           "title": "個人開発のiOSアプリに生成AIの神社紹介を載せるときに考えたこと（API Gateway＋Lambda＋Gemini／同意とプライバシー）",
           "link": "https://qiita.com/koheip/items/ae6963c09cd4c4f60a48",
@@ -64,21 +71,21 @@
           "source": "AWS What's New（英語）",
           "published": "2026-11-06T15:00:00",
           "excerpt": "AWS Data Exports for Cost and Usage Report (CUR) 2.…"
-        },
-        {
-          "title": "Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations in AWS GovCloud (US) Regions",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/capacity-reservation-resource-groups-support-in-aws-govcloud-regions",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-06T14:00:00",
-          "excerpt": "Starting today, you can add Amazon EC2 Capacity Blocks for ML and interruptible Capacity Reservations to Capacity Reserv…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。良品計画は「MUJIアプリ」の顧客情報流出についての続報を発表した。新たに無印良品ネットストアの利用者も対象に含まれることが判明した。一部の氏名や住所、MUJI Cardのクレジットカード番号全桁にも外部からアクセスされた可能性がある。",
+      "summary": "セキュリティの新着が12件。はじめに AWS 環境の構成を監視するサービスとしては、主に AWS Security Hub CSPM(以下 Security Hub CSPM)と AWS Config(以下 Config)がある。…",
       "articles": [
+        {
+          "title": "AWSの構成監視サービスをオンにしたあとに考えること ― AWS Security Hub CSPM の標準の選び方とAWS Config とのスコアの読み方",
+          "link": "https://qiita.com/Pretzelisa/items/4ec01197eaf54a50c3d8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-07T02:44:50",
+          "excerpt": "はじめに AWS 環境の構成を監視するサービスとしては、主に AWS Security Hub CSPM(以下 Security Hub CSPM)と AWS Config(以下 Config)がある。…"
+        },
         {
           "title": "無印良品の情報流出拡大、「ネットストア」やクレカ情報にも不正アクセスか",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/07/news003.html",
@@ -99,21 +106,21 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-06T18:55:20",
           "excerpt": "IAMポリシーは、「誰が」ではなく、「何を」「どのリソースに」「許可する(または拒否する)か」を書きます。…"
-        },
-        {
-          "title": "FirecrackerのCVE-2026-122192を読む：メモリの解放に失敗すると、ゲストからVMMのメモリを読み書きできる仕組みと対象条件",
-          "link": "https://dev.classmethod.jp/articles/firecracker-failed-discard-memory-hole/",
-          "source": "DevelopersIO",
-          "published": "2026-11-06T15:08:00",
-          "excerpt": "Firecracker の CVE-2026-122192 は、スナップショットから復元した VM でメモリの解放に失敗しても処理が続き、ゲストの root が Firecracker プロセスのメモリを読み書きできる問題です。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected…",
+      "summary": "データ分析の新着が8件。After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats,…",
       "articles": [
+        {
+          "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+          "link": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-07T04:16:43",
+          "excerpt": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats,…"
+        },
         {
           "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
           "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
@@ -134,20 +141,13 @@
           "source": "AWS What's New（英語）",
           "published": "2026-11-06T16:00:00",
           "excerpt": "Amazon Redshift now supports individual strings up to 16 million bytes within SUPER data types .…"
-        },
-        {
-          "title": "[アップデート] AWS Glue ETL ジョブで Glue バージョンに Auto を指定できるようになったので、5.1 から 6.0 への自動アップグレードを試してみた",
-          "link": "https://dev.classmethod.jp/articles/20261106-aws-glue-auto-upgread-version/",
-          "source": "DevelopersIO",
-          "published": "2026-11-06T14:53:47",
-          "excerpt": "AWS Glue ETL ジョブの Glue バージョンに Auto を指定すると、ジョブの実行を観測して互換性を確認し、承認後に最新の Glue 6.0 で実行して出力・性能・コストを比較したうえで移行が完了します。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。Playwright CLI 0.1.23のtab-newに--isolated-contextが加わり、1つのセッションでcookieとstorageを分けたタブを開けます。…",
+      "summary": "開発ツールの新着が4件。Playwright CLI 0.1.23のtab-newに--isolated-contextが加わり、1つのセッションでcookieとstorageを分けたタブを開けます。…",
       "articles": [
         {
           "title": "Playwright CLI 0.1.23の--isolated-contextで、1つのセッションに2人分のログイン状態を持たせる",
@@ -182,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "MCPでフィルター上書き、MotherDuck接続、マテリアライズGA | What's New in Sigma 2026/11/06 | truestarテックブログのフィード",
-      "link": "https://zenn.dev/truestar/articles/3e111c1e9c1c64",
-      "source": "企業テックブログまとめ",
-      "published": "2026-11-07T00:54:09",
-      "excerpt": "Sigma(Sigma Computing)の最新リリースノート情報を集約・要約して紹介しているコミュニティスレッド『Release Notes』。…"
+      "title": "NVIDIA、ワールドシミュレーション向けCosmos 3の新オープンモデル4種を公開",
+      "link": "https://codezine.jp/article/detail/30276",
+      "source": "CodeZine",
+      "published": "2026-11-07T06:00:00",
+      "excerpt": "NVIDIA、ワールドシミュレーション向けCosmos 3の新オープンモデル4種を公開"
     },
     {
-      "title": "Libghostty 1.0",
-      "link": "https://mitchellh.com/writing/libghostty-1-0",
+      "title": "Asahi Linux Progress Linux 7.3",
+      "link": "https://asahilinux.org/2026/11/progress-report-7-3/",
       "source": "Hacker News（英語）",
-      "published": "2026-11-06T23:30:52",
-      "excerpt": "Article URL: https://mitchellh.com/writing/libghostty-1-0 Comments URL: https://news.ycombinator.com/item?…"
+      "published": "2026-11-07T05:20:18",
+      "excerpt": "Article URL: https://asahilinux.org/2026/11/progress-report-7-3/ Comments URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "Man unexpectedly recovers from a knife wound through his eye and brain",
-      "link": "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-11-06T23:09:45",
-      "excerpt": "It's the exact path, not the apparent severity that matters most, doctors say."
+      "title": "Sequoia shutting down its Scouts program marks the end of an era",
+      "link": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-07T05:01:54",
+      "excerpt": "Sequoia pioneered the scouts model and many VC firms followed suit, but a consensus now seems to be forming that the mod…"
     },
     {
-      "title": "Outbound SIP calling is now available to all organizations",
-      "link": "https://developers.openai.com/api/docs/guides/voice-sip",
+      "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
+      "link": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
       "source": "Hacker News（英語）",
-      "published": "2026-11-06T23:03:55",
-      "excerpt": "Article URL: https://developers.openai.com/api/docs/guides/voice-sip Comments URL: https://news.ycombinator.com/item?…"
+      "published": "2026-11-07T04:54:36",
+      "excerpt": "Article URL: https://www.science.…"
     }
   ]
 }
