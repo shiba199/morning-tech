@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-11-07T07:25:22",
+  "generated_at": "2026-11-07T14:16:11",
   "window_hours": 24,
-  "total": 131,
+  "total": 109,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が18件。＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。",
+      "summary": "生成AIの新着が19件。変更履歴 2026-11-07：公開 初めに Amazon Bedrock AgentCore は、AI エージェントを AWS で動かすための機能をまとめたサービスである。…",
       "articles": [
+        {
+          "title": "【AWS】【AgentCore】AI エージェントが AWS リソースを参照できるようになるまで",
+          "link": "https://qiita.com/yuki_1012_1101/items/a7cd9ddd57bc9c23bdcc",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-07T12:36:59",
+          "excerpt": "変更履歴 2026-11-07：公開 初めに Amazon Bedrock AgentCore は、AI エージェントを AWS で動かすための機能をまとめたサービスである。…"
+        },
+        {
+          "title": "GitHub Copilot で Foundry にデプロイした GPT-6.1 Sol を使う | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/c26a38ef7ef037",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-07T10:10:58",
+          "excerpt": "執筆日2026/11/7 やることVS CodeでGitHub Copilotを使っています。Copilotのモデルに、Microsoft Foundryのモデルを追加しようと思います。…"
+        },
+        {
+          "title": "ISUCON2026をClaude Codeが優勝したらしい｜laiso",
+          "link": "https://sizu.me/laiso/posts/k59is4cnd77f",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-07T10:00:45",
+          "excerpt": "タイトルは釣りです（懐かしいブログ仕草） 正確には、元Wantedly CTOのkawasyさんが、ISUCON参加に向けて3ヶ月以上の試行錯誤をしたハーネスを、本番では無停止で自律的に8時間動作させて1位のスコアを叩き出したらしい。…"
+        },
         {
           "title": "「PHP重大脆弱性でEOL版にも異例パッチ」「勘定系にClaude Code適用」、現場を揺るがすセキュリティと生成AI最前線",
           "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/07/news005.html",
           "source": "@IT",
           "published": "2026-11-06T23:00:00",
           "excerpt": "＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。"
-        },
-        {
-          "title": "freeeは「AIコスト問題」をどう乗り越えた？　月100万件規模の処理で、汎用LLM比50分の1に",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2610/30/news021.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-11-06T23:00:00",
-          "excerpt": "freeeは月100万枚の帳票を処理するAI OCRに、独自のSLMを採用した。汎用LLMのAPIと比べ、項目抽出の精度は最大10ポイント向上し、速度は5倍、コストは50分の1になったという。…"
-        },
-        {
-          "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-          "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-06T22:53:46",
-          "excerpt": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected…"
-        },
-        {
-          "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
-          "link": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-06T22:50:43",
-          "excerpt": "Article URL: https://community.openai.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。はじめに FaaS（Function as a Service）を横並びで比較検討するシリーズを始めます。初回は、2014年に登場してFaaSの基準を作った AWS Lambda を整理します。…",
+      "summary": "クラウドの新着が6件。個人で運営しているWebサービスのAWSの請求を見ていたら、2026年8月だけRDSが200USDくらいになっていました。9月のRDSは26USDなので、普段の7倍以上です。。。原因はRDS for MySQL 8.…",
       "articles": [
+        {
+          "title": "RDS for MySQL 8.0の延長サポート料金に気づくのが遅れたので、再発防止をCDKで入れた",
+          "link": "https://qiita.com/pkxlulu/items/9b0ebd01781f62aef336",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-07T11:18:38",
+          "excerpt": "個人で運営しているWebサービスのAWSの請求を見ていたら、2026年8月だけRDSが200USDくらいになっていました。9月のRDSは26USDなので、普段の7倍以上です。。。原因はRDS for MySQL 8.…"
+        },
         {
           "title": "【FaaS比較シリーズ #1】AWS Lambda を整理する ― 2026年11月版・5つの形態と制約・料金・設計のツボ",
           "link": "https://qiita.com/Doc-Tanukichi/items/0d62a69743f03f01a294",
@@ -52,33 +59,40 @@
           "excerpt": "はじめに FaaS（Function as a Service）を横並びで比較検討するシリーズを始めます。初回は、2014年に登場してFaaSの基準を作った AWS Lambda を整理します。…"
         },
         {
+          "title": "CloudFront 入門 — CDN の基本と設定",
+          "link": "https://zenn.dev/akinori901/articles/20261008-plan060",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-06T23:38:31",
+          "excerpt": "CloudFront 入門 — CDN の基本と設定 概要 Amazon CloudFront は AWS が提供する CDN（Content Delivery Network）です。…"
+        },
+        {
           "title": "個人開発のiOSアプリに生成AIの神社紹介を載せるときに考えたこと（API Gateway＋Lambda＋Gemini／同意とプライバシー）",
           "link": "https://qiita.com/koheip/items/ae6963c09cd4c4f60a48",
           "source": "Qiita AWSタグ",
           "published": "2026-11-06T17:52:46",
           "excerpt": "はじめに こんにちは、松延です。ZEN大学（通信制）の2年生で、AIエンジニアを目指して勉強しています。個人で、iOSアプリ「カミメグ」を作っています。御朱印を写真で残して、近くの神社を探し、参拝を記録できるデジタル御朱印帳です。…"
-        },
-        {
-          "title": "【Backstage】 kubernetes pluginのセキュリティが強化されました | APC 技術ブログ",
-          "link": "https://techblog.ap-com.co.jp/entry/2026/11/07/000000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-06T15:00:00",
-          "excerpt": "はじめに 皆さんこんにちは。エーピーコミュニケーションズ ACS事業部 亀崎です。本ブログでも何度も取り上げてきている Backstage には Kubernetes用のPluginも存在します。techblog.ap-com.co.…"
-        },
-        {
-          "title": "AWS launches support for amortization of EC2 Capacity Blocks for ML",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ec2-capacity-blocks-ml/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-06T15:00:00",
-          "excerpt": "AWS Data Exports for Cost and Usage Report (CUR) 2.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。はじめに AWS 環境の構成を監視するサービスとしては、主に AWS Security Hub CSPM(以下 Security Hub CSPM)と AWS Config(以下 Config)がある。…",
+      "summary": "セキュリティの新着が8件。ランサムウェア攻撃の被害は、全ての企業にいつ起こっても不思議ではない。では、これを事前に防ぐため、あるいは被害後に早期復旧するためには、何に注意すればいいのだろうか。IPAが被害企業へのヒアリングから“11の教訓”を導き出した。",
       "articles": [
+        {
+          "title": "IPA、ランサムウェア被害組織の生の声から得た“11の教訓”を公開",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/07/news008.html",
+          "source": "@IT",
+          "published": "2026-11-07T08:15:00",
+          "excerpt": "ランサムウェア攻撃の被害は、全ての企業にいつ起こっても不思議ではない。では、これを事前に防ぐため、あるいは被害後に早期復旧するためには、何に注意すればいいのだろうか。IPAが被害企業へのヒアリングから“11の教訓”を導き出した。"
+        },
+        {
+          "title": "[アップデート] Azure Front Door の WAF で HTTP DDoS ルールセットが GA になっていたので確認してみた",
+          "link": "https://dev.classmethod.jp/articles/azure-front-door-waf-http-ddos-ga/",
+          "source": "DevelopersIO",
+          "published": "2026-11-07T07:26:06",
+          "excerpt": "GA になったはずだが..."
+        },
         {
           "title": "AWSの構成監視サービスをオンにしたあとに考えること ― AWS Security Hub CSPM の標準の選び方とAWS Config とのスコアの読み方",
           "link": "https://qiita.com/Pretzelisa/items/4ec01197eaf54a50c3d8",
@@ -92,122 +106,108 @@
           "source": "@IT",
           "published": "2026-11-06T23:15:00",
           "excerpt": "良品計画は「MUJIアプリ」の顧客情報流出についての続報を発表した。新たに無印良品ネットストアの利用者も対象に含まれることが判明した。一部の氏名や住所、MUJI Cardのクレジットカード番号全桁にも外部からアクセスされた可能性がある。"
-        },
-        {
-          "title": "「PHP重大脆弱性でEOL版にも異例パッチ」「勘定系にClaude Code適用」、現場を揺るがすセキュリティと生成AI最前線",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/07/news005.html",
-          "source": "@IT",
-          "published": "2026-11-06T23:00:00",
-          "excerpt": "＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。"
-        },
-        {
-          "title": "IAMポリシーのJSONを読む|最小権限の原則を、例で確かめる(AWSクラウドプラクティショナー範囲)",
-          "link": "https://qiita.com/kumomachi_lab/items/666c05380331b717bf77",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-06T18:55:20",
-          "excerpt": "IAMポリシーは、「誰が」ではなく、「何を」「どのリソースに」「許可する(または拒否する)か」を書きます。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats,…",
+      "summary": "データ分析の新着が6件。Amazon Redshift の SUPER データ型で個々の文字列を最大 16,000,000 バイトまで格納できるようになり、65,535 バイトを超える文字列を含む JSON を分割せずにロードできます。…",
       "articles": [
         {
-          "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+          "title": "[アップデート] Amazon Redshift の SUPER データ型で最大 16,000,000 バイトの文字列を格納できるようになったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/20261107-amazon-redshift-expands-super-to-16-million-bytes/",
+          "source": "DevelopersIO",
+          "published": "2026-11-07T09:59:50",
+          "excerpt": "Amazon Redshift の SUPER データ型で個々の文字列を最大 16,000,000 バイトまで格納できるようになり、65,535 バイトを超える文字列を含む JSON を分割せずにロードできます。…"
+        },
+        {
+          "title": "最前列から注目の席まで — ビッグテックにとって中間選挙が意味するもの",
           "link": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
           "source": "TechCrunch（英語）",
           "published": "2026-11-07T04:16:43",
-          "excerpt": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats,…"
+          "excerpt": "ホワイトハウスと仲良くなって2年を費やした後、大手テック企業は突然民主党と友達になろうとしているが、未解決の問題は、そのイメージ変革が州、地域社会、市場が行おうとしていることに対抗できるかどうかだ。"
         },
         {
-          "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+          "title": "OpenAIは1兆2500億ドルの評価額でさらに110億ドルを調達すると報じられている",
           "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
           "source": "TechCrunch（英語）",
           "published": "2026-11-06T22:53:46",
-          "excerpt": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected…"
+          "excerpt": "OpenAI は資金調達ラウンドの一環として追加で 110 億ドルを調達したと伝えられており、この資金調達ラウンドはまだ完了していませんが、今後数週間以内に完了すると予想されています。"
         },
         {
-          "title": "Oak Ridge labs gets hybrid quantum-HPC system to test qubit error correction",
+          "title": "オークリッジ研究所が量子ビット誤り訂正をテストするハイブリッド量子 HPC システムを取得",
           "link": "https://www.theregister.com/hpc/2026/11/06/oak-ridge-labs-gets-hybrid-quantum-hpc-system-to-test-qubit-error-correction/5308187",
           "source": "The Register（英語）",
           "published": "2026-11-06T17:00:00",
-          "excerpt": "Co-design platform for quantum error correction melds IBM quantum kit with AMD CPUs and GPUs"
-        },
-        {
-          "title": "Amazon Redshift expands SUPER data type to store strings up to 16 million bytes",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-redshift-expands-super-to-16-million-bytes/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-06T16:00:00",
-          "excerpt": "Amazon Redshift now supports individual strings up to 16 million bytes within SUPER data types .…"
+          "excerpt": "量子エラー訂正用の共同設計プラットフォームは、IBM 量子キットと AMD CPU および GPU を融合します"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が4件。Playwright CLI 0.1.23のtab-newに--isolated-contextが加わり、1つのセッションでcookieとstorageを分けたタブを開けます。…",
+      "summary": "開発ツールの新着が7件。2026/11/07 時点の検証結果です。Terraform v1.17.1、hashicorp/aws v6.72.0 を使用しています。Terraform 1.…",
       "articles": [
         {
-          "title": "Playwright CLI 0.1.23の--isolated-contextで、1つのセッションに2人分のログイン状態を持たせる",
-          "link": "https://dev.classmethod.jp/articles/playwright-cli-isolated-context-multi-user/",
-          "source": "DevelopersIO",
-          "published": "2026-11-07T00:40:52",
-          "excerpt": "Playwright CLI 0.1.23のtab-newに--isolated-contextが加わり、1つのセッションでcookieとstorageを分けたタブを開けます。…"
+          "title": "Terraform 1.17 の -minimal-refresh でも data source は毎回読まれる",
+          "link": "https://qiita.com/pokapu/items/07cb87c2f00716946158",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-07T12:24:45",
+          "excerpt": "2026/11/07 時点の検証結果です。Terraform v1.17.1、hashicorp/aws v6.72.0 を使用しています。Terraform 1.…"
         },
         {
-          "title": "GitHub、プルリクエストの新しい「Overview」ページをパブリックプレビューとして公開",
-          "link": "https://codezine.jp/article/detail/30277",
-          "source": "CodeZine",
-          "published": "2026-11-07T00:00:00",
-          "excerpt": "GitHub、プルリクエストの新しい「Overview」ページをパブリックプレビューとして公開"
+          "title": "RDS for MySQL 8.0の延長サポート料金に気づくのが遅れたので、再発防止をCDKで入れた",
+          "link": "https://qiita.com/pkxlulu/items/9b0ebd01781f62aef336",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-07T11:18:38",
+          "excerpt": "個人で運営しているWebサービスのAWSの請求を見ていたら、2026年8月だけRDSが200USDくらいになっていました。9月のRDSは26USDなので、普段の7倍以上です。。。原因はRDS for MySQL 8.…"
         },
         {
-          "title": "WordPressにデプロイしても、ユーザーをログアウトさせない方法【個人開発】",
-          "link": "https://zenn.dev/koenokakaku/articles/024b9d3e2f67d1",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-06T14:30:45",
-          "excerpt": "はじめに DLsiteの音声作品の価格を比較できるサービス「声の価格」を運営しています。https://koenokakaku.jp サイトをアップデートした後も、ログイン中のユーザーにはそのまま使い続けてほしいですよね。…"
+          "title": "GitHub Copilot で Foundry にデプロイした GPT-6.1 Sol を使う | ヘッドウォータースのフィード",
+          "link": "https://zenn.dev/headwaters/articles/c26a38ef7ef037",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-07T10:10:58",
+          "excerpt": "執筆日2026/11/7 やることVS CodeでGitHub Copilotを使っています。Copilotのモデルに、Microsoft Foundryのモデルを追加しようと思います。…"
         },
         {
-          "title": "Physicl raises $10M to make the digital world real enough for robots",
-          "link": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-06T13:00:00",
-          "excerpt": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online."
+          "title": "GitHub Repository Insightsの使い方｜Issue・PR・コミットを分析して開発改善につなげる | Alternative Architecture DOJO",
+          "link": "https://aadojo.alterbooth.com/entry/2026/11/07/190229",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-07T10:02:29",
+          "excerpt": "GitHubのリポジトリには、日々の開発で作成されたIssueやPull Request（PR）、コミットの履歴が蓄積されています。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "NVIDIA、ワールドシミュレーション向けCosmos 3の新オープンモデル4種を公開",
-      "link": "https://codezine.jp/article/detail/30276",
-      "source": "CodeZine",
-      "published": "2026-11-07T06:00:00",
-      "excerpt": "NVIDIA、ワールドシミュレーション向けCosmos 3の新オープンモデル4種を公開"
+      "title": "AWS Systems ManagerのParameter Storeに型機能がついたので試してみた",
+      "link": "https://qiita.com/kenpi1313/items/2e05d45eda90cf0fc3f5",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-07T13:58:50",
+      "excerpt": "はじめに AWS Systems ManegerのParameter Store（相変わらず長いな）に型機能が搭載されたということで早速試してみました。公式からの発表はこちらです。公式の型情報に関するDocsはこちらです。…"
     },
     {
-      "title": "Asahi Linux Progress Linux 7.3",
-      "link": "https://asahilinux.org/2026/11/progress-report-7-3/",
+      "title": "バンツーの拡大はアフリカを変えた。科学者たちはまだその方法を追跡しています。",
+      "link": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-11-07T12:15:55",
+      "excerpt": "遺伝子と考古学により、バンツー語話者がどのようにしてアフリカの大部分に広がったのかが明らかになってきています。"
+    },
+    {
+      "title": "すべての Windows 11 アプリは Electron を強制終了する必要がありますが、Discord がその理由を示しました",
+      "link": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
       "source": "Hacker News（英語）",
-      "published": "2026-11-07T05:20:18",
-      "excerpt": "Article URL: https://asahilinux.org/2026/11/progress-report-7-3/ Comments URL: https://news.ycombinator.com/item?…"
+      "published": "2026-11-07T11:11:15",
+      "excerpt": "記事の URL: https://www.windowslatest.…"
     },
     {
-      "title": "Sequoia shutting down its Scouts program marks the end of an era",
-      "link": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-11-07T05:01:54",
-      "excerpt": "Sequoia pioneered the scouts model and many VC firms followed suit, but a consensus now seems to be forming that the mod…"
-    },
-    {
-      "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
-      "link": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-07T04:54:36",
-      "excerpt": "Article URL: https://www.science.…"
+      "title": "英国兵士がSIMカードを抜くよう命令を無視し、その後脅迫された",
+      "link": "https://arstechnica.com/security/2026/11/british-soldier-ignored-order-to-pull-his-sim-card-then-got-blackmailed/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-11-07T11:00:34",
+      "excerpt": "兵士は出動前にデバイスをロックダウンするよう繰り返し指示し、性的強要を受け、軍法会議にかけられた。"
     }
   ]
 }
