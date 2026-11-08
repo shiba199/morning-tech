@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-11-08T01:37:47",
+  "generated_at": "2026-11-08T08:14:14",
   "window_hours": 24,
-  "total": 81,
+  "total": 79,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が9件。AIエージェントの一般化に伴い、複数のAIエージェントを連携させるマルチエージェントシステムが注目されています。GitHub、Google、Siemensが紹介した15のデザインパターンを、設計上の課題や具体的な活用場面とともに解説します。",
+      "summary": "生成AIの新着が14件。Amazon Bedrock AgentCoreのWeb Answerがリリースされたので試してみました！",
       "articles": [
         {
-          "title": "【図解あり】マルチエージェント設計「15のパターン」　GitHub、Google、Siemensの知見を一気に整理",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
-          "source": "@IT",
-          "published": "2026-11-07T23:00:00",
-          "excerpt": "AIエージェントの一般化に伴い、複数のAIエージェントを連携させるマルチエージェントシステムが注目されています。GitHub、Google、Siemensが紹介した15のデザインパターンを、設計上の課題や具体的な活用場面とともに解説します。"
-        },
-        {
-          "title": "【既存のSQL, PL/SQLをAIを用いて移行する】第5回：Claude Code / Codex のスキルから使う | Scalar Solution Engineer Blogのフィード",
-          "link": "https://zenn.dev/scalar_sol_blog/articles/20260923-100500-scalardb-migrate-5-skills",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-07T22:09:58",
-          "excerpt": "概要この連載では、Oracle / MySQL / PostgreSQL 向けに書かれた既存の SQL と PL/SQL を ScalarDB へ移すために試作した仕組み(https://github.…"
-        },
-        {
-          "title": "Claude Code の「Don't Ask Again」により、1,122 個の公開 GitHub ファイル内のパスワードが公開される",
-          "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-07T20:45:32",
-          "excerpt": "記事の URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again コメント URL: https://news.ycombinator.…"
-        },
-        {
-          "title": "Claude Code v2.1.318〜v2.1.319 の主要アップデート - denyInsteadOfPrompting 設定と auto mode の挙動変更",
-          "link": "https://dev.classmethod.jp/articles/20261108-cc-updates-v2-1-319/",
+          "title": "[アップデート] Web Answer on Amazon Bedrock AgentCore がリリースされました！",
+          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-web-answer-try-harness/",
           "source": "DevelopersIO",
-          "published": "2026-11-07T17:15:46",
-          "excerpt": "Claude Code v2.1.318〜v2.1.319 の主要アップデートを解説。承認待ちで止めない permissions.…"
+          "published": "2026-11-08T07:53:36",
+          "excerpt": "Amazon Bedrock AgentCoreのWeb Answerがリリースされたので試してみました！"
+        },
+        {
+          "title": "Claude Enterprise で CSV アップロード機能を利用してユーザーを追加してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-team-enterprise-csv-upload-user-add/",
+          "source": "DevelopersIO",
+          "published": "2026-11-08T07:50:06",
+          "excerpt": "Claude の Team/Enterprise プランで CSV 経由のユーザー追加がどのように動作するのか、実際に検証してみました。…"
+        },
+        {
+          "title": "【AWS】結果を返すか、答えを返すか。Web SearchとWeb Answerの使い分け【AgentCore】",
+          "link": "https://qiita.com/Nana_777/items/6e466fb974972a79a323",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-08T06:26:43",
+          "excerpt": "はじめに AIエージェントに最新のウェブ情報を渡したい場面は多いです。これまでは、検索APIを呼び、ページを取得し、要約して、出典を付ける、というパイプラインを自分で組む必要がありました。…"
+        },
+        {
+          "title": "【AgentCore】エージェントのハンズオンをブラウザの中だけで完結させる教材を作った",
+          "link": "https://qiita.com/ryu-ki/items/a6cb026b2d3a54d175cc",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-08T06:17:41",
+          "excerpt": "はじめに 社内勉強会向けに、Amazon Bedrock AgentCore のハンズオン環境を Terraform で作りました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が5件。概要この連載では、Oracle / MySQL / PostgreSQL 向けに書かれた既存の SQL と PL/SQL を ScalarDB へ移すために試作した仕組み(https://github.…",
+      "summary": "クラウドの新着が5件。開発環境のRDSやECSは、誰も使っていない夜間や休日も動き続け、その時間の料金もかかります。平日の日中だけ使う環境なら、使わない時間に止めるだけでインスタンスの料金を大きく減らせます。…",
       "articles": [
+        {
+          "title": "【Terraform×AWS】開発環境のRDSとECSを夜間・休日に自動停止してコストを削減する",
+          "link": "https://qiita.com/ham-nao/items/de24325bb6fba0f20625",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-08T08:13:03",
+          "excerpt": "開発環境のRDSやECSは、誰も使っていない夜間や休日も動き続け、その時間の料金もかかります。平日の日中だけ使う環境なら、使わない時間に止めるだけでインスタンスの料金を大きく減らせます。…"
+        },
         {
           "title": "【既存のSQL, PL/SQLをAIを用いて移行する】第5回：Claude Code / Codex のスキルから使う | Scalar Solution Engineer Blogのフィード",
           "link": "https://zenn.dev/scalar_sol_blog/articles/20260923-100500-scalardb-migrate-5-skills",
@@ -64,21 +71,21 @@
           "source": "DevelopersIO",
           "published": "2026-11-07T14:15:23",
           "excerpt": "Fivetran Activations を使って、Snowflake の先頭ゼロ付き VARCHAR 列を S3 に出力する際、CSV / TSV / Parquet の 3 形式でデータがどう扱われるかを実検証してみました。"
-        },
-        {
-          "title": "RDS for MySQL 8.0の延長サポート料金に気づくのが遅れたので、再発防止をCDKで入れた",
-          "link": "https://qiita.com/pkxlulu/items/9b0ebd01781f62aef336",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-07T11:18:38",
-          "excerpt": "個人で運営しているWebサービスのAWSの請求を見ていたら、2026年8月だけRDSが200USDくらいになっていました。9月のRDSは26USDなので、普段の7倍以上です。。。原因はRDS for MySQL 8.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。Google Workspace、機密ファイルへのクライアントサイド暗号化の自動適用をベータ提供",
+      "summary": "セキュリティの新着が6件。Amazon MSK、転送中データの暗号化でTLS 1.3をサポート",
       "articles": [
+        {
+          "title": "Amazon MSK、転送中データの暗号化でTLS 1.3をサポート",
+          "link": "https://codezine.jp/article/detail/30280",
+          "source": "CodeZine",
+          "published": "2026-11-08T06:00:00",
+          "excerpt": "Amazon MSK、転送中データの暗号化でTLS 1.3をサポート"
+        },
         {
           "title": "Google Workspace、機密ファイルへのクライアントサイド暗号化の自動適用をベータ提供",
           "link": "https://codezine.jp/article/detail/30279",
@@ -99,20 +106,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-11-07T13:03:20",
           "excerpt": "0.はじめに Amazon Inspector・Security Hub・WAFログを、監査・主管部門に説明できる判断材料へ変換する AWSのセキュリティサービスを有効化すると、検知結果は出る。…"
-        },
-        {
-          "title": "暗号資産の自動売買botをAWSで作って1年分の実データで検証したら、積立に勝てなかった話",
-          "link": "https://zenn.dev/kuronurikun/books/bitbank-grid-bot-aws",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-07T12:00:01",
-          "excerpt": "bitbank APIを使ったグリッド取引botを、Lambda・DynamoDB・Terraformで構築し、バックテスト・ペーパー・本番で同じロジックを使う設計にしました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。この発表は、ハッカーがバイナンスユーザーから63億ドル相当の暗号通貨を盗んでからわずか1週間と経たないうちに行われた。",
+      "summary": "データ分析の新着が2件。この発表は、ハッカーがバイナンスユーザーから63億ドル相当の暗号通貨を盗んでからわずか1週間と経たないうちに行われた。",
       "articles": [
         {
           "title": "バイナンスの最高財務責任者、63億ドルのハッキングを受けて「新たな事業を追求」するため退職",
@@ -127,21 +127,28 @@
           "source": "DevelopersIO",
           "published": "2026-11-07T09:59:50",
           "excerpt": "Amazon Redshift の SUPER データ型で個々の文字列を最大 16,000,000 バイトまで格納できるようになり、65,535 バイトを超える文字列を含む JSON を分割せずにロードできます。…"
-        },
-        {
-          "title": "最前列から注目の席まで — ビッグテックにとって中間選挙が意味するもの",
-          "link": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-07T04:16:43",
-          "excerpt": "ホワイトハウスと仲良くなって2年を費やした後、大手テック企業は突然民主党と友達になろうとしているが、未解決の問題は、そのイメージ変革が州、地域社会、市場が行おうとしていることに対抗できるかどうかだ。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。記事の URL: https://github.…",
+      "summary": "開発ツールの新着が10件。開発環境のRDSやECSは、誰も使っていない夜間や休日も動き続け、その時間の料金もかかります。平日の日中だけ使う環境なら、使わない時間に止めるだけでインスタンスの料金を大きく減らせます。…",
       "articles": [
+        {
+          "title": "【Terraform×AWS】開発環境のRDSとECSを夜間・休日に自動停止してコストを削減する",
+          "link": "https://qiita.com/ham-nao/items/de24325bb6fba0f20625",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-08T08:13:03",
+          "excerpt": "開発環境のRDSやECSは、誰も使っていない夜間や休日も動き続け、その時間の料金もかかります。平日の日中だけ使う環境なら、使わない時間に止めるだけでインスタンスの料金を大きく減らせます。…"
+        },
+        {
+          "title": "Vercel、再デプロイ不要でスケジュールを管理できる「Vercel Schedules」を公開",
+          "link": "https://codezine.jp/article/detail/30282",
+          "source": "CodeZine",
+          "published": "2026-11-08T03:00:00",
+          "excerpt": "Vercel、再デプロイ不要でスケジュールを管理できる「Vercel Schedules」を公開"
+        },
         {
           "title": "GitHub パブリック プレビュー中の新しいプル リクエスト概要ページ",
           "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
@@ -155,52 +162,38 @@
           "source": "@IT",
           "published": "2026-11-07T23:00:00",
           "excerpt": "AIエージェントの一般化に伴い、複数のAIエージェントを連携させるマルチエージェントシステムが注目されています。GitHub、Google、Siemensが紹介した15のデザインパターンを、設計上の課題や具体的な活用場面とともに解説します。"
-        },
-        {
-          "title": "Claude Code の「Don't Ask Again」により、1,122 個の公開 GitHub ファイル内のパスワードが公開される",
-          "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-07T20:45:32",
-          "excerpt": "記事の URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again コメント URL: https://news.ycombinator.…"
-        },
-        {
-          "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
-          "link": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-07T13:18:14",
-          "excerpt": "はじめに 2026年11月、Cloudflare Radar に Zero Wire という脆弱性インテリジェンスのフィードが公開されました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "2026年11月8日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-      "link": "https://qiita.com/ennagara128/items/c5436af4152d9d5e73a2",
+      "title": "JAWS FESTA 2026 in AKITA に参加できなかったので、資料だけでも見たい！と思ってまとめました！",
+      "link": "https://qiita.com/kurracchi_enj/items/ce0098bd28fa043c1e5f",
       "source": "Qiita AWSタグ",
-      "published": "2026-11-08T01:18:55",
-      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
+      "published": "2026-11-08T07:43:07",
+      "excerpt": "どうもこんにちは。2026/11/7（土）にJAWS FESTA 2026が開催されましたね。（いぎだがっだぁ...） 前日の夜から翌日まで楽しそうなツイートを見てて、いいなぁ...って。↓を見てください。ほんとに楽しそうなんですよ。…"
     },
     {
-      "title": "Commodore PET – 世界初のパーソナルコンピュータ",
-      "link": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-07T23:15:34",
-      "excerpt": "記事の URL: https://www.commodore.…"
+      "title": "CloudWatch が PromQL 対応したので、Amazon Managed Grafana から接続してみた",
+      "link": "https://dev.classmethod.jp/articles/cloudwatch-promql-endpoint-amazon-managed-grafana/",
+      "source": "DevelopersIO",
+      "published": "2026-11-08T05:42:05",
+      "excerpt": "新規構築であれば、Amazon Managed Prometheus の出番は割と減るのでは？"
     },
     {
-      "title": "IRA Velinsky – Commodore の工業デザイナー",
-      "link": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-07T22:45:39",
-      "excerpt": "記事の URL: https://www.commodore.…"
+      "title": "AWS Network Firewall の Reject と Alert のドメインリストを Allow と組み合わせ、ルールの評価順序ごとに確かめてみた",
+      "link": "https://dev.classmethod.jp/articles/network-firewall-domain-list-reject-alert-rule-order/",
+      "source": "DevelopersIO",
+      "published": "2026-11-08T05:33:38",
+      "excerpt": "AWS Network Firewall のドメインリストルールグループで、Allow・Reject・Alert を組み合わせた場合の動作を実際に検証してみました。…"
     },
     {
-      "title": "4 つの 2 で任意の整数を作る (2025)",
-      "link": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
+      "title": "キルリアン写真撮影: 自分で機材を組み立てる",
+      "link": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
       "source": "Hacker News（英語）",
-      "published": "2026-11-07T22:38:58",
-      "excerpt": "記事の URL: https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/ コメント URL: https://news.ycombinator.…"
+      "published": "2026-11-08T04:14:12",
+      "excerpt": "記事の URL: https://imagesco.com/articles/kirlian/kirlian-photography.html コメント URL: https://news.ycombinator.com/item?…"
     }
   ]
 }
