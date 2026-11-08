@@ -1,20 +1,34 @@
 {
-  "generated_at": "2026-11-08T19:49:21",
+  "generated_at": "2026-11-08T23:15:56",
   "window_hours": 24,
-  "total": 77,
+  "total": 85,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が12件。Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.…",
+      "summary": "生成AIの新着が11件。AIエージェントの普及によって、企業が管理すべきIDはどう変わるのか。人間のIDや従来のマシンIDとは何が異なり、どのようなセキュリティリスクが生じるのか。…",
       "articles": [
         {
-          "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+          "title": "企業が知らない“野良ID”、「想定よりはるかに多い」――AIエージェント時代の新たな盲点",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/09/news015.html",
+          "source": "@IT",
+          "published": "2026-11-08T20:00:00",
+          "excerpt": "AIエージェントの普及によって、企業が管理すべきIDはどう変わるのか。人間のIDや従来のマシンIDとは何が異なり、どのようなセキュリティリスクが生じるのか。…"
+        },
+        {
+          "title": "ゴールドマン・サックスは銀行家やトレーダーからクロード・コードを引き出している",
           "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
           "source": "Hacker News（英語）",
           "published": "2026-11-08T18:16:07",
-          "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.…"
+          "excerpt": "記事の URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers コメント URL: https://news.ycombinator.…"
+        },
+        {
+          "title": "Claude Codeの「今後確認しない」が秘密情報をGitHubに漏らす — 1,122件の公開ファイルに1,379件の秘密情報 - Dev & Gadget Note",
+          "link": "https://dev.ponkotsu.dev/entry/claude-code-settings-local-secrets",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-08T10:31:52",
+          "excerpt": "Claude Codeで「Yes, and don't ask again（今後確認しない）」を選ぶと、承認したコマンドがそのままプロジェクト内の.claude/settings.local.jsonに保存されます。…"
         },
         {
           "title": "Claude Enteprise で組織設定に追加された IP 許可リストについて試してみた",
@@ -22,28 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-11-08T10:04:11",
           "excerpt": "Claude Enterprise に新しく追加された「IP 許可リスト」機能を、実際に設定して検証してみました。…"
-        },
-        {
-          "title": "CloudWatch Agentのappend-configとは？設定ファイルを分割・共通化して管理する方法",
-          "link": "https://zenn.dev/zer0_infra/articles/a6fb74cdc76ad2",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-08T10:00:05",
-          "excerpt": "はじめに：1つのJSONに全部入れるのは無理があった AWSを使っている現場なら、ほぼ必ずと言っていいほど入っているのがCloudWatch Agent（以下CWA）です。今回も、そのCWAについて書きます。…"
-        },
-        {
-          "title": "[アップデート] Web Answer on Amazon Bedrock AgentCore がリリースされました！",
-          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-web-answer-try-harness/",
-          "source": "DevelopersIO",
-          "published": "2026-11-08T07:53:36",
-          "excerpt": "Amazon Bedrock AgentCoreのWeb Answerがリリースされたので試してみました！"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が6件。はじめに Linear で本番トラフィックを 10% ずつ、6 分おきに切り替えると (API の既定値の場合)、待機時間だけで約 54 分かかります。…",
+      "summary": "クラウドの新着が8件。はじめに こんにちは！YOUTRUSTのアプリエンジニアの優依那 (YOUTRUST / X) です✨ エンジニアに転身して、早いもので2年が経ちました！…",
       "articles": [
+        {
+          "title": "チーム開発は同棲に似ている。Flutterの.env管理をsops + ageに移行する | YOUTRUST Tech Blog",
+          "link": "https://tech.youtrust.co.jp/entry/2026/11/09/073948",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-08T22:39:48",
+          "excerpt": "はじめに こんにちは！YOUTRUSTのアプリエンジニアの優依那 (YOUTRUST / X) です✨ エンジニアに転身して、早いもので2年が経ちました！…"
+        },
+        {
+          "title": "Lambda Durable Functionsでも二重実行は起こる？Checkpointの境界と冪等性を実機検証",
+          "link": "https://zenn.dev/takuyousou/articles/lambda-durable-checkpoint-idempotency",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-08T16:15:41",
+          "excerpt": "はじめに 前回の記事では、Amazon Bedrock AgentCore RuntimeとAWS Lambda Durable Functionsを組み合わせ、Agentの処理が完了したあとにS3保存で失敗した場合の再実行動作を検証しまし…"
+        },
         {
           "title": "Amazon ECS コンソールのデプロイ可観測性、Linear・Canary・Blue/Green に対応",
           "link": "https://qiita.com/Haruki-N/items/748e52ddc18c5d51bb21",
@@ -52,81 +66,67 @@
           "excerpt": "はじめに Linear で本番トラフィックを 10% ずつ、6 分おきに切り替えると (API の既定値の場合)、待機時間だけで約 54 分かかります。…"
         },
         {
-          "title": "開発と本番が別アカウントのEC2（Ubuntu） に Patch Manager で順番にパッチを当ててみた",
-          "link": "https://dev.classmethod.jp/articles/shoma-applied-patches-sequentially-with-patch-manager-to-ubuntu-ec2-in-separate-dev-and-prod-accounts/",
-          "source": "DevelopersIO",
-          "published": "2026-11-08T14:59:48",
-          "excerpt": "前回設計したUbuntu 24.04のパッチ運用ルールを、開発と本番の2つのAWSアカウントで実際に構築・検証してみます。セキュリティ更新の承認から本番への適用まで、各ステップを手動で動かしながら仕組みを確認していきます。"
-        },
-        {
-          "title": "EC2＋Auto Scalingで十分じゃない？それでもECS Fargateを使う理由",
-          "link": "https://qiita.com/4eena/items/e8285ffc3eb5497d4a10",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-08T13:10:04",
-          "excerpt": "はじめに AWSでWebアプリケーションを構築する際、こんな疑問が浮かびました。「EC2＋Auto Scalingで十分なのに、なぜコンテナを使うのか？…"
-        },
-        {
-          "title": "プレビューの画面に直接コメントして、GitHub の PR に届ける ― CloudFront・Lambda・GitHub App の仕組み",
-          "link": "https://zenn.dev/ponkotate/articles/2026-11-07-preview-comments",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-08T09:32:31",
-          "excerpt": "仕事で関わっている開発で、PR ごとのプレビュー環境に出した画面を、チームのメンバーに見てもらっています。…"
+          "title": "「知らないと損する！Google Cloud最新機能とIAM移行の落とし穴」～【googlecloud】人気記事（2026/11/08） | CareNet Engineersのフィード",
+          "link": "https://zenn.dev/carenet/articles/zenn-weekly-googlecloud-articles-2026-11",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-08T15:48:11",
+          "excerpt": "!この記事はZennからgooglecloudのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「知らないと損する！…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。Stephen Ward, a former Secret Service agent and Home Depot CISO, is preparing a second fund of roughly $250 million for…",
+      "summary": "セキュリティの新着が9件。個人情報の漏えいにつながる不正アクセス増加を受けて、NCOは事業者が徹底すべきセキュリティ対策を公開した。運用・開発・サプライチェーンの3段階に分けて対策を提言している。全てを実施するのは困難であるためできるところから手を付けたい。",
       "articles": [
         {
-          "title": "He arrested a hacker, then spent 18 months clearing his own name. Now he’s a cybersecurity VC.",
+          "title": "「対策済み」と言い切るには早い　徹底しないとマズい“不正アクセス対策8選”",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/09/news021.html",
+          "source": "@IT",
+          "published": "2026-11-08T22:45:00",
+          "excerpt": "個人情報の漏えいにつながる不正アクセス増加を受けて、NCOは事業者が徹底すべきセキュリティ対策を公開した。運用・開発・サプライチェーンの3段階に分けて対策を提言している。全てを実施するのは困難であるためできるところから手を付けたい。"
+        },
+        {
+          "title": "脆弱性検査で検出されるCOEP、CORP、COOPヘッダについて | 電通総研 テックブログ",
+          "link": "https://tech.dentsusoken.com/entry/2026/11/09/%E8%84%86%E5%BC%B1%E6%80%A7%E6%A4%9C%E6%9F%BB%E3%81%A7%E6%A4%9C%E5%87%BA%E3%81%95%E3%82%8C%E3%82%8BCOEP%E3%80%81CORP%E3%80%81COOP%E3%83%98%E3%83%83%E3%83%80%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-08T22:00:00",
+          "excerpt": "はじめに こんにちは。クロスイノベーション本部サイバーセキュリティテクノロジーセンターの小笠原です。昨今の脆弱性検査において、以下のHTTPレスポンスヘッダの未設定が検出されるケースが増えています。…"
+        },
+        {
+          "title": "「AIセキュリティをやれ」と言われたIT部門へ　100点を目指さず、“見る”ことから始めよう",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2611/09/news006.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-11-08T22:00:00",
+          "excerpt": "経営層から「AIのセキュリティ対策を進めよ」と号令が下っても、現場では何から手を付ければよいのか分かりません。AIエージェントを導入した覚えがなくても、無関係ではいられません。…"
+        },
+        {
+          "title": "彼はハッカーを逮捕し、その後 18 か月をかけて自分の汚名を晴らしました。現在、彼はサイバーセキュリティのベンチャーキャピタルです。",
           "link": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
           "source": "TechCrunch（英語）",
           "published": "2026-11-08T17:30:00",
-          "excerpt": "Stephen Ward, a former Secret Service agent and Home Depot CISO, is preparing a second fund of roughly $250 million for…"
-        },
-        {
-          "title": "業務を止めずに AWS Organizations を統合する（IAM Identity Center 利用時）",
-          "link": "https://qiita.com/leomarokun/items/328b285417e667cb46a3",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-08T15:21:47",
-          "excerpt": "この記事について 2 つの AWS Organizations を 1 つにまとめます。どちらの組織でも IAM Identity Center（以下 IdC）を使っている前提です。管理アカウントは OU に入れても SCP が効きません。…"
-        },
-        {
-          "title": "Amazon MSK、転送中データの暗号化でTLS 1.3をサポート",
-          "link": "https://codezine.jp/article/detail/30280",
-          "source": "CodeZine",
-          "published": "2026-11-08T06:00:00",
-          "excerpt": "Amazon MSK、転送中データの暗号化でTLS 1.3をサポート"
-        },
-        {
-          "title": "Macのセキュリティの仕組み - 標準機能と安全に使うための対策｜npaka",
-          "link": "https://note.com/npaka/n/nae09bd9ce37d",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-08T03:30:34",
-          "excerpt": "1.はじめにAppleの「Mac」には、ウイルスやマルウェア、不正アクセス、情報漏洩などから保護するためのセキュリティ機能が標準搭載されています。…"
+          "excerpt": "元シークレットサービス職員でホームセンターCISOのスティーブン・ウォード氏は、ブライトマインド・パートナーズのために約2億5000万ドルの2つ目の資金を準備している。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。Article URL: https://mailroute.net/blog/outlook-rejecting-email-without-dmarc Comments URL: https://news.ycombinator.…",
+      "summary": "データ分析の新着が4件。記事の URL: https://mailroute.net/blog/outlook-rejecting-email-without-dmarc コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
-          "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+          "title": "Outlook.com は DMARC のないドメインからのメールを密かに拒否しています",
           "link": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
           "source": "Hacker News（英語）",
           "published": "2026-11-08T19:20:32",
-          "excerpt": "Article URL: https://mailroute.net/blog/outlook-rejecting-email-without-dmarc Comments URL: https://news.ycombinator.…"
+          "excerpt": "記事の URL: https://mailroute.net/blog/outlook-rejecting-email-without-dmarc コメント URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "TechCrunch Mobility: The Cybertruck experiment is over",
+          "title": "TechCrunch Mobility: Cyber​​truck の実験は終了",
           "link": "https://techcrunch.com/2026/11/08/techcrunch-mobility-the-cybertruck-experiment-is-over/",
           "source": "TechCrunch（英語）",
           "published": "2026-11-08T17:02:00",
-          "excerpt": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is p…"
+          "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。"
         },
         {
           "title": "クラスメソッド データアナリティクス通信(AWSデータ分析編) – 2026年11月号",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。はじめに Linear で本番トラフィックを 10% ずつ、6 分おきに切り替えると (API の既定値の場合)、待機時間だけで約 54 分かかります。…",
+      "summary": "開発ツールの新着が11件。Amazon Chime SDKで1対1のビデオ通話中に複数端末から接続する場合、参加者の作り方によって挙動が大きく変わります。…",
       "articles": [
+        {
+          "title": "Amazon Chime SDK の通話に同じ会員が 2 台目の端末から入ると、1 台目がどうなるかを参加者の作り方ごとに確認してみた",
+          "link": "https://dev.classmethod.jp/articles/chime-sdk-same-member-second-device-attendee-patterns/",
+          "source": "DevelopersIO",
+          "published": "2026-11-08T21:00:09",
+          "excerpt": "Amazon Chime SDKで1対1のビデオ通話中に複数端末から接続する場合、参加者の作り方によって挙動が大きく変わります。…"
+        },
         {
           "title": "Amazon ECS コンソールのデプロイ可観測性、Linear・Canary・Blue/Green に対応",
           "link": "https://qiita.com/Haruki-N/items/748e52ddc18c5d51bb21",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-08T12:18:00",
           "excerpt": "2026/11/07〜08 時点の検証結果です。Terraform v1.17.1、hashicorp/aws v6.72.0、HCP Terraform Agent v1.33.2 を使用しています。…"
-        },
-        {
-          "title": "プレビューの画面に直接コメントして、GitHub の PR に届ける ― CloudFront・Lambda・GitHub App の仕組み",
-          "link": "https://zenn.dev/ponkotate/articles/2026-11-07-preview-comments",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-08T09:32:31",
-          "excerpt": "仕事で関わっている開発で、PR ごとのプレビュー環境に出した画面を、チームのメンバーに見てもらっています。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
-      "link": "https://duxlabs.dev/",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-08T19:08:51",
-      "excerpt": "Article URL: https://duxlabs.dev/ Comments URL: https://news.ycombinator.com/item?id=50416053 Points: 3 # Comments: 0"
+      "title": "シナマケミートアップ × ココカラ勉強会 レポート – AI開発の知見LT会 | TECHSCORE BLOG",
+      "link": "https://blog.techscore.com/entry/2026/11/09/080000",
+      "source": "企業テックブログまとめ",
+      "published": "2026-11-08T23:00:00",
+      "excerpt": "ココカラ勉強会との共催で開いたAI開発の知見LT会。AIと進めたQAで「品質が高い」を言語化した話、AIはUIが苦手という話、LLM Wikiでハーネスを組んだ話の3本と、当日の様子をお届けします。"
     },
     {
-      "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
-      "link": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-08T18:43:07",
-      "excerpt": "Article URL: https://www.wsj.…"
+      "title": "X Mileさんと合同AI勉強会をして分かった、AIに任せるところと人がやるところ | ROXX開発者ブログ",
+      "link": "https://techblog.roxx.co.jp/entry/2026/11/09/075141",
+      "source": "企業テックブログまとめ",
+      "published": "2026-11-08T22:51:41",
+      "excerpt": "こんにちは、ROXXでEM（エンジニアリングマネージャー）を務めている窪内です。10月14日、同じビルに入っているX Mileさんと、合同でAI勉強会を開きました！…"
     },
     {
-      "title": "SNL has a new impression of Elon Musk, ‘the worst thing South Africa has ever done’",
-      "link": "https://techcrunch.com/2026/11/08/snl-has-a-new-impression-of-elon-musk-the-worst-thing-south-africa-has-ever-done/",
+      "title": "NVIDIA、フアンCEOへの中国スパイ工作疑惑で独立調査　本人は不倫認め謝罪",
+      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000002998/",
+      "source": "ITmedia NEWS",
+      "published": "2026-11-08T22:44:13",
+      "excerpt": "NVIDIAの取締役会は、ジェンスン・フアンCEOが中国国家安全部に協力していた疑いのある女性アリス・フアン氏と親密な関係にあったとする報道を受け、独立調査を開始したと発表した。…"
+    },
+    {
+      "title": "終わりのない運命スクロールのサイクルから気を紛らわせるアプリ",
+      "link": "https://techcrunch.com/2026/11/08/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/",
       "source": "TechCrunch（英語）",
-      "published": "2026-11-08T18:00:04",
-      "excerpt": "SNL seems to have its knives out for tech executives."
-    },
-    {
-      "title": "Ads in Popular Apps Give Police a Powerful Tool to Spy on Users",
-      "link": "https://www.bloomberg.com/features/2026-police-phone-tracking-advertising-tech/",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-08T17:32:55",
-      "excerpt": "Article URL: https://www.bloomberg.com/features/2026-police-phone-tracking-advertising-tech/ Comments URL: https://news.…"
+      "published": "2026-11-08T22:00:00",
+      "excerpt": "運命スクロールのサイクルを断ち切るのは難しいですが、魅力的で生産的なコンテンツにより多くの時間を費やすのに役立つアプリはたくさんあります。"
     }
   ]
 }
