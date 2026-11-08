@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-11-08T08:14:14",
+  "generated_at": "2026-11-08T15:25:34",
   "window_hours": 24,
-  "total": 79,
+  "total": 74,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が14件。Amazon Bedrock AgentCoreのWeb Answerがリリースされたので試してみました！",
+      "summary": "生成AIの新着が11件。Claude Enterprise に新しく追加された「IP 許可リスト」機能を、実際に設定して検証してみました。…",
       "articles": [
+        {
+          "title": "Claude Enteprise で組織設定に追加された IP 許可リストについて試してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-enterprise-ip-allow-list/",
+          "source": "DevelopersIO",
+          "published": "2026-11-08T10:04:11",
+          "excerpt": "Claude Enterprise に新しく追加された「IP 許可リスト」機能を、実際に設定して検証してみました。…"
+        },
         {
           "title": "[アップデート] Web Answer on Amazon Bedrock AgentCore がリリースされました！",
           "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-web-answer-try-harness/",
@@ -29,21 +36,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-08T06:26:43",
           "excerpt": "はじめに AIエージェントに最新のウェブ情報を渡したい場面は多いです。これまでは、検索APIを呼び、ページを取得し、要約して、出典を付ける、というパイプラインを自分で組む必要がありました。…"
-        },
-        {
-          "title": "【AgentCore】エージェントのハンズオンをブラウザの中だけで完結させる教材を作った",
-          "link": "https://qiita.com/ryu-ki/items/a6cb026b2d3a54d175cc",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-08T06:17:41",
-          "excerpt": "はじめに 社内勉強会向けに、Amazon Bedrock AgentCore のハンズオン環境を Terraform で作りました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が5件。開発環境のRDSやECSは、誰も使っていない夜間や休日も動き続け、その時間の料金もかかります。平日の日中だけ使う環境なら、使わない時間に止めるだけでインスタンスの料金を大きく減らせます。…",
+      "summary": "クラウドの新着が4件。前回設計したUbuntu 24.04のパッチ運用ルールを、開発と本番の2つのAWSアカウントで実際に構築・検証してみます。セキュリティ更新の承認から本番への適用まで、各ステップを手動で動かしながら仕組みを確認していきます。",
       "articles": [
+        {
+          "title": "開発と本番が別アカウントのEC2（Ubuntu） に Patch Manager で順番にパッチを当ててみた",
+          "link": "https://dev.classmethod.jp/articles/shoma-applied-patches-sequentially-with-patch-manager-to-ubuntu-ec2-in-separate-dev-and-prod-accounts/",
+          "source": "DevelopersIO",
+          "published": "2026-11-08T14:59:48",
+          "excerpt": "前回設計したUbuntu 24.04のパッチ運用ルールを、開発と本番の2つのAWSアカウントで実際に構築・検証してみます。セキュリティ更新の承認から本番への適用まで、各ステップを手動で動かしながら仕組みを確認していきます。"
+        },
+        {
+          "title": "EC2＋Auto Scalingで十分じゃない？それでもECS Fargateを使う理由",
+          "link": "https://qiita.com/4eena/items/e8285ffc3eb5497d4a10",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-08T13:10:04",
+          "excerpt": "はじめに AWSでWebアプリケーションを構築する際、こんな疑問が浮かびました。「EC2＋Auto Scalingで十分なのに、なぜコンテナを使うのか？…"
+        },
         {
           "title": "【Terraform×AWS】開発環境のRDSとECSを夜間・休日に自動停止してコストを削減する",
           "link": "https://qiita.com/ham-nao/items/de24325bb6fba0f20625",
@@ -57,28 +71,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-11-07T22:09:58",
           "excerpt": "概要この連載では、Oracle / MySQL / PostgreSQL 向けに書かれた既存の SQL と PL/SQL を ScalarDB へ移すために試作した仕組み(https://github.…"
-        },
-        {
-          "title": "[AWS]AWSアカウント間でAMIを共有して、別アカウントからEC2を起動する",
-          "link": "https://zenn.dev/77nnaapp/articles/c58595d1f7b976",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-07T14:16:02",
-          "excerpt": "アカウントAで作成したAMIをアカウントBで利用する。…"
-        },
-        {
-          "title": "Fivetran Activations で Snowflake の VARCHAR 列を Amazon S3 に CSV 出力すると先頭ゼロは消えるのか試してみた",
-          "link": "https://dev.classmethod.jp/articles/fivetran-activations-snowflake-varchar-s3-csv-leading-zeros/",
-          "source": "DevelopersIO",
-          "published": "2026-11-07T14:15:23",
-          "excerpt": "Fivetran Activations を使って、Snowflake の先頭ゼロ付き VARCHAR 列を S3 に出力する際、CSV / TSV / Parquet の 3 形式でデータがどう扱われるかを実検証してみました。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。Amazon MSK、転送中データの暗号化でTLS 1.3をサポート",
+      "summary": "セキュリティの新着が4件。この記事について 2 つの AWS Organizations を 1 つにまとめます。どちらの組織でも IAM Identity Center（以下 IdC）を使っている前提です。管理アカウントは OU に入れても SCP が効きません。…",
       "articles": [
+        {
+          "title": "業務を止めずに AWS Organizations を統合する（IAM Identity Center 利用時）",
+          "link": "https://qiita.com/leomarokun/items/328b285417e667cb46a3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-08T15:21:47",
+          "excerpt": "この記事について 2 つの AWS Organizations を 1 つにまとめます。どちらの組織でも IAM Identity Center（以下 IdC）を使っている前提です。管理アカウントは OU に入れても SCP が効きません。…"
+        },
         {
           "title": "Amazon MSK、転送中データの暗号化でTLS 1.3をサポート",
           "link": "https://codezine.jp/article/detail/30280",
@@ -87,113 +94,106 @@
           "excerpt": "Amazon MSK、転送中データの暗号化でTLS 1.3をサポート"
         },
         {
+          "title": "Macのセキュリティの仕組み - 標準機能と安全に使うための対策｜npaka",
+          "link": "https://note.com/npaka/n/nae09bd9ce37d",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-08T03:30:34",
+          "excerpt": "1.はじめにAppleの「Mac」には、ウイルスやマルウェア、不正アクセス、情報漏洩などから保護するためのセキュリティ機能が標準搭載されています。…"
+        },
+        {
           "title": "Google Workspace、機密ファイルへのクライアントサイド暗号化の自動適用をベータ提供",
           "link": "https://codezine.jp/article/detail/30279",
           "source": "CodeZine",
           "published": "2026-11-08T00:00:00",
           "excerpt": "Google Workspace、機密ファイルへのクライアントサイド暗号化の自動適用をベータ提供"
-        },
-        {
-          "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
-          "link": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-07T13:18:14",
-          "excerpt": "はじめに 2026年11月、Cloudflare Radar に Zero Wire という脆弱性インテリジェンスのフィードが公開されました。…"
-        },
-        {
-          "title": "AWSセキュリティ運用の本当の難所は“検知”ではなく“説明”である①",
-          "link": "https://zenn.dev/yasuhirosuzuki/articles/fa4b731b6802be",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-07T13:03:20",
-          "excerpt": "0.はじめに Amazon Inspector・Security Hub・WAFログを、監査・主管部門に説明できる判断材料へ変換する AWSのセキュリティサービスを有効化すると、検知結果は出る。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が2件。この発表は、ハッカーがバイナンスユーザーから63億ドル相当の暗号通貨を盗んでからわずか1週間と経たないうちに行われた。",
+      "summary": "データ分析の新着が2件。はじめに 以前、QuickSightで高コストが発生した失敗を記事にしました。本来の目的はデータ分析の学習だったため、今回は改めてAWSを利用したデータ分析基盤の構築を備忘録として残します。…",
       "articles": [
+        {
+          "title": "AWS素人がGlue×Athenaで気象データ分析基盤を作ってみた(前編)",
+          "link": "https://qiita.com/apteryx-nz/items/c53d1bbed9c3518ed403",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-08T13:08:13",
+          "excerpt": "はじめに 以前、QuickSightで高コストが発生した失敗を記事にしました。本来の目的はデータ分析の学習だったため、今回は改めてAWSを利用したデータ分析基盤の構築を備忘録として残します。…"
+        },
         {
           "title": "バイナンスの最高財務責任者、63億ドルのハッキングを受けて「新たな事業を追求」するため退職",
           "link": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
           "source": "TechCrunch（英語）",
           "published": "2026-11-07T17:24:07",
           "excerpt": "この発表は、ハッカーがバイナンスユーザーから63億ドル相当の暗号通貨を盗んでからわずか1週間と経たないうちに行われた。"
-        },
-        {
-          "title": "[アップデート] Amazon Redshift の SUPER データ型で最大 16,000,000 バイトの文字列を格納できるようになったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/20261107-amazon-redshift-expands-super-to-16-million-bytes/",
-          "source": "DevelopersIO",
-          "published": "2026-11-07T09:59:50",
-          "excerpt": "Amazon Redshift の SUPER データ型で個々の文字列を最大 16,000,000 バイトまで格納できるようになり、65,535 バイトを超える文字列を含む JSON を分割せずにロードできます。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。開発環境のRDSやECSは、誰も使っていない夜間や休日も動き続け、その時間の料金もかかります。平日の日中だけ使う環境なら、使わない時間に止めるだけでインスタンスの料金を大きく減らせます。…",
+      "summary": "開発ツールの新着が10件。Linux Foundation傘下でMCP（Model Context Protocol）の仕様策定を行っている「Agentic AI Foundation（AAIF）」は、MCP公式のRuby SDKがMCP仕様を完全にサポートした「M…",
       "articles": [
         {
-          "title": "【Terraform×AWS】開発環境のRDSとECSを夜間・休日に自動停止してコストを削減する",
-          "link": "https://qiita.com/ham-nao/items/de24325bb6fba0f20625",
+          "title": "MCP仕様を完全にサポートしたMCP公式のRuby SDKが登場。「MCP SDK Tier 1」に到達と",
+          "link": "https://www.publickey1.jp/blog/26/mcpmcpruby_sdkmcp_sdk_tier_1.html",
+          "source": "Publickey",
+          "published": "2026-11-08T15:12:29",
+          "excerpt": "Linux Foundation傘下でMCP（Model Context Protocol）の仕様策定を行っている「Agentic AI Foundation（AAIF）」は、MCP公式のRuby SDKがMCP仕様を完全にサポートした「M…"
+        },
+        {
+          "title": "HCP Terraform の Run の待ち時間を分解してみた",
+          "link": "https://qiita.com/pokapu/items/87610aac164c9544e2e4",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-08T08:13:03",
-          "excerpt": "開発環境のRDSやECSは、誰も使っていない夜間や休日も動き続け、その時間の料金もかかります。平日の日中だけ使う環境なら、使わない時間に止めるだけでインスタンスの料金を大きく減らせます。…"
+          "published": "2026-11-08T12:18:00",
+          "excerpt": "2026/11/07〜08 時点の検証結果です。Terraform v1.17.1、hashicorp/aws v6.72.0、HCP Terraform Agent v1.33.2 を使用しています。…"
         },
         {
-          "title": "Vercel、再デプロイ不要でスケジュールを管理できる「Vercel Schedules」を公開",
-          "link": "https://codezine.jp/article/detail/30282",
+          "title": "GitHubのシークレットスキャン、SpaceXがパートナーに参加し誤検知抑制も強化",
+          "link": "https://codezine.jp/article/detail/30281",
           "source": "CodeZine",
-          "published": "2026-11-08T03:00:00",
-          "excerpt": "Vercel、再デプロイ不要でスケジュールを管理できる「Vercel Schedules」を公開"
+          "published": "2026-11-08T09:00:00",
+          "excerpt": "GitHubのシークレットスキャン、SpaceXがパートナーに参加し誤検知抑制も強化"
         },
         {
-          "title": "GitHub パブリック プレビュー中の新しいプル リクエスト概要ページ",
-          "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-07T23:09:40",
-          "excerpt": "記事の URL: https://github.…"
-        },
-        {
-          "title": "【図解あり】マルチエージェント設計「15のパターン」　GitHub、Google、Siemensの知見を一気に整理",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
-          "source": "@IT",
-          "published": "2026-11-07T23:00:00",
-          "excerpt": "AIエージェントの一般化に伴い、複数のAIエージェントを連携させるマルチエージェントシステムが注目されています。GitHub、Google、Siemensが紹介した15のデザインパターンを、設計上の課題や具体的な活用場面とともに解説します。"
+          "title": "GitHub Actions「pull_request_target」12月2日から既定ブロック｜影響と管理者が必要な対応を解説 | Alternative Architecture DOJO",
+          "link": "https://aadojo.alterbooth.com/entry/2026/11/08/174706",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-08T08:47:06",
+          "excerpt": "GitHubは2026年11月2日、パブリックリポジトリにおいて、GitHub Actionsのpull_request_targetイベントを2026年12月2日から既定でブロックすると発表しました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "JAWS FESTA 2026 in AKITA に参加できなかったので、資料だけでも見たい！と思ってまとめました！",
-      "link": "https://qiita.com/kurracchi_enj/items/ce0098bd28fa043c1e5f",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-08T07:43:07",
-      "excerpt": "どうもこんにちは。2026/11/7（土）にJAWS FESTA 2026が開催されましたね。（いぎだがっだぁ...） 前日の夜から翌日まで楽しそうなツイートを見てて、いいなぁ...って。↓を見てください。ほんとに楽しそうなんですよ。…"
+      "title": "Excelで帳票レイアウトを作成、CSVデータから簡単に単票や明細付きの帳票を生成できる「AS-DataReport」が新登場［PR］",
+      "link": "https://www.publickey1.jp/blog/26/excelcsvas-datareportpr.html",
+      "source": "Publickey",
+      "published": "2026-11-08T15:16:44",
+      "excerpt": "年度の切り替え時に取引先に提出する見積書のフォーマットが変わる、取引先から納品書のフォーマットを指定されたなど、ビジネスにおいて帳票のレイアウトに新たな要求が寄せられることは珍しくありません。しかし業務システムをそのたびに作り変えるのは一.…"
     },
     {
-      "title": "CloudWatch が PromQL 対応したので、Amazon Managed Grafana から接続してみた",
-      "link": "https://dev.classmethod.jp/articles/cloudwatch-promql-endpoint-amazon-managed-grafana/",
-      "source": "DevelopersIO",
-      "published": "2026-11-08T05:42:05",
-      "excerpt": "新規構築であれば、Amazon Managed Prometheus の出番は割と減るのでは？"
+      "title": "ターミナル用ライブラリ［Libghostty 1.0」リリース。Windows版マルチプレクサ「Rex」もまもなく登場予定",
+      "link": "https://www.publickey1.jp/blog/26/libghostty_10windowsrex.html",
+      "source": "Publickey",
+      "published": "2026-11-08T15:09:07",
+      "excerpt": "ターミナルエミュレータ「Ghostty」のコア部分を汎用ライブラリ化した「Libghostty 1.0」正式版がリリースされました。「Libghostty」は、HashiCorpの共同創業者であり、同社を退社後は個人開発者としてターミナル.…"
     },
     {
-      "title": "AWS Network Firewall の Reject と Alert のドメインリストを Allow と組み合わせ、ルールの評価順序ごとに確かめてみた",
-      "link": "https://dev.classmethod.jp/articles/network-firewall-domain-list-reject-alert-rule-order/",
-      "source": "DevelopersIO",
-      "published": "2026-11-08T05:33:38",
-      "excerpt": "AWS Network Firewall のドメインリストルールグループで、Allow・Reject・Alert を組み合わせた場合の動作を実際に検証してみました。…"
+      "title": "Ninja の AutoBarista は非常に多機能ですが、私にとっては 1 つの機能が大きな問題でした",
+      "link": "https://techcrunch.com/2026/11/08/ninjas-autobarista-is-impressively-versatile-but-one-feature-was-a-dealbreaker-for-me/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-08T15:00:00",
+      "excerpt": "AutoBarista の「Grind iQ」テクノロジーにより、マシンはコーヒー豆を分析し、エスプレッソのショットを抽出する方法を通知します。"
     },
     {
-      "title": "キルリアン写真撮影: 自分で機材を組み立てる",
-      "link": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-08T04:14:12",
-      "excerpt": "記事の URL: https://imagesco.com/articles/kirlian/kirlian-photography.html コメント URL: https://news.ycombinator.com/item?…"
+      "title": "物理学者は超伝導体の謎を解くために電気ノイズを聞いた",
+      "link": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-11-08T12:15:31",
+      "excerpt": "電子ノイズに同調すると、電子が対になっているかどうかがわかります。"
     }
   ]
 }
