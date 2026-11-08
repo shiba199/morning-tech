@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-11-07T22:26:30",
+  "generated_at": "2026-11-08T01:37:47",
   "window_hours": 24,
-  "total": 89,
+  "total": 81,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が11件。記事の URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again コメント URL: https://news.ycombinator.…",
+      "summary": "生成AIの新着が9件。AIエージェントの一般化に伴い、複数のAIエージェントを連携させるマルチエージェントシステムが注目されています。GitHub、Google、Siemensが紹介した15のデザインパターンを、設計上の課題や具体的な活用場面とともに解説します。",
       "articles": [
+        {
+          "title": "【図解あり】マルチエージェント設計「15のパターン」　GitHub、Google、Siemensの知見を一気に整理",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
+          "source": "@IT",
+          "published": "2026-11-07T23:00:00",
+          "excerpt": "AIエージェントの一般化に伴い、複数のAIエージェントを連携させるマルチエージェントシステムが注目されています。GitHub、Google、Siemensが紹介した15のデザインパターンを、設計上の課題や具体的な活用場面とともに解説します。"
+        },
+        {
+          "title": "【既存のSQL, PL/SQLをAIを用いて移行する】第5回：Claude Code / Codex のスキルから使う | Scalar Solution Engineer Blogのフィード",
+          "link": "https://zenn.dev/scalar_sol_blog/articles/20260923-100500-scalardb-migrate-5-skills",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-07T22:09:58",
+          "excerpt": "概要この連載では、Oracle / MySQL / PostgreSQL 向けに書かれた既存の SQL と PL/SQL を ScalarDB へ移すために試作した仕組み(https://github.…"
+        },
         {
           "title": "Claude Code の「Don't Ask Again」により、1,122 個の公開 GitHub ファイル内のパスワードが公開される",
           "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
@@ -22,28 +36,28 @@
           "source": "DevelopersIO",
           "published": "2026-11-07T17:15:46",
           "excerpt": "Claude Code v2.1.318〜v2.1.319 の主要アップデートを解説。承認待ちで止めない permissions.…"
-        },
-        {
-          "title": "【AWS】【AgentCore】AI エージェントが AWS リソースを参照できるようになるまで",
-          "link": "https://qiita.com/yuki_1012_1101/items/a7cd9ddd57bc9c23bdcc",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-07T12:36:59",
-          "excerpt": "変更履歴 2026-11-07：公開 初めに Amazon Bedrock AgentCore は、AI エージェントを AWS で動かすための機能をまとめたサービスである。…"
-        },
-        {
-          "title": "GitHub Copilot で Foundry にデプロイした GPT-6.1 Sol を使う | ヘッドウォータースのフィード",
-          "link": "https://zenn.dev/headwaters/articles/c26a38ef7ef037",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-07T10:10:58",
-          "excerpt": "執筆日2026/11/7 やることVS CodeでGitHub Copilotを使っています。Copilotのモデルに、Microsoft Foundryのモデルを追加しようと思います。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が4件。Fivetran Activations を使って、Snowflake の先頭ゼロ付き VARCHAR 列を S3 に出力する際、CSV / TSV / Parquet の 3 形式でデータがどう扱われるかを実検証してみました。",
+      "summary": "クラウドの新着が5件。概要この連載では、Oracle / MySQL / PostgreSQL 向けに書かれた既存の SQL と PL/SQL を ScalarDB へ移すために試作した仕組み(https://github.…",
       "articles": [
+        {
+          "title": "【既存のSQL, PL/SQLをAIを用いて移行する】第5回：Claude Code / Codex のスキルから使う | Scalar Solution Engineer Blogのフィード",
+          "link": "https://zenn.dev/scalar_sol_blog/articles/20260923-100500-scalardb-migrate-5-skills",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-07T22:09:58",
+          "excerpt": "概要この連載では、Oracle / MySQL / PostgreSQL 向けに書かれた既存の SQL と PL/SQL を ScalarDB へ移すために試作した仕組み(https://github.…"
+        },
+        {
+          "title": "[AWS]AWSアカウント間でAMIを共有して、別アカウントからEC2を起動する",
+          "link": "https://zenn.dev/77nnaapp/articles/c58595d1f7b976",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-07T14:16:02",
+          "excerpt": "アカウントAで作成したAMIをアカウントBで利用する。…"
+        },
         {
           "title": "Fivetran Activations で Snowflake の VARCHAR 列を Amazon S3 に CSV 出力すると先頭ゼロは消えるのか試してみた",
           "link": "https://dev.classmethod.jp/articles/fivetran-activations-snowflake-varchar-s3-csv-leading-zeros/",
@@ -57,28 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-07T11:18:38",
           "excerpt": "個人で運営しているWebサービスのAWSの請求を見ていたら、2026年8月だけRDSが200USDくらいになっていました。9月のRDSは26USDなので、普段の7倍以上です。。。原因はRDS for MySQL 8.…"
-        },
-        {
-          "title": "【FaaS比較シリーズ #1】AWS Lambda を整理する ― 2026年11月版・5つの形態と制約・料金・設計のツボ",
-          "link": "https://qiita.com/Doc-Tanukichi/items/0d62a69743f03f01a294",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-07T02:48:59",
-          "excerpt": "はじめに FaaS（Function as a Service）を横並びで比較検討するシリーズを始めます。初回は、2014年に登場してFaaSの基準を作った AWS Lambda を整理します。…"
-        },
-        {
-          "title": "CloudFront 入門 — CDN の基本と設定",
-          "link": "https://zenn.dev/akinori901/articles/20261008-plan060",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-06T23:38:31",
-          "excerpt": "CloudFront 入門 — CDN の基本と設定 概要 Amazon CloudFront は AWS が提供する CDN（Content Delivery Network）です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。0.はじめに Amazon Inspector・Security Hub・WAFログを、監査・主管部門に説明できる判断材料へ変換する AWSのセキュリティサービスを有効化すると、検知結果は出る。…",
+      "summary": "セキュリティの新着が7件。Google Workspace、機密ファイルへのクライアントサイド暗号化の自動適用をベータ提供",
       "articles": [
+        {
+          "title": "Google Workspace、機密ファイルへのクライアントサイド暗号化の自動適用をベータ提供",
+          "link": "https://codezine.jp/article/detail/30279",
+          "source": "CodeZine",
+          "published": "2026-11-08T00:00:00",
+          "excerpt": "Google Workspace、機密ファイルへのクライアントサイド暗号化の自動適用をベータ提供"
+        },
+        {
+          "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
+          "link": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-07T13:18:14",
+          "excerpt": "はじめに 2026年11月、Cloudflare Radar に Zero Wire という脆弱性インテリジェンスのフィードが公開されました。…"
+        },
         {
           "title": "AWSセキュリティ運用の本当の難所は“検知”ではなく“説明”である①",
           "link": "https://zenn.dev/yasuhirosuzuki/articles/fa4b731b6802be",
@@ -92,27 +106,13 @@
           "source": "Zenn AWSトピック",
           "published": "2026-11-07T12:00:01",
           "excerpt": "bitbank APIを使ったグリッド取引botを、Lambda・DynamoDB・Terraformで構築し、バックテスト・ペーパー・本番で同じロジックを使う設計にしました。…"
-        },
-        {
-          "title": "IPA、ランサムウェア被害組織の生の声から得た“11の教訓”を公開",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/07/news008.html",
-          "source": "@IT",
-          "published": "2026-11-07T08:15:00",
-          "excerpt": "ランサムウェア攻撃の被害は、全ての企業にいつ起こっても不思議ではない。では、これを事前に防ぐため、あるいは被害後に早期復旧するためには、何に注意すればいいのだろうか。IPAが被害企業へのヒアリングから“11の教訓”を導き出した。"
-        },
-        {
-          "title": "[アップデート] Azure Front Door の WAF で HTTP DDoS ルールセットが GA になっていたので確認してみた",
-          "link": "https://dev.classmethod.jp/articles/azure-front-door-waf-http-ddos-ga/",
-          "source": "DevelopersIO",
-          "published": "2026-11-07T07:26:06",
-          "excerpt": "GA になったはずだが..."
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。この発表は、ハッカーがバイナンスユーザーから63億ドル相当の暗号通貨を盗んでからわずか1週間と経たないうちに行われた。",
+      "summary": "データ分析の新着が3件。この発表は、ハッカーがバイナンスユーザーから63億ドル相当の暗号通貨を盗んでからわずか1週間と経たないうちに行われた。",
       "articles": [
         {
           "title": "バイナンスの最高財務責任者、63億ドルのハッキングを受けて「新たな事業を追求」するため退職",
@@ -134,21 +134,28 @@
           "source": "TechCrunch（英語）",
           "published": "2026-11-07T04:16:43",
           "excerpt": "ホワイトハウスと仲良くなって2年を費やした後、大手テック企業は突然民主党と友達になろうとしているが、未解決の問題は、そのイメージ変革が州、地域社会、市場が行おうとしていることに対抗できるかどうかだ。"
-        },
-        {
-          "title": "OpenAIは1兆2500億ドルの評価額でさらに110億ドルを調達すると報じられている",
-          "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-06T22:53:46",
-          "excerpt": "OpenAI は資金調達ラウンドの一環として追加で 110 億ドルを調達したと伝えられており、この資金調達ラウンドはまだ完了していませんが、今後数週間以内に完了すると予想されています。"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。記事の URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again コメント URL: https://news.ycombinator.…",
+      "summary": "開発ツールの新着が8件。記事の URL: https://github.…",
       "articles": [
+        {
+          "title": "GitHub パブリック プレビュー中の新しいプル リクエスト概要ページ",
+          "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-07T23:09:40",
+          "excerpt": "記事の URL: https://github.…"
+        },
+        {
+          "title": "【図解あり】マルチエージェント設計「15のパターン」　GitHub、Google、Siemensの知見を一気に整理",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
+          "source": "@IT",
+          "published": "2026-11-07T23:00:00",
+          "excerpt": "AIエージェントの一般化に伴い、複数のAIエージェントを連携させるマルチエージェントシステムが注目されています。GitHub、Google、Siemensが紹介した15のデザインパターンを、設計上の課題や具体的な活用場面とともに解説します。"
+        },
         {
           "title": "Claude Code の「Don't Ask Again」により、1,122 個の公開 GitHub ファイル内のパスワードが公開される",
           "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
@@ -157,57 +164,43 @@
           "excerpt": "記事の URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again コメント URL: https://news.ycombinator.…"
         },
         {
-          "title": "Terraform 1.17 の -minimal-refresh でも data source は毎回読まれる",
-          "link": "https://qiita.com/pokapu/items/07cb87c2f00716946158",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-07T12:24:45",
-          "excerpt": "2026/11/07 時点の検証結果です。Terraform v1.17.1、hashicorp/aws v6.72.0 を使用しています。Terraform 1.…"
-        },
-        {
-          "title": "RDS for MySQL 8.0の延長サポート料金に気づくのが遅れたので、再発防止をCDKで入れた",
-          "link": "https://qiita.com/pkxlulu/items/9b0ebd01781f62aef336",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-07T11:18:38",
-          "excerpt": "個人で運営しているWebサービスのAWSの請求を見ていたら、2026年8月だけRDSが200USDくらいになっていました。9月のRDSは26USDなので、普段の7倍以上です。。。原因はRDS for MySQL 8.…"
-        },
-        {
-          "title": "GitHub Copilot で Foundry にデプロイした GPT-6.1 Sol を使う | ヘッドウォータースのフィード",
-          "link": "https://zenn.dev/headwaters/articles/c26a38ef7ef037",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-07T10:10:58",
-          "excerpt": "執筆日2026/11/7 やることVS CodeでGitHub Copilotを使っています。Copilotのモデルに、Microsoft Foundryのモデルを追加しようと思います。…"
+          "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
+          "link": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-07T13:18:14",
+          "excerpt": "はじめに 2026年11月、Cloudflare Radar に Zero Wire という脆弱性インテリジェンスのフィードが公開されました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "中間選挙の後、イーロン・マスクとデータセンターにとって事態は険しいものになりそうだ",
-      "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-11-07T22:07:22",
-      "excerpt": "「株式」に関しては、中間期がテクノロジー業界にとって何を意味するのかを明らかにしました。"
+      "title": "2026年11月8日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "link": "https://qiita.com/ennagara128/items/c5436af4152d9d5e73a2",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-08T01:18:55",
+      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
     },
     {
-      "title": "Show HN: 健康的なまばたきのリズムを維持するためのオフライン デスクトップ コンパニオン",
-      "link": "https://eyesrhythm.com/",
+      "title": "Commodore PET – 世界初のパーソナルコンピュータ",
+      "link": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/",
       "source": "Hacker News（英語）",
-      "published": "2026-11-07T21:47:47",
-      "excerpt": "ソフトウェア エンジニア、機械/グラフィックス デザイナーなどの職業は目に多大な負担がかかり、画面上の細部を何時間も観察していると、まばたきの回数が大幅に減少する可能性があり、回復不能な痛みが生じるまで気付かない可能性があり、ドライアイが発…"
+      "published": "2026-11-07T23:15:34",
+      "excerpt": "記事の URL: https://www.commodore.…"
     },
     {
-      "title": "米情報機関のメモによると、メガスピードの幹部はNVIDIAのCEOをスパイするために採用された",
-      "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-11-07T21:17:08",
-      "excerpt": "今年初めに出回ったメモには、中国国家安全省が女性テクノロジー幹部を採用してNVIDIAのCEOをスパイさせたと主張されていると伝えられている。"
-    },
-    {
-      "title": "太陽の影",
-      "link": "https://mattlakeman.org/2021/07/27/shadow-of-the-sun/",
+      "title": "IRA Velinsky – Commodore の工業デザイナー",
+      "link": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/",
       "source": "Hacker News（英語）",
-      "published": "2026-11-07T21:11:05",
-      "excerpt": "記事の URL: https://mattlakeman.org/2021/07/27/shadow-of-the-sun/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-11-07T22:45:39",
+      "excerpt": "記事の URL: https://www.commodore.…"
+    },
+    {
+      "title": "4 つの 2 で任意の整数を作る (2025)",
+      "link": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-07T22:38:58",
+      "excerpt": "記事の URL: https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/ コメント URL: https://news.ycombinator.…"
     }
   ]
 }
