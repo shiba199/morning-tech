@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-11-09T02:48:13",
+  "generated_at": "2026-11-09T10:32:37",
   "window_hours": 24,
-  "total": 119,
+  "total": 139,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。Amazon Bedrock Managed Knowledge Basesでメタデータを検索対象にできるようになりました！メタデータフィルタリングとの違いを簡単に整理してみました！…",
+      "summary": "生成AIの新着が22件。はじめに サーバーワークスの池田です。今週（2026年10月30日〜11月5日）は、npmでv2.1.314〜v2.1.318の5バージョンが公開されました。公式CHANGELOGに節があるのはv2.1.314・v2.1.316・v2.1.…",
       "articles": [
         {
-          "title": "[アップデート] Amazon Bedrock Managed Knowledge Basesでメタデータの項目を検索の対象にできるようになったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/bedrock-managed-kb-searchable-metadata/",
-          "source": "DevelopersIO",
-          "published": "2026-11-09T01:39:47",
-          "excerpt": "Amazon Bedrock Managed Knowledge Basesでメタデータを検索対象にできるようになりました！メタデータフィルタリングとの違いを簡単に整理してみました！…"
-        },
-        {
-          "title": "【LLMOps】FDEの開発を支えるトレーシング基盤の開発 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-          "link": "https://developers.cyberagent.co.jp/blog/archives/67361/",
+          "title": "Claude Code更新 書き込み制限・ログイン期限【10/30〜11/5】 | サーバーワークスエンジニアブログ",
+          "link": "https://blog.serverworks.co.jp/2026/11/09/190000",
           "source": "企業テックブログまとめ",
-          "published": "2026-11-09T01:13:28",
-          "excerpt": "本記事では、AI Workerを導入するお客様向けに、多様なAIエージェントやアプリケーションを開発 ..."
+          "published": "2026-11-09T10:00:00",
+          "excerpt": "はじめに サーバーワークスの池田です。今週（2026年10月30日〜11月5日）は、npmでv2.1.314〜v2.1.318の5バージョンが公開されました。公式CHANGELOGに節があるのはv2.1.314・v2.1.316・v2.1.…"
         },
         {
-          "title": "ClaudeからAgentCore Gatewayのインターセプターでユーザー毎に回答を制御できるか検証してみた",
-          "link": "https://dev.classmethod.jp/articles/claude-agentcore-gateway-interceptor-per-user-access-control/",
+          "title": "Issue から PR まで任せている Claude Code のスキルを棚卸ししてみた",
+          "link": "https://dev.classmethod.jp/articles/claude-code-skill-inventory-issue-to-pr/",
           "source": "DevelopersIO",
-          "published": "2026-11-09T01:00:09",
-          "excerpt": "AgentCore Gatewayのユーザーごとの認可制御を検証してみました。インバウンド認証とインターセプターを組み合わせることで、同じMCPサーバーでも、ログインユーザーによって返す情報を制限できることを確認します。"
+          "published": "2026-11-09T09:29:06",
+          "excerpt": "Claude Codeで構築した一気通貫のスキルを整理し直しました。決まりの性質ごとに置き分けた5つの場所（SKILL.md・agents・hooks・rules・CLAUDE.…"
         },
         {
-          "title": "Claude Desktopに組み込まれたMCPサーバー用Node.jsランタイムを確認してみた",
-          "link": "https://dev.classmethod.jp/articles/claude-desktop-mcpb-bundled-node-electron-runtime/",
-          "source": "DevelopersIO",
-          "published": "2026-11-09T00:30:13",
-          "excerpt": "Electron製アプリであるClaude Desktopは、Electron自身が持つNode.jsランタイムをMCPサーバーの実行にも使えます。"
+          "title": "今週の新着ブログ 5本_運用20年超システムの「二段階劣化」と認識ギャップの正体_“総務が余剰PC×ローカルLLMで挑んだ郵便通知自動化の裏側 ほか(2026.10.30~11.5) | SHIFT Group 技術ブログ",
+          "link": "https://note.shiftinc.jp/n/nd2d06473acd4",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-09T09:17:26",
+          "excerpt": "こんにちは！「SHIFTグループ技術ブログ」編集部です。お役立ち記事を発信していますので、ぜひご注目ください！！続きをみる"
+        },
+        {
+          "title": "経験者にしかできなかった障害調査を AI エージェントへ 〜全社共通 MCP 基盤の設計と運用〜 | PLAY DEVELOPERS BLOG",
+          "link": "https://developers.play.jp/entry/2026/11/09/181049",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-09T09:10:49",
+          "excerpt": "こんにちは、PLAY CLOUD 本部 技術推進グループの市川です。PLAY では、AI エージェントを障害調査や日々の開発に組み込む取り組みを進めています。エージェントに任せたいのは、まず「情報を集める」部分です。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。調査会社の米Synergy Research Groupは、グローバルにおける2026年第3四半期のクラウドインフラの市場状況について調査結果を発表しました。",
+      "summary": "クラウドの新着が11件。ZIPでデプロイするLambda関数を、AWS CLIで作成・確認・更新・削除するコマンドをまとめます。例では、Node.js 22の hello-lambda を操作します。…",
       "articles": [
+        {
+          "title": "AWS CLIでLambda関数を操作するコマンド一覧（CRUD）",
+          "link": "https://zenn.dev/reitonkyoj/articles/aws-lambda-seet",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-09T04:19:23",
+          "excerpt": "ZIPでデプロイするLambda関数を、AWS CLIで作成・確認・更新・削除するコマンドをまとめます。例では、Node.js 22の hello-lambda を操作します。…"
+        },
         {
           "title": "クラウドインフラのシェア、AWSが26％に後退　Google Cloudは16％に上昇　市場全体は過去最大の高成長率へ　2026年第3四半期調査",
           "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003001/",
@@ -64,56 +71,56 @@
           "source": "AWS 公式ブログ（日本語）",
           "published": "2026-11-09T00:35:44",
           "excerpt": "AWS は 2026 年 10 月 21 日、AWS Network Firewall 向け Route 53 Resolved IP Validation を追加料金なしでリリースしました。…"
-        },
-        {
-          "title": "Amazon Route 53 Resolver DNS Firewall で高度な DNS 脅威を防ぐ",
-          "link": "https://aws.amazon.com/jp/blogs/news/protect-against-advanced-dns-threats-with-amazon-route-53-resolver-dns-firewall/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-11-09T00:30:01",
-          "excerpt": "Amazon VPC 内の DNS クエリは Amazon Route 53 Resolver を経由する独自の経路をたどるため、セキュリティグループや AWS Network Firewall などの制御をバイパスします。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。セガ製品は引き続きメンテナンス中。8日午前9時時点で再開のめどは立っていない。",
+      "summary": "セキュリティの新着が15件。はじめに ある日、開発環境のサイトをブラウザで開くと、こんな警告が出るようになりました。サイトのプログラムは何も変えていません。調べてみると、原因は SSL/TLS 証明書の期限切れでした。…",
       "articles": [
         {
-          "title": "「太鼓の達人」など7日ぶり稼働　セガ系不正アクセス問題、バンナム系が試験復旧",
-          "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003003/",
-          "source": "ITmedia NEWS",
-          "published": "2026-11-09T01:54:04",
-          "excerpt": "セガ製品は引き続きメンテナンス中。8日午前9時時点で再開のめどは立っていない。"
-        },
-        {
-          "title": "12年ぶりの東北開催、JAWS FESTA 2026で登壇・ブース出展してきました | 株式会社サイバーセキュリティクラウド　テックブログのフィード",
-          "link": "https://zenn.dev/cscloud_blog/articles/807c0b114c7873",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-09T01:16:43",
-          "excerpt": "11/7（土）にあきた芸術劇場ミルハスで開催されたJAWS FESTA 2026 in AKITAに参加してくださったみなさま、本当にありがとうございました🙇https://jawsfesta2026.jaws-ug.…"
-        },
-        {
-          "title": "ドコモ不正アクセスで「本人確認書類の番号」も流出　見舞金検討",
-          "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003000/",
-          "source": "ITmedia NEWS",
-          "published": "2026-11-09T01:13:02",
-          "excerpt": "流出項目が拡大し、原因は不正アクセスだと公表した。利用者への見舞金の支払いを検討しているという。"
-        },
-        {
-          "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-11-09)",
-          "link": "https://qiita.com/iestudy/items/1a9291e24cc46c3af09c",
+          "title": "開発環境が突然「保護されていない通信」に！Let's Encrypt の証明書を DNS 認証で更新して、自動更新にするまで",
+          "link": "https://qiita.com/Tukirukiki/items/e33adfb9cf1c94577afc",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-09T00:00:43",
-          "excerpt": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-11-09) クラウド GitHub セキュリティアップデートまとめ（2026年版） 本記事では、GitHubおよびGoogle Cloud Platform（GCP…"
+          "published": "2026-11-09T09:13:26",
+          "excerpt": "はじめに ある日、開発環境のサイトをブラウザで開くと、こんな警告が出るようになりました。サイトのプログラムは何も変えていません。調べてみると、原因は SSL/TLS 証明書の期限切れでした。…"
+        },
+        {
+          "title": "口座番号や顔写真、要配慮個人情報も……「ステップゴルフ」不正アクセス、最大21.5万件漏えいの可能性",
+          "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003021/",
+          "source": "ITmedia NEWS",
+          "published": "2026-11-09T07:10:20",
+          "excerpt": "金融機関名、支店名、口座番号、口座名義などの口座振替情報、契約状況、予約履歴、購入履歴、レッスンカルテ、顔写真、要配慮個人情報が漏えいした可能性。"
+        },
+        {
+          "title": "自社の認証情報で生成AI不正利用される　ネット印刷・キングプリンターズへの不正アクセス、個人情報漏えいなし",
+          "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003016/",
+          "source": "ITmedia NEWS",
+          "published": "2026-11-09T06:30:35",
+          "excerpt": "不正利用は約7時間続き、AIサービス側が利用制限を適用したことで止まったという。攻撃者が顧客の情報を扱うシステムにアクセスしようとした痕跡はなく、データの改ざんや窃取の形跡もなかったという。"
+        },
+        {
+          "title": "早稲田大、PHP脆弱性への対応中に不正アクセス発見　個人情報約3400件流出確認",
+          "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003012/",
+          "source": "ITmedia NEWS",
+          "published": "2026-11-09T04:22:14",
+          "excerpt": "PHPの脆弱性への対応をきっかけに学内システムの状況を確認する中で、不正アクセスの痕跡を見つけたという。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。戸田建設は、テーブル数が約1600に増えたデータ基盤を全社員に開放する準備を進めている。課題は、事故報告書などに含まれる機微な情報の扱いだ。利用が広がる「半歩前」にルールを整え、データのリスク判定をAIと人で分担する同社の取り組みとは。",
+      "summary": "データ分析の新着が6件。はじめに 普段はバックエンドエンジニアとして、Amazon RDS や Cloud SQL（MySQL / PostgreSQL）を使ったWebアプリ開発をしています。…",
       "articles": [
+        {
+          "title": "Google Cloud SQLとBigQueryの違いがわからなかったので、行指向・列指向とOLTP・OLAPから調べて整理した",
+          "link": "https://qiita.com/Pippichannnn/items/15076f94489041887b36",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-09T08:21:58",
+          "excerpt": "はじめに 普段はバックエンドエンジニアとして、Amazon RDS や Cloud SQL（MySQL / PostgreSQL）を使ったWebアプリ開発をしています。…"
+        },
         {
           "title": "戸田建設、データ基盤を全社員に開放へ　「半歩前」のガバナンスとAIによるリスク判定",
           "link": "https://www.itmedia.co.jp/enterprise/articles/2611/13/news007.html",
@@ -134,80 +141,73 @@
           "source": "TechCrunch（英語）",
           "published": "2026-11-08T17:02:00",
           "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関のハブであり、その中で AI がこれまで以上に重要な役割を果たしています。"
-        },
-        {
-          "title": "クラスメソッド データアナリティクス通信(AWSデータ分析編) – 2026年11月号",
-          "link": "https://dev.classmethod.jp/articles/cm-news-analytics-202611/",
-          "source": "DevelopersIO",
-          "published": "2026-11-08T15:32:12",
-          "excerpt": "2026年10月のAWSデータ分析アップデートまとめです。Amazon QuickはReaderが追加料金なしでQuick Essentialsに。ダッシュボードに自然言語で質問できます。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が12件。Muse Gadget SDKの標準機能でリアルタイム音声通話を試しましたが、通話開始時にHTTP 404エラーが発生してしまいました。…",
+      "summary": "開発ツールの新着が9件。GitHubは2026年11月5日、コードの変更を提案・レビューするプルリクエスト（PR）の新しいOverviewページを、パブリックプレビューとして公開した。…",
       "articles": [
+        {
+          "title": "GitHub、プルリクエストの新しいOverviewをプレビュー公開  ――チェック・レビューコメント・承認の状況をページ上部で確認、マージも可能に",
+          "link": "https://gihyo.jp/article/2026/11/github-new-pull-request-overview-page?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-11-09T06:00:00",
+          "excerpt": "GitHubは2026年11月5日、コードの変更を提案・レビューするプルリクエスト（PR）の新しいOverviewページを、パブリックプレビューとして公開した。…"
+        },
+        {
+          "title": "GitHub、Copilot usage metrics APIでテレメトリ欠落と最小バージョン未満のユーザーを表示",
+          "link": "https://codezine.jp/article/detail/30288",
+          "source": "CodeZine",
+          "published": "2026-11-09T05:30:00",
+          "excerpt": "GitHub、Copilot usage metrics APIでテレメトリ欠落と最小バージョン未満のユーザーを表示"
+        },
+        {
+          "title": "AWS CLIでLambda関数を操作するコマンド一覧（CRUD）",
+          "link": "https://zenn.dev/reitonkyoj/articles/aws-lambda-seet",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-09T04:19:23",
+          "excerpt": "ZIPでデプロイするLambda関数を、AWS CLIで作成・確認・更新・削除するコマンドをまとめます。例では、Node.js 22の hello-lambda を操作します。…"
+        },
         {
           "title": "Muse Gadget SDK標準の音声通話をM5Stack StopWatchで試したらHTTP 404になった",
           "link": "https://dev.classmethod.jp/articles/shuntaka-muse-gadget-sdk-m5stack-stopwatch-voice/",
           "source": "DevelopersIO",
           "published": "2026-11-09T01:31:27",
           "excerpt": "Muse Gadget SDKの標準機能でリアルタイム音声通話を試しましたが、通話開始時にHTTP 404エラーが発生してしまいました。…"
-        },
-        {
-          "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-11-09)",
-          "link": "https://qiita.com/iestudy/items/1a9291e24cc46c3af09c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-09T00:00:43",
-          "excerpt": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-11-09) クラウド GitHub セキュリティアップデートまとめ（2026年版） 本記事では、GitHubおよびGoogle Cloud Platform（GCP…"
-        },
-        {
-          "title": "Amazon Chime SDK の通話に同じ会員が 2 台目の端末から入ると、1 台目がどうなるかを参加者の作り方ごとに確認してみた",
-          "link": "https://dev.classmethod.jp/articles/chime-sdk-same-member-second-device-attendee-patterns/",
-          "source": "DevelopersIO",
-          "published": "2026-11-08T21:00:09",
-          "excerpt": "Amazon Chime SDKで1対1のビデオ通話中に複数端末から接続する場合、参加者の作り方によって挙動が大きく変わります。…"
-        },
-        {
-          "title": "Amazon ECS コンソールのデプロイ可観測性、Linear・Canary・Blue/Green に対応",
-          "link": "https://qiita.com/Haruki-N/items/748e52ddc18c5d51bb21",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-08T15:51:16",
-          "excerpt": "はじめに Linear で本番トラフィックを 10% ずつ、6 分おきに切り替えると (API の既定値の場合)、待機時間だけで約 54 分かかります。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Chrome 155のchrome.debuggerポリシー適用強化、ロールバックへ",
-      "link": "https://codezine.jp/article/detail/30286",
-      "source": "CodeZine",
-      "published": "2026-11-09T02:30:00",
-      "excerpt": "Chrome 155のchrome.debuggerポリシー適用強化、ロールバックへ"
-    },
-    {
-      "title": "Huawei says it’s made a 100 percent Chinese PC",
-      "link": "https://www.theregister.com/systems/2026/11/09/huawei-says-its-made-a-100-percent-chinese-pc/5308335",
+      "title": "AI Slop FM ラジオの実験では、一度に 1 曲ずつ危険な曲をテストします。",
+      "link": "https://www.theregister.com/offbeat/2026/11/09/ai-slop-fm-radio-experiment-puts-machines-on-trial-one-dodgy-tune-at-a-time/5308161",
       "source": "The Register（英語）",
-      "published": "2026-11-09T02:14:17",
-      "excerpt": "PLUS: Japan declares infosec emergency; Apple’s makes biggest school Mac sale, ever, anywhere, in the Philippines; And m…"
+      "published": "2026-11-09T10:15:00",
+      "excerpt": "ウェールズの音楽ファンが、AI が生成した曲と人間のバップ (トイレット オペラや HR のプロテスト ソングなど) をリスナーに競わせる"
     },
     {
-      "title": "週刊AWS – 2026/11/02週",
-      "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20261102/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-11-09T02:03:05",
-      "excerpt": "Amazon Textract が日本語に対応し東京リージョンでも利用可能に、Amazon Inspector が AMI の脆弱性スキャンに対応、Amazon CloudFront が Service Quotas でのクォータ引き上げに…"
+      "title": "[アップデート] AWS Systems Manager Parameter Storeにintegerやjsonなど13種類のデータ型が追加されました",
+      "link": "https://dev.classmethod.jp/articles/update-aws-ssm-parameter-store-13-data-types/",
+      "source": "DevelopersIO",
+      "published": "2026-11-09T10:05:44",
+      "excerpt": "AWS Systems Manager Parameter Storeに追加された13種類のデータ型を、AWS CLIで通る値と弾かれる値を並べて試しました。…"
     },
     {
-      "title": "大手クラウド事業者がいま磁気テープを買う理由　富士フイルムは生産5倍へ",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2611/07/news004.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-11-09T02:00:00",
-      "excerpt": "富士フイルムは約100億円を投じ、データストレージ用磁気テープの製造能力を約5倍に増強する。生成AIの普及でデータ量が増え続ける今、なぜ磁気テープなのか。"
+      "title": "初参加！JAWS FESTA 2026さ行ってきたどレポート",
+      "link": "https://qiita.com/manaty/items/caccf7b6e18bedca5805",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-09T10:05:42",
+      "excerpt": "はじめに こんにちは、JAWS FESTAに初めて参加してきたマナティです！今回はその参加レポートになりますー！…"
+    },
+    {
+      "title": "メモリ不足により、整備済みキットは中古品に見えなくなります",
+      "link": "https://www.theregister.com/on-prem/2026/11/09/memory-crunch-makes-refurbished-kit-look-a-lot-less-secondhand/5307758",
+      "source": "The Register（英語）",
+      "published": "2026-11-09T09:30:00",
+      "excerpt": "コンポーネントのコストが高騰し、最長 3 年間の保証が付いているため、購入者は愛用のハードウェアを検討する理由が増えています"
     }
   ]
 }
