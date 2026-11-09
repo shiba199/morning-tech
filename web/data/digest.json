@@ -1,119 +1,126 @@
 {
-  "generated_at": "2026-11-08T23:15:56",
+  "generated_at": "2026-11-09T02:48:13",
   "window_hours": 24,
-  "total": 85,
+  "total": 119,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が11件。AIエージェントの普及によって、企業が管理すべきIDはどう変わるのか。人間のIDや従来のマシンIDとは何が異なり、どのようなセキュリティリスクが生じるのか。…",
+      "summary": "生成AIの新着が17件。Amazon Bedrock Managed Knowledge Basesでメタデータを検索対象にできるようになりました！メタデータフィルタリングとの違いを簡単に整理してみました！…",
       "articles": [
         {
-          "title": "企業が知らない“野良ID”、「想定よりはるかに多い」――AIエージェント時代の新たな盲点",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/09/news015.html",
-          "source": "@IT",
-          "published": "2026-11-08T20:00:00",
-          "excerpt": "AIエージェントの普及によって、企業が管理すべきIDはどう変わるのか。人間のIDや従来のマシンIDとは何が異なり、どのようなセキュリティリスクが生じるのか。…"
-        },
-        {
-          "title": "ゴールドマン・サックスは銀行家やトレーダーからクロード・コードを引き出している",
-          "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-08T18:16:07",
-          "excerpt": "記事の URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers コメント URL: https://news.ycombinator.…"
-        },
-        {
-          "title": "Claude Codeの「今後確認しない」が秘密情報をGitHubに漏らす — 1,122件の公開ファイルに1,379件の秘密情報 - Dev & Gadget Note",
-          "link": "https://dev.ponkotsu.dev/entry/claude-code-settings-local-secrets",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-08T10:31:52",
-          "excerpt": "Claude Codeで「Yes, and don't ask again（今後確認しない）」を選ぶと、承認したコマンドがそのままプロジェクト内の.claude/settings.local.jsonに保存されます。…"
-        },
-        {
-          "title": "Claude Enteprise で組織設定に追加された IP 許可リストについて試してみた",
-          "link": "https://dev.classmethod.jp/articles/claude-enterprise-ip-allow-list/",
+          "title": "[アップデート] Amazon Bedrock Managed Knowledge Basesでメタデータの項目を検索の対象にできるようになったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/bedrock-managed-kb-searchable-metadata/",
           "source": "DevelopersIO",
-          "published": "2026-11-08T10:04:11",
-          "excerpt": "Claude Enterprise に新しく追加された「IP 許可リスト」機能を、実際に設定して検証してみました。…"
+          "published": "2026-11-09T01:39:47",
+          "excerpt": "Amazon Bedrock Managed Knowledge Basesでメタデータを検索対象にできるようになりました！メタデータフィルタリングとの違いを簡単に整理してみました！…"
+        },
+        {
+          "title": "【LLMOps】FDEの開発を支えるトレーシング基盤の開発 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
+          "link": "https://developers.cyberagent.co.jp/blog/archives/67361/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-09T01:13:28",
+          "excerpt": "本記事では、AI Workerを導入するお客様向けに、多様なAIエージェントやアプリケーションを開発 ..."
+        },
+        {
+          "title": "ClaudeからAgentCore Gatewayのインターセプターでユーザー毎に回答を制御できるか検証してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-agentcore-gateway-interceptor-per-user-access-control/",
+          "source": "DevelopersIO",
+          "published": "2026-11-09T01:00:09",
+          "excerpt": "AgentCore Gatewayのユーザーごとの認可制御を検証してみました。インバウンド認証とインターセプターを組み合わせることで、同じMCPサーバーでも、ログインユーザーによって返す情報を制限できることを確認します。"
+        },
+        {
+          "title": "Claude Desktopに組み込まれたMCPサーバー用Node.jsランタイムを確認してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-desktop-mcpb-bundled-node-electron-runtime/",
+          "source": "DevelopersIO",
+          "published": "2026-11-09T00:30:13",
+          "excerpt": "Electron製アプリであるClaude Desktopは、Electron自身が持つNode.jsランタイムをMCPサーバーの実行にも使えます。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。はじめに こんにちは！YOUTRUSTのアプリエンジニアの優依那 (YOUTRUST / X) です✨ エンジニアに転身して、早いもので2年が経ちました！…",
+      "summary": "クラウドの新着が12件。調査会社の米Synergy Research Groupは、グローバルにおける2026年第3四半期のクラウドインフラの市場状況について調査結果を発表しました。",
       "articles": [
         {
-          "title": "チーム開発は同棲に似ている。Flutterの.env管理をsops + ageに移行する | YOUTRUST Tech Blog",
-          "link": "https://tech.youtrust.co.jp/entry/2026/11/09/073948",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-08T22:39:48",
-          "excerpt": "はじめに こんにちは！YOUTRUSTのアプリエンジニアの優依那 (YOUTRUST / X) です✨ エンジニアに転身して、早いもので2年が経ちました！…"
+          "title": "クラウドインフラのシェア、AWSが26％に後退　Google Cloudは16％に上昇　市場全体は過去最大の高成長率へ　2026年第3四半期調査",
+          "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003001/",
+          "source": "ITmedia NEWS",
+          "published": "2026-11-09T02:00:00",
+          "excerpt": "調査会社の米Synergy Research Groupは、グローバルにおける2026年第3四半期のクラウドインフラの市場状況について調査結果を発表しました。"
         },
         {
-          "title": "Lambda Durable Functionsでも二重実行は起こる？Checkpointの境界と冪等性を実機検証",
-          "link": "https://zenn.dev/takuyousou/articles/lambda-durable-checkpoint-idempotency",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-08T16:15:41",
-          "excerpt": "はじめに 前回の記事では、Amazon Bedrock AgentCore RuntimeとAWS Lambda Durable Functionsを組み合わせ、Agentの処理が完了したあとにS3保存で失敗した場合の再実行動作を検証しまし…"
+          "title": "Amazon Route 53 Resolver DNS Firewall によるハイブリッドワークロードの保護",
+          "link": "https://aws.amazon.com/jp/blogs/news/securing-hybrid-workloads-using-amazon-route-53-resolver-dns-firewall/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-11-09T00:45:36",
+          "excerpt": "Amazon Route 53 Resolver DNS Firewall による保護をオンプレミスワークロードへ拡張し、ハイブリッド AWS 環境全体で統一された DNS セキュリティポリシーを実現する方法を紹介します。…"
         },
         {
-          "title": "Amazon ECS コンソールのデプロイ可観測性、Linear・Canary・Blue/Green に対応",
-          "link": "https://qiita.com/Haruki-N/items/748e52ddc18c5d51bb21",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-08T15:51:16",
-          "excerpt": "はじめに Linear で本番トラフィックを 10% ずつ、6 分おきに切り替えると (API の既定値の場合)、待機時間だけで約 54 分かかります。…"
+          "title": "AWS Network Firewall 向け Route 53 Resolved IP Validation の紹介: ドメイン名による非ウェブトラフィック制御と SNI スプーフィング防止",
+          "link": "https://aws.amazon.com/jp/blogs/news/introducing-route-53-resolved-ip-validation-for-aws-network-firewall/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-11-09T00:35:44",
+          "excerpt": "AWS は 2026 年 10 月 21 日、AWS Network Firewall 向け Route 53 Resolved IP Validation を追加料金なしでリリースしました。…"
         },
         {
-          "title": "「知らないと損する！Google Cloud最新機能とIAM移行の落とし穴」～【googlecloud】人気記事（2026/11/08） | CareNet Engineersのフィード",
-          "link": "https://zenn.dev/carenet/articles/zenn-weekly-googlecloud-articles-2026-11",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-08T15:48:11",
-          "excerpt": "!この記事はZennからgooglecloudのLike数が多い記事のリストを自動的取得し、AIを利用して要約し、自動更新されています。「知らないと損する！…"
+          "title": "Amazon Route 53 Resolver DNS Firewall で高度な DNS 脅威を防ぐ",
+          "link": "https://aws.amazon.com/jp/blogs/news/protect-against-advanced-dns-threats-with-amazon-route-53-resolver-dns-firewall/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-11-09T00:30:01",
+          "excerpt": "Amazon VPC 内の DNS クエリは Amazon Route 53 Resolver を経由する独自の経路をたどるため、セキュリティグループや AWS Network Firewall などの制御をバイパスします。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。個人情報の漏えいにつながる不正アクセス増加を受けて、NCOは事業者が徹底すべきセキュリティ対策を公開した。運用・開発・サプライチェーンの3段階に分けて対策を提言している。全てを実施するのは困難であるためできるところから手を付けたい。",
+      "summary": "セキュリティの新着が12件。セガ製品は引き続きメンテナンス中。8日午前9時時点で再開のめどは立っていない。",
       "articles": [
         {
-          "title": "「対策済み」と言い切るには早い　徹底しないとマズい“不正アクセス対策8選”",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/09/news021.html",
-          "source": "@IT",
-          "published": "2026-11-08T22:45:00",
-          "excerpt": "個人情報の漏えいにつながる不正アクセス増加を受けて、NCOは事業者が徹底すべきセキュリティ対策を公開した。運用・開発・サプライチェーンの3段階に分けて対策を提言している。全てを実施するのは困難であるためできるところから手を付けたい。"
+          "title": "「太鼓の達人」など7日ぶり稼働　セガ系不正アクセス問題、バンナム系が試験復旧",
+          "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003003/",
+          "source": "ITmedia NEWS",
+          "published": "2026-11-09T01:54:04",
+          "excerpt": "セガ製品は引き続きメンテナンス中。8日午前9時時点で再開のめどは立っていない。"
         },
         {
-          "title": "脆弱性検査で検出されるCOEP、CORP、COOPヘッダについて | 電通総研 テックブログ",
-          "link": "https://tech.dentsusoken.com/entry/2026/11/09/%E8%84%86%E5%BC%B1%E6%80%A7%E6%A4%9C%E6%9F%BB%E3%81%A7%E6%A4%9C%E5%87%BA%E3%81%95%E3%82%8C%E3%82%8BCOEP%E3%80%81CORP%E3%80%81COOP%E3%83%98%E3%83%83%E3%83%80%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+          "title": "12年ぶりの東北開催、JAWS FESTA 2026で登壇・ブース出展してきました | 株式会社サイバーセキュリティクラウド　テックブログのフィード",
+          "link": "https://zenn.dev/cscloud_blog/articles/807c0b114c7873",
           "source": "企業テックブログまとめ",
-          "published": "2026-11-08T22:00:00",
-          "excerpt": "はじめに こんにちは。クロスイノベーション本部サイバーセキュリティテクノロジーセンターの小笠原です。昨今の脆弱性検査において、以下のHTTPレスポンスヘッダの未設定が検出されるケースが増えています。…"
+          "published": "2026-11-09T01:16:43",
+          "excerpt": "11/7（土）にあきた芸術劇場ミルハスで開催されたJAWS FESTA 2026 in AKITAに参加してくださったみなさま、本当にありがとうございました🙇https://jawsfesta2026.jaws-ug.…"
         },
         {
-          "title": "「AIセキュリティをやれ」と言われたIT部門へ　100点を目指さず、“見る”ことから始めよう",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2611/09/news006.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-11-08T22:00:00",
-          "excerpt": "経営層から「AIのセキュリティ対策を進めよ」と号令が下っても、現場では何から手を付ければよいのか分かりません。AIエージェントを導入した覚えがなくても、無関係ではいられません。…"
+          "title": "ドコモ不正アクセスで「本人確認書類の番号」も流出　見舞金検討",
+          "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003000/",
+          "source": "ITmedia NEWS",
+          "published": "2026-11-09T01:13:02",
+          "excerpt": "流出項目が拡大し、原因は不正アクセスだと公表した。利用者への見舞金の支払いを検討しているという。"
         },
         {
-          "title": "彼はハッカーを逮捕し、その後 18 か月をかけて自分の汚名を晴らしました。現在、彼はサイバーセキュリティのベンチャーキャピタルです。",
-          "link": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-08T17:30:00",
-          "excerpt": "元シークレットサービス職員でホームセンターCISOのスティーブン・ウォード氏は、ブライトマインド・パートナーズのために約2億5000万ドルの2つ目の資金を準備している。"
+          "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-11-09)",
+          "link": "https://qiita.com/iestudy/items/1a9291e24cc46c3af09c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-09T00:00:43",
+          "excerpt": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-11-09) クラウド GitHub セキュリティアップデートまとめ（2026年版） 本記事では、GitHubおよびGoogle Cloud Platform（GCP…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。記事の URL: https://mailroute.net/blog/outlook-rejecting-email-without-dmarc コメント URL: https://news.ycombinator.com/item?…",
+      "summary": "データ分析の新着が5件。戸田建設は、テーブル数が約1600に増えたデータ基盤を全社員に開放する準備を進めている。課題は、事故報告書などに含まれる機微な情報の扱いだ。利用が広がる「半歩前」にルールを整え、データのリスク判定をAIと人で分担する同社の取り組みとは。",
       "articles": [
+        {
+          "title": "戸田建設、データ基盤を全社員に開放へ　「半歩前」のガバナンスとAIによるリスク判定",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2611/13/news007.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-11-09T00:20:00",
+          "excerpt": "戸田建設は、テーブル数が約1600に増えたデータ基盤を全社員に開放する準備を進めている。課題は、事故報告書などに含まれる機微な情報の扱いだ。利用が広がる「半歩前」にルールを整え、データのリスク判定をAIと人で分担する同社の取り組みとは。"
+        },
         {
           "title": "Outlook.com は DMARC のないドメインからのメールを密かに拒否しています",
           "link": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
@@ -134,21 +141,28 @@
           "source": "DevelopersIO",
           "published": "2026-11-08T15:32:12",
           "excerpt": "2026年10月のAWSデータ分析アップデートまとめです。Amazon QuickはReaderが追加料金なしでQuick Essentialsに。ダッシュボードに自然言語で質問できます。…"
-        },
-        {
-          "title": "AWS素人がGlue×Athenaで気象データ分析基盤を作ってみた(前編)",
-          "link": "https://qiita.com/apteryx-nz/items/c53d1bbed9c3518ed403",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-08T13:08:13",
-          "excerpt": "はじめに 以前、QuickSightで高コストが発生した失敗を記事にしました。本来の目的はデータ分析の学習だったため、今回は改めてAWSを利用したデータ分析基盤の構築を備忘録として残します。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が11件。Amazon Chime SDKで1対1のビデオ通話中に複数端末から接続する場合、参加者の作り方によって挙動が大きく変わります。…",
+      "summary": "開発ツールの新着が12件。Muse Gadget SDKの標準機能でリアルタイム音声通話を試しましたが、通話開始時にHTTP 404エラーが発生してしまいました。…",
       "articles": [
+        {
+          "title": "Muse Gadget SDK標準の音声通話をM5Stack StopWatchで試したらHTTP 404になった",
+          "link": "https://dev.classmethod.jp/articles/shuntaka-muse-gadget-sdk-m5stack-stopwatch-voice/",
+          "source": "DevelopersIO",
+          "published": "2026-11-09T01:31:27",
+          "excerpt": "Muse Gadget SDKの標準機能でリアルタイム音声通話を試しましたが、通話開始時にHTTP 404エラーが発生してしまいました。…"
+        },
+        {
+          "title": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-11-09)",
+          "link": "https://qiita.com/iestudy/items/1a9291e24cc46c3af09c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-09T00:00:43",
+          "excerpt": "クラウド・GitHub セキュリティインシデント・脆弱性速報 (2026-11-09) クラウド GitHub セキュリティアップデートまとめ（2026年版） 本記事では、GitHubおよびGoogle Cloud Platform（GCP…"
+        },
         {
           "title": "Amazon Chime SDK の通話に同じ会員が 2 台目の端末から入ると、1 台目がどうなるかを参加者の作り方ごとに確認してみた",
           "link": "https://dev.classmethod.jp/articles/chime-sdk-same-member-second-device-attendee-patterns/",
@@ -162,52 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-08T15:51:16",
           "excerpt": "はじめに Linear で本番トラフィックを 10% ずつ、6 分おきに切り替えると (API の既定値の場合)、待機時間だけで約 54 分かかります。…"
-        },
-        {
-          "title": "MCP仕様を完全にサポートしたMCP公式のRuby SDKが登場。「MCP SDK Tier 1」に到達と",
-          "link": "https://www.publickey1.jp/blog/26/mcpmcpruby_sdkmcp_sdk_tier_1.html",
-          "source": "Publickey",
-          "published": "2026-11-08T15:12:29",
-          "excerpt": "Linux Foundation傘下でMCP（Model Context Protocol）の仕様策定を行っている「Agentic AI Foundation（AAIF）」は、MCP公式のRuby SDKがMCP仕様を完全にサポートした「M…"
-        },
-        {
-          "title": "HCP Terraform の Run の待ち時間を分解してみた",
-          "link": "https://qiita.com/pokapu/items/87610aac164c9544e2e4",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-08T12:18:00",
-          "excerpt": "2026/11/07〜08 時点の検証結果です。Terraform v1.17.1、hashicorp/aws v6.72.0、HCP Terraform Agent v1.33.2 を使用しています。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "シナマケミートアップ × ココカラ勉強会 レポート – AI開発の知見LT会 | TECHSCORE BLOG",
-      "link": "https://blog.techscore.com/entry/2026/11/09/080000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-11-08T23:00:00",
-      "excerpt": "ココカラ勉強会との共催で開いたAI開発の知見LT会。AIと進めたQAで「品質が高い」を言語化した話、AIはUIが苦手という話、LLM Wikiでハーネスを組んだ話の3本と、当日の様子をお届けします。"
+      "title": "Chrome 155のchrome.debuggerポリシー適用強化、ロールバックへ",
+      "link": "https://codezine.jp/article/detail/30286",
+      "source": "CodeZine",
+      "published": "2026-11-09T02:30:00",
+      "excerpt": "Chrome 155のchrome.debuggerポリシー適用強化、ロールバックへ"
     },
     {
-      "title": "X Mileさんと合同AI勉強会をして分かった、AIに任せるところと人がやるところ | ROXX開発者ブログ",
-      "link": "https://techblog.roxx.co.jp/entry/2026/11/09/075141",
-      "source": "企業テックブログまとめ",
-      "published": "2026-11-08T22:51:41",
-      "excerpt": "こんにちは、ROXXでEM（エンジニアリングマネージャー）を務めている窪内です。10月14日、同じビルに入っているX Mileさんと、合同でAI勉強会を開きました！…"
+      "title": "Huawei says it’s made a 100 percent Chinese PC",
+      "link": "https://www.theregister.com/systems/2026/11/09/huawei-says-its-made-a-100-percent-chinese-pc/5308335",
+      "source": "The Register（英語）",
+      "published": "2026-11-09T02:14:17",
+      "excerpt": "PLUS: Japan declares infosec emergency; Apple’s makes biggest school Mac sale, ever, anywhere, in the Philippines; And m…"
     },
     {
-      "title": "NVIDIA、フアンCEOへの中国スパイ工作疑惑で独立調査　本人は不倫認め謝罪",
-      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000002998/",
-      "source": "ITmedia NEWS",
-      "published": "2026-11-08T22:44:13",
-      "excerpt": "NVIDIAの取締役会は、ジェンスン・フアンCEOが中国国家安全部に協力していた疑いのある女性アリス・フアン氏と親密な関係にあったとする報道を受け、独立調査を開始したと発表した。…"
+      "title": "週刊AWS – 2026/11/02週",
+      "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20261102/",
+      "source": "AWS 公式ブログ（日本語）",
+      "published": "2026-11-09T02:03:05",
+      "excerpt": "Amazon Textract が日本語に対応し東京リージョンでも利用可能に、Amazon Inspector が AMI の脆弱性スキャンに対応、Amazon CloudFront が Service Quotas でのクォータ引き上げに…"
     },
     {
-      "title": "終わりのない運命スクロールのサイクルから気を紛らわせるアプリ",
-      "link": "https://techcrunch.com/2026/11/08/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-11-08T22:00:00",
-      "excerpt": "運命スクロールのサイクルを断ち切るのは難しいですが、魅力的で生産的なコンテンツにより多くの時間を費やすのに役立つアプリはたくさんあります。"
+      "title": "大手クラウド事業者がいま磁気テープを買う理由　富士フイルムは生産5倍へ",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2611/07/news004.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-11-09T02:00:00",
+      "excerpt": "富士フイルムは約100億円を投じ、データストレージ用磁気テープの製造能力を約5倍に増強する。生成AIの普及でデータ量が増え続ける今、なぜ磁気テープなのか。"
     }
   ]
 }
