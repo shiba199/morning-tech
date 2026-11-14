@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T18:20:52",
+  "generated_at": "2026-11-14T22:37:46",
   "window_hours": 24,
-  "total": 92,
+  "total": 93,
   "topic_count": 5,
   "groups": [
     {
@@ -17,6 +17,13 @@
           "excerpt": "変更履歴 2026-11-15：公開 初めに AWS Certified Generative AI Developer – Professional（AIP-C01）の資格勉強のために、出題範囲のサービスを実際に動かす「AIP 基礎編」を…"
         },
         {
+          "title": "常時稼働エージェントの作り方（Claude公式ブログを資料化）",
+          "link": "https://speakerdeck.com/minorun365/jouji-kadou-ejento-no-tsukurikata",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-14T16:06:17",
+          "excerpt": "以下のURLを私のClaude Codeに渡して、スライドをポン出しする実験です。https://claude.com/ja/resources/articles/building-always-on-agents…"
+        },
+        {
           "title": "社長の一言は重い。RAGにも忖度させてみた（重み付け検索）",
           "link": "https://qiita.com/kikuziro/items/43b360420d0cdcbf190c",
           "source": "Qiita AWSタグ",
@@ -29,21 +36,21 @@
           "source": "DevelopersIO",
           "published": "2026-11-14T13:29:01",
           "excerpt": "Claude Enterprise の Compliance API を使って、Claude Desktop、Cowork、Claude Code で扱ったファイルが、API でどの形式で取得できるのかを検証してみました。"
-        },
-        {
-          "title": "MCP Appsの進化がすごい！Claude.aiが「app tools」に対応したので試してみた | NCDC テックブログのフィード",
-          "link": "https://zenn.dev/ncdc/articles/8cfbf2d20eec93",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-14T12:23:59",
-          "excerpt": "はじめにClaude.ai（Web版のClaude）が最近対応したMCP Appsの新機能「app tools」を試してみました。MCP AppsはMCPサーバーの拡張で、AIとのチャットの中に独自の画面を出すことができます。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が9件。はじめに AWS上に構築したWordPressで、EC2を停止・起動したところ、トップページ以外にアクセスできなくなる事象が発生しました。今回は、wp-config.php にサイトURLを設定して解決した方法を紹介します。構成 ユ...…",
+      "summary": "クラウドの新着が10件。The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
       "articles": [
+        {
+          "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+          "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-14T21:41:22",
+          "excerpt": "The petition had attracted more than 115,000 signatures as of Saturday afternoon."
+        },
         {
           "title": "EC2再起動後にWordPressのトップページ以外にアクセスできなくなった場合の対処法",
           "link": "https://qiita.com/shiragai/items/77a4759f53c4e8024540",
@@ -64,13 +71,6 @@
           "source": "DevelopersIO",
           "published": "2026-11-14T14:44:30",
           "excerpt": "ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation で組みました。…"
-        },
-        {
-          "title": "AWS Emulatorが一般提供されたので、ローカルでS3バケットを作成してみた",
-          "link": "https://qiita.com/moyomoyomoyo/items/522ba880ff37971aa969",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-14T07:41:30",
-          "excerpt": "はじめに 本記事は2026年11月14日時点の情報です。最新の提供条件や料金は、公式ドキュメントを確認してください。2026年11月11日、AWSがローカルで動かせるエミュレーター「AWS Emulator」を発表しました。…"
         }
       ]
     },
@@ -140,7 +140,7 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation で組みました。…",
+      "summary": "開発ツールの新着が7件。ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation で組みました。…",
       "articles": [
         {
           "title": "ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation と CLI で組んでみた",
@@ -148,6 +148,13 @@
           "source": "DevelopersIO",
           "published": "2026-11-14T14:44:30",
           "excerpt": "ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation で組みました。…"
+        },
+        {
+          "title": "【ハンズオン：#10】AWSを実際に操作してみた(CLI、SDK)",
+          "link": "https://zenn.dev/hitakaha/articles/28b84ad689e35b",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-14T09:31:17",
+          "excerpt": "はじめに こんにちは、hitakahaです。DVAの受験日が近づくにつれて、ついついアウトプットの更新が鈍化してしまいました。引き続きハンズオンに取り組んでいるので、作業の振り返りを兼ねて、今回学んだ内容をアウトプットしてみます。…"
         },
         {
           "title": "【AWS】AWS EmulatorでPRごとのCI（結合テスト）を回す【GitHubActions】",
@@ -162,45 +169,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-11-14T01:32:05",
           "excerpt": "1.…"
-        },
-        {
-          "title": "AWS Emulator で Terraform の EC2 構築を試したら、まだ最後まで通らなかった",
-          "link": "https://zenn.dev/yamadatt/articles/20261114-aws-emulator-terraform-ec2",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-14T01:10:27",
-          "excerpt": "2026年11月11日に、AWS 公式のローカルエミュレーター「AWS Emulator」が一般提供されました。手元の PC で AWS の API を再現してくれるもので、無料、AWS アカウントも不要です。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Got an iPhone Duo? These 9 settings make it easier to use",
-      "link": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-11-14T18:00:00",
-      "excerpt": "From Touch ID shortcuts to smarter volume buttons and camera tricks, these tweaks make Apple's foldable iPhone easier to…"
+      "title": "NVIDIAフアン前CEOの復帰求める署名が11万人超　マスク氏らも賛同、米議会は追及継続",
+      "link": "https://www.itmedia.co.jp/news/article/2611/15/2000003207/",
+      "source": "ITmedia NEWS",
+      "published": "2026-11-14T22:15:24",
+      "excerpt": "NVIDIAのジェンスン・フアン前CEOの復帰を求める署名運動が拡大しており、署名サイト「Stand with Jensen」には11万人超が賛同している。…"
     },
     {
-      "title": "Cloudflare Workflowsのjurisdictionでインスタンスの実行と保存をEU内に限定する",
-      "link": "https://dev.classmethod.jp/articles/cloudflare-workflows-jurisdiction/",
-      "source": "DevelopersIO",
-      "published": "2026-11-14T17:54:59",
-      "excerpt": "Cloudflare Workflowsに、インスタンスの実行と保存の場所を限定するjurisdictionが加わりました。…"
+      "title": "“初めてのインシデント調査”に備えられる　JPCERT/CCがチェックリストを無償公開",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2611/15/news003.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-11-14T22:00:00",
+      "excerpt": "ランサムウェア攻撃や情報漏えいの増加で、インシデント調査を外部に委託する企業が増えている。だが初めて被害に遭った組織は、調査の妥当性や収束の判断に迷いやすい。JPCERT/CCが公開したチェックリストでは何を確認するのか。"
     },
     {
-      "title": "Azure NSGの許可規則を削除しても、接続中のSSHは切れない？20分つないだまま確かめた",
-      "link": "https://dev.classmethod.jp/articles/azure-nsg-existing-connections/",
-      "source": "DevelopersIO",
-      "published": "2026-11-14T17:47:18",
-      "excerpt": "Azure NSGでSSHの許可規則を削除し、接続中のセッションと新しい接続がどうなるかを実機で確かめました。既存のセッションはループが終わって閉じるまでの約20分間切れず、新しい接続はタイムアウトしました。…"
-    },
-    {
-      "title": "A Family Tree of Software Job Titles",
-      "link": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+      "title": "SpaceX Catches the Starship to end Flight 15",
+      "link": "https://x.com/i/broadcasts/2brajgZlOKRMka",
       "source": "Hacker News（英語）",
-      "published": "2026-11-14T17:45:19",
-      "excerpt": "Article URL: https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/ Comments URL: https://news.…"
+      "published": "2026-11-14T21:22:24",
+      "excerpt": "Article URL: https://x.com/i/broadcasts/2brajgZlOKRMka Comments URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
+      "link": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-14T20:04:44",
+      "excerpt": "Even Elon Musk said the monthly fee is \"too high.\""
     }
   ]
 }
