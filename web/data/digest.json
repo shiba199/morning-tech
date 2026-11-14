@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-11-14T12:21:49",
+  "generated_at": "2026-11-14T18:20:52",
   "window_hours": 24,
-  "total": 108,
+  "total": 92,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が20件。Claude Code 2.1.318で、保存したclaude.aiサインインが切れる日時をclaude auth statusとclaude -pの結果で取れるようになりました。…",
+      "summary": "生成AIの新着が21件。変更履歴 2026-11-15：公開 初めに AWS Certified Generative AI Developer – Professional（AIP-C01）の資格勉強のために、出題範囲のサービスを実際に動かす「AIP 基礎編」を…",
       "articles": [
         {
-          "title": "Claude Codeのclaude.aiサインインがいつ切れるかを確かめる：auth statusのloginExpiresAtとclaude -pの期限警告",
-          "link": "https://dev.classmethod.jp/articles/claude-code-sign-in-expiry-check/",
-          "source": "DevelopersIO",
-          "published": "2026-11-14T11:10:02",
-          "excerpt": "Claude Code 2.1.318で、保存したclaude.aiサインインが切れる日時をclaude auth statusとclaude -pの結果で取れるようになりました。…"
-        },
-        {
-          "title": "Amazon BedrockのIAMポリシーでモデル利用を制限してみた【東京リージョン・推論プロファイルの落とし穴】",
-          "link": "https://qiita.com/miyamiya21/items/c4f54636477f0238c1f1",
+          "title": "【AWS】【Bedrock】Guardrails は日本語で何を防げて、何を防げないか（AIP 基礎編）",
+          "link": "https://qiita.com/yuki_1012_1101/items/4cdd356f2cab92e7dae4",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-14T11:06:37",
-          "excerpt": "1.はじめに 生成AIを社内で使わせるとき、「どのモデルを誰に使わせるか」を IAM で制御したくなります。…"
+          "published": "2026-11-14T17:45:55",
+          "excerpt": "変更履歴 2026-11-15：公開 初めに AWS Certified Generative AI Developer – Professional（AIP-C01）の資格勉強のために、出題範囲のサービスを実際に動かす「AIP 基礎編」を…"
         },
         {
-          "title": "Claude Code v2.1.324〜v2.1.325 の主要アップデート - サンドボックス内 Bash の権限フロー変更と Bash 権限チェックの修正",
-          "link": "https://dev.classmethod.jp/articles/20261114-cc-updates-v2-1-325/",
-          "source": "DevelopersIO",
-          "published": "2026-11-14T10:17:39",
-          "excerpt": "Claude Code v2.1.325 の主要アップデートを解説します。サンドボックス内の Bash が既定で通常の権限フローに従う変更と従来の動作に戻す設定、Bash 権限チェックの修正を紹介。…"
+          "title": "社長の一言は重い。RAGにも忖度させてみた（重み付け検索）",
+          "link": "https://qiita.com/kikuziro/items/43b360420d0cdcbf190c",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-14T15:30:41",
+          "excerpt": "はじめに 皆さんこんな経験ありませんか？新人の頃に正しいことを言っても誰も賛同してくれないのに、同じことを社長が言うと全員が賛同する。理不尽ですよねー人間は「誰が言ったか」で情報に重みを付けています。じゃあRAGはどうか？…"
         },
         {
-          "title": "Claude Enterprise に親組織用の管理画面が追加されたので確認してみた",
-          "link": "https://dev.classmethod.jp/articles/claude-enterprise-team-admin-page/",
+          "title": "Claude Enterprise のコンプライアンス API で添付ファイルが取得できるか試してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-enterprise-compliance-api-get-file/",
           "source": "DevelopersIO",
-          "published": "2026-11-14T08:02:55",
-          "excerpt": "Claude Enterprise の親組織管理機能が新しく追加されました。…"
+          "published": "2026-11-14T13:29:01",
+          "excerpt": "Claude Enterprise の Compliance API を使って、Claude Desktop、Cowork、Claude Code で扱ったファイルが、API でどの形式で取得できるのかを検証してみました。"
+        },
+        {
+          "title": "MCP Appsの進化がすごい！Claude.aiが「app tools」に対応したので試してみた | NCDC テックブログのフィード",
+          "link": "https://zenn.dev/ncdc/articles/8cfbf2d20eec93",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-14T12:23:59",
+          "excerpt": "はじめにClaude.ai（Web版のClaude）が最近対応したMCP Appsの新機能「app tools」を試してみました。MCP AppsはMCPサーバーの拡張で、AIとのチャットの中に独自の画面を出すことができます。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。はじめに 本記事は2026年11月14日時点の情報です。最新の提供条件や料金は、公式ドキュメントを確認してください。2026年11月11日、AWSがローカルで動かせるエミュレーター「AWS Emulator」を発表しました。…",
+      "summary": "クラウドの新着が9件。はじめに AWS上に構築したWordPressで、EC2を停止・起動したところ、トップページ以外にアクセスできなくなる事象が発生しました。今回は、wp-config.php にサイトURLを設定して解決した方法を紹介します。構成 ユ...…",
       "articles": [
+        {
+          "title": "EC2再起動後にWordPressのトップページ以外にアクセスできなくなった場合の対処法",
+          "link": "https://qiita.com/shiragai/items/77a4759f53c4e8024540",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-14T16:03:44",
+          "excerpt": "はじめに AWS上に構築したWordPressで、EC2を停止・起動したところ、トップページ以外にアクセスできなくなる事象が発生しました。今回は、wp-config.php にサイトURLを設定して解決した方法を紹介します。構成 ユ...…"
+        },
+        {
+          "title": "Private subnetのEC2サーバーにDBをインストールしたメモ",
+          "link": "https://qiita.com/shiragai/items/19cc35bafe6819374bb8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-14T14:50:03",
+          "excerpt": "はじめに Private subnetのEC2からインターネットへ接続する場合、一般的にはNATゲートウェイを利用しますが、 今回はNATゲートウェイを使用せず、LinuxコマンドでRPMパッケージを転送してインストールした方法を紹介します…"
+        },
+        {
+          "title": "ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation と CLI で組んでみた",
+          "link": "https://dev.classmethod.jp/articles/ecs-gateway-cloudfront-vpc-origin-cfn/",
+          "source": "DevelopersIO",
+          "published": "2026-11-14T14:44:30",
+          "excerpt": "ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation で組みました。…"
+        },
         {
           "title": "AWS Emulatorが一般提供されたので、ローカルでS3バケットを作成してみた",
           "link": "https://qiita.com/moyomoyomoyo/items/522ba880ff37971aa969",
           "source": "Qiita AWSタグ",
           "published": "2026-11-14T07:41:30",
           "excerpt": "はじめに 本記事は2026年11月14日時点の情報です。最新の提供条件や料金は、公式ドキュメントを確認してください。2026年11月11日、AWSがローカルで動かせるエミュレーター「AWS Emulator」を発表しました。…"
-        },
-        {
-          "title": "Nvidia取締役は、ジェンセン・ファンスキャンダルの数週間前に10億ドル近くの株式を売却した",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-14T02:21:36",
-          "excerpt": "記事の URL: https://finance.yahoo.com/markets/stocks/articles/nvidia-director- sold-nearly-1b-160000846.…"
-        },
-        {
-          "title": "[AWS]AWS Emulatorを使ってみる(VPC作成からEC2作成まで)",
-          "link": "https://zenn.dev/77nnaapp/articles/192f5874ea16d5",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-14T01:18:45",
-          "excerpt": "AWS Emulator が発表された。さっそく使ってみたい。https://aws.amazon.…"
-        },
-        {
-          "title": "AWS Emulator で Terraform の EC2 構築を試したら、まだ最後まで通らなかった",
-          "link": "https://zenn.dev/yamadatt/articles/20261114-aws-emulator-terraform-ec2",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-14T01:10:27",
-          "excerpt": "2026年11月11日に、AWS 公式のローカルエミュレーター「AWS Emulator」が一般提供されました。手元の PC で AWS の API を再現してくれるもので、無料、AWS アカウントも不要です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。Datadog は、攻撃エージェント ARTEX が公開された Cognito ユーザープールに自己サインアップし、ID プールの一時認証情報で AWS を探索した様子を報告しました。…",
+      "summary": "セキュリティの新着が5件。Datadog は、攻撃エージェント ARTEX が公開された Cognito ユーザープールに自己サインアップし、ID プールの一時認証情報で AWS を探索した様子を報告しました。…",
       "articles": [
         {
           "title": "Cognitoの自己サインアップが有効だと、誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点",
@@ -95,24 +95,24 @@
         },
         {
           "title": "AWS Security ハンズオンで学ぶ、フロンティアモデルを活用したコードレビュー",
+          "link": "https://zenn.dev/soulgemanalyst/articles/9f4fc24cb3953a",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-14T05:32:02",
+          "excerpt": "AWS セキュリティハンズオン連続開催のご案内 https://aws.amazon.…"
+        },
+        {
+          "title": "AWS Security ハンズオンで学ぶ、フロンティアモデルを活用したコードレビュー",
           "link": "https://qiita.com/soulgemanalyst/items/20e7c72cc2006a331445",
           "source": "Qiita AWSタグ",
           "published": "2026-11-14T04:54:47",
           "excerpt": "AWS セキュリティハンズオン連続開催のご案内 https://aws.amazon.…"
-        },
-        {
-          "title": "世界中の治安機関が広告ベースの監視システムを使用していることが判明",
-          "link": "https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-14T02:15:41",
-          "excerpt": "記事の URL: https://citizenlab.…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。llama.cppの開発チームは2026年11月13日、初のメジャー版となる1.0.0をリリースした。llama.…",
+      "summary": "データ分析の新着が3件。llama.cppの開発チームは2026年11月13日、初のメジャー版となる1.0.0をリリースした。llama.…",
       "articles": [
         {
           "title": "llama.cpp 1.0.0リリース ——API・ABIの非互換変更をメジャーバージョンの更新で明示へ",
@@ -134,21 +134,21 @@
           "source": "企業テックブログまとめ",
           "published": "2026-11-13T23:45:30",
           "excerpt": "執筆日2026/11/14 はじめにPower BIのセマンティックモデルの中身（テーブル構成やデータ）を、プログラムから取得したいと思ったのがきっかけです。Microsoft Learnを調べると、取得手段はいくつもあります。…"
-        },
-        {
-          "title": "AWS 未経験でも大丈夫:AWS Emulator でアカウントなし・0 円のまま S3 と DynamoDB を動かす",
-          "link": "https://zenn.dev/yythzy/articles/aws-emulator-01",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-13T12:33:12",
-          "excerpt": "はじめに 「AWS を使ってみたいけれど、アカウントを作ってクレジットカードを登録するのが怖い」「何から触ればいいのか分からない」。そんな人にちょうどいい道具が出ました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。はじめに 2026年11月11日に、AWS Emulator が公式にリリースされました。AWS SDK や AWS CLI の呼び出しを、AWS アカウントなしで、ローカルや CI 上のエミュレーターに向けられるツールです。…",
+      "summary": "開発ツールの新着が6件。ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation で組みました。…",
       "articles": [
+        {
+          "title": "ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation と CLI で組んでみた",
+          "link": "https://dev.classmethod.jp/articles/ecs-gateway-cloudfront-vpc-origin-cfn/",
+          "source": "DevelopersIO",
+          "published": "2026-11-14T14:44:30",
+          "excerpt": "ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation で組みました。…"
+        },
         {
           "title": "【AWS】AWS EmulatorでPRごとのCI（結合テスト）を回す【GitHubActions】",
           "link": "https://qiita.com/Nana_777/items/6be40f2779bb25e69484",
@@ -169,45 +169,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-11-14T01:10:27",
           "excerpt": "2026年11月11日に、AWS 公式のローカルエミュレーター「AWS Emulator」が一般提供されました。手元の PC で AWS の API を再現してくれるもので、無料、AWS アカウントも不要です。…"
-        },
-        {
-          "title": "【登壇資料】 Midosuji Tech 〜意思決定モデルやってみた編〜で「LiteLLMのガードレールにJevを入れてみた」というタイトルで登壇しました！ #midosuji_tech",
-          "link": "https://dev.classmethod.jp/articles/midosuji-tech-litellm-jev-guardrail/",
-          "source": "DevelopersIO",
-          "published": "2026-11-14T00:17:02",
-          "excerpt": "Midosuji Tech 〜意思決定モデルやってみた編〜で「LiteLLMのガードレールにJevを入れてみた」というタイトルでLTしました！"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "ジェームズ・ウェッブ望遠鏡、周回する星よりも古い氷を発見",
-      "link": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-11-14T12:15:48",
-      "excerpt": "放射線と衝突は惑星の建築材料を再形成します。"
+      "title": "Got an iPhone Duo? These 9 settings make it easier to use",
+      "link": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-14T18:00:00",
+      "excerpt": "From Touch ID shortcuts to smarter volume buttons and camera tricks, these tweaks make Apple's foldable iPhone easier to…"
     },
     {
-      "title": "ワイン生産者は、自然保護がビジネスに役立つことを学びつつあります",
-      "link": "https://arstechnica.com/science/2026/11/winemakers-are-learning-that-conservation-can-be-good-for-business/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-11-14T12:05:51",
-      "excerpt": "健全な土壌、在来植物、化学薬品の削減がブドウ畑の適応を助けています。"
-    },
-    {
-      "title": "マイクロソフトの学校電子メール請求書はライバルたちに微笑ましいものを与える",
-      "link": "https://www.theregister.com/saas/2026/11/14/microsofts-school-email-bill-gives-rivals-something-to-smile-about/5309296",
-      "source": "The Register（英語）",
-      "published": "2026-11-14T10:27:00",
-      "excerpt": "Collabora と Nextcloud は、教育機関の顧客が無料サービスを失うコストを検討する中、代替案を提案"
-    },
-    {
-      "title": "[新機能] CoCo Desktopで作成したMarkdownファイルとHTMLファイルをアーティファクトに公開してみた",
-      "link": "https://dev.classmethod.jp/articles/publish-markdown-html-files-snowsight-artifact/",
+      "title": "Cloudflare Workflowsのjurisdictionでインスタンスの実行と保存をEU内に限定する",
+      "link": "https://dev.classmethod.jp/articles/cloudflare-workflows-jurisdiction/",
       "source": "DevelopersIO",
-      "published": "2026-11-14T09:42:08",
-      "excerpt": "プレビュー提供で、CoCo Desktopで実施した分析結果をMarkdownおよびHTMLファイルとしてSnowflakeのArtifactsに公開できるようになったため、実際に試してみました。"
+      "published": "2026-11-14T17:54:59",
+      "excerpt": "Cloudflare Workflowsに、インスタンスの実行と保存の場所を限定するjurisdictionが加わりました。…"
+    },
+    {
+      "title": "Azure NSGの許可規則を削除しても、接続中のSSHは切れない？20分つないだまま確かめた",
+      "link": "https://dev.classmethod.jp/articles/azure-nsg-existing-connections/",
+      "source": "DevelopersIO",
+      "published": "2026-11-14T17:47:18",
+      "excerpt": "Azure NSGでSSHの許可規則を削除し、接続中のセッションと新しい接続がどうなるかを実機で確かめました。既存のセッションはループが終わって閉じるまでの約20分間切れず、新しい接続はタイムアウトしました。…"
+    },
+    {
+      "title": "A Family Tree of Software Job Titles",
+      "link": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-14T17:45:19",
+      "excerpt": "Article URL: https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/ Comments URL: https://news.…"
     }
   ]
 }
