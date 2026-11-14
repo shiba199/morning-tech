@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-11-14T05:17:49",
+  "generated_at": "2026-11-14T12:21:49",
   "window_hours": 24,
-  "total": 132,
+  "total": 108,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が25件。はじめに AWSには、機械学習モデルの開発から運用までを支援する「Amazon SageMaker AI」というサービスがあります。…",
+      "summary": "生成AIの新着が20件。Claude Code 2.1.318で、保存したclaude.aiサインインが切れる日時をclaude auth statusとclaude -pの結果で取れるようになりました。…",
       "articles": [
         {
-          "title": "【AWS AIサービス解説②】Amazon SageMaker AIとは？",
-          "link": "https://qiita.com/Aki-Dortu/items/cf0dcc51cacfa50d7137",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-14T05:13:30",
-          "excerpt": "はじめに AWSには、機械学習モデルの開発から運用までを支援する「Amazon SageMaker AI」というサービスがあります。…"
-        },
-        {
-          "title": "Gemini Decision 1 に書類画像を見せて OCR の誤りを探させ、Jev・Decisions API と比べてみた",
-          "link": "https://dev.classmethod.jp/articles/gemini-decision-1-ocr-verification/",
+          "title": "Claude Codeのclaude.aiサインインがいつ切れるかを確かめる：auth statusのloginExpiresAtとclaude -pの期限警告",
+          "link": "https://dev.classmethod.jp/articles/claude-code-sign-in-expiry-check/",
           "source": "DevelopersIO",
-          "published": "2026-11-14T04:32:28",
-          "excerpt": "書類5件の画像と OCR の値を Gemini Decision 1・Jev・Decisions API に渡し、誤りの検出結果を比較しました。Gemini Decision 1 は閾値 0.…"
+          "published": "2026-11-14T11:10:02",
+          "excerpt": "Claude Code 2.1.318で、保存したclaude.aiサインインが切れる日時をclaude auth statusとclaude -pの結果で取れるようになりました。…"
         },
         {
-          "title": "AI エージェントだけで作られた「AWS Emulator」を Mac で動かしてみた",
-          "link": "https://qiita.com/Takuya__/items/945663d9915f4c7acc62",
+          "title": "Amazon BedrockのIAMポリシーでモデル利用を制限してみた【東京リージョン・推論プロファイルの落とし穴】",
+          "link": "https://qiita.com/miyamiya21/items/c4f54636477f0238c1f1",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-14T03:18:08",
-          "excerpt": "2026 年 11 月 11 日、Amazon が AWS Emulator を公開しました。S3 や DynamoDB、SQS、Lambda といった AWS のサービスを、自分のパソコンの中で「それらしく」動かす道具です。…"
+          "published": "2026-11-14T11:06:37",
+          "excerpt": "1.はじめに 生成AIを社内で使わせるとき、「どのモデルを誰に使わせるか」を IAM で制御したくなります。…"
         },
         {
-          "title": "Gemini Decision 1 で書類の値を突合し、Jev・Decisions API と比べてみた",
-          "link": "https://dev.classmethod.jp/articles/gemini-decision-1-cross-match/",
+          "title": "Claude Code v2.1.324〜v2.1.325 の主要アップデート - サンドボックス内 Bash の権限フロー変更と Bash 権限チェックの修正",
+          "link": "https://dev.classmethod.jp/articles/20261114-cc-updates-v2-1-325/",
           "source": "DevelopersIO",
-          "published": "2026-11-14T01:26:19",
-          "excerpt": "decision model の Gemini Decision 1 で書類の値107件を突合し、Jev・Decisions API と正答数や確率の散らばりを比較しました。…"
+          "published": "2026-11-14T10:17:39",
+          "excerpt": "Claude Code v2.1.325 の主要アップデートを解説します。サンドボックス内の Bash が既定で通常の権限フローに従う変更と従来の動作に戻す設定、Bash 権限チェックの修正を紹介。…"
+        },
+        {
+          "title": "Claude Enterprise に親組織用の管理画面が追加されたので確認してみた",
+          "link": "https://dev.classmethod.jp/articles/claude-enterprise-team-admin-page/",
+          "source": "DevelopersIO",
+          "published": "2026-11-14T08:02:55",
+          "excerpt": "Claude Enterprise の親組織管理機能が新しく追加されました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が12件。Article URL: https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.…",
+      "summary": "クラウドの新着が11件。はじめに 本記事は2026年11月14日時点の情報です。最新の提供条件や料金は、公式ドキュメントを確認してください。2026年11月11日、AWSがローカルで動かせるエミュレーター「AWS Emulator」を発表しました。…",
       "articles": [
         {
-          "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+          "title": "AWS Emulatorが一般提供されたので、ローカルでS3バケットを作成してみた",
+          "link": "https://qiita.com/moyomoyomoyo/items/522ba880ff37971aa969",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-14T07:41:30",
+          "excerpt": "はじめに 本記事は2026年11月14日時点の情報です。最新の提供条件や料金は、公式ドキュメントを確認してください。2026年11月11日、AWSがローカルで動かせるエミュレーター「AWS Emulator」を発表しました。…"
+        },
+        {
+          "title": "Nvidia取締役は、ジェンセン・ファンスキャンダルの数週間前に10億ドル近くの株式を売却した",
           "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
           "source": "Hacker News（英語）",
           "published": "2026-11-14T02:21:36",
-          "excerpt": "Article URL: https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.…"
+          "excerpt": "記事の URL: https://finance.yahoo.com/markets/stocks/articles/nvidia-director- sold-nearly-1b-160000846.…"
         },
         {
-          "title": "CloudFront の裏の WebSocket がつながらない: HTTP/2 で Upgrade が落ちていたので、WebSocket だけ ALB 直のドメインに分けた",
-          "link": "https://qiita.com/hasegawa--2025/items/94af4df2f1c0a23d49f8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-13T23:15:56",
-          "excerpt": "業務向けの Web サービスで、共同編集の画面（Hocuspocus / Yjs）に初めのデータが出ず、チャット（Socket.IO）も不安定でした。どちらも WebSocket です。…"
+          "title": "[AWS]AWS Emulatorを使ってみる(VPC作成からEC2作成まで)",
+          "link": "https://zenn.dev/77nnaapp/articles/192f5874ea16d5",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-14T01:18:45",
+          "excerpt": "AWS Emulator が発表された。さっそく使ってみたい。https://aws.amazon.…"
         },
         {
-          "title": "AWSのIPv6-only EC2で動くNext.jsにOpenTelemetryを導入し、翻訳1件を本番で追跡した",
-          "link": "https://qiita.com/1716964609/items/47dc90b1c75f45e1a1c7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-13T20:09:36",
-          "excerpt": "個人開発の用語集付き翻訳アプリ「GMS v5」で、本番の翻訳リクエスト1件をGrafanaで開くと、サーバー側の処理に約6.87秒かかっていました。その中でDeepLの翻訳は約3.22秒、OpenAIの後編集は約3.…"
-        },
-        {
-          "title": "高速構成を備えた Aurora PostgreSQL が CloudFormation でサポートされるようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-13T16:00:00",
-          "excerpt": "Aurora PostgreSQL は、コード デプロイメントとしてのインフラストラクチャの AWS CloudFormation での高速設定をサポートするようになりました。…"
+          "title": "AWS Emulator で Terraform の EC2 構築を試したら、まだ最後まで通らなかった",
+          "link": "https://zenn.dev/yamadatt/articles/20261114-aws-emulator-terraform-ec2",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-14T01:10:27",
+          "excerpt": "2026年11月11日に、AWS 公式のローカルエミュレーター「AWS Emulator」が一般提供されました。手元の PC で AWS の API を再現してくれるもので、無料、AWS アカウントも不要です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が6件。AWS セキュリティハンズオン連続開催のご案内 https://aws.amazon.…",
+      "summary": "セキュリティの新着が6件。Datadog は、攻撃エージェント ARTEX が公開された Cognito ユーザープールに自己サインアップし、ID プールの一時認証情報で AWS を探索した様子を報告しました。…",
       "articles": [
+        {
+          "title": "Cognitoの自己サインアップが有効だと、誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点",
+          "link": "https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack/",
+          "source": "DevelopersIO",
+          "published": "2026-11-14T11:28:11",
+          "excerpt": "Datadog は、攻撃エージェント ARTEX が公開された Cognito ユーザープールに自己サインアップし、ID プールの一時認証情報で AWS を探索した様子を報告しました。…"
+        },
+        {
+          "title": "Amazon BedrockのIAMポリシーでモデル利用を制限してみた【東京リージョン・推論プロファイルの落とし穴】",
+          "link": "https://qiita.com/miyamiya21/items/c4f54636477f0238c1f1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-14T11:06:37",
+          "excerpt": "1.はじめに 生成AIを社内で使わせるとき、「どのモデルを誰に使わせるか」を IAM で制御したくなります。…"
+        },
         {
           "title": "AWS Security ハンズオンで学ぶ、フロンティアモデルを活用したコードレビュー",
           "link": "https://qiita.com/soulgemanalyst/items/20e7c72cc2006a331445",
@@ -87,32 +101,18 @@
           "excerpt": "AWS セキュリティハンズオン連続開催のご案内 https://aws.amazon.…"
         },
         {
-          "title": "Security Agencies Worldwide Found to Use Ad-Based Surveillance System",
+          "title": "世界中の治安機関が広告ベースの監視システムを使用していることが判明",
           "link": "https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/",
           "source": "Hacker News（英語）",
           "published": "2026-11-14T02:15:41",
-          "excerpt": "Article URL: https://citizenlab.…"
-        },
-        {
-          "title": "AWSでゼロトラスト構成を作る手順を5つのパートに分けて整理してみた",
-          "link": "https://qiita.com/yama3133/items/11a360fc97ed3ec09742",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-13T16:43:26",
-          "excerpt": "はじめに ゼロトラストは「社内ネットワークの中にいるから信頼する」という前提を置かず、アクセスのたびに身元と権限を確認する考え方です。この記事では、AWSでどのサービスのどのリソースを作れば形になるのかに絞って整理します。…"
-        },
-        {
-          "title": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
-          "link": "https://k-tai.watch.impress.co.jp/docs/news/2156449.html",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-13T12:34:09",
-          "excerpt": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ"
+          "excerpt": "記事の URL: https://citizenlab.…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。llama.cppの開発チームは2026年11月13日、初のメジャー版となる1.0.0をリリースした。llama.…",
+      "summary": "データ分析の新着が4件。llama.cppの開発チームは2026年11月13日、初のメジャー版となる1.0.0をリリースした。llama.…",
       "articles": [
         {
           "title": "llama.cpp 1.0.0リリース ——API・ABIの非互換変更をメジャーバージョンの更新で明示へ",
@@ -122,11 +122,11 @@
           "excerpt": "llama.cppの開発チームは2026年11月13日、初のメジャー版となる1.0.0をリリースした。llama.…"
         },
         {
-          "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
+          "title": "スターシップ15便が軌道に乗り、土曜日に捕獲の可能性を設定",
           "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
           "source": "Ars Technica（英語）",
           "published": "2026-11-14T00:49:13",
-          "excerpt": "One way or another, the company will get some more data on Saturday."
+          "excerpt": "いずれにせよ、同社は土曜日にさらにデータを入手することになるだろう。"
         },
         {
           "title": "Power BI Consumption MCPでスキーマ取得とDAX実行を試す | ヘッドウォータースのフィード",
@@ -147,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。Midosuji Tech 〜意思決定モデルやってみた編〜で「LiteLLMのガードレールにJevを入れてみた」というタイトルでLTしました！",
+      "summary": "開発ツールの新着が6件。はじめに 2026年11月11日に、AWS Emulator が公式にリリースされました。AWS SDK や AWS CLI の呼び出しを、AWS アカウントなしで、ローカルや CI 上のエミュレーターに向けられるツールです。…",
       "articles": [
+        {
+          "title": "【AWS】AWS EmulatorでPRごとのCI（結合テスト）を回す【GitHubActions】",
+          "link": "https://qiita.com/Nana_777/items/6be40f2779bb25e69484",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-14T07:28:23",
+          "excerpt": "はじめに 2026年11月11日に、AWS Emulator が公式にリリースされました。AWS SDK や AWS CLI の呼び出しを、AWS アカウントなしで、ローカルや CI 上のエミュレーターに向けられるツールです。…"
+        },
+        {
+          "title": "AWS公式ローカルエミュレータ「AWS Emulator」× TerraformをCIで実行してみた",
+          "link": "https://zenn.dev/pensol/articles/c68125465ee889",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-14T01:32:05",
+          "excerpt": "1.…"
+        },
+        {
+          "title": "AWS Emulator で Terraform の EC2 構築を試したら、まだ最後まで通らなかった",
+          "link": "https://zenn.dev/yamadatt/articles/20261114-aws-emulator-terraform-ec2",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-14T01:10:27",
+          "excerpt": "2026年11月11日に、AWS 公式のローカルエミュレーター「AWS Emulator」が一般提供されました。手元の PC で AWS の API を再現してくれるもので、無料、AWS アカウントも不要です。…"
+        },
         {
           "title": "【登壇資料】 Midosuji Tech 〜意思決定モデルやってみた編〜で「LiteLLMのガードレールにJevを入れてみた」というタイトルで登壇しました！ #midosuji_tech",
           "link": "https://dev.classmethod.jp/articles/midosuji-tech-litellm-jev-guardrail/",
           "source": "DevelopersIO",
           "published": "2026-11-14T00:17:02",
           "excerpt": "Midosuji Tech 〜意思決定モデルやってみた編〜で「LiteLLMのガードレールにJevを入れてみた」というタイトルでLTしました！"
-        },
-        {
-          "title": "高速構成を備えた Aurora PostgreSQL が CloudFormation でサポートされるようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-13T16:00:00",
-          "excerpt": "Aurora PostgreSQL は、コード デプロイメントとしてのインフラストラクチャの AWS CloudFormation での高速設定をサポートするようになりました。…"
-        },
-        {
-          "title": "AWS Emulator × cdkd で実現する効率的な CDK 開発",
-          "link": "https://zenn.dev/go_to_k/articles/cdkd-local-aws-emulator",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-13T11:44:17",
-          "excerpt": "TL;DR AWS CDK を用いた開発で AWS Emulator を使う場合、cdkd と組み合わせることで以下のメリットがあります。…"
-        },
-        {
-          "title": "DOP ①SDLC自動化区 ― CodePipeline／CodeDeployの切り分けと、無言で死ぬデプロイの見抜き方",
-          "link": "https://zenn.dev/kokosu/articles/dop-sdlc-region",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-13T11:00:27",
-          "excerpt": "はじめに：いちばん大きい地方から攻略する 連載の本編、最初に深掘りするのは①SDLC自動化区です。出題比率は22％で、6つの地方の中で最大。ここを取り切れるかで、全体の行方が決まります。前回の記事で固めた3スロット法を使います。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "本業のあとの月 40〜60 時間で、Web サービスの開発を 1 人で丸ごと受け持つためにやっていること",
-      "link": "https://qiita.com/hasegawa--2025/items/822cd0c2989c9eee878b",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-14T04:48:38",
-      "excerpt": "2024 年から、本業（メーカーの社内 IT）とは別に、個人事業主として業務向けの Web サービスのリードエンジニアをしています。使う時間は月に 40〜60 時間です。…"
+      "title": "ジェームズ・ウェッブ望遠鏡、周回する星よりも古い氷を発見",
+      "link": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-11-14T12:15:48",
+      "excerpt": "放射線と衝突は惑星の建築材料を再形成します。"
     },
     {
-      "title": "CocoaPods、12月2日に新規podの受け付けを停止",
-      "link": "https://codezine.jp/article/detail/30358",
-      "source": "CodeZine",
-      "published": "2026-11-14T04:00:00",
-      "excerpt": "CocoaPods、12月2日に新規podの受け付けを停止"
+      "title": "ワイン生産者は、自然保護がビジネスに役立つことを学びつつあります",
+      "link": "https://arstechnica.com/science/2026/11/winemakers-are-learning-that-conservation-can-be-good-for-business/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-11-14T12:05:51",
+      "excerpt": "健全な土壌、在来植物、化学薬品の削減がブドウ畑の適応を助けています。"
     },
     {
-      "title": "Run Cloudflare Workers Anywhere",
-      "link": "https://openorange.dev/",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-14T03:58:32",
-      "excerpt": "Article URL: https://openorange.dev/ Comments URL: https://news.ycombinator.com/item?id=50493731 Points: 4 # Comments: 0"
+      "title": "マイクロソフトの学校電子メール請求書はライバルたちに微笑ましいものを与える",
+      "link": "https://www.theregister.com/saas/2026/11/14/microsofts-school-email-bill-gives-rivals-something-to-smile-about/5309296",
+      "source": "The Register（英語）",
+      "published": "2026-11-14T10:27:00",
+      "excerpt": "Collabora と Nextcloud は、教育機関の顧客が無料サービスを失うコストを検討する中、代替案を提案"
     },
     {
-      "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
-      "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-14T02:52:59",
-      "excerpt": "Article URL: https://www.techpowerup.…"
+      "title": "[新機能] CoCo Desktopで作成したMarkdownファイルとHTMLファイルをアーティファクトに公開してみた",
+      "link": "https://dev.classmethod.jp/articles/publish-markdown-html-files-snowsight-artifact/",
+      "source": "DevelopersIO",
+      "published": "2026-11-14T09:42:08",
+      "excerpt": "プレビュー提供で、CoCo Desktopで実施した分析結果をMarkdownおよびHTMLファイルとしてSnowflakeのArtifactsに公開できるようになったため、実際に試してみました。"
     }
   ]
 }
