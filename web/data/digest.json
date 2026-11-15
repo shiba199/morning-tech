@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-15T09:39:26",
+  "generated_at": "2026-11-15T16:41:36",
   "window_hours": 24,
-  "total": 82,
+  "total": 77,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が13件。GitHub Copilotで利用できるAIモデルは、GitHubが提供するモデルだけではありません。…",
+      "summary": "生成AIの新着が5件。GitHub Copilotで利用できるAIモデルは、GitHubが提供するモデルだけではありません。…",
       "articles": [
         {
           "title": "GitHub CopilotのBYOKでローカルLLMを使う ～Foundry Localで実機検証～ | Alternative Architecture DOJO",
@@ -42,43 +42,50 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が13件。はじめに 2026年11月、AWS公式のローカルエミュレーター「AWS Emulator」が公開されました。…",
+      "summary": "クラウドの新着が14件。Amazon EC2 と Amazon VPC のコンソールで、関連リソースを表示できるリソースタイプが広がりました。…",
       "articles": [
         {
-          "title": "AWS EmulatorでCloudFormationを試す：S3バケットの作成・更新・削除をローカル検証",
-          "link": "https://qiita.com/mmtakumma/items/4c87d6844e9226a5ceb3",
+          "title": "VPC や EC2 の関連リソース表示がアップデートされたので確かめてみた",
+          "link": "https://dev.classmethod.jp/articles/ec2-vpc-related-resources-all-types/",
+          "source": "DevelopersIO",
+          "published": "2026-11-15T15:31:45",
+          "excerpt": "Amazon EC2 と Amazon VPC のコンソールで、関連リソースを表示できるリソースタイプが広がりました。…"
+        },
+        {
+          "title": "EC2 の ImdsV1Enabled メトリクスで IMDSv2 を必須にしていないインスタンスを特定してみた",
+          "link": "https://dev.classmethod.jp/articles/ec2-imdsv1enabled-metric/",
+          "source": "DevelopersIO",
+          "published": "2026-11-15T15:12:18",
+          "excerpt": "Amazon EC2 の CloudWatch メトリクス ImdsV1Enabled で、IMDSv2 を必須にしていないインスタンスを特定できるか試しました。…"
+        },
+        {
+          "title": "AWS CloudShell だけでユーザーデータ付き EC2 を起動し、Session Manager と cloud-init で完了を確認する",
+          "link": "https://qiita.com/torifukukaiou/items/fd4c91694d07510c4cc7",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-15T08:02:22",
-          "excerpt": "はじめに 2026年11月、AWS公式のローカルエミュレーター「AWS Emulator」が公開されました。…"
+          "published": "2026-11-15T14:46:39",
+          "excerpt": "はじめに おはヨーグルト。こんにちは。こんばんは。名乗るほどの者ではございませんが、闘魂家のAwesome YAMAUCHI、略してAIです。今日の Tips EC2 の作業は、ブラウザの CloudShell だけで済みます。…"
         },
         {
-          "title": "AWS Lambda のローカル開発",
-          "link": "https://qiita.com/noooooorick/items/f5efcc94ab4122bef5e7",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-15T07:54:23",
-          "excerpt": "Dockerコンテナに構築したLambdaをローカルから叩いて実験する。言語はPython3.15 呼び出し方法としてはcurlコマンド、Pythonスクリプトを用いた方法で関数を呼び出す。…"
-        },
-        {
-          "title": "Kiri – The Modern Container Runtime",
-          "link": "https://runkiri.com/",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-15T04:40:41",
-          "excerpt": "Article URL: https://runkiri.com/ Comments URL: https://news.ycombinator.com/item?id=50504077 Points: 41 # Comments: 20"
-        },
-        {
-          "title": "LambdaのNode.jsランタイムバージョンの確認と更新についてクセがあったお話",
-          "link": "https://zenn.dev/tequila725/articles/lambda-nodejs-runtime-inventory",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-15T04:24:15",
-          "excerpt": "どういう問題が発生していたか Node.jsの脆弱性が指摘され、修正を含むバージョンアップがリリースされました。そのため、業務で管理しているLambda関数（ランタイムはNode.…"
+          "title": "Amazon DynamoDB の bulk put items で S3 のデータを既存テーブルへ登録してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-dynamodb-bulk-put-items/",
+          "source": "DevelopersIO",
+          "published": "2026-11-15T14:44:45",
+          "excerpt": "Amazon DynamoDB の bulk put items で、S3 の 10 KB のアイテムを100件から10万件まで東京リージョンの既存テーブルへ登録しました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。AWS WAF のルールを「攻撃から逆算」ではなく「守っているもの」から選ぶ仕組みを作りました。…",
+      "summary": "セキュリティの新着が6件。はじめに RDSやAuroraではストレージ暗号化を利用できますが、 DBへのアクセス権限を奪われた場合、データを平文で参照される可能性があります。…",
       "articles": [
+        {
+          "title": "DBが侵害されても機密情報を守れるか？AWS KMSによるカラム暗号化",
+          "link": "https://qiita.com/kawasaki031677/items/a13b20d7890db0d1f23b",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-15T15:01:56",
+          "excerpt": "はじめに RDSやAuroraではストレージ暗号化を利用できますが、 DBへのアクセス権限を奪われた場合、データを平文で参照される可能性があります。…"
+        },
         {
           "title": "WAFルールを「守る対象」から決める ― 保護プロファイルの設計と実装",
           "link": "https://dev.classmethod.jp/articles/waf-protection-profile-amazon-inspector/",
@@ -87,11 +94,11 @@
           "excerpt": "AWS WAF のルールを「攻撃から逆算」ではなく「守っているもの」から選ぶ仕組みを作りました。…"
         },
         {
-          "title": "Disk encryption on NetBSD – achieving secrecy",
+          "title": "NetBSD でのディスク暗号化 – 機密性の確保",
           "link": "https://netbsd.org/~nia/disk-encrypt/",
           "source": "Hacker News（英語）",
           "published": "2026-11-15T05:29:54",
-          "excerpt": "Article URL: https://netbsd.org/~nia/disk-encrypt/ Comments URL: https://news.ycombinator.com/item?…"
+          "excerpt": "記事の URL: https://netbsd.org/~nia/disk-encrypt/ コメント URL: https://news.ycombinator.com/item?id=50504277 ポイント: 23 コメント数: 0"
         },
         {
           "title": "DatadogのAPIキーをAWS Secrets Managerで自動ローテーションしてみた（自作Lambda／マネージドの2方式）",
@@ -99,27 +106,34 @@
           "source": "Zenn AWSトピック",
           "published": "2026-11-15T01:49:55",
           "excerpt": "Datadog の API キーは、発行したまま放置しがちです。このキーには有効期限がなく、公式ドキュメントでもシークレットマネージャーでの保管が勧められています。…"
-        },
-        {
-          "title": "Where was Nvidia’s security team?",
-          "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-15T00:08:07",
-          "excerpt": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, i…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。Cambridge museum celebrates the world's first business computer with films, family activities, and a little Python",
+      "summary": "データ分析の新着が5件。前回のつづき AWSを利用したETL処理から、Athenaによるデータ分析までの手順をまとめた備忘録の続編です。前回は、Glueで変換したデータをS3へ保存したので、S3のデータをカタログ化するところから始めます。4.…",
       "articles": [
         {
-          "title": "LEO gets a birthday bash, 75 years after clocking in",
+          "title": "AWS素人がGlue×Athenaで気象データ分析基盤を作ってみた(後編)",
+          "link": "https://qiita.com/apteryx-nz/items/363632fc119ad9b844a6",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-15T14:58:59",
+          "excerpt": "前回のつづき AWSを利用したETL処理から、Athenaによるデータ分析までの手順をまとめた備忘録の続編です。前回は、Glueで変換したデータをS3へ保存したので、S3のデータをカタログ化するところから始めます。4.…"
+        },
+        {
+          "title": "Amazon DynamoDB の bulk put items で S3 のデータを既存テーブルへ登録してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-dynamodb-bulk-put-items/",
+          "source": "DevelopersIO",
+          "published": "2026-11-15T14:44:45",
+          "excerpt": "Amazon DynamoDB の bulk put items で、S3 の 10 KB のアイテムを100件から10万件まで東京リージョンの既存テーブルへ登録しました。…"
+        },
+        {
+          "title": "LEO、入社75年目に誕生日パーティーを開催",
           "link": "https://www.theregister.com/offbeat/2026/11/15/leo-gets-a-birthday-bash-75-years-after-clocking-in/5308806",
           "source": "The Register（英語）",
           "published": "2026-11-15T09:03:00",
-          "excerpt": "Cambridge museum celebrates the world's first business computer with films, family activities, and a little Python"
+          "excerpt": "ケンブリッジ博物館が世界初のビジネス コンピューターを映画、家族向けアクティビティ、そしてちょっとした Python で祝う"
         },
         {
           "title": "Microsoft Fabric Roadshow Tokyo #2 参加レポート：データ基盤の先を見据えた Microsoft Fabric の展望 | Alternative Architecture DOJO",
@@ -127,20 +141,13 @@
           "source": "企業テックブログまとめ",
           "published": "2026-11-15T00:56:16",
           "excerpt": "クラウドソリューション部の清島です。2026年11月12日(木)に開催された Microsoft Fabric Roadshow Tokyo #2 に参加してきました。https://msevents.microsoft.…"
-        },
-        {
-          "title": "[Grafana] DynamoDB の時系列データを見るための API を、設定ファイル 1 つで CDK デプロイできるようにしてみました",
-          "link": "https://dev.classmethod.jp/articles/dynamodb-grafana-infinity-api-cdk/",
-          "source": "DevelopersIO",
-          "published": "2026-11-15T00:56:05",
-          "excerpt": "DynamoDB に溜めたセンサーデータを、どのGrafana環境でも使える汎用的なAPIを通じてダッシュボードで可視化する方法を紹介します。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が9件。GitHub Copilotで利用できるAIモデルは、GitHubが提供するモデルだけではありません。…",
+      "summary": "開発ツールの新着が8件。GitHub Copilotで利用できるAIモデルは、GitHubが提供するモデルだけではありません。…",
       "articles": [
         {
           "title": "GitHub CopilotのBYOKでローカルLLMを使う ～Foundry Localで実機検証～ | Alternative Architecture DOJO",
@@ -175,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "CognitoのOAuth 2.0トークン交換でMCP向けにスコープを絞る利用を試してみた",
-      "link": "https://dev.classmethod.jp/articles/cognito-oauth2-token-exchange-scoped-token/",
+      "title": "AWS Backup の LAG vault で EBS Snapshots Archive を有効にしたバックアッププランを作ってみた",
+      "link": "https://dev.classmethod.jp/articles/aws-backup-lag-vault-ebs-archive/",
       "source": "DevelopersIO",
-      "published": "2026-11-15T09:15:05",
-      "excerpt": "Amazon Cognito の OAuth 2.0 トークン交換（GetDerivedToken）で、MCP サーバー向けにスコープを絞ったトークンを発行しました。…"
+      "published": "2026-11-15T16:06:40",
+      "excerpt": "LAG vault 内の EBS バックアップをアーカイブへ移すためのプラン作成を試しました。プランの条件は、頻度が月に 1 回以下で、総保持期間が warm の期間より 90 日以上長いことでした。"
     },
     {
-      "title": "Systems Manager Cloud Connector で Google Cloud の VM を管理対象ノードに登録して Run Command を実行してみた",
-      "link": "https://dev.classmethod.jp/articles/ssm-cloud-connector-google-cloud-vm/",
-      "source": "DevelopersIO",
-      "published": "2026-11-15T08:39:13",
-      "excerpt": "AWS Systems Manager の Cloud Connector が Google Cloud に対応したので、Compute Engine の VM を 1台登録しました。…"
+      "title": "このホリデーシーズンに私たちが熱心にお勧めするテクノロジー製品",
+      "link": "https://techcrunch.com/2026/11/15/the-tech-products-we-enthusiastically-recommend-this-holiday-season/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-15T16:00:00",
+      "excerpt": "私たちは今年、TechCrunch で多数の新しいガジェットをレビューしてきましたが、ブラック フライデーやその後のショッピングに共有できる明確なお気に入りがいくつかあります。"
     },
     {
-      "title": "「OpenTelemetryで変わった新時代のCloudWatchメトリクス監視」というタイトルでLT登壇しました #jawsugchiba #jawsug #toukatsu_dev",
-      "link": "https://dev.classmethod.jp/articles/lt-jawsug-chiba-toukatsu-dev-otel-cloudwatch-metrics/",
-      "source": "DevelopersIO",
-      "published": "2026-11-15T07:53:53",
-      "excerpt": "OpenTelemetryがCloudWatchメトリクス監視をどう変えるのか、JAWS-UG千葉支部でのLT登壇内容を紹介します。Classic metricsとOTel metricsの違い、最適な送信方法の選び方をまとめました。"
+      "title": "Show HN: MacBook のディスプレイをオフにする小さな macOS アプリ [無料ライセンス]",
+      "link": "https://blackoutapp.io/",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-15T15:37:52",
+      "excerpt": "こんにちは。外部モニターで作業するときに MacBook の画面をオフにできる小さなアプリを作成しました。…"
     },
     {
-      "title": "PowerShell 7.7がリリースされました",
-      "link": "https://dev.classmethod.jp/articles/powershell-7-7-generally-available/",
-      "source": "DevelopersIO",
-      "published": "2026-11-15T07:37:30",
-      "excerpt": ".NET 11のリリースに合わせてPowerShell 7.7がリリースされました。本記事では、MSIインストーラー廃止という大きな変更から新機能、セキュリティ強化、破壊的変更まで公開情報をもとにお伝えします。"
+      "title": "PostgreSQL 19リリース延期の背景。β4で多くの新機能取り下げが発生、原因はAIによるコードレビューか",
+      "link": "https://www.publickey1.jp/blog/26/postgresql_194ai.html",
+      "source": "Publickey",
+      "published": "2026-11-15T15:31:49",
+      "excerpt": "オープンソースのリレーショナルデータベース「PostgreSQL」は、先週木曜日（2026年11月12日）に最終リリース候補版となるPostgreSQL 19 RC2が公開され、予定では今週の11月19日に正式リリースとなる見通しです。そ.…"
     }
   ]
 }
