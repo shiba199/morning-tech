@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-14T22:37:46",
+  "generated_at": "2026-11-15T02:14:24",
   "window_hours": 24,
-  "total": 93,
+  "total": 82,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が21件。変更履歴 2026-11-15：公開 初めに AWS Certified Generative AI Developer – Professional（AIP-C01）の資格勉強のために、出題範囲のサービスを実際に動かす「AIP 基礎編」を…",
+      "summary": "生成AIの新着が14件。変更履歴 2026-11-15：公開 初めに AWS Certified Generative AI Developer – Professional（AIP-C01）の資格勉強のために、出題範囲のサービスを実際に動かす「AIP 基礎編」を…",
       "articles": [
         {
           "title": "【AWS】【Bedrock】Guardrails は日本語で何を防げて、何を防げないか（AIP 基礎編）",
@@ -42,8 +42,15 @@
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "summary": "クラウドの新着が8件。Aurora のリーダーで AuroraReplicaLag のアラートが鳴り、グラフを開いたものの次の操作が決まらない。何ミリ秒を閾値にすべきか根拠がなく、とりあえず設定した値をそのまま使い続けている。…",
       "articles": [
+        {
+          "title": "AuroraReplicaLagの閾値を何msにするか決める順番",
+          "link": "https://qiita.com/techdbblog/items/8d667ad6642128239cad",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-15T02:03:03",
+          "excerpt": "Aurora のリーダーで AuroraReplicaLag のアラートが鳴り、グラフを開いたものの次の操作が決まらない。何ミリ秒を閾値にすべきか根拠がなく、とりあえず設定した値をそのまま使い続けている。…"
+        },
         {
           "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
           "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
@@ -64,21 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-14T14:50:03",
           "excerpt": "はじめに Private subnetのEC2からインターネットへ接続する場合、一般的にはNATゲートウェイを利用しますが、 今回はNATゲートウェイを使用せず、LinuxコマンドでRPMパッケージを転送してインストールした方法を紹介します…"
-        },
-        {
-          "title": "ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation と CLI で組んでみた",
-          "link": "https://dev.classmethod.jp/articles/ecs-gateway-cloudfront-vpc-origin-cfn/",
-          "source": "DevelopersIO",
-          "published": "2026-11-14T14:44:30",
-          "excerpt": "ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation で組みました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。Datadog は、攻撃エージェント ARTEX が公開された Cognito ユーザープールに自己サインアップし、ID プールの一時認証情報で AWS を探索した様子を報告しました。…",
+      "summary": "セキュリティの新着が7件。Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, i…",
       "articles": [
+        {
+          "title": "Where was Nvidia’s security team?",
+          "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-15T00:08:07",
+          "excerpt": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, i…"
+        },
+        {
+          "title": "PHP重大脆弱性は「始まり」に過ぎない？　2年前の兆候が示す“次の危機”",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/15/news001.html",
+          "source": "@IT",
+          "published": "2026-11-14T23:00:00",
+          "excerpt": "PHPの重大な脆弱性「php2shell」は、実は2024年の段階で問題の兆候が見つかっていました。それでも修正は進まず、約2年後に重大な脅威として表面化しました。その背景にあったのは何でしょうか。…"
+        },
         {
           "title": "Cognitoの自己サインアップが有効だと、誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点",
           "link": "https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack/",
@@ -92,115 +106,101 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-14T11:06:37",
           "excerpt": "1.はじめに 生成AIを社内で使わせるとき、「どのモデルを誰に使わせるか」を IAM で制御したくなります。…"
-        },
-        {
-          "title": "AWS Security ハンズオンで学ぶ、フロンティアモデルを活用したコードレビュー",
-          "link": "https://zenn.dev/soulgemanalyst/articles/9f4fc24cb3953a",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-14T05:32:02",
-          "excerpt": "AWS セキュリティハンズオン連続開催のご案内 https://aws.amazon.…"
-        },
-        {
-          "title": "AWS Security ハンズオンで学ぶ、フロンティアモデルを活用したコードレビュー",
-          "link": "https://qiita.com/soulgemanalyst/items/20e7c72cc2006a331445",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-14T04:54:47",
-          "excerpt": "AWS セキュリティハンズオン連続開催のご案内 https://aws.amazon.…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。llama.cppの開発チームは2026年11月13日、初のメジャー版となる1.0.0をリリースした。llama.…",
+      "summary": "データ分析の新着が3件。クラウドソリューション部の清島です。2026年11月12日(木)に開催された Microsoft Fabric Roadshow Tokyo #2 に参加してきました。https://msevents.microsoft.…",
       "articles": [
+        {
+          "title": "Microsoft Fabric Roadshow Tokyo #2 参加レポート：データ基盤の先を見据えた Microsoft Fabric の展望 | Alternative Architecture DOJO",
+          "link": "https://aadojo.alterbooth.com/entry/2026/11/15/095616",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-15T00:56:16",
+          "excerpt": "クラウドソリューション部の清島です。2026年11月12日(木)に開催された Microsoft Fabric Roadshow Tokyo #2 に参加してきました。https://msevents.microsoft.…"
+        },
+        {
+          "title": "[Grafana] DynamoDB の時系列データを見るための API を、設定ファイル 1 つで CDK デプロイできるようにしてみました",
+          "link": "https://dev.classmethod.jp/articles/dynamodb-grafana-infinity-api-cdk/",
+          "source": "DevelopersIO",
+          "published": "2026-11-15T00:56:05",
+          "excerpt": "DynamoDB に溜めたセンサーデータを、どのGrafana環境でも使える汎用的なAPIを通じてダッシュボードで可視化する方法を紹介します。…"
+        },
         {
           "title": "llama.cpp 1.0.0リリース ——API・ABIの非互換変更をメジャーバージョンの更新で明示へ",
           "link": "https://gihyo.jp/article/2026/11/llama.cpp-v1.0.0?utm_source=feed",
           "source": "gihyo.jp 開発",
           "published": "2026-11-14T03:09:14",
           "excerpt": "llama.cppの開発チームは2026年11月13日、初のメジャー版となる1.0.0をリリースした。llama.…"
-        },
-        {
-          "title": "スターシップ15便が軌道に乗り、土曜日に捕獲の可能性を設定",
-          "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-11-14T00:49:13",
-          "excerpt": "いずれにせよ、同社は土曜日にさらにデータを入手することになるだろう。"
-        },
-        {
-          "title": "Power BI Consumption MCPでスキーマ取得とDAX実行を試す | ヘッドウォータースのフィード",
-          "link": "https://zenn.dev/headwaters/articles/d65c49b2f1e2ad",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-13T23:45:30",
-          "excerpt": "執筆日2026/11/14 はじめにPower BIのセマンティックモデルの中身（テーブル構成やデータ）を、プログラムから取得したいと思ったのがきっかけです。Microsoft Learnを調べると、取得手段はいくつもあります。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation で組みました。…",
+      "summary": "開発ツールの新着が6件。はじめに 自宅のPC（Ubuntu 24.04）とOSSのプロキシ「Squid」をインストールしたAmazon EC2（以下、EC2表記）をAWS Client VPNで接続しようとして、接続できずハマりました。…",
       "articles": [
+        {
+          "title": "AWS Client VPNの設定でハマったポイントとその過程で得た気づき",
+          "link": "https://qiita.com/amarelo_n24/items/f9b563de2eeeb8d3f8cd",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-15T02:09:26",
+          "excerpt": "はじめに 自宅のPC（Ubuntu 24.04）とOSSのプロキシ「Squid」をインストールしたAmazon EC2（以下、EC2表記）をAWS Client VPNで接続しようとして、接続できずハマりました。…"
+        },
+        {
+          "title": "[Grafana] DynamoDB の時系列データを見るための API を、設定ファイル 1 つで CDK デプロイできるようにしてみました",
+          "link": "https://dev.classmethod.jp/articles/dynamodb-grafana-infinity-api-cdk/",
+          "source": "DevelopersIO",
+          "published": "2026-11-15T00:56:05",
+          "excerpt": "DynamoDB に溜めたセンサーデータを、どのGrafana環境でも使える汎用的なAPIを通じてダッシュボードで可視化する方法を紹介します。…"
+        },
+        {
+          "title": "Microsoft、「.NET 11」をリリース　C# 15のユニオン型やSDKの高速化など",
+          "link": "https://codezine.jp/article/detail/30360",
+          "source": "CodeZine",
+          "published": "2026-11-15T00:00:00",
+          "excerpt": "Microsoft、「.NET 11」をリリース　C# 15のユニオン型やSDKの高速化など"
+        },
         {
           "title": "ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation と CLI で組んでみた",
           "link": "https://dev.classmethod.jp/articles/ecs-gateway-cloudfront-vpc-origin-cfn/",
           "source": "DevelopersIO",
           "published": "2026-11-14T14:44:30",
           "excerpt": "ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation で組みました。…"
-        },
-        {
-          "title": "【ハンズオン：#10】AWSを実際に操作してみた(CLI、SDK)",
-          "link": "https://zenn.dev/hitakaha/articles/28b84ad689e35b",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-14T09:31:17",
-          "excerpt": "はじめに こんにちは、hitakahaです。DVAの受験日が近づくにつれて、ついついアウトプットの更新が鈍化してしまいました。引き続きハンズオンに取り組んでいるので、作業の振り返りを兼ねて、今回学んだ内容をアウトプットしてみます。…"
-        },
-        {
-          "title": "【AWS】AWS EmulatorでPRごとのCI（結合テスト）を回す【GitHubActions】",
-          "link": "https://qiita.com/Nana_777/items/6be40f2779bb25e69484",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-14T07:28:23",
-          "excerpt": "はじめに 2026年11月11日に、AWS Emulator が公式にリリースされました。AWS SDK や AWS CLI の呼び出しを、AWS アカウントなしで、ローカルや CI 上のエミュレーターに向けられるツールです。…"
-        },
-        {
-          "title": "AWS公式ローカルエミュレータ「AWS Emulator」× TerraformをCIで実行してみた",
-          "link": "https://zenn.dev/pensol/articles/c68125465ee889",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-14T01:32:05",
-          "excerpt": "1.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "NVIDIAフアン前CEOの復帰求める署名が11万人超　マスク氏らも賛同、米議会は追及継続",
-      "link": "https://www.itmedia.co.jp/news/article/2611/15/2000003207/",
-      "source": "ITmedia NEWS",
-      "published": "2026-11-14T22:15:24",
-      "excerpt": "NVIDIAのジェンスン・フアン前CEOの復帰を求める署名運動が拡大しており、署名サイト「Stand with Jensen」には11万人超が賛同している。…"
+      "title": "AWS 東京 / 大阪リージョン 利用可能サービス一覧",
+      "link": "https://qiita.com/Feyet-cl/items/527d9788b17438230e4e",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-15T02:01:47",
+      "excerpt": "最近、災害復旧（DR：Disaster Recovery）について考える機会が増えています。…"
     },
     {
-      "title": "“初めてのインシデント調査”に備えられる　JPCERT/CCがチェックリストを無償公開",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2611/15/news003.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-11-14T22:00:00",
-      "excerpt": "ランサムウェア攻撃や情報漏えいの増加で、インシデント調査を外部に委託する企業が増えている。だが初めて被害に遭った組織は、調査の妥当性や収束の判断に迷いやすい。JPCERT/CCが公開したチェックリストでは何を確認するのか。"
+      "title": "AIF-C01の勉強結果をまとめてみた",
+      "link": "https://qiita.com/siam__/items/efe4771ac114b6f6166c",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-15T01:59:44",
+      "excerpt": "AWS Certified AI Practitioner（AIF-C01）の勉強結果をまとめてみました。1.Amazon Bedrock・モデルカスタマイズ・RAG・Guardrails 1-1.…"
     },
     {
-      "title": "SpaceX Catches the Starship to end Flight 15",
-      "link": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+      "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
+      "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-11-15T00:40:59",
+      "excerpt": "It felt like stepping into the future."
+    },
+    {
+      "title": "L3Harris statement on the Nov. 13 ground stop",
+      "link": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
       "source": "Hacker News（英語）",
-      "published": "2026-11-14T21:22:24",
-      "excerpt": "Article URL: https://x.com/i/broadcasts/2brajgZlOKRMka Comments URL: https://news.ycombinator.com/item?…"
-    },
-    {
-      "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
-      "link": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
-      "source": "TechCrunch（英語）",
-      "published": "2026-11-14T20:04:44",
-      "excerpt": "Even Elon Musk said the monthly fee is \"too high.\""
+      "published": "2026-11-14T22:51:44",
+      "excerpt": "Article URL: https://www.l3harris.…"
     }
   ]
 }
