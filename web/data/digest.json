@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T02:14:24",
+  "generated_at": "2026-11-15T09:39:26",
   "window_hours": 24,
   "total": 82,
   "topic_count": 5,
@@ -7,113 +7,120 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が14件。変更履歴 2026-11-15：公開 初めに AWS Certified Generative AI Developer – Professional（AIP-C01）の資格勉強のために、出題範囲のサービスを実際に動かす「AIP 基礎編」を…",
+      "summary": "生成AIの新着が13件。GitHub Copilotで利用できるAIモデルは、GitHubが提供するモデルだけではありません。…",
       "articles": [
         {
-          "title": "【AWS】【Bedrock】Guardrails は日本語で何を防げて、何を防げないか（AIP 基礎編）",
-          "link": "https://qiita.com/yuki_1012_1101/items/4cdd356f2cab92e7dae4",
+          "title": "GitHub CopilotのBYOKでローカルLLMを使う ～Foundry Localで実機検証～ | Alternative Architecture DOJO",
+          "link": "https://aadojo.alterbooth.com/entry/2026/11/15/175527",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-15T08:55:27",
+          "excerpt": "GitHub Copilotで利用できるAIモデルは、GitHubが提供するモデルだけではありません。…"
+        },
+        {
+          "title": "[Dynatrace] AWSのWindowsインスタンスにOneAgentを導入し、ログのアクセス制御を試してみた",
+          "link": "https://qiita.com/ttakumi0027-beep/items/ccb45e2d8651919a8bda",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-14T17:45:55",
-          "excerpt": "変更履歴 2026-11-15：公開 初めに AWS Certified Generative AI Developer – Professional（AIP-C01）の資格勉強のために、出題範囲のサービスを実際に動かす「AIP 基礎編」を…"
+          "published": "2026-11-15T07:57:04",
+          "excerpt": "はじめに 実務でAWS環境のWindowsインスタンスをDynatraceで監視する機会があったため、検証と学習を兼ねて手順をまとめました。…"
         },
         {
-          "title": "常時稼働エージェントの作り方（Claude公式ブログを資料化）",
-          "link": "https://speakerdeck.com/minorun365/jouji-kadou-ejento-no-tsukurikata",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-14T16:06:17",
-          "excerpt": "以下のURLを私のClaude Codeに渡して、スライドをポン出しする実験です。https://claude.com/ja/resources/articles/building-always-on-agents…"
+          "title": "LambdaからBedrockを呼ぶとき、SigV4は何を確認しているのか",
+          "link": "https://zenn.dev/hknote/articles/bedrock-lambda-sigv4",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-15T04:00:05",
+          "excerpt": "LambdaからBedrockを呼ぶとき、AWSはどうやって呼び出し元を確認しているのか。実行ロールとSDKを使う場合の流れを整理しました。なぜ長期アクセスキーを使わないのか アクセスキーをコードに書いて呼び出すこともできます。…"
         },
         {
-          "title": "社長の一言は重い。RAGにも忖度させてみた（重み付け検索）",
-          "link": "https://qiita.com/kikuziro/items/43b360420d0cdcbf190c",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-14T15:30:41",
-          "excerpt": "はじめに 皆さんこんな経験ありませんか？新人の頃に正しいことを言っても誰も賛同してくれないのに、同じことを社長が言うと全員が賛同する。理不尽ですよねー人間は「誰が言ったか」で情報に重みを付けています。じゃあRAGはどうか？…"
-        },
-        {
-          "title": "Claude Enterprise のコンプライアンス API で添付ファイルが取得できるか試してみた",
-          "link": "https://dev.classmethod.jp/articles/claude-enterprise-compliance-api-get-file/",
-          "source": "DevelopersIO",
-          "published": "2026-11-14T13:29:01",
-          "excerpt": "Claude Enterprise の Compliance API を使って、Claude Desktop、Cowork、Claude Code で扱ったファイルが、API でどの形式で取得できるのかを検証してみました。"
+          "title": "Google、コーディングエージェント向けスキルのローカル検索を507MBから7MBに削減",
+          "link": "https://codezine.jp/article/detail/30361",
+          "source": "CodeZine",
+          "published": "2026-11-15T04:00:00",
+          "excerpt": "Google、コーディングエージェント向けスキルのローカル検索を507MBから7MBに削減"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が8件。Aurora のリーダーで AuroraReplicaLag のアラートが鳴り、グラフを開いたものの次の操作が決まらない。何ミリ秒を閾値にすべきか根拠がなく、とりあえず設定した値をそのまま使い続けている。…",
+      "summary": "クラウドの新着が13件。はじめに 2026年11月、AWS公式のローカルエミュレーター「AWS Emulator」が公開されました。…",
       "articles": [
         {
-          "title": "AuroraReplicaLagの閾値を何msにするか決める順番",
-          "link": "https://qiita.com/techdbblog/items/8d667ad6642128239cad",
+          "title": "AWS EmulatorでCloudFormationを試す：S3バケットの作成・更新・削除をローカル検証",
+          "link": "https://qiita.com/mmtakumma/items/4c87d6844e9226a5ceb3",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-15T02:03:03",
-          "excerpt": "Aurora のリーダーで AuroraReplicaLag のアラートが鳴り、グラフを開いたものの次の操作が決まらない。何ミリ秒を閾値にすべきか根拠がなく、とりあえず設定した値をそのまま使い続けている。…"
+          "published": "2026-11-15T08:02:22",
+          "excerpt": "はじめに 2026年11月、AWS公式のローカルエミュレーター「AWS Emulator」が公開されました。…"
         },
         {
-          "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-          "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-14T21:41:22",
-          "excerpt": "The petition had attracted more than 115,000 signatures as of Saturday afternoon."
+          "title": "AWS Lambda のローカル開発",
+          "link": "https://qiita.com/noooooorick/items/f5efcc94ab4122bef5e7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-15T07:54:23",
+          "excerpt": "Dockerコンテナに構築したLambdaをローカルから叩いて実験する。言語はPython3.15 呼び出し方法としてはcurlコマンド、Pythonスクリプトを用いた方法で関数を呼び出す。…"
         },
         {
-          "title": "EC2再起動後にWordPressのトップページ以外にアクセスできなくなった場合の対処法",
-          "link": "https://qiita.com/shiragai/items/77a4759f53c4e8024540",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-14T16:03:44",
-          "excerpt": "はじめに AWS上に構築したWordPressで、EC2を停止・起動したところ、トップページ以外にアクセスできなくなる事象が発生しました。今回は、wp-config.php にサイトURLを設定して解決した方法を紹介します。構成 ユ...…"
+          "title": "Kiri – The Modern Container Runtime",
+          "link": "https://runkiri.com/",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-15T04:40:41",
+          "excerpt": "Article URL: https://runkiri.com/ Comments URL: https://news.ycombinator.com/item?id=50504077 Points: 41 # Comments: 20"
         },
         {
-          "title": "Private subnetのEC2サーバーにDBをインストールしたメモ",
-          "link": "https://qiita.com/shiragai/items/19cc35bafe6819374bb8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-14T14:50:03",
-          "excerpt": "はじめに Private subnetのEC2からインターネットへ接続する場合、一般的にはNATゲートウェイを利用しますが、 今回はNATゲートウェイを使用せず、LinuxコマンドでRPMパッケージを転送してインストールした方法を紹介します…"
+          "title": "LambdaのNode.jsランタイムバージョンの確認と更新についてクセがあったお話",
+          "link": "https://zenn.dev/tequila725/articles/lambda-nodejs-runtime-inventory",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-15T04:24:15",
+          "excerpt": "どういう問題が発生していたか Node.jsの脆弱性が指摘され、修正を含むバージョンアップがリリースされました。そのため、業務で管理しているLambda関数（ランタイムはNode.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, i…",
+      "summary": "セキュリティの新着が7件。AWS WAF のルールを「攻撃から逆算」ではなく「守っているもの」から選ぶ仕組みを作りました。…",
       "articles": [
+        {
+          "title": "WAFルールを「守る対象」から決める ― 保護プロファイルの設計と実装",
+          "link": "https://dev.classmethod.jp/articles/waf-protection-profile-amazon-inspector/",
+          "source": "DevelopersIO",
+          "published": "2026-11-15T06:25:15",
+          "excerpt": "AWS WAF のルールを「攻撃から逆算」ではなく「守っているもの」から選ぶ仕組みを作りました。…"
+        },
+        {
+          "title": "Disk encryption on NetBSD – achieving secrecy",
+          "link": "https://netbsd.org/~nia/disk-encrypt/",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-15T05:29:54",
+          "excerpt": "Article URL: https://netbsd.org/~nia/disk-encrypt/ Comments URL: https://news.ycombinator.com/item?…"
+        },
+        {
+          "title": "DatadogのAPIキーをAWS Secrets Managerで自動ローテーションしてみた（自作Lambda／マネージドの2方式）",
+          "link": "https://zenn.dev/ryomiyake/articles/datadog-api-key-rotation-secrets-manager",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-15T01:49:55",
+          "excerpt": "Datadog の API キーは、発行したまま放置しがちです。このキーには有効期限がなく、公式ドキュメントでもシークレットマネージャーでの保管が勧められています。…"
+        },
         {
           "title": "Where was Nvidia’s security team?",
           "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
           "source": "TechCrunch（英語）",
           "published": "2026-11-15T00:08:07",
           "excerpt": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, i…"
-        },
-        {
-          "title": "PHP重大脆弱性は「始まり」に過ぎない？　2年前の兆候が示す“次の危機”",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/15/news001.html",
-          "source": "@IT",
-          "published": "2026-11-14T23:00:00",
-          "excerpt": "PHPの重大な脆弱性「php2shell」は、実は2024年の段階で問題の兆候が見つかっていました。それでも修正は進まず、約2年後に重大な脅威として表面化しました。その背景にあったのは何でしょうか。…"
-        },
-        {
-          "title": "Cognitoの自己サインアップが有効だと、誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点",
-          "link": "https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack/",
-          "source": "DevelopersIO",
-          "published": "2026-11-14T11:28:11",
-          "excerpt": "Datadog は、攻撃エージェント ARTEX が公開された Cognito ユーザープールに自己サインアップし、ID プールの一時認証情報で AWS を探索した様子を報告しました。…"
-        },
-        {
-          "title": "Amazon BedrockのIAMポリシーでモデル利用を制限してみた【東京リージョン・推論プロファイルの落とし穴】",
-          "link": "https://qiita.com/miyamiya21/items/c4f54636477f0238c1f1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-14T11:06:37",
-          "excerpt": "1.はじめに 生成AIを社内で使わせるとき、「どのモデルを誰に使わせるか」を IAM で制御したくなります。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。クラウドソリューション部の清島です。2026年11月12日(木)に開催された Microsoft Fabric Roadshow Tokyo #2 に参加してきました。https://msevents.microsoft.…",
+      "summary": "データ分析の新着が3件。Cambridge museum celebrates the world's first business computer with films, family activities, and a little Python",
       "articles": [
+        {
+          "title": "LEO gets a birthday bash, 75 years after clocking in",
+          "link": "https://www.theregister.com/offbeat/2026/11/15/leo-gets-a-birthday-bash-75-years-after-clocking-in/5308806",
+          "source": "The Register（英語）",
+          "published": "2026-11-15T09:03:00",
+          "excerpt": "Cambridge museum celebrates the world's first business computer with films, family activities, and a little Python"
+        },
         {
           "title": "Microsoft Fabric Roadshow Tokyo #2 参加レポート：データ基盤の先を見据えた Microsoft Fabric の展望 | Alternative Architecture DOJO",
           "link": "https://aadojo.alterbooth.com/entry/2026/11/15/095616",
@@ -127,80 +134,73 @@
           "source": "DevelopersIO",
           "published": "2026-11-15T00:56:05",
           "excerpt": "DynamoDB に溜めたセンサーデータを、どのGrafana環境でも使える汎用的なAPIを通じてダッシュボードで可視化する方法を紹介します。…"
-        },
-        {
-          "title": "llama.cpp 1.0.0リリース ——API・ABIの非互換変更をメジャーバージョンの更新で明示へ",
-          "link": "https://gihyo.jp/article/2026/11/llama.cpp-v1.0.0?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-11-14T03:09:14",
-          "excerpt": "llama.cppの開発チームは2026年11月13日、初のメジャー版となる1.0.0をリリースした。llama.…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。はじめに 自宅のPC（Ubuntu 24.04）とOSSのプロキシ「Squid」をインストールしたAmazon EC2（以下、EC2表記）をAWS Client VPNで接続しようとして、接続できずハマりました。…",
+      "summary": "開発ツールの新着が9件。GitHub Copilotで利用できるAIモデルは、GitHubが提供するモデルだけではありません。…",
       "articles": [
         {
-          "title": "AWS Client VPNの設定でハマったポイントとその過程で得た気づき",
-          "link": "https://qiita.com/amarelo_n24/items/f9b563de2eeeb8d3f8cd",
+          "title": "GitHub CopilotのBYOKでローカルLLMを使う ～Foundry Localで実機検証～ | Alternative Architecture DOJO",
+          "link": "https://aadojo.alterbooth.com/entry/2026/11/15/175527",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-15T08:55:27",
+          "excerpt": "GitHub Copilotで利用できるAIモデルは、GitHubが提供するモデルだけではありません。…"
+        },
+        {
+          "title": "Vercel vs AWS: 初心者が選ぶべきデプロイ先はどっち？",
+          "link": "https://qiita.com/felix-jp-studio/items/eb003570c18ac52f5ccd",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-15T02:09:26",
-          "excerpt": "はじめに 自宅のPC（Ubuntu 24.04）とOSSのプロキシ「Squid」をインストールしたAmazon EC2（以下、EC2表記）をAWS Client VPNで接続しようとして、接続できずハマりました。…"
+          "published": "2026-11-15T08:12:44",
+          "excerpt": "Web アプリを作り始めたら、まず「どこにデプロイするか」を決める必要があります。代表的な選択肢として Vercel と AWS が挙げられますが、初心者にとっては「機能」「料金」「運用」の３点が判断基準になります。…"
         },
         {
-          "title": "[Grafana] DynamoDB の時系列データを見るための API を、設定ファイル 1 つで CDK デプロイできるようにしてみました",
-          "link": "https://dev.classmethod.jp/articles/dynamodb-grafana-infinity-api-cdk/",
-          "source": "DevelopersIO",
-          "published": "2026-11-15T00:56:05",
-          "excerpt": "DynamoDB に溜めたセンサーデータを、どのGrafana環境でも使える汎用的なAPIを通じてダッシュボードで可視化する方法を紹介します。…"
+          "title": "AWS EmulatorでCloudFormationを試す：S3バケットの作成・更新・削除をローカル検証",
+          "link": "https://qiita.com/mmtakumma/items/4c87d6844e9226a5ceb3",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-15T08:02:22",
+          "excerpt": "はじめに 2026年11月、AWS公式のローカルエミュレーター「AWS Emulator」が公開されました。…"
         },
         {
-          "title": "Microsoft、「.NET 11」をリリース　C# 15のユニオン型やSDKの高速化など",
-          "link": "https://codezine.jp/article/detail/30360",
+          "title": "GitHub Actions、ホステッドランナーでのARM32ジョブ実行サポートを終了へ",
+          "link": "https://codezine.jp/article/detail/30362",
           "source": "CodeZine",
-          "published": "2026-11-15T00:00:00",
-          "excerpt": "Microsoft、「.NET 11」をリリース　C# 15のユニオン型やSDKの高速化など"
-        },
-        {
-          "title": "ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation と CLI で組んでみた",
-          "link": "https://dev.classmethod.jp/articles/ecs-gateway-cloudfront-vpc-origin-cfn/",
-          "source": "DevelopersIO",
-          "published": "2026-11-14T14:44:30",
-          "excerpt": "ECS Gateway と CloudFront VPC オリジンの構成を CloudFormation で組みました。…"
+          "published": "2026-11-15T08:00:00",
+          "excerpt": "GitHub Actions、ホステッドランナーでのARM32ジョブ実行サポートを終了へ"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS 東京 / 大阪リージョン 利用可能サービス一覧",
-      "link": "https://qiita.com/Feyet-cl/items/527d9788b17438230e4e",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-15T02:01:47",
-      "excerpt": "最近、災害復旧（DR：Disaster Recovery）について考える機会が増えています。…"
+      "title": "CognitoのOAuth 2.0トークン交換でMCP向けにスコープを絞る利用を試してみた",
+      "link": "https://dev.classmethod.jp/articles/cognito-oauth2-token-exchange-scoped-token/",
+      "source": "DevelopersIO",
+      "published": "2026-11-15T09:15:05",
+      "excerpt": "Amazon Cognito の OAuth 2.0 トークン交換（GetDerivedToken）で、MCP サーバー向けにスコープを絞ったトークンを発行しました。…"
     },
     {
-      "title": "AIF-C01の勉強結果をまとめてみた",
-      "link": "https://qiita.com/siam__/items/efe4771ac114b6f6166c",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-15T01:59:44",
-      "excerpt": "AWS Certified AI Practitioner（AIF-C01）の勉強結果をまとめてみました。1.Amazon Bedrock・モデルカスタマイズ・RAG・Guardrails 1-1.…"
+      "title": "Systems Manager Cloud Connector で Google Cloud の VM を管理対象ノードに登録して Run Command を実行してみた",
+      "link": "https://dev.classmethod.jp/articles/ssm-cloud-connector-google-cloud-vm/",
+      "source": "DevelopersIO",
+      "published": "2026-11-15T08:39:13",
+      "excerpt": "AWS Systems Manager の Cloud Connector が Google Cloud に対応したので、Compute Engine の VM を 1台登録しました。…"
     },
     {
-      "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
-      "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-11-15T00:40:59",
-      "excerpt": "It felt like stepping into the future."
+      "title": "「OpenTelemetryで変わった新時代のCloudWatchメトリクス監視」というタイトルでLT登壇しました #jawsugchiba #jawsug #toukatsu_dev",
+      "link": "https://dev.classmethod.jp/articles/lt-jawsug-chiba-toukatsu-dev-otel-cloudwatch-metrics/",
+      "source": "DevelopersIO",
+      "published": "2026-11-15T07:53:53",
+      "excerpt": "OpenTelemetryがCloudWatchメトリクス監視をどう変えるのか、JAWS-UG千葉支部でのLT登壇内容を紹介します。Classic metricsとOTel metricsの違い、最適な送信方法の選び方をまとめました。"
     },
     {
-      "title": "L3Harris statement on the Nov. 13 ground stop",
-      "link": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-14T22:51:44",
-      "excerpt": "Article URL: https://www.l3harris.…"
+      "title": "PowerShell 7.7がリリースされました",
+      "link": "https://dev.classmethod.jp/articles/powershell-7-7-generally-available/",
+      "source": "DevelopersIO",
+      "published": "2026-11-15T07:37:30",
+      "excerpt": ".NET 11のリリースに合わせてPowerShell 7.7がリリースされました。本記事では、MSIインストーラー廃止という大きな変更から新機能、セキュリティ強化、破壊的変更まで公開情報をもとにお伝えします。"
     }
   ]
 }
