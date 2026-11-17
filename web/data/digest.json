@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-11-17T10:53:49",
+  "generated_at": "2026-11-17T19:29:04",
   "window_hours": 24,
-  "total": 148,
+  "total": 151,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が27件。Lambda durable functions の関数 1 個で、調査の開始から上限時間を過ぎた調査の取り消しまでを行えました。",
+      "summary": "生成AIの新着が35件。Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
       "articles": [
         {
-          "title": "AWS DevOps Agent のインシデント調査に Lambda durable functions で時間の上限を設けてみた",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-investigation-timeout-durable-functions/",
-          "source": "DevelopersIO",
-          "published": "2026-11-17T10:11:54",
-          "excerpt": "Lambda durable functions の関数 1 個で、調査の開始から上限時間を過ぎた調査の取り消しまでを行えました。"
+          "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+          "link": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-17T19:02:20",
+          "excerpt": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf."
         },
         {
-          "title": "AWS DevOps Agent のインシデント調査に Step Functions で時間の上限を設けてみた",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-investigation-timeout-step-functions/",
-          "source": "DevelopersIO",
-          "published": "2026-11-17T09:14:35",
-          "excerpt": "Step Functions から調査を開始し、上限時間を過ぎても終わっていない調査を、AWS SDK 統合の UpdateBacklogTask で取り消す仕組みを作りました。"
+          "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+          "link": "https://starsling.dev",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-17T19:01:43",
+          "excerpt": "We’re Yonas and Daniel and we’re building StarSling ( https://starsling.…"
         },
         {
-          "title": "Sarashina を利用した RAG 検索精度の改善 (2/2) | SB Intuitions TECH BLOG",
-          "link": "https://www.sbintuitions.co.jp/blog/entry/2026/11/17/170000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-17T08:00:00",
-          "excerpt": "はじめに SB Intuitions 株式会社の林悠大です。前回の記事では、RAG(検索拡張生成)の検索で起きる取りこぼしを減らすための手法として、リランカーによる検索結果の並べ替えと、クエリ書き換えによる検索クエリの改善を紹介しました。…"
+          "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+          "link": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-17T18:48:23",
+          "excerpt": "Google's Gemini update extending chat retention will roll out globally over the coming weeks."
         },
         {
-          "title": "Gemini Notebookでアップロードした資料からインタラクティブなWebサイト作成が可能に",
-          "link": "https://gihyo.jp/article/2026/11/gemini-notebook-interactive-sites?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-11-17T06:28:00",
-          "excerpt": "Googleは2026年11月16日、AIリサーチアシスタント「Gemini Notebook」に集めた資料をインタラクティブなサイトに変換する機能を追加したことを発表した。"
+          "title": "Advancing computer-use agents for healthcare teams",
+          "link": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-17T18:26:05",
+          "excerpt": "Article URL: https://openai.com/index/advancing-computer-use-for-healthcare-teams/ Comments URL: https://news.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。PythonのLambda Layerをコンテナなしで効率良く作成する方法を紹介します。uvのロックファイルとLinux向けwheelを活用し、再現性のあるLayerを簡単に組み立てるレシピをまとめました。…",
+      "summary": "クラウドの新着が17件。RDS の DB インスタンスのバックアップを LAG vault に保存できるようになり、設定した保持期間が満了するまで削除も変更もできない形で保管できます。…",
       "articles": [
         {
-          "title": "ビルド済みディストリビューションとuvでPython Lambda Layerを組んでみた",
-          "link": "https://dev.classmethod.jp/articles/lambda-layer-native-libraries-with-uv/",
+          "title": "AWS Backup の logically air-gapped (LAG) vault が RDS に対応しました",
+          "link": "https://dev.classmethod.jp/articles/aws-backup-lag-vault-rds-support/",
           "source": "DevelopersIO",
-          "published": "2026-11-17T10:36:38",
-          "excerpt": "PythonのLambda Layerをコンテナなしで効率良く作成する方法を紹介します。uvのロックファイルとLinux向けwheelを活用し、再現性のあるLayerを簡単に組み立てるレシピをまとめました。…"
+          "published": "2026-11-17T17:43:50",
+          "excerpt": "RDS の DB インスタンスのバックアップを LAG vault に保存できるようになり、設定した保持期間が満了するまで削除も変更もできない形で保管できます。…"
         },
         {
-          "title": "AWS DevOps Agent のインシデント調査に Lambda durable functions で時間の上限を設けてみた",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-investigation-timeout-durable-functions/",
-          "source": "DevelopersIO",
-          "published": "2026-11-17T10:11:54",
-          "excerpt": "Lambda durable functions の関数 1 個で、調査の開始から上限時間を過ぎた調査の取り消しまでを行えました。"
+          "title": "SAP's cloud migration chief is migrating to Ionos as CEO",
+          "link": "https://www.theregister.com/software/2026/11/17/saps-cloud-migration-chief-is-migrating-to-ionos-as-ceo/5310530",
+          "source": "The Register（英語）",
+          "published": "2026-11-17T17:13:28",
+          "excerpt": "After more than two decades in Walldorf, Thomas Saueressig takes reins at hosting provider in April"
         },
         {
-          "title": "【初心者向け】AWSの無料プランで環境を作って、S3にファイルをアップロードしてみた",
-          "link": "https://qiita.com/takuma_ishigaki/items/6a0a7a2bb4ba970edc73",
+          "title": "Amazon VPC, AWS Transit Gateway, and AWS Cloud WAN now offer a 99.999% availability SLA for cross-Region traffic",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/vpc-tgw-cloudwan-99999-sla/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-11-17T16:00:00",
+          "excerpt": "AWS now offers a 99.…"
+        },
+        {
+          "title": "Amazon EKS の Argo CD Capability が Notifications に対応",
+          "link": "https://qiita.com/Haruki-N/items/45b98d124bb9ad058f6e",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-17T10:10:28",
-          "excerpt": "はじめに 前回の記事では、AWS未経験だった私が実際にやった学習手順と、前現場でAWSに苦労した話を紹介しました。前回は「AWS Skill Builderの講座で全体像をつかむ」ところまでの内容でした。…"
-        },
-        {
-          "title": "【AWS】祝、S3 Vectorsのハイブリッド検索対応！検索方法をあらためて整理【S3Vectors】",
-          "link": "https://qiita.com/Nana_777/items/2a8c9f6c5ebcee49b3e8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-17T10:08:02",
-          "excerpt": "はじめに RAGやエージェントのメモリで、ベクトル検索を使う場面が増えました。ベクトル検索は意味の近さで探せる一方で、型番、エラーコード、固有名詞のように「文字列そのものが一致しているか」が重要なクエリは苦手とされています。…"
+          "published": "2026-11-17T14:41:59",
+          "excerpt": "はじめに 2026 年 11 月 3 日、Amazon EKS の Argo CD Capability が Argo CD Notifications に対応したことが発表されました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が22件。楽天証券は、第三者による不正アクセスで最大約1125万口座分の顧客情報が漏えいした可能性があると発表した。うち最大約447万口座分は氏名や住所、金融資産情報なども対象。パスワードや暗証番号の漏えいは確認していない。",
+      "summary": "セキュリティの新着が24件。AWS KMS のキーを AWS RAM で共有できるようになりました。…",
       "articles": [
+        {
+          "title": "AWS RAM で AWS KMS キーの Organization 共有を試してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-kms-key-sharing-ram-organization/",
+          "source": "DevelopersIO",
+          "published": "2026-11-17T18:49:26",
+          "excerpt": "AWS KMS のキーを AWS RAM で共有できるようになりました。…"
+        },
+        {
+          "title": "DOP ③セキュリティ・統制区 ― SCP総集編と、監査コンビで見抜く統制の罠",
+          "link": "https://zenn.dev/kokosu/articles/dop-security-region",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-17T11:10:43",
+          "excerpt": "はじめに：管理アカウントでは動いたのに、メンバーでは動かない 管理アカウントでは動いたのに、メンバーアカウントでは動かない。そんな経験はありませんか。同じポリシー、同じ操作なのに、片方だけ弾かれる。…"
+        },
         {
           "title": "楽天証券に不正アクセス、最大1125万口座のIDなど漏えいか　最大447万口座は金融資産情報も",
           "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003275/",
@@ -87,68 +101,68 @@
           "excerpt": "楽天証券は、第三者による不正アクセスで最大約1125万口座分の顧客情報が漏えいした可能性があると発表した。うち最大約447万口座分は氏名や住所、金融資産情報なども対象。パスワードや暗証番号の漏えいは確認していない。"
         },
         {
-          "title": "楽天証券に不正アクセス、最大1125万口座のログインIDなど漏えいのおそれ（CNET Japan） - Yahoo!ニュース",
-          "link": "https://news.yahoo.co.jp/articles/141fe69b0f33952604cde710494bbdff584f269a",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-17T09:33:35",
-          "excerpt": "楽天証券のスマートフォンアプリ「iSPEED」（CNET Japan） 楽天証券は11月17日、第三者による不正アクセスを受け、最大約447万口座分の氏名や住所、出金先口座情報などと、最大約1125万口座分のログインIDなどが外部に漏えいし…"
-        },
-        {
-          "title": "PostgreSQL patches 52 security holes, sends version 14 into retirement",
-          "link": "https://www.theregister.com/databases/2026/11/17/postgresql-patches-52-security-holes-sends-version-14-into-retirement/5310108",
-          "source": "The Register（英語）",
-          "published": "2026-11-17T09:30:00",
-          "excerpt": "Some fixes need more than installation, while the next major release is due November 19"
-        },
-        {
-          "title": "AWS KMS: キーはいくつ必要か? 4 つの原則から考えるキー管理戦略",
-          "link": "https://aws.amazon.com/jp/blogs/news/aws-kms-how-many-keys-do-i-need/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-11-17T07:10:28",
-          "excerpt": "AWS KMS を使用する際、「実際にいくつのキーが必要か?」は多くのお客様が抱く疑問です。…"
+          "title": "ランサムウェアは「暗号化」だけじゃない？ ― 2026年・二重恐喝時代に効く“実行前”防御という答え | TechHarmony",
+          "link": "https://blog.usize-tech.com/deepinstinct-ransomware-trend-2026-doxware/",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-17T09:41:40",
+          "excerpt": "みなさん、こんにちは。SCSKの石井です。先日、久しぶりに会った友人から「最近ってどんな攻撃が多いの？」と聞かれました。反射的に「暗号化しないやつ、ですね」と答えたところ、返ってきたのは「じゃあ壊れてないじゃん」の一言 […]…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。A hidden bug, shifting traffic, and reduced capacity led to cascading failures.",
+      "summary": "データ分析の新着が8件。Harvard study claims emissions attributable to datacenters are two to three times higher than in 2018",
       "articles": [
         {
-          "title": "Three small failures combined to take down Microsoft 365",
-          "link": "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-11-16T21:56:39",
-          "excerpt": "A hidden bug, shifting traffic, and reduced capacity led to cascading failures."
-        },
-        {
-          "title": "Amazon S3 Vectors now supports hybrid search combining vector and full text for more relevant search results",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-vectors-hybrid-search/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-16T21:00:00",
-          "excerpt": "Amazon S3 Vectors now supports hybrid search that combines vector similarity search with full-text search within a singl…"
-        },
-        {
-          "title": "Amazon Redshift now supports multi-statement transactions, conflict resolution, and time travel for Apache Iceberg",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/redshift-time-travel-multi-statement",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-16T20:30:00",
-          "excerpt": "Amazon Redshift now supports multi-statement transactions, automatic write-conflict resolution, and time travel for Apac…"
-        },
-        {
-          "title": "Attackers are using AI agents to automate cybercrime at 'industrial scale,' FBI and AWS warn",
-          "link": "https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223",
+          "title": "America's hyperscale bit barns draw as much power as entire states",
+          "link": "https://www.theregister.com/off-prem/2026/11/17/americas-hyperscale-bit-barns-draw-as-much-power-as-entire-states/5310471",
           "source": "The Register（英語）",
-          "published": "2026-11-16T19:52:00",
-          "excerpt": "Critical orgs around the globe under seige"
+          "published": "2026-11-17T18:29:00",
+          "excerpt": "Harvard study claims emissions attributable to datacenters are two to three times higher than in 2018"
+        },
+        {
+          "title": "Amazon VPC, AWS Transit Gateway, and AWS Cloud WAN now offer a 99.999% availability SLA for cross-Region traffic",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/vpc-tgw-cloudwan-99999-sla/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-11-17T16:00:00",
+          "excerpt": "AWS now offers a 99.…"
+        },
+        {
+          "title": "Amazon EKS の Argo CD Capability が Notifications に対応",
+          "link": "https://qiita.com/Haruki-N/items/45b98d124bb9ad058f6e",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-17T14:41:59",
+          "excerpt": "はじめに 2026 年 11 月 3 日、Amazon EKS の Argo CD Capability が Argo CD Notifications に対応したことが発表されました。…"
+        },
+        {
+          "title": "S3のデータを Databricks に取り込むために、データ基盤チームが用意したもの",
+          "link": "https://zenn.dev/guri_03/articles/ad28087e995349",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-17T09:39:05",
+          "excerpt": "はじめに 社内の別チーム（以下「依頼元チーム」）から、「新しく作っているアプリのアクセスログを Databricks に入れて、既存のデータと突き合わせたい」という依頼を受けました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。GitHub、REST APIでAI Scan for repositoriesを管理可能に",
+      "summary": "開発ツールの新着が9件。A new House majority can push climate policy, but a full US return remains uncertain.",
       "articles": [
+        {
+          "title": "House Democrats promise a US return to global climate talks",
+          "link": "https://arstechnica.com/tech-policy/2026/11/house-democrats-promise-a-us-return-to-global-climate-talks/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-11-17T15:32:43",
+          "excerpt": "A new House majority can push climate policy, but a full US return remains uncertain."
+        },
+        {
+          "title": "[AWS]terraform を深掘る①「output」「locals」「data」「lifecycle」",
+          "link": "https://zenn.dev/77nnaapp/articles/c83db738b7855d",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-17T07:36:03",
+          "excerpt": "1.outputとは？Terraformでリソースを作成したとき、そのリソースの情報を画面に出力する機能です。例えば、今作成したSSM Endpointには次のような情報があります。…"
+        },
         {
           "title": "GitHub、REST APIでAI Scan for repositoriesを管理可能に",
           "link": "https://codezine.jp/article/detail/30382",
@@ -162,52 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-17T06:20:10",
           "excerpt": "はじめに Terraformにはterraform fmt -checkやterraform validateなどによって、フォーマットや文法のチェックを行うコマンドはありますが、構成のセキュリティチェックを行なってくれるものはありません。…"
-        },
-        {
-          "title": "Vercel、「Workflow SDK 5」を提供開始　暗号化やリージョン対応、性能を強化",
-          "link": "https://codezine.jp/article/detail/30381",
-          "source": "CodeZine",
-          "published": "2026-11-17T05:30:00",
-          "excerpt": "Vercel、「Workflow SDK 5」を提供開始　暗号化やリージョン対応、性能を強化"
-        },
-        {
-          "title": "Mackerel Advent Calendar 2026 開催！ちょっとした「やってみた」から運用のノウハウまで記事を大募集！ | Mackerel ブログ #mackerelio",
-          "link": "https://mackerel.io/ja/blog/entry/announcement/mackerel-advent-calendar-2026",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-17T01:57:46",
-          "excerpt": "こんにちは！Mackerel CREチームのid:sawaccioです。毎年恒例のMackerel Advent Calendarを今年も実施します！qiita.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Essential Azure Skills Every Cloud Professional Should Develop",
-      "link": "https://qiita.com/alisasmith/items/c79097f12f6347f83dd6",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-17T10:23:19",
-      "excerpt": "Essential Azure Skills Every Cloud Professional Should Develop Microsoft Azure provides cloud services for computing, st…"
+      "title": "Apple services, including iCloud, App Store, and Apple Music, hit by outage",
+      "link": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-17T18:55:40",
+      "excerpt": "Apple's status page confirms its services are facing outages, but has not confirmed the cause."
     },
     {
-      "title": "MPs ask what the break clause was for as Palantir wins two more years in the NHS",
-      "link": "https://www.theregister.com/public-sector/2026/11/17/mps-ask-what-the-break-clause-was-for-as-palantir-wins-two-more-years-in-the-nhs/5310348",
-      "source": "The Register（英語）",
-      "published": "2026-11-17T10:15:00",
-      "excerpt": "Ministers promise fresh procurement, but critics warn extension gives US supplier more time to dig in"
+      "title": "Humanity braces for an alien invasion in 3 Body Problem S2 teaser",
+      "link": "https://arstechnica.com/culture/2026/11/humanity-braces-for-an-alien-invasion-in-3-body-problem-s2-teaser/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-11-17T18:26:26",
+      "excerpt": "“Wake up!They haven’t come 24 trillion miles to negotiate.They are coming to exterminate us.”…"
     },
     {
-      "title": "メルカリ、Google Play ストアでアプリが検索・ダウンロードできない状態に",
-      "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003274/",
-      "source": "ITmedia NEWS",
-      "published": "2026-11-17T09:56:19",
-      "excerpt": "11月17日午後6時40分ごろから、Google Playでフリマアプリ「メルカリ」が検索・ダウンロードできない状況だ。"
+      "title": "MAI Code 2 and Code 2 Flash",
+      "link": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-17T18:25:13",
+      "excerpt": "Article URL: https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/ Comments URL: https://news.…"
     },
     {
-      "title": "[レポート]「反乱都市」からの報告：イランのAPTグループはいかにして自国民を監視するのか - CODE BLUE 2026 #codeblue_jp #codeblue2026",
-      "link": "https://dev.classmethod.jp/articles/codeblue-2026-day1-track1-1800/",
-      "source": "DevelopersIO",
-      "published": "2026-11-17T09:44:24",
-      "excerpt": "CODE BLUE 2026で行われた「「反乱都市」からの報告：イランのAPTグループはいかにして自国民を監視するのか」というセッションのレポートです。"
+      "title": "As decision model use skyrockets, is customization the next frontier?",
+      "link": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-17T18:10:00",
+      "excerpt": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities."
     }
   ]
 }
