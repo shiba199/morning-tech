@@ -1,118 +1,118 @@
 {
-  "generated_at": "2026-11-17T02:11:10",
+  "generated_at": "2026-11-17T10:53:49",
   "window_hours": 24,
-  "total": 159,
+  "total": 148,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が28件。CODE BLUE 2026で行われた「[三井物産セキュアディレクション株式会社]AIエージェントの脅威動向と境界防御（Secure AI Gateway）による多層防御」というセッションのレポートです。",
+      "summary": "生成AIの新着が27件。Lambda durable functions の関数 1 個で、調査の開始から上限時間を過ぎた調査の取り消しまでを行えました。",
       "articles": [
         {
-          "title": "[レポート][三井物産セキュアディレクション株式会社]AIエージェントの脅威動向と境界防御（Secure AI Gateway）による多層防御 - CODE BLUE 2026 #codeblue_jp #codeblue_2026",
-          "link": "https://dev.classmethod.jp/articles/codeblue-2026-day1-track2-1000/",
+          "title": "AWS DevOps Agent のインシデント調査に Lambda durable functions で時間の上限を設けてみた",
+          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-investigation-timeout-durable-functions/",
           "source": "DevelopersIO",
-          "published": "2026-11-17T02:00:34",
-          "excerpt": "CODE BLUE 2026で行われた「[三井物産セキュアディレクション株式会社]AIエージェントの脅威動向と境界防御（Secure AI Gateway）による多層防御」というセッションのレポートです。"
+          "published": "2026-11-17T10:11:54",
+          "excerpt": "Lambda durable functions の関数 1 個で、調査の開始から上限時間を過ぎた調査の取り消しまでを行えました。"
         },
         {
-          "title": "[レポート]［Pwn2Own Berlin 2026にて20,000ドル獲得］Agent2Shell：あなたのAIコーディングエージェントは、すでに攻撃者のコードを実行している - CODE BLUE 2026 #codeblue_jp #codeblue2026",
-          "link": "https://dev.classmethod.jp/articles/codeblue-2026-day1-track1-1010/",
+          "title": "AWS DevOps Agent のインシデント調査に Step Functions で時間の上限を設けてみた",
+          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-investigation-timeout-step-functions/",
           "source": "DevelopersIO",
-          "published": "2026-11-17T01:51:03",
-          "excerpt": "CODE BLUE 2026で行われた「［Pwn2Own Berlin 2026にて20,000ドル獲得］Agent2Shell：あなたのAIコーディングエージェントは、すでに攻撃者のコードを実行している」というセッションのレポートです。"
+          "published": "2026-11-17T09:14:35",
+          "excerpt": "Step Functions から調査を開始し、上限時間を過ぎても終わっていない調査を、AWS SDK 統合の UpdateBacklogTask で取り消す仕組みを作りました。"
         },
         {
-          "title": "OpenAI、児童性的虐待コンテンツ（CSAM）検出ツールを公開　ChatGPTで探すと24時間アカウント停止の警告も",
-          "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003254/",
-          "source": "ITmedia NEWS",
-          "published": "2026-11-17T01:45:02",
-          "excerpt": "OpenAIは、児童性的虐待コンテンツ（CSAM）を検出するための新たな画像分類ツールを発表した。従来は検出が困難だった新規画像やAI生成画像も対象とし、審査を通過した組織へAPI経由で無償提供する。…"
+          "title": "Sarashina を利用した RAG 検索精度の改善 (2/2) | SB Intuitions TECH BLOG",
+          "link": "https://www.sbintuitions.co.jp/blog/entry/2026/11/17/170000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-17T08:00:00",
+          "excerpt": "はじめに SB Intuitions 株式会社の林悠大です。前回の記事では、RAG(検索拡張生成)の検索で起きる取りこぼしを減らすための手法として、リランカーによる検索結果の並べ替えと、クエリ書き換えによる検索クエリの改善を紹介しました。…"
         },
         {
-          "title": "Running coding agents without handing them my credentials",
-          "link": "https://blog.antonio.cx/running-agents-with-lend",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-17T01:18:56",
-          "excerpt": "Article URL: https://blog.antonio.cx/running-agents-with-lend Comments URL: https://news.ycombinator.com/item?…"
+          "title": "Gemini Notebookでアップロードした資料からインタラクティブなWebサイト作成が可能に",
+          "link": "https://gihyo.jp/article/2026/11/gemini-notebook-interactive-sites?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-11-17T06:28:00",
+          "excerpt": "Googleは2026年11月16日、AIリサーチアシスタント「Gemini Notebook」に集めた資料をインタラクティブなサイトに変換する機能を追加したことを発表した。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。NTTの島田明社長は16日、都内で講演し、宇宙で光通信網を構築する構想を明らかにした。人工衛星同士や地上の通信施設を光信号でつなぎ、高速通信を実現する。宇宙データセンターや月の発電インフラの整備にも乗り出す。",
+      "summary": "クラウドの新着が14件。PythonのLambda Layerをコンテナなしで効率良く作成する方法を紹介します。uvのロックファイルとLinux向けwheelを活用し、再現性のあるLayerを簡単に組み立てるレシピをまとめました。…",
       "articles": [
         {
-          "title": "NTTの島田明社長、宇宙光通信構想を発表　月面インフラや宇宙データセンターの整備も",
-          "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003252/",
-          "source": "ITmedia NEWS",
-          "published": "2026-11-17T01:30:57",
-          "excerpt": "NTTの島田明社長は16日、都内で講演し、宇宙で光通信網を構築する構想を明らかにした。人工衛星同士や地上の通信施設を光信号でつなぎ、高速通信を実現する。宇宙データセンターや月の発電インフラの整備にも乗り出す。"
+          "title": "ビルド済みディストリビューションとuvでPython Lambda Layerを組んでみた",
+          "link": "https://dev.classmethod.jp/articles/lambda-layer-native-libraries-with-uv/",
+          "source": "DevelopersIO",
+          "published": "2026-11-17T10:36:38",
+          "excerpt": "PythonのLambda Layerをコンテナなしで効率良く作成する方法を紹介します。uvのロックファイルとLinux向けwheelを活用し、再現性のあるLayerを簡単に組み立てるレシピをまとめました。…"
         },
         {
-          "title": "TUNAG を AWS から Google Cloud へ移行しました！TAP と AI Skills で進めた約2.5か月の全体像 | stmn tech blog",
-          "link": "https://tech.stmn.co.jp/entry/2026/11/17/100002",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-17T01:00:02",
-          "excerpt": "こんにちは！株式会社スタメン、プラットフォーム部のもりしたです。…"
+          "title": "AWS DevOps Agent のインシデント調査に Lambda durable functions で時間の上限を設けてみた",
+          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-investigation-timeout-durable-functions/",
+          "source": "DevelopersIO",
+          "published": "2026-11-17T10:11:54",
+          "excerpt": "Lambda durable functions の関数 1 個で、調査の開始から上限時間を過ぎた調査の取り消しまでを行えました。"
         },
         {
-          "title": "NTTドコモにおけるレシート OCR サーバーレスシステムの多重処理流量制御",
-          "link": "https://aws.amazon.com/jp/blogs/news/docomo-receipt-ocr-system/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-11-17T00:59:52",
-          "excerpt": "NTTドコモは「つなごう。驚きを。幸せを。」をブランドスローガンとして掲げ、コンシューマ通信事業をはじめ金融・決済、マーケティングソリューション、スマートライフ領域など多岐にわたる事業を展開しています。…"
-        },
-        {
-          "title": "Supabaseを全部やめて、PostgreSQL 17の自前運用に移行し切った話【DB移行の全記録】",
-          "link": "https://qiita.com/mizzz-ivr/items/6224b46654ebff392772",
+          "title": "【初心者向け】AWSの無料プランで環境を作って、S3にファイルをアップロードしてみた",
+          "link": "https://qiita.com/takuma_ishigaki/items/6a0a7a2bb4ba970edc73",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-17T00:12:22",
-          "excerpt": "はじめに 個人開発で運営しているコミュニティ向けサービスの DB は、長いこと Supabase の PostgreSQL が正本でした。…"
+          "published": "2026-11-17T10:10:28",
+          "excerpt": "はじめに 前回の記事では、AWS未経験だった私が実際にやった学習手順と、前現場でAWSに苦労した話を紹介しました。前回は「AWS Skill Builderの講座で全体像をつかむ」ところまでの内容でした。…"
+        },
+        {
+          "title": "【AWS】祝、S3 Vectorsのハイブリッド検索対応！検索方法をあらためて整理【S3Vectors】",
+          "link": "https://qiita.com/Nana_777/items/2a8c9f6c5ebcee49b3e8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-17T10:08:02",
+          "excerpt": "はじめに RAGやエージェントのメモリで、ベクトル検索を使う場面が増えました。ベクトル検索は意味の近さで探せる一方で、型番、エラーコード、固有名詞のように「文字列そのものが一致しているか」が重要なクエリは苦手とされています。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が22件。AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。",
+      "summary": "セキュリティの新着が22件。楽天証券は、第三者による不正アクセスで最大約1125万口座分の顧客情報が漏えいした可能性があると発表した。うち最大約447万口座分は氏名や住所、金融資産情報なども対象。パスワードや暗証番号の漏えいは確認していない。",
       "articles": [
         {
-          "title": "【Security Hub修復手順】[NetworkFirewall.2] Network Firewall ログ記録を有効にする必要があります",
-          "link": "https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-networkfirewall-2/",
-          "source": "DevelopersIO",
-          "published": "2026-11-17T01:58:52",
-          "excerpt": "AWS SecurityHub 基礎セキュリティのベストプラクティスコントロール修復手順をご紹介します。"
-        },
-        {
-          "title": "スパコン「富岳」不正アクセスで運用停止　研究データや外部接続用SSH鍵など流出の可能性　他システムへの接続試行も確認",
-          "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003253/",
+          "title": "楽天証券に不正アクセス、最大1125万口座のIDなど漏えいか　最大447万口座は金融資産情報も",
+          "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003275/",
           "source": "ITmedia NEWS",
-          "published": "2026-11-17T01:44:12",
-          "excerpt": "ネット上に公開されていた富岳の稼働状況を表示するダッシュボードを足がかりに、運用系の内部ネットワークに不正に侵入されたという。"
+          "published": "2026-11-17T10:08:05",
+          "excerpt": "楽天証券は、第三者による不正アクセスで最大約1125万口座分の顧客情報が漏えいした可能性があると発表した。うち最大約447万口座分は氏名や住所、金融資産情報なども対象。パスワードや暗証番号の漏えいは確認していない。"
         },
         {
-          "title": "「京成スカイライナー」予約システム不正アクセス、最大約337万件の顧客情報漏えいか",
-          "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003250/",
-          "source": "ITmedia NEWS",
-          "published": "2026-11-17T01:09:00",
-          "excerpt": "カナ氏名、電話番号、メールアドレス、ユーザーID、ハッシュ化済みパスワード、生年月日、性別、国籍が、第三者に取得された可能性があるという。"
+          "title": "楽天証券に不正アクセス、最大1125万口座のログインIDなど漏えいのおそれ（CNET Japan） - Yahoo!ニュース",
+          "link": "https://news.yahoo.co.jp/articles/141fe69b0f33952604cde710494bbdff584f269a",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-17T09:33:35",
+          "excerpt": "楽天証券のスマートフォンアプリ「iSPEED」（CNET Japan） 楽天証券は11月17日、第三者による不正アクセスを受け、最大約447万口座分の氏名や住所、出金先口座情報などと、最大約1125万口座分のログインIDなどが外部に漏えいし…"
         },
         {
-          "title": "[レポート]基調講演：フロンティアAI時代のサイバーセキュリティと能力構築 - CODE BLUE 2026 #codeblue_jp #codeblue2026",
-          "link": "https://dev.classmethod.jp/articles/codeblue-2026-day1-track1-0900/",
-          "source": "DevelopersIO",
-          "published": "2026-11-17T00:52:42",
-          "excerpt": "CODE BLUE 2026で行われた「基調講演：フロンティアAI時代のサイバーセキュリティと能力構築」というセッションのレポートです。"
+          "title": "PostgreSQL patches 52 security holes, sends version 14 into retirement",
+          "link": "https://www.theregister.com/databases/2026/11/17/postgresql-patches-52-security-holes-sends-version-14-into-retirement/5310108",
+          "source": "The Register（英語）",
+          "published": "2026-11-17T09:30:00",
+          "excerpt": "Some fixes need more than installation, while the next major release is due November 19"
+        },
+        {
+          "title": "AWS KMS: キーはいくつ必要か? 4 つの原則から考えるキー管理戦略",
+          "link": "https://aws.amazon.com/jp/blogs/news/aws-kms-how-many-keys-do-i-need/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-11-17T07:10:28",
+          "excerpt": "AWS KMS を使用する際、「実際にいくつのキーが必要か?」は多くのお客様が抱く疑問です。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が8件。A hidden bug, shifting traffic, and reduced capacity led to cascading failures.",
+      "summary": "データ分析の新着が6件。A hidden bug, shifting traffic, and reduced capacity led to cascading failures.",
       "articles": [
         {
           "title": "Three small failures combined to take down Microsoft 365",
@@ -147,67 +147,67 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が7件。こんにちは！Mackerel CREチームのid:sawaccioです。毎年恒例のMackerel Advent Calendarを今年も実施します！qiita.…",
+      "summary": "開発ツールの新着が7件。GitHub、REST APIでAI Scan for repositoriesを管理可能に",
       "articles": [
+        {
+          "title": "GitHub、REST APIでAI Scan for repositoriesを管理可能に",
+          "link": "https://codezine.jp/article/detail/30382",
+          "source": "CodeZine",
+          "published": "2026-11-17T07:00:00",
+          "excerpt": "GitHub、REST APIでAI Scan for repositoriesを管理可能に"
+        },
+        {
+          "title": "TrivyでTerraformの構成チェックを自動化してみる",
+          "link": "https://qiita.com/d-kaneda/items/efb817fb92b102fba69f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-17T06:20:10",
+          "excerpt": "はじめに Terraformにはterraform fmt -checkやterraform validateなどによって、フォーマットや文法のチェックを行うコマンドはありますが、構成のセキュリティチェックを行なってくれるものはありません。…"
+        },
+        {
+          "title": "Vercel、「Workflow SDK 5」を提供開始　暗号化やリージョン対応、性能を強化",
+          "link": "https://codezine.jp/article/detail/30381",
+          "source": "CodeZine",
+          "published": "2026-11-17T05:30:00",
+          "excerpt": "Vercel、「Workflow SDK 5」を提供開始　暗号化やリージョン対応、性能を強化"
+        },
         {
           "title": "Mackerel Advent Calendar 2026 開催！ちょっとした「やってみた」から運用のノウハウまで記事を大募集！ | Mackerel ブログ #mackerelio",
           "link": "https://mackerel.io/ja/blog/entry/announcement/mackerel-advent-calendar-2026",
           "source": "企業テックブログまとめ",
           "published": "2026-11-17T01:57:46",
           "excerpt": "こんにちは！Mackerel CREチームのid:sawaccioです。毎年恒例のMackerel Advent Calendarを今年も実施します！qiita.…"
-        },
-        {
-          "title": "[レポート]［Pwn2Own Berlin 2026にて20,000ドル獲得］Agent2Shell：あなたのAIコーディングエージェントは、すでに攻撃者のコードを実行している - CODE BLUE 2026 #codeblue_jp #codeblue2026",
-          "link": "https://dev.classmethod.jp/articles/codeblue-2026-day1-track1-1010/",
-          "source": "DevelopersIO",
-          "published": "2026-11-17T01:51:03",
-          "excerpt": "CODE BLUE 2026で行われた「［Pwn2Own Berlin 2026にて20,000ドル獲得］Agent2Shell：あなたのAIコーディングエージェントは、すでに攻撃者のコードを実行している」というセッションのレポートです。"
-        },
-        {
-          "title": "Snowflakeの第一歩 r001 ― FlociとTerraformでローカルAWS環境を作り、CSVの取り込みを試す",
-          "link": "https://qiita.com/rino_yume/items/175643415f164a3001e5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-17T00:57:10",
-          "excerpt": "Snowflakeの第一歩 r001 ― FlociとTerraformでローカルAWS環境を作り、CSVの取り込みを試す はじめに 今回は、AWSの部分をまずローカルに用意してみます。利用するのは Floci です。…"
-        },
-        {
-          "title": "Optimizely Compromised, Served Malware on Zoom, GitLab",
-          "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-16T23:00:34",
-          "excerpt": "Article URL: https://blog.report-uri.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "YAPC::Tokyo 2026にGold Sponsorとして協賛します！ | Sansan Tech Blog",
-      "link": "https://buildersbox.corp-sansan.com/entry/2026/11/17/110000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-11-17T02:00:00",
-      "excerpt": "Sansan株式会社は、「YAPC::Tokyo 2026」にGold Sponsorとして協賛します！本記事では、YAPC::Tokyo 2026への協賛の背景と、Sansanメンバーの登壇情報をご紹介します。…"
+      "title": "Essential Azure Skills Every Cloud Professional Should Develop",
+      "link": "https://qiita.com/alisasmith/items/c79097f12f6347f83dd6",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-17T10:23:19",
+      "excerpt": "Essential Azure Skills Every Cloud Professional Should Develop Microsoft Azure provides cloud services for computing, st…"
     },
     {
-      "title": "リーナー開発チームだより#9 〜Cursor 離れ、Gotanda.rbとの関わりなど〜 | リーナー開発者ブログ",
-      "link": "https://developer.leaner.co.jp/entry/2026/11/17/103000",
-      "source": "企業テックブログまとめ",
-      "published": "2026-11-17T01:30:00",
-      "excerpt": "定期コンテンツの開発チームだよりです！今回はふくま(fkm_y)がお送りします。最近の開発チームで話題になっていた作業環境、社内勉強会、地域Rubyコミュニティの話の3本をお届けします。…"
+      "title": "MPs ask what the break clause was for as Palantir wins two more years in the NHS",
+      "link": "https://www.theregister.com/public-sector/2026/11/17/mps-ask-what-the-break-clause-was-for-as-palantir-wins-two-more-years-in-the-nhs/5310348",
+      "source": "The Register（英語）",
+      "published": "2026-11-17T10:15:00",
+      "excerpt": "Ministers promise fresh procurement, but critics warn extension gives US supplier more time to dig in"
     },
     {
-      "title": "ログイン機能があるツールを作るときは必要な個人情報だけを取得・保管するようにしている話",
-      "link": "https://dev.classmethod.jp/articles/login-tools-minimal-personal-data/",
+      "title": "メルカリ、Google Play ストアでアプリが検索・ダウンロードできない状態に",
+      "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003274/",
+      "source": "ITmedia NEWS",
+      "published": "2026-11-17T09:56:19",
+      "excerpt": "11月17日午後6時40分ごろから、Google Playでフリマアプリ「メルカリ」が検索・ダウンロードできない状況だ。"
+    },
+    {
+      "title": "[レポート]「反乱都市」からの報告：イランのAPTグループはいかにして自国民を監視するのか - CODE BLUE 2026 #codeblue_jp #codeblue2026",
+      "link": "https://dev.classmethod.jp/articles/codeblue-2026-day1-track1-1800/",
       "source": "DevelopersIO",
-      "published": "2026-11-17T01:17:08",
-      "excerpt": "侵害は対策を重ねても完全には防げません。侵害を防ぐ対策に加えて、侵害されたときの被害を最小化する「ダメージコントロール」の考え方でツールを作っています。データを保管することは、そのデータが流出したときの責任を負うということです。…"
-    },
-    {
-      "title": "Pentagon fails ninth straight audit despite progress in organizing finances",
-      "link": "https://www.reuters.com/business/aerospace-defense/pentagon-fails-ninth-straight-audit-despite-progress-organizing-finances-2026-11-16/",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-17T00:23:21",
-      "excerpt": "Article URL: https://www.reuters.…"
+      "published": "2026-11-17T09:44:24",
+      "excerpt": "CODE BLUE 2026で行われた「「反乱都市」からの報告：イランのAPTグループはいかにして自国民を監視するのか」というセッションのレポートです。"
     }
   ]
 }
