@@ -1,119 +1,126 @@
 {
-  "generated_at": "2026-11-19T08:07:50",
+  "generated_at": "2026-11-19T17:29:16",
   "window_hours": 24,
-  "total": 165,
+  "total": 164,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が30件。AWS DevOps Agentの構造を抽象的に捉えて、運用AIエージェントで考えるべき観点を整理しています。",
+      "summary": "生成AIの新着が33件。S3 Files なしで直接マウントできた",
       "articles": [
         {
-          "title": "CloudNative Days Winter 2026 で「AWS DevOps Agentの構造から読み解く運用 AI エージェントの設計原則」というテーマで発表しました！ #CNDW2026",
-          "link": "https://dev.classmethod.jp/articles/aws-devops-agent-design-principles/",
+          "title": "[アップデート] Amazon Bedrock AgentCore Runtime で S3 バケットを直接マウントできるようになったので AWS CLI で確認してみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-runtime-s3mount/",
           "source": "DevelopersIO",
-          "published": "2026-11-19T07:58:34",
-          "excerpt": "AWS DevOps Agentの構造を抽象的に捉えて、運用AIエージェントで考えるべき観点を整理しています。"
+          "published": "2026-11-19T17:16:56",
+          "excerpt": "S3 Files なしで直接マウントできた"
         },
         {
-          "title": "顧客理解をチーム全体へ、almaがAIエージェント搭載の「Centou 2.0」をリリース",
-          "link": "https://codezine.jp/article/detail/30426",
-          "source": "CodeZine",
-          "published": "2026-11-19T07:30:00",
-          "excerpt": "顧客理解をチーム全体へ、almaがAIエージェント搭載の「Centou 2.0」をリリース"
+          "title": "Anthropic hits NASDAQ exchanges at $111, 33% above IPO price",
+          "link": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-19T16:59:23",
+          "excerpt": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised."
         },
         {
-          "title": "新機能、ElastiCache の distributed KV caching を GPU 2 台の vLLM で試す",
-          "link": "https://zenn.dev/aws_japan/articles/elasticache-distributed-kv-cache-bench",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-19T06:55:05",
-          "excerpt": "2026 年 11 月に、Amazon ElastiCache for Valkey で distributed KV caching が使えるようになりました（AWS の What's New）。…"
+          "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+          "link": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-19T16:19:41",
+          "excerpt": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless o…"
         },
         {
-          "title": "GPUとゼロスケールに対応したLambda Managed InstancesでLLMを実行する関数を作って動かしたら、コールドスタートに約4分20秒かかった",
-          "link": "https://dev.classmethod.jp/articles/lambda-managed-instances-gpu-vllm-scale-to-zero/",
-          "source": "DevelopersIO",
-          "published": "2026-11-19T06:38:37",
-          "excerpt": "最近相次いで発表されたLambda Managed InstancesのGPU対応とゼロスケール機能。実際にg6e.…"
+          "title": "マイクロソフト、クラウドやオンプレミスのデータベースを一元管理する「Database Hub」正式リリース。AIエージェントによる運用監視の自動化も",
+          "link": "https://www.publickey1.jp/blog/26/database_hubai.html",
+          "source": "Publickey",
+          "published": "2026-11-19T15:19:21",
+          "excerpt": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、Microsoft Azureやオンプレミス、他社クラウドにあるデータベースなど、管理者が権限を持つデータベースを自動的に一覧表…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。最近相次いで発表されたLambda Managed InstancesのGPU対応とゼロスケール機能。実際にg6e.…",
+      "summary": "クラウドの新着が16件。S3 Files なしで直接マウントできた",
       "articles": [
         {
-          "title": "GPUとゼロスケールに対応したLambda Managed InstancesでLLMを実行する関数を作って動かしたら、コールドスタートに約4分20秒かかった",
-          "link": "https://dev.classmethod.jp/articles/lambda-managed-instances-gpu-vllm-scale-to-zero/",
+          "title": "[アップデート] Amazon Bedrock AgentCore Runtime で S3 バケットを直接マウントできるようになったので AWS CLI で確認してみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-runtime-s3mount/",
           "source": "DevelopersIO",
-          "published": "2026-11-19T06:38:37",
-          "excerpt": "最近相次いで発表されたLambda Managed InstancesのGPU対応とゼロスケール機能。実際にg6e.…"
+          "published": "2026-11-19T17:16:56",
+          "excerpt": "S3 Files なしで直接マウントできた"
         },
         {
-          "title": "CloudFront 標準ログ(v2)の CMCD と追加フィールドを CloudWatch Logs へ出力してみた",
-          "link": "https://dev.classmethod.jp/articles/cloudfront-standard-logging-cmcd-fields/",
+          "title": "Amazon RDS の高速ストレージボリューム初期化がサポートされました",
+          "link": "https://dev.classmethod.jp/articles/rds-fast-storage-volume-initialization/",
           "source": "DevelopersIO",
-          "published": "2026-11-19T06:31:14",
-          "excerpt": "Amazon CloudFront の標準ログ(v2)で、CMCD と追加フィールドを CloudWatch Logs へ出力しました。…"
+          "published": "2026-11-19T16:46:37",
+          "excerpt": "Amazon RDS の高速ストレージボリューム初期化を、gp3 と gp2 の RDS for MySQL で比べました。…"
         },
         {
-          "title": "GA になった Amazon RDS for MySQL 9.7.4 を試してみた",
-          "link": "https://dev.classmethod.jp/articles/rds-mysql-9-7-4-new-features/",
-          "source": "DevelopersIO",
-          "published": "2026-11-19T05:10:43",
-          "excerpt": "Amazon RDS for MySQL 9.7.4 で、Hypergraph Optimizer、JSON Duality Views、Replication Applier Metrics を試しました。8.…"
+          "title": "Db2移行案件で実際に使ったLinuxコマンド10選｜RHEL9/AWS環境での実務例｜インフラエンジニア・O執筆",
+          "link": "https://qiita.com/Oursship/items/a91151272b6a7989e331",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-19T16:33:25",
+          "excerpt": "はじめに 私は直近の案件で、AWS上のRHEL9環境に構築されたDb2 LUWの移行プロジェクトに参画していました。移行作業や障害調査、HADRやPacemakerの動作確認を行う中で、日常的にLinuxコマンドを利用していました。…"
         },
         {
-          "title": "Amazon Aurora DSQL の監査ログの使い方",
-          "link": "https://aws.amazon.com/jp/blogs/news/how-to-use-amazon-aurora-dsql-audit-logs/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-11-19T04:43:35",
-          "excerpt": "Amazon Aurora DSQL の監査ログで、SELECT を含む SQL ステートメントをロールごとに記録する方法を紹介します。…"
+          "title": "Amazon S3 レプリケーションの除外と Multi-Region key resolution を試してみた",
+          "link": "https://dev.classmethod.jp/articles/s3-replication-exclusions-multi-region-key/",
+          "source": "DevelopersIO",
+          "published": "2026-11-19T15:51:24",
+          "excerpt": "Amazon S3 レプリケーションの除外と Multi-Region key resolution を、東京からバージニア北部への複製で試しました。プレフィックスの除外は、Filter の Not で指定できました。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が23件。こんにちは！ウォンテッドリーでインフラエンジニアをしている加藤 健です。昨今、不正アクセスによる情報漏えいが相次ぎ...",
+      "summary": "セキュリティの新着が25件。Article URL: https://macanorak.…",
       "articles": [
         {
-          "title": "WAF 初心者が AWS マネージドルールで攻撃をブロックするまで | Wantedly Engineer Blog",
-          "link": "https://www.wantedly.com/companies/wantedly/post_articles/1106935",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-19T08:00:12",
-          "excerpt": "こんにちは！ウォンテッドリーでインフラエンジニアをしている加藤 健です。昨今、不正アクセスによる情報漏えいが相次ぎ..."
+          "title": "UK Government Forced to Admit It Issued Apple a Secret Encryption Order",
+          "link": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-19T16:21:03",
+          "excerpt": "Article URL: https://macanorak.…"
         },
         {
-          "title": "nginx「緊急」脆弱性、官房長官が「必要な措置」呼び掛け",
-          "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003334/",
+          "title": "美少女ゲーム「NIKKE」経由でマルウェア感染　北海道2自治体、委託先が認める",
+          "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003351/",
           "source": "ITmedia NEWS",
-          "published": "2026-11-19T06:30:00",
-          "excerpt": "nginx脆弱性を受け、木原稔官房長官は利用事業者に対して「必要な措置を取ることをお願いしたい」と呼び掛けた。"
+          "published": "2026-11-19T11:04:47",
+          "excerpt": "北海道岩見沢市と新得町で、業務の再委託先がマルウェアに感染し、個人情報が漏えいした恐れがある。委託先のGIS北海道は取材に対し、ゲーム「NIKKE」経由の感染を認めた。業務用PCでゲームを起動したかは回答を控えた。"
         },
         {
-          "title": "Microsoftの「Agent Framework」が侵害され、認証情報を盗む不正版がPyPIで公開",
-          "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003332/",
+          "title": "脆弱性で話題「nginx」なんて読む？　「ンギンクス」ではなく……",
+          "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003338/",
           "source": "ITmedia NEWS",
-          "published": "2026-11-19T05:58:26",
-          "excerpt": "MicrosoftのAIエージェント開発用SDK「Microsoft Agent Framework」のPythonパッケージが侵害され、認証情報を盗む不正版「1.26.1」「1.26.2」がPyPIで一時公開された。…"
+          "published": "2026-11-19T09:18:57",
+          "excerpt": "素直に読むと「ンギンクス」だし、「エヌジーアイエヌエックス」「エヌジンクス」などと発音する人もいるようだが……。"
         },
         {
-          "title": "IAM Access Troubleshooter で AccessDenied の認可 ID から拒否したポリシーを特定してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-iam-access-troubleshooter-authorization-id/",
-          "source": "DevelopersIO",
-          "published": "2026-11-19T05:25:11",
-          "excerpt": "AWS IAM の Access Troubleshooter を試しました。AccessDenied エラーの認可 ID から、拒否したポリシーと statement、各チェックの結果、拒否時点のポリシー文書を取得できました。"
+          "title": "生成 AI セキュリティを強化する – SATv2 で始めるマルチアカウント環境の LLM ジャッキング対策",
+          "link": "https://aws.amazon.com/jp/blogs/news/llmjacking-protection-with-satv2/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-11-19T09:17:07",
+          "excerpt": "組織が生成 AI の利用を拡大すると、手軽に使用できるクラウド上の PoC 環境やサンドボックス開発環境が整備 […]"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。Article URL: https://www.ruby-lang.…",
+      "summary": "データ分析の新着が7件。Norwegian energy giant Equinor says oil and gas production remains unaffected",
       "articles": [
+        {
+          "title": "Europe's biggest gas supplier battling cyberattack – with no timeline for recovery",
+          "link": "https://www.theregister.com/cyber-crime/2026/11/19/europes-biggest-gas-supplier-battling-cyberattack-with-no-timeline-for-recovery/5311026",
+          "source": "The Register（英語）",
+          "published": "2026-11-19T15:37:00",
+          "excerpt": "Norwegian energy giant Equinor says oil and gas production remains unaffected"
+        },
         {
           "title": "Multiple vulnerabilities in Regexp and String case conversion",
           "link": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
@@ -134,21 +141,21 @@
           "source": "AWS What's New（英語）",
           "published": "2026-11-18T21:09:00",
           "excerpt": "Today, AWS announced the general availability of Amazon OpenSearch Memory, a new serverless capability in Amazon OpenSea…"
-        },
-        {
-          "title": "Windows Server 2028 trades compatibility for out-of-the-box security",
-          "link": "https://arstechnica.com/gadgets/2026/11/windows-server-2028-public-preview-bets-on-a-security-first-approach/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-11-18T20:41:12",
-          "excerpt": "Hardened defaults align with DoD standards, but there may be growing pains."
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。GitHub Copilot Fusionがモデル追加と利用環境を拡大、公開ベンチマークにも掲載",
+      "summary": "開発ツールの新着が6件。S3 Files なしで直接マウントできた",
       "articles": [
+        {
+          "title": "[アップデート] Amazon Bedrock AgentCore Runtime で S3 バケットを直接マウントできるようになったので AWS CLI で確認してみた",
+          "link": "https://dev.classmethod.jp/articles/agentcore-runtime-s3mount/",
+          "source": "DevelopersIO",
+          "published": "2026-11-19T17:16:56",
+          "excerpt": "S3 Files なしで直接マウントできた"
+        },
         {
           "title": "GitHub Copilot Fusionがモデル追加と利用環境を拡大、公開ベンチマークにも掲載",
           "link": "https://codezine.jp/article/detail/30412",
@@ -169,45 +176,38 @@
           "source": "CodeZine",
           "published": "2026-11-19T00:00:00",
           "excerpt": "GitHub、ポーリング不要でイベントを受信する「Event Streams」をプレビュー提供"
-        },
-        {
-          "title": "AWS Blocksが「CDK Blocks」へ昇格？aws/cdk-blocksへの移管と改名で変わるもの | GENDAのフィード",
-          "link": "https://zenn.dev/genda_jp/articles/3d4beb31a2c53e",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-18T23:18:39",
-          "excerpt": "今朝、AWS Blocksのリポジトリを開いたら、URLが変わっていました。https://github.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "【Microsoft Ignite 2026 現地レポート Day2】大雨で展示会場が閉鎖！？ ガバナンス漬けの1日と、Chase Center の Celebration | APC 技術ブログ",
-      "link": "https://techblog.ap-com.co.jp/entry/2026/11/19/165851",
-      "source": "企業テックブログまとめ",
-      "published": "2026-11-19T07:58:51",
-      "excerpt": "こんにちは。クラウド事業部の宇野です。サンフランシスコで開催中の Microsoft Ignite 2026 に現地参加しています。本記事は Day2（11月18日） のレポートです。Day2 は、朝から大雨。…"
+      "title": "NAND prices tipped to fall as Chinese cloud giants cut SSD orders",
+      "link": "https://www.theregister.com/systems/2026/11/19/nand-prices-tipped-to-fall-as-chinese-cloud-giants-cut-ssd-orders/5311116",
+      "source": "The Register（英語）",
+      "published": "2026-11-19T17:02:00",
+      "excerpt": "TrendForce sees supply outpacing demand in 2027, though cheaper flash won't fix the DRAM squeeze"
     },
     {
-      "title": "【Microsoft Ignite 2026】Day 2：ブレイクアウトセッションとラボ、公式パーティーに参加してきました | Alternative Architecture DOJO",
-      "link": "https://aadojo.alterbooth.com/entry/2026/11/19/165748",
-      "source": "企業テックブログまとめ",
-      "published": "2026-11-19T07:57:48",
-      "excerpt": "皆さんこんにちは、やしきんこと中屋敷です。今日は Microsoft Ignite Day 2 です！本日はブレイクアウトセッション、ラボ、そして夜の公式パーティーに参加してきたので、その内容についてまとめます。…"
+      "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "link": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-19T17:00:00",
+      "excerpt": "Everful has raised $48.…"
     },
     {
-      "title": "セッション枠を使い切るための、トークンマネジメントの取り組み | Link and Motivation Developers' Blog",
-      "link": "https://link-and-motivation.hatenablog.com/entry/2026/11/19/163754",
-      "source": "企業テックブログまとめ",
-      "published": "2026-11-19T07:37:54",
-      "excerpt": "こんにちは。リンクアンドモチベーション データユニットの みく / Ryo Koizumi (@slpwalks) です。…"
+      "title": "Chrome AI Features Wasting Much Bandwidth",
+      "link": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-19T16:54:25",
+      "excerpt": "Article URL: https://perishablepress.com/chrome-ai-wasting-much-bandwidth/ Comments URL: https://news.ycombinator.…"
     },
     {
-      "title": "【Nx Plugin for AWS】ジェネレーターを作成して、カスタマイズしたリソースを構築する | ForgeVision Engineer Blog",
-      "link": "https://techblog.forgevision.com/entry/nx-plugin-for-aws-self-generator",
-      "source": "企業テックブログまとめ",
-      "published": "2026-11-19T07:29:40",
-      "excerpt": "こんにちは、藤岡(@fujioka_aa)です。…"
+      "title": "同じコードをローカル・AWS・Azureで動かす：設計書レビュー基盤で学ぶクラウドとMCP",
+      "link": "https://qiita.com/maya-bot/items/212aff914a7fc15120b2",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-19T16:38:46",
+      "excerpt": "AWSやAzureの勉強をしていると、「サービスの名前は覚えたけれど、実際にどう組み合わせるのか分からない」となりがちです。…"
     }
   ]
 }
