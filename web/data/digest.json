@@ -1,119 +1,126 @@
 {
-  "generated_at": "2026-11-21T02:55:10",
+  "generated_at": "2026-11-21T10:24:03",
   "window_hours": 24,
-  "total": 153,
+  "total": 133,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。Mountpoint や S3 Files を使わなくても、SageMaker Studio の JupyterLab から s3fs で S3 のファイルを直接読めました。",
+      "summary": "生成AIの新着が19件。Amazon Bedrock AgentCore Identityのディスカバリー機能がRFC 8414（OAuth 2.0）に対応しました！",
       "articles": [
         {
-          "title": "Amazon SageMaker Studio でマウントせずに s3fs で Amazon S3 のファイルを直接読めるか確認してみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-sagemaker-studio-s3fs/",
+          "title": "[アップデート] Amazon Bedrock AgentCore IdentityのディスカバリーURLがOAuth 2.0の認可サーバーメタデータに対応しました！",
+          "link": "https://dev.classmethod.jp/articles/agentcore-identity-oauth2-discovery/",
           "source": "DevelopersIO",
-          "published": "2026-11-21T02:15:57",
-          "excerpt": "Mountpoint や S3 Files を使わなくても、SageMaker Studio の JupyterLab から s3fs で S3 のファイルを直接読めました。"
+          "published": "2026-11-21T08:25:40",
+          "excerpt": "Amazon Bedrock AgentCore Identityのディスカバリー機能がRFC 8414（OAuth 2.0）に対応しました！"
         },
         {
-          "title": "中国と関連のある脅威アクターが使用した Cairn の AI エージェントがゼロデイ脆弱性を自律的に発見した事例",
-          "link": "https://aws.amazon.com/jp/blogs/news/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+          "title": "Claude Code v2.1.330 の主要アップデート - チャートを描く組み込み mod easel の追加と deniedMcpServers の挙動変更",
+          "link": "https://dev.classmethod.jp/articles/20261121-cc-updates-v2-1-330/",
+          "source": "DevelopersIO",
+          "published": "2026-11-21T07:13:38",
+          "excerpt": "Claude Code v2.1.330 では、チャートを描く組み込み mod「easel」が追加されました。…"
+        },
+        {
+          "title": "Amazon Bedrock AgentCore Evaluationsでエージェントの評価からA/Bテストまで試してみた",
+          "link": "https://zenn.dev/fusic/articles/a2f275c81a127c",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-21T06:39:50",
+          "excerpt": "はじめに Fusicのレオナです。…"
+        },
+        {
+          "title": "[AI-Driven Modernization] 既存コードからAIエージェント向けの仕様書を起こす「Reverse Spec Flow」を公開しました",
+          "link": "https://aws.amazon.com/jp/blogs/news/aidm-introducing-reverse-spec-flow/",
           "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-11-21T00:57:57",
-          "excerpt": "Amazon Threat Intelligence が調査した、中国と関連のある脅威アクターによる自律型 AI エージェントを使った攻撃を紹介します。…"
-        },
-        {
-          "title": "Amazon Bedrock のウェブ検索により、言語サポートと国を意識した検索が拡張されました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-21T00:17:00",
-          "excerpt": "Amazon Bedrock の Web 検索は、AI エージェントとアプリケーションを引用した最新の Web 情報に基づいて作成するツールで、Amazon Bedrock AgentCore と Amazon Bedrock で 5 つの…"
-        },
-        {
-          "title": "Claudeを使い「リーマン予想」を証明か　Anthropic数学者が発表　Lean検証も通過、数学界が精査へ",
-          "link": "https://japan.cnet.com/article/35255245/",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-20T23:02:01",
-          "excerpt": "米アンソロピックの数学者Levent Alpöge氏は11月20日、生成AI「Claude」と研究を進め、素数の分布に関わる難問「リーマン予想」の証明を見つけたとする声明を個人サイトで公開した。…"
+          "published": "2026-11-21T05:54:49",
+          "excerpt": "既存のソースコードから、根拠付きで検証済みの「AIフレンドリーな仕様書」を起こすワークフロー Reverse Spec Flow を公開しました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。Mountpoint や S3 Files を使わなくても、SageMaker Studio の JupyterLab から s3fs で S3 のファイルを直接読めました。",
+      "summary": "クラウドの新着が17件。課題 最近PoCを進める際にこんな悩みがありました。…",
       "articles": [
         {
-          "title": "Amazon SageMaker Studio でマウントせずに s3fs で Amazon S3 のファイルを直接読めるか確認してみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-sagemaker-studio-s3fs/",
-          "source": "DevelopersIO",
-          "published": "2026-11-21T02:15:57",
-          "excerpt": "Mountpoint や S3 Files を使わなくても、SageMaker Studio の JupyterLab から s3fs で S3 のファイルを直接読めました。"
+          "title": "ECSのアプリへSSMを使ったポートフォワーディングでアクセスする",
+          "link": "https://qiita.com/har1101/items/9b6902c42a637117798a",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-21T09:45:32",
+          "excerpt": "課題 最近PoCを進める際にこんな悩みがありました。…"
         },
         {
-          "title": "Amazon RDS for Oracle がプライマリエンドポイントをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-primary-endpoint-v2/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-20T22:54:00",
-          "excerpt": "Amazon Relational Database Service (Amazon RDS) for Oracle は、レプリカ構成内の現在のプライマリ DB インスタンスに常に解決される DNS 名であるプライマリ エンドポイントを提供…"
+          "title": "パスワード、放置VPN、休眠ID……“初歩的な隙”ばかり？　重要インフラへの攻撃パターンとその対策",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/21/news009.html",
+          "source": "@IT",
+          "published": "2026-11-21T08:15:00",
+          "excerpt": "Microsoftは重要インフラを取り巻くサイバー脅威が構造的に変化している状況を解説するレポートを公開した。IDを起点とした攻撃や、国家主体の長期潜伏型の攻撃に警戒が必要だ。"
         },
         {
-          "title": "Amazon RDS for Oracle がダウンタイムを削減するためにレプリカの最初のパッチをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-replica-first-patching/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-20T22:00:00",
-          "excerpt": "Amazon Relational Database Service (Amazon RDS) for Oracle は、レプリカの最初のパッチ適用をサポートするようになりました。…"
+          "title": "【AWS】EC2間でSMB認証に失敗！Sysprep未実行のAMIが原因だった話",
+          "link": "https://qiita.com/MobABC/items/0f3711044077480b8605",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-21T08:06:44",
+          "excerpt": "はじめに AWS上に構築した2台のWindows EC2インスタンス間で、SMBによるファイル共有を行おうとしたところ、認証エラーが発生し、共有フォルダにアクセスできない事象に遭遇しました。…"
         },
         {
-          "title": "Amazon CloudWatch Observability EKS アドオンがカスタム OpenTelemetry および Prometheus テレメトリをサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-addon-custom-telemetry/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-20T20:05:00",
-          "excerpt": "本日、Amazon CloudWatch は、CloudWatch Observability EKS アドオンでの独自のアプリケーション テレメトリのサポートを発表しました。…"
+          "title": "IPv6前提のコンテナ間通信 PrivateLink・VPC Lattice・VPCエンドポイントを実測で比べる",
+          "link": "https://zenn.dev/mob_engineer/articles/20261121-ipv6-container-network-mob_engineer",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-21T06:30:44",
+          "excerpt": "サマリ IPv6 を前提にコンテナ同士をつなぐとき、PrivateLink、VPC Lattice、VPC エンドポイントのどれを使えばいいのか、迷ったことはありませんか。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が15件。2026 年 11 月 30 日～12 月 4 日にラスベガスで開催される re:Invent 2026 に向けて、AWS の Security, Identity, and Governance トラックの見どころを紹介します。…",
+      "summary": "セキュリティの新着が13件。Amazon Bedrock AgentCore Identityのディスカバリー機能がRFC 8414（OAuth 2.0）に対応しました！",
       "articles": [
         {
-          "title": "re:Invent 2026 の AWS Security, Identity, and Governance ガイド: セキュリティセッションの見どころ",
-          "link": "https://aws.amazon.com/jp/blogs/news/your-aws-security-identity-and-governance-guide-to-reinvent-2026/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-11-21T01:12:36",
-          "excerpt": "2026 年 11 月 30 日～12 月 4 日にラスベガスで開催される re:Invent 2026 に向けて、AWS の Security, Identity, and Governance トラックの見どころを紹介します。…"
+          "title": "[アップデート] Amazon Bedrock AgentCore IdentityのディスカバリーURLがOAuth 2.0の認可サーバーメタデータに対応しました！",
+          "link": "https://dev.classmethod.jp/articles/agentcore-identity-oauth2-discovery/",
+          "source": "DevelopersIO",
+          "published": "2026-11-21T08:25:40",
+          "excerpt": "Amazon Bedrock AgentCore Identityのディスカバリー機能がRFC 8414（OAuth 2.0）に対応しました！"
         },
         {
-          "title": "中国と関連のある脅威アクターが使用した Cairn の AI エージェントがゼロデイ脆弱性を自律的に発見した事例",
-          "link": "https://aws.amazon.com/jp/blogs/news/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-11-21T00:57:57",
-          "excerpt": "Amazon Threat Intelligence が調査した、中国と関連のある脅威アクターによる自律型 AI エージェントを使った攻撃を紹介します。…"
+          "title": "【AWS】EC2間でSMB認証に失敗！Sysprep未実行のAMIが原因だった話",
+          "link": "https://qiita.com/MobABC/items/0f3711044077480b8605",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-21T08:06:44",
+          "excerpt": "はじめに AWS上に構築した2台のWindows EC2インスタンス間で、SMBによるファイル共有を行おうとしたところ、認証エラーが発生し、共有フォルダにアクセスできない事象に遭遇しました。…"
         },
         {
-          "title": "Amazon Inspectorでサーバの脆弱性を監視する",
-          "link": "https://zenn.dev/hirata_infosys/articles/8a29d5efc37060",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-20T22:00:05",
-          "excerpt": "はじめに 昨今のセキュリティインシデントの増加を受けて、AWSで管理しているサーバの脆弱性監視を設定しました。Amazon InspectorはAWSが提供する脆弱性管理サービスです。…"
+          "title": "Cloudflare Radarの「Zero Wire」、脆弱性の影響範囲や深刻度を調べられるページをCVEごとに公開",
+          "link": "https://gihyo.jp/article/2026/11/cloudflare-zero-wire-cve-pages?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-11-21T07:57:36",
+          "excerpt": "Cloudflareは2026年11月20日、Cloudflare Radarの脆弱性情報サイト「Zero Wire」に、公開済みのCVEすべての個別ページを追加した。…"
         },
         {
-          "title": "Security Hub CSPM を有効にせず、Claude Code と FSBP の 363 項目を「1 つずつ」点検する計画を立てた",
-          "link": "https://zenn.dev/sk8jp/articles/8727ce1072b8b9",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-20T20:34:46",
-          "excerpt": "はじめに 以前の記事「週末 Solo Engineer が、Claude Code に「仕事の型」を覚えさせた話」で、Claude Code にスキルやエージェントの形で作業の手順を覚えさせ、承認が要るところでは必ず止まるようにしている、と…"
+          "title": "[アップデート] Amazon Bedrock AgentCore Identityがプライベート認証局（CA）に対応しました！",
+          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-identity-private-ca/",
+          "source": "DevelopersIO",
+          "published": "2026-11-21T04:41:02",
+          "excerpt": "Amazon Bedrock AgentCore IdentityがプライベートCAの証明書に対応しました！"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が11件。本日、Amazon CloudWatch は、CloudWatch Observability EKS アドオンでの独自のアプリケーション テレメトリのサポートを発表しました。…",
+      "summary": "データ分析の新着が5件。It isn't only systems on Earth suffering technical problems",
       "articles": [
+        {
+          "title": "NASA Mars rover and orbiter suffer glitches",
+          "link": "https://www.theregister.com/science/2026/11/21/nasa-mars-rover-and-orbiter-suffer-glitches/5311360",
+          "source": "The Register（英語）",
+          "published": "2026-11-21T07:47:00",
+          "excerpt": "It isn't only systems on Earth suffering technical problems"
+        },
         {
           "title": "Amazon CloudWatch Observability EKS アドオンがカスタム OpenTelemetry および Prometheus テレメトリをサポートするようになりました",
           "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-addon-custom-telemetry/",
@@ -134,21 +141,21 @@
           "source": "DevelopersIO",
           "published": "2026-11-20T18:36:31",
           "excerpt": "Amazon EMR Serverless の Flex execution は、余剰のコンピューティング容量を活用し、コストを最大 60% 削減できるとされている実行オプションです。…"
-        },
-        {
-          "title": "「Windows Server 2028」で「WSUS」や「SMB 1.0」、「VBScript」などが削除へ／「Windows PowerShell 5.1」「WDS」は非推奨に、レガシーBIOSでの起動も不可",
-          "link": "https://forest.watch.impress.co.jp/docs/news/2158261.html",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-20T11:11:54",
-          "excerpt": "「Windows Server 2028」で「WSUS」や「SMB 1.0」、「VBScript」などが削除へ／「Windows PowerShell 5.1」「WDS」は非推奨に、レガシーBIOSでの起動も不可"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が8件。SAM CLIも対応",
+      "summary": "開発ツールの新着が6件。Azure DevOps、GitHub Copilotアプリとの統合をパブリックプレビューで提供開始",
       "articles": [
+        {
+          "title": "Azure DevOps、GitHub Copilotアプリとの統合をパブリックプレビューで提供開始",
+          "link": "https://codezine.jp/article/detail/30435",
+          "source": "CodeZine",
+          "published": "2026-11-21T04:00:00",
+          "excerpt": "Azure DevOps、GitHub Copilotアプリとの統合をパブリックプレビューで提供開始"
+        },
         {
           "title": "[アップデート] AWS SAM CLI でも customer-managed runtimes を使えるようになったので、awk でカスタムランタイムを作ってみた",
           "link": "https://dev.classmethod.jp/articles/sam-cli-lambda-customer-managed-runtime/",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-20T16:12:45",
           "excerpt": "ECS Fargateは、サーバーの管理がいらない代わりに、EC2より料金が高めです。開発環境や、止まってもすぐに作り直せる処理であれば、Fargate Spotを使うと料金を大きく下げられます。…"
-        },
-        {
-          "title": "AWS Lambda Durable Execution SDK for Rust が GA になったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-lambda-durable-sdk-rust-ga/",
-          "source": "DevelopersIO",
-          "published": "2026-11-20T13:10:47",
-          "excerpt": "Lambda durable functions の処理を Rust で書ける SDK が GA になりました。Quickstart の関数を Cargo Lambda でビルドして provided.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Kiro のリモートワークスペース: コードとコンピューティングリソースがすでにある場所で IDE を使う",
-      "link": "https://aws.amazon.com/jp/blogs/news/remote-workspaces/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-11-21T02:52:51",
-      "excerpt": "ワークスペースを手元のノート PC に直接置いておく必要はなくなりました。…"
+      "title": "AWS ユーザー向け gcloud 入門：ログインが 2 種類あることと「構成」の切り替え",
+      "link": "https://qiita.com/leomarokun/items/dad11fb5716cd2ef59d3",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-21T08:17:39",
+      "excerpt": "はじめに gcloud は AWS CLI に近いコマンドですが、ログインが 2 種類あります。ここを知らないと「gcloud は動くのに、Terraform だけ認証エラーになる」という状態にハマります。…"
     },
     {
-      "title": "Kiro のクラウドセッションからプライベートネットワークにアクセスできるようになりました",
-      "link": "https://aws.amazon.com/jp/blogs/news/private-networks/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-11-21T02:51:34",
-      "excerpt": "Kiro のクラウドセッションを、管理者が設定した VPC に接続できるようになりました。…"
+      "title": "【追加登録参加者にも】「Developers X Summit 2026」登録者にはレポートPDFプレゼント",
+      "link": "https://codezine.jp/article/detail/30436",
+      "source": "CodeZine",
+      "published": "2026-11-21T08:00:00",
+      "excerpt": "【追加登録参加者にも】「Developers X Summit 2026」登録者にはレポートPDFプレゼント"
     },
     {
-      "title": "Kiro for VS Code のご紹介",
-      "link": "https://aws.amazon.com/jp/blogs/news/kiro-for-vs-code/",
-      "source": "AWS 公式ブログ（日本語）",
-      "published": "2026-11-21T02:50:43",
-      "excerpt": "本日、Kiro for VS Code の一般提供を macOS、Windows、Linux で開始しました。…"
+      "title": "途中の公開失敗を、成功扱いで隠さない",
+      "link": "https://zenn.dev/miyakona/articles/checkpoint-failure-keeps-pending",
+      "source": "Zenn AWSトピック",
+      "published": "2026-11-21T07:46:03",
+      "excerpt": "短い回線断で、夜間バッチが終わってしまった 数時間かけてファイルを処理する夜間バッチで、途中の公開に失敗し、残りの処理が翌日の実行へ持ち越されることがありました。…"
     },
     {
-      "title": "ガロア群 S_p を使用した多項式の積分",
-      "link": "https://m-slee.netlify.app/posts/integrals-galois-polynomials",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-21T01:17:05",
-      "excerpt": "記事の URL: https://m-slee.netlify.app/posts/integrals-galois-polynomials コメント URL: https://news.ycombinator.com/item?…"
+      "title": "ルートのサインインの通知、設定はあるのに鳴らなかった",
+      "link": "https://zenn.dev/sk8jp/articles/601289cfe7f32a",
+      "source": "Zenn AWSトピック",
+      "published": "2026-11-21T07:38:46",
+      "excerpt": "はじめに 前回の記事「Security Hub CSPM を有効にせず、Claude Code と FSBP の 363 項目を「1 つずつ」点検する計画を立てた」で、AWS の基準（FSBP）の項目を、Claude Code と一緒に 1…"
     }
   ]
 }
