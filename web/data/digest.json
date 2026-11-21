@@ -1,49 +1,56 @@
 {
-  "generated_at": "2026-11-21T10:24:03",
+  "generated_at": "2026-11-21T17:41:14",
   "window_hours": 24,
-  "total": 133,
+  "total": 114,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。Amazon Bedrock AgentCore Identityのディスカバリー機能がRFC 8414（OAuth 2.0）に対応しました！",
+      "summary": "生成AIの新着が20件。We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents d…",
       "articles": [
         {
-          "title": "[アップデート] Amazon Bedrock AgentCore IdentityのディスカバリーURLがOAuth 2.0の認可サーバーメタデータに対応しました！",
-          "link": "https://dev.classmethod.jp/articles/agentcore-identity-oauth2-discovery/",
+          "title": "Here are the top AI agents that can live in your text messages",
+          "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-21T17:00:00",
+          "excerpt": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents d…"
+        },
+        {
+          "title": "ChatGPT shrunk down to run on a Super Nintendo",
+          "link": "https://www.theregister.com/offbeat/2026/11/21/chatgpt-shrunk-down-to-run-on-a-super-nintendo/5311418",
+          "source": "The Register（英語）",
+          "published": "2026-11-21T11:46:00",
+          "excerpt": "Just don't expect complex, coherent, or always correct answers"
+        },
+        {
+          "title": "GitHub - mitaku/andon: A one-person software factory: AI coding agents take tasks from a ledger through review to merge, and call the human only for decisions only they can make.",
+          "link": "https://github.com/mitaku/andon",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-21T10:52:10",
+          "excerpt": "Andon — a one-person software factory.…"
+        },
+        {
+          "title": "Windows の Claude Desktop を aws login で Amazon Bedrock を使う設定手順",
+          "link": "https://dev.classmethod.jp/articles/claude-desktop-windows-bedrock-aws-login/",
           "source": "DevelopersIO",
-          "published": "2026-11-21T08:25:40",
-          "excerpt": "Amazon Bedrock AgentCore Identityのディスカバリー機能がRFC 8414（OAuth 2.0）に対応しました！"
-        },
-        {
-          "title": "Claude Code v2.1.330 の主要アップデート - チャートを描く組み込み mod easel の追加と deniedMcpServers の挙動変更",
-          "link": "https://dev.classmethod.jp/articles/20261121-cc-updates-v2-1-330/",
-          "source": "DevelopersIO",
-          "published": "2026-11-21T07:13:38",
-          "excerpt": "Claude Code v2.1.330 では、チャートを描く組み込み mod「easel」が追加されました。…"
-        },
-        {
-          "title": "Amazon Bedrock AgentCore Evaluationsでエージェントの評価からA/Bテストまで試してみた",
-          "link": "https://zenn.dev/fusic/articles/a2f275c81a127c",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-21T06:39:50",
-          "excerpt": "はじめに Fusicのレオナです。…"
-        },
-        {
-          "title": "[AI-Driven Modernization] 既存コードからAIエージェント向けの仕様書を起こす「Reverse Spec Flow」を公開しました",
-          "link": "https://aws.amazon.com/jp/blogs/news/aidm-introducing-reverse-spec-flow/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-11-21T05:54:49",
-          "excerpt": "既存のソースコードから、根拠付きで検証済みの「AIフレンドリーな仕様書」を起こすワークフロー Reverse Spec Flow を公開しました。…"
+          "published": "2026-11-21T10:28:02",
+          "excerpt": "Windows の Claude Desktop から aws login の認証情報で Amazon Bedrock を使えるようにする手順をまとめました。"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が17件。課題 最近PoCを進める際にこんな悩みがありました。…",
+      "summary": "クラウドの新着が12件。地震予測システムをS3で公開した。公開するにあたり、Geminiに脆弱性診断をしてもらい、結果をMuseに渡して対策した記録。個人が作った小さなサイトでも、公開した瞬間に攻撃面は増える。要点だけ整理する。…",
       "articles": [
+        {
+          "title": "S3公開サイトの脆弱性診断と対策の要点整理",
+          "link": "https://qiita.com/Maruo110/items/e7596810ee2da86cd6a8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-21T14:30:25",
+          "excerpt": "地震予測システムをS3で公開した。公開するにあたり、Geminiに脆弱性診断をしてもらい、結果をMuseに渡して対策した記録。個人が作った小さなサイトでも、公開した瞬間に攻撃面は増える。要点だけ整理する。…"
+        },
         {
           "title": "ECSのアプリへSSMを使ったポートフォワーディングでアクセスする",
           "link": "https://qiita.com/har1101/items/9b6902c42a637117798a",
@@ -64,21 +71,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-21T08:06:44",
           "excerpt": "はじめに AWS上に構築した2台のWindows EC2インスタンス間で、SMBによるファイル共有を行おうとしたところ、認証エラーが発生し、共有フォルダにアクセスできない事象に遭遇しました。…"
-        },
-        {
-          "title": "IPv6前提のコンテナ間通信 PrivateLink・VPC Lattice・VPCエンドポイントを実測で比べる",
-          "link": "https://zenn.dev/mob_engineer/articles/20261121-ipv6-container-network-mob_engineer",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-21T06:30:44",
-          "excerpt": "サマリ IPv6 を前提にコンテナ同士をつなぐとき、PrivateLink、VPC Lattice、VPC エンドポイントのどれを使えばいいのか、迷ったことはありませんか。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。Amazon Bedrock AgentCore Identityのディスカバリー機能がRFC 8414（OAuth 2.0）に対応しました！",
+      "summary": "セキュリティの新着が10件。地震予測システムをS3で公開した。公開するにあたり、Geminiに脆弱性診断をしてもらい、結果をMuseに渡して対策した記録。個人が作った小さなサイトでも、公開した瞬間に攻撃面は増える。要点だけ整理する。…",
       "articles": [
+        {
+          "title": "S3公開サイトの脆弱性診断と対策の要点整理",
+          "link": "https://qiita.com/Maruo110/items/e7596810ee2da86cd6a8",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-21T14:30:25",
+          "excerpt": "地震予測システムをS3で公開した。公開するにあたり、Geminiに脆弱性診断をしてもらい、結果をMuseに渡して対策した記録。個人が作った小さなサイトでも、公開した瞬間に攻撃面は増える。要点だけ整理する。…"
+        },
+        {
+          "title": "iOSアプリ開発の気になる変更まとめ（2026/11/21）：Bitriseのセキュリティインシデント、Xcode 27.3 beta 2ほか",
+          "link": "https://dev.classmethod.jp/articles/ios-dev-weekly-changes-20261121/",
+          "source": "DevelopersIO",
+          "published": "2026-11-21T12:48:17",
+          "excerpt": "Bitriseのインシデント報告書で示された顧客への影響と対応や、GitHubアカウント乗っ取りによるCIシークレット窃取を整理した。…"
+        },
         {
           "title": "[アップデート] Amazon Bedrock AgentCore IdentityのディスカバリーURLがOAuth 2.0の認可サーバーメタデータに対応しました！",
           "link": "https://dev.classmethod.jp/articles/agentcore-identity-oauth2-discovery/",
@@ -92,28 +106,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-21T08:06:44",
           "excerpt": "はじめに AWS上に構築した2台のWindows EC2インスタンス間で、SMBによるファイル共有を行おうとしたところ、認証エラーが発生し、共有フォルダにアクセスできない事象に遭遇しました。…"
-        },
-        {
-          "title": "Cloudflare Radarの「Zero Wire」、脆弱性の影響範囲や深刻度を調べられるページをCVEごとに公開",
-          "link": "https://gihyo.jp/article/2026/11/cloudflare-zero-wire-cve-pages?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-11-21T07:57:36",
-          "excerpt": "Cloudflareは2026年11月20日、Cloudflare Radarの脆弱性情報サイト「Zero Wire」に、公開済みのCVEすべての個別ページを追加した。…"
-        },
-        {
-          "title": "[アップデート] Amazon Bedrock AgentCore Identityがプライベート認証局（CA）に対応しました！",
-          "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-identity-private-ca/",
-          "source": "DevelopersIO",
-          "published": "2026-11-21T04:41:02",
-          "excerpt": "Amazon Bedrock AgentCore IdentityがプライベートCAの証明書に対応しました！"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。It isn't only systems on Earth suffering technical problems",
+      "summary": "データ分析の新着が6件。Bitriseのインシデント報告書で示された顧客への影響と対応や、GitHubアカウント乗っ取りによるCIシークレット窃取を整理した。…",
       "articles": [
+        {
+          "title": "iOSアプリ開発の気になる変更まとめ（2026/11/21）：Bitriseのセキュリティインシデント、Xcode 27.3 beta 2ほか",
+          "link": "https://dev.classmethod.jp/articles/ios-dev-weekly-changes-20261121/",
+          "source": "DevelopersIO",
+          "published": "2026-11-21T12:48:17",
+          "excerpt": "Bitriseのインシデント報告書で示された顧客への影響と対応や、GitHubアカウント乗っ取りによるCIシークレット窃取を整理した。…"
+        },
+        {
+          "title": "[アップデート] Amazon DynamoDB のベクトル検索で範囲比較・IN・OR/NOT のインラインフィルタが使えるようになったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/20211121-amazon-dynamodb-vector-filters/",
+          "source": "DevelopersIO",
+          "published": "2026-11-21T11:13:48",
+          "excerpt": "Amazon DynamoDB のベクトル検索で、インラインフィルタに範囲比較・IN・OR・NOT が追加されました。アプリ側で絞り込むと 0 件だった「価格 10000 以下」の類似検索が、インラインフィルタでは 5 件返りました。…"
+        },
         {
           "title": "NASA Mars rover and orbiter suffer glitches",
           "link": "https://www.theregister.com/science/2026/11/21/nasa-mars-rover-and-orbiter-suffer-glitches/5311360",
@@ -127,87 +141,66 @@
           "source": "AWS What's New（英語）",
           "published": "2026-11-20T20:05:00",
           "excerpt": "本日、Amazon CloudWatch は、CloudWatch Observability EKS アドオンでの独自のアプリケーション テレメトリのサポートを発表しました。…"
-        },
-        {
-          "title": "Amazon DynamoDB ベクトル検索が新しいインラインフィルター演算子をサポートするようになりました",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/dynamodb-vector-filters/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-20T20:00:00",
-          "excerpt": "Amazon DynamoDB ベクトル検索インラインフィルターは、等価演算子に加えて、範囲比較、値リスト、論理演算子をサポートするようになったので、ベクトル検索を必要な項目に正確に絞り込むことができます。…"
-        },
-        {
-          "title": "Amazon EMR Serverless の新機能「Flex execution」を試してみた",
-          "link": "https://dev.classmethod.jp/articles/amazon-emr-serverless-flex-execution/",
-          "source": "DevelopersIO",
-          "published": "2026-11-20T18:36:31",
-          "excerpt": "Amazon EMR Serverless の Flex execution は、余剰のコンピューティング容量を活用し、コストを最大 60% 削減できるとされている実行オプションです。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。Azure DevOps、GitHub Copilotアプリとの統合をパブリックプレビューで提供開始",
+      "summary": "開発ツールの新着が3件。Andon — a one-person software factory.…",
       "articles": [
+        {
+          "title": "GitHub - mitaku/andon: A one-person software factory: AI coding agents take tasks from a ledger through review to merge, and call the human only for decisions only they can make.",
+          "link": "https://github.com/mitaku/andon",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-21T10:52:10",
+          "excerpt": "Andon — a one-person software factory.…"
+        },
+        {
+          "title": "GitHub - fkubota/understand-mode: Claude Code の出力・PR・コードを、付箋のホワイトボードで寄り道しながら理解する /understand スキル",
+          "link": "https://github.com/fkubota/understand-mode",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-21T09:00:34",
+          "excerpt": "You signed in with another tab or window.Reload to refresh your session.You signed out in another tab or window.…"
+        },
         {
           "title": "Azure DevOps、GitHub Copilotアプリとの統合をパブリックプレビューで提供開始",
           "link": "https://codezine.jp/article/detail/30435",
           "source": "CodeZine",
           "published": "2026-11-21T04:00:00",
           "excerpt": "Azure DevOps、GitHub Copilotアプリとの統合をパブリックプレビューで提供開始"
-        },
-        {
-          "title": "[アップデート] AWS SAM CLI でも customer-managed runtimes を使えるようになったので、awk でカスタムランタイムを作ってみた",
-          "link": "https://dev.classmethod.jp/articles/sam-cli-lambda-customer-managed-runtime/",
-          "source": "DevelopersIO",
-          "published": "2026-11-20T17:13:56",
-          "excerpt": "SAM CLIも対応"
-        },
-        {
-          "title": "【Terraform】dynamicブロックの使い方：繰り返しと条件付きブロック、使わないほうがよい場面",
-          "link": "https://qiita.com/ham-nao/items/85b038c9a192c84c2ee1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-20T16:13:22",
-          "excerpt": "Terraformで、同じ形のブロックを何度も書いていないでしょうか。たとえば、セキュリティグループのルールやタグ、ライフサイクルルールなどです。dynamic ブロックを使うと、変数のリストから必要な数だけブロックを作れます。…"
-        },
-        {
-          "title": "【Terraform×AWS】Fargate SpotでECSのコストを下げる：中断に備える設定と使いどころ",
-          "link": "https://qiita.com/ham-nao/items/37c805a2795543b6338e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-20T16:12:45",
-          "excerpt": "ECS Fargateは、サーバーの管理がいらない代わりに、EC2より料金が高めです。開発環境や、止まってもすぐに作り直せる処理であれば、Fargate Spotを使うと料金を大きく下げられます。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS ユーザー向け gcloud 入門：ログインが 2 種類あることと「構成」の切り替え",
-      "link": "https://qiita.com/leomarokun/items/dad11fb5716cd2ef59d3",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-21T08:17:39",
-      "excerpt": "はじめに gcloud は AWS CLI に近いコマンドですが、ログインが 2 種類あります。ここを知らないと「gcloud は動くのに、Terraform だけ認証エラーになる」という状態にハマります。…"
+      "title": "PostgreSQL Extensions in Go",
+      "link": "https://jespino.github.io/gopgext/",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-21T17:08:04",
+      "excerpt": "Article URL: https://jespino.github.io/gopgext/ Comments URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "【追加登録参加者にも】「Developers X Summit 2026」登録者にはレポートPDFプレゼント",
-      "link": "https://codezine.jp/article/detail/30436",
-      "source": "CodeZine",
-      "published": "2026-11-21T08:00:00",
-      "excerpt": "【追加登録参加者にも】「Developers X Summit 2026」登録者にはレポートPDFプレゼント"
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-21T16:00:00",
+      "excerpt": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China.…"
     },
     {
-      "title": "途中の公開失敗を、成功扱いで隠さない",
-      "link": "https://zenn.dev/miyakona/articles/checkpoint-failure-keeps-pending",
-      "source": "Zenn AWSトピック",
-      "published": "2026-11-21T07:46:03",
-      "excerpt": "短い回線断で、夜間バッチが終わってしまった 数時間かけてファイルを処理する夜間バッチで、途中の公開に失敗し、残りの処理が翌日の実行へ持ち越されることがありました。…"
+      "title": "Show HN: Zero C#, Power of C# without any GC",
+      "link": "https://onurgumus.github.io/zero-csharp/index.html",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-21T15:39:09",
+      "excerpt": "Article URL: https://onurgumus.github.io/zero-csharp/index.html Comments URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "ルートのサインインの通知、設定はあるのに鳴らなかった",
-      "link": "https://zenn.dev/sk8jp/articles/601289cfe7f32a",
-      "source": "Zenn AWSトピック",
-      "published": "2026-11-21T07:38:46",
-      "excerpt": "はじめに 前回の記事「Security Hub CSPM を有効にせず、Claude Code と FSBP の 363 項目を「1 つずつ」点検する計画を立てた」で、AWS の基準（FSBP）の項目を、Claude Code と一緒に 1…"
+      "title": "層を 3 回通す 26B の MoE「Inkling 2 Mini」を DGX Spark で動かしてみた",
+      "link": "https://dev.classmethod.jp/articles/dgx-spark-inkling-2-mini-first-touch/",
+      "source": "DevelopersIO",
+      "published": "2026-11-21T15:23:44",
+      "excerpt": "公開翌日の Inkling 2 Mini を、vLLM の DGX Spark 向けレシピのまま動かしました。262K コンテキストで 380 秒で起動し、単発 37.83 tok/s。…"
     }
   ]
 }
