@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-11-22T10:28:24",
+  "generated_at": "2026-11-22T17:58:13",
   "window_hours": 24,
-  "total": 82,
+  "total": 80,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が17件。はじめに AWS AppConfig に、生成 AI アプリ向けの設定タイプが 2 つ追加されました。「どのモデルを、どんなパラメータで呼ぶか」と「どんなプロンプトを渡すか」を、アプリのコードから切り離して管理できます。…",
+      "summary": "生成AIの新着が14件。2026年11月19日、BigQueryの Data Engineering Agent で agent observability が GA になりました。…",
       "articles": [
+        {
+          "title": "BigQuery Daya Engineering AgentのAgent Observabilityを試してみた",
+          "link": "https://dev.classmethod.jp/articles/bigquery-dea-agent-observability-ga/",
+          "source": "DevelopersIO",
+          "published": "2026-11-22T17:14:45",
+          "excerpt": "2026年11月19日、BigQueryの Data Engineering Agent で agent observability が GA になりました。…"
+        },
+        {
+          "title": "【AWS】【Bedrock】請求書の項目抽出を Textract・BDA・モデル直接で比べた。日本語ではどれが使えるか（AIP 基礎編）",
+          "link": "https://qiita.com/yuki_1012_1101/items/fb709f6b851726dcaba2",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-22T16:21:50",
+          "excerpt": "変更履歴 2026-11-23：公開 初めに AWS Certified Generative AI Developer – Professional（AIP-C01）の資格勉強のために、出題範囲のサービスを実際に動かす「AIP 基礎編」を…"
+        },
         {
           "title": "AppConfig に AI モデル設定とプロンプト専用の設定タイプが来たのでプロンプトをコード変更なしで差し替えてみた",
           "link": "https://qiita.com/leomarokun/items/f2e8a69715c679ee01cf",
@@ -22,27 +36,13 @@
           "source": "DevelopersIO",
           "published": "2026-11-22T09:18:32",
           "excerpt": "AWS Agent Registryの新機能を試してみました！ドメインをレコードに紐付けることで、組織外の人にもエージェントやMCPサーバーを公開・発見できる機能です！"
-        },
-        {
-          "title": "ローカルLLMに短い業務文書を4つ任せてみた：手元のM3 Macで、2024年と2026年の8モデルを比べる | Rei Frontier Tech Blog",
-          "link": "https://tech-blog.rei-frontier.jp/entry/local-llm-m3-mac-2026",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-22T09:01:23",
-          "excerpt": "2024年7月、当社は Amazon のクラウド（EC2）の上でローカルLLM（自分の PC やサーバーで動かす大規模言語モデル）を動かし、算数の問題を1問解かせて速さを比べました（前回の記事）。…"
-        },
-        {
-          "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-          "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-22T08:57:34",
-          "excerpt": "Article URL: https://betterdatacenterproject.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。本番のAuroraクラスターをスナップショットから復元して検証環境を作ったあと、pg_stat_user_tablesを覗いたらlast_analyzeが空欄になっていた。…",
+      "summary": "クラウドの新着が7件。本番のAuroraクラスターをスナップショットから復元して検証環境を作ったあと、pg_stat_user_tablesを覗いたらlast_analyzeが空欄になっていた。…",
       "articles": [
         {
           "title": "Aurora復元後にANALYZEは必要か｜pg_statisticの行方",
@@ -50,6 +50,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-22T09:56:16",
           "excerpt": "本番のAuroraクラスターをスナップショットから復元して検証環境を作ったあと、pg_stat_user_tablesを覗いたらlast_analyzeが空欄になっていた。…"
+        },
+        {
+          "title": "AWS SAA対策 #02｜Amazon VPCとは？サブネット・ルートテーブル・通信の仕組みを図解",
+          "link": "https://zenn.dev/yasashii_pc/articles/aws-saa-02-vpc-beginner-guide",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-22T05:42:43",
+          "excerpt": "「AWSにサーバーを作れば、すぐインターネットからアクセスできるの？」 実は、サーバーを作るだけでは十分ではありません。ネットワークの配置、通信経路、アクセスを許可する設定などを組み合わせる必要があります。…"
         },
         {
           "title": "Lambdaのストリーミング処理にTypeScriptを選んだ理由",
@@ -64,91 +71,98 @@
           "source": "Zenn AWSトピック",
           "published": "2026-11-22T02:30:19",
           "excerpt": "!この記事はAIとの共著です。こんにちは！@Ryo54388667です！☺️ 普段は都内でエンジニアとして業務をしてます！主にTypeScriptやNext.jsといった技術を触っています。…"
-        },
-        {
-          "title": "CloudFront Functions で Basic 認証を実装する",
-          "link": "https://zenn.dev/akinori901/articles/20261015-plan074",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-22T00:34:42",
-          "excerpt": "CloudFront Functions で Basic 認証を実装する 概要 公開前のステージング環境や、検索エンジンに拾わせたくない静的サイトに対して「とりあえず Basic 認証だけかけておきたい」という場面はよくあります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が4件。CloudFront Functions で Basic 認証を実装する 概要 公開前のステージング環境や、検索エンジンに拾わせたくない静的サイトに対して「とりあえず Basic 認証だけかけておきたい」という場面はよくあります。…",
+      "summary": "セキュリティの新着が5件。AWS CloudFormation StackSets の操作の進捗を、ステージ別・リージョン別に AWS CLI で確認しました。…",
       "articles": [
+        {
+          "title": "CloudFormation StackSets の操作の進捗が ステージ別・リージョン別に確認可能になったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-cloudformation-stacksets-progress-visibility/",
+          "source": "DevelopersIO",
+          "published": "2026-11-22T15:02:07",
+          "excerpt": "AWS CloudFormation StackSets の操作の進捗を、ステージ別・リージョン別に AWS CLI で確認しました。…"
+        },
+        {
+          "title": "「委託したとこ全部漏洩してんじゃんよ💢」プレイド『KARTE』の不正アクセスで、ZOZOTOWNや三菱UFJ銀行など影響を受けた企業が次々判明…不安や警戒の声が広がる",
+          "link": "https://togetter.com/li/2773732",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-22T14:51:25",
+          "excerpt": "多情仏心 @jiangminjp プレイド「KARTE」の情報漏洩2200社 サービス停止で20億円の赤字へ - 日本経済新聞 nikkei.…"
+        },
+        {
+          "title": "おやつ屋「六花亭」が不正アクセス、クレカのセキュリティコードまで流出→最上位のやらかしなのに誠実さを感じてかあまり荒れていない……なぜ他社にこれができないのか？",
+          "link": "https://togetter.com/li/2773676",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-22T08:52:11",
+          "excerpt": "六花亭公式 @rokkatei 「六花亭オンラインショップ」への不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ このたび、弊社が運営する「六花亭オンラインショップ」が第三者による不正アクセスを受け、サイト内のプログラムが改ざ…"
+        },
         {
           "title": "CloudFront Functions で Basic 認証を実装する",
           "link": "https://zenn.dev/akinori901/articles/20261015-plan074",
           "source": "Zenn AWSトピック",
           "published": "2026-11-22T00:34:42",
           "excerpt": "CloudFront Functions で Basic 認証を実装する 概要 公開前のステージング環境や、検索エンジンに拾わせたくない静的サイトに対して「とりあえず Basic 認証だけかけておきたい」という場面はよくあります。…"
-        },
-        {
-          "title": "Upload2Shell · CVE-2026-125396",
-          "link": "https://pwn.ai/upload2shell",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-21T18:29:29",
-          "excerpt": "Article URL: https://pwn.ai/upload2shell Comments URL: https://news.ycombinator.com/item?…"
-        },
-        {
-          "title": "S3公開サイトの脆弱性診断と対策の要点整理",
-          "link": "https://qiita.com/Maruo110/items/e7596810ee2da86cd6a8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-21T14:30:25",
-          "excerpt": "地震予測システムをS3で公開した。公開するにあたり、Geminiに脆弱性診断をしてもらい、結果をMuseに渡して対策した記録。個人が作った小さなサイトでも、公開した瞬間に攻撃面は増える。要点だけ整理する。…"
-        },
-        {
-          "title": "iOSアプリ開発の気になる変更まとめ（2026/11/21）：Bitriseのセキュリティインシデント、Xcode 27.3 beta 2ほか",
-          "link": "https://dev.classmethod.jp/articles/ios-dev-weekly-changes-20261121/",
-          "source": "DevelopersIO",
-          "published": "2026-11-21T12:48:17",
-          "excerpt": "Bitriseのインシデント報告書で示された顧客への影響と対応や、GitHubアカウント乗っ取りによるCIシークレット窃取を整理した。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。From the dotcom bubble to 200,00 cores of raw power",
+      "summary": "データ分析の新着が6件。2026年11月19日、BigQueryの Data Engineering Agent で agent observability が GA になりました。…",
       "articles": [
         {
-          "title": "Come for the science, stay for the big iron: Supercomputer admin on why he loves the job",
+          "title": "BigQuery Daya Engineering AgentのAgent Observabilityを試してみた",
+          "link": "https://dev.classmethod.jp/articles/bigquery-dea-agent-observability-ga/",
+          "source": "DevelopersIO",
+          "published": "2026-11-22T17:14:45",
+          "excerpt": "2026年11月19日、BigQueryの Data Engineering Agent で agent observability が GA になりました。…"
+        },
+        {
+          "title": "TechCrunch Mobility: A/B テスト ロボット vs 人間",
+          "link": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-22T17:06:00",
+          "excerpt": "TechCrunch Mobility へようこそ。未来の交通機関、そしてその中で AI がこれまで以上に重要な役割を果たしているハブです。"
+        },
+        {
+          "title": "【DynamoDB Streams x SQS】急な大量処理にどこまで追従できるか実測する",
+          "link": "https://qiita.com/jus1730/items/6482ab7184a3acc46895",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-22T14:41:04",
+          "excerpt": "Amazon SQS はじめに 前回の記事では、DynamoDB Streams から SQS へつなぐ 2 つの方式（EventBridge Pipes..."
+        },
+        {
+          "title": "科学のために来て、大きな鉄のために留まる: スーパーコンピューター管理者がこの仕事を愛する理由について語る",
           "link": "https://www.theregister.com/hpc/2026/11/22/come-for-the-science-stay-for-the-big-iron-supercomputer-admin-on-why-he-loves-the-job/5311247",
           "source": "The Register（英語）",
           "published": "2026-11-22T08:48:00",
-          "excerpt": "From the dotcom bubble to 200,00 cores of raw power"
-        },
-        {
-          "title": "RDB脳でDynamoDBを触る前に知っておきたい考え方の違い | NCDC テックブログのフィード",
-          "link": "https://zenn.dev/ncdc/articles/08066aef261dd5",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-22T00:51:50",
-          "excerpt": "はじめにここ2年くらいDynamoDBに興味を持って、いろいろインプットしてきました。自分にとっては初めて触ったNoSQLで、リレーショナルデータベースとの違いに最初は戸惑いましたが、そのクセの強さ加減がなかなか好きになってきました。…"
-        },
-        {
-          "title": "トランプ大統領、報告されたFBIのデータベースハッキングは「良くない」と発言",
-          "link": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-21T18:44:53",
-          "excerpt": "FBIは国家犯罪情報センターへのハッキングを捜査していると伝えられている。"
-        },
-        {
-          "title": "iOSアプリ開発の気になる変更まとめ（2026/11/21）：Bitriseのセキュリティインシデント、Xcode 27.3 beta 2ほか",
-          "link": "https://dev.classmethod.jp/articles/ios-dev-weekly-changes-20261121/",
-          "source": "DevelopersIO",
-          "published": "2026-11-21T12:48:17",
-          "excerpt": "Bitriseのインシデント報告書で示された顧客への影響と対応や、GitHubアカウント乗っ取りによるCIシークレット窃取を整理した。…"
+          "excerpt": "ドットコム バブルから 200,000 コアの未加工電力まで"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。GitHubは2026年10月28日、Issue Artifactsをパブリックプレビューとして公開しました。…",
+      "summary": "開発ツールの新着が5件。AWS CloudFormation StackSets の操作の進捗を、ステージ別・リージョン別に AWS CLI で確認しました。…",
       "articles": [
+        {
+          "title": "CloudFormation StackSets の操作の進捗が ステージ別・リージョン別に確認可能になったので試してみた",
+          "link": "https://dev.classmethod.jp/articles/aws-cloudformation-stacksets-progress-visibility/",
+          "source": "DevelopersIO",
+          "published": "2026-11-22T15:02:07",
+          "excerpt": "AWS CloudFormation StackSets の操作の進捗を、ステージ別・リージョン別に AWS CLI で確認しました。…"
+        },
+        {
+          "title": "AWS Emulator触ってみた（後編）：Terraformでデプロイしてみた",
+          "link": "https://zenn.dev/nagatoshi/articles/try-aws-emulator-iac-test",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-22T07:54:23",
+          "excerpt": "はじめに 前編 では AWS Emulator を Docker で起動し、boto3 / AWS CLI から S3・DynamoDB・IAM・Lambda を触ってみました。…"
+        },
         {
           "title": "GitHub Issue Artifactsとは？設計書やUIをIssueに集約する新機能が登場 | Alternative Architecture DOJO",
           "link": "https://aadojo.alterbooth.com/entry/2026/11/22/144126",
@@ -162,52 +176,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-11-22T03:00:05",
           "excerpt": "!本記事の執筆は2026年11月に行っています。執筆時点と最新とで情報に変化がある可能性があります。執筆のきっかけ Agent Toolkit for AWSが以前から気になっていたが使えておらず。…"
-        },
-        {
-          "title": "【Terraform入門】AWS EC2インスタンスを構築してみる",
-          "link": "https://qiita.com/Aki-Dortu/items/64e75c59b33ea8b8758e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-21T23:06:40",
-          "excerpt": "Terraform入門：AWS EC2インスタンスを構築してみる 1.はじめに AWSのEC2インスタンスを構築する場合、AWSマネジメントコンソールから手動で設定する方法や、AWS CLIを使用する方法があります。…"
-        },
-        {
-          "title": "AWS公式のマルチエージェントCLI「CAO」でClaude Codeに仕事を委任させたら、フォルダ信頼確認で60秒止まった",
-          "link": "https://zenn.dev/matsushima_a/articles/day-053-cao-trust-dialog-wall",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-21T14:37:55",
-          "excerpt": "これは何を試した記事か AWS Labsが公開しているcli-agent-orchestrator(以下CAO、Apache-2.0)を、Claude Codeをワーカーにして実際に動かしてみた記事である。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "[アップデート] AWS Quick の Web アプリの UI が一新されてデスクトップと統一されたぽいので確認してみた",
-      "link": "https://dev.classmethod.jp/articles/aws-quick-launches-new-web-experience-updated/",
+      "title": "[アップデート]AWSアカウント作成がとんでもなく別物になったので動作の違いを見てみた[新しいAWSエクスペリエンス]",
+      "link": "https://dev.classmethod.jp/articles/new-aws-signup/",
       "source": "DevelopersIO",
-      "published": "2026-11-22T09:16:21",
-      "excerpt": "デスクトップ版っぽくなった。最初迷うぞ"
+      "published": "2026-11-22T17:20:08",
+      "excerpt": "これまでのAWSアカウント作成と違いすぎるので気をつけて使いましょう。通常のAWSアカウントを作成するならadvanced featuresにしてください。"
     },
     {
-      "title": "Passive 'ghost' radar can detect airborne threats without revealing its own position",
-      "link": "https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023",
+      "title": "困惑と知性",
+      "link": "https://openai.com/index/perplexity-and-intelligence/",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-22T17:06:27",
+      "excerpt": "記事の URL: https://openai.com/index/perplexity-and-intelligence/ コメント URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "車のデジタル化に伴い、米国の消費者は修理のために年間 120 億ドルを追加で支払っている",
+      "link": "https://www.theregister.com/personal-tech/2026/11/22/as-cars-go-digital-us-consumers-pay-an-extra-12-billion-a-year-for-repairs/5311412",
       "source": "The Register（英語）",
-      "published": "2026-11-22T09:15:00",
-      "excerpt": "Kit piggybacks off TV and mobile signals and can be neatly stuffed into an SUV"
+      "published": "2026-11-22T16:08:00",
+      "excerpt": "現在の車両は修理するためにソフトウェア ツールが必要であり、サブスクリプションにより保険料が高騰しています。"
     },
     {
-      "title": "【登壇レポート】「Business-JAWS #0 キックオフ！」でAIBの練習問題をAIに作らせて感じた気づきを話してきました！",
-      "link": "https://qiita.com/yosuke-suzuki/items/668b75e7f1ae9be15d99",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-22T08:29:25",
-      "excerpt": "はじめに こんにちは！アマコネ芸人です。2026年11月19日にAWS Japanオフィス(東京都港区の麻布台ヒルズ森JPタワー)で開催された「Business-JAWS #0 キックオフ！…"
-    },
-    {
-      "title": "【IBM社内8万人が使用する「IBM Bob」】ハンズオン参加で翔泳社書籍プレゼント",
-      "link": "https://codezine.jp/article/detail/30439",
-      "source": "CodeZine",
-      "published": "2026-11-22T08:00:00",
-      "excerpt": "【IBM社内8万人が使用する「IBM Bob」】ハンズオン参加で翔泳社書籍プレゼント"
+      "title": "HN に質問してください: この取引は安全な転職ですか?",
+      "link": "https://news.ycombinator.com/item?id=50600771",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-22T15:52:33",
+      "excerpt": "私はソフトウェア担当です。工学系の学位はありますが、PEng ではありません。キャリアにあまり将来性が見込めないので、船に飛び乗ろうと考えています。Ai のせいで少し落胆しました 退職までに数十年間は少なくとも穏やかな安全が必要です...…"
     }
   ]
 }
