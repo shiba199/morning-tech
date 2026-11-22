@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T17:58:13",
+  "generated_at": "2026-11-22T23:05:52",
   "window_hours": 24,
   "total": 80,
   "topic_count": 5,
@@ -7,8 +7,22 @@
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が14件。2026年11月19日、BigQueryの Data Engineering Agent で agent observability が GA になりました。…",
+      "summary": "生成AIの新着が16件。記事の URL: https://pequalnp.com/ コメント URL: https://news.ycombinator.com/item?id=50604314 ポイント: 25 コメント数: 13",
       "articles": [
+        {
+          "title": "P 対 NP を解決しようとするエージェントの群れ",
+          "link": "https://pequalnp.com/",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-22T21:53:45",
+          "excerpt": "記事の URL: https://pequalnp.com/ コメント URL: https://news.ycombinator.com/item?id=50604314 ポイント: 25 コメント数: 13"
+        },
+        {
+          "title": "OpenAIの主任科学者はAI開発を制限する方法について考えている",
+          "link": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-22T21:14:07",
+          "excerpt": "AI 開発の速度制限を設定するには、速度の測定方法について合意する必要があります。"
+        },
         {
           "title": "BigQuery Daya Engineering AgentのAgent Observabilityを試してみた",
           "link": "https://dev.classmethod.jp/articles/bigquery-dea-agent-observability-ga/",
@@ -22,28 +36,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-22T16:21:50",
           "excerpt": "変更履歴 2026-11-23：公開 初めに AWS Certified Generative AI Developer – Professional（AIP-C01）の資格勉強のために、出題範囲のサービスを実際に動かす「AIP 基礎編」を…"
-        },
-        {
-          "title": "AppConfig に AI モデル設定とプロンプト専用の設定タイプが来たのでプロンプトをコード変更なしで差し替えてみた",
-          "link": "https://qiita.com/leomarokun/items/f2e8a69715c679ee01cf",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-22T09:44:47",
-          "excerpt": "はじめに AWS AppConfig に、生成 AI アプリ向けの設定タイプが 2 つ追加されました。「どのモデルを、どんなパラメータで呼ぶか」と「どんなプロンプトを渡すか」を、アプリのコードから切り離して管理できます。…"
-        },
-        {
-          "title": "[アップデート] AWS Agent Registryでドメインに紐づけたレコードを組織外へ公開できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/aws-agent-registry-public-discovery/",
-          "source": "DevelopersIO",
-          "published": "2026-11-22T09:18:32",
-          "excerpt": "AWS Agent Registryの新機能を試してみました！ドメインをレコードに紐付けることで、組織外の人にもエージェントやMCPサーバーを公開・発見できる機能です！"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が7件。本番のAuroraクラスターをスナップショットから復元して検証環境を作ったあと、pg_stat_user_tablesを覗いたらlast_analyzeが空欄になっていた。…",
+      "summary": "クラウドの新着が8件。個人AWSのroot運用をやめた夜 — SSO移行とTrivy初回スキャン25件の判断 結論 個人で運用するAWS環境の日常認証を、rootのaws loginからIAM Identity Center（SSO＋MFA）へ移行した。…",
       "articles": [
+        {
+          "title": "個人AWSのroot運用をやめた夜 — SSO移行とTrivy初回スキャン25件の判断",
+          "link": "https://qiita.com/1716964609/items/435b74469914bb0d2a57",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-22T19:49:13",
+          "excerpt": "個人AWSのroot運用をやめた夜 — SSO移行とTrivy初回スキャン25件の判断 結論 個人で運用するAWS環境の日常認証を、rootのaws loginからIAM Identity Center（SSO＋MFA）へ移行した。…"
+        },
+        {
+          "title": "Terraform importに成功しても復旧できるとは限らない — 既存EC2のIaC化で学んだこと",
+          "link": "https://qiita.com/1716964609/items/600619da6c1872459ee5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-22T19:36:10",
+          "excerpt": "Terraform importに成功しても復旧できるとは限らない — 既存EC2のIaC化で学んだこと 結論 稼働中のAWS環境を、初めて触るTerraformの管理下に取り込んだ。…"
+        },
         {
           "title": "Aurora復元後にANALYZEは必要か｜pg_statisticの行方",
           "link": "https://qiita.com/techdbblog/items/fe5a8925c2829b408d1e",
@@ -57,28 +71,21 @@
           "source": "Zenn AWSトピック",
           "published": "2026-11-22T05:42:43",
           "excerpt": "「AWSにサーバーを作れば、すぐインターネットからアクセスできるの？」 実は、サーバーを作るだけでは十分ではありません。ネットワークの配置、通信経路、アクセスを許可する設定などを組み合わせる必要があります。…"
-        },
-        {
-          "title": "Lambdaのストリーミング処理にTypeScriptを選んだ理由",
-          "link": "https://zenn.dev/hknote/articles/lambda-streaming-typescript",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-22T04:00:05",
-          "excerpt": "現在、AIエージェントを開発しています。AIの応答に時間がかかることを考え、Lambdaから結果を少しずつ返すストリーミングを使うことにしました。…"
-        },
-        {
-          "title": "Next.jsのストリーミングはLambda Web Functionsで動くか",
-          "link": "https://zenn.dev/ryota_09/articles/nextjs-suspense-streaming-lambda-web-functions",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-22T02:30:19",
-          "excerpt": "!この記事はAIとの共著です。こんにちは！@Ryo54388667です！☺️ 普段は都内でエンジニアとして業務をしてます！主にTypeScriptやNext.jsといった技術を触っています。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が5件。AWS CloudFormation StackSets の操作の進捗を、ステージ別・リージョン別に AWS CLI で確認しました。…",
+      "summary": "セキュリティの新着が5件。一見無害な文書を「Microsoft 365 Copilot」にアップロードするだけで、攻撃者はそのCopilotに直接命令を出せるようになる。セキュリティ企業Rubrikがそんな攻撃手法を実証した。…",
       "articles": [
+        {
+          "title": "Microsoftが4万8000ドルを支払った脆弱性　文書1つでCopilotを乗っ取る「ChatMate」攻撃とは",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2611/23/news001.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-11-22T22:00:00",
+          "excerpt": "一見無害な文書を「Microsoft 365 Copilot」にアップロードするだけで、攻撃者はそのCopilotに直接命令を出せるようになる。セキュリティ企業Rubrikがそんな攻撃手法を実証した。…"
+        },
         {
           "title": "CloudFormation StackSets の操作の進捗が ステージ別・リージョン別に確認可能になったので試してみた",
           "link": "https://dev.classmethod.jp/articles/aws-cloudformation-stacksets-progress-visibility/",
@@ -99,20 +106,13 @@
           "source": "はてなブックマーク（テクノロジー）",
           "published": "2026-11-22T08:52:11",
           "excerpt": "六花亭公式 @rokkatei 「六花亭オンラインショップ」への不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ このたび、弊社が運営する「六花亭オンラインショップ」が第三者による不正アクセスを受け、サイト内のプログラムが改ざ…"
-        },
-        {
-          "title": "CloudFront Functions で Basic 認証を実装する",
-          "link": "https://zenn.dev/akinori901/articles/20261015-plan074",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-22T00:34:42",
-          "excerpt": "CloudFront Functions で Basic 認証を実装する 概要 公開前のステージング環境や、検索エンジンに拾わせたくない静的サイトに対して「とりあえず Basic 認証だけかけておきたい」という場面はよくあります。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。2026年11月19日、BigQueryの Data Engineering Agent で agent observability が GA になりました。…",
+      "summary": "データ分析の新着が5件。2026年11月19日、BigQueryの Data Engineering Agent で agent observability が GA になりました。…",
       "articles": [
         {
           "title": "BigQuery Daya Engineering AgentのAgent Observabilityを試してみた",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。AWS CloudFormation StackSets の操作の進捗を、ステージ別・リージョン別に AWS CLI で確認しました。…",
+      "summary": "開発ツールの新着が6件。Terraform importに成功しても復旧できるとは限らない — 既存EC2のIaC化で学んだこと 結論 稼働中のAWS環境を、初めて触るTerraformの管理下に取り込んだ。…",
       "articles": [
+        {
+          "title": "Terraform importに成功しても復旧できるとは限らない — 既存EC2のIaC化で学んだこと",
+          "link": "https://qiita.com/1716964609/items/600619da6c1872459ee5",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-22T19:36:10",
+          "excerpt": "Terraform importに成功しても復旧できるとは限らない — 既存EC2のIaC化で学んだこと 結論 稼働中のAWS環境を、初めて触るTerraformの管理下に取り込んだ。…"
+        },
         {
           "title": "CloudFormation StackSets の操作の進捗が ステージ別・リージョン別に確認可能になったので試してみた",
           "link": "https://dev.classmethod.jp/articles/aws-cloudformation-stacksets-progress-visibility/",
@@ -169,45 +176,38 @@
           "source": "企業テックブログまとめ",
           "published": "2026-11-22T05:41:26",
           "excerpt": "GitHubは2026年10月28日、Issue Artifactsをパブリックプレビューとして公開しました。…"
-        },
-        {
-          "title": "はじめてのMCP接続をAgent Toolkit for AWSでやってみた(Windows&Claude Code)",
-          "link": "https://zenn.dev/yoss_k3/articles/486f8049b5d043",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-22T03:00:05",
-          "excerpt": "!本記事の執筆は2026年11月に行っています。執筆時点と最新とで情報に変化がある可能性があります。執筆のきっかけ Agent Toolkit for AWSが以前から気になっていたが使えておらず。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "[アップデート]AWSアカウント作成がとんでもなく別物になったので動作の違いを見てみた[新しいAWSエクスペリエンス]",
-      "link": "https://dev.classmethod.jp/articles/new-aws-signup/",
-      "source": "DevelopersIO",
-      "published": "2026-11-22T17:20:08",
-      "excerpt": "これまでのAWSアカウント作成と違いすぎるので気をつけて使いましょう。通常のAWSアカウントを作成するならadvanced featuresにしてください。"
-    },
-    {
-      "title": "困惑と知性",
-      "link": "https://openai.com/index/perplexity-and-intelligence/",
+      "title": "役に立たない知識の有用性 [pdf]",
+      "link": "https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf",
       "source": "Hacker News（英語）",
-      "published": "2026-11-22T17:06:27",
-      "excerpt": "記事の URL: https://openai.com/index/perplexity-and-intelligence/ コメント URL: https://news.ycombinator.com/item?…"
+      "published": "2026-11-22T22:10:58",
+      "excerpt": "記事の URL: https://www.ias.edu/sites/default/files/library/UsefulHarpers.pdf コメント URL: https://news.ycombinator.com/item?…"
     },
     {
-      "title": "車のデジタル化に伴い、米国の消費者は修理のために年間 120 億ドルを追加で支払っている",
-      "link": "https://www.theregister.com/personal-tech/2026/11/22/as-cars-go-digital-us-consumers-pay-an-extra-12-billion-a-year-for-repairs/5311412",
-      "source": "The Register（英語）",
-      "published": "2026-11-22T16:08:00",
-      "excerpt": "現在の車両は修理するためにソフトウェア ツールが必要であり、サブスクリプションにより保険料が高騰しています。"
+      "title": "ITエンジニア注目トレンドを総まとめ！週間ニュースランキングTOP10【11/13～11/19】",
+      "link": "https://codezine.jp/article/detail/30433",
+      "source": "CodeZine",
+      "published": "2026-11-22T22:00:00",
+      "excerpt": "毎日更新される、CodeZine、DeveloperZine、ProductZineの最新ニュースから、注目を集めたトピックスを紹介する本ランキング。今回は2026年11月13日～11月19日までの人気ランキングを発表します。"
     },
     {
-      "title": "HN に質問してください: この取引は安全な転職ですか?",
-      "link": "https://news.ycombinator.com/item?id=50600771",
+      "title": "「You Can See Everything」は世界中で1億ドル以上の収益を上げた",
+      "link": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-22T21:42:48",
+      "excerpt": "新しいエリザベス・ホームズのドキュメンタリーは、世界的に公開され始めたばかりです。"
+    },
+    {
+      "title": "自由のための闘争: BSD はどのようにして AT&T のライセンスを逃れたのか",
+      "link": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/",
       "source": "Hacker News（英語）",
-      "published": "2026-11-22T15:52:33",
-      "excerpt": "私はソフトウェア担当です。工学系の学位はありますが、PEng ではありません。キャリアにあまり将来性が見込めないので、船に飛び乗ろうと考えています。Ai のせいで少し落胆しました 退職までに数十年間は少なくとも穏やかな安全が必要です...…"
+      "published": "2026-11-22T21:33:12",
+      "excerpt": "記事の URL: https://fosscomics.com/posts/16.…"
     }
   ]
 }
