@@ -1,84 +1,91 @@
 {
-  "generated_at": "2026-11-22T02:43:36",
+  "generated_at": "2026-11-22T10:28:24",
   "window_hours": 24,
-  "total": 86,
+  "total": 82,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が15件。Anthropicの数学者レベント・アルポーゲ氏は、「Claude」と共同で未解決問題「リーマン予想」の証明を発見したと発表した。…",
+      "summary": "生成AIの新着が17件。はじめに AWS AppConfig に、生成 AI アプリ向けの設定タイプが 2 つ追加されました。「どのモデルを、どんなパラメータで呼ぶか」と「どんなプロンプトを渡すか」を、アプリのコードから切り離して管理できます。…",
       "articles": [
         {
-          "title": "Anthropicの数学者、「Claude」と共同で「リーマン予想」を証明したと主張　Leanコミュニティが「正しい」と認定",
-          "link": "https://www.itmedia.co.jp/news/article/2611/22/2000003388/",
-          "source": "ITmedia NEWS",
-          "published": "2026-11-21T23:21:31",
-          "excerpt": "Anthropicの数学者レベント・アルポーゲ氏は、「Claude」と共同で未解決問題「リーマン予想」の証明を発見したと発表した。…"
+          "title": "AppConfig に AI モデル設定とプロンプト専用の設定タイプが来たのでプロンプトをコード変更なしで差し替えてみた",
+          "link": "https://qiita.com/leomarokun/items/f2e8a69715c679ee01cf",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-22T09:44:47",
+          "excerpt": "はじめに AWS AppConfig に、生成 AI アプリ向けの設定タイプが 2 つ追加されました。「どのモデルを、どんなパラメータで呼ぶか」と「どんなプロンプトを渡すか」を、アプリのコードから切り離して管理できます。…"
         },
         {
-          "title": "Tasklet (YC P26) はプロダクト エンジニアとエージェント インフラ エンジニアを募集しています",
-          "link": "https://tasklet.ai/careers",
+          "title": "[アップデート] AWS Agent Registryでドメインに紐づけたレコードを組織外へ公開できるようになりました",
+          "link": "https://dev.classmethod.jp/articles/aws-agent-registry-public-discovery/",
+          "source": "DevelopersIO",
+          "published": "2026-11-22T09:18:32",
+          "excerpt": "AWS Agent Registryの新機能を試してみました！ドメインをレコードに紐付けることで、組織外の人にもエージェントやMCPサーバーを公開・発見できる機能です！"
+        },
+        {
+          "title": "ローカルLLMに短い業務文書を4つ任せてみた：手元のM3 Macで、2024年と2026年の8モデルを比べる | Rei Frontier Tech Blog",
+          "link": "https://tech-blog.rei-frontier.jp/entry/local-llm-m3-mac-2026",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-22T09:01:23",
+          "excerpt": "2024年7月、当社は Amazon のクラウド（EC2）の上でローカルLLM（自分の PC やサーバーで動かす大規模言語モデル）を動かし、算数の問題を1問解かせて速さを比べました（前回の記事）。…"
+        },
+        {
+          "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+          "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
           "source": "Hacker News（英語）",
-          "published": "2026-11-21T21:11:08",
-          "excerpt": "記事の URL: https://tasklet.ai/careers コメント URL: https://news.ycombinator.com/item?id=50593679 ポイント: 0 コメント数: 0"
-        },
-        {
-          "title": "テキスト メッセージ内に常駐できる上位の AI エージェントは次のとおりです",
-          "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-21T17:00:00",
-          "excerpt": "一般的なアシスタントから家族、旅行、仕事向けに設計されたエージェントまで、テキスト メッセージ内に存在できる最も注目すべき AI エージェントのリストを作成しました。"
-        },
-        {
-          "title": "AWS公式のマルチエージェントCLI「CAO」でClaude Codeに仕事を委任させたら、フォルダ信頼確認で60秒止まった",
-          "link": "https://zenn.dev/matsushima_a/articles/day-053-cao-trust-dialog-wall",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-21T14:37:55",
-          "excerpt": "これは何を試した記事か AWS Labsが公開しているcli-agent-orchestrator(以下CAO、Apache-2.0)を、Claude Codeをワーカーにして実際に動かしてみた記事である。…"
+          "published": "2026-11-22T08:57:34",
+          "excerpt": "Article URL: https://betterdatacenterproject.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が10件。Terraform入門：AWS EC2インスタンスを構築してみる 1.はじめに AWSのEC2インスタンスを構築する場合、AWSマネジメントコンソールから手動で設定する方法や、AWS CLIを使用する方法があります。…",
+      "summary": "クラウドの新着が10件。本番のAuroraクラスターをスナップショットから復元して検証環境を作ったあと、pg_stat_user_tablesを覗いたらlast_analyzeが空欄になっていた。…",
       "articles": [
         {
-          "title": "【Terraform入門】AWS EC2インスタンスを構築してみる",
-          "link": "https://qiita.com/Aki-Dortu/items/64e75c59b33ea8b8758e",
+          "title": "Aurora復元後にANALYZEは必要か｜pg_statisticの行方",
+          "link": "https://qiita.com/techdbblog/items/fe5a8925c2829b408d1e",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-21T23:06:40",
-          "excerpt": "Terraform入門：AWS EC2インスタンスを構築してみる 1.はじめに AWSのEC2インスタンスを構築する場合、AWSマネジメントコンソールから手動で設定する方法や、AWS CLIを使用する方法があります。…"
+          "published": "2026-11-22T09:56:16",
+          "excerpt": "本番のAuroraクラスターをスナップショットから復元して検証環境を作ったあと、pg_stat_user_tablesを覗いたらlast_analyzeが空欄になっていた。…"
         },
         {
-          "title": "Tasklet (YC P26) はプロダクト エンジニアとエージェント インフラ エンジニアを募集しています",
-          "link": "https://tasklet.ai/careers",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-21T21:11:08",
-          "excerpt": "記事の URL: https://tasklet.ai/careers コメント URL: https://news.ycombinator.com/item?id=50593679 ポイント: 0 コメント数: 0"
-        },
-        {
-          "title": "Db2移行案件で実際に使ったLinuxコマンド10選｜RHEL9/AWS環境での実務例｜インフラエンジニア・O執筆",
-          "link": "https://zenn.dev/oursship_blog/articles/31ba4b48b1a730",
+          "title": "Lambdaのストリーミング処理にTypeScriptを選んだ理由",
+          "link": "https://zenn.dev/hknote/articles/lambda-streaming-typescript",
           "source": "Zenn AWSトピック",
-          "published": "2026-11-21T17:24:14",
-          "excerpt": "はじめに 私は直近の案件で、AWS上のRHEL9環境に構築されたDb2 LUWの移行プロジェクトに参画していました。移行作業や障害調査、HADRやPacemakerの動作確認を行う中で、日常的にLinuxコマンドを利用していました。…"
+          "published": "2026-11-22T04:00:05",
+          "excerpt": "現在、AIエージェントを開発しています。AIの応答に時間がかかることを考え、Lambdaから結果を少しずつ返すストリーミングを使うことにしました。…"
         },
         {
-          "title": "S3公開サイトの脆弱性診断と対策の要点整理",
-          "link": "https://qiita.com/Maruo110/items/e7596810ee2da86cd6a8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-21T14:30:25",
-          "excerpt": "地震予測システムをS3で公開した。公開するにあたり、Geminiに脆弱性診断をしてもらい、結果をMuseに渡して対策した記録。個人が作った小さなサイトでも、公開した瞬間に攻撃面は増える。要点だけ整理する。…"
+          "title": "Next.jsのストリーミングはLambda Web Functionsで動くか",
+          "link": "https://zenn.dev/ryota_09/articles/nextjs-suspense-streaming-lambda-web-functions",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-22T02:30:19",
+          "excerpt": "!この記事はAIとの共著です。こんにちは！@Ryo54388667です！☺️ 普段は都内でエンジニアとして業務をしてます！主にTypeScriptやNext.jsといった技術を触っています。…"
+        },
+        {
+          "title": "CloudFront Functions で Basic 認証を実装する",
+          "link": "https://zenn.dev/akinori901/articles/20261015-plan074",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-22T00:34:42",
+          "excerpt": "CloudFront Functions で Basic 認証を実装する 概要 公開前のステージング環境や、検索エンジンに拾わせたくない静的サイトに対して「とりあえず Basic 認証だけかけておきたい」という場面はよくあります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。Article URL: https://pwn.ai/upload2shell Comments URL: https://news.ycombinator.com/item?…",
+      "summary": "セキュリティの新着が4件。CloudFront Functions で Basic 認証を実装する 概要 公開前のステージング環境や、検索エンジンに拾わせたくない静的サイトに対して「とりあえず Basic 認証だけかけておきたい」という場面はよくあります。…",
       "articles": [
+        {
+          "title": "CloudFront Functions で Basic 認証を実装する",
+          "link": "https://zenn.dev/akinori901/articles/20261015-plan074",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-22T00:34:42",
+          "excerpt": "CloudFront Functions で Basic 認証を実装する 概要 公開前のステージング環境や、検索エンジンに拾わせたくない静的サイトに対して「とりあえず Basic 認証だけかけておきたい」という場面はよくあります。…"
+        },
         {
           "title": "Upload2Shell · CVE-2026-125396",
           "link": "https://pwn.ai/upload2shell",
@@ -99,21 +106,21 @@
           "source": "DevelopersIO",
           "published": "2026-11-21T12:48:17",
           "excerpt": "Bitriseのインシデント報告書で示された顧客への影響と対応や、GitHubアカウント乗っ取りによるCIシークレット窃取を整理した。…"
-        },
-        {
-          "title": "[アップデート] Amazon Bedrock AgentCore IdentityのディスカバリーURLがOAuth 2.0の認可サーバーメタデータに対応しました！",
-          "link": "https://dev.classmethod.jp/articles/agentcore-identity-oauth2-discovery/",
-          "source": "DevelopersIO",
-          "published": "2026-11-21T08:25:40",
-          "excerpt": "Amazon Bedrock AgentCore Identityのディスカバリー機能がRFC 8414（OAuth 2.0）に対応しました！"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。はじめにここ2年くらいDynamoDBに興味を持って、いろいろインプットしてきました。自分にとっては初めて触ったNoSQLで、リレーショナルデータベースとの違いに最初は戸惑いましたが、そのクセの強さ加減がなかなか好きになってきました。…",
+      "summary": "データ分析の新着が5件。From the dotcom bubble to 200,00 cores of raw power",
       "articles": [
+        {
+          "title": "Come for the science, stay for the big iron: Supercomputer admin on why he loves the job",
+          "link": "https://www.theregister.com/hpc/2026/11/22/come-for-the-science-stay-for-the-big-iron-supercomputer-admin-on-why-he-loves-the-job/5311247",
+          "source": "The Register（英語）",
+          "published": "2026-11-22T08:48:00",
+          "excerpt": "From the dotcom bubble to 200,00 cores of raw power"
+        },
         {
           "title": "RDB脳でDynamoDBを触る前に知っておきたい考え方の違い | NCDC テックブログのフィード",
           "link": "https://zenn.dev/ncdc/articles/08066aef261dd5",
@@ -134,21 +141,28 @@
           "source": "DevelopersIO",
           "published": "2026-11-21T12:48:17",
           "excerpt": "Bitriseのインシデント報告書で示された顧客への影響と対応や、GitHubアカウント乗っ取りによるCIシークレット窃取を整理した。…"
-        },
-        {
-          "title": "[アップデート] Amazon DynamoDB のベクトル検索で範囲比較・IN・OR/NOT のインラインフィルタが使えるようになったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/20211121-amazon-dynamodb-vector-filters/",
-          "source": "DevelopersIO",
-          "published": "2026-11-21T11:13:48",
-          "excerpt": "Amazon DynamoDB のベクトル検索で、インラインフィルタに範囲比較・IN・OR・NOT が追加されました。アプリ側で絞り込むと 0 件だった「価格 10000 以下」の類似検索が、インラインフィルタでは 5 件返りました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。Terraform入門：AWS EC2インスタンスを構築してみる 1.はじめに AWSのEC2インスタンスを構築する場合、AWSマネジメントコンソールから手動で設定する方法や、AWS CLIを使用する方法があります。…",
+      "summary": "開発ツールの新着が5件。GitHubは2026年10月28日、Issue Artifactsをパブリックプレビューとして公開しました。…",
       "articles": [
+        {
+          "title": "GitHub Issue Artifactsとは？設計書やUIをIssueに集約する新機能が登場 | Alternative Architecture DOJO",
+          "link": "https://aadojo.alterbooth.com/entry/2026/11/22/144126",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-22T05:41:26",
+          "excerpt": "GitHubは2026年10月28日、Issue Artifactsをパブリックプレビューとして公開しました。…"
+        },
+        {
+          "title": "はじめてのMCP接続をAgent Toolkit for AWSでやってみた(Windows&Claude Code)",
+          "link": "https://zenn.dev/yoss_k3/articles/486f8049b5d043",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-22T03:00:05",
+          "excerpt": "!本記事の執筆は2026年11月に行っています。執筆時点と最新とで情報に変化がある可能性があります。執筆のきっかけ Agent Toolkit for AWSが以前から気になっていたが使えておらず。…"
+        },
         {
           "title": "【Terraform入門】AWS EC2インスタンスを構築してみる",
           "link": "https://qiita.com/Aki-Dortu/items/64e75c59b33ea8b8758e",
@@ -162,52 +176,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-11-21T14:37:55",
           "excerpt": "これは何を試した記事か AWS Labsが公開しているcli-agent-orchestrator(以下CAO、Apache-2.0)を、Claude Codeをワーカーにして実際に動かしてみた記事である。…"
-        },
-        {
-          "title": "GitHub - mitaku/andon: 一人のソフトウェア工場: AI コーディング エージェントは台帳からレビューを通じてタスクを取得してマージし、人間にしかできない決定についてのみ人間を呼び出します。",
-          "link": "https://github.com/mitaku/andon",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-21T10:52:10",
-          "excerpt": "Andon — a one-person software factory.…"
-        },
-        {
-          "title": "GitHub - fkubota/understand-mode: Claude Code の出力・PR・コードを、付箋のホワイトボードで寄り道しながら理解する /understand スキル",
-          "link": "https://github.com/fkubota/understand-mode",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-21T09:00:34",
-          "excerpt": "You signed in with another tab or window.Reload to refresh your session.You signed out in another tab or window.…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "OpenRouter は 3 つのプロバイダーをオフボードし、データ保持ゼロから 125 のエンドポイントを取得します",
-      "link": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-22T02:14:14",
-      "excerpt": "記事の URL: https://openrouter.ai/blog/payments/data-processing-incidents-on-inference-providers/ コメント URL: https://news.…"
+      "title": "[アップデート] AWS Quick の Web アプリの UI が一新されてデスクトップと統一されたぽいので確認してみた",
+      "link": "https://dev.classmethod.jp/articles/aws-quick-launches-new-web-experience-updated/",
+      "source": "DevelopersIO",
+      "published": "2026-11-22T09:16:21",
+      "excerpt": "デスクトップ版っぽくなった。最初迷うぞ"
     },
     {
-      "title": "Leonida – Xbox バージョンの GTA 6 の PC 再コンパイル",
-      "link": "https://github.com/ItsNotRexed/Leonida",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-22T00:57:26",
-      "excerpt": "記事の URL: https://github.com/ItsNotRexed/Leonida コメント URL: https://news.ycombinator.com/item?…"
+      "title": "Passive 'ghost' radar can detect airborne threats without revealing its own position",
+      "link": "https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023",
+      "source": "The Register（英語）",
+      "published": "2026-11-22T09:15:00",
+      "excerpt": "Kit piggybacks off TV and mobile signals and can be neatly stuffed into an SUV"
     },
     {
-      "title": "サンドイッチシミュレーター",
-      "link": "https://stulle.app/",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-22T00:07:59",
-      "excerpt": "記事の URL: https://stulle.app/ コメント URL: https://news.ycombinator.com/item?id=50594911 ポイント: 37 コメント数: 15"
+      "title": "【登壇レポート】「Business-JAWS #0 キックオフ！」でAIBの練習問題をAIに作らせて感じた気づきを話してきました！",
+      "link": "https://qiita.com/yosuke-suzuki/items/668b75e7f1ae9be15d99",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-22T08:29:25",
+      "excerpt": "はじめに こんにちは！アマコネ芸人です。2026年11月19日にAWS Japanオフィス(東京都港区の麻布台ヒルズ森JPタワー)で開催された「Business-JAWS #0 キックオフ！…"
     },
     {
-      "title": "Google、Workspace Studioのフローの共同作業ステップを制御する管理者設定を追加",
-      "link": "https://codezine.jp/article/detail/30437",
+      "title": "【IBM社内8万人が使用する「IBM Bob」】ハンズオン参加で翔泳社書籍プレゼント",
+      "link": "https://codezine.jp/article/detail/30439",
       "source": "CodeZine",
-      "published": "2026-11-22T00:00:00",
-      "excerpt": "Google、Workspace Studioのフローの共同作業ステップを制御する管理者設定を追加"
+      "published": "2026-11-22T08:00:00",
+      "excerpt": "【IBM社内8万人が使用する「IBM Bob」】ハンズオン参加で翔泳社書籍プレゼント"
     }
   ]
 }
