@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-11-23T03:51:41",
+  "generated_at": "2026-11-23T13:47:58",
   "window_hours": 24,
-  "total": 99,
+  "total": 95,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が21件。AWS AIプラクティショナー試験対策⑩：プロンプトエンジニアリングの手法 AWS認定AIプラクティショナー（AIF-C01）試験対策の連載第10回です。分野3「基盤モデルの応用」のタスク3.2「プロンプトエンジニアリング」を解説します。…",
+      "summary": "生成AIの新着が11件。x402は、HTTPの402ステータスコードを使い、リクエストの中で支払いを完結させる決済プロトコルです。利用者はリクエストごとにウォレットで署名した支払いを付けて送り、サーバーはその支払いを検証するだけで応答できます。…",
       "articles": [
+        {
+          "title": "AIエージェント決済x402の現在地：APIを90本運用した実データで見る市場と参入戦略、AWSでの構築・運用",
+          "link": "https://zenn.dev/x402research/books/x402-90-apis-report",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-23T06:10:49",
+          "excerpt": "x402は、HTTPの402ステータスコードを使い、リクエストの中で支払いを完結させる決済プロトコルです。利用者はリクエストごとにウォレットで署名した支払いを付けて送り、サーバーはその支払いを検証するだけで応答できます。…"
+        },
         {
           "title": "AWS AIプラクティショナー試験対策⑩：プロンプトエンジニアリングの手法",
           "link": "https://qiita.com/IT-love-pug/items/159ff8efa05e123594dd",
@@ -29,91 +36,91 @@
           "source": "TechCrunch（英語）",
           "published": "2026-11-23T01:25:53",
           "excerpt": "3 人の重要な後援者が、Anthropic に数十億ドルを賭ける確信を与えた理由を共有しています。"
-        },
-        {
-          "title": "1 ドルの GPT-5.1 トークンが中国のグレート ファイアウォールを回避する新たな方法を発見",
-          "link": "https://www.theregister.com/security/2026/11/23/1-of-gpt-51-tokens-finds-new-ways-around-chinas-great-firewall/5311532",
-          "source": "The Register（英語）",
-          "published": "2026-11-23T00:23:31",
-          "excerpt": "プラス: Lenovo のインフラ グループがついに大きな利益を上げました。インドネシアの氷河は消滅した。オーストラリアの銀行が AI バグファインダーをリリース。などなど！"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が6件。Microsoftは、タスク管理アプリ「Microsoft To Do」の全プラットフォーム向けアプリを2027年6月30日に提供終了すると発表した。…",
+      "summary": "クラウドの新着が6件。どうもどうも。さっき（2026/11/22）に、Twitter見てたらLambda Web FunctionsにPythonがキタっていうツイートを見たので、早速触ってみました。…",
       "articles": [
+        {
+          "title": "【AWS】Lambda Web FunctionsのPythonランタイムが使えるようになったのでDjango製Webアプリで試してみた！",
+          "link": "https://qiita.com/kuracchi_enj/items/bc6fb6161b211951217d",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-23T13:15:43",
+          "excerpt": "どうもどうも。さっき（2026/11/22）に、Twitter見てたらLambda Web FunctionsにPythonがキタっていうツイートを見たので、早速触ってみました。…"
+        },
+        {
+          "title": "CloudFront マルチテナントで stg と prod を分けて静的サイトを配信してみた",
+          "link": "https://dev.classmethod.jp/articles/cloudfront-multitenant-stg-prod/",
+          "source": "DevelopersIO",
+          "published": "2026-11-23T13:00:08",
+          "excerpt": "CloudFront のマルチテナントディストリビューションを使って、1つのディストリビューションで stg と prod を分けて管理する構成を試しました。…"
+        },
+        {
+          "title": "EC2を停止・起動したらSSH接続できなくなった？まず確認したいパブリックIPの変更",
+          "link": "https://qiita.com/reo_infraengineer/items/5a29aead99700e7b3e30",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-23T12:40:56",
+          "excerpt": "昨日までSSHで接続できていたEC2に、今日は接続できない。直前に行った操作は「停止」と「起動」だけ。秘密鍵やセキュリティグループは変更していない。このような場合、まず確認したいのが接続先のパブリックIPv4アドレスです。…"
+        },
         {
           "title": "「Microsoft To Do」、2027年6月にアプリ提供終了　法人向けは「Planner」へ移行、個人向けは代替なし",
           "link": "https://www.itmedia.co.jp/news/article/2611/23/2000003395/",
           "source": "ITmedia NEWS",
           "published": "2026-11-23T03:12:33",
           "excerpt": "Microsoftは、タスク管理アプリ「Microsoft To Do」の全プラットフォーム向けアプリを2027年6月30日に提供終了すると発表した。…"
-        },
-        {
-          "title": "個人AWSのroot運用をやめた夜 — SSO移行とTrivy初回スキャン25件の判断",
-          "link": "https://qiita.com/1716964609/items/435b74469914bb0d2a57",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-22T19:49:13",
-          "excerpt": "個人AWSのroot運用をやめた夜 — SSO移行とTrivy初回スキャン25件の判断 結論 個人で運用するAWS環境の日常認証を、rootのaws loginからIAM Identity Center（SSO＋MFA）へ移行した。…"
-        },
-        {
-          "title": "Terraform importに成功しても復旧できるとは限らない — 既存EC2のIaC化で学んだこと",
-          "link": "https://qiita.com/1716964609/items/600619da6c1872459ee5",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-22T19:36:10",
-          "excerpt": "Terraform importに成功しても復旧できるとは限らない — 既存EC2のIaC化で学んだこと 結論 稼働中のAWS環境を、初めて触るTerraformの管理下に取り込んだ。…"
-        },
-        {
-          "title": "Aurora復元後にANALYZEは必要か｜pg_statisticの行方",
-          "link": "https://qiita.com/techdbblog/items/fe5a8925c2829b408d1e",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-22T09:56:16",
-          "excerpt": "本番のAuroraクラスターをスナップショットから復元して検証環境を作ったあと、pg_stat_user_tablesを覗いたらlast_analyzeが空欄になっていた。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が7件。Amazon Quick on desktop が既存のサインイン方式に対応！…",
+      "summary": "セキュリティの新着が11件。はじめに 前回の BOLA編 では、「ログインはできているけれど、他人の データ まで見えてしまう」問題を再現し、アプリのコードで塞ぎました。…",
       "articles": [
         {
-          "title": "[待望のアップデート] Amazon Quick on desktop が既存のサインイン方式に対応！IAM フェデレーションと招待ユーザーで試してみた",
-          "link": "https://dev.classmethod.jp/articles/20261123-amazon-quick-desktop-iam-federation/",
-          "source": "DevelopersIO",
-          "published": "2026-11-23T02:29:07",
-          "excerpt": "Amazon Quick on desktop が既存のサインイン方式に対応！…"
+          "title": "不正アクセスが相次ぐこのご時世で、API Gatewayで構成されるアーキテクチャのセキュリティを見直してみた（BFLA編）",
+          "link": "https://qiita.com/mtmt_factory/items/51801d96bd3aa24efdbe",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-23T12:20:56",
+          "excerpt": "はじめに 前回の BOLA編 では、「ログインはできているけれど、他人の データ まで見えてしまう」問題を再現し、アプリのコードで塞ぎました。…"
         },
         {
-          "title": "1k API の認証操作で学んだこと",
-          "link": "https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis/",
+          "title": "Security Command Centerの脅威の検出結果をSendGridでメール通知してみた",
+          "link": "https://dev.classmethod.jp/articles/scc-threat-findings-sendgrid-notification/",
+          "source": "DevelopersIO",
+          "published": "2026-11-23T11:53:01",
+          "excerpt": "Security Command Centerの脅威の検出結果を、Pub/SubのpushサブスクリプションとCloud Run functionsを経由してSendGridでメール通知する仕組みを作りました。…"
+        },
+        {
+          "title": "The next circle of security hell",
+          "link": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
           "source": "Hacker News（英語）",
-          "published": "2026-11-23T01:01:11",
-          "excerpt": "記事の URL: https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis/ コメント URL: https://news.ycombinator.…"
+          "published": "2026-11-23T11:34:16",
+          "excerpt": "Article URL: https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/ Comments URL: https://news.…"
         },
         {
-          "title": "Microsoftが4万8000ドルを支払った脆弱性　文書1つでCopilotを乗っ取る「ChatMate」攻撃とは",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2611/23/news001.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-11-22T22:00:00",
-          "excerpt": "一見無害な文書を「Microsoft 365 Copilot」にアップロードするだけで、攻撃者はそのCopilotに直接命令を出せるようになる。セキュリティ企業Rubrikがそんな攻撃手法を実証した。…"
-        },
-        {
-          "title": "CloudFormation StackSets の操作の進捗が ステージ別・リージョン別に確認可能になったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-cloudformation-stacksets-progress-visibility/",
-          "source": "DevelopersIO",
-          "published": "2026-11-22T15:02:07",
-          "excerpt": "AWS CloudFormation StackSets の操作の進捗を、ステージ別・リージョン別に AWS CLI で確認しました。…"
+          "title": "eBPFはOSの中の防犯カメラ🎥 見落とした通信を数える、今知っておくべきセキュリティの常識",
+          "link": "https://zenn.dev/mt4110/articles/ebpf-missed-events",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-23T10:00:01",
+          "excerpt": "eBPFは、OSの中に置ける小さな防犯カメラ🎥 カーネルの中で起きたこと（プロセスがどこかへ接続しようとした、など）を、その場で記録できる仕組みです。Linuxでは、小さなプログラムをカーネルに取り付けて、決まったタイミングで動かします。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が4件。2026年11月19日、BigQueryの Data Engineering Agent で agent observability が GA になりました。…",
+      "summary": "データ分析の新着が4件。情報流出の可能性についての楽天証券の告知を表示するスマートフォン画面＝2026年11月17日午後 - 写真＝共同通信社（株式会社プレジデント社）個人投資家が増える中、証券口座が犯罪者の標的になっている。…",
       "articles": [
+        {
+          "title": "｢野村は100%､楽天･SBIは50%｣は過去の話…NISA口座を乗っ取られても｢全額戻るとは限らない｣補償の新ルール（プレジデントオンライン） - Yahoo!ニュース",
+          "link": "https://news.yahoo.co.jp/articles/2d8ed6122f3eb92f18539906bac8213be0c5c358",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-23T05:30:40",
+          "excerpt": "情報流出の可能性についての楽天証券の告知を表示するスマートフォン画面＝2026年11月17日午後 - 写真＝共同通信社（株式会社プレジデント社）個人投資家が増える中、証券口座が犯罪者の標的になっている。…"
+        },
         {
           "title": "BigQuery Daya Engineering AgentのAgent Observabilityを試してみた",
           "link": "https://dev.classmethod.jp/articles/bigquery-dea-agent-observability-ga/",
@@ -134,21 +141,28 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-22T14:41:04",
           "excerpt": "Amazon SQS はじめに 前回の記事では、DynamoDB Streams から SQS へつなぐ 2 つの方式（EventBridge Pipes..."
-        },
-        {
-          "title": "科学のために来て、大きな鉄のために留まる: スーパーコンピューター管理者がこの仕事を愛する理由について語る",
-          "link": "https://www.theregister.com/hpc/2026/11/22/come-for-the-science-stay-for-the-big-iron-supercomputer-admin-on-why-he-loves-the-job/5311247",
-          "source": "The Register（英語）",
-          "published": "2026-11-22T08:48:00",
-          "excerpt": "ドットコム バブルから 200,000 コアの未加工電力まで"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が5件。Terraform importに成功しても復旧できるとは限らない — 既存EC2のIaC化で学んだこと 結論 稼働中のAWS環境を、初めて触るTerraformの管理下に取り込んだ。…",
+      "summary": "開発ツールの新着が5件。以前の段階的な自動化ワークフローを改善し、EVS Deployment Orchestrator (EDO) としてまとめ直しました。…",
       "articles": [
+        {
+          "title": "1 つのスタックで VCF 全体を: EVS Deployment Orchestrator を使用して Amazon EVS へ VMware Cloud Foundation 9 をデプロイ",
+          "link": "https://aws.amazon.com/jp/blogs/news/one-stack-full-vcf-deploying-vmware-cloud-foundation-9-on-amazon-evs-with-the-evs-deployment-orchestrator/",
+          "source": "AWS 公式ブログ（日本語）",
+          "published": "2026-11-23T09:33:31",
+          "excerpt": "以前の段階的な自動化ワークフローを改善し、EVS Deployment Orchestrator (EDO) としてまとめ直しました。…"
+        },
+        {
+          "title": "EventBridge Scheduler で新カスタムイベントバスへの配信と AWS SDK 連携を試してみた",
+          "link": "https://dev.classmethod.jp/articles/eventbridge-scheduler-event-bus-targets/",
+          "source": "DevelopersIO",
+          "published": "2026-11-23T07:09:29",
+          "excerpt": "新カスタムイベントバスへのイベント配信と、EC2 の停止、Lambda の予約済み同時実行数の変更を、Lambda 関数を利用せずに実行できました。各検証のコマンドと、バスに届いたイベントの形を紹介します。"
+        },
         {
           "title": "Terraform importに成功しても復旧できるとは限らない — 既存EC2のIaC化で学んだこと",
           "link": "https://qiita.com/1716964609/items/600619da6c1872459ee5",
@@ -162,52 +176,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-11-22T17:20:44",
           "excerpt": "🎯 今回検証したいこと 以前、S3・Apache Iceberg・AWS Glue Data Catalog・Amazon Athenaを組み合わせ、dbtをAmazon ECS on AWS Fargateで実行するレイクハウスを構築しま…"
-        },
-        {
-          "title": "CloudFormation StackSets の操作の進捗が ステージ別・リージョン別に確認可能になったので試してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-cloudformation-stacksets-progress-visibility/",
-          "source": "DevelopersIO",
-          "published": "2026-11-22T15:02:07",
-          "excerpt": "AWS CloudFormation StackSets の操作の進捗を、ステージ別・リージョン別に AWS CLI で確認しました。…"
-        },
-        {
-          "title": "AWS Emulator触ってみた（後編）：Terraformでデプロイしてみた",
-          "link": "https://zenn.dev/nagatoshi/articles/try-aws-emulator-iac-test",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-22T07:54:23",
-          "excerpt": "はじめに 前編 では AWS Emulator を Docker で起動し、boto3 / AWS CLI から S3・DynamoDB・IAM・Lambda を触ってみました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "AWS Quickのファイル、どこに置く？ ローカルフォルダ・Box・Spacesの使い分けを整理する",
-      "link": "https://qiita.com/somasun_aws/items/bd68618c5e1ec23600fa",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-23T03:16:19",
-      "excerpt": "はじめに AWS Quick（旧称Amazon Quick。以下、Quick）を使い始めると、意外と早くぶつかるのが「ファイルをどこに置いて、どうQuickとつなげばいいのか」という問題です。…"
+      "title": "Show HN: News Blocklist – a DNS blocklist of 14k news and current-affairs sites",
+      "link": "https://github.com/ruairidhflint/news-blocklist",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-23T13:02:52",
+      "excerpt": "A little while ago I built (vibed) a tiny Mac app to block websites via the hosts file.…"
     },
     {
-      "title": "【年収300万アップも夢じゃない？】AI時代を生き抜く、エンジニアの生き残り戦略",
-      "link": "https://codezine.jp/article/detail/30352",
-      "source": "CodeZine",
-      "published": "2026-11-23T03:00:00",
-      "excerpt": "【年収300万アップも夢じゃない？】AI時代を生き抜く、エンジニアの生き残り戦略"
+      "title": "Amodei reportedly suggested games could pacify masses after AI took their jobs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-23T12:41:14",
+      "excerpt": "Article URL: https://www.theverge.…"
     },
     {
-      "title": "[AWS テクニカルサポートノート] AI と AWS ตัวไหนบ้างที่สามรถเลือกไม่ใ ห้นำข้อมูลไปใช้ปรับปรุงบริการ (オプトアウト)",
-      "link": "https://dev.classmethod.jp/articles/tsnote-thai-ai-services-opt-out-target-services/",
-      "source": "DevelopersIO",
-      "published": "2026-11-23T02:46:43",
-      "excerpt": "มาดูกันเลยว่ามีบริการ อะไรบ้างที่เลือกไม่เข้ าร่วมได้ผ่านนโยบายการ เลือกไม่เข้าร่วมบริการ AI と AWS Organizations"
+      "title": "New Outlook's attachment issues sent users into the arms of its predecessor",
+      "link": "https://www.theregister.com/saas/2026/11/23/new-outlooks-attachment-issues-sent-users-into-the-arms-of-its-predecessor/5311576",
+      "source": "The Register（英語）",
+      "published": "2026-11-23T12:30:00",
+      "excerpt": "Microsoft recommended Classic or the web client while two rounds of fixes restored normal service"
     },
     {
-      "title": "2026年11月23日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-      "link": "https://qiita.com/ennagara128/items/72ac727b06f6731fccc3",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-23T02:41:44",
-      "excerpt": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！…"
+      "title": "Norway links energy firm cyberattacks to critical Azure API Management flaw",
+      "link": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
+      "source": "The Register（英語）",
+      "published": "2026-11-23T12:29:00",
+      "excerpt": "Microsoft says mitigation is in place, but admins must investigate possible compromise and rotate secrets"
     }
   ]
 }
