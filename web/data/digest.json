@@ -1,154 +1,161 @@
 {
-  "generated_at": "2026-11-25T14:43:01",
+  "generated_at": "2026-11-25T23:24:39",
   "window_hours": 24,
-  "total": 150,
+  "total": 140,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が30件。アマゾンとメタは、2か月にわたるミューズの封鎖を終わらせる可能性のある取引について話し合っている。",
+      "summary": "生成AIの新着が23件。はじめに LLMの出力やユーザー入力から個人情報（PII）を検知・マスキングしたい場合、LLM自体に「個人情報を消して」と指示する方法では漏れやコスト増が課題になります。…",
       "articles": [
         {
-          "title": "アマゾンとメタ、AIエージェントミューズの封鎖解除に向け協議中と報じられている",
-          "link": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-          "source": "TechCrunch（英語）",
-          "published": "2026-11-25T14:10:18",
-          "excerpt": "アマゾンとメタは、2か月にわたるミューズの封鎖を終わらせる可能性のある取引について話し合っている。"
+          "title": "【Python】Amazon Bedrock ApplyGuardrail APIと正規表現で日本語PII（氏名・住所・電話）を高速マスキングする実装Tips",
+          "link": "https://qiita.com/ai-nexus/items/706581536f2478e6db05",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-25T23:04:16",
+          "excerpt": "はじめに LLMの出力やユーザー入力から個人情報（PII）を検知・マスキングしたい場合、LLM自体に「個人情報を消して」と指示する方法では漏れやコスト増が課題になります。…"
         },
         {
-          "title": "JetBrains はエージェントがオープンソースで不正行為を行っている可能性があることを発見",
-          "link": "https://www.theregister.com/devops/2026/11/25/jetbrains-finds-agents-may-cheat-with-open-source/5311999",
-          "source": "The Register（英語）",
-          "published": "2026-11-25T14:07:00",
-          "excerpt": "AI コーディング エージェントが GitHub の回答を覗いているのを発見、JetBrains がベビーベッド シートを隠したときにつまずく"
+          "title": "Google WorkspaceでMCPサーバーとCLIを一般提供、AIエージェントはMCP必須に",
+          "link": "https://codezine.jp/article/detail/30471",
+          "source": "CodeZine",
+          "published": "2026-11-25T23:00:00",
+          "excerpt": "Google WorkspaceでMCPサーバーとCLIを一般提供、AIエージェントはMCP必須に"
         },
         {
-          "title": "【大阪開催レポート】Claude Desktop × Amazon Bedrock で挑むAIエージェント活用セミナー | サーバーワークスエンジニアブログ",
-          "link": "https://blog.serverworks.co.jp/bedrock-claude-handson-event-report-osaka",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-25T12:11:51",
-          "excerpt": "こんにちは。AI推進課の笹木です。2026年9月29日、大阪にて第２回目となる「Claude on Amazon Bedrock ハンズオンイベント」を開催いたしました。当日は7社17名の皆様にご参加いただきました。…"
+          "title": "AWSで毎日英語ニュースの課題と解説が届くメール配信システムを作ってみた（Bedrock / Lambda / DynamoDB / SES）",
+          "link": "https://qiita.com/haniwa_qiita/items/f65e9086d9db0ab189e1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-25T22:32:29",
+          "excerpt": "目次 はじめに 作ったもの・システム構成図 事前準備（SES・DynamoDB・Bedrock・IAM） Step 1：Amazon SES でメールアドレスを検証する Step 2：Amazon DynamoDB でテーブルを作成する S…"
         },
         {
-          "title": "Claude Code v2.1.332 の主要アップデート - MCP の Skill 配布とタスク実行と Bedrock・Foundry の sonnet エイリアス変更",
-          "link": "https://dev.classmethod.jp/articles/20261125-cc-updates-v2-1-332/",
-          "source": "DevelopersIO",
-          "published": "2026-11-25T10:12:37",
-          "excerpt": "Claude Code v2.1.332 で MCP サーバーが提供する Skill に対応し、社内の MCP サーバーに置いた Skill をチームで共有できるようになりました。…"
+          "title": "Claudeで作ったツールがPCアプリに　管理者が知っておくべき“記録されない操作”",
+          "link": "https://www.itmedia.co.jp/enterprise/articles/2611/26/news036.html",
+          "source": "ITmedia エンタープライズ",
+          "published": "2026-11-25T22:00:00",
+          "excerpt": "Anthropicは、Claudeで作成したツールをMacやWindowsのアプリとしてインストールできる機能のβ版の提供を始めた。ユーザーの許可を得たアプリは、確認を経ずにプログラムを実行し、ファイルを削除できる。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が16件。こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、インフラ特化の学習サービス「InfraDojo（インフラ道場）」を運営しています。AWS CLIで、S3の logs フォルダにあるファイルを確認したい。…",
+      "summary": "クラウドの新着が15件。目次 はじめに 作ったもの・システム構成図 事前準備（SES・DynamoDB・Bedrock・IAM） Step 1：Amazon SES でメールアドレスを検証する Step 2：Amazon DynamoDB でテーブルを作成する S…",
       "articles": [
         {
-          "title": "S3で「logs」を指定したら「logs-old」まで出てきた？プレフィックスと末尾の「/」の違い",
-          "link": "https://qiita.com/reo_infraengineer/items/cf45adfb9b347c388e21",
+          "title": "AWSで毎日英語ニュースの課題と解説が届くメール配信システムを作ってみた（Bedrock / Lambda / DynamoDB / SES）",
+          "link": "https://qiita.com/haniwa_qiita/items/f65e9086d9db0ab189e1",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-25T12:38:00",
-          "excerpt": "こんにちは、Reoです。フリーランスのインフラエンジニアとして働きながら、インフラ特化の学習サービス「InfraDojo（インフラ道場）」を運営しています。AWS CLIで、S3の logs フォルダにあるファイルを確認したい。…"
+          "published": "2026-11-25T22:32:29",
+          "excerpt": "目次 はじめに 作ったもの・システム構成図 事前準備（SES・DynamoDB・Bedrock・IAM） Step 1：Amazon SES でメールアドレスを検証する Step 2：Amazon DynamoDB でテーブルを作成する S…"
         },
         {
-          "title": "【Terraform×AWS】VPCフローログで通信を記録する：保存先の選び方と料金を抑える設定",
-          "link": "https://qiita.com/ham-nao/items/8622dd08dcb93f0e6c94",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-25T11:44:44",
-          "excerpt": "「アプリケーションからRDSにつながらない」「怪しい通信が来ていないか確認したい」。こうしたときに役立つのが、VPCフローログです。VPCの中を流れた通信の記録（どこから、どこへ、どのポートで、許可されたか拒否されたか）を残せます。…"
+          "title": "AWS Lambda が Lambda 耐久関数を使用した MicroVM のオーケストレーションをサポートするようになりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-11-25T20:00:00",
+          "excerpt": "本日、AWS は、 Lambda MicroVM と Lambda 耐久性関数 をオーケストレーションするための新しい拡張機能の開発者プレビューを発表しました。…"
         },
         {
-          "title": "Django の実行環境（Lambda, Aurora）を cdkd で100秒強でデプロイしてみた",
-          "link": "https://dev.classmethod.jp/articles/lambda-web-functions-aurora-without-vpc/",
-          "source": "DevelopersIO",
-          "published": "2026-11-25T11:14:52",
-          "excerpt": "Django アプリを動かす Lambda Web Functions と Aurora PostgreSQL のエクスプレス構成をつなぎ、cdkd の初回デプロイを約1分45秒で完了しました。…"
+          "title": "Amazon EC2 M8g インスタンスがイスラエル (テルアビブ) で利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m8g-instances-telaviv-region/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-11-25T17:15:00",
+          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) M8g インスタンスがイスラエル (テルアビブ) リージョンで利用可能になります。…"
         },
         {
-          "title": "タグエディタが AWS Resource Explorer に移行: 複数のリージョンにまたがるリソースにタグを一括付与可能に",
-          "link": "https://aws.amazon.com/jp/blogs/news/tag-editor-moves-to-aws-resource-explorer-bulk-tag-resources-across-regions/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-11-25T08:49:40",
-          "excerpt": "本記事は 2026 年 11 月 3 日に公開された「Tag Editor moves to AWS Reso […]"
+          "title": "Amazon EC2 M9gd インスタンスがアジアパシフィック (ソウル) で利用可能になりました",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9gd-asiapacific-seoul/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-11-25T17:10:00",
+          "excerpt": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) M9gd インスタンスがアジアパシフィック (ソウル) リージョンで利用可能になります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が13件。AWS Security Hub CSPM のコントロールが FAILED に変わったときだけ EventBridge で通知するために、ProductFields の PreviousComplianceStatus で絞り込んでみました…",
+      "summary": "セキュリティの新着が14件。記事の URL: https://defang.io/blog/post/security-incident-november-2026/ コメント URL: https://news.ycombinator.com/item?…",
       "articles": [
         {
-          "title": "Security Hub CSPM の通知が繰り返し届くのを PreviousComplianceStatus で抑えてみた",
-          "link": "https://dev.classmethod.jp/articles/securityhub-eventbridge-previous-compliance-status/",
-          "source": "DevelopersIO",
-          "published": "2026-11-25T10:02:41",
-          "excerpt": "AWS Security Hub CSPM のコントロールが FAILED に変わったときだけ EventBridge で通知するために、ProductFields の PreviousComplianceStatus で絞り込んでみました…"
+          "title": "デファンセキュリティインシデント",
+          "link": "https://defang.io/blog/post/security-incident-november-2026/",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-25T21:47:16",
+          "excerpt": "記事の URL: https://defang.io/blog/post/security-incident-november-2026/ コメント URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "AWS セキュリティ成熟度モデル v3 と PCI DSS 版・AI 版の変更点と評価ツールを確認する",
-          "link": "https://zenn.dev/cscloud_blog/articles/new-aws-security-maturity-model",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-25T09:41:57",
-          "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！皆さんは AWS のセキュリティ運用にセキュリティ成熟度モデルを使用していますか？…"
+          "title": "Ubuntu セキュリティの応答時間が遅い",
+          "link": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-25T20:38:00",
+          "excerpt": "記事の URL: https://www.openwall.com/lists/oss-security/2026/11/25/9 コメント URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "トヨタの数年をかけたゼロトラスト改革、行く手を阻んだ最大の壁とは？",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/25/news026.html",
-          "source": "@IT",
-          "published": "2026-11-25T08:15:00",
-          "excerpt": "生成AIによってサイバー攻撃は、人の速度で対処できる時代ではなくなった。とはいえゼロトラストやSASEを導入すれば解決するわけでもない。…"
+          "title": "Nfs2root: Linux カーネルの NFS サーバーにある 12 年間の認証前リモート ルート",
+          "link": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-25T20:35:50",
+          "excerpt": "記事の URL: https://opensec.in/blog/nfs2root-cve-2026-99362 コメント URL: https://news.ycombinator.com/item?…"
         },
         {
-          "title": "CloudFront自動WAF統合とLambda状態通知で見直す非同期入口設計",
-          "link": "https://zenn.dev/geneg/articles/2026-11-23-aws-lambda-now-publishes-event-fu",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-25T05:58:53",
-          "excerpt": "はじめに 前回「CloudFront自動WAF統合で見直す非同期処理基盤の入口設計」という記事を書いたところ、PV の伸びが想定より大きく、読者の関心の高さを実感しました。…"
+          "title": "1Password のバックエンド システムに関連するセキュリティ インシデントに関する最新情報。 | 1パスワード",
+          "link": "https://1password.com/blog/update-on-nov-2026-security-incident",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-25T18:52:09",
+          "excerpt": "何が起こったのか 2026 年 11 月 19 日、1Password は、攻撃者が従業員の企業 GitHub アカウントにアクセスした痕跡の調査を開始しました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。Win4Wine は Linux 上で正規の Explorer シェルを実行します",
+      "summary": "データ分析の新着が7件。【Bahrain Comic Con 2026レポート】こんにちは、SHIFT Arabiaの鈴木です。続きをみる",
       "articles": [
         {
-          "title": "Debian は Windows XP の実際のスキンを身に着けて起動します",
-          "link": "https://www.theregister.com/os-platforms/2026/11/25/debian-wakes-up-wearing-windows-xps-actual-skin/5312111",
-          "source": "The Register（英語）",
-          "published": "2026-11-25T13:23:32",
-          "excerpt": "Win4Wine は Linux 上で正規の Explorer シェルを実行します"
+          "title": "バーレーン・コミコンで日本発のVR・XRを熱狂体験！SHIFT Arabiaがウルトラマンと忍者で中東市場へ本格進出 | SHIFT Group 技術ブログ",
+          "link": "https://note.shiftinc.jp/n/n4d5746b2a44c",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-25T23:00:00",
+          "excerpt": "【Bahrain Comic Con 2026レポート】こんにちは、SHIFT Arabiaの鈴木です。続きをみる"
         },
         {
-          "title": "Amazon Inspector の新機能「runtime reachability」を試してみた",
-          "link": "https://dev.classmethod.jp/articles/inspector-runtime-reachability-ecr-ec2/",
+          "title": "AWSで毎日英語ニュースの課題と解説が届くメール配信システムを作ってみた（Bedrock / Lambda / DynamoDB / SES）",
+          "link": "https://qiita.com/haniwa_qiita/items/f65e9086d9db0ab189e1",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-25T22:32:29",
+          "excerpt": "目次 はじめに 作ったもの・システム構成図 事前準備（SES・DynamoDB・Bedrock・IAM） Step 1：Amazon SES でメールアドレスを検証する Step 2：Amazon DynamoDB でテーブルを作成する S…"
+        },
+        {
+          "title": "Ladybird ブラウザの最初にダウンロード可能なアルファ版は驚くほど有能です",
+          "link": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/",
+          "source": "Ars Technica（英語）",
+          "published": "2026-11-25T17:33:30",
+          "excerpt": "独立したブラウザ エンジンが Linux と macOS に登場し、私たちはそれを試してみました。"
+        },
+        {
+          "title": "Kiro Mobile アプリがリリースされたので試してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-mobile-android-iphone-cloud-session/",
           "source": "DevelopersIO",
-          "published": "2026-11-25T12:34:02",
-          "excerpt": "脆弱なパッケージを ECR イメージと EC2 インスタンスに仕込み、finding の runtime reachability を見ました。…"
-        },
-        {
-          "title": "AWS Glue、Apache Sparkジョブの自動バージョンアップグレード機能を発表",
-          "link": "https://codezine.jp/article/detail/30464",
-          "source": "CodeZine",
-          "published": "2026-11-25T07:00:00",
-          "excerpt": "AWS Glue、Apache Sparkジョブの自動バージョンアップグレード機能を発表"
-        },
-        {
-          "title": "BIの生成AI機能、8割超が「不安」　データの行き先を「十分に把握」は何割か",
-          "link": "https://www.itmedia.co.jp/enterprise/articles/2611/20/news056.html",
-          "source": "ITmedia エンタープライズ",
-          "published": "2026-11-24T22:00:00",
-          "excerpt": "BIツールに搭載された生成AI機能の利用は、試験的なものを含めると9割を超える。では、入力した業務データがどこへ送られ、どう扱われるのかを十分に把握できている担当者はどの程度いるのか。"
+          "published": "2026-11-25T17:19:39",
+          "excerpt": "Android のアプリで組織アカウントにサインインし、Build with spec でクラウドセッションを作ると、Kiro Web にも同じセッションが表示されました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が10件。Googleは、Google WorkspaceをAIエージェントが操作するためのインターフェイスとして「Google Workspace MCP Server」と「Google Workspace CLI」が正式版になったことを発表しまし…",
+      "summary": "開発ツールの新着が9件。Google WorkspaceでMCPサーバーとCLIを一般提供、AIエージェントはMCP必須に",
       "articles": [
+        {
+          "title": "Google WorkspaceでMCPサーバーとCLIを一般提供、AIエージェントはMCP必須に",
+          "link": "https://codezine.jp/article/detail/30471",
+          "source": "CodeZine",
+          "published": "2026-11-25T23:00:00",
+          "excerpt": "Google WorkspaceでMCPサーバーとCLIを一般提供、AIエージェントはMCP必須に"
+        },
         {
           "title": "「Google Workspace MCPサーバ」と「Google Workspace CLI」が正式版としてリリース",
           "link": "https://www.publickey1.jp/blog/26/google_workspace_mcpgoogle_workspace_cli.html",
@@ -169,45 +176,38 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-25T11:44:44",
           "excerpt": "「アプリケーションからRDSにつながらない」「怪しい通信が来ていないか確認したい」。こうしたときに役立つのが、VPCフローログです。VPCの中を流れた通信の記録（どこから、どこへ、どのポートで、許可されたか拒否されたか）を残せます。…"
-        },
-        {
-          "title": "Django の実行環境（Lambda, Aurora）を cdkd で100秒強でデプロイしてみた",
-          "link": "https://dev.classmethod.jp/articles/lambda-web-functions-aurora-without-vpc/",
-          "source": "DevelopersIO",
-          "published": "2026-11-25T11:14:52",
-          "excerpt": "Django アプリを動かす Lambda Web Functions と Aurora PostgreSQL のエクスプレス構成をつなぎ、cdkd の初回デプロイを約1分45秒で完了しました。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "MCPに新機能「Skills over MCP」登場。ツールとの接続だけでなく使い方のスキルもMCP経由で提供",
-      "link": "https://www.publickey1.jp/blog/26/mcpskills_over_mcpmcp.html",
-      "source": "Publickey",
-      "published": "2026-11-25T15:29:05",
-      "excerpt": "AIエージェントと外部ツールを接続する業界標準となっているMCP（Model Context Protocol）に、新機能として「Skills over MCP」がβ版として追加されました。Skills over MCPを利用することで、.…"
+      "title": "「チームの限界を決めるのは、技術ではなく目標の大きさ」Cognition社内とみずほ証券、DeNAら日本企業のDevin活用",
+      "link": "https://codezine.jp/article/detail/30469",
+      "source": "CodeZine",
+      "published": "2026-11-25T23:00:00",
+      "excerpt": "AIソフトウェアエンジニア「Devin」を開発するCognitionは、2026年11月24日に年次イベント「Merge Tokyo 2026」を開催した。AIエージェントが実装を担うようになったとき、人間は何をするのか。…"
     },
     {
-      "title": "おなじみのイランのハッカーグループが混乱を引き起こす新たな方法を発見",
-      "link": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
-      "source": "Ars Technica（英語）",
-      "published": "2026-11-25T14:29:43",
-      "excerpt": "フランスはイランのサイバー部隊がスーパーマーケットの冷凍庫数百台を妨害したとして非難している。"
+      "title": "情報漏えい1377社を徹底調査、63％が外部サービス要因　利用するなら気を付けたい3つのこと",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/26/news034.html",
+      "source": "@IT",
+      "published": "2026-11-25T22:45:00",
+      "excerpt": "FUTUREWOODSの調査では、情報漏えいなどを公表した1377社の63.5％が委託先や外部サービスなどを経由した被害だった。…"
     },
     {
-      "title": "Todoist、顧客の詳細情報の 6% がデータ侵害で盗まれたことを確認",
-      "link": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
+      "title": "S&P、ガバナンスと「キーマン」リスクを理由にNVIDIAの信用格下げを検討",
+      "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
       "source": "TechCrunch（英語）",
-      "published": "2026-11-25T14:20:28",
-      "excerpt": "Todoistは、ハッカーが同社の実稼働システムにアクセスし、電子メールID、パスワードハッシュ、アカウント作成日などの顧客データを盗んだと述べた。"
+      "published": "2026-11-25T22:44:32",
+      "excerpt": "信用格付け会社はエヌビディアの信用格付けを4番目に高い格付けであるAA-に引き下げる可能性がある。"
     },
     {
-      "title": "ACM の Amazon N2 証明書（SFG2）を発行して mTLS を試してみた",
-      "link": "https://dev.classmethod.jp/articles/acm-amazon-n2-certificates-mtls/",
-      "source": "DevelopersIO",
-      "published": "2026-11-25T14:18:35",
-      "excerpt": "ACM で発行できる Amazon N2 証明書には、ルート階層が2種類あります。SFG2 階層を発行して、拡張キー使用法に clientAuth が含まれることと、OpenSSL で mTLS が成立することを確かめました。…"
+      "title": "ヨーロッパの探査機、小惑星の偏向実験後に混沌とした現場を発見",
+      "link": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+      "source": "Ars Technica（英語）",
+      "published": "2026-11-25T22:36:45",
+      "excerpt": "「DART は本当に大規模な混乱を引き起こしました。しかし、私たちはどのような混乱を引き起こしたのかよく知りませんでした。」"
     }
   ]
 }
