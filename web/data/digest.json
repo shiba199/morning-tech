@@ -1,84 +1,98 @@
 {
-  "generated_at": "2026-11-26T15:30:39",
+  "generated_at": "2026-11-26T23:58:15",
   "window_hours": 24,
-  "total": 145,
+  "total": 138,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が31件。さくらインターネットは11月25日と26日の2日間、大規模イベント「SAKURA DEKIRU Conference 2026」を都内で開催。…",
+      "summary": "生成AIの新着が30件。Splunk MCP Serverを導入してClaudeから自然言語でCloudTrailを調査してみました。…",
       "articles": [
         {
-          "title": "さくらインターネット、AWSやAzureなど他クラウドでバックアップ可能な新ストレージ「Object Storage Suite」（OS2）発表",
-          "link": "https://www.publickey1.jp/blog/26/awsazureobject_storage_suiteos2.html",
-          "source": "Publickey",
-          "published": "2026-11-26T15:42:36",
-          "excerpt": "さくらインターネットは11月25日と26日の2日間、大規模イベント「SAKURA DEKIRU Conference 2026」を都内で開催。…"
-        },
-        {
-          "title": "Kiro Enterprise で GPT 6.2 Astra を Preview として利用できるようになりました",
-          "link": "https://dev.classmethod.jp/articles/kiro-enterprise-gpt-6-2-astra/",
+          "title": "Splunk 公式 MCP Server を導入して Claude から SPL を書かずにログ調査してみた",
+          "link": "https://dev.classmethod.jp/articles/splunk-mcp-server/",
           "source": "DevelopersIO",
-          "published": "2026-11-26T14:45:17",
-          "excerpt": "2026年11月25日に Preview の展開が始まった OpenAI の GPT 6.2 Astra を、Kiro Enterprise の組織で、管理画面の Model availability から有効にして試しました。…"
+          "published": "2026-11-26T23:49:48",
+          "excerpt": "Splunk MCP Serverを導入してClaudeから自然言語でCloudTrailを調査してみました。…"
         },
         {
-          "title": "開発者が Kiro に持ち込む作業で、コーディングエージェントをベンチマークする",
-          "link": "https://aws.amazon.com/jp/blogs/news/kirobench/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-11-26T13:42:52",
-          "excerpt": "開発者は Kiro を、ちょっとした質問から、多くのファイルにまたがり何往復も会話が続く作業まで、あらゆることに使っています。…"
+          "title": "Microsoft、「agent-framework」が不正にPyPlへアップロードされたと発表",
+          "link": "https://codezine.jp/article/detail/30491",
+          "source": "CodeZine",
+          "published": "2026-11-26T23:00:00",
+          "excerpt": "Microsoft、「agent-framework」が不正にPyPlへアップロードされたと発表"
         },
         {
-          "title": "【Claude Code】鹿野さんが実践するエンジニアの日常業務を爆速にする最新推しツール 大公開 / offers-claude-code-2026-11-26",
-          "link": "https://speakerdeck.com/tonkotsuboy_com/index-1f2ed0d2-597d-459d-abf2-db8db109c5d6",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-26T12:31:47",
-          "excerpt": "「【Claude Code】鹿野さんが実践するエンジニアの日常業務を爆速にする最新推しツール 大公開」で発表した資料です。実際にはスライドをほとんど見せずにずっと喋っていました笑 https://offers-jp.connpass.…"
+          "title": "AIエージェントの行動が「適切か暴走か」をどう見極める？　Googleが明かすテストの盲点",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/27/news035.html",
+          "source": "@IT",
+          "published": "2026-11-26T23:00:00",
+          "excerpt": "AIエージェントが期待通りに動作するかどうかを、どのように検証すればよいのか。…"
+        },
+        {
+          "title": "【Kiro】Kiro Crewのカスタムエージェント - エージェントオーケストレーションシステムを試してみた",
+          "link": "https://dev.classmethod.jp/articles/kiro-crew-agent-orchestration/",
+          "source": "DevelopersIO",
+          "published": "2026-11-26T22:00:00",
+          "excerpt": "Kiro Crew のカスタムエージェント、Kiro のエージェントオーケストレーションシステムをテストしてみました~"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が14件。MicroVM の起動、ジョブの実行、終了を、Step Functions のステートマシン（SDK 統合と JSONata）で組めました。同じ MicroVM に送った2つのジョブはファイルとメモリを共有できました。…",
+      "summary": "クラウドの新着が14件。こんにちは、ファインディでFindy Team+の開発をしているrobinです。Findy Team+のバックエンドには数千万〜数億行を持つ巨大テーブルが複数あります。…",
       "articles": [
         {
-          "title": "Step Functions で Lambda MicroVMs のジョブを実行してみた",
-          "link": "https://dev.classmethod.jp/articles/step-functions-lambda-microvms-orchestration/",
-          "source": "DevelopersIO",
-          "published": "2026-11-26T15:14:27",
-          "excerpt": "MicroVM の起動、ジョブの実行、終了を、Step Functions のステートマシン（SDK 統合と JSONata）で組めました。同じ MicroVM に送った2つのジョブはファイルとメモリを共有できました。…"
+          "title": "gh-ostで2,500万行のテーブル変更をクエリ待ち1.31秒で通した話：Aurora MySQLへの導入と本番クローンでの検証 | Findy Tech Blog",
+          "link": "https://tech.findy.co.jp/entry/2026/11/27/070000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-26T22:00:00",
+          "excerpt": "こんにちは、ファインディでFindy Team+の開発をしているrobinです。Findy Team+のバックエンドには数千万〜数億行を持つ巨大テーブルが複数あります。…"
         },
         {
-          "title": "AWS ユーザー向け Google Cloud ファイアウォールルール入門：default VPC は最初から SSH を許可している",
-          "link": "https://qiita.com/leomarokun/items/e06db1e7995349d861d8",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-26T14:13:15",
-          "excerpt": "はじめに Google Cloud の VPC ファイアウォールルールは、VPC 全体にかける「通す・止める通信のリスト」です。…"
+          "title": "脱メインフレームの“本丸”はコードではない　AIが苦戦する「40年物のデータ移行」",
+          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/27/news019.html",
+          "source": "@IT",
+          "published": "2026-11-26T20:00:00",
+          "excerpt": "レガシーシステム移行のプロジェクト終盤で工数とリスクが膨らむのはデータ移行だ。長年蓄積されてきたデータには、設計書やソースコードからは読み解けない問題が潜んでいる。AIの活用が有効な作業と、人が担うべき判断を整理する。"
         },
         {
-          "title": "AWS ユーザー向け Google Cloud VPC 入門：リージョンをまたぐ「1つの大きなネットワーク」",
-          "link": "https://qiita.com/leomarokun/items/466bd01e712973c15cce",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-26T12:45:13",
-          "excerpt": "はじめに Google Cloud の VPC は、リージョンをまたぐ「1つの大きなネットワーク」です。AWS の VPC はリージョンごとに別物なので、ここが一番の違いかと思います（VPC ネットワーク）。覚えておく 4 つのこと 1.…"
+          "title": "Amazon RDS for PostgreSQL は、マイナー バージョン 18.7、17.12、16.16、15.20、および 14.25 をサポートします。",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-18-7-17-12-16-16-15-20-14-25/",
+          "source": "AWS What's New（英語）",
+          "published": "2026-11-26T17:00:00",
+          "excerpt": "Amazon Relational Database Service (RDS) for PostgreSQL は、最新のマイナー バージョン 18.7、17.12、16.16、15.20、および 14.…"
         },
         {
-          "title": "Postgres MCP Server を IAM DB 認証でパスワードなしの読み取り専用ユーザーとして Aurora に繋ぐ",
-          "link": "https://qiita.com/asahide/items/90a744d9cdf33401256e",
+          "title": "【Amazon Inspector】脆弱性が見つかったら勝手に直ってほしいので、EC2もLambdaもFargateも自動で直してみた",
+          "link": "https://qiita.com/miruky/items/84f899bacc92ec7a94af",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-26T12:42:34",
-          "excerpt": "1.はじめに この記事は AWS Builder Center に英語で公開した記事1の日本語版です。Aurora PostgreSQL のデータを AI エージェントに読ませたい。…"
+          "published": "2026-11-26T15:55:18",
+          "excerpt": "はじめに こんばんは、mirukyです。Amazon Inspectorを有効にすると、検出結果の一覧はすぐに埋まります。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が19件。顧客はワークロードを移行し、侵害された認証情報をローテーションするために必死の対応に直面しています",
+      "summary": "セキュリティの新着が14件。はじめに こんばんは、mirukyです。Amazon Inspectorを有効にすると、検出結果の一覧はすぐに埋まります。…",
       "articles": [
+        {
+          "title": "【Amazon Inspector】脆弱性が見つかったら勝手に直ってほしいので、EC2もLambdaもFargateも自動で直してみた",
+          "link": "https://qiita.com/miruky/items/84f899bacc92ec7a94af",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-26T15:55:18",
+          "excerpt": "はじめに こんばんは、mirukyです。Amazon Inspectorを有効にすると、検出結果の一覧はすぐに埋まります。…"
+        },
+        {
+          "title": "AWSのSSM Agentの脆弱性（CVE-2026-134069）とWindows EC2上のIBM Planning Analytics（TM1）：Agentの更新では直らない理由と対策",
+          "link": "https://qiita.com/tc_mayoke/items/77953b68ab62c69f2442",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-26T15:40:46",
+          "excerpt": "AWSが2026年11月23日（米国時間）に公表したAmazon SSM Agentの脆弱性（CVE-2026-134069）について、AWSのWindowsのEC2でIBM Planning Analytics（TM1）を動かしている場合…"
+        },
         {
           "title": "Rackspace、セキュリティ侵害を受けて Spot クラウド サービスを停止",
           "link": "https://www.theregister.com/cyber-crime/2026/11/26/rackspace-pulls-plug-on-spot-cloud-service-after-security-breach/5312352",
@@ -92,62 +106,41 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-26T12:42:34",
           "excerpt": "1.はじめに この記事は AWS Builder Center に英語で公開した記事1の日本語版です。Aurora PostgreSQL のデータを AI エージェントに読ませたい。…"
-        },
-        {
-          "title": "Fastlyがプロンプトインジェクションをエッジで防ぐ「AI Firewall」などAI向け3機能を国内発表、中小企業向けWAFパッケージも",
-          "link": "https://codezine.jp/article/detail/30451",
-          "source": "CodeZine",
-          "published": "2026-11-26T11:30:00",
-          "excerpt": "Fastlyがプロンプトインジェクションをエッジで防ぐ「AI Firewall」などAI向け3機能を国内発表、中小企業向けWAFパッケージも"
-        },
-        {
-          "title": "アディーレ法律事務所、個人情報約1828件漏えい　氏名や問い合わせ内容など……委託先「メール商人」に不正アクセス",
-          "link": "https://www.itmedia.co.jp/news/article/2611/26/2000003484/",
-          "source": "ITmedia NEWS",
-          "published": "2026-11-26T05:31:18",
-          "excerpt": "氏名、メールアドレス、電話番号、都道府県、性別、生年月日、法人名・業種・担当者名、学校名・自治体名、問い合わせの内容、連絡に関する希望などが漏えいしたという。"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が6件。Finatextグループは「アーキテクチャConference 2026」にゴールドスポンサーで協賛しています！当社ブースで 「テックブログを見て来ました！」 とお伝えいただいた方には、もれなく当社のテックブック（物理本）を差し上げます！…",
+      "summary": "データ分析の新着が3件。2029-11-26 に開催された『アーキテクチャカンファレンス 2026』での登壇資料です。https://conference.findy-code.…",
       "articles": [
+        {
+          "title": "2026-11-26 LayerXにおけるAI Agentを支えるデータ基盤のアーキテクチャと設計思想 / The Architecture and Design Philosophy of the Data Platform For AI Agents at LayerX",
+          "link": "https://speakerdeck.com/civitaspo/the-architecture-and-design-philosophy-of-the-data-platform-for-ai-agents-at-layerx",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-26T19:56:13",
+          "excerpt": "2029-11-26 に開催された『アーキテクチャカンファレンス 2026』での登壇資料です。https://conference.findy-code.…"
+        },
+        {
+          "title": "インディーズ Web ブラウザ Ladybird がアルファテストに入る",
+          "link": "https://www.theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914",
+          "source": "The Register（英語）",
+          "published": "2026-11-26T18:15:00",
+          "excerpt": "Upstart エンジンはダウンロード可能な macOS および Linux ビルドを入手しますが、セキュリティは保証されません"
+        },
         {
           "title": "1 行のロックファイルで Alembic の head の分岐を防ぐ | Finatext Tech Blogのフィード",
           "link": "https://zenn.dev/finatext/articles/alembic-migration-head-lock",
           "source": "企業テックブログまとめ",
           "published": "2026-11-26T09:25:57",
           "excerpt": "Finatextグループは「アーキテクチャConference 2026」にゴールドスポンサーで協賛しています！当社ブースで 「テックブログを見て来ました！」 とお伝えいただいた方には、もれなく当社のテックブック（物理本）を差し上げます！…"
-        },
-        {
-          "title": "バーレーン・コミコンで日本発のVR・XRを熱狂体験！SHIFT Arabiaがウルトラマンと忍者で中東市場へ本格進出 | SHIFT Group 技術ブログ",
-          "link": "https://note.shiftinc.jp/n/n4d5746b2a44c",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-25T23:00:00",
-          "excerpt": "【Bahrain Comic Con 2026レポート】こんにちは、SHIFT Arabiaの鈴木です。続きをみる"
-        },
-        {
-          "title": "AWSで毎日英語ニュースの課題と解説が届くメール配信システムを作ってみた（Bedrock / Lambda / DynamoDB / SES）",
-          "link": "https://qiita.com/haniwa_qiita/items/f65e9086d9db0ab189e1",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-25T22:32:29",
-          "excerpt": "目次 はじめに 作ったもの・システム構成図 事前準備（SES・DynamoDB・Bedrock・IAM） Step 1：Amazon SES でメールアドレスを検証する Step 2：Amazon DynamoDB でテーブルを作成する S…"
-        },
-        {
-          "title": "1Password、従業員のGitHubアカウント経由で顧客の氏名とメールアドレスが流出したと発表 — BigGo ファイナンス",
-          "link": "https://finance.biggo.jp/news/86bd3431-ad2e-4b18-b885-4fb6393beb46",
-          "source": "はてなブックマーク（テクノロジー）",
-          "published": "2026-11-25T20:50:44",
-          "excerpt": "1Passwordは、攻撃者が侵害した従業員のGitHubアカウントを利用してバックエンドシステムに悪意あるコードを仕込み、一部ユーザーの氏名、ログイン用メールアドレス、公開鍵、アカウント識別子、ログイン日時をダウンロードしたと発表した。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が6件。開発者は Kiro を、ちょっとした質問から、多くのファイルにまたがり何往復も会話が続く作業まで、あらゆることに使っています。…",
+      "summary": "開発ツールの新着が4件。開発者は Kiro を、ちょっとした質問から、多くのファイルにまたがり何往復も会話が続く作業まで、あらゆることに使っています。…",
       "articles": [
         {
           "title": "開発者が Kiro に持ち込む作業で、コーディングエージェントをベンチマークする",
@@ -182,32 +175,32 @@
   ],
   "uncategorized": [
     {
-      "title": "さくらインターネットが大規模イベント開催。田中社長「日本から世界へ挑戦するためのデジタル基盤を支える」",
-      "link": "https://www.publickey1.jp/blog/26/post_311.html",
-      "source": "Publickey",
-      "published": "2026-11-26T15:50:16",
-      "excerpt": "さくらインターネットは11月25日と26日の2日間、同社にとって初のパートナーやデベロッパー向け大規模イベント「SAKURA DEKIRU Conference 2026」を都内で開催しました。2日目となる「Cloud/AI Day」の基.…"
+      "title": "Kiroでネットワークスペシャリスト試験のCBT演習サイトを作ってみた",
+      "link": "https://qiita.com/ss_IT_study/items/c71cdd9d86b72ec30770",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-26T23:38:17",
+      "excerpt": "目次 #1.はじめに #2.環境 #3.開発の流れ #4.画面イメージ #5.おわりに 1.はじめに 先日、現行制度では最後となるネットワークスペシャリスト試験を受験してきました。ネスペを含め、高度試験を受験されたみなさま、お疲れ様でした。…"
     },
     {
-      "title": "さくらのクラウド、新ネットワーク基盤、新データベースサービスなど投入。東京リージョン第三ゾーン新設も発表",
-      "link": "https://www.publickey1.jp/blog/26/post_310.html",
-      "source": "Publickey",
-      "published": "2026-11-26T15:47:22",
-      "excerpt": "さくらインターネットは11月25日と26日の2日間、大規模イベント「SAKURA DEKIRU Conference 2026」を都内で開催し、さくらのクラウドに関して東京リージョンの第三ゾーン、新ネットワーク基盤や新データベースサービスの…"
+      "title": "「履歴書に書けるスキル」ほどAIに代替される？ ──エンジニアが今こそ向き合うべき自己理解とメタ認知",
+      "link": "https://codezine.jp/article/detail/30334",
+      "source": "CodeZine",
+      "published": "2026-11-26T23:00:00",
+      "excerpt": "AIに聞けば、動かないコードはすぐに直る。だがその手軽さと引き換えに、エンジニアが自分を疑い、悩みながら育ってきた時間は失われつつある。…"
     },
     {
-      "title": "さくらインターネット、AIを月額固定料金で提供する「シンプルAI」発表、システムへの組み込み用途を想定",
-      "link": "https://www.publickey1.jp/blog/26/aiai_1.html",
-      "source": "Publickey",
-      "published": "2026-11-26T15:45:31",
-      "excerpt": "さくらインターネットは11月25日と26日の2日間、大規模イベント「SAKURA DEKIRU Conference 2026」を都内で開催。2日目の基調講演で、新サービスとして月額固定料金でAIを提供する「シンプルAI」を発表しました。.…"
+      "title": "「コスト削減」の“次”の成果、どう設定する？　ビジネス変革に結び付けるための「期待の中身」",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2611/27/news025.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-11-26T23:00:00",
+      "excerpt": "ITRの調査によると、AI導入時に期待する効果として上位に並ぶのは「業務コストの削減」や「業務時間の短縮」でした。AIをビジネス変革の切り札とする企業は、AIの成果を問う前に、何を期待するかから見直す必要があると筆者は提言します。"
     },
     {
-      "title": "フライトセンター旅行グループの侵害で「相当数の顧客記録」が押収される",
-      "link": "https://www.theregister.com/security/2026/11/26/significant-number-of-customer-records-pwned-in-flight-centre-travel-group-breach/5312360",
-      "source": "The Register（英語）",
-      "published": "2026-11-26T15:29:00",
-      "excerpt": "世界中で予約システムを標的とした同様の事件が相次ぐ最新の攻撃"
+      "title": "X、「ペアレンタルコントロール」を導入　メッセージ内容は見られず",
+      "link": "https://www.itmedia.co.jp/news/article/2611/27/2000003506/",
+      "source": "ITmedia NEWS",
+      "published": "2026-11-26T22:25:54",
+      "excerpt": "Xは、13?17歳のユーザーを対象とした「ペアレンタルコントロール」機能の提供を開始した。保護者は1日の利用上限時間や表示コンテンツ、フォロワー承認、DMの受信相手などを管理できる。…"
     }
   ]
 }
