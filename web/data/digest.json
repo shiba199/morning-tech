@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-11-27T16:51:58",
+  "generated_at": "2026-11-28T00:17:01",
   "window_hours": 24,
-  "total": 118,
+  "total": 109,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が19件。CloudWatch エージェントの設定をSSMパラメータストアで管理している場合、EC2（Windows）でログ収集パスを変更する手順を、パラメータ編集からRun Commandでの反映、動作確認まで紹介します。",
+      "summary": "生成AIの新着が15件。こんにちは！エニグモのQAチームです。生成AIの登場により、プロダクト開発のスピードは劇的に向上しています。…",
       "articles": [
+        {
+          "title": "生成AIでQA業務はどこまでラクになる？現場エンジニアの試行錯誤と思考 | エニグモ開発者ブログ",
+          "link": "https://tech.enigmo.co.jp/entry/2026/11/28/080000",
+          "source": "企業テックブログまとめ",
+          "published": "2026-11-27T23:00:00",
+          "excerpt": "こんにちは！エニグモのQAチームです。生成AIの登場により、プロダクト開発のスピードは劇的に向上しています。…"
+        },
+        {
+          "title": "Amazon Neptune introduces Neptune Graph Sessions, smaller graphs designed for agents that scale to zero and resume automatically",
+          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-neptune-graph-sessions-generally-available",
+          "source": "AWS What's New（英語）",
+          "published": "2026-11-27T19:00:00",
+          "excerpt": "Amazon Neptune now supports Neptune Graph Sessions, a compute mode designed for agents that scales memory and CPU automa…"
+        },
         {
           "title": "CloudWatch エージェントのログ収集パスを変更する手順（SSM パラメータストア + Run Command）",
           "link": "https://dev.classmethod.jp/articles/cloudwatch-agent-change-log-path/",
@@ -22,63 +36,56 @@
           "source": "Hacker News（英語）",
           "published": "2026-11-27T15:03:17",
           "excerpt": "Article URL: https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical Comments URL: https://news.…"
-        },
-        {
-          "title": "「SSM Agent を更新しても直らない」CVE-2026-134069 から学ぶ、今からでもやっておくべき AWS 運用の見直し",
-          "link": "https://qiita.com/yama3133/items/8532d2206344413376fe",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-27T13:50:06",
-          "excerpt": "はじめに 2026年11月23日(米国時間、日本時間では11月24日)に、Amazon SSM Agent の脆弱性 CVE-2026-134069 が公表されました。…"
-        },
-        {
-          "title": "Enterprise-Managed Authorization で実現する AI エージェントによる AWS への安全なアクセス",
-          "link": "https://aws.amazon.com/jp/blogs/news/secure-agentic-access-to-aws-with-enterprise-managed-authorization/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-11-27T12:22:24",
-          "excerpt": "AWS サインインが、ID-JAG を使用した Enterprise-Managed Authorization (EMA) のサポートを開始しました。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が4件。※この記事はおよそ11分で読むことができます（文字数：5,252文字） この記事を見つけてくれてありがとうございます！またお会いしましたね、こんにちは。相変わらずうだつの上がらないブラック社畜です。初めて御覧いただいた方は初めまして。…",
+      "summary": "クラウドの新着が6件。boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…",
       "articles": [
         {
-          "title": "【日替わりITトレンド：\"クラウド\"】Azure Migrateが「Azure Catalyst」に生まれ変わり、LambdaはGPU対応！最新クラウドニュースと「AIでクラウド引っ越し」入門",
-          "link": "https://qiita.com/mt_caddi/items/f46899fbc81162b13e03",
+          "title": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処",
+          "link": "https://qiita.com/IT-love-pug/items/dbf4b8353228c68b477f",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-27T13:20:42",
-          "excerpt": "※この記事はおよそ11分で読むことができます（文字数：5,252文字） この記事を見つけてくれてありがとうございます！またお会いしましたね、こんにちは。相変わらずうだつの上がらないブラック社畜です。初めて御覧いただいた方は初めまして。…"
+          "published": "2026-11-27T23:18:20",
+          "excerpt": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…"
         },
         {
-          "title": "gh-ostで2,500万行のテーブル変更をクエリ待ち1.31秒で通した話：Aurora MySQLへの導入と本番クローンでの検証 | Findy Tech Blog",
-          "link": "https://tech.findy.co.jp/entry/2026/11/27/070000",
-          "source": "企業テックブログまとめ",
-          "published": "2026-11-26T22:00:00",
-          "excerpt": "こんにちは、ファインディでFindy Team+の開発をしているrobinです。Findy Team+のバックエンドには数千万〜数億行を持つ巨大テーブルが複数あります。…"
+          "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+          "link": "https://tabernet.es/",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-27T23:00:30",
+          "excerpt": "Article URL: https://tabernet.es/ Comments URL: https://news.ycombinator.com/item?id=50672521 Points: 10 # Comments: 3"
         },
         {
-          "title": "脱メインフレームの“本丸”はコードではない　AIが苦戦する「40年物のデータ移行」",
-          "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/27/news019.html",
-          "source": "@IT",
-          "published": "2026-11-26T20:00:00",
-          "excerpt": "レガシーシステム移行のプロジェクト終盤で工数とリスクが膨らむのはデータ移行だ。長年蓄積されてきたデータには、設計書やソースコードからは読み解けない問題が潜んでいる。AIの活用が有効な作業と、人が担うべき判断を整理する。"
+          "title": "Amazon RDS for PostgreSQL 18.7 を試してみた",
+          "link": "https://dev.classmethod.jp/articles/rds-postgresql-18-7-minor-versions-cve-eol/",
+          "source": "DevelopersIO",
+          "published": "2026-11-27T18:04:11",
+          "excerpt": "PostgreSQL コミュニティが 2026年11月12日に公開したマイナーバージョンが、RDS で利用可能になりました。52 件の脆弱性が修正され、14 系は 14.25 が最終リリースになります。"
         },
         {
-          "title": "Amazon RDS for PostgreSQL は、マイナー バージョン 18.7、17.12、16.16、15.20、および 14.25 をサポートします。",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-18-7-17-12-16-16-15-20-14-25/",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-26T17:00:00",
-          "excerpt": "Amazon Relational Database Service (RDS) for PostgreSQL は、最新のマイナー バージョン 18.7、17.12、16.16、15.20、および 14.…"
+          "title": "ELB for Envoy 経由で Aurora（PostgreSQL / MySQL）への DB 接続を試してみた",
+          "link": "https://dev.classmethod.jp/articles/elb-for-envoy-aurora-tcp-proxy/",
+          "source": "DevelopersIO",
+          "published": "2026-11-27T17:34:52",
+          "excerpt": "Aurora PostgreSQL は、ELB for Envoy の tcp_proxy 経由で EC2 から接続できました。Aurora MySQL は、フィルターのタイムアウト後も接続を維持する指定により接続できました。"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が10件。はじめに 2026年11月25日付で、AWS Security Blog に 「Make post-quantum cryptography updates routine with AWS-LC」 という記事が公開されました。…",
+      "summary": "セキュリティの新着が12件。boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…",
       "articles": [
+        {
+          "title": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処",
+          "link": "https://qiita.com/IT-love-pug/items/dbf4b8353228c68b477f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-27T23:18:20",
+          "excerpt": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…"
+        },
         {
           "title": "AWS-LCの耐量子暗号を、手元とAWSのエンドポイントで測ってみた",
           "link": "https://qiita.com/yama3133/items/816879e92b19b59f6a04",
@@ -99,20 +106,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-27T13:50:06",
           "excerpt": "はじめに 2026年11月23日(米国時間、日本時間では11月24日)に、Amazon SSM Agent の脆弱性 CVE-2026-134069 が公表されました。…"
-        },
-        {
-          "title": "AWS のセキュリティ新機能: API と AI エンドポイントの検出から保護までを実現",
-          "link": "https://aws.amazon.com/jp/blogs/news/introducing-api-and-ai-security-on-aws-from-discovery-to-protection/",
-          "source": "AWS 公式ブログ（日本語）",
-          "published": "2026-11-27T12:23:09",
-          "excerpt": "AI エージェントが API を直接呼び出すようになった今、API と AI エンドポイントを検出して保護するために AWS が 2026 年 11 月に一般提供を開始した 3 つの新機能を紹介します。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が7件。True cost may be much higher for delayed SAP replacement that helped bankrupt the city",
+      "summary": "データ分析の新着が5件。True cost may be much higher for delayed SAP replacement that helped bankrupt the city",
       "articles": [
         {
           "title": "Bill for Birmingham's Oracle debacle reaches £128M",
@@ -147,8 +147,15 @@
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が3件。おはようございます、YASUです。今日は、CloudTrailのイベント履歴を、実際に画面で見てみました。AIに1つずつ手順を教えてもらいながら、進めました。面接の練習で、「EC2が止まっていた。誰が、いつ、何をしたか調べるには?…",
+      "summary": "開発ツールの新着が4件。boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…",
       "articles": [
+        {
+          "title": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処",
+          "link": "https://qiita.com/IT-love-pug/items/dbf4b8353228c68b477f",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-27T23:18:20",
+          "excerpt": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…"
+        },
         {
           "title": "CloudTrailを実際に見てみた。誰が、いつ、何をしたかと、画面かTerraformかまでわかった",
           "link": "https://zenn.dev/yasutomo7974/articles/cloudtrail-event-history-useragent",
@@ -175,32 +182,32 @@
   ],
   "uncategorized": [
     {
-      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
-      "link": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "title": "Why drivers want cheap, dumb cars again",
+      "link": "https://slate.com/business/2026/11/dumb-cars-cheap-low-tech.html",
       "source": "Hacker News（英語）",
-      "published": "2026-11-27T15:40:31",
-      "excerpt": "Article URL: https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer Comments URL: https://news.…"
+      "published": "2026-11-27T23:39:15",
+      "excerpt": "Article URL: https://slate.com/business/2026/11/dumb-cars-cheap-low-tech.html Comments URL: https://news.ycombinator.…"
     },
     {
-      "title": "Smartphone shipments face another bleak year before modest 2028 comeback",
-      "link": "https://www.theregister.com/personal-tech/2026/11/27/smartphone-shipments-face-another-bleak-year-before-modest-2028-comeback/5312580",
-      "source": "The Register（英語）",
-      "published": "2026-11-27T15:33:00",
-      "excerpt": "Counterpoint forecasts another 6% shipment drop in 2027, with volumes still below 2025 levels by decade's end"
-    },
-    {
-      "title": "Strands Decider の v1/v2 の仕組みと性能を理解する",
-      "link": "https://zenn.dev/aws_japan/articles/2026-11-27-strands-decider-v2",
-      "source": "Zenn AWSトピック",
-      "published": "2026-11-27T15:29:57",
-      "excerpt": "2026-09-15 に Jev という生成ではなく入力に対して分類に特化したモデルが発表 されました。…"
-    },
-    {
-      "title": "False Computer-Checked Proofs",
-      "link": "https://cr.yp.to/proofs/falseccp.html",
+      "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "link": "https://research.google/blog/supercharging-transformer-residual-connections/",
       "source": "Hacker News（英語）",
-      "published": "2026-11-27T15:26:09",
-      "excerpt": "Article URL: https://cr.yp.to/proofs/falseccp.html Comments URL: https://news.ycombinator.com/item?…"
+      "published": "2026-11-27T23:06:29",
+      "excerpt": "Article URL: https://research.google/blog/supercharging-transformer-residual-connections/ Comments URL: https://news.…"
+    },
+    {
+      "title": "「会員を識別し終えたクレカ番号、全16桁放置」「レガシーシステム闇仕様」　現場を襲う運用・技術・人の負債",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/28/news007.html",
+      "source": "@IT",
+      "published": "2026-11-27T23:00:00",
+      "excerpt": "＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。"
+    },
+    {
+      "title": "運用担当者はなぜ離脱するのか？　“消耗の背景”に迫る調査結果が発表",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2611/28/news005.html",
+      "source": "ITmedia エンタープライズ",
+      "published": "2026-11-27T23:00:00",
+      "excerpt": "システム障害に備えて勤務時間外も待機する、大企業の運用担当者。その過半数が、心身の消耗が続く状態にあると調査で回答した。2年以内に勤務先を離れる可能性が高いとした割合も半数を超える。消耗はなぜ続くのか。"
     }
   ]
 }
