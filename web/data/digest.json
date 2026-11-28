@@ -1,49 +1,63 @@
 {
-  "generated_at": "2026-11-28T08:11:43",
+  "generated_at": "2026-11-28T17:02:18",
   "window_hours": 24,
-  "total": 87,
+  "total": 74,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が10件。はじめに AgentCore Gateway のターゲットに、Step Functions が組み込みのコネクタとして追加されました。エージェントのツールから、ステートマシンを直接起動できます。…",
+      "summary": "生成AIの新着が11件。GPT 6 Luna が Kiro Enterprise で Preview として提供開始されました。クレジット倍率は前バージョンの GPT-5.6 Luna の 3分の1です。100K トークンを超えるリクエストでは Haiku 5.…",
       "articles": [
         {
-          "title": "【AWS】AgentCore Gateway と Step Functions の連携における2つの構成の比較 – エージェントが親か、ワークフローが親か",
-          "link": "https://qiita.com/yakumo_09/items/ad5b2afaf3673578e4e7",
+          "title": "Kiro Enterprise で GPT 6 Luna が Preview として利用できるようになりました",
+          "link": "https://dev.classmethod.jp/articles/kiro-enterprise-gpt-6-luna/",
+          "source": "DevelopersIO",
+          "published": "2026-11-28T15:48:58",
+          "excerpt": "GPT 6 Luna が Kiro Enterprise で Preview として提供開始されました。クレジット倍率は前バージョンの GPT-5.6 Luna の 3分の1です。100K トークンを超えるリクエストでは Haiku 5.…"
+        },
+        {
+          "title": "Claude Code GitHub Actionsが便利だしBedrockでも使えるし",
+          "link": "https://qiita.com/moritalous/items/acbd691de2c262dbbd08",
           "source": "Qiita AWSタグ",
-          "published": "2026-11-28T06:45:38",
-          "excerpt": "はじめに AgentCore Gateway のターゲットに、Step Functions が組み込みのコネクタとして追加されました。エージェントのツールから、ステートマシンを直接起動できます。…"
+          "published": "2026-11-28T14:54:56",
+          "excerpt": "Claude Code GitHub Actionsを今日、改めて導入したんですが、めっちゃ便利！ドキュメントはこちら。ざっと図にするとこんな感じ。…"
         },
         {
-          "title": "Hugging Face、最大1,000体のAIエージェントでルールベースのチャットボット「PyBot」を開発 ——開発用エージェントの運用ツールも公開",
-          "link": "https://gihyo.jp/article/2026/11/pybot?utm_source=feed",
-          "source": "gihyo.jp 開発",
-          "published": "2026-11-28T05:43:13",
-          "excerpt": "Hugging Faceの研究チームは2026年11月25日、AIエージェントが9日間かけてチャットボット「PyBot」を開発した実験の結果を公表した。チームは言語モデルDeepSeek-V4.…"
+          "title": "その使い方大丈夫？Amazon BedrockでClaude Codeをセキュアに利用するための環境を構築してみた",
+          "link": "https://qiita.com/orangist/items/3cdf5594e5bc363ac7bf",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-28T14:27:27",
+          "excerpt": "TL;DR ここ1年ほど、認証情報を狙う攻撃が続いています。悪性npmパッケージが端末上のClaude Codeなどを悪用して秘密情報を探したり、ワームがAWSキーを大量に抜き取ったり、盗んだAWSキーでBedrockを勝手に使われたり。…"
         },
         {
-          "title": "生成AIでQA業務はどこまでラクになる？現場エンジニアの試行錯誤と思考 | エニグモ開発者ブログ",
-          "link": "https://tech.enigmo.co.jp/entry/2026/11/28/080000",
+          "title": "Amazon Bedrock AgentCore MemoryへJSONを直接渡して長期記憶を作ってみた | Fusic 技術ブログのフィード",
+          "link": "https://zenn.dev/fusic/articles/6521c133a08f6a",
           "source": "企業テックブログまとめ",
-          "published": "2026-11-27T23:00:00",
-          "excerpt": "こんにちは！エニグモのQAチームです。生成AIの登場により、プロダクト開発のスピードは劇的に向上しています。…"
-        },
-        {
-          "title": "Amazon Neptune introduces Neptune Graph Sessions, smaller graphs designed for agents that scale to zero and resume automatically",
-          "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-neptune-graph-sessions-generally-available",
-          "source": "AWS What's New（英語）",
-          "published": "2026-11-27T19:00:00",
-          "excerpt": "Amazon Neptune now supports Neptune Graph Sessions, a compute mode designed for agents that scales memory and CPU automa…"
+          "published": "2026-11-28T12:17:37",
+          "excerpt": "Fusicのレオナです。Amazon Bedrock AgentCore Memory(以下、AgentCore Memory)は、AIエージェントの記憶を保存するマネージドサービスです。…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が11件。start-otel-enrichment で、課金対象の resource tag enrichment（取り込みに1GB あたり $0.…",
+      "summary": "クラウドの新着が13件。ELB for Envoy から別 VPC の ALB へ、通常の Transit Gateway 経由でも、CIDR が重複する VPC をつなぐ 1:1 NAT 経由でも、ホスト名を照合した HTTPS で転送できました。…",
       "articles": [
+        {
+          "title": "ELB for Envoy で Transit Gateway 越しの別 VPC の ALB へ HTTPS でリバースプロキシしてみた",
+          "link": "https://dev.classmethod.jp/articles/elb-for-envoy-transit-gateway-1to1-nat/",
+          "source": "DevelopersIO",
+          "published": "2026-11-28T15:11:23",
+          "excerpt": "ELB for Envoy から別 VPC の ALB へ、通常の Transit Gateway 経由でも、CIDR が重複する VPC をつなぐ 1:1 NAT 経由でも、ホスト名を照合した HTTPS で転送できました。…"
+        },
+        {
+          "title": "Amazon Route 53 のアフィニティルーティングを試してみた",
+          "link": "https://dev.classmethod.jp/articles/amazon-route53-az-affinity-routing/",
+          "source": "DevelopersIO",
+          "published": "2026-11-28T14:20:29",
+          "excerpt": "Amazon Route 53 のアフィニティルーティング（affinity routing）を試しました。…"
+        },
         {
           "title": "無料提供が始まった Basic OpenTelemetry enrichment を有効にして Lambda のメトリクスを PromQL で取得してみた",
           "link": "https://dev.classmethod.jp/articles/cloudwatch-basic-otel-enrichment-promql/",
@@ -52,96 +66,89 @@
           "excerpt": "start-otel-enrichment で、課金対象の resource tag enrichment（取り込みに1GB あたり $0.…"
         },
         {
-          "title": "EC2の「停止」と「終了」は何が違う？ 初心者がやりがちな課金ミスも合わせて解説",
-          "link": "https://zenn.dev/hisaki39/articles/de93a30ecaf0be",
+          "title": "ECS Managed Instancesを見送った判断を振り返る ── 見立ては外れたけど、Fargateで良かった",
+          "link": "https://zenn.dev/oimo555/articles/ecs-managed-instances-not-adopted",
           "source": "Zenn AWSトピック",
-          "published": "2026-11-28T02:42:59",
-          "excerpt": "AWSのマネジメントコンソールでEC2インスタンスを選ぶと、「インスタンスを停止」と「インスタンスを終了」という、似た名前の操作が並んでいます。ざっくり言うと、こういう違いです。停止：電源を落とすだけ。…"
-        },
-        {
-          "title": "Amazon CloudFrontで固定IPあるいは証明書を持つユーザーのみのアクセスを許可する構成",
-          "link": "https://zenn.dev/aws_japan/articles/cloudfront-mtls-ip-or-cert",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-28T02:37:47",
-          "excerpt": "社内向けや取引先向けの Web アプリケーションを、セキュリティグループの IP 許可リストで守っていることは多いと思います。…"
-        },
-        {
-          "title": "Atari Homebrew Awards Cancelled",
-          "link": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-28T02:03:25",
-          "excerpt": "Article URL: https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/ Comments URL: https://news.…"
+          "published": "2026-11-28T07:04:56",
+          "excerpt": "こんにちは。事業会社でSREをしている oimo です。この記事は、2025年9月に出たAWSサービス「ECS Managed Instances」を調べた結果、採用を見送ってECS on Fargateを選んだ話です。…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が9件。boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…",
+      "summary": "セキュリティの新着が5件。Sakana AI aims to strengthen Japan’s industrial competitiveness with homegrown AI models.",
       "articles": [
+        {
+          "title": "Sakana AI’s CEO says its homegrown models are about more than Japan’s national security",
+          "link": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/",
+          "source": "TechCrunch（英語）",
+          "published": "2026-11-28T14:00:00",
+          "excerpt": "Sakana AI aims to strengthen Japan’s industrial competitiveness with homegrown AI models."
+        },
+        {
+          "title": "AWSのセキュリティグループを可視化して設定確認を楽にする",
+          "link": "https://zenn.dev/enchanter_one/articles/b57a5294f14257",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-28T05:20:51",
+          "excerpt": "セキュリティグループの関係を、実際の AWS 環境から設定を取得して Mermaid 図として出力するツールを作成しました。コマンド名はsgzuで、お察しの通り、 sg = セキュリティグループ zu = 図 です。覚えやすいですね。…"
+        },
+        {
+          "title": "古い PHP / Laravel の脆弱性対応は、Rector と AI でだいたい簡単に終わる",
+          "link": "https://zenn.dev/miraizuk/articles/ae8db2bc3ff561",
+          "source": "はてなブックマーク（テクノロジー）",
+          "published": "2026-11-27T23:24:49",
+          "excerpt": "「脆弱性対応をしてほしい」と頼まれたとき、古い PHP や Laravel のシステムでまずやるべきことは、個別のパッチ当てではありません。サポートが切れたバージョンには、もうセキュリティ修正が出ないからです。…"
+        },
         {
           "title": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処",
           "link": "https://qiita.com/IT-love-pug/items/dbf4b8353228c68b477f",
           "source": "Qiita AWSタグ",
           "published": "2026-11-27T23:18:20",
           "excerpt": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…"
-        },
-        {
-          "title": "クラウド防御の境界線：L1-L3からWAF・K8s・エッジキャッシュまで",
-          "link": "https://zenn.dev/mt4110/articles/cloud-defense-limits",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-27T23:11:39",
-          "excerpt": "前回の記事では、OS の中に置く「防犯カメラ」としての eBPF を取り上げ、リングバッファからこぼれ落ちた欠測を数える話を書きました。…"
-        },
-        {
-          "title": "AWS-LCの耐量子暗号を、手元とAWSのエンドポイントで測ってみた",
-          "link": "https://qiita.com/yama3133/items/816879e92b19b59f6a04",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-27T16:10:17",
-          "excerpt": "はじめに 2026年11月25日付で、AWS Security Blog に 「Make post-quantum cryptography updates routine with AWS-LC」 という記事が公開されました。…"
-        },
-        {
-          "title": "Elastic Load Balancing for Envoy の ddos_protection と AWS WAF 連携を試してみた",
-          "link": "https://dev.classmethod.jp/articles/aws-elb-for-envoy-syn-cookie-waf/",
-          "source": "DevelopersIO",
-          "published": "2026-11-27T14:58:20",
-          "excerpt": "ddos_protection の SYN cookie mode を continuous にすると、SYN-ACK の形が変わり、不正な ACK に SYN-ACK を再送しなくなりました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が3件。True cost may be much higher for delayed SAP replacement that helped bankrupt the city",
+      "summary": "データ分析の新着が3件。Article URL: https://twitter.com/TimSweeneyEpic/status/2126682647862862063 Comments URL: https://news.ycombinator.…",
       "articles": [
         {
-          "title": "Bill for Birmingham's Oracle debacle reaches £128M",
-          "link": "https://www.theregister.com/public-sector/2026/11/27/bill-for-birminghams-oracle-debacle-reaches-128m/5312563",
-          "source": "The Register（英語）",
-          "published": "2026-11-27T14:03:00",
-          "excerpt": "True cost may be much higher for delayed SAP replacement that helped bankrupt the city"
+          "title": "Silently degrading the model's capabilities IS sabotage",
+          "link": "https://twitter.com/TimSweeneyEpic/status/2126682647862862063",
+          "source": "Hacker News（英語）",
+          "published": "2026-11-28T15:55:54",
+          "excerpt": "Article URL: https://twitter.com/TimSweeneyEpic/status/2126682647862862063 Comments URL: https://news.ycombinator.…"
         },
         {
-          "title": "OpenSearch Service の新エンジンがサポートした join、高カーディナリティ集計、query DSL を試してみた",
-          "link": "https://dev.classmethod.jp/articles/opensearch-new-engine-joins-and-dsl/",
+          "title": "Amazon Kinesis Data Streams がサポートしたキューを試してみた",
+          "link": "https://dev.classmethod.jp/articles/kinesis-data-streams-queues-getting-started/",
           "source": "DevelopersIO",
-          "published": "2026-11-27T13:43:52",
-          "excerpt": "単一ノードの新エンジンドメインで、100 万件のログに対し、PPL と SQL による約 51 万件の span との join、PPL の lookup、distinct な値の集計を実行しました。…"
+          "published": "2026-11-28T12:40:04",
+          "excerpt": "Amazon Kinesis Data Streams で、オンデマンドモードのデータストリームから、シャードを意識せずにデータを受信できるようになりました。AWS CLI でキューからレコードを受信して ack してみました。"
         },
         {
-          "title": "Books, bikes, and The Burbs: These are Ars staff’s holiday gift picks for 2026",
-          "link": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-11-27T11:30:04",
-          "excerpt": "We polled the Ars staff about their favorite pickups this year; here's the list."
+          "title": "AWS Continuum for Code Vulnerabilities を本番PHPリポジトリで検証してみた",
+          "link": "https://zenn.dev/mafukuda/articles/aws-continuum-code-vuln-review",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-28T08:38:45",
+          "excerpt": "GA した AWS Continuum for Code Vulnerabilities を、実在の本番 PHP リポジトリ（自前コード約4.5万行）に S3 連携で実際にかけて、公称どおりの精度・挙動なのかを確かめました。…"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が4件。The Fortinet NSE7_CDS_AR-7.6 exam (Fortinet NSE 7 - Public Cloud Security 7.6.…",
+      "summary": "開発ツールの新着が4件。Claude Code GitHub Actionsを今日、改めて導入したんですが、めっちゃ便利！ドキュメントはこちら。ざっと図にするとこんな感じ。…",
       "articles": [
+        {
+          "title": "Claude Code GitHub Actionsが便利だしBedrockでも使えるし",
+          "link": "https://qiita.com/moritalous/items/acbd691de2c262dbbd08",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-28T14:54:56",
+          "excerpt": "Claude Code GitHub Actionsを今日、改めて導入したんですが、めっちゃ便利！ドキュメントはこちら。ざっと図にするとこんな感じ。…"
+        },
         {
           "title": "NSE7_CDS_AR-7.6 Technical Guide: FortiGate HA in AWS and Azure, Terraform Routes, SDN Connectors and Cloud Troubleshooting",
           "link": "https://qiita.com/AninditaKumar/items/786b4db394f49adea1e7",
@@ -150,57 +157,50 @@
           "excerpt": "The Fortinet NSE7_CDS_AR-7.6 exam (Fortinet NSE 7 - Public Cloud Security 7.6.…"
         },
         {
+          "title": "社内向けAmazon BedrockをPoCから本番水準に引き上げる5つのTerraform実務設計",
+          "link": "https://zenn.dev/cerezohack/articles/acad49303f793a",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-28T06:25:02",
+          "excerpt": "この記事の対象読者 社内でAmazon Bedrockを使ったチャット・業務自動化PoCを進めている情シス・インフラ担当の方 顧客向けに「閉域・監査ログ・ガードレール・予算制御」を満たすBedrock基盤を設計したいSIer・SREの方 A…"
+        },
+        {
           "title": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処",
           "link": "https://qiita.com/IT-love-pug/items/dbf4b8353228c68b477f",
           "source": "Qiita AWSタグ",
           "published": "2026-11-27T23:18:20",
           "excerpt": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…"
-        },
-        {
-          "title": "CloudTrailを実際に見てみた。誰が、いつ、何をしたかと、画面かTerraformかまでわかった",
-          "link": "https://zenn.dev/yasutomo7974/articles/cloudtrail-event-history-useragent",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-27T09:04:48",
-          "excerpt": "おはようございます、YASUです。今日は、CloudTrailのイベント履歴を、実際に画面で見てみました。AIに1つずつ手順を教えてもらいながら、進めました。面接の練習で、「EC2が止まっていた。誰が、いつ、何をしたか調べるには?…"
-        },
-        {
-          "title": "Agentic CX Designer のアプリケーションを SDK でコード管理してみた",
-          "link": "https://zenn.dev/aws_japan/articles/92ccd59867575d",
-          "source": "Zenn AWSトピック",
-          "published": "2026-11-27T08:48:37",
-          "excerpt": "Amazon Connect の Agentic CX Designer (以下 ACXD) では、AI エージェントとの会話の流れを、ワークスペースの画面でノードをつないで組み立てられます。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "初めての re:Invent に行ってきます！",
-      "link": "https://qiita.com/s_moriyama/items/201f4b9bc5a3dab28a98",
+      "title": "This new sports app is designed specifically for women’s sports",
+      "link": "https://techcrunch.com/2026/11/28/this-new-sports-app-is-designed-specifically-for-womens-sports/",
+      "source": "TechCrunch（英語）",
+      "published": "2026-11-28T16:43:39",
+      "excerpt": "A new sports app is looking to change the way fans engage with women’s sports — without real-money gambling."
+    },
+    {
+      "title": "Physics Breakthrough Simulator",
+      "link": "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-28T14:52:45",
+      "excerpt": "Article URL: https://pages.ethanmdavidson.com/ai-physics-breakthrough Comments URL: https://news.ycombinator.com/item?…"
+    },
+    {
+      "title": "Google will soon share Android developers' addresses publicly",
+      "link": "https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/",
+      "source": "Hacker News（英語）",
+      "published": "2026-11-28T14:23:44",
+      "excerpt": "Article URL: https://www.engadget.…"
+    },
+    {
+      "title": "AWS Certified AI Business Strategist（AIB-C01）ベータ試験　合格体験記",
+      "link": "https://qiita.com/hiratak/items/310b0889ae6987aaef7f",
       "source": "Qiita AWSタグ",
-      "published": "2026-11-28T07:50:01",
-      "excerpt": "はじめに 初めて AWS re:Invent へ現地参加します！今回は、個人ではなく所属する会社の一メンバーとして参加することになっています。まずは、このような素晴らしい機会をいただいたことに感謝したいです、ありがとうございます。…"
-    },
-    {
-      "title": "【AWS】Goを使って型安全なMCPサーバーを作る！",
-      "link": "https://qiita.com/kuracchi_enj/items/216aceff58321dc418fb",
-      "source": "Qiita AWSタグ",
-      "published": "2026-11-28T06:07:58",
-      "excerpt": "どうもこんにちは。今回は、久々にAI関連の記事を書こうかなと思います。試したいやつがあったんですよね。これです。S3 Vectorsの全文検索とハイブリッド検索。一年以上前かなぁ、S3 Vectorsが出たのって。…"
-    },
-    {
-      "title": "CloudWatch の AWS 提供メトリクスに基本エンリッチメントの概念が生まれ、追加料金無しで OpenTelemetry メトリクス化できるようになりました（リソースタグも含める場合は追加課金）",
-      "link": "https://dev.classmethod.jp/articles/cloudwatch-aws-vended-basic-metric-free/",
-      "source": "DevelopersIO",
-      "published": "2026-11-28T05:56:47",
-      "excerpt": "PromQL を使わない理由がどんどん消えていく"
-    },
-    {
-      "title": "ELB for Envoy の IP 1 つあたりの帯域と同時接続数を測ってみた",
-      "link": "https://dev.classmethod.jp/articles/elb-for-envoy-per-ip-throughput/",
-      "source": "DevelopersIO",
-      "published": "2026-11-28T05:52:27",
-      "excerpt": "Elastic Load Balancing (ELB) for Envoy 経由で Nginx の HTTP 配信性能を m9g.2xlarge で測ると、IP 1 つあたり約 12 Gbps、20,000 の同時接続も可能でした。…"
+      "published": "2026-11-28T14:12:54",
+      "excerpt": "初めに 「AWS Certified AI Business Strategist」試験に無事合格することができましたので、合格までに取り組んだことや、実際に試験を受けて感じたことをお伝えしたいと思います。…"
     }
   ]
 }
