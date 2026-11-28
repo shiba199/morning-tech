@@ -1,14 +1,28 @@
 {
-  "generated_at": "2026-11-28T00:17:01",
+  "generated_at": "2026-11-28T08:11:43",
   "window_hours": 24,
-  "total": 109,
+  "total": 87,
   "topic_count": 5,
   "groups": [
     {
       "id": "ai",
       "label": "生成AI",
-      "summary": "生成AIの新着が15件。こんにちは！エニグモのQAチームです。生成AIの登場により、プロダクト開発のスピードは劇的に向上しています。…",
+      "summary": "生成AIの新着が10件。はじめに AgentCore Gateway のターゲットに、Step Functions が組み込みのコネクタとして追加されました。エージェントのツールから、ステートマシンを直接起動できます。…",
       "articles": [
+        {
+          "title": "【AWS】AgentCore Gateway と Step Functions の連携における2つの構成の比較 – エージェントが親か、ワークフローが親か",
+          "link": "https://qiita.com/yakumo_09/items/ad5b2afaf3673578e4e7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-28T06:45:38",
+          "excerpt": "はじめに AgentCore Gateway のターゲットに、Step Functions が組み込みのコネクタとして追加されました。エージェントのツールから、ステートマシンを直接起動できます。…"
+        },
+        {
+          "title": "Hugging Face、最大1,000体のAIエージェントでルールベースのチャットボット「PyBot」を開発 ——開発用エージェントの運用ツールも公開",
+          "link": "https://gihyo.jp/article/2026/11/pybot?utm_source=feed",
+          "source": "gihyo.jp 開発",
+          "published": "2026-11-28T05:43:13",
+          "excerpt": "Hugging Faceの研究チームは2026年11月25日、AIエージェントが9日間かけてチャットボット「PyBot」を開発した実験の結果を公表した。チームは言語モデルDeepSeek-V4.…"
+        },
         {
           "title": "生成AIでQA業務はどこまでラクになる？現場エンジニアの試行錯誤と思考 | エニグモ開発者ブログ",
           "link": "https://tech.enigmo.co.jp/entry/2026/11/28/080000",
@@ -22,62 +36,48 @@
           "source": "AWS What's New（英語）",
           "published": "2026-11-27T19:00:00",
           "excerpt": "Amazon Neptune now supports Neptune Graph Sessions, a compute mode designed for agents that scales memory and CPU automa…"
-        },
-        {
-          "title": "CloudWatch エージェントのログ収集パスを変更する手順（SSM パラメータストア + Run Command）",
-          "link": "https://dev.classmethod.jp/articles/cloudwatch-agent-change-log-path/",
-          "source": "DevelopersIO",
-          "published": "2026-11-27T15:04:36",
-          "excerpt": "CloudWatch エージェントの設定をSSMパラメータストアで管理している場合、EC2（Windows）でログ収集パスを変更する手順を、パラメータ編集からRun Commandでの反映、動作確認まで紹介します。"
-        },
-        {
-          "title": "GPT 6.2 Astra Solves a Historical Mystery",
-          "link": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
-          "source": "Hacker News（英語）",
-          "published": "2026-11-27T15:03:17",
-          "excerpt": "Article URL: https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical Comments URL: https://news.…"
         }
       ]
     },
     {
       "id": "cloud",
       "label": "クラウド",
-      "summary": "クラウドの新着が6件。boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…",
+      "summary": "クラウドの新着が11件。start-otel-enrichment で、課金対象の resource tag enrichment（取り込みに1GB あたり $0.…",
       "articles": [
         {
-          "title": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処",
-          "link": "https://qiita.com/IT-love-pug/items/dbf4b8353228c68b477f",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-27T23:18:20",
-          "excerpt": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…"
+          "title": "無料提供が始まった Basic OpenTelemetry enrichment を有効にして Lambda のメトリクスを PromQL で取得してみた",
+          "link": "https://dev.classmethod.jp/articles/cloudwatch-basic-otel-enrichment-promql/",
+          "source": "DevelopersIO",
+          "published": "2026-11-28T07:10:47",
+          "excerpt": "start-otel-enrichment で、課金対象の resource tag enrichment（取り込みに1GB あたり $0.…"
         },
         {
-          "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
-          "link": "https://tabernet.es/",
+          "title": "EC2の「停止」と「終了」は何が違う？ 初心者がやりがちな課金ミスも合わせて解説",
+          "link": "https://zenn.dev/hisaki39/articles/de93a30ecaf0be",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-28T02:42:59",
+          "excerpt": "AWSのマネジメントコンソールでEC2インスタンスを選ぶと、「インスタンスを停止」と「インスタンスを終了」という、似た名前の操作が並んでいます。ざっくり言うと、こういう違いです。停止：電源を落とすだけ。…"
+        },
+        {
+          "title": "Amazon CloudFrontで固定IPあるいは証明書を持つユーザーのみのアクセスを許可する構成",
+          "link": "https://zenn.dev/aws_japan/articles/cloudfront-mtls-ip-or-cert",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-28T02:37:47",
+          "excerpt": "社内向けや取引先向けの Web アプリケーションを、セキュリティグループの IP 許可リストで守っていることは多いと思います。…"
+        },
+        {
+          "title": "Atari Homebrew Awards Cancelled",
+          "link": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
           "source": "Hacker News（英語）",
-          "published": "2026-11-27T23:00:30",
-          "excerpt": "Article URL: https://tabernet.es/ Comments URL: https://news.ycombinator.com/item?id=50672521 Points: 10 # Comments: 3"
-        },
-        {
-          "title": "Amazon RDS for PostgreSQL 18.7 を試してみた",
-          "link": "https://dev.classmethod.jp/articles/rds-postgresql-18-7-minor-versions-cve-eol/",
-          "source": "DevelopersIO",
-          "published": "2026-11-27T18:04:11",
-          "excerpt": "PostgreSQL コミュニティが 2026年11月12日に公開したマイナーバージョンが、RDS で利用可能になりました。52 件の脆弱性が修正され、14 系は 14.25 が最終リリースになります。"
-        },
-        {
-          "title": "ELB for Envoy 経由で Aurora（PostgreSQL / MySQL）への DB 接続を試してみた",
-          "link": "https://dev.classmethod.jp/articles/elb-for-envoy-aurora-tcp-proxy/",
-          "source": "DevelopersIO",
-          "published": "2026-11-27T17:34:52",
-          "excerpt": "Aurora PostgreSQL は、ELB for Envoy の tcp_proxy 経由で EC2 から接続できました。Aurora MySQL は、フィルターのタイムアウト後も接続を維持する指定により接続できました。"
+          "published": "2026-11-28T02:03:25",
+          "excerpt": "Article URL: https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/ Comments URL: https://news.…"
         }
       ]
     },
     {
       "id": "sec",
       "label": "セキュリティ",
-      "summary": "セキュリティの新着が12件。boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…",
+      "summary": "セキュリティの新着が9件。boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…",
       "articles": [
         {
           "title": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処",
@@ -85,6 +85,13 @@
           "source": "Qiita AWSタグ",
           "published": "2026-11-27T23:18:20",
           "excerpt": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…"
+        },
+        {
+          "title": "クラウド防御の境界線：L1-L3からWAF・K8s・エッジキャッシュまで",
+          "link": "https://zenn.dev/mt4110/articles/cloud-defense-limits",
+          "source": "Zenn AWSトピック",
+          "published": "2026-11-27T23:11:39",
+          "excerpt": "前回の記事では、OS の中に置く「防犯カメラ」としての eBPF を取り上げ、リングバッファからこぼれ落ちた欠測を数える話を書きました。…"
         },
         {
           "title": "AWS-LCの耐量子暗号を、手元とAWSのエンドポイントで測ってみた",
@@ -99,20 +106,13 @@
           "source": "DevelopersIO",
           "published": "2026-11-27T14:58:20",
           "excerpt": "ddos_protection の SYN cookie mode を continuous にすると、SYN-ACK の形が変わり、不正な ACK に SYN-ACK を再送しなくなりました。…"
-        },
-        {
-          "title": "「SSM Agent を更新しても直らない」CVE-2026-134069 から学ぶ、今からでもやっておくべき AWS 運用の見直し",
-          "link": "https://qiita.com/yama3133/items/8532d2206344413376fe",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-27T13:50:06",
-          "excerpt": "はじめに 2026年11月23日(米国時間、日本時間では11月24日)に、Amazon SSM Agent の脆弱性 CVE-2026-134069 が公表されました。…"
         }
       ]
     },
     {
       "id": "data",
       "label": "データ分析",
-      "summary": "データ分析の新着が5件。True cost may be much higher for delayed SAP replacement that helped bankrupt the city",
+      "summary": "データ分析の新着が3件。True cost may be much higher for delayed SAP replacement that helped bankrupt the city",
       "articles": [
         {
           "title": "Bill for Birmingham's Oracle debacle reaches £128M",
@@ -134,21 +134,21 @@
           "source": "Ars Technica（英語）",
           "published": "2026-11-27T11:30:04",
           "excerpt": "We polled the Ars staff about their favorite pickups this year; here's the list."
-        },
-        {
-          "title": "Volvo's big batteries: We drive its updated 2028 plug-in hybrids",
-          "link": "https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/",
-          "source": "Ars Technica（英語）",
-          "published": "2026-11-27T08:00:53",
-          "excerpt": "There’s just one thing we still don’t know: How much will they cost?"
         }
       ]
     },
     {
       "id": "dev",
       "label": "開発ツール",
-      "summary": "開発ツールの新着が4件。boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処 PythonからAWSを操作するときの標準的な方法が boto3（AWS SDK for Python）で…",
+      "summary": "開発ツールの新着が4件。The Fortinet NSE7_CDS_AR-7.6 exam (Fortinet NSE 7 - Public Cloud Security 7.6.…",
       "articles": [
+        {
+          "title": "NSE7_CDS_AR-7.6 Technical Guide: FortiGate HA in AWS and Azure, Terraform Routes, SDN Connectors and Cloud Troubleshooting",
+          "link": "https://qiita.com/AninditaKumar/items/786b4db394f49adea1e7",
+          "source": "Qiita AWSタグ",
+          "published": "2026-11-28T07:39:19",
+          "excerpt": "The Fortinet NSE7_CDS_AR-7.6 exam (Fortinet NSE 7 - Public Cloud Security 7.6.…"
+        },
         {
           "title": "boto3入門：PythonからAWS（S3）を操作する — clientとresourceの違いと、つまずきやすい認証・エラー対処",
           "link": "https://qiita.com/IT-love-pug/items/dbf4b8353228c68b477f",
@@ -169,45 +169,38 @@
           "source": "Zenn AWSトピック",
           "published": "2026-11-27T08:48:37",
           "excerpt": "Amazon Connect の Agentic CX Designer (以下 ACXD) では、AI エージェントとの会話の流れを、ワークスペースの画面でノードをつないで組み立てられます。…"
-        },
-        {
-          "title": "AWSのリソースをコンソールの手作業で作ってきたが、IaCにしようとすると、CDKのスタックやコンストラクトをどう分けて、どうリリースするのか決められないエンジニアへ",
-          "link": "https://qiita.com/yasu1109/items/d2069ceeb1b8192dc7f3",
-          "source": "Qiita AWSタグ",
-          "published": "2026-11-27T03:53:34",
-          "excerpt": "AWSのリソースを、これまでコンソールの手作業で作ってきた。そろそろコードにしたいと思ってCDKを触り始めたものの、スタックやコンストラクトをどう分けるか、どうリリースするかで手が止まる。…"
         }
       ]
     }
   ],
   "uncategorized": [
     {
-      "title": "Why drivers want cheap, dumb cars again",
-      "link": "https://slate.com/business/2026/11/dumb-cars-cheap-low-tech.html",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-27T23:39:15",
-      "excerpt": "Article URL: https://slate.com/business/2026/11/dumb-cars-cheap-low-tech.html Comments URL: https://news.ycombinator.…"
+      "title": "初めての re:Invent に行ってきます！",
+      "link": "https://qiita.com/s_moriyama/items/201f4b9bc5a3dab28a98",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-28T07:50:01",
+      "excerpt": "はじめに 初めて AWS re:Invent へ現地参加します！今回は、個人ではなく所属する会社の一メンバーとして参加することになっています。まずは、このような素晴らしい機会をいただいたことに感謝したいです、ありがとうございます。…"
     },
     {
-      "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
-      "link": "https://research.google/blog/supercharging-transformer-residual-connections/",
-      "source": "Hacker News（英語）",
-      "published": "2026-11-27T23:06:29",
-      "excerpt": "Article URL: https://research.google/blog/supercharging-transformer-residual-connections/ Comments URL: https://news.…"
+      "title": "【AWS】Goを使って型安全なMCPサーバーを作る！",
+      "link": "https://qiita.com/kuracchi_enj/items/216aceff58321dc418fb",
+      "source": "Qiita AWSタグ",
+      "published": "2026-11-28T06:07:58",
+      "excerpt": "どうもこんにちは。今回は、久々にAI関連の記事を書こうかなと思います。試したいやつがあったんですよね。これです。S3 Vectorsの全文検索とハイブリッド検索。一年以上前かなぁ、S3 Vectorsが出たのって。…"
     },
     {
-      "title": "「会員を識別し終えたクレカ番号、全16桁放置」「レガシーシステム闇仕様」　現場を襲う運用・技術・人の負債",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/28/news007.html",
-      "source": "@IT",
-      "published": "2026-11-27T23:00:00",
-      "excerpt": "＠ITで公開された記事の中から、特に注目を集めた10本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。"
+      "title": "CloudWatch の AWS 提供メトリクスに基本エンリッチメントの概念が生まれ、追加料金無しで OpenTelemetry メトリクス化できるようになりました（リソースタグも含める場合は追加課金）",
+      "link": "https://dev.classmethod.jp/articles/cloudwatch-aws-vended-basic-metric-free/",
+      "source": "DevelopersIO",
+      "published": "2026-11-28T05:56:47",
+      "excerpt": "PromQL を使わない理由がどんどん消えていく"
     },
     {
-      "title": "運用担当者はなぜ離脱するのか？　“消耗の背景”に迫る調査結果が発表",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2611/28/news005.html",
-      "source": "ITmedia エンタープライズ",
-      "published": "2026-11-27T23:00:00",
-      "excerpt": "システム障害に備えて勤務時間外も待機する、大企業の運用担当者。その過半数が、心身の消耗が続く状態にあると調査で回答した。2年以内に勤務先を離れる可能性が高いとした割合も半数を超える。消耗はなぜ続くのか。"
+      "title": "ELB for Envoy の IP 1 つあたりの帯域と同時接続数を測ってみた",
+      "link": "https://dev.classmethod.jp/articles/elb-for-envoy-per-ip-throughput/",
+      "source": "DevelopersIO",
+      "published": "2026-11-28T05:52:27",
+      "excerpt": "Elastic Load Balancing (ELB) for Envoy 経由で Nginx の HTTP 配信性能を m9g.2xlarge で測ると、IP 1 つあたり約 12 Gbps、20,000 の同時接続も可能でした。…"
     }
   ]
 }
